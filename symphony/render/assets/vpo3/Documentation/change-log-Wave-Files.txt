@@ -1,0 +1,20 @@
+Version 3.2 Jun 27 2026
+-----------------------
+- piccolo-d#5-PB-loop.wav sustain sounded like a double note was being played,
+the waveform was adjusted to smooth that out
+- REMOVED solo viola staccato samples (staccato is now generated from sustain)
+- REMOVED solo bassoon staccato samples (staccato is now generated from sustain)
+
+Version 3.1 - June 12, 2018
+---------------------------
+- added: alto flute, bass clarinet, contrabassoon, bass trombone, celesta
+
+Version 3.0 - Feb 10, 2018
+-------------------------
+- [ First Public Release ]
+
+This is a split from the previous Virtual-Playing-Orchestra2 library
+
+- removed VSCO2-CE solo trombone samples. No longer being used for staccato
+articulation
+

@@ -1,0 +1,132 @@
+{
+ "sf2": "/usr/share/sounds/sf2/FluidR3_GM.sf2",
+ "render": "fluidsynth -ni -g 0.6 -r 44100 -R 0 -C 0 -F {wav} {sf2} {midi}",
+ "programs": {
+  "41": {
+   "LUFS_vel64": -29.0,
+   "range_32_to_127_dB": 24.0,
+   "centroid_vel32_Hz": 643.0,
+   "centroid_vel127_Hz": 644.0,
+   "brightening_oct": 0.0
+  },
+  "42": {
+   "LUFS_vel64": -30.2,
+   "range_32_to_127_dB": 24.0,
+   "centroid_vel32_Hz": 406.0,
+   "centroid_vel127_Hz": 406.0,
+   "brightening_oct": 0.0
+  },
+  "43": {
+   "LUFS_vel64": -31.3,
+   "range_32_to_127_dB": 24.0,
+   "centroid_vel32_Hz": 95.0,
+   "centroid_vel127_Hz": 95.0,
+   "brightening_oct": 0.0
+  },
+  "44": {
+   "LUFS_vel64": -32.4,
+   "range_32_to_127_dB": 23.7,
+   "centroid_vel32_Hz": 484.0,
+   "centroid_vel127_Hz": 485.0,
+   "brightening_oct": 0.0
+  },
+  "45": {
+   "LUFS_vel64": -42.9,
+   "range_32_to_127_dB": 24.0,
+   "centroid_vel32_Hz": 215.0,
+   "centroid_vel127_Hz": 215.0,
+   "brightening_oct": 0.0
+  },
+  "46": {
+   "LUFS_vel64": -38.5,
+   "range_32_to_127_dB": 23.9,
+   "centroid_vel32_Hz": 265.0,
+   "centroid_vel127_Hz": 265.0,
+   "brightening_oct": 0.0
+  },
+  "47": {
+   "LUFS_vel64": -50.5,
+   "range_32_to_127_dB": 24.5,
+   "centroid_vel32_Hz": 289.0,
+   "centroid_vel127_Hz": 364.0,
+   "brightening_oct": 0.33
+  },
+  "48": {
+   "LUFS_vel64": -31.5,
+   "range_32_to_127_dB": 24.0,
+   "centroid_vel32_Hz": 779.0,
+   "centroid_vel127_Hz": 775.0,
+   "brightening_oct": -0.01
+  },
+  "49": {
+   "LUFS_vel64": -28.8,
+   "range_32_to_127_dB": 24.0,
+   "centroid_vel32_Hz": 785.0,
+   "centroid_vel127_Hz": 785.0,
+   "brightening_oct": 0.0
+  },
+  "56": {
+   "LUFS_vel64": -32.7,
+   "range_32_to_127_dB": 26.0,
+   "centroid_vel32_Hz": 1187.0,
+   "centroid_vel127_Hz": 1549.0,
+   "brightening_oct": 0.38
+  },
+  "57": {
+   "LUFS_vel64": -28.3,
+   "range_32_to_127_dB": 24.6,
+   "centroid_vel32_Hz": 771.0,
+   "centroid_vel127_Hz": 839.0,
+   "brightening_oct": 0.12
+  },
+  "58": {
+   "LUFS_vel64": -30.5,
+   "range_32_to_127_dB": 24.0,
+   "centroid_vel32_Hz": 131.0,
+   "centroid_vel127_Hz": 131.0,
+   "brightening_oct": 0.0
+  },
+  "60": {
+   "LUFS_vel64": -30.4,
+   "range_32_to_127_dB": 23.7,
+   "centroid_vel32_Hz": 438.0,
+   "centroid_vel127_Hz": 452.0,
+   "brightening_oct": 0.05
+  },
+  "68": {
+   "LUFS_vel64": -25.3,
+   "range_32_to_127_dB": 24.0,
+   "centroid_vel32_Hz": 1260.0,
+   "centroid_vel127_Hz": 1260.0,
+   "brightening_oct": 0.0
+  },
+  "69": {
+   "LUFS_vel64": -29.1,
+   "range_32_to_127_dB": 24.0,
+   "centroid_vel32_Hz": 761.0,
+   "centroid_vel127_Hz": 761.0,
+   "brightening_oct": 0.0
+  },
+  "70": {
+   "LUFS_vel64": -29.9,
+   "range_32_to_127_dB": 24.0,
+   "centroid_vel32_Hz": 439.0,
+   "centroid_vel127_Hz": 439.0,
+   "brightening_oct": 0.0
+  },
+  "71": {
+   "LUFS_vel64": -26.0,
+   "range_32_to_127_dB": 24.3,
+   "centroid_vel32_Hz": 1651.0,
+   "centroid_vel127_Hz": 1714.0,
+   "brightening_oct": 0.05
+  },
+  "73": {
+   "LUFS_vel64": -29.4,
+   "range_32_to_127_dB": 24.0,
+   "centroid_vel32_Hz": 870.0,
+   "centroid_vel127_Hz": 870.0,
+   "brightening_oct": 0.0
+  }
+ }
+}

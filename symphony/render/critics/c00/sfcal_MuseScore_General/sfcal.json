@@ -1,0 +1,132 @@
+{
+ "sf2": "assets/sf2/MuseScore_General.sf2",
+ "render": "fluidsynth -ni -g 0.6 -r 44100 -R 0 -C 0 -F {wav} {sf2} {midi}",
+ "programs": {
+  "41": {
+   "LUFS_vel64": -31.2,
+   "range_32_to_127_dB": 19.9,
+   "centroid_vel32_Hz": 832.0,
+   "centroid_vel127_Hz": 832.0,
+   "brightening_oct": 0.0
+  },
+  "42": {
+   "LUFS_vel64": -30.0,
+   "range_32_to_127_dB": 20.0,
+   "centroid_vel32_Hz": 342.0,
+   "centroid_vel127_Hz": 340.0,
+   "brightening_oct": -0.01
+  },
+  "43": {
+   "LUFS_vel64": -33.7,
+   "range_32_to_127_dB": 19.9,
+   "centroid_vel32_Hz": 115.0,
+   "centroid_vel127_Hz": 115.0,
+   "brightening_oct": 0.0
+  },
+  "44": {
+   "LUFS_vel64": -40.2,
+   "range_32_to_127_dB": 19.0,
+   "centroid_vel32_Hz": 478.0,
+   "centroid_vel127_Hz": 491.0,
+   "brightening_oct": 0.04
+  },
+  "45": {
+   "LUFS_vel64": -50.4,
+   "range_32_to_127_dB": 23.6,
+   "centroid_vel32_Hz": 216.0,
+   "centroid_vel127_Hz": 215.0,
+   "brightening_oct": -0.01
+  },
+  "46": {
+   "LUFS_vel64": -39.5,
+   "range_32_to_127_dB": 19.8,
+   "centroid_vel32_Hz": 264.0,
+   "centroid_vel127_Hz": 264.0,
+   "brightening_oct": 0.0
+  },
+  "47": {
+   "LUFS_vel64": -46.7,
+   "range_32_to_127_dB": 20.4,
+   "centroid_vel32_Hz": 278.0,
+   "centroid_vel127_Hz": 360.0,
+   "brightening_oct": 0.37
+  },
+  "48": {
+   "LUFS_vel64": -31.5,
+   "range_32_to_127_dB": 19.9,
+   "centroid_vel32_Hz": 777.0,
+   "centroid_vel127_Hz": 779.0,
+   "brightening_oct": 0.0
+  },
+  "49": {
+   "LUFS_vel64": -31.6,
+   "range_32_to_127_dB": 20.1,
+   "centroid_vel32_Hz": 783.0,
+   "centroid_vel127_Hz": 781.0,
+   "brightening_oct": -0.0
+  },
+  "56": {
+   "LUFS_vel64": -27.7,
+   "range_32_to_127_dB": 18.2,
+   "centroid_vel32_Hz": 1376.0,
+   "centroid_vel127_Hz": 1554.0,
+   "brightening_oct": 0.18
+  },
+  "57": {
+   "LUFS_vel64": -24.8,
+   "range_32_to_127_dB": 18.6,
+   "centroid_vel32_Hz": 717.0,
+   "centroid_vel127_Hz": 839.0,
+   "brightening_oct": 0.23
+  },
+  "58": {
+   "LUFS_vel64": -27.3,
+   "range_32_to_127_dB": 17.4,
+   "centroid_vel32_Hz": 131.0,
+   "centroid_vel127_Hz": 131.0,
+   "brightening_oct": 0.0
+  },
+  "60": {
+   "LUFS_vel64": -30.0,
+   "range_32_to_127_dB": 18.0,
+   "centroid_vel32_Hz": 438.0,
+   "centroid_vel127_Hz": 471.0,
+   "brightening_oct": 0.1
+  },
+  "68": {
+   "LUFS_vel64": -25.0,
+   "range_32_to_127_dB": 17.5,
+   "centroid_vel32_Hz": 1252.0,
+   "centroid_vel127_Hz": 1261.0,
+   "brightening_oct": 0.01
+  },
+  "69": {
+   "LUFS_vel64": -32.4,
+   "range_32_to_127_dB": 17.6,
+   "centroid_vel32_Hz": 782.0,
+   "centroid_vel127_Hz": 795.0,
+   "brightening_oct": 0.02
+  },
+  "70": {
+   "LUFS_vel64": -29.5,
+   "range_32_to_127_dB": 17.4,
+   "centroid_vel32_Hz": 507.0,
+   "centroid_vel127_Hz": 507.0,
+   "brightening_oct": 0.0
+  },
+  "71": {
+   "LUFS_vel64": -29.9,
+   "range_32_to_127_dB": 23.4,
+   "centroid_vel32_Hz": 674.0,
+   "centroid_vel127_Hz": 1218.0,
+   "brightening_oct": 0.85
+  },
+  "73": {
+   "LUFS_vel64": -30.0,
+   "range_32_to_127_dB": 20.0,
+   "centroid_vel32_Hz": 786.0,
+   "centroid_vel127_Hz": 789.0,
+   "brightening_oct": 0.01
+  }
+ }
+}

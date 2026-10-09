@@ -1,0 +1,103 @@
+Duration: 427s, ~179 bars (4/4 assumed)
+
+Tracks: name | notes | range | violations
+  Flutes 1Â·2:                   151  B4-Ab6  
+  Flutes 1Â·2:two                 68  G4-C6  
+  Flutes 1Â·2:shared              72  G4-Ab6  
+  Flutes 1Â·2:solo                84  B4-B6  
+  Oboes 1Â·2:                    175  B3-D6  
+  Oboes 1Â·2:two                  67  F4-Eb5  
+  Oboes 1Â·2:shared               17  F4-Ab5  
+  Oboes 1Â·2:solo                137  D4-D6  
+  Cor anglais:                    51  B3-D5  
+  Clarinets 1Â·2:                138  G3-Ab5  
+  Clarinets 1Â·2:two              70  G3-Ab4  
+  Clarinets 1Â·2:shared          164  Bb3-F5  
+  Clarinets 1Â·2:solo             99  G3-B5  
+  Bass clarinet:                  53  Bb1-F3  
+  Bassoons 1Â·2:                  93  C2-F4  
+  Bassoons 1Â·2:two               55  Bb1-G3  
+  Bassoons 1Â·2:shared            96  C#2-F4  
+  Bassoons 1Â·2:solo              88  Bb1-E4  
+  Contrabassoon:                  95  C#1-F2  
+  Horns 1Â·2:                     16  Eb3-C5  
+  Horns 1Â·2:two                  12  Eb3-G4  
+  Horns 1Â·2:shared              188  Eb3-Ab4  
+  Horns 1Â·2:solo                 68  Eb3-F5  
+  Horns 3Â·4:                     25  Ab3-D4  
+  Horns 3Â·4:two                  27  F2-Ab3  
+  Horns 3Â·4:shared              202  Ab2-G4  
+  Horns 3Â·4:solo                  2  G3-Ab3  
+  Trumpets 1Â·2:                  41  G4-Ab5  
+  Trumpets 1Â·2:two               17  F4-Ab4  
+  Trumpets 1Â·2:shared            76  D4-Ab5  
+  Trumpets 1Â·2:solo               1  G4-G4  
+  Trumpet 3:                      44  B3-F4  
+  Trombones 1Â·2:                  2  B3-Eb4  
+  Trombones 1Â·2:two               4  F3-Ab3  
+  Trombones 1Â·2:shared          149  G2-F4  
+  Trombones 1Â·2:solo             23  E3-E4  
+  Bass trombone:                  81  C2-F3  
+  Tuba:                           64  F1-F2  
+  Timpani:                        85  G2-Eb3  
+  drums                            2  C#3-C#3  
+  Harp RH:                        45  Ab3-Eb6  
+  Harp LH:                       144  Eb1-A4  
+  Violins I:                     382  Eb4-Ab6  
+  Violins II:                    365  Ab3-C6  
+  Violas:                        642  G3-F#5  
+  Violoncellos:                  464  C2-F5  
+  Double basses:                 336  F1-Bb2  
+
+Top-line (Flutes 1Â·2:) intervals: 150 | steps 62% | leaps>=4th 22% | repeats 2%
+  interval histogram (semitones): {0: 4, 1: 50, 2: 39, 3: 19, 4: 5, 5: 6, 6: 4, 7: 3, 8: 4, 9: 14, 13: 1, 15: 1}
+
+Outer-voice parallels (top vs bass, similar motion): 1  (+1 doubling runs ignored)
+  bar 96: octaves F5->Bb2 over F2->Bb1
+
+Profile per 4 bars: attacks | voices sounding (avg) | top | bottom
+  bars   1-  4:   19 |  3.2 | Eb3  | G1
+  bars   5-  8:   19 |  4.0 | Bb4  | F1
+  bars   9- 12:   65 | 12.1 | Ab5  | C2
+  bars  13- 16:   45 |  5.6 | Eb5  | G1
+  bars  17- 20:   77 |  4.6 | C#6  | F1
+  bars  21- 24:  180 | 11.5 | G6   | F1
+  bars  25- 28:  223 | 23.4 | Ab6  | F1
+  bars  29- 32:  255 | 21.6 | Ab6  | G1
+  bars  33- 36:   81 |  6.8 | C6   | Bb1
+  bars  37- 40:   87 | 10.1 | F6   | Bb1
+  bars  41- 44:   81 | 17.9 | G6   | C#2
+  bars  45- 48:   49 |  6.5 | Eb6  | Ab1
+  bars  49- 52:   68 |  8.0 | Bb5  | Eb1
+  bars  53- 56:   77 |  8.1 | G5   | Ab1
+  bars  57- 60:  127 | 10.6 | Bb5  | F#1
+  bars  61- 64:  131 | 11.4 | C#6  | C#2
+  bars  65- 68:  103 | 10.5 | G5   | Ab1
+  bars  69- 72:  298 | 25.0 | Ab6  | F1
+  bars  73- 76:   19 |  5.8 | Ab5  | Ab1
+  bars  77- 80:   77 |  5.2 | B5   | Ab1
+  bars  81- 84:  166 | 14.8 | Eb6  | G1
+  bars  85- 88:   34 |  1.8 | G4   | D2
+  bars  89- 92:   76 |  5.0 | Ab4  | Bb1
+  bars  93- 96:  147 |  9.4 | C#6  | Bb1
+  bars  97-100:  192 | 15.4 | G6   | B1
+  bars 101-104:  157 | 22.1 | B6   | F#1
+  bars 105-108:  149 | 27.2 | Eb6  | C2
+  bars 109-112:  211 | 17.2 | F6   | G1
+  bars 113-116:  106 | 25.0 | Ab6  | G2
+  bars 117-120:   36 | 10.9 | Eb5  | G2
+  bars 121-124:  161 | 13.8 | Eb6  | G1
+  bars 125-128:  300 | 20.9 | G6   | G1
+  bars 129-132:  261 | 25.8 | Ab6  | C#1
+  bars 133-136:  179 | 16.6 | G6   | D1
+  bars 137-140:   43 |  7.2 | A5   | G1
+  bars 141-144:   66 |  7.2 | Bb5  | G1
+  bars 145-148:   73 |  7.8 | A5   | C2
+  bars 149-152:  128 | 10.9 | D6   | G1
+  bars 153-156:  157 | 23.0 | Ab6  | G1
+  bars 157-160:  171 | 19.1 | F6   | F1
+  bars 161-164:  199 | 20.5 | Eb6  | C2
+  bars 165-168:  108 | 15.6 | F6   | C2
+  bars 169-172:   33 |  6.0 | C5   | G1
+  bars 173-176:   35 |  6.2 | Eb5  | C2
+  bars 177-180:   11 |  4.8 | C5   | C2

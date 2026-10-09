@@ -1,0 +1,10 @@
+# Editor backups and Python caches
+*.ly~
+__pycache__/
+*.pyc
+
+# Third-party samples, soundfont and reference recordings: download them from the
+# sources in symphony/render/assets/README.md
+symphony/render/assets/sf2/
+symphony/render/assets/vpo3/libs/
+symphony/render/assets/refs/*.flac

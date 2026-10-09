@@ -1,0 +1,312 @@
+{
+ "_doc": "r01 render configuration. gain_dB: static stem gain (applied after FluidSynth); pan: -1 left .. +1 right; width: 0 mono .. 1 sample's own stereo; src: Detmold Konzerthaus loudspeaker-orchestra source (S1-S4 front row, S5-S8 second step; S1/S5 audience left); send_dB: reverb send relative to the dry stem; family: rule set for articulations.",
+ "sf2": "/usr/share/sounds/sf2/FluidR3_GM.sf2",
+ "sample_rate": 48000,
+ "fluid_gain": 0.2,
+ "ir_receiver": "R163",
+ "ir_fig8_gain": 1.3,
+ "ir_direct_cut_ms": 4.0,
+ "reverb_master_dB": 0.0,
+ "brightness": {
+  "crossover_Hz": 2500,
+  "dB_per_velocity": 0.15,
+  "min_dB": -6.0,
+  "max_dB": 3.0,
+  "ref_velocity": 74
+ },
+ "master": {
+  "target_LUFS": -20.0,
+  "true_peak_dBTP": -1.0,
+  "mp3_bitrate": "256k"
+ },
+ "dynamics": {
+  "_doc": "extra expression (CC11, dB) added to the velocity's own level, by velocity-equivalent of the printed dynamic; ppp 32, pp 42, p 53, mp 64, mf 74, f 84, ff 91, fff 127 (v120 volume table)",
+  "extra_dB_points": [
+   [
+    1,
+    -4.0
+   ],
+   [
+    32,
+    -4.0
+   ],
+   [
+    42,
+    -4.0
+   ],
+   [
+    53,
+    -3.8
+   ],
+   [
+    64,
+    -3.4
+   ],
+   [
+    74,
+    -2.6
+   ],
+   [
+    84,
+    -1.4
+   ],
+   [
+    91,
+    0.0
+   ],
+   [
+    127,
+    -1.5
+   ]
+  ]
+ },
+ "articulation": {
+  "legato_overlap_s": 0.04,
+  "detached_gap_frac": 0.13,
+  "detached_gap_min_s": 0.04,
+  "detached_gap_max_s": 0.12,
+  "detached_min_frac": 0.6,
+  "slur_end_gap_frac": 0.1,
+  "slur_end_gap_min_s": 0.03,
+  "slur_end_gap_max_s": 0.1,
+  "staccato_frac_wind": 0.5,
+  "staccato_max_s_wind": 0.25,
+  "staccato_frac_string": 0.35,
+  "staccato_max_s_string": 0.18,
+  "string_staccato_release_timecents": -2400,
+  "tenuto_velocity": 5,
+  "accent_dip_start_s": 0.08,
+  "accent_dip_full_s": 0.25,
+  "accent_dip_max_dB": 6.0,
+  "sf_velocity_boost": 20,
+  "sul_tasto_velocity": -6,
+  "timp_roll_rate_hz": 14.0,
+  "timp_roll_vel_offset": -6,
+  "timp_roll_vel_jitter": 6,
+  "tremolo_program": 44,
+  "pizz_program": 45,
+  "pizz_rel_arco_dB": -2.0,
+  "pizz_len_frac": 0.6,
+  "pizz_len_max_s": 0.35
+ },
+ "stems": {
+  "Flutes 12": {
+   "family": "wind",
+   "gain_dB": 2.2,
+   "pan": -0.2,
+   "width": 0.5,
+   "src": "S6",
+   "send_dB": -4,
+   "dyn_scale": 1.3
+  },
+  "Oboes 12": {
+   "family": "wind",
+   "gain_dB": 4.55,
+   "pan": 0.15,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -4,
+   "dyn_scale": 1.3
+  },
+  "Cor anglais": {
+   "family": "wind",
+   "gain_dB": 0.4,
+   "pan": 0.3,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -4,
+   "dyn_scale": 1.3
+  },
+  "Clarinets 12": {
+   "family": "wind",
+   "gain_dB": 3.8,
+   "pan": -0.25,
+   "width": 0.5,
+   "src": "S6",
+   "send_dB": -4,
+   "dyn_scale": 1.3
+  },
+  "Bass clarinet": {
+   "family": "wind",
+   "gain_dB": 7.2,
+   "pan": -0.35,
+   "width": 0.5,
+   "src": "S6",
+   "send_dB": -4,
+   "dyn_scale": 1.3
+  },
+  "Bassoons 12": {
+   "family": "wind",
+   "gain_dB": 8.7,
+   "pan": 0.1,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -4,
+   "dyn_scale": 1.3
+  },
+  "Contrabassoon": {
+   "family": "wind",
+   "gain_dB": 13.5,
+   "pan": 0.25,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -4,
+   "dyn_scale": 2.0
+  },
+  "Horns 12": {
+   "family": "brass",
+   "gain_dB": 8.0,
+   "pan": -0.55,
+   "width": 0.5,
+   "src": "S5",
+   "send_dB": -3,
+   "dyn_scale": 2.0
+  },
+  "Horns 34": {
+   "family": "brass",
+   "gain_dB": 7.8,
+   "pan": -0.65,
+   "width": 0.5,
+   "src": "S5",
+   "send_dB": -3,
+   "dyn_scale": 2.0
+  },
+  "Trumpets 12": {
+   "family": "brass",
+   "gain_dB": 9.4,
+   "pan": 0.15,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -3,
+   "dyn_scale": 2.0
+  },
+  "Trumpet 3": {
+   "family": "brass",
+   "gain_dB": 11.8,
+   "pan": 0.22,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -3,
+   "dyn_scale": 2.0
+  },
+  "Trombones 12": {
+   "family": "brass",
+   "gain_dB": -2.7,
+   "pan": 0.4,
+   "width": 0.5,
+   "src": "S8",
+   "send_dB": -3,
+   "dyn_scale": 2.0
+  },
+  "Bass trombone": {
+   "family": "brass",
+   "gain_dB": 1.25,
+   "pan": 0.48,
+   "width": 0.5,
+   "src": "S8",
+   "send_dB": -3,
+   "dyn_scale": 2.0
+  },
+  "Tuba": {
+   "family": "brass",
+   "gain_dB": 2.45,
+   "pan": 0.55,
+   "width": 0.5,
+   "src": "S8",
+   "send_dB": -3,
+   "dyn_scale": 2.0
+  },
+  "Timpani": {
+   "family": "timp",
+   "gain_dB": 4.8,
+   "pan": -0.05,
+   "width": 0.4,
+   "src": "S6",
+   "send_dB": -3,
+   "dyn_scale": 1.0
+  },
+  "drums": {
+   "family": "timp",
+   "gain_dB": 0.0,
+   "pan": 0.05,
+   "width": 0.4,
+   "src": "S7",
+   "send_dB": -3,
+   "dyn_scale": 1.0
+  },
+  "Harp RH": {
+   "family": "harp",
+   "gain_dB": -1.0,
+   "pan": -0.75,
+   "width": 0.5,
+   "src": "S1",
+   "send_dB": -5,
+   "dyn_scale": 1.0
+  },
+  "Harp LH": {
+   "family": "harp",
+   "gain_dB": -1.0,
+   "pan": -0.75,
+   "width": 0.5,
+   "src": "S1",
+   "send_dB": -5,
+   "dyn_scale": 1.0
+  },
+  "Violins I": {
+   "family": "string",
+   "gain_dB": 0.0,
+   "pan": -0.75,
+   "width": 0.6,
+   "src": "S1",
+   "send_dB": -7,
+   "dyn_scale": 1.3,
+   "main_release_timecents": -1200
+  },
+  "Violins II": {
+   "family": "string",
+   "gain_dB": 0.65,
+   "pan": -0.4,
+   "width": 0.6,
+   "src": "S2",
+   "send_dB": -7,
+   "dyn_scale": 1.3,
+   "main_release_timecents": -1200
+  },
+  "Violas": {
+   "family": "string",
+   "gain_dB": 11.5,
+   "pan": 0.25,
+   "width": 0.6,
+   "src": "S3",
+   "send_dB": -7,
+   "dyn_scale": 2.0
+  },
+  "Violoncellos": {
+   "family": "string",
+   "gain_dB": 6.3,
+   "pan": 0.55,
+   "width": 0.6,
+   "src": "S4",
+   "send_dB": -7,
+   "dyn_scale": 2.0
+  },
+  "Double basses": {
+   "family": "string",
+   "gain_dB": 6.75,
+   "pan": 0.7,
+   "width": 0.6,
+   "src": "S8",
+   "send_dB": -6,
+   "dyn_scale": 2.2
+  }
+ },
+ "program_sfcal_LUFS_vel64": {
+  "41": -29.0,
+  "42": -30.2,
+  "43": -31.3,
+  "44": -32.4,
+  "45": -42.9,
+  "48": -31.5
+ },
+ "_doc_dyn_scale": "dyn_scale multiplies dynamics.extra_dB_points for that stem (more dB per printed step for brass and low strings, whose samples change little with velocity)"
+}

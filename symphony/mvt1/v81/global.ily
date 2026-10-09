@@ -1,0 +1,52 @@
+\version "2.24.0"
+subP = #(make-dynamic-script (markup #:line (#:normal-text #:italic "sub." #:dynamic "p")))
+pedAflat = \markup \harp-pedal #"^-^|^--^"
+pedNat = \markup \harp-pedal #"---|----"
+global = {
+  \key c \minor \time 4/4
+  \tempo "Lento" 4 = 50
+  s1*14
+  \break
+  \mark \default
+  \tempo "Allegro appassionato" 4 = 126
+  s1*18
+  \mark \default
+  s1*12 \tempo \markup \medium \italic "poco rit." s1*2
+  \break
+  \key aes \major \mark \default
+  \tempo "Poco meno mosso" 4 = 112
+  s1*19 \tempo \markup \medium \italic "rit." s1*3
+  \mark \default
+  \tempo "Tempo dell'Allegro" 4 = 126
+  s1*4
+  s1*4
+  \break
+  \key c \minor \mark \default
+  s1*8 \break
+  s1*12
+  \key b \minor \mark \default
+  s1*6
+  \key c \minor
+  s1*6
+  \mark \default
+  s1*4 \tempo \markup \medium \italic "allargando" s1*2 \tempo \markup \medium \italic "sostenuto" s1*4 \tempo "a tempo" s1*4
+  \mark \default
+  s1*14 \tempo \markup \medium \italic "poco rit." s1*2
+  \break
+  \key c \major \mark \default
+  \tempo "Poco meno mosso" 4 = 112
+  s1*15
+  \pageBreak \mark \default
+  s1*2 \tempo \markup \medium \italic "largamente" s1*5 \tempo \markup \medium \italic "rit." s1*2
+  \break
+  \key c \minor \mark \default
+  \tempo "Tempo dell'Allegro" 4 = 126
+  s1*4
+  \break
+  \mark \default
+  \tempo "Più lento" 4 = 72
+  s1*6 \tempo \markup \medium \italic "rit." s1*2
+  \tempo "Tempo I (Lento)" 4 = 50
+  s1*4
+  \bar "|."
+}

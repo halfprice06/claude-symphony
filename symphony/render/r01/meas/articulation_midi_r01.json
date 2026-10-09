@@ -1,0 +1,76 @@
+{
+ "matched_notes": 5121,
+ "unmatched_notes": 0,
+ "accent": {
+  "n": 633,
+  "midi_len_over_notated_median": 0.87,
+  "midi_len_over_notated_p10_p90": [
+   0.87,
+   0.916
+  ],
+  "vel_minus_plain_same_bar_median": 20.0
+ },
+ "legato (slurred, not last)": {
+  "n": 1176,
+  "midi_len_over_notated_median": 1.141,
+  "midi_len_over_notated_p10_p90": [
+   1.01,
+   1.167
+  ],
+  "vel_minus_plain_same_bar_median": 0.0
+ },
+ "pizz": {
+  "n": 35,
+  "midi_len_over_notated_median": 0.599,
+  "midi_len_over_notated_p10_p90": [
+   0.599,
+   0.599
+  ],
+  "vel_minus_plain_same_bar_median": null
+ },
+ "plain": {
+  "n": 2649,
+  "midi_len_over_notated_median": 0.874,
+  "midi_len_over_notated_p10_p90": [
+   0.833,
+   0.967
+  ],
+  "vel_minus_plain_same_bar_median": 0.0
+ },
+ "slur end": {
+  "n": 396,
+  "midi_len_over_notated_median": 0.901,
+  "midi_len_over_notated_p10_p90": [
+   0.875,
+   0.946
+  ],
+  "vel_minus_plain_same_bar_median": 0.0
+ },
+ "staccato": {
+  "n": 81,
+  "midi_len_over_notated_median": 0.177,
+  "midi_len_over_notated_p10_p90": [
+   0.174,
+   0.25
+  ],
+  "vel_minus_plain_same_bar_median": 4.0
+ },
+ "tenuto": {
+  "n": 31,
+  "midi_len_over_notated_median": 1.0,
+  "midi_len_over_notated_p10_p90": [
+   1.0,
+   1.0
+  ],
+  "vel_minus_plain_same_bar_median": 5.0
+ },
+ "tremolo": {
+  "n": 120,
+  "midi_len_over_notated_median": 1.0,
+  "midi_len_over_notated_p10_p90": [
+   0.034,
+   1.0
+  ],
+  "vel_minus_plain_same_bar_median": -21.0
+ }
+}

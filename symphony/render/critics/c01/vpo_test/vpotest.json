@@ -1,0 +1,847 @@
+{
+ "vpo_vln1_sustain": [
+  {
+   "vel": 32,
+   "level_dB": -53.9,
+   "centroid_Hz": 2188,
+   "attack_ms_to_peak": 1360,
+   "audible_s": 1.77
+  },
+  {
+   "vel": 42,
+   "level_dB": -49.3,
+   "centroid_Hz": 2188,
+   "attack_ms_to_peak": 1370,
+   "audible_s": 1.78
+  },
+  {
+   "vel": 53,
+   "level_dB": -45.1,
+   "centroid_Hz": 2191,
+   "attack_ms_to_peak": 1360,
+   "audible_s": 1.77
+  },
+  {
+   "vel": 64,
+   "level_dB": -42.1,
+   "centroid_Hz": 2188,
+   "attack_ms_to_peak": 1370,
+   "audible_s": 1.77
+  },
+  {
+   "vel": 74,
+   "level_dB": -39.4,
+   "centroid_Hz": 2190,
+   "attack_ms_to_peak": 1370,
+   "audible_s": 1.76
+  },
+  {
+   "vel": 84,
+   "level_dB": -37.8,
+   "centroid_Hz": 2190,
+   "attack_ms_to_peak": 1370,
+   "audible_s": 1.76
+  },
+  {
+   "vel": 91,
+   "level_dB": -35.8,
+   "centroid_Hz": 2192,
+   "attack_ms_to_peak": 1350,
+   "audible_s": 1.75
+  },
+  {
+   "vel": 110,
+   "level_dB": -33.4,
+   "centroid_Hz": 2190,
+   "attack_ms_to_peak": 1370,
+   "audible_s": 1.73
+  },
+  {
+   "vel": 127,
+   "level_dB": -30.0,
+   "centroid_Hz": 2192,
+   "attack_ms_to_peak": 1360,
+   "audible_s": 1.65
+  }
+ ],
+ "vpo_vln1_PERF": [
+  {
+   "vel": 32,
+   "level_dB": -55.4,
+   "centroid_Hz": 2192,
+   "attack_ms_to_peak": 1420,
+   "audible_s": 1.81
+  },
+  {
+   "vel": 42,
+   "level_dB": -54.7,
+   "centroid_Hz": 2194,
+   "attack_ms_to_peak": 1420,
+   "audible_s": 1.81
+  },
+  {
+   "vel": 53,
+   "level_dB": -54.1,
+   "centroid_Hz": 2194,
+   "attack_ms_to_peak": 1430,
+   "audible_s": 1.82
+  },
+  {
+   "vel": 64,
+   "level_dB": -53.2,
+   "centroid_Hz": 2193,
+   "attack_ms_to_peak": 1410,
+   "audible_s": 1.8
+  },
+  {
+   "vel": 74,
+   "level_dB": -52.4,
+   "centroid_Hz": 2194,
+   "attack_ms_to_peak": 1420,
+   "audible_s": 1.71
+  },
+  {
+   "vel": 84,
+   "level_dB": -51.2,
+   "centroid_Hz": 2191,
+   "attack_ms_to_peak": 1420,
+   "audible_s": 1.71
+  },
+  {
+   "vel": 91,
+   "level_dB": -51.3,
+   "centroid_Hz": 2181,
+   "attack_ms_to_peak": 1430,
+   "audible_s": 1.72
+  },
+  {
+   "vel": 110,
+   "level_dB": -49.2,
+   "centroid_Hz": 2182,
+   "attack_ms_to_peak": 1430,
+   "audible_s": 1.68
+  },
+  {
+   "vel": 127,
+   "level_dB": -46.9,
+   "centroid_Hz": 2174,
+   "attack_ms_to_peak": 1430,
+   "audible_s": 1.67
+  }
+ ],
+ "vpo_vln1_staccato": [
+  {
+   "vel": 32,
+   "level_dB": -51.4,
+   "centroid_Hz": 1579,
+   "attack_ms_to_peak": 110,
+   "audible_s": 0.41
+  },
+  {
+   "vel": 42,
+   "level_dB": -47.3,
+   "centroid_Hz": 1673,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.44
+  },
+  {
+   "vel": 53,
+   "level_dB": -41.5,
+   "centroid_Hz": 1579,
+   "attack_ms_to_peak": 110,
+   "audible_s": 0.42
+  },
+  {
+   "vel": 64,
+   "level_dB": -39.5,
+   "centroid_Hz": 1669,
+   "attack_ms_to_peak": 60,
+   "audible_s": 0.48
+  },
+  {
+   "vel": 74,
+   "level_dB": -35.2,
+   "centroid_Hz": 1580,
+   "attack_ms_to_peak": 120,
+   "audible_s": 0.43
+  },
+  {
+   "vel": 84,
+   "level_dB": -34.9,
+   "centroid_Hz": 1674,
+   "attack_ms_to_peak": 60,
+   "audible_s": 0.48
+  },
+  {
+   "vel": 91,
+   "level_dB": -31.4,
+   "centroid_Hz": 1545,
+   "attack_ms_to_peak": 110,
+   "audible_s": 0.42
+  },
+  {
+   "vel": 110,
+   "level_dB": -30.3,
+   "centroid_Hz": 1675,
+   "attack_ms_to_peak": 60,
+   "audible_s": 0.51
+  },
+  {
+   "vel": 127,
+   "level_dB": -25.2,
+   "centroid_Hz": 1558,
+   "attack_ms_to_peak": 180,
+   "audible_s": 0.43
+  }
+ ],
+ "vpo_vln1_pizz": [
+  {
+   "vel": 32,
+   "level_dB": -54.8,
+   "centroid_Hz": 1138,
+   "attack_ms_to_peak": 80,
+   "audible_s": 0.32
+  },
+  {
+   "vel": 42,
+   "level_dB": -49.8,
+   "centroid_Hz": 1135,
+   "attack_ms_to_peak": 80,
+   "audible_s": 0.32
+  },
+  {
+   "vel": 53,
+   "level_dB": -45.4,
+   "centroid_Hz": 1138,
+   "attack_ms_to_peak": 80,
+   "audible_s": 0.33
+  },
+  {
+   "vel": 64,
+   "level_dB": -42.2,
+   "centroid_Hz": 1133,
+   "attack_ms_to_peak": 80,
+   "audible_s": 0.36
+  },
+  {
+   "vel": 74,
+   "level_dB": -39.4,
+   "centroid_Hz": 1135,
+   "attack_ms_to_peak": 80,
+   "audible_s": 0.36
+  },
+  {
+   "vel": 84,
+   "level_dB": -37.7,
+   "centroid_Hz": 1135,
+   "attack_ms_to_peak": 80,
+   "audible_s": 0.35
+  },
+  {
+   "vel": 91,
+   "level_dB": -35.7,
+   "centroid_Hz": 1137,
+   "attack_ms_to_peak": 70,
+   "audible_s": 0.35
+  },
+  {
+   "vel": 110,
+   "level_dB": -33.2,
+   "centroid_Hz": 1134,
+   "attack_ms_to_peak": 80,
+   "audible_s": 0.35
+  },
+  {
+   "vel": 127,
+   "level_dB": -29.7,
+   "centroid_Hz": 1138,
+   "attack_ms_to_peak": 80,
+   "audible_s": 0.35
+  }
+ ],
+ "vpo_vln1_trem": [
+  {
+   "vel": 32,
+   "level_dB": -41.3,
+   "centroid_Hz": 2044,
+   "attack_ms_to_peak": 180,
+   "audible_s": 1.7
+  },
+  {
+   "vel": 42,
+   "level_dB": -36.8,
+   "centroid_Hz": 2052,
+   "attack_ms_to_peak": 190,
+   "audible_s": 1.71
+  },
+  {
+   "vel": 53,
+   "level_dB": -33.1,
+   "centroid_Hz": 2055,
+   "attack_ms_to_peak": 180,
+   "audible_s": 1.71
+  },
+  {
+   "vel": 64,
+   "level_dB": -30.2,
+   "centroid_Hz": 2048,
+   "attack_ms_to_peak": 180,
+   "audible_s": 1.71
+  },
+  {
+   "vel": 74,
+   "level_dB": -26.9,
+   "centroid_Hz": 2054,
+   "attack_ms_to_peak": 180,
+   "audible_s": 1.7
+  },
+  {
+   "vel": 84,
+   "level_dB": -24.9,
+   "centroid_Hz": 2054,
+   "attack_ms_to_peak": 180,
+   "audible_s": 1.71
+  },
+  {
+   "vel": 91,
+   "level_dB": -23.3,
+   "centroid_Hz": 2031,
+   "attack_ms_to_peak": 190,
+   "audible_s": 1.71
+  },
+  {
+   "vel": 110,
+   "level_dB": -20.2,
+   "centroid_Hz": 2069,
+   "attack_ms_to_peak": 180,
+   "audible_s": 1.7
+  },
+  {
+   "vel": 127,
+   "level_dB": -17.1,
+   "centroid_Hz": 2059,
+   "attack_ms_to_peak": 180,
+   "audible_s": 1.7
+  }
+ ],
+ "vpo_horn_sustain": [
+  {
+   "vel": 32,
+   "level_dB": -48.7,
+   "centroid_Hz": 640,
+   "attack_ms_to_peak": 1480,
+   "audible_s": 1.63
+  },
+  {
+   "vel": 42,
+   "level_dB": -44.2,
+   "centroid_Hz": 638,
+   "attack_ms_to_peak": 1480,
+   "audible_s": 1.64
+  },
+  {
+   "vel": 53,
+   "level_dB": -40.5,
+   "centroid_Hz": 640,
+   "attack_ms_to_peak": 1470,
+   "audible_s": 1.64
+  },
+  {
+   "vel": 64,
+   "level_dB": -37.6,
+   "centroid_Hz": 640,
+   "attack_ms_to_peak": 1470,
+   "audible_s": 1.64
+  },
+  {
+   "vel": 74,
+   "level_dB": -34.2,
+   "centroid_Hz": 642,
+   "attack_ms_to_peak": 1470,
+   "audible_s": 1.63
+  },
+  {
+   "vel": 84,
+   "level_dB": -32.3,
+   "centroid_Hz": 671,
+   "attack_ms_to_peak": 1410,
+   "audible_s": 1.64
+  },
+  {
+   "vel": 91,
+   "level_dB": -32.1,
+   "centroid_Hz": 753,
+   "attack_ms_to_peak": 1170,
+   "audible_s": 1.65
+  },
+  {
+   "vel": 110,
+   "level_dB": -29.3,
+   "centroid_Hz": 877,
+   "attack_ms_to_peak": 1420,
+   "audible_s": 1.64
+  },
+  {
+   "vel": 127,
+   "level_dB": -26.1,
+   "centroid_Hz": 847,
+   "attack_ms_to_peak": 690,
+   "audible_s": 1.63
+  }
+ ],
+ "vpo_trb_sustain": [
+  {
+   "vel": 32,
+   "level_dB": -48.4,
+   "centroid_Hz": 824,
+   "attack_ms_to_peak": 930,
+   "audible_s": 1.61
+  },
+  {
+   "vel": 42,
+   "level_dB": -43.9,
+   "centroid_Hz": 824,
+   "attack_ms_to_peak": 960,
+   "audible_s": 1.61
+  },
+  {
+   "vel": 53,
+   "level_dB": -40.2,
+   "centroid_Hz": 825,
+   "attack_ms_to_peak": 940,
+   "audible_s": 1.61
+  },
+  {
+   "vel": 64,
+   "level_dB": -37.3,
+   "centroid_Hz": 825,
+   "attack_ms_to_peak": 940,
+   "audible_s": 1.61
+  },
+  {
+   "vel": 74,
+   "level_dB": -33.9,
+   "centroid_Hz": 828,
+   "attack_ms_to_peak": 950,
+   "audible_s": 1.61
+  },
+  {
+   "vel": 84,
+   "level_dB": -30.3,
+   "centroid_Hz": 851,
+   "attack_ms_to_peak": 950,
+   "audible_s": 1.62
+  },
+  {
+   "vel": 91,
+   "level_dB": -28.5,
+   "centroid_Hz": 847,
+   "attack_ms_to_peak": 360,
+   "audible_s": 1.62
+  },
+  {
+   "vel": 110,
+   "level_dB": -24.7,
+   "centroid_Hz": 846,
+   "attack_ms_to_peak": 370,
+   "audible_s": 1.62
+  },
+  {
+   "vel": 127,
+   "level_dB": -21.7,
+   "centroid_Hz": 848,
+   "attack_ms_to_peak": 370,
+   "audible_s": 1.62
+  }
+ ],
+ "vpo_oboe_staccato": [
+  {
+   "vel": 32,
+   "level_dB": -49.7,
+   "centroid_Hz": 988,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.22
+  },
+  {
+   "vel": 42,
+   "level_dB": -45.0,
+   "centroid_Hz": 983,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.22
+  },
+  {
+   "vel": 53,
+   "level_dB": -40.8,
+   "centroid_Hz": 985,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.24
+  },
+  {
+   "vel": 64,
+   "level_dB": -37.9,
+   "centroid_Hz": 978,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.22
+  },
+  {
+   "vel": 74,
+   "level_dB": -35.2,
+   "centroid_Hz": 980,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.22
+  },
+  {
+   "vel": 84,
+   "level_dB": -33.6,
+   "centroid_Hz": 982,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.22
+  },
+  {
+   "vel": 91,
+   "level_dB": -31.6,
+   "centroid_Hz": 992,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.23
+  },
+  {
+   "vel": 110,
+   "level_dB": -29.2,
+   "centroid_Hz": 982,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.21
+  },
+  {
+   "vel": 127,
+   "level_dB": -25.8,
+   "centroid_Hz": 988,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.24
+  }
+ ],
+ "vpo_timp_roll": [
+  {
+   "vel": 32,
+   "level_dB": -46.7,
+   "centroid_Hz": 164,
+   "attack_ms_to_peak": 990,
+   "audible_s": ">2.60"
+  },
+  {
+   "vel": 42,
+   "level_dB": -42.0,
+   "centroid_Hz": 164,
+   "attack_ms_to_peak": 990,
+   "audible_s": 2.45
+  },
+  {
+   "vel": 53,
+   "level_dB": -38.0,
+   "centroid_Hz": 164,
+   "attack_ms_to_peak": 990,
+   "audible_s": 2.45
+  },
+  {
+   "vel": 64,
+   "level_dB": -34.7,
+   "centroid_Hz": 164,
+   "attack_ms_to_peak": 990,
+   "audible_s": 2.47
+  },
+  {
+   "vel": 74,
+   "level_dB": -32.2,
+   "centroid_Hz": 164,
+   "attack_ms_to_peak": 990,
+   "audible_s": 2.43
+  },
+  {
+   "vel": 84,
+   "level_dB": -29.8,
+   "centroid_Hz": 164,
+   "attack_ms_to_peak": 990,
+   "audible_s": 2.45
+  },
+  {
+   "vel": 91,
+   "level_dB": -29.1,
+   "centroid_Hz": 165,
+   "attack_ms_to_peak": 990,
+   "audible_s": 2.47
+  },
+  {
+   "vel": 110,
+   "level_dB": -25.4,
+   "centroid_Hz": 165,
+   "attack_ms_to_peak": 990,
+   "audible_s": 2.47
+  },
+  {
+   "vel": 127,
+   "level_dB": -22.7,
+   "centroid_Hz": 164,
+   "attack_ms_to_peak": 990,
+   "audible_s": 2.39
+  }
+ ],
+ "fr3_strings48": [
+  {
+   "vel": 32,
+   "level_dB": -58.8,
+   "centroid_Hz": 911,
+   "attack_ms_to_peak": 750,
+   "audible_s": 1.72
+  },
+  {
+   "vel": 42,
+   "level_dB": -54.0,
+   "centroid_Hz": 911,
+   "attack_ms_to_peak": 750,
+   "audible_s": 1.72
+  },
+  {
+   "vel": 53,
+   "level_dB": -50.0,
+   "centroid_Hz": 911,
+   "attack_ms_to_peak": 750,
+   "audible_s": 1.72
+  },
+  {
+   "vel": 64,
+   "level_dB": -46.7,
+   "centroid_Hz": 911,
+   "attack_ms_to_peak": 750,
+   "audible_s": 1.72
+  },
+  {
+   "vel": 74,
+   "level_dB": -44.2,
+   "centroid_Hz": 911,
+   "attack_ms_to_peak": 750,
+   "audible_s": 1.71
+  },
+  {
+   "vel": 84,
+   "level_dB": -42.0,
+   "centroid_Hz": 911,
+   "attack_ms_to_peak": 750,
+   "audible_s": 1.71
+  },
+  {
+   "vel": 91,
+   "level_dB": -40.6,
+   "centroid_Hz": 911,
+   "attack_ms_to_peak": 750,
+   "audible_s": 1.7
+  },
+  {
+   "vel": 110,
+   "level_dB": -37.3,
+   "centroid_Hz": 911,
+   "attack_ms_to_peak": 750,
+   "audible_s": 1.7
+  },
+  {
+   "vel": 127,
+   "level_dB": -34.7,
+   "centroid_Hz": 911,
+   "attack_ms_to_peak": 750,
+   "audible_s": 1.68
+  }
+ ],
+ "fr3_strings48_stacc": [
+  {
+   "vel": 32,
+   "level_dB": -63.5,
+   "centroid_Hz": 1040,
+   "attack_ms_to_peak": 120,
+   "audible_s": 0.59
+  },
+  {
+   "vel": 42,
+   "level_dB": -58.7,
+   "centroid_Hz": 1040,
+   "attack_ms_to_peak": 120,
+   "audible_s": 0.59
+  },
+  {
+   "vel": 53,
+   "level_dB": -54.7,
+   "centroid_Hz": 1040,
+   "attack_ms_to_peak": 120,
+   "audible_s": 0.59
+  },
+  {
+   "vel": 64,
+   "level_dB": -51.4,
+   "centroid_Hz": 1040,
+   "attack_ms_to_peak": 120,
+   "audible_s": 0.59
+  },
+  {
+   "vel": 74,
+   "level_dB": -48.8,
+   "centroid_Hz": 1044,
+   "attack_ms_to_peak": 120,
+   "audible_s": 0.49
+  },
+  {
+   "vel": 84,
+   "level_dB": -46.6,
+   "centroid_Hz": 1046,
+   "attack_ms_to_peak": 120,
+   "audible_s": 0.48
+  },
+  {
+   "vel": 91,
+   "level_dB": -45.1,
+   "centroid_Hz": 1048,
+   "attack_ms_to_peak": 120,
+   "audible_s": 0.44
+  },
+  {
+   "vel": 110,
+   "level_dB": -41.5,
+   "centroid_Hz": 1051,
+   "attack_ms_to_peak": 120,
+   "audible_s": 0.42
+  },
+  {
+   "vel": 127,
+   "level_dB": -38.7,
+   "centroid_Hz": 1052,
+   "attack_ms_to_peak": 120,
+   "audible_s": 0.36
+  }
+ ],
+ "fr3_pizz45": [
+  {
+   "vel": 32,
+   "level_dB": -54.7,
+   "centroid_Hz": 705,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.3
+  },
+  {
+   "vel": 42,
+   "level_dB": -49.9,
+   "centroid_Hz": 705,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.3
+  },
+  {
+   "vel": 53,
+   "level_dB": -45.9,
+   "centroid_Hz": 705,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.3
+  },
+  {
+   "vel": 64,
+   "level_dB": -42.6,
+   "centroid_Hz": 705,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.3
+  },
+  {
+   "vel": 74,
+   "level_dB": -40.1,
+   "centroid_Hz": 705,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.3
+  },
+  {
+   "vel": 84,
+   "level_dB": -37.9,
+   "centroid_Hz": 705,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.3
+  },
+  {
+   "vel": 91,
+   "level_dB": -36.5,
+   "centroid_Hz": 705,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.3
+  },
+  {
+   "vel": 110,
+   "level_dB": -33.2,
+   "centroid_Hz": 705,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.3
+  },
+  {
+   "vel": 127,
+   "level_dB": -30.7,
+   "centroid_Hz": 705,
+   "attack_ms_to_peak": 50,
+   "audible_s": 0.3
+  }
+ ],
+ "fr3_horn60": [
+  {
+   "vel": 32,
+   "level_dB": -53.5,
+   "centroid_Hz": 417,
+   "attack_ms_to_peak": 490,
+   "audible_s": 1.54
+  },
+  {
+   "vel": 42,
+   "level_dB": -48.7,
+   "centroid_Hz": 417,
+   "attack_ms_to_peak": 490,
+   "audible_s": 1.54
+  },
+  {
+   "vel": 53,
+   "level_dB": -44.7,
+   "centroid_Hz": 417,
+   "attack_ms_to_peak": 490,
+   "audible_s": 1.54
+  },
+  {
+   "vel": 64,
+   "level_dB": -41.4,
+   "centroid_Hz": 417,
+   "attack_ms_to_peak": 490,
+   "audible_s": 1.54
+  },
+  {
+   "vel": 74,
+   "level_dB": -39.1,
+   "centroid_Hz": 464,
+   "attack_ms_to_peak": 490,
+   "audible_s": 1.55
+  },
+  {
+   "vel": 84,
+   "level_dB": -36.9,
+   "centroid_Hz": 464,
+   "attack_ms_to_peak": 490,
+   "audible_s": 1.56
+  },
+  {
+   "vel": 91,
+   "level_dB": -35.5,
+   "centroid_Hz": 463,
+   "attack_ms_to_peak": 490,
+   "audible_s": 1.57
+  },
+  {
+   "vel": 110,
+   "level_dB": -32.2,
+   "centroid_Hz": 462,
+   "attack_ms_to_peak": 490,
+   "audible_s": 1.58
+  },
+  {
+   "vel": 127,
+   "level_dB": -29.8,
+   "centroid_Hz": 460,
+   "attack_ms_to_peak": 490,
+   "audible_s": 1.6
+  }
+ ]
+}

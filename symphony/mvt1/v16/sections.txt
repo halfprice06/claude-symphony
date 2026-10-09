@@ -1,0 +1,9 @@
+intro 14
+tOne 18
+trans 14
+tTwo 22
+clos 8
+dev 46
+recOne 12
+recTwo 24
+coda 14
