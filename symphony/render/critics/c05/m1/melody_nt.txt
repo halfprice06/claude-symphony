@@ -1,0 +1,22 @@
+r05-m1: melody | marked bars | whole phrase: vs loudest / vs sum | balanced bars | balanced: vs loudest / vs sum
+Cor anglais (espr.) | 5-7 | +7.8 / +4.4 | 5-7 | +7.8 / +4.4
+Violas (espr.) | 19-26 | +0.7 / -5.6 | 19-25 | +0.9 / -4.5
+Bassoons 12 (espr.) | 33-40 | -0.4 / -5.2 | 33-40 | -0.4 / -5.2
+Horns 12 (1. dolce) | 47-52 | +0.1 / -1.5 | 47-52 | +0.1 / -1.5
+Violoncellos (dolce) | 47-54 | +1.1 / -0.2 | 47-54 | +1.1 / -0.2
+Violins I (molto cantabile) | 55-62 | -1.3 / -4.9 | 55-62 | -1.3 / -4.9
+Violins II (molto cantabile unis.) | 55-62 | -3.5 / -7.6 | 55-62 | -3.5 / -7.6
+Clarinets 12 (espr.) | 56-63 | -2.7 / -6.7 | 56-63 | -2.7 / -6.7
+Horns 12 (espr.) | 56-63 | -1.2 / -5.9 | 56-63 | -1.2 / -5.9
+Flutes 12 (espr.) | 73-75 | +1.8 / -1.7 | 73-75 | +1.8 / -1.7
+Bass clarinet (Solo / espr.) | 77-78 | +1.3 / -1.7 | 77-78 | +1.3 / -1.7
+Bass clarinet (espr.) | 107-114 | +1.3 / -6.3 | 107-114 | +1.3 / -6.3
+Violas (espr.) | 107-114 | -2.7 / -6.9 | 107-114 | -2.7 / -6.9
+Flutes 12 (1. espr.) | 109-110 | +1.8 / -0.8 | 109-110 | +1.8 / -0.8
+Oboes 12 (dolce) | 145-146 | +0.4 / -4.7 | 145-146 | +0.4 / -4.7
+Horns 12 (dolce) | 146-152 | -1.9 / -4.2 | 146-152 | -1.9 / -4.2
+Violas (dolce) | 146-153 | +0.3 / -2.7 | 146-153 | +0.3 / -2.7
+Violoncellos (dolce) | 146-153 | -0.4 / -3.6 | 146-153 | -0.4 / -3.6
+Cor anglais (espr.) | 171-173 | -0.4 / -1.2 | 171-173 | -0.4 / -1.2
+Violoncellos (espr.) | 171-178 | +0.8 / -2.9 | 171-178 | +0.8 / -2.9
+r05-m1: whole phrase: >= 0 dB vs loudest 11/20, >= -6 vs sum 16; balanced bars only (20 phrases): 11/20, 16/20

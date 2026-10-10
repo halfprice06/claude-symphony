@@ -1,0 +1,323 @@
+{
+ "melodies": [
+  {
+   "staff": "Horns 12",
+   "bars": [
+    6,
+    13
+   ],
+   "lift_dB": 0.0
+  },
+  {
+   "staff": "Violins I",
+   "bars": [
+    22,
+    29
+   ],
+   "lift_dB": -0.9
+  },
+  {
+   "staff": "Violoncellos",
+   "bars": [
+    23,
+    30
+   ],
+   "lift_dB": 3.0
+  },
+  {
+   "staff": "Bass clarinet",
+   "bars": [
+    31,
+    37
+   ],
+   "lift_dB": -1.6
+  },
+  {
+   "staff": "Cor anglais",
+   "bars": [
+    32,
+    34
+   ],
+   "lift_dB": 3.0
+  },
+  {
+   "staff": "Flutes 12",
+   "bars": [
+    37,
+    44
+   ],
+   "lift_dB": 1.8
+  },
+  {
+   "staff": "Cor anglais",
+   "bars": [
+    41,
+    44
+   ],
+   "lift_dB": 0.4
+  },
+  {
+   "staff": "Oboes 12",
+   "bars": [
+    47,
+    53
+   ],
+   "lift_dB": 3.0
+  },
+  {
+   "staff": "Horns 12",
+   "bars": [
+    53,
+    60
+   ],
+   "lift_dB": -0.7
+  },
+  {
+   "staff": "Violoncellos",
+   "bars": [
+    57,
+    64
+   ],
+   "lift_dB": 3.0
+  },
+  {
+   "staff": "Horns 12",
+   "bars": [
+    67,
+    69
+   ],
+   "lift_dB": 0.0
+  },
+  {
+   "staff": "Violins I",
+   "bars": [
+    70,
+    77
+   ],
+   "lift_dB": -2.9
+  },
+  {
+   "staff": "Violas",
+   "bars": [
+    71,
+    78
+   ],
+   "lift_dB": 3.0
+  },
+  {
+   "staff": "Violoncellos",
+   "bars": [
+    71,
+    78
+   ],
+   "lift_dB": 3.0
+  }
+ ],
+ "rolls": [
+  {
+   "bars": [
+    2,
+    3
+   ],
+   "dyn": "ppp",
+   "cut_dB": [
+    1.8,
+    0.0
+   ]
+  },
+  {
+   "bars": [
+    67,
+    70
+   ],
+   "dyn": "ppp",
+   "cut_dB": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "bars": [
+    89,
+    92
+   ],
+   "dyn": "ppp",
+   "cut_dB": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ ],
+ "stems_changed": {
+  "Bass clarinet": [
+   -5.1,
+   -0.7
+  ],
+  "Bass trombone": [
+   -4.4,
+   -4.4
+  ],
+  "Bassoons 12": [
+   -5.4,
+   -0.7
+  ],
+  "Clarinets 12": [
+   -5.4,
+   -0.3
+  ],
+  "Contrabassoon": [
+   -4.4,
+   -4.4
+  ],
+  "Cor anglais": [
+   0.4,
+   3.0
+  ],
+  "Double basses": [
+   -5.9,
+   -0.7
+  ],
+  "Flutes 12": [
+   -5.6,
+   1.8
+  ],
+  "Horns 12": [
+   -5.4,
+   3.0
+  ],
+  "Horns 34": [
+   -5.1,
+   -0.2
+  ],
+  "Oboes 12": [
+   -5.3,
+   3.0
+  ],
+  "Timpani": [
+   -5.1,
+   -0.7
+  ],
+  "Trombones 12": [
+   -4.4,
+   -4.4
+  ],
+  "Trumpet 3": [
+   -5.2,
+   -5.2
+  ],
+  "Trumpets 12": [
+   -4.4,
+   -4.4
+  ],
+  "Tuba": [
+   -4.4,
+   -4.4
+  ],
+  "Violas": [
+   -5.7,
+   3.0
+  ],
+  "Violins I": [
+   -7.4,
+   3.0
+  ],
+  "Violins II": [
+   -5.4,
+   -0.2
+  ],
+  "Violoncellos": [
+   -0.7,
+   3.0
+  ]
+ },
+ "derived_melodies": [
+  [
+   "Horns 12",
+   6,
+   13,
+   "solo, dolce espr."
+  ],
+  [
+   "Violins I",
+   22,
+   29,
+   "espr., sul D"
+  ],
+  [
+   "Violoncellos",
+   23,
+   30,
+   "cantabile"
+  ],
+  [
+   "Bass clarinet",
+   31,
+   37,
+   "solo, espr."
+  ],
+  [
+   "Cor anglais",
+   32,
+   34,
+   "dolce"
+  ],
+  [
+   "Flutes 12",
+   37,
+   44,
+   "dolce cantabile"
+  ],
+  [
+   "Cor anglais",
+   41,
+   44,
+   "solo, dolce cantabile"
+  ],
+  [
+   "Oboes 12",
+   47,
+   53,
+   "espr."
+  ],
+  [
+   "Horns 12",
+   53,
+   60,
+   "espr."
+  ],
+  [
+   "Violoncellos",
+   57,
+   64,
+   "espr."
+  ],
+  [
+   "Horns 12",
+   67,
+   69,
+   "solo"
+  ],
+  [
+   "Violins I",
+   70,
+   77,
+   "espr."
+  ],
+  [
+   "Violas",
+   71,
+   78,
+   "unis., ord., espr."
+  ],
+  [
+   "Violoncellos",
+   71,
+   78,
+   "cantabile"
+  ]
+ ]
+}

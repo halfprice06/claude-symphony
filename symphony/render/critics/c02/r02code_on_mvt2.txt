@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/mnt/project-files/symphony/render/r02/articulate.py", line 549, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/project-files/symphony/render/r02/articulate.py", line 519, in main
+    added = perc.apply(out, cfg, a.midi)
+  File "/mnt/project-files/symphony/render/r02/perc.py", line 77, in apply
+    assert (m.numerator, m.denominator) == (4, 4), "perc.py assumes 4/4"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: perc.py assumes 4/4

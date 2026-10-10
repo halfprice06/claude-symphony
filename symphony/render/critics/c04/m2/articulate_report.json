@@ -1,0 +1,308 @@
+{
+ "stats": {
+  "legato": 582,
+  "slur_end": 157,
+  "detached": 543,
+  "tenuto/fermata": 38,
+  "unmatched": 9,
+  "accent": 3,
+  "timp_rolls": 11,
+  "sf": 7,
+  "tremolo32": 28,
+  "pizz": 34,
+  "string_accent_channel": 1,
+  "overlap_trimmed": 4,
+  "percussion_events": 0,
+  "velocity_outliers_fixed": 19
+ },
+ "melody_spans": [],
+ "units": {
+  "Flutes 12/1": {
+   "expr_dB_range": [
+    -11.71,
+    -8.259110354353417
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Flutes 12/2": {
+   "expr_dB_range": [
+    -11.71,
+    -11.71
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Flutes 12/3": {
+   "expr_dB_range": [
+    -11.71,
+    -11.71
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Flutes 12/4": {
+   "expr_dB_range": [
+    -13.716861089603455,
+    -6.857506596204917
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Oboes 12/6": {
+   "expr_dB_range": [
+    -16.78837479470527,
+    -8.975314190993092
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Oboes 12/7": {
+   "expr_dB_range": [
+    -13.68,
+    -13.68
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Oboes 12/9": {
+   "expr_dB_range": [
+    -19.283189078968093,
+    -8.719520277081829
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Cor anglais/11": {
+   "expr_dB_range": [
+    -9.566877047711529,
+    -5.942698106519932
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Clarinets 12/12": {
+   "expr_dB_range": [
+    -26.1250272975241,
+    -13.130640198199767
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Clarinets 12/13": {
+   "expr_dB_range": [
+    -26.1250272975241,
+    -13.130640198199767
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Clarinets 12/14": {
+   "expr_dB_range": [
+    -30.3434299877049,
+    -6.387208055371866
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Clarinets 12/15": {
+   "expr_dB_range": [
+    -16.607680545914718,
+    -14.439260340817139
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Bass clarinet/17": {
+   "expr_dB_range": [
+    -30.813957119127608,
+    -15.297677255356154
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Bassoons 12/18": {
+   "expr_dB_range": [
+    -20.569041059386052,
+    -6.116456378096229
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Bassoons 12/19": {
+   "expr_dB_range": [
+    -24.044877696926616,
+    10.33889908150018
+   ],
+   "cc11_capped_s": 0.02
+  },
+  "Bassoons 12/20": {
+   "expr_dB_range": [
+    -17.209388314774007,
+    -12.483179658984145
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Bassoons 12/21": {
+   "expr_dB_range": [
+    -15.385066757964914,
+    -11.437222692928383
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Contrabassoon/23": {
+   "expr_dB_range": [
+    -30.384877696926615,
+    -13.990178956083554
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Horns 12/24": {
+   "expr_dB_range": [
+    -18.811,
+    -18.811
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Horns 12/25": {
+   "expr_dB_range": [
+    -25.74916013477629,
+    -18.811
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Horns 12/26": {
+   "expr_dB_range": [
+    -26.417261424576964,
+    -15.675438973515705
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Horns 12/27": {
+   "expr_dB_range": [
+    -27.025053571896283,
+    -11.644837945571787
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Horns 34/29": {
+   "expr_dB_range": [
+    -20.35,
+    -20.35
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Horns 34/30": {
+   "expr_dB_range": [
+    -20.35,
+    -20.35
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Horns 34/31": {
+   "expr_dB_range": [
+    -30.652900448308124,
+    -14.468146143801885
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Trumpets 12/34": {
+   "expr_dB_range": [
+    -12.475999999999999,
+    -12.475999999999999
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Trumpets 12/35": {
+   "expr_dB_range": [
+    -12.475999999999999,
+    -12.475999999999999
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Trumpets 12/36": {
+   "expr_dB_range": [
+    -12.468,
+    -12.468
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Trumpet 3/39": {
+   "expr_dB_range": [
+    -8.496,
+    -8.496
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Trombones 12/42": {
+   "expr_dB_range": [
+    -10.57,
+    -10.57
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Trombones 12/43": {
+   "expr_dB_range": [
+    -15.230222762857487,
+    -8.837
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Bass trombone/45": {
+   "expr_dB_range": [
+    -17.046352470128582,
+    -9.489
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Tuba/46": {
+   "expr_dB_range": [
+    -11.34,
+    -11.34
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Timpani/None": {
+   "expr_dB_range": [
+    -18.25452842257782,
+    -1.1982300000005477
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Harp RH/None": {
+   "expr_dB_range": [
+    -9.3,
+    -7.8100000000000005
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Harp LH/None": {
+   "expr_dB_range": [
+    -9.3,
+    -7.8100000000000005
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Violins I/None": {
+   "expr_dB_range": [
+    -16.51036736826001,
+    -0.4975476320898107
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Violins II/None": {
+   "expr_dB_range": [
+    -14.517169809931163,
+    -1.3776217251664047
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Violas/None": {
+   "expr_dB_range": [
+    -28.217569194362568,
+    -15.829082826187697
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Violoncellos/None": {
+   "expr_dB_range": [
+    -22.043497048778395,
+    -12.418258799860457
+   ],
+   "cc11_capped_s": 0.0
+  },
+  "Double basses/None": {
+   "expr_dB_range": [
+    -26.283867322900463,
+    -11.524707397951381
+   ],
+   "cc11_capped_s": 0.0
+  }
+ }
+}

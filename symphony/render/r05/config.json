@@ -1,0 +1,2192 @@
+{
+ "_doc": "r03 render configuration (from r02). gain_dB: static stem gain; pan: -1 left .. +1 right; width: 0 mono .. 1 sample's own stereo; src: Detmold Konzerthaus loudspeaker-orchestra source; send_dB: reverb send relative to the dry stem; family: rule set for articulations; engine: fluidsynth (FluidR3_GM) or sfz (sfzplay.py with the files in sfz.channels, one per MIDI channel); accent_extra_vel: velocity added to accented notes.",
+ "sf2": "/usr/share/sounds/sf2/FluidR3_GM.sf2",
+ "sample_rate": 48000,
+ "fluid_gain": 0.2,
+ "ir_receiver": "R163",
+ "ir_fig8_gain": 1.3,
+ "ir_direct_cut_ms": 4.0,
+ "reverb_master_dB": 0.0,
+ "brightness": {
+  "crossover_Hz": 2500,
+  "dB_per_velocity": 0.1,
+  "min_dB": -6.0,
+  "max_dB": 3.0,
+  "ref_velocity": 74,
+  "preserve_level": true,
+  "preserve_window_s": 0.4,
+  "preserve_max_dB": 3.0
+ },
+ "master": {
+  "target_LUFS": -20.0,
+  "true_peak_dBTP": -1.0,
+  "mp3_bitrate": "256k",
+  "eq": [
+   {
+    "type": "bell",
+    "Hz": 280,
+    "dB": -3.5,
+    "Q": 1.2
+   },
+   {
+    "type": "bell",
+    "Hz": 720,
+    "dB": -2.0,
+    "Q": 1.4
+   },
+   {
+    "type": "bell",
+    "Hz": 7000,
+    "dB": 2.5,
+    "Q": 1.8
+   },
+   {
+    "type": "bell",
+    "Hz": 3000,
+    "dB": -0.7,
+    "Q": 1.4
+   },
+   {
+    "type": "lowshelf",
+    "Hz": 90,
+    "dB": 2.0,
+    "S": 1.0
+   }
+  ],
+  "_doc_eq": "r04: zero-phase mix-bus EQ (lib/busq.py). r05 (critic 4, plan 5): retuned against the mean third-octave LTAS of all four Brahms references (1 and 4, I and II; meas/scripts/eqtune4.py): the 6.3 kHz bell (Q 1.0) moved to 7 kHz Q 1.8 and a -0.7 dB bell at 3 kHz (2.5-3.2 kHz was +2.5 dB), 720 Hz -2.0, low shelf +2 dB below 90 Hz (share < 100 Hz)"
+ },
+ "dynamics": {
+  "_doc": "extra expression (CC11, dB) added to the velocity's own level, by velocity-equivalent of the printed dynamic; ppp 32, pp 42, p 53, mp 64, mf 74, f 84, ff 91, fff 110 after fff_velocity_cut (v120 volume table x 127). headroom_dB is taken off every CC11 curve and added back as stem gain. per_track_families: one CC11 curve per voice track.",
+  "headroom_dB": 6.0,
+  "per_track_families": [
+   "wind",
+   "brass"
+  ],
+  "extra_dB_points": [
+   [
+    1,
+    -3.3
+   ],
+   [
+    32,
+    -3.3
+   ],
+   [
+    42,
+    -3.3
+   ],
+   [
+    53,
+    -3.2
+   ],
+   [
+    64,
+    -3.0
+   ],
+   [
+    74,
+    -1.9
+   ],
+   [
+    84,
+    -2.3
+   ],
+   [
+    91,
+    -4.8
+   ],
+   [
+    105,
+    -5.5
+   ],
+   [
+    127,
+    -5.5
+   ]
+  ],
+  "_doc_r05": "r05 (critic 4, plan 2): f -1.8 -> -2.3, ff -4.3 -> -4.8, fff -5.0 -> -5.5 (mf->f and f->ff bar steps 4.6-6.3 dB in both movements). A soft-end lift (+2 dB at <= p) was tested: m2 LRA 22.2 -> 20.9 but m1 LRA 18.7 -> 17.5 and m1 inversions outside hairpins 221 -> 274, so not kept (NOTES.md)"
+ },
+ "articulation": {
+  "legato_overlap_s": 0.04,
+  "detached_gap_frac": 0.13,
+  "detached_gap_min_s": 0.03,
+  "detached_gap_max_s": 0.12,
+  "detached_min_frac": 0.6,
+  "slur_end_gap_frac": 0.1,
+  "slur_end_gap_min_s": 0.03,
+  "slur_end_gap_max_s": 0.1,
+  "staccato_frac_wind": 0.45,
+  "staccato_max_s_wind": 0.3,
+  "staccato_frac_string": 0.45,
+  "staccato_max_s_string": 0.3,
+  "string_staccato_release_timecents": -2400,
+  "tenuto_velocity": 5,
+  "accent_dip_start_s": 0.08,
+  "accent_dip_full_s": 0.25,
+  "accent_dip_max_dB": 6.0,
+  "sf_velocity_boost": 20,
+  "sul_tasto_velocity": -6,
+  "timp_roll_rate_hz": 14.0,
+  "timp_roll_vel_offset": -6,
+  "timp_roll_vel_jitter": 6,
+  "tremolo_program": 44,
+  "pizz_program": 45,
+  "pizz_rel_arco_dB": -2.0,
+  "pizz_len_frac": 0.6,
+  "pizz_len_max_s": 0.35,
+  "staccato_min_s_wind": 0.08,
+  "staccato_min_s_string": 0.11,
+  "fff_velocity_cut": 22,
+  "string_accent_channel": true,
+  "timp_roll_settle_dB": -4.5,
+  "timp_roll_settle_tau_s": 1.0,
+  "timp_roll_long_s": 3.5,
+  "timp_roll_long_dB": -2.5,
+  "timp_roll_mode": "sample",
+  "timp_roll_start_stroke_vel": 0,
+  "vel_outlier_steps": 15,
+  "vel_outlier_min_n": 10,
+  "timp_roll_fff_cut": false,
+  "timp_roll_trim_dB": {
+   "f": 1.5,
+   "ff": 5.0,
+   "fff": 5.5
+  },
+  "timp_roll_pitch_trim_dB": {
+   "36": 2.0,
+   "37": 1.9,
+   "38": 2.2,
+   "39": 2.1,
+   "40": -0.4,
+   "41": -0.6,
+   "42": -0.1,
+   "43": -0.4,
+   "44": -0.5,
+   "45": 0.4,
+   "46": 0.3,
+   "47": 1.9,
+   "48": 1.8,
+   "49": 1.7,
+   "50": 0.0,
+   "51": 0.8,
+   "52": 0.7,
+   "53": 0.7,
+   "54": -0.3,
+   "55": -0.3,
+   "56": -0.3,
+   "57": -0.7,
+   "58": -0.6,
+   "59": -0.8,
+   "60": -0.8
+  },
+  "timp_roll_sink_dB_per_bar": -1.0,
+  "timp_roll_sink_after_s": 2.0,
+  "timp_roll_settle_max_dB": -7.5,
+  "timp_roll_step_dB": 3.5,
+  "timp_roll_curve": true,
+  "_doc_timp_roll_curve": "r05 (critic 4, plan 1): each recorded roll's CC11 curve is built from the dynamics and hairpins printed inside it (notes.csv inner; articulate.roll_curve): step_dB per printed step, hairpins ramp to the next printed dynamic, settle (settle_dB, tau, then sink_dB_per_bar after sink_after_s, at most settle_max_dB) only between them, restarting at each new dynamic. timp_roll_long_* are unused in r05."
+ },
+ "stems": {
+  "Flutes 12": {
+   "family": "wind",
+   "gain_dB": 3.47,
+   "pan": -0.2,
+   "width": 0.5,
+   "src": "S6",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": 0.0,
+    "p": -0.35,
+    "mp": -0.71,
+    "mf": -1.06,
+    "f": -1.42,
+    "ff": -1.77,
+    "fff": -2.12
+   },
+   "printed_trim_dB": {
+    "pp": -2.8,
+    "p": -2.05,
+    "mp": -4.6,
+    "mf": -0.65,
+    "f": -1.1,
+    "ff": -3.75,
+    "fff": -1.8
+   },
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -2.0,
+    "tail_s": 3.0,
+    "channels": {
+     "0": {
+      "file": "sfz/flute-iowa-L.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "1": {
+      "file": "sfz/flute-iowa-R.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "2": {
+      "file": "sfz/flute-iowa-a2.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "sfz/flute-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "sfz/flute-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "sfz/flute-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "6": {
+      "file": "sfz/flute-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "7": {
+      "file": "sfz/flute-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     }
+    },
+    "_doc": "r05: notes shorter than 0.5 s start where the sample is within 8 dB of its steady level (at most 0.25 s in; the sfzplay 'skip' already used for the VPO strings), so short notes speak at once; accent_extra_vel 8 as the oboes had"
+   },
+   "_doc_r05": "r05 (critic 4, plan 3): University of Iowa MIS samples (pp/mf/ff layers, build_iowa.py) through sfzplay; voice channels 0/1 = players 1/2 (pan -35/+35 inside the stem), 2 = a2 (both players, 8 cents apart), 3+ centre; sfz gain and printed_trim_dB calibrated with meas/scripts/engcal.py on both movements so each printed dynamic stays within about 2 dB of r04's FluidR3 level; engine fluidsynth is the fallback",
+   "accent_extra_vel": 8
+  },
+  "Oboes 12": {
+   "family": "wind",
+   "gain_dB": 6.88,
+   "pan": 0.15,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "dyn_corr_dB": {
+    "pp": -2.52,
+    "p": -2.1,
+    "mp": -1.68,
+    "mf": -1.26,
+    "f": -0.84,
+    "ff": -0.42,
+    "fff": 0.0
+   },
+   "printed_trim_dB": {
+    "pp": 1.1,
+    "p": 1.3,
+    "mp": -3.2,
+    "mf": 0.3,
+    "f": -0.3,
+    "ff": -5.7,
+    "fff": -4.1
+   },
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -3.0,
+    "tail_s": 3.0,
+    "channels": {
+     "0": {
+      "file": "sfz/oboe-iowa-L.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "1": {
+      "file": "sfz/oboe-iowa-R.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "2": {
+      "file": "sfz/oboe-iowa-a2.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "sfz/oboe-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "sfz/oboe-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "sfz/oboe-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "6": {
+      "file": "sfz/oboe-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "7": {
+      "file": "sfz/oboe-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     }
+    },
+    "_doc": "r05: notes shorter than 0.5 s start where the sample is within 8 dB of its steady level (at most 0.25 s in; the sfzplay 'skip' already used for the VPO strings), so short notes speak at once; accent_extra_vel 8 as the oboes had"
+   },
+   "_doc_r05": "r05 (critic 4, plan 3): University of Iowa MIS samples (pp/mf/ff layers, build_iowa.py) through sfzplay; voice channels 0/1 = players 1/2 (pan -35/+35 inside the stem), 2 = a2 (both players, 8 cents apart), 3+ centre; sfz gain and printed_trim_dB calibrated with meas/scripts/engcal.py on both movements so each printed dynamic stays within about 2 dB of r04's FluidR3 level; engine fluidsynth is the fallback"
+  },
+  "Cor anglais": {
+   "family": "wind",
+   "gain_dB": 2.08,
+   "pan": 0.3,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "dyn_corr_dB": {
+    "pp": 0.0,
+    "p": 0.0,
+    "mp": 0.0,
+    "mf": 0.0,
+    "f": 0.0,
+    "ff": -0.0,
+    "fff": -0.0
+   },
+   "staccato_extra_vel": 8
+  },
+  "Clarinets 12": {
+   "family": "wind",
+   "gain_dB": 7.19,
+   "pan": -0.25,
+   "width": 0.5,
+   "src": "S6",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -7.02,
+    "p": -5.85,
+    "mp": -4.68,
+    "mf": -3.51,
+    "f": -2.34,
+    "ff": -1.17,
+    "fff": 0.0
+   },
+   "printed_trim_dB": {
+    "pp": 0.7,
+    "p": 0.9,
+    "mp": -1.8,
+    "mf": -3.3,
+    "f": -0.1,
+    "ff": -4.2,
+    "fff": -1.4
+   },
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": 0.0,
+    "tail_s": 3.0,
+    "channels": {
+     "0": {
+      "file": "sfz/clarinet-iowa-L.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "1": {
+      "file": "sfz/clarinet-iowa-R.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "2": {
+      "file": "sfz/clarinet-iowa-a2.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "sfz/clarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "sfz/clarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "sfz/clarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "6": {
+      "file": "sfz/clarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "7": {
+      "file": "sfz/clarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     }
+    },
+    "_doc": "r05: notes shorter than 0.5 s start where the sample is within 8 dB of its steady level (at most 0.25 s in; the sfzplay 'skip' already used for the VPO strings), so short notes speak at once; accent_extra_vel 8 as the oboes had"
+   },
+   "_doc_r05": "r05 (critic 4, plan 3): University of Iowa MIS clarinet (pp/mf/ff layers, build_iowa.py); voice channels: 0 player 1 (pan -35 inside the stem), 1 player 2 (+35), 2 a2 (both, 8 cents apart), 3+ centre; the +5 dB clarinet shelf is dropped; printed_trim_dB calibrated with meas/scripts/engcal.py so each printed dynamic is within 2 dB of r04's FluidR3 level (m1), with about +0.4 dB per printed step more; engine fluidsynth (and r04's printed_trim/tone) is the fallback",
+   "accent_extra_vel": 8
+  },
+  "Bass clarinet": {
+   "family": "wind",
+   "gain_dB": 13.75,
+   "pan": -0.35,
+   "width": 0.5,
+   "src": "S6",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -12.0,
+    "p": -10.0,
+    "mp": -8.0,
+    "mf": -6.0,
+    "f": -4.0,
+    "ff": -2.0,
+    "fff": 0.0
+   },
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -6.0,
+    "tail_s": 3.0,
+    "channels": {
+     "0": {
+      "file": "sfz/bassclarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "1": {
+      "file": "sfz/bassclarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "2": {
+      "file": "sfz/bassclarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "sfz/bassclarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "sfz/bassclarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "sfz/bassclarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "6": {
+      "file": "sfz/bassclarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "7": {
+      "file": "sfz/bassclarinet-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     }
+    },
+    "_doc": "r05: notes shorter than 0.5 s start where the sample is within 8 dB of its steady level (at most 0.25 s in; the sfzplay 'skip' already used for the VPO strings), so short notes speak at once; accent_extra_vel 8 as the oboes had"
+   },
+   "printed_trim_dB": {
+    "pp": 3.1,
+    "p": 2.8,
+    "mp": -0.9,
+    "mf": 0.9,
+    "f": -0.6,
+    "ff": -3.2,
+    "fff": -3.4
+   },
+   "_doc_r05": "r05 (critic 4, plan 3): University of Iowa MIS bass clarinet through sfzplay; sfz gain and printed_trim_dB calibrated with engcal.py against r04's FluidR3 level per printed dynamic (dyn_corr_dB kept)",
+   "accent_extra_vel": 8
+  },
+  "Bassoons 12": {
+   "family": "wind",
+   "gain_dB": 11.42,
+   "pan": 0.1,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -5.66,
+    "p": -4.72,
+    "mp": -3.77,
+    "mf": -2.83,
+    "f": -1.88,
+    "ff": -0.94,
+    "fff": 0.0
+   },
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -6.5,
+    "tail_s": 3.0,
+    "channels": {
+     "0": {
+      "file": "sfz/bassoon-iowa-L.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "1": {
+      "file": "sfz/bassoon-iowa-R.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "2": {
+      "file": "sfz/bassoon-iowa-a2.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "sfz/bassoon-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "sfz/bassoon-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "sfz/bassoon-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "6": {
+      "file": "sfz/bassoon-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     },
+     "7": {
+      "file": "sfz/bassoon-iowa.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.12
+        }
+       ]
+      ]
+     }
+    },
+    "_doc": "r05: notes shorter than 0.5 s start where the sample is within 8 dB of its steady level (at most 0.25 s in; the sfzplay 'skip' already used for the VPO strings), so short notes speak at once; accent_extra_vel 8 as the oboes had"
+   },
+   "printed_trim_dB": {
+    "pp": 1.8,
+    "p": 1.5,
+    "mp": -0.6,
+    "mf": -1.9,
+    "f": 0.5,
+    "ff": -1.1,
+    "fff": -1.6
+   },
+   "_doc_r05": "r05 (critic 4, plan 3): University of Iowa MIS samples (pp/mf/ff layers, build_iowa.py) through sfzplay; voice channels 0/1 = players 1/2 (pan -35/+35 inside the stem), 2 = a2 (both players, 8 cents apart), 3+ centre; sfz gain and printed_trim_dB calibrated with meas/scripts/engcal.py on both movements so each printed dynamic stays within about 2 dB of r04's FluidR3 level; engine fluidsynth is the fallback",
+   "accent_extra_vel": 8
+  },
+  "Contrabassoon": {
+   "family": "wind",
+   "gain_dB": 21.16,
+   "pan": 0.25,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -12.0,
+    "p": -10.0,
+    "mp": -8.0,
+    "mf": -6.0,
+    "f": -4.0,
+    "ff": -2.0,
+    "fff": 0.0
+   },
+   "printed_trim_dB": {
+    "pp": -4.0,
+    "p": -3.0,
+    "mp": -2.0,
+    "mf": -1.0,
+    "f": 0.0,
+    "ff": 1.0,
+    "fff": 2.0
+   },
+   "_doc_r05_slope": "r05 (critic 4, plan 2): printed_trim_dB includes +1.0 dB per printed step around f (the stem measured < 2.5 dB per printed step in r04)"
+  },
+  "Horns 12": {
+   "family": "brass",
+   "gain_dB": 13.02,
+   "pan": -0.55,
+   "width": 0.5,
+   "src": "S5",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -11.59,
+    "p": -9.66,
+    "mp": -7.72,
+    "mf": -5.79,
+    "f": -3.86,
+    "ff": -1.93,
+    "fff": 0.0
+   },
+   "printed_trim_dB": {
+    "ff": -3,
+    "fff": -3
+   }
+  },
+  "Horns 34": {
+   "family": "brass",
+   "gain_dB": 10.94,
+   "pan": -0.65,
+   "width": 0.5,
+   "src": "S5",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -11.05,
+    "p": -9.2,
+    "mp": -7.36,
+    "mf": -5.52,
+    "f": -3.68,
+    "ff": -1.84,
+    "fff": 0.0
+   }
+  },
+  "Trumpets 12": {
+   "family": "brass",
+   "gain_dB": 6.95,
+   "pan": 0.15,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "dyn_corr_dB": {
+    "pp": 0.0,
+    "p": -0.19,
+    "mp": -0.37,
+    "mf": -0.56,
+    "f": -0.74,
+    "ff": -0.93,
+    "fff": -1.12
+   },
+   "printed_trim_dB": {
+    "f": -5,
+    "ff": -4,
+    "fff": -4,
+    "mp": -2.0
+   },
+   "_doc_r05": "r05: mp -2 (r04 trumpets 1-2 at mp +3.8 dB over Violins I, at f +0.1; the f -5 trim alone made the stem 1.0 dB per printed step)"
+  },
+  "Trumpet 3": {
+   "family": "brass",
+   "gain_dB": 9.53,
+   "pan": 0.22,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -1.32,
+    "p": -1.1,
+    "mp": -0.88,
+    "mf": -0.66,
+    "f": -0.44,
+    "ff": -0.22,
+    "fff": 0.0
+   }
+  },
+  "Trombones 12": {
+   "family": "brass",
+   "gain_dB": -5.16,
+   "pan": 0.4,
+   "width": 0.5,
+   "src": "S8",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "dyn_corr_dB": {
+    "pp": -1.6,
+    "p": -1.34,
+    "mp": -1.07,
+    "mf": -0.8,
+    "f": -0.54,
+    "ff": -0.27,
+    "fff": 0.0
+   },
+   "printed_trim_dB": {
+    "mp": 3
+   }
+  },
+  "Bass trombone": {
+   "family": "brass",
+   "gain_dB": 0.28,
+   "pan": 0.48,
+   "width": 0.5,
+   "src": "S8",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -4.78,
+    "p": -3.99,
+    "mp": -3.19,
+    "mf": -2.39,
+    "f": -1.6,
+    "ff": -0.8,
+    "fff": 0.0
+   },
+   "printed_trim_dB": {
+    "mp": 4
+   },
+   "accent_extra_vel": 10,
+   "_doc_r05_accent": "r05 (critic 4, plan 7): accent_extra_vel 10 (was unset: bass trombone accents measured -1.9 dB, n 5)"
+  },
+  "Tuba": {
+   "family": "brass",
+   "gain_dB": 1.22,
+   "pan": 0.55,
+   "width": 0.5,
+   "src": "S8",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -6.22,
+    "p": -5.18,
+    "mp": -4.15,
+    "mf": -3.11,
+    "f": -2.08,
+    "ff": -1.04,
+    "fff": 0.0
+   }
+  },
+  "Timpani": {
+   "family": "timp",
+   "gain_dB": -18.0,
+   "pan": -0.05,
+   "width": 0.4,
+   "src": "S6",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "dyn_corr_dB": {
+    "pp": 0.0,
+    "p": 0.0,
+    "mp": 0.0,
+    "mf": 0.0,
+    "f": 0.0,
+    "ff": -0.0,
+    "fff": -0.0
+   },
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": 0.0,
+    "tail_s": 5.0,
+    "_doc": "VPO timpani: channel 0 single strokes (No Budget Orchestra hits), channel 1 rolls (recorded roll samples; r03: chained random segments of the loop region with 0.25 s equal-power crossfades and +-1 dB slow drift instead of one repeated loop; the release-triggered closing stroke plays at note-off)",
+    "channels": {
+     "0": {
+      "file": "../assets/vpo3/Percussion/timpani-hit.sfz"
+     },
+     "1": {
+      "file": "sfz/timpani-roll-r05.sfz",
+      "env": [
+       [
+        null,
+        {
+         "loop_crossfade": 0.15,
+         "release": 0.8,
+         "loop_random": {
+          "seg_s": [
+           0.9,
+           1.8
+          ],
+          "xf_s": 0.25,
+          "drift_dB": 1.0,
+          "drift_s": 1.5
+         }
+        }
+       ]
+      ],
+      "trim_dB": 6.0
+     }
+    }
+   }
+  },
+  "drums": {
+   "family": "perc",
+   "engine": "sfz",
+   "gain_dB": -17.0,
+   "pan": 0.05,
+   "width": 0.6,
+   "src": "S7",
+   "send_dB": -3,
+   "sfz": {
+    "tail_s": 32.0,
+    "channels": {
+     "9": {
+      "file": "sfz/perc-r02.sfz"
+     }
+    }
+   }
+  },
+  "Harp RH": {
+   "family": "harp",
+   "gain_dB": -1.0,
+   "pan": -0.75,
+   "width": 0.5,
+   "src": "S1",
+   "send_dB": -5,
+   "dyn_scale": 1.0,
+   "engine": "sfz",
+   "sfz": {
+    "_doc": "r04 (critic 3, plan 5): VSCO 2 CE harp (CC0, 18 mf samples, sfz/harp-vsco2.sfz) through sfzplay; gain_dB: the one-note test against the FluidR3 harp (program 46, core register C2-G5) gave -21 dB; the stem levels of both movements then measured 0.3-4.1 dB under FluidR3, so -18.5; FluidR3 stays as fallback (engine fluidsynth)",
+    "gain_dB": -18.5,
+    "tail_s": 4.0,
+    "channels": {
+     "0": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "1": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "2": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "3": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "4": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "5": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "6": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "7": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "8": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "10": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "11": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "12": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "13": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "14": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "15": {
+      "file": "sfz/harp-vsco2.sfz"
+     }
+    }
+   }
+  },
+  "Harp LH": {
+   "family": "harp",
+   "gain_dB": 1.73,
+   "pan": -0.75,
+   "width": 0.5,
+   "src": "S1",
+   "send_dB": -5,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {},
+   "engine": "sfz",
+   "sfz": {
+    "_doc": "r04 (critic 3, plan 5): VSCO 2 CE harp (CC0, 18 mf samples, sfz/harp-vsco2.sfz) through sfzplay; gain_dB: the one-note test against the FluidR3 harp (program 46, core register C2-G5) gave -21 dB; the stem levels of both movements then measured 0.3-4.1 dB under FluidR3, so -18.5; FluidR3 stays as fallback (engine fluidsynth)",
+    "gain_dB": -18.5,
+    "tail_s": 4.0,
+    "channels": {
+     "0": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "1": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "2": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "3": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "4": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "5": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "6": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "7": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "8": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "10": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "11": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "12": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "13": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "14": {
+      "file": "sfz/harp-vsco2.sfz"
+     },
+     "15": {
+      "file": "sfz/harp-vsco2.sfz"
+     }
+    }
+   }
+  },
+  "Violins I": {
+   "family": "string",
+   "gain_dB": 0.0,
+   "pan": -0.75,
+   "width": 0.35,
+   "src": "S1",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -12.9,
+    "tail_s": 4.0,
+    "_doc": "trims from r02 calibration (velocity 74, keys across the range): staccato peak = short sustain peak, accent peak = +2 dB, pizz peak = -2 dB, tremolo level = sustain level",
+    "channels": {
+     "0": {
+      "file": "../assets/vpo3/Strings/1st-violin-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.015,
+         "skip_db": -4,
+         "release": 0.2
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.03,
+         "skip_db": -8,
+         "release": 0.3
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.08,
+         "skip_db": -14,
+         "release": 0.45
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "../assets/vpo3/Strings/1st-violin-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.03,
+         "skip_db": -6,
+         "release": 0.35
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.06,
+         "skip_db": -10,
+         "release": 0.5
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.15,
+         "skip_db": -16,
+         "release": 0.7
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "../assets/vpo3/Strings/1st-violin-SEC-accent.sfz",
+      "trim_dB": -4.2,
+      "env": [
+       [
+        null,
+        {
+         "release": 0.4
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "../assets/vpo3/Strings/1st-violin-SEC-staccato.sfz",
+      "trim_dB": -7.8
+     },
+     "2": {
+      "file": "../assets/vpo3/Strings/1st-violin-SEC-pizzicato.sfz",
+      "trim_dB": -6.4
+     },
+     "1": {
+      "file": "../assets/vpo3/Strings/1st-violin-SEC-tremolo.sfz",
+      "trim_dB": -1.2
+     }
+    }
+   },
+   "tone": {
+    "shelf_Hz": 4500,
+    "shelf_dB": -7
+   },
+   "air": {
+    "Hz": 10500,
+    "dB": -8.0
+   }
+  },
+  "Violins II": {
+   "family": "string",
+   "gain_dB": 2.06,
+   "pan": -0.4,
+   "width": 0.35,
+   "src": "S2",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -12.9,
+    "tail_s": 4.0,
+    "_doc": "trims from r02 calibration (velocity 74, keys across the range): staccato peak = short sustain peak, accent peak = +2 dB, pizz peak = -2 dB, tremolo level = sustain level",
+    "channels": {
+     "0": {
+      "file": "../assets/vpo3/Strings/2nd-violin-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.015,
+         "skip_db": -4,
+         "release": 0.2
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.03,
+         "skip_db": -8,
+         "release": 0.3
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.08,
+         "skip_db": -14,
+         "release": 0.45
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "../assets/vpo3/Strings/2nd-violin-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.03,
+         "skip_db": -6,
+         "release": 0.35
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.06,
+         "skip_db": -10,
+         "release": 0.5
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.15,
+         "skip_db": -16,
+         "release": 0.7
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "../assets/vpo3/Strings/2nd-violin-SEC-accent.sfz",
+      "trim_dB": -3.7,
+      "env": [
+       [
+        null,
+        {
+         "release": 0.4
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "../assets/vpo3/Strings/2nd-violin-SEC-staccato.sfz",
+      "trim_dB": -9.7
+     },
+     "2": {
+      "file": "../assets/vpo3/Strings/2nd-violin-SEC-pizzicato.sfz",
+      "trim_dB": -7.5
+     },
+     "1": {
+      "file": "../assets/vpo3/Strings/2nd-violin-SEC-tremolo.sfz",
+      "trim_dB": -1.4
+     }
+    }
+   },
+   "tone": {
+    "shelf_Hz": 4500,
+    "shelf_dB": -4
+   },
+   "dyn_corr_dB": {
+    "pp": -2.27,
+    "p": -1.89,
+    "mp": -1.51,
+    "mf": -1.14,
+    "f": -0.76,
+    "ff": -0.38,
+    "fff": 0.0
+   },
+   "air": {
+    "Hz": 10500,
+    "dB": -8.0
+   }
+  },
+  "Violas": {
+   "family": "string",
+   "gain_dB": 11.65,
+   "pan": 0.25,
+   "width": 0.35,
+   "src": "S3",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -12.9,
+    "tail_s": 4.0,
+    "_doc": "trims from r02 calibration (velocity 74, keys across the range): staccato peak = short sustain peak, accent peak = +2 dB, pizz peak = -2 dB, tremolo level = sustain level",
+    "channels": {
+     "0": {
+      "file": "../assets/vpo3/Strings/viola-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.015,
+         "skip_db": -4,
+         "release": 0.2
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.03,
+         "skip_db": -8,
+         "release": 0.3
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.08,
+         "skip_db": -14,
+         "release": 0.45
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "../assets/vpo3/Strings/viola-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.03,
+         "skip_db": -6,
+         "release": 0.35
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.06,
+         "skip_db": -10,
+         "release": 0.5
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.15,
+         "skip_db": -16,
+         "release": 0.7
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "../assets/vpo3/Strings/viola-SEC-accent.sfz",
+      "trim_dB": -1.5,
+      "env": [
+       [
+        null,
+        {
+         "release": 0.4
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "../assets/vpo3/Strings/viola-SEC-staccato.sfz",
+      "trim_dB": -2.6
+     },
+     "2": {
+      "file": "../assets/vpo3/Strings/viola-SEC-pizzicato.sfz",
+      "trim_dB": -2.5
+     },
+     "1": {
+      "file": "../assets/vpo3/Strings/viola-SEC-tremolo.sfz",
+      "trim_dB": 1.5
+     }
+    }
+   },
+   "tone": {
+    "shelf_Hz": 4500,
+    "shelf_dB": -5
+   },
+   "dyn_corr_dB": {
+    "pp": -12.0,
+    "p": -10.0,
+    "mp": -8.0,
+    "mf": -6.0,
+    "f": -4.0,
+    "ff": -2.0,
+    "fff": 0.0
+   },
+   "air": {
+    "Hz": 10500,
+    "dB": -8.0
+   }
+  },
+  "Violoncellos": {
+   "family": "string",
+   "gain_dB": 3.73,
+   "pan": 0.55,
+   "width": 0.35,
+   "src": "S4",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -12.9,
+    "tail_s": 4.0,
+    "_doc": "trims from r02 calibration (velocity 74, keys across the range): staccato peak = short sustain peak, accent peak = +2 dB, pizz peak = -2 dB, tremolo level = sustain level",
+    "channels": {
+     "0": {
+      "file": "../assets/vpo3/Strings/cello-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.015,
+         "skip_db": -4,
+         "release": 0.2
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.03,
+         "skip_db": -8,
+         "release": 0.3
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.08,
+         "skip_db": -14,
+         "release": 0.45
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "../assets/vpo3/Strings/cello-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.03,
+         "skip_db": -6,
+         "release": 0.35
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.06,
+         "skip_db": -10,
+         "release": 0.5
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.15,
+         "skip_db": -16,
+         "release": 0.7
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "../assets/vpo3/Strings/cello-SEC-accent.sfz",
+      "trim_dB": -0.8,
+      "env": [
+       [
+        null,
+        {
+         "release": 0.4
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "../assets/vpo3/Strings/cello-SEC-staccato.sfz",
+      "trim_dB": -3.3
+     },
+     "2": {
+      "file": "../assets/vpo3/Strings/cello-SEC-pizzicato.sfz",
+      "trim_dB": -0.6
+     },
+     "1": {
+      "file": "../assets/vpo3/Strings/cello-SEC-tremolo.sfz",
+      "trim_dB": -0.4
+     }
+    }
+   },
+   "tone": {
+    "shelf_Hz": 4500,
+    "shelf_dB": -3,
+    "low_shelf_Hz": 150,
+    "low_shelf_dB": 3.0
+   },
+   "dyn_corr_dB": {
+    "pp": -12.0,
+    "p": -10.0,
+    "mp": -8.0,
+    "mf": -6.0,
+    "f": -4.0,
+    "ff": -2.0,
+    "fff": 0.0
+   },
+   "air": {
+    "Hz": 10500,
+    "dB": -8.0
+   }
+  },
+  "Double basses": {
+   "family": "string",
+   "gain_dB": 7.12,
+   "pan": 0.7,
+   "width": 0.35,
+   "src": "S8",
+   "send_dB": -6,
+   "dyn_scale": 1.0,
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -12.9,
+    "tail_s": 4.0,
+    "_doc": "trims from r02 calibration (velocity 74, keys across the range): staccato peak = short sustain peak, accent peak = +2 dB, pizz peak = -2 dB, tremolo level = sustain level",
+    "channels": {
+     "0": {
+      "file": "../assets/vpo3/Strings/bass-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.015,
+         "skip_db": -4,
+         "release": 0.2
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.03,
+         "skip_db": -8,
+         "release": 0.3
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.08,
+         "skip_db": -14,
+         "release": 0.45
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "../assets/vpo3/Strings/bass-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.03,
+         "skip_db": -6,
+         "release": 0.35
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.06,
+         "skip_db": -10,
+         "release": 0.5
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.15,
+         "skip_db": -16,
+         "release": 0.7
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "../assets/vpo3/Strings/bass-SEC-accent.sfz",
+      "trim_dB": -0.5,
+      "env": [
+       [
+        null,
+        {
+         "release": 0.4
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "../assets/vpo3/Strings/bass-SEC-staccato.sfz",
+      "trim_dB": -1.0
+     },
+     "2": {
+      "file": "../assets/vpo3/Strings/bass-SEC-pizzicato.sfz",
+      "trim_dB": -7.6
+     },
+     "1": {
+      "file": "../assets/vpo3/Strings/bass-SEC-tremolo.sfz",
+      "trim_dB": 1.8
+     }
+    }
+   },
+   "tone": {
+    "shelf_Hz": 4500,
+    "shelf_dB": 0,
+    "low_shelf_Hz": 100,
+    "low_shelf_dB": 6.0
+   },
+   "dyn_corr_dB": {
+    "pp": -12.0,
+    "p": -10.0,
+    "mp": -8.0,
+    "mf": -6.0,
+    "f": -4.0,
+    "ff": -2.0,
+    "fff": 0.0
+   },
+   "air": {
+    "Hz": 10500,
+    "dB": -8.0
+   },
+   "printed_trim_dB": {
+    "ff": -2,
+    "fff": -2
+   }
+  }
+ },
+ "program_sfcal_LUFS_vel64": {
+  "41": -29.0,
+  "42": -30.2,
+  "43": -31.3,
+  "44": -32.4,
+  "45": -42.9,
+  "48": -31.5
+ },
+ "_doc_dyn_scale": "dyn_scale multiplies dynamics.extra_dB_points for that stem (more dB per printed step for brass and low strings, whose samples change little with velocity)",
+ "melodies": {
+  "_doc": "r03: marked melodies are derived from the score's text marks (lib/marks.py): every text script matching pattern; phrase = from the bar of the staff's first note at/after the mark while the staff has notes in consecutive bars, at most max_bars. No bar numbers.",
+  "pattern": "espr|dolce|cantabile|solo",
+  "max_bars": 8
+ },
+ "percussion": {
+  "_doc": "printed DrumStaff events read by perc.py from the LilyPond source of the score being rendered (render.py --score); keys of sfz/perc-r02.sfz; l.v. notes held lv_s seconds; a crescendo roll uses the crescendo sample whose peak time is nearest the printed roll length",
+  "keys": {
+   "tt": 50,
+   "cymc": 49,
+   "cymr": 53
+  },
+  "lv": [
+   "tt",
+   "cymc",
+   "cymr"
+  ],
+  "lv_s": 30.0,
+  "cresc_keys": {
+   "cymr": [
+    [
+     53,
+     1.52
+    ],
+    [
+     54,
+     3.55
+    ],
+    [
+     55,
+     7.18
+    ]
+   ]
+  },
+  "cresc_velocity": 100
+ },
+ "balance_targets_dB": {
+  "_doc": "target stem level relative to Violins I at the same printed dynamic (stems.py level while sounding); used by the calibration in NOTES.md section 3",
+  "Violins II": -1,
+  "Violas": -2,
+  "Violoncellos": -1.5,
+  "Double basses": -2.5,
+  "Flutes 12": -2.5,
+  "Oboes 12": -2.5,
+  "Cor anglais": -2.5,
+  "Clarinets 12": -2.5,
+  "Bass clarinet": -3.5,
+  "Bassoons 12": -3,
+  "Contrabassoon": -5,
+  "Horns 12": -1,
+  "Horns 34": -1.5,
+  "Trumpets 12": 1,
+  "Trumpet 3": -0.5,
+  "Trombones 12": 1,
+  "Bass trombone": 0,
+  "Tuba": -1,
+  "Timpani": -4
+ },
+ "balance": {
+  "_doc": "r03 mix-stage balance (lib/balance.py), measured on the placed stems: melodies at least margin_dB over the loudest other stem (lift at most lift_max_dB, the rest as cuts on the competing stems, at most duck_max_dB), melody at least sum_margin_dB against the power sum of the others; timpani in rolls longer than a bar at least roll_margin_dB under the loudest other stem. r04: duck_same_dB caps the cut on a stem printed at the melody's dynamic (stems printed louder are never cut, softer at most duck_max_dB); tutti_frac: a bar is a tutti when at least this share of sounding stems is printed f or louder (no cuts; a melody phrase ends there when the melody is printed f or louder); preserve_dB: each bar's summed loudness stays within this of the no-balance bar; smooth_s 1.25 (fader slope a few dB/s); inv_margin_dB: a melody is lifted at most to this many dB over a sounding stem printed louder than it",
+  "enabled": true,
+  "margin_dB": 1.0,
+  "lift_max_dB": 3.0,
+  "duck_max_dB": 8.0,
+  "sum_margin_dB": -5.0,
+  "passes": 4,
+  "roll_margin_dB": 3.0,
+  "roll_duck_max_dB": 15.0,
+  "smooth_s": 1.5,
+  "mel_margin_dB": 0.0,
+  "mel_duck_max_dB": 4.0,
+  "duck_same_dB": 5.0,
+  "preserve_dB": 1.0,
+  "tutti_frac": 0.5,
+  "inv_margin_dB": 1.0,
+  "roll_per_segment": true,
+  "roll_others_sounding": true,
+  "roll_margin_cresc_dB": 0.5,
+  "roll_margin_whole_dB": 0.0,
+  "per_bar_need": true,
+  "tutti_lift_dB": 2.0
+ },
+ "_doc_printed_trim": "r03: stems.<staff>.printed_trim_dB: dB added to the CC11 curve while the PRINTED dynamic (notes.csv) is the given one. dyn_corr_dB (r02) is keyed on the velocity-equivalent of the MIDI velocity, which LilyPond scales per instrument (oboes ff = velocity 64), so its ff entries never reach most wind staves. Values: at ff these stems measured 3-8 dB above their balance target against Violins I in both movements (r03 meas, stemcmp).",
+ "timing": {
+  "_doc": "r04 section timing (articulate.py): family_ms = [offset on soft entries (printed <= mp), offset otherwise] in ms, plus a random offset within +-random_ms held for each phrase_s segment, per staff. r04: tested and disabled (onset peak correlation fell 0.56 -> 0.55 in m1 and 0.29 -> 0.26 in m2, lag 60 -> 70 ms in m2; NOTES.md)",
+  "enabled": false,
+  "family_ms": {
+   "string": [
+    10,
+    4
+   ],
+   "brass": [
+    4,
+    2
+   ],
+   "wind": [
+    0,
+    0
+   ],
+   "harp": [
+    0,
+    0
+   ],
+   "timp": [
+    0,
+    0
+   ],
+   "perc": [
+    0,
+    0
+   ]
+  },
+  "random_ms": 5.0,
+  "phrase_s": 8.0,
+  "seed": 1
+ }
+}

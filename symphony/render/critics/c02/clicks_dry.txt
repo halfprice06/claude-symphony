@@ -1,0 +1,4 @@
+Violins_I.wav isolated HF spikes (>15 dB over 41 ms median, back within 4 ms): 0 [] max jump 0 dB
+Violas.wav isolated HF spikes (>15 dB over 41 ms median, back within 4 ms): 0 [] max jump 0 dB
+Violoncellos.wav isolated HF spikes (>15 dB over 41 ms median, back within 4 ms): 2 [np.float64(56.295), np.float64(426.896)] max jump 17 dB
+TimpRoll.wav isolated HF spikes (>15 dB over 41 ms median, back within 4 ms): 18 [np.float64(48.0), np.float64(52.8), np.float64(57.6), np.float64(116.723), np.float64(160.514), np.float64(162.601), np.float64(179.611), np.float64(189.135), np.float64(263.42), np.float64(267.23), np.float64(313.528), np.float64(315.432)] max jump 39 dB

@@ -1,0 +1,10 @@
+== m1: critic 3 no-balance r03 levels through r04 balance (offline, per-bar gains, no smoothing)
+melodies >=0: 11/20  >=-6 vs sum: 15/20  inversions 419  cut>=3 143 cut>=6 25  bar loudness change min/max -1.0/+1.0
+  new (55, 'Violins II', 'pp', 'Horns 12', 'p') 3.9 gains 3.6 -4.4
+  new (55, 'Violins II', 'pp', 'Violoncellos', 'p') 3.0 gains 3.6 -3.8
+-- r04 code with the printed-dynamic caps relaxed (duck_same = duck_max = 8, inv_margin off, preserve off, smoothing 0.4 s); tutti phrase end and never-cut melodies stay on
+melodies >=0: 13/20  >=-6 vs sum: 17/20  inversions 429  cut>=3 195 cut>=6 178  bar loudness change min/max -6.2/+2.8
+== m2: critic 3 no-balance r03 levels through r04 balance (offline, per-bar gains, no smoothing)
+melodies >=0: 8/14  >=-6 vs sum: 10/14  inversions 16  cut>=3 79 cut>=6 0  bar loudness change min/max -1.0/+1.0
+-- r04 code with the printed-dynamic caps relaxed (duck_same = duck_max = 8, inv_margin off, preserve off, smoothing 0.4 s); tutti phrase end and never-cut melodies stay on
+melodies >=0: 9/14  >=-6 vs sum: 11/14  inversions 22  cut>=3 37 cut>=6 31  bar loudness change min/max -1.0/+1.7

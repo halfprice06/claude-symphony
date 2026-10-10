@@ -1,0 +1,41 @@
+bassclarinet: 138 samples; first 80 ms off pitch (>30 c or unvoiced) 29; still off after 180 ms 14
+    037_mf.wav cents re steady per 80 ms window from 20 ms: [None, None, -4, -4]
+    037_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, None, None]
+    038_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, None, None]
+    039_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, None, None]
+    040_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, None, None]
+    041_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, None, None]
+bassoon: 122 samples; first 80 ms off pitch (>30 c or unvoiced) 105; still off after 180 ms 105
+    035_ff.wav cents re steady per 80 ms window from 20 ms: [-77, -120, None, None]
+    035_mf.wav cents re steady per 80 ms window from 20 ms: [-88, -83, None, None]
+    035_pp.wav cents re steady per 80 ms window from 20 ms: [-96, -91, None, None]
+    037_ff.wav cents re steady per 80 ms window from 20 ms: [-95, -84, -64, None]
+    037_mf.wav cents re steady per 80 ms window from 20 ms: [-83, -75, -77, None]
+    037_pp.wav cents re steady per 80 ms window from 20 ms: [-90, -89, -102, None]
+clarinet: 138 samples; first 80 ms off pitch (>30 c or unvoiced) 13; still off after 180 ms 11
+    050_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, None, None]
+    051_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, None, None]
+    052_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, None, None]
+    053_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, None, None]
+    054_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, None, None]
+    055_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, None, 6]
+flute: 114 samples; first 80 ms off pitch (>30 c or unvoiced) 18; still off after 180 ms 10
+    059_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, -10, -12]
+    060_mf.wav cents re steady per 80 ms window from 20 ms: [None, None, 23, -14]
+    060_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, 12, 6]
+    061_mf.wav cents re steady per 80 ms window from 20 ms: [None, 62, 5, 10]
+    061_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, None, -2]
+    062_pp.wav cents re steady per 80 ms window from 20 ms: [None, None, 3, -11]
+oboe: 102 samples; first 80 ms off pitch (>30 c or unvoiced) 31; still off after 180 ms 21
+    059_ff.wav cents re steady per 80 ms window from 20 ms: [-93, -88, None, -10]
+    061_ff.wav cents re steady per 80 ms window from 20 ms: [-115, -116, -107, -5]
+    061_mf.wav cents re steady per 80 ms window from 20 ms: [-100, -94, -88, -16]
+    062_ff.wav cents re steady per 80 ms window from 20 ms: [-108, -113, -117, -9]
+    063_ff.wav cents re steady per 80 ms window from 20 ms: [-100, -101, -90, -2]
+    064_ff.wav cents re steady per 80 ms window from 20 ms: [-109, -108, -106, -3]
+previous-note lead-in (any 80 ms window in the first 0.26 s at -60..-140 c re steady), and its length:
+  bassclarinet: 1 of 138 samples; lead-in ends at median 0.08 s, max 0.08 s
+  bassoon: 105 of 122 samples; lead-in ends at median 0.24 s, max 0.30 s
+  clarinet: 0 of 138 samples; lead-in ends at median 0.00 s, max 0.00 s
+  flute: 1 of 114 samples; lead-in ends at median 0.08 s, max 0.08 s
+  oboe: 13 of 102 samples; lead-in ends at median 0.28 s, max 0.30 s

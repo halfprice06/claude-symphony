@@ -1,0 +1,210 @@
+// r05: Oboe from the University of Iowa MIS (pre-2011 chromatic runs, pp / mf / ff; free for any use,
+// https://theremin.music.uiowa.edu/MIS.html). Built by r05/build_iowa.py; one sample per key and dynamic,
+// velocity layers crossfaded, sustain loop, natural attack. Do not edit by hand: rerun build_iowa.py.
+// a2: both players in unison, -3 dB each, 8 cents apart, the second 12 ms late
+<group> amp_veltrack=100 ampeg_attack=0.004 ampeg_release=0.12 loop_mode=loop_sustain loop_crossfade=0.12 pan=-35 volume=-3
+<region> sample=../../assets/iowa/oboe/058_pp.wav lokey=0 hikey=58 pitch_keycenter=58 tune=-21 lovel=1 hivel=41 loop_start=19870 loop_end=46748
+<region> sample=../../assets/iowa/oboe/059_pp.wav lokey=59 hikey=59 pitch_keycenter=59 tune=-5 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/060_pp.wav lokey=60 hikey=61 pitch_keycenter=60 tune=16 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/062_pp.wav lokey=62 hikey=62 pitch_keycenter=62 tune=-6 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/063_pp.wav lokey=63 hikey=63 pitch_keycenter=63 tune=1 lovel=1 hivel=41 loop_start=19881 loop_end=51128
+<region> sample=../../assets/iowa/oboe/064_pp.wav lokey=64 hikey=64 pitch_keycenter=64 tune=-10 lovel=1 hivel=41 loop_start=19862 loop_end=59241
+<region> sample=../../assets/iowa/oboe/065_pp.wav lokey=65 hikey=65 pitch_keycenter=65 tune=4 lovel=1 hivel=41 loop_start=19880 loop_end=59590
+<region> sample=../../assets/iowa/oboe/066_pp.wav lokey=66 hikey=66 pitch_keycenter=66 tune=-5 lovel=1 hivel=41 loop_start=19904 loop_end=56154
+<region> sample=../../assets/iowa/oboe/067_pp.wav lokey=67 hikey=67 pitch_keycenter=67 tune=0 lovel=1 hivel=41 loop_start=19868 loop_end=52287
+<region> sample=../../assets/iowa/oboe/068_pp.wav lokey=68 hikey=68 pitch_keycenter=68 tune=3 lovel=1 hivel=41 loop_start=19910 loop_end=50136
+<region> sample=../../assets/iowa/oboe/069_pp.wav lokey=69 hikey=69 pitch_keycenter=69 tune=-6 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/070_pp.wav lokey=70 hikey=70 pitch_keycenter=70 tune=4 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/071_pp.wav lokey=71 hikey=71 pitch_keycenter=71 tune=10 lovel=1 hivel=41 loop_start=19886 loop_end=60727
+<region> sample=../../assets/iowa/oboe/072_pp.wav lokey=72 hikey=72 pitch_keycenter=72 tune=7 lovel=1 hivel=41 loop_start=19863 loop_end=60784
+<region> sample=../../assets/iowa/oboe/073_pp.wav lokey=73 hikey=73 pitch_keycenter=73 tune=1 lovel=1 hivel=41 loop_start=19863 loop_end=56898
+<region> sample=../../assets/iowa/oboe/074_pp.wav lokey=74 hikey=74 pitch_keycenter=74 tune=-9 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/075_pp.wav lokey=75 hikey=75 pitch_keycenter=75 tune=4 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/076_pp.wav lokey=76 hikey=76 pitch_keycenter=76 tune=2 lovel=1 hivel=41 loop_start=19848 loop_end=50481
+<region> sample=../../assets/iowa/oboe/077_pp.wav lokey=77 hikey=77 pitch_keycenter=77 tune=3 lovel=1 hivel=41 loop_start=19868 loop_end=58951
+<region> sample=../../assets/iowa/oboe/078_pp.wav lokey=78 hikey=78 pitch_keycenter=78 tune=-10 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/079_pp.wav lokey=79 hikey=79 pitch_keycenter=79 tune=-19 lovel=1 hivel=41 loop_start=19884 loop_end=59531
+<region> sample=../../assets/iowa/oboe/080_pp.wav lokey=80 hikey=80 pitch_keycenter=80 tune=-2 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/081_pp.wav lokey=81 hikey=81 pitch_keycenter=81 tune=-21 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/082_pp.wav lokey=82 hikey=82 pitch_keycenter=82 tune=7 lovel=1 hivel=41 loop_start=19890 loop_end=46978
+<region> sample=../../assets/iowa/oboe/083_pp.wav lokey=83 hikey=83 pitch_keycenter=83 tune=-2 lovel=1 hivel=41 loop_start=19849 loop_end=50776
+<region> sample=../../assets/iowa/oboe/084_pp.wav lokey=84 hikey=84 pitch_keycenter=84 tune=2 lovel=1 hivel=41 loop_start=19852 loop_end=54659
+<region> sample=../../assets/iowa/oboe/085_pp.wav lokey=85 hikey=85 pitch_keycenter=85 tune=-5 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/086_pp.wav lokey=86 hikey=86 pitch_keycenter=86 tune=-20 lovel=1 hivel=41 loop_start=19864 loop_end=53583
+<region> sample=../../assets/iowa/oboe/087_pp.wav lokey=87 hikey=87 pitch_keycenter=87 tune=-1 lovel=1 hivel=41 loop_start=19874 loop_end=50688
+<region> sample=../../assets/iowa/oboe/088_pp.wav lokey=88 hikey=88 pitch_keycenter=88 tune=-5 lovel=1 hivel=41 loop_start=19846 loop_end=48208
+<region> sample=../../assets/iowa/oboe/089_pp.wav lokey=89 hikey=89 pitch_keycenter=89 tune=-6 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/090_pp.wav lokey=90 hikey=90 pitch_keycenter=90 tune=9 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/091_pp.wav lokey=91 hikey=91 pitch_keycenter=91 tune=14 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/092_pp.wav lokey=92 hikey=127 pitch_keycenter=92 tune=-12 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/058_mf.wav lokey=0 hikey=58 pitch_keycenter=58 tune=-17 lovel=42 hivel=60 loop_start=19869 loop_end=51548
+<region> sample=../../assets/iowa/oboe/059_mf.wav lokey=59 hikey=59 pitch_keycenter=59 tune=6 lovel=42 hivel=60 loop_start=19877 loop_end=54838
+<region> sample=../../assets/iowa/oboe/060_mf.wav lokey=60 hikey=60 pitch_keycenter=60 tune=7 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/061_mf.wav lokey=61 hikey=61 pitch_keycenter=61 tune=8 lovel=42 hivel=60 loop_start=19848 loop_end=55694
+<region> sample=../../assets/iowa/oboe/062_mf.wav lokey=62 hikey=62 pitch_keycenter=62 tune=-7 lovel=42 hivel=60 loop_start=19862 loop_end=46893
+<region> sample=../../assets/iowa/oboe/063_mf.wav lokey=63 hikey=63 pitch_keycenter=63 tune=-1 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/064_mf.wav lokey=64 hikey=65 pitch_keycenter=64 tune=-5 lovel=42 hivel=60 loop_start=19848 loop_end=102814
+<region> sample=../../assets/iowa/oboe/066_mf.wav lokey=66 hikey=66 pitch_keycenter=66 tune=-11 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/067_mf.wav lokey=67 hikey=67 pitch_keycenter=67 tune=-10 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/068_mf.wav lokey=68 hikey=68 pitch_keycenter=68 tune=-3 lovel=42 hivel=60 loop_start=19864 loop_end=48736
+<region> sample=../../assets/iowa/oboe/069_mf.wav lokey=69 hikey=70 pitch_keycenter=69 tune=-9 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/071_mf.wav lokey=71 hikey=71 pitch_keycenter=71 tune=5 lovel=42 hivel=60 loop_start=19860 loop_end=55367
+<region> sample=../../assets/iowa/oboe/072_mf.wav lokey=72 hikey=72 pitch_keycenter=72 tune=-7 lovel=42 hivel=60 loop_start=19854 loop_end=48732
+<region> sample=../../assets/iowa/oboe/073_mf.wav lokey=73 hikey=73 pitch_keycenter=73 tune=-8 lovel=42 hivel=60 loop_start=19868 loop_end=56429
+<region> sample=../../assets/iowa/oboe/074_mf.wav lokey=74 hikey=74 pitch_keycenter=74 tune=7 lovel=42 hivel=60 loop_start=19856 loop_end=64279
+<region> sample=../../assets/iowa/oboe/075_mf.wav lokey=75 hikey=75 pitch_keycenter=75 tune=-3 lovel=42 hivel=60 loop_start=19867 loop_end=63986
+<region> sample=../../assets/iowa/oboe/076_mf.wav lokey=76 hikey=76 pitch_keycenter=76 tune=-14 lovel=42 hivel=60 loop_start=19869 loop_end=54394
+<region> sample=../../assets/iowa/oboe/077_mf.wav lokey=77 hikey=77 pitch_keycenter=77 tune=8 lovel=42 hivel=60 loop_start=19870 loop_end=51312
+<region> sample=../../assets/iowa/oboe/078_mf.wav lokey=78 hikey=78 pitch_keycenter=78 tune=-12 lovel=42 hivel=60 loop_start=19857 loop_end=48845
+<region> sample=../../assets/iowa/oboe/079_mf.wav lokey=79 hikey=79 pitch_keycenter=79 tune=-6 lovel=42 hivel=60 loop_start=19850 loop_end=49528
+<region> sample=../../assets/iowa/oboe/080_mf.wav lokey=80 hikey=80 pitch_keycenter=80 tune=-11 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/081_mf.wav lokey=81 hikey=81 pitch_keycenter=81 tune=-8 lovel=42 hivel=60 loop_start=19852 loop_end=47153
+<region> sample=../../assets/iowa/oboe/082_mf.wav lokey=82 hikey=82 pitch_keycenter=82 tune=-5 lovel=42 hivel=60 loop_start=19862 loop_end=47681
+<region> sample=../../assets/iowa/oboe/083_mf.wav lokey=83 hikey=83 pitch_keycenter=83 tune=8 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/084_mf.wav lokey=84 hikey=84 pitch_keycenter=84 tune=-11 lovel=42 hivel=60 loop_start=19864 loop_end=62947
+<region> sample=../../assets/iowa/oboe/085_mf.wav lokey=85 hikey=85 pitch_keycenter=85 tune=-2 lovel=42 hivel=60 loop_start=19862 loop_end=57645
+<region> sample=../../assets/iowa/oboe/086_mf.wav lokey=86 hikey=86 pitch_keycenter=86 tune=-5 lovel=42 hivel=60 loop_start=19861 loop_end=62049
+<region> sample=../../assets/iowa/oboe/087_mf.wav lokey=87 hikey=87 pitch_keycenter=87 tune=-11 lovel=42 hivel=60 loop_start=19868 loop_end=57121
+<region> sample=../../assets/iowa/oboe/088_mf.wav lokey=88 hikey=88 pitch_keycenter=88 tune=-11 lovel=42 hivel=60 loop_start=19863 loop_end=52975
+<region> sample=../../assets/iowa/oboe/089_mf.wav lokey=89 hikey=89 pitch_keycenter=89 tune=-7 lovel=42 hivel=60 loop_start=19852 loop_end=57211
+<region> sample=../../assets/iowa/oboe/090_mf.wav lokey=90 hikey=90 pitch_keycenter=90 tune=-9 lovel=42 hivel=60 loop_start=19852 loop_end=55098
+<region> sample=../../assets/iowa/oboe/091_mf.wav lokey=91 hikey=91 pitch_keycenter=91 tune=6 lovel=42 hivel=60 loop_start=19848 loop_end=58804
+<region> sample=../../assets/iowa/oboe/092_mf.wav lokey=92 hikey=127 pitch_keycenter=92 tune=1 lovel=42 hivel=60 loop_start=19855 loop_end=48748
+<region> sample=../../assets/iowa/oboe/058_ff.wav lokey=0 hikey=58 pitch_keycenter=58 tune=-9 lovel=61 hivel=127 loop_start=19869 loop_end=68065
+<region> sample=../../assets/iowa/oboe/059_ff.wav lokey=59 hikey=59 pitch_keycenter=59 tune=3 lovel=61 hivel=127 loop_start=19852 loop_end=76860
+<region> sample=../../assets/iowa/oboe/060_ff.wav lokey=60 hikey=60 pitch_keycenter=60 tune=1 lovel=61 hivel=127 loop_start=19875 loop_end=58253
+<region> sample=../../assets/iowa/oboe/061_ff.wav lokey=61 hikey=61 pitch_keycenter=61 tune=-9 lovel=61 hivel=127 loop_start=19865 loop_end=72876
+<region> sample=../../assets/iowa/oboe/062_ff.wav lokey=62 hikey=62 pitch_keycenter=62 tune=-8 lovel=61 hivel=127 loop_start=19852 loop_end=75056
+<region> sample=../../assets/iowa/oboe/063_ff.wav lokey=63 hikey=63 pitch_keycenter=63 tune=-3 lovel=61 hivel=127 loop_start=19850 loop_end=76415
+<region> sample=../../assets/iowa/oboe/064_ff.wav lokey=64 hikey=64 pitch_keycenter=64 tune=-8 lovel=61 hivel=127 loop_start=19848 loop_end=70250
+<region> sample=../../assets/iowa/oboe/065_ff.wav lokey=65 hikey=65 pitch_keycenter=65 tune=-6 lovel=61 hivel=127 loop_start=19845 loop_end=67137
+<region> sample=../../assets/iowa/oboe/066_ff.wav lokey=66 hikey=66 pitch_keycenter=66 tune=-8 lovel=61 hivel=127 loop_start=19869 loop_end=69781
+<region> sample=../../assets/iowa/oboe/067_ff.wav lokey=67 hikey=67 pitch_keycenter=67 tune=-2 lovel=61 hivel=127 loop_start=19874 loop_end=71574
+<region> sample=../../assets/iowa/oboe/068_ff.wav lokey=68 hikey=68 pitch_keycenter=68 tune=-6 lovel=61 hivel=127 loop_start=19849 loop_end=71131
+<region> sample=../../assets/iowa/oboe/069_ff.wav lokey=69 hikey=69 pitch_keycenter=69 tune=-2 lovel=61 hivel=127 loop_start=19845 loop_end=68024
+<region> sample=../../assets/iowa/oboe/070_ff.wav lokey=70 hikey=70 pitch_keycenter=70 tune=-4 lovel=61 hivel=127 loop_start=19875 loop_end=75530
+<region> sample=../../assets/iowa/oboe/071_ff.wav lokey=71 hikey=71 pitch_keycenter=71 tune=-16 lovel=61 hivel=127 loop_start=19868 loop_end=72450
+<region> sample=../../assets/iowa/oboe/072_ff.wav lokey=72 hikey=72 pitch_keycenter=72 tune=-15 lovel=61 hivel=127 loop_start=19866 loop_end=61430
+<region> sample=../../assets/iowa/oboe/073_ff.wav lokey=73 hikey=73 pitch_keycenter=73 tune=-15 lovel=61 hivel=127 loop_start=19866 loop_end=59687
+<region> sample=../../assets/iowa/oboe/074_ff.wav lokey=74 hikey=74 pitch_keycenter=74 tune=-11 lovel=61 hivel=127 loop_start=19854 loop_end=52271
+<region> sample=../../assets/iowa/oboe/075_ff.wav lokey=75 hikey=75 pitch_keycenter=75 tune=-11 lovel=61 hivel=127 loop_start=19854 loop_end=53871
+<region> sample=../../assets/iowa/oboe/076_ff.wav lokey=76 hikey=76 pitch_keycenter=76 tune=-15 lovel=61 hivel=127 loop_start=19861 loop_end=64254
+<region> sample=../../assets/iowa/oboe/077_ff.wav lokey=77 hikey=77 pitch_keycenter=77 tune=2 lovel=61 hivel=127 loop_start=19860 loop_end=54754
+<region> sample=../../assets/iowa/oboe/078_ff.wav lokey=78 hikey=78 pitch_keycenter=78 tune=-19 lovel=61 hivel=127 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/079_ff.wav lokey=79 hikey=79 pitch_keycenter=79 tune=-12 lovel=61 hivel=127 loop_start=19848 loop_end=59074
+<region> sample=../../assets/iowa/oboe/080_ff.wav lokey=80 hikey=80 pitch_keycenter=80 tune=-3 lovel=61 hivel=127 loop_start=19845 loop_end=52710
+<region> sample=../../assets/iowa/oboe/081_ff.wav lokey=81 hikey=81 pitch_keycenter=81 tune=-21 lovel=61 hivel=127 loop_start=19855 loop_end=61614
+<region> sample=../../assets/iowa/oboe/082_ff.wav lokey=82 hikey=82 pitch_keycenter=82 tune=-6 lovel=61 hivel=127 loop_start=19846 loop_end=61179
+<region> sample=../../assets/iowa/oboe/083_ff.wav lokey=83 hikey=83 pitch_keycenter=83 tune=4 lovel=61 hivel=127 loop_start=19884 loop_end=51754
+<region> sample=../../assets/iowa/oboe/084_ff.wav lokey=84 hikey=84 pitch_keycenter=84 tune=-2 lovel=61 hivel=127 loop_start=19852 loop_end=49688
+<region> sample=../../assets/iowa/oboe/085_ff.wav lokey=85 hikey=85 pitch_keycenter=85 tune=-3 lovel=61 hivel=127 loop_start=19846 loop_end=48221
+<region> sample=../../assets/iowa/oboe/086_ff.wav lokey=86 hikey=86 pitch_keycenter=86 tune=-9 lovel=61 hivel=127 loop_start=19862 loop_end=52633
+<region> sample=../../assets/iowa/oboe/087_ff.wav lokey=87 hikey=87 pitch_keycenter=87 tune=-11 lovel=61 hivel=127 loop_start=19856 loop_end=53781
+<region> sample=../../assets/iowa/oboe/088_ff.wav lokey=88 hikey=88 pitch_keycenter=88 tune=3 lovel=61 hivel=127 loop_start=19870 loop_end=60019
+<region> sample=../../assets/iowa/oboe/089_ff.wav lokey=89 hikey=89 pitch_keycenter=89 tune=-22 lovel=61 hivel=127 loop_start=19849 loop_end=55967
+<region> sample=../../assets/iowa/oboe/090_ff.wav lokey=90 hikey=90 pitch_keycenter=90 tune=-12 lovel=61 hivel=127 loop_start=19850 loop_end=53076
+<region> sample=../../assets/iowa/oboe/091_ff.wav lokey=91 hikey=91 pitch_keycenter=91 tune=2 lovel=61 hivel=127 loop_start=19855 loop_end=49192
+<region> sample=../../assets/iowa/oboe/092_ff.wav lokey=92 hikey=127 pitch_keycenter=92 tune=-3 lovel=61 hivel=127 loop_mode=no_loop
+<group> amp_veltrack=100 ampeg_attack=0.004 ampeg_release=0.12 loop_mode=loop_sustain loop_crossfade=0.12 pan=35 volume=-3 delay=0.012
+<region> sample=../../assets/iowa/oboe/058_pp.wav lokey=0 hikey=58 pitch_keycenter=58 tune=-13 lovel=1 hivel=41 loop_start=19870 loop_end=46748
+<region> sample=../../assets/iowa/oboe/059_pp.wav lokey=59 hikey=59 pitch_keycenter=59 tune=3 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/060_pp.wav lokey=60 hikey=61 pitch_keycenter=60 tune=24 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/062_pp.wav lokey=62 hikey=62 pitch_keycenter=62 tune=2 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/063_pp.wav lokey=63 hikey=63 pitch_keycenter=63 tune=9 lovel=1 hivel=41 loop_start=19881 loop_end=51128
+<region> sample=../../assets/iowa/oboe/064_pp.wav lokey=64 hikey=64 pitch_keycenter=64 tune=-2 lovel=1 hivel=41 loop_start=19862 loop_end=59241
+<region> sample=../../assets/iowa/oboe/065_pp.wav lokey=65 hikey=65 pitch_keycenter=65 tune=12 lovel=1 hivel=41 loop_start=19880 loop_end=59590
+<region> sample=../../assets/iowa/oboe/066_pp.wav lokey=66 hikey=66 pitch_keycenter=66 tune=3 lovel=1 hivel=41 loop_start=19904 loop_end=56154
+<region> sample=../../assets/iowa/oboe/067_pp.wav lokey=67 hikey=67 pitch_keycenter=67 tune=8 lovel=1 hivel=41 loop_start=19868 loop_end=52287
+<region> sample=../../assets/iowa/oboe/068_pp.wav lokey=68 hikey=68 pitch_keycenter=68 tune=11 lovel=1 hivel=41 loop_start=19910 loop_end=50136
+<region> sample=../../assets/iowa/oboe/069_pp.wav lokey=69 hikey=69 pitch_keycenter=69 tune=2 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/070_pp.wav lokey=70 hikey=70 pitch_keycenter=70 tune=12 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/071_pp.wav lokey=71 hikey=71 pitch_keycenter=71 tune=18 lovel=1 hivel=41 loop_start=19886 loop_end=60727
+<region> sample=../../assets/iowa/oboe/072_pp.wav lokey=72 hikey=72 pitch_keycenter=72 tune=15 lovel=1 hivel=41 loop_start=19863 loop_end=60784
+<region> sample=../../assets/iowa/oboe/073_pp.wav lokey=73 hikey=73 pitch_keycenter=73 tune=9 lovel=1 hivel=41 loop_start=19863 loop_end=56898
+<region> sample=../../assets/iowa/oboe/074_pp.wav lokey=74 hikey=74 pitch_keycenter=74 tune=-1 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/075_pp.wav lokey=75 hikey=75 pitch_keycenter=75 tune=12 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/076_pp.wav lokey=76 hikey=76 pitch_keycenter=76 tune=10 lovel=1 hivel=41 loop_start=19848 loop_end=50481
+<region> sample=../../assets/iowa/oboe/077_pp.wav lokey=77 hikey=77 pitch_keycenter=77 tune=11 lovel=1 hivel=41 loop_start=19868 loop_end=58951
+<region> sample=../../assets/iowa/oboe/078_pp.wav lokey=78 hikey=78 pitch_keycenter=78 tune=-2 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/079_pp.wav lokey=79 hikey=79 pitch_keycenter=79 tune=-11 lovel=1 hivel=41 loop_start=19884 loop_end=59531
+<region> sample=../../assets/iowa/oboe/080_pp.wav lokey=80 hikey=80 pitch_keycenter=80 tune=6 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/081_pp.wav lokey=81 hikey=81 pitch_keycenter=81 tune=-13 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/082_pp.wav lokey=82 hikey=82 pitch_keycenter=82 tune=15 lovel=1 hivel=41 loop_start=19890 loop_end=46978
+<region> sample=../../assets/iowa/oboe/083_pp.wav lokey=83 hikey=83 pitch_keycenter=83 tune=6 lovel=1 hivel=41 loop_start=19849 loop_end=50776
+<region> sample=../../assets/iowa/oboe/084_pp.wav lokey=84 hikey=84 pitch_keycenter=84 tune=10 lovel=1 hivel=41 loop_start=19852 loop_end=54659
+<region> sample=../../assets/iowa/oboe/085_pp.wav lokey=85 hikey=85 pitch_keycenter=85 tune=3 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/086_pp.wav lokey=86 hikey=86 pitch_keycenter=86 tune=-12 lovel=1 hivel=41 loop_start=19864 loop_end=53583
+<region> sample=../../assets/iowa/oboe/087_pp.wav lokey=87 hikey=87 pitch_keycenter=87 tune=7 lovel=1 hivel=41 loop_start=19874 loop_end=50688
+<region> sample=../../assets/iowa/oboe/088_pp.wav lokey=88 hikey=88 pitch_keycenter=88 tune=3 lovel=1 hivel=41 loop_start=19846 loop_end=48208
+<region> sample=../../assets/iowa/oboe/089_pp.wav lokey=89 hikey=89 pitch_keycenter=89 tune=2 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/090_pp.wav lokey=90 hikey=90 pitch_keycenter=90 tune=17 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/091_pp.wav lokey=91 hikey=91 pitch_keycenter=91 tune=22 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/092_pp.wav lokey=92 hikey=127 pitch_keycenter=92 tune=-4 lovel=1 hivel=41 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/058_mf.wav lokey=0 hikey=58 pitch_keycenter=58 tune=-9 lovel=42 hivel=60 loop_start=19869 loop_end=51548
+<region> sample=../../assets/iowa/oboe/059_mf.wav lokey=59 hikey=59 pitch_keycenter=59 tune=14 lovel=42 hivel=60 loop_start=19877 loop_end=54838
+<region> sample=../../assets/iowa/oboe/060_mf.wav lokey=60 hikey=60 pitch_keycenter=60 tune=15 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/061_mf.wav lokey=61 hikey=61 pitch_keycenter=61 tune=16 lovel=42 hivel=60 loop_start=19848 loop_end=55694
+<region> sample=../../assets/iowa/oboe/062_mf.wav lokey=62 hikey=62 pitch_keycenter=62 tune=1 lovel=42 hivel=60 loop_start=19862 loop_end=46893
+<region> sample=../../assets/iowa/oboe/063_mf.wav lokey=63 hikey=63 pitch_keycenter=63 tune=7 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/064_mf.wav lokey=64 hikey=65 pitch_keycenter=64 tune=3 lovel=42 hivel=60 loop_start=19848 loop_end=102814
+<region> sample=../../assets/iowa/oboe/066_mf.wav lokey=66 hikey=66 pitch_keycenter=66 tune=-3 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/067_mf.wav lokey=67 hikey=67 pitch_keycenter=67 tune=-2 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/068_mf.wav lokey=68 hikey=68 pitch_keycenter=68 tune=5 lovel=42 hivel=60 loop_start=19864 loop_end=48736
+<region> sample=../../assets/iowa/oboe/069_mf.wav lokey=69 hikey=70 pitch_keycenter=69 tune=-1 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/071_mf.wav lokey=71 hikey=71 pitch_keycenter=71 tune=13 lovel=42 hivel=60 loop_start=19860 loop_end=55367
+<region> sample=../../assets/iowa/oboe/072_mf.wav lokey=72 hikey=72 pitch_keycenter=72 tune=1 lovel=42 hivel=60 loop_start=19854 loop_end=48732
+<region> sample=../../assets/iowa/oboe/073_mf.wav lokey=73 hikey=73 pitch_keycenter=73 tune=-0 lovel=42 hivel=60 loop_start=19868 loop_end=56429
+<region> sample=../../assets/iowa/oboe/074_mf.wav lokey=74 hikey=74 pitch_keycenter=74 tune=15 lovel=42 hivel=60 loop_start=19856 loop_end=64279
+<region> sample=../../assets/iowa/oboe/075_mf.wav lokey=75 hikey=75 pitch_keycenter=75 tune=5 lovel=42 hivel=60 loop_start=19867 loop_end=63986
+<region> sample=../../assets/iowa/oboe/076_mf.wav lokey=76 hikey=76 pitch_keycenter=76 tune=-6 lovel=42 hivel=60 loop_start=19869 loop_end=54394
+<region> sample=../../assets/iowa/oboe/077_mf.wav lokey=77 hikey=77 pitch_keycenter=77 tune=16 lovel=42 hivel=60 loop_start=19870 loop_end=51312
+<region> sample=../../assets/iowa/oboe/078_mf.wav lokey=78 hikey=78 pitch_keycenter=78 tune=-4 lovel=42 hivel=60 loop_start=19857 loop_end=48845
+<region> sample=../../assets/iowa/oboe/079_mf.wav lokey=79 hikey=79 pitch_keycenter=79 tune=2 lovel=42 hivel=60 loop_start=19850 loop_end=49528
+<region> sample=../../assets/iowa/oboe/080_mf.wav lokey=80 hikey=80 pitch_keycenter=80 tune=-3 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/081_mf.wav lokey=81 hikey=81 pitch_keycenter=81 tune=-0 lovel=42 hivel=60 loop_start=19852 loop_end=47153
+<region> sample=../../assets/iowa/oboe/082_mf.wav lokey=82 hikey=82 pitch_keycenter=82 tune=3 lovel=42 hivel=60 loop_start=19862 loop_end=47681
+<region> sample=../../assets/iowa/oboe/083_mf.wav lokey=83 hikey=83 pitch_keycenter=83 tune=16 lovel=42 hivel=60 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/084_mf.wav lokey=84 hikey=84 pitch_keycenter=84 tune=-3 lovel=42 hivel=60 loop_start=19864 loop_end=62947
+<region> sample=../../assets/iowa/oboe/085_mf.wav lokey=85 hikey=85 pitch_keycenter=85 tune=6 lovel=42 hivel=60 loop_start=19862 loop_end=57645
+<region> sample=../../assets/iowa/oboe/086_mf.wav lokey=86 hikey=86 pitch_keycenter=86 tune=3 lovel=42 hivel=60 loop_start=19861 loop_end=62049
+<region> sample=../../assets/iowa/oboe/087_mf.wav lokey=87 hikey=87 pitch_keycenter=87 tune=-3 lovel=42 hivel=60 loop_start=19868 loop_end=57121
+<region> sample=../../assets/iowa/oboe/088_mf.wav lokey=88 hikey=88 pitch_keycenter=88 tune=-3 lovel=42 hivel=60 loop_start=19863 loop_end=52975
+<region> sample=../../assets/iowa/oboe/089_mf.wav lokey=89 hikey=89 pitch_keycenter=89 tune=1 lovel=42 hivel=60 loop_start=19852 loop_end=57211
+<region> sample=../../assets/iowa/oboe/090_mf.wav lokey=90 hikey=90 pitch_keycenter=90 tune=-1 lovel=42 hivel=60 loop_start=19852 loop_end=55098
+<region> sample=../../assets/iowa/oboe/091_mf.wav lokey=91 hikey=91 pitch_keycenter=91 tune=14 lovel=42 hivel=60 loop_start=19848 loop_end=58804
+<region> sample=../../assets/iowa/oboe/092_mf.wav lokey=92 hikey=127 pitch_keycenter=92 tune=9 lovel=42 hivel=60 loop_start=19855 loop_end=48748
+<region> sample=../../assets/iowa/oboe/058_ff.wav lokey=0 hikey=58 pitch_keycenter=58 tune=-1 lovel=61 hivel=127 loop_start=19869 loop_end=68065
+<region> sample=../../assets/iowa/oboe/059_ff.wav lokey=59 hikey=59 pitch_keycenter=59 tune=11 lovel=61 hivel=127 loop_start=19852 loop_end=76860
+<region> sample=../../assets/iowa/oboe/060_ff.wav lokey=60 hikey=60 pitch_keycenter=60 tune=9 lovel=61 hivel=127 loop_start=19875 loop_end=58253
+<region> sample=../../assets/iowa/oboe/061_ff.wav lokey=61 hikey=61 pitch_keycenter=61 tune=-1 lovel=61 hivel=127 loop_start=19865 loop_end=72876
+<region> sample=../../assets/iowa/oboe/062_ff.wav lokey=62 hikey=62 pitch_keycenter=62 tune=-0 lovel=61 hivel=127 loop_start=19852 loop_end=75056
+<region> sample=../../assets/iowa/oboe/063_ff.wav lokey=63 hikey=63 pitch_keycenter=63 tune=5 lovel=61 hivel=127 loop_start=19850 loop_end=76415
+<region> sample=../../assets/iowa/oboe/064_ff.wav lokey=64 hikey=64 pitch_keycenter=64 tune=0 lovel=61 hivel=127 loop_start=19848 loop_end=70250
+<region> sample=../../assets/iowa/oboe/065_ff.wav lokey=65 hikey=65 pitch_keycenter=65 tune=2 lovel=61 hivel=127 loop_start=19845 loop_end=67137
+<region> sample=../../assets/iowa/oboe/066_ff.wav lokey=66 hikey=66 pitch_keycenter=66 tune=0 lovel=61 hivel=127 loop_start=19869 loop_end=69781
+<region> sample=../../assets/iowa/oboe/067_ff.wav lokey=67 hikey=67 pitch_keycenter=67 tune=6 lovel=61 hivel=127 loop_start=19874 loop_end=71574
+<region> sample=../../assets/iowa/oboe/068_ff.wav lokey=68 hikey=68 pitch_keycenter=68 tune=2 lovel=61 hivel=127 loop_start=19849 loop_end=71131
+<region> sample=../../assets/iowa/oboe/069_ff.wav lokey=69 hikey=69 pitch_keycenter=69 tune=6 lovel=61 hivel=127 loop_start=19845 loop_end=68024
+<region> sample=../../assets/iowa/oboe/070_ff.wav lokey=70 hikey=70 pitch_keycenter=70 tune=4 lovel=61 hivel=127 loop_start=19875 loop_end=75530
+<region> sample=../../assets/iowa/oboe/071_ff.wav lokey=71 hikey=71 pitch_keycenter=71 tune=-8 lovel=61 hivel=127 loop_start=19868 loop_end=72450
+<region> sample=../../assets/iowa/oboe/072_ff.wav lokey=72 hikey=72 pitch_keycenter=72 tune=-7 lovel=61 hivel=127 loop_start=19866 loop_end=61430
+<region> sample=../../assets/iowa/oboe/073_ff.wav lokey=73 hikey=73 pitch_keycenter=73 tune=-7 lovel=61 hivel=127 loop_start=19866 loop_end=59687
+<region> sample=../../assets/iowa/oboe/074_ff.wav lokey=74 hikey=74 pitch_keycenter=74 tune=-3 lovel=61 hivel=127 loop_start=19854 loop_end=52271
+<region> sample=../../assets/iowa/oboe/075_ff.wav lokey=75 hikey=75 pitch_keycenter=75 tune=-3 lovel=61 hivel=127 loop_start=19854 loop_end=53871
+<region> sample=../../assets/iowa/oboe/076_ff.wav lokey=76 hikey=76 pitch_keycenter=76 tune=-7 lovel=61 hivel=127 loop_start=19861 loop_end=64254
+<region> sample=../../assets/iowa/oboe/077_ff.wav lokey=77 hikey=77 pitch_keycenter=77 tune=10 lovel=61 hivel=127 loop_start=19860 loop_end=54754
+<region> sample=../../assets/iowa/oboe/078_ff.wav lokey=78 hikey=78 pitch_keycenter=78 tune=-11 lovel=61 hivel=127 loop_mode=no_loop
+<region> sample=../../assets/iowa/oboe/079_ff.wav lokey=79 hikey=79 pitch_keycenter=79 tune=-4 lovel=61 hivel=127 loop_start=19848 loop_end=59074
+<region> sample=../../assets/iowa/oboe/080_ff.wav lokey=80 hikey=80 pitch_keycenter=80 tune=5 lovel=61 hivel=127 loop_start=19845 loop_end=52710
+<region> sample=../../assets/iowa/oboe/081_ff.wav lokey=81 hikey=81 pitch_keycenter=81 tune=-13 lovel=61 hivel=127 loop_start=19855 loop_end=61614
+<region> sample=../../assets/iowa/oboe/082_ff.wav lokey=82 hikey=82 pitch_keycenter=82 tune=2 lovel=61 hivel=127 loop_start=19846 loop_end=61179
+<region> sample=../../assets/iowa/oboe/083_ff.wav lokey=83 hikey=83 pitch_keycenter=83 tune=12 lovel=61 hivel=127 loop_start=19884 loop_end=51754
+<region> sample=../../assets/iowa/oboe/084_ff.wav lokey=84 hikey=84 pitch_keycenter=84 tune=6 lovel=61 hivel=127 loop_start=19852 loop_end=49688
+<region> sample=../../assets/iowa/oboe/085_ff.wav lokey=85 hikey=85 pitch_keycenter=85 tune=5 lovel=61 hivel=127 loop_start=19846 loop_end=48221
+<region> sample=../../assets/iowa/oboe/086_ff.wav lokey=86 hikey=86 pitch_keycenter=86 tune=-1 lovel=61 hivel=127 loop_start=19862 loop_end=52633
+<region> sample=../../assets/iowa/oboe/087_ff.wav lokey=87 hikey=87 pitch_keycenter=87 tune=-3 lovel=61 hivel=127 loop_start=19856 loop_end=53781
+<region> sample=../../assets/iowa/oboe/088_ff.wav lokey=88 hikey=88 pitch_keycenter=88 tune=11 lovel=61 hivel=127 loop_start=19870 loop_end=60019
+<region> sample=../../assets/iowa/oboe/089_ff.wav lokey=89 hikey=89 pitch_keycenter=89 tune=-14 lovel=61 hivel=127 loop_start=19849 loop_end=55967
+<region> sample=../../assets/iowa/oboe/090_ff.wav lokey=90 hikey=90 pitch_keycenter=90 tune=-4 lovel=61 hivel=127 loop_start=19850 loop_end=53076
+<region> sample=../../assets/iowa/oboe/091_ff.wav lokey=91 hikey=91 pitch_keycenter=91 tune=10 lovel=61 hivel=127 loop_start=19855 loop_end=49192
+<region> sample=../../assets/iowa/oboe/092_ff.wav lokey=92 hikey=127 pitch_keycenter=92 tune=5 lovel=61 hivel=127 loop_mode=no_loop

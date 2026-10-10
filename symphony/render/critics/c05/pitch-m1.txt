@@ -1,0 +1,9 @@
+Clarinets_12: n 39 median +2.5 c, |dev| p50 3.7 p90 9.7 c, >15 c: 0 %, >25 c: 0 %
+Oboes_12: n 24 median +1.2 c, |dev| p50 3.4 p90 74.5 c, >15 c: 12 %, >25 c: 12 %
+Flutes_12: n 17 median +0.3 c, |dev| p50 3.6 p90 7.5 c, >15 c: 6 %, >25 c: 6 %
+Bassoons_12: n 67 median -83.5 c, |dev| p50 83.5 p90 96.6 c, >15 c: 81 %, >25 c: 81 %
+Bass_clarinet: n 51 median -2.9 c, |dev| p50 3.2 p90 5.2 c, >15 c: 0 %, >25 c: 0 %
+Violins_I: n 77 median -2.8 c, |dev| p50 5.3 p90 11.5 c, >15 c: 4 %, >25 c: 0 %
+Violoncellos: n 153 median -4.9 c, |dev| p50 5.1 p90 11.2 c, >15 c: 0 %, >25 c: 0 %
+Horns_12: n 53 median +1.5 c, |dev| p50 1.5 p90 2.1 c, >15 c: 0 %, >25 c: 0 %
+Trumpets_12: n 6 median +0.0 c, |dev| p50 0.7 p90 1.9 c, >15 c: 0 %, >25 c: 0 %

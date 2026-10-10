@@ -1,0 +1,5 @@
+r03-m1: stem | n stacc / n detached same length | peak stacc minus detached dB | level at +250 ms re own peak: stacc / detached dB
+  Bassoons 12 | 4 / 12 (notated 0.48 s) | -10.7 | -9.8 / -2.9
+  Violas | 4 / 44 (notated 0.48 s) | +1.4 | -11.9 / +0.2
+  Violins II | 4 / 26 (notated 0.48 s) | -1.3 | -11.3 / -0.5
+  Violoncellos | 4 / 10 (notated 0.48 s) | +11.9 | -4.1 / -0.6

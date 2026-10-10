@@ -1,0 +1,15 @@
+Horns 12 6: +9.9
+Violins I 22: +2.5
+Violoncellos 23: +1.1
+Bass clarinet 31: +6.2
+Cor anglais 32: +6.3
+Flutes 12 37: +3.3
+Cor anglais 41: +5.8
+Oboes 12 47: +1.9
+Horns 12 53: -1.1
+Violoncellos 57: -4.7
+Horns 12 67: +4.4
+Violins I 70: +2.7
+Violas 71: -2.2
+Violoncellos 71: +0.2
+melodies vs loudest non-melody stem: >= 0 dB in 11 of 14; median +2.6 dB

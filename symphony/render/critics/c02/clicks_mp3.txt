@@ -1,0 +1,8 @@
+tmp/c02-m1.mp3 blocks 8648 click candidates (HF peak >12x local HF rms): 43 at s [np.float64(63.95), np.float64(67.7), np.float64(67.75), np.float64(71.5), np.float64(71.55), np.float64(75.35), np.float64(101.5), np.float64(101.55), np.float64(101.6), np.float64(109.6), np.float64(109.65), np.float64(116.8), np.float64(116.85), np.float64(172.55), np.float64(181.55)]
+  DC offset [-0.000347    0.00013565]
+tmp/c02-m2.mp3 blocks 6904 click candidates (HF peak >12x local HF rms): 1 at s [np.float64(168.65)]
+  DC offset [-0.00033482  0.00014217]
+tmp/c02-r01m1.mp3 blocks 8647 click candidates (HF peak >12x local HF rms): 11 at s [np.float64(203.4), np.float64(222.55), np.float64(223.0), np.float64(319.25), np.float64(319.3), np.float64(319.35), np.float64(319.4), np.float64(346.35), np.float64(348.45), np.float64(364.05), np.float64(366.45)]
+  DC offset [-4.0042458e-05 -6.0098414e-06]
+tmp/c02-r01m2.mp3 blocks 6904 click candidates (HF peak >12x local HF rms): 0 at s []
+  DC offset [-3.4335386e-05  4.9849503e-05]

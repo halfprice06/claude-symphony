@@ -1,0 +1,14 @@
+Violins I slurred n 61 median L 0.54 level at 50% -2.9, at 75% -1.6 dB re peak
+Violins I accent n 45 median L 0.71 level at 50% -12.4, at 75% -12.1 dB re peak
+Violins I detached n 48 median L 0.48 level at 50% -4.0, at 75% -3.3 dB re peak
+Violins I tremolo n 6 median L 0.95 level at 50% -3.4, at 75% -5.7 dB re peak
+Violas detached n 115 median L 0.54 level at 50% -1.2, at 75% -1.1 dB re peak
+Violas slurred n 29 median L 0.54 level at 50% -2.5, at 75% -3.2 dB re peak
+Violas accent n 37 median L 0.48 level at 50% -7.6, at 75% -6.2 dB re peak
+Violas tremolo n 4 median L 0.95 level at 50% -1.0, at 75% -3.2 dB re peak
+Violas staccato n 4 median L 0.48 level at 50% -7.4, at 75% -19.3 dB re peak
+Violoncellos slurred n 37 median L 0.60 level at 50% -2.9, at 75% -2.8 dB re peak
+Violoncellos detached n 103 median L 0.95 level at 50% -1.4, at 75% -2.2 dB re peak
+Violoncellos accent n 16 median L 0.60 level at 50% -6.1, at 75% -6.7 dB re peak
+Violoncellos pizz n 4 median L 0.52 level at 50% -5.5, at 75% -18.8 dB re peak
+Violoncellos staccato n 4 median L 0.48 level at 50% -4.2, at 75% -13.5 dB re peak

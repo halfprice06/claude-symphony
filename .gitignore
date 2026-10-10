@@ -8,3 +8,6 @@ __pycache__/
 symphony/render/assets/sf2/
 symphony/render/assets/vpo3/libs/
 symphony/render/assets/refs/*.flac
+symphony/render/assets/iowa/**/*.aif
+symphony/render/assets/iowa/**/*.aiff
+symphony/render/assets/iowa/**/*.wav

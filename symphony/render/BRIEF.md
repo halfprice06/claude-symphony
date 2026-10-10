@@ -24,3 +24,23 @@ Do not install new software packages (apt, .deb, pip, binaries) unless the coord
 ## Dan on timpani rolls (2026-10-09, after hearing r01)
 "The timpani rolls need help also, especially where they are very long they need to not drown other things and should fade softer unless explicit crescendo." Rule: a roll starts at its printed dynamic and then decays gradually (a real roll is sustained by strokes but settles below its attack level; long rolls should sit under the texture as support). Only a printed crescendo hairpin makes a roll grow. Long rolls must never be the loudest stem unless the score marks the timpani as the leading part. Critics measure timpani level against the other stems in every roll longer than one bar.
 Dan also: "the roll doesn't sound very realistic." Options, best first: (1) a real recorded timpani roll sample from a free library (e.g. VSCO 2 CE / Virtual Playing Orchestra timpani rolls, looped and crossfaded for long rolls); (2) if only single strokes exist, build the roll from alternating-hand strokes with round-robin samples, random timing jitter (±5–10 ms), velocity variation (±8–12 %), overlapping decays, a stroke rate that drops for soft rolls, and no identical repeated sample. Critics check the roll for audible machine-gun repetition (periodicity in the envelope at the stroke rate).
+
+## Series 2 (Dan, 2026-10-10): 20 more cycles, r03–r22, on both movements
+Dan: "an independent thread work on render quality in an actor critic loop, like 20 loops ... use latest versions of
+the two movements to test (they should be merging periodically)". Run in the thread "Render quality loops".
+Procedure and test inputs: LOOP2.md and TESTSET.md in this folder. Changes from series 1:
+- The renderer must render ANY version folder of movement I (symphony/mvt1/vNN, 4/4, has percussion) or movement II
+  (symphony/mvt2/vNN, mixed metre 3/4 and 4/4, no percussion) with one command, without hand-edited bar lists. Anything
+  tied to bar numbers of one version (the melody list, roll lists) must be derived from the score's own markings
+  (espr., dolce, cantabile, solo, hairpins, rolls) in the LilyPond event log, or it breaks when the movements change.
+- Every cycle renders and measures BOTH test inputs. A change that helps one movement and hurts the other is rejected
+  or made conditional on what the score prints, never on the movement number.
+- Both movements are still being revised in other threads. Never write into symphony/mvt1/ or symphony/mvt2/.
+- The r02 copy in symphony/mvt2/render/r02 belongs to the movement II thread; leave it alone.
+
+## Dan on accents (2026-10-10 12:08 UTC, after hearing r04-era renders)
+"Accented notes have too much attack." Rule: accents must be softened. The earlier target (accent peak boost >= 3 dB,
+reached 6-8 dB in the strings with VPO accent samples plus +8 velocity, and 4.6-7.7 dB in the Iowa woodwinds) was too
+high. An accent should stand out by emphasis and weight, not by a hard transient: aim for about 2-4 dB peak boost, a
+less sharp onset (compare attack time and onset crest with unaccented notes and with accents in the reference
+recordings), and no click-like front edge. Critics measure accent boost and onset sharpness per instrument against this.

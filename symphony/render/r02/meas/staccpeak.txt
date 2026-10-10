@@ -1,0 +1,9 @@
+Bassoons 12    staccato n=8 peak minus unmarked median -1.5 dB (n=8); sounding/notated 0.45
+Clarinets 12   staccato n=5 peak minus unmarked median -0.1 dB (n=4); sounding/notated 0.45
+Cor anglais    staccato n=8 peak minus unmarked median -1.4 dB (n=8); sounding/notated 0.45
+Flutes 12      staccato n=11 peak minus unmarked median +0.9 dB (n=11); sounding/notated 0.45
+Oboes 12       staccato n=4 peak minus unmarked median +0.9 dB (n=4); sounding/notated 0.45
+Violas         staccato n=13 peak minus unmarked median +0.3 dB (n=12); sounding/notated 0.46
+Violins I      staccato n=11 peak minus unmarked median -0.2 dB (n=11); sounding/notated 0.46
+Violins II     staccato n=13 peak minus unmarked median -0.2 dB (n=13); sounding/notated 0.46
+Violoncellos   staccato n=8 peak minus unmarked median +1.1 dB (n=8); sounding/notated 0.46

@@ -1,0 +1,4 @@
+r04-m2: roll | dyn | pitch | band Hz | timpani minus others in band: first 1 s / rest (dB)
+2-3 | ppp | 44 (104 Hz) | 87-311 | -2.5 / -5.4
+67-70 | ppp | 51 (156 Hz) | 130-467 | +0.9 / -5.3
+89-92 | ppp | 44 (104 Hz) | 87-311 | -2.3 / -5.7

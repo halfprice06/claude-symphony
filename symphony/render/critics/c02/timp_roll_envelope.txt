@@ -1,0 +1,23 @@
+bar dyn hp len | start dB, end dB, settle | modpeak Hz, prom dB | autocorr max (lag s) | seam HF jump dB
+1 ppp - 19.2 | -52.7 -52.0 +0.7 | 11.3 16.6 | 0.79 (3.33) | seams 5, max 0.7
+11 pp - 4.8 | -47.0 -46.8 +0.2 | 12.1 10.3 | 0.13 (1.50) | seams 0, max nan
+12 f - 3.6 | -38.9 -38.4 +0.5 | 3.5 11.9 | 0.12 (1.50) | seams 0, max nan
+13 p - 8.4 | -43.5 -44.8 -1.2 | 22.7 10.1 | 0.31 (5.15) | seams 1, max -1.9
+40 pp - 1.9 | -49.4 -47.7 +1.7 | 24.4 6.8 | nan (nan) | seams 0, max nan
+41 ff - 5.7 | -39.1 -38.7 +0.4 | 5.9 17.1 | 0.31 (1.50) | seams 1, max 6.3
+62 pp - 2.1 | -47.7 -47.5 +0.3 | 5.7 16.7 | nan (nan) | seams 0, max nan
+71 mf - 1.9 | -42.0 -41.0 +1.0 | 5.8 14.9 | nan (nan) | seams 0, max nan
+76 ppp - 1.9 | -47.7 -49.6 -1.9 | 5.1 10.9 | nan (nan) | seams 0, max nan
+80 f - 1.9 | -44.0 -42.1 +1.8 | 11.6 16.3 | nan (nan) | seams 0, max nan
+81 f - 1.9 | -42.5 -41.0 +1.5 | 11.5 15.6 | nan (nan) | seams 0, max nan
+115 mf - 1.9 | -39.4 -41.1 -1.7 | 5.2 9.6 | nan (nan) | seams 0, max nan
+117 ff - 9.7 | -38.1 -38.9 -0.8 | 11.3 9.9 | 0.41 (5.15) | seams 1, max -1.9
+122 fff - 19.5 | -38.0 -37.6 +0.3 | 11.3 10.2 | 0.71 (5.15) | seams 3, max -1.8
+140 f - 1.9 | -39.9 -39.7 +0.2 | 23.7 9.1 | nan (nan) | seams 0, max nan
+144 mp - 4.9 | -42.1 -42.4 -0.3 | 11.3 10.6 | 0.16 (1.58) | seams 0, max nan
+158 ff - 2.0 | -38.0 -38.7 -0.7 | 4.2 9.8 | nan (nan) | seams 0, max nan
+159 ff cresc 2.0 | -37.3 -38.9 -1.7 | 4.8 11.3 | nan (nan) | seams 0, max nan
+160 fff - 2.4 | -37.1 -37.6 -0.6 | 3.4 10.2 | nan (nan) | seams 0, max nan
+167 f - 5.7 | -43.3 -42.0 +1.4 | 11.3 16.0 | 0.24 (3.33) | seams 1, max 0.7
+174 pp - 3.3 | -45.9 -46.6 -0.7 | 3.1 12.5 | 0.11 (1.76) | seams 0, max nan
+181 ppp - 12.8 | -52.8 -52.5 +0.3 | 11.3 16.4 | 0.68 (3.33) | seams 3, max 0.8

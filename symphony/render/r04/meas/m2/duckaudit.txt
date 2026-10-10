@@ -1,0 +1,41 @@
+r04-m2: stems with a gain curve: 22
+stem | bars cut>=3 | cut>=6 | lifted>=1 | min/max dB | max slope dB/s | cut>=3 where own printed dyn >= melody's (n; max steps above)
+Bass clarinet | 6 | 0 | 0 | -5.0/+0.3 | 3.3 | 0; -
+Bass trombone | 0 | 0 | 1 | -0.7/+1.7 | 1.2 | 0; -
+Bassoons 12 | 12 | 0 | 0 | -5.8/+0.3 | 3.3 | 1; 0
+Clarinets 12 | 12 | 0 | 0 | -5.0/+0.3 | 3.3 | 3; 0
+Contrabassoon | 0 | 0 | 1 | -0.7/+1.7 | 1.2 | 0; -
+Cor anglais | 0 | 0 | 4 | -0.7/+3.0 | 2.0 | 0; -
+Double basses | 14 | 0 | 0 | -5.0/+0.0 | 3.3 | 2; 0
+Flutes 12 | 8 | 0 | 8 | -5.0/+2.9 | 3.3 | 0; -
+Harp LH | 0 | 0 | 1 | -0.7/+1.7 | 1.2 | 0; -
+Harp RH | 0 | 0 | 1 | -0.7/+1.7 | 1.2 | 0; -
+Horns 12 | 0 | 0 | 2 | -0.7/+4.7 | 3.2 | 0; -
+Horns 34 | 0 | 0 | 1 | -1.2/+1.7 | 1.2 | 0; -
+Oboes 12 | 3 | 0 | 6 | -5.0/+3.0 | 3.3 | 0; -
+Timpani | 5 | 0 | 0 | -5.0/+0.3 | 3.3 | 0; -
+Trombones 12 | 0 | 0 | 1 | -0.7/+1.7 | 1.2 | 0; -
+Trumpet 3 | 0 | 0 | 1 | -0.7/+1.7 | 1.2 | 0; -
+Trumpets 12 | 0 | 0 | 1 | -0.7/+1.7 | 1.2 | 0; -
+Tuba | 0 | 0 | 1 | -0.7/+1.7 | 1.2 | 0; -
+Violas | 10 | 0 | 6 | -5.0/+3.0 | 3.3 | 5; 0
+Violins I | 7 | 0 | 0 | -4.1/+0.9 | 2.3 | 2; 0
+Violins II | 1 | 0 | 0 | -3.3/+0.0 | 2.2 | 1; 0
+Violoncellos | 1 | 0 | 17 | -3.3/+3.3 | 2.2 | 1; 0
+r04-m2: stem-bars cut >= 3 dB: 79, >= 6 dB: 0; cut >= 3 dB although printed >= the melody: 15
+   ('Bassoons 12', 54, 0, 'p', 'p', -5.0)
+   ('Clarinets 12', 54, 0, 'p', 'p', -5.0)
+   ('Clarinets 12', 55, 0, 'mp', 'mp', -3.3)
+   ('Clarinets 12', 56, 0, 'mp', 'mp', -5.0)
+   ('Double basses', 30, 0, 'p', 'p', -3.0)
+   ('Double basses', 55, 0, 'mp', 'mp', -3.3)
+   ('Violas', 28, 0, 'mf', 'mf', -3.0)
+   ('Violas', 30, 0, 'p', 'p', -3.1)
+   ('Violas', 54, 0, 'p', 'p', -5.0)
+   ('Violas', 55, 0, 'mp', 'mp', -3.3)
+   ('Violas', 56, 0, 'mp', 'mp', -5.0)
+   ('Violins I', 47, 0, 'p', 'p', -3.4)
+   ('Violins I', 55, 0, 'mp', 'mp', -3.3)
+   ('Violins II', 55, 0, 'mp', 'mp', -3.3)
+   ('Violoncellos', 55, 0, 'mp', 'mp', -3.3)
+r04-m2: marked melodies whose median gain is a CUT: []
