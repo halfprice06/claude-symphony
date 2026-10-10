@@ -123,6 +123,10 @@ def build(notes, posts):
 def match_midi(recs, midi_path):
     mi = rtk.midi_info(midi_path)
     tpb = mi["tpb"]; t2s = mi["t2s"]
+    # r03: bars from the MIDI's own time-signature grid (rtk.midi_info), not tick // whole (4/4 only): mixed metre
+    # (mvt2: 3/4 + 4/4) gets the printed bar numbers
+    import bisect
+    grid = list(mi["bar_ticks"])
     idx = defaultdict(list)
     for (on, off, ti, ch, p, v, name) in mi["notes"]:
         idx[(key(name), int(round(on)))].append((on, off, p, v, name))
@@ -135,8 +139,9 @@ def match_midi(recs, midi_path):
         cands.sort(key=lambda c: (abs(c[2] - r["pitch"]) % 12 != 0, abs(c[2] - r["pitch"])))
         c = cands[0] if cands else None
         ntk = r["dur_total"] * WHOLE * tpb
-        bar = int(tick // (WHOLE * tpb)) + 1
-        row = {"staff": r["staff"], "voice": r["voice"], "bar": bar, "beat": round((tick % (WHOLE * tpb)) / tpb + 1, 3),
+        bi = max(0, bisect.bisect_right(grid, tick) - 1)
+        bar = bi + 1
+        row = {"staff": r["staff"], "voice": r["voice"], "bar": bar, "beat": round((tick - grid[bi]) / tpb + 1, 3),
                "tick_on": tick, "notated_ticks": int(round(ntk)), "pitch": r["pitch"], "dyn": r["dyn"] or "",
                "hairpin": r["hairpin"], "arts": "|".join(r["arts"]), "slur": r["slur"], "tech": r["tech"],
                "midi_track": c[4] if c else "", "midi_on": int(c[0]) if c else "", "midi_off": int(c[1]) if c else "",
@@ -180,7 +185,7 @@ def summary(rows):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--midi", required=True); ap.add_argument("--out", required=True)
-    ap.add_argument("--ly-dir", default="/mnt/project-files/symphony/mvt1/v120")
+    ap.add_argument("--ly-dir", help="score folder (required unless --events is given)")
     ap.add_argument("--scratch"); ap.add_argument("--events"); ap.add_argument("--summary")
     a = ap.parse_args()
     ev = a.events or compile_events(a.ly_dir, a.scratch or tempfile.mkdtemp(prefix="evlog_"))

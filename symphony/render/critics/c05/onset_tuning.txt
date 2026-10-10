@@ -1,0 +1,16 @@
+== m1
+Bassoons_12: 56 isolated notes; time to pitch (+-30 c) median 0.30 s, p90 0.32 s; notes with >= 0.1 s a semitone low: 89 %, median low time 0.20 s
+Oboes_12: 15 isolated notes; time to pitch (+-30 c) median 0.00 s, p90 0.14 s; notes with >= 0.1 s a semitone low: 7 %, median low time 0.00 s
+Clarinets_12: 27 isolated notes; time to pitch (+-30 c) median 0.00 s, p90 0.01 s; notes with >= 0.1 s a semitone low: 0 %, median low time 0.00 s
+Flutes_12: 5 isolated notes; time to pitch (+-30 c) median 0.00 s, p90 0.00 s; notes with >= 0.1 s a semitone low: 0 %, median low time 0.00 s
+Bass_clarinet: 46 isolated notes; time to pitch (+-30 c) median 0.00 s, p90 0.06 s; notes with >= 0.1 s a semitone low: 0 %, median low time 0.00 s
+Violoncellos: 128 isolated notes; time to pitch (+-30 c) median 0.02 s, p90 0.04 s; notes with >= 0.1 s a semitone low: 0 %, median low time 0.00 s
+Horns_12: 39 isolated notes; time to pitch (+-30 c) median 0.00 s, p90 0.02 s; notes with >= 0.1 s a semitone low: 0 %, median low time 0.00 s
+== m2
+Bassoons_12: 30 isolated notes; time to pitch (+-30 c) median 0.30 s, p90 0.30 s; notes with >= 0.1 s a semitone low: 93 %, median low time 0.20 s
+Oboes_12: 1 isolated notes; time to pitch (+-30 c) median 0.14 s, p90 0.14 s; notes with >= 0.1 s a semitone low: 0 %, median low time 0.00 s
+Clarinets_12: 4 isolated notes; time to pitch (+-30 c) median 0.00 s, p90 0.00 s; notes with >= 0.1 s a semitone low: 0 %, median low time 0.00 s
+Flutes_12: 4 isolated notes; time to pitch (+-30 c) median 0.00 s, p90 0.01 s; notes with >= 0.1 s a semitone low: 0 %, median low time 0.00 s
+Bass_clarinet: 35 isolated notes; time to pitch (+-30 c) median 0.04 s, p90 0.32 s; notes with >= 0.1 s a semitone low: 0 %, median low time 0.00 s
+Violoncellos: 61 isolated notes; time to pitch (+-30 c) median 0.02 s, p90 0.04 s; notes with >= 0.1 s a semitone low: 0 %, median low time 0.00 s
+Horns_12: 1 isolated notes; time to pitch (+-30 c) median 0.00 s, p90 0.00 s; notes with >= 0.1 s a semitone low: 0 %, median low time 0.00 s

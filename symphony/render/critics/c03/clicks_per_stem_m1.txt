@@ -1,0 +1,8 @@
+Bass_trombone.wav 20 [np.float64(99.7), np.float64(99.75), np.float64(100.15), np.float64(100.2), np.float64(100.25), np.float64(202.55), np.float64(202.6), np.float64(202.65), np.float64(203.5), np.float64(203.55), np.float64(203.6), np.float64(203.65)]
+Harp_RH.wav 28 [np.float64(129.15), np.float64(135.85), np.float64(144.4), np.float64(149.5), np.float64(153.55), np.float64(153.8), np.float64(155.65), np.float64(155.7), np.float64(155.95), np.float64(156.2), np.float64(157.3), np.float64(158.35)]
+Trumpet_3.wav 6 [np.float64(96.55), np.float64(97.5), np.float64(116.75), np.float64(116.8), np.float64(116.85), np.float64(116.9)]
+Trumpets_12.wav 20 [np.float64(100.15), np.float64(101.5), np.float64(101.55), np.float64(101.6), np.float64(101.65), np.float64(101.7), np.float64(116.75), np.float64(116.8), np.float64(116.85), np.float64(116.9), np.float64(201.05), np.float64(202.5)]
+Violins_I.wav 30 [np.float64(67.7), np.float64(67.75), np.float64(71.5), np.float64(71.55), np.float64(75.3), np.float64(75.35), np.float64(75.4), np.float64(96.75), np.float64(100.1), np.float64(100.15), np.float64(109.6), np.float64(109.65)]
+Violins_II.wav 34 [np.float64(88.2), np.float64(88.25), np.float64(94.4), np.float64(94.45), np.float64(96.75), np.float64(100.1), np.float64(100.15), np.float64(178.7), np.float64(178.75), np.float64(178.8), np.float64(201.1), np.float64(201.15)]
+Violoncellos.wav 11 [np.float64(88.2), np.float64(99.65), np.float64(101.5), np.float64(101.55), np.float64(199.2), np.float64(203.45), np.float64(203.5), np.float64(296.9), np.float64(296.95), np.float64(300.75), np.float64(308.3)]
+drums.wav 2 [np.float64(354.5), np.float64(354.55)]

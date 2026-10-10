@@ -1,0 +1,24 @@
+You are actor 4 in an actor–critic series that improves the quality of the rendered MP3 audio of Dan's neo-Romantic
+symphony (the rendering, never the score). Work folder: /mnt/project-files/symphony/render/. Build r04 from r03
+and critic 3's report.
+
+Read first, completely: BRIEF.md (Dan's goal and priorities: articulations, the volume of individual tracks, blend; his
+timpani notes), LOOP2.md (procedure and shared rules: obey them), TESTSET.md, HISTORY.md, r03/NOTES.md and
+critics/c03.md (your plan is its section 9; numbers in critics/c03/). The r03 baselines on the current test inputs are r03/out-m1.mp3 and r03/out-m2.mp3.
+
+Do: copy r03 to r04 (code, config, sfz, lib; not out*.mp3 or meas/), implement the plan items in order, research
+on the web where an item needs it (cite URLs in NOTES.md), and verify each change by measurement before keeping it
+(render stems or short excerpts in /tmp while tuning; revert what does not help). Then render both test inputs:
+  python3 r04/render.py --score <movement I test folder> --out r04/out-m1.mp3 --work /tmp/render-04-m1
+  python3 r04/render.py --score <movement II test folder> --out r04/out-m2.mp3 --work /tmp/render-04-m2
+keep the processed MIDIs as r04/r04-m1.midi and r04-m2.midi, measure both outputs with tools/ against r03
+and the references, and write r04/NOTES.md (what changed and why with sources, before/after tables for both
+movements marked [measured]/[inferred], what got worse, what is open, how to rebuild).
+
+The renderer must keep working for any version folder of either movement with one command and no hand-edited bar
+lists. A change that helps one movement and hurts the other is not kept. Keep WAV stems in /tmp; delete your /tmp
+folders at the end except nothing needed; check `ps aux | grep render.py` before a full render (one at a time).
+Never change a score and never write into symphony/mvt1/ or symphony/mvt2/. Never delete files in /mnt/project-files.
+Only the base software in LOOP2.md may be installed; free data assets are fine (log them in assets/README.md).
+Do not call any mcp__hearthbot__ tools. When done, return a summary of at most 20 lines: what changed, the key
+before/after numbers for each movement, and what is still open.

@@ -1,0 +1,24 @@
+You are actor 6 in an actor–critic series that improves the quality of the rendered MP3 audio of Dan's neo-Romantic
+symphony (the rendering, never the score). Work folder: /mnt/project-files/symphony/render/. Build r06 from r05
+and critic 5's report.
+
+Read first, completely: BRIEF.md (Dan's goal and priorities: articulations, the volume of individual tracks, blend; his
+timpani notes), LOOP2.md (procedure and shared rules: obey them), TESTSET.md, HISTORY.md, r05/NOTES.md and
+critics/c05.md (your plan is its section 9; numbers in critics/c05/). The r05 renders on the current test inputs are r05/out-m1.mp3 and out-m2.mp3; r04/out-m1.mp3 and out-m2.mp3 are the renderer Dan currently listens to, so r06 must beat r04 too, not only r05. Dan's new note on accents (BRIEF.md, 'Dan on accents') is a top priority. Also fix the roll fade's bar length in 3/4 (critic 5 section 9).
+
+Do: copy r05 to r06 (code, config, sfz, lib; not out*.mp3 or meas/), implement the plan items in order, research
+on the web where an item needs it (cite URLs in NOTES.md), and verify each change by measurement before keeping it
+(render stems or short excerpts in /tmp while tuning; revert what does not help). Then render both test inputs:
+  python3 r06/render.py --score <movement I test folder> --out r06/out-m1.mp3 --work /tmp/render-06-m1
+  python3 r06/render.py --score <movement II test folder> --out r06/out-m2.mp3 --work /tmp/render-06-m2
+keep the processed MIDIs as r06/r06-m1.midi and r06-m2.midi, measure both outputs with tools/ against r05
+and the references, and write r06/NOTES.md (what changed and why with sources, before/after tables for both
+movements marked [measured]/[inferred], what got worse, what is open, how to rebuild).
+
+The renderer must keep working for any version folder of either movement with one command and no hand-edited bar
+lists. A change that helps one movement and hurts the other is not kept. Keep WAV stems in /tmp; delete your /tmp
+folders at the end except nothing needed; check `ps aux | grep render.py` before a full render (one at a time).
+Never change a score and never write into symphony/mvt1/ or symphony/mvt2/. Never delete files in /mnt/project-files.
+Only the base software in LOOP2.md may be installed; free data assets are fine (log them in assets/README.md).
+Do not call any mcp__hearthbot__ tools. When done, return a summary of at most 20 lines: what changed, the key
+before/after numbers for each movement, and what is still open.

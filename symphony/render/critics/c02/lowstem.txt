@@ -1,0 +1,18 @@
+/tmp/c02-r01m1/stems mix <100 Hz share -9.1 dB
+  Double_basses   <100 Hz -12.2 dB, 40-80 Hz -14.6 dB, 100-250 -17.6 dB (re mix total); stem share of its own energy <100 Hz -1.2 dB
+  Timpani         <100 Hz -13.9 dB, 40-80 Hz -39.0 dB, 100-250 -14.8 dB (re mix total); stem share of its own energy <100 Hz -4.3 dB
+  Tuba            <100 Hz -18.0 dB, 40-80 Hz -26.7 dB, 100-250 -17.3 dB (re mix total); stem share of its own energy <100 Hz -4.3 dB
+  Bass_clarinet   <100 Hz -23.3 dB, 40-80 Hz -35.7 dB, 100-250 -28.5 dB (re mix total); stem share of its own energy <100 Hz -7.4 dB
+  Violoncellos    <100 Hz -30.0 dB, 40-80 Hz -34.8 dB, 100-250 -18.8 dB (re mix total); stem share of its own energy <100 Hz -16.7 dB
+  Contrabassoon   <100 Hz -34.9 dB, 40-80 Hz -37.3 dB, 100-250 -26.6 dB (re mix total); stem share of its own energy <100 Hz -17.5 dB
+  Violas          <100 Hz -36.0 dB, 40-80 Hz -53.7 dB, 100-250 -21.8 dB (re mix total); stem share of its own energy <100 Hz -24.4 dB
+  Bassoons_12     <100 Hz -39.7 dB, 40-80 Hz -45.8 dB, 100-250 -28.2 dB (re mix total); stem share of its own energy <100 Hz -25.3 dB
+/tmp/c02-m1/stems mix <100 Hz share -13.2 dB
+  Double_basses   <100 Hz -16.6 dB, 40-80 Hz -23.1 dB, 100-250 -14.4 dB (re mix total); stem share of its own energy <100 Hz -4.7 dB
+  Tuba            <100 Hz -19.5 dB, 40-80 Hz -28.0 dB, 100-250 -18.5 dB (re mix total); stem share of its own energy <100 Hz -4.5 dB
+  Timpani         <100 Hz -19.7 dB, 40-80 Hz -39.3 dB, 100-250 -19.7 dB (re mix total); stem share of its own energy <100 Hz -3.6 dB
+  Bass_clarinet   <100 Hz -27.1 dB, 40-80 Hz -36.7 dB, 100-250 -27.4 dB (re mix total); stem share of its own energy <100 Hz -9.4 dB
+  Violoncellos    <100 Hz -30.5 dB, 40-80 Hz -45.3 dB, 100-250 -19.2 dB (re mix total); stem share of its own energy <100 Hz -19.0 dB
+  Contrabassoon   <100 Hz -35.3 dB, 40-80 Hz -37.6 dB, 100-250 -27.5 dB (re mix total); stem share of its own energy <100 Hz -17.8 dB
+  Violas          <100 Hz -36.0 dB, 40-80 Hz -74.7 dB, 100-250 -29.4 dB (re mix total); stem share of its own energy <100 Hz -25.5 dB
+  Bassoons_12     <100 Hz -39.0 dB, 40-80 Hz -46.8 dB, 100-250 -29.0 dB (re mix total); stem share of its own energy <100 Hz -24.4 dB

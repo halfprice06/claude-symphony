@@ -1,0 +1,5 @@
+284.289 Double_basses jump 30 dB at -54 dB; Horns_34 jump 29 dB at -111 dB; Bass_clarinet jump 21 dB at -100 dB
+286.146 Bass_clarinet jump 27 dB at -93 dB; Tuba jump 26 dB at -152 dB; Horns_34 jump 24 dB at -113 dB
+288.003 Double_basses jump 29 dB at -55 dB; Bass_clarinet jump 20 dB at -102 dB; Horns_34 jump 16 dB at -120 dB
+291.716 Double_basses jump 26 dB at -58 dB; Horns_34 jump 24 dB at -121 dB; Violoncellos jump 9 dB at -89 dB
+172.55 Harp_RH jump 40 dB at -67 dB; Horns_34 jump 23 dB at -115 dB; Horns_12 jump 18 dB at -111 dB

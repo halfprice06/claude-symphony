@@ -1,0 +1,67 @@
+{
+ "matched_notes": 1567,
+ "unmatched_notes": 0,
+ "accent": {
+  "n": 3,
+  "midi_len_over_notated_median": 0.934,
+  "midi_len_over_notated_p10_p90": [
+   0.883,
+   0.944
+  ],
+  "vel_minus_plain_same_bar_median": 28.0
+ },
+ "legato (slurred, not last)": {
+  "n": 588,
+  "midi_len_over_notated_median": 1.068,
+  "midi_len_over_notated_p10_p90": [
+   1.021,
+   1.125
+  ],
+  "vel_minus_plain_same_bar_median": 0.0
+ },
+ "pizz": {
+  "n": 34,
+  "midi_len_over_notated_median": 0.349,
+  "midi_len_over_notated_p10_p90": [
+   0.227,
+   0.349
+  ],
+  "vel_minus_plain_same_bar_median": null
+ },
+ "plain": {
+  "n": 715,
+  "midi_len_over_notated_median": 0.965,
+  "midi_len_over_notated_p10_p90": [
+   0.896,
+   1.0
+  ],
+  "vel_minus_plain_same_bar_median": 0.0
+ },
+ "slur end": {
+  "n": 156,
+  "midi_len_over_notated_median": 0.901,
+  "midi_len_over_notated_p10_p90": [
+   0.898,
+   0.96
+  ],
+  "vel_minus_plain_same_bar_median": 0.0
+ },
+ "tenuto": {
+  "n": 32,
+  "midi_len_over_notated_median": 1.0,
+  "midi_len_over_notated_p10_p90": [
+   0.991,
+   1.0
+  ],
+  "vel_minus_plain_same_bar_median": 5.0
+ },
+ "tremolo": {
+  "n": 39,
+  "midi_len_over_notated_median": 1.0,
+  "midi_len_over_notated_p10_p90": [
+   0.073,
+   1.0
+  ],
+  "vel_minus_plain_same_bar_median": 6.5
+ }
+}

@@ -1,0 +1,1148 @@
+{
+ "_doc": "r03 render configuration (from r02). gain_dB: static stem gain; pan: -1 left .. +1 right; width: 0 mono .. 1 sample's own stereo; src: Detmold Konzerthaus loudspeaker-orchestra source; send_dB: reverb send relative to the dry stem; family: rule set for articulations; engine: fluidsynth (FluidR3_GM) or sfz (sfzplay.py with the files in sfz.channels, one per MIDI channel); accent_extra_vel: velocity added to accented notes.",
+ "sf2": "/usr/share/sounds/sf2/FluidR3_GM.sf2",
+ "sample_rate": 48000,
+ "fluid_gain": 0.2,
+ "ir_receiver": "R163",
+ "ir_fig8_gain": 1.3,
+ "ir_direct_cut_ms": 4.0,
+ "reverb_master_dB": 0.0,
+ "brightness": {
+  "crossover_Hz": 2500,
+  "dB_per_velocity": 0.1,
+  "min_dB": -6.0,
+  "max_dB": 3.0,
+  "ref_velocity": 74,
+  "preserve_level": true,
+  "preserve_window_s": 0.4,
+  "preserve_max_dB": 3.0
+ },
+ "master": {
+  "target_LUFS": -20.0,
+  "true_peak_dBTP": -1.0,
+  "mp3_bitrate": "256k"
+ },
+ "dynamics": {
+  "_doc": "extra expression (CC11, dB) added to the velocity's own level, by velocity-equivalent of the printed dynamic; ppp 32, pp 42, p 53, mp 64, mf 74, f 84, ff 91, fff 110 after fff_velocity_cut (v120 volume table x 127). headroom_dB is taken off every CC11 curve and added back as stem gain. per_track_families: one CC11 curve per voice track.",
+  "headroom_dB": 6.0,
+  "per_track_families": [
+   "wind",
+   "brass"
+  ],
+  "extra_dB_points": [
+   [
+    1,
+    -3.3
+   ],
+   [
+    32,
+    -3.3
+   ],
+   [
+    42,
+    -3.3
+   ],
+   [
+    53,
+    -3.2
+   ],
+   [
+    64,
+    -3.0
+   ],
+   [
+    74,
+    -1.9
+   ],
+   [
+    84,
+    -1.8
+   ],
+   [
+    91,
+    -4.3
+   ],
+   [
+    105,
+    -5.0
+   ],
+   [
+    127,
+    -5.0
+   ]
+  ]
+ },
+ "articulation": {
+  "legato_overlap_s": 0.04,
+  "detached_gap_frac": 0.13,
+  "detached_gap_min_s": 0.03,
+  "detached_gap_max_s": 0.12,
+  "detached_min_frac": 0.6,
+  "slur_end_gap_frac": 0.1,
+  "slur_end_gap_min_s": 0.03,
+  "slur_end_gap_max_s": 0.1,
+  "staccato_frac_wind": 0.45,
+  "staccato_max_s_wind": 0.3,
+  "staccato_frac_string": 0.45,
+  "staccato_max_s_string": 0.3,
+  "string_staccato_release_timecents": -2400,
+  "tenuto_velocity": 5,
+  "accent_dip_start_s": 0.08,
+  "accent_dip_full_s": 0.25,
+  "accent_dip_max_dB": 6.0,
+  "sf_velocity_boost": 20,
+  "sul_tasto_velocity": -6,
+  "timp_roll_rate_hz": 14.0,
+  "timp_roll_vel_offset": -6,
+  "timp_roll_vel_jitter": 6,
+  "tremolo_program": 44,
+  "pizz_program": 45,
+  "pizz_rel_arco_dB": -2.0,
+  "pizz_len_frac": 0.6,
+  "pizz_len_max_s": 0.35,
+  "staccato_min_s_wind": 0.08,
+  "staccato_min_s_string": 0.11,
+  "fff_velocity_cut": 22,
+  "string_accent_channel": true,
+  "timp_roll_settle_dB": -6.0,
+  "timp_roll_settle_tau_s": 1.5,
+  "timp_roll_long_s": 3.5,
+  "timp_roll_long_dB": -7.0,
+  "timp_roll_mode": "sample",
+  "timp_roll_start_stroke_vel": -14,
+  "vel_outlier_steps": 15,
+  "vel_outlier_min_n": 10
+ },
+ "stems": {
+  "Flutes 12": {
+   "family": "wind",
+   "gain_dB": 3.47,
+   "pan": -0.2,
+   "width": 0.5,
+   "src": "S6",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": 0.0,
+    "p": -0.35,
+    "mp": -0.71,
+    "mf": -1.06,
+    "f": -1.42,
+    "ff": -1.77,
+    "fff": -2.12
+   },
+   "printed_trim_dB": {
+    "ff": -2,
+    "fff": -2
+   }
+  },
+  "Oboes 12": {
+   "family": "wind",
+   "gain_dB": 6.88,
+   "pan": 0.15,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "dyn_corr_dB": {
+    "pp": -2.52,
+    "p": -2.1,
+    "mp": -1.68,
+    "mf": -1.26,
+    "f": -0.84,
+    "ff": -0.42,
+    "fff": 0.0
+   },
+   "printed_trim_dB": {
+    "ff": -3,
+    "fff": -3
+   }
+  },
+  "Cor anglais": {
+   "family": "wind",
+   "gain_dB": 2.08,
+   "pan": 0.3,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "dyn_corr_dB": {
+    "pp": 0.0,
+    "p": 0.0,
+    "mp": 0.0,
+    "mf": 0.0,
+    "f": 0.0,
+    "ff": -0.0,
+    "fff": -0.0
+   },
+   "staccato_extra_vel": 8
+  },
+  "Clarinets 12": {
+   "family": "wind",
+   "gain_dB": 7.19,
+   "pan": -0.25,
+   "width": 0.5,
+   "src": "S6",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -7.02,
+    "p": -5.85,
+    "mp": -4.68,
+    "mf": -3.51,
+    "f": -2.34,
+    "ff": -1.17,
+    "fff": 0.0
+   },
+   "printed_trim_dB": {
+    "ff": -2,
+    "fff": -2
+   }
+  },
+  "Bass clarinet": {
+   "family": "wind",
+   "gain_dB": 13.75,
+   "pan": -0.35,
+   "width": 0.5,
+   "src": "S6",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -12.0,
+    "p": -10.0,
+    "mp": -8.0,
+    "mf": -6.0,
+    "f": -4.0,
+    "ff": -2.0,
+    "fff": 0.0
+   }
+  },
+  "Bassoons 12": {
+   "family": "wind",
+   "gain_dB": 11.42,
+   "pan": 0.1,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -5.66,
+    "p": -4.72,
+    "mp": -3.77,
+    "mf": -2.83,
+    "f": -1.88,
+    "ff": -0.94,
+    "fff": 0.0
+   }
+  },
+  "Contrabassoon": {
+   "family": "wind",
+   "gain_dB": 21.16,
+   "pan": 0.25,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -12.0,
+    "p": -10.0,
+    "mp": -8.0,
+    "mf": -6.0,
+    "f": -4.0,
+    "ff": -2.0,
+    "fff": 0.0
+   }
+  },
+  "Horns 12": {
+   "family": "brass",
+   "gain_dB": 13.02,
+   "pan": -0.55,
+   "width": 0.5,
+   "src": "S5",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -11.59,
+    "p": -9.66,
+    "mp": -7.72,
+    "mf": -5.79,
+    "f": -3.86,
+    "ff": -1.93,
+    "fff": 0.0
+   },
+   "printed_trim_dB": {
+    "ff": -3,
+    "fff": -3
+   }
+  },
+  "Horns 34": {
+   "family": "brass",
+   "gain_dB": 10.94,
+   "pan": -0.65,
+   "width": 0.5,
+   "src": "S5",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -11.05,
+    "p": -9.2,
+    "mp": -7.36,
+    "mf": -5.52,
+    "f": -3.68,
+    "ff": -1.84,
+    "fff": 0.0
+   }
+  },
+  "Trumpets 12": {
+   "family": "brass",
+   "gain_dB": 6.95,
+   "pan": 0.15,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "dyn_corr_dB": {
+    "pp": 0.0,
+    "p": -0.19,
+    "mp": -0.37,
+    "mf": -0.56,
+    "f": -0.74,
+    "ff": -0.93,
+    "fff": -1.12
+   },
+   "printed_trim_dB": {
+    "f": -2,
+    "ff": -4,
+    "fff": -4
+   }
+  },
+  "Trumpet 3": {
+   "family": "brass",
+   "gain_dB": 9.53,
+   "pan": 0.22,
+   "width": 0.5,
+   "src": "S7",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -1.32,
+    "p": -1.1,
+    "mp": -0.88,
+    "mf": -0.66,
+    "f": -0.44,
+    "ff": -0.22,
+    "fff": 0.0
+   }
+  },
+  "Trombones 12": {
+   "family": "brass",
+   "gain_dB": -5.16,
+   "pan": 0.4,
+   "width": 0.5,
+   "src": "S8",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "dyn_corr_dB": {
+    "pp": -1.6,
+    "p": -1.34,
+    "mp": -1.07,
+    "mf": -0.8,
+    "f": -0.54,
+    "ff": -0.27,
+    "fff": 0.0
+   }
+  },
+  "Bass trombone": {
+   "family": "brass",
+   "gain_dB": 0.28,
+   "pan": 0.48,
+   "width": 0.5,
+   "src": "S8",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -4.78,
+    "p": -3.99,
+    "mp": -3.19,
+    "mf": -2.39,
+    "f": -1.6,
+    "ff": -0.8,
+    "fff": 0.0
+   }
+  },
+  "Tuba": {
+   "family": "brass",
+   "gain_dB": 1.22,
+   "pan": 0.55,
+   "width": 0.5,
+   "src": "S8",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {
+    "pp": -6.22,
+    "p": -5.18,
+    "mp": -4.15,
+    "mf": -3.11,
+    "f": -2.08,
+    "ff": -1.04,
+    "fff": 0.0
+   }
+  },
+  "Timpani": {
+   "family": "timp",
+   "gain_dB": -18.0,
+   "pan": -0.05,
+   "width": 0.4,
+   "src": "S6",
+   "send_dB": -3,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "dyn_corr_dB": {
+    "pp": 0.0,
+    "p": 0.0,
+    "mp": 0.0,
+    "mf": 0.0,
+    "f": 0.0,
+    "ff": -0.0,
+    "fff": -0.0
+   },
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": 0.0,
+    "tail_s": 5.0,
+    "_doc": "VPO timpani: channel 0 single strokes (No Budget Orchestra hits), channel 1 rolls (recorded roll samples; r03: chained random segments of the loop region with 0.25 s equal-power crossfades and +-1 dB slow drift instead of one repeated loop; the release-triggered closing stroke plays at note-off)",
+    "channels": {
+     "0": {
+      "file": "../assets/vpo3/Percussion/timpani-hit.sfz"
+     },
+     "1": {
+      "file": "../assets/vpo3/Percussion/timpani-roll.sfz",
+      "env": [
+       [
+        null,
+        {
+         "loop_crossfade": 0.15,
+         "release": 0.8,
+         "loop_random": {
+          "seg_s": [
+           0.9,
+           1.8
+          ],
+          "xf_s": 0.25,
+          "drift_dB": 1.0,
+          "drift_s": 1.5
+         }
+        }
+       ]
+      ],
+      "trim_dB": 6.0
+     }
+    }
+   }
+  },
+  "drums": {
+   "family": "perc",
+   "engine": "sfz",
+   "gain_dB": -17.0,
+   "pan": 0.05,
+   "width": 0.6,
+   "src": "S7",
+   "send_dB": -3,
+   "sfz": {
+    "tail_s": 32.0,
+    "channels": {
+     "9": {
+      "file": "sfz/perc-r02.sfz"
+     }
+    }
+   }
+  },
+  "Harp RH": {
+   "family": "harp",
+   "gain_dB": -1.0,
+   "pan": -0.75,
+   "width": 0.5,
+   "src": "S1",
+   "send_dB": -5,
+   "dyn_scale": 1.0
+  },
+  "Harp LH": {
+   "family": "harp",
+   "gain_dB": 1.73,
+   "pan": -0.75,
+   "width": 0.5,
+   "src": "S1",
+   "send_dB": -5,
+   "dyn_scale": 1.0,
+   "dyn_corr_dB": {}
+  },
+  "Violins I": {
+   "family": "string",
+   "gain_dB": 0.0,
+   "pan": -0.75,
+   "width": 0.35,
+   "src": "S1",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -12.9,
+    "tail_s": 4.0,
+    "_doc": "trims from r02 calibration (velocity 74, keys across the range): staccato peak = short sustain peak, accent peak = +2 dB, pizz peak = -2 dB, tremolo level = sustain level",
+    "channels": {
+     "0": {
+      "file": "../assets/vpo3/Strings/1st-violin-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.015,
+         "skip_db": -4,
+         "release": 0.2
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.03,
+         "skip_db": -8,
+         "release": 0.3
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.08,
+         "skip_db": -14,
+         "release": 0.45
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "../assets/vpo3/Strings/1st-violin-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.03,
+         "skip_db": -6,
+         "release": 0.35
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.06,
+         "skip_db": -10,
+         "release": 0.5
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.15,
+         "skip_db": -16,
+         "release": 0.7
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "../assets/vpo3/Strings/1st-violin-SEC-accent.sfz",
+      "trim_dB": -4.2,
+      "env": [
+       [
+        null,
+        {
+         "release": 0.4
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "../assets/vpo3/Strings/1st-violin-SEC-staccato.sfz",
+      "trim_dB": -7.8
+     },
+     "2": {
+      "file": "../assets/vpo3/Strings/1st-violin-SEC-pizzicato.sfz",
+      "trim_dB": -6.4
+     },
+     "1": {
+      "file": "../assets/vpo3/Strings/1st-violin-SEC-tremolo.sfz",
+      "trim_dB": -1.2
+     }
+    }
+   },
+   "tone": {
+    "shelf_Hz": 4500,
+    "shelf_dB": -7
+   },
+   "air": {
+    "Hz": 9000,
+    "dB": -14.0
+   }
+  },
+  "Violins II": {
+   "family": "string",
+   "gain_dB": 2.06,
+   "pan": -0.4,
+   "width": 0.35,
+   "src": "S2",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -12.9,
+    "tail_s": 4.0,
+    "_doc": "trims from r02 calibration (velocity 74, keys across the range): staccato peak = short sustain peak, accent peak = +2 dB, pizz peak = -2 dB, tremolo level = sustain level",
+    "channels": {
+     "0": {
+      "file": "../assets/vpo3/Strings/2nd-violin-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.015,
+         "skip_db": -4,
+         "release": 0.2
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.03,
+         "skip_db": -8,
+         "release": 0.3
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.08,
+         "skip_db": -14,
+         "release": 0.45
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "../assets/vpo3/Strings/2nd-violin-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.03,
+         "skip_db": -6,
+         "release": 0.35
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.06,
+         "skip_db": -10,
+         "release": 0.5
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.15,
+         "skip_db": -16,
+         "release": 0.7
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "../assets/vpo3/Strings/2nd-violin-SEC-accent.sfz",
+      "trim_dB": -3.7,
+      "env": [
+       [
+        null,
+        {
+         "release": 0.4
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "../assets/vpo3/Strings/2nd-violin-SEC-staccato.sfz",
+      "trim_dB": -9.7
+     },
+     "2": {
+      "file": "../assets/vpo3/Strings/2nd-violin-SEC-pizzicato.sfz",
+      "trim_dB": -7.5
+     },
+     "1": {
+      "file": "../assets/vpo3/Strings/2nd-violin-SEC-tremolo.sfz",
+      "trim_dB": -1.4
+     }
+    }
+   },
+   "tone": {
+    "shelf_Hz": 4500,
+    "shelf_dB": -4
+   },
+   "dyn_corr_dB": {
+    "pp": -2.27,
+    "p": -1.89,
+    "mp": -1.51,
+    "mf": -1.14,
+    "f": -0.76,
+    "ff": -0.38,
+    "fff": 0.0
+   },
+   "air": {
+    "Hz": 9000,
+    "dB": -14.0
+   }
+  },
+  "Violas": {
+   "family": "string",
+   "gain_dB": 11.65,
+   "pan": 0.25,
+   "width": 0.35,
+   "src": "S3",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -12.9,
+    "tail_s": 4.0,
+    "_doc": "trims from r02 calibration (velocity 74, keys across the range): staccato peak = short sustain peak, accent peak = +2 dB, pizz peak = -2 dB, tremolo level = sustain level",
+    "channels": {
+     "0": {
+      "file": "../assets/vpo3/Strings/viola-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.015,
+         "skip_db": -4,
+         "release": 0.2
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.03,
+         "skip_db": -8,
+         "release": 0.3
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.08,
+         "skip_db": -14,
+         "release": 0.45
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "../assets/vpo3/Strings/viola-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.03,
+         "skip_db": -6,
+         "release": 0.35
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.06,
+         "skip_db": -10,
+         "release": 0.5
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.15,
+         "skip_db": -16,
+         "release": 0.7
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "../assets/vpo3/Strings/viola-SEC-accent.sfz",
+      "trim_dB": -1.5,
+      "env": [
+       [
+        null,
+        {
+         "release": 0.4
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "../assets/vpo3/Strings/viola-SEC-staccato.sfz",
+      "trim_dB": -2.6
+     },
+     "2": {
+      "file": "../assets/vpo3/Strings/viola-SEC-pizzicato.sfz",
+      "trim_dB": -2.5
+     },
+     "1": {
+      "file": "../assets/vpo3/Strings/viola-SEC-tremolo.sfz",
+      "trim_dB": 1.5
+     }
+    }
+   },
+   "tone": {
+    "shelf_Hz": 4500,
+    "shelf_dB": -5
+   },
+   "dyn_corr_dB": {
+    "pp": -12.0,
+    "p": -10.0,
+    "mp": -8.0,
+    "mf": -6.0,
+    "f": -4.0,
+    "ff": -2.0,
+    "fff": 0.0
+   },
+   "air": {
+    "Hz": 9000,
+    "dB": -14.0
+   }
+  },
+  "Violoncellos": {
+   "family": "string",
+   "gain_dB": 3.73,
+   "pan": 0.55,
+   "width": 0.35,
+   "src": "S4",
+   "send_dB": -7,
+   "dyn_scale": 1.0,
+   "accent_extra_vel": 8,
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -12.9,
+    "tail_s": 4.0,
+    "_doc": "trims from r02 calibration (velocity 74, keys across the range): staccato peak = short sustain peak, accent peak = +2 dB, pizz peak = -2 dB, tremolo level = sustain level",
+    "channels": {
+     "0": {
+      "file": "../assets/vpo3/Strings/cello-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.015,
+         "skip_db": -4,
+         "release": 0.2
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.03,
+         "skip_db": -8,
+         "release": 0.3
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.08,
+         "skip_db": -14,
+         "release": 0.45
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "../assets/vpo3/Strings/cello-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.03,
+         "skip_db": -6,
+         "release": 0.35
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.06,
+         "skip_db": -10,
+         "release": 0.5
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.15,
+         "skip_db": -16,
+         "release": 0.7
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "../assets/vpo3/Strings/cello-SEC-accent.sfz",
+      "trim_dB": -0.8,
+      "env": [
+       [
+        null,
+        {
+         "release": 0.4
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "../assets/vpo3/Strings/cello-SEC-staccato.sfz",
+      "trim_dB": -3.3
+     },
+     "2": {
+      "file": "../assets/vpo3/Strings/cello-SEC-pizzicato.sfz",
+      "trim_dB": -0.6
+     },
+     "1": {
+      "file": "../assets/vpo3/Strings/cello-SEC-tremolo.sfz",
+      "trim_dB": -0.4
+     }
+    }
+   },
+   "tone": {
+    "shelf_Hz": 4500,
+    "shelf_dB": -3,
+    "low_shelf_Hz": 150,
+    "low_shelf_dB": 3.0
+   },
+   "dyn_corr_dB": {
+    "pp": -12.0,
+    "p": -10.0,
+    "mp": -8.0,
+    "mf": -6.0,
+    "f": -4.0,
+    "ff": -2.0,
+    "fff": 0.0
+   },
+   "air": {
+    "Hz": 9000,
+    "dB": -14.0
+   }
+  },
+  "Double basses": {
+   "family": "string",
+   "gain_dB": 7.12,
+   "pan": 0.7,
+   "width": 0.35,
+   "src": "S8",
+   "send_dB": -6,
+   "dyn_scale": 1.0,
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -12.9,
+    "tail_s": 4.0,
+    "_doc": "trims from r02 calibration (velocity 74, keys across the range): staccato peak = short sustain peak, accent peak = +2 dB, pizz peak = -2 dB, tremolo level = sustain level",
+    "channels": {
+     "0": {
+      "file": "../assets/vpo3/Strings/bass-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.015,
+         "skip_db": -4,
+         "release": 0.2
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.03,
+         "skip_db": -8,
+         "release": 0.3
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.08,
+         "skip_db": -14,
+         "release": 0.45
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "../assets/vpo3/Strings/bass-SEC-sustain.sfz",
+      "env": [
+       [
+        0.35,
+        {
+         "attack": 0.03,
+         "skip_db": -6,
+         "release": 0.35
+        }
+       ],
+       [
+        0.8,
+        {
+         "attack": 0.06,
+         "skip_db": -10,
+         "release": 0.5
+        }
+       ],
+       [
+        null,
+        {
+         "attack": 0.15,
+         "skip_db": -16,
+         "release": 0.7
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "../assets/vpo3/Strings/bass-SEC-accent.sfz",
+      "trim_dB": -0.5,
+      "env": [
+       [
+        null,
+        {
+         "release": 0.4
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "../assets/vpo3/Strings/bass-SEC-staccato.sfz",
+      "trim_dB": -1.0
+     },
+     "2": {
+      "file": "../assets/vpo3/Strings/bass-SEC-pizzicato.sfz",
+      "trim_dB": -7.6
+     },
+     "1": {
+      "file": "../assets/vpo3/Strings/bass-SEC-tremolo.sfz",
+      "trim_dB": 1.8
+     }
+    }
+   },
+   "tone": {
+    "shelf_Hz": 4500,
+    "shelf_dB": 0,
+    "low_shelf_Hz": 100,
+    "low_shelf_dB": 6.0
+   },
+   "dyn_corr_dB": {
+    "pp": -12.0,
+    "p": -10.0,
+    "mp": -8.0,
+    "mf": -6.0,
+    "f": -4.0,
+    "ff": -2.0,
+    "fff": 0.0
+   },
+   "air": {
+    "Hz": 9000,
+    "dB": -14.0
+   },
+   "printed_trim_dB": {
+    "ff": -2,
+    "fff": -2
+   }
+  }
+ },
+ "program_sfcal_LUFS_vel64": {
+  "41": -29.0,
+  "42": -30.2,
+  "43": -31.3,
+  "44": -32.4,
+  "45": -42.9,
+  "48": -31.5
+ },
+ "_doc_dyn_scale": "dyn_scale multiplies dynamics.extra_dB_points for that stem (more dB per printed step for brass and low strings, whose samples change little with velocity)",
+ "melodies": {
+  "_doc": "r03: marked melodies are derived from the score's text marks (lib/marks.py): every text script matching pattern; phrase = from the bar of the staff's first note at/after the mark while the staff has notes in consecutive bars, at most max_bars. No bar numbers.",
+  "pattern": "espr|dolce|cantabile|solo",
+  "max_bars": 8
+ },
+ "percussion": {
+  "_doc": "printed DrumStaff events read by perc.py from the LilyPond source of the score being rendered (render.py --score); keys of sfz/perc-r02.sfz; l.v. notes held lv_s seconds; a crescendo roll uses the crescendo sample whose peak time is nearest the printed roll length",
+  "keys": {
+   "tt": 50,
+   "cymc": 49,
+   "cymr": 53
+  },
+  "lv": [
+   "tt",
+   "cymc",
+   "cymr"
+  ],
+  "lv_s": 30.0,
+  "cresc_keys": {
+   "cymr": [
+    [
+     53,
+     1.52
+    ],
+    [
+     54,
+     3.55
+    ],
+    [
+     55,
+     7.18
+    ]
+   ]
+  },
+  "cresc_velocity": 100
+ },
+ "balance_targets_dB": {
+  "_doc": "target stem level relative to Violins I at the same printed dynamic (stems.py level while sounding); used by the calibration in NOTES.md section 3",
+  "Violins II": -1,
+  "Violas": -2,
+  "Violoncellos": -1.5,
+  "Double basses": -2.5,
+  "Flutes 12": -2.5,
+  "Oboes 12": -2.5,
+  "Cor anglais": -2.5,
+  "Clarinets 12": -2.5,
+  "Bass clarinet": -3.5,
+  "Bassoons 12": -3,
+  "Contrabassoon": -5,
+  "Horns 12": -1,
+  "Horns 34": -1.5,
+  "Trumpets 12": 1,
+  "Trumpet 3": -0.5,
+  "Trombones 12": 1,
+  "Bass trombone": 0,
+  "Tuba": -1,
+  "Timpani": -4
+ },
+ "balance": {
+  "_doc": "r03 mix-stage balance (lib/balance.py), measured on the placed stems: melodies at least margin_dB over the loudest other stem (lift at most lift_max_dB, the rest as cuts on the competing stems, at most duck_max_dB), melody at least sum_margin_dB against the power sum of the others; timpani in rolls longer than a bar at least roll_margin_dB under the loudest other stem",
+  "enabled": true,
+  "margin_dB": 1.0,
+  "lift_max_dB": 3.0,
+  "duck_max_dB": 8.0,
+  "sum_margin_dB": -5.0,
+  "passes": 4,
+  "roll_margin_dB": 3.0,
+  "roll_duck_max_dB": 15.0,
+  "smooth_s": 0.4,
+  "mel_margin_dB": 0.0,
+  "mel_duck_max_dB": 4.0
+ },
+ "_doc_printed_trim": "r03: stems.<staff>.printed_trim_dB: dB added to the CC11 curve while the PRINTED dynamic (notes.csv) is the given one. dyn_corr_dB (r02) is keyed on the velocity-equivalent of the MIDI velocity, which LilyPond scales per instrument (oboes ff = velocity 64), so its ff entries never reach most wind staves. Values: at ff these stems measured 3-8 dB above their balance target against Violins I in both movements (r03 meas, stemcmp)."
+}

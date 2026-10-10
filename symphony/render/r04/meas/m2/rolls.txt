@@ -1,0 +1,5 @@
+r04-m2: roll bars | dyn | hairpin | len s | timpani minus loudest other per bar (dB) | start / end level, change dB | mod peak Hz (prominence dB) | env autocorr max 0.05-0.5 s (lag) | 1.5-6 s (lag)
+2-3 | ppp | - | 6.9 | 2:-2.4 3:-4.4 | -45.2 / -46.6, -1.4 | 30.5 (7.8) | 0.16 (0.20) | loop 0.20 (3.33)
+67-70 | ppp | - | 12.7 | 67:-5.5 68:-9.3 69:-7.3 70:-8.8 | -42.6 / -49.8, -7.2 | 24.2 (11.7) | 0.27 (0.17) | loop 0.17 (2.20)
+89-92 | ppp | - | 18.7 | 89:-4.4 90:-4.8 91:-5.0 92:-4.5 | -44.5 / -49.1, -4.6 | 30.5 (9.0) | 0.16 (0.20) | loop 0.10 (3.06)
+r04-m2: bars where timpani is the loudest stem: 0 of 10

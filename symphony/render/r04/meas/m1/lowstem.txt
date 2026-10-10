@@ -1,0 +1,9 @@
+/tmp/render-04-m1/stems mix <100 Hz share -9.6 dB
+  Double_basses   <100 Hz -11.9 dB, 40-80 Hz -16.6 dB, 100-250 -12.2 dB (re mix total); stem share of its own energy <100 Hz -3.1 dB
+  Timpani         <100 Hz -15.4 dB, 40-80 Hz -34.3 dB, 100-250 -15.3 dB (re mix total); stem share of its own energy <100 Hz -3.7 dB
+  Tuba            <100 Hz -20.4 dB, 40-80 Hz -28.5 dB, 100-250 -18.9 dB (re mix total); stem share of its own energy <100 Hz -4.8 dB
+  Bass_clarinet   <100 Hz -24.6 dB, 40-80 Hz -34.1 dB, 100-250 -25.9 dB (re mix total); stem share of its own energy <100 Hz -9.2 dB
+  Violoncellos    <100 Hz -26.4 dB, 40-80 Hz -43.0 dB, 100-250 -18.7 dB (re mix total); stem share of its own energy <100 Hz -14.5 dB
+  Contrabassoon   <100 Hz -32.5 dB, 40-80 Hz -34.8 dB, 100-250 -24.7 dB (re mix total); stem share of its own energy <100 Hz -17.8 dB
+  Violas          <100 Hz -37.0 dB, 40-80 Hz -73.9 dB, 100-250 -27.7 dB (re mix total); stem share of its own energy <100 Hz -26.4 dB
+  Bassoons_12     <100 Hz -39.0 dB, 40-80 Hz -44.1 dB, 100-250 -26.3 dB (re mix total); stem share of its own energy <100 Hz -25.8 dB

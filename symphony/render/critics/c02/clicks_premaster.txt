@@ -1,0 +1,2 @@
+c02-m1_prem.wav isolated HF spikes (>15 dB over 41 ms median, back within 4 ms): 5 [np.float64(284.289), np.float64(286.146), np.float64(288.003), np.float64(291.716), np.float64(293.573)] max jump 28 dB
+c02-m2_prem.wav isolated HF spikes (>15 dB over 41 ms median, back within 4 ms): 2 [np.float64(104.44), np.float64(104.517)] max jump 15 dB

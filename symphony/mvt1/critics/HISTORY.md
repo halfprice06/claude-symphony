@@ -465,3 +465,361 @@ Verdict: no first-rank musical weakness left that can be fixed without reopening
 ## Cycle 100 → v120 (cyclic + release check) — end of the series
 No musical change. Release check passed; breaks before 23, 31, 39; cyclic-notes.md updated with v120 bar numbers.
 v120 is the final movement I of the 100-cycle series (2026-10-09).
+
+# Second series (cycles 101–200, v121–v220): critics must cite Dan's reference books (BRIEF research item 3)
+
+## Cycle 101 → v121 (melody: rising-sixth density)
+Accepted: pickup G (not A♭) at 29, 139, 169; Vln I octave leap at 19; semitone head at 38.
+Rule: the rising sixth stays in theme heads, the motto, the ladder 117–120 and the climax 156–160; elsewhere prefer other intervals. Movements II and III open new themes with a different interval.
+Do-not-touch: first-theme head 15–16 and second-theme head in all statements; motto; ladder 117–120; climax sequence 156–160.
+
+## Cycle 102 → v122 (harmony: codetta and inner fifths)
+Accepted: codetta 69–72 on bass A♭–E♮–F–D♭–E♭–A♭ (V6/5 of vi, ii6/5); inner-voice fifths removed at 24–25, 45–47, 52; Cb A♭ at 34.
+Open: clarinet arpeggio fifths 97–99 (protected B-minor block; fix in c102).
+Do-not-touch: chromatic tutti bass 27–32; Ger6–V at 12–13; iv–N6–i6/4–V at 172–174; G pedal 117–130; climax harmony 158–166.
+
+## Cycle 103 → v123 (form: codetta cadence)
+Accepted: codetta 69–71 now I–I6 | ii7–vii°7/V | V7 (replaces cycle 102's V6/5 of vi; no third arrival on F minor after the deceptive cadence at 68).
+Closed: the first-theme counterstatement option from cycle 69 (not needed).
+Do-not-touch: codetta bass A♭–C–B♭–D♮–E♭ (do not tonicize vi again here); recap climax 147–160; 122–131 spans; key plan; saved colours; no trombone rhyme at 73–76.
+
+## Cycle 104 → v124 (orchestration: fill the octave under the top line)
+Accepted: Cl 1 counterline up an octave at 158–162; Fl 2 fills at 31 and 140.
+Open: Cl 2 on the tenor line at 27–32; gap at 72 and other bars listed in c104.
+Do-not-touch: 117–122, 96, 131–134; soft scoring 47–55, 73–76, 147–155, 175–182.
+
+## Cycle 105 → v125 (engraving)
+Accepted: no 8va at 139–141 (Vln I); Hn 1 mp at 154; system break 163 instead of 167; bar-55 text alignment; bold "3." at 180.
+Do-not-touch: K page break and 17 pages; part-combine modes; marks above Fl and Vln I; bar numbers under the basses; 8va at 31, 71–72, 121–123.
+
+## Cycle 106 → v126 (playability)
+Accepted: no 8va for Fl 1 at 98–100.
+For parts (when built): Vln I ottavas score-only; viola/cello part breaks after 33 and 103; harp pedal letters score-only.
+Do-not-touch: Cl 1 counterline 158–162; codetta scoring 69–72; low horns 23–26; brass load plan; harp 147–166.
+
+# From cycle 107: each critic has an assigned reading (critics/READING.md) and bases its findings on it (Dan, 2026-10-09).
+
+## Cycle 107 → v127 (texture; Adler ch. 5)
+Accepted: fugato countersubject bar 2 rhythmically independent (89, 92, 95); Vln II rests 171–174; Vln I rests 147–154 (Vln II div. tremolo).
+Do-not-touch: fugato subject, entries and countersubject bars 1 and 3 (85–96); cello/harp accompaniment 56–68; theme combination 103–110; cello/CA duet 171–174.
+
+## Cycle 108 → v128 (expression; Rimsky-Korsakov ch. IV)
+Accepted: trumpets enter at 113 not 111; sf-dim under the horn call 41–42; brass out of the p chord at 43; all f at 138; horns/bassoons mp< at 156.
+Do-not-touch: slurred runs into 33 and 41; brass-first fade 162–166; sparing percussion (tam-tam 122, 175; cymbal roll into 160); ppp opening and close.
+
+## Cycle 109 → v129 (holistic; Rimsky-Korsakov examples 1–60)
+Accepted: Fl 1 rests at 107–108, enters 109 espr. mp.
+Verdict: melody scoring at master level; nothing worse since v119.
+Do-not-touch: horn + cello 47–55; violins 56–63; horn call 41–42; solo-wind accompaniments; climax 158–161 with the clarinet counterline.
+
+## Cycle 110 → v130 (cyclic; Aldwell & Schachter Unit 32)
+No musical change; comment fix only. cyclic-notes.md updated with changes from cycles 101–109 and critic 110's plans for II and III.
+Do-not-touch: 77–82 key plan; key arrivals 97, 103, 111 and A♭ over G at 122; bass 111–116; bars 12 and 75 (same chord spelled Ger6 / V7 of D♭); E♭/E♮ inflections 8–9, 145–147, 166, 181–182; bar 182 (C5 on top, viola's lone E♮).
+
+## Cycle 111 → v131 (melody; Aldwell & Schachter Unit 20)
+Accepted: B♭♭ spelling at 60 (Vln I, II).
+Closed: fifths at 97–99 (acceptable figuration); octaves at 72.
+Do-not-touch: second-theme appoggiaturas 50, 59, 101; chromatic spellings 15, 35–40, 58, 78; motto C–D♭–C at 3–4 and 177–178.
+
+## Cycle 112 → v132 (harmony; Aldwell & Schachter Unit 5)
+Accepted: bass F♭ through bar 61; chorale revoiced at 6; Hn 3 at 22; Vla at 173; Cl 1/Hn 2 at 66.
+Do-not-touch: orchestral octave doublings at 12–13 and 161–162 (allowed, PDF 84–85).
+
+## Cycle 113 → v133 (form; Aldwell & Schachter Unit 14)
+No change.
+Open: the development establishes no key for more than ~6 bars (c113 F1); consider a held key area (12–20 bars with a cadence) at cycle 123, which would add development bars and needs a strong case.
+Do-not-touch: 5–6 shift at 77–78; swerve B minor → D minor at 102→103; codetta cadence 69–72; A♭7 at 75.
+
+## Cycle 114 → v134 (orchestration; Rimsky-Korsakov ch. I, III)
+Accepted: brass sf > mf under the horn call 41–42 (replaces cycle 98's brass f); oboes in octaves 41–43; horn pad fixes 57, 65; Vln II metà 47–54.
+Do-not-touch: horn + cello second theme 47–55; violins' tune 56–63; wind pad at 145; stop chords 26, 138, 170.
+
+## Cycle 115 → v135 (engraving; Gould ch. 1)
+Accepted: Vc clef before the pickup at 46 and 146; Hn 3·4 treble at end of 14; one-line cymbal/tam-tam staff; violas stay in alto at 109–110.
+Do-not-touch: cello clef plan 47–56; horn bass-clef passages 23–26, 103–106, 162–166.
+
+## Cycle 116 → v136 (playability; Adler ch. 2)
+Accepted: shorter string bows at 3–4, 155–157, 177–182; Cb rest before pizz. at 84; viola div./unis. 56–69; down-bows on the theme head.
+Do-not-touch: notes and dynamics of the coda 171–182; separate string bows 158–160; div./metà scheme 47–55 and 147–155.
+
+## Cycle 117 → v137 (texture; Adler ch. 15)
+Accepted: cellos on the second-theme head 103–106; layered dynamics f→fff at 117–122; violas and Hn 3·4 pp at 56–59.
+Do-not-touch: codetta 69–72; B-minor block 97–102; fugato entry colours 85–96; stretto with timpani roll 126–130.
+
+## Cycle 118 → v138 (expression; Adler ch. 2 bowing)
+Accepted: down-bow entries at 19 and 139; hooked up-bows before the accented A♭ (16, 28, 132, 168); down-bow hammer strokes 32, 72, 83, 142; mf at 60.
+Do-not-touch: D♭6 peaks at 20 and 63 and sub. p at 62; separate bows and down-bows 158–160; the head's slurs and accents; sul tasto 147 / ord. 155; coda 171–182.
+
+## Cycle 119 → v139 (holistic; Rimsky-Korsakov examples 61–125)
+Accepted: Ob 2 rests 23–25, 135–137; Hn 4 B♭3 at 63, 67; bass trombone F♯3 at 101–102.
+Verdict: orchestration at master level against Tchaikovsky 6/i; nothing worse since v128.
+
+## Cycle 120 → v140 (cyclic; Aldwell & Schachter Unit 26)
+Accepted: Hn 2 F4 at 130 (seventh over the G pedal into the reprise).
+Do-not-touch: key plan incl. the A♭ upper neighbour at 122; route 36–47; 156–166; stretto 126–130; the coda's stepwise close with unresolved B♮s.
+
+## Cycle 121 → v141 (melody; Rimsky-Korsakov ch. II)
+Accepted: Vln II doubles the D♭6 peak an octave below at 20–21.
+Do-not-touch: string layout 27–32; violins 56–63; violas and cellos 147–155; motto 1–4 and 175–178.
+
+## Cycle 122 → v142 (harmony; Aldwell & Schachter Units 9–10)
+Accepted: suspensions not doubled by their resolution at 32, 141–142 and 54; complete cadential 6/4 at 13–14; strings with the bassoon at 144.
+Open: 6/4 after V7 at 101–102 (c122 F5, sketch in report).
+
+## Cycle 123 → v143 (form; Aldwell & Schachter Units 16, 19)
+No change. Closed: held key area in the development (c113) — not added; 6/4 at 101–102 (c122) — correct as a neighbouring 6/4.
+Do-not-touch: development bass plan C–A♭–F–G–C; 6/4s on the G pedal 117–130; ♭VI neighbour thread 82→83, 122, 159→160.
+
+## Cycle 124 → v144 (orchestration; Rimsky-Korsakov ch. III brass)
+Accepted: Cl 2 up an octave 158–161; Ob 2 D5 at 122–123; Hn 4 F3 at 39–40; Hn 4 D at 164.
+Open (optional): Cl 2 B♭3 inside the horns at 41–42.
+Do-not-touch: brass doublings and dynamic grading at 12, 27–32, 82, 140, 167–170; Hn 3·4 octave pedal 117–121; horns with cellos/violas 47–55, 147–155; pp trombone chorale 175–179.
+
+## Cycle 125 → v145 (engraving; Gould beams)
+Accepted: soloStemsOn/Off helpers for shared-staff solos at 33–40 and 77–78; \partCombineApart 139–142; harp beam damping 47–63.
+Open: up-stems on flutes a2 158–162 and Bn 1 88–90 (c125 F2–F3).
+Do-not-touch: beaming and metric grouping in strings and winds; cello clef plan at 46/146/157; no triplet numbers at 117–121.
+
+## Cycle 126 → v146 (playability; Adler ch. 3 strings)
+Accepted: "change bow at will" Cb 117, 179; up-bows before pizz. at Cb 46, Vc 61; Vln II "div."/"unis." at 55.
+Do-not-touch: string ranges; divisi and clef scheme; Cb sustain under Vc arpeggios 56–64, 158–166; coda notes and dynamics 171–182.
+
+## Cycle 127 → v147 (texture; Adler ch. 17 accompaniment)
+Accepted: viola E♭3 at 77; viola `c'2 aes2` at 173 (replaces cycle 112's F4).
+Do-not-touch: accompaniment design of 15–22, 47–68, 147–155; fugato entry colours 85–96; cello/cor anglais duet pitches 171–174.
+
+## Cycle 128 → v148 (expression; Adler brass climaxes and sforzando)
+Accepted: brass short sf eighth at 41 (replaces cycle 114); Hn 1·2, Tbn 1, B.Tbn f from 98.
+Open: "sub. mf" at 135 (needs a MIDI volume rule for the markup).
+Rule: the brass scoring under the horn call at 41–42 has now been changed in cycles 84, 98, 114 and 128. Do not change it again without listening evidence or a new source.
+
+## Cycle 129 → v149 (holistic; Rimsky-Korsakov examples 125–206; Dvořák 8/i)
+Accepted: low brass rest 135–137 (closes "sub. mf at 135"); bass clarinet takes the solo at 77–78; composer added "attacca" at the end.
+Bar 41's short brass sf is now supported by two sources (Adler Ex. XV-35, Rimsky Ex. 165); the cycle-128 rule stands.
+Do-not-touch: "attacca" at the end (movement II begins on movement I's last chord).
+
+## Cycle 130 → v150 (cyclic; Casanelles ch. 5)
+Accepted: thin double barline at the end; ties out of 182 in Vln I, Vln II, Vla, Vc, Hn 3.
+Do-not-touch: coda 167–182 (notes, dynamics, fermatas, tempo); spacing of 182 with the viola's lone E♮; tam-tam only at 122 and 175; low motto 1–4 returning 175–179; "attacca", "||" and the outgoing ties.
+
+## Cycle 131 → v151 (melody; Rimsky-Korsakov ch. II winds and brass)
+Accepted: Hn 2 (not Tpt 1) on the chromatic counterline 56–68; Cl a2 and Fl a2 at 69–72; Fl a2 at 115–116.
+Do-not-touch: horn + cello 47–55, horn + viola 147–155; Fl/Ob + Vln I at 97–102; solo-wind statements; four-horn call 41–42; theme pitches.
+
+## Cycle 132 → v152 (harmony; Aldwell & Schachter Units 11–13)
+Accepted: Vla C→B at 11 (seventh chord, not bare diminished triad); Hn 4 C at 82 (no augmented second); Vc A♭ held at 46 (II6/5).
+Open: IV6 for VI at the deceptive cadence 68 (c132 F4).
+Closed: second-theme chain I–IV–ii–V (cycle 22).
+Do-not-touch: deceptive cadences 159–162; codetta 69–72; plagal coda 167–170, 178–182; 172–174 iv7–ii6/5–N6–cad. 6/4.
+
+## Cycle 133 → v153 (form; Aldwell & Schachter Unit 31)
+No change. Do-not-touch: bass 77–82 with E♭–E♮–E♭ (Vln II) and C♭→B (Vla); fugato entries; key arrivals 97, 103, 111, 122; 108→109 join; wedge 111–116 (no A♭ in the bass before 122); alternating chords over the G pedal 117–121.
+
+## Cycle 134 → v154 (orchestration; Rimsky-Korsakov tutti chords)
+Accepted: full strings with multiple stops at 33; Cb pizz. under the winds 103–106 (closes cycle 79's point); timpani G at 26; B.tbn G at 122–123.
+Do-not-touch: tutti layouts 27–32, 83, 138, 158–161; low arrival at 97; stop chords and silences at 26, 138, 170.
+
+## Cycle 135 → v155 (engraving; Gould ledger lines, octave signs, rests)
+Accepted: no 8va for Vln I at 40–43; rest positions at 157, 161, 162.
+Closed: cycle 125's up-stem items (stems already down).
+Do-not-touch: 8va layout at 31, 71–72, 121–123; part-combine modes and soloStemsOn/Off; fixed breaks and 17 pages; one-line percussion stave.
+
+## Cycle 136 → v156 (playability; Adler ch. 4 harp)
+Accepted: harp RH at 59–60 avoids the pedal change on a ringing string; étouffez at 62; pedal marks at 53 and 57 beat 3; harp mp at 164.
+Do-not-touch: harp notes and voicings 47–55, 147–166; pedal diagrams at 47, 155; étouffez marks 163–164; harp tacets.
+
+## Cycle 137 → v157 (texture; Adler ch. 16)
+Accepted: Vc bass octave at 35–36 (Bsn 1 solo ends alone); flutes join the Vln I run at 68.
+Open (relay from movement II, its cycle 30): Hn 3 holds C4 ppp for about 18 s at 180–182 with the fermata and on across the attacca; consider a relief by Hn 4 or a breath inside movement I (playability lens, cycle 146, or earlier).
+
+## Cycle 138 → v158 (expression; Casanelles ch. 4, 6)
+Accepted: Bsn 1 solo slurred at 34–36.
+
+## Cycle 139 → v159 (holistic; Rimsky-Korsakov examples 206–274; Tchaikovsky Violin Concerto/i)
+Accepted: Vln II double stop at 33; Hn 4 half note at 28 and 132.
+Do-not-touch: tutti layouts 27–32, 131–134, 167–170; Vla/Vc triple stops at 33; crescendo and diminuendo entry orders; G pedal 117–130; fugato; B-minor block 97–102.
+
+## Cycle 140 → v160 (cyclic; Adler ch. 1, 15)
+Accepted: Tbn 1 overlaps the C into 180–181; Hn 3 enters at 181 with Hn 4 (closes the movement II relay's open item).
+Do-not-touch: chorale 175–179 notes and slurs; Vln I last motto 177–182; viola E♭→E♮ at 181–182; the five outgoing ties, "attacca", "||"; harp l.v. final chord; Cl 1 at 175–177; at-pitch bass tripling 175–179.
+
+## Cycle 141 → v161 (melody; Adler ch. 3 string colour)
+Accepted: Vln I·II sul A 57–59; Vln II sul G 98–102.
+Do-not-touch: cello + horn 47–55; violas + flute 107–110; E-string climax 156–161.
+
+## Cycle 142 → v162 (harmony; Aldwell & Schachter Unit 17 sequences)
+Accepted: bar 93 prepares B♭ minor (Vla, Bsn 1, Vc on F); viola D♭→D at 35.
+Do-not-touch: fugato subject and entry order 85–96; wedge 111–116; G pedal and rising figure 117–130; codetta 69–72; falling-thirds approach 64–68.
+
+## Cycle 143 → v163 (form and pacing; Rimsky-Korsakov ch. IV)
+Accepted: timpani rest 135–137; wedge brass enter p at 113–114.
+Do-not-touch: crescendo entry orders 9–12, 19–26, 85–97, 110–117; diminuendo exit orders 102→107, 123–127, 162–166; G-pedal timpani roll 117–130; trumpet fff at 122 and ff at 158.
+
+## Cycle 144 → v164 (orchestration; Adler ch. 15 unison tutti, foreground and background)
+Accepted: Tbn 1·2 f (not ff) at 131; Fl 2 rests 23–25 and 135–137 and enters on the stop chord.
+Do-not-touch: brass grading 27–32, 139, 167; trumpets' timpani rhythm 27–30; low brass and timpani entering on the stop chords 26/138; Fl 1 alone at the top 97–100; octave layouts 82, 158–161; pp trombone/B.cl/Vc unison 175–179.
+
+## Cycle 145 → v165 (engraving; Gould spacing, chords, unisons)
+Accepted: spacing section 73–76; note-column shifts at 70, 126, 134, 140, 158.
+Open: Fl 2 dot at 119; Hn 1 half rests without ledger line at 43, 102.
+Open (relay from movement II, its cycle 40): the harp's l.v. on the final chord at 182 rings into movement II's bar 2 (A♭ bass); movement II damps it with "étouffez" at its bar 2. Decide at cycle 150 (cyclic) whether movement I should drop the l.v. (protected by cycle 140).
+
+## Cycle 146 → v166 (playability; Adler ch. 6–7 woodwinds)
+Accepted: Bsn 1/2 share the pp bass 147–155; bassoon breaths after 10; Cbsn breath at 115; "in B♭" on the clarinet staff; Ob 1 D5 at 40.
+Do-not-touch: woodwind ranges and registers; cor anglais octave 171–174; B♭ clarinets in the B-minor block; bass clarinet low-C passages and label.
+
+## Cycle 147 → v167 (texture; Rimsky-Korsakov crossing and enclosure)
+Accepted: Cl 1 doubles the theme's lower octave at 117–121.
+Open (optional, protected): clarinets rest 131–134; Bsn 1 with the horn counter 69–70.
+Do-not-touch: clarinet-completed p horn chords at 145, 156–157; Hn 3·4/bassoon crossing 37–40; Cl 2 + Hn 2 counterline over the Hn 3·4 pad 56–63; solo winds over tremolo strings 77–81.
+
+## Cycle 148 → v168 (expression; Aldwell & Schachter Unit 3 meter)
+Accepted: motto swell turns on D♭ at 3; diminuendo from the suspension at 66; tenuto on the appoggiatura at 101.
+Do-not-touch: beat-2 syncopation accents on the theme head; three-beat groups 23–25, 135–137; weak-beat accents 32, 72, 80–81, 119–120.
+
+## Cycle 149 → v169 (holistic; Rimsky-Korsakov examples 275–312; Brahms 4/i)
+Accepted: low brass rest 69–71 and enter f at 72; Fl 1 off the soft peak at 62–63; horns enter p< at 156.
+Open (protected): Bsn 2 rest at 56–59 (bass quadrupled).
+Note: READING.md's example ranges are off; PDF 376–440 = Ex. 206–274, PDF 441–504 = Ex. 275–312.
+Do-not-touch: the four settings of the second theme (47, 56, 147, 158); brass attack at 158 and trumpets' fff at 122; strings-only first theme 15–22; stop chords 26, 138; final-chord spacing 181–182.
+
+## Cycle 150 → v170 (cyclic; Rimsky-Korsakov prefaces and transfer of phrases) — 50 of 100
+Accepted: harp damps at 182 (closes the movement II relay item); Bsn 1 with the cellos 167–170; cor anglais overlaps into 9; "change bow at will" at 181.
+Do-not-touch: motto colours; coda notes and dynamics 171–182; viola E♭→E♮ 181–182; the five tied parts and "attacca"; overlapping hand-offs 174/175, 180/181; crescendo 9–12.
+
+## Cycle 151 → v171 (melody; Adler ch. 7 woodwinds)
+Accepted: bass clarinet solo an octave lower at 77–78; viola mp at 34.
+Do-not-touch: B.cl motto 1–4; cor anglais 5–8, 171–174; flute motto 73–76; Cl 1 counterline 56–68; bassoon solo notes and slurs 33–36.
+
+## Cycle 152 → v172 (harmony; Aldwell & Schachter Units 22–23)
+Accepted: Tpt 1/Tbn 1 D♭ at 30; stop-chord bass B♮ at 26 (138 keeps D, which rises to F); Hn 3 A♭→G at 164.
+
+## Cycle 153 → v173 (form; Aldwell & Schachter Units 26, 14 — recapitulation and coda)
+Accepted: Hn 3 holds B3 145–146 and resolves to C at 147.
+Decided: stop chord at 138 keeps D in the bass on purpose (goes to iv; 26 goes to i and has B♮). Do not make them match.
+
+## Cycle 154 → v174 (orchestration; Adler ch. 15 texture)
+Accepted: E♭ added at 160 (Tpt 3, Cl 2).
+Do-not-touch: rest of the 160 scoring; trumpets' fff entry at 122; flute-free final chord; stop chords 26, 138, 170.
+
+## Cycle 155 (engraving, MOLA) → v175
+Accepted: front page (unnumbered; PDF now 18 pages, music pages 1–17); staff names with transposing keys (Hn in F, Tpt in C, B.cl in B♭ low C); Hn 1 rest at 102 pitched on ledger line; Fl 2 dot at 119 up; no key signature on timpani.
+Open: composer name for the header; parts-stage notes for cycle 185 (horn parts without key signature; harp pedal marks out of harp part).
+Closed: Hn 1 half rests 43/102; Fl 2 dot 119.
+Do-not-touch: front page and timpani key handling. Page check is now 18 PDF pages.
+Open (relay from mvt II c50): cue the harp retuning "Ré → Ré♭" (lowest D string to D♭ for mvt II bar 10) in the harp rests 175–181, compatible with the damping at 182.
+
+## Cycle 156 (playability, Adler brass) → v176
+Accepted: staggered brass breaths 158–162; Tbn 1 breath/restrike at 180; Hn 4 enters beat 2 of 73; Hn 4 restrike at 129; Hn 3 breath before 65; harp retune cue at 176 (closes the mvt II c50 relay item).
+Open: Hn 1 written B5 at 106 (composer's choice); cycle 185 parts notes (horn bass clef modern notation; horn/trumpet parts without key signatures).
+Do-not-touch: brass ranges and four-horn layout; low horns 23–26; tuba rests 117–125; trumpets' soft entries at 113.
+
+## Cycle 157 (texture, Sebesky) → v177
+Accepted: Vc/Bsn 1 tenor counterline 139–142; harp RH up an octave at 56–59 (protected harp design kept; only the octave changed).
+Open: clarinets and violas swap the same pitches at 97–102 (critic recommends clarinets rest 97–102; would undo cycle 17's viola figure; needs a cycle that can justify touching the B-minor block); Tpt 3 duplicates Hn 3 at 113–116 (optional rest).
+Do-not-touch: theme heads as the source of counterlines; held-back harp and percussion; reharmonized returns; C.a. answers 147–153; Vc/C.a. duet 171–174.
+Note: critic 157 used the books only (no corpus or web); later critics should keep all three sources.
+
+## Cycle 158 (expression, Sebesky) → v178
+Accepted: Vc p at 35–36; Tbn 1·2 slurred at 131–134 (supersedes cycle 8's unexplained exclusion); Cl 1 p< at 127.
+Open: Bsn 1 f while doubling at 103–106 (shared staff; note only).
+Do-not-touch: solo/background dynamic grading at 5–8, 43–46, 73–78, 145–155, 171–174; swells 47–55; rit. placements; C.a. answers at plain p.
+
+## Cycle 159 (holistic, Adler/Schubert 8/i) → v179
+Accepted: Hn 1/Vla/Vc rest on beat 4 of 55 so the second-theme pickup is exposed.
+Closed: c157's items at 97–102 (Cl a2 with Vla is normal accompaniment doubling) and 113–116 (Tpt 3/Hn 3 unison supported by Adler).
+Watch: harp RH octave at 56–59 (v177).
+
+## Cycle 160 (cyclic, Sebesky) → v180
+Accepted: bar 180 inner voices held (Vln II G, Vla E♭), so the last D♭ is a bare neighbour, not a third D♭ triad.
+Open: horn/trumpet key-signature convention shared with mvt II (decide before parts, cycle 185).
+Do-not-touch: motto colours and statement order (1–4, 5–8, 73–76, 117–121, 171–182); low motto return 175–179; Vln I's last motto 177–182; Vla E♭→E♮ 181–182; delayed harp, percussion and Vln I entries.
+
+## Cycle 161 (melody, Sebesky ch. 6–7) → v181
+Accepted: Ob 1 link at 45–46 uses the second theme's dotted cadence figure.
+Open (note only): no moving fill under held notes at 150.
+Confirmed: E♭–C pre-echoes; counterlines do not shadow the tune; percussion colour on held notes only; climax register used sparingly.
+
+## Cycle 162 (harmony, A&S 24–25) → v182
+Accepted: d5→P5 fixes in Hn 3 at 24/136, Cl 2 at 30, Fl 2 at 31/141.
+Closed: IV6 for vi at 68 (cycle 132 item) — keep vi.
+Notes: cross relation 59–60 and 64.3 neighbour chord accepted as written.
+
+## Cycle 163 (form, A&S 18) → v183
+Accepted: ii6 at the second-theme answer cadence, 53 and 153 (answers the cycle-22 item on bass-motion grounds; I–IV–ii–V chain kept).
+Do-not-touch: lead-in 43–47; G pedal with motto 117–130; timpani C under the opening motto; root-position question phrases 47–50 and 147–150; transition route 33–46.
+
+## Cycle 164 (orchestration, Adler ch. 8) → v184
+Accepted: Fl 2 close position at 167–170; Cl 2 out of the horn call's unison at 41–43 (closes c124's optional Cl 2 item).
+Do-not-touch: layout at 82; bassoon unison 163–166.
+
+## Cycle 165 (engraving, Adler ch. 18) → v185
+Accepted: choir brackets on single-staff systems; timpani+percussion bracket (barlines separate); Hn 2 label clear at 102.
+Agreed with mvt II (relay c060): key signatures on all pitched score staves except timpani; horns and trumpets without signatures in the parts only.
+Parts-stage notes for cycle 185: extract from single-player variables; horn bass clef modern notation; no key signatures in horn/trumpet parts; harp pedal marks out of the harp part.
+
+## Cycle 166 (playability, Adler ch. 12) → v186
+Accepted: roll release strokes (12, 14, 63, 141, 146, 161); tam-tam damped at 127; stick indications at 1, 15, 175; timpani dotted half at 170; roll through 116.1.
+Open (optional): B♭ at 40 on the 28" drum.
+Confirmed: timpani notes inside the harmony; ranges; retuning time; two-player percussion layout; cymbal writing.
+
+## Cycle 167 (texture, Sebesky ch. 3) → v187
+Accepted: Bsn 2 rests 56–59 (closes c149's item); Fl 1 mf at 64, pp at 109.
+Note: middle register crowded at 56–68 (protected).
+Do-not-touch: economical string divisi; unison violins 56–59 and 158–161; lower-octave melody doubling 60–68, 139–142, 158–161; independent Vln II and Vla lines.
+Tooling note: full.midi is not rebuilt by build.sh; critics who use it must rebuild it.
+
+## Cycle 168 (expression, MOLA) → v188
+Accepted: Bsn 2 dynamics 60–68; bassoons mf 103–106 (closes c158); dynamics moved onto notes at 69/107/131/135/137; woodwind crescendo 139; C.a. tenuto 101; Hn 4 part-only mp at 67 (first use of the 'part tag); Vln II tie above at 181.
+Open: unify "damp"/"étouffez with Cb." wording (127, 182) — one language.
+Do-not-touch: bowing marks; tempo-mark placement; swells 47–55 and 147–155; graded brass 27–32, 131, 167; coda dynamics.
+
+## Cycle 169 (holistic, Brahms 3/i via Adler) → v189
+Accepted: Tbn 1 D4 at 159, Tpt 3 D4 at 161; violas in eighth-note chord tones at 158–161 (supersedes c167's "unison violins 158–161 / lower-octave doubling" protection for the viola only).
+Open (protected): Fl 1 rests on the violins' low pickups at 117–119.
+
+## Cycle 170 (cyclic, A&S 23) → v190
+Accepted: ♭6→5 at 161 (Ob 2, Cl 1, Hn 3); Cl 1 at 156 without A♮.
+Do-not-touch: mixture sequence 159–166; E♭/E♮ turns at 8–9, 166, 181–182; flute motto 73–76 with F♭→E♭ into 77; Vc minor second-theme head 171–174; viola E♮ at 182.
+
+## Cycle 171 (melody, A&S 21) → v191
+Accepted: harp RH at 50 avoids early G and ringing G under the G♭ pedal change.
+Do-not-touch: first-theme head 9–8 and restruck C anticipation; cadential 4–3s; dominant pedal 117–130 and ♭VI at 122; fugato suspensions 92–95; Vln I tied counterline 131–134.
+
+## Cycle 172 (harmony, A&S 30) → v192
+Accepted: Cl 1 at 161 fixes fifths introduced in v190; common-tone °7 at 73 (Vln II, Vla).
+Open (note): bass tritone A♭→D at 160→161 at fff (protected).
+Rule: a critic who changes a voice must rerun the voice-leading script on full.midi (the 161 fifths came from a change made without it).
+
+## Cycle 173 (form, Adler 15/17) → v193
+Accepted: low strings overlap into the pp pedal at 72→73.
+Open (optional): Vln II chord register at 107–108.
+Closed: 103–106, 77–84, 147–155 kept as written.
+Do-not-touch: proportions and loud/soft alternation; dialogue scoring 47–63, 103–110, 147–157; stop chords 26/138/170; rests 83→84; fermata 170→171; G-pedal colouring 117–130.
+
+## Cycle 174 (orchestration, Adler 11) → v194
+Accepted: trumpets in timpani rhythm at 131–134; Hn 4 doubles Hn 3's counter at 158–161.
+Open: Tpt 1 A♭5 at 72 pre-empts the climax (protected; suggestion in c174); Tpt 3/Tbn 1 held E♭4 at 167–169.
+Do-not-touch: trumpets held back until 122; horn/trombone motto 117–121; trombone chorale 175–179; Hn 1·2 on the tune 158–161; short brass chords at 41, 83, 143.
+
+## Cycle 175 (engraving, Gould) → v195
+Accepted: clarinet unison at 69; flute unison 115–116; Vln I "loco" at 124; "dolce" placement at 146.
+Do-not-touch: 8va layouts at 31, 71–72, 121–123; clef plan; part-combine modes; fixed breaks (17 pages of music).
+
+## Cycle 176 (playability, Adler App. A) → v196
+Accepted: timpani retunings on the A♭ drum (34–46, 84–111); horn breaths at end of 134.
+Open: Hn 1 written B5 at 106 is undoubled (correcting c156) — Ob 1 doubling or part ossia; "étouffez with Cb." → "étouffez" at 182 (closes c168 wording item if applied).
+Do-not-touch: current ranges; B.cl low-C labelling; G–A♭–C–E♭ timpani tuning; horn layout and rests.
+
+## Cycle 177 (texture, Adler 8) → v197
+Accepted: Hn 1·2 enter late at 136 in the recap (varies 23–25's scoring).
+Closed: Hn 1 B5 at 106 — keep undoubled; optional part-only 8va bassa ossia at the parts stage.
+Do-not-touch: 103–110 scoring (incl. Ob 1 rest 103–114, Hn 1 undoubled); fugato entries 85–96; transition hand-offs 34–41; wedge 111–117.
+
+## Cycle 178 (expression, Adler 7) → v198
+Accepted: Fl 1 mp at 109–110 (reverses c167 on register grounds); harp "étouffez" at 182 (closes wording item).
+Settled: Fl 1 dynamic at 109–110 has now changed twice (c167, c178). Do not change it again; if it is still a problem, the alternative is for Fl 1 to rest at 109–110.
+
+## Cycle 179 (holistic, Adler 16) → v199
+Accepted: Fl 1 drops out after the G6 sf at 41.
+Do-not-touch: motto colours and order (1–8, 73–76, 77–83, 117–121, 175–182); climax chain 117–130 with Fl 1's octave drop at 124; brass under the horn call 41–42; scoring of 158–166.

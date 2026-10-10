@@ -1,0 +1,11 @@
+timpani-roll-A2-PB-loop.wav sr 44100 len 5.63s loop 0.92-5.14s env std 3.40 dB mod peak 3.9 Hz, 9.5 dB over median
+timpani-roll-A3-PB-loop.wav sr 44100 len 5.63s loop 0.80-4.80s env std 3.02 dB mod peak 11.3 Hz, 17.0 dB over median
+timpani-roll-C2-PB-loop.wav sr 44100 len 5.63s loop 1.21-4.73s env std 3.71 dB mod peak 11.3 Hz, 17.6 dB over median
+timpani-roll-C3-PB-loop.wav sr 44100 len 5.63s loop 1.22-4.55s env std 3.60 dB mod peak 11.3 Hz, 17.1 dB over median
+timpani-roll-C4-PB-loop.wav sr 44100 len 5.63s loop 0.87-5.29s env std 2.69 dB mod peak 11.3 Hz, 18.4 dB over median
+timpani-roll-D2-PB-loop.wav sr 44100 len 5.63s loop 1.05-5.50s env std 3.62 dB mod peak 11.3 Hz, 17.8 dB over median
+timpani-roll-D3-PB-loop.wav sr 44100 len 5.63s loop 0.75-4.98s env std 3.79 dB mod peak 5.5 Hz, 16.1 dB over median
+timpani-roll-E2-PB-loop.wav sr 44100 len 5.63s loop 1.42-5.17s env std 3.73 dB mod peak 11.3 Hz, 17.6 dB over median
+timpani-roll-E3-PB-loop.wav sr 44100 len 5.63s loop 0.83-5.05s env std 3.64 dB mod peak 5.9 Hz, 16.9 dB over median
+timpani-roll-G2-PB-loop.wav sr 44100 len 5.63s loop 0.35-5.50s env std 3.24 dB mod peak 11.3 Hz, 10.7 dB over median
+timpani-roll-G3-PB-loop.wav sr 44100 len 5.63s loop 0.85-4.90s env std 3.08 dB mod peak 11.3 Hz, 16.9 dB over median

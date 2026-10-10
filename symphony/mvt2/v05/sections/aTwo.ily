@@ -1,0 +1,78 @@
+% A' SECTION, bars 71-82 (3/4).
+% 71-78: the theme in Vln I (upper octave) and Vln II; cellos and horns 1-2 play the counter-melody of bar 23.
+%        The cadence at 78 is deceptive (F minor).
+% 79-82: the cadential bars again, ff, peak F6 at 79, full close at 82.
+% v03's closing 83-90 (clarinet theme head, horn motto tail over a tonic pedal) is cut (critic 003).
+
+aTwoVlnOne = {
+  aes''4. c'''8 es'''4~ | es'''4 d'''4 des'''4 | c'''4. bes''8 aes''4 | g''2) es''8( f''8 |
+  aes''4.\< c'''8 f'''4~ | f'''4 bes'''4 aes'''4 | g'''4 es'''8 des'''8 c'''8 bes''8 | aes''2)\f c'''4( |
+  bes'''2.~\ff | bes'''4 aes'''2 | g'''4\> es'''8 des'''8 c'''8 bes''8 | aes''2.)\p |
+}
+aTwoVlnTwo = {
+  aes'4. c''8 es''4~ | es''4 d''4 des''4 | c''4. bes'8 aes'4 | g'2) es'8( f'8 |
+  aes'4.\< c''8 f''4~ | f''4 bes''4 aes''4 | g''4 es''8 des''8 c''8 bes'8 | aes'2)\f c''4( |
+  bes''2.~\ff | bes''4 aes''2 | g''4\> es''8 des''8 c''8 bes'8 | aes'2.)\p |
+}
+aTwoFluteOne = {
+  R2.*4 |
+  aes''4.\mf\< c'''8 f'''4~ | f'''4 bes'''4 aes'''4 | g'''4 es'''8 des'''8 c'''8 bes''8 | aes''2\f c'''4( |
+  bes'''2.~\ff | bes'''4 aes'''2 | g'''4\> es'''8 des'''8 c'''8 bes''8 | aes''2.)\p |
+}
+aTwoOboeOne = {
+  R2.*8 |
+  bes''2.~\ff | bes''4 aes''2 | g''4\> es''8 des''8 c''8 bes'8 | aes'2.\p |
+}
+aTwoVla = {
+  <c' es'>2.\mf | <c' aes'>4 <bes aes'>4 <bes g'>4 | <c' es'>2. | <bes es'>2. |
+  <c' es'>2\< <aes f'>4 | <f' aes'>4 <f' aes'>4 <es' aes'>4 | <es' g'>2. | <c' aes'>2\f <c' aes'>4 |
+  <f' aes'>2.:32\ff | <f' aes'>4:32 <f' aes'>4:32 <es' aes'>4:32 | <es' g'>2.:32\> | <es' aes'>2.\p |
+}
+aTwoVc = {
+  es2\mf^\markup \italic "cantabile" aes8( g8 | f2 g4 | aes2 c'4 | bes2.) |
+  es2(\< f4 | aes4 bes4 c'4 | bes2 des'4 | c'2)\f c'4( |
+  des'4\ff c'4 bes4 | aes4 bes4 c'4 | bes2\> des'4 | c'2.)\p |
+}
+aTwoHnOne = {
+  es2\p aes8( g8 | f2 g4 | aes2 c'4 | bes2.) |
+  es2(\< f4 | aes4 bes4 c'4 | bes2 des'4 | c'2)\f c'4( |
+  des'4\ff c'4 bes4 | aes4 bes4 c'4 | bes2\> des'4 | c'2.)\p |
+}
+aTwoHnTwo = {
+  R2.*8 |
+  des'4\ff c'4 bes4 | aes4 bes4 c'4 | bes2\> des'4 | c'2.\p |
+}
+aTwoHnThree = { R2.*8 | aes2.\ff | aes4 aes4 aes4 | g2.\> | aes2.\p | }
+aTwoHnFour = { R2.*8 | des2.\ff | des4 des4 c4 | bes,2.\> | c2.\p | }
+aTwoClOne = {
+  c''2.\p | c''4 bes'4 bes'4 | c''2. | bes'2. |
+  c''2.\< | des''4 des''4 c''4 | bes'2. | f'2\f f'4 |
+  des''2.\ff | des''4 des''4 c''4 | bes'2.\> | c''2.\p |
+}
+aTwoClTwo = {
+  aes'2.\p | aes'4 f'4 g'4 | aes'2. | g'2. |
+  aes'2.\< | aes'4 aes'4 aes'4 | g'2. | aes'2\f aes'4 |
+  aes'2.\ff | aes'4 aes'4 aes'4 | g'2.\> | aes'2.\p |
+}
+aTwoBsnTwo = {
+  aes,2.\mf | f4 bes,4 es4 | aes,2 c4 | es2. |
+  aes,4\< c4 des4 | des2 es4 | es2. | f2.\f |
+  des2.\ff | des2 es4 | es2.\> | aes,2.\p |
+}
+aTwoBassCl = { R2.*8 | des2.\ff | des2 es4 | es,2.\> | aes,2.\p | }
+aTwoCb = {
+  aes,,2.\mf | f,4 bes,,4 es,4 | aes,,2 c,4 | es,2. |
+  aes,,4\< c,4 des,4 | des,2 es,4 | es,2. | f,2.\f |
+  des,2.\ff | des,2 es,4 | es,2.\> | aes,,2.\p |
+}
+aTwoTimp = { R2.*8 | des2.:32\f | des2:32 es4 | es2.:32\> | aes,2.\p | }
+aTwoHarpR = {
+  r4 <aes c' es'>2\arpeggio | R2. | r4 <aes c' es'>2\arpeggio | r4 <g bes es'>2\arpeggio |
+  r4 <aes c' es'>2\arpeggio | <aes des' f'>4\arpeggio r2 | r4 <g bes des'>2\arpeggio | r4 <aes c' f'>2\arpeggio |
+  r4 <aes des' f'>2\arpeggio | <aes des' f'>4\arpeggio r2 | r4 <g bes des'>2\arpeggio | r4 <aes c' es'>2\arpeggio |
+}
+aTwoHarpL = {
+  <aes,, es,>2.\mf\arpeggio | <f,, c,>4\arpeggio <bes,, f,>4\arpeggio <es,, bes,,>4\arpeggio | <aes,, es,>2\arpeggio c,4 | <es,, es,>2.\arpeggio |
+  <aes,, es,>4\arpeggio c,4 des,4 | <des, aes,>2\arpeggio es,4 | <es,, bes,,>2.\arpeggio | <f,, c,>2.\arpeggio |
+  <des, aes,>2.\f\arpeggio | <des, aes,>2\arpeggio es,4 | <es,, bes,,>2.\arpeggio | <aes,, es,>2.\arpeggio |
+}

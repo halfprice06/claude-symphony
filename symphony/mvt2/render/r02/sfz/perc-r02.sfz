@@ -1,0 +1,23 @@
+// r02 percussion map for the "Cymbals / Tam-tam" staff, played by r02/sfzplay.py.
+// Samples: Virtual Playing Orchestra 3.2 wave files (assets/vpo3), from VSCO 2 Community Edition (CC0).
+// Regions copied from VPO Percussion/misc.sfz (gong) and Percussion/cymbals.sfz (crash, susp. cymbal crescendo);
+// keys renumbered for this score. The VSCO 2 CE gong (27-31 s decay) is used for the tam-tam because the SSO
+// tam-tam samples in VPO are cut after 2.8-3.8 s, far shorter than an l.v. tam-tam.
+<control>
+default_path=/mnt/project-files/symphony/render/assets/vpo3/libs/Other/Samples/Percussion/
+
+// tam-tam (key 50): two dynamic layers with a velocity crossfade, as in VPO misc.sfz
+<group> ampeg_release=6 amp_random=1
+<region> sample=VSCO2-CE/gongHit_f-PB.wav key=50 xfout_lovel=54 xfout_hivel=104 volume=8
+<region> sample=VSCO2-CE/gongHit_fff-PB.wav key=50 xfin_lovel=54 xfin_hivel=104 volume=7
+
+// suspended cymbal roll with crescendo (soft sticks): three lengths (peak at 1.5, 3.6, 7.2 s)
+<group> ampeg_release=3 amp_veltrack=0
+<region> sample=VSCO2-CE/susCymb1-cresc-Short_v1-PB.wav key=53 volume=10
+<region> sample=VSCO2-CE/susCymb1-cresc-Median_v1-PB.wav key=54 volume=10
+<region> sample=VSCO2-CE/susCymb1-cresc-Long_v1-PB.wav key=55 volume=10
+
+// crash cymbals (key 49), two dynamic layers
+<group> ampeg_release=2 amp_random=1
+<region> sample=VSCO2-CE/cymbal-crash1_mf_rr1-PB.wav key=49 lovel=0 hivel=79 volume=10
+<region> sample=VSCO2-CE/cymbal-crash1_ff_rr1-PB.wav key=49 lovel=80 hivel=127 volume=3

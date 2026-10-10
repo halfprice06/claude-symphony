@@ -1,0 +1,1 @@
+blocks with GR > 0.5 dB: 106 (1.53 %), > 1 dB: 11, > 2 dB: 1; max GR 2.2 dB

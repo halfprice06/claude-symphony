@@ -1,0 +1,5 @@
+m2: stem | tremolo 8-24 vs 1-6 Hz dB (n) | held unmarked notes (n) | difference
+  Violins I | -2.9 (2) | -5.8 (73) | +2.9
+  Violins II | -2.1 (4) | -9.3 (87) | +7.1
+  Violas | -6.6 (20) | -13.1 (70) | +6.4
+  Violoncellos | -8.3 (2) | -16.5 (96) | +8.2

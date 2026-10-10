@@ -1,0 +1,35 @@
+r05-m2: stems with a gain curve: 22
+stem | bars cut>=3 | cut>=6 | lifted>=1 | min/max dB | max slope dB/s | cut>=3 where own printed dyn >= melody's (n; max steps above)
+Bass clarinet | 5 | 0 | 1 | -5.0/+3.1 | 5.4 | 0; -
+Bass trombone | 0 | 0 | 2 | +0.0/+3.1 | 2.0 | 0; -
+Bassoons 12 | 12 | 1 | 1 | -6.4/+3.1 | 3.3 | 1; 0
+Clarinets 12 | 11 | 0 | 1 | -5.0/+3.1 | 3.3 | 2; 0
+Contrabassoon | 0 | 0 | 2 | +0.0/+3.1 | 2.0 | 0; -
+Cor anglais | 0 | 0 | 5 | +0.0/+3.1 | 2.0 | 0; -
+Double basses | 12 | 0 | 1 | -5.0/+1.2 | 3.3 | 2; 0
+Flutes 12 | 7 | 0 | 9 | -5.0/+3.1 | 5.4 | 0; -
+Harp LH | 0 | 0 | 2 | +0.0/+3.1 | 2.0 | 0; -
+Harp RH | 0 | 0 | 2 | +0.0/+3.1 | 2.0 | 0; -
+Horns 12 | 0 | 0 | 3 | +0.0/+5.0 | 3.3 | 0; -
+Horns 34 | 0 | 0 | 2 | -1.6/+3.1 | 2.0 | 0; -
+Oboes 12 | 2 | 0 | 7 | -5.0/+6.1 | 4.5 | 0; -
+Timpani | 6 | 0 | 0 | -5.0/+0.5 | 3.3 | 0; -
+Trombones 12 | 0 | 0 | 2 | +0.0/+3.1 | 2.0 | 0; -
+Trumpet 3 | 0 | 0 | 2 | +0.0/+3.1 | 2.0 | 0; -
+Trumpets 12 | 0 | 0 | 2 | +0.0/+3.1 | 2.0 | 0; -
+Tuba | 0 | 0 | 2 | +0.0/+3.1 | 2.0 | 0; -
+Violas | 9 | 0 | 7 | -5.0/+3.1 | 3.3 | 4; 0
+Violins I | 0 | 0 | 5 | -3.0/+3.1 | 2.1 | 0; -
+Violins II | 0 | 0 | 0 | -3.0/+0.5 | 2.0 | 0; -
+Violoncellos | 0 | 0 | 18 | -3.0/+3.2 | 2.0 | 0; -
+r05-m2: stem-bars cut >= 3 dB: 64, >= 6 dB: 1; cut >= 3 dB although printed >= the melody: 9
+   ('Bassoons 12', 54, 0, 'p', 'p', -5.0)
+   ('Clarinets 12', 54, 0, 'p', 'p', -5.0)
+   ('Clarinets 12', 56, 0, 'mp', 'mp', -5.0)
+   ('Double basses', 28, 0, 'mf', 'mf', -4.5)
+   ('Double basses', 29, 0, 'mf', 'mf', -3.6)
+   ('Violas', 28, 0, 'mf', 'mf', -3.6)
+   ('Violas', 29, 0, 'mf', 'mf', -3.8)
+   ('Violas', 54, 0, 'p', 'p', -5.0)
+   ('Violas', 56, 0, 'mp', 'mp', -5.0)
+r05-m2: marked melodies whose median gain is a CUT: []

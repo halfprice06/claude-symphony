@@ -1,0 +1,1 @@
+r05-m2: stem | n acc / n plain (clean onsets) | boost dB | rise ms acc / plain | onset crest dB acc / plain | edge dB/ms acc / plain

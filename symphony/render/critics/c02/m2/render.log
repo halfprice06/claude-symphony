@@ -1,0 +1,6 @@
+[ 10.8s] score events -> /tmp/c02-m2/notes_v120.csv
+{"legato": 582, "slur_end": 157, "detached": 543, "tenuto/fermata": 38, "unmatched": 9, "accent": 3, "timp_rolls": 11, "sf": 7, "tremolo32": 28, "pizz": 34, "string_accent_channel": 1, "overlap_trimmed": 4, "percussion_events": []}
+[ 14.6s] articulated MIDI -> /tmp/c02-m2/r02.midi
+[136.5s] 22 stems rendered
+premaster I -25.5 LUFS, LRA 22.0 LU, true peak -6.3 dBTP; gain +5.50 dB; peak after gain -0.8 dBTP
+{"premaster": {"I": -25.5, "LRA": 22.0, "TP": -6.3}, "gain_dB": 5.5, "master_wav": {"I": -20.0, "LRA": 22.0, "TP": -1.5}, "mp3": {"I": -20.0, "LRA": 22.0, "TP": -1.5}, "seconds": 174.1}

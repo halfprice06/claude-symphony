@@ -1,0 +1,8 @@
+r01-m1: Spearman rho bar loudness vs printed dyn = 0.78 (n=181)
+  median rel I by loudest printed dyn: {'ppp': -15.8, 'pp': -16.1, 'p': -13.3, 'mp': -10.4, 'mf': -9.4, 'f': -6.3, 'ff': 0.8, 'fff': 9.7}  n={'ppp': 1, 'pp': 13, 'p': 24, 'mp': 16, 'mf': 46, 'f': 34, 'ff': 41, 'fff': 6}
+  steps: {'ppp->pp': -0.3, 'pp->p': 2.8, 'p->mp': 2.9, 'mp->mf': 0.9, 'mf->f': 3.1, 'f->ff': 7.2, 'ff->fff': 8.9}
+  bars printed <= mf louder than the median f bar (-6.3): 15 [(23, 'mf', -5.3), (24, 'mf', -4.5), (25, 'mf', -2.8), (43, 'p', -5.9), (61, 'mf', -5.2), (113, 'mp', -5.2), (114, 'mp', -3.8), (126, 'p', -0.5), (127, 'pp', -1.4), (128, 'pp', -0.4), (129, 'mf', -1.4), (135, 'mf', 2.4)]
+r01-m2: Spearman rho bar loudness vs printed dyn = 0.64 (n=90)
+  median rel I by loudest printed dyn: {'ppp': -13.2, 'pp': -11.6, 'p': -10.2, 'mp': -6.9, 'mf': -2.7, 'f': 1.6, 'ff': 7.5}  n={'ppp': 2, 'pp': 12, 'p': 43, 'mp': 18, 'mf': 5, 'f': 3, 'ff': 7}
+  steps: {'ppp->pp': 1.5, 'pp->p': 1.4, 'p->mp': 3.4, 'mp->mf': 4.2, 'mf->f': 4.3, 'f->ff': 6.0}
+  bars printed <= mf louder than the median f bar (1.6): 0 []

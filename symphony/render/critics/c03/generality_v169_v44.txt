@@ -1,0 +1,6 @@
+mvt1/v169 se=0
+art=0
+mvt1/v169 bars 182 melodies 20 rolls 8 unmatched 0
+mvt2/v44 se=0
+art=0
+mvt2/v44 bars 92 melodies 16 rolls 3 unmatched 0

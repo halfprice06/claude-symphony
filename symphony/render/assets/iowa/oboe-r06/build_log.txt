@@ -1,0 +1,116 @@
+Oboe.ff.Bb3B3.aiff   0.25-  2.04s key 58 (+5 c) sus -24.5 dB loop (19869, 68065)
+Oboe.ff.Bb3B3.aiff key 59: pitch onset +0.245 s after the level onset
+Oboe.ff.Bb3B3.aiff   2.15-  3.90s key 59 (-7 c) sus -25.0 dB loop (19863, 66050)
+Oboe.ff.C4B4.aiff   0.20-  1.77s key 60 (-5 c) sus -22.3 dB loop (19875, 58253)
+Oboe.ff.C4B4.aiff key 61: pitch onset +0.255 s after the level onset
+Oboe.ff.C4B4.aiff   1.84-  3.49s key 61 (+5 c) sus -25.3 dB loop (19848, 61645)
+Oboe.ff.C4B4.aiff key 62: pitch onset +0.255 s after the level onset
+Oboe.ff.C4B4.aiff   3.57-  5.27s key 62 (+4 c) sus -24.1 dB loop (19860, 63833)
+Oboe.ff.C4B4.aiff key 63: pitch onset +0.255 s after the level onset
+Oboe.ff.C4B4.aiff   5.33-  7.06s key 63 (-1 c) sus -22.0 dB loop (19846, 65152)
+Oboe.ff.C4B4.aiff key 64: pitch onset +0.255 s after the level onset
+Oboe.ff.C4B4.aiff   7.11-  8.70s key 64 (+4 c) sus -22.5 dB loop (19854, 58977)
+Oboe.ff.C4B4.aiff key 65: pitch onset +0.265 s after the level onset
+Oboe.ff.C4B4.aiff   8.78- 10.29s key 65 (+2 c) sus -21.7 dB loop (19852, 55452)
+Oboe.ff.C4B4.aiff key 66: pitch onset +0.255 s after the level onset
+Oboe.ff.C4B4.aiff  10.34- 11.92s key 66 (+4 c) sus -27.0 dB loop (19856, 58545)
+Oboe.ff.C4B4.aiff key 67: pitch onset +0.257 s after the level onset
+Oboe.ff.C4B4.aiff  11.98- 13.60s key 67 (-2 c) sus -28.9 dB loop (19863, 60217)
+Oboe.ff.C4B4.aiff key 68: pitch onset +0.255 s after the level onset
+Oboe.ff.C4B4.aiff  13.66- 15.27s key 68 (+2 c) sus -25.0 dB loop (19866, 59862)
+Oboe.ff.C4B4.aiff key 69: pitch onset +0.255 s after the level onset
+Oboe.ff.C4B4.aiff  15.34- 16.88s key 69 (-2 c) sus -24.3 dB loop (19847, 56790)
+Oboe.ff.C4B4.aiff key 70: pitch onset +0.265 s after the level onset
+Oboe.ff.C4B4.aiff  16.96- 18.66s key 70 (+0 c) sus -18.5 dB loop (19851, 63845)
+Oboe.ff.C4B4.aiff key 71: pitch onset +0.255 s after the level onset
+Oboe.ff.C4B4.aiff  18.72- 20.36s key 71 (+12 c) sus -28.6 dB loop (19869, 61193)
+Oboe.ff.C5B5.aiff   0.28-  1.92s key 72 (+11 c) sus -31.6 dB loop (19866, 61430)
+Oboe.ff.C5B5.aiff   4.27-  5.87s key 73 (+11 c) sus -25.8 dB loop (19866, 59687)
+Oboe.ff.C5B5.aiff   8.27-  9.71s key 74 (+7 c) sus -24.7 dB loop (19854, 52271)
+Oboe.ff.C5B5.aiff  12.34- 13.81s key 75 (+7 c) sus -20.8 dB loop (19854, 53871)
+Oboe.ff.C5B5.aiff  16.33- 18.04s key 76 (+11 c) sus -20.4 dB loop (19861, 64254)
+Oboe.ff.C5B5.aiff  20.32- 21.81s key 77 (-6 c) sus -17.7 dB loop (19860, 54754)
+Oboe.ff.C5B5.aiff  24.37- 25.61s key 78 (+15 c) sus -26.2 dB loop None
+Oboe.ff.C5B5.aiff  28.21- 29.80s key 79 (+8 c) sus -30.9 dB loop (19848, 59074)
+Oboe.ff.C5B5.aiff  32.23- 33.68s key 80 (-1 c) sus -24.8 dB loop (19845, 52710)
+Oboe.ff.C5B5.aiff  36.23- 37.88s key 81 (+17 c) sus -27.4 dB loop (19855, 61614)
+Oboe.ff.C5B5.aiff  40.21- 41.85s key 82 (+2 c) sus -26.9 dB loop (19846, 61179)
+Oboe.ff.C5B5.aiff  44.29- 45.71s key 83 (-8 c) sus -31.7 dB loop (19884, 51754)
+Oboe.ff.C6Ab6.aiff   0.22-  1.60s key 84 (-2 c) sus -29.3 dB loop (19852, 49688)
+Oboe.ff.C6Ab6.aiff   4.23-  5.57s key 85 (-1 c) sus -30.2 dB loop (19846, 48221)
+Oboe.ff.C6Ab6.aiff   8.24-  9.68s key 86 (+5 c) sus -23.5 dB loop (19862, 52633)
+Oboe.ff.C6Ab6.aiff  12.23- 13.70s key 87 (+7 c) sus -24.7 dB loop (19856, 53781)
+Oboe.ff.C6Ab6.aiff  16.22- 17.83s key 88 (-7 c) sus -19.7 dB loop (19870, 60019)
+Oboe.ff.C6Ab6.aiff  20.16- 21.68s key 89 (+18 c) sus -24.7 dB loop (19849, 55967)
+Oboe.ff.C6Ab6.aiff  24.19- 25.64s key 90 (+8 c) sus -26.2 dB loop (19850, 53076)
+Oboe.ff.C6Ab6.aiff  28.20- 29.57s key 91 (-6 c) sus -30.6 dB loop (19855, 49192)
+Oboe.ff.C6Ab6.aiff  32.20- 33.46s key 92 (-1 c) sus -20.5 dB loop None
+Oboe.mf.Bb3B3.aiff   0.20-  1.62s key 58 (+13 c) sus -29.4 dB loop (19869, 51548)
+Oboe.mf.Bb3B3.aiff   4.21-  5.70s key 59 (-10 c) sus -28.4 dB loop (19877, 54838)
+Oboe.mf.C4B4.aiff   0.15-  1.45s key 60 (-11 c) sus -27.7 dB loop None
+Oboe.mf.C4B4.aiff key 61: pitch onset +0.267 s after the level onset
+Oboe.mf.C4B4.aiff   1.50-  2.75s key 61 (-12 c) sus -28.1 dB loop None
+Oboe.mf.C4B4.aiff   5.50-  6.81s key 62 (+3 c) sus -27.6 dB loop (19862, 46893)
+Oboe.mf.C4B4.aiff   9.53- 10.74s key 63 (-3 c) sus -27.2 dB loop None
+Oboe.mf.C4B4.aiff  13.58- 16.16s key 64 (+1 c) sus -25.9 dB loop (19848, 102814)
+Oboe.mf.C4B4.aiff  18.86- 20.15s key 66 (+7 c) sus -29.8 dB loop None
+Oboe.mf.C4B4.aiff  22.75- 24.03s key 67 (+6 c) sus -30.4 dB loop None
+Oboe.mf.C4B4.aiff  26.77- 28.13s key 68 (-1 c) sus -30.3 dB loop (19864, 48736)
+Oboe.mf.C4B4.aiff  30.82- 32.12s key 69 (+5 c) sus -26.8 dB loop None
+Oboe.mf.C4B4.aiff  34.82s: pitch 89.07 outside 60-71, skipped
+Oboe.mf.C4B4.aiff  38.77- 40.28s key 71 (-9 c) sus -29.5 dB loop (19860, 55367)
+Oboe.mf.C5B5.aiff   0.31-  1.67s key 72 (+3 c) sus -31.3 dB loop (19854, 48732)
+Oboe.mf.C5B5.aiff   4.31-  5.84s key 73 (+4 c) sus -28.8 dB loop (19868, 56429)
+Oboe.mf.C5B5.aiff   8.29- 10.00s key 74 (-11 c) sus -28.7 dB loop (19856, 64279)
+Oboe.mf.C5B5.aiff  12.35- 14.05s key 75 (-1 c) sus -27.8 dB loop (19867, 63986)
+Oboe.mf.C5B5.aiff  16.31- 17.79s key 76 (+10 c) sus -21.0 dB loop (19869, 54394)
+Oboe.mf.C5B5.aiff  20.28- 21.69s key 77 (-12 c) sus -19.6 dB loop (19870, 51312)
+Oboe.mf.C5B5.aiff  24.32- 25.68s key 78 (+8 c) sus -24.4 dB loop (19857, 48845)
+Oboe.mf.C5B5.aiff  28.28- 29.65s key 79 (+2 c) sus -25.8 dB loop (19850, 49528)
+Oboe.mf.C5B5.aiff  32.33- 33.62s key 80 (+7 c) sus -23.7 dB loop None
+Oboe.mf.C5B5.aiff  36.29- 37.61s key 81 (+4 c) sus -27.9 dB loop (19852, 47153)
+Oboe.mf.C5B5.aiff  40.29- 41.62s key 82 (+1 c) sus -29.3 dB loop (19862, 47681)
+Oboe.mf.C5B5.aiff  44.27- 45.53s key 83 (-12 c) sus -33.9 dB loop None
+Oboe.mf.C6Ab6.aiff   0.28-  1.96s key 84 (+7 c) sus -31.6 dB loop (19864, 62947)
+Oboe.mf.C6Ab6.aiff   4.26-  5.82s key 85 (-2 c) sus -29.1 dB loop (19862, 57645)
+Oboe.mf.C6Ab6.aiff   8.32-  9.98s key 86 (+1 c) sus -25.0 dB loop (19861, 62049)
+Oboe.mf.C6Ab6.aiff  12.34- 13.89s key 87 (+7 c) sus -23.3 dB loop (19868, 57121)
+Oboe.mf.C6Ab6.aiff  16.35- 17.80s key 88 (+7 c) sus -24.0 dB loop (19863, 52975)
+Oboe.mf.C6Ab6.aiff  20.31- 21.86s key 89 (+3 c) sus -24.4 dB loop (19852, 57211)
+Oboe.mf.C6Ab6.aiff  24.27- 25.77s key 90 (+5 c) sus -27.5 dB loop (19852, 55098)
+Oboe.mf.C6Ab6.aiff  28.20- 29.78s key 91 (-10 c) sus -33.0 dB loop (19848, 58804)
+Oboe.mf.C6Ab6.aiff  32.39- 33.75s key 92 (-5 c) sus -23.2 dB loop (19855, 48748)
+Oboe.pp.Bb3B3.aiff   0.02-  1.33s key 58 (+17 c) sus -36.7 dB loop (19870, 46748)
+Oboe.pp.Bb3B3.aiff   3.37-  4.56s key 59 (+1 c) sus -37.0 dB loop None
+Oboe.pp.C4B4.aiff   0.01-  1.30s key 60 (-20 c) sus -35.3 dB loop None
+Oboe.pp.C4B4.aiff   3.61-  4.86s key 62 (+2 c) sus -37.3 dB loop None
+Oboe.pp.C4B4.aiff   7.32-  8.73s key 63 (-5 c) sus -38.1 dB loop (19881, 51128)
+Oboe.pp.C4B4.aiff  11.17- 12.76s key 64 (+6 c) sus -39.9 dB loop (19862, 59241)
+Oboe.pp.C4B4.aiff  15.21- 16.81s key 65 (-8 c) sus -40.6 dB loop (19880, 59590)
+Oboe.pp.C4B4.aiff  19.19- 20.72s key 66 (+1 c) sus -44.2 dB loop (19904, 56154)
+Oboe.pp.C4B4.aiff  23.19- 24.63s key 67 (-4 c) sus -42.6 dB loop (19868, 52287)
+Oboe.pp.C4B4.aiff  27.57- 28.96s key 68 (-7 c) sus -40.8 dB loop (19910, 50136)
+Oboe.pp.C4B4.aiff  31.74- 32.92s key 69 (+2 c) sus -39.3 dB loop None
+Oboe.pp.C4B4.aiff  35.71- 36.96s key 70 (-8 c) sus -38.4 dB loop None
+Oboe.pp.C4B4.aiff  39.52- 41.15s key 71 (-14 c) sus -42.9 dB loop (19886, 60727)
+Oboe.pp.C5B5.aiff   0.01-  1.64s key 72 (-11 c) sus -45.2 dB loop (19863, 60784)
+Oboe.pp.C5B5.aiff   4.07-  5.61s key 73 (-5 c) sus -41.7 dB loop (19863, 56898)
+Oboe.pp.C5B5.aiff   8.26-  9.51s key 74 (+5 c) sus -40.3 dB loop None
+Oboe.pp.C5B5.aiff  12.34- 13.56s key 75 (-8 c) sus -39.8 dB loop None
+Oboe.pp.C5B5.aiff  16.20- 17.60s key 76 (-6 c) sus -35.6 dB loop (19848, 50481)
+Oboe.pp.C5B5.aiff  20.09- 21.68s key 77 (-7 c) sus -42.7 dB loop (19868, 58951)
+Oboe.pp.C5B5.aiff  24.26- 25.54s key 78 (+6 c) sus -38.8 dB loop None
+Oboe.pp.C5B5.aiff  27.90- 29.50s key 79 (+15 c) sus -42.3 dB loop (19884, 59531)
+Oboe.pp.C5B5.aiff  32.17- 33.44s key 80 (-2 c) sus -38.9 dB loop None
+Oboe.pp.C5B5.aiff  36.25- 37.48s key 81 (+17 c) sus -37.8 dB loop None
+Oboe.pp.C5B5.aiff  40.27- 41.59s key 82 (-11 c) sus -32.3 dB loop (19890, 46978)
+Oboe.pp.C5B5.aiff  44.19- 45.59s key 83 (-2 c) sus -32.0 dB loop (19849, 50776)
+Oboe.pp.C6Ab6.aiff   0.22-  1.71s key 84 (-6 c) sus -28.6 dB loop (19852, 54659)
+Oboe.pp.C6Ab6.aiff   4.36-  5.63s key 85 (+1 c) sus -38.3 dB loop None
+Oboe.pp.C6Ab6.aiff   8.29-  9.76s key 86 (+16 c) sus -34.1 dB loop (19864, 53583)
+Oboe.pp.C6Ab6.aiff  12.34- 13.74s key 87 (-3 c) sus -26.9 dB loop (19874, 50688)
+Oboe.pp.C6Ab6.aiff  16.24- 17.58s key 88 (+1 c) sus -27.4 dB loop (19846, 48208)
+Oboe.pp.C6Ab6.aiff  20.27- 21.51s key 89 (+2 c) sus -37.6 dB loop None
+Oboe.pp.C6Ab6.aiff  24.28- 25.48s key 90 (-13 c) sus -36.8 dB loop None
+Oboe.pp.C6Ab6.aiff  28.32- 29.46s key 91 (-18 c) sus -35.5 dB loop None
+Oboe.pp.C6Ab6.aiff  32.31- 33.57s key 92 (+8 c) sus -27.0 dB loop None

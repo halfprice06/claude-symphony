@@ -1,0 +1,20 @@
+{
+ "score": "/mnt/project-files/symphony/mvt1/v156",
+ "premaster": {
+  "I": -22.0,
+  "LRA": 19.0,
+  "TP": -2.3
+ },
+ "gain_dB": 2.0,
+ "master_wav": {
+  "I": -20.0,
+  "LRA": 19.0,
+  "TP": -1.5
+ },
+ "mp3": {
+  "I": -20.0,
+  "LRA": 19.0,
+  "TP": -1.5
+ },
+ "seconds": 193.7
+}

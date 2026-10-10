@@ -1,0 +1,49 @@
+r03-m2: stems with a gain curve: 20
+stem | bars cut>=3 | cut>=6 | lifted>=1 | min/max dB | max slope dB/s | cut>=3 where own printed dyn >= melody's (n; max steps above)
+Bass clarinet | 8 | 0 | 0 | -5.1/+0.0 | 11.0 | 4; 0
+Bass trombone | 8 | 0 | 0 | -4.4/+0.0 | 11.0 | 3; 3
+Bassoons 12 | 16 | 0 | 0 | -5.4/+0.0 | 13.5 | 5; 0
+Clarinets 12 | 16 | 0 | 0 | -5.4/+0.0 | 13.5 | 5; 0
+Contrabassoon | 8 | 0 | 0 | -4.4/+0.0 | 11.0 | 2; 0
+Cor anglais | 0 | 0 | 3 | +0.0/+3.0 | 7.5 | 0; -
+Double basses | 16 | 0 | 0 | -5.9/+0.0 | 13.5 | 8; 0
+Flutes 12 | 16 | 0 | 8 | -5.6/+1.8 | 14.0 | 10; 0
+Horns 12 | 13 | 0 | 3 | -5.4/+3.0 | 17.3 | 10; 0
+Horns 34 | 8 | 0 | 0 | -5.1/+0.0 | 11.0 | 2; 0
+Oboes 12 | 8 | 0 | 7 | -5.3/+3.0 | 11.6 | 6; 0
+Timpani | 8 | 0 | 0 | -5.1/+0.0 | 11.0 | 2; 0
+Trombones 12 | 8 | 0 | 0 | -4.4/+0.0 | 11.0 | 3; 4
+Trumpet 3 | 8 | 0 | 0 | -5.2/+0.0 | 12.9 | 2; 0
+Trumpets 12 | 8 | 0 | 0 | -4.4/+0.0 | 11.0 | 2; 0
+Tuba | 8 | 0 | 0 | -4.4/+0.0 | 11.0 | 2; 0
+Violas | 8 | 0 | 8 | -5.7/+3.0 | 12.5 | 7; 0
+Violins I | 16 | 1 | 2 | -7.4/+3.0 | 18.5 | 10; 0
+Violins II | 16 | 0 | 0 | -5.4/+0.0 | 13.5 | 15; 0
+Violoncellos | 0 | 0 | 24 | -0.7/+3.0 | 9.3 | 0; -
+r03-m2: stem-bars cut >= 3 dB: 197, >= 6 dB: 1; cut >= 3 dB although printed >= the melody: 98
+   ('Trombones 12', 64, 4, 'ff', 'p', -4.4)
+   ('Bass trombone', 64, 3, 'f', 'p', -4.4)
+   ('Bass clarinet', 59, 0, 'f', 'f', -5.1)
+   ('Bass clarinet', 60, 0, 'f', 'f', -5.1)
+   ('Bass clarinet', 61, 0, 'ff', 'ff', -4.4)
+   ('Bass clarinet', 62, 0, 'ff', 'ff', -4.4)
+   ('Bass trombone', 61, 0, 'ff', 'ff', -4.4)
+   ('Bass trombone', 62, 0, 'ff', 'ff', -4.4)
+   ('Bassoons 12', 59, 0, 'f', 'f', -5.1)
+   ('Bassoons 12', 60, 0, 'f', 'f', -5.1)
+   ('Bassoons 12', 61, 0, 'ff', 'ff', -4.4)
+   ('Bassoons 12', 62, 0, 'ff', 'ff', -4.4)
+   ('Bassoons 12', 78, 0, 'f', 'f', -5.4)
+   ('Clarinets 12', 59, 0, 'f', 'f', -5.1)
+   ('Clarinets 12', 60, 0, 'f', 'f', -5.1)
+   ('Clarinets 12', 61, 0, 'ff', 'ff', -4.4)
+   ('Clarinets 12', 62, 0, 'ff', 'ff', -4.4)
+   ('Clarinets 12', 78, 0, 'f', 'f', -5.4)
+   ('Contrabassoon', 61, 0, 'ff', 'ff', -4.4)
+   ('Contrabassoon', 62, 0, 'ff', 'ff', -4.4)
+   ('Double basses', 57, 0, 'mf', 'mf', -5.9)
+   ('Double basses', 58, 0, 'mf', 'mf', -5.9)
+   ('Double basses', 59, 0, 'f', 'f', -5.9)
+   ('Double basses', 60, 0, 'f', 'f', -5.9)
+   ('Double basses', 61, 0, 'ff', 'ff', -5.2)
+r03-m2: marked melodies whose median gain is a CUT: [('Violins I', [22, 29], -0.9), ('Bass clarinet', [31, 37], -1.6), ('Horns 12', [53, 60], -0.7), ('Violins I', [70, 77], -2.9)]

@@ -1,0 +1,18 @@
+r02-m1: stem | tremolo 8-24 vs 1-6 Hz dB (n) | held unmarked notes (n) | difference
+  Violins II | -2.7 (58) | -11.8 (117) | +9.1
+  Violas | -8.4 (18) | -11.9 (142) | +3.5
+  Violins I | -3.5 (12) | -6.7 (68) | +3.2
+r01-m1: stem | tremolo 8-24 vs 1-6 Hz dB (n) | held unmarked notes (n) | difference
+  Violins II | -7.7 (58) | -12.5 (117) | +4.9
+  Violas | -16.3 (18) | -13.4 (142) | -2.9
+  Violins I | -3.1 (12) | -5.7 (68) | +2.6
+r02-m2: stem | tremolo 8-24 vs 1-6 Hz dB (n) | held unmarked notes (n) | difference
+  Violins I | -2.5 (2) | -5.8 (73) | +3.3
+  Violins II | -1.8 (4) | -9.1 (87) | +7.3
+  Violas | -6.5 (20) | -13.1 (70) | +6.6
+  Violoncellos | -7.9 (2) | -16.2 (96) | +8.3
+r01-m2: stem | tremolo 8-24 vs 1-6 Hz dB (n) | held unmarked notes (n) | difference
+  Violins I | -3.0 (2) | -6.7 (73) | +3.7
+  Violins II | -5.5 (4) | -9.5 (87) | +4.0
+  Violas | -12.3 (20) | -12.4 (70) | +0.1
+  Violoncellos | -11.9 (2) | -15.4 (96) | +3.5

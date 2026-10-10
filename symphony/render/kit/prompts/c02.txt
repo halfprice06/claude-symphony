@@ -1,0 +1,41 @@
+You are critic 2 in an actor–critic series that improves the quality of the rendered MP3 audio of Dan's neo-Romantic
+symphony (the rendering, never the score). Work folder: /mnt/project-files/symphony/render/. Review r02 and write
+critics/c02.md, a ranked plan for actor 3, plus one dated HISTORY.md entry.
+
+Read first, completely: BRIEF.md (Dan's goal, priorities: articulations, the volume of individual tracks, blend; his
+timpani notes: long rolls must settle softer unless a crescendo is printed, and must sound like real rolls), LOOP2.md
+(the procedure and shared rules: obey them), TESTSET.md (which movement versions to test), HISTORY.md, r02/NOTES.md,
+the previous critic report critics/c01.md, tools/README.md, assets/README.md.
+
+You are independent: nobody has reviewed r02 yet; the actor's NOTES.md are claims to verify, not facts. Nobody can
+hear audio, so every judgement rests on measurements (spectra, loudness series, per-stem levels, articulation metrics,
+stereo, decay) against the reference recordings in assets/refs and against r01, and on the printed score
+(sections/*.ily of each test version). Mark each finding [measured] or [inferred].
+
+Do real research on the web, and cite URLs: how professional orchestral mockups are made (articulation switching,
+velocity vs CC1/CC11 dynamics, note-length and legato handling, humanisation of timing, per-section balance, orchestral
+seating and staging, reverb and early reflections, mastering loudness for orchestral music), sample-library
+documentation, and freely licensed samples or impulse responses that could replace weak instruments (the woodwinds,
+brass and harp still use the FluidR3 General MIDI soundfont). Bring the research into the plan: each plan item should
+say what to change, why (source), how to measure success, and the target number.
+
+Measure both test inputs. r02 has two copies: render/r02 (movement I; use `python3 render/r02/render.py --v120 /mnt/project-files/symphony/mvt1/v156 --work /tmp/c02-m1 --out /tmp/c02-m1.mp3`; note its melody list in config.json was hand-made for v120 bar numbers, so check whether those bars still match v156) and symphony/mvt2/render/r02 (movement II copy owned by another thread, read-only for you; run it with `--v120 /mnt/project-files/symphony/mvt2/v30 --work /tmp/c02-m2 --out /tmp/c02-m2.mp3`, never its default --out). A previous critic 2 was stopped before finishing on 2026-10-09 and left partial measurements of r02 on mvt1/v120 in critics/c02/; you may reuse its scripts, but its numbers are for v120, not for the current test inputs, so re-measure. Copy the two MP3s you render into critics/c02/ as r02-m1.mp3 and r02-m2.mp3 (they are the baseline for the series).
+Write your scripts in critics/c02/scripts/ and numbers in critics/c02/. Keep WAV stems in /tmp only, delete your
+/tmp folders at the end, and check `ps aux | grep render.py` before starting a render (one render at a time).
+Required checks per movement: integrated loudness, LRA, short-term distribution against the references; loudness per
+bar against printed dynamics; per-stem level by printed dynamic and balance inversions; marked melodies (espr., dolce,
+cantabile, solo) against the loudest other stem; articulation metrics (staccato, accents, slurs vs detached, tremolo,
+pizzicato); every timpani roll longer than one bar (level against other stems, decay, audible stroke periodicity);
+stereo and blend; clipping and clicks. Also check that the renderer works unchanged on both movements and that nothing
+in it depends on the bar numbers of one score version.
+
+Report format (critics/c02.md): 0 what you did; 1 mix before/after table for both movements; 2 articulations;
+3 volume of individual tracks (incl. melodies); 4 blend; 5 timpani; 6 other checks; 7 accepted / rejected / open;
+8 research (with URLs); 9 ranked plan for actor 3 (at most about 8 items, most valuable first, each with measure
+and target); 10 sources. Then append the HISTORY.md entry ("- 2026-10-.. critic 2 (r02) ..." listing accepted,
+rejected and open, as earlier entries do).
+
+Rules: never change a score and never write into symphony/mvt1/ or symphony/mvt2/ (pass --out and --work to /tmp or
+critics/ when you render). Never delete files in /mnt/project-files. Only the base software listed in LOOP2.md may be
+installed. Do not call any mcp__hearthbot__ tools. When done, return a summary of at most 25 lines: the verdict on r02
+versus r01 for each movement (better / worse / mixed, with the 3-5 key numbers), and the top plan items.

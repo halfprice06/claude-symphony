@@ -1,0 +1,18 @@
+Violins I      dry/Violins_I.wav                        n  12  after last note-off: -20 dB in 0.20 s, -40 dB in 0.33 s; L/R corr 0.54
+Violins I      wetwav/Violins_I.wav                     n  12  after last note-off: -20 dB in 0.34 s, -40 dB in 0.79 s; L/R corr 0.41
+Violas         dry/Violas.wav                           n  11  after last note-off: -20 dB in 0.13 s, -40 dB in 0.28 s; L/R corr 0.95
+Violas         wetwav/Violas.wav                        n  11  after last note-off: -20 dB in 0.32 s, -40 dB in 0.87 s; L/R corr 0.77
+Violoncellos   dry/Violoncellos.wav                     n   8  after last note-off: -20 dB in 0.13 s, -40 dB in 0.29 s; L/R corr 0.71
+Violoncellos   wetwav/Violoncellos.wav                  n   8  after last note-off: -20 dB in 0.41 s, -40 dB in 0.94 s; L/R corr 0.56
+Double basses  dry/Double_basses.wav                    n  15  after last note-off: -20 dB in 0.11 s, -40 dB in 0.17 s; L/R corr 0.66
+Double basses  wetwav/Double_basses.wav                 n  22  after last note-off: -20 dB in 0.30 s, -40 dB in 1.02 s; L/R corr 0.47
+Flutes 12      dry/Flutes_12.wav                        n  16  after last note-off: -20 dB in 0.05 s, -40 dB in 0.14 s; L/R corr 0.77
+Flutes 12      wetwav/Flutes_12.wav                     n  20  after last note-off: -20 dB in 0.34 s, -40 dB in 0.88 s; L/R corr 0.70
+Oboes 12       dry/Oboes_12.wav                         n  15  after last note-off: -20 dB in 0.04 s, -40 dB in 0.10 s; L/R corr 0.76
+Oboes 12       wetwav/Oboes_12.wav                      n  19  after last note-off: -20 dB in 0.38 s, -40 dB in 0.92 s; L/R corr 0.72
+Clarinets 12   dry/Clarinets_12.wav                     n   4  after last note-off: -20 dB in 0.01 s, -40 dB in 0.01 s; L/R corr 1.00
+Clarinets 12   wetwav/Clarinets_12.wav                  n  26  after last note-off: -20 dB in 0.42 s, -40 dB in 0.91 s; L/R corr 0.90
+Horns 12       dry/Horns_12.wav                         n  14  after last note-off: -20 dB in 0.09 s, -40 dB in 0.18 s; L/R corr 0.88
+Horns 12       wetwav/Horns_12.wav                      n  19  after last note-off: -20 dB in 0.39 s, -40 dB in 0.84 s; L/R corr 0.57
+Trumpets 12    dry/Trumpets_12.wav                      n  19  after last note-off: -20 dB in 0.04 s, -40 dB in 0.11 s; L/R corr 1.00
+Trumpets 12    wetwav/Trumpets_12.wav                   n  20  after last note-off: -20 dB in 0.46 s, -40 dB in 0.98 s; L/R corr 0.76

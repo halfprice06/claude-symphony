@@ -1,0 +1,10 @@
+== mvt1/v181
+{"accent": 607, "detached": 2943, "legato": 1147, "slur_end": 445, "staccato": 81, "sf": 23, "unmatched": 20, "tenuto/fermata": 42, "timp_rolls": 26, "string_accent_channel": 200, "tremolo32": 94, "pizz": 42, "tremolo16_notes": 5, "fp": 1, "overlap_trimmed": 44, "percussion_events": 4, "velocity_outliers_fixed": 82}
+bars 182 notes 5088 melodies 20 rolls 8 [(1, 4, 'ppp'), (13, 14, 'p'), (41, 43, 'ff'), (117, 121, 'f'), (122, 130, 'fff'), (144, 146, 'mp'), (167, 169, 'f'), (181, 182, 'ppp')]
+staves without own config entry: []
+unmatched 20
+== mvt2/v56
+{"legato": 554, "slur_end": 159, "unmatched": 14, "detached": 518, "tenuto/fermata": 37, "accent": 3, "timp_rolls": 11, "sf": 8, "tremolo32": 27, "pizz": 25, "string_accent_channel": 1, "overlap_trimmed": 6, "percussion_events": 0, "velocity_outliers_fixed": 39}
+bars 92 notes 1537 melodies 17 rolls 3 [(2, 3, 'ppp'), (67, 70, 'ppp'), (89, 92, 'ppp')]
+staves without own config entry: []
+unmatched 14
