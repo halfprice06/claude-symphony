@@ -67,6 +67,24 @@ def ltas(x, sr):
     return {str(c): round(v - ref, 1) for c, v in bands.items()}
 
 
+# c09 (critic C #1): band shares of total energy (dB), against the Dvorak MP3 and two lossless slow-movement references
+# (Brahms 1/ii and 4/ii, Musopen; stored metrics, since their audio is not on disk). Tune the low end against all three.
+SHARE_BANDS = [(20, 100), (100, 250), (250, 500), (500, 2000), (2000, 6000), (6000, 20000)]
+BRAHMS = {k: f"/Users/gooby/sandbox/claude_composes/symphony/render/critics/c04/ref_{k}_musopen/metrics.json"
+          for k in ("brahms1_ii", "brahms4_ii")}
+
+
+def shares(x, sr):
+    mono = (x.mean(1) if x.ndim > 1 else x).astype(np.float64)
+    n = 1 << 15
+    S = 0
+    for k in range(0, len(mono) - n, n):
+        S = S + np.abs(np.fft.rfft(mono[k:k + n] * np.hanning(n))) ** 2
+    f = np.fft.rfftfreq(n, 1 / sr)
+    tot = S[f > 15].sum()
+    return {f"{a}-{b}Hz": round(float(10 * np.log10(S[(f >= a) & (f < b)].sum() / tot)), 2) for a, b in SHARE_BANDS}
+
+
 mix_path = os.path.join(RENDER, "00_Master.wav")
 mix, sr = sf.read(mix_path)
 res = {"mix": ebur(mix_path), "bars": len(bars)}
@@ -76,7 +94,11 @@ res["mix"]["ltas"] = ltas(mix, sr)
 if os.path.exists(REF):
     tmp = os.path.join(OUT, "_ref.wav")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", REF, "-ac", "2", "-ar", "48000", tmp])
-    r, rsr = sf.read(tmp); res["ref_ltas_dvorak9_i"] = ltas(r, rsr); os.remove(tmp)
+    r, rsr = sf.read(tmp); res["ref_ltas_dvorak9_i"] = ltas(r, rsr); res["ref_shares_dvorak9_i"] = shares(r, rsr); os.remove(tmp)
+res["mix"]["shares"] = shares(mix, sr)
+for k, pth in BRAHMS.items():
+    if os.path.exists(pth):
+        res[f"ref_shares_{k}"] = json.load(open(pth))["spectrum"]["band_shares_dB"]
 
 # ---- stems ----
 tracks = {t["name"]: t for t in d["tracks"]}
@@ -128,6 +150,12 @@ L.append("| Hz | " + " | ".join(m["ltas"]) + " |\n|---|" + "---|" * len(m["ltas"
 L.append("| mix | " + " | ".join(str(v) for v in m["ltas"].values()) + " |")
 if "ref_ltas_dvorak9_i" in res:
     L.append("| ref | " + " | ".join(str(v) for v in res["ref_ltas_dvorak9_i"].values()) + " |")
+L.append("\n## Band shares of total energy (dB): mix vs references (c09)\n")
+L.append("| | " + " | ".join(m["shares"]) + " |\n|---|" + "---|" * len(m["shares"]))
+L.append("| mix | " + " | ".join(str(v) for v in m["shares"].values()) + " |")
+for k in ("dvorak9_i", "brahms1_ii", "brahms4_ii"):
+    if f"ref_shares_{k}" in res:
+        L.append(f"| {k} | " + " | ".join(str(res[f"ref_shares_{k}"].get(b, "")) for b in m["shares"]) + " |")
 L.append("\n## Mix level per bar (dB)\n")
 L.append(" ".join(f"{i + 1}:{v}" for i, v in enumerate(m["bar_db"])))
 L.append("\n## Stems: median level (dB) of bars where the track plays, by printed dynamic\n")

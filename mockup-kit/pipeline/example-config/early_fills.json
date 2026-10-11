@@ -1,0 +1,205 @@
+{
+ "_doc": "c08 (critic A #1): early fills for legato targets whose samples sag 5-12 dB for their first 0.3 s at a flat CC11. {track: {score onset qn: dB}}: vol_db ramps 0 at onset - 0.02 qn to +dB at onset + 0.05 s, holds to + 0.35 s, back to 0 by + 0.6 s. Value = measured sag - 2, capped at 8. c09 (A #1): Ob1 55.5/57/271, CA 99/129.5/133.5, Fl1 190/252 added and Fl1 256 3 -> 5 (transition-sample holes of 8-10 dB at 1-2 semitone slurred steps, dB = pre-envelope dip - 3). c10 (A #2, A #4): a value may be {\"db\", \"pre_s\"}: 0 at onset - pre_s - 0.03 s, +db at onset - pre_s, held to onset + 0.10 s, 0 by + 0.35 s (holes that start before the score onset); its breakpoints are written exactly (parts.json vol_bp). Cl1 266, Fl1 270.5, Hn1 203 (pre_s), BCl 92.5, Ob1 270/142, CA 132, CA 133.5 4 -> 6; strings Vla 244/245.5/254.5, Vln II 59/60, Vc 77/86, Vln I 67.5. c11 (A #2, C #2): a dict value may carry \"hold_s\" (default 0.10): +db held to onset + hold_s, 0 by onset + hold_s + 0.25 s (holes longer than 0.10 s); pre_s defaults to 0. Bn1 231/262/269, Hn1 203 hold, Vln I 71/80/86, Vln II 65/66, CA 129.5/168, Ob1 142.5, Cl1 184/186, Vla 251.5; Horn 3 204 and Horn 2 210 (slow Ab4 Sus MAX attacks). After the c11 render: Horn 3 204 8 -> {8, hold 0.10} and Horn 2 210 6 -> {5, hold 0.22} (the plain 0.35 s hold put both 4-10 dB over their body at +0.3..+0.45 s, where the samples swell by themselves); applied to the rendered stems as a post-render envelope fix.",
+ "Flute 1": {
+  "111": 8,
+  "118": 6,
+  "132": 7,
+  "134": 5,
+  "189": 6,
+  "198": 4,
+  "250": 4,
+  "256": 5,
+  "190": 5,
+  "252": 6,
+  "270.5": {
+   "db": 5,
+   "pre_s": 0.06
+  }
+ },
+ "Oboe 1": {
+  "47": 4,
+  "56": 7,
+  "59": 4,
+  "140": 6,
+  "143": 8,
+  "189": 6,
+  "262": 3,
+  "270.5": 4,
+  "55.5": 7,
+  "57": 6,
+  "271": 7,
+  "270": 4,
+  "142": 4,
+  "142.5": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.28
+  },
+  "145": 4
+ },
+ "Cor anglais": {
+  "98": 4,
+  "134": 4,
+  "135": 4,
+  "136": 5,
+  "99": 6,
+  "129.5": {
+   "db": 7,
+   "pre_s": 0.03
+  },
+  "133.5": 6,
+  "132": 4,
+  "168": {
+   "db": 4,
+   "pre_s": 0,
+   "hold_s": 0.22
+  },
+  "97": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.25
+  },
+  "126": 5,
+  "128": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.3
+  },
+  "129": 4,
+  "131.5": 5
+ },
+ "Clarinet 1": {
+  "252": 4,
+  "266": {
+   "db": 6,
+   "pre_s": 0.1
+  },
+  "184": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.16
+  },
+  "186": {
+   "db": 4,
+   "pre_s": 0,
+   "hold_s": 0.37
+  },
+  "176": 4,
+  "178": 5
+ },
+ "Bassoon 1": {
+  "264": 4,
+  "267": 3,
+  "231": {
+   "db": 7,
+   "pre_s": 0,
+   "hold_s": 0.4
+  },
+  "262": 5,
+  "269": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.28
+  }
+ },
+ "Horn 1": {
+  "39": 4,
+  "176": 5,
+  "184": 3,
+  "188": 4,
+  "199": 4,
+  "203": {
+   "db": 5,
+   "pre_s": 0.1,
+   "hold_s": 0.42
+  }
+ },
+ "Horn 2": {
+  "252": 4,
+  "258": 6,
+  "210": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.22
+  }
+ },
+ "Bass clarinet": {
+  "92.5": 5,
+  "92": 6,
+  "93": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.45
+  },
+  "98": {
+   "db": 4,
+   "pre_s": 0,
+   "hold_s": 0.3
+  },
+  "99": 4
+ },
+ "Violas": {
+  "244": {
+   "db": 6,
+   "pre_s": 0.06
+  },
+  "245.5": 4,
+  "254.5": {
+   "db": 5,
+   "pre_s": 0.04
+  },
+  "251.5": {
+   "db": 5,
+   "pre_s": 0.02,
+   "hold_s": 0.14
+  }
+ },
+ "Violins II": {
+  "59": 5,
+  "60": 5,
+  "65": {
+   "db": 5,
+   "pre_s": 0.06
+  },
+  "66": {
+   "db": 5,
+   "pre_s": 0.02,
+   "hold_s": 0.4
+  }
+ },
+ "Violoncellos": {
+  "77": 5,
+  "86": 4,
+  "68": 4,
+  "78": {
+   "db": 3,
+   "pre_s": 0,
+   "hold_s": 0.3
+  }
+ },
+ "Violins I": {
+  "67.5": 5,
+  "71": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.4
+  },
+  "80": {
+   "db": 4,
+   "pre_s": 0,
+   "hold_s": 0.2
+  },
+  "86": {
+   "db": 4,
+   "pre_s": 0,
+   "hold_s": 0.35
+  }
+ },
+ "Horn 3": {
+  "204": {
+   "db": 8,
+   "pre_s": 0,
+   "hold_s": 0.1
+  }
+ }
+}
