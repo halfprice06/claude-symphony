@@ -10,7 +10,8 @@ import numpy as np
 import soundfile as sf
 
 SRC, OUT = sys.argv[1], sys.argv[2]
-TARGET_I, KNEE_BELOW, RATIO, CAP_DB, SMOOTH_S = -19.0, 6.0, 2.0, 10.0, 3.0
+# c10: TARGET_I -19.0 -> -19.5 (critics B #3 / C #2 fallback, inside the research range -18..-20): the limiter did 4.5 dB
+TARGET_I, KNEE_BELOW, RATIO, CAP_DB, SMOOTH_S = -19.5, 6.0, 2.0, 10.0, 3.0
 LIMIT = "aresample=192000,alimiter=limit=0.841:attack=5:release=80:level=0:asc=1,aresample=48000"
 
 

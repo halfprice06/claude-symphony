@@ -127,11 +127,27 @@ def apply_mix(inst, m):
         for ins in c["inserts"]:
             if ins["class"] == "SendProcessor" and ins.get("output") == "fx:0":
                 ins["level"] = m["send"]
+                if MIX["reverb"].get("send_pre_fader"):
+                    # c09 (C #2): the send was post-fader, so the hall got each mic channel's panned signal and returned
+                    # it at the seat. Pre-fader (Opus manual pp. 106-107) it is taken before the channel fader and pan;
+                    # the level is scaled by the channel volume so the reverb input stays as before
+                    ins["post"] = False
+                    ins["level"] = round(m["send"] * c["volume"], 4)
+    # c13 (C #1): the main (Master) channel pans after the reverb return is mixed in; the DIV A patches ship it panned
+    # (1st Violins DIV A -0.74, Celli DIV A +0.33), which put the solo violin and its hall at the left wall. Centre it.
+    main = next((c for c in chans if c["channelId"] == "main"), None)
+    if main is not None:
+        main["pan"], main["panLeft"], main["panRight"] = 0.0, -1.0, 1.0
     fx = next(c for c in chans if c["channelId"] == "fx:0")
     fx["volume"] = MIX["reverb"]["fx_volume"]
     fx["pan"], fx["panLeft"], fx["panRight"] = 0.0, -1.0, 1.0
     rv = shared_reverb()
     rv["wet"] = MIX["reverb"]["wet"]
+    if MIX["reverb"].get("high_cut_hz"):
+        # c09 (C #4): Bandpass on, high cut on the hall only (manual p. 133; a hall's tail darkens). The state carries two
+        # key pairs (highFilterFreq / highCutFreq); both are set
+        rv["filterActive"] = True
+        rv["highFilterFreq"] = rv["highCutFreq"] = float(MIX["reverb"]["high_cut_hz"])
     fx["inserts"] = [i for i in fx["inserts"] if i["class"] != "ConvolutionReverb"] + [rv]
 
 
@@ -208,6 +224,8 @@ def vol_points(tr):
     vol = tr.get("vol_db", [])
     first = dyn[0][1] if dyn else 46
     grid = [i * 0.125 for i in range(int((d["end_qn"] + 6) / 0.125))]   # score qn
+    # c10: exact breakpoints of fast vol_db shapes (parts.json vol_bp), between the grid points
+    grid = sorted(set(grid) | {q for q in tr.get("vol_bp", []) if 0 <= q < grid[-1]})
     g = m["gain_db"]   # c02: with a volume envelope REAPER ignores D_VOL (measured: every gain was lost), so the gain goes in here
     vals = [round(g + step_at(vol, q) + (trim(step_at(dyn, q, first)) if dyn else 0.0), 2) for q in grid]
     out = []
@@ -253,16 +271,10 @@ local function set_by_fmt(tr, fx, p, target)
   local _, s = reaper.TrackFX_GetFormattedParamValue(tr, fx, p, "")
   return s
 end
-local function set_eq(tr, bands)
-  for i = reaper.TrackFX_GetCount(tr) - 1, 1, -1 do
-    local _, nm = reaper.TrackFX_GetFXName(tr, i, "")
-    if nm:find("ReaEQ") then reaper.TrackFX_Delete(tr, i) end
-  end
-  if #bands == 0 then return {} end
-  local fx = reaper.TrackFX_AddByName(tr, "ReaEQ", false, -1)
-  local out = {fx = fx}
+local function config_eq(tr, fx, bands, out)
   reaper.TrackFX_SetNamedConfigParm(tr, fx, "BANDTYPE0", "0")
   reaper.TrackFX_SetNamedConfigParm(tr, fx, "BANDTYPE1", "8")
+  reaper.TrackFX_SetNamedConfigParm(tr, fx, "BANDTYPE3", "1")   -- c09 (C #1): band 3 = high shelf
   for b = 0, 4 do set_by_fmt(tr, fx, 3 * b + 1, 0.0) end
   reaper.TrackFX_SetNamedConfigParm(tr, fx, "BANDENABLED4", "0")
   for _, bd in ipairs(bands) do
@@ -271,11 +283,22 @@ local function set_eq(tr, bands)
       reaper.TrackFX_SetNamedConfigParm(tr, fx, "BANDENABLED4", "1")
       out[#out + 1] = "highpass " .. set_by_fmt(tr, fx, 12, bd.hz) .. " Hz"
     else
-      local b = bd.band == "lowshelf" and 0 or 1
-      out[#out + 1] = set_by_fmt(tr, fx, 3 * b, bd.hz) .. " Hz " .. set_by_fmt(tr, fx, 3 * b + 1, bd.db) .. " dB"
+      local b = (bd.band == "lowshelf" and 0) or (bd.band == "highshelf" and 3) or 1
+      reaper.TrackFX_SetNamedConfigParm(tr, fx, "BANDENABLED" .. b, "1")
+      out[#out + 1] = bd.band .. " " .. set_by_fmt(tr, fx, 3 * b, bd.hz) .. " Hz " .. set_by_fmt(tr, fx, 3 * b + 1, bd.db) .. " dB"
       if bd.bw then out[#out] = out[#out] .. " bw " .. set_by_fmt(tr, fx, 3 * b + 2, bd.bw) end
     end
   end
+end
+local function set_eq(tr, bands)
+  for i = reaper.TrackFX_GetCount(tr) - 1, 1, -1 do
+    local _, nm = reaper.TrackFX_GetFXName(tr, i, "")
+    if nm:find("ReaEQ") then reaper.TrackFX_Delete(tr, i) end
+  end
+  if #bands == 0 then return {} end
+  local fx = reaper.TrackFX_AddByName(tr, "ReaEQ", false, -1)
+  local out = {fx = fx}
+  config_eq(tr, fx, bands, out)
   for b = 0, 4 do
     local _, en = reaper.TrackFX_GetNamedConfigParm(tr, fx, "BANDENABLED" .. b)
     local _, ty = reaper.TrackFX_GetNamedConfigParm(tr, fx, "BANDTYPE" .. b)
@@ -284,16 +307,47 @@ local function set_eq(tr, bands)
   end
   return out
 end
+
+-- c09 (A #4): a second ReaEQ (after set_eq, which deletes every ReaEQ) whose Wet parameter is automated: 0 before
+-- from_qn, 1 from it (square). Emulates a mute on the horns (HO's ConSordino script is a strings EQ; inert on 1FH).
+local function set_mute_eq(tr, spec)
+  if not spec then return nil end
+  local fx = reaper.TrackFX_AddByName(tr, "ReaEQ", false, -1)
+  local out = {fx = fx}
+  config_eq(tr, fx, spec.bands, out)
+  local wet = -1
+  for p = 0, reaper.TrackFX_GetNumParams(tr, fx) - 1 do
+    local _, pn = reaper.TrackFX_GetParamName(tr, fx, p, "")
+    if pn == "Wet" then wet = p end
+  end
+  if wet < 0 then out[#out + 1] = "no Wet parameter"; return out end
+  local env = reaper.GetFXEnvelope(tr, fx, wet, true)
+  reaper.DeleteEnvelopePointRange(env, -1, 1e9)
+  reaper.InsertEnvelopePoint(env, 0.0, 0.0, 1, 0, false, true)
+  reaper.InsertEnvelopePoint(env, reaper.TimeMap2_QNToTime(0, spec.from_qn), 1.0, 1, 0, false, true)
+  reaper.Envelope_SortPoints(env)
+  reaper.TrackFX_SetParam(tr, fx, wet, 0.0)
+  out[#out + 1] = "mute eq wet param " .. wet .. " points " .. reaper.CountEnvelopePoints(env)
+  return out
+end
 """
 
 
-def eq_lua(m):
+def eq_lua(m, bands=None):
     """c04: mix.json eq bands as a Lua table."""
     rows = []
-    for b in m.get("eq", []):
+    for b in (m.get("eq", []) if bands is None else bands):
         bw = f', bw={b["bw_oct"]}' if "bw_oct" in b else ""
         rows.append(f'{{band="{b["band"]}", hz={b["hz"]}, db={b.get("db", 0)}{bw}}}')
     return "{" + ",".join(rows) + "}"
+
+
+def mute_lua(m):
+    """c09 (A #4): mix.json mute_eq {from_qn, bands} as a Lua table (nil when absent); from_qn is a score qn."""
+    me = m.get("mute_eq")
+    if not me:
+        return "nil"
+    return f'{{from_qn={me["from_qn"] + PRE}, bands={eq_lua(m, me["bands"])}}}'
 
 
 def b64_path(i, tr):
@@ -334,6 +388,8 @@ reaper.MIDI_Sort(take)
 local _, nn, nc = reaper.MIDI_CountEvts(take)
 local envn = set_vol_env(tr, {vpts})
 local eq = set_eq(tr, {eq_lua(m)})
+local meq = set_mute_eq(tr, {mute_lua(m)})
+if meq then eq[#eq + 1] = meq end
 """
 
 
@@ -388,7 +444,7 @@ def mix_job():
         if ONLY and tr["name"] not in ONLY:
             continue
         m = mix_for(tr["name"])
-        rows.append(f'{{n={json.dumps(tr["name"])}, pan=0, w=1, vol={10 ** (m["gain_db"] / 20):.6f}, env={lua_list(vol_points(tr), ["qn", "db"])}, eq={eq_lua(m)}}}')
+        rows.append(f'{{n={json.dumps(tr["name"])}, pan=0, w=1, vol={10 ** (m["gain_db"] / 20):.6f}, env={lua_list(vol_points(tr), ["qn", "db"])}, eq={eq_lua(m)}, meq={mute_lua(m)}}}')
     lua = ENV_LUA + f"""
 local done = {{}}
 for _, r in ipairs({{{",".join(rows)}}}) do
@@ -399,6 +455,8 @@ for _, r in ipairs({{{",".join(rows)}}}) do
     reaper.SetMediaTrackInfo_Value(tr, "D_WIDTH", r.w)
     set_vol_env(tr, r.env)
     local eq = set_eq(tr, r.eq)
+    local meq = set_mute_eq(tr, r.meq)
+    if meq then eq[#eq + 1] = meq end
     done[#done + 1] = r.n
     if #eq > 0 then done[#done + 1] = eq end
   end

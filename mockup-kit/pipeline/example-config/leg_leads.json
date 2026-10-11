@@ -1,0 +1,12 @@
+{
+ "_doc": "c11 (critic C #3): per-onset legato lead offsets in seconds, {track: {score onset qn: s}}, matched within 0.02 qn, added to the family LEG_LEAD_S (plus LEG_EXTRA_S / LEG_PAIR_EXTRA_S); total clamped to 0.03-0.35 s. Largamente bars 61-62: Vln I crossed 0.07-0.14 s after the cellos at v108 and v124 alike; the cellos crossed inside the qn 204 caesura. c12 (A #6): Vln I 262 +0.05 (the ff arrival after the grace run reached its body at +0.105 s; Vln II +0.025).",
+ "Violins I": {
+  "204": 0.07,
+  "208": 0.05,
+  "210": 0.05,
+  "262": 0.05
+ },
+ "Violoncellos": {
+  "204": -0.07
+ }
+}
