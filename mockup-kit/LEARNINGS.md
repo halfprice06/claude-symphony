@@ -240,3 +240,11 @@ Library: Hollywood Orchestra Opus Edition Diamond (KS Master patches for solo wi
 - Effect of role-based CC1 vibrato (c04): target was 20-40 cents peak-to-peak on solo oboe/cor anglais/flute long notes (c04 critic C measured 1-16 cents on the oboe before the change); not re-measured.
 - CC70 finger position effect on sound; CC5, CC22, Slur Runs rows, `currentTrigger`/`lastArticulationId` state fields: untested.
 - How much compressed memory a render tolerates: c06 failed at 42 of 57 GB (session grown by reloads), c08 passed at 36 of 49 GB (fresh session, pressure from other jobs). The 6 GB gate is conservative; the probe is the actual check.
+
+## Delivery master for headphone listening (added 2026-10-11)
+
+- An unprocessed orchestral mockup master measures about LRA 20-24 LU (c07 23.6), which is right for a real recording (Dvorak 9/i reference 21.8 LU) but forces the listener to choose between inaudible pp and painful ff on headphones (Dan, after c07).
+- Target for the delivered file: LRA 14-16 LU (BBC classical guideline 15 LU, EBU Tech 3401), -19 LUFS, -1.5 dBTP, 16-19 dB from the 10th-percentile short-term loudness to the loudest, no reversed swells, limiter at most about 3 dB (`loop/DYNAMICS-RESEARCH.md`).
+- Do not use loudnorm in dynamic mode or a low-threshold downward compressor: on the v77 render they gave LRA 7.8, cut the climax rise from 15 to 5.3 dB and reversed 11 five-second swells (measured).
+- Use a slow look-ahead gain ride on the quiet passages only (`pipeline/deliver_master.py`: knee 6 dB under the 95th-percentile short-term loudness, 2:1, cap +10 dB, 3 s zero-phase smoothing), then constant gain and a true-peak limiter. On c08: LRA 23.6 -> 15.9, climax kept, limiter 4.6 dB (so the loudest transients still need trimming in the mix).
+- Do part of the lift in the mix with volume envelopes, not CC11 (CC11 changes the timbre layer): raise ppp/pp 2-4 dB and p 1-2 dB, lift exposed soft solos 2-3 dB.
