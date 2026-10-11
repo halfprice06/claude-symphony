@@ -13,6 +13,9 @@ Dan's standing priorities for renders (from `symphony/render/BRIEF.md`, written 
 4. Accents: emphasis and weight, not a hard click (about 2-4 dB, no sharp transient).
 5. Timpani rolls: start at the printed dynamic, then settle under the texture. Only a printed crescendo makes a roll grow. A long roll is never the loudest stem unless the timpani lead.
 
+Dan (2026-10-11, after cycle 7): "Right now, I have to turn my head phones to max volume to hear the soft parts well, which makes the loudest parts almost unbearable. pls improve in this respect." So:
+6. The delivered mp3 must be comfortable at one volume setting: soft passages clearly audible, loud passages not painful. `render_cycle.py` now applies a delivery master chain to the mp3 only (slow compression, then loudnorm to -18 LUFS, LRA about 11 LU, -1.5 dBTP). Keep that chain unless measurements show it pumps or flattens the climax, and also narrow the range in the mix itself: the ppp/pp passages should not sit more than about 20 dB under the ff climax in the unprocessed master (cycle 7: LRA 23.7 LU; a real orchestral recording on a commercial release is typically 10-15 LU). Shape the contrast musically (a pp still sounds soft through timbre and texture), not by making everything loud. Critics measure LRA and the soft/loud bar levels of both the master and the delivered mp3.
+
 ## Nobody can hear
 
 You cannot hear audio. Judge by measurements and by reading the data: per-bar stem levels against the printed dynamics, spectra, loudness range, onset timing, note lengths and keyswitch placement in the MIDI, and comparison with a real orchestral recording (`symphony/render/assets/refs/dvorak9_i_columbia.mp3`). Say which judgements are measured and which are inferred.

@@ -6,6 +6,10 @@ Usage: python build_reaper.py <parts.json> <jobs-dir> [--mix-only] [track names.
   state loads every articulation the track uses (KS Masters load only their first rows by default).
   With no track names: sets the tempo map and builds every track.
   Mix settings come from mix.json next to parts.json (track gain, stereo seat/width, Opus mics, reverb).
+  --midi-only (c07): replace each track's MIDI item, volume envelope and ReaEQ without reloading its Opus patch, when
+  its Opus state is unchanged since the last full build (jobs/NN_*.b64); a track whose state changed is fully rebuilt.
+  The tempo map is not rewritten (rebuild everything after a tempo-map change), unless --tempo is given (c08): then the
+  tempo map is written first and every listed track's items are recreated on it.
   --mix-only: only set track volume, pan, the volume envelope and the ReaEQ (c04) on the existing tracks (no patch reload).
   c05: seats and widths live in the Opus state (mic channel panLeft/panRight), so a seat, width, mic or reverb change
   needs a full rebuild of the track; --mix-only keeps REAPER's pan at centre / width 1.
@@ -18,10 +22,16 @@ import opus_state
 
 PARTS, JOBS = sys.argv[1], sys.argv[2]
 MIX_ONLY = "--mix-only" in sys.argv[3:]
-ONLY = set(a for a in sys.argv[3:] if a != "--mix-only")
+MIDI_ONLY = "--midi-only" in sys.argv[3:]   # c07: see midi_job
+TEMPO = "--tempo" in sys.argv[3:]   # c08: with --midi-only, rewrite the tempo map first
+ONLY = set(a for a in sys.argv[3:] if a not in ("--mix-only", "--midi-only", "--tempo"))
 os.makedirs(JOBS, exist_ok=True)
 RPR = ["python3", os.path.expanduser("~/.rpr-bridge/rpr.py")]
 d = json.load(open(PARTS))
+# c06 (A #1): every event is written PRE qn later than its parts.json (score) position; the pre-roll bar is silent except
+# for each track's first keyswitch and first controller values at qn 0.25. render_cycle.py cuts the pre-roll off.
+PRE = d.get("preroll_qn", 0.0)
+PRE_BPM = d.get("preroll_bpm", 60.0)
 MIX = json.load(open(os.path.join(os.path.dirname(os.path.abspath(PARTS)), "mix.json")))
 
 
@@ -50,11 +60,14 @@ def tempo_job():
     # absolute seconds for each tempo change (tempo is constant between changes)
     pts, t, last_q, last_bpm = [], 0.0, 0.0, None
     sig = {q: (n, dd) for q, n, dd in d["timesig"]}
+    if PRE:
+        pts.append({"t": 0.0, "bpm": PRE_BPM, "num": sig.get(0.0, (3, 4))[0], "den": sig.get(0.0, (3, 4))[1], "qn": 0.0})
+        t = PRE * 60.0 / PRE_BPM
     for q, bpm in d["tempo"]:
         if last_bpm is not None:
             t += (q - last_q) * 60.0 / last_bpm
         n, dd = sig.get(q, (0, 0))
-        pts.append({"t": round(t, 6), "bpm": bpm, "num": n, "den": dd, "qn": q})
+        pts.append({"t": round(t, 6), "bpm": bpm, "num": n, "den": dd, "qn": q + PRE})
         last_q, last_bpm = q, bpm
     lua = f"""
 reaper.SetCurrentBPM(0, {pts[0]['bpm']}, false)
@@ -72,7 +85,7 @@ end
 reaper.GetSetProjectInfo(0, "PROJECT_SRATE", 48000, true)
 reaper.GetSetProjectInfo(0, "PROJECT_SRATE_USE", 1, true)
 return {{ markers = reaper.CountTempoTimeSigMarkers(0), mismatches = bad,
-         end_sec = reaper.TimeMap2_QNToTime(0, {d['end_qn']}) }}
+         end_sec = reaper.TimeMap2_QNToTime(0, {d['end_qn'] + PRE}), preroll_sec = reaper.TimeMap2_QNToTime(0, {PRE}) }}
 """
     p = f"{JOBS}/00_tempo.lua"
     open(p, "w").write(lua)
@@ -181,7 +194,8 @@ def vol_points(tr):
     st = MIX.get("soft_trim_db", {})
     soft = {} if tr["name"] in st.get("_except", []) else st
     soft = m.get("soft_trim_db", soft)   # c03: per-track override (Violas pp 0)
-    tbl = [(22, soft.get("ppp", 0)), (34, soft.get("pp", 0)), (46, 0.0), (88, dt["f"]), (114, dt["ff"]), (127, dt["ff"])]
+    # c06 (B #2): a "p" anchor at CC 46 (0 when absent, as before)
+    tbl = [(22, soft.get("ppp", 0)), (34, soft.get("pp", 0)), (46, soft.get("p", 0)), (88, dt["f"]), (114, dt["ff"]), (127, dt["ff"])]
 
     def trim(cc):
         if cc <= tbl[0][0]:
@@ -193,13 +207,15 @@ def vol_points(tr):
     dyn = tr.get("dyn_curve", [])
     vol = tr.get("vol_db", [])
     first = dyn[0][1] if dyn else 46
-    grid = [i * 0.125 for i in range(int((d["end_qn"] + 6) / 0.125))]
+    grid = [i * 0.125 for i in range(int((d["end_qn"] + 6) / 0.125))]   # score qn
     g = m["gain_db"]   # c02: with a volume envelope REAPER ignores D_VOL (measured: every gain was lost), so the gain goes in here
     vals = [round(g + step_at(vol, q) + (trim(step_at(dyn, q, first)) if dyn else 0.0), 2) for q in grid]
     out = []
     for k, (q, v) in enumerate(zip(grid, vals)):
         if k == 0 or k == len(vals) - 1 or v != vals[k - 1] or v != vals[k + 1]:
-            out.append({"qn": q, "db": v})
+            out.append({"qn": q + PRE, "db": v})
+    if PRE:
+        out.insert(0, {"qn": 0.0, "db": out[0]["db"]})
     return out
 
 
@@ -280,31 +296,27 @@ def eq_lua(m):
     return "{" + ",".join(rows) + "}"
 
 
-def track_job(i, tr):
-    b64file = f"{JOBS}/{i:02d}_{tr['stem'].replace(' ', '_')}.b64"
+def b64_path(i, tr):
+    return f"{JOBS}/{i:02d}_{tr['stem'].replace(' ', '_')}.b64"
+
+
+def item_lua(tr):
+    """The MIDI item (notes, keyswitches, CCs), volume envelope and ReaEQ for track variable `tr` (Lua)."""
     m = mix_for(tr["name"])
-    open(b64file, "w").write(state_for(tr))   # always regenerated: mix.json changes the state
-    r, g, b = COLORS[tr["family"]]
-    notes = lua_list(tr["notes"], ["qn", "dur", "pitch", "vel"])
-    ks = lua_list(tr["ks"], ["qn", "pitch"])
+    notes = lua_list([dict(n, qn=round(n["qn"] + PRE, 4)) for n in tr["notes"]], ["qn", "dur", "pitch", "vel"])
+    ks_rows = [{"qn": round(k["qn"] + PRE, 4), "pitch": k["pitch"]} for k in tr["ks"]]
+    if PRE and tr["first_ks"] is not None:   # c06: the first articulation is also selected in the pre-roll
+        ks_rows.insert(0, {"qn": 0.25, "pitch": tr["first_ks"]})
+    ks = lua_list(ks_rows, ["qn", "pitch"])
     ccs = []
     for num, lane in ((1, tr["cc1"]), (11, tr["cc11"]), (15, tr["cc15"]), (7, tr.get("cc7", [])), (70, tr.get("cc70", []))):
-        ccs += [{"qn": q, "cc": num, "v": v} for q, v in lane]
+        ccs += [{"qn": round(q + PRE, 4), "cc": num, "v": v} for q, v in lane]
+        if PRE and lane:   # c06: each lane's first value is sent in the pre-roll too
+            ccs.append({"qn": 0.25, "cc": num, "v": lane[0][1]})
     ccs = lua_list(ccs, ["qn", "cc", "v"])
     vpts = lua_list(vol_points(tr), ["qn", "db"])
-    lua = ENV_LUA + f"""
-local name = {json.dumps(tr['name'])}
-local old = R.track_by_name(name)
-if old then reaper.DeleteTrack(old) end
-local tr = R.add_track(name, {{ idx = math.min({i}, reaper.CountTracks(0)), instrument = "VST3i: Opus (East West)", color = R.rgb({r}, {g}, {b}) }})
-reaper.SetMediaTrackInfo_Value(tr, "I_PANMODE", 5)
-reaper.SetMediaTrackInfo_Value(tr, "D_PAN", 0)     -- c05: the seat is set inside Opus (apply_mix)
-reaper.SetMediaTrackInfo_Value(tr, "D_WIDTH", 1)
-reaper.SetMediaTrackInfo_Value(tr, "D_VOL", 1.0)   -- c02: the gain is in the volume envelope
-reaper.SetMediaTrackInfo_Value(tr, "I_RECARM", 0); reaper.SetMediaTrackInfo_Value(tr, "I_RECMON", 0)
-local f = assert(io.open({json.dumps(os.path.abspath(b64file))}, "rb")); local st = f:read("a"); f:close()
-local okset = reaper.TrackFX_SetNamedConfigParm(tr, 0, "vst_chunk", st)
-local endqn = {d['end_qn'] + 6}
+    return f"""
+local endqn = {d['end_qn'] + 6 + PRE}
 local item = reaper.CreateNewMIDIItemInProj(tr, 0, endqn, true)
 local take = reaper.GetActiveTake(item)
 reaper.GetSetMediaItemTakeInfo_String(take, "P_NAME", name .. " (mvt II v77)", true)
@@ -320,12 +332,52 @@ for _, c in ipairs({ccs}) do
 end
 reaper.MIDI_Sort(take)
 local _, nn, nc = reaper.MIDI_CountEvts(take)
-local okget, back = reaper.TrackFX_GetNamedConfigParm(tr, 0, "vst_chunk")
 local envn = set_vol_env(tr, {vpts})
 local eq = set_eq(tr, {eq_lua(m)})
+"""
+
+
+def track_job(i, tr):
+    b64file = b64_path(i, tr)
+    open(b64file, "w").write(state_for(tr))   # always regenerated: mix.json changes the state
+    r, g, b = COLORS[tr["family"]]
+    lua = ENV_LUA + f"""
+local name = {json.dumps(tr['name'])}
+local old = R.track_by_name(name)
+if old then reaper.DeleteTrack(old) end
+local tr = R.add_track(name, {{ idx = math.min({i}, reaper.CountTracks(0)), instrument = "VST3i: Opus (East West)", color = R.rgb({r}, {g}, {b}) }})
+reaper.SetMediaTrackInfo_Value(tr, "I_PANMODE", 5)
+reaper.SetMediaTrackInfo_Value(tr, "D_PAN", 0)     -- c05: the seat is set inside Opus (apply_mix)
+reaper.SetMediaTrackInfo_Value(tr, "D_WIDTH", 1)
+reaper.SetMediaTrackInfo_Value(tr, "D_VOL", 1.0)   -- c02: the gain is in the volume envelope
+reaper.SetMediaTrackInfo_Value(tr, "I_RECARM", 0); reaper.SetMediaTrackInfo_Value(tr, "I_RECMON", 0)
+local f = assert(io.open({json.dumps(os.path.abspath(b64file))}, "rb")); local st = f:read("a"); f:close()
+local okset = reaper.TrackFX_SetNamedConfigParm(tr, 0, "vst_chunk", st)
+""" + item_lua(tr) + f"""
+local okget, back = reaper.TrackFX_GetNamedConfigParm(tr, 0, "vst_chunk")
 return {{ track = name, okset = okset, notes = nn, ccs = nc, state_len = #back, env_points = envn, eq = eq }}
 """
     p = f"{JOBS}/{i:02d}_{tr['name'].replace(' ', '_')}.lua"
+    open(p, "w").write(lua)
+    return run(p, timeout=600)
+
+
+def midi_job(i, tr):
+    """c07: replace only the MIDI item, volume envelope and ReaEQ of an existing track; the Opus instance and its loaded
+    samples stay (no patch reload, no memory growth). Allowed only when the Opus state build_reaper would write equals
+    the state written at the last full build of the track (jobs/NN_<patch>.b64); otherwise the track is fully rebuilt."""
+    lua = ENV_LUA + f"""
+local name = {json.dumps(tr['name'])}
+local tr = R.track_by_name(name)
+if not tr then return {{ track = name, error = "no such track" }} end
+for j = reaper.CountTrackMediaItems(tr) - 1, 0, -1 do
+  local it = reaper.GetTrackMediaItem(tr, j)
+  reaper.DeleteTrackMediaItem(tr, it)
+end
+""" + item_lua(tr) + """
+return { track = name, midi_only = true, notes = nn, ccs = nc, env_points = envn, eq = eq, items = reaper.CountTrackMediaItems(tr) }
+"""
+    p = f"{JOBS}/{i:02d}_{tr['name'].replace(' ', '_')}_midi.lua"
     open(p, "w").write(lua)
     return run(p, timeout=600)
 
@@ -361,10 +413,18 @@ return {{ set = done }}
 if MIX_ONLY:
     print(json.dumps(mix_job()))
     sys.exit(0)
-if not ONLY:
+if (not ONLY and not MIDI_ONLY) or TEMPO:
     print(json.dumps(tempo_job()))
 for i, tr in enumerate(d["tracks"]):
     if ONLY and tr["name"] not in ONLY:
         continue
-    res = track_job(i, tr)
+    if MIDI_ONLY:
+        bf = b64_path(i, tr)
+        if os.path.exists(bf) and open(bf).read() == state_for(tr):
+            res = midi_job(i, tr)
+        else:
+            print(f"{tr['name']}: Opus state changed, full rebuild", flush=True)
+            res = track_job(i, tr)
+    else:
+        res = track_job(i, tr)
     print(json.dumps(res), flush=True)

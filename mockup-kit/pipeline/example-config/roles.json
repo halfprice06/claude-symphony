@@ -1,5 +1,5 @@
 {
- "_doc": "c02: level offsets in dB for accompanying lines that sit under a melody at the same printed dynamic: [qn_start, qn_end, dB]. score_to_parts.py writes them into vol_db (track volume envelope, 0.5 qn ramps); timbre (CC11) is unchanged. c04: Vc countermelody cuts eased (B #3), Cb cuts with the EQ (B #2), Vln II bars 63-66 (B #4, C #5), Vla and Harp under the flute solo and the harp under the bar 53-56 violins (B #5), Vc at the bar 61 climax (B #1). c04 after the first render: Vln II bar 64 split [216,218,-8]/[218,220,-2] (beats 3-4 measured 9-13 dB under Vla/Vc), Vc [238,250,-3] (was 2 dB under Vln I), Flute 1 [262,270,-2] (3 dB over Vln I in bar 80). c05: first crescendo bars 57-60 (B #1: BCl, Vla, Cb, Hn1, Timp down, Vln I +2), second build-up (B #2: Cl1 -4, Vln I +2), bars 28-30 violas (B #3), final chord violas +4/+7 (B #4), timp bar 52 (B #5), Hn3/Hn4 muted close -4 (B #6).",
+ "_doc": "c02: level offsets in dB for accompanying lines that sit under a melody at the same printed dynamic: [qn_start, qn_end, dB]. score_to_parts.py writes them into vol_db (track volume envelope, 0.5 qn ramps); timbre (CC11) is unchanged. c04: Vc countermelody cuts eased (B #3), Cb cuts with the EQ (B #2), Vln II bars 63-66 (B #4, C #5), Vla and Harp under the flute solo and the harp under the bar 53-56 violins (B #5), Vc at the bar 61 climax (B #1). c04 after the first render: Vln II bar 64 split [216,218,-8]/[218,220,-2] (beats 3-4 measured 9-13 dB under Vla/Vc), Vc [238,250,-3] (was 2 dB under Vln I), Flute 1 [262,270,-2] (3 dB over Vln I in bar 80). c05: first crescendo bars 57-60 (B #1: BCl, Vla, Cb, Hn1, Timp down, Vln I +2), second build-up (B #2: Cl1 -4, Vln I +2), bars 28-30 violas (B #3), final chord violas +4/+7 (B #4), timp bar 52 (B #5), Hn3/Hn4 muted close -4 (B #6). c06: a row may carry a fourth value end_ramp (qn): the cut opens linearly over the last end_ramp qn and is 0 at its end (C #1: Vc, BCl, Vla, Cb, Hn1 into the bar 61 ff). Cb soft cuts eased and the pizz. span +5 (B #1); Hn3 under the bar 79-81 tune, Hn1 bars 54-56 (B #5); Vln II/Vla under the bar 46-47 oboe (B #6); Tbn2/BTbn/Tuba +2 at the bar 61 climax (C #4); Cl1 [250,258] -4 -> -1 (B #2, the p soft trim does the rest). c07: Vc [250,274,-5] split into [250,262,-5]/[262,274,-1] and Cb [262,276,-2] removed (B #2, bass and tenor lines under the reeds at bars 79-81); Hn3 [261.5,271] -4 -> -1 (B #1, with the F4 pitch trim); Flute 2 [204,212,-3] (B #3); Cb and Bn2 [146,151,-3] under the bar 47 oboe (B #6). c08: Vc [238,250] -3 -> 0 (B #2), [250,262] -5 -> -3 (C #6), Vc [292,304,-4], Vln I [292,304,-3], Vla [289,304,-2] (C #4, coda); Vla [42,48,-3], [140,146,-4] under the oboe (B #6); Vln I [48,65,-3] for the solo with SOLO_BOOST off (C #5 interim).",
  "Violoncellos": [
   [
    66,
@@ -14,7 +14,8 @@
   [
    188,
    204,
-   -6
+   -6,
+   4
   ],
   [
    204,
@@ -24,12 +25,22 @@
   [
    238,
    250,
-   -3
+   0
   ],
   [
    250,
+   262,
+   -3
+  ],
+  [
+   262,
    274,
-   -5
+   -1
+  ],
+  [
+   292,
+   304,
+   -4
   ]
  ],
  "Harp": [
@@ -56,6 +67,11 @@
    -5
   ],
   [
+   146,
+   152,
+   -4
+  ],
+  [
    212,
    216,
    -6
@@ -80,22 +96,23 @@
   [
    66,
    90,
-   -4
+   -1
   ],
   [
-   172,
-   188,
-   -2
+   108,
+   137.5,
+   5
   ],
   [
    188,
    204,
-   -3
+   -3,
+   4
   ],
   [
-   262,
-   276,
-   -2
+   146,
+   151,
+   -3
   ]
  ],
  "Violas": [
@@ -110,9 +127,15 @@
    -4
   ],
   [
+   146,
+   152,
+   -3
+  ],
+  [
    196,
    204,
-   -4
+   -4,
+   4
   ],
   [
    292,
@@ -123,6 +146,21 @@
    298,
    304,
    7
+  ],
+  [
+   42,
+   48,
+   -3
+  ],
+  [
+   140,
+   146,
+   -4
+  ],
+  [
+   289,
+   304,
+   -2
   ]
  ],
  "Flute 1": [
@@ -136,14 +174,21 @@
   [
    188,
    204,
-   -5
+   -5,
+   4
   ]
  ],
  "Horn 1": [
   [
+   176,
+   188,
+   -3
+  ],
+  [
    188,
    204,
-   -2
+   -2,
+   4
   ]
  ],
  "Timpani": [
@@ -168,16 +213,31 @@
    244,
    262,
    2
+  ],
+  [
+   48,
+   65,
+   -3
+  ],
+  [
+   292,
+   304,
+   -3
   ]
  ],
  "Clarinet 1": [
   [
    250,
    258,
-   -4
+   -1
   ]
  ],
  "Horn 3": [
+  [
+   261.5,
+   271,
+   -1
+  ],
   [
    286,
    298,
@@ -189,6 +249,41 @@
    286,
    298,
    -4
+  ]
+ ],
+ "Trombone 2": [
+  [
+   204,
+   212,
+   2
+  ]
+ ],
+ "Bass trombone": [
+  [
+   204,
+   212,
+   2
+  ]
+ ],
+ "Tuba": [
+  [
+   204,
+   212,
+   2
+  ]
+ ],
+ "Flute 2": [
+  [
+   204,
+   212,
+   -3
+  ]
+ ],
+ "Bassoon 2": [
+  [
+   146,
+   151,
+   -3
   ]
  ]
 }
