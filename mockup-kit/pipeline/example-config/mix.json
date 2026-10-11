@@ -1,5 +1,5 @@
 {
- "_doc": "Mix settings applied by tools/build_reaper.py. gain_db -> track volume; seat/width -> REAPER stereo pan mode (I_PANMODE 5, D_PAN, D_WIDTH); mics: Opus mic channels to load and their volumes (null = keep the patch's own); every other mic is unloaded; send: per-mic Reverb Send level; the Opus reverb on fx:0 of every patch is replaced by reverb.from_patch's at reverb.fx_volume. Opus sub-channel pans are set to 0. c02: dyn_trim_db {f, ff}: level trim in dB that is 0 at CC46 (p) and reaches f at CC88 and ff at CC114, read from the printed dynamic curve (dyn_curve), and soft_trim_db {ppp, pp} for every track except timpani; both go into the track volume envelope with parts.json vol_db, so CC11 keeps choosing the dynamic layer. c03: a track may carry its own soft_trim_db, which replaces the global one. c04: a track's eq is a ReaEQ after Opus (band lowshelf: ReaEQ band 1 low shelf; bell: band 2; unused bands at 0 dB and the high-pass band disabled), applied on rebuild and by --mix-only. c05: seat/width are written into Opus (every mic channel's panLeft = seat - width, panRight = seat + width; the reverb return fx:0 centred at full width) and the REAPER pan is centre/width 1 (C #3); the hall is EW's 'New Hollywood Hall 2.0' from 3BS Sus MAX (C #1); eq band 'highpass' enables ReaEQ band 4 as a high pass (C #2).",
+ "_doc": "Mix settings applied by tools/build_reaper.py. gain_db -> track volume; seat/width -> REAPER stereo pan mode (I_PANMODE 5, D_PAN, D_WIDTH); mics: Opus mic channels to load and their volumes (null = keep the patch's own); every other mic is unloaded; send: per-mic Reverb Send level; the Opus reverb on fx:0 of every patch is replaced by reverb.from_patch's at reverb.fx_volume. Opus sub-channel pans are set to 0. c02: dyn_trim_db {f, ff}: level trim in dB that is 0 at CC46 (p) and reaches f at CC88 and ff at CC114, read from the printed dynamic curve (dyn_curve), and soft_trim_db {ppp, pp} for every track except timpani; both go into the track volume envelope with parts.json vol_db, so CC11 keeps choosing the dynamic layer. c03: a track may carry its own soft_trim_db, which replaces the global one. c04: a track's eq is a ReaEQ after Opus (band lowshelf: ReaEQ band 1 low shelf; bell: band 2; unused bands at 0 dB and the high-pass band disabled), applied on rebuild and by --mix-only. c05: seat/width are written into Opus (every mic channel's panLeft = seat - width, panRight = seat + width; the reverb return fx:0 centred at full width) and the REAPER pan is centre/width 1 (C #3); the hall is EW's 'New Hollywood Hall 2.0' from 3BS Sus MAX (C #1); eq band 'highpass' enables ReaEQ band 4 as a high pass (C #2). c06: soft_trim_db has a p anchor (CC 46) as well as ppp/pp; global {ppp -2, pp 0, p +2} (B #3, LRA); per-track overrides for Cl1, Cl2, Bn1, Bn2, Cb, Vla (B #1, #2). c07 (B #2): ff trims moved from the reeds to the bass strings at the climaxes: Cb ff -1 -> +1, Cbn f/ff 2.5/1 -> 0.5/-2, Bn2 ff 3 -> 0, BCl ff -1 -> -3, Bn1 ff 1.5 -> -0.5. c08: Violoncellos dyn_trim_db f -3 -> -2, ff -4.5 -> -2.5 (C #6, tutti low-mid weight).",
  "reverb": {
   "from_patch": "/Volumes/MAC DRIVE/EW Hollywood Orchestral Woodwinds Diamond/Hollywood Orch Woodwinds Opus Instruments/3 Bassoons/01 Long/3BS Sus MAX.oib",
   "fx_volume": 0.19,
@@ -138,7 +138,12 @@
      "band": "highpass",
      "hz": 40
     }
-   ]
+   ],
+   "soft_trim_db": {
+    "ppp": -4,
+    "pp": -3,
+    "p": -1
+   }
   },
   "Clarinet 2": {
    "group": "wind",
@@ -153,7 +158,12 @@
      "band": "highpass",
      "hz": 40
     }
-   ]
+   ],
+   "soft_trim_db": {
+    "ppp": -3.5,
+    "pp": -1.5,
+    "p": 2
+   }
   },
   "Bass clarinet": {
    "group": "wind",
@@ -161,7 +171,7 @@
    "seat": -0.25,
    "dyn_trim_db": {
     "f": -1.5,
-    "ff": -1
+    "ff": -3
    },
    "eq": [
     {
@@ -176,14 +186,19 @@
    "seat": 0.15,
    "dyn_trim_db": {
     "f": 1.5,
-    "ff": 1.5
+    "ff": -0.5
    },
    "eq": [
     {
      "band": "highpass",
      "hz": 30
     }
-   ]
+   ],
+   "soft_trim_db": {
+    "ppp": 1,
+    "pp": 3,
+    "p": 4
+   }
   },
   "Bassoon 2": {
    "group": "wind",
@@ -191,22 +206,27 @@
    "seat": 0.2,
    "dyn_trim_db": {
     "f": 2,
-    "ff": 3
+    "ff": 0
    },
    "eq": [
     {
      "band": "highpass",
      "hz": 30
     }
-   ]
+   ],
+   "soft_trim_db": {
+    "ppp": 2,
+    "pp": 5,
+    "p": 5
+   }
   },
   "Contrabassoon": {
    "group": "wind",
    "gain_db": 2,
    "seat": 0.25,
    "dyn_trim_db": {
-    "f": 2.5,
-    "ff": 1
+    "f": 0.5,
+    "ff": -2
    },
    "eq": [
     {
@@ -398,8 +418,9 @@
     "ff": -3
    },
    "soft_trim_db": {
-    "ppp": -4,
-    "pp": 0
+    "ppp": -2,
+    "pp": 2,
+    "p": 2
    },
    "eq": [
     {
@@ -413,8 +434,8 @@
    "gain_db": 0,
    "seat": 0.35,
    "dyn_trim_db": {
-    "f": -3,
-    "ff": -4.5
+    "f": -2,
+    "ff": -2.5
    },
    "eq": [
     {
@@ -430,7 +451,7 @@
    "width": 0.6,
    "dyn_trim_db": {
     "f": 0,
-    "ff": -1
+    "ff": 1
    },
    "eq": [
     {
@@ -448,6 +469,11 @@
    "mics": {
     "Close": 0.4,
     "Main": 1.0
+   },
+   "soft_trim_db": {
+    "ppp": -2,
+    "pp": 3,
+    "p": 5
    }
   },
   "Harp harmonics": {
@@ -467,8 +493,9 @@
   }
  },
  "soft_trim_db": {
-  "ppp": -4,
-  "pp": -2,
+  "ppp": -2,
+  "pp": 0,
+  "p": 2,
   "_except": [
    "Timpani",
    "Harp harmonics"

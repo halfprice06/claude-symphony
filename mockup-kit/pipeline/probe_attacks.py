@@ -30,5 +30,13 @@ for name, q in HOLES:
     i = int(round(q2s(q) / 0.01)); before = np.median(e[i - 30:i - 5]); dip = e[i + 5:i + 45].min()
     ok = before - dip <= 6; bad += not ok
     print(f'{name:14s} qn {q:6.1f}  dip {before - dip:5.1f} dB in the first 0.45 s  (limit 6)  {"ok" if ok else "HOLE"}')
+# c06 (A #1): the opening chord; Opus dropped events on the first block of the render (Hn3 -75 dB in c05, Vln II/Vla
+# silent in c04). Each voice's loudest 50 ms in the first 1.5 s must be above -70 dB.
+for name in ('Horn 3', 'Violins I', 'Violins II', 'Violas', 'Violoncellos'):
+    f = glob.glob(os.path.join(R, f'*_{name}.wav'))[0]
+    x, sr = sf.read(f, dtype='float32'); x = x.mean(1); hop = int(0.05 * sr); n = int(1.5 * sr) // hop
+    pk = 20 * np.log10(np.sqrt(np.mean(x[:n * hop].reshape(n, hop) ** 2, 1)).max() + 1e-9)
+    ok = pk > -70; bad += not ok
+    print(f'{name:14s} qn    0.0  opening max {pk:6.1f} dB  (limit -70)  {"ok" if ok else "SILENT"}')
 print('late or hole:', bad)
 sys.exit(1 if bad else 0)
