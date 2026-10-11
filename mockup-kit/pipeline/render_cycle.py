@@ -74,10 +74,9 @@ if r.returncode:
 if "RENDER_1X 1" not in open(f"{ROOT}/mvt2-v77-mockup.rpp", encoding="utf-8", errors="replace").read():
     print("WARNING: project is not set to 1x offline render (RENDER_1X 1); expect late note starts", file=sys.stderr)
 master = f"{C}/render/00_Master.wav"
-# Delivery master (Dan, 2026-10-11: soft passages too quiet at a volume where the loud ones are uncomfortable).
-# Slow, gentle compression lifts the soft passages, then loudnorm brings the result to -18 LUFS with LRA about 11 LU
-# and -1.5 dBTP. The stems and 00_Master.wav stay unprocessed; only the mp3 gets this chain.
-MASTER_CHAIN = "acompressor=threshold=-36dB:ratio=2.5:attack=80:release=1200:makeup=1,loudnorm=I=-18:LRA=11:TP=-1.5"
+# Delivery master (Dan, 2026-10-11: soft passages too quiet at a volume where the loud ones are uncomfortable):
+# tools/deliver_master.py (look-ahead gain ride on quiet passages, -19 LUFS, -1.5 dBTP; loop/DYNAMICS-RESEARCH.md).
+# The stems and 00_Master.wav stay unprocessed; only the mp3 is mastered.
 if not os.path.exists(master):
     sys.exit("no 00_Master.wav rendered")
 # c06: cut the pre-roll (sample-exact, from REAPER's own time of qn PRE) off the master and every stem
@@ -107,12 +106,10 @@ open(f"{C}/metrics/attacks.txt", "w").write(pr.stdout + pr.stderr)
 print(pr.stdout.strip().splitlines()[-1] if pr.stdout.strip() else "probe: no output")
 if pr.returncode:
     print("WARNING: attack probe failed (see metrics/attacks.txt)", file=sys.stderr)
-subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", master, "-af", MASTER_CHAIN,
-                "-b:a", "192k", f"{C}/mvt2-mockup-c{N:02d}.mp3"], check=True)
-print(f"{C}/metrics/metrics.md")
 mp3 = f"{C}/mvt2-mockup-c{N:02d}.mp3"
-out = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", mp3, "-af", "ebur128=peak=true", "-f", "null", "-"],
-                     capture_output=True, text=True).stderr
-summary = " ".join(l.strip() for l in out.splitlines() if l.strip().startswith(("I:", "LRA:", "Peak:")))
-open(f"{C}/metrics/metrics.md", "a").write(f"\n## Delivered mp3 (after the delivery master chain)\n\n{summary}\n")
+dm = subprocess.run([PY, f"{ROOT}/tools/deliver_master.py", master, mp3], capture_output=True, text=True)
+if dm.returncode:
+    sys.exit("delivery master failed: " + dm.stderr[-800:])
+open(f"{C}/metrics/metrics.md", "a").write(f"\n## Delivered mp3 (tools/deliver_master.py)\n\n{dm.stdout.strip()}\n")
+print(f"{C}/metrics/metrics.md")
 print(mp3)
