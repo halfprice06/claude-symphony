@@ -1,6 +1,6 @@
 # Kit learnings: orchestral mockups with REAPER + EastWest Hollywood Orchestra Opus Edition
 
-Curated 2026-10-12 from the movement II mockup loop (covers c00-c23, each cycle rendered and measured by the actor; c23 not yet measured by critics). Sources: `symphony/mvt2/reaper/README.md`, `loop/BRIEF.md`, `loop/HISTORY.md`, `loop/LEARNINGS.md`, `loop/ONE_TIME.withdrawn.md`, `cycles/c01-c23/CHANGES.md`, `cycles/c19-c23/metrics/memory.txt`, `cycles/c01-c08/reports/*.md`, `tools/*.py`, `build/mix.json`, `build/roles.json`, `build/note_trims.json`, `build/pitch_trims.json`, `build/early_fills.json`, `build/entry_leads.json`, `build/leg_leads.json`, `build/loop_fills.json`, `build/loop_profiles.json`, `build/ks_maps_extra.json`, `opus/ (installed at ~/.rpr-bridge/libs/ew_ho/)`.
+Curated 2026-10-12 from the movement II mockup loop (covers c00-c24, each cycle rendered and measured by the actor; c23 not yet measured by critics). Sources: `symphony/mvt2/reaper/README.md`, `loop/BRIEF.md`, `loop/HISTORY.md`, `loop/LEARNINGS.md`, `loop/ONE_TIME.withdrawn.md`, `cycles/c01-c23/CHANGES.md`, `cycles/c19-c23/metrics/memory.txt`, `cycles/c01-c08/reports/*.md`, `tools/*.py`, `build/mix.json`, `build/roles.json`, `build/note_trims.json`, `build/pitch_trims.json`, `build/early_fills.json`, `build/entry_leads.json`, `build/leg_leads.json`, `build/loop_fills.json`, `build/loop_profiles.json`, `build/ks_maps_extra.json`, `opus/ (installed at ~/.rpr-bridge/libs/ew_ho/)`.
 
 This file keeps only lessons that apply to another score. Evidence is in parentheses: cycle and measured numbers. "Unverified" means implemented or proposed but not confirmed by a measured render. "Inferred" means reasoned from data or manuals, not measured directly.
 
@@ -206,6 +206,10 @@ Library: Hollywood Orchestra Opus Edition Diamond (KS Master patches for solo wi
 - Opus `PreloadSize` in `/Library/Application Support/East West/Opus/Preferences.json` (0 = Harddrive, 1 = SSD/SATA, 2 = SSD/PCIe, order from the Opus binary) was kept at 1. Setting 0 was proposed to fix late entries but not applied: the Opus manual (Audio Engine) says the Harddrive setting keeps more of each sample in RAM, and the late entries came from memory pressure, so a larger preload would add to the cause (c07). Renders at 1 from a fresh session passed every attack check (c05, c07-c23). Change it only with REAPER closed.
 - An agent run under Claude Code cannot edit that Preferences.json: the permission system blocked the edit even with the user's approval in chat (c06). The user has to change it in Opus's settings.
 - Separate render-engine lateness from sample attack by comparing renders: engine delays change between renders and sessions, sample-attack delays repeat exactly (c01, c03 critic C, c05-c07). Do not compensate engine delays by moving notes (c01).
+
+- Most of an Opus project's memory is the preload of articulation rows that are loaded but never played. Unloading every row a track does not use (`layerMatrix.rows[i].loaded/active = false`; `UNLOAD_UNUSED_ROWS` in `build_reaper.py`) cut the 32-instance project from 61 GB settled to 43 GB, and the render peaked at 44 GB with 0 GB compressed, against 63 GB with 44-51 GB compressed in c21-c23. Stems were bit-identical where nothing else changed (c24). Do this from the first build of any mockup.
+- Read memory only after streaming has finished: 20-21 GB readings soon after an open were partial loads of a project that settled at 61 GB about 13 minutes later. Wait for several equal readings 30 s apart (c24).
+- Quit REAPER after each render so analysis runs on a free machine (rule since c24).
 
 ## 12. Mics, reverb and panning inside Opus
 

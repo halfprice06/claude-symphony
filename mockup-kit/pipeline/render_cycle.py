@@ -111,5 +111,8 @@ dm = subprocess.run([PY, f"{ROOT}/tools/deliver_master.py", master, mp3], captur
 if dm.returncode:
     sys.exit("delivery master failed: " + dm.stderr[-800:])
 open(f"{C}/metrics/metrics.md", "a").write(f"\n## Delivered mp3 (tools/deliver_master.py)\n\n{dm.stdout.strip()}\n")
+# c24 (C #3): phrase-scale loudness motion of the master and the mp3 (tools/motion.py)
+mo = subprocess.run([PY, f"{ROOT}/tools/motion.py", master, mp3], capture_output=True, text=True)
+open(f"{C}/metrics/metrics.md", "a").write(f"\n## Loudness motion (tools/motion.py)\n\n{mo.stdout.strip()}\n")
 print(f"{C}/metrics/metrics.md")
 print(mp3)

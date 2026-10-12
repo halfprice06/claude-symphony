@@ -148,7 +148,7 @@
   },
   "140": 4.2,
   "143": {
-   "db": 3.2,
+   "db": 3.3,
    "pre_s": 0.0,
    "hold_s": 0.1
   },
@@ -197,7 +197,7 @@
    "55": "c16 new (dip 6.1 dB at +0.14 s)",
    "57": "c17 lowered (over 2.1 dB)",
    "59": "c16 raised (dip 5.6 dB at +0.11 s)",
-   "143": "c21 raised (dip 4.1 dB at +0.02 s)",
+   "143": "c25 raised (dip 4.1 dB at +0.02 s)",
    "146": "c16 new (dip 5.2 dB at +0.06 s)",
    "190": "c17 lowered (over 2.3 dB)",
    "196": "c20 raised (dip 4.9 dB at -0.06 s)",
@@ -481,7 +481,8 @@
    "27": "c18 new (dip 5.4 dB at +0.14 s)",
    "180": "c22 lowered by hand: 4.2 -> 2.5 (spike +5.0 with the B #4 lift)",
    "202": "c22 lowered by hand: 8.0 -> 6.5 (spike +5.4 after the c21 raise)",
-   "36": "c19 new (dip 5.1 dB at +0.31 s)"
+   "36": "c19 new (dip 5.1 dB at +0.31 s)",
+   "26": "c25 new (dip 6.5 dB at +0.17 s)"
   },
   "24": {
    "db": 2.4,
@@ -552,6 +553,11 @@
    "db": 2.1,
    "pre_s": 0.0,
    "hold_s": 0.35
+  },
+  "26": {
+   "db": 3.5,
+   "pre_s": 0.0,
+   "hold_s": 0.22
   }
  },
  "Horn 2": {
