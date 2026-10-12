@@ -1,5 +1,5 @@
 {
- "_doc": "c07 (critic C #2b, #6): extra entry lead in seconds for single entries that measured late against the ensemble (measured lag in c05 minus 0.05 s), {track: {score onset qn: seconds}}, matched within 0.02 qn. Added to the family ENTRY_LEAD_S (or used alone when the family has none); total capped at 0.30 s, converted through the tempo map (caesuras included). An onset of 0 starts inside the pre-roll. c10 (A #1): Violin I solo 48 +0.13 s (moved from Violins I, which no longer plays there) and 60 +0.10 s (the soft solo entries took 0.3-0.6 s to reach body level on the section patch). c11 (C #2, C #4): Horn 3 204 +0.10 (the bar 61 Ab4 reached body - 6 dB at +0.34 s); Violin I solo 48 0.13 -> 0.20. c15 (C #3): Flute 2 262 +0.10 and Bassoon 2 268 +0.08 (climax entries at body - 6 dB +0.17/+0.19 s).",
+ "_doc": "c07 (critic C #2b, #6): extra entry lead in seconds for single entries that measured late against the ensemble (measured lag in c05 minus 0.05 s), {track: {score onset qn: seconds}}, matched within 0.02 qn. Added to the family ENTRY_LEAD_S (or used alone when the family has none); total capped at 0.30 s, converted through the tempo map (caesuras included). An onset of 0 starts inside the pre-roll. c10 (A #1): Violin I solo 48 +0.13 s (moved from Violins I, which no longer plays there) and 60 +0.10 s (the soft solo entries took 0.3-0.6 s to reach body level on the section patch). c11 (C #2, C #4): Horn 3 204 +0.10 (the bar 61 Ab4 reached body - 6 dB at +0.34 s); Violin I solo 48 0.13 -> 0.20. c15 (C #3): Flute 2 262 +0.10 and Bassoon 2 268 +0.08 (climax entries at body - 6 dB +0.17/+0.19 s). c22 (A #1b): Horn 3 204 0.10 -> 0 (the late attack was the CC11 pull bug: the moved note started on CC 34). c23 (A #2, C #1, C #2): Violas 0/42/66/238/277, Double basses 140, Violins II 0 and 108 0.12 -> 0.18, Violins II div 108 0.12 -> 0.18, Violas div 66/277, Bassoon 1 229/196 (soft string chord entries reached body - 6 dB 0.2-0.65 s after their partners; Bn1 229 lost its spike lead in the c22 pull fix).",
  "Violins I": {
   "0": 0.11,
   "171": 0.19,
@@ -8,19 +8,26 @@
  },
  "Violins II": {
   "42": 0.1,
-  "108": 0.12,
-  "286": 0.15
+  "108": 0.18,
+  "286": 0.15,
+  "0": 0.06
  },
  "Violas": {
   "54": 0.09,
-  "140": 0.07
+  "140": 0.07,
+  "0": 0.12,
+  "42": 0.15,
+  "66": 0.12,
+  "238": 0.08,
+  "277": 0.1
  },
  "Violoncellos": {
   "0": 0.12,
   "152": 0.12
  },
  "Double basses": {
-  "60": 0.13
+  "60": 0.13,
+  "140": 0.15
  },
  "Horn 1": {
   "226": 0.06,
@@ -41,7 +48,7 @@
   "60": 0.1
  },
  "Horn 3": {
-  "204": 0.1
+  "204": 0.0
  },
  "Flute 2": {
   "262": 0.1
@@ -53,6 +60,14 @@
   "261": 0.08
  },
  "Violins II div": {
-  "108": 0.12
+  "108": 0.18
+ },
+ "Violas div": {
+  "66": 0.06,
+  "277": 0.12
+ },
+ "Bassoon 1": {
+  "229": 0.1,
+  "196": 0.06
  }
 }

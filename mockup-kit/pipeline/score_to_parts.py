@@ -108,6 +108,7 @@ CAESURA = {204.0: 0.22, 268.0: 0.15,
            # c08 (C #3): solo breath marks (Hn1 bar 10, Fl1 bar 41, CA bar 50, Cl1 bar 87) and phrase seams
            29.0: 0.12, 124.0: 0.12, 164.0: 0.10, 286.0: 0.10,
            42.0: 0.08, 48.0: 0.10, 66.0: 0.10, 140.0: 0.08, 171.0: 0.10, 237.0: 0.10}
+CAESURA_BREATH_QN = 0.12   # c19 (C #2): loud wind/brass breath gap where the breath has a CAESURA
 ARP_S = (0.040, 0.030)   # c04 (A #1): harp roll, seconds between notes (mp or softer, louder)
 TREM_LEAD_S = 0.05       # c04 (A #3): tremolo after a sounding note on another articulation
 # c04: both A #3 timing changes are OFF. Rendered twice (c04 pass2 and a third render), the tenuto crossfade plus the
@@ -123,7 +124,16 @@ PREROLL_QN, PREROLL_BPM = 3.0, 60.0
 # c11 (C #1): Horn 1 leaving F4 crossed +0.19..+0.31 s late (median of its other transitions +0.028)
 LEG_EXTRA_S = {"Violas": {60: 0.10}, "Horn 1": {65: 0.15}}
 # c11 (C #5): extra legato lead (s) for one interval (previous pitch, target pitch) that crossed 0.15-0.23 s late every time
-LEG_PAIR_EXTRA_S = {"Violoncellos": {(56, 60): 0.15}, "Violas": {(60, 63): 0.10, (65, 61): 0.12}}
+# c19 (C #1): Horn 1 F4 -> Bb4 landed 0.13-0.16 s early with the full F4 extra (-0.12 here); Oboe 1 Db5 -> C5 and F5 -> Eb5
+# crossed +0.13..+0.16 s late every time. c19 (C #3): Violas Bb3 -> Db4 and A3 -> C4 in the bars 37-40 triplets +0.13..+0.22
+LEG_PAIR_EXTRA_S = {"Violoncellos": {(56, 60): 0.15},
+                    "Violas": {(60, 63): 0.10, (65, 61): 0.12, (58, 61): 0.10, (57, 60): 0.10,
+                               # c23 (C #5): falling steps crossed 0.07-0.17 s early with the C4 extra (rising-step fix)
+                               (60, 58): -0.10, (65, 64): -0.08, (52, 51): -0.08},
+                    "Horn 1": {(65, 70): -0.12}, "Oboe 1": {(73, 72): 0.10, (77, 75): 0.10}}
+# c19 (C #3): {track: [(from qn, to qn, fraction)]}: the legato lead cap is this fraction of the previous note's length
+# (default 0.45) for score onsets in a window; the viola triplets sat at the 0.15 qn cap, so no extra lead acted
+LEG_CAP_FRAC = {"Violas": [(108.0, 124.0, 0.75), (186.0, 192.0, 0.75)]}
 # c11 (C #3): build/leg_leads.json {track: {score onset: s}}: per-onset legato lead offsets (may be negative); the total
 # legato lead is clamped to LEG_LEAD_CLAMP
 LEG_LEAD_CLAMP = (0.03, 0.35)
@@ -183,6 +193,7 @@ HARM_VEL_CUT = 6   # c08 (B #4): harp harmonics 6 velocity under the harp's own 
 # CC11 notch 10); a repeated pitch is re-tongued on Sus with a 0.04 s lead, velocity 100 or more.
 SOSTENUTO_SPANS = [(204.0, 212.0)]
 SOST_NOTCH, SOST_VEL, SOST_REP_S = 10, 100, 0.04
+SOST_JOIN_LEAD_S = 0.12   # c23 (C #3): lead of a sostenuto legato note joined from a re-tongued Sus note
 # c07 (A #2): Sus MAX chords that follow a sounding note without a rest get the soft entry lead (the c06 A #3 rule
 # widened from "after a legato note" to "after any note"), on these tracks only (Cb joins measured fine)
 DIV_JOIN_TRACKS = ("Violas", "Violoncellos")
@@ -203,7 +214,8 @@ ACCENT_DB = 2.0   # first c09 render: 3 dB gave Tbn1 213 +5.6 dB over the eighth
 # c11 (A #3): per-onset accent weight in dB with the timpani loud-attack shape (10 ms rise, held 0.12 qn, 0 by 0.3 qn):
 # Tbn1's ff marcato pickup measured -1.7 dB attack over its body at v108 (the c10 velocity cut removed the peak and the
 # emphasis with it); ACCENT_DB's 0.25 s hold covered half the note, so attack and body rose together
-ACCENT_DB_AT = {"Trombone 1": {212.5: 4.0, 213.0: 3.0, 218.0: 3.0}}   # c15 (A #4): 213 (+1.2 dB peak over body)
+ACCENT_DB_AT = {"Trombone 1": {212.5: 4.0, 213.0: 3.0, 218.0: 4.5}}   # c15 (A #4): 213 (+1.2 dB peak over body)
+# c21 (A #3): 218 3.0 -> 4.5 (it measured only 1.5 dB over the marcato eighths, which get +5 dB on their attacks)
 # c09 (A #2): role spans that meet (B starts within ROLE_CHAIN qn of A's end) crossfade over [B.a - 0.1, B.a + 0.15]
 # instead of ramping A out and B in on their own 0.5 qn ramps (both were at full value at the shared qn)
 ROLE_CHAIN = 0.5
@@ -268,6 +280,10 @@ SOST_SUSTAIN_DB = 2.5
 # next onset (to +0.25 qn) and releases to 0 at 40% of the next note, where that note's own ramp starts (the c14 drop to
 # 0 at the next moved onset made every bar 61-62 chord swell into the bar line and fall back: median step -1.6 dB)
 SOST_HOLD_THROUGH = True
+# c20 (C #1): long notes starting inside ARRIVAL_HOLD_SPANS (score qn) take the swell_sost contour (+4 CC by 40%, held, and
+# the SOST_SUSTAIN_DB rise into the next note) instead of the swell/taper arc. The bar 78 f arrival (poco allargando, into
+# the ff of bar 79) rose to CC 92 and then fell to 83-87, under the printed f (88), inside the arrival bar
+ARRIVAL_HOLD_SPANS = [(258.9, 259.1)]
 # c15 (A #5): an A/B test inside one render: Violas' slurred sextuplets of bar 59 on the KS Master's Detache row (key 30,
 # one note per bow with a defined attack), velocity DETACHE_VEL, written length + 0.01 qn, no lead; bar 60 stays on Sus
 # MAX as the control (Sus MAX own-pitch share 0.29-0.33, Leg Slur MAX 0.03)
@@ -292,6 +308,12 @@ STACLEG_ART, STACLEG_VEL = "Stac Leg BC + Slur + Port MAX", 110
 # c18 (A #1): off. The c17 render: Flute 1's 1.5-4 kHz modulation at bars 61-62 10.5 -> 16.9 dB p95-p5 (irregular, the two
 # layers beating), stem +2.2 dB
 WIND_VIB_CAP, WIND_VIB_CAP_CC11, WIND_VIB_CAP_S = None, 100, 3.0
+# c20 (C #3): metric weight on plucked lines as a level step instead (velocity changes the sample): dB on each onset of a
+# pizz. note or a Harp note inside METRIC_SPANS (score qn), at full value on the attack and held to the next onset of the
+# track (the c12 pizz. trim shape). "down" = bar's first beat, "mid" = beat 3 of 4/4, "off" = off the quarter-note beat,
+# other beats 0. Not on accents/sf or inside LEAD_SPANS. c19 measured downbeat minus the rest of the bar -1.6..+1.3 dB
+METRIC_DB = {"down": 1.5, "mid": 0.5, "off": -1.0}
+METRIC_SPANS = [(18, 42), (108, 140), (172, 188)]
 METRIC_VEL = {}   # c17: emptied (c16 test failed: lean 0.5-1.2 dB, Cb pizz. std 1.7 -> 3.3); was {"downbeat": 6, "mid": 3, "weak": -3}
 # c15 (A #3): Violins II sul tasto (Flautando) chords that follow a Flautando chord without a rest: common tones are held
 # as one note (no re-attack), the moving voices start FLAUT_LEAD_S early and the old chord's moving notes end at the new
@@ -315,10 +337,72 @@ SWELL_NO_SOFT_GAIN = {"Horn 1": [20.0], "Violins I": [68.0, 240.0], "Violins II"
 # per-onset decrescendo depths (Oboe 1's bar 41-42 > sits on a +5 note trim and a +2.5 role: 1.3 dB over 2.5 qn)
 SWELL_SOFT_GAIN_AT = {"Violins I": [68.0, 240.0], "Violins II": [68.0, 240.0]}
 SWELL_SOFT_GAIN_DB = 2.5
-HP_SOFT_DEC_AT = {"Oboe 1": {148.0: 4.0}}
+HP_SOFT_DEC_AT = {"Oboe 1": {148.0: 4.0, 57.0: 5.0}}   # c22 (C #1): Ob1 57 (bar 20 >) measured -1.0 dB with the default 2
+# c22 (C #1): per-onset soft crescendo gains in lead lines (in place of HP_GAIN_SOFT_DB[family]); these six solo hairpins
+# measured -2.1..+2.0 dB (stem, last third minus first third), because note/pitch trims, phrase tops and sample sags
+# cancelled the +3 dB ramp (the working solo hairpins measure +4..+10)
+# (Violin I solo 48: 6 -> 4.5, because removing its phrase tops (C #1d) adds about 2 dB to the same crescendo)
+HP_SOFT_GAIN_AT = {"Violin I solo": {48.0: 4.5, 60.0: 4.5}, "Horn 1": {32.0: 4.0, 176.0: 5.0}, "Flute 1": {126.0: 6.0}}
+# c22 (C #1b): spans that get the lead-line soft hairpin ramp without being LEAD_SPANS (LEAD_SPANS also steers phrase
+# tops, metric steps and the tempo apexes, so the bar 54-56 horn/clarinet line is added here only)
+HP_SOFT_EXTRA_SPANS = {"Horn 1": [(174, 184)]}
+# c22 (C #4): soft hairpins (CC11 66 or lower at the start, no hpgain of their own) outside the lead lines get a smaller
+# dB ramp: +HP_GAIN_SOFT_ACC_DB on crescendos (held to the arrival, released over HP_REL; a < > pair as a messa di voce),
+# -HP_GAIN_SOFT_ACC_DB on a lone decrescendo. 131 such hairpins changed only through CC11 (0.11-0.19 dB per CC at p:
+# 1.3-2.3 dB); simulated phrase-scale movement 1.253 -> 1.306 (references 1.73-2.51)
+HP_GAIN_SOFT_ACC_DB = 2.5
+# hairpin starts the accompaniment rule skips: the bar 91 morendo has its own _all role ramp held through the fermata
+# (the rule's release after the decrescendo made the final ppp chord rise 2.3 dB)
+HP_SOFT_ACC_SKIP = [298.0]
+# c22 (B #1): a CC11 ceiling on the long-note swell for listed pitches whose next dynamic layer is much louder. In the
+# Bassoon KS Master the f layer fades in over CC11 33-38 (patch table: 0.12 at 34, 0.37 at 36, 0.6 at 38) under the full
+# mp layer; Bassoon 2's B flat 2 measured -51.9 dB at CC 34, -49.5 at 36 and -41.4 at 37, so its pp swells (34 -> 38)
+# rose 11 dB to within 2-3 dB of the horn and oboe solos. Applied only while the printed level is at or under the cap
+# c23 (B #1): the cap at 36 left the f layer at 0.37 (Bn2 B flat 2 still rose 13 dB). Key "*": every swelling long note
+# that starts at CC11 <= SWELL_CAP_MAX_CC is capped at its own starting CC11 + the value (0: no CC rise; the volume
+# envelope's SWELL_DB still shapes it). Patch tables (CC11 rescalers): Bassoon "Bs f" 0.12 at 34 / 0.37 at 36; Bass
+# clarinet "BC mp" 0.09 at 30 / 0.37 at 34; Contrabassoon "CB mp" 0.13 at 34 / 0.35 at 36; Clarinet "Cl mp" 0.02 at 32
+# / 0.32 at 36: the printed pp/p (CC 32-36) sits where the next layer enters in all four
+SWELL_CC_CAP = {"Bassoon 1": {"*": 0}, "Bassoon 2": {"*": 0, 46: 34}, "Bass clarinet": {"*": 0},
+                "Contrabassoon": {"*": 0}, "Clarinet 2": {"*": 0}}
+SWELL_CAP_MAX_CC = 40
+# c22 (C #2a): an mf-arrival hpgain whose track starts another crescendo within HP_CHAIN qn (no softer mark or
+# decrescendo between) holds its gain to that crescendo's start and releases it over HP_MF_BRIDGE_REL qn while the new
+# ramp rises (bar 56 -> 57: the strings released the +2 dB mf gain and the Vc cut stepped in, a 5.8 dB sag in 2 beats)
+HP_MF_BRIDGE_REL = 1.5
 # c18 (C #3a): Violins I's legato join into F6 at qn 208 (moved start 207.80) peaked 1.9 dB over every other peak of the
 # master (-2.26 dBFS at 207.83) and set the delivery limiter to 3.4 dB
-JOIN_NOTCH = {"Violins I": [(207.80, 207.97, -4.0)]}
+# c21 (A #1): transition spikes of 5-12 dB (repeatable in c19 and c20, also with the volume envelope removed) on these
+# joins; depth = 2 dB less than the smaller of the two spikes, capped at 6 (Vc 68.5: 8; Vln I 68: broad and shallow,
+# because that spike moved between renders)
+# c22 (A #2): Vln I 72 widened (the spike moved 0.1 s earlier between renders), Vln I 249.5, Vln II 73.5/83 (the unison
+# partner of the Vln I 72/73.5 notches), Ob1 145 (the spike precedes the fill: the transition sample)
+# c22 (B #2): Double basses E flat 2 sustain swells +5..+8 dB at moved start + 1.40-1.95 s (qn 63/75/84 notes), not joins:
+# placed for the c21 tempo map and the 0.16 s ABUT_LEAD; move them if either changes
+# c22 (B #3): Violoncellos bar 60 Leg Slur transition into F3 (11 dB swell, 7 dB K over the melody) and beat 3
+# c22 (C #3a): the coda pp arrival attacks at qn 286 (Vc/Vla/Cb at v60), -3 dB
+# c23 (A #3): CA 155.5 (+5.6, c21 +4.5), Vla 57 (+8.2, BC_SOFT join), Ob1 57 (+4.6, a 50 ms peak on the fill onset),
+# Vla div 84 (+6.7), solo violin 51 (+4.7): depth = spike - 2
+# c23 (after the render): Vln I 73.5's transition peak moved 0.1 qn later (73.48-73.53, +8 dB on the stem, +4 on the
+# master) with unchanged notes and envelope; the notch now covers both positions at -5.5 (was 73.37-73.45, -6)
+JOIN_NOTCH = {"Violins I": [(67.86, 68.02, -3.0), (71.90, 72.08, -4.5), (73.37, 73.55, -5.5), (74.90, 74.98, -3.0),
+                            (79.86, 80.03, -3.0), (207.80, 207.97, -4.0), (249.37, 249.44, -3.5)],
+              "Violoncellos": [(68.37, 68.49, -8.0), (181.85, 181.99, -3.5), (240.37, 240.45, -5.0),
+                               (200.52, 200.90, -5.0), (202.84, 202.97, -3.0), (285.75, 286.30, -3.0)],
+              "Violins II": [(177.35, 177.52, -4.3), (242.99, 243.05, -3.3), (245.39, 245.47, -3.9),
+                             (270.41, 270.50, -5.0), (73.33, 73.42, -4.0), (82.84, 82.91, -3.5)],
+              "Violin I solo": [(52.99, 53.15, -4.0), (50.89, 50.93, -2.5)],
+              "Horn 1": [(29.88, 30.01, -2.5)],
+              "Violas": [(161.86, 161.96, -3.9), (286.00, 286.40, -3.0), (56.81, 56.93, -6.0)],
+              "Oboe 1": [(144.81, 144.92, -4.0), (56.97, 57.04, -2.5)],
+              "Cor anglais": [(155.41, 155.57, -3.5)],
+              "Violas div": [(83.82, 83.98, -4.5)],
+              "Double basses": [(64.12, 64.50, -4.0), (76.10, 76.62, -5.0), (85.10, 85.62, -6.0),
+                                (285.95, 286.30, -3.0)]}
+# c23 (A #4): untied repeated pp notes that wind players re-tongue: the note before ends 0.06 qn early (the legato-repeat
+# gap; the 0.03 qn default gap dipped 0-1.4 dB, filled by the release tail and the hall). {track: [score onsets of the repeat]}
+REP_RETONGUE_AT = {"Horn 4": [9.0, 12.0, 15.0], "Bass clarinet": [9.0, 12.0, 15.0], "Horn 3": [292.0],
+                   "Bassoon 2": [23.0, 235.0]}
 # c18 (C #4): phrase-top shaping in lead slurs (see build_track)
 PT_MIN_NOTES, PT_DB_PER_ST, PT_CLIP = 4, 0.3, (-1.5, 2.0)
 # c15 (C #4): a Sus note of these tracks that follows the previous note without a gap (within 0.05 qn) at another pitch,
@@ -326,7 +410,13 @@ PT_MIN_NOTES, PT_DB_PER_ST, PT_CLIP = 4, 0.3, (-1.5, 2.0)
 # changes under the horn solo reached body - 3 dB only at +0.17..+0.32 s; the bass clarinet at +0.00..+0.10)
 # c16: off. The c15 render gave mixed arrivals and new 9-15 dB holes on the same-pitch repeats after a led note (Bn1 22,
 # 32, Bn2 21)
-ABUT_LEAD = {}
+# c19 (C #6): back on for listed onsets only ("at"): Bn1 27/35/36/38 under the horn theme (body - 3 dB at +0.25..+0.32 s;
+# the bass clarinet on the same chords +0.00..+0.06). None of them is followed by a same-pitch repeat (the c15 failure)
+# c20 (A #1): every arco Double basses pitch change that abuts the previous note (Sus MAX, no lead) crossed over a median
+# +0.20 s after the score (celli -0.00; Cb - Vc +0.165 s at 46 shared changes): the old pitch takes +0.46 s to fall 10 dB.
+# skip_next_same: no lead on a note followed by a same-pitch re-attack (the c15 holes)
+ABUT_LEAD = {"Bassoon 1": {"lead_s": 0.10, "max_cc": 50, "overlap_qn": 0.0, "at": [27.0, 35.0, 36.0, 38.0]},
+             "Double basses": {"lead_s": 0.16, "max_cc": 127, "overlap_qn": 0.0, "skip_next_same": True}}
 
 ksmaps = json.load(open(KSMAPS))
 # c10 (A #1): keyswitch maps of patches not in the bridge's ks_maps.json, dumped from the .oib with dump_ks.py
@@ -493,10 +583,12 @@ TEMPO = phrase_arcs(TEMPO)
 # 244-253, but bars 75-77 are qn 250-259). APEX_AGOGIC: in each phrase arc, the beat holding the highest note of the lead
 # line (the LEAD_SPANS track whose span started last at the arc's second beat) x APEX_AGOGIC, unless it is one of the
 # arc's last two beats. BEAT_STRETCH: single beats (the Largamente downbeats of bars 61 and 62).
-TEMPO_PUSH = [(21, 24, 1.015), (78, 84, 1.02), (250, 259, 1.025)]
+# c20 (C #4): pushes into the BCl/CA duet's mf crest (bars 32-33) and the oboe/cello p< of bars 45-46, with a held beat
+# on each crest (97 x0.96, 147 x0.97 before the poco rit. of bar 47), in BEAT_STRETCH
+TEMPO_PUSH = [(21, 24, 1.015), (78, 84, 1.02), (250, 259, 1.025), (93, 99, 1.02), (140, 147, 1.02)]
 APEX_AGOGIC = 0.96
 APEX_LEAD = {108: "Flute 1"}   # the flute solo of bars 37-40 has no LEAD_SPANS entry
-BEAT_STRETCH = {204.0: 0.94, 208.0: 0.94}
+BEAT_STRETCH = {204.0: 0.94, 208.0: 0.94, 97.0: 0.96, 147.0: 0.97}
 
 
 def mult_span(steps, a, e, f):
@@ -1192,7 +1284,10 @@ def build_track(tname, staves, patch, family, pan):
                 if bf_:
                     cc_falls.append((n["end"] - 0.2, n["end"], bf_))
             elif family in ("wind", "brass") and base(e0 - 0.01) >= DYN["mf"]:
-                n["end"] = e0 - min(0.3, 0.5 * dur)
+                # c19 (C #2): at a breath that also has a CAESURA (204, 268) the caesura already gives the pause; 0.3 qn
+                # made a 0.54 s wind hole (25-33 dB) just before the ff while the strings played on
+                gap_ = CAESURA_BREATH_QN if any(abs(e0 - c_) < 0.01 for c_ in CAESURA) else 0.3
+                n["end"] = e0 - min(gap_, 0.5 * dur)
             else:
                 n["end"] = e0 - min(0.25, 0.2 * dur)
             continue
@@ -1228,6 +1323,8 @@ def build_track(tname, staves, patch, family, pan):
                     and qn_to_sec(e0) - qn_to_sec(n["qn"]) < SHORT_SUS_DETACH["max_s"] and nxt:
                 n["end"] = e0 - SHORT_SUS_DETACH["gap"]   # c11 (C #6)
                 n["detach"] = True
+        elif same_pitch and any(abs(o0["qn"] - r_) < 0.02 for r_ in REP_RETONGUE_AT.get(tname, [])):
+            n["end"] = e0 - min(0.06, 0.15 * dur)   # c23 (A #4): a listed untied repeat is re-tongued audibly
         elif same_pitch:
             n["end"] = e0 - (min(0.06, 0.15 * dur) if is_leg else min(0.03, 0.1 * dur))
         elif is_leg:
@@ -1428,6 +1525,8 @@ def build_track(tname, staves, patch, family, pan):
 
     # c02: phrase shaping on long notes (C5) and anti-bloom on soft re-struck string chords (B6), in CC11 units
     contours = []   # (start, end, kind)
+    swell_caps = []   # c22 (B #1): (start, end, CC11 ceiling) for SWELL_CC_CAP pitches
+    swell_cap_tab = SWELL_CC_CAP.get(tname, {})
 
     def joined_next(n):
         """c13 (A #2): the next note joins n (a bow-change legato target, or a legato target overlapped by n)."""
@@ -1449,7 +1548,10 @@ def build_track(tname, staves, patch, family, pan):
             sec = qn_to_sec(e) - qn_to_sec(q0)
             prevs = [o for o in ns if abs(orig_end[id(o)] - q0) < 0.05 and o["qn"] < q0 - EPS]
             same_pitch = any(o["pitch"] == n["pitch"] for o in prevs)
-            if family == "string" and n.get("art") == "Sus MAX" and base(q0) <= DYN["p"] + 2 and prevs and not inside:
+            if family == "string" and n.get("art") == "Sus MAX" and base(q0) <= DYN["p"] + 2 and prevs and not inside \
+                    and not any(k_ == "cresc" and abs(b_ - q0) < 0.1 for a_, b_, k_ in hps):
+                # c22 (C #3b): not on a crescendo's arrival note (the coda pp arrival at 286: Cb CC11 34 -> 40 -> 32,
+                # an attack bump and a 5 dB fall after the printed < ; the bloomv rule already skips these, c10)
                 contours.append((q0, e, "bloom"))
                 continue
             if in_hp or inside or same_pitch:
@@ -1462,7 +1564,13 @@ def build_track(tname, staves, patch, family, pan):
                 continue   # c14 (A #1): a marcato note decays by itself; c15: joined sul tasto chords, the detache test
             if sec >= 1.8:
                 k_sw = "swell_taper" if ends_phrase else ("swell_sost" if in_sost(q0) else "swell")   # c14 (C #4)
+                if any(a_ <= q0 < b_ for a_, b_ in ARRIVAL_HOLD_SPANS):   # c20 (C #1)
+                    k_sw = "swell_sost"
                 contours.append((q0, e, k_sw))
+                if n["pitch"] in swell_cap_tab:
+                    swell_caps.append((q0, e, swell_cap_tab[n["pitch"]]))
+                elif "*" in swell_cap_tab and base(q0) <= SWELL_CAP_MAX_CC:   # c23 (B #1)
+                    swell_caps.append((q0, e, base(q0) + swell_cap_tab["*"]))
             elif ends_phrase and sec >= 0.6:
                 contours.append((q0, e, "taper"))
     bcsoft_n = 0
@@ -1529,6 +1637,9 @@ def build_track(tname, staves, patch, family, pan):
                 v += max(0.0, amt - TENUTO_BUMP * max(0.0, 1 - (q - h0) / 0.5))
 
         v += contour(q)
+        for ca_, cb_, cap_ in swell_caps:   # c22 (B #1)
+            if ca_ - EPS <= q < cb_ and base(q) <= cap_:
+                v = min(v, cap_)
         for fa, fb, fd in cc_falls:   # c15 (A #6)
             if fa <= q < fb:
                 v -= fd * (q - fa) / (fb - fa)
@@ -1564,6 +1675,7 @@ def build_track(tname, staves, patch, family, pan):
     ll = {float(k): v for k, v in LEG_LEADS.get(tname, {}).items() if not k.startswith("_")}
     leg_used = []
     flaut_joins, abut_used = [], []   # c15 (A #3, C #4)
+    sost_joins = []   # c23 (C #3)
     abut_ = by_name(ABUT_LEAD)
     for n in ns:
         q = n["qn"]
@@ -1591,12 +1703,21 @@ def build_track(tname, staves, patch, family, pan):
                 if se_ and final(q) <= se_[0]:
                     ex += se_[1]
                 tot = ls_ + ex if lx is None else max(LEG_LEAD_CLAMP[0], min(LEG_LEAD_CLAMP[1], ls_ + ex))
-                L = min(lead_qn(q, tot), 0.45 * (q - pv["qn"]))
+                cf_ = next((f_ for a_, b_, f_ in LEG_CAP_FRAC.get(tname, []) if a_ - EPS <= n.get("sq", q) < b_), 0.45)
+                L = min(lead_qn(q, tot), cf_ * (q - pv["qn"]))
             shift[id(n)] = L
         elif n.get("sost_rep") or (n.get("sost_sus") and any(o["qn"] < q - EPS and abs(orig_end[id(o)] - q) < 0.05
                                                               for o in ns)):
             # c07 (A #1): a re-tongued note under "Largamente" (repeated pitch, or an unslurred tenuto): 0.04 s early
             shift[id(n)] = lead_qn(q, SOST_REP_S)   # a same-pitch overlap is cut by the note-end guard below
+        elif family == "wind" and n.get("sost") and not n.get("leg_target") \
+                and any(o["qn"] < q - EPS and abs(orig_end[id(o)] - q) < 0.05 and (o.get("sost_rep") or o.get("sost_sus"))
+                        for o in ns):
+            # c23 (C #3): a sostenuto legato note after an overlapping re-tongued Sus note (Ob1 210, bar 62 E5) is joined
+            # by the KS Master like a legato transition; with no lead it reached body - 6 dB at +0.33 s
+            shift[id(n)] = lead_qn(q, SOST_JOIN_LEAD_S)
+            n["vel"] = max(n["vel"], SOST_VEL)
+            sost_joins.append(round(q, 3))
         elif n.get("fresh") and ent_s:
             # c09 (A #3): the section entering after the solo (Vln I qn 65): the family entry lead; the solo's last
             # note is cut 0.03 qn before the moved onset below, so the monophonic legato patch does not join them
@@ -1612,7 +1733,9 @@ def build_track(tname, staves, patch, family, pan):
             xs = extra_s(q)
             s_ = min(ENTRY_CAP_S, ((ent_s[0] if final(q) <= 50 else ent_s[1]) if ent_s else 0.0) + xs)
             pe = prev_end(q)
-            if pe is not None and (q - pe >= 0.5 - EPS or (xs and q - pe >= 0.2 - EPS)):
+            # c19 (C #2): after a caesura breath the rest is only CAESURA_BREATH_QN, so a listed extra lead still applies
+            cb_ = xs and any(abs(q - c_) < 0.01 for c_ in CAESURA) and q - (pe or 0) >= CAESURA_BREATH_QN - EPS
+            if pe is not None and (q - pe >= 0.5 - EPS or (xs and q - pe >= 0.2 - EPS) or cb_):
                 L = min(lead_qn(q, s_), q + PREROLL_QN - 0.5)
                 if pe >= 0:
                     L = min(L, q - pe - 0.02)
@@ -1634,9 +1757,12 @@ def build_track(tname, staves, patch, family, pan):
                             and o["pitch"] not in newp:
                         o["end"] = max(o["end"], q + FLAUT_OVERLAP_QN)
             elif abut_ and n["art"].startswith("Sus") and final(q) <= abut_["max_cc"] and q > 0.5 \
+                    and ("at" not in abut_ or any(abs(q - a_) < 0.02 for a_ in abut_["at"])) \
                     and any(o["qn"] < q - EPS and abs(orig_end[id(o)] - q) < 0.05 for o in ns) \
                     and not any(o["qn"] < q - EPS and abs(orig_end[id(o)] - q) < 0.05 and o["pitch"] == n["pitch"]
-                                for o in ns):
+                                for o in ns) \
+                    and not (abut_.get("skip_next_same") and any(o["qn"] > q + EPS and abs(o["qn"] - orig_end[id(n)]) < 0.05
+                                                                 and o["pitch"] == n["pitch"] for o in ns)):
                 # c15 (C #4): an abutting soft re-attack at a new pitch (bassoons under the horn solo)
                 L = lead_qn(q, abut_["lead_s"])
                 shift[id(n)] = L
@@ -1685,7 +1811,11 @@ def build_track(tname, staves, patch, family, pan):
             prevs_ = [o for o in ns if o["qn"] < n["qn"] - EPS and abs(orig_end[id(o)] - n["qn"]) < 0.1]
             if prevs_ and all(o.get("art") != "Tremolo" for o in prevs_):
                 shift[id(n)] = TREM_LEAD_S * bpm_at(n["qn"]) / 60
-    pulls = sorted(set(pulls))
+    # c22 (A #1): the pull starts PULL_PAD_QN before the moved note-on, rounded to the 4-decimal grid that sample() uses.
+    # Before, a moved onset that rounded down (228.94722 -> 228.9472) put the grid point just before the pull's start,
+    # so 26 entries started on the previous phrase's CC11 (Bn1 229 pp: CC 114 for 0.06 s, +14.8 dB attack)
+    PULL_PAD_QN = 0.01
+    pulls = sorted(set((round(a_ - PULL_PAD_QN, 4), b_) for a_, b_ in pulls))
 
     def final2(q):
         for a_, b_ in pulls:
@@ -1725,6 +1855,8 @@ def build_track(tname, staves, patch, family, pan):
         return max(c, key=lambda n: (n["qn"], n["pitch"])) if c else None
 
     def cc1_fn(q):
+        # c22 (A #1c): inside a pull, the entry's own vibrato (as final2 does for CC11); it was the previous note's
+        q = next((b_ for a_, b_ in pulls if a_ - EPS <= q < b_), q)
         v = cc1_fn0(q)
         # c17 (A #3, test): woodwind Sus notes of WIND_VIB_CAP_S or longer at CC11 WIND_VIB_CAP_CC11 or more: CC1 capped at
         # WIND_VIB_CAP (inside the patch's Vib/Non Vib crossfade, so part of the sound is the non-vibrato layer); the ff
@@ -1996,17 +2128,39 @@ def build_track(tname, staves, patch, family, pan):
                 # c11: max() so a chain from a smaller mf-arrival gain (HP_GAIN_MF_DB) keeps the f+ crescendo's own gain
                 it2[4] = max(it2[4], it1[4] + HP_CHAIN_RISE.get(family, 0.0) * HP_GAIN_DB[family])   # c10 (C #3)
                 hp_chained.append(round(a2, 3))
+    # c22 (C #2a): an mf-arrival hpgain (it does not chain) whose track starts another crescendo within HP_CHAIN qn of the
+    # arrival, with no softer mark or decrescendo between, holds its gain to that crescendo's start and releases it over
+    # HP_MF_BRIDGE_REL while the new ramp rises (a hold only: the gains are not added into a chain)
+    hp_bridged = []
+    if family in HP_GAIN_DB:
+        for it1 in [it for it in vol_parts if it[0] == "hpgain" and it[9]]:
+            b1 = it1[2]
+            nxt_ = sorted([(a_, b_) for a_, b_, k_ in hps if k_ == "cresc" and b1 + 0.05 < a_ <= b1 + HP_CHAIN])
+            if not nxt_ or it1[3] >= nxt_[0][0]:
+                continue
+            a2 = nxt_[0][0]
+            if any(b1 + EPS < mq < a2 - EPS and DYN[d_] < base(b1 - 0.01) for mq, d_ in marks if d_ in DYN) \
+                    or any(k_ == "decresc" and b1 - EPS <= a_ < a2 - EPS for a_, b_, k_ in hps):
+                continue
+            it1[3], it1[6] = a2, HP_MF_BRIDGE_REL
+            hp_bridged.append(round(a2, 3))
     # c14 (C #1): soft hairpins in lead spans (after the chaining, so they never chain)
-    hp_soft = []
-    if family in HP_GAIN_SOFT_DB and tname in LEAD_SPANS:
+    # c22 (C #4): and, with HP_GAIN_SOFT_ACC_DB, soft hairpins outside the lead lines; C #1: HP_SOFT_GAIN_AT per onset,
+    # HP_SOFT_EXTRA_SPANS; hp_soft_spans (lead branch) keeps the phrase tops off these hairpins
+    hp_soft, hp_soft_acc, hp_soft_spans = [], [], []
+    if family in HP_GAIN_SOFT_DB:
         have = [(it[1], it[2]) for it in vol_parts if it[0] == "hpgain"]
         used_dec = []
+        lead_sp = LEAD_SPANS.get(tname, []) + HP_SOFT_EXTRA_SPANS.get(tname, [])
         for a, b2, k in sorted(hps):
+            in_lead = any(s_ - EPS <= a < e_ for s_, e_ in lead_sp)
             after_mf_ = k == "decresc" and any(abs(a - y) < 0.3 for x, y in have)   # c18 (C #1b): after an mf hpgain
-            if not any(s_ - EPS <= a < e_ for s_, e_ in LEAD_SPANS[tname]) or (base(a + 0.01) > 66 and not after_mf_) \
+            if (base(a + 0.01) > 66 and (not after_mf_ or not in_lead)) \
                     or any(abs(a - x) < EPS and abs(b2 - y) < EPS for x, y in have):
                 continue
             if k == "cresc" and any(abs(a - x_) < 0.3 for x_ in SWELL_SOFT_GAIN_AT.get(tname, [])):
+                if not in_lead:
+                    continue
                 # c18 (C #1): theme A's < > (both statements) ran backwards (Vln I 68-70 -3.7 dB, 70-72 +1.2): a small
                 # messa di voce, +SWELL_SOFT_GAIN_DB at the top, released across the decrescendo to -1 dB at its end,
                 # back to 0 over 1 qn (the top stays 2.2 dB under the printed mf at 82, the c15 constraint)
@@ -2017,34 +2171,58 @@ def build_track(tname, staves, patch, family, pan):
                     vol_parts.append(("env", [(a, 0.0), (b2, g_), (max(b2, da) + 0.001, g_), (db_, -1.0),
                                               (db_ + 1.0, 0.0)]))
                     used_dec.append(round(da, 3))
+                    hp_soft_spans.append((a, db_))
                 else:
                     vol_parts.append(("env", [(a, 0.0), (b2, g_), (b2 + HP_REL, 0.0)]))
+                    hp_soft_spans.append((a, b2))
                 hp_soft.append(round(a, 3))
                 continue
             if k == "cresc" and any(abs(a - x_) < 0.3 for x_ in SWELL_NO_SOFT_GAIN.get(tname, [])):
                 continue   # c15 (B #1): an unmarked swell under the phrase's printed peak
+            if in_lead:
+                g_ = next((v_ for k_, v_ in HP_SOFT_GAIN_AT.get(tname, {}).items() if abs(a - k_) < 0.3),
+                          HP_GAIN_SOFT_DB[family])
+            else:
+                if any(abs(a - x_) < 0.3 for x_ in HP_SOFT_ACC_SKIP):
+                    continue
+                g_ = HP_GAIN_SOFT_ACC_DB
             if k == "cresc":
                 dec = [(a_, b_) for a_, b_, k_ in hps if k_ == "decresc" and -0.3 <= a_ - b2 <= 0.3]
                 if dec:   # messa di voce: held to the decrescendo, released linearly across it
                     da, db_ = min(dec)
-                    vol_parts.append(["hpgain", a, b2, max(b2, da), HP_GAIN_SOFT_DB[family], 0.0, max(0.25, db_ - da),
+                    vol_parts.append(["hpgain", a, b2, max(b2, da), g_, 0.0, max(0.25, db_ - da),
                                       0.0, 0.0, True])
                     used_dec.append(round(da, 3))
+                    if in_lead:
+                        hp_soft_spans.append((a, db_))
+                        # c22 (C #1): a listed decrescendo depth deeper than the messa di voce's release adds the rest
+                        dd_ = next((v_ for k_, v_ in HP_SOFT_DEC_AT.get(tname, {}).items() if abs(da - k_) < 0.3), 0.0)
+                        if dd_ > g_:
+                            nx = min([n["qn"] for n in ns if n["qn"] > db_ + 0.05], default=db_ + 1.0)
+                            vol_parts.append(["hpgain", da, db_, min(nx, db_ + HP_HOLD_CAP), -(dd_ - g_), 0.0, HP_REL,
+                                              0.0, 0.0, True])
                 else:
                     arr = min([n["qn"] for n in ns if n["qn"] >= b2 - 0.05], default=b2)
                     nx = min([n["qn"] for n in ns if n["qn"] > arr + 0.05], default=arr + HP_HOLD_CAP)
                     hold_end = min(nx, arr + HP_HOLD_CAP)
                     if arr > b2 + 0.25:
                         hold_end = min(arr, b2 + 2.0)
-                    vol_parts.append(["hpgain", a, b2, hold_end, HP_GAIN_SOFT_DB[family], 0.0, HP_REL, 0.0, 0.0, True])
-                hp_soft.append(round(a, 3))
+                    vol_parts.append(["hpgain", a, b2, hold_end, g_, 0.0, HP_REL, 0.0, 0.0, True])
+                    if in_lead:
+                        hp_soft_spans.append((a, b2))
+                (hp_soft if in_lead else hp_soft_acc).append(round(a, 3))
             elif k == "decresc" and round(a, 3) not in used_dec:
                 # c18 (C #1b): a decrescendo after a crescendo is skipped only when that crescendo's messa di voce
                 # already releases across it (used_dec); after an hpgain (mf) crescendo it gets its own ramp
                 nx = min([n["qn"] for n in ns if n["qn"] > b2 + 0.05], default=b2 + 1.0)
-                dd_ = next((v_ for k_, v_ in HP_SOFT_DEC_AT.get(tname, {}).items() if abs(a - k_) < 0.3), HP_SOFT_DEC_DB)
+                if in_lead:
+                    dd_ = next((v_ for k_, v_ in HP_SOFT_DEC_AT.get(tname, {}).items() if abs(a - k_) < 0.3),
+                               HP_SOFT_DEC_DB)
+                    hp_soft_spans.append((a, b2))
+                else:
+                    dd_ = HP_GAIN_SOFT_ACC_DB
                 vol_parts.append(["hpgain", a, b2, min(nx, b2 + HP_HOLD_CAP), -dd_, 0.0, HP_REL, 0.0, 0.0, True])
-                hp_soft.append(round(a, 3))
+                (hp_soft if in_lead else hp_soft_acc).append(round(a, 3))
     # c06 (C #5): the long-note swell in dB (same notes as the CC11 swell)
     for a, b2, k in contours:
         if k.startswith("swell") and k != "swell_sost":
@@ -2122,6 +2300,41 @@ def build_track(tname, staves, patch, family, pan):
         else:
             vol_parts.append(("env", trim_shape(n, v_, 0.25)))
         pitch_trimmed += 1
+    # c20 (C #3): METRIC_DB steps on plucked onsets (one per onset; a chord counts once)
+    metric_db_n = collections.Counter()
+    if METRIC_DB and family != "harm":
+        acc_q_ = set(round(x, 3) for x in accent_q) | {round(q_, 3) for q_, d_ in marks if d_ in ("sf", "sfz")}
+        ons_ = sorted({n["qn"] for n in ns})
+        done_ = set()
+        for n in sorted(ns, key=lambda o: o["qn"]):
+            q_ = n["qn"]
+            if q_ in done_ or not any(a_ - EPS <= q_ < b_ for a_, b_ in METRIC_SPANS):
+                continue
+            if not (family == "harp" or "izz" in (n.get("art") or "")):
+                continue
+            done_.add(q_)
+            if round(q_, 3) in acc_q_ or any(a_ - EPS <= q_ < b_ for a_, b_ in LEAD_SPANS.get(tname, [])):
+                continue
+            bk_ = beat_kind(q_)
+            if bk_ == "downbeat":
+                kind_ = "down"
+            elif bk_ == "mid":
+                kind_ = "mid"
+            elif abs(q_ - round(q_)) > 0.01:
+                kind_ = "off"
+            else:
+                continue
+            v_ = METRIC_DB.get(kind_, 0.0)
+            if not v_:
+                continue
+            q0 = min(new_on(o) for o in ns if abs(o["qn"] - q_) < EPS)
+            nx_ = [o_ for o_ in ons_ if o_ > q_ + EPS]
+            nq_ = min(new_on(o) for o in ns if abs(o["qn"] - nx_[0]) < EPS) if nx_ else sec_qn(q_, 1.5)
+            ne_ = min(nq_, sec_qn(q_, 1.5))
+            vol_parts.append(("env", [(qn_before(q0, 0.03), 0.0), (qn_before(q0, 0.01), v_),
+                                      (max(qn_before(q0, 0.01) + 0.002, qn_before(ne_, 0.03)), v_),
+                                      (max(qn_before(q0, 0.01) + 0.004, qn_before(ne_, 0.01)), 0.0)], True))
+            metric_db_n[kind_] += 1
     # c14 (C #4): sostenuto long notes: a hold that rises into the next note instead of the swell_db arc
     sost_held = []
     for a, b2, k in contours:
@@ -2232,6 +2445,10 @@ def build_track(tname, staves, patch, family, pan):
             top_ = {q_: max(n["pitch"] for n in sn_ if abs(n["qn"] - q_) < 0.002) for q_ in ons_}
             mean_ = sum(top_.values()) / len(top_)
             val_ = {q_: max(PT_CLIP[0], min(PT_CLIP[1], PT_DB_PER_ST * (top_[q_] - mean_))) for q_ in ons_}
+            # c22 (C #1d): onsets inside a soft lead hairpin take the printed shape, not the pitch contour (the solo
+            # violin's bar 17 crescendo falls Bb5 -> Eb5: the phrase tops took 2.1 dB off it)
+            val_ = {q_: (0.0 if any(a_ - EPS <= q_ <= b_ + EPS for a_, b_ in hp_soft_spans) else v_)
+                    for q_, v_ in val_.items()}
             mov_ = {q_: min(new_on(n) for n in sn_ if abs(n["qn"] - q_) < 0.002) for q_ in ons_}
             end_ = max(orig_end[id(n)] for n in sn_)
             pts_ = [(mov_[ons_[0]] - 0.1, 0.0), (mov_[ons_[0]], val_[ons_[0]])]
@@ -2268,8 +2485,22 @@ def build_track(tname, staves, patch, family, pan):
                                       (t3, MARC_BODY_DB), (e_, MARC_BODY_DB), (e_ + 0.05, 0.0)], True))
     # c03 (B #4): note trims keyed by onset (qn), matched within 0.02 qn, no length cutoff
     nt = {float(k): v for k, v in NOTE_TRIMS.get(tname, {}).items() if not k.startswith("_")}
+    nt_pluck_done = set()
     for n in ns:
         hit = [v for k, v in nt.items() if abs(n["qn"] - k) < 0.02]
+        if hit and (family == "harp" or "izz" in (n.get("art") or "")):
+            # c21 (B #5): a plucked note trim is a step at full value on the attack (the c12 pizz. pitch-trim shape;
+            # the 0.6 s ramp missed the pluck), held to the next onset (at most 1.5 s), once per onset (a chord counts once)
+            if round(n["qn"], 3) in nt_pluck_done:
+                continue
+            nt_pluck_done.add(round(n["qn"], 3))
+            q0, v_ = new_on(n), hit[0]
+            nx_ = [new_on(o) for o in ns if o["qn"] > n["qn"] + EPS]
+            ne_ = min(min(nx_) if nx_ else 1e9, sec_qn(n["qn"], 1.5))
+            vol_parts.append(("env", [(qn_before(q0, 0.03), 0.0), (qn_before(q0, 0.01), v_),
+                                      (max(qn_before(q0, 0.01) + 0.002, qn_before(ne_, 0.03)), v_),
+                                      (max(qn_before(q0, 0.01) + 0.004, qn_before(ne_, 0.01)), 0.0)], True))
+            continue
         if hit:
             sec = qn_to_sec(orig_end[id(n)]) - qn_to_sec(n["qn"])
             ramp = 0.6 * (orig_end[id(n)] - n["qn"]) / sec   # 0.6 s in qn
@@ -2362,6 +2593,15 @@ def build_track(tname, staves, patch, family, pan):
     vol_bp = sorted({round(x, 4) for item in vol_parts if item[0] == "env" and len(item) > 2 and item[2]
                      for x, _ in item[1]})
     vol_db, last = [], None
+    if __import__("os").environ.get("STP_DEBUG_VOL", "").split(":")[0] == tname:   # debug: per-item dB at listed qn
+        for q_ in [float(x) for x in __import__("os").environ["STP_DEBUG_VOL"].split(":")[1].split(",")]:
+            for it_ in vol_parts:
+                saved_ = vol_parts[:]
+                vol_parts[:] = [it_]
+                d_ = vol(q_)
+                vol_parts[:] = saved_
+                if abs(d_) > 0.005:
+                    print(f"  DBG {tname} {q_}: {d_:+.2f} {str(it_)[:90]}", file=sys.stderr)
     for q in vgrid:
         v = round(vol(q), 2)
         if v != last:
@@ -2473,10 +2713,10 @@ def build_track(tname, staves, patch, family, pan):
         "first_ks": ks_lookup(stem, first_art)[1] if first_art else None,
         "notes": out_notes,
         "leads": dict(lead_stats), "notches": len(notches), "unison_dropped": dropped, "bloomv": bloomv, "bloomv_skip": bloomv_skip, "timp_hp": timp_hp,
-        "pitch_trimmed": pitch_trimmed, "early_fills": early_n, "loop_fills": loop_n, "tie_slurred": tie_slurred, "metric_vel": dict(metric_n), "div_entries": div_entries, "extra_leads": extra_used, "leg_leads": leg_used, "port": port_done, "bcsoft": bcsoft_n,
+        "pitch_trimmed": pitch_trimmed, "early_fills": early_n, "loop_fills": loop_n, "tie_slurred": tie_slurred, "metric_vel": dict(metric_n), "metric_db": dict(metric_db_n), "div_entries": div_entries, "extra_leads": extra_used, "leg_leads": leg_used, "port": port_done, "bcsoft": bcsoft_n,
         "hpgain": [[round(i[1], 3), round(i[2], 3), i[4]] for i in vol_parts if i[0] == "hpgain"],
         "pt_slurs": pt_slurs,
-        "hp_chained": hp_chained, "hp_soft": hp_soft, "bc_skipped": bc_skipped, "roles_chained": role_chained, "accent_db": acc_n,
+        "hp_chained": hp_chained, "hp_soft": hp_soft, "hp_soft_acc": hp_soft_acc, "hp_bridged": hp_bridged, "bc_skipped": bc_skipped, "roles_chained": role_chained, "accent_db": acc_n,
         "ks": ks, "cc1": cc1, "cc11": cc11, "cc15": cc15, "cc7": cc7, "cc70": cc70, "dyn_curve": dyn_curve, "vol_db": vol_db, "vol_bp": vol_bp,
         "hairpins": [[round(a, 4), round(b, 4), k] for a, b, k in hps],
         "range": [min(pitches), max(pitches)] if pitches else None,
@@ -2500,7 +2740,12 @@ def find_unisons():
     for patch, ts in by_patch.items():
         if len(ts) < 2:
             continue
-        allnotes = [(t[0], n) for t in ts for s_ in t[1] for n in notes[s_]]
+        # c19 (A #1): leave out notes that TRACK_WINDOWS moves to another track (Horn 1's bars 79-82 play on the a2 track,
+        # so Horn 4's Ab3 at 265 was grouped with a note Horn 1 no longer plays and lost its first two beats)
+        def _owned(tn, q):
+            w = TRACK_WINDOWS.get(tn)
+            return w is None or (w[0] - EPS <= q < w[1] - EPS) == w[2]
+        allnotes = [(t[0], n) for t in ts for s_ in t[1] for n in notes[s_] if _owned(t[0], n["qn"])]
         seen = set()
         for i, (ta, na) in enumerate(allnotes):
             if (ta, na["qn"], na["pitch"]) in seen:
