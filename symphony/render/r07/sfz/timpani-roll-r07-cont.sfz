@@ -1,0 +1,85 @@
+// r07: roll-chain continuation channel: timpani-roll-r05.sfz without the release-triggered closing stroke (a roll that
+// moves to another drum does not end on the first drum).
+// r05 (critic 4, plan 6a): copy of assets/vpo3/Percussion/timpani-roll.sfz (VPO 3, CC-BY-SA / NoBudgetOrchestra) with
+// paths made relative to r05/sfz and E-flat 3 (MIDI 51) taken from the E3 roll sample pitched down a semitone instead of
+// the D3 sample pitched up: the D3 recording has a strong 24 Hz stroke pattern (envelope autocorrelation 0.27-0.29).
+//==============================================================
+// Percussion - Timpani Roll
+//
+// This was built from NoBudget Orchestra after I created round robin
+// samples from the original, then performed a timpani roll and recorded it
+//
+// Timpani samples:
+//  No Budget Orchestra - https://nobudgetorchestra.net
+//
+//  modified by Paul Battersby - http://virtualplaying.com
+//
+//==============================================================
+
+<group>
+amp_random=1 // randomize like a real player (PB)
+
+
+// roll off the lowest frequencies
+eq1_freq=25.2
+eq1_bw=1.25
+eq1_gain=-10.7
+
+// remove some mud (PB)
+eq1_freq=323.1
+eq1_bw=1.06
+eq1_gain=-6.1
+
+// add some clarity with a little high end boost (PB)
+eq1_freq=2843.4
+eq1_bw=1.48
+eq1_gain=4.4
+
+ampeg_release=0.6
+volume=3.5
+
+<region>
+sample=../../assets/vpo3/libs/Other\Samples/Timpani/timpani-roll-C2-PB-loop.wav
+lokey=c2 hikey=c#2 pitch_keycenter=c2
+
+<region>
+sample=../../assets/vpo3/libs/Other\Samples/Timpani/timpani-roll-D2-PB-loop.wav
+lokey=d2 hikey=d#2 pitch_keycenter=d2
+
+<region>
+sample=../../assets/vpo3/libs/Other\Samples/Timpani/timpani-roll-E2-PB-loop.wav
+lokey=e2 hikey=f2 pitch_keycenter=e2
+
+<region>
+sample=../../assets/vpo3/libs/Other\Samples/Timpani/timpani-roll-G2-PB-loop.wav
+lokey=f#2 hikey=g#2 pitch_keycenter=g2
+
+<region>
+sample=../../assets/vpo3/libs/Other\Samples/Timpani/timpani-roll-A2-PB-loop.wav
+lokey=a2 hikey=a#2 pitch_keycenter=a2
+
+<region>
+sample=../../assets/vpo3/libs/Other\Samples/Timpani/timpani-roll-C3-PB-loop.wav
+lokey=b2 hikey=c#3 pitch_keycenter=c3
+
+<region>
+sample=../../assets/vpo3/libs/Other\Samples/Timpani/timpani-roll-D3-PB-loop.wav
+lokey=d3 hikey=d3 pitch_keycenter=d3
+
+<region>
+sample=../../assets/vpo3/libs/Other\Samples/Timpani/timpani-roll-E3-PB-loop.wav
+lokey=d#3 hikey=f3 pitch_keycenter=e3
+
+<region>
+sample=../../assets/vpo3/libs/Other\Samples/Timpani/timpani-roll-G3-PB-loop.wav
+lokey=f#3 hikey=g#3 pitch_keycenter=g3
+
+<region>
+sample=../../assets/vpo3/libs/Other\Samples/Timpani/timpani-roll-A3-PB-loop.wav
+lokey=a3 hikey=a#3 pitch_keycenter=a3
+
+<region>
+sample=../../assets/vpo3/libs/Other\Samples/Timpani/timpani-roll-C4-PB-loop.wav
+lokey=b3 hikey=c4 pitch_keycenter=c4
+
+

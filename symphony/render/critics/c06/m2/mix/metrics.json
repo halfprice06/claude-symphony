@@ -1,0 +1,332 @@
+{
+ "file": "/tmp/c06/c06-m2.mp3",
+ "label": "c06-m2.mp3",
+ "start": null,
+ "duration_s": 347.93,
+ "ffmpeg_ebur128": {
+  "I_LUFS": -20.0,
+  "LRA_LU": 21.0,
+  "LRA_low_LUFS": -33.9,
+  "LRA_high_LUFS": -12.9,
+  "true_peak_dBTP": -1.5
+ },
+ "loudness": {
+  "I_LUFS": -20.0,
+  "LRA_LU": 21.0,
+  "LRA_low": -33.9,
+  "LRA_high": -12.9,
+  "S_percentiles_rel_I": {
+   "p5": -15.0,
+   "p10": -13.9,
+   "p25": -11.4,
+   "p50": -9.1,
+   "p75": -4.9,
+   "p90": 3.9,
+   "p95": 7.1,
+   "p99": 8.9
+  },
+  "M_max_rel_I": 10.5,
+  "S_max_rel_I": 9.4,
+  "S_min_active_rel_I": -26.6
+ },
+ "peaks": {
+  "sample_peak_dBFS": -1.48,
+  "samples_abs_ge_0.999": 0,
+  "samples_abs_gt_1.0": 0,
+  "crest_factor_dB": 22.9,
+  "rms_dBFS": -24.4
+ },
+ "noise": {
+  "quietest_1pct_100ms_dBFS": -52.8,
+  "quietest_5pct_100ms_dBFS": -39.0
+ },
+ "spectrum": {
+  "third_octave_Hz": [
+   24.8,
+   31.2,
+   39.4,
+   49.6,
+   62.5,
+   78.7,
+   99.2,
+   125.0,
+   157.5,
+   198.4,
+   250.0,
+   315.0,
+   396.9,
+   500.0,
+   630.0,
+   793.7,
+   1000.0,
+   1259.9,
+   1587.4,
+   2000.0,
+   2519.8,
+   3174.8,
+   4000.0,
+   5039.7,
+   6349.6,
+   8000.0,
+   10079.4,
+   12699.2,
+   16000.0,
+   20158.7
+  ],
+  "third_octave_dB_rel_total": [
+   -43.93,
+   -47.59,
+   -35.07,
+   -23.21,
+   -11.86,
+   -14.06,
+   -12.68,
+   -11.63,
+   -14.75,
+   -13.32,
+   -13.52,
+   -14.62,
+   -9.67,
+   -9.1,
+   -12.37,
+   -14.18,
+   -12.76,
+   -11.03,
+   -13.03,
+   -14.18,
+   -15.78,
+   -16.5,
+   -20.14,
+   -26.15,
+   -31.26,
+   -35.79,
+   -41.72,
+   -46.47,
+   -52.79,
+   -68.7
+  ],
+  "band_shares_dB": {
+   "20-100Hz": -8.96,
+   "100-250Hz": -6.94,
+   "250-500Hz": -6.93,
+   "500-2000Hz": -4.11,
+   "2000-6000Hz": -11.01,
+   "6000-20000Hz": -30.28
+  },
+  "slope_dB_per_oct_100_10k": -2.77
+ },
+ "brightness": {
+  "centroid_median_Hz": 577.0,
+  "centroid_loudest10pct_Hz": 756.0,
+  "centroid_softest30pct_Hz": 459.0,
+  "centroid_slope_oct_per_10LU": 0.454,
+  "loud_minus_soft_shape_dB_at_Hz": {
+   "39": -0.7,
+   "79": 1.4,
+   "157": -4.0,
+   "315": -2.9,
+   "630": -2.6,
+   "1260": 5.0,
+   "2520": 3.8,
+   "5040": 9.3,
+   "10079": 10.7,
+   "20159": -7.9
+  }
+ },
+ "stereo": {
+  "corr_LR": 0.577,
+  "side_to_mid_dB": -5.7,
+  "balance_R_minus_L_dB": -0.1,
+  "corr_low<250": 0.577,
+  "corr_mid250-4k": 0.604,
+  "corr_high>4k": 0.538,
+  "pan_spread_std": 0.361,
+  "pan_energy_hist_L_to_R": [
+   0.012,
+   0.044,
+   0.094,
+   0.155,
+   0.21,
+   0.19,
+   0.139,
+   0.123,
+   0.027,
+   0.006
+  ]
+ },
+ "score_alignment": {
+  "n_bars": 92,
+  "spearman_bar_loudness_vs_vel_max": 0.875,
+  "spearman_bar_loudness_vs_vel_median": 0.688,
+  "spearman_bar_loudness_vs_sounding_notes": 0.774,
+  "linear_dB_per_velocity_step_of_10": 3.44,
+  "bar_loudness_by_loudest_marked_dynamic_rel_I": {
+   "ppp": {
+    "n": 4,
+    "median": -12.9,
+    "min": -15.2,
+    "max": -10.3
+   },
+   "pp": {
+    "n": 17,
+    "median": -13.3,
+    "min": -16.3,
+    "max": -10.9
+   },
+   "p": {
+    "n": 33,
+    "median": -9.7,
+    "min": -16.2,
+    "max": -5.8
+   },
+   "mp": {
+    "n": 14,
+    "median": -6.4,
+    "min": -8.2,
+    "max": -2.2
+   },
+   "mf": {
+    "n": 9,
+    "median": -3.7,
+    "min": -8.9,
+    "max": 1.8
+   },
+   "f": {
+    "n": 6,
+    "median": 3.9,
+    "min": -4.5,
+    "max": 6.9
+   },
+   "ff": {
+    "n": 5,
+    "median": 7.5,
+    "min": 2.9,
+    "max": 9.1
+   },
+   "fff/acc": {
+    "n": 2,
+    "median": 0.9,
+    "min": -3.8,
+    "max": 5.6
+   }
+  },
+  "loudest_bars": [
+   [
+    61,
+    9.2,
+    "ff"
+   ],
+   [
+    62,
+    8.8,
+    "ff"
+   ],
+   [
+    80,
+    7.5,
+    "ff"
+   ],
+   [
+    79,
+    7.2,
+    "ff"
+   ],
+   [
+    60,
+    6.9,
+    "f"
+   ],
+   [
+    63,
+    5.6,
+    "fff/acc"
+   ],
+   [
+    59,
+    4.1,
+    "f"
+   ],
+   [
+    58,
+    4.0,
+    "f"
+   ]
+  ],
+  "softest_bars": [
+   [
+    36,
+    -16.4,
+    "pp"
+   ],
+   [
+    1,
+    -16.3,
+    "pp"
+   ],
+   [
+    84,
+    -16.2,
+    "p"
+   ],
+   [
+    35,
+    -15.4,
+    "pp"
+   ],
+   [
+    5,
+    -15.2,
+    "ppp"
+   ],
+   [
+    83,
+    -14.9,
+    "p"
+   ],
+   [
+    10,
+    -14.8,
+    "pp"
+   ],
+   [
+    86,
+    -14.8,
+    "pp"
+   ]
+  ]
+ },
+ "tails": {
+  "final": {
+   "t0_s": 343.58,
+   "level_at_t0_dB": -33.1,
+   "floor_dB": -94.3,
+   "t_minus10dB_s": 0.239,
+   "t_minus20dB_s": 0.809,
+   "t_minus30dB_s": 1.539,
+   "t_minus40dB_s": 2.009,
+   "RT60_from_T20_s": 4.62,
+   "EDT_s": 1.42,
+   "audio_after_last_note_off_s": 4.35
+  },
+  "silences_in_score": []
+ },
+ "onsets": {
+  "best_lag_ms_audio_after_midi": 60,
+  "peak_corr": 0.26,
+  "note": "spectral-flux vs MIDI note-on train, 10 ms grid, +-300 ms"
+ },
+ "cutoff_decays": {
+  "n": 1,
+  "median_t_to_minus20dB_s": 0.63,
+  "median_RT60_est_s": 1.96,
+  "events": [
+   {
+    "t_s": 343.51,
+    "level_dB": -32.0,
+    "t_to_minus20dB_s": 0.63,
+    "RT60_est_s": 1.96
+   }
+  ],
+  "note": "sharp cut-offs found from the audio alone (0.4 s sustained, then >=15 dB fall within 0.4 s); RT60 from the -5..-20 dB slope"
+ }
+}

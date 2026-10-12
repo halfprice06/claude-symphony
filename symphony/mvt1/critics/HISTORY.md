@@ -823,3 +823,108 @@ Settled: Fl 1 dynamic at 109–110 has now changed twice (c167, c178). Do not ch
 ## Cycle 179 (holistic, Adler 16) → v199
 Accepted: Fl 1 drops out after the G6 sf at 41.
 Do-not-touch: motto colours and order (1–8, 73–76, 77–83, 117–121, 175–182); climax chain 117–130 with Fl 1's octave drop at 124; brass under the horn call 41–42; scoring of 158–166.
+
+## Cycle 180 (cyclic, A&S 28) → v200
+Accepted: top line at 115 approaches D from E♭ (no D♭→D♮ in the top voice).
+Do-not-touch: Neapolitan settings at 7–8, 20–22, 140–142, 172–174, 178, 180; D♭ key held back for movement II.
+
+## Cycle 181 (melody, Adler 11) → v201 (no change)
+Kept: Hn 3·4 unison G5 at 158–161; held Hn 3·4 at 131–134. Parts note: "a2 with 3." in Hn 4 at 158–161.
+
+## Cycle 182 (harmony, A&S 30–31) → v202
+Accepted: Fl 1 F♭5 at the end of 75 (no cross relation into 76).
+Do-not-touch: bar 73; the bar-60 join; 77–83; 111–116; 117–130; 156–166.
+Open (relay from mvt II c071–c080): remove the harp retune cue at 176 ("Retune lowest D string (D1) / to D♭ for movement II"); movement II no longer uses D♭1.
+
+## Cycle 183 (form, A&S 6–8) → v203
+Accepted: plain V (no seventh) at the medial caesura 41–42 (Cl 1, Hn 3, Tpt 3); harp retune cue at 176 removed (closes the mvt II relay item).
+Do-not-touch: horn call and dynamics at 41–42; final cadence bass 177–178 (motto).
+
+## Cycle 184 (orchestration, Adler 5) → v204
+Accepted: clarinets rest 97–102 (register clash with the theme's lower octave; c157 and c184 for, c159 against). Settled; do not reverse without new evidence.
+Open: Vln I A♭6 at 140–141 pre-empts the 160 climax; proposed Vln I 8vb at 139–142 with Fl 1 keeping A♭6 (conflicts with the cycle 24/61 rule).
+Do-not-touch: second-group plan (Hn+Vc 47–55, violins an octave higher from 56); fugato entry order 85–96; coda string spacing 175–182.
+
+## Cycle 185 (parts stage, MOLA) → v205
+Accepted: separate parts build (build-parts.sh, parts-gen.py, parts-lib.ily, parts-clefs.ily; 30 parts in partsout/); transposed key signatures; part-only markings; harp pedal marks score-only. Full score unchanged.
+Open: composer name; B.cl clef choice at 91–106.
+Process: after each promote, run build-parts.sh to refresh the parts.
+
+## Cycle 186 (playability, Rimsky ch. I) → v206
+Accepted: sul G ends at 100; staggered breaths 117–123 and 158–163; Hn 1 at 154 lowered; wedge brass pp cresc. under p horns at 111–116.
+Open (protected): harp inaudible at f under the ff tutti at 162.
+Do-not-touch: cello high notes and theme leaps 47–55; brass/horn layout 117–123 and 158–161 (apart from breaths); timpani tuning plan; harp voicings 147–166.
+
+## Cycle 187 (texture, Rimsky ch. II) → v207
+Accepted: Cl 1 unison with Vln II at 94–95; Cl 1 at 162 without G♮ against G♯.
+Open (optional, protected): Fl 1 rest / Ob 1 lower-octave doubling at 162–163.
+Do-not-touch: Hn+Vc 47–55; Hn+Vla 147–155; Hn 2+Cl 1 counterline 56–68; codetta doublings 69–72; Fl 1 over Ob 1+Vln I 97–102; low motto 1–4; chorale 175–179.
+
+## Cycle 188 (expression, Adler 10) → v208
+Accepted: Tbn 2 chorale slurs; Hn 2 slur at 156; horn legato slurs 103–106 and 164; "dolce" at 175.
+Open: Hn 1 part shows no end level after the diminuendo at 162 (protected exit order).
+Do-not-touch: horn solos/swells 47–55 and 147–155; graded brass 27–32, 131, 167; trumpets' soft dynamics 113–116; horn call 41–42; chorale 175–179 notes, dynamics and slurs.
+
+## Cycle 189 (holistic, A&S 20–32 / Bruckner 8, Beethoven Op. 37) → v209
+Accepted: timpani first-group rhythm at 179–180; Hn 2 at 44.
+Closed: bass tritone 160–161 (cycle 172 note).
+Do-not-touch: coda order of events 163–182; ♭VI–°7–V climax at 160–161; Ger6–V at 12–13.
+
+## Cycle 190 (cyclic, Adler 17) → v210
+Accepted: horn call at 13–14 undoubled (Vla and Hn 3 adjusted).
+Open (optional): Vln II D5 at 150 under the C.a. answer.
+Do-not-touch: motto colours and order (1–4, 5–8, 73–76, 117–121, 171–182); flute motto over the A♭ pedal 73–76; C.a./Vc duet 171–174; chorale canon 175–182 with the timpani link 179–180; viola E♭→E♮ and five tied parts at 182.
+
+## Cycle 191 (melody, A&S 3) → v211
+Accepted: tenuto on the appoggiatura at 59 and 110.
+Open, now supported by two critics (c184, c191): Vln I A♭6 at 140–141 pre-empts the climax at 160. The next orchestration critic (cycle 194) should decide it and apply c184's tested fix (Vln I 8vb at 139–142, Fl 1 keeps A♭6) if it holds up, despite the cycle 24/61 rule.
+
+## Cycle 192 (harmony, A&S 27) → v212
+Accepted: Hn 3/Tbn 1 hold C into B at 28 (no anticipated resolution); final dominant's 7th resolves at 177–178 (Vln II, Vla).
+Open: check whether the bar-28 fix also applies to the parallel tutti bars (140, 168) for consistency.
+Do-not-touch: ♭9-on-top dominants at 83, 117, 122; common-tone A♭ 82→83 with the fugato's A♭–G answer at 85; soprano 13th at 145–146.
+
+## Cycle 193 (form, A&S Unit 15) — v213, no score change
+- Accepted: none.
+- Closed: c192 open item (B sounded before the tune's C→B at 132/142/168) — no clash.
+- Kept: 70→71 bass D♮ / soprano D♭ cross-relation (normal vii°7/V→V7; bass protected c103).
+- Open, for cycle 194 to decide: Vln I A♭6 at 139–142. c184, c191 and c193 support Vln I 8vb with Fl 1 keeping A♭6.
+- Cyclic note: movement III could put its second group in E♭ (III is never a key in mvt I).
+
+## Cycle 194 (orchestration, Casanelles ch. 6) — v214
+- Accepted: Vln I 8vb at 139–142 (Fl 1 alone keeps A♭6; violins first reach A♭6 at 160). Closes the A♭6 open item. Do not restore the violins' A♭6 at 140.
+- Accepted (optional): Vln II 150 `<f'' a''>` to avoid the unison with the C.a. D5 (closes the c190 item).
+- Closed: bar-28 fix at 140/168 is not applicable (no C→B in the tune there).
+- Kept/protected: bar 82 Fl 2 under Tpt 1; bar 122 A♭6.
+
+## Cycle 195 (engraving, Adler ch. 2) — v215
+- Accepted: Vc duet 171–174 one bow per bar; Cb 102 `f,,2. r4` before pizz.; "change bow at will" at Cb 13–14 and Vc/Cb 72–76; Vln II div./unis. at 73–74 and 124–125.
+- Open (composer): Vln I fff→p single bow at 124–125 (Ob 1 shares the slur; c88 identical-slur rule).
+- Do not touch: bowing scheme at 15–32 and 131–142; div./metà/unis. at 47–69 and 147–177; sul tasto→ord. at 147–155.
+
+## Cycle 196 (playability, Sebesky ch. 2) — v216
+- Accepted: B.cl part in treble clef throughout (closes the B.cl clef item at 91–106); Cl 2 quarter rest on beat 4 of 120.
+- Open (composer): Ob 1 low link at 45–46 → cor anglais; C.a. 5–9 "breathe ad lib." in the part.
+- Note: the v215 full.midi was stale; v216 is rebuilt.
+
+## Cycle 197 (texture, Adler ch. 11) — v217
+- Accepted: cellos mp→f at 88–91 so the fugato entry is heard; Ob 1 replaces Fl 1 as the doubling at 162–163 (closes c187).
+- Closed (decided, no change): c104 Cl 2 27–32; c147 clarinets rest 131–134; c147 Bsn 1 69–70; c161 no fill at 150; c167 56–68; c169 Fl 1 117–119; c173 Vln II 107–108; c174 Tpt 3/Tbn 1 E♭4 167–169; c186 harp at 162.
+- Still open (must be decided by cycle 200, since there are no later cycles): c174 Tpt 1 A♭5 at 72; c195 Vln I single bow at 124–125; c196 Ob 1 link 45–46 → cor anglais; c196 C.a. 5–9 "breathe ad lib."; c194 Vln II 150 (keep or revert); composer name on the title page.
+
+## Cycle 198 (expression, A&S Unit 21) — v218
+- Accepted: Vln I/Ob 1 slur split at 125 (closes c195); Hn 1·2 dim. at 44 (7–6 suspension); C.a. part-only "(breathe ad lib.)" at 8 (closes c196 breath item).
+- Closed (no change): Ob 1 link 45–46 stays on oboe (c196); Vln II 150 `<f'' a''>` kept (c194); Tpt 1 A♭5 at 72 kept (c174); composer name not printed.
+- No open items remain.
+
+## Cycle 199 (holistic, Casanelles on Mahler 1) — v219
+- Accepted: duplicate "a2" removed at Cl 103.
+- Kept: c194 and c197 changes reviewed and confirmed; no open items.
+
+## Cycle 200 (final release check) — v220. Series 101–200 complete.
+- Accepted: "attacca" in all parts; front-page timpani tunings corrected; release subtitle with version and date.
+- No open items. Cyclic notes are in c200.md (correction: since c194 the violins reach A♭6 only at 31, 72, 122 and 160; at 140 it is Fl 1 alone).
+
+## Cycle 201 (parts layout, attacca page turns) — v221
+- Accepted: parts that cross the join end movement I on an even page (strings 2 pp; Cb cover + 3 pp; Hn 3·4 and timpani cover + 1 p). Score unchanged.
+- Do not touch: these layouts; any change to the parts must keep each of them ending on an even page.

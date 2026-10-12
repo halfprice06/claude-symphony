@@ -206,3 +206,145 @@ Written by critic 100 against v119 (identical in notes and bar numbers to v120: 
 - Attacca join: movement I's last change is the viola's E♭→E♮ at 182; movement II's bar 2 turns that E♮ back to E♭ in the same viola. Movement I must not move that E♮ to another instrument without telling the movement II thread (it is on movement I's do-not-touch list since cycle 170).
 - Brass in movement II: Tbn 1 silent until its quotation at 63; trumpets tacet; B-section climax 61–62 has Hn 3 alone on the top line with Hn 4 an octave lower.
 - Timpani tuning at movement II bar 1 matches movement I's end (G, A♭, C, E♭).
+
+## Movement I cycle 180 (v200; mvt1/critics/reports/c180.md), added 2026-10-10
+- Key plan across the symphony: A♭ (II) → D♭ (II's middle) → C, as in A&S's Verdi and Beethoven Op. 57 examples. Movement III's D♭ arrival should resolve D♭ → cadential 6/4 → V7 → I, top voice D♭–C–B(–C) with the trumpets' B→C, rather than D♭ straight to C at ff (that neighbour-chord use already appears four times in movement I; the Eroica model's C is not a tonic).
+- Movement II: C minor's Neapolitan (D♭) is IV in A♭ (A&S PDF 494). Movement I puts F in the bass under its main D♭ chords; movement II could voice its D♭ chord over F once, e.g. at the plagal close.
+- Movement I v200 bar 115: the top line now reaches D from E♭ (no D♭→D♮ in the top voice).
+
+## Movement I cycle 181 (v201; mvt1/critics/reports/c181.md), added 2026-10-10
+- Brass colours movement I never uses, kept for the finale's climax: a tuba melody; a high four-horn unison; the full low-brass bass unison. For a high horn unison in movement III, use horn pairs in octaves, or Hn 1 and 3 with one trumpet (Schuller's layout, Adler PDF 26).
+
+## Movement II relay, cycles 71–80 (mvt II v81; mvt2/critics/reports/c071.md–c080.md), added 2026-10-10
+- Movement I's harp cue at 176 ("Retune lowest D string (D1) to D♭ for movement II") is no longer needed: movement II dropped its D♭1 in cycle 76 (harp plays D♭2 at bar 9, no scordatura; lowest harp note E♭1). Movement I removes the cue (from v203 or the next version).
+- Movement II voices its D♭ chord over F once, at 87 (IV6 of A♭ = C minor's Neapolitan sixth), as cycle 180 suggested. Plagal cadence 88→89 (iv–I over D♭–A♭, Vln I C5) unchanged.
+- Reserved brass colours checked in movement II: no tuba melody, no high four-horn unison, no melodic low-brass unison. B climax 61–62: Hn 3 top line, Hn 4 an octave lower; Tbn 1 silent until its quotation at 63.
+- Key plan A♭ → D♭ → C confirmed; the A-minor quotation at 63–64 acts as a tonicized ♭II of A♭.
+- Attacca join matches movement I v201: five tied parts at ppp, timpani G–A♭–C–E♭, viola E♮→E♭ at movement II bar 2.
+
+## Movement I cycle 187 (v207)
+- Movement I never presents a melody in parallel thirds or sixths (Rimsky PDF 78, Ex. 88–89). That doubling is available as a new colour for movements II/III.
+
+## Movement II relay, cycles 81–90 (mvt II v91; mvt2/critics/reports/c081.md–c090.md), added 2026-10-11
+- Melody in parallel thirds/sixths now used once in movement II: at 41–44 Fl 1 moves in tenths and sixths with the cor anglais' theme B. Movement III can treat it as already heard, or avoid it.
+- Horns 3·4 end movement II con sord. (87–90); movement III's first Hn 3·4 entry needs "senza sord.".
+- Attacca join still matches movement I (v207/v208): five tied parts at ppp, harp damped, timpani G–A♭–C–E♭.
+- Other movement II changes since cycle 80: V with a minor ninth by mixture at 81 (Hn 3 holds F♭ over the bar, resolving to E♭); full diminished seventh at 64 beat 3; Hn 3·4 a2 at the B climax 61–62; clarinets in the clarion register at 61–62; timpani roll at 61–62 now f (was ff).
+- Closed in movement II with no change: "bass rarely motivic" (a motivic bass is left to movement III); "theme A never in the winds".
+
+## Movement I cycle 190 (v210; mvt1/critics/reports/c190.md), added 2026-10-11
+- Movement III's first theme should not start in the clarinet or solo violin (movement II ends with Cl 1's tail, Vln I's C5 and muted Hn 3·4); strings with brass, or a woodwind choir, keeps its first colour fresh (Adler PDF 263).
+- The owed soft trumpet melody: first entry undoubled, with the other trumpets and the horns out of its accompaniment and register; save the octave doubling for its climax (Adler PDF 264, 267, 279–281).
+- Timpani link: movement I's last timpani pulse (179–180) is the first group's rhythm `c4 r8 g,8 c4 r4`; movement III's timpani can use it between phrases of the major chorale (stay on C and G; movement II's tuning has no D).
+- Horn call E♭–C–B has been heard in Hn 1 alone (13–14, undoubled since v210) and Cl 1 an octave up (175–177). In III give its major form (E–C–B→C) to the trumpets, B rising to C, doubled in a new way (e.g. horns two octaves below).
+- Canon: movement I ends with the motto in canon at pp (chorale bass, Vln I two bars later). III's forte chorale can reuse the canon at f, violins two bars after the brass, with an independent bass.
+
+## Movement II relay, cycles 91–100 (mvt II at v101; reports mvt2/critics/c091–c100.md)
+For movement III:
+- Theme B never returns in movement II. Its one recall belongs in movement III's D♭ episode, as a single statement. c100 suggests changing B♭ to B♮ so the theme ends D♭–B–C: the Neapolitan's falling diminished third leads into the trumpets' B→C (A&S PDF 484). There is a LilyPond sketch in c100.md.
+- Movements I and II both end on Vln I C5 ppp over a soft tonic timpani roll. Movement III should not open with a soft roll or a held C.
+- Movement I's timpani pulse `c4 r8 g,8 c4 r4` is not used in movement II and is free for movement III.
+Other:
+- The attacca join still matches movement I v217 part by part: the five tied parts, Hn 4 relieving Hn 3, Vla E♮→E♭ at bar 2, and the timpani tuning.
+- The cyclic rules still hold in movement II: each quotation appears once; the S-head rhythm only at 47–49; no rising-sixth openings, tam-tam or trombone chorale; trumpets tacet; every F♭ resolves to E♭.
+- Changes since cycle 90 are voice leading (fifths removed at 58, 62 and in the harp), dynamics and bowings. None touches shared material.
+
+## Movement I, cycle 200 (final, v220)
+- Correction: since cycle 194 the A♭6 at 140 is in Fl 1 alone. The violins reach A♭6 only at 31, 72, 122 and 160.
+- Every part of movement I now prints "attacca" at bar 182. The join with movement II v102 was checked part by part and matches.
+- Full cyclic notes from this cycle: mvt1/critics/reports/c200.md.
+
+## Movement II relay, cycles 101–110 (mvt II at v111; mvt2/critics/HISTORY.md)
+Corrections:
+- Movement II also has its melody in parallel sixths at 32–34: C.a. above B.cl on the motto tail (C.a. moved up an octave in mvt II v112, cycle 111).
+- Movement II bar 1 is marked "attacca from movement I" in every part, and the title block says it follows movement I attacca.
+For movement III (critic 110, compared with mvt I v220):
+- Leave A♭ by way of G.
+- Close the E♭/E♮ thread with an augmented sixth (D♯ rising to E).
+- The violins peak at A♭6 in movement I and at B♭6 in movement II (bar 79 only; bar 58 now holds A♭6). Movement III's last climax should reach C7.
+- Hn 3·4 end movement II muted, so they need "senza sord." at their first entry in movement III.
+Movement II changes since cycle 100 (shared material untouched apart from the above): IV7 at 25, viiø7 at 39, iii6 at 78; strings f at 28; Tbn 2 at 61–62; C.a. doubles the muted horns at 87–88; viola off-beats 48–51; fp at 47; basses 4 soli 65–70; B♭6 removed at 58; attacca marks.
+
+## Movement II relay, cycles 111–120 (mvt II at v121; mvt2/critics/HISTORY.md)
+Corrections to earlier relays:
+- The timpani roll is removed from movement II's last bars, so movement II no longer ends the way movement I does. This replaces the cycle 91–100 note that both end on a soft tonic roll.
+- B♭6 occurs at bar 76 (mp) as well as at 79.
+- Movement I's stop chord (B–D–F–A♭) recurs at movement II bars 33 and 64 and never resolves to C there. Movement III should resolve it.
+For movement III (critic 120):
+- Opening: a pause after movement II, then a loud start in which movement II's last A♭ chord becomes a German sixth (A♭, C, E♭, F♯) resolving to V of C. Critic 120 offers this to settle the two conflicting opening proposals above.
+- Key plan: C minor, A♭ (VI), then through F minor (IV), then hold G with B♮ in the bass before the reprise. If the main idea appears in C major early, treat it as V of F minor (Mozart K. 457).
+Movement II changes since cycle 110: C.a. a sixth above B.cl at 32–34 and a C.a. pickup into theme B at 36; bar 55 harmony rebuilt; II6/5 before the cadential 6/4 at 43; harp bass octaves 74–78; Bsn on the counter-line and Tbn 2 on the 7th at 60; basses unmuted 21–36; bowings 26–81; Ob 1/Vln II hold A♭5 at 58 under the A♭6.
+
+## Movement II relay, cycles 121–130 (mvt II at v131; mvt2/critics/HISTORY.md)
+Clarifications:
+- The cellos' C♭4→C4 at mvt II 78 is ♭3̂→3̂ over the cadential 6/4, not a leading-tone resolution. The trumpets' B→C stays reserved for movement III.
+- Movement II has already used the following, so movement III should not present them as new: melody in parallel sixths and thirds (32–34, 41–44); muted horns with cor anglais (87–88); harp harmonics (83); the low-brass quotation (63–64); the woodwind choir (31–36).
+For movement III (critic 130):
+- Movement II holds back the trumpets, the string tremolo (used only at 63–64) and the violins' C7. Movement III should use them once, at the arrival in C major, with the falling major motto in full brass.
+- Give the harp a real melodic line. In movement II it has only accompaniment and three notes at 83.
+- Timpani end movement II tuned A♭, C, D♭, E♭. Movement III's first timpani label should give the retuning, done during the pause.
+- Hn 3·4 end with "via sord." at 91, so they need "senza sord." at their first entry.
+- Close the E♭/E♮ thread in the violas. Resolve the B–D–F–A♭ stop chord once, with the trumpets' B→C.
+- Keep critic 120's opening: a pause, then the German sixth.
+Other mvt II changes since cycle 120 are small and do not touch shared material: Vc sul D 44–47; bass G♭1 at 43; leading tone undoubled at 81; Cl off the peak A♭ at 79; timpani rest at 82; softer wind entries at 77; engraving and slur fixes; "dolce cantabile" at 37.
+
+## Movement II relay, cycles 131–140 (mvt II at v141; mvt2/critics/HISTORY.md)
+Corrections:
+- The movement II string tremolo runs 61–64 (violas from 61), not only 63–64.
+- The rising C♭→C at mvt II 78 is in the cellos and Bsn 1.
+- Muted strings (15–30) are already used in movement II.
+- The B.cl solo at mvt II 31–37 is now an octave lower, so the motto tail sounds E♭3–D3–D♭3–C3, the same pitch and instrument as movement I's opening motto (C.a. still a sixth above). The tail has now been heard twice at that pitch (mvt I 2–3, mvt II 32–34); movement III should not use it a third time there.
+For movement III (critic 140):
+- Couple the trumpets with the timpani at the C-major arrival. The soft trumpet entry before it should be undoubled and without timpani.
+- On a repeat, the soft trumpet melody could be a muted trumpet doubling the cor anglais.
+- Heterophonic doubling has not been used yet.
+- Movement III's forte D♭ must not repeat movement II's bar 61 tutti. Give it to the trumpets and resolve through the 6/4 with B→C.
+Other mvt II changes, no shared material: cross relations removed at 50 and 59–60; Cbsn D♭1 at 61; Bsn 1 on the deceptive-cadence chord at 78; cues in ten parts; harp off the counter-line 53–56; theme B handover shares a note at 37.
+
+## Start here for movement III (consolidated 2026-10-12; mvt I v220, mvt II v141)
+
+This section summarises everything above that still applies. Where an older note disagrees with it, this section wins. Movement I bar numbers are v220's, which are the same as v109's (182 bars since cycle 80), so the pitch quotations in "Consolidated summary §1" still hold, with the corrections in "Changes since cycle 90" and the cycle 200 note. Movement II bar numbers are v141's.
+
+**Where movements I and II leave off**
+- Movement I (C minor, about 7:11) ends attacca into movement II. Movement II (A♭ major, about 5:45) ends on A♭ major ppp: Vln I holds C5; Hn 3·4 are con sord. ("via sord." at 91); there is no timpani roll and no harp in the last bars. The timpani end tuned A♭, C, D♭, E♭.
+- Violin peaks: A♭6 in movement I (31, 72, 122, 160); B♭6 in movement II (76 mp, 79). Movement III's last climax should reach C7.
+- Movement I's stop chord B–D–F–A♭ (26, 138, 170) recurs in movement II at 33 and 64 and is never resolved to C. Its B♮s are left hanging in movement I at 14, 170 (trumpets' last note), 174 and 177.
+
+**Opening**
+- A pause after movement II, then a loud start: movement II's last A♭ chord becomes a German sixth (A♭–C–E♭–F♯) and resolves to V of C (critics 120 and 130, A&S p. 593). Do not open softly, on a held C, or with a soft roll.
+- The first timpani label gives the retuning made during the pause. Hn 3·4 need "senza sord." at their first entry.
+- The first theme is new material. It should not open with a rising sixth (that interval belongs to the motto), and should not start in the clarinet or a solo violin. Use strings with brass, or a woodwind choir. Movement I's P head appears only as a link.
+
+**Key plan**
+- C minor → A♭ (VI) → F minor (IV) → a held G area with B♮ in the bass before the reprise (A&S PDF 449, 452–454). The development holds one key for 12–20 bars with its own cadence; G (never a key in movement I) is the obvious choice. If the main idea appears in C major early, treat it as V of F minor (Mozart K. 457).
+- E♭ (III) is still unused as a key in movements I and II, so movement III's second group could be in E♭ (critic 193).
+- D♭ episode, forte: give it to the trumpets. It must not repeat movement II's bar 61 tutti. Resolve D♭ → cadential 6/4 → V7 → I with the top voice D♭–C–B–C, the trumpets taking B→C (critics 180 and 140). This is also the place for theme B's single recall from movement II, ending D♭–B–C (sketch in mvt2 c100.md). The bar-12 German sixth and the bar-75 V7 of D♭ are the same chord, and can be respelled to pivot between C and D♭.
+- Second theme: minor first, major on the repeat (the reverse of movement I).
+- Final approach: an enlarged version of movement I's ♭VI → German sixth → V (bars 10–13), or a Don Giovanni arrival (♭VI, borrowed iiø7, V, I with E♮ in the trumpets). The last cadence is the symphony's first root-position V7–I in C since movement I bar 135, with the trumpets taking B to C.
+
+**Owed: each of these sounds once, in movement III only**
+1. A soft trumpet melody. The first entry is undoubled, with no timpani and no other brass in its register; save the octave doubling for its climax. On a repeat it could be a muted trumpet doubling the cor anglais. Trumpets are tacet throughout movement II, so this is their first entry since movement I.
+2. The C-major arrival. The trumpets' B→C, coupled with the timpani, resolves the B–D–F–A♭ stop chord. Here, and only here, add string tremolo and the violins' C7. It is the first sustained forte major chord in full brass, with no tam-tam.
+3. The falling major motto G–E–D–C in full brass at forte.
+4. The brass chorale: top line `g1 | e'1 | d'1 | c'2 des'2 | c'1` for the first statement, and `… c'2 b2 | c'1` for the last. Trombone colour, f–ff, with horns and trumpets added and an independent bass (for example B.tbn `c1 | c1 | b,1 | a,2 bes,2 | c1`, or end over `aes,2 g,2 | c1`). Do not copy movement I's 175–179 octave doubling. It can be set in canon at f, violins two bars after the brass. Between phrases the timpani can play movement I's pulse `c4 r8 g,8 c4 r4` (C and G only); movement II never uses it.
+5. After the chorale, the violins' C-major second-theme head with its chromatic counter, mf–f molto cantabile, over a C pedal. The pitches are in §2 item 1 (complete version in mvt1/v99/sections/recTwo.ily).
+6. A fast ff full-brass combination of the first- and second-theme heads in C major.
+7. The last C-minor tutti in movement I's hammered layout (27–32, 167–170: head in octaves, Cb repeated eighths, held brass), turned to C major in the same layout.
+8. The horn call in major, E–C–B→C, in the trumpets, doubled in a new way (for example horns two octaves below).
+9. The E♭/E♮ thread closed in the violas.
+
+**Still unused: available as new colours**
+- Instruments: a tuba melody; a high horn unison (use horn pairs in octaves, or Hn 1 and 3 with one trumpet); a full low-brass unison in the bass; a melodic harp line (movement II gives the harp only accompaniment and three notes at 83); a melodic timpani passage.
+- Textures: heterophonic doubling; a motivic bass countermelody, with more inverted bass positions (movement I is in root position on 71% of beats); call and response between wind and string groups; string-free passages.
+- Harmony (A&S Unit 31): a full chromatic lament bass with 7–6 suspensions; descending chains of diminished sevenths; a rising chromatic 5–6 with augmented triads. One deliberate E♭/E♮ cross relation between the outer voices in the chorale (Brahms 3).
+
+**Already used in movement II: do not present as new**
+- Melody in parallel sixths or thirds (32–34, 41–44); muted horns with cor anglais (87–88); harp harmonics (83); the low-brass quotation of movement I (63–64); a woodwind choir alone (31–36); muted strings (15–30); string tremolo (61–64); the viola C string (87–92); the D♭ triad as a plagal close (87–89).
+- The motto tail E♭3–D3–D♭3–C3 in the bass clarinet has now been heard twice at that pitch (mvt I 2–3, mvt II 32–34). Do not use it a third time there.
+- Each quotation of movement I appears once in movement II. The second-theme head rhythm appears only at 47–49, in the cor anglais.
+
+**Conventions**
+- Concert-pitch score. Key signatures on all pitched staves except the timpani. In the parts, horns and trumpets have no key signatures.
+- Every F♭ resolves to E♭.
+- Length: at least 6 minutes, so the symphony's weight is not front-loaded.
+- Parts: a held note across a join must not fall on a page turn. The movement I parts are being checked for this at the attacca (critic 201).

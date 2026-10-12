@@ -2,6 +2,8 @@
 
 Written 2026-10-09 for draft v01. Source: cyclic-notes.md §3 "Plan for movements II and III" and the notes from critics 40, 54, 60, 62, 74, 77, 100, 101 and 110 of movement I.
 
+> **Current state (cycle 130, v131):** this plan describes the v01 draft and is kept for history. The movement now has 92 bars (about 5¾ minutes). The quotation of movement I's second theme at 47–53 is in the cor anglais, not oboe 1. Bar 42 is a plain turn, not the motto tail. Theme B first enters in flute 1 at 37, and its B♭-minor head (44–47) is in oboe 1 with the cellos. For the current score read v131/critique.md and critics/HISTORY.md.
+
 ## Shape (v01: 104 bars, about 6½ minutes)
 
 | Bars | Section | Metre, tempo | Key | Content |

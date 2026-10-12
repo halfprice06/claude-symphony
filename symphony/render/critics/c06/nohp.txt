@@ -1,0 +1,4 @@
+r06-m1: inversions 337; without pairs in printed hairpins 167
+r06-m1: Spearman all bars 0.81 (n=181); bars without hairpins 0.88 (n=119)
+r06-m2: inversions 33; without pairs in printed hairpins 14
+r06-m2: Spearman all bars 0.67 (n=90); bars without hairpins 0.57 (n=63)

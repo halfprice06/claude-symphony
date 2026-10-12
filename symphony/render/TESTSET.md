@@ -7,3 +7,4 @@ before/after numbers compare like with like.
 | from cycle | movement I | movement II |
 |---|---|---|
 | critic 2 – actor 6 | symphony/mvt1/v156 (182 bars) | symphony/mvt2/v30 (92 bars, mixed 3/4 + 4/4, no percussion) |
+| actor 7 – actor 11 | symphony/mvt1/v203 | symphony/mvt2/v82 |

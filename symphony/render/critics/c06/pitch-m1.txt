@@ -1,0 +1,5 @@
+pitchcheck.py / onset_tuning.py (critic 5 scripts) on r06-m1, stage-1 signals regenerated with r06/stem.py --synth-out
+Bassoons_12: n 71 median -0.7 c, |dev| p50 1.1 p90 4.7 c, >15 c: 0 %, >25 c: 0 %
+Oboes_12: n 24 median +1.2 c, |dev| p50 2.3 p90 6.0 c, >15 c: 0 %, >25 c: 0 %
+Bassoons_12: 56 isolated notes; time to pitch (+-30 c) median 0.00 s, p90 0.00 s; notes >= 0.1 s a semitone low: 0 %
+Oboes_12: 15 isolated notes; time to pitch median 0.00 s, p90 0.05 s; notes >= 0.1 s a semitone low: 0 %
