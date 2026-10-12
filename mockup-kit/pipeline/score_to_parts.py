@@ -160,7 +160,7 @@ SWELL_DB = 1.5
 # c10 (C #5): the coda pp arrival at qn 286 (Vc/Vla/Cb v41-53 Leg Slur re-attacks decayed 5-11 dB) at v60
 # c14 (A #1): the Marc Lng notes of Tbn1's marcato line fall from v106 to v94 (the c06 note trims -1..-2.5 dB that made
 # this fall ramped in over each note and are removed)
-VEL_SET = {"Trombone 1": {218.0: 110, 212.5: 108, 213.0: 105,
+VEL_SET = {"Trombone 1": {218.0: 92, 212.5: 96, 213.0: 96,   # c26 (item 9): 110/108/105 -> 92/96/96 on Sus MAX
                           214.5: 106, 215.0: 104, 215.5: 102, 216.0: 100, 217.0: 96, 217.5: 94},
            "Violoncellos": {286.0: 60}, "Violas": {286.0: 60}, "Double basses": {286.0: 60},
            "Oboe 1": {148.0: 100}}   # c08 (C #2c): the bar 47 goal re-attack (Sus MAX, same pitch) was v73
@@ -214,8 +214,38 @@ ACCENT_DB = 2.0   # first c09 render: 3 dB gave Tbn1 213 +5.6 dB over the eighth
 # c11 (A #3): per-onset accent weight in dB with the timpani loud-attack shape (10 ms rise, held 0.12 qn, 0 by 0.3 qn):
 # Tbn1's ff marcato pickup measured -1.7 dB attack over its body at v108 (the c10 velocity cut removed the peak and the
 # emphasis with it); ACCENT_DB's 0.25 s hold covered half the note, so attack and body rose together
-ACCENT_DB_AT = {"Trombone 1": {212.5: 4.0, 213.0: 3.0, 218.0: 4.5}}   # c15 (A #4): 213 (+1.2 dB peak over body)
+ACCENT_DB_AT = {"Trombone 1": {212.5: 4.5, 213.0: 3.0, 218.0: 6.0}}   # c15 (A #4): 213 (+1.2 dB peak over body)
 # c21 (A #3): 218 3.0 -> 4.5 (it measured only 1.5 dB over the marcato eighths, which get +5 dB on their attacks)
+# c26 (BRIEF item 9; A #2, B #3, C #2): Dan heard Tbn1's bar 63-64 accents as harsh. Measured on c25: the attacks were a
+# 2-5 kHz burst (+7..+13 dB over the note's own body) from three things stacked on 40-80 ms: the Sus Accent MAX sample,
+# CC11 122 (ff 114 + ACCENT_BUMP 8, the fff layer) and a 10 ms +3..+4.5 dB step. Now: Sus MAX (ACCENT_ART_AT), no CC11
+# bump (ACCENT_BUMP_AT), v96/96/92 (VEL_SET) and a swell in seconds with no front edge: 0 at onset - 0.01 qn, full at
+# + rise_s, held to + hold_s, 0 by + end_s (ACCENT_SWELL_S_AT), +4.5/+3.0/+6.0 dB (first c26 render with +3.0/+3.0/+2.5:
+# 212.5 and 218 sat +1.2 and -1.8 dB against the bodies of the marcato eighths; raised after the render, gain only)
+ACCENT_ART_AT = {"Trombone 1": {212.5: "Sus MAX", 213.0: "Sus MAX", 218.0: "Sus MAX"}}
+ACCENT_BUMP_AT = {"Trombone 1": 0}
+ACCENT_SWELL_S_AT = {"Trombone 1": {212.5: (0.07, 0.25, 0.6), 213.0: (0.07, 0.25, 0.6), 218.0: (0.07, 0.25, 0.6)}}
+# c26 (BRIEF item 8; A #1, C #1): the final chord (qn 292-304, 18.7 s) held one sample per string section, so each
+# section replayed its 3.93-3.97 s sustain loop 4-5 times in step with the others (c25 master 100-300 Hz folded swing
+# 4.8 dB, autocorrelation 0.58; stem centroid autocorrelation 0.39-0.63): a synchronized slow bow cycle. REBOW_AT splits
+# the held note at these score qn into abutting same-pitch notes (the first ends REBOW_GAP_QN early, the Double basses'
+# bar 88 re-bow shape that dipped 3-5 dB with no hole); each new note is a fresh REBOW_ART note at REBOW_VEL with no lead
+# and no notch. The points are irregular and staggered across the sections (A's list, segments 1.8-4.6 s), so no
+# sample plays much more than one loop and no two sections change bow together. Sus MAX, not Leg Slur MAX: a same-pitch
+# re-attack on the legato patch plays its slow first-note layer (c03: 7-15 dB holes)
+REBOW_AT = {"Violins I": [295.0, 298.0, 301.0, 302.75],
+            "Violins II": [289.0, 290.9, 293.0, 295.8, 297.6, 300.2, 302.2, 303.4],
+            "Violas": [294.1, 296.9, 299.2, 301.5, 303.1],
+            "Violoncellos": [293.6, 296.3, 298.6, 300.6, 302.35],
+            "Double basses": [294.5, 297.2, 299.8, 302.0, 303.3]}
+REBOW_GAP_QN, REBOW_VEL, REBOW_ART = 0.03, 41, "Sus MAX"
+# c26: CC11 notches removed where a re-bow now plays the bow change (Vln I's printed bowings 295/298/301; Vln II's
+# merged repeats at 289/292, "change bow at will")
+# c26 (B #2): Horns 3-4's bar 81 decrescendo has no printed target; HP_STEP (14 CC, 87 -> 74) left the held chord over
+# the falling tune (Fl1/Vln I fell 5-9 dB, the horns 0-1 dB; their sum 2.5 dB over Vln I at qn 270.5). The tutti
+# arrives at p in bar 82; the chord goes there with it. {staff: {hairpin start qn: dynamic}}
+HP_TARGET_AT = {"Hn3": {268.0: "p"}, "Hn4": {268.0: "p"}}
+NOTCH_SKIP = {"Violins I": [295.0, 298.0, 301.0], "Violins II": [289.0, 292.0]}
 # c09 (A #2): role spans that meet (B starts within ROLE_CHAIN qn of A's end) crossfade over [B.a - 0.1, B.a + 0.15]
 # instead of ramping A out and B in on their own 0.5 qn ramps (both were at full value at the shared qn)
 ROLE_CHAIN = 0.5
@@ -416,13 +446,19 @@ JOIN_NOTCH = {"Violins I": [(67.86, 68.02, -3.0), (71.90, 72.08, -4.5), (73.37, 
 # c24 (C #2c): per-onset CC11 depth of a merged-repeat bow-change notch (default 8/10/14 CC). Violoncellos 148: the
 # printed mf arrival of the bar 46-47 oboe/cello unison; the 14 CC dip took about 3 dB off the mf downbeat
 MERGE_NOTCH_AT = {"Violoncellos": {148.0: 3}}
+# c26 (C #1 fix 2, scaled): the lower strings' legato crossfade valley 0.6-1.0 s after the 292 chord change. C measured
+# 3.4 dB in the string sum with the 292 loop profiles in place (they added -2..-4 dB over it); with the profiles removed
+# a simulation on the c25 stems leaves Vla -3.5, Vc -4.5, Cb -5 dB for 0.3 qn; these fills take about half of C's dB
+for t_, v_ in {"Violas": (292.62, 292.98, 2.5), "Violoncellos": (292.60, 293.00, 3.0),
+               "Double basses": (292.48, 292.95, 3.0)}.items():
+    JOIN_NOTCH.setdefault(t_, []).append(v_)
 # c24 (B #5): per-onset note-trim ramp in seconds (default 0.6 s): the Oboe 1 entries at 42/54 spoke under the
 # re-articulating pp strings for 0.25-0.5 qn because the trim arrived after the strings' attack
 # c25 (A #3): old negative trims on crescendo notes become steps (Ob1 190, Cl1 256), Ob1 45 (printed decrescendo) falls
 # over 2.1 s, Vc 180 over 1.8 s; (A #1) Cl1 292 +3 over 3 s against the sample's decay; (B #3) Horns a2 261 pickup step.
 # Keys are score onsets (n["qn"] before the move), not the moved parts.json qn
 NOTE_TRIM_RAMP_S = {"Oboe 1": {42.0: 0.1, 54.0: 0.1, 45.0: 2.1, 190.0: 0.1},
-                    "Clarinet 1": {256.0: 0.1, 292.0: 3.0},
+                    "Clarinet 1": {256.0: 0.1},   # c26 (B #1): 292.0 removed with its trim
                     "Violoncellos": {180.0: 1.8},
                     "Horns 1-2 a2": {261.0: 0.1}}
 REP_RETONGUE_AT = {"Horn 4": [9.0, 12.0, 15.0], "Bass clarinet": [9.0, 12.0, 15.0], "Horn 3": [292.0],
@@ -460,6 +496,8 @@ LEG_LEADS = json.load(open(f"{BUILD}/leg_leads.json")) if __import__("os").path.
 LOOP_FILLS = json.load(open(f"{BUILD}/loop_fills.json")) if __import__("os").path.exists(f"{BUILD}/loop_fills.json") else {}
 # c17 (A #1): folded loop-seam profiles {track: {onset: {period_s, corr_db[] (20 ms phase bins)}}} replace the bump fills
 # for those notes: the 3.97 s string sustain loop is a whole-cycle swell and sag, not a row of notches
+# c26: per-re-bow level shapes for the REBOW_AT notes, fitted on the first c26 render (build/rebow_fills.json, see its _doc)
+REBOW_FILLS = json.load(open(f"{BUILD}/rebow_fills.json")) if __import__("os").path.exists(f"{BUILD}/rebow_fills.json") else {}
 LOOP_PROFILES = json.load(open(f"{BUILD}/loop_profiles.json")) if __import__("os").path.exists(f"{BUILD}/loop_profiles.json") else {}
 LP_START_S, LP_STEP_S, LP_FADE_S, LP_END_S = 0.8, 0.04, 0.3, 0.3
 
@@ -910,6 +948,10 @@ def base_points(staff_list, extra_marks=()):
             stop, hk = data
             tgt = next((DYN[d] for mq, d in marks if stop - 0.01 <= mq <= stop + 1.0 and d not in ("sf", "sfz")), None)
             start = level
+            if tgt is None:   # c26 (B #2): a listed untargeted hairpin goes to this dynamic
+                hta_ = next((d_ for s_ in staff_list for k_, d_ in HP_TARGET_AT.get(s_, {}).items() if abs(q - k_) < 0.02),
+                            None)
+                tgt = DYN[hta_] if hta_ else None
             untargeted = tgt is None
             if tgt is None:
                 step = HP_STEP_SOFT if level <= DYN["mp"] + 2 else HP_STEP
@@ -1032,7 +1074,7 @@ def build_track(tname, staves, patch, family, pan):
                 gn["vel"] = 127
             if used:
                 tgt["grace_target"] = True
-        ns.sort(key=lambda n: (n["qn"], n["pitch"]))
+        ns.sort(key=lambda n: n["qn"])
 
     def slur_of(q):
         return next((i for i, (a, b) in enumerate(slurs) if a - EPS <= q <= b + EPS), None)
@@ -1146,6 +1188,11 @@ def build_track(tname, staves, patch, family, pan):
         if in_marc(q) and q not in accent_q and n["end"] - q <= 1.0 + EPS:
             n["art"] = ks_lookup(stem, MARC_ART)[0]   # c14 (A #1)
             n["marc"] = True
+        elif q in accent_q and base(q) >= DYN["f"] - 4 \
+                and any(abs(q - k_) < 0.02 for k_ in ACCENT_ART_AT.get(tname, {})):
+            # c26 (item 9): a listed loud accent plays this articulation (weight from the volume swell instead)
+            n["art"] = ks_lookup(stem, next(v_ for k_, v_ in ACCENT_ART_AT[tname].items() if abs(q - k_) < 0.02))[0]
+            n["acc_art"] = True
         elif q in accent_q and base(q) >= DYN["f"] - 4:
             n["art"] = ks_lookup(stem, "Sus Accent MAX", "Sus Accent")[0]
         elif n["slur"] is not None and near(q, ten_q) and family == "wind" and in_sost(q) and not polyphonic(n) \
@@ -1176,7 +1223,7 @@ def build_track(tname, staves, patch, family, pan):
                     st_ = dict(n, qn=sq_, art=ks_lookup(stem, "Timpani Flt Lng")[0], tie_stroke=True)
                     n["end"] = sq_ + 0.03
                     ns.append(st_)
-        ns.sort(key=lambda n: (n["qn"], n["pitch"]))
+        ns.sort(key=lambda n: n["qn"])
 
     # c02: bow-change legato (Leg BC MAX) where a monophonic string line joins without a slur, or where one slur ends
     # and the next begins: the target note is played as a legato bow change instead of a cut and a new attack
@@ -1290,6 +1337,8 @@ def build_track(tname, staves, patch, family, pan):
                 # c16 (A #4): 6 CC at f or louder (a held ff note's bow change is nearly inaudible in a section; the
                 # 14 CC notch cost 1.7-4.2 dB for 0.7 s at bar 80)
                 notches.append((bq, 6 if base(bq) >= DYN["f"] else (14 if base(bq) > 40 else 6)))
+    if NOTCH_SKIP.get(tname):   # c26: the re-bow replaces these CC11 bow-change notches
+        notches = [(nq, d_) for nq, d_ in notches if not any(abs(nq - s_) < 0.02 for s_ in NOTCH_SKIP[tname])]
 
     # note lengths (c01): breaths, legato joins inside one slur only, bow change / re-tongue between slurs,
     # repeated pitches re-attacked, tenuto as a small separation
@@ -1403,6 +1452,7 @@ def build_track(tname, staves, patch, family, pan):
         # onset of bars 61-62, 0.8-6.7 dB; the hold-through ramp carries the line, the portato is in the legato join)
         if n.get("sost") and n.get("leg_target") and not SOST_HOLD_THROUGH:
             notches.append((n["qn"], SOST_NOTCH))
+
 
     # c04 (A #1): printed arpeggios (rolled chords), per staff; a roll marked on both staves is one roll from the bottom
     arp_marks = collections.defaultdict(set)
@@ -1548,8 +1598,8 @@ def build_track(tname, staves, patch, family, pan):
             if in_sost(n["qn"]) and base(n["qn"]) >= DYN["f"]:
                 # c08 (C #1): a tenuto arrival under "molto sostenuto" at f+ holds its weight (bump - 1) to the note end
                 holds.append((n["qn"], orig_end[id(n)], TENUTO_BUMP - 1))
-        if n["qn"] in accent_q:
-            bumps.append((n["qn"], ACCENT_BUMP, 0.3))
+        if n["qn"] in accent_q and ACCENT_BUMP_AT.get(tname, ACCENT_BUMP):
+            bumps.append((n["qn"], ACCENT_BUMP_AT.get(tname, ACCENT_BUMP), 0.3))   # c26: per-track bump
 
     # c02: phrase shaping on long notes (C5) and anti-bloom on soft re-struck string chords (B6), in CC11 units
     contours = []   # (start, end, kind)
@@ -1708,6 +1758,8 @@ def build_track(tname, staves, patch, family, pan):
     for n in ns:
         q = n["qn"]
         if n.get("fast_leg"):   # c14 (A #3): no lead in the test bar
+            pass
+        elif n.get("acc_art"):   # c26: listed accent articulations keep the score onset (no lead, as Sus Accent had)
             pass
         elif n.get("leg_target") and not n.get("grace") and not n.get("run") and leg_s > 0:
             lx = next((v for k, v in ll.items() if abs(q - k) < 0.02), None)   # c11 (C #3)
@@ -2451,6 +2503,15 @@ def build_track(tname, staves, patch, family, pan):
             t_ += LP_STEP_S
         vol_parts.append(("env", ps_, True))
         loop_n += 1
+    # c26: re-bow fills (REBOW_FILLS): each list runs from its re-bow to the next one (exact breakpoints, seconds on the
+    # real tempo map); its last value holds until the next list starts, and after the last re-bow to the release
+    rbf_ = sorted((float(k), v) for k, v in REBOW_FILLS.get(tname, {}).items() if not k.startswith("_"))
+    for i_, (p_, pts_) in enumerate(rbf_):
+        ps_ = [(sec_to_qn(qn_to_sec(p_) + t_), d_) for t_, d_ in pts_]
+        e_ = sec_to_qn(qn_to_sec(rbf_[i_ + 1][0]) - 0.04) if i_ + 1 < len(rbf_) else END + 0.5
+        if e_ > ps_[-1][0] + 1e-4:
+            ps_.append((e_, pts_[-1][1]))
+        vol_parts.append(("env", ps_, True))
     # c18 (C #3a): JOIN_NOTCH: a dB notch over a moved legato join's transition peak, (from qn, to qn, dB) with 0.04 qn
     # ramps, exact breakpoints
     for a_, b_, d_ in JOIN_NOTCH.get(tname, []):
@@ -2496,7 +2557,11 @@ def build_track(tname, staves, patch, family, pan):
                 q0 = n["qn"]
                 acc_done.append(q0)
                 ov = next((v_ for k_, v_ in ACCENT_DB_AT.get(tname, {}).items() if abs(q0 - k_) < 0.02), None)
-                if ov is not None:   # c11 (A #3)
+                sw_ = next((v_ for k_, v_ in ACCENT_SWELL_S_AT.get(tname, {}).items() if abs(q0 - k_) < 0.02), None)
+                if ov is not None and sw_ is not None:   # c26 (item 9): a swell in seconds, no front edge
+                    vol_parts.append(("env", [(q0 - 0.01, 0.0), (sec_qn(q0, sw_[0]), ov), (sec_qn(q0, sw_[1]), ov),
+                                              (sec_qn(q0, sw_[2]), 0.0)], True))
+                elif ov is not None:   # c11 (A #3)
                     vol_parts.append(("env", [(q0 - 0.01, 0.0), (q0 + 0.01 * bpm_at(q0) / 60, ov), (q0 + 0.12, ov),
                                               (q0 + 0.3, 0.0)], True))
                 else:
@@ -2631,8 +2696,11 @@ def build_track(tname, staves, patch, family, pan):
                 vol_parts[:] = saved_
                 if abs(d_) > 0.005:
                     print(f"  DBG {tname} {q_}: {d_:+.2f} {str(it_)[:90]}", file=sys.stderr)
+    # c26 (A #1, small): after the last release (END) every track holds its level at the release, so the roles and
+    # trims that end at END no longer lift the hall tail (Vln I/Vc -16 -> -10 dB over 0.5 qn, Cb -17 -> -11.6 in 0.1 qn)
+    v_end_ = vol(END - 0.001) if ("fade",) in vol_parts else None
     for q in vgrid:
-        v = round(vol(q), 2)
+        v = round(vol(q) if v_end_ is None or q < END else v_end_, 2)
         if v != last:
             vol_db.append((q, v)); last = v
     cc15 = []
@@ -2713,6 +2781,28 @@ def build_track(tname, staves, patch, family, pan):
         k_["qn"] = round(max(0.0, min(k_["qn"], new_on(nn) - 0.03)), 4)
         if nn.get("sost_rep"):   # c07 (A #1): the keyswitch just before the re-tongued note (the legato note it cuts
             k_["qn"] = round(new_on(nn) - 0.012, 4)   # ends 0.01 qn before it), so the break stays about 0.05 s
+    # c26 (BRIEF item 8): staggered re-bows of the held final chord (REBOW_AT), split here at the output so that CC11,
+    # CC1 and the volume envelope stay exactly those of the held note (split earlier, each segment took its own long-note
+    # swell and entry shape: a CC11 rise at every re-bow). The first piece ends REBOW_GAP_QN before the re-bow; the new
+    # piece is REBOW_ART at REBOW_VEL at the score qn; the keyswitch sits between them (0.02 qn before the re-bow), so it
+    # does not fall inside the legato note
+    rebow_n, rebow_arts = 0, []
+    for p_ in sorted(REBOW_AT.get(tname, [])):
+        for a in [a for a in out_notes if a["qn"] + 0.1 < p_ < a["qn"] + a["dur"] - 0.1]:
+            e_ = a["qn"] + a["dur"]
+            if any(b["_art"] != REBOW_ART for b in out_notes if b["qn"] >= e_ - 0.1 and b is not a):
+                raise SystemExit(f"REBOW_AT {tname} {p_}: a later note would need a keyswitch back")
+            if a["_art"] != REBOW_ART and not any(abs(k_["qn"] - (p_ - 0.02)) < 0.001 for k_ in ks):
+                ks.append({"qn": round(p_ - 0.02, 4), "pitch": ks_lookup(stem, REBOW_ART)[1], "art": REBOW_ART})
+            a["dur"] = round(p_ - REBOW_GAP_QN - a["qn"], 4)
+            out_notes.append({"qn": round(p_, 4), "dur": round(e_ - p_, 4), "pitch": a["pitch"], "vel": REBOW_VEL,
+                              "sq": round(p_, 4), "_art": REBOW_ART})
+            rebow_arts.append(REBOW_ART)
+            rebow_n += 1
+    if rebow_n:
+        out_notes.sort(key=lambda a: a["qn"])
+        ks.sort(key=lambda k_: k_["qn"])
+        print(f"  {tname}: {rebow_n} re-bows", file=sys.stderr)
     # c05 (A #2): a keyswitch to a non-legato articulation must not fall inside a sounding legato-patch note (the
     # monophonic legato voice was still held at the bar 61 tremolo keyswitch). End such a note 0.01 qn before it.
     ks_cut = 0
@@ -2750,7 +2840,7 @@ def build_track(tname, staves, patch, family, pan):
         "hairpins": [[round(a, 4), round(b, 4), k] for a, b, k in hps],
         "range": [min(pitches), max(pitches)] if pitches else None,
         "ks_clash": clash,
-        "art_counts": dict(collections.Counter(n.get("art") for n in ns)),
+        "art_counts": dict(collections.Counter([n.get("art") for n in ns] + rebow_arts)),
     }
 
 

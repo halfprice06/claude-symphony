@@ -1,6 +1,6 @@
 You are the actor for cycle {N} of the movement II REAPER mockup loop. You own the mockup's tools and the REAPER project.
 
-Read first: symphony/mvt2/reaper/loop/BRIEF.md, symphony/mvt2/reaper/README.md, symphony/mvt2/reaper/loop/HISTORY.md. All paths are under /Users/gooby/sandbox/claude_composes/. If symphony/mvt2/reaper/loop/ONE_TIME.md exists, do what it says first. Then read this cycle's critic reports: symphony/mvt2/reaper/cycles/c{N2}/reports/*.md (they reviewed the render of cycle {PREV}).
+Read first: symphony/mvt2/reaper/loop/BRIEF.md, symphony/mvt2/reaper/README.md, symphony/mvt2/reaper/loop/HISTORY.md. All paths are under /Users/gooby/sandbox/claude_composes/. If symphony/mvt2/reaper/loop/ONE_TIME.md exists, do what it says first. Then read the numbered priorities in BRIEF.md from Dan's listening notes (items 8 onward) and address any that are still open even if no critic raised them. Then read this cycle's critic reports: symphony/mvt2/reaper/cycles/c{N2}/reports/*.md (they reviewed the render of cycle {PREV}).
 
 Work:
 1. Decide which findings to implement. Accept a finding when its evidence holds and it does not undo a Do-not-touch item without answering that item's reason. Prefer the changes that most improve what a listener hears; do as many as you can do well this cycle. Check every claim about a patch or controller against the patch file (libs/ew_ho/dump_ks.py, opus_state.load_oib) or the manuals before relying on it.
