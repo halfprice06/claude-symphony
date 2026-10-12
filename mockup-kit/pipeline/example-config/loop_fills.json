@@ -1,0 +1,12 @@
+{
+ "_doc": "c16 (critic A #1): loop-seam fills. The HO string sustain samples (Sus MAX, Leg Slur MAX) loop with a period of 3.95 s; on notes of 6 s or more the seam dips 4-12 dB at fixed times after the note starts, the same from render to render (detrended c08/c15 envelopes correlate 0.71-1.00). {track: {score onset: [[t_s, dB, width_s], ...]}}: t_s in seconds after the note's moved start (its stem time), a raised-cosine lift 0 at t - width, full from t - width/2 to t + width/2, 0 at t + width; overlapping lifts take the larger value. dB = 80% of the measured dip (loopdips.py on the c15 stems), cap 6. Valid while the track's patch, mics and reverb are unchanged; re-measure after changing them. c17: every entry moved to build/loop_profiles.json (folded inverse profiles); the bumps could not remove the whole-cycle swell. c18 (critic C #2): Horn 1 qn 34 (the solo's Bb4 crest). The critic's 10-11 dB 'collapse' was measured on the mono fold: the stems' L and R are anti-correlated there (corr -0.7..-0.86 at s+0.5..+1.0 s). In stereo power the dip is 7 dB for one 50 ms frame at s+0.55 s (-40 against a -33 plateau). The proposed lifts (+8 dB at moved+0.9 s, +4 at +1.25) made a +6..9 dB bump in the render; replaced after the render by one +4 dB lift of width 0.12 s at moved+0.825 s (s+0.575).",
+ "Horn 1": {
+  "34": [
+   [
+    0.825,
+    4,
+    0.12
+   ]
+  ]
+ }
+}

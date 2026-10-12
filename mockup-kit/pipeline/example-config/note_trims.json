@@ -1,13 +1,15 @@
 {
- "_doc": "c03: level trims in dB for single notes whose samples swell 5-10 dB over their track's CC11 fit (critic B c03 #4). {track: {onset qn: dB}}, matched within 0.02 qn of the score onset, no length condition; applied in vol_db from 0 dB at the onset to the full trim at onset + 0.6 s, held to the note end. c04: Vc 238 -10 (keeps its level after the eased cut), Vc 3 -5, Fl1/Ob2/Bn1 at 262 (B #1), Vla 220 +4 (C #5). c05: Bn1 196 -9, 262 -5, 269 -7; Vc 190 -4, 253 -5, 261 -8, 81 -6 (B #1-#3); Timp 271 -4 (B #5). c06: Cl1 266 removed (A #2: it deepened the A flat 5 sag; pitch_trims.json now covers it); Timp 277/278.5/279 +3 (B #6); Tbn1 fall inside the ff, bars 63-64 (C #6). c07: Fl1 262 -6 -> -3, Fl2 262 -6 (B #3); Bn2 172/182 -7 -> -2 and 252/253 -6 -> -1, since the Db3 pitch trim (-5) now covers them (B #5); Horn 4 286 -5, 289 -3 (B #6). c08: Vc 238 -10 -> -6 (B #2); Cl1 266 -5 (B #3, cancels the Ab5 pitch trim at ff); Fl1 262 -3 removed, 254 -8 -> -4 (B #1, the Bb6 pitch trim covers them); crescendo goals (C #2 fallback): Vln I 80 +3 / 82 +2, Vln II 80 +3, Ob1 57 +4 / 148 +5, Fl1 129 / 129.5 +3. c09: Bassoon 2 259 -5 (B #6, its bar 78 f arrival was the loudest woodwind, over the melody flute). c10: Bassoon 1 231 +4 (A #2, a body sag of 6-9 dB); Timpani 277/278.5/279 +3 removed, replaced by the role Timpani [277, 280, 10] (B #4: a note trim ramps in over 0.6 s, so it lifted the ring, not the strokes). c12: theme A per-pitch corrections (B #1): Vln I 68 +4, 72 -3, 80 3 -> 6, 82 2 -> 3.5; Vln II 68 +6, 70 +3, 80 3 -> 8, 82 +2. Bar 79 winds (C #1, B #3): Fl2 262 -6 -> -3, Ob2 262 -4 -> -1, Bn1 262 -5 -> -2.",
+ "_doc": "c03: level trims in dB for single notes whose samples swell 5-10 dB over their track's CC11 fit (critic B c03 #4). {track: {onset qn: dB}}, matched within 0.02 qn of the score onset, no length condition; applied in vol_db from 0 dB at the onset to the full trim at onset + 0.6 s, held to the note end. c04: Vc 238 -10 (keeps its level after the eased cut), Vc 3 -5, Fl1/Ob2/Bn1 at 262 (B #1), Vla 220 +4 (C #5). c05: Bn1 196 -9, 262 -5, 269 -7; Vc 190 -4, 253 -5, 261 -8, 81 -6 (B #1-#3); Timp 271 -4 (B #5). c06: Cl1 266 removed (A #2: it deepened the A flat 5 sag; pitch_trims.json now covers it); Timp 277/278.5/279 +3 (B #6); Tbn1 fall inside the ff, bars 63-64 (C #6). c07: Fl1 262 -6 -> -3, Fl2 262 -6 (B #3); Bn2 172/182 -7 -> -2 and 252/253 -6 -> -1, since the Db3 pitch trim (-5) now covers them (B #5); Horn 4 286 -5, 289 -3 (B #6). c08: Vc 238 -10 -> -6 (B #2); Cl1 266 -5 (B #3, cancels the Ab5 pitch trim at ff); Fl1 262 -3 removed, 254 -8 -> -4 (B #1, the Bb6 pitch trim covers them); crescendo goals (C #2 fallback): Vln I 80 +3 / 82 +2, Vln II 80 +3, Ob1 57 +4 / 148 +5, Fl1 129 / 129.5 +3. c09: Bassoon 2 259 -5 (B #6, its bar 78 f arrival was the loudest woodwind, over the melody flute). c10: Bassoon 1 231 +4 (A #2, a body sag of 6-9 dB); Timpani 277/278.5/279 +3 removed, replaced by the role Timpani [277, 280, 10] (B #4: a note trim ramps in over 0.6 s, so it lifted the ring, not the strokes). c12: theme A per-pitch corrections (B #1): Vln I 68 +4, 72 -3, 80 3 -> 6, 82 2 -> 3.5; Vln II 68 +6, 70 +3, 80 3 -> 8, 82 +2. Bar 79 winds (C #1, B #3): Fl2 262 -6 -> -3, Ob2 262 -4 -> -1, Bn1 262 -5 -> -2. c15 (A #1): Clarinet 1 204 +2 with the Ab4 pitch trim skipped there (pitch_trims _skip_onsets): at ff the +6 Ab4 trim put 204 about 5 dB over the 206 Db5. c16: Fl1 271 +3 (B #1); Ob1 144 +7, 145.5 +3 (B #2); Hn1 264 +2 (B #3).",
  "Oboe 1": {
   "45": -7,
   "190": -8,
   "194": -5,
   "57": 4,
   "148": 5,
-  "42": 5,
-  "54": 5
+  "42": 6,
+  "54": 5,
+  "144": 7,
+  "145.5": 3
  },
  "Cor anglais": {
   "152": -8
@@ -15,15 +17,17 @@
  "Flute 1": {
   "254": -4,
   "129": 3,
-  "129.5": 3
+  "129.5": 3,
+  "271": 3
  },
  "Clarinet 1": {
   "256": -5,
   "262": -2,
-  "266": -5
+  "266": -5,
+  "204": 2
  },
  "Bass clarinet": {
-  "93": -6
+  "93": -4
  },
  "Bassoon 1": {
   "184": -6,
@@ -51,7 +55,11 @@
   "190": -4,
   "253": -5,
   "261": -8,
-  "81": -6
+  "81": -6,
+  "72": -3,
+  "74": 4,
+  "244": -3,
+  "246": 4
  },
  "Oboe 2": {
   "262": -1
@@ -63,14 +71,6 @@
  },
  "Timpani": {
   "271": -4
- },
- "Trombone 1": {
-  "214.5": -1,
-  "215": -1.5,
-  "215.5": -2,
-  "216": -2,
-  "217": -2.5,
-  "217.5": -2.5
  },
  "Flute 2": {
   "262": -3
@@ -90,5 +90,13 @@
   "68": 6,
   "70": 3,
   "82": 2
+ },
+ "Horn 1": {
+  "32": 2.5,
+  "264": 2
+ },
+ "Violin I solo": {
+  "48.5": -2,
+  "53": -3
  }
 }
