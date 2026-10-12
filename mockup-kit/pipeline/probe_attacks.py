@@ -30,6 +30,17 @@ for name, q in HOLES:
     i = int(round(q2s(q) / 0.01)); before = np.median(e[i - 30:i - 5]); dip = e[i + 5:i + 45].min()
     ok = before - dip <= 6; bad += not ok
     print(f'{name:14s} qn {q:6.1f}  dip {before - dip:5.1f} dB in the first 0.45 s  (limit 6)  {"ok" if ok else "HOLE"}')
+# c18 (critic C #2): sustained-note dips after the legato transition. Horn 1 qn 34 (the solo's crest): plateau = loudest
+# 50 ms frame in [s, s+0.4 s], dip = plateau - quietest 50 ms frame in [s+0.4, s+0.9 s], on the stereo power (L^2+R^2)/2.
+# The mono fold read 12.7 dB in c17 because L and R are anti-correlated there (corr -0.7..-0.86); in stereo power it was
+# 7.5 dB for one frame
+for name, q, lim in [('Horn 1', 34, 6.0)]:
+    f = glob.glob(os.path.join(R, f'*_{name}.wav'))[0]
+    x, sr = sf.read(f, dtype='float32'); hop = int(0.05 * sr); n = len(x) // hop
+    e = 10 * np.log10(np.mean((x[:n * hop] ** 2).mean(1).reshape(n, hop), 1) + 1e-18)
+    i = int(round(q2s(q) / 0.05)); dip = e[i:i + 8].max() - e[i + 8:i + 18].min()
+    ok = dip <= lim; bad += not ok
+    print(f'{name:14s} qn {q:6.1f}  sustain dip {dip:5.1f} dB in s+0.4..0.9 s  (limit {lim:.0f})  {"ok" if ok else "HOLE"}')
 # c06 (A #1): the opening chord; Opus dropped events on the first block of the render (Hn3 -75 dB in c05, Vln II/Vla
 # silent in c04). Each voice's loudest 50 ms in the first 1.5 s must be above -70 dB.
 for name in ('Horn 3', 'Violins I', 'Violins II', 'Violas', 'Violoncellos'):

@@ -143,6 +143,11 @@ def apply_mix(inst, m):
     fx["pan"], fx["panLeft"], fx["panRight"] = 0.0, -1.0, 1.0
     rv = shared_reverb()
     rv["wet"] = MIX["reverb"]["wet"]
+    if MIX["reverb"].get("impulse"):
+        # c17 (C #1): a true-stereo hall IR (the one HO's own percussion patches ship, e.g. Timpani Flt KS): a stereo IR
+        # convolves L with L and R with R, so each seat's hall tail stayed at its seat (Vln I tail R-L -8.1 dB)
+        rv["impulseA"] = MIX["reverb"]["impulse"]
+        rv["trueStereo"] = bool(MIX["reverb"].get("true_stereo"))
     if MIX["reverb"].get("high_cut_hz"):
         # c09 (C #4): Bandpass on, high cut on the hall only (manual p. 133; a hall's tail darkens). The state carries two
         # key pairs (highFilterFreq / highCutFreq); both are set
@@ -192,6 +197,31 @@ def state_for(tr):
     return opus_state.build(perf)
 
 
+TAIL_HOLD_MIN_S, TAIL_HOLD_LEAD_S, TAIL_HOLD_STOP_QN = 0.5, 0.35, 303.5   # c17 (C #2), see vol_points
+
+
+def q2s(q):
+    """score qn -> seconds from score qn 0 on the parts.json tempo map (steps; the 0.25 qn ramps are close enough here)"""
+    t, lq, lb = 0.0, 0.0, d["tempo"][0][1]
+    for tq, b in d["tempo"]:
+        if tq >= q:
+            break
+        t += (tq - lq) * 60 / lb
+        lq, lb = tq, b
+    return t + (q - lq) * 60 / lb
+
+
+def s2q(t):
+    lo, hi = 0.0, d["end_qn"] + 8
+    for _ in range(50):
+        mid = (lo + hi) / 2
+        if q2s(mid) < t:
+            lo = mid
+        else:
+            hi = mid
+    return (lo + hi) / 2
+
+
 def step_at(pts, q, default=0.0):
     v = default
     for pq, pv in pts:
@@ -227,7 +257,29 @@ def vol_points(tr):
     # c10: exact breakpoints of fast vol_db shapes (parts.json vol_bp), between the grid points
     grid = sorted(set(grid) | {q for q in tr.get("vol_bp", []) if 0 <= q < grid[-1]})
     g = m["gain_db"]   # c02: with a volume envelope REAPER ignores D_VOL (measured: every gain was lost), so the gain goes in here
-    vals = [round(g + step_at(vol, q) + (trim(step_at(dyn, q, first)) if dyn else 0.0), 2) for q in grid]
+    val_at = lambda q: round(g + step_at(vol, q) + (trim(step_at(dyn, q, first)) if dyn else 0.0), 2)
+    vals = [val_at(q) for q in grid]
+    # c17 (C #2): tail hold. The hall is inside Opus, before this envelope, so a level change while the track rests acts on
+    # its last note's decaying tail (cuts of 6-8 dB, swells of 5-8 dB measured). In every rest of TAIL_HOLD_MIN_S or more
+    # (from the end of the sounding notes e to the next moved onset n) the envelope holds its value just before e until
+    # TAIL_HOLD_LEAD_S before n; the final fade (qn TAIL_HOLD_STOP_QN on) is left alone. Note bodies do not change.
+    if tr.get("notes") and m.get("tail_hold", MIX.get("tail_hold", True)):
+        segs = sorted((n["qn"], n["qn"] + n["dur"]) for n in tr["notes"])
+        rests, ce = [], segs[0][1]
+        for a_, b_ in segs[1:]:
+            if a_ > ce + 1e-6:
+                rests.append((ce, a_))
+            ce = max(ce, b_)
+        held = 0
+        for e_, n_ in rests:
+            if e_ >= TAIL_HOLD_STOP_QN or q2s(n_) - q2s(e_) < TAIL_HOLD_MIN_S:
+                continue
+            nh_ = s2q(q2s(n_) - TAIL_HOLD_LEAD_S)
+            ve_ = val_at(e_ - 0.002)   # the level the last note ended at
+            for k, q in enumerate(grid):
+                if e_ - 1e-6 <= q < nh_ and vals[k] != ve_:
+                    vals[k] = ve_
+                    held += 1
     out = []
     for k, (q, v) in enumerate(zip(grid, vals)):
         if k == 0 or k == len(vals) - 1 or v != vals[k - 1] or v != vals[k + 1]:
@@ -310,6 +362,8 @@ end
 
 -- c09 (A #4): a second ReaEQ (after set_eq, which deletes every ReaEQ) whose Wet parameter is automated: 0 before
 -- from_qn, 1 from it (square). Emulates a mute on the horns (HO's ConSordino script is a strings EQ; inert on 1FH).
+-- c16 (C #1): generalised: spec.points = {{qn, w}, ...} (project qn), spec.shape = envelope point shape (0 linear,
+-- 1 square); mix.json "mute_eq" (square step at from_qn) and "loud_eq" (linear wet points) both use it.
 local function set_mute_eq(tr, spec)
   if not spec then return nil end
   local fx = reaper.TrackFX_AddByName(tr, "ReaEQ", false, -1)
@@ -323,12 +377,20 @@ local function set_mute_eq(tr, spec)
   if wet < 0 then out[#out + 1] = "no Wet parameter"; return out end
   local env = reaper.GetFXEnvelope(tr, fx, wet, true)
   reaper.DeleteEnvelopePointRange(env, -1, 1e9)
-  reaper.InsertEnvelopePoint(env, 0.0, 0.0, 1, 0, false, true)
-  reaper.InsertEnvelopePoint(env, reaper.TimeMap2_QNToTime(0, spec.from_qn), 1.0, 1, 0, false, true)
+  reaper.InsertEnvelopePoint(env, 0.0, 0.0, spec.shape, 0, false, true)
+  for _, p in ipairs(spec.points) do
+    reaper.InsertEnvelopePoint(env, reaper.TimeMap2_QNToTime(0, p.qn), p.w, spec.shape, 0, false, true)
+  end
   reaper.Envelope_SortPoints(env)
   reaper.TrackFX_SetParam(tr, fx, wet, 0.0)
-  out[#out + 1] = "mute eq wet param " .. wet .. " points " .. reaper.CountEnvelopePoints(env)
+  out[#out + 1] = (spec.kind or "wet") .. " eq wet param " .. wet .. " points " .. reaper.CountEnvelopePoints(env)
   return out
+end
+local function set_wet_eqs(tr, specs, eq)
+  for _, spec in ipairs(specs) do
+    local r = set_mute_eq(tr, spec)
+    if r then eq[#eq + 1] = r end
+  end
 end
 """
 
@@ -343,11 +405,18 @@ def eq_lua(m, bands=None):
 
 
 def mute_lua(m):
-    """c09 (A #4): mix.json mute_eq {from_qn, bands} as a Lua table (nil when absent); from_qn is a score qn."""
+    """c09 (A #4): mix.json mute_eq {from_qn, bands} as a list of Lua wet-EQ specs; from_qn is a score qn.
+    c16 (C #1): plus mix.json loud_eq {points: [[score qn, wet], ...], bands}: a level-dependent EQ whose Wet follows the
+    points linearly (0 elsewhere), so the soft passages keep their spectrum."""
+    specs = []
     me = m.get("mute_eq")
-    if not me:
-        return "nil"
-    return f'{{from_qn={me["from_qn"] + PRE}, bands={eq_lua(m, me["bands"])}}}'
+    if me:
+        specs.append(f'{{kind="mute", shape=1, points={{{{qn={me["from_qn"] + PRE}, w=1}}}}, bands={eq_lua(m, me["bands"])}}}')
+    le = m.get("loud_eq")
+    if le:
+        pts = ",".join(f'{{qn={q + PRE}, w={w}}}' for q, w in le["points"])
+        specs.append(f'{{kind="loud", shape=0, points={{{pts}}}, bands={eq_lua(m, le["bands"])}}}')
+    return "{" + ",".join(specs) + "}"
 
 
 def b64_path(i, tr):
@@ -388,8 +457,7 @@ reaper.MIDI_Sort(take)
 local _, nn, nc = reaper.MIDI_CountEvts(take)
 local envn = set_vol_env(tr, {vpts})
 local eq = set_eq(tr, {eq_lua(m)})
-local meq = set_mute_eq(tr, {mute_lua(m)})
-if meq then eq[#eq + 1] = meq end
+set_wet_eqs(tr, {mute_lua(m)}, eq)
 """
 
 
@@ -455,8 +523,7 @@ for _, r in ipairs({{{",".join(rows)}}}) do
     reaper.SetMediaTrackInfo_Value(tr, "D_WIDTH", r.w)
     set_vol_env(tr, r.env)
     local eq = set_eq(tr, r.eq)
-    local meq = set_mute_eq(tr, r.meq)
-    if meq then eq[#eq + 1] = meq end
+    set_wet_eqs(tr, r.meq, eq)
     done[#done + 1] = r.n
     if #eq > 0 then done[#done + 1] = eq end
   end

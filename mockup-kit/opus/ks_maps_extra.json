@@ -506,5 +506,478 @@
    "Leg Port MAX",
    "Stac Leg BC + Slur + Port MAX"
   ]
+ },
+ "2nd Violins KS Master DIV B": {
+  "file": "/Volumes/MAC DRIVE/EW Hollywood Strings Diamond/Hollywood Strings Opus Instruments/2nd Violins Divisi/06 Keyswitch/2nd Violins KS Master DIV B.oib",
+  "locator": "//com.eastwest.8010/2nd Violins Divisi/06 Keyswitch/2nd Violins KS Master DIV B.oit",
+  "keyMin": 0,
+  "keyMax": 127,
+  "legato": false,
+  "currentKeySwitch": 24,
+  "articulations": [
+   {
+    "name": "Sus MAX",
+    "key": 24,
+    "useKey": true,
+    "trigger": "C0"
+   },
+   {
+    "name": "Sus Marc LITE",
+    "key": 25,
+    "useKey": true,
+    "trigger": "C#0"
+   },
+   {
+    "name": "Leg Slur MAX",
+    "key": 26,
+    "useKey": true,
+    "trigger": "D0"
+   },
+   {
+    "name": "Stac On Bow RRx9",
+    "key": 27,
+    "useKey": true,
+    "trigger": "D#0"
+   },
+   {
+    "name": "Marc Shrt RRx4",
+    "key": 28,
+    "useKey": true,
+    "trigger": "E0"
+   },
+   {
+    "name": "Marc Lng RRx4",
+    "key": 29,
+    "useKey": true,
+    "trigger": "F0"
+   },
+   {
+    "name": "Detache",
+    "key": 30,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Flautando",
+    "key": 31,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Harmonics",
+    "key": 32,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Col Legno RR",
+    "key": 33,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Pizz RRx4",
+    "key": 34,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Ricochet RR",
+    "key": 35,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Spiccato RRx9",
+    "key": 36,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Stac RRx9",
+    "key": 37,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Stac Slur RRx6",
+    "key": 38,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Meas Trem TS",
+    "key": 39,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Repetitions TS",
+    "key": 40,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Tremolo",
+    "key": 41,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Trill HT WT MOD",
+    "key": 42,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Slur Runs",
+    "key": 43,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Spic Runs",
+    "key": 44,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Leg BC MAX",
+    "key": 45,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Leg Port MAX",
+    "key": 46,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "StacSl Leg BC + Slur + Port MAX",
+    "key": 47,
+    "useKey": null,
+    "trigger": "None"
+   }
+  ],
+  "controls": [
+   {
+    "label": "Modulation wheel",
+    "cc": 1,
+    "name": "controller_1"
+   },
+   {
+    "label": "Legato Time",
+    "cc": 5,
+    "name": "controller_5"
+   },
+   {
+    "label": "MIDI Volume",
+    "cc": 7,
+    "name": "controller_7"
+   },
+   {
+    "label": "MIDI Pan",
+    "cc": 10,
+    "name": "controller_10"
+   },
+   {
+    "label": "Expression",
+    "cc": 11,
+    "name": "controller_11"
+   },
+   {
+    "label": "Con Sordino",
+    "cc": 15,
+    "name": "controller_15"
+   },
+   {
+    "label": "True Legato: Mono",
+    "cc": 22,
+    "name": "controller_22"
+   },
+   {
+    "label": "Repetition: Reset RR",
+    "cc": 36,
+    "name": "controller_36"
+   },
+   {
+    "label": "Repetition: Sustain",
+    "cc": 64,
+    "name": "controller_64"
+   },
+   {
+    "label": "Portamento",
+    "cc": 65,
+    "name": "controller_65"
+   },
+   {
+    "label": "Legato",
+    "cc": 68,
+    "name": "controller_68"
+   },
+   {
+    "label": "Repetition",
+    "cc": 69,
+    "name": "controller_69"
+   },
+   {
+    "label": "Finger Position",
+    "cc": 70,
+    "name": "controller_70"
+   }
+  ],
+  "rows": [
+   "Sus MAX",
+   "Sus Marc LITE",
+   "Leg Slur MAX",
+   "Stac On Bow RRx9",
+   "Marc Shrt RRx4",
+   "Marc Lng RRx4",
+   "Detache",
+   "Flautando",
+   "Harmonics",
+   "Col Legno RR",
+   "Pizz RRx4",
+   "Ricochet RR",
+   "Spiccato RRx9",
+   "Stac RRx9",
+   "Stac Slur RRx6",
+   "Meas Trem TS",
+   "Repetitions TS",
+   "Tremolo",
+   "Trill HT WT MOD",
+   "Slur Runs",
+   "Spic Runs",
+   "Leg BC MAX",
+   "Leg Port MAX",
+   "StacSl Leg BC + Slur + Port MAX"
+  ]
+ },
+ "Violas KS Master DIV B": {
+  "file": "/Volumes/MAC DRIVE/EW Hollywood Strings Diamond/Hollywood Strings Opus Instruments/Violas Divisi/06 Keyswitch/Violas KS Master DIV B.oib",
+  "locator": "//com.eastwest.8010/Violas Divisi/06 Keyswitch/Violas KS Master DIV B.oit",
+  "keyMin": 0,
+  "keyMax": 127,
+  "legato": false,
+  "currentKeySwitch": 24,
+  "articulations": [
+   {
+    "name": "Sus MAX",
+    "key": 24,
+    "useKey": true,
+    "trigger": "C0"
+   },
+   {
+    "name": "Sus Marc LITE",
+    "key": 25,
+    "useKey": true,
+    "trigger": "C#0"
+   },
+   {
+    "name": "Leg Slur MAX",
+    "key": 26,
+    "useKey": true,
+    "trigger": "D0"
+   },
+   {
+    "name": "Staccatissimo RRx16",
+    "key": 27,
+    "useKey": true,
+    "trigger": "D#0"
+   },
+   {
+    "name": "Stac On Bow RRx9",
+    "key": 28,
+    "useKey": true,
+    "trigger": "E0"
+   },
+   {
+    "name": "Marc Shrt RRx4",
+    "key": 29,
+    "useKey": true,
+    "trigger": "F0"
+   },
+   {
+    "name": "Detache",
+    "key": 30,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Sul Pont",
+    "key": 31,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Bartok Pizz RR",
+    "key": 32,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Col Legno RR",
+    "key": 33,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Pizz RRx4",
+    "key": 34,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Ricochet RR",
+    "key": 35,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Spiccato RRx9",
+    "key": 36,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Stac RRx9",
+    "key": 37,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Meas Trem TS",
+    "key": 38,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Repetitions TS",
+    "key": 39,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Tremolo",
+    "key": 40,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Trill HT WT MOD",
+    "key": 41,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Leg BC MAX",
+    "key": 42,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Leg Port MAX",
+    "key": 43,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Stac Leg BC + Slur + Port MAX",
+    "key": 44,
+    "useKey": null,
+    "trigger": "None"
+   }
+  ],
+  "controls": [
+   {
+    "label": "Modulation wheel",
+    "cc": 1,
+    "name": "controller_1"
+   },
+   {
+    "label": "Legato Time",
+    "cc": 5,
+    "name": "controller_5"
+   },
+   {
+    "label": "MIDI Volume",
+    "cc": 7,
+    "name": "controller_7"
+   },
+   {
+    "label": "MIDI Pan",
+    "cc": 10,
+    "name": "controller_10"
+   },
+   {
+    "label": "Expression",
+    "cc": 11,
+    "name": "controller_11"
+   },
+   {
+    "label": "Con Sordino",
+    "cc": 15,
+    "name": "controller_15"
+   },
+   {
+    "label": "True Legato: Mono",
+    "cc": 22,
+    "name": "controller_22"
+   },
+   {
+    "label": "Repetition: Reset RR",
+    "cc": 36,
+    "name": "controller_36"
+   },
+   {
+    "label": "Repetition: Sustain",
+    "cc": 64,
+    "name": "controller_64"
+   },
+   {
+    "label": "Portamento",
+    "cc": 65,
+    "name": "controller_65"
+   },
+   {
+    "label": "Legato",
+    "cc": 68,
+    "name": "controller_68"
+   },
+   {
+    "label": "Repetition",
+    "cc": 69,
+    "name": "controller_69"
+   },
+   {
+    "label": "Finger Position",
+    "cc": 70,
+    "name": "controller_70"
+   }
+  ],
+  "rows": [
+   "Sus MAX",
+   "Sus Marc LITE",
+   "Leg Slur MAX",
+   "Staccatissimo RRx16",
+   "Stac On Bow RRx9",
+   "Marc Shrt RRx4",
+   "Detache",
+   "Sul Pont",
+   "Bartok Pizz RR",
+   "Col Legno RR",
+   "Pizz RRx4",
+   "Ricochet RR",
+   "Spiccato RRx9",
+   "Stac RRx9",
+   "Meas Trem TS",
+   "Repetitions TS",
+   "Tremolo",
+   "Trill HT WT MOD",
+   "Leg BC MAX",
+   "Leg Port MAX",
+   "Stac Leg BC + Slur + Port MAX"
+  ]
  }
 }

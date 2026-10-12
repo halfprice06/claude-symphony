@@ -1,5 +1,5 @@
 {
- "_doc": "c07 (critic C #2b, #6): extra entry lead in seconds for single entries that measured late against the ensemble (measured lag in c05 minus 0.05 s), {track: {score onset qn: seconds}}, matched within 0.02 qn. Added to the family ENTRY_LEAD_S (or used alone when the family has none); total capped at 0.30 s, converted through the tempo map (caesuras included). An onset of 0 starts inside the pre-roll. c10 (A #1): Violin I solo 48 +0.13 s (moved from Violins I, which no longer plays there) and 60 +0.10 s (the soft solo entries took 0.3-0.6 s to reach body level on the section patch). c11 (C #2, C #4): Horn 3 204 +0.10 (the bar 61 Ab4 reached body - 6 dB at +0.34 s); Violin I solo 48 0.13 -> 0.20.",
+ "_doc": "c07 (critic C #2b, #6): extra entry lead in seconds for single entries that measured late against the ensemble (measured lag in c05 minus 0.05 s), {track: {score onset qn: seconds}}, matched within 0.02 qn. Added to the family ENTRY_LEAD_S (or used alone when the family has none); total capped at 0.30 s, converted through the tempo map (caesuras included). An onset of 0 starts inside the pre-roll. c10 (A #1): Violin I solo 48 +0.13 s (moved from Violins I, which no longer plays there) and 60 +0.10 s (the soft solo entries took 0.3-0.6 s to reach body level on the section patch). c11 (C #2, C #4): Horn 3 204 +0.10 (the bar 61 Ab4 reached body - 6 dB at +0.34 s); Violin I solo 48 0.13 -> 0.20. c15 (C #3): Flute 2 262 +0.10 and Bassoon 2 268 +0.08 (climax entries at body - 6 dB +0.17/+0.19 s).",
  "Violins I": {
   "0": 0.11,
   "171": 0.19,
@@ -42,5 +42,17 @@
  },
  "Horn 3": {
   "204": 0.1
+ },
+ "Flute 2": {
+  "262": 0.1
+ },
+ "Bassoon 2": {
+  "268": 0.08
+ },
+ "Horns 1-2 a2": {
+  "261": 0.08
+ },
+ "Violins II div": {
+  "108": 0.12
  }
 }
