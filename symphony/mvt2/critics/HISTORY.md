@@ -414,3 +414,429 @@ Cycle N reviews vNN and produces v(N+1). Each entry: Accepted, Open, Do-not-touc
 - Closed: harp retuning text at 1 and 7.
 - Open: Vln I slur at 76; low harp chords at 8 and 72; Cl 2 hold 89–92; parts warnings at 47; more cues; Vln II chords vs viola arpeggio 37–40; harp RH hidden octave 13→14; spelling E–G♯–B at 62; horn return of theme A at 70–74; timpani ff→f at 61–62; "poco allargando" vs timpani p at 60; Vc pizz. 37–40; Bsn 2 = cellos 53–56; Cbsn hold 30–33; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; harp RH vs viola figure 75–77; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
 - Do-not-touch: woodwind choir 31–36; horn theme 7–14 pitches and rhythm; timpani tuning plan; muted horns 87–90; score layout (8 pages); link 1–6; cadence plan.
+
+## Cycle 77 (v77 → v78), lens 7 texture, Adler ch. 8
+- Accepted: Bsn 2 rests 53–56.
+- Rejected: Cl 1 at 19–20 and the bassoon tie 14→15 (each pushes the score to 9 pages).
+- Closed: Bsn 2 = cellos 53–56; Vln II chords vs viola arpeggio 37–40; harp RH vs viola figure 75–77; horn return of theme A.
+- Open: Vln I slur at 76; low harp chords at 8 and 72; Cl 2 hold 89–92; parts warnings at 47; more cues; harp RH hidden octave 13→14; spelling E–G♯–B at 62; timpani ff→f at 61–62; "poco allargando" vs timpani p at 60; Vc pizz. 37–40; Cbsn hold 30–33; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: horn theme and bassoon layout 7–14; string statement 23–30; woodwind choir 31–36; build 53–61 with the trombone quotation; A′ octaves and release 75–83; plagal close 87–92; 8-page layout (new staves in a system add a page).
+
+## Cycle 78 (v78 → v79), lens 8 expression, Adler ch. 7
+- Accepted: Fl 1 rests 75–76, enters G6 mf< at 77 (revises c033); Fl 1 swells 37–40; B.cl slurs 8–9, 11–12; Bsn 2 F3 at 73.
+- Open: Cl 2 register at 61–62; Vln I F6–B♭6 at 76; low harp chords at 8 and 72; Cl 2 hold 89–92; parts warnings at 47; more cues; harp RH hidden octave 13→14; spelling E–G♯–B at 62; timpani ff→f at 61–62; "poco allargando" vs timpani p at 60; Vc pizz. 37–40; Cbsn hold 30–33; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: woodwind registers as they stand; grace-run approach to B♭6 at 79; horn theme 7–14; woodwind choir 31–36; build 53–61; A′ release 81–83; plagal close 87–92; 8-page layout.
+
+## Cycle 79 (v79 → v80), lens 9 holistic (Dvořák 7/ii), Adler part 2 ch. 16
+- Accepted: Cl 1·2 enter at 77 (revises c067); cellos rest 37–40, arco at 41; harp rests 79–81, p at 82.
+- Closed: Vc pizz. 37–40.
+- Open: Cl 2 register at 61–62; Vln I F6–B♭6 at 76; low harp chords at 8 and 72; Cl 2 hold 89–92; parts warnings at 47; more cues; harp RH hidden octave 13→14; spelling E–G♯–B at 62; timpani ff→f at 61–62; "poco allargando" vs timpani p at 60; Cbsn hold 30–33; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: string-free horn solo 7–14; woodwind choir 31–36; build 53–61 with the trombone quotation; A′ octaves and staged release 79–83; plagal close with Vln I C5 87–92; 8-page layout.
+
+## Cycle 80 (v80 → v81), lens 10 cyclic, A&S Unit 28
+- Accepted: Vc/Cb F at 87 (IV6 = N6 of C minor).
+- Relayed to the coordinator: movement I's harp retuning at 176 is obsolete; IV6 over F at 87; no reserved brass colours in movement II.
+- Open: Cl 2 register at 61–62; Vln I F6–B♭6 at 76; low harp chords at 8 and 72; Cl 2 hold 89–92; parts warnings at 47; more cues; harp RH hidden octave 13→14; spelling E–G♯–B at 62; timpani ff→f at 61–62; "poco allargando" vs timpani p at 60; Cbsn hold 30–33; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: Neapolitan at 49; F♭ thread 62–65; cadence 88–89 with Vln I C5; attacca join at 1; horn solo 7–14; woodwind choir 31–36; build 53–61; 8-page layout.
+
+## Cycle 81 (v81 → v82), lens 1 melody, A&S Unit 3
+- Accepted: neighbour rhythm at 40 and 56 with arpeggio E♭4; viola slurs at 72; harp LH single E♭ at 72 b3.
+- Open: Cl 2 register at 61–62; Vln I F6–B♭6 at 76; low harp chords at 8 and 72; Cl 2 hold 89–92; parts warnings at 47; more cues; harp RH hidden octave 13→14; spelling E–G♯–B at 62; timpani ff→f at 61–62; "poco allargando" vs timpani p at 60; Cbsn hold 30–33; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: climax plan (B♭ peaks); Neapolitan at 49; F♭ thread 62–65; cadence 88–89; horn solo 7–14; woodwind choir 31–36; build 53–61; 8-page layout.
+
+## Cycle 82 (v82 → v83), lens 2 harmony, A&S Unit 27
+- Accepted: V♭9 at 81 (Hn 3 F♭4 held); A♭ under the suspension at 58; F anticipation at 60.
+- Open: Cl 2 register at 61–62; Vln I F6–B♭6 at 76; low harp chords at 8 and 72; Cl 2 hold 89–92; parts warnings at 47; more cues; harp RH hidden octave 13→14; spelling E–G♯–B at 62; timpani ff→f at 61–62; "poco allargando" vs timpani p at 60; Cbsn hold 30–33; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: link 1–6; horn theme 7–14; suspension at 42; F♭ thread 62–65; retransition pedal with passing 6/4 at 68; plagal close 87–92; 8-page layout.
+
+## Cycle 83 (v83 → v84), lens 3 form, A&S Unit 15
+- Accepted: Vln II B3 at 64 b3 (full diminished seventh).
+- Closed: spelling E–G♯–B at 62 (keep F♭).
+- Known exception: cross-relation D♭/D♮ at 21.
+- Open: Cl 2 register at 61–62; Vln I F6–B♭6 at 76; low harp chords at 8 and 72; Cl 2 hold 89–92; parts warnings at 47; more cues; harp RH hidden octave 13→14; timpani ff→f at 61–62; "poco allargando" vs timpani p at 60; Cbsn hold 30–33; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: key plan I–IV–V–I; chromatic bass D♭–D–E♭ 61–65; pivot chords at 47, 50–51, 62; approach to V at 59–60; link 1–6; horn theme 7–14; plagal close 87–92; 8-page layout.
+
+## Cycle 84 (v84 → v85), lens 4 orchestration, Casanelles ch. 6
+- Accepted: clarinet lines swapped at 61–62 (Cl 1 in the clarion); timpani roll f at 61–62.
+- Closed: Cl 2 register at 61–62; timpani ff→f at 61–62.
+- Open: viola tremolo inside the trombone quotation 63–64; Vln I F6–B♭6 at 76; low harp chords at 8 and 72; Cl 2 hold 89–92; parts warnings at 47; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; Cbsn hold 30–33; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: link 1–6; horn solo 7–14; woodwind choir 31–36; build 53–60; trombone quotation 63–64; A′ octaves and release 79–83; plagal close 87–92; 8-page layout.
+
+## Cycle 85 (v85 → v86), lens 5 engraving, Adler part 1 ch. 2
+- Accepted: bowings at 59–61 (ff on a down-bow); viola sextuplets one per bow; change bow at will 89–92 and 84; cello bowing 41–42; viola unis./ord. at 71, 79.
+- Open: "trem." at 61–64; unis. marks at 65 (Vln II, Vla); viola tremolo inside the trombone quotation 63–64; Vln I F6–B♭6 at 76; low harp chords at 8 and 72; Cl 2 hold 89–92; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; Cbsn hold 30–33; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: link 1–6; horn solo 7–14; woodwind choir 31–36; build 53–60; trombone quotation 63–64; A′ octaves and release 79–83; plagal close 87–92; 8-page layout.
+
+## Cycle 86 (v86 → v87), lens 6 playability, Sebesky ch. 2
+- Accepted: Fl 1 breath after 58; low brass and Hn 4 breath at end of 60; Hn 4 a2 with Hn 3 at 61–62 (final; reverses c069); Ob 2 A♭4 at 62 b3.
+- Closed: Cbsn hold 30–33; Cl 2 hold 89–92.
+- Open: "trem." at 61–64; unis. marks at 65; viola tremolo inside the trombone quotation 63–64; Vln I F6–B♭6 at 76; low harp chords at 8 and 72; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: Hn 3·4 a2 at 61–62 (settled after c064/c069/c086); link 1–6; horn solo 7–14; woodwind choir 31–36; build 53–60; trombone quotation 63–64; A′ octaves and release 79–83; plagal close 87–92; 8-page layout.
+
+## Cycle 87 (v87 → v88), lens 7 texture, Rimsky-Korsakov ch. II
+- Accepted: Bsn 1 with the cellos at 45–47 and 61–62.
+- Open: "trem." at 61–64; unis. marks at 65; viola tremolo inside the trombone quotation 63–64; Vln I F6–B♭6 at 76; low harp chords at 8 and 72; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: horn solo 7–14; woodwind choir 31–36; cello counter-melody 23–30; viola with muted horn 87–88; Vc+Hn+Bsn counter-melody 75–82; Hn 3·4 a2 at 61–62; 8-page layout.
+
+## Cycle 88 (v88 → v89), lens 8 expression, Adler ch. 10
+- Accepted: "dolce" at 67; Hn 1·2 mf< at 78 b3; al niente hairpins for Hn 3·4 at 81, 90.
+- For the cycle 90 relay: Hn 3·4 need "senza sord." at their first entry in movement III.
+- Open: Hn 2 cue at 59–60; "trem." at 61–64; unis. marks at 65; viola tremolo inside the trombone quotation 63–64; Vln I F6–B♭6 at 76; low harp chords at 8 and 72; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; Bn 2 French sixth at 68; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: horn solo 7–14; muted Hn 3·4 at 87–90; trumpets tacet; Hn 1 rests 61–66; tenuto brass 61–62; Tbn 1 quotation 63–64; Hn 3·4 a2 at 61–62; 8-page layout.
+
+## Cycle 89 (v89 → v90), lens 9 holistic (Beethoven 3/ii), A&S Units 20–32
+- Accepted: Hn 1/Vc F at 58 b4 (reverses c082 there); harp LH octaves at 8, 13, 72, 73.
+- Closed: low harp chords at 8 and 72; Bn 2 French sixth at 68 (rejected).
+- Open: bass rarely motivic; theme A never in the winds; Hn 2 cue at 59–60; "trem." at 61–64; unis. marks at 65; viola tremolo inside the trombone quotation 63–64; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: bars 1–6; horn solo 7–14; woodwind choir 31–36; build 53–61; trombone quotation 63–64; octaves and release 79–83; plagal close 87–92; Hn 3·4 a2 at 61–62; 8-page layout.
+
+## Cycle 90 (v90 → v91), lens 10 cyclic, Adler ch. 17
+- Accepted: Fl 1 in tenths/sixths with the cor anglais at 41–44.
+- Closed: bass rarely motivic; theme A never in the winds.
+- Relayed to the coordinator: melody in thirds/sixths used once (41–44); Hn 3·4 senza sord. in movement III; join matches v207.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; "trem." at 61–64; unis. marks at 65; viola tremolo inside the trombone quotation 63–64; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: Fl 1 thirds/sixths at 41–44 (the one instance); attacca join; quotations; plagal close; Hn 3·4 a2 at 61–62; 8-page layout.
+
+## Cycle 91 (v91 → v92), lens 1 melody, A&S Unit 20
+- Accepted: A♮ neighbour at 46; Cl 2 F4 from 76 b2 (replaces c039).
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; "trem." at 61–64; unis. marks at 65; viola tremolo inside the trombone quotation 63–64; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: theme A's line with the B♭ appoggiatura at 12, 28, 76; escape tones at 17, 21; theme B's consequent holding the leading tone to 61; Fl 1 thirds/sixths 41–44; Hn 3·4 a2 at 61–62; 8-page layout.
+
+## Cycle 92 (v92 → v93), lens 2 harmony, A&S Unit 5
+- Accepted: bass G♭–G–A♭ by step at 59; Vln I div. A♭6 at 62 b3; C–E♭–G♭ figure at 40, 56; viola revoicings at 25, 42, 58, 78; Hn 3·4 C4 at 29.
+- Open: parts warnings at 47 (now four); Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; "trem." at 61–64; unis. marks at 65; viola tremolo inside the trombone quotation 63–64; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; bass rest under pickup at 70; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; ii6 at 45; low third at 61.
+- Do-not-touch: link 1–2; key plan with the F♭/E–E♭ thread; diminished seventh at 59; Neapolitan at 49; hemiola and V♭9 at 80–81; plagal close 87–92; Hn 3·4 a2 at 61–62; 8-page layout.
+
+## Cycle 93 (v93 → v94), lens 3 form, A&S Unit 14 (second pass)
+- No change to the music.
+- Closed: bass rest under pickup at 70; ii6 at 45.
+- Open: parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; "trem." at 61–64; unis. marks at 65; viola tremolo inside the trombone quotation 63–64; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; low third at 61.
+- Do-not-touch: I–IV–I plan with the phrase modulation at 37; open cadence at 61; E♭7 with D♭ and G♮ at 65–70; G♭–G–A♭ at 59–60; deceptive then perfect cadences 78–82; plagal coda 87–92; Hn 3·4 a2 at 61–62; 8-page layout.
+
+## Cycle 94 (v94 → v95), lens 4 orchestration, Rimsky-Korsakov ch. I, III
+- Accepted: viola tremolo E4–C5 at 63–64; Bsn 1 on the counter-melody from 75; Hn 3 D♭4→C4 at 29–30.
+- Closed: viola tremolo inside the trombone quotation 63–64.
+- Open: parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; "trem." at 61–64; unis. marks at 65; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; low third at 61.
+- Do-not-touch: woodwind choir 31–36; horn solo 7–14; counter-melody 79–82; 61–62 spacing and Hn 3·4 a2; plagal close 87–92; 8-page layout.
+
+## Cycle 95 (v95 → v96), lens 5 engraving, Gould ch. 1 (second pass)
+- Accepted: middle-line stem directions (15 places); Bsn 1 stems at 68; Cl 2 solo at 75–76.
+- Open: parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; "trem." at 61–64; unis. marks at 65; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; low third at 61.
+- Do-not-touch: clef placements; stem lengths, beaming, tuplet numbers; Fl 1/Ob 1 stems 57–60; 8-page layout; plus the standing list (horn solo 7–14, woodwind choir 31–36, Hn 3·4 a2 61–62, plagal close 87–92).
+
+## Cycle 96 (v96 → v97), lens 6 playability, Adler ch. 2 (second pass)
+- Accepted: cello bowing 59–60 (corrects c085); bass bow change at 60; "sul C" placement at 64; "trem." at 61–64.
+- Closed: unis. marks at 65; "trem." at 61–64.
+- Open: parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; low third at 61.
+- Do-not-touch: Vln II louré 15–22; settled bowings at 59 (violins), 61, 79–80; mute plan 15–37; pizz./arco timing 40–45; divisi layout 18–23, 37–45; coda bow changes 84–92; standing list; 8-page layout.
+
+## Cycle 97 (v97 → v98), lens 7 texture, Adler part 2 ch. 11
+- Accepted: cellos D2–E2 at 64 b3–4; Hn 3 enters on 29 b3.
+- Open: duplicate pp on the Hn 3·4 staff at 29; parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; low third at 61.
+- Do-not-touch: horn solo 7–14; cello counter-melody 23–30; woodwind choir 31–36; Hn 1 counter-line 53–60; Tbn 1 over the tremolo 63–64; a2 horn counter-melody and four-horn chord 79–81; muted-horn close 87–92; Hn 3·4 a2 at 61–62; 8-page layout.
+
+## Cycle 98 (v98 → v99), lens 8 expression, A&S Unit 21
+- Accepted: diminuendo from the suspended E♭ at 8, 24, 72; crescendo into Hn 3's F♭ at 80–81; mp held through the suspension at 42.
+- Open: duplicate pp on the Hn 3·4 staff at 29; parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74; low third at 61.
+- Do-not-touch: woodwind choir over the tonic pedal 31–36; dominant pedal with horn tail 65–70; V♭9 pitches 80–81; suspensions at 42 and 58; plagal close 87–92; Hn 3·4 a2 at 61–62; 8-page layout.
+
+## Cycle 99 (v99 → v100), lens 9 holistic (Rachmaninoff 2/iii), Casanelles ch. 6
+- Accepted: violas A♭/F♭ at 62 (no fifths); timpani D♭ at 62 b3; Hn 3 pp part-only at 29.
+- Closed: duplicate pp at 29; low third at 61.
+- Open: 71–74 repeats 23–26 exactly; theme B never returns; parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74.
+- Do-not-touch: standing list (link 1–6, horn solo 7–14, woodwind choir 31–36, quotations 47–53 and 63–64, Hn 3·4 a2 61–62, V♭9 at 80–81, plagal close 87–92); 8-page layout.
+
+## Cycle 100 (v100 → v101), lens 10 cyclic, release check
+- No change to the music.
+- Closed: 71–74 repeats 23–26; theme B never returns (recall left to movement III).
+- Relayed to the coordinator: theme B recall in movement III's D♭ episode; III should not open with a soft roll or held C; timpani pulse still free for III; join matches v217.
+- Open: parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53; Vln I single octave 70–74.
+- Do-not-touch: standing list (link 1–6, horn solo 7–14, woodwind choir 31–36, quotations 47–53 and 63–64, Hn 3·4 a2 61–62, V♭9 at 80–81, root-position A♭ at 71 and sevenths at 72, plagal close 87–92); 8-page layout.
+
+## Cycle 101 (v101 → v102), lens 1 melody, Rimsky-Korsakov ch. II strings
+- Accepted: Fl 1 a dynamic below the cor anglais at 41–44.
+- Closed: Vln I single octave 70–74.
+- Open: parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53.
+- Do-not-touch: violin unison/octave plan; double octaves 79–82; violins and cellos in octaves at 61; Fl 1 notes at 41–44; standing list; 8-page layout.
+
+## Cycle 102 (v102 → v103), lens 2 harmony, A&S Units 9–10
+- Accepted: IV7 at 25 b3; iii6 at 78 b3; viiø7 over C at 39 b3–4.
+- Open: bar 55 II harmony (same as 39; protected counter-line); parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53.
+- Do-not-touch: rising bass at 11–12; F♭→E♭ bass at 78; standing list; 8-page layout.
+
+## Cycle 103 (v103 → v104), lens 3 form, A&S Unit 26 (second pass)
+- Accepted: strings f at 28.
+- Open: bar 55 II harmony; parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53.
+- Do-not-touch: key plan and arrivals at 37, 50, 53, 61, 71, 82; retransition 65–70; coda proportions; standing list; 8-page layout.
+
+## Cycle 104 (v104 → v105), lens 4 orchestration, Rimsky-Korsakov ch. III
+- Accepted: Tbn 2 fills the brass chord at 61 b3–62; cor anglais with the muted horns at 87–88, Cl 2 from 89.
+- Open: bar 55 II harmony; parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53.
+- Do-not-touch: woodwind-over-brass layering at 61–62; horn/bassoon crossing 65–70; Tbn 1 alone over the tremolo 63–64; three-colour counter-melody 75–82; plagal close 87–92; standing list; 8-page layout.
+
+## Cycle 105 (v105 → v106), lens 5 engraving, Gould beams (second pass)
+- Accepted: beam damping on viola/harp triplets, viola sextuplet at 60, grace run at 78; Fl 1 grace stems up at 78.
+- Open: bar 55 II harmony; parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; Vln I F6–B♭6 at 76; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53.
+- Do-not-touch: viola single stem direction 37–60; beam grouping and tuplet numbers; clefs; standing list; 8-page layout.
+
+## Cycle 106 (v106 → v107), lens 6 playability, Adler ch. 3 (second pass)
+- Accepted: basses change bow at will at 61; part-only mute cue for the solo violinist at 22.
+- Closed: Vln I F6–B♭6 at 76.
+- Open: bar 55 II harmony; parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; off-beat violas 48–51; viola B♭3 at 22; Hn 1 pp at 53.
+- Do-not-touch: string colour plan (sul D, sul A, sul G/C, sul C); divisi and double stops 61–64; change-bow-at-will pedals; standing list; 8-page layout.
+
+## Cycle 107 (v107 → v108), lens 7 texture, Adler ch. 5 (second pass)
+- Accepted: viola off-beat eighths at 48–51; Bsn 1 held line under the harp at 54–56.
+- Closed: off-beat violas 48–51.
+- Open: bar 55 II harmony; parts warnings at 47; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; viola B♭3 at 22; Hn 1 pp at 53.
+- Do-not-touch: B-section background plan 37–60; Hn/Cl counter-line 53–60; A′ viola figure and cello counter-melody 71–82; standing list; 8-page layout.
+
+## Cycle 108 (v108 → v109), lens 8 expression, Rimsky-Korsakov ch. IV (second pass)
+- Accepted: viola figure below the cor anglais at 41; fp on the C♯7 pivot at 47; Hn 1 pp at 52; Bsn 2 p< at 57; duplicate cello f at 79 removed.
+- Closed: Hn 1 pp at 53; parts warnings at 47 (parts book builds clean).
+- Open: bar 55 II harmony; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; viola B♭3 at 22.
+- Do-not-touch: ppp start and end; builds 53–61 and 71–79; grace run at 79; staged release 81–83 and clarinet morendo; sf> tremolo under Tbn 1 at 63–64; brass held back; standing list; 8-page layout.
+
+## Cycle 109 (v109 → v110), lens 9 holistic (Scheherazade/iii), Rimsky examples (second pass)
+- Accepted: basses 4 soli at 65–70, tutti at 71.
+- Open: bar 55 II harmony; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; viola B♭3 at 22.
+- Do-not-touch: link 1–6; horn solo 7–14; woodwind choir 31–36; quotations 47–53, 63–64; Hn 3·4 a2 61–62; V♭9 80–81; plagal close 87–92; B-section background and Hn/Cl counter-line; 8-page layout.
+
+## Cycle 110 (v110 → v111), lens 10 cyclic, A&S Unit 32
+- Accepted: Fl 1/Vln I A♭6 at 58 (B♭6 kept for 79); "attacca from movement I" at bar 1 in parts and title block.
+- Relayed: cyclic-notes correction (thirds at 32–34); movement III points (leave A♭ via G, close E♭/E♮ with an augmented sixth, violins peak at C7, Hn 3·4 senza sord. at first entry).
+- Open: bar 55 II harmony; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; viola B♭3 at 22.
+- Do-not-touch: link 1–6; horn solo 7–14; woodwind choir 31–36; quotations 47–53, 63–64; Hn 3·4 a2 61–62; V♭9 80–81; plagal close 87–92; B-section background and Hn/Cl counter-line; registral peak B♭6 at 79 only; 8-page layout.
+
+## Cycle 111 (v111 → v112), lens 1 melody, Rimsky-Korsakov ch. II (second pass)
+- Accepted: cor anglais a sixth above the bass clarinet at 32–34 (was a third below), pp; cor anglais pickup into theme B at 36.
+- Closed: theme B's first statement lacked its rising-fourth pickup.
+- Open: bar 55 II harmony; Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; viola B♭3 at 22.
+- Do-not-touch: link 1–6; horn solo 7–14; woodwind choir 31–36 (as of v112); Fl/CA 41–44; quotations 47–53, 63–64; theme B scoring 45–60; Hn 3·4 a2 61–62; V♭9 80–81; B♭6 at 79 only, with counter-melody 79–82; plagal close 87–92; 8-page layout.
+
+## Cycle 112 (v112 → v113), lens 2 harmony, A&S Units 11–13 (second pass)
+- Accepted: bar 55 rebuilt (bass E♭–C–A–B♭, Bsn 1 D♭–C, Cl 1/Hn 1 hold G♭4); viola D♭4 at 43 giving II6/5 before the cadential 6/4.
+- Closed: bar 55 II harmony.
+- Rejected: IV–vi7 at 41 and 57; IV7 7th by leap at 25; Hn 4 doubling at 80.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; viola B♭3 at 22.
+- Do-not-touch: link 1–6; horn solo 7–14; woodwind choir 31–36; Fl/CA 41–44; quotations 47–53, 63–64; bar 55 as of v113; Hn 3·4 a2 61–62; V♭9 80–81; B♭6 at 79 only; plagal close 87–92; 8-page layout.
+
+## Cycle 113 (v113 → v114), lens 3 form, A&S Unit 32 (second pass)
+- Accepted: nothing (no change; v114 = v113).
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; viola B♭3 at 22.
+- Do-not-touch: link 1–6; horn solo 7–14; woodwind choir 31–36; Fl/CA 41–44; quotations 47–53, 63–64; bar 55; 61–65 route with the E→E♭ slide; E6→E♭6 at 64/71; cadence 77–82; V♭9 80–81; B♭6 at 79 only; F–F♭–E♭ coda line 87–89; plagal close 87–92; 8-page layout.
+
+## Cycle 114 (v114 → v115), lens 4 orchestration, Rimsky-Korsakov tutti chords (second pass)
+- Accepted: harp LH octaves at 74, 77, 78.
+- Rejected: string chord on the 79 downbeat.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; viola B♭3 at 22.
+- Do-not-touch: link 1–6 and soft wind chords 3–6, 87–88; horn solo 7–14; woodwind choir 31–36; pizz./harp support 37–44; Fl/CA 41–44; quotations 47–53, 63–64; bar 55; tutti chord 61–62 and brass dynamics; release 63–65; 61–65 route; cadence 77–82; V♭9 80–81; B♭6 at 79 only; plagal close 87–92; 8-page layout.
+
+## Cycle 115 (v115 → v116), lens 5 engraving, Gould ch. 1 (second pass)
+- Accepted: harp 8 bassa split at 78/82 and ended after the chord at 14; shared rests for Fl 1·2 at 63 and Hn 1·2 at 70.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; viola B♭3 at 22.
+- Do-not-touch: standing list (link 1–6, horn solo 7–14, choir 31–36, quotations 47–53/63–64, bar 55, 61–65, cadence 77–82, B♭6 at 79 only, plagal close 87–92); B♭6 at pitch in Fl/Vln I 75–81 (no 8va); harp one-sign-per-phrase 8 bassa; cello clefs 44–48; 8-page layout.
+
+## Cycle 116 (v116 → v117), lens 6 playability, Adler ch. 4 harp (second pass)
+- Accepted: part-only starting pedal diagram at 1; connected arpeggios in the part; 82 pickup as ordinary notes; harp mf/f at 77–78; A♭ pedal mark at 41 b4.
+- Rejected: dropping the harp's A♭1 attack at 83 (protected release 81–83).
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; harp RH hidden octave 13→14; "poco allargando" vs timpani p at 60; viola B♭3 at 22.
+- Do-not-touch: standing list; harp pedal plan and register layout; coda harmonics at 83; score-only later pedal diagrams; 8-page layout.
+
+## Cycle 117 (v117 → v118), lens 7 texture, Adler ch. 15 (second pass)
+- Accepted: Bsn 1 follows the counter-line at 60; harp RH D♭4 removed at 13.
+- Closed: harp RH hidden octave 13→14; viola B♭3 at 22.
+- Rejected: tenutos on the bass at 58.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; "poco allargando" vs timpani p at 60.
+- Do-not-touch: standing list; counter-melody 75–82; B-section background 37–60; theme A head against theme B 53–55; viola answers 15–22; 8-page layout.
+
+## Cycle 118 (v118 → v119), lens 8 expression, Adler ch. 2 bowing (second pass)
+- Accepted: Vln I bow change at 61; Vln I/II bowing 77–79 into the peak; cello slurs at 26, 41, 46, 74, 80–81.
+- Rejected: violin bowing at 28, 30 (protected 23–30).
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; "poco allargando" vs timpani p at 60.
+- Do-not-touch: standing list; bowing 23–30; bowing 77–80 as of v119; 8-page layout.
+
+## Cycle 119 (v119 → v120), lens 9 holistic (Bruckner 7/ii), Rimsky examples 61–125 (second pass)
+- Accepted: Tbn 2 G♭3 at 60; basses senza sord. 21–36; Ob 1/Vln II hold A♭5 at 58 (both octaves match).
+- Rejected: strings mf at 28; four horns at 87–88.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; "poco allargando" vs timpani p at 60.
+- Do-not-touch: standing list; bar 58 as of v120; 8-page layout.
+
+## Cycle 120 (v120 → v121), lens 10 cyclic, A&S Unit 26 (second pass)
+- Accepted: timpani roll at 89–92 removed; header comment fix.
+- Relayed: movement III opening, key plan, stop-chord resolution; B♭6 occurs at 76 (mp) and 79.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; "poco allargando" vs timpani p at 60.
+- Do-not-touch: standing list (plagal close 87–92 now without timpani); bar 58; 8-page layout.
+
+## Cycle 121 (v121 → v122), lens 1 melody, Adler ch. 3 (second pass)
+- Accepted: cellos sul D 44–47, ord. at 48.
+- Corrected wording: B♭6 only as theme A's appoggiatura, at 76 (mp, passing) and 79 (ff, held); never in the B section.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; "poco allargando" vs timpani p at 60.
+- Do-not-touch: standing list; theme A line with B♭ appoggiatura (7–14, 22–26, 71–82); theme B 37–60 with sul A 52–56; solo violin 17–22; sul C/sul G at 64–65 and 87; 8-page layout.
+
+## Cycle 122 (v122 → v123), lens 2 harmony, A&S Unit 17 (second pass)
+- Accepted: basses/harp down to G♭1 at 43; Hn 4 leaves the leading tone at 81 b3.
+- Rejected: viola C4 resolution at 52–53 (9 pages; harp resolves it).
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; "poco allargando" vs timpani p at 60.
+- Do-not-touch: standing list; falling-thirds model at 37–40 and 53–56; fifths chains at 42 and 58; 8-page layout.
+
+## Cycle 123 (v123 → v124), lens 3 form, Rimsky-Korsakov ch. IV (second pass)
+- Accepted: Cl 2 off the A♭ at 79 b1; timpani rest at 82; Fl 1 p< at 77.
+- Rejected: bass clarinet p at 31.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; "poco allargando" vs timpani p at 60.
+- Do-not-touch: standing list; build orders 53–61 and 71–79; grace run into B♭6 at 79; release 80–83 with Cl 2 morendo; Tbn quotation 63–64; brass economy (no trumpets, trombones only 60–64); ppp start and end; 8-page layout.
+
+## Cycle 124 (v124 → v125), lens 4 orchestration, Adler ch. 15 (second pass)
+- Accepted: violas enter on 84 b3; cellos pp–mp under Ob 1 at 44–47; clarinets mp< at 77.
+- Rule: no further accompaniment changes in 37–60.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; "poco allargando" vs timpani p at 60.
+- Do-not-touch: standing list; build orders 53–61 and 75–79; tutti and release 61–65; A′ peak 79–82; harp and timpani 83–85; 8-page layout.
+
+## Cycle 125 (v125 → v126), lens 5 engraving, Gould ch. 1–2 (second pass)
+- Accepted: bar 22 spacing (part-only text out of the score); tenuto offsets 61–62; longer harp roll signs; Hn 3·4 one-stem chords 3–6; CA fermata at 92.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; "poco allargando" vs timpani p at 60.
+- Do-not-touch: standing list; 8-page layout.
+
+## Cycle 126 (v126 → v127), lens 6 playability, Adler ch. 6–7 (second pass)
+- Accepted: slurs in soft wind accompaniment (7–14, 45–47, 71–78); bass clarinet "(low C)" part title.
+- Rejected: ties at 3–6.
+- Kept: Cl 2 throat B♭; bass clarinet slur over the break 35–36.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; "poco allargando" vs timpani p at 60.
+- Do-not-touch: standing list; breathing plan (no stretch over 20 s); 8-page layout.
+
+## Cycle 127 (v127 → v128), lens 7 texture, Adler ch. 17 (second pass)
+- Accepted: violas off the counter-melody at 25, 26, 28; violas and harp off it at 74, 76–78.
+- Closed: c027 viola point.
+- Rejected: harp chord change at 14.
+- Open: Hn 2 cue at 59–60; part-only "via sord." for Hn 3·4 at 91; more cues; "poco allargando" vs timpani p at 60.
+- Do-not-touch: standing list; Ob/solo Vln dialogue 15–22; theme-B colours 37–60; thin coda background 83–92; 8-page layout.
+
+## Cycle 128 (v128 → v129), lens 8 expression, Adler brass climaxes and effects (second pass)
+- Accepted: Fl 1 "dolce cantabile" at 37; "poco allargando" offset at 60; part-only "via sord." Hn 3·4 at 91.
+- Closed: "poco allargando" vs timpani p at 60; part-only "via sord." for Hn 3·4 at 91.
+- Open: Hn 2 cue at 59–60; more cues.
+- Do-not-touch: standing list; brass economy; held-note handovers 1–3, 65–70, 89–92; release 81–83; 8-page layout.
+
+## Cycle 129 (v129 → v130), lens 9 holistic (Mahler 5/iv), Rimsky examples 130–209 (second pass)
+- Accepted: nothing (no change; v130 = v129).
+- Recorded: woodwind melody over woodwind harmony at 31–36 and moving brass inner lines at 61–62 are known, protected exceptions to Rimsky PDF 108 and 116. Do not raise again.
+- Open: Hn 2 cue at 59–60; more cues.
+- Do-not-touch: standing list; B-section background 37–60; brass layout 61–62; A′ 71–82; 8-page layout.
+
+## Cycle 130 (v130 → v131), lens 10 cyclic, Casanelles ch. 5 (second pass)
+- Accepted: bSec.ily header comments; movement-2-plan.md current-state note.
+- Relayed: movement III points (see c130 report).
+- Open: Hn 2 cue at 59–60; more cues.
+- Do-not-touch: standing list; Hn 3·4 via sord. at 91; cor anglais 41–44; 8-page layout.
+
+## Cycle 131 (v131 → v132), lens 1 melody, Adler ch. 7 (second pass)
+- Accepted: nothing (no change; v132 = v131).
+- Recorded: theme B's first phrase is narrow (C5–G♭5, flute's weak register). Not changed (protected); any later attempt starts at 39. Only the cor anglais plays a whole theme (c041), so do not raise again.
+- Open: Hn 2 cue at 59–60; more cues.
+- Do-not-touch: standing list; 8-page layout.
+
+## Cycle 132 (v132 → v133), lens 2 harmony, A&S Units 22–23 (second pass)
+- Accepted: cross relation at 59–60 removed (violas A♭3, Tbn 2 E♭ then G♭); viola B3→C4 at 50.
+- Recorded exceptions: cross relation at 21; doubled leading tone at 24 and 72.
+- Open: Hn 2 cue at 59–60; more cues.
+- Do-not-touch: standing list; diminished-seventh resolutions 40, 56, 59; cadence 77–78; 80–81; plagal close 87–89; 8-page layout.
+
+## Cycle 133 (v133 → v134), lens 3 form, A&S Units 16 and 19 (second pass)
+- Accepted: contrabassoon D♭1 at 61.
+- Recorded: complete 6/4 list (5, 33, 38, 41, 43, 68), all functional; 78 b3 is a passing 6/3, do not "correct".
+- Open: Hn 2 cue at 59–60; more cues.
+- Do-not-touch: standing list; bass plan with E→E♭ at 64–65; bass ascent 57–60; 67–69 over the dominant pedal; 8-page layout.
+
+## Cycle 134 (v134 → v135), lens 4 orchestration, Adler ch. 15 (second pass)
+- Accepted: Bsn 1 C♭4–C4 at 78 b1–2; Fl 1 p at 40.
+- Open: Hn 2 cue at 59–60; more cues.
+- Do-not-touch: standing list; pizz. violas 41–44; violins alone 53–56; soft final chords 82, 89–92; 8-page layout.
+
+## Cycle 135 (v135 → v136), lens 5 engraving, MOLA (second pass)
+- Accepted: parts-only cues for ten players; parts hairpin length; per-part page numbering; trumpet tacet pages; keys in short names.
+- Closed: Hn 2 cue at 59–60; more cues.
+- Rejected: composer name (none printed, as movement I); multi-rest bar ranges.
+- Open: none.
+- Do-not-touch: standing list; score layout (8 pages, fixed breaks, bar numbers below systems, tempo marks/letters over strings).
+
+## Cycle 136 (v136 → v137), lens 6 playability, Adler brass (second pass)
+- Accepted: "via sord." Hn 3·4 at 91 in the score; Tbn 1 "solo" in the part at 63.
+- To relay at cycle 140: Hn 3 parts of movements I and II must face each other (attacca held note).
+- Open: none.
+- Do-not-touch: standing list; horn breathing plan; 8-page layout.
+
+## Cycle 137 (v137 → v138), lens 7 texture, Adler ch. 16 (second pass)
+- Accepted: harp RH re-voiced at 53 b4–56 off the counter-line.
+- Recorded: Vln II held chord at 37–40 is a sustain of the viola arpeggio, not a doubling fault.
+- Open: none.
+- Do-not-touch: standing list; c124 rule for 37–60; 8-page layout.
+
+## Cycle 138 (v138 → v139), lens 8 expression, Casanelles dynamics (second pass)
+- Accepted: Vln II hairpins 15–22; cello swells 25–26, 73–74; niente circles at 3, 66, 81, 82; viola crescendo to p at 52.
+- Rejected: accompaniment swell 48–52 (c124 rule covers dynamics too).
+- Open: none.
+- Do-not-touch: standing list; flat pp accompaniment under the quotation 48–52; 8-page layout.
+
+## Cycle 139 (v139 → v140), lens 9 holistic (Brahms 4/ii), Rimsky examples 206–274 (second pass)
+- Accepted: CA/Fl shared F5 at 37; Vln II hairpins only under the oboe (15–16, 19–20), not the solo violin.
+- Rejected: Bsn 2 tie into 15 (9 pages).
+- Open: none.
+- Do-not-touch: standing list; register gap 83–84; 8-page layout.
+
+## Cycle 140 (v140 → v141), lens 10 cyclic, Adler ch. 1 / ch. 15 close (second pass)
+- Accepted: bass clarinet solo 31–37 an octave lower (motto at movement I's pitch), cor anglais with it, Bsn 1 on F at 33 b2; intro comment.
+- Relayed: movement III trumpet/timpani points; page turns for Hn 3 and strings at the attacca; tremolo 61–64; C♭→C at 78 in Vc/Bsn 1.
+- Open: none.
+- Do-not-touch: standing list; woodwind choir 31–36 as of v141 (low register); 8-page layout.
+
+## Cycle 141 (v141 → v142), lens 1 melody, Sebesky ch. 6–7 (second pass)
+- Accepted: Vln II re-voiced at 37–40, off the flute's tune.
+- Closed: c131 note on theme B's first phrase (keep as is).
+- Recorded: Bsn 1 A♭3 inside the horn at 11 has no clean fix; do not retry.
+- Open: none.
+- Do-not-touch: standing list; theme B's line; c124 rule for 37–60; 8-page layout.
+
+## Cycle 142 (v142 → v143), lens 2 harmony, A&S Units 24–25 (second pass)
+- Accepted: harp fifths at 53–54 removed; Vln II 7th undoubled at 39.
+- Recorded: anticipation at 60; octave ♭6̂ at 87–89; vi7→V4/3 at 73–74; It6 D→D♭ at 64–65.
+- Open: none.
+- Do-not-touch: standing list; seventh chords at 8/24/72, 42/58, 76–81; approach to V 59–60; retransition 65–71; 8-page layout.
+
+## Cycle 143 (v143 → v144), lens 3 form, A&S Unit 18 (second pass)
+- Accepted: nothing (no change; v144 = v143).
+- Recorded exceptions: doubled leading tone C at 36→37; pedal joins at 31–36, 65–70, 83–86 (no 6/3 bridges).
+- Open: none.
+- Do-not-touch: standing list; 6/3 bridge 53–56; 8-page layout.
+
+## Cycle 144 (v144 → v145), lens 4 orchestration, Adler ch. 8 (second pass)
+- Accepted: Cl 2 rests at 78 b1–2.
+- Recorded: Ob/Cl unisons 81–82; Cl 2 A♭4 at 71–74 (no clean fix).
+- Open: none.
+- Do-not-touch: standing list; cadence 77–82; 8-page layout.
+
+## Cycle 145 (v145 → v146), lens 5 engraving, Adler ch. 18 (second pass)
+- Accepted: Tbn 1 cue fix 61–62; Cl 2 part f at 78; bassoon rests and "2." at 57–58; "1." score-only at 67–68; tempo-word padding in parts.
+- Open: none.
+- Do-not-touch: standing list; 8-page layout, score order, shared-staff dynamics, tempo marks over strings, B♭6 at pitch, cue set from c135.
+
+## Cycle 146 (v146 → v147), lens 6 playability, Adler timpani (second pass)
+- Accepted: medium sticks at 50; damp at 62 b3; near the rim 67, ord. 79.
+- Rejected: moving the retuning from 5 to 37.
+- Open: none.
+- Do-not-touch: standing list; timpani tuning plan; 8-page layout.
+
+## Cycle 147 (v147 → v148), lens 7 texture, Rimsky ch. III (second pass)
+- Accepted: clarinets enter above Hn 1 on 57 b3.
+- Closed: Hn 4 enclosed at 29–30 (keep).
+- Open: none.
+- Do-not-touch: standing list; 61–62 brass layout; Hn/Bsn crossing 67–70; four-horn chord 79–81; muted-horn close 87–92; 8-page layout.
+
+## Cycle 148 (v148 → v149), lens 8 expression, A&S Unit 3 (second pass)
+- Accepted: Tbn 1 pickup slurred, not accented, at 63; hemiola tenutos 80–81; Cl 1 tenuto at 88.
+- Open: none.
+- Do-not-touch: standing list; quotation pitches and ff at 63–64; 8-page layout.
+
+## Cycle 149 (v149 → v150), lens 9 holistic (Schumann 2/iii), Rimsky examples 275–312 (second pass)
+- Accepted: written-out run at 78 in Fl 1/Vln I/Vln II; Bsn 2 off the bass clarinet's A♭2 at 33–36, Cbn holds the pedal.
+- Open: none.
+- Do-not-touch: standing list; solo violin 15–22; builds 53–60, 71–82; brass entries 60–63; 8-page layout.

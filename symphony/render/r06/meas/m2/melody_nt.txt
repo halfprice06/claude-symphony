@@ -1,0 +1,16 @@
+r06-m2: melody | marked bars | whole phrase: vs loudest / vs sum | balanced bars | balanced: vs loudest / vs sum
+Horns 12 (solo, dolce espr.) | 6-13 | +7.8 / +6.6 | 6-13 | +7.8 / +6.6
+Violins I (espr., sul D) | 22-29 | +1.4 / -2.4 | 22-29 | +1.4 / -2.4
+Violoncellos (cantabile) | 23-30 | -1.4 / -4.9 | 23-30 | -1.4 / -4.9
+Bass clarinet (solo, espr.) | 31-37 | +1.5 / -1.4 | 31-37 | +1.5 / -1.4
+Cor anglais (dolce) | 32-34 | -0.1 / -1.5 | 32-34 | -0.1 / -1.5
+Flutes 12 (dolce cantabile) | 37-44 | +0.5 / -1.5 | 37-44 | +0.5 / -1.5
+Cor anglais (solo, dolce cantabile) | 41-44 | -0.0 / -1.5 | 41-44 | -0.0 / -1.5
+Oboes 12 (espr.) | 47-53 | +1.6 / -3.4 | 47-53 | +1.6 / -3.4
+Horns 12 (espr.) | 53-60 | -2.1 / -7.9 | 53-58 | -2.1 / -6.6
+Violoncellos (espr.) | 57-64 | -4.3 / -12.1 | 57-58 | -2.1 / -9.0
+Horns 12 (solo) | 67-69 | +3.4 / +3.4 | 67-69 | +3.4 / +3.4
+Violins I (espr.) | 70-77 | +2.6 / -2.9 | 70-77 | +2.6 / -2.9
+Violas (unis., ord., espr.) | 71-78 | -4.5 / -9.1 | 71-77 | -5.0 / -9.1
+Violoncellos (cantabile) | 71-78 | -3.2 / -7.6 | 71-77 | -2.9 / -7.5
+r06-m2: whole phrase: >= 0 dB vs loudest 7/14, >= -6 vs sum 10; balanced bars only (14 phrases): 7/14, 10/14

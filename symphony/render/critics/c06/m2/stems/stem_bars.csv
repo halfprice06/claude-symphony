@@ -1,0 +1,581 @@
+bar,stem,dyn,loud_LUFS,vel_med
+3,Bass clarinet,pp,-51.91,29.0
+4,Bass clarinet,pp,-51.98,29.0
+5,Bass clarinet,pp,-51.98,29.0
+6,Bass clarinet,pp,-52.22,29.0
+7,Bass clarinet,pp,-52.01,29.0
+8,Bass clarinet,pp,-52.31,29.0
+9,Bass clarinet,pp,-52.6,29.0
+10,Bass clarinet,pp,-54.51,29.0
+11,Bass clarinet,pp,-52.69,29.0
+12,Bass clarinet,pp,-50.38,29.0
+13,Bass clarinet,pp,-54.39,29.0
+14,Bass clarinet,pp,-52.11,29.0
+31,Bass clarinet,mp,-40.17,44.0
+32,Bass clarinet,mp,-42.28,44.0
+33,Bass clarinet,mp,-40.3,44.0
+34,Bass clarinet,mp,-42.97,44.0
+35,Bass clarinet,mp,-42.7,44.0
+36,Bass clarinet,p,-43.31,40.5
+37,Bass clarinet,p,-38.52,44.0
+57,Bass clarinet,mp,-42.36,46.0
+58,Bass clarinet,mp,-40.35,54.0
+59,Bass clarinet,f,-32.99,58.0
+60,Bass clarinet,f,-32.04,58.0
+61,Bass clarinet,ff,-32.25,64.0
+62,Bass clarinet,ff,-32.62,64.0
+79,Bass clarinet,ff,-32.36,64.0
+80,Bass clarinet,ff,-32.67,64.0
+81,Bass clarinet,ff,-39.07,64.0
+82,Bass clarinet,p,-47.62,37.0
+61,Bass trombone,ff,-29.2,91.0
+62,Bass trombone,ff,-39.42,91.0
+63,Bass trombone,f,-33.92,83.0
+64,Bass trombone,f,-39.61,63.0
+7,Bassoons 12,pp,-47.34,25.0
+8,Bassoons 12,pp,-47.44,25.0
+9,Bassoons 12,pp,-46.64,53.0
+10,Bassoons 12,pp,-48.15,25.0
+11,Bassoons 12,pp,-47.29,25.0
+12,Bassoons 12,pp,-46.24,25.0
+13,Bassoons 12,pp,-49.21,53.0
+14,Bassoons 12,pp,-47.06,25.0
+31,Bassoons 12,pp,-48.54,25.0
+32,Bassoons 12,pp,-46.67,25.0
+33,Bassoons 12,pp,-45.71,25.0
+34,Bassoons 12,pp,-46.87,25.0
+37,Bassoons 12,pp,-46.63,25.0
+45,Bassoons 12,pp,-49.82,25.0
+46,Bassoons 12,pp,-50.09,25.0
+47,Bassoons 12,pp,-48.86,25.0
+53,Bassoons 12,p,-44.16,32.0
+54,Bassoons 12,p,-49.26,32.0
+55,Bassoons 12,p,-51.4,32.0
+56,Bassoons 12,p,-53.35,32.0
+57,Bassoons 12,mp,-42.43,41.0
+58,Bassoons 12,mp,-39.61,47.0
+59,Bassoons 12,f,-36.62,25.0
+60,Bassoons 12,f,-31.04,50.0
+61,Bassoons 12,ff,-30.3,54.0
+62,Bassoons 12,ff,-33.17,39.5
+69,Bassoons 12,pp,-46.58,25.0
+70,Bassoons 12,pp,-46.48,25.0
+71,Bassoons 12,pp,-52.26,25.0
+72,Bassoons 12,pp,-53.88,25.0
+73,Bassoons 12,pp,-52.57,25.0
+74,Bassoons 12,pp,-56.96,25.0
+75,Bassoons 12,p,-44.55,34.0
+76,Bassoons 12,p,-40.71,40.0
+77,Bassoons 12,p,-41.31,44.0
+78,Bassoons 12,f,-35.31,25.0
+79,Bassoons 12,ff,-31.56,54.0
+80,Bassoons 12,ff,-31.07,54.0
+81,Bassoons 12,ff,-38.07,54.0
+82,Bassoons 12,p,-41.26,32.0
+3,Clarinets 12,pp,-45.19,29.0
+4,Clarinets 12,pp,-45.29,29.0
+5,Clarinets 12,pp,-47.66,29.0
+6,Clarinets 12,pp,-45.44,29.0
+53,Clarinets 12,p,-44.49,37.0
+54,Clarinets 12,p,-43.86,40.0
+55,Clarinets 12,mp,-38.97,44.0
+56,Clarinets 12,mp,-43.05,44.0
+57,Clarinets 12,mp,-41.09,44.0
+58,Clarinets 12,mp,-36.13,54.0
+59,Clarinets 12,f,-32.12,58.0
+60,Clarinets 12,f,-25.28,62.0
+61,Clarinets 12,ff,-30.33,64.0
+62,Clarinets 12,ff,-35.78,58.0
+71,Clarinets 12,pp,-48.57,29.0
+72,Clarinets 12,pp,-49.53,29.0
+73,Clarinets 12,pp,-48.77,29.0
+74,Clarinets 12,pp,-49.95,29.0
+75,Clarinets 12,p,-41.96,37.0
+76,Clarinets 12,p,-35.72,46.0
+77,Clarinets 12,p,-34.01,51.0
+78,Clarinets 12,f,-33.23,58.0
+79,Clarinets 12,ff,-29.83,64.0
+80,Clarinets 12,ff,-30.14,64.0
+81,Clarinets 12,ff,-40.5,58.0
+82,Clarinets 12,p,-38.81,37.0
+87,Clarinets 12,pp,-47.06,29.0
+88,Clarinets 12,pp,-44.55,29.0
+89,Clarinets 12,pp,-45.49,29.0
+31,Contrabassoon,pp,-51.64,25.0
+61,Contrabassoon,ff,-32.09,54.0
+62,Contrabassoon,ff,-31.8,54.0
+79,Contrabassoon,ff,-32.07,54.0
+80,Contrabassoon,ff,-31.88,54.0
+81,Contrabassoon,ff,-35.56,54.0
+82,Contrabassoon,p,-46.8,32.0
+32,Cor anglais,pp,-41.92,41.0
+33,Cor anglais,pp,-41.85,41.0
+34,Cor anglais,pp,-43.02,41.0
+41,Cor anglais,p,-37.91,56.5
+42,Cor anglais,mp,-38.88,61.0
+43,Cor anglais,mp,-38.36,55.5
+44,Cor anglais,p,-39.07,53.0
+2,Double basses,pp,-44.44,50.0
+15,Double basses,pp,-41.57,50.0
+16,Double basses,pp,-42.04,50.0
+17,Double basses,pp,-45.61,50.0
+18,Double basses,pp,-41.59,50.0
+19,Double basses,pp,-45.09,50.0
+20,Double basses,pp,-46.61,50.0
+21,Double basses,pp,-41.73,50.0
+22,Double basses,pp,-40.82,50.0
+23,Double basses,p,-42.81,57.0
+24,Double basses,p,-43.78,57.0
+25,Double basses,p,-42.49,57.0
+26,Double basses,p,-43.05,57.0
+27,Double basses,p,-40.53,61.0
+28,Double basses,mf,-37.87,67.0
+29,Double basses,mf,-40.37,63.0
+30,Double basses,p,-42.56,57.0
+37,Double basses,p,-48.14,57.0
+38,Double basses,p,-50.22,57.0
+39,Double basses,p,-47.88,57.0
+40,Double basses,p,-52.44,57.0
+41,Double basses,p,-47.3,57.0
+42,Double basses,p,-48.38,57.0
+43,Double basses,p,-48.01,57.0
+44,Double basses,p,-50.27,57.0
+45,Double basses,pp,-42.1,50.0
+46,Double basses,pp,-40.48,50.0
+47,Double basses,pp,-42.7,50.0
+48,Double basses,pp,-45.15,50.0
+49,Double basses,pp,-43.83,50.0
+50,Double basses,pp,-42.68,50.0
+51,Double basses,pp,-44.19,50.0
+52,Double basses,pp,-41.49,50.0
+53,Double basses,p,-38.6,58.0
+54,Double basses,p,-36.02,62.0
+55,Double basses,mp,-37.58,64.0
+56,Double basses,mp,-32.98,68.0
+57,Double basses,mf,-33.45,70.0
+58,Double basses,mf,-29.89,73.5
+59,Double basses,f,-30.81,75.0
+60,Double basses,f,-31.64,75.0
+61,Double basses,ff,-29.83,80.0
+62,Double basses,ff,-28.87,80.0
+63,Double basses,,-30.0,75.0
+64,Double basses,p,-38.63,57.0
+65,Double basses,pp,-41.09,50.0
+71,Double basses,pp,-48.19,50.0
+72,Double basses,pp,-47.65,50.0
+73,Double basses,pp,-49.48,50.0
+74,Double basses,pp,-46.4,50.0
+75,Double basses,p,-44.19,59.0
+76,Double basses,p,-38.26,65.0
+77,Double basses,p,-34.74,69.0
+78,Double basses,f,-29.46,75.0
+79,Double basses,ff,-30.63,80.0
+80,Double basses,ff,-29.17,80.0
+81,Double basses,ff,-35.14,80.0
+82,Double basses,p,-43.2,57.0
+83,Double basses,ppp,-48.14,44.0
+87,Double basses,pp,-42.36,50.0
+88,Double basses,pp,-42.81,50.0
+89,Double basses,pp,-44.73,50.0
+37,Flutes 12,p,-40.0,37.0
+38,Flutes 12,p,-40.2,37.0
+39,Flutes 12,p,-40.7,37.0
+40,Flutes 12,p,-39.63,37.0
+41,Flutes 12,p,-37.61,39.5
+42,Flutes 12,mp,-38.16,43.0
+43,Flutes 12,mp,-41.76,39.0
+44,Flutes 12,p,-39.36,37.0
+57,Flutes 12,mf,-33.82,52.5
+58,Flutes 12,mf,-32.38,56.0
+59,Flutes 12,f,-33.27,58.0
+60,Flutes 12,f,-34.85,58.0
+61,Flutes 12,ff,-33.82,64.0
+62,Flutes 12,ff,-32.77,64.0
+75,Flutes 12,mp,-37.84,46.0
+76,Flutes 12,mp,-35.56,51.0
+77,Flutes 12,mp,-34.87,56.0
+78,Flutes 12,f,-32.28,60.5
+79,Flutes 12,ff,-31.5,64.0
+80,Flutes 12,ff,-31.56,64.0
+81,Flutes 12,ff,-39.63,48.0
+82,Flutes 12,p,-44.53,37.0
+7,Harp LH,pp,-52.81,41.0
+8,Harp LH,pp,-47.47,41.0
+9,Harp LH,pp,-50.8,41.0
+10,Harp LH,pp,-51.42,41.0
+11,Harp LH,pp,-50.54,41.0
+12,Harp LH,pp,-50.8,41.0
+13,Harp LH,pp,-50.98,41.0
+14,Harp LH,pp,-52.49,41.0
+37,Harp LH,p,-43.34,53.0
+38,Harp LH,p,-43.07,53.0
+39,Harp LH,p,-44.11,53.0
+40,Harp LH,p,-42.89,53.0
+41,Harp LH,p,-42.81,53.0
+42,Harp LH,p,-42.95,53.0
+43,Harp LH,p,-42.48,53.0
+44,Harp LH,p,-43.97,53.0
+71,Harp LH,pp,-52.69,41.0
+72,Harp LH,pp,-47.4,41.0
+73,Harp LH,pp,-51.15,41.0
+74,Harp LH,pp,-50.84,41.0
+75,Harp LH,p,-45.64,53.0
+76,Harp LH,p,-46.36,53.0
+77,Harp LH,p,-46.32,53.0
+78,Harp LH,p,-42.22,53.0
+79,Harp LH,f,-39.17,83.0
+80,Harp LH,f,-37.81,83.0
+81,Harp LH,f,-38.37,83.0
+82,Harp LH,p,-49.26,53.0
+83,Harp LH,p,-50.81,53.0
+91,Harp LH,ppp,-57.16,31.0
+7,Harp RH,,-51.77,41.0
+9,Harp RH,,-49.26,41.0
+10,Harp RH,,-50.49,41.0
+11,Harp RH,,-51.34,41.0
+12,Harp RH,,-49.57,41.0
+13,Harp RH,,-50.39,41.0
+14,Harp RH,,-51.21,41.0
+71,Harp RH,,-51.03,41.0
+73,Harp RH,,-50.94,41.0
+74,Harp RH,,-50.95,41.0
+75,Harp RH,,-45.95,53.0
+76,Harp RH,,-45.02,53.0
+77,Harp RH,,-46.06,53.0
+78,Harp RH,,-43.24,53.0
+79,Harp RH,,-38.71,83.0
+80,Harp RH,,-36.43,83.0
+81,Harp RH,,-39.82,73.0
+82,Harp RH,,-45.85,53.0
+83,Harp RH,,-51.75,53.0
+91,Harp RH,,-60.38,31.0
+6,Horns 12,p,-42.59,44.0
+7,Horns 12,p,-38.73,44.0
+8,Horns 12,p,-35.5,57.0
+9,Horns 12,p,-40.27,44.0
+10,Horns 12,p,-43.07,44.0
+11,Horns 12,p,-40.3,44.0
+12,Horns 12,p,-35.31,59.5
+13,Horns 12,p,-38.05,49.0
+14,Horns 12,p,-40.56,44.0
+53,Horns 12,p,-38.48,44.0
+54,Horns 12,p,-38.0,46.0
+55,Horns 12,mp,-34.62,50.0
+56,Horns 12,mp,-35.35,50.0
+57,Horns 12,mp,-35.36,51.5
+58,Horns 12,mp,-32.08,58.0
+59,Horns 12,f,-31.84,62.0
+60,Horns 12,f,-31.89,63.5
+61,Horns 12,ff,-29.56,67.0
+62,Horns 12,ff,-30.44,66.0
+67,Horns 12,p,-40.1,44.0
+68,Horns 12,p,-40.84,44.0
+69,Horns 12,p,-43.8,44.0
+71,Horns 12,p,-40.85,44.0
+72,Horns 12,p,-43.17,44.0
+73,Horns 12,p,-40.2,44.0
+74,Horns 12,p,-43.81,44.0
+75,Horns 12,mp,-37.72,50.5
+76,Horns 12,mp,-36.65,51.5
+77,Horns 12,mp,-38.86,52.5
+78,Horns 12,f,-32.0,62.0
+79,Horns 12,ff,-32.63,67.0
+80,Horns 12,ff,-32.87,67.0
+81,Horns 12,ff,-39.34,59.5
+82,Horns 12,p,-41.24,44.0
+1,Horns 34,ppp,-48.08,31.0
+3,Horns 34,pp,-43.92,37.0
+4,Horns 34,pp,-43.86,37.0
+5,Horns 34,pp,-42.81,66.0
+6,Horns 34,pp,-41.42,66.0
+29,Horns 34,pp,-44.83,37.0
+30,Horns 34,pp,-43.25,37.0
+60,Horns 34,p,-32.58,44.0
+61,Horns 34,ff,-28.6,67.0
+62,Horns 34,ff,-29.62,67.0
+79,Horns 34,ff,-28.98,67.0
+80,Horns 34,ff,-28.94,67.0
+81,Horns 34,ff,-29.93,67.0
+87,Horns 34,pp,-43.18,37.0
+88,Horns 34,pp,-42.41,37.0
+89,Horns 34,pp,-41.35,37.0
+15,Oboes 12,p,-35.62,47.0
+16,Oboes 12,p,-34.76,47.0
+19,Oboes 12,p,-33.93,45.5
+20,Oboes 12,p,-36.27,47.0
+47,Oboes 12,p,-38.71,37.0
+48,Oboes 12,p,-44.33,37.0
+49,Oboes 12,p,-41.63,37.0
+50,Oboes 12,p,-41.06,37.0
+51,Oboes 12,p,-41.46,36.0
+52,Oboes 12,p,-40.84,30.5
+53,Oboes 12,pp,-46.12,29.0
+57,Oboes 12,mf,-33.9,52.5
+58,Oboes 12,mf,-33.31,56.0
+59,Oboes 12,f,-33.13,58.0
+60,Oboes 12,f,-33.57,58.0
+61,Oboes 12,ff,-30.01,64.0
+62,Oboes 12,ff,-31.49,64.0
+79,Oboes 12,ff,-30.72,64.0
+80,Oboes 12,ff,-31.01,64.0
+81,Oboes 12,ff,-37.33,52.5
+82,Oboes 12,p,-41.92,37.0
+2,Timpani,ppp,-46.86,47.0
+52,Timpani,pp,-40.98,54.0
+53,Timpani,p,-41.1,62.0
+60,Timpani,p,-28.37,62.0
+61,Timpani,ff,-28.01,89.0
+62,Timpani,ff,-26.01,89.0
+67,Timpani,ppp,-44.12,47.0
+79,Timpani,f,-30.49,84.0
+80,Timpani,f,-29.38,84.0
+81,Timpani,f,-31.57,84.0
+82,Timpani,p,-46.85,62.0
+84,Timpani,pp,-52.26,54.0
+85,Timpani,pp,-54.75,54.0
+89,Timpani,ppp,-45.9,47.0
+61,Trombones 12,ff,-31.09,91.0
+62,Trombones 12,ff,-31.56,91.0
+63,Trombones 12,ff,-32.34,91.0
+64,Trombones 12,ff,-34.78,91.0
+61,Trumpet 3,ff,-28.78,76.0
+62,Trumpet 3,ff,-28.61,76.0
+61,Trumpets 12,ff,-30.5,76.0
+62,Trumpets 12,ff,-28.42,75.0
+61,Tuba,ff,-35.77,91.0
+62,Tuba,ff,-35.55,91.0
+1,Violas,ppp,-48.88,31.0
+2,Violas,pp,-44.17,37.0
+15,Violas,pp,-44.63,37.0
+16,Violas,pp,-45.71,37.0
+17,Violas,pp,-47.34,37.0
+18,Violas,pp,-45.15,37.0
+19,Violas,pp,-47.31,37.0
+20,Violas,pp,-46.07,37.0
+21,Violas,pp,-47.77,37.0
+22,Violas,pp,-46.96,37.0
+23,Violas,p,-42.7,44.0
+24,Violas,p,-43.79,44.0
+25,Violas,p,-42.37,44.0
+26,Violas,p,-43.33,44.0
+27,Violas,p,-40.22,48.0
+28,Violas,mf,-38.12,54.0
+29,Violas,mf,-40.38,50.0
+30,Violas,p,-39.95,44.0
+37,Violas,pp,-45.24,37.0
+38,Violas,pp,-45.55,37.0
+39,Violas,pp,-46.02,37.0
+40,Violas,pp,-46.32,37.0
+41,Violas,pp,-45.68,37.0
+42,Violas,pp,-45.27,37.0
+43,Violas,pp,-45.46,37.0
+44,Violas,pp,-45.03,37.0
+45,Violas,pp,-45.54,37.0
+46,Violas,pp,-46.38,37.0
+47,Violas,pp,-47.29,37.0
+48,Violas,pp,-46.99,37.0
+49,Violas,pp,-48.07,37.0
+50,Violas,pp,-47.32,37.0
+51,Violas,pp,-47.38,37.0
+52,Violas,pp,-43.24,37.0
+53,Violas,p,-41.01,45.5
+54,Violas,p,-43.93,49.0
+55,Violas,mp,-40.61,52.0
+56,Violas,mp,-40.87,55.0
+57,Violas,mf,-34.78,58.0
+58,Violas,mf,-32.73,61.0
+59,Violas,f,-32.64,62.0
+60,Violas,f,-30.65,65.0
+61,Violas,ff,-28.3,67.0
+62,Violas,ff,-28.92,67.0
+63,Violas,,-26.53,62.0
+64,Violas,p,-38.34,44.0
+65,Violas,pp,-48.22,37.0
+66,Violas,pp,-48.91,37.0
+71,Violas,pp,-42.9,37.0
+72,Violas,pp,-42.14,37.0
+73,Violas,pp,-41.59,37.0
+74,Violas,pp,-42.75,37.0
+75,Violas,p,-37.8,46.5
+76,Violas,p,-35.73,52.5
+77,Violas,p,-32.98,58.5
+78,Violas,f,-32.0,62.0
+79,Violas,ff,-28.55,67.0
+80,Violas,ff,-28.93,67.0
+81,Violas,ff,-33.79,67.0
+82,Violas,p,-40.69,44.0
+83,Violas,ppp,-46.12,31.0
+86,Violas,ppp,-46.71,31.0
+87,Violas,pp,-45.58,37.0
+88,Violas,pp,-45.2,37.0
+89,Violas,pp,-44.91,37.0
+1,Violins I,ppp,-50.33,31.0
+17,Violins I,p,-35.89,60.0
+18,Violins I,p,-40.16,67.0
+21,Violins I,p,-40.22,56.5
+22,Violins I,mp,-37.61,63.0
+23,Violins I,mp,-37.25,63.0
+24,Violins I,mp,-35.07,84.5
+25,Violins I,mp,-39.28,63.0
+26,Violins I,mp,-36.91,63.0
+27,Violins I,mp,-36.19,68.0
+28,Violins I,mf,-34.09,68.0
+29,Violins I,mf,-38.52,58.0
+30,Violins I,p,-42.51,53.0
+45,Violins I,p,-43.53,53.0
+46,Violins I,p,-41.79,53.0
+47,Violins I,p,-40.3,53.0
+53,Violins I,p,-41.38,55.5
+54,Violins I,p,-39.99,61.5
+55,Violins I,mp,-40.0,66.5
+56,Violins I,mf,-35.06,73.0
+57,Violins I,mf,-32.37,75.0
+58,Violins I,mf,-31.06,80.0
+59,Violins I,f,-31.99,83.0
+60,Violins I,f,-30.95,83.0
+61,Violins I,ff,-29.56,91.0
+62,Violins I,ff,-32.88,91.0
+63,Violins I,,-31.92,83.0
+64,Violins I,p,-39.65,53.0
+70,Violins I,p,-42.52,53.0
+71,Violins I,p,-39.07,53.0
+72,Violins I,p,-34.75,76.5
+73,Violins I,p,-36.56,63.0
+74,Violins I,p,-36.41,63.0
+75,Violins I,mp,-35.1,66.0
+76,Violins I,mp,-30.68,73.0
+77,Violins I,mp,-29.01,80.0
+78,Violins I,f,-29.39,83.0
+79,Violins I,ff,-33.05,91.0
+80,Violins I,ff,-32.8,91.0
+81,Violins I,ff,-34.07,72.0
+82,Violins I,p,-39.46,53.0
+85,Violins I,pp,-46.41,41.0
+86,Violins I,pp,-45.57,41.0
+87,Violins I,pp,-46.64,41.0
+88,Violins I,pp,-46.32,41.0
+89,Violins I,pp,-46.14,41.0
+1,Violins II,ppp,-52.46,31.0
+2,Violins II,pp,-46.72,41.0
+15,Violins II,pp,-45.68,41.0
+16,Violins II,pp,-45.95,41.0
+17,Violins II,pp,-46.29,41.0
+18,Violins II,pp,-44.53,41.0
+19,Violins II,pp,-46.89,41.0
+20,Violins II,pp,-43.08,41.0
+21,Violins II,pp,-41.36,41.0
+22,Violins II,mp,-41.71,63.0
+23,Violins II,mp,-39.73,63.0
+24,Violins II,mp,-35.36,84.5
+25,Violins II,mp,-40.74,63.0
+26,Violins II,mp,-39.5,63.0
+27,Violins II,mp,-38.88,68.0
+28,Violins II,mf,-38.57,68.0
+29,Violins II,mf,-43.75,58.0
+30,Violins II,p,-43.79,53.0
+37,Violins II,pp,-42.81,41.0
+38,Violins II,pp,-44.53,41.0
+39,Violins II,pp,-43.42,41.0
+40,Violins II,pp,-42.25,41.0
+45,Violins II,pp,-46.55,41.0
+46,Violins II,pp,-47.32,41.0
+47,Violins II,pp,-43.06,41.0
+48,Violins II,pp,-47.34,41.0
+49,Violins II,pp,-46.87,41.0
+50,Violins II,pp,-48.67,41.0
+51,Violins II,pp,-43.3,41.0
+52,Violins II,pp,-41.27,41.0
+53,Violins II,p,-44.3,55.5
+54,Violins II,p,-41.46,61.5
+55,Violins II,mp,-41.76,66.5
+56,Violins II,mf,-35.7,73.0
+57,Violins II,mf,-36.52,75.0
+58,Violins II,mf,-34.31,80.0
+59,Violins II,f,-34.94,83.0
+60,Violins II,f,-31.25,83.0
+61,Violins II,ff,-33.34,91.0
+62,Violins II,ff,-33.96,91.0
+63,Violins II,,-26.89,83.0
+64,Violins II,p,-37.44,53.0
+65,Violins II,pp,-47.28,41.0
+66,Violins II,pp,-45.72,41.0
+70,Violins II,p,-43.26,53.0
+71,Violins II,p,-43.93,53.0
+72,Violins II,p,-37.5,76.5
+73,Violins II,p,-40.33,63.0
+74,Violins II,p,-39.79,63.0
+75,Violins II,mp,-38.76,66.0
+76,Violins II,mp,-34.59,73.0
+77,Violins II,mp,-35.77,80.0
+78,Violins II,f,-33.54,83.0
+79,Violins II,ff,-31.97,91.0
+80,Violins II,ff,-31.67,91.0
+81,Violins II,ff,-36.53,72.0
+82,Violins II,p,-42.81,53.0
+87,Violins II,pp,-47.24,41.0
+88,Violins II,pp,-48.01,41.0
+89,Violins II,pp,-46.83,41.0
+1,Violoncellos,ppp,-48.44,44.0
+2,Violoncellos,pp,-45.4,50.0
+15,Violoncellos,pp,-44.44,50.0
+16,Violoncellos,pp,-45.05,50.0
+17,Violoncellos,pp,-47.0,50.0
+18,Violoncellos,pp,-45.7,50.0
+19,Violoncellos,pp,-48.85,50.0
+20,Violoncellos,pp,-48.0,50.0
+21,Violoncellos,pp,-44.65,50.0
+22,Violoncellos,pp,-45.98,50.0
+23,Violoncellos,p,-40.39,57.0
+24,Violoncellos,p,-41.54,57.0
+25,Violoncellos,p,-39.67,57.0
+26,Violoncellos,p,-40.74,57.0
+27,Violoncellos,p,-37.69,61.0
+28,Violoncellos,mf,-35.49,67.0
+29,Violoncellos,mf,-37.9,61.0
+30,Violoncellos,p,-36.99,57.0
+37,Violoncellos,p,-44.21,57.0
+38,Violoncellos,p,-46.51,57.0
+39,Violoncellos,p,-44.31,57.0
+40,Violoncellos,p,-49.19,57.0
+41,Violoncellos,p,-50.48,57.0
+42,Violoncellos,p,-44.31,57.0
+43,Violoncellos,p,-46.89,57.0
+44,Violoncellos,p,-46.9,57.0
+45,Violoncellos,p,-40.35,57.0
+46,Violoncellos,p,-41.99,57.0
+47,Violoncellos,p,-41.71,57.0
+48,Violoncellos,pp,-45.56,50.0
+49,Violoncellos,pp,-47.06,50.0
+50,Violoncellos,pp,-47.26,50.0
+51,Violoncellos,pp,-47.35,50.0
+52,Violoncellos,pp,-44.52,50.0
+53,Violoncellos,p,-39.85,58.0
+54,Violoncellos,p,-39.68,62.0
+55,Violoncellos,mp,-39.99,64.0
+56,Violoncellos,mp,-36.53,68.0
+57,Violoncellos,mf,-34.71,70.0
+58,Violoncellos,mf,-31.79,73.0
+59,Violoncellos,f,-34.27,75.0
+60,Violoncellos,f,-34.65,76.5
+61,Violoncellos,ff,-31.49,80.0
+62,Violoncellos,ff,-31.31,80.0
+63,Violoncellos,,-31.75,75.0
+64,Violoncellos,p,-42.57,57.0
+65,Violoncellos,pp,-46.46,50.0
+66,Violoncellos,pp,-46.24,50.0
+71,Violoncellos,p,-39.51,57.0
+72,Violoncellos,p,-42.19,57.0
+73,Violoncellos,p,-39.06,57.0
+74,Violoncellos,p,-41.22,57.0
+75,Violoncellos,mp,-36.71,64.5
+76,Violoncellos,mp,-33.61,68.5
+77,Violoncellos,mp,-32.57,72.5
+78,Violoncellos,f,-35.02,75.0
+79,Violoncellos,ff,-31.48,80.0
+80,Violoncellos,ff,-32.2,80.0
+81,Violoncellos,ff,-37.78,72.5
+82,Violoncellos,p,-42.33,57.0
+83,Violoncellos,ppp,-48.73,44.0
+87,Violoncellos,pp,-44.18,50.0
+88,Violoncellos,pp,-44.15,50.0
+89,Violoncellos,pp,-45.85,50.0

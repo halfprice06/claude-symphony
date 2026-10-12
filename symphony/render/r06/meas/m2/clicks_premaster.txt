@@ -1,0 +1,1 @@
+mix_prem.wav isolated HF spikes (>15 dB over 41 ms median, back within 4 ms): 7 [np.float64(104.421), np.float64(104.459), np.float64(104.498), np.float64(104.575), np.float64(104.652), np.float64(104.845), np.float64(104.98)] max jump 16 dB

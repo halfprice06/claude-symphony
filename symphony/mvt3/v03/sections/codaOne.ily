@@ -1,0 +1,33 @@
+\version "2.24.0"
+% CODA, bars 199-210. 199-204: the last C-minor tutti, in movement I's hammered layout exactly as at its bars 27-32 (movement I's first-theme
+% head in four octaves, double basses in repeated eighths on the chromatic bass C-D-E flat-E-F, bassoon 1 and cellos on the tenor line,
+% horns and trombones held, trumpets and timpani in the c4 r8 c8 rhythm; cyclic-notes 'Owed' item 7). Movement I's head is used only as a link.
+% 205-210: over the A flat pedal (V of D flat) theme F1's head in the horns, then in the high winds and violins; A flat 7 crescendo into D flat.
+
+codaOneFluteOne = { r8 g''8(\ff es'''4.->) d'''8( des'''8 c'''8 | c'''4) b''8( c'''8) aes''4.-> g''8 | r8 g''8( f'''4.->) es'''8( d'''8 c'''8) | bes''8-. c'''-. des'''-. bes''-. g'''4.-> f'''8 | aes'''4.-> g'''8 f'''4 d'''4 | c'''4-> b''4-> r2 | R1*2 | aes''2->(\ff es''4. f''8 | ges''4-.) f''8( es''8 des''4-.) c''4-. | ges'''1\< | ges'''2. r4\! | }
+codaOneFluteTwo = { g''1\ff | aes''1 | aes''1 | bes''1 | c'''2 f''2 | g''4-> g''4-> r2 | R1*2 | es''1\ff | es''1 | es'''1\< | es'''2. r4\! | }
+codaOneOboeOne = { r8 g'8(\ff es''4.->) d''8( des''8 c''8 | c''4) b'8( c''8) aes'4.-> g'8 | r8 g'8( f''4.->) es''8( d''8 c''8) | bes'8-. c''-. des''-. bes'-. g''4.-> f''8 | aes''4.-> g''8 f''4 d''4 | c''4-> b'4-> r2 | R1*2 | aes'2->(\ff es'4. f'8 | ges'4-.) f'8( es'8 des'4-.) c'4-. | c'''1\< | c'''2. r4\! | }
+codaOneOboeTwo = { g'1\ff | f'1 | aes'1 | g'1 | aes'2 f'2 | f'4-> f'4-> r2 | R1*2 | c''1\ff | c''1 | aes''1\< | aes''2. r4\! | }
+codaOneClOne = { r8 g'8(\ff es''4.->) d''8( des''8 c''8 | c''4) b'8( c''8) aes'4.-> g'8 | r8 g'8( f''4.->) es''8( d''8 c''8) | bes'8-. c''-. des''-. bes'-. g''4.-> f''8 | aes''4.-> g''8 f''4 d''4 | c''4-> b'4-> r2 | R1*2 | aes'2->(\ff es'4. f'8 | ges'4-.) f'8( es'8 des'4-.) c'4-. | ges''1\< | ges''2. r4\! | }
+codaOneClTwo = { es'1\ff | d'1 | c'1 | des'1 | c'2 d'2 | d'4-> d'4-> r2 | R1*2 | aes'1\ff | aes'1 | es''1\< | es''2. r4\! | }
+codaOneBsnOne = { c'2\ff es'2 | d'2 f'2 | es'2 c'2 | e'2 bes2 | aes2 f2 | g4-> g,4-> r2 | c'1\ff | c'1 | es'1 | es'1 | ges1\< | ges2. r4\! | }
+codaOneBsnTwo = { c1\ff | d1 | es1 | e1 | f2 d2 | g,4-> g,4-> r2 | aes,1\ff | aes,1 | aes,1 | aes,1 | aes,1\< | aes,2. r4\! | }
+codaOneCbsn = { c,4\ff c,4 c,4 c,4 | d,4 d,4 d,4 d,4 | es,4 es,4 es,4 es,4 | e,4 e,4 e,4 e,4 | f,4 f,4 d,4 d,4 | g,,4-> g,,4-> r2 | aes,,1\ff | aes,,1 | aes,,1 | aes,,1 | aes,,1\< | aes,,2. r4\! | }
+codaOneHnOne = { g'1\ff | f'1 | aes'1 | g'1 | aes'2 aes'2 | g'4-> g'4-> r2 | aes'2->(\ff es'4. f'8 | ges'4-.) f'8( es'8 des'4-.) c'4-. | es''1 | es''1 | es''1\< | es''2. r4\! | }
+codaOneHnTwo = { es'1\ff | f'1 | f'1 | e'1 | f'2 f'2 | f'4-> f'4-> r2 | aes'2->(\ff es'4. f'8 | ges'4-.) f'8( es'8 des'4-.) c'4-. | c''1 | c''1 | c''1\< | c''2. r4\! | }
+codaOneHnThree = { c'1\f~ | c'4 b2. | c'1 | des'1 | c'2 c'2 | c'4-> b4-> r2 | aes'2->(\ff es'4. f'8 | ges'4-.) f'8( es'8 des'4-.) c'4-. | ges'1 | ges'1 | ges'1\< | ges'2. r4\! | }
+codaOneHnFour = { g1\f | g2 r2 | aes1 | bes1 | aes2 aes2 | g4-> g4-> r2 | aes'2->(\ff es'4. f'8 | ges'4-.) f'8( es'8 des'4-.) c'4-. | es'1 | es'1 | es'1\< | es'2. r4\! | }
+codaOneTptOne = { c''4\f r8 c''8 c''4 r8 c''8 | g'4 r4 b'4 r4 | c''1 | des''4 r8 des''8 des''4 r8 des''8 | c''2 aes'2 | g'4->\ff g'4-> r2 | R1*6 | }
+codaOneTptTwo = { g'4\f r8 g'8 g'4 r8 g'8 | f'4 r4 f'4 r4 | aes'1 | g'4 r8 g'8 g'4 r8 g'8 | aes'2 f'2 | f'4->\ff f'4-> r2 | R1*6 | }
+codaOneTptThree = { es'4\f r8 es'8 es'4 r8 es'8 | d'4 r4 d'4 r4 | es'1 | e'4 r8 e'8 e'4 r8 e'8 | f'2 d'2 | d'4-> d'4-> r2 | R1*6 | }
+codaOneTbnOne = { c'1\f~ | c'4 b2. | c'1 | des'1 | c'2 c'2 | c'4-> b4-> r2 | aes2->(\ff es4. f8 | ges4-.) f8( es8 des4-.) c4-. | c'1 | c'1 | c'1\< | c'2. r4\! | }
+codaOneTbnTwo = { g1\f | f1 | aes1 | g1 | aes2 aes2 | g4-> g4-> r2 | es1\ff | es1 | ges1 | ges1 | ges1\< | ges2. r4\! | }
+codaOneBassTbn = { c1\f | d1 | es1 | e1 | f2 d2 | g,4-> g,4-> r2 | aes,1\ff | aes,1 | aes,1 | aes,1 | aes,1\< | aes,2. r4\! | }
+codaOneTuba = { c,1\f | d,1 | es,1 | e,1 | f,2 d,2 | g,,4-> g,,4-> r2 | aes,,1\ff | aes,,1 | aes,,1 | aes,,1 | aes,,1\< | aes,,2. r4\! | }
+codaOneTimp = { c4\ff r8 c8 c4 r8 c8 | g,4 r4 g,4 r4 | R1 | c4 r8 c8 c4 r8 c8 | R1 | g,4-> g,4-> r2 | aes,4->\ff r4 r2 | R1 | aes,4-> r4 r2 | R1 | aes,1:32\f\< | aes,2.:32 r4\ff | }
+codaOnePerc = \drummode { R1*11 | r2 r4 cymc4->\ff | }
+codaOneVlnOne = { r8 g''8(\ff es'''4.->) d'''8( des'''8 c'''8 | c'''4) b''8( c'''8) aes''4.-> g''8 | r8 g''8( f'''4.->) es'''8( d'''8 c'''8) | bes''8-. c'''-. des'''-. bes''-. g'''4.-> f'''8 | aes'''4.-> g'''8 f'''4 d'''4 | c'''4-> b''4-> r2 | aes'8(\ff bes' c'' des'' es'' f'' ges'' aes'' | bes''8 c''' des''' es''' f'''4->) r4 | aes''2->( es''4. f''8 | ges''4-.) f''8( es''8 des''4-.) c''4-. | aes'8( bes' c'' des'' es'' f'' ges'' aes'' | bes''8 c''' des''' es''' f'''4->) r4 | }
+codaOneVlnTwo = { r8 g'8(\ff es''4.->) d''8( des''8 c''8 | c''4) b'8( c''8) aes'4.-> g'8 | r8 g'8( f''4.->) es''8( d''8 c''8) | bes'8-. c''-. des''-. bes'-. g''4.-> f''8 | aes''4.-> g''8 f''4 d''4 | c''4-> b'4-> r2 | aes8(\ff bes c' des' es' f' ges' aes' | bes'8 c'' des'' es'' f''4->) r4 | aes'2->( es'4. f'8 | ges'4-.) f'8( es'8 des'4-.) c'4-. | aes8( bes c' des' es' f' ges' aes' | bes'8 c'' des'' es'' f''4->) r4 | }
+codaOneVla = { r8 g8(\ff es'4.->) d'8( des'8 c'8 | c'4) b8( c'8) aes4.-> g8 | r8 g8( f'4.->) es'8( d'8 c'8) | bes8-. c'-. des'-. bes-. g'4.-> f'8 | aes'4.-> g'8 f'4 d'4 | <d' f'>4-> <d' f'>4-> r2 | <es' aes'>4 r8 <es' aes'>8 <es' aes'>4 r8 <es' aes'>8 | <es' aes'>4 r8 <es' aes'>8 <es' aes'>4 r8 <es' aes'>8 | <es' aes'>4 r8 <es' aes'>8 <es' aes'>4 r8 <es' aes'>8 | <es' aes'>4 r8 <es' aes'>8 <es' aes'>4 r8 <es' aes'>8 | <es' ges'>1\< | <es' ges'>2. r4\! | }
+codaOneVc = { c'2\ff es'2 | d'2 f'2 | es'2 c'2 | e'2 bes2 | aes2 f2 | g4-> g,4-> r2 | aes,1\ff | aes,1 | aes,1 | aes,1 | aes,1\< | aes,2. r4\! | }
+codaOneCb = { c,8\ff c,8 c,8 c,8 c,8 c,8 c,8 c,8 | d,8 d,8 d,8 d,8 d,8 d,8 d,8 d,8 | es,8 es,8 es,8 es,8 es,8 es,8 es,8 es,8 | e,8 e,8 e,8 e,8 e,8 e,8 e,8 e,8 | f,8 f,8 f,8 f,8 d,8 d,8 d,8 d,8 | g,,4-> g,,4-> r2 | aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 | aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 | aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 | aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 | aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 | aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 aes,,8 | }
