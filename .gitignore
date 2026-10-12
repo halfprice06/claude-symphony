@@ -11,3 +11,8 @@ symphony/render/assets/refs/*.flac
 symphony/render/assets/iowa/**/*.aif
 symphony/render/assets/iowa/**/*.aiff
 symphony/render/assets/iowa/**/*.wav
+
+# Score video build output (rebuild with symphony/video/mvt2/make-video.sh)
+symphony/video/*/tools/build/
+symphony/video/*/*.mp4
+symphony/video/*/still-*.png
