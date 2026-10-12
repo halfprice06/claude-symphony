@@ -1,5 +1,5 @@
 {
- "_doc": "c11 (critic C #3): per-onset legato lead offsets in seconds, {track: {score onset qn: s}}, matched within 0.02 qn, added to the family LEG_LEAD_S (plus LEG_EXTRA_S / LEG_PAIR_EXTRA_S); total clamped to 0.03-0.35 s. Largamente bars 61-62: Vln I crossed 0.07-0.14 s after the cellos at v108 and v124 alike; the cellos crossed inside the qn 204 caesura. c12 (A #6): Vln I 262 +0.05 (the ff arrival after the grace run reached its body at +0.105 s; Vln II +0.025). c15 (C #3): Horn 1 193/195/200/202 (the bars 58-60 line crossed 0.15-0.18 s behind the cellos), Vln II 164/60/245.5 (Slur; net of the c15 LEG_ART_EXTRA_S +0.04) and 252 (BC; net of its -0.03), Vln I 75, Flute 1 200, Cor anglais 131.5 (all repeatably 0.15-0.27 s late). c19 (C #1/#4): Horn 1 201, Bass clarinet 92.5/106, Vln II 68/80/254 (late) and 71/243 (early, D5 -> C#5), Vln I 192/196/200/247, Vc 54/180; each late or early on both the crossover and the rise metric, and the same on c16. c23 (C #4): Vln II 206, Vc 255, Bn1 100, Ob1 200 (late on both metrics on c21 and c22).",
+ "_doc": "c11 (critic C #3): per-onset legato lead offsets in seconds, {track: {score onset qn: s}}, matched within 0.02 qn, added to the family LEG_LEAD_S (plus LEG_EXTRA_S / LEG_PAIR_EXTRA_S); total clamped to 0.03-0.35 s. Largamente bars 61-62: Vln I crossed 0.07-0.14 s after the cellos at v108 and v124 alike; the cellos crossed inside the qn 204 caesura. c12 (A #6): Vln I 262 +0.05 (the ff arrival after the grace run reached its body at +0.105 s; Vln II +0.025). c15 (C #3): Horn 1 193/195/200/202 (the bars 58-60 line crossed 0.15-0.18 s behind the cellos), Vln II 164/60/245.5 (Slur; net of the c15 LEG_ART_EXTRA_S +0.04) and 252 (BC; net of its -0.03), Vln I 75, Flute 1 200, Cor anglais 131.5 (all repeatably 0.15-0.27 s late). c19 (C #1/#4): Horn 1 201, Bass clarinet 92.5/106, Vln II 68/80/254 (late) and 71/243 (early, D5 -> C#5), Vln I 192/196/200/247, Vc 54/180; each late or early on both the crossover and the rise metric, and the same on c16. c23 (C #4): Vln II 206, Vc 255, Bn1 100, Ob1 200 (late on both metrics on c21 and c22). c24 (A #2): opening horn solo, late on crossover and rise: Horn 1 18/26/27/30/39/199 (+0.14..+0.20 s on both metrics, bit-identical in c22 and c23).",
  "Violins I": {
   "204": 0.07,
   "208": 0.05,
@@ -22,7 +22,13 @@
   "195": 0.08,
   "200": 0.07,
   "202": 0.1,
-  "201": 0.1
+  "201": 0.1,
+  "18": 0.06,
+  "26": 0.08,
+  "27": 0.05,
+  "30": 0.06,
+  "39": 0.08,
+  "199": 0.08
  },
  "Violins II": {
   "164": 0.06,

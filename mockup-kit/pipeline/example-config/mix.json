@@ -1,5 +1,5 @@
 {
- "_doc": "Mix settings applied by tools/build_reaper.py. gain_db -> track volume; seat/width -> REAPER stereo pan mode (I_PANMODE 5, D_PAN, D_WIDTH); mics: Opus mic channels to load and their volumes (null = keep the patch's own); every other mic is unloaded; send: per-mic Reverb Send level; the Opus reverb on fx:0 of every patch is replaced by reverb.from_patch's at reverb.fx_volume. Opus sub-channel pans are set to 0. c02: dyn_trim_db {f, ff}: level trim in dB that is 0 at CC46 (p) and reaches f at CC88 and ff at CC114, read from the printed dynamic curve (dyn_curve), and soft_trim_db {ppp, pp} for every track except timpani; both go into the track volume envelope with parts.json vol_db, so CC11 keeps choosing the dynamic layer. c03: a track may carry its own soft_trim_db, which replaces the global one. c04: a track's eq is a ReaEQ after Opus (band lowshelf: ReaEQ band 1 low shelf; bell: band 2; unused bands at 0 dB and the high-pass band disabled), applied on rebuild and by --mix-only. c05: seat/width are written into Opus (every mic channel's panLeft = seat - width, panRight = seat + width; the reverb return fx:0 centred at full width) and the REAPER pan is centre/width 1 (C #3); the hall is EW's 'New Hollywood Hall 2.0' from 3BS Sus MAX (C #1); eq band 'highpass' enables ReaEQ band 4 as a high pass (C #2). c06: soft_trim_db has a p anchor (CC 46) as well as ppp/pp; global {ppp -2, pp 0, p +2} (B #3, LRA); per-track overrides for Cl1, Cl2, Bn1, Bn2, Cb, Vla (B #1, #2). c07 (B #2): ff trims moved from the reeds to the bass strings at the climaxes: Cb ff -1 -> +1, Cbn f/ff 2.5/1 -> 0.5/-2, Bn2 ff 3 -> 0, BCl ff -1 -> -3, Bn1 ff 1.5 -> -0.5. c08: Violoncellos dyn_trim_db f -3 -> -2, ff -4.5 -> -2.5 (C #6, tutti low-mid weight). c09: reverb.send_pre_fader (every mic channel's Reverb Send pre-fader, level = send x channel volume; C #2) and reverb.high_cut_hz 5500 (the hall's Bandpass high cut; C #4). Widths 0.3 for harp (seat -0.65), horns, BCl, CA, trombones, tuba; Vc/Cb 0.35 (C #3). eq: Vc bell 170 Hz +3 bw 1.5; Cb low shelf -7 -> -5, bell 150 +3 -> 160 +6; Vln I highshelf 5 kHz -4 (band 'highshelf' = ReaEQ band 3; C #1); highpass Harp 30, Tuba 25, BTbn 30 -> 40, Timp 45 (C #6). Harp harmonics gain -2 -> +3 (B #5; +6 measured -40..-42 at the qn 273 attacks, 10 dB over the ppp Vc/Cb). mute_eq {from_qn, bands} on Horns 3-4: a second ReaEQ whose Wet is automated 0 -> 1 at from_qn (con sord. emulation; A #4). c10: soft_trim_db global {ppp -2, pp 0, p +2} -> {ppp +1, pp +3, p +3.5} and the same +3/+3/+1.5 on every per-track override (B #1, C #1; the brief asks ppp/pp +2-4 and p +1-2 more in the mix). New track Violin I solo (A #1): 1st Violins KS Master DIV A (its patch has only the Close mic), seat -0.55, width 0.2, send 0.5 (no Main mic, so more hall), gain 6 -> -1 after the c10 render (the solo measured 12 dB over the Vln II accompaniment). c12 (C #4): Bass clarinet soft_trim_db {ppp 0, pp 1, p 3.5} (pp 2 dB under the global) and a high shelf 2.5 kHz -4 dB: its pp reed tone supplied 67% of the 2-6 kHz under the bar 7-14 horn solo. c13: main (Master) channel of every Opus state centred by apply_mix (the DIV A patches ship it panned: Vln I DIV A -0.74, Celli DIV A +0.33; C #1); Violin I solo seat -0.55 -> -0.4. Cb: low shelf 90 Hz -5 removed, bell 160 +6 -> +3, Close 0.4 -> 0.6, gain -7 -> -8 (C #3, fundamentals). BCl seat -0.25 -> -0.05 (C #4); Harp harmonics seat -0.35 -> -0.65 (C #5). New track Violoncellos div (A #1): Celli KS Master DIV A (Close only), seat 0.35, width 0.2, send 0.5, gain -2. Cb gets a 25 Hz high pass in place of the shelf (lowest note E1 41 Hz) so the sub-bass does not rise with the shelf removed. Violoncellos div gain -2 -> +4 after the c13 render (the answer measured 10-12 dB under the solo violin; target 3-6). c16 (C #1, B #6): a track's \"loud_eq\" {points: [[score qn, wet], ...], bands} adds a ReaEQ whose Wet follows the points linearly (0 elsewhere): Violoncellos and Double basses get a 150 Hz +4 dB bell (1 oct) at the two ff tutti (qn 199-215 and 257-270), and the basses also an 80 Hz -3 dB low shelf there (B #6: the Cb D flat 2 fundamental made a 69 Hz boom with a dip an octave up). The soft passages keep their spectrum. c17: reverb.impulse/true_stereo replace the shared hall's IR (C #1); tail_hold (default true, per track or global) holds the volume envelope through rests (C #2). c20 (critic C #2): side_shelf {hz, db} = a low shelf on the side channel only (JS M/S encoder, ReaEQ on channel 2, JS M/S decoder, after the other FX; build_reaper.py, applied by --midi-only and --mix-only): Cb, Vc, Tuba, BTbn, Cbn, Timp 200 Hz -6 dB (the true-stereo hall decorrelated the bass: master <250 Hz corr 0.43 against Brahms 0.60); Harp and Harp harmonics width 0.12 -> 0.3 (state change) and 300 Hz -8 dB (harp 120-250 Hz corr -0.42, mono-sum loss 4.8 dB).",
+ "_doc": "Mix settings applied by tools/build_reaper.py. gain_db -> track volume; seat/width -> REAPER stereo pan mode (I_PANMODE 5, D_PAN, D_WIDTH); mics: Opus mic channels to load and their volumes (null = keep the patch's own); every other mic is unloaded; send: per-mic Reverb Send level; the Opus reverb on fx:0 of every patch is replaced by reverb.from_patch's at reverb.fx_volume. Opus sub-channel pans are set to 0. c02: dyn_trim_db {f, ff}: level trim in dB that is 0 at CC46 (p) and reaches f at CC88 and ff at CC114, read from the printed dynamic curve (dyn_curve), and soft_trim_db {ppp, pp} for every track except timpani; both go into the track volume envelope with parts.json vol_db, so CC11 keeps choosing the dynamic layer. c03: a track may carry its own soft_trim_db, which replaces the global one. c04: a track's eq is a ReaEQ after Opus (band lowshelf: ReaEQ band 1 low shelf; bell: band 2; unused bands at 0 dB and the high-pass band disabled), applied on rebuild and by --mix-only. c05: seat/width are written into Opus (every mic channel's panLeft = seat - width, panRight = seat + width; the reverb return fx:0 centred at full width) and the REAPER pan is centre/width 1 (C #3); the hall is EW's 'New Hollywood Hall 2.0' from 3BS Sus MAX (C #1); eq band 'highpass' enables ReaEQ band 4 as a high pass (C #2). c06: soft_trim_db has a p anchor (CC 46) as well as ppp/pp; global {ppp -2, pp 0, p +2} (B #3, LRA); per-track overrides for Cl1, Cl2, Bn1, Bn2, Cb, Vla (B #1, #2). c07 (B #2): ff trims moved from the reeds to the bass strings at the climaxes: Cb ff -1 -> +1, Cbn f/ff 2.5/1 -> 0.5/-2, Bn2 ff 3 -> 0, BCl ff -1 -> -3, Bn1 ff 1.5 -> -0.5. c08: Violoncellos dyn_trim_db f -3 -> -2, ff -4.5 -> -2.5 (C #6, tutti low-mid weight). c09: reverb.send_pre_fader (every mic channel's Reverb Send pre-fader, level = send x channel volume; C #2) and reverb.high_cut_hz 5500 (the hall's Bandpass high cut; C #4). Widths 0.3 for harp (seat -0.65), horns, BCl, CA, trombones, tuba; Vc/Cb 0.35 (C #3). eq: Vc bell 170 Hz +3 bw 1.5; Cb low shelf -7 -> -5, bell 150 +3 -> 160 +6; Vln I highshelf 5 kHz -4 (band 'highshelf' = ReaEQ band 3; C #1); highpass Harp 30, Tuba 25, BTbn 30 -> 40, Timp 45 (C #6). Harp harmonics gain -2 -> +3 (B #5; +6 measured -40..-42 at the qn 273 attacks, 10 dB over the ppp Vc/Cb). mute_eq {from_qn, bands} on Horns 3-4: a second ReaEQ whose Wet is automated 0 -> 1 at from_qn (con sord. emulation; A #4). c10: soft_trim_db global {ppp -2, pp 0, p +2} -> {ppp +1, pp +3, p +3.5} and the same +3/+3/+1.5 on every per-track override (B #1, C #1; the brief asks ppp/pp +2-4 and p +1-2 more in the mix). New track Violin I solo (A #1): 1st Violins KS Master DIV A (its patch has only the Close mic), seat -0.55, width 0.2, send 0.5 (no Main mic, so more hall), gain 6 -> -1 after the c10 render (the solo measured 12 dB over the Vln II accompaniment). c12 (C #4): Bass clarinet soft_trim_db {ppp 0, pp 1, p 3.5} (pp 2 dB under the global) and a high shelf 2.5 kHz -4 dB: its pp reed tone supplied 67% of the 2-6 kHz under the bar 7-14 horn solo. c13: main (Master) channel of every Opus state centred by apply_mix (the DIV A patches ship it panned: Vln I DIV A -0.74, Celli DIV A +0.33; C #1); Violin I solo seat -0.55 -> -0.4. Cb: low shelf 90 Hz -5 removed, bell 160 +6 -> +3, Close 0.4 -> 0.6, gain -7 -> -8 (C #3, fundamentals). BCl seat -0.25 -> -0.05 (C #4); Harp harmonics seat -0.35 -> -0.65 (C #5). New track Violoncellos div (A #1): Celli KS Master DIV A (Close only), seat 0.35, width 0.2, send 0.5, gain -2. Cb gets a 25 Hz high pass in place of the shelf (lowest note E1 41 Hz) so the sub-bass does not rise with the shelf removed. Violoncellos div gain -2 -> +4 after the c13 render (the answer measured 10-12 dB under the solo violin; target 3-6). c16 (C #1, B #6): a track's \"loud_eq\" {points: [[score qn, wet], ...], bands} adds a ReaEQ whose Wet follows the points linearly (0 elsewhere): Violoncellos and Double basses get a 150 Hz +4 dB bell (1 oct) at the two ff tutti (qn 199-215 and 257-270), and the basses also an 80 Hz -3 dB low shelf there (B #6: the Cb D flat 2 fundamental made a 69 Hz boom with a dip an octave up). The soft passages keep their spectrum. c17: reverb.impulse/true_stereo replace the shared hall's IR (C #1); tail_hold (default true, per track or global) holds the volume envelope through rests (C #2). c20 (critic C #2): side_shelf {hz, db} = a low shelf on the side channel only (JS M/S encoder, ReaEQ on channel 2, JS M/S decoder, after the other FX; build_reaper.py, applied by --midi-only and --mix-only): Cb, Vc, Tuba, BTbn, Cbn, Timp 200 Hz -6 dB (the true-stereo hall decorrelated the bass: master <250 Hz corr 0.43 against Brahms 0.60); Harp and Harp harmonics width 0.12 -> 0.3 (state change) and 300 Hz -8 dB (harp 120-250 Hz corr -0.42, mono-sum loss 4.8 dB). c25 (C #1): eq band 'bell2' = ReaEQ band 2 as a second bell. Double basses: static bell2 80 Hz -6 dB 1 oct (the C2-G2 fundamentals sat level with harmonics 2-4 while E1-B flat 1 sat 12-30 dB under), the 160 Hz bell +3 -> +4.5, the bars 37-44 pizz loud_eq (90 Hz shelf -5) removed, the climax loud_eq low shelf 100 Hz -6 -> -3.",
  "reverb": {
   "from_patch": "/Volumes/MAC DRIVE/EW Hollywood Orchestral Woodwinds Diamond/Hollywood Orch Woodwinds Opus Instruments/3 Bassoons/01 Long/3BS Sus MAX.oib",
   "fx_volume": 0.19,
@@ -783,8 +783,14 @@
     {
      "band": "bell",
      "hz": 160,
-     "db": 3,
+     "db": 4.5,
      "bw_oct": 1.4
+    },
+    {
+     "band": "bell2",
+     "hz": 80,
+     "db": -6,
+     "bw_oct": 1.0
     }
    ],
    "mics": {
@@ -836,40 +842,13 @@
       {
        "band": "lowshelf",
        "hz": 100,
-       "db": -6
+       "db": -3
       },
       {
        "band": "bell",
        "hz": 150,
        "db": 4,
        "bw_oct": 1.0
-      }
-     ]
-    },
-    {
-     "points": [
-      [
-       107.5,
-       0
-      ],
-      [
-       108,
-       1
-      ],
-      [
-       139.5,
-       1
-      ],
-      [
-       140,
-       0
-      ]
-     ],
-     "bands": [
-      {
-       "band": "lowshelf",
-       "hz": 90,
-       "db": -5
       }
      ]
     }

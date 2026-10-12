@@ -159,14 +159,24 @@ def apply_mix(inst, m):
 NOTE_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
 
 
+UNLOAD_UNUSED_ROWS = True   # c24 (A #4)
+
+
 def load_articulations(inst, used):
     """c02: a KS Master loads only its first rows (six in the string patches); a keyswitch to an unloaded articulation
     is ignored. Load and enable every articulation the track uses, and give its trigger a key (as the loaded rows have)."""
     want = {a.lower() for a in used if a}
-    for row in inst["layerMatrix"]["rows"]:
+    rows = inst["layerMatrix"]["rows"]
+    # c24 (A #4, BRIEF rule 7): unload the default rows the track never plays (the RRx9/RRx16 shorts, Sus Accent, ...),
+    # to cut REAPER's sample memory. Only when at least one wanted row exists (the harp patches keep their single row).
+    unload = UNLOAD_UNUSED_ROWS and any(r["name"].lower() in want for r in rows)
+    for row in rows:
         if row["name"].lower() in want:
             row["loaded"] = True
             row["active"] = True
+        elif unload:
+            row["loaded"] = False
+            row["active"] = False
     for trig in inst.get("articulations", {}).get("trigger", []):
         if trig["name"].lower() in want and not trig.get("useKey"):
             trig["useKey"] = True
@@ -347,7 +357,9 @@ local function config_eq(tr, fx, bands, out)
       reaper.TrackFX_SetNamedConfigParm(tr, fx, "BANDENABLED4", "1")
       out[#out + 1] = "highpass " .. set_by_fmt(tr, fx, 12, bd.hz) .. " Hz"
     else
-      local b = (bd.band == "lowshelf" and 0) or (bd.band == "highshelf" and 3) or 1
+      -- c25 (C #1): "bell2" = band 2, a second bell (ReaEQ type 8)
+      local b = (bd.band == "lowshelf" and 0) or (bd.band == "highshelf" and 3) or (bd.band == "bell2" and 2) or 1
+      if b == 2 then reaper.TrackFX_SetNamedConfigParm(tr, fx, "BANDTYPE2", "8") end
       reaper.TrackFX_SetNamedConfigParm(tr, fx, "BANDENABLED" .. b, "1")
       out[#out + 1] = bd.band .. " " .. set_by_fmt(tr, fx, 3 * b, bd.hz) .. " Hz " .. set_by_fmt(tr, fx, 3 * b + 1, bd.db) .. " dB"
       if bd.bw then out[#out] = out[#out] .. " bw " .. set_by_fmt(tr, fx, 3 * b + 2, bd.bw) end
@@ -473,6 +485,11 @@ def b64_path(i, tr):
     return f"{JOBS}/{i:02d}_{tr['stem'].replace(' ', '_')}.b64"
 
 
+RR_RESET_QN = 0.1   # c24 (A #3): pre-roll position (REAPER qn) of the CC36 reset and the string CC69 off
+RR_RESET_SKIP_FAMILIES = {"harp", "harm"}   # harp tracks were already bit-identical render to render
+REP_OFF_FAMILIES = {"string"}
+
+
 def item_lua(tr):
     """The MIDI item (notes, keyswitches, CCs), volume envelope and ReaEQ for track variable `tr` (Lua)."""
     m = mix_for(tr["name"])
@@ -486,6 +503,12 @@ def item_lua(tr):
         ccs += [{"qn": round(q + PRE, 4), "cc": num, "v": v} for q, v in lane]
         if PRE and lane:   # c06: each lane's first value is sent in the pre-roll too
             ccs.append({"qn": 0.25, "cc": num, "v": lane[0][1]})
+    if PRE and tr["family"] not in RR_RESET_SKIP_FAMILIES:
+        # c24 (A #3): reset Opus's round-robin state (CC36, any value) at the start of every render, and on the strings
+        # turn the Repetition script off (CC69 0-63 = OFF, HO manual CC table), so renders are reproducible
+        ccs.append({"qn": RR_RESET_QN, "cc": 36, "v": 127})
+        if tr["family"] in REP_OFF_FAMILIES:
+            ccs.append({"qn": RR_RESET_QN, "cc": 69, "v": 0})
     ccs = lua_list(ccs, ["qn", "cc", "v"])
     vpts = lua_list(vol_points(tr), ["qn", "db"])
     return f"""

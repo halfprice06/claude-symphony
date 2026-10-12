@@ -335,7 +335,8 @@ MARC_ACC_CUT_AT = {"Trombone 1": {213.0: 0.25}}
 SWELL_NO_SOFT_GAIN = {"Horn 1": [20.0], "Violins I": [68.0, 240.0], "Violins II": [68.0, 240.0]}
 # c18 (C #1): these swells get a smaller messa di voce instead (checked before SWELL_NO_SOFT_GAIN); HP_SOFT_DEC_AT gives
 # per-onset decrescendo depths (Oboe 1's bar 41-42 > sits on a +5 note trim and a +2.5 role: 1.3 dB over 2.5 qn)
-SWELL_SOFT_GAIN_AT = {"Violins I": [68.0, 240.0], "Violins II": [68.0, 240.0]}
+# c24 (C #1): 68 removed (the bar 24 swell top stood 1.3 dB under the bar 28 mf crest); 68 falls to SWELL_NO_SOFT_GAIN
+SWELL_SOFT_GAIN_AT = {"Violins I": [240.0], "Violins II": [240.0]}
 SWELL_SOFT_GAIN_DB = 2.5
 HP_SOFT_DEC_AT = {"Oboe 1": {148.0: 4.0, 57.0: 5.0}}   # c22 (C #1): Ob1 57 (bar 20 >) measured -1.0 dB with the default 2
 # c22 (C #1): per-onset soft crescendo gains in lead lines (in place of HP_GAIN_SOFT_DB[family]); these six solo hairpins
@@ -353,7 +354,7 @@ HP_SOFT_EXTRA_SPANS = {"Horn 1": [(174, 184)]}
 HP_GAIN_SOFT_ACC_DB = 2.5
 # hairpin starts the accompaniment rule skips: the bar 91 morendo has its own _all role ramp held through the fermata
 # (the rule's release after the decrescendo made the final ppp chord rise 2.3 dB)
-HP_SOFT_ACC_SKIP = [298.0]
+HP_SOFT_ACC_SKIP = [298.0, 283.0]   # c24 (B #2): 283 the coda strings ppp < pp under the clarinet solo
 # c22 (B #1): a CC11 ceiling on the long-note swell for listed pitches whose next dynamic layer is much louder. In the
 # Bassoon KS Master the f layer fades in over CC11 33-38 (patch table: 0.12 at 34, 0.37 at 36, 0.6 at 38) under the full
 # mp layer; Bassoon 2's B flat 2 measured -51.9 dB at CC 34, -49.5 at 36 and -41.4 at 37, so its pp swells (34 -> 38)
@@ -385,22 +386,45 @@ HP_MF_BRIDGE_REL = 1.5
 # Vla div 84 (+6.7), solo violin 51 (+4.7): depth = spike - 2
 # c23 (after the render): Vln I 73.5's transition peak moved 0.1 qn later (73.48-73.53, +8 dB on the stem, +4 on the
 # master) with unchanged notes and envelope; the notch now covers both positions at -5.5 (was 73.37-73.45, -6)
+# c24 (A #1): the descending-run transition bursts before the cadence beats at 86.5 (bar 29) and 259 (bar 78) in Vln I/II
+# (+7.4/+7.7 and +5.9/+5.8 on the stems, +6.0/+5.0 on the master), and Flute 1 259/266 (ff B flat 6 -> A flat 6, +8.0)
+# c24 (B #4): Violoncellos ppp A flat 2 pedal swells 6 dB at qn 274.75 (sample, under the harp harmonics)
+# c25 (A #2): Bass clarinet 93 (bar 32 solo arrival E flat 4, printed crescendo): a 0.35 s register-change burst, then a
+# 13 dB trough where the B role [93.5,99,-6,2.5] ramps in on top of the 93 -4 note trim; cut the burst, fill the trough
+# (positive values fill), step back to the current envelope
 JOIN_NOTCH = {"Violins I": [(67.86, 68.02, -3.0), (71.90, 72.08, -4.5), (73.37, 73.55, -5.5), (74.90, 74.98, -3.0),
-                            (79.86, 80.03, -3.0), (207.80, 207.97, -4.0), (249.37, 249.44, -3.5)],
+                            (79.86, 80.03, -3.0), (207.80, 207.97, -4.0), (249.37, 249.44, -3.5),
+                            (86.38, 86.51, -5.5), (258.85, 258.93, -5.5)],
               "Violoncellos": [(68.37, 68.49, -8.0), (181.85, 181.99, -3.5), (240.37, 240.45, -5.0),
-                               (200.52, 200.90, -5.0), (202.84, 202.97, -3.0), (285.75, 286.30, -3.0)],
+                               (200.52, 200.90, -5.0), (202.84, 202.97, -3.0), (285.75, 286.30, -3.0),
+                               (274.70, 275.30, -3.0)],
               "Violins II": [(177.35, 177.52, -4.3), (242.99, 243.05, -3.3), (245.39, 245.47, -3.9),
-                             (270.41, 270.50, -5.0), (73.33, 73.42, -4.0), (82.84, 82.91, -3.5)],
+                             (270.41, 270.50, -5.0), (73.33, 73.42, -4.0), (82.84, 82.91, -3.5),
+                             (86.40, 86.50, -4.0), (258.81, 258.98, -4.0)],
               "Violin I solo": [(52.99, 53.15, -4.0), (50.89, 50.93, -2.5)],
               "Horn 1": [(29.88, 30.01, -2.5)],
               "Violas": [(161.86, 161.96, -3.9), (286.00, 286.40, -3.0), (56.81, 56.93, -6.0)],
               "Oboe 1": [(144.81, 144.92, -4.0), (56.97, 57.04, -2.5)],
               "Cor anglais": [(155.41, 155.57, -3.5)],
+              "Flute 1": [(258.86, 258.93, -2.0), (266.00, 266.25, -5.0)],
               "Violas div": [(83.82, 83.98, -4.5)],
               "Double basses": [(64.12, 64.50, -4.0), (76.10, 76.62, -5.0), (85.10, 85.62, -6.0),
-                                (285.95, 286.30, -3.0)]}
+                                (285.95, 286.30, -3.0)],
+              "Bass clarinet": [(93.03, 93.33, -4.5), (93.39, 93.85, 4.0), (93.89, 94.15, 1.5)]}
 # c23 (A #4): untied repeated pp notes that wind players re-tongue: the note before ends 0.06 qn early (the legato-repeat
 # gap; the 0.03 qn default gap dipped 0-1.4 dB, filled by the release tail and the hall). {track: [score onsets of the repeat]}
+# c24 (C #2c): per-onset CC11 depth of a merged-repeat bow-change notch (default 8/10/14 CC). Violoncellos 148: the
+# printed mf arrival of the bar 46-47 oboe/cello unison; the 14 CC dip took about 3 dB off the mf downbeat
+MERGE_NOTCH_AT = {"Violoncellos": {148.0: 3}}
+# c24 (B #5): per-onset note-trim ramp in seconds (default 0.6 s): the Oboe 1 entries at 42/54 spoke under the
+# re-articulating pp strings for 0.25-0.5 qn because the trim arrived after the strings' attack
+# c25 (A #3): old negative trims on crescendo notes become steps (Ob1 190, Cl1 256), Ob1 45 (printed decrescendo) falls
+# over 2.1 s, Vc 180 over 1.8 s; (A #1) Cl1 292 +3 over 3 s against the sample's decay; (B #3) Horns a2 261 pickup step.
+# Keys are score onsets (n["qn"] before the move), not the moved parts.json qn
+NOTE_TRIM_RAMP_S = {"Oboe 1": {42.0: 0.1, 54.0: 0.1, 45.0: 2.1, 190.0: 0.1},
+                    "Clarinet 1": {256.0: 0.1, 292.0: 3.0},
+                    "Violoncellos": {180.0: 1.8},
+                    "Horns 1-2 a2": {261.0: 0.1}}
 REP_RETONGUE_AT = {"Horn 4": [9.0, 12.0, 15.0], "Bass clarinet": [9.0, 12.0, 15.0], "Horn 3": [292.0],
                    "Bassoon 2": [23.0, 235.0]}
 # c18 (C #4): phrase-top shaping in lead slurs (see build_track)
@@ -523,8 +547,10 @@ TEMPO = smooth_tempo(TEMPO)
 # that starts where another ends takes its first beat at PHRASE_RETURN, so the tempo comes back over a beat.
 # c16 (C #3): (42, 48) and (54, 60) removed: bars 15-22 slowed the same way every two bars (52/51/46, 52/51/49 ...);
 # only the bar 18 sub-phrase keeps its arc, and bars 19-22 run to the cadence at qn 66 as one phrase
+# c24 (C #5): (152, 160, "sub"), (160, 168): the cor anglais solo of bars 48-51 ran 18 of 20 beats at exactly 54.0
 PHRASE_ARCS = [(18, 30), (30, 42, "main"), (48, 54, "sub"), (60, 66, "main"), (66, 78),
-               (78, 90, "main"), (108, 124), (124, 140), (220, 226, "sub"), (226, 238, "main"), (238, 250), (274, 286)]
+               (78, 90, "main"), (108, 124), (124, 140), (152, 160, "sub"), (160, 168), (220, 226, "sub"),
+               (226, 238, "main"), (238, 250), (274, 286)]
 PHRASE_PUSH, PHRASE_SLOW = 1.015, (0.96, 0.92)
 PHRASE_SLOW_SUB, PHRASE_SLOW_MAIN, PHRASE_RETURN = (0.98, 0.95), (0.95, 0.88), 0.97
 
@@ -1221,7 +1247,9 @@ def build_track(tname, staves, patch, family, pan):
                     o = nxt[0]
                     portato = near(o["qn"], ten_q) and n["slur"] is not None and o["slur"] == n["slur"]
                     # c04 (C #5): a bow change at pp (CC11 40 or below) takes 8 CC, not 14
-                    notches.append((o["qn"], 10 if portato else (8 if base(o["qn"]) <= 40 else 14)))
+                    dep_ = 10 if portato else (8 if base(o["qn"]) <= 40 else 14)
+                    dep_ = next((v_ for q_, v_ in MERGE_NOTCH_AT.get(tname, {}).items() if abs(q_ - o["qn"]) < EPS), dep_)
+                    notches.append((o["qn"], dep_))
                     if near(o["qn"], ten_q):
                         merged_ten.append(o["qn"])
                     n["end"] = o["end"]
@@ -2488,7 +2516,7 @@ def build_track(tname, staves, patch, family, pan):
     nt_pluck_done = set()
     for n in ns:
         hit = [v for k, v in nt.items() if abs(n["qn"] - k) < 0.02]
-        if hit and (family == "harp" or "izz" in (n.get("art") or "")):
+        if hit and (family in ("harp", "harm") or "izz" in (n.get("art") or "")):   # c24 (B #3): harmonics too
             # c21 (B #5): a plucked note trim is a step at full value on the attack (the c12 pizz. pitch-trim shape;
             # the 0.6 s ramp missed the pluck), held to the next onset (at most 1.5 s), once per onset (a chord counts once)
             if round(n["qn"], 3) in nt_pluck_done:
@@ -2503,7 +2531,8 @@ def build_track(tname, staves, patch, family, pan):
             continue
         if hit:
             sec = qn_to_sec(orig_end[id(n)]) - qn_to_sec(n["qn"])
-            ramp = 0.6 * (orig_end[id(n)] - n["qn"]) / sec   # 0.6 s in qn
+            rs_ = next((v_ for k_, v_ in NOTE_TRIM_RAMP_S.get(tname, {}).items() if abs(n["qn"] - k_) < 0.02), 0.6)
+            ramp = rs_ * (orig_end[id(n)] - n["qn"]) / sec   # 0.6 s in qn (c24: per-onset NOTE_TRIM_RAMP_S)
             vol_parts.append(("env", trim_shape(n, hit[0], ramp)))   # c09 (A #2): ends at the next moved onset
     # c04 (C #5): a soft string note that re-attacks on Leg Slur MAX after a short gap and lasts 2 qn or more swells in the
     # sample (Vln II qn 220: +14 dB at a flat CC11); level only: 0 dB at the onset to -4.5 dB at 2 qn, held
