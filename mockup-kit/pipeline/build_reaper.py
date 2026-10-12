@@ -270,8 +270,20 @@ def vol_points(tr):
             if a_ > ce + 1e-6:
                 rests.append((ce, a_))
             ce = max(ce, b_)
+        # c19 (C #5): the rest after the track's last note (to the end of the project) holds too, so roles and the final
+        # fade that end later no longer move the last hall tail (Cb tail rose 5-6 dB after the final release; the tuba's
+        # bar 63 tail fell 16 dB in 0.3 s)
+        rests.append((ce, grid[-1] + 1.0 + TAIL_HOLD_LEAD_S * 4))
+        last_rest = rests[-1]
         held = 0
         for e_, n_ in rests:
+            if (e_, n_) == last_rest:
+                ve_ = val_at(e_ - 0.002)
+                for k, q in enumerate(grid):
+                    if q >= e_ - 1e-6 and vals[k] != ve_:
+                        vals[k] = ve_
+                        held += 1
+                continue
             if e_ >= TAIL_HOLD_STOP_QN or q2s(n_) - q2s(e_) < TAIL_HOLD_MIN_S:
                 continue
             nh_ = s2q(q2s(n_) - TAIL_HOLD_LEAD_S)
@@ -386,6 +398,35 @@ local function set_mute_eq(tr, spec)
   out[#out + 1] = (spec.kind or "wet") .. " eq wet param " .. wet .. " points " .. reaper.CountEnvelopePoints(env)
   return out
 end
+-- c20 (C #2): mix.json "side_shelf" {hz, db}: a low shelf on the side channel only, after every other FX:
+-- JS Mid/Side Encoder (ch1 = (L+R)/2, ch2 = (L-R)/2) -> ReaEQ whose pins read and write channel 2 only (channel 1 has no
+-- output pin, so it passes through) -> JS Mid/Side Decoder (0 dB). Re-run safe: set_eq deletes every ReaEQ and this
+-- deletes the two JS FX first. With db = 0 the chain is an identity.
+local function set_side_shelf(tr, spec, eq)
+  for i = reaper.TrackFX_GetCount(tr) - 1, 1, -1 do
+    local _, nm = reaper.TrackFX_GetFXName(tr, i, "")
+    if nm:find("Mid/Side") or nm:find("KanakaMS") then reaper.TrackFX_Delete(tr, i) end
+  end
+  if not spec then return end
+  local enc = reaper.TrackFX_AddByName(tr, "JS: utility/KanakaMSEncoder1", false, -1)
+  local fx = reaper.TrackFX_AddByName(tr, "ReaEQ", false, -1)
+  local out = {fx = fx, kind = "side", enc = enc}
+  -- c21 (C #4): spec is either {hz, db} (a low shelf, c20) or {bands = {...}} (any config_eq bands, e.g. a high shelf)
+  config_eq(tr, fx, spec.bands or {{band = "lowshelf", hz = spec.hz, db = spec.db}}, out)
+  reaper.TrackFX_SetPinMappings(tr, fx, 0, 0, 0, 0)
+  reaper.TrackFX_SetPinMappings(tr, fx, 0, 1, 2, 0)
+  reaper.TrackFX_SetPinMappings(tr, fx, 1, 0, 0, 0)
+  reaper.TrackFX_SetPinMappings(tr, fx, 1, 1, 2, 0)
+  local dec = reaper.TrackFX_AddByName(tr, "JS: utility/KanakaMS5", false, -1)
+  out.dec = dec
+  local pins = {}
+  for io = 0, 1 do for p = 0, 1 do
+    local lo = reaper.TrackFX_GetPinMappings(tr, fx, io, p)
+    pins[#pins + 1] = tostring(lo)
+  end end
+  out[#out + 1] = "side pins in/out " .. table.concat(pins, ",")
+  eq[#eq + 1] = out
+end
 local function set_wet_eqs(tr, specs, eq)
   for _, spec in ipairs(specs) do
     local r = set_mute_eq(tr, spec)
@@ -413,10 +454,19 @@ def mute_lua(m):
     if me:
         specs.append(f'{{kind="mute", shape=1, points={{{{qn={me["from_qn"] + PRE}, w=1}}}}, bands={eq_lua(m, me["bands"])}}}')
     le = m.get("loud_eq")
-    if le:
+    for le in (le if isinstance(le, list) else [le] if le else []):   # c21 (C #3): a list of specs, one ReaEQ each
         pts = ",".join(f'{{qn={q + PRE}, w={w}}}' for q, w in le["points"])
         specs.append(f'{{kind="loud", shape=0, points={{{pts}}}, bands={eq_lua(m, le["bands"])}}}')
     return "{" + ",".join(specs) + "}"
+
+
+def side_lua(m):
+    """c20 (C #2): mix.json side_shelf {hz, db} as a Lua table (nil when absent).
+    c21 (C #4): or a list of eq bands ([{band, hz, db}, ...]; lowshelf = ReaEQ band 0, highshelf = band 3)."""
+    ss = m.get("side_shelf")
+    if isinstance(ss, list):
+        return f'{{bands={eq_lua(m, ss)}}}' if ss else "nil"
+    return f'{{hz={ss["hz"]}, db={ss["db"]}}}' if ss else "nil"
 
 
 def b64_path(i, tr):
@@ -458,6 +508,7 @@ local _, nn, nc = reaper.MIDI_CountEvts(take)
 local envn = set_vol_env(tr, {vpts})
 local eq = set_eq(tr, {eq_lua(m)})
 set_wet_eqs(tr, {mute_lua(m)}, eq)
+set_side_shelf(tr, {side_lua(m)}, eq)
 """
 
 
@@ -512,7 +563,7 @@ def mix_job():
         if ONLY and tr["name"] not in ONLY:
             continue
         m = mix_for(tr["name"])
-        rows.append(f'{{n={json.dumps(tr["name"])}, pan=0, w=1, vol={10 ** (m["gain_db"] / 20):.6f}, env={lua_list(vol_points(tr), ["qn", "db"])}, eq={eq_lua(m)}, meq={mute_lua(m)}}}')
+        rows.append(f'{{n={json.dumps(tr["name"])}, pan=0, w=1, vol={10 ** (m["gain_db"] / 20):.6f}, env={lua_list(vol_points(tr), ["qn", "db"])}, eq={eq_lua(m)}, meq={mute_lua(m)}, ss={side_lua(m)}}}')
     lua = ENV_LUA + f"""
 local done = {{}}
 for _, r in ipairs({{{",".join(rows)}}}) do
@@ -524,6 +575,7 @@ for _, r in ipairs({{{",".join(rows)}}}) do
     set_vol_env(tr, r.env)
     local eq = set_eq(tr, r.eq)
     set_wet_eqs(tr, r.meq, eq)
+    set_side_shelf(tr, r.ss, eq)
     done[#done + 1] = r.n
     if #eq > 0 then done[#done + 1] = eq end
   end
