@@ -10,5 +10,5 @@ cp $SRC/loop/BRIEF.md $K/loop/BRIEF-mvt2-example.md
 cp $SRC/loop/DYNAMICS-RESEARCH.md $K/loop/
 cp $SRC/loop/critic_prompt.md $SRC/loop/actor_prompt.md $K/loop/
 cp ~/.rpr-bridge/libs/ew_ho/{opus_state.py,dump_ks.py,ks_maps.json} $K/opus/
-echo "synced pipeline from $SRC (cycle $(ls -d $SRC/cycles/c* | tail -1 | sed 's/.*c//'))"
+echo "synced pipeline from $SRC (latest cycle folder $(ls -d $SRC/cycles/c* | tail -1 | sed "s/.*c//")))"
 cp $SRC/build/ks_maps_extra.json $K/opus/ 2>/dev/null || true
