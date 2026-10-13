@@ -1,0 +1,45 @@
+r04-m1: stems with a gain curve: 23
+stem | bars cut>=3 | cut>=6 | lifted>=1 | min/max dB | max slope dB/s | cut>=3 where own printed dyn >= melody's (n; max steps above)
+Bass clarinet | 0 | 0 | 15 | -1.6/+6.4 | 4.0 | 0; -
+Bass trombone | 5 | 0 | 5 | -5.0/+2.5 | 3.4 | 0; -
+Bassoons 12 | 12 | 0 | 0 | -5.0/+0.3 | 3.3 | 1; 0
+Clarinets 12 | 4 | 0 | 8 | -5.0/+5.5 | 3.6 | 0; -
+Contrabassoon | 4 | 0 | 5 | -5.0/+2.5 | 3.3 | 0; -
+Cor anglais | 0 | 0 | 11 | -1.2/+3.4 | 2.0 | 0; -
+Double basses | 14 | 0 | 0 | -5.5/+0.3 | 3.7 | 7; 0
+Flutes 12 | 0 | 0 | 9 | -1.6/+3.4 | 2.0 | 0; -
+Harp LH | 0 | 0 | 9 | -1.6/+3.4 | 2.0 | 0; -
+Harp RH | 0 | 0 | 9 | -1.6/+3.4 | 2.0 | 0; -
+Horns 12 | 18 | 0 | 9 | -5.5/+2.5 | 3.7 | 2; 0
+Horns 34 | 16 | 7 | 0 | -8.0/+0.3 | 3.4 | 1; 0
+Oboes 12 | 4 | 0 | 7 | -5.0/+3.0 | 3.3 | 0; -
+Timpani | 11 | 1 | 4 | -6.9/+3.4 | 3.7 | 0; -
+Trombones 12 | 6 | 0 | 5 | -5.0/+2.5 | 3.4 | 0; -
+Trumpet 3 | 6 | 0 | 5 | -5.0/+2.5 | 3.4 | 0; -
+Trumpets 12 | 6 | 0 | 5 | -5.0/+2.5 | 3.4 | 0; -
+Tuba | 8 | 0 | 5 | -5.5/+2.5 | 3.4 | 0; -
+Violas | 8 | 6 | 18 | -8.0/+5.8 | 3.5 | 1; 0
+Violins I | 4 | 0 | 5 | -5.0/+3.2 | 3.3 | 0; -
+Violins II | 4 | 4 | 5 | -8.0/+3.2 | 5.3 | 0; -
+Violoncellos | 13 | 0 | 24 | -5.0/+2.7 | 3.6 | 6; 0
+drums | 0 | 0 | 9 | -1.6/+3.4 | 2.0 | 0; -
+r04-m1: stem-bars cut >= 3 dB: 143, >= 6 dB: 18; cut >= 3 dB although printed >= the melody: 18
+   ('Bassoons 12', 62, 0, 'p', 'p', -3.9)
+   ('Double basses', 56, 0, 'p', 'p', -4.3)
+   ('Double basses', 57, 0, 'p', 'p', -4.4)
+   ('Double basses', 58, 0, 'p', 'p', -3.8)
+   ('Double basses', 59, 0, 'p', 'p', -4.8)
+   ('Double basses', 62, 0, 'p', 'p', -3.9)
+   ('Double basses', 107, 0, 'p', 'p', -5.0)
+   ('Double basses', 108, 0, 'p', 'p', -5.0)
+   ('Horns 12', 55, 0, 'p', 'p', -4.0)
+   ('Horns 12', 78, 0, 'mf', 'mf', -4.7)
+   ('Horns 34', 62, 0, 'p', 'p', -3.9)
+   ('Violas', 62, 0, 'p', 'p', -3.9)
+   ('Violoncellos', 55, 0, 'p', 'p', -4.4)
+   ('Violoncellos', 56, 0, 'p', 'p', -4.3)
+   ('Violoncellos', 57, 0, 'p', 'p', -4.4)
+   ('Violoncellos', 58, 0, 'p', 'p', -3.8)
+   ('Violoncellos', 59, 0, 'p', 'p', -4.8)
+   ('Violoncellos', 62, 0, 'p', 'p', -3.9)
+r04-m1: marked melodies whose median gain is a CUT: []

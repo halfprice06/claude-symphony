@@ -34,7 +34,8 @@ def _section_body(ly_dir, name):
 
 def score_events(ly_dir, bar_wholes=None):
     """[(section start bar (1-based), position in wholes from the section start, drum name, dyn, length in wholes,
-    has_crescendo)]. bar_wholes(b0, n): length in wholes of n bars from bar b0 (MIDI grid); None = 4/4."""
+    has_crescendo, tied)]. r07: tied = the note is tied on (one stroke whose written length, summed over the ties,
+    is where the sound stops). bar_wholes(b0, n): length in wholes of n bars from bar b0 (MIDI grid); None = 4/4."""
     pp = os.path.join(ly_dir, "parts.ily")
     if not os.path.exists(pp):
         return []
@@ -51,21 +52,47 @@ def score_events(ly_dir, bar_wholes=None):
         body = re.sub(r"\\markup\s*\{[^{}]*\}", " ", body)
         body = re.sub(r'"[^"]*"', " ", body)
         body = re.sub(r"%.*", " ", body)
-        pos = 0.0; last = "4"
-        for tok in body.split():
-            if tok == "|":
-                continue
-            t = re.match(r"([a-zA-Z]+)(\d*)(\.?)(?::\d+)?(?:\*(\d+))?(.*)$", tok)
-            if not t:
-                continue
-            nm, d, dot, mult, rest = t.groups()
-            if nm.startswith("\\") or tok.startswith("\\"):
-                continue
+        # r07: \tweak <property> #'<value> (e.g. a cross-circle notehead) only changes the print: removed
+        body = re.sub(r"\\tweak\s+[\w.-]+\s+#'?[\w.-]+", " ", body)
+        pos = 0.0; last = "4"; tied = {}
+        # r07: chords <a b>4 (two players striking together) and ties (cymc~ ... cymc: one stroke, held)
+        for tk in re.finditer(r"<([^<>]*)>(\S*)|(\S+)", body):
+            if tk.group(3) is not None:
+                tok = tk.group(3)
+                if tok == "|" or tok.startswith("\\"):
+                    continue
+                t = re.match(r"([a-zA-Z]+)(~?)(\d*)(\.?)(?::\d+)?(?:\*(\d+))?(.*)$", tok)
+                if not t:
+                    continue
+                nm, tie, d, dot, mult, rest = t.groups()
+                names = [(nm, bool(tie) or "~" in rest)]
+            else:
+                inner, after = tk.group(1), tk.group(2)
+                t = re.match(r"(\d*)(\.?)(?::\d+)?(?:\*(\d+))?(.*)$", after)
+                d, dot, mult, rest = t.groups()
+                names = []
+                for it in inner.split():
+                    m2 = re.match(r"([a-zA-Z]+)(~?)", it)
+                    if m2:
+                        names.append((m2.group(1), bool(m2.group(2)) or "~" in rest))
             d = d or last; last = d
             ln = DUR[d] * (1.5 if dot else 1) * (int(mult) if mult else 1)
-            if nm not in ("R", "r", "s"):
-                dyn = re.search(r"\\(ppp|pp|p|mp|mf|f|ff|fff)(?![a-z])", rest)
-                out.append((bar0, pos, nm, dyn.group(1) if dyn else None, ln, "\\<" in rest))
+            dyn = re.search(r"\\(ppp|pp|p|mp|mf|f|ff|fff)(?![a-z])", rest)
+            new_tied = {}
+            for nm, tie in names:
+                if nm in ("R", "r", "s"):
+                    continue
+                if nm in tied:
+                    # tied from the previous note: no new stroke; the written length grows and the sound stops at
+                    # its end (damped), not after the l.v. time
+                    i = tied[nm]; e = out[i]
+                    out[i] = e[:4] + (e[4] + ln, e[5], True)
+                else:
+                    out.append((bar0, pos, nm, dyn.group(1) if dyn else None, ln, "\\<" in rest, False))
+                    i = len(out) - 1
+                if tie:
+                    new_tied[nm] = i
+            tied = new_tied
             pos += ln
         want = bar_wholes(bar0, int(nbars)) if bar_wholes else float(nbars)
         if abs(pos - want) > 1e-6:
@@ -101,14 +128,14 @@ def apply(mid, cfg, src_midi, ly_dir):
     newtr = [(0, mido.MetaMessage("track_name", name=name))]
     n = 0
     last_dyn = "pp"
-    for b0, pos, nm, dyn, ln, cresc in ev:
+    for b0, pos, nm, dyn, ln, cresc, tied in ev:
         dyn = dyn or last_dyn; last_dyn = dyn
         k = P["keys"].get(nm)
         if k is None:
             continue
         on = tick_of_bar(b0) + int(round(pos * bar_ticks))
         v = DYN_VEL[dyn]
-        if nm in P.get("lv", []):
+        if nm in P.get("lv", []) and not tied:
             off = tm.s2t(tm.t2s(on) + P["lv_s"])
         else:
             off = on + int(round(ln * bar_ticks))

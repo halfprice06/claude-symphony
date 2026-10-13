@@ -1,0 +1,41 @@
+stem files in /tmp/render-07-r06m2/stems
+Bass clarinet   sounding -37.3 LUFS  dB/step 3.88  pan -4.29
+Bass trombone   sounding -34.82 LUFS  dB/step 0.27  pan 3.43
+Bassoons 12     sounding -37.28 LUFS  dB/step 3.45  pan -0.39
+Clarinets 12    sounding -35.66 LUFS  dB/step 3.64  pan -3.77
+Contrabassoon   sounding -34.01 LUFS  dB/step 4.03  pan 0.37
+Cor anglais     sounding -36.21 LUFS  dB/step 1.99  pan 2.77
+Double basses   sounding -36.1 LUFS  dB/step 3.09  pan 5.72
+Flutes 12       sounding -34.96 LUFS  dB/step 2.56  pan -3.48
+Harp LH         sounding -46.59 LUFS  dB/step 6.38  pan -9.14
+Harp RH         sounding -45.11 LUFS  dB/step 0.08  pan -9.19
+Horns 12        sounding -35.36 LUFS  dB/step 2.15  pan -4.09
+Horns 34        sounding -35.8 LUFS  dB/step 2.83  pan -3.71
+Oboes 12        sounding -33.62 LUFS  dB/step 1.02  pan 0.2
+Timpani         sounding -33.78 LUFS  dB/step 3.12  pan -1.57
+Trombones 12    sounding -34.83 LUFS  dB/step 1.36  pan 2.44
+Tuba            sounding -37.85 LUFS  dB/step 2.7  pan 3.04
+Violas          sounding -37.21 LUFS  dB/step 3.06  pan 2.1
+Violins I       sounding -34.72 LUFS  dB/step 2.43  pan -8.64
+Violins II      sounding -37.88 LUFS  dB/step 2.69  pan -4.84
+Violoncellos    sounding -37.92 LUFS  dB/step 3.02  pan 6.05
+{
+ "loudest_minus_second_dB_median": 2.8,
+ "loudest_stem_count": {
+  "Violins I": 19,
+  "Horns 12": 12,
+  "Cor anglais": 11,
+  "Clarinets 12": 7,
+  "Oboes 12": 7,
+  "Double basses": 6,
+  "Horns 34": 5,
+  "Bass clarinet": 5,
+  "Timpani": 4,
+  "Violoncellos": 4,
+  "Flutes 12": 3,
+  "Violas": 3,
+  "Violins II": 2,
+  "Trombones 12": 1
+ },
+ "balance_inversions_n": 53
+}

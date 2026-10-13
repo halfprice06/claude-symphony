@@ -1,0 +1,9 @@
+I -20.0 LRA 20.5 TP -1.5 | S p10 -13.3 p50 -8.1 p95 7.2 max 9.5
+r06-m2: Spearman rho bar loudness vs printed dyn = 0.72 (n=89)
+  median rel I by loudest printed dyn: {'ppp': -15.7, 'pp': -10.3, 'p': -8.7, 'mp': -6.3, 'mf': -0.5, 'f': 4.7, 'ff': 7.2}  n={'ppp': 1, 'pp': 13, 'p': 34, 'mp': 23, 'mf': 8, 'f': 3, 'ff': 7}
+  steps: {'ppp->pp': 5.4, 'pp->p': 1.6, 'p->mp': 2.4, 'mp->mf': 5.8, 'mf->f': 5.2, 'f->ff': 2.5}
+  bars printed <= mf louder than the median f bar (4.7): 0 []
+balance inversions 53; loudest-minus-second median 2.8 dB; b
+r06-m2: inversions 53; without pairs in printed hairpins 12
+r06-m2: whole phrase: >= 0 dB vs loudest 10/15, >= -6 vs sum 13; balanced bars only (15 phrases): 10/15, 13/15
+bars: 15, timpani loudest (>0 dB): 4, within 1 dB (>-1): 5, max +2.0

@@ -8,4 +8,4 @@
 7. Texture and counterpoint: inner-voice interest, accompaniment figures, counter-melodies, the bass line, imitation and dialogue between groups.
 8. Expression: dynamics, articulation, phrasing slurs, tempo changes, rubato indications and expressive text.
 9. Holistic comparison with one specific master slow movement, a different one each time this lens comes up. Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.
-10. Cyclic design and emotional arc: the link from movement I, the motto's tail, the two quotations, the coda, and how this movement sits between movement I and movement III.
+10. Cyclic design and emotional arc: the link from movement I, the motto's tail, the two quotations, the coda, and how this movement sits between movement I and the scherzo (movement III), with the finale (movement IV) after it; read symphony/coherence/*.md.

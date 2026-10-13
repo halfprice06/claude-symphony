@@ -1,0 +1,1125 @@
+21.0 Bass clarinet:#17^ Harp LH:#43_ P8
+21.0 Bass clarinet:#17_ Harp LH:#43_ P8
+24.0 Bass clarinet:#17^ Harp LH:#43_ P8
+24.0 Bass clarinet:#17_ Harp LH:#43_ P8
+31.0 Bass clarinet:#17^ Harp LH:#43_ P8
+31.0 Bass clarinet:#17_ Harp LH:#43_ P8
+32.0 Bass clarinet:#17^ Harp LH:#43^ P8
+32.0 Bass clarinet:#17^ Harp LH:#43_ P8
+32.0 Bass clarinet:#17_ Harp LH:#43^ P8
+32.0 Bass clarinet:#17_ Harp LH:#43_ P8
+35.0 Bass clarinet:#17^ Harp LH:#43_ P8
+35.0 Bass clarinet:#17_ Harp LH:#43_ P8
+36.0 Bass clarinet:#17^ Harp LH:#43_ P8
+36.0 Bass clarinet:#17_ Harp LH:#43_ P8
+39.0 Bass clarinet:#17^ Harp LH:#43_ P8
+39.0 Bass clarinet:#17_ Harp LH:#43_ P8
+62.0 Double basses:#48^ Violoncellos:#47^ P8
+62.0 Double basses:#48^ Violoncellos:#47_ P8
+62.0 Double basses:#48_ Violoncellos:#47^ P8
+62.0 Double basses:#48_ Violoncellos:#47_ P8
+112.0 Violas:#46^ Violins II:#45^ P8
+112.0 Violas:#46_ Violins II:#45^ P8
+122.0 Double basses:#48^ Harp LH:#43^ P8
+122.0 Double basses:#48_ Harp LH:#43^ P8
+122.0 Flutes 1Â·2:solo#4^ Violas:#46^ P8
+122.0 Flutes 1Â·2:solo#4^ Violas:#46_ P8
+122.0 Flutes 1Â·2:solo#4_ Violas:#46^ P8
+122.0 Flutes 1Â·2:solo#4_ Violas:#46_ P8
+124.0 Double basses:#48^ Harp LH:#43^ P8
+124.0 Double basses:#48_ Harp LH:#43^ P8
+129.0 Double basses:#48^ Harp LH:#43^ P8
+129.0 Double basses:#48_ Harp LH:#43^ P8
+129.0 Violas:#46^ Violoncellos:#47^ P8
+129.0 Violas:#46^ Violoncellos:#47_ P8
+129.0 Violas:#46_ Violoncellos:#47^ P8
+129.0 Violas:#46_ Violoncellos:#47_ P8
+130.0 Double basses:#48^ Harp LH:#43^ P8
+130.0 Double basses:#48_ Harp LH:#43^ P8
+131.0 Double basses:#48^ Harp LH:#43^ P8
+131.0 Double basses:#48_ Harp LH:#43^ P8
+132.0 Double basses:#48^ Harp LH:#43^ P8
+132.0 Double basses:#48^ Violas:#46^ P8
+132.0 Double basses:#48^ Violas:#46_ P8
+132.0 Double basses:#48_ Harp LH:#43^ P8
+132.0 Double basses:#48_ Violas:#46^ P8
+132.0 Double basses:#48_ Violas:#46_ P8
+132.0 Harp LH:#43^ Violas:#46^ P8
+132.0 Harp LH:#43^ Violas:#46_ P8
+132.0 Harp LH:#43_ Violas:#46^ P8
+132.0 Harp LH:#43_ Violas:#46_ P8
+140.0 Oboes 1Â·2:solo#9^ Violoncellos:#47^ P8
+140.0 Oboes 1Â·2:solo#9^ Violoncellos:#47_ P8
+140.0 Oboes 1Â·2:solo#9_ Violoncellos:#47^ P8
+140.0 Oboes 1Â·2:solo#9_ Violoncellos:#47_ P8
+142.0 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9^ P8
+142.0 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9_ P8
+142.0 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9^ P8
+142.0 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9_ P8
+142.0 Oboes 1Â·2:solo#9^ Violoncellos:#47^ P8
+142.0 Oboes 1Â·2:solo#9^ Violoncellos:#47_ P8
+142.0 Oboes 1Â·2:solo#9_ Violoncellos:#47^ P8
+142.0 Oboes 1Â·2:solo#9_ Violoncellos:#47_ P8
+142.5 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9^ P8
+142.5 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9_ P8
+142.5 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9^ P8
+142.5 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9_ P8
+142.5 Oboes 1Â·2:solo#9^ Violoncellos:#47^ P8
+142.5 Oboes 1Â·2:solo#9^ Violoncellos:#47_ P8
+142.5 Oboes 1Â·2:solo#9_ Violoncellos:#47^ P8
+142.5 Oboes 1Â·2:solo#9_ Violoncellos:#47_ P8
+143.0 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9^ P8
+143.0 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9_ P8
+143.0 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9^ P8
+143.0 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9_ P8
+143.0 Oboes 1Â·2:solo#9^ Violoncellos:#47^ P8
+143.0 Oboes 1Â·2:solo#9^ Violoncellos:#47_ P8
+143.0 Oboes 1Â·2:solo#9_ Violoncellos:#47^ P8
+143.0 Oboes 1Â·2:solo#9_ Violoncellos:#47_ P8
+144.0 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9^ P8
+144.0 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9_ P8
+144.0 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9^ P8
+144.0 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9_ P8
+144.0 Oboes 1Â·2:solo#9^ Violoncellos:#47^ P8
+144.0 Oboes 1Â·2:solo#9^ Violoncellos:#47_ P8
+144.0 Oboes 1Â·2:solo#9_ Violoncellos:#47^ P8
+144.0 Oboes 1Â·2:solo#9_ Violoncellos:#47_ P8
+145.0 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9^ P8
+145.0 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9_ P8
+145.0 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9^ P8
+145.0 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9_ P8
+145.0 Oboes 1Â·2:solo#9^ Violoncellos:#47^ P8
+145.0 Oboes 1Â·2:solo#9^ Violoncellos:#47_ P8
+145.0 Oboes 1Â·2:solo#9_ Violoncellos:#47^ P8
+145.0 Oboes 1Â·2:solo#9_ Violoncellos:#47_ P8
+145.5 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9^ P8
+145.5 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9_ P8
+145.5 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9^ P8
+145.5 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9_ P8
+145.5 Oboes 1Â·2:solo#9^ Violoncellos:#47^ P8
+145.5 Oboes 1Â·2:solo#9^ Violoncellos:#47_ P8
+145.5 Oboes 1Â·2:solo#9_ Violoncellos:#47^ P8
+145.5 Oboes 1Â·2:solo#9_ Violoncellos:#47_ P8
+146.0 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9^ P8
+146.0 Bassoons 1Â·2:one#18^ Oboes 1Â·2:solo#9_ P8
+146.0 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9^ P8
+146.0 Bassoons 1Â·2:one#18_ Oboes 1Â·2:solo#9_ P8
+146.0 Oboes 1Â·2:solo#9^ Violoncellos:#47^ P8
+146.0 Oboes 1Â·2:solo#9^ Violoncellos:#47_ P8
+146.0 Oboes 1Â·2:solo#9_ Violoncellos:#47^ P8
+146.0 Oboes 1Â·2:solo#9_ Violoncellos:#47_ P8
+157.0 Double basses:#48^ Violoncellos:#47^ P8
+157.0 Double basses:#48^ Violoncellos:#47_ P8
+157.0 Double basses:#48_ Violoncellos:#47^ P8
+157.0 Double basses:#48_ Violoncellos:#47_ P8
+159.0 Double basses:#48^ Violoncellos:#47^ P8
+159.0 Double basses:#48^ Violoncellos:#47_ P8
+159.0 Double basses:#48_ Violoncellos:#47^ P8
+159.0 Double basses:#48_ Violoncellos:#47_ P8
+160.0 Double basses:#48^ Violoncellos:#47^ P8
+160.0 Double basses:#48^ Violoncellos:#47_ P8
+160.0 Double basses:#48_ Violoncellos:#47^ P8
+160.0 Double basses:#48_ Violoncellos:#47_ P8
+162.0 Double basses:#48^ Violoncellos:#47^ P8
+162.0 Double basses:#48^ Violoncellos:#47_ P8
+162.0 Double basses:#48_ Violoncellos:#47^ P8
+162.0 Double basses:#48_ Violoncellos:#47_ P8
+174.0 Double basses:#48^ Violoncellos:#47^ P8
+174.0 Double basses:#48^ Violoncellos:#47_ P8
+174.0 Double basses:#48_ Violoncellos:#47^ P8
+174.0 Double basses:#48_ Violoncellos:#47_ P8
+176.0 Double basses:#48^ Violoncellos:#47^ P8
+176.0 Double basses:#48^ Violoncellos:#47_ P8
+176.0 Double basses:#48_ Violoncellos:#47^ P8
+176.0 Double basses:#48_ Violoncellos:#47_ P8
+178.0 Double basses:#48^ Violoncellos:#47^ P8
+178.0 Double basses:#48^ Violoncellos:#47_ P8
+178.0 Double basses:#48_ Violoncellos:#47^ P8
+178.0 Double basses:#48_ Violoncellos:#47_ P8
+180.0 Double basses:#48^ Violoncellos:#47^ P8
+180.0 Double basses:#48^ Violoncellos:#47_ P8
+180.0 Double basses:#48_ Violoncellos:#47^ P8
+180.0 Double basses:#48_ Violoncellos:#47_ P8
+182.0 Double basses:#48^ Violoncellos:#47^ P8
+182.0 Double basses:#48^ Violoncellos:#47_ P8
+182.0 Double basses:#48_ Violoncellos:#47^ P8
+182.0 Double basses:#48_ Violoncellos:#47_ P8
+184.0 Double basses:#48^ Violoncellos:#47^ P8
+184.0 Double basses:#48^ Violoncellos:#47_ P8
+184.0 Double basses:#48_ Violoncellos:#47^ P8
+184.0 Double basses:#48_ Violoncellos:#47_ P8
+186.0 Double basses:#48^ Violoncellos:#47^ P8
+186.0 Double basses:#48^ Violoncellos:#47_ P8
+186.0 Double basses:#48_ Violoncellos:#47^ P8
+186.0 Double basses:#48_ Violoncellos:#47_ P8
+188.0 Double basses:#48^ Violoncellos:#47^ P8
+188.0 Double basses:#48^ Violoncellos:#47_ P8
+188.0 Double basses:#48_ Violoncellos:#47^ P8
+188.0 Double basses:#48_ Violoncellos:#47_ P8
+189.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6^ P8
+189.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6_ P8
+189.0 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+189.0 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+189.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6^ P8
+189.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6_ P8
+189.0 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+189.0 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+189.0 Oboes 1Â·2:one#6^ Violins I:#44^ P8
+189.0 Oboes 1Â·2:one#6^ Violins I:#44_ P8
+189.0 Oboes 1Â·2:one#6_ Violins I:#44^ P8
+189.0 Oboes 1Â·2:one#6_ Violins I:#44_ P8
+189.0 Violins I:#44^ Violins II:#45^ P8
+189.0 Violins I:#44^ Violins II:#45_ P8
+189.0 Violins I:#44_ Violins II:#45^ P8
+189.0 Violins I:#44_ Violins II:#45_ P8
+190.0 Bass clarinet:#17^ Double basses:#48^ P8
+190.0 Bass clarinet:#17^ Double basses:#48_ P8
+190.0 Bass clarinet:#17_ Double basses:#48^ P8
+190.0 Bass clarinet:#17_ Double basses:#48_ P8
+190.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+190.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+190.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+190.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+190.0 Double basses:#48^ Violoncellos:#47^ P8
+190.0 Double basses:#48^ Violoncellos:#47_ P8
+190.0 Double basses:#48_ Violoncellos:#47^ P8
+190.0 Double basses:#48_ Violoncellos:#47_ P8
+190.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6^ P8
+190.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6_ P8
+190.0 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+190.0 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+190.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6^ P8
+190.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6_ P8
+190.0 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+190.0 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+190.0 Oboes 1Â·2:one#6^ Violins I:#44^ P8
+190.0 Oboes 1Â·2:one#6^ Violins I:#44_ P8
+190.0 Oboes 1Â·2:one#6_ Violins I:#44^ P8
+190.0 Oboes 1Â·2:one#6_ Violins I:#44_ P8
+190.0 Violins I:#44^ Violins II:#45^ P8
+190.0 Violins I:#44^ Violins II:#45_ P8
+190.0 Violins I:#44_ Violins II:#45^ P8
+190.0 Violins I:#44_ Violins II:#45_ P8
+191.5 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6^ P8
+191.5 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6_ P8
+191.5 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+191.5 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+191.5 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6^ P8
+191.5 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6_ P8
+191.5 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+191.5 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+191.5 Oboes 1Â·2:one#6^ Violins I:#44^ P8
+191.5 Oboes 1Â·2:one#6^ Violins I:#44_ P8
+191.5 Oboes 1Â·2:one#6_ Violins I:#44^ P8
+191.5 Oboes 1Â·2:one#6_ Violins I:#44_ P8
+191.5 Violins I:#44^ Violins II:#45^ P8
+191.5 Violins I:#44^ Violins II:#45_ P8
+191.5 Violins I:#44_ Violins II:#45^ P8
+191.5 Violins I:#44_ Violins II:#45_ P8
+192.0 Bass clarinet:#17^ Double basses:#48^ P8
+192.0 Bass clarinet:#17^ Double basses:#48_ P8
+192.0 Bass clarinet:#17_ Double basses:#48^ P8
+192.0 Bass clarinet:#17_ Double basses:#48_ P8
+192.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+192.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+192.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+192.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+192.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6^ P8
+192.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6_ P8
+192.0 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+192.0 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+192.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6^ P8
+192.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6_ P8
+192.0 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+192.0 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+192.0 Horns 1Â·2:solo#27^ Violoncellos:#47^ P8
+192.0 Horns 1Â·2:solo#27^ Violoncellos:#47_ P8
+192.0 Horns 1Â·2:solo#27_ Violoncellos:#47^ P8
+192.0 Horns 1Â·2:solo#27_ Violoncellos:#47_ P8
+192.0 Oboes 1Â·2:one#6^ Violins I:#44^ P8
+192.0 Oboes 1Â·2:one#6^ Violins I:#44_ P8
+192.0 Oboes 1Â·2:one#6_ Violins I:#44^ P8
+192.0 Oboes 1Â·2:one#6_ Violins I:#44_ P8
+192.0 Violins I:#44^ Violins II:#45^ P8
+192.0 Violins I:#44^ Violins II:#45_ P8
+192.0 Violins I:#44_ Violins II:#45^ P8
+192.0 Violins I:#44_ Violins II:#45_ P8
+193.0 Bass clarinet:#17^ Double basses:#48^ P8
+193.0 Bass clarinet:#17^ Double basses:#48_ P8
+193.0 Bass clarinet:#17_ Double basses:#48^ P8
+193.0 Bass clarinet:#17_ Double basses:#48_ P8
+193.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+193.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+193.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+193.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+193.0 Horns 1Â·2:solo#27^ Violoncellos:#47^ P8
+193.0 Horns 1Â·2:solo#27^ Violoncellos:#47_ P8
+193.0 Horns 1Â·2:solo#27_ Violoncellos:#47^ P8
+193.0 Horns 1Â·2:solo#27_ Violoncellos:#47_ P8
+194.0 Bass clarinet:#17^ Double basses:#48^ P8
+194.0 Bass clarinet:#17^ Double basses:#48_ P8
+194.0 Bass clarinet:#17_ Double basses:#48^ P8
+194.0 Bass clarinet:#17_ Double basses:#48_ P8
+194.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+194.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+194.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+194.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+194.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6^ P8
+194.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6_ P8
+194.0 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+194.0 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+194.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6^ P8
+194.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6_ P8
+194.0 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+194.0 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+194.0 Oboes 1Â·2:one#6^ Violins I:#44^ P8
+194.0 Oboes 1Â·2:one#6^ Violins I:#44_ P8
+194.0 Oboes 1Â·2:one#6_ Violins I:#44^ P8
+194.0 Oboes 1Â·2:one#6_ Violins I:#44_ P8
+194.0 Violins I:#44^ Violins II:#45^ P8
+194.0 Violins I:#44^ Violins II:#45_ P8
+194.0 Violins I:#44_ Violins II:#45^ P8
+194.0 Violins I:#44_ Violins II:#45_ P8
+195.0 Bass clarinet:#17^ Double basses:#48^ P8
+195.0 Bass clarinet:#17^ Double basses:#48_ P8
+195.0 Bass clarinet:#17_ Double basses:#48^ P8
+195.0 Bass clarinet:#17_ Double basses:#48_ P8
+195.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+195.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+195.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+195.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+195.0 Horns 1Â·2:solo#27^ Violoncellos:#47^ P8
+195.0 Horns 1Â·2:solo#27^ Violoncellos:#47_ P8
+195.0 Horns 1Â·2:solo#27_ Violoncellos:#47^ P8
+195.0 Horns 1Â·2:solo#27_ Violoncellos:#47_ P8
+195.5 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6^ P8
+195.5 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6_ P8
+195.5 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+195.5 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+195.5 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6^ P8
+195.5 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6_ P8
+195.5 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+195.5 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+195.5 Oboes 1Â·2:one#6^ Violins I:#44^ P8
+195.5 Oboes 1Â·2:one#6^ Violins I:#44_ P8
+195.5 Oboes 1Â·2:one#6_ Violins I:#44^ P8
+195.5 Oboes 1Â·2:one#6_ Violins I:#44_ P8
+195.5 Violins I:#44^ Violins II:#45^ P8
+195.5 Violins I:#44^ Violins II:#45_ P8
+195.5 Violins I:#44_ Violins II:#45^ P8
+195.5 Violins I:#44_ Violins II:#45_ P8
+196.0 Bass clarinet:#17^ Double basses:#48^ P8
+196.0 Bass clarinet:#17^ Double basses:#48_ P8
+196.0 Bass clarinet:#17_ Double basses:#48^ P8
+196.0 Bass clarinet:#17_ Double basses:#48_ P8
+196.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+196.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+196.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+196.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+196.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6^ P8
+196.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6_ P8
+196.0 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+196.0 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+196.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6^ P8
+196.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6_ P8
+196.0 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+196.0 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+196.0 Horns 1Â·2:solo#27^ Violoncellos:#47^ P8
+196.0 Horns 1Â·2:solo#27^ Violoncellos:#47_ P8
+196.0 Horns 1Â·2:solo#27_ Violoncellos:#47^ P8
+196.0 Horns 1Â·2:solo#27_ Violoncellos:#47_ P8
+196.0 Oboes 1Â·2:one#6^ Violins I:#44^ P8
+196.0 Oboes 1Â·2:one#6^ Violins I:#44_ P8
+196.0 Oboes 1Â·2:one#6_ Violins I:#44^ P8
+196.0 Oboes 1Â·2:one#6_ Violins I:#44_ P8
+196.0 Violins I:#44^ Violins II:#45^ P8
+196.0 Violins I:#44^ Violins II:#45_ P8
+196.0 Violins I:#44_ Violins II:#45^ P8
+196.0 Violins I:#44_ Violins II:#45_ P8
+197.5 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6^ P8
+197.5 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6_ P8
+197.5 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+197.5 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+197.5 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6^ P8
+197.5 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6_ P8
+197.5 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+197.5 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+197.5 Oboes 1Â·2:one#6^ Violins I:#44^ P8
+197.5 Oboes 1Â·2:one#6^ Violins I:#44_ P8
+197.5 Oboes 1Â·2:one#6_ Violins I:#44^ P8
+197.5 Oboes 1Â·2:one#6_ Violins I:#44_ P8
+197.5 Violins I:#44^ Violins II:#45^ P8
+197.5 Violins I:#44^ Violins II:#45_ P8
+197.5 Violins I:#44_ Violins II:#45^ P8
+197.5 Violins I:#44_ Violins II:#45_ P8
+198.0 Bass clarinet:#17^ Double basses:#48^ P8
+198.0 Bass clarinet:#17^ Double basses:#48_ P8
+198.0 Bass clarinet:#17_ Double basses:#48^ P8
+198.0 Bass clarinet:#17_ Double basses:#48_ P8
+198.0 Bassoons 1Â·2:one#18^ Horns 1Â·2:solo#27^ P8
+198.0 Bassoons 1Â·2:one#18^ Horns 1Â·2:solo#27_ P8
+198.0 Bassoons 1Â·2:one#18_ Horns 1Â·2:solo#27^ P8
+198.0 Bassoons 1Â·2:one#18_ Horns 1Â·2:solo#27_ P8
+198.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+198.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+198.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+198.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+198.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6^ P8
+198.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6_ P8
+198.0 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+198.0 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+198.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6^ P8
+198.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6_ P8
+198.0 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+198.0 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+198.0 Horns 1Â·2:solo#27^ Violoncellos:#47^ P8
+198.0 Horns 1Â·2:solo#27^ Violoncellos:#47_ P8
+198.0 Horns 1Â·2:solo#27_ Violoncellos:#47^ P8
+198.0 Horns 1Â·2:solo#27_ Violoncellos:#47_ P8
+198.0 Oboes 1Â·2:one#6^ Violins I:#44^ P8
+198.0 Oboes 1Â·2:one#6^ Violins I:#44_ P8
+198.0 Oboes 1Â·2:one#6_ Violins I:#44^ P8
+198.0 Oboes 1Â·2:one#6_ Violins I:#44_ P8
+198.0 Violins I:#44^ Violins II:#45^ P8
+198.0 Violins I:#44^ Violins II:#45_ P8
+198.0 Violins I:#44_ Violins II:#45^ P8
+198.0 Violins I:#44_ Violins II:#45_ P8
+199.0 Bassoons 1Â·2:one#18^ Horns 1Â·2:solo#27^ P8
+199.0 Bassoons 1Â·2:one#18^ Horns 1Â·2:solo#27_ P8
+199.0 Bassoons 1Â·2:one#18_ Horns 1Â·2:solo#27^ P8
+199.0 Bassoons 1Â·2:one#18_ Horns 1Â·2:solo#27_ P8
+199.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6^ P8
+199.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6_ P8
+199.0 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+199.0 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+199.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6^ P8
+199.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6_ P8
+199.0 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+199.0 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+199.0 Horns 1Â·2:solo#27^ Violoncellos:#47^ P8
+199.0 Horns 1Â·2:solo#27^ Violoncellos:#47_ P8
+199.0 Horns 1Â·2:solo#27_ Violoncellos:#47^ P8
+199.0 Horns 1Â·2:solo#27_ Violoncellos:#47_ P8
+199.0 Oboes 1Â·2:one#6^ Violins I:#44^ P8
+199.0 Oboes 1Â·2:one#6^ Violins I:#44_ P8
+199.0 Oboes 1Â·2:one#6_ Violins I:#44^ P8
+199.0 Oboes 1Â·2:one#6_ Violins I:#44_ P8
+199.0 Violins I:#44^ Violins II:#45^ P8
+199.0 Violins I:#44^ Violins II:#45_ P8
+199.0 Violins I:#44_ Violins II:#45^ P8
+199.0 Violins I:#44_ Violins II:#45_ P8
+200.0 Bass clarinet:#17^ Double basses:#48^ P8
+200.0 Bass clarinet:#17^ Double basses:#48_ P8
+200.0 Bass clarinet:#17_ Double basses:#48^ P8
+200.0 Bass clarinet:#17_ Double basses:#48_ P8
+200.0 Bassoons 1Â·2:one#18^ Horns 1Â·2:solo#27^ P8
+200.0 Bassoons 1Â·2:one#18^ Horns 1Â·2:solo#27_ P8
+200.0 Bassoons 1Â·2:one#18_ Horns 1Â·2:solo#27^ P8
+200.0 Bassoons 1Â·2:one#18_ Horns 1Â·2:solo#27_ P8
+200.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+200.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+200.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+200.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+200.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6^ P8
+200.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6_ P8
+200.0 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+200.0 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+200.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6^ P8
+200.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6_ P8
+200.0 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+200.0 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+200.0 Horns 1Â·2:solo#27^ Violoncellos:#47^ P8
+200.0 Horns 1Â·2:solo#27^ Violoncellos:#47_ P8
+200.0 Horns 1Â·2:solo#27_ Violoncellos:#47^ P8
+200.0 Horns 1Â·2:solo#27_ Violoncellos:#47_ P8
+200.0 Oboes 1Â·2:one#6^ Violins I:#44^ P8
+200.0 Oboes 1Â·2:one#6^ Violins I:#44_ P8
+200.0 Oboes 1Â·2:one#6_ Violins I:#44^ P8
+200.0 Oboes 1Â·2:one#6_ Violins I:#44_ P8
+200.0 Violins I:#44^ Violins II:#45^ P8
+200.0 Violins I:#44^ Violins II:#45_ P8
+200.0 Violins I:#44_ Violins II:#45^ P8
+200.0 Violins I:#44_ Violins II:#45_ P8
+201.0 Bassoons 1Â·2:one#18^ Horns 1Â·2:solo#27^ P8
+201.0 Bassoons 1Â·2:one#18^ Horns 1Â·2:solo#27_ P8
+201.0 Bassoons 1Â·2:one#18_ Horns 1Â·2:solo#27^ P8
+201.0 Bassoons 1Â·2:one#18_ Horns 1Â·2:solo#27_ P8
+201.0 Horns 1Â·2:solo#27^ Violoncellos:#47^ P8
+201.0 Horns 1Â·2:solo#27^ Violoncellos:#47_ P8
+201.0 Horns 1Â·2:solo#27_ Violoncellos:#47^ P8
+201.0 Horns 1Â·2:solo#27_ Violoncellos:#47_ P8
+202.0 Bassoons 1Â·2:one#18^ Horns 1Â·2:solo#27^ P8
+202.0 Bassoons 1Â·2:one#18^ Horns 1Â·2:solo#27_ P8
+202.0 Bassoons 1Â·2:one#18_ Horns 1Â·2:solo#27^ P8
+202.0 Bassoons 1Â·2:one#18_ Horns 1Â·2:solo#27_ P8
+202.0 Horns 1Â·2:solo#27^ Violoncellos:#47^ P8
+202.0 Horns 1Â·2:solo#27^ Violoncellos:#47_ P8
+202.0 Horns 1Â·2:solo#27_ Violoncellos:#47^ P8
+202.0 Horns 1Â·2:solo#27_ Violoncellos:#47_ P8
+203.5 Bassoons 1Â·2:one#18^ Horns 1Â·2:solo#27^ P8
+203.5 Bassoons 1Â·2:one#18^ Horns 1Â·2:solo#27_ P8
+203.5 Bassoons 1Â·2:one#18_ Horns 1Â·2:solo#27^ P8
+203.5 Bassoons 1Â·2:one#18_ Horns 1Â·2:solo#27_ P8
+203.5 Horns 1Â·2:solo#27^ Violoncellos:#47^ P8
+203.5 Horns 1Â·2:solo#27^ Violoncellos:#47_ P8
+203.5 Horns 1Â·2:solo#27_ Violoncellos:#47^ P8
+203.5 Horns 1Â·2:solo#27_ Violoncellos:#47_ P8
+204.0 Bass clarinet:#17^ Double basses:#48^ P8
+204.0 Bass clarinet:#17^ Double basses:#48_ P8
+204.0 Bass clarinet:#17^ Tuba:#40^ P8
+204.0 Bass clarinet:#17^ Tuba:#40_ P8
+204.0 Bass clarinet:#17_ Double basses:#48^ P8
+204.0 Bass clarinet:#17_ Double basses:#48_ P8
+204.0 Bass clarinet:#17_ Tuba:#40^ P8
+204.0 Bass clarinet:#17_ Tuba:#40_ P8
+204.0 Bass trombone:#39^ Double basses:#48^ P8
+204.0 Bass trombone:#39^ Double basses:#48_ P8
+204.0 Bass trombone:#39^ Tuba:#40^ P8
+204.0 Bass trombone:#39^ Tuba:#40_ P8
+204.0 Bass trombone:#39_ Double basses:#48^ P8
+204.0 Bass trombone:#39_ Double basses:#48_ P8
+204.0 Bass trombone:#39_ Tuba:#40^ P8
+204.0 Bass trombone:#39_ Tuba:#40_ P8
+204.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+204.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+204.0 Bassoons 1Â·2:two#19^ Tuba:#40^ P8
+204.0 Bassoons 1Â·2:two#19^ Tuba:#40_ P8
+204.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+204.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+204.0 Bassoons 1Â·2:two#19_ Tuba:#40^ P8
+204.0 Bassoons 1Â·2:two#19_ Tuba:#40_ P8
+204.0 Trombones 1Â·2:solo#37^ Violas:#46^ P8
+204.0 Trombones 1Â·2:solo#37_ Violas:#46^ P8
+206.0 Clarinets 1Â·2:two#13^ Flutes 1Â·2:two#2^ P8
+206.0 Clarinets 1Â·2:two#13^ Flutes 1Â·2:two#2_ P8
+206.0 Clarinets 1Â·2:two#13^ Violoncellos:#47^ P8
+206.0 Clarinets 1Â·2:two#13^ Violoncellos:#47_ P8
+206.0 Clarinets 1Â·2:two#13_ Flutes 1Â·2:two#2^ P8
+206.0 Clarinets 1Â·2:two#13_ Flutes 1Â·2:two#2_ P8
+206.0 Clarinets 1Â·2:two#13_ Violoncellos:#47^ P8
+206.0 Clarinets 1Â·2:two#13_ Violoncellos:#47_ P8
+206.0 Flutes 1Â·2:two#2^ Violins II:#45^ P8
+206.0 Flutes 1Â·2:two#2^ Violins II:#45_ P8
+206.0 Flutes 1Â·2:two#2^ Violoncellos:#47^ P8
+206.0 Flutes 1Â·2:two#2^ Violoncellos:#47_ P8
+206.0 Flutes 1Â·2:two#2_ Violins II:#45^ P8
+206.0 Flutes 1Â·2:two#2_ Violins II:#45_ P8
+206.0 Flutes 1Â·2:two#2_ Violoncellos:#47^ P8
+206.0 Flutes 1Â·2:two#2_ Violoncellos:#47_ P8
+206.0 Violins II:#45^ Violoncellos:#47^ P8
+206.0 Violins II:#45^ Violoncellos:#47_ P8
+206.0 Violins II:#45_ Violoncellos:#47^ P8
+206.0 Violins II:#45_ Violoncellos:#47_ P8
+208.0 Bass clarinet:#17^ Double basses:#48^ P8
+208.0 Bass clarinet:#17^ Double basses:#48_ P8
+208.0 Bass clarinet:#17^ Tuba:#40^ P8
+208.0 Bass clarinet:#17^ Tuba:#40_ P8
+208.0 Bass clarinet:#17_ Double basses:#48^ P8
+208.0 Bass clarinet:#17_ Double basses:#48_ P8
+208.0 Bass clarinet:#17_ Tuba:#40^ P8
+208.0 Bass clarinet:#17_ Tuba:#40_ P8
+208.0 Bass trombone:#39^ Double basses:#48^ P8
+208.0 Bass trombone:#39^ Double basses:#48_ P8
+208.0 Bass trombone:#39^ Tuba:#40^ P8
+208.0 Bass trombone:#39^ Tuba:#40_ P8
+208.0 Bass trombone:#39_ Double basses:#48^ P8
+208.0 Bass trombone:#39_ Double basses:#48_ P8
+208.0 Bass trombone:#39_ Tuba:#40^ P8
+208.0 Bass trombone:#39_ Tuba:#40_ P8
+208.0 Bassoons 1Â·2:one#18^ Flutes 1Â·2:two#2^ P8
+208.0 Bassoons 1Â·2:one#18^ Flutes 1Â·2:two#2_ P8
+208.0 Bassoons 1Â·2:one#18^ Violins I:#44^ P8
+208.0 Bassoons 1Â·2:one#18^ Violins I:#44_ P8
+208.0 Bassoons 1Â·2:one#18^ Violins II:#45^ P8
+208.0 Bassoons 1Â·2:one#18^ Violins II:#45_ P8
+208.0 Bassoons 1Â·2:one#18_ Flutes 1Â·2:two#2^ P8
+208.0 Bassoons 1Â·2:one#18_ Flutes 1Â·2:two#2_ P8
+208.0 Bassoons 1Â·2:one#18_ Violins I:#44^ P8
+208.0 Bassoons 1Â·2:one#18_ Violins I:#44_ P8
+208.0 Bassoons 1Â·2:one#18_ Violins II:#45^ P8
+208.0 Bassoons 1Â·2:one#18_ Violins II:#45_ P8
+208.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+208.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+208.0 Bassoons 1Â·2:two#19^ Tuba:#40^ P8
+208.0 Bassoons 1Â·2:two#19^ Tuba:#40_ P8
+208.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+208.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+208.0 Bassoons 1Â·2:two#19_ Tuba:#40^ P8
+208.0 Bassoons 1Â·2:two#19_ Tuba:#40_ P8
+208.0 Flutes 1Â·2:two#2^ Violins II:#45^ P8
+208.0 Flutes 1Â·2:two#2^ Violins II:#45_ P8
+208.0 Flutes 1Â·2:two#2^ Violoncellos:#47^ P8
+208.0 Flutes 1Â·2:two#2^ Violoncellos:#47_ P8
+208.0 Flutes 1Â·2:two#2_ Violins II:#45^ P8
+208.0 Flutes 1Â·2:two#2_ Violins II:#45_ P8
+208.0 Flutes 1Â·2:two#2_ Violoncellos:#47^ P8
+208.0 Flutes 1Â·2:two#2_ Violoncellos:#47_ P8
+208.0 Horns 3Â·4:shared#31^ Trombones 1Â·2:solo#37^ P8
+208.0 Horns 3Â·4:shared#31^ Trombones 1Â·2:solo#37_ P8
+208.0 Horns 3Â·4:shared#31_ Trombones 1Â·2:solo#37^ P8
+208.0 Horns 3Â·4:shared#31_ Trombones 1Â·2:solo#37_ P8
+208.0 Violins I:#44^ Violins II:#45^ P8
+208.0 Violins I:#44^ Violins II:#45_ P8
+208.0 Violins I:#44^ Violoncellos:#47^ P8
+208.0 Violins I:#44^ Violoncellos:#47_ P8
+208.0 Violins I:#44_ Violins II:#45^ P8
+208.0 Violins I:#44_ Violins II:#45_ P8
+208.0 Violins I:#44_ Violoncellos:#47^ P8
+208.0 Violins I:#44_ Violoncellos:#47_ P8
+208.0 Violins II:#45^ Violoncellos:#47^ P8
+208.0 Violins II:#45^ Violoncellos:#47_ P8
+208.0 Violins II:#45_ Violoncellos:#47^ P8
+208.0 Violins II:#45_ Violoncellos:#47_ P8
+210.0 Bass clarinet:#17^ Contrabassoon:#23^ P8
+210.0 Bass clarinet:#17^ Contrabassoon:#23_ P8
+210.0 Bass clarinet:#17^ Double basses:#48^ P8
+210.0 Bass clarinet:#17^ Double basses:#48_ P8
+210.0 Bass clarinet:#17^ Tuba:#40^ P8
+210.0 Bass clarinet:#17^ Tuba:#40_ P8
+210.0 Bass clarinet:#17_ Contrabassoon:#23^ P8
+210.0 Bass clarinet:#17_ Contrabassoon:#23_ P8
+210.0 Bass clarinet:#17_ Double basses:#48^ P8
+210.0 Bass clarinet:#17_ Double basses:#48_ P8
+210.0 Bass clarinet:#17_ Tuba:#40^ P8
+210.0 Bass clarinet:#17_ Tuba:#40_ P8
+210.0 Bass trombone:#39^ Contrabassoon:#23^ P8
+210.0 Bass trombone:#39^ Contrabassoon:#23_ P8
+210.0 Bass trombone:#39^ Double basses:#48^ P8
+210.0 Bass trombone:#39^ Double basses:#48_ P8
+210.0 Bass trombone:#39^ Tuba:#40^ P8
+210.0 Bass trombone:#39^ Tuba:#40_ P8
+210.0 Bass trombone:#39_ Contrabassoon:#23^ P8
+210.0 Bass trombone:#39_ Contrabassoon:#23_ P8
+210.0 Bass trombone:#39_ Double basses:#48^ P8
+210.0 Bass trombone:#39_ Double basses:#48_ P8
+210.0 Bass trombone:#39_ Tuba:#40^ P8
+210.0 Bass trombone:#39_ Tuba:#40_ P8
+210.0 Bassoons 1Â·2:one#18^ Flutes 1Â·2:two#2^ P8
+210.0 Bassoons 1Â·2:one#18^ Flutes 1Â·2:two#2_ P8
+210.0 Bassoons 1Â·2:one#18^ Oboes 1Â·2:one#6^ P8
+210.0 Bassoons 1Â·2:one#18^ Oboes 1Â·2:one#6_ P8
+210.0 Bassoons 1Â·2:one#18^ Violins II:#45^ P8
+210.0 Bassoons 1Â·2:one#18^ Violins II:#45_ P8
+210.0 Bassoons 1Â·2:one#18_ Flutes 1Â·2:two#2^ P8
+210.0 Bassoons 1Â·2:one#18_ Flutes 1Â·2:two#2_ P8
+210.0 Bassoons 1Â·2:one#18_ Oboes 1Â·2:one#6^ P8
+210.0 Bassoons 1Â·2:one#18_ Oboes 1Â·2:one#6_ P8
+210.0 Bassoons 1Â·2:one#18_ Violins II:#45^ P8
+210.0 Bassoons 1Â·2:one#18_ Violins II:#45_ P8
+210.0 Bassoons 1Â·2:two#19^ Contrabassoon:#23^ P8
+210.0 Bassoons 1Â·2:two#19^ Contrabassoon:#23_ P8
+210.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+210.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+210.0 Bassoons 1Â·2:two#19^ Tuba:#40^ P8
+210.0 Bassoons 1Â·2:two#19^ Tuba:#40_ P8
+210.0 Bassoons 1Â·2:two#19_ Contrabassoon:#23^ P8
+210.0 Bassoons 1Â·2:two#19_ Contrabassoon:#23_ P8
+210.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+210.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+210.0 Bassoons 1Â·2:two#19_ Tuba:#40^ P8
+210.0 Bassoons 1Â·2:two#19_ Tuba:#40_ P8
+210.0 Clarinets 1Â·2:shared#14^ Horns 1Â·2:solo#27^ P8
+210.0 Clarinets 1Â·2:shared#14^ Horns 1Â·2:solo#27_ P8
+210.0 Clarinets 1Â·2:shared#14_ Trombones 1Â·2:solo#37^ P8
+210.0 Clarinets 1Â·2:shared#14_ Trombones 1Â·2:solo#37_ P8
+210.0 Flutes 1Â·2:two#2^ Oboes 1Â·2:one#6^ P8
+210.0 Flutes 1Â·2:two#2^ Oboes 1Â·2:one#6_ P8
+210.0 Flutes 1Â·2:two#2^ Violins II:#45^ P8
+210.0 Flutes 1Â·2:two#2^ Violins II:#45_ P8
+210.0 Flutes 1Â·2:two#2^ Violoncellos:#47^ P8
+210.0 Flutes 1Â·2:two#2^ Violoncellos:#47_ P8
+210.0 Flutes 1Â·2:two#2_ Oboes 1Â·2:one#6^ P8
+210.0 Flutes 1Â·2:two#2_ Oboes 1Â·2:one#6_ P8
+210.0 Flutes 1Â·2:two#2_ Violins II:#45^ P8
+210.0 Flutes 1Â·2:two#2_ Violins II:#45_ P8
+210.0 Flutes 1Â·2:two#2_ Violoncellos:#47^ P8
+210.0 Flutes 1Â·2:two#2_ Violoncellos:#47_ P8
+210.0 Horns 3Â·4:shared#31^ Trombones 1Â·2:solo#37^ P8
+210.0 Horns 3Â·4:shared#31^ Trombones 1Â·2:solo#37_ P8
+210.0 Horns 3Â·4:shared#31_ Trombones 1Â·2:solo#37^ P8
+210.0 Horns 3Â·4:shared#31_ Trombones 1Â·2:solo#37_ P8
+210.0 Oboes 1Â·2:one#6^ Violoncellos:#47^ P8
+210.0 Oboes 1Â·2:one#6^ Violoncellos:#47_ P8
+210.0 Oboes 1Â·2:one#6_ Violoncellos:#47^ P8
+210.0 Oboes 1Â·2:one#6_ Violoncellos:#47_ P8
+210.0 Violins II:#45^ Violoncellos:#47^ P8
+210.0 Violins II:#45^ Violoncellos:#47_ P8
+210.0 Violins II:#45_ Violoncellos:#47^ P8
+210.0 Violins II:#45_ Violoncellos:#47_ P8
+212.0 Bass trombone:#39^ Double basses:#48^ P8
+212.0 Bass trombone:#39^ Double basses:#48_ P8
+212.0 Bass trombone:#39_ Double basses:#48^ P8
+212.0 Bass trombone:#39_ Double basses:#48_ P8
+212.0 Violas:#46^ Violins II:#45^ P8
+237.5 Violins I:#44^ Violins II:#45^ P8
+237.5 Violins I:#44^ Violins II:#45_ P8
+237.5 Violins I:#44_ Violins II:#45^ P8
+237.5 Violins I:#44_ Violins II:#45_ P8
+238.0 Violins I:#44^ Violins II:#45^ P8
+238.0 Violins I:#44^ Violins II:#45_ P8
+238.0 Violins I:#44_ Violins II:#45^ P8
+238.0 Violins I:#44_ Violins II:#45_ P8
+239.5 Violins I:#44^ Violins II:#45^ P8
+239.5 Violins I:#44^ Violins II:#45_ P8
+239.5 Violins I:#44_ Violins II:#45^ P8
+239.5 Violins I:#44_ Violins II:#45_ P8
+240.0 Violins I:#44^ Violins II:#45^ P8
+240.0 Violins I:#44^ Violins II:#45_ P8
+240.0 Violins I:#44_ Violins II:#45^ P8
+240.0 Violins I:#44_ Violins II:#45_ P8
+242.0 Bassoons 1Â·2:solo#21^ Double basses:#48^ P8
+242.0 Bassoons 1Â·2:solo#21^ Double basses:#48_ P8
+242.0 Bassoons 1Â·2:solo#21_ Double basses:#48^ P8
+242.0 Bassoons 1Â·2:solo#21_ Double basses:#48_ P8
+242.0 Violins I:#44^ Violins II:#45^ P8
+242.0 Violins I:#44^ Violins II:#45_ P8
+242.0 Violins I:#44_ Violins II:#45^ P8
+242.0 Violins I:#44_ Violins II:#45_ P8
+243.0 Bassoons 1Â·2:solo#21^ Double basses:#48^ P8
+243.0 Bassoons 1Â·2:solo#21^ Double basses:#48_ P8
+243.0 Bassoons 1Â·2:solo#21_ Double basses:#48^ P8
+243.0 Bassoons 1Â·2:solo#21_ Double basses:#48_ P8
+243.0 Violins I:#44^ Violins II:#45^ P8
+243.0 Violins I:#44^ Violins II:#45_ P8
+243.0 Violins I:#44_ Violins II:#45^ P8
+243.0 Violins I:#44_ Violins II:#45_ P8
+244.0 Bassoons 1Â·2:solo#21^ Double basses:#48^ P8
+244.0 Bassoons 1Â·2:solo#21^ Double basses:#48_ P8
+244.0 Bassoons 1Â·2:solo#21_ Double basses:#48^ P8
+244.0 Bassoons 1Â·2:solo#21_ Double basses:#48_ P8
+244.0 Violins I:#44^ Violins II:#45^ P8
+244.0 Violins I:#44^ Violins II:#45_ P8
+244.0 Violins I:#44_ Violins II:#45^ P8
+244.0 Violins I:#44_ Violins II:#45_ P8
+245.5 Violins I:#44^ Violins II:#45^ P8
+245.5 Violins I:#44^ Violins II:#45_ P8
+245.5 Violins I:#44_ Violins II:#45^ P8
+245.5 Violins I:#44_ Violins II:#45_ P8
+246.0 Violins I:#44^ Violins II:#45^ P8
+246.0 Violins I:#44^ Violins II:#45_ P8
+246.0 Violins I:#44_ Violins II:#45^ P8
+246.0 Violins I:#44_ Violins II:#45_ P8
+247.0 Violins I:#44^ Violins II:#45^ P8
+247.0 Violins I:#44^ Violins II:#45_ P8
+247.0 Violins I:#44_ Violins II:#45^ P8
+247.0 Violins I:#44_ Violins II:#45_ P8
+249.0 Violins I:#44^ Violins II:#45^ P8
+249.0 Violins I:#44^ Violins II:#45_ P8
+249.0 Violins I:#44_ Violins II:#45^ P8
+249.0 Violins I:#44_ Violins II:#45_ P8
+249.5 Violins I:#44^ Violins II:#45^ P8
+249.5 Violins I:#44^ Violins II:#45_ P8
+249.5 Violins I:#44_ Violins II:#45^ P8
+249.5 Violins I:#44_ Violins II:#45_ P8
+250.0 Violins I:#44^ Violins II:#45^ P8
+250.0 Violins I:#44^ Violins II:#45_ P8
+250.0 Violins I:#44_ Violins II:#45^ P8
+250.0 Violins I:#44_ Violins II:#45_ P8
+251.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+251.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+251.0 Bassoons 1Â·2:two#19^ Harp LH:#43_ P8
+251.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+251.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+251.0 Bassoons 1Â·2:two#19_ Harp LH:#43_ P8
+251.5 Violins I:#44^ Violins II:#45^ P8
+251.5 Violins I:#44^ Violins II:#45_ P8
+251.5 Violins I:#44_ Violins II:#45^ P8
+251.5 Violins I:#44_ Violins II:#45_ P8
+252.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+252.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+252.0 Bassoons 1Â·2:two#19^ Harp LH:#43^ P8
+252.0 Bassoons 1Â·2:two#19^ Harp LH:#43_ P8
+252.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+252.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+252.0 Bassoons 1Â·2:two#19_ Harp LH:#43^ P8
+252.0 Bassoons 1Â·2:two#19_ Harp LH:#43_ P8
+252.0 Violins I:#44^ Violins II:#45^ P8
+252.0 Violins I:#44^ Violins II:#45_ P8
+252.0 Violins I:#44_ Violins II:#45^ P8
+252.0 Violins I:#44_ Violins II:#45_ P8
+254.0 Violins I:#44^ Violins II:#45^ P8
+254.0 Violins I:#44^ Violins II:#45_ P8
+254.0 Violins I:#44_ Violins II:#45^ P8
+254.0 Violins I:#44_ Violins II:#45_ P8
+255.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+255.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+255.0 Bassoons 1Â·2:two#19^ Harp LH:#43_ P8
+255.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+255.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+255.0 Bassoons 1Â·2:two#19_ Harp LH:#43_ P8
+255.0 Violins I:#44^ Violins II:#45^ P8
+255.0 Violins I:#44^ Violins II:#45_ P8
+255.0 Violins I:#44_ Violins II:#45^ P8
+255.0 Violins I:#44_ Violins II:#45_ P8
+256.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+256.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+256.0 Bassoons 1Â·2:two#19^ Harp LH:#43^ P8
+256.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+256.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+256.0 Bassoons 1Â·2:two#19_ Harp LH:#43^ P8
+256.0 Violins I:#44^ Violins II:#45^ P8
+256.0 Violins I:#44^ Violins II:#45_ P8
+256.0 Violins I:#44_ Violins II:#45^ P8
+256.0 Violins I:#44_ Violins II:#45_ P8
+257.0 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4^ P8
+257.0 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4_ P8
+257.0 Clarinets 1Â·2:one#12^ Violins I:#44^ P8
+257.0 Clarinets 1Â·2:one#12^ Violins I:#44_ P8
+257.0 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4^ P8
+257.0 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4_ P8
+257.0 Clarinets 1Â·2:one#12_ Violins I:#44^ P8
+257.0 Clarinets 1Â·2:one#12_ Violins I:#44_ P8
+257.0 Flutes 1Â·2:solo#4^ Violins II:#45^ P8
+257.0 Flutes 1Â·2:solo#4^ Violins II:#45_ P8
+257.0 Flutes 1Â·2:solo#4_ Violins II:#45^ P8
+257.0 Flutes 1Â·2:solo#4_ Violins II:#45_ P8
+257.0 Violins I:#44^ Violins II:#45^ P8
+257.0 Violins I:#44^ Violins II:#45_ P8
+257.0 Violins I:#44_ Violins II:#45^ P8
+257.0 Violins I:#44_ Violins II:#45_ P8
+257.5 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4^ P8
+257.5 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4_ P8
+257.5 Clarinets 1Â·2:one#12^ Violins I:#44^ P8
+257.5 Clarinets 1Â·2:one#12^ Violins I:#44_ P8
+257.5 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4^ P8
+257.5 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4_ P8
+257.5 Clarinets 1Â·2:one#12_ Violins I:#44^ P8
+257.5 Clarinets 1Â·2:one#12_ Violins I:#44_ P8
+257.5 Flutes 1Â·2:solo#4^ Violins II:#45^ P8
+257.5 Flutes 1Â·2:solo#4^ Violins II:#45_ P8
+257.5 Flutes 1Â·2:solo#4_ Violins II:#45^ P8
+257.5 Flutes 1Â·2:solo#4_ Violins II:#45_ P8
+257.5 Violins I:#44^ Violins II:#45^ P8
+257.5 Violins I:#44^ Violins II:#45_ P8
+257.5 Violins I:#44_ Violins II:#45^ P8
+257.5 Violins I:#44_ Violins II:#45_ P8
+258.0 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4^ P8
+258.0 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4_ P8
+258.0 Clarinets 1Â·2:one#12^ Violins I:#44^ P8
+258.0 Clarinets 1Â·2:one#12^ Violins I:#44_ P8
+258.0 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4^ P8
+258.0 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4_ P8
+258.0 Clarinets 1Â·2:one#12_ Violins I:#44^ P8
+258.0 Clarinets 1Â·2:one#12_ Violins I:#44_ P8
+258.0 Flutes 1Â·2:solo#4^ Violins II:#45^ P8
+258.0 Flutes 1Â·2:solo#4^ Violins II:#45_ P8
+258.0 Flutes 1Â·2:solo#4_ Violins II:#45^ P8
+258.0 Flutes 1Â·2:solo#4_ Violins II:#45_ P8
+258.0 Violins I:#44^ Violins II:#45^ P8
+258.0 Violins I:#44^ Violins II:#45_ P8
+258.0 Violins I:#44_ Violins II:#45^ P8
+258.0 Violins I:#44_ Violins II:#45_ P8
+258.5 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4^ P8
+258.5 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4_ P8
+258.5 Clarinets 1Â·2:one#12^ Violins I:#44^ P8
+258.5 Clarinets 1Â·2:one#12^ Violins I:#44_ P8
+258.5 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4^ P8
+258.5 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4_ P8
+258.5 Clarinets 1Â·2:one#12_ Violins I:#44^ P8
+258.5 Clarinets 1Â·2:one#12_ Violins I:#44_ P8
+258.5 Flutes 1Â·2:solo#4^ Violins II:#45^ P8
+258.5 Flutes 1Â·2:solo#4^ Violins II:#45_ P8
+258.5 Flutes 1Â·2:solo#4_ Violins II:#45^ P8
+258.5 Flutes 1Â·2:solo#4_ Violins II:#45_ P8
+258.5 Violins I:#44^ Violins II:#45^ P8
+258.5 Violins I:#44^ Violins II:#45_ P8
+258.5 Violins I:#44_ Violins II:#45^ P8
+258.5 Violins I:#44_ Violins II:#45_ P8
+259.0 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4^ P8
+259.0 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4_ P8
+259.0 Clarinets 1Â·2:one#12^ Violins I:#44^ P8
+259.0 Clarinets 1Â·2:one#12^ Violins I:#44_ P8
+259.0 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4^ P8
+259.0 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4_ P8
+259.0 Clarinets 1Â·2:one#12_ Violins I:#44^ P8
+259.0 Clarinets 1Â·2:one#12_ Violins I:#44_ P8
+259.0 Flutes 1Â·2:solo#4^ Violins II:#45^ P8
+259.0 Flutes 1Â·2:solo#4^ Violins II:#45_ P8
+259.0 Flutes 1Â·2:solo#4_ Violins II:#45^ P8
+259.0 Flutes 1Â·2:solo#4_ Violins II:#45_ P8
+259.0 Violins I:#44^ Violins II:#45^ P8
+259.0 Violins I:#44^ Violins II:#45_ P8
+259.0 Violins I:#44_ Violins II:#45^ P8
+259.0 Violins I:#44_ Violins II:#45_ P8
+261.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+261.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+261.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+261.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+261.0 Violins I:#44^ Violins II:#45^ P8
+261.0 Violins I:#44^ Violins II:#45_ P8
+261.0 Violins I:#44_ Violins II:#45^ P8
+261.0 Violins I:#44_ Violins II:#45_ P8
+262.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+262.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+262.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+262.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+262.0 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+262.0 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+262.0 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+262.0 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+262.0 Violins I:#44^ Violins II:#45^ P8
+262.0 Violins I:#44^ Violins II:#45_ P8
+262.0 Violins I:#44_ Violins II:#45^ P8
+262.0 Violins I:#44_ Violins II:#45_ P8
+266.0 Clarinets 1Â·2:one#12^ Flutes 1Â·2:one#1^ P8
+266.0 Clarinets 1Â·2:one#12^ Flutes 1Â·2:one#1_ P8
+266.0 Clarinets 1Â·2:one#12^ Violas:#46^ P8
+266.0 Clarinets 1Â·2:one#12^ Violas:#46_ P8
+266.0 Clarinets 1Â·2:one#12^ Violins I:#44^ P8
+266.0 Clarinets 1Â·2:one#12^ Violins I:#44_ P8
+266.0 Clarinets 1Â·2:one#12_ Flutes 1Â·2:one#1^ P8
+266.0 Clarinets 1Â·2:one#12_ Flutes 1Â·2:one#1_ P8
+266.0 Clarinets 1Â·2:one#12_ Violas:#46^ P8
+266.0 Clarinets 1Â·2:one#12_ Violas:#46_ P8
+266.0 Clarinets 1Â·2:one#12_ Violins I:#44^ P8
+266.0 Clarinets 1Â·2:one#12_ Violins I:#44_ P8
+266.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6^ P8
+266.0 Flutes 1Â·2:one#1^ Oboes 1Â·2:one#6_ P8
+266.0 Flutes 1Â·2:one#1^ Violas:#46^ P8
+266.0 Flutes 1Â·2:one#1^ Violas:#46_ P8
+266.0 Flutes 1Â·2:one#1^ Violins II:#45^ P8
+266.0 Flutes 1Â·2:one#1^ Violins II:#45_ P8
+266.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6^ P8
+266.0 Flutes 1Â·2:one#1_ Oboes 1Â·2:one#6_ P8
+266.0 Flutes 1Â·2:one#1_ Violas:#46^ P8
+266.0 Flutes 1Â·2:one#1_ Violas:#46_ P8
+266.0 Flutes 1Â·2:one#1_ Violins II:#45^ P8
+266.0 Flutes 1Â·2:one#1_ Violins II:#45_ P8
+266.0 Oboes 1Â·2:one#6^ Violas:#46^ P8
+266.0 Oboes 1Â·2:one#6^ Violas:#46_ P8
+266.0 Oboes 1Â·2:one#6^ Violins I:#44^ P8
+266.0 Oboes 1Â·2:one#6^ Violins I:#44_ P8
+266.0 Oboes 1Â·2:one#6_ Violas:#46^ P8
+266.0 Oboes 1Â·2:one#6_ Violas:#46_ P8
+266.0 Oboes 1Â·2:one#6_ Violins I:#44^ P8
+266.0 Oboes 1Â·2:one#6_ Violins I:#44_ P8
+266.0 Violas:#46^ Violins I:#44^ P8
+266.0 Violas:#46^ Violins I:#44_ P8
+266.0 Violas:#46^ Violins II:#45^ P8
+266.0 Violas:#46^ Violins II:#45_ P8
+266.0 Violas:#46_ Violins I:#44^ P8
+266.0 Violas:#46_ Violins I:#44_ P8
+266.0 Violas:#46_ Violins II:#45^ P8
+266.0 Violas:#46_ Violins II:#45_ P8
+266.0 Violins I:#44^ Violins II:#45^ P8
+266.0 Violins I:#44^ Violins II:#45_ P8
+266.0 Violins I:#44_ Violins II:#45^ P8
+266.0 Violins I:#44_ Violins II:#45_ P8
+267.0 Bass clarinet:#17^ Contrabassoon:#23^ P8
+267.0 Bass clarinet:#17^ Contrabassoon:#23_ P8
+267.0 Bass clarinet:#17^ Double basses:#48^ P8
+267.0 Bass clarinet:#17^ Double basses:#48_ P8
+267.0 Bass clarinet:#17_ Contrabassoon:#23^ P8
+267.0 Bass clarinet:#17_ Contrabassoon:#23_ P8
+267.0 Bass clarinet:#17_ Double basses:#48^ P8
+267.0 Bass clarinet:#17_ Double basses:#48_ P8
+267.0 Bassoons 1Â·2:two#19^ Contrabassoon:#23^ P8
+267.0 Bassoons 1Â·2:two#19^ Contrabassoon:#23_ P8
+267.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+267.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+267.0 Bassoons 1Â·2:two#19_ Contrabassoon:#23^ P8
+267.0 Bassoons 1Â·2:two#19_ Contrabassoon:#23_ P8
+267.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+267.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+268.0 Bassoons 1Â·2:two#19^ Contrabassoon:#23^ P8
+268.0 Bassoons 1Â·2:two#19^ Contrabassoon:#23_ P8
+268.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+268.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+268.0 Bassoons 1Â·2:two#19_ Contrabassoon:#23^ P8
+268.0 Bassoons 1Â·2:two#19_ Contrabassoon:#23_ P8
+268.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+268.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+268.0 Clarinets 1Â·2:one#12^ Horns 3Â·4:two#30^ P8
+268.0 Clarinets 1Â·2:one#12^ Horns 3Â·4:two#30_ P8
+268.0 Clarinets 1Â·2:one#12^ Violas:#46^ P8
+268.0 Clarinets 1Â·2:one#12^ Violas:#46_ P8
+268.0 Clarinets 1Â·2:one#12^ Violins I:#44^ P8
+268.0 Clarinets 1Â·2:one#12^ Violins I:#44_ P8
+268.0 Clarinets 1Â·2:one#12_ Horns 3Â·4:two#30^ P8
+268.0 Clarinets 1Â·2:one#12_ Horns 3Â·4:two#30_ P8
+268.0 Clarinets 1Â·2:one#12_ Violas:#46^ P8
+268.0 Clarinets 1Â·2:one#12_ Violas:#46_ P8
+268.0 Clarinets 1Â·2:one#12_ Violins I:#44^ P8
+268.0 Clarinets 1Â·2:one#12_ Violins I:#44_ P8
+268.0 Horns 3Â·4:two#30^ Violas:#46^ P8
+268.0 Horns 3Â·4:two#30^ Violas:#46_ P8
+268.0 Horns 3Â·4:two#30^ Violins I:#44^ P8
+268.0 Horns 3Â·4:two#30^ Violins I:#44_ P8
+268.0 Horns 3Â·4:two#30^ Violins II:#45^ P8
+268.0 Horns 3Â·4:two#30^ Violins II:#45_ P8
+268.0 Horns 3Â·4:two#30_ Violas:#46^ P8
+268.0 Horns 3Â·4:two#30_ Violas:#46_ P8
+268.0 Horns 3Â·4:two#30_ Violins I:#44^ P8
+268.0 Horns 3Â·4:two#30_ Violins I:#44_ P8
+268.0 Horns 3Â·4:two#30_ Violins II:#45^ P8
+268.0 Horns 3Â·4:two#30_ Violins II:#45_ P8
+268.0 Violas:#46^ Violins I:#44^ P8
+268.0 Violas:#46^ Violins I:#44_ P8
+268.0 Violas:#46^ Violins II:#45^ P8
+268.0 Violas:#46^ Violins II:#45_ P8
+268.0 Violas:#46_ Violins I:#44^ P8
+268.0 Violas:#46_ Violins I:#44_ P8
+268.0 Violas:#46_ Violins II:#45^ P8
+268.0 Violas:#46_ Violins II:#45_ P8
+268.0 Violins I:#44^ Violins II:#45^ P8
+268.0 Violins I:#44^ Violins II:#45_ P8
+268.0 Violins I:#44_ Violins II:#45^ P8
+268.0 Violins I:#44_ Violins II:#45_ P8
+269.0 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4^ P8
+269.0 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4_ P8
+269.0 Clarinets 1Â·2:one#12^ Violas:#46^ P8
+269.0 Clarinets 1Â·2:one#12^ Violas:#46_ P8
+269.0 Clarinets 1Â·2:one#12^ Violins I:#44^ P8
+269.0 Clarinets 1Â·2:one#12^ Violins I:#44_ P8
+269.0 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4^ P8
+269.0 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4_ P8
+269.0 Clarinets 1Â·2:one#12_ Violas:#46^ P8
+269.0 Clarinets 1Â·2:one#12_ Violas:#46_ P8
+269.0 Clarinets 1Â·2:one#12_ Violins I:#44^ P8
+269.0 Clarinets 1Â·2:one#12_ Violins I:#44_ P8
+269.0 Flutes 1Â·2:solo#4^ Oboes 1Â·2:solo#9^ P8
+269.0 Flutes 1Â·2:solo#4^ Oboes 1Â·2:solo#9_ P8
+269.0 Flutes 1Â·2:solo#4^ Violas:#46^ P8
+269.0 Flutes 1Â·2:solo#4^ Violas:#46_ P8
+269.0 Flutes 1Â·2:solo#4^ Violins II:#45^ P8
+269.0 Flutes 1Â·2:solo#4^ Violins II:#45_ P8
+269.0 Flutes 1Â·2:solo#4_ Oboes 1Â·2:solo#9^ P8
+269.0 Flutes 1Â·2:solo#4_ Oboes 1Â·2:solo#9_ P8
+269.0 Flutes 1Â·2:solo#4_ Violas:#46^ P8
+269.0 Flutes 1Â·2:solo#4_ Violas:#46_ P8
+269.0 Flutes 1Â·2:solo#4_ Violins II:#45^ P8
+269.0 Flutes 1Â·2:solo#4_ Violins II:#45_ P8
+269.0 Oboes 1Â·2:solo#9^ Violas:#46^ P8
+269.0 Oboes 1Â·2:solo#9^ Violas:#46_ P8
+269.0 Oboes 1Â·2:solo#9^ Violins I:#44^ P8
+269.0 Oboes 1Â·2:solo#9^ Violins I:#44_ P8
+269.0 Oboes 1Â·2:solo#9_ Violas:#46^ P8
+269.0 Oboes 1Â·2:solo#9_ Violas:#46_ P8
+269.0 Oboes 1Â·2:solo#9_ Violins I:#44^ P8
+269.0 Oboes 1Â·2:solo#9_ Violins I:#44_ P8
+269.0 Violas:#46^ Violins I:#44^ P8
+269.0 Violas:#46^ Violins I:#44_ P8
+269.0 Violas:#46^ Violins II:#45^ P8
+269.0 Violas:#46^ Violins II:#45_ P8
+269.0 Violas:#46_ Violins I:#44^ P8
+269.0 Violas:#46_ Violins I:#44_ P8
+269.0 Violas:#46_ Violins II:#45^ P8
+269.0 Violas:#46_ Violins II:#45_ P8
+269.0 Violins I:#44^ Violins II:#45^ P8
+269.0 Violins I:#44^ Violins II:#45_ P8
+269.0 Violins I:#44_ Violins II:#45^ P8
+269.0 Violins I:#44_ Violins II:#45_ P8
+269.5 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4^ P8
+269.5 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4_ P8
+269.5 Clarinets 1Â·2:one#12^ Violins I:#44^ P8
+269.5 Clarinets 1Â·2:one#12^ Violins I:#44_ P8
+269.5 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4^ P8
+269.5 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4_ P8
+269.5 Clarinets 1Â·2:one#12_ Violins I:#44^ P8
+269.5 Clarinets 1Â·2:one#12_ Violins I:#44_ P8
+269.5 Flutes 1Â·2:solo#4^ Oboes 1Â·2:solo#9^ P8
+269.5 Flutes 1Â·2:solo#4^ Oboes 1Â·2:solo#9_ P8
+269.5 Flutes 1Â·2:solo#4^ Violins II:#45^ P8
+269.5 Flutes 1Â·2:solo#4^ Violins II:#45_ P8
+269.5 Flutes 1Â·2:solo#4_ Oboes 1Â·2:solo#9^ P8
+269.5 Flutes 1Â·2:solo#4_ Oboes 1Â·2:solo#9_ P8
+269.5 Flutes 1Â·2:solo#4_ Violins II:#45^ P8
+269.5 Flutes 1Â·2:solo#4_ Violins II:#45_ P8
+269.5 Oboes 1Â·2:solo#9^ Violins I:#44^ P8
+269.5 Oboes 1Â·2:solo#9^ Violins I:#44_ P8
+269.5 Oboes 1Â·2:solo#9_ Violins I:#44^ P8
+269.5 Oboes 1Â·2:solo#9_ Violins I:#44_ P8
+269.5 Violins I:#44^ Violins II:#45^ P8
+269.5 Violins I:#44^ Violins II:#45_ P8
+269.5 Violins I:#44_ Violins II:#45^ P8
+269.5 Violins I:#44_ Violins II:#45_ P8
+270.0 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4^ P8
+270.0 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4_ P8
+270.0 Clarinets 1Â·2:one#12^ Violins I:#44^ P8
+270.0 Clarinets 1Â·2:one#12^ Violins I:#44_ P8
+270.0 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4^ P8
+270.0 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4_ P8
+270.0 Clarinets 1Â·2:one#12_ Violins I:#44^ P8
+270.0 Clarinets 1Â·2:one#12_ Violins I:#44_ P8
+270.0 Flutes 1Â·2:solo#4^ Oboes 1Â·2:solo#9^ P8
+270.0 Flutes 1Â·2:solo#4^ Oboes 1Â·2:solo#9_ P8
+270.0 Flutes 1Â·2:solo#4^ Violins II:#45^ P8
+270.0 Flutes 1Â·2:solo#4^ Violins II:#45_ P8
+270.0 Flutes 1Â·2:solo#4_ Oboes 1Â·2:solo#9^ P8
+270.0 Flutes 1Â·2:solo#4_ Oboes 1Â·2:solo#9_ P8
+270.0 Flutes 1Â·2:solo#4_ Violins II:#45^ P8
+270.0 Flutes 1Â·2:solo#4_ Violins II:#45_ P8
+270.0 Oboes 1Â·2:solo#9^ Violins I:#44^ P8
+270.0 Oboes 1Â·2:solo#9^ Violins I:#44_ P8
+270.0 Oboes 1Â·2:solo#9_ Violins I:#44^ P8
+270.0 Oboes 1Â·2:solo#9_ Violins I:#44_ P8
+270.0 Violins I:#44^ Violins II:#45^ P8
+270.0 Violins I:#44^ Violins II:#45_ P8
+270.0 Violins I:#44_ Violins II:#45^ P8
+270.0 Violins I:#44_ Violins II:#45_ P8
+270.5 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4^ P8
+270.5 Clarinets 1Â·2:one#12^ Flutes 1Â·2:solo#4_ P8
+270.5 Clarinets 1Â·2:one#12^ Violins I:#44^ P8
+270.5 Clarinets 1Â·2:one#12^ Violins I:#44_ P8
+270.5 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4^ P8
+270.5 Clarinets 1Â·2:one#12_ Flutes 1Â·2:solo#4_ P8
+270.5 Clarinets 1Â·2:one#12_ Violins I:#44^ P8
+270.5 Clarinets 1Â·2:one#12_ Violins I:#44_ P8
+270.5 Flutes 1Â·2:solo#4^ Oboes 1Â·2:solo#9^ P8
+270.5 Flutes 1Â·2:solo#4^ Oboes 1Â·2:solo#9_ P8
+270.5 Flutes 1Â·2:solo#4^ Violins II:#45^ P8
+270.5 Flutes 1Â·2:solo#4^ Violins II:#45_ P8
+270.5 Flutes 1Â·2:solo#4_ Oboes 1Â·2:solo#9^ P8
+270.5 Flutes 1Â·2:solo#4_ Oboes 1Â·2:solo#9_ P8
+270.5 Flutes 1Â·2:solo#4_ Violins II:#45^ P8
+270.5 Flutes 1Â·2:solo#4_ Violins II:#45_ P8
+270.5 Oboes 1Â·2:solo#9^ Violins I:#44^ P8
+270.5 Oboes 1Â·2:solo#9^ Violins I:#44_ P8
+270.5 Oboes 1Â·2:solo#9_ Violins I:#44^ P8
+270.5 Oboes 1Â·2:solo#9_ Violins I:#44_ P8
+270.5 Violins I:#44^ Violins II:#45^ P8
+270.5 Violins I:#44^ Violins II:#45_ P8
+270.5 Violins I:#44_ Violins II:#45^ P8
+270.5 Violins I:#44_ Violins II:#45_ P8
+271.0 Bassoons 1Â·2:two#19^ Contrabassoon:#23^ P8
+271.0 Bassoons 1Â·2:two#19^ Contrabassoon:#23_ P8
+271.0 Bassoons 1Â·2:two#19^ Double basses:#48^ P8
+271.0 Bassoons 1Â·2:two#19^ Double basses:#48_ P8
+271.0 Bassoons 1Â·2:two#19_ Contrabassoon:#23^ P8
+271.0 Bassoons 1Â·2:two#19_ Contrabassoon:#23_ P8
+271.0 Bassoons 1Â·2:two#19_ Double basses:#48^ P8
+271.0 Bassoons 1Â·2:two#19_ Double basses:#48_ P8
+271.0 Flutes 1Â·2:solo#4^ Oboes 1Â·2:solo#9^ P8
+271.0 Flutes 1Â·2:solo#4^ Oboes 1Â·2:solo#9_ P8
+271.0 Flutes 1Â·2:solo#4^ Violins II:#45^ P8
+271.0 Flutes 1Â·2:solo#4^ Violins II:#45_ P8
+271.0 Flutes 1Â·2:solo#4_ Oboes 1Â·2:solo#9^ P8
+271.0 Flutes 1Â·2:solo#4_ Oboes 1Â·2:solo#9_ P8
+271.0 Flutes 1Â·2:solo#4_ Violins II:#45^ P8
+271.0 Flutes 1Â·2:solo#4_ Violins II:#45_ P8
+271.0 Oboes 1Â·2:solo#9^ Violins I:#44^ P8
+271.0 Oboes 1Â·2:solo#9^ Violins I:#44_ P8
+271.0 Oboes 1Â·2:solo#9_ Violins I:#44^ P8
+271.0 Oboes 1Â·2:solo#9_ Violins I:#44_ P8
+271.0 Violins I:#44^ Violins II:#45^ P8
+271.0 Violins I:#44^ Violins II:#45_ P8
+271.0 Violins I:#44_ Violins II:#45^ P8
+271.0 Violins I:#44_ Violins II:#45_ P8
+286.0 Double basses:#48^ Violoncellos:#47^ P8
+286.0 Double basses:#48^ Violoncellos:#47_ P8
+286.0 Double basses:#48_ Violoncellos:#47^ P8
+286.0 Double basses:#48_ Violoncellos:#47_ P8
+289.0 Cor anglais:#11^ Horns 3Â·4:shared#31_ P8
+289.0 Cor anglais:#11^ Violas:#46^ P8
+289.0 Cor anglais:#11^ Violas:#46_ P8
+289.0 Cor anglais:#11_ Horns 3Â·4:shared#31_ P8
+289.0 Cor anglais:#11_ Violas:#46^ P8
+289.0 Cor anglais:#11_ Violas:#46_ P8
+289.0 Double basses:#48^ Violoncellos:#47^ P8
+289.0 Double basses:#48^ Violoncellos:#47_ P8
+289.0 Double basses:#48_ Violoncellos:#47^ P8
+289.0 Double basses:#48_ Violoncellos:#47_ P8
+292.0 Double basses:#48^ Violoncellos:#47^ P8
+292.0 Double basses:#48^ Violoncellos:#47_ P8
+292.0 Double basses:#48_ Violoncellos:#47^ P8
+292.0 Double basses:#48_ Violoncellos:#47_ P8

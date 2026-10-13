@@ -16,3 +16,5 @@ symphony/render/assets/iowa/**/*.wav
 symphony/video/*/tools/build/
 symphony/video/*/*.mp4
 symphony/video/*/still-*.png
+symphony/render/assets/philharmonia/**/*.wav
+symphony/render/assets/philharmonia/**/*.mp3

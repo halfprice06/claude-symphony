@@ -1,0 +1,1 @@
+r07-m2: inversions 48; without pairs in printed hairpins 13

@@ -1,0 +1,1 @@
+r06-m1: inversions 348; without pairs in printed hairpins 179

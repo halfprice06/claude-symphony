@@ -1,0 +1,15 @@
+# Scherzo themes (current record, not a lock)
+
+Dan said on 2026-10-12 that the scherzo's themes are not locked: critics may change them. This file and [themes-scherzo.ly](themes-scherzo.ly) record the current themes (from v04; horn call from v31, trio tune from v12, second idea from v32) so the finale can follow them. Only the scherzo thread edits them. After every promotion, scherzo/kit/promote.sh runs `themecheck.py themes-scherzo.ly <new version>`, which reports any theme statement that changed or moved and blocks nothing. When a theme or the ending changes, the scherzo thread refreshes this record, logs the change under "Theme changes" in scherzo/critics/HISTORY.md, and sends the finale thread the old and new notes. The finale and movement II can use the same tools on their own quotations (add `--beats 4` for 2/2 or 4/4 bars, to themecheck.py and makelock.py).
+
+| Theme | What it is | Notes (v04) | Where it must appear (v24 bars) |
+|---|---|---|---|
+| hornCall | Movement I's horn call (3–1–7–1) in E major | Hn 1: G♯4 (2 bars), G♯3, E4, D♯4 held, no resolution (rising sixth since v11; unresolved 7 since v31, as in movement I; the finale resolves it) | Hn 1 at 1 |
+| motiveX | Rhythm crotchet, two quavers, crotchet; timpani alone | B2 B2 B2 G2, E2, B2 B2 B2 E3, E2 | Timp at 9; the repeated-B form (B–B–B–B) at 241 and 249 in the retransition, which the finale's timpani quote on G at its 143–145 |
+| themeA | Main theme, E minor, 16 bars, p leggiero; head E–B–B–E then the motto's chromatic tail G–F♯–F–E; peak C6–B5 in its 12th bar | Vln I 13–28 | full: Vln I 13, 105, 253, 305 (and Ob 1, Cl 2 at 105 and 305; Fl 1 goes to the upper octave in places, at 305 since v25 and at 105 since v37); head (first 4 bars): fugato Vc 57, Vla 61, Vln II 65, Vln I 95 (first 2 bars, three-bar groups since v20), Vc 289, Vla 293 (strings alone since v08); first 2 bars: Vla 89, 241, Vln II 245 |
+| secondIdeaG | Second idea, legato, three minims across two bars (hemiola) over the barline, G major; since v32 each two-bar answer ends with a dotted crotchet and a quaver (bars 4 and 8) | Vln I 45–56 | Vln I, Fl 1, Ob 1 at 45 |
+| secondIdeaE | The same idea in E minor (reprise) | Vln I 277–288 | Vln I, Fl 1, Ob 1 at 121; Vln I at 277, joined by Ob 1 at 281 and Fl 1 at 285 (since v45) |
+| trioT | Trio tune, E major, dolce, 15 bars: G♯–A–B–E, D♯–C♯–B, A–G♯ …; since v12 its third phrase climbs to A5 (bars 10–11: E–G♯ held, A–G♯–F♯) | Cl 1 153–167 | Cl 1 153; Vln I 169; Cl 1 and violas 197 (first phrase, against the oboe call, since v38); Cl 1, Vln I, Fl 1 209; coda shared out: Hn 1 341 (bars 1–4) and Ob 1 345 (bars 5–8, Cl 1 until v41) in A major since v14, Vln I 349 (bars 9–15) in E; since v44 its cadence (354–356) holds the cadential 6/4 for two bars: G♯6–F♯–E, D♯–F♯, E |
+| mottoTail | Movement I's motto tail E♭–D–D♭–C, here on B | Hn 1: B4, A♯4, A4, G♯4 (G♯ then held to the end) | Hn 1 at 357 |
+
+Tools in this folder: lyparse.py (reads section files), themecheck.py (compares a version with the record; `--find` lists every place a theme or its first six notes occur), makelock.py (writes a record .ly from bars of a version).

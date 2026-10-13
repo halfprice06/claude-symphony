@@ -1,0 +1,4 @@
+r04-m2: Spearman rho bar loudness vs printed dyn = 0.74 (n=89)
+  median rel I by loudest printed dyn: {'ppp': -16.7, 'pp': -12.1, 'p': -9.6, 'mp': -7.2, 'mf': -1.6, 'f': 4.3, 'ff': 7.8}  n={'ppp': 1, 'pp': 13, 'p': 34, 'mp': 23, 'mf': 8, 'f': 3, 'ff': 7}
+  steps: {'ppp->pp': 4.5, 'pp->p': 2.6, 'p->mp': 2.4, 'mp->mf': 5.6, 'mf->f': 5.9, 'f->ff': 3.5}
+  bars printed <= mf louder than the median f bar (4.3): 0 []

@@ -1,0 +1,2 @@
+bars 61-62 (8.3 s, 3 notes): 61:49 ff v89 | 62:49 ff v89 | 62:44 ff v89
+bars 79-81 (11.4 s, 3 notes): 79:49 f v84 | 80:49 f v84 | 81:51 f/decresc v84

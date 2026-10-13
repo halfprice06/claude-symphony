@@ -1,0 +1,20 @@
+{
+ "score": "/mnt/project-files/symphony/mvt2/v82",
+ "premaster": {
+  "I": -27.2,
+  "LRA": 20.0,
+  "TP": -8.1
+ },
+ "gain_dB": 7.199999999999999,
+ "master_wav": {
+  "I": -20.1,
+  "LRA": 20.0,
+  "TP": -1.5
+ },
+ "mp3": {
+  "I": -20.1,
+  "LRA": 20.0,
+  "TP": -1.5
+ },
+ "seconds": 665.5
+}

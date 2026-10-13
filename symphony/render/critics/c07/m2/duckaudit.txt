@@ -1,0 +1,43 @@
+r07-m2: stems with a gain curve: 20
+stem | bars cut>=3 | cut>=6 | lifted>=1 | min/max dB | max slope dB/s | cut>=3 where own printed dyn >= melody's (n; max steps above)
+Bass clarinet | 5 | 2 | 9 | -7.8/+5.0 | 5.0 | 0; -
+Bass trombone | 0 | 0 | 3 | -1.0/+2.5 | 1.7 | 0; -
+Bassoons 12 | 13 | 1 | 7 | -8.0/+3.0 | 3.0 | 0; -
+Clarinets 12 | 12 | 3 | 4 | -8.0/+3.8 | 4.3 | 0; -
+Contrabassoon | 0 | 0 | 3 | -1.5/+2.5 | 1.7 | 0; -
+Cor anglais | 0 | 0 | 8 | -1.0/+4.5 | 3.0 | 0; -
+Double basses | 12 | 1 | 0 | -7.0/+1.0 | 4.7 | 3; 0
+Flutes 12 | 12 | 2 | 0 | -7.8/+1.0 | 5.0 | 1; 0
+Harp LH | 0 | 0 | 3 | -1.0/+2.5 | 1.7 | 0; -
+Harp RH | 0 | 0 | 3 | -1.0/+2.5 | 1.7 | 0; -
+Horns 12 | 6 | 0 | 9 | -4.0/+5.5 | 3.0 | 2; 0
+Horns 34 | 0 | 0 | 4 | -1.5/+3.0 | 2.0 | 0; -
+Oboes 12 | 5 | 2 | 1 | -7.8/+1.0 | 5.0 | 0; -
+Timpani | 14 | 0 | 1 | -5.5/+1.0 | 3.6 | 1; 0
+Trombones 12 | 0 | 0 | 3 | -1.0/+2.5 | 1.7 | 0; -
+Tuba | 0 | 0 | 3 | -1.0/+2.5 | 1.7 | 0; -
+Violas | 18 | 0 | 0 | -5.0/+1.0 | 3.0 | 2; 0
+Violins I | 1 | 0 | 2 | -3.5/+1.7 | 2.3 | 1; 0
+Violins II | 8 | 0 | 0 | -4.9/+0.5 | 2.7 | 8; 0
+Violoncellos | 1 | 0 | 16 | -3.5/+3.5 | 2.3 | 1; 0
+r07-m2: stem-bars cut >= 3 dB: 107, >= 6 dB: 11; cut >= 3 dB although printed >= the melody: 19
+   ('Double basses', 28, 0, 'mf', 'mf', -4.3)
+   ('Double basses', 29, 0, 'mf', 'mf', -3.2)
+   ('Double basses', 53, 0, 'p', 'p', -3.5)
+   ('Flutes 12', 37, 0, 'p', 'p', -4.0)
+   ('Horns 12', 75, 0, 'mp', 'mp', -3.9)
+   ('Horns 12', 76, 0, 'mp', 'mp', -3.0)
+   ('Timpani', 53, 0, 'p', 'p', -3.5)
+   ('Violas', 28, 0, 'mf', 'mf', -3.4)
+   ('Violas', 29, 0, 'mf', 'mf', -4.3)
+   ('Violins I', 53, 0, 'p', 'p', -3.5)
+   ('Violins II', 53, 0, 'p', 'p', -3.5)
+   ('Violins II', 71, 0, 'p', 'p', -4.0)
+   ('Violins II', 72, 0, 'p', 'p', -4.8)
+   ('Violins II', 73, 0, 'p', 'p', -4.8)
+   ('Violins II', 74, 0, 'p', 'p', -4.9)
+   ('Violins II', 75, 0, 'mp', 'mp', -3.9)
+   ('Violins II', 76, 0, 'mp', 'mp', -3.0)
+   ('Violins II', 77, 0, 'mp', 'mp', -3.0)
+   ('Violoncellos', 53, 0, 'p', 'p', -3.5)
+r07-m2: marked melodies whose median gain is a CUT: []

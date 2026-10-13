@@ -1,0 +1,1671 @@
+{
+ "render": "python3 /mnt/project-files/symphony/render/r07/stem.py {midi} {wav}",
+ "midi": "/tmp/render-07-m2/render.midi",
+ "stems": [
+  {
+   "stem": "Bass clarinet",
+   "family": "woodwind",
+   "notes": 48,
+   "I_LUFS_whole_file": -34.54,
+   "loud_while_sounding_LUFS": -36.91,
+   "peak_dBFS": -19.7,
+   "pan_R_minus_L_dB": -4.37,
+   "corr_LR": 0.884,
+   "centroid_Hz": 595.0,
+   "level_by_dynamic_LUFS": {
+    "pp": {
+     "n": 13,
+     "median": -51.4
+    },
+    "p": {
+     "n": 6,
+     "median": -43.3
+    },
+    "mp": {
+     "n": 2,
+     "median": -37.6
+    },
+    "mf": {
+     "n": 1,
+     "median": -35.4
+    },
+    "f": {
+     "n": 2,
+     "median": -32.0
+    },
+    "ff": {
+     "n": 5,
+     "median": -32.3
+    }
+   },
+   "dB_per_dynamic_step": 3.79,
+   "articulation_audio": {
+    "detached": {
+     "n": 28,
+     "attack_ms_median_clean_onsets": 74.0,
+     "clean_onsets_n": 11,
+     "sustain75_dB_median": 1.56,
+     "sustain75_dB_n": 28,
+     "audible_len_s_median": 2.76,
+     "audible_len_s_n": 5,
+     "audible_ratio_median": 1.12,
+     "audible_ratio_n": 5
+    },
+    "legato": {
+     "n": 17,
+     "attack_ms_median_clean_onsets": 155.0,
+     "clean_onsets_n": 4,
+     "sustain75_dB_median": -0.55,
+     "sustain75_dB_n": 17
+    },
+    "tenuto": {
+     "n": 3,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": 0.44,
+     "sustain75_dB_n": 3,
+     "audible_len_s_median": 2.5,
+     "audible_len_s_n": 1,
+     "audible_ratio_median": 1.12,
+     "audible_ratio_n": 1
+    },
+    "slurred_boundary_dip_dB_median": -0.7,
+    "slurred_boundary_n": 17,
+    "detached_boundary_dip_dB_median": -10.9,
+    "detached_boundary_n": 25
+   }
+  },
+  {
+   "stem": "Bass trombone",
+   "family": "brass",
+   "notes": 8,
+   "I_LUFS_whole_file": -37.01,
+   "loud_while_sounding_LUFS": -37.43,
+   "peak_dBFS": -21.5,
+   "pan_R_minus_L_dB": 1.52,
+   "corr_LR": 0.649,
+   "centroid_Hz": 654.0,
+   "level_by_dynamic_LUFS": {
+    "pp": {
+     "n": 1,
+     "median": -42.9
+    },
+    "mf": {
+     "n": 2,
+     "median": -35.8
+    },
+    "f": {
+     "n": 2,
+     "median": -38.6
+    }
+   },
+   "dB_per_dynamic_step": 1.22,
+   "articulation_audio": {
+    "detached": {
+     "n": 5,
+     "attack_ms_median_clean_onsets": 168.0,
+     "clean_onsets_n": 1,
+     "sustain75_dB_median": 0.6,
+     "sustain75_dB_n": 5,
+     "audible_len_s_median": 1.74,
+     "audible_len_s_n": 1,
+     "audible_ratio_median": 1.16,
+     "audible_ratio_n": 1
+    },
+    "tenuto": {
+     "n": 3,
+     "attack_ms_median_clean_onsets": 143.0,
+     "clean_onsets_n": 1,
+     "sustain75_dB_median": -1.71,
+     "sustain75_dB_n": 3
+    },
+    "detached_boundary_dip_dB_median": -4.8,
+    "detached_boundary_n": 7
+   }
+  },
+  {
+   "stem": "Bassoons 12",
+   "family": "woodwind",
+   "notes": 95,
+   "I_LUFS_whole_file": -35.43,
+   "loud_while_sounding_LUFS": -37.04,
+   "peak_dBFS": -19.6,
+   "pan_R_minus_L_dB": -0.52,
+   "corr_LR": 0.772,
+   "centroid_Hz": 497.0,
+   "level_by_dynamic_LUFS": {
+    "pp": {
+     "n": 23,
+     "median": -47.0
+    },
+    "p": {
+     "n": 6,
+     "median": -42.3
+    },
+    "mp": {
+     "n": 3,
+     "median": -42.5
+    },
+    "f": {
+     "n": 3,
+     "median": -32.5
+    },
+    "ff": {
+     "n": 5,
+     "median": -30.5
+    }
+   },
+   "dB_per_dynamic_step": 3.33,
+   "articulation_audio": {
+    "detached": {
+     "n": 76,
+     "attack_ms_median_clean_onsets": 87.0,
+     "clean_onsets_n": 38,
+     "sustain75_dB_median": -0.35,
+     "sustain75_dB_n": 69,
+     "audible_len_s_median": 3.66,
+     "audible_len_s_n": 11,
+     "audible_ratio_median": 1.06,
+     "audible_ratio_n": 11
+    },
+    "legato": {
+     "n": 13,
+     "attack_ms_median_clean_onsets": 63.0,
+     "clean_onsets_n": 4,
+     "sustain75_dB_median": -1.93,
+     "sustain75_dB_n": 11
+    },
+    "tenuto": {
+     "n": 6,
+     "attack_ms_median_clean_onsets": 43.0,
+     "clean_onsets_n": 2,
+     "sustain75_dB_median": -0.88,
+     "sustain75_dB_n": 6,
+     "audible_len_s_median": 2.52,
+     "audible_len_s_n": 2,
+     "audible_ratio_median": 1.13,
+     "audible_ratio_n": 2
+    },
+    "slurred_boundary_dip_dB_median": -1.2,
+    "slurred_boundary_n": 11,
+    "detached_boundary_dip_dB_median": -9.0,
+    "detached_boundary_n": 37
+   }
+  },
+  {
+   "stem": "Clarinets 12",
+   "family": "woodwind",
+   "notes": 74,
+   "I_LUFS_whole_file": -33.53,
+   "loud_while_sounding_LUFS": -35.66,
+   "peak_dBFS": -18.7,
+   "pan_R_minus_L_dB": -3.77,
+   "corr_LR": 0.786,
+   "centroid_Hz": 630.0,
+   "level_by_dynamic_LUFS": {
+    "pp": {
+     "n": 15,
+     "median": -47.5
+    },
+    "p": {
+     "n": 5,
+     "median": -45.1
+    },
+    "mp": {
+     "n": 2,
+     "median": -37.0
+    },
+    "mf": {
+     "n": 1,
+     "median": -32.9
+    },
+    "f": {
+     "n": 3,
+     "median": -32.9
+    },
+    "ff": {
+     "n": 5,
+     "median": -30.4
+    }
+   },
+   "dB_per_dynamic_step": 3.62,
+   "articulation_audio": {
+    "detached": {
+     "n": 45,
+     "attack_ms_median_clean_onsets": 77.0,
+     "clean_onsets_n": 20,
+     "sustain75_dB_median": 1.92,
+     "sustain75_dB_n": 40,
+     "audible_len_s_median": 2.81,
+     "audible_len_s_n": 7,
+     "audible_ratio_median": 1.17,
+     "audible_ratio_n": 7
+    },
+    "legato": {
+     "n": 22,
+     "attack_ms_median_clean_onsets": 57.0,
+     "clean_onsets_n": 5,
+     "sustain75_dB_median": -0.76,
+     "sustain75_dB_n": 21
+    },
+    "tenuto": {
+     "n": 7,
+     "attack_ms_median_clean_onsets": 43.0,
+     "clean_onsets_n": 2,
+     "sustain75_dB_median": -0.57,
+     "sustain75_dB_n": 6,
+     "audible_len_s_median": 2.53,
+     "audible_len_s_n": 2,
+     "audible_ratio_median": 1.14,
+     "audible_ratio_n": 2
+    },
+    "slurred_boundary_dip_dB_median": -0.7,
+    "slurred_boundary_n": 20,
+    "detached_boundary_dip_dB_median": -10.5,
+    "detached_boundary_n": 30
+   }
+  },
+  {
+   "stem": "Contrabassoon",
+   "family": "woodwind",
+   "notes": 9,
+   "I_LUFS_whole_file": -30.13,
+   "loud_while_sounding_LUFS": -32.57,
+   "peak_dBFS": -16.7,
+   "pan_R_minus_L_dB": 1.72,
+   "corr_LR": 0.807,
+   "centroid_Hz": 338.0,
+   "level_by_dynamic_LUFS": {
+    "pp": {
+     "n": 1,
+     "median": -56.7
+    },
+    "p": {
+     "n": 1,
+     "median": -50.5
+    },
+    "ff": {
+     "n": 5,
+     "median": -30.7
+    }
+   },
+   "dB_per_dynamic_step": 5.05,
+   "articulation_audio": {
+    "detached": {
+     "n": 6,
+     "attack_ms_median_clean_onsets": 41.0,
+     "clean_onsets_n": 4,
+     "sustain75_dB_median": -2.07,
+     "sustain75_dB_n": 6,
+     "audible_len_s_median": 7.89,
+     "audible_len_s_n": 2,
+     "audible_ratio_median": 1.04,
+     "audible_ratio_n": 2
+    },
+    "tenuto": {
+     "n": 3,
+     "attack_ms_median_clean_onsets": 23.0,
+     "clean_onsets_n": 1,
+     "sustain75_dB_median": -1.81,
+     "sustain75_dB_n": 3,
+     "audible_len_s_median": 2.5,
+     "audible_len_s_n": 1,
+     "audible_ratio_median": 1.12,
+     "audible_ratio_n": 1
+    },
+    "detached_boundary_dip_dB_median": -10.1,
+    "detached_boundary_n": 6
+   }
+  },
+  {
+   "stem": "Cor anglais",
+   "family": "woodwind",
+   "notes": 33,
+   "I_LUFS_whole_file": -38.09,
+   "loud_while_sounding_LUFS": -38.13,
+   "peak_dBFS": -27.5,
+   "pan_R_minus_L_dB": 3.09,
+   "corr_LR": 0.844,
+   "centroid_Hz": 821.0,
+   "level_by_dynamic_LUFS": {
+    "p": {
+     "n": 9,
+     "median": -38.3
+    },
+    "mp": {
+     "n": 5,
+     "median": -38.4
+    }
+   },
+   "dB_per_dynamic_step": -0.3,
+   "articulation_audio": {
+    "detached": {
+     "n": 6,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": -0.27,
+     "sustain75_dB_n": 6,
+     "audible_len_s_median": 3.3,
+     "audible_len_s_n": 3,
+     "audible_ratio_median": 1.1,
+     "audible_ratio_n": 3
+    },
+    "legato": {
+     "n": 26,
+     "attack_ms_median_clean_onsets": 38.0,
+     "clean_onsets_n": 6,
+     "sustain75_dB_median": -0.67,
+     "sustain75_dB_n": 26
+    },
+    "tenuto": {
+     "n": 1,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": -0.46,
+     "sustain75_dB_n": 1
+    },
+    "slurred_boundary_dip_dB_median": -0.3,
+    "slurred_boundary_n": 27,
+    "detached_boundary_dip_dB_median": -11.7,
+    "detached_boundary_n": 3
+   }
+  },
+  {
+   "stem": "Double basses",
+   "family": "strings",
+   "notes": 94,
+   "I_LUFS_whole_file": -35.31,
+   "loud_while_sounding_LUFS": -36.06,
+   "peak_dBFS": -15.4,
+   "pan_R_minus_L_dB": 5.74,
+   "corr_LR": 0.477,
+   "centroid_Hz": 147.0,
+   "level_by_dynamic_LUFS": {
+    "pp": {
+     "n": 18,
+     "median": -43.5
+    },
+    "p": {
+     "n": 22,
+     "median": -42.8
+    },
+    "mp": {
+     "n": 2,
+     "median": -37.9
+    },
+    "mf": {
+     "n": 4,
+     "median": -32.2
+    },
+    "f": {
+     "n": 3,
+     "median": -30.0
+    },
+    "ff": {
+     "n": 5,
+     "median": -29.8
+    }
+   },
+   "dB_per_dynamic_step": 3.05,
+   "articulation_audio": {
+    "detached": {
+     "n": 74,
+     "attack_ms_median_clean_onsets": 119.0,
+     "clean_onsets_n": 8,
+     "sustain75_dB_median": 2.14,
+     "sustain75_dB_n": 74,
+     "audible_len_s_median": 7.29,
+     "audible_len_s_n": 3,
+     "audible_ratio_median": 1.05,
+     "audible_ratio_n": 3
+    },
+    "pizz": {
+     "n": 17,
+     "attack_ms_median_clean_onsets": 44.0,
+     "clean_onsets_n": 17,
+     "sustain75_dB_median": -23.17,
+     "sustain75_dB_n": 17,
+     "audible_len_s_median": 0.7,
+     "audible_len_s_n": 11,
+     "audible_ratio_median": 0.7,
+     "audible_ratio_n": 11
+    },
+    "tenuto": {
+     "n": 3,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": 3.45,
+     "sustain75_dB_n": 3
+    },
+    "detached_boundary_dip_dB_median": -8.1,
+    "detached_boundary_n": 80
+   }
+  },
+  {
+   "stem": "Flutes 12",
+   "family": "woodwind",
+   "notes": 66,
+   "I_LUFS_whole_file": -34.1,
+   "loud_while_sounding_LUFS": -34.96,
+   "peak_dBFS": -20.6,
+   "pan_R_minus_L_dB": -3.47,
+   "corr_LR": 0.706,
+   "centroid_Hz": 1363.0,
+   "level_by_dynamic_LUFS": {
+    "p": {
+     "n": 9,
+     "median": -42.3
+    },
+    "mp": {
+     "n": 2,
+     "median": -44.2
+    },
+    "mf": {
+     "n": 1,
+     "median": -32.9
+    },
+    "f": {
+     "n": 3,
+     "median": -33.9
+    },
+    "ff": {
+     "n": 6,
+     "median": -31.8
+    }
+   },
+   "dB_per_dynamic_step": 2.57,
+   "articulation_audio": {
+    "detached": {
+     "n": 9,
+     "attack_ms_median_clean_onsets": 58.0,
+     "clean_onsets_n": 2,
+     "sustain75_dB_median": -1.2,
+     "sustain75_dB_n": 9,
+     "audible_len_s_median": 2.48,
+     "audible_len_s_n": 4,
+     "audible_ratio_median": 1.0,
+     "audible_ratio_n": 4
+    },
+    "legato": {
+     "n": 52,
+     "attack_ms_median_clean_onsets": 86.0,
+     "clean_onsets_n": 7,
+     "sustain75_dB_median": -2.24,
+     "sustain75_dB_n": 52
+    },
+    "tenuto": {
+     "n": 5,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": -1.27,
+     "sustain75_dB_n": 4
+    },
+    "slurred_boundary_dip_dB_median": -2.7,
+    "slurred_boundary_n": 55,
+    "detached_boundary_dip_dB_median": -10.0,
+    "detached_boundary_n": 2
+   }
+  },
+  {
+   "stem": "Harp LH",
+   "family": "harp",
+   "notes": 85,
+   "I_LUFS_whole_file": -45.37,
+   "loud_while_sounding_LUFS": -46.56,
+   "peak_dBFS": -25.8,
+   "pan_R_minus_L_dB": -9.14,
+   "corr_LR": 0.405,
+   "centroid_Hz": 251.0,
+   "level_by_dynamic_LUFS": {
+    "pp": {
+     "n": 12,
+     "median": -50.9
+    },
+    "p": {
+     "n": 14,
+     "median": -43.4
+    }
+   },
+   "dB_per_dynamic_step": 6.4,
+   "articulation_audio": {
+    "detached": {
+     "n": 85,
+     "attack_ms_median_clean_onsets": 75.0,
+     "clean_onsets_n": 84,
+     "sustain75_dB_median": -12.15,
+     "sustain75_dB_n": 85,
+     "audible_len_s_median": 1.4,
+     "audible_len_s_n": 29,
+     "audible_ratio_median": 1.23,
+     "audible_ratio_n": 29
+    },
+    "detached_boundary_dip_dB_median": -6.0,
+    "detached_boundary_n": 32
+   }
+  },
+  {
+   "stem": "Harp RH",
+   "family": "harp",
+   "notes": 89,
+   "I_LUFS_whole_file": -43.79,
+   "loud_while_sounding_LUFS": -44.89,
+   "peak_dBFS": -28.7,
+   "pan_R_minus_L_dB": -9.2,
+   "corr_LR": 0.381,
+   "centroid_Hz": 315.0,
+   "level_by_dynamic_LUFS": {
+    "p": {
+     "n": 2,
+     "median": -44.1
+    },
+    "mp": {
+     "n": 8,
+     "median": -43.8
+    }
+   },
+   "dB_per_dynamic_step": -0.13,
+   "articulation_audio": {
+    "detached": {
+     "n": 85,
+     "attack_ms_median_clean_onsets": 46.0,
+     "clean_onsets_n": 39,
+     "sustain75_dB_median": -6.12,
+     "sustain75_dB_n": 85,
+     "audible_len_s_median": 1.56,
+     "audible_len_s_n": 30,
+     "audible_ratio_median": 1.09,
+     "audible_ratio_n": 30
+    },
+    "legato": {
+     "n": 4,
+     "attack_ms_median_clean_onsets": 31.0,
+     "clean_onsets_n": 2,
+     "sustain75_dB_median": -18.82,
+     "sustain75_dB_n": 4
+    },
+    "slurred_boundary_dip_dB_median": -8.0,
+    "slurred_boundary_n": 2,
+    "detached_boundary_dip_dB_median": -4.0,
+    "detached_boundary_n": 51
+   }
+  },
+  {
+   "stem": "Horns 12",
+   "family": "horn",
+   "notes": 67,
+   "I_LUFS_whole_file": -35.73,
+   "loud_while_sounding_LUFS": -35.86,
+   "peak_dBFS": -18.0,
+   "pan_R_minus_L_dB": -4.45,
+   "corr_LR": 0.644,
+   "centroid_Hz": 540.0,
+   "level_by_dynamic_LUFS": {
+    "p": {
+     "n": 12,
+     "median": -41.0
+    },
+    "mp": {
+     "n": 11,
+     "median": -40.9
+    },
+    "f": {
+     "n": 7,
+     "median": -32.6
+    }
+   },
+   "dB_per_dynamic_step": 2.78,
+   "articulation_audio": {
+    "detached": {
+     "n": 8,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": -1.47,
+     "sustain75_dB_n": 8,
+     "audible_len_s_median": 3.08,
+     "audible_len_s_n": 3,
+     "audible_ratio_median": 1.13,
+     "audible_ratio_n": 3
+    },
+    "legato": {
+     "n": 56,
+     "attack_ms_median_clean_onsets": 77.0,
+     "clean_onsets_n": 6,
+     "sustain75_dB_median": -2.09,
+     "sustain75_dB_n": 56,
+     "audible_len_s_median": 5.84,
+     "audible_len_s_n": 1,
+     "audible_ratio_median": 1.01,
+     "audible_ratio_n": 1
+    },
+    "tenuto": {
+     "n": 3,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": -2.26,
+     "sustain75_dB_n": 3,
+     "audible_len_s_median": 2.78,
+     "audible_len_s_n": 1,
+     "audible_ratio_median": 1.25,
+     "audible_ratio_n": 1
+    },
+    "slurred_boundary_dip_dB_median": -1.0,
+    "slurred_boundary_n": 55,
+    "detached_boundary_dip_dB_median": -5.0,
+    "detached_boundary_n": 7
+   }
+  },
+  {
+   "stem": "Horns 34",
+   "family": "horn",
+   "notes": 33,
+   "I_LUFS_whole_file": -32.45,
+   "loud_while_sounding_LUFS": -35.25,
+   "peak_dBFS": -20.2,
+   "pan_R_minus_L_dB": -4.36,
+   "corr_LR": 0.613,
+   "centroid_Hz": 474.0,
+   "level_by_dynamic_LUFS": {
+    "ppp": {
+     "n": 1,
+     "median": -55.5
+    },
+    "pp": {
+     "n": 9,
+     "median": -46.4
+    },
+    "p": {
+     "n": 1,
+     "median": -39.6
+    },
+    "f": {
+     "n": 5,
+     "median": -31.2
+    }
+   },
+   "dB_per_dynamic_step": 4.01,
+   "articulation_audio": {
+    "detached": {
+     "n": 27,
+     "attack_ms_median_clean_onsets": 106.0,
+     "clean_onsets_n": 10,
+     "sustain75_dB_median": 1.76,
+     "sustain75_dB_n": 24,
+     "audible_len_s_median": 4.01,
+     "audible_len_s_n": 8,
+     "audible_ratio_median": 1.09,
+     "audible_ratio_n": 8
+    },
+    "tenuto": {
+     "n": 6,
+     "attack_ms_median_clean_onsets": 123.0,
+     "clean_onsets_n": 2,
+     "sustain75_dB_median": -5.56,
+     "sustain75_dB_n": 6,
+     "audible_len_s_median": 2.81,
+     "audible_len_s_n": 2,
+     "audible_ratio_median": 1.26,
+     "audible_ratio_n": 2
+    },
+    "detached_boundary_dip_dB_median": -5.9,
+    "detached_boundary_n": 11
+   }
+  },
+  {
+   "stem": "Oboes 12",
+   "family": "woodwind",
+   "notes": 50,
+   "I_LUFS_whole_file": -33.25,
+   "loud_while_sounding_LUFS": -33.62,
+   "peak_dBFS": -22.5,
+   "pan_R_minus_L_dB": 0.2,
+   "corr_LR": 0.783,
+   "centroid_Hz": 1309.0,
+   "level_by_dynamic_LUFS": {
+    "p": {
+     "n": 10,
+     "median": -37.9
+    },
+    "mf": {
+     "n": 1,
+     "median": -35.2
+    },
+    "f": {
+     "n": 2,
+     "median": -33.4
+    },
+    "ff": {
+     "n": 5,
+     "median": -30.8
+    }
+   },
+   "dB_per_dynamic_step": 1.03,
+   "articulation_audio": {
+    "detached": {
+     "n": 9,
+     "attack_ms_median_clean_onsets": 26.0,
+     "clean_onsets_n": 1,
+     "sustain75_dB_median": -1.75,
+     "sustain75_dB_n": 9,
+     "audible_len_s_median": 2.11,
+     "audible_len_s_n": 4,
+     "audible_ratio_median": 1.07,
+     "audible_ratio_n": 4
+    },
+    "legato": {
+     "n": 35,
+     "attack_ms_median_clean_onsets": 26.0,
+     "clean_onsets_n": 5,
+     "sustain75_dB_median": 0.2,
+     "sustain75_dB_n": 35
+    },
+    "tenuto": {
+     "n": 6,
+     "attack_ms_median_clean_onsets": 33.0,
+     "clean_onsets_n": 2,
+     "sustain75_dB_median": 2.63,
+     "sustain75_dB_n": 6,
+     "audible_len_s_median": 2.54,
+     "audible_len_s_n": 2,
+     "audible_ratio_median": 1.14,
+     "audible_ratio_n": 2
+    },
+    "slurred_boundary_dip_dB_median": -1.1,
+    "slurred_boundary_n": 37,
+    "detached_boundary_dip_dB_median": -8.4,
+    "detached_boundary_n": 4
+   }
+  },
+  {
+   "stem": "Timpani",
+   "family": "percussion",
+   "notes": 16,
+   "I_LUFS_whole_file": -35.59,
+   "loud_while_sounding_LUFS": -37.88,
+   "peak_dBFS": -17.3,
+   "pan_R_minus_L_dB": -1.89,
+   "corr_LR": 0.815,
+   "centroid_Hz": 216.0,
+   "level_by_dynamic_LUFS": {
+    "ppp": {
+     "n": 3,
+     "median": -47.1
+    },
+    "pp": {
+     "n": 2,
+     "median": -45.1
+    },
+    "p": {
+     "n": 3,
+     "median": -44.1
+    },
+    "f": {
+     "n": 3,
+     "median": -36.5
+    },
+    "ff": {
+     "n": 2,
+     "median": -32.9
+    }
+   },
+   "dB_per_dynamic_step": 2.06,
+   "articulation_audio": {
+    "detached": {
+     "n": 5,
+     "attack_ms_median_clean_onsets": 20.0,
+     "clean_onsets_n": 3,
+     "sustain75_dB_median": -22.57,
+     "sustain75_dB_n": 5,
+     "audible_len_s_median": 1.46,
+     "audible_len_s_n": 3,
+     "audible_ratio_median": 0.54,
+     "audible_ratio_n": 3
+    },
+    "tremolo": {
+     "n": 11,
+     "attack_ms_median_clean_onsets": 23.0,
+     "clean_onsets_n": 7,
+     "sustain75_dB_median": -5.27,
+     "sustain75_dB_n": 11,
+     "audible_len_s_median": 10.21,
+     "audible_len_s_n": 4,
+     "audible_ratio_median": 1.05,
+     "audible_ratio_n": 4,
+     "trem_peaks_per_s_median": 7.14,
+     "trem_peaks_per_s_n": 11,
+     "trem_env_std_dB_median": 2.56,
+     "trem_env_std_dB_n": 11
+    },
+    "detached_boundary_dip_dB_median": -3.9,
+    "detached_boundary_n": 8
+   }
+  },
+  {
+   "stem": "Trombones 12",
+   "family": "brass",
+   "notes": 14,
+   "I_LUFS_whole_file": -37.34,
+   "loud_while_sounding_LUFS": -37.46,
+   "peak_dBFS": -22.2,
+   "pan_R_minus_L_dB": -0.69,
+   "corr_LR": 0.77,
+   "centroid_Hz": 989.0,
+   "level_by_dynamic_LUFS": {
+    "pp": {
+     "n": 1,
+     "median": -45.0
+    },
+    "mf": {
+     "n": 2,
+     "median": -38.7
+    },
+    "ff": {
+     "n": 2,
+     "median": -35.4
+    }
+   },
+   "dB_per_dynamic_step": 1.9,
+   "articulation_audio": {
+    "accent": {
+     "n": 3,
+     "attack_ms_median_clean_onsets": 174.0,
+     "clean_onsets_n": 1,
+     "sustain75_dB_median": 0.81,
+     "sustain75_dB_n": 3
+    },
+    "detached": {
+     "n": 8,
+     "attack_ms_median_clean_onsets": 148.0,
+     "clean_onsets_n": 1,
+     "sustain75_dB_median": 2.54,
+     "sustain75_dB_n": 8,
+     "audible_len_s_median": 1.26,
+     "audible_len_s_n": 1,
+     "audible_ratio_median": 1.67,
+     "audible_ratio_n": 1
+    },
+    "tenuto": {
+     "n": 3,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": 1.5,
+     "sustain75_dB_n": 3,
+     "audible_len_s_median": 2.71,
+     "audible_len_s_n": 1,
+     "audible_ratio_median": 1.22,
+     "audible_ratio_n": 1
+    },
+    "accent_peak_boost_dB_median": 1.7,
+    "accent_boost_n": 3,
+    "detached_boundary_dip_dB_median": -7.8,
+    "detached_boundary_n": 12
+   }
+  },
+  {
+   "stem": "Tuba",
+   "family": "brass",
+   "notes": 4,
+   "I_LUFS_whole_file": -34.17,
+   "loud_while_sounding_LUFS": -34.75,
+   "peak_dBFS": -17.9,
+   "pan_R_minus_L_dB": 3.47,
+   "corr_LR": 0.529,
+   "centroid_Hz": 406.0,
+   "level_by_dynamic_LUFS": {
+    "pp": {
+     "n": 1,
+     "median": -42.5
+    },
+    "mf": {
+     "n": 2,
+     "median": -34.5
+    }
+   },
+   "dB_per_dynamic_step": 2.66,
+   "articulation_audio": {
+    "detached": {
+     "n": 1,
+     "attack_ms_median_clean_onsets": 68.0,
+     "clean_onsets_n": 1,
+     "sustain75_dB_median": 9.64,
+     "sustain75_dB_n": 1
+    },
+    "tenuto": {
+     "n": 3,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": 1.01,
+     "sustain75_dB_n": 3,
+     "audible_len_s_median": 2.65,
+     "audible_len_s_n": 1,
+     "audible_ratio_median": 1.19,
+     "audible_ratio_n": 1
+    },
+    "detached_boundary_dip_dB_median": -2.1,
+    "detached_boundary_n": 3
+   }
+  },
+  {
+   "stem": "Violas",
+   "family": "strings",
+   "notes": 286,
+   "I_LUFS_whole_file": -36.45,
+   "loud_while_sounding_LUFS": -37.27,
+   "peak_dBFS": -15.9,
+   "pan_R_minus_L_dB": 2.08,
+   "corr_LR": 0.75,
+   "centroid_Hz": 719.0,
+   "level_by_dynamic_LUFS": {
+    "ppp": {
+     "n": 3,
+     "median": -45.6
+    },
+    "pp": {
+     "n": 27,
+     "median": -46.4
+    },
+    "p": {
+     "n": 13,
+     "median": -42.9
+    },
+    "mp": {
+     "n": 5,
+     "median": -43.0
+    },
+    "mf": {
+     "n": 2,
+     "median": -38.9
+    },
+    "f": {
+     "n": 3,
+     "median": -32.5
+    },
+    "ff": {
+     "n": 5,
+     "median": -30.6
+    }
+   },
+   "dB_per_dynamic_step": 3.02,
+   "articulation_audio": {
+    "detached": {
+     "n": 97,
+     "attack_ms_median_clean_onsets": 117.0,
+     "clean_onsets_n": 18,
+     "sustain75_dB_median": -1.92,
+     "sustain75_dB_n": 97,
+     "audible_len_s_median": 3.66,
+     "audible_len_s_n": 10,
+     "audible_ratio_median": 1.06,
+     "audible_ratio_n": 10
+    },
+    "legato": {
+     "n": 137,
+     "attack_ms_median_clean_onsets": 110.0,
+     "clean_onsets_n": 5,
+     "sustain75_dB_median": -1.37,
+     "sustain75_dB_n": 137
+    },
+    "pizz": {
+     "n": 42,
+     "attack_ms_median_clean_onsets": 43.0,
+     "clean_onsets_n": 40,
+     "sustain75_dB_median": -8.94,
+     "sustain75_dB_n": 42,
+     "audible_len_s_median": 0.46,
+     "audible_len_s_n": 1,
+     "audible_ratio_median": 1.37,
+     "audible_ratio_n": 1
+    },
+    "tremolo": {
+     "n": 10,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": -4.66,
+     "sustain75_dB_n": 10,
+     "trem_peaks_per_s_median": 2.76,
+     "trem_peaks_per_s_n": 10,
+     "trem_env_std_dB_median": 1.49,
+     "trem_env_std_dB_n": 10
+    },
+    "slurred_boundary_dip_dB_median": -1.2,
+    "slurred_boundary_n": 137,
+    "detached_boundary_dip_dB_median": -9.0,
+    "detached_boundary_n": 119
+   }
+  },
+  {
+   "stem": "Violins I",
+   "family": "strings",
+   "notes": 109,
+   "I_LUFS_whole_file": -34.14,
+   "loud_while_sounding_LUFS": -34.69,
+   "peak_dBFS": -16.7,
+   "pan_R_minus_L_dB": -8.64,
+   "corr_LR": 0.396,
+   "centroid_Hz": 2308.0,
+   "level_by_dynamic_LUFS": {
+    "ppp": {
+     "n": 1,
+     "median": -50.4
+    },
+    "pp": {
+     "n": 1,
+     "median": -45.9
+    },
+    "p": {
+     "n": 14,
+     "median": -39.5
+    },
+    "mp": {
+     "n": 10,
+     "median": -36.7
+    },
+    "mf": {
+     "n": 5,
+     "median": -33.6
+    },
+    "f": {
+     "n": 3,
+     "median": -31.4
+    },
+    "ff": {
+     "n": 5,
+     "median": -32.2
+    }
+   },
+   "dB_per_dynamic_step": 2.43,
+   "articulation_audio": {
+    "detached": {
+     "n": 36,
+     "attack_ms_median_clean_onsets": 170.0,
+     "clean_onsets_n": 3,
+     "sustain75_dB_median": -0.32,
+     "sustain75_dB_n": 36,
+     "audible_len_s_median": 4.35,
+     "audible_len_s_n": 5,
+     "audible_ratio_median": 1.06,
+     "audible_ratio_n": 5
+    },
+    "legato": {
+     "n": 67,
+     "attack_ms_median_clean_onsets": 70.0,
+     "clean_onsets_n": 4,
+     "sustain75_dB_median": -0.18,
+     "sustain75_dB_n": 67
+    },
+    "tenuto": {
+     "n": 3,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": -3.26,
+     "sustain75_dB_n": 3
+    },
+    "tremolo": {
+     "n": 3,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": -3.76,
+     "sustain75_dB_n": 3,
+     "audible_len_s_median": 2.74,
+     "audible_len_s_n": 1,
+     "audible_ratio_median": 1.05,
+     "audible_ratio_n": 1,
+     "trem_peaks_per_s_median": 6.38,
+     "trem_peaks_per_s_n": 3,
+     "trem_env_std_dB_median": 1.43,
+     "trem_env_std_dB_n": 3
+    },
+    "slurred_boundary_dip_dB_median": -0.3,
+    "slurred_boundary_n": 67,
+    "detached_boundary_dip_dB_median": -10.5,
+    "detached_boundary_n": 33
+   }
+  },
+  {
+   "stem": "Violins II",
+   "family": "strings",
+   "notes": 148,
+   "I_LUFS_whole_file": -37.39,
+   "loud_while_sounding_LUFS": -37.84,
+   "peak_dBFS": -16.5,
+   "pan_R_minus_L_dB": -4.85,
+   "corr_LR": 0.642,
+   "centroid_Hz": 1519.0,
+   "level_by_dynamic_LUFS": {
+    "ppp": {
+     "n": 1,
+     "median": -52.5
+    },
+    "pp": {
+     "n": 24,
+     "median": -46.2
+    },
+    "p": {
+     "n": 10,
+     "median": -43.9
+    },
+    "mp": {
+     "n": 11,
+     "median": -39.5
+    },
+    "mf": {
+     "n": 5,
+     "median": -36.2
+    },
+    "f": {
+     "n": 3,
+     "median": -34.2
+    },
+    "ff": {
+     "n": 5,
+     "median": -33.6
+    }
+   },
+   "dB_per_dynamic_step": 2.64,
+   "articulation_audio": {
+    "detached": {
+     "n": 67,
+     "attack_ms_median_clean_onsets": 94.0,
+     "clean_onsets_n": 5,
+     "sustain75_dB_median": 4.57,
+     "sustain75_dB_n": 67,
+     "audible_len_s_median": 3.82,
+     "audible_len_s_n": 7,
+     "audible_ratio_median": 1.12,
+     "audible_ratio_n": 7
+    },
+    "legato": {
+     "n": 59,
+     "attack_ms_median_clean_onsets": 92.0,
+     "clean_onsets_n": 4,
+     "sustain75_dB_median": -0.48,
+     "sustain75_dB_n": 59
+    },
+    "tenuto": {
+     "n": 18,
+     "attack_ms_median_clean_onsets": 88.0,
+     "clean_onsets_n": 1,
+     "sustain75_dB_median": -0.37,
+     "sustain75_dB_n": 18
+    },
+    "tremolo": {
+     "n": 4,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": -7.17,
+     "sustain75_dB_n": 4,
+     "trem_peaks_per_s_median": 3.89,
+     "trem_peaks_per_s_n": 4,
+     "trem_env_std_dB_median": 1.44,
+     "trem_env_std_dB_n": 4
+    },
+    "slurred_boundary_dip_dB_median": -0.3,
+    "slurred_boundary_n": 66,
+    "detached_boundary_dip_dB_median": -8.5,
+    "detached_boundary_n": 67
+   }
+  },
+  {
+   "stem": "Violoncellos",
+   "family": "strings",
+   "notes": 123,
+   "I_LUFS_whole_file": -37.43,
+   "loud_while_sounding_LUFS": -37.93,
+   "peak_dBFS": -18.2,
+   "pan_R_minus_L_dB": 6.04,
+   "corr_LR": 0.567,
+   "centroid_Hz": 483.0,
+   "level_by_dynamic_LUFS": {
+    "ppp": {
+     "n": 2,
+     "median": -48.8
+    },
+    "pp": {
+     "n": 21,
+     "median": -45.4
+    },
+    "p": {
+     "n": 19,
+     "median": -40.8
+    },
+    "mp": {
+     "n": 4,
+     "median": -34.9
+    },
+    "mf": {
+     "n": 5,
+     "median": -36.0
+    },
+    "f": {
+     "n": 6,
+     "median": -34.3
+    },
+    "ff": {
+     "n": 2,
+     "median": -30.6
+    }
+   },
+   "dB_per_dynamic_step": 2.97,
+   "articulation_audio": {
+    "detached": {
+     "n": 72,
+     "attack_ms_median_clean_onsets": 111.0,
+     "clean_onsets_n": 7,
+     "sustain75_dB_median": 0.1,
+     "sustain75_dB_n": 70,
+     "audible_len_s_median": 3.77,
+     "audible_len_s_n": 5,
+     "audible_ratio_median": 1.06,
+     "audible_ratio_n": 5
+    },
+    "legato": {
+     "n": 45,
+     "attack_ms_median_clean_onsets": 144.0,
+     "clean_onsets_n": 2,
+     "sustain75_dB_median": -0.07,
+     "sustain75_dB_n": 45,
+     "audible_len_s_median": 4.34,
+     "audible_len_s_n": 1,
+     "audible_ratio_median": 1.09,
+     "audible_ratio_n": 1
+    },
+    "tenuto": {
+     "n": 4,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": -1.43,
+     "sustain75_dB_n": 4
+    },
+    "tremolo": {
+     "n": 2,
+     "attack_ms_median_clean_onsets": null,
+     "clean_onsets_n": 0,
+     "sustain75_dB_median": -11.67,
+     "sustain75_dB_n": 2,
+     "trem_peaks_per_s_median": 5.88,
+     "trem_peaks_per_s_n": 2,
+     "trem_env_std_dB_median": 2.63,
+     "trem_env_std_dB_n": 2
+    },
+    "slurred_boundary_dip_dB_median": 0.3,
+    "slurred_boundary_n": 44,
+    "detached_boundary_dip_dB_median": -9.0,
+    "detached_boundary_n": 66
+   }
+  }
+ ],
+ "blend": {
+  "bars_with_2plus_stems": 87,
+  "loudest_minus_second_dB_median": 2.0,
+  "bars_where_one_stem_leads_by_6dB_plus": 15,
+  "loudest_stem_count": {
+   "Violins I": 19,
+   "Horns 12": 13,
+   "Cor anglais": 11,
+   "Clarinets 12": 8,
+   "Oboes 12": 7,
+   "Bass clarinet": 6,
+   "Double basses": 6,
+   "Horns 34": 5,
+   "Violoncellos": 5,
+   "Violins II": 3,
+   "Violas": 2,
+   "Flutes 12": 2,
+   "Contrabassoon": 1,
+   "Trombones 12": 1
+  },
+  "balance_inversions_n": 48,
+  "balance_inversion_note": "bar where a stem with a softer printed dynamic is >3 dB louder (while sounding) than a stem with a louder printed dynamic",
+  "balance_inversions_top_pairs": [
+   [
+    "Violins II louder than Double basses",
+    4
+   ],
+   [
+    "Violas louder than Double basses",
+    3
+   ],
+   [
+    "Double basses louder than Harp RH",
+    3
+   ],
+   [
+    "Bassoons 12 louder than Harp RH",
+    3
+   ],
+   [
+    "Timpani louder than Oboes 12",
+    2
+   ],
+   [
+    "Horns 34 louder than Violins II",
+    2
+   ],
+   [
+    "Clarinets 12 louder than Harp RH",
+    2
+   ],
+   [
+    "Horns 12 louder than Harp RH",
+    2
+   ],
+   [
+    "Violas louder than Harp RH",
+    2
+   ],
+   [
+    "Oboes 12 louder than Bassoons 12",
+    1
+   ],
+   [
+    "Timpani louder than Flutes 12",
+    1
+   ],
+   [
+    "Timpani louder than Violoncellos",
+    1
+   ],
+   [
+    "Horns 34 louder than Violins I",
+    1
+   ],
+   [
+    "Horns 12 louder than Violins II",
+    1
+   ],
+   [
+    "Horns 12 louder than Timpani",
+    1
+   ]
+  ],
+  "balance_inversions_examples": [
+   [
+    37,
+    "Violins II",
+    "pp",
+    "Double basses",
+    "p",
+    5.1
+   ],
+   [
+    37,
+    "Violas",
+    "pp",
+    "Double basses",
+    "p",
+    3.1
+   ],
+   [
+    58,
+    "Oboes 12",
+    "p",
+    "Bassoons 12",
+    "mp",
+    5.0
+   ],
+   [
+    60,
+    "Timpani",
+    "p",
+    "Oboes 12",
+    "f",
+    4.0
+   ],
+   [
+    60,
+    "Timpani",
+    "p",
+    "Flutes 12",
+    "f",
+    4.5
+   ],
+   [
+    60,
+    "Timpani",
+    "p",
+    "Violoncellos",
+    "f",
+    4.8
+   ],
+   [
+    61,
+    "Horns 34",
+    "f",
+    "Violins I",
+    "ff",
+    3.7
+   ],
+   [
+    61,
+    "Horns 34",
+    "f",
+    "Violins II",
+    "ff",
+    5.7
+   ],
+   [
+    62,
+    "Horns 12",
+    "f",
+    "Violins II",
+    "ff",
+    3.1
+   ],
+   [
+    62,
+    "Horns 12",
+    "f",
+    "Timpani",
+    "ff",
+    4.3
+   ],
+   [
+    62,
+    "Tuba",
+    "mf",
+    "Timpani",
+    "ff",
+    3.9
+   ],
+   [
+    81,
+    "Horns 34",
+    "f",
+    "Contrabassoon",
+    "ff",
+    3.9
+   ],
+   [
+    81,
+    "Horns 34",
+    "f",
+    "Violins II",
+    "ff",
+    4.4
+   ],
+   [
+    81,
+    "Horns 34",
+    "f",
+    "Bassoons 12",
+    "ff",
+    5.8
+   ],
+   [
+    81,
+    "Horns 34",
+    "f",
+    "Bass clarinet",
+    "ff",
+    6.9
+   ],
+   [
+    81,
+    "Horns 34",
+    "f",
+    "Flutes 12",
+    "ff",
+    9.2
+   ],
+   [
+    81,
+    "Horns 34",
+    "f",
+    "Oboes 12",
+    "ff",
+    15.6
+   ],
+   [
+    81,
+    "Violoncellos",
+    "f",
+    "Bass clarinet",
+    "ff",
+    3.5
+   ],
+   [
+    81,
+    "Violoncellos",
+    "f",
+    "Flutes 12",
+    "ff",
+    5.9
+   ],
+   [
+    81,
+    "Violoncellos",
+    "f",
+    "Oboes 12",
+    "ff",
+    12.2
+   ],
+   [
+    81,
+    "Horns 12",
+    "f",
+    "Oboes 12",
+    "ff",
+    9.3
+   ],
+   [
+    81,
+    "Timpani",
+    "f",
+    "Oboes 12",
+    "ff",
+    6.3
+   ],
+   [
+    82,
+    "Violins I",
+    "p",
+    "Harp RH",
+    "mp",
+    7.2
+   ],
+   [
+    82,
+    "Clarinets 12",
+    "p",
+    "Harp RH",
+    "mp",
+    6.1
+   ],
+   [
+    82,
+    "Double basses",
+    "p",
+    "Harp RH",
+    "mp",
+    5.2
+   ]
+  ],
+  "family_level_by_dynamic_LUFS_median": {
+   "woodwind": {
+    "pp": -48.9,
+    "p": -41.2,
+    "mp": -39.1,
+    "mf": -34.1,
+    "f": -33.3,
+    "ff": -30.8
+   },
+   "brass": {
+    "pp": -42.9,
+    "mf": -37.1,
+    "f": -38.6,
+    "ff": -35.4
+   },
+   "strings": {
+    "ppp": -48.9,
+    "pp": -45.6,
+    "p": -42.1,
+    "mp": -38.6,
+    "mf": -36.0,
+    "f": -32.6,
+    "ff": -31.4
+   },
+   "harp": {
+    "pp": -50.9,
+    "p": -43.7,
+    "mp": -43.8
+   },
+   "horn": {
+    "ppp": -55.5,
+    "pp": -46.4,
+    "p": -40.9,
+    "mp": -40.9,
+    "f": -32.2
+   },
+   "percussion": {
+    "ppp": -47.1,
+    "pp": -45.1,
+    "p": -44.1,
+    "f": -36.5,
+    "ff": -32.9
+   }
+  },
+  "stem_pan_R_minus_L_dB": {
+   "Bass clarinet": -4.37,
+   "Bass trombone": 1.52,
+   "Bassoons 12": -0.52,
+   "Clarinets 12": -3.77,
+   "Contrabassoon": 1.72,
+   "Cor anglais": 3.09,
+   "Double basses": 5.74,
+   "Flutes 12": -3.47,
+   "Harp LH": -9.14,
+   "Harp RH": -9.2,
+   "Horns 12": -4.45,
+   "Horns 34": -4.36,
+   "Oboes 12": 0.2,
+   "Timpani": -1.89,
+   "Trombones 12": -0.69,
+   "Tuba": 3.47,
+   "Violas": 2.08,
+   "Violins I": -8.64,
+   "Violins II": -4.85,
+   "Violoncellos": 6.04
+  },
+  "stem_centroid_Hz": {
+   "Bass clarinet": 595.0,
+   "Bass trombone": 654.0,
+   "Bassoons 12": 497.0,
+   "Clarinets 12": 630.0,
+   "Contrabassoon": 338.0,
+   "Cor anglais": 821.0,
+   "Double basses": 147.0,
+   "Flutes 12": 1363.0,
+   "Harp LH": 251.0,
+   "Harp RH": 315.0,
+   "Horns 12": 540.0,
+   "Horns 34": 474.0,
+   "Oboes 12": 1309.0,
+   "Timpani": 216.0,
+   "Trombones 12": 989.0,
+   "Tuba": 406.0,
+   "Violas": 719.0,
+   "Violins I": 2308.0,
+   "Violins II": 1519.0,
+   "Violoncellos": 483.0
+  }
+ }
+}

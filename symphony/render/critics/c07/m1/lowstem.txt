@@ -1,0 +1,9 @@
+/tmp/c07/w07-m1/stems mix <100 Hz share -11.2 dB
+  Double_basses   <100 Hz -14.9 dB, 40-80 Hz -19.5 dB, 100-250 -14.7 dB (re mix total); stem share of its own energy <100 Hz -3.4 dB
+  Double_basses_syn <100 Hz -18.0 dB, 40-80 Hz -22.3 dB, 100-250 -15.8 dB (re mix total); stem share of its own energy <100 Hz -4.6 dB
+  Timpani         <100 Hz -20.4 dB, 40-80 Hz -38.4 dB, 100-250 -17.9 dB (re mix total); stem share of its own energy <100 Hz -5.1 dB
+  Timpani_syn     <100 Hz -20.8 dB, 40-80 Hz -39.7 dB, 100-250 -17.7 dB (re mix total); stem share of its own energy <100 Hz -5.6 dB
+  Contrabassoon   <100 Hz -25.8 dB, 40-80 Hz -29.3 dB, 100-250 -19.0 dB (re mix total); stem share of its own energy <100 Hz -11.1 dB
+  Contrabassoon_syn <100 Hz -27.0 dB, 40-80 Hz -31.2 dB, 100-250 -20.2 dB (re mix total); stem share of its own energy <100 Hz -11.2 dB
+  Bass_clarinet   <100 Hz -28.5 dB, 40-80 Hz -34.0 dB, 100-250 -21.9 dB (re mix total); stem share of its own energy <100 Hz -11.5 dB
+  Bass_clarinet_syn <100 Hz -29.6 dB, 40-80 Hz -36.3 dB, 100-250 -24.0 dB (re mix total); stem share of its own energy <100 Hz -11.4 dB

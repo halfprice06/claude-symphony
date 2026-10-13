@@ -1,0 +1,48 @@
+stem files in /tmp/c07/w07-m1/stems
+Bass clarinet   sounding -33.98 LUFS  dB/step 2.89  pan -4.3
+Bass trombone   sounding -34.65 LUFS  dB/step 3.2  pan 3.41
+Bassoons 12     sounding -33.24 LUFS  dB/step 2.57  pan 0.22
+Clarinets 12    sounding -32.21 LUFS  dB/step 1.86  pan -2.92
+Contrabassoon   sounding -31.23 LUFS  dB/step 2.7  pan 1.9
+Cor anglais     sounding -35.01 LUFS  dB/step 1.84  pan 2.8
+Double basses   sounding -33.05 LUFS  dB/step 2.59  pan 5.22
+Flutes 12       sounding -32.41 LUFS  dB/step 1.13  pan -2.08
+Harp LH         sounding -40.68 LUFS  dB/step 4.06  pan -8.72
+Harp RH         sounding -43.25 LUFS  dB/step None  pan -9.3
+Horns 12        sounding -32.54 LUFS  dB/step 1.88  pan -5.32
+Horns 34        sounding -34.73 LUFS  dB/step 2.51  pan -5.74
+Oboes 12        sounding -31.36 LUFS  dB/step 0.96  pan 0.9
+Timpani         sounding -33.82 LUFS  dB/step 1.46  pan -1.69
+Trombones 12    sounding -35.12 LUFS  dB/step 2.79  pan 2.77
+Trumpet 3       sounding -29.12 LUFS  dB/step 3.01  pan 1.4
+Trumpets 12     sounding -30.24 LUFS  dB/step 2.27  pan 0.86
+Tuba            sounding -33.68 LUFS  dB/step 2.75  pan 3.7
+Violas          sounding -34.35 LUFS  dB/step 2.87  pan 2.31
+Violins I       sounding -33.18 LUFS  dB/step 2.0  pan -8.67
+Violins II      sounding -34.82 LUFS  dB/step 2.14  pan -5.07
+Violoncellos    sounding -35.57 LUFS  dB/step 2.26  pan 4.99
+drums           sounding None LUFS  dB/step None  pan -0.01
+{
+ "loudest_minus_second_dB_median": 1.1,
+ "loudest_stem_count": {
+  "Violas": 26,
+  "Double basses": 24,
+  "Violoncellos": 22,
+  "Horns 12": 16,
+  "Bassoons 12": 13,
+  "Oboes 12": 13,
+  "Violins II": 13,
+  "Violins I": 11,
+  "Clarinets 12": 10,
+  "Trumpet 3": 7,
+  "Contrabassoon": 5,
+  "Flutes 12": 5,
+  "Bass clarinet": 4,
+  "Cor anglais": 4,
+  "Trumpets 12": 4,
+  "Horns 34": 2,
+  "Timpani": 1,
+  "Trombones 12": 1
+ },
+ "balance_inversions_n": 279
+}

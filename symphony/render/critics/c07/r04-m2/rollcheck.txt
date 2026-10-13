@@ -1,0 +1,6 @@
+roll 2-3 ppp 6.3s: 2:-2.7(Violas pp/ppp) 3:-7.2(Horns  pp/-)
+roll 61-62 ff 8.3s: 61:-1.5(Oboes  ff/ff) 62:-0.4(Double ff/ff)
+roll 67-70 ppp 13.3s: 67:-6.4(Horns  p/ppp) 68:-12.1(Horns  mp/-) 69:-9.8(Double -/-) 70:-9.7(Double -/-)
+roll 79-81 f 11.4s: 79:-4.1(Flutes ff/f) 80:-3.2(Flutes ff/f) 81:-2.4(Horns  f/f)
+roll 89-92 ppp 18.7s: 89:-4.3(Horns  pp/ppp) 90:-5.7(Horns  -/-) 91:-5.1(Violin -/-) 92:-5.3(Violin -/-)
+bars: 15, timpani loudest (>0 dB): 0, within 1 dB (>-1): 1, max -0.4

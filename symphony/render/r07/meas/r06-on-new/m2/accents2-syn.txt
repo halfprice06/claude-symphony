@@ -1,0 +1,2 @@
+r06-m2 (syn stems): stem | n acc (n with crest) | peak dB | rise dB | crest dB | edge dB/ms   (accent minus local plain median; medians)
+ALL | 0 (0) | - | - | - | -

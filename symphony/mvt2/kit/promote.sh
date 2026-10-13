@@ -4,7 +4,7 @@ set -e
 M=/mnt/project-files/symphony/mvt2
 NEW=$(printf %02d $1); PREV=$(printf %02d $2); SRC=$3
 W=/tmp/m2/v$NEW; rm -rf $W; mkdir -p $W
-(cd $SRC && tar cf - --exclude='*.wav' --exclude=build --exclude=probe --exclude=base --exclude='pg*' --exclude='*.png' .) | (cd $W && tar xf -)
+(cd $SRC && tar cf - --exclude='*.wav' --exclude='score-r0*.mp3' --exclude=build --exclude=probe --exclude=base --exclude='pg*' --exclude='*.png' .) | (cd $W && tar xf -)
 sed -i -e "s/draft v$PREV\"/draft v$NEW\"/" $W/score.ly
 bash $M/tools/build.sh $W score.ly >/dev/null 2>&1 || true
 mkdir -p $M/v$NEW && (cd $W && tar cf - .) | (cd $M/v$NEW && tar xf -)

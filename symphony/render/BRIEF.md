@@ -44,3 +44,7 @@ reached 6-8 dB in the strings with VPO accent samples plus +8 velocity, and 4.6-
 high. An accent should stand out by emphasis and weight, not by a hard transient: aim for about 2-4 dB peak boost, a
 less sharp onset (compare attack time and onset crest with unaccented notes and with accents in the reference
 recordings), and no click-like front edge. Critics measure accent boost and onset sharpness per instrument against this.
+
+## Movement III (2026-10-12)
+Movement III (symphony/mvt3/vNN) also has to render with the same renderer. It uses cymbals and bass drum. Open:
+perc.py must parse drum chords and \tweak in \drummode, and the bass drum needs a sound (free sample, e.g. VPO/VSCO 2 CE).

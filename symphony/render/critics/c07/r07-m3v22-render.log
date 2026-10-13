@@ -1,0 +1,7 @@
+[ 44.2s] score events -> /tmp/c07/w07-m3/notes.csv
+{"detached": 3894, "accent": 958, "legato": 2322, "slur_end": 486, "staccato": 623, "tenuto/fermata": 36, "sf": 12, "timp_roll_chains": 7, "timp_roll_chain_drum_changes": 4, "timp_rolls": 8, "timp_roll_chain_members": 18, "tremolo32": 6, "pizz": 504, "overlap_trimmed": 26, "percussion_events": 9, "velocity_outliers_fixed": 140, "hairpin_velocity_capped": 64, "matched_shared": 14}
+[ 51.4s] articulated MIDI -> /tmp/c07/w07-m3/render.midi
+[302.3s] 23 stems rendered
+[432.0s] balance: 11 melodies, 8 rolls, 23 stems re-placed
+premaster I -22.9 LUFS, LRA 19.4 LU, true peak -2.5 dBTP; gain +2.90 dB; peak after gain 0.4 dBTP
+{"score": "/mnt/project-files/symphony/mvt3/v22", "premaster": {"I": -22.9, "LRA": 19.4, "TP": -2.5}, "gain_dB": 2.8999999999999986, "master_wav": {"I": -20.0, "LRA": 19.4, "TP": -1.5}, "mp3": {"I": -20.0, "LRA": 19.4, "TP": -1.4}, "seconds": 498.1}

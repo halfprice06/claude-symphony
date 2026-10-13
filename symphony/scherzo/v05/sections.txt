@@ -1,0 +1,13 @@
+intro 12 3
+sA 44 3
+sB 48 3
+sC 36 3
+link 12 3
+tA 32 3
+tB 24 3
+tC 32 3
+retr 16 3
+dA 36 3
+dB 16 3
+dC 24 3
+coda 52 3
