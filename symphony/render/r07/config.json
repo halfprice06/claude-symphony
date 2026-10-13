@@ -209,9 +209,9 @@
   "timp_roll_chain_overlap_s": 0.03,
   "_doc_roll_r07": "r07 (critic 6, plan 1): timp_roll_chains: consecutive timpani tremolo notes with no gap are one roll (lib/marks.roll_chains) for the roll curve, start stroke, trims and the balance roll rule; a change of drum inside a chain keeps the earlier drum on channel 2 (roll samples without the closing stroke) overlapping the new one by timp_roll_chain_overlap_s.",
   "sf_mode": "weight",
-  "sf_level_dB": 4.0,
-  "sf_bump_dB": 2.0,
-  "_doc_sf_r07": "r07 (critic 6, plan 7): sf_mode weight: an sf note starts from the plain-note velocity (as accents) raised by sf_level_dB on the 40*log10 law plus a CC11 bump of sf_bump_dB (accent rise/fall), instead of +sf_velocity_boost and a dip; fp keeps its recipe."
+  "sf_level_dB": 1.0,
+  "sf_bump_dB": 3.0,
+  "_doc_sf_r07": "r07 (critic 6, plan 7): sf_mode weight: an sf note starts from the plain-note velocity (as accents) raised by sf_level_dB (40*log10 law) plus a CC11 bump of sf_bump_dB with the accent rise/fall (40 ms / 300 ms), instead of +sf_velocity_boost and a dip; fp keeps its recipe. Test B had level 4 / bump 2: the +4 dB lasted the whole note, so v203 bars 41-42 (tutti sf > decresc whole notes) rose 4 dB and became the movement's loudest moment (S max +6.7 -> +8.2 LU); level 1 + bump 3 keeps the sf an attack."
  },
  "stems": {
   "Flutes 12": {
@@ -618,7 +618,184 @@
    },
    "staccato_extra_vel": 8,
    "src2": "S6",
-   "_doc_src2_r07": "r07 (critic 6, plan 8): src2 two-position room response (stem.py place) for width; the stem's left and right halves through two Detmold source positions"
+   "_doc_src2_r07": "r07 (critic 6, plan 8): src2 two-position room response (stem.py place) for width; the stem's left and right halves through two Detmold source positions",
+   "_fluid_backup": {
+    "gain_dB": 2.08,
+    "printed_trim_dB": null,
+    "dyn_corr_dB": {
+     "pp": 0.0,
+     "p": 0.0,
+     "mp": 0.0,
+     "mf": 0.0,
+     "f": 0.0,
+     "ff": -0.0,
+     "fff": -0.0
+    },
+    "width": 1.0,
+    "engine": null
+   },
+   "_doc_r07": "r07 (critic 6, plan 3): Philharmonia Orchestra samples (per pitch, p/mf/ff or pp/mf/ff, 1.5 s notes; r07/build_phil.py; assets/philharmonia/coranglais-r07) through sfzplay; level calibrated against the FluidR3 stem per printed dynamic (meas/scripts/engcal.py); _fluid_backup keeps the FluidR3 settings",
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -12.0,
+    "tail_s": 3.0,
+    "channels": {
+     "0": {
+      "file": "sfz/coranglais-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "1": {
+      "file": "sfz/coranglais-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "2": {
+      "file": "sfz/coranglais-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "sfz/coranglais-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "sfz/coranglais-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "sfz/coranglais-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "6": {
+      "file": "sfz/coranglais-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "7": {
+      "file": "sfz/coranglais-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     }
+    },
+    "legato_env": {
+     "skip_db": -3,
+     "skip_max_s": 0.3,
+     "attack": 0.06
+    },
+    "_doc_gain": "r07: engcal v203 m1: p +2.7, f +7.8, ff +5.7 at gain -8; -4.0; dB/step 1.61 -> 2.55"
+   },
+   "printed_trim_dB": {
+    "p": 1.5
+   },
+   "_doc_softtrim_r07": "r07: Philharmonia cor anglais at p sits about 1.3 dB under the FluidR3 one after the f/ff gain match (engcal); test C: v203 espr. 171-173 (p) -0.4 -> -2.2 dB vs the cellos (mp); p +1.5"
   },
   "Clarinets 12": {
    "family": "wind",
@@ -1218,7 +1395,7 @@
    "printed_trim_dB": {
     "pp": -4.0,
     "p": -3.0,
-    "mp": -2.0,
+    "mp": 0.0,
     "mf": -1.0,
     "f": 0.0,
     "ff": 1.0,
@@ -1226,13 +1403,198 @@
    },
    "_doc_r05_slope": "r05 (critic 4, plan 2): printed_trim_dB includes +1.0 dB per printed step around f (the stem measured < 2.5 dB per printed step in r04)",
    "src2": "S6",
-   "_doc_src2_r07": "r07 (critic 6, plan 8): src2 two-position room response (stem.py place) for width; the stem's left and right halves through two Detmold source positions"
+   "_doc_src2_r07": "r07 (critic 6, plan 8): src2 two-position room response (stem.py place) for width; the stem's left and right halves through two Detmold source positions",
+   "_fluid_backup": {
+    "gain_dB": 21.16,
+    "printed_trim_dB": {
+     "pp": -4.0,
+     "p": -3.0,
+     "mp": -2.0,
+     "mf": -1.0,
+     "f": 0.0,
+     "ff": 1.0,
+     "fff": 2.0
+    },
+    "dyn_corr_dB": {
+     "pp": -12.0,
+     "p": -10.0,
+     "mp": -8.0,
+     "mf": -6.0,
+     "f": -4.0,
+     "ff": -2.0,
+     "fff": 0.0
+    },
+    "width": 1.0,
+    "engine": null
+   },
+   "_doc_r07": "r07 (critic 6, plan 3): Philharmonia Orchestra samples (per pitch, p/mf/ff or pp/mf/ff, 1.5 s notes; r07/build_phil.py; assets/philharmonia/contrabassoon-r07) through sfzplay; level calibrated against the FluidR3 stem per printed dynamic (meas/scripts/engcal.py); _fluid_backup keeps the FluidR3 settings",
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -11.5,
+    "tail_s": 3.0,
+    "channels": {
+     "0": {
+      "file": "sfz/contrabassoon-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "1": {
+      "file": "sfz/contrabassoon-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "2": {
+      "file": "sfz/contrabassoon-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "sfz/contrabassoon-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "sfz/contrabassoon-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "sfz/contrabassoon-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "6": {
+      "file": "sfz/contrabassoon-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "7": {
+      "file": "sfz/contrabassoon-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     }
+    },
+    "legato_env": {
+     "skip_db": -3,
+     "skip_max_s": 0.3,
+     "attack": 0.06
+    },
+    "_doc_gain": "r07: engcal v203 m1: mp +0.7, mf +2.9, f +3.4, ff +4.8 at gain -8; -3.5; dB/step 1.91 -> 2.87"
+   },
+   "accent_level_dB": 0.5,
+   "accent_bump_dB": 1.0,
+   "_doc_accent_r07": "r07 (Dan's accent note): Iowa/Philharmonia sample sets cross into the ff layer on an accent; weight lowered so accents sit near +2-4 dB (accents2.py wet, test A: Tbn +6.5, B.tbn +7.2, Tuba +7.9, Cbsn +5.3, Hn34 +4.4, Tpt3 +4.6)",
+   "_doc_softtrim_r07": "r07: soft brass on the new sample sets sat 4-8 dB under Violins I at the same printed pp/p (stemcmp, test A); raised"
   },
   "Horns 12": {
    "family": "brass",
    "gain_dB": 13.02,
    "pan": -0.55,
-   "width": 0.5,
+   "width": 1.0,
    "src": "S5",
    "send_dB": -3,
    "dyn_scale": 1.0,
@@ -1248,18 +1610,199 @@
    "printed_trim_dB": {
     "ff": -3,
     "fff": -3,
-    "p": -1,
+    "p": 0.5,
     "mp": -1,
-    "mf": -1,
+    "mf": 0.5,
     "f": -2
    },
-   "_doc_r06_trim": "r06: printed_trim_dB p/mp/mf -1, f -2 added (brass printed f stood > 3 dB over winds and strings printed ff in tuttis: 83+70+48+35+30 of 402 m1 inversions in r06 test render D; simulated on D's stem levels, meas/scripts/invsim.py); ff unchanged (brass carry the ff tutti)"
+   "_doc_r06_trim": "r06: printed_trim_dB p/mp/mf -1, f -2 added (brass printed f stood > 3 dB over winds and strings printed ff in tuttis: 83+70+48+35+30 of 402 m1 inversions in r06 test render D; simulated on D's stem levels, meas/scripts/invsim.py); ff unchanged (brass carry the ff tutti)",
+   "_fluid_backup": {
+    "gain_dB": 13.02,
+    "printed_trim_dB": {
+     "ff": -3,
+     "fff": -3,
+     "p": -1,
+     "mp": -1,
+     "mf": -1,
+     "f": -2
+    },
+    "dyn_corr_dB": {
+     "pp": -11.59,
+     "p": -9.66,
+     "mp": -7.72,
+     "mf": -5.79,
+     "f": -3.86,
+     "ff": -1.93,
+     "fff": 0.0
+    },
+    "width": 0.5,
+    "engine": null
+   },
+   "_doc_r07": "r07 (critic 6, plan 2): Philharmonia Orchestra samples (per pitch, p/mf/ff or pp/mf/ff, 1.5 s notes; r07/build_phil.py; assets/philharmonia/horn-r07) through sfzplay; level calibrated against the FluidR3 stem per printed dynamic (meas/scripts/engcal.py); _fluid_backup keeps the FluidR3 settings",
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -8.6,
+    "tail_s": 3.0,
+    "channels": {
+     "0": {
+      "file": "sfz/horn-phil-L.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "1": {
+      "file": "sfz/horn-phil-R.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "2": {
+      "file": "sfz/horn-phil-a2.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "sfz/horn-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "sfz/horn-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "sfz/horn-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "6": {
+      "file": "sfz/horn-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "7": {
+      "file": "sfz/horn-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     }
+    },
+    "legato_env": {
+     "skip_db": -3,
+     "skip_max_s": 0.3,
+     "attack": 0.06
+    },
+    "_doc_gain": "r07: engcal on v203 m1 (r06 stems): Philharmonia - FluidR3 p -3.9, mp -2.4, f -1.7, ff -2.0 dB at gain -10; +1.4 so f/ff sit about 0.5 dB under FluidR3 (horns were the top inversion offender); dB per printed step 1.57 -> 1.94"
+   },
+   "_doc_softtrim_r07": "r07: Philharmonia horns are 2.5-6.7 dB under the FluidR3 horns at pp-mf (engcal, after the f/ff gain match); p/mf (and pp for 3-4) trims raised so the v82 opening horn solos (bars 4-14, pp/p) are not 2-8 dB quieter than in r06"
   },
   "Horns 34": {
    "family": "brass",
    "gain_dB": 10.94,
    "pan": -0.65,
-   "width": 0.5,
+   "width": 1.0,
    "src": "S5",
    "send_dB": -3,
    "dyn_scale": 1.0,
@@ -1273,12 +1816,195 @@
     "fff": 0.0
    },
    "printed_trim_dB": {
-    "p": -1,
+    "p": 1.5,
     "mp": -1,
     "mf": -1,
-    "f": -2
+    "f": -2,
+    "pp": 4
    },
-   "_doc_r06_trim": "r06: printed_trim_dB p/mp/mf -1, f -2 added (brass printed f stood > 3 dB over winds and strings printed ff in tuttis: 83+70+48+35+30 of 402 m1 inversions in r06 test render D; simulated on D's stem levels, meas/scripts/invsim.py); ff unchanged (brass carry the ff tutti)"
+   "_doc_r06_trim": "r06: printed_trim_dB p/mp/mf -1, f -2 added (brass printed f stood > 3 dB over winds and strings printed ff in tuttis: 83+70+48+35+30 of 402 m1 inversions in r06 test render D; simulated on D's stem levels, meas/scripts/invsim.py); ff unchanged (brass carry the ff tutti)",
+   "_fluid_backup": {
+    "gain_dB": 10.94,
+    "printed_trim_dB": {
+     "p": -1,
+     "mp": -1,
+     "mf": -1,
+     "f": -2
+    },
+    "dyn_corr_dB": {
+     "pp": -11.05,
+     "p": -9.2,
+     "mp": -7.36,
+     "mf": -5.52,
+     "f": -3.68,
+     "ff": -1.84,
+     "fff": 0.0
+    },
+    "width": 0.5,
+    "engine": null
+   },
+   "_doc_r07": "r07 (critic 6, plan 2): Philharmonia Orchestra samples (per pitch, p/mf/ff or pp/mf/ff, 1.5 s notes; r07/build_phil.py; assets/philharmonia/horn-r07) through sfzplay; level calibrated against the FluidR3 stem per printed dynamic (meas/scripts/engcal.py); _fluid_backup keeps the FluidR3 settings",
+   "engine": "sfz",
+   "sfz": {
+    "gain_dB": -8.7,
+    "tail_s": 3.0,
+    "channels": {
+     "0": {
+      "file": "sfz/horn-phil-L.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "1": {
+      "file": "sfz/horn-phil-R.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "2": {
+      "file": "sfz/horn-phil-a2.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "3": {
+      "file": "sfz/horn-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "4": {
+      "file": "sfz/horn-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "5": {
+      "file": "sfz/horn-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "6": {
+      "file": "sfz/horn-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     },
+     "7": {
+      "file": "sfz/horn-phil.sfz",
+      "env": [
+       [
+        0.5,
+        {
+         "skip_db": -8,
+         "skip_max_s": 0.25
+        }
+       ],
+       [
+        null,
+        {
+         "release": 0.15
+        }
+       ]
+      ]
+     }
+    },
+    "legato_env": {
+     "skip_db": -3,
+     "skip_max_s": 0.3,
+     "attack": 0.06
+    },
+    "_doc_gain": "r07: engcal v203 m1: pp -8.0, p -3.9, mp -3.9, f -1.2, ff -2.3 at gain -10; +1.3; dB/step 1.81 -> 2.49"
+   },
+   "accent_level_dB": 1.0,
+   "accent_bump_dB": 1.0,
+   "_doc_accent_r07": "r07 (Dan's accent note): Iowa/Philharmonia sample sets cross into the ff layer on an accent; weight lowered so accents sit near +2-4 dB (accents2.py wet, test A: Tbn +6.5, B.tbn +7.2, Tuba +7.9, Cbsn +5.3, Hn34 +4.4, Tpt3 +4.6)",
+   "_doc_softtrim_r07": "r07: Philharmonia horns are 2.5-6.7 dB under the FluidR3 horns at pp-mf (engcal, after the f/ff gain match); p/mf (and pp for 3-4) trims raised so the v82 opening horn solos (bars 4-14, pp/p) are not 2-8 dB quieter than in r06"
   },
   "Trumpets 12": {
    "family": "brass",
@@ -1692,7 +2418,10 @@
     },
     "_doc_gain": "r07: engcal.py on m1 (r06 stems): Iowa minus FluidR3 per printed dynamic; gain = minus the mean of the f and ff differences (f a little under r06, ff a little over: the samples' own dB per printed step)"
    },
-   "_doc_r07": "r07 (critic 6, plan 2): University of Iowa MIS trumpet (pre-2011 chromatic runs pp/mf/ff; r07/build_iowa.py --pitch-onset --fade-in 0.005 --pan-spread 35; assets/iowa/trumpet-r07) through sfzplay; channels as the Iowa woodwinds (0/1 players 1/2 panned -35/+35, 2 a2, 3+ centre); level calibrated against the FluidR3 stem per printed dynamic (meas/scripts/engcal.py); _fluid_backup keeps the FluidR3 settings"
+   "_doc_r07": "r07 (critic 6, plan 2): University of Iowa MIS trumpet (pre-2011 chromatic runs pp/mf/ff; r07/build_iowa.py --pitch-onset --fade-in 0.005 --pan-spread 35; assets/iowa/trumpet-r07) through sfzplay; channels as the Iowa woodwinds (0/1 players 1/2 panned -35/+35, 2 a2, 3+ centre); level calibrated against the FluidR3 stem per printed dynamic (meas/scripts/engcal.py); _fluid_backup keeps the FluidR3 settings",
+   "accent_level_dB": 1.0,
+   "accent_bump_dB": 1.0,
+   "_doc_accent_r07": "r07 (Dan's accent note): Iowa/Philharmonia sample sets cross into the ff layer on an accent; weight lowered so accents sit near +2-4 dB (accents2.py wet, test A: Tbn +6.5, B.tbn +7.2, Tuba +7.9, Cbsn +5.3, Hn34 +4.4, Tpt3 +4.6)"
   },
   "Trombones 12": {
    "family": "brass",
@@ -1714,9 +2443,10 @@
    },
    "printed_trim_dB": {
     "mp": 2,
-    "p": -1,
+    "p": 1,
     "mf": -1,
-    "f": -2
+    "f": -2,
+    "pp": 2
    },
    "_doc_r06_trim": "r06: printed_trim_dB p/mp/mf -1, f -2 added (brass printed f stood > 3 dB over winds and strings printed ff in tuttis: 83+70+48+35+30 of 402 m1 inversions in r06 test render D; simulated on D's stem levels, meas/scripts/invsim.py); ff unchanged (brass carry the ff tutti)",
    "_fluid_backup": {
@@ -1898,7 +2628,11 @@
    },
    "_doc_r07": "r07 (critic 6, plan 2): University of Iowa MIS trombone (pre-2011 chromatic runs pp/mf/ff; r07/build_iowa.py --pitch-onset --fade-in 0.005 --pan-spread 35; assets/iowa/trombone-r07) through sfzplay; channels as the Iowa woodwinds (0/1 players 1/2 panned -35/+35, 2 a2, 3+ centre); level calibrated against the FluidR3 stem per printed dynamic (meas/scripts/engcal.py); _fluid_backup keeps the FluidR3 settings",
    "src2": "S7",
-   "_doc_src2_r07": "r07 (critic 6, plan 8): src2 two-position room response (stem.py place) for width; the stem's left and right halves through two Detmold source positions"
+   "_doc_src2_r07": "r07 (critic 6, plan 8): src2 two-position room response (stem.py place) for width; the stem's left and right halves through two Detmold source positions",
+   "accent_level_dB": 0.5,
+   "accent_bump_dB": 1.0,
+   "_doc_accent_r07": "r07 (Dan's accent note): Iowa/Philharmonia sample sets cross into the ff layer on an accent; weight lowered so accents sit near +2-4 dB (accents2.py wet, test A: Tbn +6.5, B.tbn +7.2, Tuba +7.9, Cbsn +5.3, Hn34 +4.4, Tpt3 +4.6)",
+   "_doc_softtrim_r07": "r07: soft brass on the new sample sets sat 4-8 dB under Violins I at the same printed pp/p (stemcmp, test A); raised"
   },
   "Bass trombone": {
    "family": "brass",
@@ -1919,9 +2653,10 @@
    },
    "printed_trim_dB": {
     "mp": 3,
-    "p": -1,
+    "p": 0,
     "mf": -1,
-    "f": -2
+    "f": -2,
+    "pp": 3
    },
    "accent_extra_vel": 10,
    "_doc_r05_accent": "r05 (critic 4, plan 7): accent_extra_vel 10 (was unset: bass trombone accents measured -1.9 dB, n 5)",
@@ -2103,7 +2838,11 @@
     },
     "_doc_gain": "r07: engcal.py on m1 (r06 stems): Iowa minus FluidR3 per printed dynamic; gain = minus the mean of the f and ff differences (f a little under r06, ff a little over: the samples' own dB per printed step)"
    },
-   "_doc_r07": "r07 (critic 6, plan 2): University of Iowa MIS basstrombone (pre-2011 chromatic runs pp/mf/ff; r07/build_iowa.py --pitch-onset --fade-in 0.005 --pan-spread 35; assets/iowa/basstrombone-r07) through sfzplay; channels as the Iowa woodwinds (0/1 players 1/2 panned -35/+35, 2 a2, 3+ centre); level calibrated against the FluidR3 stem per printed dynamic (meas/scripts/engcal.py); _fluid_backup keeps the FluidR3 settings"
+   "_doc_r07": "r07 (critic 6, plan 2): University of Iowa MIS basstrombone (pre-2011 chromatic runs pp/mf/ff; r07/build_iowa.py --pitch-onset --fade-in 0.005 --pan-spread 35; assets/iowa/basstrombone-r07) through sfzplay; channels as the Iowa woodwinds (0/1 players 1/2 panned -35/+35, 2 a2, 3+ centre); level calibrated against the FluidR3 stem per printed dynamic (meas/scripts/engcal.py); _fluid_backup keeps the FluidR3 settings",
+   "accent_level_dB": 0.5,
+   "accent_bump_dB": 1.0,
+   "_doc_accent_r07": "r07 (Dan's accent note): Iowa/Philharmonia sample sets cross into the ff layer on an accent; weight lowered so accents sit near +2-4 dB (accents2.py wet, test A: Tbn +6.5, B.tbn +7.2, Tuba +7.9, Cbsn +5.3, Hn34 +4.4, Tpt3 +4.6)",
+   "_doc_softtrim_r07": "r07: soft brass on the new sample sets sat 4-8 dB under Violins I at the same printed pp/p (stemcmp, test A); raised"
   },
   "Tuba": {
    "family": "brass",
@@ -2294,7 +3033,15 @@
     },
     "_doc_gain": "r07: engcal.py on m1 (r06 stems): Iowa minus FluidR3 per printed dynamic; gain = minus the mean of the f and ff differences (f a little under r06, ff a little over: the samples' own dB per printed step)"
    },
-   "_doc_r07": "r07 (critic 6, plan 2): University of Iowa MIS tuba (pre-2011 chromatic runs pp/mf/ff; r07/build_iowa.py --pitch-onset --fade-in 0.005 --pan-spread 35; assets/iowa/tuba-r07) through sfzplay; channels as the Iowa woodwinds (0/1 players 1/2 panned -35/+35, 2 a2, 3+ centre); level calibrated against the FluidR3 stem per printed dynamic (meas/scripts/engcal.py); _fluid_backup keeps the FluidR3 settings"
+   "_doc_r07": "r07 (critic 6, plan 2): University of Iowa MIS tuba (pre-2011 chromatic runs pp/mf/ff; r07/build_iowa.py --pitch-onset --fade-in 0.005 --pan-spread 35; assets/iowa/tuba-r07) through sfzplay; channels as the Iowa woodwinds (0/1 players 1/2 panned -35/+35, 2 a2, 3+ centre); level calibrated against the FluidR3 stem per printed dynamic (meas/scripts/engcal.py); _fluid_backup keeps the FluidR3 settings",
+   "accent_level_dB": 0.5,
+   "accent_bump_dB": 1.0,
+   "_doc_accent_r07": "r07 (Dan's accent note): Iowa/Philharmonia sample sets cross into the ff layer on an accent; weight lowered so accents sit near +2-4 dB (accents2.py wet, test A: Tbn +6.5, B.tbn +7.2, Tuba +7.9, Cbsn +5.3, Hn34 +4.4, Tpt3 +4.6)",
+   "printed_trim_dB": {
+    "p": 1,
+    "pp": 1
+   },
+   "_doc_softtrim_r07": "r07: soft brass on the new sample sets sat 4-8 dB under Violins I at the same printed pp/p (stemcmp, test A); raised"
   },
   "Timpani": {
    "family": "timp",
@@ -2386,7 +3133,7 @@
     "tail_s": 32.0,
     "channels": {
      "9": {
-      "file": "sfz/perc-r02.sfz"
+      "file": "sfz/perc-r07.sfz"
      }
     }
    }
@@ -3128,7 +3875,8 @@
   "keys": {
    "tt": 50,
    "cymc": 49,
-   "cymr": 53
+   "cymr": 53,
+   "bd": 36
   },
   "lv": [
    "tt",
@@ -3152,7 +3900,8 @@
     ]
    ]
   },
-  "cresc_velocity": 100
+  "cresc_velocity": 100,
+  "_doc_r07": "r07: bd (bass drum, key 36, VSCO 2 CE samples in sfz/perc-r07.sfz); perc.py reads drum chords <cymc bd>, drops \\tweak, and plays a tied note as one stroke held for its written length (damped there, no l.v.)"
  },
  "balance_targets_dB": {
   "_doc": "target stem level relative to Violins I at the same printed dynamic (stems.py level while sounding); used by the calibration in NOTES.md section 3",

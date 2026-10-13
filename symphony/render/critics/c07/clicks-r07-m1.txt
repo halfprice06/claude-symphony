@@ -1,0 +1,10 @@
+premaster detections: 6
+ 229.613s  Bass_trombone    HF  -50.7 dB (+23.5 over own median)  next Bass_clarinet  -13.0 dB  dry 2nd-diff outlier 477.8x  HF-envelope period 8.1 ms r=0.83
+ 229.654s  Bass_trombone    HF  -50.4 dB (+24.0 over own median)  next Bass_clarinet  -14.5 dB  dry 2nd-diff outlier 504.4x  HF-envelope period 8.1 ms r=0.83
+ 229.678s  Bass_trombone    HF  -51.1 dB (+22.8 over own median)  next Bass_clarinet  -14.1 dB  dry 2nd-diff outlier 356.9x  HF-envelope period 8.1 ms r=0.73
+ 229.702s  Bass_trombone    HF  -50.8 dB (+23.1 over own median)  next Bass_clarinet  -11.2 dB  dry 2nd-diff outlier 453.2x  HF-envelope period 8.1 ms r=0.79
+ 229.751s  Bass_trombone    HF  -52.1 dB (+21.8 over own median)  next Bass_clarinet  -12.9 dB  dry 2nd-diff outlier 522.1x  HF-envelope period 8.1 ms r=0.81
+ 300.350s  Bass_trombone    HF  -51.6 dB (+27.7 over own median)  next Trumpet_3      -20.1 dB  dry 2nd-diff outlier 607.1x  HF-envelope period 9.6 ms r=0.81
+by stem: {'Bass_trombone': 6}
+spacing between consecutive detections (ms), median 41.0; share 20-30 ms: 0.40
+dry discontinuity outliers > 30x: 6 of 6

@@ -57,3 +57,24 @@ so checksums differ from the source files; the audio streams are unchanged.
   https://theremin.music.uiowa.edu/sound%20files/MIS/Brass/frenchhorn/), same terms ("may be downloaded and used for any
   projects, without restrictions"). The set has no pp C2-B3 and no mf C3-B3 (those URLs return 404), the horn's core
   register, so a horn map needs layer filling or the 2014 per-pitch ff files (MIS-Pitches-2012/MISHorn2012.html).
+- vpo3/libs/Other/Samples/Percussion/VSCO2-CE/BDrumNewhit_v5_rr1_Sum-PB.wav, _v5_rr2_, _v7_rr1_, _v7_rr2_ (added by actor 7,
+  r07, 2026-10-12): VSCO 2 Community Edition concert bass drum, soft (v5) and loud (v7) hits, two round robins each,
+  44.1 kHz mono, unchanged, same relative path as in the release. Fetched one by one from the zip index of the Virtual
+  Playing Orchestra 3.2 wave archive:
+  https://archive.org/download/virtual-playing-orchestra-3-2-wave-files/Virtual-Playing-Orchestra3-2-wave-files.zip/
+  (Virtual-Playing-Orchestra3/libs/Other/Samples/Percussion/VSCO2-CE/). Licence: CC0 1.0
+  (https://versilian-studios.com/vsco-community/). Played by r07/sfzplay.py through r07/sfz/perc-r07.sfz (key 36, LilyPond `bd`),
+  needed by movement III.
+- philharmonia/ (added by actor 7, r07, 2026-10-12): Philharmonia Orchestra sound samples, French horn, cor anglais and
+  contrabassoon, 'normal' technique files only (one MP3 per pitch, length and dynamic), unchanged in philharmonia/src/<instrument>/,
+  from https://philharmonia.co.uk/audio-sound-samples/ (zip per instrument; mirror https://github.com/skratchdot/philharmonia-samples/).
+  Terms on the Philharmonia page: free to use in any work including commercial ones; the samples must not be sold or
+  offered 'as is' (e.g. as a sampler instrument). Third-party pages describe them as CC BY-SA 3.0 (attribution:
+  Philharmonia Orchestra). philharmonia/<instrument>-r07/ holds per-note WAVs (key_dyn.wav, with build_log.txt) cut by
+  r07/build_phil.py; maps r07/sfz/horn-phil*.sfz, coranglais-phil.sfz, contrabassoon-phil.sfz.
+- iowa/trumpet-r07/, iowa/trombone-r07/, iowa/basstrombone-r07/, iowa/tuba-r07/ (added by actor 7, r07, 2026-10-10/12): University
+  of Iowa MIS pre-2011 brass chromatic runs (Bb trumpet, tenor trombone, bass trombone, tuba; pp/mf/ff), downloaded to
+  iowa/src/<instrument>/ from https://theremin.music.uiowa.edu/MISBbtrumpet.html, MIStenortrombone.html,
+  MISbasstrombone.html, MIStuba.html (files under https://theremin.music.uiowa.edu/sound%20files/MIS/Brass/), same terms
+  as above ("may be downloaded and used for any projects, without restrictions"); per-note WAVs cut by r07/build_iowa.py
+  --pitch-onset --fade-in 0.005 --pan-spread 35; maps r07/sfz/{trumpet,trombone,basstrombone,tuba}-iowa*.sfz.

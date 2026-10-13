@@ -1,0 +1,17 @@
+\version "2.24.0"
+% SECOND THEME (theme F2), bars 51-66, E flat minor, Poco meno mosso: the trumpet's soft melody owed since movement I
+% (cyclic-notes 'Owed' item 1): trumpet 1 alone, undoubled, no timpani and no other brass in its register (Adler PDF 264, 267);
+% the octave doubling (flute 1) is saved for its climax at 61-62 (Adler PDF 279-281). E flat (III) is a key neither earlier movement uses.
+% Accompaniment: upper strings pizz. off the beat, cellos and basses pizz. on the beat, clarinets and bassoons sustained pp.
+% The theme is heard first in minor and then in major (67), the reverse of movement I's second theme (cyclic-notes).
+
+% c032 (harmony; A&S Unit 17, PDF 283, Ex. 17-24: the Phrygian IV6-V): 57 Cl 2 E flat3 on beat 3 (was A flat3: A flat-B flat under the solo's E flat-F, parallel 5ths into V at 58).
+sOneTptOne = { bes'2.(\p^\markup \italic "dolce cantabile" ges'4 | f'4 es'4 ges'4 bes'4 | f''2 es''4 des''4 | ces''2 bes'2) | aes'2.( ces''4 | bes'4 aes'4 ges'4 f'4 | ges'2 es'2 | f'1) | bes'2.( ges'4 | f'4 es'4 ges'4 bes'4\< | es''2. f''4 | bes''4\mf aes''4 ges''4 f''4)\> | es''2.(\p des''4 | ces''4 bes'4 aes'4 ges'4 | f'2 d'2 | es'1) | }
+sOneFluteOne = { R1*10 | r2 r4 \once \override Staff.Hairpin.springs-and-rods = #ly:spanner::set-spacing-rods \once \override Staff.Hairpin.minimum-length = #7 f'''4(\p\< | bes'''4\mf aes'''4 ges'''4 f'''4)\> | es'''2.(\p\! des'''4) | R1*3 | }
+sOneVlnTwo = { r4 <es' ges'>4\pp^\markup \italic "pizz." r4 <es' ges'>4 | r4 <d' f'>4 r4 <es' ges'>4 | r4 <es' aes'>4 r4 <es' aes'>4 | r4 <es' aes'>4 r4 <es' ges'>4 | r4 <es' f'>4 r4 <es' f'>4 | r4 <d' f'>4 r4 <d' f'>4 | r4 <es' ges'>4 r4 <es' aes'>4 | r4 <d' f'>4 r4 <d' f'>4 | r4 <es' ges'>4 r4 <es' ges'>4 | r4 <d' f'>4 r4 <es' ges'>4 | r4 <es' ges'>4 r4 <es' f'>4 | r4 <es' ges'>4 r4 <d' f'>4 | r4 <es' ges'>4 r4 <es' ges'>4 | r4 <es' aes'>4 r4 <d' f'>4 | r4 <d' f'>4 r4 <d' f'>4 | r4 <es' ges'>4 r2 | }
+sOneVla = { r4 <ges bes>4\pp^\markup \italic "pizz. div." r4 <ges bes>4 | r4 <f aes>4 r4 <ges bes>4 | r4 <aes ces'>4 r4 <aes ces'>4 | r4 <aes ces'>4 r4 <ges bes>4 | r4 <f aes>4 r4 <f aes>4 | r4 <f bes>4 r4 <f aes>4 | r4 <ges bes>4 r4 <aes es'>4 | r4 <f bes>4 r4 <f aes>4 | r4 <ges bes>4 r4 <ges bes>4 | r4 <f aes>4 r4 <ges bes>4 | r4 <ges bes>4 r4 <f aes>4 | r4 <ges aes>4 r4 <f bes>4 | r4 <ges es'>4 r4 <ges es'>4 | r4 <aes ces'>4 r4 <f aes>4 | r4 <f bes>4 r4 <f aes>4 | r4 <ges bes>4 r2 | }
+sOneVc = { es4\pp^\markup \italic "pizz." r4 r2 | d4 r4 es4 r4 | ces4 r4 r2 | aes,4 r4 ges,4 r4 | f,4 r4 r2 | bes,4 r4 r2 | es4 r4 ces4 r4 | bes,4 r4 r2 | ges,4 r4 r2 | d4 r4 es4 r4 | ges,4 r4 aes,4 r4 | aes,4 r4 bes,4 r4 | ces4 r4 r2 | aes,4 r4 bes,4 r4 | bes,4 r4 r2 | es4 r4 r2 | }
+sOneCb = { es,4\pp^\markup \italic "pizz." r4 r2 | d,4 r4 es,4 r4 | ces,4 r4 r2 | aes,,4 r4 ges,,4 r4 | f,,4 r4 r2 | bes,,4 r4 r2 | es,4 r4 ces,4 r4 | bes,,4 r4 r2 | ges,,4 r4 r2 | d,4 r4 es,4 r4 | ges,,4 r4 aes,,4 r4 | aes,,4 r4 bes,,4 r4 | ces,4 r4 r2 | aes,,4 r4 bes,,4 r4 | bes,,4 r4 r2 | es,4 r4 r2 | }
+sOneClOne = { es'1\pp | d'2 es'2 | es'1 | es'1 | es'1 | d'1 | es'1 | d'1 | es'1 | d'2 es'2 | es'1 | es'2 d'2 | es'1 | es'2 d'2 | bes1 | bes1 | }
+sOneClTwo = { ges1\pp | aes2 ges2 | aes1 | aes2 ges2 | aes1 | bes2 aes2 | ges2 es2 | bes2 aes2 | ges1 | aes2 ges2 | ges2 aes2 | ges2 bes2 | ges1 | aes1 | bes2 aes2 | ges1 | }
+sOneBsnOne = { es1\pp | d2 es2 | es1 | es1 | es1 | d1 | es1 | d1 | es1 | d2 es2 | es1 | es2 d2 | es1 | es2 d2 | d1 | es1 | }

@@ -1,0 +1,30 @@
+Changing working directory to: `mp'
+Processing `midi_players.ly'
+Parsing...
+Interpreting music...
+warning: MIDI channel wrapped around
+warning: remapping modulo 16
+warning: MIDI channel wrapped around
+warning: remapping modulo 16
+warning: MIDI channel wrapped around
+warning: remapping modulo 16
+warning: MIDI channel wrapped around
+warning: remapping modulo 16
+warning: MIDI channel wrapped around
+warning: remapping modulo 16
+warning: MIDI channel wrapped around
+warning: remapping modulo 16
+warning: MIDI channel wrapped around
+warning: remapping modulo 16
+warning: MIDI channel wrapped around
+warning: remapping modulo 16
+warning: MIDI channel wrapped around
+warning: remapping modulo 16
+warning: MIDI channel wrapped around
+warning: remapping modulo 16
+warning: MIDI channel wrapped around
+warning: remapping modulo 16
+warning: MIDI channel wrapped around
+warning: remapping modulo 16
+MIDI output to `players.midi'...
+Success: compilation successfully completed

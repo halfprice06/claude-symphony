@@ -1,0 +1,10 @@
+== mvt1/v221
+{"accent": 610, "detached": 2935, "legato": 1155, "slur_end": 458, "staccato": 82, "sf": 23, "tenuto/fermata": 47, "timp_rolls": 16, "timp_roll_chains": 8, "timp_roll_chain_drum_changes": 3, "timp_roll_chain_members": 10, "tremolo32": 94, "pizz": 42, "tremolo16_notes": 5, "fp": 1, "overlap_trimmed": 42, "percussion_events": 4, "velocity_outliers_fixed": 52, "hairpin_velocity_capped": 148, "matched_shared": 19}
+bars 182 notes 5089 melodies 22 rolls 13 [(1, 4, 'ppp'), (11, 12, 'pp'), (13, 14, 'p'), (40, 43, 'pp'), (62, 63, 'pp'), (80, 81, 'f'), (115, 116, 'mf'), (117, 130, 'f'), (140, 141, 'f'), (144, 146, 'mp'), (158, 161, 'ff'), (166, 169, 'p'), (181, 182, 'ppp')]
+staves without own config entry: []
+unmatched None
+== mvt2/v177
+{"legato": 556, "slur_end": 180, "tenuto/fermata": 100, "detached": 353, "accent": 2, "sf": 9, "timp_rolls": 6, "timp_roll_chains": 2, "timp_roll_chain_drum_changes": 1, "timp_roll_chain_members": 3, "tremolo32": 19, "fp": 3, "pizz": 59, "overlap_trimmed": 2, "percussion_events": 0, "velocity_outliers_fixed": 3, "hairpin_velocity_capped": 10, "matched_shared": 0}
+bars 92 notes 1449 melodies 20 rolls 4 [(2, 3, 'ppp'), (61, 62, 'f'), (67, 70, 'ppp'), (79, 81, 'f')]
+staves without own config entry: []
+unmatched None

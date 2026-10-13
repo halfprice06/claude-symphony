@@ -1,0 +1,8 @@
+r04-m2: roll | dyn | hairpin | len s | attack peak over body dB | settle (last 1 s re 0.2-1.2 s) dB | timp - loudest other per 1 s | in-band per 1 s | in-band >= -10 dB share | min in-band
+2-3 | ppp | - | 6.3 | +6.8 | -4.0 | -2 -5 -4 -6 -8 -7 -7 | -3 -7 -4 -5 -7 -7 -6 | 1.00 | -7.4
+67-70 | ppp | - | 13.3 | +7.6 | -6.4 | -5 -8 -9 -13 -13 -11 -10 -10 -9 -10 -10 -10 -9 -8 | -0 -3 -7 -9 -8 -7 -8 -8 -8 -9 -8 -8 -7 -7 | 1.00 | -9.3
+89-92 | ppp | - | 18.7 | +7.3 | -4.8 | -3 -6 -5 -7 -7 -9 -6 -6 -5 -6 -5 -5 -5 -6 -6 -5 -6 -6 -5 | -4 -5 -3 -4 -5 -7 -5 -7 -6 -5 -6 -5 -5 -8 -6 -7 -5 -5 -6 | 1.00 | -7.6
+r04-m2: summary bars dyn len attack-over-body settle audible-share min-inband median(timp-loudest)
+  2-3 ppp 6.3s  +6.8  -4.0  1.00  -7.4  -5.9
+  67-70 ppp 13.3s  +7.6  -6.4  1.00  -9.3  -9.8
+  89-92 ppp 18.7s  +7.3  -4.8  1.00  -7.6  -5.7

@@ -1,6 +1,6 @@
-# Brief for critics of Symphony No. 1, movement III
+# Brief for critics of Symphony No. 1, movement IV (finale)
 
-You are one critic in a series of 200 compose–critique–revise cycles on movement III, the finale. The composer (another Claude session) reads your report and revises the score. You do not edit the score itself; you may test fixes in a scratch copy (see your task).
+You are one critic in a series of 200 compose–critique–revise cycles on the finale. Since 2026-10-12 the symphony has four movements (I Allegro, C minor; II Adagio, A♭; III Scherzo, E minor/E major; IV this finale), so the finale is movement IV. Its workspace is still called mvt3/. The composer (another Claude session) reads your report and revises the score. You do not edit the score itself; you may test fixes in a scratch copy (see your task).
 
 ## The goal (from Dan, who commissioned the work)
 - A full orchestral score of a neo-Romantic symphony that would be indistinguishable from the work of a modern master composer.
@@ -9,15 +9,17 @@ You are one critic in a series of 200 compose–critique–revise cycles on move
 - Dan makes no musical choices. Do not leave anything "for the composer to decide" or "for Dan": decide every optional point yourself and say what you decided.
 
 ## The work
-- Movement III: Allegro con fuoco, C minor ending in C major, sonata form with a long coda (arrival, chorale, second-theme head, final combination), all in 2/2. Plan: /mnt/project-files/symphony/mvt3/movement-3-plan.md.
-- Movement I (C minor) is finished: /mnt/project-files/symphony/mvt1/v221/ (use it as the reference). Movement II (Adagio, A♭ major) is in progress in /mnt/project-files/symphony/mvt2/ (latest vNN); it ends on a soft A♭ chord, and movement III starts after a pause.
-- Material shared between movements: /mnt/project-files/symphony/cyclic-notes.md. Read its section "Start here for movement III" first; where older notes disagree, that section wins. Rules from it that bind this movement:
-  - Open loud from movement II's A♭ chord as a German sixth to V of C; no soft opening.
+- Movement IV (finale): Allegro con fuoco, C minor ending in C major, sonata form with a long coda (arrival, chorale, second-theme head, final combination), all in 2/2. Plan: /mnt/project-files/symphony/mvt3/movement-3-plan.md.
+- Movement I (C minor) is finished: /mnt/project-files/symphony/mvt1/v221/ (use it as the reference). Movement II (Adagio, A♭ major) is in /mnt/project-files/symphony/mvt2/ (latest vNN). The scherzo (movement III, E minor with an E-major trio and coda) is in /mnt/project-files/symphony/scherzo/ (latest vNN); it ends pp on G♯ (Hn 1, Vln I) over a timpani roll, and the finale starts after a pause, taking G♯ as A♭.
+- Coherence across the four movements: each movement thread keeps a current-state file in /mnt/project-files/symphony/coherence/ (finale.md is this movement's). Read them all when your lens is 10, and whenever your change touches a link, a quotation, a key or a scoring rule shared with another movement.
+- Material shared between movements: /mnt/project-files/symphony/cyclic-notes.md. Read its section "Start here for movement III" first; where older notes disagree, that section wins. Its section "Four movements (Dan, 2026-10-12)" updates the plan for the scherzo and the finale. Rules that bind this movement:
+  - Open loud after the pause; the German sixth A♭–C–E♭–F♯ to V of C takes the scherzo's last G♯ as A♭; no soft opening.
   - The first theme is new and does not open with a rising sixth.
-  - No root-position V–I (or V–i) cadence in C before the last cadence (254–255), which is the symphony's first since movement I bar 135, trumpets B→C.
-  - The owed items sound once each, in this movement only: the soft trumpet solo (trumpets' first entry, 51), the C-major arrival with string tremolo and the violins' C7 (219 only), the falling major motto G–E–D–C in full brass, the brass chorale and its last statement, the violins' C-major second-theme head over a C pedal, the brass combination of the theme heads, the hammered tutti in movement I's layout, the horn call in major in the trumpets, the E♭/E♮ thread closed in the violas.
-  - The stop chord B–D–F–A♭ resolves to C only at the arrival (218→219).
-  - No tam-tam. Hn 3·4 "senza sord." at their first entry. The timpani's first label gives the retuning made in the pause.
+  - No root-position V–I (or V–i) cadence in C before the last cadence (254–255 in v01; 261–263 since v14), which is the symphony's first since movement I bar 135, trumpets B→C.
+  - Movement I's record (symphony/coherence/themes-mvt1.ly, mvt1.md) takes precedence over cyclic-notes.md. The trumpets' B→C withheld for the finale is B→C on a C-major arrival (movement I already has it into minor tuttis).
+  - The owed items sound once each, in this movement only: the soft trumpet solo (51; the trumpets' first melody in the symphony, though the scherzo uses them in tuttis), the C-major arrival with string tremolo and the violins' C7 (219 in v01; 223 since v14), the falling major motto G–E–D–C in full brass, the brass chorale and its last statement, the violins' C-major second-theme head over a C pedal, the brass combination of the theme heads, the hammered tutti in movement I's layout, the horn call in major in the trumpets, the E♭/E♮ thread closed in the violas.
+  - The stop chord B–D–F–A♭ resolves to C only at the arrival (218→219 in v01; 222→223 since v14).
+  - No tam-tam. The timpani's first label gives the retuning made in the pause (from the scherzo's E, G♯, B, E).
   - Every F♭ resolves to E♭. Length at least 6 minutes.
 - Orchestra: 2 flutes, 2 oboes, cor anglais, 2 clarinets, bass clarinet, 2 bassoons, contrabassoon, 4 horns, 3 trumpets, 2 trombones, bass trombone, tuba, timpani, cymbals and bass drum (one DrumStaff, `\drummode`: `cymc` crash cymbal, `bd` bass drum), harp, strings.
 - Page cap: the score is 16 A3 pages (v01). Check the page count of the version you review and of your scratch build. A change that adds a page must say why the page is worth it.

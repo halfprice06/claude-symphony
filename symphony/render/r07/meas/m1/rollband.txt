@@ -1,0 +1,29 @@
+r07-m1: roll | dyn | pitch | band Hz | timpani minus others in band: first 1 s / rest (dB)
+1-4 | ppp | 48 (131 Hz) | 109-392 | +139.4 / -9.5
+13-14 | p | 43 (98 Hz) | 82-294 | +3.0 / -7.9
+41-43 | ff | 51 (156 Hz) | 130-467 | -5.8 / -6.3
+115-116 | mf | 44 (104 Hz) | 87-311 | -0.7 / +1.2
+117-121 | f | 43 (98 Hz) | 82-294 | -4.4 / -6.1
+122-130 | fff | 43 (98 Hz) | 82-294 | -1.7 / -4.8
+144-146 | mp | 43 (98 Hz) | 82-294 | -4.3 / -6.6
+167-169 | f | 48 (131 Hz) | 109-392 | -4.8 / -3.5
+Traceback (most recent call last):
+  File "/mnt/project-files/symphony/render/critics/c03/scripts/rollband.py", line 31, in <module>
+    tp = band("Timpani", a, b); ot = sum(band(n, a, b) for n in stems if n != "Timpani")
+                                     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/project-files/symphony/render/critics/c03/scripts/rollband.py", line 31, in <genexpr>
+    tp = band("Timpani", a, b); ot = sum(band(n, a, b) for n in stems if n != "Timpani")
+                                         ~~~~^^^^^^^^^
+  File "/mnt/project-files/symphony/render/critics/c03/scripts/rollband.py", line 26, in band
+    sos = butter(4, [lo, hi], "bandpass", fs=sr, output="sos"); y = sosfiltfilt(sos, x)
+                                                                    ~~~~~~~~~~~^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/scipy/signal/_signaltools.py", line 5188, in sosfiltfilt
+    edge, ext = _validate_pad(padtype, padlen, x, axis,
+                ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              ntaps=ntaps)
+                              ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/scipy/signal/_signaltools.py", line 4944, in _validate_pad
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The length of the input vector x must be greater than padlen, which is 27.

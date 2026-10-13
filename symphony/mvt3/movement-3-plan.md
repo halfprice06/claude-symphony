@@ -1,5 +1,7 @@
 # Movement III plan: Allegro con fuoco in C minor → C major
 
+> **Four movements (2026-10-12):** this finale is now movement IV, after a scherzo in E (symphony/scherzo/). The opening link is reworked from cycle 26. Current state: symphony/coherence/finale.md.
+
 Written 2026-10-12 for draft v01. Source: cyclic-notes.md, section "Start here for movement III" (it takes precedence over older notes), with mvt I v221 and mvt II v141 as the references, and movement II critics 110, 120, 130 and 140 (points for movement III).
 
 Models: Brahms 1/iv (chorale, C-major arrival), Tchaikovsky 5/iv (motto turned to major), Dvořák 9/iv (themes of earlier movements recalled in the finale).

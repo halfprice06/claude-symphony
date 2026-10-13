@@ -1,0 +1,16 @@
+intro 10 4
+pOne 16 4
+pTwo 16 4
+trans 8 4
+sOne 16 4
+sTwo 16 4
+clos 16 4
+dev 36 4
+retr 16 4
+recP 20 4
+recS 28 4
+codaOne 12 4
+codaTwo 12 4
+arrival 12 4
+sHead 12 4
+finale 25 4

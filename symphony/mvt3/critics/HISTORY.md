@@ -33,3 +33,295 @@ Cycle N reviews vNN and produces v(N+1). Each entry: Accepted, Rejected (with re
 - Accepted: chorale f / canon ff balance 220–227; Hn 1 and Hn 3 voicing at 220, 222; second winds doubling at 243–250, 256–260; Fl 2 and Ob 1 registers 151–166; strings below the harp 123–130; Hn 1·2 mf at 11–26; bass drum at 219 and 261.
 - Do-not-touch (critic): arrival chord scoring at 219; muted trumpet with cor anglais 171–186; accompaniment of the trumpet solo 51–66.
 - Open (relay from movement II, 2026-10-12 14:18): add a starting harp pedal diagram at the harp's first entry, as movement II did at its bar 1 (cycle 116). Assigned to cycle 6 (playability). Timpani first tuning G, A♭, C, E♭ matches movement II's "muta D♭ in G" note.
+
+## Cycle 5 (v05 → v06), lens 5 engraving, Gould ch. 1
+- Accepted: circled cymbal semibreves and drum-staff positions; bassoons apart 11–26; horn bass clef 25–26, 165–166; viola treble clef 241–242; single fermata at 262; page break at 219 with `page-count = 16`; one "senza sord.".
+- Kept: ledger lines (no 8va) for Fl 1/Vln I B6–C7 at 218, 219, 242.
+- Note for critics: `page-count = 16` is now fixed in score.ly, so a page count of 16 no longer proves nothing was added. Check that systems are not crowded (look at the page images) after adding material.
+
+## Cycle 6 (v06 → v07), lens 6 playability, Adler ch. 2
+- Accepted: viola pizz. div. 171–186; div. a3 final chord; harp pedal diagrams (67, 123, 187, 231) and changes (197, 198, 238), which closes the open item; arco marks and pizz.→arco time; bow-length slurs in the violins at 67–82, 187–198, 230–238; Tpt 1 senza sord. at 199; down-bows at 2 and 6; viola divisi; wind breaths 178–194.
+- Timpani tuning checked: G, A♭, C, E♭ throughout.
+
+## Cycle 7 (v07 → v08), lens 7 texture, Adler ch. 5
+- Accepted: countersubject 35–38; recap clarinet eighths 151–166; violas with cellos 243–250 and 67–82/187–198; Vln II unison 231–234; viola repeated quarters 220–224; retransition overlaps 140, 142; spacing 1.6 to hold 16 pages.
+- Kept: Ob at 162 a third below (critic 001).
+- Open: combine the development's two ideas at 99–106 (cycle 17).
+- Do-not-touch (critic): 27–34 bass statement with countersubject; 51–66 pizz. accompaniment; the 250→251 switch to the chorale.
+
+## Cycle 8 (v08 → v09), lens 8 expression, Rimsky-Korsakov ch. IV
+- Accepted: dynamic plan 205–219 (f, ff at 211, sub. p 215, fff 219); fff at 255 and 261, timpani rolls 254; sf-p at 101, 105, 138; pp re-entry of trombones at 143; staged diminuendo 39–42; p entries of doublings; tuba f at 159.
+- Do-not-touch: the strong marks are limited to 101, 105, 138, 215, 219, 255, 261 (fff only at 219, 255, 261).
+
+## Cycle 9 (v09 → v10), lens 9 holistic, Brahms 1/iv
+- Accepted: 211 ff then f under the trumpets' recall; flutes above oboes 211–218; p accompaniment at 231–234; "ffff" and "2." at 199 fixed; Hn 1 alone at 139–140.
+- Kept: Maestoso at 251 (the chorale needs the broad tempo; at Allegro molto it would last about six seconds).
+
+## Cycle 10 (v10 → v11), lens 10 cyclic design, A&S Unit 32
+- Accepted: German sixth at 254 (♭VI → Ger6 → V7 → I, the bar-1 chord); D♯ spelling at 215 in Ob 1 and Hn 3; no cymbal at 210 (first crash at 219); Ob 1 B5 on top of the stop chord at 138.
+- Rejected: D♯ on top at 215 (mvt II c110); the top line D♭–C–B–C is protected.
+- Do-not-touch (critic): join at 1–2; 205–218 path with D♭–C–B–C on top; 218→219 (Tpt B→C, timpani G→C); chorale top lines.
+
+## Cycle 11 (v11 → v12), lens 1 melody, Rimsky-Korsakov ch. II
+- Accepted: F2 climax by a rising fourth with appoggiaturas at 62, 78 (B♭6), 182; violas and cellos on F1 at 256–259; Fl 1 octave at 181–183; Cl 1 held notes at 65–66, 185–186.
+- Do-not-touch (critic): chorale top lines; 218→219; F1 head bar and consequent peak 22/162; the trumpet solo's p entry at 51.
+- Open (relay from movement II critic 160, 2026-10-12 16:36): the trumpets' recall of theme B at 211–214 runs about 2.4× faster than in movement II (6.7 s against 16 s). Decided: augment it (double the note values, 211–214 becomes 8 bars) so it is recognisable; assigned to cycle 13 (form), which must keep the 205–219 dynamic plan, the D♭–C–B–C top line and 218→219. MIDI instrument equalizer stays on, as in movement II.
+
+## Cycle 12 (v12 → v13), lens 2 harmony, A&S Units 9–10
+- Accepted: earlier root V–I in C removed (14, 22, 154, 162 V4/3; 192 V6/5); 252 inner voices; 239–240 6/4 resolution; 246 voicing; 216→217; 150→151 bass; 185→186 bassoon.
+- Do-not-touch (critic): German-sixth approaches at 1–2, 215–216, 254; 239–243 6/4 → V4/3 → I; plagal close 227–230; chorale top lines.
+
+## Cycle 13 (v13 → v14), lens 3 form, A&S Unit 26
+- BAR NUMBERS from v14: old 211–214 → 211–218; old 215–250 → +4; old 251–255 → 255–264; old 256–262 → 265–271. Entries above use old numbers.
+- Accepted: theme B recall augmented (211–218); last chorale at Allegro molto in doubled values 255–264, no Maestoso (reverses cycle 9, answered: 12 s not 6 s); viola F1 entry at 130–131.
+- Protected items at new numbers: stop chord 222 → C at 223 (Tpt B→C, timpani G→C); violas D♯→E 219–220; sub. p 219; fff at 223, 263, 270; tremolo and C7 only from 223; chorale top lines 223–227 and 255–264; last cadence (♭VI–Ger6–V7–I) 261–263, the only root V–I in C.
+- Open: combine the development's two ideas at 99–106 (cycle 17).
+
+## Cycle 14 (v14 → v15), lens 4 orchestration, Rimsky-Korsakov ch. III
+- Accepted: horn call layout 243–246 (Tpt 1 E5, Tpt 2 + Hn 1 E4, Hn 2 E3); Tbn 2 G3 at 255–256; Tpt 2 A4 at 227; violas f at 224.
+- Do-not-touch (critic): arrival chord 223; German-sixth brass layout 1–2; trumpets' B→C at 262–263.
+
+## Cycle 15 (v15 → v16), lens 5 engraving, Gould ch. 1 beams
+- Accepted: sloped beams (manual Beam.positions; redo if the notes change); harp and Cb stem direction; pickup hairpin minimum length; hidden duplicate mf; clarinets apart 101–106.
+
+## Cycle 16 (v16 → v17), lens 6 playability, Adler ch. 3
+- Accepted: divisi marks; tenor clefs 27–38; Vln I rest at 144; viola run 245–246 down an octave; bow-change marks; viola pizz. div. 51, 115; sul A 235–238.
+
+## Cycle 17 (v17 → v18), lens 7 texture, Adler ch. 15
+- Accepted: x overlapping the F1 head at 103–105 with horn pedal (closes the open item); violas on the S head 247–254; held parts f at 247–254; viola quarters 255–262.
+- Kept: canon 223–230 in whole notes.
+- Do-not-touch (critic): the two ideas apart at 99–102; S-head texture 235–242; retransition stretto 139–146.
+
+## Cycle 18 (v18 → v19), lens 8 expression, Adler ch. 2 bowing
+- Accepted: bow-length string slurs (violas, inner counter-melodies); time for pizz. at 114/170; down-bow peaks 78/198; fast runs four notes per bow; bow-change marks; `\dnup` at 1 and 5; portato violas 224–228.
+- Do-not-touch (critic): F1 bowing 11–26 and 151–166; tremolo and C7 at 223; sul A/ord. 235/239; pizz./arco timing at 51, 67, 123, 187.
+- Open (relay from movement II critics c162/c170, 2026-10-12 19:01): movements I and II outline the major-third cycle C – A♭ – F♭/E. Decided: close it with one I – III♯ (E major) – V progression, approached by II6, in movement III's C-major pages (candidates: the arrival's plagal close 227–234 or the second-theme head 235–246). Assigned to cycle 20 (cyclic lens). Must not add a root V–I in C or touch the protected chorale top lines.
+
+## Cycle 19 (v19 → v20), lens 9 holistic, Tchaikovsky 5/iv
+- Accepted: woodwind doubling of the trumpets' theme B recall 211–218; marcato half notes in Hn 3/Tpt 3 under the last chorale; clarinets on the S head 247–254.
+- Open: lengthen the C-major close after 263 (about 9 s now). Page cap raised to 17 for this change only. Assigned to cycle 23 (form).
+- Do-not-touch (critic): arrival and chorale 223–234; cadence plan with the only root V–I at 262–263; trumpet solo at 51; muted trumpet with cor anglais 171–186.
+
+## Cycle 20 (v20 → v21), lens 10 cyclic design, A&S Unit 26
+- Accepted: I – II6/5 – III♯ (E major, 243) – cadential 6/4 – V4/3 – I at 241–247, closing the C – A♭ – E cycle (closes the open item from movement II's critics); header comments.
+
+## Cycle 21 (v21 → v22), lens 1 melody, Rimsky-Korsakov ch. II
+- Accepted: trumpets on F1 in C major 265–268; flutes an octave above the theme B recall 211–218.
+- Do-not-touch (critic): chorale top lines; 222→223; F1 head bar and peak 22/162; plain trumpet solo 51–60.
+
+## Cycle 22 (v22 → v23), lens 2 harmony, A&S Units 11–13
+- Accepted: ii7 → III♯ with the 7th resolving at 241–243; bass C at 78; Phrygian cadences 57–58, 177–178; deceptive-cadence voicing 26, 63, 166, 183, 186; lament suspensions 107–109; inner note A at 228.
+- Do-not-touch (critic): plagal close 230–234; final approach 255–263 (I6–vi–iiø6/5–Ger6–V7–I).
+
+## Cycle 23 (v23 → v24), lens 3 form, A&S Unit 32
+- BAR NUMBERS from v24: 8 bars after 268; old 269–271 → 277–279. fff at 223, 263, 278.
+- Accepted: longer C-major close 269–276 (heads swapped, IV6/4–iv6/4–I over C pedal); `page-count = 16` removed, 16 pages without it; page break before 239. Closes the cycle 19 open item.
+- Page cap stays 16 (no 17th page was needed).
+
+## Cycle 24 (v24 → v25), lens 4 orchestration, Rimsky-Korsakov tutti chords
+- Accepted: themes in separate registers 269–272; lower brass f at 265–268; complete cadence chord 263–264; trumpets uncrossed at 278; timpani C at 274.
+- Do-not-touch (critic): arrival chord 223; chorale top lines; Tpt 1 B→C with timpani 262–263; 273–276 chord layout.
+
+## Cycle 25 (v25 → v26), lens 5 engraving, Gould ch. 1
+- Accepted: bassoon part-combining at 101, 107–109, 114, 269–272; harp 8 bassa; percussion dynamics at 263, 265, 278.
+- Do-not-touch (critic): arrival at 223 (tremolo, C7, circled crash); chorale top lines; 222→223; page break at 223.
+
+## PAUSED after cycle 25 (2026-10-12 ~21:00 UTC)
+- Dan decided (2026-10-12 20:46 UTC) to make the symphony four movements: a scherzo in E (thread "Scherzo actor critic loops", symphony/scherzo/) goes between movement II and this finale, which becomes movement IV.
+- Loop paused at v26. Listening renders from now on: r07 (symphony/render/r07, output score-r07.mp3). Resume when the coordinator says the scherzo's themes and ending are settled, with one rework pass (cycle 26 on v26): rebuild the opening link from the end of the scherzo instead of movement II's A♭ chord; bring in scherzo material where it serves the finale; renumber the movement as IV (titles, plan, brief, critic prompt). The E-major chord at 243 then also points back to the scherzo's key.
+- Cycles after the rework continue the normal lens rotation up to cycle 200 (v201) unless the coordinator says otherwise.
+
+## RESUMED 2026-10-12 22:30 UTC (Dan: restart the finale; four movements; threads coordinate)
+- The finale is now movement IV. The scherzo (symphony/scherzo/, latest vNN; E minor, trio E major) comes before it and ends pp on G♯ (Hn 1 G♯4, Vln I G♯5) over a timpani roll and pizz. E, with a fermata. Scherzo timpani: E, G, B, E (G♯ in the trio and coda).
+- Cycle 26 is the rework pass: renumber as IV; rebuild the opening link from the scherzo's ending (G♯ = A♭); new timpani retune label; bring in scherzo material where it serves the finale; the finale's trumpet solo at 51 is no longer "the trumpets' first entry since movement I" (the scherzo uses trumpets in tuttis).
+- Coordination: current-state file symphony/coherence/finale.md (only this thread edits it; scherzo and movement II keep their own files in symphony/coherence/). Changes that affect another movement are messaged directly to that thread. Lens-10 cycles read all coherence files and check the links against the latest versions of I (v221, fixed), II and the scherzo.
+- Theme lock: proposed 22:25 and withdrawn. Dan (2026-10-12 22:26): "no I don't want the scherzo themes to be locked". The scherzo's themes keep evolving and the finale follows them. The scherzo keeps symphony/coherence/themes-scherzo.ly as a live record and messages this thread with old and new notes when a theme or its ending changes. The finale lists each scherzo quotation (bars, theme, transposition, any deliberate transformation) in coherence/finale.md and, every cycle before promoting, compares them with the current themes-scherzo.ly using the comparison script in symphony/coherence/, updating them in that cycle if the scherzo changed. No promotion check that fails, and no lock on the finale's own themes. A final sync pass against the scherzo's last version comes when both loops reach their last cycles.
+- Quotation check (from cycle 27): `python3 /mnt/project-files/symphony/coherence/themecheck.py RECORD.ly VERSION_DIR --beats 4` (report only; exit 1 = something changed). The finale keeps its own record coherence/themes-finale-quotes.ly (written with coherence/makelock.py, BEATS = 4) of its scherzo quotations as they appear in the finale, and compares them by eye with coherence/themes-scherzo.ly each cycle before promoting.
+
+## Cycle 26 (v26 → v27), rework pass for four movements; lens 6 harp, Adler ch. 4
+- Accepted: renumbered IV; link from the scherzo's G♯ (Hn 1 A♭4, Vln I A♭5, Hn 4 F♯3), direct ff; timpani retune label E,G,B,E → G,A♭,C,E♭; scherzo motive x on G in the timpani 143–145 (only scherzo quotation); no senza sord. at 1; Tpt 1·2 rest 271–272; harp D string and A♭ pedal timing.
+- Kept: nothing added at 243; the Neapolitan D♭→C resolution (216–223, 226–227) is already clear.
+- Do-not-touch (new): bars 1–2 voicing with A♭4/A♭5 on top continuing the scherzo's G♯.
+- Open (relay from movement I, 2026-10-12 22:43): movement I's record is in symphony/coherence/ (themes-mvt1.ly, themes-mvt1.md, mvt1.md) and takes precedence over cyclic-notes.md. Corrections: movement I's Tpt 1 already moves B→C into minor tuttis (I 26→27); what is withheld for the finale is B→C on a C-major arrival. The bare motto tail E♭–D–D♭–C occurs in movement I only at 118–121 (the bass clarinet at 2–3 plays E♭–D–C–D♭–C). Assigned to cycle 30 (lens 10): check every movement I quotation in the finale against themes-mvt1.ly, and list them in coherence/finale.md.
+
+## Cycle 27 (v27 → v28), lens 7 texture, Adler ch. 17
+- Accepted: F2 counter-melody 69–70, 189–190; canon octave 226–230; bassoon solo accompaniment 115–122; Cl 1 at 186.
+
+## Cycle 28 (v28 → v29), lens 8 expression, Adler ch. 11, 15
+- Accepted: no cymbals at 247, 251; theme B recall phrased as in movement II (breath after 214); woodwinds ff at 211–212 (partly revises cycle 9); timpani f at 224; sf> at 138; mf at 234.
+- Do-not-touch (critic): 219 sub. p → 223 fff arrival with timpani roll and first crash; 222→223; chorale top lines.
+
+## Cycle 29 (v29 → v30), lens 9 holistic, Dvořák 9/iv
+- Accepted: scherzo theme A head in C major at 275–276 (second scherzo quotation; recorded and sent to the scherzo thread); Hn 3·4 C4 at 224; no accents on tied notes at 279.
+- Kept: woodwind doubling of theme B 211–218.
+
+## Cycle 30 (v30 → v31), lens 10 cyclic design, Casanelles ch. 5
+- Accepted: full quotation record (35 checks) and list in coherence/finale.md (closes the movement I open item); stepped crescendo 219–223; cymbals only at 223, 263, 278; pickup G3 at 246 restoring movement I's rising sixth.
+- Open (scherzo critic, 2026-10-13 00:08): movements II and III end with the same close a major third apart, 5–♯4–4–3 over a plagal cadence with mixture (E♭–D–D♭–C in A♭; B–A♯–A–G♯ in E). Decided: complete the chain in the finale's C-major close with G–F♯–F–E over C – F♯°7 – F minor – C (theme A's tail pitches), in the existing IV6/4–iv6/4–I area at 273–276 or nearby, audible in one voice. Assigned to cycle 32 (harmony). Keep fff at 278 and the scherzo quotation at 275–276 (record checks).
+- Scherzo v11: its horn call opens with a rising sixth G♯3–E4 (bars 2–4); the finale does not quote it. Scherzo cellos end pizz. E2 at 383 (finale.md link text corrected).
+
+## Cycle 31 (v31 → v32), lens 1 melody, Adler ch. 3
+- Accepted: F1 continuation in major at 271–272 (falls to C at 273); line starts on C at 250; stringendo runs end on held G at 246; Vln II sul G at 81, 194.
+- Scherzo v12 (message 2026-10-13 00:22): trio tune T's bars 10–11 changed (peak moves to the third phrase). The finale does not quote T; no change needed. Theme A head, motive x, ending and timpani unchanged.
+
+## Cycle 32 (v32 → v33), lens 2 harmony, A&S Unit 17
+- Accepted: closing chain G–F♯–F–E over C – F♯°7 – iv6/4 – I at 273–275 (closes the cycle-30 open item; movement II and scherzo told); parallel fifths/octaves removed at 32, 35, 38, 57, 79, 88–89, 111, 127, 177, 236, 239–240, 247.
+- Kept: fifths at 2, 6, 12–20, 25, 152–165, 199, 239–240 tune.
+- Tool: /mnt/project-files/symphony/mvt3/tools/critic-scripts/c032/p5.py counts only true fifths (allpairs_par.py also counts fourths).
+- Do-not-touch: top C6 over 273–274 with the quotation 275–276 and fff 278; German-sixth openings 1–2, 5–6.
+- Scherzo bar numbers (2026-10-13 00:42): its B–A♯–A–G♯ close is at 365–368 since scherzo v04 (earlier entries say 373–376).
+
+## Cycle 33 (v33 → v34), lens 3 form, Rimsky-Korsakov ch. IV
+- Accepted: development F2 at 123–130 rescored as an upward hand-over cellos → violas → Cl 1 → Vln I/Fl 1 with a scoring crescendo into 131 (harp loses the melody; the scherzo's 73–80 now has the symphony's harp melody); woodwinds rest 255–256 and re-enter p at 257.
+- Kept: the dip at 230–238 (deliberate, Dvořák 9/iv model).
+- For the cycle-40 relay: cyclic-notes "Still unused: harp melody" is now covered by the scherzo, not the finale.
+
+## Cycle 34 (v34 → v35), lens 4 orchestration, Adler ch. 15
+- Accepted: chain G–F♯–F–E doubled by Vln I lower note and Ob 1 at 273–276 (revises cycle-24 layout, all pitch classes kept); Vln II rests 123–126; upper woodwinds re-enter mf at 257.
+- Do-not-touch: 123–131 upward hand-over; held C6 over 273–274 with quotation 275–276; arrival and chorale 223–234.
+- Scherzo v14 (2026-10-13 01:07): coda's last trio-tune statement starts in A major (349–356); close 365–368, last G♯, theme A head, motive x and timpani unchanged. No finale change.
+
+## Cycle 35 (v35 → v36), lens 5 engraving, Gould ch. 1–2
+- Accepted: shared-staff crossings shown with separate stems (262–264 Tpt, 211, 215, 111–114, 195, 197); unison collisions at 211, 273; \cbaw macros for "change bow at will"; "1." labels at 110, 126, 129. No sounding change.
+- 2026-10-13: score-r07.mp3 in v27–v36 were stale copies of v26's render carried by the critics' scratch copies; removed, and promote.sh now excludes score-r0*.mp3.
+- Open (mvt II note 2026-10-13 01:36): finale.ily comment says scherzo tail 373–376; correct to 365–368 at the next promotion (comment only).
+
+## Cycle 36 (v36 → v37), lens 6 playability, Adler ch. 6–7
+- Accepted: bassoon/contrabassoon rests 231–234, Bn 2 247–254; horn rests 265–268 (Hn 3·4), 269–272 (Hn 1·2); Fl 1 scale into C7 at 222–223; low reeds mf at 257; Bn p at 67, 187; bass clarinet low C up an octave (223, 278). The 373–376 comment open item is fixed.
+
+## Cycle 37 (v37 → v38), lens 7 texture, Adler ch. 16
+- Accepted: Bn 1 counter-line 125–130; violas enter late at 124; Hn 3·4 repeated quarters 129–130; bass F♯ at 124.
+- Kept: E–E♭–F–E meets the chain on F at 274 (copies the scherzo's close).
+
+## Cycle 38 (v38 → v39), lens 8 expression, Casanelles ch. 4, 6
+- Accepted: Largamente 2 = 72 from 273; Tpt ff at 273; bassoon solo shaping 115–122; harp pp 123 with crescendo from 129; woodwinds f at 259; hairpins at 134, 210 end on rests.
+- Do-not-touch: woodwind rest 255–256 and mf re-entry 257; 219–223 crescendo.
+
+## Cycle 39 (v39 → v40), lens 9 holistic, Beethoven 5/iv
+- Accepted: allargando 271–272; 276 held Cs moved off the quotation's D–D♭; timpani tied-note accent at 279; horns end at 133; harp ottava closed at 82.
+- Note: syllabus reading for Rimsky examples 201–260 gives PDF 376–440; examples 201–208 are on PDF 364–375.
+
+## Cycle 40 (v40 → v41), lens 10 cyclic design, Adler ch. 1, 15
+- Accepted: violas 273–276 keep E♮ (upper violas join the chain, ending E4); finale.md corrections.
+- Checked: all quotations against I v221, II v195, scherzo v18; link at bar 1; chain under Largamente.
+- Relay for cycles 31–40 sent to the coordinator.
+
+## Cycle 41 (v41 → v42), lens 1 melody, Adler ch. 7
+- Accepted: Fl 1 at pitch with Tpt 61–63; Ob 1 rests 181–183, Fl 1 with cor anglais; violas' F2 bar with its leap at 125; oboes up an octave 24–26, 164–166.
+- Do-not-touch: F1 head and peak 22/162; trumpet solo 51–62; muted trumpet with cor anglais 171–186.
+
+## Cycle 42 (v42 → v43), lens 2 harmony, A&S Units 22–23
+- Accepted: G–A♭–B run at 222; chord changes restored 116/118/124/126; canon second players 226–227; bassoon counter-line 126–129; 210 seventh resolution in violins only.
+- Do-not-touch: closing chain 273–276 with viola voicing; plagal close 231–234; III♯ approach 241–247.
+
+## Cycle 43 (v43 → v44), lens 3 form, A&S Units 16, 19
+- Accepted: recap begins over G pedal at 151–152 (i6/4), tonic root at 155.
+- Noted, no change: the second theme's minor-to-major turn occurs three times; development is short (12%); slow part of coda twice the fast part. All in protected passages.
+
+## Cycle 44 (v44 → v45), lens 4 orchestration, Adler ch. 15
+- Accepted: Cl 1 up an octave 255–264; Ob 2/Cl 2 up an octave 226–228; timpani G roll 151–152.
+- Do-not-touch: 199 hammered layout; 123–130 hand-over with harp.
+- Movement II loop finished at mvt2/v201 (2026-10-13 03:49); theme B and the closing E♭–D–D♭–C unchanged; coherence/mvt2.md final.
+- Scherzo v21/v24 (messages 2026-10-13 03:56, 04:48): scherzo now 376 bars; motto-tail close at 357–360, motive x at 241 and 249, last G♯ ends at 376; new B–A♯–A–G♯ in Fl 1/Cl 1 at 206–209. Its timpani muta label now reads "low E in G, G in A♭, B in C, high E in E♭". finale.md line 7 corrected (scherzo cellos end pizz. E2, not arco E3). Open for the next promotion: retr.ily comment bar numbers (v04 → v24), and match the bar-1 timpani label wording.
+
+## Cycle 45 (v45 → v46), lens 5 engraving, MOLA
+- Accepted: rehearsal marks over strings when Vln I hidden; 219–222 widened; letters R 255, S 273; tied timpani rolls; duration in header. Scherzo open items (label wording, retr comment) done.
+
+## Cycle 46 (v46 → v47), lens 6 playability, Adler ch. 9–10
+- Accepted: brass breaths at 246, 250, 254; Tbn 1·2 rest 265–268; Hn 1·2 rest 211–214; Hn 2/3 swap 207–210; breath marks in the F2 solos.
+
+## Cycle 47 (v47 → v48), lens 7 texture, Rimsky-Korsakov ch. III
+- Accepted: movement I head's lower octave moved up at 265–268; Cl 1 on E–E♭–F at 273–274; clarinets rest 75–82.
+
+## Cycle 48 (v48 → v49), lens 8 expression, A&S Unit 3
+- Accepted: brass crescendo 244–247; tied top C and timpani roll 273–276; accents only on strong half notes 255–262; earlier diminuendo at 62, 182.
+- Do-not-touch: 205–223 dynamic path; breath marks 54/58/62, 214, 250/254; fff only at 278 in the close.
+
+## Cycle 49 (v49 → v50), lens 9 holistic, Dvořák 7/iv
+- Accepted: 247–254 Vln II up, oboes with trumpets; Vln II eighth-note arpeggios 255–262; bassoons rest 235–238. finale.md item 8 updated.
+- Do-not-touch: close 273–279.
+
+## Cycle 50 (v50 → v51), lens 10 cyclic design, Rimsky-Korsakov prefaces and ch. IV
+- Accepted: horns complete the chain at 275–276 (hold E4); scherzo quotation moved into Vln I + Fl 1 (C6) with Tpt 1·2 + Cl 1; quotation record 34 checks; finale.md rewritten (entries 13–15, chain voices).
+- Naming rule from now: "motive x" = the scherzo's motive only; the finale's eighth-note figure at 3–4 is "the scale figure".
+- Relay for cycles 41–50 sent; themes-mvt1.md correction (major hammered tutti at 247–254) passed to the coordinator for the movement I thread.
+- Scherzo v31 (2026-10-13 06:32): its horn call now stays on D♯ (no resolution), so the finale's 243–246 is the call's only resolution in major. Open for the next promotion: intro.ily comment '368–384' → 360–376 (scherzo v24+ numbering).
+
+## Cycle 51 (v51 → v52), lens 1 melody, Sebesky ch. 6–7
+- Accepted: violins at 212, 214; Tpt 3 F at 266/268/270; counter-melody quarters at 74, 194. intro.ily comment open item done.
+
+## Cycle 52 (v52 → v53), lens 2 harmony, A&S Units 24–25
+- Accepted: 95–97 bass E♭ held; 47–50 suspension and V7 voicing; Ob 2 at 214; no doubled leading tone 147–150.
+- Do-not-touch: stretto 139–146.
+
+## Cycle 53 (v53 → v54), lens 3 form, A&S Unit 18
+- Accepted: development climax ff 110–113 with trumpets, tuba, timpani; 6/3 bridge replaces F1 head at 87–90; mf at 7–10.
+- Do-not-touch: lament 107–110; retransition into the recap over the dominant.
+
+## Cycle 54 (v54 → v55), lens 4 orchestration, Adler ch. 8
+- Accepted: climax melody doubled in woodwinds, brass f at 110–113; trombones rest 87–90; Vln I with flutes on theme B 212–214; Bn 2 dominant pedal 7–10.
+
+## Cycle 55 (v55 → v56), lens 5 engraving, Adler ch. 18
+- Accepted: page/system breaks for solos; bassoon entries 101/105; letter M at 187 (so letters from cycle 45 are now S at 255 and T at 273); tempo marks over brass; 8va at 223; breath mark 118/119. No sounding change except Bn 1 entering on beat 2 at 101, 105.
+
+## Cycle 56 (v56 → v57), lens 6 playability, Adler ch. 12, 14
+- Accepted: div./unis. at 243–245 and 273–278; timpani f at 110.
+- Do-not-touch: percussion plan; timpani tuning and bar-1 label; 222→223 timpani G→C with Tpt 1 B→C.
+
+## Cycle 57 (v57 → v58), lens 7 texture, Sebesky ch. 1
+- Accepted: scale figure in low strings at 110/112; Vln II and A♭ at 89–90; clarinets rest 67–74, 187–194; violas' figure at 19–26 with Hn 1·2 f.
+
+## Cycle 58 (v58 → v59), lens 8 expression, Sebesky ch. 1, 6
+- Accepted: clarinets rest 187–198; dynamics in the bridge 87–90; p at 114; f at 10; bowing at 3–4; Cbn mf at 19.
+- Do-not-touch: trumpet solo 51–66 with pp accompaniment; F1 articulation 11–26, 151–166; climax 107–113.
+
+## Cycle 59 (v59 → v60), lens 9 holistic, Tchaikovsky 4/iv
+- Accepted: climax melody in octaves 110–113; octave restored at 89–90; Hn 1 with F2 at 187–194.
+- Kept: P head 247–254 in one octave.
+
+## Cycle 60 (v60 → v61), lens 10 cyclic design, Sebesky ch. 1, 9
+- Accepted: Tpt 3 B♭ at 110/112 (no full-brass C major before 223); F♯→G at 219–220 so E4 comes only from D♯; timpani motive x mf at 143; finale.md updated.
+- Relay for cycles 51–60 sent; scherzo thread told about 143 and the Hn 3 D♯→E.
+
+## Cycle 61 (v61 → v62), lens 1 melody, A&S Unit 21
+- Accepted: climax melody tie and 4–3 at 110–112; F1 consequent 4–3 at 25, 165 (F1 change, in finale.md); C–D–E–D at 250; 7–6 chain at 87–89.
+
+## Cycle 62 (v62 → v63), lens 2 harmony, A&S Units 28–29
+- Accepted: German sixth at 109; Neapolitan D♭ in F1 at 163 (recap only); bassoons 110–113; 7–6 resolution 88; suspension preparation 25/165.
+
+## Cycle 63 (v63 → v64), lens 3 form, Adler ch. 15, 17 (rerun after a lost worker)
+- Accepted: Vln II rest 171–186; bassoon-solo accompaniment 114–122 (Bn 2 rest, violas up, Vln II at 119).
+- Kept: coda slow/fast proportion (decided twice now, cycles 43 and 63).
+- Pending (2026-10-13): the first critic-063 run survived the worker loss and wrote critics/reports/c063-second.md (Vln I answers to the bassoon solo 117/122; violas arco sul tasto at 171–186; harp rests 187–198). Accepted; apply with scratchpad apply_c063b.py on top of critic 064's work at its promotion (v65).
+
+## Cycle 64 (v64 → v65), lens 4 orchestration, Adler ch. 11; plus c063-second
+- Accepted (c064): horns doubled at 110–113; Tpt 2 with Tpt 1 on the chorale 255–258.
+- Accepted (c063-second, pending item done): Vln I answers 117/122; violas arco sul tasto 171–186; harp rests 187–198.
+
+## Cycle 65 (v65 → v66), lens 5 engraving, Gould
+- Accepted: collisions at 262–264 and 111; p at 122; double bars at 151, 171; text placement at 124; "sul tasto" at 171.
+
+## Cycle 66 (v66 → v67), lens 6 playability, Adler App. A
+- Accepted: breaths/rests in long wind and brass holds (34, 51–86, 146, 170–198, 214/218/225, 230, 246–254). Ranges all within professional limits.
+
+## Cycle 67 (v67 → v68), lens 7 texture, Sebesky ch. 3
+- Accepted: bass and leading tone kept at 170; Vln II octave below Vln I at 128–130; violas ord. at 181–182; Fl 1 mp at 129.
+
+## Cycle 68 (v68 → v69), lens 8 expression, MOLA
+- Accepted: dynamics on notes not rests (42, 170); full crescendo 196–198; violas mf at 130; bassoon solo peak mp; duplicate dynamics removed.
+
+## Cycle 69 (v69 → v70), lens 9 holistic, Mozart 41/iv
+- Accepted: Neapolitan sixth voicing at 163; Hn 2 down an octave at 250, 265–268; Tpt 2 on the chorale line 259–260.
+- Decided: no F2 return in the coda.
+
+## Cycle 70 (v70 → v71), lens 10 cyclic design, A&S Unit 23
+- Accepted: Tbn 1·2 on the P head at 247–254 (owed item 6 met; record 36 checks); finale.md updated; comments fixed.
+- Relay for cycles 61–70 sent.
+
+## Cycle 71 (v71 → v72), lens 1 melody, Adler ch. 11
+- Accepted: Tbn P head an octave lower with Bn 1/Vc at 247–254; trumpets on 271–272 instead of 269–270; Bn 1 up at 273–276.
+- For the cycle-80 relay: tell movement I the Tbn doubling of its P head is now three octaves below the violins.
+
+## Cycle 72 (v72 → v73), lens 2 harmony, A&S Units 30–31
+- Accepted: B.tbn rests 247–254; Tpt 1·2 unison 262–264 with Tpt 3 on E; trumpet F1 start at 271; Hn 3 at 251; Tbn 1 at 163.
+- Do-not-touch: lament 107–110; plagal close 227–234; C–A♭–E key cycle.

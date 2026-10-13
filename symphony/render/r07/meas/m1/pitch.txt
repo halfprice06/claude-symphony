@@ -1,0 +1,7 @@
+Horns_12: n 53 median +1.3 c, |dev| p50 3.7 p90 6.7 c, >15 c: 0 %, >25 c: 0 %
+Horns_34: n 25 median +0.6 c, |dev| p50 2.0 p90 5.5 c, >15 c: 0 %, >25 c: 0 %
+Trumpets_12: n 9 median +3.9 c, |dev| p50 3.9 p90 5.5 c, >15 c: 0 %, >25 c: 0 %
+Trombones_12: n 19 median +3.3 c, |dev| p50 3.7 p90 6.7 c, >15 c: 0 %, >25 c: 0 %
+Tuba: n 24 median -5.1 c, |dev| p50 5.1 p90 7.6 c, >15 c: 0 %, >25 c: 0 %
+Cor_anglais: n 9 median -1.1 c, |dev| p50 2.3 p90 3.2 c, >15 c: 0 %, >25 c: 0 %
+Contrabassoon: n 48 median +0.1 c, |dev| p50 1.1 p90 3.2 c, >15 c: 0 %, >25 c: 0 %

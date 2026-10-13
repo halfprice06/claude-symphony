@@ -1,0 +1,8 @@
+bars 11-12 (8.4 s, 2 notes): 11:44 pp/cresc v54 | 12:44 f v84
+bars 40-41 (7.6 s, 2 notes): 40:46 pp/cresc v54 | 41:51 ff/decresc v89
+bars 62-63 (3.1 s, 2 notes): 62:51 pp/cresc v54 | 63:51 pp/decresc v89
+bars 80-81 (3.8 s, 2 notes): 80:48 f/cresc v84 | 81:48 f/cresc v86
+bars 117-122 (29.2 s, 2 notes): 117:43 f v84 | 122:43 fff v114
+bars 140-141 (2.9 s, 2 notes): 140:44 f/cresc v84 | 141:44 ff v89
+bars 158-161 (7.6 s, 4 notes): 158:43 ff v89 | 159:43 ff/cresc v89 | 160:44 fff v114 | 161:43 fff/decresc v114
+bars 166-167 (7.2 s, 2 notes): 166:48 p/cresc v62 | 167:48 f v84

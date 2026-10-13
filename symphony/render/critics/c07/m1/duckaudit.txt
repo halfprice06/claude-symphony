@@ -1,0 +1,52 @@
+r07-m1: stems with a gain curve: 23
+stem | bars cut>=3 | cut>=6 | lifted>=1 | min/max dB | max slope dB/s | cut>=3 where own printed dyn >= melody's (n; max steps above)
+Bass clarinet | 0 | 0 | 9 | -0.9/+6.0 | 3.8 | 0; -
+Bass trombone | 6 | 0 | 1 | -5.2/+1.3 | 3.4 | 0; -
+Bassoons 12 | 14 | 0 | 11 | -5.0/+5.0 | 3.3 | 3; 0
+Clarinets 12 | 5 | 0 | 8 | -5.0/+4.0 | 3.1 | 1; 0
+Contrabassoon | 5 | 0 | 1 | -5.0/+1.6 | 3.1 | 1; 0
+Cor anglais | 0 | 0 | 9 | -0.9/+6.0 | 4.0 | 0; -
+Double basses | 12 | 0 | 2 | -5.8/+3.0 | 3.9 | 7; 0
+Flutes 12 | 0 | 0 | 8 | -0.9/+4.8 | 3.2 | 0; -
+Harp LH | 0 | 0 | 5 | -0.9/+3.0 | 1.8 | 0; -
+Harp RH | 0 | 0 | 5 | -0.9/+3.0 | 1.8 | 0; -
+Horns 12 | 12 | 0 | 15 | -5.9/+3.3 | 4.8 | 1; 0
+Horns 34 | 17 | 7 | 1 | -8.0/+1.5 | 3.4 | 2; 0
+Oboes 12 | 6 | 0 | 2 | -5.0/+1.6 | 3.1 | 2; 0
+Timpani | 25 | 3 | 6 | -7.0/+3.0 | 4.1 | 0; -
+Trombones 12 | 7 | 0 | 1 | -5.2/+1.3 | 3.4 | 0; -
+Trumpet 3 | 7 | 0 | 1 | -5.2/+1.6 | 3.4 | 0; -
+Trumpets 12 | 7 | 0 | 1 | -5.3/+1.6 | 3.6 | 0; -
+Tuba | 8 | 0 | 1 | -5.9/+1.6 | 3.4 | 0; -
+Violas | 9 | 6 | 26 | -8.0/+6.0 | 3.9 | 2; 0
+Violins I | 9 | 0 | 1 | -5.0/+2.9 | 4.0 | 5; 0
+Violins II | 6 | 2 | 9 | -8.0/+3.1 | 4.1 | 2; 0
+Violoncellos | 14 | 0 | 15 | -5.0/+6.0 | 4.8 | 8; 0
+drums | 0 | 0 | 5 | -0.9/+3.0 | 1.8 | 0; -
+r07-m1: stem-bars cut >= 3 dB: 169, >= 6 dB: 18; cut >= 3 dB although printed >= the melody: 34
+   ('Bassoons 12', 62, 0, 'p', 'p', -4.1)
+   ('Bassoons 12', 63, 0, 'p', 'p', -4.3)
+   ('Bassoons 12', 111, 0, 'mp', 'mp', -3.1)
+   ('Clarinets 12', 111, 0, 'mp', 'mp', -3.1)
+   ('Contrabassoon', 111, 0, 'mp', 'mp', -3.1)
+   ('Double basses', 56, 0, 'p', 'p', -5.0)
+   ('Double basses', 57, 0, 'p', 'p', -5.0)
+   ('Double basses', 58, 0, 'p', 'p', -4.8)
+   ('Double basses', 59, 0, 'p', 'p', -5.0)
+   ('Double basses', 62, 0, 'p', 'p', -4.1)
+   ('Double basses', 63, 0, 'p', 'p', -4.7)
+   ('Double basses', 111, 0, 'mp', 'mp', -3.1)
+   ('Horns 12', 55, 0, 'p', 'p', -4.1)
+   ('Horns 34', 62, 0, 'p', 'p', -4.1)
+   ('Horns 34', 63, 0, 'p', 'p', -4.3)
+   ('Oboes 12', 37, 0, 'mf', 'mf', -3.5)
+   ('Oboes 12', 111, 0, 'mp', 'mp', -3.1)
+   ('Violas', 62, 0, 'p', 'p', -4.2)
+   ('Violas', 63, 0, 'p', 'p', -4.7)
+   ('Violins I', 36, 0, 'mf', 'mf', -3.9)
+   ('Violins I', 38, 0, 'mf', 'mf', -3.4)
+   ('Violins I', 39, 0, 'mf', 'mf', -3.3)
+   ('Violins I', 63, 0, 'p', 'p', -4.1)
+   ('Violins I', 111, 0, 'mp', 'mp', -3.1)
+   ('Violins II', 63, 0, 'p', 'p', -3.6)
+r07-m1: marked melodies whose median gain is a CUT: []

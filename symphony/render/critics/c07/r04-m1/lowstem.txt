@@ -1,0 +1,9 @@
+/tmp/c07/w04-m1/stems mix <100 Hz share -10.1 dB
+  Double_basses   <100 Hz -14.3 dB, 40-80 Hz -18.9 dB, 100-250 -14.6 dB (re mix total); stem share of its own energy <100 Hz -3.1 dB
+  Double_basses_syn <100 Hz -17.3 dB, 40-80 Hz -21.3 dB, 100-250 -15.7 dB (re mix total); stem share of its own energy <100 Hz -4.2 dB
+  Timpani         <100 Hz -17.6 dB, 40-80 Hz -36.5 dB, 100-250 -17.6 dB (re mix total); stem share of its own energy <100 Hz -3.6 dB
+  Timpani_syn     <100 Hz -20.1 dB, 40-80 Hz -39.7 dB, 100-250 -18.8 dB (re mix total); stem share of its own energy <100 Hz -4.4 dB
+  Tuba            <100 Hz -22.8 dB, 40-80 Hz -30.9 dB, 100-250 -21.3 dB (re mix total); stem share of its own energy <100 Hz -4.7 dB
+  Tuba_syn        <100 Hz -26.2 dB, 40-80 Hz -33.3 dB, 100-250 -22.5 dB (re mix total); stem share of its own energy <100 Hz -6.3 dB
+  Bass_clarinet   <100 Hz -26.9 dB, 40-80 Hz -36.4 dB, 100-250 -28.3 dB (re mix total); stem share of its own energy <100 Hz -9.2 dB
+  Bass_clarinet_syn <100 Hz -28.7 dB, 40-80 Hz -37.8 dB, 100-250 -29.0 dB (re mix total); stem share of its own energy <100 Hz -10.0 dB

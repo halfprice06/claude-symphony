@@ -1,0 +1,9 @@
+bt47ff.wav: dur 2.2s spikes 82; spike 2nd-diff ratio median 409x; loudest-second 40 ms blocks max/median ratio median 517x
+iowa_bassoon-r06_047_ff.wav: dur 2.1s spikes 0; spike 2nd-diff ratio median nanx; loudest-second 40 ms blocks max/median ratio median 12x
+iowa_basstrombone-r07_043_ff.wav: dur 20.4s spikes 369; spike 2nd-diff ratio median 382x; loudest-second 40 ms blocks max/median ratio median 520x
+iowa_basstrombone-r07_044_ff.wav: dur 15.9s spikes 298; spike 2nd-diff ratio median 431x; loudest-second 40 ms blocks max/median ratio median 446x
+iowa_basstrombone-r07_047_ff.wav: dur 2.2s spikes 82; spike 2nd-diff ratio median 409x; loudest-second 40 ms blocks max/median ratio median 517x
+iowa_basstrombone-r07_047_mf.wav: dur 2.2s spikes 68; spike 2nd-diff ratio median 41x; loudest-second 40 ms blocks max/median ratio median 43x
+iowa_clarinet_060_ff.wav: dur 2.1s spikes 0; spike 2nd-diff ratio median nanx; loudest-second 40 ms blocks max/median ratio median 5x
+iowa_trombone-r07_047_ff.wav: dur 2.5s spikes 87; spike 2nd-diff ratio median 283x; loudest-second 40 ms blocks max/median ratio median 386x
+iowa_tuba-r07_035_ff.wav: dur 2.6s spikes 6; spike 2nd-diff ratio median 29x; loudest-second 40 ms blocks max/median ratio median 15x

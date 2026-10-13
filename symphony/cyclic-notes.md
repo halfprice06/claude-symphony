@@ -308,7 +308,7 @@ This section summarises everything above that still applies. Where an older note
 **Where movements I and II leave off**
 - Movement I (C minor, about 7:11) ends attacca into movement II. Movement II (A♭ major, about 5:45) ends on A♭ major ppp: Vln I holds C5; Hn 3·4 are con sord. ("via sord." at 91); there is no timpani roll and no harp in the last bars. The timpani end tuned A♭, C, D♭, E♭.
 - Violin peaks: A♭6 in movement I (31, 72, 122, 160); B♭6 in movement II (76 mp, 79). Movement III's last climax should reach C7.
-- Movement I's stop chord B–D–F–A♭ (26, 138, 170) recurs in movement II at 33 and 64 and is never resolved to C. Its B♮s are left hanging in movement I at 14, 170 (trumpets' last note), 174 and 177.
+- Movement I's stop chord B–D–F–A♭ (26, 138, 170) recurs in movement II complete at 33 and partly at 64 (G♯–B–D, no F) and is never resolved to C. Its B♮s are left hanging in movement I at 14, 170 (trumpets' last note), 174 and 177.
 
 **Opening**
 - A pause after movement II, then a loud start: movement II's last A♭ chord becomes a German sixth (A♭–C–E♭–F♯) and resolves to V of C (critics 120 and 130, A&S p. 593). Do not open softly, on a held C, or with a soft roll.
@@ -328,13 +328,13 @@ This section summarises everything above that still applies. Where an older note
 3. The falling major motto G–E–D–C in full brass at forte.
 4. The brass chorale: top line `g1 | e'1 | d'1 | c'2 des'2 | c'1` for the first statement, and `… c'2 b2 | c'1` for the last. Trombone colour, f–ff, with horns and trumpets added and an independent bass (for example B.tbn `c1 | c1 | b,1 | a,2 bes,2 | c1`, or end over `aes,2 g,2 | c1`). Do not copy movement I's 175–179 octave doubling. It can be set in canon at f, violins two bars after the brass. Between phrases the timpani can play movement I's pulse `c4 r8 g,8 c4 r4` (C and G only); movement II never uses it.
 5. After the chorale, the violins' C-major second-theme head with its chromatic counter, mf–f molto cantabile, over a C pedal. The pitches are in §2 item 1 (complete version in mvt1/v99/sections/recTwo.ily).
-6. A fast ff full-brass combination of the first- and second-theme heads in C major.
+6. A fast ff full-brass combination of the first- and second-theme heads in C major. **Met (finale v71, 247–254):** Tbn 1·2 play the first-theme head under the trumpets' second-theme head.
 7. The last C-minor tutti in movement I's hammered layout (27–32, 167–170: head in octaves, Cb repeated eighths, held brass), turned to C major in the same layout.
 8. The horn call in major, E–C–B→C, in the trumpets, doubled in a new way (for example horns two octaves below).
 9. The E♭/E♮ thread closed in the violas.
 
 **Still unused: available as new colours**
-- Instruments: a tuba melody; a high horn unison (use horn pairs in octaves, or Hn 1 and 3 with one trumpet); a full low-brass unison in the bass; a melodic harp line (movement II gives the harp only accompaniment and three notes at 83); a melodic timpani passage.
+- Instruments: a tuba melody; a high horn unison (use horn pairs in octaves, or Hn 1 and 3 with one trumpet); a full low-brass unison in the bass; a melodic harp line (movement II gives the harp only accompaniment and three notes at 83; since finale v41 this is covered by the scherzo, bars 73–80, and the finale's harp has no melody); a melodic timpani passage.
 - Textures: heterophonic doubling; a motivic bass countermelody, with more inverted bass positions (movement I is in root position on 71% of beats); call and response between wind and string groups; string-free passages.
 - Harmony (A&S Unit 31): a full chromatic lament bass with 7–6 suspensions; descending chains of diminished sevenths; a rising chromatic 5–6 with augmented triads. One deliberate E♭/E♮ cross relation between the outer voices in the chorale (Brahms 3).
 
@@ -348,3 +348,135 @@ This section summarises everything above that still applies. Where an older note
 - Every F♭ resolves to E♭.
 - Length: at least 6 minutes, so the symphony's weight is not front-loaded.
 - Parts: a held note across a join must not fall on a page turn. The movement I parts are being checked for this at the attacca (critic 201).
+
+## Movement II relay, cycles 141–150 (mvt II at v151)
+- The coda's F–F♭–E♭ line now also resolves in the cor anglais (F♭4→E♭4 at 88–90). (Corrected in cycles 161–170: not every F♭ resolves in its own instrument; see below.)
+
+## Movement III relay, cycles 1–10 (mvt III v11: 262 bars, 2/2, about 6:42, 16 pages; log mvt3/critics/HISTORY.md)
+How movement III now uses the shared material:
+- Final cadence 254–255: ♭VI → German sixth A♭–C–E♭–F♯ (the chord of mvt III bar 1) → V7 → I. This is the symphony's first root-position V7–I in C.
+- Bar 218: the stop chord B–D–F–A♭ over G (vii°6/5). This replaced an earlier root-position V–I at 218→219. It resolves to C at 219, with Tpt 1 B→C and timpani G→C. Ob 1 has B5 sf on top of the stop chord at 138, as in movement I.
+- E♭/E♮ thread: Tpt 1 E♭5 (213) → D♯5 in Ob 1, Hn 3 and violas (215) → E5 (216).
+- Movement II's theme B is recalled once, by the trumpets in D♭ at 211–214, note for note as in movement II.
+- fff only at 219 (the arrival), 255 and 261; sub. p at 215 before the arrival. The first cymbal crash is at 219.
+- F1 (movement III's first theme) returns in C major in horns and trombones at 256–259.
+- Timpani first tuning: G, A♭, C, E♭. Harp pedal diagrams at 67, 123, 187 and 231.
+
+## Movement II relay, cycles 151–160 (mvt II at v161)
+- Bar 21 now has a French sixth (bass F♭) after the deceptive cadence, so F♭→E♭ also appears in movement II's first A section.
+
+## Movement II relay, cycles 161–170 (mvt II at v171)
+- Correction to the cycles 141–150 note: not every F♭ resolves in its own instrument. At bar 78 the viola's F♭ resolves through the bass and harp. That is correct as written, because a resolution in the viola would make octaves with the bass. Everywhere else the F♭/E resolves to E♭. Bars 3–6 and 87–89 frame the movement with the same plagal ♭6̂ neighbour.
+
+## Movement III relay, cycles 11–20 (mvt III v21: 271 bars, 2/2, about 6:51, 16 pages; log mvt3/critics/HISTORY.md)
+Bar numbers changed in v14. The cycles 1–10 note above uses v11 numbers; old 215–250 are now +4 and old 256–262 are now 265–271.
+- Movement II's theme B recall is augmented to 8 bars (211–218, about 13 s). Since v20 the trumpets are doubled by Ob 1 and Cl 1.
+- Protected, at the new numbers: sub. p at 219; violas D♯→E at 219–220; stop chord at 222 → C at 223 (Tpt B→C, timpani G→C); tremolo and the violins' C7 only from 223; fff at 223, 263 and 270.
+- The last cadence (♭VI → Ger6 → V7 → I) is at 261–263. It is now the only root-position V–I in C in movement III.
+- The last chorale is at Allegro molto in doubled note values (255–264), with no Maestoso.
+- The major-third cycle C – A♭ – E is closed at 241–247: I – II6/5 – E major (243) – cadential 6/4 – V4/3 – I. The trumpets' E of the horn call is the root of the E chord.
+- Development 103–105: motive x overlaps the F1 head. F1 returns in C major in horns, trombones, violas and cellos at 265–268.
+- Open in movement III: lengthen the C-major close after 263 (about 9 s) in cycle 23; this may raise its page cap to 17.
+
+## Four movements (Dan, 2026-10-12): plan for the scherzo
+New order: I Allegro (C minor, mvt1/) – II Adagio (A♭, mvt2/) – III Scherzo (E, scherzo/) – IV Finale (C minor → C major, mvt3/, paused and to be reworked). Every "movement III" above and in "Start here for movement III" now means the finale, movement IV. The finale keeps everything listed there as owed, unless this section moves it to the scherzo.
+
+**Key.** E completes the cycle of major thirds C – A♭ – E. The finale already closes that cycle at 241–247 (E major at 243), which will now recall the scherzo's key. The scherzo should be in E (major, or E minor with a major trio); the choice belongs to the scherzo thread. Do not use C major anywhere in the scherzo, including the trio; C major belongs to the finale's arrival.
+
+**Link from movement II.** Movement II ends on A♭ major ppp, with Vln I on C5 and Hn 3·4 muted. A♭ = G♯ is the third of E major, so the scherzo can pivot on that common tone. Movement II was joined to movement I attacca, so a pause before the scherzo gives contrast. The scherzo's first horn entry needs "senza sord." (this moves from the finale to the scherzo). The timpani need a retune during the pause (movement II ends on A♭, C, D♭, E♭), and the first timpani label should say so.
+
+**Link to the finale.** The finale's bar 1 makes a German sixth (A♭–C–E♭–F♯) out of movement II's last chord. That premise changes now. The common tones with E major are G♯ = A♭ and D♯ = E♭, so the same chord can be reached from E. One model is Beethoven 5 (scherzo to finale attacca over a timpani pedal, minor to major). The finale thread decides when it reworks the opening.
+
+**What the scherzo should carry**
+- The E♮ thread, as a key: E♮ is the pitch movement I ends on (viola, 182), and movement II turns it straight back to E♭. The scherzo makes E the tonic but does not close the thread. The finale's violas still close it (E♭ → D♯ → E at 219–220); D♯ is E major's leading tone, so the scherzo prepares that spelling.
+- The motto, in scherzo character, without its rising sixth (rule since critic 101: new themes do not open with that interval). Good candidates are the chromatic tail E♭–D–D♭–C transposed (B–A♯–A–G♯ in E); the first-theme head in diminution and in triple metre; or the horn call E♭–C–B in E (B–G♯–G or B–G♯–F♯). Quote it, do not develop it: development belongs to I and IV.
+- Colours still unused that suit a scherzo: a melodic timpani figure (Beethoven 9/ii); call and response between wind and string groups; heterophonic doubling; string-free passages; a melodic harp line (used: scherzo 73–80); the viola C string; and a motivic bass.
+- Violin register: I peaks on A♭6, II on B♭6, and the finale is to reach C7. The scherzo should stay below C7. B6 as its peak would make a large-scale B→C into the finale.
+
+**Keep for the finale only (do not use in the scherzo)**
+- The trumpets' B→C; resolving the stop chord B–D–F–A♭; string tremolo with the violins' C7; the falling major motto in full brass; the brass chorale; the violins' C-major statement of the second theme; the combined heads in C major; the hammered tutti turned to major; a tuba melody; a high horn unison; a full low-brass unison in the bass; the first cymbal crash (finale bar 219/223).
+- Trumpets: they are tacet in movement II. If the scherzo uses them, keep them to tutti rhythm or fanfare figures, with no solo melody, so the finale's soft undoubled trumpet melody keeps its effect. The finale should then stop calling it "the trumpets' first entry since movement I".
+
+**Lengths.** I about 7:11, II about 5:45, finale about 6:51 (v21). A scherzo of about 5–6 minutes gives about 25 minutes in all. The finale should still run at least 6 minutes.
+
+## Scherzo relay, v01 first draft (may still change; workspace scherzo/, plan scherzo/movement-scherzo-plan.md, log scherzo/critics/HISTORY.md)
+- v01: 392 bars, 3/4, Allegro vivace dotted half = 88, Trio dotted half = 76, about 4:54, 13 pages.
+- Keys: E minor scherzo, E major trio; the coda ends in E major. The development's quiet episode is in F major (♭II, E's Neapolitan), answering movement I's D♭.
+- Opening, after a pause: Hn 1 holds G♯4 alone (movement II's A♭ respelled). Then movement I's horn call in E major, G♯–E–D♯–E (4–7). Clarinets turn the chord to E minor, and the timpani alone play motive x (crotchet, two quavers, crotchet). Hn 3·4 senza sord. at 73. Timpani tuned E, G, B, E, with G→G♯ for the trio.
+- Theme A (13): motive x plus the motto's chromatic tail on E's degrees, G–F♯–F–E. F♮ is E's Neapolitan, as D♭ is C's.
+- Trio tune (153, Cl 1): G♯–A–B–E | D♯–C♯–B–G♯, new material leaning on D♯.
+- Ending: Hn 1 sings the motto tail B–A♯–A–G♯ over E – A♯°7 – A minor – E (373–376). The last sound is G♯, held in Hn 1 (G♯4) and Vln I (G♯5) over a timpani roll and a pizzicato E (385–392), pp, with a fermata, so the finale can take G♯ as A♭ for its bar-1 German sixth.
+- Kept for the finale, as planned: C major; the trumpet melody (trumpets play only motive x in tuttis); string tremolo; cymbals; a high horn unison; a tuba melody; violins above B6 (B6 once, at 352).
+Notes from the mvt I thread for the scherzo and finale threads:
+- The horn call's D♯→E at 4–7 and the trio's emphasis on D♯ touch the E♭/E♮ thread that the finale's violas are to close (E♭ → D♯ → E). That is fine as long as the scherzo keeps D♯→E in its own key context and leaves the finale's viola spelling as the one that closes the thread across movements.
+- The motto tail now appears at a third level, B–A♯–A–G♯ in Hn 1. That is different from the E♭3 bass-clarinet level heard in I and II, so it does not break the "not a third time at that pitch" note.
+- Finale opening: the scherzo now ends pp on a held G♯, not on movement II's A♭ chord. The finale's loud German-sixth start after a pause still works, with G♯/A♭ as the common tone.
+
+## Movement I theme record (2026-10-12)
+The exact pitches and rhythms of every movement I idea that later movements quote are now in coherence/themes-mvt1.ly (index: coherence/themes-mvt1.md), checked against v221. Movement I's current state (opening, ending chord, key plan, timpani) is in coherence/mvt1.md. Where this file and those disagree, those win. Corrections found while writing them:
+- Bar 2–3 bass clarinet plays E♭3–D3–C3–D♭3–C3. The bare tail E♭–D–D♭–C occurs only at 118–121, and as D6–D♭6–C6 at 156–157.
+- Cor anglais answer: the pickup is on beat 4 of 5 and the answer runs 6–8. The rising-sixth chain ends on G5 held through 13. The flute motto's last eighth is F♭5, and the flute rests at 76. The bar-19 pickup is A♭4.
+- At 117–121 Hn 1·2 and Bsn 1 are in unison with the trombones; only the bass trombone is an octave lower.
+- Stop chord: the bass is B only at 26. It is D at 138, and at 170 the chord sits over a C pedal.
+- Tpt 1 already moves B4→C5 into the minor tuttis (26→27, 138→139). What movement I withholds is B→C on a C-major arrival.
+- Hn 3 enters at 181, not 180.
+
+## Finale (movement IV) relay, cycles 21–30 (mvt3/ v31: 279 bars, 2/2, about 7:01, 16 pages; log mvt3/critics/HISTORY.md)
+Bar numbers changed again: old 269–271 are now 277–279. The finale's quotations of movements I and II are listed in coherence/finale.md and checked each cycle; that file, not this one, is the current list.
+- Titled "IV. Finale". The scherzo's last G♯ continues as A♭ in Hn 1 and Vln I into the ff German sixth. Timpani retune E→G, G→A♭, B→C and E→E♭ during the join.
+- Scherzo quotations: its timpani motive x on G at 143–145; theme A's head in C major at 275–276 (trumpets, Cl 1, Fl 1, horns).
+- The trumpets take F1 in C major at 265–268. E-major chord at 243 with ii7 → III♯ resolution. Movement I's second-theme head in brass at 246 now has the pickup G→E, as at mvt I 146–147.
+- C-major close lengthened by 8 bars after 268: IV6/4–iv6/4–I over a C pedal at 273–276. fff and cymbals only at 223, 263 and 278.
+- Theme B (211–218) matches movement II v182.
+
+## Scherzo (movement III) relay, cycles 1–10 (scherzo v11: 384 bars, 13 pages; live theme record coherence/themes-scherzo.ly and coherence/scherzo.md, which supersede the v01 notes above)
+- Cycle 3 cut 8 bars from the trio's middle. The second idea now returns in E minor in the reprise.
+- Horn call (since v11): E major G♯3–E4–D♯4–E4, keeping movement I's rising sixth (mvt I 13–14: E♭3–C4–B3), after a held G♯4 (= movement II's last A♭).
+- Movements II and III end with the same close a major third apart (5–♯4–4–3, plagal with mixture). The finale has been offered the third statement: G–F♯–F–E over C – F♯°7 – F minor – C.
+- Limits kept: top note B6 (once, bar 344); no C major, no tremolo, no cymbals; trumpets play only motive x.
+- Hn 3·4 "senza sord." at 73 is only a reminder, because movement II already takes their mutes off ("via sord." at its bar 91).
+- Timpani change from movement II to the scherzo: A♭→E, C→G, D♭→B, E♭→E. The finale quotes the scherzo's theme A head (in C, at finale 275–276) and the repeated-B timpani motive x.
+
+## Finale (movement IV) relay, cycles 31–40 (mvt3/ v41, 279 bars, about 7:04, 16 pages)
+
+- Coherence checks: 35 match against mvt I v221, mvt II v195 and scherzo v18.
+- The harp melody is used by the scherzo (its bars 73–80), not the finale. The finale's harp no longer has a melody.
+- 123–131: the second theme rises through cellos, violas, clarinet, then violins and flute, with a new bassoon counter-line.
+- 271–272 allargando; Largamente, half note = 72, from 273.
+- 273–275: closing chain G–F♯–F–E over C – F♯°7 – iv6/4 – I. This is the third statement of the 5–♯4–4–3 close that ends movement II and the scherzo; those closes are now on both movements' do-not-touch lists.
+- Violas keep E♮ at 273–276, so the E♭/E♮ thread from movement I stays closed in C major.
+
+## Scherzo relay, cycles 11–20 (scherzo/ v21, 384 bars, about 4:40, 13 pages)
+
+- Movement II has finished at mvt2/v201.
+- The violins' top notes across the four movements rise: A♭6 (I), B♭6 (II), B6 (III), C7 (IV).
+- The three motto closes (II, III, IV) form one falling chromatic line from E♭5 to E4, each a major third lower than the last. The finale completes the chain at its 273–275.
+- The scherzo's retransition uses three-bar groups ("ritmo di tre battute").
+- Scherzo theme changes so far: the horn call (v11) and the trio tune's third phrase, which now peaks on A5 (v12). The coda's last statement of the trio tune begins in A major.
+- The scherzo opens with a fermata on G♯, held over from movement II's last A♭.
+
+## Finale (movement IV) relay, cycles 41–50 (mvt3/ v51; quotation record 34/34 against mvt I v221, mvt II v201 final, scherzo v29)
+
+- Correction: movement I's hammered tutti (27–32) returns in the finale in C minor at 199–210 and in major at 247–254 (coherence/themes-mvt1.md and .ly fixed).
+- The recapitulation (151) now begins over a dominant G pedal with a timpani roll; the tonic root arrives at 155.
+- At the close the horns complete the G–F♯–F–E chain, and the scherzo's theme A head at 275–276 is in the first violins.
+
+## Scherzo relay, cycles 21–30 (scherzo/ v31, 376 bars, about 4:35, 13 pages)
+
+- The scherzo quotes movement I's horn call (mvt I 13–14, E♭3–C4–B3) unresolved, as 3–1–7 stopping on D♯. The 7→1 resolution in major is left to the finale (its 243–246).
+- Two 4-bar cuts: the scherzo's motto close is now at 357–360 and its last G♯ at 369–376.
+- The close's B–A♯–A–G♯ tail is anticipated at 205–209.
+
+## Finale (movement IV) relay, cycles 51–60 (mvt3/ v61; quotations 34/34)
+
+- At 219–220, E4 is reached only from D♯ (violas and Hn 3). This resolves, at the same pitch, the D♯4 on which the scherzo's quotation of the horn call stops.
+- There is still no full-brass C-major chord before 223.
+- The development now has its climax at 110–113, on V7 of F.
+
+## Scherzo relay, cycles 31–40 (scherzo/ v41, 376 bars, about 4:35)
+
+- The E♭/D♯ → E thread at E4 (movement II's last Cl 2 E♭4, then the scherzo horn call's D♯4) stays open until finale 219–220, where Hn 3 and the violas resolve it. The scherzo's bar-7 clarinets were changed so that nothing resolves it earlier.
+
+## Finale (movement IV) relay, cycles 61–70 (mvt3/ v71, 279 bars)
+
+- Owed item 6 (fast ff full-brass combination of the two theme heads in C major) is met at finale 247–254: Tbn 1·2 play the first-theme head under the trumpets' second-theme head. This is also where the hammered tutti returns in major.

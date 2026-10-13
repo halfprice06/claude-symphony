@@ -1,0 +1,1 @@
+r04-m2: inversions 43; without pairs in printed hairpins 31

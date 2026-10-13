@@ -1,0 +1,427 @@
+{
+ "file": "/tmp/c07/r04-m1.mp3",
+ "label": "r04-m1.mp3",
+ "start": null,
+ "duration_s": 434.45,
+ "ffmpeg_ebur128": {
+  "I_LUFS": -20.0,
+  "LRA_LU": 18.8,
+  "LRA_low_LUFS": -34.3,
+  "LRA_high_LUFS": -15.6,
+  "true_peak_dBTP": -1.5
+ },
+ "loudness": {
+  "I_LUFS": -20.03,
+  "LRA_LU": 18.8,
+  "LRA_low": -34.3,
+  "LRA_high": -15.6,
+  "S_percentiles_rel_I": {
+   "p5": -15.6,
+   "p10": -14.4,
+   "p25": -11.0,
+   "p50": -5.8,
+   "p75": 0.5,
+   "p90": 3.4,
+   "p95": 4.5,
+   "p99": 6.8
+  },
+  "M_max_rel_I": 8.6,
+  "S_max_rel_I": 7.4,
+  "S_min_active_rel_I": -29.8
+ },
+ "peaks": {
+  "sample_peak_dBFS": -1.51,
+  "samples_abs_ge_0.999": 0,
+  "samples_abs_gt_1.0": 0,
+  "crest_factor_dB": 23.0,
+  "rms_dBFS": -24.5
+ },
+ "noise": {
+  "quietest_1pct_100ms_dBFS": -54.9,
+  "quietest_5pct_100ms_dBFS": -40.1
+ },
+ "spectrum": {
+  "third_octave_Hz": [
+   24.8,
+   31.2,
+   39.4,
+   49.6,
+   62.5,
+   78.7,
+   99.2,
+   125.0,
+   157.5,
+   198.4,
+   250.0,
+   315.0,
+   396.9,
+   500.0,
+   630.0,
+   793.7,
+   1000.0,
+   1259.9,
+   1587.4,
+   2000.0,
+   2519.8,
+   3174.8,
+   4000.0,
+   5039.7,
+   6349.6,
+   8000.0,
+   10079.4,
+   12699.2,
+   16000.0,
+   20158.7
+  ],
+  "third_octave_dB_rel_total": [
+   -52.11,
+   -49.47,
+   -38.3,
+   -27.91,
+   -16.87,
+   -18.74,
+   -9.87,
+   -14.09,
+   -15.7,
+   -15.74,
+   -14.9,
+   -13.67,
+   -9.93,
+   -9.39,
+   -10.79,
+   -12.21,
+   -13.15,
+   -11.18,
+   -10.93,
+   -13.5,
+   -13.66,
+   -15.19,
+   -21.96,
+   -25.85,
+   -31.16,
+   -37.61,
+   -42.83,
+   -45.74,
+   -51.99,
+   -62.58
+  ],
+  "band_shares_dB": {
+   "20-100Hz": -10.03,
+   "100-250Hz": -8.42,
+   "250-500Hz": -6.76,
+   "500-2000Hz": -3.56,
+   "2000-6000Hz": -9.79,
+   "6000-20000Hz": -31.19
+  },
+  "slope_dB_per_oct_100_10k": -2.54
+ },
+ "brightness": {
+  "centroid_median_Hz": 765.0,
+  "centroid_loudest10pct_Hz": 960.0,
+  "centroid_softest30pct_Hz": 618.0,
+  "centroid_slope_oct_per_10LU": 0.328,
+  "loud_minus_soft_shape_dB_at_Hz": {
+   "39": 0.5,
+   "79": -2.9,
+   "157": -1.7,
+   "315": -1.9,
+   "630": -1.1,
+   "1260": 0.9,
+   "2520": 2.9,
+   "5040": 7.4,
+   "10079": 8.1,
+   "20159": 28.8
+  }
+ },
+ "stereo": {
+  "corr_LR": 0.616,
+  "side_to_mid_dB": -6.2,
+  "balance_R_minus_L_dB": 0.11,
+  "corr_low<250": 0.606,
+  "corr_mid250-4k": 0.632,
+  "corr_high>4k": 0.605,
+  "pan_spread_std": 0.32,
+  "pan_energy_hist_L_to_R": [
+   0.007,
+   0.03,
+   0.07,
+   0.145,
+   0.229,
+   0.247,
+   0.164,
+   0.08,
+   0.023,
+   0.005
+  ]
+ },
+ "score_alignment": {
+  "n_bars": 182,
+  "spearman_bar_loudness_vs_vel_max": 0.802,
+  "spearman_bar_loudness_vs_vel_median": 0.71,
+  "spearman_bar_loudness_vs_sounding_notes": 0.842,
+  "linear_dB_per_velocity_step_of_10": 2.15,
+  "bar_loudness_by_loudest_marked_dynamic_rel_I": {
+   "ppp": {
+    "n": 1,
+    "median": -15.5,
+    "min": -15.5,
+    "max": -15.5
+   },
+   "pp": {
+    "n": 3,
+    "median": -15.8,
+    "min": -16.9,
+    "max": -13.3
+   },
+   "p": {
+    "n": 24,
+    "median": -12.9,
+    "min": -22.5,
+    "max": -2.1
+   },
+   "mp": {
+    "n": 17,
+    "median": -10.1,
+    "min": -15.6,
+    "max": -2.9
+   },
+   "mf": {
+    "n": 22,
+    "median": -10.2,
+    "min": -15.2,
+    "max": 1.2
+   },
+   "f": {
+    "n": 29,
+    "median": -4.4,
+    "min": -15.8,
+    "max": 3.3
+   },
+   "ff": {
+    "n": 19,
+    "median": -1.0,
+    "min": -14.1,
+    "max": 5.3
+   },
+   "fff/acc": {
+    "n": 66,
+    "median": 1.9,
+    "min": -9.5,
+    "max": 7.3
+   }
+  },
+  "loudest_bars": [
+   [
+    159,
+    7.3,
+    "fff/acc"
+   ],
+   [
+    122,
+    7.0,
+    "fff/acc"
+   ],
+   [
+    160,
+    6.3,
+    "fff/acc"
+   ],
+   [
+    123,
+    6.2,
+    "fff/acc"
+   ],
+   [
+    161,
+    5.5,
+    "fff/acc"
+   ],
+   [
+    158,
+    5.3,
+    "ff"
+   ],
+   [
+    121,
+    5.2,
+    "fff/acc"
+   ],
+   [
+    140,
+    5.0,
+    "fff/acc"
+   ]
+  ],
+  "softest_bars": [
+   [
+    1,
+    -22.5,
+    "p"
+   ],
+   [
+    5,
+    -18.3,
+    "p"
+   ],
+   [
+    75,
+    -16.9,
+    "pp"
+   ],
+   [
+    74,
+    -15.8,
+    "pp"
+   ],
+   [
+    171,
+    -15.8,
+    "f"
+   ],
+   [
+    2,
+    -15.6,
+    "mp"
+   ],
+   [
+    55,
+    -15.6,
+    "p"
+   ],
+   [
+    182,
+    -15.5,
+    "ppp"
+   ]
+  ]
+ },
+ "tails": {
+  "final": {
+   "t0_s": 430.78,
+   "level_at_t0_dB": -37.1,
+   "floor_dB": -100.7,
+   "t_minus10dB_s": 0.136,
+   "t_minus20dB_s": 0.456,
+   "t_minus30dB_s": 1.356,
+   "t_minus40dB_s": 1.626,
+   "RT60_from_T20_s": 3.08,
+   "EDT_s": 0.71,
+   "audio_after_last_note_off_s": 3.67
+  },
+  "silences_in_score": [
+   {
+    "t0_s": 66.0,
+    "level_at_t0_dB": -40.5,
+    "floor_dB": -100,
+    "t_minus10dB_s": 0.335,
+    "t_minus20dB_s": null,
+    "t_minus30dB_s": null,
+    "t_minus40dB_s": null,
+    "RT60_from_T20_s": null,
+    "EDT_s": 2.32,
+    "gap_len_s": 1.2,
+    "bar": 14,
+    "drop_at_gap_end_dB": 13.3
+   },
+   {
+    "t0_s": 89.58,
+    "level_at_t0_dB": -23.0,
+    "floor_dB": -100,
+    "t_minus10dB_s": 0.204,
+    "t_minus20dB_s": 0.454,
+    "t_minus30dB_s": null,
+    "t_minus40dB_s": null,
+    "RT60_from_T20_s": null,
+    "EDT_s": 1.16,
+    "gap_len_s": 0.48,
+    "bar": 26,
+    "drop_at_gap_end_dB": 19.4
+   },
+   {
+    "t0_s": 100.53,
+    "level_at_t0_dB": -21.9,
+    "floor_dB": -100,
+    "t_minus10dB_s": 0.262,
+    "t_minus20dB_s": null,
+    "t_minus30dB_s": null,
+    "t_minus40dB_s": null,
+    "RT60_from_T20_s": null,
+    "EDT_s": 1.64,
+    "gap_len_s": 0.48,
+    "bar": 32,
+    "drop_at_gap_end_dB": 15.6
+   },
+   {
+    "t0_s": 210.78,
+    "level_at_t0_dB": -38.9,
+    "floor_dB": -100,
+    "t_minus10dB_s": 0.177,
+    "t_minus20dB_s": null,
+    "t_minus30dB_s": null,
+    "t_minus40dB_s": null,
+    "RT60_from_T20_s": null,
+    "EDT_s": 1.04,
+    "gap_len_s": 0.26,
+    "bar": 87,
+    "drop_at_gap_end_dB": 16.2
+   },
+   {
+    "t0_s": 211.73,
+    "level_at_t0_dB": -40.9,
+    "floor_dB": -100,
+    "t_minus10dB_s": 0.194,
+    "t_minus20dB_s": null,
+    "t_minus30dB_s": null,
+    "t_minus40dB_s": null,
+    "RT60_from_T20_s": null,
+    "EDT_s": 1.57,
+    "gap_len_s": 0.26,
+    "bar": 87,
+    "drop_at_gap_end_dB": 13.2
+   }
+  ]
+ },
+ "onsets": {
+  "best_lag_ms_audio_after_midi": 50,
+  "peak_corr": 0.561,
+  "note": "spectral-flux vs MIDI note-on train, 10 ms grid, +-300 ms"
+ },
+ "cutoff_decays": {
+  "n": 5,
+  "median_t_to_minus20dB_s": 0.52,
+  "median_RT60_est_s": 1.35,
+  "events": [
+   {
+    "t_s": 89.39,
+    "level_dB": -18.1,
+    "t_to_minus20dB_s": 0.52,
+    "RT60_est_s": 1.35
+   },
+   {
+    "t_s": 183.16,
+    "level_dB": -17.8,
+    "t_to_minus20dB_s": 0.56,
+    "RT60_est_s": 1.62
+   },
+   {
+    "t_s": 310.98,
+    "level_dB": -17.4,
+    "t_to_minus20dB_s": 0.52,
+    "RT60_est_s": 1.27
+   },
+   {
+    "t_s": 378.86,
+    "level_dB": -19.2,
+    "t_to_minus20dB_s": 0.51,
+    "RT60_est_s": 1.34
+   },
+   {
+    "t_s": 430.69,
+    "level_dB": -37.1,
+    "t_to_minus20dB_s": 0.55,
+    "RT60_est_s": 1.89
+   }
+  ],
+  "note": "sharp cut-offs found from the audio alone (0.4 s sustained, then >=15 dB fall within 0.4 s); RT60 from the -5..-20 dB slope"
+ }
+}
