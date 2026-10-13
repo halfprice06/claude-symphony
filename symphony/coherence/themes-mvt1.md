@@ -9,7 +9,7 @@ The checker: `themecheck.py themes-mvt1.ly <version dir> --beats 4` reads the `%
 | mvtOneMotto (motto-slow) | 1–4, B.cl. + Vc (G2), Cb 8vb, pp | Finale chorale: this form in major, top line `g1 e'1 d'1 c'2 des'2 c'1`, last statement ending `c'2 b2 c'1` | Pitch classes G E♭ D C D♭ C (5 ♭3 2 1 ♭2 1), major form G E D C D♭/B C; transposable; rhythm free |
 | mvtOneMottoAnswer (motto-answer-ca) | 5 (beat 4)–9, C.a., p espr. | None planned | D B♭ A G A♭ G; rhythm free |
 | mvtOneRisingSixthChain (rising-sixth-chain) | 9 (beat 4)–13, Vln I | New themes in II–IV must not open with a rising sixth; it belongs to the motto | Rising sixths G–E♭, A♭–F, B–A♭; first one in the motto rhythm |
-| mvtOneHornCall (horn-call) | 13–14, Hn 1 alone, E♭3–C4–B3 | Scherzo Hn 1 3–7 (G♯–E–D♯–E); finale trumpets E–C–B→C, horns below (243–246) | Scale degrees 3–1–7 (♭3 or 3), resolution to 1 optional; transposable |
+| mvtOneHornCall (horn-call) | 13–14, Hn 1 alone, E♭3–C4–B3 | Scherzo Hn 1 3–6 (G♯3–E4–D♯4, the 7 held and unresolved, as in movement I; no E4 at 7–8); finale trumpets E–C–B→C, horns below (243–246) | Scale degrees 3–1–7 (♭3 or 3), resolution to 1 optional; transposable |
 | mvtOneHornCallCoda (horn-call-coda) | 175 (beat 4)–177, Cl 1, pp | As the horn call | As the horn call |
 | mvtOneThemeP (theme-p) | 15–22, Vln I, f; D♭6 sf at 20 | Finale: P only as a link; its tutti layout of 27–32 returns in C minor at 199–210 and in major at 247–254 | Intervals and rhythm |
 | mvtOneThemePHead (theme-p-head) | 15–16, Vln I (also 27, 131 low, 167 brass/Vla) | Finale: combined with the S head in C major, fast, full brass (247–254, 269–272) | Rhythm `r8 8 4. 8 8 8 \| 4 8 8 4. 8` and intervals; transposable |
@@ -18,7 +18,7 @@ The checker: `themecheck.py themes-mvt1.ly <version dir> --beats 4` reads the `%
 | mvtOneThemeSBminor (theme-s-bminor) | 97 (beat 4)–102, Vln I + Ob 1 (Fl 1 8va), ff | Model of the minor anacrusis form (`g4 \| es'2.~ es'8 d'8 \| c'4 aes'2 g'4` in C minor), which II quotes once | Rhythm `4 \| 2.~ 8 8 \| 4 2 4` and intervals; transposable |
 | mvtOneMottoSecondForm (motto-second-form) | 117–121, Tbn 1·2 + Hn 1·2 + Bsn 1, B.tbn 8vb, ff | None planned | G E♭ D D♭ C (no C before D♭); rhythm free |
 | mvtOneMottoHalfAug (motto-half-augmented) | 129–130, Cl 1 | None planned | G E♭ D D♭ C, rhythm `4 2 4 \| 4 2.` |
-| mvtOneMottoTail (motto-tail) | 2–3, B.cl. at E♭3 (E♭–D–C–D♭–C) | II (B.cl. E♭3 at 32–34; Cl 1 coda 85–89); scherzo theme A (G–F♯–F–E) and Hn 1 365–368 (B–A♯–A–G♯); not a third time at E♭3 in the B.cl. | E♭ D D♭ C (passing C before D♭ optional); transposable; rhythm free |
+| mvtOneMottoTail (motto-tail) | 2–3, B.cl. at E♭3 (E♭–D–C–D♭–C) | II (B.cl. E♭3 at 32–34; Cl 1 coda 85–89); scherzo theme A (G–F♯–F–E) and Hn 1 357–360 (B–A♯–A–G♯); not a third time at E♭3 in the B.cl. | E♭ D D♭ C (passing C before D♭ optional); transposable; rhythm free |
 | mvtOneThemeSCmajor (theme-s-cmajor) | 146 (beat 4)–150, Hn 1 + Vla (G3), Vc 8vb, mp–mf | Finale: falling major motto G–E–D–C in full brass at f; C-major S head | Rhythm `4 \| 2.~ 8 8 \| 4 2 4` and intervals |
 | mvtOneViolinsFlatSeven (s-head-flat-seven) | 155 (beat 4)–157, Vln I·II | None planned | F D D♭ C, rhythm `4 \| 2.~ 8 8 \| 2` |
 | mvtOneClimaxLine (climax-line) | 158–161, Vln I·II, Fl 1·2, Ob 1, Tpt 1, Hn 1·2; fff and A♭6 at 160 | Finale's last climax must reach C7, above this A♭6 | Pitches and rhythm as written |

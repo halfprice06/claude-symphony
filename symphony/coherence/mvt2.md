@@ -182,7 +182,7 @@ The timpani rest in 31–36 and in the B section until 52. Only A♭2, C3, D♭3
 
 - The finale quotes theme B's second phrase (cor anglais, II 41–44) at its bars 211–218 (coherence/finale.md).
 
-- The coda's closing motto tail E♭–D–D♭–C (5̂–♯4̂–4̂–3̂, Cl 1 85–89) over the plagal close with mixture (IV6 – iv – I, 87–89). The scherzo answers it with B–A♯–A–G♯ in E (365–368) and the finale with G–F♯–F–E in C (finale v33, 273–275), so the three closes fall by major thirds: A♭, E, C. All three share the ♮6–♭6–5 inner line; bar 86 in II is half-diminished (violas C♮), where III and IV use a full diminished seventh; kept. Movement II keeps this close; tell the finale and scherzo threads before changing it.
+- The coda's closing motto tail E♭–D–D♭–C (5̂–♯4̂–4̂–3̂, Cl 1 85–89) over the plagal close with mixture (IV6 – iv – I, 87–89). The scherzo answers it with B–A♯–A–G♯ in E (Hn 1 357–360, scherzo numbering since v24) and the finale with G–F♯–F–E in C (finale v33, 273–275), so the three closes fall by major thirds: A♭, E, C. All three share the ♮6–♭6–5 inner line; bar 86 in II is half-diminished (violas C♮), where III and IV use a full diminished seventh; kept. Movement II keeps this close; tell the finale and scherzo threads before changing it.
 
 ## Open requests to other movements
 

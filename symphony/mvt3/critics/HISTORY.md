@@ -385,3 +385,78 @@ Dan: the tempo at R (2 = 100) "sounds kind of silly, comically fast". Decision: 
 ## Cycle 88 (v88 → v89), lens 8 dynamics (Adler ch. 10)
 - Accepted: Fl 1 C7 at 263 and Cl 2 up an octave 257–264; strings f at 255 → ff 259; crescendo into 211 aligned; ff print fix at 265; stopped horns at 138. Declined bass drum at 263.
 - v88 rendered with r04 for Dan (v88/score-r04.mp3, 7:11). r04 perc.py cannot parse \tag #'part, \tweak style, or <cymc bd> chords; rendered from a temp copy with those simplified.
+
+## Cycle 89 (v89 → v90), lens 9 master comparison (Sibelius 2/iv)
+- Accepted: Fl 1 C6 at 263–264 (reverses cycle 88's C7). Protected rule widened: C7 in any part only at 223.
+
+## Cycle 90 (v90 → v91), lens 10 coherence (Adler ch. 17)
+- Accepted: oboes/Vln II continue the chain through D–D♭–C at 276; Tpt 3 holds C4 at 220. finale.md corrected. Scherzo and movement II told; relay to coordinator after cycle 90 sent.
+
+## Cycle 91 (v91 → v92), lens 1 (A&S Unit 20)
+- Accepted: bar 253 rewritten so the two heads do not meet in octaves. Kept scherzo quotation barring, B♭ in F1, 271 arpeggio.
+
+## Cycle 92 (v92 → v93), lens 2 (A&S Unit 5)
+- Accepted five voice-leading fixes (131–132, 185–186 and 65, 111–112, 134, 196–197). Kept lament spacing 107–109.
+
+## Cycle 93 (v93 → v94), lens 3 (A&S Unit 14)
+- Accepted: A♭ at 43; leading-tone doublings removed at 52, 60, 116; Bn 1 7th resolves at 51.
+
+## Cycle 94 (v94 → v95), lens 4 orchestration (Rimsky ch. I, III)
+- Accepted six fixes in 53–138 (stop-chord doubling, bass at 91–92, oboe spacing, trombones at 110/112, counter-melody level 67–74, chords under the trumpet solo).
+- v94 rendered with r07 for Dan. r07 perc.py also fails on the \tag #'part percussion cue at 221–222 (since v76); rendered from a temp copy without it.
+
+## Cycle 95 (v95 → v96), lens 5 engraving (Gould ch. 1)
+- Accepted: \mergeRests for the parts; horn clefs score-only at 25–26/165–166; stem fix; violin crescendo at 77.
+
+## Cycle 96 (v96 → v97), lens 6 playability (Adler ch. 2)
+- Accepted eight string bowing/playability fixes in 1–150 and a harp cue at 119–122.
+- v94 rendered with r07 for Dan (v94/score-r07.mp3, 7:08), from a temp copy without the percussion part cue (r07 perc.py cannot parse \tag inside drum sections).
+
+## Cycle 97 (v97 → v98), lens 7 texture (Adler ch. 11)
+- Accepted: Vln II unison on the countersubject 27–38; F2 counter-melody revoiced 70–73/190–193; horns and Tbn 1 on the F1 head at 103–104; chords mf at 27. Internal to the finale; no other movement affected.
+
+## Cycle 98 (v98 → v99), lens 8 (A&S Unit 21)
+- Accepted: brass ff at 110–113 (reverses c054); dynamics at 95–97, 105, 67–77, 108.
+
+## Cycle 99 (v99 → v100), lens 9 master comparison (Elgar 1/iv)
+- Accepted: bass trombone strike-and-release at 110/112; contrabassoon sounding C1 at 263 and 278.
+
+## Cycle 100 (v100 → v101), lens 10 coherence + release check
+- Accepted: Vln II A♭5→G5 at 222→223; finale.md and BRIEF.md corrected. Relay after cycle 100 sent.
+
+## Cycle 101 (v101 → v102), lens 1 (Rimsky ch. II strings)
+- Accepted: Vln II with Vln I on the scale figure at 263–264. Phrase lengths 151–279 confirmed.
+
+## Cycle 102 (v102 → v103), lens 2 (A&S Units 9–10)
+- Accepted: bass B at 176 (no root ii–V7–i in C minor); 6/4 fourth resolves down at 221; held fourth at 152; Hn 3 Neapolitan at 164.
+
+## Cycle 103 (v103 → v104), lens 3 (A&S Unit 26)
+- Accepted: 183 now V–i6 (not a third deceptive cadence).
+
+- 2026-10-13 21:19: scherzo loop moved to session cse_011uo61BdJV54PsP5ATLYMHU ("Scherzo loops, cycles 80–200"); send scherzo messages there.
+
+## Cycle 104 (v104 → v105), lens 4 orchestration (Rimsky ch. III)
+- Accepted: horns/Tbn mf at 207; Cl ff at 151; Hn 4 A♭3 at 211–212. Rejected Tpt 3 D4 at 221 (would undo cycle 102's 6/4 resolution; the c104 comment in codaTwo.ily describes the rejected version).
+
+## Cycle 105 (v105 → v106), lens 5 engraving (Gould ch. 1 beams)
+- Accepted six engraving fixes (beams, cues before 199, part whole notes, crescendo endings, percussion part settings).
+
+## Cycle 106 (v106 → v107), lens 6 playability (Adler ch. 3)
+- Accepted: viola div. at 211; bass change bow at 217–218. Everything else in 151–223 confirmed playable.
+
+## Cycle 107 (v107 → v108), lens 7 texture (Adler ch. 5)
+- Accepted: Vln II counter-line 159–165; Hn 1 theme-B echo 217–218 (finale.md item 15; movement II is final, no thread to notify); Vln II scale kept 207–208.
+
+## Cycle 108 (v108 → v109), lens 8 dynamics (Rimsky ch. IV)
+- Accepted five dynamic fixes (horn echo a2 at 217–218, staggered crescendo into 223 with brass last, brass re-entry at 199, fade 167–170, Vln II marking at 159).
+
+### Procedure rule (coordinator, 2026-10-13 22:37 UTC)
+The shared-folder mount expires about 24 h after a thread's machine starts and does not come back. At the start of each cycle check `cat /proc/uptime`; past ~22 h, finish and promote the current cycle, send the coordinator a handoff (last promoted version, anything unpromoted, next command), then stop. On any I/O error under /mnt/project-files, do not retry; send the handoff at once.
+
+## Cycle 109 (v109 → v110), lens 9 master comparison (Brahms 2/iv)
+- Accepted: Vln I octaves 159–164; chorale line in Cl 2 at E5 257–264; violas F1 at C4 265–268. finale.md updated.
+
+## Cycle 110 (v110 → v111), lens 10 coherence (A&S Unit 32)
+- Accepted: Hn 2 F♯4 at 219 (respelling carried); held D♭ ff>f at 216–217; finale.md corrected. Relay after cycle 110 sent.
+
+### PAUSED 2026-10-13 23:10 UTC at v111 (Dan: usage limit). Cycle 111 critic stopped early, nothing written. See mvt3/CHECKPOINT.md.

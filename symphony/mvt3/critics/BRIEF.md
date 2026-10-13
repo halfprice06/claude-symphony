@@ -19,7 +19,7 @@ You are one critic in a series of 200 compose–critique–revise cycles on the 
   - Movement I's record (symphony/coherence/themes-mvt1.ly, mvt1.md) takes precedence over cyclic-notes.md. The trumpets' B→C withheld for the finale is B→C on a C-major arrival (movement I already has it into minor tuttis).
   - The owed items sound once each, in this movement only: the soft trumpet solo (51; the trumpets' first melody in the symphony, though the scherzo uses them in tuttis), the C-major arrival with string tremolo and the violins' C7 (219 in v01; 223 since v14), the falling major motto G–E–D–C in full brass, the brass chorale and its last statement, the violins' C-major second-theme head over a C pedal, the brass combination of the theme heads, the hammered tutti in movement I's layout, the horn call in major in the trumpets, the E♭/E♮ thread closed in the violas.
   - The stop chord B–D–F–A♭ resolves to C only at the arrival (218→219 in v01; 222→223 since v14).
-  - No tam-tam. The timpani's first label gives the retuning made in the pause (from the scherzo's E, G♯, B, E).
+  - No tam-tam. The timpani's first label gives the retuning made in the pause (from the scherzo's E, G, B, E).
   - Every F♭ resolves to E♭. Length at least 6 minutes.
 - Orchestra: 2 flutes, 2 oboes, cor anglais, 2 clarinets, bass clarinet, 2 bassoons, contrabassoon, 4 horns, 3 trumpets, 2 trombones, bass trombone, tuba, timpani, cymbals and bass drum (one DrumStaff, `\drummode`: `cymc` crash cymbal, `bd` bass drum), harp, strings.
 - Page cap: the score is 16 A3 pages (v01). Check the page count of the version you review and of your scratch build. A change that adds a page must say why the page is worth it.
