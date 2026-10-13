@@ -38,6 +38,7 @@ The themes are free to evolve under the critics. symphony/coherence/themes-scher
 - v31 (cycle 30): horn call unresolved. Old G♯4 (1–2), G♯3, E4, D♯4, E4. New G♯4 (1–2), G♯3, E4, D♯4 held 5–6, rest at 7 (the finale owns the resolution). Record refreshed; finale told.
 - v32 (cycle 31): second idea, bars 4 and 8 of each statement. Old minim + crotchet (d'''2 / e'''2 tied pattern). New dotted crotchet + quaver (G: d'''4. e'''8, e'''4. d'''8; E minor: b''4. d'''8, b''4. cis'''8). Record refreshed; finale told.
 - v44: the coda statement of the trio tune (Vln I/Fl 1 349–356, Vln II an octave lower) changes its cadence. Old 353–356: gis''4 b'' e''' | dis'''2 fis'''4 | e'''2.~ | e'''2 r4. New: gis''4 b'' e''' | gis'''2 fis'''8 e''' | dis'''2 fis'''4 | e'''2 r4. Record line now checks 349–353 only. Finale told (it does not quote the trio tune; motto tail 357–360 and last G♯ unchanged).
+- v62 (cycle 61): trio tune cadence, bars 13–15 of every full statement (165–167, 181–183, 221–223). Old gis'4 b'4 e''4 | dis''2 fis''4 | e''2. New gis'4 b'4 e''4~ | e''4 dis''4 fis''4 | e''2. Coda 354–355 likewise: gis'''2 fis'''8 e'''~ | e'''4 dis''' fis'''. Record refreshed; finale told.
 
 ## Cycle 4 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v04 → v05
 All 8 findings accepted (reasons in v05/critique.md): horn chords split and tutti balance 105–120/309–324 with Vln II on the theme; harp RH out of the trio off-beats 169–184/209–224; F-major episode thinned (Cl rests, harp chord to LH); Hn 2 lower in the second idea 45–56; Hn 1·2 thirds/sixths 209–224; violas pizz. 257–276; 87–88 doubling; tuba E1 at 341–343. Themes unchanged. Keep: harp alone with the theme head at 73–80; no plucked off-beats doubled by bowed ones.
@@ -135,6 +136,51 @@ All 4 accepted (v35/critique.md): low brass rest at 336–338 and return on 339;
 
 ## Cycle 35 (lens 5 engraving, Gould PDF 53–68) v35 → v36
 Findings 1–7 accepted (v36/critique.md): solo labels on shared staves, aligned hairpins, bassoon solo at 73, oboe unison at 44/276, collision fixes at 369–376, double bar at P. 8 rejected (centring held notes in narrow bars).
+
+## Cycle 67 (lens 7 texture, Sebesky ch. 3) v67 → v68
+All 3 accepted (v68/critique.md): Vln II lower octave at 113–120; flutes mf over the violins at 45 and 209; Bsn 1 rests in the sub. p second idea. v67 rendered with r04 for Dan (v67/score-r04.mp3).
+
+## Cycle 66 (lens 6 playability, Adler App. A) v66 → v67
+All 3 accepted (v67/critique.md): Hn 1 lower in the tuttis 105–120/305–320 (Hn 3 in the middle); bassoon rests at 112, 312 and 208.
+
+## Cycle 65 (lens 5 engraving, Gould) v65 → v66
+3 of 4 applied (v66/critique.md): flute part-combine clean-up 105–108, 305–308, 316; harp clef at 351; Hn 4 breath placement. Rejected: removing Fl 2/Cl 2 G♯ at 209 (keeps c050's completed motto tail). Do-not-touch: Fl 2/Cl 2 G♯ at 209.
+
+## Cycle 64 (lens 4 orchestration, Adler ch. 11) v64 → v65
+All 3 accepted (v65/critique.md): trumpet motive x pitches fitted to the harmony at 113/115/119 and 313/315/319; tuba E1 at 339.
+
+## Cycle 63 (lens 3 form, Adler ch. 15, 17) v63 → v64
+Accepted (v64/critique.md): sub. p at 121 with Fl 1/Ob 1 joining at 125 and a crescendo to f at 129, so 101–132 is no longer one loud block (closes c059's open point). Not a theme change (record lines moved).
+
+## Cycle 62 (lens 2 harmony, Aldwell & Schachter 28–29) v62 → v63
+Accepted (v63/critique.md): French sixth at retransition 244 (no German sixth anywhere: it contains C–E–G).
+
+## Cycle 61 (lens 1 melody, Aldwell & Schachter Unit 21) v61 → v62
+Both accepted (v62/critique.md): theme change, the trio tune's cadence becomes a 4–3 suspension (all statements and the coda); 7/6–5 suspension in the violins at 195–196.
+
+## Cycle 60 (lens 10 cyclic, Sebesky ch. 9) v60 → v61
+Accepted (v61/critique.md): Hn 2 rests under the motto tail 357–360. Documents: scherzo.md D♯4 wording corrected; themes-scherzo.md notes that the trio tune and second idea derive from the horn call; finale told both.
+
+## Cycle 59 (lens 9 holistic, Beethoven 3/iii; Adler part 1 examples) v59 → v60
+Accepted (v60/critique.md): duplicate rehearsal letters/tempo marks removed (brass marks on the Horns 1·2 staff). Recorded but not changed: four loud arrivals before the trio (41, 72, 104, 121) against Beethoven's long pp; a later form or holistic critic may weigh it again.
+
+## Cycle 58 (lens 8 expression, Sebesky ch. 6) v58 → v59
+All 3 accepted (v59/critique.md): swells in the second idea's melody 45–52, 121–128; accompaniment pp under the motto tail at 357–360; character words at 73, 185, 189, 269.
+
+## Cycle 57 (lens 7 texture, Sebesky ch. 1) v57 → v58
+All 3 accepted (v58/critique.md): thinner middle in the tutti theme A (105–120, 305–320); Vln II lower at 95; reprise bass F♯ at 313 (iiø7).
+
+## Cycle 56 (lens 6 playability, Adler ch. 12, 14) v56 → v57
+All 3 accepted (v57/critique.md): timpani f in the tuttis at 105 and 305; rolls tied; ff on the downbeat at 104 and 304.
+
+## Cycle 55 (lens 5 engraving, Adler ch. 18) v55 → v56
+5 of 6 applied (v56/critique.md): tempo/letters above the brass; soft sticks at 146; missing dynamics at 37, 168, 361. Kept B6 at 336 without 8va.
+
+## Cycle 54 (lens 4 orchestration, Adler ch. 8) v54 → v55
+Both accepted (v55/critique.md): Fl 1 unison with Ob 1 at 29–34 (no early A6); Hn 2 enters on beat 2 at 212.
+
+## Cycle 53 (lens 3 form, Aldwell & Schachter Unit 18) v53 → v54
+Accepted (v54/critique.md): pizzicato iv6 bass at retransition 244 (bass A–C–B into V). Large form again judged sound; no change.
 
 ## Cycle 52 (lens 2 harmony, Aldwell & Schachter 24–25) v52 → v53
 All 3 accepted (v53/critique.md): reprise 273–276 D7 → V6/5 → i instead of a five-bar B7; sevenths resolved in register at 104/304 (Fl 1 G5) and 44 (Cl 2 B3). Open: leading tones doubled in outer voices at 49, 51 (would need the c032 sequence rewritten).

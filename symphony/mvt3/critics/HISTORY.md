@@ -325,3 +325,63 @@ Cycle N reviews vNN and produces v(N+1). Each entry: Accepted, Rejected (with re
 ## Cycle 72 (v72 → v73), lens 2 harmony, A&S Units 30–31
 - Accepted: B.tbn rests 247–254; Tpt 1·2 unison 262–264 with Tpt 3 on E; trumpet F1 start at 271; Hn 3 at 251; Tbn 1 at 163.
 - Do-not-touch: lament 107–110; plagal close 227–234; C–A♭–E key cycle.
+
+## Cycle 73 (v73 → v74), lens 3 form, A&S Units 6–8
+- Accepted: F2 recap major statement in A♭ (187–197) instead of C; retransition bass to G at 147–150; no meno mosso at 171.
+- Rule now holds inside the finale too: no C-major key area before 223.
+- For the cycle-80 relay: F2's key at 187 changed (C → A♭).
+
+## Cycle 74 (v74 → v75), lens 4 orchestration, Adler ch. 5
+- Accepted: violins in unison on F2 at 187–196 with violas and Hn 1 below; Cl 1 rests 171–180; Hn 3 C4 at 257–258.
+
+### Dan's note (2026-10-13 13:26 UTC), to apply at the v76 promotion
+Dan: the tempo at R (2 = 100) "sounds kind of silly, comically fast". Decision: R 247 becomes "Più allegro" 2 = 88 (the stringendo at 243–246 already ends at \mt 176 = 2 = 88); allargando 271–272 becomes \mt 164, \mt 152 before Largamente 2 = 72. Apply to the cycle-75 scratch global.ily before promoting v76. Later critics must not raise R above 88 without a strong reason.
+
+## Cycle 75 (v75 → v76), lens 5 engraving (MOLA, parts)
+- Accepted all six: part-only cues before long-rest entries; mute changes in Tpt 1's rests (167, 187); restated dynamics after rests; score-only marks tagged 'score; \global breaks and \mt tagged 'score; new parts book (parts-book.ly, 30 parts).
+- Applied Dan's tempo note: R 247 "Più allegro" 2 = 88 (was Allegro molto 2 = 100); allargando 271–272 \mt 164, 152. Do not raise R above 88.
+- 0 warnings, 16 pages, 36/36 quotations.
+
+## Cycle 76 (v76 → v77), lens 6 playability (Rimsky ch. I)
+- Accepted: Hn 1·2 ff at 243–246; Tpt 1·2 rest 253–254 (Ob 1·2 take the line); Vln I unis./div. at 275/277; MIDI stringendo now reaches 88 at 247.
+- Kept: Cl high E 265–268; Vln II A6 at 252. R stays 88.
+- finale.md updated (R tempo, item 9). 0 warnings, 16 pages, 36/36.
+
+## Cycle 77 (v77 → v78), lens 7 texture (Adler ch. 8)
+- Accepted: Cl 1 an octave higher on the S head 247–254 (pickup G4 at 246). Kept: Hn ff 243–246, trumpet rest 253–254, heads at 250, 265–272 exchange. R stays 88.
+
+## Cycle 78 (v78 → v79), lens 8 dynamics (Adler ch. 7)
+- Accepted: winds/brass release at the end of 264 (quarter rest) before 265; breath marks after 272 in the woodwinds.
+
+## Cycle 79 (v79 → v80), lens 9 master comparison (Eroica; Adler part 2 ch. 16)
+- Accepted: opening scale figure (bars 3–4) returns in C major in the strings at 263–264. Kept: trumpet rest 253–254; slow-coda proportion (cycles 43, 63); R 88.
+
+## Cycle 80 (v80 → v81), lens 10 coherence (A&S Unit 28)
+- Accepted: violas E4 in the 223 arrival chord; Ob 1 D♭→C at 219; record text fixed (iiø6/5, not ♭VI; scherzo v59). No quotation updates needed.
+- Relay to coordinator sent after cycle 80.
+
+## Cycle 81 (v81 → v82), lens 1 (A&S Unit 3)
+- Accepted: violas unison E4 at 223 (F4→E4 step); Hn 4 d2 c2 at 254. finale.md item 2 updated.
+
+## Cycle 82 (v82 → v83), lens 2 (A&S Unit 27)
+- Accepted: Hn 4 E3 at 239; Bn 1 B–F at 245–246; harp C4 at 238. F2 in A♭ at 187 confirmed.
+- Scherzo v62 FYI: trio tune cadence now a 4–3 suspension (not quoted by the finale; no change).
+
+## Cycle 83 (v83 → v84), lens 3 (A&S Unit 15)
+- Accepted: Ob 1 G♯ at 243; iii at 256 (protected 255–263 progression now I6–iii–vi–iiø6/5–Ger6–V7–I; top line unchanged).
+
+## Cycle 84 (v84 → v85), lens 4 orchestration (Casanelles ch. 6)
+- Accepted all six brass fixes at 243–262 (V7 seventh at 262, E-major third at 243, seventh doubling 244–247, iii at 256, Tpt 1·2 f until 255, Tpt 3 C4 at 257).
+
+## Cycle 85 (v85 → v86), lens 5 engraving (Adler ch. 2)
+- Accepted five string-notation fixes (263–264 bowing, viola div. 87/91, cello div. 223/277, viola release 114, violin slur 103–104).
+
+## Cycle 86 (v86 → v87), lens 6 playability (Sebesky ch. 2)
+- Accepted: Tpt 1·2 rest 251–254; Ob 2 rests 265–268; Hn 1 octave lower 265–268; no horn pickups 269/271; final-chord horns doubled (1+3 C5, 2+4 E4).
+
+## Cycle 87 (v87 → v88), lens 7 texture (Rimsky ch. II)
+- Accepted: Cl 2 upper octave 251–254; Cl 2 and Bn 1 double F1 at 265–268. Kept chorale unison 255–262.
+
+## Cycle 88 (v88 → v89), lens 8 dynamics (Adler ch. 10)
+- Accepted: Fl 1 C7 at 263 and Cl 2 up an octave 257–264; strings f at 255 → ff 259; crescendo into 211 aligned; ff print fix at 265; stopped horns at 138. Declined bass drum at 263.
+- v88 rendered with r04 for Dan (v88/score-r04.mp3, 7:11). r04 perc.py cannot parse \tag #'part, \tweak style, or <cymc bd> chords; rendered from a temp copy with those simplified.

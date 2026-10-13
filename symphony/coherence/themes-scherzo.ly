@@ -20,8 +20,8 @@ secondIdeaG = { d'''2 b''4~ | b''4 g'''2 | fis'''2 e'''4~ | e'''4 d'''4. e'''8 |
 % secondIdeaE: v32 VlnOne bars 277-288 (same change)
 secondIdeaE = { b''2 g''4~ | g''4 e'''2 | dis'''2 cis'''4~ | cis'''4 b''4. d'''8 | c'''2 a''4~ | a''4 fis'''2 | e'''2 dis'''4~ | dis'''4 b''4. cis'''8 | b''4 g''4 e''4 | fis''2 dis''4 | fis''4 e''2 | e''4 r2 }
 
-% trioT: v12 ClOne bars 153-167 (since v12 the third phrase peaks on A5 in bar 11)
-trioT = { gis'2 a'4 | b'2 e''4 | dis''4. cis''8 b'4 | a'4 gis'2 | a'2 b'4 | cis''2 fis''4 | e''4. dis''8 cis''4 | ais'4 b'2 | cis''2 dis''4 | e''4 gis''2 | a''4. gis''8 fis''4 | cis''4 b'4 a'4 | gis'4 b'4 e''4 | dis''2 fis''4 | e''2. }
+% trioT: v12 ClOne bars 153-167 (since v12 the third phrase peaks on A5 in bar 11; since v62 the cadence E is tied over into bar 14 and resolves to D sharp on beat 2)
+trioT = { gis'2 a'4 | b'2 e''4 | dis''4. cis''8 b'4 | a'4 gis'2 | a'2 b'4 | cis''2 fis''4 | e''4. dis''8 cis''4 | ais'4 b'2 | cis''2 dis''4 | e''4 gis''2 | a''4. gis''8 fis''4 | cis''4 b'4 a'4 | gis'4 b'4 e''4~ | e''4 dis''4 fis''4 | e''2. }
 % mottoTail: v04 HnOne bars 365-368 (the motto's chromatic tail E flat-D-D flat-C of movement I, on B)
 mottoTail = { b'2. | ais'2. | a'2. | gis'2. }
 
@@ -56,8 +56,8 @@ motiveXrepeated = { b,4 b,8 b,8 b,4 }
 %@ secondIdeaG FluteOne 45
 %@ secondIdeaG OboeOne 45
 %@ secondIdeaE VlnOne 121
-%@ secondIdeaE FluteOne 121
-%@ secondIdeaE OboeOne 121
+%@ secondIdeaE FluteOne 125 15 8
+%@ secondIdeaE OboeOne 125 15 8
 %@ secondIdeaE VlnOne 277
 %@ secondIdeaE FluteOne 285 8 15
 %@ secondIdeaE OboeOne 281 15 8
