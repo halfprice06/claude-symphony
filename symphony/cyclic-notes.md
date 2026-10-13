@@ -463,7 +463,7 @@ Bar numbers changed again: old 269–271 are now 277–279. The finale's quotati
 
 ## Scherzo relay, cycles 21–30 (scherzo/ v31, 376 bars, about 4:35, 13 pages)
 
-- The scherzo quotes movement I's horn call (mvt I 13–14, E♭3–C4–B3) unresolved, as 3–1–7 stopping on D♯. The 7→1 resolution in major is left to the finale (its 243–246).
+- The scherzo quotes movement I's horn call (mvt I 13–14, E♭3–C4–B3) unresolved, as 3–1–7 stopping on D♯. Within that phrase the 7→1 resolution is withheld; the finale states the call resolved in major (its 243–246). (Softened after scherzo v61: later in the scherzo the horns use D♯4→E4 as an ordinary leading tone.)
 - Two 4-bar cuts: the scherzo's motto close is now at 357–360 and its last G♯ at 369–376.
 - The close's B–A♯–A–G♯ tail is anticipated at 205–209.
 
@@ -475,8 +475,14 @@ Bar numbers changed again: old 269–271 are now 277–279. The finale's quotati
 
 ## Scherzo relay, cycles 31–40 (scherzo/ v41, 376 bars, about 4:35)
 
-- The E♭/D♯ → E thread at E4 (movement II's last Cl 2 E♭4, then the scherzo horn call's D♯4) stays open until finale 219–220, where Hn 3 and the violas resolve it. The scherzo's bar-7 clarinets were changed so that nothing resolves it earlier.
+- The E♭/D♯ → E thread at E4 (movement II's last Cl 2 E♭4, then the scherzo horn call's D♯4): the horn call's D♯4 is left unresolved within its own phrase, and the scherzo's bar-7 clarinets were changed so the opening does not resolve it. Later in the scherzo the horns use D♯4→E4 as an ordinary leading tone (correction from scherzo v61), so the thread is not held open for the whole movement. Finale 219–220 (Hn 3 and violas, D♯→E4) is its emphatic resolution at pitch.
 
 ## Finale (movement IV) relay, cycles 61–70 (mvt3/ v71, 279 bars)
 
 - Owed item 6 (fast ff full-brass combination of the two theme heads in C major) is met at finale 247–254: Tbn 1·2 play the first-theme head under the trumpets' second-theme head. This is also where the hammered tutti returns in major.
+
+## Scherzo relay after cycle 60 (scherzo/ v61) and finale v81
+
+- Correction: the horn call's D♯4 is unresolved only within its own phrase; later the scherzo's horns use D♯4→E4 as an ordinary leading tone. The notes on the scherzo relays for cycles 21–30 and 31–40 above were softened to match.
+- The trio tune's head and the scherzo's second idea both derive from the horn call (3–1–7 with the rising sixth).
+- Finale v81: the trombones' movement I first-theme head at 247–254 is now three octaves below the violins (G2–A3).

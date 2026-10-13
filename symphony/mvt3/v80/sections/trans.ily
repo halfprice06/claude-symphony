@@ -1,0 +1,16 @@
+\version "2.24.0"
+% TRANSITION, bars 43-50, over the B flat pedal (V of E flat), p to pp, poco rit. at 49-50.
+% The intro's turn figure (motive x, bars 3-4) passes from flute 1 to clarinet 1 to oboe 1, each time darker:
+% G flat (45) and C flat (47) bring in E flat minor before the second theme (call and response between solo winds over held strings).
+% c052 (harmony; A&S Unit 24, PDF 413-414: neighbours over a held bass return; PDF 439: do not double the 7th): 49-50 violas hold C flat as a 9-8 suspension and fall to B flat on beat 3 of 49 (a direct C flat-B flat with Vln II's G flat-F would be parallel fifths), Vln II F4 (G flat falls back to F), so the V7 of E flat is complete and its 7th is not tripled.
+transFluteOne = { r4 f''8(\p es''8 d''8 c''8 bes'8 a'8 | bes'8 c''8 d''8 es''8 f''4) r4 | R1*6 | }
+transClOne = { R1*2 | r4 bes'8(\p aes'8 ges'8 f'8 es'8 d'8 | es'8 f'8 ges'8 aes'8 bes'4) r4 | R1*4 | }
+transOboeOne = { R1*4 | r4 ges''8(\p f''8 es''8 des''8 ces''8 bes'8 | aes'2 ges'2) | aes'1\pp~ | aes'2. r4 | }
+transBsnOne = { aes1\pp~ | aes1~ | aes1~ | aes1 | aes1~ | aes1 | aes1~ | aes2. r4 | }
+transHnOne = { R1*6 | d'1\pp~ | d'2. r4 | }
+transVlnTwo = { f'1\pp~ | f'1~ | f'1~ | f'1 | ges'1~ | ges'1 | f'1~ | f'2. r4 | }
+transVla = { d'1\pp~ | d'1~ | d'1~ | d'1 | ces'1~ | ces'1~ | ces'2 bes2~ | bes2. r4 | }
+transVc = { bes,1\pp~\cbaw | bes,1~ | bes,1~ | bes,1~ | bes,1~ | bes,1~ | bes,1~ | bes,2. r4 | }
+transCb = { bes,,1\pp~\cbaw | bes,,1~ | bes,,1~ | bes,,1~ | bes,,1~ | bes,,1~ | bes,,1~ | bes,,2. r4 | }
+% c075 (MOLA PDF 5: logical cues in long rests, audible and obvious, in the reading key; Example 4, PDF 10): part-only cue, tag 'part (score.ly removes it from the score); Ob. 1 at 47-48 before the trumpet solo at 51, after 50 bars of rest
+transTptOne = { R1*4 | \tag #'score { R1*2 } \tag #'part { \cueDuring "oboeOne" #UP { R1*2^\markup \tiny "Ob. 1" } } | R1*2 | }
