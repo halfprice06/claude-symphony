@@ -28,6 +28,9 @@ Cycle N reviews vNN and produces v(N+1). Each entry: Accepted, Rejected (with re
 - Accepted: reprise 275–292 now returns the second idea in E minor (no repeat of the move to G); trio middle cut; 7th over B before the trio's return; Vln II arco at 277; Bsn 1 has T's head at 233.
 - Do-not-touch, renumbered: motto tail Hn 1 at 365–368; last G♯ 377–384; B6 only at 344.
 
+## Mount-expiry rule (coordinator, 2026-10-13 22:37 UTC)
+The shared-folder mount seems to expire about 24 hours after a thread's machine starts and does not come back. At the start of every cycle check `uptime -s` / `cat /proc/uptime`; once uptime passes about 22 hours, finish the current cycle, promote it, send the coordinator a handoff (last promoted version, anything unpromoted, next command) and stop. If any /mnt/project-files path gives an I/O error, do not retry for 30 minutes: send the handoff at once.
+
 ## Theme record (2026-10-12; Dan: "I don't want the scherzo themes to be locked")
 The themes are free to evolve under the critics. symphony/coherence/themes-scherzo.ly records the current themes (exact notes and rhythms, and every place each appears); kit/promote.sh runs coherence/themecheck.py, which only reports CHANGED or MOVED statements and never blocks. After a promotion that changes a theme or the ending, the composer refreshes the record from the new version (coherence/makelock.py, then the %@ bar lines), logs it below, and sends the finale thread (cse_01VEPkuwEiufbD2AHMw6eKEa) the old and new notes.
 
@@ -39,6 +42,8 @@ The themes are free to evolve under the critics. symphony/coherence/themes-scher
 - v32 (cycle 31): second idea, bars 4 and 8 of each statement. Old minim + crotchet (d'''2 / e'''2 tied pattern). New dotted crotchet + quaver (G: d'''4. e'''8, e'''4. d'''8; E minor: b''4. d'''8, b''4. cis'''8). Record refreshed; finale told.
 - v44: the coda statement of the trio tune (Vln I/Fl 1 349–356, Vln II an octave lower) changes its cadence. Old 353–356: gis''4 b'' e''' | dis'''2 fis'''4 | e'''2.~ | e'''2 r4. New: gis''4 b'' e''' | gis'''2 fis'''8 e''' | dis'''2 fis'''4 | e'''2 r4. Record line now checks 349–353 only. Finale told (it does not quote the trio tune; motto tail 357–360 and last G♯ unchanged).
 - v62 (cycle 61): trio tune cadence, bars 13–15 of every full statement (165–167, 181–183, 221–223). Old gis'4 b'4 e''4 | dis''2 fis''4 | e''2. New gis'4 b'4 e''4~ | e''4 dis''4 fis''4 | e''2. Coda 354–355 likewise: gis'''2 fis'''8 e'''~ | e'''4 dis''' fis'''. Record refreshed; finale told.
+
+- v82 (cycle 81): trio tune T, bars 10–11 of every full statement (162, 178, 218, 350). Old e''4 gis''2 | a''4. gis''8 fis''4. New e''4 gis''4 a''4~ | a''4. gis''8 fis''4 (the A anticipated and tied). Record refreshed; finale told (it does not quote T).
 
 ## Cycle 4 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v04 → v05
 All 8 findings accepted (reasons in v05/critique.md): horn chords split and tutti balance 105–120/309–324 with Vln II on the theme; harp RH out of the trio off-beats 169–184/209–224; F-major episode thinned (Cl rests, harp chord to LH); Hn 2 lower in the second idea 45–56; Hn 1·2 thirds/sixths 209–224; violas pizz. 257–276; 87–88 doubling; tuba E1 at 341–343. Themes unchanged. Keep: harp alone with the theme head at 73–80; no plucked off-beats doubled by bowed ones.
@@ -136,6 +141,66 @@ All 4 accepted (v35/critique.md): low brass rest at 336–338 and return on 339;
 
 ## Cycle 35 (lens 5 engraving, Gould PDF 53–68) v35 → v36
 Findings 1–7 accepted (v36/critique.md): solo labels on shared staves, aligned hairpins, bassoon solo at 73, oboe unison at 44/276, collision fixes at 369–376, double bar at P. 8 rejected (centring held notes in narrow bars).
+
+## Paused 2026-10-13 ~23:10 UTC (Dan: usage limit)
+Cycle 87's critic stopped before reporting; nothing unpromoted. Resume from v87 with cycle 87 (see ../CHECKPOINT.md).
+
+## Cycle 86 (lens 6 playability, Sebesky ch. 2) v86 → v87
+All 3 accepted (v87/critique.md): cor anglais takes Ob 1's low falling figure at 44/276; Bsn 1 breaths at 116/316 and rest at 300; coda low brass f at 333. Do-not-touch (critic): tutti brass writing (horns on beats 1 and 3, trumpets on motive x, single low-brass downbeats), the trio horn pair 209–224, the closing horn page 357–376.
+
+## Cycle 85 (lens 5 engraving, Adler ch. 2) v85 → v86
+All 6 accepted (v86/critique.md): five beats for every pizz.→arco change (192, 208, 272, 276); violas unis. at 193; hemiola cadences rebowed with louré violas (53, 129, 285); cello bows at 261–268; non div. at 105/305; down-bow at 306 removed. Do-not-touch: the hemiola bowing (one bow per minim unit) unless a critic answers Adler PDF 38–42.
+
+## Cycle 84 (lens 4 orchestration, Casanelles ch. 6) v84 → v85
+Both accepted (v85/critique.md): horns mf and Hn 1 B4 under the second idea at 45–56; Fl 2 a2 with Fl 1 at 197–200. Kept: tutti horn crotchets, unmuted Vln I on the last G♯.
+
+## Cycle 83 (lens 3 form, A&S Unit 15) v83 → v84
+Accepted (v84/critique.md): ♮VII sounded at 330 (Vc A–F♯, Vla F♯–D); plan file marked as v01. Large form unchanged. Do-not-touch (critic): the I–♮VII–III–(IV, ♭II6)–V plan of 13–104, the ♮VII7→V6/5→i turn at 273–277, the F-major episode and its F/A exit 84–89, section proportions.
+
+## Cycle 82 (lens 2 harmony, A&S Unit 27) v82 → v83
+All 4 accepted (v83/critique.md): no sounded 3rd under theme A's 4–3 tail at 119/319 (Hn 2 B3, Tbn 2 B2, Tpt 2 F♯4); complete V♭9 at 126 (Hn 2 E–D♯, Bsn 1 E–F♯); Hn 1 F♯4 at 116/316 beat 1; Hn 1 ♭9 neighbour C5 at 337. Do-not-touch (critic): trio 4–3 cadences, soft ♭9 peaks at 24/264, common-tone ♭9 at 126/282, 9–8 at 200, plagal close 357–360.
+
+## Cycle 81 (lens 1 melody, A&S Unit 3) v81 → v82
+Accepted (v82/critique.md): T's climax A anticipated on beat 3 and tied over the bar line at 162, 178, 218, 350 (theme change, logged above). Closes cycle 1's open point on the third phrase's rhythm. Do-not-touch: the tied A in T's third phrase; T's 4–3 cadence.
+
+## Cycle 80 (lens 10 cyclic, A&S Unit 28) v80 → v81
+Accepted (v81/critique.md): bar 331 iv6 → Neapolitan 6/4 C–F–A (Vln II, Vc, Cl 1, Hn 3 E→F; violas C4; Cl 1/Hn 3 F→D♯). No theme change; finale told for information. Do-not-touch: the F-major episode and harp head 73–88 (link to the finale's IV); the ♭II at 331 (c062's augmented-sixth objection does not apply: no A♯ added).
+
+## Cycle 79 (lens 9 holistic, Mendelssohn MND Scherzo; Adler ch. 16) v79 → v80
+Accepted (v80/critique.md): oboes lower at 72 and 300. No regressions since v69. c059's loud-arrivals point closed (no change).
+
+## Cycle 78 (lens 8 expression, Adler ch. 7) v78 → v79
+All 4 accepted (v79/critique.md): wind phrase slurs at 209–224 and 345–348; flutes a2 in the upper octave of the tuttis; Ob 1 mf at 45; violas ppp under Bsn 1 at 345.
+
+## Cycle 77 (lens 7 texture, Adler ch. 8) v77 → v78
+All 3 accepted (v78/critique.md): oboe takes the second head entry at 92; Bsn 1 countermelody under the coda's tune at 345–348; timpani alone at 135.
+
+## Cycle 76 (lens 6 playability, Rimsky-Korsakov ch. I) v76 → v77
+All 6 accepted (v77/critique.md): horns a degree louder at 101/105/301/305; "sul A" shortened; Fl 1 breath at 44; harp non arpegg., harmonics split, coda pedal setting at 333.
+
+## Cycle 75 (lens 5 engraving, MOLA on parts) v75 → v76
+All 5 accepted (v76/critique.md): instrumental parts created (29 PDFs, cues, page turns, fermatas); Bsn 2 hairpin at 203–204. promote.sh rebuilds parts each promotion. v75 rendered with r07 for Dan (v75/score-r07.mp3).
+
+## Cycle 74 (lens 4 orchestration, Adler ch. 5) v74 → v75
+All 3 accepted (v75/critique.md): contrabassoon rests 121–124/277–280; Fl 1 rests 177–184 (strings alone for the first string statement); Cl 2 A3 at 331.
+
+## Cycle 73 (lens 3 form, Aldwell & Schachter 6–8) v73 → v74
+Both accepted (v74/critique.md): dominant of A at the reprise fugato seam 296 (the viola entry's fourth bar changes; theme A itself does not, so the finale was not told); plain V at theme A's soft half cadences.
+
+## Cycle 72 (lens 2 harmony, Aldwell & Schachter 30–31) v72 → v73
+Accepted: A♯°7 at 88. Rejected: B–D–F–G♯ at 101–102/301–302 (the finale's stop chord; BRIEF.md clarified: reserved in any spelling and role). Do-not-touch: no B–D–F–G♯/A♭ chord anywhere in the scherzo.
+
+## Cycle 71 (lens 1 orchestration of melody, Adler ch. 11) v71 → v72
+Both accepted (v72/critique.md): horn and cellos carry the second idea in the tenor at 281–287; violas join the falling line at the fff peak 336–338.
+
+## Cycle 70 (lens 10 cyclic, Aldwell & Schachter Unit 23) v70 → v71
+Accepted (v71/critique.md): Vln I C5→B4 at 202–203. Documents: harp E4 at 375 noted as the E4 the finale's E♭4 answers; stale mvt I/II records reported to the coordinator. Do-not-touch: Vln II G4–E4 at 358–359.
+
+## Cycle 69 (lens 9 holistic, Tchaikovsky 4/iii; Adler part 2 examples) v69 → v70
+Both accepted (v70/critique.md): Fl 1 enters at 217 in the trio return (record moved, not a theme change); Vln I mp at 253. No regressions since v59.
+
+## Cycle 68 (lens 8 expression, MOLA) v68 → v69
+All 3 accepted (v69/critique.md): low strings pp at 349; wind phrase slurs on the trio tune; "espress." spelled one way.
 
 ## Cycle 67 (lens 7 texture, Sebesky ch. 3) v67 → v68
 All 3 accepted (v68/critique.md): Vln II lower octave at 113–120; flutes mf over the violins at 45 and 209; Bsn 1 rests in the sub. p second idea. v67 rendered with r04 for Dan (v67/score-r04.mp3).

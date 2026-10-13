@@ -14,7 +14,7 @@ You are one critic in a series of 200 compose–critique–revise cycles on the 
 - Material shared between movements: /mnt/project-files/symphony/cyclic-notes.md. Read its section "Four movements (Dan, 2026-10-12): plan for the scherzo" first. Rules from it that bind this movement:
   - No C major anywhere (no C-major key, no C-major triad); C major belongs to the finale's arrival.
   - Trumpets only in tutti rhythm or fanfare figures; no trumpet melody.
-  - Kept for the finale, not used here: string tremolo, the violins' C7, the trumpets' B→C, the stop chord B–D–F–A♭ resolving to C, the falling major motto in full brass, the brass chorale, the violins' C-major second theme, the combined heads, the hammered tutti in major, a tuba melody, a high horn unison, a full low-brass unison bass, cymbals.
+  - Kept for the finale, not used here: string tremolo, the violins' C7, the trumpets' B→C, the stop chord B–D–F–A♭ (in any spelling, including B–D–F–G♯, and in any role: no common-tone or other use of this diminished seventh anywhere in the scherzo), the falling major motto in full brass, the brass chorale, the violins' C-major second theme, the combined heads, the hammered tutti in major, a tuba melody, a high horn unison, a full low-brass unison bass, cymbals.
   - Violin peak at most B6 (the finale reaches C7).
   - Quote the motto (its chromatic tail, the horn call), do not develop it. New themes do not open with a rising sixth.
   - Hn 3·4 "senza sord." at their first entry; the timpani's first label gives the retuning made in the pause after movement II.

@@ -53,7 +53,7 @@ mvtOneRisingSixthChain = { \time 4/4 r2. g'4 | es''2. aes'4 | f''2 b'4 aes''4~ |
 % id: horn-call
 % source: mvt1 v221 bars 13–14, Horn 1 alone (undoubled), mp > p, over the dominant (G pedal); the B3 is left unresolved
 % key/mode: C minor, scale degrees b3 – 1 – 7 (Eb3 – C4 – B3)
-% use: scherzo bars 3–7 Hn 1 G#–E–D#–E (3–1–7–1 in E major); finale: major form E–C–B→C in the trumpets with horns below (finale 243–246)
+% use: Scherzo Hn 1 3–6 (G#3–E4–D#4, the 7 held and unresolved, as in movement I; no E4 at 7–8); finale: major form E–C–B→C in the trumpets with horns below (finale 243–246)
 % invariant: scale degrees 3 – 1 (rising sixth) – 7, mode free (b3 or 3), may add the resolution to 1; transposable; rhythm free
 mvtOneHornCall = { \time 4/4 r4 es4 c'2~ | c'4 b2 r4 }
 
@@ -126,7 +126,7 @@ mvtOneMottoHalfAug = { \time 4/4 g4 es'2 d'4 | des'4 c'2. }
 % id: motto-tail
 % source: mvt1 v221 bars 2–3, bass clarinet (and cellos) at Eb3, pp. In bars 2–3 the order is Eb3–D3–C3–Db3–C3; the bare tail Eb–D–Db–C occurs in movement I in the motto's second form (118–121) and in Vln I's D6–Db6–C6 at 156–157
 % key/mode: C minor (in Ab major: 5 – #4 – 4 – 3)
-% use: II builds on it (II 32–34 B.cl at Eb3; II coda 85–89 Cl 1); scherzo theme A G–F#–F–E and Hn 1 B–A#–A–G# (365–368); the Eb3 bass-clarinet register has been used twice and must not be used a third time
+% use: II builds on it (II 32–34 B.cl at Eb3; II coda 85–89 Cl 1); scherzo theme A G–F#–F–E and Hn 1 357–360 (B–A#–A–G#); the Eb3 bass-clarinet register has been used twice and must not be used a third time
 % invariant: pitch-class sequence Eb D Db C (falling semitones from b3 to 1; the passing return to C before Db may be included), transposable, rhythm free
 mvtOneMottoTail = { \time 4/4 es2.~ es8 d8 | c2 des4 c4 }
 

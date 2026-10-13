@@ -21,7 +21,7 @@ secondIdeaG = { d'''2 b''4~ | b''4 g'''2 | fis'''2 e'''4~ | e'''4 d'''4. e'''8 |
 secondIdeaE = { b''2 g''4~ | g''4 e'''2 | dis'''2 cis'''4~ | cis'''4 b''4. d'''8 | c'''2 a''4~ | a''4 fis'''2 | e'''2 dis'''4~ | dis'''4 b''4. cis'''8 | b''4 g''4 e''4 | fis''2 dis''4 | fis''4 e''2 | e''4 r2 }
 
 % trioT: v12 ClOne bars 153-167 (since v12 the third phrase peaks on A5 in bar 11; since v62 the cadence E is tied over into bar 14 and resolves to D sharp on beat 2)
-trioT = { gis'2 a'4 | b'2 e''4 | dis''4. cis''8 b'4 | a'4 gis'2 | a'2 b'4 | cis''2 fis''4 | e''4. dis''8 cis''4 | ais'4 b'2 | cis''2 dis''4 | e''4 gis''2 | a''4. gis''8 fis''4 | cis''4 b'4 a'4 | gis'4 b'4 e''4~ | e''4 dis''4 fis''4 | e''2. }
+trioT = { gis'2 a'4 | b'2 e''4 | dis''4. cis''8 b'4 | a'4 gis'2 | a'2 b'4 | cis''2 fis''4 | e''4. dis''8 cis''4 | ais'4 b'2 | cis''2 dis''4 | e''4 gis''4 a''4~ | a''4. gis''8 fis''4 | cis''4 b'4 a'4 | gis'4 b'4 e''4~ | e''4 dis''4 fis''4 | e''2. }
 % mottoTail: v04 HnOne bars 365-368 (the motto's chromatic tail E flat-D-D flat-C of movement I, on B)
 mottoTail = { b'2. | ais'2. | a'2. | gis'2. }
 
@@ -47,7 +47,8 @@ motiveXrepeated = { b,4 b,8 b,8 b,4 }
 %@ themeA VlnTwo 65 14
 %@ themeA VlnOne 95 8
 %@ themeA Vc 289 14
-%@ themeA Vla 293 14
+%@ themeA Vla 293 11
+% (since v74 the reprise fugato entry's fourth bar, 296, turns to the dominant of A: E4–B3–G♯3 instead of E4–C♯4–A3; bars 293–295 checked)
 % retransition entries (first 8 notes = bars 1-2)
 %@ themeA Vla 89 8
 %@ themeA Vla 241 8
@@ -67,7 +68,7 @@ motiveXrepeated = { b,4 b,8 b,8 b,4 }
 %@ trioT Vla 197 9
 %@ trioT ClOne 209
 %@ trioT VlnOne 209
-%@ trioT FluteOne 209
+%@ trioT FluteOne 217 16 19
 % coda: T shared out, bars 1-4 Hn 1, bars 5-8 Cl 1, bars 9-16 Vln I
 %@ trioT HnOne 341 9
 %@ trioT OboeOne 345 9 10

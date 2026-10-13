@@ -1,5 +1,7 @@
 # Scherzo plan (movement III of four): Allegro vivace in E minor, trio in E major
 
+> Note (cycle 83, 2026-10-13): this plan describes v01 (392 bars, about 4:54, B6 at 352, motto tail 373–376). The current bar map, length (376 bars, about 4:36), B6 at 336, motto tail 357–360 and coda bass E–D–C–B are in symphony/coherence/scherzo.md and critics/HISTORY.md; use those.
+
 Written 2026-10-12 for draft v01, after Dan's decision to make the symphony a four-movement work (I C minor – II A♭ – III Scherzo E – IV Finale C minor → C major). Sources: cyclic-notes.md, sections "Four movements (Dan, 2026-10-12): plan for the scherzo" and "Start here for movement III" (that section now means the finale), mvt1/v221, mvt2 (latest), mvt3/v26 (the finale, paused).
 
 Models: Dvořák 9/iii (Molto vivace, E minor, with a gentler trio), Beethoven 9/ii (scherzo with motivic timpani), Bruckner and Brahms scherzi (hemiola), Eroica iii and Dvořák 8/iii (soft trio).
