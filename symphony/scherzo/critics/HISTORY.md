@@ -156,6 +156,9 @@ v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 1
 ## Batch checkpoint after cycle 116 (2026-10-16)
 v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle 117 reviews v117 (lens 7 texture).
 
+## Cycle 124 (lens 4 orchestration, Adler ch. 15 second pass) v124 → v125
+All 3 accepted (v125/critique.md): staff-level MIDI dynamics (shared staves now play as printed); brass downbeats tenuto in the tutti theme; flutes rest 105–108/305–308 and enter high at 109/309. Do-not-touch: Dynamic_performer at Staff level in \midi; tenuto (not accent) brass downbeats in the tutti theme.
+
 ## Cycle 123 (lens 3 form, Rimsky-Korsakov ch. IV) v123 → v124
 Accepted (v124/critique.md): diminuendo of the held chord 362–364. Rejected: ff-attack low-brass re-entry at 333 (Dan's rule: soft brass accents, weight not bite). Do-not-touch: low brass f at 333 (c086); no ff/sfz attacks on brass re-entries.
 

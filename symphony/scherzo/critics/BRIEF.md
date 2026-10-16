@@ -6,6 +6,7 @@ You are one critic in a series of 200 compose–critique–revise cycles on the 
 - A full orchestral score of a neo-Romantic symphony that would be indistinguishable from the work of a modern master composer.
 - Equal weight on beauty: melodies that stick, and that might stay with a listener for a lifetime.
 - Models: Brahms, Tchaikovsky, Dvořák, Rachmaninoff, Elgar, with late-Romantic orchestration. For this movement the main models are Dvořák 9/iii (E minor scherzo), Beethoven 9/ii (motivic timpani), the hemiola scherzi of Brahms and Bruckner, and the soft trios of the Eroica and Dvořák 8.
+- Dan's listening note (movement II mockup, 2026-10-12): keep brass accents soft, weight rather than bite. Do not propose ff, sfz or accented attacks on brass entries; brass entries are shaped by dynamics and doubling instead (c123).
 - Dan makes no musical choices. Do not leave anything "for the composer to decide" or "for Dan": decide every optional point yourself and say what you decided.
 
 ## The work
