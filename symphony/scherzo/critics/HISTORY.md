@@ -159,6 +159,11 @@ v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 126 (2026-10-16)
 v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle 127 reviews v127 (lens 7 texture).
 
+## Cycle 130 (lens 10 cyclic, Casanelles ch. 5, second pass) v130 → v131
+- Accepted: 375 harp harmonics play at sounding pitch and p in the MIDI (\harmOct); coherence file brought to v131 / finale v154.
+- Rejected: changes to the soft held Vln I ending, the Hn 1 + Hn 3 G♯4 overlap at 365–369, and the 339 brass diminuendo (reasons in c130.md).
+- Do-not-touch: joins into and out of the movement; closing page 357–376.
+
 ## Cycle 129 (lens 9 holistic, Rimsky-Korsakov examples 126–200, second pass; Beethoven 7/iii) v129 → v130
 - Accepted: trio register clashes removed at 193 (Cl 1), 209 (Hn 2), 219 (Bsn 2).
 - Rejected/kept: slower trio tempo (proportions); ff trio tutti and trumpet pedal (cyclic rules).
