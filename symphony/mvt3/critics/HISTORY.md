@@ -515,3 +515,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 123 (v123 → v124), lens 3 form (Rimsky ch. IV)
 - Accepted: 268 Fl/Vln I fill E-D-C-B into 269; 265-272 bass/brass foundation f then cresc. 269-271 (no eight-bar flat ff); tuba ff at 247.
 - Confirmed: coda length; A6 at 272 as the close's top note (C7 stays reserved for 223).
+
+## Cycle 124 (v124 → v125), lens 4 orchestration (Adler ch. 15)
+- Accepted: Tbn 1-2 rest 269-270, ff at 271; timpani C (not G) at 272 under IV6/4.
+- Do-not-touch: cellos mf on F2's counter 187-198 (confirmed twice, c121/c124).
