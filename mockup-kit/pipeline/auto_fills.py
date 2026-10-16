@@ -35,6 +35,10 @@ import soundfile as sf
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TRACKS = ["Flute 1", "Oboe 1", "Cor anglais", "Clarinet 1", "Bass clarinet", "Horn 1", "Violin I solo", "Violoncellos"]
 RAISE_TRACKS = ["Flute 1", "Oboe 1", "Cor anglais", "Clarinet 1", "Bass clarinet", "Horn 1"]
+# the lead-line tracks are score-specific: build/auto_fills.json {"tracks": [...], "raise": [...]} replaces the lists above
+if os.path.exists(f"{ROOT}/build/auto_fills.json"):
+    _af = json.load(open(f"{ROOT}/build/auto_fills.json"))
+    TRACKS, RAISE_TRACKS = _af.get("tracks", TRACKS), _af.get("raise", RAISE_TRACKS)
 HOP, WIN = 0.005, 0.030
 MIN_DIP = 5.0
 WIN_TRACK = {"Flute 1": 0.200, "Oboe 1": 0.200, "Cor anglais": 0.200}   # c17 (A #2a)
@@ -60,6 +64,11 @@ def q2s(q):
             break
         t += (tq - lq) * 60 / lb; lq, lb = tq, b
     return t + (q - lq) * 60 / lb
+
+
+# mvt1 c03: renders c00-c02 sound 1/6 qn early on the parts.json map (tools/rendermap.py, build/render_shift.json)
+import rendermap
+q2s = rendermap.wrap(q2s, cyc)
 
 
 _AUDIO = {}

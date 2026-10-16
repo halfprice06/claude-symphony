@@ -33,6 +33,11 @@ def qn_to_sec(q):
     return t + (q - lq) * 60 / lb
 
 
+# mvt1 c03: renders c00-c02 sound 1/6 qn early on the parts.json map (tools/rendermap.py)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import rendermap
+qn_to_sec = rendermap.wrap(qn_to_sec, rendermap.cycle_of(RENDER))
+
 bars, q, sig = [], 0.0, sorted(d["timesig"])
 while q < d["end_qn"] - 1e-6:
     num, den = [(n, dd) for sq, n, dd in sig if sq <= q + 1e-6][-1]

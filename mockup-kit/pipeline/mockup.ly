@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.26.0"
 \language "nederlands"
 % REAPER mockup extraction: one staff per player, MIDI + an event dump (articulations, text, dynamics, hairpins, slurs, tremolos).
 \include "score-defs.ily"
@@ -24,7 +24,10 @@
   (lambda (ctx)
    (make-engraver
     (listeners
-     ((note-event eng e) (let ((p (ly:event-property e 'pitch)))
+     ((note-event eng e) (let ((p (ly:event-property e 'pitch)) (dt (ly:event-property e 'drum-type)))
+                       (if (symbol? dt)
+                           (mock-line ctx "drum" dt
+                                      (exact->inexact (* 4 (ly:moment-main (ly:duration->moment (ly:event-property e 'duration)))))))
                        (if (ly:pitch? p)
                            (mock-line ctx "note" (+ 60 (ly:pitch-semitones p))
                                       (exact->inexact (* 4 (ly:moment-main (ly:duration->moment (ly:event-property e 'duration)))))))))
@@ -49,11 +52,13 @@ pl = #(define-music-function (name m) (string? ly:music?)
     \pl "Fl1" \fluteOne  \pl "Fl2" \fluteTwo  \pl "Ob1" \oboeOne  \pl "Ob2" \oboeTwo  \pl "CA" \corAnglais
     \pl "Cl1" \clOne  \pl "Cl2" \clTwo  \pl "BCl" \bassCl  \pl "Bn1" \bsnOne  \pl "Bn2" \bsnTwo  \pl "Cbn" \cbsn
     \pl "Hn1" \hnOne  \pl "Hn2" \hnTwo  \pl "Hn3" \hnThree  \pl "Hn4" \hnFour
+    \pl "Tpt1" \tptOne  \pl "Tpt2" \tptTwo  \pl "Tpt3" \tptThree
     \pl "Tbn1" \tbnOne  \pl "Tbn2" \tbnTwo  \pl "BTbn" \bassTbn  \pl "Tuba" \tuba  \pl "Timp" \timp
+    \new DrumStaff \with { instrumentName = "Perc" } << \global \perc >>
     \new PianoStaff \with { instrumentName = "Harp" } << \pl "HarpR" \harpR \pl "HarpL" \harpL >>
     \pl "VlnI" \vlnOne  \pl "VlnII" \vlnTwo  \pl "Vla" \vla  \pl "Vc" \vc  \pl "Cb" \cb
   >>
-  \layout { \context { \Voice \consists #mock-engraver } }
+  \layout { \context { \Voice \consists #mock-engraver } \context { \DrumVoice \consists #mock-engraver } }
   \midi { \context { \Score midiChannelMapping = #'staff
     dynamicAbsoluteVolumeFunction = #(lambda (d) (if (string? d)
       (assoc-get d '(("ppp" . 0.25) ("pp" . 0.33) ("p" . 0.42) ("mp" . 0.5) ("mf" . 0.58) ("f" . 0.66) ("ff" . 0.72) ("fff" . 1.0) ("sf" . 0.66) ("fp" . 0.42)) #f)

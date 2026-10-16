@@ -1,4 +1,4 @@
-"""Build the movement II mockup in a running REAPER through the file bridge (~/.rpr-bridge).
+"""Build a score mockup (parts.json from score_to_parts.py) in a running REAPER through the file bridge (~/.rpr-bridge).
 
 Usage: python build_reaper.py <parts.json> <jobs-dir> [--mix-only] [track names...]
   c02: each track also gets a volume envelope (mix.json gain_db + parts.json vol_db + mix.json
@@ -42,7 +42,7 @@ def mix_for(name):
         t.setdefault(k, v)
     return t
 
-COLORS = {"wind": (90, 160, 90), "brass": (210, 170, 60), "timp": (150, 110, 80), "harp": (170, 120, 200), "harm": (170, 120, 200), "string": (70, 110, 200)}
+COLORS = {"perc": (160, 140, 100), "wind": (90, 160, 90), "brass": (210, 170, 60), "timp": (150, 110, 80), "harp": (170, 120, 200), "harm": (170, 120, 200), "string": (70, 110, 200)}
 
 
 def run(path, timeout=300):
@@ -61,7 +61,11 @@ def tempo_job():
     pts, t, last_q, last_bpm = [], 0.0, 0.0, None
     sig = {q: (n, dd) for q, n, dd in d["timesig"]}
     if PRE:
-        pts.append({"t": 0.0, "bpm": PRE_BPM, "num": sig.get(0.0, (3, 4))[0], "den": sig.get(0.0, (3, 4))[1], "qn": 0.0})
+        # mvt1 c03 (critic C #4, ONE_TIME): the pre-roll marker gets its own meter (PRE quarter notes = one bar). It had
+        # the score's 4/4, so the 3 qn pre-roll was an incomplete bar and REAPER moved the score's first marker from 3.0 s
+        # to the next barline (4.0 s): every event from score qn 1 on sounded 1/6 qn early (c00-c02, the "envelope lead")
+        pn = int(round(PRE)) if abs(PRE - round(PRE)) < 1e-9 and 1 <= round(PRE) <= 16 else 4
+        pts.append({"t": 0.0, "bpm": PRE_BPM, "num": pn, "den": 4, "qn": 0.0})
         t = PRE * 60.0 / PRE_BPM
     for q, bpm in d["tempo"]:
         if last_bpm is not None:
@@ -89,7 +93,11 @@ return {{ markers = reaper.CountTempoTimeSigMarkers(0), mismatches = bad,
 """
     p = f"{JOBS}/00_tempo.lua"
     open(p, "w").write(lua)
-    return run(p)
+    res = run(p)
+    # mvt1 c03: any marker REAPER placed off its intended qn shifts every later event; stop the build
+    if res and res.get("mismatches"):
+        sys.exit(f"tempo map: {len(res['mismatches'])} markers off their qn, first {res['mismatches'][:3]}")
+    return res
 
 
 _REVERB = None
@@ -207,7 +215,8 @@ def state_for(tr):
     return opus_state.build(perf)
 
 
-TAIL_HOLD_MIN_S, TAIL_HOLD_LEAD_S, TAIL_HOLD_STOP_QN = 0.5, 0.35, 303.5   # c17 (C #2), see vol_points
+# c17 (C #2), see vol_points; the final fade starts 0.5 qn before the score's last release (parts.json score_end)
+TAIL_HOLD_MIN_S, TAIL_HOLD_LEAD_S, TAIL_HOLD_STOP_QN = 0.5, 0.35, d.get("score_end", d["end_qn"]) - 0.5
 
 
 def q2s(q):
@@ -252,6 +261,9 @@ def vol_points(tr):
     soft = m.get("soft_trim_db", soft)   # c03: per-track override (Violas pp 0)
     # c06 (B #2): a "p" anchor at CC 46 (0 when absent, as before)
     tbl = [(22, soft.get("ppp", 0)), (34, soft.get("pp", 0)), (46, soft.get("p", 0)), (88, dt["f"]), (114, dt["ff"]), (127, dt["ff"])]
+    # mvt1 c02 (critic B #5): optional "mp" (CC 58) and "mf" (CC 72) anchors. The taper from the p anchor (+5) to a
+    # negative f trim cancelled CC11's growth from p to mf (Flute 1 medians pp -44.8 / p -44.1 / mp -44.8 / mf -44.4 dB)
+    tbl = sorted(tbl + [(c_, soft[k_]) for k_, c_ in (("mp", 58), ("mf", 72)) if k_ in soft])
 
     def trim(cc):
         if cc <= tbl[0][0]:
@@ -515,7 +527,7 @@ def item_lua(tr):
 local endqn = {d['end_qn'] + 6 + PRE}
 local item = reaper.CreateNewMIDIItemInProj(tr, 0, endqn, true)
 local take = reaper.GetActiveTake(item)
-reaper.GetSetMediaItemTakeInfo_String(take, "P_NAME", name .. " (mvt II v77)", true)
+reaper.GetSetMediaItemTakeInfo_String(take, "P_NAME", name .. " ({d.get('title', 'mockup')})", true)
 local ppq = function(q) return reaper.MIDI_GetPPQPosFromProjQN(take, q) end
 for _, n in ipairs({notes}) do
   reaper.MIDI_InsertNote(take, false, false, ppq(n.qn), ppq(n.qn + n.dur), 0, n.pitch, n.vel, true)

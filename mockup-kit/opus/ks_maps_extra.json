@@ -979,5 +979,504 @@
    "Leg Port MAX",
    "Stac Leg BC + Slur + Port MAX"
   ]
+ },
+ "1TP KS Master": {
+  "file": "/Volumes/MAC DRIVE/EW Hollywood Brass Diamond/Hollywood Brass Opus Instruments/Solo Trumpet/06 Keyswitch/1TP KS Master.oib",
+  "locator": "//com.eastwest.8020/Solo Trumpet/06 Keyswitch/1TP KS Master.oit",
+  "keyMin": 0,
+  "keyMax": 127,
+  "legato": false,
+  "currentKeySwitch": 24,
+  "articulations": [
+   {
+    "name": "Sus Non Vib MAX",
+    "key": 24,
+    "useKey": true,
+    "trigger": "C0"
+   },
+   {
+    "name": "Sus Accent MAX",
+    "key": 25,
+    "useKey": true,
+    "trigger": "C#0"
+   },
+   {
+    "name": "Leg Slur MAX",
+    "key": 26,
+    "useKey": true,
+    "trigger": "D0"
+   },
+   {
+    "name": "StacSs DblTng RRx9",
+    "key": 27,
+    "useKey": true,
+    "trigger": "D#0"
+   },
+   {
+    "name": "Stac DblTng RRx9",
+    "key": 28,
+    "useKey": true,
+    "trigger": "E0"
+   },
+   {
+    "name": "Marc Shrt DblTng RRx4",
+    "key": 29,
+    "useKey": true,
+    "trigger": "F0"
+   },
+   {
+    "name": "Marc Lng DblTng RRx4",
+    "key": 30,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Sus Vib MAX",
+    "key": 31,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Sus Exp",
+    "key": 32,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Marc Sus LITE",
+    "key": 33,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Mariachi Sus",
+    "key": 34,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "LegRep RRx4",
+    "key": 35,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Mute Sus",
+    "key": 36,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Mute Sus Accent",
+    "key": 37,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Mute StacSs DblTng RRx9",
+    "key": 38,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Leg Slur Accent MAX",
+    "key": 39,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Vib Leg Slur MAX",
+    "key": 40,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Leg Slur Rep MAX",
+    "key": 41,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Slur Runs MAX",
+    "key": 42,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Trill HT",
+    "key": 43,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Trill WT",
+    "key": 44,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Rep Fst 170bpm",
+    "key": 45,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Rep Med 145bpm",
+    "key": 46,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Rep Slw 120bpm",
+    "key": 47,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Cres Fst",
+    "key": 48,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Cres Med",
+    "key": 49,
+    "useKey": null,
+    "trigger": "None"
+   },
+   {
+    "name": "Cres Slw",
+    "key": 50,
+    "useKey": null,
+    "trigger": "None"
+   }
+  ],
+  "controls": [
+   {
+    "label": "Modulation wheel",
+    "cc": 1,
+    "name": "controller_1"
+   },
+   {
+    "label": "Legato Time",
+    "cc": 5,
+    "name": "controller_5"
+   },
+   {
+    "label": "MIDI Volume",
+    "cc": 7,
+    "name": "controller_7"
+   },
+   {
+    "label": "MIDI Pan",
+    "cc": 10,
+    "name": "controller_10"
+   },
+   {
+    "label": "Expression",
+    "cc": 11,
+    "name": "controller_11"
+   },
+   {
+    "label": "Con Sordino",
+    "cc": 15,
+    "name": "controller_15"
+   },
+   {
+    "label": "True Legato: Mono",
+    "cc": 22,
+    "name": "controller_22"
+   },
+   {
+    "label": "Repetition: Reset RR",
+    "cc": 36,
+    "name": "controller_36"
+   },
+   {
+    "label": "Repetition: Sustain",
+    "cc": 64,
+    "name": "controller_64"
+   },
+   {
+    "label": "Portamento",
+    "cc": 65,
+    "name": "controller_65"
+   },
+   {
+    "label": "Legato",
+    "cc": 68,
+    "name": "controller_68"
+   },
+   {
+    "label": "Repetition",
+    "cc": 69,
+    "name": "controller_69"
+   }
+  ],
+  "rows": [
+   "Sus Non Vib MAX",
+   "Sus Accent MAX",
+   "Leg Slur MAX",
+   "StacSs DblTng RRx9",
+   "Stac DblTng RRx9",
+   "Marc Shrt DblTng RRx4",
+   "Marc Lng DblTng RRx4",
+   "Sus Vib MAX",
+   "Sus Exp",
+   "Marc Sus LITE",
+   "Mariachi Sus",
+   "LegRep RRx4",
+   "Mute Sus",
+   "Mute Sus Accent",
+   "Mute StacSs DblTng RRx9",
+   "Leg Slur Accent MAX",
+   "Vib Leg Slur MAX",
+   "Leg Slur Rep MAX",
+   "Slur Runs MAX",
+   "Trill HT",
+   "Trill WT",
+   "Rep Fst 170bpm",
+   "Rep Med 145bpm",
+   "Rep Slw 120bpm",
+   "Cres Fst",
+   "Cres Med",
+   "Cres Slw"
+  ]
+ },
+ "32in Med Tam Tam": {
+  "file": "/Volumes/MAC DRIVE/EW Hollywood Orchestral Percussion Diamond/Hollywood Orch Percussion Opus Instruments/Cymbals/Cymbal Pairs/32in Med Tam Tam.oib",
+  "locator": "//com.eastwest.8040/Cymbals/Cymbal Pairs/32in Med Tam Tam.oit",
+  "keyMin": 0,
+  "keyMax": 127,
+  "legato": false,
+  "currentKeySwitch": null,
+  "articulations": [],
+  "controls": [
+   {
+    "label": "Legato Time",
+    "cc": 5,
+    "name": "controller_5"
+   },
+   {
+    "label": "MIDI Volume",
+    "cc": 7,
+    "name": "controller_7"
+   },
+   {
+    "label": "MIDI Pan",
+    "cc": 10,
+    "name": "controller_10"
+   },
+   {
+    "label": "True Legato: Mono",
+    "cc": 22,
+    "name": "controller_22"
+   },
+   {
+    "label": "Repetition: Reset RR",
+    "cc": 36,
+    "name": "controller_36"
+   },
+   {
+    "label": "Repetition: Sustain",
+    "cc": 64,
+    "name": "controller_64"
+   },
+   {
+    "label": "Portamento",
+    "cc": 65,
+    "name": "controller_65"
+   },
+   {
+    "label": "Legato",
+    "cc": 68,
+    "name": "controller_68"
+   },
+   {
+    "label": "Repetition",
+    "cc": 69,
+    "name": "controller_69"
+   }
+  ],
+  "rows": [
+   "32in Med Tam Tam"
+  ]
+ },
+ "19in Zildjian A Crash": {
+  "file": "/Volumes/MAC DRIVE/EW Hollywood Orchestral Percussion Diamond/Hollywood Orch Percussion Opus Instruments/Cymbals/Cymbal Pairs/19in Zildjian A Crash.oib",
+  "locator": "//com.eastwest.8040/Cymbals/Cymbal Pairs/19in Zildjian A Crash.oit",
+  "keyMin": 0,
+  "keyMax": 127,
+  "legato": false,
+  "currentKeySwitch": null,
+  "articulations": [],
+  "controls": [
+   {
+    "label": "Legato Time",
+    "cc": 5,
+    "name": "controller_5"
+   },
+   {
+    "label": "MIDI Volume",
+    "cc": 7,
+    "name": "controller_7"
+   },
+   {
+    "label": "MIDI Pan",
+    "cc": 10,
+    "name": "controller_10"
+   },
+   {
+    "label": "True Legato: Mono",
+    "cc": 22,
+    "name": "controller_22"
+   },
+   {
+    "label": "Repetition: Reset RR",
+    "cc": 36,
+    "name": "controller_36"
+   },
+   {
+    "label": "Repetition: Sustain",
+    "cc": 64,
+    "name": "controller_64"
+   },
+   {
+    "label": "Portamento",
+    "cc": 65,
+    "name": "controller_65"
+   },
+   {
+    "label": "Legato",
+    "cc": 68,
+    "name": "controller_68"
+   },
+   {
+    "label": "Repetition",
+    "cc": 69,
+    "name": "controller_69"
+   }
+  ],
+  "rows": [
+   "19in Zildjian A Crash"
+  ]
+ },
+ "18in Zildjian Sus Cymbal Cres": {
+  "file": "/Volumes/MAC DRIVE/EW Hollywood Orchestral Percussion Diamond/Hollywood Orch Percussion Opus Instruments/Cymbals/Sus Cymbal/18in Zildjian Sus Cymbal Cres.oib",
+  "locator": "//com.eastwest.8040/Cymbals/Sus Cymbal/18in Zildjian Sus Cymbal Cres.oit",
+  "keyMin": 0,
+  "keyMax": 127,
+  "legato": false,
+  "currentKeySwitch": null,
+  "articulations": [],
+  "controls": [
+   {
+    "label": "Legato Time",
+    "cc": 5,
+    "name": "controller_5"
+   },
+   {
+    "label": "MIDI Volume",
+    "cc": 7,
+    "name": "controller_7"
+   },
+   {
+    "label": "MIDI Pan",
+    "cc": 10,
+    "name": "controller_10"
+   },
+   {
+    "label": "True Legato: Mono",
+    "cc": 22,
+    "name": "controller_22"
+   },
+   {
+    "label": "Repetition: Reset RR",
+    "cc": 36,
+    "name": "controller_36"
+   },
+   {
+    "label": "Repetition: Sustain",
+    "cc": 64,
+    "name": "controller_64"
+   },
+   {
+    "label": "Portamento",
+    "cc": 65,
+    "name": "controller_65"
+   },
+   {
+    "label": "Legato",
+    "cc": 68,
+    "name": "controller_68"
+   },
+   {
+    "label": "Repetition",
+    "cc": 69,
+    "name": "controller_69"
+   }
+  ],
+  "rows": [
+   "18in Zildjian Sus Cymbal Cres"
+  ]
+ },
+ "38in Large Tam Tam": {
+  "file": "/Volumes/MAC DRIVE/EW Hollywood Orchestral Percussion Diamond/Hollywood Orch Percussion Opus Instruments/Cymbals/Cymbal Pairs/38in Large Tam Tam.oib",
+  "locator": "//com.eastwest.8040/Cymbals/Cymbal Pairs/38in Large Tam Tam.oit",
+  "keyMin": 0,
+  "keyMax": 127,
+  "legato": false,
+  "currentKeySwitch": null,
+  "articulations": [],
+  "controls": [
+   {
+    "label": "Legato Time",
+    "cc": 5,
+    "name": "controller_5"
+   },
+   {
+    "label": "MIDI Volume",
+    "cc": 7,
+    "name": "controller_7"
+   },
+   {
+    "label": "MIDI Pan",
+    "cc": 10,
+    "name": "controller_10"
+   },
+   {
+    "label": "True Legato: Mono",
+    "cc": 22,
+    "name": "controller_22"
+   },
+   {
+    "label": "Repetition: Reset RR",
+    "cc": 36,
+    "name": "controller_36"
+   },
+   {
+    "label": "Repetition: Sustain",
+    "cc": 64,
+    "name": "controller_64"
+   },
+   {
+    "label": "Portamento",
+    "cc": 65,
+    "name": "controller_65"
+   },
+   {
+    "label": "Legato",
+    "cc": 68,
+    "name": "controller_68"
+   },
+   {
+    "label": "Repetition",
+    "cc": 69,
+    "name": "controller_69"
+   }
+  ],
+  "rows": [
+   "38in Large Tam Tam"
+  ]
  }
 }

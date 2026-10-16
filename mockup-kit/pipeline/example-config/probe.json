@@ -1,0 +1,7 @@
+{"_doc": "probe_attacks.py checks for movement II v77 (score qn), as hard-coded in probe_attacks.py through c26.",
+ "ref": [["Violoncellos", 108, 0.06], ["Violoncellos", 112, 0.06], ["Violoncellos", 114, 0.06], ["Violoncellos", 116, 0.06],
+         ["Violas", 124, 0.06], ["Double basses", 108, 0.06], ["Trombone 1", 212.5, 0.06], ["Timpani", 277, 0.06],
+         ["Violins I", 171, 0.15], ["Violins II", 42, 0.20]],
+ "holes": [["Violas", 204], ["Violins I", 212], ["Violins II", 212], ["Violoncellos", 212]],
+ "sustain": [["Horn 1", 34, 6.0]],
+ "opening": ["Horn 3", "Violins I", "Violins II", "Violas", "Violoncellos"]}
