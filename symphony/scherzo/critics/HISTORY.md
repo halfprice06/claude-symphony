@@ -159,6 +159,11 @@ v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 126 (2026-10-16)
 v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle 127 reviews v127 (lens 7 texture).
 
+## Cycle 129 (lens 9 holistic, Rimsky-Korsakov examples 126–200, second pass; Beethoven 7/iii) v129 → v130
+- Accepted: trio register clashes removed at 193 (Cl 1), 209 (Hn 2), 219 (Bsn 2).
+- Rejected/kept: slower trio tempo (proportions); ff trio tutti and trumpet pedal (cyclic rules).
+- Do-not-touch: trio first statement 153–168, coda build and B6 peak 325–339, closing page 357–376.
+
 ## Cycle 128 (lens 8 expression, Adler ch. 11 brass climaxes and ch. 15 special effects) v128 → v129
 - Accepted: 339 brass held tenuto minims with diminuendo, low brass ff (no accented brass stroke); 335–338 trumpets crescendo, tenutos not accents; 101–104/301–304 brass build to f, not ff, so the arrival at 105/305 is not a drop.
 - Open: none.
