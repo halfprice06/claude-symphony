@@ -159,6 +159,11 @@ v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 126 (2026-10-16)
 v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle 127 reviews v127 (lens 7 texture).
 
+## Cycle 128 (lens 8 expression, Adler ch. 11 brass climaxes and ch. 15 special effects) v128 → v129
+- Accepted: 339 brass held tenuto minims with diminuendo, low brass ff (no accented brass stroke); 335–338 trumpets crescendo, tenutos not accents; 101–104/301–304 brass build to f, not ff, so the arrival at 105/305 is not a drop.
+- Open: none.
+- Do-not-touch: closing page 357–376.
+
 ## Cycle 127 (lens 7 texture, Adler ch. 17 second pass) v127 → v128
 Both accepted (v128/critique.md): Cl 2 an octave lower at 87–88; Cl 2 rests and Hn 4 pedal from 229. Do-not-touch: no instrument of the solo's own colour beside a wind solo (Adler PDF 267) in the codetta statements 225–236.
 
