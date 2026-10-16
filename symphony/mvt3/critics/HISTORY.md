@@ -617,3 +617,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 150 (v150 → v151), lens 10 coherence + release check (Rimsky prefaces, ch. IV)
 - No score change. finale.md current to v151.
 - Batch 141-150 added to the checkpoint PR.
+
+## Cycle 151 (v151 → v152), lens 1 melody (A&S Unit 21)
+- Accepted: G♭6 suspended 210→211 resolving to F6 (score-only \noBreak 199-210); Hn 2 doubles the violas' F1 head 130-132.
+- Do-not-touch: lament and climax 107-113; stretto and strokes 139-150; theme B recall 211-218; 216-223.
