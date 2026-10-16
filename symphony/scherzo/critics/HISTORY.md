@@ -152,6 +152,9 @@ v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 revie
 ## Batch checkpoint after cycle 106 (2026-10-16)
 v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 107 reviews v107 (lens 7 texture).
 
+## Cycle 113 (lens 3 form, A&S Unit 32 second pass) v113 → v114
+Both accepted (v114/critique.md): smooth MIDI tempo curve through the rit. and accelerando 237–264; comment fix. Do-not-touch: the large form and length (c083, c103, c113).
+
 ## Cycle 112 (lens 2 harmony, A&S Units 11–13) v112 → v113
 All 8 accepted (v113/critique.md): inner-voice fifths removed at 108/308, 110–111/310–311 (♭9 suspension), 124/280, 157, 196–201, 219–221, 346, 351–352; harp common tones at 82–83. Open: Hn 1/cellos octaves 220–221 (c092).
 

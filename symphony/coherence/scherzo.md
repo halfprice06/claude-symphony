@@ -1,7 +1,7 @@
 # Scherzo (movement III) current state for the other movements
 
 Owner: the scherzo thread ("Continue movement 3 loop" since 2026-10-16). Only the scherzo thread edits this file. Updated 2026-10-16.
-Current version: symphony/scherzo/v111 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pages; rehearsal letters added at 169, 225, 277, 357 in v46). Bar numbers below are v24. History: v03 392 bars; v04 cut 8 trio bars (bars after 196 −8); v24 cut 4 retransition bars (v23 245–328 → −4) and 4 bars of the reprise close (v23 333–384 → −8).
+Current version: symphony/scherzo/v114 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pages; rehearsal letters added at 169, 225, 277, 357 in v46). Bar numbers below are v24. History: v03 392 bars; v04 cut 8 trio bars (bars after 196 −8); v24 cut 4 retransition bars (v23 245–328 → −4) and 4 bars of the reprise close (v23 333–384 → −8).
 
 ## Opening (bars 1–12, Allegro vivace, dotted minim = 88)
 - Bars 1–2: Hn 1 alone, G♯4 pp, fermata on bar 2 since v21 (about 2.7 s) (movement II's A♭ respelt). Vc/Cb pizz. E and timpani E at 3 (answering movement II's last timpani A♭ a major third lower).
