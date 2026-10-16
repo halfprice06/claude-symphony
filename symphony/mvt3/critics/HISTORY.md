@@ -572,3 +572,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 138 (v138 → v139), lens 8 expression (Casanelles ch. 4, 6)
 - Accepted: low strings dim. under the theme-B echo 217-218 (p at 219); swells at F2's peaks 68-70 and 188-190; movement I's phrasing on the S-head quotation 234-238; Hn espress. at 217.
 - Do-not-touch: 219 sub. p → 223 fff with timpani roll, first crash and C7; 187-198 bow plan.
+
+## Cycle 139 (v139 → v140), lens 9 master comparison (Rachmaninoff 2/iv; v129)
+- Accepted: B.cl. doubles the B1 pedal from 144 (p<f into 147; Bn 1 cue removed); Tpt 3 C5-F4-C5 at 247-249 (off the horns' S-head pitch).
+- Open: Tpt 3 A4 at 252 still at the horns' pitch (alternatives make fifths).
