@@ -159,6 +159,9 @@ v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 126 (2026-10-16)
 v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle 127 reviews v127 (lens 7 texture).
 
+## Cycle 136 (lens 6 playability, Adler ch. 9–10, second pass) v136 → v137
+- Accepted: held fade for Hn 1·2 at 72–73; Hn 2 tenuto, not accent, at 281; Hn 3·4 breath at 104/304.
+
 ## Cycle 135 (lens 5 engraving, MOLA, second pass) v135 → v136
 - Accepted: solo labels after rests on combined staves; pp at 271 (Vln II, Va); cue starts moved off empty bars; Hn cue at 193 from Vln II; harp part pedal line stripped; parts top margin 20 mm.
 
