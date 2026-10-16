@@ -168,6 +168,9 @@ v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles
 ## Batch checkpoint after cycle 156 (2026-10-16)
 v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 rendered with r07 for Dan. Next: cycle 157 reviews v157 (lens 7 texture).
 
+## Cycle 164 (lens 4 orchestration, Adler ch. 5, second pass) v164 → v165
+- Accepted: basses rest at 121–124/277–280, return at 125/281 (completes c074).
+
 ## Cycle 163 (lens 3 form, Aldwell & Schachter Units 6–8, second pass) v163 → v164
 - Accepted: Vln II A4→G4 at the cadences 19–20, 27–28 (supersedes c002's unison cadence).
 - Do-not-touch: large form and proportions, hemiola cadences, V pedal 89–104, link and retransition, three trio statements, two-stage coda, G♯ frame.
