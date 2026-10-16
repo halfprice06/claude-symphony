@@ -557,3 +557,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 134 (v134 → v135), lens 4 orchestration (Adler ch. 15)
 - Accepted: Ob 2 doubles Vln II's counter-line 159-166; Hn 1-2 with the violas at 165-166; Tpt 3 D4 at 165.2.
 - Do-not-touch: 151-158 layout; E♭ bass and timpani at 166; 167-170 diminuendo order.
+
+## Cycle 135 (v135 → v136), lens 5 engraving (MOLA)
+- Accepted: unison flute line 83-86; score-only Oboe 2 staff 158-170; page-2 bar numbers; Ob 2 cue 197-198; bar ranges under multi-measure rests in parts; Bn 1 courtesy natural at 116.
+- Open: Cl 2 part page 2 over-full (parts-only fix in c135.md).
+- Note: scherzo ends ppp (scherzo thread, scherzo v111); intro.ily comment corrected.
