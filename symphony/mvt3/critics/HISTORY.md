@@ -621,3 +621,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 151 (v151 → v152), lens 1 melody (A&S Unit 21)
 - Accepted: G♭6 suspended 210→211 resolving to F6 (score-only \noBreak 199-210); Hn 2 doubles the violas' F1 head 130-132.
 - Do-not-touch: lament and climax 107-113; stretto and strokes 139-150; theme B recall 211-218; 216-223.
+
+## Cycle 152 (v152 → v153), lens 2 harmony (A&S Units 28-29, second pass)
+- Accepted: Vln I div. F5 + D♭6 at 217-218 so D♭-C-B-C is the top line; Italian sixth (bass E♭) on 121 beats 3-4 before the G-minor half cadence; Ob 2 D♭5-F5 at 211 under the G♭6 suspension.
+- Open: none.
+- Do-not-touch: A♭7 209-210 / German sixth 219 (Hn 2 G♭ = F♯); violins' G♭ 215-216; 216-223 top line.
