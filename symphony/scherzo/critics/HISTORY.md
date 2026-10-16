@@ -152,6 +152,9 @@ v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 revie
 ## Batch checkpoint after cycle 106 (2026-10-16)
 v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 107 reviews v107 (lens 7 texture).
 
+## Cycle 112 (lens 2 harmony, A&S Units 11–13) v112 → v113
+All 8 accepted (v113/critique.md): inner-voice fifths removed at 108/308, 110–111/310–311 (♭9 suspension), 124/280, 157, 196–201, 219–221, 346, 351–352; harp common tones at 82–83. Open: Hn 1/cellos octaves 220–221 (c092).
+
 ## Cycle 111 (lens 1 melody, Rimsky-Korsakov ch. II winds second pass) v111 → v112
 Accepted (v112/critique.md): Vln II with Vln I at 41–43/273–275 under the a2 winds. Do-not-touch: wind a2 at 37–44/273–275 (c107) with both violin sections on the tune.
 
