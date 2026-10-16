@@ -165,6 +165,9 @@ v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 render
 ## Batch checkpoint after cycle 146 (2026-10-16)
 v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles (133, 140, 141, 144) found nothing to change. Next: cycle 147 reviews v147 (lens 7 texture).
 
+## Cycle 152 (lens 2 harmony, Aldwell & Schachter Units 28–29, second pass) v152 → v153
+- Accepted: bassoons sustain and resolve the French sixth at 243–245; flat spelling of the falling tail at 38.
+
 ## Cycle 151 (lens 1 melody, Aldwell & Schachter Unit 21, second pass) v151 → v152
 - Accepted: Hn 4 drone breaks at 166 so the trio cadence's 4–3 resolves.
 - Kept: 155/160 drone, 200 (c117), 110–111/310–311 (c112). Rejected: 4–3 at 187–192.
