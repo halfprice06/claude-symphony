@@ -1,0 +1,64 @@
+% TRIO, third part, bars 209-240.
+% c022: 225-236 the T head steps B-C sharp-B over the plagal IV (Ob 1, Cl 1, Bsn 1; Hn 3 A): I-IV-I with the 5-6-5 neighbour (A-S PDF 195-196).
+% 209-224: T returns, forte espressivo: Vln I with Fl 1 at the octave above Cl 1; Vln II and violas off-beat; the cellos' countermelody;
+%   harp; Hn 1-2 sustain the harmony (no unison horns: the high horn unison is kept for the finale).
+% 225-240: codetta over the E pedal with plagal A-E: T's head falls through Ob 1 (225), Cl 1 (229), Bsn 1 (233; c003: Hn 1 keeps T for the coda at 349); poco rit. 237-240.
+
+% c061: 221-222 T's cadence with the tied V4-3 suspension E-D sharp, as at 165-166 and 181-182 (see tA.ily; Aldwell-Schachter PDF 352 sec. 8).
+% c069: Fl 1 rests 209-216 and enters at 217 for the third phrase's climb to A6 (Adler II PDF 37: hold a colour back for a specific event; PDF 156: a rest before a colour enters makes it clearly perceived; PDF 165: sustained doublings at pitch tire the ear and lose colour). Fl 2's G sharp at 209 (c050/c065) is kept.
+% c093: 215-216 the raised 4th of V7/V (A sharp) only in the violas: cellos and Bsn 2 hold C sharp 3, Hn 1 holds C sharp 5 (was A sharp 4, an octave over the violas' A sharp 3,
+%   both rising to B together at 216); Hn 1 still reaches B4 on beat 2 of 216, the breath and slurs unchanged (Aldwell-Schachter Unit 14, PDF 214: the raised 4th is not doubled).
+% c098: 221-222 the cadential 4-3 shaded <> as at 165-166 (Aldwell-Schachter PDF 348, 350).
+tCFluteOne = { R2.*8 | cis'''2(\mf\< dis'''4 | e'''4 gis'''4 a'''4~ | a'''4.\> gis'''8 fis'''4 | cis'''4 b''4 a''4) | gis''4\!( b''4 e'''4\<~ | e'''4\> dis'''4\! fis'''4 | e'''2.~ | e'''2)\> r4\! | R2.*16 | }
+tCOboeOne = { R2.*16 | gis''2(\p a''4 | b''2. | cis'''2. | b''2) r4 | R2.*12 | }
+tCClOne = { gis'2(\f a'4 | b'2 e''4 | dis''4. cis''8 b'4 | a'4 gis'2) | a'2( b'4 | cis''2 fis''4 | e''4. dis''8 cis''4 | ais'4 b'2) | cis''2(\< dis''4 | e''4 gis''4 a''4~ | a''4.\> gis''8 fis''4 | cis''4 b'4 a'4) | gis'4\!( b'4 e''4\<~ | e''4\> dis''4\! fis''4 | e''2.~ | e''2)\> r4\! | R2.*4 | gis'2(\p a'4 | b'2. | cis''2. | b'2) r4 | R2.*8 | }
+% c050: 209 Fl 2 and Cl 2 end the motto-tail line B-A sharp-A (206-208) on its G sharp, the first note of Fl 1 and Cl 1's T (Rimsky-Korsakov PDF 125-126:
+%   in a transferred phrase the last note of one part coincides with the first note of the next), so the quotation resolves in its own voice, as Hn 1's at 357-360. The G sharp is re-attacked with T's first note (no slur across: the part combiner merges the unison).
+tCFluteTwo = { gis''2\mf r4 | R2.*31 | }
+tCClTwo = { gis'2\f r4 | R2.*15 | e'2.\pp | e'2. | e'2. | e'2. | e'2.\p | e'2. | e'2. | e'2. | R2.*8 | }
+% c023: Hn 1 holds G sharp 237-240 (moved from the retransition's 241-244), so the inflection G sharp -> G natural falls on 241, the first bar of the
+%   retransition (A&S PDF 584-586, modulation by chromatic inflection); timpani retune G sharp -> G during the rests at 225.
+% c042: 235 the third plagal of the codetta is iv (A minor, mixture), not IV: Bsn 1 B-C natural-B (flat 6 as upper neighbour to 5), harp C natural;
+%   the change of mode varies the third statement and prepares the E minor of 241 (A-S PDF 387, 390 Ex. 23-5, 392-393 sec. 5).
+% c014: 209-224 Bsn 1 an inner part between the bass and Hn 1-2 (2 bassoons + 2 horns in four parts, the 7ths in the bassoon; Rimsky-Korsakov PDF 100, 108)
+tCBsnOne = { \partCombineAutomatic e'2.--(\mf | e'2.-- | fis'2.-- | e'2.-- | e'2.-- | e'2.-- | e'2.-- | dis'2) r4 | cis'2.--(\< | b2.-- | a2.--\f\> | a2.-- | b2.--\mf | a2.-- | gis2.--\> | gis2)\! r4 | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | gis2(\p a4 | b2. | c'2. | b2) r4 | R2. | R2. | R2. | R2. | }
+% c087: 209-224 Bsn 2 doubles the cellos' countermelody in unison (Rimsky-Korsakov PDF 76-77: 'Cellos + Fag. is among the best unison pairs, the wind strengthens the string tone and the strings predominate;
+%   PDF 78-79: a low melody in the cellos doubled by a bassoon, the basses undoubled). It had duplicated the double basses' bass an octave higher, in the cellos' register,
+%   crossing their line at 209, 213 and 216. The bass stays in the basses (arco) and the harp's left hand. Both bassoons mf, a degree under the cellos' f (the shared staff prints one set).
+tCBsnTwo = { \partCombineAutomatic b,4(\mf e2 | gis2. | fis2 a4 | gis2 fis4) | e4( cis2~ | cis4 a,2 | cis2. | dis2 b,4) \breathe | e4(\< gis2~ | gis4 e2 | a2\f\> gis4 | fis2 cis4) | b,2(\mf cis4 | a,4 b,2 | gis,2.~\> | gis,2)\! r4 | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | }
+% c088: 209-224 Hn 1-2 and Bsn 1 (the soft four-part choir of c014/c047) under phrase slurs split at the existing breath (216), tenuto on repeated notes; 233-236 Hn 3-4 likewise. The trio's first horn pad (153-168) is already tied by phrase (Adler I PDF 309, 311-312).
+% c094: 218-219 Hn 1 G sharp 4 (held from 217) and A4 (were B4 and C sharp 5), so Hn 1-2 hold thirds (E-G sharp, F sharp-A) under the strings' tune instead of open fifths
+%   (Rimsky-Korsakov PDF 97, Remark 4: with the top part in the strings the wind's middle parts take 2nds, 7ths, 3rds or 6ths, not open 4ths and 5ths; PDF 90 rule 4); 218 now sounds the I6's third in the middle.
+tCHnOne = { b'2.--(\p | b'2.-- | b'2.-- | b'2.-- | cis''2.-- | cis''2.-- | cis''2.~ | cis''4 b'2) \breathe | gis'2.--(\< | gis'2.-- | a'2.--\mf\> | cis''2.-- | b'2.--\p | b'2.-- | gis'2.-- | gis'2.--) | R2.*12 | gis'2.~\pp | gis'2.~ | gis'2.~ | gis'2 r4 | }
+% c054: 212 Hn 2 enters on beat 2 with the tune's G sharp 4: the held G sharp 4 sounded under the appoggiatura A4 of Cl 1 and Vln II in the same octave
+%   (Adler PDF 255: the melody must come through and not be obscured by the harmony; PDF 243: sustained winds placed apart from the theme; as c039 at 197-200).
+tCHnTwo = { gis'2.--(\p | gis'2.-- | fis'2.--) | r4 gis'2--( | a'2.-- | a'2.-- | fis'2.-- | fis'2.--) \breathe | e'2.--(\< | e'2.-- | fis'2.--\mf\> | fis'2.-- | gis'2.--\p | fis'2.-- | e'2.-- | e'2.--) | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | }
+% c051: 233-236 Hn 3 E4 (was B3-A3-B3, in unison with Bsn 1's B3 at 234 and 236): the horns frame the bassoon's T head an octave apart and Bsn 1 is p,
+%   a degree above the pp horns (Sebesky PDF 212: the background supplies chord tones not in the solo line; PDF 219: do not cover a soloist's weaker register).
+tCHnThree = { R2.\! | R2.*23 | e'2.--(\pp | e'2.-- | e'2.-- | e'2.--) | b2.~ | b2.~ | b2.~ | b2 r4 | }
+tCHnFour = { R2.\! | R2.*23 | e2.--(\pp | e2.-- | e2.-- | e2.--) | e2.~ | e2.~ | e2.~ | e2 r4 | }
+tCTimp = { e,4\f r4 r4 | R2.*3 | R2.*11 | e,4\p r4 r4 | R2.^\markup \small \italic "muta G♯ in G" | R2.*11 | e,2.:32\pp~ | e,2.:32~ | e,2.:32~ | e,4 r4 r4 | }
+tCHarpR = { R2._\markup \small "A♮" | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | r4 <gis b e'>4 <gis b e'>4 | r4 <gis b e'>4 <gis b e'>4 | r4 <a cis' e'>4 <a cis' e'>4 | r4 <gis b e'>4 <gis b e'>4 | r4 <gis b e'>4 <gis b e'>4 | r4 <gis b e'>4 <gis b e'>4 | r4 <a cis' e'>4 <a cis' e'>4 | r4 <gis b e'>4 <gis b e'>4 | r4 <e' gis' b'>4 <e' gis' b'>4 | r4_\markup \small "C♮" <e' gis' b'>4 <e' gis' b'>4 | r4 <e' a' c''>4 <e' a' c''>4 | r4 <e' gis' b'>4 <e' gis' b'>4 | <gis b e'>2.\arpeggio | R2. | R2. | R2. | }
+tCHarpL = { e,4\mf r4 r4 | e,4 r4 r4 | b,,4 r4 r4 | e,4 r4 r4 | a,,4 r4 r4 | fis,,4 r4 r4 | fis,,4 r4 r4 | b,,4 r4 r4 | cis,4 r4 r4 | gis,,4 r4 r4 | fis,,4 r4 r4 | a,,4 r4 r4 | b,,4 r4 r4 | b,,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | e,4\pp r4 r4 | e,4 r4 r4 | a,,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | a,,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | a,,4 r4 r4 | e,4 r4 r4 | e,2. | R2.*3 | }
+tCVlnOne = { gis''2(\f^\markup \italic "espress." a''4 | b''2 e'''4) | dis'''4.( cis'''8 b''4) | a''4( gis''2) | a''2( b''4 | cis'''2 fis'''4) | e'''4.( dis'''8 cis'''4) | ais''4( b''2) | cis'''2(\< dis'''4 | e'''4 gis'''4) a'''4~( | a'''4.\> gis'''8 fis'''4) | cis'''4( b''4 a''4) | gis''4\!( b''4 e'''4\<~ | e'''4\> dis'''4\! fis'''4) | e'''2.~ | e'''2\> r4\! | R2.*16 | }
+tCVlnTwo = { gis'2(\f a'4 | b'2 e''4) | dis''4.( cis''8 b'4) | a'4( gis'2) | a'2( b'4 | cis''2 fis''4) | e''4.( dis''8 cis''4) | ais'4( b'2) | cis''2(\< dis''4 | e''4 gis''4) a''4~( | a''4.\> gis''8 fis''4) | cis''4( b'4 a'4) | gis'4\!( b'4 e''4\<~ | e''4\> dis''4\! fis''4) | e''2.~ | e''2\> r4\! | b'2.\pp | b'2. | a'2. | b'2. | e''2. | e''2. | e''2. | e''2. | b'2. | b'2. | a'2. | b'2. | b'2.~ | b'2.~ | b'2.~ | b'2 r4 | }
+% c027: 209-224 viola off-beats in the trio's first voicing (B3-E4, as at 169-184), below the tune's lower octave in Vln II and Cl 1 (were E4-B4, above it; Adler II PDF 274, 279)
+% c089: 212-213 violas E4-D4 on beat 3 of the tune's fourth bar, then C sharp 4: a passing seventh, I - V7/IV - IV, so the second and third statements of the
+%   trio tune are not harmonised exactly like the first (153-156 stays plain). A-S PDF 418-419 (Ex. 25-1: applied and passing applied chords in a plain theme), PDF 399 (the 7th resolves
+%   down by step). The temporary leading tone G sharp is in the tune only on beat 3 (cellos have moved to F sharp, PDF 419: not doubled); F sharp (9th) -> E and D -> C sharp in 173/213.
+tCVla = { r4 <b e'>4--(\mf^\markup \italic "div." <b e'>4--) | r4 <b e'>4--( <b e'>4--) | r4 <a dis'>4--( <a dis'>4--) | r4 <b e'>4--( <b d'>4--) | r4 <a cis'>4--( <a cis'>4--) | r4 <a fis'>4--( <a fis'>4--) | r4 <ais e'>4--( <ais e'>4--) | r4 <b dis'>4--( <b dis'>4--) | r4 <gis e'>4--(\< <gis e'>4--) | r4 <b e'>4--( <b e'>4--) | r4 <a cis'>4--(\f\> <a cis'>4--) | r4 <a fis'>4--( <a fis'>4--) | r4 <b e'>4--(\mf <b e'>4--) | r4 <a fis'>4--( <a fis'>4--) | r4 <gis e'>4--(\> <gis e'>4--) | r4 <gis e'>4--( <gis e'>4--) | gis'2.\pp^\markup \italic "unis." | gis'2. | e'2. | gis'2. | b2. | b2. | a2. | b2. | gis'2. | gis'2. | e'2. | gis'2. | gis'2.~ | gis'2.~ | gis'2.~ | gis'2 r4 | }
+tCVc = { b,4(\f e2 | gis2.) | fis2( a4 | gis2 fis4) | e4( cis2~ | cis4 a,2) | cis2.( | dis2 b,4) | e4( gis2~ | gis4 e2) | a2( gis4 | fis2 cis4) | b,2( cis4 | a,4 b,2) | gis,2.~\upbow\> | gis,2 r4 | e4\pp^\markup \italic "pizz." r4 r4 | e4 r4 r4 | a,4 r4 r4 | e4 r4 r4 | e4 r4 r4 | e4 r4 r4 | a,4 r4 r4 | e4 r4 r4 | e4 r4 r4 | e4 r4 r4 | a,4 r4 r4 | e4 r4 r4 | e4 r4 r4 | e4 r4 r4 | e4 r4 r4 | e4 r4 r4 | }
+% c033: 209-224 double basses arco, sustaining the bass under T's forte return (pizzicato at 153 and 169): the third statement is scored differently
+%   by alteration of detail (Rimsky-Korsakov PDF 118 d); the harp's left hand keeps the plucked downbeat; pizz. again at 225 after a beat's rest;
+%   216 B-F sharp (fifth of V on beat 3), so the sustained bass does not move B-C sharp in octaves with T's B5-C sharp 6 into 217.
+tCCb = { e,2.\mf^\markup \italic "arco" | e,2. | b,,2. | e,2. | a,,2. | fis,,2. | fis,,2. | b,,2 fis,,4 | cis,2.\< | gis,,2. | fis,,2.\f\> | a,,2. | b,,2.\mf | b,,2. | e,2.~\upbow\> | e,2 r4\! | e,4\pp^\markup \italic "pizz." r4 r4 | e,4 r4 r4 | a,,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | a,,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | a,,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | e,4 r4 r4 | }
+% c047: 211 and 222 Hn 1 holds B (concord) instead of the V7's seventh A (A4 rose to B4 at 211-212; at 222 it doubled Bsn 1's A3): Rimsky-Korsakov PDF 108,
+%   horns + bassoons in soft four-part harmony, concords to the horns, discords to the bassoons; stationary parts to the brass.
+% c047: 229-232 Vln II E5 and violas B3-A3 frame Cl 1's T head (it began in unison with the violas' held G sharp 4, its A4 rubbed against it, and its B4 sat on Vln II's held B4,
+%   as at 197-200 before c039); 233-236 harp off-beats E4-G sharp 4-B4 (E4-A4-C5 at 235), above Bsn 1's T head G sharp 3-C4 inside Hn 3-4 (Rimsky-Korsakov PDF 108, 112).
+% c045: 224 timpani E p (it still read f from 209, a loud stroke in the diminuendo into the pp codetta). 229 Cl 2 p with Cl 1's p entry: the shared staff prints one dynamic.
+% c067: 209 Fl 1 (and Fl 2's G sharp, same staff) mf under the violins' f: a flute on the lead violin line is marked a degree softer (Sebesky PDF 164).
+% c081: T bars 10-11 (162, 178, 218, 350): the climax A is anticipated on beat 3 of bar 10 and tied over the bar line (was e4 gis2 | a4. gis8 fis4, now e4 gis4 a4~ | a4. gis8 fis4).
+%   The phrase's highest note becomes its longest and a syncopation, the only bar-line tie before the cadence (Aldwell-Schachter Unit 3 PDF 50: long and high notes take accent;
+%   PDF 51: a note begun on a weak beat and held through the strong beat contradicts the metre; PDF 56, Ex. 3-19: the anticipation held over into the consonance, here I6 -> ii).
+%   Dvorak 9/iii's E-major tune (Ob 1, 68-76) ties over five bar lines in nine bars. Theme change (third phrase only); violins re-bow on the A.

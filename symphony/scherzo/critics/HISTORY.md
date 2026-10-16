@@ -149,6 +149,9 @@ Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project 
 ## Batch checkpoint after cycle 96 (2026-10-16)
 v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 reviews v97 (lens 7 texture).
 
+## Cycle 99 (lens 9 holistic, Dvořák 8/iii; Casanelles ch. 6) v99 → v100
+All 3 accepted (v100/critique.md): coda harp chords up an octave at 345–348; harp pp under the trio solos at 153/185; Hn 1 pp at 241. Do-not-touch: accompaniment one dynamic level under the tune and out of its register (Casanelles PDF 271–278).
+
 ## Cycle 98 (lens 8 expression, A&S Unit 21) v98 → v99
 All 4 accepted (v99/critique.md): suspension hairpins (swell into the dissonance, softer resolution) at the trio cadences 165/181/221, Hn 1's motto tail 357–360, coda 355 and retransition 245–249. Do-not-touch: accent-then-softer shaping of suspensions (A&S PDF 348, 350).
 
