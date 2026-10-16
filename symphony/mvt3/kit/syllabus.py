@@ -101,4 +101,4 @@ for n in range(1,201):
     k=(n-1)%10+1; lst=R[k]; i=used[k]; used[k]+=1
     a=lst[i] if i<len(lst) else lst[i%len(lst)]+" (second pass)"
     out.append(f"| {n} | {k} | {a} |")
-open('/mnt/project-files/symphony/mvt3/critics/READING.md','w').write("\n".join(out)+"\n")
+open('/home/user/claude_composes/symphony/mvt3/critics/READING.md','w').write("\n".join(out)+"\n")
