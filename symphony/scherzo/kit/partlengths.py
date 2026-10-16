@@ -3,7 +3,7 @@
 differs from its section's bars x beats in sections.txt. Replaces v01-generators/countbars.py, which missed lines
 ending in a comment and part-combine directives. Prints "part lengths: all match" when clean."""
 import sys, os
-sys.path.insert(0, '/mnt/project-files/symphony/coherence')
+sys.path.insert(0, '/home/user/claude_composes/symphony/coherence')
 import lyparse
 v = sys.argv[1]; bad = 0
 for name, bars, beats in lyparse.sections(v):
