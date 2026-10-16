@@ -162,6 +162,10 @@ v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 136 (2026-10-16)
 v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 rendered with r07 for Dan (assets rebuilt to /mnt/project-files/render-assets/). Next: cycle 137 reviews v137 (lens 7 texture).
 
+## Cycle 146 (lens 6 playability, Adler ch. 12 and 14, second pass) v146 → v147
+- Accepted: timpani tenuto at tutti downbeats (supersedes c056's accent); medium sticks 225–288; ppp on the last stroke.
+- Kept: tunings and retunings, tied rolls, 337–339 accents.
+
 ## Cycle 145 (lens 5 engraving, Adler ch. 18 and App. A, second pass) v145 → v146
 - Accepted: brass-choir tempo/rehearsal marks restored with a hide-if-no-brass callback; horn and trombone sub-brackets.
 - Rejected: tempo marks above the timpani (crowding).
