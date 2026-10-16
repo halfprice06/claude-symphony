@@ -553,3 +553,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 133 (v133 → v134), lens 3 form (A&S Units 16, 19)
 - Accepted: 166 V-i6 (bass E♭) instead of the exposition's deceptive cadence; 167-170 falling-fifth link.
 - Do-not-touch: return 147-155 over the dominant; 186→187 into A♭ and the 187-223 path; development key plan with the G area 115-134; stretto 139-146.
+
+## Cycle 134 (v134 → v135), lens 4 orchestration (Adler ch. 15)
+- Accepted: Ob 2 doubles Vln II's counter-line 159-166; Hn 1-2 with the violas at 165-166; Tpt 3 D4 at 165.2.
+- Do-not-touch: 151-158 layout; E♭ bass and timpani at 166; 167-170 diminuendo order.
