@@ -159,6 +159,11 @@ v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 126 (2026-10-16)
 v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle 127 reviews v127 (lens 7 texture).
 
+## Cycle 132 (lens 2 harmony, Aldwell & Schachter Units 22–23, second pass) v132 → v133
+- Accepted: d5→P5 removed at 79→80 (Hn 4, harp LH) and 126→127 (Bsn 1); the D♯°7 seventh prepared at 85–88 (Hn 3/Bsn 1 swap undone).
+- Kept: 282→283 Hn 1 C5 (c082 rule); 266→267 passing quaver; 87→88 Cl 2.
+- Do-not-touch: c082's V♭9 voicings at 126–127 and 282.
+
 ## Cycle 131 (lens 1 melody, Adler ch. 7, second pass) v131 → v132
 - Accepted: doubling winds change octave a beat early at 39/107/307 (no maj-7 leap in the closing arpeggio); Ob 1 on the top line at 129–131/285–287.
 - Kept: Ob 197–200 (c117), coda T colours, clarinet break 81–88, Cl breathing at 153, Cbsn 213–222, Fl/Ob unison 29–36.
