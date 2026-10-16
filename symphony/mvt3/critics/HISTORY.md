@@ -704,3 +704,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 169 (v169 → v170), lens 9 master comparison (Franck; v159)
 - Accepted: trumpets rest at 151-158, enter mf at 159.
 - Do-not-touch: the rest of the 151-166 layout (c134); coda 247-279.
+
+## Cycle 170 (v170 → v171), lens 10 coherence + release check (A&S Unit 23, second pass)
+- No score change. finale.md current to v170.
+- Do-not-touch: bars 1-2; 46-49; 216-223 with 222→223; 223-234; 242-244; both chorale top lines and the cut at 264.1; last cadence 259-263; close 273-279.
