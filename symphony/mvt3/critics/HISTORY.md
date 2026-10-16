@@ -599,3 +599,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 145 (v145 → v146), lens 5 engraving (Adler ch. 18, App. A)
 - Accepted: clarinet "2." at 97-98; "1." labels at 61, 77, 105; breaths at 58 (Cl 2, Bn 1) and 82 (Hn 1-2); cues in the Ob 1 and Hn 1-2 parts.
 - Note: scherzo v122 changed the trio tune's bar 6 (not quoted by the finale).
+
+## Cycle 146 (v146 → v147), lens 6 playability (Adler ch. 12, 14 percussion)
+- Accepted: 223 timpani roll fff> to f, bass drum ff (crash fff); stick indications at 1, 215, 255; bass drum tied with cymbals 278-279.
+- Render note: simplify the two-voice percussion at 223 in a temp copy for r04/r07.

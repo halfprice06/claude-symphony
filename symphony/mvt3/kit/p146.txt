@@ -4,7 +4,7 @@ Read first: /home/user/claude_composes/symphony/mvt3/critics/BRIEF.md (your full
 
 Version under review: /home/user/claude_composes/symphony/mvt3/v146/ (score.pdf, sections/*.ily, global.ily, score.ly, sections.txt, analysis.txt, critique.md).
 Your lens: Playability, instrument by instrument: ranges, breathing, bowing, harp pedalling, timpani tuning and retuning, percussion, brass endurance in a loud finale, divisi, solos, mutes.
-Focus: After cycles 141-145: string playability in the passages changed this batch (78 dotted peak at f with the down-bow, 81 Vla/Vc counter, 84-86 bass arpeggio, the violas' I6 eighths at 86) and across the development 99-134.
+Focus: After cycles 141-145: timpani and percussion writing and playability across the whole movement (tunings and retuning time, the motive-x quotation at 143-145, the pulse pattern 229-230 and 265-277, the roll and crash at 223, the cut at 264.1, cymbal and bass drum only at 223, 263, 278).
 
 Your main source is Dan's reference books (Dan, 2026-10-09: "I want greater coverage and use of the books. the focus should be on the books content"). They are in /home/user/claude_composes/reference-books/; INVENTORY.md is the index, and per-page text is in text/<book>/p0123.txt (4-digit PDF page). Book file names are listed in INVENTORY.md (e.g. aldwell-schachter = "harmony and voice leading.pdf", rimsky-principles = "principles of form.pdf", adler1/adler2 = the two Adler parts, gould-behind-bars = "behind bars.pdf", sebesky = "the contemporary arrange - sedesky.pdf"). The PDFs themselves are in /home/user/claude_composes/pdfs/.
 
