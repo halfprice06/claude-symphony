@@ -165,6 +165,10 @@ v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 render
 ## Batch checkpoint after cycle 146 (2026-10-16)
 v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles (133, 140, 141, 144) found nothing to change. Next: cycle 147 reviews v147 (lens 7 texture).
 
+## Cycle 151 (lens 1 melody, Aldwell & Schachter Unit 21, second pass) v151 → v152
+- Accepted: Hn 4 drone breaks at 166 so the trio cadence's 4–3 resolves.
+- Kept: 155/160 drone, 200 (c117), 110–111/310–311 (c112). Rejected: 4–3 at 187–192.
+
 ## Cycle 150 (lens 10 cyclic, Rimsky-Korsakov prefaces and ch. IV, second pass) v150 → v151
 - Accepted: Bsn 1 pp under the horn call at 4–8; records to v151 / finale v174.
 - Kept: coda T hand-overs 344–349; additions during the dying ending 369–375 (G♯ hand-over, c050/c130).
