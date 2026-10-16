@@ -753,3 +753,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 181 (v181 → v182), lens 1 melody (A&S Unit 20, second pass)
 - Accepted: Bn 1 C4-D4-A3 at 126-127 (no fifths with the violas); violas' figure at 25-26 (no augmented second at V-VI).
 - Do-not-touch: hand-over 123-130; canon 226-230 (inside 223-234).
+
+## Cycle 182 (v182 → v183), lens 2 harmony, coda (A&S Unit 5, second pass)
+- Accepted: F in the ii7 at 242 (harp, Fl 2); P line E6 at 252; Hn 3·4 C4 at 239; Ob 2 holds C5 at 261; A4 at 249; low bass doublings by step at 225-227 and 249-250.
+- Note for finale.md item 8: P head continuation E6 at 252.
+- Do-not-touch: 223 arrival and 222→223; both chorale top lines and the canon; plagal close 231-234; 235-247 progression with its single G♯ voice; 255-263 cadence with Tpt 1 B→C; close 273-279.
