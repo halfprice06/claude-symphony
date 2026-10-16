@@ -712,3 +712,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 171 (v171 → v172), lens 1 melody (A&S Unit 3, second pass)
 - Accepted: Vln I answer moved to 119 over the bassoon solo's held C4; Vln I D♭6 on 211 beat 4 (reverses c159's keep of the passing C6).
 - Do-not-touch: bassoon solo 115-122; hand-over 123-130; stretto and strokes 139-150; theme B recall 211-218 with the G♭6-F6 suspension; arrival and chorale 223-234; both chorale top lines.
+
+## Cycle 172 (v172 → v173), lens 2 harmony (A&S Unit 27, second pass)
+- Accepted: Hn 4 A♭3→G3 then D4 at 138-146 (no doubled leading tone); Vln II E♭5 alone at 117.2; Vln II B♭4 at 115 (7th of D7 resolves down).
+- Do-not-touch: B bass 139-146 with no C (stop chord resolves to C only at 222→223); 147-150 with no ♭9.
