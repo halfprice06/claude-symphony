@@ -52,7 +52,7 @@ motiveXrepeated = { b,4 b,8 b,8 b,4 }
 % retransition entries (first 8 notes = bars 1-2)
 %@ themeA Vla 89 8
 %@ themeA Vla 241 8
-%@ themeA VlnTwo 245 8
+%@ themeA ClOne 245 8
 %@ secondIdeaG VlnOne 45
 %@ secondIdeaG FluteOne 45
 %@ secondIdeaG OboeOne 45
