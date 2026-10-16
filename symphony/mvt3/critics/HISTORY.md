@@ -507,3 +507,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 121 (v121 → v122), lens 1 melody (Adler ch. 3)
 - Accepted: F1 head a third higher at 267-268 (no third identical statement); 272 takes F1's consequent peak A-G-F (A6); cellos mf on F2's counter 187-196, f at 198. finale.md F1 entries updated; no other movement quotes F1.
 - Do-not-touch: chorale top lines 224-228 and 255-264; 222→223; last cadence 259-263; close 273-279 with the scherzo quotation.
+
+## Cycle 122 (v122 → v123), lens 2 harmony (A&S Unit 17; Unit 21 pedal)
+- Accepted: IV6/4 under the F1 peak at 272 (Hn 3-4, Bn 1, Vla div., Tpt 3 A4); harp LH G2 at 238 (not under the bass pedal).
+- Open (kept): motto C-B against F1 B-C at 267.4.
