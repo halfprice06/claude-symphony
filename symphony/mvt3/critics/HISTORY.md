@@ -749,3 +749,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 180 (v180 → v181), lens 10 coherence + release check (A&S Unit 28, second pass)
 - No score change. finale.md current to v180.
 - Do-not-touch: bars 1-2; 163; 205-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 181 (v181 → v182), lens 1 melody (A&S Unit 20, second pass)
+- Accepted: Bn 1 C4-D4-A3 at 126-127 (no fifths with the violas); violas' figure at 25-26 (no augmented second at V-VI).
+- Do-not-touch: hand-over 123-130; canon 226-230 (inside 223-234).
