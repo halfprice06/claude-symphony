@@ -159,6 +159,9 @@ v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 126 (2026-10-16)
 v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle 127 reviews v127 (lens 7 texture).
 
+## Cycle 135 (lens 5 engraving, MOLA, second pass) v135 → v136
+- Accepted: solo labels after rests on combined staves; pp at 271 (Vln II, Va); cue starts moved off empty bars; Hn cue at 193 from Vln II; harp part pedal line stripped; parts top margin 20 mm.
+
 ## Cycle 134 (lens 4 orchestration, Adler ch. 15, second pass) v134 → v135
 - Accepted: hidden MIDI dynamics after bare \! hairpin ends at 52 (Vln II), 265 (Fl 1, Vln I), 353/355 (Vln I); violas mf at 45.
 - Note for later critics: a hairpin ended by \! keeps fading in the MIDI to the next printed dynamic; check melody velocities against accompaniment (scan idea: compare with a no-hairpin build).
