@@ -498,3 +498,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 147-150 Ob 2 D5/B4 and Hn 3-4 F4/D4 (concords within pairs); Vc/Cb f at 273 under divided upper strings; Vln I G4-B4 at 245 (V4/3 bass not doubled).
 - Open: chorale top octave 257-263 thinner than v109 (protected, still balances).
 - Note: scherzo v94 changed the trio tune's second statement (180-184); the finale does not quote the trio.
+
+## Cycle 120 (v120 → v121), lens 10 coherence + release check (A&S Unit 26)
+- No score change. finale.md updated to v121 (239-247 harmony and Cbsn C1 corrected); BRIEF.md: scherzo ends with timpani motive x ppp, no roll (since scherzo v91; the 2026-10-12 HISTORY entry above is outdated on this point).
+- Batch 111-120 checkpointed to main by PR; parts rebuilt in v121.
+- Do-not-touch: link at bars 1-2; I-III-IV-V plan with C7 as V of F and B♮ bass 138-146; 216-223; both chorale top lines; 273-276 close with the scherzo quotation.
