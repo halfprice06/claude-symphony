@@ -511,3 +511,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 122 (v122 → v123), lens 2 harmony (A&S Unit 17; Unit 21 pedal)
 - Accepted: IV6/4 under the F1 peak at 272 (Hn 3-4, Bn 1, Vla div., Tpt 3 A4); harp LH G2 at 238 (not under the bass pedal).
 - Open (kept): motto C-B against F1 B-C at 267.4.
+
+## Cycle 123 (v123 → v124), lens 3 form (Rimsky ch. IV)
+- Accepted: 268 Fl/Vln I fill E-D-C-B into 269; 265-272 bass/brass foundation f then cresc. 269-271 (no eight-bar flat ff); tuba ff at 247.
+- Confirmed: coda length; A6 at 272 as the close's top note (C7 stays reserved for 223).
