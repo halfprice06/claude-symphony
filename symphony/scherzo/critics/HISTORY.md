@@ -149,6 +149,9 @@ Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project 
 ## Batch checkpoint after cycle 96 (2026-10-16)
 v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 reviews v97 (lens 7 texture).
 
+## Cycle 100 (lens 10 cyclic, release check) v100 → v101
+Release check passed; both accepted (v101/critique.md): subtitle with tempo; coherence/scherzo.md refreshed. No musical change. Finale exports unchanged v86–v101 (41/41).
+
 ## Cycle 99 (lens 9 holistic, Dvořák 8/iii; Casanelles ch. 6) v99 → v100
 All 3 accepted (v100/critique.md): coda harp chords up an octave at 345–348; harp pp under the trio solos at 153/185; Hn 1 pp at 241. Do-not-touch: accompaniment one dynamic level under the tune and out of its register (Casanelles PDF 271–278).
 

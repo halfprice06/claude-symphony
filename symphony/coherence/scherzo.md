@@ -1,7 +1,7 @@
 # Scherzo (movement III) current state for the other movements
 
-Owner: the scherzo thread ("Scherzo actor critic loops"). Only the scherzo thread edits this file. Updated 2026-10-13 13:00 UTC.
-Current version: symphony/scherzo/v95 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pages; rehearsal letters added at 169, 225, 277, 357 in v46). Bar numbers below are v24. History: v03 392 bars; v04 cut 8 trio bars (bars after 196 −8); v24 cut 4 retransition bars (v23 245–328 → −4) and 4 bars of the reprise close (v23 333–384 → −8).
+Owner: the scherzo thread ("Continue movement 3 loop" since 2026-10-16). Only the scherzo thread edits this file. Updated 2026-10-16.
+Current version: symphony/scherzo/v101 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pages; rehearsal letters added at 169, 225, 277, 357 in v46). Bar numbers below are v24. History: v03 392 bars; v04 cut 8 trio bars (bars after 196 −8); v24 cut 4 retransition bars (v23 245–328 → −4) and 4 bars of the reprise close (v23 333–384 → −8).
 
 ## Opening (bars 1–12, Allegro vivace, dotted minim = 88)
 - Bars 1–2: Hn 1 alone, G♯4 pp, fermata on bar 2 since v21 (about 2.7 s) (movement II's A♭ respelt). Vc/Cb pizz. E at 3.
@@ -16,7 +16,7 @@ Current version: symphony/scherzo/v95 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pag
 - 341 Meno mosso (tempo del Trio, dotted minim = 76): trio tune T in A major (IV) in Hn 1 (341) and Cl 1 (345), pivot E at 348, then E major in Vln I + Fl 1 (349) (since v14).
 - 357–360: Hn 1 p, the motto's chromatic tail B4–A♯4–A4–G♯4 over E – A♯°7 – A minor – E (plagal close).
 - 375: the harp harmonic E4 is the scherzo's last E4; the finale's E♭4 (violas, Vln II, Cl 2, Hn 2) answers it at the same pitch, as movement II's violas answer movement I's E4 (noted at c070).
-- 360–376: Hn 1 holds G♯4 pp (breath 366–367 covered by Hn 3 G♯4 at 365–369), fading to ppp over 372–375. Vln I G♯5 ppp from 369. Timpani motive x ppp on B–B–B–E at 363, 367 and 371 (soft sticks from 341), then a last E at 375; no closing roll since v91, so the ending does not copy movement I's (two pulses, ppp roll, harp under a held violin); harp E-major chord in harmonics (sounding E4–G♯4–B4, p, since v27) and Vc pizz. E2 / Cb pizz. E1 at 375 (the cellos' arco E3 stops at 364). Last sound: Hn 1 G♯4 and Vln I G♯5 alone, E major implied, final fermata.
+- 360–376: Hn 1 holds G♯4 pp (breath 366–367 covered by Hn 3 G♯4 at 365–369), fading to ppp over 372–375. Vln I G♯5 ppp from 369. Timpani motive x B–B–B–E pp at 363 and 367, ppp at 371 (soft sticks from 341), then a last E at 375; no closing roll since v91, so the ending does not copy movement I's (two pulses, ppp roll, harp under a held violin); harp E-major chord in harmonics (sounding E4–G♯4–B4, p, since v27) and Vc pizz. E2 / Cb pizz. E1 at 375 (the cellos' arco E3 stops at 364). Last sound: Hn 1 G♯4 and Vln I G♯5 alone, E major implied, final fermata.
 - For the finale: take that G♯ as A♭ (enharmonic link). The scherzo does not close the E♭/E♮ (D♯/E) thread; the finale's violas still do.
 
 ## Key plan
@@ -37,7 +37,7 @@ Not locked (Dan, 2026-10-12): they may evolve. Current exact notes in themes-sch
 ## Scoring rules kept for the finale (cyclic rules)
 No C-major key or triad; trumpets only in tutti rhythm or motive x (Tpt 3 tacet); no string tremolo, cymbals, bass drum, high horn unison, tuba melody, brass chorale, full low-brass unison bass; violins at most B6 (once, bar 336).
 
-## What the finale relies on (finale v27, 2026-10-12 22:41 UTC); tell the finale thread before changing any of these
+## What the finale relies on (checked against finale v111 at scherzo c100, 2026-10-16; finale now v121, no quotation changed); tell the finale thread before changing any of these
 - The last G♯ in Hn 1 (G♯4) and Vln I (G♯5): the finale continues it as A♭ in the same players and pitch.
 - The final timpani tuning E, G, B, E (finale label: retune E → G, G → A♭, B → C, E → E♭).
 - Theme A's first two bars (E–B–B–E | G–F♯–F–E, crotchet, two quavers, crotchet | minim, two quavers): quoted in C major at finale 275–276 (finale v30).
