@@ -519,3 +519,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 124 (v124 → v125), lens 4 orchestration (Adler ch. 15)
 - Accepted: Tbn 1-2 rest 269-270, ff at 271; timpani C (not G) at 272 under IV6/4.
 - Do-not-touch: cellos mf on F2's counter 187-198 (confirmed twice, c121/c124).
+
+## Cycle 125 (v125 → v126), lens 5 engraving (Gould ch. 1-2 spacing, unisons)
+- Accepted: a2 labels for Tpt 1-2 at 271 and Hn 1-2 at 273; ff restated in Vln I-II, Vla at 273.
