@@ -565,3 +565,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 136 (v136 → v137), lens 6 playability (Adler ch. 9-10 brass)
 - Accepted: Hn 1 enters 141 on beat 2; Hn 1/3 rest on 206.4; Hn 3-4 rest 215-218; brass breaths after 146 and 223; Cl 2 part 10 systems per page (c135 open point closed).
+
+## Cycle 137 (v137 → v138), lens 7 texture (Adler ch. 16)
+- Accepted: clarinets hold 159-165 (counter-line clear); Vla/Vc E♭3-F3 at 197; Hn 1 A♭4 at 169; Bn 1 C4-G3 at 126.
