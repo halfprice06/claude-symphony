@@ -652,3 +652,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: Vln II unison with Vln I at 205-206; violas A♭4/C5 at 205-206; Hn 3 held D4 at 130; Bn 1 C4→B3 at 131-132.
 - Open: 131-132 settled G (from c153).
 - Do-not-touch: bassoon solo 115-122; F2 hand-over 123-130; stretto 139-150; D♭ episode 211-222.
+
+## Cycle 158 (v158 → v159), lens 8 expression (Sebesky ch. 1, 6, second pass)
+- Accepted: Vln II and violas mf from 207 under the F1 head; Hn 4 mf < at 130.
+- Open: 131-132 settled G (from c153).
+- Do-not-touch: 211-222 dynamic path; arrival 223-234; horn call 243-246 (no Tpt crescendo, c084).
