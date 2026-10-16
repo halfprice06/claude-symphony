@@ -156,6 +156,12 @@ v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 1
 ## Batch checkpoint after cycle 116 (2026-10-16)
 v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle 117 reviews v117 (lens 7 texture).
 
+## Batch checkpoint after cycle 126 (2026-10-16)
+v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle 127 reviews v127 (lens 7 texture).
+
+## Cycle 126 (lens 6 playability, Adler ch. 6–7 second pass) v126 → v127
+All 3 accepted (v127/critique.md): winds and Hn 1·2 breathe at 300; Fl 1 by step to B6 at 335; Hn 3 rests 233–236 under Bsn 1. Do-not-touch: the breath at 300 (winds) and the ⊓/V split at 300 (strings, c096).
+
 ## Cycle 125 (lens 5 engraving, Gould spacing second pass) v125 → v126
 Both accepted (v126/critique.md): oboe lines swapped at 333–339 (no crossing); tenutos at the stem end at 105–120 (low brass) and 201–202 (Vln II).
 
