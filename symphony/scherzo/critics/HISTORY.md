@@ -165,6 +165,10 @@ v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 render
 ## Batch checkpoint after cycle 146 (2026-10-16)
 v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles (133, 140, 141, 144) found nothing to change. Next: cycle 147 reviews v147 (lens 7 texture).
 
+## Cycle 154 (lens 4 orchestration, Adler ch. 11, second pass) v154 → v155
+- Accepted: brass chord balance at the coda peak (Hn 3 F♯4 at 336–338, Hn 1 B4 at 339).
+- Kept: 101–104/301–304, 105–120, 305–320 (c115), 333–335, trio horns.
+
 ## Cycle 153 (lens 3 form, Adler ch. 15 and 17, second pass) v153 → v154
 - Accepted: harp accompaniment thins through the codetta 225–236 (answers c133's one static place without a cut).
 - Kept: proportions, both E-pedal closes, link, retransition, coda timing.
