@@ -156,6 +156,9 @@ v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 1
 ## Batch checkpoint after cycle 116 (2026-10-16)
 v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle 117 reviews v117 (lens 7 texture).
 
+## Cycle 122 (lens 2 harmony, A&S Unit 17 second pass) v122 → v123
+Both accepted (v123/critique.md): sequence octaves removed at 76–77 (Hn 4) and 82–83 (Hn 3, Bsn 1); no doubled leading tone at 52 (Cl 1). c052's open point on 49–51 closed. Do-not-touch: the episode's rising bass F–G–A (C-major rule).
+
 ## Cycle 121 (lens 1 melody, Adler ch. 3 second pass) v121 → v122
 Both accepted (v122/critique.md): T bar 6 `cis4 fis2` in all statements (theme change, logged above; closes cycle 1's open point); "sul A" removed at 169. Do-not-touch: theme A; second-idea hemiola; T's tied A and 4–3 cadence; harp melody 73–80; B6 at 336; motto tail 357–360.
 
