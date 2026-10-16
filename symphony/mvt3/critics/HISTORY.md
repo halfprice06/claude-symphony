@@ -589,3 +589,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 142 (v142 → v143), lens 2 harmony (A&S Units 24-25)
 - Accepted: complete iv7 under the solo's climax at 61-62 and 181-182 (Cl 2 6-5, Vla third, Bn 1 root of V); bass A♭-F-D-E♭ at 84; Cl 2 resolves on beat 3 at 58-59 and 178-179.
 - Open (kept): V7-I6 at 74→75 and 194→195.
+
+## Cycle 143 (v143 → v144), lens 3 form (A&S Unit 18)
+- Accepted: 86 imperfect cadence on I6 (bass A♭→G, arpeggio continues into the 6/3 bridge); 83-90 one phrase. Closing-group length confirmed.
