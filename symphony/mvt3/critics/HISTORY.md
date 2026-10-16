@@ -737,3 +737,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 177 (v177 → v178), lens 7 texture (Adler ch. 8, second pass)
 - Accepted: Cl 2 and Bn 1 (octave below) on the F1 head 207-208, Fl 2 rests 207-208; Tbn 2 E3 at 255-256 stepping to C3.
 - Do-not-touch: arrival and chorale 223-234 with 222→223; both chorale top lines and the cut at 264.1; 247-254 (trombones' octave, c071/c091); close 265-279.
+
+## Cycle 178 (v178 → v179), lens 8 expression (Adler ch. 7, second pass)
+- Accepted: horns and Tbn 1·2 mp at 207-208; Fl 2 breath before 223; Cl 2 rests at 101-102 and 105-106.
+- Do-not-touch: 211-223 dynamic path; flutes' staggered breaths 255-264; bassoon solo 115-122; cor anglais 217-218; arrival and chorale 223-234.
