@@ -149,6 +149,9 @@ Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project 
 ## Batch checkpoint after cycle 96 (2026-10-16)
 v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 reviews v97 (lens 7 texture).
 
+## Cycle 104 (lens 4 orchestration, Rimsky-Korsakov ch. III second pass) v104 → v105
+Both accepted (v105/critique.md): Hn 2 F♯4 at 119/319 (no horn second); Fl 2 B5 at 339 (fifth in the final woodwind chord). Do-not-touch: clarinets inside the horns in the second idea (c014); the F-major episode wind chord 73–88.
+
 ## Cycle 103 (lens 3 form, A&S Unit 26 second pass) v103 → v104
 Both accepted (v104/critique.md): stale header comments in coda/dA/tC corrected; coherence/scherzo.md key plan refreshed. No musical change. Do-not-touch: the key plan 13–104 (c083); G minor at 289; link 133–152; the length.
 
