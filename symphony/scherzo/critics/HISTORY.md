@@ -168,6 +168,10 @@ v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles
 ## Batch checkpoint after cycle 156 (2026-10-16)
 v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 rendered with r07 for Dan. Next: cycle 157 reviews v157 (lens 7 texture).
 
+## Cycle 161 (lens 1 melody, Adler ch. 11, second pass) v161 → v162
+- Accepted: Cl 1 takes theme A's head at 245 (colour change in the retransition canon); theme record moved to ClOne 245.
+- Do-not-touch: theme A, trio tune, harp melody 73–80, tenor second idea 281–287, 357–376.
+
 ## Cycle 160 (lens 10 cyclic, Sebesky ch. 1 and 9, second pass) v160 → v161
 - Accepted: Hn 4 part "senza sord." at 73; Bsn 2 B2 pedal under the horn call (Bsn 1 B3 from 7); records to finale v182.
 - Kept: soft ending before the finale; motto-close rhyme with the finale (c060).
