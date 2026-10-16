@@ -162,6 +162,10 @@ v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 136 (2026-10-16)
 v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 rendered with r07 for Dan (assets rebuilt to /mnt/project-files/render-assets/). Next: cycle 137 reviews v137 (lens 7 texture).
 
+## Cycle 142 (lens 2 harmony, Aldwell & Schachter Units 24–25, second pass) v142 → v143
+- Accepted: inner octaves at 220–221 removed (Vc/Bsn 2 hold F♯3).
+- Rejected: added-6th IV in the codetta/close; applied 4/3 chords at 81–84 (c052).
+
 ## Cycle 141 (lens 1 melody, Sebesky ch. 6–7, second pass) v141 → v142
 - No findings needing change; six points kept (c094, c027, c047, c110 protections; closing page; pizz. bass level).
 
