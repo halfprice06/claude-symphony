@@ -568,3 +568,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 137 (v137 → v138), lens 7 texture (Adler ch. 16)
 - Accepted: clarinets hold 159-165 (counter-line clear); Vla/Vc E♭3-F3 at 197; Hn 1 A♭4 at 169; Bn 1 C4-G3 at 126.
+
+## Cycle 138 (v138 → v139), lens 8 expression (Casanelles ch. 4, 6)
+- Accepted: low strings dim. under the theme-B echo 217-218 (p at 219); swells at F2's peaks 68-70 and 188-190; movement I's phrasing on the S-head quotation 234-238; Hn espress. at 217.
+- Do-not-touch: 219 sub. p → 223 fff with timpani roll, first crash and C7; 187-198 bow plan.
