@@ -675,3 +675,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 162 (v162 → v163), lens 2 harmony (A&S Units 30-31, second pass)
 - Accepted: Vln II B♭ at 64.4; Fl 2/Ob 1 B♭ at 38.3; viola D-C-C♭-B♭ at 46-47; C♭ neighbour in Vla/Vc at 81.2.
 - Do-not-touch: German sixth 1-2; trumpet solo 51-66; horn pedal and 6/3 bridge 83-90; 9-8 at 49; bass trombone B♭ 41-42; 222→223.
+
+## Cycle 163 (v163 → v164), lens 3 form (A&S Units 6-8, second pass)
+- Accepted: V4/2 bass at 74 and 194; V without 7th at 165; Bn 1 F3→E♭3 at 171; Vln II D at 46.
+- Closed: c142's 74→75 joint.
+- Do-not-touch: F1, F2, chorale top line; viola descent 46-47 with 9-8 at 49; 187-223 key path through 222→223; no PAC in the recap (by design).
