@@ -532,3 +532,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 128 (v128 → v129), lens 8 expression (Adler ch. 11, 15)
 - Accepted: harmony and timpani cut on 264.1 (top line, woodwinds and low strings dim.) so the scale figure 263-264 is heard; string hairpins 257-259; Cbsn ff at 247; hairpins closed at 277.
+
+## Cycle 129 (v129 → v130), lens 9 master comparison (Dvořák 8/iv; v119)
+- Accepted: brass seconds/sevenths moved out of one family at 130-131 (Hn 4 A3), 147-150 (Hn 3 D4), 207-210 (Tbn 2 E♭3), 238 (Hn 3/4 D4/G3); woodwind f at 257 and ff at 259 in the last chorale (c033/c038's plan answered: rest 255-256, re-entry 257 and build kept).
+- Do-not-touch: the harmony cut at 264.1 (c128, confirmed c129).
