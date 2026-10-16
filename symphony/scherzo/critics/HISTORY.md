@@ -152,6 +152,9 @@ v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 revie
 ## Batch checkpoint after cycle 106 (2026-10-16)
 v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 107 reviews v107 (lens 7 texture).
 
+## Cycle 109 (lens 9 holistic, Brahms 2/iii; Rimsky-Korsakov examples 1–60 second pass) v109 → v110
+Accepted (v110/critique.md): Hn 3 an octave lower at 121–128. Nothing worse than v99. Open: Cl 1 crossing Ob 1/Vln II in the second idea (protected by c014).
+
 ## Cycle 108 (lens 8 expression, Rimsky-Korsakov ch. IV second pass) v108 → v109
 All 5 accepted (v109/critique.md): accompaniment a level under the tune at 29–35 and 45; crescendo into 336; crescendos through 249–252; fades at 8 and 147–148. Do-not-touch: leggiero theme over pp off-beats 13–28; coda build 325–333; sfp at 301; closing page 357–376.
 
