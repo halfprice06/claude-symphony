@@ -142,8 +142,11 @@ All 4 accepted (v35/critique.md): low brass rest at 336–338 and return on 339;
 ## Cycle 35 (lens 5 engraving, Gould PDF 53–68) v35 → v36
 Findings 1–7 accepted (v36/critique.md): solo labels on shared staves, aligned hairpins, bassoon solo at 73, oboe unison at 44/276, collision fixes at 369–376, double bar at P. 8 rejected (centring held notes in narrow bars).
 
-## Paused 2026-10-13 ~23:10 UTC (Dan: usage limit)
-Cycle 87's critic stopped before reporting; nothing unpromoted. Resume from v87 with cycle 87 (see ../CHECKPOINT.md).
+## Resumed 2026-10-16 (Dan: "pick up from where their actor critic loops stopped and continue them")
+Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project thread, working in the git checkout (/home/user/claude_composes) instead of /mnt/project-files; kit paths changed accordingly, book PDFs in pdfs/. Checkpoint PRs to main every ten cycles. Theme changes go to the movement IV thread "Continue movement 4 loop". The mount-expiry rule above no longer applies (no shared mount); commit and push after each promotion instead.
+
+## Cycle 87 (lens 7 texture, Rimsky-Korsakov ch. II) v87 → v88
+Both accepted (v88/critique.md): Bsn 2 doubles the trio cellos' countermelody at 209–224 (both bassoons mf); cor anglais doubles the violas' lower octave at 333–339. Open: Ob 2 alone on the lower octave at 101–104/301–304. Do-not-touch: no strings on the lower octave at 105–112 (c067).
 
 ## Cycle 86 (lens 6 playability, Sebesky ch. 2) v86 → v87
 All 3 accepted (v87/critique.md): cor anglais takes Ob 1's low falling figure at 44/276; Bsn 1 breaths at 116/316 and rest at 300; coda low brass f at 333. Do-not-touch (critic): tutti brass writing (horns on beats 1 and 3, trumpets on motive x, single low-brass downbeats), the trio horn pair 209–224, the closing horn page 357–376.
