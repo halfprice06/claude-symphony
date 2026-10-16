@@ -4,7 +4,7 @@ set -e
 M=/home/user/claude_composes/symphony/scherzo
 NEW=$(printf %02d $1); PREV=$(printf %02d $2); SRC=$3
 W=/tmp/sch/v$NEW; rm -rf $W; mkdir -p $W
-(cd $SRC && tar cf - --exclude='*.wav' --exclude='score-r0*.mp3' --exclude=build --exclude=probe --exclude=base --exclude='pg*' --exclude='*.png' .) | (cd $W && tar xf -)
+(cd $SRC && tar cf - --exclude='*.wav' --exclude='score-r0*.mp3' --exclude=build --exclude=probe --exclude=base --exclude='pg*' --exclude='*.png' --exclude='perinst*' --exclude='pi.*' --exclude='pi[-0-9]*' .) | (cd $W && tar xf -)
 sed -i -e "s/draft v$PREV\"/draft v$NEW\"/" $W/score.ly
 bash $M/tools/build.sh $W score.ly >/dev/null 2>&1 || true
 # instrumental parts (since c075): rebuild so partsout always matches the score
