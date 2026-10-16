@@ -152,6 +152,9 @@ v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 revie
 ## Batch checkpoint after cycle 106 (2026-10-16)
 v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 107 reviews v107 (lens 7 texture).
 
+## Cycle 111 (lens 1 melody, Rimsky-Korsakov ch. II winds second pass) v111 → v112
+Accepted (v112/critique.md): Vln II with Vln I at 41–43/273–275 under the a2 winds. Do-not-touch: wind a2 at 37–44/273–275 (c107) with both violin sections on the tune.
+
 ## Cycle 110 (lens 10 cyclic, A&S Unit 32 second pass) v110 → v111
 No musical change; coherence/scherzo.md refreshed; finale told the scherzo ends ppp. Do-not-touch: G♯ = A♭ frame (1–2, 360–376); held A with C♯→C at 72–73; F→F♯ exit at 86–88; motto tail 205–209 and 357–360; timpani tunings at both joins.
 
