@@ -536,3 +536,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 129 (v129 → v130), lens 9 master comparison (Dvořák 8/iv; v119)
 - Accepted: brass seconds/sevenths moved out of one family at 130-131 (Hn 4 A3), 147-150 (Hn 3 D4), 207-210 (Tbn 2 E♭3), 238 (Hn 3/4 D4/G3); woodwind f at 257 and ff at 259 in the last chorale (c033/c038's plan answered: rest 255-256, re-entry 257 and build kept).
 - Do-not-touch: the harmony cut at 264.1 (c128, confirmed c129).
+
+## Cycle 130 (v130 → v131), lens 10 coherence + release check (Casanelles ch. 5)
+- Accepted: finale.md current to v131 (147-150 seventh, 255-264 unison, Più allegro corrected); cor anglais joins Hn 1's theme-B answer 217-218, A♭4-G4 219-220.
+- Batch 121-130 checkpointed to main by PR (after PR #20).
+- Do-not-touch: link 1-2; 222→223; both chorale top lines and the cut on 264.1; last cadence 259-263; close 273-279 with the scherzo quotation.
