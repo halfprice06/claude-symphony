@@ -466,3 +466,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 111 (v111 → v112), lens 1 melody (Rimsky ch. II, PDF 64-80)
 - Accepted: Tpt 1-2 half-note fanfare strokes 148-150 (peak G5 at 150); Fl 1 D6 at 150 (top D6-C6 into 151); "poco a poco più animato" and \mt 172 moved from 203 to 205 (199-204 quotation stays at Tempo I), 176 at 207.
 - Do-not-touch: stretto 139-146 with timpani motive x; 123-130 hand-over; arrival and chorale 222-234; R at 88.
+
+## Cycle 112 (v112 → v113), lens 2 harmony (A&S Units 11-13)
+- Accepted: Hn 3 B3 at 18 and D4 at 23.4 (ii7 seventh resolves down; ii6 under 2-7); Vln II E♭5-G5 at 119 (iiø7, no bare diminished triad).
+- Open: 38.1 clarinet leaps into the seventh; 16.3/17.3 root-position diminished triad in F1's accompaniment; 78.1 spacing gap.
