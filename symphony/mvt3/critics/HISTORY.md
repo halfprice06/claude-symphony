@@ -667,3 +667,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - No score change. finale.md current to v160.
 - Closed: "131-132 settled G" (keep the G cadence; it sets up the stop chord at 138).
 - Do-not-touch: bars 1-2; 216-223 with 222→223; arrival and chorale 223-234 with the C bass at 229-230; both chorale top lines and the cut at 264.1; last cadence 259-263; close 273-279; 205-208 violas (four changes in five cycles).
+
+## Cycle 161 (v161 → v162), lens 1 melody (Adler ch. 11 melodic, second pass)
+- Accepted: bass trombone holds B♭2 through the diminuendo 41-42.
+- Do-not-touch: no trombones on F1 at 27-34 (their first melody is the chorale at 224); 235-279.
