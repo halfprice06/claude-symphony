@@ -741,3 +741,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 178 (v178 → v179), lens 8 expression (Adler ch. 7, second pass)
 - Accepted: horns and Tbn 1·2 mp at 207-208; Fl 2 breath before 223; Cl 2 rests at 101-102 and 105-106.
 - Do-not-touch: 211-223 dynamic path; flutes' staggered breaths 255-264; bassoon solo 115-122; cor anglais 217-218; arrival and chorale 223-234.
+
+## Cycle 179 (v179 → v180), lens 9 master comparison (Saint-Saëns 3; v169)
+- Accepted: MIDI tempo 205-210 rises one step per bar to 92.
+- Do-not-touch: 205-210 scoring (rescored in c176, c177, c178); coda tempo plan 199-279.
