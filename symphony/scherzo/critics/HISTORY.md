@@ -162,6 +162,9 @@ v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 136 (2026-10-16)
 v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 rendered with r07 for Dan (assets rebuilt to /mnt/project-files/render-assets/). Next: cycle 137 reviews v137 (lens 7 texture).
 
+## Cycle 141 (lens 1 melody, Sebesky ch. 6–7, second pass) v141 → v142
+- No findings needing change; six points kept (c094, c027, c047, c110 protections; closing page; pizz. bass level).
+
 ## Cycle 140 (lens 10 cyclic, Adler ch. 1 and ch. 15, second pass) v140 → v141
 - No score change. Records updated; kit/ceg.py added (C–E–G inside larger chords: six passing cases kept).
 - Rejected: G♯5 gap 365–368, trumpet/timpani alternation, second idea's rising sixth, Hn 1 rests at 144/240.
