@@ -159,6 +159,11 @@ v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 126 (2026-10-16)
 v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle 127 reviews v127 (lens 7 texture).
 
+## Cycle 133 (lens 3 form, Aldwell & Schachter Units 16 and 19, second pass) v133 → v134
+- No findings (all c043 points fixed; every 6/4 functional; development key plan matches Ex. 16-2b).
+- Kept: trio exit length (as c103/c113/c123), coda stages, direct V–I joins.
+- Do-not-touch: large form and length, development and reprise key plans, the dominant pedals' 6/4 openings, 353–356, 357–376.
+
 ## Cycle 132 (lens 2 harmony, Aldwell & Schachter Units 22–23, second pass) v132 → v133
 - Accepted: d5→P5 removed at 79→80 (Hn 4, harp LH) and 126→127 (Bsn 1); the D♯°7 seventh prepared at 85–88 (Hn 3/Bsn 1 swap undone).
 - Kept: 282→283 Hn 1 C5 (c082 rule); 266→267 passing quaver; 87→88 Cl 2.
