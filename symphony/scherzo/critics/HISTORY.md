@@ -162,6 +162,10 @@ v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 136 (2026-10-16)
 v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 rendered with r07 for Dan (assets rebuilt to /mnt/project-files/render-assets/). Next: cycle 137 reviews v137 (lens 7 texture).
 
+## Cycle 139 (lens 9 holistic, Rimsky-Korsakov examples, second pass; Tchaikovsky 5/iii) v139 → v140
+- Accepted: appoggiatura clash at 131/287 resolved; horns re-enter pp at 195; oboes together on the tail at 334.
+- Do-not-touch: form and length, second idea and hemiola, trio tune and 197–200 layering, 325–339, 357–376.
+
 ## Cycle 138 (lens 8 expression, Casanelles ch. 4 and 6, second pass) v138 → v139
 - Accepted: hidden one-step dynamics so untargeted swells stay one level in the MIDI; F-major episode phrasing (harp slurs/swells, Cl portato); tapers at the trio hand-overs 167–168, 183–184.
 - Note: untargeted hairpins in LilyPond MIDI jump about +28 velocity; give every swell a (hidden) target.
