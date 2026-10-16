@@ -745,3 +745,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 179 (v179 → v180), lens 9 master comparison (Saint-Saëns 3; v169)
 - Accepted: MIDI tempo 205-210 rises one step per bar to 92.
 - Do-not-touch: 205-210 scoring (rescored in c176, c177, c178); coda tempo plan 199-279.
+
+## Cycle 180 (v180 → v181), lens 10 coherence + release check (A&S Unit 28, second pass)
+- No score change. finale.md current to v180.
+- Do-not-touch: bars 1-2; 163; 205-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
