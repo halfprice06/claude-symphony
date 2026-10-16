@@ -758,3 +758,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: F in the ii7 at 242 (harp, Fl 2); P line E6 at 252; Hn 3·4 C4 at 239; Ob 2 holds C5 at 261; A4 at 249; low bass doublings by step at 225-227 and 249-250.
 - Note for finale.md item 8: P head continuation E6 at 252.
 - Do-not-touch: 223 arrival and 222→223; both chorale top lines and the canon; plagal close 231-234; 235-247 progression with its single G♯ voice; 255-263 cadence with Tpt 1 B→C; close 273-279.
+
+## Cycle 183 (v183 → v184), lens 3 form, whole movement (A&S Unit 14, second pass)
+- Accepted: V4/2 at 133-134 (cellos, basses F; violas D) after the G cadence.
+- Do-not-touch: development key plan with the G cadence at 131-132; retransition 135-150; coda arrivals 199, 223, 247, 263, 278 with both chorale top lines.
