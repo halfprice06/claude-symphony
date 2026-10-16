@@ -503,3 +503,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - No score change. finale.md updated to v121 (239-247 harmony and Cbsn C1 corrected); BRIEF.md: scherzo ends with timpani motive x ppp, no roll (since scherzo v91; the 2026-10-12 HISTORY entry above is outdated on this point).
 - Batch 111-120 checkpointed to main by PR; parts rebuilt in v121.
 - Do-not-touch: link at bars 1-2; I-III-IV-V plan with C7 as V of F and B♮ bass 138-146; 216-223; both chorale top lines; 273-276 close with the scherzo quotation.
+
+## Cycle 121 (v121 → v122), lens 1 melody (Adler ch. 3)
+- Accepted: F1 head a third higher at 267-268 (no third identical statement); 272 takes F1's consequent peak A-G-F (A6); cellos mf on F2's counter 187-196, f at 198. finale.md F1 entries updated; no other movement quotes F1.
+- Do-not-touch: chorale top lines 224-228 and 255-264; 222→223; last cadence 259-263; close 273-279 with the scherzo quotation.
