@@ -692,3 +692,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 166 (v166 → v167), lens 6 playability (Rimsky ch. I, second pass)
 - Accepted: Hn 1-2 rest 34.4; breaths at 140 (Bn 1-2, Hn 3-4) and 198 (Hn 1-2); Cl 1 takes the counter-line 159-165 from Ob 2; trumpets mf at 151; basses F at 33.4.
 - Do-not-touch: trumpet solo 51-66; horn/bassoon pad 75-82; horn pedal and clarinet octave 83-86; Vln I divisi 159-164; Vln I B♭6 at 78.
+
+## Cycle 167 (v167 → v168), lens 7 texture (Sebesky ch. 3, second pass)
+- Accepted: Vln I single top line with Fl 1 at 91-94, Vln II double stops; Vln II f and winds mf under the tune at 159-165; winds mf under F2's string peak at 78-82.
+- Do-not-touch: 151-166 layout (c134); Bn 1 at 87-90 (c058).
