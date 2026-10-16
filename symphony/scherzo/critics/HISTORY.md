@@ -168,6 +168,10 @@ v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles
 ## Batch checkpoint after cycle 156 (2026-10-16)
 v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 rendered with r07 for Dan. Next: cycle 157 reviews v157 (lens 7 texture).
 
+## Cycle 159 (lens 9 holistic, Adler part 1 full scores, second pass; Borodin 2/ii) v159 → v160
+- Accepted: Vln II unison with Vln I at 305–308; stale comment fixed.
+- Verdict: nothing worse since v149. Do-not-touch: hemiola cadences, timpani motive x, strings-only fugato/stretto, trio layering 153–224, 357–376.
+
 ## Cycle 158 (lens 8 expression, Sebesky ch. 1 and 6, second pass) v158 → v159
 - Accepted: focus on the moving line at 205–208; cello countermelody shaped at 177–184; codetta swells 225–236; bass pp at 185.
 - Kept: second idea dynamic plans, fugato p entries, 339 accents (non-brass), 375 levels.
