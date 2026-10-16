@@ -165,6 +165,9 @@ v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 render
 ## Batch checkpoint after cycle 146 (2026-10-16)
 v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles (133, 140, 141, 144) found nothing to change. Next: cycle 147 reviews v147 (lens 7 texture).
 
+## Cycle 148 (lens 8 expression, Aldwell & Schachter Unit 3, second pass) v148 → v149
+- Accepted: bass tenutos in the tuttis; accented hemiola minims at 101–104/301–304 (no brass); pizz. bass pp at 153/341.
+
 ## Cycle 147 (lens 7 texture, Rimsky-Korsakov ch. III, second pass) v147 → v148
 - Accepted: Hn 4 own part at 201–204; horns mf at 41/273.
 - Kept: 79/87, 75–76/83, 45–56, 105–120, 276 (earlier protections).
