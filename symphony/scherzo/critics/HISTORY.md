@@ -152,6 +152,12 @@ v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 revie
 ## Batch checkpoint after cycle 106 (2026-10-16)
 v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 107 reviews v107 (lens 7 texture).
 
+## Batch checkpoint after cycle 116 (2026-10-16)
+v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle 117 reviews v117 (lens 7 texture).
+
+## Cycle 116 (lens 6 playability, Adler ch. 4 harp second pass) v116 → v117
+Both accepted (v117/critique.md): harp starting pedals at bar 1; étouffez at 87, 193, 241. Open: harmonics at 375 an octave low in the MIDI render only.
+
 ## Cycle 115 (lens 5 engraving, Gould ledger lines and rests second pass) v115 → v116
 Accepted (v116/critique.md): Hn 3·4 in bass clef at 301–320 in the score only.
 
