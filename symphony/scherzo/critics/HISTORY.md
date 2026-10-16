@@ -45,6 +45,7 @@ The themes are free to evolve under the critics. symphony/coherence/themes-scher
 
 - v82 (cycle 81): trio tune T, bars 10–11 of every full statement (162, 178, 218, 350). Old e''4 gis''2 | a''4. gis''8 fis''4. New e''4 gis''4 a''4~ | a''4. gis''8 fis''4 (the A anticipated and tied). Record refreshed; finale told (it does not quote T).
 - v94 (cycle 93): trio tune T, second statement only (Vln I 169, Vln II an octave lower), bars 180–184. Old cis'''4 b'' a'' | gis''4 b'' e'''~ | e'''4 dis''' fis''' | e'''2.~ | e'''2 r4. New cis'''4 b'' gis'' | dis''4 fis'' b''~ | b''4 ais'' cis''' | b''2.~ | b''2 r4 (T's cadence moved to B, the trio's first V key area). Record line now checks its first 27 notes; finale told (it does not quote T).
+- v122 (cycle 121): trio tune T, bar 6 of every statement (158, 174, 214; coda 346 in A major). Old cis''2 fis''4. New cis''4 fis''2 (the second phrase's peak on beat 2 and held, not the first phrase's rhythm a step higher; open since cycle 1). Record refreshed; finale told (it does not quote T).
 
 ## Cycle 4 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v04 → v05
 All 8 findings accepted (reasons in v05/critique.md): horn chords split and tutti balance 105–120/309–324 with Vln II on the theme; harp RH out of the trio off-beats 169–184/209–224; F-major episode thinned (Cl rests, harp chord to LH); Hn 2 lower in the second idea 45–56; Hn 1·2 thirds/sixths 209–224; violas pizz. 257–276; 87–88 doubling; tuba E1 at 341–343. Themes unchanged. Keep: harp alone with the theme head at 73–80; no plucked off-beats doubled by bowed ones.
@@ -154,6 +155,9 @@ v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 1
 
 ## Batch checkpoint after cycle 116 (2026-10-16)
 v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle 117 reviews v117 (lens 7 texture).
+
+## Cycle 121 (lens 1 melody, Adler ch. 3 second pass) v121 → v122
+Both accepted (v122/critique.md): T bar 6 `cis4 fis2` in all statements (theme change, logged above; closes cycle 1's open point); "sul A" removed at 169. Do-not-touch: theme A; second-idea hemiola; T's tied A and 4–3 cadence; harp melody 73–80; B6 at 336; motto tail 357–360.
 
 ## Cycle 120 (lens 10 cyclic, A&S Unit 26 second pass) v120 → v121
 No musical change; coherence/scherzo.md refreshed; finale thread pointed to the current scherzo coherence files. Do-not-touch: applied V of V (not IV) in the G-major cadence 51–55 (C-major rule).
