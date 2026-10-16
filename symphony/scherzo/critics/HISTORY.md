@@ -162,6 +162,10 @@ v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 136 (2026-10-16)
 v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 rendered with r07 for Dan (assets rebuilt to /mnt/project-files/render-assets/). Next: cycle 137 reviews v137 (lens 7 texture).
 
+## Cycle 138 (lens 8 expression, Casanelles ch. 4 and 6, second pass) v138 → v139
+- Accepted: hidden one-step dynamics so untargeted swells stay one level in the MIDI; F-major episode phrasing (harp slurs/swells, Cl portato); tapers at the trio hand-overs 167–168, 183–184.
+- Note: untargeted hairpins in LilyPond MIDI jump about +28 velocity; give every swell a (hidden) target.
+
 ## Cycle 137 (lens 7 texture, Adler ch. 16, second pass) v137 → v138
 - Accepted: viola turn figure at 193–196; viola chords clear of the cello countermelody at 177/179, 217/219.
 - Kept: theme A inner voices, coda ostinato, link 141–148, tutti octaves 109–118, Hn 1 held B4, codetta, fugato and stretto.
