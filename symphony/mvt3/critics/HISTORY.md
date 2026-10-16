@@ -460,3 +460,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: Hn 2 F♯4 at 219 (respelling carried); held D♭ ff>f at 216–217; finale.md corrected. Relay after cycle 110 sent.
 
 ### PAUSED 2026-10-13 23:10 UTC at v111 (Dan: usage limit). Cycle 111 critic stopped early, nothing written. See mvt3/CHECKPOINT.md.
+
+### RESUMED 2026-10-16 01:10 UTC in thread "Continue movement 4 loop" (session cse_01QDtx9SfJvuVALZjuqD7wEm), working in the git checkout /home/user/claude_composes (kit paths changed from /mnt/project-files). Batches of 10 cycles, each checkpointed to main by PR. Scherzo loop: session cse_019MVHJqMqMN1aRTnYSzHgLw ("Continue movement 3 loop"), resumed at scherzo v87.
+
+## Cycle 111 (v111 → v112), lens 1 melody (Rimsky ch. II, PDF 64-80)
+- Accepted: Tpt 1-2 half-note fanfare strokes 148-150 (peak G5 at 150); Fl 1 D6 at 150 (top D6-C6 into 151); "poco a poco più animato" and \mt 172 moved from 203 to 205 (199-204 quotation stays at Tempo I), 176 at 207.
+- Do-not-touch: stretto 139-146 with timpani motive x; 123-130 hand-over; arrival and chorale 222-234; R at 88.
