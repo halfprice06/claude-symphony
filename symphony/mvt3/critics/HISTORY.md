@@ -592,3 +592,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 143 (v143 → v144), lens 3 form (A&S Unit 18)
 - Accepted: 86 imperfect cadence on I6 (bass A♭→G, arpeggio continues into the 6/3 bridge); 83-90 one phrase. Closing-group length confirmed.
+
+## Cycle 144 (v144 → v145), lens 4 orchestration (Adler ch. 8)
+- Accepted: Hn 1-2 B♭ pedal 83-86; Ob 1 rests 81-82.2 (back for the run); Bn 1 D3-F3 at 58; Cl 1 rests 97-98.
