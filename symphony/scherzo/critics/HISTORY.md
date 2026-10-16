@@ -145,6 +145,9 @@ Findings 1–7 accepted (v36/critique.md): solo labels on shared staves, aligned
 ## Resumed 2026-10-16 (Dan: "pick up from where their actor critic loops stopped and continue them")
 Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project thread, working in the git checkout (/home/user/claude_composes) instead of /mnt/project-files; kit paths changed accordingly, book PDFs in pdfs/. Checkpoint PRs to main every ten cycles. Theme changes go to the movement IV thread "Continue movement 4 loop". The mount-expiry rule above no longer applies (no shared mount); commit and push after each promotion instead.
 
+## Cycle 92 (lens 2 harmony, A&S Unit 5 second pass) v92 → v93
+All 7 accepted (v93/critique.md): Cl 1 G5 resolves the V7 seventh at 105/305; parallels removed at 67–68 (Vc), 194–195 (Cl 2), 199–201 (Bsn 1), 215–216 (Hn 2 holds F♯4), 345–347 (Vla); no doubled leading tone at 182/222 (Vla <a fis'>), Bsn 1 F♯4 at 211. Open: Hn 1 vs cellos 220→221 octaves (no clean fix found). Do-not-touch: the seventh's resolution at 105/305 is in Cl 1, not the flutes (settles c052 vs c065); plagal close 357–360; hemiola cadences; coda cadence voicing 354–355.
+
 ## Cycle 91 (lens 1 melody, A&S Unit 20 second pass) v91 → v92
 Accepted (v92/critique.md): the trio call's first bar is a true turn E–F♯–E–D♯–E at 185/197 (answer D♯–E–D♯–C♯–D♯ at 189). Do-not-touch: C♯ in the E-minor second idea at 128/284 (cmajor rule).
 
