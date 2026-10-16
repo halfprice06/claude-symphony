@@ -680,3 +680,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: V4/2 bass at 74 and 194; V without 7th at 165; Bn 1 F3→E♭3 at 171; Vln II D at 46.
 - Closed: c142's 74→75 joint.
 - Do-not-touch: F1, F2, chorale top line; viola descent 46-47 with 9-8 at 49; 187-223 key path through 222→223; no PAC in the recap (by design).
+
+## Cycle 164 (v164 → v165), lens 4 orchestration (Adler ch. 5, second pass)
+- Accepted: Cl 1-2 F1 head up an octave at 83-86; clarinets f at 151; Bn 2 E♭2-E♭3 at 194.
+- Do-not-touch: Vln I octave divisi 159-166 (c109); F1, F2, chorale top line.
