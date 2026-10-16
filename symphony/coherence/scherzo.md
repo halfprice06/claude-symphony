@@ -1,13 +1,13 @@
 # Scherzo (movement III) current state for the other movements
 
 Owner: the scherzo thread ("Scherzo actor critic loops"). Only the scherzo thread edits this file. Updated 2026-10-13 13:00 UTC.
-Current version: symphony/scherzo/v91 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pages; rehearsal letters added at 169, 225, 277, 357 in v46). Bar numbers below are v24. History: v03 392 bars; v04 cut 8 trio bars (bars after 196 −8); v24 cut 4 retransition bars (v23 245–328 → −4) and 4 bars of the reprise close (v23 333–384 → −8).
+Current version: symphony/scherzo/v95 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pages; rehearsal letters added at 169, 225, 277, 357 in v46). Bar numbers below are v24. History: v03 392 bars; v04 cut 8 trio bars (bars after 196 −8); v24 cut 4 retransition bars (v23 245–328 → −4) and 4 bars of the reprise close (v23 333–384 → −8).
 
 ## Opening (bars 1–12, Allegro vivace, dotted minim = 88)
 - Bars 1–2: Hn 1 alone, G♯4 pp, fermata on bar 2 since v21 (about 2.7 s) (movement II's A♭ respelt). Vc/Cb pizz. E at 3.
 - Bars 3–6: Hn 1 G♯3–E4–D♯4, D♯4 held through 5–6 and not resolved (movement I's horn call E♭3–C4–B3 with its rising sixth, scale degrees 3–1–7, in E major; unresolved since v31 so the finale keeps the resolution). Hn 1 plays the call alone (since v91; Hn 2 rests, Bsn 1 holds B3 from bar 4, as movement I's call is one horn). Vc/Cb pizz. E at 7 with the clarinets' E minor.
 - Bars 7–8: Cl 1 E5 over Cl 2 G4 and Bsn 1 B3 pp turn the chord to E minor (G♮). Since v41 no instrument plays E4 here: the horn call's D♯4 (5–6) is not resolved in its own phrase, and E sounds only in other octaves. Later the horns use D♯4→E4 as an ordinary leading tone (Hn 2 in the tuttis, Hn 3 at 333 and 339), so the finale's Hn 3 at IV 219–220 answers the call's phrase, not the first D♯4→E4 in the horns.
-- Bars 9–12: timpani alone, motive x (crotchet, two quavers, crotchet): B–B–B–G, E, B–B–B–E. B–G–E is movement II's last timpani figure (E♭–C–A♭, its 84–85) a major third lower; the finale's timpani carry it on to G (143–145). Keep this link (c090).
+- Bars 9–12: timpani alone, motive x (crotchet, two quavers, crotchet): B–B–B–G, E, B–B–B–E. B–G–E is movement II's last timpani figure (E♭–C–A♭, its 84–85) a major third lower; (the finale's timpani at 143–145 quote only the repeated-note form of motive x, on G). Keep this link to movement II (c090).
 - Timpani label at bar 1 (since v11): "retune in the pause: A♭ → E, C → G, D♭ → B, E♭ → E" (from movement II's A♭, C, D♭, E♭); "hard sticks" (v21). Last bar (v21): "muta: low E in G, G in A♭, B in C, high E in E♭ (for the Finale, in the pause)". Trumpet 3 tacet, stated under the title (v21). Trio retunes G → G♯ ("muta G in G♯"), the retransition back ("muta G♯ in G"). Final tuning at the end of the movement: E, G, B, E (the E-major coda uses only E and B).
 - Hn 3·4 marked "senza sord." at their first entry (bar 73) as a reminder; movement II (v201) has them con sord. at 87–90 and "via sord." at 91, so they arrive open.
 

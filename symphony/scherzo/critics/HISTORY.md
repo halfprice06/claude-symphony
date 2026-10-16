@@ -146,6 +146,9 @@ Findings 1–7 accepted (v36/critique.md): solo labels on shared staves, aligned
 ## Resumed 2026-10-16 (Dan: "pick up from where their actor critic loops stopped and continue them")
 Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project thread, working in the git checkout (/home/user/claude_composes) instead of /mnt/project-files; kit paths changed accordingly, book PDFs in pdfs/. Checkpoint PRs to main every ten cycles. Theme changes go to the movement IV thread "Continue movement 4 loop". The mount-expiry rule above no longer applies (no shared mount); commit and push after each promotion instead.
 
+## Cycle 95 (lens 5 engraving, Gould ch. 1 second pass) v95 → v96
+Accepted (v96/critique.md): stems.ily engraver sets middle-line stems by context in score and parts. Do-not-touch: stems.ily (remove only if a critic shows a wrong stem it causes).
+
 ## Cycle 94 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v94 → v95
 All 6 accepted (v95/critique.md): Hn 1·2 thirds at 218–219; harp LH rests 169–184; Ob 2 rests 197–200; Cl 2 A4 at 41–42/273–274 and 51; C.a./Cl 2 order swapped at 133–136/321–323. Open: bass in one octave only at 209–224. Do-not-touch: Hn 1·2 in thirds and sixths in the trio return (c004, c094).
 
