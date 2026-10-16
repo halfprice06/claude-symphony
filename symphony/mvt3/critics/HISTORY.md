@@ -581,3 +581,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - No score change. finale.md current to v141. c139's open item (Tpt 3 A4 at 252) closed, kept.
 - Batch 131-140 added to the checkpoint PR.
 - Do-not-touch: bars 1-2 with the violas' E♭4; 216-223 with 222→223; both chorale top lines and the cut at 264.1; last cadence 259-263; close 273-279.
+
+## Cycle 141 (v141 → v142), lens 1 melody (Sebesky ch. 6-7)
+- Accepted: dotted peak at 78 (Vln I-II, Fl 1, Ob 1); Cl 2 moving under the half cadences at 58 and 178; Vla/Vc counter at 81.
+- Do-not-touch: trumpet solo 51-66 and 171-186 (peaks at 62/182 stay plain).
