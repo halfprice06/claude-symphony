@@ -149,6 +149,9 @@ Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project 
 ## Batch checkpoint after cycle 96 (2026-10-16)
 v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 reviews v97 (lens 7 texture).
 
+## Cycle 105 (lens 5 engraving, Gould beams second pass) v105 → v106
+All 3 accepted (v106/critique.md): beam callback in score.ly (c015) corrected for mid-space ends, slopes and concave groups. Do-not-touch: stems.ily (c095); stem lengths in shared two-voice staves; string beaming of theme A and motive x.
+
 ## Cycle 104 (lens 4 orchestration, Rimsky-Korsakov ch. III second pass) v104 → v105
 Both accepted (v105/critique.md): Hn 2 F♯4 at 119/319 (no horn second); Fl 2 B5 at 339 (fifth in the final woodwind chord). Do-not-touch: clarinets inside the horns in the second idea (c014); the F-major episode wind chord 73–88.
 
