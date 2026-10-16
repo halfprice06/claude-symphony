@@ -684,3 +684,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 164 (v164 → v165), lens 4 orchestration (Adler ch. 5, second pass)
 - Accepted: Cl 1-2 F1 head up an octave at 83-86; clarinets f at 151; Bn 2 E♭2-E♭3 at 194.
 - Do-not-touch: Vln I octave divisi 159-166 (c109); F1, F2, chorale top line.
+
+## Cycle 165 (v165 → v166), lens 5 engraving (MOLA, parts)
+- Accepted: cues at 91, 143-147, 197-199; Vln I and cello page turns on rests; rest ranges clear of marks; percussion rest ranges; stray "arco" removed (67, 187); Vln II "sul G" dashed line 81-82.
+- Do-not-touch: score MIDI (part-only changes).
