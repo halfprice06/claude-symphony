@@ -610,3 +610,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 148 (v148 → v149), lens 8 expression (A&S Unit 3)
 - Accepted: cresc. through 198 into 199; pad swells to mp at 78 (p at 81).
+
+## Cycle 149 (v149 → v150), lens 9 master comparison (Bruckner 4/iv; v139)
+- Accepted: violin tremolo mf at 224-225; clarinets in thirds at 77-79. finale.md: 263 is the first (not only) root V-I.
