@@ -470,3 +470,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 112 (v112 → v113), lens 2 harmony (A&S Units 11-13)
 - Accepted: Hn 3 B3 at 18 and D4 at 23.4 (ii7 seventh resolves down; ii6 under 2-7); Vln II E♭5-G5 at 119 (iiø7, no bare diminished triad).
 - Open: 38.1 clarinet leaps into the seventh; 16.3/17.3 root-position diminished triad in F1's accompaniment; 78.1 spacing gap.
+
+## Cycle 113 (v113 → v114), lens 3 form and pacing (A&S Unit 32)
+- Accepted: 82 tune holds E♭ a half then runs G-A♭-B♭-D cresc. into 83 (animando now carried); finale.md updated.
+- Do-not-touch: the 187-223 path (♭VI-♭II-Ger6-V-I, 222→223); arrival and chorale 223-234; last cadence 259-263.
