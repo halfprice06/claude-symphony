@@ -720,3 +720,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 173 (v173 → v174), lens 3 form, coda (A&S Unit 15, second pass)
 - Accepted: MIDI tempo steps 2 = 88/90/92 at 205-210 under the printed più animato.
 - Do-not-touch: R at 247 at 2 = 88; E-major chord at 243 with the horn call; cut on 264.1; 265-272.
+
+## Cycle 174 (v174 → v175), lens 4 orchestration (Casanelles ch. 6, second pass)
+- Accepted: Hn 3-4 rest 143-144 under the horns' F1 head; Vln I answers pp at 119 and 122; harp p at 123.
+- Do-not-touch: stretto entries and timpani 139-150; harp notes and pedals 123-130 (c116); Hn 1-2 held F4 at 103-104.
