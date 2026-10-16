@@ -37,7 +37,7 @@ Not locked (Dan, 2026-10-12): they may evolve. Current exact notes in themes-sch
 ## Scoring rules kept for the finale (cyclic rules)
 No C-major key or triad; trumpets only in tutti rhythm or motive x (Tpt 3 tacet); no string tremolo, cymbals, bass drum, high horn unison, tuba melody, brass chorale, full low-brass unison bass; violins at most B6 (once, bar 336).
 
-## What the finale relies on (checked against finale v111 at scherzo c100, 2026-10-16; finale now v121, no quotation changed); tell the finale thread before changing any of these
+## What the finale relies on (checked against finale v111 at scherzo c100, 2026-10-16; finale v131, no quotation changed (finale thread, 2026-10-16)); tell the finale thread before changing any of these
 - The last G♯ in Hn 1 (G♯4) and Vln I (G♯5): the finale continues it as A♭ in the same players and pitch.
 - The final timpani tuning E, G, B, E (finale label: retune E → G, G → A♭, B → C, E → E♭).
 - Theme A's first two bars (E–B–B–E | G–F♯–F–E, crotchet, two quavers, crotchet | minim, two quavers): quoted in C major at finale 275–276 (finale v30).

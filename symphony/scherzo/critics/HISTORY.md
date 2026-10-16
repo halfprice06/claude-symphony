@@ -149,6 +149,12 @@ Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project 
 ## Batch checkpoint after cycle 96 (2026-10-16)
 v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 reviews v97 (lens 7 texture).
 
+## Cycle 106 (lens 6 playability, Adler ch. 3 second pass) v106 → v107
+Accepted (v107/critique.md): cellos div. at 244 for the French-sixth pizz. Do-not-touch: viola lines 241–248 (c037/c062/c098).
+
+## Batch checkpoint after cycle 106 (2026-10-16)
+v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 107 reviews v107 (lens 7 texture).
+
 ## Cycle 105 (lens 5 engraving, Gould beams second pass) v105 → v106
 All 3 accepted (v106/critique.md): beam callback in score.ly (c015) corrected for mid-space ends, slopes and concave groups. Do-not-touch: stems.ily (c095); stem lengths in shared two-voice staves; string beaming of theme A and motive x.
 
