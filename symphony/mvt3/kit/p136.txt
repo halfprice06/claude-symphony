@@ -4,7 +4,7 @@ Read first: /home/user/claude_composes/symphony/mvt3/critics/BRIEF.md (your full
 
 Version under review: /home/user/claude_composes/symphony/mvt3/v136/ (score.pdf, sections/*.ily, global.ily, score.ly, sections.txt, analysis.txt, critique.md).
 Your lens: Playability, instrument by instrument: ranges, breathing, bowing, harp pedalling, timpani tuning and retuning, percussion, brass endurance in a loud finale, divisi, solos, mutes.
-Focus: After cycles 131-135: playability of the passages changed this batch (Bn 1 A4-G4-F4 at 117 pp, Ob 2's eighth-note counter-line 159-166 at ff, Hn 1-2 at 165-166, Fl 2 at E♭6 83-86) and the open Cl 2 part page-2 compression from c135 (parts-only fix if needed).
+Focus: After cycles 131-135: brass playability and endurance across the whole movement, especially Hn 1-2 at 165-166, the trumpets' fanfare strokes 147-150 after the stretto, the C-major close 247-279 (Tpt 1-2 on the chorale line 255-264, then F1 and the close), and the open Cl 2 part page-2 compression from c135 (parts-only fix if simple).
 
 Your main source is Dan's reference books (Dan, 2026-10-09: "I want greater coverage and use of the books. the focus should be on the books content"). They are in /home/user/claude_composes/reference-books/; INVENTORY.md is the index, and per-page text is in text/<book>/p0123.txt (4-digit PDF page). Book file names are listed in INVENTORY.md (e.g. aldwell-schachter = "harmony and voice leading.pdf", rimsky-principles = "principles of form.pdf", adler1/adler2 = the two Adler parts, gould-behind-bars = "behind bars.pdf", sebesky = "the contemporary arrange - sedesky.pdf"). The PDFs themselves are in /home/user/claude_composes/pdfs/.
 

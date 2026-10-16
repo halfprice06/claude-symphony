@@ -562,3 +562,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: unison flute line 83-86; score-only Oboe 2 staff 158-170; page-2 bar numbers; Ob 2 cue 197-198; bar ranges under multi-measure rests in parts; Bn 1 courtesy natural at 116.
 - Open: Cl 2 part page 2 over-full (parts-only fix in c135.md).
 - Note: scherzo ends ppp (scherzo thread, scherzo v111); intro.ily comment corrected.
+
+## Cycle 136 (v136 → v137), lens 6 playability (Adler ch. 9-10 brass)
+- Accepted: Hn 1 enters 141 on beat 2; Hn 1/3 rest on 206.4; Hn 3-4 rest 215-218; brass breaths after 146 and 223; Cl 2 part 10 systems per page (c135 open point closed).
