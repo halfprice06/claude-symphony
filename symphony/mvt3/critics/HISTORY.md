@@ -657,3 +657,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: Vln II and violas mf from 207 under the F1 head; Hn 4 mf < at 130.
 - Open: 131-132 settled G (from c153).
 - Do-not-touch: 211-222 dynamic path; arrival 223-234; horn call 243-246 (no Tpt crescendo, c084).
+
+## Cycle 159 (v159 → v160), lens 9 master comparison (Mahler 1/iv; v149)
+- Accepted: Hn 4 back to v149 A3 quarters at 130-131 (reverses c154's doubling); violas whole notes at 231-233 (Vln II keeps the portato); violas C5/E♭5 at 205-206.
+- Open: 131-132 settled G (from c153).
+- Do-not-touch: 216-223 with B→C and G→C at 222→223; arrival chord and chorale top lines (no more inner layers 223-234); last cadence 259-263; close 273-279.
