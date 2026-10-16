@@ -152,6 +152,9 @@ v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 revie
 ## Batch checkpoint after cycle 106 (2026-10-16)
 v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 107 reviews v107 (lens 7 texture).
 
+## Cycle 114 (lens 4 orchestration, Rimsky-Korsakov tutti chords second pass) v114 → v115
+All 3 accepted (v115/critique.md): Hn 4 holds the bass an octave up at 305–320 (c097 kept at 105–120); contrabassoon an octave above the basses at 213–222; Fl 2/Ob 1 order at 104/304. Do-not-touch: the octave above the bass filled in every tutti (Rimsky appendix).
+
 ## Cycle 113 (lens 3 form, A&S Unit 32 second pass) v113 → v114
 Both accepted (v114/critique.md): smooth MIDI tempo curve through the rit. and accelerando 237–264; comment fix. Do-not-touch: the large form and length (c083, c103, c113).
 
