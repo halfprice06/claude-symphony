@@ -155,6 +155,9 @@ v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 1
 ## Batch checkpoint after cycle 116 (2026-10-16)
 v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle 117 reviews v117 (lens 7 texture).
 
+## Cycle 117 (lens 7 texture, Adler ch. 15 second pass) v117 → v118
+Both accepted (v118/critique.md): the trio's oboe call moves against the tune's held notes at 198–200; basses pp at 65. Do-not-touch: 197–200 layering (call above, tune below, distinct rhythms) after c091, c094, c107, c117.
+
 ## Cycle 116 (lens 6 playability, Adler ch. 4 harp second pass) v116 → v117
 Both accepted (v117/critique.md): harp starting pedals at bar 1; étouffez at 87, 193, 241. Open: harmonics at 375 an octave low in the MIDI render only.
 
