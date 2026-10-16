@@ -700,3 +700,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 168 (v168 → v169), lens 8 expression (MOLA, second pass)
 - Accepted: one level per attack at 166; f on the 103 re-entry; Vln II "cantabile" at 67 and 187.
 - Do-not-touch: trumpet solos 51-66 and 171-186 with pp accompaniment; 77-82 balance (c167); codetta 91-94; 138 stop chord sf > over sub. p (c028); 187-198 bow plan.
+
+## Cycle 169 (v169 → v170), lens 9 master comparison (Franck; v159)
+- Accepted: trumpets rest at 151-158, enter mf at 159.
+- Do-not-touch: the rest of the 151-166 layout (c134); coda 247-279.
