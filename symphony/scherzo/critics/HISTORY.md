@@ -165,6 +165,10 @@ v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 render
 ## Batch checkpoint after cycle 146 (2026-10-16)
 v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles (133, 140, 141, 144) found nothing to change. Next: cycle 147 reviews v147 (lens 7 texture).
 
+## Cycle 149 (lens 9 holistic, Rimsky-Korsakov examples, second pass; Mahler 1/ii) v149 → v150
+- Accepted: horns re-enter pp < mf at 41–43/273–275 (refines c147).
+- Rejected: Mahler's stopped/bells-up horns and portamento (soft-brass rule, models).
+
 ## Cycle 148 (lens 8 expression, Aldwell & Schachter Unit 3, second pass) v148 → v149
 - Accepted: bass tenutos in the tuttis; accented hemiola minims at 101–104/301–304 (no brass); pizz. bass pp at 153/341.
 
