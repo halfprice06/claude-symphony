@@ -165,6 +165,9 @@ v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 render
 ## Batch checkpoint after cycle 146 (2026-10-16)
 v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles (133, 140, 141, 144) found nothing to change. Next: cycle 147 reviews v147 (lens 7 texture).
 
+## Batch checkpoint after cycle 156 (2026-10-16)
+v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 rendered with r07 for Dan. Next: cycle 157 reviews v157 (lens 7 texture).
+
 ## Cycle 156 (lens 6 playability, Adler App. A, second pass) v156 → v157
 - Accepted: reprise second-idea horn line to Hn 3 at 277–288 (Hn 1 endurance); Cl 2 breath at 204.
 - Kept: Hn 1 C♯5 at 72/213–215/220/300; B6 at 336; Cl 2 C♯3 at 88 (A clarinet's lowest note).
