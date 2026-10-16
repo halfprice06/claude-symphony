@@ -168,6 +168,10 @@ v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles
 ## Batch checkpoint after cycle 156 (2026-10-16)
 v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 rendered with r07 for Dan. Next: cycle 157 reviews v157 (lens 7 texture).
 
+## Cycle 158 (lens 8 expression, Sebesky ch. 1 and 6, second pass) v158 → v159
+- Accepted: focus on the moving line at 205–208; cello countermelody shaped at 177–184; codetta swells 225–236; bass pp at 185.
+- Kept: second idea dynamic plans, fugato p entries, 339 accents (non-brass), 375 levels.
+
 ## Cycle 157 (lens 7 texture, Sebesky ch. 1, second pass) v157 → v158
 - Accepted: V6/5 of V reharmonisation at 213–216; cello countermelody mf at 209–224.
 - Do-not-touch: trio first statement 153–168, fugato 57–68, 29–36, codetta 225–236, 357–376.
