@@ -716,3 +716,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 172 (v172 → v173), lens 2 harmony (A&S Unit 27, second pass)
 - Accepted: Hn 4 A♭3→G3 then D4 at 138-146 (no doubled leading tone); Vln II E♭5 alone at 117.2; Vln II B♭4 at 115 (7th of D7 resolves down).
 - Do-not-touch: B bass 139-146 with no C (stop chord resolves to C only at 222→223); 147-150 with no ♭9.
+
+## Cycle 173 (v173 → v174), lens 3 form, coda (A&S Unit 15, second pass)
+- Accepted: MIDI tempo steps 2 = 88/90/92 at 205-210 under the printed più animato.
+- Do-not-touch: R at 247 at 2 = 88; E-major chord at 243 with the horn call; cut on 264.1; 265-272.
