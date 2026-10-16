@@ -165,6 +165,10 @@ v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 render
 ## Batch checkpoint after cycle 146 (2026-10-16)
 v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles (133, 140, 141, 144) found nothing to change. Next: cycle 147 reviews v147 (lens 7 texture).
 
+## Cycle 150 (lens 10 cyclic, Rimsky-Korsakov prefaces and ch. IV, second pass) v150 → v151
+- Accepted: Bsn 1 pp under the horn call at 4–8; records to v151 / finale v174.
+- Kept: coda T hand-overs 344–349; additions during the dying ending 369–375 (G♯ hand-over, c050/c130).
+
 ## Cycle 149 (lens 9 holistic, Rimsky-Korsakov examples, second pass; Mahler 1/ii) v149 → v150
 - Accepted: horns re-enter pp < mf at 41–43/273–275 (refines c147).
 - Rejected: Mahler's stopped/bells-up horns and portamento (soft-brass rule, models).
