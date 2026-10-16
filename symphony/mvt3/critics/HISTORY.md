@@ -474,3 +474,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 113 (v113 → v114), lens 3 form and pacing (A&S Unit 32)
 - Accepted: 82 tune holds E♭ a half then runs G-A♭-B♭-D cresc. into 83 (animando now carried); finale.md updated.
 - Do-not-touch: the 187-223 path (♭VI-♭II-Ger6-V-I, 222→223); arrival and chorale 223-234; last cadence 259-263.
+
+## Cycle 114 (v114 → v115), lens 4 orchestration (Rimsky tutti appendix, ch. IV examples)
+- Accepted: harp RH rests 82.3-4; Hn 1 G4 at 148-150 (strokes not covered); low strings mp 187-196 under F2 in A♭; Hn 1-2 cresc. through 82.
+- Note: scherzo v91 (cycle 90) rescored its ends (Hn 2 → Bsn 1 under the opening horn call; closing timpani roll → motive x ppp 363-371); no theme change, nothing the finale quotes.
