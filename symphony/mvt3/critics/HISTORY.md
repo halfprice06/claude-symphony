@@ -485,3 +485,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 116 (v116 → v117), lens 6 playability (Adler ch. 4 harp)
 - Accepted: harp "étouffez" at 82 and 243; no low D1 string (242 now D2-D3, tuning note at 67 removed); harp f with LH octaves 239-242.
 - Do-not-touch: the harp's three broken-chord passages and pedal diagrams (67, 123, 235); harp rest 187-198.
+
+## Cycle 117 (v117 → v118), lens 7 texture (Adler ch. 15)
+- Accepted: Fl 2 doubles Vln II arpeggio 8va 257-262; Hn 1-2 cresc. 142, f at 143 (dynamics only in the stretto); Vln II E5 only at 275 (clear of the scherzo quotation).
+- Do-not-touch: stretto 139-146 notes and timpani motive; strokes 147-150; combination 247-254; chorale top lines 224-228 and 255-264.
