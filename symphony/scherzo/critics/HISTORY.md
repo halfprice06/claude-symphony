@@ -159,6 +159,10 @@ v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 126 (2026-10-16)
 v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle 127 reviews v127 (lens 7 texture).
 
+## Cycle 134 (lens 4 orchestration, Adler ch. 15, second pass) v134 → v135
+- Accepted: hidden MIDI dynamics after bare \! hairpin ends at 52 (Vln II), 265 (Fl 1, Vln I), 353/355 (Vln I); violas mf at 45.
+- Note for later critics: a hairpin ended by \! keeps fading in the MIDI to the next printed dynamic; check melody velocities against accompaniment (scan idea: compare with a no-hairpin build).
+
 ## Cycle 133 (lens 3 form, Aldwell & Schachter Units 16 and 19, second pass) v133 → v134
 - No findings (all c043 points fixed; every 6/4 functional; development key plan matches Ex. 16-2b).
 - Kept: trio exit length (as c103/c113/c123), coda stages, direct V–I joins.
