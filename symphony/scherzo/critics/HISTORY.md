@@ -165,6 +165,10 @@ v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 render
 ## Batch checkpoint after cycle 146 (2026-10-16)
 v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles (133, 140, 141, 144) found nothing to change. Next: cycle 147 reviews v147 (lens 7 texture).
 
+## Cycle 147 (lens 7 texture, Rimsky-Korsakov ch. III, second pass) v147 → v148
+- Accepted: Hn 4 own part at 201–204; horns mf at 41/273.
+- Kept: 79/87, 75–76/83, 45–56, 105–120, 276 (earlier protections).
+
 ## Cycle 146 (lens 6 playability, Adler ch. 12 and 14, second pass) v146 → v147
 - Accepted: timpani tenuto at tutti downbeats (supersedes c056's accent); medium sticks 225–288; ppp on the last stroke.
 - Kept: tunings and retunings, tied rolls, 337–339 accents.
