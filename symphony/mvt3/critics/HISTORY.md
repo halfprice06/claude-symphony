@@ -478,3 +478,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 114 (v114 → v115), lens 4 orchestration (Rimsky tutti appendix, ch. IV examples)
 - Accepted: harp RH rests 82.3-4; Hn 1 G4 at 148-150 (strokes not covered); low strings mp 187-196 under F2 in A♭; Hn 1-2 cresc. through 82.
 - Note: scherzo v91 (cycle 90) rescored its ends (Hn 2 → Bsn 1 under the opening horn call; closing timpani roll → motive x ppp 363-371); no theme change, nothing the finale quotes.
+
+## Cycle 115 (v115 → v116), lens 5 engraving (Gould ch. 1 ledger lines, octave signs, rests)
+- Accepted: Vln I C7 at 223 written at pitch (no one-note 8va; stem up); stray \ottava #0 removed from Cb at 82. Parts build checked (30 parts).
