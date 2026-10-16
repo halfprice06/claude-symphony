@@ -708,3 +708,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 170 (v170 → v171), lens 10 coherence + release check (A&S Unit 23, second pass)
 - No score change. finale.md current to v170.
 - Do-not-touch: bars 1-2; 46-49; 216-223 with 222→223; 223-234; 242-244; both chorale top lines and the cut at 264.1; last cadence 259-263; close 273-279.
+
+## Cycle 171 (v171 → v172), lens 1 melody (A&S Unit 3, second pass)
+- Accepted: Vln I answer moved to 119 over the bassoon solo's held C4; Vln I D♭6 on 211 beat 4 (reverses c159's keep of the passing C6).
+- Do-not-touch: bassoon solo 115-122; hand-over 123-130; stretto and strokes 139-150; theme B recall 211-218 with the G♭6-F6 suspension; arrival and chorale 223-234; both chorale top lines.
