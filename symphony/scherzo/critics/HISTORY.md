@@ -162,6 +162,10 @@ v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 136 (2026-10-16)
 v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 rendered with r07 for Dan (assets rebuilt to /mnt/project-files/render-assets/). Next: cycle 137 reviews v137 (lens 7 texture).
 
+## Cycle 145 (lens 5 engraving, Adler ch. 18 and App. A, second pass) v145 → v146
+- Accepted: brass-choir tempo/rehearsal marks restored with a hide-if-no-brass callback; horn and trombone sub-brackets.
+- Rejected: tempo marks above the timpani (crowding).
+
 ## Cycle 144 (lens 4 orchestration, Adler ch. 8, second pass) v144 → v145
 - No findings needing change; five points kept (c127/c132/c016, c107/c111, c054).
 - Do-not-touch: F-major episode 73–88, call and response 29–37, trio layering 153–224, 357–376.
