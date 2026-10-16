@@ -162,6 +162,10 @@ v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 136 (2026-10-16)
 v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 rendered with r07 for Dan (assets rebuilt to /mnt/project-files/render-assets/). Next: cycle 137 reviews v137 (lens 7 texture).
 
+## Cycle 137 (lens 7 texture, Adler ch. 16, second pass) v137 → v138
+- Accepted: viola turn figure at 193–196; viola chords clear of the cello countermelody at 177/179, 217/219.
+- Kept: theme A inner voices, coda ostinato, link 141–148, tutti octaves 109–118, Hn 1 held B4, codetta, fugato and stretto.
+
 ## Cycle 136 (lens 6 playability, Adler ch. 9–10, second pass) v136 → v137
 - Accepted: held fade for Hn 1·2 at 72–73; Hn 2 tenuto, not accent, at 281; Hn 3·4 breath at 104/304.
 
