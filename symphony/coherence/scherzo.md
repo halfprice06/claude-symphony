@@ -1,7 +1,7 @@
 # Scherzo (movement III) current state for the other movements
 
 Owner: the scherzo thread ("Continue movement 3 loop" since 2026-10-16). Only the scherzo thread edits this file. Updated 2026-10-16.
-Current version: symphony/scherzo/v101 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pages; rehearsal letters added at 169, 225, 277, 357 in v46). Bar numbers below are v24. History: v03 392 bars; v04 cut 8 trio bars (bars after 196 −8); v24 cut 4 retransition bars (v23 245–328 → −4) and 4 bars of the reprise close (v23 333–384 → −8).
+Current version: symphony/scherzo/v104 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pages; rehearsal letters added at 169, 225, 277, 357 in v46). Bar numbers below are v24. History: v03 392 bars; v04 cut 8 trio bars (bars after 196 −8); v24 cut 4 retransition bars (v23 245–328 → −4) and 4 bars of the reprise close (v23 333–384 → −8).
 
 ## Opening (bars 1–12, Allegro vivace, dotted minim = 88)
 - Bars 1–2: Hn 1 alone, G♯4 pp, fermata on bar 2 since v21 (about 2.7 s) (movement II's A♭ respelt). Vc/Cb pizz. E at 3.
@@ -20,13 +20,13 @@ Current version: symphony/scherzo/v101 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pa
 - For the finale: take that G♯ as A♭ (enharmonic link). The scherzo does not close the E♭/E♮ (D♯/E) thread; the finale's violas still do.
 
 ## Key plan
-E minor scherzo (second idea in G; fugato G minor → D minor → A minor → A major; harp episode in F major = Neapolitan of E, answering movement I's D♭); trio E major (middle in C♯ minor, A major/minor, B pedal); scherzo reprise E minor (second idea now returns in E minor); coda E minor → E major. Large scale: I C minor – II A♭ – III E – IV C (major thirds).
+E minor scherzo (second idea in G; fugato G minor → D minor → A minor → A major; harp episode in F major = Neapolitan of E, answering movement I's D♭); trio E major (second statement cadences in B, its V, at 183, since v94; middle C♯ minor – B – F♯ minor – C♯ minor – A/A minor – B7); scherzo reprise E minor (second idea now returns in E minor); coda E minor (325–340) → A major (341–348, IV) → E major (349–376). Large scale: I C minor – II A♭ – III E – IV C (major thirds).
 
 ## Themes exported (what the finale may quote)
 Not locked (Dan, 2026-10-12): they may evolve. Current exact notes in themes-scherzo.ly, summary in themes-scherzo.md; every change is logged and sent to the finale thread with old and new notes.
 - Motive x: crotchet, two quavers, crotchet (e.g. timp 9–12; theme A head 13). Rhythmic, repeated-note figure.
 - Theme A: E minor, 13–28, Vln I p leggiero; head E–B–B–E then G–F♯–F–E (motto's chromatic tail on E: F♮ as Neapolitan). Peak bar 24: C6–B5.
-- Second idea: legato, hemiola (three minims over two bars), G major 45–56; E minor in the reprise (271–288).
+- Second idea: legato, hemiola (three minims over two bars), G major 45–56; E minor in the reprise (277–288).
 - Trio tune T: E major, Cl 1 at 153: G♯–A–B–E, D♯–C♯–B, A–G♯ (dotted minim pacing, dolce). Also in the coda 341–356.
 
 ## Themes quoted from earlier movements

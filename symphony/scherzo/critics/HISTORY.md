@@ -149,6 +149,9 @@ Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project 
 ## Batch checkpoint after cycle 96 (2026-10-16)
 v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 reviews v97 (lens 7 texture).
 
+## Cycle 103 (lens 3 form, A&S Unit 26 second pass) v103 → v104
+Both accepted (v104/critique.md): stale header comments in coda/dA/tC corrected; coherence/scherzo.md key plan refreshed. No musical change. Do-not-touch: the key plan 13–104 (c083); G minor at 289; link 133–152; the length.
+
 ## Cycle 102 (lens 2 harmony, A&S Units 9–10 second pass) v102 → v103
 All 3 accepted (v103/critique.md): cadential 6/4 at 195 (bass B); V4/2 passing chord at 123/279; prepared fourth (Vla G4) at 52. Do-not-touch: c032's sequence bass 49–52; hemiola cadences.
 
