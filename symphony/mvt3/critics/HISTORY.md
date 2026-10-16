@@ -642,3 +642,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: page turn 208|209 instead of a 12-bar system 199-210; Hn 3 mf < at 130; harp 8va bassa from 239.
 - Open: 131-132 settled G (from c153).
 - Do-not-touch: 16-page layout; arrival 223-234; theme B recall 211-218.
+
+## Cycle 156 (v156 → v157), lens 6 playability (Adler App. A, second pass)
+- Accepted: Vln I G♭6 tie 210→211 fixed; Bn 1·2 breath after 228.
+- Open: 131-132 settled G (from c153).
+- Do-not-touch: 199-204; 211-223 with B→C 222→223; arrival 223-234; harp 235; horn call 243-246 with Tpt 1 C6.
