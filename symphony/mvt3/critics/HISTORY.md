@@ -595,3 +595,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 144 (v144 → v145), lens 4 orchestration (Adler ch. 8)
 - Accepted: Hn 1-2 B♭ pedal 83-86; Ob 1 rests 81-82.2 (back for the run); Bn 1 D3-F3 at 58; Cl 1 rests 97-98.
+
+## Cycle 145 (v145 → v146), lens 5 engraving (Adler ch. 18, App. A)
+- Accepted: clarinet "2." at 97-98; "1." labels at 61, 77, 105; breaths at 58 (Cl 2, Bn 1) and 82 (Hn 1-2); cues in the Ob 1 and Hn 1-2 parts.
+- Note: scherzo v122 changed the trio tune's bar 6 (not quoted by the finale).
