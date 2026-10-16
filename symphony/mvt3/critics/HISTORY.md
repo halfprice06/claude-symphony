@@ -724,3 +724,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 174 (v174 → v175), lens 4 orchestration (Casanelles ch. 6, second pass)
 - Accepted: Hn 3-4 rest 143-144 under the horns' F1 head; Vln I answers pp at 119 and 122; harp p at 123.
 - Do-not-touch: stretto entries and timpani 139-150; harp notes and pedals 123-130 (c116); Hn 1-2 held F4 at 103-104.
+
+## Cycle 175 (v175 → v176), lens 5 engraving (Adler ch. 2, second pass)
+- Accepted: ties at 95-96; up-bow at 114; viola div./unis. marks cleaned (199, 219); "change bow at will" removed at 229; text outside the slur at 124.
+- Open: bar-number placement at 110, 147, 212, 259, 263, 278 (padding fix costs a page; try a local tweak).
+- Do-not-touch: 16-page layout.
