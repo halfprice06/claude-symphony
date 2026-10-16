@@ -770,3 +770,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 185 (v185 → v186), lens 5 engraving, coda (Gould ch. 1, second pass)
 - Accepted: Hn 3·4 note swap at 257-262 (no crossing); Cl 2 shift at 257-262; bar-number row lowered from 209 (closes c175's open item); Q text on two lines in parts; R above its tempo mark.
 - Do-not-touch: 223-234 with 222→223; both chorale top lines and the cut at 264.1; flute breaths 255-264; cadence 259-263 with Tpt 1 B→C; close 273-279.
+
+## Cycle 186 (v186 → v187), lens 6 playability, coda (Adler ch. 2, second pass)
+- Accepted: bowings 247-254 (accents on down-bows); Hn 3·4 breaths after 250 and 256.
+- Do-not-touch: horn call 243-246; flute breaths 255-264; final chord 278-279.
