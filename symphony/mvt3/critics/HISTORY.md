@@ -493,3 +493,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 118 (v118 → v119), lens 8 expression (Adler ch. 2 bowing)
 - Accepted: slurs per bar on theme B recall 212-214; slur split before the top G6 at 246 (Vln, Vla); bow changes on long holds at 149 and 263; Vln II single slur at 276; change bow at will 217-218 (Vln I-II, Vc).
 - Do-not-touch: F1 bowing 11-26 and 151-166; the 187-198 bow plan with its down-bow peak at 198; viola portato 224-228.
+
+## Cycle 119 (v119 → v120), lens 9 master comparison (Schumann 4/iv; v109)
+- Accepted: 147-150 Ob 2 D5/B4 and Hn 3-4 F4/D4 (concords within pairs); Vc/Cb f at 273 under divided upper strings; Vln I G4-B4 at 245 (V4/3 bass not doubled).
+- Open: chorale top octave 257-263 thinner than v109 (protected, still balances).
+- Note: scherzo v94 changed the trio tune's second statement (180-184); the finale does not quote the trio.
