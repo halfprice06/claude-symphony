@@ -4,7 +4,7 @@ Read first: /home/user/claude_composes/symphony/mvt3/critics/BRIEF.md (your full
 
 Version under review: /home/user/claude_composes/symphony/mvt3/v126/ (score.pdf, sections/*.ily, global.ily, score.ly, sections.txt, analysis.txt, critique.md).
 Your lens: Playability, instrument by instrument: ranges, breathing, bowing, harp pedalling, timpani tuning and retuning, percussion, brass endurance in a loud finale, divisi, solos, mutes.
-Focus: After cycles 121-125: playability of the rewritten close 265-279 at 2 = 88 then Largamente (F1 a third higher at 267-268, the A6 at 272 for Vln I and flutes, viola div. at 272-273, Tpt 3 A-G-F♯-F-E), and of the cellos' counter at 187-198.
+Focus: After cycles 121-125: woodwind playability and breathing throughout, especially the rewritten close 265-279 at 2 = 88 then Largamente (flutes on A6 at 272, Fl 1-2 E-D-C-B at 268, clarinets and oboes on F1), the Fl 2 doubling 257-262 and the run-up at 82.
 
 Your main source is Dan's reference books (Dan, 2026-10-09: "I want greater coverage and use of the books. the focus should be on the books content"). They are in /home/user/claude_composes/reference-books/; INVENTORY.md is the index, and per-page text is in text/<book>/p0123.txt (4-digit PDF page). Book file names are listed in INVENTORY.md (e.g. aldwell-schachter = "harmony and voice leading.pdf", rimsky-principles = "principles of form.pdf", adler1/adler2 = the two Adler parts, gould-behind-bars = "behind bars.pdf", sebesky = "the contemporary arrange - sedesky.pdf"). The PDFs themselves are in /home/user/claude_composes/pdfs/.
 

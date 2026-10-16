@@ -522,3 +522,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 125 (v125 → v126), lens 5 engraving (Gould ch. 1-2 spacing, unisons)
 - Accepted: a2 labels for Tpt 1-2 at 271 and Hn 1-2 at 273; ff restated in Vln I-II, Vla at 273.
+
+## Cycle 126 (v126 → v127), lens 6 playability (Adler ch. 6-7 woodwinds)
+- Accepted: staggered breaths in the last chorale 258/260/261; Fl 2 breaths 259, 261; Ob 1 rests 265-268 (a2 ff at 269); Bn 2 rest 146; Fl 1/Ob 1 breath after 78; Cbsn/tuba breaths 228, 250; Cl 2/Bn 1 breaths 170, 178.
