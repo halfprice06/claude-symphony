@@ -607,3 +607,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 147 (v147 → v148), lens 7 texture (Rimsky ch. III)
 - Accepted: crossed horn/bassoon pad 75-82; Cl 2 B♭3 at 57; Vln II A♭ at 62.4; violas B♭ at 85.4.
 - Do-not-touch: horn pedal 83-86 with Bn 1 inside; Cl 2 line at 58; arrival 223-234; 6/3 bridge 87-90.
+
+## Cycle 148 (v148 → v149), lens 8 expression (A&S Unit 3)
+- Accepted: cresc. through 198 into 199; pad swells to mp at 78 (p at 81).
