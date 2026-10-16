@@ -662,3 +662,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: Hn 4 back to v149 A3 quarters at 130-131 (reverses c154's doubling); violas whole notes at 231-233 (Vln II keeps the portato); violas C5/E♭5 at 205-206.
 - Open: 131-132 settled G (from c153).
 - Do-not-touch: 216-223 with B→C and G→C at 222→223; arrival chord and chorale top lines (no more inner layers 223-234); last cadence 259-263; close 273-279.
+
+## Cycle 160 (v160 → v161), lens 10 coherence + release check (Sebesky ch. 9, ch. 1, second pass)
+- No score change. finale.md current to v160.
+- Closed: "131-132 settled G" (keep the G cadence; it sets up the stop chord at 138).
+- Do-not-touch: bars 1-2; 216-223 with 222→223; arrival and chorale 223-234 with the C bass at 229-230; both chorale top lines and the cut at 264.1; last cadence 259-263; close 273-279; 205-208 violas (four changes in five cycles).
