@@ -152,6 +152,9 @@ v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 revie
 ## Batch checkpoint after cycle 106 (2026-10-16)
 v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 107 reviews v107 (lens 7 texture).
 
+## Cycle 108 (lens 8 expression, Rimsky-Korsakov ch. IV second pass) v108 → v109
+All 5 accepted (v109/critique.md): accompaniment a level under the tune at 29–35 and 45; crescendo into 336; crescendos through 249–252; fades at 8 and 147–148. Do-not-touch: leggiero theme over pp off-beats 13–28; coda build 325–333; sfp at 301; closing page 357–376.
+
 ## Cycle 107 (lens 7 texture, Adler ch. 5 second pass) v107 → v108
 All 3 accepted (v108/critique.md): Vln II with the violas' tune head at 197–200; arco cello countermelody under the coda statement 349–356; flutes and oboes a2 on the theme at 37–44/273–275. Do-not-touch: fugato exposition 57–68; flute heterophony 253–268; trio layering 169–184.
 
