@@ -35,6 +35,14 @@ KS_LEAD = 0.06       # keyswitch lead in quarter notes when there is no rest bef
 LEG_OVERLAP = 0.04   # slurred notes overlap the next by this much so Opus plays a legato transition
 HP_STEP = 14         # a hairpin with no target dynamic moves about one dynamic level
 HP_STEP_SOFT = 22    # c02: untargeted hairpins starting at mp or softer (14 CC measured a median +2.6 dB)
+# mvt1 c09 (A #1): an untargeted hairpin lasting HP_SHORT_S seconds or less (real tempo map; the 1 qn hairpins of a
+# slow Lento are not caught) is a nuance, not a change of level: it moves at most HP_STEP_SHORT CC. A short > after a
+# long < (the "mdv" return) falls only that far; it no longer undoes the whole swell inside half a beat (Horn 1's
+# second theme fell 9-10 dB on the quarter after a 0.27 s >, then surged 12-16 dB on the tenuto)
+HP_SHORT_S = 0.6
+HP_STEP_SHORT = 6
+HP_SHORT_KINDS = ("decresc",)   # short crescendos keep the full step (no lurch was measured on them)
+HP_SHORT_RET_QN = 2.0   # an untargeted < starting this many qn after such a short > returns to the crest before it
 SOLO_BOOST = 8       # CC11 added after "solo" texts, and after "cantabile" / "espr." in winds and brass (about +2.5 dB)
 SOFT_BOOST = 3       # c02: "espr." / "cantabile" / "dolce" in string sections, "dolce" alone in winds
 LEG_VEL_STRONG = {"string": (124, 124), "brass": (124, 124)}   # c03: legato-target velocity (<0.9 s, longer); v120 was 25-80 ms faster than v105
@@ -320,6 +328,14 @@ WIND_VIB_CAP, WIND_VIB_CAP_CC11, WIND_VIB_CAP_S = None, 100, 3.0
 # other beats 0. Not on accents/sf or inside LEAD_SPANS. c19 measured downbeat minus the rest of the bar -1.6..+1.3 dB
 METRIC_DB = {"down": 1.5, "mid": 0.5, "off": -1.0}
 METRIC_SPANS = []
+# mvt1 c08 (critics C #5, A #6): METRIC_BOWED {track: [(from qn, to qn)]} puts these steps on unslurred, unaccented
+# bowed notes of METRIC_BOWED_MAX_QN or shorter (not REP_SPLIT strokes); METRIC_TIMP_DB on Timpani Flt Lng strokes at
+# min_cc or louder ("beat" = beats 2 and 4). Empty = off.
+METRIC_BOWED = {}
+METRIC_BOWED_DB = {"down": 1.0, "mid": 0.5, "beat": 0.0, "off": -0.5}
+METRIC_BOWED_MAX_QN = 0.5
+METRIC_BOWED_REP = False   # True: REP_SPLIT strokes take the steps too
+METRIC_TIMP_DB = {}
 METRIC_VEL = {}   # c17: emptied (c16 test failed: lean 0.5-1.2 dB, Cb pizz. std 1.7 -> 3.3); was {"downbeat": 6, "mid": 3, "weak": -3}
 # c15 (A #3): Violins II sul tasto (Flautando) chords that follow a Flautando chord without a rest: common tones are held
 # as one note (no re-attack), the moving voices start FLAUT_LEAD_S early and the old chord's moving notes end at the new
@@ -329,6 +345,17 @@ FLAUT_JOIN_TRACKS = ("Violins II", "Violins II div")
 # c16 (A #2): 0.15 -> 0.45 s and 0.35 -> 0.7 qn: after qn 112/114/120 the pad still troughed 9-11 dB for about 1 s (the new
 # voice reaches its body at +1.1-1.3 s; the old one had released by +0.9 s)
 FLAUT_LEAD_S, FLAUT_OVERLAP_QN = 0.45, 0.7
+# mvt1 c08 (critic A #4): tremolo chords inside TREM_JOIN spans {track: [(from qn, to qn)]} join like FLAUT_JOIN (common
+# tones held as one note, moving voices TREM_JOIN_LEAD_S early, old moving notes ending at the new score onset +
+# TREM_JOIN_OVERLAP_QN); a held tremolo note longer than TREM_SPLIT["max_s"] is split at the output stage into abutting
+# same-pitch tremolo pieces of seeded TREM_SPLIT["seg_s"] seconds that never start within TREM_SPLIT["clear_qn"] of
+# another onset or a barline (so no single sample loops, and the pieces do not re-attack in step with the bars)
+TREM_JOIN = {}
+TREM_JOIN_LEAD_S, TREM_JOIN_OVERLAP_QN = 0.3, 0.4
+# mvt1 c09 (critic A #4): seconds of entry lead for a tremolo note that follows a held note on another row with no rest
+# (0 = off); the old notes end at the moved start
+TREM_ENTRY_LEAD_S = 0.0
+TREM_SPLIT = {"max_s": 4.4, "seg_s": (2.5, 3.3), "clear_qn": 0.3, "gap_qn": 0.005}
 # c15 (A #6): per-onset breath gap in qn for a note that ends at a printed breath (default 0.3 qn at mf+), plus a CC11
 # fall of that many CC over the note's last 0.2 qn (Hn1 qn 195: the 0.28 s gap dipped only 1.9 dB under the release)
 BREATH_GAP_AT = {}
@@ -461,6 +488,15 @@ TIMP_ROLL_RESTRIKE = {"at": [], "min_s": 6.0, "seg_s": (2.5, 3.3), "vel_jit": 3,
 # mvt1 c04 (critic A #2): listed slurred tenutos (track: [score qn]) are joined as legato targets on the legato row
 # (velocity SOST_VEL, a SOST_NOTCH portato notch, normal legato lead) instead of re-tongued on Sus
 PORTATO_JOIN_AT = {}
+# mvt1 c09 (A #1): CC11 depth of the portato notch on a joined tenuto, per track (default SOST_NOTCH); a soft dolce horn
+# tenuto after a short > lost 6 CC more to the notch than the line needed
+PORTATO_JOIN_NOTCH = {}
+# mvt1 c09 (C #1): tracks (name prefixes) whose patch crossfades its dynamic layers with CC1, and the CC1 value per printed
+# CC11 level (the brass layer tables put pp on the p/pp layer, mf on mp + f, f on f, ff on ff 0.75 + f 0.4, fff on ff);
+# CC1_HOLD: constant CC1 per track
+CC1_DYN_TRACKS = ()
+CC1_DYN_MAP = [(22, 18), (34, 28), (46, 42), (58, 54), (72, 68), (88, 86), (114, 108), (124, 120)]
+CC1_HOLD = {}
 # mvt1 c04 (critic C #5): an sf listed here is an arrival at this dynamic: the spike reaches it and the level after the
 # spike is that dynamic - 8 CC (instead of the current level - 10), so the printed decrescendo carries the fall
 SF_ARRIVAL_AT = {}
@@ -494,6 +530,79 @@ BREATH_SPLIT = {"gap_qn": 0.05, "dvel": -8, "dip_db": -3.0, "dip_s": 0.4}
 # mvt1 c05 (critic A #5): "metà" (half the section) on a string part: single notes until "tutti"/"unis."/"div." are
 # played this many dB lower (half the players)
 META_DB = -3.0
+# mvt1 c06 (critic A #1): listed string notes {track: [score qn]} (printed down-bows that LilyPond's line joins as legato,
+# e.g. the fff downbeat after a caesura) are fresh Sus MAX strokes: the c06 Leg -> Sus entry path (entry lead, velocity
+# 105 or more, the legato note before it cut at the keyswitch); the next note joins from the stroke as a Leg BC MAX
+# legato target (as SHORT_SUS_JOIN). On c05 the fff downbeat played a Leg BC transition that sagged 6-7 dB at the beat.
+DOWNBOW_STROKE_AT = {}
+# mvt1 c06 (critic B #1): an accented note on a GENTLE_ACCENT family plays the velocity of an unaccented note at the same
+# printed level plus GENTLE_ACCENT[family]["vel_add"] (LilyPond adds 20 for an accent and 40 for a marcato; the HO
+# velocity sets loudness: Horn 1 / Trumpet 1 / Trombone 1 accents measured 3.6-6.1 dB over plain Sus at one dynamic before
+# the swell). The plain velocity is the median source velocity of this track's unaccented notes within ACC_PLAIN_WIN qn
+# at the same printed level (+-4 CC); without such notes, the source velocity minus the script's extra (capped at 127).
+ACC_SRC_EXTRA = {"accent": 20, "marcato": 40}
+ACC_PLAIN_WIN = 8.0
+# mvt1 c06 (critic A #2): unslurred, untied same-pitch repeats on wind and brass Sus notes are re-tongued audibly: the
+# note ends min(gap_s, frac x its length) before the next onset and CC11 falls fall_cc over its last fall_s seconds,
+# back at the next onset. On c05 (0.03 qn gap) 197 of 228 such repeats dipped under 3 dB (pedals and repeated chords
+# sounded tied). None: off; REP_RETONGUE_AT still lists per-onset exceptions.
+WIND_REP_RETONGUE = {"gap_s": 0.06, "frac": 0.25, "fall_cc": 6, "fall_s": 0.12}
+# mvt1 c06 (critic A #3): a slurred string tenuto at f or louder that is a legato target keeps its weight: +TENUTO_SWELL_DB
+# from 0.05 s after its onset to 0.1 qn before its end (no CC11 bump: level shaping into the join sag deepens it)
+TENUTO_SWELL_DB = 1.5
+# mvt1 c06 (critic C #1): arrivals {score qn: (pre_db, db)}: on every wind, brass and string track the level falls
+# linearly from 0 at qn - 4 to pre_db just before the arrival (the crescendo's top is held back) and steps to +db at the
+# arrival (full by +0.05 s, held to qn + 0.5, gone by qn + 1), so a downbeat that the crescendo has already reached
+# still reads as the arrival. On c05 the fff downbeat of bar 160 rose only +0.3 dB (momentary max) over the beat before.
+# mvt1 c08: an optional third value (pre_qn) sets the hold-back's length (default 4 qn: it cancelled a printed
+# crescendo bar's gain; 0.5 makes it a breath before the downbeat)
+ARRIVAL_WEIGHT_AT = {}
+# mvt1 c06 (critic C #2): explicit level shapes {track or "_all": [[(qn, dB), ...], ...]} (piecewise linear, 0 outside
+# the points, exact breakpoints), for hairpin gains and subito steps that a role row's 0.5 qn ramps would blur
+LEVEL_SHAPES = {}
+# mvt1 c06 (critic C #2a): phrase-top pitch contours (PT_*) are off inside every crescendo, not only inside soft lead
+# hairpins (a descending line under an mf < lost 3 dB to the contour, against the hairpin)
+PT_OFF_IN_CRESC = True
+# mvt1 c06 (critic A #5, test): slurred, monophonic, non-first string notes of SHORT_SUS_LEG_S seconds (min, max) on the
+# listed tracks stay on Leg Slur MAX as legato targets instead of Sus MAX (short_sus), unless their own pitch follows
+# in the slur (the SLUR_REP_MERGE_SUS case)
+SHORT_SUS_LEG_TRACKS, SHORT_SUS_LEG_S = (), (0.20, 0.25)
+# mvt1 c07 (critic A #6): per-onset exceptions to SHORT_SUS_LEG_TRACKS {track: [score qn]}: these notes stay Sus MAX
+SHORT_SUS_LEG_SKIP = {}
+# mvt1 c07 (critic C #3): ENTRY_LEAD_S tuples may carry a third value, used for entries at CC11 51-80 at this tempo or
+# faster (the mf layer of the string rows rises about 0.1 s slower than the f layer)
+ENTRY_MID_MIN_BPM = 100.0
+# mvt1 c07 (critic C #2): with SHORT_SUS_LEAD_TRACKS, the previous slurred note ends at the moved onset + this many qn
+# (the c05 test kept the old note's end, so the old pitch sounded at full level over the whole lead). None: old rule
+SHORT_SUS_LEAD_KEEP_OVERLAP = None
+# mvt1 c07 (critic A #1): string row level offsets {track: {articulation: (dB, min_cc)}}. On a string track whose line
+# mixes Sus/Stac rows with the Leg rows, a note on a listed row with CC11 >= min_cc at its onset that has a Leg-row note
+# within ROW_TRIM_NEAR_QN gets a step trim (one step over consecutive trimmed notes). Down-bow strokes, re-bowed notes and the
+# REP_SPLIT strokes are excluded (they carry their own fitted levels); accents and STR_SHORT_AFTER_SUS strokes are
+# trimmed (c07 render: excluding the strokes left an accented Sus note trimmed under the untrimmed stroke after it).
+ROW_TRIM_DB = {}
+# score-qn spans {track: [(start, end)]} with no row trim (where a fitted role already corrects the row's level)
+ROW_TRIM_SKIP = {}
+ROW_TRIM_NEAR_QN = 3.0   # the Leg-row note's interval within this many qn of the note's (a phrase that mixes rows)
+# mvt1 c07 (critic A #2): WIND_REP_RETONGUE overrides by track name prefix or family {"Horn": {...}} (keys as in
+# WIND_REP_RETONGUE), and for short repeats (a note of at most "max_qn" at "min_bpm" or faster) a further override
+WIND_REP_RETONGUE_BY = {}
+WIND_REP_RETONGUE_SHORT = None
+# mvt1 c07 (critic A #2): CC11 fall (CC over the note's last 0.2 qn) at loud wind/brass breaths (mf or louder), by track
+# name prefix or family; BREATH_FALL_CC per onset still wins
+BREATH_FALL_BY = {}
+# mvt1 c07 (critic B #4): a timpani roll that continues another roll (onset within 0.05 qn of its end) takes no
+# TIMP_LOUD_ATTACK_DB bump unless a printed dynamic louder than the last one starts on it, or its score onset is listed
+# here (the chained crescendo roll of bars 80-81 played as two hits)
+TIMP_CHAIN_BUMP_AT = []
+# mvt1 c07 (critic A #5): metric velocity on loud timpani strokes (Timpani Flt Lng, printed level >= min_cc, not
+# accents): offsets by position {"down", "mid" (beat 3 of 4/4), "beat" (beats 2, 4), "off" (off-beat eighths and
+# pickups)}, plus a seeded +-jit. Empty: off
+TIMP_METRIC_VEL = {}
+# mvt1 c07 (ONE_TIME, Dan's item 8): per-accent fitted swell levels, build/accent_fits.json {track: {score qn: swell dB
+# or [swell dB, step trim dB]}} written by tools/fit_accents.py from a render. A fitted accent on a GENTLE_ACCENT family
+# takes this swell (the family's swell shape, no ACCENT_MINUS_HPGAIN: the fit measured the result) and the trim as a
+# step note trim (0.1 s ramp, held to the next onset)
 
 # ---------- SCORE CONFIG ----------
 # Movement-specific tables (track table, routing windows, tempo spans, per-onset rules) start empty here and are set in
@@ -523,6 +632,8 @@ NOTE_TRIMS = json.load(open(f"{BUILD}/note_trims.json")) if __import__("os").pat
 PITCH_TRIMS = json.load(open(f"{BUILD}/pitch_trims.json")) if __import__("os").path.exists(f"{BUILD}/pitch_trims.json") else {}
 # c07 (C #2b): extra entry leads in seconds, {track: {score onset: s}}
 ENTRY_LEADS = json.load(open(f"{BUILD}/entry_leads.json")) if __import__("os").path.exists(f"{BUILD}/entry_leads.json") else {}
+ACCENT_FITS = json.load(open(f"{BUILD}/accent_fits.json")) if __import__("os").path.exists(f"{BUILD}/accent_fits.json") else {}
+ACCENT_FITS = {k: v for k, v in ACCENT_FITS.items() if not k.startswith("_")}
 # c08 (A #1): early fills, {track: {score onset: dB}} on the first 0.35 s of sagging legato targets
 EARLY_FILLS = json.load(open(f"{BUILD}/early_fills.json")) if __import__("os").path.exists(f"{BUILD}/early_fills.json") else {}
 LEG_LEADS = json.load(open(f"{BUILD}/leg_leads.json")) if __import__("os").path.exists(f"{BUILD}/leg_leads.json") else {}
@@ -598,6 +709,13 @@ def smooth_tempo(steps):
         bounds = [q for q, _ in inner] + [e]
         anchors = [(a, t0)] + [((bounds[i] + bounds[i + 1]) / 2, b) for i, (q, b) in enumerate(inner)]
         anchors = [p for i, p in enumerate(anchors) if i == 0 or p[0] > anchors[i - 1][0] + EPS]
+        if len(inner) > 1 and all(inner[i_][1] >= inner[i_ + 1][1] for i_ in range(len(inner) - 1)):
+            # mvt1 c07 (critic C #4): a printed rit. never speeds up: when the ramp starts under its first printed step
+            # (a phrase arc slowed the beat before), hold the start tempo until the printed steps fall below it
+            run_ = t0
+            for i_, (q_, v_) in enumerate(anchors):
+                run_ = min(run_, v_)
+                anchors[i_] = (q_, run_)
         (qa, va), (qb, vb) = anchors[-2], anchors[-1]
         anchors.append((e, vb + (vb - va) * (e - qb) / (qb - qa)))
 
@@ -651,6 +769,10 @@ def phrase_arcs(steps):
         if any(a < e2 - EPS and e > a2 + EPS for a2, e2, _ in RAMP_SPANS):
             print(f"  phrase arc {a}-{e}: skipped (tempo ramp)", file=sys.stderr)
             continue
+        if any(abs(e - a2) < 0.01 for a2, e2, _ in RAMP_SPANS):
+            # mvt1 c07 (critic C #4): an arc that ends where a printed rit. ramp starts slows its last beats and the
+            # ramp then starts from its own (faster) tempo: check that no beat is slower than the beat after it
+            print(f"  WARNING phrase arc {a}-{e} ends where a tempo ramp starts: check the tempo does not rise", file=sys.stderr)
         mid = (a + e) / 2
         slow = PHRASE_SLOW_SUB if depth == "sub" else (PHRASE_SLOW_MAIN if depth == "main" else PHRASE_SLOW)
         push = 1.0 if depth == "sub" else PHRASE_PUSH
@@ -972,6 +1094,7 @@ def base_points(staff_list, extra_marks=()):
     sf_hp = {}   # c02: sf followed by a decrescendo: spike, then the hairpin starts from min(level, mf) at q + 0.5
     hold_after = None
     last_un = None   # c09 (B #3): (stop, start level, kind) of the last untargeted hairpin
+    short_ret = None   # mvt1 c09 (A #1): (stop, crest) of the last short mdv decrescendo
     for q, _, kind, data in events:
         if kind == "mark":
             last_un = None
@@ -1023,6 +1146,15 @@ def base_points(staff_list, extra_marks=()):
                     # crescendo followed by a 14 CC decrescendo left the line one level higher). The next-mark limit
                     # below does not apply (Vln I bar 73-75: p < > then mp; it held the line at CC 58 until the mp)
                     tgt = last_un[1]
+                short_hp = HP_SHORT_S is not None and hk in HP_SHORT_KINDS and qn_to_sec(stop) - qn_to_sec(q) <= HP_SHORT_S
+                if short_hp:   # mvt1 c09 (A #1)
+                    tgt = max(tgt, level - HP_STEP_SHORT) if hk == "decresc" else min(tgt, level + HP_STEP_SHORT)
+                    if hk == "decresc":
+                        short_ret = (stop, level)   # the level the short > came down from
+                elif short_ret and hk == "cresc" and q - short_ret[0] <= HP_SHORT_RET_QN:
+                    # mvt1 c09 (A #1): the next untargeted < after a short > goes back to that crest, not a full step
+                    # over the lowered level (Horn 1 bar 48: 75 -> 88, over the first swell's 81)
+                    tgt = min(tgt, max(level, short_ret[1]))
                 # c06 (C #3): an untargeted hairpin does not overshoot the next printed mark in its own direction
                 # (Cl2 bar 90: pp -> CC 12, under the ppp printed two bars later)
                 nm = None if mdv else next((DYN[d] for mq, d in marks if stop + 1.0 < mq <= stop + 6.0
@@ -1280,6 +1412,9 @@ def build_track(tname, staves, patch, family, pan):
                 n["art"] = ks_lookup(stem, "Stac RRx14", "Stac RRx9", "Staccato RRx9")[0]
             elif tasto and stem.startswith("2nd"):
                 n["art"] = ks_lookup(stem, "Flautando")[0]
+            elif any(abs(q - k_) < 0.02 for k_ in DOWNBOW_STROKE_AT.get(tname, [])) and not polyphonic(n):
+                n["art"] = ks_lookup(stem, "Sus MAX")[0]   # mvt1 c06 (A #1): a listed down-bow, a fresh stroke
+                n["down_stroke"] = True
             elif id(n) in det_str:   # mvt1 c02 (A #1): a retaken down-bow, a fresh stroke
                 n["art"] = ks_lookup(stem, "Sus MAX")[0]
                 n["det_acc"] = True
@@ -1317,7 +1452,14 @@ def build_track(tname, staves, patch, family, pan):
                 n["detache_t"] = True
             elif n["slur"] is not None and not polyphonic(n) \
                     and qn_to_sec(n["end"], TEMPO_NC) - qn_to_sec(q, TEMPO_NC) < 0.25 \
-                    and not short_into_long(n):
+                    and not short_into_long(n) \
+                    and not (tname in SHORT_SUS_LEG_TRACKS
+                             and not any(abs(q - k_) < 0.02 for k_ in SHORT_SUS_LEG_SKIP.get(tname, []))
+                             and qn_to_sec(n["end"], TEMPO_NC) - qn_to_sec(q, TEMPO_NC) >= SHORT_SUS_LEG_S[0] - EPS
+                             and any(o is not n and slur_of(o["qn"]) == n["slur"] and o["qn"] < q - EPS for o in ns)
+                             and not any(o["pitch"] == n["pitch"] and abs(o["qn"] - n["end"]) < 0.06
+                                         and slur_of(o["qn"]) == n["slur"] for o in ns)):
+                # (mvt1 c06 A #5 test: SHORT_SUS_LEG_TRACKS keep slurred non-first eighths of 0.20-0.25 s on Leg Slur MAX)
                 # c05 (A #2): measured without the caesuras; the bar 60 breath had turned the violas' last sextuplet
                 # note into a Leg Slur MAX target still sounding at the bar 61 tremolo keyswitch
                 # c03 (C #3): fast slurred figures (viola sextuplets, bars 59-60) smear on the legato patch (transitions
@@ -1397,7 +1539,9 @@ def build_track(tname, staves, patch, family, pan):
         for i, n in enumerate(ns):
             # c03 (A #3): tenuto notes join with Leg BC too (the +5 CC tenuto bump is their weight)
             # mvt1 c03 (critic C #1): also the last Sus MAX eighth of a fast slur (short_sus) into a new bow
-            if (n["art"] not in ("Leg Slur MAX", "Leg BC MAX") and not (SHORT_SUS_JOIN and n.get("short_sus"))) \
+            # mvt1 c06 (A #1): and a DOWNBOW_STROKE_AT stroke into the note after it
+            if (n["art"] not in ("Leg Slur MAX", "Leg BC MAX") and not (SHORT_SUS_JOIN and n.get("short_sus"))
+                    and not n.get("down_stroke")) \
                     or near(n["end"], breath_q) or n.get("grace"):
                 continue
             nxt = [o for o in ns[i + 1:] if -EPS < o["qn"] - n["end"] < 0.1]
@@ -1497,16 +1641,22 @@ def build_track(tname, staves, patch, family, pan):
 
     # c15 (A #3): Violins II Flautando chords joined without a rest: flag the new chord's notes, then hold common tones
     flaut_merged = 0
-    if tname in FLAUT_JOIN_TRACKS:
-        fl = [n for n in ns if n.get("art") == "Flautando"]
+    # mvt1 c08 (critic A #4): tremolo chords inside TREM_JOIN spans join the same way (common tones held as one note,
+    # moving voices early with an overlap); the held notes are split again at the output stage (TREM_SPLIT)
+    def join_art(o):
+        if o.get("art") == "Flautando" and tname in FLAUT_JOIN_TRACKS:
+            return True
+        return o.get("art") == "Tremolo" and any(a_ - EPS <= o["qn"] < b_ - EPS for a_, b_ in TREM_JOIN.get(tname, []))
+    if tname in FLAUT_JOIN_TRACKS or tname in TREM_JOIN:
+        fl = [n for n in ns if join_art(n)]
         for n in fl:
             if any(o is not n and o["qn"] < n["qn"] - EPS and abs(o["end"] - n["qn"]) < 0.05 for o in fl):
                 n["flaut_join"] = True
         changed = True
         while changed:
             changed = False
-            for n in sorted([o for o in ns if o.get("art") == "Flautando"], key=lambda o: o["qn"]):
-                m_ = [o for o in ns if o is not n and o.get("art") == "Flautando" and o["pitch"] == n["pitch"]
+            for n in sorted([o for o in ns if join_art(o)], key=lambda o: o["qn"]):
+                m_ = [o for o in ns if o is not n and join_art(o) and o.get("art") == n.get("art") and o["pitch"] == n["pitch"]
                       and abs(o["qn"] - n["end"]) < 0.05]
                 if m_:
                     n["end"] = m_[0]["end"]
@@ -1531,6 +1681,8 @@ def build_track(tname, staves, patch, family, pan):
     # repeated pitches re-attacked, tenuto as a small separation
     orig_end = {id(n): n["end"] for n in ns}
     cc_falls = []   # c15 (A #6): (start, end, CC): CC11 falls to -CC at end, back to 0 over 0.3 qn
+    timp_chain_skip = []   # mvt1 c07 (B #4)
+    rep_retongued = []   # mvt1 c06 (A #2): onsets re-tongued by WIND_REP_RETONGUE (cc_falls rows carry their return)
     for i, n in enumerate(ns):
         e0, dur = orig_end[id(n)], orig_end[id(n)] - n["qn"]
         nxt = [o for o in ns[i + 1:] if abs(o["qn"] - e0) < EPS]
@@ -1552,6 +1704,10 @@ def build_track(tname, staves, patch, family, pan):
                 # made a 0.54 s wind hole (25-33 dB) just before the ff while the strings played on
                 gap_ = CAESURA_BREATH_QN if any(abs(e0 - c_) < 0.01 for c_ in CAESURA) else 0.3
                 n["end"] = e0 - min(gap_, 0.5 * dur)
+                bfb_ = next((v_ for k_, v_ in BREATH_FALL_BY.items()
+                             if (k_[0].isupper() and tname.startswith(k_)) or k_ == family), 0)
+                if bfb_:   # mvt1 c07 (A #2): horn breaths dipped 0.3-3 dB with the gap alone
+                    cc_falls.append((max(n["qn"] + 0.25 * dur, n["end"] - 0.2), n["end"], bfb_))
             else:
                 n["end"] = e0 - min(0.25, 0.2 * dur)
             continue
@@ -1598,12 +1754,34 @@ def build_track(tname, staves, patch, family, pan):
                 o0["leg_prev"] = n
                 o0["short_sus_join"] = True
                 n["end"] = e0 + LEG_OVERLAP   # the output moves this end with the target's lead
+        elif n.get("down_stroke") and not same_pitch and len(nxt) == 1 and "Leg" in (o0.get("art") or "") \
+                and (same_slur(n, o0) or o0.get("bc_from") == id(n)):
+            n["end"] = e0 + LEG_OVERLAP   # mvt1 c06 (A #1): the stroke joins the next note as a legato transition
+            o0["leg_target"] = True
+            o0["leg_prev"] = n
         elif n.get("rep_stac"):
             n["end"] = e0 - 0.02   # mvt1 c04 (A #1): written length minus 0.02 qn
         elif n.get("rep_sus") or n.get("short_stroke"):
             n["end"] = e0 - min(0.04, 0.1 * dur)   # mvt1 c04 (A #1): a short bow change before the next stroke
         elif same_pitch and any(abs(o0["qn"] - r_) < 0.02 for r_ in REP_RETONGUE_AT.get(tname, [])):
             n["end"] = e0 - min(0.06, 0.15 * dur)   # c23 (A #4): a listed untied repeat is re-tongued audibly
+        elif same_pitch and WIND_REP_RETONGUE and family in ("wind", "brass") and not is_leg \
+                and not (n["slur"] is not None and o0.get("slur") == n["slur"]):
+            # mvt1 c06 (A #2): an unslurred wind/brass repeat is a new tongue stroke: a gap of gap_s (at most frac of
+            # the note) measured back from the next onset, and a CC11 fall over the note's last fall_s, back at the onset
+            R_ = dict(WIND_REP_RETONGUE)
+            for k_, v_ in WIND_REP_RETONGUE_BY.items():   # mvt1 c07 (A #2): horns' release and hall fill 0.06 s
+                if (k_[0].isupper() and tname.startswith(k_)) or k_ == family:
+                    R_.update(v_)
+                    break
+            if WIND_REP_RETONGUE_SHORT and dur <= WIND_REP_RETONGUE_SHORT["max_qn"] + EPS \
+                    and bpm_at(n["qn"]) >= WIND_REP_RETONGUE_SHORT["min_bpm"] - EPS:
+                R_.update({k_: v_ for k_, v_ in WIND_REP_RETONGUE_SHORT.items() if k_ not in ("max_qn", "min_bpm")})
+            n["end"] = e0 - min(e0 - qn_before(e0, R_["gap_s"]), R_["frac"] * dur)
+            if R_.get("fall_cc"):
+                fa_ = max(n["qn"] + 0.25 * dur, qn_before(n["end"], R_["fall_s"]))
+                cc_falls.append((fa_, n["end"], R_["fall_cc"], max(0.01, e0 - n["end"])))
+            rep_retongued.append(round(o0["qn"], 3))
         elif same_pitch:
             n["end"] = e0 - (min(0.06, 0.15 * dur) if is_leg else min(0.03, 0.1 * dur))
         elif is_leg:
@@ -1669,7 +1847,7 @@ def build_track(tname, staves, patch, family, pan):
         if n.get("sost") and n.get("leg_target") and not SOST_HOLD_THROUGH:
             notches.append((n["qn"], SOST_NOTCH))
         if n.get("portato_join") and n.get("leg_target"):   # mvt1 c04 (A #2): the portato pulse of a joined tenuto
-            notches.append((n["qn"], SOST_NOTCH))
+            notches.append((n["qn"], PORTATO_JOIN_NOTCH.get(tname, SOST_NOTCH)))
 
 
     # c04 (A #1): printed arpeggios (rolled chords), per staff; a roll marked on both staves is one roll from the bottom
@@ -1692,6 +1870,19 @@ def build_track(tname, staves, patch, family, pan):
 
     # velocities
     metric_n = collections.Counter()
+    # mvt1 c06 (B #1): source velocities before any rule, for the plain velocity of a gentle accent
+    src_vel = {id(n): n["vel"] for n in ns}
+    marc_only_q = {q for s in staves for q, k, v in ev[s] if k == "script" and v[0] == "marcato"}
+
+    def plain_vel(n):
+        q_ = n["qn"]
+        ref_ = sorted(src_vel[id(o)] for o in ns if o["qn"] not in accent_q and abs(o["qn"] - q_) <= ACC_PLAIN_WIN
+                      and abs(base(o["qn"]) - base(q_)) <= 4 and not o.get("grace") and id(o) in src_vel)
+        if ref_:
+            return ref_[len(ref_) // 2]
+        ex_ = ACC_SRC_EXTRA["marcato"] if q_ in marc_only_q else ACC_SRC_EXTRA["accent"]
+        return max(1, src_vel[id(n)] - ex_)
+    acc_vel_fixed = []
     for n in ns:
         sec = qn_to_sec(n.get("vel_end", orig_end[id(n)])) - qn_to_sec(n["qn"])   # mvt1 c05: vel_end (A #1 merges)
         if n.get("grace"):
@@ -1721,7 +1912,7 @@ def build_track(tname, staves, patch, family, pan):
         if family == "timp" and n["art"].endswith("Lng"):   # strokes: below vel 53 the felt patch is near silent
             v = base(n["qn"])
             n["vel"] = max(n["vel"], int(round(value_at([(22, 52), (34, 56), (46, 64), (58, 72), (72, 80), (88, 96), (104, 110)], v))))
-        if n.get("rep_sus") or n.get("short_stroke"):   # mvt1 c04 (A #1): repeated strokes at the printed level
+        if n.get("rep_sus") or n.get("short_stroke") or n.get("down_stroke"):   # mvt1 c04 (A #1): repeated strokes at the printed level (c06: down-bow strokes)
             n["vel"] = int(round(value_at(REBOW_VEL_BY_CC, base(n["qn"]))))
         elif n.get("rep_stac"):
             n["vel"] = int(round(value_at(REP_SPLIT["stac_vel"], base(n["qn"]))))
@@ -1731,8 +1922,27 @@ def build_track(tname, staves, patch, family, pan):
                 and not (family == "harp" and arp_chord(n) and not arp_top(n)):
             n["vel"] = max(1, min(127, n["vel"] + METRIC_VEL[beat_kind(n["qn"])]))   # c16 (C #4)
             metric_n[beat_kind(n["qn"])] += 1
+        if TIMP_METRIC_VEL and family == "timp" and (n.get("art") or "").endswith("Lng") and not is_acc_ \
+                and not n.get("tie_stroke") and base(n["qn"]) >= TIMP_METRIC_VEL.get("min_cc", DYN["f"]) - EPS:
+            # mvt1 c07 (critic A #5): pickups and off-beats lighter than the beats they lead to
+            bk_ = beat_kind(n["qn"])
+            if bk_ == "weak":
+                bk_ = "beat" if abs(n["qn"] - round(n["qn"])) < 0.01 else "off"
+            else:
+                bk_ = {"downbeat": "down"}.get(bk_, bk_)
+            jit_ = __import__("random").Random(int(round(n["qn"] * 1000)) + 7).randint(
+                -TIMP_METRIC_VEL.get("jit", 0), TIMP_METRIC_VEL.get("jit", 0))
+            n["vel"] = max(56, min(127, n["vel"] + TIMP_METRIC_VEL.get(bk_, 0) + jit_))
+            metric_n["timp_" + bk_] += 1
         if n["qn"] in accent_q and family not in GENTLE_ACCENT:
             n["vel"] = min(127, n["vel"] + 10)
+        elif n["qn"] in accent_q and GENTLE_ACCENT.get(family, {}).get("vel_add") is not None \
+                and n["vel"] == src_vel.get(id(n)) and not n.get("leg_target") and not n.get("grace"):
+            # mvt1 c06 (B #1): only notes still at their source velocity (rules that set a velocity keep theirs)
+            pv_ = min(src_vel[id(n)], plain_vel(n) + GENTLE_ACCENT[family]["vel_add"])
+            if pv_ != n["vel"]:
+                acc_vel_fixed.append((round(n["qn"], 3), n["vel"], pv_))
+                n["vel"] = pv_
         if any(abs(n["qn"] - q) < 0.01 and d in ("sf", "sfz") for q, d in marks):   # c02: sf weight
             n["vel"] = min(127, n["vel"] + 15)
         if family == "timp" and round(n["qn"], 2) in TIMP_VEL:   # c03 (B #1): pp strokes 6 dB under qn 277
@@ -1947,11 +2157,12 @@ def build_track(tname, staves, patch, family, pan):
         for ca_, cb_, cap_ in swell_caps:   # c22 (B #1)
             if ca_ - EPS <= q < cb_ and base(q) <= cap_:
                 v = min(v, cap_)
-        for fa, fb, fd in cc_falls:   # c15 (A #6)
+        for fa, fb, fd, *fr_ in cc_falls:   # c15 (A #6); mvt1 c06: an optional return length (qn)
+            rl_ = fr_[0] if fr_ else 0.3
             if fa <= q < fb:
                 v -= fd * (q - fa) / (fb - fa)
-            elif fb <= q < fb + 0.3:
-                v -= fd * (1 - (q - fb) / 0.3)
+            elif fb <= q < fb + rl_:
+                v -= fd * (1 - (q - fb) / rl_)
         if q >= SE - 0.5 and v > 8:   # c02: the final ppp chord dies away (with the volume fade in vol_db)
             v += (8 - v) * min(1.0, (q - (SE - 0.5)) / 0.5)   # c07 (C #5): from 303.5 (was 302 -> 304)
         return v
@@ -1960,7 +2171,7 @@ def build_track(tname, staves, patch, family, pan):
         + [x for h0, h1, _ in holds for x in (h0, h0 + 0.1, h1)] \
         + [x for a, b, _ in contours for x in (a, b, a + 0.4 * (b - a), a + 0.5 * (b - a), min(b, a + 1))] + [SE - 2, SE - 0.5, SE] \
         + [x for nq, _ in notches for x in (nq - 0.06, nq, nq + 0.25)] \
-        + [x for fa, fb, _ in cc_falls for x in (fa, fb, fb + 0.3)] \
+        + [x for fa, fb, _, *fr_ in cc_falls for x in (fa, fb, fb + (fr_[0] if fr_ else 0.3))] \
         + [a + t * bpm_at(a) / 60 for a, b, k in contours if k == "bcsoft" for t in (BCSOFT["t_in"], BCSOFT["t_hold"])]
     dyn_curve = sample(base, [p[0] for p in pts]) if ns else []   # printed dynamics only (measure.py groups stems by it)
     # c03: note-start leads (output only; every controller stays on score time)
@@ -1973,6 +2184,13 @@ def build_track(tname, staves, patch, family, pan):
     leg_s = by_name(LEG_LEAD_S) or 0.0
     ent_s = by_name(ENTRY_LEAD_S)
     ent_art = by_name(ENTRY_LEAD_ART_S) or {}   # mvt1 c03 (C #2)
+
+    def ent_pick(q):   # mvt1 c07 (critic C #3): a third value for CC11 51-80 at ENTRY_MID_MIN_BPM or faster
+        if final(q) <= 50:
+            return ent_s[0]
+        if len(ent_s) > 2 and final(q) <= 80 and bpm_at(q) >= ENTRY_MID_MIN_BPM - EPS:
+            return ent_s[2]
+        return ent_s[1]
     pulls = []   # (start, end): CC11 holds the entry's own level from the moved onset to the score onset
     div_entries = []
     extra_used = []
@@ -1983,6 +2201,7 @@ def build_track(tname, staves, patch, family, pan):
     ll = {float(k): v for k, v in LEG_LEADS.get(tname, {}).items() if not k.startswith("_")}
     leg_used = []
     flaut_joins, abut_used = [], []   # c15 (A #3, C #4)
+    trem_entries = []   # mvt1 c09 (A #4)
     sost_joins = []   # c23 (C #3)
     abut_ = by_name(ABUT_LEAD)
     for n in ns:
@@ -1996,6 +2215,12 @@ def build_track(tname, staves, patch, family, pan):
             # mvt1 c05 (critic A #3, test): a slurred Sus MAX eighth starts early (the old note's end stays: a longer
             # crossfade); the strings changed pitch 0.06-0.1 s after the winds doubling them
             shift[id(n)] = lead_qn(q, SHORT_SUS_LEAD_S)
+            if SHORT_SUS_LEAD_KEEP_OVERLAP is not None:
+                # mvt1 c07 (critic C #2): the previous slurred note ends with the moved onset, so the old pitch fades
+                # under the new one instead of sounding at full level over the whole lead
+                for o in ns:
+                    if o is not n and o["qn"] < q - EPS and abs(orig_end[id(o)] - q) < 0.05 and o.get("slur") == n["slur"]:
+                        o["end"] = min(o["end"], q - shift[id(n)] + SHORT_SUS_LEAD_KEEP_OVERLAP)
         elif n.get("leg_target") and not n.get("grace") and not n.get("run") and leg_s > 0:
             lx = next((v for k, v in ll.items() if abs(q - k) < 0.02), None)   # c11 (C #3)
             ls_ = leg_s if lx is None else max(LEG_LEAD_CLAMP[0], min(LEG_LEAD_CLAMP[1], leg_s + lx))
@@ -2036,7 +2261,7 @@ def build_track(tname, staves, patch, family, pan):
         elif n.get("fresh") and ent_s:
             # c09 (A #3): the section entering after the solo (Vln I qn 65): the family entry lead; the solo's last
             # note is cut 0.03 qn before the moved onset below, so the monophonic legato patch does not join them
-            s_ = min(ENTRY_CAP_S, (ent_s[0] if final(q) <= 50 else ent_s[1]) + extra_s(q))
+            s_ = min(ENTRY_CAP_S, ent_pick(q) + extra_s(q))
             L = lead_qn(q, s_)
             shift[id(n)] = L
             pulls.append((q - L, q))
@@ -2046,7 +2271,7 @@ def build_track(tname, staves, patch, family, pan):
             # (before qn 0.5 only strings and listed entries: Horn 3's opening measured on time with no lead)
             # c07 (C #2a): qn 0 is included (the lead starts inside the pre-roll); C #2b: entry_leads.json extra
             xs = extra_s(q)
-            s_ = min(ENTRY_CAP_S, ((ent_s[0] if final(q) <= 50 else ent_s[1]) if ent_s else 0.0) + xs
+            s_ = min(ENTRY_CAP_S, (ent_pick(q) if ent_s else 0.0) + xs
                      + ent_art.get(n["art"], 0.0))   # mvt1 c03 (C #2): the articulation's extra
             pe = prev_end(q)
             # c19 (C #2): after a caesura breath the rest is only CAESURA_BREATH_QN, so a listed extra lead still applies
@@ -2062,23 +2287,42 @@ def build_track(tname, staves, patch, family, pan):
             elif n.get("flaut_join") and q > EPS:
                 # c15 (A #3): the moving voices of a joined sul tasto chord start early and overlap the old chord's
                 # moving notes by FLAUT_OVERLAP_QN (common tones were merged into held notes)
-                L = min(lead_qn(q, FLAUT_LEAD_S), 0.45 * min([q - o["qn"] for o in ns if o["qn"] < q - EPS
-                                                               and abs(orig_end[id(o)] - q) < 0.1] or [1.0]))
+                trem_ = n.get("art") == "Tremolo"   # mvt1 c08 (A #4): TREM_JOIN uses its own lead and overlap
+                L = min(lead_qn(q, TREM_JOIN_LEAD_S if trem_ else FLAUT_LEAD_S),
+                        0.45 * min([q - o["qn"] for o in ns if o["qn"] < q - EPS
+                                    and abs(orig_end[id(o)] - q) < 0.1] or [1.0]))
                 shift[id(n)] = L
                 pulls.append((q - L, q))
                 flaut_joins.append(round(q, 3))
                 newp = {o["pitch"] for o in ns if abs(o["qn"] - q) < EPS}
                 for o in ns:
-                    if o.get("art") == "Flautando" and o["qn"] < q - EPS and abs(orig_end[id(o)] - q) < 0.1 \
+                    if o.get("art") == n.get("art") and join_art(o) and o["qn"] < q - EPS and abs(orig_end[id(o)] - q) < 0.1 \
                             and o["pitch"] not in newp:
-                        o["end"] = max(o["end"], q + FLAUT_OVERLAP_QN)
+                        o["end"] = max(o["end"], q + (TREM_JOIN_OVERLAP_QN if trem_ else FLAUT_OVERLAP_QN))
+            elif TREM_ENTRY_LEAD_S and family == "string" and n["art"] == "Tremolo" and q > 0.5 \
+                    and any(o["qn"] < q - EPS and abs(orig_end[id(o)] - q) < 0.1 and o.get("art") != "Tremolo" for o in ns):
+                # mvt1 c09 (A #4): a tremolo entry straight after a held note on another row (Vln II 304 Leg Slur ->
+                # Tremolo dipped 10 dB for 0.2 s; Vln I 664, Vln I/II 484, Vc 464 5-7 dB): the tremolo attack takes
+                # 0.1-0.2 s, so it starts TREM_ENTRY_LEAD_S early and the old notes end at the moved start (the c05
+                # keyswitch guard: no legato note sounding at the keyswitch)
+                L = lead_qn(q, TREM_ENTRY_LEAD_S)
+                shift[id(n)] = L
+                pulls.append((q - L, q))
+                trem_entries.append(round(q, 3))
+                for o in ns:
+                    if o["qn"] < q - EPS and abs(orig_end[id(o)] - q) < 0.1 and o.get("art") != "Tremolo":
+                        o["end"] = min(o["end"], q - L)
             elif abut_ and n["art"].startswith("Sus") and final(q) <= abut_["max_cc"] and q > 0.5 \
                     and ("at" not in abut_ or any(abs(q - a_) < 0.02 for a_ in abut_["at"])) \
                     and any(o["qn"] < q - EPS and abs(orig_end[id(o)] - q) < 0.05 for o in ns) \
                     and not any(o["qn"] < q - EPS and abs(orig_end[id(o)] - q) < 0.05 and o["pitch"] == n["pitch"]
                                 for o in ns) \
                     and not (abut_.get("skip_next_same") and any(o["qn"] > q + EPS and abs(o["qn"] - orig_end[id(n)]) < 0.05
-                                                                 and o["pitch"] == n["pitch"] for o in ns)):
+                                                                 and o["pitch"] == n["pitch"] for o in ns)) \
+                    and not (family == "string" and AUTO_REBOW and any(
+                        (o is n or (o["qn"] < q - EPS and abs(orig_end[id(o)] - q) < 0.05))
+                        and qn_to_sec(orig_end[id(o)]) - qn_to_sec(o["qn"]) > REBOW_MAX_S for o in ns)):
+                # (mvt1 c07: not into or out of a re-bowed note: its re-bow points and fitted shapes are keyed to its start)
                 # c15 (C #4): an abutting soft re-attack at a new pitch (bassoons under the horn solo)
                 L = lead_qn(q, abut_["lead_s"])
                 shift[id(n)] = L
@@ -2197,6 +2441,15 @@ def build_track(tname, staves, patch, family, pan):
     def cc1_fn0(q):
         v11 = final2(q)
         if not vib_fam:
+            # mvt1 c09 (C #1): in the Hollywood Brass KS Masters (1FH, 1TP, 1TB, 1TU) and the Clarinet KS Master the
+            # dynamic layers are crossfaded by CC1 (each layer group's Source volume rescaler is driven by a cc 1
+            # MidiController; CC11 is only the Global Group volume), so the c01 formula (CC1 57-87) played every printed
+            # dynamic on the mp-f samples. These tracks take CC1 from the printed dynamic curve (hairpins, no accent or
+            # fit shapes, so gentle accents stay off the top layer) through CC1_DYN_MAP
+            if any(tname.startswith(p_) for p_ in CC1_DYN_TRACKS):
+                return round(value_at(CC1_DYN_MAP, base(q)))
+            if tname in CC1_HOLD:   # mvt1 c09 (C #1): e.g. the CB KS Master's Non Vib/Vib overlap (64-72)
+                return CC1_HOLD[tname]
             return max(40, min(100, 64 + (v11 - 46) * 0.3))
         n = sounding(q)
         if n is not None and n.get("art") == "Flautando":
@@ -2307,7 +2560,13 @@ def build_track(tname, staves, patch, family, pan):
         # (10 ms rise), held 0.25 qn, gone by 0.75 qn (before the settle has fallen 1.3 dB). The roll body is unchanged.
         for n in ns:
             q = n["qn"]
-            if base(q + 0.01) >= DYN["f"]:
+            mk_ = [DYN[d_] for q_, d_ in marks if abs(q_ - q) < 0.01 and d_ in DYN]
+            pm_ = [DYN[d_] for q_, d_ in marks if q_ < q - 0.01 and d_ in DYN]
+            arr_ = bool(mk_) and (not pm_ or max(mk_) > pm_[-1])   # a printed arrival louder than the last mark
+            if base(q + 0.01) >= DYN["f"] and n in rolls and any(abs(orig_end[id(o)] - q) < 0.05 for o in rolls) \
+                    and not arr_ and not any(abs(q - k_) < 0.02 for k_ in TIMP_CHAIN_BUMP_AT):
+                timp_chain_skip.append(round(q, 3))   # mvt1 c07 (B #4): a roll continuing a roll is not a new attack
+            elif base(q + 0.01) >= DYN["f"]:
                 # c14 (A #2): a tied-roll stroke already sits on the roll's hairpin gain: half the bump
                 ad_ = TIMP_LOUD_ATTACK_DB * (0.5 if n.get("tie_stroke") else 1.0)
                 vol_parts.append(("env", [(q - 0.01, 0.0), (q + 0.01 * bpm_at(q) / 60, ad_),
@@ -2681,6 +2940,54 @@ def build_track(tname, staves, patch, family, pan):
                                       (max(qn_before(q0, 0.01) + 0.002, qn_before(ne_, 0.03)), v_),
                                       (max(qn_before(q0, 0.01) + 0.004, qn_before(ne_, 0.01)), 0.0)], True))
             metric_db_n[kind_] += 1
+    # mvt1 c08 (critics C #5, A #6): the same level steps on short unslurred bowed notes inside METRIC_BOWED spans and on
+    # loud felt timpani strokes (METRIC_TIMP_DB): velocity does not move the KS Master sustain rows (c06) and moves the
+    # felt strokes less than their round robins (c07). One step per onset, at full value on the attack, held to the next
+    # onset; not on accents, sf, REP_SPLIT strokes, tied strokes, tremolo or pizz.
+    def metric_kind(q_):
+        bk_ = beat_kind(q_)
+        if bk_ == "downbeat":
+            return "down"
+        if bk_ == "mid":
+            return "mid"
+        return "beat" if abs(q_ - round(q_)) < 0.01 else "off"
+    mtab_, mspans_ = None, []
+    if family == "string" and METRIC_BOWED.get(tname):
+        mtab_, mspans_ = METRIC_BOWED_DB, METRIC_BOWED[tname]
+    elif family == "timp" and METRIC_TIMP_DB:
+        mtab_, mspans_ = METRIC_TIMP_DB, [(-1.0, 1e9)]
+    if mtab_:
+        acc_q2_ = set(round(x, 3) for x in accent_q) | {round(q_, 3) for q_, d_ in marks if d_ in ("sf", "sfz")}
+        ons_ = sorted({n["qn"] for n in ns})
+        done_ = set()
+        for n in sorted(ns, key=lambda o: o["qn"]):
+            q_ = n["qn"]
+            if q_ in done_ or not any(a_ - EPS <= q_ < b_ for a_, b_ in mspans_):
+                continue
+            art_ = n.get("art") or ""
+            if family == "timp":
+                if not art_.endswith("Lng") or n.get("tie_stroke") or base(q_) < mtab_.get("min_cc", DYN["f"]) - EPS:
+                    continue
+            else:
+                if n.get("slur") is not None or ((n.get("rep_sus") or n.get("rep_stac")) and not METRIC_BOWED_REP) \
+                        or n.get("grace") \
+                        or art_ in ("Tremolo",) or "izz" in art_ or orig_end[id(n)] - q_ > METRIC_BOWED_MAX_QN + EPS:
+                    continue
+            if round(q_, 3) in acc_q2_ or any(abs(o["qn"] - q_) < EPS and round(o["qn"], 3) in acc_q2_ for o in ns):
+                continue
+            done_.add(q_)
+            kind_ = metric_kind(q_)
+            v_ = mtab_.get(kind_, 0.0)
+            if not v_:
+                continue
+            q0 = min(new_on(o) for o in ns if abs(o["qn"] - q_) < EPS)
+            nx_ = [o_ for o_ in ons_ if o_ > q_ + EPS]
+            nq_ = min(new_on(o) for o in ns if abs(o["qn"] - nx_[0]) < EPS) if nx_ else sec_qn(q_, 1.5)
+            ne_ = min(nq_, sec_qn(q_, 1.5))
+            vol_parts.append(("env", [(qn_before(q0, 0.03), 0.0), (qn_before(q0, 0.01), v_),
+                                      (max(qn_before(q0, 0.01) + 0.002, qn_before(ne_, 0.03)), v_),
+                                      (max(qn_before(q0, 0.01) + 0.004, qn_before(ne_, 0.01)), 0.0)], True))
+            metric_db_n["m_" + kind_] += 1
     # c14 (C #4): sostenuto long notes: a hold that rises into the next note instead of the swell_db arc
     sost_held = []
     for a, b2, k in contours:
@@ -2749,7 +3056,8 @@ def build_track(tname, staves, patch, family, pan):
             if not kept_ or t_ - kept_[-1] >= 0.02 or i_ == len(ts_) - 1:
                 kept_.append(t_)
         ts_ = kept_
-        ps_ = [(sec_to_qn(t_), round(max(bump(t_, c_, d_, w_) for c_, d_, w_ in bumps_), 3)) for t_ in ts_]
+        # mvt1 c10 (critic A #2): a negative bump cuts a sample bloom; overlapping bumps take the value of larger size
+        ps_ = [(sec_to_qn(t_), round(max((bump(t_, c_, d_, w_) for c_, d_, w_ in bumps_), key=abs), 3)) for t_ in ts_]
         vol_parts.append(("env", ps_, True))
         loop_n += len(bumps_)
     # mvt1 c04 (critic A #3, C #4): TIMP_ROLL_RESTRIKE plan for a roll note as written at the output stage (moved onset
@@ -2824,6 +3132,32 @@ def build_track(tname, staves, patch, family, pan):
     # ramps, exact breakpoints
     for a_, b_, d_ in JOIN_NOTCH.get(tname, []):
         vol_parts.append(("env", [(a_ - 0.04, 0.0), (a_, d_), (b_, d_), (b_ + 0.04, 0.0)], True))
+    # mvt1 c06 (C #2): explicit level shapes from the config (per track and "_all")
+    for ps_ in LEVEL_SHAPES.get(tname, []) + LEVEL_SHAPES.get("_all", []):
+        vol_parts.append(("env", [(float(x_), float(d_)) for x_, d_ in ps_], True))
+    # mvt1 c06 (C #1): arrival weight on the tracks that start a note on the arrival
+    arr_w = []
+    if family in ("wind", "brass", "string"):
+        for qa_, aw_ in sorted(ARRIVAL_WEIGHT_AT.items()):
+            pre_, db_ = aw_[0], aw_[1]
+            pq_ = aw_[2] if len(aw_) > 2 else 4.0   # mvt1 c08 (critic C #1): the hold-back's length in qn (default 4)
+            if not any(abs(n["qn"] - qa_) < 0.05 for n in ns):
+                continue
+            vol_parts.append(("env", [(qa_ - pq_, 0.0), (qa_ - 0.1, pre_), (sec_qn(qa_, 0.05), db_), (qa_ + 0.5, db_),
+                                      (qa_ + 1.0, 0.0)], True))
+            arr_w.append(qa_)
+    # mvt1 c06 (A #3): a slurred string tenuto at f or louder joined as a legato target keeps its weight in dB
+    ten_sw = []
+    if family == "string" and TENUTO_SWELL_DB:
+        for n in ns:
+            q0, e_ = n["qn"], orig_end[id(n)]
+            if near(q0, ten_q) and n.get("slur") is not None and n.get("leg_target") and base(q0) >= DYN["f"] - 2 \
+                    and e_ - q0 >= 0.4:
+                t1_ = sec_qn(q0, 0.05)
+                vol_parts.append(("env", [(t1_, 0.0), (sec_qn(q0, 0.12), TENUTO_SWELL_DB),
+                                          (max(sec_qn(q0, 0.12) + 0.01, e_ - 0.1), TENUTO_SWELL_DB),
+                                          (max(sec_qn(q0, 0.12) + 0.02, e_ + 0.05), 0.0)], True))
+                ten_sw.append(round(q0, 3))
     # c18 (C #4): phrase tops. In LEAD_SPANS, inside printed slurs of PT_MIN_NOTES or more onsets, each onset gets
     # clip(PT_DB_PER_ST x (top pitch - mean top pitch of the slur), PT_CLIP) dB, stepped at the moved onsets (0.1 qn
     # ramps), from 0.1 qn before the first moved onset to 0.1 qn after the slur's last note ends (c17: the top note was
@@ -2844,7 +3178,9 @@ def build_track(tname, staves, patch, family, pan):
             val_ = {q_: max(PT_CLIP[0], min(PT_CLIP[1], PT_DB_PER_ST * (top_[q_] - mean_))) for q_ in ons_}
             # c22 (C #1d): onsets inside a soft lead hairpin take the printed shape, not the pitch contour (the solo
             # violin's bar 17 crescendo falls Bb5 -> Eb5: the phrase tops took 2.1 dB off it)
-            val_ = {q_: (0.0 if any(a_ - EPS <= q_ <= b_ + EPS for a_, b_ in hp_soft_spans) else v_)
+            val_ = {q_: (0.0 if any(a_ - EPS <= q_ <= b_ + EPS for a_, b_ in hp_soft_spans)
+                         or (PT_OFF_IN_CRESC and any(k_ == "cresc" and a_ - EPS <= q_ <= b_ + EPS for a_, b_, k_ in hps))
+                         else v_)
                     for q_, v_ in val_.items()}
             mov_ = {q_: min(new_on(n) for n in sn_ if abs(n["qn"] - q_) < 0.002) for q_ in ons_}
             end_ = max(orig_end[id(n)] for n in sn_)
@@ -2856,7 +3192,7 @@ def build_track(tname, staves, patch, family, pan):
             vol_parts.append(("env", pts_, True))
             pt_slurs += 1
     # c09 (A #5): loud accents get weight in dB (CC11 hardly moves at the top of its range): +ACCENT_DB, 30 ms rise
-    acc_n, acc_done, acc_on_arr = 0, [], []
+    acc_n, acc_done, acc_on_arr, acc_fitted = 0, [], [], []
     if family in ("wind", "brass", "string"):
         for n in ns:
             is_sf = any(abs(n["qn"] - m_) < 0.01 for m_ in sf_q) and value_at(pts, n["qn"] - 0.01) >= DYN["f"]
@@ -2867,6 +3203,17 @@ def build_track(tname, staves, patch, family, pan):
                 acc_done.append(q0)
                 ov = next((v_ for k_, v_ in ACCENT_DB_AT.get(tname, {}).items() if abs(q0 - k_) < 0.02), None)
                 sw_ = next((v_ for k_, v_ in ACCENT_SWELL_S_AT.get(tname, {}).items() if abs(q0 - k_) < 0.02), None)
+                fv_ = next((v_ for k_, v_ in ACCENT_FITS.get(tname, {}).items() if abs(q0 - float(k_)) < 0.02), None)
+                if gentle_ and ov is None and sw_ is None and fv_ is not None:
+                    # mvt1 c07 (ONE_TIME): a fitted swell (tools/fit_accents.py), the family's shape
+                    ov = float(fv_[0] if isinstance(fv_, list) else fv_)
+                    sw_ = gentle_["swell_s"]
+                    acc_fitted.append(round(q0, 3))
+                    if ov <= 0:
+                        acc_n += 1
+                        continue
+                elif gentle_ and ov is not None and sw_ is None:
+                    sw_ = gentle_["swell_s"]   # mvt1 c07: a per-onset level on a gentle family keeps the gentle shape
                 if gentle_ and ov is None and sw_ is None:   # mvt1 c00: the family's gentle swell
                     ov = gentle_["db"] if base(q0) >= DYN["f"] - 4 else gentle_["soft_db"]
                     sw_ = gentle_["swell_s"]
@@ -2899,6 +3246,13 @@ def build_track(tname, staves, patch, family, pan):
                                       (t3, MARC_BODY_DB), (e_, MARC_BODY_DB), (e_ + 0.05, 0.0)], True))
     # c03 (B #4): note trims keyed by onset (qn), matched within 0.02 qn, no length cutoff
     nt = {float(k): v for k, v in NOTE_TRIMS.get(tname, {}).items() if not k.startswith("_")}
+    acc_trim_q = []   # mvt1 c07 (ONE_TIME): fitted accent trims, as step note trims (added to any listed trim)
+    if family in GENTLE_ACCENT:
+        for k_, v_ in ACCENT_FITS.get(tname, {}).items():
+            if isinstance(v_, list) and len(v_) > 1 and v_[1]:
+                kq_ = next((x_ for x_ in nt if abs(x_ - float(k_)) < 0.02), float(k_))
+                nt[kq_] = nt.get(kq_, 0.0) + float(v_[1])
+                acc_trim_q.append(kq_)
     nt_pluck_done = set()
     for n in ns:
         hit = [v for k, v in nt.items() if abs(n["qn"] - k) < 0.02]
@@ -2916,10 +3270,46 @@ def build_track(tname, staves, patch, family, pan):
                                       (max(qn_before(q0, 0.01) + 0.004, qn_before(ne_, 0.01)), 0.0)], True))
             continue
         if hit:
+            # mvt1 c08: once per onset (the track's envelope is shared: a trim on a 2-note chord applied twice); the
+            # longest note at the onset carries it
+            if round(n["qn"], 3) in nt_pluck_done:
+                continue
+            nt_pluck_done.add(round(n["qn"], 3))
+            n = max([o for o in ns if abs(o["qn"] - n["qn"]) < EPS], key=lambda o: orig_end[id(o)])
             sec = qn_to_sec(orig_end[id(n)]) - qn_to_sec(n["qn"])
-            rs_ = next((v_ for k_, v_ in NOTE_TRIM_RAMP_S.get(tname, {}).items() if abs(n["qn"] - k_) < 0.02), 0.6)
+            rs_ = next((v_ for k_, v_ in NOTE_TRIM_RAMP_S.get(tname, {}).items() if abs(n["qn"] - k_) < 0.02),
+                       0.1 if any(abs(n["qn"] - k_) < 0.02 for k_ in acc_trim_q) else 0.6)
             ramp = rs_ * (orig_end[id(n)] - n["qn"]) / sec   # 0.6 s in qn (c24: per-onset NOTE_TRIM_RAMP_S)
             vol_parts.append(("env", trim_shape(n, hit[0], ramp)))   # c09 (A #2): ends at the next moved onset
+    # mvt1 c07 (critic A #1): ROW_TRIM_DB. In a line that mixes rows, loud Sus MAX / Stac notes sat 2-6 dB over the Leg
+    # rows at the same CC11 (Violins II +4.7, Violas +5.6 median), so accented Leg notes sat under the Sus eighths after
+    # them. Consecutive trimmed notes are one step (no bump at each join); accented notes on the row are trimmed too
+    # (their swell stays on top), so an accent keeps its relation to the Sus notes around it
+    row_trimmed = []
+    rtab_ = ROW_TRIM_DB.get(tname, {}) if family == "string" else {}
+    if rtab_:
+        segs_ = []
+        for n in sorted(ns, key=lambda o: o["qn"]):
+            a_ = n.get("art") or ""
+            if a_ not in rtab_ or n.get("down_stroke") or n.get("rep_sus") or n.get("rep_stac") \
+                    or any(a0_ - EPS <= n["qn"] < b0_ for a0_, b0_ in ROW_TRIM_SKIP.get(tname, [])) \
+                    or any(o is not n and abs(o["qn"] - n["qn"]) < 0.01 for o in ns) or final(n["qn"]) < rtab_[a_][1] \
+                    or (AUTO_REBOW and qn_to_sec(orig_end[id(n)]) - qn_to_sec(n["qn"]) > REBOW_MAX_S) \
+                    or not any(o is not n and "Leg" in (o.get("art") or "")
+                               and max(o["qn"] - orig_end[id(n)], n["qn"] - orig_end[id(o)]) <= ROW_TRIM_NEAR_QN + EPS
+                               for o in ns):
+                continue
+            s0_ = new_on(n)
+            nm_ = next_moved(n)
+            s1_ = nm_ if nm_ is not None else orig_end[id(n)]
+            if segs_ and abs(segs_[-1][2] - rtab_[a_][0]) < 1e-6 and s0_ <= segs_[-1][1] + 0.06:
+                segs_[-1][1] = max(segs_[-1][1], s1_)
+            else:
+                segs_.append([s0_, s1_, rtab_[a_][0]])
+            row_trimmed.append(round(n["qn"], 3))
+        for s0_, s1_, d_ in segs_:
+            vol_parts.append(("env", [(s0_ - 0.03, 0.0), (s0_ + 0.03, d_), (max(s0_ + 0.04, s1_ - 0.05), d_),
+                                      (max(s0_ + 0.05, s1_ + 0.03), 0.0)], True))
     # c04 (C #5): a soft string note that re-attacks on Leg Slur MAX after a short gap and lasts 2 qn or more swells in the
     # sample (Vln II qn 220: +14 dB at a flat CC11); level only: 0 dB at the onset to -4.5 dB at 2 qn, held
     bloomv, bloomv_skip = 0, []
@@ -3126,6 +3516,8 @@ def build_track(tname, staves, patch, family, pan):
         for a in sorted(out_notes, key=lambda a: a["qn"]):
             q0_, e_ = a["qn"], a["qn"] + a["dur"]
             t0_, t1_ = qn_to_sec(q0_), qn_to_sec(e_)
+            if a["_art"] == "Tremolo" and any(x_ - EPS <= a["sq"] < y_ for x_, y_ in TREM_JOIN.get(tname, [])):
+                continue   # mvt1 c08: joined tremolo notes are split by TREM_SPLIT below, on the tremolo row
             listed_ = any(q0_ < p_ < e_ for p_ in rebow_pts)   # mvt1 c02: listed points, the keyswitch back below
             if t1_ - t0_ <= REBOW_MAX_S and not listed_:
                 continue
@@ -3197,6 +3589,47 @@ def build_track(tname, staves, patch, family, pan):
         if restrikes:
             out_notes.sort(key=lambda a: a["qn"])
             print(f"  {tname}: {len(restrikes)} roll re-strikes", file=sys.stderr)
+    # mvt1 c08 (critic A #4): held tremolo notes of the TREM_JOIN spans split into abutting same-pitch tremolo pieces of
+    # seeded irregular length, never starting within clear_qn of another onset or a barline (same row: no keyswitch)
+    trem_splits = []
+    if family == "string" and TREM_JOIN.get(tname):
+        import random as _r
+        all_on_ = sorted({a["qn"] for a in out_notes} | {a["sq"] for a in out_notes})
+        for a in sorted(out_notes, key=lambda a: a["qn"]):
+            if a["_art"] != "Tremolo" or not any(x_ - EPS <= a["sq"] < y_ for x_, y_ in TREM_JOIN[tname]):
+                continue
+            t0_, t1_ = qn_to_sec(a["qn"]), qn_to_sec(a["qn"] + a["dur"])
+            if t1_ - t0_ <= TREM_SPLIT["max_s"]:
+                continue
+            rng_ = _r.Random(int(round(a["sq"] * 1000)) + a["pitch"])
+            lo_, hi_ = TREM_SPLIT["seg_s"]
+            cl_ = TREM_SPLIT["clear_qn"]
+
+            def ok_(q_):
+                return not any(abs(q_ - o_) < cl_ for o_ in all_on_) and \
+                    min(q_ % 4.0, 4.0 - q_ % 4.0) >= cl_
+            cuts_, t_ = [], t0_
+            while t1_ - t_ > hi_ + lo_ * 0.8:
+                tt_ = t_ + rng_.uniform(lo_, hi_)
+                q_ = sec_to_qn(tt_)
+                k_ = 0
+                while not ok_(q_) and k_ < 40:   # slide later in 0.05 qn steps to a clear spot
+                    q_ += 0.05; k_ += 1
+                if not ok_(q_) or qn_to_sec(q_) > t1_ - lo_ * 0.8:
+                    break
+                cuts_.append(round(q_, 4))
+                t_ = qn_to_sec(q_)
+            e_ = a["qn"] + a["dur"]
+            prev_ = a
+            for cq_ in cuts_:
+                prev_["dur"] = round(cq_ - TREM_SPLIT["gap_qn"] - prev_["qn"], 4)
+                nn_ = {"qn": cq_, "dur": round(e_ - cq_, 4), "pitch": a["pitch"], "vel": a["vel"], "sq": cq_, "_art": a["_art"]}
+                out_notes.append(nn_)
+                trem_splits.append([round(a["sq"], 3), cq_, a["pitch"]])
+                prev_ = nn_
+        if trem_splits:
+            out_notes.sort(key=lambda a: a["qn"])
+            print(f"  {tname}: {len(trem_splits)} tremolo splits", file=sys.stderr)
     # mvt1 c05 (critic C #2): staggered breaths on listed long wind/brass notes (BREATH_SPLIT_AT), split here at the output
     # so CC11 and the volume envelope stay those of the held note; same articulation, so no keyswitch
     breath_splits = []
@@ -3251,11 +3684,15 @@ def build_track(tname, staves, patch, family, pan):
         "leads": dict(lead_stats), "notches": len(notches), "unison_dropped": dropped, "bloomv": bloomv, "bloomv_skip": bloomv_skip, "timp_hp": timp_hp,
         "pitch_trimmed": pitch_trimmed, "early_fills": early_n, "loop_fills": loop_n, "tie_slurred": tie_slurred, "metric_vel": dict(metric_n), "metric_db": dict(metric_db_n), "div_entries": div_entries, "extra_leads": extra_used, "leg_leads": leg_used, "port": port_done, "bcsoft": bcsoft_n,
         "hpgain": [[round(i[1], 3), round(i[2], 3), i[4]] for i in vol_parts if i[0] == "hpgain"],
-        "rebows": sorted(rebow_list), "restrikes": restrikes, "breath_splits": breath_splits, "slur_rep_merged": slur_rep_merged,
+        "acc_vel_fixed": acc_vel_fixed, "rep_retongued": rep_retongued, "arrival_weight": arr_w, "tenuto_swell": ten_sw,
+        "down_strokes": [round(n["qn"], 3) for n in ns if n.get("down_stroke")],
+        "trem_entries": trem_entries,
+        "rebows": sorted(rebow_list), "restrikes": restrikes, "breath_splits": breath_splits, "trem_splits": trem_splits, "slur_rep_merged": slur_rep_merged,
         "short_strokes": [round(n["qn"], 3) for n in ns if n.get("short_stroke")],
         "pt_slurs": pt_slurs,
         "hp_chained": hp_chained, "hp_soft": hp_soft, "hp_soft_acc": hp_soft_acc, "hp_bridged": hp_bridged, "bc_skipped": bc_skipped, "roles_chained": role_chained, "accent_db": acc_n, "accent_on_arrival": acc_on_arr, "detached_accents": det_n,
         "acc_sus": [round(n["qn"], 3) for n in ns if n.get("acc_sus")],
+        "timp_chain_skip": timp_chain_skip, "acc_fitted": acc_fitted, "acc_trimmed": sorted(round(x_, 3) for x_ in acc_trim_q), "row_trimmed": row_trimmed,
         "ks": ks, "cc1": cc1, "cc11": cc11, "cc15": cc15, "cc7": cc7, "cc70": cc70, "dyn_curve": dyn_curve, "vol_db": vol_db, "vol_bp": vol_bp,
         "hairpins": [[round(a, 4), round(b, 4), k] for a, b, k in hps],
         "range": [min(pitches), max(pitches)] if pitches else None,
@@ -3282,7 +3719,7 @@ def build_perc_track(tname, staves, patch, family, pan):
     out_notes, last = [], {}
     for s_ in staves:
         for q, k, v in ev[s_]:
-            if k != "drum" or v[0] not in PERC_MAP.get(tname, {}):
+            if k != "drum" or v[0] not in PERC_MAP.get(tname, {}) or v[0].startswith("_"):
                 continue
             spec, ln = PERC_MAP[tname][v[0]], float(v[1])
             prev = last.get(v[0])
@@ -3307,9 +3744,25 @@ def build_perc_track(tname, staves, patch, family, pan):
     # Tam-tam [696,712,+8] row never took effect): the same shape as build_track's span rows (0.5 qn ramp in before the
     # start, out after the end; with an end_ramp the cut opens linearly over it and is 0 at the end)
     rows_ = [(r[0], r[1], r[2], r[3] if len(r) > 3 else 0) for r in ROLES.get(tname, [])]
+    # mvt1 c06 (critic C #5): PERC_MAP[track]["_damp"] = [(score qn, dB, seconds)]: a printed damp (the sample rings on
+    # after its note-off): the level falls linearly from 0 at qn to dB over the seconds and stays there until the next
+    # stroke of the track starts
+    damps_ = []
+    for dq_, ddb_, ds_ in PERC_MAP.get(tname, {}).get("_damp", []):
+        nx_ = min([n["qn"] for n in out_notes if n["qn"] > dq_ + EPS] + [SE + 8])
+        damps_.append((dq_, sec_to_qn(qn_to_sec(dq_) + ds_), ddb_, nx_))
+
+    # mvt1 c07 (critic B #1): LEVEL_SHAPES apply to the percussion tracks too (piecewise linear, exact breakpoints)
+    shapes_ = [[(float(x_), float(d_)) for x_, d_ in ps_] for ps_ in LEVEL_SHAPES.get(tname, [])]
 
     def role_db(q):
         v = 0.0
+        for ps_ in shapes_:
+            if ps_[0][0] <= q <= ps_[-1][0]:
+                v += value_at(ps_, q)
+        for d0_, d1_, ddb_, nx_ in damps_:
+            if d0_ <= q < nx_ - 0.05:
+                v += ddb_ * min(1.0, (q - d0_) / (d1_ - d0_))
         for a, b2, dbv, er in rows_:
             if er:
                 if a - 0.5 <= q < b2:
@@ -3318,9 +3771,11 @@ def build_perc_track(tname, staves, patch, family, pan):
                 v += dbv * max(0.0, min(1.0, (q - (a - 0.5)) / 0.5, (b2 + 0.5 - q) / 0.5))
         return v
     vol_db, last_ = [], None
-    if rows_:
+    if rows_ or damps_ or shapes_:
         grid_ = sorted({round(i * 0.25, 4) for i in range(int((SE + 4) / 0.25))}
-                       | {round(x, 4) for a, b2, _, er in rows_ for x in (a - 0.5, a, b2 - er if er else b2, b2 if er else b2 + 0.5)})
+                       | {round(x_, 4) for ps_ in shapes_ for x_, _ in ps_}
+                       | {round(x, 4) for a, b2, _, er in rows_ for x in (a - 0.5, a, b2 - er if er else b2, b2 if er else b2 + 0.5)}
+                       | {round(x, 4) for d0_, d1_, _, nx_ in damps_ for x in (d0_, d1_, nx_ - 0.05, nx_ - 0.04)})
         for q in grid_:
             v = round(role_db(q), 2)
             if v != last_:
@@ -3334,7 +3789,9 @@ def build_perc_track(tname, staves, patch, family, pan):
         "extra_leads": [], "leg_leads": [], "port": [], "bcsoft": 0, "hpgain": [], "pt_slurs": 0, "hp_chained": [],
         "hp_soft": 0, "hp_soft_acc": 0, "hp_bridged": 0, "bc_skipped": [], "roles_chained": 0, "accent_db": 0,
         "ks": [], "cc1": [], "cc11": [(0.0, 127)] if out_notes else [], "cc15": [], "cc7": [], "cc70": [],
-        "dyn_curve": dyn_curve, "vol_db": vol_db, "vol_bp": [],
+        "dyn_curve": dyn_curve, "vol_db": vol_db,
+        "vol_bp": sorted({round(x, 4) for d0_, d1_, _, nx_ in damps_ for x in (d0_, d1_)}
+                         | {round(x_, 4) for ps_ in shapes_ for x_, _ in ps_}),
         "hairpins": [[round(a, 4), round(b, 4), k] for a, b, k in hps],
         "range": [min(n["pitch"] for n in out_notes), max(n["pitch"] for n in out_notes)] if out_notes else None,
         "ks_clash": [], "art_counts": {},
@@ -3348,7 +3805,14 @@ UNI_DROP, UNI_BOOST = collections.defaultdict(set), collections.defaultdict(dict
 UNI_DELAY, UNI_OUTLAST_QN, UNI_DELAY_OVERLAP_QN = collections.defaultdict(dict), 0.25, 0.1   # c17 (B #6)
 
 
+UNI_BY_DYN = True   # mvt1 c10 (critic B #3): rank the kept copy by printed dynamic first
+UNI_MARKS = {}
+
+
 def find_unisons():
+    for t in TRACKS:
+        if t[3] in ("wind", "brass"):
+            UNI_MARKS[t[0]] = hairpins_and_marks(t[1])[0]
     by_patch = collections.defaultdict(list)
     for t in TRACKS:
         if t[3] in ("wind", "brass"):
@@ -3375,7 +3839,14 @@ def find_unisons():
             staves_of = {t[0]: t[1] for t in ts}
             slurred = lambda x: any(a - EPS <= x[1]["qn"] <= b + EPS for a, b in spans(staves_of[x[0]], "slur"))
             # a slurred note (part of a line) first, then the longer note, then the earlier track
-            keep = max(grp, key=lambda x: (slurred(x), x[1]["end"] - x[1]["qn"], -order.index(x[0])))
+            # mvt1 c10 (critic B #3): the printed dynamic first (the last printed mark at the onset on the copy's own
+            # staves): Horn 4's f chord tone took the a2 horns' ff theme note at qn 670 (Horn 1 -18 dB re master there,
+            # -7.4..-9.3 on the theme notes around it), Horn 3's mp chord note Horn 1's mf solo E4 at 418
+            def printed(x):
+                mk_ = [d_ for q_, d_ in UNI_MARKS[x[0]] if q_ <= x[1]["qn"] + EPS]
+                return DYN[mk_[-1]] if mk_ else 0
+            keep = max(grp, key=lambda x: (printed(x) if UNI_BY_DYN else 0, slurred(x), x[1]["end"] - x[1]["qn"],
+                                           -order.index(x[0])))
             if any(x[1]["end"] > keep[1]["end"] + 1.0 + EPS for x in grp):
                 # a copy that holds on more than 1 qn after the kept note would leave a hole in its own part
                 print(f"  unison qn {na['qn']:.2f} pitch {na['pitch']}: left (a copy holds > 1 qn longer)", file=sys.stderr)

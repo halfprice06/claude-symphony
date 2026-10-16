@@ -14,6 +14,13 @@ SRC, OUT = sys.argv[1], sys.argv[2]
 # mvt1 c02 (critic C #5): RATIO 2.0 -> 2.5 (simulated on c01: span 20.5 -> 19.7 dB, LRA 15.6 -> 14.9 LU, no inversions;
 # 3.0 gave 6 inversions)
 TARGET_I, KNEE_BELOW, RATIO, CAP_DB, SMOOTH_S = -19.5, 6.0, 2.5, 10.0, 3.0
+# mvt1 c08 (critic C #3): a slow top ride over the loudest frames (above the 95th percentile + TOP_ABOVE, TOP_RATIO:1,
+# same smoothing): the delivered p75->max was 10.6 dB against 4.8-7.6 in five recordings and the p10 span 20.0 dB
+# (target 16-19); it acts on the top 5-8% of frames only. TOP_RATIO 1.0 = off. 1.6 rather than the critic's 2.0: on a
+# simulation of the c08 changes 2.0 left bar 160 only 0.35 LU over bar 122 (1.6: 0.49, span 18.6 dB, limiter 1.3 dB)
+TOP_ABOVE, TOP_RATIO = -3.0, 1.6
+FAST_CAP_ABOVE = 4.0   # mvt1 c10 (critic C #1); None = off
+TAIL_DB, TAIL_S, FADE_S = -65.0, 1.0, 0.5
 LIMIT = "aresample=192000,alimiter=limit=0.841:attack=5:release=80:level=0:asc=1,aresample=48000"
 
 
@@ -42,7 +49,16 @@ S = np.nan_to_num(np.maximum(short_term(SRC), -70), nan=-70.0)
 S = np.concatenate([S[15:], np.full(15, S[-1])])  # centre the 3 s window
 loud = np.percentile(S[S > -59], 95)
 knee = loud - KNEE_BELOW
-gdb = smooth(np.clip((knee - smooth(S, SMOOTH_S)) * (1 - 1 / RATIO), 0, CAP_DB), SMOOTH_S)
+Ss = smooth(S, SMOOTH_S)
+lift = smooth(np.clip((knee - Ss) * (1 - 1 / RATIO), 0, CAP_DB), SMOOTH_S)
+top = smooth(np.clip((Ss - (loud + TOP_ABOVE)) * (1 - 1 / TOP_RATIO), 0, None), SMOOTH_S)
+if FAST_CAP_ABOVE is not None:
+    # mvt1 c10 (critic C #1): the slow lift is capped by a lift computed from each frame's own loudness (S smoothed over
+    # 1 s, knee + FAST_CAP_ABOVE), so short loud passages next to soft ones no longer inherit their neighbours' lift
+    # (c09 delivered: bar 160 only 0.2 dB over bar 170 and 0.8 over bar 82 on momentary max; master 3.3 / 4.2 dB)
+    fastcap = np.clip((knee + FAST_CAP_ABOVE - smooth(S, 1.0)) * (1 - 1 / RATIO), 0, CAP_DB)
+    lift = smooth(np.minimum(lift, fastcap), 0.5)
+gdb = lift - top
 gain = 10 ** (np.interp(np.arange(len(x)) / sr, np.arange(len(gdb)) / 10, gdb) / 20)
 y = x * (gain[:, None] if x.ndim > 1 else gain)
 with tempfile.TemporaryDirectory() as td:
@@ -51,9 +67,22 @@ with tempfile.TemporaryDirectory() as td:
     before_lim = os.path.join(td, "pre.wav")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", rode, "-af", f"volume={lift:.2f}dB", "-c:a", "pcm_f32le", before_lim], check=True)
     peak_pre = float(np.abs(sf.read(before_lim)[0]).max())
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", before_lim, "-af", LIMIT, "-b:a", "192k", OUT], check=True)
+    lim = os.path.join(td, "lim.wav")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", before_lim, "-af", LIMIT, "-c:a", "pcm_f32le", lim], check=True)
+    # mvt1 c07 (critic C #6): the render runs 8 s past the last release for measurement; the delivered file ends TAIL_S
+    # after the last 50 ms window above TAIL_DB dBFS, with a fade over its last FADE_S (an "attacca" into the next
+    # movement is not a 7 s pause)
+    z, zsr = sf.read(lim, dtype="float32", always_2d=True)
+    w = int(0.05 * zsr)
+    lv = 20 * np.log10(np.sqrt((z[: len(z) // w * w] ** 2).mean(axis=1).reshape(-1, w).mean(axis=1)) + 1e-12)
+    last = (np.nonzero(lv > TAIL_DB)[0].max() + 1) * 0.05 if (lv > TAIL_DB).any() else len(z) / zsr
+    end = min(len(z) / zsr, last + TAIL_S)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", lim, "-af",
+                    f"atrim=end={end:.3f},afade=t=out:st={max(0.0, end - FADE_S):.3f}:d={FADE_S}", "-b:a", "192k", OUT],
+                   check=True)
 m = integrated(OUT)
 St = short_term(OUT); St = St[St > -59]
-print(f"delivered: I {m['I']} LUFS, LRA {m['LRA']} LU, TP {m['TP']} dBTP; ride max +{gdb.max():.1f} dB; "
+print(f"delivered: I {m['I']} LUFS, LRA {m['LRA']} LU, TP {m['TP']} dBTP; ride max +{gdb.max():.1f} dB, min {gdb.min():.1f} dB; "
       f"limiter about {max(0.0, 20*np.log10(peak_pre) + 1.5):.1f} dB on the loudest sample peak; "
-      f"p10-to-max short-term span {St.max() - np.percentile(St, 10):.1f} dB")
+      f"p10-to-max short-term span {St.max() - np.percentile(St, 10):.1f} dB; "
+      f"length {end:.2f} s (tail {end - last:.2f} s after the last window above {TAIL_DB:.0f} dBFS)")
