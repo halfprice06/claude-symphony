@@ -44,6 +44,7 @@ The themes are free to evolve under the critics. symphony/coherence/themes-scher
 - v62 (cycle 61): trio tune cadence, bars 13–15 of every full statement (165–167, 181–183, 221–223). Old gis'4 b'4 e''4 | dis''2 fis''4 | e''2. New gis'4 b'4 e''4~ | e''4 dis''4 fis''4 | e''2. Coda 354–355 likewise: gis'''2 fis'''8 e'''~ | e'''4 dis''' fis'''. Record refreshed; finale told.
 
 - v82 (cycle 81): trio tune T, bars 10–11 of every full statement (162, 178, 218, 350). Old e''4 gis''2 | a''4. gis''8 fis''4. New e''4 gis''4 a''4~ | a''4. gis''8 fis''4 (the A anticipated and tied). Record refreshed; finale told (it does not quote T).
+- v94 (cycle 93): trio tune T, second statement only (Vln I 169, Vln II an octave lower), bars 180–184. Old cis'''4 b'' a'' | gis''4 b'' e'''~ | e'''4 dis''' fis''' | e'''2.~ | e'''2 r4. New cis'''4 b'' gis'' | dis''4 fis'' b''~ | b''4 ais'' cis''' | b''2.~ | b''2 r4 (T's cadence moved to B, the trio's first V key area). Record line now checks its first 27 notes; finale told (it does not quote T).
 
 ## Cycle 4 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v04 → v05
 All 8 findings accepted (reasons in v05/critique.md): horn chords split and tutti balance 105–120/309–324 with Vln II on the theme; harp RH out of the trio off-beats 169–184/209–224; F-major episode thinned (Cl rests, harp chord to LH); Hn 2 lower in the second idea 45–56; Hn 1·2 thirds/sixths 209–224; violas pizz. 257–276; 87–88 doubling; tuba E1 at 341–343. Themes unchanged. Keep: harp alone with the theme head at 73–80; no plucked off-beats doubled by bowed ones.
@@ -144,6 +145,9 @@ Findings 1–7 accepted (v36/critique.md): solo labels on shared staves, aligned
 
 ## Resumed 2026-10-16 (Dan: "pick up from where their actor critic loops stopped and continue them")
 Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project thread, working in the git checkout (/home/user/claude_composes) instead of /mnt/project-files; kit paths changed accordingly, book PDFs in pdfs/. Checkpoint PRs to main every ten cycles. Theme changes go to the movement IV thread "Continue movement 4 loop". The mount-expiry rule above no longer applies (no shared mount); commit and push after each promotion instead.
+
+## Cycle 93 (lens 3 form, A&S Unit 14 second pass) v93 → v94
+Both accepted (v94/critique.md): the second trio statement modulates to B at 180–184 (theme change, logged above); no doubled A♯ at 175 and 215–216. Do-not-touch: the trio's B key area at 180–184 (A&S PDF 220, 224); the scherzo's key plan and proportions; the first trio statement 153–168; the approaches at 101–104 and 243–250.
 
 ## Cycle 92 (lens 2 harmony, A&S Unit 5 second pass) v92 → v93
 All 7 accepted (v93/critique.md): Cl 1 G5 resolves the V7 seventh at 105/305; parallels removed at 67–68 (Vc), 194–195 (Cl 2), 199–201 (Bsn 1), 215–216 (Hn 2 holds F♯4), 345–347 (Vla); no doubled leading tone at 182/222 (Vla <a fis'>), Bsn 1 F♯4 at 211. Open: Hn 1 vs cellos 220→221 octaves (no clean fix found). Do-not-touch: the seventh's resolution at 105/305 is in Cl 1, not the flutes (settles c052 vs c065); plagal close 357–360; hemiola cadences; coda cadence voicing 354–355.

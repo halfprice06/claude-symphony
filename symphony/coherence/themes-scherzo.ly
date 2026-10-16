@@ -63,7 +63,8 @@ motiveXrepeated = { b,4 b,8 b,8 b,4 }
 %@ secondIdeaE FluteOne 285 8 15
 %@ secondIdeaE OboeOne 281 15 8
 %@ trioT ClOne 153
-%@ trioT VlnOne 169
+% v94 (c093): the second statement's consequent modulates to B at 180-184 (ii6/5 - cadential 6/4 - V7 - I of B), so only its first 27 notes match T
+%@ trioT VlnOne 169 27
 %@ trioT ClOne 197 9
 %@ trioT Vla 197 9
 %@ trioT ClOne 209
