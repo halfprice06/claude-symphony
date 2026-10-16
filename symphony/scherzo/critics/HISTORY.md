@@ -145,6 +145,9 @@ Findings 1–7 accepted (v36/critique.md): solo labels on shared staves, aligned
 ## Resumed 2026-10-16 (Dan: "pick up from where their actor critic loops stopped and continue them")
 Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project thread, working in the git checkout (/home/user/claude_composes) instead of /mnt/project-files; kit paths changed accordingly, book PDFs in pdfs/. Checkpoint PRs to main every ten cycles. Theme changes go to the movement IV thread "Continue movement 4 loop". The mount-expiry rule above no longer applies (no shared mount); commit and push after each promotion instead.
 
+## Cycle 90 (lens 10 cyclic, Adler ch. 17) v90 → v91
+All accepted (v91/critique.md): timpani motive x ppp at 363/367/371 instead of the closing E roll (ending no longer copies movement I's); Hn 2 rests at 4–7, Bsn 1 holds B3 (call for one horn); timpani 9–10 comment and coherence/scherzo.md updated. Finale told (scoring only). Do-not-touch: Hn 1 alone on the call 3–6; no timpani roll at the close; the timpani B–G–E link at 9–10.
+
 ## Cycle 89 (lens 9 holistic, Schumann 2/ii; A&S Units 20–32 opening examples) v89 → v90
 Both accepted (v90/critique.md): Vln I bar 331 F6–C6 (no augmented 2nd into 332; no other melodic aug. 2nd left by script scan); V7/IV passing seventh in the violas at 172–173 and 212–213 (trio statements 2 and 3). Do-not-touch: the first trio statement's plain harmony (153–168), kept as the reference the later statements colour.
 

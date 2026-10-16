@@ -1,22 +1,22 @@
 # Scherzo (movement III) current state for the other movements
 
 Owner: the scherzo thread ("Scherzo actor critic loops"). Only the scherzo thread edits this file. Updated 2026-10-13 13:00 UTC.
-Current version: symphony/scherzo/v87 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pages; rehearsal letters added at 169, 225, 277, 357 in v46). Bar numbers below are v24. History: v03 392 bars; v04 cut 8 trio bars (bars after 196 −8); v24 cut 4 retransition bars (v23 245–328 → −4) and 4 bars of the reprise close (v23 333–384 → −8).
+Current version: symphony/scherzo/v91 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pages; rehearsal letters added at 169, 225, 277, 357 in v46). Bar numbers below are v24. History: v03 392 bars; v04 cut 8 trio bars (bars after 196 −8); v24 cut 4 retransition bars (v23 245–328 → −4) and 4 bars of the reprise close (v23 333–384 → −8).
 
 ## Opening (bars 1–12, Allegro vivace, dotted minim = 88)
 - Bars 1–2: Hn 1 alone, G♯4 pp, fermata on bar 2 since v21 (about 2.7 s) (movement II's A♭ respelt). Vc/Cb pizz. E at 3.
-- Bars 3–6: Hn 1 G♯3–E4–D♯4, D♯4 held through 5–6 and not resolved (movement I's horn call E♭3–C4–B3 with its rising sixth, scale degrees 3–1–7, in E major; unresolved since v31 so the finale keeps the resolution). Hn 2 B3 from bar 4. Vc/Cb pizz. E at 7 with the clarinets' E minor.
+- Bars 3–6: Hn 1 G♯3–E4–D♯4, D♯4 held through 5–6 and not resolved (movement I's horn call E♭3–C4–B3 with its rising sixth, scale degrees 3–1–7, in E major; unresolved since v31 so the finale keeps the resolution). Hn 1 plays the call alone (since v91; Hn 2 rests, Bsn 1 holds B3 from bar 4, as movement I's call is one horn). Vc/Cb pizz. E at 7 with the clarinets' E minor.
 - Bars 7–8: Cl 1 E5 over Cl 2 G4 and Bsn 1 B3 pp turn the chord to E minor (G♮). Since v41 no instrument plays E4 here: the horn call's D♯4 (5–6) is not resolved in its own phrase, and E sounds only in other octaves. Later the horns use D♯4→E4 as an ordinary leading tone (Hn 2 in the tuttis, Hn 3 at 333 and 339), so the finale's Hn 3 at IV 219–220 answers the call's phrase, not the first D♯4→E4 in the horns.
-- Bars 9–12: timpani alone, motive x (crotchet, two quavers, crotchet): B–B–B–G, E, B–B–B–E.
+- Bars 9–12: timpani alone, motive x (crotchet, two quavers, crotchet): B–B–B–G, E, B–B–B–E. B–G–E is movement II's last timpani figure (E♭–C–A♭, its 84–85) a major third lower; the finale's timpani carry it on to G (143–145). Keep this link (c090).
 - Timpani label at bar 1 (since v11): "retune in the pause: A♭ → E, C → G, D♭ → B, E♭ → E" (from movement II's A♭, C, D♭, E♭); "hard sticks" (v21). Last bar (v21): "muta: low E in G, G in A♭, B in C, high E in E♭ (for the Finale, in the pause)". Trumpet 3 tacet, stated under the title (v21). Trio retunes G → G♯ ("muta G in G♯"), the retransition back ("muta G♯ in G"). Final tuning at the end of the movement: E, G, B, E (the E-major coda uses only E and B).
-- Hn 3·4 marked "senza sord." at their first entry (bar 73) as a reminder; movement II (v181) has them con sord. at 87–90 and "via sord." at 91, so they arrive open.
+- Hn 3·4 marked "senza sord." at their first entry (bar 73) as a reminder; movement II (v201) has them con sord. at 87–90 and "via sord." at 91, so they arrive open.
 
 ## Ending (coda 325–376)
 - 325–340 Più mosso (dotted minim = 96), E minor: motive x stretto from the cellos up; bass E–D–C–B (iv6 at 331 v23–v80; since v81 the Neapolitan 6/4 C–F–A, the movement's ♭II restated before its last dominant, as movement I reaches V through its N6 at I 173); theme A head ff; Vln I and Fl 1 peak B6 at 336 on V7, the movement's only fff (under the finale's fff and C7); E minor ff chord 339; general pause 340.
 - 341 Meno mosso (tempo del Trio, dotted minim = 76): trio tune T in A major (IV) in Hn 1 (341) and Cl 1 (345), pivot E at 348, then E major in Vln I + Fl 1 (349) (since v14).
 - 357–360: Hn 1 p, the motto's chromatic tail B4–A♯4–A4–G♯4 over E – A♯°7 – A minor – E (plagal close).
 - 375: the harp harmonic E4 is the scherzo's last E4; the finale's E♭4 (violas, Vln II, Cl 2, Hn 2) answers it at the same pitch, as movement II's violas answer movement I's E4 (noted at c070).
-- 360–376: Hn 1 holds G♯4 pp (breath 366–367 covered by Hn 3 G♯4 at 365–369), fading to ppp over 372–375. Vln I G♯5 ppp from 369. Timpani E roll ppp (soft sticks from 341) then a last E; harp E-major chord in harmonics (sounding E4–G♯4–B4, p, since v27) and Vc pizz. E2 / Cb pizz. E1 at 375 (the cellos' arco E3 stops at 364). Last sound: Hn 1 G♯4 and Vln I G♯5 alone, E major implied, final fermata.
+- 360–376: Hn 1 holds G♯4 pp (breath 366–367 covered by Hn 3 G♯4 at 365–369), fading to ppp over 372–375. Vln I G♯5 ppp from 369. Timpani motive x ppp on B–B–B–E at 363, 367 and 371 (soft sticks from 341), then a last E at 375; no closing roll since v91, so the ending does not copy movement I's (two pulses, ppp roll, harp under a held violin); harp E-major chord in harmonics (sounding E4–G♯4–B4, p, since v27) and Vc pizz. E2 / Cb pizz. E1 at 375 (the cellos' arco E3 stops at 364). Last sound: Hn 1 G♯4 and Vln I G♯5 alone, E major implied, final fermata.
 - For the finale: take that G♯ as A♭ (enharmonic link). The scherzo does not close the E♭/E♮ (D♯/E) thread; the finale's violas still do.
 
 ## Key plan
