@@ -168,6 +168,10 @@ v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles
 ## Batch checkpoint after cycle 156 (2026-10-16)
 v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 rendered with r07 for Dan. Next: cycle 157 reviews v157 (lens 7 texture).
 
+## Cycle 160 (lens 10 cyclic, Sebesky ch. 1 and 9, second pass) v160 → v161
+- Accepted: Hn 4 part "senza sord." at 73; Bsn 2 B2 pedal under the horn call (Bsn 1 B3 from 7); records to finale v182.
+- Kept: soft ending before the finale; motto-close rhyme with the finale (c060).
+
 ## Cycle 159 (lens 9 holistic, Adler part 1 full scores, second pass; Borodin 2/ii) v159 → v160
 - Accepted: Vln II unison with Vln I at 305–308; stale comment fixed.
 - Verdict: nothing worse since v149. Do-not-touch: hemiola cadences, timpani motive x, strings-only fugato/stretto, trio layering 153–224, 357–376.
