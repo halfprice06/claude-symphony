@@ -525,3 +525,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 126 (v126 → v127), lens 6 playability (Adler ch. 6-7 woodwinds)
 - Accepted: staggered breaths in the last chorale 258/260/261; Fl 2 breaths 259, 261; Ob 1 rests 265-268 (a2 ff at 269); Bn 2 rest 146; Fl 1/Ob 1 breath after 78; Cbsn/tuba breaths 228, 250; Cl 2/Bn 1 breaths 170, 178.
+
+## Cycle 127 (v127 → v128), lens 7 texture (Adler ch. 17)
+- Accepted: 257-262 Fl 2 on the chorale top line with Fl 1 (staggered breath after 260), Cl 1 takes Vln II's arpeggio in unison; violas C4 at 257-258.
+- Do-not-touch: no figuration above the chorale top line at 257-262 (c117's 8va Fl 2 doubling was reversed in c127; do not restore it). c119's open note on the thin top octave is closed.
