@@ -541,3 +541,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: finale.md current to v131 (147-150 seventh, 255-264 unison, Più allegro corrected); cor anglais joins Hn 1's theme-B answer 217-218, A♭4-G4 219-220.
 - Batch 121-130 checkpointed to main by PR (after PR #20).
 - Do-not-touch: link 1-2; 222→223; both chorale top lines and the cut on 264.1; last cadence 259-263; close 273-279 with the scherzo quotation.
+
+## Cycle 131 (v131 → v132), lens 1 melody (Adler ch. 7)
+- Accepted: Bn 1 F2 at 117 with A4-G4-F4 (c041's register reason answered); Fl 2 with Fl 1 at E♭6 on 83-86.

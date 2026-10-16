@@ -1,0 +1,38 @@
+(2, 1.0) 50
+    Bass clarinet: Ab2->G2 / Clarinets 1.2:shared Eb4->D4
+    Bass clarinet: Ab2->G2 / Horns 1.2:shared Eb4->D4
+    Bass clarinet: Ab2->G2 / Oboes 1.2:shared Eb5->D5
+    Bass clarinet: Ab2->G2 / Violas: Eb4->D4
+    Bass trombone: Ab2->G2 / Clarinets 1.2:shared Eb4->D4
+    Bass trombone: Ab2->G2 / Horns 1.2:shared Eb4->D4
+(6, 1.0) 50
+    Bass clarinet: Ab2->G2 / Clarinets 1.2:shared Eb4->D4
+    Bass clarinet: Ab2->G2 / Horns 1.2:shared Eb4->D4
+    Bass clarinet: Ab2->G2 / Oboes 1.2:shared Eb5->D5
+    Bass clarinet: Ab2->G2 / Violas: Eb4->D4
+    Bass trombone: Ab2->G2 / Clarinets 1.2:shared Eb4->D4
+    Bass trombone: Ab2->G2 / Horns 1.2:shared Eb4->D4
+(12, 3.0) 4
+    Clarinets 1.2:shared D4->C4 / Horns 1.2:shared G3->F3
+    Clarinets 1.2:shared D4->C4 / Violas: G3->F3
+(16, 1.0) 4
+    Clarinets 1.2:shared G4->Ab4 / Horns 1.2:shared C4->C#4
+    Clarinets 1.2:shared G4->Ab4 / Violas: C4->C#4
+(110, 1.0) 4
+    Violins I: G5->G6 / Violoncellos: C3->C4
+(152, 3.0) 8
+    Clarinets 1.2:shared D4->C4 / Horns 1.2:shared G3->F3
+    Clarinets 1.2:shared D4->C4 / Violas: G3->F3
+    Horns 1.2:shared G3->F3 / Trombones 1.2:shared D4->C4
+    Trombones 1.2:shared D4->C4 / Violas: G3->F3
+(156, 1.0) 4
+    Clarinets 1.2:shared G4->Ab4 / Horns 1.2:shared C4->C#4
+    Clarinets 1.2:shared G4->Ab4 / Violas: C4->C#4
+(160, 3.0) 8
+    Clarinets 1.2:shared D4->C4 / Horns 1.2:shared G3->F3
+    Clarinets 1.2:shared D4->C4 / Violas: G3->F3
+    Horns 1.2:shared G3->F3 / Trombones 1.2:shared D4->C4
+    Trombones 1.2:shared D4->C4 / Violas: G3->F3
+(199, 1.0) 4
+    Bassoons 1.2:two Ab2->C3 / Horns 1.2:shared Eb4->G4
+    Double basses: Ab1->C2 / Horns 1.2:shared Eb4->G4
