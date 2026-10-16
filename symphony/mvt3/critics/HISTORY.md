@@ -613,3 +613,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 149 (v149 → v150), lens 9 master comparison (Bruckner 4/iv; v139)
 - Accepted: violin tremolo mf at 224-225; clarinets in thirds at 77-79. finale.md: 263 is the first (not only) root V-I.
+
+## Cycle 150 (v150 → v151), lens 10 coherence + release check (Rimsky prefaces, ch. IV)
+- No score change. finale.md current to v151.
+- Batch 141-150 added to the checkpoint PR.
