@@ -671,3 +671,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 161 (v161 → v162), lens 1 melody (Adler ch. 11 melodic, second pass)
 - Accepted: bass trombone holds B♭2 through the diminuendo 41-42.
 - Do-not-touch: no trombones on F1 at 27-34 (their first melody is the chorale at 224); 235-279.
+
+## Cycle 162 (v162 → v163), lens 2 harmony (A&S Units 30-31, second pass)
+- Accepted: Vln II B♭ at 64.4; Fl 2/Ob 1 B♭ at 38.3; viola D-C-C♭-B♭ at 46-47; C♭ neighbour in Vla/Vc at 81.2.
+- Do-not-touch: German sixth 1-2; trumpet solo 51-66; horn pedal and 6/3 bridge 83-90; 9-8 at 49; bass trombone B♭ 41-42; 222→223.
