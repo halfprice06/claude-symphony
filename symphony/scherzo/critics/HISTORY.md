@@ -156,6 +156,9 @@ v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 1
 ## Batch checkpoint after cycle 116 (2026-10-16)
 v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle 117 reviews v117 (lens 7 texture).
 
+## Cycle 125 (lens 5 engraving, Gould spacing second pass) v125 → v126
+Both accepted (v126/critique.md): oboe lines swapped at 333–339 (no crossing); tenutos at the stem end at 105–120 (low brass) and 201–202 (Vln II).
+
 ## Cycle 124 (lens 4 orchestration, Adler ch. 15 second pass) v124 → v125
 All 3 accepted (v125/critique.md): staff-level MIDI dynamics (shared staves now play as printed); brass downbeats tenuto in the tutti theme; flutes rest 105–108/305–308 and enter high at 109/309. Do-not-touch: Dynamic_performer at Staff level in \midi; tenuto (not accent) brass downbeats in the tutti theme.
 
