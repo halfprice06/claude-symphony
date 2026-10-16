@@ -162,6 +162,10 @@ v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 136 (2026-10-16)
 v128–v137 promoted (cycles 127–136); added to checkpoint PR #21; v133 rendered with r07 for Dan (assets rebuilt to /mnt/project-files/render-assets/). Next: cycle 137 reviews v137 (lens 7 texture).
 
+## Cycle 140 (lens 10 cyclic, Adler ch. 1 and ch. 15, second pass) v140 → v141
+- No score change. Records updated; kit/ceg.py added (C–E–G inside larger chords: six passing cases kept).
+- Rejected: G♯5 gap 365–368, trumpet/timpani alternation, second idea's rising sixth, Hn 1 rests at 144/240.
+
 ## Cycle 139 (lens 9 holistic, Rimsky-Korsakov examples, second pass; Tchaikovsky 5/iii) v139 → v140
 - Accepted: appoggiatura clash at 131/287 resolved; horns re-enter pp at 195; oboes together on the tail at 334.
 - Do-not-touch: form and length, second idea and hemiola, trio tune and 197–200 layering, 325–339, 357–376.
