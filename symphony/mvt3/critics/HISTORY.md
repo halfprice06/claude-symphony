@@ -603,3 +603,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 146 (v146 → v147), lens 6 playability (Adler ch. 12, 14 percussion)
 - Accepted: 223 timpani roll fff> to f, bass drum ff (crash fff); stick indications at 1, 215, 255; bass drum tied with cymbals 278-279.
 - Render note: simplify the two-voice percussion at 223 in a temp copy for r04/r07.
+
+## Cycle 147 (v147 → v148), lens 7 texture (Rimsky ch. III)
+- Accepted: crossed horn/bassoon pad 75-82; Cl 2 B♭3 at 57; Vln II A♭ at 62.4; violas B♭ at 85.4.
+- Do-not-touch: horn pedal 83-86 with Bn 1 inside; Cl 2 line at 58; arrival 223-234; 6/3 bridge 87-90.
