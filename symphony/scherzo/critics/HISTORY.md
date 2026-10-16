@@ -159,6 +159,11 @@ v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 126 (2026-10-16)
 v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle 127 reviews v127 (lens 7 texture).
 
+## Cycle 131 (lens 1 melody, Adler ch. 7, second pass) v131 → v132
+- Accepted: doubling winds change octave a beat early at 39/107/307 (no maj-7 leap in the closing arpeggio); Ob 1 on the top line at 129–131/285–287.
+- Kept: Ob 197–200 (c117), coda T colours, clarinet break 81–88, Cl breathing at 153, Cbsn 213–222, Fl/Ob unison 29–36.
+- Do-not-touch: Vln I octave change on the head's leap (c010).
+
 ## Cycle 130 (lens 10 cyclic, Casanelles ch. 5, second pass) v130 → v131
 - Accepted: 375 harp harmonics play at sounding pitch and p in the MIDI (\harmOct); coherence file brought to v131 / finale v154.
 - Rejected: changes to the soft held Vln I ending, the Hn 1 + Hn 3 G♯4 overlap at 365–369, and the 339 brass diminuendo (reasons in c130.md).
