@@ -688,3 +688,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 165 (v165 → v166), lens 5 engraving (MOLA, parts)
 - Accepted: cues at 91, 143-147, 197-199; Vln I and cello page turns on rests; rest ranges clear of marks; percussion rest ranges; stray "arco" removed (67, 187); Vln II "sul G" dashed line 81-82.
 - Do-not-touch: score MIDI (part-only changes).
+
+## Cycle 166 (v166 → v167), lens 6 playability (Rimsky ch. I, second pass)
+- Accepted: Hn 1-2 rest 34.4; breaths at 140 (Bn 1-2, Hn 3-4) and 198 (Hn 1-2); Cl 1 takes the counter-line 159-165 from Ob 2; trumpets mf at 151; basses F at 33.4.
+- Do-not-touch: trumpet solo 51-66; horn/bassoon pad 75-82; horn pedal and clarinet octave 83-86; Vln I divisi 159-164; Vln I B♭6 at 78.
