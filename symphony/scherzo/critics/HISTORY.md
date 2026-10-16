@@ -159,6 +159,9 @@ v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 126 (2026-10-16)
 v118–v127 promoted (cycles 117–126); added to checkpoint PR #21. Next: cycle 127 reviews v127 (lens 7 texture).
 
+## Cycle 127 (lens 7 texture, Adler ch. 17 second pass) v127 → v128
+Both accepted (v128/critique.md): Cl 2 an octave lower at 87–88; Cl 2 rests and Hn 4 pedal from 229. Do-not-touch: no instrument of the solo's own colour beside a wind solo (Adler PDF 267) in the codetta statements 225–236.
+
 ## Cycle 126 (lens 6 playability, Adler ch. 6–7 second pass) v126 → v127
 All 3 accepted (v127/critique.md): winds and Hn 1·2 breathe at 300; Fl 1 by step to B6 at 335; Hn 3 rests 233–236 under Bsn 1. Do-not-touch: the breath at 300 (winds) and the ⊓/V split at 300 (strings, c096).
 
