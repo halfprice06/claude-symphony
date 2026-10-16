@@ -696,3 +696,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 167 (v167 → v168), lens 7 texture (Sebesky ch. 3, second pass)
 - Accepted: Vln I single top line with Fl 1 at 91-94, Vln II double stops; Vln II f and winds mf under the tune at 159-165; winds mf under F2's string peak at 78-82.
 - Do-not-touch: 151-166 layout (c134); Bn 1 at 87-90 (c058).
+
+## Cycle 168 (v168 → v169), lens 8 expression (MOLA, second pass)
+- Accepted: one level per attack at 166; f on the 103 re-entry; Vln II "cantabile" at 67 and 187.
+- Do-not-touch: trumpet solos 51-66 and 171-186 with pp accompaniment; 77-82 balance (c167); codetta 91-94; 138 stop chord sf > over sub. p (c028); 187-198 bow plan.
