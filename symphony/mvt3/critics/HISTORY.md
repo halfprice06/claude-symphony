@@ -729,3 +729,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: ties at 95-96; up-bow at 114; viola div./unis. marks cleaned (199, 219); "change bow at will" removed at 229; text outside the slur at 124.
 - Open: bar-number placement at 110, 147, 212, 259, 263, 278 (padding fix costs a page; try a local tweak).
 - Do-not-touch: 16-page layout.
+
+## Cycle 176 (v176 → v177), lens 6 playability (Sebesky ch. 2, second pass)
+- Accepted: Ob 1 up an octave at 207-208; tuba and Cbsn breath after 208.
+- Do-not-touch: horns 138-150; A♭ pedal 205-210 in bass trombone and basses.
