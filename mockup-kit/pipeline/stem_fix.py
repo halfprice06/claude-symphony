@@ -1,6 +1,6 @@
 """mvt1 c01: apply a level-only change to rendered stems instead of rendering again (kit LEARNINGS 15).
 
-Usage: stem_fix.py N OLD_BUILD_DIR NEW_BUILD_DIR [--apply] [--out DIR] [track ...]
+Usage: stem_fix.py N OLD_BUILD_DIR NEW_BUILD_DIR [--apply] [--out DIR] [--old-src build_reaper.py] [track ...]
   OLD_BUILD_DIR / NEW_BUILD_DIR: folders holding a parts.json and a mix.json each: the data the cycle-N render was made
   from, and the changed data. Only volume-envelope differences are applied (vol_db, roles, trims, fills, mix gains,
   dyn/soft trims): each changed track's stem is multiplied by the new-minus-old envelope, computed with build_reaper's
@@ -20,23 +20,30 @@ OLD, NEW = sys.argv[2], sys.argv[3]
 rest = sys.argv[4:]
 APPLY = "--apply" in rest
 OUT = rest[rest.index("--out") + 1] if "--out" in rest else f"/private/tmp/claude-501/mockup-loop/stemfix-c{N:02d}"
-ONLY = [a for i, a in enumerate(rest) if not a.startswith("--") and (i == 0 or rest[i - 1] != "--out")]
+ONLY = [a for i, a in enumerate(rest) if not a.startswith("--") and (i == 0 or rest[i - 1] not in ("--out", "--old-src"))]
 SRC = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "build_reaper.py")).read()
 SRC = SRC[:SRC.index("ENV_LUA = ")]
+# mvt1 c15: --old-src FILE: the build_reaper.py the render was made with, when vol_points() changed since (the old
+# envelope must be computed with the code that wrote it)
+OLD_SRC = SRC
+if "--old-src" in rest:
+    OLD_SRC = open(rest[rest.index("--old-src") + 1]).read()
+    OLD_SRC = OLD_SRC[:OLD_SRC.index("ENV_LUA = ")]
 
 
-def load(build_dir):
+def load(build_dir, src=None):
+    SRC_ = SRC if src is None else src
     ns = {"__name__": "build_reaper_partial"}
     argv = sys.argv
     sys.argv = ["build_reaper.py", os.path.join(build_dir, "parts.json"), "/private/tmp/claude-501/mockup-loop/stemfix-jobs"]
     try:
-        exec(compile(SRC, "build_reaper.py", "exec"), ns)
+        exec(compile(SRC_, "build_reaper.py", "exec"), ns)
     finally:
         sys.argv = argv
     return ns
 
 
-A, B = load(OLD), load(NEW)
+A, B = load(OLD, OLD_SRC), load(NEW)
 C = f"{ROOT}/cycles/c{N:02d}/render"
 stems = sorted(f for f in glob.glob(f"{C}/[0-9][0-9]_*.wav") if not f.endswith("00_Master.wav"))
 PRE = A["PRE"]

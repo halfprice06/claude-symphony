@@ -43,6 +43,13 @@ ap.add_argument("--max-trim", type=float, default=3.0)
 ap.add_argument("--keep-long-qn", type=float, default=1.5)
 # c08 (critic A #2): a note of this many qn or less that starts a slur is not a neighbour (0 = off)
 ap.add_argument("--pickup-qn", type=float, default=0.5)
+# mvt1 c13 (critic A #2): an accent whose previous note on the track is a short pickup (--pickup-max-qn or less,
+# unaccented) ending at the accent must also stand --pickup-over dB over that pickup (level of the pickup from its onset
+# + 0.03 s to the accent's onset); the fitted swell is raised until both the neighbour target and this hold (0 = off)
+ap.add_argument("--pickup-over", type=float, default=0.0)
+ap.add_argument("--pickup-max-qn", type=float, default=0.5)
+# the pickup term never raises an accent more than this many dB over its same-dynamic neighbours (trim the pickup instead)
+ap.add_argument("--pickup-cap-over", type=float, default=5.0)
 ap.add_argument("--scratch", default=os.environ.get("TMPDIR", "/tmp"))
 ap.add_argument("--write", action="store_true")
 A = ap.parse_args()
@@ -103,8 +110,11 @@ def windows(P, t):
                       art=art(n), cc=lane(t["cc11"], n["qn"] + 0.02), acc=k in acc, ts=ts, te=te, ok=b - a >= 0.08,
                       # c08 (critic A #2): a slur's short first note plays the legato row's slow first-note layer
                       pickup=k in slur0 and n["qn"] + n["dur"] - n["sq"] <= A.pickup_qn + 0.1,
-                      slen=n["qn"] + n["dur"] - n["sq"],
-                      arrival=any(h[2] == "cresc" and abs(h[1] - n["sq"]) < 0.3 for h in t.get("hairpins", [])))
+                      slen=n["qn"] + n["dur"] - n["sq"], sq=n["sq"], qend=n["qn"] + n["dur"],
+                      arrival=any(h[2] == "cresc" and abs(h[1] - n["sq"]) < 0.3 for h in t.get("hairpins", [])),
+                      # mvt1 c15 (critic A #5): a legato target moved more than 0.05 s early: its window starts on the
+                      # transition peak, which the fit read as the accent (Violas 120: a -6 dB step, 9.7 dB under the pickup)
+                      legearly="Leg" in (art(n) or "") and q2s(n["sq"]) - ts > 0.05)
     return out
 
 
@@ -135,8 +145,11 @@ def plan(P0, P1):
     for t0 in P0["tracks"]:
         if t0["family"] != A.family:
             continue
-        t1 = T1[t0["name"]]
-        f = [x for x in os.listdir(d) if x[:2] != "00" and x.endswith(".wav") and x[3:-4] == t0["name"]][0]
+        t1 = T1.get(t0["name"])
+        f = [x for x in os.listdir(d) if x[:2] != "00" and x.endswith(".wav") and x[3:-4] == t0["name"]]
+        if t1 is None or not f:   # mvt1 c13: a track new in this build (or not rendered) has nothing to measure
+            continue
+        f = f[0]
         x, sr = sf.read(f"{d}/{f}", dtype="float32")
         p = (x.astype(np.float64) ** 2).mean(1)
         W0, W1 = windows(P0, t0), windows(P1, t1)
@@ -154,7 +167,8 @@ def plan(P0, P1):
             if w["te"] - w["ts"] > 0.3:
                 hf = band(x, sr, w["ts"], w["ts"] + 0.08) - band(x, sr, w["ts"] + 0.15, min(w["ts"] + 0.5, w["te"] - 0.02))
             r = dict(track=t0["name"], q=k, art0=w["art"], art1=W1[k]["art"], hf=None if hf is None else round(hf, 1), nb=nb,
-                     keep=A.keep_long_qn > 0 and (W1[k]["slen"] >= A.keep_long_qn - 1e-6 or W1[k]["arrival"]))
+                     keep=(A.keep_long_qn > 0 and (W1[k]["slen"] >= A.keep_long_qn - 1e-6 or W1[k]["arrival"]))
+                     or W1[k]["legearly"])   # mvt1 c15 (A #5): no negative step on an early legato target
             if nb:
                 Ln = [pm(p[int(W0[q]["a"] * sr):int(W0[q]["b"] * sr)]) for q in nb]
                 over = L - pm([10 ** (v / 10) for v in Ln])
@@ -163,6 +177,24 @@ def plan(P0, P1):
                 valid = w["art"] == W1[k]["art"] and all(W0[q]["art"] == W1[q]["art"] for q in nb)
                 r.update(over=round(over, 2), resid=round(over - e0, 2), env1=round(e1, 2),
                          pred=round(over - e0 + e1, 2), valid=valid)
+            # mvt1 c13 (critic A #2): the pickup term
+            pk_ = on[j - 1] if j > 0 else None
+            if A.pickup_over > 0 and pk_ is not None and not W0[pk_]["acc"] and pk_ in W1 \
+                    and k - pk_ <= A.pickup_max_qn + 0.01 and W0[pk_]["qend"] >= w["qn"] - 0.1:
+                pw0, pw1 = W0[pk_], W1[pk_]
+                pa, pb = pw0["ts"] + 0.03, w["ts"]
+                if pb - pa >= 0.05:
+                    Lp = pm(p[int(pa * sr):int(pb * sr)])
+
+                    def penv(t_, pw_, w_):
+                        qs_ = np.linspace(pw_["qn"] + 0.03 * lane(t_["tempo_"], pw_["qn"]) / 60, max(w_["qn"], pw_["qn"] + 0.01), 12)
+                        return 10 * np.log10(np.mean(10 ** (np.array([lane(t_["vol_db"], q_) for q_ in qs_]) / 10)))
+                    t0["tempo_"] = t1["tempo_"] = P0["tempo"]
+                    over_p = L - Lp
+                    e0p = env_mean(t0, w) - penv(t0, pw0, w)
+                    e1p = env_mean(t1, W1[k]) - penv(t1, pw1, W1[k])
+                    r.update(pick=pk_, over_pick=round(over_p, 2), ppred=round(over_p - e0p + e1p, 2),
+                             pvalid=w["art"] == W1[k]["art"] and pw0["art"] == pw1["art"])
             rows.append(r)
     return rows
 
@@ -203,20 +235,43 @@ for it in range(A.iters):
     rows = plan(P0, P1)
     moved = 0
     for r in rows:
-        if "pred" not in r or not r["valid"]:
+        has_pk = A.pickup_over > 0 and "ppred" in r and r["pvalid"]
+        if ("pred" not in r or not r["valid"]) and not has_pk:
             continue
         cur = fits.get(r["track"], {}).get(f"{r['q']:g}")
+        need_pk = (A.pickup_over - r["ppred"]) if has_pk else -99.0
+        if need_pk > 0.25:   # mvt1 c13: under its pickup; raise to the pickup target (the neighbour target may give more)
+            dl0 = need_pk if not ("pred" in r and r["valid"]) else max(min(need_pk, A.pickup_cap_over - r["pred"]),
+                                                                        A.target - r["pred"])
+            if dl0 <= 0.25 and cur is not None:
+                continue
+            sw, tr = (cur if isinstance(cur, list) else [cur, 0.0]) if cur is not None else [default_swell(r["track"]), 0.0]
+            if tr < 0:
+                u = min(dl0, -tr); tr += u; dl0 -= u
+            sw_new = sw + dl0 / 0.85
+            if sw_new > A.max_swell:
+                tr = min(A.max_trim, tr + (sw_new - A.max_swell) * 0.85); sw_new = A.max_swell
+            fits.setdefault(r["track"], {})[f"{r['q']:g}"] = [round(float(sw_new), 2), round(float(tr), 2)] \
+                if abs(tr) > 0.05 else round(float(sw_new), 2)
+            moved += 1
+            continue
+        if "pred" not in r or not r["valid"]:
+            continue
         if r.get("keep") and isinstance(cur, list) and cur[1] < 0:   # c08: drop an old negative trim, refit next pass
             fits[r["track"]][f"{r['q']:g}"] = cur[0]
             moved += 1
             continue
         inside = A.lo <= r["pred"] <= A.hi
+        tgt_ = A.target
+        if has_pk and r["pred"] > A.target:
+            # mvt1 c13: lower toward the target only as far as the pickup target allows
+            tgt_ = max(A.target, r["pred"] - max(0.0, r["ppred"] - A.pickup_over))
         if cur is None and inside:
             continue
-        if cur is not None and abs(r["pred"] - A.target) < 0.25:
+        if cur is not None and abs(r["pred"] - tgt_) < 0.25:
             continue
         sw, tr = (cur if isinstance(cur, list) else [cur, 0.0]) if cur is not None else [default_swell(r["track"]), 0.0]
-        dlt = A.target - r["pred"]
+        dlt = tgt_ - r["pred"]
         # the swell covers about 0.85 of the 0.05-0.35 s window; a trim covers all of it
         if tr < 0 and dlt > 0:
             u = min(dlt, -tr); tr += u; dlt -= u
@@ -244,8 +299,14 @@ for r in rows:
     print(f"{r['track'][:14]:14s} {r['q']:7.2f}  {r['art0'][:14]:14s} -> {r['art1'][:14]:14s} "
           f"{r.get('over', float('nan')):5.1f} {r.get('resid', float('nan')):5.1f} {r.get('pred', float('nan')):5.1f} "
           f"{'' if r['hf'] is None else r['hf']:>5}  {fits.get(r['track'], {}).get(format(r['q'], 'g'), '')}"
+          f"{'' if 'ppred' not in r else '  pick ' + format(r['over_pick'], '+.1f') + ' -> ' + format(r['ppred'], '+.1f')}"
           f"{'' if r.get('valid', True) else '  (articulation changed: not predicted)'}")
 pv = [r["pred"] for r in rows if "pred" in r and r["valid"]]
+pp_ = [r["ppred"] for r in rows if "ppred" in r and r["pvalid"]]
+if pp_:
+    print(f"pickup: {sum(v >= A.pickup_over - 0.5 for v in pp_)}/{len(pp_)} predicted >= {A.pickup_over - 0.5:+.1f} dB over "
+          f"their pickup, median {np.median(pp_):+.2f}, min {min(pp_):+.1f}; under 0: "
+          f"{[(r['track'], r['q'], r['ppred']) for r in rows if 'ppred' in r and r['pvalid'] and r['ppred'] < 0]}")
 print(f"predicted: {sum(A.lo <= v <= A.hi for v in pv)}/{len(pv)} in [{A.lo}, {A.hi}], median {np.median(pv):+.2f}, "
       f"min {min(pv):+.1f}, max {max(pv):+.1f}; hf > 3 dB: {sum(1 for r in rows if r['hf'] is not None and r['hf'] > 3)}")
 if A.write:

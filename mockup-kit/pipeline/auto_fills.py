@@ -12,6 +12,8 @@ onset + 0.4 s; t_min = time of that minimum relative to the score onset.
 
   - a join with no entry in build/early_fills.json that dips 5 dB or more gets
       {"db": min(6, dip - 3), "pre_s": max(0, -t_min), "hold_s": clamp(t_min + 0.05, 0.10, 0.35)}
+  - mvt1 c15: an existing entry whose hole minimum comes before the fill is full is retimed (pre_s, hold_s, db at
+    least dip - 3, cap 8) on every measured track
   - an existing entry (wind and horn lines only) that still dips 5 dB or more gets db + min(3, dip - 4), capped at 8,
     and hold_s moved to clamp(t_min + 0.05, 0.10, 0.35) (held only to the sag minimum: the samples swell by
     themselves after about +0.3 s, LEARNINGS c11)
@@ -24,6 +26,13 @@ c17 (critic A #2):
       when that reaches 0; it is never raised in the same pass.
   (c) Lowered and deleted entries are listed in "_auto" as "lowered"/"removed".
 All windows are centred on their frame time.
+
+mvt1 c12 (critic C #1): decrescendo guard. A target whose score onset lies inside or at the end of a printed decrescendo
+of its own track (parts.json `hairpins`, start < onset <= end + 0.05 qn) may be filled at most to DECRESC_UNDER_DB under
+the previous note's body: a new or raised fill is capped at prev_body - DECRESC_UNDER_DB - the hole's level (floored at
+0); an existing fill whose 200 ms front peak stands over prev_body - DECRESC_UNDER_DB is reported, and lowered by the
+excess ("guarded") only with --guard-existing (on the c11 render that would have removed or cut 25 hand and auto fills,
+several of them fitted in c10/c11, so it is not a default). The fills at 188/588 had cancelled the decrescendo (the quarter 4 dB over the eighth before it).
 
 Written entries are listed in the track's "_auto" key ({onset: "new"/"raised"}), so they can be regenerated.
 Without --write it prints the plan only.
@@ -44,9 +53,11 @@ MIN_DIP = 5.0
 WIN_TRACK = {"Flute 1": 0.200, "Oboe 1": 0.200, "Cor anglais": 0.200}   # c17 (A #2a)
 MIN_DIP_TRACK = {"Flute 1": 4.0, "Oboe 1": 4.0, "Cor anglais": 4.0}
 OVER_WIN, OVER_MAX = 0.200, 2.0   # c17 (A #2b)
+DECRESC_UNDER_DB = 1.5   # mvt1 c12 (C #1)
 
 cyc, pj = sys.argv[1], sys.argv[2]
 WRITE = "--write" in sys.argv[3:]
+GUARD_EXISTING = "--guard-existing" in sys.argv[3:]   # mvt1 c12: lower existing fills too (default: report only)
 EXCL = set()
 args = sys.argv[3:]
 for i, a in enumerate(args):
@@ -135,6 +146,28 @@ for t in D["tracks"]:
         k = int(np.argmin(seg))
         dip, t_min = float(ref - seg[k]), (w0 + k) * HOP - s_sq
         key = next((v for q, v in have.items() if abs(q - sq) < 0.02), None)
+        # mvt1 c12 (C #1): inside or at the end of a printed decrescendo the target stays under the note before
+        in_dec = any(h[2] == "decresc" and h[0] < sq - 1e-6 and sq <= h[1] + 0.05 for h in t.get("hairpins", []))
+        cap = None
+        if in_dec:
+            prev_body = float(np.median(E2[fr(p0):fr(p1)]))
+            cap = max(0.0, prev_body - DECRESC_UNDER_DB - float(seg[k]))
+            if key is not None:
+                old = EF[nm][key]
+                pre0 = old.get("pre_s", 0.0) if isinstance(old, dict) else 0.0
+                front = float(np.max(E2[fr(max(s_mv - 0.1, s_sq - pre0 - 0.05)):fr(s_sq + 0.4)]))
+                exc = front - (prev_body - DECRESC_UNDER_DB)
+                if exc > 0.3 and GUARD_EXISTING:
+                    db0 = old["db"] if isinstance(old, dict) else float(old)
+                    ndb = round(db0 - exc, 1)
+                    if ndb <= 0:
+                        plan.append((nm, sq, exc, t_min, old, None, "removed"))
+                    else:
+                        plan.append((nm, sq, exc, t_min, old, dict(old, db=ndb) if isinstance(old, dict) else ndb,
+                                     "guarded"))
+                    continue
+                if exc > 0.3:
+                    print(f"  guard (not applied; --guard-existing): {nm} {sq:.2f} existing fill front {exc:+.1f} dB over prev body - {DECRESC_UNDER_DB}")
         if key is not None:   # c17 (A #2b): overshoot of an existing fill, on the 200 ms envelope
             body2 = max(np.median(E2[fr(p0):fr(p1)]), np.median(E2[fr(b0):fr(b1)]))
             old = EF[nm][key]
@@ -154,19 +187,36 @@ for t in D["tracks"]:
         if dip < mind:
             continue
         hold = round(min(0.35, max(0.10, t_min + 0.05)), 2)
+        if key is not None and isinstance(EF[nm][key], dict) and t_min < -EF[nm][key].get("pre_s", 0.0) + 0.02:
+            # mvt1 c15 (critic A #1): the hole's minimum comes before the fill is full (entries carrying c03's negative
+            # pre_s, while the legato targets now start 0.11-0.22 s early): retime it on every measured track
+            old = EF[nm][key]
+            db0 = old["db"]
+            ndb = min(8.0, max(db0, dip - 3))
+            if cap is not None:
+                ndb = min(ndb, max(db0, cap))
+            new = {"db": round(ndb, 1), "pre_s": round(max(0.0, -t_min), 2), "hold_s": hold}
+            plan.append((nm, sq, dip, t_min, old, new, "retimed"))
+            continue
         if key is None:
-            new = {"db": round(min(6.0, dip - 3), 1), "pre_s": round(max(0.0, -t_min), 2), "hold_s": hold}
+            ndb = round(min(6.0, dip - 3, cap if cap is not None else 99.0), 1)
+            if ndb < 0.5:
+                continue
+            new = {"db": ndb, "pre_s": round(max(0.0, -t_min), 2), "hold_s": hold}
             plan.append((nm, sq, dip, t_min, None, new, "new"))
         elif nm in RAISE_TRACKS:
             old = EF[nm][key]
             db0 = old["db"] if isinstance(old, dict) else float(old)
             pre = old.get("pre_s", 0.0) if isinstance(old, dict) else round(max(0.0, -t_min), 2)
-            new = {"db": round(min(8.0, db0 + min(3.0, dip - 4)), 1), "pre_s": pre, "hold_s": hold}
+            add = min(3.0, dip - 4, cap if cap is not None else 99.0)
+            if add < 0.3:
+                continue
+            new = {"db": round(min(8.0, db0 + add), 1), "pre_s": pre, "hold_s": hold}
             plan.append((nm, sq, dip, t_min, old, new, "raised"))
 
 for nm, sq, dip, tm, old, new, kind in plan:   # for "lowered"/"removed", dip holds the overshoot
     print(f"{nm:14s} {sq:7.2f} dip {dip:5.1f} at {tm:+.3f} s  {kind:6s} {json.dumps(old) if old is not None else '-':40s} -> {json.dumps(new)}")
-print(f"{len(plan)} entries ({sum(1 for p in plan if p[6] == 'new')} new, {sum(1 for p in plan if p[6] == 'raised')} raised)")
+print(f"{len(plan)} entries ({sum(1 for p in plan if p[6] == 'new')} new, {sum(1 for p in plan if p[6] == 'raised')} raised, {sum(1 for p in plan if p[6] == 'retimed')} retimed)")
 if WRITE:
     for nm, sq, dip, tm, old, new, kind in plan:
         tr = EF.setdefault(nm, {})
@@ -178,7 +228,7 @@ if WRITE:
             tr.setdefault("_auto", {})[key] = f"c{int(cyc) + 1:02d} removed (over {dip:.1f} dB)"
             continue
         tr[key] = new
-        what = f"over {dip:.1f} dB" if kind == "lowered" else f"dip {dip:.1f} dB at {tm:+.2f} s"
+        what = f"over {dip:.1f} dB" if kind in ("lowered", "guarded") else f"dip {dip:.1f} dB at {tm:+.2f} s"
         tr.setdefault("_auto", {})[key] = f"c{int(cyc) + 1:02d} {kind} ({what})"
     json.dump(EF, open(EF_PATH, "w"), indent=1, ensure_ascii=False)
     print("written", EF_PATH)

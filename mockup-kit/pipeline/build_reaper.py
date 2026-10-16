@@ -207,7 +207,18 @@ def state_for(tr):
     for f in inst.get("filters", []):
         if f.get("name") == "ConSordino" and tr["cc15"]:
             f["conSordino"] = tr["cc15"][0][1] >= 64
-    apply_mix(inst, mix_for(tr["name"]))
+    m_ = mix_for(tr["name"])
+    apply_mix(inst, m_)
+    if m_.get("env_release_ms") is not None:
+        # mvt1 c11 (critic A #4): set the amplitude envelope's release of every sample group (Harp Sus RR ships 3019 ms,
+        # so a note-off never damps a string); score_to_parts.py HARP_RING_S then sets each note's ring by its length
+        rel_ = float(m_["env_release_ms"])
+        for g_ in inst.get("groups", []):
+            for pr_ in (g_.get("processors") or {}).get("processors", []):
+                if pr_.get("class") == "AHDSR":
+                    pr_["release"] = rel_
+        if isinstance(inst.get("envelope"), dict) and "releaseTime" in inst["envelope"]:
+            inst["envelope"]["releaseTime"] = rel_
     _, perf, _ = opus_state.split(opus_state.TEMPLATE)
     perf["name"] = tr["name"]
     perf["zones"] = [{"class": "InstrumentZone", "keyMin": 0, "keyMax": 127, "velMin": 1, "velMax": 127,
@@ -251,6 +262,12 @@ def step_at(pts, q, default=0.0):
     return v
 
 
+SOFT_DECRESC_HOLD_MAX_CC = 72   # mvt1 c15 (critic B #2); None = off
+# the trim keeps this share of its rise inside the hairpin: with none kept (the c15 render) the 20 soft decrescendos
+# with a rising trim fell a median 6.5 dB (others 4.4; before 1.7), Horn 1 at bar 106 11.9 dB from mf to mp
+SOFT_DECRESC_KEEP = 0.5
+
+
 def vol_points(tr):
     """c02: the track volume envelope in dB: parts.json vol_db (roles, note trims, timpani settle, final fade) plus the
     mix.json dynamic trims read from the printed dynamic curve. Both are step lanes on a 0.125 qn grid."""
@@ -282,7 +299,31 @@ def vol_points(tr):
     # c10: exact breakpoints of fast vol_db shapes (parts.json vol_bp), between the grid points
     grid = sorted(set(grid) | {q for q in tr.get("vol_bp", []) if 0 <= q < grid[-1]})
     g = m["gain_db"]   # c02: with a volume envelope REAPER ignores D_VOL (measured: every gain was lost), so the gain goes in here
-    val_at = lambda q: round(g + step_at(vol, q) + (trim(step_at(dyn, q, first)) if dyn else 0.0), 2)
+    # mvt1 c15 (critic B #2): the soft trims are larger at pp than at p, so across a soft decrescendo the envelope rose
+    # 2-9 dB and cancelled most of CC11's fall (median fall -1.7 dB where the trim rose 2 dB or more, -4.1 elsewhere).
+    # Inside each decrescendo that starts at CC SOFT_DECRESC_HOLD_MAX_CC or lower, from its start to the first note-on
+    # after its end, the trim may fall but rises only by SOFT_DECRESC_KEEP of its rise above its value at the hairpin's
+    # start
+    holds = []
+    if dyn and SOFT_DECRESC_HOLD_MAX_CC is not None:
+        ons_ = sorted((n.get("sq", n["qn"]), n["qn"]) for n in tr.get("notes", []))
+        for h0, h1, k_ in tr.get("hairpins", []):
+            if k_ != "decresc":
+                continue
+            c0 = step_at(dyn, h0, first)
+            if c0 > SOFT_DECRESC_HOLD_MAX_CC:
+                continue
+            # up to the moved onset of the first note whose score onset is at or after the hairpin's end
+            e_ = next((mq_ for sq_, mq_ in ons_ if sq_ >= h1 - 1e-6), h1 + 1.0)
+            holds.append((h0, e_, trim(c0), SOFT_DECRESC_KEEP))
+
+    def trim_at(q):
+        t_ = trim(step_at(dyn, q, first))
+        for a_, b_, cap_, keep_ in holds:
+            if a_ - 1e-9 <= q < b_ - 1e-9 and t_ > cap_:
+                t_ = cap_ + keep_ * (t_ - cap_)
+        return t_
+    val_at = lambda q: round(g + step_at(vol, q) + (trim_at(q) if dyn else 0.0), 2)
     vals = [val_at(q) for q in grid]
     # c17 (C #2): tail hold. The hall is inside Opus, before this envelope, so a level change while the track rests acts on
     # its last note's decaying tail (cuts of 6-8 dB, swells of 5-8 dB measured). In every rest of TAIL_HOLD_MIN_S or more
@@ -514,7 +555,8 @@ def item_lua(tr):
         ks_rows.insert(0, {"qn": 0.25, "pitch": tr["first_ks"]})
     ks = lua_list(ks_rows, ["qn", "pitch"])
     ccs = []
-    for num, lane in ((1, tr["cc1"]), (11, tr["cc11"]), (15, tr["cc15"]), (7, tr.get("cc7", [])), (70, tr.get("cc70", []))):
+    for num, lane in ((1, tr["cc1"]), (11, tr["cc11"]), (15, tr["cc15"]), (7, tr.get("cc7", [])), (70, tr.get("cc70", [])),
+                     (36, tr.get("cc36", []))):   # mvt1 c14 (A #2): round-robin resets inside the music
         ccs += [{"qn": round(q + PRE, 4), "cc": num, "v": v} for q, v in lane]
         if PRE and lane:   # c06: each lane's first value is sent in the pre-roll too
             ccs.append({"qn": 0.25, "cc": num, "v": lane[0][1]})
