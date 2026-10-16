@@ -632,3 +632,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Declined: deceptive cadence D7 → E minor at 131-132 (planned cadence in G; protected G area 115-134).
 - Open: whether the settled G at 131-132 slows the approach to the return (raise again only with a form-lens case that keeps the plan's G area).
 - Do-not-touch: G cadence 131-134; Italian sixth 121; stretto 139-150.
+
+## Cycle 154 (v154 → v155), lens 4 orchestration (Adler ch. 11, second pass)
+- Accepted: Vln II portato F5-E5-F5 at 231-233 above the brass; Hn 4 doubles Hn 2's F1 head 130-132; low winds and strings hold C at 229 under the timpani pulse.
+- Open: 131-132 settled G (from c153).
+- Do-not-touch: chorale and canon 223-234; 222→223; Italian sixth 121; G cadence 131-134.
