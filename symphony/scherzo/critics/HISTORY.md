@@ -145,6 +145,9 @@ Findings 1–7 accepted (v36/critique.md): solo labels on shared staves, aligned
 ## Resumed 2026-10-16 (Dan: "pick up from where their actor critic loops stopped and continue them")
 Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project thread, working in the git checkout (/home/user/claude_composes) instead of /mnt/project-files; kit paths changed accordingly, book PDFs in pdfs/. Checkpoint PRs to main every ten cycles. Theme changes go to the movement IV thread "Continue movement 4 loop". The mount-expiry rule above no longer applies (no shared mount); commit and push after each promotion instead.
 
+## Cycle 88 (lens 8 expression, Adler ch. 10) v88 → v89
+All 5 accepted (v89/critique.md): sustained horn (and Bsn 1) chords slurred by phrase with tenuto at 45–56, 73–88, 121–132, 197–236, 277–288; horn call 3–6 under one slur (notes unchanged). Do-not-touch: soft-tongued slurred horn chords (Adler PDF 309) unless a critic answers it.
+
 ## Cycle 87 (lens 7 texture, Rimsky-Korsakov ch. II) v87 → v88
 Both accepted (v88/critique.md): Bsn 2 doubles the trio cellos' countermelody at 209–224 (both bassoons mf); cor anglais doubles the violas' lower octave at 333–339. Open: Ob 2 alone on the lower octave at 101–104/301–304. Do-not-touch: no strings on the lower octave at 105–112 (c067).
 
