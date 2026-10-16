@@ -149,6 +149,9 @@ Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project 
 ## Batch checkpoint after cycle 96 (2026-10-16)
 v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 reviews v97 (lens 7 texture).
 
+## Cycle 98 (lens 8 expression, A&S Unit 21) v98 → v99
+All 4 accepted (v99/critique.md): suspension hairpins (swell into the dissonance, softer resolution) at the trio cadences 165/181/221, Hn 1's motto tail 357–360, coda 355 and retransition 245–249. Do-not-touch: accent-then-softer shaping of suspensions (A&S PDF 348, 350).
+
 ## Cycle 97 (lens 7 texture, Adler ch. 11) v97 → v98
 All 3 accepted (v98/critique.md): stretto entries a bar apart at 69–71/297–299; Hn 1·2 unison motive x at 71/299; Hn 3 doubles Hn 4's tenor countermelody at 105–120/305–320 (c066 partly reversed). Do-not-touch: fugato entries 57–68 with countersubject; timpani motive x with pizz. at 89–100; hemiola brass 101–104; the stretto layout 69–71.
 
