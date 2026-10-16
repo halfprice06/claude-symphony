@@ -585,3 +585,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 141 (v141 → v142), lens 1 melody (Sebesky ch. 6-7)
 - Accepted: dotted peak at 78 (Vln I-II, Fl 1, Ob 1); Cl 2 moving under the half cadences at 58 and 178; Vla/Vc counter at 81.
 - Do-not-touch: trumpet solo 51-66 and 171-186 (peaks at 62/182 stay plain).
+
+## Cycle 142 (v142 → v143), lens 2 harmony (A&S Units 24-25)
+- Accepted: complete iv7 under the solo's climax at 61-62 and 181-182 (Cl 2 6-5, Vla third, Bn 1 root of V); bass A♭-F-D-E♭ at 84; Cl 2 resolves on beat 3 at 58-59 and 178-179.
+- Open (kept): V7-I6 at 74→75 and 194→195.
