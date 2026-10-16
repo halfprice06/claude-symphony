@@ -637,3 +637,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: Vln II portato F5-E5-F5 at 231-233 above the brass; Hn 4 doubles Hn 2's F1 head 130-132; low winds and strings hold C at 229 under the timpani pulse.
 - Open: 131-132 settled G (from c153).
 - Do-not-touch: chorale and canon 223-234; 222→223; Italian sixth 121; G cadence 131-134.
+
+## Cycle 155 (v155 → v156), lens 5 engraving (Gould, second pass)
+- Accepted: page turn 208|209 instead of a 12-bar system 199-210; Hn 3 mf < at 130; harp 8va bassa from 239.
+- Open: 131-132 settled G (from c153).
+- Do-not-touch: 16-page layout; arrival 223-234; theme B recall 211-218.
