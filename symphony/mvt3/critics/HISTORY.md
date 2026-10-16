@@ -766,3 +766,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 184 (v184 → v185), lens 4 orchestration, coda (Rimsky ch. I, III, second pass)
 - Accepted: Tbn 1-2 f at 247-254; Hn 3 A♭3 at 259-260 rising to E♭4.
 - Do-not-touch: arrival and chorale 223-234 with 222→223; horn-call layout 243-246; final chord 278-279.
+
+## Cycle 185 (v185 → v186), lens 5 engraving, coda (Gould ch. 1, second pass)
+- Accepted: Hn 3·4 note swap at 257-262 (no crossing); Cl 2 shift at 257-262; bar-number row lowered from 209 (closes c175's open item); Q text on two lines in parts; R above its tempo mark.
+- Do-not-touch: 223-234 with 222→223; both chorale top lines and the cut at 264.1; flute breaths 255-264; cadence 259-263 with Tpt 1 B→C; close 273-279.
