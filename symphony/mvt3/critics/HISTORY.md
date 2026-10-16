@@ -626,3 +626,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: Vln I div. F5 + D♭6 at 217-218 so D♭-C-B-C is the top line; Italian sixth (bass E♭) on 121 beats 3-4 before the G-minor half cadence; Ob 2 D♭5-F5 at 211 under the G♭6 suspension.
 - Open: none.
 - Do-not-touch: A♭7 209-210 / German sixth 219 (Hn 2 G♭ = F♯); violins' G♭ 215-216; 216-223 top line.
+
+## Cycle 153 (v153 → v154), lens 3 form (Adler ch. 15, 17, second pass)
+- Accepted: violas' portato quarters at 231-233 in the plagal close.
+- Declined: deceptive cadence D7 → E minor at 131-132 (planned cadence in G; protected G area 115-134).
+- Open: whether the settled G at 131-132 slows the approach to the return (raise again only with a form-lens case that keeps the plan's G area).
+- Do-not-touch: G cadence 131-134; Italian sixth 121; stretto 139-150.
