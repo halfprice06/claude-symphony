@@ -733,3 +733,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 176 (v176 → v177), lens 6 playability (Sebesky ch. 2, second pass)
 - Accepted: Ob 1 up an octave at 207-208; tuba and Cbsn breath after 208.
 - Do-not-touch: horns 138-150; A♭ pedal 205-210 in bass trombone and basses.
+
+## Cycle 177 (v177 → v178), lens 7 texture (Adler ch. 8, second pass)
+- Accepted: Cl 2 and Bn 1 (octave below) on the F1 head 207-208, Fl 2 rests 207-208; Tbn 2 E3 at 255-256 stepping to C3.
+- Do-not-touch: arrival and chorale 223-234 with 222→223; both chorale top lines and the cut at 264.1; 247-254 (trombones' octave, c071/c091); close 265-279.
