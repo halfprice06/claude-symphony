@@ -4,7 +4,7 @@ Read first: /home/user/claude_composes/symphony/mvt3/critics/BRIEF.md (your full
 
 Version under review: /home/user/claude_composes/symphony/mvt3/v118/ (score.pdf, sections/*.ily, global.ily, score.ly, sections.txt, analysis.txt, critique.md).
 Your lens: Expression: dynamics, articulation, phrasing slurs, tempo changes (meno mosso, Maestoso, stringendo, Allegro molto), and expressive text.
-Focus: After cycles 111-117: dynamics and expression of the passages changed this batch (82, 142-150, 187-198, 239-243, 257-262, 275) and whether the climaxes at 223, 263 and 278 stay the loudest points.
+Focus: After cycles 111-117: bowing and string expression throughout (slurs, bow changes, tremolo, pizz./arco), especially the passages changed this batch (82 run-up, 119, 187-198, 257-262, 275), and whether the climaxes at 223, 263 and 278 stay the loudest points.
 
 Your main source is Dan's reference books (Dan, 2026-10-09: "I want greater coverage and use of the books. the focus should be on the books content"). They are in /home/user/claude_composes/reference-books/; INVENTORY.md is the index, and per-page text is in text/<book>/p0123.txt (4-digit PDF page). Book file names are listed in INVENTORY.md (e.g. aldwell-schachter = "harmony and voice leading.pdf", rimsky-principles = "principles of form.pdf", adler1/adler2 = the two Adler parts, gould-behind-bars = "behind bars.pdf", sebesky = "the contemporary arrange - sedesky.pdf"). The PDFs themselves are in /home/user/claude_composes/pdfs/.
 

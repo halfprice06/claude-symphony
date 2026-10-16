@@ -489,3 +489,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 117 (v117 → v118), lens 7 texture (Adler ch. 15)
 - Accepted: Fl 2 doubles Vln II arpeggio 8va 257-262; Hn 1-2 cresc. 142, f at 143 (dynamics only in the stretto); Vln II E5 only at 275 (clear of the scherzo quotation).
 - Do-not-touch: stretto 139-146 notes and timpani motive; strokes 147-150; combination 247-254; chorale top lines 224-228 and 255-264.
+
+## Cycle 118 (v118 → v119), lens 8 expression (Adler ch. 2 bowing)
+- Accepted: slurs per bar on theme B recall 212-214; slur split before the top G6 at 246 (Vln, Vla); bow changes on long holds at 149 and 263; Vln II single slur at 276; change bow at will 217-218 (Vln I-II, Vc).
+- Do-not-touch: F1 bowing 11-26 and 151-166; the 187-198 bow plan with its down-bow peak at 198; viola portato 224-228.
