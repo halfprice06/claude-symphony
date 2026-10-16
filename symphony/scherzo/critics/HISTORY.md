@@ -155,6 +155,9 @@ v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 1
 ## Batch checkpoint after cycle 116 (2026-10-16)
 v108–v117 promoted (cycles 107–116); added to checkpoint PR #21. Next: cycle 117 reviews v117 (lens 7 texture).
 
+## Cycle 120 (lens 10 cyclic, A&S Unit 26 second pass) v120 → v121
+No musical change; coherence/scherzo.md refreshed; finale thread pointed to the current scherzo coherence files. Do-not-touch: applied V of V (not IV) in the G-major cadence 51–55 (C-major rule).
+
 ## Cycle 119 (lens 9 holistic, Bruckner 4/iii; Rimsky-Korsakov examples 61–130 second pass) v119 → v120
 Accepted (v120/critique.md): Fl 2 rests at 197–200 (call is Fl 1 + Ob 1 on Vln I). Do-not-touch: at most two winds in unison on one string section (Rimsky PDF 76; c111, c119).
 
