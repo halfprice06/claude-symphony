@@ -549,3 +549,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 117 Vla rest beat 2 and Vln I A♮5; 119.4 Vln II G5 alone (octaves removed); 101/105 Hn 1-2, Cl 2 enter on beat 2; Cl 2 E♭4 at 96; Cl 1 steps into the seventh at 38.
 - Closed (no change): c112 open points 16.3/17.3, 78.1.
 - Do-not-touch: 107-113 lament and F-minor cadence; pivot 113-114; 115-132 G minor → G major; 6/3 bridge 87-90.
+
+## Cycle 133 (v133 → v134), lens 3 form (A&S Units 16, 19)
+- Accepted: 166 V-i6 (bass E♭) instead of the exposition's deceptive cadence; 167-170 falling-fifth link.
+- Do-not-touch: return 147-155 over the dominant; 186→187 into A♭ and the 187-223 path; development key plan with the G area 115-134; stretto 139-146.
