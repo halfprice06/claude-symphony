@@ -168,6 +168,9 @@ v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles
 ## Batch checkpoint after cycle 156 (2026-10-16)
 v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 rendered with r07 for Dan. Next: cycle 157 reviews v157 (lens 7 texture).
 
+## Cycle 162 (lens 2 harmony, Aldwell & Schachter Units 30–31, second pass) v162 → v163
+- Accepted: vii°7 at 88 resolves to the cadential 6/4 at 89 in the winds (beats 1–2 only).
+
 ## Cycle 161 (lens 1 melody, Adler ch. 11, second pass) v161 → v162
 - Accepted: Cl 1 takes theme A's head at 245 (colour change in the retransition canon); theme record moved to ClOne 245.
 - Do-not-touch: theme A, trio tune, harp melody 73–80, tenor second idea 281–287, 357–376.
