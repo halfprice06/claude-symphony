@@ -4,7 +4,7 @@ Read first: /home/user/claude_composes/symphony/mvt3/critics/BRIEF.md (your full
 
 Version under review: /home/user/claude_composes/symphony/mvt3/v116/ (score.pdf, sections/*.ily, global.ily, score.ly, sections.txt, analysis.txt, critique.md).
 Your lens: Playability, instrument by instrument: ranges, breathing, bowing, harp pedalling, timpani tuning and retuning, percussion, brass endurance in a loud finale, divisi, solos, mutes.
-Focus: After cycles 111-115: playability of the new figures (Tpt 1-2 half-note strokes 148-150 after the held ff, the run-up at 82 for Fl 1, Ob 1 and violins at animando), and of the coda 235-279 at R = 88.
+Focus: After cycles 111-115: harp pedalling and writing throughout (especially 67-82 with the rests now at 82, 187-198 and 235-242), and playability of the new figures (Tpt 1-2 strokes 148-150, the run-up at 82 at animando).
 
 Your main source is Dan's reference books (Dan, 2026-10-09: "I want greater coverage and use of the books. the focus should be on the books content"). They are in /home/user/claude_composes/reference-books/; INVENTORY.md is the index, and per-page text is in text/<book>/p0123.txt (4-digit PDF page). Book file names are listed in INVENTORY.md (e.g. aldwell-schachter = "harmony and voice leading.pdf", rimsky-principles = "principles of form.pdf", adler1/adler2 = the two Adler parts, gould-behind-bars = "behind bars.pdf", sebesky = "the contemporary arrange - sedesky.pdf"). The PDFs themselves are in /home/user/claude_composes/pdfs/.
 

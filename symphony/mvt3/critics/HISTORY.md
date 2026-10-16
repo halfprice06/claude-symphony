@@ -481,3 +481,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 115 (v115 → v116), lens 5 engraving (Gould ch. 1 ledger lines, octave signs, rests)
 - Accepted: Vln I C7 at 223 written at pitch (no one-note 8va; stem up); stray \ottava #0 removed from Cb at 82. Parts build checked (30 parts).
+
+## Cycle 116 (v116 → v117), lens 6 playability (Adler ch. 4 harp)
+- Accepted: harp "étouffez" at 82 and 243; no low D1 string (242 now D2-D3, tuning note at 67 removed); harp f with LH octaves 239-242.
+- Do-not-touch: the harp's three broken-chord passages and pedal diagrams (67, 123, 235); harp rest 187-198.
