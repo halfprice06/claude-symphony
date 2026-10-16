@@ -576,3 +576,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 139 (v139 → v140), lens 9 master comparison (Rachmaninoff 2/iv; v129)
 - Accepted: B.cl. doubles the B1 pedal from 144 (p<f into 147; Bn 1 cue removed); Tpt 3 C5-F4-C5 at 247-249 (off the horns' S-head pitch).
 - Open: Tpt 3 A4 at 252 still at the horns' pitch (alternatives make fifths).
+
+## Cycle 140 (v140 → v141), lens 10 coherence + release check (Adler ch. 1, 15)
+- No score change. finale.md current to v141. c139's open item (Tpt 3 A4 at 252) closed, kept.
+- Batch 131-140 added to the checkpoint PR.
+- Do-not-touch: bars 1-2 with the violas' E♭4; 216-223 with 222→223; both chorale top lines and the cut at 264.1; last cadence 259-263; close 273-279.
