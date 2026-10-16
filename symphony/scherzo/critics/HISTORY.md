@@ -152,6 +152,9 @@ v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 revie
 ## Batch checkpoint after cycle 106 (2026-10-16)
 v98–v107 promoted (cycles 97–106); added to checkpoint PR #21. Next: cycle 107 reviews v107 (lens 7 texture).
 
+## Cycle 110 (lens 10 cyclic, A&S Unit 32 second pass) v110 → v111
+No musical change; coherence/scherzo.md refreshed; finale told the scherzo ends ppp. Do-not-touch: G♯ = A♭ frame (1–2, 360–376); held A with C♯→C at 72–73; F→F♯ exit at 86–88; motto tail 205–209 and 357–360; timpani tunings at both joins.
+
 ## Cycle 109 (lens 9 holistic, Brahms 2/iii; Rimsky-Korsakov examples 1–60 second pass) v109 → v110
 Accepted (v110/critique.md): Hn 3 an octave lower at 121–128. Nothing worse than v99. Open: Cl 1 crossing Ob 1/Vln II in the second idea (protected by c014).
 
