@@ -149,6 +149,9 @@ Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project 
 ## Batch checkpoint after cycle 96 (2026-10-16)
 v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 reviews v97 (lens 7 texture).
 
+## Cycle 97 (lens 7 texture, Adler ch. 11) v97 → v98
+All 3 accepted (v98/critique.md): stretto entries a bar apart at 69–71/297–299; Hn 1·2 unison motive x at 71/299; Hn 3 doubles Hn 4's tenor countermelody at 105–120/305–320 (c066 partly reversed). Do-not-touch: fugato entries 57–68 with countersubject; timpani motive x with pizz. at 89–100; hemiola brass 101–104; the stretto layout 69–71.
+
 ## Cycle 96 (lens 6 playability, Adler ch. 2 second pass) v96 → v97
 All 3 accepted (v97/critique.md): bar 300 split ⊓/V so 301–306 bow as 101–106; down-bows for low strings and violas at 336–339; Cb tied up-bow at 223–224. Do-not-touch: the bow split at 300 (it sets the reprise's bowing).
 
