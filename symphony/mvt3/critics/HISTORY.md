@@ -529,3 +529,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 127 (v127 → v128), lens 7 texture (Adler ch. 17)
 - Accepted: 257-262 Fl 2 on the chorale top line with Fl 1 (staggered breath after 260), Cl 1 takes Vln II's arpeggio in unison; violas C4 at 257-258.
 - Do-not-touch: no figuration above the chorale top line at 257-262 (c117's 8va Fl 2 doubling was reversed in c127; do not restore it). c119's open note on the thin top octave is closed.
+
+## Cycle 128 (v128 → v129), lens 8 expression (Adler ch. 11, 15)
+- Accepted: harmony and timpani cut on 264.1 (top line, woodwinds and low strings dim.) so the scale figure 263-264 is heard; string hairpins 257-259; Cbsn ff at 247; hairpins closed at 277.
