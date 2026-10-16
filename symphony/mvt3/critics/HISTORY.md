@@ -762,3 +762,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 183 (v183 → v184), lens 3 form, whole movement (A&S Unit 14, second pass)
 - Accepted: V4/2 at 133-134 (cellos, basses F; violas D) after the G cadence.
 - Do-not-touch: development key plan with the G cadence at 131-132; retransition 135-150; coda arrivals 199, 223, 247, 263, 278 with both chorale top lines.
+
+## Cycle 184 (v184 → v185), lens 4 orchestration, coda (Rimsky ch. I, III, second pass)
+- Accepted: Tbn 1-2 f at 247-254; Hn 3 A♭3 at 259-260 rising to E♭4.
+- Do-not-touch: arrival and chorale 223-234 with 222→223; horn-call layout 243-246; final chord 278-279.
