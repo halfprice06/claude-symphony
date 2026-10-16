@@ -146,11 +146,11 @@ Findings 1–7 accepted (v36/critique.md): solo labels on shared staves, aligned
 ## Resumed 2026-10-16 (Dan: "pick up from where their actor critic loops stopped and continue them")
 Paused 2026-10-13 after cycle 86. Resumed at cycle 87 from v87 in a new project thread, working in the git checkout (/home/user/claude_composes) instead of /mnt/project-files; kit paths changed accordingly, book PDFs in pdfs/. Checkpoint PRs to main every ten cycles. Theme changes go to the movement IV thread "Continue movement 4 loop". The mount-expiry rule above no longer applies (no shared mount); commit and push after each promotion instead.
 
-## Cycle 96 (lens 6 playability, Adler ch. 2 second pass) v96 → v97
-All 3 accepted (v97/critique.md): bar 300 split ⊓/V so 301–306 bow as 101–106; down-bows for low strings and violas at 336–339; Cb tied up-bow at 223–224. Do-not-touch: the bow split at 300 (it sets the reprise's bowing).
-
 ## Batch checkpoint after cycle 96 (2026-10-16)
 v88–v97 promoted (cycles 87–96); checkpoint PR to main. Next: cycle 97 reviews v97 (lens 7 texture).
+
+## Cycle 96 (lens 6 playability, Adler ch. 2 second pass) v96 → v97
+All 3 accepted (v97/critique.md): bar 300 split ⊓/V so 301–306 bow as 101–106; down-bows for low strings and violas at 336–339; Cb tied up-bow at 223–224. Do-not-touch: the bow split at 300 (it sets the reprise's bowing).
 
 ## Cycle 95 (lens 5 engraving, Gould ch. 1 second pass) v95 → v96
 Accepted (v96/critique.md): stems.ily engraver sets middle-line stems by context in score and parts. Do-not-touch: stems.ily (remove only if a critic shows a wrong stem it causes).
