@@ -177,6 +177,10 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Cycle 188 (lens 8 expression, Adler ch. 10, second pass) v188 → v189
+- Accepted: slur + tenuto on held brass at 101–104/301–304, horns 331–335 and 336–338, low brass 333–335; Tbn 1·2 tenuto at 120.
+- Kept: horn ff→pp at 72, staccato horns in motive x 71/299, no mutes, last horn G♯, coda horn trio tune without hairpin.
+
 ## Cycle 187 (lens 7 texture, Rimsky-Korsakov ch. II, second pass) v187 → v188
 - Accepted: cor anglais doubles Vln II's hemiola at 101–104/301–304 (ff moved to 104/304).
 - Kept: 105–112, 341–344, 349–356, 253–268.
