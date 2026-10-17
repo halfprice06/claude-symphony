@@ -171,6 +171,9 @@ v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 render
 ## Batch checkpoint after cycle 166 (2026-10-17)
 v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle 167 reviews v167 (lens 7 texture).
 
+## Cycle 171 (lens 1 melody, Aldwell & Schachter Unit 3, second pass) v171 → v172
+- No change. Kept: flute register at 113–116/313–316 (B6 limit; c025, c036, c078, c124).
+
 ## Cycle 170 (lens 10 cyclic, Aldwell & Schachter Unit 23, second pass) v170 → v171
 - Accepted: harp B♯ spelling at 188 with pedal marks; records to finale v193.
 - Kept: 352 C♯; 199–200 inner B→B♯ (c070).
