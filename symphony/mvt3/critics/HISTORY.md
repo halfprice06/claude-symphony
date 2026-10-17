@@ -817,3 +817,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 196 (v196 → v197), lens 6 playability (Adler ch. 3, second pass)
 - No score change.
 - Do-not-touch: 110-113 low octave; 91-94 viola double stops; 144-150 double stops; bars 2 and 6.
+
+## Cycle 197 (v197 → v198), lens 7 texture (Adler ch. 11, second pass)
+- No score change.
+- Do-not-touch: stretto 139-150; 247-254; 99-109; 205-208; 265-272.
