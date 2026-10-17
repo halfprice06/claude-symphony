@@ -168,6 +168,10 @@ v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles
 ## Batch checkpoint after cycle 156 (2026-10-16)
 v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 rendered with r07 for Dan. Next: cycle 157 reviews v157 (lens 7 texture).
 
+## Cycle 166 (lens 6 playability, Rimsky-Korsakov ch. I, second pass) v166 → v167
+- Accepted: stepwise climb to B6 at 335 (Vln I, Fl 1); Hn 4 relieves Hn 3 at 121–128.
+- Kept: Vln I G6/A6 at 46/50, low harp at 341–344, Cbsn octave at 213–222.
+
 ## Cycle 165 (lens 5 engraving, MOLA on the parts, second pass) v165 → v166
 - Accepted: cues after long rests (C.a., Hn 2, Cbsn, harp); horns' repeated ff removed at 105/305; harp étouffez before the page turn.
 - Kept: no composer line on parts, multi-rest numbering (c075), other part-layout points.
