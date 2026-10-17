@@ -1,5 +1,6 @@
 # v188 (cycle 187, lens 7 texture, Rimsky-Korsakov ch. II Melody in combined groups, second pass)
 Critic report: critics/reports/c187.md. Bars 101–104 and 301–304: the cor anglais doubles Vln II's lower octave of the hemiola (B4–D♯5), which had no wind after c184 moved Ob 2 off it (Rimsky PDF 76–80: double the lower octave when only one is doubled); its ff now prints at 104/304 instead of 105/305 since it runs straight into its theme entry. The oboes keep F♯5/D♯5, so c184's tritone does not return. Kept: 105–112 (c067), Hn 1 alone at 341–344, no bassoon on the cello countermelody at 349–356, flute heterophony 253–268 (c107). tB.ily comment corrected (cor anglais in unison with the cellos at 189–192).
+Parts: the cor anglais's oboe cue at 101 removed, since it now plays there (fixes the one parts warning).
 Checks: 0 warnings, 7 known parallels, 13 pages, themes 41/41, no C major, part lengths match.
 
 # v187 (cycle 186, lens 6 playability, Adler ch. 2 Bowed String Instruments, second pass)

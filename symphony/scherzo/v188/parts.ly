@@ -124,7 +124,7 @@ partGlobal = \partGlobalOf \global
   \header { instrument = "Cor anglais in F" }
   \score {
     \new Staff = "part" \with { \audit "05-cor-anglais" midiInstrument = "english horn" instrumentTransposition = #(ly:make-pitch -1 3 0) }
-      << \transpose f c' \partGlobal \transpose f c' \partCues #`(("cueVlnOneLow" "Vln. I (8vb)" ,UP 41 3) ("cueObOne" "Ob. 1" ,UP 101 4) ("cueObOne" "Ob. 1" ,UP 185 4) ("cueVlnOne" "Vln. I" ,UP 265 4)) \partClean \corAnglais >>
+      << \transpose f c' \partGlobal \transpose f c' \partCues #`(("cueVlnOneLow" "Vln. I (8vb)" ,UP 41 3) ("cueObOne" "Ob. 1" ,UP 185 4) ("cueVlnOne" "Vln. I" ,UP 265 4)) \partClean \corAnglais >>
     \layout {   }
   }
 }
