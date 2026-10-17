@@ -177,6 +177,9 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Cycle 191 (lens 1 melody, Rimsky-Korsakov ch. II strings, second pass) v191 → v192 (no change)
+- Kept: 349–356, 15–16/31–32, 113–116, coda hand-overs of T, 209.
+
 ## Cycle 190 (lens 10 cyclic, Adler part 2 ch. 17, second pass) v190 → v191
 - Accepted: Bsn 1·2 hold E4/B3 at 145–148 instead of the clarinets (Cl 1 rests 137–152 before the trio tune).
 - Checked: joins with II v201 and finale v201 unchanged; finale quotations unchanged since scherzo v171.
