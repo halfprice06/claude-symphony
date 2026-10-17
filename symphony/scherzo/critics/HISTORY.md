@@ -177,6 +177,9 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Cycle 196 (lens 6 playability, Adler ch. 3, second pass) v196 → v197 (no change)
+- Kept: 282 clef, viola alto-clef high notes, 46/50, 105–120/305–320, 60–61, 218–220.
+
 ## Cycle 195 (lens 5 engraving, Gould ch. 1 beams, second pass) v195 → v196
 - Accepted: beam callback in beams.ily, included by score.ly and the parts (parts now get the c015/c105 beam fix).
 - Kept: 2.92-space stems at 23/76/115/263/315/354, slope at 38/74.
