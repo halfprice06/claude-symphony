@@ -177,6 +177,9 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Cycle 197 (lens 7 texture, Adler part 2 ch. 11, second pass) v197 → v198 (no change)
+- Kept: 89–100, 101/103 and 333/335 trumpets, 105–120 trombone, 71/299 horns, 337–338.
+
 ## Cycle 196 (lens 6 playability, Adler ch. 3, second pass) v196 → v197 (no change)
 - Kept: 282 clef, viola alto-clef high notes, 46/50, 105–120/305–320, 60–61, 218–220.
 
