@@ -805,3 +805,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 193 (v193 → v194), lens 3 form (A&S Unit 26, second pass)
 - No score change.
 - Do-not-touch: key plan III–iv–v/V; recapitulation over the dominant at 151; F2 in A♭ at 171-198; tempi 211-246; rehearsal letters.
+
+## Cycle 194 (v194 → v195), lens 4 orchestration (Rimsky ch. III, second pass)
+- Accepted: 16-foot bass octave at 110-113 (Cbsn C1 at 110; Cbsn and tuba F1 at 111.1; tuba, Cbsn and basses F1 at 113).
+- Do-not-touch: upper parts 110-113; trumpets at 110 and 112; 91-94 low brass; 147-150.
