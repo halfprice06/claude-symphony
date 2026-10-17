@@ -809,3 +809,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 194 (v194 → v195), lens 4 orchestration (Rimsky ch. III, second pass)
 - Accepted: 16-foot bass octave at 110-113 (Cbsn C1 at 110; Cbsn and tuba F1 at 111.1; tuba, Cbsn and basses F1 at 113).
 - Do-not-touch: upper parts 110-113; trumpets at 110 and 112; 91-94 low brass; 147-150.
+
+## Cycle 195 (v195 → v196), lens 5 engraving (Gould ch. 1 beams, second pass) + parts layout
+- Accepted: flat rests at 128-142 in global.ily (closes the cor anglais compression); bass clarinet part on two facing pages; cor anglais break before 205; percussion tempo marks spaced; Tpt 1·3 padding; Fl 1 beam slope at 222.
+- Do-not-touch: 16-page score layout and score-only breaks; 216-223; 223-234; 259-263; 273-279.
