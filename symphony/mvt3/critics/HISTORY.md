@@ -784,3 +784,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: ties for held winds and brass at 28-34, 39-42, 52-66, 9-10; slurs matching the violins at 111-112.
 - Note for finale.md: bars 9-10 changed (ties only).
 - Do-not-touch: bars 1-2; trumpet solo 51-66 scoring and pp.
+
+## Cycle 189 (v189 → v190), lens 9 master comparison (Borodin 2/iv; v179)
+- Accepted: Hn 3 D4→E♭4 at 259-261 (removes fifths with the bass).
+- Do-not-touch: bars 1-2; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263 with Hn 3 D4→E♭4 and Hn 4 A♭3; c188 ties; close 273-279.
