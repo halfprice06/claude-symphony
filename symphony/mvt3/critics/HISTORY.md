@@ -792,3 +792,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 190 (v190 → v191), lens 10 coherence + release check (Adler ch. 17, second pass)
 - No score change. finale.md current to v190.
 - Do-not-touch: bars 1-2; 51-66; 115-130; 205-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 191 (v191 → v192), lens 1 melody (Rimsky ch. II, second pass)
+- No score change.
+- Do-not-touch: 247-254 layout; 187-198 with the bow plan; 159-164 divisi; 27-34.
