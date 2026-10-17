@@ -779,3 +779,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: bass clarinet doubles the basses at 27-34; Ob 2 a2 at 19-26; Cl 2 with the violas at 110-113; Bn 1 with the violas at 99-100; score-only breaks at 128, 144, 158.
 - Note for finale.md: bars 1-26 changed (Ob 2 doubling at 19-26); tell the scherzo thread at batch end.
 - Do-not-touch: 11-18; 77-82; 83-86; 87-90; lament 107-109; bassoon solo; stretto.
+
+## Cycle 188 (v188 → v189), lens 8 expression (Adler ch. 10, second pass)
+- Accepted: ties for held winds and brass at 28-34, 39-42, 52-66, 9-10; slurs matching the violins at 111-112.
+- Note for finale.md: bars 9-10 changed (ties only).
+- Do-not-touch: bars 1-2; trumpet solo 51-66 scoring and pp.
