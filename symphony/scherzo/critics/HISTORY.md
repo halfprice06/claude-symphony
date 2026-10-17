@@ -177,6 +177,10 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Cycle 194 (lens 4 orchestration, Rimsky-Korsakov ch. III brass, second pass) v194 → v195
+- Accepted: Tbn 2 B2 at 333–334/339 (E3 at 335); Tpt 1·2 stay f at 335–338 (no fff).
+- Kept: Tpt seventh at 337–338 (c082), Tbn 2 E3 at 105–120, Tbn 1 seventh at 103–104 (c104), clarinets inside horns 45–56/121–128.
+
 ## Cycle 193 (lens 3 form, A&S Unit 26, second pass) v193 → v194 (comments only)
 - Accepted: header comments in sC, tB, retr corrected.
 - Kept: G minor at 289, trio C♯ minor, 349–354, fades 133–152/225–252, length and coda.
