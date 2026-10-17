@@ -1,6 +1,6 @@
 # Mockup kit: orchestral mockups in REAPER with EastWest Hollywood Orchestra (Opus)
 
-Tools, method and learnings for turning a LilyPond score from this repo into a REAPER mockup played by Hollywood Orchestra Opus Edition, built and improved by Claude without using the REAPER GUI. It comes from the movement II mockup (`symphony/mvt2/reaper/`, 27 rendered cycles c00-c26) and the movement I mockup (`symphony/mvt1/reaper/`, in progress; this kit holds its tools as of c15). Neither work folder is committed: the projects, renders and generated plugin states stay local.
+Tools, method and learnings for turning a LilyPond score from this repo into a REAPER mockup played by Hollywood Orchestra Opus Edition, built and improved by Claude without using the REAPER GUI. It comes from the movement II mockup (`symphony/mvt2/reaper/`, 27 rendered cycles c00-c26) and the movement I mockup (`symphony/mvt1/reaper/`, in progress; this kit holds its tools as of c20). Neither work folder is committed: the projects, renders and generated plugin states stay local.
 
 Read `LEARNINGS.md` before starting, beginning with "What a listener noticed that measurement missed". It records what was measured about Opus, the HO patches, REAPER and the bridge, and where `guides/reaper-claude-scripting-guide.md` is wrong for this library (patch loading is scriptable; in HO CC11 crossfades the dynamic layers, and CC1 crossfades a non-vibrato and a vibrato layer).
 

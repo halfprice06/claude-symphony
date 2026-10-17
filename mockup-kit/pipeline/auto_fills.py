@@ -13,7 +13,9 @@ onset + 0.4 s; t_min = time of that minimum relative to the score onset.
   - a join with no entry in build/early_fills.json that dips 5 dB or more gets
       {"db": min(6, dip - 3), "pre_s": max(0, -t_min), "hold_s": clamp(t_min + 0.05, 0.10, 0.35)}
   - mvt1 c15: an existing entry whose hole minimum comes before the fill is full is retimed (pre_s, hold_s, db at
-    least dip - 3, cap 8) on every measured track
+    least dip - 3, cap 8) on every measured track; mvt1 c16: for a target led RETIME_LEAD_MIN_S or more the fill is
+    full from RETIME_AFTER_MOVED_S after the moved onset (or 0.05 s before the measured minimum, if earlier) and held
+    to RETIME_HOLD_S
   - an existing entry (wind and horn lines only) that still dips 5 dB or more gets db + min(3, dip - 4), capped at 8,
     and hold_s moved to clamp(t_min + 0.05, 0.10, 0.35) (held only to the sag minimum: the samples swell by
     themselves after about +0.3 s, LEARNINGS c11)
@@ -54,6 +56,7 @@ WIN_TRACK = {"Flute 1": 0.200, "Oboe 1": 0.200, "Cor anglais": 0.200}   # c17 (A
 MIN_DIP_TRACK = {"Flute 1": 4.0, "Oboe 1": 4.0, "Cor anglais": 4.0}
 OVER_WIN, OVER_MAX = 0.200, 2.0   # c17 (A #2b)
 DECRESC_UNDER_DB = 1.5   # mvt1 c12 (C #1)
+RETIME_LEAD_MIN_S, RETIME_AFTER_MOVED_S, RETIME_HOLD_S = 0.10, 0.08, 0.35   # mvt1 c16 (critic A #4)
 
 cyc, pj = sys.argv[1], sys.argv[2]
 WRITE = "--write" in sys.argv[3:]
@@ -195,7 +198,15 @@ for t in D["tracks"]:
             ndb = min(8.0, max(db0, dip - 3))
             if cap is not None:
                 ndb = min(ndb, max(db0, cap))
-            new = {"db": round(ndb, 1), "pre_s": round(max(0.0, -t_min), 2), "hold_s": hold}
+            pre_ = max(0.0, -t_min)
+            lead_ = s_sq - s_mv
+            if lead_ >= RETIME_LEAD_MIN_S:
+                # mvt1 c16 (critic A #4): a led legato target's hole moves 0.05-0.1 s between renders (c15: retimed fills
+                # were full exactly at one render's minimum and the next render's hole came before it): full from
+                # RETIME_AFTER_MOVED_S after the moved onset, or 0.05 s before this render's minimum if earlier
+                pre_ = max(-t_min + 0.05, lead_ - RETIME_AFTER_MOVED_S)
+                hold = RETIME_HOLD_S
+            new = {"db": round(ndb, 1), "pre_s": round(pre_, 2), "hold_s": hold}
             plan.append((nm, sq, dip, t_min, old, new, "retimed"))
             continue
         if key is None:

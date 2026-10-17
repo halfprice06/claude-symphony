@@ -50,9 +50,21 @@ ap.add_argument("--pickup-over", type=float, default=0.0)
 ap.add_argument("--pickup-max-qn", type=float, default=0.5)
 # the pickup term never raises an accent more than this many dB over its same-dynamic neighbours (trim the pickup instead)
 ap.add_argument("--pickup-cap-over", type=float, default=5.0)
+# mvt1 c17 (critic A #2): a note written this many qn or longer is measured as its loudest 200 ms inside [score onset
+# - 0.05 s, min(score onset + 0.5 s, end - 0.02 s)] (accents and neighbours alike): string accents peak at +0.30 s (p75
+# +0.43), after the moved-onset + 0.05..0.35 s window of a led legato target ends, so the fit asked 2-2.5 dB too much
+# (0 = off: every note on the old window)
+ap.add_argument("--peak-long-qn", type=float, default=1.0)
+# mvt1 c17 (critic A #2): cap on swell + step trim per accent, by family (29 of 126 string fits totalled 6 dB or more)
+ap.add_argument("--max-total", type=float, default=None)
+# mvt1 c17 (critic B #1): accents to leave as they are, "Track:q" (repeatable)
+ap.add_argument("--skip", action="append", default=[])
 ap.add_argument("--scratch", default=os.environ.get("TMPDIR", "/tmp"))
 ap.add_argument("--write", action="store_true")
 A = ap.parse_args()
+if A.max_total is None:
+    A.max_total = {"string": 4.5, "wind": 6.0, "brass": 6.0}.get(A.family, 6.0)
+SKIP = {(x.rsplit(":", 1)[0], round(float(x.rsplit(":", 1)[1]), 3)) for x in A.skip}
 sys.path.insert(0, f"{ROOT}/tools")
 from rendermap import shift_for   # noqa: E402
 if shift_for(A.prev):
@@ -106,7 +118,16 @@ def windows(P, t):
         ts = q2s(n["qn"]); te = q2s(n["qn"] + n["dur"])
         a, b = ts + 0.05, min(ts + 0.35, te - 0.02)
         bpm = lane(tempo, n["qn"])
-        out[k] = dict(qn=n["qn"], a=a, b=b, qa=n["qn"] + 0.05 * bpm / 60, qb=n["qn"] + (b - ts) * bpm / 60,
+        # written length: the longest note event at this onset on the track's staves, or the played length when a tie
+        # merged notes into one (mockup-events.tsv lists tied notes separately)
+        wlen = max([float(v[1]) for s_ in t["staves"] for q_, k_, v in EV[s_] if k_ == "note" and abs(q_ - n["sq"]) < 1e-3]
+                   + [n["qn"] + n["dur"] - n["sq"]])
+        # mvt1 c17 (critic A #2): long notes are measured as a 200 ms peak from the score onset (see --peak-long-qn)
+        peak = A.peak_long_qn > 0 and wlen >= A.peak_long_qn - 1e-6
+        if peak:
+            ss = q2s(n["sq"])
+            a, b = ss - 0.05, min(ss + 0.5, te - 0.02)
+        out[k] = dict(qn=n["qn"], a=a, b=b, qa=n["qn"] + 0.05 * bpm / 60, qb=n["qn"] + (b - ts) * bpm / 60, peak=peak,
                       art=art(n), cc=lane(t["cc11"], n["qn"] + 0.02), acc=k in acc, ts=ts, te=te, ok=b - a >= 0.08,
                       # c08 (critic A #2): a slur's short first note plays the legato row's slow first-note layer
                       pickup=k in slur0 and n["qn"] + n["dur"] - n["sq"] <= A.pickup_qn + 0.1,
@@ -120,6 +141,8 @@ def windows(P, t):
 
 def env_mean(t, w):
     qs = np.linspace(w["qa"], max(w["qb"], w["qa"] + 0.001), 12)
+    if w.get("pqa") is not None:   # mvt1 c17: a peak-measured note: the envelope over its loudest 200 ms
+        qs = np.linspace(w["pqa"], w["pqb"], 12)
     return 10 * np.log10(np.mean(10 ** (np.array([lane(t["vol_db"], q) for q in qs]) / 10)))
 
 
@@ -154,12 +177,40 @@ def plan(P0, P1):
         p = (x.astype(np.float64) ** 2).mean(1)
         W0, W1 = windows(P0, t0), windows(P1, t1)
         on = sorted(W0)
+        q2s0, tempo0 = q2s_of(P0)
+
+        def s2q(s_):   # inverse of q2s0 (bisection; the tempo map is the same in both builds)
+            lo, hi = -10.0, 1e4
+            for _ in range(50):
+                m_ = (lo + hi) / 2
+                lo, hi = (m_, hi) if q2s0(m_) < s_ else (lo, m_)
+            return (lo + hi) / 2
+
+        def level(W, q):
+            """power mean over the window, or (peak windows) the loudest 200 ms inside it; sets the envelope window"""
+            w_ = W[q]
+            if not w_["peak"]:
+                return pm(p[int(w_["a"] * sr):int(w_["b"] * sr)])
+            a_, b_ = int(w_["a"] * sr), int(w_["b"] * sr)
+            seg = p[max(a_, 0):b_]
+            n_ = int(0.2 * sr); h_ = int(0.01 * sr)
+            if len(seg) <= n_:
+                c_ = (a_ + b_) / 2 / sr; v_ = pm(seg)
+            else:
+                cs = np.concatenate([[0.0], np.cumsum(seg)])
+                st_ = np.arange(0, len(seg) - n_ + 1, h_)
+                mv = (cs[st_ + n_] - cs[st_]) / n_
+                i_ = int(np.argmax(mv)); v_ = 10 * np.log10(mv[i_] + 1e-15); c_ = (max(a_, 0) + st_[i_] + n_ / 2) / sr
+            w_["pqa"], w_["pqb"] = s2q(c_ - 0.1), s2q(c_ + 0.1)
+            if q in W1 and W1[q]["peak"]:
+                W1[q]["pqa"], W1[q]["pqb"] = w_["pqa"], w_["pqb"]
+            return v_
 
         for j, k in enumerate(on):
             w = W0[k]
             if not w["acc"] or not w["ok"] or k not in W1:
                 continue
-            L = pm(p[int(w["a"] * sr):int(w["b"] * sr)])
+            L = level(W0, k)
             nb = [q for q in on[max(0, j - 2):j] + on[j + 1:j + 3]
                   if not W0[q]["acc"] and abs(q - k) <= A.near and W0[q]["ok"] and abs(W0[q]["cc"] - w["cc"]) <= 6 and q in W1
                   and not (A.pickup_qn > 0 and W0[q]["pickup"])]
@@ -170,7 +221,7 @@ def plan(P0, P1):
                      keep=(A.keep_long_qn > 0 and (W1[k]["slen"] >= A.keep_long_qn - 1e-6 or W1[k]["arrival"]))
                      or W1[k]["legearly"])   # mvt1 c15 (A #5): no negative step on an early legato target
             if nb:
-                Ln = [pm(p[int(W0[q]["a"] * sr):int(W0[q]["b"] * sr)]) for q in nb]
+                Ln = [level(W0, q) for q in nb]
                 over = L - pm([10 ** (v / 10) for v in Ln])
                 e0 = env_mean(t0, w) - np.mean([env_mean(t0, W0[q]) for q in nb])
                 e1 = env_mean(t1, W1[k]) - np.mean([env_mean(t1, W1[q]) for q in nb])
@@ -230,11 +281,34 @@ def default_swell(track):
     return {"brass": 2.5, "wind": 3.5, "string": 3.0}.get(A.family, 2.5)
 
 
+def cap_total(sw, tr):
+    """mvt1 c17 (critic A #2): swell + step at most A.max_total (the step goes first)"""
+    ex = sw + tr - A.max_total
+    if ex > 0:
+        u = min(ex, max(tr, 0.0)); tr -= u; ex -= u
+        sw = max(0.0, sw - ex)
+    return sw, tr
+
+
+# mvt1 c17: existing fits over the cap are brought under it before the iteration
+for tn_, fd_ in fits.items():
+    if not any(t_["name"] == tn_ and t_["family"] == A.family for t_ in json.load(open(A.rendered_parts))["tracks"]):
+        continue
+    for q_, v_ in list(fd_.items()):
+        if (tn_, round(float(q_), 3)) in SKIP:
+            continue
+        sw_, tr_ = (v_ if isinstance(v_, list) else [v_, 0.0])
+        sw2, tr2 = cap_total(sw_, tr_)
+        if (sw2, tr2) != (sw_, tr_):
+            fd_[q_] = [round(sw2, 2), round(tr2, 2)] if abs(tr2) > 0.05 else round(sw2, 2)
+
 for it in range(A.iters):
     P1 = build(fits)
     rows = plan(P0, P1)
     moved = 0
     for r in rows:
+        if (r["track"], round(r["q"], 3)) in SKIP:
+            continue
         has_pk = A.pickup_over > 0 and "ppred" in r and r["pvalid"]
         if ("pred" not in r or not r["valid"]) and not has_pk:
             continue
@@ -251,6 +325,7 @@ for it in range(A.iters):
             sw_new = sw + dl0 / 0.85
             if sw_new > A.max_swell:
                 tr = min(A.max_trim, tr + (sw_new - A.max_swell) * 0.85); sw_new = A.max_swell
+            sw_new, tr = cap_total(sw_new, tr)
             fits.setdefault(r["track"], {})[f"{r['q']:g}"] = [round(float(sw_new), 2), round(float(tr), 2)] \
                 if abs(tr) > 0.05 else round(float(sw_new), 2)
             moved += 1
@@ -283,6 +358,7 @@ for it in range(A.iters):
         if sw_new > A.max_swell:   # an accent under its neighbours even with the largest swell: a positive step
             tr = min(A.max_trim, tr + (sw_new - A.max_swell) * 0.85); sw_new = A.max_swell
         tr = max(tr, A.min_trim)
+        sw_new, tr = cap_total(sw_new, tr)
         if r.get("keep") and tr < 0:   # c08: a long or arrival accent keeps its body level (the swell only goes down)
             tr = 0.0
         fits.setdefault(r["track"], {})[f"{r['q']:g}"] = [round(float(sw_new), 2), round(float(tr), 2)] \
