@@ -177,6 +177,10 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Cycle 193 (lens 3 form, A&S Unit 26, second pass) v193 → v194 (comments only)
+- Accepted: header comments in sC, tB, retr corrected.
+- Kept: G minor at 289, trio C♯ minor, 349–354, fades 133–152/225–252, length and coda.
+
 ## Cycle 192 (lens 2 harmony, A&S Units 9–10, second pass) v192 → v193
 - Accepted: Vc fis2. at 181 (real cadential 6/4); harp RH <fis' ais' cis''> / LH fis, at 192.
 - Kept: 4, 221/353–355, 76–77/83–84, 128–129, 26–27, 151, 335–336.
