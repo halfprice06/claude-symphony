@@ -20,7 +20,7 @@ Current version: symphony/scherzo/v187 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pa
 - For the finale: take that G♯ as A♭ (enharmonic link). The scherzo does not close the E♭/E♮ (D♯/E) thread; the finale's violas still do.
 
 ## Key plan
-E minor scherzo (second idea in G; fugato G minor → D minor → A minor → A major; harp episode in F major = Neapolitan of E, answering movement I's D♭); trio E major (second statement cadences in B, its V, at 183, since v94; middle C♯ minor – B – F♯ minor – C♯ minor – A/A minor – B7); scherzo reprise E minor (second idea now returns in E minor); coda E minor (325–340) → A major (341–348, IV) → E major (349–376). Large scale: I C minor – II A♭ – III E – IV C (major thirds).
+E minor scherzo (second idea in G; fugato G minor → D minor → A minor → A major; harp episode in F major = Neapolitan of E, answering movement I's D♭); trio E major (second statement cadences in B, its V, at 183, since v94; middle C♯ minor – B – F♯ minor – C♯ minor – A/A minor – B7); scherzo reprise E minor (second idea now returns in E minor; reprise fugato G minor 289 → D minor → A 297 → V7 301 → E 305); coda E minor (325–340) → A major (341–348, IV) → E major (349–376). Large scale: I C minor – II A♭ – III E – IV C (major thirds).
 
 ## Themes exported (what the finale may quote)
 Not locked (Dan, 2026-10-12): they may evolve. Current exact notes in themes-scherzo.ly, summary in themes-scherzo.md; every change is logged and sent to the finale thread with old and new notes.
