@@ -966,6 +966,9 @@ TEMPO = smooth_tempo(TEMPO)
 # PHRASE_ARCS: defined before the score config is read (see SCORE CONFIG below)
 PHRASE_PUSH, PHRASE_SLOW = 1.015, (0.96, 0.92)
 PHRASE_SLOW_SUB, PHRASE_SLOW_MAIN, PHRASE_RETURN = (0.98, 0.95), (0.95, 0.88), 0.97
+# mvt1 c27 (critic C #2): False = an "open" arc (push only, no slowing) does not give the arc after it a PHRASE_RETURN
+# beat (there is nothing to return from: an open (384, 396) put a 3% slower beat on the next arc's first beat)
+PHRASE_RETURN_AFTER_OPEN = globals().get("PHRASE_RETURN_AFTER_OPEN", True)   # set in build/score_config.py (run before this line)
 
 
 def phrase_arcs(steps):
@@ -996,7 +999,8 @@ def phrase_arcs(steps):
         if any(abs(a - x_) < 0.01 for x_ in ends_done):   # c15 (C #5): the tempo returns over one beat
             segs = [(a, a + 1, PHRASE_RETURN)] + segs
             first = a
-        ends_done.append(e)
+        if depth != "open" or PHRASE_RETURN_AFTER_OPEN:
+            ends_done.append(e)
         cuts = sorted({q for q, _ in steps if first - EPS <= q < e - EPS} | {x for s0, s1, _ in segs for x in (s0, s1)})
         new = [(q, b) for q, b in steps if not (first - EPS <= q < e + EPS)]
         for q in cuts:

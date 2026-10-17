@@ -782,7 +782,7 @@
    "seat": -0.34,
    "dyn_trim_db": {
     "f": 2.5,
-    "ff": 4.0,
+    "ff": 2.0,
     "fff": 2.0
    },
    "eq": [
@@ -1078,6 +1078,13 @@
     {
      "band": "highpass",
      "hz": 25
+    },
+    {
+     "band": "bell2",
+     "hz": 84,
+     "db": -5,
+     "bw_oct": 0.3,
+     "_c26": "critic B #5: E2/F2 fundamental carried most of the master 30-100 Hz on those notes"
     }
    ],
    "mics": {
@@ -2004,7 +2011,21 @@
      "Sus MAX"
     ],
     "_c21": "critic A #1 (test): Sus MAX mf/f/ff sustain groups ship 394-700 ms releases; rests and cut-offs did not stop"
-   }
+   },
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 170,
+     "db": -2,
+     "bw_oct": 1.0
+    },
+    {
+     "band": "highshelf",
+     "hz": 1500,
+     "db": 4
+    }
+   ],
+   "_c29": "critic C #1: the c28 200 Hz loud bell2 reverted (198 Hz band 2-4 dB over three references); C #2/#3: side bell 170 Hz -2 (120-250 Hz correlation) and side high shelf 1.5 kHz +4 (celli top width)"
   },
   "Double basses": {
    "group": "string",
@@ -2339,7 +2360,34 @@
      "Sus MAX"
     ],
     "_c21": "critic A #1 (test): Sus MAX mf/f/ff sustain groups ship 394-700 ms releases; rests and cut-offs did not stop"
-   }
+   },
+   "mute_eq": {
+    "from_qn": -2.5,
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 61.7,
+      "db": -6,
+      "bw_oct": 0.25
+     },
+     {
+      "band": "bell2",
+      "hz": 73.4,
+      "db": -5,
+      "bw_oct": 0.25
+     }
+    ],
+    "_c27": "critic B #1: static (wet 1 from inside the pre-roll) B1 / D2 fundamental cuts"
+   },
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 170,
+     "db": -2,
+     "bw_oct": 1.0
+    }
+   ],
+   "_c29": "critic C #2: side bell 170 Hz -2 dB (master 120-250 Hz correlation 0.44 against 0.54-0.58 in the references)"
   },
   "Trumpet 1": {
    "group": "trumpet",
