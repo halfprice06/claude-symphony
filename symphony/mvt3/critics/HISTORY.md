@@ -821,3 +821,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 197 (v197 → v198), lens 7 texture (Adler ch. 11, second pass)
 - No score change.
 - Do-not-touch: stretto 139-150; 247-254; 99-109; 205-208; 265-272.
+
+## Cycle 198 (v198 → v199), lens 8 expression (A&S Unit 21, second pass)
+- No score change. Open: finale.md wrongly says the basses reach ff at 271; fix at cycle 200.
+- Do-not-touch: 87-90 chain; 210-211 suspension; 135-138 and 222→223; horn call 243-246; C pedal 263-279.
