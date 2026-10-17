@@ -177,6 +177,10 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Cycle 195 (lens 5 engraving, Gould ch. 1 beams, second pass) v195 → v196
+- Accepted: beam callback in beams.ily, included by score.ly and the parts (parts now get the c015/c105 beam fix).
+- Kept: 2.92-space stems at 23/76/115/263/315/354, slope at 38/74.
+
 ## Cycle 194 (lens 4 orchestration, Rimsky-Korsakov ch. III brass, second pass) v194 → v195
 - Accepted: Tbn 2 B2 at 333–334/339 (E3 at 335); Tpt 1·2 stay f at 335–338 (no fff).
 - Kept: Tpt seventh at 337–338 (c082), Tbn 2 E3 at 105–120, Tbn 1 seventh at 103–104 (c104), clarinets inside horns 45–56/121–128.
