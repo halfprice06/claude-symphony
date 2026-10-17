@@ -177,6 +177,11 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Cycle 198 (lens 8 expression, A&S Unit 21, second pass) v198 → v199
+- Accepted: cello swell on the 9–8 at 110–111/310–311 (hidden end dynamics).
+- Rejected: Hn 1 diminuendo at 216 (adds two pages).
+- Kept: 195–196, 126/282, 55/131/287, 337–338, 241–244.
+
 ## Cycle 197 (lens 7 texture, Adler part 2 ch. 11, second pass) v197 → v198 (no change)
 - Kept: 89–100, 101/103 and 333/335 trumpets, 105–120 trombone, 71/299 horns, 337–338.
 
