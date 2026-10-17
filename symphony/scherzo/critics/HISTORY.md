@@ -171,6 +171,10 @@ v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 render
 ## Batch checkpoint after cycle 166 (2026-10-17)
 v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle 167 reviews v167 (lens 7 texture).
 
+## Cycle 167 (lens 7 texture, Sebesky ch. 3, second pass) v167 → v168
+- Accepted: wind doublings a level under the violins at 197–200, 125, 281.
+- Kept: 193–204 bass doubling, 195–196, 105–120 horns (c097).
+
 ## Cycle 166 (lens 6 playability, Rimsky-Korsakov ch. I, second pass) v166 → v167
 - Accepted: stepwise climb to B6 at 335 (Vln I, Fl 1); Hn 4 relieves Hn 3 at 121–128.
 - Kept: Vln I G6/A6 at 46/50, low harp at 341–344, Cbsn octave at 213–222.
