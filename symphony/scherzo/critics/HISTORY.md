@@ -177,6 +177,9 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Loop finished after cycle 200 (2026-10-17)
+v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
+
 ## Cycle 200 (lens 10 cyclic, release check, second pass) v200 → v201 (release copy)
 - Accepted: title without "draft" (v201, 17 October 2026); parts title matches the score; coda.ily comment on current brass dynamics.
 - Checked: cyclic rules, do-not-touch list, joins with II v201 and finale v201, finale quotations; all hold.
