@@ -829,3 +829,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 199 (v199 → v200), lens 9 master comparison (Casanelles ch. 6; v189)
 - No score change. All changes since v189 confirmed.
 - Do-not-touch: bars 1-2; 51-66; 110-113; 151-166; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 200 (v200 → v201), lens 10 coherence + final release check
+- No score change. finale.md current to v200 (basses f 265-274 corrected). Release check passed. Loop complete.
+- Do-not-touch: bars 1-2; 51-66; 110-113; 151-166; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
