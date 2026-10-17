@@ -788,3 +788,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 189 (v189 → v190), lens 9 master comparison (Borodin 2/iv; v179)
 - Accepted: Hn 3 D4→E♭4 at 259-261 (removes fifths with the bass).
 - Do-not-touch: bars 1-2; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263 with Hn 3 D4→E♭4 and Hn 4 A♭3; c188 ties; close 273-279.
+
+## Cycle 190 (v190 → v191), lens 10 coherence + release check (Adler ch. 17, second pass)
+- No score change. finale.md current to v190.
+- Do-not-touch: bars 1-2; 51-66; 115-130; 205-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
