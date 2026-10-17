@@ -1074,3 +1074,355 @@ LEVEL_SHAPES["Violoncellos"] = LEVEL_SHAPES["Violoncellos"] + [[(204.15, 0.0), (
 # the bar-33 downbeat (Violins I 128, accented down-bow ff eighth after the run) now arrives as a Leg BC target from
 # the Slur Runs row and sat 2.5 dB under its c19 Sus stroke (0.05-0.3 s): +2.5 dB from its moved onset (127.8125)
 LEVEL_SHAPES["Violins I"] = LEVEL_SHAPES["Violins I"] + [[(127.79, 0.0), (127.81, 2.5), (128.45, 2.5), (128.55, 0.0)]]
+
+# ---------- c21 ----------
+# critic A #1 (test, build/mix.json "sus_release_cap_ms" on Violas / Violoncellos / Double basses; full rebuild of the
+# three tracks): the Sus MAX mf/f/ff sustain groups' AHDSR releases (Celli 524 ms, Basses 524-700, Violas 333-653) capped
+# at 250 ms; rests and tutti cut-offs on Sus MAX fell only 4 dB in 0.18 s rests, the basses' ff eighths ran together
+# critic A #2: bar 152: the violas' and celli's F (607, top of the crescendo, unslurred after the 32nd run) sat 3-4 dB
+# under the run as a Sus -> Leg Slur join (slow first-note layer): a fresh Sus MAX stroke; GROUP_LEAD_AT keeps its 0.12 s
+DOWNBOW_STROKE_AT = dict(DOWNBOW_STROKE_AT, **{"Violoncellos": DOWNBOW_STROKE_AT["Violoncellos"] + [607.0],
+                                               "Violas": DOWNBOW_STROKE_AT.get("Violas", []) + [607.0]})
+# critic A #3: the celli's slurred arpeggios of the second theme (bars 55-63, 155-158) crossed rising leaps +0.15..+0.21 s
+# late, the lead held at the 0.45 cap (0.12 s): cap 0.75 over the two spans, rising steps of 5+ semitones +0.06 s
+# (leg_leads.json; the raised cap only on those listed onsets, the other steps keep 0.45); a target keeps at least 0.10 s after the previous note's moved onset (the unled group heads)
+LEG_CAP_FRAC = dict(LEG_CAP_FRAC, **{"Violoncellos": [(219.0, 252.0, 0.75, "listed"), (616.0, 632.0, 0.75, "listed")]})
+LEG_MIN_GAP_S = {"Violoncellos": 0.10}
+# critic A #4 (leg_leads.json): the Slur Runs target 270.25 (a third from the v53 head) 0.10 s lead; Violins I 160 not
+# changed (its lead is at the 0.75 cap of the 0.25 qn run note before it)
+# critic B #1: bars 163-166: Oboe 1's untargeted decrescendo at 648 fell 114 -> 102 while the Violins I it doubles fell
+# to mp (oboe 2-5 dB over the line); the mp counter-lines in the violas and Clarinet 1 sat 4-7 dB over the mp melody
+HP_TARGET_AT = dict(HP_TARGET_AT, Ob1={648.0: "mf"})
+LEVEL_SHAPES["Violins I"] = LEVEL_SHAPES["Violins I"] + [[(651.8, 0.0), (652.0, 3.0), (661.8, 3.0), (662.2, 0.0)]]
+LEVEL_SHAPES["Violas"] = LEVEL_SHAPES["Violas"] + [[(652.0, 0.0), (652.3, -2.0), (661.8, -2.0), (662.0, 0.0)]]
+LEVEL_SHAPES["Clarinet 1"] = LEVEL_SHAPES["Clarinet 1"] + [[(651.8, 0.0), (652.0, -2.0), (661.8, -2.0), (662.0, 0.0)]]
+# critic B #2 (roles.json Cor anglais [586, 620, 4] -> [586, 605, 4, 0.5]): the bar-153 sustained p notes covered the
+# mf second theme; the 608 whole note's own bloom is held
+LEVEL_SHAPES["Cor anglais"] = LEVEL_SHAPES.get("Cor anglais", []) + [[(608.0, 0.0), (608.6, -2.0), (611.6, -2.0), (612.0, 0.0)]]
+# critic B #3: coda bars 173-174: the cello solo's crest (C5, 692) sat 4 dB under bar 172 with the cor anglais (+6 dB of
+# stacked roles, holding the same C5) level with it: cor anglais -2.5 after its imitation entry, celli +3.5 at the crest
+LEVEL_SHAPES["Cor anglais"] = LEVEL_SHAPES["Cor anglais"] + [[(687.3, 0.0), (687.6, -2.5), (694.6, -2.5), (694.8, 0.0)]]
+LEVEL_SHAPES["Violoncellos"] = LEVEL_SHAPES["Violoncellos"] + [[(691.6, 0.0), (691.9, 3.5), (693.2, 3.5), (693.8, 0.0)]]
+# critic B #4 (test): the f/ff/fff rolls of the loud tuttis started at 4-12% of the master's 60-300 Hz (17th-26th of 32
+# stems), so the fff arrivals had no audible drum: +3 dB over the three tutti spans; the settle acts on top
+LEVEL_SHAPES["Timpani"] = LEVEL_SHAPES["Timpani"] + [[(463.9, 0.0), (464.05, 3.0), (491.5, 3.0), (492.0, 0.0)],
+                                                     [(627.9, 0.0), (628.05, 3.0), (643.5, 3.0), (644.0, 0.0)],
+                                                     [(663.9, 0.0), (664.05, 3.0), (675.5, 3.0), (676.0, 0.0)]]
+# critic B #5: the Violins II tremolo over the Violins I mp-cresc melody at 453.5-454 (-4.3/-3.5); bar 79 0.1 dB under 78
+# (the Horns a2 accented mf entry at 311 the top stem)
+LEVEL_SHAPES["Violins II"] = LEVEL_SHAPES["Violins II"] + [[(452.8, 0.0), (453.2, -3.0), (455.8, -3.0), (456.2, 0.0)]]
+LEVEL_SHAPES["Horns a2"] = LEVEL_SHAPES["Horns a2"] + [[(310.4, 0.0), (310.5, -1.5), (311.5, -1.5), (311.7, 0.0)]]
+# critic C #1-#3: build/mix.json (brass 4 kHz shelves, Trumpet 1 climax shelf -6, tam-tam 86 Hz bell2 -9, horn width 0.15
+# with Horn 3/4 seats -0.38/-0.40)
+# ---------- c21 stem fix (level only, measured on the c21 render) ----------
+# critic A #2: the 607 F as a fresh Sus MAX stroke (v105) took the violas' F from -1.9 to +0.6 dB over the run but the
+# celli's from +4.6 to -0.1 (body -37.5 -> -44.1 dB); both now lead (F first dominant -0.07 / +0.01 s from 607, c20
+# +0.11 / +0.21): celli +5, violas +1 over the F, back to 0 before 609's moved onset
+LEVEL_SHAPES["Violoncellos"] = LEVEL_SHAPES["Violoncellos"] + [[(606.78, 0.0), (606.85, 5.0), (608.45, 5.0), (608.55, 0.0)]]
+LEVEL_SHAPES["Violas"] = LEVEL_SHAPES["Violas"] + [[(606.78, 0.0), (606.85, 1.0), (608.45, 1.0), (608.55, 0.0)]]
+# rebow_fills.json: Double basses and Violas refit on c21 (the 250 ms release deepened the basses' re-bow dips, median
+# -1.5 -> -3.2 dB); the celli refit lowered held bars 73-77 by 3.5 dB and was not kept
+
+# ---------- c22 ----------
+# critic A #1: the basses' ff repeated-eighth pedals (bars 27-31, 131-134, 140-142; Sus MAX eighths of 0.47 qn) swell to
+# mid-note and play as one held note (eighth-grid fold 2.7-3.1 dB at 30-150 Hz, 1.7-2.5 dB at 1-4 kHz; control 7 dB):
+# a -5 dB dip over the last 0.08 s before each next moved onset (STR_REP_DETACH, generic), +1.5 dB over the spans to
+# keep the bar level (simulated: fold 6.5-7.8 / 5.6-6.9 dB, stem RMS -1.6 dB without the lift)
+STR_REP_DETACH = {"at": {"Double basses": [(104.0, 124.25), (520.0, 536.25), (556.0, 568.0)]},
+                  "dip_db": -5.0, "dip_s": 0.08, "ramp_s": 0.02, "back_s": 0.005, "max_qn": 0.5, "min_cc": 84}
+LEVEL_SHAPES["Double basses"] = LEVEL_SHAPES.get("Double basses", []) + [
+    [(103.85, 0.0), (103.95, 1.5), (124.0, 1.5), (124.1, 0.0)],
+    [(519.85, 0.0), (519.95, 1.5), (536.0, 1.5), (536.1, 0.0)],
+    [(555.85, 0.0), (555.95, 1.5), (568.0, 1.5), (568.1, 0.0)]]
+# critic A #2 (rebow_fills.json): celli re-bows 39.879 / 41.38 / 49.683 refit on c21 (fit_rebows.py 21 --tracks
+# Violoncellos, only these three rows merged: the 250 ms release cap moved the holes earlier; 39.879 was a 10 dB hole)
+# critic A #3: string accents on the release-capped tracks refit on c21 (accent_fits.json / accent_bodies.json, Violas,
+# Violoncellos, Double basses only)
+# critic A #4 (test, mix.json Violas sus_release_cap_ms "rt_ms" 400): the Violas KS Master's Sus MAX release-trail ("RT")
+# groups play their recorded release for 1660 ms; cap them at 400 ms as well (full Violas rebuild)
+# critic A #5 (early_fills.json via auto_fills.py on c21): Horn 4 joins 415 / 453 opened to 5.9 / 5.2 dB after the c21
+# horn rebuild
+# critic B #1: bars 85-87, the basses' pizz. mf quarters 8.4 dB over their f pizz. and level with the cello fugato
+# subject (three stacked fugato roles, +7 dB): -5 dB step, full before the first pluck
+LEVEL_SHAPES["Double basses"] = LEVEL_SHAPES["Double basses"] + [[(335.8, 0.0), (335.9, -5.0), (348.0, -5.0), (348.3, 0.0)]]
+# critic B #2: bar 31, the celli's ff A-flat3 / F3 half notes bloom 6 dB over the Violins I theme (master 160-300 Hz
+# +3.5..+5.5 dB over bars 28-30): -4 dB after the 120 attack, back before the 124 accent; the 122 fill 5.6 -> 3.0
+# (early_fills.json); bar 82 -2 more (K only)
+LEVEL_SHAPES["Violoncellos"] = LEVEL_SHAPES["Violoncellos"] + [[(120.3, 0.0), (120.6, -4.0), (123.75, -4.0), (124.0, 0.0)],
+                                                             [(324.25, 0.0), (324.5, -2.0), (327.9, -2.0), (328.2, 0.0)]]
+# critic B #3: bars 77-78, the bass-clarinet solo (mf espr.) level with the p tremolo and 3.5-5.3 dB under the mp
+# Clarinet 1 answer
+LEVEL_SHAPES["Clarinet 1"] = LEVEL_SHAPES.get("Clarinet 1", []) + [[(306.3, 0.0), (306.45, -3.0), (309.8, -3.0), (310.2, 0.0)]]
+LEVEL_SHAPES["Violins II"] = LEVEL_SHAPES.get("Violins II", []) + [[(304.3, 0.0), (304.5, -2.0), (306.4, -2.0), (306.6, 0.0)]]
+LEVEL_SHAPES["Violas"] = LEVEL_SHAPES.get("Violas", []) + [[(304.3, 0.0), (304.5, -1.5), (306.4, -1.5), (306.6, 0.0)]]
+# critic B #4: bar 115, Oboe 1 enters f cold, 7 dB under Oboe 2 and 3-5 dB under the flutes in unison
+LEVEL_SHAPES["Oboe 1"] = LEVEL_SHAPES.get("Oboe 1", []) + [[(455.7, 0.0), (455.85, 4.0), (459.8, 4.0), (460.3, 0.0)]]
+# critic C #1: bar 122, the celli's fff A-flat3 (first note of a Leg Slur phrase after the measured-tremolo Stac strokes,
+# the slow first-note layer) falls 19 dB under its attack for 0.8 s: a fresh Sus MAX stroke; 488 joins it as Leg BC
+DOWNBOW_STROKE_AT = dict(DOWNBOW_STROKE_AT, **{"Violoncellos": DOWNBOW_STROKE_AT["Violoncellos"] + [484.0]})
+# critic C #2: bars 122-123, the fff sostenuto falls 2.8 dB (master M) before its printed decrescendo at bar 124 (brass
+# -3..-7 dB inside held chords): +0.8..+1.5 dB on every wind, brass and string track from 485.5 to 492 (simulated: fall
+# 1.4 dB, climax margin 160 > 122 0.94 dB S)
+_sost = [(485.5, 0.0), (486.5, 0.8), (487.0, 1.5), (487.8, 1.5), (488.1, 0.5), (489.0, 0.8), (490.5, 1.2),
+         (491.75, 1.5), (492.25, 0.0)]
+for tn_ in [t_[0] for t_ in TRACKS if t_[3] in ("wind", "brass", "string")]:
+    LEVEL_SHAPES[tn_] = LEVEL_SHAPES.get(tn_, []) + [_sost]
+# critic C #4: bars 19-20, the Violins I crescendo into the sf at 78 is flat for five beats (0.0 dB): +2 dB rising
+# c22 stem fix: the ramp to +2 at 77.75 left the sf at 78 level with the last half beat (-29.0 / -29.0 dB): the ramp
+# now peaks at 77.5 and is gone by 77.75
+LEVEL_SHAPES["Violins I"] = LEVEL_SHAPES["Violins I"] + [[(74.25, 0.0), (77.5, 2.0), (77.75, 0.0)]]
+# critic C #3: tools/deliver_master.py momentary cap (MOM_CAP_ABOVE 6 dB over the knee)
+# ---------- c22 stem fix (level only, measured on the c22 render) ----------
+# critic B #1 follow-up: the delivery ride did not make up the basses' fugato cut (delivered bars 85-87 -0.3/-0.9/-1.3
+# dB): +1.5 dB on the celli, who carry the subject
+LEVEL_SHAPES["Violoncellos"] = LEVEL_SHAPES["Violoncellos"] + [[(335.8, 0.0), (336.0, 1.5), (348.0, 1.5), (348.3, 0.0)]]
+
+# ---------- c23 ----------
+# critic A #1: string and wind accents carried their emphasis as a swell centred 0.30 s after the beat (accented minus
+# plain front-body 0 dB; the swell (0.07, 0.25, 0.6) rode a Sus MAX attack that still rises for 0.25 s): a shorter,
+# earlier swell. Brass unchanged (the only family with front weight). Accent fits/bodies refit after the render
+# (fit_accents.py --front-s, fit_accent_bodies.py --min-s 0.45 with the short-note ramp)
+for f_ in ("wind", "string"):
+    GENTLE_ACCENT = dict(GENTLE_ACCENT, **{f_: dict(GENTLE_ACCENT[f_], swell_s=(0.03, 0.15, 0.40),
+                                                    swell_s_leg=(0.03, 0.22, 0.50))})
+ACCENT_BODY_S_SHORT = (0.18, 0.28)
+# critic A #2 (test): the accented down-bow hammer strokes swell through the note (peak +0.30 s, front - body -1.7 dB):
+# the "Sus Marc LITE" row (key 25, a sustain with a marcato start; loaded on these three tracks: full rebuilds) at the
+# strokes' velocity, chords included. Controls: bars 32/72 upper strings, bar 83 violas stay on Sus MAX
+ART_SPANS = dict(ART_SPANS, **{
+    "Violins I": [{"from": 327.9, "to": 331.0, "art": "Sus Marc LITE", "poly": True},
+                  {"from": 563.9, "to": 567.9, "art": "Sus Marc LITE", "poly": True}],
+    "Violins II": [{"from": 327.9, "to": 331.0, "art": "Sus Marc LITE", "poly": True},
+                   {"from": 563.9, "to": 567.9, "art": "Sus Marc LITE", "poly": True}],
+    "Violoncellos": [{"from": 283.9, "to": 286.0, "art": "Sus Marc LITE", "poly": True}]})
+# critic A #3: Violins I staccato strokes (Stac RRx14) reached -3 dB at +0.10 s, peak +0.13 s (winds +0.04..+0.07)
+STAC_LEAD_S = {"Violins I": 0.05, "Violas": 0.03}
+# critic A #4 (test): the violas' ff off-beat dyads of bars 131-134 played their full eighth and filled the eighth rests
+# (drop 1.9-8.4 dB, median 5.8): they end at 0.6 of the written eighth (mix.json rt_ms 400 reverted: the c22 test failed)
+STR_REST_SHORT = {"at": {"Violas": [(520.0, 536.0)]}, "frac": 0.6, "max_qn": 0.5, "min_bpm": 120}
+# critic B #1: bar 162, Horn 1 (untargeted decrescendo, 114 -> 102) and the fff hold left at +3 dB on Horn 1/2 (they rest
+# in the Horns a2 window) put Horn 1 4-5 dB over the ff oboe/clarinet line while the brass fall to mp: Horn 1/3 target
+# mf+ as Horn 2/4 reach p; the held +3 cancelled on Horn 1 and Horn 2 from the 644 ff mark
+HP_TARGET_AT = dict(HP_TARGET_AT, Hn1={**HP_TARGET_AT.get("Hn1", {}), 644.0: "mf+"},
+                    Hn3={**HP_TARGET_AT.get("Hn3", {}), 644.0: "mf+"})
+LEVEL_SHAPES["Horn 1"] = LEVEL_SHAPES["Horn 1"] + [[(644.25, 0.0), (644.5, -3.0), (651.8, -3.0), (652.0, 0.0)]]
+LEVEL_SHAPES["Horn 2"] = LEVEL_SHAPES["Horn 2"] + [[(644.25, 0.0), (644.5, -3.0), (651.8, -3.0), (652.0, 0.0)]]
+# critic B #2: bars 131-134, the ff first theme (clarinets, bassoons, celli; trombones f) covered at 14 of 19 onsets by
+# the Violins I descant (simulated: margin -1.4 -> +1.1, covered 14 -> 5). Trombone 1's role is not touched
+for t_, d_ in (("Violoncellos", 2.5), ("Bassoon 1", 2.5), ("Clarinet 1", 2.5), ("Violins I", -1.5), ("Violins II", -1.5)):
+    LEVEL_SHAPES[t_] = LEVEL_SHAPES.get(t_, []) + [[(520.1, 0.0), (520.3, d_), (535.8, d_), (536.0, 0.0)]]
+# critic B #3: bars 145-146, Oboe 1's dolce p E5 swells 8.7 dB inside the note (the sample) to its own ff level
+LEVEL_SHAPES["Oboe 1"] = LEVEL_SHAPES["Oboe 1"] + [[(579.2, 0.0), (579.9, -3.0), (580.3, -5.0), (581.2, -5.0), (581.7, 0.0)]]
+# critic B #4: bars 1-4, the bass clarinet sat 2-6.5 dB (A) over the celli in the pp unison (the line read as a bass
+# clarinet solo, and its looped C at qn 11 was exposed): bass clarinet -2.5, celli +1.5 (to the 12.1 re-bow fills)
+LEVEL_SHAPES["Bass clarinet"] = LEVEL_SHAPES["Bass clarinet"] + [[(2.7, 0.0), (2.9, -2.5), (16.4, -2.5), (16.6, 0.0)]]
+LEVEL_SHAPES["Violoncellos"] = LEVEL_SHAPES["Violoncellos"] + [[(2.7, 0.0), (2.9, 1.5), (11.9, 1.5), (12.1, 0.0)]]
+# critic C #1: legato targets after an eighth on Violins II, violas and celli were held at the 0.45 cap (0.107 s at 126
+# bpm) and crossed +0.09..+0.16 s late (141 notes): cap 0.75 over the movement (as Violins I since c06), each target
+# at least 0.10 s after the previous moved onset. Replaces the celli's c21 "listed" spans (their leg_leads extras stay)
+LEG_CAP_FRAC = dict(LEG_CAP_FRAC, **{t_: [(0.0, 728.0, 0.75)] for t_ in ("Violins II", "Violas", "Violoncellos")})
+LEG_MIN_GAP_S = {"Violoncellos": 0.10, "Violas": 0.10, "Violins II": 0.10}
+# critic C #2: abutting Sus MAX strokes with no lead crossed +0.10..+0.12 s late (violas 94 notes, +0.08 s behind the
+# brass in the theme of bars 69-71 / 167-169): measured onsets listed (0.10 s, the old note ending at the moved start);
+# Violins II's slurred Sus MAX eighths 0.06 -> 0.10 s
+ABUT_LEAD["Violas"] = dict(ABUT_LEAD["Violas"], at=ABUT_LEAD["Violas"]["at"] + [
+    107.0, 107.5, 110.0, 111.5, 114.5, 134.5, 135.0, 135.5, 137.0, 148.5, 149.0, 149.5, 152.75,
+    272.5, 273.5, 275.0, 276.0, 278.0, 278.5, 279.0, 280.0, 281.0, 282.0, 283.0, 353.0, 366.0, 388.5, 394.0, 397.0,
+    398.0, 399.0, 401.0, 402.0, 403.0, 405.0, 406.0, 407.0, 427.5, 435.5, 441.0, 443.0, 449.0, 453.0, 454.0, 460.0,
+    461.0, 463.0, 464.3333, 469.3333, 471.3333, 481.3333, 483.3333, 553.0, 555.0, 557.0, 558.0, 559.0, 561.0, 563.0,
+    564.0, 567.0, 667.0, 667.5, 670.0, 671.5, 674.5])
+ABUT_LEAD["Violoncellos"] = dict(ABUT_LEAD["Violins II"], at=[312.5, 313.0, 341.0, 350.0, 350.5, 355.0, 417.5, 419.0,
+                                                             522.5, 523.0, 523.5, 525.0, 527.5, 530.5, 531.0, 531.5, 533.0])
+ABUT_LEAD["Violins II"] = dict(ABUT_LEAD["Violins II"], at=ABUT_LEAD["Violins II"]["at"] + [
+    80.5, 109.0, 110.0, 111.5, 278.0, 279.5, 282.0, 283.5, 365.0, 554.5, 558.0, 561.5])
+SHORT_SUS_LEAD_S = 0.10
+# critic C #3: Clarinet 1's legato had no lead (crossover +0.076 s, +0.045 behind the others; flute/oboe 0.03 s leads
+# cross +0.03)
+LEG_LEAD_S = dict(LEG_LEAD_S, Clarinet=0.05)
+# critic C #4: Leg BC targets crossed 0.05-0.06 s after Leg Slur targets at the same lead on Violins II and violas
+LEG_ART_EXTRA_S = dict(LEG_ART_EXTRA_S, **{"Violins II": dict(LEG_ART_EXTRA_S["Violins II"], **{"Leg BC MAX": 0.03}),
+                                           "Violas": dict(LEG_ART_EXTRA_S["Violas"], **{"Leg BC MAX": 0.05})})
+# critic C #5 (also build/entry_leads.json 118/383): Violins II Leg Slur entries arrive +0.14 s (mid lead 0.06 s)
+ENTRY_LEAD_ART_S["Violins II"] = {"Leg Slur MAX": 0.06}
+# (actor) caps for the C #2 leads: the listed viola sixteenth (152.75) and triplet strokes (0.33 qn) and Violins II's
+# slurred sixteenths would have kept 0.02-0.06 s of the note before: at most 0.45 of that note's slot
+SHORT_SUS_LEAD_CAP_FRAC = 0.45
+for t_ in ("Violas", "Violoncellos", "Violins II"):
+    ABUT_LEAD[t_] = dict(ABUT_LEAD[t_], cap_frac=0.45)
+# ---------- c23 stem fix (level only, measured on the c23 render) ----------
+# critic A #2 test: the Sus Marc LITE strokes put the weight at the front (front - body -4.9..+0.5 -> +0.4..+10 dB,
+# peak +0.07..+0.20 s on 8 of 10) but played 2-8 dB louder than the Sus MAX strokes they replace (whole-note level):
+# each stroke back to its c22 level + 0.5 dB (a step from the moved onset to the note end)
+for t_, rows_ in (("Violins I", [(327.8721, 329.0, -5.4), (329.874, 331.0, -7.0), (563.8721, 565.54, -5.0), (565.79, 568.0, -6.9)]),
+                  ("Violins II", [(327.8721, 329.0, -2.2), (329.874, 331.0, -2.7), (563.8721, 565.54, -6.4), (565.79, 568.0, -7.7)]),
+                  ("Violoncellos", [(283.874, 284.5505, -5.6), (284.8005, 286.0, -1.4)])):
+    LEVEL_SHAPES[t_] = LEVEL_SHAPES[t_] + [[(m_ - 0.02, 0.0), (m_, d_), (e_, d_), (e_ + 0.04, 0.0)] for m_, e_, d_ in rows_]
+# critic B #1 follow-up: Horn 1 still 3-8 dB over Horn 2 through the bar-162 decrescendo (Oboe 1 over Horn 1 only
+# +0.4..+3.2 dB A, simulated target +4.5): a further fall to -4 dB by 647
+LEVEL_SHAPES["Horn 1"] = LEVEL_SHAPES["Horn 1"] + [[(644.6, 0.0), (645.5, -2.0), (647.0, -4.0), (648.2, -4.0), (648.4, 0.0)]]
+# master top sample peak 1.603 at qn 641.14 (timpani stroke 0.41 + tuba 0.26 + celli + low brass in phase; c22 1.427
+# there, raised by Clarinet 1 / Violins II timing): timpani and tuba -2 dB over the stroke's attack
+for t_ in ("Timpani", "Tuba"):
+    LEVEL_SHAPES[t_] = LEVEL_SHAPES.get(t_, []) + [[(640.97, 0.0), (641.0, -2.0), (641.3, -2.0), (641.36, 0.0)]]
+
+# ---------- c24 ----------
+# critic A #1: the c23 front-window accent refit drove 13 slurred wind/string accents (mostly targets of an eighth
+# pickup, whose 0.18 s front window falls in the legato sag) to the swell+step cap: 4-7 dB louder than in c22 and 5-9 dB
+# over their next plain notes (rule: 2-4). A cut of min(rise, over-next - 3.5) dB over the score onset - 0.03 .. + 0.35 s
+# (0.03 s in, 0.15 s out), measured on the c23 stems. Clarinet 1 505 is left to B #4 (its fill is the cause).
+_acut = [(-0.06, 0.0), (-0.03, 1.0), (0.35, 1.0), (0.50, 0.0)]
+for t_, q_, d_ in (("Oboe 1", 105.0, -2.7), ("Clarinet 1", 151.0, -3.4), ("Clarinet 1", 273.0, -3.4),
+                   ("Clarinet 1", 105.0, -3.1), ("Clarinet 1", 521.0, -1.1), ("Bassoon 1", 382.0, -5.1),
+                   ("Violins II", 325.0, -4.6), ("Violins II", 381.0, -4.2), ("Violins II", 525.0, -3.9),
+                   ("Violas", 325.0, -4.1), ("Violoncellos", 521.0, -4.0), ("Violoncellos", 382.0, -1.5)):
+    LEVEL_SHAPES_S[t_] = LEVEL_SHAPES_S.get(t_, []) + [(q_, [(s_, d_ * v_) for s_, v_ in _acut])]
+# critic A #2: the bar-142 Marc LITE half notes (Violins I/II 564, 566) collapsed after the stroke: the c23 stem fix set
+# each whole note to its c22 level + 0.5, but the row carries its level in the front, so the bodies sat 3-6 dB under c22
+# (Violins I 566 a 0.25 s stab, front - body +10.8). Body back to c22 (the step rows below raised by the body change)
+# and the front left about +2.5 dB over it (a seconds shape from just before the moved onset to +0.25 s, ramp 0.05 s):
+# Violins I 566 body +5.8 / front -2.3, Violins II 566 +3.4 / -2.9, Violins I 564 +1.6 / 0, Violins II 564 +1.3 / 0.
+# Their accent_fits / accent_bodies rows stay (the deltas were measured with them); skip them in refits.
+_mlb = {("Violins I", 563.8721): 1.6, ("Violins I", 565.79): 5.8, ("Violins II", 563.8721): 1.3, ("Violins II", 565.79): 3.4}
+def _mlb_fix(t_, s_):
+    if len(s_) == 4 and s_[0][1] == 0.0 and s_[1][1] == s_[2][1] and (t_, round(s_[1][0], 4)) in _mlb:
+        d_ = _mlb[(t_, round(s_[1][0], 4))]
+        return [s_[0], (s_[1][0], s_[1][1] + d_), (s_[2][0], s_[2][1] + d_), s_[3]]
+    return s_
+for t_ in ("Violins I", "Violins II"):
+    LEVEL_SHAPES[t_] = [_mlb_fix(t_, s_) for s_ in LEVEL_SHAPES[t_]]
+for t_, q_, f_ in (("Violins I", 566.0, -2.3 - 5.8), ("Violins II", 566.0, -2.9 - 3.4),
+                   ("Violins I", 564.0, -1.6), ("Violins II", 564.0, -1.3)):
+    LEVEL_SHAPES_S[t_] = LEVEL_SHAPES_S.get(t_, []) + [(q_, [(-0.15, 0.0), (-0.13, f_), (0.25, f_), (0.30, 0.0)])]
+# critic A #5: the c23 Violins II Leg BC extra (+0.03) overshot (cap-free Leg BC -0.033 s, 8 targets -0.09..-0.12 s;
+# joins of 4.5 dB or more rose): 0.0
+LEG_ART_EXTRA_S = dict(LEG_ART_EXTRA_S, **{"Violins II": dict(LEG_ART_EXTRA_S["Violins II"], **{"Leg BC MAX": 0.0})})
+# critic A #4: Violins I re-bows dip 4-6 dB (80 ms minimum). A refit (fit_rebows.py 23 --tracks "Violins I") changed the
+# c10 rows by under 1 dB (simulated median dip -3.6 -> -3.55: the 0.12 s smoothed fit does not see these dips) and was
+# not kept. Only 711.855 has a hole (-4..-6 dB from +0.0 to +0.30 s); the others are the sample's own 3 Hz bow/vibrato
+# swing (+-3 dB, 0.3 s period). A fill there; 48.597's step is the c13 bar-13 diminuendo shape
+LEVEL_SHAPES_S["Violins I"] = LEVEL_SHAPES_S.get("Violins I", []) + [(711.855, [(-0.03, 0.0), (0.02, 4.0), (0.28, 4.0), (0.38, 0.0)])]
+# critic B #1: bar 26's ff tutti chord (qn 100-103.5) sat 0.7 dB under the third climax on delivered S max; the inner
+# strings bloomed after the attack to the top of it (Violins II +6..+9, violas +3..+9 dB over their ff medians). The
+# attack at 100.0 untouched (simulated by B: master -1.3 dB, Violins I the top string again)
+for t_, d_, a_ in (("Violins II", -3.5, 100.35), ("Violas", -3.5, 100.35), ("Violins I", -1.5, 100.35),
+                   ("Trumpet 1", -1.5, 100.3), ("Trumpet 2", -1.5, 100.3), ("Trumpet 3", -1.5, 100.3),
+                   ("Trombone 1", -1.5, 100.3), ("Trombone 2", -1.5, 100.3), ("Bass trombone", -1.5, 100.3),
+                   ("Tuba", -1.5, 100.3)):
+    LEVEL_SHAPES[t_] = LEVEL_SHAPES.get(t_, []) + [[(a_, 0.0), (a_ + (0.55 if a_ > 100.32 else 0.3), d_), (103.2, d_), (103.6, 0.0)]]
+# critic B #3: bar 84, the celli's sub. p G2 (a fresh Leg Slur MAX first note) swells 8 dB inside the note to the top
+# stem and the basses' G1 rebounds 7 dB: an unprinted hairpin (simulated: celli rise 3 dB, master -2 dB over 333-334.25)
+LEVEL_SHAPES["Violoncellos"] = LEVEL_SHAPES["Violoncellos"] + [
+    [(332.5, 0.0), (332.9, -3.0), (333.1, -5.0), (334.0, -5.0), (334.6, -2.0), (335.3, -2.0), (335.9, -3.0),
+     (335.98, -9.0), (336.2, -9.0), (336.26, 0.0)]]
+# (actor) the G2 also blooms again over its last half beat (-35 -> -32 dB) and its note-off at 336.0 plays a 0.3 s
+# burst at -25 dB on the celli stem and the master (7-8 dB over the bar, before the solo pickup's moved onset 336.248):
+# B's shape held at -2/-3 to the end and a -9 dB notch over 335.98-336.2
+LEVEL_SHAPES["Double basses"] = LEVEL_SHAPES["Double basses"] + [[(332.9, 0.0), (333.15, -3.5), (334.3, -3.5), (334.8, 0.0)]]
+# critic B #4 (early_fills.json, here): Clarinet 1's c23 auto fill at 227 put the p espr. counter-line 4.6 dB over the
+# Violins I melody onset: fill removed and -2.5 dB at the onset, back to 0 by 227.6; 505 / 507.5 fills 5.5 / 6.7 -> 2.5 /
+# 3.5 (the bar-127 p solo: +5.8 dB over its neighbours)
+LEVEL_SHAPES["Clarinet 1"] = LEVEL_SHAPES["Clarinet 1"] + [[(226.85, 0.0), (226.95, -2.5), (227.1, -2.5), (227.6, 0.0)]]
+# critic B #5: bars 45-46, the Oboe 1 p solo notes swell 8-9 dB inside each note to the oboe's own f level (CC11 flat
+# 46; the exposition twin of the bar-146 note): exact shape (simulated: each note rises about 3 dB)
+LEVEL_SHAPES["Oboe 1"] = LEVEL_SHAPES["Oboe 1"] + [[(178.3, 0.0), (178.75, -3.0), (179.4, -3.0), (179.6, 0.0), (180.25, 0.0),
+                                                   (180.6, -3.0), (181.0, -5.0), (181.9, -5.0), (182.0, 0.0)]]
+# critic C #1: bars 49-50 / 149-150, the dolce second theme (Horn 1 + celli) sags 3.7 dB in the middle of its first
+# phrase (Horn 1's envelope falls from +5.5 to +1..+2.5 at a flat CC11) and the celli fall 4-8 dB onto the top note of
+# the printed < (195 -> 196, 595.5 -> 596; the samples)
+LEVEL_SHAPES["Horn 1"] = LEVEL_SHAPES["Horn 1"] + [[(193.2, 0.0), (193.45, 3.0), (195.0, 3.0), (195.9, 6.0), (196.6, 5.5), (197.6, 4.0), (198.2, 0.0)]]
+LEVEL_SHAPES["Violoncellos"] = LEVEL_SHAPES["Violoncellos"] + [
+    [(193.2, 0.0), (193.45, 2.0), (195.6, 2.0), (195.9, 6.5), (196.6, 6.0), (197.6, 4.0), (198.2, 0.0)],
+    [(595.65, 0.0), (595.92, 6.0), (597.0, 5.0), (597.9, 2.0), (598.1, 0.0)]]
+# critic C #2: the second-theme harp arpeggios (Harp Sus RR) jump 10-15 dB from note to note (p10-p90 19.6 dB over bars
+# 47-68): movement II's c09 table (HARP_PITCH_VEL default) replaced by one fitted on c23 (-deviation / 0.37 dB per
+# velocity step, halved for single notes, capped at +-12)
+HARP_PITCH_VEL = {55: -6, 56: -12, 58: 5, 60: 5, 61: 9, 63: 0, 64: -8, 65: -12, 66: -12, 67: 6, 68: -9, 70: -12,
+                  72: -7, 73: 12, 75: -12, 76: -10, 77: -12, 78: 12, 81: 12, 82: 12, 83: 10, 84: 10, 85: -12,
+                  86: 12, 87: 12, 88: 12, 89: 12, 92: 5, 94: 12, 96: 4, 97: 12}
+# critic C #3: coda bars 167-169, the basses' f eighths limp (each off-beat swells in late; on-beat minus off-beat front
+# +6.9 dB stem / +3.1 master): STR_REP_DETACH over the span as on the ff pedals, +1.5 dB hold as on the other spans.
+# (actor) C's on/off alternation 0/0 simulated worse (stem front on-off +3.25 -> +4.71 dB: the dips act at the note
+# ends, the off-beats' fronts stay weak); with the c20 -0.8/+1.2 +2.71; -1.2/+1.6 (0.9 dB of front per dB of step, c20)
+STR_REP_DETACH = dict(STR_REP_DETACH, at={**STR_REP_DETACH["at"], "Double basses": STR_REP_DETACH["at"]["Double basses"]
+                                          + [(664.0, 676.0)]})
+_cb24 = [(663.97, 0.0)]
+for i_ in range(24):
+    q_ = 664.0 + 0.5 * i_
+    v_ = (-1.2 if i_ % 2 == 0 else 1.6) + (0.6, -0.4, 0.0, 0.5, -0.6, 0.2)[i_ % 6]
+    _cb24 += [(q_ - 0.02, v_), (q_ + 0.47, v_)]
+_cb24 += [(676.0, 0.0)]
+LEVEL_SHAPES["Double basses"] = [s_ if s_ != _cb20 else _cb24 for s_ in LEVEL_SHAPES["Double basses"]] + [
+    [(663.85, 0.0), (663.95, 1.5), (676.0, 1.5), (676.1, 0.0)]]
+# critic C #4 (and the c23 C #6 deferral): four stretches ran at one fixed tempo: the exposition's first statement of
+# the second theme (qn 184-200 at 112.0 for 17 beats; the recapitulation's (584, 600) has an arc), the sostenuto
+# (488-504) and largamente (636-656) at 100.0, and the coda Allegro into the bar-170 fermata (664-679 at 126). Arcs as
+# the rest of the movement has them; re-bows are frozen in qn (_REBOW_FROZEN). The animando ramps of bars 62-65 and
+# 156-159 end at the printed last step (bar 65 had run to 120.1 against the printed 118, and the rit. of bar 66 then
+# started 2.6% slower)
+PHRASE_ARCS = PHRASE_ARCS + [(184, 200), (488, 504, "sub"), (636, 648, "sub"), (664, 679, "sub")]
+RAMP_SPANS = [(244, 252, 115) if r_[:2] == (244, 260) else (620, 628, 115) if r_[:2] == (620, 632) else r_
+              for r_ in RAMP_SPANS]
+# (actor) the coda arc is there for its last beats into the fermata only; its apex hold (Violas, beat 673 x0.96) would
+# put a hitch in the middle of the ff trumpet theme: APEX_SKIP (generic). The 196 (Horn 1 A-flat4, the printed < top)
+# and 637 (largamente, Violins I top) apex holds stay
+APEX_SKIP = {664}
+
+# ---------- c25 ----------
+# ONE_TIME #1 (loop pulse, measured on c24 with cycles/c25/actor_scripts/loopscan.py): the held single-sample wind/brass
+# notes whose 100-300 Hz band or centroid autocorrelation at the loop lag reached 0.4: Bass clarinet 11 (centroid 0.72 at
+# 3.95 s, -6.6 dB re master in the Lento), Bass clarinet 464 (band 0.64), Horn 4 289 (0.44 / 0.34), Bassoon 2 476 (0.72 /
+# 0.83 at 4.7-4.9 s). Staggered breath splits into pieces of 2.1-3.1 s (shorter than any measured loop), irregular
+BREATH_SPLIT_AT = dict(BREATH_SPLIT_AT, **{"Bass clarinet": {**BREATH_SPLIT_AT.get("Bass clarinet", {}), 11.0: [13.5],
+                                                             464.0: [469.5, 474.5]},
+                                           "Horn 4": {**BREATH_SPLIT_AT.get("Horn 4", {}), 289.0: [295.0, 299.5]},
+                                           "Bassoon 2": {**BREATH_SPLIT_AT.get("Bassoon 2", {}), 476.0: [481.5, 487.0, 491.0]}})
+# ONE_TIME #2: the c24 tempo side effects. Violins I/II 259.5 (slurred eighth, 0.254 s at 118 bpm) back to the short_sus
+# Sus MAX path (SHORT_SUS_AT, generic); the tempo gates read the map before the phrase arcs (GATE_BPM_PRE_ARC, generic
+# default True), which gives the clarinets' 637 (96 bpm under the largamente apex hold) their re-tongue lead back
+SHORT_SUS_AT = {"Violins I": [259.5], "Violins II": [259.5]}
+# critic A #2 (test): brass accents peak 0.21 s (median) after the beat, as plain brass notes do (front - mid -1.3 dB):
+# the wind/string swell timing of c23 on the brass (db / soft_db, plain Sus, no accent sample, no CC11 bump unchanged)
+GENTLE_ACCENT = dict(GENTLE_ACCENT, brass=dict(GENTLE_ACCENT["brass"], swell_s=(0.03, 0.15, 0.40), swell_s_leg=(0.03, 0.22, 0.50)))
+# critic A #3: Oboe 1's falling whole steps E5 -> D5 (397.5, 582) and D5 -> C5 (90, 498, 538, 555.5) cross over 0.14-0.26 s
+# late, identical in c23 and c24 (the 582 end of the bar-146 dolce solo dips 8 dB)
+LEG_PAIR_EXTRA_S["Oboe 1"] = {**LEG_PAIR_EXTRA_S["Oboe 1"], (76, 74): 0.12, (74, 72): 0.10}
+# critic B #2: letter K (628), Violins I's printed down-bow G5 was merged into its slurred G5 eighth (SLUR_REP_MERGE_SUS),
+# so the melody's ff downbeat had no attack (7-9 dB under Violins II's stroke): a down-bow stroke as on Violins II, and
+# Violins II's stroke front 2.5 dB lower (it was +9.2 dB over its own ff median)
+DOWNBOW_STROKE_AT = dict(DOWNBOW_STROKE_AT, **{"Violins I": DOWNBOW_STROKE_AT["Violins I"] + [628.0]})
+LEVEL_SHAPES_S["Violins II"] = LEVEL_SHAPES_S.get("Violins II", []) + [(628.0, [(-0.02, 0.0), (0.03, -2.5), (0.35, -2.5), (0.6, 0.0)])]
+# critic B #3: recapitulation bars 136-139, Oboe 1 (unison) and Flute 1 (octave above) sat +1.7 / +2.9 dB (A, median)
+# over the Violins I theme they double (exposition twin -0.5): Flute 1's pickup lift 8 -> 4, -3 dB on Flute 1 553-557.2,
+# -2.5 dB on Oboe 1 542-547.8 (the 536-548 roles stay)
+PICKUP_LIFT["Flute 1"].update({552.5: 4.0})
+LEVEL_SHAPES["Flute 1"] = LEVEL_SHAPES["Flute 1"] + [[(552.85, 0.0), (553.0, -3.0), (557.2, -3.0), (557.45, 0.0)]]
+LEVEL_SHAPES["Oboe 1"] = LEVEL_SHAPES["Oboe 1"] + [[(541.7, 0.0), (541.95, -2.5), (547.8, -2.5), (548.1, 0.0)]]
+# critic C #2: the fff crash at bar 160 falls under the tutti's 4-12.5 kHz band 1.5 s after the stroke (-6.6 dB at +1.5 s,
+# -10.8 at +2.0 s): +3.4 dB at 638.0 and +5 dB from 638.5 over the c09 shape (C proposed +2.9/+4; simulated on c24 that
+# left -8.0 dB at +2.0 s against the 7 dB target; +3.4/+5 gives -1.9 / -7.0 at +1.5 / +2.0 s). Stroke, first 0.6 s and
+# the -4 dB dip that protects the 636.04 master peak unchanged
+LEVEL_SHAPES["Crash cymbals"] = [[(636.0, 0.0), (636.02, -4.0), (636.6, -4.0), (637.2, 0.0), (638.0, 6.5), (638.5, 10.0), (644.0, 11.0)]]
+# critic A #1 (build/accent_fits.json, hand values): the hemiola accents of bars 22-24 / 135-137 (every neighbour accented,
+# so fit_accents.py left them on the default mf swell, +1.7 dB): Clarinet 1 / Violoncellos 91, 94, 539, 542, 545 and
+# Bassoon 1 94, 97, 542, 545
+# critic B #1 / #4 (build/mix.json): Bass trombone dyn_trim f/ff/fff 3.9/6.3/4.7 -> 1.4/3.3/2.2; Horn 4 1.0/1.5/0.5 ->
+# 2.5/4.0/2.0
+# critic C #1 (test, build/mix.json, full rebuilds): width 0.05 on Horn 1-4, Trumpet 1, Cor anglais, Oboe 1, Clarinet 1
+# (the solo patches' spaced mic pairs give each harmonic under 1 kHz its own position at width 0.15-0.5), seats moved to
+# keep each track's measured 1.25-4 kHz image
+# ---------- c25 stem fix (level only, measured on the c25 render) ----------
+# ONE_TIME #1 follow-up: the breath-split pieces re-enter at their own sample level. Bass clarinet 11 (the ppp Lento
+# unison, -5 dB re master): the second piece swells to +2.7 dB over the first; Horn 4 289 (pp): a +3.5 dB bloom 1.4-2.0 s
+# into the second piece, then a 4 dB hole at the 299.5 re-entry (0.2 s frames, stems)
+LEVEL_SHAPES_S["Bass clarinet"] = LEVEL_SHAPES_S.get("Bass clarinet", []) + [(13.5, [(1.0, 0.0), (2.0, -2.5), (3.48, -2.5), (3.72, 0.0)])]
+LEVEL_SHAPES_S["Horn 4"] = LEVEL_SHAPES_S.get("Horn 4", []) + [(295.0, [(1.3, 0.0), (1.4, -3.5), (2.0, -3.5), (2.08, 0.0)]),
+                                                             (299.5, [(-0.02, 0.0), (0.02, 2.5), (0.2, 2.5), (0.35, 0.0)])]
+# critic A #2 follow-up: brass accents refit on c25 with the new swell timing (build/accent_fits.json; see its _doc)
+# critic A #3 follow-up (build/early_fills.json): Oboe 1 582 fill retimed (dip 6.1 dB at the new lead), 498 lowered 5.8 ->
+# 3.8 (its front now 9.7 dB over the previous body)
+# critic A #3 follow-up: with the pair-extra leads the transition sag of Oboe 1's D5 -> C5 targets falls on the beat
+# (stem, 60 ms frames): 90 a 7-8 dB hole over -0.06..+0.06 s (c24 none), 538 8 dB over -0.06..+0.12 s (c24 7 dB at +0.18):
+# exact fills
+LEVEL_SHAPES_S["Oboe 1"] = LEVEL_SHAPES_S.get("Oboe 1", []) + [
+    (90.0, [(-0.10, 0.0), (-0.05, 3.0), (0.0, 6.0), (0.08, 5.0), (0.14, 2.0), (0.20, 0.0)]),
+    (538.0, [(-0.10, 0.0), (-0.05, 3.0), (0.0, 6.5), (0.10, 6.0), (0.16, 3.0), (0.22, 0.0)])]

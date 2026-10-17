@@ -20,6 +20,11 @@ TARGET_I, KNEE_BELOW, RATIO, CAP_DB, SMOOTH_S = -19.5, 6.0, 2.5, 10.0, 3.0
 # simulation of the c08 changes 2.0 left bar 160 only 0.35 LU over bar 122 (1.6: 0.49, span 18.6 dB, limiter 1.3 dB)
 TOP_ABOVE, TOP_RATIO = -3.0, 1.6
 FAST_CAP_ABOVE = 4.0   # mvt1 c10 (critic C #1); None = off
+# mvt1 c22 (critic C #3): a cap read from momentary loudness (400 ms, the max over +-0.5 s): no momentary peak is lifted
+# above knee + MOM_CAP_ABOVE. The slow lift and FAST_CAP_ABOVE read short-term loudness (3 s), which a 0.3 s ff stab
+# barely moves, so a stab between soft bars took their lift (bar 33 the 4th-loudest moment of the c21 mp3, bar 41 over
+# the ff arrival at 117). None = off
+MOM_CAP_ABOVE, MOM_CAP_SMOOTH_S = 6.0, 0.5
 TAIL_DB, TAIL_S, FADE_S = -65.0, 1.0, 0.5
 LIMIT = "aresample=192000,alimiter=limit=0.841:attack=5:release=80:level=0:asc=1,aresample=48000"
 
@@ -30,6 +35,14 @@ def short_term(path):
                           "ebur128=metadata=1,ametadata=print:key=lavfi.r128.S:file=-", "-f", "null", "-"],
                          capture_output=True, text=True).stdout
     return np.array([float(v) for v in re.findall(r"lavfi\.r128\.S=(-?[\d.]+|-inf|nan)", out.replace("-inf", "-70"))])
+
+
+def momentary(path):
+    """EBU momentary loudness (400 ms window) at 10 Hz."""
+    out = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", path, "-af",
+                          "ebur128=metadata=1,ametadata=print:key=lavfi.r128.M:file=-", "-f", "null", "-"],
+                         capture_output=True, text=True).stdout
+    return np.array([float(v) for v in re.findall(r"lavfi\.r128\.M=(-?[\d.]+|-inf|nan)", out.replace("-inf", "-70"))])
 
 
 def integrated(path):
@@ -58,6 +71,13 @@ if FAST_CAP_ABOVE is not None:
     # (c09 delivered: bar 160 only 0.2 dB over bar 170 and 0.8 over bar 82 on momentary max; master 3.3 / 4.2 dB)
     fastcap = np.clip((knee + FAST_CAP_ABOVE - smooth(S, 1.0)) * (1 - 1 / RATIO), 0, CAP_DB)
     lift = smooth(np.minimum(lift, fastcap), 0.5)
+if MOM_CAP_ABOVE is not None:
+    Mo = np.nan_to_num(np.maximum(momentary(SRC), -70), nan=-70.0)
+    Mo = np.concatenate([Mo[2:], np.full(2, Mo[-1])])   # centre the 0.4 s window
+    Mo = np.concatenate([Mo, np.full(max(0, len(S) - len(Mo)), Mo[-1])])[:len(S)]
+    Mmax = np.lib.stride_tricks.sliding_window_view(np.pad(Mo, (5, 5), mode="edge"), 11).max(axis=1)   # +-0.5 s
+    mcap = np.clip(knee + MOM_CAP_ABOVE - Mmax, 0, CAP_DB)
+    lift = np.minimum(lift, smooth(np.minimum(lift, mcap), MOM_CAP_SMOOTH_S))
 gdb = lift - top
 gain = 10 ** (np.interp(np.arange(len(x)) / sr, np.arange(len(gdb)) / 10, gdb) / 20)
 y = x * (gain[:, None] if x.ndim > 1 else gain)

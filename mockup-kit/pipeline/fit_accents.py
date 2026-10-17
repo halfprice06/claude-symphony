@@ -57,13 +57,26 @@ ap.add_argument("--pickup-cap-over", type=float, default=5.0)
 ap.add_argument("--peak-long-qn", type=float, default=1.0)
 # mvt1 c17 (critic A #2): cap on swell + step trim per accent, by family (29 of 126 string fits totalled 6 dB or more)
 ap.add_argument("--max-total", type=float, default=None)
+# mvt1 c23 (critic A #1): measure every note's front, [min(moved onset, score onset - 0.03 s), score onset + FRONT_S],
+# instead of the body or the 200 ms peak (0 = off): accents should carry their weight at the start of the note
+ap.add_argument("--front-s", type=float, default=0.0)
+# mvt1 c24 (critic A #1): in --front-s mode, a slurred target whose previous note is a slur's short first note (a pickup
+# of --pickup-qn or less) is measured from its score onset + this many seconds: the front window of a pickup's target
+# falls in the legato transition sag, so the fit read 13 such accents as weak and drove them to the cap (0 = off)
+ap.add_argument("--front-pickup-s", type=float, default=0.10)
+# mvt1 c24 (critic A #1): after the iteration, an accent predicted more than LINE_MAX dB over its next two plain notes on
+# its track (each measured on [score onset, min(score onset + 0.30 s, next score onset)]) has its swell lowered by the
+# excess + 1 dB (not below 0); 0 = off. The c23 front-window refit left 7 wind and 19 string accents 6 dB or more over
+# the line after them (rule: 2-4 dB)
+ap.add_argument("--line-max", type=float, default=5.0)
 # mvt1 c17 (critic B #1): accents to leave as they are, "Track:q" (repeatable)
 ap.add_argument("--skip", action="append", default=[])
 ap.add_argument("--scratch", default=os.environ.get("TMPDIR", "/tmp"))
 ap.add_argument("--write", action="store_true")
 A = ap.parse_args()
 if A.max_total is None:
-    A.max_total = {"string": 4.5, "wind": 6.0, "brass": 6.0}.get(A.family, 6.0)
+    # mvt1 c24 (critic A #1): winds 6.0 -> 4.5 (39 wind fits sat at the 6 dB cap after the c23 front refit)
+    A.max_total = {"string": 4.5, "wind": 4.5, "brass": 6.0}.get(A.family, 6.0)
 SKIP = {(x.rsplit(":", 1)[0], round(float(x.rsplit(":", 1)[1]), 3)) for x in A.skip}
 sys.path.insert(0, f"{ROOT}/tools")
 from rendermap import shift_for   # noqa: E402
@@ -109,8 +122,18 @@ def windows(P, t):
     q2s, tempo = q2s_of(P)
     acc = {round(q, 3) for s in t["staves"] for q, k, v in EV[s] if k == "script" and v and v[0] == "accent"}
     slur0 = {round(q, 3) for s in t["staves"] for q, k, v in EV[s] if k == "slur" and v and v[0] == "-1"}
+    # mvt1 c24: onsets inside a slur after its first note (a slur's stop event sits at its last note's onset)
+    sl_ = sorted((q, v[0]) for s in t["staves"] for q, k, v in EV[s] if k == "slur" and v)
+    slurred, open_ = set(), None
+    for q_, v_ in sl_:
+        if v_ == "-1":
+            open_ = q_
+        elif open_ is not None:
+            slurred |= {round(n_["sq"], 3) for n_ in t["notes"] if open_ + 1e-3 < n_["sq"] <= q_ + 1e-3}
+            open_ = None
     art = arts_of(t)
     out = {}
+    prev_k = None
     for n in sorted(t["notes"], key=lambda n: n["sq"]):
         k = round(n["sq"], 3)
         if k in out:
@@ -127,7 +150,18 @@ def windows(P, t):
         if peak:
             ss = q2s(n["sq"])
             a, b = ss - 0.05, min(ss + 0.5, te - 0.02)
-        out[k] = dict(qn=n["qn"], a=a, b=b, qa=n["qn"] + 0.05 * bpm / 60, qb=n["qn"] + (b - ts) * bpm / 60, peak=peak,
+        qa = n["qn"] + 0.05 * bpm / 60
+        if A.front_s > 0:
+            # mvt1 c23 (critic A #1): every note (accents and neighbours) measured on its front only: from the earlier
+            # of its moved onset and the score onset - 0.03 s to the score onset + front_s (power mean, no peak search)
+            ss = q2s(n["sq"])
+            a, b, peak = min(ts, ss - 0.03), min(ss + A.front_s, te - 0.02), False
+            # mvt1 c24 (critic A #1): a pickup's slurred target: the window starts past the transition sag
+            if A.front_pickup_s > 0 and prev_k is not None and out[prev_k]["pickup"] and k in slurred \
+                    and out[prev_k]["qend"] >= n["sq"] - 0.1:
+                a, b = ss + A.front_pickup_s, min(ss + A.front_s + A.front_pickup_s, te - 0.02)
+            qa = n["qn"] + (a - ts) * bpm / 60
+        out[k] = dict(qn=n["qn"], a=a, b=b, qa=qa, qb=n["qn"] + (b - ts) * bpm / 60, peak=peak,
                       art=art(n), cc=lane(t["cc11"], n["qn"] + 0.02), acc=k in acc, ts=ts, te=te, ok=b - a >= 0.08,
                       # c08 (critic A #2): a slur's short first note plays the legato row's slow first-note layer
                       pickup=k in slur0 and n["qn"] + n["dur"] - n["sq"] <= A.pickup_qn + 0.1,
@@ -135,7 +169,9 @@ def windows(P, t):
                       arrival=any(h[2] == "cresc" and abs(h[1] - n["sq"]) < 0.3 for h in t.get("hairpins", [])),
                       # mvt1 c15 (critic A #5): a legato target moved more than 0.05 s early: its window starts on the
                       # transition peak, which the fit read as the accent (Violas 120: a -6 dB step, 9.7 dB under the pickup)
-                      legearly="Leg" in (art(n) or "") and q2s(n["sq"]) - ts > 0.05)
+                      legearly="Leg" in (art(n) or "") and q2s(n["sq"]) - ts > 0.05,
+                      ss=q2s(n["sq"]), bpm=bpm)
+        prev_k = k
     return out
 
 
@@ -228,6 +264,27 @@ def plan(P0, P1):
                 valid = w["art"] == W1[k]["art"] and all(W0[q]["art"] == W1[q]["art"] for q in nb)
                 r.update(over=round(over, 2), resid=round(over - e0, 2), env1=round(e1, 2),
                          pred=round(over - e0 + e1, 2), valid=valid)
+            # mvt1 c24 (critic A #1): the accent against its next two plain notes, each on [score onset, min(+0.30 s,
+            # next score onset)] (the --line-max guard)
+            if A.line_max > 0:
+                nxt = [q for q in on[j + 1:j + 6] if not W0[q]["acc"] and q in W1 and W0[q]["ok"]
+                       and abs(q - k) <= 2 * A.near][:2]
+
+                def lw(W_, q_):
+                    w_ = W_[q_]
+                    i_ = on.index(q_)
+                    e_ = min(w_["ss"] + 0.30, W_[on[i_ + 1]]["ss"] if i_ + 1 < len(on) and on[i_ + 1] in W_ else w_["te"])
+                    e_ = max(e_, w_["ss"] + 0.05)
+                    return w_["ss"], e_, dict(qa=w_["sq"], qb=w_["sq"] + (e_ - w_["ss"]) * w_["bpm"] / 60)
+                if nxt:
+                    a_, b_, wa_ = lw(W0, k)
+                    La = pm(p[int(a_ * sr):int(b_ * sr)])
+                    Ln_ = [pm(p[int(lw(W0, q)[0] * sr):int(lw(W0, q)[1] * sr)]) for q in nxt]
+                    on_ = La - pm([10 ** (v / 10) for v in Ln_])
+                    e0n = env_mean(t0, wa_) - np.mean([env_mean(t0, lw(W0, q)[2]) for q in nxt])
+                    e1n = env_mean(t1, lw(W1, k)[2]) - np.mean([env_mean(t1, lw(W1, q)[2]) for q in nxt])
+                    r.update(over_next=round(on_, 2), pred_next=round(on_ - e0n + e1n, 2),
+                             nvalid=w["art"] == W1[k]["art"] and all(W0[q]["art"] == W1[q]["art"] for q in nxt))
             # mvt1 c13 (critic A #2): the pickup term
             pk_ = on[j - 1] if j > 0 else None
             if A.pickup_over > 0 and pk_ is not None and not W0[pk_]["acc"] and pk_ in W1 \
@@ -368,6 +425,24 @@ for it in range(A.iters):
     if not moved:
         break
 
+# mvt1 c24 (critic A #1): the --line-max guard (one pass after the iteration)
+if A.line_max > 0:
+    P1 = build(fits)
+    rows = plan(P0, P1)
+    guarded = 0
+    for r in rows:
+        if (r["track"], round(r["q"], 3)) in SKIP or "pred_next" not in r or not r["nvalid"] or r["pred_next"] <= A.line_max:
+            continue
+        cur = fits.get(r["track"], {}).get(f"{r['q']:g}")
+        sw, tr = (cur if isinstance(cur, list) else [cur, 0.0]) if cur is not None else [default_swell(r["track"]), 0.0]
+        sw = max(0.0, sw - (r["pred_next"] - A.line_max + 1.0) / 0.85)
+        fits.setdefault(r["track"], {})[f"{r['q']:g}"] = [round(float(sw), 2), round(float(tr), 2)] \
+            if abs(tr) > 0.05 else round(float(sw), 2)
+        guarded += 1
+        print(f"line-max: {r['track']} {r['q']:g} predicted {r['pred_next']:+.1f} over its next notes -> swell {sw:.2f}",
+              file=sys.stderr)
+    print(f"line-max guard: {guarded} swells lowered", file=sys.stderr)
+
 P1 = build(fits)
 rows = plan(P0, P1)
 print("track          q        art (rendered -> new)        over  resid  pred   hf   fit")
@@ -376,6 +451,7 @@ for r in rows:
           f"{r.get('over', float('nan')):5.1f} {r.get('resid', float('nan')):5.1f} {r.get('pred', float('nan')):5.1f} "
           f"{'' if r['hf'] is None else r['hf']:>5}  {fits.get(r['track'], {}).get(format(r['q'], 'g'), '')}"
           f"{'' if 'ppred' not in r else '  pick ' + format(r['over_pick'], '+.1f') + ' -> ' + format(r['ppred'], '+.1f')}"
+          f"{'' if 'pred_next' not in r else '  next ' + format(r['over_next'], '+.1f') + ' -> ' + format(r['pred_next'], '+.1f')}"
           f"{'' if r.get('valid', True) else '  (articulation changed: not predicted)'}")
 pv = [r["pred"] for r in rows if "pred" in r and r["valid"]]
 pp_ = [r["ppred"] for r in rows if "ppred" in r and r["pvalid"]]

@@ -82,9 +82,11 @@ sf.write(f"{OUT}/00_Master.wav", total.astype(np.float32), sr0, subtype="FLOAT")
 print(f"master (float stem sum) peak {np.abs(total).max():.3f} -> {OUT}/00_Master.wav; changed stems: {len(changed)}")
 if APPLY:
     first = f"{ROOT}/cycles/c{N:02d}/render_first"
-    if not os.path.exists(first):
-        os.makedirs(first)
-        for f in glob.glob(f"{C}/*.wav"):
+    # mvt1 c22: keep only the originals this fix replaces (the master and the changed stems); copying every stem
+    # (about 4 GB) filled the internal disk in c22. A second fix adds the stems it changes that are not there yet
+    os.makedirs(first, exist_ok=True)
+    for f in [f"{C}/00_Master.wav"] + [glob.glob(f"{C}/[0-9][0-9]_{n}.wav")[0] for n in changed]:
+        if not os.path.exists(os.path.join(first, os.path.basename(f))):
             shutil.copy2(f, first)
     for name in changed:
         f = glob.glob(f"{C}/[0-9][0-9]_{name}.wav")[0]

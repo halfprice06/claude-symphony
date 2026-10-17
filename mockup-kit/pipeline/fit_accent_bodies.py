@@ -29,6 +29,8 @@ ap.add_argument("--front-min", type=float, default=2.0)
 ap.add_argument("--max-cut", type=float, default=4.0)
 ap.add_argument("--min-qn", type=float, default=1.0)
 ap.add_argument("--min-s", type=float, default=0.75)
+# mvt1 c23 (critic A #1): notes shorter than this many seconds use the short body window (0 = off)
+ap.add_argument("--short-s", type=float, default=0.8)
 ap.add_argument("--skip", action="append", default=[])
 ap.add_argument("--scratch", default=os.environ.get("TMPDIR", "/tmp"))
 ap.add_argument("--write", action="store_true")
@@ -105,6 +107,13 @@ def rows_for(P0, P1):
             if any(h[2] == "cresc" and (h[0] - 0.01 <= q <= h[1] + 0.01 or abs(h[1] - q) < 0.3) for h in hps):
                 continue
             fa, fb_, ba, bb = s0, s0 + 0.15, s0 + 0.45, min(s0 + 0.75, e - 0.05)
+            if A.short_s > 0 and e - s0 < A.short_s:
+                # mvt1 c23 (critic A #1): a short accented note (a 126 bpm quarter is 0.476 s) has its body at
+                # +0.28 s .. its played end - 0.03 s (score_to_parts ACCENT_BODY_S_SHORT ramps the cut in over 0.18-0.28 s)
+                pe = q2s(max(n["qn"] + n["dur"] for n in t0["notes"] if abs(n["sq"] - q) < 1e-3))
+                ba, bb = s0 + 0.28, min(e, pe) - 0.03
+                if bb - ba < 0.08:
+                    continue
             fb = lvl(p, sr, fa, fb_) - lvl(p, sr, ba, bb)
             e0 = env_db(t0, s2q(fa), s2q(fb_)) - env_db(t0, s2q(ba), s2q(bb))
             e1 = env_db(T1[t0["name"]], s2q(fa), s2q(fb_)) - env_db(T1[t0["name"]], s2q(ba), s2q(bb))

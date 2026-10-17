@@ -198,6 +198,43 @@ def load_articulations(inst, used):
                 f["active"] = True
 
 
+_CAP_PRINTED = set()
+
+
+def cap_release(inst, spec, name):
+    """mvt1 c21 (critic A #1): mix.json "sus_release_cap_ms" {"ms", "dyn": [...], "rows": [...]}: cap the AHDSR release
+    of the sustain sample groups of the listed rows (default "Sus MAX") whose name ends in one of the listed dynamics
+    (default mf/f/ff). A group belongs to a row when every region of its region map sits on that layerMatrix row.
+    Release-trail groups ("... RT"), legato transitions ("TLeg") and the soft layers keep their release. The Hollywood
+    Strings KS Masters ship 524-931 ms on the Sus MAX sustain groups (Celli mf/f/ff 524, Basses mf 700, Violas mf
+    394-653) against 100-237 ms on the legato rows, so rests and cut-offs on Sus MAX did not stop.
+    mvt1 c22 (critic A #4): optional "rt_ms" caps the release-trail ("RT") groups of the same rows and dynamics as well
+    (the Violas KS Master's Sus MAX RT groups ship 1660 ms, 1st Violins 1245-1741, Celli/Basses 131-166)."""
+    ms = float(spec["ms"])
+    dyns = set(spec.get("dyn", ["mf", "f", "ff"]))
+    rows = [r["name"] for r in inst["layerMatrix"]["rows"]]
+    want = {i for i, r in enumerate(rows) if r in spec.get("rows", ["Sus MAX"])}
+    hit = {}
+    for g in inst.get("groups", []):
+        regs = (g.get("regionMap") or {}).get("regions", [])
+        if g.get("type") == 3 or not regs or any(r_.get("row") not in want for r_ in regs):
+            continue
+        nm = g["name"].split(" rr")[0].split(" RR")[0].strip()
+        words = nm.split()
+        ms_ = ms
+        if words[-1] == "RT" and spec.get("rt_ms") is not None and len(words) >= 2 and words[-2] in dyns:
+            ms_ = float(spec["rt_ms"])   # mvt1 c22 (critic A #4): the release-trail groups of the listed dynamics too
+        elif "TLeg" in nm or words[-1] == "RT" or words[-1] not in dyns:
+            continue
+        for pr_ in (g.get("processors") or {}).get("processors", []):
+            if pr_.get("class") == "AHDSR" and pr_.get("release", 0) > ms_:
+                hit.setdefault(nm, set()).add(round(pr_["release"]))
+                pr_["release"] = ms_
+    if name not in _CAP_PRINTED:
+        _CAP_PRINTED.add(name)
+        print(f"{name}: release cap {ms:.0f} ms (RT {spec.get('rt_ms')}) on {sorted((k, sorted(v)) for k, v in hit.items())}", file=sys.stderr)
+
+
 def state_for(tr):
     inst = opus_state.load_oib(tr["patch"])
     if "articulations" in inst:
@@ -219,6 +256,8 @@ def state_for(tr):
                     pr_["release"] = rel_
         if isinstance(inst.get("envelope"), dict) and "releaseTime" in inst["envelope"]:
             inst["envelope"]["releaseTime"] = rel_
+    if m_.get("sus_release_cap_ms") is not None:
+        cap_release(inst, m_["sus_release_cap_ms"], tr["name"])
     _, perf, _ = opus_state.split(opus_state.TEMPLATE)
     perf["name"] = tr["name"]
     perf["zones"] = [{"class": "InstrumentZone", "keyMin": 0, "keyMax": 127, "velMin": 1, "velMax": 127,
