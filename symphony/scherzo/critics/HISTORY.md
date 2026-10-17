@@ -171,6 +171,10 @@ v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 render
 ## Batch checkpoint after cycle 166 (2026-10-17)
 v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle 167 reviews v167 (lens 7 texture).
 
+## Cycle 169 (lens 9 holistic, Adler part 2, second pass; Schubert 9/iii) v169 → v170
+- Accepted: low brass f (not ff) at 339 (Dan's rule; refines c128).
+- Do-not-touch: recolouring of theme A and T, timpani motive x, held-back low brass, 357–376.
+
 ## Cycle 168 (lens 8 expression, MOLA, second pass) v168 → v169
 - Accepted: printed peak dynamics at 217–221; hairpin targets at 207–208 and 329–331; Hn 4 mf at 128; Ob 1 accent at 334.
 - Do-not-touch: 357–376, coda build to fff at 336, soft brass at 339, theme A down-bow retakes.
