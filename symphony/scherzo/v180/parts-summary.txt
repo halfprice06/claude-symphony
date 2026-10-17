@@ -1,4 +1,4 @@
-parts: lilypond rc=0, warnings/errors: 1
+parts: lilypond rc=0, warnings/errors: 0
   parts-01-flute-1.pdf: 2 p.
   parts-02-flute-2.pdf: 1 p.
   parts-03-oboe-1.pdf: 2 p.

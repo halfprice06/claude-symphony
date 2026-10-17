@@ -1,5 +1,6 @@
 # v180 (cycle 179, lens 9 holistic, Adler part 2 ch. 16 transcription examples, second pass)
 Critic report: critics/reports/c179.md. Bars 205–208: Bsn 1 now crescendos with the violas it doubles (from 207), and Bsn 2 and the contrabassoon join on a low B pedal pp< at 207, so the build into T's return at 209 is made by entries as well as hairpins (Adler II PDF 201–202, 213). Bar 271: the crescendo on Vln II's single pizz. note is removed. Holistic verdict: no structural change recommended.
+Parts: the contrabassoon's timpani cue at 205 shortened to two bars, since it now plays from 207 (fixes the one parts warning).
 Checks: 0 warnings, 7 known parallels, 13 pages, themes 41/41, no C major, part lengths match.
 
 # v179 (cycle 178, lens 8 expression, Adler ch. 7 woodwind articulation and dynamics by register, second pass)

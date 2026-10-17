@@ -178,7 +178,7 @@ partGlobal = \partGlobalOf \global
   \header { instrument = "Contrabassoon" }
   \score {
     \new Staff = "part" \with { \audit "11-contrabassoon" midiInstrument = "bassoon" instrumentTransposition = #(ly:make-pitch -1 0 0) }
-      << \clef bass \transpose c c' \partGlobal \transpose c c' \partCues #`(("cueVc" "Vc." ,UP 41 4) ("cueTimp" "Timp." ,UP 205 4) ("cueVc" "Vc." ,UP 277 4)) \partClean \cbsn >>
+      << \clef bass \transpose c c' \partGlobal \transpose c c' \partCues #`(("cueVc" "Vc." ,UP 41 4) ("cueTimp" "Timp." ,UP 205 2) ("cueVc" "Vc." ,UP 277 4)) \partClean \cbsn >>
     \layout {   }
   }
 }
