@@ -813,3 +813,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 195 (v195 → v196), lens 5 engraving (Gould ch. 1 beams, second pass) + parts layout
 - Accepted: flat rests at 128-142 in global.ily (closes the cor anglais compression); bass clarinet part on two facing pages; cor anglais break before 205; percussion tempo marks spaced; Tpt 1·3 padding; Fl 1 beam slope at 222.
 - Do-not-touch: 16-page score layout and score-only breaks; 216-223; 223-234; 259-263; 273-279.
+
+## Cycle 196 (v196 → v197), lens 6 playability (Adler ch. 3, second pass)
+- No score change.
+- Do-not-touch: 110-113 low octave; 91-94 viola double stops; 144-150 double stops; bars 2 and 6.
