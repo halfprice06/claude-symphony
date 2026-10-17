@@ -174,6 +174,10 @@ v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 176 (2026-10-17)
 v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle 177 reviews v177 (lens 7 texture).
 
+## Cycle 179 (lens 9 holistic, Adler part 2 ch. 16, second pass) v179 → v180
+- Accepted: Bsn 1 crescendo with the violas at 207; Bsn 2 and Cbsn B pedal pp< at 207–208; no hairpin on the single pizz. note at 271 (Vln II).
+- Kept: form and proportions; no structural change.
+
 ## Cycle 178 (lens 8 expression, Adler ch. 7, second pass) v178 → v179
 - Accepted: swell on the held peak note of T's second phrase at 158, 174, 214, 346, with hidden end dynamics; "dolce" on the codetta solos 225/229/233.
 
