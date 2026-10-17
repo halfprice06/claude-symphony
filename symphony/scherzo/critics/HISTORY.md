@@ -171,6 +171,11 @@ v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 render
 ## Batch checkpoint after cycle 166 (2026-10-17)
 v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle 167 reviews v167 (lens 7 texture).
 
+## Cycle 170 (lens 10 cyclic, Aldwell & Schachter Unit 23, second pass) v170 → v171
+- Accepted: harp B♯ spelling at 188 with pedal marks; records to finale v193.
+- Kept: 352 C♯; 199–200 inner B→B♯ (c070).
+- Do-not-touch: G♯ = A♭ frame, 237–245 G♯–G–F♯, codetta IV IV iv, ♮6–♭6–5 close 357–360, both muta labels.
+
 ## Cycle 169 (lens 9 holistic, Adler part 2, second pass; Schubert 9/iii) v169 → v170
 - Accepted: low brass f (not ff) at 339 (Dan's rule; refines c128).
 - Do-not-touch: recolouring of theme A and T, timpani motive x, held-back low brass, 357–376.
