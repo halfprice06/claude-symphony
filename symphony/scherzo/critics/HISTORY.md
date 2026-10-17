@@ -177,6 +177,10 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Cycle 192 (lens 2 harmony, A&S Units 9–10, second pass) v192 → v193
+- Accepted: Vc fis2. at 181 (real cadential 6/4); harp RH <fis' ais' cis''> / LH fis, at 192.
+- Kept: 4, 221/353–355, 76–77/83–84, 128–129, 26–27, 151, 335–336.
+
 ## Cycle 191 (lens 1 melody, Rimsky-Korsakov ch. II strings, second pass) v191 → v192 (no change)
 - Kept: 349–356, 15–16/31–32, 113–116, coda hand-overs of T, 209.
 
