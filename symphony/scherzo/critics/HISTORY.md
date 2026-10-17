@@ -171,6 +171,10 @@ v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 render
 ## Batch checkpoint after cycle 166 (2026-10-17)
 v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle 167 reviews v167 (lens 7 texture).
 
+## Cycle 174 (lens 4 orchestration, Casanelles ch. 6, second pass) v174 → v175
+- Accepted: harp bass with the basses at 151, 214–215; fifth in the 223–224 chord; horns mf at 129/285; violas ppp at 349.
+- Do-not-touch: 73–88, trio layering 153–240, coda build and fff/B6 at 336, 357–376.
+
 ## Cycle 173 (lens 3 form, Aldwell & Schachter Unit 15, second pass) v173 → v174
 - No change; key plan matches Unit 15. Five points tested and kept.
 
