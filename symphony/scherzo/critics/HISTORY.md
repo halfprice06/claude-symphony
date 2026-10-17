@@ -177,6 +177,10 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Cycle 199 (lens 9 holistic, Casanelles ch. 6, second pass) v199 → v200
+- Accepted: horns stay ff at 335–338 (no brass fff).
+- Kept: 72/300, 29–34, 197–198, 111/311, 341–344; four-bar phrasing.
+
 ## Cycle 198 (lens 8 expression, A&S Unit 21, second pass) v198 → v199
 - Accepted: cello swell on the 9–8 at 110–111/310–311 (hidden end dynamics).
 - Rejected: Hn 1 diminuendo at 216 (adds two pages).
