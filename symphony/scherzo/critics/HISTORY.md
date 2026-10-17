@@ -174,6 +174,10 @@ v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 176 (2026-10-17)
 v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle 177 reviews v177 (lens 7 texture).
 
+## Cycle 182 (lens 2 harmony, A&S Unit 5, second pass) v182 → v183
+- Accepted: violas 201 e'4 a'2; Hn 1 48 g'2.; Cl 1 125–126/281–282 c''2 a'4~ a'2.; Vc and Bsn 2 216 fis2 b,4 (no doubled D♯); violas 229–232 G♯3 (third in the codetta chord).
+- Do-not-touch: 357–360, hemiola cadences, V♭9 at 126, 361–376.
+
 ## Cycle 181 (lens 1 melody, A&S Unit 20, second pass) v181 → v182
 - Accepted: Fl 1 at 263 steps down to E6 before C6 instead of leaping a diminished fifth from F♯6.
 - Kept: G♯3 at 172/212, 326–328, Hn 1 115–116/315–316, second-idea lead-in, 73–88 lines; themes need no change.
