@@ -168,6 +168,9 @@ v138–v147 promoted (cycles 137–146); added to checkpoint PR #21. Four cycles
 ## Batch checkpoint after cycle 156 (2026-10-16)
 v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 rendered with r07 for Dan. Next: cycle 157 reviews v157 (lens 7 texture).
 
+## Batch checkpoint after cycle 166 (2026-10-17)
+v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle 167 reviews v167 (lens 7 texture).
+
 ## Cycle 166 (lens 6 playability, Rimsky-Korsakov ch. I, second pass) v166 → v167
 - Accepted: stepwise climb to B6 at 335 (Vln I, Fl 1); Hn 4 relieves Hn 3 at 121–128.
 - Kept: Vln I G6/A6 at 46/50, low harp at 341–344, Cbsn octave at 213–222.
