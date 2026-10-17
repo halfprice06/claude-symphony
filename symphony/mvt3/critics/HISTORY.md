@@ -774,3 +774,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 186 (v186 → v187), lens 6 playability, coda (Adler ch. 2, second pass)
 - Accepted: bowings 247-254 (accents on down-bows); Hn 3·4 breaths after 250 and 256.
 - Do-not-touch: horn call 243-246; flute breaths 255-264; final chord 278-279.
+
+## Cycle 187 (v187 → v188), lens 7 texture (Rimsky ch. II, second pass)
+- Accepted: bass clarinet doubles the basses at 27-34; Ob 2 a2 at 19-26; Cl 2 with the violas at 110-113; Bn 1 with the violas at 99-100; score-only breaks at 128, 144, 158.
+- Note for finale.md: bars 1-26 changed (Ob 2 doubling at 19-26); tell the scherzo thread at batch end.
+- Do-not-touch: 11-18; 77-82; 83-86; 87-90; lament 107-109; bassoon solo; stretto.
