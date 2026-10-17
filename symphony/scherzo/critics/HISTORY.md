@@ -171,6 +171,10 @@ v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 render
 ## Batch checkpoint after cycle 166 (2026-10-17)
 v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle 167 reviews v167 (lens 7 texture).
 
+## Cycle 175 (lens 5 engraving, Adler ch. 2, second pass) v175 → v176
+- Accepted: non div. at 72/300; pizz.→arco time at 271; unis./div. at 352–354; up-bow at 358 (Vc/Cb); no dots on viola pizz. 253–271 (supersedes c018).
+- Do-not-touch: bow signs at 300 and 333–339, hemiola bowing, louré trio violas, 369.
+
 ## Cycle 174 (lens 4 orchestration, Casanelles ch. 6, second pass) v174 → v175
 - Accepted: harp bass with the basses at 151, 214–215; fifth in the 223–224 chord; horns mf at 129/285; violas ppp at 349.
 - Do-not-touch: 73–88, trio layering 153–240, coda build and fff/B6 at 336, 357–376.
