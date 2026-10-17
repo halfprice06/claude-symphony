@@ -801,3 +801,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: Ob 2 C5 (was A♭4) on beats 3-4 of 160, removing parallel 5ths with the tune's upper octave into 161 (iv7→V).
 - Kept: inner 5ths at 15→16 and 155→156 (passing eighth); 198→199 horn climb into the quotation; cadential 6/4s at 151, 220, 243-244.
 - Do-not-touch: 151-166 scoring and tune; 259-263 cadence; 222→223; both chorale top lines.
+
+## Cycle 193 (v193 → v194), lens 3 form (A&S Unit 26, second pass)
+- No score change.
+- Do-not-touch: key plan III–iv–v/V; recapitulation over the dominant at 151; F2 in A♭ at 171-198; tempi 211-246; rehearsal letters.
