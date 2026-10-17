@@ -174,6 +174,9 @@ v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 176 (2026-10-17)
 v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle 177 reviews v177 (lens 7 texture).
 
+## Cycle 185 (lens 5 engraving, Gould ch. 1, second pass) v185 → v186 (no change)
+- Kept: stems.ily and the beam callback (beamed stems are 2.56 spaces), clefs at 286, 331, 341–345, harp ledger lines 153–168.
+
 ## Cycle 184 (lens 4 orchestration, Rimsky-Korsakov ch. I/III, second pass) v184 → v185
 - Accepted: Hn 2 A3 at 49–52 (supersedes c094/c119 E3); oboes F♯5/D♯5 at 101–104/301–304; Cbsn B1 at 221–222; Cl 1 A4 / Cl 2 F♯4 at 251–252.
 - Kept: clarinet tritones at 336–338 and 101/103, bassoon spacing 37–39, doublings at 87/259, 105–118 middle.
