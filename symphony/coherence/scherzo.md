@@ -1,7 +1,7 @@
 # Scherzo (movement III) current state for the other movements
 
 Owner: the scherzo thread ("Continue movement 3 loop" since 2026-10-16). Only the scherzo thread edits this file. Updated 2026-10-16.
-Current version: symphony/scherzo/v167 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pages; rehearsal letters added at 169, 225, 277, 357 in v46). Bar numbers below are v24. History: v03 392 bars; v04 cut 8 trio bars (bars after 196 −8); v24 cut 4 retransition bars (v23 245–328 → −4) and 4 bars of the reprise close (v23 333–384 → −8).
+Current version: symphony/scherzo/v171 (376 bars, 3/4, about 4:36 MIDI, 13 A3 pages; rehearsal letters added at 169, 225, 277, 357 in v46). Bar numbers below are v24. History: v03 392 bars; v04 cut 8 trio bars (bars after 196 −8); v24 cut 4 retransition bars (v23 245–328 → −4) and 4 bars of the reprise close (v23 333–384 → −8).
 
 ## Opening (bars 1–12, Allegro vivace, dotted minim = 88)
 - Bars 1–2: Hn 1 alone, G♯4 pp, fermata on bar 2 since v21 (about 2.7 s) (movement II's A♭ respelt). Vc/Cb pizz. E and timpani E at 3 (answering movement II's last timpani A♭ a major third lower).
@@ -37,7 +37,7 @@ Not locked (Dan, 2026-10-12): they may evolve. Current exact notes in themes-sch
 ## Scoring rules kept for the finale (cyclic rules)
 No C-major key or triad; trumpets only in tutti rhythm or motive x (Tpt 3 tacet); no string tremolo, cymbals, bass drum, high horn unison, tuba melody, brass chorale, full low-brass unison bass; violins at most B6 (once, bar 336).
 
-## What the finale relies on (checked against finale v182 at scherzo c160, 2026-10-16: bar 1 Hn 1 A♭4, Vln I C5/A♭5, timpani label G, A♭, C, E♭ from E, G, B, E; 143–145 timpani g,4 g,8 g,8 g,4; 273–275 Hn 1 G–F♯–F–E; 275–276 theme A's head in C; no quotation changed in finale cycles 121–181 (record 36/36); in 199–279 only coda scoring changed (205–211, 222, 229, 255–257), none of it in 219–220 or 273–276; finale v191 (checked against scherzo v167 records, finale thread): bars 1–8 unchanged since v160; no quotation changed in finale cycles 121–190); tell the finale thread before changing any of these
+## What the finale relies on (checked against finale v182 at scherzo c160, 2026-10-16: bar 1 Hn 1 A♭4, Vln I C5/A♭5, timpani label G, A♭, C, E♭ from E, G, B, E; 143–145 timpani g,4 g,8 g,8 g,4; 273–275 Hn 1 G–F♯–F–E; 275–276 theme A's head in C; no quotation changed in finale cycles 121–181 (record 36/36); in 199–279 only coda scoring changed (205–211, 222, 229, 255–257), none of it in 219–220 or 273–276; finale v191 (checked against scherzo v167 records, finale thread): bars 1–8 unchanged since v160; no quotation changed in finale cycles 121–190; scherzo c170 checked finale v193: intro identical to v191, bar 1 and timpani label unchanged, record 36/36); tell the finale thread before changing any of these
 - The last G♯ in Hn 1 (G♯4) and Vln I (G♯5): the finale continues it as A♭ in the same players and pitch.
 - The final timpani tuning E, G, B, E (finale label: retune E → G, G → A♭, B → C, E → E♭).
 - Theme A's first two bars (E–B–B–E | G–F♯–F–E, crotchet, two quavers, crotchet | minim, two quavers): quoted in C major at finale 275–276 (finale v30).
