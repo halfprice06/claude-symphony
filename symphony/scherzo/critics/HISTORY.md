@@ -174,6 +174,10 @@ v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 176 (2026-10-17)
 v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle 177 reviews v177 (lens 7 texture).
 
+## Cycle 181 (lens 1 melody, A&S Unit 20, second pass) v181 → v182
+- Accepted: Fl 1 at 263 steps down to E6 before C6 instead of leaping a diminished fifth from F♯6.
+- Kept: G♯3 at 172/212, 326–328, Hn 1 115–116/315–316, second-idea lead-in, 73–88 lines; themes need no change.
+
 ## Cycle 180 (lens 10 cyclic, A&S Unit 28, second pass) v180 → v181
 - Accepted: Cl 2 F3 at 86 doubling Hn 4, falling to D♯3 at 87 (the Neapolitan note descends; Hn 4's F→F♯ kept).
 - Checked: links II v201 → bar 1 and scherzo end → finale v201 bar 1 match; finale record 36/36; no theme change.
