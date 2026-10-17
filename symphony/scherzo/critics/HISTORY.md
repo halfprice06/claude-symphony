@@ -174,6 +174,9 @@ v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 176 (2026-10-17)
 v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle 177 reviews v177 (lens 7 texture).
 
+## Cycle 178 (lens 8 expression, Adler ch. 7, second pass) v178 → v179
+- Accepted: swell on the held peak note of T's second phrase at 158, 174, 214, 346, with hidden end dynamics; "dolce" on the codetta solos 225/229/233.
+
 ## Cycle 177 (lens 7 texture, Adler ch. 8, second pass) v177 → v178
 - Accepted: violas double Vln I's top line A4–C5–B4 at 201–203 instead of a fourth E4/D♯4 (Adler PDF 255, 257, 270).
 - Kept: wind imitation candidates (protected or colliding, 270–271), codetta 225–236, tutti viola voicing 108–118/308–318, 13–28 accompaniment.
