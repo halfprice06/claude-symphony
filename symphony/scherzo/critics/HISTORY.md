@@ -171,6 +171,10 @@ v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 render
 ## Batch checkpoint after cycle 166 (2026-10-17)
 v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle 167 reviews v167 (lens 7 texture).
 
+## Cycle 172 (lens 2 harmony, Aldwell & Schachter Unit 27, second pass) v172 → v173
+- Accepted: cluster at 55 removed (as c139); Hn 1 doubles Vln II at 196; violas F♯3 at 205–208.
+- Kept: 9–8 at 200, ♭9 at 111/311 (c112), plain V7 at 101–104/301–304, codetta tonic (c082).
+
 ## Cycle 171 (lens 1 melody, Aldwell & Schachter Unit 3, second pass) v171 → v172
 - No change. Kept: flute register at 113–116/313–316 (B6 limit; c025, c036, c078, c124).
 
