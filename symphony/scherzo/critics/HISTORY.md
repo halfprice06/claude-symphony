@@ -177,6 +177,10 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Cycle 189 (lens 9 holistic, A&S Units 20–32 literature examples, second pass) v189 → v190
+- Accepted: Ob 2 e''4 at 105/305; tenor countermelody g2( e'4~ at 117/317; Hn 1 c''4-- r4 a'4-. at 113/313.
+- Kept: form and scoring; no structural change.
+
 ## Cycle 188 (lens 8 expression, Adler ch. 10, second pass) v188 → v189
 - Accepted: slur + tenuto on held brass at 101–104/301–304, horns 331–335 and 336–338, low brass 333–335; Tbn 1·2 tenuto at 120.
 - Kept: horn ff→pp at 72, staccato horns in motive x 71/299, no mutes, last horn G♯, coda horn trio tune without hairpin.
