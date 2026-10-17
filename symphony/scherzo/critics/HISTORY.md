@@ -174,6 +174,10 @@ v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 176 (2026-10-17)
 v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle 177 reviews v177 (lens 7 texture).
 
+## Cycle 177 (lens 7 texture, Adler ch. 8, second pass) v177 → v178
+- Accepted: violas double Vln I's top line A4–C5–B4 at 201–203 instead of a fourth E4/D♯4 (Adler PDF 255, 257, 270).
+- Kept: wind imitation candidates (protected or colliding, 270–271), codetta 225–236, tutti viola voicing 108–118/308–318, 13–28 accompaniment.
+
 ## Cycle 176 (lens 6 playability, Sebesky ch. 2 Wind instruments, second pass) v176 → v177
 - Accepted: Cl 1 \breathe at T's half cadence, bars 160 and 216 (Sebesky PDF 24, 70).
 - Kept after testing: horn staccato in motive x 71/299 (Dvořák 9/iii does the same), Hn 1 G♯5 72–73, Ob 1 low E4 staccato 132/288, Hn 4 pedal 305–320, bass trombone + tuba root 333–344, cor anglais/Cl 2 inside the brass chord 336, woodwind seconds 101–106/336.
