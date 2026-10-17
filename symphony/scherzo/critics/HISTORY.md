@@ -174,6 +174,10 @@ v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 176 (2026-10-17)
 v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle 177 reviews v177 (lens 7 texture).
 
+## Cycle 186 (lens 6 playability, Adler ch. 2, second pass) v186 → v187
+- Accepted: "non div." on the 339 chords (Vln II, Vla, Vc).
+- Kept: viola triple stop 339, 223–224 bowing, spiccato double stops 105–120/305–320, 369–376 bowing, 375.
+
 ## Cycle 185 (lens 5 engraving, Gould ch. 1, second pass) v185 → v186 (no change)
 - Kept: stems.ily and the beam callback (beamed stems are 2.56 spaces), clefs at 286, 331, 341–345, harp ledger lines 153–168.
 
