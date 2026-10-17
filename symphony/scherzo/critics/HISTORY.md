@@ -174,6 +174,10 @@ v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 176 (2026-10-17)
 v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle 177 reviews v177 (lens 7 texture).
 
+## Cycle 180 (lens 10 cyclic, A&S Unit 28, second pass) v180 → v181
+- Accepted: Cl 2 F3 at 86 doubling Hn 4, falling to D♯3 at 87 (the Neapolitan note descends; Hn 4's F→F♯ kept).
+- Checked: links II v201 → bar 1 and scherzo end → finale v201 bar 1 match; finale record 36/36; no theme change.
+
 ## Cycle 179 (lens 9 holistic, Adler part 2 ch. 16, second pass) v179 → v180
 - Accepted: Bsn 1 crescendo with the violas at 207; Bsn 2 and Cbsn B pedal pp< at 207–208; no hairpin on the single pizz. note at 271 (Vln II).
 - Kept: form and proportions; no structural change.
