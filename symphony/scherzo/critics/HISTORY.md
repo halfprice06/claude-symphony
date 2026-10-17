@@ -177,6 +177,10 @@ v168–v177 promoted (cycles 167–176); added to checkpoint PR #21. Next: cycle
 ## Batch checkpoint after cycle 186 (2026-10-17)
 v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle 187 reviews v187 (lens 7 texture).
 
+## Cycle 190 (lens 10 cyclic, Adler part 2 ch. 17, second pass) v190 → v191
+- Accepted: Bsn 1·2 hold E4/B3 at 145–148 instead of the clarinets (Cl 1 rests 137–152 before the trio tune).
+- Checked: joins with II v201 and finale v201 unchanged; finale quotations unchanged since scherzo v171.
+
 ## Cycle 189 (lens 9 holistic, A&S Units 20–32 literature examples, second pass) v189 → v190
 - Accepted: Ob 2 e''4 at 105/305; tenor countermelody g2( e'4~ at 117/317; Hn 1 c''4-- r4 a'4-. at 113/313.
 - Kept: form and scoring; no structural change.
