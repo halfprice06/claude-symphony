@@ -171,6 +171,9 @@ v148–v157 promoted (cycles 147–156); added to checkpoint PR #21; v153 render
 ## Batch checkpoint after cycle 166 (2026-10-17)
 v158–v167 promoted (cycles 157–166); added to checkpoint PR #21. Next: cycle 167 reviews v167 (lens 7 texture).
 
+## Cycle 173 (lens 3 form, Aldwell & Schachter Unit 15, second pass) v173 → v174
+- No change; key plan matches Unit 15. Five points tested and kept.
+
 ## Cycle 172 (lens 2 harmony, Aldwell & Schachter Unit 27, second pass) v172 → v173
 - Accepted: cluster at 55 removed (as c139); Hn 1 doubles Vln II at 196; violas F♯3 at 205–208.
 - Kept: 9–8 at 200, ♭9 at 111/311 (c112), plain V7 at 101–104/301–304, codetta tonic (c082).
