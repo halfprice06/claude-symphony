@@ -1760,3 +1760,9 @@ lens 3, form; Rimsky-Korsakov ch. IV (PDF 115-136). Report: reports/c273.md.
 - Accepted: 1. C.a. p at 32–34; 2. viola part title block and 47–48 texts; 3. Fl "1." at 63.
 - Open: viola part texts at 53, 78 (cosmetic).
 - Do-not-touch: woodwind register and breath plan; 87–92 clarinet hand-over; standing list; 8-page layout.
+
+
+
+### Cycle 277 (texture, Adler ch. 16) — v278
+- Accepted: 1. viola triplets at 57–58 off Hn 1's counter-line notes.
+- Do-not-touch: build order 53–61; viola sextuplets 59–60; c060 Bsn 2 at 72; c021 thin texture 37–40; standing list; 8-page layout.
