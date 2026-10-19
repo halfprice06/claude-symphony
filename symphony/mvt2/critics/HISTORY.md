@@ -1692,3 +1692,10 @@ lens 3, form; A&S Unit 32 (PDF 584-606). Report: reports/c263.md.
 ### Cycle 266 (playability, Adler ch. 4 harp) — v267
 - Accepted: 1. harmonics L.H. at 83; 2. harp pickup pp at 82 b3.
 - Do-not-touch: harp pedal plan; harmonics 82–88; c116 at-pitch pickup; standing list; 8-page layout.
+
+
+
+### Cycle 267 (texture, Adler ch. 17) — v268
+- Accepted: 1–2. viola figures at 41–42 kept off the cor anglais's notes.
+- Open: viola part padding is now 0.1; next engraving cycle should check its text and spacing by eye.
+- Do-not-touch: horn solo 7–14; A′ viola figure 71–78; standing list; 8-page layout.
