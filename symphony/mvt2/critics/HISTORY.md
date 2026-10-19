@@ -1407,3 +1407,12 @@ Lens 5 engraving (MOLA Ex. 1–7, PDF 9–12). Report: reports/c225.md.
 - Accepted: 1. tempo words beside letters in parts; 2. boxed letters in parts; 3. Cl 1 rest 71–76 as one number; 4. Cb text at 2.
 - Open: 5. viola part "rit." at 89 placement (test "lower half sul C" below the staff in the part; else consider a turn at 31–36) — for cycle 235.
 - Do-not-touch: parts letter/tempo layout; standing list; the 8-page layout.
+
+
+## Cycle 226 (v226 → v227)
+Lens 6 playability (Adler part 1 ch. 7, PDF 208–232). Report: reports/c226.md.
+- Accepted: 1. Cl 2 niente entry at 89 (PDF 211).
+- Closed: c126's B.cl. "slur over the break 35–36" (no longer crosses the break).
+- Recorded (no change): B.cl. low C at 8; clarinet break crossings; bassoon/contrabassoon registers.
+- Open: viola part "rit." at 89 (from c225, for cycle 235).
+- Do-not-touch: woodwind register plan; breath plan; Cl 1 niente at 85 and the 87–92 hand-over; standing list; the 8-page layout.
