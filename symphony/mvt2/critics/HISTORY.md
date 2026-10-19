@@ -1302,3 +1302,11 @@ Lens 2 harmony (A&S Unit 7, PDF 106–120). Report: reports/c212.md.
 - Recorded (no change): root-position I at 9, 25, 73; 53–54 bass; viola C4 at 42, 58; 6/3 placement.
 - Open: none.
 - Do-not-touch: harp figure at 53; root-position tonic after the motto tail; standing list; the 8-page layout.
+
+
+## Cycle 213 (v213 → v214)
+Lens 3 form (Rimsky-Korsakov ch. IV, PDF 124–128). Report: reports/c213.md.
+- Accepted: nothing (v214 = v213 relabelled).
+- Recorded (no change): 35–36; 83; 62–63; reprise vs Dvořák 9/ii; 43.
+- Open: none.
+- Do-not-touch: phrase hand-offs 22, 36–37, 47, 52–53, 89; builds 57–61, 75–79; releases 63–67, 80–83; standing list; the 8-page layout.
