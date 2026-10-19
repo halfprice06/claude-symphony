@@ -1217,3 +1217,12 @@ Lens 2 harmony (A&S Unit 4, PDF 58–73; the unit has no spacing/doubling rules,
 - Recorded (no change): seventh resolutions; 6/4s at 5 and 68; minor-major sevenths 46, 64; bars 19–20, 41, 51, 57, 59–60, 74–75.
 - Open: none.
 - Do-not-touch: Vln II A5 at 49; standing list; the 8-page layout.
+
+
+## Cycle 203 (v203 → v204)
+Lens 3 form (A&S Unit 25, PDF 418–441). Report: reports/c203.md.
+- Accepted: nothing (v204 = v203 relabelled).
+- Rejected: Bsn 1 G♭3 at 36 b3 (A♭7 into D♭ at 37 is the V7/D♭ join cycle 20 removed; one beat is still a dominant seventh into the new key).
+- Recorded (no change): cadence hierarchy; deceptive cadence 77–78; 86 apparent applied chord; 15–22; key-area entries.
+- Open: none.
+- Do-not-touch: no seventh on the A♭ chord at 31–36 (c020, c203); standing list; the 8-page layout.
