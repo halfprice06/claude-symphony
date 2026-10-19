@@ -180,6 +180,36 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 209 (lens 9 holistic, Rimsky-Korsakov examples No. 1-60 (rimsky-principles PDF 173-240) (third pass)) v209 → v210
+- No change (Bruckner 9/ii comparison; v199→v209 nothing worse).
+
+## Cycle 208 (lens 8 expression, Rimsky-Korsakov ch. IV sf-p chords, crescendo and diminuendo (rimsky-principles PDF 129-136) (third pass)) v208 → v209
+- Accepted: Hn 1·2 out at 224 (Rimsky PDF 130); Hn 3 pp at 277 (PDF 136); Cl 2 fade at 227–228.
+
+## Cycle 207 (lens 7 texture, Adler ch. 5 foreground, middleground, background; strings as accompaniment (adler1 PDF 132-167) (third pass)) v207 → v208
+- Accepted: violas F♯3 at 40 (string order, Adler PDF 135, 151).
+- Kept: viola off-beats 113–118/309–318; strings-only reprise fugato.
+
+## Cycle 206 (lens 6 playability, Adler ch. 4 Plucked Strings: harp and pedalling (adler1 PDF 110-124) (third pass)) v206 → v207
+- Accepted: harp LH rest at 189 (B pedal change after B♯3 at 188, Adler PDF 111–113); ♮ printed in the pedal settings at 1, 73, 141, 333 (PDF 112).
+
+## Cycle 205 (lens 5 engraving, Gould ch. 1: ledger lines, octave signs, rests (gould-behind-bars PDF 41-52) (third pass)) v205 → v206
+- Accepted: Ob 2 rests level at 105/305 (Gould PDF 49–51).
+
+## Cycle 204 (lens 4 orchestration, Rimsky-Korsakov appendix of single tutti chords (rimsky-principles PDF 505-510) and the tutti examples cited in ch. IV (third pass)) v204 → v205
+- Accepted: \partCombineChords at 339 so the score keeps Tbn 2's B2 (Rimsky PDF 101, 505–507).
+- Note: \partCombine can drop a note after shared multi-bar rests; critics should compare shared staves with the parts.
+
+## Cycle 203 (lens 3 form, Aldwell & Schachter Unit 32 Chromaticism in Larger Contexts (aldwell-schachter PDF 584-606) (third pass)) v203 → v204
+- No change (form confirmed against A&S PDF 584–606). Kept: cut at 339–341; joins 72–73, 141–153; reprise without the F episode.
+
+## Cycle 202 (lens 2 harmony, Aldwell & Schachter Units 11-13 VI and IV6; supertonic and subdominant sevenths; other uses of IV and VI (aldwell-schachter PDF 163-210) (third pass)) v202 → v203
+- Accepted: Hn 1 A4 (was C5) on beat 3 of 110/310, removing fifths with the tune (A&S PDF 190).
+- Do-not-touch (critic): plagal close 357–360; tenor 9–8 at 110–111/310–311; held E ii7–ii6/5 into the 6/4 at 219–221/351–353; voice exchange 313–315; F-episode harmony 81–84; hemiola cadences.
+
+## Cycle 201 (lens 1 melody, Rimsky-Korsakov ch. II Melody: woodwind, brass, combined groups (rimsky-principles PDF 64-80) and the examples it cites (third pass)) v201 → v202
+- No change (melody confirmed against Rimsky-Korsakov PDF 64–80). Title "draft v202" (third series started from release copy v201).
+
 ## Cycle 200 (lens 10 cyclic, release check, second pass) v200 → v201 (release copy)
 - Accepted: title without "draft" (v201, 17 October 2026); parts title matches the score; coda.ily comment on current brass dynamics.
 - Checked: cyclic rules, do-not-touch list, joins with II v201 and finale v201, finale quotations; all hold.
