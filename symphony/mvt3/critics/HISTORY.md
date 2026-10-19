@@ -1034,3 +1034,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: the C drum retuned to D♭ (muta at 206) so the timpani strike the D♭ tonic ff at 211 and f at 212 when the A♭ pedal resolves, then "muta D♭ in C" with medium sticks at 215 (Adler PDF 79-81, Ex. XII-51); "near the rim" on the pp C roll at 235-238, "ord." at 243 (Adler PDF 80).
 - Rejected: bass-drum roll at 138-142 (unpitched percussion held back to 223), soft cymbal stroke (first cymbals reserved for 223), timpani doubling pizz. bass (protected solos).
 - Note for finale.md: done (one retuning in the movement since v237).
+
+## Cycle 237 (v237 → v238), lens 7 texture (Adler ch. 16, third pass)
+- Lens 7 (texture and dynamics in orchestration), Adler ch. 16 (adler2 PDF 197-255, third pass).
+- Accepted: 39-42 diminuendo scored by drop-outs: Hn 3·4, Ob 1 and B.tbn stop after 40, Ob 2, Cl 1·2 and Hn 1 after 41, so the violins' F4 is no longer covered at the unison and 42 already has the transition's group (Adler PDF 201, 202, 212-213, 224, 229). No pitch changed.
+- Kept: 83-86, 19-26, 255-262, 265-272.
+- Note for finale.md: 39-42 diminuendo scored by drop-outs; Hn 3·4 rest 41-88.
