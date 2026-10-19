@@ -1534,3 +1534,10 @@ lens 2, harmony; A&S Unit 31 (PDF 551-583), techniques other than c237's. Report
 - Accepted: nothing (v243 = v242 relabelled).
 - Recorded (no change): No change. Recorded: 1. enharmonic changes at 46→47, 50→51, 62→63, 64→65 follow the reading (PDF 557–560, 573, 576); 2. Bm7→A♭7 at 50–51 kept (protected pivot); 3. bass E♭–C–A under shared-tone sevenths at 39–40, 55–56 (PDF 575–576); 4. rule: never set the motto tail E♭–D–D♭–C against a chromatically rising bass (PDF 565, Ex. 31-21a); 5. no chromatic sequence inside the movement (keeps A♭ strong, PDF 572); the symphony's major-third key cycle shows here as F♭ resolving to E♭ six times; 6. 48 static F♯ minor kept (fills anticipate the C.a. D5 or hit the Neapolitan); 7. ♮4–♯4 approach to V only at 59, other cadences stay plain.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 243 (v243 → v244)
+lens 3, form; A&S Unit 14 (PDF 211-229). Report: reports/c243.md.
+- Accepted: nothing (v244 = v243 relabelled).
+- Recorded (no change): No change. Recorded: 1. V never a key area (middle section is IV); V becomes a dominant seventh at 65–70 (PDF 220); 2. 64 b4 is the double-meaning chord at the return (E7♭9 / German sixth of A♭; PDF 219); 3. A♭ chord held as a goal at 31–36, phrase modulation at 37 (Ex. 14-11; 5–6 at 36 rejected); 4. return 71–78 varies both cadences; 4̂–♯4̂–5̂ bass at 25–26 or 76 blocked (protected statement, counter-melody D♭4); 5. D♭ confirmed late at 60–61; 6. ♯4̂ never doubled. Do-not-touch: key plan; 64 b4; 65–70 dominant seventh; 31–36 then 37; 59–61 cadence with G♭–G♮–A♭ bass.
+- Do-not-touch: standing list; the 8-page layout.
