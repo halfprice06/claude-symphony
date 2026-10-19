@@ -1318,3 +1318,10 @@ Lens 4 orchestration (Adler ch. 4 harp, ch. 12 timpani). Report: reports/c214.md
 - Rejected: 3. damping text for harp LH octaves 7–13, 71–76.
 - Open: none.
 - Do-not-touch: items above; standing list; the 8-page layout.
+
+
+## Cycle 215 (v215 → v216)
+Lens 5 engraving (Adler ch. 18 score setup, adler2 PDF 291–297). Report: reports/c215.md.
+- Accepted: 1. tempo marks over the brass on full systems; 2. collapse-height 1 for choir brackets; 3. timpani bracket; 4. horn and trombone sub-brackets.
+- Open: none.
+- Do-not-touch: score brackets and brass marks; standing list; the 8-page layout.
