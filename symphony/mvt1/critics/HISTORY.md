@@ -991,3 +991,63 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: No foreshadowing added: movement I already holds seeds of the scherzo (79 G–F♯–F–E = scherzo theme A bar 2; P bar 2 rhythm = motive x; Hn 1 D♯5 at 106) and the finale (D♯/E♭ at 108; Ger6 at 12). Seeds recorded in coherence/mvt1.md.
 - Do-not-touch: E♭/E♮ viola thread 166, 182; attacca join; 77–83 key circle; seeds at 79, 106, 108, 12.
 - Cross-movement: Scherzo told that I 79 carries its theme A bar 2; finale told its record of I 138 is wrong (violas F4–B4, Tpt 1 A♭4, Tpt 2 F4).
+
+## Cycle 231 (Melody and memorability; Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites) → v232
+- Accepted: Cellos take the S lower octave with Vln II and C.a. at 97.4–102 (pickup F♯3, tenor clef 98–102), as at 158–161 (Rimsky-Korsakov PDF 54–62, Ex. 30, 32) (dev).
+- Open / not applied: None. Kept: 15–22, 56–63, 107–110, 147–155, 177–182.
+- Do-not-touch: 97–102 brass counter, viola arpeggio, Vln II sul G, B.tbn F♯3.
+- Cross-movement: none.
+
+## Cycle 232 (Harmony and voice leading; Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162)) → v233
+- Accepted: Cadential 4–3 over V tied across the barline at 66→67 and 164→165, resolving on the second eighth (A&S Ex. 10-6a, PDF 149–160); the six-beat dominant (c023/c032) kept. Vln I·II (tTwo, recTwo); Hn 3 B3 on beat 2 of 165; harp G5–D6–F6 at 165 (recTwo).
+- Open / not applied: None. Kept: leap to the 4th at 54 (Ex. 10-3c; protected S); tonic 6/4 at 175; Neapolitan→I at 7→8 and 178→179 (motto); doubled 4ths at 142/158.
+- Do-not-touch: S 47–55; motto neighbour chords 7–8, 178–179; six-beat dominant 66, 164.
+- Cross-movement: none.
+
+## Cycle 233 (Form, pacing and proportion; Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461)) → v234
+- Accepted: none (score unchanged).
+- Open / not applied: None. Kept: key plan C–A♭–(dev ends on F)–V pedal–C (A&S PDF 454–456); E♭ passing cadence at 41 (PDF 447–448); no B♮ 128–131 (major dominant; protected); B minor 97 and D minor 103 as passing keys; recap 139–166 (PDF 451–455).
+- Do-not-touch: key plan; 41–47; 117–131; 139–166.
+- Cross-movement: none.
+
+## Cycle 234 (Orchestration; Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114)) → v235
+- Accepted: Bar 72 Tbn 1 E♭4, Tbn 2 C4 so the brass chord has its fifth in a close layout (Rimsky-Korsakov PDF 100–101) (clos); Hn 4 G3 at 166 instead of doubling the bass C (PDF 100) (recTwo); Hn 4 D4 with Hn 3 at 40 so the leading tone has a horn pair (PDF 102; Adler2 PDF 44) (trans).
+- Open / not applied: None. Kept: B.tbn + tuba unison 114–116; trombone dissonances 83, 122; Tpt 3 with Tbn 1 141–142, 167–168; strings in the chorale 175–179; no stopped/muted brass.
+- Do-not-touch: chorale 175–179; 83, 122.
+- Cross-movement: none.
+
+## Cycle 235 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: beams (gould-behind-bars PDF 31-41)) → v236
+- Accepted: Beam slopes per Gould PDF 33–37: gould-beam-positions callback in global.ily, on in score.ly and parts-gen.py; flattens steep arpeggio beams (Vc 56–68, 157–166; harp 62–65), concave/repeating groups (Vla 69–71, 97–102, 163, 165) and high flute groups (29, 139–140); 94 of 500 beams; no notes or groupings change.
+- Open / not applied: Kept: clarinet voices interlocking 117–121; Vc stems at 61.
+- Do-not-touch: c125 harp beams; c225 stem rule.
+- Cross-movement: none (engraving only).
+
+## Cycle 236 (Playability, instrument by instrument; Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109)) → v237
+- Accepted: Cb 'change bow at will' at bar 3 (8-beat slur at Lento; Adler PDF 108) (intro).
+- Open / not applied: None. Kept: Cb arco→pizz. 46→47 at pp; Vln II fff tremolo double stops 122–123 without div. (PDF 76); viola double stops 158–161; viola alto clef 151–153 (PDF 85).
+- Do-not-touch: lead-in 43–47; 158–166 scoring.
+- Cross-movement: none.
+
+## Cycle 237 (Texture and counterpoint; Adler ch. 15 polyphonic texture (adler2 PDF 172-186)) → v238
+- Accepted: Fugato 94–95: violas (with Bsn 1 an octave below) take the free voice f'2.( aes'4~ | aes'4 ges'4 f'2), keeping three moving parts at the fourth entry (Adler2 PDF 175–176) (dev).
+- Open / not applied: None. Kept: woodwind-only head 103–106; brass-only motto 117–121; Bsn 1 at 167–169 (c150); all voices f at 91–96.
+- Do-not-touch: fugato subject, countersubject, entries and colours (c142).
+- Cross-movement: none.
+
+## Cycle 238 (Expression; Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55)) → v239
+- Accepted: Portato dashes on repeated notes under a slur (P head second bar at 16, 28, 132, 144, 168; figure at 34–36, 78–79, 104, 108, 128; counterlines 59, 161; 38 places) (Adler PDF 42–43); bowings: down-bows at 161 (Vln I·II, Vc, Cb) and Vc 158/160 so 162 lands down-bow; 34–41 head entries and sf at 41; Vln II 69–71; Vc up-bow at 139 (answers c195: the cello line postdates that scheme) (PDF 38, 42–43).
+- Open / not applied: None. Kept: cello hemiola 23–26, 135–138; long pp coda bows; sul tasto, pizz., tremolos.
+- Do-not-touch: notes, slurs; hemiola bowing.
+- Cross-movement: P head now has a tenuto on its repeated C (c4--) at 16, 28, 132, 144, 168; finale told for its 200.
+
+## Cycle 239 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305)) → v240
+- Accepted: none (score unchanged); holistic vs Beethoven 5/i and v229: no regressions.
+- Open / not applied: Closed (decided by the composer): partial divisi at 124–125 stays (c196 playability). Kept: sectional development; collapse 123–126; Cl fourth at 35; low four-horn call 41–42; short coda (9%) for the attacca.
+- Do-not-touch: 117–130 chain; 143–150 lead-in; coda length.
+- Cross-movement: none.
+
+## Cycle 240 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461)) → v241
+- Accepted: none (score unchanged).
+- Open / not applied: None. Records updated: seeds list (37–44 B♭ pedal into E♭ = finale's transition; 73–76 = movement II 3–6; single-pitch E♭4/E4 thread); themes-mvt1.md lines on movement II 64 and Vln II at 160 corrected.
+- Do-not-touch: 37–44; 73–76; 154–155 and 165–166 soft C-major cadences (no forte C major before the finale); attacca join.
+- Cross-movement: none in the score.
