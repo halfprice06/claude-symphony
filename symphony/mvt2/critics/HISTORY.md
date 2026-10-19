@@ -1615,3 +1615,9 @@ lens 3, form; A&S Unit 26 (PDF 442-461). Report: reports/c253.md.
 ### Cycle 254 (orchestration, Rimsky ch. I, III) — v255
 - Accepted: 1. Cl 1·2 thirds at 58–59; 2. Cb "4 soli" at 87 (scherzo told to start its basses "tutti").
 - Do-not-touch: c049 rest at 59; 62 b3 spacing; 79–80 fourths; standing list; 8-page layout.
+
+
+
+### Cycle 255 (engraving, Gould beams) — v256
+- Accepted: 1. Ob 1 part stems at 61–82; 2. score-only up-stems tagged; 3. parts beam-slope rule in genparts.py.
+- Do-not-touch: score beams and stems; viola stems 37–60; score up-stems for Ob 1 at 61–62; one-page parts; 8-page layout.
