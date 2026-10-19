@@ -1209,3 +1209,11 @@ Lens 1 melody (A&S Unit 2 Intervals, PDF 33–46). Report: reports/c201.md.
 - Rejected: bass `aes,2 des4` at 11, 27, 75 (untested, low rank; established accompaniment pattern).
 - Open: none.
 - Do-not-touch: the counter-line's new rhythm at 54–55 (6ths, tied B♭4); Vc E♭2 at 55; standing list; the 8-page layout.
+
+
+## Cycle 202 (v202 → v203)
+Lens 2 harmony (A&S Unit 4, PDF 58–73; the unit has no spacing/doubling rules, which start in Unit 5). Report: reports/c202.md.
+- Accepted: 1. Vln II A5 at 49 b1–2 (third of the F♯-minor tonic on the downbeat; PDF 61, 65–68); 2. aTwo.ily comment: 78 b3 is a passing 6/3, not a 6/4.
+- Recorded (no change): seventh resolutions; 6/4s at 5 and 68; minor-major sevenths 46, 64; bars 19–20, 41, 51, 57, 59–60, 74–75.
+- Open: none.
+- Do-not-touch: Vln II A5 at 49; standing list; the 8-page layout.
