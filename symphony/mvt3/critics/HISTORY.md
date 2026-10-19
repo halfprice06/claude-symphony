@@ -877,3 +877,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Kept: Hn 2 mf at 130, trumpets mf at 159 (protected); trombones f at 247 (c184 balance).
 - Note for finale.md: F1 at 35 has a violin grace glide.
 - Do-not-touch: 130-132; 159-166; 247-254 trombone dynamics.
+
+## Cycle 209 (v209 → v210), lens 9 master comparison (Brahms 1/iv, third pass)
+- Accepted: 119 and 122 Vln I pp answers divided, two solo desks on top and the section an octave lower, "unis." at 129 (Rimsky PDF 58-59, 200, 202-203). 35 Fl 1 takes the violins' grace glide too, Fl 2 matching graces (Rimsky Ex. 2, 3, 8).
+- Regression check against v199: nothing worse.
+- Note for finale.md: 35 grace glide in Vln I·II and Fl 1.
+- Do-not-touch: bars 1-2; 51-66; 115-118 and the bassoon solo; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
