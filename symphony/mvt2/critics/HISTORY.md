@@ -1285,3 +1285,12 @@ Lens 10 cyclic (A&S Unit 29, PDF 518–529). Report: reports/c210.md.
 - Recorded (no change): cross-movement links hold (I v221, scherzo v201, finale v207); 21; 50–51; coda; 59.
 - Open: none.
 - Do-not-touch: Vc B2 at 64; no seventh on the A♭ chord at 31–36; standing list; the 8-page layout.
+
+
+## Cycle 211 (v211 → v212)
+Lens 1 melody (A&S Unit 1, PDF 14–32). Report: reports/c211.md.
+- Accepted: nothing (v212 = v211 relabelled).
+- Recorded (no change): motto tail (six statements, no seventh); leading-tone octave transfer at cadences; minor forms; spelling; theme B withholds its tonic until 61.
+- Rejected: Fl 1 D♭5 at 43 (untested; c090).
+- Open: none.
+- Do-not-touch: theme B's tonic withheld until 61; the motto tail's six statements; standing list; the 8-page layout.
