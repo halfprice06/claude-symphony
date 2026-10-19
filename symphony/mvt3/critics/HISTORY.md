@@ -1160,3 +1160,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 10 cyclic review, Sebesky ch. 9 and ch. 1 (PDF 240-242, 11-20), third pass; read the mount's coherence files (movement I v291, movement II v286, scherzo v271, scherzo record 51/51). No change to the score.
 - Kept: the harp's F♭ pedal at 277 (sounds E; the only setting that keeps F out of the C chord); the tuba theme at 27-32; the coda's recalls 243-279 (protected).
 - Note for finale.md: done (header, cycles 251-260 list, the two links at bars 1-2 that the scherzo and movement I rely on, harp glissando wording).
+
+## Cycle 261 (v261 → v262), lens 1 melody (A&S Unit 3, third pass)
+- Lens 1 melody and rhythm, A&S Unit 3 (PDF 47-57, third pass).
+- Accepted: F2 anticipates its half-cadence note: 73.4 the violins' F enters a beat early, tied into 74; the same at 193.4→194 in the recapitulation (Vln I, Vln II, Vla, Ob 1, Hn 1) (A&S PDF 51, 56 Ex. 3-19; Beethoven 9/iv 103-104). The first half's cadence now pushes ahead of the beat and the second half's (the 80-81 suspension) holds back. No part, level, register or doubling changed.
+- Rejected: counter-accents at 89-90 and 205-210, anticipation at 25/165 (c241), a five-bar F2 half, hemiola.
+- Note for finale.md: F2 anticipates F at 73.4 and B♭ at 193.4 (since v262).
