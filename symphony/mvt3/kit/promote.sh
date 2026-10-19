@@ -4,9 +4,12 @@ set -e
 M=/home/user/claude_composes/symphony/mvt3
 NEW=$(printf %02d $1); PREV=$(printf %02d $2); SRC=$3
 W=/tmp/m3/v$NEW; rm -rf $W; mkdir -p $W
-(cd $SRC && tar cf - --exclude='*.wav' --exclude='score-r0*.mp3' --exclude=build --exclude=probe --exclude=base --exclude='pg*' --exclude='*.png' .) | (cd $W && tar xf -)
+(cd $SRC && tar cf - --exclude='*.wav' --exclude='score-r0*.mp3' --exclude=build --exclude=probe --exclude=base --exclude='pg*' --exclude='*.png' --exclude=./parts --exclude=parts.log .) | (cd $W && tar xf -)
 sed -i -e "s/draft v$PREV\"/draft v$NEW\"/" $W/score.ly
 bash $M/tools/build.sh $W score.ly >/dev/null 2>&1 || true
 mkdir -p $M/v$NEW && (cd $W && tar cf - .) | (cd $M/v$NEW && tar xf -)
+# keep score.pdf in the newest version only (critics read it); keep pdf+mp3 in milestones v211, v221, ...
+[ $(( 10#$NEW % 10 )) -eq 1 ] || rm -f $M/v$NEW/score.mp3
+[ $(( 10#$PREV % 10 )) -eq 1 ] || rm -f $M/v$PREV/score.pdf $M/v$PREV/score.mp3
 echo "warnings: $(wc -c < $M/v$NEW/build-warnings.txt)"; grep -A3 "^Outer" $M/v$NEW/analysis.txt; head -1 $M/v$NEW/analysis.txt; pdfinfo $M/v$NEW/score.pdf | grep Pages; grep -o "draft v[0-9]*" $M/v$NEW/score.ly
 echo "scherzo quotations:"; python3 /home/user/claude_composes/symphony/coherence/themecheck.py /home/user/claude_composes/symphony/coherence/themes-finale-quotes.ly $M/v$NEW --beats 4 || echo "QUOTATION CHANGED: check against coherence/themes-scherzo.ly"
