@@ -1787,3 +1787,10 @@ lens 10, cyclic; Adler ch. 1 (adler1 PDF 19-23) and ch. 15 end (adler2 PDF 187-1
 - Accepted: 1. bars 3-6 wind chord held with ties (Cl 2 E♭3 3-4; B.cl., Hn 4 A♭ 3-6; hnFourNoTie removed; matches movement I 73-76); 2. Hn 3 A♭3 tied 88-89 with the violas.
 - Recorded (no change): Hn 3 C4 attack at 3 kept (Ex. XV-36); hand-overs at 1-3 and 89 follow Ex. XV-37.
 - Do-not-touch: standing list; the 8-page layout; the ties at 3-6 (movement I's held chord).
+
+
+## Cycle 281 (v281 → v282)
+lens 1, melody; Adler ch. 3 (adler1 PDF 71-109). Report: reports/c281.md.
+- Accepted: Vln II "sul A" at 62 (F♭5 off the open E string).
+- Recorded (no change): string colours, theme B's stepwise phrase, skips and shifts, solo violin, basses. Open (optional): cellos sul D at 23-30, 71-78.
+- Do-not-touch: standing list; the 8-page layout.
