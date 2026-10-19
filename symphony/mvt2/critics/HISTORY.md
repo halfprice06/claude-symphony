@@ -1714,3 +1714,9 @@ lens 3, form; A&S Unit 32 (PDF 584-606). Report: reports/c263.md.
 - Open: viola part tempo texts at 48, 53, 78 placement.
 - Do-not-touch: Hn 3·4 release at 82; Hn 4 line 87–89; no new tempo words; standing list; 8-page layout.
 - Masters used in the third series: Brahms 2/ii, Dvořák Cello Concerto/ii, Beethoven 7/ii, Mozart 41/ii, Dvořák 9/ii, Dvořák 7/ii, Beethoven 9/iii (c269).
+
+
+
+### Cycle 270 (cyclic; Casanelles ch. 5) — v271
+- Accepted: 1. timpani muta chain at 5 (all drums in range).
+- Do-not-touch: drum order 30" A♭2, 28" C3, 25" D♭3, 23" E♭3; bar-92 muta; joins with movements I and III; standing list; 8-page layout.
