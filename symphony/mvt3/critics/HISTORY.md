@@ -932,3 +932,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted (bow signs only): 199-204 movement I's bowing of I 27-32 (down-bow pickup, hooked up-bow at 200, down-bows at 204; violas' up-bow below the note) (Adler PDF 38, 42-43; answers c175 by c186 and movement I's own marks); 90-94 down-bows on every accented quarter (PDF 42-43; c167/c168 layout unchanged); 167 up-bow in Vc/Cb so the B ends at the frog before the pizz. at 171 (PDF 54); 9-10 crescendo starts up-bow so the f accent at 10.3 is down-bow (PDF 38).
 - Note for finale.md: 199-204 carries movement I's string bowing.
 - Do-not-touch: 223-234 with 222→223; 247-254 with c186 bowing; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 219 (v219 → v220), lens 9 master comparison (Tchaikovsky 5/iv, third pass)
+- Accepted: 272 cellos hold C3 and Bn 2 holds A3 through the IV6/4, filling the C2-F4 gap (Rimsky PDF 85-86; no horn or trombone rest filled, answering the 265-272 protection); 91-92 beat 3 Ob 1 D6 / Ob 2 B♭5, no second in the oboe pair (PDF 90, 96; c167/c168 layout kept); 208 Ob 2 c''2 r2, no minor second under Ob 1 and a breath before 209 (PDF 90, 102).
+- Kept: leading-tone doublings in the brass at 141-142, 160, 222 (protected).
+- Regression check against v209: nothing worse.
+- Do-not-touch: 141-142; 160; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 265-272 horn and trombone rests; 273-279.
