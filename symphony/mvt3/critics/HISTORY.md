@@ -1189,3 +1189,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 119 and 122: Vln I octave answers written as two voices, "2 soli" upper and "gli altri" lower, replacing the inconsistent "div." at 122 (Adler PDF 30–32). Accepted; pitches unchanged.
 - 92: "sim." replaces the repeated down-bow marks of 91 in all strings (Adler PDF 38, 43–45). Accepted.
 - 91: Vln II "non div." on the double stops, as the violas (Adler PDF 30). Accepted.
+
+## Cycle 266 (v266 → v267), lens 6, Sebesky ch. 2 winds
+- 269–271: Ob 1 moves up an octave to double the flutes and Vln I instead of unison oboes in the coarse low register (Sebesky PDF 71, 79–80); back to A5 at 272. Accepted; F1's notes unchanged.
+- 277: horns play quarters `c''4-> r4 c''4-> r4` / `e'4-> r4 e'4-> r4`, leaving the eighth upbeat to trumpets and trombones (Sebesky PDF 32, 46). Accepted; the protected close's harmony, line, glissando and final chord are unchanged.
