@@ -1667,3 +1667,10 @@ lens 1, melody; Rimsky-Korsakov ch. II strings (PDF 54-63). Report: reports/c261
 ### Cycle 262 (harmony, A&S Units 9–10) — v263
 - Accepted: 1. bass at 49 changes with the chord (fis2 b,4 cis4); 2. Vc A♭2 at 43 b3 under the cadential 6/4.
 - Do-not-touch: c202 A5 at 49; Neapolitan at 49; c221 viola triplet; 67–70; standing list; 8-page layout.
+
+
+## Cycle 263 (v263 → v264)
+lens 3, form; A&S Unit 32 (PDF 584-606). Report: reports/c263.md.
+- Accepted: nothing (v264 = v263 relabelled).
+- Recorded (no change): No change. Closed c261's open point: theme B is not recalled after 61, by design. Its last form is the augmented head bending to F♭ at 61–62, and the coda's F–F♭–E♭ line at 87–89 completes it (A&S PDF 601–603); D♭ returns as the plagal IV6–iv–I; Dvořák 9/ii also drops its middle theme; the finale quotes theme B in its D♭ episode, so a recall here would anticipate it. Cor anglais A♭3–D♭4–F4 at 87 tested and rejected. Remote areas (F♯ minor 47–51, A minor 62–64) about 9% of beats (PDF 592–593, 603); deceptive cadence to ♭VI at 78 (PDF 586–587). Do-not-touch: coda 83–92; augmented head to F♭ at 61–62; route 61–65; do not reopen the theme-B recall question.
+- Do-not-touch: standing list; the 8-page layout.
