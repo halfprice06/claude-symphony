@@ -905,3 +905,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 108-109 Ob 1 and Cl 1 double Vln II's suspension line G5-F5-E5, p <, so the winds enter before the brass's ff at 110 (Rimsky PDF 127, 130; Dvořák 9/iv 8-10); lament bass and strings unchanged (answers c187's protection: only a doubling added). 89 Hn 1-4 enter p < (was Hn 3·4 mf <) after 46 bars' rest (Rimsky PDF 136).
 - Kept: 5-6 repeating 1-2; low brass in 199-234 (protected).
 - Do-not-touch: lament bass 107-110; 6/3 bridge 83-90 harmony; bars 1-6; 199-234.
+
+## Cycle 214 (v214 → v215), lens 4 orchestration (Adler ch. 15, third pass)
+- Accepted: 170 violas start their pp sul tasto figure on the dominant two beats before L, so the cor anglais and muted trumpet enter fresh at 171 (Adler PDF 156-157, Weber Ex. XV-7). 153, 161, 164 bass trombone without the octave leap G2-G3 (g,4 g,4 f,4 d,4; 164 g,2 es,4 d,4) (Adler PDF 150).
+- Kept: 265-268 rests (c036, c046, c124; protected).
+- Note for finale.md: violas enter at 170.3; bass trombone lower octave at 153, 161, 164.
+- Do-not-touch: 167-170 diminuendo order; 151-158 layout; 265-272.
