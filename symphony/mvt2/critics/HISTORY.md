@@ -1627,3 +1627,10 @@ lens 3, form; A&S Unit 26 (PDF 442-461). Report: reports/c253.md.
 ### Cycle 256 (playability, Adler ch. 3) — v257
 - Accepted: 1. Vln I sul D at 89–92; 2. Cb "change bow at will" at 79–80.
 - Do-not-touch: string colour plan (sul D at 1–4 and 89–92); divisi and double stops at 61–64, 80–81; c118/c246 violin bows 77–80; 8-page layout.
+
+
+
+### Cycle 257 (texture, Adler ch. 15) — v258
+- Accepted: 1. Vc C2 at 55 b3; 2. Vla rest at 26 b3.
+- Open: viola A♭4 unison at 71 b2 (optional).
+- Do-not-touch: theme B background plan 37–60 (Vc E♭2 at 55 b1–2); Hn 1/Cl 1 counter-line 53–56; A′ texture plan 71–82; 57–61 counter-line colour; standing list; 8-page layout.
