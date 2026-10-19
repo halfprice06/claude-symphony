@@ -1448,3 +1448,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: Ob 1 breath 124/125; Hn 1 S 46–51, 146–151; C.a. B♭5–C6 at 94–95; Hn 3·4 seventh at 141; mutas 34/44/84/98.
 - Do-not-touch: Harp pedalling (c246).
 - Cross-movement: none.
+
+## Cycle 307 (Texture and counterpoint; Rimsky-Korsakov ch. II Melody in combined groups (rimsky-principles PDF 74-80)) → v308
+- Accepted: No change (texture vs Rimsky-Korsakov ch. II melody in combined groups: 20 principles, nearly all followed).
+- Open / not applied: None. Kept against the letter of the reading: Vln II over C.a. in octaves 91–93 (fugato); violas under Cl 1 at 38; Hn + Tbn 1 unison counter 97–102; Fl 1 with violas 109–110 (c241).
+- Do-not-touch: Fugato 85–96; violas' line 37–40; 97–102.
+- Cross-movement: none.
