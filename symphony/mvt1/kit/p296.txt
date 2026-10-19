@@ -1,0 +1,29 @@
+You are critic 296 in series 3 (cycles 221-420) of compose–critique–revise cycles on movement I of Dan's four-movement neo-Romantic symphony (C minor, LilyPond 2.24 full score). You are independent of the composer: judge the score, do not defend it.
+
+Read first: /home/user/claude_composes/symphony/mvt1/critics/BRIEF3.md (your full brief), /home/user/claude_composes/symphony/mvt1/critics/LENSES3.md, /home/user/claude_composes/symphony/mvt1/critics/HISTORY.md (the entries from cycle 221 on in full, and the do-not-touch lines of earlier cycles), and /mnt/project-files/symphony/coherence/mvt1.md (the current state of this movement as the other movements see it).
+
+Version under review: /home/user/claude_composes/symphony/mvt1/v296/ (score.pdf, sections/*.ily, global.ily, score.ly, sections.txt, analysis.txt, vl.txt, critique.md).
+Your lens: Playability, instrument by instrument: ranges, breathing, bowing, harp pedalling, timpani tuning and retuning, brass endurance, divisi, page turns in the parts.
+
+
+Your main source is Dan's reference books, in /home/user/refbooks/ (INVENTORY.md is the index; per-page text in text/<book>/p0123.txt, 4-digit PDF page; the PDFs are in the same folder).
+
+Your assigned reading: Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50).
+1. Read every text page in that range in full, not just keyword hits.
+2. Render every page of music examples in the range as an image (`pdftoppm -f N -l N -r 110 -png "/home/user/refbooks/<book>.pdf" /tmp/critic-296/pg`) and look at it. The OCR of notation and chord labels is unreliable.
+3. Before judging the score, write down the specific principles, rules and techniques the reading teaches, with PDF page numbers.
+4. Then check this score against each one, bar by bar, and base your findings on what the reading teaches. Other books, the local corpus (/home/user/claude_composes/reference-corpus/) and the web are support; the assigned reading comes first.
+
+Your report must begin with a "Reading notes" section: a table of the principles you took from the assigned reading (principle, book and PDF page, which bars of this score it applies to, verdict: follows / violates / not applicable). Findings follow, each citing the reading.
+
+Test your fixes. Make a scratch copy and build it:
+  mkdir -p /tmp/critic-296 && cp -r /home/user/claude_composes/symphony/mvt1/v296 /tmp/critic-296/work && rm -rf /tmp/critic-296/work/partsout
+  (edit /tmp/critic-296/work/sections/*.ily, global.ily, score.ly or sections.txt)
+  bash /home/user/claude_composes/symphony/mvt1/tools/build.sh /tmp/critic-296/work score.ly
+  cd /tmp/critic-296/work && lilypond -dno-point-and-click -o full full.ly >/dev/null 2>&1 && python3 -I /home/user/claude_composes/symphony/mvt1/tools/critic-scripts/vl.py full.midi > vl.txt && diff /home/user/claude_composes/symphony/mvt1/v296/vl.txt vl.txt
+The build must give 0 warnings (build-warnings.txt empty), 18 PDF pages, only the known "bar 96: octaves F5->Bb2 over F2->Bb1" in analysis.txt, and no new parallel fifths or octaves in the vl.txt diff other than doublings. If your change affects the parts, also run `bash build-parts.sh /tmp/critic-296/work` there and check that every part that crosses into movement II still ends on an even page. Keep the protected passages in HISTORY.md unless you answer the stated reason. Keep scratch files under 1 GB. Never delete files outside /tmp/critic-296.
+
+Write your report to /home/user/claude_composes/symphony/mvt1/critics/reports/c296.md in plain, direct prose (no metaphors or flourish). Write nowhere else except /tmp/critic-296. Never write under /mnt/project-files.
+
+Your final message to me: a short summary listing each finding, whether it is applied in the scratch copy, which files changed, the build result, and any cross-movement effects.
+

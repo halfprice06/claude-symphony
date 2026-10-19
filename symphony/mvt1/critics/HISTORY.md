@@ -1352,3 +1352,57 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None.
 - Do-not-touch: Hn 3 B3→C4 at 122–125 resolves into i6/4 (not the finale's B→C).
 - Cross-movement: none (finale already told at c284).
+
+## Cycle 291 (Melody and memorability; Adler ch. 11 Scoring for Brass: melodic presentation (adler2 PDF 19-36)) → v292
+- Accepted: No change (brass melodic presentation vs Adler ch. 11).
+- Open / not applied: None. Kept: motto in Hn/Tbn unison 117–121; Hn 3·4 high unison 158–161 (c174, c181, c266); P in the tenor at 131 (c144); coda chorale canon 175–181; Tpt doubling Ob 69–72, 82, 158–161.
+- Do-not-touch: themes.
+- Cross-movement: none.
+
+## Cycle 292 (Harmony and voice leading; Aldwell & Schachter Units 30-31 Other chromatic chords; Chromatic voice-leading techniques (aldwell-schachter PDF 530-583)) → v293
+- Accepted: 119–120: the Vla and Cl 2 triplets' middle note follows the motto (E♭–D–D♭–C) instead of sounding D4 against its E♭4 and D♭4 against its C4 (♭6 replaces the 5th of V, A&S PDF 537, 301); answers c133 (alternating chords kept) (dev).
+- Open / not applied: None. Kept: B°7 over D → iv at 138→139 (A&S PDF 545; finale quotes); 77–83 major-third cycle (PDF 573); passing D at 119.1.5.
+- Do-not-touch: development key plan B–D–F–A♭ (vii°7 of C composed out).
+- Cross-movement: none.
+
+## Cycle 293 (Form, pacing and proportion; Aldwell & Schachter Units 6-8 I, V, V7 and their inversions: phrase structure (aldwell-schachter PDF 92-133)) → v294
+- Accepted: No change (phrase structure and cadences vs A&S Units 6–8).
+- Open / not applied: None. Kept: contrapuntal cadences at 175–182 (attacca; structural cadences at 143, 166); intro ends on V7 at 14; F-minor deflections 64, 68.
+- Do-not-touch: large-scale I–VI–iv–V–I plan; cadence order 55/72, 155/166.
+- Cross-movement: none.
+
+## Cycle 294 (Orchestration; Adler ch. 5 Scoring for Strings (adler1 PDF 125-167)) → v295
+- Accepted: Background strings clear the Vln I pickup into P (Adler PDF 135), as c227 did at 15/17: Vln II enters on 2-and at 19 (tOne); Vln II tremolo starts on beat 2 at 37 (trans); Vln II and Vla drop their first off-beat eighth at 143 (recOne). Rhythm only.
+- Open / not applied: None. Kept: violas' A♭4 at 19; Vln I A♭6 at 72; P on Vln I alone 15–18; viola arpeggio 97–102; Vln II pad 147–154; viola chords 158–161; climax string scoring.
+- Do-not-touch: three A♭ climaxes.
+- Cross-movement: none.
+
+## Cycle 295 (Engraving and notation (Gould's *Behind Bars*, MOLA); MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score) → v296
+- Accepted: Parts (MOLA PDF 5, 8, 10, 12): cues for Vln I/Fl 1 at 94, Ob 1 and timp at 115, Hn 3·4 at 181, harp at 182; Cbsn cue at 67–68 from the cello 8vb (new cueVcLow); multi-bar rest numbers counted in spacing; parts drop the score's partCombine commands (Fl 1 rest 42–44 no longer split). Score: viola triplet number up at 117 (dev, parts-gen.py, parts-lib.ily).
+- Open / not applied: None. Kept: no composer name (c200); 7.2 mm strings; bowings (c238); percussion near-touches (c276, c285).
+- Do-not-touch: attacca page plan.
+- Cross-movement: mvt II may reuse the parts-library changes.
+
+## Cycle 296 (Playability, instrument by instrument; Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50)) → v297
+- Accepted: Timpani 'muta B♮ in A♭' printed at 98, right after the B stroke at 97 (was 111), as at 34, 44, 84 (Rimsky-Korsakov PDF 48) (dev). Composer rejected the critic's cellos 8vb at 101–102: professional cellos play B4/D5 at ff (Adler App. A, c286), and c231's at-pitch doubling of the B-minor S stays.
+- Open / not applied: None. Kept: cellos 101–102 at pitch (above); cello high notes 51–54 (c186); solo cello C5 at 174.
+- Do-not-touch: c231 cello doubling 97–102.
+- Cross-movement: none (mvt1.md timpani table updated).
+
+## Cycle 297 (Texture and counterpoint; Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281)) → v298
+- Accepted: Hn 1·2 rest 23 to beat 2 of 24 and enter mp< on beat 3 of 24 (as at 136–137), so the hemiola's third cell changes colour instead of doubling the clarinets at pitch throughout (Adler PDF 253, 255, 257) (tOne).
+- Open / not applied: None. Kept: rising P calls 117–120; Cl 1 + Hn 2 counterline 56–59; fugato 85–96.
+- Do-not-touch: Hn 3·4 at 23–26.
+- Cross-movement: none.
+
+## Cycle 298 (Expression; Adler ch. 7 woodwind articulation and dynamics by register (adler1 PDF 184-232)) → v299
+- Accepted: Cl 1 'dolce' and a diminuendo onto E♭4 at 45–46 (link into S) (trans); Cl 1 'espr.' under its pp at 175, matching Vln I's 'pp espr.' at 177 (coda) (Adler PDF 187, 205–206, 210–212).
+- Open / not applied: None. Kept: winds f inside 'mp cresc.' at 115–116; C.a. p against solo Vc mp at 171–174.
+- Do-not-touch: no register/dynamic breaches found in woodwinds.
+- Cross-movement: none.
+
+## Cycle 299 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Adler part 2 transcription examples in ch. 16 (adler2 PDF 202-244)) → v300
+- Accepted: No change (holistic vs Franck D minor/i and v289: no regressions). Closed c406 (Cl 1 already rests on beat 3 of 162).
+- Open / not applied: None. Kept: proportions (c215, c243, c283); 167–170 layout as 27–32; cellos at pitch 97–102 (c296); Ob/Cl unison 103–106.
+- Do-not-touch: coda colours and final-chord spacing.
+- Cross-movement: none.

@@ -80,7 +80,7 @@ Key signatures are set in global.ily. Areas without a key signature of their own
 | 34 | "muta A♭ in B♭". B♭2 roll at 40; E♭3 roll at 41–43. |
 | 44 | "muta B♭ in A♭" |
 | 84 | "muta A♭ in B♮". A single B2 stroke at 97 (B minor). |
-| 111 | "muta B♮ in A♭". From here to the end: G, A♭, C, E♭. |
+| 98 | "muta B♮ in A♭" (since v297; was at 111). From here to the end: G, A♭, C, E♭. |
 | 175 | "soft sticks" marked (after the G2 roll at 174). The last bars (179–182) use only C3 and G2. |
 
 The C drum stays on C for the whole movement. All retunings use the A♭ drum. Movement I ends tuned G, A♭, C, E♭.
