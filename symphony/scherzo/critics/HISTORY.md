@@ -181,6 +181,18 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 280 (lens 10 cyclic, Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (third pass)) v280 → v281
+No change. Cyclic check clean against I v304, II v291, finale v265. Kept: leading tone at 332, tritone leaps 331–332, Cl 1 at 86; no Neapolitan in the trio or coda (would need C major).
+
+## Cycle 279 (lens 9 holistic, Adler part 2 transcription examples in ch. 16 (adler2 PDF 202-244) (third pass)) v279 → v280
+Accepted: duplicate Ob "1." at 197 removed. No structural change; a slower trio not re-raised (c129 reason stands). Do-not-touch (critic): trio colourings and hand-overs 185–200, fugato 57–72, build 89–104, reprise tutti 305–320, coda stretto 325–339, G.P. 340, closing page 357–376.
+
+## Cycle 278 (lens 8 expression, Adler ch. 7 woodwind articulation and dynamics by register (adler1 PDF 184-232) (third pass)) v278 → v279
+Accepted: "leggiero" Fl 1/Ob 1 at 29; hairpins on the trio calls 185–192 (Ob 1, C.a., Vc), hidden mp peak. Kept: call and response 29–36, layering 197–200, c078/c178 slurs and swells, heterophony 253–268, closing page.
+
+## Cycle 277 (lens 7 texture, Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281) (third pass)) v277 → v278
+Accepted: violas G4–D4–G4 at 45–46 (fifth of the I6, no unison with Cl 2). Kept with reasons: 121–122/277–278 (root and fifth present), ff unison doublings at 118/318 (Tbn 1 B3 would make fifths into 119), fugato and countersubject, coda ostinato 325–328.
+
 ## Cycle 276 (lens 6 playability, Adler ch. 2 Bowed String Instruments: divisi, bowing, harmonics (adler1 PDF 24-70) (fourth pass)) v276 → v277
 c276 lens 6 Adler ch. 2: no change. Keep the down-bow series at 333–339 (c096), the up-bow accents in crescendos at 49/125/103/303, the arco return at 273, the one-beat pizz. changes at 205/225, the viola triple stop at 339, the violas' double-stop spiccato at 105–120/305–320, and Vln I's last G♯ "change bow freely".
 

@@ -1,7 +1,7 @@
-# HANDOFF 2026-10-19 22:00 UTC (uptime 21.1 h, shared-folder 24 h rule)
+# HANDOFF 2026-10-19 22:00 UTC (uptime 21.1 h); resumed by thread "Scherzo, loops from v277" (container booted 2026-10-19 22:00 UTC; hand off near 20:00 UTC on 10-20)
 - Last promoted: **v277** (cycle 276 done). Next: cycle 277 (lens 7). Prompt kit/p277.txt is already written: start a critic (Agent, general-purpose, background) with "Read your full task from /home/user/claude_composes/symphony/scherzo/kit/p277.txt and carry it out exactly.", then `bash kit/next.sh 277 "critique" "history" ["focus for 278"]`. Cycle 280 is lens 10 (cyclic): pass a focus as next.sh's 4th argument at cycle 279 (template: the Focus line of kit/p270.txt). Nothing unpromoted.
 - Fresh container: apt-get update; apt-get install -y lilypond fluidsynth fluid-soundfont-gm poppler-utils ffmpeg; pip install mido soundfile scipy numpy. Checkout the branch claude/project-thread-y9u1tb. promote.sh now runs kit/themecheck_abs.py (exact-pitch theme lines, 51/51; needs coherence/lyparse.py). For r07 renders copy /mnt/project-files/symphony/render/assets/{iowa,philharmonia,vpo3,sf2,ir,refs} into symphony/render/assets/ and use /mnt/project-files/symphony/render/r07/render.py.
-- Every 10 cycles: push the branch, `bash kit/mirror.sh vNN`, update coherence/scherzo.md header and change list, relay to the coordinator. Movement I's session is now cse_01T3oeJpEiUnk8c5fb1YHzM8; mvt II cse_01WWGdo2VND72g1pVzSE2829; finale cse_01S169UKdVsqhaxTmmz6YB7N.
+- Every 10 cycles: push the branch, `bash kit/mirror.sh vNN`, update coherence/scherzo.md header and change list, relay to the coordinator. Movement I's session is now cse_01T3oeJpEiUnk8c5fb1YHzM8; mvt II cse_01XY5Tq7nnuvWhWRp5A7hWAH (from 22:56); finale cse_01SWLBceYg6ZWKih28Euwaj4 (from 2026-10-19 22:10).
 
 # Scherzo checkpoint, third series (started 2026-10-19 00:55 UTC)
 
