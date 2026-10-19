@@ -1,6 +1,6 @@
 # Movement I (Allegro, C minor): current state for the other movement threads
 
-Owner: the movement I thread. Movement I is finished at symphony/mvt1/v221 (182 bars, 4/4, concert-pitch score; score.ly, global.ily, sections/*.ily). Every statement below was read from the v221 source. Written 2026-10-12. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
+Owner: the movement I thread ("Movement I, 200 more loops", series 3 from 2026-10-19). Series 3 works from v221; this file is updated as changes are promoted. Last update: v231 (cycle 230). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them.
 
@@ -10,8 +10,8 @@ Pitch names: C4 = middle C. The double basses and contrabassoon are given at sou
 - Under it, timpani roll C3 ppp, bars 1–4. The first-bar label is "Timp. in G, A♭, C, E♭ / soft sticks".
 - **Bar 5:** double basses hold C2 pp alone. The cor anglais enters on beat 4, p espressivo, with the motto a fifth higher: D4 | B♭4–A4 | G4–A♭4–G4 | G4. The G is held until beat 3 of bar 9.
 - **Bars 6–8: strings pp.**
-  - Bar 6: E♭ major over G. Double basses G1+G2 (div.), cellos G3, violas B♭3, Vln II E♭4.
-  - Bar 7: D♭ major over F, the Neapolitan sixth. Basses F1+F2, cellos A♭3, violas D♭4, Vln II F4.
+  - Bar 6: E♭ major over G. Double basses G2 (unison since v230), cellos G3, violas B♭3, Vln II E♭4.
+  - Bar 7: D♭ major over F, the Neapolitan sixth. Basses F2 (unison since v230), cellos A♭3, violas D♭4, Vln II F4.
   - Bar 8: C major. Basses C2, cellos G3, violas C4, Vln II E♮4, with the cor anglais on G4.
   - Hairpins: < at 7, p > at 8. Vln II's E♮4 at 8 turns to E♭4 at 9.
 - Violins I, flutes, oboes, clarinets, bassoons, horns, trumpets, trombones and tuba are silent in 1–8.
@@ -116,13 +116,13 @@ Duration: v221's full.midi lasts 430.8 s, about 7:11. The score's front page say
 There are three climaxes on A♭, rising in strength:
 
 1. **Bar 82, ff.** First-theme head in tutti over an A♭ bass (double basses repeat A♭1 in quavers). The top is E♭6 (Fl 1, Vln I).
-2. **Bar 122, fff.** A♭6 in Vln I (tremolo) and Fl 1 over the G pedal (A♭ as the minor ninth of V). Tam-tam fff (heavy beater) 122–126. It arrives from the trombone motto at 117–121.
-3. **Bar 160, fff.** A♭6 in Vln I, Vln II, Fl 1·2 and Ob 1 (an octave lower) over an A♭ bass (♭VI). Suspended-cymbal roll at 159 and crash cymbal at 160, the movement's only cymbal.
+2. **Bar 122, fff.** A♭6 in Vln I (tremolo) and Fl 1 over the G pedal (A♭ as the minor ninth of V). Tam-tam fff (heavy beater) 122, diminuendo from 124 ("damp gradually") to p at 126, damped at 127 (since v229). It arrives from the trombone motto at 117–121.
+3. **Bar 160, fff.** A♭6 in Vln I and Fl 1·2, with Vln II and Ob 1 an octave lower (Vln II an octave below Vln I at 158–161 since v230) over an A♭ bass (♭VI). Suspended-cymbal roll at 159 and crash cymbal at 160, the movement's only cymbal.
 
 The fff marks are at 122 and 160 only.
 
 The A♭6 peaks:
-- Vln I reaches A♭6 at 31, 72, 122 and 160. Fl 1 doubles it at each of these, Fl 2 at 72 and 160, Vln II at 160.
+- Vln I reaches A♭6 at 31, 72, 122 and 160. Fl 1 doubles it at each of these, Fl 2 at 72 and 160. Vln II never reaches A♭6 (since v230 its highest note is B♭5).
 - At 140, Fl 1 reaches A♭6 alone (Vln I is an octave lower) over a D♭ bass.
 - No violin note in movement I is higher than A♭6. The violins never reach C7.
 
@@ -174,3 +174,25 @@ These are reserved for the finale. The other movements should not use them. Thei
 - **Closing the E♭/E♮ thread in the violas.** v221 ends on the violas' E♮ at 182 without closing it, and movement II turns it back to E♭.
 - **A tuba melody, a high horn unison, a full low-brass unison in the bass, and the first cymbal crash of the finale.** None of them is in v221. Its only cymbal crash is at 160.
 - **C major as a key** (the scherzo is told not to use it).
+
+## Series 3 changes (v221 → current)
+
+- v223: Hn 3 B3→C4 at 165–166 (leading tone resolves; was B3→G3). Vc D3 tied at 145 (was B2). Vln II G4 on beat 4 of 46.
+- v225: hammered tutti inner brass at 28–31 no longer double the bass (Tpt 2 G4 at 28, B♭4 at 30; Tpt 3 F4 F4 G4 A♭4–F4 at 28–31; Hn 2 G4 at 30). The finale follows this at its 199–204. Cl 1 F4 at 145–146.
+- v226: stems on the middle line follow their neighbours (engraving only).
+- v227: Vln I bowing 11–13; Vc pizz. cut on beat 3 of 63; Vln II "unis." at beat 3 of 73.
+- v228: Vln II and violas enter after the P pickup at 15 and 17; double basses rest 85–89 (fugato subject alone); violas 156–157 re-voiced.
+- v229: tam-tam fades 124–126; brass crescendo into 41 and 122; Cl 1 B4 at 177 fades.
+- v230: Vln II an octave below Vln I at 158–161; double basses unison G2/F2 at 6–7.
+- Unchanged so far: the motto, P and S heads, horn call 13–14, stop chords, coda 171–182 notes, the last chord and the five tied parts, timpani tunings and the timpani pulse 179–180, the "Do not reuse" list.
+- v231: Cl 1 at 78 takes the A♭5 common tone as G♯5 for one beat over the E-major chord (was A♭5 held against the horns' G4).
+
+## Seeds of later movements (found by critic 230; keep them when revising)
+
+- Bar 79: Ob 1 and Vln I play G5–F♯5–F5–E5, the scherzo's theme A bar 2 at the same pitch.
+- P's second bar has the rhythm of the scherzo's motive x.
+- Bar 106: Hn 1's D♯5 is left unresolved, like the scherzo's horn call.
+- Bar 108: Vln II's D♯4 is reinterpreted as E♭4; the finale's violas take D♯4 to E4 at its 219–220.
+- Bar 12: the German sixth is the finale's first chord, violas on E♭4 in both.
+- Bars 77–83: the bass moves A♭–E–C, the symphony's key cycle in small.
+- Movement I's bar 138 stop chord, for the record: bass D; Vln II D5/A♭5; violas F4/B4; Tpt 1 A♭4; Tpt 2 F4.
