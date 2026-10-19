@@ -1454,3 +1454,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept against the letter of the reading: Vln II over C.a. in octaves 91–93 (fugato); violas under Cl 1 at 38; Hn + Tbn 1 unison counter 97–102; Fl 1 with violas 109–110 (c241).
 - Do-not-touch: Fugato 85–96; violas' line 37–40; 97–102.
 - Cross-movement: none.
+
+## Cycle 308 (Expression; Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329)) → v309
+- Accepted: B.tbn and tuba f at 131 (were ff) under the low P theme, as at 27 and 167 (Adler PDF 316, 329) (recOne); Tpt 2 rests at 82 and enters on the ff strokes at 83 (part-only ff), completing c304's held brass at f; A♭4 stays in Hn 1 (Adler PDF 313, 316, 318) (dev, score.ly removeWithTag on tptTwo); horn call 13–14 '1. Solo' and 'espr.' (Adler PDF 304–305, 309), notes and dynamics unchanged (intro).
+- Open / not applied: None. Kept: no mutes or stopped horn; unslurred ff brass motto 117–121; trumpets ff at 32 (finale quotes it); trombones mf at 12; trumpets pp at 113.
+- Do-not-touch: Horn call notes 13–14; Tpt ff at 32.
+- Cross-movement: Information only: horn call gets text only; mvt1.md climax note updated for 82.
