@@ -181,6 +181,36 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 250 (lens 10 cyclic, Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (third pass)) v250 → v251
+c250 lens 10 cyclic: short names in F/in C, page 1 numbered, mm-rest bar ranges in parts, Cl muta in B♭ at 376. The finale's IV 9 takes the closing figure's rhythm, instrument and dynamics, not its pitches (scherzo B–B–B–E, finale G–G–G–G). Keep the transfers at 369/375 (c150).
+
+## Cycle 249 (lens 9 holistic, Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (third pass)) v249 → v250
+c249 lens 9 holistic (Tchaikovsky 6/iii, Rimsky Ex. 275–312): no change. Keep the brass and timpani economy, the soft wind solos over harp and pizzicato, the four colourings of T, the 197–200 layering, the hemiola cadences, and the closing page 357–376.
+
+## Cycle 248 (lens 8 expression, Aldwell & Schachter Unit 3 Rhythm and Meter: accent, hypermeter (aldwell-schachter PDF 47-57) (third pass)) v248 → v249
+c248 lens 8 A&S Unit 3: timpani roll 205–208 sustained, crescendo into 209. Keep the accents on the second idea's first minim, the cadential hemiolas, the tied A in the trio tune, timpani at 100–101/240/252, Hn 3·4 at 205–208, and the tempo-word placement.
+
+## Cycle 247 (lens 7 texture, Rimsky-Korsakov ch. III overlaying, crossing and enclosure (rimsky-principles PDF 106-114) and the examples cited (third pass)) v247 → v248
+c247 lens 7 Rimsky ch. III: Bsn 1 F♯4 at 216 (was D♯4). Keep Hn 2's E4→D♯4 at 214–216 (c093/c157), the Hn 1·2 sixths (c094), the doubled third at 80 (c132), horns inside the reeds at 75–76/82–83 (c104/c147), and the closing page.
+
+## Cycle 246 (lens 6 playability, Adler App. A ranges, professional and amateur limits (adler2 PDF 302-312) (third pass)) v246 → v247
+c246 lens 6 ranges (Adler App. A): Bsn 1·2 breath marks at the end of 104/304 with Hn 3·4. Keep Hn 1's last G♯ at 368–376 (Hn 3 covers the breath), the arco/pizz. changes at 205/225 (c096), and "senza sord." for Hn 3·4 at 73.
+
+## Cycle 245 (lens 5 engraving, Gould introduction and contents (gould-behind-bars PDF 7-13), then a second pass over PDF 17-68 for any rule not yet checked (third pass)) v245 → v246
+c245 lens 5 engraving (Gould): Hn 1 solo labels/hidden Hn 2 rests 357–366, Cb tutti/pizz. two lines at 3, Bsn scherz. 269, harp rest spacing 149/151. Keep the clef plan (Hn 3·4 bass clef 301–330, harp bass clef 341–344), the double barlines at the section joins, beams.ily and stems.ily, and the closing page's spacing.
+
+## Cycle 244 (lens 4 orchestration, Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54) (third pass)) v244 → v245
+c244 lens 4 brass (Adler ch.11): no change. Keep the trombones' first entry at 101 and their rest from 121 to 332, the single-horn ff at 101–104/301–304/333–338, the paired tenor horns at 105–120, and the timpani alone at 89–100.
+
+## Cycle 243 (lens 3 form, Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground (third pass)) v243 → v244
+- No change from the critic (pacing confirmed against Adler ch. 15, 17). Composer: Cb "tutti pizz." at 3 (movement II ends 4 soli).
+
+## Cycle 242 (lens 2 harmony, Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529) (third pass)) v242 → v243
+- No change (harmony confirmed against A&S Units 28–29).
+
+## Cycle 241 (lens 1 melody, Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371) (third pass)) v241 → v242
+- No change (melody confirmed against A&S Unit 21).
+
 ## Cycle 240 (lens 10 cyclic, Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (third pass)) v240 → v241
 - No score change; joins with I v261, II v252, finale v234 checked; records corrected (closing timpani dynamics; 9–12 timpani motive x framing the finale's bar 9).
 - Do-not-touch: timpani motive x at 9–12 (finale v231 bar 9).
