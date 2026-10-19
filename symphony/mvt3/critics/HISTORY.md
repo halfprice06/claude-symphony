@@ -927,3 +927,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 187-194 Bn 1 doubles the cellos' counter-melody at pitch, p, breath after 190 (Adler PDF 176, 178-179); Bn 2 and all string notes unchanged. 27-34 Cl 1·2 a2 double the violins' countersubject at pitch, f, mf at 35 (Adler PDF 172, 178); their old held notes duplicated the horns. global.ily breaks kept 16 pages (Vln II "unis." label part-only at 27).
 - Note for finale.md: Cl a2 with the countersubject 27-34; Bn 1 with the cello counter-melody 187-194.
 - Do-not-touch: 223-234 with 222→223; 247-254; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 218 (v218 → v219), lens 8 expression (Adler ch. 2 bowing, third pass)
+- Accepted (bow signs only): 199-204 movement I's bowing of I 27-32 (down-bow pickup, hooked up-bow at 200, down-bows at 204; violas' up-bow below the note) (Adler PDF 38, 42-43; answers c175 by c186 and movement I's own marks); 90-94 down-bows on every accented quarter (PDF 42-43; c167/c168 layout unchanged); 167 up-bow in Vc/Cb so the B ends at the frog before the pizz. at 171 (PDF 54); 9-10 crescendo starts up-bow so the f accent at 10.3 is down-bow (PDF 38).
+- Note for finale.md: 199-204 carries movement I's string bowing.
+- Do-not-touch: 223-234 with 222→223; 247-254 with c186 bowing; both chorale top lines and the cut at 264.1; 259-263; 273-279.
