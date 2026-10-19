@@ -1766,3 +1766,10 @@ lens 3, form; Rimsky-Korsakov ch. IV (PDF 115-136). Report: reports/c273.md.
 ### Cycle 277 (texture, Adler ch. 16) — v278
 - Accepted: 1. viola triplets at 57–58 off Hn 1's counter-line notes.
 - Do-not-touch: build order 53–61; viola sextuplets 59–60; c060 Bsn 2 at 72; c021 thin texture 37–40; standing list; 8-page layout.
+
+
+
+### Cycle 278 (expression, Casanelles ch. 4, 6) — v279
+- Accepted: 1. strings tied 65→66; 2. clarinets slurred and tied 57–59; 3. C.a. tied 32→33.
+- Open: re-attacks at 3–4 and Hn 4's MIDI/score mismatch there.
+- Do-not-touch: release plan 80–83; build 53–61; horn solos 7–14, 67–70; plagal close 87–92.
