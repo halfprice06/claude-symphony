@@ -1432,3 +1432,12 @@ Lens 8 expression (Casanelles ch. 4, PDF 123–145). Report: reports/c228.md.
 - Recorded (no change): 53–61; 79–80; 89; vibrato.
 - Open: viola part "rit." at 89 (cycle 235).
 - Do-not-touch: builds 53–61, 75–79; releases 80–83; 87–92 hand-over; 1–6 link; quotations; plagal close; MIDI volume table; the 8-page layout.
+
+
+## Cycle 229 (v229 → v230)
+Lens 9 holistic (Beethoven 7/ii; Adler ch. 5 examples, PDF 137–165). Report: reports/c229.md.
+- Accepted: 1. Cb mf at 28 (PDF 151).
+- Recorded (no change): 53–56; 48–51; 87; 71–78; 61–64; nothing worse than v219.
+- Open: viola part "rit." at 89 (cycle 235).
+- Do-not-touch: standing list; the 8-page layout.
+- Masters used in the third series: Brahms 2/ii (c209), Dvořák Cello Concerto/ii (c219), Beethoven 7/ii (c229).
