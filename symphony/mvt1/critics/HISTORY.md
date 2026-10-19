@@ -1430,3 +1430,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Considered and rejected: E♭6 at 36; A♭ bass at 157 (would anticipate the fff ♭VI at 160). Cross-relation G5/G♭ at 59→60 kept (cello line softens it; fixes break S or the bass mvt II quotes).
 - Do-not-touch: Transition route 33–46; dominant pedal 117–130.
 - Cross-movement: none.
+
+## Cycle 304 (Orchestration; Casanelles ch. 6 spectral orchestration and acoustic mixing in Mahler's First Symphony (hyper-orchestra PDF 257-290)) → v305
+- Accepted: Held brass f at 82 under the ff A♭ head, strokes ff at 83, as at 27–32, 131, 160, 167 (Casanelles PDF 271–272, 287, 289); Tpt 2 stays ff (shares Tpt 1's staff) (dev). Hn 4 G3 at 23.4–24.2 (was G2: major third G2–B2 low over the B bass; harmonic-series spacing, PDF 259, 274; R-K PDF 124 as c259); G2 returns on accented 24.3 (tOne).
+- Open / not applied: None. Kept: Tpt 1 fff A♭5 at 160 (protected); held-brass lines 97–102, 117–121, 131–134.
+- Do-not-touch: Brass layout at 82 and climax order 82 < 122 < 160 (c244).
+- Cross-movement: none (mvt1.md climax note: held brass f at 82).
