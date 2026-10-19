@@ -181,6 +181,12 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 262 (lens 2 harmony, Aldwell & Schachter Unit 27 Seventh chords with added dissonance (aldwell-schachter PDF 463-481) (third pass)) v262 → v263
+c262 lens 2 A&S Unit 27: Hn 1·2 move to G on beat 3 of 47. Keep the trio's horn drone under V7 at 155/160, the 9–8 at 200, the flat 9ths at 111/311, 126/282 and 337, the bassoon's E3 at 347, the plain V7 at 101–104, and the horns' held notes elsewhere in 45–56.
+
+## Cycle 261 (lens 1 melody, Aldwell & Schachter Unit 3 Rhythm and Meter (aldwell-schachter PDF 47-57) (third pass)) v261 → v262
+c261 lens 1 A&S Unit 3: no change. Keep theme A's metric placement, the second idea's 3/2 and its cadential hemiola (c002, c085), the four-bar phrasing of the themes with the three-bar groups at 89–100, the trio tune's dissonances at 156/160/162/165–166, and Ob 1's sixth at 129/285 (c131).
+
 ## Cycle 260 (lens 10 cyclic, Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (third pass)) v260 → v261
 c260 lens 10 cyclic: no score change; theme record +10 exact-pitch lines (kit/themecheck_abs.py). Told the finale its bar 1 needs "arco" for cellos and basses after the scherzo's pizz. ending.
 
