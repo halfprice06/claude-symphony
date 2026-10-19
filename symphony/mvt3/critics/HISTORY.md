@@ -850,3 +850,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Rejected: A-major VI♯ at 239 (235-247 plan protected; 243 stays the only chromatic mediant).
 - Note for finale.md: 97 is the violas' first E♮ (E4, p, over B♭3); 95.4 D5 in Vln I/Ob 1.
 - Do-not-touch: bars 1-2; 113-115; 235-247 plan; 187-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 204 (v204 → v205), lens 4 orchestration (Rimsky tutti chords, third pass)
+- Accepted: harp C-major glissando C4-G6 ff on 277 beat 4 into the final chord 278 (Rimsky appendix chords 17-18, PDF 134, 136); answers c114's reasons (it fills the close's only quarter rest); G6 stays under the C7 reserved for 223; harp part gets a Vln I cue at 275-276.
+- Also (composer, following movement I v225 cycle 224): 200-203 inner brass no longer double the chromatic bass, as at I 28-31: Tpt 2 G4 (200), B♭4 (202); Tpt 3 F4 (200), F4 (201), G4 (202), A♭4-F4 (203); Hn 2 G4 (202). finale.md updated.
+- Rejected: wind trills (protected places; 209-210 would blur the G♭6 seventh); tuba octave at 91-94 (c194 stands); more percussion.
+- Do-not-touch: 273-279 apart from the harp glissando; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; percussion plan.
