@@ -1726,3 +1726,10 @@ lens 3, form; A&S Unit 32 (PDF 584-606). Report: reports/c263.md.
 ### Cycle 271 (melody, Rimsky ch. II winds) — v272
 - Accepted: 1. C.a. eighth at 37 b1 (flute alone on theme B's first note).
 - Do-not-touch: c139 overlap at 36–37; 48–50 C.a. quotation without Vln II doubling; Hn 1/Cl 1 unison 53–56; standing list; 8-page layout.
+
+
+
+### Cycle 272 (harmony, A&S Units 11–13) — v273
+- Accepted: 1. II6/5 at 9 b3 (Bsn 2 B♭2 tied into 10).
+- Open: chord thirds at 50–51 only in viola off-beats.
+- Do-not-touch: horn solo 7–14; V4/3 at 74; IV→vi7 at 41/57; standing list; 8-page layout.
