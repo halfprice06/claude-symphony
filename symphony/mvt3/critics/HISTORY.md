@@ -1120,3 +1120,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 2 harmony, A&S Units 30-31 (PDF 530-583, third pass).
 - Accepted: 92.1 common-tone diminished seventh E♭-F♯-A-C over the E♭ bass resolving to I, so the two ff codetta bars 91-92 are no longer identical; top line G-G-A♭ | F♯-G-A♭ (A&S PDF 543-545, Ex. 30-19 to 30-21). Rhythm, bowings, dynamics unchanged; no E♮ added.
 - Rejected: augmented triad in major at 77, 212, 197, 209-210, 81.4, 250, 271 (protections, the reserved E♭→E♮ step, clashes); V7♯5 at 72 and 93.4.
+
+## Cycle 253 (v253 → v254), lens 3 form (A&S Units 6-8, third pass)
+- Lens 3 form and phrase, A&S Units 6-8 (PDF 92-133, third pass). No change to the score.
+- Rejected: 72 V6/5 in place of root V7 (bass D): the violas' and cellos' counter-line has D4 on 72 beats 1-2, so the leading tone would be doubled with the bass (A&S PDF 122 on V6/5 voicing); c232's falling-fifth chain C7-Fm7-B♭7-E♭ is kept. Also not applied: 56-57 and 128-129 (protected), 192-193 (protected).
+- Kept: proportions (exposition 35%, development and retransition 18%, recapitulation 16%, coda 31%) and the coda stages; 76-77.
