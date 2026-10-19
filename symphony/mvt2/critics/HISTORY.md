@@ -1449,3 +1449,10 @@ Lens 10 cyclic (Casanelles ch. 1, PDF 15–36). Report: reports/c230.md.
 - Recorded (no change): joins with I v241, scherzo v221, finale v218; theme records; overtone layout; cyclic timbres; loudness vs register.
 - Open: viola part "rit." at 89 (cycle 235).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 231 (v231 → v232)
+lens 1 melody; Sebesky ch. 5 Voices, PDF 197–203. Report: reports/c231.md.
+- Accepted: nothing (v232 = v231 relabelled).
+- Recorded (no change): theme ranges fit one voice (A a twelfth, B an octave and a step; Ex. 260; Dvořák 9/ii C.a. also a twelfth); wind phrases 10–16 s with breaths before pickups (Ex. 261, 267); Cl 1's breath after 86 kept (protected breath plan, c226); motion under held notes (Ex. 261; 54 b3–4 kept, c201); head cells recur (Ex. 268); doubling plan (PDF 200, 203, Ex. 263); inner lines singable (Ex. 259).
+- Do-not-touch: standing list; the 8-page layout.
