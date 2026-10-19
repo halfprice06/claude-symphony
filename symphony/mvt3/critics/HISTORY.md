@@ -962,3 +962,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 38 beats 3-4 cadential 6/4 B♭-E♭-G♭ → B♭-D-F before the half cadence on V of E♭ at 39 (A&S PDF 259, 306-307, 314, 316-317); seven accompaniment parts (Hn 1, Bn 1, Hn 3, Tbn 1, Cl 1, Vla, Vc); F1 melody, Fl 1 A♭5 39-42 and dynamics unchanged.
 - Kept: coda proportions and stage tempi (c043/c063); repeated neighbouring IV6/4 over the tonic pedal (263-279 protected); 189.1 passing 6/4.
 - Do-not-touch: 39-42 Fl 1 A♭5; 135-171; 263-279.
+
+## Cycle 224 (v224 → v225), lens 4 orchestration (Adler ch. 15, third pass)
+- Accepted: 187-194 Ob 1 doubles Vln I's F2 at pitch, p dolce, breath after 190, rest 195-196 (Adler PDF 178-179); 187-198 now has its own colour against 67-82 (strings + harp). 95-96 the held chord under the oboe solo starts mp > (Cl 1·2, Bn 2, Vln II, Vla, Vc, Cb) (PDF 159, 184); violas' pitches and E♭4→E4 unchanged.
+- Kept: 205-206 F1 head in four horns (protected, rescored three times). Note: 187-194 now has clarinet background (c207), Bn 1 counter-melody (c217) and Ob 1 tune doubling; no further thickening there.
+- Note for finale.md: Ob 1 with Vln I 187-194; mp at 95.
+- Do-not-touch: 187-198 scoring as of v225; 205-210; violas 95-98.
