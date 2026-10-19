@@ -1892,3 +1892,10 @@ lens 5, engraving; Adler ch. 18 and App. A (adler2 PDF 291-312). Report: reports
 - Accepted: six score-only player labels on shared staves (41, 45, 61, 75, 79, 87).
 - Recorded (no change): B♭6 ledger lines; shared-staff dynamics; parts book and score setup. Optional: English instructions.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 296 (v296 → v297)
+lens 6, playability; Adler ch. 12 timpani (adler2 PDF 55-91). Report: reports/c296.md.
+- Accepted: timpani stick changes at 65 (soft), 77 (medium, part only), 83 (soft).
+- Recorded (no change): D♭ roll restrike at 80 (optional tie, open); E♭ roll end at 81; drum ranges.
+- Do-not-touch: standing list; the 8-page layout.
