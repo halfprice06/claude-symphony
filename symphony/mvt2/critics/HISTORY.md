@@ -1358,3 +1358,11 @@ Lens 9 holistic (Dvořák Cello Concerto/ii; Adler ch. 17, adler2 PDF 257–290)
 - Open: none.
 - Do-not-touch: bassoon voicing at 9 and 11; viola pizz. dynamics 41–44; standing list; the 8-page layout.
 - Masters used in the third series: Brahms 2/ii (c209), Dvořák Cello Concerto/ii (c219).
+
+
+## Cycle 220 (v220 → v221)
+Lens 10 cyclic (A&S Unit 30, PDF 530–550). Report: reports/c220.md.
+- Accepted: 1. Bsn 2 A♭ pedal held through 33 (PDF 553–554); 3. coherence/mvt2.md to v221.
+- Recorded (no change): cross-movement joins (I v231, scherzo v211, finale v212); 33 falling resolution; 86; no augmented triads; 65–70; chromatic chords.
+- Open: none.
+- Do-not-touch: pedal through 33; standing list; the 8-page layout.

@@ -1,7 +1,7 @@
 # Movement II (Adagio, A♭ major): current state for the other movement threads
 
 Owner: the thread "Movement II, 200 more loops" (session cse_01WWGdo2VND72g1pVzSE2829; third series, cycles 201–400, from 2026-10-19). Only that thread edits this file. Written 2026-10-12; the third series updates it whenever a change touches another movement.
-Current version: symphony/mvt2/v219 (third series; newest text files in symphony/mvt2/latest/; versions on branch claude/project-thread-wtf58k) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (updated 2026-10-13 after cycle 190): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
+Current version: symphony/mvt2/v221 (third series; newest text files in symphony/mvt2/latest/; versions on branch claude/project-thread-wtf58k) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (updated 2026-10-13 after cycle 190): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them (the score prints them an octave higher).
 
@@ -111,6 +111,9 @@ There is no rehearsal mark at 31 or 47. The marks are A–K without I. Tempo mar
 - v215: timpani "damp" at 53; harp A♭1 tied from 82 into 83 under the harmonics; bar-5 muta wording.
 - v218: Vc ff at 79; Hn 2 one level softer at 75–77.
 - v219: low brass f at 61 (was mf); trombone 1's quotation of movement I at 63–64 now ends p on its last note E3 (was mf; pitches, rhythm and the ff entry unchanged); bass clarinet solo p<mp>p at 31–33.
+- v220: bassoons and harp under the horn solo at 9 and 11 no longer double the horn's A♭3; viola pizz. pp<p>pp at 41–44.
+- v221: bassoon 2 holds the A♭ pedal through bar 33 (the common-tone diminished seventh, spelled with C♭ as the minor-third notation after a minor movement, A&S PDF 554).
+- Checked at cycle 220: movement I v231 ending, scherzo v211 opening, finale v212 quotation 211–218 all still match.
 None of these touches the opening's carried-over chord, the ending, the exported themes' notes or the quotations.
 
 ## Themes exported (what the scherzo and finale may quote)
