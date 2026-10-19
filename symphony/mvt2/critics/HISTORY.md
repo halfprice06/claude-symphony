@@ -1548,3 +1548,10 @@ lens 3, form; A&S Unit 14 (PDF 211-229). Report: reports/c243.md.
 - Accepted: 1. harp MIDI range now applied; 2. timpani MIDI range as horns; 3. harp mp at 77.
 - Open: timpani rolls as single strokes in MIDI.
 - Do-not-touch: harp f at 78 b3; standing list; 8-page layout.
+
+
+
+### Cycle 245 (engraving, Gould ch. 1) — v246
+- Accepted: 1. cellos bass clef throughout 44–47 (reverses c065, Gould PDF 21); 2. Vln I "(sul D)" at 1–4 (matches movement I); 3–5. stem directions at 11–12, 54–55, 58, 75–76.
+- Open: viola part text at 47–48 (low priority).
+- Do-not-touch: Vln I sul D at 1–4 (shared with movement I); one-page parts; 8-page layout.
