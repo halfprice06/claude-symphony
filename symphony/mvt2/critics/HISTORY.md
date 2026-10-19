@@ -1794,3 +1794,10 @@ lens 1, melody; Adler ch. 3 (adler1 PDF 71-109). Report: reports/c281.md.
 - Accepted: Vln II "sul A" at 62 (F♭5 off the open E string).
 - Recorded (no change): string colours, theme B's stepwise phrase, skips and shifts, solo violin, basses. Open (optional): cellos sul D at 23-30, 71-78.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 282 (v282 → v283)
+lens 2, harmony; A&S Unit 17 (PDF 263-288). Report: reports/c282.md.
+- Accepted: viola 42 b3 A♭3-E♭4-A♭3 (no doubled leading tone in octaves with the cellos into 42 b4).
+- Recorded (no change): doubled G at 24 and 72 b3; doubled C at 36 b3 and 52 b4.
+- Do-not-touch: standing list; the 8-page layout.
