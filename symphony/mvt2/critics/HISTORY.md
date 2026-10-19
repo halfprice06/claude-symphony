@@ -1801,3 +1801,10 @@ lens 2, harmony; A&S Unit 17 (PDF 263-288). Report: reports/c282.md.
 - Accepted: viola 42 b3 A♭3-E♭4-A♭3 (no doubled leading tone in octaves with the cellos into 42 b4).
 - Recorded (no change): doubled G at 24 and 72 b3; doubled C at 36 b3 and 52 b4.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 283 (v283 → v284)
+lens 3, form; A&S Units 16 and 19 (PDF 249-262, 304-325). Report: reports/c283.md.
+- Accepted: nothing (v284 = v283 relabelled).
+- Recorded (no change): No change. Recorded: 1. theme cadences at 12-14, 28-30, 76-78, 80-82 keep II6/5-ii7-V7-I (Dvorak 9/ii uses weak-beat 6/4s and plagal ends; here the single plagal close is kept for the coda; do not bring back cycle 12's beat-3 6/4s); 2. updated list of 6/4 chords: 5, 21 b2 (passing I6/4, 19 par. 5), 38 b4, 43 b2, 43 b3, 68 b3, and one eighth at 74 b3, replacing c133's list; 3. key plan I-IV-flat VI-V-I works as prolongation; 4. retransition 65-70 is a dominant prolongation (8-7-6-5 over 6-5-4-3, passing 6/4 at 68); 5. coda bass A-flat pedal then A-flat-F-D-flat-A-flat fine.
+- Do-not-touch: standing list; the 8-page layout.
