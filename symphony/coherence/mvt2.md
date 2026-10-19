@@ -1,7 +1,7 @@
 # Movement II (Adagio, A♭ major): current state for the other movement threads
 
-Owner: the thread "Movement two loops, cycles 181–200". Only that thread edits this file. Written 2026-10-12.
-Current version: symphony/mvt2/v201 (FINAL; the 200-cycle loop ended 2026-10-13) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (updated 2026-10-13 after cycle 190): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
+Owner: the thread "Movement II, 200 more loops" (session cse_01WWGdo2VND72g1pVzSE2829; third series, cycles 201–400, from 2026-10-19). Only that thread edits this file. Written 2026-10-12; the third series updates it whenever a change touches another movement.
+Current version: symphony/mvt2/v211 (third series; newest text files in symphony/mvt2/latest/; versions on branch claude/project-thread-wtf58k) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (updated 2026-10-13 after cycle 190): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them (the score prints them an octave higher).
 
@@ -101,6 +101,15 @@ Key signatures are set in global.ily. Harmonic labels come from the section file
 
 There is no rehearsal mark at 31 or 47. The marks are A–K without I. Tempo markings in full: Adagio crotchet = 52 (1); poco rit. (35); Poco più mosso crotchet = 60 (37); poco rit. (47, beat 3); poco sostenuto (48); a tempo, poco a poco animando (53); poco allargando (60); Largamente crotchet = 54 (61); allargando (64); Tempo I crotchet = 52 (65); poco allargando (78); a tempo (83); rit. (89).
 
+## Changes in the third series (cycles 201–, from 2026-10-19)
+- v202: counter-melody 54–55 as above; cellos E♭2 at 55 b1–2.
+- v203: Vln II A5 at 49 b1–2 (third of F♯ minor).
+- v205: double basses divided in octaves at 23–28.
+- v208: violas A♭3 at 27 b2.
+- v209: "mettere sord." for Vln I (not the soloist), Vln II, Vla, Vc at bar 4.
+- v211: bar 64 b4, cellos B2 (was E2): the chord under the end of the trombone quotation is a complete German sixth of A♭ (E2–B2–G♯3–D4 = E7, V7 of A minor), every voice falls a semitone into E♭7 at 65. The trombone quotation's notes are unchanged.
+None of these touches the opening's carried-over chord, the ending, the exported themes' notes or the quotations.
+
 ## Themes exported (what the scherzo and finale may quote)
 
 **Theme A** (first statement 6 beat 3–14, Horn 1 solo, p, "dolce espr.", concert pitch):
@@ -116,7 +125,7 @@ There is no rehearsal mark at 31 or 47. The marks are A–K without I. Tempo mar
 
 **Other material.**
 - Horn 3's plagal neighbour C4–D♭4–C4 over iv6/4 at 3–6, answered by the coda's F–F♭–E♭ line (87–89).
-- Horn 1 and Clarinet 1 counter-melody at 53 (beat 4)–56: A♭3 B♭3 | D♭4. F4 B♭4 | G♭4 | C4 D♭4, built on theme A's head.
+- Horn 1 and Clarinet 1 counter-melody at 53 (beat 4)–56: A♭3 B♭3 | D♭4. F4 B♭4~ | B♭4 G♭4 | C4 D♭4, built on theme A's head (since v202 the B♭4 is tied into 55 and G♭4 comes on beat 3).
 - Timpani answer E♭3–C3–A♭2 at 84–85 (theme A's arpeggio falling).
 - Harp harmonics A♭–C–E♭ at 83.
 

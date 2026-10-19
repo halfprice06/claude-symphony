@@ -1277,3 +1277,11 @@ Lens 9 holistic (Brahms 2/ii; Rimsky-Korsakov tutti chords, PDF 505–507). Repo
 - Open: none.
 - Do-not-touch: standing list; the 8-page layout.
 - Masters used in the third series: Brahms 2/ii (c209).
+
+
+## Cycle 210 (v210 → v211)
+Lens 10 cyclic (A&S Unit 29, PDF 518–529). Report: reports/c210.md.
+- Accepted: 1. Vc B2 at 64 b4 (complete German sixth into E♭7 at 65; PDF 524); 3. coherence/mvt2.md updated to v211.
+- Recorded (no change): cross-movement links hold (I v221, scherzo v201, finale v207); 21; 50–51; coda; 59.
+- Open: none.
+- Do-not-touch: Vc B2 at 64; no seventh on the A♭ chord at 31–36; standing list; the 8-page layout.
