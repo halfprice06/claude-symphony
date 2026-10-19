@@ -1621,3 +1621,9 @@ lens 3, form; A&S Unit 26 (PDF 442-461). Report: reports/c253.md.
 ### Cycle 255 (engraving, Gould beams) — v256
 - Accepted: 1. Ob 1 part stems at 61–82; 2. score-only up-stems tagged; 3. parts beam-slope rule in genparts.py.
 - Do-not-touch: score beams and stems; viola stems 37–60; score up-stems for Ob 1 at 61–62; one-page parts; 8-page layout.
+
+
+
+### Cycle 256 (playability, Adler ch. 3) — v257
+- Accepted: 1. Vln I sul D at 89–92; 2. Cb "change bow at will" at 79–80.
+- Do-not-touch: string colour plan (sul D at 1–4 and 89–92); divisi and double stops at 61–64, 80–81; c118/c246 violin bows 77–80; 8-page layout.
