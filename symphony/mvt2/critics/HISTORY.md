@@ -1753,3 +1753,10 @@ lens 3, form; Rimsky-Korsakov ch. IV (PDF 115-136). Report: reports/c273.md.
 - Accepted: 1. flute stems at 61–80 (Fl 1 up, Fl 2 down at 79–80).
 - Open: viola part text placement (compact title block first).
 - Do-not-touch: one-page parts within MOLA margins and staff size; 8-page layout.
+
+
+
+### Cycle 276 (playability, Adler ch. 6–7) — v277
+- Accepted: 1. C.a. p at 32–34; 2. viola part title block and 47–48 texts; 3. Fl "1." at 63.
+- Open: viola part texts at 53, 78 (cosmetic).
+- Do-not-touch: woodwind register and breath plan; 87–92 clarinet hand-over; standing list; 8-page layout.
