@@ -1400,3 +1400,10 @@ Lens 4 orchestration (Sebesky ch. 2 brass, PDF 39–55). Report: reports/c224.md
 - Recorded (no change): 60; 61–62 low octaves; horn pairs; horn unisons; 63–64.
 - Open: none.
 - Do-not-touch: Tbn 2 A♭3 at 62; standing list; the 8-page layout.
+
+
+## Cycle 225 (v225 → v226)
+Lens 5 engraving (MOLA Ex. 1–7, PDF 9–12). Report: reports/c225.md.
+- Accepted: 1. tempo words beside letters in parts; 2. boxed letters in parts; 3. Cl 1 rest 71–76 as one number; 4. Cb text at 2.
+- Open: 5. viola part "rit." at 89 placement (test "lower half sul C" below the staff in the part; else consider a turn at 31–36) — for cycle 235.
+- Do-not-touch: parts letter/tempo layout; standing list; the 8-page layout.
