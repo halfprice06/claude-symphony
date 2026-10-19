@@ -1424,3 +1424,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: Hn 4 G3 under A♭3 at 122 (inner-pedal 9th, PDF 471); A♭ at 83 answered at 85; 106.3, 150, 159.1, 178.3.
 - Do-not-touch: Bass, tune, rhythm and dynamics of 27–32 (c224, c270).
 - Cross-movement: Finale (quotes 27–32 at its 199–204, 'Tpt 2 G4 at 200'): told to take F4 on the stroke matching I 28 beat 3; mvt1.md v225 line corrected.
+
+## Cycle 303 (Form, pacing and proportion; Aldwell & Schachter Unit 15 III and VII (aldwell-schachter PDF 230-247)) → v304
+- Accepted: No change (form vs A&S Unit 15: key plan C–E♭–A♭–D–F–G–C as III–VI–II–V–I, transition via B♭ to E♭, 96→97 chromatic shift, 14-bar dominant pedal, 156–159 ♭VII–iv–6/4–V7, phrase lengths; proportions 67/124/105/75/59 s, 431 s).
+- Open / not applied: None. Considered and rejected: E♭6 at 36; A♭ bass at 157 (would anticipate the fff ♭VI at 160). Cross-relation G5/G♭ at 59→60 kept (cello line softens it; fixes break S or the bass mvt II quotes).
+- Do-not-touch: Transition route 33–46; dominant pedal 117–130.
+- Cross-movement: none.
