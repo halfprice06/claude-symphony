@@ -839,3 +839,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Rejected: Fl 1 an octave above with Ob 1 at the unison (PDF 78): adds a page; Fl+Ob unison: page 2 compressed.
 - Note for finale.md: 35-38 Fl 1 doubling (no effect on other movements).
 - Do-not-touch: 39-42 Fl 1 held A♭5; F2 solo scoring 51-66; chorale; horn call 243-246; 205-206 horn unison.
+
+## Cycle 202 (v202 → v203), lens 2 harmony (A&S Units 11-13, third pass)
+- Accepted: 169 violas resolve the iiø7's seventh C4 down to B3 (was up to D4), D4 at 170 (A&S PDF 177, 191); the exposition got the same fix in c112.
+- Rejected: 16.3 seventh on beat 3 (would leap or break protected 11-18); deceptive cadence to IV6; I-IV6-I6; ii7 before a cadential 6/4 (all 6/4s protected); 197-198 IV6/5-V6/5-I (melody 1-2-5, protected bass).
+- Do-not-touch: 11-18; 26 deceptive cadence; cadential 6/4s at 109, 151, 220, 243; 197-198 bass line.
