@@ -1235,3 +1235,11 @@ Lens 4 orchestration (Rimsky-Korsakov ch. I, PDF 24–50). Report: reports/c204.
 - Recorded (no change): flute at 37; brass 60–62; harp 53–56; timpani; 87–90.
 - Open: none.
 - Do-not-touch: Cb octaves 23–28; standing list; the 8-page layout.
+
+
+## Cycle 205 (v205 → v206)
+Lens 5 engraving (Gould ch. 2, PDF 58–68). Report: reports/c205.md.
+- Accepted: 1. Bsn 2 solo mode 57–58 (normal stems; PDF 60–61, 65); 2. Cl 2 dotted half at 90 (PDF 67–68).
+- Recorded (no change): separate stems at 30, 69, 82 (independent parts); rest at 78; dots and noteheads.
+- Open: none.
+- Do-not-touch: items above; standing list; the 8-page layout.
