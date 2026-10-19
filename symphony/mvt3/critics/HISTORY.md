@@ -1183,3 +1183,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 151–164: Tbn 1·2 mf (were f) under the clarinets' broken chords and Hn 3·4 off-beats, crescendo on 165 to f at 166 (Casanelles PDF 286–289, Rimsky PDF 51). Accepted; no notes change in the protected range.
 - 215–218: Tbn 2 C3–D♭3–D♭3–D♭3 (was A♭2 a minor third above B.tbn F2), C3 at 219 (Rimsky PDF 85). Accepted; doubled D♭s still at 219.
 - 200 beat 3 (composer, coherence): Tpt 2 F4 (was G4) following movement I v303's bar 28, vii°4/3 with Tpt 1 B4. Accepted.
+
+## Cycle 265 (v265 → v266), lens 5, Adler ch. 2 bowing notation
+- 217: `\textLengthOn` so "change bow at will" (Vln II, Vc, Cb) no longer crosses the 217|218 barline (Adler PDF 39; MOLA PDF 10). Accepted.
+- 119 and 122: Vln I octave answers written as two voices, "2 soli" upper and "gli altri" lower, replacing the inconsistent "div." at 122 (Adler PDF 30–32). Accepted; pitches unchanged.
+- 92: "sim." replaces the repeated down-bow marks of 91 in all strings (Adler PDF 38, 43–45). Accepted.
+- 91: Vln II "non div." on the double stops, as the violas (Adler PDF 30). Accepted.
