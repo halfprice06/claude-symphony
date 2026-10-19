@@ -1899,3 +1899,10 @@ lens 6, playability; Adler ch. 12 timpani (adler2 PDF 55-91). Report: reports/c2
 - Accepted: timpani stick changes at 65 (soft), 77 (medium, part only), 83 (soft).
 - Recorded (no change): D♭ roll restrike at 80 (optional tie, open); E♭ roll end at 81; drum ranges.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 297 (v297 → v298)
+lens 7, texture; Sebesky ch. 1 Basics (PDF 11-20). Report: reports/c297.md.
+- Accepted: nothing (v298 = v297 relabelled).
+- Recorded (no change): No change. MIDI scans for economy and focus over all 92 bars. Recorded: 1. violins in unison at 23-29 and 53-56 (protected plain statement, octaves from 57); 2. B.cl., Bsn 2, cellos together at 57 b1-2 (c157 proposal rejected under c124 rule); 3. Hn 1's counter-line starts on Vln II's A-flat 4 at 57 b1 for one softer beat (protected c160; recorded only); 4. Bsn 1, Hn 2, cellos counter-melody unison at 75-80 (protected c104). Harmonic variety of theme A at 7-9, 23-25, 71-72 partly follows; kept per c057, c157.
+- Do-not-touch: standing list; the 8-page layout.
