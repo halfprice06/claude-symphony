@@ -1375,3 +1375,11 @@ Lens 1 melody (Rimsky-Korsakov ch. V, PDF 137–149). Report: reports/c221.md.
 - Recorded (no change): 41; 48–51; 53–56; 65–70; 61.
 - Open: none.
 - Do-not-touch: viola triplets under the solo at 43–44; one-page viola part; standing list; the 8-page layout.
+
+
+## Cycle 222 (v222 → v223)
+Lens 2 harmony (A&S Unit 19, PDF 304–325). Report: reports/c222.md.
+- Accepted: 1. Vc C3 at 43 b4 (resolution of the cadential 6/4's 4th in another voice; PDF 306, 315–316).
+- Recorded (no change): 6/4 inventory; structural dominants; modulation plan.
+- Open: none.
+- Do-not-touch: link 1–6 with iv6/4 at 5; °7 and pedal at 33; viola triplets 43–44; Vc C3 at 43 b4; 67–69; 62–65; 87–92; the 8-page layout.
