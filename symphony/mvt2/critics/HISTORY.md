@@ -1661,3 +1661,9 @@ lens 1, melody; Rimsky-Korsakov ch. II strings (PDF 54-63). Report: reports/c261
 - Accepted: nothing (v262 = v261 relabelled).
 - Recorded (no change): No change. Recorded: 1. no cello cantabile on the A string (the only place, 71–78, would cross Vln II; protected); 2. Vln I vs Vln II + Vla at 71–78 would remove the viola figure; 3. crossing for prominence not needed; 4. basses alone on the bass at 23–28, 71–78 follows Ex. 12. Open for later cycles: theme B's opening (37–40) is almost all steps; theme B does not return after bar 61. Do-not-touch: string-doubling plan of both themes; Ob 1 + Vc sul D + Bsn 1 at 44–47; Vln II + Vc octaves at 61–62; cello counter-melodies.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+
+### Cycle 262 (harmony, A&S Units 9–10) — v263
+- Accepted: 1. bass at 49 changes with the chord (fis2 b,4 cis4); 2. Vc A♭2 at 43 b3 under the cadential 6/4.
+- Do-not-touch: c202 A5 at 49; Neapolitan at 49; c221 viola triplet; 67–70; standing list; 8-page layout.
