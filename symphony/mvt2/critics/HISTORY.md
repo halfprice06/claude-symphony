@@ -1654,3 +1654,10 @@ lens 3, form; A&S Unit 26 (PDF 442-461). Report: reports/c253.md.
 ### Cycle 260 (cyclic; A&S Unit 26 across the symphony) — v261
 - Accepted: 1. bar ranges over multi-bar rests in the parts; 2. score page 1 numbered; 3. horn short names "in F".
 - Do-not-touch: joins with movements I and III; plain last A♭ chord; one-page parts; 8-page layout.
+
+
+## Cycle 261 (v261 → v262)
+lens 1, melody; Rimsky-Korsakov ch. II strings (PDF 54-63). Report: reports/c261.md.
+- Accepted: nothing (v262 = v261 relabelled).
+- Recorded (no change): No change. Recorded: 1. no cello cantabile on the A string (the only place, 71–78, would cross Vln II; protected); 2. Vln I vs Vln II + Vla at 71–78 would remove the viola figure; 3. crossing for prominence not needed; 4. basses alone on the bass at 23–28, 71–78 follows Ex. 12. Open for later cycles: theme B's opening (37–40) is almost all steps; theme B does not return after bar 61. Do-not-touch: string-doubling plan of both themes; Ob 1 + Vc sul D + Bsn 1 at 44–47; Vln II + Vc octaves at 61–62; cello counter-melodies.
+- Do-not-touch: standing list; the 8-page layout.
