@@ -181,6 +181,27 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 257 (lens 7 texture, Sebesky ch. 1 Basics: balance, economy, focus, variety (sebesky PDF 11-20) (third pass)) v257 → v258
+c257 lens 7 Sebesky ch. 1: Vln II off-beats at 36/39; bass G♯ (I6) at 210 with cellos and Bsn 2 swapping, Hn 2 holds E4. Keep the plain first trio statement 153–168 and the coloured second 169–184, the strings-only fugato 57–68, the call and response 29–36, the codetta hand-overs 225–236, and the closing page.
+
+## Cycle 256 (lens 6 playability, Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50) (third pass)) v256 → v257
+c256 lens 6 Rimsky ch. I: "non arpegg." at harp 81/185/225 (below the stave; above made 15 pages). Keep Hn 1's C♯5 (c156/c166), Cl 2's octave leap at 332–333, the soft low clarinet at 83/87–88, pizz. basses alone at 170–184 and 252–268, and the arco→pizz. changes at 205/225 (c096).
+
+## Cycle 255 (lens 5 engraving, MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score (third pass)) v255 → v256
+c255 lens 5 MOLA parts: cues C.a. 101, strings 169, timpani 89; muta texts below the stave in parts. Keep the part system spacing (c165), the trumpet parts without key signatures, and no extra cues at rehearsal-letter entries (153, 357, 363).
+
+## Cycle 254 (lens 4 orchestration, Adler ch. 5 Scoring for Strings (adler1 PDF 125-167) (third pass)) v254 → v255
+c254 lens 4 strings (Adler ch. 5): no change. Keep the trio's string layering (153, 169–184, 209–224, 341–356), the strings-only fugatos 57–68 and 289–296, the viola off-beats at 106/113–116/306/313–316 (c207), the pizz. downbeats 225–240, the tutti 105–120 and 305–320, the peak at 336–339, and the closing page.
+
+## Cycle 253 (lens 3 form, Aldwell & Schachter Units 6-8 I, V, V7 and their inversions: phrase structure (aldwell-schachter PDF 92-133) (third pass)) v253 → v254
+c253 lens 3 A&S Units 6–8: no change. Keep the large form, the V pedal 89–104 and the F episode, the link 141–152 on a plain V, the retransition, theme A's period structure, the triad half cadences, the hemiola cadences, and the two-stage coda with the plagal close 357–360 and the G♯ ending.
+
+## Cycle 252 (lens 2 harmony, Aldwell & Schachter Units 30-31 Other chromatic chords; Chromatic voice-leading techniques (aldwell-schachter PDF 530-583) (third pass)) v252 → v253
+c252 lens 2 A&S Units 30–31: no change. Keep the B♮ against Cl 2's B♯ at 199–200, the viola leap at 296–297 (Bsn 1 resolves), the common-tone °7 at 358, and the ♭II6/4 at 331 (c081, c242).
+
+## Cycle 251 (lens 1 melody, Adler ch. 11 Scoring for Brass: melodic presentation (adler2 PDF 19-36) (third pass)) v251 → v252
+c251 lens 1 brass melody (Adler ch. 11): no change. Keep theme A, the trio tune with the coda hand-over 341–356, the stretto colour groups, the horn and cello tenor lines, the horns' beat-3 crotchets at 112/120/312/320, no horn at 209–224 and 349–356, and the closing page 357–376.
+
 ## Cycle 250 (lens 10 cyclic, Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (third pass)) v250 → v251
 c250 lens 10 cyclic: short names in F/in C, page 1 numbered, mm-rest bar ranges in parts, Cl muta in B♭ at 376. The finale's IV 9 takes the closing figure's rhythm, instrument and dynamics, not its pitches (scherzo B–B–B–E, finale G–G–G–G). Keep the transfers at 369/375 (c150).
 
