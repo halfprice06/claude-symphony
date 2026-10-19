@@ -1016,3 +1016,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 3 form, A&S Unit 18 (6/3 chords, PDF 289-303, third pass).
 - Accepted: 121 beat 2 passing pizz. F in cellos and basses (i4/2), so the bass to the G-minor Phrygian half cadence runs G-F-E♭-D stepwise (A&S PDF 298-299 Ex. 18-12); 88 accents removed inside the 6/3 series (Vln I, Vln II, Fl 1; PDF 291-292 Ex. 18-3).
 - Kept: 239-242 in root position, 57-58 and 177-178 unchanged (protected solos), coda proportions.
+
+## Cycle 234 (v234 → v235), lens 4 orchestration (Adler ch. 8, third pass)
+- Lens 4 orchestration, Adler ch. 8 (adler1 PDF 233-281, third pass).
+- Accepted: 101-102 and 105-106 bass clarinet doubles Bn 1 an octave below (E2, A2, p) under the string-free wind answers (Adler 257 Ex. VIII-25, 252-253, 260); 105 Cl 1 an octave lower, so the third statement of the scale figure spans Fl F6, Ob F5, Cl F4 (Adler 255, 250-251, 237).
+- Rejected: winds sustaining the 7-6 chain at 87-90 (protected); pad change at 82-83 (protected). Kept: 131 close chord.
+- Note: intro.ily comment corrected to the scherzo's closing timpani dynamics (pp, pp, ppp near the rim; scherzo v241).
