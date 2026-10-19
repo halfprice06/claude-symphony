@@ -1746,3 +1746,10 @@ lens 3, form; Rimsky-Korsakov ch. IV (PDF 115-136). Report: reports/c273.md.
 ### Cycle 274 (orchestration, Rimsky tutti) — v275
 - Accepted: 1. Vc C3 / Vla E♭4 at 51, exchanged at 52; 2. Vln II F♯–A at 50.
 - Do-not-touch: tutti chords 61–62, 79–81; release 80–83; C.a. quotation and viola off-beat figure; standing list; 8-page layout.
+
+
+
+### Cycle 275 (engraving, Gould spacing and double stems) — v276
+- Accepted: 1. flute stems at 61–80 (Fl 1 up, Fl 2 down at 79–80).
+- Open: viola part text placement (compact title block first).
+- Do-not-touch: one-page parts within MOLA margins and staff size; 8-page layout.
