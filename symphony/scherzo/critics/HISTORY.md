@@ -181,6 +181,15 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 260 (lens 10 cyclic, Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (third pass)) v260 → v261
+c260 lens 10 cyclic: no score change; theme record +10 exact-pitch lines (kit/themecheck_abs.py). Told the finale its bar 1 needs "arco" for cellos and basses after the scherzo's pizz. ending.
+
+## Cycle 259 (lens 9 holistic, Adler part 1 full-score examples in ch. 5 and 8 (adler1 PDF 137-165, 235-281) (third pass)) v259 → v260
+c259 lens 9 holistic (Schumann 4/iii, Adler ch. 5/8 examples): no change. Keep the light opening and the four-stage build of theme A, the cello F♯2 at 330, no cello doubling of theme A's dips at 15–16/255–256, and the plain first statement of T (c089, c224).
+
+## Cycle 258 (lens 8 expression, Sebesky ch. 1 focus and variety, ch. 6 melodic considerations (sebesky PDF 11-20, 204-218) (third pass)) v258 → v259
+c258 lens 8 Sebesky ch. 1/6: strings out at 240 under Hn 1's G♯; espress./dolce on doubling parts at 45/209/349. A printed hairpin at 238–240 makes 15 pages (six variants tried). Keep Hn 1's G♯ at 237–240 and its turn at 241, the timpani roll 237–240, the coda arc 325–339 with its single fff, Fl 1/Ob 1 unmarked at 45, and the closing page.
+
 ## Cycle 257 (lens 7 texture, Sebesky ch. 1 Basics: balance, economy, focus, variety (sebesky PDF 11-20) (third pass)) v257 → v258
 c257 lens 7 Sebesky ch. 1: Vln II off-beats at 36/39; bass G♯ (I6) at 210 with cellos and Bsn 2 swapping, Hn 2 holds E4. Keep the plain first trio statement 153–168 and the coloured second 169–184, the strings-only fugato 57–68, the call and response 29–36, the codetta hand-overs 225–236, and the closing page.
 
