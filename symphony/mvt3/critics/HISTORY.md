@@ -1093,3 +1093,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 7 (wind and brass combination), Rimsky-Korsakov ch. III (PDF 106-114, examples 151-167, 174), third pass.
 - Accepted: 49-50 Hn 1 D4 stopped, p, in the soft oboe-horn-clarinet chord before the trumpet solo (Rimsky PDF 107, 110 Ex. 164; adler1 PDF 308); 239-242 inner pad revoiced, horns hold the concords and bassoons take the moving notes below them (Hn 3 C4-C4-D4-D4, Hn 4 C4-A3-A3-A3, Bn 1 E3-F3-F3, F3→C4 at 242 resolving to B3 at 243; Rimsky PDF 108); c182's horn unison C4 at 239 kept. Tune, counter-melody, bass, harp and dynamics unchanged.
 - Kept: 101-102, 105-106 horn neighbour chord over the held bassoon.
+
+## Cycle 248 (v248 → v249), lens 8 rhythm (A&S Unit 3, third pass)
+- Lens 8 rhythm and metre, A&S Unit 3 (PDF 47-57, third pass).
+- Accepted: 93 the ff codetta's I chord enters on beat 2 as an accented half held across the half-bar, V on beat 4 as an upbeat, in all 26 parts (timpani r4 es2-> r4); 94.1 restores the metre (A&S PDF 51-52 Ex. 3-6 to 3-8; Eroica i). Replaces c219's down-bows at 93 only. 80-81 the diminuendo starts on the resolution F, not on the suspension's preparation (A&S PDF 53-55).
+- Rejected: hemiola (needs triple metre), sf at 111 (protected), F2 bowings, 132.
