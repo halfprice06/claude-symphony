@@ -1125,3 +1125,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 3 form and phrase, A&S Units 6-8 (PDF 92-133, third pass). No change to the score.
 - Rejected: 72 V6/5 in place of root V7 (bass D): the violas' and cellos' counter-line has D4 on 72 beats 1-2, so the leading tone would be doubled with the bass (A&S PDF 122 on V6/5 voicing); c232's falling-fifth chain C7-Fm7-B♭7-E♭ is kept. Also not applied: 56-57 and 128-129 (protected), 192-193 (protected).
 - Kept: proportions (exposition 35%, development and retransition 18%, recapitulation 16%, coda 31%) and the coda stages; 76-77.
+
+## Cycle 254 (v254 → v255), lens 4 strings (Adler ch. 5, third pass)
+- Lens 4 strings, Adler ch. 5 (adler1 PDF 125-167, third pass).
+- Accepted: 83-86 violas' broken-chord eighths mf (were f), since they run through the tune's lower octave and cannot be moved out of its register (Adler PDF 135, 144); 81.2-82 violas diminish with the violins and play mp < into 83; redundant mf at 87 removed. No note changed.
+- Rejected: pizz. basses at 67-74 (arco change at 67 is the texture change); cellos on the violins' descent at 39-42 (B♭ pedal; c237).
