@@ -1333,3 +1333,11 @@ Lens 6 playability (Adler part 1 ch. 10 trumpet/trombone, PDF 312–329). Report
 - Recorded (no change): low brass 60–64; Tbn 1 breath; pp entry at 60; trumpets tacet.
 - Open: none.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 217 (v217 → v218)
+Lens 7 texture (Sebesky ch. 3, PDF 164–173). Report: reports/c217.md.
+- Accepted: 1. Vc ff at 79 (reverses c074 for the cellos; PDF 164, 168); 2. Hn 2 p<mp at 75–77 (PDF 164, 166).
+- Recorded (no change): 79–80 string voicing; 63–64; 87–90; 53–56; 82.
+- Open: none.
+- Do-not-touch: Vc ff at 79 with horns f; Hn 2 one level under the cellos at 75–77; standing list; the 8-page layout.
