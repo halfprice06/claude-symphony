@@ -1068,3 +1068,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 2 harmony, A&S Units 28-29 (augmented sixths, PDF 482-529, third pass).
 - Accepted: 167-170 VI → French sixth A♭-C-D-F♯ (168) → V7♭9 over G (169) → V6/5 (170) → i (171), so the bass runs A♭-A♭-G-B-C and the root G sounds before the recap's Phrygian cadence at 177; the movement's first French sixth (A&S PDF 503-507, 512-515). Dynamics and diminuendo order unchanged.
 - Rejected: inner fifths 1-6 (protected, c002), augmented sixths at 243, 245-246, 38, 57/177, 147-150 and in the coda (protected or clashing).
+
+## Cycle 243 (v243 → v244), lens 3 form (Adler ch. 15, 17, third pass)
+- Lens 3 form, Adler ch. 15 and 17 (PDF 187-196, 256-290, third pass).
+- Accepted: 231-234 Vln I rests after the canon's C6 at 230 and re-enters with the pickup G4 mf at 234.4, so movement I's S head at 235 comes in on a rested colour (Adler PDF 263-264, 267-269); Fl 2 joins Fl 1 a2 on the top line; harp cue now quotes Vln II.
+- Kept: coda stage pacing, the break-offs at 94-95 and 113-114, F2's six statements, 115-122.
