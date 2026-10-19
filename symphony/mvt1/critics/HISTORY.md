@@ -1436,3 +1436,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: Tpt 1 fff A♭5 at 160 (protected); held-brass lines 97–102, 117–121, 131–134.
 - Do-not-touch: Brass layout at 82 and climax order 82 < 122 < 160 (c244).
 - Cross-movement: none (mvt1.md climax note: held brass f at 82).
+
+## Cycle 305 (Engraving and notation (Gould's *Behind Bars*, MOLA); Adler ch. 2 notation of bowings, divisi and harmonics (adler1 PDF 30-55) as engraving rules) → v306
+- Accepted: 'change bow at will' on Cb E♭1 tied 41–43 (12 beats sf>pp) (trans) and on the cello motto 3–4 (one 8-beat bow at Lento; slur kept, answers c226) (intro), as on the other long bass ties at 3, 13, 72, 117, 179 (Adler PDF 38–40, 108).
+- Open / not applied: None. Kept: Vc 117–121 measured semiquavers; arco→pizz at Vc 61→62, Cb 46→47; ff slurs Vc 140–142; Vla 'unis.' at 60; Vln I down-bow at 13.
+- Do-not-touch: Cello motto slur 3–4 (c226).
+- Cross-movement: none.
