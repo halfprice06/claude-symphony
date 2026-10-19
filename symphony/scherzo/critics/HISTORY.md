@@ -180,6 +180,38 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 230 (lens 10 cyclic, Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (third pass)) v230 → v231
+- Accepted: MIDI fades at 362–364 and 372–375 via CC11, last bar \mt 50 (print unchanged). Joins with I v251, II v240, finale v226 checked.
+
+## Cycle 229 (lens 9 holistic, Rimsky-Korsakov examples No. 126-200 (rimsky-principles PDF 305-375) (third pass)) v229 → v230
+- No change (Beethoven 5/iii comparison; v219→v229 nothing worse).
+- Do-not-touch (critic): soft horn–bassoon voicing at 201–204.
+
+## Cycle 228 (lens 8 expression, Adler ch. 11 climactic uses of brass (adler2 PDF 37-40) and ch. 15 special effects (adler2 PDF 187-196) (third pass)) v228 → v229
+- No change (expression confirmed against Adler PDF 37–40, 187–196).
+
+## Cycle 227 (lens 7 texture, Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) (third pass)) v227 → v228
+- Accepted: Vln II off-beats out of the tune's unison at 15–16/31–32; Hn 1 rest at 242 (Adler PDF 259–274).
+
+## Cycle 226 (lens 6 playability, Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13) (third pass)) v226 → v227
+- Accepted: Hn 4 breath at 309/310; coda T head 341–344 to Hn 3, Hn 1 rests 340–356 (Adler PDF 292, 303–304). Record line trioT moved to HnThree 341.
+
+## Cycle 225 (lens 5 engraving, MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (third pass)) v225 → v226
+- Accepted: duplicate "1." at 193 removed; percussion tacet in the heading and a tacet part; espress. clear of W at 357 (MOLA PDF 5–8).
+
+## Cycle 224 (lens 4 orchestration, Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (third pass)) v224 → v225
+- Accepted: cor anglais B4 (was B3) at 133–136/321–323 (Adler PDF 198, 205).
+- Do-not-touch (critic): tutti layouts 105–120/305–320, 333–339; four colourings of the trio tune (153, 169, 209, 341–356).
+
+## Cycle 223 (lens 3 form, Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (third pass)) v223 → v224
+- Accepted: Hn 2 A3 at 54 (doubled 4th of the cadential 6/4, A&S PDF 316).
+
+## Cycle 222 (lens 2 harmony, Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (third pass)) v222 → v223
+- No change (harmony confirmed against A&S Units 22–23).
+
+## Cycle 221 (lens 1 melody, Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (third pass)) v221 → v222
+- Accepted: cor anglais B4 (was B3) pp at 269–271 (Adler PDF 198, 205, 226).
+
 ## Cycle 220 (lens 10 cyclic, Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (third pass)) v220 → v221
 - No score change; joins with I v231, II v228, finale v217 checked; scherzo.md updated (theme A bar 2 link, harp B4 → C5).
 - Do-not-touch: theme A statements' register (I 79 and IV 273–275 quote bar 2 at pitch); harp harmonics E4–G♯4–B4 at 375.

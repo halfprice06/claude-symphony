@@ -71,7 +71,7 @@ motiveXrepeated = { b,4 b,8 b,8 b,4 }
 %@ trioT VlnOne 209
 %@ trioT FluteOne 217 16 19
 % coda: T shared out, bars 1-4 Hn 1, bars 5-8 Cl 1, bars 9-16 Vln I
-%@ trioT HnOne 341 9
+%@ trioT HnThree 341 9
 %@ trioT OboeOne 345 9 10
 %@ trioT VlnOne 349 13 19
 % (since v44 the coda statement's cadence differs: 354-356 gis'''2 fis'''8 e''' | dis'''2 fis'''4 | e'''2 r4, expanded cadential 6/4; checked through bar 353 only)
