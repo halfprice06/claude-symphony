@@ -1073,3 +1073,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 3 form, Adler ch. 15 and 17 (PDF 187-196, 256-290, third pass).
 - Accepted: 231-234 Vln I rests after the canon's C6 at 230 and re-enters with the pickup G4 mf at 234.4, so movement I's S head at 235 comes in on a rested colour (Adler PDF 263-264, 267-269); Fl 2 joins Fl 1 a2 on the top line; harp cue now quotes Vln II.
 - Kept: coda stage pacing, the break-offs at 94-95 and 113-114, F2's six statements, 115-122.
+
+## Cycle 244 (v244 → v245), lens 4 orchestration (Adler ch. 11, third pass)
+- Lens 4 orchestration (brass), Adler ch. 11 (adler2 PDF 14-18, 37-54, third pass).
+- Accepted: 224-228 Tbn 2 doubles Tbn 1 on the chorale's motto line G-E-D-C-D♭-C a2, as in Adler's Tchaikovsky 4/i model (Ex. XI-21, PDF 38-41) and movement I's chorale (two trombones); Tbn 2's old notes are held by Hn 3·4. Top line, bass, canon and dynamics unchanged.
+- Kept: trumpets at 263 (protected unison B→C), bar 1 F♯ in Hn 4, tuba with bass trombone at 91-94.
