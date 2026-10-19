@@ -1505,3 +1505,11 @@ lens 8, expression; A&S Unit 3 (PDF 47-57). Report: reports/c238.md.
 - Accepted: nothing (v239 = v238 relabelled).
 - Recorded (no change): No change. Recorded: 1. 37–44 'Poco più mosso' changes chord at the same rate as A (about 2 s); the extra motion comes only from the tempo mark and viola triplets; if more is wanted, the place is the bass rhythm (e.g. pizz. quarters at 38, as Dvořák 9/ii), not the metronome mark (untested, open); 2. climaxes at 61 and 79 on strong bars of four-bar groups; 3. 45–52 3+5 grouping marked by tempo words; 4. coda rit. at 89; 5. 15–22 swells, solo violin stays p at 21; 6. 80–81 hemiola and 63 accents. Do-not-touch: climaxes and slowings 60/78; tempo changes at 35, 47–48, 53, 64–65, 89; metronome mark at 37.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+
+### Cycle 239 (holistic, Mozart 41/ii; Adler ch. 8) — v240
+- Accepted: 1. Cb pizz. quarters at 41 and 43 (second phrase of theme B only).
+- Recorded (no change): quarters throughout 37–43 rejected; v229 comparison clean.
+- Do-not-touch: sparse bass 37–40; standing list; 8-page layout.
+- Masters used in the third series: Brahms 2/ii (c209), Dvořák Cello Concerto/ii (c219), Beethoven 7/ii (c229), Mozart 41/ii (c239).
