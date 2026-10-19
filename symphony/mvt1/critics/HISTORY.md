@@ -1171,3 +1171,63 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: no finale F1/F2 hints in mvt I (Tchaikovsky 4/5, Brahms 1 precedent).
 - Do-not-touch: attacca join (Tbn 1 → Hn 3 → mvt II Hn 4 C4); three A♭ climaxes 82/122/160.
 - Cross-movement: finale told: wording of 'first full-brass C-major triad' and harp D♭7.
+
+## Cycle 261 (Melody and memorability; Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232)) → v262
+- Accepted: Bsn 1's answer to the P head at 144 made audible: Vln II, Vla, Vc, Cb start mp at 144 and fade to pp at 145 (Adler PDF 226: accompaniment of the bassoon softer); no note changes (recOne).
+- Open / not applied: None. Kept: B.cl P head 107–109 (c151); cor anglais 147–153/171–174; flute motto 73–76; themes.
+- Do-not-touch: motto woodwind colours.
+- Cross-movement: none.
+
+## Cycle 262 (Harmony and voice leading; Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397)) → v263
+- Accepted: Coda 177 viola A♭3 (seventh of vii°6/5 over D) now resolves to G3 on beat 4 (aes2. g4), so 176–178 is i6 – V4/3 – i (A&S PDF 375–378; answers c192's PDF 466 reason, which concerns root-position V9).
+- Open / not applied: None. Kept: 26→27 d5–P5 in horns (finale quotes 27); 23–24/135–136 rising seventh in a doubled inner voice (hemiola); cross relations 79→80, 108→109 (seeds).
+- Do-not-touch: bar 70 vii°7/V; 73 common-tone °7; 168–170; A♭/A♮ mixture 156–166.
+- Cross-movement: none (coda viola 177 is not quoted).
+
+## Cycle 263 (Form, pacing and proportion; Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325)) → v264
+- Accepted: No change (prolongation review: all 22 six-four chords have a named function).
+- Open / not applied: None. Kept: 127–131 V without leading tone over the 14-bar G pedal (A&S PDF 322–323; answers c233); 158–166 expanded cadential 6/4; coda i6/4 at 175.
+- Do-not-touch: horn call as melodised cadential 6/4; development key plan C–A♭–F.
+- Cross-movement: none.
+
+## Cycle 264 (Orchestration; Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186)) → v265
+- Accepted: Fugato 94–95: C.a. stays in unison with Vln II through the countersubject (rests at 96), Cl 1 rests 94–95 and enters at the ff of 96 (Adler PDF 176–178: keep established colours) (dev). Recap 131: violas and Hn 3·4 f (were ff) under the low P theme (Adler PDF 159, 184) (recOne).
+- Open / not applied: None. Kept: trombones f at 131 (c144); pad 111–114; violas alone at 82; low trumpets 122; Tpt 1 A♭5 at 72; A♭6 at 31/72.
+- Do-not-touch: A♭ climaxes 82/122/160; final chord 182.
+- Cross-movement: none.
+
+## Cycle 265 (Engraving and notation (Gould's *Behind Bars*, MOLA); MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16)) → v266
+- Accepted: Engraving (MOLA): nine cues in parts (harp 47, Vln I 55, Hn 2 56/156, Bsn 2 60, timp 62, Fl 1 64, Fl 2 68, Ob 2/Cl 2 103); bar ranges over multi-bar rests; score pages numbered so music runs 2–18 (odd on the right; answers c155); short staff names keep the key; parts top margin 20 mm (score.ly, parts-gen.py, parts-lib.ily).
+- Open / not applied: None. Kept: string parts at 7.2 mm (7.5 mm puts the viola part on an odd last page, breaking the attacca).
+- Do-not-touch: page breaks and part page counts.
+- Cross-movement: mvt II told: score page numbering (odd on the right).
+
+## Cycle 266 (Playability, instrument by instrument; Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13)) → v267
+- Accepted: Brass breaths (Adler PDF 292, 303, 309; adler2 PDF 8): tuba breathes on the last eighth of 121 and strikes 122 fresh; Hn 3 breathes on beat 4 of 123 with Hn 4 (dev).
+- Open / not applied: None. Kept: Hn 1 soft high entry at 43; Hn 2 56–72; Hn 4 to written G5 at 158–160; Hn 1 B5 at 106 (ossia); Tpt 3 B3 fff at 122.
+- Do-not-touch: coda chorale breaths 175–181.
+- Cross-movement: none.
+
+## Cycle 267 (Texture and counterpoint; Rimsky-Korsakov ch. III overlaying, crossing and enclosure (rimsky-principles PDF 106-114) and the examples cited) → v268
+- Accepted: Bar 37 Bsn 1 B♭3 (was G♭3, unison with Hn 4): the soft bassoon–horn chord gets its fifth and four real parts, crossed as Rimsky-Korsakov PDF 108; Bsn 1 steps B♭–A♭ into 38 (trans).
+- Open / not applied: None. Kept: violas/Vln II among pp trombones 175–178 (continuous inner lines; answers c234); Cl 2 inside horns 117–120; brass head over winds 167–169; horn pair on D4 at 40; short chord 43.
+- Do-not-touch: coda inner lines 175–178; 167–169.
+- Cross-movement: none.
+
+## Cycle 268 (Expression; Aldwell & Schachter Unit 3 Rhythm and Meter: accent, hypermeter (aldwell-schachter PDF 47-57)) → v269
+- Accepted: Tenutos on the syncopated long notes of the S climax, E6 at 158 and A♭6 at 160, in every part with the tune (as at 48, 51, 57, 70, 99, 102, 104, 148, 151, 172), and on the violins' C6/C5 at 62 (A&S PDF 50, 51, 53) (recTwo, tTwo).
+- Open / not applied: None. Kept: accents at 142 (c118); Vln I D♭ at 180; ties 131–134; tempo plan; hemiolas.
+- Do-not-touch: fff downbeat at 160; sub. p at 62.
+- Cross-movement: finale told: S-climax tenutos at 158/160.
+
+## Cycle 269 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504)) → v270
+- Accepted: Cellos 171–174 become one solo cello ('Solo espr.'), Tutti at 175 on the chorale's motto bass with sul G (Rimsky-Korsakov PDF 122–123, 138–139, 142, Ex. 284; Elgar 1/i coda SOLO/TUTTI) (coda). No regressions v259→v269.
+- Open / not applied: None. Kept: harp gliss 158–161; no mutes 177–182 (c076); viola soli.
+- Do-not-touch: Tutti re-entry at 175 with sul G.
+- Cross-movement: themes-mvt1.md: S coda minor statement now Vc solo.
+
+## Cycle 270 (Cyclic design and emotional arc across four movements; Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128)) → v271
+- Accepted: No score change (cyclic check: every change since v261 keeps its links). Records updated: mvt1.md v262–v270 line, seeds (solo cello 171–174 beside C.a. matches the finale's single-voice minor S; bar 37 first E♭-minor sound), 'high four-horn unison' wording.
+- Open / not applied: None.
+- Do-not-touch: solo cello's unresolved B4 at 174 (passes to Cl 1 C5 at 176).
+- Cross-movement: finale told (information): solo cello at 171–174.
