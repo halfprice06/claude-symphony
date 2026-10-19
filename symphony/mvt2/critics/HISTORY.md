@@ -1878,3 +1878,10 @@ lens 3, form; A&S Unit 18 6/3-chord techniques (PDF 289-303). Report: reports/c2
 - Accepted: nothing (v294 = v293 relabelled).
 - Recorded (no change): No change. Recorded: 1. theme B bass falls in thirds at 37-38 and 53-54; only the build at 53 fills it with V6/5-V6 (Ex. 18-11a; Dvorak 9/ii bar 17); keep 37 b3's plain D-flat bass; 2. 10 of 21 first-inversion places are in the B section (PDF 290-291); 3. I6 to IV with bass rising a half step at 15-16, 41, 57 (PDF 296); 4. C minor over E-flat at 78 b3 is V with a 6th for the 5th (PDF 300, Ex. 18-16/17), not a free passing chord as the aTwo.ily comment says (optional comment fix); 5. VI6 over the tonic bass at 34, 49 b2, 85-86 is the tonic with a 6th (Ex. 18-14, 18-19l); 6. proportions unchanged since c143 (do not reopen).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 294 (v294 → v295)
+lens 4, orchestration; Adler ch. 15 homophonic and polyphonic texture (adler2 PDF 159-186). Report: reports/c294.md.
+- Accepted: nothing (v295 = v294 relabelled).
+- Recorded (no change): No change. Recorded: 1. bar 79 b1 upper octaves hold only B-flat and F (Adler PDF 164, Ex. XV-14); kept: B-flat is the appoggiatura, Cl 2 D-flat 5 on b2, c234/c254, protected tutti; 2. cellos take the A-flat 7's seventh up at 60-61 while Bsn 1, Tbn 2, Hn 1 resolve it (PDF 161-162); kept to protect the Vln II/Vc octaves at 61-62; 3. Vln II pp above the C.a. quotation at 47-50 (PDF 169, 184); 4. sf-p chord at 63-64 under control (PDF 164-165); 5. last chord strings plus Cl 2 without flutes (PDF 162-163; as Dvorak 9/ii); 6. timpani rolls start soft (PDF 184); 7. theme A rescored at each return (PDF 170-171); 8. builds 53-61 and 71-79 add octaves gradually (PDF 162, 172).
+- Do-not-touch: standing list; the 8-page layout.
