@@ -1150,3 +1150,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 8 expression, Sebesky ch. 1 and 6 (PDF 11-20, 204-218, third pass). Marks only; no note, dynamic or tempo word changed.
 - Accepted: 211 "cantabile" on movement II's theme B in Tpt 1·2, Fl 1·2, Ob 1, Cl 1 (its echo at 217 is espress.), with the downbeat accent in Ob 2 and Cl 2 (Sebesky Ex. 281, PDF 214-215); "leggiero" on F1's slurred broken-chord accompaniment at 11 and 151 (Cl 1·2) and 19 and 83 (violas) (Sebesky PDF 13-14, Ex. 2A, 279-280).
 - Kept: harp mf at 67-82, 223-230 (protected), 235-246.
+
+## Cycle 259 (v259 → v260), lens 9 holistic (Tchaikovsky 4 finale, third pass)
+- Lens 9 holistic comparison with Tchaikovsky 4's finale; Adler (adler1 PDF 137-165, 235-281), third pass; compared with v249.
+- Accepted: 20.1 Cl 1 holds G4 (was D4), so c257's v6 over B♭ has its root on the downbeat instead of a bare B♭-D third (Adler PDF 152 Ex. V-27, 257 Ex. VIII-25). This was the one thing that got worse since v249.
+- Kept: F2's re-scorings, the octave unison 265-268, the coda's form (protected), 135-137 (change comes at 138), the c251 tuba.
