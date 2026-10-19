@@ -1412,3 +1412,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: coda N6 at 173 (one beat, protected); chromatic spellings (A&S PDF 496–499).
 - Do-not-touch: Spellings at 12 (Ger6) and 75 (G♭ in A♭7).
 - Cross-movement: Finale told to correct finale.md's ♭II thread (add I 20–22, 115, 140–143, 178, 180; finale completes I 173–175's N6–6/4–V).
+
+## Cycle 301 (Melody and memorability; Aldwell & Schachter Unit 3 Rhythm and Meter (aldwell-schachter PDF 47-57)) → v302
+- Accepted: No change (melody vs A&S Unit 3: rising-sixth rhythm, horn call growing into the S head, P head's empty downbeats, D♭6 at 63, phrase goals and hypermeter, coda mottos all follow the reading).
+- Open / not applied: None.
+- Do-not-touch: P head rhythm 15–19 (finale quotes it); short D♭6 at 63 (c221).
+- Cross-movement: none.
