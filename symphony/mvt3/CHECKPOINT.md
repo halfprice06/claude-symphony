@@ -1,7 +1,7 @@
 # Finale (movement IV) loop checkpoint
 
 ## Third series (2026-10-19, thread "Finale, 200 more loops", session cse_01S169UKdVsqhaxTmmz6YB7N)
-Cycles 201-400 (v201 -> v401), branch claude/project-thread-v69o8h (pushed after every cycle, no PR). Latest: **v261** (cycle 260 done). Next cycle: 261.
+Cycles 201-400 (v201 -> v401), branch claude/project-thread-v69o8h (pushed after every cycle, no PR). Latest: **v264** (cycle 263 done). Next cycle: 264.
 Per cycle: `bash kit/genprompt.sh N ""`; background Agent "Read your full task from .../kit/pN.txt ..."; review the diff; `bash kit/promote.sh N+1 N /tmp/critic-N/work`; write the decision notes to a file and `bash kit/finish.sh N "lens ..." FILE` (writes critique.md, HISTORY, commits, pushes, mirrors the latest text files to /mnt/project-files). promote.sh keeps score.pdf in the newest version and pdf+mp3 in v211, v221, ...
 
 
