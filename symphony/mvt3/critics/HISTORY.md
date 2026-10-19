@@ -1130,3 +1130,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 4 strings, Adler ch. 5 (adler1 PDF 125-167, third pass).
 - Accepted: 83-86 violas' broken-chord eighths mf (were f), since they run through the tune's lower octave and cannot be moved out of its register (Adler PDF 135, 144); 81.2-82 violas diminish with the violins and play mp < into 83; redundant mf at 87 removed. No note changed.
 - Rejected: pizz. basses at 67-74 (arco change at 67 is the texture change); cellos on the violins' descent at 39-42 (B♭ pedal; c237).
+
+## Cycle 255 (v255 → v256), lens 5 parts (MOLA, third pass)
+- Lens 5 parts, MOLA guidelines (all 16 PDF pages, third pass). Parts only; score PDF and MIDI unchanged.
+- Accepted: string page turns moved to rests (Vla, Vc, Cb after 66 and 186; Vln II at 61|62 and after 186), removing the Vln II compression warning (MOLA PDF 7); part-only cues for tuba and bass clarinet at 25-26 and bass clarinet at 99-100 (MOLA PDF 5); padding for colliding tempo texts in Tpt 1 (197/199) and harp (221/223) (MOLA PDF 8); percussion part header "Cymbals, Bass drum (2 players)" with a notation key (MOLA PDF 5-6).
+- Kept: harp pedal setting at 43, harp 8va bassa at 67-82 and 239-242, A4 parts.
