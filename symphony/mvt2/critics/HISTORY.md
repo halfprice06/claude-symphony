@@ -1843,3 +1843,10 @@ lens 8, expression; A&S Unit 3 Rhythm and Meter (PDF 47-57). Report: reports/c28
 - Accepted: nothing (v289 = v288 relabelled).
 - Recorded (no change): No change. Recorded: 1. tempo words at 53-64 match the harmonic rhythm (PDF 49); 2. hairpins peak on each syncopated dissonance and fall on its resolution at 7-8, 11-12, 23-24, 27-28, 58, 71-72, 80-81 (PDF 51, 55); 3. 4/4 section keeps beat 1 strong, tenutos at 61-62 make a broad 2/2 on purpose (PDF 50); 4. built-in accents line up with printed accents at 5, 21, 47, 63, 68; 5. phrase starts and joins at 30-31, 36-37, 64-65, 82-83 overlap as Ex. 3-11; 6. two metre changes, each at a double bar with a tempo word. Do not touch the tempo plan 53-65 and those hairpins.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 289 (v289 → v290)
+lens 9, holistic: Schubert 8/ii (from descriptions; no score) and v279; Rimsky-Korsakov examples No. 275-312 (PDF 441-504). Report: reports/c289.md.
+- Accepted: nothing (v290 = v289 relabelled).
+- Recorded (no change): No change. Nothing worse since v279. Recorded: 1. timpani roll and held bass E-flat under Hn 1's solo at 67-70 may cover it (Rimsky PDF 139, Ex. 298); optional untested fix in the report (roll only 2 bars); open, inside a protected passage; 2. coda recalls no theme in a remote key (c263 decision protected; F-F-flat-E-flat echo does that job); 3. horns double violas and C.a. doubles Hn 4 under Cl 1 at 87-88 (as Rimsky Ex. 290; protected); 4. theme B solos 37-52 over pizz. and harp follow Schubert and the reading. Masters used in the third series now include Schubert 8/ii (c289). Reading gap: no Schubert score; text cut on PDF 143 and 146.
+- Do-not-touch: standing list; the 8-page layout.
