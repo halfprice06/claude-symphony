@@ -1498,3 +1498,10 @@ lens 3, form; Adler ch. 17 (PDF 256-275). Report: reports/c233.md.
 - Accepted: 1. bass D♭–E♭–F♭ at 21 (voice exchange with the melody, passing I6/4, into the French sixth); Vln II F4–C4–B♭3.
 - Recorded (no change): 51–52 fills tested and rejected; 64→65, 88→89 slides; no new chromatic sequence devices.
 - Do-not-touch: bar 21 exchange and French sixth; standing list; 8-page layout.
+
+
+## Cycle 238 (v238 → v239)
+lens 8, expression; A&S Unit 3 (PDF 47-57). Report: reports/c238.md.
+- Accepted: nothing (v239 = v238 relabelled).
+- Recorded (no change): No change. Recorded: 1. 37–44 'Poco più mosso' changes chord at the same rate as A (about 2 s); the extra motion comes only from the tempo mark and viola triplets; if more is wanted, the place is the bass rhythm (e.g. pizz. quarters at 38, as Dvořák 9/ii), not the metronome mark (untested, open); 2. climaxes at 61 and 79 on strong bars of four-bar groups; 3. 45–52 3+5 grouping marked by tempo words; 4. coda rit. at 89; 5. 15–22 swells, solo violin stays p at 21; 6. 80–81 hemiola and 63 accents. Do-not-touch: climaxes and slowings 60/78; tempo changes at 35, 47–48, 53, 64–65, 89; metronome mark at 37.
+- Do-not-touch: standing list; the 8-page layout.
