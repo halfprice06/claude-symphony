@@ -1733,3 +1733,10 @@ lens 3, form; A&S Unit 32 (PDF 584-606). Report: reports/c263.md.
 - Accepted: 1. II6/5 at 9 b3 (Bsn 2 B♭2 tied into 10).
 - Open: chord thirds at 50–51 only in viola off-beats.
 - Do-not-touch: horn solo 7–14; V4/3 at 74; IV→vi7 at 41/57; standing list; 8-page layout.
+
+
+## Cycle 273 (v273 → v274)
+lens 3, form; Rimsky-Korsakov ch. IV (PDF 115-136). Report: reports/c273.md.
+- Accepted: nothing (v274 = v273 relabelled).
+- Recorded (no change): No change. Recorded: 1. horns 1·2 mf< at 78 b3 kept (p< tested and withdrawn: c088/c218, the counter-melody's first note must be heard inside the f tutti; do not re-raise); 2. release 80–83 in the book's order (PDF 130); 3. two peaks scored for their places (full tutti 61–62, horns-only 79–80; PDF 116, 119–121); 4. re-entries outside the pp/ff rule (Hn 4 p at 60, Hn 3·4 f at 79, timpani f at 79) have stated reasons; 5. returns rescored each time (PDF 117–118); 6. joins on common notes or pedals (PDF 125–127); 7. coda imitation and echo (PDF 128–129).
+- Do-not-touch: standing list; the 8-page layout.
