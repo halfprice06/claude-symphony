@@ -889,3 +889,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Composer: coherence/finale.md rewritten for v211 (header, "Changes in cycles 201-210", scherzo facts, item 3 per the movement I thread: I 138's spacing differs from 222).
 - Checks: link from the scherzo, stop chord only at 222→223, E♭/E♮ thread, C7 only at 223, cymbals/bass drum plan, tremolo from 223; records 36/36, scherzo 41/41, movement I 35/35.
 - Do-not-touch: bars 1-2; 51-66; 187-198 strings and bassoons; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 211 (v211 → v212), lens 1 melody (Adler ch. 3, third pass)
+- Accepted: 123-124 cellos "sul D" on F2's development entry, so the line avoids the open A3 and the hand-over Vc → Vla → Cl 1 → Vln I starts on the warmest colour (Adler PDF 73-74, 99). No note changed.
+- Rejected: Vln II sul D at 67-76 (c094/c098/c121 balance); sul G on F1 at 11-16 (protected, string crossing to A♭5).
+- Do-not-touch: 123-130 hand-over order and notes; 11-18; 67-82 balance.
