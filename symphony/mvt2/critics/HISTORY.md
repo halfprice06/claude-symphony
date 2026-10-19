@@ -1913,3 +1913,11 @@ lens 8, expression; Sebesky ch. 1 and ch. 6 (PDF 11-20, 204-218). Report: report
 - Accepted: harp harmonics at 83 marked p "dolce," (pickup at 82 stays pp).
 - Recorded (no change): cello bowing at 79; fp at 47; solo violin 21-22; oboe 47.
 - Do-not-touch: standing list; the 8-page layout; harp pickup pp at 82.
+
+
+## Cycle 299 (v299 → v300)
+lens 9, holistic, Brahms 3/ii; Adler part 1 ch. 5 and 8 full-score examples. Report: reports/c299.md.
+- Accepted: Vln I at pitch with Vln II 74 b3–77, back to the upper octave at 78; B♭6 now only at 79.
+- Recorded (no change): nothing worse since v289; doubled F at 87 (protected coda).
+- Do-not-touch: standing list; the 8-page layout; 71–74 octaves.
+- STOP: Dan (2026-10-19 23:04 UTC) asked to stop all four movements at about v300 and merge. v300 is the last version of the third series.
