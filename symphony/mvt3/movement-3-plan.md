@@ -8,6 +8,8 @@ Models: Brahms 1/iv (chorale, C-major arrival), Tchaikovsky 5/iv (motto turned t
 
 ## Shape (v01: 262 bars, 2/2 throughout, about 6:40)
 
+Note (v174): this table keeps the v01 bar numbers and tempi. For the current bar numbers, tempi and sections see symphony/coherence/finale.md and the latest vNNN/global.ily.
+
 | Bars | Section | Tempo | Key | Content |
 |---|---|---|---|---|
 | 1–10 | Introduction | Allegro con fuoco, 2 = 84 | A♭ Ger6 → V of C | After a pause (no attacca). Movement II's A♭ chord becomes the German sixth A♭–C–E♭–F♯, ff, and resolves to V (1–2, 5–6). Motive x answers in the strings (3–4). Dominant preparation 7–10. Timpani retuned D♭→G during the pause (G, A♭, C, E♭). No trumpets. |

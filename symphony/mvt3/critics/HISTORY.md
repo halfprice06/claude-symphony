@@ -460,3 +460,376 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: Hn 2 F♯4 at 219 (respelling carried); held D♭ ff>f at 216–217; finale.md corrected. Relay after cycle 110 sent.
 
 ### PAUSED 2026-10-13 23:10 UTC at v111 (Dan: usage limit). Cycle 111 critic stopped early, nothing written. See mvt3/CHECKPOINT.md.
+
+### RESUMED 2026-10-16 01:10 UTC in thread "Continue movement 4 loop" (session cse_01QDtx9SfJvuVALZjuqD7wEm), working in the git checkout /home/user/claude_composes (kit paths changed from /mnt/project-files). Batches of 10 cycles, each checkpointed to main by PR. Scherzo loop: session cse_019MVHJqMqMN1aRTnYSzHgLw ("Continue movement 3 loop"), resumed at scherzo v87.
+
+## Cycle 111 (v111 → v112), lens 1 melody (Rimsky ch. II, PDF 64-80)
+- Accepted: Tpt 1-2 half-note fanfare strokes 148-150 (peak G5 at 150); Fl 1 D6 at 150 (top D6-C6 into 151); "poco a poco più animato" and \mt 172 moved from 203 to 205 (199-204 quotation stays at Tempo I), 176 at 207.
+- Do-not-touch: stretto 139-146 with timpani motive x; 123-130 hand-over; arrival and chorale 222-234; R at 88.
+
+## Cycle 112 (v112 → v113), lens 2 harmony (A&S Units 11-13)
+- Accepted: Hn 3 B3 at 18 and D4 at 23.4 (ii7 seventh resolves down; ii6 under 2-7); Vln II E♭5-G5 at 119 (iiø7, no bare diminished triad).
+- Open: 38.1 clarinet leaps into the seventh; 16.3/17.3 root-position diminished triad in F1's accompaniment; 78.1 spacing gap.
+
+## Cycle 113 (v113 → v114), lens 3 form and pacing (A&S Unit 32)
+- Accepted: 82 tune holds E♭ a half then runs G-A♭-B♭-D cresc. into 83 (animando now carried); finale.md updated.
+- Do-not-touch: the 187-223 path (♭VI-♭II-Ger6-V-I, 222→223); arrival and chorale 223-234; last cadence 259-263.
+
+## Cycle 114 (v114 → v115), lens 4 orchestration (Rimsky tutti appendix, ch. IV examples)
+- Accepted: harp RH rests 82.3-4; Hn 1 G4 at 148-150 (strokes not covered); low strings mp 187-196 under F2 in A♭; Hn 1-2 cresc. through 82.
+- Note: scherzo v91 (cycle 90) rescored its ends (Hn 2 → Bsn 1 under the opening horn call; closing timpani roll → motive x ppp 363-371); no theme change, nothing the finale quotes.
+
+## Cycle 115 (v115 → v116), lens 5 engraving (Gould ch. 1 ledger lines, octave signs, rests)
+- Accepted: Vln I C7 at 223 written at pitch (no one-note 8va; stem up); stray \ottava #0 removed from Cb at 82. Parts build checked (30 parts).
+
+## Cycle 116 (v116 → v117), lens 6 playability (Adler ch. 4 harp)
+- Accepted: harp "étouffez" at 82 and 243; no low D1 string (242 now D2-D3, tuning note at 67 removed); harp f with LH octaves 239-242.
+- Do-not-touch: the harp's three broken-chord passages and pedal diagrams (67, 123, 235); harp rest 187-198.
+
+## Cycle 117 (v117 → v118), lens 7 texture (Adler ch. 15)
+- Accepted: Fl 2 doubles Vln II arpeggio 8va 257-262; Hn 1-2 cresc. 142, f at 143 (dynamics only in the stretto); Vln II E5 only at 275 (clear of the scherzo quotation).
+- Do-not-touch: stretto 139-146 notes and timpani motive; strokes 147-150; combination 247-254; chorale top lines 224-228 and 255-264.
+
+## Cycle 118 (v118 → v119), lens 8 expression (Adler ch. 2 bowing)
+- Accepted: slurs per bar on theme B recall 212-214; slur split before the top G6 at 246 (Vln, Vla); bow changes on long holds at 149 and 263; Vln II single slur at 276; change bow at will 217-218 (Vln I-II, Vc).
+- Do-not-touch: F1 bowing 11-26 and 151-166; the 187-198 bow plan with its down-bow peak at 198; viola portato 224-228.
+
+## Cycle 119 (v119 → v120), lens 9 master comparison (Schumann 4/iv; v109)
+- Accepted: 147-150 Ob 2 D5/B4 and Hn 3-4 F4/D4 (concords within pairs); Vc/Cb f at 273 under divided upper strings; Vln I G4-B4 at 245 (V4/3 bass not doubled).
+- Open: chorale top octave 257-263 thinner than v109 (protected, still balances).
+- Note: scherzo v94 changed the trio tune's second statement (180-184); the finale does not quote the trio.
+
+## Cycle 120 (v120 → v121), lens 10 coherence + release check (A&S Unit 26)
+- No score change. finale.md updated to v121 (239-247 harmony and Cbsn C1 corrected); BRIEF.md: scherzo ends with timpani motive x ppp, no roll (since scherzo v91; the 2026-10-12 HISTORY entry above is outdated on this point).
+- Batch 111-120 checkpointed to main by PR; parts rebuilt in v121.
+- Do-not-touch: link at bars 1-2; I-III-IV-V plan with C7 as V of F and B♮ bass 138-146; 216-223; both chorale top lines; 273-276 close with the scherzo quotation.
+
+## Cycle 121 (v121 → v122), lens 1 melody (Adler ch. 3)
+- Accepted: F1 head a third higher at 267-268 (no third identical statement); 272 takes F1's consequent peak A-G-F (A6); cellos mf on F2's counter 187-196, f at 198. finale.md F1 entries updated; no other movement quotes F1.
+- Do-not-touch: chorale top lines 224-228 and 255-264; 222→223; last cadence 259-263; close 273-279 with the scherzo quotation.
+
+## Cycle 122 (v122 → v123), lens 2 harmony (A&S Unit 17; Unit 21 pedal)
+- Accepted: IV6/4 under the F1 peak at 272 (Hn 3-4, Bn 1, Vla div., Tpt 3 A4); harp LH G2 at 238 (not under the bass pedal).
+- Open (kept): motto C-B against F1 B-C at 267.4.
+
+## Cycle 123 (v123 → v124), lens 3 form (Rimsky ch. IV)
+- Accepted: 268 Fl/Vln I fill E-D-C-B into 269; 265-272 bass/brass foundation f then cresc. 269-271 (no eight-bar flat ff); tuba ff at 247.
+- Confirmed: coda length; A6 at 272 as the close's top note (C7 stays reserved for 223).
+
+## Cycle 124 (v124 → v125), lens 4 orchestration (Adler ch. 15)
+- Accepted: Tbn 1-2 rest 269-270, ff at 271; timpani C (not G) at 272 under IV6/4.
+- Do-not-touch: cellos mf on F2's counter 187-198 (confirmed twice, c121/c124).
+
+## Cycle 125 (v125 → v126), lens 5 engraving (Gould ch. 1-2 spacing, unisons)
+- Accepted: a2 labels for Tpt 1-2 at 271 and Hn 1-2 at 273; ff restated in Vln I-II, Vla at 273.
+
+## Cycle 126 (v126 → v127), lens 6 playability (Adler ch. 6-7 woodwinds)
+- Accepted: staggered breaths in the last chorale 258/260/261; Fl 2 breaths 259, 261; Ob 1 rests 265-268 (a2 ff at 269); Bn 2 rest 146; Fl 1/Ob 1 breath after 78; Cbsn/tuba breaths 228, 250; Cl 2/Bn 1 breaths 170, 178.
+
+## Cycle 127 (v127 → v128), lens 7 texture (Adler ch. 17)
+- Accepted: 257-262 Fl 2 on the chorale top line with Fl 1 (staggered breath after 260), Cl 1 takes Vln II's arpeggio in unison; violas C4 at 257-258.
+- Do-not-touch: no figuration above the chorale top line at 257-262 (c117's 8va Fl 2 doubling was reversed in c127; do not restore it). c119's open note on the thin top octave is closed.
+
+## Cycle 128 (v128 → v129), lens 8 expression (Adler ch. 11, 15)
+- Accepted: harmony and timpani cut on 264.1 (top line, woodwinds and low strings dim.) so the scale figure 263-264 is heard; string hairpins 257-259; Cbsn ff at 247; hairpins closed at 277.
+
+## Cycle 129 (v129 → v130), lens 9 master comparison (Dvořák 8/iv; v119)
+- Accepted: brass seconds/sevenths moved out of one family at 130-131 (Hn 4 A3), 147-150 (Hn 3 D4), 207-210 (Tbn 2 E♭3), 238 (Hn 3/4 D4/G3); woodwind f at 257 and ff at 259 in the last chorale (c033/c038's plan answered: rest 255-256, re-entry 257 and build kept).
+- Do-not-touch: the harmony cut at 264.1 (c128, confirmed c129).
+
+## Cycle 130 (v130 → v131), lens 10 coherence + release check (Casanelles ch. 5)
+- Accepted: finale.md current to v131 (147-150 seventh, 255-264 unison, Più allegro corrected); cor anglais joins Hn 1's theme-B answer 217-218, A♭4-G4 219-220.
+- Batch 121-130 checkpointed to main by PR (after PR #20).
+- Do-not-touch: link 1-2; 222→223; both chorale top lines and the cut on 264.1; last cadence 259-263; close 273-279 with the scherzo quotation.
+
+## Cycle 131 (v131 → v132), lens 1 melody (Adler ch. 7)
+- Accepted: Bn 1 F2 at 117 with A4-G4-F4 (c041's register reason answered); Fl 2 with Fl 1 at E♭6 on 83-86.
+
+## Cycle 132 (v132 → v133), lens 2 harmony (A&S Units 22-23)
+- Accepted: 117 Vla rest beat 2 and Vln I A♮5; 119.4 Vln II G5 alone (octaves removed); 101/105 Hn 1-2, Cl 2 enter on beat 2; Cl 2 E♭4 at 96; Cl 1 steps into the seventh at 38.
+- Closed (no change): c112 open points 16.3/17.3, 78.1.
+- Do-not-touch: 107-113 lament and F-minor cadence; pivot 113-114; 115-132 G minor → G major; 6/3 bridge 87-90.
+
+## Cycle 133 (v133 → v134), lens 3 form (A&S Units 16, 19)
+- Accepted: 166 V-i6 (bass E♭) instead of the exposition's deceptive cadence; 167-170 falling-fifth link.
+- Do-not-touch: return 147-155 over the dominant; 186→187 into A♭ and the 187-223 path; development key plan with the G area 115-134; stretto 139-146.
+
+## Cycle 134 (v134 → v135), lens 4 orchestration (Adler ch. 15)
+- Accepted: Ob 2 doubles Vln II's counter-line 159-166; Hn 1-2 with the violas at 165-166; Tpt 3 D4 at 165.2.
+- Do-not-touch: 151-158 layout; E♭ bass and timpani at 166; 167-170 diminuendo order.
+
+## Cycle 135 (v135 → v136), lens 5 engraving (MOLA)
+- Accepted: unison flute line 83-86; score-only Oboe 2 staff 158-170; page-2 bar numbers; Ob 2 cue 197-198; bar ranges under multi-measure rests in parts; Bn 1 courtesy natural at 116.
+- Open: Cl 2 part page 2 over-full (parts-only fix in c135.md).
+- Note: scherzo ends ppp (scherzo thread, scherzo v111); intro.ily comment corrected.
+
+## Cycle 136 (v136 → v137), lens 6 playability (Adler ch. 9-10 brass)
+- Accepted: Hn 1 enters 141 on beat 2; Hn 1/3 rest on 206.4; Hn 3-4 rest 215-218; brass breaths after 146 and 223; Cl 2 part 10 systems per page (c135 open point closed).
+
+## Cycle 137 (v137 → v138), lens 7 texture (Adler ch. 16)
+- Accepted: clarinets hold 159-165 (counter-line clear); Vla/Vc E♭3-F3 at 197; Hn 1 A♭4 at 169; Bn 1 C4-G3 at 126.
+
+## Cycle 138 (v138 → v139), lens 8 expression (Casanelles ch. 4, 6)
+- Accepted: low strings dim. under the theme-B echo 217-218 (p at 219); swells at F2's peaks 68-70 and 188-190; movement I's phrasing on the S-head quotation 234-238; Hn espress. at 217.
+- Do-not-touch: 219 sub. p → 223 fff with timpani roll, first crash and C7; 187-198 bow plan.
+
+## Cycle 139 (v139 → v140), lens 9 master comparison (Rachmaninoff 2/iv; v129)
+- Accepted: B.cl. doubles the B1 pedal from 144 (p<f into 147; Bn 1 cue removed); Tpt 3 C5-F4-C5 at 247-249 (off the horns' S-head pitch).
+- Open: Tpt 3 A4 at 252 still at the horns' pitch (alternatives make fifths).
+
+## Cycle 140 (v140 → v141), lens 10 coherence + release check (Adler ch. 1, 15)
+- No score change. finale.md current to v141. c139's open item (Tpt 3 A4 at 252) closed, kept.
+- Batch 131-140 added to the checkpoint PR.
+- Do-not-touch: bars 1-2 with the violas' E♭4; 216-223 with 222→223; both chorale top lines and the cut at 264.1; last cadence 259-263; close 273-279.
+
+## Cycle 141 (v141 → v142), lens 1 melody (Sebesky ch. 6-7)
+- Accepted: dotted peak at 78 (Vln I-II, Fl 1, Ob 1); Cl 2 moving under the half cadences at 58 and 178; Vla/Vc counter at 81.
+- Do-not-touch: trumpet solo 51-66 and 171-186 (peaks at 62/182 stay plain).
+
+## Cycle 142 (v142 → v143), lens 2 harmony (A&S Units 24-25)
+- Accepted: complete iv7 under the solo's climax at 61-62 and 181-182 (Cl 2 6-5, Vla third, Bn 1 root of V); bass A♭-F-D-E♭ at 84; Cl 2 resolves on beat 3 at 58-59 and 178-179.
+- Open (kept): V7-I6 at 74→75 and 194→195.
+
+## Cycle 143 (v143 → v144), lens 3 form (A&S Unit 18)
+- Accepted: 86 imperfect cadence on I6 (bass A♭→G, arpeggio continues into the 6/3 bridge); 83-90 one phrase. Closing-group length confirmed.
+
+## Cycle 144 (v144 → v145), lens 4 orchestration (Adler ch. 8)
+- Accepted: Hn 1-2 B♭ pedal 83-86; Ob 1 rests 81-82.2 (back for the run); Bn 1 D3-F3 at 58; Cl 1 rests 97-98.
+
+## Cycle 145 (v145 → v146), lens 5 engraving (Adler ch. 18, App. A)
+- Accepted: clarinet "2." at 97-98; "1." labels at 61, 77, 105; breaths at 58 (Cl 2, Bn 1) and 82 (Hn 1-2); cues in the Ob 1 and Hn 1-2 parts.
+- Note: scherzo v122 changed the trio tune's bar 6 (not quoted by the finale).
+
+## Cycle 146 (v146 → v147), lens 6 playability (Adler ch. 12, 14 percussion)
+- Accepted: 223 timpani roll fff> to f, bass drum ff (crash fff); stick indications at 1, 215, 255; bass drum tied with cymbals 278-279.
+- Render note: simplify the two-voice percussion at 223 in a temp copy for r04/r07.
+
+## Cycle 147 (v147 → v148), lens 7 texture (Rimsky ch. III)
+- Accepted: crossed horn/bassoon pad 75-82; Cl 2 B♭3 at 57; Vln II A♭ at 62.4; violas B♭ at 85.4.
+- Do-not-touch: horn pedal 83-86 with Bn 1 inside; Cl 2 line at 58; arrival 223-234; 6/3 bridge 87-90.
+
+## Cycle 148 (v148 → v149), lens 8 expression (A&S Unit 3)
+- Accepted: cresc. through 198 into 199; pad swells to mp at 78 (p at 81).
+
+## Cycle 149 (v149 → v150), lens 9 master comparison (Bruckner 4/iv; v139)
+- Accepted: violin tremolo mf at 224-225; clarinets in thirds at 77-79. finale.md: 263 is the first (not only) root V-I.
+
+## Cycle 150 (v150 → v151), lens 10 coherence + release check (Rimsky prefaces, ch. IV)
+- No score change. finale.md current to v151.
+- Batch 141-150 added to the checkpoint PR.
+
+## Cycle 151 (v151 → v152), lens 1 melody (A&S Unit 21)
+- Accepted: G♭6 suspended 210→211 resolving to F6 (score-only \noBreak 199-210); Hn 2 doubles the violas' F1 head 130-132.
+- Do-not-touch: lament and climax 107-113; stretto and strokes 139-150; theme B recall 211-218; 216-223.
+
+## Cycle 152 (v152 → v153), lens 2 harmony (A&S Units 28-29, second pass)
+- Accepted: Vln I div. F5 + D♭6 at 217-218 so D♭-C-B-C is the top line; Italian sixth (bass E♭) on 121 beats 3-4 before the G-minor half cadence; Ob 2 D♭5-F5 at 211 under the G♭6 suspension.
+- Open: none.
+- Do-not-touch: A♭7 209-210 / German sixth 219 (Hn 2 G♭ = F♯); violins' G♭ 215-216; 216-223 top line.
+
+## Cycle 153 (v153 → v154), lens 3 form (Adler ch. 15, 17, second pass)
+- Accepted: violas' portato quarters at 231-233 in the plagal close.
+- Declined: deceptive cadence D7 → E minor at 131-132 (planned cadence in G; protected G area 115-134).
+- Open: whether the settled G at 131-132 slows the approach to the return (raise again only with a form-lens case that keeps the plan's G area).
+- Do-not-touch: G cadence 131-134; Italian sixth 121; stretto 139-150.
+
+## Cycle 154 (v154 → v155), lens 4 orchestration (Adler ch. 11, second pass)
+- Accepted: Vln II portato F5-E5-F5 at 231-233 above the brass; Hn 4 doubles Hn 2's F1 head 130-132; low winds and strings hold C at 229 under the timpani pulse.
+- Open: 131-132 settled G (from c153).
+- Do-not-touch: chorale and canon 223-234; 222→223; Italian sixth 121; G cadence 131-134.
+
+## Cycle 155 (v155 → v156), lens 5 engraving (Gould, second pass)
+- Accepted: page turn 208|209 instead of a 12-bar system 199-210; Hn 3 mf < at 130; harp 8va bassa from 239.
+- Open: 131-132 settled G (from c153).
+- Do-not-touch: 16-page layout; arrival 223-234; theme B recall 211-218.
+
+## Cycle 156 (v156 → v157), lens 6 playability (Adler App. A, second pass)
+- Accepted: Vln I G♭6 tie 210→211 fixed; Bn 1·2 breath after 228.
+- Open: 131-132 settled G (from c153).
+- Do-not-touch: 199-204; 211-223 with B→C 222→223; arrival 223-234; harp 235; horn call 243-246 with Tpt 1 C6.
+
+## Cycle 157 (v157 → v158), lens 7 texture (Sebesky ch. 1, second pass)
+- Accepted: Vln II unison with Vln I at 205-206; violas A♭4/C5 at 205-206; Hn 3 held D4 at 130; Bn 1 C4→B3 at 131-132.
+- Open: 131-132 settled G (from c153).
+- Do-not-touch: bassoon solo 115-122; F2 hand-over 123-130; stretto 139-150; D♭ episode 211-222.
+
+## Cycle 158 (v158 → v159), lens 8 expression (Sebesky ch. 1, 6, second pass)
+- Accepted: Vln II and violas mf from 207 under the F1 head; Hn 4 mf < at 130.
+- Open: 131-132 settled G (from c153).
+- Do-not-touch: 211-222 dynamic path; arrival 223-234; horn call 243-246 (no Tpt crescendo, c084).
+
+## Cycle 159 (v159 → v160), lens 9 master comparison (Mahler 1/iv; v149)
+- Accepted: Hn 4 back to v149 A3 quarters at 130-131 (reverses c154's doubling); violas whole notes at 231-233 (Vln II keeps the portato); violas C5/E♭5 at 205-206.
+- Open: 131-132 settled G (from c153).
+- Do-not-touch: 216-223 with B→C and G→C at 222→223; arrival chord and chorale top lines (no more inner layers 223-234); last cadence 259-263; close 273-279.
+
+## Cycle 160 (v160 → v161), lens 10 coherence + release check (Sebesky ch. 9, ch. 1, second pass)
+- No score change. finale.md current to v160.
+- Closed: "131-132 settled G" (keep the G cadence; it sets up the stop chord at 138).
+- Do-not-touch: bars 1-2; 216-223 with 222→223; arrival and chorale 223-234 with the C bass at 229-230; both chorale top lines and the cut at 264.1; last cadence 259-263; close 273-279; 205-208 violas (four changes in five cycles).
+
+## Cycle 161 (v161 → v162), lens 1 melody (Adler ch. 11 melodic, second pass)
+- Accepted: bass trombone holds B♭2 through the diminuendo 41-42.
+- Do-not-touch: no trombones on F1 at 27-34 (their first melody is the chorale at 224); 235-279.
+
+## Cycle 162 (v162 → v163), lens 2 harmony (A&S Units 30-31, second pass)
+- Accepted: Vln II B♭ at 64.4; Fl 2/Ob 1 B♭ at 38.3; viola D-C-C♭-B♭ at 46-47; C♭ neighbour in Vla/Vc at 81.2.
+- Do-not-touch: German sixth 1-2; trumpet solo 51-66; horn pedal and 6/3 bridge 83-90; 9-8 at 49; bass trombone B♭ 41-42; 222→223.
+
+## Cycle 163 (v163 → v164), lens 3 form (A&S Units 6-8, second pass)
+- Accepted: V4/2 bass at 74 and 194; V without 7th at 165; Bn 1 F3→E♭3 at 171; Vln II D at 46.
+- Closed: c142's 74→75 joint.
+- Do-not-touch: F1, F2, chorale top line; viola descent 46-47 with 9-8 at 49; 187-223 key path through 222→223; no PAC in the recap (by design).
+
+## Cycle 164 (v164 → v165), lens 4 orchestration (Adler ch. 5, second pass)
+- Accepted: Cl 1-2 F1 head up an octave at 83-86; clarinets f at 151; Bn 2 E♭2-E♭3 at 194.
+- Do-not-touch: Vln I octave divisi 159-166 (c109); F1, F2, chorale top line.
+
+## Cycle 165 (v165 → v166), lens 5 engraving (MOLA, parts)
+- Accepted: cues at 91, 143-147, 197-199; Vln I and cello page turns on rests; rest ranges clear of marks; percussion rest ranges; stray "arco" removed (67, 187); Vln II "sul G" dashed line 81-82.
+- Do-not-touch: score MIDI (part-only changes).
+
+## Cycle 166 (v166 → v167), lens 6 playability (Rimsky ch. I, second pass)
+- Accepted: Hn 1-2 rest 34.4; breaths at 140 (Bn 1-2, Hn 3-4) and 198 (Hn 1-2); Cl 1 takes the counter-line 159-165 from Ob 2; trumpets mf at 151; basses F at 33.4.
+- Do-not-touch: trumpet solo 51-66; horn/bassoon pad 75-82; horn pedal and clarinet octave 83-86; Vln I divisi 159-164; Vln I B♭6 at 78.
+
+## Cycle 167 (v167 → v168), lens 7 texture (Sebesky ch. 3, second pass)
+- Accepted: Vln I single top line with Fl 1 at 91-94, Vln II double stops; Vln II f and winds mf under the tune at 159-165; winds mf under F2's string peak at 78-82.
+- Do-not-touch: 151-166 layout (c134); Bn 1 at 87-90 (c058).
+
+## Cycle 168 (v168 → v169), lens 8 expression (MOLA, second pass)
+- Accepted: one level per attack at 166; f on the 103 re-entry; Vln II "cantabile" at 67 and 187.
+- Do-not-touch: trumpet solos 51-66 and 171-186 with pp accompaniment; 77-82 balance (c167); codetta 91-94; 138 stop chord sf > over sub. p (c028); 187-198 bow plan.
+
+## Cycle 169 (v169 → v170), lens 9 master comparison (Franck; v159)
+- Accepted: trumpets rest at 151-158, enter mf at 159.
+- Do-not-touch: the rest of the 151-166 layout (c134); coda 247-279.
+
+## Cycle 170 (v170 → v171), lens 10 coherence + release check (A&S Unit 23, second pass)
+- No score change. finale.md current to v170.
+- Do-not-touch: bars 1-2; 46-49; 216-223 with 222→223; 223-234; 242-244; both chorale top lines and the cut at 264.1; last cadence 259-263; close 273-279.
+
+## Cycle 171 (v171 → v172), lens 1 melody (A&S Unit 3, second pass)
+- Accepted: Vln I answer moved to 119 over the bassoon solo's held C4; Vln I D♭6 on 211 beat 4 (reverses c159's keep of the passing C6).
+- Do-not-touch: bassoon solo 115-122; hand-over 123-130; stretto and strokes 139-150; theme B recall 211-218 with the G♭6-F6 suspension; arrival and chorale 223-234; both chorale top lines.
+
+## Cycle 172 (v172 → v173), lens 2 harmony (A&S Unit 27, second pass)
+- Accepted: Hn 4 A♭3→G3 then D4 at 138-146 (no doubled leading tone); Vln II E♭5 alone at 117.2; Vln II B♭4 at 115 (7th of D7 resolves down).
+- Do-not-touch: B bass 139-146 with no C (stop chord resolves to C only at 222→223); 147-150 with no ♭9.
+
+## Cycle 173 (v173 → v174), lens 3 form, coda (A&S Unit 15, second pass)
+- Accepted: MIDI tempo steps 2 = 88/90/92 at 205-210 under the printed più animato.
+- Do-not-touch: R at 247 at 2 = 88; E-major chord at 243 with the horn call; cut on 264.1; 265-272.
+
+## Cycle 174 (v174 → v175), lens 4 orchestration (Casanelles ch. 6, second pass)
+- Accepted: Hn 3-4 rest 143-144 under the horns' F1 head; Vln I answers pp at 119 and 122; harp p at 123.
+- Do-not-touch: stretto entries and timpani 139-150; harp notes and pedals 123-130 (c116); Hn 1-2 held F4 at 103-104.
+
+## Cycle 175 (v175 → v176), lens 5 engraving (Adler ch. 2, second pass)
+- Accepted: ties at 95-96; up-bow at 114; viola div./unis. marks cleaned (199, 219); "change bow at will" removed at 229; text outside the slur at 124.
+- Open: bar-number placement at 110, 147, 212, 259, 263, 278 (padding fix costs a page; try a local tweak).
+- Do-not-touch: 16-page layout.
+
+## Cycle 176 (v176 → v177), lens 6 playability (Sebesky ch. 2, second pass)
+- Accepted: Ob 1 up an octave at 207-208; tuba and Cbsn breath after 208.
+- Do-not-touch: horns 138-150; A♭ pedal 205-210 in bass trombone and basses.
+
+## Cycle 177 (v177 → v178), lens 7 texture (Adler ch. 8, second pass)
+- Accepted: Cl 2 and Bn 1 (octave below) on the F1 head 207-208, Fl 2 rests 207-208; Tbn 2 E3 at 255-256 stepping to C3.
+- Do-not-touch: arrival and chorale 223-234 with 222→223; both chorale top lines and the cut at 264.1; 247-254 (trombones' octave, c071/c091); close 265-279.
+
+## Cycle 178 (v178 → v179), lens 8 expression (Adler ch. 7, second pass)
+- Accepted: horns and Tbn 1·2 mp at 207-208; Fl 2 breath before 223; Cl 2 rests at 101-102 and 105-106.
+- Do-not-touch: 211-223 dynamic path; flutes' staggered breaths 255-264; bassoon solo 115-122; cor anglais 217-218; arrival and chorale 223-234.
+
+## Cycle 179 (v179 → v180), lens 9 master comparison (Saint-Saëns 3; v169)
+- Accepted: MIDI tempo 205-210 rises one step per bar to 92.
+- Do-not-touch: 205-210 scoring (rescored in c176, c177, c178); coda tempo plan 199-279.
+
+## Cycle 180 (v180 → v181), lens 10 coherence + release check (A&S Unit 28, second pass)
+- No score change. finale.md current to v180.
+- Do-not-touch: bars 1-2; 163; 205-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 181 (v181 → v182), lens 1 melody (A&S Unit 20, second pass)
+- Accepted: Bn 1 C4-D4-A3 at 126-127 (no fifths with the violas); violas' figure at 25-26 (no augmented second at V-VI).
+- Do-not-touch: hand-over 123-130; canon 226-230 (inside 223-234).
+
+## Cycle 182 (v182 → v183), lens 2 harmony, coda (A&S Unit 5, second pass)
+- Accepted: F in the ii7 at 242 (harp, Fl 2); P line E6 at 252; Hn 3·4 C4 at 239; Ob 2 holds C5 at 261; A4 at 249; low bass doublings by step at 225-227 and 249-250.
+- Note for finale.md item 8: P head continuation E6 at 252.
+- Do-not-touch: 223 arrival and 222→223; both chorale top lines and the canon; plagal close 231-234; 235-247 progression with its single G♯ voice; 255-263 cadence with Tpt 1 B→C; close 273-279.
+
+## Cycle 183 (v183 → v184), lens 3 form, whole movement (A&S Unit 14, second pass)
+- Accepted: V4/2 at 133-134 (cellos, basses F; violas D) after the G cadence.
+- Do-not-touch: development key plan with the G cadence at 131-132; retransition 135-150; coda arrivals 199, 223, 247, 263, 278 with both chorale top lines.
+
+## Cycle 184 (v184 → v185), lens 4 orchestration, coda (Rimsky ch. I, III, second pass)
+- Accepted: Tbn 1-2 f at 247-254; Hn 3 A♭3 at 259-260 rising to E♭4.
+- Do-not-touch: arrival and chorale 223-234 with 222→223; horn-call layout 243-246; final chord 278-279.
+
+## Cycle 185 (v185 → v186), lens 5 engraving, coda (Gould ch. 1, second pass)
+- Accepted: Hn 3·4 note swap at 257-262 (no crossing); Cl 2 shift at 257-262; bar-number row lowered from 209 (closes c175's open item); Q text on two lines in parts; R above its tempo mark.
+- Do-not-touch: 223-234 with 222→223; both chorale top lines and the cut at 264.1; flute breaths 255-264; cadence 259-263 with Tpt 1 B→C; close 273-279.
+
+## Cycle 186 (v186 → v187), lens 6 playability, coda (Adler ch. 2, second pass)
+- Accepted: bowings 247-254 (accents on down-bows); Hn 3·4 breaths after 250 and 256.
+- Do-not-touch: horn call 243-246; flute breaths 255-264; final chord 278-279.
+
+## Cycle 187 (v187 → v188), lens 7 texture (Rimsky ch. II, second pass)
+- Accepted: bass clarinet doubles the basses at 27-34; Ob 2 a2 at 19-26; Cl 2 with the violas at 110-113; Bn 1 with the violas at 99-100; score-only breaks at 128, 144, 158.
+- Note for finale.md: bars 1-26 changed (Ob 2 doubling at 19-26); tell the scherzo thread at batch end.
+- Do-not-touch: 11-18; 77-82; 83-86; 87-90; lament 107-109; bassoon solo; stretto.
+
+## Cycle 188 (v188 → v189), lens 8 expression (Adler ch. 10, second pass)
+- Accepted: ties for held winds and brass at 28-34, 39-42, 52-66, 9-10; slurs matching the violins at 111-112.
+- Note for finale.md: bars 9-10 changed (ties only).
+- Do-not-touch: bars 1-2; trumpet solo 51-66 scoring and pp.
+
+## Cycle 189 (v189 → v190), lens 9 master comparison (Borodin 2/iv; v179)
+- Accepted: Hn 3 D4→E♭4 at 259-261 (removes fifths with the bass).
+- Do-not-touch: bars 1-2; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263 with Hn 3 D4→E♭4 and Hn 4 A♭3; c188 ties; close 273-279.
+
+## Cycle 190 (v190 → v191), lens 10 coherence + release check (Adler ch. 17, second pass)
+- No score change. finale.md current to v190.
+- Do-not-touch: bars 1-2; 51-66; 115-130; 205-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 191 (v191 → v192), lens 1 melody (Rimsky ch. II, second pass)
+- No score change.
+- Do-not-touch: 247-254 layout; 187-198 with the bow plan; 159-164 divisi; 27-34.
+
+## Cycle 192 (v192 → v193), lens 2 harmony (A&S Units 9-10, final pass)
+- Accepted: Ob 2 C5 (was A♭4) on beats 3-4 of 160, removing parallel 5ths with the tune's upper octave into 161 (iv7→V).
+- Kept: inner 5ths at 15→16 and 155→156 (passing eighth); 198→199 horn climb into the quotation; cadential 6/4s at 151, 220, 243-244.
+- Do-not-touch: 151-166 scoring and tune; 259-263 cadence; 222→223; both chorale top lines.
+
+## Cycle 193 (v193 → v194), lens 3 form (A&S Unit 26, second pass)
+- No score change.
+- Do-not-touch: key plan III–iv–v/V; recapitulation over the dominant at 151; F2 in A♭ at 171-198; tempi 211-246; rehearsal letters.
+
+## Cycle 194 (v194 → v195), lens 4 orchestration (Rimsky ch. III, second pass)
+- Accepted: 16-foot bass octave at 110-113 (Cbsn C1 at 110; Cbsn and tuba F1 at 111.1; tuba, Cbsn and basses F1 at 113).
+- Do-not-touch: upper parts 110-113; trumpets at 110 and 112; 91-94 low brass; 147-150.
+
+## Cycle 195 (v195 → v196), lens 5 engraving (Gould ch. 1 beams, second pass) + parts layout
+- Accepted: flat rests at 128-142 in global.ily (closes the cor anglais compression); bass clarinet part on two facing pages; cor anglais break before 205; percussion tempo marks spaced; Tpt 1·3 padding; Fl 1 beam slope at 222.
+- Do-not-touch: 16-page score layout and score-only breaks; 216-223; 223-234; 259-263; 273-279.
+
+## Cycle 196 (v196 → v197), lens 6 playability (Adler ch. 3, second pass)
+- No score change.
+- Do-not-touch: 110-113 low octave; 91-94 viola double stops; 144-150 double stops; bars 2 and 6.
+
+## Cycle 197 (v197 → v198), lens 7 texture (Adler ch. 11, second pass)
+- No score change.
+- Do-not-touch: stretto 139-150; 247-254; 99-109; 205-208; 265-272.
+
+## Cycle 198 (v198 → v199), lens 8 expression (A&S Unit 21, second pass)
+- No score change. Open: finale.md wrongly says the basses reach ff at 271; fix at cycle 200.
+- Do-not-touch: 87-90 chain; 210-211 suspension; 135-138 and 222→223; horn call 243-246; C pedal 263-279.
+
+## Cycle 199 (v199 → v200), lens 9 master comparison (Casanelles ch. 6; v189)
+- No score change. All changes since v189 confirmed.
+- Do-not-touch: bars 1-2; 51-66; 110-113; 151-166; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 200 (v200 → v201), lens 10 coherence + final release check
+- No score change. finale.md current to v200 (basses f 265-274 corrected). Release check passed. Loop complete.
+- Do-not-touch: bars 1-2; 51-66; 110-113; 151-166; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
