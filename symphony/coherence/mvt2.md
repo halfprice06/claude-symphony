@@ -1,7 +1,7 @@
 # Movement II (Adagio, A♭ major): current state for the other movement threads
 
 Owner: the thread "Movement II, 200 more loops" (session cse_01WWGdo2VND72g1pVzSE2829; third series, cycles 201–400, from 2026-10-19). Only that thread edits this file. Written 2026-10-12; the third series updates it whenever a change touches another movement.
-Current version: symphony/mvt2/v250 (third series; newest text files in symphony/mvt2/latest/; versions on branch claude/project-thread-wtf58k) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (updated 2026-10-13 after cycle 190): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
+Current version: symphony/mvt2/v251 (third series; newest text files in symphony/mvt2/latest/; versions on branch claude/project-thread-wtf58k) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (updated 2026-10-13 after cycle 190): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them (the score prints them an octave higher).
 
@@ -159,7 +159,7 @@ Apart from v224's inner voice, none of these touches the opening's carried-over 
 | Horn call E♭–C–B (mvtOneHornCall) | none | | Not quoted in movement II. |
 | Timpani pulse `c4 r8 g,8 c4 r4` | none | | Not used (kept for the finale). |
 
-themes-mvt1.md also lists the stop chord at II bar 64. In v181, bar 64 beats 3–4 have G♯3 (violas), B3–D4 (Vln II) and D2–E2 in the bass: three of the four pitch classes (no F), so I could not confirm the full chord there.
+themes-mvt1.md also lists the stop chord at II bar 64. Confirmed at cycle 250 (v250, MIDI checked): bar 64 beat 3 holds the complete chord, D2 (Vc, Cb, B.tbn), F3 (Tbn 1), G♯3 (violas), B3 (Vln II), with D in the bass as at movement I bar 138. In this movement its B (C♭) always falls a semitone (33, 64→65); the rise B→C is left to the finale. Bars 61–65 follow the ♭VI→♭II→V7 route (A&S PDF 593): the quotation's A minor is A♭'s ♭II, so it stays in A minor. Movement II is ♭VI of C at symphony level; its last A♭ chord stays plain (no added seventh or sixth) so the finale's opening German sixth on A♭ resolves it.
 
 ## Timpani tunings
 
@@ -215,5 +215,4 @@ None.
 1. critics/c180-record-from-coordinator.md says "harp silent from 83". In v181 the harp plays at 83 (harmonics A♭–C–E♭ and a left-hand A♭1) and is silent from 84.
 2. The aTwo.ily header comment and movement-2-plan.md give the main peak as F6 at 79. The notes are B♭6 in Vln I and Flute 1 at 79 (and B♭6 in Vln I at 76).
 3. movement-2-plan.md's theme A and theme B notes are from v01 (for example `f''4 e''4 es''4` in theme A and theme B opening on A♭4). The v181 notes are the ones given above.
-4. themes-mvt1.md says the stop chord recurs in II at 64. Only three of its pitch classes are present there (see the quotation table).
 5. scherzo.md's opening section says movement II "ends with them [Hn 3·4] muted". They play muted until 90 and have "via sord." at 91.
