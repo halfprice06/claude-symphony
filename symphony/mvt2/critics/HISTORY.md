@@ -1366,3 +1366,12 @@ Lens 10 cyclic (A&S Unit 30, PDF 530–550). Report: reports/c220.md.
 - Recorded (no change): cross-movement joins (I v231, scherzo v211, finale v212); 33 falling resolution; 86; no augmented triads; 65–70; chromatic chords.
 - Open: none.
 - Do-not-touch: pedal through 33; standing list; the 8-page layout.
+
+
+## Cycle 221 (v221 → v222)
+Lens 1 melody (Rimsky-Korsakov ch. V, PDF 137–149). Report: reports/c221.md.
+- Accepted: 1. viola pizz. under the C.a. at 43 b3–44; viola part padding 0.5 in genparts.py (one page).
+- Rejected: 2. harp at 14 (creates an analyser outer-voice octave 14→15).
+- Recorded (no change): 41; 48–51; 53–56; 65–70; 61.
+- Open: none.
+- Do-not-touch: viola triplets under the solo at 43–44; one-page viola part; standing list; the 8-page layout.
