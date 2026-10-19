@@ -1088,3 +1088,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 6 playability and ranges, Adler App. A (adler2 PDF 302-312, third pass).
 - Accepted: double-bass C extension (Adler PDF 302; adler1 PDF 108): 171-186 the recap's pizz. bass keeps its 16-foot octave (E♭1 at 174.3, 179, 181, 183; D1 at 175) instead of folding up to the cellos; 166 accented E♭1 with tuba and contrabassoon; header "(double basses: C extension at 166 and 174-183)". The analysis flags these 6 notes below E1: accepted, like the trumpet C6.
 - Kept: 241-243 basses with the cellos; no bass C1 at 223, 263, 278 (contrabassoon has it).
+
+## Cycle 247 (v247 → v248), lens 7 winds and brass (Rimsky ch. III, third pass)
+- Lens 7 (wind and brass combination), Rimsky-Korsakov ch. III (PDF 106-114, examples 151-167, 174), third pass.
+- Accepted: 49-50 Hn 1 D4 stopped, p, in the soft oboe-horn-clarinet chord before the trumpet solo (Rimsky PDF 107, 110 Ex. 164; adler1 PDF 308); 239-242 inner pad revoiced, horns hold the concords and bassoons take the moving notes below them (Hn 3 C4-C4-D4-D4, Hn 4 C4-A3-A3-A3, Bn 1 E3-F3-F3, F3→C4 at 242 resolving to B3 at 243; Rimsky PDF 108); c182's horn unison C4 at 239 kept. Tune, counter-melody, bass, harp and dynamics unchanged.
+- Kept: 101-102, 105-106 horn neighbour chord over the held bassoon.
