@@ -1,4 +1,4 @@
-"""Build the movement II mockup in a running REAPER through the file bridge (~/.rpr-bridge).
+"""Build a score mockup (parts.json from score_to_parts.py) in a running REAPER through the file bridge (~/.rpr-bridge).
 
 Usage: python build_reaper.py <parts.json> <jobs-dir> [--mix-only] [track names...]
   c02: each track also gets a volume envelope (mix.json gain_db + parts.json vol_db + mix.json
@@ -42,7 +42,7 @@ def mix_for(name):
         t.setdefault(k, v)
     return t
 
-COLORS = {"wind": (90, 160, 90), "brass": (210, 170, 60), "timp": (150, 110, 80), "harp": (170, 120, 200), "harm": (170, 120, 200), "string": (70, 110, 200)}
+COLORS = {"perc": (160, 140, 100), "wind": (90, 160, 90), "brass": (210, 170, 60), "timp": (150, 110, 80), "harp": (170, 120, 200), "harm": (170, 120, 200), "string": (70, 110, 200)}
 
 
 def run(path, timeout=300):
@@ -61,7 +61,11 @@ def tempo_job():
     pts, t, last_q, last_bpm = [], 0.0, 0.0, None
     sig = {q: (n, dd) for q, n, dd in d["timesig"]}
     if PRE:
-        pts.append({"t": 0.0, "bpm": PRE_BPM, "num": sig.get(0.0, (3, 4))[0], "den": sig.get(0.0, (3, 4))[1], "qn": 0.0})
+        # mvt1 c03 (critic C #4, ONE_TIME): the pre-roll marker gets its own meter (PRE quarter notes = one bar). It had
+        # the score's 4/4, so the 3 qn pre-roll was an incomplete bar and REAPER moved the score's first marker from 3.0 s
+        # to the next barline (4.0 s): every event from score qn 1 on sounded 1/6 qn early (c00-c02, the "envelope lead")
+        pn = int(round(PRE)) if abs(PRE - round(PRE)) < 1e-9 and 1 <= round(PRE) <= 16 else 4
+        pts.append({"t": 0.0, "bpm": PRE_BPM, "num": pn, "den": 4, "qn": 0.0})
         t = PRE * 60.0 / PRE_BPM
     for q, bpm in d["tempo"]:
         if last_bpm is not None:
@@ -89,7 +93,11 @@ return {{ markers = reaper.CountTempoTimeSigMarkers(0), mismatches = bad,
 """
     p = f"{JOBS}/00_tempo.lua"
     open(p, "w").write(lua)
-    return run(p)
+    res = run(p)
+    # mvt1 c03: any marker REAPER placed off its intended qn shifts every later event; stop the build
+    if res and res.get("mismatches"):
+        sys.exit(f"tempo map: {len(res['mismatches'])} markers off their qn, first {res['mismatches'][:3]}")
+    return res
 
 
 _REVERB = None
@@ -190,6 +198,43 @@ def load_articulations(inst, used):
                 f["active"] = True
 
 
+_CAP_PRINTED = set()
+
+
+def cap_release(inst, spec, name):
+    """mvt1 c21 (critic A #1): mix.json "sus_release_cap_ms" {"ms", "dyn": [...], "rows": [...]}: cap the AHDSR release
+    of the sustain sample groups of the listed rows (default "Sus MAX") whose name ends in one of the listed dynamics
+    (default mf/f/ff). A group belongs to a row when every region of its region map sits on that layerMatrix row.
+    Release-trail groups ("... RT"), legato transitions ("TLeg") and the soft layers keep their release. The Hollywood
+    Strings KS Masters ship 524-931 ms on the Sus MAX sustain groups (Celli mf/f/ff 524, Basses mf 700, Violas mf
+    394-653) against 100-237 ms on the legato rows, so rests and cut-offs on Sus MAX did not stop.
+    mvt1 c22 (critic A #4): optional "rt_ms" caps the release-trail ("RT") groups of the same rows and dynamics as well
+    (the Violas KS Master's Sus MAX RT groups ship 1660 ms, 1st Violins 1245-1741, Celli/Basses 131-166)."""
+    ms = float(spec["ms"])
+    dyns = set(spec.get("dyn", ["mf", "f", "ff"]))
+    rows = [r["name"] for r in inst["layerMatrix"]["rows"]]
+    want = {i for i, r in enumerate(rows) if r in spec.get("rows", ["Sus MAX"])}
+    hit = {}
+    for g in inst.get("groups", []):
+        regs = (g.get("regionMap") or {}).get("regions", [])
+        if g.get("type") == 3 or not regs or any(r_.get("row") not in want for r_ in regs):
+            continue
+        nm = g["name"].split(" rr")[0].split(" RR")[0].strip()
+        words = nm.split()
+        ms_ = ms
+        if words[-1] == "RT" and spec.get("rt_ms") is not None and len(words) >= 2 and words[-2] in dyns:
+            ms_ = float(spec["rt_ms"])   # mvt1 c22 (critic A #4): the release-trail groups of the listed dynamics too
+        elif "TLeg" in nm or words[-1] == "RT" or words[-1] not in dyns:
+            continue
+        for pr_ in (g.get("processors") or {}).get("processors", []):
+            if pr_.get("class") == "AHDSR" and pr_.get("release", 0) > ms_:
+                hit.setdefault(nm, set()).add(round(pr_["release"]))
+                pr_["release"] = ms_
+    if name not in _CAP_PRINTED:
+        _CAP_PRINTED.add(name)
+        print(f"{name}: release cap {ms:.0f} ms (RT {spec.get('rt_ms')}) on {sorted((k, sorted(v)) for k, v in hit.items())}", file=sys.stderr)
+
+
 def state_for(tr):
     inst = opus_state.load_oib(tr["patch"])
     if "articulations" in inst:
@@ -199,7 +244,20 @@ def state_for(tr):
     for f in inst.get("filters", []):
         if f.get("name") == "ConSordino" and tr["cc15"]:
             f["conSordino"] = tr["cc15"][0][1] >= 64
-    apply_mix(inst, mix_for(tr["name"]))
+    m_ = mix_for(tr["name"])
+    apply_mix(inst, m_)
+    if m_.get("env_release_ms") is not None:
+        # mvt1 c11 (critic A #4): set the amplitude envelope's release of every sample group (Harp Sus RR ships 3019 ms,
+        # so a note-off never damps a string); score_to_parts.py HARP_RING_S then sets each note's ring by its length
+        rel_ = float(m_["env_release_ms"])
+        for g_ in inst.get("groups", []):
+            for pr_ in (g_.get("processors") or {}).get("processors", []):
+                if pr_.get("class") == "AHDSR":
+                    pr_["release"] = rel_
+        if isinstance(inst.get("envelope"), dict) and "releaseTime" in inst["envelope"]:
+            inst["envelope"]["releaseTime"] = rel_
+    if m_.get("sus_release_cap_ms") is not None:
+        cap_release(inst, m_["sus_release_cap_ms"], tr["name"])
     _, perf, _ = opus_state.split(opus_state.TEMPLATE)
     perf["name"] = tr["name"]
     perf["zones"] = [{"class": "InstrumentZone", "keyMin": 0, "keyMax": 127, "velMin": 1, "velMax": 127,
@@ -207,7 +265,8 @@ def state_for(tr):
     return opus_state.build(perf)
 
 
-TAIL_HOLD_MIN_S, TAIL_HOLD_LEAD_S, TAIL_HOLD_STOP_QN = 0.5, 0.35, 303.5   # c17 (C #2), see vol_points
+# c17 (C #2), see vol_points; the final fade starts 0.5 qn before the score's last release (parts.json score_end)
+TAIL_HOLD_MIN_S, TAIL_HOLD_LEAD_S, TAIL_HOLD_STOP_QN = 0.5, 0.35, d.get("score_end", d["end_qn"]) - 0.5
 
 
 def q2s(q):
@@ -242,6 +301,12 @@ def step_at(pts, q, default=0.0):
     return v
 
 
+SOFT_DECRESC_HOLD_MAX_CC = 72   # mvt1 c15 (critic B #2); None = off
+# the trim keeps this share of its rise inside the hairpin: with none kept (the c15 render) the 20 soft decrescendos
+# with a rising trim fell a median 6.5 dB (others 4.4; before 1.7), Horn 1 at bar 106 11.9 dB from mf to mp
+SOFT_DECRESC_KEEP = 0.5
+
+
 def vol_points(tr):
     """c02: the track volume envelope in dB: parts.json vol_db (roles, note trims, timpani settle, final fade) plus the
     mix.json dynamic trims read from the printed dynamic curve. Both are step lanes on a 0.125 qn grid."""
@@ -252,6 +317,12 @@ def vol_points(tr):
     soft = m.get("soft_trim_db", soft)   # c03: per-track override (Violas pp 0)
     # c06 (B #2): a "p" anchor at CC 46 (0 when absent, as before)
     tbl = [(22, soft.get("ppp", 0)), (34, soft.get("pp", 0)), (46, soft.get("p", 0)), (88, dt["f"]), (114, dt["ff"]), (127, dt["ff"])]
+    # mvt1 c02 (critic B #5): optional "mp" (CC 58) and "mf" (CC 72) anchors. The taper from the p anchor (+5) to a
+    # negative f trim cancelled CC11's growth from p to mf (Flute 1 medians pp -44.8 / p -44.1 / mp -44.8 / mf -44.4 dB)
+    tbl = sorted(tbl + [(c_, soft[k_]) for k_, c_ in (("mp", 58), ("mf", 72)) if k_ in soft])
+    # mvt1 c09: an optional "fff" anchor (CC 124) in dyn_trim_db (the CC1-layered brass: fff on the ff layer alone)
+    if "fff" in dt:
+        tbl = [r for r in tbl if r[0] != 127] + [(124, dt["fff"]), (127, dt["fff"])]
 
     def trim(cc):
         if cc <= tbl[0][0]:
@@ -267,7 +338,31 @@ def vol_points(tr):
     # c10: exact breakpoints of fast vol_db shapes (parts.json vol_bp), between the grid points
     grid = sorted(set(grid) | {q for q in tr.get("vol_bp", []) if 0 <= q < grid[-1]})
     g = m["gain_db"]   # c02: with a volume envelope REAPER ignores D_VOL (measured: every gain was lost), so the gain goes in here
-    val_at = lambda q: round(g + step_at(vol, q) + (trim(step_at(dyn, q, first)) if dyn else 0.0), 2)
+    # mvt1 c15 (critic B #2): the soft trims are larger at pp than at p, so across a soft decrescendo the envelope rose
+    # 2-9 dB and cancelled most of CC11's fall (median fall -1.7 dB where the trim rose 2 dB or more, -4.1 elsewhere).
+    # Inside each decrescendo that starts at CC SOFT_DECRESC_HOLD_MAX_CC or lower, from its start to the first note-on
+    # after its end, the trim may fall but rises only by SOFT_DECRESC_KEEP of its rise above its value at the hairpin's
+    # start
+    holds = []
+    if dyn and SOFT_DECRESC_HOLD_MAX_CC is not None:
+        ons_ = sorted((n.get("sq", n["qn"]), n["qn"]) for n in tr.get("notes", []))
+        for h0, h1, k_ in tr.get("hairpins", []):
+            if k_ != "decresc":
+                continue
+            c0 = step_at(dyn, h0, first)
+            if c0 > SOFT_DECRESC_HOLD_MAX_CC:
+                continue
+            # up to the moved onset of the first note whose score onset is at or after the hairpin's end
+            e_ = next((mq_ for sq_, mq_ in ons_ if sq_ >= h1 - 1e-6), h1 + 1.0)
+            holds.append((h0, e_, trim(c0), SOFT_DECRESC_KEEP))
+
+    def trim_at(q):
+        t_ = trim(step_at(dyn, q, first))
+        for a_, b_, cap_, keep_ in holds:
+            if a_ - 1e-9 <= q < b_ - 1e-9 and t_ > cap_:
+                t_ = cap_ + keep_ * (t_ - cap_)
+        return t_
+    val_at = lambda q: round(g + step_at(vol, q) + (trim_at(q) if dyn else 0.0), 2)
     vals = [val_at(q) for q in grid]
     # c17 (C #2): tail hold. The hall is inside Opus, before this envelope, so a level change while the track rests acts on
     # its last note's decaying tail (cuts of 6-8 dB, swells of 5-8 dB measured). In every rest of TAIL_HOLD_MIN_S or more
@@ -499,7 +594,8 @@ def item_lua(tr):
         ks_rows.insert(0, {"qn": 0.25, "pitch": tr["first_ks"]})
     ks = lua_list(ks_rows, ["qn", "pitch"])
     ccs = []
-    for num, lane in ((1, tr["cc1"]), (11, tr["cc11"]), (15, tr["cc15"]), (7, tr.get("cc7", [])), (70, tr.get("cc70", []))):
+    for num, lane in ((1, tr["cc1"]), (11, tr["cc11"]), (15, tr["cc15"]), (7, tr.get("cc7", [])), (70, tr.get("cc70", [])),
+                     (36, tr.get("cc36", []))):   # mvt1 c14 (A #2): round-robin resets inside the music
         ccs += [{"qn": round(q + PRE, 4), "cc": num, "v": v} for q, v in lane]
         if PRE and lane:   # c06: each lane's first value is sent in the pre-roll too
             ccs.append({"qn": 0.25, "cc": num, "v": lane[0][1]})
@@ -515,7 +611,7 @@ def item_lua(tr):
 local endqn = {d['end_qn'] + 6 + PRE}
 local item = reaper.CreateNewMIDIItemInProj(tr, 0, endqn, true)
 local take = reaper.GetActiveTake(item)
-reaper.GetSetMediaItemTakeInfo_String(take, "P_NAME", name .. " (mvt II v77)", true)
+reaper.GetSetMediaItemTakeInfo_String(take, "P_NAME", name .. " ({d.get('title', 'mockup')})", true)
 local ppq = function(q) return reaper.MIDI_GetPPQPosFromProjQN(take, q) end
 for _, n in ipairs({notes}) do
   reaper.MIDI_InsertNote(take, false, false, ppq(n.qn), ppq(n.qn + n.dur), 0, n.pitch, n.vel, true)
