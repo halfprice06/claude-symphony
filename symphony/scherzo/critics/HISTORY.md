@@ -181,6 +181,30 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 270 (lens 10 cyclic, Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397) (third pass)) v270 → v271
+c270 lens 10 cyclic: no change. Keep Cl 2's G4 at bar 7 (movement II A♭4 → Hn 1 G♯4 → G4, mirrored by the finale's A♭4 → G4 at its bar 2; A&S PDF 388, 395), Hn 3's C4–C♯4–B3 at 87–89, and no ♭VI (C major belongs to the finale).
+
+## Cycle 269 (lens 9 holistic, Adler part 2 full-score examples in ch. 11 and 15 (adler2 PDF 18-54, 143-186) (third pass)) v269 → v270
+c269 lens 9 holistic (Mahler 5/iii): timpani mf at 332. Keep the timpani roll f at 129–130/285–286, the strings-only fugato 57–68, and the reprise tutti 305–320 as scored.
+
+## Cycle 268 (lens 8 expression, MOLA guidelines on dynamics, articulation and bowing marks in parts (mola PDF 1-16) (third pass)) v268 → v269
+c268 lens 8 MOLA: Bsn/Cbsn accents at 72/300 (horns stay unaccented, soft-brass rule); Cl 1 and Vln I hairpins 247–252; Timp p at 28/268; muta whiteout at 376. Keep the strings' entries at 31/35 without a dynamic, no espress. at 121/277, and the bowing signs.
+
+## Cycle 267 (lens 7 texture, Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173) (third pass)) v267 → v268
+c267 lens 7 Sebesky ch. 3: Vc rests 341–347. Keep the cellos doubling the basses at 193–204 (the fifth gives octaves with Cl 1), the inner G4/F♯4 at 121–124, the tonic pedal 225–240, the cellos on the bass at 333–339, the flutes at 37–40, the fugato 57–68, the call and response at 29–36/185–192, and the closing page.
+
+## Cycle 266 (lens 6 playability, Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (third pass)) v266 → v267
+c266 lens 6 Sebesky ch. 2: Ob 2 rests at 44/276. Keep the f/fff oboe unisons at 41–43/273–275/334–338, the horns' motive x at 71/299, Hn 1's high pp at 72–74, Hn 4's A2 at 305–320, B.tbn and tuba on the root at 105–120/333–339, and Bsn 1 at 209–216.
+
+## Cycle 265 (lens 5 engraving, Adler ch. 2 notation of bowings, divisi and harmonics (adler1 PDF 30-55) as engraving rules (third pass)) v265 → v266
+c265 lens 5 Adler ch. 2: Cb 207 hairpin removed (p); Vla "unis." at 13. Keep Vln I's one long ff bow at 218–220, viola unis. at 352–353, the up-bow at 103 in the hemiola, the down-bows at 72 and 277, and the two pizz. notes under a hairpin at Vla 271.
+
+## Cycle 264 (lens 4 orchestration, Casanelles ch. 6 spectral orchestration and acoustic mixing in Mahler's First Symphony (hyper-orchestra PDF 257-290) (third pass)) v264 → v265
+c264 lens 4 Casanelles ch. 6: no change. Keep the coda's A6 statement of T at 349–356, the harp chords at 153–168/185–188/341–344, the tutti layout 105–120, the pp trumpet entry at 101–104, and the closing page 363–375.
+
+## Cycle 263 (lens 3 form, Aldwell & Schachter Unit 15 III and VII (aldwell-schachter PDF 230-247) (third pass)) v263 → v264
+c263 lens 3 A&S Unit 15: Bsn 1 F♯4 at 215. Keep 214 (the same move makes fifths with Cl 1 and Vln II), Hn 2's E4→D♯4 (c093/c157), the Hn 1·2 sixths (c094), the reprise without G major, the 288→289 join, Vln II's E5 at 330, the diminished triads at 27 and 214, and the proportions.
+
 ## Cycle 262 (lens 2 harmony, Aldwell & Schachter Unit 27 Seventh chords with added dissonance (aldwell-schachter PDF 463-481) (third pass)) v262 → v263
 c262 lens 2 A&S Unit 27: Hn 1·2 move to G on beat 3 of 47. Keep the trio's horn drone under V7 at 155/160, the 9–8 at 200, the flat 9ths at 111/311, 126/282 and 337, the bassoon's E3 at 347, the plain V7 at 101–104, and the horns' held notes elsewhere in 45–56.
 
@@ -218,7 +242,7 @@ c252 lens 2 A&S Units 30–31: no change. Keep the B♮ against Cl 2's B♯ at 1
 c251 lens 1 brass melody (Adler ch. 11): no change. Keep theme A, the trio tune with the coda hand-over 341–356, the stretto colour groups, the horn and cello tenor lines, the horns' beat-3 crotchets at 112/120/312/320, no horn at 209–224 and 349–356, and the closing page 357–376.
 
 ## Cycle 250 (lens 10 cyclic, Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (third pass)) v250 → v251
-c250 lens 10 cyclic: short names in F/in C, page 1 numbered, mm-rest bar ranges in parts, Cl muta in B♭ at 376. The finale's IV 9 takes the closing figure's rhythm, instrument and dynamics, not its pitches (scherzo B–B–B–E, finale G–G–G–G). Keep the transfers at 369/375 (c150).
+c250 lens 10 cyclic: short names in F/in C, page 1 numbered, mm-rest bar ranges in parts, Cl muta in B♭ at 376. The finale's IV 9 takes the closing figure's rhythm and instrument, not its pitches or dynamics (the finale plays it mf <) (scherzo B–B–B–E, finale G–G–G–G). Keep the transfers at 369/375 (c150).
 
 ## Cycle 249 (lens 9 holistic, Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (third pass)) v249 → v250
 c249 lens 9 holistic (Tchaikovsky 6/iii, Rimsky Ex. 275–312): no change. Keep the brass and timpani economy, the soft wind solos over harp and pizzicato, the four colourings of T, the 197–200 layering, the hemiola cadences, and the closing page 357–376.
