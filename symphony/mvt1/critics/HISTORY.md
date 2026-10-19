@@ -1442,3 +1442,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: Vc 117–121 measured semiquavers; arco→pizz at Vc 61→62, Cb 46→47; ff slurs Vc 140–142; Vla 'unis.' at 60; Vln I down-bow at 13.
 - Do-not-touch: Cello motto slur 3–4 (c226).
 - Cross-movement: none.
+
+## Cycle 306 (Playability, instrument by instrument; Sebesky ch. 2 Wind instruments (sebesky PDF 21-110)) → v307
+- Accepted: Ob 2 rests from beat 3 of 42 (was F4–E♭4 diminuendo to a soft E♭4 at 43, the oboe's least controllable fifth; Sebesky PDF 71, 79 Ex. 104; the E♭ stays in Bsn 2, Cbsn, Cb); answers c256 (trans).
+- Open / not applied: None. Kept: Ob 1 breath 124/125; Hn 1 S 46–51, 146–151; C.a. B♭5–C6 at 94–95; Hn 3·4 seventh at 141; mutas 34/44/84/98.
+- Do-not-touch: Harp pedalling (c246).
+- Cross-movement: none.
