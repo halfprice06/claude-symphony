@@ -1,6 +1,6 @@
 # Movement I (Allegro, C minor): current state for the other movement threads
 
-Owner: the movement I thread ("Movement I, 200 more loops", series 3 from 2026-10-19). Series 3 works from v221; this file is updated as changes are promoted. Last update: v251 (cycle 250). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
+Owner: the movement I thread ("Movement I, 200 more loops", series 3 from 2026-10-19). Series 3 works from v221; this file is updated as changes are promoted. Last update: v261 (cycle 260). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them.
 
@@ -122,7 +122,7 @@ There are three climaxes on A♭, rising in strength:
 The fff marks are at 122 and 160 only.
 
 The A♭6 peaks:
-- Vln I reaches A♭6 at 31, 72, 122 and 160. Fl 1 doubles it at each of these, Fl 2 at 72 and 160. Vln II never reaches A♭6 (since v230 its highest note is B♭5).
+- Vln I reaches A♭6 at 31, 72, 122 and 160. Fl 1 doubles it at each of these, Fl 2 at 72 and 160. Vln II never reaches A♭6 (since v258 its highest note is C6, the tremolo at 152).
 - At 140, Fl 1 reaches A♭6 alone (Vln I is an octave lower) over a D♭ bass.
 - No violin note in movement I is higher than A♭6. The violins never reach C7.
 
@@ -148,7 +148,7 @@ The A♭6 peaks:
 
 **Tuba.** It plays only the bass, never a melody. Its highest note is F2. Its last note is C2 at 170.
 
-**Not used anywhere in movement I:** muted or stopped brass, a high horn unison, a full low-brass unison in the bass, the falling major motto in full brass at forte (G–E–D–C appears only at mp–mf in Hn 1/violas/cellos at 147–150), and a sustained forte C-major chord in the full brass.
+**Not used anywhere in movement I:** muted or stopped brass, a high horn unison, a full low-brass unison in the bass, the falling major motto in full brass at forte (G–E–D–C appears only at mp–mf in Hn 1/violas/cellos at 147–150), and a root-position C-major chord in the full brass at forte. Bar 158 has the full brass ff on the cadential 6/4 of C over the G pedal (Tpt 1 E5, Tpt 2 G4, Tpt 3 C4, Hn 1·2 E4, Hn 3·4 G4/C5, Tbn 1 C4, Tbn 2 G3, B.tbn G2, tuba G1); it goes to V7 at 159 and is cut off by ♭VI at 160, so C is never reached.
 
 ## Do not reuse: kept for the finale (from cyclic-notes.md, checked against v221)
 
@@ -190,13 +190,15 @@ These are reserved for the finale. The other movements should not use them. Thei
 - v233: the cadential 4–3s at 66→67 and 164→165 are tied over the barline and resolve on the second eighth; Hn 3 B3 on beat 2 of 165; harp G5–D6–F6 at 165.
 - v234–v239: brass voicing at 40, 72 (Tbn 1 E♭4, Tbn 2 C4), 166 (Hn 4 G3); beam slopes; fugato free voice in violas/Bsn 1 at 94–95; portato dash on the P head's repeated C (c4--) at 16, 28, 132, 144, 168 and similar figures; bowing marks at 34–41, 69–71, 139, 158–162.
 - v240–v251: oboes swap lines at 158–163 (Ob 1 with Cl 1 on the countermelody, Ob 2 on the tune's middle octave); bass D at 25 beat 4 (iv – iiø7 – vii°7 into the stop chord); Tpt 1 B4 at 133; held brass ff under the fff tune at 160; rest positions and no 8va in the Vln I part; harp étouffez at 68 and B pedal left on B♭; violas G3 at 144–146; Vln II G4 at 175–176 (was E♭4); hairpins on the ff S at 97–102; v251: no clashed cymbals (suspended-cymbal stroke at 160).
+- v252–v256: cellos sul G for the motto at 1–3 and 175–178; Vln I sul D for the last motto at 177–182 (movement II continues "(sul D)" over the tied C5 to its bar 4; keep both); Cl 1 A♭4–G4 at 164; trombones p< into the sf at 41; bar 82 Fl 2 with Fl 1 on top and Cl 2 with Cl 1 on the head.
+- v257–v261: part-combine fixes; Cbsn breath at 134; Vc at 91; Vln II tremolo C6 halo at 152; swells at 56–57; fade at 13; Hn 4 breathes on beat 4 of 25. Harp reaches D♭7 at 57–59 (C7 at 56). Nothing another movement quotes changed.
 
 ## Seeds of later movements (found by critic 230; keep them when revising)
 
 - Bar 79: Ob 1 and Vln I play G5–F♯5–F5–E5, the scherzo's theme A bar 2 at the same pitch. With Cl 1's G♯5 at 78 (keep that spelling) it foreshadows the scherzo's opening and its last Vln I G♯5.
 - P's second bar has the rhythm of the scherzo's motive x.
 - Bar 106: Hn 1's D♯5 is left unresolved, like the scherzo's horn call.
-- Bar 108: Vln II's D♯4 is reinterpreted as E♭4; the finale's violas take D♯4 to E4 at its 219–220.
+- Bar 108: Vln II's D♯4 rises to F4 in B♭ minor at 109 (no E♭ sounds at 109–110); the finale's violas take D♯4 to E4 at its 219–220.
 - Bar 12: the German sixth is the finale's first chord, violas on E♭4 in both.
 - Bars 77–83: the bass moves A♭–E–C, the symphony's key cycle in small.
 - Movement I's bar 138 stop chord, for the record: bass D; Vln II D5/A♭5; violas F4/B4; Tpt 1 B4; Tpt 2 F4; Hn 1 A♭4 (corrected at v251: earlier versions of this note said Tpt 1 A♭4).

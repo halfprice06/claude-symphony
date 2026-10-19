@@ -21,7 +21,7 @@ The checker: `themecheck.py themes-mvt1.ly <version dir> --beats 4` reads the `%
 | mvtOneMottoTail (motto-tail) | 2–3, B.cl. at E♭3 (E♭–D–C–D♭–C) | II (B.cl. E♭3 at 32–34; Cl 1 coda 85–89); scherzo theme A (G–F♯–F–E) and Hn 1 357–360 (B–A♯–A–G♯); not a third time at E♭3 in the B.cl. | E♭ D D♭ C (passing C before D♭ optional); transposable; rhythm free |
 | mvtOneThemeSCmajor (theme-s-cmajor) | 146 (beat 4)–150, Hn 1 + Vla (G3), Vc 8vb, mp–mf | Finale: falling major motto G–E–D–C in full brass at f; C-major S head | Rhythm `4 \| 2.~ 8 8 \| 4 2 4` and intervals |
 | mvtOneViolinsFlatSeven (s-head-flat-seven) | 155 (beat 4)–157, Vln I·II | None planned | F D D♭ C, rhythm `4 \| 2.~ 8 8 \| 2` |
-| mvtOneClimaxLine (climax-line) | 158–161, Vln I·II, Fl 1·2, Ob 1, Tpt 1, Hn 1·2; fff and A♭6 at 160 | Finale's last climax must reach C7, above this A♭6 | Pitches and rhythm as written |
+| mvtOneClimaxLine (climax-line) | 158–161, Vln I·II, Fl 1·2, Ob 2, Tpt 1, Hn 1·2; fff and A♭6 at 160 | Finale's last climax must reach C7, above this A♭6 | Pitches and rhythm as written |
 | mvtOneMottoCodaCA (motto-coda-ca) | 171 (beat 4)–174, C.a., p espr. | None planned | G E♭ D C D♭ C; rhythm free |
 | mvtOneThemeSCodaMinor (theme-s-coda-cminor) | 171–174, Vc, no pickup, C minor | Finale: second theme minor first, major on the repeat | Rhythm and intervals; transposable |
 | mvtOneMottoChorale (motto-chorale) | 175–179, B.tbn / Tbn 2 / Tbn 1, pp, tam-tam | Finale chorale: trombone colour, top line in major, f–ff, horns and trumpets added, no tam-tam, independent bass (not this octave doubling); canon with violins two bars later | Top line G E♭ D C D♭ C in semibreves (C–D♭ minims) |

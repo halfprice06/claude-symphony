@@ -1111,3 +1111,63 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: Records corrected: I 138 has Tpt 1 B4 and Hn 1 A♭4 (not Tpt 1 A♭4); mvt1.md brought up to v251. Recommended to movement II: P-head articulation at II 63–64 (slur and portato as in I since v239). Recommended to the finale: limit its C7 rule to violins and flutes (I's harp reaches C7 at 56).
 - Do-not-touch: 159 roll (c108); join into movement II.
 - Cross-movement: Finale told (cymbal; 138 layout; C7 rule); movement II told (63–64 articulation).
+
+## Cycle 251 (Melody and memorability; Adler ch. 3 Individual Bowed Strings: melodic writing for violin, viola, cello, bass (adler1 PDF 71-109)) → v252
+- Accepted: Cellos sul G for the motto at 1–3 and 175–178 (no open D, the sixth on one string; Adler PDF 73–76); Vln I sul D for the last motto 177–182 (PDF 73–75) (intro, coda).
+- Open / not applied: None. Kept: E string at 62–63 (c141); cello S head on the A string at 171–174 (PDF 72, 99).
+- Do-not-touch: coda notes, dynamics, timing (c228/c249).
+- Cross-movement: Vln I's tied C5 into movement II is now sul D (movement II told).
+
+## Cycle 252 (Harmony and voice leading; Aldwell & Schachter Unit 17 Diatonic Sequences (aldwell-schachter PDF 263-288)) → v253
+- Accepted: Cl 1 at 164: A♭4→G4 instead of the augmented second A♭4→B4 (A&S PDF 268, Ex. 17-26c; c152 rule that borrowed A♭ falls to G); unused recTwoCounter kept identical (recTwo).
+- Open / not applied: None. Kept: motto statements over C–A♭–B♭ at 33–36 (c102); doubled D at 40→41 (c234); F♭ against F at 38; B4–A♭4 at 114→115 (protected wedge).
+- Do-not-touch: 33–36; 111–116 wedge.
+- Cross-movement: none.
+
+## Cycle 253 (Form, pacing and proportion; Rimsky-Korsakov ch. IV Composition of the orchestra: tutti, range limits, transfer of phrases, sf-p, crescendo and diminuendo (rimsky-principles PDF 115-136)) → v254
+- Accepted: Trombones (1·2, bass) enter p< at 40 and swell into the sf at 41 (was f<) (Rimsky-Korsakov PDF 127, 130, 136) (trans).
+- Open / not applied: None. Kept: transition 33–46 proportions and stages; closing 69–76 (12–13% of the exposition); trumpets f at 69.
+- Do-not-touch: 33–46 route; 69–76.
+- Cross-movement: none.
+
+## Cycle 254 (Orchestration; Adler ch. 15 Scoring for Orchestra: unison-octave tutti, foreground and background (adler2 PDF 146-158)) → v255
+- Accepted: Bar 82: Fl 2 doubles Fl 1 on the top octave of the head (was G4–E♭5 under Tpt 1); Cl 2 joins Cl 1 on the head (was buried E♭4 eighths), 'a2' (Adler2 PDF 150–152) (dev). Answers c144/c194: the middle octave still has five instruments.
+- Open / not applied: None. Kept: climaxes 122 and 158–161; brass head over held winds at 167–169 (finale's reserve).
+- Do-not-touch: 167–169; 122; 158–161.
+- Cross-movement: none.
+
+## Cycle 255 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68)) → v256
+- Accepted: Part-combine fixes (Gould PDF 60–65): Hn 3·4 unisono at 158; Cl 1·2 chords at 43; Ob 1·2 apart 41–42 (trans, recTwo).
+- Open / not applied: None. Kept: whole-note placement at 76, 176; Fl/Ob overlap at 134 (PDF 66); rhythmic spacing; Fl 1·2 at 41–43.
+- Do-not-touch: c145 spacing 73–76.
+- Cross-movement: none.
+
+## Cycle 256 (Playability, instrument by instrument; Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232)) → v257
+- Accepted: Cbsn breathes on beat 4 of 134 (14.8 s of low crotchets at 131–138; Adler PDF 230) (recOne).
+- Open / not applied: None. Kept: B.cl low C at 92–93, 105–106 (c146); oboe low notes at p 43–46; long single-breath phrases; bassoon low fifth; staggered breaths at 117–126.
+- Do-not-touch: c146 B.cl low C.
+- Cross-movement: none.
+
+## Cycle 257 (Texture and counterpoint; Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255)) → v258
+- Accepted: Vc rests beat 1 of 91 so the third fugato entry's C is not masked (Adler2 PDF 213, 229, 239) (dev); Vln II tremolo halo at 152 moves to A5/C6 on beats 3–4 so the violas' and Cl 1's peak F5 is fresh (PDF 217, 224, 229) (recTwo).
+- Open / not applied: None. Kept: Ob G4 dovetail 145 (c144); viola arpeggio 60–61; 47–55; short held-pitch entries.
+- Do-not-touch: fugato entry plan 85–96; Cb pulse 15–22; climax 158–161.
+- Cross-movement: none.
+
+## Cycle 258 (Expression; Casanelles ch. 4 dynamics layering and expression in performance (hyper-orchestra PDF 145-161) and ch. 6 volume and dynamics (PDF 290-291)) → v259
+- Accepted: Vln I·II swells on the held C5 and tenuto F5 of the S statement at 56–57, as at 47–48 (Casanelles PDF 152, 155) (tTwo); Fl 1 and Vln I fade to p on beat 2 of 13 where Hn 1's call enters mp (PDF 148, 290; Rimsky-Korsakov PDF 133) (intro).
+- Open / not applied: None. Kept: Vln I pp last motto at 177; tutti quavers unmarked; tempo plan.
+- Do-not-touch: phrasing 47–58 (c88); coda levels.
+- Cross-movement: none.
+
+## Cycle 259 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 201-260 (rimsky-principles PDF 376-440)) → v260
+- Accepted: Hn 4 breathes on beat 4 of 25 (g,4 f,2-> r4) to avoid a low minor third over the D2 bass (Rimsky-Korsakov PDF 85, 124); answers c106/c156 (tOne).
+- Open / not applied: None. Kept: v249→v259 changes; bar-160 passing G (c241/c244); scale, recap join, soft ending.
+- Do-not-touch: low horns 23–26 accents; 27–32.
+- Cross-movement: none.
+
+## Cycle 260 (Cyclic design and emotional arc across four movements; Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196)) → v261
+- Accepted: No score change (cyclic check). Records corrected: 158 full-brass ff cadential 6/4 of C (not root position) in mvt1.md; 108 seed wording (D♯4 rises to F4, no E♭ at 109–110); Vln II top C6 at 152; themes-mvt1.md Ob 2 at 158–161; harp D♭7 at 57–59.
+- Open / not applied: None. Kept: no finale F1/F2 hints in mvt I (Tchaikovsky 4/5, Brahms 1 precedent).
+- Do-not-touch: attacca join (Tbn 1 → Hn 3 → mvt II Hn 4 C4); three A♭ climaxes 82/122/160.
+- Cross-movement: finale told: wording of 'first full-brass C-major triad' and harp D♭7.
