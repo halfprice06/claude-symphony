@@ -1155,3 +1155,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 9 holistic comparison with Tchaikovsky 4's finale; Adler (adler1 PDF 137-165, 235-281), third pass; compared with v249.
 - Accepted: 20.1 Cl 1 holds G4 (was D4), so c257's v6 over B♭ has its root on the downbeat instead of a bare B♭-D third (Adler PDF 152 Ex. V-27, 257 Ex. VIII-25). This was the one thing that got worse since v249.
 - Kept: F2's re-scorings, the octave unison 265-268, the coda's form (protected), 135-137 (change comes at 138), the c251 tuba.
+
+## Cycle 260 (v260 → v261), lens 10 cyclic review (Sebesky ch. 9, 1, third pass)
+- Lens 10 cyclic review, Sebesky ch. 9 and ch. 1 (PDF 240-242, 11-20), third pass; read the mount's coherence files (movement I v291, movement II v286, scherzo v271, scherzo record 51/51). No change to the score.
+- Kept: the harp's F♭ pedal at 277 (sounds E; the only setting that keeps F out of the C chord); the tuba theme at 27-32; the coda's recalls 243-279 (protected).
+- Note for finale.md: done (header, cycles 251-260 list, the two links at bars 1-2 that the scherzo and movement I rely on, harp glissando wording).
