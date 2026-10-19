@@ -1063,3 +1063,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 80-81 the E♭-major F2's cadence delays 2̂ over V7: Vln I, Vln II, Fl 1 tie G from 80 beat 4 into 81, resolving to F on beat 2 (A&S PDF 353-354 Ex. 21-15e/f, 348, 352); the trumpet's minor cadence at 64-65 and Ob 1 unchanged.
 - Rejected: anticipation at 25/165, 9-8 at 17-18, bass 5/2 at 68/76, shifted counterpoint against the chorale (protected), rising 4-3 sequence.
 - Note for finale.md: done (F2 line).
+
+## Cycle 242 (v242 → v243), lens 2 harmony (A&S Units 28-29, third pass)
+- Lens 2 harmony, A&S Units 28-29 (augmented sixths, PDF 482-529, third pass).
+- Accepted: 167-170 VI → French sixth A♭-C-D-F♯ (168) → V7♭9 over G (169) → V6/5 (170) → i (171), so the bass runs A♭-A♭-G-B-C and the root G sounds before the recap's Phrygian cadence at 177; the movement's first French sixth (A&S PDF 503-507, 512-515). Dynamics and diminuendo order unchanged.
+- Rejected: inner fifths 1-6 (protected, c002), augmented sixths at 243, 245-246, 38, 57/177, 147-150 and in the coda (protected or clashing).
