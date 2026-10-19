@@ -180,6 +180,44 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 220 (lens 10 cyclic, Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (third pass)) v220 → v221
+- No score change; joins with I v231, II v228, finale v217 checked; scherzo.md updated (theme A bar 2 link, harp B4 → C5).
+- Do-not-touch: theme A statements' register (I 79 and IV 273–275 quote bar 2 at pitch); harp harmonics E4–G♯4–B4 at 375.
+
+## Cycle 219 (lens 9 holistic, Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305) (third pass)) v219 → v220
+- No change (Mendelssohn 3/ii comparison; v209→v219 nothing worse).
+
+## Cycle 218 (lens 8 expression, Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (third pass)) v218 → v219
+- Accepted: hemiola cadences down-bow again via separate up-bow quaver at 52/128; cello countermelody bowing at 176/216/222; viola louré dashes 45–46, 127–128, 283–284 (Adler PDF 37–43, 54).
+- Do-not-touch (critic): c085 hemiola bowing; c118 up-bow swells; bowings at 300 and 333–339; up-bows before pizz. at 204/223; trio viola louré.
+
+## Cycle 217 (lens 7 texture, Adler ch. 15 polyphonic texture (adler2 PDF 172-186) (third pass)) v217 → v218
+- No change (texture confirmed against Adler PDF 172–186).
+
+## Cycle 216 (lens 6 playability, Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (third pass)) v216 → v217
+- No change (woodwinds confirmed against Adler ch. 6–7).
+- Do-not-touch (critic): breathing points (Cl 1 160/216, winds' rest 300, Bsn 1 116/316, Fl 2 for Fl 1 205–208); climb to B6 335–336; A clarinets.
+
+## Cycle 215 (lens 5 engraving, Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68) (third pass)) v215 → v216
+- Accepted: hairpin minimum 3.9, barline spacing (Gould PDF 54, 57); Cl 2 rest at 85 (PDF 55).
+- Do-not-touch (critic): shared unison noteheads, Ob minim/crotchet offset at 338, dot placement, chord stems, last page 357–376.
+
+## Cycle 214 (lens 4 orchestration, Adler ch. 15 Scoring for Orchestra: unison-octave tutti, foreground and background (adler2 PDF 146-158) (third pass)) v214 → v215
+- Accepted: Ob 1 E5 (was E4) at 132/288 (Adler PDF 198).
+- Do-not-touch (critic): tutti layout 105–120/305–320; coda build 336–339; trio foreground/background 153–184; last page 357–376.
+
+## Cycle 213 (lens 3 form, Rimsky-Korsakov ch. IV Composition of the orchestra: tutti, range limits, transfer of phrases, sf-p, crescendo and diminuendo (rimsky-principles PDF 115-136) (third pass)) v213 → v214
+- Accepted: contrabassoon enters p at 330 on the bass clarinet's D2 (Rimsky PDF 125–127).
+
+## Cycle 212 (lens 2 harmony, Aldwell & Schachter Unit 17 Diatonic Sequences (aldwell-schachter PDF 263-288) (third pass)) v212 → v213
+- Accepted: violas A♮ in the sequence at 195 (A&S PDF 265, 394).
+
+## Cycle 211 (lens 1 melody, Adler ch. 3 Individual Bowed Strings: melodic writing for violin, viola, cello, bass (adler1 PDF 71-109) (third pass)) v211 → v212
+- No change (melody confirmed against Adler ch. 3).
+
+## Cycle 210 (lens 10 cyclic, Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (third pass)) v210 → v211
+- No score change; joins with II v215 and finale v209 checked; scherzo.md updated.
+
 ## Cycle 209 (lens 9 holistic, Rimsky-Korsakov examples No. 1-60 (rimsky-principles PDF 173-240) (third pass)) v209 → v210
 - No change (Bruckner 9/ii comparison; v199→v209 nothing worse).
 
