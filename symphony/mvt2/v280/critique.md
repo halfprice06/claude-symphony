@@ -1,7 +1,7 @@
 # v280 — cycle 279 (lens 9, holistic: Borodin 2/iii (shape only) and v269; Rimsky-Korsakov Ex. 206–274 (PDF 376-440), text PDF 118-134)
 
 Accepted: nothing (v280 = v279 relabelled). Report: critics/reports/c279.md.
-Recorded (no change): No change. Recorded: 1. cellos hold A♭3 under the violins' B♭5 appoggiatura at 28 (optional ; counter-melody protected, clash mild; open); 2. violas in unison with Cl 2 at 57–58 (harmless); 3. two-octave gap at 83 (colour; PDF 125); 4. strings' run not slurred into B♭6 at 78–79 (c246 bow plan); 5. Borodin comparison of shape; nothing worse since v269; 6. muted horn and C.a. echo of 61–62's F–F♭ at 87–88 (PDF 128). Reading gap: some example pages refused by the image tool; judged from text. Masters used in the third series now include Borodin 2/iii (c279).
+Recorded (no change): No change. Recorded: 1. cellos hold A♭3 under the violins' B♭5 appoggiatura at 28 (optional fix in c279: Vc A♭3–F3–D♭4 at 28; counter-melody protected, clash mild; open); 2. violas in unison with Cl 2 at 57–58 (harmless); 3. two-octave gap at 83 (colour; PDF 125); 4. strings' run not slurred into B♭6 at 78–79 (c246 bow plan); 5. Borodin comparison of shape; nothing worse since v269; 6. muted horn and C.a. echo of 61–62's F–F♭ at 87–88 (PDF 128). Reading gap: some example pages refused by the image tool; judged from text. Masters used in the third series now include Borodin 2/iii (c279).
 Build: 0 warnings, 8 pages, 0 outer-voice parallels; parts book 30 pages.
 
 ---
