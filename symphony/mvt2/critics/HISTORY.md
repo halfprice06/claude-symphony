@@ -1850,3 +1850,10 @@ lens 9, holistic: Schubert 8/ii (from descriptions; no score) and v279; Rimsky-K
 - Accepted: nothing (v290 = v289 relabelled).
 - Recorded (no change): No change. Nothing worse since v279. Recorded: 1. timpani roll and held bass E-flat under Hn 1's solo at 67-70 may cover it (Rimsky PDF 139, Ex. 298); optional untested fix in the report (roll only 2 bars); open, inside a protected passage; 2. coda recalls no theme in a remote key (c263 decision protected; F-F-flat-E-flat echo does that job); 3. horns double violas and C.a. doubles Hn 4 under Cl 1 at 87-88 (as Rimsky Ex. 290; protected); 4. theme B solos 37-52 over pizz. and harp follow Schubert and the reading. Masters used in the third series now include Schubert 8/ii (c289). Reading gap: no Schubert score; text cut on PDF 143 and 146.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 290 (v290 → v291)
+lens 10, cyclic; Rimsky-Korsakov prefaces and ch. IV (PDF 13-23, 124-129). Report: reports/c290.md.
+- Accepted: timpani roll diminuendo at 69-70 (closes c289's open point).
+- Recorded (no change): hand-overs, echo 87-89, group dynamics, joins with other movements.
+- Do-not-touch: standing list; the 8-page layout; 1-6 link with its 2-3 roll; horn and E♭ pedal 65-70; plagal close 87-92 with C5 on top.
