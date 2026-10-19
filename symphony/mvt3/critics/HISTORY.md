@@ -1109,3 +1109,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 239 Cl 1 and violas f (movement I's chromatic counter), harp left hand mf, so the counter is detached from the harp's broken chords (Rimsky PDF 18-20). Manager: "arco" at bar 1 in cellos and basses (scherzo v261 request; Adler part 1 PDF 54); record line choraleFirst TbnTwo 224 (38/38).
 - Rejected: muted-brass echo and a scale handed across the orchestra (protected bars).
 - Note for finale.md: done (header, versions, cycles 241-250 list, link Ob 1 95-98 = movement II's last tail).
+
+## Cycle 251 (v251 → v252), lens 2 brass (Adler ch. 11, third pass)
+- Lens 2 (brass), Adler ch. 11 (adler2 PDF 19-36, third pass).
+- Accepted: 27-32 new tuba part doubling the contrabassoon's bass statement of F1, ff, tongued (tenuto/staccato, no slur), resting from 33 (Adler PDF 20, 28, 33-34 Ex. XI-16); the tuba's first thematic line; score-only staff distances on page 2 keep 16 pages.
+- Not applicable: the Lohengrin diminuendo (231-234 protected).
+- Note for finale.md: the tuba doubles F1's bass statement at 27-32.
