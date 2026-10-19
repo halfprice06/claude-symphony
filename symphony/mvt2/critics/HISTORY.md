@@ -1484,3 +1484,10 @@ lens 3, form; Adler ch. 17 (PDF 256-275). Report: reports/c233.md.
 - Accepted: 1. viola part texts at 87/89 below the staff ("rit." over 89; c225 item closed); 2. score removes part-tagged viola text; 3. harp part "attacca" text no longer collides at 7.
 - Open: B.cl. low-C note at 8 (parenthesised alternative); viola part "poco sostenuto" at 47.
 - Do-not-touch: one-page parts except harp; 8-page layout.
+
+
+
+### Cycle 236 (playability, Rimsky ch. I) — v237
+- Accepted: 1. B.cl. part small-note alternative at 8.
+- Recorded (no change): string positions; breaths and mute times; brass balance 60–62.
+- Do-not-touch: woodwind breath plan and 87–92 hand-over; string-position plan; B♭6 only at 76/79; one-page parts; 8-page layout.
