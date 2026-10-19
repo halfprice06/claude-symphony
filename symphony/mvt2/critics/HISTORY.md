@@ -1226,3 +1226,12 @@ Lens 3 form (A&S Unit 25, PDF 418–441). Report: reports/c203.md.
 - Recorded (no change): cadence hierarchy; deceptive cadence 77–78; 86 apparent applied chord; 15–22; key-area entries.
 - Open: none.
 - Do-not-touch: no seventh on the A♭ chord at 31–36 (c020, c203); standing list; the 8-page layout.
+
+
+## Cycle 204 (v204 → v205)
+Lens 4 orchestration (Rimsky-Korsakov ch. I, PDF 24–50). Report: reports/c204.md.
+- Accepted: 1. Cb div. in octaves 23–28, unis. at 29 (bass in its own octave while the cellos have the counter-melody; PDF 25, 27, 30, 82).
+- Rejected: 2. "sul E" or shortening for the Cb pizz. A1 at 40 (untested; one open note at p).
+- Recorded (no change): flute at 37; brass 60–62; harp 53–56; timpani; 87–90.
+- Open: none.
+- Do-not-touch: Cb octaves 23–28; standing list; the 8-page layout.
