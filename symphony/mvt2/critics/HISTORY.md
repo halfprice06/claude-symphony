@@ -1541,3 +1541,10 @@ lens 3, form; A&S Unit 14 (PDF 211-229). Report: reports/c243.md.
 - Accepted: nothing (v244 = v243 relabelled).
 - Recorded (no change): No change. Recorded: 1. V never a key area (middle section is IV); V becomes a dominant seventh at 65–70 (PDF 220); 2. 64 b4 is the double-meaning chord at the return (E7♭9 / German sixth of A♭; PDF 219); 3. A♭ chord held as a goal at 31–36, phrase modulation at 37 (Ex. 14-11; 5–6 at 36 rejected); 4. return 71–78 varies both cadences; 4̂–♯4̂–5̂ bass at 25–26 or 76 blocked (protected statement, counter-melody D♭4); 5. D♭ confirmed late at 60–61; 6. ♯4̂ never doubled. Do-not-touch: key plan; 64 b4; 65–70 dominant seventh; 31–36 then 37; 59–61 cadence with G♭–G♮–A♭ bass.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+
+### Cycle 244 (orchestration, Casanelles ch. 6) — v245
+- Accepted: 1. harp MIDI range now applied; 2. timpani MIDI range as horns; 3. harp mp at 77.
+- Open: timpani rolls as single strokes in MIDI.
+- Do-not-touch: harp f at 78 b3; standing list; 8-page layout.
