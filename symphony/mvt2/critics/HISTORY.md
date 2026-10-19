@@ -1243,3 +1243,11 @@ Lens 5 engraving (Gould ch. 2, PDF 58–68). Report: reports/c205.md.
 - Recorded (no change): separate stems at 30, 69, 82 (independent parts); rest at 78; dots and noteheads.
 - Open: none.
 - Do-not-touch: items above; standing list; the 8-page layout.
+
+
+## Cycle 206 (v206 → v207)
+Lens 6 playability (Adler part 1 ch. 10 horn, PDF 299–311). Report: reports/c206.md.
+- Accepted: nothing (v207 = v206 relabelled).
+- Recorded (no change): slurs, endurance, ranges, entries, mutes, notation; no breath needed at 55.
+- Open: none.
+- Do-not-touch: standing list; the 8-page layout.
