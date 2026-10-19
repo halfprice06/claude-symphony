@@ -1829,3 +1829,10 @@ lens 6, playability; Adler ch. 9-10. Report: reports/c286.md.
 - Accepted: breath after 61 in tuba and bass trombone.
 - Recorded (no change): horn voicing 61-62; Hn 1 endurance; Tbn 1 quotation breath; horns 80-82; Hn 4 entry at 1.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 287 (v287 → v288)
+lens 7, texture; Rimsky-Korsakov ch. III overlaying, crossing, enclosure (PDF 106-114). Report: reports/c287.md.
+- Accepted: nothing (v288 = v287 relabelled).
+- Recorded (no change): No change. MIDI scan of all 92 bars: no clarinet inside the horns, no horn between two bassoons, no bassoon above the top horn. Recorded: 1. horns 1-2 ff at 61-62 (woodwind doubling balances, PDF 108-109); 2. Cl 2 F4 unison with Hn 3 at 79 b1 (c234); 3. F-flat discord in Hn 3 at 80-81, Ob 2 doubles it above (protected V-flat 9); 4. Hn 4 E-flat 3 at 29-30 with no string double (as Rimsky Ex. 171); 5. moving line in a horn at 87-89 (protected echo of 61-62). Do not touch the wind and brass layouts at 3-6, 60-62, 79-81, 87-90.
+- Do-not-touch: standing list; the 8-page layout.
