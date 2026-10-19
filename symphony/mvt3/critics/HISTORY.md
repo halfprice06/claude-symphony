@@ -1057,3 +1057,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 138 Tpt 1 B4 and Tpt 2 F4 one sf eighth over the strings' stop chord, movement I's trumpet layout at I 26/138 (Adler PDF 189-190, Ex. XV-35); B4 cut off, B→C still only at 222→223; part-only Vln I cue at 136-137; \noPageBreak before 128 keeps 16 pages.
 - Rejected: timpani stroke at 138; heterophonic doubling (only fits protected quotations).
 - Note for finale.md: done (header, record 37/37, timpani label and retuning, cycles 231-240 list).
+
+## Cycle 241 (v241 → v242), lens 1 melody (A&S Unit 21, third pass)
+- Lens 1 melody, A&S Unit 21 (suspensions, PDF 346-371, third pass).
+- Accepted: 80-81 the E♭-major F2's cadence delays 2̂ over V7: Vln I, Vln II, Fl 1 tie G from 80 beat 4 into 81, resolving to F on beat 2 (A&S PDF 353-354 Ex. 21-15e/f, 348, 352); the trumpet's minor cadence at 64-65 and Ob 1 unchanged.
+- Rejected: anticipation at 25/165, 9-8 at 17-18, bass 5/2 at 68/76, shifted counterpoint against the chorale (protected), rising 4-3 sequence.
+- Note for finale.md: done (F2 line).
