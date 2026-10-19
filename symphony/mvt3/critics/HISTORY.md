@@ -911,3 +911,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Kept: 265-268 rests (c036, c046, c124; protected).
 - Note for finale.md: violas enter at 170.3; bass trombone lower octave at 153, 161, 164.
 - Do-not-touch: 167-170 diminuendo order; 151-158 layout; 265-272.
+
+## Cycle 215 (v215 → v216), lens 5 engraving (Gould ch. 1-2 spacing, third pass)
+- Accepted: score-only \cen spacing for bar-length notes at 96, 97, 136-138, 147, 221 (Gould PDF 55); crossed held notes split into stemmed tied halves (Hn 1·2 at 256; Fl 2 and Ob 2 at 199-202) (PDF 67); trombone staff kept apart 103-105 (no mid-bar "1."); f at 200 (Hn 3·4) offset; "sul tasto" at 170 centred.
+- Also (composer, following movement I v239 cycle 238): portato dash on the P head's repeated note under the slur, c4--), at 200 (Fl 1, Ob 1, Cl 1, Vln I·II, Vla) and at 248 (Vln I·II, Fl 1·2, Bn 1, Vc, Tbn 1·2). Notes, rhythms, slurs unchanged.
+- Do-not-touch: 222→223 and 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279; separate-stem crossings from c035, c185, c205.
