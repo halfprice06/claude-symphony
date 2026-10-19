@@ -1648,3 +1648,9 @@ lens 3, form; A&S Unit 26 (PDF 442-461). Report: reports/c253.md.
 - Not applied: Hn 2 entry at 77 (counter-melody stays three colours).
 - Do-not-touch: octave doublings 45–46, 57–60; Hn 1 p solos 7–14, 67–70; muted horns with divided violas 87–90; Cb tie from 82 and "4 soli" at 87; standing list.
 - Masters used in the third series: Brahms 2/ii, Dvořák Cello Concerto/ii, Beethoven 7/ii, Mozart 41/ii, Dvořák 9/ii, Dvořák 7/ii (c259).
+
+
+
+### Cycle 260 (cyclic; A&S Unit 26 across the symphony) — v261
+- Accepted: 1. bar ranges over multi-bar rests in the parts; 2. score page 1 numbered; 3. horn short names "in F".
+- Do-not-touch: joins with movements I and III; plain last A♭ chord; one-page parts; 8-page layout.
