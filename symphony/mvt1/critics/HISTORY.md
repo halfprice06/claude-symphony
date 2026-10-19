@@ -1285,3 +1285,10 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: A♭6 at 31 (finale quotes 27–32); 167–170 layout as 27–32; Ob/Cl unison 103–106; two flutes 69–72; Cb pizz f at 103; Hn 1 a level below strings 146–154.
 - Do-not-touch: coda 171–182 return of the opening colour; fugato 85–96 strings alone first.
 - Cross-movement: none.
+- Note (c280): c067's protection 'viola E♭–E♮–F 56–57' is closed: the line stays at pitch in Cl 1 + Hn 2; violas rest 56–59 (c277).
+
+## Cycle 280 (Cyclic design and emotional arc across four movements; Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20)) → v281
+- Accepted: No score change (cyclic check: changes since v271 keep every link; Do-not-reuse list holds in MIDI). Records: mvt1.md to v280 (percussion damping, 60–62 bass, two new seeds of mvt II at 45–47 and 60–62, peak ladder A♭6–B♭6–B6–C7, v272–v280 changes); themes-mvt1.md 'pp espr.' at 177.
+- Open / not applied: None.
+- Do-not-touch: peaks below the later movements.
+- Cross-movement: mvt II told: tam-tam damped at 182 and the two seeds; finale told: cymbal tied to 163, 'pp espr.' at 177.
