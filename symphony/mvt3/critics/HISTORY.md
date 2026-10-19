@@ -916,3 +916,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: score-only \cen spacing for bar-length notes at 96, 97, 136-138, 147, 221 (Gould PDF 55); crossed held notes split into stemmed tied halves (Hn 1·2 at 256; Fl 2 and Ob 2 at 199-202) (PDF 67); trombone staff kept apart 103-105 (no mid-bar "1."); f at 200 (Hn 3·4) offset; "sul tasto" at 170 centred.
 - Also (composer, following movement I v239 cycle 238): portato dash on the P head's repeated note under the slur, c4--), at 200 (Fl 1, Ob 1, Cl 1, Vln I·II, Vla) and at 248 (Vln I·II, Fl 1·2, Bn 1, Vc, Tbn 1·2). Notes, rhythms, slurs unchanged.
 - Do-not-touch: 222→223 and 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279; separate-stem crossings from c035, c185, c205.
+
+## Cycle 216 (v216 → v217), lens 6 playability (Adler ch. 6-7, third pass)
+- Accepted: 209-210 upper woodwinds fp < (was f <) on the A♭7 into 211 (Adler PDF 177-178); clarinet pp pads "dal niente" at 51 and 171 (PDF 211; level and scoring unchanged, answering the 51-66/171-186 protection); breaths: Bn 2 at 198.4, Bn 1-2 at 82, Cl 1 at 242, Cl 2 at 186 (PDF 175, 188, 226).
+- Kept: Bn 2 B♭1 p at 191; Ob 1 E6-D6 at 227-228; Cbsn quarters 199-203.
+- Tool: tools/critic-scripts/c216/breath.py (breathing-gap scan).
+- Do-not-touch: 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
