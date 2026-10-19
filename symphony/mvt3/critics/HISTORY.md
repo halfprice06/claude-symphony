@@ -1045,3 +1045,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 8 (dynamics and phrasing), Casanelles ch. 4 and 6 (PDF 145-161, 290-291, third pass).
 - Accepted: 239-240 swells as in movement I's phrase and as at 235-238; 243 strings and bassoons drop to mf under the horn call, then mf < to 247; Fl 2 enters mf at 242, harp diminuendo at 242, Ob 1 f on its G♯ at 243 (Casanelles PDF 149-150, 152, 155, 290). No note changed.
 - Kept: wind canon 226-230 unslurred, brass diminuendo 231-234, repeated-note figures at 247-277, 255-262, 11-26.
+
+## Cycle 239 (v239 → v240), lens 9 holistic (Beethoven 5 finale, third pass)
+- Lens 9 holistic comparison with Beethoven 5's finale; Rimsky-Korsakov examples 201-274 (PDF 364-440, third pass); compared with v229.
+- Accepted: 70 violas end on G (es'4( f'4 g'2)) again, so the violas' E♭/E♮ thread keeps its first E♮ at 97; cellos keep E♮ for the V4/3 of ii (c232); 103-104 the held F moves from Hn 1·2 F4 (same register as the Hn 3·4 theme) to Cl 1 F5 p, Hn 1·2 rest and return p at 105, Cb D♭ at 104 held full length (Rimsky PDF 132-133, 115-116); 75 Hn 1·2 re-enter pp (Rimsky PDF 136).
+- Kept: coda tempo and the broad ending (protected); motive x against its augmentation at 143-145 (exact quotation, protected); pads at 101-102, 105-106.
+- Note for finale.md: done (viola thread wording; cellos' E♮ at 70).
