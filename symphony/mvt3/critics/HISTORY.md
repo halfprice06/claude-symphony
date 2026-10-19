@@ -973,3 +973,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted (engraving and part-only; MIDI identical): rehearsal letters K, N, O above their tempo text (MOLA PDF 4); 243-246 "poco a poco stringendo" on two lines and violins' "unis." above the slur (PDF 8); 197-198 Ob 2 score rests as spacers; harp part cue (Vln I) at 39-42 before the harmonics at 43 and trombone parts cue (Vc) at 33-34 before 35 (PDF 5).
 - Not applied: 129 Vln I "unis." above the staff (17 pages).
 - Do-not-touch: 16-page layout and score-only breaks; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279; 187-198 scoring.
+
+## Cycle 226 (v226 → v227), lens 6 playability (Adler ch. 9-10 brass, third pass)
+- Accepted: 149 horns, Tpt 3, trombones and tuba re-attack sfp < ff at 150 under the allargando (Adler PDF 290, 323, adler2 PDF 8; notes, voicing and Tpt 1-2 strokes unchanged); Tpt 3 rests 251-254 with Tpt 1-2 (endurance, PDF 292); breaths Hn 3-4 after 242, Hn 4 after 246 (PDF 292, 309); trumpet parts without key signatures (PDF 297-298; parts only).
+- Kept: 224-228 chorale holds; muted Tpt 1 B3 at 185.
+- Do-not-touch: 147-150 notes and voicing; 223-234; 255-263; 273-279.
