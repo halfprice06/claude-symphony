@@ -1527,3 +1527,10 @@ lens 8, expression; A&S Unit 3 (PDF 47-57). Report: reports/c238.md.
 - Accepted: 1. harp pp at 53, p at 55 (under the counter-line).
 - Open: harp mp at 77 (optional, untested).
 - Do-not-touch: harp harmonics 82–88; harp RH dyads 7–14; standing list; 8-page layout.
+
+
+## Cycle 242 (v242 → v243)
+lens 2, harmony; A&S Unit 31 (PDF 551-583), techniques other than c237's. Report: reports/c242.md.
+- Accepted: nothing (v243 = v242 relabelled).
+- Recorded (no change): No change. Recorded: 1. enharmonic changes at 46→47, 50→51, 62→63, 64→65 follow the reading (PDF 557–560, 573, 576); 2. Bm7→A♭7 at 50–51 kept (protected pivot); 3. bass E♭–C–A under shared-tone sevenths at 39–40, 55–56 (PDF 575–576); 4. rule: never set the motto tail E♭–D–D♭–C against a chromatically rising bass (PDF 565, Ex. 31-21a); 5. no chromatic sequence inside the movement (keeps A♭ strong, PDF 572); the symphony's major-third key cycle shows here as F♭ resolving to E♭ six times; 6. 48 static F♯ minor kept (fills anticipate the C.a. D5 or hit the Neapolitan); 7. ♮4–♯4 approach to V only at 59, other cadences stay plain.
+- Do-not-touch: standing list; the 8-page layout.
