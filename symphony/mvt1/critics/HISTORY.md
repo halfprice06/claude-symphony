@@ -1292,3 +1292,63 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None.
 - Do-not-touch: peaks below the later movements.
 - Cross-movement: mvt II told: tam-tam damped at 182 and the two seeds; finale told: cymbal tied to 163, 'pp espr.' at 177.
+
+## Cycle 281 (Melody and memorability; Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371)) → v282
+- Accepted: 45: cellos G3–A♭3 (was A♭3 whole bar) so Cl 1's 7–6 suspension B♭–A♭ is not anticipated by its note of resolution (A&S PDF 350–354, Ex. 21-12c) (trans).
+- Open / not applied: None. Kept: climax E6 rising at 159 (c101; finale quotes); cello G3 at 59 (c107; octave exception); themes; Cl 1 7–6 at 175–177.
+- Do-not-touch: 43–47 lead-in and 33–46 route (c163, c236).
+- Cross-movement: none.
+
+## Cycle 282 (Harmony and voice leading; Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529)) → v283
+- Accepted: 143: Vc and Bsn 1 hold C3 (was C3–D3), so Vln I's passing D♭5 sits over the held tonic as at 27 and 167, with no diminished octave in the outer voices (A&S PDF 484, 488, 495) (recOne).
+- Open / not applied: None. Kept: aug6 at 116 with C bass (motivic bass, PDF 516); 12–13 octaves with the bass (c112); no new aug6 at 178 (B→C reserved), 68, 162, 82→83.
+- Do-not-touch: 143–150 lead-in events (c239).
+- Cross-movement: none.
+
+## Cycle 283 (Form, pacing and proportion; Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground) → v284
+- Accepted: No change (form and pacing vs Adler ch. 15, 17). Closed open items: development opening 77–84 stop-start (c079; Adler PDF 195, 276); light texture 103–110 after the ff S (PDF 262, 267); recapitulated second group 'too complete' (one statement 147–155).
+- Open / not applied: None. Kept: dense 139–141 below the 158 arrival; reversed recap order; two-bar approach 156–157 (c083, c143, c243); viola/solo cello C4 at 172.
+- Do-not-touch: climax arrival 158 (14 players return).
+- Cross-movement: none.
+
+## Cycle 284 (Orchestration; Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54)) → v285
+- Accepted: Brass (Adler PDF 15, Ex. XI-1): Hn 3 holds the leading tone B3 at 122–124 (was D4), resolving to C4 at 125 (dev); Hn 4 F♯3 a2 with Hn 3 on the Ger6 at 12 (was A♭2 doubling the bass) (intro); Tpt 2 E♭4 on the ff stroke at 33 (was G4), as at 143 (trans).
+- Open / not applied: None. Kept: low trumpets at 122 (c244); Tpt 1·2 G4 at 131–132; single horns at ff at 26, 27–32, 82, 138; climax order.
+- Do-not-touch: three-climax order.
+- Cross-movement: finale told: Ger6 at 12 horn layout (Hn 4 F♯3 instead of A♭2), pitches unchanged.
+
+## Cycle 285 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould introduction and contents (gould-behind-bars PDF 7-13), then a second pass over PDF 17-68 for any rule not yet checked) → v286
+- Accepted: Cello tenor clef at 97 moved before the pickup F♯3 so the B-minor S phrase reads in one clef, as at 46 and 146 (Gould PDF 22) (dev).
+- Open / not applied: None. Kept: Vln I 8va at 31, 71–72, 121–123 (c245); 73–76 spacing (c145); breath marks on Hn 3·4; dotted minim rests at 170.
+- Do-not-touch: fixed 17-page layout.
+- Cross-movement: none.
+
+## Cycle 286 (Playability, instrument by instrument; Adler App. A ranges, professional and amateur limits (adler2 PDF 302-312)) → v287
+- Accepted: No change (ranges vs Adler App. A: every part inside professional range).
+- Open / not applied: None. Kept: B.cl low C 92–93/105–106 (c146, c256); Ob 1 B3 at 117; Hn 1 B5 at 106 (ossia); A♭6 at f–fff; Cl 1 D6 at 158/160; Vc F5 at 52; timpani retunes.
+- Do-not-touch: parts page turns.
+- Cross-movement: none.
+
+## Cycle 287 (Texture and counterpoint; Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173)) → v288
+- Accepted: No change (string voicing vs Sebesky ch. 3).
+- Open / not applied: None. Kept: violas inside the brass register 117–121/131–134 (c264); low strings under fff brass at 122; P on Vln I alone 15–18 (graded build to 27); Fl 1 mp at 109–110 (settled); cellos double basses only on pedals, strokes and the motto.
+- Do-not-touch: graded build 15–27.
+- Cross-movement: none.
+
+## Cycle 288 (Expression; MOLA guidelines on dynamics, articulation and bowing marks in parts (mola PDF 1-16)) → v289
+- Accepted: Accents on C–B at 142 in Hn 3, Tpt 3, Tbn 1 like every other doubling (MOLA Ex. 6) (recOne); Bsn 2/Cbsn diminuendo starts on the note at 125, not on the beat-4 rest (MOLA PDF 8) (dev).
+- Open / not applied: None. Closed: 'damp' vs 'étouffez' (c168). Kept: Ob 2 hairpin into rest 116→117; Vln I 179–182 text spacing; Hn 3·4/Tbn f at 139–142 (c264, c283).
+- Do-not-touch: coda part layout.
+- Cross-movement: none.
+
+## Cycle 289 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Adler part 2 full-score examples in ch. 11 and 15 (adler2 PDF 18-54, 143-186)) → v290
+- Accepted: Fl 1 joins the violins' octave on the downbeat of 100 instead of falling a sixth on beat 3 mid-climb (Adler PDF 147–151); narrows c144 ('Fl 1 alone at the top 97–100') to 97–99 (dev). Holistic vs Borodin 2/i and v279: no regressions.
+- Open / not applied: None. Kept: no ff unison tutti of the motto (finale's reserve); horn unison 158–161 (c181).
+- Do-not-touch: motto colours; 117–121 brass motto; 122–131 collapse.
+- Cross-movement: themes-mvt1.md: B-minor S Fl 1 8va now 97–99 only.
+
+## Cycle 290 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397)) → v291
+- Accepted: No score change (cyclic check: changes since v281 keep every link). Records: mvt1.md to v290 (v282–v290 line; bar-12 seed with Hn 3·4 F♯3 = finale Hn 4 F♯3; E♭4/E4 thread adds Vln II 77–80).
+- Open / not applied: None.
+- Do-not-touch: Hn 3 B3→C4 at 122–125 resolves into i6/4 (not the finale's B→C).
+- Cross-movement: none (finale already told at c284).
