@@ -71,8 +71,27 @@ motiveXrepeated = { b,4 b,8 b,8 b,4 }
 %@ trioT VlnOne 209
 %@ trioT FluteOne 217 16 19
 % coda: T shared out, bars 1-4 Hn 1, bars 5-8 Cl 1, bars 9-16 Vln I
-%@ trioT HnOne 341 9
+%@ trioT HnThree 341 9
 %@ trioT OboeOne 345 9 10
 %@ trioT VlnOne 349 13 19
 % (since v44 the coda statement's cadence differs: 354-356 gis'''2 fis'''8 e''' | dis'''2 fis'''4 | e'''2 r4, expanded cadential 6/4; checked through bar 353 only)
 %@ mottoTail HnOne 357
+
+% ---- added c260: the links other movements quote at pitch; "abs" also compares the pitches (themecheck with the c260 patch) ----
+% motiveXclose: Timp 363, 367, 371 (pp, pp, ppp near the rim): the finale v231+ takes its rhythm and instrument at IV 9 (on G)
+motiveXclose = { b,4 b,8 b,8 e,4 }
+% lastGsharp: the last sound, continued as A flat at the same pitch by the finale's bar 1 (Hn 1 A flat 4, Vln I A flat 5)
+lastGsharpHn = { gis'2. }
+lastGsharpVln = { gis''2. }
+%@ motiveXclose Timp 363 abs
+%@ motiveXclose Timp 367 abs
+%@ motiveXclose Timp 371 abs
+%@ lastGsharpHn HnOne 368 abs
+%@ lastGsharpVln VlnOne 369 abs
+% the horn call at pitch (the finale's Hn 3 resolves its D sharp 4 at IV 219-220)
+%@ hornCall HnOne 1 abs
+% theme A bar 2 (bars 14, 106, 254, 306), G5-F sharp 5-F5-E5 (notes 5-8), at pitch: movement I bar 79 and finale 273-275 quote it there
+%@ themeA VlnOne 14 4 5 abs
+%@ themeA VlnOne 106 4 5 abs
+%@ themeA VlnOne 254 4 5 abs
+%@ themeA VlnOne 306 4 5 abs
