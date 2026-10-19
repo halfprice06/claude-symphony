@@ -1609,3 +1609,9 @@ lens 3, form; A&S Unit 26 (PDF 442-461). Report: reports/c253.md.
 - Accepted: nothing (v254 = v253 relabelled).
 - Recorded (no change): No change. Recorded: 1. every key arrival reaches 1 or 3 on a downbeat (PDF 445–446); 2. 50–53 heard as I in D♭, not V (G♭7 at 51, A♭7 under poco sostenuto, theme B on F5); 3. proportions match Dvořák 9/ii (36/40/24% vs 38/39/23%; climax at 65% vs 73%); coda not long; 4. D♭ in the reprise within limits (PDF 451–452); 5. rejected: A♭7 foreshadowing in A, tonicization sequence at 53–58, return with no dominant, longer remote stays. Do-not-touch: key plan and pivots 44–47, 51–53; phrase modulation at 37; exit 61–65; proportions; plagal coda.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+
+### Cycle 254 (orchestration, Rimsky ch. I, III) — v255
+- Accepted: 1. Cl 1·2 thirds at 58–59; 2. Cb "4 soli" at 87 (scherzo told to start its basses "tutti").
+- Do-not-touch: c049 rest at 59; 62 b3 spacing; 79–80 fourths; standing list; 8-page layout.
