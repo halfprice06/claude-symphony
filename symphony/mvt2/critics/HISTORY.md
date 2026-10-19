@@ -1699,3 +1699,10 @@ lens 3, form; A&S Unit 32 (PDF 584-606). Report: reports/c263.md.
 - Accepted: 1–2. viola figures at 41–42 kept off the cor anglais's notes.
 - Open: viola part padding is now 0.1; next engraving cycle should check its text and spacing by eye.
 - Do-not-touch: horn solo 7–14; A′ viola figure 71–78; standing list; 8-page layout.
+
+
+
+### Cycle 268 (expression, Adler ch. 11, 15) — v269
+- Accepted: 1. Cb pizz. sf at 63 b1, arco at 64.
+- Open: C.a. F4 \> to rest at 53 (optional).
+- Do-not-touch: string tremolo 63–64; Tbn 1 quotation; bass A–D–E at 64; standing list; 8-page layout.
