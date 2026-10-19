@@ -1596,3 +1596,9 @@ lens 1, melody; A&S Unit 20 (PDF 327-345). Report: reports/c251.md.
 - Accepted: nothing (v252 = v251 relabelled).
 - Recorded (no change): No change. Recorded: 1. theme B is almost all steps (16 of 17 intervals); a leap variant at 55 is possible but not recommended (bar 40's cell links to the oboe at 19, bar 38 to 46; head accepted in c001); 2. viola B♭3 under the violins' B♭6 appoggiatura at 76 b2½ (c081, c127); 3. no fifths from figuration; octaves only at 42→43, 81 and harp/bass doublings; 4. chromatic spellings follow PDF 339–340; 5. recurring figures; 6. theme A reprise varied by setting. Do-not-touch: theme B neighbour-figure design; B♭ appoggiatura at 12/28/76 with c127's viola; Hn 1/Cl 1 counter-line 53–55; run to B♭6 at 78.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+
+### Cycle 252 (harmony, A&S Unit 5) — v253
+- Accepted: 1. Bsn 2 D♭3 at 11 b3; 2. Cl 2 E♭4–D♭4 at 75.
+- Do-not-touch: horn solo 7–14; c201 bass at 11; standing list; 8-page layout.
