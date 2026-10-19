@@ -1463,3 +1463,10 @@ lens 1 melody; Sebesky ch. 5 Voices, PDF 197–203. Report: reports/c231.md.
 - Accepted: 1. Vc 64 b4 now B2 eighth + B♭2 eighth anticipation (German sixth on the beat kept from c210/c211; removes Cb/Vc fifths into 65; PDF 507).
 - Recorded (no change): 73–74 semicadence; 78 no aug. sixth; 43 no Ger+6 (Fl 1); 46–47 protected; 80 iiø7 kept.
 - Do-not-touch: Vc B2 then B♭2 at 64 b4; standing list; 8-page layout.
+
+
+## Cycle 233 (v233 → v234)
+lens 3, form; Adler ch. 17 (PDF 256-275). Report: reports/c233.md.
+- Accepted: nothing (v234 = v233 relabelled).
+- Recorded (no change): No change. Recorded: 1. theme B at 37 enters with its accompaniment (as Dvořák 9/ii at 46; bare fifth 35–36 and proportions protected); 2. seven slowings in 92 bars, each at a phrase end where the models also slow; 3. A′ returns in the violins at 71 (texture protected); 4. two ff peaks at 61 and 79 differ in kind; 5. three six-bar soft pedal interludes (1–6, 31–36, 65–70) are the reductions after a tutti (PDF 267). Do-not-touch: section joins, cut-backs at 65–67 and 83, timpani link 84–85, the 78–92 tempo shape.
+- Do-not-touch: standing list; the 8-page layout.
