@@ -1477,3 +1477,10 @@ lens 3, form; Adler ch. 17 (PDF 256-275). Report: reports/c233.md.
 - Accepted: 1. Ob 2 F♭5 at 80 b3–81 b1, out at 81 b2 (woodwinds complete the iiø7 and V♭9; PDF 86, 110).
 - Recorded (no change): Hn 3·4 29–30; B.cl./B.tbn 60–62; Cl 2 at 79; C.a. 79–82.
 - Do-not-touch: Ob 2 F♭5 80–81; standing list; 8-page layout.
+
+
+
+### Cycle 235 (engraving, Gould ch. 1) — v236
+- Accepted: 1. viola part texts at 87/89 below the staff ("rit." over 89; c225 item closed); 2. score removes part-tagged viola text; 3. harp part "attacca" text no longer collides at 7.
+- Open: B.cl. low-C note at 8 (parenthesised alternative); viola part "poco sostenuto" at 47.
+- Do-not-touch: one-page parts except harp; 8-page layout.
