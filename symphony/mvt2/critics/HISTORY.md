@@ -1424,3 +1424,11 @@ Lens 7 texture (Rimsky-Korsakov ch. III, PDF 108–114). Report: reports/c227.md
 - Recorded (no change): 60; 79–81; 53–56; 87–90; 63–64; 61–62; 37–40; 69–70.
 - Open: viola part "rit." at 89 (cycle 235).
 - Do-not-touch: viola divisi at 80–81 (div./unis. below the staff in the part); standing list; the 8-page layout.
+
+
+## Cycle 228 (v228 → v229)
+Lens 8 expression (Casanelles ch. 4, PDF 123–145). Report: reports/c228.md.
+- Accepted: 1. Vln I/II crescendo shaped around the appoggiatura at 76 (hidden MIDI dynamics); 2. MIDI volume ranges for C.a., trombones, tuba, harp (score.ly); 3. MIDI fade across bar 91 (global.ily).
+- Recorded (no change): 53–61; 79–80; 89; vibrato.
+- Open: viola part "rit." at 89 (cycle 235).
+- Do-not-touch: builds 53–61, 75–79; releases 80–83; 87–92 hand-over; 1–6 link; quotations; plagal close; MIDI volume table; the 8-page layout.
