@@ -968,3 +968,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Kept: 205-206 F1 head in four horns (protected, rescored three times). Note: 187-194 now has clarinet background (c207), Bn 1 counter-melody (c217) and Ob 1 tune doubling; no further thickening there.
 - Note for finale.md: Ob 1 with Vln I 187-194; mp at 95.
 - Do-not-touch: 187-198 scoring as of v225; 205-210; violas 95-98.
+
+## Cycle 225 (v225 → v226), lens 5 engraving (MOLA, third pass)
+- Accepted (engraving and part-only; MIDI identical): rehearsal letters K, N, O above their tempo text (MOLA PDF 4); 243-246 "poco a poco stringendo" on two lines and violins' "unis." above the slur (PDF 8); 197-198 Ob 2 score rests as spacers; harp part cue (Vln I) at 39-42 before the harmonics at 43 and trombone parts cue (Vc) at 33-34 before 35 (PDF 5).
+- Not applied: 129 Vln I "unis." above the staff (17 pages).
+- Do-not-touch: 16-page layout and score-only breaks; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279; 187-198 scoring.
