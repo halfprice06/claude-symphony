@@ -1341,3 +1341,11 @@ Lens 7 texture (Sebesky ch. 3, PDF 164–173). Report: reports/c217.md.
 - Recorded (no change): 79–80 string voicing; 63–64; 87–90; 53–56; 82.
 - Open: none.
 - Do-not-touch: Vc ff at 79 with horns f; Hn 2 one level under the cellos at 75–77; standing list; the 8-page layout.
+
+
+## Cycle 218 (v218 → v219)
+Lens 8 expression (Rimsky-Korsakov ch. IV, PDF 130–136). Report: reports/c218.md.
+- Accepted: 1. low brass f at 61 (supersedes c076's mf now that the horns are paired); 2. Tbn 1 last note p at 64; 3. B.cl. p<mp>p at 31–33.
+- Recorded (no change): 78 b3; 79; horn entries at 53, 75.
+- Open: none.
+- Do-not-touch: builds 53–61, 75–79; releases 80–83, 87–92; pp/ff brass entries at 60 and 63; items above; standing list; the 8-page layout.
