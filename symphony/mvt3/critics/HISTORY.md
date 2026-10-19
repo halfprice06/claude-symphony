@@ -1193,3 +1193,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 266 (v266 → v267), lens 6, Sebesky ch. 2 winds
 - 269–271: Ob 1 moves up an octave to double the flutes and Vln I instead of unison oboes in the coarse low register (Sebesky PDF 71, 79–80); back to A5 at 272. Accepted; F1's notes unchanged.
 - 277: horns play quarters `c''4-> r4 c''4-> r4` / `e'4-> r4 e'4-> r4`, leaving the eighth upbeat to trumpets and trombones (Sebesky PDF 32, 46). Accepted; the protected close's harmony, line, glissando and final chord are unchanged.
+
+## Cycle 267 (v267 → v268), lens 7, Sebesky ch. 3 strings
+- 43–50: cellos divide B♭2/F3 under the dominant pedal, filling the seventh gap (Sebesky PDF 139–147); "unis., pizz." at 51. Accepted.
+- 83, 87: flutes mf (were f) where they double Vln I on E♭6, as at 35, 78, 129 (Sebesky PDF 164). Accepted.
