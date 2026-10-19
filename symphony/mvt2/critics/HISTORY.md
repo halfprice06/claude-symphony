@@ -1383,3 +1383,12 @@ Lens 2 harmony (A&S Unit 19, PDF 304–325). Report: reports/c222.md.
 - Recorded (no change): 6/4 inventory; structural dominants; modulation plan.
 - Open: none.
 - Do-not-touch: link 1–6 with iv6/4 at 5; °7 and pedal at 33; viola triplets 43–44; Vc C3 at 43 b4; 67–69; 62–65; 87–92; the 8-page layout.
+
+
+## Cycle 223 (v223 → v224)
+Lens 3 form (A&S Unit 21 pedal point, PDF 360–371). Report: reports/c223.md.
+- Accepted: 1. violas divided to the end, upper half holds A♭3 88–92 (removes fifths 88→89; PDF 365–369). Ending's inner voice changed; scherzo told.
+- Rejected: 2. C.a. C4 at 35–36 (bare fifth protected, c184/c213).
+- Recorded (no change): 67; 52; pedal plan.
+- Open: none.
+- Do-not-touch: pedal plan (1–6, 30–36, 83–92; 51–52, 60, 65–70); plagal close bass and top line; divided violas 87–92; bare fifth 35–36; the 8-page layout.

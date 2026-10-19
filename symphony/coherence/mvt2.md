@@ -1,7 +1,7 @@
 # Movement II (Adagio, A♭ major): current state for the other movement threads
 
 Owner: the thread "Movement II, 200 more loops" (session cse_01WWGdo2VND72g1pVzSE2829; third series, cycles 201–400, from 2026-10-19). Only that thread edits this file. Written 2026-10-12; the third series updates it whenever a change touches another movement.
-Current version: symphony/mvt2/v221 (third series; newest text files in symphony/mvt2/latest/; versions on branch claude/project-thread-wtf58k) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (updated 2026-10-13 after cycle 190): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
+Current version: symphony/mvt2/v224 (third series; newest text files in symphony/mvt2/latest/; versions on branch claude/project-thread-wtf58k) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (updated 2026-10-13 after cycle 190): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them (the score prints them an octave higher).
 
@@ -50,9 +50,9 @@ Sections and metre (sections.txt):
 - 84–85: timpani alone answer E♭3 (dotted crotchet), C3 (quaver), A♭2 (tied into 85), pp. This is the timpani's last sound. There is no timpani roll in the last bars.
 - 84 (beat 3)–86: violas div. C4–E♭4 ppp, then C4–F4 at 86.
 - 85–89: Clarinet 1, "dolce", plays the motto's tail: E♭5 (85, ppp < pp), D5 (86), D♭5 (87–88, pp), C5 (89–90, to beat 2 of 90).
-- **87: IV6.** Bass F (cellos F2, double basses F1); violas divided (since v195): lower half F3 sul C with Horn 4, upper half A♭3 with Horn 3 (87–88; both halves on E♭3 from 89); Horn 4 F3 and Horn 3 A♭3, both con sord., pp; cor anglais F4 pp "dolce"; Vln II A♭4 pp; Cl 1 D♭5.
+- **87: IV6.** Bass F (cellos F2, double basses F1); violas divided (since v195): lower half F3 sul C with Horn 4, upper half A♭3 with Horn 3 (87–88; since v224 the lower half falls to E♭3 at 89 and the upper half holds A♭3 to the end); Horn 4 F3 and Horn 3 A♭3, both con sord., pp; cor anglais F4 pp "dolce"; Vln II A♭4 pp; Cl 1 D♭5.
 - **88: iv.** Bass D♭ (cellos D♭3, double basses D♭2); lower violas, Horn 4 and cor anglais F♭ (F♭3, F♭3, F♭4; upper violas A♭3); Horn 3 A♭3; Vln II A♭4; Cl 1 D♭5.
-- **89: I.** Bass A♭ (A♭1, A♭2); the F♭s resolve to E♭ (violas E♭3, Horn 4 E♭3, cor anglais E♭4); Clarinet 2 enters on E♭4; Vln I enters on C5 pp, taking over Cl 1's C5.
+- **89: I.** Bass A♭ (A♭1, A♭2); the F♭s resolve to E♭ (lower violas E♭3, upper violas hold A♭3, Horn 4 E♭3, cor anglais E♭4); Clarinet 2 enters on E♭4; Vln I enters on C5 pp, taking over Cl 1's C5.
 - 90: Cl 1, cor anglais and Horns 3·4 stop on beat 2 (diminuendo).
 
 **Last chord (bars 89–92), bottom to top, ppp at 92, under a fermata:**
@@ -61,7 +61,8 @@ Sections and metre (sections.txt):
 |---|---|
 | A♭1 | double basses |
 | A♭2 | cellos |
-| E♭3 | violas (unis., sul C) |
+| E♭3 | violas, lower half (sul C) |
+| A♭3 | violas, upper half (since v224; held from 87) |
 | E♭4 | Clarinet 2 ("morendo" at 91) |
 | A♭4 | Violins II |
 | C5 | Violins I (up-bow entry at 89, pp, diminuendo at 91) |
@@ -114,7 +115,9 @@ There is no rehearsal mark at 31 or 47. The marks are A–K without I. Tempo mar
 - v220: bassoons and harp under the horn solo at 9 and 11 no longer double the horn's A♭3; viola pizz. pp<p>pp at 41–44.
 - v221: bassoon 2 holds the A♭ pedal through bar 33 (the common-tone diminished seventh, spelled with C♭ as the minor-third notation after a minor movement, A&S PDF 554).
 - Checked at cycle 220: movement I v231 ending, scherzo v211 opening, finale v212 quotation 211–218 all still match.
-None of these touches the opening's carried-over chord, the ending, the exported themes' notes or the quotations.
+- v222: viola pizz. triplets under the cor anglais at 43–44. v223: cellos C3 at 43 b4.
+- v224 (ENDING): the violas stay divided to the end; the upper half holds A♭3 from 87 instead of falling to E♭3 at 89 (removes parallel fifths A♭3–E♭3 over D♭3–A♭2 at 88→89). Last chord pitch classes, top C5 and bass A♭ unchanged; scherzo told.
+Apart from v224's inner voice, none of these touches the opening's carried-over chord, the ending, the exported themes' notes or the quotations.
 
 ## Themes exported (what the scherzo and finale may quote)
 
