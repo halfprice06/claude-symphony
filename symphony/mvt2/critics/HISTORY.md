@@ -1392,3 +1392,11 @@ Lens 3 form (A&S Unit 21 pedal point, PDF 360–371). Report: reports/c223.md.
 - Recorded (no change): 67; 52; pedal plan.
 - Open: none.
 - Do-not-touch: pedal plan (1–6, 30–36, 83–92; 51–52, 60, 65–70); plagal close bass and top line; divided violas 87–92; bare fifth 35–36; the 8-page layout.
+
+
+## Cycle 224 (v224 → v225)
+Lens 4 orchestration (Sebesky ch. 2 brass, PDF 39–55). Report: reports/c224.md.
+- Accepted: 1. Tbn 2 A♭3 at 62 b3 (third in the low brass; PDF 42, 50).
+- Recorded (no change): 60; 61–62 low octaves; horn pairs; horn unisons; 63–64.
+- Open: none.
+- Do-not-touch: Tbn 2 A♭3 at 62; standing list; the 8-page layout.
