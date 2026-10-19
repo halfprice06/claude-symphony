@@ -1815,3 +1815,10 @@ lens 4, orchestration; Adler ch. 15 (adler2 PDF 146-158). Report: reports/c284.m
 - Accepted: Fl 1 A6 sf at 63 b1 (not ff alone over the trombone quotation).
 - Recorded (no change): horn dynamics 61-62; long unisons; quotation entry at 63; theme B colours 37-52.
 - Do-not-touch: standing list; the 8-page layout; c070's flute A at 63.
+
+
+## Cycle 285 (v285 → v286)
+lens 5, engraving; MOLA (PDF 1-16). Report: reports/c285.md.
+- Accepted: B.cl./C.a. quote sources filtered by tag (cue timing); viola part tempo words at 78 and 48; cues for Cl 1, Cl 2, C.a., Vln I after long rests; separator slashes off bar numbers on score page 2.
+- Recorded (no change): Vln II part "Largamente" placement (open); optional cues for Hn 3·4, harp, Ob 1.
+- Do-not-touch: standing list; the 8-page layout; parts book 30 pages (viola padding 0.6 makes two pages).
