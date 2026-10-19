@@ -833,3 +833,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 200 (v200 → v201), lens 10 coherence + final release check
 - No score change. finale.md current to v200 (basses f 265-274 corrected). Release check passed. Loop complete.
 - Do-not-touch: bars 1-2; 51-66; 110-113; 151-166; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 201 (v201 → v202), lens 1 melody (Rimsky ch. II, third pass)
+- Accepted: 35-38 Fl 1 doubles F1's head with the violins at the unison, f, with their articulation (Rimsky PDF 76-77, 67, 54); Fl 2 marked f on the shared staff. F1's notes unchanged.
+- Rejected: Fl 1 an octave above with Ob 1 at the unison (PDF 78): adds a page; Fl+Ob unison: page 2 compressed.
+- Note for finale.md: 35-38 Fl 1 doubling (no effect on other movements).
+- Do-not-touch: 39-42 Fl 1 held A♭5; F2 solo scoring 51-66; chorale; horn call 243-246; 205-206 horn unison.
