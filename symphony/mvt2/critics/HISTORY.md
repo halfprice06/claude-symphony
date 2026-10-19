@@ -1491,3 +1491,10 @@ lens 3, form; Adler ch. 17 (PDF 256-275). Report: reports/c233.md.
 - Accepted: 1. B.cl. part small-note alternative at 8.
 - Recorded (no change): string positions; breaths and mute times; brass balance 60–62.
 - Do-not-touch: woodwind breath plan and 87–92 hand-over; string-position plan; B♭6 only at 76/79; one-page parts; 8-page layout.
+
+
+
+### Cycle 237 (texture, A&S Unit 31) — v238
+- Accepted: 1. bass D♭–E♭–F♭ at 21 (voice exchange with the melody, passing I6/4, into the French sixth); Vln II F4–C4–B♭3.
+- Recorded (no change): 51–52 fills tested and rejected; 64→65, 88→89 slides; no new chromatic sequence devices.
+- Do-not-touch: bar 21 exchange and French sixth; standing list; 8-page layout.
