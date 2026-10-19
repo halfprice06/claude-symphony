@@ -8,7 +8,7 @@ git ls-files --error-unmatch symphony/mvt2/v$PREV/score.mp3 >/dev/null 2>&1 || r
 [ $PREV -gt 201 ] && git rm -q --cached --ignore-unmatch symphony/mvt2/v$PREV/score.pdf symphony/mvt2/v$PREV/parts-book.pdf || true
 git add -- "symphony/mvt2/v$NEW" ':!symphony/mvt2/v'$NEW'/*.mp3' symphony/mvt2/critics symphony/mvt2/kit symphony/mvt2/README.md
 git commit -q -m "Movement II cycle $PREV: v$PREV -> v$NEW" -m "Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01WWGdo2VND72g1pVzSE2829"
+Claude-Session: https://claude.ai/code/session_01XY5Tq7nnuvWhWRp5A7hWAH"
 # shared-folder copy (best effort; the mount can fail)
 if timeout 60 ls $S >/dev/null 2>&1; then
   mkdir -p $S/latest/sections

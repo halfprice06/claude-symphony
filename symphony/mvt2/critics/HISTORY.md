@@ -1906,3 +1906,10 @@ lens 7, texture; Sebesky ch. 1 Basics (PDF 11-20). Report: reports/c297.md.
 - Accepted: nothing (v298 = v297 relabelled).
 - Recorded (no change): No change. MIDI scans for economy and focus over all 92 bars. Recorded: 1. violins in unison at 23-29 and 53-56 (protected plain statement, octaves from 57); 2. B.cl., Bsn 2, cellos together at 57 b1-2 (c157 proposal rejected under c124 rule); 3. Hn 1's counter-line starts on Vln II's A-flat 4 at 57 b1 for one softer beat (protected c160; recorded only); 4. Bsn 1, Hn 2, cellos counter-melody unison at 75-80 (protected c104). Harmonic variety of theme A at 7-9, 23-25, 71-72 partly follows; kept per c057, c157.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 298 (v298 → v299)
+lens 8, expression; Sebesky ch. 1 and ch. 6 (PDF 11-20, 204-218). Report: reports/c298.md.
+- Accepted: harp harmonics at 83 marked p "dolce," (pickup at 82 stays pp).
+- Recorded (no change): cello bowing at 79; fp at 47; solo violin 21-22; oboe 47.
+- Do-not-touch: standing list; the 8-page layout; harp pickup pp at 82.
