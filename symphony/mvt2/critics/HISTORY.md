@@ -1349,3 +1349,12 @@ Lens 8 expression (Rimsky-Korsakov ch. IV, PDF 130–136). Report: reports/c218.
 - Recorded (no change): 78 b3; 79; horn entries at 53, 75.
 - Open: none.
 - Do-not-touch: builds 53–61, 75–79; releases 80–83, 87–92; pp/ff brass entries at 60 and 63; items above; standing list; the 8-page layout.
+
+
+## Cycle 219 (v219 → v220)
+Lens 9 holistic (Dvořák Cello Concerto/ii; Adler ch. 17, adler2 PDF 257–290). Report: reports/c219.md.
+- Accepted: 1. bassoons/harp at 9 and 11 no longer double the horn's A♭3 (PDF 257, 264, 274); 2. viola pizz. one level softer at 41–44.
+- Recorded (no change): 3–7; Vc ff at 79 (fallback noted); 71–74; 48–51.
+- Open: none.
+- Do-not-touch: bassoon voicing at 9 and 11; viola pizz. dynamics 41–44; standing list; the 8-page layout.
+- Masters used in the third series: Brahms 2/ii (c209), Dvořák Cello Concerto/ii (c219).
