@@ -1568,3 +1568,9 @@ lens 3, form; A&S Unit 14 (PDF 211-229). Report: reports/c243.md.
 - Accepted: 1. Cl 2 E♭4 at 71 and 75 b1; 2. harp RH without C at 75 b2.
 - Recorded (no change): 73 b3 unison; 87 doubled third.
 - Do-not-touch: A′ texture plan 71–82; plain 23–30; theme B background plan 37–60; standing list; 8-page layout.
+
+
+
+### Cycle 248 (expression, Rimsky ch. IV) — v249
+- Accepted: 1. crescendo hairpins on 78 b3 into 79 (strings, Fl 1, bassoons).
+- Do-not-touch: c246 bow plan; Fl 1 mp< at 77; sf-p at 47; standing list; 8-page layout.
