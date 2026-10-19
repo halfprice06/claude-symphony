@@ -1555,3 +1555,9 @@ lens 3, form; A&S Unit 14 (PDF 211-229). Report: reports/c243.md.
 - Accepted: 1. cellos bass clef throughout 44–47 (reverses c065, Gould PDF 21); 2. Vln I "(sul D)" at 1–4 (matches movement I); 3–5. stem directions at 11–12, 54–55, 58, 75–76.
 - Open: viola part text at 47–48 (low priority).
 - Do-not-touch: Vln I sul D at 1–4 (shared with movement I); one-page parts; 8-page layout.
+
+
+
+### Cycle 246 (playability, Adler ch. 2) — v247
+- Accepted: 1. violins reach the ff B♭6 at 79 on a fresh down-bow (two up-bows at 78).
+- Do-not-touch: string bow plan (60–61 and 78–81 reach ff on a fresh down-bow); divisi layout; pizz./arco and mute timings; "change bow at will" pedals; 8-page layout.
