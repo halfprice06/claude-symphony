@@ -856,3 +856,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Also (composer, following movement I v225 cycle 224): 200-203 inner brass no longer double the chromatic bass, as at I 28-31: Tpt 2 G4 (200), B♭4 (202); Tpt 3 F4 (200), F4 (201), G4 (202), A♭4-F4 (203); Hn 2 G4 (202). finale.md updated.
 - Rejected: wind trills (protected places; 209-210 would blur the G♭6 seventh); tuba octave at 91-94 (c194 stands); more percussion.
 - Do-not-touch: 273-279 apart from the harp glissando; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; percussion plan.
+
+## Cycle 205 (v205 → v206), lens 5 engraving (Gould ch. 1 rests, third pass)
+- Accepted: score-only rest offsets on shared staves (Gould PDF 50): Cl 58 (to the centre), Cl 170, Bn 190 and 198 (one space lower); 194 left high (Bn 2 crosses above). Removed the duplicate score-only "1." for Cl 1 at 126.
+- Rejected: loco marks after 82 and 242; octave clefs for Cbsn/Cb; score-only 8va to save space.
+- Do-not-touch: harp 8 bassa 67-82 and 239-242; rests at 194 and 265-272; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
