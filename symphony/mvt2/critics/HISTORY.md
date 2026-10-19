@@ -1720,3 +1720,9 @@ lens 3, form; A&S Unit 32 (PDF 584-606). Report: reports/c263.md.
 ### Cycle 270 (cyclic; Casanelles ch. 5) — v271
 - Accepted: 1. timpani muta chain at 5 (all drums in range).
 - Do-not-touch: drum order 30" A♭2, 28" C3, 25" D♭3, 23" E♭3; bar-92 muta; joins with movements I and III; standing list; 8-page layout.
+
+
+
+### Cycle 271 (melody, Rimsky ch. II winds) — v272
+- Accepted: 1. C.a. eighth at 37 b1 (flute alone on theme B's first note).
+- Do-not-touch: c139 overlap at 36–37; 48–50 C.a. quotation without Vln II doubling; Hn 1/Cl 1 unison 53–56; standing list; 8-page layout.
