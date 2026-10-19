@@ -1051,3 +1051,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 70 violas end on G (es'4( f'4 g'2)) again, so the violas' E♭/E♮ thread keeps its first E♮ at 97; cellos keep E♮ for the V4/3 of ii (c232); 103-104 the held F moves from Hn 1·2 F4 (same register as the Hn 3·4 theme) to Cl 1 F5 p, Hn 1·2 rest and return p at 105, Cb D♭ at 104 held full length (Rimsky PDF 132-133, 115-116); 75 Hn 1·2 re-enter pp (Rimsky PDF 136).
 - Kept: coda tempo and the broad ending (protected); motive x against its augmentation at 143-145 (exact quotation, protected); pads at 101-102, 105-106.
 - Note for finale.md: done (viola thread wording; cellos' E♮ at 70).
+
+## Cycle 240 (v240 → v241), lens 10 cyclic review (Adler ch. 1, 15, third pass)
+- Lens 10 cyclic review, Adler ch. 1 and ch. 15 (adler1 PDF 19-23, adler2 PDF 187-196), third pass; read the mount's coherence files (movement I v261, movement II v259, scherzo v241).
+- Accepted: 138 Tpt 1 B4 and Tpt 2 F4 one sf eighth over the strings' stop chord, movement I's trumpet layout at I 26/138 (Adler PDF 189-190, Ex. XV-35); B4 cut off, B→C still only at 222→223; part-only Vln I cue at 136-137; \noPageBreak before 128 keeps 16 pages.
+- Rejected: timpani stroke at 138; heterophonic doubling (only fits protected quotations).
+- Note for finale.md: done (header, record 37/37, timpani label and retuning, cycles 231-240 list).
