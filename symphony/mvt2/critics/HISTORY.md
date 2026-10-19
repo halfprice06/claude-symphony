@@ -1574,3 +1574,11 @@ lens 3, form; A&S Unit 14 (PDF 211-229). Report: reports/c243.md.
 ### Cycle 248 (expression, Rimsky ch. IV) — v249
 - Accepted: 1. crescendo hairpins on 78 b3 into 79 (strings, Fl 1, bassoons).
 - Do-not-touch: c246 bow plan; Fl 1 mp< at 77; sf-p at 47; standing list; 8-page layout.
+
+
+
+### Cycle 249 (holistic, Dvořák 9/ii; Rimsky Ex. 1–68) — v250
+- Accepted: 1. Cb unison (8-foot octave) at 23–28, not divided in octaves (reverses c204; Rimsky PDF 62).
+- Recorded (no change): 18 cello divisi; 53–56 unison; return builds to ff.
+- Do-not-touch: Cb unison 23–28 with the low octave from 29; standing list; 8-page layout.
+- Masters used in the third series: Brahms 2/ii, Dvořák Cello Concerto/ii, Beethoven 7/ii, Mozart 41/ii, Dvořák 9/ii (c249).
