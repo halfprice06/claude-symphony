@@ -844,3 +844,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 169 violas resolve the iiø7's seventh C4 down to B3 (was up to D4), D4 at 170 (A&S PDF 177, 191); the exposition got the same fix in c112.
 - Rejected: 16.3 seventh on beat 3 (would leap or break protected 11-18); deceptive cadence to IV6; I-IV6-I6; ii7 before a cadential 6/4 (all 6/4s protected); 197-198 IV6/5-V6/5-I (melody 1-2-5, protected bass).
 - Do-not-touch: 11-18; 26 deceptive cadence; cadential 6/4s at 109, 151, 220, 243; 197-198 bass line.
+
+## Cycle 203 (v203 → v204), lens 3 form (A&S Unit 32, third pass)
+- Accepted: 95-98 violas hold E♭4 over B♭3 and inflect it to E4 at 97 (with Cl 2), so the E♭/E♮ thread is a viola line at one pitch (1, 97, 219-220, 223); Vln I and Ob 1 pass through D5 on 95.4, top line E♭-D-D♭-C (A&S PDF 585, 597-598, 600-601). Kept although 97 now anticipates the viola E4: there it is the third of C7 (V of F), p, a different function from the arrival's E4 on C major.
+- Rejected: A-major VI♯ at 239 (235-247 plan protected; 243 stays the only chromatic mediant).
+- Note for finale.md: 97 is the violas' first E♮ (E4, p, over B♭3); 95.4 D5 in Vln I/Ob 1.
+- Do-not-touch: bars 1-2; 113-115; 235-247 plan; 187-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
