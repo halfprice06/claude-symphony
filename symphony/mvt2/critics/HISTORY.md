@@ -1857,3 +1857,10 @@ lens 10, cyclic; Rimsky-Korsakov prefaces and ch. IV (PDF 13-23, 124-129). Repor
 - Accepted: timpani roll diminuendo at 69-70 (closes c289's open point).
 - Recorded (no change): hand-overs, echo 87-89, group dynamics, joins with other movements.
 - Do-not-touch: standing list; the 8-page layout; 1-6 link with its 2-3 roll; horn and E♭ pedal 65-70; plagal close 87-92 with C5 on top.
+
+
+## Cycle 291 (v291 → v292)
+lens 1, melody; Adler ch. 7 Individual Woodwinds (adler1 PDF 184-232). Report: reports/c291.md.
+- Accepted: nothing (v292 = v291 relabelled).
+- Recorded (no change): No change. Recorded: 1. theme B's narrow first phrase 37-40 suits its register (Adler Ex. VII-5, VII-59; Dvorak 9/ii Largo spans a fifth); closes the point c131 and c261 left open; 2. theme B's second phrase in the C.a. low register is the memorable half (PDF 205); 3. C.a. quotation peak D5 at 49 at the top of its mellow band, protected pitches, optional dynamic tweak not recommended; 4. high flute notes approached by step or run (PDF 186), A-flat 6 at 61-63 on one breath, Fl 1 rests after; 5. B.cl. solo 31-36 in the chalumeau (PDF 217); 6. Ob 1 doublings at 57-60, 79-82 (PDF 201); 7. clarinet tail 85-90 niente and breath kept; 8. bassoons and Cbn within limits.
+- Do-not-touch: standing list; the 8-page layout.
