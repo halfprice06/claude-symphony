@@ -1251,3 +1251,12 @@ Lens 6 playability (Adler part 1 ch. 10 horn, PDF 299–311). Report: reports/c2
 - Recorded (no change): slurs, endurance, ranges, entries, mutes, notation; no breath needed at 55.
 - Open: none.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 207 (v207 → v208)
+Lens 7 texture (Adler part 1 ch. 5 homophonic strings, PDF 150–157). Report: reports/c207.md.
+- Accepted: 1. violas A♭3 at 27 b2 (third doubled only at the bottom; Ex. V-27, PDF 152).
+- Rejected: 2. harp voicing at 75 (short arpeggiated attack; untested).
+- Recorded (no change): 63–64; 87–88; 23–30; 24/72; 37–40.
+- Open: none.
+- Do-not-touch: violas at 27; standing list; the 8-page layout.
