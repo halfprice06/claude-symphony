@@ -1589,3 +1589,10 @@ lens 10, cyclic; A&S Unit 32 (PDF 584-606). Report: reports/c250.md.
 - Accepted: nothing (v251 = v250 relabelled).
 - Recorded (no change): No change to the notes. Recorded: 1. bar 64 b3 holds movement I's complete stop chord (D2, F3 Tbn 1, G♯3 Vla, B3 Vln II; bass D as at I 138); B/C♭ falls a semitone here, the rise B→C stays with the finale; coherence notes corrected; 2. 61–65 follow the ♭VI→♭II→V7 route (A&S PDF 593): A minor is A♭'s ♭II, keep the quotation in A minor; 3. join into the scherzo is an A♭→E move on the held A♭/G♯; F♭s at 62, 78, 80–81, 88 prepare E (PDF 595); 4. movement II is ♭VI of C at symphony level; its last A♭ chord stays plain (no added 7th or 6th) for the finale's German sixth; 5. E♭–F♭–E♭ figure as Beethoven's Appassionata example (PDF 600–601); 6. joins match movement I v251, scherzo v231, finale's theme B record; 7. 64→65 follows Ex. 32-10a; 8. respellings at 47, 51, 63, 65 for reading only (PDF 588).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 251 (v251 → v252)
+lens 1, melody; A&S Unit 20 (PDF 327-345). Report: reports/c251.md.
+- Accepted: nothing (v252 = v251 relabelled).
+- Recorded (no change): No change. Recorded: 1. theme B is almost all steps (16 of 17 intervals); a leap variant at 55 is possible but not recommended (bar 40's cell links to the oboe at 19, bar 38 to 46; head accepted in c001); 2. viola B♭3 under the violins' B♭6 appoggiatura at 76 b2½ (c081, c127); 3. no fifths from figuration; octaves only at 42→43, 81 and harp/bass doublings; 4. chromatic spellings follow PDF 339–340; 5. recurring figures; 6. theme A reprise varied by setting. Do-not-touch: theme B neighbour-figure design; B♭ appoggiatura at 12/28/76 with c127's viola; Hn 1/Cl 1 counter-line 53–55; run to B♭6 at 78.
+- Do-not-touch: standing list; the 8-page layout.
