@@ -1040,3 +1040,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 39-42 diminuendo scored by drop-outs: Hn 3·4, Ob 1 and B.tbn stop after 40, Ob 2, Cl 1·2 and Hn 1 after 41, so the violins' F4 is no longer covered at the unison and 42 already has the transition's group (Adler PDF 201, 202, 212-213, 224, 229). No pitch changed.
 - Kept: 83-86, 19-26, 255-262, 265-272.
 - Note for finale.md: 39-42 diminuendo scored by drop-outs; Hn 3·4 rest 41-88.
+
+## Cycle 238 (v238 → v239), lens 8 dynamics (Casanelles ch. 4, 6, third pass)
+- Lens 8 (dynamics and phrasing), Casanelles ch. 4 and 6 (PDF 145-161, 290-291, third pass).
+- Accepted: 239-240 swells as in movement I's phrase and as at 235-238; 243 strings and bassoons drop to mf under the horn call, then mf < to 247; Fl 2 enters mf at 242, harp diminuendo at 242, Ob 1 f on its G♯ at 243 (Casanelles PDF 149-150, 152, 155, 290). No note changed.
+- Kept: wind canon 226-230 unslurred, brass diminuendo 231-234, repeated-note figures at 247-277, 255-262, 11-26.
