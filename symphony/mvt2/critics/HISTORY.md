@@ -1520,3 +1520,10 @@ lens 8, expression; A&S Unit 3 (PDF 47-57). Report: reports/c238.md.
 - Accepted: 1. Tbn 1 slur/portato at 63 to match movement I v251; 2–4. MIDI balance: Cl 1 85–88, C.a. 47–53, Cb 83–86.
 - Open: Hn 1 tail vs timpani roll 67–69 (MIDI balance); a note-count check in the build would catch dropped bars.
 - Do-not-touch: link 1–6; quotation pitches and rhythms; B.cl. tail 32–34; timpani answer 84–85; closing tail and plagal close 85–92 with C5 on top; harp opening pedal setting.
+
+
+
+### Cycle 241 (melody, Adler ch. 4 Harp) — v242
+- Accepted: 1. harp pp at 53, p at 55 (under the counter-line).
+- Open: harp mp at 77 (optional, untested).
+- Do-not-touch: harp harmonics 82–88; harp RH dyads 7–14; standing list; 8-page layout.
