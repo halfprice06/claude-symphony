@@ -1871,3 +1871,10 @@ lens 2, harmony; A&S Units 22-23 (PDF 373-397). Report: reports/c292.md.
 - Accepted: Cl 2 D♭5 tied into 81 b1 (V♭9 complete); part-only breath after 81 b1.
 - Recorded (no change): cross relation 21; vii°6 at 19-20; F♭ resolutions 78, 81; bar 64; mixture plan.
 - Do-not-touch: standing list; the 8-page layout; the V♭9 at 80-81 with its D♭.
+
+
+## Cycle 293 (v293 → v294)
+lens 3, form; A&S Unit 18 6/3-chord techniques (PDF 289-303). Report: reports/c293.md.
+- Accepted: nothing (v294 = v293 relabelled).
+- Recorded (no change): No change. Recorded: 1. theme B bass falls in thirds at 37-38 and 53-54; only the build at 53 fills it with V6/5-V6 (Ex. 18-11a; Dvorak 9/ii bar 17); keep 37 b3's plain D-flat bass; 2. 10 of 21 first-inversion places are in the B section (PDF 290-291); 3. I6 to IV with bass rising a half step at 15-16, 41, 57 (PDF 296); 4. C minor over E-flat at 78 b3 is V with a 6th for the 5th (PDF 300, Ex. 18-16/17), not a free passing chord as the aTwo.ily comment says (optional comment fix); 5. VI6 over the tonic bass at 34, 49 b2, 85-86 is the tonic with a 6th (Ex. 18-14, 18-19l); 6. proportions unchanged since c143 (do not reopen).
+- Do-not-touch: standing list; the 8-page layout.
