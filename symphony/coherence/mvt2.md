@@ -181,7 +181,7 @@ The timpani rest in 31–36 and in the B section until 52. Only A♭2, C3, D♭3
 - **F♭ to E♭.** Every F♭ resolves to E♭ in its own voice except the viola's F♭4 at 78, which resolves through the bass (F♭2–E♭2).
 - **Not used in movement II:** C major as a key after bar 1, the trumpets' B→C, the horn call, the timpani pulse, a tuba melody, a high horn unison, a full low-brass unison bass, any cymbal.
 
-## What the scherzo relies on (from coherence/scherzo.md; checked against scherzo v14 at cycle 190 and v19 at cycle 200)
+## What the scherzo relies on (from coherence/scherzo.md; checked against scherzo v191 at cycle 190 and v201 at cycle 200; join with scherzo v211 confirmed by the scherzo thread 2026-10-19 (its cycle 210))
 
 - **The last A♭, taken as G♯4 by the scherzo's Horn 1.** v181: Vln II holds A♭4 at 89–92, pp to ppp, under a fermata, with Vln I C5 above. Confirmed.
 - **Timpani E, G, B, E.** v181: the part-only muta at 92 retunes A♭→E, C→G, D♭→B, E♭→E, which gives E2 G2 B2 E3. Confirmed. Note that the text is in the timpani part only, not in the full score.

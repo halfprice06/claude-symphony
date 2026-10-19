@@ -1325,3 +1325,11 @@ Lens 5 engraving (Adler ch. 18 score setup, adler2 PDF 291–297). Report: repor
 - Accepted: 1. tempo marks over the brass on full systems; 2. collapse-height 1 for choir brackets; 3. timpani bracket; 4. horn and trombone sub-brackets.
 - Open: none.
 - Do-not-touch: score brackets and brass marks; standing list; the 8-page layout.
+
+
+## Cycle 216 (v216 → v217)
+Lens 6 playability (Adler part 1 ch. 10 trumpet/trombone, PDF 312–329). Report: reports/c216.md.
+- Accepted: 1. part-only break after 64 in the bass trombone part.
+- Recorded (no change): low brass 60–64; Tbn 1 breath; pp entry at 60; trumpets tacet.
+- Open: none.
+- Do-not-touch: standing list; the 8-page layout.
