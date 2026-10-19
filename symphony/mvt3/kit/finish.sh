@@ -10,6 +10,7 @@ cd /home/user/claude_composes && git add -A symphony/mvt3 && git commit -qm "Fin
 
 Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01S169UKdVsqhaxTmmz6YB7N"
+git push -q origin claude/project-thread-v69o8h 2>&1 | tail -1 || true
 P=/mnt/project-files/symphony/mvt3
 if timeout 60 ls $P >/dev/null 2>&1; then
   mkdir -p $P/v$NX && (cd $M/v$NX && tar cf - global.ily score.ly parts.ily parts-head.ily parts-book.ly mkparts.py sections sections.txt critique.md analysis.txt) | (cd $P/v$NX && tar xf -)
