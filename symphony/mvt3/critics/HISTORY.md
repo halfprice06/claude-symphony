@@ -1166,3 +1166,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: F2 anticipates its half-cadence note: 73.4 the violins' F enters a beat early, tied into 74; the same at 193.4→194 in the recapitulation (Vln I, Vln II, Vla, Ob 1, Hn 1) (A&S PDF 51, 56 Ex. 3-19; Beethoven 9/iv 103-104). The first half's cadence now pushes ahead of the beat and the second half's (the 80-81 suspension) holds back. No part, level, register or doubling changed.
 - Rejected: counter-accents at 89-90 and 205-210, anticipation at 25/165 (c241), a five-bar F2 half, hemiola.
 - Note for finale.md: F2 anticipates F at 73.4 and B♭ at 193.4 (since v262).
+
+## Cycle 262 (v262 → v263), lens 2 harmony (A&S Unit 27, third pass)
+- Lens 2 harmony, A&S Unit 27 (ninth chords, PDF 463-481, third pass).
+- Accepted: 72-73 the falling-fifth chain ends on a major-ninth dominant whose 9th and 7th resolve together (violas D4-C4-B♭3, cellos A♭3-G3; the 7th no longer rises) (A&S PDF 463-466, 468, 479); 192-193 the same in the A♭ recapitulation, with the basses in root position on E♭2 (the first inversion dated from cycle 12, when the passage was in C), Bn 1 G3-F3-E♭3, cellos D♭3-C3; 22 Cl 1 A♭4 and 162 Tpt 1 F4, Hn 4 G3, so the root G is a minor ninth below the A♭ peak, not a semitone (A&S PDF 469-470 Ex. 27-10).
+- Rejected: 9/7 chain at 70-72, applied ninths at 135-137 (protected), a major ninth in the coda (protected).
+- Note for finale.md: major-ninth dominant at 72 and 192.
