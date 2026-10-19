@@ -1268,3 +1268,12 @@ Lens 8 expression (Adler part 1 ch. 2 colours, PDF 55–70). Report: reports/c20
 - Recorded (no change): muted f at 28; no harmonics; pizz. 37–44; string-placement marks; 22–23.
 - Open: none.
 - Do-not-touch: string mute plan; sul tasto 37; pizz. 37–44; harp harmonics 83; standing list; the 8-page layout.
+
+
+## Cycle 209 (v209 → v210)
+Lens 9 holistic (Brahms 2/ii; Rimsky-Korsakov tutti chords, PDF 505–507). Report: reports/c209.md.
+- Accepted: score.ly comment only.
+- Recorded (no change): tutti chords 61, 62, 79–81; spacing scan; Brahms comparison; no trombones at 79; soft wind chords; nothing worse than v199.
+- Open: none.
+- Do-not-touch: standing list; the 8-page layout.
+- Masters used in the third series: Brahms 2/ii (c209).
