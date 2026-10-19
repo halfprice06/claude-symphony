@@ -1083,3 +1083,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 5 engraving, Gould (Behind Bars) PDF 9-68, third pass.
 - Accepted: Metronome_mark_engraver moved from the percussion group to the Timpani staff, so tempo words at 81, 83 and 197 no longer print a second time inside the flute staff when the drum staves are hidden (Gould PDF 41, 43, 55-57; regression from cycle 235); gould-mid-stems engraver: unbeamed middle-line stems follow the neighbouring stems (Gould PDF 27-28, 61); margins top 4 mm, bottom 5 mm to keep page 2. MIDI byte-identical.
 - Deferred: whole-note centring at 219 after the key change (override given in c245.md; page 12 full).
+
+## Cycle 246 (v246 → v247), lens 6 playability (Adler App. A, third pass)
+- Lens 6 playability and ranges, Adler App. A (adler2 PDF 302-312, third pass).
+- Accepted: double-bass C extension (Adler PDF 302; adler1 PDF 108): 171-186 the recap's pizz. bass keeps its 16-foot octave (E♭1 at 174.3, 179, 181, 183; D1 at 175) instead of folding up to the cellos; 166 accented E♭1 with tuba and contrabassoon; header "(double basses: C extension at 166 and 174-183)". The analysis flags these 6 notes below E1: accepted, like the trumpet C6.
+- Kept: 241-243 basses with the cellos; no bass C1 at 223, 263, 278 (contrabassoon has it).
