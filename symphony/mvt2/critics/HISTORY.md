@@ -1686,3 +1686,9 @@ lens 3, form; A&S Unit 32 (PDF 584-606). Report: reports/c263.md.
 ### Cycle 265 (engraving, Gould rests) — v266
 - Accepted: 1. clarinets "muta in A (for the Scherzo)" at 92; 2. Ob 2 rest hidden at 82 in the score.
 - Do-not-touch: harp octave-lower plan; B♭6 at pitch; shared-rest fixes at 59, 63 (c115, c155); ending notes 85–92.
+
+
+
+### Cycle 266 (playability, Adler ch. 4 harp) — v267
+- Accepted: 1. harmonics L.H. at 83; 2. harp pickup pp at 82 b3.
+- Do-not-touch: harp pedal plan; harmonics 82–88; c116 at-pitch pickup; standing list; 8-page layout.
