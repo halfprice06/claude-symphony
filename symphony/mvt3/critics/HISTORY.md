@@ -1011,3 +1011,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 80 beats 1-2 V6/5 of V (A♮-C-E♭-F) between IV and V, bass A♭-A♮-B♭ (A&S PDF 428 Ex. 25-12a); 70 beats 3-4 V4/3 of ii for I6, so 70-73 falls by fifths C7-Fm7-B♭7-E♭ and the tune's B♭ resolves as a 7th (PDF 399-400, 424, 433). F2's tune, rhythm, scoring and dynamics unchanged.
 - Kept: the 187-198 A♭ recapitulation of F2 (protected).
 - Note for finale.md: F2 at 67-82 now has two applied chords (70, 80).
+
+## Cycle 233 (v233 → v234), lens 3 form (A&S Unit 18, third pass)
+- Lens 3 form, A&S Unit 18 (6/3 chords, PDF 289-303, third pass).
+- Accepted: 121 beat 2 passing pizz. F in cellos and basses (i4/2), so the bass to the G-minor Phrygian half cadence runs G-F-E♭-D stepwise (A&S PDF 298-299 Ex. 18-12); 88 accents removed inside the 6/3 series (Vln I, Vln II, Fl 1; PDF 291-292 Ex. 18-3).
+- Kept: 239-242 in root position, 57-58 and 177-178 unchanged (protected solos), coda proportions.
