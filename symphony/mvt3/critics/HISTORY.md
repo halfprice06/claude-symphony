@@ -1140,3 +1140,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 6 playability, Rimsky-Korsakov ch. I (PDF 24-50, third pass).
 - Accepted: 277 harp glissando set enharmonically as a C pentatonic chord glissando (B♯ = C, F♭ = E; diagram "--v|-^--"), so no F or B rings against the fff C chord (Rimsky PDF 46-47); 150 beat 4 Bn 2 drops its pickup D3 to breathe after 17 s ff (Rimsky PDF 37, 44); 190 Bn 2 breath with Bn 1 and Hn 1.
 - Kept: harp at 123-130 and 239-242, violins sul A C6 at 238, tuba E♭1-D1 at 27-29.
+
+## Cycle 257 (v257 → v258), lens 7 arranging (Sebesky ch. 1, third pass)
+- Lens 7 arranging, Sebesky ch. 1 (PDF 11-20, third pass).
+- Accepted: 20 F1's consequent no longer repeats the antecedent's harmony: v6 - iv6/5 - iv7 into V7 at 21, so the bass from 19 falls E♭-C-B♭-A♭-F-G and the tune's E♭ becomes a seventh resolving to D (Sebesky PDF 19, Ex. 3/3A); Cl 1 D4-E♭4 to avoid fifths, Hn 4 off-beats G4, F4. F1's tune, bar 12 and bar 160 unchanged.
+- Kept: 51-66, 115-130, 217-218, F2's second phrases, the recapitulation 171-198.
