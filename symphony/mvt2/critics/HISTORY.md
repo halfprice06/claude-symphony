@@ -1822,3 +1822,10 @@ lens 5, engraving; MOLA (PDF 1-16). Report: reports/c285.md.
 - Accepted: B.cl./C.a. quote sources filtered by tag (cue timing); viola part tempo words at 78 and 48; cues for Cl 1, Cl 2, C.a., Vln I after long rests; separator slashes off bar numbers on score page 2.
 - Recorded (no change): Vln II part "Largamente" placement (open); optional cues for Hn 3·4, harp, Ob 1.
 - Do-not-touch: standing list; the 8-page layout; parts book 30 pages (viola padding 0.6 makes two pages).
+
+
+## Cycle 286 (v286 → v287)
+lens 6, playability; Adler ch. 9-10. Report: reports/c286.md.
+- Accepted: breath after 61 in tuba and bass trombone.
+- Recorded (no change): horn voicing 61-62; Hn 1 endurance; Tbn 1 quotation breath; horns 80-82; Hn 4 entry at 1.
+- Do-not-touch: standing list; the 8-page layout.
