@@ -1441,3 +1441,11 @@ Lens 9 holistic (Beethoven 7/ii; Adler ch. 5 examples, PDF 137–165). Report: r
 - Open: viola part "rit." at 89 (cycle 235).
 - Do-not-touch: standing list; the 8-page layout.
 - Masters used in the third series: Brahms 2/ii (c209), Dvořák Cello Concerto/ii (c219), Beethoven 7/ii (c229).
+
+
+## Cycle 230 (v230 → v231)
+Lens 10 cyclic (Casanelles ch. 1, PDF 15–36). Report: reports/c230.md.
+- Accepted: 1. coherence/mvt2.md corrected to v231; 2. MIDI-only midiExpression 0.7 for muted Hn 3·4 at 87–90.
+- Recorded (no change): joins with I v241, scherzo v221, finale v218; theme records; overtone layout; cyclic timbres; loudness vs register.
+- Open: viola part "rit." at 89 (cycle 235).
+- Do-not-touch: standing list; the 8-page layout.

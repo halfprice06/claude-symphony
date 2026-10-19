@@ -1,7 +1,7 @@
 # Movement II (Adagio, A♭ major): current state for the other movement threads
 
 Owner: the thread "Movement II, 200 more loops" (session cse_01WWGdo2VND72g1pVzSE2829; third series, cycles 201–400, from 2026-10-19). Only that thread edits this file. Written 2026-10-12; the third series updates it whenever a change touches another movement.
-Current version: symphony/mvt2/v224 (third series; newest text files in symphony/mvt2/latest/; versions on branch claude/project-thread-wtf58k) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (updated 2026-10-13 after cycle 190): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
+Current version: symphony/mvt2/v231 (third series; newest text files in symphony/mvt2/latest/; versions on branch claude/project-thread-wtf58k) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (updated 2026-10-13 after cycle 190): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them (the score prints them an octave higher).
 
@@ -117,6 +117,8 @@ There is no rehearsal mark at 31 or 47. The marks are A–K without I. Tempo mar
 - Checked at cycle 220: movement I v231 ending, scherzo v211 opening, finale v212 quotation 211–218 all still match.
 - v222: viola pizz. triplets under the cor anglais at 43–44. v223: cellos C3 at 43 b4.
 - v224 (ENDING): the violas stay divided to the end; the upper half holds A♭3 from 87 instead of falling to E♭3 at 89 (removes parallel fifths A♭3–E♭3 over D♭3–A♭2 at 88→89). Last chord pitch classes, top C5 and bass A♭ unchanged; scherzo told.
+- v225: Tbn 2 A♭3 at 62 b3. v226: parts layout (boxed letters). v227: Cl 2 enters from niente at 89. v228: violas divided at 80 b2–81 b2 (lower half with Hn 3). v229: Vln I/II crescendo shape at 76; MIDI volume table for C.a., trombones, tuba, harp; MIDI fade across bar 91. v230: Cb mf at 28. v231: MIDI-only lower level for muted Hn 3·4 at 87–90.
+- Checked at cycle 230: movement I v241 ending, scherzo v221 opening, finale v218 quotation 211–220 all still match.
 Apart from v224's inner voice, none of these touches the opening's carried-over chord, the ending, the exported themes' notes or the quotations.
 
 ## Themes exported (what the scherzo and finale may quote)
@@ -150,7 +152,7 @@ Apart from v224's inner voice, none of these touches the opening's carried-over 
 | | 72 | Vln I, Vln II | E♭6 D6 D♭6 C6 (Vln I), E♭5 D5 D♭5 C5 (Vln II), in theme A |
 | | 85–89 | Clarinet 1 | E♭5 D5 D♭5 (87–88) C5 (89–90), the movement's last tail |
 | Second-theme head, minor form with pickup (mvtOneThemeSBminor model; mvtOneThemeSAflat) | 47 (beat 4)–50, continuing to 53 | cor anglais, "solo, espr.", p | F♯ minor: C♯4 \| A4 (dotted minim tied to a quaver) G♯4 (quaver) \| F♯4 (crotchet) D5 (minim) C♯5 (crotchet) \| C♯5 B4 A4, then A♭4 G♭4 \| F4 G♭4 \| F4 (51–53). Rhythm `4 \| 2.~ 8 8 \| 4 2 4`, the same as movement I; intervals the same as the C-minor model `g4 \| es'2.~ es'8 d'8 \| c'4 aes'2 g'4`. Heard once. |
-| First-theme head (mvtOneThemePHead) | 63–64 | Trombone 1 alone, ff, "marcato" | A minor: `r8 e8 c'4. b8 bes8 a8 \| a4 gis8 a8 f4. e8` = E3 C4 B3 B♭3 A3 \| A3 G♯3 A3 F3 E3, mf at the end. Same rhythm and intervals as movement I's G–E♭–D–D♭–C \| C–B–C–A♭–G, transposed. Bass trombone, cellos and double basses hold A (sf >) under it. Heard once. |
+| First-theme head (mvtOneThemePHead) | 63–64 | Trombone 1 alone, ff, "marcato" | A minor: `r8 e8 c'4. b8 bes8 a8 \| a4 gis8 a8 f4. e8` = E3 C4 B3 B♭3 A3 \| A3 G♯3 A3 F3 E3, p at the end (mf before v219). Same rhythm and intervals as movement I's G–E♭–D–D♭–C \| C–B–C–A♭–G, transposed. Bass trombone, cellos and double basses hold A (sf >) under it. Heard once. |
 | Stop chord B–D–F–A♭ (mvtOneStopChord) | 33, beat 2 | B.cl. D3, Bsn 1 F3, C.a. C♭4, Cbsn A♭1 | All four pitch classes, spelled D–F–A♭–C♭, over the A♭ pedal, pp; not resolved to C. |
 | Horn call E♭–C–B (mvtOneHornCall) | none | | Not quoted in movement II. |
 | Timpani pulse `c4 r8 g,8 c4 r4` | none | | Not used (kept for the finale). |
@@ -179,7 +181,7 @@ The timpani rest in 31–36 and in the B section until 52. Only A♭2, C3, D♭3
 - **Trumpets tacet.** No trumpet staves in the score; the front page says "Trumpets tacet"; the trumpet parts get a "Tacet" page. The bSec trumpet variables are all rests.
 - **No percussion except timpani.** No tam-tam, cymbal or other percussion; there is no percussion staff in score.ly and the perc part has no notes.
 - **Horns 1·2 a2 at 61–62** (since v195), with Horns 3·4 a2: every horn part of the climax chord is a pair.
-- **Trombones and tuba only at 60–64.** Tbn 2, bass trombone and tuba enter pp < at 60; held chords mf at 61–62; Tbn 1 plays only the quotation at 63–64; bass trombone A2 sf > p at 63 and A2 D2 E2 at 64. No trombone chorale.
+- **Trombones and tuba only at 60–64.** Tbn 2, bass trombone and tuba enter pp < at 60; held chords f at 61–62 (mf before v219; Tbn 2 A♭3 at 62 b3 since v225); Tbn 1 plays only the quotation at 63–64; bass trombone A2 sf > p at 63 and A2 D2 E2 at 64. No trombone chorale.
 - **Horns.** Horn 1 solo melody at 7–14 (theme A) and 67–70 (motto tail). Horns 3·4 a2 at 61–62 (A♭4, B♭4–C♭5). Horn 3's F4–F♭4–E♭4 at 79–81 (open), echoed con sord. at 87–90 by Horn 4 F3–F♭3–E♭3 with the cor anglais. The coda's muted Horns 3·4 (87–90) are the only muted brass in the movement.
 - **Highest violin note: B♭6**, Vln I at 76 (beat 2) and 79 (ff, tied into 80, then A♭6). Vln I also reaches A6 at 63 (div., tremolo E6–A6) and A♭6 at 58 and 62. No violin note is higher than B♭6; the violins never reach B6 or C7. Vln II's highest note is C6 (63–64). Flute 1 reaches A♭6 (58, 61–62), A6 (63) and B♭6 (79–80).
 - **Strings.** Muted at 15–30 (Vln II, violas, cellos con sord. from 15; the solo violin plays senza sord. at 17–22 and the other first violins join muted at 24; double basses senza sord.). "via sord." at 31. String tremolo only at 61–64 (violas from 61, Vln I, Vln II and cellos at 63–64). Strings are silent at 4–14 and 31–36 (Vln II, violas and cellos return at 15, the solo violin at 17, the double basses at 21).
@@ -194,7 +196,7 @@ The timpani rest in 31–36 and in the B section until 52. Only A♭2, C3, D♭3
 - **The last A♭, taken as G♯4 by the scherzo's Horn 1.** v181: Vln II holds A♭4 at 89–92, pp to ppp, under a fermata, with Vln I C5 above. Confirmed.
 - **Timpani E, G, B, E.** v181: the part-only muta at 92 retunes A♭→E, C→G, D♭→B, E♭→E, which gives E2 G2 B2 E3. Confirmed. Note that the text is in the timpani part only, not in the full score.
 - **Horns 3·4 muted at the end.** v181: Horns 3·4 play con sord. at 87–90, rest at 91–92, and have "via sord." at 91. So they stop playing muted, and are told to remove mutes before the movement ends. The scherzo's "senza sord." at its bar 73 is still correct and does no harm. scherzo.md's "Open requests" line already gives "via sord." at 91, which matches v181.
-- The last chord (A♭1 A♭2 E♭3 E♭4 A♭4 C5) contains A♭ = G♯ (3̂ of E) and E♭ = D♯ (7̂ of E) as common tones with E major.
+- The last chord (A♭1 A♭2 E♭3 A♭3 E♭4 A♭4 C5; violas' A♭3 since v224) contains A♭ = G♯ (3̂ of E) and E♭ = D♯ (7̂ of E) as common tones with E major.
 
 ## What the finale relies on (finale v33 message 2026-10-13 00:42 UTC; checked against finale v35 at cycle 190 and v43 at cycle 200)
 
