@@ -1418,3 +1418,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None.
 - Do-not-touch: P head rhythm 15–19 (finale quotes it); short D♭6 at 63 (c221).
 - Cross-movement: none.
+
+## Cycle 302 (Harmony and voice leading; Aldwell & Schachter Unit 27 Seventh chords with added dissonance (aldwell-schachter PDF 463-481)) → v303
+- Accepted: Tpt 2 F4 on beat 3 of 28 (was G4, c224): the G4 under the tune's A♭4 in the same octave made an inverted V♭9 (A&S PDF 465, 469–470, Ex. 27-10); beat 3 is now vii°4/3, Tpt 1 B4 / Tpt 2 F4 as in the stop chords, and the same as the recapitulation's 132 (tOne).
+- Open / not applied: None. Kept: Hn 4 G3 under A♭3 at 122 (inner-pedal 9th, PDF 471); A♭ at 83 answered at 85; 106.3, 150, 159.1, 178.3.
+- Do-not-touch: Bass, tune, rhythm and dynamics of 27–32 (c224, c270).
+- Cross-movement: Finale (quotes 27–32 at its 199–204, 'Tpt 2 G4 at 200'): told to take F4 on the stroke matching I 28 beat 3; mvt1.md v225 line corrected.
