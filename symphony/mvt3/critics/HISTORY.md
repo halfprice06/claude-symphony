@@ -1197,3 +1197,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 267 (v267 → v268), lens 7, Sebesky ch. 3 strings
 - 43–50: cellos divide B♭2/F3 under the dominant pedal, filling the seventh gap (Sebesky PDF 139–147); "unis., pizz." at 51. Accepted.
 - 83, 87: flutes mf (were f) where they double Vln I on E♭6, as at 35, 78, 129 (Sebesky PDF 164). Accepted.
+
+## Cycle 268 (v268 → v269), lens 8, MOLA dynamics
+- 145: violas get f on F1's head, ending their crescendo like every other part (MOLA PDF 8, 10–11). Accepted.
+- 141–145: long hairpins across the 143|144 page turn written as "cresc." in Bn, Vla, Vc, Cb, Cbsn, timpani (MOLA PDF 12; Adler2 PDF 10, 201). Accepted.
+- 269: Hn 3·4 ff moved from the rest to the beat-2 entry (MOLA Ex. 3; cycle 68 rule). Accepted.
