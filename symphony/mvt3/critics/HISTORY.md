@@ -894,3 +894,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 123-124 cellos "sul D" on F2's development entry, so the line avoids the open A3 and the hand-over Vc → Vla → Cl 1 → Vln I starts on the warmest colour (Adler PDF 73-74, 99). No note changed.
 - Rejected: Vln II sul D at 67-76 (c094/c098/c121 balance); sul G on F1 at 11-16 (protected, string crossing to A♭5).
 - Do-not-touch: 123-130 hand-over order and notes; 11-18; 67-82 balance.
+
+## Cycle 212 (v212 → v213), lens 2 harmony (A&S Unit 17, third pass)
+- Accepted: 36-37 ascending 5-6 link (Fl 2, Ob 1, Tbn 1 E♭→F on 36.4, ii6 of E♭, tied into 37 as the fifth of B♭ minor), removing octaves with the bass (Ob 2, Cl 1, Hn 4) and fifths into 38 (Hn 2 C4 at 38.1) (A&S PDF 265-266, 273-275). 111-112 Cl 1 holds D♭5 into 112 and falls to C5 with Ob 2 and Tpt 2 (no octaves with the falling-third bass; PDF 267, 276-277).
+- Kept: two-statement sequence 99-106; Hn 1 at 196-197 (protected area).
+- Tool: tools/critic-scripts/c212/par8.py checks every part against the bass (the analyser checks outer voices only).
+- Do-not-touch: F1 at 11-18 and 35-38; 6/3 bridge 83-90; lament bass 107-110; 216-223 with 222→223; both chorale top lines; 259-263; 273-279.
