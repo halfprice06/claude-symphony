@@ -1145,3 +1145,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 7 arranging, Sebesky ch. 1 (PDF 11-20, third pass).
 - Accepted: 20 F1's consequent no longer repeats the antecedent's harmony: v6 - iv6/5 - iv7 into V7 at 21, so the bass from 19 falls E♭-C-B♭-A♭-F-G and the tune's E♭ becomes a seventh resolving to D (Sebesky PDF 19, Ex. 3/3A); Cl 1 D4-E♭4 to avoid fifths, Hn 4 off-beats G4, F4. F1's tune, bar 12 and bar 160 unchanged.
 - Kept: 51-66, 115-130, 217-218, F2's second phrases, the recapitulation 171-198.
+
+## Cycle 258 (v258 → v259), lens 8 expression (Sebesky ch. 1, 6, third pass)
+- Lens 8 expression, Sebesky ch. 1 and 6 (PDF 11-20, 204-218, third pass). Marks only; no note, dynamic or tempo word changed.
+- Accepted: 211 "cantabile" on movement II's theme B in Tpt 1·2, Fl 1·2, Ob 1, Cl 1 (its echo at 217 is espress.), with the downbeat accent in Ob 2 and Cl 2 (Sebesky Ex. 281, PDF 214-215); "leggiero" on F1's slurred broken-chord accompaniment at 11 and 151 (Cl 1·2) and 19 and 83 (violas) (Sebesky PDF 13-14, Ex. 2A, 279-280).
+- Kept: harp mf at 67-82, 223-230 (protected), 235-246.
