@@ -1294,3 +1294,11 @@ Lens 1 melody (A&S Unit 1, PDF 14–32). Report: reports/c211.md.
 - Rejected: Fl 1 D♭5 at 43 (untested; c090).
 - Open: none.
 - Do-not-touch: theme B's tonic withheld until 61; the motto tail's six statements; standing list; the 8-page layout.
+
+
+## Cycle 212 (v212 → v213)
+Lens 2 harmony (A&S Unit 7, PDF 106–120). Report: reports/c212.md.
+- Accepted: 1. harp RH at 53 b3–4 without C4 (no doubled leading tone in V6; PDF 108–109).
+- Recorded (no change): root-position I at 9, 25, 73; 53–54 bass; viola C4 at 42, 58; 6/3 placement.
+- Open: none.
+- Do-not-touch: harp figure at 53; root-position tonic after the motto tail; standing list; the 8-page layout.
