@@ -1,3 +1,9 @@
+# Scherzo checkpoint, third series (started 2026-10-19 00:55 UTC)
+
+Dan, 2026-10-19: "200 more actor critic loops of improving and applying techniques from the books". Thread "Scherzo, 200 more loops" (session cse_01PcLD7uZBgtSfpYBvacmK4P) runs cycles 201–400, v201 → v401, from the git checkout. Versions are pushed to branch claude/project-thread-y9u1tb every 10 cycles (no PR; the commit thread merges). /mnt/project-files/symphony/scherzo/ keeps CHECKPOINT, README, critics/, kit/ and latest/ (the newest version without audio) via kit/mirror.sh; coherence files are copied there too.
+- Kit changes for the third series: READING.md extended to cycle 400 (third and fourth passes; cycle 400 is a release check), MASTERS.txt lines 21–40, critic prompt says 400 cycles, promote.sh turns the release title "— v201, date" back into "— draft vNEW". Cycle 400 should write the release title by hand again.
+- Last promoted version: see the top entry of the newest vNN/critique.md.
+
 # Scherzo checkpoint (2026-10-17, loop finished after cycle 200)
 
 - Last promoted version: **v201** (cycle 200), the release copy. 376 bars, 13 A3 pages, ~4:36; 0 warnings, 7 known analyser parallels, theme record 41/41, no C-major triad, part lengths match, parts rebuilt. Cycles 1–200 are logged in critics/HISTORY.md and v201/critique.md.
