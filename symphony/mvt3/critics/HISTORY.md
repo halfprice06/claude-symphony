@@ -945,3 +945,10 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Checks: records 36/36, movement I 35/35, scherzo 41/41; I 27-32 part by part = 199-204; theme B unchanged; cyclic rules hold.
 - Kept: E major at 243 as a chord only (tonicizing it needs D♯→E reserved for 219-220, and bars in the protected 235-247 plan).
 - Do-not-touch: bars 1-2; 143-145; 199-204; 216-223 with 222→223; 223-234; 235-247 plan; both chorale top lines and the cut at 264.1; 259-263; 265-272 horn and trombone rests; 273-279.
+
+## Cycle 221 (v221 → v222), lens 1 melody (Adler ch. 7, third pass)
+- Accepted: 95-98 Ob 1 alone, "solo, espress.", mf > p, on the motto tail E♭5-D5-D♭5-C5; Vln I rests 95-102 (Adler PDF 184, 198-199). The oboe's first solo line in the movement; pitches, harmony and the violas' E♭4→E4 at 97 unchanged.
+- Rejected: two low clarinets in unison at 95-98 (would hide the violas' E4).
+- Kept: cor anglais register at 171-186 and 217-220; oboe low fifth at 102 and 270-271 (loud doublings, c131).
+- Note for finale.md: 95-98 oboe solo, Vln I rests 95-102.
+- Do-not-touch: 95-98 violas; 171-186; 217-220.
