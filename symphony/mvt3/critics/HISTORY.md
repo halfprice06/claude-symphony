@@ -1028,3 +1028,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: score-only padding overrides (c185/c225) tagged score, so rehearsal letters N, O, R sit at their barlines in the parts (Adler 299, 301); tempo marks over the timpani/percussion group and barlines joined through it (Adler 293-294); timpani label "4 timpani: G, A♭, C, E♭" (Adler 292); parts-only padding so "animando" (81) no longer touches "Tempo I" (83). No MIDI change; parts page counts unchanged.
 - Kept: trumpet/trombone staff layout 1·2 + 3; Vln I C7 at 223 with ledger lines (cycles 5, 115).
 - Note: the finale's percussion barlines now join, unlike movement I's (its drum staff carries text across barlines).
+
+## Cycle 236 (v236 → v237), lens 6 timpani (Adler ch. 12, third pass)
+- Lens 6 (timpani and percussion), Adler ch. 12 (PDF 79-81, third pass).
+- Accepted: the C drum retuned to D♭ (muta at 206) so the timpani strike the D♭ tonic ff at 211 and f at 212 when the A♭ pedal resolves, then "muta D♭ in C" with medium sticks at 215 (Adler PDF 79-81, Ex. XII-51); "near the rim" on the pp C roll at 235-238, "ord." at 243 (Adler PDF 80).
+- Rejected: bass-drum roll at 138-142 (unpitched percussion held back to 223), soft cymbal stroke (first cymbals reserved for 223), timpani doubling pizz. bass (protected solos).
+- Note for finale.md: done (one retuning in the movement since v237).

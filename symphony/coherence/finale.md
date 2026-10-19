@@ -49,7 +49,7 @@ Movement II (v201):
 Naming: in the finale's own plan, "motive x" means only the scherzo's motive; the finale's eighth-note figure at 3–4, 43–50, 87–90 (closing bridge, over 6/3 chords), 101–106 and in the low strings at 110 and 112 is "the scale figure".
 
 ## Timpani
-G, A♭, C, E♭ throughout (MIDI notes 43, 44, 48, 51). No retuning inside the movement.
+G, A♭, C, E♭ throughout (MIDI notes 43, 44, 48, 51). One retuning since v237: the C drum is retuned to D♭ (muta at 206) for the D♭ tonic ff at 211–212, which answers the A♭ pedal roll of 205–210, and back to C at 215 for 223.
 
 ## Scoring rules this movement relies on (please keep in the other movements)
 - No C major before the finale's arrival (223) — since v74 the finale itself has no C-major key area before 223 (C–E–G–B♭ at 97–98 and 110 is V7 of F minor, as in Mozart K. 457's development); first cymbal crash at 223 (since movement I v251 the first clashed cymbals of the symphony: movement I's 160 is a single suspended-cymbal stroke); string tremolo only from 223 (223 all strings; 224–225 Vln I·II mf since v150; then only at 273–276); C7 in the finale's violins and flutes only at 223 (a finale rule; movement I's harp reaches C7 at I 56 and D♭7 at I 57–59) (since v90; Fl 1 and Vln I, Vln I written at pitch with ledger lines, no 8va sign, since v116).
