@@ -928,3 +928,6 @@ Do-not-touch: ♭9-on-top dominants at 83, 117, 122; common-tone A♭ 82→83 wi
 ## Cycle 201 (parts layout, attacca page turns) — v221
 - Accepted: parts that cross the join end movement I on an even page (strings 2 pp; Cb cover + 3 pp; Hn 3·4 and timpani cover + 1 p). Score unchanged.
 - Do not touch: these layouts; any change to the parts must keep each of them ending on an even page.
+
+# Series 3 (Dan, 2026-10-19): cycles 221–420, cycle N reviews vN → v(N+1)
+Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change freely, including its themes and foreshadowing of movements II–IV; changes that touch quoted material are reported to the other movements.
