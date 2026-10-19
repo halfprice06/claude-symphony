@@ -1115,3 +1115,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 27-32 new tuba part doubling the contrabassoon's bass statement of F1, ff, tongued (tenuto/staccato, no slur), resting from 33 (Adler PDF 20, 28, 33-34 Ex. XI-16); the tuba's first thematic line; score-only staff distances on page 2 keep 16 pages.
 - Not applicable: the Lohengrin diminuendo (231-234 protected).
 - Note for finale.md: the tuba doubles F1's bass statement at 27-32.
+
+## Cycle 252 (v252 → v253), lens 2 harmony (A&S Units 30-31, third pass)
+- Lens 2 harmony, A&S Units 30-31 (PDF 530-583, third pass).
+- Accepted: 92.1 common-tone diminished seventh E♭-F♯-A-C over the E♭ bass resolving to I, so the two ff codetta bars 91-92 are no longer identical; top line G-G-A♭ | F♯-G-A♭ (A&S PDF 543-545, Ex. 30-19 to 30-21). Rhythm, bowings, dynamics unchanged; no E♮ added.
+- Rejected: augmented triad in major at 77, 212, 197, 209-210, 81.4, 250, 271 (protections, the reserved E♭→E♮ step, clashes); V7♯5 at 72 and 93.4.
