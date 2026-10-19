@@ -1640,3 +1640,11 @@ lens 3, form; A&S Unit 26 (PDF 442-461). Report: reports/c253.md.
 ### Cycle 258 (expression, Adler ch. 2 bowing) — v259
 - Accepted: 1. violins up-bow on the tied F at 28 and 76; 2. Vln II up-bows at 15 and 20 b3.
 - Do-not-touch: 60–61 and 78–81 down-bow arrivals; Vln II louré; c118/c186 cello and bass bowings; "change bow at will" pedals; coda Vln I bowing; 8-page layout.
+
+
+
+### Cycle 259 (holistic, Dvořák 7/ii; Rimsky Ex. 69–130) — v260
+- Accepted: 1. Vc "4 soli" at 83–86, tutti at 87.
+- Not applied: Hn 2 entry at 77 (counter-melody stays three colours).
+- Do-not-touch: octave doublings 45–46, 57–60; Hn 1 p solos 7–14, 67–70; muted horns with divided violas 87–90; Cb tie from 82 and "4 soli" at 87; standing list.
+- Masters used in the third series: Brahms 2/ii, Dvořák Cello Concerto/ii, Beethoven 7/ii, Mozart 41/ii, Dvořák 9/ii, Dvořák 7/ii (c259).
