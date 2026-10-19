@@ -1456,3 +1456,10 @@ lens 1 melody; Sebesky ch. 5 Voices, PDF 197–203. Report: reports/c231.md.
 - Accepted: nothing (v232 = v231 relabelled).
 - Recorded (no change): theme ranges fit one voice (A a twelfth, B an octave and a step; Ex. 260; Dvořák 9/ii C.a. also a twelfth); wind phrases 10–16 s with breaths before pickups (Ex. 261, 267); Cl 1's breath after 86 kept (protected breath plan, c226); motion under held notes (Ex. 261; 54 b3–4 kept, c201); head cells recur (Ex. 268); doubling plan (PDF 200, 203, Ex. 263); inner lines singable (Ex. 259).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+
+### Cycle 232 (harmony, A&S Unit 29) — v233
+- Accepted: 1. Vc 64 b4 now B2 eighth + B♭2 eighth anticipation (German sixth on the beat kept from c210/c211; removes Cb/Vc fifths into 65; PDF 507).
+- Recorded (no change): 73–74 semicadence; 78 no aug. sixth; 43 no Ger+6 (Fl 1); 46–47 protected; 80 iiø7 kept.
+- Do-not-touch: Vc B2 then B♭2 at 64 b4; standing list; 8-page layout.
