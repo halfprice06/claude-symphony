@@ -1202,3 +1202,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 145: violas get f on F1's head, ending their crescendo like every other part (MOLA PDF 8, 10–11). Accepted.
 - 141–145: long hairpins across the 143|144 page turn written as "cresc." in Bn, Vla, Vc, Cb, Cbsn, timpani (MOLA PDF 12; Adler2 PDF 10, 201). Accepted.
 - 269: Hn 3·4 ff moved from the rest to the beat-2 entry (MOLA Ex. 3; cycle 68 rule). Accepted.
+
+## Cycle 269 (v269 → v270), lens 9, Adler part 2 holistic
+- 247–254: timpani f (were ff) under the combined theme heads, the level of Tpt 3's same figure (Adler2 PDF 172–176, 184). Accepted.
+- Combining F1 and F2 in the coda: not applied, protected coda and cyclic plan. Agreed.
+- Tpt 3 rest 251–254: kept for its fresh entry at 255. Agreed.
