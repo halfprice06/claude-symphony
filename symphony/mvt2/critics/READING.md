@@ -1,4 +1,4 @@
-# Reading plan for movement II, cycles 1-200 (Dan, 2026-10-09: "I want greater coverage and use of the books. the focus should be on the books content")
+# Reading plan for movement II, cycles 1-400 (Dan, 2026-10-09: "I want greater coverage and use of the books. the focus should be on the books content")
 
 Each cycle reads its assigned pages in full: every text page in the range, and every page of music examples in the range as an image. Its findings must apply what that reading teaches to this score. Other books and the web are secondary.
 
@@ -204,3 +204,203 @@ Each cycle reads its assigned pages in full: every text page in the range, and e
 | 198 | 8 | Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (second pass) |
 | 199 | 9 | Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (second pass) |
 | 200 | 10 | Release check: every do-not-touch item in HISTORY.md, every change in the last 100 cycles, and every book rule cited in them (second pass) |
+| 201 | 1 | Aldwell & Schachter Unit 2 Intervals: melodic intervals and their resolution (aldwell-schachter PDF 33-46) (third series) |
+| 202 | 2 | Aldwell & Schachter Unit 4 Triads and Seventh Chords: spacing, doubling, figured bass (aldwell-schachter PDF 58-73) (third series) |
+| 203 | 3 | Aldwell & Schachter Unit 25 Applied V and VII: tonicized areas within the phrase (aldwell-schachter PDF 418-441) (third series) |
+| 204 | 4 | Rimsky-Korsakov ch. I General review of orchestral groups as a guide to scoring (rimsky-principles PDF 24-50) (third series) |
+| 205 | 5 | Gould ch. 2 Chords, dotted notes, ties (gould-behind-bars PDF 58-68) (third series) |
+| 206 | 6 | Adler ch. 10 The horn: range, transposition, stopped and muted notes, endurance (adler1 PDF 299-311) (third series) |
+| 207 | 7 | Adler ch. 5 homophonic writing for strings (adler1 PDF 150-157) (third series) |
+| 208 | 8 | Adler ch. 2 harmonics, sul ponticello, sul tasto and other colours (adler1 PDF 55-70) (third series) |
+| 209 | 9 | Rimsky-Korsakov appendix of single tutti chords, viewed as images (rimsky-principles PDF 505-510) (third series) |
+| 210 | 10 | Aldwell & Schachter Unit 29 augmented sixths in modulation (aldwell-schachter PDF 518-529) (third series) |
+| 211 | 1 | Aldwell & Schachter Unit 1 Key, Scales and Modes: the melodic minor and modal colour (aldwell-schachter PDF 14-32) (third series) |
+| 212 | 2 | Aldwell & Schachter Unit 7 I6, V6, VII6 (aldwell-schachter PDF 106-120) (third series) |
+| 213 | 3 | Rimsky-Korsakov ch. IV limits of range and transfer of phrases (rimsky-principles PDF 124-128) and the examples cited (third series) |
+| 214 | 4 | Adler ch. 4 Harp in the orchestra and ch. 12 timpani (adler1 PDF 110-124, adler2 PDF 79-91) (third series) |
+| 215 | 5 | Adler ch. 18 score setup (adler2 PDF 291-297) (third series) |
+| 216 | 6 | Adler ch. 10 Trumpet and trombone (adler1 PDF 312-329) (third series) |
+| 217 | 7 | Sebesky ch. 3 Combining strings with winds (sebesky PDF 164-173) (third series) |
+| 218 | 8 | Rimsky-Korsakov ch. IV crescendo and diminuendo with the examples cited (rimsky-principles PDF 130-136) (third series) |
+| 219 | 9 | Adler ch. 17 accompaniment examples (adler2 PDF 260-290) (third series) |
+| 220 | 10 | Aldwell & Schachter Unit 30 Other chromatic chords: common-tone diminished sevenths, augmented triads (aldwell-schachter PDF 530-550) (third series) |
+| 221 | 1 | Rimsky-Korsakov ch. V Voice with orchestra: cantabile line and its accompaniment (rimsky-principles PDF 137-149) (third series) |
+| 222 | 2 | Aldwell & Schachter Unit 19 6/4-Chord Techniques (aldwell-schachter PDF 304-325) (third series) |
+| 223 | 3 | Aldwell & Schachter Unit 21 pedal point as a formal device (aldwell-schachter PDF 360-371) (third series) |
+| 224 | 4 | Sebesky ch. 2 brass combinations (sebesky PDF 39-55) (third series) |
+| 225 | 5 | MOLA examples 1-7 viewed as images (mola PDF 9-11), checked against score and parts (third series) |
+| 226 | 6 | Adler ch. 7 Clarinet, bass clarinet, bassoon, contrabassoon (adler1 PDF 208-232) (third series) |
+| 227 | 7 | Rimsky-Korsakov ch. III strings and wind; three groups combined (rimsky-principles PDF 108-114) (third series) |
+| 228 | 8 | Casanelles ch. 4 the effect of the mockup; sampling and legato (hyper-orchestra PDF 123-145) (third series) |
+| 229 | 9 | Adler ch. 5 string scoring examples (adler1 PDF 137-165) (third series) |
+| 230 | 10 | Casanelles ch. 1 Introduction and glossary of concepts (hyper-orchestra PDF 15-36) (third series) |
+| 231 | 1 | Sebesky ch. 5 Voices: range, breath and phrasing applied to instrumental melody (sebesky PDF 197-203) (third series) |
+| 232 | 2 | Aldwell & Schachter Unit 29 Augmented Sixth Chords (aldwell-schachter PDF 503-529) (third series) |
+| 233 | 3 | Adler ch. 17 The Orchestra as Accompanist: pacing of introductions, interludes and endings (adler2 PDF 256-275) (third series) |
+| 234 | 4 | Sebesky ch. 2 combining woodwinds, and brass with woodwinds (sebesky PDF 78-110) (third series) |
+| 235 | 5 | Gould ch. 1 ledger lines, octave signs, rests in two-part staves (gould-behind-bars PDF 41-52), checked in parts.ily (third series) |
+| 236 | 6 | Rimsky-Korsakov ch. I strings and woodwind: registers and technique (rimsky-principles PDF 24-43) (third series) |
+| 237 | 7 | Aldwell & Schachter Unit 31 contrary chromatic motion in inner voices (aldwell-schachter PDF 551-583) (third series) |
+| 238 | 8 | Aldwell & Schachter Unit 3 hypermeter and the placement of climaxes (aldwell-schachter PDF 47-57) (third series) |
+| 239 | 9 | Adler ch. 8 woodwind-string examples (adler1 PDF 235-281) (third series) |
+| 240 | 10 | Sebesky ch. 9 General Advice (sebesky PDF 240-242) with Adler ch. 1 (adler1 PDF 19-23) (third series) |
+| 241 | 1 | Adler ch. 4 Harp: melodic and figurative writing (adler1 PDF 110-124) (third series) |
+| 242 | 2 | Aldwell & Schachter Unit 31 Chromatic Voice-Leading Techniques (aldwell-schachter PDF 551-583) (third series) |
+| 243 | 3 | Aldwell & Schachter Unit 14 V as a Key Area (aldwell-schachter PDF 211-229) (third series) |
+| 244 | 4 | Casanelles ch. 6 harmonic density, volume and dynamics (hyper-orchestra PDF 285-291) (third series) |
+| 245 | 5 | Gould ch. 1: stave, clefs, noteheads, stems, tails (gould-behind-bars PDF 17-30) (third series) |
+| 246 | 6 | Adler ch. 2 Bowed String Instruments: divisi, bowing, harmonics (adler1 PDF 24-70) (third series) |
+| 247 | 7 | Adler ch. 5 foreground, middleground, background; strings as accompaniment (adler1 PDF 132-167) (third series) |
+| 248 | 8 | Rimsky-Korsakov ch. IV sf-p chords, crescendo and diminuendo (rimsky-principles PDF 129-136) (third series) |
+| 249 | 9 | Rimsky-Korsakov examples No. 1-60 (rimsky-principles PDF 173-240) (third series) |
+| 250 | 10 | Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (third series) |
+| 251 | 1 | Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (third series) |
+| 252 | 2 | Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (third series) |
+| 253 | 3 | Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (third series) |
+| 254 | 4 | Rimsky-Korsakov ch. I Comparison of resonance and combination of tone qualities, and ch. III Harmony: number of parts, distribution, strings, woodwind (rimsky-principles PDF 51-53, 81-99) (third series) |
+| 255 | 5 | Gould ch. 1: beams (gould-behind-bars PDF 31-41) (third series) |
+| 256 | 6 | Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (third series) |
+| 257 | 7 | Adler ch. 15 polyphonic texture (adler2 PDF 172-186) (third series) |
+| 258 | 8 | Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (third series) |
+| 259 | 9 | Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305) (third series) |
+| 260 | 10 | Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (third series) |
+| 261 | 1 | Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (third series) |
+| 262 | 2 | Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (third series) |
+| 263 | 3 | Aldwell & Schachter Unit 32 Chromaticism in Larger Contexts (aldwell-schachter PDF 584-606) (third series) |
+| 264 | 4 | Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (third series) |
+| 265 | 5 | Gould ch. 1: ledger lines, octave signs, rests (gould-behind-bars PDF 41-52) (third series) |
+| 266 | 6 | Adler ch. 4 Plucked Strings: harp and pedalling (adler1 PDF 110-124) (third series) |
+| 267 | 7 | Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) (third series) |
+| 268 | 8 | Adler ch. 11 climactic uses of brass (adler2 PDF 37-40) and ch. 15 special effects (adler2 PDF 187-196) (third series) |
+| 269 | 9 | Rimsky-Korsakov examples No. 126-200 (rimsky-principles PDF 305-375) (third series) |
+| 270 | 10 | Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (third series) |
+| 271 | 1 | Rimsky-Korsakov ch. II Melody: woodwind, brass, combined groups (rimsky-principles PDF 64-80) and the examples it cites (third series) |
+| 272 | 2 | Aldwell & Schachter Units 11-13 VI and IV6; supertonic and subdominant sevenths; other uses of IV and VI (aldwell-schachter PDF 163-210) (third series) |
+| 273 | 3 | Rimsky-Korsakov ch. IV Composition of the orchestra: tutti, range limits, transfer of phrases, sf-p, crescendo and diminuendo (rimsky-principles PDF 115-136) (third series) |
+| 274 | 4 | Rimsky-Korsakov appendix of single tutti chords (rimsky-principles PDF 505-510) and the tutti examples cited in ch. IV (third series) |
+| 275 | 5 | Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68) (third series) |
+| 276 | 6 | Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (third series) |
+| 277 | 7 | Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255) (third series) |
+| 278 | 8 | Casanelles ch. 4 dynamics layering and expression in performance (hyper-orchestra PDF 145-161) and ch. 6 volume and dynamics (PDF 290-291) (third series) |
+| 279 | 9 | Rimsky-Korsakov examples No. 201-260 (rimsky-principles PDF 376-440) (third series) |
+| 280 | 10 | Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (third series) |
+| 281 | 1 | Adler ch. 3 Individual Bowed Strings: melodic writing for violin, viola, cello, bass (adler1 PDF 71-109) (third series) |
+| 282 | 2 | Aldwell & Schachter Unit 17 Diatonic Sequences (aldwell-schachter PDF 263-288) (third series) |
+| 283 | 3 | Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (third series) |
+| 284 | 4 | Adler ch. 15 Scoring for Orchestra: unison-octave tutti, foreground and background (adler2 PDF 146-158) (third series) |
+| 285 | 5 | MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (third series) |
+| 286 | 6 | Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13) (third series) |
+| 287 | 7 | Rimsky-Korsakov ch. III overlaying, crossing and enclosure (rimsky-principles PDF 106-114) and the examples cited (third series) |
+| 288 | 8 | Aldwell & Schachter Unit 3 Rhythm and Meter: accent, hypermeter (aldwell-schachter PDF 47-57) (third series) |
+| 289 | 9 | Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (third series) |
+| 290 | 10 | Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (third series) |
+| 291 | 1 | Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (third series) |
+| 292 | 2 | Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (third series) |
+| 293 | 3 | Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (third series) |
+| 294 | 4 | Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (third series) |
+| 295 | 5 | Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (third series) |
+| 296 | 6 | Adler ch. 12 Percussion: timpani tuning and technique (adler2 PDF 55-91) (third series) |
+| 297 | 7 | Sebesky ch. 1 Basics: balance, economy, focus, variety (sebesky PDF 11-20) (third series) |
+| 298 | 8 | Sebesky ch. 1 focus and variety, ch. 6 melodic considerations (sebesky PDF 11-20, 204-218) (third series) |
+| 299 | 9 | Adler part 1 full-score examples in ch. 5 and 8 (adler1 PDF 137-165, 235-281) (third series) |
+| 300 | 10 | Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (third series) |
+| 301 | 1 | Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (third series) |
+| 302 | 2 | Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (third series) |
+| 303 | 3 | Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground (third series) |
+| 304 | 4 | Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (third series) |
+| 305 | 5 | Gould introduction and contents (gould-behind-bars PDF 7-13), then a second pass over PDF 17-68 for any rule not yet checked (third series) |
+| 306 | 6 | Adler App. A ranges, professional and amateur limits (adler2 PDF 302-312) (third series) |
+| 307 | 7 | Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173) (third series) |
+| 308 | 8 | MOLA guidelines on dynamics, articulation and bowing marks in parts (mola PDF 1-16) (third series) |
+| 309 | 9 | Adler part 2 full-score examples in ch. 11 and 15 (adler2 PDF 18-54, 143-186) (third series) |
+| 310 | 10 | Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397) (third series) |
+| 311 | 1 | Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371) (third series) |
+| 312 | 2 | Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529) (third series) |
+| 313 | 3 | Aldwell & Schachter Units 6-8 I, V, V7 and their inversions: phrase structure (aldwell-schachter PDF 92-133) (third series) |
+| 314 | 4 | Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54) (third series) |
+| 315 | 5 | MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score (third series) |
+| 316 | 6 | Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50) (third series) |
+| 317 | 7 | Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281) (third series) |
+| 318 | 8 | Adler ch. 7 woodwind articulation and dynamics by register (adler1 PDF 184-232) (third series) |
+| 319 | 9 | Adler part 2 transcription examples in ch. 16 (adler2 PDF 202-244) (third series) |
+| 320 | 10 | Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (third series) |
+| 321 | 1 | Adler ch. 11 Scoring for Brass: melodic presentation (adler2 PDF 19-36) (third series) |
+| 322 | 2 | Aldwell & Schachter Units 30-31 Other chromatic chords; Chromatic voice-leading techniques (aldwell-schachter PDF 530-583) (third series) |
+| 323 | 3 | Aldwell & Schachter Unit 15 III and VII (aldwell-schachter PDF 230-247) (third series) |
+| 324 | 4 | Adler ch. 5 Scoring for Strings (adler1 PDF 125-167) (third series) |
+| 325 | 5 | Adler ch. 2 notation of bowings, divisi and harmonics (adler1 PDF 30-55) as engraving rules (third series) |
+| 326 | 6 | Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (third series) |
+| 327 | 7 | Rimsky-Korsakov ch. II Melody in combined groups (rimsky-principles PDF 74-80) (third series) |
+| 328 | 8 | Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (third series) |
+| 329 | 9 | Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (third series) |
+| 330 | 10 | Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (third series) |
+| 331 | 1 | Aldwell & Schachter Unit 3 Rhythm and Meter (aldwell-schachter PDF 47-57) (third series) |
+| 332 | 2 | Aldwell & Schachter Unit 27 Seventh chords with added dissonance (aldwell-schachter PDF 463-481) (third series) |
+| 333 | 3 | Aldwell & Schachter Unit 25 Applied V and VII: tonicized areas within the phrase (aldwell-schachter PDF 418-441) (third series) |
+| 334 | 4 | Casanelles ch. 6 spectral orchestration and acoustic mixing in Mahler's First Symphony (hyper-orchestra PDF 257-290) (third series) |
+| 335 | 5 | Gould ch. 2 Chords, dotted notes, ties (gould-behind-bars PDF 58-68) (third series) |
+| 336 | 6 | Adler ch. 10 The horn: range, transposition, stopped and muted notes, endurance (adler1 PDF 299-311) (third series) |
+| 337 | 7 | Adler ch. 11 Scoring for brass: contrapuntal use (adler2 PDF 41-54) (third series) |
+| 338 | 8 | Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (third series) |
+| 339 | 9 | Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (third series) |
+| 340 | 10 | Release check: every do-not-touch item in HISTORY.md, every change in the last 100 cycles, and every book rule cited in them (third series) |
+| 341 | 1 | Aldwell & Schachter Unit 2 Intervals: melodic intervals and their resolution (aldwell-schachter PDF 33-46) (third series) |
+| 342 | 2 | Aldwell & Schachter Unit 4 Triads and Seventh Chords: spacing, doubling, figured bass (aldwell-schachter PDF 58-73) (third series) |
+| 343 | 3 | Rimsky-Korsakov ch. IV limits of range and transfer of phrases (rimsky-principles PDF 124-128) and the examples cited (third series) |
+| 344 | 4 | Rimsky-Korsakov ch. I General review of orchestral groups as a guide to scoring (rimsky-principles PDF 24-50) (third series) |
+| 345 | 5 | Adler ch. 18 score setup (adler2 PDF 291-297) (third series) |
+| 346 | 6 | Adler ch. 10 Trumpet and trombone (adler1 PDF 312-329) (third series) |
+| 347 | 7 | Adler ch. 5 homophonic writing for strings (adler1 PDF 150-157) (third series) |
+| 348 | 8 | Adler ch. 2 harmonics, sul ponticello, sul tasto and other colours (adler1 PDF 55-70) (third series) |
+| 349 | 9 | Rimsky-Korsakov appendix of single tutti chords, viewed as images (rimsky-principles PDF 505-510) (third series) |
+| 350 | 10 | Aldwell & Schachter Unit 29 augmented sixths in modulation (aldwell-schachter PDF 518-529) (third series) |
+| 351 | 1 | Aldwell & Schachter Unit 1 Key, Scales and Modes: the melodic minor and modal colour (aldwell-schachter PDF 14-32) (third series) |
+| 352 | 2 | Aldwell & Schachter Unit 7 I6, V6, VII6 (aldwell-schachter PDF 106-120) (third series) |
+| 353 | 3 | Aldwell & Schachter Unit 21 pedal point as a formal device (aldwell-schachter PDF 360-371) (third series) |
+| 354 | 4 | Adler ch. 4 Harp in the orchestra and ch. 12 timpani (adler1 PDF 110-124, adler2 PDF 79-91) (third series) |
+| 355 | 5 | MOLA examples 1-7 viewed as images (mola PDF 9-11), checked against score and parts (third series) |
+| 356 | 6 | Adler ch. 7 Clarinet, bass clarinet, bassoon, contrabassoon (adler1 PDF 208-232) (third series) |
+| 357 | 7 | Sebesky ch. 3 Combining strings with winds (sebesky PDF 164-173) (third series) |
+| 358 | 8 | Rimsky-Korsakov ch. IV crescendo and diminuendo with the examples cited (rimsky-principles PDF 130-136) (third series) |
+| 359 | 9 | Adler ch. 17 accompaniment examples (adler2 PDF 260-290) (third series) |
+| 360 | 10 | Aldwell & Schachter Unit 30 Other chromatic chords: common-tone diminished sevenths, augmented triads (aldwell-schachter PDF 530-550) (third series) |
+| 361 | 1 | Rimsky-Korsakov ch. V Voice with orchestra: cantabile line and its accompaniment (rimsky-principles PDF 137-149) (third series) |
+| 362 | 2 | Aldwell & Schachter Unit 19 6/4-Chord Techniques (aldwell-schachter PDF 304-325) (third series) |
+| 363 | 3 | Adler ch. 17 The Orchestra as Accompanist: pacing of introductions, interludes and endings (adler2 PDF 256-275) (third series) |
+| 364 | 4 | Sebesky ch. 2 brass combinations (sebesky PDF 39-55) (third series) |
+| 365 | 5 | Gould ch. 1 ledger lines, octave signs, rests in two-part staves (gould-behind-bars PDF 41-52), checked in parts.ily (third series) |
+| 366 | 6 | Rimsky-Korsakov ch. I strings and woodwind: registers and technique (rimsky-principles PDF 24-43) (third series) |
+| 367 | 7 | Rimsky-Korsakov ch. III strings and wind; three groups combined (rimsky-principles PDF 108-114) (third series) |
+| 368 | 8 | Casanelles ch. 4 the effect of the mockup; sampling and legato (hyper-orchestra PDF 123-145) (third series) |
+| 369 | 9 | Adler ch. 5 string scoring examples (adler1 PDF 137-165) (third series) |
+| 370 | 10 | Casanelles ch. 1 Introduction and glossary of concepts (hyper-orchestra PDF 15-36) (third series) |
+| 371 | 1 | Sebesky ch. 5 Voices: range, breath and phrasing applied to instrumental melody (sebesky PDF 197-203) (third series) |
+| 372 | 2 | Aldwell & Schachter Unit 29 Augmented Sixth Chords (aldwell-schachter PDF 503-529) (third series) |
+| 373 | 3 | Aldwell & Schachter Unit 14 V as a Key Area (aldwell-schachter PDF 211-229) (third series) |
+| 374 | 4 | Sebesky ch. 2 combining woodwinds, and brass with woodwinds (sebesky PDF 78-110) (third series) |
+| 375 | 5 | Gould ch. 1: stave, clefs, noteheads, stems, tails (gould-behind-bars PDF 17-30) (third series) |
+| 376 | 6 | Adler ch. 2 Bowed String Instruments: divisi, bowing, harmonics (adler1 PDF 24-70) (third series) |
+| 377 | 7 | Aldwell & Schachter Unit 31 contrary chromatic motion in inner voices (aldwell-schachter PDF 551-583) (third series) |
+| 378 | 8 | Aldwell & Schachter Unit 3 hypermeter and the placement of climaxes (aldwell-schachter PDF 47-57) (third series) |
+| 379 | 9 | Adler ch. 8 woodwind-string examples (adler1 PDF 235-281) (third series) |
+| 380 | 10 | Sebesky ch. 9 General Advice (sebesky PDF 240-242) with Adler ch. 1 (adler1 PDF 19-23) (third series) |
+| 381 | 1 | Adler ch. 4 Harp: melodic and figurative writing (adler1 PDF 110-124) (third series) |
+| 382 | 2 | Aldwell & Schachter Unit 31 Chromatic Voice-Leading Techniques (aldwell-schachter PDF 551-583) (third series) |
+| 383 | 3 | Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (third series) |
+| 384 | 4 | Casanelles ch. 6 harmonic density, volume and dynamics (hyper-orchestra PDF 285-291) (third series) |
+| 385 | 5 | Gould ch. 1: beams (gould-behind-bars PDF 31-41) (third series) |
+| 386 | 6 | Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (third series) |
+| 387 | 7 | Adler ch. 5 foreground, middleground, background; strings as accompaniment (adler1 PDF 132-167) (third series) |
+| 388 | 8 | Rimsky-Korsakov ch. IV sf-p chords, crescendo and diminuendo (rimsky-principles PDF 129-136) (third series) |
+| 389 | 9 | Rimsky-Korsakov examples No. 1-60 (rimsky-principles PDF 173-240) (third series) |
+| 390 | 10 | Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (third series) |
+| 391 | 1 | Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (third series) |
+| 392 | 2 | Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (third series) |
+| 393 | 3 | Aldwell & Schachter Unit 32 Chromaticism in Larger Contexts (aldwell-schachter PDF 584-606) (third series) |
+| 394 | 4 | Rimsky-Korsakov ch. I Comparison of resonance and combination of tone qualities, and ch. III Harmony: number of parts, distribution, strings, woodwind (rimsky-principles PDF 51-53, 81-99) (third series) |
+| 395 | 5 | Gould ch. 1: ledger lines, octave signs, rests (gould-behind-bars PDF 41-52) (third series) |
+| 396 | 6 | Adler ch. 4 Plucked Strings: harp and pedalling (adler1 PDF 110-124) (third series) |
+| 397 | 7 | Adler ch. 15 polyphonic texture (adler2 PDF 172-186) (third series) |
+| 398 | 8 | Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (third series) |
+| 399 | 9 | Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305) (third series) |
+| 400 | 10 | Release check: every do-not-touch item in HISTORY.md, every change in cycles 201-399, and every book rule cited in them (third series) |
