@@ -1634,3 +1634,9 @@ lens 3, form; A&S Unit 26 (PDF 442-461). Report: reports/c253.md.
 - Accepted: 1. Vc C2 at 55 b3; 2. Vla rest at 26 b3.
 - Open: viola A♭4 unison at 71 b2 (optional).
 - Do-not-touch: theme B background plan 37–60 (Vc E♭2 at 55 b1–2); Hn 1/Cl 1 counter-line 53–56; A′ texture plan 71–82; 57–61 counter-line colour; standing list; 8-page layout.
+
+
+
+### Cycle 258 (expression, Adler ch. 2 bowing) — v259
+- Accepted: 1. violins up-bow on the tied F at 28 and 76; 2. Vln II up-bows at 15 and 20 b3.
+- Do-not-touch: 60–61 and 78–81 down-bow arrivals; Vln II louré; c118/c186 cello and bass bowings; "change bow at will" pedals; coda Vln I bowing; 8-page layout.
