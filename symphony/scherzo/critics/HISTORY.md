@@ -181,6 +181,24 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 276 (lens 6 playability, Adler ch. 2 Bowed String Instruments: divisi, bowing, harmonics (adler1 PDF 24-70) (fourth pass)) v276 → v277
+c276 lens 6 Adler ch. 2: no change. Keep the down-bow series at 333–339 (c096), the up-bow accents in crescendos at 49/125/103/303, the arco return at 273, the one-beat pizz. changes at 205/225, the viola triple stop at 339, the violas' double-stop spiccato at 105–120/305–320, and Vln I's last G♯ "change bow freely".
+
+## Cycle 275 (lens 5 engraving, Gould ch. 1: stave, clefs, noteheads, stems, tails (gould-behind-bars PDF 17-30) (fourth pass)) v275 → v276
+c275 lens 5 Gould ch. 1: no change. Keep stems.ily and the beam fix, the clef plan, the low-brass tenuto placement (c125), Cl 2's ledger notes at 87–88/285–287, the harp LH ledger notes, and the closing page.
+
+## Cycle 274 (lens 4 orchestration, Rimsky-Korsakov ch. I Comparison of resonance and combination of tone qualities, and ch. III Harmony: number of parts, distribution, strings, woodwind (rimsky-principles PDF 51-53, 81-99) (fourth pass)) v274 → v275
+c274 lens 4 Rimsky ch. I/III: Cl 2 on the tenor line 281–288. Keep the harp LH under arco basses at 209–224, Bsn 1 on the bass at 129–131, the clarinet pair's fourths and fifths at 45–56/121–128, the open B–F♯ at 123/279, and the doubled F♯5 at 101–104.
+
+## Cycle 273 (lens 3 form, Aldwell & Schachter Unit 14 V as a Key Area (aldwell-schachter PDF 211-229) (fourth pass)) v273 → v274
+c273 lens 3 A&S Unit 14: no change. Keep the trio's second A to B (169–184) with its pivot on C♯ minor at 177, the middle section on vi (185–208), the 4–♯4–5 approaches at 213–216 and 243–245, the coda's A-major statement and the E chord at 348, and the current proportions.
+
+## Cycle 272 (lens 2 harmony, Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (fourth pass)) v272 → v273
+c272 lens 2 A&S Unit 5: Vla/Hn 2 A at 47; Hn 1 rest beat 3 of 110/310 (c202's fifths fix holds); Hn 2 A3 at 52; Bsn 1 E3 at 197; Vln II F♯4 at 259/264. Keep 255–256, 54, 40/44, 102–103, 105/305, 326–329 and 200, the hemiola cadences, the V♭9 at 126/282, the 197–200 layering, the plagal close 357–360 and the closing page.
+
+## Cycle 271 (lens 1 melody, Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (fourth pass)) v271 → v272
+c271 lens 1 A&S Unit 20: Cl 1·2 G4/E4 at 253. Keep theme A, the trio tune's four dissonances and the coda's 354, the trio call's five-note turn, the second idea's chord-tone frame and hemiola, the harp melody 73–80, the Vc/Bsn 2 double neighbour at 221–223, the motto tail order, and the closing page.
+
 ## Cycle 270 (lens 10 cyclic, Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397) (third pass)) v270 → v271
 c270 lens 10 cyclic: no change. Keep Cl 2's G4 at bar 7 (movement II A♭4 → Hn 1 G♯4 → G4, mirrored by the finale's A♭4 → G4 at its bar 2; A&S PDF 388, 395), Hn 3's C4–C♯4–B3 at 87–89, and no ♭VI (C major belongs to the finale).
 
