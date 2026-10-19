@@ -12,7 +12,8 @@ Cycle N reviews vNN and produces v(N+1). Each entry: Accepted, Rejected (with re
   - No string tremolo, no violin note above B6 (B6 only at 352), no cymbals, no high horn unison, no tuba melody. Reason: kept for the finale.
   - Bars 1–7: Hn 1 G♯4 then G♯–E–D♯–E (movement II's A♭ as G♯; the horn call of movement I in E). Bars 385–392: the last sound is G♯ in Hn 1 and Vln I. Reason: the pivot from movement II and into the finale.
   - Bars 373–376: Hn 1 B–A♯–A–G♯ (the motto's chromatic tail) over E – A♯°7 – A minor – E.
-  - Theme A's tail G–F♯–F–E (the motto's tail on E's degrees). Hn 3·4 "senza sord." at their first entry (73). Timpani label at bar 1.
+  - Theme A's tail G–F♯–F–E (the motto's tail on E's degrees).
+  - (Added 2026-10-19, third series) Closing timpani motive x at 363–371 (B–B–B–E; pp at 363 and 367, ppp near the rim at 371): the finale v231 quotes it at IV 9. Theme A bar 2 G5–F♯5–F5–E5 in its register: movement I bar 79 and finale 273–275 quote it at pitch. Tell those threads before changing either. Hn 3·4 "senza sord." at their first entry (73). Timpani label at bar 1.
 
 ## Cycle 1 (v01 → v02), lens 1 melody, A&S Unit 20
 - Accepted: T bar 4 accented passing note A→G♯, bar 8 appoggiatura A♯→B (156, 160, 172, 176, 220, 224, 360, 364); theme A peak `c'''2->( b''8 fis''8)` at 24, 116, 276, 328; second-idea cadence by double neighbour at 55, 131, 299.
@@ -179,6 +180,38 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
+
+## Cycle 240 (lens 10 cyclic, Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (third pass)) v240 → v241
+- No score change; joins with I v261, II v252, finale v234 checked; records corrected (closing timpani dynamics; 9–12 timpani motive x framing the finale's bar 9).
+- Do-not-touch: timpani motive x at 9–12 (finale v231 bar 9).
+
+## Cycle 239 (lens 9 holistic, Rimsky-Korsakov examples No. 201-260 (rimsky-principles PDF 376-440) (third pass)) v239 → v240
+- No change (Dvořák 6/iii comparison; v229→v239 nothing worse).
+
+## Cycle 238 (lens 8 expression, Casanelles ch. 4 dynamics layering and expression in performance (hyper-orchestra PDF 145-161) and ch. 6 volume and dynamics (PDF 290-291) (third pass)) v238 → v239
+- Accepted: c178 swell peaks one level up in the MIDI; timpani and bass crescendos at 98–100 and 249–252 (Casanelles PDF 148–150, 290).
+- Do-not-touch (critic): trio's graded layering; soft-brass builds 101–104/301–304; leggiero theme over pizz.
+
+## Cycle 237 (lens 7 texture, Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255) (third pass)) v237 → v238
+- Accepted: Vln II contrary arpeggios at 99–100 (Adler PDF 217, 229).
+
+## Cycle 236 (lens 6 playability, Adler ch. 12 The Percussion Ensemble: timpani tuning and technique, cymbals, bass drum (adler2 PDF 55-91), and ch. 14 Scoring for Percussion (adler2 PDF 106-145) (third pass)) v236 → v237
+- Accepted: "near the rim" at 371–375 (Adler PDF 80).
+
+## Cycle 235 (lens 5 engraving, Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (third pass)) v235 → v236
+- Accepted: \sysLabel player labels at system breaks; Bsn 1 pp above at 7; last timpani muta above the staff (Adler PDF 294–295).
+
+## Cycle 234 (lens 4 orchestration, Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (third pass)) v234 → v235
+- Accepted: Bsn 1 B3 at 141–144 (spacing, Adler PDF 257).
+
+## Cycle 233 (lens 3 form, Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (third pass)) v233 → v234
+- No change (form confirmed against A&S Unit 18).
+
+## Cycle 232 (lens 2 harmony, Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (third pass)) v232 → v233
+- No change (harmony confirmed against A&S Units 24–25).
+
+## Cycle 231 (lens 1 melody, Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (third pass)) v231 → v232
+- No change (melody confirmed against Sebesky ch. 6–7).
 
 ## Cycle 230 (lens 10 cyclic, Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (third pass)) v230 → v231
 - Accepted: MIDI fades at 362–364 and 372–375 via CC11, last bar \mt 50 (print unchanged). Joins with I v251, II v240, finale v226 checked.
