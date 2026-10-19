@@ -1260,3 +1260,11 @@ Lens 7 texture (Adler part 1 ch. 5 homophonic strings, PDF 150–157). Report: r
 - Recorded (no change): 63–64; 87–88; 23–30; 24/72; 37–40.
 - Open: none.
 - Do-not-touch: violas at 27; standing list; the 8-page layout.
+
+
+## Cycle 208 (v208 → v209)
+Lens 8 expression (Adler part 1 ch. 2 colours, PDF 55–70). Report: reports/c208.md.
+- Accepted: 1. "mettere sord." at 4 in Vln I (not the soloist), Vln II, Vla, Vc (PDF 59–60; MOLA PDF 5).
+- Recorded (no change): muted f at 28; no harmonics; pizz. 37–44; string-placement marks; 22–23.
+- Open: none.
+- Do-not-touch: string mute plan; sul tasto 37; pizz. 37–44; harp harmonics 83; standing list; the 8-page layout.
