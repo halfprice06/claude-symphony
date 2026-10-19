@@ -922,3 +922,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Kept: Bn 2 B♭1 p at 191; Ob 1 E6-D6 at 227-228; Cbsn quarters 199-203.
 - Tool: tools/critic-scripts/c216/breath.py (breathing-gap scan).
 - Do-not-touch: 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 217 (v217 → v218), lens 7 texture (Adler ch. 15 polyphony, third pass)
+- Accepted: 187-194 Bn 1 doubles the cellos' counter-melody at pitch, p, breath after 190 (Adler PDF 176, 178-179); Bn 2 and all string notes unchanged. 27-34 Cl 1·2 a2 double the violins' countersubject at pitch, f, mf at 35 (Adler PDF 172, 178); their old held notes duplicated the horns. global.ily breaks kept 16 pages (Vln II "unis." label part-only at 27).
+- Note for finale.md: Cl a2 with the countersubject 27-34; Bn 1 with the cello counter-melody 187-194.
+- Do-not-touch: 223-234 with 222→223; 247-254; both chorale top lines and the cut at 264.1; 259-263; 273-279.
