@@ -989,3 +989,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Kept: break-offs 94→95 and 113→114 (PDF 38); timpani f at 110 (c056); sforzandi at 101, 105, 138.
 - Note for finale.md: 43-50 A♭3 Bn 1 → Cl 2.
 - Do-not-touch: 1-2; violas 46-49 and harp harmonics 43-47; 95-98; 216-223 with 222→223; 223-234; both chorale top lines and the cut at 264.1; 259-263; 273-279.
+
+## Cycle 229 (v229 → v230), lens 9 master comparison (Dvořák 9/iv, third pass)
+- Accepted: 95-98 the held chord under the oboe solo moves from Cl 2 to the horns (Hn 3 G4-E♭4-E4, Hn 4 B♭3, p > pp); clarinets rest 95-98 (Rimsky PDF 116, Ex. 136 PDF 312). Pitches unchanged; break-off at 94.3, oboe and violas untouched.
+- Kept: no soft brass restatement in the coda (219-222 does that job; protected).
+- Regression check against v219: nothing worse.
+- Do-not-touch: 95-98 scoring as of v230 (changed in c203, c221, c224, c227, c229; settled); 197-279 protected items.
