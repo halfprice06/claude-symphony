@@ -1780,3 +1780,10 @@ lens 9, holistic: Borodin 2/iii (shape only) and v269; Rimsky-Korsakov Ex. 206�
 - Accepted: nothing (v280 = v279 relabelled).
 - Recorded (no change): No change. Recorded: 1. cellos hold A♭3 under the violins' B♭5 appoggiatura at 28 (optional fix in c279: Vc A♭3–F3–D♭4 at 28; counter-melody protected, clash mild; open); 2. violas in unison with Cl 2 at 57–58 (harmless); 3. two-octave gap at 83 (colour; PDF 125); 4. strings' run not slurred into B♭6 at 78–79 (c246 bow plan); 5. Borodin comparison of shape; nothing worse since v269; 6. muted horn and C.a. echo of 61–62's F–F♭ at 87–88 (PDF 128). Reading gap: some example pages refused by the image tool; judged from text. Masters used in the third series now include Borodin 2/iii (c279).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 280 (v280 → v281)
+lens 10, cyclic; Adler ch. 1 (adler1 PDF 19-23) and ch. 15 end (adler2 PDF 187-196). Report: reports/c280.md.
+- Accepted: 1. bars 3-6 wind chord held with ties (Cl 2 E♭3 3-4; B.cl., Hn 4 A♭ 3-6; hnFourNoTie removed; matches movement I 73-76); 2. Hn 3 A♭3 tied 88-89 with the violas.
+- Recorded (no change): Hn 3 C4 attack at 3 kept (Ex. XV-36); hand-overs at 1-3 and 89 follow Ex. XV-37.
+- Do-not-touch: standing list; the 8-page layout; the ties at 3-6 (movement I's held chord).
