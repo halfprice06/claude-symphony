@@ -1416,3 +1416,11 @@ Lens 6 playability (Adler part 1 ch. 7, PDF 208–232). Report: reports/c226.md.
 - Recorded (no change): B.cl. low C at 8; clarinet break crossings; bassoon/contrabassoon registers.
 - Open: viola part "rit." at 89 (from c225, for cycle 235).
 - Do-not-touch: woodwind register plan; breath plan; Cl 1 niente at 85 and the 87–92 hand-over; standing list; the 8-page layout.
+
+
+## Cycle 227 (v227 → v228)
+Lens 7 texture (Rimsky-Korsakov ch. III, PDF 108–114). Report: reports/c227.md.
+- Accepted: 1. violas div. at 80 b2–81 b2, lower half with Hn 3's F–F♭–E♭ (PDF 113).
+- Recorded (no change): 60; 79–81; 53–56; 87–90; 63–64; 61–62; 37–40; 69–70.
+- Open: viola part "rit." at 89 (cycle 235).
+- Do-not-touch: viola divisi at 80–81 (div./unis. below the staff in the part); standing list; the 8-page layout.
