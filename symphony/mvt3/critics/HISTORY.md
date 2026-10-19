@@ -1000,3 +1000,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 95-98 Hn 3 holds G4 (c229's G4-E♭4-E4 took the reserved D♯4→E4 step of 219-220 early; Casanelles PDF 227, 235); the violas carry E♭4→E4 alone; c229's horn scoring kept. 9 timpani g,4 g,8 g,8 g,4: the scherzo's closing motive x taken up in the finale's first dominant preparation (PDF 200, 211-212, 216-217, 239); record line added in themes-finale-quotes.ly; scherzo thread told.
 - Composer: coherence/finale.md updated for v231 ("Changes in cycles 221-230", header versions, 95-98, item 13, open request).
 - Do-not-touch: bars 1-2; 7-10 timpani; 95-98; 216-223 with 222→223; 223-234; both chorale top lines; 259-263; 273-279.
+
+## Cycle 231 (v231 → v232), lens 1 melody (Sebesky ch. 6-7, third pass)
+- Lens 1 melody, Sebesky ch. 6-7 (PDF 204-230, third pass).
+- Accepted: 66 Cl 2 G♭3→G3 pp under the trumpet's last note, a chromatic inner line into the E♭-major F2 at 67, handing its G3 to the violas/cellos (Sebesky PDF 207, 216, 222-223).
+- Kept: the static pad top line at 51-66, the codetta 91-94, no F2 return in the coda.
