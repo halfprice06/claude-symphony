@@ -6,7 +6,7 @@ M=/home/user/claude_composes/symphony/mvt2
 NEW=$(printf %02d $1); PREV=$(printf %02d $2); SRC=$3
 W=/tmp/m2/v$NEW; rm -rf $W; mkdir -p $W
 (cd $SRC && tar cf - --exclude='*.wav' --exclude='*.mp3' --exclude=build --exclude=probe --exclude=base --exclude='pg*' --exclude='*.png' \
-  --exclude='*_c[0-9]*.log' --exclude='ap_*.txt' --exclude=gp.log --exclude=gp.txt --exclude=b.log --exclude='b[0-9]*.txt' --exclude='build_*.txt' \
+  --exclude='*_c[0-9]*.log' --exclude='ap_*.txt' --exclude='ap[0-9]*.txt' --exclude=gp.log --exclude=gp.txt --exclude=b.log --exclude='b[0-9]*.txt' --exclude='build_*.txt' \
   --exclude='o_*.txt' --exclude='tl.*' --exclude='ttest.*' --exclude='vtest.*' --exclude=score_tl.ly --exclude=midi_players.ly --exclude=mp --exclude=work .) | (cd $W && tar xf -)
 sed -i -e "s/draft v$PREV\"/draft v$NEW\"/" -e "s/in C — v$PREV, [^\"]*\"/in C — draft v$NEW\"/" $W/score.ly
 bash $M/tools/build.sh $W score.ly >/dev/null 2>&1 || true

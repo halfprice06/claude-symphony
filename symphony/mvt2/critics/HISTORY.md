@@ -1200,3 +1200,12 @@ Report: reports/c200.md.
 - Recorded (no change): all do-not-touch items and cycle 101–199 changes verified; attacca, rehearsal letters, part page turns; A♭→E common-tone link (A&S PDF 586–587); coherence/mvt2.md corrections applied.
 - Open: none. The 200-cycle series is finished.
 - Do-not-touch (final): everything listed in the entries above; the 8-page score; one-page parts except harp.
+
+
+## Cycle 201 (v201 → v202) — third series begins (Dan, 2026-10-19)
+Lens 1 melody (A&S Unit 2 Intervals, PDF 33–46). Report: reports/c201.md.
+- Accepted: 1. Hn 1/Cl 1 counter-line 54–55: B♭4 tied into 55, G♭4 on beats 3–4 (6ths with the theme instead of octaves; PDF 39 §8); 2. Vc E♭2 at 55 b1–2 under Bsn 1's D♭3 (no 4th over the bass; PDF 40–41).
+- Recorded (no change): 56 b1 octave C; tritone resolutions; theme B pickup; cadence intervals; Vc 7th at 17–18.
+- Rejected: bass `aes,2 des4` at 11, 27, 75 (untested, low rank; established accompaniment pattern).
+- Open: none.
+- Do-not-touch: the counter-line's new rhythm at 54–55 (6ths, tied B♭4); Vc E♭2 at 55; standing list; the 8-page layout.
