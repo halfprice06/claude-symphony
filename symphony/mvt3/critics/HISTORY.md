@@ -1135,3 +1135,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 5 parts, MOLA guidelines (all 16 PDF pages, third pass). Parts only; score PDF and MIDI unchanged.
 - Accepted: string page turns moved to rests (Vla, Vc, Cb after 66 and 186; Vln II at 61|62 and after 186), removing the Vln II compression warning (MOLA PDF 7); part-only cues for tuba and bass clarinet at 25-26 and bass clarinet at 99-100 (MOLA PDF 5); padding for colliding tempo texts in Tpt 1 (197/199) and harp (221/223) (MOLA PDF 8); percussion part header "Cymbals, Bass drum (2 players)" with a notation key (MOLA PDF 5-6).
 - Kept: harp pedal setting at 43, harp 8va bassa at 67-82 and 239-242, A4 parts.
+
+## Cycle 256 (v256 → v257), lens 6 playability (Rimsky ch. I, third pass)
+- Lens 6 playability, Rimsky-Korsakov ch. I (PDF 24-50, third pass).
+- Accepted: 277 harp glissando set enharmonically as a C pentatonic chord glissando (B♯ = C, F♭ = E; diagram "--v|-^--"), so no F or B rings against the fff C chord (Rimsky PDF 46-47); 150 beat 4 Bn 2 drops its pickup D3 to breathe after 17 s ff (Rimsky PDF 37, 44); 190 Bn 2 breath with Bn 1 and Hn 1.
+- Kept: harp at 123-130 and 239-242, violins sul A C6 at 238, tuba E♭1-D1 at 27-29.
