@@ -5,6 +5,7 @@
 % transposed down a major third, finale Timp 143-145 (on the dominant G before the recapitulation).
 motiveXretr = { g,4 g,8 g,8 g,4 r4 }
 
+%@ motiveXretr Timp 9 4
 %@ motiveXretr Timp 143 4
 %@ motiveXretr Timp 144 4
 
