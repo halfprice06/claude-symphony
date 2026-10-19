@@ -1103,3 +1103,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 9 holistic comparison with Dvořák 7's finale; Rimsky-Korsakov Ex. 261-312 (PDF 428-503, text PDF 130-170), third pass; compared with v239: nothing got worse.
 - Accepted: 277-278 harp glissando lengthened to a half note from G3 on beat 3 to G6, f < ff into 278 (Rimsky PDF 134, Ex. 275 PDF 441-442); top note, pedals and landing chord unchanged.
 - Kept: Tpt 3 f at 247, Bn a2 at 67-76 (protected), timpani roll with Cb pedal at 235-238.
+
+## Cycle 250 (v250 → v251), lens 10 cyclic review (Rimsky preface, ch. IV, third pass)
+- Lens 10 cyclic review, Rimsky-Korsakov preface and ch. IV (PDF 13-23, 125-129, Ex. 237-238), third pass; read the mount's coherence files (movement I v281, movement II v274, scherzo v251).
+- Accepted: 239 Cl 1 and violas f (movement I's chromatic counter), harp left hand mf, so the counter is detached from the harp's broken chords (Rimsky PDF 18-20). Manager: "arco" at bar 1 in cellos and basses (scherzo v261 request; Adler part 1 PDF 54); record line choraleFirst TbnTwo 224 (38/38).
+- Rejected: muted-brass echo and a scale handed across the orchestra (protected bars).
+- Note for finale.md: done (header, versions, cycles 241-250 list, link Ob 1 95-98 = movement II's last tail).
