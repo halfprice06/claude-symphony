@@ -1836,3 +1836,10 @@ lens 7, texture; Rimsky-Korsakov ch. III overlaying, crossing, enclosure (PDF 10
 - Accepted: nothing (v288 = v287 relabelled).
 - Recorded (no change): No change. MIDI scan of all 92 bars: no clarinet inside the horns, no horn between two bassoons, no bassoon above the top horn. Recorded: 1. horns 1-2 ff at 61-62 (woodwind doubling balances, PDF 108-109); 2. Cl 2 F4 unison with Hn 3 at 79 b1 (c234); 3. F-flat discord in Hn 3 at 80-81, Ob 2 doubles it above (protected V-flat 9); 4. Hn 4 E-flat 3 at 29-30 with no string double (as Rimsky Ex. 171); 5. moving line in a horn at 87-89 (protected echo of 61-62). Do not touch the wind and brass layouts at 3-6, 60-62, 79-81, 87-90.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 288 (v288 → v289)
+lens 8, expression; A&S Unit 3 Rhythm and Meter (PDF 47-57). Report: reports/c288.md.
+- Accepted: nothing (v289 = v288 relabelled).
+- Recorded (no change): No change. Recorded: 1. tempo words at 53-64 match the harmonic rhythm (PDF 49); 2. hairpins peak on each syncopated dissonance and fall on its resolution at 7-8, 11-12, 23-24, 27-28, 58, 71-72, 80-81 (PDF 51, 55); 3. 4/4 section keeps beat 1 strong, tenutos at 61-62 make a broad 2/2 on purpose (PDF 50); 4. built-in accents line up with printed accents at 5, 21, 47, 63, 68; 5. phrase starts and joins at 30-31, 36-37, 64-65, 82-83 overlap as Ex. 3-11; 6. two metre changes, each at a double bar with a tempo word. Do not touch the tempo plan 53-65 and those hairpins.
+- Do-not-touch: standing list; the 8-page layout.
