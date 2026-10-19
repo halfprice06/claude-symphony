@@ -1885,3 +1885,10 @@ lens 4, orchestration; Adler ch. 15 homophonic and polyphonic texture (adler2 PD
 - Accepted: nothing (v295 = v294 relabelled).
 - Recorded (no change): No change. Recorded: 1. bar 79 b1 upper octaves hold only B-flat and F (Adler PDF 164, Ex. XV-14); kept: B-flat is the appoggiatura, Cl 2 D-flat 5 on b2, c234/c254, protected tutti; 2. cellos take the A-flat 7's seventh up at 60-61 while Bsn 1, Tbn 2, Hn 1 resolve it (PDF 161-162); kept to protect the Vln II/Vc octaves at 61-62; 3. Vln II pp above the C.a. quotation at 47-50 (PDF 169, 184); 4. sf-p chord at 63-64 under control (PDF 164-165); 5. last chord strings plus Cl 2 without flutes (PDF 162-163; as Dvorak 9/ii); 6. timpani rolls start soft (PDF 184); 7. theme A rescored at each return (PDF 170-171); 8. builds 53-61 and 71-79 add octaves gradually (PDF 162, 172).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 295 (v295 → v296)
+lens 5, engraving; Adler ch. 18 and App. A (adler2 PDF 291-312). Report: reports/c295.md.
+- Accepted: six score-only player labels on shared staves (41, 45, 61, 75, 79, 87).
+- Recorded (no change): B♭6 ledger lines; shared-staff dynamics; parts book and score setup. Optional: English instructions.
+- Do-not-touch: standing list; the 8-page layout.
