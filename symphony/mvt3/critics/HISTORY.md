@@ -871,3 +871,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 187-194 soft clarinet background under F2 in A♭ (Cl 2 holds the low chord tone, Cl 1 a rocking three-note eighth figure after an eighth rest, pp, A♭3-F4), stopping at 195 (Adler PDF 132-137, 158-159, 163). Answers c057 (that pad repeated 51-58 note for note; this is a new figure, not in the exposition) and c058 (the clarinets still rest 195-198, inside the horns).
 - Note for finale.md: "clarinets rest 187-198" becomes "clarinets pp background 187-194, rest 195-198".
 - Do-not-touch: 235-246; 223-234; stretto 139-150; strings and bassoons 187-198; harp rest 187-198; clarinet rest 195-198.
+
+## Cycle 208 (v208 → v209), lens 8 expression (Rimsky ch. IV, third pass)
+- Accepted: 35 trombones (and the Cbsn with them) re-enter ff falling to f on beat 4 (tied, no new attack), after 28 bars' rest (Rimsky PDF 136, 129; as c108 at 199). 35 Vln I·II grace-note glide E♭-F-G into F1's head A♭5 (Rimsky PDF 129-130, Ex. 254); F1's notes and rhythm unchanged; 37 left plain (octaves with the bass).
+- Kept: Hn 2 mf at 130, trumpets mf at 159 (protected); trombones f at 247 (c184 balance).
+- Note for finale.md: F1 at 35 has a violin grace glide.
+- Do-not-touch: 130-132; 159-166; 247-254 trombone dynamics.
