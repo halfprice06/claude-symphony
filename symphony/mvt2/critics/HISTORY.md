@@ -1513,3 +1513,10 @@ lens 8, expression; A&S Unit 3 (PDF 47-57). Report: reports/c238.md.
 - Recorded (no change): quarters throughout 37–43 rejected; v229 comparison clean.
 - Do-not-touch: sparse bass 37–40; standing list; 8-page layout.
 - Masters used in the third series: Brahms 2/ii (c209), Dvořák Cello Concerto/ii (c219), Beethoven 7/ii (c229), Mozart 41/ii (c239).
+
+
+
+### Cycle 240 (cyclic; Sebesky ch. 9, Adler ch. 1) — v241
+- Accepted: 1. Tbn 1 slur/portato at 63 to match movement I v251; 2–4. MIDI balance: Cl 1 85–88, C.a. 47–53, Cb 83–86.
+- Open: Hn 1 tail vs timpani roll 67–69 (MIDI balance); a note-count check in the build would catch dropped bars.
+- Do-not-touch: link 1–6; quotation pitches and rhythms; B.cl. tail 32–34; timpani answer 84–85; closing tail and plagal close 85–92 with C5 on top; harp opening pedal setting.
