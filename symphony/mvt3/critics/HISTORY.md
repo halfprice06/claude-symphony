@@ -1078,3 +1078,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Lens 4 orchestration (brass), Adler ch. 11 (adler2 PDF 14-18, 37-54, third pass).
 - Accepted: 224-228 Tbn 2 doubles Tbn 1 on the chorale's motto line G-E-D-C-D♭-C a2, as in Adler's Tchaikovsky 4/i model (Ex. XI-21, PDF 38-41) and movement I's chorale (two trombones); Tbn 2's old notes are held by Hn 3·4. Top line, bass, canon and dynamics unchanged.
 - Kept: trumpets at 263 (protected unison B→C), bar 1 F♯ in Hn 4, tuba with bass trombone at 91-94.
+
+## Cycle 245 (v245 → v246), lens 5 engraving (Gould, third pass)
+- Lens 5 engraving, Gould (Behind Bars) PDF 9-68, third pass.
+- Accepted: Metronome_mark_engraver moved from the percussion group to the Timpani staff, so tempo words at 81, 83 and 197 no longer print a second time inside the flute staff when the drum staves are hidden (Gould PDF 41, 43, 55-57; regression from cycle 235); gould-mid-stems engraver: unbeamed middle-line stems follow the neighbouring stems (Gould PDF 27-28, 61); margins top 4 mm, bottom 5 mm to keep page 2. MIDI byte-identical.
+- Deferred: whole-note centring at 219 after the key change (override given in c245.md; page 12 full).
