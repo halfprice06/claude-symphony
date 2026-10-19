@@ -1470,3 +1470,10 @@ lens 3, form; Adler ch. 17 (PDF 256-275). Report: reports/c233.md.
 - Accepted: nothing (v234 = v233 relabelled).
 - Recorded (no change): No change. Recorded: 1. theme B at 37 enters with its accompaniment (as Dvořák 9/ii at 46; bare fifth 35–36 and proportions protected); 2. seven slowings in 92 bars, each at a phrase end where the models also slow; 3. A′ returns in the violins at 71 (texture protected); 4. two ff peaks at 61 and 79 differ in kind; 5. three six-bar soft pedal interludes (1–6, 31–36, 65–70) are the reductions after a tutti (PDF 267). Do-not-touch: section joins, cut-backs at 65–67 and 83, timpani link 84–85, the 78–92 tempo shape.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+
+### Cycle 234 (orchestration, Sebesky ch. 2) — v235
+- Accepted: 1. Ob 2 F♭5 at 80 b3–81 b1, out at 81 b2 (woodwinds complete the iiø7 and V♭9; PDF 86, 110).
+- Recorded (no change): Hn 3·4 29–30; B.cl./B.tbn 60–62; Cl 2 at 79; C.a. 79–82.
+- Do-not-touch: Ob 2 F♭5 80–81; standing list; 8-page layout.
