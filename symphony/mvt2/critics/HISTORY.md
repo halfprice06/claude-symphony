@@ -1706,3 +1706,11 @@ lens 3, form; A&S Unit 32 (PDF 584-606). Report: reports/c263.md.
 - Accepted: 1. Cb pizz. sf at 63 b1, arco at 64.
 - Open: C.a. F4 \> to rest at 53 (optional).
 - Do-not-touch: string tremolo 63–64; Tbn 1 quotation; bass A–D–E at 64; standing list; 8-page layout.
+
+
+
+### Cycle 269 (holistic, Beethoven 9/iii; Rimsky Ex. 126–200) — v270
+- Accepted: 1. C.a. diminuendo to rest at 53.
+- Open: viola part tempo texts at 48, 53, 78 placement.
+- Do-not-touch: Hn 3·4 release at 82; Hn 4 line 87–89; no new tempo words; standing list; 8-page layout.
+- Masters used in the third series: Brahms 2/ii, Dvořák Cello Concerto/ii, Beethoven 7/ii, Mozart 41/ii, Dvořák 9/ii, Dvořák 7/ii, Beethoven 9/iii (c269).
