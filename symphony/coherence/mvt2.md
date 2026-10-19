@@ -1,7 +1,7 @@
 # Movement II (Adagio, A♭ major): current state for the other movement threads
 
 Owner: the thread "Movement II, 200 more loops" (session cse_01WWGdo2VND72g1pVzSE2829; third series, cycles 201–400, from 2026-10-19). Only that thread edits this file. Written 2026-10-12; the third series updates it whenever a change touches another movement.
-Current version: symphony/mvt2/v211 (third series; newest text files in symphony/mvt2/latest/; versions on branch claude/project-thread-wtf58k) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (updated 2026-10-13 after cycle 190): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
+Current version: symphony/mvt2/v215 (third series; newest text files in symphony/mvt2/latest/; versions on branch claude/project-thread-wtf58k) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (updated 2026-10-13 after cycle 190): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them (the score prints them an octave higher).
 
@@ -37,7 +37,7 @@ Sections and metre (sections.txt):
 - **Bar 6, beat 3:** Horn 1 pickup E♭3–F3, p, "1. solo", "dolce espr.", into theme A at 7.
 - Not playing in 1–6: flutes, oboes, cor anglais, bassoons, contrabassoon, Horns 1·2 (except Horn 1's pickup), trombones, tuba, harp.
 - **Tempo:** "Adagio", crotchet = 52.
-- **Timpani label at bar 1:** "Timp. in G, A♭, C, E♭ (as in movement I)" and "soft sticks". At bar 5: "muta in A♭, C, D♭, E♭" (the G drum goes to D♭; G2 is never played in this movement).
+- **Timpani label at bar 1:** "Timp. in G, A♭, C, E♭ (as in movement I)" and "soft sticks". At bar 5: "muta G in D♭ (A♭, C, D♭, E♭)" (wording since v215) (the G drum goes to D♭; G2 is never played in this movement).
 - **Attacca:** the score's front page says "Follows movement I attacca: bar 1 continues its last chord". Each part prints "attacca from movement I" under bar 1 (partGlobal in parts-book.ly).
 
 ## Ending (coda, bars 83–92)
@@ -108,6 +108,7 @@ There is no rehearsal mark at 31 or 47. The marks are A–K without I. Tempo mar
 - v208: violas A♭3 at 27 b2.
 - v209: "mettere sord." for Vln I (not the soloist), Vln II, Vla, Vc at bar 4.
 - v211: bar 64 b4, cellos B2 (was E2): the chord under the end of the trombone quotation is a complete German sixth of A♭ (E2–B2–G♯3–D4 = E7, V7 of A minor), every voice falls a semitone into E♭7 at 65. The trombone quotation's notes are unchanged.
+- v215: timpani "damp" at 53; harp A♭1 tied from 82 into 83 under the harmonics; bar-5 muta wording.
 None of these touches the opening's carried-over chord, the ending, the exported themes' notes or the quotations.
 
 ## Themes exported (what the scherzo and finale may quote)
@@ -154,7 +155,7 @@ themes-mvt1.md also lists the stop chord at II bar 64. In v181, bar 64 beats 3�
 |---|---|
 | 1 | Label "Timp. in G, A♭, C, E♭ (as in movement I)", "soft sticks". |
 | 2–3 | A♭2 roll ppp. |
-| 5 | "muta in A♭, C, D♭, E♭" (G → D♭). From here: A♭2, C3, D♭3, E♭3. |
+| 5 | "muta G in D♭ (A♭, C, D♭, E♭)" (G → D♭; wording since v215). From here: A♭2, C3, D♭3, E♭3. |
 | 50 | "medium sticks". |
 | 52–53 | A♭2 roll pp < into a single D♭3 stroke p at 53. |
 | 60–62 | A♭2 roll p < f (60), D♭3 roll f (61), D♭3 at 62, "damp". |

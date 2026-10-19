@@ -1310,3 +1310,11 @@ Lens 3 form (Rimsky-Korsakov ch. IV, PDF 124–128). Report: reports/c213.md.
 - Recorded (no change): 35–36; 83; 62–63; reprise vs Dvořák 9/ii; 43.
 - Open: none.
 - Do-not-touch: phrase hand-offs 22, 36–37, 47, 52–53, 89; builds 57–61, 75–79; releases 63–67, 80–83; standing list; the 8-page layout.
+
+
+## Cycle 214 (v214 → v215)
+Lens 4 orchestration (Adler ch. 4 harp, ch. 12 timpani). Report: reports/c214.md.
+- Accepted: 1. timp. damp at 53 (adler2 PDF 80); 2. harp A♭1 tied 82→83 (adler1 PDF 116); 4. muta wording at 5 (Ex. XII-51).
+- Rejected: 3. damping text for harp LH octaves 7–13, 71–76.
+- Open: none.
+- Do-not-touch: items above; standing list; the 8-page layout.
