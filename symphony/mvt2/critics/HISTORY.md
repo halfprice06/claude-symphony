@@ -1582,3 +1582,10 @@ lens 3, form; A&S Unit 14 (PDF 211-229). Report: reports/c243.md.
 - Recorded (no change): 18 cello divisi; 53–56 unison; return builds to ff.
 - Do-not-touch: Cb unison 23–28 with the low octave from 29; standing list; 8-page layout.
 - Masters used in the third series: Brahms 2/ii, Dvořák Cello Concerto/ii, Beethoven 7/ii, Mozart 41/ii, Dvořák 9/ii (c249).
+
+
+## Cycle 250 (v250 → v251)
+lens 10, cyclic; A&S Unit 32 (PDF 584-606). Report: reports/c250.md.
+- Accepted: nothing (v251 = v250 relabelled).
+- Recorded (no change): No change to the notes. Recorded: 1. bar 64 b3 holds movement I's complete stop chord (D2, F3 Tbn 1, G♯3 Vla, B3 Vln II; bass D as at I 138); B/C♭ falls a semitone here, the rise B→C stays with the finale; coherence notes corrected; 2. 61–65 follow the ♭VI→♭II→V7 route (A&S PDF 593): A minor is A♭'s ♭II, keep the quotation in A minor; 3. join into the scherzo is an A♭→E move on the held A♭/G♯; F♭s at 62, 78, 80–81, 88 prepare E (PDF 595); 4. movement II is ♭VI of C at symphony level; its last A♭ chord stays plain (no added 7th or 6th) for the finale's German sixth; 5. E♭–F♭–E♭ figure as Beethoven's Appassionata example (PDF 600–601); 6. joins match movement I v251, scherzo v231, finale's theme B record; 7. 64→65 follows Ex. 32-10a; 8. respellings at 47, 51, 63, 65 for reading only (PDF 588).
+- Do-not-touch: standing list; the 8-page layout.
