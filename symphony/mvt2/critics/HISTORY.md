@@ -1561,3 +1561,10 @@ lens 3, form; A&S Unit 14 (PDF 211-229). Report: reports/c243.md.
 ### Cycle 246 (playability, Adler ch. 2) — v247
 - Accepted: 1. violins reach the ff B♭6 at 79 on a fresh down-bow (two up-bows at 78).
 - Do-not-touch: string bow plan (60–61 and 78–81 reach ff on a fresh down-bow); divisi layout; pizz./arco and mute timings; "change bow at will" pedals; 8-page layout.
+
+
+
+### Cycle 247 (texture, Adler ch. 5) — v248
+- Accepted: 1. Cl 2 E♭4 at 71 and 75 b1; 2. harp RH without C at 75 b2.
+- Recorded (no change): 73 b3 unison; 87 doubled third.
+- Do-not-touch: A′ texture plan 71–82; plain 23–30; theme B background plan 37–60; standing list; 8-page layout.
