@@ -1740,3 +1740,9 @@ lens 3, form; Rimsky-Korsakov ch. IV (PDF 115-136). Report: reports/c273.md.
 - Accepted: nothing (v274 = v273 relabelled).
 - Recorded (no change): No change. Recorded: 1. horns 1·2 mf< at 78 b3 kept (p< tested and withdrawn: c088/c218, the counter-melody's first note must be heard inside the f tutti; do not re-raise); 2. release 80–83 in the book's order (PDF 130); 3. two peaks scored for their places (full tutti 61–62, horns-only 79–80; PDF 116, 119–121); 4. re-entries outside the pp/ff rule (Hn 4 p at 60, Hn 3·4 f at 79, timpani f at 79) have stated reasons; 5. returns rescored each time (PDF 117–118); 6. joins on common notes or pedals (PDF 125–127); 7. coda imitation and echo (PDF 128–129).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+
+### Cycle 274 (orchestration, Rimsky tutti) — v275
+- Accepted: 1. Vc C3 / Vla E♭4 at 51, exchanged at 52; 2. Vln II F♯–A at 50.
+- Do-not-touch: tutti chords 61–62, 79–81; release 80–83; C.a. quotation and viola off-beat figure; standing list; 8-page layout.
