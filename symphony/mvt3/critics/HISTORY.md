@@ -1022,3 +1022,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Accepted: 101-102 and 105-106 bass clarinet doubles Bn 1 an octave below (E2, A2, p) under the string-free wind answers (Adler 257 Ex. VIII-25, 252-253, 260); 105 Cl 1 an octave lower, so the third statement of the scale figure spans Fl F6, Ob F5, Cl F4 (Adler 255, 250-251, 237).
 - Rejected: winds sustaining the 7-6 chain at 87-90 (protected); pad change at 82-83 (protected). Kept: 131 close chord.
 - Note: intro.ily comment corrected to the scherzo's closing timpani dynamics (pp, pp, ppp near the rim; scherzo v241).
+
+## Cycle 235 (v235 → v236), lens 5 engraving (Adler ch. 18, third pass)
+- Lens 5 engraving, Adler ch. 18 and App. A (adler2 PDF 291-312, third pass).
+- Accepted: score-only padding overrides (c185/c225) tagged score, so rehearsal letters N, O, R sit at their barlines in the parts (Adler 299, 301); tempo marks over the timpani/percussion group and barlines joined through it (Adler 293-294); timpani label "4 timpani: G, A♭, C, E♭" (Adler 292); parts-only padding so "animando" (81) no longer touches "Tempo I" (83). No MIDI change; parts page counts unchanged.
+- Kept: trumpet/trombone staff layout 1·2 + 3; Vln I C7 at 223 with ledger lines (cycles 5, 115).
+- Note: the finale's percussion barlines now join, unlike movement I's (its drum staff carries text across barlines).
