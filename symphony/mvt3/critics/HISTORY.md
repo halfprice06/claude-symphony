@@ -1207,3 +1207,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 247–254: timpani f (were ff) under the combined theme heads, the level of Tpt 3's same figure (Adler2 PDF 172–176, 184). Accepted.
 - Combining F1 and F2 in the coda: not applied, protected coda and cyclic plan. Agreed.
 - Tpt 3 rest 251–254: kept for its fresh entry at 255. Agreed.
+
+## Cycle 270 (v270 → v271), lens 10, cyclic review
+- 197.4–198: mixture B♭–D♭–F♭–A♭ over the D♭ bass, F♭3 → E♭3 in violas and Hn 2, movement II's 87–89 line at pitch; cellos A♭3 on that beat (A&S PDF 388, 395, Ex. 23-5, 23-9). Accepted; tune, bass, bowing and dynamics unchanged.
+- finale.md: seven stale sentences corrected (header versions, Tpt 2 at 200, Ob 1 at 269, open request version, F♭ wording). Applied.
+- Bar 80 cross relation A♮1/A♭5: kept, c232's chromatic bass. Agreed.
