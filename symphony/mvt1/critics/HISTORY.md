@@ -1460,3 +1460,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: no mutes or stopped horn; unslurred ff brass motto 117–121; trumpets ff at 32 (finale quotes it); trombones mf at 12; trumpets pp at 113.
 - Do-not-touch: Horn call notes 13–14; Tpt ff at 32.
 - Cross-movement: Information only: horn call gets text only; mvt1.md climax note updated for 82.
+
+## Cycle 309 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Aldwell & Schachter: the literature example that opens each unit, Units 20-32) → v310
+- Accepted: No change (holistic vs Sibelius 2/i and v299: framing devices return, 111–126 build as Sibelius's letter M, coda thins as after letter S; the seven changes v299→v309 checked, nothing worse).
+- Open / not applied: None. Kept: Tbn 2 F3→G3 at 177→178 (doubled seventh rises; Vln II resolves it; repairs worse; coda protected); cross-relation 59→60 (c303, A&S PDF 420); seams 96→97, 102→103.
+- Do-not-touch: Coda chorale pitches.
+- Cross-movement: none.
