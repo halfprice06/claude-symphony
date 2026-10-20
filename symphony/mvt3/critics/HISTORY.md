@@ -1212,3 +1212,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 197.4–198: mixture B♭–D♭–F♭–A♭ over the D♭ bass, F♭3 → E♭3 in violas and Hn 2, movement II's 87–89 line at pitch; cellos A♭3 on that beat (A&S PDF 388, 395, Ex. 23-5, 23-9). Accepted; tune, bass, bowing and dynamics unchanged.
 - finale.md: seven stale sentences corrected (header versions, Tpt 2 at 200, Ob 1 at 269, open request version, F♭ wording). Applied.
 - Bar 80 cross relation A♮1/A♭5: kept, c232's chromatic bass. Agreed.
+
+## Cycle 271 (v271 → v272), lens 1, A&S Unit 20
+- 75: F2's E♭-major violin statement varies its repeat with a five-note turn on beat 3, Vln I `bes''2( c'''16 bes'' aes'' bes'' g''4)`, Vln II an octave lower (A&S PDF 333, 338–339, Ex. 20-21b). Accepted; F2 changes only in this bar.
+- Escape tone + accented passing tone idiom (A&S PDF 337): only fits in protected 83–86. Not applied; agreed.
