@@ -1216,3 +1216,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 271 (v271 → v272), lens 1, A&S Unit 20
 - 75: F2's E♭-major violin statement varies its repeat with a five-note turn on beat 3, Vln I `bes''2( c'''16 bes'' aes'' bes'' g''4)`, Vln II an octave lower (A&S PDF 333, 338–339, Ex. 20-21b). Accepted; F2 changes only in this bar.
 - Escape tone + accented passing tone idiom (A&S PDF 337): only fits in protected 83–86. Not applied; agreed.
+
+## Cycle 272 (v272 → v273), lens 2, A&S Unit 5
+- 75–77: Bn 1 holds B♭3 into 77 and steps to A♭3 instead of leaping a sixth down to double the bass at 76 (A&S PDF 76, 80, 89); Bn 2 keeps the bass. Accepted.
+- 9–10 leading-tone doubling, 77–78 inner crossing, 107–109 spacing, 278 final chord, 10.4–11 cello: kept. Agreed.
