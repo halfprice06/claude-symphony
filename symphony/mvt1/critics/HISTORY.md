@@ -1478,3 +1478,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: A♭ in the run at 32.4 (harmonic context, finale quotes 27–32; c221); no turn added at 64 (protected) or 147.
 - Do-not-touch: Plain C-major statement at 147; run at 32.
 - Cross-movement: Information only: turn at 56 = fugato turn 89/92/95.
+
+## Cycle 312 (Harmony and voice leading; Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (second pass)) → v313
+- Accepted: 54→55: Vln II holds E♭5 through 54 (no doubled, rising D♭ seventh) and violas A♭3/C4 div. at 55 (leading tone G3 rises to A♭) (tTwo); 151: Vln II C5/B♭5 tremolo (was G5/B♭5): V6/5 of IV gets its root, leading tone no longer in four octaves, as c272 at 51 (recTwo) (A&S PDF 76, 80, 89).
+- Open / not applied: None. Kept: Cl 1 B4 at 165.3; Hn 4 B♭→F♭ 60–62 (horn thirds, c114/c119); 71.1, 144.4, 115.1, 157.1, 151.3 (protected).
+- Do-not-touch: Recap cadence 154→155; 6–14; chorale 175–182.
+- Cross-movement: none.
