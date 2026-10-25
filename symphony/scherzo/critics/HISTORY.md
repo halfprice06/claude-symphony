@@ -181,6 +181,33 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 289 (lens 9 holistic, Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (third pass)) v289 → v290
+Accepted: Cl 1 4–3 at 54–55, 130–131, 286–287 (answers the cycle 2 do-not-touch: rhythm and harmony unchanged). No structural change (Brahms's loud trio and unbroken motion would undo protected decisions).
+
+## Cycle 288 (lens 8 expression, Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (third pass)) v288 → v289
+Accepted: wind slurs with tenuto at 101–104/301–304, 336–338, 133–136/321–323, 141–148, 225–228; ties at 361–362 in Hn 2, Fl 1, Cl 1·2. Kept: horns ff>pp at 72, no mutes, horns 73–88 without hairpins, E pedal 357–360, low winds 333–335, clarinets 249–252.
+
+## Cycle 287 (lens 7 texture, Rimsky-Korsakov ch. II Melody in combined groups (rimsky-principles PDF 74-80) (third pass)) v287 → v288
+Accepted: viola beat 3 B3 at 106/118/306/318, C4–E4 at 110/310. Kept: tenor countermelody's tied E4 at 106/306 (c017, c187); 333–337, 113–116, 129/285, 349–355 follow the reading.
+
+## Cycle 286 (lens 6 playability, Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (fourth pass)) v286 → v287
+No change. Kept: Vc G2–C4 at 280–281, Vln I A5–F6 at 330–331, crossings at 272–277, viola motive x pp at 326–332, Cb open A1 at 213, tied E at 361–364.
+
+## Cycle 285 (lens 5 engraving, Gould ch. 1: beams (gould-behind-bars PDF 31-41) (fourth pass)) v285 → v286
+Accepted: stems.ily second pass for middle-line beam groups (10 stems at 107, 307, 331). Kept: long Fl 1 stems 254–266, convex turn slopes at 189/193/195, Fl 1 run at 256, 8 middle-line pairs with disagreeing neighbours.
+
+## Cycle 284 (lens 4 orchestration, Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (fourth pass)) v284 → v285
+Accepted: Tpt 1 B4 (was D♯5) at 104/304, same dynamic. Kept: horn minor ninth at 337, Tbn 1 seventh at 103–104, Cl 2 inside the horns at 121–128/277–280, octave woodwind over short trumpet strokes 105–119 (PDF 114), horns between Bcl and Bsn at 75–76/83 (c080).
+
+## Cycle 283 (lens 3 form, Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (fourth pass)) v283 → v284
+No change. Do-not-touch (critic): pivot at 33–34; trio key plan 153–209; coda A major 341 with E pivot at 348; I–III–(IV, ♭II)–V plan of 13–105 and its reprise; proportions.
+
+## Cycle 282 (lens 2 harmony, Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (fourth pass)) v282 → v283
+Accepted: Hn 2 D4 at 53–55 (answers c223: no doubled fourth); 5–6 at 173 (Vc F♯) and 345 (Bsn 1 B); Bsn 1 and Vla F♯ at 220, held E kept. Kept: ii→I6 at 76–77 (c080, c192).
+
+## Cycle 281 (lens 1 melody, Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (fourth pass)) v281 → v282
+No change. Kept: Vln I alone on C6 at 21–24/257–264; trio call 198–200 (protected c107/c117); tutti unison/octave switches (c010); fugato single-section entries; coda register hand-overs (c150, c191).
+
 ## Cycle 280 (lens 10 cyclic, Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (third pass)) v280 → v281
 No change. Cyclic check clean against I v304, II v291, finale v265. Kept: leading tone at 332, tritone leaps 331–332, Cl 1 at 86; no Neapolitan in the trio or coda (would need C major).
 
