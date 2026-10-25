@@ -1496,3 +1496,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: Bsn 1 + Vc downbeats 28–30; Hn 4 G3 at 122 (c302); doubled D at 161.1 (trumpet B→C kept for the finale, c242); clarinets in the low theme 131–134 (c147, c197).
 - Do-not-touch: Trumpet B→C reserved for the finale.
 - Cross-movement: none.
+
+## Cycle 315 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: stave, clefs, noteheads, stems, tails (gould-behind-bars PDF 17-30) (second pass)) → v316
+- Accepted: Cellos stay in bass clef for the recapitulated S 146–155 (G2–F4; tenor clef put the pickup G2 on two ledger lines; Gould PDF 21), answering the 46/146/157 clef-plan protection (recOne, recTwo); middle-line stems follow their own half-bar at Vln II 157.3 and Cl 1 165.3 (Gould PDF 28; engraver in global.ily). No pitches change.
+- Open / not applied: None. Kept: lone middle-line notes stem down (138, 48, 52, 53, 103, 149); four ledger lines at Vla 110 and Hn 3·4 141 (c115, c245).
+- Do-not-touch: Cello clefs at 46, 97, 158.
+- Cross-movement: none.
