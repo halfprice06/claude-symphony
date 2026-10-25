@@ -1247,3 +1247,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 43–48: Fl 1 (44) and Cl 1 (46) crescendo into the top of the scale figure, Ob 1 diminuendo at 48 into its pp (Adler PDF 185–186, 198, 210, 227). Accepted.
 - 236–237: Cl 1 and violas swell on the tied C5 and recede at 237 as the violins climb (Adler PDF 188, 212). Accepted.
 - 119–122, 171–178, 95–98, 87–94: no change. Agreed.
+
+## Cycle 279 (v279 → v280), lens 9, Adler part 2 ch. 16 holistic
+- 9–10: the opening crescendo built by staggered entries (horns, violas, Cbsn, Cb 9.1; clarinets 9.3; oboes and flutes 10.1) instead of 13 parts entering together (Adler2 PDF 205, 213, 215–216, 224). Accepted; c189's no-re-attack rule and the timpani motive x kept.
+- 66–67: Cl 2 G3 tied into 67.1 so the background overlaps the seam (Adler2 PDF 217, 224). Accepted.
+- 43–50 horn pulse, 11–26 arpeggios, 65–66 doubling, register swaps: protected, not applied. Agreed.
