@@ -1242,3 +1242,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 35–38: Bn 1 doubles the violas' countersubject instead of the horns' held notes (Adler PDF 255, 257, 267–268, 271). Accepted.
 - 35: Hn 3·4 f (were ff), in line with trombones and Hn 1·2 (Adler PDF 268). Accepted.
 - 67–69 unison bassoons, 95–98 horn third, imitation passages: no change. Agreed.
+
+## Cycle 278 (v278 → v279), lens 8, Adler ch. 7
+- 43–48: Fl 1 (44) and Cl 1 (46) crescendo into the top of the scale figure, Ob 1 diminuendo at 48 into its pp (Adler PDF 185–186, 198, 210, 227). Accepted.
+- 236–237: Cl 1 and violas swell on the tied C5 and recede at 237 as the violins climb (Adler PDF 188, 212). Accepted.
+- 119–122, 171–178, 95–98, 87–94: no change. Agreed.
