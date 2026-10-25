@@ -1921,3 +1921,11 @@ lens 9, holistic, Brahms 3/ii; Adler part 1 ch. 5 and 8 full-score examples. Rep
 - Recorded (no change): nothing worse since v289; doubled F at 87 (protected coda).
 - Do-not-touch: standing list; the 8-page layout; 71–74 octaves.
 - STOP: Dan (2026-10-19 23:04 UTC) asked to stop all four movements at about v300 and merge. v300 is the last version of the third series.
+
+
+## Cycle 300 (v300 → v301)
+FOURTH SERIES starts (Dan, 2026-10-25 23:22: 100 more loops, cycles 300-399 → v400).
+lens 10, cyclic; Sebesky ch. 9 and ch. 1 (PDF 240-242, 11-20). Report: reports/c300.md.
+- Accepted: MIDI-only fades: strings and B.tbn under the quotation at 63; basses' pedal 66-70.
+- Recorded (no change): links with mvt I at 3-14; wind solos 31-52; motto-tail harmonisations; sibling joins checked (I v321, III v300, IV v281).
+- Do-not-touch: standing list; the 8-page layout; F-F♭-E♭ echo at 85-89 (quoted by the finale).
