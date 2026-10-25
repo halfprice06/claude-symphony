@@ -1220,3 +1220,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 272 (v272 → v273), lens 2, A&S Unit 5
 - 75–77: Bn 1 holds B♭3 into 77 and steps to A♭3 instead of leaping a sixth down to double the bass at 76 (A&S PDF 76, 80, 89); Bn 2 keeps the bass. Accepted.
 - 9–10 leading-tone doubling, 77–78 inner crossing, 107–109 spacing, 278 final chord, 10.4–11 cello: kept. Agreed.
+
+## Cycle 273 (v273 → v274), lens 3, A&S Unit 14
+- 73.3–4: F2's E♭-major half cadence approached by IV – V6/5 of V with the bass rising A♭–A♮–B♭ (A&S PDF 214–215, Ex. 14-2, 14-3d, 14-4); inner voices adjusted so no A♭ sounds against A♮, harp needs no pedal change. Accepted; tune unchanged, 193 protected and left as is.
+- 112–113, 57–58, 177–178, 5–6 modulation, PAC in V: checked, no change. Agreed.
