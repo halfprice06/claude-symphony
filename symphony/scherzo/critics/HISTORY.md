@@ -181,6 +181,33 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 299 (lens 9 holistic, Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (third pass)) v299 → v300
+No change. Remaining gap noted by the critic: the second idea and trio tune are well made but not memorable; not rewritten on the last cycle because the finale quotes them. Do-not-touch (critic): closing page 357–376, soft trio 153–216, coda peak 333–339, F-major episode spacing 73–88.
+
+## Cycle 298 (lens 8 expression, Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (third pass)) v298 → v299
+No change. Kept: Hn 1 9–8 at 216 unmarked (15 pages with a hairpin; c198), hemiola 4–3s unmarked, suspension shadings, swells on T's tied A, dominant pedals into 105, 209, 253.
+
+## Cycle 297 (lens 7 texture, Adler ch. 11 Scoring for brass: contrapuntal use (adler2 PDF 41-54) (third pass)) v297 → v298
+No change. Kept: Hn 3 alone on the tenor line 305–320 (c114), 329–332 (c129, c279), fugato without brass.
+
+## Cycle 296 (lens 6 playability, Adler ch. 4 Plucked Strings: harp and pedalling (adler1 PDF 110-124) (fourth pass)) v296 → v297
+No change. Kept: low bass at 81–84, close chords in the trio and coda, repeated chords, harmonics at 375 with Hn 1's G♯4.
+
+## Cycle 295 (lens 5 engraving, Gould ch. 1: ledger lines, octave signs, rests (gould-behind-bars PDF 41-52) (fourth pass)) v295 → v296
+Accepted: \partCombineChords for the clarinets at 361–364 (Cl 2 B3 printed); rest positions at 209 and 366. Kept: Hn 3·4 treble clef at 153–168, B6 at 336 without 8va, tuba and harp ledger lines, Hn 4 rests at 166, second players' rests.
+
+## Cycle 294 (lens 4 orchestration, Rimsky-Korsakov appendix of single tutti chords (rimsky-principles PDF 505-510) and the tutti examples cited in ch. IV (fourth pass)) v294 → v295
+Accepted: Bsn 1 D3/G3 at 53–56; timpani f at 333, cresc. at 335, ff roll at 336. Kept: 211–212, 37–39, 92–94, the tutti and soft-chord layouts.
+
+## Cycle 293 (lens 3 form, Aldwell & Schachter Unit 32 Chromaticism in Larger Contexts (aldwell-schachter PDF 584-606) (fourth pass)) v293 → v294
+No change. Kept: 288→289 (c003), 133–152, 237–253 without an added F♮, coda weighting.
+
+## Cycle 292 (lens 2 harmony, Aldwell & Schachter Units 11-13 VI and IV6; supertonic and subdominant sevenths; other uses of IV and VI (aldwell-schachter PDF 163-210) (fourth pass)) v292 → v293
+No change. Kept: harp at 159 (c089/c093; each fix adds a fault), iv7 at 243 (C-major rule), no deceptive cadence in E minor (VI is C major).
+
+## Cycle 291 (lens 1 melody, Rimsky-Korsakov ch. II Melody: woodwind, brass, combined groups (rimsky-principles PDF 64-80) and the examples it cites (fourth pass)) v291 → v292
+Accepted: octave climb at 335 in Vln II, violas, C.a. Kept: coda T 341–356 scoring, Ob 1 octave change 197–198 (c117/c119), Bsn octaves 299–301, three winds on Vln I 113–116/313–316, T's rhythm.
+
 ## Cycle 290 (lens 10 cyclic, Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (third pass)) v290 → v291
 No change. Cyclic check clean against I v313, II v300, finale v273. Notes for the stop: coherence/scherzo.md to list v282–v300; at the merge take only the scherzo's own coherence files from this branch; print version and date on the v300 title page.
 
