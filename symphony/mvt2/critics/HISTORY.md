@@ -1929,3 +1929,11 @@ lens 10, cyclic; Sebesky ch. 9 and ch. 1 (PDF 240-242, 11-20). Report: reports/c
 - Accepted: MIDI-only fades: strings and B.tbn under the quotation at 63; basses' pedal 66-70.
 - Recorded (no change): links with mvt I at 3-14; wind solos 31-52; motto-tail harmonisations; sibling joins checked (I v321, III v300, IV v281).
 - Do-not-touch: standing list; the 8-page layout; F-F♭-E♭ echo at 85-89 (quoted by the finale).
+
+
+## Cycle 301 (v301 → v302)
+lens 1, melody; Sebesky ch. 6-7 (PDF 204-230). Report: reports/c301.md.
+- Accepted: cellos B♭3–A♭3 quarters at 26 b1-2 (passing note under the held G4).
+- Recorded (no change): sixths at 41-44 (c090); theme A; motto tail; quotations; similar motion at 11, 27, 75.
+- Open: same cello passing note at 74.
+- Do-not-touch: standing list; the 8-page layout.
