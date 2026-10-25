@@ -1262,3 +1262,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 281 (v281 → v282), lens 1, Rimsky-Korsakov ch. II
 - 77–81: cellos leave the counter and double F2 an octave below Vln II, so the tune is in three octaves at its f peak (Rimsky PDF 54, 60–62, Ex. 29–30); violas keep the counter, 78 changed to `es'2( g2)` to avoid fifths; cellos rejoin at 82. Accepted; F2's notes unchanged.
 - Violins–violas–cellos unison at 27–34, same doubling at 197–198, 19–26 layout: not applied. Agreed.
+
+## Cycle 282 (v282 → v283), lens 2, A&S Units 9-10
+- 18 and 158: F1's antecedent half cadence gets a cadential 6/4 (clarinets; at 158 also Tbn 1 tied 4–3 and Tbn 2), which also removes Cl 2's octaves with the bass at 17.4→18.1 and 157.4→158.1 (A&S PDF 152–155, 158–160). Accepted; tune and bass unchanged.
+- 220 whole-bar 6/4, 74/194, 243–244, 151: kept. Agreed.
