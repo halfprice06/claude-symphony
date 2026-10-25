@@ -1514,3 +1514,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: tenor line at 27–30 (finale quotes 27–32 at pitch); horn/trombone motto 117–121; brass answer at 96; Tbn 1 + B.tbn octaves in the chorale 175–179 (independent chorale bass reserved for the finale).
 - Do-not-touch: 27–32; coda notes; chorale.
 - Cross-movement: none.
+
+## Cycle 318 (Expression; Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371)) → v319
+- Accepted: 122–123: the upper parts begin their diminuendo on 123, where the fff A♭ resolves to G over the pedal (one-bar hairpins in the parts that stop after 123; Fl 1/Ob 1 restart at 124; others move the hairpin start from 124 to 123); pedal parts and tam-tam unchanged; fff at 122 and p at 126 kept (A&S PDF 348, 367–368; Rimsky-Korsakov PDF 130), answering c239/c243/c289 (dev). Cl 1 tenuto on the restruck 7–6 B♭4 at 45 (A&S PDF 348, 356–359) (trans).
+- Open / not applied: None. Kept: accents on both notes of C–B at 142 (hammer strokes rhyming with 32); phrase-long crescendos through resolutions at 63 and 159.
+- Do-not-touch: Climax order 82 < 122 < 160; collapse length 122–126.
+- Cross-movement: none (mvt1.md climax note: upper parts fade from 123).
