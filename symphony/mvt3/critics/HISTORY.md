@@ -1258,3 +1258,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Neapolitan 6/4 at 167.3–4: rejected (second ♭II colour after 163, protected Hn 1 line). Agreed.
 - finale.md: twelve stale sentences corrected (header versions, opening crescendo, ♭II at 16/156/32, bass clarinet 101–106, Vln I at 67, 38 checks, viola E4 at 126–127). Applied.
 - Movement I's theme record reads 34/35 because lyparse.py misreads `\set Staff.soloText`; fix sent to the movement I thread. Cyclic checks against I v321, II v300 and scherzo v300 clean.
+
+## Cycle 281 (v281 → v282), lens 1, Rimsky-Korsakov ch. II
+- 77–81: cellos leave the counter and double F2 an octave below Vln II, so the tune is in three octaves at its f peak (Rimsky PDF 54, 60–62, Ex. 29–30); violas keep the counter, 78 changed to `es'2( g2)` to avoid fifths; cellos rejoin at 82. Accepted; F2's notes unchanged.
+- Violins–violas–cellos unison at 27–34, same doubling at 197–198, 19–26 layout: not applied. Agreed.
