@@ -1237,3 +1237,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 276 (v276 → v277), lens 6, Adler ch. 2
 - 43–50: Vln I's held B♭5 is an artificial harmonic (stop B♭3, touch E♭4), sounding pitch printed in parentheses; a hidden voice plays it in the MIDI (Adler PDF 55–62). Accepted.
 - Vln II "pizz. div." at 51 and 115, "unis." restored at 67 and 127 (Adler on divisi pizzicato chords). Accepted.
+
+## Cycle 277 (v277 → v278), lens 7, Adler ch. 8
+- 35–38: Bn 1 doubles the violas' countersubject instead of the horns' held notes (Adler PDF 255, 257, 267–268, 271). Accepted.
+- 35: Hn 3·4 f (were ff), in line with trombones and Hn 1·2 (Adler PDF 268). Accepted.
+- 67–69 unison bassoons, 95–98 horn third, imitation passages: no change. Agreed.
