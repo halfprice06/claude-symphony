@@ -1224,3 +1224,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 273 (v273 → v274), lens 3, A&S Unit 14
 - 73.3–4: F2's E♭-major half cadence approached by IV – V6/5 of V with the bass rising A♭–A♮–B♭ (A&S PDF 214–215, Ex. 14-2, 14-3d, 14-4); inner voices adjusted so no A♭ sounds against A♮, harp needs no pedal change. Accepted; tune unchanged, 193 protected and left as is.
 - 112–113, 57–58, 177–178, 5–6 modulation, PAC in V: checked, no change. Agreed.
+
+## Cycle 274 (v274 → v275), lens 4, Rimsky-Korsakov ch. I and III
+- 277: the short ff string chords are double stops "non div." in Vln I, Vln II, violas (Rimsky PDF 87); cellos stay divided. Accepted; MIDI identical.
+- 277–278: oboes in thirds/sixths in the middle register (Ob 1 E5–D5–E5 over Ob 2 C5–B4–C5; at 278 Ob 1 C6, Ob 2 E5) instead of low E4 and a fourth (Rimsky PDF 90, 95–96). Accepted; harmony unchanged.
+- Cor anglais silent 221–end: kept. Agreed.
