@@ -1233,3 +1233,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 275 (v275 → v276), lens 5, Gould ch. 1
 - 279: cymbal quarter gets a plain cross, not a circled one (Gould PDF 26). Accepted.
 - 278–279: cymbal and bass drum in two voices (stems up/down) as at 223, so the ties no longer stack (Gould PDF 27, 65). Accepted. Note for r07 renders: finalePerc now has two voices at 278–279, so the render temp copy must also simplify finalePerc.
+
+## Cycle 276 (v276 → v277), lens 6, Adler ch. 2
+- 43–50: Vln I's held B♭5 is an artificial harmonic (stop B♭3, touch E♭4), sounding pitch printed in parentheses; a hidden voice plays it in the MIDI (Adler PDF 55–62). Accepted.
+- Vln II "pizz. div." at 51 and 115, "unis." restored at 67 and 127 (Adler on divisi pizzicato chords). Accepted.
