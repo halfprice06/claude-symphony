@@ -181,6 +181,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 290 (lens 10 cyclic, Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (third pass)) v290 → v291
+No change. Cyclic check clean against I v313, II v300, finale v273. Notes for the stop: coherence/scherzo.md to list v282–v300; at the merge take only the scherzo's own coherence files from this branch; print version and date on the v300 title page.
+
 ## Cycle 289 (lens 9 holistic, Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (third pass)) v289 → v290
 Accepted: Cl 1 4–3 at 54–55, 130–131, 286–287 (answers the cycle 2 do-not-touch: rhythm and harmony unchanged). No structural change (Brahms's loud trio and unbroken motion would undo protected decisions).
 
