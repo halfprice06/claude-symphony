@@ -1484,3 +1484,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: Cl 1 B4 at 165.3; Hn 4 B♭→F♭ 60–62 (horn thirds, c114/c119); 71.1, 144.4, 115.1, 157.1, 151.3 (protected).
 - Do-not-touch: Recap cadence 154→155; 6–14; chorale 175–182.
 - Cross-movement: none.
+
+## Cycle 313 (Form, pacing and proportion; Aldwell & Schachter Unit 14 V as a Key Area (aldwell-schachter PDF 211-229) (second pass)) → v314
+- Accepted: No change (form vs A&S Unit 14, second pass: G pedal 117–130 stays a dominant; A♭ arrival 39–47 as Ex. 14-1; G at 84 as V of C and tonic of the fugato; dominant at 143–146 moves on into C major; raised 4̂ doubled only at 12 and 116 (protected); proportions as at v223, coda ~14%).
+- Open / not applied: None. Rejected: F♯ at 144 (protected bars; would make 145 a stopping point).
+- Do-not-touch: Coda length; 12, 116.
+- Cross-movement: none.
