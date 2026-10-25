@@ -1508,3 +1508,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: two-bar slurs at Allegro (Vla 19–22, 94–95; Vc 103–106, 141–142; corrects c226's note); S head slurs 46–48, 146–148; 160.4→161 retake; Cb arco→pizz 46→47; fff tremolo double stops at 122.
 - Do-not-touch: Five tied parts and last chord.
 - Cross-movement: Information only for mvt II (stopped at v300): its violas could repeat '(change bow at will)' on the tied E4 at its bar 1.
+
+## Cycle 317 (Texture and counterpoint; Adler ch. 11 Scoring for brass: contrapuntal use (adler2 PDF 41-54)) → v318
+- Accepted: Tbn 2 doubles the cello/Bsn 1 tenor line at 139–142 (C4–B♭3–A♭3–F3–G3–A♭3–C4–B3, f, slurred, accents on 142), which was covered by the held ff brass chord; no pitch class lost (Adler adler2 PDF 42, 44) (recOne).
+- Open / not applied: None. Kept: tenor line at 27–30 (finale quotes 27–32 at pitch); horn/trombone motto 117–121; brass answer at 96; Tbn 1 + B.tbn octaves in the chorale 175–179 (independent chorale bass reserved for the finale).
+- Do-not-touch: 27–32; coda notes; chorale.
+- Cross-movement: none.
