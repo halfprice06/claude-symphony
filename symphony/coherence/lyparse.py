@@ -25,6 +25,7 @@ def strip(text):
     text = re.sub(r'\\tag\s*#\'part\s*\\cueDuring\s*#"[^"]*"\s*#\w+\s*\{[^}]*\}', ' ', text)
     text = re.sub(r'\\clef\s+"?\w+"?', ' ', text)
     text = re.sub(r'\\(override|revert|once|tweak)\s+[\w.-]+(\s*=\s*#\S+|\s+#\S+)?', ' ', text)
+    text = re.sub(r'\\(set|unset)\s+[\w.]+(\s*=\s*(#\S+|"[^"]*"))?', ' ', text)
     text = re.sub(r"#'\w+", ' ', text)
     text = re.sub(r'%[^\n]*', ' ', text)
     text = re.sub(r'"(?:\\.|[^"\\])*"', ' ', text)

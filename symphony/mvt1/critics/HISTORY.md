@@ -1526,3 +1526,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: ppp ending (attacca into II); no mutes (c76); fewer tempo words in S than Manfred's Astarte section.
 - Do-not-touch: Wedge 111–116 bass, top line and harmony; staggered breaths (c087); held A♭ (c272).
 - Cross-movement: none (mvt1.md record line for 113–116).
+
+## Cycle 320 (Cyclic design and emotional arc across four movements; Release check: every do-not-touch item in HISTORY.md, every change since the last release check (v221 for cycle 320; v321 for cycle 420), every book rule cited in them, and the coherence files of all four movements) → v321
+- Accepted: No score change (release check vs v221: quotations hold in MIDI (I 27–32 = IV 199–204 except the known pickup run; I 12 = IV 1; I 138 = IV 222; 179–180 = IV 229–230; I 182 = II 1); Do-not-reuse list holds; build and parts clean). Records: lyparse.py ignores \set/\unset (soloText at 13 read as notes; theme record back to 35/35); mvt1.md trumpet bars corrected (131–134 and 138–143).
+- Open / not applied: None.
+- Do-not-touch: All earlier do-not-touch items.
+- Cross-movement: Records only (lyparse.py fix in coherence/; mvt1.md).
