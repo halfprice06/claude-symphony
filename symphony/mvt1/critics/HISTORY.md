@@ -1538,3 +1538,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: P 15–22; cellos' S 47–55 without sul D (climbs to C5); A♭6 peaks with octave below; recap S 147–155; P head 167–169 (finale's reserve); coda statements.
 - Do-not-touch: c141 sul A at 57.2; phrasing 47–63.
 - Cross-movement: none.
+
+## Cycle 322 (Harmony and voice leading; Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (second pass)) → v323
+- Accepted: No change (harmony vs A&S Units 9–10, second pass: 28 principles; IV→II6 over repeated bass at 52–53/152–153/172–173 as K. 387 Ex. 9-20; neighbour 6/4 at 101–102; C.a./Vc unison 4th at 174 is one voice; 4–3s at 106, 142; 22.2 anticipation).
+- Open / not applied: None.
+- Do-not-touch: Cadential 6/4s at 12–14, 61–63, 109–110, 172–174.
+- Cross-movement: none.
