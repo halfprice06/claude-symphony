@@ -2349,3 +2349,10 @@ harmony. Report: reports/c362.md.
 - Accepted: nothing (v363 = v362 relabelled).
 - Recorded (no change): c362 (A&S Unit 19, 6/4 chords): no change. The seven 6/4s (5, 21, 38, 43 b2, 43 b3, 68, 74) all have a function; bar 43-44 stays the only cadential 6/4. Correction to c283: the cor anglais D flat4 at 43 leaps to B flat3 and the cellos' C3 takes the resolution.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 363 (v363 → v364)
+form. Report: reports/c363.md.
+- Accepted: nothing (v364 = v363 relabelled).
+- Recorded (no change): c363 (Adler ch. 17 pacing, compared with Tchaikovsky's Canzonetta and Dvorak's Cello Concerto ii): no change. Introduction and coda proportions, cut-backs after each tutti, entry preparation, the 53-64 build, dialogue colours and the coda pacing all follow.
+- Do-not-touch: standing list; the 8-page layout.
