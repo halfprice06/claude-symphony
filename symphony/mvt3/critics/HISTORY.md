@@ -1285,3 +1285,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 286 (v286 → v287), lens 6, Adler ch. 3
 - 124.4–126: violas "sul D" for F2's hand-over, so the A4 at 125 is stopped on the D string, as the cellos' "sul D" at 123 (Adler PDF 73–74, 86–87). Accepted.
 - Other open strings in lyrical lines, chords, bass lines, ranges, the harmonic at 43–50: no change. Agreed.
+
+## Cycle 287 (v287 → v288), lens 7, Rimsky-Korsakov ch. II combined groups
+- 67–74: Hn 1 pp "dolce" doubles the strings' counter-melody under F2 at the cellos' pitch, one horn so the strings lead (Rimsky PDF 76, 79); G4 at 70.3 avoids doubling the violas' E♮ thread; Hn 2's pp entry at 75 kept. Accepted.
+- 247–250 hollow middle, 123–126: no change. Agreed.
