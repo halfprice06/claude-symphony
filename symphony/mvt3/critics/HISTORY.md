@@ -1545,3 +1545,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 77–80: on F2's first major-key climax (B♭6 at 78) Hn 1 left its pad and now doubles the cellos and Cl 1 at pitch (E♭4–F4 | B♭4. A♭ G F | E♭4. D4 | C B♭ A♭ G), breathing with Cl 1 after 78 and returning to D4 at 81 (Adler part 2 PDF 27, Ex. XI-10: horn and cello double long sustained melodies; also PDF 19, 26). Dynamics, Hn 2 and the tune unchanged.
 - Not applied: Hn 3·4 high doubling at 37–38, trombones on F1 (withheld since c161), a Lohengrin-style hand-off (only protected places fit), a timpani dominant pedal at 43–50/255–260 (protected).
 - Quotations: finale 42/42; movement I v391 35/35; scherzo v382 changes (trio tune, second idea) are not quoted here.
+
+## Cycle 342 (v342 → v343), lens 2, A&S ch. 31 diminished sevenths
+- 20.3: in F1's consequent the thin iv chord (F–A♭, no C) before c322's F♯–A–C–E♭ becomes F–A♭–B (rising diminished seventh, 4/3), so F→F♯, A♭→A and B→C all rise a semitone into beat 4: the paired rising diminished sevenths on F then F♯ (A&S PDF 561–562, Ex. 31-14, 31-15). Only the violas change (D4–B♭3–B3–C4); tune, bass and the recapitulation's 160 unchanged.
+- Not applied: a common-tone diminished seventh into V7 (24–25 clashes with the tune's E♭; 39–42 with the F1 tail; other places protected); a common-tone augmented sixth over the final tonic (only 273 fits, protected).
+- Checked, no change: diminished-seventh spelling at 135–138 and 20 (A&S PDF 558–560).
