@@ -2142,3 +2142,10 @@ lens 10, cyclic; Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290).
 - Accepted: nothing (v331 = v330 relabelled).
 - Recorded (no change): woodwind-choir opening keeps theme A fresh after movement I's horn-over-harp A-flat (Ex. XVII-7/8); six motto-tail statements each scored differently, and at 32-34 B.cl. and C.a. are movement I's first two motto instruments together (added to coherence/mvt2.md); close placements at 32-34 and 47-50 settled (c263, c294, c324); timpani E-flat C A-flat at 84-85 joins into the scherzo's timpani figure (scherzo v321 checked); quotation colours; hand-over to the scherzo's Hn 1 G-sharp 4 with Hn 1 silent from 82 b3; B-flat 6 only at 79.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 331 (v331 → v332)
+lens 1, melody; A&S Unit 3 Rhythm and Meter (PDF 47-57). Report: reports/c331.md.
+- Accepted: nothing (v332 = v331 relabelled).
+- Recorded (no change): theme A's tied downbeats are struck in the bass (PDF 47-48, 51); theme B's main tones move once per half bar while pizzicato bass and viola triplets carry the extra speed (PDF 49; Dvorak Largo); 15-22 dialogue overlaps into one eight-bar phrase (Ex. 3-10, 3-11); theme A always enters from an upbeat (Ex. 3-9); metre recoverable from the bare melodies (Exercise 3); climaxes at 61 and 79 on strong bars (PDF 53, Ex. 3-13).
+- Do-not-touch: standing list; the 8-page layout.
