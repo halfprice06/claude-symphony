@@ -1778,3 +1778,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: themes; 131-134 layout
 - Cross-movement: none
+
+## Cycle 362 (Harmony and voice leading; Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (second pass)) → v363
+- Accepted: no change (applied chords review)
+- Open / not applied: none
+- Do-not-touch: 56-57, 148, 70, 167-170 applied chords
+- Cross-movement: none
