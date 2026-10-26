@@ -2480,3 +2480,6 @@ texture. Report: reports/c387.md.
 - Accepted: nothing (v388 = v387 relabelled).
 - Recorded (no change): c387 (Adler ch. 5, foreground, middleground, background): no change. Flute-cor anglais coupling at 41-44 (c090), Vln II over the quotation at 47-51 (c369), the three layers at 53-56, violin doubling at 71-78, accompaniment types, bass line, spacing and the coda thinning all follow.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+- v389 (c388, expression): MIDI only; timpani rolls rendered with rolls-midi.ily; fp attack at 47.
