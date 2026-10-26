@@ -183,6 +183,36 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 381 (lens 1 melody, Rimsky-Korsakov ch. II Melody: woodwind, brass, combined groups (rimsky-principles PDF 64-80) and the examples it cites (fifth pass)) v381 → v382
+c381 coda: Cl 1 sixths under Ob 1's T at 345–348
+
+## Cycle 380 (lens 10 cyclic, Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (fourth pass)) v380 → v381
+c380 cyclic check passed; no change
+
+## Cycle 379 (lens 9 holistic, Adler part 2 transcription examples in ch. 16 (adler2 PDF 202-244) (fourth pass)) v379 → v380
+c379 coda: Cl 1 rests at 349–356
+
+## Cycle 378 (lens 8 expression, Adler ch. 7 woodwind articulation and dynamics by register (adler1 PDF 184-232) (fourth pass)) v378 → v379
+c378 winds: shaping hairpins at 81–83 and 345–347
+
+## Cycle 377 (lens 7 texture, Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281) (fourth pass)) v377 → v378
+c377 coda: clarinets up an octave at 361–364
+
+## Cycle 376 (lens 6 playability, Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (fifth pass)) v376 → v377
+c376 strings: no change
+
+## Cycle 375 (lens 5 engraving, Gould ch. 1: beams (gould-behind-bars PDF 31-41) (fifth pass)) v375 → v376
+c375 beams: shared-staff beamed stems lengthened
+
+## Cycle 374 (lens 4 orchestration, Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (fifth pass)) v374 → v375
+c374 brass: horn 7ths at 207–208 split between colours
+
+## Cycle 373 (lens 3 form, Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (fifth pass)) v373 → v374
+c373 form/modulation: no change, three record corrections
+
+## Cycle 372 (lens 2 harmony, Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (fifth pass)) v372 → v373
+c372 harmony: bass under cadential 6/4 at 181–182, VII6 at 76, Cl 2 at 129
+
 ## Cycle 371 (lens 1 melody, Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (fifth pass)) v371 → v372
 Coda T at 349–356 for two solo violins over the section an octave lower.
 
