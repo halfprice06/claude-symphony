@@ -1934,3 +1934,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 56-68 cello arpeggio; 147-155 pad; 164-165
 - Cross-movement: none
+
+## Cycle 388 (Expression; MOLA guidelines on dynamics, articulation and bowing marks in parts (mola PDF 1-16) (second pass)) → v389
+- Accepted: Bsn 1 part swells at 103-105; accents on Vc/Bsn 1 C4-B3 at 142; Hn 4 cresc. from 129 mf at 130
+- Open / not applied: none
+- Do-not-touch: 32-33; 144; 65; 149, 151
+- Cross-movement: none
