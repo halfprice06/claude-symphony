@@ -1826,3 +1826,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 1-4, 117-130; 47-55; 162-166; 167-182
 - Cross-movement: none
+
+## Cycle 370 (Cyclic design and emotional arc across four movements; Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (second pass)) → v371
+- Accepted: no change; mvt1.md updated to v371
+- Open / not applied: none
+- Do-not-touch: 167-170 buried counter (protected, quoted)
+- Cross-movement: mvt1.md record
