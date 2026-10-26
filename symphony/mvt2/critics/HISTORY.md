@@ -2457,3 +2457,10 @@ harmony. Report: reports/c382.md.
 - Accepted: nothing (v383 = v382 relabelled).
 - Recorded (no change): c382 (A&S Unit 31, chromatic voice leading): no change. 64-65 bass reaches V from both semitones with the French sixth on E (keep spelling and the cellos' eighth); tenths at 39-40 and 55-56; F sharp minor and A minor as borrowed chords; major-third key cycle recorded in mvt2.md; no descending chromatic bass or chromatic sequences, correctly.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 383 (v383 → v384)
+form. Report: reports/c383.md.
+- Accepted: nothing (v384 = v383 relabelled).
+- Recorded (no change): c383 (A&S Unit 26, diatonic modulation and form, eighth pass): no change. D flat kept to the middle section; C to A flat link by common tone; short remote keys; exit 62-70 and return at 71; prepared passing keys; key arrivals on 1 or 3 at downbeats.
+- Do-not-touch: standing list; the 8-page layout.
