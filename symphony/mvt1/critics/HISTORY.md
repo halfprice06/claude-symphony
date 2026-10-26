@@ -1676,3 +1676,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 139-142 Fl 1 alone; 117-121 unison; 167-169
 - Cross-movement: none
+
+## Cycle 345 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68) (second pass)) → v346
+- Accepted: partCombineChords at 123 Hn/Tbn; double bar 14-15; barline spacing 68-69
+- Open / not applied: Fl 117-120 split notation
+- Do-not-touch: 147-162 layout
+- Cross-movement: none
