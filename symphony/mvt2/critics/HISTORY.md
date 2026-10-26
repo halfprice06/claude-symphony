@@ -2249,3 +2249,10 @@ lens 5, engraving; Adler ch. 18 (PDF 291-297). Report: reports/c345.md.
 - Accepted: timpani muta at 92 printed in the score (staff kept in the last system); player labels at 7 and 37.
 - Recorded (no change): tempo-word placement; hairpin at 89. Optional: "4 Timpani" in all movements together.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 346 (v346 → v347)
+lens 6, playability; Adler part 1 ch. 10 trumpet and trombone (PDF 312-329). Report: reports/c346.md.
+- Accepted (composer): low brass enter p< at 60 (was pp<).
+- Recorded (no change): Tbn 1 quotation 63-64; entry pitch; B.tbn D2; trumpet tacet pages; Tbn 2 breathing.
+- Do-not-touch: standing list; the 8-page layout; Tbn 1 held back for its single quotation.
