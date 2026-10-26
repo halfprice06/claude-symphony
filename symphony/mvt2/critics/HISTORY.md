@@ -2467,3 +2467,6 @@ form. Report: reports/c383.md.
 
 
 - v385 (c384, orchestration): violas mf at 28 under the cellos' counter-melody.
+
+
+- v386 (c385, engraving): Fl 1 beam slope and tuplet bracket at 78 restored.
