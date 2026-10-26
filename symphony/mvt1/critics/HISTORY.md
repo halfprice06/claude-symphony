@@ -1904,3 +1904,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: B-D-F-Ab plan; wedge bass into Fr6 at 116; G pedal 117-130; 73
 - Cross-movement: none
+
+## Cycle 383 (Form, pacing and proportion; Aldwell & Schachter Units 6-8 I, V, V7 and their inversions: phrase structure (aldwell-schachter PDF 92-133) (second pass)) → v384
+- Accepted: no change (phrase structure review)
+- Open / not applied: none
+- Do-not-touch: coda contrapuntal cadences; 177-178
+- Cross-movement: none
