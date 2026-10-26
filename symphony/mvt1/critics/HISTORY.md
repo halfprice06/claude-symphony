@@ -1604,3 +1604,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None.
 - Do-not-touch: Deceptive-cadence pairs 64–72, 158–166; ii7 sevenths into the cadential 6/4 at 141–142, 164–165, 173–174.
 - Cross-movement: none.
+
+## Cycle 333 (Form, pacing and proportion; Aldwell & Schachter Unit 32 Chromaticism in Larger Contexts (aldwell-schachter PDF 584-606) (second pass)) → v334
+- Accepted: No change (form vs A&S Unit 32, second pass: the development expands only V (pedal 117–130 = 28% of its time), the Waldstein/K. 421 plan, 111 is a passing iv (corrects c330's reading-notes row 11); 96→97 join tied by the falling top line and Hn 1 C4→B3; timings as c243, 430.8 s). Records: mvt1.md seed for Vln II 73–80 and Fl 1 F♭5 at 75.
+- Open / not applied: None. Rejected: a Ninth-size development plateau (would change protected section lengths).
+- Do-not-touch: Vln II 73–80; Fl 1 F♭5 at 75; wedge 111–116.
+- Cross-movement: none (record line only).
