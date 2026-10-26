@@ -2504,3 +2504,7 @@ melody. Report: reports/c391.md.
 - Accepted: nothing (v392 = v391 relabelled).
 - Recorded (no change): c391 (A&S Unit 20, melodic figuration): no change. Themes distinguished by figuration; theme A's second phrase as two lines; no parallels from figuration; cello counter-melody rhythm complements the tune; no turn at 72 (c319); chromatic spellings follow.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+- v393 (c392, harmony): B.cl. G2 at 10 b3 supplies the dominant's third.
+- Do-not-touch: Hn 4 C4 at 60 b1-2 (c364) with its doubled leading tone, kept knowingly (c392): reopen only with a voicing that breaks none of c046, the Hn 3·4 unison and c364.
