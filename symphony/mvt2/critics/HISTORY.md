@@ -2450,3 +2450,10 @@ melody. Report: reports/c381.md.
 - Accepted: nothing (v382 = v381 relabelled).
 - Recorded (no change): c381 (Adler ch. 4 harp, melodic and figurative): no change. Harp tune moment at 82-83, triplets at 53-56, silence in 84-92, close dyads at 7-14 and 75-78 and the bass doubling at 37-44 all recorded; theme A remains the memorable tune.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 382 (v382 → v383)
+harmony. Report: reports/c382.md.
+- Accepted: nothing (v383 = v382 relabelled).
+- Recorded (no change): c382 (A&S Unit 31, chromatic voice leading): no change. 64-65 bass reaches V from both semitones with the French sixth on E (keep spelling and the cellos' eighth); tenths at 39-40 and 55-56; F sharp minor and A minor as borrowed chords; major-third key cycle recorded in mvt2.md; no descending chromatic bass or chromatic sequences, correctly.
+- Do-not-touch: standing list; the 8-page layout.
