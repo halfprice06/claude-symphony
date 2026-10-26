@@ -1940,3 +1940,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 32-33; 144; 65; 149, 151
 - Cross-movement: none
+
+## Cycle 389 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Adler part 2 full-score examples in ch. 11 and 15 (adler2 PDF 18-54, 143-186) (second pass)) → v390
+- Accepted: no change (master comparison, Schumann 2/i)
+- Open / not applied: none
+- Do-not-touch: 1-4 motto; 167-170
+- Cross-movement: none
