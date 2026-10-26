@@ -181,6 +181,36 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 320 (lens 10 cyclic, Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (fourth pass)) v320 → v321
+No change. Cyclic check clean against I v335, II v310, finale v294. Record corrected: horn D♯4→E4 steps (Hn 3 at 338–339 plays F♯4→E4, not D♯4).
+
+## Cycle 319 (lens 9 holistic, Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305) (fourth pass)) v319 → v320
+No change. Kept: Hn 3·4 sevenths and ninth at 308–319 (Hn 4 F♯3 would make octaves with the tune), Hn 1·2 suspensions at 55/216, Cl 1 A4 at 87, strings-only 169–184, trio key. Open: T and the second idea not memorable (c289–c319).
+
+## Cycle 318 (lens 8 expression, Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (fourth pass)) v318 → v319
+Accepted: Vln I/II up-bow at 277 (reverses c265), slur splits at 284 (violins, violas); Vc one bow per bar 293–294; Cb slurs 217–220. Kept: violas 65–69, Vc/Cb at 200, violins at 193, accents on up-bows at 45/49 and 101–104, staccato in the tutti.
+
+## Cycle 317 (lens 7 texture, Adler ch. 15 polyphonic texture (adler2 PDF 172-186) (fourth pass)) v317 → v318
+Accepted: Hn 4 on the cello countermelody at 217–224 (bass clef). Kept: coda build 325–332 (Rimsky's crescendo order), strings-only fugato 57–68 (c007), no horn on the coda countermelody 349–356 (c314).
+
+## Cycle 316 (lens 6 playability, Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13) (fourth pass)) v316 → v317
+No change. Correction to c226: Ex. X-6 stacks horns I–IV from the top. Kept: Hn 1's last G♯ 368–376 at ppp; no soft low-brass chord (finale chorale); no stopped-horn echo at 241.
+
+## Cycle 315 (lens 5 engraving, MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (fourth pass)) v315 → v316
+Accepted: max-systems-per-page 10 for parts 26, 27, 28, 30. Kept at 12: cello and winds (page turns or page count would get worse). Kept: rehearsal letters, harp pedal settings, timpani f at 200, viola f at 41.
+
+## Cycle 314 (lens 4 orchestration, Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (fourth pass)) v314 → v315
+No change. Correction to c217: Hn 3·4 are free at 209–224, but no horn octave fits. Kept: coda T at 349–356 (c251), flutes held to 109/309 (c124), 45–56 spacing, T at pitch in four instruments at 197–200, builds at 101–104/301–304, fading chords at 339 and 361–376.
+
+## Cycle 313 (lens 3 form, Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (fourth pass)) v313 → v314
+No change. Kept: coda proportions, 133–152, 241–252, 89–98, development key plans, length 4:38.
+
+## Cycle 312 (lens 2 harmony, Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (fourth pass)) v312 → v313
+No change. Kept: tritone to fifth inside V7 at 102–103/302–303, D→D♯ at 275–276 (c083), seventh resolutions at 104–105/304–305, viola passing seventh at 212–213, no vii°7 of E in the trio.
+
+## Cycle 311 (lens 1 melody, Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (fourth pass)) v311 → v312
+No change. Kept: T in Cl 1 at 153, Cl 1 at 81–88, no flute below B4, Fl/Ob unison at 29–36, Cbsn doubling at 213–220, codetta relay 225–236. Open: T's first phrase still the least memorable idea (c289, c299, c301, c309, c311).
+
 ## Cycle 310 (lens 10 cyclic, Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (fourth pass)) v310 → v311
 No change. Cyclic check clean against I v327, II v300, finale v288. Do-not-touch (added): T's head G♯4–A4–B4–E5 at 153 and the motive-x links (II 84–85 → III 9; III 363–371 → IV 9, 143) are relied on by movement I; tell that thread before changing them.
 
