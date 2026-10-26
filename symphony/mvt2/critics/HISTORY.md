@@ -2071,3 +2071,10 @@ lens 10, cyclic; A&S Unit 28 the Neapolitan as a long-range device (PDF 482-502)
 - Accepted: nothing (v321 = v320 relabelled).
 - Recorded (no change): N6 links to movement I at 49 and 87 added to coherence/mvt2.md and sent to the finale thread (no score change); the flat-II region at 61-65 is A minor, keeping C natural as the quotation's held note; flat-2 at the climax 63 and natural 2 (Hn 1 B-flat 3) at 69-70; theme B in D-flat is the finale's flat-II area; motto-tail and quotation spellings correct (Ex. 28-24, 28-27); no flat-II colour in the coda (c310, c312); joins with I, III and IV hold.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 321 (v321 → v322)
+lens 1, melody; Adler ch. 11 melodic presentation (adler2 PDF 19-36). Report: reports/c321.md.
+- Accepted: outdated trumpet comments in bSec.ily corrected.
+- Recorded (no change): B♭ appoggiatura plan; Hn 3·4 unison 61-62; horns join counter-melodies in stages.
+- Do-not-touch: standing list; the 8-page layout.
