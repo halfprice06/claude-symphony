@@ -2284,3 +2284,10 @@ melody. Report: reports/c351.md.
 - Accepted: nothing (v352 = v351 relabelled).
 - Recorded (no change): c351 (A&S Unit 1, scales and modes): no violations. Theme B's 4 and 7 on strong beats are deliberate (tonic withheld to 61, protected); theme A, its peak and the 79 return follow the reading; minor forms, mixture and the C5 close confirmed.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 352 (v352 → v353)
+harmony. Report: reports/c352.md.
+- Accepted: nothing (v353 = v352 relabelled).
+- Recorded (no change): c352 (A&S Unit 7, I6 V6 VII6): no change. vii6 neighbour at 19-20 (viola leap allowed, PDF 113), VII6-V4/3-I at 74, V6/5-IV6 at 53-54, no V7-I6, six barline carry-overs deliberate; doubled leading tone on V7 at 24 and 72 recorded only.
+- Do-not-touch: standing list; the 8-page layout.
