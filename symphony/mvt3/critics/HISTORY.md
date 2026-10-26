@@ -1367,3 +1367,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 304 (v304 → v305), lens 4, Adler part 2 ch. 15
 - 89–90: Ob 1 now doubles Vln II's scale figure mf with a crescendo ("1."), after Adler part 2 ch. 15 on doubling a string line with a woodwind to give it colour.
 - 102.4: Ob 1 rests instead of an accented low C4; the low oboe register was weak and Cl 1 already has the note.
+
+## Cycle 305 (v305 → v306), lens 5, Gould PDF 53–68
+- 32, 65, 185, 214, 251: on shared staves a semibreve sat against the other player's stem and read like a minim (Gould PDF 66). Score-only NoteColumn.force-hshift now puts the semibreve on the far side (Fl 1·2 at 32, Cl 1·2 at 65 and 185, Hn 3·4 at 214 and 251). Parts unchanged; MIDI identical.
+- 219: tested c245's deferred spacing override; no change on the page, notes already sit just left of centre (Gould PDF 55). Closes c245's item.
+- 24, 38, 103, 112, 200, 202: meeting stems match Gould's own example on PDF 66; left alone.
