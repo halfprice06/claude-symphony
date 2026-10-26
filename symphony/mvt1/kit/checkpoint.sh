@@ -10,5 +10,5 @@ cp $M/CHECKPOINT.md $S/CHECKPOINT.md
 cd /home/user/claude_composes && git add -f symphony/mvt1/v$V/score.pdf && git add -A symphony && git commit -qm "Movement I series 3: v$V checkpoint
 
 Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01T3oeJpEiUnk8c5fb1YHzM8" && git push -q origin claude/project-thread-ytvxdy 2>&1 | tail -1
+Claude-Session: https://claude.ai/code/session_018HrEPSmMSqb3YkeMbTtpwH" && git push -q origin claude/project-thread-ytvxdy 2>&1 | tail -1
 git log --oneline -1

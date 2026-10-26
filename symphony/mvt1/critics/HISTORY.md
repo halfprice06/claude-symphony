@@ -2012,3 +2012,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: coda harmony 171-182; Vc B4 at 174
 - Cross-movement: themes-mvt1.ly and mvt1.md rhythm update only
+
+## Cycle 401 (Melody and memorability; Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (second pass)) → v402
+- Accepted: violins leave F-flat by skip to D-flat at 61 beat 4 (breaks outer-voice octaves F-flat→E-flat into 62)
+- Open / not applied: none
+- Do-not-touch: 61 Vln D-flat skip; 64-65 Cl1/Hn2 counterline; Hn3/Tpt3 D-flat spelling 114-116
+- Cross-movement: none
