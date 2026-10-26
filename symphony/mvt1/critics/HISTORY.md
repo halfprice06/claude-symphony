@@ -2030,3 +2030,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: retransition 117-130; 39-47 approach; Hn 3-4 at 40
 - Cross-movement: none
+
+## Cycle 404 (Orchestration; Rimsky-Korsakov ch. I Comparison of resonance and combination of tone qualities, and ch. III Harmony: number of parts, distribution, strings, woodwind (rimsky-principles PDF 51-53, 81-99) (second pass)) → v405
+- Accepted: Hn 1 takes A-flat4 on 25.2-4 and 137.2-4 (fills bare fourth C/F under the tune before stop chords)
+- Open / not applied: none
+- Do-not-touch: 12 oboe tritone; 122 tenor; 97-102 Hn1+Tbn1 counter; 25/137 Hn 1 A-flat
+- Cross-movement: none
