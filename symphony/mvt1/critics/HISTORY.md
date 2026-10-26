@@ -1868,3 +1868,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: range-edge notes protected by c146, c185, c256, c286, c306
 - Cross-movement: none
+
+## Cycle 377 (Texture and counterpoint; Sebesky ch. 1 Basics: balance, economy, focus, variety (sebesky PDF 11-20) (second pass)) → v378
+- Accepted: no change (economy and balance review)
+- Open / not applied: none
+- Do-not-touch: 56-67 interlock; 67-68 unison
+- Cross-movement: none
