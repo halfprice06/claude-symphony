@@ -2042,3 +2042,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Hn 3-4 clef plan 135-158; stems; Hn 4 part clefs
 - Cross-movement: none
+
+## Cycle 406 (Playability, instrument by instrument; Adler ch. 2 Bowed String Instruments: divisi, bowing, harmonics (adler1 PDF 24-70) (second pass)) → v407
+- Accepted: Vla double up-bow at 11 so the f at 12 is down-bow; Vln II 'non div.' at 122
+- Open / not applied: none
+- Do-not-touch: Cb bowing 5-12; open-string pads; 122-123 Vln II double stops
+- Cross-movement: none
