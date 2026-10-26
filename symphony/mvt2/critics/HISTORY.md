@@ -2213,3 +2213,10 @@ lens 10, cyclic; release check. Report: reports/c340.md.
 - Not taken: percussion tacet page (31-page parts book).
 - Open (carried): timpani rolls in score.midi; Bsn 1 MIDI level 75-78; optional cellos A♭3 at 28, sul D 23-30/71-78, viola A♭4 at 71 b2; viola part text at 53.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 341 (v341 → v342)
+lens 1, melody; A&S Unit 2 (PDF 33-46). Report: reports/c341.md.
+- Accepted: Vln I G5 at 77 b1 (A♭5 seventh resolves by step), then E♭6 on b2.
+- Recorded (no change): interval vocabulary; escape notes 43, 59; outer voices; fourths; minor passages; upbeat; bar 55.
+- Do-not-touch: standing list; the 8-page layout; Vln I register plan 74-78 as now settled after c299, c309, c341 (unison 74 b3-77 b1, upper octave from 77 b2, B♭6 first at 79): reopen only with a new book reason.
