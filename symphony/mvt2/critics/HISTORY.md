@@ -2022,3 +2022,10 @@ lens 3, form; A&S Units 6-8 I, V, V7 and phrase structure (PDF 92-133). Report: 
 - Accepted: nothing (v314 = v313 relabelled).
 - Recorded (no change): dominant span 65-70 is 6 percent of the movement (Dvorak 9/ii returns with none; protected); middle section stays open with no full D-flat cadence; reprise shortened by a stepwise-bass close at 74-75 (Schubert Impromptu example in A-flat), 0.52 of the first A; inner phrases on I6 at 15, 41, 57 after arrivals; cello passing sevenths at 22 and 26; rhythm against metre at 48-49, 63-64, 79-81; half-cadence bass at 44 sounds only on b1 but the harp A-flat rings (held Bsn 2 A-flat 2 untested, not recommended).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 314 (v314 → v315)
+lens 4, orchestration; Adler ch. 11 Scoring for Brass (adler2 PDF 14-18, 37-54). Report: reports/c314.md.
+- Accepted: nothing (v315 = v314 relabelled).
+- Recorded (no change): brass held back until 60 with trumpets tacet (Schubert example); single horns at 61-62 kept for c264's spacing; climax 61-64 reverses Tchaikovsky's order with the same result, no Tbn 2 doubling of the quotation; no trombones at 79 (Franck); low brass spacing at 61-62; dark muted horn chords at 3-6, 29-30, 87-90; brass as independent voices at 53-64.
+- Do-not-touch: standing list; the 8-page layout.
