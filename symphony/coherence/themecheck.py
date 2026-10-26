@@ -19,7 +19,7 @@ part (one no other %@ line of that theme and part names) is reported MOVED; a ch
 """
 import sys, re, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import lyparse
+sys.path.insert(0, "/home/user/claude_composes/symphony/coherence"); import lyparse
 
 # quarter beats per bar (3 for the scherzo; pass --beats 4 for a 2/2 or 4/4 movement)
 BEATS = int(sys.argv[sys.argv.index('--beats') + 1]) if '--beats' in sys.argv else 3
@@ -41,18 +41,18 @@ def lock_themes(lock):
             pos += l
         themes[name] = [(s, p, l) for s, p, l, _ in merged if p is not None]
     occ = []
-    for m in re.finditer(r'^%@\s+(\w+)\s+(\w+)\s+(\d+)(?:\s+(\d+))?(?:\s+(\d+))?', raw, re.M):
+    for m in re.finditer(r'^%@\s+(\w+)\s+(\w+)\s+(\d+)(?:\s+(\d+))?(?:\s+(\d+))?(?:\s+(abs))?', raw, re.M):
         occ.append((m.group(1), m.group(2), int(m.group(3)), int(m.group(4)) if m.group(4) else None,
-                    int(m.group(5)) if m.group(5) else 1))
+                    int(m.group(5)) if m.group(5) else 1, bool(m.group(6))))
     return themes, occ
 
-def shape(notes):
-    """notes: list of (abs_onset, pitch, length) -> comparable tuple"""
+def shape(notes, absolute=False):
+    """notes: list of (abs_onset, pitch, length) -> comparable tuple; absolute=True also compares the pitches themselves"""
     iv = tuple((b[1] - a[1]) % 12 for a, b in zip(notes, notes[1:]))
     ln = tuple(n[2] for n in notes[:-1])
     ioi = tuple(b[0] - a[0] for a, b in zip(notes, notes[1:]))
     beat = notes[0][0] % BEATS
-    return iv, ln, ioi, beat
+    return (iv, ln, ioi, beat, tuple(n[1] for n in notes)) if absolute else (iv, ln, ioi, beat)
 
 def part_notes(vdir, suffix):
     out = []
@@ -93,7 +93,7 @@ def main():
                     print(f"{t:12} {suf:10} full: {full}  first-6 only: {pre}")
         return 0
     bad = 0
-    for t, suf, bar, n, first in occ:
+    for t, suf, bar, n, first, ab in occ:
         notes = themes[t][first - 1:]
         n = n or len(notes)
         part = part_notes(vdir, suf)
@@ -102,11 +102,19 @@ def main():
         if here:
             i = here[0]
             seg = [(o, p, l) for o, p, l, _ in part[i:i + n]]
-            ok = len(seg) == n and part[i][3] == bar and shape(seg) == shape(notes[:n])
+            ok = len(seg) == n and part[i][3] == bar and shape(seg, ab) == shape(notes[:n], ab)
         if ok:
-            print(f"ok    {t} {suf} {bar} ({n} notes from note {first})")
+            print(f"ok    {t} {suf} {bar} ({n} notes from note {first}{', at pitch' if ab else ''})")
             continue
         claimed = {o[2] for o in occ if o[0] == t and o[1] == suf}
+        if ab:
+            moved = []
+            bad += 1
+            got = part[here[0]:here[0] + n] if here else []
+            print(f"CHANGED {t} {suf} {bar} ({n} notes from note {first}, at pitch): theme changed, moved or transposed")
+            print(f"      record:  {describe([(s, p, l) for s, p, l in notes[:n]])}")
+            print(f"      version: {describe(got)}")
+            continue
         moved = [b for b in matches(part, notes, n) if b not in claimed]
         if moved:
             print(f"MOVED {t} {suf}: expected at {bar}, found intact at {moved}; update the %@ line in the record")

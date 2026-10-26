@@ -78,3 +78,10 @@ choraleLast = { g'1~ | g'1 | e''1~ | e''1 | d''1~ | d''1 | c''1 | b'1 | c''1~ | 
 %@ sHeadBrass Vla 247
 %@ choraleLast TptOne 255
 %@ choraleLast VlnOne 255
+
+% scherzoLastPitch: the scherzo's last pitch, Vln I G♯5 (scherzo 369), as A♭5 falling to G5 at finale 1–2 (top of Vln I's double stop), at pitch.
+scherzoLastPitchAs = { aes''1 g''4 r4 }
+%@ scherzoLastPitchAs VlnOne 1 2 abs
+% and as G♯5 falling to G5 on top of Vln I's divisi at 243 (since finale v311).
+scherzoLastPitchGis = { gis''2 g''2 }
+%@ scherzoLastPitchGis VlnOne 243 2 abs
