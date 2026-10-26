@@ -1944,3 +1944,10 @@ lens 2, harmony; A&S Units 24-25 (PDF 398-441). Report: reports/c302.md.
 - Accepted: cellos B♭3–A♭3 quarters at 74 (closes c301's open point).
 - Recorded (no change): F♭ doubled at 59 b4; 58-59 leading tone; 52-53; key plan; coda V7/IV rejected.
 - Do-not-touch: standing list; the 8-page layout; seventh-chord chains at 8/24/72 and 42/58; pivots 47-51, 64-65.
+
+
+## Cycle 303 (v303 → v304)
+lens 3, form; Adler ch. 15 end and ch. 17 The Orchestra as Accompanist (adler2 PDF 187-196, 256-290). Report: reports/c303.md.
+- Accepted: nothing (v304 = v303 relabelled).
+- Recorded (no change): solo then tutti answer 7-30, 37-60, 67-71 (PDF 257); cut-backs after each tutti at 65-70 and 83 (PDF 267); accompaniment set up before solos at 6, 67, 83, flute and accompaniment together at 37 kept per c233; sf-p at 63 is the sforzando device (PDF 189-190); colour changes overlap at seven joins (PDF 192); exposed solos enter on sounding pitches (PDF 275); top register held for 79 (PDF 279); timpani link the coda at 84 (PDF 273). Timings 36/34/30 percent, peaks at 65 and 84 percent; Tchaikovsky Canzonetta has the same plan.
+- Do-not-touch: standing list; the 8-page layout.
