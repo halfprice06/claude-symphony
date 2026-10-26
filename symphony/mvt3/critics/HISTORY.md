@@ -1363,3 +1363,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 303 (v303 → v304), lens 3, Rimsky-Korsakov ch. IV
 - 234: the plagal close's last chord no longer stops all groups together; brass and timpani end on a p quarter, woodwinds on an mp half, strings keep their dotted half into 235 (Rimsky PDF 116, 127, 130), as the score's other fades. Accepted; every pitch kept.
 - 243–246, 159, 247, 235, 89: protected, kept. Proportions kept. Agreed.
+
+## Cycle 304 (v304 → v305), lens 4, Adler part 2 ch. 15
+- 89–90: Ob 1 now doubles Vln II's scale figure mf with a crescendo ("1."), after Adler part 2 ch. 15 on doubling a string line with a woodwind to give it colour.
+- 102.4: Ob 1 rests instead of an accented low C4; the low oboe register was weak and Cl 1 already has the note.
