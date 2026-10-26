@@ -2006,3 +2006,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 123 A-flat6-G6 downbeat; 124 octave drop
 - Cross-movement: none
+
+## Cycle 400 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (second pass)) → v401
+- Accepted: coda cor anglais holds D-flat5 two beats at 173 (N6), C5 on the 6/4 at 174; records updated
+- Open / not applied: none
+- Do-not-touch: coda harmony 171-182; Vc B4 at 174
+- Cross-movement: themes-mvt1.ly and mvt1.md rhythm update only
