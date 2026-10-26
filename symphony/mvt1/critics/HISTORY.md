@@ -1760,3 +1760,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 171-173 C.a.; 177 Vln I
 - Cross-movement: none
+
+## Cycle 359 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 201-260 (rimsky-principles PDF 376-440) (second pass)) → v360
+- Accepted: cor anglais staff names 'in F' / 'C.a. (F)'
+- Open / not applied: none
+- Do-not-touch: 33-36, 123-126 string breaks; 12 tbn mf; 79 Hn mf
+- Cross-movement: none
