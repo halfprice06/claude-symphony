@@ -1345,3 +1345,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 37–38: Hn 1·2 rest until 38.3 so c297's horn statement of F1's head is not masked by held horns in its own octave, then G♭4–F4 mf under the 4–3 (Casanelles PDF 272, 277–278). Accepted; the one regression since v289.
 - 38.1–2: Tbn 2 C3 (was A♭2) to avoid a minor third over the F2 bass (Casanelles PDF 274; Rimsky PDF 85). Accepted.
 - 171–186, bow position, 115–122: kept. Agreed.
+
+## Cycle 300 (v300 → v301), lens 10, cyclic review
+- 119–123: the Vln I solo desks' answers had no dynamic of their own, so the MIDI played them at velocity 90 against the printed pp; now in their own voice with a hidden pp (Rimsky PDF 128; Casanelles PDF 272). Accepted; printed page unchanged. The v300 r07 render still has the loud desks.
+- finale.md: eight stale sentences contradicted by running-list items 26–33 corrected. Applied.
+- Quotations against I v340, II, scherzo (trio change not quoted): 39/39, clean. Brahms-3 cross relation and 94→95 overlap: declined. Agreed.
