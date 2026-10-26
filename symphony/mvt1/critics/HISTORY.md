@@ -1874,3 +1874,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 56-67 interlock; 67-68 unison
 - Cross-movement: none
+
+## Cycle 378 (Expression; Sebesky ch. 1 focus and variety, ch. 6 melodic considerations (sebesky PDF 11-20, 204-218) (second pass)) → v379
+- Accepted: violins swell into B-flat5 at 65-66; 'dolce' and small swells on the cor anglais fills 147-152
+- Open / not applied: none
+- Do-not-touch: 82, 117-120 detached head; 91-96; 60 mf
+- Cross-movement: none
