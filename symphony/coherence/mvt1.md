@@ -1,6 +1,6 @@
 # Movement I (Allegro, C minor): current state for the other movement threads
 
-Owner: the movement I thread ("Movement I, loops from v300" since 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v351 (cycle 350, cyclic check). Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
+Owner: the movement I thread ("Movement I, loops from v300" since 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v361 (cycle 360, cyclic check). Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them.
 
@@ -200,6 +200,7 @@ These are reserved for the finale. The other movements should not use them. Thei
 
 - v322–v331: Vln I·II sul D at 55.4–57.1; Tpt 3 D♭4 from 140.3 into 141 and Tbn 2 rest at 124; violas div. at 166 (thread pitches unchanged); violas enter on 144.2-and; held motto C3 fades at 4 and 179; suspended-cymbal stroke shaded 162–163; text placement at 55; v332: cor anglais doubles Cl 2 on the P head at 69–72. v333–v340: bassoons in octaves at 158–161; Vln I 8va removed at 31 and 71–72 (notation only, same pitches); harp damping at 61, 63; Cl 1 up an octave at 156–157; bowing marks at 45, 54, 143–144, 166. Nothing another movement quotes changed (MIDI diff v321→v330: three note events, none in a quoted bar).
 - v342–v351: Cb "sul A" on the motto at 2–3 and 176–178 (notation); Bsn 1 doubles the violas' P head at 82; engraving at 14/15, 68/69, 123; Bsn 1·2 breathe after 159 and 163; Hn 3 rests on 104.1 and 105.3 and enters B3 on 145.3 under Bsn 1; swells on the S head 103–108. Nothing another movement quotes changed: theme record 35/35 against v350; 27–32, the stop chords 26/138/170, the coda notes 167–182, the five tied parts, the timpani pulse and the last chord are unchanged.
+- v352–v361: timpani roll p< at 80 and held Hn 1·2/trumpets f (no crescendo) at 139–141 (c354); 'a2' on beat 1 of 158, Hn 4 rest hidden at 146, Vln I cue at 175–176 (c355); Hn 3·4 breathe after 22 and 39 (c356); Cl 1·2 pad from beat 2 of 35, Bsn 2 B♭2 at 41–43 (was E♭3), Hn 4 enters on beat 2 of 69 (c357); Vc/Cb pp under the p tune at 56–61, pickup slurred at 155.4 (c358); 'Cor anglais in F' / 'C.a. (F)' (c359). Nothing another movement quotes changed: theme record 35/35 against v360; 27–32, the stop chords 26/138/170, the coda notes 167–182, the five tied parts, the timpani pulse and the last chord are unchanged.
 
 ## Seeds of later movements (found by critic 230; keep them when revising)
 
@@ -216,7 +217,7 @@ These are reserved for the finale. The other movements should not use them. Thei
 - Bars 77–83: the bass moves A♭–E–C, the symphony's key cycle in small.
 - Keep Tpt 1 B4 and Tpt 2 F4 in the stop chords at 26 and 138: the finale (v241) uses the same trumpet layout at its 138.
 - Movement I's bar 138 stop chord, for the record: bass D; Vln II D5/A♭5; violas F4/B4; Tpt 1 B4; Tpt 2 F4; Hn 1 A♭4 (corrected at v251: earlier versions of this note said Tpt 1 A♭4).
-- Bars 37–44: the B♭1 pedal (39–40) reaches E♭ at 41, a passing key that turns into V of A♭ at 44. The finale's transition holds the same B♭1 and makes E♭ minor its real key at its 51.
+- Bars 37–44: the B♭1 pedal (39–40) reaches E♭ at 41, a passing key that turns into V of A♭ at 44. The finale's transition holds the same B♭1 and makes E♭ minor its real key at its 51; since v358 Bsn 2 holds the pedal's B♭ (B♭2) through 41–43 over the E♭ bass, so the B♭ carries on as a common tone into the E♭ chord, as in the finale's transition.
 - Bar 75: A♭7 spelled with G♭ (V7 of D♭) moves to D♭ minor 6/4 at 76, ahead of the finale's A♭7 → D♭ at its 209–211. Bar 12 spells the same sound as the German sixth, as the finale's 219 does. Keep both spellings (cycle 300).
 - Bars 46–52: Hn 1 with the cellos over harp in A♭ (the S head) is the colour of movement II's theme A (Hn 1 over harp, II 7–14); movement II keeps its solo fresh by dropping the cellos and putting its wind chord at 3–6 first (cycle 310).
 - Bar 13: the horn call's E♭3–C4 in Hn 1 is the span movement II's theme A fills at the same pitch and in the same player (E♭3 F3 A♭3 C4); the scherzo's trio tune fills it in E (cycle 310).
