@@ -2339,3 +2339,6 @@ cyclic design. Report: reports/c360.md.
 - Accepted: nothing (v361 = v360 relabelled).
 - Recorded (no change): c360 (A&S Unit 30, other chromatic chords): no score change. Half-diminished at 86 keeps C natural; 46-48 and 61-65 remote chords correctly prepared; focal mixture chords stay plain triads; bar 33 common-tone dim. 7th holds; joins with I v351, scherzo v345 and finale v311 hold. mvt2.md: III-sharp joins recorded, stale version headings updated.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+- v362 (c361, melody): harp chord at 14 moved above the horn's A flat3 (A flat4-E flat5).
