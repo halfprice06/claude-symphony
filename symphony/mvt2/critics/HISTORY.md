@@ -1965,3 +1965,10 @@ lens 5, engraving; Gould PDF 7-13, 17-68. Report: reports/c305.md.
 - Accepted: Vln II sul A line ends at 62; Hn 3 and viola repeat ties at 1; Hn 3 rest position at 29.
 - Recorded (no change): one-flat seconds at 58, 81; sul D line 1-4 (c245).
 - Do-not-touch: standing list; the 8-page layout; stem, beam and rest settings from c185-c275.
+
+
+## Cycle 306 (v306 → v307)
+lens 6, playability; Adler App. A ranges (adler2 PDF 302-312). Report: reports/c306.md.
+- Accepted: nothing (v307 = v306 relabelled).
+- Recorded (no change): all notes inside Adler's professional limits (score.midi scan); Cbn B-flat 0 at 80 (c184); B.cl. low C at 8 with ossia (c156); timpani drum order and retunings at 5 and 92; string bottom notes; Cl 2 E-flat 3 ppp at 3-6; top notes B-flat 6 at 79 and Fl A-flat 6 at 61-63; mixed English and Italian terms optional (c066, c156, c295).
+- Do-not-touch: standing list; the 8-page layout.
