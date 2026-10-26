@@ -82,7 +82,7 @@ Sections and metre (sections.txt):
 
 Key signatures are set in global.ily. Harmonic labels come from the section files' notes.
 
-Augmented sixths across the symphony (c350, A&S PDF 523): II's stand on F♭ = E (21, 64), the scherzo's tonic, as movement I's stands on A♭ (I 12, II's tonic) and the scherzo's on C (III 331, the finale's tonic). Keep them on F♭; no third one is added. Record only.
+Augmented sixths across the symphony (c350, A&S PDF 523): II's stand on F♭ = E (21, 64), the scherzo's tonic, as movement I's stands on A♭ (I 12, II's tonic) and the scherzo's on C (III 331, the finale's tonic). Keep them on F♭; no third one is added. Record only. Both joins are the III♯ relation of Chopin's pair in A&S Ex. 30-1 (PDF 530-531, 534): C is III♯ of A♭ at bar 1, and A♭ = G♯ is III♯ of E into the scherzo (c360).
 
 | Bars | Mark | Section | Key and harmony |
 |---|---|---|---|
@@ -198,14 +198,14 @@ The timpani rest in 31–36 and in the B section until 52. Only A♭2, C3, D♭3
 - **F♭ to E♭.** Every F♭ resolves to E♭ in its own voice except the viola's F♭4 at 78, which resolves through the bass (F♭2–E♭2).
 - **Not used in movement II:** C major as a key after bar 1, the trumpets' B→C, the horn call, the timpani pulse, a tuba melody, a high four-horn unison (Hn 3·4 in unison reach C♭5 at 62, which is allowed), a full low-brass unison bass, any cymbal.
 
-## What the scherzo relies on (from coherence/scherzo.md; checked against scherzo v191 at cycle 190 and v201 at cycle 200; join with scherzo v211 confirmed by the scherzo thread 2026-10-19 (its cycle 210))
+## What the scherzo relies on (from coherence/scherzo.md; last checked against scherzo v345 at cycle 360, and by the scherzo thread at its c340)
 
 - **The last A♭, taken as G♯4 by the scherzo's Horn 1.** v181: Vln II holds A♭4 at 89–92, pp to ppp, under a fermata, with Vln I C5 above. Confirmed.
 - **Timpani E, G, B, E.** v181: the part-only muta at 92 retunes A♭→E, C→G, D♭→B, E♭→E, which gives E2 G2 B2 E3. Confirmed. Since v346 the text prints in the full score as well as the timpani part.
 - **Horns 3·4 muted at the end.** v181: Horns 3·4 play con sord. at 87–90, rest at 91–92, and have "via sord." at 91. So they stop playing muted, and are told to remove mutes before the movement ends. The scherzo's "senza sord." at its bar 73 is still correct and does no harm. scherzo.md's "Open requests" line already gives "via sord." at 91, which matches v181.
 - The last chord (A♭1 A♭2 E♭3 A♭3 E♭4 A♭4 C5; violas' A♭3 since v224) contains A♭ = G♯ (3̂ of E) and E♭ = D♯ (7̂ of E) as common tones with E major.
 
-## What the finale relies on (finale v33 message 2026-10-13 00:42 UTC; checked against finale v35 at cycle 190 and v43 at cycle 200)
+## What the finale relies on (finale v33 message 2026-10-13 00:42 UTC; last checked against finale v311 at cycle 360)
 
 - The finale quotes theme B's second phrase (cor anglais, II 41–44) at its bars 211–218 (coherence/finale.md).
 
