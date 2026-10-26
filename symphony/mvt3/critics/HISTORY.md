@@ -1503,3 +1503,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 17: ♯IV7 (F♯–A♭–C–E♭, the diminished-third chord) replaces the root-position ii°7 before the antecedent's half cadence: the bass rises F–F♯–G while the tune's A♭5 falls to G (A&S PDF 528–530, Ex. 29-31a). Cellos, basses and Bn 2 F♯; Cl 1·2 and Hn 4 adjusted. F1 unchanged; the recapitulation's 157 keeps the old chord.
 - Not applied: a French sixth at 23 (a third chromatic approach to G in ten bars), a French sixth at 47–48 (would stop the A♭3 seventh falling to G♭ at 51).
 - Checked: spelling of all augmented sixths and Neapolitans (1, 5, 16, 109, 121, 163, 168, 219, 261).
+
+## Cycle 333 (v333 → v334), lens 3, Adler part 2 ch. 15 and 17
+- 251–254: in the second phrase of the combination of movement I's two theme heads, the trumpets rest (to enter fresh on the chorale at 255), which left the second-theme head only in the middle. Fl 1·2 a2 now play its second phrase two octaves above Hn 1·2 and the violas (Adler part 2 PDF 288, Haydn's device; also 257, 261, 279). Vln I·II, Bn 1, Vc and Tbn 1·2 keep the first-theme head; the flutes still rest 255–256. No theme pitch changes.
+- Checked, no change: the coda stages, the sub. p at 217–219, the timpani G–G–G at 18/34/158 (kept apart from motive x), dialogue and registral distance.
