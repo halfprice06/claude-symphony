@@ -2365,3 +2365,10 @@ form. Report: reports/c363.md.
 
 
 - v367 (c366, playability): redundant "sul C" removed from the violas at 87; theme record gains lastEflat and "abs" checks.
+
+
+## Cycle 367 (v367 → v368)
+texture. Report: reports/c367.md.
+- Accepted: nothing (v368 = v367 relabelled).
+- Recorded (no change): c367 (Rimsky-Korsakov ch. III, three groups combined): no change. Bar 60 moving brass lines (protected), no held strings under the harp at 53-56 (would cover the counter-line), horns inside string chords at 3 and 29-30, and the horn chords at 61-62, 79-81, 87-90 and 67-70 all recorded.
+- Do-not-touch: standing list; the 8-page layout.
