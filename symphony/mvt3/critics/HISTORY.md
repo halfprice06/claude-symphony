@@ -1275,3 +1275,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 284 (v284 → v285), lens 4, Rimsky-Korsakov ch. III
 - 243–246: Cl 1 moves up an octave out of the horns' C4–C5 octave and its throat register, above the horn call (Rimsky PDF 108, 110–111; Adler1 PDF 210). Accepted; the horn call quotation is unchanged.
 - 11–26, 42, 169, 219–222, 231–234, 171–186, 110: no change. Agreed.
+
+## Cycle 285 (v285 → v286), lens 5, Gould ch. 1 beams
+- Concave groups and groups starting and ending on one note are horizontal via a `gould-concave-damping` callback in score.ly at Staff level (Gould PDF 36, 38); c105's manual overrides still win. Accepted for the score; parts-book.ly does not include it yet (parts are not rebuilt in this series).
+- Groups above the first ledger line get Gould's slope at 90, 101, 104, 125, 206, 250, 253, 265, 267 (Gould PDF 35–36). Accepted.
+- Cl 1·2 159–164 no longer forced flat against Vln II's sloping beams (revert moved to 159). Accepted.
+- Repeated two-pitch figures 171–186, 277: kept. Agreed.
