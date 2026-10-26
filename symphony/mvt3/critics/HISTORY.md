@@ -1382,3 +1382,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 3–4: the cellos join the opening scale figure an octave below the violas, f, so the answer to the ff chord at 1–2 has a bass below G3 (Adler PDF 137, 139–141). Bars 1–2 and 5–6 unchanged; the basses still enter at 9.
 - 115–122: the pizzicato accompaniment under the bassoon solo repeats the 51–66 formula; an imitative inner-string figure (Adler PDF 160) is proposed in the report but not applied, since 115–130 is protected.
 - 9–10: with the cellos at 3–4 the octaves now build up step by step to the tutti; no change.
+
+## Cycle 308 (v308 → v309), lens 8, Rimsky-Korsakov ch. IV
+- 135–137: the crescendo into the stop chord is staged: strings alone at pp from 135, Cl and Bn join p < at 136, Hn 3·4 at 137 (Rimsky-Korsakov PDF 130). No pitch changes; the pp < into sf curve and the stopped horns at 138 are kept.
+- 138: Vln I A♭4–F5 and Vln II F4–D5 as double stops, "non div.", for a fuller string sf over the soft wind chord (Rimsky-Korsakov PDF 129). Top lines, bass B and the 222→223 resolution unchanged.
+- Brass re-entries after long rests (PDF 136) and strings' sf at the end of a wind crescendo (PDF 129): checked, no change.
