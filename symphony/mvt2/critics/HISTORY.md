@@ -2356,3 +2356,6 @@ form. Report: reports/c363.md.
 - Accepted: nothing (v364 = v363 relabelled).
 - Recorded (no change): c363 (Adler ch. 17 pacing, compared with Tchaikovsky's Canzonetta and Dvorak's Cello Concerto ii): no change. Introduction and coda proportions, cut-backs after each tutti, entry preparation, the 53-64 build, dialogue colours and the coda pacing all follow.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+- v365 (c364, orchestration): Hn 4 C4 at 60 b1-2 supplies the dominant's third in the middle register.
