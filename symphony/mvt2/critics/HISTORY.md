@@ -2277,3 +2277,10 @@ cyclic design. Report: reports/c350.md.
 - Accepted: nothing (v351 = v350 relabelled).
 - Recorded (no change): c350 (A&S Unit 29, fourth pass): no score change. Augmented sixths on each movement's flat 6 lead to the next tonic (recorded in mvt2.md); 62-65 Einsamkeit pattern and the 21 French sixth confirmed; joins with I v351, scherzo v331 and the finale hold. mvt2.md corrected: timpani muta prints in the score, bar 64 b4 chord described exactly.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 351 (v351 → v352)
+melody. Report: reports/c351.md.
+- Accepted: nothing (v352 = v351 relabelled).
+- Recorded (no change): c351 (A&S Unit 1, scales and modes): no violations. Theme B's 4 and 7 on strong beats are deliberate (tonic withheld to 61, protected); theme A, its peak and the 79 return follow the reading; minor forms, mixture and the C5 close confirmed.
+- Do-not-touch: standing list; the 8-page layout.
