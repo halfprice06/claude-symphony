@@ -1581,3 +1581,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 243–246: the poco a poco stringendo began at 243, where one chord and a held 6/4 give no audible beat and the horn call enters off the beat, so it only hurried the call (A&S PDF 49). "stringendo" now prints at 245; 243–244 stay 2 = 66, the MIDI pushes 68–73–78–83, then 88 at R as before. c193's tempo plan kept.
 - 227–229: the canon's tied 7–6 (228) and 9–8 (229) suspensions swell from the weak-half entry into the barline and recede to the resolution (A&S PDF 51, 55, Ex. 3-16, 3-7). Fl, Ob, Cl 1·2, Vln I·II; second players' whole notes at 228 become tied halves; partCombine fixed for the flutes' a2 at 231. Notes, ff level and brass chorale unchanged.
 - Not applied: accents at 36.4/38.3, sf at 111, a slower Largamente at 211–218, tenutos on the horn call, a "ten." group.
+
+## Cycle 349 (v349 → v350), lens 9, holistic, Bruckner 4/iv; Rimsky-Korsakov examples 261–312
+- 175–178: the cor anglais and muted trumpet doubled the recapitulated F2 in unison for all 16 bars (171–186); Rimsky-Korsakov doubles a solo line only in single phrases (PDF 140–141, Ex. 284, 289). The muted trumpet now rests 175–178, so that phrase is the cor anglais alone; it returns at 179 ("1."). The duet at 171–174 (linked to movement I 171–174) is unchanged.
+- Not applied (protected): Cl 1's pp E♭4 at 51–66, Ob 1·2 unison at 219–222, an obbligato beside the bassoon solo at 115–122.
+- Bruckner 4/iv comparison: his coda is one long crescendo, this coda has several peaks; its plan is protected, observation only. v339 comparison (built in scratch): nothing got worse in c339–c348.
