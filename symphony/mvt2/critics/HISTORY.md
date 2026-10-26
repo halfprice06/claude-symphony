@@ -2423,3 +2423,6 @@ orchestration. Report: reports/c374.md.
 
 
 - v377 (c376, playability): bowing fixes, Vln II slur at 52 and basses' slur at 28.
+
+
+- v378 (c377, texture): bassoons resolve G-A flat and D flat-C into the return at 71.
