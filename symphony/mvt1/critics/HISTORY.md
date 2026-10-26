@@ -1766,3 +1766,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 33-36, 123-126 string breaks; 12 tbn mf; 79 Hn mf
 - Cross-movement: none
+
+## Cycle 360 (Cyclic design and emotional arc across four movements; Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (second pass)) → v361
+- Accepted: no change; mvt1.md updated to v361
+- Open / not applied: none
+- Do-not-touch: 83-84, 61-62 drops
+- Cross-movement: mvt1.md record
