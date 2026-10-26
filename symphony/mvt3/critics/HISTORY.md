@@ -1576,3 +1576,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 347 (v347 → v348), lens 7, Rimsky-Korsakov ch. III combining timbres
 - 141–142: over the B bass the four horns hold the chord tones G3–D4–B4–D5 and the seventh F4 was only in the violas, enclosed by the horns. Bn 1 now takes F4 with the violas instead of doubling Hn 3's D4, returning to F3 at 143 (Rimsky-Korsakov PDF 108: horns the chord tones, bassoons the dissonance; PDF 113).
 - Not applied: soft woodwind thirds between trumpet octaves (219–221 already close; other places break the trumpet plan or protected bars); bassoon instead of Hn 4 on the seventh at 97–98 (c340 protects it); clarinets with the stopped horns at 168–169 (c108, c210); clarinets inside the horns at 39–41 (c319's tie).
+
+## Cycle 348 (v348 → v349), lens 8, A&S Unit 3 rhythm and meter
+- 243–246: the poco a poco stringendo began at 243, where one chord and a held 6/4 give no audible beat and the horn call enters off the beat, so it only hurried the call (A&S PDF 49). "stringendo" now prints at 245; 243–244 stay 2 = 66, the MIDI pushes 68–73–78–83, then 88 at R as before. c193's tempo plan kept.
+- 227–229: the canon's tied 7–6 (228) and 9–8 (229) suspensions swell from the weak-half entry into the barline and recede to the resolution (A&S PDF 51, 55, Ex. 3-16, 3-7). Fl, Ob, Cl 1·2, Vln I·II; second players' whole notes at 228 become tied halves; partCombine fixed for the flutes' a2 at 231. Notes, ff level and brass chorale unchanged.
+- Not applied: accents at 36.4/38.3, sf at 111, a slower Largamente at 211–218, tenutos on the horn call, a "ten." group.
