@@ -1856,3 +1856,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 122 low trumpets; 27-32; 26/138/170; climax order
 - Cross-movement: none
+
+## Cycle 375 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould introduction and contents (gould-behind-bars PDF 7-13), then a second pass over PDF 17-68 for any rule not yet checked (second pass)) → v376
+- Accepted: text collisions at system ends: 'molto cantabile' to 56, 'change bow at will' to 73, timpani muta right-aligned at 84
+- Open / not applied: none
+- Do-not-touch: 73-84 spacing
+- Cross-movement: none
