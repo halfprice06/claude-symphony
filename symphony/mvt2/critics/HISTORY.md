@@ -2515,3 +2515,6 @@ form. Report: reports/c393.md.
 - Accepted: nothing (v394 = v393 relabelled).
 - Recorded (no change): c393 (A&S Unit 32, chromaticism in larger contexts): no change. Remote keys about 9 percent of the beats (Mozart 41/ii about 12.6); A minor prepared by the E-E flat thread; minor keys not strung together; no chromatic sequence in 53-60 (reasons recorded); exit from the climax and both Widmung links follow.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+- v395 (c394, orchestration): Fl 2 doubles the F-F flat inner line at 80-81; shared-staff hairpins at 81.
