@@ -1790,3 +1790,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: development seams; 155-158; 157 bass
 - Cross-movement: none
+
+## Cycle 364 (Orchestration; Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (second pass)) → v365
+- Accepted: Ob 2 stops after A4 at 163 (no low F4 in the diminuendo)
+- Open / not applied: none
+- Do-not-touch: 31/72 A-flat6; 62-63; 97-102 clarinets rest; 139-142
+- Cross-movement: none
