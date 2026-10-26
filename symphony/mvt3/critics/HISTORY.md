@@ -1324,3 +1324,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Rests on shared staves sat half a space off the grid at 13 places (Bn 11, 19, 24; Cl 62, 182, 210, 259, 268; Fl 201, 222, 276); a Staff-level `gould-rest-grid` callback moves them outward to whole spaces (Gould PDF 49, 51). Accepted.
 - 210: Fl 1's floating crotchet rest lowered to its G♭6 (Gould PDF 50–51). Accepted.
 - Harp 8 bassa, Tbn rests 103–105, ledger counts: kept. Agreed.
+
+## Cycle 296 (v296 → v297), lens 6, Adler harp
+- 132: harp plays one solid ff G chord at the cadence, ringing through the V4/2 at 133–134 and damped at 134.3 before the pp (Adler PDF 113–115; Rimsky PDF 46–47). Accepted.
+- 73: harp RH E♭4–C5–E♭5–F5 so no A♭ rings into the bass's A♮ (Adler PDF 111). Accepted.
+- 82: harp LH `es,2 r2` to match the "étouffez" (Adler PDF 117). Accepted.
+- Pedals, harmonics 43–47, bisbigliando, 70.3, 235–242, 277: no change. Agreed.
