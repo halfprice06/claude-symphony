@@ -1964,3 +1964,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 117, 35.4, 165.2, 132, 159.1
 - Cross-movement: none
+
+## Cycle 393 (Form, pacing and proportion; Aldwell & Schachter Unit 15 III and VII (aldwell-schachter PDF 230-247) (second pass)) → v394
+- Accepted: Hn 4 plays G3 at 135-137 as at 23-25 (fills the bare diminished triad); Hn 4 part spacing
+- Open / not applied: none
+- Do-not-touch: key plan; 156-159; seams; 117-130 pedal; proportions
+- Cross-movement: none
