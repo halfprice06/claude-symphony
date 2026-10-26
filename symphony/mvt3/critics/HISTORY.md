@@ -1452,3 +1452,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 321 (v321 → v322), lens 1, Sebesky ch. 6–7
 - 255–258: F2's coda phrase was covered by held brass ff on its own pitches. The violas now join the cellos in unison on the line, ff espress.; cellos and Hn 3·4 go to ff; the held brass harmony (Hn 1·2, Tbn 1·2, bass trombone, Tpt 3) is f at 255 with a crescendo from 257 to ff at 259 (Sebesky PDF 208, 211–213, 219, 224). Chorale top line, tuba, woodwinds, violins and harmony unchanged. Supersedes c319's viola E4 at 257–258.
 - Kept: no trills (no free held note needs one), Ob at 95–98, motive x three times, violas at 259–262.
+
+## Cycle 322 (v322 → v323), lens 2, A&S Units 24–25 applied chords
+- 20.4: VII°7 of V before the consequent's V7 (bass B♭–F–F♯; Cl 1 G–A♭–A♮; violas D–F–C, revoiced to avoid fifths with Hn 1·2) (A&S PDF 425, 428, Ex. 25-12a, 25-14).
+- 36: the 5–6 link from A♭ to B♭ minor gets a chromatic bass E♭–A♭–A♮, V6/5 of B♭ minor on beat 4 (A&S PDF 435, Ex. 25-32). The violas', cellos' and Bn 1's figure is now C–F–E♭–C (C–E♭–F–C made octaves with Ob 1 and Tbn 1).
+- Not applied: a deceptive cadence on VII°7 of V at 82; ♮VII7 → V6/5 has no free place.
