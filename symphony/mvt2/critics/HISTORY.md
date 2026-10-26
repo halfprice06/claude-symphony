@@ -2483,3 +2483,10 @@ texture. Report: reports/c387.md.
 
 
 - v389 (c388, expression): MIDI only; timpani rolls rendered with rolls-midi.ily; fp attack at 47.
+
+
+## Cycle 389 (v389 → v390)
+holistic comparison with a master work (Svendsen 2/ii, E-flat). Report: reports/c389.md.
+- Accepted: nothing (v390 = v389 relabelled).
+- Recorded (no change): c389 (Rimsky-Korsakov examples 1-60; Svendsen 2/ii from secondary sources, score not reachable): no change. Key, length and restraint compare well; themes combined at 53-56 and 79-81; wind octaves, basses without cellos, clarinet-oboe interlocking and the 61 layout follow; nothing worse since v379.
+- Do-not-touch: standing list; the 8-page layout.
