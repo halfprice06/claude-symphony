@@ -1402,3 +1402,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 311 (v311 → v312), lens 1, Adler ch. 7 individual woodwinds
 - 35–38: Fl 2 rests (it doubled Ob 1's pad at pitch in the flute's weak middle octave under ff strings, and had played without a break since 27; Adler PDF 185, 188, 192, 201). It re-enters f on D5 at 39, taking the held D5 from Ob 1, which stops at 41; Fl 1 also marked f at 39.
 - Not applied: Fl 1's F6–B♭6 leap at 78 (protected F2 climax), low clarinets in unison at 95–98 (collides with the violas' E♭–E line), a bass clarinet line, a wind chorale at 247–264.
+
+## Cycle 312 (v312 → v313), lens 2, A&S ch. 22 leading-tone sevenths
+- 75.3: under F2's turn to the sixth degree over the tonic, the harmony is now VIIø7 (D–F–A♭–C) over the E♭ pedal, back to I on beat 4; it had been a cluster E♭–G–A♭–B♭–C (A&S PDF 377, 379, 381–382). Hn 1·2, Bn 1 and harp RH revoiced; no new parallels.
+- 178→179: Bn 1 B2–D3 instead of rising to C3, so the diminished fifth with Cl 2 no longer moves to a perfect fifth (A&S PDF 375 Ex. 22-3c), as at the exposition's 58.
+- Not applied: VIIø4/3 → I6 at 74→75 and 194→195; other tritone-to-fifth moves stay within one harmony or are protected; ♭VI in major has no unprotected place.
