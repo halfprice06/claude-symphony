@@ -1712,3 +1712,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 158; 122; 26-27, 138-139
 - Cross-movement: mvt1.md update
+
+## Cycle 351 (Melody and memorability; Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (second pass)) → v352
+- Accepted: no change (woodwind melody review)
+- Open / not applied: none
+- Do-not-touch: woodwind colour of each motto return; S at 46.4-55
+- Cross-movement: none
