@@ -1530,3 +1530,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 236: the violins' rising sixth C5→A5 sul A in movement I's second-theme head is marked "port." with a glissando line, the symphony's one marked string slide (Casanelles PDF 151, 154–155; Adler PDF 33). Not at 240. Pitches and MIDI unchanged.
 - 212–214: movement II's theme B recall now swells to 213 and recedes before the breath instead of holding ff for five bars, as movement II shapes it (Casanelles PDF 148–150, 155). Hairpins in Tpt 1·2, Fl, Ob, Cl, Vln I·II; ff at 211, f at 216–217, sub. p at 219 and fff at 223 kept; hidden dynamics restore the MIDI levels from 215.
 - Not applied: sul tasto → ord. at 219–222 (protected), vibrato marks, level changes inside the protected solos.
+
+## Cycle 339 (v339 → v340), lens 9, holistic, Rachmaninoff 2/iv; Rimsky-Korsakov examples 206–274
+- 191–196: Ob 1 rests again, as in v329, undoing c337's echo at 194: a woodwind cannot echo strings with a different timbre, and the echo ended on the violins' held B♭4 (Rimsky-Korsakov PDF 128–129). The one regression since v329.
+- 110: the violins rise D–E–F in grace notes into the ff G6/G5 where the lament arrives and the brass enter (Rimsky-Korsakov PDF 129–130, Ex. 254), used before only at 35.
+- Rachmaninoff 2/iv comparison: his second theme returns in full in the tonic major in the coda; here F2 has only 255–258. Kept (Brahms 1/iv model, protected bars, page cap).
