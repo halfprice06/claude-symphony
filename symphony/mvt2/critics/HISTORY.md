@@ -2191,3 +2191,10 @@ lens 7, texture; Adler ch. 11 contrapuntal brass (adler2 PDF 41-54). Report: rep
 - Accepted: nothing (v338 = v337 relabelled).
 - Recorded (no change): Tbn 1 quotation alone at 63-64 (c158, c303, once-only rule; optional Hn 3-4 counter-line not recommended); sustained tenuto brass at the Largamente climax 61-62 (protected); horn weights follow two horns = one trombone (PDF 44); free counterpoint inside the brass at 3-6, 29-30, 61-62, 64, 80-81, no imitation (c177); sparse tuba and Cbn as in Dvorak 9/ii; brass registers good (PDF 42); sf-p at 63 and muted horns behind winds at 87-90 as Ex. XI-27.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 338 (v338 → v339)
+lens 8, expression; A&S Unit 21 (PDF 346-371). Report: reports/c338.md.
+- Accepted: hidden MIDI levels so suspensions sound at least as loud as resolutions (Hn 3·4 80-81, theme A at 8/24/72, Bsn 1 35-36, Cl 2 78); violins slur the tied E♭ into D at 24 and 72 (same bow count and directions as c018).
+- Open: Bsn 1 MIDI level at 75-78 on the shared staff.
+- Do-not-touch: standing list; the 8-page layout.
