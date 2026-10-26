@@ -2359,3 +2359,6 @@ form. Report: reports/c363.md.
 
 
 - v365 (c364, orchestration): Hn 4 C4 at 60 b1-2 supplies the dominant's third in the middle register.
+
+
+- v366 (c365, engraving): parts only; Hn 3 rest at 29, C.a. cue rest at 31, harp octave sign at 78.
