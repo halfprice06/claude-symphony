@@ -82,7 +82,7 @@ Sections and metre (sections.txt):
 
 Key signatures are set in global.ily. Harmonic labels come from the section files' notes.
 
-Augmented sixths across the symphony (c350, A&S PDF 523): II's stand on F♭ = E (21, 64), the scherzo's tonic, as movement I's stands on A♭ (I 12, II's tonic) and the scherzo's on C (III 244 and 331, the finale's tonic). Keep them on F♭; no third one is added. Record only. Timpani pairing (c380): II has no trumpets, so its timpani play with the low brass (60–62), the horns or alone; the finale brings back the trumpet-and-timpani pairing at its 199–204. Both joins are the III♯ relation of Chopin's pair in A&S Ex. 30-1 (PDF 530-531, 534): C is III♯ of A♭ at bar 1, and A♭ = G♯ is III♯ of E into the scherzo (c360).
+Augmented sixths across the symphony (c350, A&S PDF 523): II's stand on F♭ = E (21, 64), the scherzo's tonic, as movement I's stands on A♭ (I 12, II's tonic) and the scherzo's on C (III 244 and 331, the finale's tonic). Keep them on F♭; no third one is added. Record only. The symphony's keys C–A♭–E–C fall by major thirds; A♭ is respelled G♯ at the A♭→E step, where A&S Ex. 31-27a puts it (PDF 573; c382). Timpani pairing (c380): II has no trumpets, so its timpani play with the low brass (60–62), the horns or alone; the finale brings back the trumpet-and-timpani pairing at its 199–204. Both joins are the III♯ relation of Chopin's pair in A&S Ex. 30-1 (PDF 530-531, 534): C is III♯ of A♭ at bar 1, and A♭ = G♯ is III♯ of E into the scherzo (c360).
 
 | Bars | Mark | Section | Key and harmony |
 |---|---|---|---|
