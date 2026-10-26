@@ -2518,3 +2518,6 @@ form. Report: reports/c393.md.
 
 
 - v395 (c394, orchestration): Fl 2 doubles the F-F flat inner line at 80-81; shared-staff hairpins at 81.
+
+
+- v396 (c395, engraving): Fl 2 rest at 82 on the shared staff.
