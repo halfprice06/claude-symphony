@@ -1556,3 +1556,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: Hn 4 on the bass at 11, 111, 103–106; Hn 1·2 unison 133; Hn 3·4 a2 at 82; doubled third at 162; single horns f 97–102; brass seconds 116, 123; bassoon unisons 157, 163–165.
 - Do-not-touch: Exit order 123–127; c318 hairpins.
 - Cross-movement: none.
+
+## Cycle 325 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: beams (gould-behind-bars PDF 31-41) (second pass)) → v326
+- Accepted: Beam slopes per Gould: closely spaced groups (stems < 3 spaces apart) slope ¼–½ space (PDF 34; 85 groups, e.g. Vla/Cl 2 triplets 117–122, Vc 60–68, harp 63–68), answering c235; two-pitch groups with the odd note farthest from the beam are horizontal (PDF 37; 12 groups); Vla/Vc three-beam groups at 152.3 slant a whole space with the outer beam on a line (PDF 32, 35) (global.ily gould-beam-positions; recTwo). 119 of 498 beams moved; no pitches change.
+- Open / not applied: None. Kept: ledger-line two-pitch groups horizontal in Vln I/Fl at 28, 83, 95, 97 (Fl and Vln I alike); c235's Cl interlock 117–121 and Vc 61 stems.
+- Do-not-touch: Page breaks (same last bar on every page).
+- Cross-movement: none (mvt II may reuse the beam callback).
