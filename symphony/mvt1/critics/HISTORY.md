@@ -1952,3 +1952,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 8 and 182 soft Picardy; 156-166 mixture; 78 cross relation
 - Cross-movement: mvt1.md record
+
+## Cycle 391 (Melody and memorability; Aldwell & Schachter Unit 3 Rhythm and Meter (aldwell-schachter PDF 47-57) (second pass)) → v392
+- Accepted: no change; record: 23-26/135-138 are a 3/4 grouping, not a hemiola
+- Open / not applied: none
+- Do-not-touch: 23-26, 135-138 grouping; 1-14 hypermeter
+- Cross-movement: mvt1.md record
