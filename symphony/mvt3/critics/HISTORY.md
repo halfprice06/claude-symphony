@@ -1303,3 +1303,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 178: timpani play the scherzo's motive x pp near the rim (`g,4 g,8 g,8 g,4 r4`) in the gap between the recapitulated F2's phrases, as Beethoven's Violin Concerto timpani (Adler2 PDF 273); the soft form of the scherzo's last statements. "ord." at 199. Accepted; new record line `%@ motiveXretr Timp 178 4`, record 39/39; scherzo thread told.
 - finale.md: stale sentences corrected (header versions, open request, 81 cellos, 167–169 stopped horns, Hn 1 at 67–74, Bn 1 at 213); running list 22–25 added, including the cor anglais duet link with movement I 171–174. Applied.
 - Cyclic checks against I v321 (record to v329), II v310, scherzo v311: clean.
+
+## Cycle 291 (v291 → v292), lens 2, Rimsky-Korsakov ch. II wind doubling
+- 77–80: Cl 1 doubles the cellos' octave of F2 at pitch and Cl 2 rests, replacing c149's clarinet thirds that now crossed the cellos' tune (Rimsky PDF 67, 69, 76–78). Accepted; F2 unchanged.
+- 224–228 bassoon, brass melody 211–218, soft horn melody, parallel thirds, 19–26: no change. Agreed.
