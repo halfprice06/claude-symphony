@@ -1521,3 +1521,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 28.4–29.1: the tuba no longer tongues E♭1–D1 ff quarters below its professional range (Adler App. A PDF 306; part 2 PDF 8); it breathes on 28.4 and takes D2 on 29.1 with the bass clarinet. The contrabassoon keeps E♭1–D1. The held E♭1 at 166 stays.
 - 51: the owed trumpet solo is marked "solo, dolce cantabile" instead of the combiner's "1.", as for the oboe (95) and bassoon (115) solos (App. A PDF 312). Not added at 171, where the cor anglais doubles the muted trumpet.
 - Checked, no change: timpani ranges and retunings, the basses' C-extension notes, desk directions, stick words, highest horn and trumpet notes.
+
+## Cycle 337 (v337 → v338), lens 7, Adler ch. 16 melody and countermelody
+- 191–194: Ob 1 doubled the recapitulated F2 in unison with both violin sections throughout, and nothing answered the tune's held B♭4 at 194. Ob 1 keeps 187–190, rests 191–193 and at 194 echoes the tune's bar 192 at pitch, mp espress., from beat 2 (Adler part 2 PDF 211, 213: Dvořák's delayed oboe; PDF 229: like colours at the same pitch absorb each other). Beat 1 avoided for Cl 1's F♭4; no pickup, which made octaves with the bass.
+- Not applied: a countertheme passed between instruments at 205–208 or 159–166; clarinets in contrary motion at 11–18.
