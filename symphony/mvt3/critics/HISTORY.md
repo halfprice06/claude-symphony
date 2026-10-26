@@ -1412,3 +1412,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 19: the bass of F1's second statement now passes E♭–D–C through a passing V6/4 on beat 3 (A&S PDF 256–257, 309–310, 324), instead of repeating the first statement's leap; cellos, basses, Bn 2 and Cbn `es2 d4 c4`, violas and Cl 1 revoiced. Melody and the recapitulation's 159 unchanged.
 - Proportions: the coda is 31% of the movement, longer than Dvořák 9/iv's, because the plan saves C major and the only root-position V–I for it; no change.
 - Rejected: a passing 6/4 at 258 (G in the bass before the final V at 262), a neighbouring i6/4 at 147–150 (anticipates 151).
+
+## Cycle 314 (v314 → v315), lens 4, Adler part 2 ch. 15
+- 37–38: the third F1 head statement (Hn 3·4) had no string support; the cellos now double it an octave lower, ff, with the horns' articulation, f at 39 (Adler part 2 PDF 165, 176–179). Cl 2 holds C4 to 38.4 to avoid fifths with the new cello line.
+- 273–276: the timpani roll on C starts f instead of ff, like the cellos and basses, and keeps its crescendo from 275 to fff at 278 (Bloch, Adler part 2 PDF 184). The chain, the quotation and the top C6 are unchanged.
+- Not changed: 205–206 brass-only head (protected; cellos hold the pedal), the unison at 247–254 and 265–272, the arpeggios at 255–262.
