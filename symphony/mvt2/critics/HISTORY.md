@@ -1951,3 +1951,10 @@ lens 3, form; Adler ch. 15 end and ch. 17 The Orchestra as Accompanist (adler2 P
 - Accepted: nothing (v304 = v303 relabelled).
 - Recorded (no change): solo then tutti answer 7-30, 37-60, 67-71 (PDF 257); cut-backs after each tutti at 65-70 and 83 (PDF 267); accompaniment set up before solos at 6, 67, 83, flute and accompaniment together at 37 kept per c233; sf-p at 63 is the sforzando device (PDF 189-190); colour changes overlap at seven joins (PDF 192); exposed solos enter on sounding pitches (PDF 275); top register held for 79 (PDF 279); timpani link the coda at 84 (PDF 273). Timings 36/34/30 percent, peaks at 65 and 84 percent; Tchaikovsky Canzonetta has the same plan.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 304 (v304 → v305)
+lens 4, orchestration; Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281). Report: reports/c304.md.
+- Accepted: nothing (v305 = v304 relabelled).
+- Recorded (no change): IV6 at 87 with its third five times (Ex. VIII-25; protected coda, alternative not recommended); theme B single flute at 37-40 (optional Ob 1 at 39-40, untested, not recommended); Hn A-flat 3 doubling Bsn 1 and harp at 14; oboe and clarinet unisons at 60-62, 79-82; wind-string unisons; pedals and their release.
+- Do-not-touch: standing list; the 8-page layout.
