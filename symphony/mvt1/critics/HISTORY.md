@@ -1862,3 +1862,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 73-84 spacing
 - Cross-movement: none
+
+## Cycle 376 (Playability, instrument by instrument; Adler App. A ranges, professional and amateur limits (adler2 PDF 302-312) (second pass)) → v377
+- Accepted: no change (ranges review)
+- Open / not applied: none
+- Do-not-touch: range-edge notes protected by c146, c185, c256, c286, c306
+- Cross-movement: none
