@@ -184,6 +184,12 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 390 (lens 10 cyclic, Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (fourth pass)) v390 → v391
+c390 cyclic check passed; Hn 3·4 rest at 205–208, harp lower at 345–348
+
+## Cycle 389 (lens 9 holistic, Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (fourth pass)) v389 → v390
+c389 second-idea bass: no octaves with the tune at 45–52, 121–122, 277–278
+
 ## Cycle 388 (lens 8 expression, Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (fourth pass)) v388 → v389
 c388 articulation: slurs 73–89, espress. at 3, Cl 2 ties
 
