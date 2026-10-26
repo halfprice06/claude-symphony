@@ -2029,3 +2029,10 @@ lens 4, orchestration; Adler ch. 11 Scoring for Brass (adler2 PDF 14-18, 37-54).
 - Accepted: nothing (v315 = v314 relabelled).
 - Recorded (no change): brass held back until 60 with trumpets tacet (Schubert example); single horns at 61-62 kept for c264's spacing; climax 61-64 reverses Tchaikovsky's order with the same result, no Tbn 2 doubling of the quotation; no trombones at 79 (Franck); low brass spacing at 61-62; dark muted horn chords at 3-6, 29-30, 87-90; brass as independent voices at 53-64.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 315 (v315 → v316)
+lens 5, engraving; MOLA second pass on the parts. Report: reports/c315.md.
+- Accepted: scherzo s305 dynamics override in score and parts; part-only cues for Ob 1 44, Fl 1 57, B.cl. 57, harp 37 and 71.
+- Recorded (no change): cues for Hn 3·4 79 and Ob 1 78 optional; harp 8va bassa (c265); bow marks.
+- Do-not-touch: standing list; the 8-page layout.
