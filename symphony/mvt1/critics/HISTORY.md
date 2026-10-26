@@ -2024,3 +2024,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 154 Vln II halo; 137.4 bass D; intro 6-8 and coda chorale 175-182
 - Cross-movement: none
+
+## Cycle 403 (Form, pacing and proportion; Aldwell & Schachter Unit 14 V as a Key Area (aldwell-schachter PDF 211-229) (second pass)) → v404
+- Accepted: no change (V as a key area review)
+- Open / not applied: none
+- Do-not-touch: retransition 117-130; 39-47 approach; Hn 3-4 at 40
+- Cross-movement: none
