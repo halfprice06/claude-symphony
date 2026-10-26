@@ -1808,3 +1808,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 28 timp G2; 160 cymbal soft sticks
 - Cross-movement: none
+
+## Cycle 367 (Texture and counterpoint; Rimsky-Korsakov ch. III overlaying, crossing and enclosure (rimsky-principles PDF 106-114) and the examples cited (second pass)) → v368
+- Accepted: no change (overlaying and crossing review)
+- Open / not applied: none
+- Do-not-touch: 181-182 chord; 164-165; 117-120; 167-169
+- Cross-movement: none
