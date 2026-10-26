@@ -1470,3 +1470,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - MIDI: timpani rolls now play as repeated strokes (they were one held stroke, so crescendo rolls could not grow). score.ly wraps the orchestra in a music function taking the timpani music; the MIDI-only score passes the timpani through \rollStrokesByBar, which applies the scherzo's shared rolls-midi.ily \rollStrokes to each roll only (applying it to the whole score would turn the string tremolo into notes). rollStrokeTable gives 11–23 strokes per second. Only the timpani track differs (172 → 1002 note-ons); print unchanged by this change.
 - Brass family sub-brackets for horns, trumpets and trombones inside the brass bracket (Adler PDF 293–294), as in the scherzo. Breaks unchanged.
 - 224, 226: the bowing text "unis., change bow at will" on three lines and the lower strings' text shifted, so they no longer cross the barline (Gould PDF 41, 55).
+
+## Cycle 326 (v326 → v327), lens 6, Adler ch. 12 and 14 percussion
+- 39–40: the exposition's half cadence on V of E♭ had no timpani, unlike every other dominant arrival. The A♭ drum is retuned to B♭ in the rest at 37 ("muta A♭ in B♭") and rolls B♭2 f > p with the contrabassoon, bass trombone and Hn 3·4, then goes back to A♭ at 43 (Adler part 2 PDF 79, 81).
+- 178: the pp motive x near the rim quotes the scherzo's soft-stick ending; "soft sticks" at 171 and "hard sticks" on 178's closing rest, before the ff at 199 (Adler part 2 PDF 61, 80, 88, 110–111).
+- Not applied: a soft cymbal after 223 (protected percussion plan), two drums together, a pp roll at 43–50, a bass-drum roll.

@@ -1,5 +1,7 @@
 # Finale (movement IV) loop checkpoint
 
+- Since v326 the timpani rolls are repeated strokes in score.midi (score.ly's MIDI score uses \rollStrokesByBar with v*/rolls-midi.ily). Before the next r07 render, test prep_render.py on a copy: the percussion variables keep their names, but each roll is now 8–64 MIDI notes.
+
 ## Third series, continued (session cse_01SWLBceYg6ZWKih28Euwaj4, thread "Finale, loops from v264", since 2026-10-19 22:10)
 Latest: **v300** (cycle 299 done). Next cycle: 300. Dan 2026-10-25: 100 more loops, so the series now ends at cycle 399 → v400. v300 is the merge snapshot and was rendered with r07.
 Per cycle helper (scratchpad, recreate if lost): promote.sh N+1 N /tmp/critic-N/work; add a running-list line to coherence/finale.md; finish.sh N "lens ..." notes; copy finale.md and themes-finale-quotes.ly to the mount; genprompt N+1. Lens 9 cycles add the "v(N-10) has no score.pdf" note; lens 10 cycles add the cyclic focus and the stale-sentence request.

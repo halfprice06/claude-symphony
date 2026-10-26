@@ -97,6 +97,13 @@ def events(body):
                 depth += {'<<': 1, '>>': -1}.get(toks[j], 0); j += 1
             inner = toks[i:j - 1]
             first = inner[:1]
+            # c390: a braced first branch (<< { \after ... note } \tag #'score { CC11 spacers } >>, movement II bar 47
+            # since v389) is kept whole; taking its '{' alone dropped the bar and moved later onsets one bar early
+            if first == ['{']:
+                d2, k = 1, 1
+                while d2:
+                    d2 += {'{': 1, '}': -1}.get(inner[k], 0); k += 1
+                first = inner[1:k - 1]
             # c370: keep a tie written straight after that first note (movement II bar 32 B.cl.)
             if inner[1:2] == ['~']:
                 first = inner[:2]
