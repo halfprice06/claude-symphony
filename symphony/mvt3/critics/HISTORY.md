@@ -1465,3 +1465,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 324 (v324 → v325), lens 4, Adler ch. 8 woodwinds and horns in the orchestra
 - 91–94: in the ff codetta every part played short strokes with rests between. Ob 1·2 now hold E♭6/E♭5 and Hn 1·2 E♭4/E♭3, ff, through 94 beat 2, and Hn 2 leaps E♭3→E♭4 onto the dominant at 93.4 (Adler PDF 238, 240–241, 243, Ex. VIII-7 to VIII-11: Mozart 29 and Figaro). The strokes, the diminished seventh at 92 and the displaced tonic at 93 stay.
 - Checked, no change: wind-only passage at 95–96 (breaks the violas' E♭→E at 97), held notes before upbeats, single players on solos, horn third, clarinet figures (protected), lower bass octave at 91–94 (saved for 110, 223, 263, 278).
+
+## Cycle 325 (v325 → v326), lens 5, Adler PDF 282–301 score layout; MIDI rolls
+- MIDI: timpani rolls now play as repeated strokes (they were one held stroke, so crescendo rolls could not grow). score.ly wraps the orchestra in a music function taking the timpani music; the MIDI-only score passes the timpani through \rollStrokesByBar, which applies the scherzo's shared rolls-midi.ily \rollStrokes to each roll only (applying it to the whole score would turn the string tremolo into notes). rollStrokeTable gives 11–23 strokes per second. Only the timpani track differs (172 → 1002 note-ons); print unchanged by this change.
+- Brass family sub-brackets for horns, trumpets and trombones inside the brass bracket (Adler PDF 293–294), as in the scherzo. Breaks unchanged.
+- 224, 226: the bowing text "unis., change bow at will" on three lines and the lower strings' text shifted, so they no longer cross the barline (Gould PDF 41, 55).
