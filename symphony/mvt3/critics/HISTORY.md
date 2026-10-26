@@ -1621,3 +1621,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 356 (v356 → v357), lens 6, Sebesky ch. 2 wind instruments
 - 91–92: Hn 3·4 dropped the ff eighth-note upbeats (`r8 x8` → `r4`) and land on the downbeats, while trumpets, trombones, tuba and timpani keep them, as the score already does at 199–204, 269, 271 and 277 (Sebesky PDF 32 and fn. 1, PDF 46, Ex. 51).
 - Checked, no change: breathing (longest about 20 s, Cl 1 181–195, with eighth rests), ranges, Tpt 1's rests in the coda, flute above the lead trumpet at 211–218 and 257–262, C.A. with the horns at 217–218, stopped horn at 138, trombone slides at 248 and 250.
+
+## Cycle 357 (v357 → v358), lens 7, Sebesky ch. 1 arranging fundamentals
+- 188.3: F2's second bar was V6/5 → I in all ten statements of its head. In the A♭-major statement the bass (Cb, Bn 2) now takes G♭ on beat 3, V6/5 → V4/2 of IV, falling A♭–G–G♭–F into 189 against the rising tune (Sebesky PDF 19, Ex. 3A; PDF 14, 20). 189 unchanged; tune, counter-melody, clarinet background and bowing of 187–198 unchanged (the protection covers scoring; pitch changes there accepted before in c262, c270, c293).
+- Not applied: thinning the clarinets' pp figure at 187–194 (c207, c224); the minor-mode line cliché at F2's heads (would undo c312 or resolve the stop chord before 223).
