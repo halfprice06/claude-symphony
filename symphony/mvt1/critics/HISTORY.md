@@ -1664,3 +1664,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None.
 - Do-not-touch: 9–12; fugato; 103–110.
 - Cross-movement: none.
+
+## Cycle 343 (Form, pacing and proportion; Rimsky-Korsakov ch. IV Composition of the orchestra: tutti, range limits, transfer of phrases, sf-p, crescendo and diminuendo (rimsky-principles PDF 115-136) (second pass)) → v344
+- Accepted: no change (form review of 111-182 against Rimsky-Korsakov ch. IV)
+- Open / not applied: 167 brass return after 4 bars rest (kept)
+- Do-not-touch: 129-130, 167-169
+- Cross-movement: none
