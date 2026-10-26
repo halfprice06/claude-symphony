@@ -2177,3 +2177,10 @@ lens 5, engraving; Gould PDF 58-68. Report: reports/c335.md.
 - Accepted: unison noteheads at 25-28 (violas) and 39 (Vln II) via unisHead (no MIDI change; closes c325's open point); harp stem direction at 8, 72.
 - Recorded (no change): Ob accidental at 81; separate stems (c205); dots and chords.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 336 (v336 → v337)
+lens 6, playability; Adler ch. 10 the horn (adler1 PDF 299-311). Report: reports/c336.md.
+- Accepted: nothing (v337 = v336 relabelled).
+- Recorded (no change): Hn 4 doubles Hn 3 up to written G-flat 5 at 61-62 (c064, c069, c086, protected); Hn 1 endurance with long rests; slurs playable in one breath; low notes held at p or pp; mute changes timed (mettere sord. 17 s before 87, scherzo Hn 3-4 senza sord.); only wide leap Hn 4 octave at 60-61 across a breath; concert score, horn parts in F; no stopped horn, glissando or trills.
+- Do-not-touch: standing list; the 8-page layout.
