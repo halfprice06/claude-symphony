@@ -2322,3 +2322,6 @@ texture. Report: reports/c357.md.
 - Accepted: nothing (v358 = v357 relabelled).
 - Recorded (no change): c357 (Sebesky ch. 3, strings with winds): no change. Fl 1 mp< at 77 stays (c178); ff tutti 79-81, flute doubling at 57-61 and 77-82, the 63-64 string chord and the 87 IV6 recorded.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+- v359 (c358, expression): timpani pp< at 60 with the low brass; stale c218 comments corrected.
