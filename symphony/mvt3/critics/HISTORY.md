@@ -1457,3 +1457,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 20.4: VII°7 of V before the consequent's V7 (bass B♭–F–F♯; Cl 1 G–A♭–A♮; violas D–F–C, revoiced to avoid fifths with Hn 1·2) (A&S PDF 425, 428, Ex. 25-12a, 25-14).
 - 36: the 5–6 link from A♭ to B♭ minor gets a chromatic bass E♭–A♭–A♮, V6/5 of B♭ minor on beat 4 (A&S PDF 435, Ex. 25-32). The violas', cellos' and Bn 1's figure is now C–F–E♭–C (C–E♭–F–C made octaves with Ob 1 and Tbn 1).
 - Not applied: a deceptive cadence on VII°7 of V at 82; ♮VII7 → V6/5 has no free place.
+
+## Cycle 323 (v323 → v324), lens 3, A&S Unit 18
+- 121–122: the Italian sixth closing the development's G-minor area was not audible (the pizzicato E♭ and C♯ never sounded together) and had no 7–6 (A&S PDF 297–298, Ex. 18-12). Cl 1 enters pp on D6 at 121, holds it over the bass E♭ as a seventh, falls to C♯6 and resolves to D6 at 122, where Vln I's solo desks take it over. The bassoon solo and the 123–130 hand-over are unchanged; the line is a tenth or more above the solo.
+- Checked, no change: proportions against Dvořák 9/iv, the C bass at 223–238, leading-tone doublings, augmented seconds; the Phrygian cadences at 57–58 and 177–178 also lack the 7–6 but are protected.
