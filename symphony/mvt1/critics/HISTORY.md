@@ -1640,3 +1640,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: cellos 122→123; cello hook before pizz at 61; up-bow/rest/up-bow at Vla 146 and Vln II 55; Vla 162; cello stop chord 26; Vln 58.
 - Do-not-touch: Phrasing 47–63; stop chord 26.
 - Cross-movement: none.
+
+## Cycle 339 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305) (second pass)) → v340
+- Accepted: No change (holistic vs Dvořák 6/i and v329: horn + cellos over the half-section pad at 47–55 as Dvořák's letter B; soft brass colour in the chorale 175–179; pair seconds only at protected or justified places; nothing worse since v329).
+- Open / not applied: None. Kept against Dvořák: no exposition repeat, no major 'Grandioso' tutti, no ff final cadence (proportions; finale's reserve).
+- Do-not-touch: Proportions; finale reserves.
+- Cross-movement: none.
