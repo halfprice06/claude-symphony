@@ -10,6 +10,10 @@ motiveXretr = { g,4 g,8 g,8 g,4 r4 }
 %@ motiveXretr Timp 144 4
 %@ motiveXretr Timp 178 4
 
+% motiveXcloseC: motive x in its closing form (scherzo's B–B–B–E, ending on the tonic), on G–G–G–C, finale Timp 276.3–277.1 (since v331), after the theme-A quotation.
+motiveXcloseC = { r2 g,4 g,8 g,8 | c4 }
+%@ motiveXcloseC Timp 276 abs
+
 % c029 proposal: scherzoHeadC: the scherzo's theme A head (scherzo VlnOne 13: e''4 b'8 b'8 e''4 | g''2 fis''8 f''8 | e''4), transposed to C
 % and turned to major (its G becomes E natural), note values kept, rebarred in 2/2 (starts on beat 1 of finale 275). Tpt 1-2, Cl 1, Fl 1 (8va), Hn 1-2 (8vb).
 scherzoHeadC = { c''4 g'8 g'8 c''4 e''4~ | e''4 d''8 des''8 c''4 r4 }
@@ -60,7 +64,9 @@ choraleLast = { g'1~ | g'1 | e''1~ | e''1 | d''1~ | d''1 | c''1 | b'1 | c''1~ | 
 %@ choraleFirst TptOne 224
 %@ choraleFirst TbnOne 224
 %@ choraleFirst TbnTwo 224
-%@ choraleFirst VlnOne 226
+% choraleCanon: since finale v332 the canon on movement I's chorale (Vln I, Fl 1, Ob 1, Cl 1 from 226) is displaced by half a bar in tied halves; same pitches as choraleFirst.
+choraleCanon = { g'1~ | g'2 e''2~ | e''2 d''2~ | d''2 c''4 des''4 | c''1 }
+%@ choraleCanon VlnOne 226
 %@ timpaniPulse Timp 229
 %@ sHeadViolins VlnOne 235
 %@ sHeadViolins VlnTwo 235
