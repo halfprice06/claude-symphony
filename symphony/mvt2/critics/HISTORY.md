@@ -2001,3 +2001,10 @@ lens 10, cyclic; A&S Unit 23 (PDF 386-397). Report: reports/c310.md.
 - Accepted: aTwo.ily header comments corrected (78 is ♭VI, F♭ major).
 - Recorded (no change): mixture plan; quotation 47-50; key plan; opening chord answers movement I; sibling joins hold; 21 cross relations.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 311 (v311 → v312)
+lens 1, melody; A&S Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (PDF 346-371). Report: reports/c311.md.
+- Accepted: nothing (v312 = v311 relabelled).
+- Recorded (no change): no anticipations in either theme, unlike Dvorak 9/ii; the only fitting places are protected cadence notes (untested C.a. option at 43 recorded, not recommended); melody F against inner G-flat at 41 and 57 b3-4 acceptable (PDF 352, 358); theme A ties and suspensions clean at 8/24/72 and 12/28/76; c151 chain at 58 and double suspension at 42 intact; bar 81 resolution moved to another voice (Ex. 21-28); pedal plan follows section 28.
+- Do-not-touch: standing list; the 8-page layout.
