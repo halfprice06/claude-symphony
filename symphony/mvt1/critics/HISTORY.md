@@ -1592,3 +1592,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Rejected: forte C-major cadence at 162–166; hints of the finale's F1/F2 (they already grow from 12 and 37).
 - Do-not-touch: Cadences at 160, 165–166.
 - Cross-movement: Finale told: three B.cl E♭3 motto tails exist (I 2–3, I 113–116, II 32–34); do not add another.
+
+## Cycle 331 (Melody and memorability; Rimsky-Korsakov ch. II Melody: woodwind, brass, combined groups (rimsky-principles PDF 64-80) and the examples it cites (second pass)) → v332
+- Accepted: Cor anglais doubles Cl 2 on the P head's upper octave at 69–72 (f), so three winds lie above Hn 1·2 (Rimsky-Korsakov PDF 66, 75, 79), correcting c307's reading of the clarinets as unison with the horns; C.a. part cued from Cl 1 at 67–68 (clos, parts-gen.py). No other notes change.
+- Open / not applied: None. Kept: brass doubling in the S climax 158–161 (Ex. 96); horn call 13–14, 41–44; Cl 1 low motto 129–130; themes unchanged.
+- Do-not-touch: Harmony and dynamics of 69–72.
+- Cross-movement: none (mvt1.md line).
