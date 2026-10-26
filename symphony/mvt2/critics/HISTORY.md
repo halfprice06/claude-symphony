@@ -1979,3 +1979,11 @@ lens 7, texture; Sebesky ch. 3 Voicing the strings; combining strings with winds
 - Accepted: nothing (v308 = v307 relabelled).
 - Recorded (no change): 13 beats without a third, all passing or deliberate (c272 point on 50-51 closed, settled by c274-c275); cellos doubling basses on 27 of 56 downbeats, all coda exceptions, protected counter-melody or tutti; winds one level softer on string lines below f; violins in unison at 53-56 and 75-77 then octaves (Ex. 214); voicings at 79-81 and 63-64 settled; solo and soli strings match the reading and Dvorak 9/ii.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 308 (v308 → v309)
+lens 8, expression; MOLA PDF 1-16. Report: reports/c308.md.
+- Accepted: part-only nudges for viola pp 37, mp 57; timpani "medium sticks" at 50 below the staff.
+- Recorded (no change): entry dynamics and hairpins pass; simultaneous dynamics decided earlier.
+- Closed: D♭ timpani tie at 79-80 (c296; keep the restrike); Vln II "Largamente" at 61 (c285).
+- Do-not-touch: standing list; the 8-page layout.
