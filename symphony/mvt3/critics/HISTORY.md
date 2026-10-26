@@ -1330,3 +1330,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 73: harp RH E♭4–C5–E♭5–F5 so no A♭ rings into the bass's A♮ (Adler PDF 111). Accepted.
 - 82: harp LH `es,2 r2` to match the "étouffez" (Adler PDF 117). Accepted.
 - Pedals, harmonics 43–47, bisbigliando, 70.3, 235–242, 277: no change. Agreed.
+
+## Cycle 297 (v297 → v298), lens 7, Adler part 2 ch. 11
+- 37–38: the third statement of F1's head goes to Hn 3·4 a2 ff "ben marc." at B♭4 while the violins take the countersubject, instead of a third violin statement over held brass (Adler2 PDF 41, 44–46); supporting rests and a 9–8 suspension at 38.3 remove octaves and fifths. Accepted; F1's notes unchanged.
+- 67, 187, 195: "open" marks on horn entries after stopped passages (Adler2 PDF 50–54). Accepted.
+- Stretto 139–146, F1 inversion, 211–218, 167–171: no change. Agreed.
