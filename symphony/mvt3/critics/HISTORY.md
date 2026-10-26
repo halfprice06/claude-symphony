@@ -1335,3 +1335,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 37–38: the third statement of F1's head goes to Hn 3·4 a2 ff "ben marc." at B♭4 while the violins take the countersubject, instead of a third violin statement over held brass (Adler2 PDF 41, 44–46); supporting rests and a 9–8 suspension at 38.3 remove octaves and fifths. Accepted; F1's notes unchanged.
 - 67, 187, 195: "open" marks on horn entries after stopped passages (Adler2 PDF 50–54). Accepted.
 - Stretto 139–146, F1 inversion, 211–218, 167–171: no change. Agreed.
+
+## Cycle 298 (v298 → v299), lens 8, A&S Unit 21
+- 37–39: dynamics after c297: countersubject (violas, cellos, Bn 1·2) f under the horns' ff head at 37–38; violins ff > and Hn 3·4 f > at 39 (A&S PDF 348, 350, 367–368; Adler2 PDF 44, 201). Accepted; no note changed.
+- 81→82: "animando" starts at 82, after c241's suspension resolves at 81, with its MIDI tempo steps (A&S PDF 348, 353–354, 359–360). Accepted.
+- 108 bow change, 87–89 7–6 chain and others: not applied. Agreed.
