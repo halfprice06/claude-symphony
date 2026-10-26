@@ -97,6 +97,9 @@ def events(body):
                 depth += {'<<': 1, '>>': -1}.get(toks[j], 0); j += 1
             inner = toks[i:j - 1]
             first = inner[:1]
+            # c370: keep a tie written straight after that first note (movement II bar 32 B.cl.)
+            if inner[1:2] == ['~']:
+                first = inner[:2]
             out += events(' '.join(first))
             i = j
             continue

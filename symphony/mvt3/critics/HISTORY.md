@@ -1437,3 +1437,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 318 (v318 → v319), lens 8, Adler ch. 2 bowing
 - Bowing (Adler ch. 2, PDF 38: strong attacks on a down-bow), six places, signs only: 259 cellos down-up (the two-bar ff F was on one bow), Vln I down-bow on the fff C at 263; down-bows on the accented heads at 267 and 269 and their pickups (as at 247); 198 violins down-up so the pickup to 199 is down-bow, violas E♭ and C♭ on separate bows; 147 violins down-bow on the ff dominant; 110 Vln II and violas down-bow at the climax; 101 and 105 sf chords down-bow in the lower strings.
 - No pitch, rhythm or dynamic change; MIDI byte-identical. Other string techniques in the reading (spiccato, jeté, ponticello, col legno, trills) do not fit the style or fall in protected bars.
+
+## Cycle 319 (v319 → v320), lens 9, holistic, Schumann 4/iv; Rimsky-Korsakov examples 69–130
+- 257–258: the violas play E4 instead of C4, so the held C4 of c317's F2 phrase (cellos, Hn 3·4) is no longer hidden in a unison (Rimsky-Korsakov PDF 81, 91, Ex. 90). 255–256 left alone (protected chorale voicing).
+- 38.4–41: Cl 2 moves C4→D4 and holds it, so the clarinets hold D4/F4 instead of a bare fifth for 13 beats in the diminuendo (Rimsky-Korsakov PDF 66, 90, 97).
+- Schumann 4/iv comparison: the plan matches; the lyrical development centre and the Largamente ending differ and stay (protected).
+- Not applied: cor anglais doubling the violas (would cover them; its solos are kept for 171 and 217–220); other open fifths are in tutti, horn pairs or protected bars.
