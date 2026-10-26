@@ -2018,3 +2018,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 61 Vln D-flat skip; 64-65 Cl1/Hn2 counterline; Hn3/Tpt3 D-flat spelling 114-116
 - Cross-movement: none
+
+## Cycle 402 (Harmony and voice leading; Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (second pass)) → v403
+- Accepted: Vln II takes B4 to C5 at 154-155 (complete V7, leading tone resolves); bass D on 137.4 (no tritone leap or octaves with Hn 3 into stop chord)
+- Open / not applied: none
+- Do-not-touch: 154 Vln II halo; 137.4 bass D; intro 6-8 and coda chorale 175-182
+- Cross-movement: none
