@@ -1832,3 +1832,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 167-170 buried counter (protected, quoted)
 - Cross-movement: mvt1.md record
+
+## Cycle 371 (Melody and memorability; Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371) (second pass)) → v372
+- Accepted: violas take Bb on 44.3 with the horn's 7-6 resolution (was Bb from the downbeat)
+- Open / not applied: none
+- Do-not-touch: 62-63; 177-182; route 33-46
+- Cross-movement: none
