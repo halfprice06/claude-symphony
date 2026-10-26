@@ -1550,3 +1550,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None.
 - Do-not-touch: Transition route; seams 96→97, 102→103; 129–130 (c233, c263); section lengths (c243).
 - Cross-movement: none.
+
+## Cycle 324 (Orchestration; Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (second pass)) → v325
+- Accepted: Tpt 3 F4 then D♭4 from beat 3 of 140, held into 141, so the trumpets sound the root of the ff ♭II chord (was F4 doubled with Tpt 2; D♭ for the whole bar gave fifths with Tpt 1) (recOne); Tbn 2 rests at 124 and leaves with the trumpets after 123 (its seventh F3 rose to G3 doubling Tbn 1) (dev) (Rimsky-Korsakov PDF 100–102, 114).
+- Open / not applied: None. Kept: Hn 4 on the bass at 11, 111, 103–106; Hn 1·2 unison 133; Hn 3·4 a2 at 82; doubled third at 162; single horns f 97–102; brass seconds 116, 123; bassoon unisons 157, 163–165.
+- Do-not-touch: Exit order 123–127; c318 hairpins.
+- Cross-movement: none.
