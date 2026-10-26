@@ -1892,3 +1892,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Tpt 1 B4 at 161
 - Cross-movement: mvt1.md record
+
+## Cycle 381 (Melody and memorability; Adler ch. 11 Scoring for Brass: melodic presentation (adler2 PDF 19-36) (second pass)) → v382
+- Accepted: no change (brass melody review)
+- Open / not applied: none
+- Do-not-touch: themes; 175-181 chorale canon; 158-161
+- Cross-movement: none
