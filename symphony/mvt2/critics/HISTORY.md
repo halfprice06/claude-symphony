@@ -2521,3 +2521,6 @@ form. Report: reports/c393.md.
 
 
 - v396 (c395, engraving): Fl 2 rest at 82 on the shared staff.
+
+
+- v397 (c396, playability): harp right-hand order at 55 b4 avoids repeated plucks of one string.
