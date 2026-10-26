@@ -2382,3 +2382,10 @@ holistic comparison with a master work (Chausson, Symphony in B-flat, ii). Repor
 - Accepted: nothing (v370 = v369 relabelled).
 - Recorded (no change): c369 (Adler ch. 5 string scoring; Chausson Op. 20 ii from secondary sources, score not reachable): no change. Plan matches Chausson's (cor anglais solo over light strings, violins to the climax, second peak at the return); mode, length, Vln II at 47-51, Vln I divisi at 62-63 and the tripled F at 87 recorded; the three printed changes since v359 are improvements.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 370 (v370 → v371)
+cyclic design. Report: reports/c370.md.
+- Accepted: nothing (v371 = v370 relabelled).
+- Recorded (no change): c370 (Casanelles ch. 1): no score change. Joins with I v361, the scherzo and the finale hold. Theme check showed 17/18 on v370 only because lyparse.py drops a tie inside the << >> block added at 32 in v369; parser patch sent to the finale thread (owner of lyparse.py). Harmonic-series voicing at both ends, one colour per recurring idea, and the ppp top pitches recorded.
+- Do-not-touch: standing list; the 8-page layout.
