@@ -2433,3 +2433,10 @@ expression. Report: reports/c378.md.
 - Accepted: nothing (v379 = v378 relabelled).
 - Recorded (no change): c378 (A&S Unit 3, hypermeter and climaxes): no change. Climaxes fall on strong bars at three levels (12, 28, 76; 61 and 79; A6 at 63, B flat6 at 79); quieter phrase endings; tempo changes on group boundaries with matching MIDI steps; shared-staff dynamics now checked across the whole movement.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 379 (v379 → v380)
+holistic comparison with a master work (Goldmark, Rustic Wedding Symphony, Im Garten). Report: reports/c379.md.
+- Accepted: nothing (v380 = v379 relabelled).
+- Recorded (no change): c379 (Adler ch. 8 woodwind-string; Goldmark from secondary sources, score not reachable): no change. Overall plan matches (duet of violins against cellos and horns, minor middle section, quotations, varied return); bassoons into 71, Ob/Cl unison at 79-81 and the 87 doubling recorded; nothing worse since v369.
+- Do-not-touch: standing list; the 8-page layout.
