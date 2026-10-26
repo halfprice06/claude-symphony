@@ -1946,3 +1946,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 1-4 motto; 167-170
 - Cross-movement: none
+
+## Cycle 390 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397) (second pass)) → v391
+- Accepted: no change; mvt1.md updated to v391
+- Open / not applied: none
+- Do-not-touch: 8 and 182 soft Picardy; 156-166 mixture; 78 cross relation
+- Cross-movement: mvt1.md record

@@ -1,6 +1,6 @@
 # Movement I (Allegro, C minor): current state for the other movement threads
 
-Owner: the movement I thread ("Movement I, loops from v300" since 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v381 (cycle 380, cyclic check). Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
+Owner: the movement I thread ("Movement I, loops from v300" since 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v391 (cycle 390, cyclic check). Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them.
 
@@ -130,7 +130,7 @@ The A♭6 peaks:
 
 **Trumpets.**
 - Where they play: 26–33, the sf quaver at 41, 69–72 (Tpt 1 has the S head at f with Ob 1 and the flutes), 82–83, 113–116, 122–123, 131–134, 138–143 (Tpt 3 to 142; the stop chord at 138 is a fresh trumpet entry, as at 26), 158–162 and 167–170.
-- Tpt 1 moves B4→C5 into the minor tuttis at 26→27 and 138→139, and at forte also at 161→162 (C5 held through 162, ff, over A1: V7–vi) and inside the P head at 168 (Tpt 1·2). It plays B4–C5 softly at 113. None of these lands on a C-major chord; the finale's 222→223 is the first.
+- Tpt 1 moves B4→C5 into the minor tuttis at 26→27, 28→29 (over the E♭ bass, i6) and 138→139, and at forte also at 161→162 (C5 held through 162, ff, over A1: V7–vi) and inside the P head at 168 (Tpt 1·2). It plays B4–C5 softly at 113. None of these lands on a C-major chord; the finale's 222→223 is the first.
 - Tbn 1 B3→C4 at 159→160 (into ♭VI, fff; since v375) and 161→162.
 - Their last note is at 170: Tpt 1·2 accented B♮4 under the fermata, unresolved; Tpt 3 F4. They are silent 171–182.
 - There is no trumpet solo and no soft trumpet melody.
@@ -204,6 +204,7 @@ These are reserved for the finale. The other movements should not use them. Thei
 - v352–v361: timpani roll p< at 80 and held Hn 1·2/trumpets f (no crescendo) at 139–141 (c354); 'a2' on beat 1 of 158, Hn 4 rest hidden at 146, Vln I cue at 175–176 (c355); Hn 3·4 breathe after 22 and 39 (c356); Cl 1·2 pad from beat 2 of 35, Bsn 2 B♭2 at 41–43 (was E♭3), Hn 4 enters on beat 2 of 69 (c357); Vc/Cb pp under the p tune at 56–61, pickup slurred at 155.4 (c358); 'Cor anglais in F' / 'C.a. (F)' (c359). Nothing another movement quotes changed: theme record 35/35 against v360; 27–32, the stop chords 26/138/170, the coda notes 167–182, the five tied parts, the timpani pulse and the last chord are unchanged.
 - v362–v371: Ob 2 leaves after A4 at 163 (Vln II carries the line down); 'medium sticks' printed over 25 in the score (the part keeps it at 15); percussion part 'take heavy beater' (from 117), 'take soft sticks' (from 156), 'take soft stick' (from 171), part only; violins swell from 58.4 and fade through the half cadence at 59; rit. 66–68.2 and Tempo dell'Allegro from beat 3 of 68 (mark D stays at 69). Nothing another movement quotes changed: theme record 35/35 against v370; 27–32, the stop chords 26/138/170, the coda notes 167–182, the five tied parts, the timpani pulse and the last chord are unchanged.
 - v372–v381: violas take B♭3 on beat 3 of 44 with Hn 1's 7–6; Tbn 1 D4–B3 at 159, B3→C4 into the fff ♭VI at 160; 'molto cantabile' at 56, 'change bow at will' at 73, timpani muta at 84 placed for spacing; violins swell into B♭5 at 65–66; C.a. fills at 147–152 'dolce' with small swells, p. Nothing another movement quotes changed: theme record 35/35 against v380; 27–32, the stop chords 26/138/170, the coda notes 167–182, the five tied parts, the timpani pulse and the last chord are unchanged.
+- v382–v391: inner parts B–B♭–A♭ by step at 115 (Ob 2, Cl 1, Hn 1, Tbn 1, Vln II; was B–A♭); Vln II halo E5/G5–D5/G5 at 154 above the violas' tune; horn breaths (Hn 4 after 58, Hn 3 after 166); accents on Vc/Bsn 1 C4–B3 at 142; Hn 4 crescendo from the tied mf of 129 to f at 131; part-only swells at 103–105 and cues. Nothing another movement quotes changed: theme record 35/35 against v390; 27–32, the stop chords 26/138/170, the coda notes 167–182, the five tied parts, the timpani pulse and the last chord are unchanged.
 
 ## Seeds of later movements (found by critic 230; keep them when revising)
 
