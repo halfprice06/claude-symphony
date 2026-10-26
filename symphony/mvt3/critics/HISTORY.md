@@ -1294,3 +1294,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 168–169: Hn 1·2 stopped on the French sixth's A♭4/D4 after the open chord at 167, before the muted trumpet's theme at 171, as at 49–50 (Adler PDF 308, 320). Accepted.
 - 133–134: the diminuendo gets both ends: Hn 3·4 f at 133, strings p at 134 before pp at 135 (Adler PDF 305–320; MOLA PDF 8). Accepted.
 - Muted horns, echo at 139–140, cuivré, sfp at 209: not applied. Agreed.
+
+## Cycle 289 (v289 → v290), lens 9, holistic (Sibelius 2/iv)
+- 213→214: Bn 1 skips to G♭3 on 213.3 (`bes2 ges2)`) to remove parallel 12ths with the tune's F5→E♭5 (A&S PDF 329, Ex. 20-2b). Accepted.
+- 70–72/190–192 seventh chain, 139–150 augmented sixth, 12.3/160.3 inner fifths, 135–138: not applied or kept. Agreed.
