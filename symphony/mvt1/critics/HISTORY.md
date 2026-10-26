@@ -1586,3 +1586,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: short themes (proportions); no thematic inversion (fugato does that work); soft attacca coda (apotheosis reserved for the finale); Ob 2 under Cl 1 in tutti chords; Cb alone at 5.
 - Do-not-touch: Proportions; soft coda; 27–32.
 - Cross-movement: none.
+
+## Cycle 330 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (second pass)) → v331
+- Accepted: No score change (cyclic check vs A&S Unit 32, second pass: deceptive cadence on ♭VI at 160 and soft C-major cadence 165→166 kept, C major delayed to IV 222→223; nothing quoted changed since v321, 35/35, Do-not-reuse holds). Records: themes-mvt1.md motto tail adds I 113–116 (bass by whole bars, B.cl E♭3); mvt1.md seeds 111–116 and 70/73 (= II 33 chord), thread line adds 147, v322–v331 change line.
+- Open / not applied: None. Rejected: forte C-major cadence at 162–166; hints of the finale's F1/F2 (they already grow from 12 and 37).
+- Do-not-touch: Cadences at 160, 165–166.
+- Cross-movement: Finale told: three B.cl E♭3 motto tails exist (I 2–3, I 113–116, II 32–34); do not add another.
