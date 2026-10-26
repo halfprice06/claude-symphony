@@ -1448,3 +1448,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - No score change (A&S Unit 26, tonicization). The one unused technique, a sequence of tonicized chords, fits only at 238, where an E-major applied chord would weaken the single scherzo-key chord at 243.
 - Kept: the opening Ger6 → V7 as the dominant the whole symphony needs; C confirmed only at 259–263; E major at 243 as a chord, not a key; E♭ minor to E♭ major as mixture.
 - Quotations against movement I v361 (35/35), movement II v376 (18/18, 11/11), scherzo v352 (52/52), finale record 41/41: unchanged. finale.md header updated; link to movement I's transient E♭ recorded.
+
+## Cycle 321 (v321 → v322), lens 1, Sebesky ch. 6–7
+- 255–258: F2's coda phrase was covered by held brass ff on its own pitches. The violas now join the cellos in unison on the line, ff espress.; cellos and Hn 3·4 go to ff; the held brass harmony (Hn 1·2, Tbn 1·2, bass trombone, Tpt 3) is f at 255 with a crescendo from 257 to ff at 259 (Sebesky PDF 208, 211–213, 219, 224). Chorale top line, tuba, woodwinds, violins and harmony unchanged. Supersedes c319's viola E4 at 257–258.
+- Kept: no trills (no free held note needs one), Ob at 95–98, motive x three times, violas at 259–262.
