@@ -2227,3 +2227,10 @@ lens 2, harmony; A&S Unit 4 (PDF 58-73). Report: reports/c342.md.
 - Accepted: bar 43 comment corrected (ii4/3).
 - Recorded (no change): sevenths; bar 36 b3; bar 49 b2; doubling and 6/4 checks pass.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 343 (v343 → v344)
+lens 3, form; Rimsky-Korsakov ch. IV (PDF 124-128). Report: reports/c343.md.
+- Accepted: Hn 1 B♭3 held through 70 b3 under the violins' pickup.
+- Recorded (no change): proportions and register curve; section joins; chromatic steps; spacing 48-51; echo 87-90.
+- Do-not-touch: standing list; the 8-page layout.
