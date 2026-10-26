@@ -2527,3 +2527,6 @@ form. Report: reports/c393.md.
 
 
 - v398 (c397, texture): timpani roll p< on 78 b3 into the second climax.
+
+
+- v399 (c398, expression): bow changes, Vln II/Vla at 66 and cellos at 58-59.
