@@ -1307,3 +1307,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 291 (v291 → v292), lens 2, Rimsky-Korsakov ch. II wind doubling
 - 77–80: Cl 1 doubles the cellos' octave of F2 at pitch and Cl 2 rests, replacing c149's clarinet thirds that now crossed the cellos' tune (Rimsky PDF 67, 69, 76–78). Accepted; F2 unchanged.
 - 224–228 bassoon, brass melody 211–218, soft horn melody, parallel thirds, 19–26: no change. Agreed.
+
+## Cycle 292 (v292 → v293), lens 3, A&S Units 11-13
+- 128–132: bar 129 no longer cadences V7–I in G four bars early; it is G with B then D in the bass, D held to 131, root position only at 132 (A&S PDF 182, 184, 201–202). Accepted; the protected hand-over tune and dynamics unchanged.
+- 129 as vi, 38, 17–18/157–158, 82, 67/75, 249–250: no change. Agreed.
