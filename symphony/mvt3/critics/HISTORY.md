@@ -1475,3 +1475,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 39–40: the exposition's half cadence on V of E♭ had no timpani, unlike every other dominant arrival. The A♭ drum is retuned to B♭ in the rest at 37 ("muta A♭ in B♭") and rolls B♭2 f > p with the contrabassoon, bass trombone and Hn 3·4, then goes back to A♭ at 43 (Adler part 2 PDF 79, 81).
 - 178: the pp motive x near the rim quotes the scherzo's soft-stick ending; "soft sticks" at 171 and "hard sticks" on 178's closing rest, before the ff at 199 (Adler part 2 PDF 61, 80, 88, 110–111).
 - Not applied: a soft cymbal after 223 (protected percussion plan), two drums together, a pp roll at 43–50, a bass-drum roll.
+
+## Cycle 327 (v327 → v328), lens 7, Adler ch. 17 accompaniment
+- 107–109: Bn 1 doubles the chromatic lament bass F–E–E♭–D–D♭–C two octaves up, p <, so the line is heard as a melody as well as the bass (Adler part 2 PDF 283, 288: Fidelio canon, Creation). Bass, strings, suspensions and entry order unchanged.
+- Not applied: a string/wind dialogue at 87–90 (the bridge needs instruments added; protected), a chord change at 244 (protected harmony), 147–150 (a stop, not an accompaniment).
