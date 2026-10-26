@@ -2332,3 +2332,10 @@ holistic comparison with a master work (Glazunov 5/iii). Report: reports/c359.md
 - Accepted: nothing (v360 = v359 relabelled).
 - Recorded (no change): c359 (Adler ch. 17 accompaniment; Glazunov 5/iii, which is in E-flat, not D-flat): no change. Harp triplets at 53-56 and Vln II F4 at 45-46 kept under Adler's exceptions; plain first statement 23-30, violins at the return and no harp at 79-81 confirmed; nothing worse since v349.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 360 (v360 → v361)
+cyclic design. Report: reports/c360.md.
+- Accepted: nothing (v361 = v360 relabelled).
+- Recorded (no change): c360 (A&S Unit 30, other chromatic chords): no score change. Half-diminished at 86 keeps C natural; 46-48 and 61-65 remote chords correctly prepared; focal mixture chords stay plain triads; bar 33 common-tone dim. 7th holds; joins with I v351, scherzo v345 and finale v311 hold. mvt2.md: III-sharp joins recorded, stale version headings updated.
+- Do-not-touch: standing list; the 8-page layout.
