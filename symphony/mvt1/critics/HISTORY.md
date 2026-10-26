@@ -1928,3 +1928,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Vc 101-102
 - Cross-movement: none
+
+## Cycle 387 (Texture and counterpoint; Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173) (second pass)) → v388
+- Accepted: no change (string voicing review)
+- Open / not applied: none
+- Do-not-touch: 56-68 cello arpeggio; 147-155 pad; 164-165
+- Cross-movement: none
