@@ -2440,3 +2440,6 @@ holistic comparison with a master work (Goldmark, Rustic Wedding Symphony, Im Ga
 - Accepted: nothing (v380 = v379 relabelled).
 - Recorded (no change): c379 (Adler ch. 8 woodwind-string; Goldmark from secondary sources, score not reachable): no change. Overall plan matches (duet of violins against cellos and horns, minor middle section, quotations, varied return); bassoons into 71, Ob/Cl unison at 79-81 and the 87 doubling recorded; nothing worse since v369.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+- v381 (c380, cyclic): comment fix in coda; coherence record corrections; tied timpani rolls traced to articulate.ly (open, symphony-wide).
