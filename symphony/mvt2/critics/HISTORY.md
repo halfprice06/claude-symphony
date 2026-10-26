@@ -2389,3 +2389,10 @@ cyclic design. Report: reports/c370.md.
 - Accepted: nothing (v371 = v370 relabelled).
 - Recorded (no change): c370 (Casanelles ch. 1): no score change. Joins with I v361, the scherzo and the finale hold. Theme check showed 17/18 on v370 only because lyparse.py drops a tie inside the << >> block added at 32 in v369; parser patch sent to the finale thread (owner of lyparse.py). Harmonic-series voicing at both ends, one colour per recurring idea, and the ppp top pitches recorded.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 371 (v371 → v372)
+melody. Report: reports/c371.md.
+- Accepted: nothing (v372 = v371 relabelled).
+- Recorded (no change): c371 (Sebesky ch. 5, voices): no change. Theme ranges, breaths before pickups, motion under held notes, the 74 b3 drop (register plan settled), memorability and the doubling order all recorded.
+- Do-not-touch: standing list; the 8-page layout.
