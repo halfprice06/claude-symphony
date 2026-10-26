@@ -2066,3 +2066,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: tempo easings; soft introduction; ppp attacca ending
 - Cross-movement: none
+
+## Cycle 410 (Cyclic design and emotional arc across four movements; Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (second pass)) → v411
+- Accepted: no change (cyclic check; records updated at v411)
+- Open / not applied: none
+- Do-not-touch: timpani pulse 179-180; coda 171-182; solo horn passages; intro 1-9
+- Cross-movement: mvt1.md record update only
