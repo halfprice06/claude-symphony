@@ -1592,3 +1592,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - finale.md: eleven stale sentences corrected (header versions and MIDI length, scherzo record line, dynamics at 255, items 4, 8 and 10, the timpani's two retunings, open requests).
 - themes-finale-quotes.ly: eight at-pitch link checks added (movement II's last tail in Ob 1 at 95; theme B's answer in Hn 1·2 and C.a. at 217; Hn 3 D♯4→E4 at 219; Tpt 1 B4→C5 at 222–223; Hn 4 F♯3→G3 and Cl 1 A♭4→G4 at 1–2); record 50/50. The violas' D♯→E at 219–220 cannot be recorded until lyparse expands `q`.
 - Not applied: a relay across the orchestra at 7–10 (would replace c280's staggered crescendo) or 263–264; a muted-trumpet echo of the cor anglais at 178 (covers motive x).
+
+## Cycle 351 (v351 → v352), lens 1, A&S Unit 3 rhythm and melody
+- 258: F2's third phrase under the last chorale statement (c317) had even quarters from the minor solo's 62, but it is the major statement's 75–78 a sixth lower, whose peak bar has the dotted figure. Now `g'4. f'8 e'4 d'4` in Vc, Vla, Hn 3·4 and Bn 1, so F2's tonic-major return keeps its climax rhythm (A&S PDF 50–52, 54). Pitches, slurs, dynamics, chorale top line and harmony unchanged.
+- Not applied: a turn at 195, upbeat openings for the themes (protected), a counter-metre (Ex. 3-7; protected places), a re-struck anticipation at 81–82, five-bar extensions, the dotted peak at 198 (cut off on purpose).
