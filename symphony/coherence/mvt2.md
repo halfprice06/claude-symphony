@@ -74,13 +74,15 @@ Sections and metre (sections.txt):
 - Horns 3·4 play con sord. at 87–90 ("mettere sord." at 82, during their rest). Both have "via sord." at 91 and rest in 91–92. They are the only muted instruments in the coda.
 - The strings are not muted. (They were muted at 15–30 only.)
 
-**Timpani muta at 92.** In the timpani part only (the text is tagged 'part and does not print in the full score): "muta A♭ in E, C in G, D♭ in B, E♭ in E" / "(for the Scherzo, during the pause)". The drums go from A♭2, C3, D♭3, E♭3 to E2, G2, B2, E3. Drum by drum: 30" A♭2→E2, 28" C3→G2, 25" D♭3→B2, 23" E♭3→E3 (all in range; the scherzo's bar-1 label names the same drums).
+**Timpani muta at 92.** Printed above the timpani staff in the score since v346 (c345), and in the timpani part: "muta A♭ in E, C in G, D♭ in B, E♭ in E" / "(for the Scherzo, during the pause)". The drums go from A♭2, C3, D♭3, E♭3 to E2, G2, B2, E3. Drum by drum: 30" A♭2→E2, 28" C3→G2, 25" D♭3→B2, 23" E♭3→E3 (all in range; the scherzo's bar-1 label names the same drums).
 
 **Not attacca.** No "attacca" is printed at the end in the score or the parts. The movement ends with a fermata and a final barline, and the scherzo follows after a pause.
 
 ## Key plan, rehearsal marks and tempo
 
 Key signatures are set in global.ily. Harmonic labels come from the section files' notes.
+
+Augmented sixths across the symphony (c350, A&S PDF 523): II's stand on F♭ = E (21, 64), the scherzo's tonic, as movement I's stands on A♭ (I 12, II's tonic) and the scherzo's on C (III 331, the finale's tonic). Keep them on F♭; no third one is added. Record only.
 
 | Bars | Mark | Section | Key and harmony |
 |---|---|---|---|
@@ -108,7 +110,7 @@ There is no rehearsal mark at 31 or 47. The marks are A–K without I. Tempo mar
 - v205: double basses divided in octaves at 23–28.
 - v208: violas A♭3 at 27 b2.
 - v209: "mettere sord." for Vln I (not the soloist), Vln II, Vla, Vc at bar 4.
-- v211: bar 64 b4, cellos B2 (was E2): the chord under the end of the trombone quotation is a complete German sixth of A♭ (E2–B2–G♯3–D4 = E7, V7 of A minor), every voice falls a semitone into E♭7 at 65. The trombone quotation's notes are unchanged. Since v233 the cellos anticipate B♭2 on the last eighth of 64 (momentary French sixth), removing Cb/Vc fifths into 65.
+- v211: bar 64 b4, cellos B2 (was E2): the chord under the end of the trombone quotation: bass E2 (Cb, B.tbn), Vc B2 → B♭2 on the second eighth, Vla G♯3, Vln II D4, Tbn 1 F3 → E3, so movement I's stop chord over E (V♭9 of A minor), then a French sixth; the augmented sixth E2–D4 is in the bass and Vln II throughout, and every voice falls a semitone into E♭7 at 65 (corrected c350). The trombone quotation's notes are unchanged. Since v233 the cellos anticipate B♭2 on the last eighth of 64 (momentary French sixth), removing Cb/Vc fifths into 65.
 - v215: timpani "damp" at 53; harp A♭1 tied from 82 into 83 under the harmonics; bar-5 muta wording.
 - v218: Vc ff at 79; Hn 2 one level softer at 75–77.
 - v219: low brass f at 61 (was mf); trombone 1's quotation of movement I at 63–64 now ends p on its last note E3 (was mf; pitches, rhythm and the ff entry unchanged); bass clarinet solo p<mp>p at 31–33.
@@ -199,7 +201,7 @@ The timpani rest in 31–36 and in the B section until 52. Only A♭2, C3, D♭3
 ## What the scherzo relies on (from coherence/scherzo.md; checked against scherzo v191 at cycle 190 and v201 at cycle 200; join with scherzo v211 confirmed by the scherzo thread 2026-10-19 (its cycle 210))
 
 - **The last A♭, taken as G♯4 by the scherzo's Horn 1.** v181: Vln II holds A♭4 at 89–92, pp to ppp, under a fermata, with Vln I C5 above. Confirmed.
-- **Timpani E, G, B, E.** v181: the part-only muta at 92 retunes A♭→E, C→G, D♭→B, E♭→E, which gives E2 G2 B2 E3. Confirmed. Note that the text is in the timpani part only, not in the full score.
+- **Timpani E, G, B, E.** v181: the part-only muta at 92 retunes A♭→E, C→G, D♭→B, E♭→E, which gives E2 G2 B2 E3. Confirmed. Since v346 the text prints in the full score as well as the timpani part.
 - **Horns 3·4 muted at the end.** v181: Horns 3·4 play con sord. at 87–90, rest at 91–92, and have "via sord." at 91. So they stop playing muted, and are told to remove mutes before the movement ends. The scherzo's "senza sord." at its bar 73 is still correct and does no harm. scherzo.md's "Open requests" line already gives "via sord." at 91, which matches v181.
 - The last chord (A♭1 A♭2 E♭3 A♭3 E♭4 A♭4 C5; violas' A♭3 since v224) contains A♭ = G♯ (3̂ of E) and E♭ = D♯ (7̂ of E) as common tones with E major.
 
