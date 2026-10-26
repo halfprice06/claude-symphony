@@ -1742,3 +1742,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: remove 'draft' subtitle at release v421
 - Do-not-touch: 116 cl/tpt ff
 - Cross-movement: none
+
+## Cycle 356 (Playability, instrument by instrument; Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13) (second pass)) → v357
+- Accepted: Hn 3-4 breaths after 22 and 39
+- Open / not applied: none
+- Do-not-touch: 146-170 Hn 1; 119-123 staggered breaths; 177-179 chorale
+- Cross-movement: none
