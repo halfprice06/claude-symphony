@@ -1844,3 +1844,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: N6 at 7, 20-22, 140-143, 172-174, 178, 180; Ger6 12-13
 - Cross-movement: none
+
+## Cycle 373 (Form, pacing and proportion; Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground (second pass)) → v374
+- Accepted: no change (form and accompaniment review)
+- Open / not applied: none
+- Do-not-touch: c318, c354, c337 changes; 138 stop chord f
+- Cross-movement: none
