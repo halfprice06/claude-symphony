@@ -1988,3 +1988,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: C.a. F5 70, 94; B.cl 105-106; Hn 1 106 ossia
 - Cross-movement: none
+
+## Cycle 397 (Texture and counterpoint; Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281) (second pass)) → v398
+- Accepted: no change (orchestral treatments review)
+- Open / not applied: none
+- Do-not-touch: 19-22 Bsn 1; 47-55 harp; 103-106 unison
+- Cross-movement: none
