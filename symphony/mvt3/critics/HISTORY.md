@@ -1486,6 +1486,11 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Not applied: sforzandi at 101 and 105 (no long note to carry them; protected), woodwind fp < at 209–210 (decided in c216 and c288), break-offs at 94→95 and 113→114.
 
 ## Cycle 329 (v329 → v330), lens 9, holistic, Dvořák 8/iv; Rimsky-Korsakov examples 131–180
-- 43–47: motive x passes flute → clarinet → oboe over a held A♭3, the seventh of V7 of E♭; the held note moves from Bn 1 to Hn 4 (open, pp, dolce, same pitch and rhythm), so the woodwind phrase takes its harmony from a horn (Rimsky-Korsakov PDF 105, 108, 116, Ex. 136, 140), as c229 did at 95–98. Bn 1 rests 42.4–51.
+- 43–47: the scale figure passes flute → clarinet → oboe over a held A♭3, the seventh of V7 of E♭; the held note moves from Bn 1 to Hn 4 (open, pp, dolce, same pitch and rhythm), so the woodwind phrase takes its harmony from a horn (Rimsky-Korsakov PDF 105, 108, 116, Ex. 136, 140), as c229 did at 95–98. Bn 1 rests 42.4–51.
 - Dvořák 8/iv comparison: the plan holds; 43–47 was the one weaker texture. Compared with v319 nothing got worse (c324's held Ob 1 E♭6 at 91–94 kept).
 - Not applied: a soft muted-brass chord (fits only at the protected 171–186), trills on held tutti notes (254, protected), a shorter slow coda (protected proportion).
+
+## Cycle 330 (v330 → v331), lens 10, cyclic review; Casanelles ch. 5
+- 276–277: after the theme-A quotation at 275–276 the timpani leave the roll on 276.3 and play G–G–G, landing on C at 277.1, the first stroke of movement I's pulse there. Motive x had appeared only on G as an unresolved dominant figure (9, 143–145, 178); its closing form, ending on the tonic as the scherzo's B–B–B–E does, now arrives at the end (Casanelles PDF 200–201, 225, 227, 235–239). Chain G–F♯–F–E, quotation, dynamics and fff close unchanged. New record line motiveXcloseC (42/42).
+- finale.md: item 63 and HISTORY's cycle 329 entry wrongly called the woodwinds' scale figure at 43–47 "motive x"; corrected. Header updated to movement I v371, movement II v390, scherzo v362.
+- Checks: owed items once each, the viola E♭/E thread, the one root-position V–I at 262→263, the stop chord's resolution only at 222→223, C7 and tremolo only from 223, all quotations: unchanged.
