@@ -1814,3 +1814,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 181-182 chord; 164-165; 117-120; 167-169
 - Cross-movement: none
+
+## Cycle 368 (Expression; Aldwell & Schachter Unit 3 Rhythm and Meter: accent, hypermeter (aldwell-schachter PDF 47-57) (second pass)) → v369
+- Accepted: violins fade through the half cadence at 58-59; rit. ends 68.2, Tempo dell'Allegro on 68.3
+- Open / not applied: none
+- Do-not-touch: phrasing 47-63 slurs; 127-130 crescendo
+- Cross-movement: mvt1.md tempo table

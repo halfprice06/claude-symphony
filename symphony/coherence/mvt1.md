@@ -94,8 +94,8 @@ The C drum stays on C for the whole movement. All retunings use the A♭ drum. M
 | 45–46 | poco rit. |
 | 47 | Poco meno mosso, crotchet = 112 |
 | 62–63 | poco animando |
-| 66–68 | rit. |
-| 69 | Tempo dell'Allegro, crotchet = 126 |
+| 66–68.2 | rit. |
+| 68 (beat 3) | Tempo dell'Allegro, crotchet = 126 (since v369; mark D stays at 69) |
 | 121–122 | allargando |
 | 123–126 | sostenuto |
 | 127 | a tempo |
