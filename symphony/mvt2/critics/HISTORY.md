@@ -2220,3 +2220,10 @@ lens 1, melody; A&S Unit 2 (PDF 33-46). Report: reports/c341.md.
 - Accepted: Vln I G5 at 77 b1 (A♭5 seventh resolves by step), then E♭6 on b2.
 - Recorded (no change): interval vocabulary; escape notes 43, 59; outer voices; fourths; minor passages; upbeat; bar 55.
 - Do-not-touch: standing list; the 8-page layout; Vln I register plan 74-78 as now settled after c299, c309, c341 (unison 74 b3-77 b1, upper octave from 77 b2, B♭6 first at 79): reopen only with a new book reason.
+
+
+## Cycle 342 (v342 → v343)
+lens 2, harmony; A&S Unit 4 (PDF 58-73). Report: reports/c342.md.
+- Accepted: bar 43 comment corrected (ii4/3).
+- Recorded (no change): sevenths; bar 36 b3; bar 49 b2; doubling and 6/4 checks pass.
+- Do-not-touch: standing list; the 8-page layout.
