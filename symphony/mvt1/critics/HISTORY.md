@@ -1568,3 +1568,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: Vla E♭4/G4 at 41–42, 131–132 (loud repeated/tremolo); all 32 big leaps; open G2 pickups at 1 and 175; pp bows of 6–8.8 s unmarked.
 - Do-not-touch: E♮→E♭ thread notes at 166.
 - Cross-movement: none.
+
+## Cycle 327 (Texture and counterpoint; Adler ch. 5 foreground, middleground, background; strings as accompaniment (adler1 PDF 132-167) (second pass)) → v328
+- Accepted: Violas enter on beat 2-and at 144 (r4 r8 g8~ g2, was G3 from beat 1) so Bsn 1's pickup G3 to its answer is not doubled by an already sounding string note (Adler PDF 135, 144), as c227/c294 at 15, 17, 19, 37, 143 (recOne). Rhythm only.
+- Open / not applied: None. Kept: Ob pickup inside the Vln II tremolo at 37.3; pickups at 78.3, 127.1 (protected); cello countersubject above violas 88–90; C.a./Vc meeting at 174; Vln II under violas 67–68.
+- Do-not-touch: c239 lead-in at 143–144; fugato; coda notes.
+- Cross-movement: none.
