@@ -1586,3 +1586,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 175–178: the cor anglais and muted trumpet doubled the recapitulated F2 in unison for all 16 bars (171–186); Rimsky-Korsakov doubles a solo line only in single phrases (PDF 140–141, Ex. 284, 289). The muted trumpet now rests 175–178, so that phrase is the cor anglais alone; it returns at 179 ("1."). The duet at 171–174 (linked to movement I 171–174) is unchanged.
 - Not applied (protected): Cl 1's pp E♭4 at 51–66, Ob 1·2 unison at 219–222, an obbligato beside the bassoon solo at 115–122.
 - Bruckner 4/iv comparison: his coda is one long crescendo, this coda has several peaks; its plan is protected, observation only. v339 comparison (built in scratch): nothing got worse in c339–c348.
+
+## Cycle 350 (v350 → v351), lens 10, cyclic review; Rimsky-Korsakov PDF 13–23, 124–129
+- No score change. Cyclic review: quotations at pitch against movement I v401 (35/35), movement II v400 (18/18, 11/11), scherzo v391 (52/52; c383's E-major reprise second idea is not quoted); C7, tremolo, trumpet, cymbal and B→C rules intact. The muted trumpet's rest at 175–178 (c349) leaves the cor anglais duet at 171–174 intact.
+- finale.md: eleven stale sentences corrected (header versions and MIDI length, scherzo record line, dynamics at 255, items 4, 8 and 10, the timpani's two retunings, open requests).
+- themes-finale-quotes.ly: eight at-pitch link checks added (movement II's last tail in Ob 1 at 95; theme B's answer in Hn 1·2 and C.a. at 217; Hn 3 D♯4→E4 at 219; Tpt 1 B4→C5 at 222–223; Hn 4 F♯3→G3 and Cl 1 A♭4→G4 at 1–2); record 50/50. The violas' D♯→E at 219–220 cannot be recorded until lyparse expands `q`.
+- Not applied: a relay across the orchestra at 7–10 (would replace c280's staggered crescendo) or 263–264; a muted-trumpet echo of the cor anglais at 178 (covers motive x).
