@@ -1748,3 +1748,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 146-170 Hn 1; 119-123 staggered breaths; 177-179 chorale
 - Cross-movement: none
+
+## Cycle 357 (Texture and counterpoint; Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255) (second pass)) → v358
+- Accepted: Bsn 2 Bb2 at 41-43 (was Eb3); Cl 1-2 pad from 35.2; Hn 4 from 69.2
+- Open / not applied: none
+- Do-not-touch: 27, 131, 167 overlaps; 139-142 violin unison
+- Cross-movement: none
