@@ -1820,3 +1820,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: phrasing 47-63 slurs; 127-130 crescendo
 - Cross-movement: mvt1.md tempo table
+
+## Cycle 369 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (second pass)) → v370
+- Accepted: no change (master comparison, Brahms PC 1/i)
+- Open / not applied: none
+- Do-not-touch: 1-4, 117-130; 47-55; 162-166; 167-182
+- Cross-movement: none
