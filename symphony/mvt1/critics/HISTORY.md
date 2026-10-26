@@ -1730,3 +1730,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Hn 2 F4 130.3-131 (seventh resolution); 155-158 pacing
 - Cross-movement: none
+
+## Cycle 354 (Orchestration; Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (second pass)) → v355
+- Accepted: held brass stay f at 139-141 (no cresc. to ff); timpani roll starts p at 80
+- Open / not applied: none
+- Do-not-touch: 160 Tpt 2 fff; 131-134 counter; 158-159; 117-121 pedal
+- Cross-movement: none
