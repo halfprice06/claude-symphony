@@ -1511,3 +1511,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 334 (v334 → v335), lens 4, Adler ch. 11 brass in the orchestra
 - 255–256: the last chorale statement began with Hn 1–4 and Tbn 1 all on G3 while the I6 chord's root had only Tpt 3's low C4 (Adler part 2 PDF 15, Ex. XI-1; earlier noted by c084 and c319). Hn 1 now holds E4 and Hn 2 C4 at 255 (Hn 2 to B3 at 256 as before; Hn 1 re-attacks E4 at 257). Chorale top line, Tbn 1, F2's phrase, bass and dynamics unchanged.
 - Checked, no change: the D-less brass V7 at 262 (every D makes fifths; protected), low trumpets at 159–166 (protected), soft trombone theme, string-free brass choir, brass under the timpani at 229, mute markings.
+
+## Cycle 335 (v335 → v336), lens 5, Gould PDF 7–13, 17–68
+- 82: the harp's 8 bassa line ran under the half rest to the barline since c296; it now ends right after the E♭ (Gould PDF 44).
+- 229.3: on the shared flute staff Fl 2's B♭5 was shifted right with its flat printed in front of Fl 1's C6, reading as C♭6 over B♮5; score-only force-hshift puts the B♭ left with its own flat (Gould PDF 61–64, 66). MIDI byte-identical.
+- Checked, no change: 103 seconds on shared staves (229 the only one with an accidental), ledger lines, spacing at 102/107/146/148, the harp octave line at 242, the basses' tenor clef at 27–34.
