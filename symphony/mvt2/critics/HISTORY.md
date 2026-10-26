@@ -2078,3 +2078,10 @@ lens 1, melody; Adler ch. 11 melodic presentation (adler2 PDF 19-36). Report: re
 - Accepted: outdated trumpet comments in bSec.ily corrected.
 - Recorded (no change): B♭ appoggiatura plan; Hn 3·4 unison 61-62; horns join counter-melodies in stages.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 322 (v322 → v323)
+lens 2, harmony; A&S Units 30-31 (PDF 530-583). Report: reports/c322.md.
+- Accepted: bar 52 cellos C3–D3–E♭3, Vln II F5 on b1-2 (passing ♯4 into the A♭7).
+- Recorded (no change): 62-65, 21, 33 chords; no augmented triads or V7♯5. Correction: E♮ also in Vln II at 20 b3 (c220 was wrong).
+- Do-not-touch: standing list; the 8-page layout; the rise B→C reserved for the finale.
