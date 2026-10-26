@@ -2048,3 +2048,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Cb bowing 5-12; open-string pads; 122-123 Vln II double stops
 - Cross-movement: none
+
+## Cycle 407 (Texture and counterpoint; Rimsky-Korsakov ch. II Melody in combined groups (rimsky-principles PDF 74-80) (second pass)) → v408
+- Accepted: Cl 2 joins the climax counter (Ob 1 + Cl 1-2 over Hn 3-4) at 158-160
+- Open / not applied: none
+- Do-not-touch: 91-95 Vla+Bsn 1 octave; 23-25/135-137 Fl+Ob with Vln I; 160 E-flat5
+- Cross-movement: climax counter scoring note for coherence/mvt1.md at v411
