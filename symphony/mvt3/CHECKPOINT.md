@@ -3,10 +3,11 @@
 - Since v326 the timpani rolls are repeated strokes in score.midi (score.ly's MIDI score uses \rollStrokesByBar with v*/rolls-midi.ily). Before the next r07 render, test prep_render.py on a copy: the percussion variables keep their names, but each roll is now 8–64 MIDI notes.
 
 ## Third series, continued (session cse_01SWLBceYg6ZWKih28Euwaj4, thread "Finale, loops from v264", since 2026-10-19 22:10)
-Latest: **v300** (cycle 299 done). Next cycle: 300. Dan 2026-10-25: 100 more loops, so the series now ends at cycle 399 → v400. v300 is the merge snapshot and was rendered with r07.
+Latest: **v341** (cycle 340 done, cyclic). Next cycle: **341** (lens 1). Series ends at cycle 399 → v400 (Dan 2026-10-25: 100 more loops). v300 was the merge snapshot and was rendered with r07. Handoff 2026-10-26 ~18:15 UTC at 21.2 h uptime (mount expiry), branch claude/project-thread-v69o8h at the commit after 26f38cc8.
 Per cycle helper (scratchpad, recreate if lost): promote.sh N+1 N /tmp/critic-N/work; add a running-list line to coherence/finale.md; finish.sh N "lens ..." notes; copy finale.md and themes-finale-quotes.ly to the mount; genprompt N+1. Lens 9 cycles add the "v(N-10) has no score.pdf" note; lens 10 cycles add the cyclic focus and the stale-sentence request.
 r07 render: copy the version, simplify arrivalPerc to `<cymc bd>1\fff | R1*11 |`, codaTwoPerc to `R1*8 | R1*2 | R1*2 |`, and finalePerc's two-voice 278–279 to `<cymc bd>1->\fff~ | <cymc bd>4 r4 r2\fermata`; assets from /mnt/project-files/symphony/render/assets/{iowa,philharmonia,vpo3,sf2}.
-Theme record is 42/42 since v291 (motive x at 178). coherence/lyparse.py is the scherzo's c310 version.
+Theme record 42/42 (v316 added the at-pitch G♯ lines at 1 and 243, v331 motiveXcloseC at 276, v332 replaced choraleFirst VlnOne 226 by choraleCanon). coherence/themecheck.py is the scherzo's at-pitch ('abs') version; coherence/lyparse.py includes movement II's patches (mvt2 triplets, c370 ties, c390 braced branch).
+Helper scripts were in the old session's scratchpad (cyc.sh, addnote.py, prep_render.py); their logic: promote, add a numbered line to finale.md's running list ('## Changes in cycles 261–') and update 'running list for v262–vNNN', finish.sh, mirror finale.md + themes-finale-quotes.ly to the mount, genprompt N+1. Before each lens-10 cycle, copy the siblings' coherence files from the mount into the checkout (do not commit them).
 
 ## Third series (2026-10-19, thread "Finale, 200 more loops", session cse_01S169UKdVsqhaxTmmz6YB7N)
 Cycles 201-400 (v201 -> v401), branch claude/project-thread-v69o8h (pushed after every cycle, no PR). Latest: **v264** (cycle 263 done). Next cycle: 264.
