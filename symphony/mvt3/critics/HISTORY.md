@@ -1555,3 +1555,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 159: the recapitulation's second F1 statement still leapt E♭–C in the bass, while the exposition's 19 has moved by step since c313. The bass now falls E♭–D–C through a complete passing V4/3 (D–F–G–B) on beat 3, the seventh F resolving to E♭ (A&S PDF 121–124, Ex. 8-5; 127, Ex. 8-10; 101, Ex. 6-17; 131). Vc, Cb, Bn, Cbsn, B.tbn, Tuba; Tbn 1·2, Cl 2 and four eighths of the Vln II/Cl 1 counter-line adjusted. Tune, Vln I divisi, dynamics and scoring of 159–166 unchanged.
 - Not applied: VII6 as passing chord (no unprotected place at 3–8, 43–50, 67–76, 167–170); bass double neighbours (no unprotected tonic).
 - Checked, no change: the coda's proportions (31%) and stages 223, 234, 246→247, 262–263.
+
+## Cycle 344 (v344 → v345), lens 4, Adler ch. 5 strings in the orchestra
+- 41–42: as the violins drop to F4–D4–E♭4–F4 in unison, fading to p, the cellos double them an octave lower (F3–D3–E♭3–F3) instead of holding B♭2, before the woodwind scale passage at 43 (Adler PDF 141, Ex. V-19, Shostakovich 6). c254 had rejected cellos here for the B♭ pedal; the pedal stays in Cb B♭1, Bn 2 B♭2, Hn 2 B♭3, and the cellos hold B♭2 at 39–40. c237's staggered drop-outs and Fl 1's A♭5 unchanged.
+- Not applied: the string accompaniment under the bassoon solo 115–122 and the violas' dynamic balance at 83–86 (both protected and already sound by Adler PDF 128, 133–135, 144).
+- Checked, no change: 242–244 and 255.
