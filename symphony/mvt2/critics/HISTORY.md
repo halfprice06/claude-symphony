@@ -2325,3 +2325,10 @@ texture. Report: reports/c357.md.
 
 
 - v359 (c358, expression): timpani pp< at 60 with the low brass; stale c218 comments corrected.
+
+
+## Cycle 359 (v359 → v360)
+holistic comparison with a master work (Glazunov 5/iii). Report: reports/c359.md.
+- Accepted: nothing (v360 = v359 relabelled).
+- Recorded (no change): c359 (Adler ch. 17 accompaniment; Glazunov 5/iii, which is in E-flat, not D-flat): no change. Harp triplets at 53-56 and Vln II F4 at 45-46 kept under Adler's exceptions; plain first statement 23-30, violins at the return and no harp at 79-81 confirmed; nothing worse since v349.
+- Do-not-touch: standing list; the 8-page layout.
