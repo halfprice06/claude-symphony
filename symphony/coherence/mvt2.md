@@ -149,7 +149,7 @@ Apart from v224's inner voice, none of these touches the opening's carried-over 
 | Last chord C–E–G–C, Vln I's C5 (end of mvtOneMottoViolins) | 1 | Vln I C5, Vln II G4, Vla E4, Vc C3, Hn 3 C4 | Tied over (\repeatTie), ppp; see Opening. |
 | Motto tail E♭–D–D♭–C (mvtOneMottoTail) | 8 | Horn 1 | E♭4 (tied from 7) D4 D♭4 C4, in theme A |
 | | 24 | Vln I + II | E♭5 D5 D♭5 C5, in theme A |
-| | 32–34 | bass clarinet, "solo, espr." | Pickup E♭2 F2 A♭2 C3 at 31, then E♭3 (32, tied) D3 D♭3 (33) C3 B♭2 (34): movement I's pitch and instrument (its bars 2–3). Cor anglais a sixth above (C4 | C4 C♭4 B♭3 | A♭3). |
+| | 32–34 | bass clarinet, "solo, espr." | Pickup E♭2 F2 A♭2 C3 at 31, then E♭3 (32, tied) D3 D♭3 (33) C3 B♭2 (34): movement I's pitch and instrument (its bars 2–3). Cor anglais a sixth above (C4 | C4 C♭4 B♭3 | A♭3). The cor anglais moves a sixth above it in the same rhythm, so movement I's first two motto instruments (B.cl. I 1-4, C.a. I 5-9) sound together here (recorded c330). |
 | | 67–69 | Horn 1 alone, "solo", "dolce" | E♭4 (67, p <) D4 D♭4 C4 (68, mp >) B♭3 (69–70) over the E♭ pedal; Bassoon 1 a third below at 68. |
 | | 72 | Vln I, Vln II | E♭6 D6 D♭6 C6 (Vln I), E♭5 D5 D♭5 C5 (Vln II), in theme A |
 | | 85–89 | Clarinet 1 | E♭5 D5 D♭5 (87–88) C5 (89–90), the movement's last tail |

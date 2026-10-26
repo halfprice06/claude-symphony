@@ -2135,3 +2135,10 @@ lens 9, holistic, Tchaikovsky Symphony No. 3/iii; A&S opening examples of Units 
 - Accepted: nothing (v330 = v329 relabelled).
 - Recorded (no change): Tchaikovsky puts distant keys in the reprise, this score in the middle (65-82 protected); 92 bars against 182 (c253, c303, c319); the ending into the scherzo is the Widmung common-tone modulation (Ex. 32-3, PDF 586); climax 61-65 follows K. 397 and Op. 106 (PDF 482-483, 585); middle-section triplets; coda returns to bar 1's colour, plagal close as Chopin Op. 28/9; flat ninth at 80-81 (Unit 27); nothing worse than v319.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 330 (v330 → v331)
+lens 10, cyclic; Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290). Report: reports/c330.md.
+- Accepted: nothing (v331 = v330 relabelled).
+- Recorded (no change): woodwind-choir opening keeps theme A fresh after movement I's horn-over-harp A-flat (Ex. XVII-7/8); six motto-tail statements each scored differently, and at 32-34 B.cl. and C.a. are movement I's first two motto instruments together (added to coherence/mvt2.md); close placements at 32-34 and 47-50 settled (c263, c294, c324); timpani E-flat C A-flat at 84-85 joins into the scherzo's timpani figure (scherzo v321 checked); quotation colours; hand-over to the scherzo's Hn 1 G-sharp 4 with Hn 1 silent from 82 b3; B-flat 6 only at 79.
+- Do-not-touch: standing list; the 8-page layout.
