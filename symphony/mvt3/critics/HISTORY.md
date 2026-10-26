@@ -1281,3 +1281,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Groups above the first ledger line get Gould's slope at 90, 101, 104, 125, 206, 250, 253, 265, 267 (Gould PDF 35–36). Accepted.
 - Cl 1·2 159–164 no longer forced flat against Vln II's sloping beams (revert moved to 159). Accepted.
 - Repeated two-pitch figures 171–186, 277: kept. Agreed.
+
+## Cycle 286 (v286 → v287), lens 6, Adler ch. 3
+- 124.4–126: violas "sul D" for F2's hand-over, so the A4 at 125 is stopped on the D string, as the cellos' "sul D" at 123 (Adler PDF 73–74, 86–87). Accepted.
+- Other open strings in lyrical lines, chords, bass lines, ranges, the harmonic at 43–50: no change. Agreed.
