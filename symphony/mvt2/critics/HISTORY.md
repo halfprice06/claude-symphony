@@ -2417,3 +2417,6 @@ orchestration. Report: reports/c374.md.
 - Accepted: nothing (v375 = v374 relabelled).
 - Recorded (no change): c374 (Sebesky ch. 2 woodwind and brass-woodwind combinations): no change. C.a./Bsn 1 second at 81 (moving lines, protected doubling), clarinet second at 58 b4 (resolving seventh) and the horn spacing at 79-81 recorded.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+- v376 (c375, engraving): stem direction fixes, Fl 1 at 78 and Cb at 21.
