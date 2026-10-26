@@ -1350,3 +1350,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 119–123: the Vln I solo desks' answers had no dynamic of their own, so the MIDI played them at velocity 90 against the printed pp; now in their own voice with a hidden pp (Rimsky PDF 128; Casanelles PDF 272). Accepted; printed page unchanged. The v300 r07 render still has the loud desks.
 - finale.md: eight stale sentences contradicted by running-list items 26–33 corrected. Applied.
 - Quotations against I v340, II, scherzo (trio change not quoted): 39/39, clean. Brahms-3 cross relation and 94→95 overlap: declined. Agreed.
+
+## Cycle 301 (v301 → v302), lens 1, Adler ch. 3 strings in melody
+- 189–192: Vln I·II "sul A" on the recapitulated F2's peak and descent, so the A♭ statement is veiled where 69–72 is bright (Adler PDF 73, 75, Ex. III-7). Accepted; notes and bowing unchanged.
+- 178: pizz. cellos play motive x with the timpani, pp (Adler PDF 103), giving the near-the-rim quotation a pitch. Accepted; scherzo thread told.
+- Open strings at 67 and 232, a phrase sul G: no change. Agreed.
