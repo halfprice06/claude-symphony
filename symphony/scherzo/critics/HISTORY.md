@@ -183,6 +183,36 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 361 (lens 1 melody, Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (fifth pass)) v361 → v362
+No change; passing-tone rewrite of the second idea rejected because it broke the hemiola.
+
+## Cycle 360 (lens 10 cyclic, Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (fourth pass)) v360 → v361
+Timpani rolls now sound as rolls in the MIDI; cyclic check passed.
+
+## Cycle 359 (lens 9 holistic, Adler part 1 full-score examples in ch. 5 and 8 (adler1 PDF 137-165, 235-281) (fourth pass)) v359 → v360
+Cellos preview the tutti countermelody alone at 253–268.
+
+## Cycle 358 (lens 8 expression, Sebesky ch. 1 focus and variety, ch. 6 melodic considerations (sebesky PDF 11-20, 204-218) (fourth pass)) v358 → v359
+Expression words matched across doubled parts; Fl 1 p at 183.
+
+## Cycle 357 (lens 7 texture, Sebesky ch. 1 Basics: balance, economy, focus, variety (sebesky PDF 11-20) (fourth pass)) v357 → v358
+Harp chord at 343 cleaned; flute answer at 176 raised an octave.
+
+## Cycle 356 (lens 6 playability, Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (fourth pass)) v356 → v357
+Cl 1 out of the throat register at 133–136 and 321–323.
+
+## Cycle 355 (lens 5 engraving, Adler ch. 2 notation of bowings, divisi and harmonics (adler1 PDF 30-55) as engraving rules (fourth pass)) v355 → v356
+'unis.' at 193 moved to Vln II.
+
+## Cycle 354 (lens 4 orchestration, Casanelles ch. 6 spectral orchestration and acoustic mixing in Mahler's First Symphony (hyper-orchestra PDF 257-290) (fourth pass)) v354 → v355
+Harp rests at 214–215.
+
+## Cycle 353 (lens 3 form, Aldwell & Schachter Unit 15 III and VII (aldwell-schachter PDF 230-247) (fourth pass)) v353 → v354
+Violas at 314 remove a root-position augmented triad.
+
+## Cycle 352 (lens 2 harmony, Aldwell & Schachter Unit 27 Seventh chords with added dissonance (aldwell-schachter PDF 463-481) (fourth pass)) v352 → v353
+No change; corrected the recorded reason for the plain V7 at 101-104.
+
 ## Cycle 351 (lens 1 melody, Aldwell & Schachter Unit 3 Rhythm and Meter (aldwell-schachter PDF 47-57) (fourth pass)) v351 → v352
 No change; rhythm and meter already follow the reading.
 
