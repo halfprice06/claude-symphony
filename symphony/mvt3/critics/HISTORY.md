@@ -1377,3 +1377,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 27–34: Fl 1·2 a2 now double the violins' countersubject at pitch, f, and the clarinets rest. The flutes had a middle-register pad that copied the oboes and could not be heard; the clarinets were at written D6–G6 (Adler PDF 184–185, 187, 192, 210). Flutes breathe at different points; Fl 1 holds A♭5–G5 at 30 to avoid octaves with the bass.
 - 33–38, Bn 1 part only: tenor clef for the eighths up to B♭4 (Adler PDF 225).
 - Checked, no change: low flutes 43–44, Cbn G2 at 24/87/164, bass clarinet line, clarinet E6–F♯6 in the ff tutti at 227–230 and 265–268.
+
+## Cycle 307 (v307 → v308), lens 7, Adler ch. 5 strings in the orchestra
+- 3–4: the cellos join the opening scale figure an octave below the violas, f, so the answer to the ff chord at 1–2 has a bass below G3 (Adler PDF 137, 139–141). Bars 1–2 and 5–6 unchanged; the basses still enter at 9.
+- 115–122: the pizzicato accompaniment under the bassoon solo repeats the 51–66 formula; an imitative inner-string figure (Adler PDF 160) is proposed in the report but not applied, since 115–130 is protected.
+- 9–10: with the cellos at 3–4 the octaves now build up step by step to the tutti; no change.
