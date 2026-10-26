@@ -183,6 +183,36 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 351 (lens 1 melody, Aldwell & Schachter Unit 3 Rhythm and Meter (aldwell-schachter PDF 47-57) (fourth pass)) v351 → v352
+No change; rhythm and meter already follow the reading.
+
+## Cycle 350 (lens 10 cyclic, Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (fourth pass)) v350 → v351
+No score change; shared theme checker now checks pitch; records updated.
+
+## Cycle 349 (lens 9 holistic, Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (fourth pass)) v349 → v350
+Flute answers the cellos' trio tune in its held notes at 172/176/183.
+
+## Cycle 348 (lens 8 expression, Aldwell & Schachter Unit 3 Rhythm and Meter: accent, hypermeter (aldwell-schachter PDF 47-57) (fourth pass)) v348 → v349
+Dynamic peaks moved to the attack of T's high A; timpani level steady into 105/305.
+
+## Cycle 347 (lens 7 texture, Rimsky-Korsakov ch. III overlaying, crossing and enclosure (rimsky-principles PDF 106-114) and the examples cited (fourth pass)) v347 → v348
+Two voice-leading fixes at 212–213 (Bsn 1) and 343 (violas).
+
+## Cycle 346 (lens 6 playability, Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50) (fourth pass)) v346 → v347
+Harp bass at 214–215 avoids two pedal changes on the ringing low A string.
+
+## Cycle 345 (lens 5 engraving, MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score (fourth pass)) v345 → v346
+Parts: cues refreshed after c344; tempo words aligned with rehearsal letters.
+
+## Cycle 344 (lens 4 orchestration, Adler ch. 5 Scoring for Strings (adler1 PDF 125-167) (fourth pass)) v344 → v345
+Trio tune's second statement moved to the cellos (169–184), saving the high violin octave for 209.
+
+## Cycle 343 (lens 3 form, Aldwell & Schachter Units 6-8 I, V, V7 and their inversions: phrase structure (aldwell-schachter PDF 92-133) (fourth pass)) v343 → v344
+Codetta bass varied at 230 (E–G#–A–E).
+
+## Cycle 342 (lens 2 harmony, Aldwell & Schachter Units 30-31 Other chromatic chords; Chromatic voice-leading techniques (aldwell-schachter PDF 530-583) (fourth pass)) v342 → v343
+Cl 2 voice leading fixed at 86–88.
+
 ## Cycle 341 (lens 1 melody, Adler ch. 11 Scoring for Brass: melodic presentation (adler2 PDF 19-36) (fourth pass)) v341 → v342
 No change; brass melodic presentation already follows the reading.
 
