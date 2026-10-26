@@ -2099,3 +2099,11 @@ lens 4, orchestration; Adler ch. 5 strings (adler1 PDF 125-167). Report: reports
 - Accepted: Cl 2 E♭4 on 73 b3; viola figure at 75 b2 ends on A♭3.
 - Recorded (no change): viola figure at 71, 74, 78; Vln I A♭6 at 58; 63-64 tremolo; 48-51; divisi at 62.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 325 (v325 → v326)
+lens 5, engraving; Adler part 1 ch. 2 (PDF 30-55). Report: reports/c325.md.
+- Accepted: violas and basses resume arco down-bow at 45, 46 one up-bow (pizz.→arco from the frog).
+- Not taken: two-stem unisons at 25-28 and 39 (would double notes in the MIDI).
+- Open: "unis."/"div." text for single notes in divided passages (violas 25-28, Vln II 39).
+- Do-not-touch: standing list; the 8-page layout.
