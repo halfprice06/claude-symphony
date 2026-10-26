@@ -1271,3 +1271,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 113–114 pivot chord: tested, not applied (the unit allows a seam without pivot; it would repeat 121–122's cadence). Agreed.
 - 77–78 tonicized vi: tested, not applied (cross relation with the tune). Agreed.
 - 186→187, 115–150, key plan: follow the unit. Agreed.
+
+## Cycle 284 (v284 → v285), lens 4, Rimsky-Korsakov ch. III
+- 243–246: Cl 1 moves up an octave out of the horns' C4–C5 octave and its throat register, above the horn call (Rimsky PDF 108, 110–111; Adler1 PDF 210). Accepted; the horn call quotation is unchanged.
+- 11–26, 42, 169, 219–222, 231–234, 171–186, 110: no change. Agreed.
