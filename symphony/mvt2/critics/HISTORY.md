@@ -2256,3 +2256,10 @@ lens 6, playability; Adler part 1 ch. 10 trumpet and trombone (PDF 312-329). Rep
 - Accepted (composer): low brass enter p< at 60 (was pp<).
 - Recorded (no change): Tbn 1 quotation 63-64; entry pitch; B.tbn D2; trumpet tacet pages; Tbn 2 breathing.
 - Do-not-touch: standing list; the 8-page layout; Tbn 1 held back for its single quotation.
+
+
+## Cycle 347 (v347 → v348)
+lens 7, texture; Adler ch. 5 homophonic writing for strings (adler1 PDF 150-157). Report: reports/c347.md.
+- Accepted: nothing (v348 = v347 relabelled).
+- Recorded (no change): unison violins 15-17 semitones above the next voice at 75-76 (Vln I register plan settled c299, c309, c341); Vln II A-flat 4 at 61 b1-2 while theme B's head sounds in three octaves; wide gaps at 21-22 (solo violin) and 27-28 (c207); coda thins by solos instead of dropping the bass (protected close); IV6 third in five melodic voices at 87-88 (c207); clear melody, counter-line and accompaniment roles; first inversions follow Ex. V-27.
+- Do-not-touch: standing list; the 8-page layout.
