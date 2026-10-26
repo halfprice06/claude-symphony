@@ -2015,3 +2015,10 @@ lens 2, harmony; A&S Units 28-29 (PDF 482-529). Report: reports/c312.md.
 - Accepted: cellos hold B2 at 49 b3-4 as V's seventh and resolve to A2 at 50 (Neapolitan → V7 → i).
 - Recorded (no change): 64 spellings; 61-65 models; chromatic spellings; augmented sixths at 21, 64; no Neapolitan coda.
 - Do-not-touch: standing list; the 8-page layout; the 61-65 return, French sixth at 21, Neapolitan at 49.
+
+
+## Cycle 313 (v313 → v314)
+lens 3, form; A&S Units 6-8 I, V, V7 and phrase structure (PDF 92-133). Report: reports/c313.md.
+- Accepted: nothing (v314 = v313 relabelled).
+- Recorded (no change): dominant span 65-70 is 6 percent of the movement (Dvorak 9/ii returns with none; protected); middle section stays open with no full D-flat cadence; reprise shortened by a stepwise-bass close at 74-75 (Schubert Impromptu example in A-flat), 0.52 of the first A; inner phrases on I6 at 15, 41, 57 after arrivals; cello passing sevenths at 22 and 26; rhythm against metre at 48-49, 63-64, 79-81; half-cadence bass at 44 sounds only on b1 but the harp A-flat rings (held Bsn 2 A-flat 2 untested, not recommended).
+- Do-not-touch: standing list; the 8-page layout.
