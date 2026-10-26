@@ -8,6 +8,7 @@ motiveXretr = { g,4 g,8 g,8 g,4 r4 }
 %@ motiveXretr Timp 9 4
 %@ motiveXretr Timp 143 4
 %@ motiveXretr Timp 144 4
+%@ motiveXretr Timp 178 4
 
 % c029 proposal: scherzoHeadC: the scherzo's theme A head (scherzo VlnOne 13: e''4 b'8 b'8 e''4 | g''2 fis''8 f''8 | e''4), transposed to C
 % and turned to major (its G becomes E natural), note values kept, rebarred in 2/2 (starts on beat 1 of finale 275). Tpt 1-2, Cl 1, Fl 1 (8va), Hn 1-2 (8vb).

@@ -1298,3 +1298,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 289 (v289 → v290), lens 9, holistic (Sibelius 2/iv)
 - 213→214: Bn 1 skips to G♭3 on 213.3 (`bes2 ges2)`) to remove parallel 12ths with the tune's F5→E♭5 (A&S PDF 329, Ex. 20-2b). Accepted.
 - 70–72/190–192 seventh chain, 139–150 augmented sixth, 12.3/160.3 inner fifths, 135–138: not applied or kept. Agreed.
+
+## Cycle 290 (v290 → v291), lens 10, cyclic review
+- 178: timpani play the scherzo's motive x pp near the rim (`g,4 g,8 g,8 g,4 r4`) in the gap between the recapitulated F2's phrases, as Beethoven's Violin Concerto timpani (Adler2 PDF 273); the soft form of the scherzo's last statements. "ord." at 199. Accepted; new record line `%@ motiveXretr Timp 178 4`, record 39/39; scherzo thread told.
+- finale.md: stale sentences corrected (header versions, open request, 81 cellos, 167–169 stopped horns, Hn 1 at 67–74, Bn 1 at 213); running list 22–25 added, including the cor anglais duet link with movement I 171–174. Applied.
+- Cyclic checks against I v321 (record to v329), II v310, scherzo v311: clean.

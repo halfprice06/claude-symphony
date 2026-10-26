@@ -1,6 +1,6 @@
 # Movement I (Allegro, C minor): current state for the other movement threads
 
-Owner: the movement I thread ("Movement I, loops from v300" since 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v320 (cycle 319). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
+Owner: the movement I thread ("Movement I, loops from v300" since 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v321 (cycle 320, release check; final version of series 3). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them.
 
@@ -117,7 +117,7 @@ There are three climaxes on A♭, rising in strength:
 
 1. **Bar 82, ff.** First-theme head in tutti over an A♭ bass (double basses repeat A♭1 in quavers). The top is E♭6 (Fl 1, Vln I). Since v305 the held brass are f under the ff head, with ff strokes at 83; since v309 Tpt 2 rests at 82 and enters on the strokes at 83.
 2. **Bar 122, fff.** A♭6 in Vln I (tremolo) and Fl 1 over the G pedal (A♭ as the minor ninth of V). The upper parts fade from 123 (since v319), the pedal parts from 124. Tam-tam fff (heavy beater) 122, diminuendo from 124 ("damp gradually") to p at 126, damped at 127 (since v229). It arrives from the trombone motto at 117–121.
-3. **Bar 160, fff.** A♭6 in Vln I and Fl 1·2, with Vln II and Ob 2 an octave lower (Vln II since v230; Ob 2 since v242, when Ob 1 moved to the countermelody with Cl 1) over an A♭ bass (♭VI). Suspended-cymbal roll at 159 ending in one soft-stick suspended-cymbal stroke fff l.v. at 160 (since v251; until v250 a crash), tied through 163 and damped at 164 (since v277). Movement I has no clashed cymbals.
+3. **Bar 160, fff.** A♭6 in Vln I and Fl 1·2, with Vln II and Ob 2 an octave lower (Vln II since v230; Ob 2 since v242, when Ob 1 moved to the countermelody with Cl 1) over an A♭ bass (♭VI). Suspended-cymbal roll at 159 ending in one soft-stick suspended-cymbal stroke fff l.v. at 160 (since v251; until v250 a crash), tied through 163 and damped at 164 (since v277); since v329 it is shaded ('damp gradually', diminuendo 162 to p at 163). Movement I has no clashed cymbals.
 
 The fff marks are at 122 and 160 only.
 
@@ -129,7 +129,7 @@ The A♭6 peaks:
 ## Brass use
 
 **Trumpets.**
-- Where they play: 26–33, the sf quaver at 41, 69–72 (Tpt 1 has the S head at f with Ob 1 and the flutes), 82–83, 113–116, 122–123, 131–143, 158–162 and 167–170.
+- Where they play: 26–33, the sf quaver at 41, 69–72 (Tpt 1 has the S head at f with Ob 1 and the flutes), 82–83, 113–116, 122–123, 131–134, 138–143 (Tpt 3 to 142; the stop chord at 138 is a fresh trumpet entry, as at 26), 158–162 and 167–170.
 - Tpt 1 moves B4→C5 into the minor tuttis at 26→27 and 138→139.
 - Their last note is at 170: Tpt 1·2 accented B♮4 under the fermata, unresolved; Tpt 3 F4. They are silent 171–182.
 - There is no trumpet solo and no soft trumpet melody.
