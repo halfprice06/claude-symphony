@@ -2107,3 +2107,10 @@ lens 5, engraving; Adler part 1 ch. 2 (PDF 30-55). Report: reports/c325.md.
 - Not taken: two-stem unisons at 25-28 and 39 (would double notes in the MIDI).
 - Open: "unis."/"div." text for single notes in divided passages (violas 25-28, Vln II 39).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 326 (v326 → v327)
+lens 6, playability; Sebesky ch. 2 (PDF 21-110). Report: reports/c326.md.
+- Accepted: Hn 3 tenuto on the re-struck A♭3 at 88.
+- Recorded (no change): breathing, ranges, horn spacing and mutes, woodwind blend, brass endurance.
+- Do-not-touch: standing list; the 8-page layout.
