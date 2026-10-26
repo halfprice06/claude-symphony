@@ -2298,3 +2298,10 @@ form. Report: reports/c353.md.
 - Accepted: nothing (v354 = v353 relabelled).
 - Recorded (no change): c353 (A&S Unit 21, pedal point as formal device): no change. Double and triple pedals at both ends, tonic and dominant pedal plan, prepared dissonances over pedals and the exits from each pedal all follow; 65-67 held V7 recorded (bassoons at 67 only if 65-70 is reopened).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 354 (v354 → v355)
+orchestration. Report: reports/c354.md.
+- Accepted: nothing (v355 = v354 relabelled).
+- Recorded (no change): c354 (Adler harp ch. 4 and timpani ch. 12): no change. Harp and timpani pass every applicable principle; harp melody is met by the scherzo (noted in mvt2.md); timpani ring and damp convention at 84-85 and the rest at 82 confirmed; harp registers suit the movement.
+- Do-not-touch: standing list; the 8-page layout.
