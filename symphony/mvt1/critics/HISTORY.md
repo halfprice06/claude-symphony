@@ -1682,3 +1682,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: Fl 117-120 split notation
 - Do-not-touch: 147-162 layout
 - Cross-movement: none
+
+## Cycle 346 (Playability, instrument by instrument; Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (second pass)) → v347
+- Accepted: Bsn 1-2 breathe after 159 and 163
+- Open / not applied: none
+- Do-not-touch: 156-166 pitches
+- Cross-movement: none
