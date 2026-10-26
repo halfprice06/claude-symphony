@@ -2266,3 +2266,7 @@ lens 7, texture; Adler ch. 5 homophonic writing for strings (adler1 PDF 150-157)
 
 
 - v349 (c348, expression): Cb "tutti, ord." at 71 cancels "sul A" of 65. Text only.
+
+
+- v350 (c349, holistic, Kalinnikov 1/ii): low brass at 60 back to pp< (Rimsky PDF 136, 506-507), undoing c346.
+- Do-not-touch: standing list; the bar 60 low brass entry dynamic stays pp< after c218, c346, c349 (Rimsky PDF 136 outranks Adler PDF 319 for a crescendo start): reopen only with a new book reason.
