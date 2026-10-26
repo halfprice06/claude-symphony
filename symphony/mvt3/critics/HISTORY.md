@@ -1311,3 +1311,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 292 (v292 → v293), lens 3, A&S Units 11-13
 - 128–132: bar 129 no longer cadences V7–I in G four bars early; it is G with B then D in the bass, D held to 131, root position only at 132 (A&S PDF 182, 184, 201–202). Accepted; the protected hand-over tune and dynamics unchanged.
 - 129 as vi, 38, 17–18/157–158, 82, 67/75, 249–250: no change. Agreed.
+
+## Cycle 293 (v293 → v294), lens 4, A&S Unit 32
+- 198.3–4: violas and cellos C♭4, so the recapitulation's A♭ area turns minor before the C-minor tutti at 199 (A&S PDF 585, 592, 596, 601–602); the violas' C♭4 recalls 47–49 and rises for the first time. Accepted; movement II told.
+- Exposition E♭ minor→major, 11–66, motto-tail enlargement 198–223: no change. Agreed.
