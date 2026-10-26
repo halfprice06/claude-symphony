@@ -1340,3 +1340,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 37–39: dynamics after c297: countersubject (violas, cellos, Bn 1·2) f under the horns' ff head at 37–38; violins ff > and Hn 3·4 f > at 39 (A&S PDF 348, 350, 367–368; Adler2 PDF 44, 201). Accepted; no note changed.
 - 81→82: "animando" starts at 82, after c241's suspension resolves at 81, with its MIDI tempo steps (A&S PDF 348, 353–354, 359–360). Accepted.
 - 108 bow change, 87–89 7–6 chain and others: not applied. Agreed.
+
+## Cycle 299 (v299 → v300), lens 9, holistic (Elgar 1/iv)
+- 37–38: Hn 1·2 rest until 38.3 so c297's horn statement of F1's head is not masked by held horns in its own octave, then G♭4–F4 mf under the 4–3 (Casanelles PDF 272, 277–278). Accepted; the one regression since v289.
+- 38.1–2: Tbn 2 C3 (was A♭2) to avoid a minor third over the F2 bass (Casanelles PDF 274; Rimsky PDF 85). Accepted.
+- 171–186, bow position, 115–122: kept. Agreed.

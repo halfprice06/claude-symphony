@@ -1,5 +1,11 @@
 # Finale (movement IV) loop checkpoint
 
+## Third series, continued (session cse_01SWLBceYg6ZWKih28Euwaj4, thread "Finale, loops from v264", since 2026-10-19 22:10)
+Latest: **v300** (cycle 299 done). Next cycle: 300. Dan 2026-10-25: 100 more loops, so the series now ends at cycle 399 → v400. v300 is the merge snapshot and was rendered with r07.
+Per cycle helper (scratchpad, recreate if lost): promote.sh N+1 N /tmp/critic-N/work; add a running-list line to coherence/finale.md; finish.sh N "lens ..." notes; copy finale.md and themes-finale-quotes.ly to the mount; genprompt N+1. Lens 9 cycles add the "v(N-10) has no score.pdf" note; lens 10 cycles add the cyclic focus and the stale-sentence request.
+r07 render: copy the version, simplify arrivalPerc to `<cymc bd>1\fff | R1*11 |`, codaTwoPerc to `R1*8 | R1*2 | R1*2 |`, and finalePerc's two-voice 278–279 to `<cymc bd>1->\fff~ | <cymc bd>4 r4 r2\fermata`; assets from /mnt/project-files/symphony/render/assets/{iowa,philharmonia,vpo3,sf2}.
+Theme record is 39/39 since v291 (motive x at 178). coherence/lyparse.py is the scherzo's c310 version.
+
 ## Third series (2026-10-19, thread "Finale, 200 more loops", session cse_01S169UKdVsqhaxTmmz6YB7N)
 Cycles 201-400 (v201 -> v401), branch claude/project-thread-v69o8h (pushed after every cycle, no PR). Latest: **v264** (cycle 263 done). Next cycle: 264.
 Per cycle: `bash kit/genprompt.sh N ""`; background Agent "Read your full task from .../kit/pN.txt ..."; review the diff; `bash kit/promote.sh N+1 N /tmp/critic-N/work`; write the decision notes to a file and `bash kit/finish.sh N "lens ..." FILE` (writes critique.md, HISTORY, commits, pushes, mirrors the latest text files to /mnt/project-files). promote.sh keeps score.pdf in the newest version and pdf+mp3 in v211, v221, ...
