@@ -1606,3 +1606,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 68.1: F2's second bar in E♭ major had D–F–A♭ over a D bass with the leading tone tripled (Cb, Bn 1·2) and no B♭ until the harp's third eighth. Bn 1 now holds B♭2 for the bar, so the downbeat is a complete V6/5 as in the other five statements and at 76 (A&S PDF 243–245). Bn 1 and Bn 2 split into two voices for that bar.
 - Not applied: the B♭–B♮–C bass of Ex. 15-14 (no place: B♮ in the tune at 13, 21, 153, 161; 169–171 protected; 184–186 deceptive); III under the passing D6 at 69 (would rewrite c027's counter-melody).
 - Checked, no change: the rising-third joints 26→27 and 198→199; key plan and coda stages (37, 26, 21, 50 s).
+
+## Cycle 354 (v354 → v355), lens 4, Casanelles ch. 6 orchestration
+- 164.3–4: the bass trombone doubled the cellos' E♭3–D3 an octave lower, a minor sixth E♭2 over G1 in tuba, contrabassoon and basses at f (Casanelles PDF 274–275; Rimsky-Korsakov PDF 85: only octaves and fifths that low). It now holds G2 for the bar; c214's reasons (no octave leap, no passing F2 under the basses' G2) still met.
+- Not applied: Hn 3·4's low E3–G3 third over the C pedal at 235–242 (protected, p); passing a line between violin sections, string mutes, the low flute register, a strings-silent passage (each considered; no unprotected place where it helps).
+- Checked, no change: bass trombone F2 under D3 at 153.3 and 161.3.
