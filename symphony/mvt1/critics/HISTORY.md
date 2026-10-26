@@ -1838,3 +1838,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 62-63; 177-182; route 33-46
 - Cross-movement: none
+
+## Cycle 372 (Harmony and voice leading; Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529) (second pass)) → v373
+- Accepted: no change (Neapolitan and augmented sixth review)
+- Open / not applied: none
+- Do-not-touch: N6 at 7, 20-22, 140-143, 172-174, 178, 180; Ger6 12-13
+- Cross-movement: none
