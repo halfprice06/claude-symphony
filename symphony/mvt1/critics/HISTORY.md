@@ -1580,3 +1580,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: brass entries at f 69, 72, 82, 96, 131; horn entries in crescendos 24, 156; harp mf at 156; no 'a tempo' 160–165; pp chorale without swells.
 - Do-not-touch: Coda notes, levels and timing; Tbn 2 at 179 (shares Tbn 1's staff).
 - Cross-movement: none (mvt1.md climax note: cymbal fades 162–163).
+
+## Cycle 329 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 1-60 (rimsky-principles PDF 173-240) (second pass)) → v330
+- Accepted: Bar 55: Vln I/Vln II text left-aligned at the pickup and Vln II's markup stacked (left-column) so 'molto cantabile' / 'unis.' no longer run into c321's 'sul D' (the only regression since v319). Holistic vs Bruckner 7/i and v319: otherwise nothing worse.
+- Open / not applied: None. Kept: short themes (proportions); no thematic inversion (fugato does that work); soft attacca coda (apotheosis reserved for the finale); Ob 2 under Cl 1 in tutti chords; Cb alone at 5.
+- Do-not-touch: Proportions; soft coda; 27–32.
+- Cross-movement: none.
