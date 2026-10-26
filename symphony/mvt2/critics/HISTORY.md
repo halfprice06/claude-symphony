@@ -2342,3 +2342,10 @@ cyclic design. Report: reports/c360.md.
 
 
 - v362 (c361, melody): harp chord at 14 moved above the horn's A flat3 (A flat4-E flat5).
+
+
+## Cycle 362 (v362 → v363)
+harmony. Report: reports/c362.md.
+- Accepted: nothing (v363 = v362 relabelled).
+- Recorded (no change): c362 (A&S Unit 19, 6/4 chords): no change. The seven 6/4s (5, 21, 38, 43 b2, 43 b3, 68, 74) all have a function; bar 43-44 stays the only cadential 6/4. Correction to c283: the cor anglais D flat4 at 43 leaps to B flat3 and the cellos' C3 takes the resolution.
+- Do-not-touch: standing list; the 8-page layout.
