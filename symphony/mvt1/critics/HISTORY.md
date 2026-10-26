@@ -1898,3 +1898,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: themes; 175-181 chorale canon; 158-161
 - Cross-movement: none
+
+## Cycle 382 (Harmony and voice leading; Aldwell & Schachter Units 30-31 Other chromatic chords; Chromatic voice-leading techniques (aldwell-schachter PDF 530-583) (second pass)) → v383
+- Accepted: inner parts B-Bb-Ab by step at 115 (was augmented second B-Ab)
+- Open / not applied: none
+- Do-not-touch: B-D-F-Ab plan; wedge bass into Fr6 at 116; G pedal 117-130; 73
+- Cross-movement: none
