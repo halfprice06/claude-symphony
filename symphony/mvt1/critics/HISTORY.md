@@ -1670,3 +1670,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 167 brass return after 4 bars rest (kept)
 - Do-not-touch: 129-130, 167-169
 - Cross-movement: none
+
+## Cycle 344 (Orchestration; Adler ch. 15 Scoring for Orchestra: unison-octave tutti, foreground and background (adler2 PDF 146-158) (second pass)) → v345
+- Accepted: Bsn 1 doubles violas on P head lowest octave at 82
+- Open / not applied: none
+- Do-not-touch: 139-142 Fl 1 alone; 117-121 unison; 167-169
+- Cross-movement: none
