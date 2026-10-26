@@ -1976,3 +1976,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 69-71 Tpt 2; 82 layout; flute doublings; climaxes
 - Cross-movement: none
+
+## Cycle 395 (Engraving and notation (Gould's *Behind Bars*, MOLA); Adler ch. 2 notation of bowings, divisi and harmonics (adler1 PDF 30-55) as engraving rules (second pass)) → v396
+- Accepted: Vln II part text order at 55; Vln I sul D dashes stop before 'attacca' at 182
+- Open / not applied: none
+- Do-not-touch: cello stop chords 26, 138; 60-61 slur
+- Cross-movement: none
