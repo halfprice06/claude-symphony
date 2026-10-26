@@ -1315,3 +1315,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 293 (v293 → v294), lens 4, A&S Unit 32
 - 198.3–4: violas and cellos C♭4, so the recapitulation's A♭ area turns minor before the C-minor tutti at 199 (A&S PDF 585, 592, 596, 601–602); the violas' C♭4 recalls 47–49 and rises for the first time. Accepted; movement II told.
 - Exposition E♭ minor→major, 11–66, motto-tail enlargement 198–223: no change. Agreed.
+
+## Cycle 294 (v294 → v295), lens 5, Rimsky-Korsakov tutti
+- 5: timpani roll A♭ ff through the restated German sixth, so the return is scored larger than bar 1 and matches every other held ff tutti (Rimsky PDF 117–118, 368–369, 505–507). Accepted; bar 1's single stroke and the links unchanged.
+- Roll at 1, wind trills, soft brass chords, roll at 90, tuba at 91–94, string-free passages: no change. Agreed.
