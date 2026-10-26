@@ -2198,3 +2198,10 @@ lens 8, expression; A&S Unit 21 (PDF 346-371). Report: reports/c338.md.
 - Accepted: hidden MIDI levels so suspensions sound at least as loud as resolutions (Hn 3·4 80-81, theme A at 8/24/72, Bsn 1 35-36, Cl 2 78); violins slur the tied E♭ into D at 24 and 72 (same bow count and directions as c018).
 - Open: Bsn 1 MIDI level at 75-78 on the shared staff.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 339 (v339 → v340)
+lens 9, holistic, Mahler Symphony No. 4/iii; Casanelles ch. 6 Mahler 1 analysis (hyper-orchestra PDF 271-280). Report: reports/c339.md.
+- Accepted: nothing (v340 = v339 relabelled).
+- Recorded (no change): holds up against Mahler 4/iii: long soft one-choir opening, slower minor oboe episode at 47-50, full orchestra held back to 57-61, timpani bass and shared-note fade into the scherzo; the return changes setting not melody (c319); two ff peaks scored differently (c303, c333); soft entries over held notes (Fig. 6.1); printed dynamics and c338's MIDI levels agree; flute and oboe brighten the violins at 57-60, 77-79; nothing worse than v329; proportions settled (c253, c303, c319).
+- Do-not-touch: standing list; the 8-page layout.
