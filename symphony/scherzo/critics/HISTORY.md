@@ -184,6 +184,33 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 399 (lens 9 holistic, Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (fourth pass)) v399 → v400
+c399 harp pp at 81; last cycle of the run
+
+## Cycle 398 (lens 8 expression, Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (fourth pass)) v398 → v399
+c398 swells on T's 4-3 suspension; Hn 9-8 diminuendo at 216
+
+## Cycle 397 (lens 7 texture, Adler ch. 11 Scoring for brass: contrapuntal use (adler2 PDF 41-54) (fourth pass)) v397 → v398
+c397 coda stretto 325–328 voices continue with the chromatic tail; horns mf at 45
+
+## Cycle 396 (lens 6 playability, Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (fifth pass)) v396 → v397
+c396 bass clarinet B2 pedal at 245–252; Cl 2 breath at 196
+
+## Cycle 395 (lens 5 engraving, Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68) (fifth pass)) v395 → v396
+c395 system breaks 269–359 for rhythmic spacing
+
+## Cycle 394 (lens 4 orchestration, Adler ch. 15 Scoring for Orchestra: unison-octave tutti, foreground and background (adler2 PDF 146-158) (fifth pass)) v394 → v395
+c394 Vln II with Vln I on theme A at 309–320; part cues fixed
+
+## Cycle 393 (lens 3 form, Rimsky-Korsakov ch. IV Composition of the orchestra: tutti, range limits, transfer of phrases, sf-p, crescendo and diminuendo (rimsky-principles PDF 115-136) (fifth pass)) v393 → v394
+c393 low brass enter pp< at 332 and 101–104
+
+## Cycle 392 (lens 2 harmony, Aldwell & Schachter Unit 17 Diatonic Sequences (aldwell-schachter PDF 263-288) (fifth pass)) v392 → v393
+c392 parallels removed at 280 and 127–128
+
+## Cycle 391 (lens 1 melody, Adler ch. 3 Individual Bowed Strings: melodic writing for violin, viola, cello, bass (adler1 PDF 71-109) (fifth pass)) v391 → v392
+c391 violas double the cellos' T at 177–184
+
 ## Cycle 390 (lens 10 cyclic, Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (fourth pass)) v390 → v391
 c390 cyclic check passed; Hn 3·4 rest at 205–208, harp lower at 345–348
 
