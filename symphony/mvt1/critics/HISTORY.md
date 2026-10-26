@@ -1544,3 +1544,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None.
 - Do-not-touch: Cadential 6/4s at 12–14, 61–63, 109–110, 172–174.
 - Cross-movement: none.
+
+## Cycle 323 (Form, pacing and proportion; Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (second pass)) → v324
+- Accepted: No change (form vs A&S Unit 26, second pass: key plan C–A♭–f–V pedal–C as the Beethoven plan on PDF 454; passing keys 97–110; E♭ at 41 turned to V of A♭; cadences confirm each key; proportions 67/124/105/75/59 s).
+- Open / not applied: None.
+- Do-not-touch: Transition route; seams 96→97, 102→103; 129–130 (c233, c263); section lengths (c243).
+- Cross-movement: none.
