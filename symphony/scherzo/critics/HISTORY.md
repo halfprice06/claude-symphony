@@ -181,6 +181,39 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 310 (lens 10 cyclic, Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (fourth pass)) v310 → v311
+No change. Cyclic check clean against I v327, II v300, finale v288. Do-not-touch (added): T's head G♯4–A4–B4–E5 at 153 and the motive-x links (II 84–85 → III 9; III 363–371 → IV 9, 143) are relied on by movement I; tell that thread before changing them.
+
+## Cycle 309 (lens 9 holistic, Rimsky-Korsakov examples No. 1-60 (rimsky-principles PDF 173-240) (fourth pass)) v309 → v310
+No change. Open (c289, c299, c309): T and the second idea are well made but not memorable.
+
+## Cycle 308 (lens 8 expression, Rimsky-Korsakov ch. IV sf-p chords, crescendo and diminuendo (rimsky-principles PDF 129-136) (fourth pass)) v308 → v309
+No change. Kept: Hn 4 sub. p at 121 vs Hn 3 pp at 277 (c208), ff chord dying in one bar at 72, low brass f (soft-brass rule), Hn 1 p at 357, trio entries at 169/197/209/217, crescendo at 328 (c108).
+
+## Cycle 307 (lens 7 texture, Adler ch. 5 foreground, middleground, background; strings as accompaniment (adler1 PDF 132-167) (fourth pass)) v307 → v308
+Accepted: violas A4–G♯4 at 70/298. Kept: E4 meeting at 68, pizz. violas under held cellos 253–266, brief viola–cello meetings at 171/211/220, theme A off-beats (c006), fugato entry order.
+
+## Cycle 306 (lens 6 playability, Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (fourth pass)) v306 → v307
+No change. Kept: Fl 1 at 37–56, Cbsn at 209–224 and its ninth at 220–221, flutes A6 ff at 110/310, Fl 1 A6 p at 254–266 (c036, c069), Bsn 1 breaths at 104/116, bass clarinet holds.
+
+## Cycle 305 (lens 5 engraving, Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68) (fourth pass)) v305 → v306
+Accepted: DynamicText vertical-skylines from extents in score.ly. Kept: accidentals after barlines (PDF 57), Fl 1 turn spacing at 255–267, crotchet width at 338 (c215).
+
+## Cycle 304 (lens 4 orchestration, Adler ch. 15 Scoring for Orchestra: unison-octave tutti, foreground and background (adler2 PDF 146-158) (fourth pass)) v304 → v305
+No change. Do-not-touch (critic): tutti layouts 105–120, 305–320, 333–339; trio foreground/background plan 149–240; closing page.
+
+## Cycle 303 (lens 3 form, Rimsky-Korsakov ch. IV Composition of the orchestra: tutti, range limits, transfer of phrases, sf-p, crescendo and diminuendo (rimsky-principles PDF 115-136) (fourth pass)) v303 → v304
+No change. Kept: Hn 1 p at 357, horn entries p< at 101/301/332, low brass f at 71/105/299/333 (soft-brass rule, c123, c266), violins mp at 169, harp mf at 209.
+
+## Cycle 302 (lens 2 harmony, Aldwell & Schachter Unit 17 Diatonic Sequences (aldwell-schachter PDF 263-288) (fourth pass)) v302 → v303
+No change. Do-not-touch (critic): 29–37, 45–55, 61–68, 73–78, 121–128/277–284, 185–196, 329–332, 357–360.
+
+## Cycle 301 (lens 1 melody, Adler ch. 3 Individual Bowed Strings: melodic writing for violin, viola, cello, bass (adler1 PDF 71-109) (fourth pass)) v301 → v302
+No change. Kept: T never in the cello section; second idea D6–A6 on the E string; 276→277 entry without breath (c286); bow change on T's tied A. Open: T's first phrase has no leap of its own (also c299).
+
+## Cycle 300 (lens 10 cyclic, Release check: every do-not-touch item in HISTORY.md, every change in the last 100 cycles, and every book rule cited in them (third pass)) v300 → v301
+No change. Release check passed (48 principles from the books behind cycles 200–299). Kept: clarinets inside the horns at 45–56, 121–128 (accepted earlier). Coherence: other movements' files in the checkout refreshed from /mnt.
+
 ## Cycle 299 (lens 9 holistic, Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (third pass)) v299 → v300
 No change. Remaining gap noted by the critic: the second idea and trio tune are well made but not memorable; not rewritten on the last cycle because the finale quotes them. Do-not-touch (critic): closing page 357–376, soft trio 153–216, coda peak 333–339, F-major episode spacing 73–88.
 

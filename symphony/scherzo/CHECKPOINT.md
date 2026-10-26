@@ -1,3 +1,5 @@
+# FOURTH RUN 2026-10-25 (Dan 23:22: "let's add another 100 loops to each"): cycles 300–399, v300 → v400, same thread "Scherzo, loops from v277". Cycle 399's promotion writes the release title by hand at v400.
+
 # RUN STOPPED 2026-10-25 at v300 (Dan, 2026-10-19 23:04: "Let's stop them all around v300 and then merge")
 - Last promoted: **v300** (cycle 299 done), release title "— v300, 25 October 2026" written by hand. Nothing unpromoted. To continue later: `bash kit/genprompt.sh 300 ""`, then the usual cycle; promote.sh's draft-title substitution turns the release title back into "draft vNN".
 
