@@ -1802,3 +1802,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 126 Cl layout
 - Cross-movement: none
+
+## Cycle 366 (Playability, instrument by instrument; Adler ch. 12 Percussion: timpani tuning and technique (adler2 PDF 55-91) (second pass)) → v367
+- Accepted: percussion part: 'take' beater texts before 122, 159, 175
+- Open / not applied: none
+- Do-not-touch: 28 timp G2; 160 cymbal soft sticks
+- Cross-movement: none
