@@ -47,6 +47,7 @@ The themes are free to evolve under the critics. symphony/coherence/themes-scher
 - v82 (cycle 81): trio tune T, bars 10–11 of every full statement (162, 178, 218, 350). Old e''4 gis''2 | a''4. gis''8 fis''4. New e''4 gis''4 a''4~ | a''4. gis''8 fis''4 (the A anticipated and tied). Record refreshed; finale told (it does not quote T).
 - v94 (cycle 93): trio tune T, second statement only (Vln I 169, Vln II an octave lower), bars 180–184. Old cis'''4 b'' a'' | gis''4 b'' e'''~ | e'''4 dis''' fis''' | e'''2.~ | e'''2 r4. New cis'''4 b'' gis'' | dis''4 fis'' b''~ | b''4 ais'' cis''' | b''2.~ | b''2 r4 (T's cadence moved to B, the trio's first V key area). Record line now checks its first 27 notes; finale told (it does not quote T).
 - v122 (cycle 121): trio tune T, bar 6 of every statement (158, 174, 214; coda 346 in A major). Old cis''2 fis''4. New cis''4 fis''2 (the second phrase's peak on beat 2 and held, not the first phrase's rhythm a step higher; open since cycle 1). Record refreshed; finale told (it does not quote T).
+- v322 (cycle 321): trio tune T, bar 3 of every statement. Old D♯5 (dotted crotchet)–C♯5 (quaver)–B4; new D♯5–F♯4–B4, a falling sixth (Cl 1 155, Vln I/II 171, Cl 1/Vln II/Vla 199, Cl 1/Vln I/Vln II 211; Hn 3 343 in A: G♯4–B3–E4, was G♯4–F♯4–E4). Head G♯4–A4–B4–E5 unchanged. Record refreshed (51/51); finale and movement I told.
 
 ## Cycle 4 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v04 → v05
 All 8 findings accepted (reasons in v05/critique.md): horn chords split and tutti balance 105–120/309–324 with Vln II on the theme; harp RH out of the trio off-beats 169–184/209–224; F-major episode thinned (Cl rests, harp chord to LH); Hn 2 lower in the second idea 45–56; Hn 1·2 thirds/sixths 209–224; violas pizz. 257–276; 87–88 doubling; tuba E1 at 341–343. Themes unchanged. Keep: harp alone with the theme head at 73–80; no plucked off-beats doubled by bowed ones.
@@ -180,6 +181,36 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
+
+## Cycle 330 (lens 10 cyclic, Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (fourth pass)) v330 → v331
+No score change; shared records brought up to date with T's new bar 3 and c323-c330.
+
+## Cycle 329 (lens 9 holistic, Rimsky-Korsakov examples No. 126-200 (rimsky-principles PDF 305-375) (fourth pass)) v329 → v330
+No change; holistic check against Rimsky-Korsakov's examples found nothing to fix.
+
+## Cycle 328 (lens 8 expression, Adler ch. 11 climactic uses of brass (adler2 PDF 37-40) and ch. 15 special effects (adler2 PDF 187-196) (fourth pass)) v328 → v329
+No change; climactic brass and special effects already follow Adler.
+
+## Cycle 327 (lens 7 texture, Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) (fourth pass)) v327 → v328
+Timpani answers the retransition heads at 91/94/97; accompaniment cleared under T's falling sixth at 199, 211, 343.
+
+## Cycle 326 (lens 6 playability, Adler ch. 12 The Percussion Ensemble: timpani tuning and technique, cymbals, bass drum (adler2 PDF 55-91), and ch. 14 Scoring for Percussion (adler2 PDF 106-145) (fourth pass)) v326 → v327
+Accepted: timpani E3–E3–E3–E2 at 333, octave E2+E3 at 339. Kept: reprise tutti timpani 305–320; ranges, retunings, sticks, rolls.
+
+## Cycle 325 (lens 5 engraving, Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (fourth pass)) v325 → v326
+Accepted: system labels at 111, 131 (Hn 2, Hn 3), 214 (Cl 1); Hn 3 label at 365. Kept: B6 at 336 without 8va, no tempo words over the timpani, mixed-language terms.
+
+## Cycle 324 (lens 4 orchestration, Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (fourth pass)) v324 → v325
+Accepted: Hn 1 on the tail preview at 205–209 (Cl 2 rests). Kept: no held winds under theme A 13–28, unison at 41–43/273–275 (flutes would pass B6), 89–100 without held winds, tenor unison 281–287, tutti scorings 105–120/305–320.
+
+## Cycle 323 (lens 3 form, Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (fourth pass)) v323 → v324
+Accepted: violas B3 on beats 2–3 of 27/267. Kept: no parallel 6/3 run in the trio (201–204 c070/c177, 145–148 c051, 225–240), coda bass with ♭II 6/4 at 331 (finale IV 272), harp 6/3 chords 341–344, proportions.
+
+## Cycle 322 (lens 2 harmony, Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (fourth pass)) v322 → v323
+No change. Do-not-touch (critic): T's new bar 3 and the inner resolutions under it; Hn 1 B4→A4 at 198–199. Kept: 49–52 (second idea), 104→105/304→305, 212→213, 188→189, passing cross relations at 61/66/70/86/293/298 (c232).
+
+## Cycle 321 (lens 1 melody, Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (fourth pass)) v321 → v322
+Accepted: THEME CHANGE, T bar 3 dis''4. fis'8 b'4 (was dis''4. cis''8 b'4) in all statements (155, 171, 199, 211, 343 in A). Record refreshed; finale and movement I told. Kept: second idea (every rewrite lost the rising sixth or the hemiola).
 
 ## Cycle 320 (lens 10 cyclic, Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (fourth pass)) v320 → v321
 No change. Cyclic check clean against I v335, II v310, finale v294. Record corrected: horn D♯4→E4 steps (Hn 3 at 338–339 plays F♯4→E4, not D♯4).
