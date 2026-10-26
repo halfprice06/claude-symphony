@@ -2114,3 +2114,10 @@ lens 6, playability; Sebesky ch. 2 (PDF 21-110). Report: reports/c326.md.
 - Accepted: Hn 3 tenuto on the re-struck A♭3 at 88.
 - Recorded (no change): breathing, ranges, horn spacing and mutes, woodwind blend, brass endurance.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 327 (v327 → v328)
+lens 7, texture; Rimsky-Korsakov ch. II Melody in combined groups (PDF 74-80, with Ex. 91-93). Report: reports/c327.md.
+- Accepted: nothing (v328 = v327 relabelled).
+- Recorded (no change): violas with muted Hn 4 and C.a. an octave above at 87-88 (as Ex. 92; the moving cello bass there is not added, plagal close protected); Hn 1 an octave above cellos and Bsn 1 at 57-60 (c087, c187); one oboe on Hn 3's F-flat at 80-81 (V-flat 9 protected); cellos alone on the bass at 53-56 (optional Bsn 2 at 55-56 not recommended); three-octave climax at 61-62 with a string and a wind in each octave; undoubled trombone quotation at 63-64; three-group counter-melody at 75-82 (c217).
+- Do-not-touch: standing list; the 8-page layout.
