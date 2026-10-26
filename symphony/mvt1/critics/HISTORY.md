@@ -1970,3 +1970,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: key plan; 156-159; seams; 117-130 pedal; proportions
 - Cross-movement: none
+
+## Cycle 394 (Orchestration; Casanelles ch. 6 spectral orchestration and acoustic mixing in Mahler's First Symphony (hyper-orchestra PDF 257-290) (second pass)) → v395
+- Accepted: timpani A-flat roll ends in one ff stroke at 141.1 (no held third against the F bass)
+- Open / not applied: none
+- Do-not-touch: 69-71 Tpt 2; 82 layout; flute doublings; climaxes
+- Cross-movement: none
