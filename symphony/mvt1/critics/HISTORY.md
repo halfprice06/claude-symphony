@@ -2060,3 +2060,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Hn 1-2 ff 27-31; no mutes/stopped horn; 170 fermata ff; 117-121 brass motto
 - Cross-movement: none
+
+## Cycle 409 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (second pass)) → v410
+- Accepted: no change (Beethoven 7/i comparison; v399-v409 nothing worse)
+- Open / not applied: none
+- Do-not-touch: tempo easings; soft introduction; ppp attacca ending
+- Cross-movement: none
