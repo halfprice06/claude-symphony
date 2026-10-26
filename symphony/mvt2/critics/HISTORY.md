@@ -2163,3 +2163,10 @@ lens 3, form; A&S Unit 25 Applied V and VII: tonicized areas (PDF 418-441). Repo
 - Accepted: nothing (v334 = v333 relabelled).
 - Recorded (no change): tonicizations follow the tension curve: one in A (F minor at 19-20), one in B1, three in B2, four in 56-64, none in the reprise and coda; chromatic bass rise to V only at 59 (PDF 422, 424); remote keys have double meanings at 47, 62, 64 (PDF 422); deceptive cadences 44-45 and 77-78 lead to the two ff peaks (PDF 427); F-sharp minor confirmed by applied chords at 46-50 (PDF 419); apparent applied dominants at 1-2, 20-21, 52, 86 (PDF 430); no seventh over the A-flat pedal (c203, c302); falling-third sequences at 37-40 and 53-56; doubling and cross relations pass.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 334 (v334 → v335)
+lens 4, orchestration; Casanelles ch. 6 spectral orchestration and acoustic mixing (hyper-orchestra PDF 257-290). Report: reports/c334.md.
+- Accepted: nothing (v335 = v334 relabelled).
+- Recorded (no change): soft entries over still pedals at 65-67 and 82-85 (Fig. 6.1); theme A moves further away at each return (PDF 273, 282-287); low spacing follows the harmonic series (PDF 274); masking scan finds only the decided places 41-44, 47-52, 63-64 (PDF 287); brass weight graded at 61-64 and 79-81 (c024, c264); timpani rolls render as single strokes in score.midi though printed correctly (open since c244; MIDI-only fix in the report, not taken).
+- Do-not-touch: standing list; the 8-page layout.
