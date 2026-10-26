@@ -48,6 +48,7 @@ The themes are free to evolve under the critics. symphony/coherence/themes-scher
 - v94 (cycle 93): trio tune T, second statement only (Vln I 169, Vln II an octave lower), bars 180–184. Old cis'''4 b'' a'' | gis''4 b'' e'''~ | e'''4 dis''' fis''' | e'''2.~ | e'''2 r4. New cis'''4 b'' gis'' | dis''4 fis'' b''~ | b''4 ais'' cis''' | b''2.~ | b''2 r4 (T's cadence moved to B, the trio's first V key area). Record line now checks its first 27 notes; finale told (it does not quote T).
 - v122 (cycle 121): trio tune T, bar 6 of every statement (158, 174, 214; coda 346 in A major). Old cis''2 fis''4. New cis''4 fis''2 (the second phrase's peak on beat 2 and held, not the first phrase's rhythm a step higher; open since cycle 1). Record refreshed; finale told (it does not quote T).
 - v322 (cycle 321): trio tune T, bar 3 of every statement. Old D♯5 (dotted crotchet)–C♯5 (quaver)–B4; new D♯5–F♯4–B4, a falling sixth (Cl 1 155, Vln I/II 171, Cl 1/Vln II/Vla 199, Cl 1/Vln I/Vln II 211; Hn 3 343 in A: G♯4–B3–E4, was G♯4–F♯4–E4). Head G♯4–A4–B4–E5 unchanged. Record refreshed (51/51); finale and movement I told.
+- v332 (cycle 331): trio tune T, bars 3–4. Old dis''4. fis'8 b'4 | a'4 gis'2. New dis''4. fis'8 a'4~ | a'4 gis'2 (the V7's seventh held over the bar line as a 4–3 suspension, A&S Ex. 21-23a), in all 7 statements incl. coda Hn 3 in A. Record refreshed (tie merges notes; %@ counts adjusted); finale and movement I told (neither quotes bars 3–4).
 
 ## Cycle 4 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v04 → v05
 All 8 findings accepted (reasons in v05/critique.md): horn chords split and tutti balance 105–120/309–324 with Vln II on the theme; harp RH out of the trio off-beats 169–184/209–224; F-major episode thinned (Cl rests, harp chord to LH); Hn 2 lower in the second idea 45–56; Hn 1·2 thirds/sixths 209–224; violas pizz. 257–276; 87–88 doubling; tuba E1 at 341–343. Themes unchanged. Keep: harp alone with the theme head at 73–80; no plucked off-beats doubled by bowed ones.
@@ -181,6 +182,39 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
+
+## Cycle 341 (lens 1 melody, Adler ch. 11 Scoring for Brass: melodic presentation (adler2 PDF 19-36) (fourth pass)) v341 → v342
+No change; brass melodic presentation already follows the reading.
+
+## Cycle 340 (lens 10 cyclic, Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (fourth pass)) v340 → v341
+Hn 1's pivot G# held into 149; records brought up to date.
+
+## Cycle 339 (lens 9 holistic, Rimsky-Korsakov examples No. 201-260 (rimsky-principles PDF 376-440) (fourth pass)) v339 → v340
+Second idea at 277-280 rescored for flute and oboe.
+
+## Cycle 338 (lens 8 expression, Casanelles ch. 4 dynamics layering and expression in performance (hyper-orchestra PDF 145-161) and ch. 6 volume and dynamics (PDF 290-291) (fourth pass)) v338 → v339
+Trio tune's second phrase restored to its level after the tied suspension; Vln I crescendo at 329.
+
+## Cycle 337 (lens 7 texture, Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255) (fourth pass)) v337 → v338
+Reprise fugato gets single pp wind notes on the entries' downbeats (289–296).
+
+## Cycle 336 (lens 6 playability, Adler App. A ranges, professional and amateur limits (adler2 PDF 302-312) (fourth pass)) v336 → v337
+Timpani muta labels reworded at 145/226; ranges and transpositions all checked.
+
+## Cycle 335 (lens 5 engraving, Gould introduction and contents (gould-behind-bars PDF 7-13), then a second pass over PDF 17-68 for any rule not yet checked (fourth pass)) v335 → v336
+Engraving: horn and clarinet solo labels at 213–236 and 341–365; label filter fixed.
+
+## Cycle 334 (lens 4 orchestration, Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54) (fourth pass)) v334 → v335
+No change; brass scoring already follows Adler ch. 11.
+
+## Cycle 333 (lens 3 form, Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground (fourth pass)) v333 → v334
+Horn drone starts at 149, four bars before the trio tune.
+
+## Cycle 332 (lens 2 harmony, Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529) (fourth pass)) v332 → v333
+French sixth on beat 3 of 331 between the Neapolitan 6/4 and V7.
+
+## Cycle 331 (lens 1 melody, Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371) (fourth pass)) v331 → v332
+THEME CHANGE: T bars 3–4 gain a tied 4–3 suspension (A over the bar line to G#).
 
 ## Cycle 330 (lens 10 cyclic, Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (fourth pass)) v330 → v331
 No score change; shared records brought up to date with T's new bar 3 and c323-c330.
