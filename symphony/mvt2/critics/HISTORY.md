@@ -1994,3 +1994,10 @@ lens 9, holistic, Tchaikovsky 1/ii; Adler part 2 ch. 11 and 15 examples. Report:
 - Accepted: Vln I back in the upper octave at 77 (unison with Vln II now only 74 b3–76); B♭6 still first at 79.
 - Recorded (no change): horns at 79; theme count; ending.
 - Do-not-touch: standing list; the 8-page layout; B♭6 first at 79 (c299).
+
+
+## Cycle 310 (v310 → v311)
+lens 10, cyclic; A&S Unit 23 (PDF 386-397). Report: reports/c310.md.
+- Accepted: aTwo.ily header comments corrected (78 is ♭VI, F♭ major).
+- Recorded (no change): mixture plan; quotation 47-50; key plan; opening chord answers movement I; sibling joins hold; 21 cross relations.
+- Do-not-touch: standing list; the 8-page layout.
