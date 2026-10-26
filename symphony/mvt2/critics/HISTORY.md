@@ -2085,3 +2085,10 @@ lens 2, harmony; A&S Units 30-31 (PDF 530-583). Report: reports/c322.md.
 - Accepted: bar 52 cellos C3–D3–E♭3, Vln II F5 on b1-2 (passing ♯4 into the A♭7).
 - Recorded (no change): 62-65, 21, 33 chords; no augmented triads or V7♯5. Correction: E♮ also in Vln II at 20 b3 (c220 was wrong).
 - Do-not-touch: standing list; the 8-page layout; the rise B→C reserved for the finale.
+
+
+## Cycle 323 (v323 → v324)
+lens 3, form; A&S Unit 15 III and VII (PDF 230-247). Report: reports/c323.md.
+- Accepted: nothing (v324 = v323 relabelled).
+- Recorded (no change): remote F-sharp minor point at 48, 49.1 percent of the running time, with IV as stopover (Mozart 41/ii at 49.5-50.5 percent); iii6 at 78 b3 in the falling bass F-flat E-flat D-flat (15-10c/d; c103, c133); V4/3 to I at 74-75 makes the reprise one span (PDF 235-236); IV to V at 61-65 without a common tone (15-2, protected); two dominants treated two ways at 59-60 and 65; no rising third into beat 3 in 37-64, phrases in fours except B2's 3+3+2; no seventh on the A-flat chord at 31-36 (c020, c203, c233).
+- Do-not-touch: standing list; the 8-page layout.
