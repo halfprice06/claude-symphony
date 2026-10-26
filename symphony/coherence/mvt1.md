@@ -115,7 +115,7 @@ Duration: v221's full.midi lasts 430.8 s, about 7:11. The score's front page say
 
 There are three climaxes on A♭, rising in strength:
 
-1. **Bar 82, ff.** First-theme head in tutti over an A♭ bass (double basses repeat A♭1 in quavers). The top is E♭6 (Fl 1, Vln I). Since v305 the held brass are f under the ff head, with ff strokes at 83; since v309 Tpt 2 rests at 82 and enters on the strokes at 83.
+1. **Bar 82, ff.** First-theme head in tutti over an A♭ bass (double basses repeat A♭1 in quavers). The top is E♭6 (Fl 1, Vln I). Since v305 the held brass are f under the ff head, with ff strokes at 83; since v309 Tpt 2 rests at 82 and enters on the strokes at 83; since v345 Bsn 1 doubles the violas' lowest octave of the head.
 2. **Bar 122, fff.** A♭6 in Vln I (tremolo) and Fl 1 over the G pedal (A♭ as the minor ninth of V). The upper parts fade from 123 (since v319), the pedal parts from 124. Tam-tam fff (heavy beater) 122, diminuendo from 124 ("damp gradually") to p at 126, damped at 127 (since v229). It arrives from the trombone motto at 117–121.
 3. **Bar 160, fff.** A♭6 in Vln I and Fl 1·2, with Vln II and Ob 2 an octave lower (Vln II since v230; Ob 2 since v242, when Ob 1 moved to the countermelody with Cl 1) over an A♭ bass (♭VI). Suspended-cymbal roll at 159 ending in one soft-stick suspended-cymbal stroke fff l.v. at 160 (since v251; until v250 a crash), tied through 163 and damped at 164 (since v277); since v329 it is shaded ('damp gradually', diminuendo 162 to p at 163). Movement I has no clashed cymbals.
 
