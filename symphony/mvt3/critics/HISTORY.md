@@ -1572,3 +1572,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 207: the four horns mf instead of mp against Tbn 1·2 mp in the same chord (Rimsky-Korsakov PDF 41: horns one degree stronger than the other brass).
 - 132 and 278: the harp's solid G chord and the left hand's C chord on the fff downbeat are marked "non arpegg." (Rimsky-Korsakov PDF 46). MIDI unchanged there.
 - Checked, no change: stopped horn 168–169, basses' C-extension pizzicato 171–186, timpani retunings 206 and 215, Vc B♭4 at 78, breathing (no wind or brass player over 14.5 s without a breath).
+
+## Cycle 347 (v347 → v348), lens 7, Rimsky-Korsakov ch. III combining timbres
+- 141–142: over the B bass the four horns hold the chord tones G3–D4–B4–D5 and the seventh F4 was only in the violas, enclosed by the horns. Bn 1 now takes F4 with the violas instead of doubling Hn 3's D4, returning to F3 at 143 (Rimsky-Korsakov PDF 108: horns the chord tones, bassoons the dissonance; PDF 113).
+- Not applied: soft woodwind thirds between trumpet octaves (219–221 already close; other places break the trumpet plan or protected bars); bassoon instead of Hn 4 on the seventh at 97–98 (c340 protects it); clarinets with the stopped horns at 168–169 (c108, c210); clarinets inside the horns at 39–41 (c319's tie).
