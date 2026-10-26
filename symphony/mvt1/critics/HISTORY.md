@@ -1850,3 +1850,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: c318, c354, c337 changes; 138 stop chord f
 - Cross-movement: none
+
+## Cycle 374 (Orchestration; Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54) (second pass)) → v375
+- Accepted: Tbn 1 B3 on 159.3-4 resolving to C4 at 160 (leading tone in the loud brass)
+- Open / not applied: none
+- Do-not-touch: 122 low trumpets; 27-32; 26/138/170; climax order
+- Cross-movement: none
