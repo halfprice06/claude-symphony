@@ -1,3 +1,19 @@
+# FOURTH RUN 2026-10-25 (Dan 23:22: "let's add another 100 loops to each"): cycles 300–399, v300 → v400, same thread "Scherzo, loops from v277". Cycle 399's promotion writes the release title by hand at v400.
+
+# RUN STOPPED 2026-10-25 at v300 (Dan, 2026-10-19 23:04: "Let's stop them all around v300 and then merge")
+- Last promoted: **v300** (cycle 299 done), release title "— v300, 25 October 2026" written by hand. Nothing unpromoted. To continue later: `bash kit/genprompt.sh 300 ""`, then the usual cycle; promote.sh's draft-title substitution turns the release title back into "draft vNN".
+
+# HANDOFF 2026-10-19 22:00 UTC (uptime 21.1 h); resumed by thread "Scherzo, loops from v277" (container booted 2026-10-19 22:00 UTC; hand off near 20:00 UTC on 10-20)
+- Last promoted: **v277** (cycle 276 done). Next: cycle 277 (lens 7). Prompt kit/p277.txt is already written: start a critic (Agent, general-purpose, background) with "Read your full task from /home/user/claude_composes/symphony/scherzo/kit/p277.txt and carry it out exactly.", then `bash kit/next.sh 277 "critique" "history" ["focus for 278"]`. Cycle 280 is lens 10 (cyclic): pass a focus as next.sh's 4th argument at cycle 279 (template: the Focus line of kit/p270.txt). Nothing unpromoted.
+- Fresh container: apt-get update; apt-get install -y lilypond fluidsynth fluid-soundfont-gm poppler-utils ffmpeg; pip install mido soundfile scipy numpy. Checkout the branch claude/project-thread-y9u1tb. promote.sh now runs kit/themecheck_abs.py (exact-pitch theme lines, 51/51; needs coherence/lyparse.py). For r07 renders copy /mnt/project-files/symphony/render/assets/{iowa,philharmonia,vpo3,sf2,ir,refs} into symphony/render/assets/ and use /mnt/project-files/symphony/render/r07/render.py.
+- Every 10 cycles: push the branch, `bash kit/mirror.sh vNN`, update coherence/scherzo.md header and change list, relay to the coordinator. Movement I's session is now cse_01T3oeJpEiUnk8c5fb1YHzM8; mvt II cse_01XY5Tq7nnuvWhWRp5A7hWAH (from 22:56); finale cse_01SWLBceYg6ZWKih28Euwaj4 (from 2026-10-19 22:10).
+
+# Scherzo checkpoint, third series (started 2026-10-19 00:55 UTC)
+
+Dan, 2026-10-19: "200 more actor critic loops of improving and applying techniques from the books". Thread "Scherzo, 200 more loops" (session cse_01PcLD7uZBgtSfpYBvacmK4P) runs cycles 201–400, v201 → v401, from the git checkout. Versions are pushed to branch claude/project-thread-y9u1tb every 10 cycles (no PR; the commit thread merges). /mnt/project-files/symphony/scherzo/ keeps CHECKPOINT, README, critics/, kit/ and latest/ (the newest version without audio) via kit/mirror.sh; coherence files are copied there too.
+- Kit changes for the third series: READING.md extended to cycle 400 (third and fourth passes; cycle 400 is a release check), MASTERS.txt lines 21–40, critic prompt says 400 cycles, promote.sh turns the release title "— v201, date" back into "— draft vNEW". Cycle 400 should write the release title by hand again.
+- Last promoted version: see the top entry of the newest vNN/critique.md.
+
 # Scherzo checkpoint (2026-10-17, loop finished after cycle 200)
 
 - Last promoted version: **v201** (cycle 200), the release copy. 376 bars, 13 A3 pages, ~4:36; 0 warnings, 7 known analyser parallels, theme record 41/41, no C-major triad, part lengths match, parts rebuilt. Cycles 1–200 are logged in critics/HISTORY.md and v201/critique.md.
