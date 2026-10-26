@@ -1461,3 +1461,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 323 (v323 → v324), lens 3, A&S Unit 18
 - 121–122: the Italian sixth closing the development's G-minor area was not audible (the pizzicato E♭ and C♯ never sounded together) and had no 7–6 (A&S PDF 297–298, Ex. 18-12). Cl 1 enters pp on D6 at 121, holds it over the bass E♭ as a seventh, falls to C♯6 and resolves to D6 at 122, where Vln I's solo desks take it over. The bassoon solo and the 123–130 hand-over are unchanged; the line is a tenth or more above the solo.
 - Checked, no change: proportions against Dvořák 9/iv, the C bass at 223–238, leading-tone doublings, augmented seconds; the Phrygian cadences at 57–58 and 177–178 also lack the 7–6 but are protected.
+
+## Cycle 324 (v324 → v325), lens 4, Adler ch. 8 woodwinds and horns in the orchestra
+- 91–94: in the ff codetta every part played short strokes with rests between. Ob 1·2 now hold E♭6/E♭5 and Hn 1·2 E♭4/E♭3, ff, through 94 beat 2, and Hn 2 leaps E♭3→E♭4 onto the dominant at 93.4 (Adler PDF 238, 240–241, 243, Ex. VIII-7 to VIII-11: Mozart 29 and Figaro). The strokes, the diminished seventh at 92 and the displaced tonic at 93 stay.
+- Checked, no change: wind-only passage at 95–96 (breaks the violas' E♭→E at 97), held notes before upbeats, single players on solos, horn third, clarinet figures (protected), lower bass octave at 91–94 (saved for 110, 223, 263, 278).
