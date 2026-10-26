@@ -1634,3 +1634,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: Hn 3·4 fff on the counter at 160 (c174); Cl 1/Vla stretto 129–130; Cl 1 from Hn 1's F4 at 164; viola articulation 69–72; C.a. on Vln II's C5 at 148.
 - Do-not-touch: Fugato 85–96; coda duet 171–174; climax arrival 158 (c283).
 - Cross-movement: none.
+
+## Cycle 338 (Expression; Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (second pass)) → v339
+- Accepted: Bowing (Adler PDF 37–38, Ex. II-19, II-20): cellos slur G3–A♭3 at 45 so the S pickup at 46.4 is up-bow again and 46–55 bows as 146–155 (trans); Cb bow change on the tied C2 at 166.3 so 167 starts down-bow and the ff stop at 170 is down-bow (recTwo); Vln I down-bow pickup and hooked up-bow at 143–144 as at 15, 27, 131, 167 (recOne); Vln II bow change inside the held E♭4 at 54 so both halves reach 55 down-bow (tTwo). Marks and one slur only.
+- Open / not applied: None. Kept: cellos 122→123; cello hook before pizz at 61; up-bow/rest/up-bow at Vla 146 and Vln II 55; Vla 162; cello stop chord 26; Vln 58.
+- Do-not-touch: Phrasing 47–63; stop chord 26.
+- Cross-movement: none.
