@@ -2508,3 +2508,10 @@ melody. Report: reports/c391.md.
 
 - v393 (c392, harmony): B.cl. G2 at 10 b3 supplies the dominant's third.
 - Do-not-touch: Hn 4 C4 at 60 b1-2 (c364) with its doubled leading tone, kept knowingly (c392): reopen only with a voicing that breaks none of c046, the Hn 3·4 unison and c364.
+
+
+## Cycle 393 (v393 → v394)
+form. Report: reports/c393.md.
+- Accepted: nothing (v394 = v393 relabelled).
+- Recorded (no change): c393 (A&S Unit 32, chromaticism in larger contexts): no change. Remote keys about 9 percent of the beats (Mozart 41/ii about 12.6); A minor prepared by the E-E flat thread; minor keys not strung together; no chromatic sequence in 53-60 (reasons recorded); exit from the climax and both Widmung links follow.
+- Do-not-touch: standing list; the 8-page layout.
