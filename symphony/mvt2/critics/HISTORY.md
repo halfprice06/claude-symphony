@@ -1987,3 +1987,10 @@ lens 8, expression; MOLA PDF 1-16. Report: reports/c308.md.
 - Recorded (no change): entry dynamics and hairpins pass; simultaneous dynamics decided earlier.
 - Closed: D♭ timpani tie at 79-80 (c296; keep the restrike); Vln II "Largamente" at 61 (c285).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 309 (v309 → v310)
+lens 9, holistic, Tchaikovsky 1/ii; Adler part 2 ch. 11 and 15 examples. Report: reports/c309.md.
+- Accepted: Vln I back in the upper octave at 77 (unison with Vln II now only 74 b3–76); B♭6 still first at 79.
+- Recorded (no change): horns at 79; theme count; ending.
+- Do-not-touch: standing list; the 8-page layout; B♭6 first at 79 (c299).
