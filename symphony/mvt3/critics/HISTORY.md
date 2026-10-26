@@ -1392,3 +1392,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 27–30: after c306 moved the countersubject to the flutes, Ob 1's held D5 sat above their line at 27.4, 28.1, 29.1 and 30.1 (Rimsky-Korsakov PDF 54, 65, 67: flutes below oboes sound unnatural). Ob 1 now rests 27.3–30.2 and returns mf on E♭5 at 30.3; Ob 2 and Hn 1·2 still hold the harmony.
 - Brahms 2/iv comparison: the large plan holds; the one regression since v299 was this oboe pad.
 - Considered, not applied: muted strings (no time for mutes, or protected bars), a bass clarinet solo, the second theme in violins and violas in unison (67–82, 187–198 protected).
+
+## Cycle 310 (v310 → v311), lens 10, cyclic review; A&S Unit 32
+- 243: Vln I upper desk plays G♯5→G5 (was E5 held), so the E-major chord, the finale's only sound in the scherzo's key, has the scherzo's last pitch on top in the same instrument, falling to G as bar 1's A♭5 does (A&S PDF 588, 593, 600–601). Harmony, horn call and dynamics unchanged.
+- 1–2: tested A♭ on top in the flutes; it made outer-voice octaves with the bass at 2 and 6, so it was reverted.
+- finale.md updated to cite movement I v351, movement II v350 and the scherzo v341; nothing the finale quotes has changed.
+- Checked, no change: E♭ at 261 and 273.3, the stop chord's resolutions, C7 and tremolo only from 223, the one root-position V–I at 262→263, all quotations.
