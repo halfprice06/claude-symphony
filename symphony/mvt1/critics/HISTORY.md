@@ -2078,3 +2078,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: motto/P/S/horn call contours; 9-13 notes
 - Cross-movement: none (record line at v421)
+
+## Cycle 412 (Harmony and voice leading; Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (second pass)) → v413
+- Accepted: no change (leading to V and cadential 6/4 review)
+- Open / not applied: none
+- Do-not-touch: cadential 6/4s at 12-14, 109-110, 61-63, 172-174; 137.4 bass D repeat
+- Cross-movement: none
