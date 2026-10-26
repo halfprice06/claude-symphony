@@ -1479,3 +1479,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 327 (v327 → v328), lens 7, Adler ch. 17 accompaniment
 - 107–109: Bn 1 doubles the chromatic lament bass F–E–E♭–D–D♭–C two octaves up, p <, so the line is heard as a melody as well as the bass (Adler part 2 PDF 283, 288: Fidelio canon, Creation). Bass, strings, suspensions and entry order unchanged.
 - Not applied: a string/wind dialogue at 87–90 (the bridge needs instruments added; protected), a chord change at 244 (protected harmony), 147–150 (a stop, not an accompaniment).
+
+## Cycle 328 (v328 → v329), lens 8, Adler part 2 PDF 37–40, 187–196 dynamics and colour
+- 42→43: the basses hold the low B♭ p > into the pp at 43 instead of stopping on 42.4 and re-attacking, so the dominant pedal 39–50 is unbroken (Adler part 2 PDF 190, 192, Ex. XV-36, XV-40). The other strings and bassoons still breathe at 42.4.
+- 121→122: Cl 1's D6 lasts a dotted quarter, overlapping Vln I's solo desks' D6 instead of meeting it end to end (Ex. XV-37, XV-40).
+- Not applied: sforzandi at 101 and 105 (no long note to carry them; protected), woodwind fp < at 209–210 (decided in c216 and c288), break-offs at 94→95 and 113→114.
