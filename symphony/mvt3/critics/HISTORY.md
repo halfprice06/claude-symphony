@@ -1507,3 +1507,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 333 (v333 → v334), lens 3, Adler part 2 ch. 15 and 17
 - 251–254: in the second phrase of the combination of movement I's two theme heads, the trumpets rest (to enter fresh on the chorale at 255), which left the second-theme head only in the middle. Fl 1·2 a2 now play its second phrase two octaves above Hn 1·2 and the violas (Adler part 2 PDF 288, Haydn's device; also 257, 261, 279). Vln I·II, Bn 1, Vc and Tbn 1·2 keep the first-theme head; the flutes still rest 255–256. No theme pitch changes.
 - Checked, no change: the coda stages, the sub. p at 217–219, the timpani G–G–G at 18/34/158 (kept apart from motive x), dialogue and registral distance.
+
+## Cycle 334 (v334 → v335), lens 4, Adler ch. 11 brass in the orchestra
+- 255–256: the last chorale statement began with Hn 1–4 and Tbn 1 all on G3 while the I6 chord's root had only Tpt 3's low C4 (Adler part 2 PDF 15, Ex. XI-1; earlier noted by c084 and c319). Hn 1 now holds E4 and Hn 2 C4 at 255 (Hn 2 to B3 at 256 as before; Hn 1 re-attacks E4 at 257). Chorale top line, Tbn 1, F2's phrase, bass and dynamics unchanged.
+- Checked, no change: the D-less brass V7 at 262 (every D makes fifths; protected), low trumpets at 159–166 (protected), soft trombone theme, string-free brass choir, brass under the timpani at 229, mute markings.
