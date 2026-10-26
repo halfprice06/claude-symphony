@@ -1688,3 +1688,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 156-166 pitches
 - Cross-movement: none
+
+## Cycle 347 (Texture and counterpoint; Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) (second pass)) → v348
+- Accepted: Hn 3 rests under Hn 1 head at 104.1, 105.3; Hn 3 enters 146 not 145
+- Open / not applied: none
+- Do-not-touch: 69-72; fugato 88-91; 34
+- Cross-movement: none
