@@ -1994,3 +1994,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 19-22 Bsn 1; 47-55 harp; 103-106 unison
 - Cross-movement: none
+
+## Cycle 398 (Expression; Adler ch. 7 woodwind articulation and dynamics by register (adler1 PDF 184-232) (second pass)) → v399
+- Accepted: Fl 1 motto swells into A-flat5 at 73-74; cor anglais slur at 153-155
+- Open / not applied: none
+- Do-not-touch: 77 Cl 1; 103-106 Ob 2; 175-179 B.cl
+- Cross-movement: none
