@@ -2234,3 +2234,11 @@ lens 3, form; Rimsky-Korsakov ch. IV (PDF 124-128). Report: reports/c343.md.
 - Accepted: Hn 1 B♭3 held through 70 b3 under the violins' pickup.
 - Recorded (no change): proportions and register curve; section joins; chromatic steps; spacing 48-51; echo 87-90.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 344 (v344 → v345)
+lens 4, orchestration; Rimsky-Korsakov ch. I (PDF 24-50). Report: reports/c344.md.
+- Accepted: basses' pedal at 65-70 marked "sul A,".
+- Recorded (no change): harp stroke at 78 (c244); Cbn at 35-36; Fl 1 at 77.
+- Open: optional harp at 78 b3 (LH only); optional Cbn diminuendo at 35.
+- Do-not-touch: standing list; the 8-page layout.
