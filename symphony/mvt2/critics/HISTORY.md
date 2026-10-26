@@ -2043,3 +2043,10 @@ lens 6, playability; Rimsky-Korsakov ch. I (PDF 24-50). Report: reports/c316.md.
 - Accepted: basses down-bow then up-bow at 62 before the pizzicato at 63.
 - Recorded (no change): wind breathing 57-60; Hn 1 rest 62-67; Cl 2 hold 89-92; pizzicato and harp triplets; solo violin mute.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 317 (v317 → v318)
+lens 7, texture; Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281). Report: reports/c317.md.
+- Accepted: nothing (v318 = v317 relabelled).
+- Recorded (no change): close low triad at 7-14 has the harp's A-flat 1 to E-flat 2 below it (protected; reopen at the harp if ever); Cl 1 and Hn 1 unison at 53-56 (c038, Copland example PDF 270); winds melt into strings and the diminuendo removes instruments at 82-92; choirs separately then together; theme B accompaniment differs at 37, 41, 53, 57; Bsn 2 octave bass at 71-76; first inversions doubled low; no strict imitation by design (c177).
+- Do-not-touch: standing list; the 8-page layout.
