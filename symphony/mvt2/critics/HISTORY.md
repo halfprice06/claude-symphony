@@ -2291,3 +2291,10 @@ harmony. Report: reports/c352.md.
 - Accepted: nothing (v353 = v352 relabelled).
 - Recorded (no change): c352 (A&S Unit 7, I6 V6 VII6): no change. vii6 neighbour at 19-20 (viola leap allowed, PDF 113), VII6-V4/3-I at 74, V6/5-IV6 at 53-54, no V7-I6, six barline carry-overs deliberate; doubled leading tone on V7 at 24 and 72 recorded only.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 353 (v353 → v354)
+form. Report: reports/c353.md.
+- Accepted: nothing (v354 = v353 relabelled).
+- Recorded (no change): c353 (A&S Unit 21, pedal point as formal device): no change. Double and triple pedals at both ends, tonic and dominant pedal plan, prepared dissonances over pedals and the exits from each pedal all follow; 65-67 held V7 recorded (bassoons at 67 only if 65-70 is reopened).
+- Do-not-touch: standing list; the 8-page layout.
