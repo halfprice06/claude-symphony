@@ -1617,3 +1617,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 211–218: the violas' repeated half-note thirds under theme B take one bow per bar, louré (dashes under slurs), the score's second louré after 224–233 (Adler PDF 42–43, Ex. II-30). Pitches, div. and dynamics unchanged.
 - 236: "port." moved above the slur, under the "sul A" line (Adler PDF 33).
 - Not applied: tremolo under the horn call at 243–245 (strings mf on purpose), la metà at 43–50, 95–98, 171–186, other string effects. MIDI note-for-note identical.
+
+## Cycle 356 (v356 → v357), lens 6, Sebesky ch. 2 wind instruments
+- 91–92: Hn 3·4 dropped the ff eighth-note upbeats (`r8 x8` → `r4`) and land on the downbeats, while trumpets, trombones, tuba and timpani keep them, as the score already does at 199–204, 269, 271 and 277 (Sebesky PDF 32 and fn. 1, PDF 46, Ex. 51).
+- Checked, no change: breathing (longest about 20 s, Cl 1 181–195, with eighth rests), ranges, Tpt 1's rests in the coda, flute above the lead trumpet at 211–218 and 257–262, C.A. with the horns at 217–218, stopped horn at 138, trombone slides at 248 and 250.
