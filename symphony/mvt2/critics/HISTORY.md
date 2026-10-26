@@ -2524,3 +2524,6 @@ form. Report: reports/c393.md.
 
 
 - v397 (c396, playability): harp right-hand order at 55 b4 avoids repeated plucks of one string.
+
+
+- v398 (c397, texture): timpani roll p< on 78 b3 into the second climax.
