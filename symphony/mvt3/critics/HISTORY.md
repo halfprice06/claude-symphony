@@ -1516,3 +1516,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 82: the harp's 8 bassa line ran under the half rest to the barline since c296; it now ends right after the E♭ (Gould PDF 44).
 - 229.3: on the shared flute staff Fl 2's B♭5 was shifted right with its flat printed in front of Fl 1's C6, reading as C♭6 over B♮5; score-only force-hshift puts the B♭ left with its own flat (Gould PDF 61–64, 66). MIDI byte-identical.
 - Checked, no change: 103 seconds on shared staves (229 the only one with an accidental), ledger lines, spacing at 102/107/146/148, the harp octave line at 242, the basses' tenor clef at 27–34.
+
+## Cycle 336 (v336 → v337), lens 6, Adler App. A ranges and terms
+- 28.4–29.1: the tuba no longer tongues E♭1–D1 ff quarters below its professional range (Adler App. A PDF 306; part 2 PDF 8); it breathes on 28.4 and takes D2 on 29.1 with the bass clarinet. The contrabassoon keeps E♭1–D1. The held E♭1 at 166 stays.
+- 51: the owed trumpet solo is marked "solo, dolce cantabile" instead of the combiner's "1.", as for the oboe (95) and bassoon (115) solos (App. A PDF 312). Not added at 171, where the cor anglais doubles the muted trumpet.
+- Checked, no change: timpani ranges and retunings, the basses' C-extension notes, desk directions, stick words, highest horn and trumpet notes.
