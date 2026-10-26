@@ -2205,3 +2205,11 @@ lens 9, holistic, Mahler Symphony No. 4/iii; Casanelles ch. 6 Mahler 1 analysis 
 - Accepted: nothing (v340 = v339 relabelled).
 - Recorded (no change): holds up against Mahler 4/iii: long soft one-choir opening, slower minor oboe episode at 47-50, full orchestra held back to 57-61, timpani bass and shared-note fade into the scherzo; the return changes setting not melody (c319); two ff peaks scored differently (c303, c333); soft entries over held notes (Fig. 6.1); printed dynamics and c338's MIDI levels agree; flute and oboe brighten the violins at 57-60, 77-79; nothing worse than v329; proportions settled (c253, c303, c319).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 340 (v340 → v341)
+lens 10, cyclic; release check. Report: reports/c340.md.
+- Accepted: title block (percussion tacet, duration); theme record coherence/themes-mvt2*.ly with lyparse-mvt2.patch; tools/midi-note-diff.py; coherence/mvt2.md corrections.
+- Not taken: percussion tacet page (31-page parts book).
+- Open (carried): timpani rolls in score.midi; Bsn 1 MIDI level 75-78; optional cellos A♭3 at 28, sul D 23-30/71-78, viola A♭4 at 71 b2; viola part text at 53.
+- Do-not-touch: standing list; the 8-page layout.
