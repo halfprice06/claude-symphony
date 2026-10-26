@@ -1355,3 +1355,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 189–192: Vln I·II "sul A" on the recapitulated F2's peak and descent, so the A♭ statement is veiled where 69–72 is bright (Adler PDF 73, 75, Ex. III-7). Accepted; notes and bowing unchanged.
 - 178: pizz. cellos play motive x with the timpani, pp (Adler PDF 103), giving the near-the-rim quotation a pitch. Accepted; scherzo thread told.
 - Open strings at 67 and 232, a phrase sul G: no change. Agreed.
+
+## Cycle 302 (v302 → v303), lens 2, A&S Unit 17
+- 207–208: the second statement of F1's head moves up a step to B♭ minor over E♭m7 on the A♭ pedal, so 205–211 runs V7 – ii7 – V7 – I and repeats the exposition's 35–38 sequence (A&S PDF 264–266, 279); Tbn 1's seventh D♭4 resolves to C4 at 209. Accepted; scoring, the 205–206 horn statement and 209–211 unchanged.
+- 99–106, 239–240, ascending fifths, 19–26, 67–82: no change. Agreed.
