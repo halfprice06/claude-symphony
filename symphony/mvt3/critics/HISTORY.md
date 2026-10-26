@@ -1359,3 +1359,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 302 (v302 → v303), lens 2, A&S Unit 17
 - 207–208: the second statement of F1's head moves up a step to B♭ minor over E♭m7 on the A♭ pedal, so 205–211 runs V7 – ii7 – V7 – I and repeats the exposition's 35–38 sequence (A&S PDF 264–266, 279); Tbn 1's seventh D♭4 resolves to C4 at 209. Accepted; scoring, the 205–206 horn statement and 209–211 unchanged.
 - 99–106, 239–240, ascending fifths, 19–26, 67–82: no change. Agreed.
+
+## Cycle 303 (v303 → v304), lens 3, Rimsky-Korsakov ch. IV
+- 234: the plagal close's last chord no longer stops all groups together; brass and timpani end on a p quarter, woodwinds on an mp half, strings keep their dotted half into 235 (Rimsky PDF 116, 127, 130), as the score's other fades. Accepted; every pitch kept.
+- 243–246, 159, 247, 235, 89: protected, kept. Proportions kept. Agreed.
