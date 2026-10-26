@@ -2064,3 +2064,10 @@ lens 9, holistic, Dvorak Symphony No. 6/ii; Adler part 2 ch. 16 transcription ex
 - Accepted: nothing (v320 = v319 relabelled).
 - Recorded (no change): about half the length of Dvorak 6/ii with three statements of theme A (proportions settled c253, c303); diminuendi by instruments dropping out at 63-65 and 80-83; the return at 71-78 varies the surface only at 78 (untested option: a turn at 72 in Vln I, not recommended); three accompaniment types; string ending returns to bar 1's colour; trombones only at 60-64; nothing worse than v309.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 320 (v320 → v321)
+lens 10, cyclic; A&S Unit 28 the Neapolitan as a long-range device (PDF 482-502). Report: reports/c320.md.
+- Accepted: nothing (v321 = v320 relabelled).
+- Recorded (no change): N6 links to movement I at 49 and 87 added to coherence/mvt2.md and sent to the finale thread (no score change); the flat-II region at 61-65 is A minor, keeping C natural as the quotation's held note; flat-2 at the climax 63 and natural 2 (Hn 1 B-flat 3) at 69-70; theme B in D-flat is the finale's flat-II area; motto-tail and quotation spellings correct (Ex. 28-24, 28-27); no flat-II colour in the coda (c310, c312); joins with I, III and IV hold.
+- Do-not-touch: standing list; the 8-page layout.
