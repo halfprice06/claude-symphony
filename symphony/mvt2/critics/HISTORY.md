@@ -2050,3 +2050,10 @@ lens 7, texture; Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-28
 - Accepted: nothing (v318 = v317 relabelled).
 - Recorded (no change): close low triad at 7-14 has the harp's A-flat 1 to E-flat 2 below it (protected; reopen at the harp if ever); Cl 1 and Hn 1 unison at 53-56 (c038, Copland example PDF 270); winds melt into strings and the diminuendo removes instruments at 82-92; choirs separately then together; theme B accompaniment differs at 37, 41, 53, 57; Bsn 2 octave bass at 71-76; first inversions doubled low; no strict imitation by design (c177).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 318 (v318 → v319)
+lens 8, expression; Adler ch. 7 (adler1 PDF 184-232). Report: reports/c318.md.
+- Accepted: B.cl. 31-34 p<mf>mp; Cbn breath at 62 b3; B.cl. fade at 37.
+- Recorded (no change): 87-90 swell; 3-6 chord; Cl 1 at 53 (c038).
+- Do-not-touch: standing list; the 8-page layout.
