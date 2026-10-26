@@ -1922,3 +1922,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: Vln I sul D dashes touch 'attacca' at 182
 - Do-not-touch: Hn 4 page plan
 - Cross-movement: none
+
+## Cycle 386 (Playability, instrument by instrument; Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50) (second pass)) → v387
+- Accepted: horn breaths: Hn 4 after 58, Hn 3 after 166
+- Open / not applied: none
+- Do-not-touch: Vc 101-102
+- Cross-movement: none
