@@ -91,3 +91,24 @@ scherzoLastPitchAs = { aes''1 g''4 r4 }
 % and as G♯5 falling to G5 on top of Vln I's divisi at 243 (since finale v311).
 scherzoLastPitchGis = { gis''2 g''2 }
 %@ scherzoLastPitchGis VlnOne 243 2 abs
+% c350 proposal: at-pitch cyclic links that other movements' coherence files rely on and that themes-finale-quotes.ly does not yet check.
+% Compare with: python3 themecheck.py <this file> ../mvt3/vNN --beats 4
+% movement II's last tail (Cl 1, II 85-89, E flat5-D5-D flat5-C5) at the same pitch, Ob 1 95-97 (mvt2.md: 'the finale's Ob 1 at the same pitch, IV 95-98')
+mvtTwoLastTail = { es''2. d''4 | des''1 | c''1 }
+%@ mvtTwoLastTail OboeOne 95 abs
+% theme B's answer at movement II's own pitch (C.a. II 41, doubled values), Hn 1-2 and C.a. 217-218 (finale.md item 15)
+themeBanswer = { aes2 des'2 | f'2. ges'4 }
+%@ themeBanswer HnOne 217 abs
+%@ themeBanswer HnTwo 217 abs
+%@ themeBanswer CorAnglais 217 abs
+% the scherzo horn call's unresolved D sharp4 (and movement II's lastEflat E flat4) resolved at pitch, Hn 3 219-220 (finale.md item 2; scherzo.md 'What the finale relies on')
+threadHorn = { dis'1 | e'1 }
+%@ threadHorn HnThree 219 abs
+% the stop chord's B4 to C5, movement I's last trumpet pitch resolved in its octave, Tpt 1 222-223
+stopChordTrumpet = { b'1 | c''1 }
+%@ stopChordTrumpet TptOne 222 abs
+% bar 1-2 links: Hn 4 F sharp3 -> G3 (movement I v285, I 12) and Cl 1 A flat4 -> G4 (scherzo c270)
+linkHnFour = { fis1 | g4 }
+%@ linkHnFour HnFour 1 abs
+linkClOne = { aes'1 | g'4 }
+%@ linkClOne ClOne 1 abs
