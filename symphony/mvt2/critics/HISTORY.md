@@ -2470,3 +2470,6 @@ form. Report: reports/c383.md.
 
 
 - v386 (c385, engraving): Fl 1 beam slope and tuplet bracket at 78 restored.
+
+
+- v387 (c386, playability): cellos "sul D" at 23-30 and 71-77.
