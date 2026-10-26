@@ -2305,3 +2305,6 @@ orchestration. Report: reports/c354.md.
 - Accepted: nothing (v355 = v354 relabelled).
 - Recorded (no change): c354 (Adler harp ch. 4 and timpani ch. 12): no change. Harp and timpani pass every applicable principle; harp melody is met by the scherzo (noted in mvt2.md); timpani ring and damp convention at 84-85 and the rest at 82 confirmed; harp registers suit the movement.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+- v356 (c355, engraving): parts only; rehearsal letter and tempo word joined in one stencil in every part; Vln I mute text starts at 4.
