@@ -1886,3 +1886,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: fugato colours; 182 chord; soft attacca
 - Cross-movement: none
+
+## Cycle 380 (Cyclic design and emotional arc across four movements; Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (second pass)) → v381
+- Accepted: no change; mvt1.md updated to v381 (trumpet B-C places, 78-79 seed)
+- Open / not applied: none
+- Do-not-touch: Tpt 1 B4 at 161
+- Cross-movement: mvt1.md record
