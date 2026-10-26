@@ -1372,3 +1372,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 32, 65, 185, 214, 251: on shared staves a semibreve sat against the other player's stem and read like a minim (Gould PDF 66). Score-only NoteColumn.force-hshift now puts the semibreve on the far side (Fl 1·2 at 32, Cl 1·2 at 65 and 185, Hn 3·4 at 214 and 251). Parts unchanged; MIDI identical.
 - 219: tested c245's deferred spacing override; no change on the page, notes already sit just left of centre (Gould PDF 55). Closes c245's item.
 - 24, 38, 103, 112, 200, 202: meeting stems match Gould's own example on PDF 66; left alone.
+
+## Cycle 306 (v306 → v307), lens 6, Adler ch. 6–7 woodwinds
+- 27–34: Fl 1·2 a2 now double the violins' countersubject at pitch, f, and the clarinets rest. The flutes had a middle-register pad that copied the oboes and could not be heard; the clarinets were at written D6–G6 (Adler PDF 184–185, 187, 192, 210). Flutes breathe at different points; Fl 1 holds A♭5–G5 at 30 to avoid octaves with the bass.
+- 33–38, Bn 1 part only: tenor clef for the eighths up to B♭4 (Adler PDF 225).
+- Checked, no change: low flutes 43–44, Cbn G2 at 24/87/164, bass clarinet line, clarinet E6–F♯6 in the ff tutti at 227–230 and 265–268.
