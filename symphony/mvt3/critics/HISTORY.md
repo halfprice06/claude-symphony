@@ -1407,3 +1407,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 75.3: under F2's turn to the sixth degree over the tonic, the harmony is now VIIø7 (D–F–A♭–C) over the E♭ pedal, back to I on beat 4; it had been a cluster E♭–G–A♭–B♭–C (A&S PDF 377, 379, 381–382). Hn 1·2, Bn 1 and harp RH revoiced; no new parallels.
 - 178→179: Bn 1 B2–D3 instead of rising to C3, so the diminished fifth with Cl 2 no longer moves to a perfect fifth (A&S PDF 375 Ex. 22-3c), as at the exposition's 58.
 - Not applied: VIIø4/3 → I6 at 74→75 and 194→195; other tritone-to-fifth moves stay within one harmony or are protected; ♭VI in major has no unprotected place.
+
+## Cycle 313 (v313 → v314), lens 3, A&S Units 16 and 19 six-four chords
+- 19: the bass of F1's second statement now passes E♭–D–C through a passing V6/4 on beat 3 (A&S PDF 256–257, 309–310, 324), instead of repeating the first statement's leap; cellos, basses, Bn 2 and Cbn `es2 d4 c4`, violas and Cl 1 revoiced. Melody and the recapitulation's 159 unchanged.
+- Proportions: the coda is 31% of the movement, longer than Dvořák 9/iv's, because the plan saves C major and the only root-position V–I for it; no change.
+- Rejected: a passing 6/4 at 258 (G in the bass before the final V at 262), a neighbouring i6/4 at 147–150 (anticipates 151).
