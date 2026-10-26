@@ -1398,3 +1398,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 1–2: tested A♭ on top in the flutes; it made outer-voice octaves with the bass at 2 and 6, so it was reverted.
 - finale.md updated to cite movement I v351, movement II v350 and the scherzo v341; nothing the finale quotes has changed.
 - Checked, no change: E♭ at 261 and 273.3, the stop chord's resolutions, C7 and tremolo only from 223, the one root-position V–I at 262→263, all quotations.
+
+## Cycle 311 (v311 → v312), lens 1, Adler ch. 7 individual woodwinds
+- 35–38: Fl 2 rests (it doubled Ob 1's pad at pitch in the flute's weak middle octave under ff strings, and had played without a break since 27; Adler PDF 185, 188, 192, 201). It re-enters f on D5 at 39, taking the held D5 from Ob 1, which stops at 41; Fl 1 also marked f at 39.
+- Not applied: Fl 1's F6–B♭6 leap at 78 (protected F2 climax), low clarinets in unison at 95–98 (collides with the violas' E♭–E line), a bass clarinet line, a wind chorale at 247–264.
