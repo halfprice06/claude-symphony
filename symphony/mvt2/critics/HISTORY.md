@@ -2362,3 +2362,6 @@ form. Report: reports/c363.md.
 
 
 - v366 (c365, engraving): parts only; Hn 3 rest at 29, C.a. cue rest at 31, harp octave sign at 78.
+
+
+- v367 (c366, playability): redundant "sul C" removed from the violas at 87; theme record gains lastEflat and "abs" checks.
