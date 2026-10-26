@@ -2184,3 +2184,10 @@ lens 6, playability; Adler ch. 10 the horn (adler1 PDF 299-311). Report: reports
 - Accepted: nothing (v337 = v336 relabelled).
 - Recorded (no change): Hn 4 doubles Hn 3 up to written G-flat 5 at 61-62 (c064, c069, c086, protected); Hn 1 endurance with long rests; slurs playable in one breath; low notes held at p or pp; mute changes timed (mettere sord. 17 s before 87, scherzo Hn 3-4 senza sord.); only wide leap Hn 4 octave at 60-61 across a breath; concert score, horn parts in F; no stopped horn, glissando or trills.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 337 (v337 → v338)
+lens 7, texture; Adler ch. 11 contrapuntal brass (adler2 PDF 41-54). Report: reports/c337.md.
+- Accepted: nothing (v338 = v337 relabelled).
+- Recorded (no change): Tbn 1 quotation alone at 63-64 (c158, c303, once-only rule; optional Hn 3-4 counter-line not recommended); sustained tenuto brass at the Largamente climax 61-62 (protected); horn weights follow two horns = one trombone (PDF 44); free counterpoint inside the brass at 3-6, 29-30, 61-62, 64, 80-81, no imitation (c177); sparse tuba and Cbn as in Dvorak 9/ii; brass registers good (PDF 42); sf-p at 63 and muted horns behind winds at 87-90 as Ex. XI-27.
+- Do-not-touch: standing list; the 8-page layout.
