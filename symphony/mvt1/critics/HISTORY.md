@@ -1916,3 +1916,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 31/72, 41 violin tops; 167-170 divisi; 34 basses alone
 - Cross-movement: none
+
+## Cycle 385 (Engraving and notation (Gould's *Behind Bars*, MOLA); MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score (second pass)) → v386
+- Accepted: parts: horn timpani cue fixed at 179-180; rest split at 68 for tempo word; new cues (Hn 3 56, Tbn 1 113, B.tbn 114, B.cl 91 and 139); tempo-mark padding
+- Open / not applied: Vln I sul D dashes touch 'attacca' at 182
+- Do-not-touch: Hn 4 page plan
+- Cross-movement: none
