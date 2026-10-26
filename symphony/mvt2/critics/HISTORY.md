@@ -2443,3 +2443,10 @@ holistic comparison with a master work (Goldmark, Rustic Wedding Symphony, Im Ga
 
 
 - v381 (c380, cyclic): comment fix in coda; coherence record corrections; tied timpani rolls traced to articulate.ly (open, symphony-wide).
+
+
+## Cycle 381 (v381 → v382)
+melody. Report: reports/c381.md.
+- Accepted: nothing (v382 = v381 relabelled).
+- Recorded (no change): c381 (Adler ch. 4 harp, melodic and figurative): no change. Harp tune moment at 82-83, triplets at 53-56, silence in 84-92, close dyads at 7-14 and 75-78 and the bass doubling at 37-44 all recorded; theme A remains the memorable tune.
+- Do-not-touch: standing list; the 8-page layout.
