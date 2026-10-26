@@ -1736,3 +1736,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 160 Tpt 2 fff; 131-134 counter; 158-159; 117-121 pedal
 - Cross-movement: none
+
+## Cycle 355 (Engraving and notation (Gould's *Behind Bars*, MOLA); MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (second pass)) → v356
+- Accepted: a2 at 158 on beat 1; Hn 4 rest hidden at 146 (score); Vln I cue Cl. 1 at 175-176; 'Cor anglais in F'
+- Open / not applied: remove 'draft' subtitle at release v421
+- Do-not-touch: 116 cl/tpt ff
+- Cross-movement: none
