@@ -82,7 +82,7 @@ Sections and metre (sections.txt):
 
 Key signatures are set in global.ily. Harmonic labels come from the section files' notes.
 
-Augmented sixths across the symphony (c350, A&S PDF 523): II's stand on F♭ = E (21, 64), the scherzo's tonic, as movement I's stands on A♭ (I 12, II's tonic) and the scherzo's on C (III 331, the finale's tonic). Keep them on F♭; no third one is added. Record only. Both joins are the III♯ relation of Chopin's pair in A&S Ex. 30-1 (PDF 530-531, 534): C is III♯ of A♭ at bar 1, and A♭ = G♯ is III♯ of E into the scherzo (c360).
+Augmented sixths across the symphony (c350, A&S PDF 523): II's stand on F♭ = E (21, 64), the scherzo's tonic, as movement I's stands on A♭ (I 12, II's tonic) and the scherzo's on C (III 244 and 331, the finale's tonic). Keep them on F♭; no third one is added. Record only. Both joins are the III♯ relation of Chopin's pair in A&S Ex. 30-1 (PDF 530-531, 534): C is III♯ of A♭ at bar 1, and A♭ = G♯ is III♯ of E into the scherzo (c360).
 
 | Bars | Mark | Section | Key and harmony |
 |---|---|---|---|
@@ -223,4 +223,4 @@ None.
 5. scherzo.md's opening section says movement II "ends with them [Hn 3·4] muted". They play muted until 90 and have "via sord." at 91.
 
 
-Theme record (c340, 2026-10-26): coherence/themes-mvt2.ly (3/4 sections) and themes-mvt2-b.ly (bars 37–64, use --beats 4) list the link, theme A, the motto tails, the timpani answer, the coda lines and last notes, theme B and both quotations. Check a version with `python3 symphony/coherence/themecheck.py symphony/coherence/themes-mvt2.ly symphony/mvt2/vNN` after applying coherence/lyparse-mvt2.patch to lyparse.py (triplets and markup). A record, not a lock. Joins also checked at cycles 300, 310, 320, 330 and 340 (I v340, III and IV v301).
+Theme record (c340, 2026-10-26): coherence/themes-mvt2.ly (3/4 sections) and themes-mvt2-b.ly (bars 37–64, use --beats 4) list the link, theme A, the motto tails, the timpani answer, the coda lines and last notes, theme B and both quotations. Check a version with `python3 symphony/coherence/themecheck.py symphony/coherence/themes-mvt2.ly symphony/mvt2/vNN` after applying coherence/lyparse-mvt2.patch to lyparse.py (triplets and markup). Since c366 (scherzo suggestion) the record also holds Cl 2's held E♭4 at 89 (lastEflat, which the scherzo's Hn 1 takes as D♯4 at its 5–6 and the finale resolves at IV 219–220), and timpAnswer, lastAflat, lastC and lastEflat are compared at pitch ("abs", honoured by themecheck.py since the scherzo's c350): 18/18 and 11/11 on v366. A record, not a lock. Joins also checked at cycles 300, 310, 320, 330 and 340 (I v340, III and IV v301).

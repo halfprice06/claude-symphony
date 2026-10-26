@@ -28,6 +28,7 @@ mixtureLineLow = { f2. | fes2. | es2. }
 % lastCommonTone: Vln II A flat4 87-92 (taken as G sharp4 by the scherzo's Hn 1) and Vln I C5 89-92 (the pitch movement I ended on)
 lastAflat = { aes'2. | aes'2. | aes'2. }
 lastC = { c''2. }
+lastEflat = { es'2. }
 
 % ---- where each item must appear ----
 %@ linkVlnOne VlnOne 1 1
@@ -43,9 +44,10 @@ lastC = { c''2. }
 %@ themeA VlnTwo 70 17
 %@ mottoTailBcl BassCl 31
 %@ mottoTailHn HnOne 67
-%@ timpAnswer Timp 84
+%@ timpAnswer Timp 84 abs
 %@ lastTail ClOne 85
 %@ mixtureLine CorAnglais 87
 %@ mixtureLineLow HnFour 87
-%@ lastAflat VlnTwo 87
-%@ lastC VlnOne 89
+%@ lastAflat VlnTwo 87 abs
+%@ lastC VlnOne 89 abs
+%@ lastEflat ClTwo 89 abs
