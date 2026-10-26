@@ -2072,3 +2072,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: timpani pulse 179-180; coda 171-182; solo horn passages; intro 1-9
 - Cross-movement: mvt1.md record update only
+
+## Cycle 411 (Melody and memorability; Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (second pass)) → v412
+- Accepted: Vln I 'sul D' on the rising sixth at 9.4-10 (as at 177)
+- Open / not applied: none
+- Do-not-touch: motto/P/S/horn call contours; 9-13 notes
+- Cross-movement: none (record line at v421)
