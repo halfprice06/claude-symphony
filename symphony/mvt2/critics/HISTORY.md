@@ -2170,3 +2170,10 @@ lens 4, orchestration; Casanelles ch. 6 spectral orchestration and acoustic mixi
 - Accepted: nothing (v335 = v334 relabelled).
 - Recorded (no change): soft entries over still pedals at 65-67 and 82-85 (Fig. 6.1); theme A moves further away at each return (PDF 273, 282-287); low spacing follows the harmonic series (PDF 274); masking scan finds only the decided places 41-44, 47-52, 63-64 (PDF 287); brass weight graded at 61-64 and 79-81 (c024, c264); timpani rolls render as single strokes in score.midi though printed correctly (open since c244; MIDI-only fix in the report, not taken).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 335 (v335 → v336)
+lens 5, engraving; Gould PDF 58-68. Report: reports/c335.md.
+- Accepted: unison noteheads at 25-28 (violas) and 39 (Vln II) via unisHead (no MIDI change; closes c325's open point); harp stem direction at 8, 72.
+- Recorded (no change): Ob accidental at 81; separate stems (c205); dots and chords.
+- Do-not-touch: standing list; the 8-page layout.
