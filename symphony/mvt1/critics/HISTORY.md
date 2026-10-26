@@ -1598,3 +1598,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: brass doubling in the S climax 158–161 (Ex. 96); horn call 13–14, 41–44; Cl 1 low motto 129–130; themes unchanged.
 - Do-not-touch: Harmony and dynamics of 69–72.
 - Cross-movement: none (mvt1.md line).
+
+## Cycle 332 (Harmony and voice leading; Aldwell & Schachter Units 11-13 VI and IV6; supertonic and subdominant sevenths; other uses of IV and VI (aldwell-schachter PDF 163-210) (second pass)) → v333
+- Accepted: No change (harmony vs A&S Units 11–13: Tpt 3 B3→E♭4 at 159→160 is a doubled leading tone resolved elsewhere, trumpet B→C reserved for the finale; Tpt 3 dim. fourth 82→83; bass A♭→D 160→161 inside a prolonged dominant; iv7 sevenths by leap at 10 and 172 resolve down; ii7 seventh at 49→50 taken over by the melody).
+- Open / not applied: None.
+- Do-not-touch: Deceptive-cadence pairs 64–72, 158–166; ii7 sevenths into the cadential 6/4 at 141–142, 164–165, 173–174.
+- Cross-movement: none.
