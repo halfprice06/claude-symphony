@@ -2008,3 +2008,10 @@ lens 1, melody; A&S Unit 21 Rhythmic Figuration: suspensions, anticipations, ped
 - Accepted: nothing (v312 = v311 relabelled).
 - Recorded (no change): no anticipations in either theme, unlike Dvorak 9/ii; the only fitting places are protected cadence notes (untested C.a. option at 43 recorded, not recommended); melody F against inner G-flat at 41 and 57 b3-4 acceptable (PDF 352, 358); theme A ties and suspensions clean at 8/24/72 and 12/28/76; c151 chain at 58 and double suspension at 42 intact; bar 81 resolution moved to another voice (Ex. 21-28); pedal plan follows section 28.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 312 (v312 → v313)
+lens 2, harmony; A&S Units 28-29 (PDF 482-529). Report: reports/c312.md.
+- Accepted: cellos hold B2 at 49 b3-4 as V's seventh and resolve to A2 at 50 (Neapolitan → V7 → i).
+- Recorded (no change): 64 spellings; 61-65 models; chromatic spellings; augmented sixths at 21, 64; no Neapolitan coda.
+- Do-not-touch: standing list; the 8-page layout; the 61-65 return, French sixth at 21, Neapolitan at 49.
