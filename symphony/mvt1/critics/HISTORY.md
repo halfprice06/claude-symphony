@@ -1910,3 +1910,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: coda contrapuntal cadences; 177-178
 - Cross-movement: none
+
+## Cycle 384 (Orchestration; Adler ch. 5 Scoring for Strings (adler1 PDF 125-167) (second pass)) → v385
+- Accepted: Vln II halo above the violas' tune at 154 (E5/G5, D5/G5)
+- Open / not applied: none
+- Do-not-touch: 31/72, 41 violin tops; 167-170 divisi; 34 basses alone
+- Cross-movement: none
