@@ -1560,3 +1560,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 41–42: as the violins drop to F4–D4–E♭4–F4 in unison, fading to p, the cellos double them an octave lower (F3–D3–E♭3–F3) instead of holding B♭2, before the woodwind scale passage at 43 (Adler PDF 141, Ex. V-19, Shostakovich 6). c254 had rejected cellos here for the B♭ pedal; the pedal stays in Cb B♭1, Bn 2 B♭2, Hn 2 B♭3, and the cellos hold B♭2 at 39–40. c237's staggered drop-outs and Fl 1's A♭5 unchanged.
 - Not applied: the string accompaniment under the bassoon solo 115–122 and the violas' dynamic balance at 83–86 (both protected and already sound by Adler PDF 128, 133–135, 144).
 - Checked, no change: 242–244 and 255.
+
+## Cycle 345 (v345 → v346), lens 5, MOLA parts
+- Parts move from A4 to B4 with 7.5 mm staves, like movements I, II and the scherzo (MOLA PDF 7–8). c255 kept A4 to protect page turns; all 30 parts were rebuilt and every turn checked against each player's MIDI: Vln I now turns at 126 (234|235 had become a turn in the music), Vln II at 66 (removing the last turn in the music, 61|62), B. Cl fits one page, Ob 1 bar 10 has a part-only minimum hairpin length. 88 → 65 part pages.
+- Six part-only cues after 15–46 bars' rest (MOLA PDF 5, Ex. 4): Fl 1 at 61.4 and 181.4 (Tpt 1), Cbsn at 87 (Vc), Hn 2 at 195 (Vln I), C.A. at 217 (Tpt 1), B. Cl at 257 (Vc).
+- Score page 1 prints the instrumentation (MOLA PDF 6); pages 2–16 unchanged; score.midi byte-identical.
+- Not changed: harp pedals at 43 and its 8va bassa (c255); no composer line.
