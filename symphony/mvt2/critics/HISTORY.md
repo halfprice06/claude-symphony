@@ -2426,3 +2426,10 @@ orchestration. Report: reports/c374.md.
 
 
 - v378 (c377, texture): bassoons resolve G-A flat and D flat-C into the return at 71.
+
+
+## Cycle 378 (v378 → v379)
+expression. Report: reports/c378.md.
+- Accepted: nothing (v379 = v378 relabelled).
+- Recorded (no change): c378 (A&S Unit 3, hypermeter and climaxes): no change. Climaxes fall on strong bars at three levels (12, 28, 76; 61 and 79; A6 at 63, B flat6 at 79); quieter phrase endings; tempo changes on group boundaries with matching MIDI steps; shared-staff dynamics now checked across the whole movement.
+- Do-not-touch: standing list; the 8-page layout.

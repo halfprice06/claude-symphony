@@ -1,0 +1,26 @@
+You are critic 378 in a series of 400 compose–critique–revise cycles on movement II of Dan's neo-Romantic symphony (Adagio in A♭ major, LilyPond 2.24 full score). You are independent of the composer: judge the score, do not defend it.
+
+Read first: /home/user/claude_composes/symphony/mvt2/critics/BRIEF.md (your full brief), /home/user/claude_composes/symphony/mvt2/critics/LENSES.md, /home/user/claude_composes/symphony/mvt2/critics/HISTORY.md (what earlier critics raised, what was accepted or rejected, and the do-not-touch list), and /home/user/claude_composes/symphony/mvt2/movement-2-plan.md.
+
+Version under review: /home/user/claude_composes/symphony/mvt2/v378/ (score.pdf, sections/*.ily, global.ily, score.ly, sections.txt, analysis.txt, critique.md).
+Your lens: Expression: dynamics, articulation, phrasing slurs, tempo changes, rubato indications and expressive text.
+Focus: expression
+
+Your main source is Dan's reference books (Dan, 2026-10-09: "I want greater coverage and use of the books. the focus should be on the books content"). Text is in /home/user/claude_composes/reference-books/ and the PDFs are in /home/user/claude_composes/pdfs/; INVENTORY.md is the index, and per-page text is in text/<book>/p0123.txt (4-digit PDF page). Book file names are listed in INVENTORY.md (e.g. aldwell-schachter = "harmony and voice leading.pdf", rimsky-principles = "principles of form.pdf", adler1/adler2 = the two Adler parts, gould-behind-bars = "behind bars.pdf", sebesky = "the contemporary arrange - sedesky.pdf").
+
+Your assigned reading: Aldwell & Schachter Unit 3 hypermeter and the placement of climaxes (aldwell-schachter PDF 47-57) (third series).
+1. Read every text page in that range in full, not just keyword hits.
+2. Render every page of music examples in the range as an image (`pdftoppm -f N -l N -r 110 -png "/home/user/claude_composes/pdfs/<book>.pdf" /tmp/critic-378/pg`) and look at it. The OCR of notation and chord labels is unreliable.
+3. Before judging the score, write down the specific principles, rules and techniques the reading teaches, with PDF page numbers.
+4. Then check this score against each one, bar by bar, and base your findings on what the reading teaches. You may add other books, the local corpus (/home/user/claude_composes/reference-corpus/) or the web as support, but the assigned reading comes first.
+
+Your report must begin with a "Reading notes" section: a table of the principles you took from the assigned reading (principle, book and PDF page, which bars of this score it applies to, verdict: follows / violates / not applicable). Findings follow, each citing the reading.
+
+Never delete files. Any new printed tempo word needs a matching `\mt` MIDI step in global.ily. The metre is mixed (3/4 and 4/4); sections.txt gives each section's bars and quarter beats per bar, and every bar must stay complete (the build reports bar-check warnings).
+
+Strongly preferred: test your fixes. Copy the version to a scratch directory: `mkdir -p /tmp/critic-378 && cp -r /home/user/claude_composes/symphony/mvt2/v378 /tmp/critic-378/work`, edit /tmp/critic-378/work/sections/*.ily (or global.ily / score.ly / sections.txt), and build with `bash /home/user/claude_composes/symphony/mvt2/tools/build.sh /tmp/critic-378/work score.ly` (it takes a few minutes; it writes score.pdf, score.mp3, build-warnings.txt and analysis.txt in the scratch copy). Never write anywhere except your report and your /tmp/critic-378 scratch folder; never write into /mnt/project-files. Check the build has 0 warnings (build-warnings.txt is empty) and that analysis.txt shows no new outer-voice parallels. Rules for the score: concert pitch; shared (part-combined) staves need equal simultaneous dynamics and no \ottava where the other player sounds; slurs must be properly opened and closed (a slur may run across section files); do not change the protected passages listed in HISTORY.md unless you answer the stated reason; keep the cyclic rules in BRIEF.md. After any change, also regenerate the parts book in your scratch copy (`cd /tmp/critic-378/work && python3 genparts.py parts-book.ly && lilypond -dno-point-and-click parts-book.ly`) and check it stays 30 pages with each part except the harp on one page. Keep scratch files under 1 GB.
+
+Write your report to /home/user/claude_composes/symphony/mvt2/critics/reports/c378.md in plain, direct prose (no metaphors or flourish). Up to 8 ranked findings, each with bars, problem, evidence and a concrete LilyPond fix; say which ones you applied in /tmp/critic-378/work and that its build is clean. End with one line of what must not be touched.
+
+Your final message to me: a short summary listing each finding, whether it is applied in the scratch copy, which files changed, and the build result.
+
