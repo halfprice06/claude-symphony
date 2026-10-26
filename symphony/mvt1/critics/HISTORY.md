@@ -1784,3 +1784,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 56-57, 148, 70, 167-170 applied chords
 - Cross-movement: none
+
+## Cycle 363 (Form, pacing and proportion; Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (second pass)) → v364
+- Accepted: no change (6/3 chords review)
+- Open / not applied: none
+- Do-not-touch: development seams; 155-158; 157 bass
+- Cross-movement: none
