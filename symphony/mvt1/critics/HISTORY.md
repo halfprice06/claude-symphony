@@ -1718,3 +1718,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: woodwind colour of each motto return; S at 46.4-55
 - Cross-movement: none
+
+## Cycle 352 (Harmony and voice leading; Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (second pass)) → v353
+- Accepted: no change; mvt1.md v303 line corrected (vii°6/5 over D at 28)
+- Open / not applied: none
+- Do-not-touch: 27-32; 114-115 wedge
+- Cross-movement: mvt1.md record fix only
