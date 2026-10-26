@@ -1,6 +1,6 @@
 #!/bin/bash
 # genprompt.sh N "focus text" -> writes pN.txt in this folder. Cycle N reviews vNN (v01 for cycle 1) and produces v(N+1).
-KIT=/mnt/project-files/symphony/mvt2/kit; C=/mnt/project-files/symphony/mvt2/critics
+KIT=/home/user/claude_composes/symphony/mvt2/kit; C=/home/user/claude_composes/symphony/mvt2/critics
 N=$1; V=v$(printf %02d $N); K=$(( (N-1)%10 + 1 )); NNN=$(printf %03d $N)
 L=$(sed -n "$((K+1))p" $C/LENSES.md | sed "s/^$K\. //")
 RD=$(grep "^| $N |" $C/READING.md | awk -F' \\| ' '{print $3}' | sed 's/ |$//')

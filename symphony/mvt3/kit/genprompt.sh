@@ -7,7 +7,7 @@ L=$(sed -n "$((K+1))p" $C/LENSES.md | sed "s/^$K\. //")
 RD=$(grep "^| $N |" $C/READING.md | awk -F' \\| ' '{print $3}' | sed 's/ |$//')
 F="$2"
 if [ $K -eq 9 ]; then
-  MS=$(sed -n "$(( (N-9)/10 + 1 ))p" $C/MASTERS.txt)
+  MS=$(sed -n "$(( ((N-9)/10) % 20 + 1 ))p" $C/MASTERS.txt)
   F="Your master finale for the holistic comparison: $MS. Also compare with v$(printf %02d $(( N>10 ? N-10 : 1 ))) and flag anything that got worse. $F"
 fi
 cd $KIT

@@ -5,8 +5,10 @@
 % transposed down a major third, finale Timp 143-145 (on the dominant G before the recapitulation).
 motiveXretr = { g,4 g,8 g,8 g,4 r4 }
 
+%@ motiveXretr Timp 9 4
 %@ motiveXretr Timp 143 4
 %@ motiveXretr Timp 144 4
+%@ motiveXretr Timp 178 4
 
 % c029 proposal: scherzoHeadC: the scherzo's theme A head (scherzo VlnOne 13: e''4 b'8 b'8 e''4 | g''2 fis''8 f''8 | e''4), transposed to C
 % and turned to major (its G becomes E natural), note values kept, rebarred in 2/2 (starts on beat 1 of finale 275). Tpt 1-2, Cl 1, Fl 1 (8va), Hn 1-2 (8vb).
@@ -27,7 +29,7 @@ mvtOneHammeredHead = { r8 g''8 es'''4. d'''8 des'''8 c'''8 | c'''4 b''8 c'''8 ae
 mvtOneHammeredTenor = { c'2 es'2 | d'2 f'2 | es'2 c'2 | e'2 bes2 | aes2 f2 | g4 g,4 r2 }
 % mvtTwoThemeB: movement II 41-44 (C.a., second phrase of theme B), note values doubled, an octave higher, ending held on D flat; finale 211-218
 mvtTwoThemeB = { aes'2 des''2 | f''2. ges''4 | aes''2 bes''4 aes''4 | ges''2. f''4 | es''2. f''4 | des''1~ | des''1~ | des''1 }
-% choraleFirst: movement I 175-179 top line in major (G E D C D flat C); finale 224-228 Tpt 1 (Tbn 1 an octave lower), canon Vln I/II 226-230
+% choraleFirst: movement I 175-179 top line in major (G E D C D flat C); finale 224-228 Tpt 1 (Tbn 1·2 a2 an octave lower since v245), canon Vln I/II 226-230
 choraleFirst = { g'1 | e''1 | d''1 | c''2 des''2 | c''1 }
 % timpaniPulse: movement I 179-180, same pitch; finale 229-230
 timpaniPulse = { c4 r8 g,8 c4 r4 | c4 r8 g,8 c4 r4 }
@@ -57,6 +59,7 @@ choraleLast = { g'1~ | g'1 | e''1~ | e''1 | d''1~ | d''1 | c''1 | b'1 | c''1~ | 
 %@ mvtTwoThemeB ClOne 211
 %@ choraleFirst TptOne 224
 %@ choraleFirst TbnOne 224
+%@ choraleFirst TbnTwo 224
 %@ choraleFirst VlnOne 226
 %@ timpaniPulse Timp 229
 %@ sHeadViolins VlnOne 235

@@ -23,8 +23,19 @@ def pitch(tok):
 def strip(text):
     text = re.sub(r'%\{.*?%\}', ' ', text, flags=re.S)
     text = re.sub(r'\\tag\s*#\'part\s*\\cueDuring\s*#"[^"]*"\s*#\w+\s*\{[^}]*\}', ' ', text)
+    # score view: drop part-only braced blocks (\tag #'part { ... })
+    while True:
+        m = re.search(r"\\tag\s*#'part\s*\{", text)
+        if not m:
+            break
+        i, depth = m.end(), 1
+        while depth:
+            depth += {'{': 1, '}': -1}.get(text[i], 0); i += 1
+        text = text[:m.start()] + ' ' + text[i:]
     text = re.sub(r'\\clef\s+"?\w+"?', ' ', text)
     text = re.sub(r'\\(override|revert|once|tweak)\s+[\w.-]+(\s*=\s*#\S+|\s+#\S+)?', ' ', text)
+    text = re.sub(r"\\offset\s+[\w.-]+\s+#'?\([^)]*\)\s+[\w.]+", ' ', text)
+    text = re.sub(r'\\(set|unset)\s+[\w.]+(\s*=\s*(#\S+|"[^"]*"))?', ' ', text)
     text = re.sub(r"#'\w+", ' ', text)
     text = re.sub(r'%[^\n]*', ' ', text)
     text = re.sub(r'"(?:\\.|[^"\\])*"', ' ', text)
