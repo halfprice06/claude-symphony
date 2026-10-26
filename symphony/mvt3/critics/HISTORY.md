@@ -1289,3 +1289,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 287 (v287 → v288), lens 7, Rimsky-Korsakov ch. II combined groups
 - 67–74: Hn 1 pp "dolce" doubles the strings' counter-melody under F2 at the cellos' pitch, one horn so the strings lead (Rimsky PDF 76, 79); G4 at 70.3 avoids doubling the violas' E♮ thread; Hn 2's pp entry at 75 kept. Accepted.
 - 247–250 hollow middle, 123–126: no change. Agreed.
+
+## Cycle 288 (v288 → v289), lens 8, Adler ch. 10
+- 168–169: Hn 1·2 stopped on the French sixth's A♭4/D4 after the open chord at 167, before the muted trumpet's theme at 171, as at 49–50 (Adler PDF 308, 320). Accepted.
+- 133–134: the diminuendo gets both ends: Hn 3·4 f at 133, strings p at 134 before pp at 135 (Adler PDF 305–320; MOLA PDF 8). Accepted.
+- Muted horns, echo at 139–140, cuivré, sfp at 209: not applied. Agreed.
