@@ -2420,3 +2420,6 @@ orchestration. Report: reports/c374.md.
 
 
 - v376 (c375, engraving): stem direction fixes, Fl 1 at 78 and Cb at 21.
+
+
+- v377 (c376, playability): bowing fixes, Vln II slur at 52 and basses' slur at 28.
