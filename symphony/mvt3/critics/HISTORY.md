@@ -1498,3 +1498,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 331 (v331 → v332), lens 1, A&S Unit 21 suspensions
 - 226–230: the canon on the chorale (Vln I·II, Fl 1, Ob 1, Cl 1) repeated the brass chorale in the same whole notes and sounded like an echo. It now enters on G5 at 226 and each later note arrives half a bar late, tied over the barline, as in the Jupiter finale's opening (A&S Ex. 21-1, PDF 346–347), giving a 7th over vi, a 7–6 over IV and a 9–8 over I. Fl 2 and Ob 2 tie G5 into 227; Cl 2 at 229 is g'2. f'4. Two pairs of fifths at 228–230 are gone. Brass chorale, top line, bass, violas, dynamics and 222→223 unchanged. Record line choraleFirst VlnOne 226 replaced by choraleCanon (same pitches, displaced rhythm); 42/42.
 - Not applied: a 5/2 bass suspension at 68 and 76 (the dominant lasts two beats; the harp sounds the leading tone first), anticipations at F1's cadences, suspensions in sequences (protected).
+
+## Cycle 332 (v332 → v333), lens 2, A&S Units 28–29
+- 17: ♯IV7 (F♯–A♭–C–E♭, the diminished-third chord) replaces the root-position ii°7 before the antecedent's half cadence: the bass rises F–F♯–G while the tune's A♭5 falls to G (A&S PDF 528–530, Ex. 29-31a). Cellos, basses and Bn 2 F♯; Cl 1·2 and Hn 4 adjusted. F1 unchanged; the recapitulation's 157 keeps the old chord.
+- Not applied: a French sixth at 23 (a third chromatic approach to G in ten bars), a French sixth at 47–48 (would stop the A♭3 seventh falling to G♭ at 51).
+- Checked: spelling of all augmented sixths and Neapolitans (1, 5, 16, 109, 121, 163, 168, 219, 261).
