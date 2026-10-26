@@ -183,6 +183,36 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 371 (lens 1 melody, Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (fifth pass)) v371 → v372
+Coda T at 349–356 for two solo violins over the section an octave lower.
+
+## Cycle 370 (lens 10 cyclic, Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397) (fourth pass)) v370 → v371
+Cl 2 at 42/274 clears the motto tail's b6; cyclic check passed.
+
+## Cycle 369 (lens 9 holistic, Adler part 2 full-score examples in ch. 11 and 15 (adler2 PDF 18-54, 143-186) (fourth pass)) v369 → v370
+Flutes bring back the quaver figure in the reprise tutti 305–320.
+
+## Cycle 368 (lens 8 expression, MOLA guidelines on dynamics, articulation and bowing marks in parts (mola PDF 1-16) (fourth pass)) v368 → v369
+Playing words restated and no longer struck by bar lines; Fl 1 p at 176.
+
+## Cycle 367 (lens 7 texture, Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173) (fourth pass)) v367 → v368
+Texture: cellos thinned at 149–151 and 225–240; C.a. octave doubling at 41/273; Cl 1 levels balanced.
+
+## Cycle 366 (lens 6 playability, Adler ch. 2 Bowed String Instruments: divisi, bowing, harmonics (adler1 PDF 24-70) (fifth pass)) v366 → v367
+No change; string writing already follows Adler ch. 2.
+
+## Cycle 365 (lens 5 engraving, Gould ch. 1: stave, clefs, noteheads, stems, tails (gould-behind-bars PDF 17-30) (fifth pass)) v365 → v366
+Engraving: stem length and thickness to Gould; cello clef at 189.
+
+## Cycle 364 (lens 4 orchestration, Rimsky-Korsakov ch. I Comparison of resonance and combination of tone qualities, and ch. III Harmony: number of parts, distribution, strings, woodwind (rimsky-principles PDF 51-53, 81-99) (fifth pass)) v364 → v365
+Harp silent at 209–224 under the bowed bass.
+
+## Cycle 363 (lens 3 form, Aldwell & Schachter Unit 14 V as a Key Area (aldwell-schachter PDF 211-229) (fifth pass)) v363 → v364
+No change; the trio's short B area does all the unit asks of a modulation.
+
+## Cycle 362 (lens 2 harmony, Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (fifth pass)) v362 → v363
+Four-part-writing fixes in the reprise tutti and coda.
+
 ## Cycle 361 (lens 1 melody, Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (fifth pass)) v361 → v362
 No change; passing-tone rewrite of the second idea rejected because it broke the hemiola.
 
