@@ -1772,3 +1772,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 83-84, 61-62 drops
 - Cross-movement: mvt1.md record
+
+## Cycle 361 (Melody and memorability; Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (second pass)) → v362
+- Accepted: no change (melody review, Sebesky)
+- Open / not applied: none
+- Do-not-touch: themes; 131-134 layout
+- Cross-movement: none
