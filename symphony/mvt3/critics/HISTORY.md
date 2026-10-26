@@ -1596,3 +1596,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 351 (v351 → v352), lens 1, A&S Unit 3 rhythm and melody
 - 258: F2's third phrase under the last chorale statement (c317) had even quarters from the minor solo's 62, but it is the major statement's 75–78 a sixth lower, whose peak bar has the dotted figure. Now `g'4. f'8 e'4 d'4` in Vc, Vla, Hn 3·4 and Bn 1, so F2's tonic-major return keeps its climax rhythm (A&S PDF 50–52, 54). Pitches, slurs, dynamics, chorale top line and harmony unchanged.
 - Not applied: a turn at 195, upbeat openings for the themes (protected), a counter-metre (Ex. 3-7; protected places), a re-struck anticipation at 81–82, five-bar extensions, the dotted peak at 198 (cut off on purpose).
+
+## Cycle 352 (v352 → v353), lens 2, A&S Unit 27 ninth chords
+- 120.4: under the bassoon solo the V7 of G minor's second pizzicato chord becomes a full minor-ninth chord: Vln II E♭5 (5–♭6–5 neighbour) and violas C5 (the seventh), falling together in thirds to D5/B♭4 at 121.2; the score's first root-position V♭9 resolving 9th and 7th together (A&S PDF 463–464, 467, 470; Ex. 27-1, 27-2, 27-4a, 27-9, 27-11). Solo, Vln I, bass, dynamics unchanged (c209 narrowed the protection to the solo).
+- 81.2: the violas' ♭9 neighbour C♭4 sounded a major seventh under the harp's B♭4, its own resolution; the harp's first group is now F4–A♭4–D5–F5 (A&S PDF 463, 469–470). No new pedal change.
+- Not applied: 254→255, 74, 70.3, 204, the coda dominants at 238, 244, 250.
