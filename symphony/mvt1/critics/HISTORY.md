@@ -2036,3 +2036,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 12 oboe tritone; 122 tenor; 97-102 Hn1+Tbn1 counter; 25/137 Hn 1 A-flat
 - Cross-movement: none
+
+## Cycle 405 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: stave, clefs, noteheads, stems, tails (gould-behind-bars PDF 17-30) (second pass)) → v406
+- Accepted: Hn 3-4 score stave stays in bass clef 135-157, treble at 158 (no clef change on the stop chord 138)
+- Open / not applied: none
+- Do-not-touch: Hn 3-4 clef plan 135-158; stems; Hn 4 part clefs
+- Cross-movement: none
