@@ -2372,3 +2372,6 @@ texture. Report: reports/c367.md.
 - Accepted: nothing (v368 = v367 relabelled).
 - Recorded (no change): c367 (Rimsky-Korsakov ch. III, three groups combined): no change. Bar 60 moving brass lines (protected), no held strings under the harp at 53-56 (would cover the counter-line), horns inside string chords at 3 and 29-30, and the horn chords at 61-62, 79-81, 87-90 and 67-70 all recorded.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+- v369 (c368, expression): MIDI only; trombone quotation at 63 restored to its level, B.cl. peak at 32-33, string fades at 3 and 66.
