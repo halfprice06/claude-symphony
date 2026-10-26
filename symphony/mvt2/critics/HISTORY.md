@@ -2308,3 +2308,10 @@ orchestration. Report: reports/c354.md.
 
 
 - v356 (c355, engraving): parts only; rehearsal letter and tempo word joined in one stencil in every part; Vln I mute text starts at 4.
+
+
+## Cycle 356 (v356 → v357)
+playability. Report: reports/c356.md.
+- Accepted: nothing (v357 = v356 relabelled).
+- Recorded (no change): c356 (Adler ch. 7 clarinets and bassoons): no change. All 25 applicable principles followed; Cl 2 hold at 89-92, B.cl. low C ossia, break crossings, Cbn and Bsn low notes and the change to A clarinets recorded.
+- Do-not-touch: standing list; the 8-page layout.
