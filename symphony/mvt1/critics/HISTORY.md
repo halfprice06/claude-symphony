@@ -1982,3 +1982,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: cello stop chords 26, 138; 60-61 slur
 - Cross-movement: none
+
+## Cycle 396 (Playability, instrument by instrument; Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (second pass)) → v397
+- Accepted: Hn 4 part: stale bass clef at 11-12 removed
+- Open / not applied: none
+- Do-not-touch: C.a. F5 70, 94; B.cl 105-106; Hn 1 106 ossia
+- Cross-movement: none
