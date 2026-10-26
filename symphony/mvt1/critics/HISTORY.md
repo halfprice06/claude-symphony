@@ -1622,3 +1622,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: 8va at 121–123 (starts at a system break, one gesture, 'loco' at 124); Ob 1 pickup crossing Ob 2 at 82, 139.
 - Do-not-touch: Page breaks (same last bar on every page).
 - Cross-movement: none.
+
+## Cycle 336 (Playability, instrument by instrument; Adler ch. 4 Plucked Strings: harp and pedalling (adler1 PDF 110-124) (second pass)) → v337
+- Accepted: Harp left hand damps ('étouffez (m.g.)') on beat 4 of 61 (F♭ octave shortened to three beats) so the low G♭/F♭ strings stop before the sub. p at 62 and the G♭→G♮ pedal at 63; and on beat 4 of 63 so the V7 arpeggio does not ring into the F octave at 64, as c246 at 67→68 (Adler PDF 111–114, 117; R-K PDF 46) (tTwo). No pitches change.
+- Open / not applied: None. Kept: f harp chord under the ff tutti at 162 (c197); harp page turn in the rest at 145–146.
+- Do-not-touch: Harp pedal state at the end.
+- Cross-movement: none.
