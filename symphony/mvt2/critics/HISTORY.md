@@ -2410,3 +2410,10 @@ form. Report: reports/c373.md.
 - Accepted: nothing (v374 = v373 relabelled).
 - Recorded (no change): c373 (A&S Unit 14, V as a key area): no change. D flat confirmed late at 61 (protected), diatonic half cadences at 10, 26 and 44, the exit from the foreign keys at 63-71, no doubled raised fourth, and proportions close to Dvorak 9/ii.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 374 (v374 → v375)
+orchestration. Report: reports/c374.md.
+- Accepted: nothing (v375 = v374 relabelled).
+- Recorded (no change): c374 (Sebesky ch. 2 woodwind and brass-woodwind combinations): no change. C.a./Bsn 1 second at 81 (moving lines, protected doubling), clarinet second at 58 b4 (resolving seventh) and the horn spacing at 79-81 recorded.
+- Do-not-touch: standing list; the 8-page layout.
