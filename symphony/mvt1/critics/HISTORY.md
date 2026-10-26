@@ -1958,3 +1958,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 23-26, 135-138 grouping; 1-14 hypermeter
 - Cross-movement: mvt1.md record
+
+## Cycle 392 (Harmony and voice leading; Aldwell & Schachter Unit 27 Seventh chords with added dissonance (aldwell-schachter PDF 463-481) (second pass)) → v393
+- Accepted: cellos G2 (was G3) on the ff strokes at 83, clearing the clash with Tbn 1's A-flat3
+- Open / not applied: none
+- Do-not-touch: 117, 35.4, 165.2, 132, 159.1
+- Cross-movement: none
