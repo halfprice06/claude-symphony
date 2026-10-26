@@ -1724,3 +1724,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 27-32; 114-115 wedge
 - Cross-movement: mvt1.md record fix only
+
+## Cycle 353 (Form, pacing and proportion; Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (second pass)) → v354
+- Accepted: no change (prolongation review)
+- Open / not applied: none
+- Do-not-touch: Hn 2 F4 130.3-131 (seventh resolution); 155-158 pacing
+- Cross-movement: none
