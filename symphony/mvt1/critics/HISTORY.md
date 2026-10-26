@@ -1694,3 +1694,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 69-72; fugato 88-91; 34
 - Cross-movement: none
+
+## Cycle 348 (Expression; Adler ch. 11 climactic uses of brass (adler2 PDF 37-40) and ch. 15 special effects (adler2 PDF 187-196) (second pass)) → v349
+- Accepted: S head hairpins at 103-108 (Hn 1, Vc, Vla); Hn 3 overlaps Bsn 1 B3 from 145.3
+- Open / not applied: none
+- Do-not-touch: 103-110 notes and f/p; Tbn f 139-142
+- Cross-movement: none
