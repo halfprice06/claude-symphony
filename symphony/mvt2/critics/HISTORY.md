@@ -2057,3 +2057,10 @@ lens 8, expression; Adler ch. 7 (adler1 PDF 184-232). Report: reports/c318.md.
 - Accepted: B.cl. 31-34 p<mf>mp; Cbn breath at 62 b3; B.cl. fade at 37.
 - Recorded (no change): 87-90 swell; 3-6 chord; Cl 1 at 53 (c038).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 319 (v319 → v320)
+lens 9, holistic, Dvorak Symphony No. 6/ii; Adler part 2 ch. 16 transcription examples (adler2 PDF 202-244). Report: reports/c319.md.
+- Accepted: nothing (v320 = v319 relabelled).
+- Recorded (no change): about half the length of Dvorak 6/ii with three statements of theme A (proportions settled c253, c303); diminuendi by instruments dropping out at 63-65 and 80-83; the return at 71-78 varies the surface only at 78 (untested option: a turn at 72 in Vln I, not recommended); three accompaniment types; string ending returns to bar 1's colour; trombones only at 60-64; nothing worse than v309.
+- Do-not-touch: standing list; the 8-page layout.
