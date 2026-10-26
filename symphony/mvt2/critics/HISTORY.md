@@ -2242,3 +2242,10 @@ lens 4, orchestration; Rimsky-Korsakov ch. I (PDF 24-50). Report: reports/c344.m
 - Recorded (no change): harp stroke at 78 (c244); Cbn at 35-36; Fl 1 at 77.
 - Open: optional harp at 78 b3 (LH only); optional Cbn diminuendo at 35.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 345 (v345 → v346)
+lens 5, engraving; Adler ch. 18 (PDF 291-297). Report: reports/c345.md.
+- Accepted: timpani muta at 92 printed in the score (staff kept in the last system); player labels at 7 and 37.
+- Recorded (no change): tempo-word placement; hairpin at 89. Optional: "4 Timpani" in all movements together.
+- Do-not-touch: standing list; the 8-page layout.
