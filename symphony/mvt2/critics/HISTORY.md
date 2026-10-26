@@ -2149,3 +2149,10 @@ lens 1, melody; A&S Unit 3 Rhythm and Meter (PDF 47-57). Report: reports/c331.md
 - Accepted: nothing (v332 = v331 relabelled).
 - Recorded (no change): theme A's tied downbeats are struck in the bass (PDF 47-48, 51); theme B's main tones move once per half bar while pizzicato bass and viola triplets carry the extra speed (PDF 49; Dvorak Largo); 15-22 dialogue overlaps into one eight-bar phrase (Ex. 3-10, 3-11); theme A always enters from an upbeat (Ex. 3-9); metre recoverable from the bare melodies (Exercise 3); climaxes at 61 and 79 on strong bars (PDF 53, Ex. 3-13).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 332 (v332 → v333)
+lens 2, harmony; A&S Unit 27 (PDF 463-481). Report: reports/c332.md.
+- Accepted: harp 55 b4 E♭4–B♭3–E♭4 (no C4 under the passing D♭5).
+- Recorded (no change): 56 b2 C4; 13 b3; added 6ths, ninths; 41 ninth; 58 chain; pedals.
+- Do-not-touch: standing list; the 8-page layout.
