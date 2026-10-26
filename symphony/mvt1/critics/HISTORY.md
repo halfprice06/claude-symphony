@@ -1616,3 +1616,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: C.a. and B.cl silent 158–161 (fresh for 171 and 175; PDF 119); heavy brass fff at 122, ff at 160 (c244, c318); tenor gaps at 100, 133, 141.4.
 - Do-not-touch: Climax levels at 122 and 160; bassoon order (c314).
 - Cross-movement: none.
+
+## Cycle 335 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: ledger lines, octave signs, rests (gould-behind-bars PDF 41-52) (second pass)) → v336
+- Accepted: Vln I 8va removed at 31 and 71–72 (it saved no ledger lines, A♭6 already appears at pitch next to it, and it shifted the written octave inside one falling line; Gould PDF 46–48), reversing c245; page breaks unchanged (tOne, clos). Rests level with their own part at Cl 2 112.4 (−4) and Tbn 1 115.4 (+4) (Gould PDF 50–51) (dev). No pitches change.
+- Open / not applied: None. Kept: 8va at 121–123 (starts at a system break, one gesture, 'loco' at 124); Ob 1 pickup crossing Ob 2 at 82, 139.
+- Do-not-touch: Page breaks (same last bar on every page).
+- Cross-movement: none.
