@@ -1972,3 +1972,10 @@ lens 6, playability; Adler App. A ranges (adler2 PDF 302-312). Report: reports/c
 - Accepted: nothing (v307 = v306 relabelled).
 - Recorded (no change): all notes inside Adler's professional limits (score.midi scan); Cbn B-flat 0 at 80 (c184); B.cl. low C at 8 with ossia (c156); timpani drum order and retunings at 5 and 92; string bottom notes; Cl 2 E-flat 3 ppp at 3-6; top notes B-flat 6 at 79 and Fl A-flat 6 at 61-63; mixed English and Italian terms optional (c066, c156, c295).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 307 (v307 → v308)
+lens 7, texture; Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173). Report: reports/c307.md.
+- Accepted: nothing (v308 = v307 relabelled).
+- Recorded (no change): 13 beats without a third, all passing or deliberate (c272 point on 50-51 closed, settled by c274-c275); cellos doubling basses on 27 of 56 downbeats, all coda exceptions, protected counter-melody or tutti; winds one level softer on string lines below f; violins in unison at 53-56 and 75-77 then octaves (Ex. 214); voicings at 79-81 and 63-64 settled; solo and soli strings match the reading and Dvorak 9/ii.
+- Do-not-touch: standing list; the 8-page layout.
