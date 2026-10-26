@@ -2403,3 +2403,10 @@ harmony. Report: reports/c372.md.
 - Accepted: nothing (v373 = v372 relabelled).
 - Recorded (no change): c372 (A&S Unit 29, augmented sixths, fifth pass): no change. Dominants prepared from the augmented-sixth family; the sixths at 21 and 64 resolve F flat to E flat, the same semitone as the link's E to E flat; 50-51 blocked by octaves with the quotation; 20-22 and 64-65 follow.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 373 (v373 → v374)
+form. Report: reports/c373.md.
+- Accepted: nothing (v374 = v373 relabelled).
+- Recorded (no change): c373 (A&S Unit 14, V as a key area): no change. D flat confirmed late at 61 (protected), diatonic half cadences at 10, 26 and 44, the exit from the foreign keys at 63-71, no doubled raised fourth, and proportions close to Dvorak 9/ii.
+- Do-not-touch: standing list; the 8-page layout.
