@@ -1958,3 +1958,10 @@ lens 4, orchestration; Adler ch. 8 Woodwinds in the symphony orchestra and woodw
 - Accepted: nothing (v305 = v304 relabelled).
 - Recorded (no change): IV6 at 87 with its third five times (Ex. VIII-25; protected coda, alternative not recommended); theme B single flute at 37-40 (optional Ob 1 at 39-40, untested, not recommended); Hn A-flat 3 doubling Bsn 1 and harp at 14; oboe and clarinet unisons at 60-62, 79-82; wind-string unisons; pedals and their release.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 305 (v305 → v306)
+lens 5, engraving; Gould PDF 7-13, 17-68. Report: reports/c305.md.
+- Accepted: Vln II sul A line ends at 62; Hn 3 and viola repeat ties at 1; Hn 3 rest position at 29.
+- Recorded (no change): one-flat seconds at 58, 81; sul D line 1-4 (c245).
+- Do-not-touch: standing list; the 8-page layout; stem, beam and rest settings from c185-c275.
