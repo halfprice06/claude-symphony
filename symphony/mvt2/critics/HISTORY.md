@@ -2128,3 +2128,10 @@ lens 8, expression; Adler part 1 ch. 10 (PDF 299-329). Report: reports/c328.md.
 - Accepted: Hn 3 slurs at 29-30 and 3-6 (articulation only).
 - Recorded (no change): Hn 4 at 60; horns at 61-62; Tbn 1 at 63-64; mute plan; no stopped horn.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 329 (v329 → v330)
+lens 9, holistic, Tchaikovsky Symphony No. 3/iii; A&S opening examples of Units 20-32. Report: reports/c329.md.
+- Accepted: nothing (v330 = v329 relabelled).
+- Recorded (no change): Tchaikovsky puts distant keys in the reprise, this score in the middle (65-82 protected); 92 bars against 182 (c253, c303, c319); the ending into the scherzo is the Widmung common-tone modulation (Ex. 32-3, PDF 586); climax 61-65 follows K. 397 and Op. 106 (PDF 482-483, 585); middle-section triplets; coda returns to bar 1's colour, plagal close as Chopin Op. 28/9; flat ninth at 80-81 (Unit 27); nothing worse than v319.
+- Do-not-touch: standing list; the 8-page layout.
