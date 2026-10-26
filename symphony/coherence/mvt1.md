@@ -1,6 +1,6 @@
 # Movement I (Allegro, C minor): current state for the other movement threads
 
-Owner: the movement I thread ("Movement I, 200 more loops", series 3 from 2026-10-19). Series 3 works from v221; this file is updated as changes are promoted. Last update: v290 (cycle 289; checked at cycle 290). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
+Owner: the movement I thread ("Movement I, loops from v300" since 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v351 (cycle 350, cyclic check). Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them.
 
@@ -115,9 +115,9 @@ Duration: v221's full.midi lasts 430.8 s, about 7:11. The score's front page say
 
 There are three climaxes on A♭, rising in strength:
 
-1. **Bar 82, ff.** First-theme head in tutti over an A♭ bass (double basses repeat A♭1 in quavers). The top is E♭6 (Fl 1, Vln I).
-2. **Bar 122, fff.** A♭6 in Vln I (tremolo) and Fl 1 over the G pedal (A♭ as the minor ninth of V). Tam-tam fff (heavy beater) 122, diminuendo from 124 ("damp gradually") to p at 126, damped at 127 (since v229). It arrives from the trombone motto at 117–121.
-3. **Bar 160, fff.** A♭6 in Vln I and Fl 1·2, with Vln II and Ob 2 an octave lower (Vln II since v230; Ob 2 since v242, when Ob 1 moved to the countermelody with Cl 1) over an A♭ bass (♭VI). Suspended-cymbal roll at 159 ending in one soft-stick suspended-cymbal stroke fff l.v. at 160 (since v251; until v250 a crash), tied through 163 and damped at 164 (since v277). Movement I has no clashed cymbals.
+1. **Bar 82, ff.** First-theme head in tutti over an A♭ bass (double basses repeat A♭1 in quavers). The top is E♭6 (Fl 1, Vln I). Since v305 the held brass are f under the ff head, with ff strokes at 83; since v309 Tpt 2 rests at 82 and enters on the strokes at 83.
+2. **Bar 122, fff.** A♭6 in Vln I (tremolo) and Fl 1 over the G pedal (A♭ as the minor ninth of V). The upper parts fade from 123 (since v319), the pedal parts from 124. Tam-tam fff (heavy beater) 122, diminuendo from 124 ("damp gradually") to p at 126, damped at 127 (since v229). It arrives from the trombone motto at 117–121.
+3. **Bar 160, fff.** A♭6 in Vln I and Fl 1·2, with Vln II and Ob 2 an octave lower (Vln II since v230; Ob 2 since v242, when Ob 1 moved to the countermelody with Cl 1) over an A♭ bass (♭VI). Suspended-cymbal roll at 159 ending in one soft-stick suspended-cymbal stroke fff l.v. at 160 (since v251; until v250 a crash), tied through 163 and damped at 164 (since v277); since v329 it is shaded ('damp gradually', diminuendo 162 to p at 163). Movement I has no clashed cymbals.
 
 The fff marks are at 122 and 160 only.
 
@@ -129,7 +129,7 @@ The A♭6 peaks:
 ## Brass use
 
 **Trumpets.**
-- Where they play: 26–33, the sf quaver at 41, 69–72 (Tpt 1 has the S head at f with Ob 1 and the flutes), 82–83, 113–116, 122–123, 131–143, 158–162 and 167–170.
+- Where they play: 26–33, the sf quaver at 41, 69–72 (Tpt 1 has the S head at f with Ob 1 and the flutes), 82–83, 113–116, 122–123, 131–134, 138–143 (Tpt 3 to 142; the stop chord at 138 is a fresh trumpet entry, as at 26), 158–162 and 167–170.
 - Tpt 1 moves B4→C5 into the minor tuttis at 26→27 and 138→139.
 - Their last note is at 170: Tpt 1·2 accented B♮4 under the fermata, unresolved; Tpt 3 F4. They are silent 171–182.
 - There is no trumpet solo and no soft trumpet melody.
@@ -173,12 +173,13 @@ These are reserved for the finale. The other movements should not use them. Thei
 - **The timpani pulse `c4 r8 g,8 c4 r4`.** It is at 179–180 in v221 and is unused in movement II.
 - **Closing the E♭/E♮ thread in the violas.** v221 ends on the violas' E♮ at 182 without closing it, and movement II turns it back to E♭.
 - **A tuba melody, a high four-horn unison (movement I has horn pairs in unison at 158–161, Hn 3·4 to C5 and Hn 1·2 on A♭4 at 160; its only four-horn unison is the low call at 41–42), a full low-brass unison in the bass, and the first cymbal crash of the finale.** None of them is in v221. Since v251 it has no clashed cymbals at all (bar 160 is a suspended-cymbal stroke), so the finale's crash at 223 is the first in the symphony.
-- **C major as a key** (the scherzo is told not to use it).
+- **C major as a key in movements II and III** (the scherzo is told not to use it). Movement I has C major only softly (147–166, and as V of F minor at 110), never confirmed at forte.
+- **D♭ as a key in C, ♭VI moving to ♭II in C, and a theme restated on ♭II** (added at cycle 300). Movement I has none of them: its ♭II is always a chord (structural N6 → V at 20–22, 140–143, 172–174; neighbour D♭s inside the tonic at 3, 7→8, 178, 180). Bar 115 is a one-bar ff root-position D♭ chord over a passing bass, not a key. Movements II and IV already use these.
 
 ## Series 3 changes (v221 → current)
 
 - v223: Hn 3 B3→C4 at 165–166 (leading tone resolves; was B3→G3). Vc D3 tied at 145 (was B2). Vln II G4 on beat 4 of 46.
-- v225: hammered tutti inner brass at 28–31 no longer double the bass (Tpt 2 G4 at 28, B♭4 at 30; Tpt 3 F4 F4 G4 A♭4–F4 at 28–31; Hn 2 G4 at 30). The finale follows this at its 199–204. Cl 1 F4 at 145–146.
+- v225: hammered tutti inner brass at 28–31 no longer double the bass (Tpt 2 G4 at 28 beat 1 and F4 on beat 3 since v303, as at 132; B♭4 at 30; Tpt 3 F4 F4 G4 A♭4–F4 at 28–31; Hn 2 G4 at 30). The finale follows this at its 199–204. Cl 1 F4 at 145–146.
 - v226: stems on the middle line follow their neighbours (engraving only).
 - v227: Vln I bowing 11–13; Vc pizz. cut on beat 3 of 63; Vln II "unis." at beat 3 of 73.
 - v228: Vln II and violas enter after the P pickup at 15 and 17; double basses rest 85–89 (fugato subject alone); violas 156–157 re-voiced.
@@ -195,6 +196,10 @@ These are reserved for the finale. The other movements should not use them. Thei
 - v262–v270: viola A♭3 falls to G3 on beat 4 of 177 (i6 – V4/3 – i under the chorale); Bsn 1 B♭3 at 37 (E♭-minor seventh complete, four real parts); violas, Hn 3·4 and the off-beat dyads f at 131–134 (were ff); Vln II, Vla, Vc, Cb mp at 144 under Bsn 1's answer; C.a. with Vln II 94–95, Cl 1 from 96; tuba breathes after 121, Hn 3 on beat 4 of 123; tenutos on the S climax's E6 (158) and A♭6 (160) in every part with the tune; one solo cello at 171–174, Tutti at 175. Nothing another movement quotes changed; the five tied parts, the chorale top line, the timpani pulse and the last chord are unchanged.
 - v272–v280: A♭ held at 116 in Ob 2, Cl 1, Hn 1, Tbn 2, Vln II (no A♮); viola A♭3 at 51 (V6/5 of IV); bass G♭ through 60 (G♭–F♭–E♭ at 60–62); Cl 1 takes the link into S at 45–46 and the oboes rest 44–68; suspended cymbal tied 160–163 and damped at 164, tam-tam damped at the end of 182; violas rest 56–59 (the counterline keeps their E♭4–E4–F4); Vc/Cb mf at 15–22; B.cl mf at 103; Ob 2 accents at 142; Vln I 'pp espr.' at 177. Nothing another movement quotes changed; the five tied parts, the chorale top line, the timpani pulse and the last chord are unchanged; theme record 35/35.
 - v282–v290: cellos G3–A♭3 at 45 (Cl 1's 7–6 B♭–A♭ is not anticipated); Hn 4 F♯3 with Hn 3 on the German sixth at 12 (was A♭2 on the bass; the chord's pitch classes are unchanged); Tpt 2 E♭4 on the ff stroke at 33 (was G4), as at 143; Hn 3 holds B3 at 122–124 (was D4 at 122–123) and resolves to C4 at 125 in the i6/4 over the G pedal; Vc and Bsn 1 hold C3 at 143 (was C3–D3); accents on C–B at 142 in Hn 3, Tpt 3 and Tbn 1; Bsn 2/Cbsn diminuendo from the note at 125; cello tenor clef before the pickup at 97; Fl 1 joins the violins' octave at 100 (8va at 97–99 only). Nothing another movement quotes changed: 27–32, the stop chords 26/138/170, the coda 167–182, the five tied parts, the timpani pulse and the last chord are unchanged; theme record 35/35 against v290.
+- v292–v301: inner voices (Vla, Cl 2) follow the motto E♭–D–D♭–C at 119–120; Vln II and violas clear the Vln I pickup into P at 19, 37 and 143 (rhythm only); part cues and multi-bar rest layout (MOLA); timpani 'muta B♮ in A♭' at 98; Hn 1·2 enter on beat 3 of 24 (the hemiola's third cell); Cl 1 'dolce' and diminuendo at 45–46, 'espr.' at 175. Cellos stay at pitch at 101–102. v303: Tpt 2 F4 on beat 3 of 28 (was G4; vii°4/3, as at 132). v305: held brass f at 82 (strokes ff at 83); Hn 4 G3 at 23.4–24.2 (was G2). v307: Ob 2 rests from beat 3 of 42. v309: horn call 13–14 marked '1. Solo', 'espr.' (notes and dynamics unchanged); B.tbn and tuba f at 131; Tpt 2 rests at 82. v313–v319 (inner parts and notation only; nothing another movement quotes): Vln II E♭5 held through 54 and violas A♭3/C4 at 55; Vln II C5/B♭5 at 151; bassoons uncrossed at 156–166; cellos in bass clef 146–155; bow changes at 12 (Vln II, Cb) and 'change bow at will' for the violas' E4 at 181–182 into movement II; Tbn 2 doubles the tenor line at 139–142; upper parts fade from 123; Cl 1 tenuto at 45; v320: Tbn 1 C4–B3–A♭3, Tbn 2 G3–F3–F♯3 at 113–116 (lines swapped, low line up an octave). Nothing another movement quotes changed: 27–32, the stop chords, the coda notes 167–182, the five tied parts, the timpani pulse and the last chord are unchanged.
+
+- v322–v331: Vln I·II sul D at 55.4–57.1; Tpt 3 D♭4 from 140.3 into 141 and Tbn 2 rest at 124; violas div. at 166 (thread pitches unchanged); violas enter on 144.2-and; held motto C3 fades at 4 and 179; suspended-cymbal stroke shaded 162–163; text placement at 55; v332: cor anglais doubles Cl 2 on the P head at 69–72. v333–v340: bassoons in octaves at 158–161; Vln I 8va removed at 31 and 71–72 (notation only, same pitches); harp damping at 61, 63; Cl 1 up an octave at 156–157; bowing marks at 45, 54, 143–144, 166. Nothing another movement quotes changed (MIDI diff v321→v330: three note events, none in a quoted bar).
+- v342–v351: Cb "sul A" on the motto at 2–3 and 176–178 (notation); Bsn 1 doubles the violas' P head at 82; engraving at 14/15, 68/69, 123; Bsn 1·2 breathe after 159 and 163; Hn 3 rests on 104.1 and 105.3 and enters B3 on 145.3 under Bsn 1; swells on the S head 103–108. Nothing another movement quotes changed: theme record 35/35 against v350; 27–32, the stop chords 26/138/170, the coda notes 167–182, the five tied parts, the timpani pulse and the last chord are unchanged.
 
 ## Seeds of later movements (found by critic 230; keep them when revising)
 
@@ -202,7 +207,7 @@ These are reserved for the finale. The other movements should not use them. Thei
 - P's second bar has the rhythm of the scherzo's motive x.
 - Bar 106: Hn 1's D♯5 is left unresolved, like the scherzo's horn call.
 - Bar 108: Vln II's D♯4 rises to F4 in B♭ minor at 109 (no E♭ sounds at 109–110); the finale's violas take D♯4 to E4 at its 219–220.
-- Bar 12: the German sixth is the finale's first chord, violas on E♭4 in both. Since v285 Horns 3·4 hold F♯3 (resolving to G3 at 13), the pitch of the finale's Horn 4 F♯3 at its bar 1 (to G3 at 2), so the ♯4 is in the horns at the same pitch in both.
+- Bar 12: the German sixth is the finale's first chord, violas on E♭4 in both. Since v285 Horns 3·4 hold F♯3 at 12 and Hn 3 resolves it to G3 at 13 (Hn 4 rests), the pitch of the finale's Horn 4 F♯3 at its bar 1 (to G3 at 2), so the ♯4 is in the horns at the same pitch in both.
 - Bars 171–174: the minor second theme is one solo cello beside the cor anglais (since v270; Tutti at 175), like the finale's single-voice minor statements of its second theme.
 - Bar 37: Bsn 2 E♭3, Hn 4 G♭3, Bsn 1 B♭3, Hn 3 D♭4, the symphony's first E♭-minor sound, ahead of the finale's E♭-minor second theme.
 - Bars 45–47: Cl 1 ends the link into S on E♭4 (beat 3 of 46) and Hn 1 takes E♭3 on beat 4 as the pickup to the A♭ S head (since v275). Movement II enters theme A the same way: Cl 2 E♭3 to beat 2 of II 6, Hn 1 E♭3–F3 on beat 3.
@@ -212,6 +217,17 @@ These are reserved for the finale. The other movements should not use them. Thei
 - Keep Tpt 1 B4 and Tpt 2 F4 in the stop chords at 26 and 138: the finale (v241) uses the same trumpet layout at its 138.
 - Movement I's bar 138 stop chord, for the record: bass D; Vln II D5/A♭5; violas F4/B4; Tpt 1 B4; Tpt 2 F4; Hn 1 A♭4 (corrected at v251: earlier versions of this note said Tpt 1 A♭4).
 - Bars 37–44: the B♭1 pedal (39–40) reaches E♭ at 41, a passing key that turns into V of A♭ at 44. The finale's transition holds the same B♭1 and makes E♭ minor its real key at its 51.
+- Bar 75: A♭7 spelled with G♭ (V7 of D♭) moves to D♭ minor 6/4 at 76, ahead of the finale's A♭7 → D♭ at its 209–211. Bar 12 spells the same sound as the German sixth, as the finale's 219 does. Keep both spellings (cycle 300).
+- Bars 46–52: Hn 1 with the cellos over harp in A♭ (the S head) is the colour of movement II's theme A (Hn 1 over harp, II 7–14); movement II keeps its solo fresh by dropping the cellos and putting its wind chord at 3–6 first (cycle 310).
+- Bar 13: the horn call's E♭3–C4 in Hn 1 is the span movement II's theme A fills at the same pitch and in the same player (E♭3 F3 A♭3 C4); the scherzo's trio tune fills it in E (cycle 310).
+- Bars 179–180: the timpani pulse `c4 r8 g,8 c4 r4` is the scherzo's motive x with its first quaver silent; the figure runs II 84–85 → III 9, 363–371 → IV 9, 143, 229. Keep the eighth rest (cycle 310).
+- Bars 171–174: the solo cello and cor anglais duet is answered by movement II's solo violin with Ob 1 at 15–22 (cycle 310).
+- Bars 111–116: the bass falls F–E–E♭–D–D♭–C → G by whole bars, the motto tail enlarged; B.cl E♭3–D3–D♭3–C3 at 113–116, the motto's own pitch. With movement II's B.cl tail at II 32–34 that makes three at E♭3; the finale should not add another (cycle 330).
+- Bars 70 and 73: the stop chord as D–F–A♭–C♭ over the A♭ pedal. At 73 the violas hold C♭4, movement II's bar 33 chord with the same spelling and pitch, C♭4 and A♭1 (cycle 330); at 70 the C♭ is C♭5 (violas' arpeggio, Ob 2).
+- Bars 27, 30, 131: timpani `c4 r8 c8 c4 r8 c8` ff, the hammered form of the coda pulse at 179–180; keep the timpani rhythm of 27–32 and 131 (the finale quotes 27–32 at pitch).
+- Bar 13: the horn call's rising sixth E♭3–C4 is answered twice by the scherzo's trio tune: its head fills the sixth (G♯4–A4–B4–E5), and since scherzo v322 its bar 3 falls a sixth (D♯5–F♯4).
+- Bars 73–80: Vln II E♭4–G♭4–F♭4–E♭4 (73–77), then E♭4–E♮4–E♭4 (77–80), all at one pitch: the movement's ♭6–5 motive in A♭ minor, then respelled inside the A♭–E–C cycle; Vln II's and Fl 1's F♭ (F♭5 at 75) anticipate movement II's F♭→E♭ thread. Keep Vln II 73–80 and Fl 1 F♭5 at 75 (cycle 333).
+- Bar 110: a soft C-major triad over C2 (C7 at 105 and 112) works as V of F minor, as in Mozart K. 457 (A&S PDF 449), not as a tonic (cycle 340).
 - Bars 73–76 (A♭ pedal, Hn 4 A♭3, F♭ mixture at 76) are the same chord as movement II's 3–6.
-- The E♭4/E4 thread stays at one pitch: violas at 12, 166 and 179–182, Vln II at 8–9 and 77–80 (E♭4, E4 from beat 3 of 78 over the E-major chord of the A♭–E–C bass, E♭4 again at 80).
+- The E♭4/E4 thread stays at one pitch: violas at 12, 147 (with Hn 1, the C-major S head; quoted at IV 247), 166 and 179–182, Vln II at 8–9 and 77–80 (E♭4, E4 from beat 3 of 78 over the E-major chord of the A♭–E–C bass, E♭4 again at 80).
 - Movement I never confirms C major at forte: its C-major cadences (154→155 pp, 165→166 p) are soft, so the finale's 222→223 is the first strong one. Keep it so.
