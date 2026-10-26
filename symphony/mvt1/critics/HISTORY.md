@@ -1706,3 +1706,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: brass layouts 27, 122, 160; 111-117 crescendo; 170-171 join
 - Cross-movement: none
+
+## Cycle 350 (Cyclic design and emotional arc across four movements; Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (second pass)) → v351
+- Accepted: no change in score; mvt1.md record updated (v342-v350 changes, seed fixes 12, 70/73, new seeds)
+- Open / not applied: none
+- Do-not-touch: 158; 122; 26-27, 138-139
+- Cross-movement: mvt1.md update
