@@ -2497,3 +2497,10 @@ cyclic design. Report: reports/c390.md.
 - Accepted: nothing (v391 = v390 relabelled).
 - Recorded (no change): c390 (A&S Unit 32, chromatic tonal areas): no score change. Link from I is a common-tone modulation matching I v371; both Widmung pitch links into the scherzo; remote keys entered and left in Haydn's way; motives enlarged in the middle section; II as flat VI of C. Theme check misread Vln II after 47 (MIDI block from v389); lyparse patch sent to the finale. mvt2.md: E to E flat at 64-65 is in the basses only.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 391 (v391 → v392)
+melody. Report: reports/c391.md.
+- Accepted: nothing (v392 = v391 relabelled).
+- Recorded (no change): c391 (A&S Unit 20, melodic figuration): no change. Themes distinguished by figuration; theme A's second phrase as two lines; no parallels from figuration; cello counter-melody rhythm complements the tune; no turn at 72 (c319); chromatic spellings follow.
+- Do-not-touch: standing list; the 8-page layout.
