@@ -2375,3 +2375,10 @@ texture. Report: reports/c367.md.
 
 
 - v369 (c368, expression): MIDI only; trombone quotation at 63 restored to its level, B.cl. peak at 32-33, string fades at 3 and 66.
+
+
+## Cycle 369 (v369 → v370)
+holistic comparison with a master work (Chausson, Symphony in B-flat, ii). Report: reports/c369.md.
+- Accepted: nothing (v370 = v369 relabelled).
+- Recorded (no change): c369 (Adler ch. 5 string scoring; Chausson Op. 20 ii from secondary sources, score not reachable): no change. Plan matches Chausson's (cor anglais solo over light strings, violins to the climax, second peak at the return); mode, length, Vln II at 47-51, Vln I divisi at 62-63 and the tripled F at 87 recorded; the three printed changes since v359 are improvements.
+- Do-not-touch: standing list; the 8-page layout.
