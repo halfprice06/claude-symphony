@@ -1433,3 +1433,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 317 (v317 → v318), lens 7, Adler part 2 ch. 15 texture
 - 255–258: under the last chorale statement, the cellos and Hn 3·4 play F2's third phrase in C major, f under the ff chorale (G3–E3 | D3 C3 E3 G3 | C4–D4 | G4 F4 E4 D4), with Bn 1 from 257 (Adler part 2 PDF 175–181: a second theme against a long-note melody, as in the Jupiter finale). F2 had not returned after 198; its 5–3–2–1 head is the chorale's opening. Harmony, bass, chorale top line and the 259–263 cadence unchanged.
 - Checked, kept: the three-octave head doubling at 247–254, the canon at 223–230, F1 against the motto rhythm at 265–272.
+
+## Cycle 318 (v318 → v319), lens 8, Adler ch. 2 bowing
+- Bowing (Adler ch. 2, PDF 38: strong attacks on a down-bow), six places, signs only: 259 cellos down-up (the two-bar ff F was on one bow), Vln I down-bow on the fff C at 263; down-bows on the accented heads at 267 and 269 and their pickups (as at 247); 198 violins down-up so the pickup to 199 is down-bow, violas E♭ and C♭ on separate bows; 147 violins down-bow on the ff dominant; 110 Vln II and violas down-bow at the climax; 101 and 105 sf chords down-bow in the lower strings.
+- No pitch, rhythm or dynamic change; MIDI byte-identical. Other string techniques in the reading (spiccato, jeté, ponticello, col legno, trills) do not fit the style or fall in protected bars.
