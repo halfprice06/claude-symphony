@@ -1525,3 +1525,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 337 (v337 → v338), lens 7, Adler ch. 16 melody and countermelody
 - 191–194: Ob 1 doubled the recapitulated F2 in unison with both violin sections throughout, and nothing answered the tune's held B♭4 at 194. Ob 1 keeps 187–190, rests 191–193 and at 194 echoes the tune's bar 192 at pitch, mp espress., from beat 2 (Adler part 2 PDF 211, 213: Dvořák's delayed oboe; PDF 229: like colours at the same pitch absorb each other). Beat 1 avoided for Cl 1's F♭4; no pickup, which made octaves with the bass.
 - Not applied: a countertheme passed between instruments at 205–208 or 159–166; clarinets in contrary motion at 11–18.
+
+## Cycle 338 (v338 → v339), lens 8, Casanelles ch. 4 and 6 expression
+- 236: the violins' rising sixth C5→A5 sul A in movement I's second-theme head is marked "port." with a glissando line, the symphony's one marked string slide (Casanelles PDF 151, 154–155; Adler PDF 33). Not at 240. Pitches and MIDI unchanged.
+- 212–214: movement II's theme B recall now swells to 213 and recedes before the breath instead of holding ff for five bars, as movement II shapes it (Casanelles PDF 148–150, 155). Hairpins in Tpt 1·2, Fl, Ob, Cl, Vln I·II; ff at 211, f at 216–217, sub. p at 219 and fff at 223 kept; hidden dynamics restore the MIDI levels from 215.
+- Not applied: sul tasto → ord. at 219–222 (protected), vibrato marks, level changes inside the protected solos.
