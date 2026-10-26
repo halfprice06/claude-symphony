@@ -1550,3 +1550,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 20.3: in F1's consequent the thin iv chord (F–A♭, no C) before c322's F♯–A–C–E♭ becomes F–A♭–B (rising diminished seventh, 4/3), so F→F♯, A♭→A and B→C all rise a semitone into beat 4: the paired rising diminished sevenths on F then F♯ (A&S PDF 561–562, Ex. 31-14, 31-15). Only the violas change (D4–B♭3–B3–C4); tune, bass and the recapitulation's 160 unchanged.
 - Not applied: a common-tone diminished seventh into V7 (24–25 clashes with the tune's E♭; 39–42 with the F1 tail; other places protected); a common-tone augmented sixth over the final tonic (only 273 fits, protected).
 - Checked, no change: diminished-seventh spelling at 135–138 and 20 (A&S PDF 558–560).
+
+## Cycle 343 (v343 → v344), lens 3, A&S Units 6–8 phrase structure
+- 159: the recapitulation's second F1 statement still leapt E♭–C in the bass, while the exposition's 19 has moved by step since c313. The bass now falls E♭–D–C through a complete passing V4/3 (D–F–G–B) on beat 3, the seventh F resolving to E♭ (A&S PDF 121–124, Ex. 8-5; 127, Ex. 8-10; 101, Ex. 6-17; 131). Vc, Cb, Bn, Cbsn, B.tbn, Tuba; Tbn 1·2, Cl 2 and four eighths of the Vln II/Cl 1 counter-line adjusted. Tune, Vln I divisi, dynamics and scoring of 159–166 unchanged.
+- Not applied: VII6 as passing chord (no unprotected place at 3–8, 43–50, 67–76, 167–170); bass double neighbours (no unprotected tonic).
+- Checked, no change: the coda's proportions (31%) and stages 223, 234, 246→247, 262–263.
