@@ -1700,3 +1700,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 103-110 notes and f/p; Tbn f 139-142
 - Cross-movement: none
+
+## Cycle 349 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 126-200 (rimsky-principles PDF 305-375) (second pass)) → v350
+- Accepted: no change (master comparison, Schubert 9/i)
+- Open / not applied: none
+- Do-not-touch: brass layouts 27, 122, 160; 111-117 crescendo; 170-171 join
+- Cross-movement: none
