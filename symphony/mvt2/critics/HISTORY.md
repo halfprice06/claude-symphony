@@ -2396,3 +2396,10 @@ melody. Report: reports/c371.md.
 - Accepted: nothing (v372 = v371 relabelled).
 - Recorded (no change): c371 (Sebesky ch. 5, voices): no change. Theme ranges, breaths before pickups, motion under held notes, the 74 b3 drop (register plan settled), memorability and the doubling order all recorded.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 372 (v372 → v373)
+harmony. Report: reports/c372.md.
+- Accepted: nothing (v373 = v372 relabelled).
+- Recorded (no change): c372 (A&S Unit 29, augmented sixths, fifth pass): no change. Dominants prepared from the augmented-sixth family; the sixths at 21 and 64 resolve F flat to E flat, the same semitone as the link's E to E flat; 50-51 blocked by octaves with the quotation; 20-22 and 64-65 follow.
+- Do-not-touch: standing list; the 8-page layout.
