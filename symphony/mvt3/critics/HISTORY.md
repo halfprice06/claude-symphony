@@ -1625,3 +1625,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 357 (v357 → v358), lens 7, Sebesky ch. 1 arranging fundamentals
 - 188.3: F2's second bar was V6/5 → I in all ten statements of its head. In the A♭-major statement the bass (Cb, Bn 2) now takes G♭ on beat 3, V6/5 → V4/2 of IV, falling A♭–G–G♭–F into 189 against the rising tune (Sebesky PDF 19, Ex. 3A; PDF 14, 20). 189 unchanged; tune, counter-melody, clarinet background and bowing of 187–198 unchanged (the protection covers scoring; pitch changes there accepted before in c262, c270, c293).
 - Not applied: thinning the clarinets' pp figure at 187–194 (c207, c224); the minor-mode line cliché at F2's heads (would undo c312 or resolve the stop chord before 223).
+
+## Cycle 358 (v358 → v359), lens 8, Sebesky ch. 1 and backgrounds
+- 245–246: under the stringendo (2 = 66 → 88 by 247, since c348 from 245) the cellos and basses held whole notes, so nothing low marked the quickening beat. They now restrike their D in tenuto halves at 245 and quarters at 246 into the basses' eighths at 247 (Sebesky PDF 207–208, Ex. 273; A&S PDF 49), as the violas push at 259–262. Pitches, hairpin, Bn 2's held D3 and the horn call unchanged.
+- Checked, no change: the animando run at 82, the basses' eighths at 209–210, Cl 1's static line under the trumpet solo at 51–66, marcato accents.
