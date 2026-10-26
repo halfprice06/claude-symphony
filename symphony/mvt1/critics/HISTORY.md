@@ -1562,3 +1562,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept: ledger-line two-pitch groups horizontal in Vln I/Fl at 28, 83, 95, 97 (Fl and Vln I alike); c235's Cl interlock 117–121 and Vc 61 stems.
 - Do-not-touch: Page breaks (same last bar on every page).
 - Cross-movement: none (mvt II may reuse the beam callback).
+
+## Cycle 326 (Playability, instrument by instrument; Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (second pass)) → v327
+- Accepted: Violas 'div.' for the thirds E4/G4–E♭4/G4 at 166 (a G-string third-position double stop at mp in a rit.; Adler PDF 76, 85, 88), 'unis.' on the pickup at 167; no pitches change (recTwo, coda).
+- Open / not applied: None. Kept: Vla E♭4/G4 at 41–42, 131–132 (loud repeated/tremolo); all 32 big leaps; open G2 pickups at 1 and 175; pp bows of 6–8.8 s unmarked.
+- Do-not-touch: E♮→E♭ thread notes at 166.
+- Cross-movement: none.
