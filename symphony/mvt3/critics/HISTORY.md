@@ -1417,3 +1417,10 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 37–38: the third F1 head statement (Hn 3·4) had no string support; the cellos now double it an octave lower, ff, with the horns' articulation, f at 39 (Adler part 2 PDF 165, 176–179). Cl 2 holds C4 to 38.4 to avoid fifths with the new cello line.
 - 273–276: the timpani roll on C starts f instead of ff, like the cellos and basses, and keeps its crescendo from 275 to fff at 278 (Bloch, Adler part 2 PDF 184). The chain, the quotation and the top C6 are unchanged.
 - Not changed: 205–206 brass-only head (protected; cellos hold the pedal), the unison at 247–254 and 265–272, the arpeggios at 255–262.
+
+## Cycle 315 (v315 → v316), lens 5, MOLA guidelines, parts
+- Parts: rehearsal letters and tempo words landed at different heights at D, F, K, N, O, P, Q, R, T (the problem movement II found in its parts; MOLA PDF 10 Ex. 4). A new `\lt` helper in global.ily draws the tempo text inside the letter's mark, active only with `isPartsBook = ##t` (set in parts-head.ily; keep that line if the file is regenerated). Percussion and timpani padding adjusted.
+- Fl 2 part: fixed page turn in the rest at 198|199, back to 2 pages.
+- Part titles: "Symphony No. 1 in C minor — IV. Finale" (MOLA PDF 6).
+- Bar 10: part-only minimum hairpin length in Fl 1, Fl 2 and Ob 2, so the crescendo prints (MOLA PDF 8 Ex. 7). Parts now build with 0 warnings (were 5).
+- Score pixel-identical and MIDI byte-identical to v315. mkparts.py is stale; parts-book.ly is the real parts source.
