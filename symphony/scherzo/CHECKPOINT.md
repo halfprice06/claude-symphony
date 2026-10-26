@@ -1,3 +1,11 @@
+# HANDOFF 2026-10-26 19:50 UTC (uptime 20.4 h, shared-folder mount expiry): fourth run continues in a new thread
+- Last promoted: **v389** (cycle 388 done). Next: cycle 389. Prompt kit/p389.txt is written: start a critic (Agent, general-purpose, background) with "Read your full task from /home/user/claude_composes/symphony/scherzo/kit/p389.txt and carry it out exactly.", then `bash kit/next.sh 389 "critique" "history" "$(cat /tmp/focus390.txt)"`. Nothing unpromoted.
+- Cycle 390 is the cyclic check. Before next.sh 389: fetch the siblings (`git fetch -q origin 'refs/heads/claude/project-thread-*:refs/remotes/origin/claude/project-thread-*'`), archive the newest vNN of each (ytvxdy = mvt1, wtf58k = mvt2, v69o8h = mvt3) into /tmp/siblings/<mvt>/ and their owners' coherence files into /tmp/siblings/coherence/, and write /tmp/focus390.txt = /tmp/focus.txt text plus a CYCLIC CHECK paragraph (template: kit/p380.txt's Focus line) listing scherzo changes since c380: c381–c389 (see coherence/scherzo.md; c383 is a theme change in the reprise second idea, record line secondIdeaEmaj).
+- Standard focus text is saved in kit/focus-standard.txt: `cp kit/focus-standard.txt /tmp/focus.txt`.
+- Cycle 399: promotion to v400 writes the release title by hand ("Full score in C — v400, <date>"), rebuild, push, report in the thread, send the hash to the coordinator. Relay to the coordinator and push every 10 cycles.
+- Sessions: finale is now session_01JYb3wFaQo49G4BVrXbmdSc; movement I cse_01T3oeJpEiUnk8c5fb1YHzM8; movement II cse_01XY5Tq7nnuvWhWRp5A7hWAH (its run finished at v400); coordinator: get_channel_session_id.
+- Fresh container setup as in the entries below; themecheck needs symphony/coherence/{themecheck.py,lyparse.py}.
+
 # FOURTH RUN 2026-10-25 (Dan 23:22: "let's add another 100 loops to each"): cycles 300–399, v300 → v400, same thread "Scherzo, loops from v277". Cycle 399's promotion writes the release title by hand at v400.
 
 # RUN STOPPED 2026-10-25 at v300 (Dan, 2026-10-19 23:04: "Let's stop them all around v300 and then merge")

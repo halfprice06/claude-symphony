@@ -49,6 +49,7 @@ The themes are free to evolve under the critics. symphony/coherence/themes-scher
 - v122 (cycle 121): trio tune T, bar 6 of every statement (158, 174, 214; coda 346 in A major). Old cis''2 fis''4. New cis''4 fis''2 (the second phrase's peak on beat 2 and held, not the first phrase's rhythm a step higher; open since cycle 1). Record refreshed; finale told (it does not quote T).
 - v322 (cycle 321): trio tune T, bar 3 of every statement. Old D♯5 (dotted crotchet)–C♯5 (quaver)–B4; new D♯5–F♯4–B4, a falling sixth (Cl 1 155, Vln I/II 171, Cl 1/Vln II/Vla 199, Cl 1/Vln I/Vln II 211; Hn 3 343 in A: G♯4–B3–E4, was G♯4–F♯4–E4). Head G♯4–A4–B4–E5 unchanged. Record refreshed (51/51); finale and movement I told.
 - v332 (cycle 331): trio tune T, bars 3–4. Old dis''4. fis'8 b'4 | a'4 gis'2. New dis''4. fis'8 a'4~ | a'4 gis'2 (the V7's seventh held over the bar line as a 4–3 suspension, A&S Ex. 21-23a), in all 7 statements incl. coda Hn 3 in A. Record refreshed (tie merges notes; %@ counts adjusted); finale and movement I told (neither quotes bars 3–4).
+- v384 (cycle 383): second idea, reprise antecedent 277–280 only (Fl 1, Ob 1 an octave lower). Old b''2 g''4~ | g''4 e'''2 …; new b''2 gis''4~ | gis''4 e'''2 … (E major, 280 V6/5 of iv, minor again at 281). New record line secondIdeaEmaj; exposition statements 45 and 121 unchanged. Finale told (it does not quote the second idea).
 
 ## Cycle 4 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v04 → v05
 All 8 findings accepted (reasons in v05/critique.md): horn chords split and tutti balance 105–120/309–324 with Vln II on the theme; harp RH out of the trio off-beats 169–184/209–224; F-major episode thinned (Cl rests, harp chord to LH); Hn 2 lower in the second idea 45–56; Hn 1·2 thirds/sixths 209–224; violas pizz. 257–276; 87–88 doubling; tuba E1 at 341–343. Themes unchanged. Keep: harp alone with the theme head at 73–80; no plucked off-beats doubled by bowed ones.
@@ -182,6 +183,27 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
+
+## Cycle 388 (lens 8 expression, Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (fourth pass)) v388 → v389
+c388 articulation: slurs 73–89, espress. at 3, Cl 2 ties
+
+## Cycle 387 (lens 7 texture, Rimsky-Korsakov ch. II Melody in combined groups (rimsky-principles PDF 74-80) (fourth pass)) v387 → v388
+c387 flutes a2 over Hn 1 at 205–209
+
+## Cycle 386 (lens 6 playability, Adler ch. 4 Plucked Strings: harp and pedalling (adler1 PDF 110-124) (fifth pass)) v386 → v387
+c386 harp: étouffez at 192 in the score
+
+## Cycle 385 (lens 5 engraving, Gould ch. 1: ledger lines, octave signs, rests (gould-behind-bars PDF 41-52) (fifth pass)) v385 → v386
+c385 parts: octave cue labels fixed
+
+## Cycle 384 (lens 4 orchestration, Rimsky-Korsakov appendix of single tutti chords (rimsky-principles PDF 505-510) and the tutti examples cited in ch. IV (fifth pass)) v384 → v385
+c384 bass spacing at 210–212 and 253–268
+
+## Cycle 383 (lens 3 form, Aldwell & Schachter Unit 32 Chromaticism in Larger Contexts (aldwell-schachter PDF 584-606) (fifth pass)) v383 → v384
+c383 THEME CHANGE (second idea, reprise only): E major at 277–280
+
+## Cycle 382 (lens 2 harmony, Aldwell & Schachter Units 11-13 VI and IV6; supertonic and subdominant sevenths; other uses of IV and VI (aldwell-schachter PDF 163-210) (fifth pass)) v382 → v383
+c382 harmony: IV6 at 209, Cl 1 A4 at 345
 
 ## Cycle 381 (lens 1 melody, Rimsky-Korsakov ch. II Melody: woodwind, brass, combined groups (rimsky-principles PDF 64-80) and the examples it cites (fifth pass)) v381 → v382
 c381 coda: Cl 1 sixths under Ob 1's T at 345–348
