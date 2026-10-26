@@ -2092,3 +2092,10 @@ lens 3, form; A&S Unit 15 III and VII (PDF 230-247). Report: reports/c323.md.
 - Accepted: nothing (v324 = v323 relabelled).
 - Recorded (no change): remote F-sharp minor point at 48, 49.1 percent of the running time, with IV as stopover (Mozart 41/ii at 49.5-50.5 percent); iii6 at 78 b3 in the falling bass F-flat E-flat D-flat (15-10c/d; c103, c133); V4/3 to I at 74-75 makes the reprise one span (PDF 235-236); IV to V at 61-65 without a common tone (15-2, protected); two dominants treated two ways at 59-60 and 65; no rising third into beat 3 in 37-64, phrases in fours except B2's 3+3+2; no seventh on the A-flat chord at 31-36 (c020, c203, c233).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 324 (v324 → v325)
+lens 4, orchestration; Adler ch. 5 strings (adler1 PDF 125-167). Report: reports/c324.md.
+- Accepted: Cl 2 E♭4 on 73 b3; viola figure at 75 b2 ends on A♭3.
+- Recorded (no change): viola figure at 71, 74, 78; Vln I A♭6 at 58; 63-64 tremolo; 48-51; divisi at 62.
+- Do-not-touch: standing list; the 8-page layout.
