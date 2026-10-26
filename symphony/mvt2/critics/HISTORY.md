@@ -2490,3 +2490,10 @@ holistic comparison with a master work (Svendsen 2/ii, E-flat). Report: reports/
 - Accepted: nothing (v390 = v389 relabelled).
 - Recorded (no change): c389 (Rimsky-Korsakov examples 1-60; Svendsen 2/ii from secondary sources, score not reachable): no change. Key, length and restraint compare well; themes combined at 53-56 and 79-81; wind octaves, basses without cellos, clarinet-oboe interlocking and the 61 layout follow; nothing worse since v379.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 390 (v390 → v391)
+cyclic design. Report: reports/c390.md.
+- Accepted: nothing (v391 = v390 relabelled).
+- Recorded (no change): c390 (A&S Unit 32, chromatic tonal areas): no score change. Link from I is a common-tone modulation matching I v371; both Widmung pitch links into the scherzo; remote keys entered and left in Haydn's way; motives enlarged in the middle section; II as flat VI of C. Theme check misread Vln II after 47 (MIDI block from v389); lyparse patch sent to the finale. mvt2.md: E to E flat at 64-65 is in the basses only.
+- Do-not-touch: standing list; the 8-page layout.
