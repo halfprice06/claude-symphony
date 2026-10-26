@@ -2054,3 +2054,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 91-95 Vla+Bsn 1 octave; 23-25/135-137 Fl+Ob with Vln I; 160 E-flat5
 - Cross-movement: climax counter scoring note for coherence/mvt1.md at v411
+
+## Cycle 408 (Expression; Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (second pass)) → v409
+- Accepted: Hn 3-4 and Tbn 1 re-enter at f> at 124; 'molto espr.' on the four-horn call at 41
+- Open / not applied: none
+- Do-not-touch: Hn 1-2 ff 27-31; no mutes/stopped horn; 170 fermata ff; 117-121 brass motto
+- Cross-movement: none
