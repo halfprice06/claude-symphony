@@ -2530,3 +2530,10 @@ form. Report: reports/c393.md.
 
 
 - v399 (c398, expression): bow changes, Vln II/Vla at 66 and cellos at 58-59.
+
+
+## Cycle 399 (v399 → v400)
+holistic comparison with a master work (Bruch 3/ii, G major). Report: reports/c399.md.
+- Accepted: nothing (v400 = v399 relabelled).
+- Recorded (no change): c399 (Rimsky-Korsakov examples 69-130; Bruch 3/ii from the IMSLP score): no change. Third relations, soft wind frame, string accompaniment under the middle-section wind tune and a busier return all match; nothing worse since v389; inverted-dominant doublings, brass at 60-62 and the coda follow. Stop check: clean build, 8 pages, 30-page parts book, theme record 18/18 and 11/11.
+- Do-not-touch: standing list; the 8-page layout.
