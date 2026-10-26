@@ -47,7 +47,7 @@ Sections and metre (sections.txt):
 **Bars 83–88.**
 - 83–86: A♭ pedal, ppp: double basses A♭1 and cellos A♭2 (held 83–86, crescendo at 86).
 - 82 b3–83: harp, the theme A head: pickup E♭4–F4 at pitch on 82 b3 (after an arpeggiated A♭3–C4), then harmonics at 83, A♭–C–E♭ in the rhythm crotchet-dot, quaver, crotchet (written A♭3 C4 E♭4, sounding an octave higher, A♭4 C5 E♭5), over a left-hand A♭1. This is the harp's last bar; it is silent 84–92.
-- 84–85: timpani alone answer E♭3 (dotted crotchet), C3 (quaver), A♭2 (tied into 85), pp. This is the timpani's last sound. There is no timpani roll in the last bars.
+- 84–85: timpani answer (the violas enter under it on 84 b3) E♭3 (dotted crotchet), C3 (quaver), A♭2 (tied into 85), pp. This is the timpani's last sound. There is no timpani roll in the last bars.
 - 84 (beat 3)–86: violas div. C4–E♭4 ppp, then C4–F4 at 86.
 - 85–89: Clarinet 1, "dolce", plays the motto's tail: E♭5 (85, ppp < pp), D5 (86), D♭5 (87–88, pp), C5 (89–90, to beat 2 of 90).
 - **87: IV6.** Bass F (cellos F2, double basses F1); violas divided (since v195): lower half F3 sul C with Horn 4, upper half A♭3 with Horn 3 (87–88; since v224 the lower half falls to E♭3 at 89 and the upper half holds A♭3 to the end); Horn 4 F3 and Horn 3 A♭3, both con sord., pp; cor anglais F4 pp "dolce"; Vln II A♭4 pp; Cl 1 D♭5.
@@ -82,7 +82,7 @@ Sections and metre (sections.txt):
 
 Key signatures are set in global.ily. Harmonic labels come from the section files' notes.
 
-Augmented sixths across the symphony (c350, A&S PDF 523): II's stand on F♭ = E (21, 64), the scherzo's tonic, as movement I's stands on A♭ (I 12, II's tonic) and the scherzo's on C (III 244 and 331, the finale's tonic). Keep them on F♭; no third one is added. Record only. Both joins are the III♯ relation of Chopin's pair in A&S Ex. 30-1 (PDF 530-531, 534): C is III♯ of A♭ at bar 1, and A♭ = G♯ is III♯ of E into the scherzo (c360).
+Augmented sixths across the symphony (c350, A&S PDF 523): II's stand on F♭ = E (21, 64), the scherzo's tonic, as movement I's stands on A♭ (I 12, II's tonic) and the scherzo's on C (III 244 and 331, the finale's tonic). Keep them on F♭; no third one is added. Record only. Timpani pairing (c380): II has no trumpets, so its timpani play with the low brass (60–62), the horns or alone; the finale brings back the trumpet-and-timpani pairing at its 199–204. Both joins are the III♯ relation of Chopin's pair in A&S Ex. 30-1 (PDF 530-531, 534): C is III♯ of A♭ at bar 1, and A♭ = G♯ is III♯ of E into the scherzo (c360).
 
 | Bars | Mark | Section | Key and harmony |
 |---|---|---|---|
@@ -175,7 +175,7 @@ Stick changes: soft at 65, medium at 77 (part only), soft at 83 (v297, c296); th
 | 5 | "muta G in A♭, A♭ in C, C in D♭" / "(A♭ C D♭ E♭, low to high)" (chain since v271; 30" G→A♭, 28" A♭→C, 25" C→D♭). From here: A♭2, C3, D♭3, E♭3. |
 | 50 | "medium sticks". |
 | 52–53 | A♭2 roll pp < into a single D♭3 stroke p at 53. |
-| 60–62 | A♭2 roll p < f (60), D♭3 roll f (61), D♭3 at 62, "damp". |
+| 60–62 | A♭2 roll pp < f (60, since v359, with the low brass), D♭3 roll f (61), D♭3 at 62, "damp". |
 | 67–70 | E♭3 roll ppp, "near the rim". |
 | 79–81 | "ord."; D♭3 roll f (79–80), E♭3 roll with diminuendo (81). |
 | 84–85 | E♭3, C3, A♭2 single strokes, pp. Last sound. |
