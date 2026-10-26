@@ -1796,3 +1796,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 31/72 A-flat6; 62-63; 97-102 clarinets rest; 139-142
 - Cross-movement: none
+
+## Cycle 365 (Engraving and notation (Gould's *Behind Bars*, MOLA); Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (second pass)) → v366
+- Accepted: cues from Vln I 94-95 for six parts entering at 96; 'medium sticks' shown in score
+- Open / not applied: none
+- Do-not-touch: 126 Cl layout
+- Cross-movement: none
