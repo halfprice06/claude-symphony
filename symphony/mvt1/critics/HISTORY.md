@@ -1754,3 +1754,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 27, 131, 167 overlaps; 139-142 violin unison
 - Cross-movement: none
+
+## Cycle 358 (Expression; Casanelles ch. 4 dynamics layering and expression in performance (hyper-orchestra PDF 145-161) and ch. 6 volume and dynamics (PDF 290-291) (second pass)) → v359
+- Accepted: Vc/Cb pp under the p tune at 56-61 with cresc. at 60; Vln pickup slurred at 155.4
+- Open / not applied: none
+- Do-not-touch: 171-173 C.a.; 177 Vln I
+- Cross-movement: none
