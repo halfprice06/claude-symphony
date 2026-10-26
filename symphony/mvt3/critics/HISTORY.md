@@ -1387,3 +1387,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 135–137: the crescendo into the stop chord is staged: strings alone at pp from 135, Cl and Bn join p < at 136, Hn 3·4 at 137 (Rimsky-Korsakov PDF 130). No pitch changes; the pp < into sf curve and the stopped horns at 138 are kept.
 - 138: Vln I A♭4–F5 and Vln II F4–D5 as double stops, "non div.", for a fuller string sf over the soft wind chord (Rimsky-Korsakov PDF 129). Top lines, bass B and the 222→223 resolution unchanged.
 - Brass re-entries after long rests (PDF 136) and strings' sf at the end of a wind crescendo (PDF 129): checked, no change.
+
+## Cycle 309 (v309 → v310), lens 9, holistic, Brahms 2/iv; Rimsky-Korsakov examples 1–68
+- 27–30: after c306 moved the countersubject to the flutes, Ob 1's held D5 sat above their line at 27.4, 28.1, 29.1 and 30.1 (Rimsky-Korsakov PDF 54, 65, 67: flutes below oboes sound unnatural). Ob 1 now rests 27.3–30.2 and returns mf on E♭5 at 30.3; Ob 2 and Hn 1·2 still hold the harmony.
+- Brahms 2/iv comparison: the large plan holds; the one regression since v299 was this oboe pad.
+- Considered, not applied: muted strings (no time for mutes, or protected bars), a bass clarinet solo, the second theme in violins and violas in unison (67–82, 187–198 protected).
