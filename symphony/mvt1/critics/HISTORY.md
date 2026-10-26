@@ -1880,3 +1880,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 82, 117-120 detached head; 91-96; 60 mf
 - Cross-movement: none
+
+## Cycle 379 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Adler part 1 full-score examples in ch. 5 and 8 (adler1 PDF 137-165, 235-281) (second pass)) → v380
+- Accepted: no change (master comparison, Mahler 2/i)
+- Open / not applied: none
+- Do-not-touch: fugato colours; 182 chord; soft attacca
+- Cross-movement: none
