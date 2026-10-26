@@ -1646,3 +1646,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None. Kept against Dvořák: no exposition repeat, no major 'Grandioso' tutti, no ff final cadence (proportions; finale's reserve).
 - Do-not-touch: Proportions; finale reserves.
 - Cross-movement: none.
+
+## Cycle 340 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (second pass)) → v341
+- Accepted: No score change (cyclic check vs A&S Unit 26, second pass: key plan I–VI–IV–V–I as Beethoven's; attacca E♮→E♭ in the violas is the C/A♭ mixture step; B and F before the recapitulation; Do-not-reuse list holds in MIDI; themecheck 35/35). Records: mvt1.md seed for bar 110 (C major as V of F minor); 'C major as a key' entry now names movements II and III.
+- Open / not applied: None.
+- Do-not-touch: 117–130 leading tone and seventh (c233, c263).
+- Cross-movement: none (records only).
