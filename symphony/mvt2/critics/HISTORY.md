@@ -2270,3 +2270,10 @@ lens 7, texture; Adler ch. 5 homophonic writing for strings (adler1 PDF 150-157)
 
 - v350 (c349, holistic, Kalinnikov 1/ii): low brass at 60 back to pp< (Rimsky PDF 136, 506-507), undoing c346.
 - Do-not-touch: standing list; the bar 60 low brass entry dynamic stays pp< after c218, c346, c349 (Rimsky PDF 136 outranks Adler PDF 319 for a crescendo start): reopen only with a new book reason.
+
+
+## Cycle 350 (v350 → v351)
+cyclic design. Report: reports/c350.md.
+- Accepted: nothing (v351 = v350 relabelled).
+- Recorded (no change): c350 (A&S Unit 29, fourth pass): no score change. Augmented sixths on each movement's flat 6 lead to the next tonic (recorded in mvt2.md); 62-65 Einsamkeit pattern and the 21 French sixth confirmed; joins with I v351, scherzo v331 and the finale hold. mvt2.md corrected: timpani muta prints in the score, bar 64 b4 chord described exactly.
+- Do-not-touch: standing list; the 8-page layout.
