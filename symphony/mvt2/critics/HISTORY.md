@@ -2036,3 +2036,10 @@ lens 5, engraving; MOLA second pass on the parts. Report: reports/c315.md.
 - Accepted: scherzo s305 dynamics override in score and parts; part-only cues for Ob 1 44, Fl 1 57, B.cl. 57, harp 37 and 71.
 - Recorded (no change): cues for Hn 3·4 79 and Ob 1 78 optional; harp 8va bassa (c265); bow marks.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 316 (v316 → v317)
+lens 6, playability; Rimsky-Korsakov ch. I (PDF 24-50). Report: reports/c316.md.
+- Accepted: basses down-bow then up-bow at 62 before the pizzicato at 63.
+- Recorded (no change): wind breathing 57-60; Hn 1 rest 62-67; Cl 2 hold 89-92; pizzicato and harp triplets; solo violin mute.
+- Do-not-touch: standing list; the 8-page layout.
