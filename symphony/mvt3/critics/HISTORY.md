@@ -1701,3 +1701,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 373 (v373 → v374), lens 3, A&S Unit 26 tonal plan
 - No score change. Key plan checked against A&S Unit 26 (PDF 442–461): exposition and development follow Mozart K. 457's plan (Ex. 26-8), the recapitulation K. 488's VI → ♭II → German sixth → V → I path (Ex. 26-14); every key is confirmed by a cadence with II or IV (PDF 443, 445); G minor and D♭ are transient (PDF 447–448).
 - Not applied: a tonicized IV in the C-major coda (251 clashes with the head's B5; 248–250 protected; 271 has B♮; 265–272 over the tonic pedal); a descending-third sequence of tonicized chords at 235–242 (would anticipate 243's E major); a tonicized VI inside the development's dominant.
+
+## Cycle 374 (v374 → v375), lens 4, Rimsky-Korsakov ch. III brass chords
+- 249: Tpt 3's hammered C5 clashed by a second with Tpt 2's and Tpt 1's D5 and crossed above Tpt 2; it now plays A4 in the same rhythm, doubling Hn 3, while the timpani keep the C (Rimsky-Korsakov PDF 102–103: such discords in different instruments).
+- 145–146: the brass V7 had a gap between the bass trombone's G2 and D4, with four instruments in unison on D4 and F4; Tbn 2 now holds G3 from 143 and moves to D4 at 147 as before (PDF 100). 147–150 unchanged.
+- Not applied: low-flute thirds between trumpet octaves (PDF 108; c347), two horns and tuba on the bass under three trombones (PDF 101), Tbn 2 off the bass trombone's D♭3 at 211–212 (every alternative makes fifths at 212→213; PDF 112).
