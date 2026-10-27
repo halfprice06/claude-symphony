@@ -1784,3 +1784,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 392 (v392 → v393), lens 2, A&S Unit 17 sequences
 - A&S Unit 17 (PDF 265–267, Ex. 17-1, 17-2) sequence: Vln II's run at 207–208 now moves up a step with the other voices (B♭3 upward to the accented G♭5), instead of repeating 205's pitches; removes a second against the head's passing F5 at 208.2.5.
+
+## Cycle 393 (v393 → v394), lens 3, Rimsky-Korsakov ch. IV combination
+- Rimsky-Korsakov PDF 136 (brass re-entry after long rest at pp or ff, not f): bass trombone at 255–258 now enters ff on E2 with the tuba (was f on E3, doubling Tbn 2 and the theme note), crescendo from 259 to fff at 263 as before. Clears the 257.1 doubling flag.
+- Form proportions checked (exp 35%, dev 18%, recap 16%, coda 31%); no change.
