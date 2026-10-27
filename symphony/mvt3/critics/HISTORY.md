@@ -1781,3 +1781,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 391 (v391 → v392), lens 1, Adler ch. 3 strings
 - Adler PDF 73–76, 99 (open strings at soft fades): "sul G" for Vln and Vc at 41–42, and for Vln I and Vla at 169.4–170, so the soft D is stopped, not an open string. No notes or MIDI changed.
 - Viola-as-bass, F2 low-octave start at 67–70, Vln II 46.3: considered, not applied.
+
+## Cycle 392 (v392 → v393), lens 2, A&S Unit 17 sequences
+- A&S Unit 17 (PDF 265–267, Ex. 17-1, 17-2) sequence: Vln II's run at 207–208 now moves up a step with the other voices (B♭3 upward to the accented G♭5), instead of repeating 205's pitches; removes a second against the head's passing F5 at 208.2.5.
