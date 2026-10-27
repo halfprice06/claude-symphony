@@ -1711,3 +1711,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Beams: 95 groups of 2–4 notes sloped 1.65–2 staff-spaces (harp 67–82, 123–130, 235–242; violins 17, 28, 157, 259–262; violas; Cl 1 257–262; bassoon and cellos 35). A score-level `gould-max-slope` callback in score.ly keeps the shorter-stem end and limits the slope to one space (Gould PDF 33–35); no short group now slopes more than 1.35. parts-book.ly does not have it yet (as with c285's callback).
 - Stem direction made uniform inside figuration that spans the stave at Vc 3.3, Vla 38.1, Vln II 163.3 and 165.3 (Gould PDF 39), so their slurs no longer drop below the notes.
 - MIDI byte-identical; nothing else in the reading needed a change.
+
+## Cycle 376 (v376 → v377), lens 6, Adler ch. 3 string colours
+- 263–264: at the symphony's only root-position V–I the cellos hold open C2 with C3, "non div.", their first open C string in the movement (Adler PDF 73–74, 76, 99, Ex. III-56). Bowing, dynamics, progression, trumpets' B→C and timpani unchanged.
+- 255–257: Vln II's ff octave doubling of F2 (c371) is marked "sul G" with a dashed line, keeping it off the weak D string under the brass chorale (Adler PDF 74–76, Ex. III-5); the G5 peak at 258 crosses strings. No notes changed.
+- Checked, no change: the violins' C5→F6 leap at 36→37, double stops, basses' simplified lines, bow-change words, C-extension notes, ranges.
