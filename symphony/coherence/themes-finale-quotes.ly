@@ -10,6 +10,10 @@ motiveXretr = { g,4 g,8 g,8 g,4 r4 }
 %@ motiveXretr Timp 144 4
 %@ motiveXretr Timp 178 4
 
+% motiveXcloseC: motive x in its closing form (scherzo's B–B–B–E, ending on the tonic), on G–G–G–C, finale Timp 276.3–277.1 (since v331), after the theme-A quotation.
+motiveXcloseC = { r2 g,4 g,8 g,8 | c4 }
+%@ motiveXcloseC Timp 276 abs
+
 % c029 proposal: scherzoHeadC: the scherzo's theme A head (scherzo VlnOne 13: e''4 b'8 b'8 e''4 | g''2 fis''8 f''8 | e''4), transposed to C
 % and turned to major (its G becomes E natural), note values kept, rebarred in 2/2 (starts on beat 1 of finale 275). Tpt 1-2, Cl 1, Fl 1 (8va), Hn 1-2 (8vb).
 scherzoHeadC = { c''4 g'8 g'8 c''4 e''4~ | e''4 d''8 des''8 c''4 r4 }
@@ -60,7 +64,9 @@ choraleLast = { g'1~ | g'1 | e''1~ | e''1 | d''1~ | d''1 | c''1 | b'1 | c''1~ | 
 %@ choraleFirst TptOne 224
 %@ choraleFirst TbnOne 224
 %@ choraleFirst TbnTwo 224
-%@ choraleFirst VlnOne 226
+% choraleCanon: since finale v332 the canon on movement I's chorale (Vln I, Fl 1, Ob 1, Cl 1 from 226) is displaced by half a bar in tied halves; same pitches as choraleFirst.
+choraleCanon = { g'1~ | g'2 e''2~ | e''2 d''2~ | d''2 c''4 des''4 | c''1 }
+%@ choraleCanon VlnOne 226
 %@ timpaniPulse Timp 229
 %@ sHeadViolins VlnOne 235
 %@ sHeadViolins VlnTwo 235
@@ -78,3 +84,34 @@ choraleLast = { g'1~ | g'1 | e''1~ | e''1 | d''1~ | d''1 | c''1 | b'1 | c''1~ | 
 %@ sHeadBrass Vla 247
 %@ choraleLast TptOne 255
 %@ choraleLast VlnOne 255
+
+% scherzoLastPitch: the scherzo's last pitch, Vln I G♯5 (scherzo 369), as A♭5 falling to G5 at finale 1–2 (top of Vln I's double stop), at pitch.
+scherzoLastPitchAs = { aes''1 g''4 r4 }
+%@ scherzoLastPitchAs VlnOne 1 2 abs
+% and as G♯5 falling to G5 on top of Vln I's divisi at 243 (since finale v311).
+scherzoLastPitchGis = { gis''2 g''2 }
+%@ scherzoLastPitchGis VlnOne 243 2 abs
+% c350 proposal: at-pitch cyclic links that other movements' coherence files rely on and that themes-finale-quotes.ly does not yet check.
+% Compare with: python3 themecheck.py <this file> ../mvt3/vNN --beats 4
+% movement II's last tail (Cl 1, II 85-89, E flat5-D5-D flat5-C5) at the same pitch, Ob 1 95-97 (mvt2.md: 'the finale's Ob 1 at the same pitch, IV 95-98')
+mvtTwoLastTail = { es''2. d''4 | des''1 | c''1 }
+%@ mvtTwoLastTail OboeOne 95 abs
+% theme B's answer at movement II's own pitch (C.a. II 41, doubled values), Hn 1-2 and C.a. 217-218 (finale.md item 15)
+themeBanswer = { aes2 des'2 | f'2. ges'4 }
+%@ themeBanswer HnOne 217 abs
+%@ themeBanswer HnTwo 217 abs
+%@ themeBanswer CorAnglais 217 abs
+% the scherzo horn call's unresolved D sharp4 (and movement II's lastEflat E flat4) resolved at pitch, Hn 3 219-220 (finale.md item 2; scherzo.md 'What the finale relies on')
+threadHorn = { dis'1 | e'1 }
+%@ threadHorn HnThree 219 abs
+% the stop chord's B4 to C5, movement I's last trumpet pitch resolved in its octave, Tpt 1 222-223
+stopChordTrumpet = { b'1 | c''1 }
+%@ stopChordTrumpet TptOne 222 abs
+% bar 1-2 links: Hn 4 F sharp3 -> G3 (movement I v285, I 12) and Cl 1 A flat4 -> G4 (scherzo c270)
+linkHnFour = { fis1 | g4 }
+%@ linkHnFour HnFour 1 abs
+linkClOne = { aes'1 | g'4 }
+%@ linkClOne ClOne 1 abs
+% c370: the violas' D sharp4 -> E4 at 219-220 (the scherzo horn call's D sharp resolved; the German sixth's sharp 4)
+threadViola = { dis'1 | e'1 }
+%@ threadViola Vla 219 abs

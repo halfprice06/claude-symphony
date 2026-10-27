@@ -1652,3 +1652,483 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: None.
 - Do-not-touch: 117–130 leading tone and seventh (c233, c263).
 - Cross-movement: none (records only).
+
+## Cycle 341 (Melody and memorability; Adler ch. 3 Individual Bowed Strings: melodic writing for violin, viola, cello, bass (adler1 PDF 71-109) (second pass)) → v342
+- Accepted: Double basses 'sul A' on the motto at 2–3 and 176–178, so D2 is stopped like the cellos' D3 (sul G, c251) instead of an open string under a slow pp line (Adler PDF 73–74, 76, 106 Ex. III-70) (intro, coda). Notation only.
+- Open / not applied: None. Kept: themes as written; violas/cellos C-major S 147–154 without a string mark (dolce; fingerings to players); C6→A♭6 leap at 160 (doubled, largamente).
+- Do-not-touch: Motto pitches; cellos sul G (c251).
+- Cross-movement: none.
+
+## Cycle 342 (Harmony and voice leading; Aldwell & Schachter Unit 17 Diatonic Sequences (aldwell-schachter PDF 263-288) (second pass)) → v343
+- Accepted: No change (harmony vs A&S Unit 17, second pass: sequences at 9–12, 47–54, 97–100, 147–152 follow Ex. 17-20; fugato 85–96 'two statements plus the start of a third'; downbeat fifths at 45→46, 69→70, 139→140 broken by weak-beat chords; falling thirds 160–164 in tenths).
+- Open / not applied: None.
+- Do-not-touch: 9–12; fugato; 103–110.
+- Cross-movement: none.
+
+## Cycle 343 (Form, pacing and proportion; Rimsky-Korsakov ch. IV Composition of the orchestra: tutti, range limits, transfer of phrases, sf-p, crescendo and diminuendo (rimsky-principles PDF 115-136) (second pass)) → v344
+- Accepted: no change (form review of 111-182 against Rimsky-Korsakov ch. IV)
+- Open / not applied: 167 brass return after 4 bars rest (kept)
+- Do-not-touch: 129-130, 167-169
+- Cross-movement: none
+
+## Cycle 344 (Orchestration; Adler ch. 15 Scoring for Orchestra: unison-octave tutti, foreground and background (adler2 PDF 146-158) (second pass)) → v345
+- Accepted: Bsn 1 doubles violas on P head lowest octave at 82
+- Open / not applied: none
+- Do-not-touch: 139-142 Fl 1 alone; 117-121 unison; 167-169
+- Cross-movement: none
+
+## Cycle 345 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68) (second pass)) → v346
+- Accepted: partCombineChords at 123 Hn/Tbn; double bar 14-15; barline spacing 68-69
+- Open / not applied: Fl 117-120 split notation
+- Do-not-touch: 147-162 layout
+- Cross-movement: none
+
+## Cycle 346 (Playability, instrument by instrument; Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (second pass)) → v347
+- Accepted: Bsn 1-2 breathe after 159 and 163
+- Open / not applied: none
+- Do-not-touch: 156-166 pitches
+- Cross-movement: none
+
+## Cycle 347 (Texture and counterpoint; Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) (second pass)) → v348
+- Accepted: Hn 3 rests under Hn 1 head at 104.1, 105.3; Hn 3 enters 146 not 145
+- Open / not applied: none
+- Do-not-touch: 69-72; fugato 88-91; 34
+- Cross-movement: none
+
+## Cycle 348 (Expression; Adler ch. 11 climactic uses of brass (adler2 PDF 37-40) and ch. 15 special effects (adler2 PDF 187-196) (second pass)) → v349
+- Accepted: S head hairpins at 103-108 (Hn 1, Vc, Vla); Hn 3 overlaps Bsn 1 B3 from 145.3
+- Open / not applied: none
+- Do-not-touch: 103-110 notes and f/p; Tbn f 139-142
+- Cross-movement: none
+
+## Cycle 349 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 126-200 (rimsky-principles PDF 305-375) (second pass)) → v350
+- Accepted: no change (master comparison, Schubert 9/i)
+- Open / not applied: none
+- Do-not-touch: brass layouts 27, 122, 160; 111-117 crescendo; 170-171 join
+- Cross-movement: none
+
+## Cycle 350 (Cyclic design and emotional arc across four movements; Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (second pass)) → v351
+- Accepted: no change in score; mvt1.md record updated (v342-v350 changes, seed fixes 12, 70/73, new seeds)
+- Open / not applied: none
+- Do-not-touch: 158; 122; 26-27, 138-139
+- Cross-movement: mvt1.md update
+
+## Cycle 351 (Melody and memorability; Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (second pass)) → v352
+- Accepted: no change (woodwind melody review)
+- Open / not applied: none
+- Do-not-touch: woodwind colour of each motto return; S at 46.4-55
+- Cross-movement: none
+
+## Cycle 352 (Harmony and voice leading; Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (second pass)) → v353
+- Accepted: no change; mvt1.md v303 line corrected (vii°6/5 over D at 28)
+- Open / not applied: none
+- Do-not-touch: 27-32; 114-115 wedge
+- Cross-movement: mvt1.md record fix only
+
+## Cycle 353 (Form, pacing and proportion; Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (second pass)) → v354
+- Accepted: no change (prolongation review)
+- Open / not applied: none
+- Do-not-touch: Hn 2 F4 130.3-131 (seventh resolution); 155-158 pacing
+- Cross-movement: none
+
+## Cycle 354 (Orchestration; Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (second pass)) → v355
+- Accepted: held brass stay f at 139-141 (no cresc. to ff); timpani roll starts p at 80
+- Open / not applied: none
+- Do-not-touch: 160 Tpt 2 fff; 131-134 counter; 158-159; 117-121 pedal
+- Cross-movement: none
+
+## Cycle 355 (Engraving and notation (Gould's *Behind Bars*, MOLA); MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (second pass)) → v356
+- Accepted: a2 at 158 on beat 1; Hn 4 rest hidden at 146 (score); Vln I cue Cl. 1 at 175-176; 'Cor anglais in F'
+- Open / not applied: remove 'draft' subtitle at release v421
+- Do-not-touch: 116 cl/tpt ff
+- Cross-movement: none
+
+## Cycle 356 (Playability, instrument by instrument; Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13) (second pass)) → v357
+- Accepted: Hn 3-4 breaths after 22 and 39
+- Open / not applied: none
+- Do-not-touch: 146-170 Hn 1; 119-123 staggered breaths; 177-179 chorale
+- Cross-movement: none
+
+## Cycle 357 (Texture and counterpoint; Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255) (second pass)) → v358
+- Accepted: Bsn 2 Bb2 at 41-43 (was Eb3); Cl 1-2 pad from 35.2; Hn 4 from 69.2
+- Open / not applied: none
+- Do-not-touch: 27, 131, 167 overlaps; 139-142 violin unison
+- Cross-movement: none
+
+## Cycle 358 (Expression; Casanelles ch. 4 dynamics layering and expression in performance (hyper-orchestra PDF 145-161) and ch. 6 volume and dynamics (PDF 290-291) (second pass)) → v359
+- Accepted: Vc/Cb pp under the p tune at 56-61 with cresc. at 60; Vln pickup slurred at 155.4
+- Open / not applied: none
+- Do-not-touch: 171-173 C.a.; 177 Vln I
+- Cross-movement: none
+
+## Cycle 359 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 201-260 (rimsky-principles PDF 376-440) (second pass)) → v360
+- Accepted: cor anglais staff names 'in F' / 'C.a. (F)'
+- Open / not applied: none
+- Do-not-touch: 33-36, 123-126 string breaks; 12 tbn mf; 79 Hn mf
+- Cross-movement: none
+
+## Cycle 360 (Cyclic design and emotional arc across four movements; Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (second pass)) → v361
+- Accepted: no change; mvt1.md updated to v361
+- Open / not applied: none
+- Do-not-touch: 83-84, 61-62 drops
+- Cross-movement: mvt1.md record
+
+## Cycle 361 (Melody and memorability; Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (second pass)) → v362
+- Accepted: no change (melody review, Sebesky)
+- Open / not applied: none
+- Do-not-touch: themes; 131-134 layout
+- Cross-movement: none
+
+## Cycle 362 (Harmony and voice leading; Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (second pass)) → v363
+- Accepted: no change (applied chords review)
+- Open / not applied: none
+- Do-not-touch: 56-57, 148, 70, 167-170 applied chords
+- Cross-movement: none
+
+## Cycle 363 (Form, pacing and proportion; Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (second pass)) → v364
+- Accepted: no change (6/3 chords review)
+- Open / not applied: none
+- Do-not-touch: development seams; 155-158; 157 bass
+- Cross-movement: none
+
+## Cycle 364 (Orchestration; Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (second pass)) → v365
+- Accepted: Ob 2 stops after A4 at 163 (no low F4 in the diminuendo)
+- Open / not applied: none
+- Do-not-touch: 31/72 A-flat6; 62-63; 97-102 clarinets rest; 139-142
+- Cross-movement: none
+
+## Cycle 365 (Engraving and notation (Gould's *Behind Bars*, MOLA); Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (second pass)) → v366
+- Accepted: cues from Vln I 94-95 for six parts entering at 96; 'medium sticks' shown in score
+- Open / not applied: none
+- Do-not-touch: 126 Cl layout
+- Cross-movement: none
+
+## Cycle 366 (Playability, instrument by instrument; Adler ch. 12 Percussion: timpani tuning and technique (adler2 PDF 55-91) (second pass)) → v367
+- Accepted: percussion part: 'take' beater texts before 122, 159, 175
+- Open / not applied: none
+- Do-not-touch: 28 timp G2; 160 cymbal soft sticks
+- Cross-movement: none
+
+## Cycle 367 (Texture and counterpoint; Rimsky-Korsakov ch. III overlaying, crossing and enclosure (rimsky-principles PDF 106-114) and the examples cited (second pass)) → v368
+- Accepted: no change (overlaying and crossing review)
+- Open / not applied: none
+- Do-not-touch: 181-182 chord; 164-165; 117-120; 167-169
+- Cross-movement: none
+
+## Cycle 368 (Expression; Aldwell & Schachter Unit 3 Rhythm and Meter: accent, hypermeter (aldwell-schachter PDF 47-57) (second pass)) → v369
+- Accepted: violins fade through the half cadence at 58-59; rit. ends 68.2, Tempo dell'Allegro on 68.3
+- Open / not applied: none
+- Do-not-touch: phrasing 47-63 slurs; 127-130 crescendo
+- Cross-movement: mvt1.md tempo table
+
+## Cycle 369 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (second pass)) → v370
+- Accepted: no change (master comparison, Brahms PC 1/i)
+- Open / not applied: none
+- Do-not-touch: 1-4, 117-130; 47-55; 162-166; 167-182
+- Cross-movement: none
+
+## Cycle 370 (Cyclic design and emotional arc across four movements; Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (second pass)) → v371
+- Accepted: no change; mvt1.md updated to v371
+- Open / not applied: none
+- Do-not-touch: 167-170 buried counter (protected, quoted)
+- Cross-movement: mvt1.md record
+
+## Cycle 371 (Melody and memorability; Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371) (second pass)) → v372
+- Accepted: violas take Bb on 44.3 with the horn's 7-6 resolution (was Bb from the downbeat)
+- Open / not applied: none
+- Do-not-touch: 62-63; 177-182; route 33-46
+- Cross-movement: none
+
+## Cycle 372 (Harmony and voice leading; Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529) (second pass)) → v373
+- Accepted: no change (Neapolitan and augmented sixth review)
+- Open / not applied: none
+- Do-not-touch: N6 at 7, 20-22, 140-143, 172-174, 178, 180; Ger6 12-13
+- Cross-movement: none
+
+## Cycle 373 (Form, pacing and proportion; Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground (second pass)) → v374
+- Accepted: no change (form and accompaniment review)
+- Open / not applied: none
+- Do-not-touch: c318, c354, c337 changes; 138 stop chord f
+- Cross-movement: none
+
+## Cycle 374 (Orchestration; Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54) (second pass)) → v375
+- Accepted: Tbn 1 B3 on 159.3-4 resolving to C4 at 160 (leading tone in the loud brass)
+- Open / not applied: none
+- Do-not-touch: 122 low trumpets; 27-32; 26/138/170; climax order
+- Cross-movement: none
+
+## Cycle 375 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould introduction and contents (gould-behind-bars PDF 7-13), then a second pass over PDF 17-68 for any rule not yet checked (second pass)) → v376
+- Accepted: text collisions at system ends: 'molto cantabile' to 56, 'change bow at will' to 73, timpani muta right-aligned at 84
+- Open / not applied: none
+- Do-not-touch: 73-84 spacing
+- Cross-movement: none
+
+## Cycle 376 (Playability, instrument by instrument; Adler App. A ranges, professional and amateur limits (adler2 PDF 302-312) (second pass)) → v377
+- Accepted: no change (ranges review)
+- Open / not applied: none
+- Do-not-touch: range-edge notes protected by c146, c185, c256, c286, c306
+- Cross-movement: none
+
+## Cycle 377 (Texture and counterpoint; Sebesky ch. 1 Basics: balance, economy, focus, variety (sebesky PDF 11-20) (second pass)) → v378
+- Accepted: no change (economy and balance review)
+- Open / not applied: none
+- Do-not-touch: 56-67 interlock; 67-68 unison
+- Cross-movement: none
+
+## Cycle 378 (Expression; Sebesky ch. 1 focus and variety, ch. 6 melodic considerations (sebesky PDF 11-20, 204-218) (second pass)) → v379
+- Accepted: violins swell into B-flat5 at 65-66; 'dolce' and small swells on the cor anglais fills 147-152
+- Open / not applied: none
+- Do-not-touch: 82, 117-120 detached head; 91-96; 60 mf
+- Cross-movement: none
+
+## Cycle 379 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Adler part 1 full-score examples in ch. 5 and 8 (adler1 PDF 137-165, 235-281) (second pass)) → v380
+- Accepted: no change (master comparison, Mahler 2/i)
+- Open / not applied: none
+- Do-not-touch: fugato colours; 182 chord; soft attacca
+- Cross-movement: none
+
+## Cycle 380 (Cyclic design and emotional arc across four movements; Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (second pass)) → v381
+- Accepted: no change; mvt1.md updated to v381 (trumpet B-C places, 78-79 seed)
+- Open / not applied: none
+- Do-not-touch: Tpt 1 B4 at 161
+- Cross-movement: mvt1.md record
+
+## Cycle 381 (Melody and memorability; Adler ch. 11 Scoring for Brass: melodic presentation (adler2 PDF 19-36) (second pass)) → v382
+- Accepted: no change (brass melody review)
+- Open / not applied: none
+- Do-not-touch: themes; 175-181 chorale canon; 158-161
+- Cross-movement: none
+
+## Cycle 382 (Harmony and voice leading; Aldwell & Schachter Units 30-31 Other chromatic chords; Chromatic voice-leading techniques (aldwell-schachter PDF 530-583) (second pass)) → v383
+- Accepted: inner parts B-Bb-Ab by step at 115 (was augmented second B-Ab)
+- Open / not applied: none
+- Do-not-touch: B-D-F-Ab plan; wedge bass into Fr6 at 116; G pedal 117-130; 73
+- Cross-movement: none
+
+## Cycle 383 (Form, pacing and proportion; Aldwell & Schachter Units 6-8 I, V, V7 and their inversions: phrase structure (aldwell-schachter PDF 92-133) (second pass)) → v384
+- Accepted: no change (phrase structure review)
+- Open / not applied: none
+- Do-not-touch: coda contrapuntal cadences; 177-178
+- Cross-movement: none
+
+## Cycle 384 (Orchestration; Adler ch. 5 Scoring for Strings (adler1 PDF 125-167) (second pass)) → v385
+- Accepted: Vln II halo above the violas' tune at 154 (E5/G5, D5/G5)
+- Open / not applied: none
+- Do-not-touch: 31/72, 41 violin tops; 167-170 divisi; 34 basses alone
+- Cross-movement: none
+
+## Cycle 385 (Engraving and notation (Gould's *Behind Bars*, MOLA); MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score (second pass)) → v386
+- Accepted: parts: horn timpani cue fixed at 179-180; rest split at 68 for tempo word; new cues (Hn 3 56, Tbn 1 113, B.tbn 114, B.cl 91 and 139); tempo-mark padding
+- Open / not applied: Vln I sul D dashes touch 'attacca' at 182
+- Do-not-touch: Hn 4 page plan
+- Cross-movement: none
+
+## Cycle 386 (Playability, instrument by instrument; Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50) (second pass)) → v387
+- Accepted: horn breaths: Hn 4 after 58, Hn 3 after 166
+- Open / not applied: none
+- Do-not-touch: Vc 101-102
+- Cross-movement: none
+
+## Cycle 387 (Texture and counterpoint; Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173) (second pass)) → v388
+- Accepted: no change (string voicing review)
+- Open / not applied: none
+- Do-not-touch: 56-68 cello arpeggio; 147-155 pad; 164-165
+- Cross-movement: none
+
+## Cycle 388 (Expression; MOLA guidelines on dynamics, articulation and bowing marks in parts (mola PDF 1-16) (second pass)) → v389
+- Accepted: Bsn 1 part swells at 103-105; accents on Vc/Bsn 1 C4-B3 at 142; Hn 4 cresc. from 129 mf at 130
+- Open / not applied: none
+- Do-not-touch: 32-33; 144; 65; 149, 151
+- Cross-movement: none
+
+## Cycle 389 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Adler part 2 full-score examples in ch. 11 and 15 (adler2 PDF 18-54, 143-186) (second pass)) → v390
+- Accepted: no change (master comparison, Schumann 2/i)
+- Open / not applied: none
+- Do-not-touch: 1-4 motto; 167-170
+- Cross-movement: none
+
+## Cycle 390 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397) (second pass)) → v391
+- Accepted: no change; mvt1.md updated to v391
+- Open / not applied: none
+- Do-not-touch: 8 and 182 soft Picardy; 156-166 mixture; 78 cross relation
+- Cross-movement: mvt1.md record
+
+## Cycle 391 (Melody and memorability; Aldwell & Schachter Unit 3 Rhythm and Meter (aldwell-schachter PDF 47-57) (second pass)) → v392
+- Accepted: no change; record: 23-26/135-138 are a 3/4 grouping, not a hemiola
+- Open / not applied: none
+- Do-not-touch: 23-26, 135-138 grouping; 1-14 hypermeter
+- Cross-movement: mvt1.md record
+
+## Cycle 392 (Harmony and voice leading; Aldwell & Schachter Unit 27 Seventh chords with added dissonance (aldwell-schachter PDF 463-481) (second pass)) → v393
+- Accepted: cellos G2 (was G3) on the ff strokes at 83, clearing the clash with Tbn 1's A-flat3
+- Open / not applied: none
+- Do-not-touch: 117, 35.4, 165.2, 132, 159.1
+- Cross-movement: none
+
+## Cycle 393 (Form, pacing and proportion; Aldwell & Schachter Unit 15 III and VII (aldwell-schachter PDF 230-247) (second pass)) → v394
+- Accepted: Hn 4 plays G3 at 135-137 as at 23-25 (fills the bare diminished triad); Hn 4 part spacing
+- Open / not applied: none
+- Do-not-touch: key plan; 156-159; seams; 117-130 pedal; proportions
+- Cross-movement: none
+
+## Cycle 394 (Orchestration; Casanelles ch. 6 spectral orchestration and acoustic mixing in Mahler's First Symphony (hyper-orchestra PDF 257-290) (second pass)) → v395
+- Accepted: timpani A-flat roll ends in one ff stroke at 141.1 (no held third against the F bass)
+- Open / not applied: none
+- Do-not-touch: 69-71 Tpt 2; 82 layout; flute doublings; climaxes
+- Cross-movement: none
+
+## Cycle 395 (Engraving and notation (Gould's *Behind Bars*, MOLA); Adler ch. 2 notation of bowings, divisi and harmonics (adler1 PDF 30-55) as engraving rules (second pass)) → v396
+- Accepted: Vln II part text order at 55; Vln I sul D dashes stop before 'attacca' at 182
+- Open / not applied: none
+- Do-not-touch: cello stop chords 26, 138; 60-61 slur
+- Cross-movement: none
+
+## Cycle 396 (Playability, instrument by instrument; Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (second pass)) → v397
+- Accepted: Hn 4 part: stale bass clef at 11-12 removed
+- Open / not applied: none
+- Do-not-touch: C.a. F5 70, 94; B.cl 105-106; Hn 1 106 ossia
+- Cross-movement: none
+
+## Cycle 397 (Texture and counterpoint; Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281) (second pass)) → v398
+- Accepted: no change (orchestral treatments review)
+- Open / not applied: none
+- Do-not-touch: 19-22 Bsn 1; 47-55 harp; 103-106 unison
+- Cross-movement: none
+
+## Cycle 398 (Expression; Adler ch. 7 woodwind articulation and dynamics by register (adler1 PDF 184-232) (second pass)) → v399
+- Accepted: Fl 1 motto swells into A-flat5 at 73-74; cor anglais slur at 153-155
+- Open / not applied: none
+- Do-not-touch: 77 Cl 1; 103-106 Ob 2; 175-179 B.cl
+- Cross-movement: none
+
+## Cycle 399 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Adler part 2 transcription examples in ch. 16 (adler2 PDF 202-244) (second pass)) → v400
+- Accepted: flutes leave the fff G6/D6 after two beats at 123 with a diminuendo; Fl 1 back on G5 at 124
+- Open / not applied: none
+- Do-not-touch: 123 A-flat6-G6 downbeat; 124 octave drop
+- Cross-movement: none
+
+## Cycle 400 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (second pass)) → v401
+- Accepted: coda cor anglais holds D-flat5 two beats at 173 (N6), C5 on the 6/4 at 174; records updated
+- Open / not applied: none
+- Do-not-touch: coda harmony 171-182; Vc B4 at 174
+- Cross-movement: themes-mvt1.ly and mvt1.md rhythm update only
+
+## Cycle 401 (Melody and memorability; Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (second pass)) → v402
+- Accepted: violins leave F-flat by skip to D-flat at 61 beat 4 (breaks outer-voice octaves F-flat→E-flat into 62)
+- Open / not applied: none
+- Do-not-touch: 61 Vln D-flat skip; 64-65 Cl1/Hn2 counterline; Hn3/Tpt3 D-flat spelling 114-116
+- Cross-movement: none
+
+## Cycle 402 (Harmony and voice leading; Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (second pass)) → v403
+- Accepted: Vln II takes B4 to C5 at 154-155 (complete V7, leading tone resolves); bass D on 137.4 (no tritone leap or octaves with Hn 3 into stop chord)
+- Open / not applied: none
+- Do-not-touch: 154 Vln II halo; 137.4 bass D; intro 6-8 and coda chorale 175-182
+- Cross-movement: none
+
+## Cycle 403 (Form, pacing and proportion; Aldwell & Schachter Unit 14 V as a Key Area (aldwell-schachter PDF 211-229) (second pass)) → v404
+- Accepted: no change (V as a key area review)
+- Open / not applied: none
+- Do-not-touch: retransition 117-130; 39-47 approach; Hn 3-4 at 40
+- Cross-movement: none
+
+## Cycle 404 (Orchestration; Rimsky-Korsakov ch. I Comparison of resonance and combination of tone qualities, and ch. III Harmony: number of parts, distribution, strings, woodwind (rimsky-principles PDF 51-53, 81-99) (second pass)) → v405
+- Accepted: Hn 1 takes A-flat4 on 25.2-4 and 137.2-4 (fills bare fourth C/F under the tune before stop chords)
+- Open / not applied: none
+- Do-not-touch: 12 oboe tritone; 122 tenor; 97-102 Hn1+Tbn1 counter; 25/137 Hn 1 A-flat
+- Cross-movement: none
+
+## Cycle 405 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: stave, clefs, noteheads, stems, tails (gould-behind-bars PDF 17-30) (second pass)) → v406
+- Accepted: Hn 3-4 score stave stays in bass clef 135-157, treble at 158 (no clef change on the stop chord 138)
+- Open / not applied: none
+- Do-not-touch: Hn 3-4 clef plan 135-158; stems; Hn 4 part clefs
+- Cross-movement: none
+
+## Cycle 406 (Playability, instrument by instrument; Adler ch. 2 Bowed String Instruments: divisi, bowing, harmonics (adler1 PDF 24-70) (second pass)) → v407
+- Accepted: Vla double up-bow at 11 so the f at 12 is down-bow; Vln II 'non div.' at 122
+- Open / not applied: none
+- Do-not-touch: Cb bowing 5-12; open-string pads; 122-123 Vln II double stops
+- Cross-movement: none
+
+## Cycle 407 (Texture and counterpoint; Rimsky-Korsakov ch. II Melody in combined groups (rimsky-principles PDF 74-80) (second pass)) → v408
+- Accepted: Cl 2 joins the climax counter (Ob 1 + Cl 1-2 over Hn 3-4) at 158-160
+- Open / not applied: none
+- Do-not-touch: 91-95 Vla+Bsn 1 octave; 23-25/135-137 Fl+Ob with Vln I; 160 E-flat5
+- Cross-movement: climax counter scoring note for coherence/mvt1.md at v411
+
+## Cycle 408 (Expression; Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (second pass)) → v409
+- Accepted: Hn 3-4 and Tbn 1 re-enter at f> at 124; 'molto espr.' on the four-horn call at 41
+- Open / not applied: none
+- Do-not-touch: Hn 1-2 ff 27-31; no mutes/stopped horn; 170 fermata ff; 117-121 brass motto
+- Cross-movement: none
+
+## Cycle 409 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (second pass)) → v410
+- Accepted: no change (Beethoven 7/i comparison; v399-v409 nothing worse)
+- Open / not applied: none
+- Do-not-touch: tempo easings; soft introduction; ppp attacca ending
+- Cross-movement: none
+
+## Cycle 410 (Cyclic design and emotional arc across four movements; Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (second pass)) → v411
+- Accepted: no change (cyclic check; records updated at v411)
+- Open / not applied: none
+- Do-not-touch: timpani pulse 179-180; coda 171-182; solo horn passages; intro 1-9
+- Cross-movement: mvt1.md record update only
+
+## Cycle 411 (Melody and memorability; Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (second pass)) → v412
+- Accepted: Vln I 'sul D' on the rising sixth at 9.4-10 (as at 177)
+- Open / not applied: none
+- Do-not-touch: motto/P/S/horn call contours; 9-13 notes
+- Cross-movement: none (record line at v421)
+
+## Cycle 412 (Harmony and voice leading; Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (second pass)) → v413
+- Accepted: no change (leading to V and cadential 6/4 review)
+- Open / not applied: none
+- Do-not-touch: cadential 6/4s at 12-14, 109-110, 61-63, 172-174; 137.4 bass D repeat
+- Cross-movement: none
+
+## Cycle 413 (Form, pacing and proportion; Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (second pass)) → v414
+- Accepted: no change (diatonic modulation and form review)
+- Open / not applied: none
+- Do-not-touch: key plan; development G pedal; 96-108 passing keys; section lengths
+- Cross-movement: none
+
+## Cycle 414 (Orchestration; Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (second pass)) → v415
+- Accepted: Tbn 2 G3 under the C-B strokes at 142 (as at 32); Tpt 3 hands B3 to Tbn 1 at 159.3, fresh E-flat4 at 160
+- Open / not applied: none
+- Do-not-touch: Tbn 1 C4-B3 at 142 with Bsn 1/Vc; Tbn 1 B3 at 159
+- Cross-movement: mvt1.md: Tbn 2 tenor line now 139-141
+
+## Cycle 415 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: beams (gould-behind-bars PDF 31-41) (second pass)) → v416
+- Accepted: beams on ledger-line groups slope (Gould PDF 35, 15 groups); minimum 3-space stems inside the stave (6 stems)
+- Open / not applied: none
+- Do-not-touch: D-D-flat-C Ob/Cl groups at 27 and 82 flat; Vc 61.1 stems
+- Cross-movement: none
+
+## Cycle 416 (Playability, instrument by instrument; Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (second pass)) → v417
+- Accepted: no change (individual strings review)
+- Open / not applied: none
+- Do-not-touch: Vc F4-F5 at 52.4; Cb part page turn at 171-174; undivided double stops
+- Cross-movement: none
+
+## Cycle 417 (Texture and counterpoint; Adler ch. 11 Scoring for brass: contrapuntal use (adler2 PDF 41-54) (second pass)) → v418
+- Accepted: no change (contrapuntal brass review)
+- Open / not applied: none
+- Do-not-touch: 139-142 brass block; 167-169 counter; fugato 88-96 entry plan
+- Cross-movement: none
+
+## Cycle 418 (Expression; Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (second pass)) → v419
+- Accepted: horns p on the resolution at 166 (was mp) with crescendo from beat 3 into 167
+- Open / not applied: none
+- Do-not-touch: 110 crescendo through cadential 6/4; 126 4-3; coda 180 D-flat
+- Cross-movement: none
+
+## Cycle 419 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (second pass)) → v420
+- Accepted: timpani ppp roll fades through bar 4 with the motto (no closing stroke)
+- Open / not applied: build.sh should check section lengths against sections.txt (comment slip went unnoticed by score build)
+- Do-not-touch: remaining distance to master lies in protected proportions/finale reserves
+- Cross-movement: mvt1.md record: timpani roll fades through 4
+
+## Cycle 420 (Cyclic design and emotional arc across four movements; Release check: every do-not-touch item in HISTORY.md, every change since the last release check (v221 for cycle 320; v321 for cycle 420), every book rule cited in them, and the coherence files of all four movements) → v421
+- Accepted: release check: 'draft' removed (stamp 'v421, 27 October 2026'); front-page duration c. 7½ min, symphony c. 25 min
+- Open / not applied: none
+- Do-not-touch: all quoted bars (1-14, 26-32, 138, 170, 175-182 MIDI = v321); do-not-reuse list
+- Cross-movement: none in notes; release stamp/total duration information only

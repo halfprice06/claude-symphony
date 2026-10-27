@@ -36,6 +36,10 @@ def strip(text):
     text = re.sub(r'\\(override|revert|once|tweak)\s+[\w.-]+(\s*=\s*#\S+|\s+#\S+)?', ' ', text)
     text = re.sub(r"\\offset\s+[\w.-]+\s+#'?\([^)]*\)\s+[\w.]+", ' ', text)
     text = re.sub(r'\\(set|unset)\s+[\w.]+(\s*=\s*(#\S+|"[^"]*"))?', ' ', text)
+    # c340: quoted Scheme lists (\override #'(baseline-skip . 2.4) inside markups, \shape #'((0 . 0) ...) Slur) and the
+    # grob name after \shape were read as notes ("baseline", "skip", the r of "Slur"), shifting later onsets in movement II
+    text = re.sub(r"#'\((?:[^()]|\((?:[^()]|\([^()]*\))*\))*\)", ' ', text)
+    text = re.sub(r'\\shape\s+[A-Za-z.]+', ' ', text)
     text = re.sub(r"#'\w+", ' ', text)
     text = re.sub(r'%[^\n]*', ' ', text)
     text = re.sub(r'"(?:\\.|[^"\\])*"', ' ', text)
@@ -51,7 +55,7 @@ def strip(text):
     text = re.sub(r'\\markup(?:\s*\\[a-zA-Z-]+)*', ' ', text)
     return text
 
-TOKEN = re.compile(r"<<|>>|\\transpose|\\[a-zA-Z]+|\\[<>!]|[{}|~()\[\]]|<[^<>]*>[0-9]*\.*|[a-gsrR](?:[a-z]*)[',]*[!?]?[0-9]*\.*(?:\*[0-9]+(?:/[0-9]+)?)?(?::[0-9]+)?")
+TOKEN = re.compile(r"<<|>>|\\transpose|\\tuplet\s+[0-9]+/[0-9]+(?:\s+[0-9]+(?=\s*\{))?|\\[a-zA-Z]+|\\[<>!]|[{}|~()\[\]]|<[^<>]*>[0-9]*\.*|[a-gsrR](?:[a-z]*)[',]*[!?]?[0-9]*\.*(?:\*[0-9]+(?:/[0-9]+)?)?(?::[0-9]+)?")
 
 def variables(path):
     text = strip(open(path).read())
@@ -83,6 +87,7 @@ def events(body):
     out, prev, trans, i = [], [F(1)], [0], 0
     stack = []  # transpose stack, pushed at '{' after \transpose
     pending = None
+    tup, tstack, tpending = [F(1)], [], None  # c340: \tuplet n/d scales the durations inside its braces by d/n
     while i < len(toks):
         t = toks[i]; i += 1
         if t == '<<':
@@ -92,6 +97,16 @@ def events(body):
                 depth += {'<<': 1, '>>': -1}.get(toks[j], 0); j += 1
             inner = toks[i:j - 1]
             first = inner[:1]
+            # c390: a braced first branch (<< { \after ... note } \tag #'score { CC11 spacers } >>, movement II bar 47
+            # since v389) is kept whole; taking its '{' alone dropped the bar and moved later onsets one bar early
+            if first == ['{']:
+                d2, k = 1, 1
+                while d2:
+                    d2 += {'{': 1, '}': -1}.get(inner[k], 0); k += 1
+                first = inner[1:k - 1]
+            # c370: keep a tie written straight after that first note (movement II bar 32 B.cl.)
+            if inner[1:2] == ['~']:
+                first = inner[:2]
             out += events(' '.join(first))
             i = j
             continue
@@ -99,12 +114,19 @@ def events(body):
             a, b = pitch(toks[i]), pitch(toks[i + 1]); i += 2
             pending = b - a
             continue
+        if re.match(r'\\tuplet\s', t):
+            n, d = re.search(r'([0-9]+)/([0-9]+)', t).groups()
+            tpending = F(int(d), int(n))
+            continue
         if t == '{':
             stack.append(pending or 0); trans[0] += pending or 0; pending = None
+            tstack.append(tpending or F(1)); tup[0] *= tpending or F(1); tpending = None
             continue
         if t == '}':
             if stack:
                 trans[0] -= stack.pop()
+            if tstack:
+                tup[0] /= tstack.pop()
             continue
         if t == '~':
             if out:
@@ -116,11 +138,12 @@ def events(body):
             m = re.match(r'<([^<>]*)>(.*)', t)
             ps = [pitch(x) for x in m.group(1).split() if pitch(x) is not None]
             _, total = dur(m.group(2), prev)
-            out.append((max(ps) + trans[0], total, False))
+            out.append((max(ps) + trans[0], total * tup[0], False))
             continue
         m = re.match(r"([a-gsrR][a-z]*[',]*[!?]?)([0-9]*\.*(?:\*[0-9]+(?:/[0-9]+)?)?)", t)
         name, spec = m.groups()
         _, total = dur(spec, prev)
+        total *= tup[0]
         if name[0] in 'rRs' and re.fullmatch(r'[rRs]', name):
             out.append((None, total, False))
         else:
