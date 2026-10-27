@@ -112,3 +112,6 @@ linkHnFour = { fis1 | g4 }
 %@ linkHnFour HnFour 1 abs
 linkClOne = { aes'1 | g'4 }
 %@ linkClOne ClOne 1 abs
+% c370: the violas' D sharp4 -> E4 at 219-220 (the scherzo horn call's D sharp resolved; the German sixth's sharp 4)
+threadViola = { dis'1 | e'1 }
+%@ threadViola Vla 219 abs
