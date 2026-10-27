@@ -1743,3 +1743,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 382 (v382 → v383), lens 2, A&S Units 11–13 IV and VI
 - 81–83: the E♭-major F2 cadenced at 81→82, then 82 held E♭ and the closing theme began on E♭ again at 83, two tonic downbeats in a row. 82 is now IV6 for three beats (bass C), V on beat 4 (bass B♭), so V7 → IV6 is a deceptive cadence and the closing theme at 83 is the goal (A&S PDF 170, 191, 200–201, 204–205; Ex. 11-12d, 13-15, 13-20i). Cb, Vc, Bn 1·2, Hn 1·2, Vla, harp. Tune, violin run, animando, dynamics and 83 unchanged; c362's incomplete tonic now falls on 83.
 - Not applied: a second V7 → IV6 at 89–90 (c377's canon), IV6 passing inside V at 120 or 130–131, IV6 → V6/5 over a rising bass (octaves), I–IV6–I6, II6/5 → V4/2 at 84.
+
+## Cycle 383 (v383 → v384), lens 3, A&S Unit 32 form (proposal declined)
+- Not applied (composer's decision): c383 proposed moving the development's second F1-head statement at 103–106 from B♭ minor to D♭ major (A&S PDF 592–593, 599–601). Rejected: D♭ is the coda's key, tonicized at length only at 205–218 as the long-range ♭II that resolves at 222→223; a D♭-major statement in the development would sound that key area 100 bars early and weaken it (c380 declined an N6 at 133–134 for the same reason). F minor → B♭ minor at 99–106 is a descending-fifth sequence, and its link to 37–38 is a recall, not a fault. c373 protects the i–III–iv–v–V–I plan; c197 lists 99–109.
+- Not applied: an E♭ or A key area in the coda, a passing IV at 243–244, a D♭-minor statement, a third sequential statement.
+- No score change; v384 = v383.
