@@ -2126,3 +2126,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: build.sh should check section lengths against sections.txt (comment slip went unnoticed by score build)
 - Do-not-touch: remaining distance to master lies in protected proportions/finale reserves
 - Cross-movement: mvt1.md record: timpani roll fades through 4
+
+## Cycle 420 (Cyclic design and emotional arc across four movements; Release check: every do-not-touch item in HISTORY.md, every change since the last release check (v221 for cycle 320; v321 for cycle 420), every book rule cited in them, and the coherence files of all four movements) → v421
+- Accepted: release check: 'draft' removed (stamp 'v421, 27 October 2026'); front-page duration c. 7½ min, symphony c. 25 min
+- Open / not applied: none
+- Do-not-touch: all quoted bars (1-14, 26-32, 138, 170, 175-182 MIDI = v321); do-not-reuse list
+- Cross-movement: none in notes; release stamp/total duration information only
