@@ -1748,3 +1748,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Not applied (composer's decision): c383 proposed moving the development's second F1-head statement at 103–106 from B♭ minor to D♭ major (A&S PDF 592–593, 599–601). Rejected: D♭ is the coda's key, tonicized at length only at 205–218 as the long-range ♭II that resolves at 222→223; a D♭-major statement in the development would sound that key area 100 bars early and weaken it (c380 declined an N6 at 133–134 for the same reason). F minor → B♭ minor at 99–106 is a descending-fifth sequence, and its link to 37–38 is a recall, not a fault. c373 protects the i–III–iv–v–V–I plan; c197 lists 99–109.
 - Not applied: an E♭ or A key area in the coda, a passing IV at 243–244, a D♭-minor statement, a third sequential statement.
 - No score change; v384 = v383.
+
+## Cycle 384 (v384 → v385), lens 4, Rimsky-Korsakov tutti chords
+- 278–279: the final fff chord's divided strings (Vln I·II, violas, cellos, basses) play tremolo, as at the same C-major chord at 223 and through 273–276; in Rimsky-Korsakov's tutti appendix every held f–fff chord with divided strings has tremolo (PDF 505–510, chords 1–20; PDF 88). Pitches, divisi, dynamics and the cut unchanged; string tremolo still begins only at 223.
+- Not applied: brass a degree below the others at 223/263 (they carry the owed events), wind trills, a pp wind-and-brass chord, a wind tutti over pizz. basses, a twice-struck final chord, tremolo at 263 (protected).
