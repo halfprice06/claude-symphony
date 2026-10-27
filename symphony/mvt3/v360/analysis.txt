@@ -43,7 +43,7 @@ Tracks: name | notes | range | violations
   drums                            3  C#3-C#3  
   Harp RH:                       193  G3-G6  
   Harp LH:                       108  F1-Bb4  
-  Violins I:                     768  D4-C7  
+  Violins I:                     765  D4-C7  
   Violins II:                    923  G3-A6  
   Violas:                        968  C3-Eb5  
   Violoncellos:                  578  D2-Bb4  
@@ -119,8 +119,8 @@ Profile per 4 bars: attacks | voices sounding (avg) | top | bottom
   bars 241-244:  167 | 16.1 | F6   | G1
   bars 245-248:  269 | 17.1 | G6   | C2
   bars 249-252:  282 | 17.9 | A6   | F1
-  bars 253-256:  155 | 15.2 | A6   | G1
-  bars 257-260:  174 | 23.5 | E6   | F1
+  bars 253-256:  154 | 15.2 | A6   | G1
+  bars 257-260:  172 | 23.5 | E6   | F1
   bars 261-264:  209 | 23.5 | C6   | C1
   bars 265-268:  216 | 12.2 | E6   | C2
   bars 269-272:  228 | 13.6 | A6   | C2

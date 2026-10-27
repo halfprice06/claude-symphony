@@ -5,4 +5,4 @@ Report: critics/reports/c359.md.
 - Mahler 1/iv comparison: shared devices (outburst, lyrical flat-key second theme, first-movement recalls, failed early goal at 138, closing brass chorale); his coda rises continuously, this one moves in six stages (protected). v349 → v359: nothing worse; at 188 the root A♭ now sounds only in Cl 1's soft off-beat A♭3s, which must stay.
 - Not applied: violin pedal at 111–113, 243–245, 265–272.
 
-Build: 0 warnings, 0 parallels, 16 pages, theme record: 49/50 unchanged, 1 CHANGED.
+Build: 0 warnings, 0 parallels, 16 pages, theme record: 50/50 unchanged (Vln I tremolo tied across 255–260 by the composer so the record line still reads the held notes).
