@@ -1752,3 +1752,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 384 (v384 → v385), lens 4, Rimsky-Korsakov tutti chords
 - 278–279: the final fff chord's divided strings (Vln I·II, violas, cellos, basses) play tremolo, as at the same C-major chord at 223 and through 273–276; in Rimsky-Korsakov's tutti appendix every held f–fff chord with divided strings has tremolo (PDF 505–510, chords 1–20; PDF 88). Pitches, divisi, dynamics and the cut unchanged; string tremolo still begins only at 223.
 - Not applied: brass a degree below the others at 223/263 (they carry the owed events), wind trills, a pp wind-and-brass chord, a wind tutti over pizz. basses, a twice-struck final chord, tremolo at 263 (protected).
+
+## Cycle 385 (v385 → v386), lens 5, Gould rests
+- Gould PDF 50–51 rest placement: Cl 1 eighth rests at 187–194 and Fl 2 quarter rest at 222 beat 4 moved to the centre line (score only), matching c205's bar 58.
+- Gould PDF 51–52 beat grouping: 13 dotted half rests across mid-bar in 2/2 (234 brass/timpani and Vln I; 124 Vla) rewritten as r4 r2. MIDI byte-identical.
