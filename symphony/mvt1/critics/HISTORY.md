@@ -2108,3 +2108,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Vc F4-F5 at 52.4; Cb part page turn at 171-174; undivided double stops
 - Cross-movement: none
+
+## Cycle 417 (Texture and counterpoint; Adler ch. 11 Scoring for brass: contrapuntal use (adler2 PDF 41-54) (second pass)) → v418
+- Accepted: no change (contrapuntal brass review)
+- Open / not applied: none
+- Do-not-touch: 139-142 brass block; 167-169 counter; fugato 88-96 entry plan
+- Cross-movement: none
