@@ -160,7 +160,7 @@ mvtOneClimaxLine = { \time 4/4 g''4 e'''2.~ | e'''4 f'''4 g'''2 | c'''4 aes'''2~
 % key/mode: C minor (Più lento)
 % use: none planned
 % invariant: pitch-class sequence G Eb D C Db C, rhythm free
-mvtOneMottoCodaCA = { \time 4/4 r2. g'4 | es''2.~ es''8 d''8~ | d''4 c''4 des''4 c''4~ | c''2 r2 }
+mvtOneMottoCodaCA = { \time 4/4 r2. g'4 | es''2.~ es''8 d''8~ | d''4 c''4 des''2 | c''2 r2 } % since v401: D-flat5 for two beats (N6), C5 on the 6/4 at 174
 
 % mvtOneThemeSCodaMinor: v221 Vc bars 171-174
 % id: theme-s-coda-cminor

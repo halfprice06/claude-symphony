@@ -8,8 +8,8 @@ M=/home/user/claude_composes/symphony/mvt3; N=$1; H="$2"; F=$3; NX=$((N+1)); NNN
 rm -rf /tmp/critic-$N /tmp/m3/v$N
 cd /home/user/claude_composes && git add -A symphony/mvt3 && git commit -qm "Finale cycle $N: v$NX ($H)
 
-Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01SWLBceYg6ZWKih28Euwaj4"
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01JYb3wFaQo49G4BVrXbmdSc"
 git push -q origin claude/project-thread-v69o8h 2>&1 | tail -1 || true
 P=/mnt/project-files/symphony/mvt3
 if timeout 60 ls $P >/dev/null 2>&1; then

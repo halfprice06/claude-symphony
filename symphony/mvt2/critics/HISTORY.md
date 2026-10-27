@@ -2064,3 +2064,476 @@ lens 9, holistic, Dvorak Symphony No. 6/ii; Adler part 2 ch. 16 transcription ex
 - Accepted: nothing (v320 = v319 relabelled).
 - Recorded (no change): about half the length of Dvorak 6/ii with three statements of theme A (proportions settled c253, c303); diminuendi by instruments dropping out at 63-65 and 80-83; the return at 71-78 varies the surface only at 78 (untested option: a turn at 72 in Vln I, not recommended); three accompaniment types; string ending returns to bar 1's colour; trombones only at 60-64; nothing worse than v309.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 320 (v320 → v321)
+lens 10, cyclic; A&S Unit 28 the Neapolitan as a long-range device (PDF 482-502). Report: reports/c320.md.
+- Accepted: nothing (v321 = v320 relabelled).
+- Recorded (no change): N6 links to movement I at 49 and 87 added to coherence/mvt2.md and sent to the finale thread (no score change); the flat-II region at 61-65 is A minor, keeping C natural as the quotation's held note; flat-2 at the climax 63 and natural 2 (Hn 1 B-flat 3) at 69-70; theme B in D-flat is the finale's flat-II area; motto-tail and quotation spellings correct (Ex. 28-24, 28-27); no flat-II colour in the coda (c310, c312); joins with I, III and IV hold.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 321 (v321 → v322)
+lens 1, melody; Adler ch. 11 melodic presentation (adler2 PDF 19-36). Report: reports/c321.md.
+- Accepted: outdated trumpet comments in bSec.ily corrected.
+- Recorded (no change): B♭ appoggiatura plan; Hn 3·4 unison 61-62; horns join counter-melodies in stages.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 322 (v322 → v323)
+lens 2, harmony; A&S Units 30-31 (PDF 530-583). Report: reports/c322.md.
+- Accepted: bar 52 cellos C3–D3–E♭3, Vln II F5 on b1-2 (passing ♯4 into the A♭7).
+- Recorded (no change): 62-65, 21, 33 chords; no augmented triads or V7♯5. Correction: E♮ also in Vln II at 20 b3 (c220 was wrong).
+- Do-not-touch: standing list; the 8-page layout; the rise B→C reserved for the finale.
+
+
+## Cycle 323 (v323 → v324)
+lens 3, form; A&S Unit 15 III and VII (PDF 230-247). Report: reports/c323.md.
+- Accepted: nothing (v324 = v323 relabelled).
+- Recorded (no change): remote F-sharp minor point at 48, 49.1 percent of the running time, with IV as stopover (Mozart 41/ii at 49.5-50.5 percent); iii6 at 78 b3 in the falling bass F-flat E-flat D-flat (15-10c/d; c103, c133); V4/3 to I at 74-75 makes the reprise one span (PDF 235-236); IV to V at 61-65 without a common tone (15-2, protected); two dominants treated two ways at 59-60 and 65; no rising third into beat 3 in 37-64, phrases in fours except B2's 3+3+2; no seventh on the A-flat chord at 31-36 (c020, c203, c233).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 324 (v324 → v325)
+lens 4, orchestration; Adler ch. 5 strings (adler1 PDF 125-167). Report: reports/c324.md.
+- Accepted: Cl 2 E♭4 on 73 b3; viola figure at 75 b2 ends on A♭3.
+- Recorded (no change): viola figure at 71, 74, 78; Vln I A♭6 at 58; 63-64 tremolo; 48-51; divisi at 62.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 325 (v325 → v326)
+lens 5, engraving; Adler part 1 ch. 2 (PDF 30-55). Report: reports/c325.md.
+- Accepted: violas and basses resume arco down-bow at 45, 46 one up-bow (pizz.→arco from the frog).
+- Not taken: two-stem unisons at 25-28 and 39 (would double notes in the MIDI).
+- Open: "unis."/"div." text for single notes in divided passages (violas 25-28, Vln II 39).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 326 (v326 → v327)
+lens 6, playability; Sebesky ch. 2 (PDF 21-110). Report: reports/c326.md.
+- Accepted: Hn 3 tenuto on the re-struck A♭3 at 88.
+- Recorded (no change): breathing, ranges, horn spacing and mutes, woodwind blend, brass endurance.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 327 (v327 → v328)
+lens 7, texture; Rimsky-Korsakov ch. II Melody in combined groups (PDF 74-80, with Ex. 91-93). Report: reports/c327.md.
+- Accepted: nothing (v328 = v327 relabelled).
+- Recorded (no change): violas with muted Hn 4 and C.a. an octave above at 87-88 (as Ex. 92; the moving cello bass there is not added, plagal close protected); Hn 1 an octave above cellos and Bsn 1 at 57-60 (c087, c187); one oboe on Hn 3's F-flat at 80-81 (V-flat 9 protected); cellos alone on the bass at 53-56 (optional Bsn 2 at 55-56 not recommended); three-octave climax at 61-62 with a string and a wind in each octave; undoubled trombone quotation at 63-64; three-group counter-melody at 75-82 (c217).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 328 (v328 → v329)
+lens 8, expression; Adler part 1 ch. 10 (PDF 299-329). Report: reports/c328.md.
+- Accepted: Hn 3 slurs at 29-30 and 3-6 (articulation only).
+- Recorded (no change): Hn 4 at 60; horns at 61-62; Tbn 1 at 63-64; mute plan; no stopped horn.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 329 (v329 → v330)
+lens 9, holistic, Tchaikovsky Symphony No. 3/iii; A&S opening examples of Units 20-32. Report: reports/c329.md.
+- Accepted: nothing (v330 = v329 relabelled).
+- Recorded (no change): Tchaikovsky puts distant keys in the reprise, this score in the middle (65-82 protected); 92 bars against 182 (c253, c303, c319); the ending into the scherzo is the Widmung common-tone modulation (Ex. 32-3, PDF 586); climax 61-65 follows K. 397 and Op. 106 (PDF 482-483, 585); middle-section triplets; coda returns to bar 1's colour, plagal close as Chopin Op. 28/9; flat ninth at 80-81 (Unit 27); nothing worse than v319.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 330 (v330 → v331)
+lens 10, cyclic; Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290). Report: reports/c330.md.
+- Accepted: nothing (v331 = v330 relabelled).
+- Recorded (no change): woodwind-choir opening keeps theme A fresh after movement I's horn-over-harp A-flat (Ex. XVII-7/8); six motto-tail statements each scored differently, and at 32-34 B.cl. and C.a. are movement I's first two motto instruments together (added to coherence/mvt2.md); close placements at 32-34 and 47-50 settled (c263, c294, c324); timpani E-flat C A-flat at 84-85 joins into the scherzo's timpani figure (scherzo v321 checked); quotation colours; hand-over to the scherzo's Hn 1 G-sharp 4 with Hn 1 silent from 82 b3; B-flat 6 only at 79.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 331 (v331 → v332)
+lens 1, melody; A&S Unit 3 Rhythm and Meter (PDF 47-57). Report: reports/c331.md.
+- Accepted: nothing (v332 = v331 relabelled).
+- Recorded (no change): theme A's tied downbeats are struck in the bass (PDF 47-48, 51); theme B's main tones move once per half bar while pizzicato bass and viola triplets carry the extra speed (PDF 49; Dvorak Largo); 15-22 dialogue overlaps into one eight-bar phrase (Ex. 3-10, 3-11); theme A always enters from an upbeat (Ex. 3-9); metre recoverable from the bare melodies (Exercise 3); climaxes at 61 and 79 on strong bars (PDF 53, Ex. 3-13).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 332 (v332 → v333)
+lens 2, harmony; A&S Unit 27 (PDF 463-481). Report: reports/c332.md.
+- Accepted: harp 55 b4 E♭4–B♭3–E♭4 (no C4 under the passing D♭5).
+- Recorded (no change): 56 b2 C4; 13 b3; added 6ths, ninths; 41 ninth; 58 chain; pedals.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 333 (v333 → v334)
+lens 3, form; A&S Unit 25 Applied V and VII: tonicized areas (PDF 418-441). Report: reports/c333.md.
+- Accepted: nothing (v334 = v333 relabelled).
+- Recorded (no change): tonicizations follow the tension curve: one in A (F minor at 19-20), one in B1, three in B2, four in 56-64, none in the reprise and coda; chromatic bass rise to V only at 59 (PDF 422, 424); remote keys have double meanings at 47, 62, 64 (PDF 422); deceptive cadences 44-45 and 77-78 lead to the two ff peaks (PDF 427); F-sharp minor confirmed by applied chords at 46-50 (PDF 419); apparent applied dominants at 1-2, 20-21, 52, 86 (PDF 430); no seventh over the A-flat pedal (c203, c302); falling-third sequences at 37-40 and 53-56; doubling and cross relations pass.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 334 (v334 → v335)
+lens 4, orchestration; Casanelles ch. 6 spectral orchestration and acoustic mixing (hyper-orchestra PDF 257-290). Report: reports/c334.md.
+- Accepted: nothing (v335 = v334 relabelled).
+- Recorded (no change): soft entries over still pedals at 65-67 and 82-85 (Fig. 6.1); theme A moves further away at each return (PDF 273, 282-287); low spacing follows the harmonic series (PDF 274); masking scan finds only the decided places 41-44, 47-52, 63-64 (PDF 287); brass weight graded at 61-64 and 79-81 (c024, c264); timpani rolls render as single strokes in score.midi though printed correctly (open since c244; MIDI-only fix in the report, not taken).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 335 (v335 → v336)
+lens 5, engraving; Gould PDF 58-68. Report: reports/c335.md.
+- Accepted: unison noteheads at 25-28 (violas) and 39 (Vln II) via unisHead (no MIDI change; closes c325's open point); harp stem direction at 8, 72.
+- Recorded (no change): Ob accidental at 81; separate stems (c205); dots and chords.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 336 (v336 → v337)
+lens 6, playability; Adler ch. 10 the horn (adler1 PDF 299-311). Report: reports/c336.md.
+- Accepted: nothing (v337 = v336 relabelled).
+- Recorded (no change): Hn 4 doubles Hn 3 up to written G-flat 5 at 61-62 (c064, c069, c086, protected); Hn 1 endurance with long rests; slurs playable in one breath; low notes held at p or pp; mute changes timed (mettere sord. 17 s before 87, scherzo Hn 3-4 senza sord.); only wide leap Hn 4 octave at 60-61 across a breath; concert score, horn parts in F; no stopped horn, glissando or trills.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 337 (v337 → v338)
+lens 7, texture; Adler ch. 11 contrapuntal brass (adler2 PDF 41-54). Report: reports/c337.md.
+- Accepted: nothing (v338 = v337 relabelled).
+- Recorded (no change): Tbn 1 quotation alone at 63-64 (c158, c303, once-only rule; optional Hn 3-4 counter-line not recommended); sustained tenuto brass at the Largamente climax 61-62 (protected); horn weights follow two horns = one trombone (PDF 44); free counterpoint inside the brass at 3-6, 29-30, 61-62, 64, 80-81, no imitation (c177); sparse tuba and Cbn as in Dvorak 9/ii; brass registers good (PDF 42); sf-p at 63 and muted horns behind winds at 87-90 as Ex. XI-27.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 338 (v338 → v339)
+lens 8, expression; A&S Unit 21 (PDF 346-371). Report: reports/c338.md.
+- Accepted: hidden MIDI levels so suspensions sound at least as loud as resolutions (Hn 3·4 80-81, theme A at 8/24/72, Bsn 1 35-36, Cl 2 78); violins slur the tied E♭ into D at 24 and 72 (same bow count and directions as c018).
+- Open: Bsn 1 MIDI level at 75-78 on the shared staff.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 339 (v339 → v340)
+lens 9, holistic, Mahler Symphony No. 4/iii; Casanelles ch. 6 Mahler 1 analysis (hyper-orchestra PDF 271-280). Report: reports/c339.md.
+- Accepted: nothing (v340 = v339 relabelled).
+- Recorded (no change): holds up against Mahler 4/iii: long soft one-choir opening, slower minor oboe episode at 47-50, full orchestra held back to 57-61, timpani bass and shared-note fade into the scherzo; the return changes setting not melody (c319); two ff peaks scored differently (c303, c333); soft entries over held notes (Fig. 6.1); printed dynamics and c338's MIDI levels agree; flute and oboe brighten the violins at 57-60, 77-79; nothing worse than v329; proportions settled (c253, c303, c319).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 340 (v340 → v341)
+lens 10, cyclic; release check. Report: reports/c340.md.
+- Accepted: title block (percussion tacet, duration); theme record coherence/themes-mvt2*.ly with lyparse-mvt2.patch; tools/midi-note-diff.py; coherence/mvt2.md corrections.
+- Not taken: percussion tacet page (31-page parts book).
+- Open (carried): timpani rolls in score.midi; Bsn 1 MIDI level 75-78; optional cellos A♭3 at 28, sul D 23-30/71-78, viola A♭4 at 71 b2; viola part text at 53.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 341 (v341 → v342)
+lens 1, melody; A&S Unit 2 (PDF 33-46). Report: reports/c341.md.
+- Accepted: Vln I G5 at 77 b1 (A♭5 seventh resolves by step), then E♭6 on b2.
+- Recorded (no change): interval vocabulary; escape notes 43, 59; outer voices; fourths; minor passages; upbeat; bar 55.
+- Do-not-touch: standing list; the 8-page layout; Vln I register plan 74-78 as now settled after c299, c309, c341 (unison 74 b3-77 b1, upper octave from 77 b2, B♭6 first at 79): reopen only with a new book reason.
+
+
+## Cycle 342 (v342 → v343)
+lens 2, harmony; A&S Unit 4 (PDF 58-73). Report: reports/c342.md.
+- Accepted: bar 43 comment corrected (ii4/3).
+- Recorded (no change): sevenths; bar 36 b3; bar 49 b2; doubling and 6/4 checks pass.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 343 (v343 → v344)
+lens 3, form; Rimsky-Korsakov ch. IV (PDF 124-128). Report: reports/c343.md.
+- Accepted: Hn 1 B♭3 held through 70 b3 under the violins' pickup.
+- Recorded (no change): proportions and register curve; section joins; chromatic steps; spacing 48-51; echo 87-90.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 344 (v344 → v345)
+lens 4, orchestration; Rimsky-Korsakov ch. I (PDF 24-50). Report: reports/c344.md.
+- Accepted: basses' pedal at 65-70 marked "sul A,".
+- Recorded (no change): harp stroke at 78 (c244); Cbn at 35-36; Fl 1 at 77.
+- Open: optional harp at 78 b3 (LH only); optional Cbn diminuendo at 35.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 345 (v345 → v346)
+lens 5, engraving; Adler ch. 18 (PDF 291-297). Report: reports/c345.md.
+- Accepted: timpani muta at 92 printed in the score (staff kept in the last system); player labels at 7 and 37.
+- Recorded (no change): tempo-word placement; hairpin at 89. Optional: "4 Timpani" in all movements together.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 346 (v346 → v347)
+lens 6, playability; Adler part 1 ch. 10 trumpet and trombone (PDF 312-329). Report: reports/c346.md.
+- Accepted (composer): low brass enter p< at 60 (was pp<).
+- Recorded (no change): Tbn 1 quotation 63-64; entry pitch; B.tbn D2; trumpet tacet pages; Tbn 2 breathing.
+- Do-not-touch: standing list; the 8-page layout; Tbn 1 held back for its single quotation.
+
+
+## Cycle 347 (v347 → v348)
+lens 7, texture; Adler ch. 5 homophonic writing for strings (adler1 PDF 150-157). Report: reports/c347.md.
+- Accepted: nothing (v348 = v347 relabelled).
+- Recorded (no change): unison violins 15-17 semitones above the next voice at 75-76 (Vln I register plan settled c299, c309, c341); Vln II A-flat 4 at 61 b1-2 while theme B's head sounds in three octaves; wide gaps at 21-22 (solo violin) and 27-28 (c207); coda thins by solos instead of dropping the bass (protected close); IV6 third in five melodic voices at 87-88 (c207); clear melody, counter-line and accompaniment roles; first inversions follow Ex. V-27.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+- v349 (c348, expression): Cb "tutti, ord." at 71 cancels "sul A" of 65. Text only.
+
+
+- v350 (c349, holistic, Kalinnikov 1/ii): low brass at 60 back to pp< (Rimsky PDF 136, 506-507), undoing c346.
+- Do-not-touch: standing list; the bar 60 low brass entry dynamic stays pp< after c218, c346, c349 (Rimsky PDF 136 outranks Adler PDF 319 for a crescendo start): reopen only with a new book reason.
+
+
+## Cycle 350 (v350 → v351)
+cyclic design. Report: reports/c350.md.
+- Accepted: nothing (v351 = v350 relabelled).
+- Recorded (no change): c350 (A&S Unit 29, fourth pass): no score change. Augmented sixths on each movement's flat 6 lead to the next tonic (recorded in mvt2.md); 62-65 Einsamkeit pattern and the 21 French sixth confirmed; joins with I v351, scherzo v331 and the finale hold. mvt2.md corrected: timpani muta prints in the score, bar 64 b4 chord described exactly.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 351 (v351 → v352)
+melody. Report: reports/c351.md.
+- Accepted: nothing (v352 = v351 relabelled).
+- Recorded (no change): c351 (A&S Unit 1, scales and modes): no violations. Theme B's 4 and 7 on strong beats are deliberate (tonic withheld to 61, protected); theme A, its peak and the 79 return follow the reading; minor forms, mixture and the C5 close confirmed.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 352 (v352 → v353)
+harmony. Report: reports/c352.md.
+- Accepted: nothing (v353 = v352 relabelled).
+- Recorded (no change): c352 (A&S Unit 7, I6 V6 VII6): no change. vii6 neighbour at 19-20 (viola leap allowed, PDF 113), VII6-V4/3-I at 74, V6/5-IV6 at 53-54, no V7-I6, six barline carry-overs deliberate; doubled leading tone on V7 at 24 and 72 recorded only.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 353 (v353 → v354)
+form. Report: reports/c353.md.
+- Accepted: nothing (v354 = v353 relabelled).
+- Recorded (no change): c353 (A&S Unit 21, pedal point as formal device): no change. Double and triple pedals at both ends, tonic and dominant pedal plan, prepared dissonances over pedals and the exits from each pedal all follow; 65-67 held V7 recorded (bassoons at 67 only if 65-70 is reopened).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 354 (v354 → v355)
+orchestration. Report: reports/c354.md.
+- Accepted: nothing (v355 = v354 relabelled).
+- Recorded (no change): c354 (Adler harp ch. 4 and timpani ch. 12): no change. Harp and timpani pass every applicable principle; harp melody is met by the scherzo (noted in mvt2.md); timpani ring and damp convention at 84-85 and the rest at 82 confirmed; harp registers suit the movement.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+- v356 (c355, engraving): parts only; rehearsal letter and tempo word joined in one stencil in every part; Vln I mute text starts at 4.
+
+
+## Cycle 356 (v356 → v357)
+playability. Report: reports/c356.md.
+- Accepted: nothing (v357 = v356 relabelled).
+- Recorded (no change): c356 (Adler ch. 7 clarinets and bassoons): no change. All 25 applicable principles followed; Cl 2 hold at 89-92, B.cl. low C ossia, break crossings, Cbn and Bsn low notes and the change to A clarinets recorded.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 357 (v357 → v358)
+texture. Report: reports/c357.md.
+- Accepted: nothing (v358 = v357 relabelled).
+- Recorded (no change): c357 (Sebesky ch. 3, strings with winds): no change. Fl 1 mp< at 77 stays (c178); ff tutti 79-81, flute doubling at 57-61 and 77-82, the 63-64 string chord and the 87 IV6 recorded.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+- v359 (c358, expression): timpani pp< at 60 with the low brass; stale c218 comments corrected.
+
+
+## Cycle 359 (v359 → v360)
+holistic comparison with a master work (Glazunov 5/iii). Report: reports/c359.md.
+- Accepted: nothing (v360 = v359 relabelled).
+- Recorded (no change): c359 (Adler ch. 17 accompaniment; Glazunov 5/iii, which is in E-flat, not D-flat): no change. Harp triplets at 53-56 and Vln II F4 at 45-46 kept under Adler's exceptions; plain first statement 23-30, violins at the return and no harp at 79-81 confirmed; nothing worse since v349.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 360 (v360 → v361)
+cyclic design. Report: reports/c360.md.
+- Accepted: nothing (v361 = v360 relabelled).
+- Recorded (no change): c360 (A&S Unit 30, other chromatic chords): no score change. Half-diminished at 86 keeps C natural; 46-48 and 61-65 remote chords correctly prepared; focal mixture chords stay plain triads; bar 33 common-tone dim. 7th holds; joins with I v351, scherzo v345 and finale v311 hold. mvt2.md: III-sharp joins recorded, stale version headings updated.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+- v362 (c361, melody): harp chord at 14 moved above the horn's A flat3 (A flat4-E flat5).
+
+
+## Cycle 362 (v362 → v363)
+harmony. Report: reports/c362.md.
+- Accepted: nothing (v363 = v362 relabelled).
+- Recorded (no change): c362 (A&S Unit 19, 6/4 chords): no change. The seven 6/4s (5, 21, 38, 43 b2, 43 b3, 68, 74) all have a function; bar 43-44 stays the only cadential 6/4. Correction to c283: the cor anglais D flat4 at 43 leaps to B flat3 and the cellos' C3 takes the resolution.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 363 (v363 → v364)
+form. Report: reports/c363.md.
+- Accepted: nothing (v364 = v363 relabelled).
+- Recorded (no change): c363 (Adler ch. 17 pacing, compared with Tchaikovsky's Canzonetta and Dvorak's Cello Concerto ii): no change. Introduction and coda proportions, cut-backs after each tutti, entry preparation, the 53-64 build, dialogue colours and the coda pacing all follow.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+- v365 (c364, orchestration): Hn 4 C4 at 60 b1-2 supplies the dominant's third in the middle register.
+
+
+- v366 (c365, engraving): parts only; Hn 3 rest at 29, C.a. cue rest at 31, harp octave sign at 78.
+
+
+- v367 (c366, playability): redundant "sul C" removed from the violas at 87; theme record gains lastEflat and "abs" checks.
+
+
+## Cycle 367 (v367 → v368)
+texture. Report: reports/c367.md.
+- Accepted: nothing (v368 = v367 relabelled).
+- Recorded (no change): c367 (Rimsky-Korsakov ch. III, three groups combined): no change. Bar 60 moving brass lines (protected), no held strings under the harp at 53-56 (would cover the counter-line), horns inside string chords at 3 and 29-30, and the horn chords at 61-62, 79-81, 87-90 and 67-70 all recorded.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+- v369 (c368, expression): MIDI only; trombone quotation at 63 restored to its level, B.cl. peak at 32-33, string fades at 3 and 66.
+
+
+## Cycle 369 (v369 → v370)
+holistic comparison with a master work (Chausson, Symphony in B-flat, ii). Report: reports/c369.md.
+- Accepted: nothing (v370 = v369 relabelled).
+- Recorded (no change): c369 (Adler ch. 5 string scoring; Chausson Op. 20 ii from secondary sources, score not reachable): no change. Plan matches Chausson's (cor anglais solo over light strings, violins to the climax, second peak at the return); mode, length, Vln II at 47-51, Vln I divisi at 62-63 and the tripled F at 87 recorded; the three printed changes since v359 are improvements.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 370 (v370 → v371)
+cyclic design. Report: reports/c370.md.
+- Accepted: nothing (v371 = v370 relabelled).
+- Recorded (no change): c370 (Casanelles ch. 1): no score change. Joins with I v361, the scherzo and the finale hold. Theme check showed 17/18 on v370 only because lyparse.py drops a tie inside the << >> block added at 32 in v369; parser patch sent to the finale thread (owner of lyparse.py). Harmonic-series voicing at both ends, one colour per recurring idea, and the ppp top pitches recorded.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 371 (v371 → v372)
+melody. Report: reports/c371.md.
+- Accepted: nothing (v372 = v371 relabelled).
+- Recorded (no change): c371 (Sebesky ch. 5, voices): no change. Theme ranges, breaths before pickups, motion under held notes, the 74 b3 drop (register plan settled), memorability and the doubling order all recorded.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 372 (v372 → v373)
+harmony. Report: reports/c372.md.
+- Accepted: nothing (v373 = v372 relabelled).
+- Recorded (no change): c372 (A&S Unit 29, augmented sixths, fifth pass): no change. Dominants prepared from the augmented-sixth family; the sixths at 21 and 64 resolve F flat to E flat, the same semitone as the link's E to E flat; 50-51 blocked by octaves with the quotation; 20-22 and 64-65 follow.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 373 (v373 → v374)
+form. Report: reports/c373.md.
+- Accepted: nothing (v374 = v373 relabelled).
+- Recorded (no change): c373 (A&S Unit 14, V as a key area): no change. D flat confirmed late at 61 (protected), diatonic half cadences at 10, 26 and 44, the exit from the foreign keys at 63-71, no doubled raised fourth, and proportions close to Dvorak 9/ii.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 374 (v374 → v375)
+orchestration. Report: reports/c374.md.
+- Accepted: nothing (v375 = v374 relabelled).
+- Recorded (no change): c374 (Sebesky ch. 2 woodwind and brass-woodwind combinations): no change. C.a./Bsn 1 second at 81 (moving lines, protected doubling), clarinet second at 58 b4 (resolving seventh) and the horn spacing at 79-81 recorded.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+- v376 (c375, engraving): stem direction fixes, Fl 1 at 78 and Cb at 21.
+
+
+- v377 (c376, playability): bowing fixes, Vln II slur at 52 and basses' slur at 28.
+
+
+- v378 (c377, texture): bassoons resolve G-A flat and D flat-C into the return at 71.
+
+
+## Cycle 378 (v378 → v379)
+expression. Report: reports/c378.md.
+- Accepted: nothing (v379 = v378 relabelled).
+- Recorded (no change): c378 (A&S Unit 3, hypermeter and climaxes): no change. Climaxes fall on strong bars at three levels (12, 28, 76; 61 and 79; A6 at 63, B flat6 at 79); quieter phrase endings; tempo changes on group boundaries with matching MIDI steps; shared-staff dynamics now checked across the whole movement.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 379 (v379 → v380)
+holistic comparison with a master work (Goldmark, Rustic Wedding Symphony, Im Garten). Report: reports/c379.md.
+- Accepted: nothing (v380 = v379 relabelled).
+- Recorded (no change): c379 (Adler ch. 8 woodwind-string; Goldmark from secondary sources, score not reachable): no change. Overall plan matches (duet of violins against cellos and horns, minor middle section, quotations, varied return); bassoons into 71, Ob/Cl unison at 79-81 and the 87 doubling recorded; nothing worse since v369.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+- v381 (c380, cyclic): comment fix in coda; coherence record corrections; tied timpani rolls traced to articulate.ly (open, symphony-wide).
+
+
+## Cycle 381 (v381 → v382)
+melody. Report: reports/c381.md.
+- Accepted: nothing (v382 = v381 relabelled).
+- Recorded (no change): c381 (Adler ch. 4 harp, melodic and figurative): no change. Harp tune moment at 82-83, triplets at 53-56, silence in 84-92, close dyads at 7-14 and 75-78 and the bass doubling at 37-44 all recorded; theme A remains the memorable tune.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 382 (v382 → v383)
+harmony. Report: reports/c382.md.
+- Accepted: nothing (v383 = v382 relabelled).
+- Recorded (no change): c382 (A&S Unit 31, chromatic voice leading): no change. 64-65 bass reaches V from both semitones with the French sixth on E (keep spelling and the cellos' eighth); tenths at 39-40 and 55-56; F sharp minor and A minor as borrowed chords; major-third key cycle recorded in mvt2.md; no descending chromatic bass or chromatic sequences, correctly.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 383 (v383 → v384)
+form. Report: reports/c383.md.
+- Accepted: nothing (v384 = v383 relabelled).
+- Recorded (no change): c383 (A&S Unit 26, diatonic modulation and form, eighth pass): no change. D flat kept to the middle section; C to A flat link by common tone; short remote keys; exit 62-70 and return at 71; prepared passing keys; key arrivals on 1 or 3 at downbeats.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+- v385 (c384, orchestration): violas mf at 28 under the cellos' counter-melody.
+
+
+- v386 (c385, engraving): Fl 1 beam slope and tuplet bracket at 78 restored.
+
+
+- v387 (c386, playability): cellos "sul D" at 23-30 and 71-77.
+
+
+## Cycle 387 (v387 → v388)
+texture. Report: reports/c387.md.
+- Accepted: nothing (v388 = v387 relabelled).
+- Recorded (no change): c387 (Adler ch. 5, foreground, middleground, background): no change. Flute-cor anglais coupling at 41-44 (c090), Vln II over the quotation at 47-51 (c369), the three layers at 53-56, violin doubling at 71-78, accompaniment types, bass line, spacing and the coda thinning all follow.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+- v389 (c388, expression): MIDI only; timpani rolls rendered with rolls-midi.ily; fp attack at 47.
+
+
+## Cycle 389 (v389 → v390)
+holistic comparison with a master work (Svendsen 2/ii, E-flat). Report: reports/c389.md.
+- Accepted: nothing (v390 = v389 relabelled).
+- Recorded (no change): c389 (Rimsky-Korsakov examples 1-60; Svendsen 2/ii from secondary sources, score not reachable): no change. Key, length and restraint compare well; themes combined at 53-56 and 79-81; wind octaves, basses without cellos, clarinet-oboe interlocking and the 61 layout follow; nothing worse since v379.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 390 (v390 → v391)
+cyclic design. Report: reports/c390.md.
+- Accepted: nothing (v391 = v390 relabelled).
+- Recorded (no change): c390 (A&S Unit 32, chromatic tonal areas): no score change. Link from I is a common-tone modulation matching I v371; both Widmung pitch links into the scherzo; remote keys entered and left in Haydn's way; motives enlarged in the middle section; II as flat VI of C. Theme check misread Vln II after 47 (MIDI block from v389); lyparse patch sent to the finale. mvt2.md: E to E flat at 64-65 is in the basses only.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 391 (v391 → v392)
+melody. Report: reports/c391.md.
+- Accepted: nothing (v392 = v391 relabelled).
+- Recorded (no change): c391 (A&S Unit 20, melodic figuration): no change. Themes distinguished by figuration; theme A's second phrase as two lines; no parallels from figuration; cello counter-melody rhythm complements the tune; no turn at 72 (c319); chromatic spellings follow.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+- v393 (c392, harmony): B.cl. G2 at 10 b3 supplies the dominant's third.
+- Do-not-touch: Hn 4 C4 at 60 b1-2 (c364) with its doubled leading tone, kept knowingly (c392): reopen only with a voicing that breaks none of c046, the Hn 3·4 unison and c364.
+
+
+## Cycle 393 (v393 → v394)
+form. Report: reports/c393.md.
+- Accepted: nothing (v394 = v393 relabelled).
+- Recorded (no change): c393 (A&S Unit 32, chromaticism in larger contexts): no change. Remote keys about 9 percent of the beats (Mozart 41/ii about 12.6); A minor prepared by the E-E flat thread; minor keys not strung together; no chromatic sequence in 53-60 (reasons recorded); exit from the climax and both Widmung links follow.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+- v395 (c394, orchestration): Fl 2 doubles the F-F flat inner line at 80-81; shared-staff hairpins at 81.
+
+
+- v396 (c395, engraving): Fl 2 rest at 82 on the shared staff.
+
+
+- v397 (c396, playability): harp right-hand order at 55 b4 avoids repeated plucks of one string.
+
+
+- v398 (c397, texture): timpani roll p< on 78 b3 into the second climax.
+
+
+- v399 (c398, expression): bow changes, Vln II/Vla at 66 and cellos at 58-59.
+
+
+## Cycle 399 (v399 → v400)
+holistic comparison with a master work (Bruch 3/ii, G major). Report: reports/c399.md.
+- Accepted: nothing (v400 = v399 relabelled).
+- Recorded (no change): c399 (Rimsky-Korsakov examples 69-130; Bruch 3/ii from the IMSLP score): no change. Third relations, soft wind frame, string accompaniment under the middle-section wind tune and a busier return all match; nothing worse since v389; inverted-dominant doublings, brass at 60-62 and the coda follow. Stop check: clean build, 8 pages, 30-page parts book, theme record 18/18 and 11/11.
+- Do-not-touch: standing list; the 8-page layout.

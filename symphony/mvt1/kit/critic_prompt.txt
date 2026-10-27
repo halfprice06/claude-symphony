@@ -26,3 +26,4 @@ The build must give 0 warnings (build-warnings.txt empty), 18 PDF pages, only th
 Write your report to /home/user/claude_composes/symphony/mvt1/critics/reports/cNNN.md in plain, direct prose (no metaphors or flourish). Write nowhere else except /tmp/critic-NNN. Never write under /mnt/project-files (run any tool from coherence/ with `python3 -B` or copy it to your scratch folder, so no bytecode cache is written there).
 
 Your final message to me: a short summary listing each finding, whether it is applied in the scratch copy, which files changed, the build result, and any cross-movement effects.
+Note: the shared folder /mnt/project-files may refuse to create new files; treat it as read-only and write only under your /tmp scratch folder and the report path in the repo.

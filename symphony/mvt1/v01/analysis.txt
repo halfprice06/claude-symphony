@@ -1,1 +1,0 @@
-python3: can't open file '/mnt/attach/project-files/symphony/mvt1/v01/tools/analyze.py': [Errno 2] No such file or directory

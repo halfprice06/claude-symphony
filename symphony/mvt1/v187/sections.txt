@@ -1,9 +1,0 @@
-intro 14
-tOne 18
-trans 14
-tTwo 22
-clos 8
-dev 54
-recOne 16
-recTwo 20
-coda 16
