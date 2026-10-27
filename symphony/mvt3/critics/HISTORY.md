@@ -1629,3 +1629,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 358 (v358 → v359), lens 8, Sebesky ch. 1 and backgrounds
 - 245–246: under the stringendo (2 = 66 → 88 by 247, since c348 from 245) the cellos and basses held whole notes, so nothing low marked the quickening beat. They now restrike their D in tenuto halves at 245 and quarters at 246 into the basses' eighths at 247 (Sebesky PDF 207–208, Ex. 273; A&S PDF 49), as the violas push at 259–262. Pitches, hairpin, Bn 2's held D3 and the horn call unchanged.
 - Checked, no change: the animando run at 82, the basses' eighths at 209–210, Cl 1's static line under the trumpet solo at 51–66, marcato accents.
+
+## Cycle 359 (v359 → v360), lens 9, holistic, Mahler 1/iv; Adler part 1 full-score examples
+- 255–262: on the chorale's last statement Vln I doubled the top line in tied whole notes ff; it now plays the same notes as bowed tremolo, the chorale's own violin colour from 223–225 and an agitated pedal over the brass theme (Adler PDF 243, Ex. VIII-11; PDF 161, Ex. V-37; PDF 261–262). Pitches, rhythm, dynamics and the entry at 263 unchanged; the cyclic rule (string tremolo first at 223) holds.
+- Mahler 1/iv comparison: shared devices (outburst, lyrical flat-key second theme, first-movement recalls, failed early goal at 138, closing brass chorale); his coda rises continuously, this one moves in six stages (protected). v349 → v359: nothing worse; at 188 the root A♭ now sounds only in Cl 1's soft off-beat A♭3s, which must stay.
+- Not applied: violin pedal at 111–113, 243–245, 265–272.
