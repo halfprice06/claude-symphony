@@ -2084,3 +2084,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: cadential 6/4s at 12-14, 109-110, 61-63, 172-174; 137.4 bass D repeat
 - Cross-movement: none
+
+## Cycle 413 (Form, pacing and proportion; Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (second pass)) → v414
+- Accepted: no change (diatonic modulation and form review)
+- Open / not applied: none
+- Do-not-touch: key plan; development G pedal; 96-108 passing keys; section lengths
+- Cross-movement: none
