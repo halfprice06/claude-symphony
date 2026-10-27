@@ -1665,3 +1665,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 365 (v365 → v366), lens 5, Gould PDF 17–30 clefs and staves
 - 33–38: the shared bassoon staff stayed in bass clef in the score, putting Bn 1's ff A♭4–B♭4 eighths on 3–4 ledger lines while the cellos play them in tenor clef; the tenor clef at 33 and bass clef at 39 (part-only since c306) now apply in the score too (Gould PDF 21–23). MIDI byte-identical.
 - Checked, no change: the basses' tenor clef at 27–34 (c335), harmonics (only Vln I 43–50), ledger lines elsewhere (none beyond three), all-up bass stems at 199–210 and 247–262 (c015).
+
+## Cycle 366 (v366 → v367), lens 6, Adler ch. 2 strings
+- 50→51: the cellos' and basses' held pedal now ends up-bow, at the frog, before "pizz." on 51.1, the bass of the trumpet solo's first chord (Adler PDF 38, Ex. II-20; PDF 54), as at 114 (c085) and 167 (c318).
+- 1 and 5: the opening ff double stops get "non div." in Vln I and Vln II and "arco, non div." in the cellos, so every first violin plays the A♭5 of the scherzo link (Adler PDF 30). Text only; notes, voicing and bowing of the protected bars unchanged; MIDI byte-identical.
+- Not applied: undulating tremolo at 243–245 (settled by c355/c359), string trills, natural harmonics, mutes, la metà, non vibrato, ponticello, col legno.
