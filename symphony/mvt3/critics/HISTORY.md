@@ -1760,3 +1760,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 386 (v386 → v387), lens 6, Adler harp
 - Adler PDF 117 / Rimsky PDF 46 harp damping: "étouffez" on 279 beat 2 so the final low harp chord C2–G2–C3 stops with the orchestra, as at 82, 131, 134, 243 and movement I's bar 182.
 - Harmonic chords considered and declined (no unprotected spot fits).
+
+## Cycle 387 (v387 → v388), lens 7, Rimsky-Korsakov combined groups
+- Rimsky-Korsakov PDF 76–79: Bn 2 doubles the cellos' lower octave of the B♭-minor F1 head at 37–38 (f; rests 36 beat 4 to breathe).
+- Rimsky-Korsakov PDF 74–75: Bn 2 doubles Tbn 1·2 on the head at 205–206, handing to Bn 1 at 207–208; Bn 2 returns to the A♭2 pedal at 207.
