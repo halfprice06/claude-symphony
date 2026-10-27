@@ -1756,3 +1756,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 385 (v385 → v386), lens 5, Gould rests
 - Gould PDF 50–51 rest placement: Cl 1 eighth rests at 187–194 and Fl 2 quarter rest at 222 beat 4 moved to the centre line (score only), matching c205's bar 58.
 - Gould PDF 51–52 beat grouping: 13 dotted half rests across mid-bar in 2/2 (234 brass/timpani and Vln I; 124 Vla) rewritten as r4 r2. MIDI byte-identical.
+
+## Cycle 386 (v386 → v387), lens 6, Adler harp
+- Adler PDF 117 / Rimsky PDF 46 harp damping: "étouffez" on 279 beat 2 so the final low harp chord C2–G2–C3 stops with the orchestra, as at 82, 131, 134, 243 and movement I's bar 182.
+- Harmonic chords considered and declined (no unprotected spot fits).
