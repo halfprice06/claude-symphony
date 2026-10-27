@@ -1716,3 +1716,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 263–264: at the symphony's only root-position V–I the cellos hold open C2 with C3, "non div.", their first open C string in the movement (Adler PDF 73–74, 76, 99, Ex. III-56). Bowing, dynamics, progression, trumpets' B→C and timpani unchanged.
 - 255–257: Vln II's ff octave doubling of F2 (c371) is marked "sul G" with a dashed line, keeping it off the weak D string under the brass chorale (Adler PDF 74–76, Ex. III-5); the G5 peak at 258 crosses strings. No notes changed.
 - Checked, no change: the violins' C5→F6 leap at 36→37, double stops, basses' simplified lines, bow-change words, C-extension notes, ranges.
+
+## Cycle 377 (v377 → v378), lens 7, Adler part 2 PDF 251–281 contrast of choirs
+- 87–90: the scale figure was played twice in the same mix (violins in octaves with flute, oboe at 89–90). Now 87–88 is violins alone, and 89–90 winds alone: Fl 1 leads at F6, f <, with Ob 1 (F5) and Cl 1 (F4) a beat later in canon at the octave, meeting on F5 at 90.4; the violins return ff at 91 (Adler part 2 PDF 253–255, 271–272: a gesture passed between choirs before the tutti; two woodwinds in imitation, new in the score). Undoes c304's oboe doubling. Bass, inner chords, horns and 91 onward unchanged.
+- Checked, no change: further wind imitation (protected places or too close to this one); third returns are already rescored.
