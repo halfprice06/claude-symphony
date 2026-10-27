@@ -2114,3 +2114,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 139-142 brass block; 167-169 counter; fugato 88-96 entry plan
 - Cross-movement: none
+
+## Cycle 418 (Expression; Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (second pass)) → v419
+- Accepted: horns p on the resolution at 166 (was mp) with crescendo from beat 3 into 167
+- Open / not applied: none
+- Do-not-touch: 110 crescendo through cadential 6/4; 126 4-3; coda 180 D-flat
+- Cross-movement: none

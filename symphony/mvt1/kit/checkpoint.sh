@@ -9,6 +9,6 @@ sed -i "s/^- Latest: v[0-9]*.*/- Latest: v$V (cycle $((V-1)) done, $(date -u +%Y
 cp $M/CHECKPOINT.md $S/CHECKPOINT.md
 cd /home/user/claude_composes && git add -f symphony/mvt1/v$V/score.pdf && git add -A symphony && git commit -qm "Movement I series 3: v$V checkpoint
 
-Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_018HrEPSmMSqb3YkeMbTtpwH" && git push -q origin claude/project-thread-ytvxdy 2>&1 | tail -1
 git log --oneline -1
