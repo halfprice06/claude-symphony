@@ -1809,3 +1809,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 398 (v398 → v399), lens 8, A&S Unit 21 suspensions
 - A&S Unit 21 (PDF 352 sec. 12, Ex. 21-12; PDF 369): Hn 2 at 81 now B♭2 (V7 root) instead of F3, so the 7/6 suspension G3 no longer sounds against its own resolution note.
 - A&S PDF 347–348: Ob 1's diminuendo at 81 starts on D5 with the tune's resolution.
+
+## Cycle 399 (v399 → v400), lens 9, Beethoven 9 holistic; release check
+- Casanelles PDF 272–276 (bow position and tone colour): strings start the falling chain at 135 "sul tasto" at pp and return to "ord." on the sf stop chord at 138 (text only; merged with the existing div./non div.).
+- Release check: subtitle now "Full score in C — v400, 27 October 2026"; title "IV. Finale: Allegro con fuoco" and part headers agree; parts build with 0 warnings.
+- Beethoven 9/iv holistic comparison and v389 → v399 check: nothing worse.
