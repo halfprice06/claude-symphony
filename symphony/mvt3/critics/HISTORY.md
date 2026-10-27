@@ -1645,3 +1645,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 19.3: Cl 1's arpeggio G4→D4 made fifths with Hn 1·2's C4→G3 on a strong beat; now B3 (A&S PDF 331, Ex. 20-5).
 - 191→192: Cl 2's F3→E♭3 moved in octaves with the tune; it now holds G3 at 192 and returns to E♭3 at 193 (A&S PDF 342–343).
 - Not applied: the turn in F2's coda phrase at 255 (clashes with the low brass); F1's peak at 272→273 (protected). Kept: weak-beat or dissonant fifths at 12.3, 16.1, 156.1, 160.3 (Ex. 20-6, 20-25).
+
+## Cycle 362 (v362 → v363), lens 2, A&S Unit 5 voice leading
+- 167–168: Bn 1's augmented second E♭3→F♯3 becomes E♭–F–F♯–G, a chromatic line against the falling bass (A&S PDF 80, 82).
+- 141–144: Hn 2 and Tbn 2 doubled the leading tone B over the B bass in the brass pads; both now hold G (Hn 2 G4 leads by common tone into its head entry at 143) (A&S PDF 76, Ex. 5-4).
+- 82: V7 of E♭ resolves to an incomplete tonic with tripled root (Ex. 5-5, PDF 76–77), the first use of the device: Hn 1 E♭4 (was B♭3), cellos E♭ (was G); every pad voice moves by step, the harp still has B♭.
+- Not applied: the Vln II–viola gap at 114 (one fading chord), d5→P5 in inner voices at 72.3/192.3, contrary fifths at 198→199 (protected), Vln II at 144 (protected stretto), emphatic outer octaves (Ex. 5-27a; no free cadence).
