@@ -1639,3 +1639,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - No score change. Cyclic review: quotations at pitch against movement I v411 (35/35; 199–204 compared part by part with I 27–32), movement II v400 (18/18, 11/11), scherzo v400 (52/52; c383 and c397 not quoted), finale 50/50; C7, tremolo (223–225, 255–262, 273–276), trumpet, cymbal and D♯4→E4 rules intact.
 - finale.md: twelve stale sentences corrected (header versions and record counts, movement II's record location, Vln I tremolo at 255–262, muted trumpet resting 175–178, Tpt 1 B→C now recorded, open requests).
 - Not applied: the bass clarinet doubling the motto at 224–228 (inaudible under the brass; protected; mvt1.md asks for no further bass-clarinet motto tail).
+
+## Cycle 361 (v361 → v362), lens 1, A&S Unit 20 melodic figuration
+- 71.4–72.1 and 191.4–192.1: F2's second phrase takes the escape tone followed by an accented passing tone (A&S PDF 337, Ex. 20-17), the one figuration idiom the movement had not used: violins C6–D6 | C6–B♭5 at 71–72, and F5–G5 | F5–E♭5 in the A♭ statement with violas and Hn 1 an octave lower. It is the turn at 75 a step higher, so the turn becomes a motive. Trumpet solo, 171–186, the turn at 75 and 255–258 unchanged; no record line covers these bars.
+- 19.3: Cl 1's arpeggio G4→D4 made fifths with Hn 1·2's C4→G3 on a strong beat; now B3 (A&S PDF 331, Ex. 20-5).
+- 191→192: Cl 2's F3→E♭3 moved in octaves with the tune; it now holds G3 at 192 and returns to E♭3 at 193 (A&S PDF 342–343).
+- Not applied: the turn in F2's coda phrase at 255 (clashes with the low brass); F1's peak at 272→273 (protected). Kept: weak-beat or dissonant fifths at 12.3, 16.1, 156.1, 160.3 (Ex. 20-6, 20-25).
