@@ -1801,3 +1801,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 396 (v396 → v397), lens 6, Adler woodwind breathing
 - Adler PDF 188 (Ex. VII-9, Brahms 1/iv), 192, 198: staggered eighth-note breaths in the Fl 1 / Ob 1 / Cl 1 unison at 226–230 (Fl 1 at 227, Cl 1 at 228, Ob 1 at 229), the other two holding; pitches and swells unchanged.
 - Adler PDF 230: breath marks for Bn 2 after 220, Bn 1 and Cbsn after 221 on re-struck notes before the fff C1 at 223 (score only).
+
+## Cycle 397 (v397 → v398), lens 7, Adler ch. 11 brass entries
+- Adler ch. 11 (Hindemith PDF 42, Bartók PDF 44–47): the last F1-head entry of the retransition stretto at 145–146 now goes to Hn 3·4 a2 at G4, "ben marc." (horn pairs alternate: Hn 1 at 139, Hn 1·2 at 143, Hn 3·4 at 145); the other held brass keep a complete V7.
+- "ben marc." on the brass answer of F1's head at 103 (Hn 3·4, Tbn 1); text only.
