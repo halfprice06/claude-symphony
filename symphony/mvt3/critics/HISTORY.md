@@ -1735,3 +1735,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 184: at the recapitulated F2's last minor cadence iv becomes ♭II6 (Cl 1 and Bn 1 D♭ instead of C, falling to B over V7), so the tune's D4 at 185 sounds as ♮2 over V and the same D♭/F chord returns as IV6 of A♭ at 189 after the deceptive cadence, as movement II does at its 87 (A&S PDF 483–484, 494–495, Ex. 28-6). Tune, deceptive cadence and scoring of 171–186 unchanged.
 - Cyclic review: records match movement I v421 (35/35), movement II v400 (18/18, 11/11), scherzo v400 (52/52), finale 51/51; rules intact. finale.md: nine stale sentences corrected.
 - Not applied: N6 → V4/2 at 133–134 (clashes with the harp's G chord; c183), ♭II at 64 or 195–197.
+
+## Cycle 381 (v381 → v382), lens 1, Rimsky-Korsakov ch. II wind melody
+- 205–206: F1's head over the A♭ pedal had four horns a2 on A♭4 over one trombone; Tbn 2 now plays the head with Tbn 1 instead of holding E♭3 (still in the violas and the head), giving Rimsky-Korsakov's 4 horns over 2 trombones (PDF 74). Horns and 207–210 unchanged.
+- Not applied: winds an octave above the B♭-minor head at 37–38 (would collide with the violins' figure and Fl 1's B♭5), a wind pair in thirds on a theme, a soft horn solo. Kept: the two horns with the cor anglais at 217–218 (protected).
