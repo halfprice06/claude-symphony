@@ -2096,3 +2096,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Tbn 1 C4-B3 at 142 with Bsn 1/Vc; Tbn 1 B3 at 159
 - Cross-movement: mvt1.md: Tbn 2 tenor line now 139-141
+
+## Cycle 415 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: beams (gould-behind-bars PDF 31-41) (second pass)) → v416
+- Accepted: beams on ledger-line groups slope (Gould PDF 35, 15 groups); minimum 3-space stems inside the stave (6 stems)
+- Open / not applied: none
+- Do-not-touch: D-D-flat-C Ob/Cl groups at 27 and 82 flat; Vc 61.1 stems
+- Cross-movement: none
