@@ -1777,3 +1777,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Cyclic review (Adler ch. 17): all quotations at pitch against movement I v421, II v400 and scherzo v400 (records 35/35, 18/18, 11/11, 52/52); cyclic rules hold. No score change.
 - coherence/finale.md: eight stale sentences corrected (header, F1 coda 205–208, Bn 2 at 37–38, F2 at 81 and its pad, motive x item 13, open requests, movement I heading).
 - Heterophonic doubling and solo string over winds considered and declined (spots are protected quotations or inaudible).
+
+## Cycle 391 (v391 → v392), lens 1, Adler ch. 3 strings
+- Adler PDF 73–76, 99 (open strings at soft fades): "sul G" for Vln and Vc at 41–42, and for Vln I and Vla at 169.4–170, so the soft D is stopped, not an open string. No notes or MIDI changed.
+- Viola-as-bass, F2 low-octave start at 67–70, Vln II 46.3: considered, not applied.
