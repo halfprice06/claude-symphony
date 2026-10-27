@@ -1805,3 +1805,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 397 (v397 → v398), lens 7, Adler ch. 11 brass entries
 - Adler ch. 11 (Hindemith PDF 42, Bartók PDF 44–47): the last F1-head entry of the retransition stretto at 145–146 now goes to Hn 3·4 a2 at G4, "ben marc." (horn pairs alternate: Hn 1 at 139, Hn 1·2 at 143, Hn 3·4 at 145); the other held brass keep a complete V7.
 - "ben marc." on the brass answer of F1's head at 103 (Hn 3·4, Tbn 1); text only.
+
+## Cycle 398 (v398 → v399), lens 8, A&S Unit 21 suspensions
+- A&S Unit 21 (PDF 352 sec. 12, Ex. 21-12; PDF 369): Hn 2 at 81 now B♭2 (V7 root) instead of F3, so the 7/6 suspension G3 no longer sounds against its own resolution note.
+- A&S PDF 347–348: Ob 1's diminuendo at 81 starts on D5 with the tune's resolution.
