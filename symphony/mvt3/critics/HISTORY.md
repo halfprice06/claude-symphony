@@ -1730,3 +1730,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 258–262: Cl 1 no longer doubles Vln II's arpeggio in unison under the last chorale statement; it breaks the same chords in contrary motion (Adler part 2 PDF 205, 208: Brahms's clarinets against the flutes' arpeggio), below the chorale top line, with its breaths. 258's last eighth E5 and 260's ending D5 avoid octaves with Tpt 3, Tbn 2 and the violas. Harmony unchanged.
 - Saint-Saëns 3/iv comparison: running figuration as an independent layer against the hymn was the weak point; addressed above. Coda's six stages: observation only (protected). v369 → v379 (built in scratch): nothing worse.
 - Not applied: a new timpani rhythm at 269–271 (repeats movement I 179–180), a quiet tritone figure with timpani at 133–134, open strings in the final cello chord at 278 (protected).
+
+## Cycle 380 (v380 → v381), lens 10, cyclic review; A&S Unit 28 Neapolitan
+- 184: at the recapitulated F2's last minor cadence iv becomes ♭II6 (Cl 1 and Bn 1 D♭ instead of C, falling to B over V7), so the tune's D4 at 185 sounds as ♮2 over V and the same D♭/F chord returns as IV6 of A♭ at 189 after the deceptive cadence, as movement II does at its 87 (A&S PDF 483–484, 494–495, Ex. 28-6). Tune, deceptive cadence and scoring of 171–186 unchanged.
+- Cyclic review: records match movement I v421 (35/35), movement II v400 (18/18, 11/11), scherzo v400 (52/52), finale 51/51; rules intact. finale.md: nine stale sentences corrected.
+- Not applied: N6 → V4/2 at 133–134 (clashes with the harp's G chord; c183), ♭II at 64 or 195–197.
