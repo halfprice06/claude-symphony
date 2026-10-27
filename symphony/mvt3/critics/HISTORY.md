@@ -1656,3 +1656,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 157–158: the recapitulation's F1 half cadence repeated F–D in the bass (ii°7); it now has the exposition's ♯IV7 approach from c332, bass F–F♯–G (Bn 1·2, B.tbn, Vc, Cbsn, Cb), Hn 4 F→E♭, Tbn 2 F–E♭ tied, Cl 1·2 as at 17 (A&S Unit 14, PDF 211–229). Tune, scoring and dynamics unchanged.
 - 193–194: the A♭ statement of F2 goes IV – V6/5 of V – V7, bass D♭–D♮–E♭, as c273 did at 73–74 (A&S Ex. 14-3): Bn 2, Cb; Vc and Bn 1 hold F3 on beat 4; Cl 1 `r8 aes8( f8 aes8)` (B♭3 made octaves with the tune). Pitches only; c273's scoring protection kept.
 - Not applied: the Phrygian half cadence at 177–178 (as at 57), modulation through I5–6 (only 95–98 fits, protected), an applied chord at 249–250 (protected).
+
+## Cycle 364 (v364 → v365), lens 4, Rimsky-Korsakov ch. III chords and pairs
+- 154 and 162: Tbn 1 held B3 over the B bass of the V6/5 and the V♭9, doubling the bass of a dominant inversion (Rimsky-Korsakov PDF 83–84); it now plays D4, an octave above Tbn 2, and steps to C4, as c362 fixed at 141–144.
+- 136–138: in the falling diminished-seventh chain the clarinet and bassoon pairs each held a tritone; Cl 2 now G4–F♯4–F4 and Bn 1 E3–E♭3–D3, so each pair moves in minor thirds (PDF 90 rule 4, 91–92). Every chord keeps its notes.
+- Not applied: three of a family with C.A./B. Cl as bass (PDF 93–95; only protected places fit), the oboes' fourth at 232/234 and clarinets' at 233 (protected plagal close; Ob 2 E4 noted as the fix), clarinets at 147–149 (protected stretto).
