@@ -1788,3 +1788,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 393 (v393 → v394), lens 3, Rimsky-Korsakov ch. IV combination
 - Rimsky-Korsakov PDF 136 (brass re-entry after long rest at pp or ff, not f): bass trombone at 255–258 now enters ff on E2 with the tuba (was f on E3, doubling Tbn 2 and the theme note), crescendo from 259 to fff at 263 as before. Clears the 257.1 doubling flag.
 - Form proportions checked (exp 35%, dev 18%, recap 16%, coda 31%); no change.
+
+## Cycle 394 (v394 → v395), lens 4, Adler ch. 15 flute octave
+- Adler part 2 ch. 15 (Mozart 40/iv and Beethoven 9/i, PDF 150–152): flutes no longer drop to the unison with Vln I at the loud cadences; Fl 1 an octave up at 24–26 and 35–36, both flutes at 164–166 (highest A♭6, below the C7 reserved for 223).
