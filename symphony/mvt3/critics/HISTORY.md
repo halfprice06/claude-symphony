@@ -1697,3 +1697,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 372 (v372 → v373), lens 2, A&S Units 9–10 cadential 6/4
 - 129.3–4: in the development's G-major F2 the weak half of the bar sounded a 6/4 (bass D under the tune's G) resolving to V7 over the same D at 130, the metric error of A&S Ex. 10-6a (PDF 149, 154–155, 160). Beats 3–4 are now IV6 before V (PDF 135): cellos and basses E, Bn 1 B3–C4 held into 130 as V7's prepared seventh (PDF 139), Hn 3 D4–G4, Hn 4 G3–E3, violas rest on beats 3–4, harp E–G–C–E (same pedals). Tune, hand-over, rhythms, dynamics and 130–134 unchanged.
 - Checked, no change: the cadential 6/4s at 18, 38, 109, 158, 243–244, 250 and 220 (c282). Not applied: a 6/4 → 4/2 joint at 74/194 (c282), the diminished-fifth soprano leap of Ex. 9-10.
+
+## Cycle 373 (v373 → v374), lens 3, A&S Unit 26 tonal plan
+- No score change. Key plan checked against A&S Unit 26 (PDF 442–461): exposition and development follow Mozart K. 457's plan (Ex. 26-8), the recapitulation K. 488's VI → ♭II → German sixth → V → I path (Ex. 26-14); every key is confirmed by a cadence with II or IV (PDF 443, 445); G minor and D♭ are transient (PDF 447–448).
+- Not applied: a tonicized IV in the C-major coda (251 clashes with the head's B5; 248–250 protected; 271 has B♮; 265–272 over the tonic pedal); a descending-third sequence of tonicized chords at 235–242 (would anticipate 243's E major); a tonicized VI inside the development's dominant.
