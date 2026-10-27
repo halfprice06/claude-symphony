@@ -1739,3 +1739,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 381 (v381 → v382), lens 1, Rimsky-Korsakov ch. II wind melody
 - 205–206: F1's head over the A♭ pedal had four horns a2 on A♭4 over one trombone; Tbn 2 now plays the head with Tbn 1 instead of holding E♭3 (still in the violas and the head), giving Rimsky-Korsakov's 4 horns over 2 trombones (PDF 74). Horns and 207–210 unchanged.
 - Not applied: winds an octave above the B♭-minor head at 37–38 (would collide with the violins' figure and Fl 1's B♭5), a wind pair in thirds on a theme, a soft horn solo. Kept: the two horns with the cor anglais at 217–218 (protected).
+
+## Cycle 382 (v382 → v383), lens 2, A&S Units 11–13 IV and VI
+- 81–83: the E♭-major F2 cadenced at 81→82, then 82 held E♭ and the closing theme began on E♭ again at 83, two tonic downbeats in a row. 82 is now IV6 for three beats (bass C), V on beat 4 (bass B♭), so V7 → IV6 is a deceptive cadence and the closing theme at 83 is the goal (A&S PDF 170, 191, 200–201, 204–205; Ex. 11-12d, 13-15, 13-20i). Cb, Vc, Bn 1·2, Hn 1·2, Vla, harp. Tune, violin run, animando, dynamics and 83 unchanged; c362's incomplete tonic now falls on 83.
+- Not applied: a second V7 → IV6 at 89–90 (c377's canon), IV6 passing inside V at 120 or 130–131, IV6 → V6/5 over a rising bass (octaves), I–IV6–I6, II6/5 → V4/2 at 84.
