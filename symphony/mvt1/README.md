@@ -22,3 +22,4 @@ Movement I (Lento – Allegro appassionato, C minor) of Dan's four-movement symp
 
 ## Coherence
 Changes that affect another movement are sent to that movement's thread with send_message (old and new notes); coherence/mvt1.md and themes-mvt1.ly/.md are updated when such a change is promoted. Lens-10 cycles read the other coherence files.
+- `tools/lencheck.py <version dir>` (c420): checks every section variable against sections.txt; run it after edits that touch whole bars (the score build alone does not catch a lost bar).
