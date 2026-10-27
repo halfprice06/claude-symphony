@@ -1,6 +1,0 @@
-# v03 (cycle 2)
-- Lens 2 (harmony and voice leading). Reading: A&S Unit 5, Procedures of Four-Part Writing (PDF 74–91). Report: critics/reports/c002.md.
-- Applied (from /tmp/critic-002/work): 20–21 bass C (root-position C7) to D♭ instead of the E–D♭ augmented second, with violas and Vln II revoiced 18–22; 77–78 deceptive cadence without parallel fifths/octaves (Vla `<c' aes'>`, Cl 1 F4); 62 upper voices rise against the falling bass (F♭ major complete, no parallels); inner-voice octaves with the bass removed at 11/75, 18–19, 27/75, 57; motto-tail bars 24, 42, 58, 72 take the root of V7/V in the bass (bass by fifths, no doubled leading tone); 64 bass A–D–E so the E→E♭ slip happens at 65; F♯-minor downbeats 49–50 get their thirds (Vla), cellos move by step at 46–47.
-- Composer's own: the same bass change at bar 8 (BCl `f,4 bes,,4 es,4`), so all motto-tail statements match. The bar-8 harmony was on the do-not-touch list without a reason; the critic's reason (no doubled leading tone) is stronger.
-- Not applied: enharmonic respellings at 46–47 and 50–51 (suggested only); finding 8 (7–14 bassoon 2 fifths over the bass clarinet, harp LH under the bass, clarinets above the horn) left open for the orchestration lens.
-- Build: 0 warnings, 0 parallels, 5 pages. The critic's all-pairs parallel checker is saved as tools/critic-scripts/allpairs_par.py.
