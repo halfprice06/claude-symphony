@@ -2090,3 +2090,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: key plan; development G pedal; 96-108 passing keys; section lengths
 - Cross-movement: none
+
+## Cycle 414 (Orchestration; Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (second pass)) → v415
+- Accepted: Tbn 2 G3 under the C-B strokes at 142 (as at 32); Tpt 3 hands B3 to Tbn 1 at 159.3, fresh E-flat4 at 160
+- Open / not applied: none
+- Do-not-touch: Tbn 1 C4-B3 at 142 with Bsn 1/Vc; Tbn 1 B3 at 159
+- Cross-movement: mvt1.md: Tbn 2 tenor line now 139-141
