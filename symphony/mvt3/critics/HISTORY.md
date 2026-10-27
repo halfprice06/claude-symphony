@@ -1768,3 +1768,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 388 (v388 → v389), lens 8, Adler horns and trumpets
 - Adler PDF 304–305 (Brahms 1/iv Ex. X-8, Don Juan Ex. X-12): swells on the horn call's long notes at 243.3 and 244.2 in Hn 1·2 and Tpt 1·2, returning to the printed level; "molto espr." added. \partCombineChords keeps the a2 horns at 251–266 in one MIDI voice; MIDI notes and velocities unchanged.
 - Con sordino and echo effects considered and declined.
+
+## Cycle 389 (v389 → v390), lens 9, Borodin 2 holistic; A&S double suspension
+- A&S Unit 21 (Ex. 21-2, PDF 346–348) double suspension at 80.4–81: Ob 1 E♭5 tied into 81, resolving to D5 on 81.2, a third under the tune's G5→F5 over V7; Hn 1 ties G3 and plays D4 only from 81.3.
+- Borodin 2/iv holistic comparison and v379 → v389 check: nothing worse. 90.1 surface fifths in c377's wind canon kept (passing dissonance, A&S PDF 341, 343).
