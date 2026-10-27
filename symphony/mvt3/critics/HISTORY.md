@@ -1706,3 +1706,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 249: Tpt 3's hammered C5 clashed by a second with Tpt 2's and Tpt 1's D5 and crossed above Tpt 2; it now plays A4 in the same rhythm, doubling Hn 3, while the timpani keep the C (Rimsky-Korsakov PDF 102–103: such discords in different instruments).
 - 145–146: the brass V7 had a gap between the bass trombone's G2 and D4, with four instruments in unison on D4 and F4; Tbn 2 now holds G3 from 143 and moves to D4 at 147 as before (PDF 100). 147–150 unchanged.
 - Not applied: low-flute thirds between trumpet octaves (PDF 108; c347), two horns and tuba on the bass under three trombones (PDF 101), Tbn 2 off the bass trombone's D♭3 at 211–212 (every alternative makes fifths at 212→213; PDF 112).
+
+## Cycle 375 (v375 → v376), lens 5, Gould PDF 31–41 beams
+- Beams: 95 groups of 2–4 notes sloped 1.65–2 staff-spaces (harp 67–82, 123–130, 235–242; violins 17, 28, 157, 259–262; violas; Cl 1 257–262; bassoon and cellos 35). A score-level `gould-max-slope` callback in score.ly keeps the shorter-stem end and limits the slope to one space (Gould PDF 33–35); no short group now slopes more than 1.35. parts-book.ly does not have it yet (as with c285's callback).
+- Stem direction made uniform inside figuration that spans the stave at Vc 3.3, Vla 38.1, Vln II 163.3 and 165.3 (Gould PDF 39), so their slurs no longer drop below the notes.
+- MIDI byte-identical; nothing else in the reading needed a change.
