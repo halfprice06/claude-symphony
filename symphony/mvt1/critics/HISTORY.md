@@ -2102,3 +2102,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: D-D-flat-C Ob/Cl groups at 27 and 82 flat; Vc 61.1 stems
 - Cross-movement: none
+
+## Cycle 416 (Playability, instrument by instrument; Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (second pass)) → v417
+- Accepted: no change (individual strings review)
+- Open / not applied: none
+- Do-not-touch: Vc F4-F5 at 52.4; Cb part page turn at 171-174; undivided double stops
+- Cross-movement: none
