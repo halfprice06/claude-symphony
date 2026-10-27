@@ -1634,3 +1634,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 255–262: on the chorale's last statement Vln I doubled the top line in tied whole notes ff; it now plays the same notes as bowed tremolo, tied as before (the composer restored the ties so the choraleLast record reads the held notes), the chorale's own violin colour from 223–225 and an agitated pedal over the brass theme (Adler PDF 243, Ex. VIII-11; PDF 161, Ex. V-37; PDF 261–262). Pitches, rhythm, dynamics and the entry at 263 unchanged; the cyclic rule (string tremolo first at 223) holds.
 - Mahler 1/iv comparison: shared devices (outburst, lyrical flat-key second theme, first-movement recalls, failed early goal at 138, closing brass chorale); his coda rises continuously, this one moves in six stages (protected). v349 → v359: nothing worse; at 188 the root A♭ now sounds only in Cl 1's soft off-beat A♭3s, which must stay.
 - Not applied: violin pedal at 111–113, 243–245, 265–272.
+
+## Cycle 360 (v360 → v361), lens 10, cyclic review; Sebesky ch. 9 and ch. 1
+- No score change. Cyclic review: quotations at pitch against movement I v411 (35/35; 199–204 compared part by part with I 27–32), movement II v400 (18/18, 11/11), scherzo v400 (52/52; c383 and c397 not quoted), finale 50/50; C7, tremolo (223–225, 255–262, 273–276), trumpet, cymbal and D♯4→E4 rules intact.
+- finale.md: twelve stale sentences corrected (header versions and record counts, movement II's record location, Vln I tremolo at 255–262, muted trumpet resting 175–178, Tpt 1 B→C now recorded, open requests).
+- Not applied: the bass clarinet doubling the motto at 224–228 (inaudible under the brass; protected; mvt1.md asks for no further bass-clarinet motto tail).
