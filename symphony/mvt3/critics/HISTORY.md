@@ -1651,3 +1651,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - 141–144: Hn 2 and Tbn 2 doubled the leading tone B over the B bass in the brass pads; both now hold G (Hn 2 G4 leads by common tone into its head entry at 143) (A&S PDF 76, Ex. 5-4).
 - 82: V7 of E♭ resolves to an incomplete tonic with tripled root (Ex. 5-5, PDF 76–77), the first use of the device: Hn 1 E♭4 (was B♭3), cellos E♭ (was G); every pad voice moves by step, the harp still has B♭.
 - Not applied: the Vln II–viola gap at 114 (one fading chord), d5→P5 in inner voices at 72.3/192.3, contrary fifths at 198→199 (protected), Vln II at 144 (protected stretto), emphatic outer octaves (Ex. 5-27a; no free cadence).
+
+## Cycle 363 (v363 → v364), lens 3, A&S Unit 14 approaching the dominant
+- 157–158: the recapitulation's F1 half cadence repeated F–D in the bass (ii°7); it now has the exposition's ♯IV7 approach from c332, bass F–F♯–G (Bn 1·2, B.tbn, Vc, Cbsn, Cb), Hn 4 F→E♭, Tbn 2 F–E♭ tied, Cl 1·2 as at 17 (A&S Unit 14, PDF 211–229). Tune, scoring and dynamics unchanged.
+- 193–194: the A♭ statement of F2 goes IV – V6/5 of V – V7, bass D♭–D♮–E♭, as c273 did at 73–74 (A&S Ex. 14-3): Bn 2, Cb; Vc and Bn 1 hold F3 on beat 4; Cl 1 `r8 aes8( f8 aes8)` (B♭3 made octaves with the tune). Pitches only; c273's scoring protection kept.
+- Not applied: the Phrygian half cadence at 177–178 (as at 57), modulation through I5–6 (only 95–98 fits, protected), an applied chord at 249–250 (protected).

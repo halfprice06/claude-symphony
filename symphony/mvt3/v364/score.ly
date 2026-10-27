@@ -4,7 +4,7 @@
 \header {
   title = "Symphony No. 1 in C minor"
   subtitle = "IV. Finale: Allegro con fuoco"
-  subsubtitle = \markup \center-column { "Full score in C — draft v362" \small "Contrabassoon and double basses sound an octave lower than written (double basses: C extension at 166 and 174–183)" \small "After movement III (Scherzo): a pause" \small "Duration: about 7 minutes" \small "Instrumentation: 2 flutes, 2 oboes, cor anglais in F, 2 clarinets in B♭, bass clarinet in B♭, 2 bassoons, contrabassoon — 4 horns in F, 3 trumpets in C, 2 trombones, bass trombone, tuba —" \small "4 timpani (G, A♭, C, E♭), percussion (2 players: crash cymbals, bass drum), harp — strings" }  % c345: MOLA PDF 6, the score names the full instrumentation, the keys of the transposing instruments and the percussion with its number of players
+  subsubtitle = \markup \center-column { "Full score in C — draft v364" \small "Contrabassoon and double basses sound an octave lower than written (double basses: C extension at 166 and 174–183)" \small "After movement III (Scherzo): a pause" \small "Duration: about 7 minutes" \small "Instrumentation: 2 flutes, 2 oboes, cor anglais in F, 2 clarinets in B♭, bass clarinet in B♭, 2 bassoons, contrabassoon — 4 horns in F, 3 trumpets in C, 2 trombones, bass trombone, tuba —" \small "4 timpani (G, A♭, C, E♭), percussion (2 players: crash cymbals, bass drum), harp — strings" }  % c345: MOLA PDF 6, the score names the full instrumentation, the keys of the transposing instruments and the percussion with its number of players
   tagline = ##f
 }
 
@@ -341,34 +341,17 @@ fullScore = #(define-music-function (timpMusic) (ly:music?) #{
   >>
 #})
 
-\score { <<
-  \new Staff = "Fl1" \with { instrumentName = "Fl1" } { \removeWithTag #'part \fluteOne }
-  \new Staff = "Fl2" \with { instrumentName = "Fl2" } { \removeWithTag #'part \fluteTwo }
-  \new Staff = "Ob1" \with { instrumentName = "Ob1" } { \removeWithTag #'part \oboeOne }
-  \new Staff = "Ob2" \with { instrumentName = "Ob2" } { \removeWithTag #'part \oboeTwo }
-  \new Staff = "CA" \with { instrumentName = "CA" } { \removeWithTag #'part \corAnglais }
-  \new Staff = "Cl1" \with { instrumentName = "Cl1" } { \removeWithTag #'part \clOne }
-  \new Staff = "Cl2" \with { instrumentName = "Cl2" } { \removeWithTag #'part \clTwo }
-  \new Staff = "BCl" \with { instrumentName = "BCl" } { \removeWithTag #'part \bassCl }
-  \new Staff = "Bn1" \with { instrumentName = "Bn1" } { \removeWithTag #'part \bsnOne }
-  \new Staff = "Bn2" \with { instrumentName = "Bn2" } { \removeWithTag #'part \bsnTwo }
-  \new Staff = "Cbn" \with { instrumentName = "Cbn" } { \removeWithTag #'part \cbsn }
-  \new Staff = "Hn1" \with { instrumentName = "Hn1" } { \removeWithTag #'part \hnOne }
-  \new Staff = "Hn2" \with { instrumentName = "Hn2" } { \removeWithTag #'part \hnTwo }
-  \new Staff = "Hn3" \with { instrumentName = "Hn3" } { \removeWithTag #'part \hnThree }
-  \new Staff = "Hn4" \with { instrumentName = "Hn4" } { \removeWithTag #'part \hnFour }
-  \new Staff = "Tp1" \with { instrumentName = "Tp1" } { \removeWithTag #'part \tptOne }
-  \new Staff = "Tp2" \with { instrumentName = "Tp2" } { \removeWithTag #'part \tptTwo }
-  \new Staff = "Tp3" \with { instrumentName = "Tp3" } { \removeWithTag #'part \tptThree }
-  \new Staff = "Tb1" \with { instrumentName = "Tb1" } { \removeWithTag #'part \tbnOne }
-  \new Staff = "Tb2" \with { instrumentName = "Tb2" } { \removeWithTag #'part \tbnTwo }
-  \new Staff = "BTb" \with { instrumentName = "BTb" } { \removeWithTag #'part \bassTbn }
-  \new Staff = "Tba" \with { instrumentName = "Tba" } { \removeWithTag #'part \tuba }
-  \new Staff = "VnI" \with { instrumentName = "VnI" } { \removeWithTag #'part \vlnOne }
-  \new Staff = "VnII" \with { instrumentName = "VnII" } { \removeWithTag #'part \vlnTwo }
-  \new Staff = "Vla" \with { instrumentName = "Vla" } { \removeWithTag #'part \vla }
-  \new Staff = "Vc" \with { instrumentName = "Vc" } { \removeWithTag #'part \vc }
-  \new Staff = "Cb" \with { instrumentName = "Cb" } { \removeWithTag #'part \cb }
-  >>
-  \midi { \context { \Score midiChannelMapping = #'staff } }
+\score { \fullScore \removeWithTag #'part \timp
+  \layout { }
+}
+
+% c325: MIDI only (see fullScore): the same orchestra, the timpani rolls as repeated strokes
+\score { \fullScore \rollStrokesByBar #rollStrokeTable \removeWithTag #'part \timp
+  \midi { \context { \Score midiChannelMapping = #'instrument
+    % \subP is a markup dynamic ("sub. p"): give it the p volume. sf/fp were unmapped and fell back to the default (0.71, louder than ff).
+    dynamicAbsoluteVolumeFunction = #(lambda (d) (if (string? d)
+      (assoc-get d '(("ppp" . 0.25) ("pp" . 0.33) ("p" . 0.42) ("mp" . 0.5) ("mf" . 0.58) ("f" . 0.66) ("ff" . 0.72) ("fff" . 1.0) ("sf" . 0.66) ("fp" . 0.42)) #f)
+      0.42)) }
+    % Harp: one set of dynamics for both hands (printed under the LH); the RH staff has none, so its notes played at the default volume.
+    \context { \PianoStaff \consists "Dynamic_performer" } }
 }
