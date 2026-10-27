@@ -1720,3 +1720,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 377 (v377 → v378), lens 7, Adler part 2 PDF 251–281 contrast of choirs
 - 87–90: the scale figure was played twice in the same mix (violins in octaves with flute, oboe at 89–90). Now 87–88 is violins alone, and 89–90 winds alone: Fl 1 leads at F6, f <, with Ob 1 (F5) and Cl 1 (F4) a beat later in canon at the octave, meeting on F5 at 90.4; the violins return ff at 91 (Adler part 2 PDF 253–255, 271–272: a gesture passed between choirs before the tutti; two woodwinds in imitation, new in the score). Undoes c304's oboe doubling. Bass, inner chords, horns and 91 onward unchanged.
 - Checked, no change: further wind imitation (protected places or too close to this one); third returns are already rescored.
+
+## Cycle 378 (v378 → v379), lens 8, Adler ch. 7 expression marks
+- 239–246: the counter's second statement (Cl 1 with the violas) swells on its tied A4 at 240–241 as the first does at 236–237 (c278); Cl 1 drops with the violas at 242, mf at 243, cresc. to f at 246 with the bassoons (its crescendo had no end level); Fl 1 and Ob 1 end their diminuendo on mf at 242, removing the one unequal dynamic on a shared staff (Adler PDF 185, 188, 212, 218; Ex. VII-9, VII-63, VII-75).
+- 102 and 106: in the development's wind statements of the scale figure (Fl 1, Ob 1, Cl 1) the rising half crescendos into the accented top note, as at 44, 46 and 89–90 (Adler PDF 186, 227; Ex. VII-4, VII-93). Level stays mf; notes unchanged.
+- Checked, no change: fp on long notes, sfp attacks, Fl 1's B♭6 at 78, the clarinet figure at 151–158, the bassoon solo at 119–122.
