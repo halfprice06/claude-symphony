@@ -2547,3 +2547,10 @@ Release check of cycles 201-399. Report: reports/c400.md.
 - Closed: the five optional items c400 lists as carried without action.
 - Open: coherence/mvt2.md facts to refresh at the end of the series (timpani roll at 78 b3; "medium sticks" at 77 prints in the score).
 - Do-not-touch: standing list; the 8-page layout; Bsn 1 has no f at 78 in the MIDI (a hidden f caused a warning; Bsn 2's f sets the level).
+
+
+## Cycle 401 (v401 → v402)
+melody; Rimsky-Korsakov ch. II Melody, PDF 64-80, second pass. Report: reports/c401.md.
+- Accepted: nothing (v402 = v401 relabelled).
+- Recorded (no change): c401: no change. Horn chromatic theme A at p is Rimsky's exception (PDF 72, Ex. 76); Fl over C.a. in sixths at 41-44 follows PDF 70 and Ex. 57; theme B head at 61-62 has string and wind in each octave (PDF 76, Ex. 87); theme A memorable, theme B adequate as middle tune (Dvořák 9/ii).
+- Do-not-touch: standing list; the 8-page layout.
