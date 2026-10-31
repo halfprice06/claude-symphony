@@ -2575,3 +2575,9 @@ orchestration; Rimsky-Korsakov appendix of tutti chords PDF 505-510 and ch. IV e
 - Accepted: nothing (v405 = v404 relabelled).
 - Recorded (no change): c404: no change. Tutti at 61-62 follows chords 1-4 (PDF 505): each group complete, root alone in the lowest octave, brass close one level under; 79-81 follows Ex. 209 (string chord rejected at c114); 63 empty twelfth kept for the Tbn 1 quotation (c074); soft wind chords at 3-6 and 31-36 match chords 13, 14, 16.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 405 (v405 → v406)
+engraving; Gould PDF 41-52. Report: reports/c405.md.
+- Accepted: Cl 2 rest at 82 b3 at staff-position -4 (score only).
+- Do-not-touch: harp 8 bassa plan; B flat6 at pitch at 79; shared-rest fixes at 59, 63, 82; the 8-page layout.
