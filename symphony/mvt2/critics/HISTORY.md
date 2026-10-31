@@ -2749,3 +2749,10 @@ cyclic design; Adler ch. 1 (adler1 PDF 19-23) and ch. 15 end (adler2 PDF 187-196
 - Accepted: nothing (v431 = v430 relabelled).
 - Recorded (no change): c430: no change to the score. Theme records 18/18, 11/11; joins with I v421, III, IV hold; changes since c420 touch no join; Cl 1 to Vln I C5 hand-over at 89 kept (protected); coherence/mvt2.md updated for the new rehearsal letters and changes to v430.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 431 (v431 → v432)
+melody; Sebesky ch. 6-7, PDF 204-230. Report: reports/c431.md.
+- Accepted: nothing (v432 = v431 relabelled).
+- Recorded (no change): c431: no change. C.a. a sixth above the B.cl. in the same rhythm at 33 kept (harmony fixes every beat; the delay alternative gives parallel sevenths); clarinet coda line at 85-90 is the motto tail in augmentation (protected); motion on held beats at phrase ends; theme A on the Dvořák Largo model; long-note leads, solo entries and quotations follow.
+- Do-not-touch: standing list; the 8-page layout.
