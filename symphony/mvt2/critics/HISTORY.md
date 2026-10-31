@@ -2756,3 +2756,10 @@ melody; Sebesky ch. 6-7, PDF 204-230. Report: reports/c431.md.
 - Accepted: nothing (v432 = v431 relabelled).
 - Recorded (no change): c431: no change. C.a. a sixth above the B.cl. in the same rhythm at 33 kept (harmony fixes every beat; the delay alternative gives parallel sevenths); clarinet coda line at 85-90 is the motto tail in augmentation (protected); motion on held beats at phrase ends; theme A on the Dvořák Largo model; long-note leads, solo entries and quotations follow.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 432 (v432 → v433)
+harmony; A&S Units 22-23 diminished sevenths and mixture, PDF 373-397. Report: reports/c432.md.
+- Accepted: nothing (v433 = v432 relabelled).
+- Recorded (no change): c432: no change. Viola triplets at 40 d5-P5 across a broken chord at pp (c153 protected; optional fix in report); all diminished sevenths resolve (33, 40, 56, 59, 64, 81); cross relations only the recorded one at 21; B1-A flat1 at 50-51 keeps its spelling; every F flat reaches E flat; half-diminished sevenths and mixture plan complete.
+- Do-not-touch: standing list; the 8-page layout.
