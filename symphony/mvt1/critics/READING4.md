@@ -106,7 +106,7 @@ Cycle N reviews vN and produces v(N+1). Series 4 repeats the series 3 plan: cycl
 | 520 | 10 | Release check: every do-not-touch item in HISTORY.md, every change since the last release check (v421 for cycle 520; v521 for cycle 620), every book rule cited in them, and the coherence files of all four movements |
 | 521 | 1 | Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (fourth pass) |
 | 522 | 2 | Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (fourth pass) |
-| 523 | 3 | Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (fourth pass) |
+| 523 | 3 | Aldwell & Schachter Unit 17 Diatonic Sequences, judged as pacing: sequence length, where sequences stop, development momentum (aldwell-schachter PDF 263-288) (replaces a fourth pass of Unit 26, which found no change in four passes; c433) |
 | 524 | 4 | Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (fourth pass) |
 | 525 | 5 | Gould ch. 1: beams (gould-behind-bars PDF 31-41) (fourth pass) |
 | 526 | 6 | Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (fourth pass) |
@@ -196,7 +196,7 @@ Cycle N reviews vN and produces v(N+1). Series 4 repeats the series 3 plan: cycl
 | 610 | 10 | Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (fourth pass) |
 | 611 | 1 | Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (fourth pass) |
 | 612 | 2 | Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (fourth pass) |
-| 613 | 3 | Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (fourth pass) |
+| 613 | 3 | Aldwell & Schachter Unit 3 Rhythm and Meter: hypermeter, phrase rhythm and pacing of arrivals (aldwell-schachter PDF 47-57) (replaces a fifth pass of Unit 26; c433) |
 | 614 | 4 | Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (fourth pass) |
 | 615 | 5 | Gould ch. 1: beams (gould-behind-bars PDF 31-41) (fourth pass) |
 | 616 | 6 | Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (fourth pass) |

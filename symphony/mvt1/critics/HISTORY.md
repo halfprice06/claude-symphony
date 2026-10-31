@@ -2210,3 +2210,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: form lens has found no change in four passes of A&S Unit 26: consider another reading at 523
 - Do-not-touch: section lengths; arrivals 47, 131, 147; 139-143 late iv; 117-130
 - Cross-movement: none
+
+## Cycle 434 (Orchestration; Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (third pass)) → v435
+- Accepted: no change (brass and combined groups, third pass); record: bar 122 horns are four different notes, each doubling a trumpet or trombone (not horn pairs)
+- Open / not applied: none
+- Do-not-touch: 140.3-142.4 brass block; 162 Tpt 3/Tbn 1 C4; 24-25/136-137 E-flat4 doubling
+- Cross-movement: none
