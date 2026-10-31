@@ -2228,3 +2228,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Vc F4-F5 at 52.4; Vc bass clef 88-92; Cb page turn 171-174; undivided double stops
 - Cross-movement: none
+
+## Cycle 437 (Texture and counterpoint; Adler ch. 15 polyphonic texture (adler2 PDF 172-186) (third pass)) → v438
+- Accepted: no change (polyphonic texture, third pass)
+- Open / not applied: none
+- Do-not-touch: fugato 85-96; 103-110 combined heads; 69-72 codetta; 158-161; 127-130 timpani
+- Cross-movement: none
