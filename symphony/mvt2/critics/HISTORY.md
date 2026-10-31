@@ -2634,3 +2634,10 @@ form; Rimsky-Korsakov ch. IV, PDF 115-136. Report: reports/c413.md.
 - Accepted: nothing (v414 = v413 relabelled).
 - Recorded (no change): c413: no change. Builds at 53-61 and 75-79 add strings, woodwind, brass and release in reverse (PDF 130); each theme return newly scored (PDF 116-118); two different peaks, brass held back (PDF 119-121, 136); phrase transfers on shared notes; 83's empty middle kept (c063/c124); proportions in seconds: 345 s, climax 65 percent, second peak 82 percent, A' 43 s, coda 40 s.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 414 (v414 → v415)
+orchestration; Adler ch. 15, adler2 PDF 146-158, second pass. Report: reports/c414.md.
+- Accepted: nothing (v415 = v414 relabelled).
+- Recorded (no change): c414: no change. Climax octaves weighted as Mozart 40/iv (PDF 151), brass one level under (PDF 147); colour changes at 37-52 on phrase boundaries (PDF 146); new colours after rests or anacruses (PDF 156-157); Romantic unisons at 53-60 (PDF 158-159); string-free 7-14 and 31-36 (protected).
+- Do-not-touch: standing list; the 8-page layout.
