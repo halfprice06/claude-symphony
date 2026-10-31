@@ -187,6 +187,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 417 (lens 7 texture, Adler ch. 15 polyphonic texture (adler2 PDF 172-186) (fifth pass)) v417 → v418
+Accepted: cellos quote the second idea's head at 65–66 (sB.ily). Rejected: the quote in the reprise fugato 289–296 (keeps the reprise's shortening). Do-not-touch: the fugato stays strings alone; the second idea's head in the cellos at 65–66.
+
 ## Cycle 416 (lens 6 playability, Adler ch. 12 The Percussion Ensemble: timpani tuning and technique, cymbals, bass drum (adler2 PDF 55-91), and ch. 14 Scoring for Percussion (adler2 PDF 106-145) (fifth pass)) v416 → v417
 Accepted: damped timpani strokes at 200, 287, 323, 339 (tB, dA, dC, coda). Do-not-touch: timpani strokes before a rest or a change of harmony are damped (staccato) unless meant to ring.
 
