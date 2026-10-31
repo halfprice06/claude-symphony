@@ -2270,3 +2270,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: flat-VI to V routes 10-13, 60-62, 82-83, 122, 160-161; recap proportion; 162-166 release; 96-97 dialogue
 - Cross-movement: none
+
+## Cycle 444 (Orchestration; Rimsky-Korsakov appendix of single tutti chords (rimsky-principles PDF 505-510) and the tutti examples cited in ch. IV (third pass)) → v445
+- Accepted: Vc tremolo on A-flat3/G3 at 122-123 with the upper strings (Rimsky appendix tutti chords, PDF 505)
+- Open / not applied: none
+- Do-not-touch: 122 bass spacing (c404); no harp at 122/160; Cb G1 pedal 117-130 untremoloed; tuttis 26, 27, 31, 82-83, 138, 158-162, 170
+- Cross-movement: none
