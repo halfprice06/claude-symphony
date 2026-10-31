@@ -2669,3 +2669,10 @@ expression; Adler adler2 PDF 37-40, 187-196. Report: reports/c418.md.
 - Accepted: strings "molto sostenuto" at 79.
 - Closed: c416's Ob 1 / C.a. niente at 82 stays.
 - Do-not-touch: brass economy (no trumpets, trombones only 60-64, Tbn 1 alone 63-64); sf>p tremolo and Cb pizz. sf at 63; held-note handovers at 1-6, 65-70, 87-92; staged release at 81-83; the 8-page layout.
+
+
+## Cycle 419 (v419 → v420)
+holistic comparison with a master work (Brahms Violin Concerto Op. 77/ii); Rimsky-Korsakov examples 130-209. Report: reports/c419.md.
+- Accepted: nothing (v420 = v419 relabelled).
+- Recorded (no change): c419: no change. Wind-only opening with one solo voice as Brahms Op. 77/ii; two ff peaks supported by PDF 120 and Ex. 209; horn/trombone/woodwind balance at 60-61 matches PDF 102-103, 112; each theme return newly scored; coda blend as Ex. 143, 169; nothing worse since v409.
+- Do-not-touch: standing list; the 8-page layout.
