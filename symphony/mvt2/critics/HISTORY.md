@@ -2554,3 +2554,10 @@ melody; Rimsky-Korsakov ch. II Melody, PDF 64-80, second pass. Report: reports/c
 - Accepted: nothing (v402 = v401 relabelled).
 - Recorded (no change): c401: no change. Horn chromatic theme A at p is Rimsky's exception (PDF 72, Ex. 76); Fl over C.a. in sixths at 41-44 follows PDF 70 and Ex. 57; theme B head at 61-62 has string and wind in each octave (PDF 76, Ex. 87); theme A memorable, theme B adequate as middle tune (Dvořák 9/ii).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 402 (v402 → v403)
+harmony; A&S Units 11-13 (PDF 163-210). Report: reports/c402.md.
+- Accepted: Vln II 39 b3-4 C4 under G flat4: ii7's D flat resolves down (A&S PDF 177), c142 kept (B flat once).
+- Recorded (no change): 41/57 7-8 appoggiatura; ii7 at 12-13, 28-29, 76-77 without held 4̂; IV6 at 37-38, 53-54; 87-88 bass leap; pp viola-triplet octaves at 37-43 and 76.
+- Do-not-touch: standing list; the 8-page layout.
