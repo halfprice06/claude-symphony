@@ -2216,3 +2216,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 140.3-142.4 brass block; 162 Tpt 3/Tbn 1 C4; 24-25/136-137 E-flat4 doubling
 - Cross-movement: none
+
+## Cycle 435 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: beams (gould-behind-bars PDF 31-41) (third pass)) → v436
+- Accepted: no change (beams, third pass; first beam check of the parts, all clean)
+- Open / not applied: none
+- Do-not-touch: Ob 160.3 beam; flute up-stem groups 27-30, 139-140; Vc 61.3
+- Cross-movement: none
