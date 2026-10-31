@@ -2742,3 +2742,10 @@ expression; Casanelles PDF 145-161, 290-291. Report: reports/c428.md.
 holistic (Rachmaninoff PC 2/ii); Rimsky Ex. 206-274. Report: reports/c429.md.
 - Accepted: cellos 28 A flat3-F3-D flat4 (c279's open item closed).
 - Do-not-touch: cellos at 76 keep the held A flat3 (violas' eighths); standing list; the 8-page layout.
+
+
+## Cycle 430 (v430 → v431)
+cyclic design; Adler ch. 1 (adler1 PDF 19-23) and ch. 15 end (adler2 PDF 187-196). Report: reports/c430.md.
+- Accepted: nothing (v431 = v430 relabelled).
+- Recorded (no change): c430: no change to the score. Theme records 18/18, 11/11; joins with I v421, III, IV hold; changes since c420 touch no join; Cl 1 to Vln I C5 hand-over at 89 kept (protected); coherence/mvt2.md updated for the new rehearsal letters and changes to v430.
+- Do-not-touch: standing list; the 8-page layout.
