@@ -1,5 +1,5 @@
 # FIFTH RUN 2026-10-31 (Dan 18:40: "Have each one go another 200 loops"): cycles 400–599, v400 → v600, thread "Continue scherzo loop to v600", branch claude/project-thread-kusasb (PR when done). Kit: READING.md to cycle 600 (cycles 400 and 500 are release checks), MASTERS.txt lines 41–60, critic prompt says 600 cycles. Cycle 599's promotion writes the release title by hand at v600. Main holds only the final versions, so this run keeps every vNN folder on the branch.
-- Per cycle: `bash kit/next.sh N "critique" "history" "focus for N+1"` (focus default: `$(cat kit/focus-standard.txt)`); critic: Agent general-purpose background, "Read your full task from /home/user/claude_composes/symphony/scherzo/kit/pN.txt and carry it out exactly."
+- Per cycle: `bash kit/next.sh N "critique" "history" "focus for N+1"` (focus default: `$(cat kit/focus-fifth.txt)` (standard text plus a push against no-change cycles, from c404)); critic: Agent general-purpose background, "Read your full task from /home/user/claude_composes/symphony/scherzo/kit/pN.txt and carry it out exactly."
 - Fresh container: apt-get install -y lilypond fluidsynth fluid-soundfont-gm poppler-utils ffmpeg; pip install mido soundfile scipy numpy.
 
 # RUN FINISHED 2026-10-26 23:35 UTC at v400 (fourth run, cycles 300–399)

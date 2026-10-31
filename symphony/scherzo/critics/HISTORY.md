@@ -184,6 +184,18 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 404 (lens 4 orchestration, Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (fifth pass)) v404 → v405
+Accepted: 197–200 call dynamics one level under T (tB.ily). Rejected: flutes an octave up at 113–114 (weakens the C6 peak at 116; B6/C7 protected); thinning the second idea 45–56 (c224/c314). Do-not-touch: T is the principal voice at 197–200, the call stays a level under it.
+
+## Cycle 403 (lens 3 form, Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (fifth pass)) v403 → v404
+Accepted: no change. Do-not-touch reason reworded: the coda's A-major stage 341–348 is the upper neighbour IV in an I–IV–I prolongation of E (A&S PDF 256–257), not 'the upper 5th of IV' (c313). Rejected: a III divider in the retransition 241–252 (inside the protected G♯–G–F♯ span).
+
+## Cycle 402 (lens 2 harmony, Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (fifth pass)) v402 → v403
+Accepted: no change. Rejected: vii°7 or viiø7 in the trio codetta 226–236 (IV–iv mixture is the point, A&S Ex. 23-8); 44→45 hidden fifths (Cl 2 B3 takes the resolution); 331 F/F♯ cross-relation (F protected for finale IV 272). Open: none.
+
+## Cycle 401 (lens 1 melody, Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (fifth pass)) v401 → v402
+Accepted: no change. Do-not-touch wording: T in Cl 1 at 153 lies in the clarino except the bar-3 quaver F♯4 (throat; kept as a passing note). Open: the second idea is still the least memorable of the four ideas (c401 found no reading reason to change its notes).
+
 ## Cycle 400 (lens 10 cyclic, Release check: every do-not-touch item in HISTORY.md, every change in the last 100 cycles, and every book rule cited in them (fourth pass)) v400 → v401
 Accepted: no score change; record wording fixes in coherence/scherzo.md and themes-scherzo.md. Open: none. Do-not-touch: as c400's closing line (G♯ frame, timpani labels at 1 and 376, motive x 9–12 and 363–371, theme A bar 2 at pitch, F at 331, motto close 357–360 and its preview 205–209, harp harmonics at 375, Cl 2 G4 at 7, single B6/fff at 336).
 
