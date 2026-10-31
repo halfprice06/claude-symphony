@@ -2264,3 +2264,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 149 ii triad (pp dolce); 53/153 C5 over ii6; 61 F-flat bass; 158-166 cadence chain
 - Cross-movement: none
+
+## Cycle 443 (Form, pacing and proportion; Aldwell & Schachter Unit 32 Chromaticism in Larger Contexts (aldwell-schachter PDF 584-606) (third pass)) → v444
+- Accepted: no change (chromaticism in larger contexts as form, third pass)
+- Open / not applied: none
+- Do-not-touch: flat-VI to V routes 10-13, 60-62, 82-83, 122, 160-161; recap proportion; 162-166 release; 96-97 dialogue
+- Cross-movement: none
