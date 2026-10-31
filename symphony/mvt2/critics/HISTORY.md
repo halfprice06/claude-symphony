@@ -2600,3 +2600,10 @@ texture; Adler ch. 5 string writing, adler1 PDF 132-167. Report: reports/c407.md
 expression; Rimsky-Korsakov PDF 129-136. Report: reports/c408.md.
 - Accepted: timpani 78 b3 pp< (Rimsky PDF 136, as c358 at 60).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 409 (v409 → v410)
+holistic comparison with a master work (Beethoven Violin Concerto Op. 61/ii); Rimsky-Korsakov examples 1-60. Report: reports/c409.md.
+- Accepted: nothing (v410 = v409 relabelled).
+- Recorded (no change): c409: no change. Against Beethoven Op. 61/ii (soft single-colour opening, tune handed to solo winds, leads straight on) it holds; nothing worse since v400; bass pedal at 65-70 matches Ex. 40, climax at 61-62 Ex. 32, 71-78 Ex. 25/31, coda strings Ex. 5/26, wind octaves at 79-81 doubled by violins (PDF 67-68).
+- Do-not-touch: standing list; the 8-page layout.
