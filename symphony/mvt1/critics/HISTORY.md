@@ -2246,3 +2246,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 15-27 build; 46-52 Hn 1+Vc unison (mvt II colour); soft C-major recap and ppp attacca; 77-130 scoring
 - Cross-movement: none
+
+## Cycle 440 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (third pass)) → v441
+- Accepted: no change (cyclic design, A&S Unit 26 third pass); mvt1.md: key-plan record and v432-v441 change line
+- Open / not applied: none
+- Do-not-touch: transition 33-47 route; 117-130 G pedal; coda without root-position V-I; reserve list
+- Cross-movement: record lines only (coherence/mvt1.md)
