@@ -1882,3 +1882,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 416 (v416 → v417), lens 6, Adler percussion
 - Adler part 2 ch. 12 (PDF 79, timpani on tonic and dominant at cadences): the A♭ drum stays on B♭ from 37 to 94 so the timpani strike E♭/B♭ with the trumpets, tuba and basses in the codetta (91–94: `es4-> r8 es8 bes,4-> r4` twice, then `r4 es2-> bes,4->`); "muta B♭ in A♭" moves from 43 to 95.
 - Same source: bar 113, the timpani play F2 with the bass on the development's F-minor cadence instead of C (G drum to F at 95, back to G at 114). Range now F2–E♭3. Parts book builds with 0 warnings.
+
+## Cycle 417 (v417 → v418), lens 7, Adler ch. 15 polyphony
+- Adler part 2 ch. 15 polyphonic texture (PDF 172–186): violas in thirds and sixths under Vln II at 255–258 (Mozart, PDF 176) tested and declined (new fifth at 258.1 with Cl 1, masked by held brass, undoes c327's viola–cello unison). 247–254 three-octave doubling kept (register gap holds the second theme). No score change.
