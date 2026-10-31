@@ -2703,3 +2703,10 @@ form; A&S Units 16 and 19, PDF 249-262 and 304-325. Report: reports/c423.md.
 - Accepted: nothing (v424 = v423 relabelled).
 - Recorded (no change): c423: no change. Bar 43 b1-3 two 6/4s kept, but for a corrected reason: c283's ii4/3 reading is wrong (the viola D flat stops on the beat); the bass alone moves under held voices inside the subdominant (A&S 19 sec. 5, Ex. 19-12; sec. 16, Ex. 19-28). This reason replaces c283's. Seven 6/4 chords as c362; three equal six-bar one-chord frames (about 21 s each); 53-61 one passing motion to 61; 77-81 flat VI neighbour with interpolation. Total 345 s, climax 65 percent, second peak 84 percent.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 424 (v424 → v425)
+orchestration; Rimsky-Korsakov ch. III brass harmony and wind-brass combinations, PDF 100-114. Report: reports/c424.md.
+- Accepted: nothing (v425 = v424 relabelled).
+- Recorded (no change): c424: no change. Climax brass at 61-62 close, low brass in octaves, single horns one degree louder, woodwind above (c224, c086); Hn 4 entry at 60 (c364); Tbn 1 over tremolo at 63-64; muted horns with C.a. at 87-90; horn/bassoon crossing at 67-70; 79-81 moving horns under held woodwind (c129 exception); Hn 3-4 seventh at 29-30 also in cellos, alternative rejected.
+- Do-not-touch: standing list; the 8-page layout.
