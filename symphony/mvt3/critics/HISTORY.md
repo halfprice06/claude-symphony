@@ -1885,3 +1885,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 417 (v417 → v418), lens 7, Adler ch. 15 polyphony
 - Adler part 2 ch. 15 polyphonic texture (PDF 172–186): violas in thirds and sixths under Vln II at 255–258 (Mozart, PDF 176) tested and declined (new fifth at 258.1 with Cl 1, masked by held brass, undoes c327's viola–cello unison). 247–254 three-octave doubling kept (register gap holds the second theme). No score change.
+
+## Cycle 418 (v418 → v419), lens 8, Adler bowing
+- Adler PDF 38–39 (about six notes per bow at forte): the cellos' run at 209–210 now slurs 4 + 8 like Vln II (was 12 on one bow); Vln I down-bow at 209, so all three lines reach the accented G♭ at 210.3 on a down-bow.
+- Adler PDF 38, 42–43: down-bows for the lower strings on the accented arrivals at 113 (Vla, Cb) and 132 (Vla, Vc, Cb), matching the violins. Bow signs only; MIDI unchanged.
