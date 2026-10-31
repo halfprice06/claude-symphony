@@ -2537,3 +2537,13 @@ holistic comparison with a master work (Bruch 3/ii, G major). Report: reports/c3
 - Accepted: nothing (v400 = v399 relabelled).
 - Recorded (no change): c399 (Rimsky-Korsakov examples 69-130; Bruch 3/ii from the IMSLP score): no change. Third relations, soft wind frame, string accompaniment under the middle-section wind tune and a busier return all match; nothing worse since v389; inverted-dominant doublings, brass at 60-62 and the coda follow. Stop check: clean build, 8 pages, 30-page parts book, theme record 18/18 and 11/11.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+# Fourth series (cycles 400-599, to v600), from 2026-10-31
+
+## Cycle 400 (v400 → v401)
+Release check of cycles 201-399. Report: reports/c400.md.
+- Accepted: Bsn 1 MIDI-only mp (76) and mf (77 b3) via the new 'midi tag (score.ly bsnOneX, genparts.py), closing the c338 open item; print unchanged. A&S citation corrections: c220's "PDF 553-554" is PDF 543-544, c322's "PDF 553/554/556" are PDF 543/544/546; 33's C flat spelling also follows Brahms Op. 87 (PDF 544-545).
+- Closed: the five optional items c400 lists as carried without action.
+- Open: coherence/mvt2.md facts to refresh at the end of the series (timpani roll at 78 b3; "medium sticks" at 77 prints in the score).
+- Do-not-touch: standing list; the 8-page layout; Bsn 1 has no f at 78 in the MIDI (a hidden f caused a warning; Bsn 2's f sets the level).
