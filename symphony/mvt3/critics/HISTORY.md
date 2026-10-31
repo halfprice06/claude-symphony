@@ -1859,3 +1859,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Cyclic review against movement I v421, movement II v400 and scherzo v400: all quotations at pitch, records 51/51, 35/35, 18/18, 11/11, 52/52; cyclic rules hold.
 - A&S Unit 32 (PDF 586–593): Hn 1 common-tone E♭4 from 186 into 187 tested and declined (17 pages, covers the protected 171–186 cadence). No score change.
 - coherence/finale.md: six stale passages corrected (bar 82 iv6, Fl 2 at 263, Vln II and cello runs at 207–210, E♭ silence now 217–218, running list moved under its heading, open request now as of v410); note added on the scherzo's last horn phrase continuing into bars 1–2.
+
+## Cycle 411 (v411 → v412), lens 1, Sebesky melody
+- Sebesky ch. 6–7 (PDF 204–230, Ex. 273): carrying F2's fourth phrase in violas and cellos into the cadence at 259–262 tested and declined (octaves or fifths into 263, masked by the brass, loses the viola pulse). No score change.
