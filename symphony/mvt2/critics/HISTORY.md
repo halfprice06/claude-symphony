@@ -2716,3 +2716,10 @@ orchestration; Rimsky-Korsakov ch. III brass harmony and wind-brass combinations
 engraving; Adler ch. 18, App. A (adler2 PDF 291-312). Report: reports/c425.md.
 - Accepted: rehearsal letter D at 31; letters from 37 move up one (E 37 ... L 83). Earlier HISTORY entries that name letters D-K mean the old letters: refer by bar number.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 426 (v426 → v427)
+playability; Adler ch. 10-11 brass, adler1 PDF 282-329, adler2 PDF 1-13. Report: reports/c426.md.
+- Accepted: nothing (v427 = v426 relabelled).
+- Recorded (no change): c426: no change. Hn 1 endurance 53-67 with 16.7 s rest before the solo; Hn 3-4 unison to written G flat5 (c086); cold entries cued; trombone slide motion and B.tbn F attachment; tuba and B.tbn at 60-62; mute plan 82-92; all brass in range.
+- Do-not-touch: standing list; the 8-page layout.
