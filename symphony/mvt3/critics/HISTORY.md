@@ -1821,3 +1821,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 401 (v401 → v402), lens 1, Adler woodwinds
 - Adler ch. 7 (PDF 184–232): woodwind solos, registers and breathing checked (Bn 1 116–122 peak mp per PDF 210; breath spans per PDF 188, 198, 214); low-clarinet theme and low-flute colour considered and declined. No score change.
+
+## Cycle 402 (v402 → v403), lens 2, A&S mixture
+- A&S Unit 23 (PDF 387–388, Ex. 23-2b and 23-2h; PDF 395): bar 82, the chord before the closing group's V is now minor iv6 over C♭ (Vc, Cb, Bn 2, harp; violas C♭4–B♭3 an octave above the cellos), so the violas' C♭ at 81 is no longer contradicted by a C♮ bass before B♭; Hn 1 E♭4–D4 gives V its third; score-only harp pedal mark "C♭" at 81. F2's tune and bar 83 unchanged.
+- Considered and declined: ♭9 in V7 of G at 131, ♮7 appoggiatura at 135, °6/5 passing chord at 19 and 159 (protected or against the melody).
