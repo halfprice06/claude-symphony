@@ -2641,3 +2641,10 @@ orchestration; Adler ch. 15, adler2 PDF 146-158, second pass. Report: reports/c4
 - Accepted: nothing (v415 = v414 relabelled).
 - Recorded (no change): c414: no change. Climax octaves weighted as Mozart 40/iv (PDF 151), brass one level under (PDF 147); colour changes at 37-52 on phrase boundaries (PDF 146); new colours after rests or anacruses (PDF 156-157); Romantic unisons at 53-60 (PDF 158-159); string-free 7-14 and 31-36 (protected).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 415 (v415 → v416)
+engraving; Gould PDF 53-68 spacing, chords, unisons, double stems, dots. Report: reports/c415.md.
+- Accepted: nothing (v416 = v415 relabelled).
+- Recorded (no change): c415: no change. Bar 92 notes at the bar start in a wide bar are allowed (Gould PDF 55; c035); an X-offset test widened 92 at the cost of 87-91 and was reverted; coda systems 4+6 bars, the 87 break protected; double barlines at key changes and section starts; measured spacing even.
+- Do-not-touch: standing list; the 8-page layout.
