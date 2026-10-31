@@ -2156,3 +2156,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 97-102 brass counter-line; 117-121 brass motto; 156 bassoon layout (mp)
 - Cross-movement: none
+
+## Cycle 425 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: stave, clefs, noteheads, stems, tails (gould-behind-bars PDF 17-30) (third pass)) → v426
+- Accepted: Hn 3-4 staff: bass clef from 19 (was 23) and kept through 170, treble back at 171 (fewer ledger lines, no clef change inside a held note)
+- Open / not applied: none
+- Do-not-touch: 135-158 horn clef plan (c405); stems; cello clef plan
+- Cross-movement: none
