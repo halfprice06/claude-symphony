@@ -1850,3 +1850,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 408 (v408 → v409), lens 8, Rimsky sf-p
 - Rimsky-Korsakov PDF 129–130 (sf-p and crescendo by groups): bar 149, all woodwinds now join the brass and timpani's sfp < into ff at 150 (they had re-attacked ff over the dip); strings and Tpt 1·2 keep the attack. Notes unchanged.
 - Considered and declined: Hn 1 pp at 187, Tpt 3 ff at 247, clarinet morendo at 39–42.
+
+## Cycle 409 (v409 → v410), lens 9, Brahms 1 holistic
+- Rimsky-Korsakov Ex. 18 (PDF 58, 195): a solo cello doubling Vln II on F2 at 67–76 tested in a scratch build and declined (inaudible inside the section, costs the counter-melody's first desk).
+- Brahms 1/iv holistic comparison and v400 → v409 check (v399 is not in the checkout; v400 differs only by text): nothing worse. No score change.
