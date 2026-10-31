@@ -52,6 +52,7 @@ The themes are free to evolve under the critics. symphony/coherence/themes-scher
 - v384 (cycle 383): second idea, reprise antecedent 277–280 only (Fl 1, Ob 1 an octave lower). Old b''2 g''4~ | g''4 e'''2 …; new b''2 gis''4~ | gis''4 e'''2 … (E major, 280 V6/5 of iv, minor again at 281). New record line secondIdeaEmaj; exposition statements 45 and 121 unchanged. Finale told (it does not quote the second idea).
 
 - v412 (cycle 411): second idea. Each phrase's first minim becomes a dotted crotchet and a passing quaver, tie over the bar line kept: G major 45/49 old d'''2 b''4~ | e'''2 cis'''4~, new d'''4. c'''8 b''4~ | e'''4. d'''8 cis'''4~; E minor 121/125 and 281 old b''2 g''4~ | c'''2 a''4~, new b''4. a''8 g''4~ | c'''4. b''8 a''4~; reprise E-major antecedent 277 old b''2 gis''4~, new b''4. a''8 gis''4~ (all doubling octaves alike). Record refreshed. No other movement quotes the second idea, so no message was needed.
+- v413 (cycle 412): second idea, E-minor consequent bar 8 (128, 284, all octaves): old dis'''4 b''4. cis'''8, new dis'''4 cis'''4. b''8 (D♯–C♯–B over VII°7 of V, bass F♯–A♯–B). Record refreshed; no message needed.
 
 ## Cycle 4 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v04 → v05
 All 8 findings accepted (reasons in v05/critique.md): horn chords split and tutti balance 105–120/309–324 with Vln II on the theme; harp RH out of the trio off-beats 169–184/209–224; F-major episode thinned (Cl rests, harp chord to LH); Hn 2 lower in the second idea 45–56; Hn 1·2 thirds/sixths 209–224; violas pizz. 257–276; 87–88 doubling; tuba E1 at 341–343. Themes unchanged. Keep: harp alone with the theme head at 73–80; no plucked off-beats doubled by bowed ones.
@@ -185,6 +186,12 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
+
+## Cycle 413 (lens 3 form, Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (fifth pass)) v413 → v414
+Accepted: Bsn 2 C♯4 at 146 (link.ily). Rejected: 6/3 run at 81–84 (C-major triad; c202). Do-not-touch: no 6/3 colour over E minor or F major anywhere (a 6 over E minor gives E–G–C, a C-major triad; c413).
+
+## Cycle 412 (lens 2 harmony, Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (fifth pass)) v412 → v413
+Accepted (theme change): VII°7 of V at 128/284 (sC.ily, dA.ily, global.ily breaks). Rejected: A♯ under T's cadences (clash with A♮); applied chords at 201–203 (C♮ mixture), 221–225, 329–332 (C-major triad). Do-not-touch: VII°7 of V at 128/284 with c392's tenths under it.
 
 ## Cycle 411 (lens 1 melody, Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (fifth pass)) v411 → v412
 Accepted (theme change): second-idea passing quavers at 45, 49, 121, 125, 277, 281 (sA.ily, sC.ily, dA.ily, global.ily break). Rejected: cello counter-line under 45–52 (horns re-strike, c027). Do-not-touch: the second idea's tie over the bar line, rising sixths and hemiola cadence 53–55.
