@@ -5,3 +5,11 @@ v*/*.mp3
 v*/evx/
 v*/partsout/
 v*/*.png
+v*/ev/
+v*/pages/
+v*/d.new
+v*/d.old
+v*/parts.before
+v*/*.c4[0-9][0-9].out
+v*/b.out
+v*/parts.b.out

@@ -2234,3 +2234,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: fugato 85-96; 103-110 combined heads; 69-72 codetta; 158-161; 127-130 timpani
 - Cross-movement: none
+
+## Cycle 438 (Expression; Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (third pass)) → v439
+- Accepted: bow marks: Vln I up-bow on the run at 68.3 and down-bow at 69, Vc down-bow at 69 (f arrival down-bow, with Cb); Vla up-bow at 19 (crescendo up-bow); solo Vc up-bow at 171 (as 47-50, 147-150)
+- Open / not applied: none
+- Do-not-touch: hemiola accents 23-25, 135-137; Vc 26; coda pp long bows
+- Cross-movement: none (one bow mark on the solo cello at 171)
