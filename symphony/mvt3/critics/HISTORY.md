@@ -1829,3 +1829,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 403 (v403 → v404), lens 3, A&S 6/4 prolongation
 - A&S Units 16 and 19 (PDF 255–257, 309–310, Ex. 19-4 and 19-9): bars 75–76 the bass steps G–F–E♭ through a passing V6/4 into the E♭-major statement's I (was a leap G1→E♭2 on 75.3 a beat early, leaving a minor 9th under the violins' turn); Cb and harp LH `g,,2 f,,4 es,,4 | d,,2 es,,2`, Bn 2 `g2 f4 es4 | d2 es2`, Hn 2 `g2 bes2~ | bes2 g2` (avoids octaves with the new bass).
 - Considered and declined: cadential 6/4 at 89–90, expanded dominants at 39–42 and 147–150. Proportions checked (exp 34.9%, dev 12.2%, retrans 5.5%, recap 16.3%, coda 31.2%).
+
+## Cycle 404 (v404 → v405), lens 4, Adler ch. 15 texture
+- Adler part 2 ch. 15 (PDF 159–166): Fl 2 at 263–264 now resolves the chorale's B5 to C6 with Fl 1 (a2) instead of leaping down to E5, its weak register and already in Vln II; C7 still only at 223.
+- Considered and declined: V7 seventh at 262, brass on the motto at 265–268, timpani at 231–233, chorale doubling at 257–263.

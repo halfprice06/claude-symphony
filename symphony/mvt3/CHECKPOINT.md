@@ -3,7 +3,7 @@
 - Since v326 the timpani rolls are repeated strokes in score.midi (score.ly's MIDI score uses \rollStrokesByBar with v*/rolls-midi.ily). Before the next r07 render, test prep_render.py on a copy: the percussion variables keep their names, but each roll is now 8–64 MIDI notes.
 
 ## Fourth series (session_014b4HEMpCkCv9WRxyrrFKba, thread "Continue finale loop to v600", since 2026-10-31)
-Dan 2026-10-31: another 200 loops. Cycles 400–599 (v400 → v600), branch claude/project-thread-gvpxu4 (pushed after every cycle; PR when done). Latest: **v404**. Next cycle: **404**.
+Dan 2026-10-31: another 200 loops. Cycles 400–599 (v400 → v600), branch claude/project-thread-gvpxu4 (pushed after every cycle; PR when done). Latest: **v405**. Next cycle: **405**.
 Per cycle (all helpers are in kit/, committed): `bash kit/go4.sh prompt N` (adds the lens-9/lens-10/final-cycle focus) → background general-purpose Agent with the printed AGENT line → review the diff of /tmp/critic-N/work against vN → write the decision bullets to a file → `bash kit/go4.sh done N "lens K, short title" FILE` (promote, running list in coherence/finale.md, critique.md, HISTORY, commit, push, mirror finale.md to /mnt/project-files/symphony/coherence/). If the critic's change is rejected, delete /tmp/critic-N/work first and go4 promotes an unchanged copy.
 Container setup: `apt-get install -y lilypond fluidsynth fluid-soundfont-gm poppler-utils ffmpeg`; `pip install mido soundfile scipy numpy`.
 
