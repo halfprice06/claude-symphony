@@ -2204,3 +2204,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 18-19, 104.4-105, 138-139 V to lower chord; 52-53/152-153 IV-ii6; 164.3-165; 109.4-110; 72.2
 - Cross-movement: none
+
+## Cycle 433 (Form, pacing and proportion; Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (third pass)) → v434
+- Accepted: no change (diatonic modulation and form, third pass; Dvořák 7/i comparison supports proportions); record: B minor 97-102 has iv-ii7-V7-cad6/4 ending on a half cadence (c413 wording)
+- Open / not applied: form lens has found no change in four passes of A&S Unit 26: consider another reading at 523
+- Do-not-touch: section lengths; arrivals 47, 131, 147; 139-143 late iv; 117-130
+- Cross-movement: none
