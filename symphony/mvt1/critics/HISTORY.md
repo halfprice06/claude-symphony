@@ -2306,3 +2306,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: Hn 2/4 162-163 no end level after ff> (protected c188; for the expression/engraving lens)
 - Do-not-touch: 158-159 brass ff; 175-179 trombone chorale; intro proportion
 - Cross-movement: none
+
+## Cycle 450 (Cyclic design and emotional arc across four movements; Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (third pass)) → v451
+- Accepted: no change (cyclic design, Casanelles ch. 5 third pass); mvt1.md: bar-122 full-string tremolo in the climax record and v442-v451 change line
+- Open / not applied: none
+- Do-not-touch: 167-170 violin tremolo into the 170 stop chord (c389, c374); no seed of the finale's F1/F2
+- Cross-movement: record only: 122 is now a full-string fff tremolo (still distinct from IV 223)
