@@ -1870,3 +1870,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 413 (v413 → v414), lens 3, A&S 6/3 techniques
 - A&S Unit 18 (PDF 297–298, Ex. 18-12, the 7–6 into iv6 of a Phrygian cadence): Cl 2 at 57–58 `bes2~ bes4 aes4~ | aes4( bes4 f4 aes4)` and at 177–178 `es4 g4~ g4 f4~ | f4( g4 d4 f4)`, holding over the bass and resolving on beat 4 into V7's seventh; violas at 177.3 start on G instead of F. Clears the octave flag at 178.1. Solo and pizzicato unchanged.
 - Declined: stepwise bass at 57/177, voice exchange at 87–89, rising 6/3 chains, moving bass under 223–238. Proportions unchanged.
+
+## Cycle 414 (v414 → v415), lens 4, Adler ch. 8 woodwind-string
+- Adler ch. 8 (PDF 245 Strauss, PDF 270 Copland, PDF 249–250): Fl 2, Ob 2 and Tpt 2 now end with the 216 diminuendo and rest at 217–218, so the cor anglais and Hn 1·2 echo of theme B's head is heard; they re-enter on their old notes at the 219 sub. p. Top line and the 205–223 dynamic path unchanged.
+- Checked, no change: Ob 1 unison with the violins at 187–190, the overlapped wind pairs at 219–222.
