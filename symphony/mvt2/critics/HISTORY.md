@@ -2723,3 +2723,10 @@ playability; Adler ch. 10-11 brass, adler1 PDF 282-329, adler2 PDF 1-13. Report:
 - Accepted: nothing (v427 = v426 relabelled).
 - Recorded (no change): c426: no change. Hn 1 endurance 53-67 with 16.7 s rest before the solo; Hn 3-4 unison to written G flat5 (c086); cold entries cued; trombone slide motion and B.tbn F attachment; tuba and B.tbn at 60-62; mute plan 82-92; all brass in range.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 427 (v427 → v428)
+texture; Adler ch. 16 transcription and texture, adler2 PDF 197-255. Report: reports/c427.md.
+- Accepted: nothing (v428 = v427 relabelled).
+- Recorded (no change): c427: no change. Viola figure on Cl 2's held notes at 71-78 is background (PDF 209, 230; c137); 15-22 hand-over as Ravel Petit Poucet (PDF 217); pizz. and harp inside held notes at 41, 44, 82 as damper-pedal effect; 27-29 hairpin crescendo in the protected plain statement; motion inside the chord at 87-88; no inner part attacks a solo's pitch.
+- Do-not-touch: standing list; the 8-page layout.
