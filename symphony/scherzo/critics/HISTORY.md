@@ -187,6 +187,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 418 (lens 8 expression, Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (fifth pass)) v418 → v419
+Accepted: bowing at 173–178, 205–208, 209, 213–218 (tA, tB, tC). Do-not-touch: T's climax A at 162/178/218/350 is attacked down-bow, its crescendo up-bow; any slur change in T must recount the bows (c418 bows.py method).
+
 ## Cycle 417 (lens 7 texture, Adler ch. 15 polyphonic texture (adler2 PDF 172-186) (fifth pass)) v417 → v418
 Accepted: cellos quote the second idea's head at 65–66 (sB.ily). Rejected: the quote in the reprise fugato 289–296 (keeps the reprise's shortening). Do-not-touch: the fugato stays strings alone; the second idea's head in the cellos at 65–66.
 
