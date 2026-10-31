@@ -1,7 +1,9 @@
 # Movement II (Adagio, A♭ major): current state for the other movement threads
 
-Owner: the thread "Movement II, 200 more loops" (session cse_01WWGdo2VND72g1pVzSE2829, then "Movement II, loops from v298"; third series, cycles 201–400, from 2026-10-19). Only that thread edits this file. Written 2026-10-12; the third series updates it whenever a change touches another movement.
+Owner: the thread "Movement II, 200 more loops" (session cse_01WWGdo2VND72g1pVzSE2829, then "Movement II, loops from v298"; third series, cycles 201–400, from 2026-10-19). Only that thread edits this file. Written 2026-10-12; the third series updates it whenever a change touches another movement. Fourth series (cycles 400–599, to v600, from 2026-10-31): thread "Continue movement 2 loop to v600".
 Current version: symphony/mvt2/v400, end of the fourth series (Dan, 2026-10-25: cycles 300-399 → v400). Since v300: MIDI-only fades at 63 and 66-70 (v301); cello passing A♭3 at 26 and 74 (v302, v303); notation and part fixes (v306, v309); Vln I upper octave from 77 (v310); cellos hold B2 as V's seventh at 49 and resolve to A2 at 50 (v313); scherzo s305 dynamics override and part cues (v316); bass bowing at 62 (v317); B.cl. dynamics 31-37 and Cbn breath at 62 (v319); N6 links to movement I recorded at 49 and 87 (v321); passing chord A♭–C–D–F at 52 b1-2 (v323); Cl 2 E♭4 at 73 b3 and viola A♭3 at 75 b2 (v325); arco down-bow at 45 (v326); Hn 3 tenuto at 88 (v327); Hn 3 slurs at 3-6 and 29-30 (v329); harp voicing at 55 b4 (v333); unison noteheads in divided strings (v336); MIDI levels for suspensions and violin slurs at 24/72 (v339); title block and theme record files (v341); Vln I G5 at 77 b1 (v342); Hn 1 held through 70 b3 (v344); "sul A" on the bass pedal at 65, cancelled "ord." at 71 (v345, v349); timpani muta printed in the score (v346); low brass enter pp< at 60 (v347 tried p<, v350 restored pp<); part letters and tempo words joined in one stencil and Vln I mute text from bar 4 (v356, parts only); timpani pp< at 60 with the low brass (v359); harp chord at 14 moved above the horn, A♭4–E♭5 (v362); Hn 4 C4 at 60 b1-2 (v365); part rest and octave-sign fixes (v366); violas without "sul C" at 87 (v367); MIDI only: trombone quotation at 63 restored to its written level, B.cl. peak at 32, string fades at 3 and 66 (v369); stem fixes at 21 and 78 (v376); bowing slurs, Vln II at 52 and basses at 28 (v377); bassoons hold G3 and D♭3 through 70 and resolve to A♭3 and C3 at 71 (v378); violas mf at 28 (v384→v385); Fl 1 beam at 78 (v386); cellos "sul D" at 23–30 and 71–77 (v387); MIDI only: timpani rolls now sound, via the scherzo's coherence/rolls-midi.ily, and the fp attack at 47 (v389); B.cl. G2 at 10 b3 completes the dominant (v393); Fl 2 doubles the F–F♭ inner line at 80–81 and the shared-staff hairpins and rest at 81–82 (v395, v396); harp right-hand order at 55 (v397); timpani roll p< on 78 b3 into the second climax (v398); bow changes for Vln II/Vla at 66 and cellos at 58–59 (v399). The ending into the scherzo is the common-tone modulation of A&S Ex. 32-3 (Schumann, Widmung; recorded c329). Before that, at v300: Since v298: harp harmonics at 83 marked p "dolce," (v299); Vln I at pitch with Vln II from 74 b3 to 77 so B♭6 is held back for 79 (v300). (third series; newest text files in symphony/mvt2/latest/; versions on branch claude/project-thread-wtf58k) (92 bars, 8 A3 pages, concert-pitch score; score.ly, global.ily, sections/*.ily). score.midi lasts 345.3 s, about 5:45. Changes since v181 (this list was updated 2026-10-13 after cycle 190; later changes are in the fourth-series line above and the third-series section below): contrabassoon an octave lower at 79–81 (D♭1–B♭0–E♭1; B♭0 is now the movement's lowest note); cor anglais doubles the violas at 79–82, so theme A's three octaves at the second peak each have strings + a wind (Fl 1 + Vln I, Ob 1 + Cl 1 + Vln II, Vla + C.a.); stem fixes; string bowings at 45–47 and 75–81; horn slurs at 80–81 and 87–90; cello divisi at 21 and a viola note at 43 (v193); horn 1 doubles horn 2 at 61–62 and the violas divide at 87–88 to double both muted horns and join on E♭3 at 89 (v195, v200); a suspension accent at 58 (v199); release title and part fixes (v201). No change to the ending's notes, the exported themes or the quotations.
+
+Fourth series in progress (2026-10-31): v420 is the newest. Changes since v400: Bsn 1 MIDI-only mp/mf at 76-77 (v401); Vln II C4 at 39 b3 so ii7's 7th resolves (v403); Cl 2 rest at 82 (v406); harp 54 b3 reordered and "R.H. étouffez" at 83 (v407); timpani 78 b3 pp< (v409); cellos "sul G" at 51-52 (v412); Bsn 2 breath at 70 (v417); strings "molto sostenuto" at 79 (v419). None touches a join, an exported theme or a quotation.
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them (the score prints them an octave higher).
 
@@ -166,7 +168,7 @@ themes-mvt1.md also lists the stop chord at II bar 64. Confirmed at cycle 250 (v
 
 ## Timpani tunings
 
-Stick changes: soft at 65, medium at 77 (part only), soft at 83 (v297, c296); the roll at 69–70 fades with the horn solo (v291, c290).
+Stick changes: soft at 65, "medium sticks" at 77 (printed in the score and the part), soft at 83 (v297, c296); the roll at 69–70 fades with the horn solo (v291, c290).
 
 | Bars | Tuning, change or use |
 |---|---|
@@ -177,9 +179,10 @@ Stick changes: soft at 65, medium at 77 (part only), soft at 83 (v297, c296); th
 | 52–53 | A♭2 roll pp < into a single D♭3 stroke p at 53. |
 | 60–62 | A♭2 roll pp < f (60, since v359, with the low brass), D♭3 roll f (61), D♭3 at 62, "damp". |
 | 67–70 | E♭3 roll ppp, "near the rim". |
+| 78 | E♭3 roll pp < on beat 3 into 79 (v398; pp since v409). |
 | 79–81 | "ord."; D♭3 roll f (79–80), E♭3 roll with diminuendo (81). |
 | 84–85 | E♭3, C3, A♭2 single strokes, pp. Last sound. |
-| 92 | Part only: "muta A♭ in E, C in G, D♭ in B, E♭ in E (for the Scherzo, during the pause)". |
+| 92 | Score and part (since v346): "muta A♭ in E, C in G, D♭ in B, E♭ in E (for the Scherzo, during the pause)". |
 
 The timpani rest in 31–36 and in the B section until 52. Only A♭2, C3, D♭3 and E♭3 are struck; G2 is never played.
 
