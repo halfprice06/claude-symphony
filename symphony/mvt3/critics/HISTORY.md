@@ -1825,3 +1825,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 402 (v402 → v403), lens 2, A&S mixture
 - A&S Unit 23 (PDF 387–388, Ex. 23-2b and 23-2h; PDF 395): bar 82, the chord before the closing group's V is now minor iv6 over C♭ (Vc, Cb, Bn 2, harp; violas C♭4–B♭3 an octave above the cellos), so the violas' C♭ at 81 is no longer contradicted by a C♮ bass before B♭; Hn 1 E♭4–D4 gives V its third; score-only harp pedal mark "C♭" at 81. F2's tune and bar 83 unchanged.
 - Considered and declined: ♭9 in V7 of G at 131, ♮7 appoggiatura at 135, °6/5 passing chord at 19 and 159 (protected or against the melody).
+
+## Cycle 403 (v403 → v404), lens 3, A&S 6/4 prolongation
+- A&S Units 16 and 19 (PDF 255–257, 309–310, Ex. 19-4 and 19-9): bars 75–76 the bass steps G–F–E♭ through a passing V6/4 into the E♭-major statement's I (was a leap G1→E♭2 on 75.3 a beat early, leaving a minor 9th under the violins' turn); Cb and harp LH `g,,2 f,,4 es,,4 | d,,2 es,,2`, Bn 2 `g2 f4 es4 | d2 es2`, Hn 2 `g2 bes2~ | bes2 g2` (avoids octaves with the new bass).
+- Considered and declined: cadential 6/4 at 89–90, expanded dominants at 39–42 and 147–150. Proportions checked (exp 34.9%, dev 12.2%, retrans 5.5%, recap 16.3%, coda 31.2%).
