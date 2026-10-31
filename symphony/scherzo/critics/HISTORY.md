@@ -187,6 +187,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 419 (lens 9 holistic, Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305) (fifth pass)) v419 → v420
+Accepted: violas on the second idea at 45–52 (sA.ily). Do-not-touch: the second idea's forte G-major statement in three octaves (Fl 1/Vln I, Ob 1/Vln II, violas).
+
 ## Cycle 418 (lens 8 expression, Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (fifth pass)) v418 → v419
 Accepted: bowing at 173–178, 205–208, 209, 213–218 (tA, tB, tC). Do-not-touch: T's climax A at 162/178/218/350 is attacked down-bow, its crescendo up-bow; any slur change in T must recount the bows (c418 bows.py method).
 
