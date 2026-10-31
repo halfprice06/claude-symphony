@@ -187,6 +187,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 415 (lens 5 engraving, Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (fifth pass)) v415 → v416
+Accepted: choir spacing and fixed page starts (score.ly, global.ily); five player labels (sA, tA, tC). Note for later critics: page starts are now fixed in global.ily (\tag #'score \pageBreak); a change that widens a system may need these moved. Do-not-touch: B6 at 336 without 8va; Hn 4 clef plan 229–236.
+
 ## Cycle 414 (lens 4 orchestration, Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (fifth pass)) v414 → v415
 Accepted: Fl 2 rests 205–209 (tB.ily, tC.ily), reversing c387. Do-not-touch: one flute (not two) over Hn 1's preview at 205–209 (c414 answered c387's Rimsky PDF 75 reason with Adler PDF 249–250: the flute only colours the horn line); do not flip back without a stronger reason.
 
