@@ -184,6 +184,18 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 408 (lens 8 expression, Rimsky-Korsakov ch. IV sf-p chords, crescendo and diminuendo (rimsky-principles PDF 129-136) (fifth pass)) v408 → v409
+Accepted: woodwind p< at 101–104 (sB.ily). Do-not-touch: the crescendo into 105 and 305 is built by groups in order strings, woodwind, brass.
+
+## Cycle 407 (lens 7 texture, Adler ch. 5 foreground, middleground, background; strings as accompaniment (adler1 PDF 132-167) (fifth pass)) v407 → v408
+Accepted: Vln II quaver arpeggios 169–184 (tA.ily), 'unis.' at 193 removed (tB.ily). Do-not-touch: the second trio statement's background differs in rhythm from the first (harp off-beats 153–168 vs Vln II quavers 169–184).
+
+## Cycle 406 (lens 6 playability, Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13) (fifth pass)) v406 → v407
+Accepted: Hn 1·2 mp at 209 (tC.ily). Rejected: stopped horn at 241 (soft-brass rule, G♯=A♭ turn); Hn 1 on T at 209 (c087, c251); soft trombone/tuba chord (kept for the finale). Do-not-touch: Hn 1 slur 72–74 (c042, c136, c266).
+
+## Cycle 405 (lens 5 engraving, MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (fifth pass)) v405 → v406
+Accepted: no change. Rejected: Fl 1 mp at 253 (descant stays a level under Vln I's theme). Do-not-touch: winds doubling a string tune print a level under it (45, 125, 179, 197, 253) by design.
+
 ## Cycle 404 (lens 4 orchestration, Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (fifth pass)) v404 → v405
 Accepted: 197–200 call dynamics one level under T (tB.ily). Rejected: flutes an octave up at 113–114 (weakens the C6 peak at 116; B6/C7 protected); thinning the second idea 45–56 (c224/c314). Do-not-touch: T is the principal voice at 197–200, the call stays a level under it.
 
