@@ -92,17 +92,17 @@ Augmented sixths across the symphony (c350, A&S PDF 523): II's stand on F♭ = E
 | 7–14 | A | Theme A in Horn 1, no strings | A♭ major. Tail E♭–D–D♭–C at 8 over vi7 – V7/V – V7, I at 9; second phrase ends on I at 14. |
 | 15–22 | B | Oboe 1 and solo violin in dialogue, muted strings | A♭ major toward F minor; French sixth over F♭ (cellos, double basses) on beat 3 of 21; half cadence on E♭ at 22. |
 | 23–30 | C | Theme A in both violin sections, cello counter-melody | A♭ major; full close at 30. |
-| 31–36 | | Transition: bass clarinet solo, woodwinds alone | A♭ pedal (contrabassoon A♭1, 30–36). Common-tone diminished seventh on beat 2 of 33. poco rit. 35–36. |
-| 37–44 | D | Theme B, flute 1 then cor anglais (4/4, Poco più mosso, crotchet = 60) | D♭ major key signature. |
-| 45–46 | E | Theme B head in B♭ minor (oboe 1) | B♭ minor, D♭ major key signature. |
+| 31–36 | D | Transition: bass clarinet solo, woodwinds alone (letter D since v426) | A♭ pedal (contrabassoon A♭1, 30–36). Common-tone diminished seventh on beat 2 of 33. poco rit. 35–36. |
+| 37–44 | E | Theme B, flute 1 then cor anglais (4/4, Poco più mosso, crotchet = 60) | D♭ major key signature. |
+| 45–46 | F | Theme B head in B♭ minor (oboe 1) | B♭ minor, D♭ major key signature. |
 | 47–50 | | Quotation of movement I's second-theme head (cor anglais) | F♯ minor key signature from 47. D♭7 respelled C♯7 at 47 (Vln II E♯4, double basses C♯1). poco rit. at 47, poco sostenuto from 48. |
 | 51–52 | | Return to D♭ | D♭ major key signature from 51; A♭ pedal (double basses A♭1). |
-| 53–60 | F | Theme B in the violins; crescendo | D♭ major. "a tempo, poco a poco animando" at 53; poco allargando at 60. |
-| 61–62 | G | Climax, ff (Largamente, crotchet = 54) | D♭ major at 61; G♭ (bass G♭1) to F♭ major (bass F♭1) at 62. |
+| 53–60 | G | Theme B in the violins; crescendo | D♭ major. "a tempo, poco a poco animando" at 53; poco allargando at 60. |
+| 61–62 | H | Climax, ff (Largamente, crotchet = 54) | D♭ major at 61; G♭ (bass G♭1) to F♭ major (bass F♭1) at 62. |
 | 63–64 | | Quotation of movement I's first-theme head (Trombone 1) | A minor key signature from 63. allargando at 64; since v241 the falling eighths at 63 slur into the repeated A, which is portato (matches movement I v251); bass D–E on beats 3–4 of 64. |
-| 65–70 | H | Retransition (3/4, Tempo I, crotchet = 52) | A♭ major key signature. V7 of A♭ (E♭2 B♭2 G3 D♭4) over the double basses' E♭2 pedal, 4 soli, 65–70. |
-| 71–82 | J | Theme A returns, violins in octaves | A♭ major. poco allargando from 78. Bass F♭2–E♭2 at 78 (F♭ major on beats 1–2), D♭ at 79–80, E♭ (V) at 81, I at 82. |
-| 83–92 | K | Coda (a tempo, rit. from 89) | A♭ pedal 83–86; IV6 (87) – iv (88) – I (89–92). |
+| 65–70 | J | Retransition (3/4, Tempo I, crotchet = 52) | A♭ major key signature. V7 of A♭ (E♭2 B♭2 G3 D♭4) over the double basses' E♭2 pedal, 4 soli, 65–70. |
+| 71–82 | K | Theme A returns, violins in octaves | A♭ major. poco allargando from 78. Bass F♭2–E♭2 at 78 (F♭ major on beats 1–2), D♭ at 79–80, E♭ (V) at 81, I at 82. |
+| 83–92 | L | Coda (a tempo, rit. from 89) | A♭ pedal 83–86; IV6 (87) – iv (88) – I (89–92). |
 
 There is no rehearsal mark at 31 or 47. The marks are A–K without I. Tempo markings in full: Adagio crotchet = 52 (1); poco rit. (35); Poco più mosso crotchet = 60 (37); poco rit. (47, beat 3); poco sostenuto (48); a tempo, poco a poco animando (53); poco allargando (60); Largamente crotchet = 54 (61); allargando (64); Tempo I crotchet = 52 (65); poco allargando (78); a tempo (83); rit. (89).
 

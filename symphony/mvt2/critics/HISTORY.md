@@ -2710,3 +2710,9 @@ orchestration; Rimsky-Korsakov ch. III brass harmony and wind-brass combinations
 - Accepted: nothing (v425 = v424 relabelled).
 - Recorded (no change): c424: no change. Climax brass at 61-62 close, low brass in octaves, single horns one degree louder, woodwind above (c224, c086); Hn 4 entry at 60 (c364); Tbn 1 over tremolo at 63-64; muted horns with C.a. at 87-90; horn/bassoon crossing at 67-70; 79-81 moving horns under held woodwind (c129 exception); Hn 3-4 seventh at 29-30 also in cellos, alternative rejected.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 425 (v425 → v426)
+engraving; Adler ch. 18, App. A (adler2 PDF 291-312). Report: reports/c425.md.
+- Accepted: rehearsal letter D at 31; letters from 37 move up one (E 37 ... L 83). Earlier HISTORY entries that name letters D-K mean the old letters: refer by bar number.
+- Do-not-touch: standing list; the 8-page layout.
