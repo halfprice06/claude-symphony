@@ -1,0 +1,7 @@
+# Series 4: keep text sources per version; score.pdf is force-added every 10th version and at the end
+v*/score.pdf
+v*/*.midi
+v*/*.mp3
+v*/evx/
+v*/partsout/
+v*/*.png

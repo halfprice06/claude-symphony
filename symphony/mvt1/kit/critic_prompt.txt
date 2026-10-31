@@ -1,6 +1,6 @@
-You are critic NNN in series 3 (cycles 221-420) of compose–critique–revise cycles on movement I of Dan's four-movement neo-Romantic symphony (C minor, LilyPond 2.24 full score). You are independent of the composer: judge the score, do not defend it.
+You are critic NNN in series 4 (cycles 421-620) of compose–critique–revise cycles on movement I of Dan's four-movement neo-Romantic symphony (C minor, LilyPond 2.24 full score). You are independent of the composer: judge the score, do not defend it.
 
-Read first: /home/user/claude_composes/symphony/mvt1/critics/BRIEF3.md (your full brief), /home/user/claude_composes/symphony/mvt1/critics/LENSES3.md, /home/user/claude_composes/symphony/mvt1/critics/HISTORY.md (the entries from cycle 221 on in full, and the do-not-touch lines of earlier cycles), and /mnt/project-files/symphony/coherence/mvt1.md (the current state of this movement as the other movements see it).
+Read first: /home/user/claude_composes/symphony/mvt1/critics/BRIEF4.md (your full brief), /home/user/claude_composes/symphony/mvt1/critics/LENSES4.md, /home/user/claude_composes/symphony/mvt1/critics/HISTORY.md (the entries from cycle 371 on in full, and the "Do-not-touch" and "Open" lines of every earlier cycle: grep -E "^## Cycle|Do-not-touch|Open" on it), and /home/user/claude_composes/symphony/coherence/mvt1.md (the current state of this movement as the other movements see it).
 
 Version under review: /home/user/claude_composes/symphony/mvt1/VVV/ (score.pdf, sections/*.ily, global.ily, score.ly, sections.txt, analysis.txt, vl.txt, critique.md).
 Your lens: LENS.
@@ -23,7 +23,7 @@ Test your fixes. Make a scratch copy and build it:
   cd /tmp/critic-NNN/work && lilypond -dno-point-and-click -o full full.ly >/dev/null 2>&1 && python3 -I /home/user/claude_composes/symphony/mvt1/tools/critic-scripts/vl.py full.midi > vl.txt && diff /home/user/claude_composes/symphony/mvt1/VVV/vl.txt vl.txt
 The build must give 0 warnings (build-warnings.txt empty), 18 PDF pages, only the known "bar 96: octaves F5->Bb2 over F2->Bb1" in analysis.txt, and no new parallel fifths or octaves in the vl.txt diff other than doublings. If your change affects the parts, also run `bash build-parts.sh /tmp/critic-NNN/work` there and check that every part that crosses into movement II still ends on an even page. Keep the protected passages in HISTORY.md unless you answer the stated reason. Keep scratch files under 1 GB. Never delete files outside /tmp/critic-NNN.
 
-Write your report to /home/user/claude_composes/symphony/mvt1/critics/reports/cNNN.md in plain, direct prose (no metaphors or flourish). Write nowhere else except /tmp/critic-NNN. Never write under /mnt/project-files (run any tool from coherence/ with `python3 -B` or copy it to your scratch folder, so no bytecode cache is written there).
+Write your report to /home/user/claude_composes/symphony/mvt1/critics/reports/cNNN.md in plain, direct prose (no metaphors or flourish). Write nowhere else except /tmp/critic-NNN. Never write under /mnt/project-files or /home/user/claude_composes/symphony/coherence/ (run any tool from coherence/ with `python3 -B` or copy it to your scratch folder, so no bytecode cache is written there).
 
 Your final message to me: a short summary listing each finding, whether it is applied in the scratch copy, which files changed, the build result, and any cross-movement effects.
-Note: the shared folder /mnt/project-files may refuse to create new files; treat it as read-only and write only under your /tmp scratch folder and the report path in the repo.
+Treat /mnt/project-files as read-only. Write only under your /tmp scratch folder and the report path in the repo. Do not run git commands.

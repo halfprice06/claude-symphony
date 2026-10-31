@@ -26,3 +26,30 @@ Already used in cycles 9-199: Tchaikovsky 6/i, 5/i, 4/i, Violin Concerto/i; Dvo�
 | 419 | Sibelius, Symphony No. 1/i |
 
 Look for the score in /home/user/claude_composes/reference-corpus/ (README.md is the index) first, then IMSLP or another web source. If no score is reachable, say so and use the nearest unused work you can reach, and name it in the report.
+
+## Series 4 (cycles 421-620)
+
+Also used in series 3: the list above (cycles 229-419).
+
+| Cycle | Master first movement |
+|---|---|
+| 429 | Beethoven, Symphony No. 4/i (slow introduction) |
+| 439 | Dvořák, Cello Concerto/i |
+| 449 | Tchaikovsky, Symphony No. 2/i |
+| 459 | Elgar, Symphony No. 2/i |
+| 469 | Bruckner, Symphony No. 4/i |
+| 479 | Schumann, Symphony No. 3 "Rhenish"/i |
+| 489 | Rachmaninoff, Symphony No. 1/i |
+| 499 | Brahms, Violin Concerto/i |
+| 509 | Mendelssohn, Symphony No. 4 "Italian"/i |
+| 519 | Kalinnikov, Symphony No. 1/i |
+| 529 | Beethoven, Symphony No. 2/i (slow introduction) |
+| 539 | Dvořák, Symphony No. 5/i |
+| 549 | Tchaikovsky, Symphony No. 1/i |
+| 559 | Mahler, Symphony No. 6/i |
+| 569 | Glazunov, Symphony No. 5/i |
+| 579 | Bruckner, Symphony No. 9/i |
+| 589 | Schumann, Symphony No. 1/i |
+| 599 | Sibelius, Symphony No. 5/i |
+| 609 | Tchaikovsky, Piano Concerto No. 1/i |
+| 619 | Rachmaninoff, Piano Concerto No. 2/i |
