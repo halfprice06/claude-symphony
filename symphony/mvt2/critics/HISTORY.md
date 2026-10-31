@@ -2561,3 +2561,10 @@ harmony; A&S Units 11-13 (PDF 163-210). Report: reports/c402.md.
 - Accepted: Vln II 39 b3-4 C4 under G flat4: ii7's D flat resolves down (A&S PDF 177), c142 kept (B flat once).
 - Recorded (no change): 41/57 7-8 appoggiatura; ii7 at 12-13, 28-29, 76-77 without held 4̂; IV6 at 37-38, 53-54; 87-88 bass leap; pp viola-triplet octaves at 37-43 and 76.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 403 (v403 → v404)
+form and pacing; A&S Unit 32 chromaticism in larger contexts, PDF 584-606, second pass. Report: reports/c403.md.
+- Accepted: nothing (v404 = v403 relabelled).
+- Recorded (no change): c403: no change. The return from the climax (61-65, F flat then A minor then E-E flat to V7) matches Beethoven 9/iii bars 83-99 (PDF 591, 593); the F sharp minor area at 47-53 enlarges theme B's G flat-F suspension (PDF 600-602); soft inflections at joins, the abrupt rising one only at the climax (PDF 585); D flat key area is the motto tail's passing note (PDF 587); remote keys about 9 percent, climax at 67 percent.
+- Do-not-touch: standing list; the 8-page layout.
