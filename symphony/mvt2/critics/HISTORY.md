@@ -2568,3 +2568,10 @@ form and pacing; A&S Unit 32 chromaticism in larger contexts, PDF 584-606, secon
 - Accepted: nothing (v404 = v403 relabelled).
 - Recorded (no change): c403: no change. The return from the climax (61-65, F flat then A minor then E-E flat to V7) matches Beethoven 9/iii bars 83-99 (PDF 591, 593); the F sharp minor area at 47-53 enlarges theme B's G flat-F suspension (PDF 600-602); soft inflections at joins, the abrupt rising one only at the climax (PDF 585); D flat key area is the motto tail's passing note (PDF 587); remote keys about 9 percent, climax at 67 percent.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 404 (v404 → v405)
+orchestration; Rimsky-Korsakov appendix of tutti chords PDF 505-510 and ch. IV examples 204-217. Report: reports/c404.md.
+- Accepted: nothing (v405 = v404 relabelled).
+- Recorded (no change): c404: no change. Tutti at 61-62 follows chords 1-4 (PDF 505): each group complete, root alone in the lowest octave, brass close one level under; 79-81 follows Ex. 209 (string chord rejected at c114); 63 empty twelfth kept for the Tbn 1 quotation (c074); soft wind chords at 3-6 and 31-36 match chords 13, 14, 16.
+- Do-not-touch: standing list; the 8-page layout.
