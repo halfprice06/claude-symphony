@@ -187,6 +187,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 420 (lens 10 cyclic, Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (fifth pass)) v420 → v421
+Accepted: Vc F♯3 held at 352 (coda.ily). Rejected: bass E under 349, harp D♯ at 347 (octaves), ii under T at 157, cutting 149–152 (renumbers quoted bars). Do-not-touch: c202's progression 351–353 with the held F♯ at 352.
+
 ## Cycle 419 (lens 9 holistic, Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305) (fifth pass)) v419 → v420
 Accepted: violas on the second idea at 45–52 (sA.ily). Do-not-touch: the second idea's forte G-major statement in three octaves (Fl 1/Vln I, Ob 1/Vln II, violas).
 
