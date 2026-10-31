@@ -187,6 +187,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 416 (lens 6 playability, Adler ch. 12 The Percussion Ensemble: timpani tuning and technique, cymbals, bass drum (adler2 PDF 55-91), and ch. 14 Scoring for Percussion (adler2 PDF 106-145) (fifth pass)) v416 → v417
+Accepted: damped timpani strokes at 200, 287, 323, 339 (tB, dA, dC, coda). Do-not-touch: timpani strokes before a rest or a change of harmony are damped (staccato) unless meant to ring.
+
 ## Cycle 415 (lens 5 engraving, Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (fifth pass)) v415 → v416
 Accepted: choir spacing and fixed page starts (score.ly, global.ily); five player labels (sA, tA, tC). Note for later critics: page starts are now fixed in global.ily (\tag #'score \pageBreak); a change that widens a system may need these moved. Do-not-touch: B6 at 336 without 8va; Hn 4 clef plan 229–236.
 
