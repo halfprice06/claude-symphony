@@ -2174,3 +2174,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: fugato 85-96 entries; 97.4 viola arpeggio; 147-155 Vln II tremolo; 70 codetta violas; 131-134 layout
 - Cross-movement: none
+
+## Cycle 428 (Expression; Rimsky-Korsakov ch. IV sf-p chords, crescendo and diminuendo (rimsky-principles PDF 129-136) (third pass)) → v429
+- Accepted: MIDI: expr-volume in global.ily so sub. p (62, 84), pp espr. (Vln I 177) and fp (Cb 33) reach the MIDI and mp3 (they kept the previous level)
+- Open / not applied: MIDI swell overshoot where a swell ends at \! with no new dynamic (print correct; left)
+- Do-not-touch: printed dynamics; run slurs into 33, 41, 69 (c108); brass re-entry levels; 127-131 crescendo
+- Cross-movement: none (MIDI only; other movements may have the same markup-dynamic gap)
