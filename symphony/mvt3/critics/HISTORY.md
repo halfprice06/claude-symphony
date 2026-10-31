@@ -1898,3 +1898,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Cyclic review against movement I (mvt1.md v441), movement II (mvt2.md v420) and the scherzo (scherzo.md v412): all quotations at pitch; the scherzo record's 9 changed entries are the second idea (c411), which the finale does not quote.
 - A&S Unit 26 (PDF 446, 451, 457): tonicizing IV at 270–272 (B♭ in F1's third bar) tested and declined (clashes with movement I's head in major; loses F1's leading tone). No score change.
 - coherence/finale.md: header, the scherzo motto-tail bar numbers (357–360), the scherzo and movement II headings and the open request brought up to date; movement I's two seeds of the finale (I 79→80, the development's B–D–F–A♭ stations) recorded.
+
+## Cycle 421 (v421 → v422), lens 1, A&S figuration
+- A&S Unit 21 (PDF 352–353, 363–364, Ex. 21-35): the E♭-major counter-melody at 74 (Vc, Vla, Hn 1) now goes B♭–A♭–F–G, the G a weak-beat anticipation tied into 75, instead of G3 on beat 3 against the bass's passing seventh A♭ and the harp's A♭4; matches the recapitulation at 194.
+- Tested and declined: a melodic resolution of the C6 at 242. Checked, kept: F2's cadences at 73–74 and 80–81, the 4–3 at 210–211.
