@@ -187,6 +187,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 414 (lens 4 orchestration, Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (fifth pass)) v414 → v415
+Accepted: Fl 2 rests 205–209 (tB.ily, tC.ily), reversing c387. Do-not-touch: one flute (not two) over Hn 1's preview at 205–209 (c414 answered c387's Rimsky PDF 75 reason with Adler PDF 249–250: the flute only colours the horn line); do not flip back without a stronger reason.
+
 ## Cycle 413 (lens 3 form, Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (fifth pass)) v413 → v414
 Accepted: Bsn 2 C♯4 at 146 (link.ily). Rejected: 6/3 run at 81–84 (C-major triad; c202). Do-not-touch: no 6/3 colour over E minor or F major anywhere (a 6 over E minor gives E–G–C, a C-major triad; c413).
 
