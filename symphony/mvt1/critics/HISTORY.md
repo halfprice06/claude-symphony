@@ -2192,3 +2192,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 77-83; 97-122 B-D-F-A-flat plan; 158-166 climax harmony; soft E-E-flat inflections
 - Cross-movement: record lines only (coherence/mvt1.md)
+
+## Cycle 431 (Melody and memorability; Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (third pass)) → v432
+- Accepted: no change (string melody and octave doublings, third pass)
+- Open / not applied: none
+- Do-not-touch: 131-134 low P head; 97-102/158-161 octave layout; 94-96 fugato D-flat6; S chain 47-56-97-147-158
+- Cross-movement: none
