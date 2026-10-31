@@ -100,7 +100,7 @@ used={k:0 for k in R}
 for n in range(1,600):
     k=(n-1)%10+1; lst=R[k]; i=used[k]; used[k]+=1
     ps=i//len(lst); a=lst[i%len(lst)]+["",""," (second pass)"," (third pass)"," (fourth pass)"," (fifth pass)"," (sixth pass)"," (seventh pass)"," (eighth pass)"," (ninth pass)"][min(ps+1,9)] if ps else lst[i]
-    if n>=400: a+=" [fourth series: the score is mature; find a technique this reading teaches that the score does not yet use, or uses weakly, and apply it only where it clearly improves the music; a cycle that changes nothing is acceptable]"
+    if n>=400: a+=" [fourth series: the score is mature; find a technique this reading teaches that the score does not yet use, or uses weakly, and apply it only where it clearly improves the music; try at least one candidate in your scratch build and apply it if it is better; leave the score unchanged only when the candidates you tested are not better]"
     elif n>200: a+=" [third series: find a technique this reading teaches that the score does not yet use, or uses weakly, and apply it where it improves the music]"
     out.append(f"| {n} | {k} | {a} |")
 open('/home/user/claude_composes/symphony/mvt3/critics/READING.md','w').write("\n".join(out)+"\n")

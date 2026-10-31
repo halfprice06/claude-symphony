@@ -1818,3 +1818,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 400 (v400 → v401), lens 10, cyclic review
 - Cyclic review: every quotation of movements I (v421), II (v400) and the scherzo (v400) matches at pitch; records 35/35, 18/18, 11/11, 52/52, finale 51/51. No score change.
 - coherence/finale.md: five stale sentences corrected (movement II record location, scherzo request date, scherzo.md path, bass trombone at 255 since v394, Hn 4 at 43–47 since v330).
+
+## Cycle 401 (v401 → v402), lens 1, Adler woodwinds
+- Adler ch. 7 (PDF 184–232): woodwind solos, registers and breathing checked (Bn 1 116–122 peak mp per PDF 210; breath spans per PDF 188, 198, 214); low-clarinet theme and low-flute colour considered and declined. No score change.
