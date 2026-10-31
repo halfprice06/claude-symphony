@@ -2162,3 +2162,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 135-158 horn clef plan (c405); stems; cello clef plan
 - Cross-movement: none
+
+## Cycle 426 (Playability, instrument by instrument; Adler ch. 2 Bowed String Instruments: divisi, bowing, harmonics (adler1 PDF 24-70) (third pass)) → v427
+- Accepted: Cb up-bow at 5 so the basses bow with the cellos through the hairpins at 7-9 and reach the f at 12 down-bow
+- Open / not applied: none
+- Do-not-touch: Vln I 39 and 160 up-bows; Vla 158-161 double stops; sul D 9.4-10
+- Cross-movement: none
