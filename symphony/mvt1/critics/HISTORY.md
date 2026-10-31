@@ -2294,3 +2294,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: sustained pads 43-46, 73-76, 107-110, 147-155, 171-174; 167-169 horns (c389, c417); 47-55 viola pad; 13-14 horn call
 - Cross-movement: none
+
+## Cycle 448 (Expression; Adler ch. 11 climactic uses of brass (adler2 PDF 37-40) and ch. 15 special effects (adler2 PDF 187-196) (third pass)) → v449
+- Accepted: no change (climactic brass and special effects, third pass)
+- Open / not applied: none
+- Do-not-touch: 160-162 fff-ff; 156-157 horn approach; 84 sub. p; 117 timpani f
+- Cross-movement: none
