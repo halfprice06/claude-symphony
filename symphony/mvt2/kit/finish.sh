@@ -5,7 +5,7 @@ set -e
 R=/home/user/claude_composes; M=$R/symphony/mvt2; S=/mnt/project-files/symphony/mvt2
 NEW=$1; PREV=$((NEW-1)); cd $R
 git ls-files --error-unmatch symphony/mvt2/v$PREV/score.mp3 >/dev/null 2>&1 || rm -f $M/v$PREV/score.mp3
-[ $PREV -gt 201 ] && git rm -q --cached --ignore-unmatch symphony/mvt2/v$PREV/score.pdf symphony/mvt2/v$PREV/parts-book.pdf || true
+[ $PREV -gt 201 ] && { git rm -q --cached --ignore-unmatch symphony/mvt2/v$PREV/score.pdf symphony/mvt2/v$PREV/parts-book.pdf; rm -f $M/v$PREV/score.pdf $M/v$PREV/parts-book.pdf; } || true
 git add -- "symphony/mvt2/v$NEW" ':!symphony/mvt2/v'$NEW'/*.mp3' symphony/mvt2/critics symphony/mvt2/kit symphony/mvt2/README.md
 git commit -q -m "Movement II cycle $PREV: v$PREV -> v$NEW" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_014b4HEKG5QbynMmwJrtk5WT"
