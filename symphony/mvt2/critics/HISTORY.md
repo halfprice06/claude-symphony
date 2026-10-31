@@ -2696,3 +2696,10 @@ melody; Rimsky-Korsakov ch. II strings, PDF 54-63. Report: reports/c421.md.
 harmony; A&S Units 9-10 (PDF 134-162). Report: reports/c422.md.
 - Accepted: violas 43 b3 start on A flat3, so the cadential 6/4's bass is doubled and the 5th of V waits (supersedes c262's note on 43).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 423 (v423 → v424)
+form; A&S Units 16 and 19, PDF 249-262 and 304-325. Report: reports/c423.md.
+- Accepted: nothing (v424 = v423 relabelled).
+- Recorded (no change): c423: no change. Bar 43 b1-3 two 6/4s kept, but for a corrected reason: c283's ii4/3 reading is wrong (the viola D flat stops on the beat); the bass alone moves under held voices inside the subdominant (A&S 19 sec. 5, Ex. 19-12; sec. 16, Ex. 19-28). This reason replaces c283's. Seven 6/4 chords as c362; three equal six-bar one-chord frames (about 21 s each); 53-61 one passing motion to 61; 77-81 flat VI neighbour with interpolation. Total 345 s, climax 65 percent, second peak 84 percent.
+- Do-not-touch: standing list; the 8-page layout.
