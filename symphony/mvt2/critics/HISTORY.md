@@ -2730,3 +2730,9 @@ texture; Adler ch. 16 transcription and texture, adler2 PDF 197-255. Report: rep
 - Accepted: nothing (v428 = v427 relabelled).
 - Recorded (no change): c427: no change. Viola figure on Cl 2's held notes at 71-78 is background (PDF 209, 230; c137); 15-22 hand-over as Ravel Petit Poucet (PDF 217); pizz. and harp inside held notes at 41, 44, 82 as damper-pedal effect; 27-29 hairpin crescendo in the protected plain statement; motion inside the chord at 87-88; no inner part attacks a solo's pitch.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 428 (v428 → v429)
+expression; Casanelles PDF 145-161, 290-291. Report: reports/c428.md.
+- Accepted: cellos, basses, bass trombone diminuendo at 64 into pp at 65; cellos tie the B flat2 anticipation into 65.
+- Do-not-touch: standing list; the 8-page layout.
