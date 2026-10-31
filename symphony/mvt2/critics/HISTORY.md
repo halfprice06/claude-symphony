@@ -2770,3 +2770,10 @@ form; A&S Unit 18 6/3 chords and the I6-IV connection, PDF 289-303. Report: repo
 - Accepted: nothing (v434 = v433 relabelled).
 - Recorded (no change): c433: no change. 78 b3 is a passing 6/3 (PDF 297, Ex. 18-19b/c), replacing c293's III6=V and c323's iii6 labels; 6/3 passage at 53-56 has no hidden fifths; pedal joins as Dvořák 9/ii; I6-IV phrase openings; 59 applied chord lengthened to V on 60; coda 6/3s; proportions unchanged (345.3 s, 64.6 and 84.1 percent).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 434 (v434 → v435)
+orchestration; Adler ch. 15 homophonic and combined scoring, adler2 PDF 159-186. Report: reports/c434.md.
+- Accepted: nothing (v435 = v434 relabelled).
+- Recorded (no change): c434: no change. Thin downbeat at 57 filled by viola and melody (c124, protected Hn 1 line); Cl 2 seventh at 81-82 resolved in cellos, Hn 1, Bsn 1 (protected tutti); 60-61 cellos (c294); 61-62 doubled chord tones as Tchaikovsky (PDF 166-167); soft endings avoid the dangerous chord (PDF 162); timpani rolls start soft; theme returns keep harmony with new colour; main voice one level above.
+- Do-not-touch: standing list; the 8-page layout.
