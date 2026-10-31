@@ -1,6 +1,6 @@
 # Movement I (Allegro, C minor): current state for the other movement threads
 
-Owner: the movement I thread ("Movement I, loops from v401" since 2026-10-26 20:56 UTC; "Movement I, loops from v300" from 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v421 (cycle 420, release check). Series 3 is finished at v421. Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
+Owner: the movement I thread ("Movement I, loops from v401" since 2026-10-26 20:56 UTC; "Movement I, loops from v300" from 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v431 (cycle 430). Series 3 is finished at v421. Series 4 (cycles 421–620 → v621, thread "Continue movement 1 loop to v621", Dan 2026-10-31) is listed under "Series 4 changes" at the end. Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them.
 
@@ -242,3 +242,9 @@ These are reserved for the finale. The other movements should not use them. Thei
 - Bars 73–76 (A♭ pedal, Hn 4 A♭3, F♭ mixture at 76) are the same chord as movement II's 3–6.
 - The E♭4/E4 thread stays at one pitch: violas at 12, 147 (with Hn 1, the C-major S head; quoted at IV 247), 166 and 179–182, Vln II at 8–9 and 77–80 (E♭4, E4 from beat 3 of 78 over the E-major chord of the A♭–E–C bass, E♭4 again at 80).
 - Movement I never confirms C major at forte: its C-major cadences (154→155 pp, 165→166 p) are soft, so the finale's 222→223 is the first strong one. Keep it so.
+
+## Series 4 changes (v421 → current)
+
+- v422–v431: Cl 1 and Vln II E♭4 at 24.3–25.1 and 136.3–137.1; viola A♭4 at 68; Ob 1 holds F5–G5 and Ob 2/Fl 2 take the P phrase at 117–121; Bsn 2 A2, Bsn 1 E3 at 162; Hn 3·4 clef plan; Cb up-bow at 5; MIDI expression for sub. p, pp espr., fp (global.ily expr-volume; MIDI only). Nothing another movement quotes changed: theme record 35/35 (run themecheck.py with `--beats 4`; without it the tool assumes 3/4 and reports 0/35); MIDI of 1–14, 26–32, 46–50, 138, 146–150, 170–182 identical to v421.
+- Seeds recorded by critic 430: 79→80 Vln II E4→E♭4 over the bass E→C, the E-to-C-minor step at the pitch where the finale's opening E♭4 answers the scherzo's last E4. 107: B.cl G3–F♯3–F3–E3 in E minor, the 78–79 cello pitch. 97–122: development stations B (97) – D (103) – F (111) – A♭ over G (122) spell the stop chord B–D–F–A♭ onto V; the finale's 222→223 resolves the same chord to C major.
+

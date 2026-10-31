@@ -2186,3 +2186,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: release stamp is 'draft vNNN' until the cycle 520/620 release checks
 - Do-not-touch: 117-119 flute pickups crossing Ob 1; 47 horn+cello unison; 9-13 Vln I sixths; intro length and bar 12
 - Cross-movement: none
+
+## Cycle 430 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (third pass)) → v431
+- Accepted: no change (cyclic design, A&S Unit 32); mvt1.md: series 4 change line and three seeds (79-80 E4-E-flat4, 107 B.cl, 97-122 stop-chord stations)
+- Open / not applied: none
+- Do-not-touch: 77-83; 97-122 B-D-F-A-flat plan; 158-166 climax harmony; soft E-E-flat inflections
+- Cross-movement: record lines only (coherence/mvt1.md)
