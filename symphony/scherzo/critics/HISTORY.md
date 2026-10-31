@@ -51,6 +51,8 @@ The themes are free to evolve under the critics. symphony/coherence/themes-scher
 - v332 (cycle 331): trio tune T, bars 3–4. Old dis''4. fis'8 b'4 | a'4 gis'2. New dis''4. fis'8 a'4~ | a'4 gis'2 (the V7's seventh held over the bar line as a 4–3 suspension, A&S Ex. 21-23a), in all 7 statements incl. coda Hn 3 in A. Record refreshed (tie merges notes; %@ counts adjusted); finale and movement I told (neither quotes bars 3–4).
 - v384 (cycle 383): second idea, reprise antecedent 277–280 only (Fl 1, Ob 1 an octave lower). Old b''2 g''4~ | g''4 e'''2 …; new b''2 gis''4~ | gis''4 e'''2 … (E major, 280 V6/5 of iv, minor again at 281). New record line secondIdeaEmaj; exposition statements 45 and 121 unchanged. Finale told (it does not quote the second idea).
 
+- v412 (cycle 411): second idea. Each phrase's first minim becomes a dotted crotchet and a passing quaver, tie over the bar line kept: G major 45/49 old d'''2 b''4~ | e'''2 cis'''4~, new d'''4. c'''8 b''4~ | e'''4. d'''8 cis'''4~; E minor 121/125 and 281 old b''2 g''4~ | c'''2 a''4~, new b''4. a''8 g''4~ | c'''4. b''8 a''4~; reprise E-major antecedent 277 old b''2 gis''4~, new b''4. a''8 gis''4~ (all doubling octaves alike). Record refreshed. No other movement quotes the second idea, so no message was needed.
+
 ## Cycle 4 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v04 → v05
 All 8 findings accepted (reasons in v05/critique.md): horn chords split and tutti balance 105–120/309–324 with Vln II on the theme; harp RH out of the trio off-beats 169–184/209–224; F-major episode thinned (Cl rests, harp chord to LH); Hn 2 lower in the second idea 45–56; Hn 1·2 thirds/sixths 209–224; violas pizz. 257–276; 87–88 doubling; tuba E1 at 341–343. Themes unchanged. Keep: harp alone with the theme head at 73–80; no plucked off-beats doubled by bowed ones.
 
@@ -183,6 +185,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
+
+## Cycle 411 (lens 1 melody, Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (fifth pass)) v411 → v412
+Accepted (theme change): second-idea passing quavers at 45, 49, 121, 125, 277, 281 (sA.ily, sC.ily, dA.ily, global.ily break). Rejected: cello counter-line under 45–52 (horns re-strike, c027). Do-not-touch: the second idea's tie over the bar line, rising sixths and hemiola cadence 53–55.
 
 ## Cycle 410 (lens 10 cyclic, Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (fifth pass)) v410 → v411
 Accepted: Hn 1 B4–B♭4 at 56, rest at 57 (sA.ily, sB.ily). Kept: reprise join 288→289 (B3→B♭3 at 290, c293). Do-not-touch: the strings-only fugato entry at 57 (c007/c017/c254/c269). Note for the finale (no scherzo change): Hn 1 A♭4→G4 at IV 1–2 and the harp E4 → finale E♭4 links.
