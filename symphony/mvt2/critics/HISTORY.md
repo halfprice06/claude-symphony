@@ -2662,3 +2662,10 @@ texture; Adler ch. 15 polyphonic texture, adler2 PDF 172-186, second pass. Repor
 - Accepted: nothing (v418 = v417 relabelled).
 - Recorded (no change): c417: no change. Fl 1 G6 alone for one beat at 77 b1 kept for c341's Vln I voice leading; 71-78 four layers as the Scheherazade example (PDF 179); 57-61 build as Holst/Bloch (PDF 181, 184); 37-44 layers kept apart; 45-47 two-element link. Reading plan rows 418-598 rebuilt (kit/syllabus4b.py) so no page range returns within about 15 cycles.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 418 (v418 → v419)
+expression; Adler adler2 PDF 37-40, 187-196. Report: reports/c418.md.
+- Accepted: strings "molto sostenuto" at 79.
+- Closed: c416's Ob 1 / C.a. niente at 82 stays.
+- Do-not-touch: brass economy (no trumpets, trombones only 60-64, Tbn 1 alone 63-64); sf>p tremolo and Cb pizz. sf at 63; held-note handovers at 1-6, 65-70, 87-92; staged release at 81-83; the 8-page layout.
