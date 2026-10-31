@@ -2581,3 +2581,9 @@ orchestration; Rimsky-Korsakov appendix of tutti chords PDF 505-510 and ch. IV e
 engraving; Gould PDF 41-52. Report: reports/c405.md.
 - Accepted: Cl 2 rest at 82 b3 at staff-position -4 (score only).
 - Do-not-touch: harp 8 bassa plan; B flat6 at pitch at 79; shared-rest fixes at 59, 63, 82; the 8-page layout.
+
+
+## Cycle 406 (v406 → v407)
+playability; Adler ch. 4 harp (adler1 PDF 110-124). Report: reports/c406.md.
+- Accepted: harp 54 b3 reordered (no repeated string, as c396 at 55); "R.H. étouffez" at 83.
+- Do-not-touch: standing list; the harp pedal plan; the 8-page layout.
