@@ -1842,3 +1842,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 406 (v406 → v407), lens 6, Adler brass endurance
 - Adler (adler2 PDF 8, adler1 PDF 292, brass need frequent rests): the tuba now rests at 217–218 (was 211–228 with breath marks only, about 33 s); F still held by contrabassoon F1 and bass trombone, basses and Bn 2 F2 under the horns' echo.
 - Considered and declined: Hn 1 C5–D♭5 at 105–106, stopped-horn echo at 217–218, low-brass balance at 207–208.
+
+## Cycle 407 (v407 → v408), lens 7, Adler ch. 5 strings
+- Adler ch. 5 (PDF 137 Ex. V-14, PDF 141 Ex. V-19): cellos join the violins' third rising run at 209–210, an octave below Vln II (A♭2 up to G♭4, f <), adding an octave to the crescendo into 211; the A♭ pedal stays in basses, Bn 2, Cbsn, bass trombone, tuba and timpani.
+- Considered and declined: agitated inner strings at 115–122 (protected), a Vln II counter-line at 19–26 (keeps the recap's growth).
