@@ -2222,3 +2222,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Ob 160.3 beam; flute up-stem groups 27-30, 139-140; Vc 61.3
 - Cross-movement: none
+
+## Cycle 436 (Playability, instrument by instrument; Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (third pass)) → v437
+- Accepted: no change (individual strings, third pass; series 4 string changes checked)
+- Open / not applied: none
+- Do-not-touch: Vc F4-F5 at 52.4; Vc bass clef 88-92; Cb page turn 171-174; undivided double stops
+- Cross-movement: none
