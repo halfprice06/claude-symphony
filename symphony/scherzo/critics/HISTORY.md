@@ -184,6 +184,12 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 410 (lens 10 cyclic, Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (fifth pass)) v410 → v411
+Accepted: Hn 1 B4–B♭4 at 56, rest at 57 (sA.ily, sB.ily). Kept: reprise join 288→289 (B3→B♭3 at 290, c293). Do-not-touch: the strings-only fugato entry at 57 (c007/c017/c254/c269). Note for the finale (no scherzo change): Hn 1 A♭4→G4 at IV 1–2 and the harp E4 → finale E♭4 links.
+
+## Cycle 409 (lens 9 holistic, Rimsky-Korsakov examples No. 1-60 (rimsky-principles PDF 173-240) (fifth pass)) v409 → v410
+Accepted: Vln II con sord. 169–192, senza sord. at 193 (tA.ily, tB.ily). Rejected: solo oboe call at 29–34 (protected register reason); pulse figure under 45–52 (horns re-strike). Open: memorability of the second idea and T (no scoring reading supports rewriting them).
+
 ## Cycle 408 (lens 8 expression, Rimsky-Korsakov ch. IV sf-p chords, crescendo and diminuendo (rimsky-principles PDF 129-136) (fifth pass)) v408 → v409
 Accepted: woodwind p< at 101–104 (sB.ily). Do-not-touch: the crescendo into 105 and 305 is built by groups in order strings, woodwind, brass.
 
