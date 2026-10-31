@@ -1902,3 +1902,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 421 (v421 → v422), lens 1, A&S figuration
 - A&S Unit 21 (PDF 352–353, 363–364, Ex. 21-35): the E♭-major counter-melody at 74 (Vc, Vla, Hn 1) now goes B♭–A♭–F–G, the G a weak-beat anticipation tied into 75, instead of G3 on beat 3 against the bass's passing seventh A♭ and the harp's A♭4; matches the recapitulation at 194.
 - Tested and declined: a melodic resolution of the C6 at 242. Checked, kept: F2's cadences at 73–74 and 80–81, the 4–3 at 210–211.
+
+## Cycle 422 (v422 → v423), lens 2, A&S Neapolitan and augmented sixths
+- A&S Units 28–29 (PDF 482–529): the critic proposed ♭II6 (B♭–D♭–G♭, top line G♭6–F6–E6) at 112 in place of ii°6/5. Rejected by the composer: 107–113 (lament and F-minor climax cadence) is on the do-not-touch list (c276, c551, c623), the change gives up the prepared F–E suspension at the climax, and ♭II is kept for its cross-movement thread (movement I's N6 at 20–22 and 140–143, the finale's D♭ episode at 205–223 and 184). No score change.
+- Spelling check (A&S PDF 496–499): all 27 chromatic spellings correct.
