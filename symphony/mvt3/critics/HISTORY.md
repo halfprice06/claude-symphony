@@ -1878,3 +1878,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 415 (v415 → v416), lens 5, Adler ch. 18 score preparation
 - Adler PDF 291, 301; Gould PDF 41, 55: "change bow at will" no longer crosses barlines: three-line text at 149 (Vc, Cb) and 224 (Cb), a new four-line text with "unis." at 224 (Vc) and 226 (Vln II) (global.ily); the basses' text moves from 139 to 140 within the same held B♭. MIDI unchanged.
 - Checked, no change: five ledger lines at 78, 213–214, 223 (Gould PDF 47); timpani retuning placement (Adler PDF 292, 294).
+
+## Cycle 416 (v416 → v417), lens 6, Adler percussion
+- Adler part 2 ch. 12 (PDF 79, timpani on tonic and dominant at cadences): the A♭ drum stays on B♭ from 37 to 94 so the timpani strike E♭/B♭ with the trumpets, tuba and basses in the codetta (91–94: `es4-> r8 es8 bes,4-> r4` twice, then `r4 es2-> bes,4->`); "muta B♭ in A♭" moves from 43 to 95.
+- Same source: bar 113, the timpani play F2 with the bass on the development's F-minor cadence instead of C (G drum to F at 95, back to G at 114). Range now F2–E♭3. Parts book builds with 0 warnings.
