@@ -2763,3 +2763,10 @@ harmony; A&S Units 22-23 diminished sevenths and mixture, PDF 373-397. Report: r
 - Accepted: nothing (v433 = v432 relabelled).
 - Recorded (no change): c432: no change. Viola triplets at 40 d5-P5 across a broken chord at pp (c153 protected; optional fix in report); all diminished sevenths resolve (33, 40, 56, 59, 64, 81); cross relations only the recorded one at 21; B1-A flat1 at 50-51 keeps its spelling; every F flat reaches E flat; half-diminished sevenths and mixture plan complete.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 433 (v433 → v434)
+form; A&S Unit 18 6/3 chords and the I6-IV connection, PDF 289-303. Report: reports/c433.md.
+- Accepted: nothing (v434 = v433 relabelled).
+- Recorded (no change): c433: no change. 78 b3 is a passing 6/3 (PDF 297, Ex. 18-19b/c), replacing c293's III6=V and c323's iii6 labels; 6/3 passage at 53-56 has no hidden fifths; pedal joins as Dvořák 9/ii; I6-IV phrase openings; 59 applied chord lengthened to V on 60; coda 6/3s; proportions unchanged (345.3 s, 64.6 and 84.1 percent).
+- Do-not-touch: standing list; the 8-page layout.
