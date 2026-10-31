@@ -2655,3 +2655,10 @@ playability; Adler ch. 6-7 woodwinds (adler1 PDF 168-232). Report: reports/c416.
 - Accepted: Bsn 2 breath at the end of 70.
 - Open (optional): Ob 1 / C.a. niente at 82 vs pp endings elsewhere.
 - Do-not-touch: woodwind register and breath plan; clarinet hand-over at 85-92; C.a. quotation at 47-53; standing list; the 8-page layout.
+
+
+## Cycle 417 (v417 → v418)
+texture; Adler ch. 15 polyphonic texture, adler2 PDF 172-186, second pass. Report: reports/c417.md.
+- Accepted: nothing (v418 = v417 relabelled).
+- Recorded (no change): c417: no change. Fl 1 G6 alone for one beat at 77 b1 kept for c341's Vln I voice leading; 71-78 four layers as the Scheherazade example (PDF 179); 57-61 build as Holst/Bloch (PDF 181, 184); 37-44 layers kept apart; 45-47 two-element link. Reading plan rows 418-598 rebuilt (kit/syllabus4b.py) so no page range returns within about 15 cycles.
+- Do-not-touch: standing list; the 8-page layout.
