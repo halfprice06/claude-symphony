@@ -2676,3 +2676,10 @@ holistic comparison with a master work (Brahms Violin Concerto Op. 77/ii); Rimsk
 - Accepted: nothing (v420 = v419 relabelled).
 - Recorded (no change): c419: no change. Wind-only opening with one solo voice as Brahms Op. 77/ii; two ff peaks supported by PDF 120 and Ex. 209; horn/trombone/woodwind balance at 60-61 matches PDF 102-103, 112; each theme return newly scored; coda blend as Ex. 143, 169; nothing worse since v409.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 420 (v420 → v421)
+cyclic design; Casanelles ch. 5, hyper-orchestra PDF 199-254. Report: reports/c420.md.
+- Accepted: nothing (v421 = v420 relabelled).
+- Recorded (no change): c420: no change to the score. Link from I v421 holds in sound and pitch; quotations and motto tail hold (18/18, 11/11); both builds staged crescendos; reserved sounds hold. coherence/mvt2.md refreshed (fourth-series change list, medium sticks prints in the score, timpani roll at 78 b3).
+- Do-not-touch: standing list; the 8-page layout.
