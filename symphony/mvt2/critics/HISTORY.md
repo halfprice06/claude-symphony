@@ -2614,3 +2614,9 @@ cyclic design; A&S Unit 32, PDF 584-606, second pass. Report: reports/c410.md.
 - Accepted: nothing (v411 = v410 relabelled).
 - Recorded (no change): c410: no change. Joins at pitch with I v421, III v400, IV v400 hold (theme records 18/18, 11/11, scherzo 52/52, finale 51/51); remote areas and coda tie to the motto; last chord stays a plain triad for the finale's German sixth. coherence/mvt2.md stale lines (header, medium sticks prints in score, timpani roll 78 b3 pp<) to fix at the end-of-series update.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 411 (v411 → v412)
+melody; Adler ch. 3 (adler1 PDF 71-109). Report: reports/c411.md.
+- Accepted: cellos "sul G" at 51-52 (no open D3 in the held line).
+- Do-not-touch: theme A's line and three rising statements; theme B's neighbour-note design and sul A statement at 52-56; the string colour plan; standing list; the 8-page layout.
