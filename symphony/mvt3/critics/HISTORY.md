@@ -1874,3 +1874,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 414 (v414 → v415), lens 4, Adler ch. 8 woodwind-string
 - Adler ch. 8 (PDF 245 Strauss, PDF 270 Copland, PDF 249–250): Fl 2, Ob 2 and Tpt 2 now end with the 216 diminuendo and rest at 217–218, so the cor anglais and Hn 1·2 echo of theme B's head is heard; they re-enter on their old notes at the 219 sub. p. Top line and the 205–223 dynamic path unchanged.
 - Checked, no change: Ob 1 unison with the violins at 187–190, the overlapped wind pairs at 219–222.
+
+## Cycle 415 (v415 → v416), lens 5, Adler ch. 18 score preparation
+- Adler PDF 291, 301; Gould PDF 41, 55: "change bow at will" no longer crosses barlines: three-line text at 149 (Vc, Cb) and 224 (Cb), a new four-line text with "unis." at 224 (Vc) and 226 (Vln II) (global.ily); the basses' text moves from 139 to 140 within the same held B♭. MIDI unchanged.
+- Checked, no change: five ledger lines at 78, 213–214, 223 (Gould PDF 47); timpani retuning placement (Adler PDF 292, 294).
