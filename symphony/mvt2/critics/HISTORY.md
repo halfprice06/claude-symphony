@@ -2620,3 +2620,10 @@ cyclic design; A&S Unit 32, PDF 584-606, second pass. Report: reports/c410.md.
 melody; Adler ch. 3 (adler1 PDF 71-109). Report: reports/c411.md.
 - Accepted: cellos "sul G" at 51-52 (no open D3 in the held line).
 - Do-not-touch: theme A's line and three rising statements; theme B's neighbour-note design and sul A statement at 52-56; the string colour plan; standing list; the 8-page layout.
+
+
+## Cycle 412 (v412 → v413)
+harmony; A&S Unit 17 sequences, PDF 263-288. Report: reports/c412.md.
+- Accepted: nothing (v413 = v412 relabelled).
+- Recorded (no change): c412: no change. Cello/bass fifths on downbeats at 26-29 and 75-78 broken by beat-3 notes (PDF 267); falling-thirds sequences at 37-40 and 53-56 (Ex. 17-2d, 17-16, 17-18/19); 17-21 repeat a third lower into the cadence; 58 fifths chain with suspensions (Mozart 41/ii); 60-61 leading tone in octaves (c282, protected); minor-key sequence rules not applicable.
+- Do-not-touch: standing list; the 8-page layout.
