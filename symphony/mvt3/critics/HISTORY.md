@@ -1838,3 +1838,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - MOLA PDF 7–8, Ex. 7: a text crescendo broken by a line or page break now restates "(cresc.)" on the new line (callback c405-broken-cresc in global.ily, on in score.ly and parts-book.ly; in the score only bar 144, after the 143|144 page turn). Parts book builds with 0 warnings.
 - MOLA Ex. 7: harp "étouffez" kept inside its bar at 134, 243 and 279 (placement only).
 - Ob 1's solo number at 187 now bold like the others.
+
+## Cycle 406 (v406 → v407), lens 6, Adler brass endurance
+- Adler (adler2 PDF 8, adler1 PDF 292, brass need frequent rests): the tuba now rests at 217–218 (was 211–228 with breath marks only, about 33 s); F still held by contrabassoon F1 and bass trombone, basses and Bn 2 F2 under the horns' echo.
+- Considered and declined: Hn 1 C5–D♭5 at 105–106, stopped-horn echo at 217–218, low-brass balance at 207–208.
