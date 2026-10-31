@@ -184,6 +184,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 400 (lens 10 cyclic, Release check: every do-not-touch item in HISTORY.md, every change in the last 100 cycles, and every book rule cited in them (fourth pass)) v400 → v401
+Accepted: no score change; record wording fixes in coherence/scherzo.md and themes-scherzo.md. Open: none. Do-not-touch: as c400's closing line (G♯ frame, timpani labels at 1 and 376, motive x 9–12 and 363–371, theme A bar 2 at pitch, F at 331, motto close 357–360 and its preview 205–209, harp harmonics at 375, Cl 2 G4 at 7, single B6/fff at 336).
+
 ## Cycle 399 (lens 9 holistic, Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (fourth pass)) v399 → v400
 c399 harp pp at 81; last cycle of the run
 
