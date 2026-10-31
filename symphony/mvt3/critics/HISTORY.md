@@ -1833,3 +1833,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 404 (v404 → v405), lens 4, Adler ch. 15 texture
 - Adler part 2 ch. 15 (PDF 159–166): Fl 2 at 263–264 now resolves the chorale's B5 to C6 with Fl 1 (a2) instead of leaping down to E5, its weak register and already in Vln II; C7 still only at 223.
 - Considered and declined: V7 seventh at 262, brass on the motto at 265–268, timpani at 231–233, chorale doubling at 257–263.
+
+## Cycle 405 (v405 → v406), lens 5, MOLA
+- MOLA PDF 7–8, Ex. 7: a text crescendo broken by a line or page break now restates "(cresc.)" on the new line (callback c405-broken-cresc in global.ily, on in score.ly and parts-book.ly; in the score only bar 144, after the 143|144 page turn). Parts book builds with 0 warnings.
+- MOLA Ex. 7: harp "étouffez" kept inside its bar at 134, 243 and 279 (placement only).
+- Ob 1's solo number at 187 now bold like the others.
