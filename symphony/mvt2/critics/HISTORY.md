@@ -2683,3 +2683,10 @@ cyclic design; Casanelles ch. 5, hyper-orchestra PDF 199-254. Report: reports/c4
 - Accepted: nothing (v421 = v420 relabelled).
 - Recorded (no change): c420: no change to the score. Link from I v421 holds in sound and pitch; quotations and motto tail hold (18/18, 11/11); both builds staged crescendos; reserved sounds hold. coherence/mvt2.md refreshed (fourth-series change list, medium sticks prints in the score, timpani roll at 78 b3).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 421 (v421 → v422)
+melody; Rimsky-Korsakov ch. II strings, PDF 54-63. Report: reports/c421.md.
+- Accepted: nothing (v422 = v421 relabelled).
+- Recorded (no change): c421: no change. Both themes stated soft and undoubled, then violin unison, then octaves with winds (PDF 61); unisons at 23-30 and 53-56 as Ex. 12; high lines doubled or short solos (PDF 62); cello melodies on the D string with bassoons (c261); no octaves inside divided low strings; solo-violin coda restatement does not fit the protected coda.
+- Do-not-touch: standing list; the 8-page layout.
