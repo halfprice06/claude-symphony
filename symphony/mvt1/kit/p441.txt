@@ -16,6 +16,8 @@ Your assigned reading: Rimsky-Korsakov ch. II Melody: woodwind, brass, combined 
 
 Your report must begin with a "Reading notes" section: a table of the principles you took from the assigned reading (principle, book and PDF page, which bars of this score it applies to, verdict: follows / violates / not applicable). Findings follow, each citing the reading.
 
+This is the third or fourth pass of this reading, and many recent cycles found nothing to change. Checking that the score obeys the reading is necessary but not enough. Also ask where, within your lens, the music itself falls short of a master's: a phrase that could sing more, a colour that could be more vivid, a climax or transition that could land harder, a moment a listener would not remember. Propose such a change only if it is a real improvement you can support from the reading or the masters, and test it. "No change" is a valid result when nothing meets that bar.
+
 Test your fixes. Make a scratch copy and build it:
   mkdir -p /tmp/critic-441 && cp -r /home/user/claude_composes/symphony/mvt1/v441 /tmp/critic-441/work && rm -rf /tmp/critic-441/work/partsout
   (edit /tmp/critic-441/work/sections/*.ily, global.ily, score.ly or sections.txt)

@@ -2252,3 +2252,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: transition 33-47 route; 117-130 G pedal; coda without root-position V-I; reserve list
 - Cross-movement: record lines only (coherence/mvt1.md)
+
+## Cycle 441 (Melody and memorability; Rimsky-Korsakov ch. II Melody: woodwind, brass, combined groups (rimsky-principles PDF 64-80) and the examples it cites (third pass)) → v442
+- Accepted: no change (wind/brass melody and doublings, third pass)
+- Open / not applied: none
+- Do-not-touch: 64-66 Fl 1 exit; 56-68 Cl 1+Hn 2 counterline; 103-106 wind unison; horn call 13-14/41-44; S horn 47-52/147-150; 117-121
+- Cross-movement: none
