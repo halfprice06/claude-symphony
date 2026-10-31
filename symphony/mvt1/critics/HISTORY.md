@@ -2168,3 +2168,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Vln I 39 and 160 up-bows; Vla 158-161 double stops; sul D 9.4-10
 - Cross-movement: none
+
+## Cycle 427 (Texture and counterpoint; Adler ch. 5 foreground, middleground, background; strings as accompaniment (adler1 PDF 132-167) (third pass)) → v428
+- Accepted: no change (foreground/background and string accompaniment review, third pass)
+- Open / not applied: none
+- Do-not-touch: fugato 85-96 entries; 97.4 viola arpeggio; 147-155 Vln II tremolo; 70 codetta violas; 131-134 layout
+- Cross-movement: none
