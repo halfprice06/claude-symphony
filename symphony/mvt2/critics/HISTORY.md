@@ -2607,3 +2607,10 @@ holistic comparison with a master work (Beethoven Violin Concerto Op. 61/ii); Ri
 - Accepted: nothing (v410 = v409 relabelled).
 - Recorded (no change): c409: no change. Against Beethoven Op. 61/ii (soft single-colour opening, tune handed to solo winds, leads straight on) it holds; nothing worse since v400; bass pedal at 65-70 matches Ex. 40, climax at 61-62 Ex. 32, 71-78 Ex. 25/31, coda strings Ex. 5/26, wind octaves at 79-81 doubled by violins (PDF 67-68).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 410 (v410 → v411)
+cyclic design; A&S Unit 32, PDF 584-606, second pass. Report: reports/c410.md.
+- Accepted: nothing (v411 = v410 relabelled).
+- Recorded (no change): c410: no change. Joins at pitch with I v421, III v400, IV v400 hold (theme records 18/18, 11/11, scherzo 52/52, finale 51/51); remote areas and coda tie to the motto; last chord stays a plain triad for the finale's German sixth. coherence/mvt2.md stale lines (header, medium sticks prints in score, timpani roll 78 b3 pp<) to fix at the end-of-series update.
+- Do-not-touch: standing list; the 8-page layout.
