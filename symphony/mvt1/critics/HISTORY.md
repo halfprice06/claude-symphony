@@ -2150,3 +2150,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: key plan; A-flat arrival 33-47; C major recap 147-166 and E-flat turn at 166; proportions
 - Cross-movement: none
+
+## Cycle 424 (Orchestration; Rimsky-Korsakov ch. I Comparison of resonance and combination of tone qualities, and ch. III Harmony: number of parts, distribution, strings, woodwind (rimsky-principles PDF 51-53, 81-99) (third pass)) → v425
+- Accepted: 117-121 Ob 1 takes the held F5-G5 line, Ob 2 and Fl 2 take the P phrase (Fl 2 no longer alone in its weak register, flutes uncrossed); 162 Bsn 2 A2, Bsn 1 E3 (no low fifth at ff)
+- Open / not applied: none
+- Do-not-touch: 97-102 brass counter-line; 117-121 brass motto; 156 bassoon layout (mp)
+- Cross-movement: none
