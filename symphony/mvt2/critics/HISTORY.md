@@ -2648,3 +2648,10 @@ engraving; Gould PDF 53-68 spacing, chords, unisons, double stems, dots. Report:
 - Accepted: nothing (v416 = v415 relabelled).
 - Recorded (no change): c415: no change. Bar 92 notes at the bar start in a wide bar are allowed (Gould PDF 55; c035); an X-offset test widened 92 at the cost of 87-91 and was reverted; coda systems 4+6 bars, the 87 break protected; double barlines at key changes and section starts; measured spacing even.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 416 (v416 → v417)
+playability; Adler ch. 6-7 woodwinds (adler1 PDF 168-232). Report: reports/c416.md.
+- Accepted: Bsn 2 breath at the end of 70.
+- Open (optional): Ob 1 / C.a. niente at 82 vs pp endings elsewhere.
+- Do-not-touch: woodwind register and breath plan; clarinet hand-over at 85-92; C.a. quotation at 47-53; standing list; the 8-page layout.
