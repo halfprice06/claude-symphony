@@ -2276,3 +2276,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 122 bass spacing (c404); no harp at 122/160; Cb G1 pedal 117-130 untremoloed; tuttis 26, 27, 31, 82-83, 138, 158-162, 170
 - Cross-movement: none
+
+## Cycle 445 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: ledger lines, octave signs, rests (gould-behind-bars PDF 41-52) (third pass)) → v446
+- Accepted: Vln I 8va at 121-123 removed (written at pitch as at 31, 41, 72, 140, 160; octave drop at 123-124 visible; corrects c335's reason); rests: Hn 1 at 102 on the 4th line, Fl 1 134.4, Hn 4 at 62.4 and 126.4 nearer its notes
+- Open / not applied: none
+- Do-not-touch: Vln II divisi 122-123; c399 octave drop 123-124
+- Cross-movement: none
