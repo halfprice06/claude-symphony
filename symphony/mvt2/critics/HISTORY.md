@@ -2587,3 +2587,10 @@ engraving; Gould PDF 41-52. Report: reports/c405.md.
 playability; Adler ch. 4 harp (adler1 PDF 110-124). Report: reports/c406.md.
 - Accepted: harp 54 b3 reordered (no repeated string, as c396 at 55); "R.H. étouffez" at 83.
 - Do-not-touch: standing list; the harp pedal plan; the 8-page layout.
+
+
+## Cycle 407 (v407 → v408)
+texture; Adler ch. 5 string writing, adler1 PDF 132-167. Report: reports/c407.md.
+- Accepted: nothing (v408 = v407 relabelled).
+- Recorded (no change): c407: no change. 15-22 oboe/solo violin dialogue has a real middleground (closes c007's open item); 45-46 figured to sustained background; 48-51 Mendelssohn V-32 model (protected); 37-44 Brahms pizzicato bass; theme A rises in register through the movement; 63-70 Carmen tremolo then Fauré basses; 83-92 diminuendo by scoring; spacing follows PDF 151-152.
+- Do-not-touch: standing list; the 8-page layout.
