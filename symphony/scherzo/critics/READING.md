@@ -1,4 +1,4 @@
-# Reading plan for the scherzo (movement III), cycles 1-400 (Dan, 2026-10-09: "I want greater coverage and use of the books. the focus should be on the books content")
+# Reading plan for the scherzo (movement III), cycles 1-600 (Dan, 2026-10-09: "I want greater coverage and use of the books. the focus should be on the books content")
 
 Each cycle reads its assigned pages in full: every text page in the range, and every page of music examples in the range as an image. Its findings must apply what that reading teaches to this score. Other books and the web are secondary.
 
@@ -404,3 +404,203 @@ Each cycle reads its assigned pages in full: every text page in the range, and e
 | 398 | 8 | Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (fourth pass) |
 | 399 | 9 | Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (fourth pass) |
 | 400 | 10 | Release check: every do-not-touch item in HISTORY.md, every change in the last 100 cycles, and every book rule cited in them (fourth pass) |
+| 401 | 1 | Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (fifth pass) |
+| 402 | 2 | Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (fifth pass) |
+| 403 | 3 | Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (fifth pass) |
+| 404 | 4 | Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (fifth pass) |
+| 405 | 5 | MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (fifth pass) |
+| 406 | 6 | Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13) (fifth pass) |
+| 407 | 7 | Adler ch. 5 foreground, middleground, background; strings as accompaniment (adler1 PDF 132-167) (fifth pass) |
+| 408 | 8 | Rimsky-Korsakov ch. IV sf-p chords, crescendo and diminuendo (rimsky-principles PDF 129-136) (fifth pass) |
+| 409 | 9 | Rimsky-Korsakov examples No. 1-60 (rimsky-principles PDF 173-240) (fifth pass) |
+| 410 | 10 | Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (fifth pass) |
+| 411 | 1 | Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (fifth pass) |
+| 412 | 2 | Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (fifth pass) |
+| 413 | 3 | Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (fifth pass) |
+| 414 | 4 | Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (fifth pass) |
+| 415 | 5 | Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (fifth pass) |
+| 416 | 6 | Adler ch. 12 The Percussion Ensemble: timpani tuning and technique, cymbals, bass drum (adler2 PDF 55-91), and ch. 14 Scoring for Percussion (adler2 PDF 106-145) (fifth pass) |
+| 417 | 7 | Adler ch. 15 polyphonic texture (adler2 PDF 172-186) (fifth pass) |
+| 418 | 8 | Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (fifth pass) |
+| 419 | 9 | Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305) (fifth pass) |
+| 420 | 10 | Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (fifth pass) |
+| 421 | 1 | Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371) (fifth pass) |
+| 422 | 2 | Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529) (fifth pass) |
+| 423 | 3 | Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground (fifth pass) |
+| 424 | 4 | Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54) (fifth pass) |
+| 425 | 5 | Gould introduction and contents (gould-behind-bars PDF 7-13), then a second pass over PDF 17-68 for any rule not yet checked (fifth pass) |
+| 426 | 6 | Adler App. A ranges, professional and amateur limits (adler2 PDF 302-312) (fifth pass) |
+| 427 | 7 | Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) (fifth pass) |
+| 428 | 8 | Adler ch. 11 climactic uses of brass (adler2 PDF 37-40) and ch. 15 special effects (adler2 PDF 187-196) (fifth pass) |
+| 429 | 9 | Rimsky-Korsakov examples No. 126-200 (rimsky-principles PDF 305-375) (fifth pass) |
+| 430 | 10 | Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (fifth pass) |
+| 431 | 1 | Adler ch. 11 Scoring for Brass: melodic presentation (adler2 PDF 19-36) (fifth pass) |
+| 432 | 2 | Aldwell & Schachter Units 30-31 Other chromatic chords; Chromatic voice-leading techniques (aldwell-schachter PDF 530-583) (fifth pass) |
+| 433 | 3 | Aldwell & Schachter Units 6-8 I, V, V7 and their inversions: phrase structure (aldwell-schachter PDF 92-133) (fifth pass) |
+| 434 | 4 | Adler ch. 5 Scoring for Strings (adler1 PDF 125-167) (fifth pass) |
+| 435 | 5 | MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score (fifth pass) |
+| 436 | 6 | Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50) (fifth pass) |
+| 437 | 7 | Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255) (fifth pass) |
+| 438 | 8 | Casanelles ch. 4 dynamics layering and expression in performance (hyper-orchestra PDF 145-161) and ch. 6 volume and dynamics (PDF 290-291) (fifth pass) |
+| 439 | 9 | Rimsky-Korsakov examples No. 201-260 (rimsky-principles PDF 376-440) (fifth pass) |
+| 440 | 10 | Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (fifth pass) |
+| 441 | 1 | Aldwell & Schachter Unit 3 Rhythm and Meter (aldwell-schachter PDF 47-57) (fifth pass) |
+| 442 | 2 | Aldwell & Schachter Unit 27 Seventh chords with added dissonance (aldwell-schachter PDF 463-481) (fifth pass) |
+| 443 | 3 | Aldwell & Schachter Unit 15 III and VII (aldwell-schachter PDF 230-247) (fifth pass) |
+| 444 | 4 | Casanelles ch. 6 spectral orchestration and acoustic mixing in Mahler's First Symphony (hyper-orchestra PDF 257-290) (fifth pass) |
+| 445 | 5 | Adler ch. 2 notation of bowings, divisi and harmonics (adler1 PDF 30-55) as engraving rules (fifth pass) |
+| 446 | 6 | Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (fifth pass) |
+| 447 | 7 | Rimsky-Korsakov ch. III overlaying, crossing and enclosure (rimsky-principles PDF 106-114) and the examples cited (fifth pass) |
+| 448 | 8 | Aldwell & Schachter Unit 3 Rhythm and Meter: accent, hypermeter (aldwell-schachter PDF 47-57) (fifth pass) |
+| 449 | 9 | Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (fifth pass) |
+| 450 | 10 | Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (fifth pass) |
+| 451 | 1 | Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (sixth pass) |
+| 452 | 2 | Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (sixth pass) |
+| 453 | 3 | Aldwell & Schachter Unit 14 V as a Key Area (aldwell-schachter PDF 211-229) (sixth pass) |
+| 454 | 4 | Rimsky-Korsakov ch. I Comparison of resonance and combination of tone qualities, and ch. III Harmony: number of parts, distribution, strings, woodwind (rimsky-principles PDF 51-53, 81-99) (sixth pass) |
+| 455 | 5 | Gould ch. 1: stave, clefs, noteheads, stems, tails (gould-behind-bars PDF 17-30) (sixth pass) |
+| 456 | 6 | Adler ch. 2 Bowed String Instruments: divisi, bowing, harmonics (adler1 PDF 24-70) (sixth pass) |
+| 457 | 7 | Sebesky ch. 1 Basics: balance, economy, focus, variety (sebesky PDF 11-20) (fifth pass) |
+| 458 | 8 | Sebesky ch. 1 focus and variety, ch. 6 melodic considerations (sebesky PDF 11-20, 204-218) (fifth pass) |
+| 459 | 9 | Adler part 1 full-score examples in ch. 5 and 8 (adler1 PDF 137-165, 235-281) (fifth pass) |
+| 460 | 10 | Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (fifth pass) |
+| 461 | 1 | Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (sixth pass) |
+| 462 | 2 | Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (sixth pass) |
+| 463 | 3 | Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (sixth pass) |
+| 464 | 4 | Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (sixth pass) |
+| 465 | 5 | Gould ch. 1: beams (gould-behind-bars PDF 31-41) (sixth pass) |
+| 466 | 6 | Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (sixth pass) |
+| 467 | 7 | Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173) (fifth pass) |
+| 468 | 8 | MOLA guidelines on dynamics, articulation and bowing marks in parts (mola PDF 1-16) (fifth pass) |
+| 469 | 9 | Adler part 2 full-score examples in ch. 11 and 15 (adler2 PDF 18-54, 143-186) (fifth pass) |
+| 470 | 10 | Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397) (fifth pass) |
+| 471 | 1 | Rimsky-Korsakov ch. II Melody: woodwind, brass, combined groups (rimsky-principles PDF 64-80) and the examples it cites (sixth pass) |
+| 472 | 2 | Aldwell & Schachter Units 11-13 VI and IV6; supertonic and subdominant sevenths; other uses of IV and VI (aldwell-schachter PDF 163-210) (sixth pass) |
+| 473 | 3 | Aldwell & Schachter Unit 32 Chromaticism in Larger Contexts (aldwell-schachter PDF 584-606) (sixth pass) |
+| 474 | 4 | Rimsky-Korsakov appendix of single tutti chords (rimsky-principles PDF 505-510) and the tutti examples cited in ch. IV (sixth pass) |
+| 475 | 5 | Gould ch. 1: ledger lines, octave signs, rests (gould-behind-bars PDF 41-52) (sixth pass) |
+| 476 | 6 | Adler ch. 4 Plucked Strings: harp and pedalling (adler1 PDF 110-124) (sixth pass) |
+| 477 | 7 | Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281) (fifth pass) |
+| 478 | 8 | Adler ch. 7 woodwind articulation and dynamics by register (adler1 PDF 184-232) (fifth pass) |
+| 479 | 9 | Adler part 2 transcription examples in ch. 16 (adler2 PDF 202-244) (fifth pass) |
+| 480 | 10 | Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (fifth pass) |
+| 481 | 1 | Adler ch. 3 Individual Bowed Strings: melodic writing for violin, viola, cello, bass (adler1 PDF 71-109) (sixth pass) |
+| 482 | 2 | Aldwell & Schachter Unit 17 Diatonic Sequences (aldwell-schachter PDF 263-288) (sixth pass) |
+| 483 | 3 | Rimsky-Korsakov ch. IV Composition of the orchestra: tutti, range limits, transfer of phrases, sf-p, crescendo and diminuendo (rimsky-principles PDF 115-136) (sixth pass) |
+| 484 | 4 | Adler ch. 15 Scoring for Orchestra: unison-octave tutti, foreground and background (adler2 PDF 146-158) (sixth pass) |
+| 485 | 5 | Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68) (sixth pass) |
+| 486 | 6 | Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (sixth pass) |
+| 487 | 7 | Rimsky-Korsakov ch. II Melody in combined groups (rimsky-principles PDF 74-80) (fifth pass) |
+| 488 | 8 | Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (fifth pass) |
+| 489 | 9 | Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (fifth pass) |
+| 490 | 10 | Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (fifth pass) |
+| 491 | 1 | Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (sixth pass) |
+| 492 | 2 | Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (sixth pass) |
+| 493 | 3 | Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (sixth pass) |
+| 494 | 4 | Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (sixth pass) |
+| 495 | 5 | MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (sixth pass) |
+| 496 | 6 | Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13) (sixth pass) |
+| 497 | 7 | Adler ch. 11 Scoring for brass: contrapuntal use (adler2 PDF 41-54) (fifth pass) |
+| 498 | 8 | Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (fifth pass) |
+| 499 | 9 | Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (fifth pass) |
+| 500 | 10 | Release check: every do-not-touch item in HISTORY.md, every change in the last 100 cycles, and every book rule cited in them (fifth pass) |
+| 501 | 1 | Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (sixth pass) |
+| 502 | 2 | Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (sixth pass) |
+| 503 | 3 | Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (sixth pass) |
+| 504 | 4 | Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (sixth pass) |
+| 505 | 5 | Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (sixth pass) |
+| 506 | 6 | Adler ch. 12 The Percussion Ensemble: timpani tuning and technique, cymbals, bass drum (adler2 PDF 55-91), and ch. 14 Scoring for Percussion (adler2 PDF 106-145) (sixth pass) |
+| 507 | 7 | Adler ch. 5 foreground, middleground, background; strings as accompaniment (adler1 PDF 132-167) (sixth pass) |
+| 508 | 8 | Rimsky-Korsakov ch. IV sf-p chords, crescendo and diminuendo (rimsky-principles PDF 129-136) (sixth pass) |
+| 509 | 9 | Rimsky-Korsakov examples No. 1-60 (rimsky-principles PDF 173-240) (sixth pass) |
+| 510 | 10 | Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (sixth pass) |
+| 511 | 1 | Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371) (sixth pass) |
+| 512 | 2 | Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529) (sixth pass) |
+| 513 | 3 | Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground (sixth pass) |
+| 514 | 4 | Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54) (sixth pass) |
+| 515 | 5 | Gould introduction and contents (gould-behind-bars PDF 7-13), then a second pass over PDF 17-68 for any rule not yet checked (sixth pass) |
+| 516 | 6 | Adler App. A ranges, professional and amateur limits (adler2 PDF 302-312) (sixth pass) |
+| 517 | 7 | Adler ch. 15 polyphonic texture (adler2 PDF 172-186) (sixth pass) |
+| 518 | 8 | Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (sixth pass) |
+| 519 | 9 | Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305) (sixth pass) |
+| 520 | 10 | Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (sixth pass) |
+| 521 | 1 | Adler ch. 11 Scoring for Brass: melodic presentation (adler2 PDF 19-36) (sixth pass) |
+| 522 | 2 | Aldwell & Schachter Units 30-31 Other chromatic chords; Chromatic voice-leading techniques (aldwell-schachter PDF 530-583) (sixth pass) |
+| 523 | 3 | Aldwell & Schachter Units 6-8 I, V, V7 and their inversions: phrase structure (aldwell-schachter PDF 92-133) (sixth pass) |
+| 524 | 4 | Adler ch. 5 Scoring for Strings (adler1 PDF 125-167) (sixth pass) |
+| 525 | 5 | MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score (sixth pass) |
+| 526 | 6 | Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50) (sixth pass) |
+| 527 | 7 | Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) (sixth pass) |
+| 528 | 8 | Adler ch. 11 climactic uses of brass (adler2 PDF 37-40) and ch. 15 special effects (adler2 PDF 187-196) (sixth pass) |
+| 529 | 9 | Rimsky-Korsakov examples No. 126-200 (rimsky-principles PDF 305-375) (sixth pass) |
+| 530 | 10 | Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (sixth pass) |
+| 531 | 1 | Aldwell & Schachter Unit 3 Rhythm and Meter (aldwell-schachter PDF 47-57) (sixth pass) |
+| 532 | 2 | Aldwell & Schachter Unit 27 Seventh chords with added dissonance (aldwell-schachter PDF 463-481) (sixth pass) |
+| 533 | 3 | Aldwell & Schachter Unit 15 III and VII (aldwell-schachter PDF 230-247) (sixth pass) |
+| 534 | 4 | Casanelles ch. 6 spectral orchestration and acoustic mixing in Mahler's First Symphony (hyper-orchestra PDF 257-290) (sixth pass) |
+| 535 | 5 | Adler ch. 2 notation of bowings, divisi and harmonics (adler1 PDF 30-55) as engraving rules (sixth pass) |
+| 536 | 6 | Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (sixth pass) |
+| 537 | 7 | Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255) (sixth pass) |
+| 538 | 8 | Casanelles ch. 4 dynamics layering and expression in performance (hyper-orchestra PDF 145-161) and ch. 6 volume and dynamics (PDF 290-291) (sixth pass) |
+| 539 | 9 | Rimsky-Korsakov examples No. 201-260 (rimsky-principles PDF 376-440) (sixth pass) |
+| 540 | 10 | Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (sixth pass) |
+| 541 | 1 | Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (seventh pass) |
+| 542 | 2 | Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (seventh pass) |
+| 543 | 3 | Aldwell & Schachter Unit 14 V as a Key Area (aldwell-schachter PDF 211-229) (seventh pass) |
+| 544 | 4 | Rimsky-Korsakov ch. I Comparison of resonance and combination of tone qualities, and ch. III Harmony: number of parts, distribution, strings, woodwind (rimsky-principles PDF 51-53, 81-99) (seventh pass) |
+| 545 | 5 | Gould ch. 1: stave, clefs, noteheads, stems, tails (gould-behind-bars PDF 17-30) (seventh pass) |
+| 546 | 6 | Adler ch. 2 Bowed String Instruments: divisi, bowing, harmonics (adler1 PDF 24-70) (seventh pass) |
+| 547 | 7 | Rimsky-Korsakov ch. III overlaying, crossing and enclosure (rimsky-principles PDF 106-114) and the examples cited (sixth pass) |
+| 548 | 8 | Aldwell & Schachter Unit 3 Rhythm and Meter: accent, hypermeter (aldwell-schachter PDF 47-57) (sixth pass) |
+| 549 | 9 | Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (sixth pass) |
+| 550 | 10 | Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (sixth pass) |
+| 551 | 1 | Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (seventh pass) |
+| 552 | 2 | Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (seventh pass) |
+| 553 | 3 | Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (seventh pass) |
+| 554 | 4 | Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (seventh pass) |
+| 555 | 5 | Gould ch. 1: beams (gould-behind-bars PDF 31-41) (seventh pass) |
+| 556 | 6 | Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (seventh pass) |
+| 557 | 7 | Sebesky ch. 1 Basics: balance, economy, focus, variety (sebesky PDF 11-20) (sixth pass) |
+| 558 | 8 | Sebesky ch. 1 focus and variety, ch. 6 melodic considerations (sebesky PDF 11-20, 204-218) (sixth pass) |
+| 559 | 9 | Adler part 1 full-score examples in ch. 5 and 8 (adler1 PDF 137-165, 235-281) (sixth pass) |
+| 560 | 10 | Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (sixth pass) |
+| 561 | 1 | Rimsky-Korsakov ch. II Melody: woodwind, brass, combined groups (rimsky-principles PDF 64-80) and the examples it cites (seventh pass) |
+| 562 | 2 | Aldwell & Schachter Units 11-13 VI and IV6; supertonic and subdominant sevenths; other uses of IV and VI (aldwell-schachter PDF 163-210) (seventh pass) |
+| 563 | 3 | Aldwell & Schachter Unit 32 Chromaticism in Larger Contexts (aldwell-schachter PDF 584-606) (seventh pass) |
+| 564 | 4 | Rimsky-Korsakov appendix of single tutti chords (rimsky-principles PDF 505-510) and the tutti examples cited in ch. IV (seventh pass) |
+| 565 | 5 | Gould ch. 1: ledger lines, octave signs, rests (gould-behind-bars PDF 41-52) (seventh pass) |
+| 566 | 6 | Adler ch. 4 Plucked Strings: harp and pedalling (adler1 PDF 110-124) (seventh pass) |
+| 567 | 7 | Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173) (sixth pass) |
+| 568 | 8 | MOLA guidelines on dynamics, articulation and bowing marks in parts (mola PDF 1-16) (sixth pass) |
+| 569 | 9 | Adler part 2 full-score examples in ch. 11 and 15 (adler2 PDF 18-54, 143-186) (sixth pass) |
+| 570 | 10 | Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397) (sixth pass) |
+| 571 | 1 | Adler ch. 3 Individual Bowed Strings: melodic writing for violin, viola, cello, bass (adler1 PDF 71-109) (seventh pass) |
+| 572 | 2 | Aldwell & Schachter Unit 17 Diatonic Sequences (aldwell-schachter PDF 263-288) (seventh pass) |
+| 573 | 3 | Rimsky-Korsakov ch. IV Composition of the orchestra: tutti, range limits, transfer of phrases, sf-p, crescendo and diminuendo (rimsky-principles PDF 115-136) (seventh pass) |
+| 574 | 4 | Adler ch. 15 Scoring for Orchestra: unison-octave tutti, foreground and background (adler2 PDF 146-158) (seventh pass) |
+| 575 | 5 | Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68) (seventh pass) |
+| 576 | 6 | Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (seventh pass) |
+| 577 | 7 | Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281) (sixth pass) |
+| 578 | 8 | Adler ch. 7 woodwind articulation and dynamics by register (adler1 PDF 184-232) (sixth pass) |
+| 579 | 9 | Adler part 2 transcription examples in ch. 16 (adler2 PDF 202-244) (sixth pass) |
+| 580 | 10 | Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (sixth pass) |
+| 581 | 1 | Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (seventh pass) |
+| 582 | 2 | Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (seventh pass) |
+| 583 | 3 | Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (seventh pass) |
+| 584 | 4 | Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (seventh pass) |
+| 585 | 5 | MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (seventh pass) |
+| 586 | 6 | Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13) (seventh pass) |
+| 587 | 7 | Rimsky-Korsakov ch. II Melody in combined groups (rimsky-principles PDF 74-80) (sixth pass) |
+| 588 | 8 | Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (sixth pass) |
+| 589 | 9 | Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (sixth pass) |
+| 590 | 10 | Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (sixth pass) |
+| 591 | 1 | Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (seventh pass) |
+| 592 | 2 | Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (seventh pass) |
+| 593 | 3 | Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (seventh pass) |
+| 594 | 4 | Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (seventh pass) |
+| 595 | 5 | Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (seventh pass) |
+| 596 | 6 | Adler ch. 12 The Percussion Ensemble: timpani tuning and technique, cymbals, bass drum (adler2 PDF 55-91), and ch. 14 Scoring for Percussion (adler2 PDF 106-145) (seventh pass) |
+| 597 | 7 | Adler ch. 11 Scoring for brass: contrapuntal use (adler2 PDF 41-54) (sixth pass) |
+| 598 | 8 | Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (sixth pass) |
+| 599 | 9 | Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (sixth pass) |
+| 600 | 10 | Release check: every do-not-touch item in HISTORY.md, every change in the last 100 cycles, and every book rule cited in them (sixth pass) |
