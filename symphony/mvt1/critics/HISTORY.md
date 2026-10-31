@@ -2288,3 +2288,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: harp 47-55; 162 harp chord (c197); no pedal diagrams in the part
 - Cross-movement: none
+
+## Cycle 447 (Texture and counterpoint; Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) (third pass)) → v448
+- Accepted: no change (orchestra as accompanist, third pass)
+- Open / not applied: none
+- Do-not-touch: sustained pads 43-46, 73-76, 107-110, 147-155, 171-174; 167-169 horns (c389, c417); 47-55 viola pad; 13-14 horn call
+- Cross-movement: none
