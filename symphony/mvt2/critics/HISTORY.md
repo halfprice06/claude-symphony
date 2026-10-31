@@ -2690,3 +2690,9 @@ melody; Rimsky-Korsakov ch. II strings, PDF 54-63. Report: reports/c421.md.
 - Accepted: nothing (v422 = v421 relabelled).
 - Recorded (no change): c421: no change. Both themes stated soft and undoubled, then violin unison, then octaves with winds (PDF 61); unisons at 23-30 and 53-56 as Ex. 12; high lines doubled or short solos (PDF 62); cello melodies on the D string with bassoons (c261); no octaves inside divided low strings; solo-violin coda restatement does not fit the protected coda.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 422 (v422 → v423)
+harmony; A&S Units 9-10 (PDF 134-162). Report: reports/c422.md.
+- Accepted: violas 43 b3 start on A flat3, so the cadential 6/4's bass is doubled and the 5th of V waits (supersedes c262's note on 43).
+- Do-not-touch: standing list; the 8-page layout.
