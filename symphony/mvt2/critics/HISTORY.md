@@ -2736,3 +2736,9 @@ texture; Adler ch. 16 transcription and texture, adler2 PDF 197-255. Report: rep
 expression; Casanelles PDF 145-161, 290-291. Report: reports/c428.md.
 - Accepted: cellos, basses, bass trombone diminuendo at 64 into pp at 65; cellos tie the B flat2 anticipation into 65.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 429 (v429 → v430)
+holistic (Rachmaninoff PC 2/ii); Rimsky Ex. 206-274. Report: reports/c429.md.
+- Accepted: cellos 28 A flat3-F3-D flat4 (c279's open item closed).
+- Do-not-touch: cellos at 76 keep the held A flat3 (violas' eighths); standing list; the 8-page layout.
