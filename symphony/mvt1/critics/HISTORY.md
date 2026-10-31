@@ -2198,3 +2198,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 131-134 low P head; 97-102/158-161 octave layout; 94-96 fugato D-flat6; S chain 47-56-97-147-158
 - Cross-movement: none
+
+## Cycle 432 (Harmony and voice leading; Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (third pass)) → v433
+- Accepted: no change (leading to V and cadential 6/4, third pass)
+- Open / not applied: none
+- Do-not-touch: 18-19, 104.4-105, 138-139 V to lower chord; 52-53/152-153 IV-ii6; 164.3-165; 109.4-110; 72.2
+- Cross-movement: none
