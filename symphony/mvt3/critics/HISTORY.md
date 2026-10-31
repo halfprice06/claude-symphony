@@ -1814,3 +1814,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Casanelles PDF 272–276 (bow position and tone colour): strings start the falling chain at 135 "sul tasto" at pp and return to "ord." on the sf stop chord at 138 (text only; merged with the existing div./non div.).
 - Release check: subtitle now "Full score in C — v400, 27 October 2026"; title "IV. Finale: Allegro con fuoco" and part headers agree; parts build with 0 warnings.
 - Beethoven 9/iv holistic comparison and v389 → v399 check: nothing worse.
+
+## Cycle 400 (v400 → v401), lens 10, cyclic review
+- Cyclic review: every quotation of movements I (v421), II (v400) and the scherzo (v400) matches at pitch; records 35/35, 18/18, 11/11, 52/52, finale 51/51. No score change.
+- coherence/finale.md: five stale sentences corrected (movement II record location, scherzo request date, scherzo.md path, bass trombone at 255 since v394, Hn 4 at 43–47 since v330).

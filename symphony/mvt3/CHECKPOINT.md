@@ -2,6 +2,11 @@
 
 - Since v326 the timpani rolls are repeated strokes in score.midi (score.ly's MIDI score uses \rollStrokesByBar with v*/rolls-midi.ily). Before the next r07 render, test prep_render.py on a copy: the percussion variables keep their names, but each roll is now 8–64 MIDI notes.
 
+## Fourth series (session_014b4HEMpCkCv9WRxyrrFKba, thread "Continue finale loop to v600", since 2026-10-31)
+Dan 2026-10-31: another 200 loops. Cycles 400–599 (v400 → v600), branch claude/project-thread-gvpxu4 (pushed after every cycle; PR when done). Latest: **v401**. Next cycle: **401**.
+Per cycle (all helpers are in kit/, committed): `bash kit/go4.sh prompt N` (adds the lens-9/lens-10/final-cycle focus) → background general-purpose Agent with the printed AGENT line → review the diff of /tmp/critic-N/work against vN → write the decision bullets to a file → `bash kit/go4.sh done N "lens K, short title" FILE` (promote, running list in coherence/finale.md, critique.md, HISTORY, commit, push, mirror finale.md to /mnt/project-files/symphony/coherence/). If the critic's change is rejected, delete /tmp/critic-N/work first and go4 promotes an unchanged copy.
+Container setup: `apt-get install -y lilypond fluidsynth fluid-soundfont-gm poppler-utils ffmpeg`; `pip install mido soundfile scipy numpy`.
+
 ## Third series, continued (session cse_01JYb3wFaQo49G4BVrXbmdSc, thread "Finale, loops from v341", since 2026-10-26 18:12)
 Latest: **v400** (cycle 399 done; SERIES FINISHED, release subtitle "v400, 27 October 2026"). No next cycle unless Dan asks. For lens-9 cycles pass the next MASTERS.txt entry as the focus; for lens-10 pass the cyclic-review focus as go.sh arg 5 of cycle N-1 or regenerate pN. Series ends at cycle 399 → v400. Theme record now 51/51 (c370 added threadViola) (c350 added eight at-pitch link checks). Helper scripts: /mnt/project-files/symphony/mvt3/kit-helpers/ plus go.sh (addnote + cyc.sh). cyc.sh commits only finale.md from coherence/: commit themes-finale-quotes.ly by hand when it changes. For lens-10 cycles take sibling coherence files from their branches (git show origin/claude/project-thread-{ytvxdy,wtf58k,y9u1tb}:symphony/coherence/...), then git checkout them back.
 

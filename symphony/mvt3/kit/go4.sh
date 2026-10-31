@@ -31,5 +31,6 @@ s=s[:j].rstrip('\n')+'\n'+block+s[j:] if s[i:j].strip() else s[:i]+block+s[i:]
 s=re.sub(r'Updated \d{4}-\d\d-\d\d for v\d+ \([^)]*\)', f'Updated {datetime.date.today()} for v{nx} (cycle {n}, {h})', s, count=1)
 open(p,'w').write(s)
 PY
+  sed -i "0,/Latest: \*\*v[0-9]*\*\*\. Next cycle: \*\*[0-9]*\*\*/s//Latest: **v$NX**. Next cycle: **$NX**/" $M/CHECKPOINT.md
   bash $KIT/finish.sh $N "$H" $NOTES
 fi
