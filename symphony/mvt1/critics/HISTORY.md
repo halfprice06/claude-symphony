@@ -2258,3 +2258,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 64-66 Fl 1 exit; 56-68 Cl 1+Hn 2 counterline; 103-106 wind unison; horn call 13-14/41-44; S horn 47-52/147-150; 117-121
 - Cross-movement: none
+
+## Cycle 442 (Harmony and voice leading; Aldwell & Schachter Units 11-13 VI and IV6; supertonic and subdominant sevenths; other uses of IV and VI (aldwell-schachter PDF 163-210) (third pass)) → v443
+- Accepted: no change (VI, IV6, ii7/IV7, other uses of IV and VI, third pass)
+- Open / not applied: none
+- Do-not-touch: 149 ii triad (pp dolce); 53/153 C5 over ii6; 61 F-flat bass; 158-166 cadence chain
+- Cross-movement: none
