@@ -2132,3 +2132,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: all quoted bars (1-14, 26-32, 138, 170, 175-182 MIDI = v321); do-not-reuse list
 - Cross-movement: none in notes; release stamp/total duration information only
+
+## Cycle 421 (Melody and memorability; Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (third pass)) → v422
+- Accepted: no change (melodic figuration review, third pass)
+- Open / not applied: none
+- Do-not-touch: P stepwise fall 20.3-22 (contrast with 31, 141-142); 67-68 D-flat fall; 23-26/135-138 top line
+- Cross-movement: none
