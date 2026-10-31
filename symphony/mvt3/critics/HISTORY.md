@@ -1854,3 +1854,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 409 (v409 → v410), lens 9, Brahms 1 holistic
 - Rimsky-Korsakov Ex. 18 (PDF 58, 195): a solo cello doubling Vln II on F2 at 67–76 tested in a scratch build and declined (inaudible inside the section, costs the counter-melody's first desk).
 - Brahms 1/iv holistic comparison and v400 → v409 check (v399 is not in the checkout; v400 differs only by text): nothing worse. No score change.
+
+## Cycle 410 (v410 → v411), lens 10, cyclic review
+- Cyclic review against movement I v421, movement II v400 and scherzo v400: all quotations at pitch, records 51/51, 35/35, 18/18, 11/11, 52/52; cyclic rules hold.
+- A&S Unit 32 (PDF 586–593): Hn 1 common-tone E♭4 from 186 into 187 tested and declined (17 pages, covers the protected 171–186 cadence). No score change.
+- coherence/finale.md: six stale passages corrected (bar 82 iv6, Fl 2 at 263, Vln II and cello runs at 207–210, E♭ silence now 217–218, running list moved under its heading, open request now as of v410); note added on the scherzo's last horn phrase continuing into bars 1–2.

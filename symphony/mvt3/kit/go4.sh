@@ -26,8 +26,8 @@ lines=[l.rstrip() for l in open(notes) if l.startswith('- ')]
 block=''.join(f'- v{nx} (cycle {n}, {h}): {l[2:]}\n' for l in lines) or f'- v{nx} (cycle {n}, {h}): no score change.\n'
 hdr='## Changes in cycles 400– (v401–), running list\n\n'
 i=s.index(hdr)+len(hdr)
-j=s.index('\n## ',i)
-s=s[:j].rstrip('\n')+'\n'+block+s[j:] if s[i:j].strip() else s[:i]+block+s[i:]
+j=re.compile(r'^## ',re.M).search(s,i).start()
+s=s[:j].rstrip('\n')+'\n'+block+'\n'+s[j:]
 s=re.sub(r'Updated \d{4}-\d\d-\d\d for v\d+ \([^)]*\)', f'Updated {datetime.date.today()} for v{nx} (cycle {n}, {h})', s, count=1)
 open(p,'w').write(s)
 PY
