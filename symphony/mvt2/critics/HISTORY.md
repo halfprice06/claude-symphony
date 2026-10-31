@@ -2594,3 +2594,9 @@ texture; Adler ch. 5 string writing, adler1 PDF 132-167. Report: reports/c407.md
 - Accepted: nothing (v408 = v407 relabelled).
 - Recorded (no change): c407: no change. 15-22 oboe/solo violin dialogue has a real middleground (closes c007's open item); 45-46 figured to sustained background; 48-51 Mendelssohn V-32 model (protected); 37-44 Brahms pizzicato bass; theme A rises in register through the movement; 63-70 Carmen tremolo then Fauré basses; 83-92 diminuendo by scoring; spacing follows PDF 151-152.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 408 (v408 → v409)
+expression; Rimsky-Korsakov PDF 129-136. Report: reports/c408.md.
+- Accepted: timpani 78 b3 pp< (Rimsky PDF 136, as c358 at 60).
+- Do-not-touch: standing list; the 8-page layout.
