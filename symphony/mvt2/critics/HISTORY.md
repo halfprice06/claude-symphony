@@ -3043,3 +3043,8 @@ orchestration; Casanelles ch. 6. Report: reports/c474.md.
 - Accepted: nothing (v475 = v474 relabelled).
 - Recorded (no change): c474: no change. Soft entries over pedals (Mahler Fig. 6.1), theme A's receding colours, harmonic-series spacing, frequency allotment and graded brass density follow; horns at 61-62 in Vln II's octave recorded (protected). c334's roll point closed: rolls render as repeated strokes.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 475 (v475 → v476)
+- Accepted: explicit tie directions in chords at Vln II 38-39, Vla 80 and 88.
+- Do not touch: these directions (LilyPond's default puts a lone chord tie opposite the stem, into the other note).
