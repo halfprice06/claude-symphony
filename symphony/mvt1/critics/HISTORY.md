@@ -2744,3 +2744,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: 159 viola E-F with tune
 - Cross-movement: none
+
+## Cycle 523 (Form, pacing and proportion; Aldwell & Schachter Unit 17 Diatonic Sequences, judged as pacing: sequence length, where sequences stop, development momentum (aldwell-schachter PDF 263-288) (replaces a fourth pass of Unit 26, which found no change in four passes; c433)) → v524
+- Accepted: none (sequences as pacing: every approach shortens its unit; keep)
+- Open / not applied: recap climax reached in two bars (156-157), protected
+- Do-not-touch: unchanged
+- Cross-movement: none
