@@ -2878,3 +2878,10 @@ holistic comparison with a master work (Brahms Symphony 3/ii); Adler ch. 11 and 
 - Accepted: nothing (v450 = v449 relabelled).
 - Recorded (no change): c449: no change. Against Brahms 3/ii (wind opening, cyclic second idea, recalling coda) it holds; nothing worse since v439; Hn 3-4 unison to written G flat5 at f with Cl 2 (c086; c169 fallback); no brass on theme A at 79-81 by design (c024, c060).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 450 (v450 → v451)
+cyclic design; Sebesky ch. 1 and ch. 9, PDF 11-20, 240-242. Report: reports/c450.md.
+- Accepted: nothing (v451 = v450 relabelled).
+- Recorded (no change): c450: no change to the score. Motto tail harmonized three ways, ending on C each time (Sebesky Ex. 3, 3A); theme A keeps one harmony (c434); focus, economy, held-back brass and arc follow. coherence/mvt2.md updated to v449; BRIEF.md now gives the correct coherence file locations (checkout vs the live finale.md in the shared folder).
+- Do-not-touch: standing list; the 8-page layout.
