@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 425 (lens 5 engraving, Gould introduction and contents (gould-behind-bars PDF 7-13), then a second pass over PDF 17-68 for any rule not yet checked (fifth pass)) v425 → v426
+Accepted: harp clef change at 358 (coda.ily). No sound change.
+
 ## Cycle 424 (lens 4 orchestration, Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54) (fifth pass)) v424 → v425
 Accepted: Hn 1 G4 on tonic bars 105–120/305–320 (sC.ily, dC.ily). Do-not-touch: brass chords in the tuttis are complete (third present); single horns at 72 and 300 (Hn 3·4 senza sord. at 73; high horn unison kept for the finale).
 
