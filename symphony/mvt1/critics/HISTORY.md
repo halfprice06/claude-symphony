@@ -2432,3 +2432,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: motto colour return 175-179; transfers at 4-5, 9.4, 174-175, 180-181, 182; 167-170 (finale quotes); no harp at 147-155
 - Cross-movement: record only
+
+## Cycle 471 (Melody and memorability; Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (third pass)) → v472
+- Accepted: no change (Sebesky melodic considerations and lyric, third pass)
+- Open / not applied: none
+- Do-not-touch: S head and growth 63-64 to 158-161; P sentence 15-22; flute motto 73-76 with Vln II inner voice; Cl 1/Hn 2 counter 56-68
+- Cross-movement: none
