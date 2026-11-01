@@ -2414,3 +2414,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: horn sevenths 37, 67, 164.1; 113-114, 162 woodwind on Tpt 1; 117-121 Bsn 1; 127-130 no soft trumpets; 175-178, 181-182
 - Cross-movement: none
+
+## Cycle 468 (Expression; Aldwell & Schachter Unit 3 Rhythm and Meter: accent, hypermeter (aldwell-schachter PDF 47-57) (third pass)) → v469
+- Accepted: no change (rhythm, meter and accent, third pass; full accent/tenuto audit); record: 165-167 is kept because the tempo change (81 to 126) sits where the P pickup begins at 167, not because of a slower arrival (corrects c368)
+- Open / not applied: none
+- Do-not-touch: P-head accent system; S swells onto each appoggiatura; 23-26 and 135-138 group-start accents
+- Cross-movement: none
