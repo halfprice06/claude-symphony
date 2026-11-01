@@ -2456,3 +2456,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 47-55 no woodwind under S; Ob 1 145-146; Cl 1 entry 52.4
 - Cross-movement: none
+
+## Cycle 475 (Engraving and notation (Gould's *Behind Bars*, MOLA); Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (third pass)) → v476
+- Accepted: no change (preparation of score and parts, third pass)
+- Open / not applied: none
+- Do-not-touch: tempo marks top and Vln I (c165); brass staff layout; rehearsal-letter spacing; staff names; Hn 3-4 69-72 clef
+- Cross-movement: none
