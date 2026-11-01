@@ -3024,3 +3024,8 @@ lens 1; A&S Unit 1. Report: reports/c471.md.
 - Accepted: nothing (v472 = v471 relabelled).
 - Recorded (no change): c471: no change. Scales and spelling scans clean; theme B's 4/7 strong-beat tones recorded (protected); minor-mode forms, chromatic spellings (motto, quotation) and theme A frame follow Unit 1.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 472 (v472 → v473)
+- Accepted: Vln II lower half 39 b4 E♭4 (was C4 held through beats 3-4).
+- Do not touch: c402's D♭4-C4 at 39 b2-3.
