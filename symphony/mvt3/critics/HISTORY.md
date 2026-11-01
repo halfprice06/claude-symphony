@@ -2047,3 +2047,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 457 (v457 → v458), lens 7, Sebesky basics
 - Sebesky ch. 1 (PDF 12–13, Ex. 1): Bn 1 resting at 87–88 to clear the violins' scale tested and declined (weakens the 7–6 suspensions at 87.3 and 88.1). 187–194, 159–166, 153–158 and 67–74 checked. No score change.
+
+## Cycle 458 (v458 → v459), lens 8, Sebesky focus
+- Sebesky Ex. 269 (PDF 205, 207), Ex. 281 (PDF 215–216): the violas' and cellos' counter-melody at 74 swells to 74.3 and back to mp at 75 while the tune holds F5 (`bes4(\< aes4 f4\> g4~ | g2\! ...`); Hn 1 left as it was.
+- Declined: a swell at 46–48 (protected violas), changes to F1's steady f, a swell at 119–122, matching 194 to 74.
