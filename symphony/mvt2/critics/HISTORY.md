@@ -3386,3 +3386,8 @@ playability; Adler ch. 3, strings. Report: reports/c526.md.
 ## Cycle 527 (v527 → v528)
 - Accepted: Cb A1-B♭1 at 56; \bnBelow 53 56 removed from the Vc staff.
 - Do not touch: basses tacet 53-55; 53-56 layering.
+
+
+## Cycle 528 (v528 → v529)
+- Accepted: viola part text spacing at 83-84.
+- Open (optional): part-only f for Cl 1·2 at 60.
