@@ -2953,3 +2953,10 @@ cyclic design; A&S Unit 23 mixture, PDF 386-397. Report: reports/c460.md.
 - Accepted: nothing (v461 = v460 relabelled).
 - Recorded (no change): c460: no change. Key plan is mixture at long range (II as flat VI of C; F flat-E flat at 88 and A flat into the scherzo and finale); coda follows Brahms 3/ii (Ex. 23-5); no A flat minor phrase (key plan protected); flat 3 only passing. coherence/mvt2.md updated to v461 with the mixture note.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 461 (v461 → v462)
+melody; A&S Unit 2 intervals, PDF 33-46. Report: reports/c461.md.
+- Accepted: nothing (v462 = v461 relabelled).
+- Recorded (no change): c461: no change. Theme A interval content (one expressive 6th saved for 77); theme vs counter-melody at 71-78 follows Ex. 2-1b; outer voices perfect at cadences; leaps to and from dissonances all recorded or protected; fourths over the bass; minor keys defined by raised 7; theme B reaches 1 only at 61 (no earlier D flat cadence on melodic grounds); Dvořák 7/ii comparison recorded, theme A's opening kept (exported).
+- Do-not-touch: standing list; the 8-page layout.
