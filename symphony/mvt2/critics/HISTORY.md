@@ -2913,3 +2913,10 @@ orchestration; Adler ch. 11 brass, adler2 PDF 14-18, 37-54. Report: reports/c454
 - Accepted: nothing (v455 = v454 relabelled).
 - Recorded (no change): c454: no change. Horn weights at 61-62 (two horns = one trombone, c264); A' peak at 79-81 without heavy brass (Franck model); Tbn 1 quotation as held-back colour (Schubert 9, c294); low brass spacing as Ex. XI-1; soft horn chords one per pitch; trumpets tacet (cyclic choice).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 455 (v455 → v456)
+engraving (parts); MOLA PDF 1-16. Report: reports/c455.md.
+- Accepted: genparts.py widens rests under tempo words (wind/brass/timp) and drops midiExpression; part-only cues at 77-78 for the 79 entries.
+- Open: letter A above "Adagio" at 7 in the parts.
+- Do-not-touch: the 8-page score; the c355 letter-and-tempo stencil; multi-rest ranges; cues and one-page parts; harp page break before 71; harp pedal plan.
