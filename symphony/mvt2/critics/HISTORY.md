@@ -3539,3 +3539,10 @@ cyclic; Casanelles ch. 5. Report: reports/c550.md.
 - Accepted: nothing (v551 = v550 relabelled).
 - Recorded (no change): c550: no change to the score. Coherence file corrected (Vln I rejoin at 22 b3/25; v546 entry). Links to movement I v421, scherzo and finale hold; pedal passages and staged crescendos recorded.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 551 (v551 → v552)
+melody; Adler ch. 3 strings. Report: reports/c551.md.
+- Accepted: nothing (v552 = v551 relabelled).
+- Recorded (no change): c551: no change. Theme A's rising string statements, B♭6 peak by step, theme B on the A string, solo violin 17-22, cello and bass writing all follow Adler ch. 3.
+- Do-not-touch: standing list; the 8-page layout.
