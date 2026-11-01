@@ -3499,3 +3499,8 @@ orchestration; Rimsky-Korsakov ch. I. Report: reports/c544.md.
 - Accepted: nothing (v545 = v544 relabelled).
 - Recorded (no change): c544: no change. C.a. above the B.cl. solo at 32-34 separated by dynamics (c276); harp f at 78 (c244, c344); muted horns with C.a., plucked bass group, horn/trombone balance and horns at 79-81 follow Rimsky ch. I.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 545 (v545 → v546)
+- Accepted: Vln I "tutti, con sord." at 25 in the score.
+- Closed: Cl 1·2 dynamic at 60 (no restatement needed).
