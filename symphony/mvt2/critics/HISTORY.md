@@ -3450,3 +3450,10 @@ texture; Sebesky ch. 1. Report: reports/c537.md.
 - Accepted: nothing (v538 = v537 relabelled).
 - Recorded (no change): c537: no change. Doublings, chromatic inner lines, one primary line at a time and colour variety follow Sebesky ch. 1; 45-46 lower octave outweighing Ob 1 recorded (protected; test Ob 1 p if reopened).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 538 (v538 → v539)
+expression; Adler ch. 7, woodwinds. Report: reports/c538.md.
+- Accepted: nothing (v539 = v538 relabelled).
+- Recorded (no change): c538: no change. Soft dynamics by register, solo character words and hairpins, low bassoon cases and doubling levels follow Adler ch. 7; Cl 1·2 part-only f at 60 still open (c528).
+- Do-not-touch: standing list; the 8-page layout.
