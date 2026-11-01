@@ -2103,3 +2103,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 475 (v475 → v476), lens 5, Gould rests
 - Gould PDF 50–51 (rests on shared staves sit inside the staff below the middle line): score.ly sets `Rest.voiced-position` to 2 for whole and half rests (shorter rests keep c295's default) and `MultiMeasureRest.voiced-position = #2`, so the second player's rests no longer hang at or below the bottom line (e.g. Fl 2 and Ob 2 at 217–218); LilyPond still moves a rest out when a note collides. Pages 2–4, 6, 11–12, 15–16 change; no system or page moved; MIDI identical.
+
+## Cycle 476 (v476 → v477), lens 6, Adler harp
+- Adler PDF 111–112 (the harp's two lowest strings have no pedal and are tuned by hand): since v404 the harp plays D1 at 76, so a text "low D string (D1): tune D♮" now stands at the harp's first entry, 43, with the starting pedal setting, in score and part. Notes and MIDI unchanged. Tested and declined a wider harp chord at 132 (page 7 overfills).
