@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 467 (lens 7 texture, Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173) (fifth pass)) v467 → v468
+Accepted: Vln II la metà 349–356 (coda.ily). Do-not-touch: c445's rejection of la metà at 169–184 stands (Vln II is the only harmony there).
+
 ## Cycle 466 (lens 6 playability, Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (sixth pass)) v466 → v467
 Accepted: sul A at 177–180 (tA.ily) and 349–352 (coda.ily). Playing word only.
 
