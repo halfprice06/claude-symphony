@@ -191,6 +191,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 483 (lens 3 form, Rimsky-Korsakov ch. IV Composition of the orchestra: tutti, range limits, transfer of phrases, sf-p, crescendo and diminuendo (rimsky-principles PDF 115-136) (sixth pass)) v483 → v484
+Accepted: trumpets pp< at 332 (coda.ily, parts-cues.json). Do-not-touch: trumpets and low brass return together at 332 (c428).
+
 ## Cycle 482 (lens 2 harmony, Aldwell & Schachter Unit 17 Diatonic Sequences (aldwell-schachter PDF 263-288) (sixth pass)) v482 → v483
 Accepted: Hn 1 C♯5 on beat 3 of 198 (tB.ily). Do-not-touch: Hn 1 resolves to A4 at 199 (c322).
 
