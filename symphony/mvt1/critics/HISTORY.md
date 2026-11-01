@@ -2690,3 +2690,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: loud span 113-144 (~70 s) noted; levers protected
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 514 (Orchestration; Rimsky-Korsakov ch. I Comparison of resonance and combination of tone qualities, and ch. III Harmony: number of parts, distribution, strings, woodwind (rimsky-principles PDF 51-53, 81-99) (third pass)) → v515
+- Accepted: Violas at 158: <c' e'> (was <c' g'>) so the ff cadential 6/4 has its sixth on the downbeat (RK PDF 85-86, 96)
+- Open / not applied: none new
+- Do-not-touch: 158 violas C4/E4
+- Cross-movement: none
