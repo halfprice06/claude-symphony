@@ -1992,3 +1992,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 443 (v443 → v444), lens 3, A&S III and VII
 - A&S Unit 15 (PDF 236 Ex. 15-9; PDF 243–245): bar 16 beat 3 now sounds the full ii∅7 (D–F–A♭–C) as at 156.3: Cl 1 `aes'2( f'2)`, Cl 2 `f'2( c'2)` (the chord stood a quarter note as a bare diminished triad).
 - Declined: ♮VII → IV6 → V at 16–18, III under the passing 7 at 69. Key plan and proportions checked.
+
+## Cycle 444 (v444 → v445), lens 4, Casanelles spectral
+- Casanelles PDF 272–273, 283–287 (sul tasto removes upper partials; a remembered, distant sound): the strings' held chord under the oboe's movement II recollection at 95–98 is now "sul tasto", with "ord." at each part's return (99 for Vla, Vc, Cb; 103 for Vln II). Text only; MIDI unchanged.
+- Declined: stopped Hn 3·4 at 95–98. Checked: the receding returns of the second theme, theme B and the scherzo motive.
