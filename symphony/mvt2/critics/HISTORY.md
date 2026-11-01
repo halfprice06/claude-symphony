@@ -2791,3 +2791,10 @@ playability; Adler ch. 12 timpani (adler2 PDF 55-91). Report: reports/c436.md.
 - Accepted: timpani "damp" at 86.
 - Open (optional, needs the scherzo thread): earlier retuning of C and D flat drums at 87.
 - Do-not-touch: standing list; the bar-92 muta text; the 8-page layout.
+
+
+## Cycle 437 (v437 → v438)
+texture; Rimsky-Korsakov ch. III woodwind and brass combined, PDF 106-114. Report: reports/c437.md.
+- Accepted: nothing (v438 = v437 relabelled).
+- Recorded (no change): c437: no change. Correction to c287: a horn does sit between the bassoons at 62 b1-2 and 79-81 (Bn 1 doubles the counter-melody, Bn 2 the bass; protected, inaudible at ff). Moving horns over held woodwind at 60 (counter-melody, Ex. 143); 85-89 inner line handover; open horns at 3-6 (muted colour kept for 87-90); bassoons take dissonances under solo horn; climax doublings; strings with brass only as PDF 113 allows.
+- Do-not-touch: standing list; the 8-page layout.
