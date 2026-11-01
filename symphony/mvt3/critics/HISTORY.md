@@ -1917,3 +1917,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 425 (v425 → v426), lens 5, Gould clefs
 - Gould PDF 21–22: the cellos' run at 209–210 stays in bass clef (G♭4 on three ledger lines) instead of switching to tenor mid-slur and back before the rest.
 - Gould PDF 13, 23: score-only bass clef for Hn 1·2 at 79–82 (after Hn 1's breath at 78|79, back to treble at the 82|83 double bar), as at 25–26 and 165–166, so Hn 2's B♭2 no longer sits on five ledger lines. Parts unchanged; MIDI unchanged.
+
+## Cycle 426 (v426 → v427), lens 6, Adler ranges
+- Adler App. A (PDF 306; adler2 PDF 8): the bass trombone's short ff dominant notes at 91–93 rise to B♭2 (were B♭1, the bottom of its range); B♭1 stays in tuba, contrabassoon and basses.
+- Adler PDF 302: score header now names the basses' C extension at 75–76, 166 and 174–183.
+- Checked, no change: Tpt 1 C6s at 243–250, timpani drum sizes, woodwind extremes.
