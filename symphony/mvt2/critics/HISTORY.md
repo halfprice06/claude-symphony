@@ -3381,3 +3381,8 @@ playability; Adler ch. 3, strings. Report: reports/c526.md.
 - Accepted: nothing (v527 = v526 relabelled).
 - Recorded (no change): c526: no change. All 28 applicable principles of Adler ch. 3 hold; viola double stop at 62 (protected), Vln I B♭6 at 79-80 and bass 4 soli recorded.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 527 (v527 → v528)
+- Accepted: Cb A1-B♭1 at 56; \bnBelow 53 56 removed from the Vc staff.
+- Do not touch: basses tacet 53-55; 53-56 layering.
