@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 437 (lens 7 texture, Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255) (fifth pass)) v437 → v438
+Accepted: violas an octave lower at 197–200 (tB.ily). Do-not-touch: 197–200 layering (call a level above T; T in two octaves).
+
 ## Cycle 436 (lens 6 playability, Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50) (fifth pass)) v436 → v437
 Accepted: Bsn 2 on the bass 169–180 (tA.ily, parts-cues.json). Note: the second trio statement 169–184 now carries cellos + Hn 3 (to 176) + violas (from 177) on T, Vln II con sord. quavers, arco basses + Bsn 2, Fl 1 answers; it is full, so later critics should thin rather than add there. Kept: Cbsn 210–220, harp LH 75–80, solo violins 349–356.
 
