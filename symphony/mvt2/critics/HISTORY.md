@@ -3518,3 +3518,10 @@ texture; Adler ch. 15, polyphonic texture. Report: reports/c547.md.
 - Accepted: nothing (v548 = v547 relabelled).
 - Recorded (no change): c547: proposed change declined. The critic doubled the violins' theme with Cl 1 at 75-76; 'A′ texture plan 71-82' is on the do-not-touch list (c067 and later), and the strings-alone second phrase before the winds join at 77 is part of that plan, so the actor kept v547. Recorded: viola C4 at 78 b3, principal/subsidiary dynamics, legato layers by rhythm, theme A head against theme B at 53-56, no imitation.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 548 (v548 → v549)
+expression; Adler PDF 37-40, 187-196. Report: reports/c548.md.
+- Accepted: nothing (v549 = v548 relabelled).
+- Recorded (no change): c548: no change. Climax brass economy and sf at 61-64, molto sostenuto and staged release at 79-83, solo dynamics, hand-overs and tempo words follow Adler (Dvořák 9/ii compared).
+- Do-not-touch: standing list; the 8-page layout.
