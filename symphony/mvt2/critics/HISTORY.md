@@ -3098,3 +3098,10 @@ form; Rimsky-Korsakov ch. IV. Report: reports/c483.md.
 - Accepted: nothing (v484 = v483 relabelled).
 - Recorded (no change): c483: no change. Register, low spacing, gaps, phrase transfers, chord transfers, amplification/elimination and echo follow Rimsky ch. IV; new wide-bottom spacings at 38 and 73 recorded; optional overlap at 22 not recommended (mute time).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 484 (v484 → v485)
+orchestration; Adler harp and timpani. Report: reports/c484.md.
+- Accepted: nothing (v485 = v484 relabelled).
+- Recorded (no change): c484: no change. Harp harmonics at 82-83, pedalling, deliberately thin two-note hands, timpani layout and roll endings, and harp silence at climaxes follow Adler; c436 retune still open (scherzo thread).
+- Do-not-touch: standing list; the 8-page layout.
