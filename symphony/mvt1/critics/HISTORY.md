@@ -2354,3 +2354,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 23-25/135-137 grouping; 97-102 sustained bass; 39-40, 68.3 doubled runs; 33 bassoon entry; 56-59, 139-142 violin unisons
 - Cross-movement: none
+
+## Cycle 458 (Expression; Casanelles ch. 4 dynamics layering and expression in performance (hyper-orchestra PDF 145-161) and ch. 6 volume and dynamics (PDF 290-291) (third pass)) → v459
+- Accepted: Cb crescendo at 169 into the ff stop chord at 170 (as at 26 and 138)
+- Open / not applied: none
+- Do-not-touch: timpani pulse 179-180 pp; Vln I E-flat5 178 no swell; coda levels
+- Cross-movement: none
