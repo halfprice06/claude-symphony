@@ -2024,3 +2024,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 451 (v451 → v452), lens 1, A&S melodic figuration
 - A&S Unit 20 (PDF 332 Ex. 20-7a, PDF 336 Ex. 20-16): bar 69, a passing B♭1 on beat 4 fills the bass's C2–A♭1 third inside IV6 → IV (Cb, Bn 2, harp LH), a tenth under the tune's passing D6. Tune, counter-melody and dynamics unchanged.
 - Declined: a passing bass at 77.4 (outer-voice fifths), a double neighbour in a main tune.
+
+## Cycle 452 (v452 → v453), lens 2, A&S four-part writing
+- A&S Unit 5 (PDF 76, 83) and Unit 21 (PDF 351, the 9–8 always has its 3rd): violas at 228–229 now `e2.( f4 | g1)`, so the canon's 9–8 at 229 has an E and the octaves A→G with Cl 2 at 228→229 are gone. Canon, chorale, bass, timpani and dynamics unchanged.
+- Tested and declined: Cl 2's ninth leap at 228→229, Tbn 2's line at 151. Checked: hidden fifths and octaves in the outer voices.
