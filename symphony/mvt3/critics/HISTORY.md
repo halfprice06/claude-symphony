@@ -2112,3 +2112,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 478 (v478 → v479), lens 8, Adler woodwind articulation
 - Adler PDF 187, 199 (Ex. VII-34; keep the slur to the phrase's end): Ob 1's motto tail E♭5–D5–D♭5–C5 at 95–97 is now one slur to the C5, which was re-tongued on 97.1 before Cl 1 takes it over at 97.3; this matches movement II's source tail (Cl 1, II 85–90). Notes, dynamics and MIDI unchanged.
+
+## Cycle 479 (v479 → v480), lens 9, holistic comparison
+- Holistic comparison with the Eroica finale (Adler part 2 ch. 16): no change; the movement follows its plan (off-tonic ff opening, brass apotheosis at 223, fast coda, the opening scale returning at 263–264). Tested and declined timpani strokes accelerating into 247 in place of the G roll at 246 (repeats 143–146's figure and cuts the roll's crescendo). v469 → v479 checked: nothing got worse.
