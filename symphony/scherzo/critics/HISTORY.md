@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 434 (lens 4 orchestration, Adler ch. 5 Scoring for Strings (adler1 PDF 125-167) (fifth pass)) v434 → v435
+Accepted: Vln II at 170 (tA.ily). Do-not-touch: in I6 chords the bass's third is not doubled in the top voice.
+
 ## Cycle 433 (lens 3 form, Aldwell & Schachter Units 6-8 I, V, V7 and their inversions: phrase structure (aldwell-schachter PDF 92-133) (fifth pass)) v433 → v434
 Accepted: Cb G♯1 at 170 (tA.ily). Do-not-touch: T's three statements gain bass motion in turn (root under the drone 153, I6 at 170, moving bass from 209).
 
