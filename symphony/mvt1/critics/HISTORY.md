@@ -2474,3 +2474,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 143-146 unisons; 163-166 dissolution; 15-22 accompaniment; 171-174 solo cello and C.a.
 - Cross-movement: none
+
+## Cycle 478 (Expression; Sebesky ch. 1 focus and variety, ch. 6 melodic considerations (sebesky PDF 11-20, 204-218) (third pass)) → v479
+- Accepted: no change (Sebesky focus/variety/melodic considerations as expression, third pass; slur check of doubled lines clean)
+- Open / not applied: none
+- Do-not-touch: 52.4/152.4 Cl 1 entry as apex marker; 171-174 C.a. motto without hairpins; no words on ff tutti statements; 111-116 cresc.; 12 f
+- Cross-movement: none
