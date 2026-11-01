@@ -3504,3 +3504,10 @@ orchestration; Rimsky-Korsakov ch. I. Report: reports/c544.md.
 ## Cycle 545 (v545 → v546)
 - Accepted: Vln I "tutti, con sord." at 25 in the score.
 - Closed: Cl 1·2 dynamic at 60 (no restatement needed).
+
+
+## Cycle 546 (v546 → v547)
+playability; Adler ch. 4, harp. Report: reports/c546.md.
+- Accepted: nothing (v547 = v546 relabelled).
+- Recorded (no change): c546: no change. Harp pedal plan, one-hand triplets at 53-56, harmonics at 82-83, chord sizes and timpani tuning follow Adler ch. 4; c436 retune open in the scherzo thread.
+- Do-not-touch: standing list; the 8-page layout.
