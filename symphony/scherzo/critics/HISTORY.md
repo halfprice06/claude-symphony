@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 461 (lens 1 melody, Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (sixth pass)) v461 → v462
+Accepted: Vln I octave above the cellos' T at 177–184, violas rest (tA.ily, parts-cues.json). Do-not-touch: the A6 is still first heard at 218 (c344); three string sections stay on T at 177–184 at most (c436). Don't flip 177–184 back and forth between violas and Vln I.
+
 ## Cycle 460 (lens 10 cyclic, Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (fifth pass)) v460 → v461
 Accepted: C.a. inner line 358–360 (coda.ily, parts-cues.json). Do-not-touch: the 6–♭6–5 inner line under the motto tail at 357–360 is shared with movements II and IV.
 
