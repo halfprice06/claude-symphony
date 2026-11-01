@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 480 (lens 10 cyclic, Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (fifth pass)) v480 → v481
+Accepted: Neapolitan sixth at 199 (tB.ily), B♭5 at 300 (dB.ily). Record: new line trioTcall for 197–200.
+
 ## Cycle 479 (lens 9 holistic, Adler part 2 transcription examples in ch. 16 (adler2 PDF 202-244) (fifth pass)) v479 → v480
 Accepted: Fl 1 at 223–224 (tC.ily).
 
