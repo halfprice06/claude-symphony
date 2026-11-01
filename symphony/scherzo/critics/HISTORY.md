@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 460 (lens 10 cyclic, Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (fifth pass)) v460 → v461
+Accepted: C.a. inner line 358–360 (coda.ily, parts-cues.json). Do-not-touch: the 6–♭6–5 inner line under the motto tail at 357–360 is shared with movements II and IV.
+
 ## Cycle 459 (lens 9 holistic, Adler part 1 full-score examples in ch. 5 and 8 (adler1 PDF 137-165, 235-281) (fifth pass)) v459 → v460
 Accepted: Vc/Cb arco under the answers at 31–44 (sA.ily). Do-not-touch: the opening statement 13–28 stays bare (c259, c359). Open: tenor clef for the cellos' F♯4 at 35–36 (engraving lens).
 
