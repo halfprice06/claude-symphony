@@ -2828,3 +2828,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 537 (Texture and counterpoint; Adler ch. 15 polyphonic texture (adler2 PDF 172-186) (fourth pass)) → v538
+- Accepted: none (polyphonic texture fourth pass: 139-142 model texture; fugato and hemiola kept)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
