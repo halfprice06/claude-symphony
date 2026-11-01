@@ -3210,3 +3210,10 @@ cyclic design; Casanelles ch. 1. Report: reports/c500.md.
 - Accepted: nothing (v501 = v500 relabelled).
 - Recorded (no change): c500: no change to the score. Actor updated coherence/mvt2.md to v501. Theme records 19/19, 11/11; each quotation once; both joins and all finale links present at pitch; motto tail never in the same colour twice running.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 501 (v501 → v502)
+melody; A&S Unit 20, figuration. Report: reports/c501.md.
+- Accepted: nothing (v502 = v501 relabelled).
+- Recorded (no change): c501: no change. Theme A, theme B and the b-phrase figuration follow Unit 20 (Tchaikovsky Canzonetta compared); parallels and spelling scans clean apart from the motto's shared D♮ at 68; B♭6 at 79 is an accented neighbour (c001 wording).
+- Do-not-touch: standing list; the 8-page layout.
