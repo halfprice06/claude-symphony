@@ -3012,3 +3012,8 @@ expression; Adler PDF 51-70. Report: reports/c468.md.
 - Accepted: cello 9-8 suspension at 73-74 (C4 tied over the bar, B flat8 A flat8 G4); reprise only, 25-26 unchanged.
 - Recorded (no change): violins' plain reprise at 71-76 (theme record) not reopened.
 - Do not touch: the reprise/first-statement difference in the cello line at 26 vs 74 is deliberate.
+
+
+## Cycle 470 (v470 → v471)
+- Accepted: part-only "via sord." at the end of Vln I, Vln II, Vla (bar 92).
+- Do not touch: the Neapolitan links at 49, 63-64 and 87; the one-line placement of "via sord." (two-line or below-staff versions squeeze the Vln I part).
