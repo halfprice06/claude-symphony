@@ -2061,3 +2061,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 461 (v461 → v462), lens 1, Rimsky-Korsakov strings
 - Rimsky-Korsakov PDF 58–59, 62 (a very high violin line wants an octave below): at 212–214 Vln II divides; the upper half plays theme B at Tpt 1's pitch, an octave under Vln I and the flutes, the lower half keeps the existing line (c051/c054); unis. at 215. Theme B's notes, the 205–223 dynamic path and the D♭–C–B–C top line unchanged.
+
+## Cycle 462 (v462 → v463), lens 2, A&S cadential 6/4
+- A&S PDF 152–160 (cadential 6/4): bar 82 now runs iv6 (beats 1–2), V6/4 (beat 3, the tune's G as 3̂), V (beat 4) into the E♭ cadence at 83; the low strings, Bn 2 and Hn 2 move to B♭ on beat 3 and Bn 1 falls A♭3–G3–F3, so the tune's G5 no longer clashes with A♭ over C♭. Hn 1's E♭–D becomes the held 4th falling to the 3rd. Tune, harp, dynamics, breaths and the 75–82 pad's instruments unchanged.
