@@ -2552,3 +2552,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: no iv at 180.3 (c160); A-flat goal of climaxes; E only a glimpse at 78.3; soft Picardy thirds 8 and 182
 - Cross-movement: record only
+
+## Cycle 491 (Melody and memorability; Adler ch. 11 Scoring for Brass: melodic presentation (adler2 PDF 19-36) (third pass)) → v492
+- Accepted: no change (brass melodic presentation, third pass)
+- Open / not applied: none
+- Do-not-touch: 117-121 dark motto, 131 low P, 167 bright P; S in Hn 1 with strings; 158-161 octave layout; horn call; 175-181 chorale and canon
+- Cross-movement: none
