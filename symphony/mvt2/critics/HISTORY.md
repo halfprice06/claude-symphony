@@ -3175,3 +3175,10 @@ orchestration; Sebesky ch. 2. Report: reports/c494.md.
 - Accepted: part-only placement fixes (Vla 84 text below, Timp 77 left-aligned) and timpani note wording.
 - Open: viola part letter G at 53 vs "sotto voce" at 48.
 - Do not touch: c355's combined letter-and-tempo marking; one-page parts.
+
+
+## Cycle 496 (v496 → v497)
+playability; Adler, clarinets and bassoons. Report: reports/c496.md.
+- Accepted: nothing (v497 = v496 relabelled).
+- Recorded (no change): c496: no change. Cbn E♭1 at 81 enters ff and doubled; bassoon skip scan clean; Cl 2 long hold at 89-92 protected; B.cl. notation and A-clarinet change time already recorded.
+- Do-not-touch: standing list; the 8-page layout.
