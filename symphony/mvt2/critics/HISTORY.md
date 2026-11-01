@@ -3580,3 +3580,10 @@ idiom; Adler ch. 9-10 brass. Report: reports/c556.md.
 - Accepted: nothing (v557 = v556 relabelled).
 - Recorded (no change): c556: no change. Brass notes unchanged since v426; Hn 1 endurance, Hn 4 top line 61-62, cold entries with cues, Tbn 1 quotation, mute timings and part notation all playable per Adler.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 557 (v557 → v558)
+voice leading; A&S Unit 31 chromatic voice exchange. Report: reports/c557.md.
+- Accepted: nothing (v558 = v557 relabelled).
+- Recorded (no change): c557: no change. Wedge at 51-52 (settles c237 finding 3), contrary semitones into goal chords, motto tail never over a chromatic rising bass, exchange at 21 intact; Bsn 2 respelling at 47 correct.
+- Do-not-touch: standing list; the 8-page layout.
