@@ -2121,3 +2121,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 481 (v481 → v482), lens 1, Adler strings
 - Adler ch. 3 (strings): no change. Tested and declined a single solo violin at 119 and 122 (covered by Vln I an octave lower; reverses c209/c438) and a solo cello at 123–124 (masked by the harp; thinner than the violas that follow).
+
+## Cycle 482 (v482 → v483), lens 2, A&S 5-6 sequences
+- A&S PDF 267–277 (5–6 motion against parallel fifths): at 239–240 the tune's E over A moved to C over F, outer-voice fifths on two downbeats (par8 flags all four tune parts). The bass (Vc, Cb, Bn 2, harp LH) now holds A over the bar line and moves to F on 240 beat 2, so Bn 1's E3→F3 becomes a 5–6 over A (IV6 at 240.1) and the outer voices run 5–10–10. Tune, counter-line and the A–F–D bass unchanged; answers c032/c212/c302, whose reason (the tune is movement I's) covered only the tune.
