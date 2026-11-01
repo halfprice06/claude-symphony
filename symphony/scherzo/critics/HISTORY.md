@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 458 (lens 8 expression, Sebesky ch. 1 focus and variety, ch. 6 melodic considerations (sebesky PDF 11-20, 204-218) (fifth pass)) v458 → v459
+Accepted: 277–280 accompaniment pp (dA.ily). Do-not-touch: 121–124 stays sub. p (two violin octaves carry the tune, c308).
+
 ## Cycle 457 (lens 7 texture, Sebesky ch. 1 Basics: balance, economy, focus, variety (sebesky PDF 11-20) (fifth pass)) v457 → v458
 Accepted: Vln I solo alone 349–356 (coda.ily). Do-not-touch: Vln II alone carries the lower octave of T at 349–356.
 
