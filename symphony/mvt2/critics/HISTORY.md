@@ -3405,3 +3405,10 @@ cyclic design; Adler ch. 17. Report: reports/c530.md.
 - Accepted: nothing (v531 = v530 relabelled).
 - Recorded (no change): c530: no change to the score. Actor updated coherence/mvt2.md to v531. Coda motto, both quotations' entries, the scherzo hand-over (checked against scherzo v400/v431) and range/mute plan follow Adler ch. 17.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 531 (v531 → v532)
+melody; A&S Unit 21, suspensions. Report: reports/c531.md.
+- Accepted: nothing (v532 = v531 relabelled).
+- Recorded (no change): c531: no change. Theme A's tied suspension cell is clean at 8, 24, 72; tritone at 55-56 resolved in Bsn 1; climax 79-82 delayed resolution follows; changes since c311 follow Unit 21.
+- Do-not-touch: standing list; the 8-page layout.
