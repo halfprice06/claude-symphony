@@ -2654,3 +2654,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 23-25/135-137 Fl 1+Ob 1 doubling Vln I noted (c287 protects)
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 508 (Expression; Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (third pass)) → v509
+- Accepted: Hn 2 and Hn 4 at 163: mf> on the restruck notes inside the decay (Adler PDF 307-323)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
