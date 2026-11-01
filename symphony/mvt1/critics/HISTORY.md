@@ -2372,3 +2372,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: silence after 170; timpani-trumpet pairing; sforzandi at 41; bar 12 German sixth
 - Cross-movement: record only
+
+## Cycle 461 (Melody and memorability; Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (third pass)) → v462
+- Accepted: no change (individual woodwinds melodic writing, third pass)
+- Open / not applied: none
+- Do-not-touch: 64-65 flute exit; no oboe solo theme (mvt II); C.a. register; motto colour plan; B.cl-Cl 1 handoff 77-78; Cl 1 F5 at 52
+- Cross-movement: none
