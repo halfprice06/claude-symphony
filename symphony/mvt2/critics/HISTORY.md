@@ -3320,3 +3320,10 @@ orchestration; Rimsky-Korsakov ch. III. Report: reports/c517.md.
 - Accepted: nothing (v518 = v517 relabelled).
 - Recorded (no change): c517: no change. Horns inside the bassoon span only at f/ff (62, 79-81; corrects c287's 'never'); 61-62 balance per c287; 3-6, 67-70, 57-58, 79 and 87-90 follow Rimsky ch. III.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 518 (v518 → v519)
+expression; Rimsky-Korsakov ch. IV. Report: reports/c518.md.
+- Accepted: nothing (v519 = v518 relabelled).
+- Recorded (no change): c518: no change. Soft entries at 22, 57, 77, sf-p at 63, release order at 63-66, 81-83, 87-92 and the 57-60 build follow Rimsky ch. IV; c468/c478 changes consistent.
+- Do-not-touch: standing list; the 8-page layout.
