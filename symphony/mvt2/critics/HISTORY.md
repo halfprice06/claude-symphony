@@ -3048,3 +3048,10 @@ orchestration; Casanelles ch. 6. Report: reports/c474.md.
 ## Cycle 475 (v475 → v476)
 - Accepted: explicit tie directions in chords at Vln II 38-39, Vla 80 and 88.
 - Do not touch: these directions (LilyPond's default puts a lone chord tie opposite the stem, into the other note).
+
+
+## Cycle 476 (v476 → v477)
+playability; Rimsky-Korsakov ch. I. Report: reports/c476.md.
+- Accepted: nothing (v477 = v476 relabelled).
+- Recorded (no change): c476: no change. All 40 principles of Rimsky ch. I hold; timpani retune at 87 stays open (c436, needs the scherzo thread); Hn 2 cold ff entry at 61 cued; Bsn 2 breath plan at 57-60 per c456.
+- Do-not-touch: standing list; the 8-page layout.
