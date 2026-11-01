@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 475 (lens 5 engraving, Gould ch. 1: ledger lines, octave signs, rests (gould-behind-bars PDF 41-52) (sixth pass)) v475 → v476
+Accepted: Hn 4 rest position at 166 (tA.ily). Print only.
+
 ## Cycle 474 (lens 4 orchestration, Rimsky-Korsakov appendix of single tutti chords (rimsky-principles PDF 505-510) and the tutti examples cited in ch. IV (sixth pass)) v474 → v475
 Accepted: Hn 3·4 at 300 (dB.ily, parts-cues.json). Do-not-touch: bar 72 (Hn 3·4's first unmuted entry is 73).
 
