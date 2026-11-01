@@ -2408,3 +2408,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Hn 4 111-142 stint length; Hn 1 111-123; Tbn 80 pickup; 175-179 chorale
 - Cross-movement: none
+
+## Cycle 467 (Texture and counterpoint; Rimsky-Korsakov ch. III overlaying, crossing and enclosure (rimsky-principles PDF 106-114) and the examples cited (third pass)) → v468
+- Accepted: no change (overlaying, crossing, enclosure as texture, third pass)
+- Open / not applied: none
+- Do-not-touch: horn sevenths 37, 67, 164.1; 113-114, 162 woodwind on Tpt 1; 117-121 Bsn 1; 127-130 no soft trumpets; 175-178, 181-182
+- Cross-movement: none
