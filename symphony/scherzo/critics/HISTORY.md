@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 431 (lens 1 melody, Adler ch. 11 Scoring for Brass: melodic presentation (adler2 PDF 19-36) (fifth pass)) v431 → v432
+Accepted: Hn 3 with the cellos at 169–176 (tA.ily; Hn 4 adjusted). Open: the second idea is still the least memorable theme. Do-not-touch: horn melodies stay soft and middle-register.
+
 ## Cycle 430 (lens 10 cyclic, Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (fifth pass)) v430 → v431
 Accepted: Vln I G♯5 ppp at 1–2 (intro.ily). Rejected: Vln II G♯4 unison (hidden in the horn); violin held into 3 (clashes with D♯ at 5–6). Do-not-touch: the G♯ pair Hn 1 G♯4 + Vln I G♯5 frames the movement (1–2 and 369–376).
 
