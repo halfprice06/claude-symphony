@@ -2817,3 +2817,10 @@ holistic (Brahms PC 2/iii); Rimsky Ex. 275-312. Report: reports/c439.md.
 cyclic design; Rimsky PDF 13-23, 124-129. Report: reports/c440.md.
 - Accepted: s2.*0 instead of <> before the strings' L at 83; theme record gains codaVla (19 entries); accept.sh runs the theme checks.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 441 (v441 → v442)
+melody; Adler ch. 7 woodwinds, adler1 PDF 184-232. Report: reports/c441.md.
+- Accepted: nothing (v442 = v441 relabelled).
+- Recorded (no change): c441: no change. Theme B's second phrase in the C.a.'s best register (PDF 205-206); 37-40 as Ex. VII-5 (Tchaikovsky PC 1/ii); flute top notes approached by step, single B flat6 at 79; oboe answers at 15-22; theme A never whole in a woodwind (proportions protected); B.cl. solo and clarinet attacks; Bsn 1 doublings.
+- Do-not-touch: standing list; the 8-page layout.
