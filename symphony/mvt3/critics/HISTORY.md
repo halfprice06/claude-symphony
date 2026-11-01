@@ -2136,3 +2136,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 486 (v486 → v487), lens 6, Adler woodwind playability
 - Adler PDF 175, 188, 192, 230 (wind endurance; second player relieves the first; contrabassoon rests): Fl 2 takes Fl 1's B♭5 at 37–38 so Fl 1 breathes (back on B♭5 at 38.3; sound unchanged, Fl 2 still rests 35–36); the contrabassoon rests 205–208, where it only doubled the tuba and basses' A♭1, and re-enters f < at 209; staggered bassoon breaths after 241 (Bn 1) and 242 (Bn 2).
+
+## Cycle 487 (v487 → v488), lens 7, Rimsky-Korsakov doublings
+- Rimsky-Korsakov PDF 74–80 (unison doublings): no change. The critic proposed Bn 2 on F2's last phrase at 255–256 (strings and horns alone do not blend, PDF 79); declined, because the woodwinds' rest at 255–256 and fresh entry at 257 (since v130, kept by c486) was not answered. Other doubling checks (205–206, 211–218, 247–254, 107–109) pass.
