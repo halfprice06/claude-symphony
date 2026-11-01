@@ -3306,3 +3306,10 @@ orchestration; Casanelles PDF 285-291. Report: reports/c514.md.
 ## Cycle 515 (v515 → v516)
 - Accepted: Vla 74 \stemDown.
 - Do not touch: down-stems throughout the viola figure 71-78.
+
+
+## Cycle 516 (v516 → v517)
+playability; Adler ch. 2, strings. Report: reports/c516.md.
+- Accepted: nothing (v517 = v516 relabelled).
+- Recorded (no change): c516: no change. Tremolo double-stops at 61-64, mute timings, bow load 71-92, open-string avoidance, divisi words, pizz./arco timing all follow Adler ch. 2; no harmonics added.
+- Do-not-touch: standing list; the 8-page layout.
