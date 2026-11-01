@@ -1934,3 +1934,9 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 429 (v429 → v430), lens 9, Dvořák 9 holistic
 - Rimsky-Korsakov PDF 107–108 (Ex. 148, 151: stopped horns over low clarinets): Cl 2 at 167–170 now plays A♭3–F♯3–G3–F3 in its low register with Bn 1 (`aes1 | fis1\> | g1 | f1\pp`), no longer in unison with the stopped Hn 2; Cl 1 still carries A♭4 to the cor anglais at 171. Dynamics unchanged.
 - Dvořák 9/iv holistic comparison and v419 → v429 check: nothing worse.
+
+## Cycle 430 (v430 → v431), lens 10, cyclic review
+- Cyclic review against movement I v461, movement II v445 and scherzo v421 (their newest versions): all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51. Movement I's new cello tremolo at its 122 checked against 223: the arrival stays distinct.
+- Casanelles PDF 222: score title stamp now "draft v431" (was "v400, 27 October 2026"), bumped each version.
+- Casanelles ch. 5 (PDF 219–220, 239, 245–248): cor anglais in the close at 273–279 tested and declined. No musical change.
+- coherence/finale.md: header, records and open request brought to c430; scoring-rules note on movement I's 122 added.
