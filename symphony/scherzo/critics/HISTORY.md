@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 479 (lens 9 holistic, Adler part 2 transcription examples in ch. 16 (adler2 PDF 202-244) (fifth pass)) v479 → v480
+Accepted: Fl 1 at 223–224 (tC.ily).
+
 ## Cycle 478 (lens 8 expression, Adler ch. 7 woodwind articulation and dynamics by register (adler1 PDF 184-232) (fifth pass)) v478 → v479
 Accepted: Cl 1 octave up 329–332 (coda.ily). Do-not-touch: the F on beats 1–2 of 331 (finale IV 272).
 
