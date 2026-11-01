@@ -2660,3 +2660,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 509 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (third pass)) → v510
+- Accepted: none (holistic vs Mendelssohn 4 from secondary sources; no score available; v499-v509 no regressions)
+- Open / not applied: Mendelssohn comparison lacked a score (IMSLP blocked)
+- Do-not-touch: unchanged
+- Cross-movement: none
