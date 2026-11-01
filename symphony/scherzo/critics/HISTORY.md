@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 426 (lens 6 playability, Adler App. A ranges, professional and amateur limits (adler2 PDF 302-312) (fifth pass)) v426 → v427
+Accepted: 'via sord.' at 185 (tB.ily, score.ly). Rejected: lower Hn 1 at 213–216. Do-not-touch: Hn 1 C♯5 held at 213–216 (common tone of the three chords).
+
 ## Cycle 425 (lens 5 engraving, Gould introduction and contents (gould-behind-bars PDF 7-13), then a second pass over PDF 17-68 for any rule not yet checked (fifth pass)) v425 → v426
 Accepted: harp clef change at 358 (coda.ily). No sound change.
 
