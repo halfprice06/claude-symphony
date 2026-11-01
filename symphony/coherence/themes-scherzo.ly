@@ -15,10 +15,10 @@ motiveX = { b,4 b,8 b,8 g,4 | e,4 r2 | b,4 b,8 b,8 e4 | e,4 r2 }
 themeA = { e''4 b'8 b'8 e''4 | g''2 fis''8 f''8 | e''4 b'8 b'8 g'4 | fis'4 dis'4 b4 | e''4 b'8 b'8 e''4 | a''2 gis''8 g''8 | fis''4 dis''8 dis''8 b'4 | e''4 r2 | a''4 g''4 fis''4 | e''4 dis''8 dis''8 e''4 | fis''4 g''8 a''8 b''4 | c'''2 b''8 fis''8 | e''4 b'8 b'8 e''4 | g''2 fis''8 f''8 | e''4 dis''8 dis''8 fis''4 | e''4 r2 }
 
 % secondIdeaG: v32 VlnOne bars 45-56 (since v32 each two-bar answer ends dotted crotchet + quaver; since v412 (c411) each phrase's first minim is a dotted crotchet + passing quaver)
-secondIdeaG = { d'''4. c'''8 b''4~ | b''4 g'''2 | fis'''2 e'''4~ | e'''4 d'''4. e'''8 | e'''4. d'''8 cis'''4~ | cis'''4 a'''2 | g'''2 fis'''4~ | fis'''4 e'''4. d'''8 | d'''4 b''4 g''4 | b''2 a''4~ | a''4 g''2 | g''4 r2 }
+secondIdeaG = { d'''4. c'''8 b''4~ | b''4 g'''2 | fis'''2 e'''4~ | e'''4 d'''4. e'''8 | e'''4. d'''8 cis'''4~ | cis'''4 a'''2 | g'''2 fis'''4~ | fis'''4 e'''4. d'''8 | d'''4 e'''8 d''' c'''4 | b''2 a''4~ | a''4 g''2 | g''4 r2 }
 
 % secondIdeaE: v32 VlnOne bars 277-288 (same change); since v340 (c339) bars 277–280 are Fl 1 (Ob 1 an octave lower) and Vln I takes over from the up-beat D6 at 280
-secondIdeaE = { b''4. a''8 g''4~ | g''4 e'''2 | dis'''2 cis'''4~ | cis'''4 b''4. d'''8 | c'''4. b''8 a''4~ | a''4 fis'''2 | e'''2 dis'''4~ | dis'''4 cis'''4. b''8 | b''4 g''4 e''4 | g''2 fis''4~ | fis''4 e''2 | e''4 r2 }
+secondIdeaE = { b''4. a''8 g''4~ | g''4 e'''2 | dis'''2 cis'''4~ | cis'''4 b''4. d'''8 | c'''4. b''8 a''4~ | a''4 fis'''2 | e'''2 dis'''4~ | dis'''4 cis'''4. b''8 | b''4 cis'''8 b'' a''4 | g''2 fis''4~ | fis''4 e''2 | e''4 r2 }
 % secondIdeaEmaj: since v384 (c383) the reprise antecedent 277-280 opens in E major (G sharp for G), Fl 1 with Ob 1 an octave lower; it turns minor at 281
 secondIdeaEmaj = { b''4. a''8 gis''4~ | gis''4 e'''2 | dis'''2 cis'''4~ | cis'''4 b''4. d'''8 }
 

@@ -55,6 +55,7 @@ The themes are free to evolve under the critics. symphony/coherence/themes-scher
 - v413 (cycle 412): second idea, E-minor consequent bar 8 (128, 284, all octaves): old dis'''4 b''4. cis'''8, new dis'''4 cis'''4. b''8 (D♯–C♯–B over VII°7 of V, bass F♯–A♯–B). Record refreshed; no message needed.
 - v422 (cycle 421): trio tune T, bars 7–8 (159–160 Cl 1, 175–176 Vc, 215–216 Cl 1/Vln I/II): old e''4. dis''8 cis''4 | ais'4 b'2, new e''4. dis''8 ais'4~ | ais'4 b'2 (7–8 suspension of the leading tone). Coda Ob 1 345–348 keeps the old form (record line trioTcoda). Head unchanged; movement I quotes only the head and the finale does not quote T, so no message was needed.
 - v442 (cycle 441): second idea's cadence (bars 10–11 of each statement: 54–55, 130–131, 286–287, all octaves): G old a''2 fis''4 | a''4 g''2, new b''2 a''4~ | a''4 g''2; E minor old fis''2 dis''4 | fis''4 e''2, new g''2 fis''4~ | fis''4 e''2 (3–2–1 in hemiola minims, 9–8 tie). Record refreshed; no other movement quotes it.
+- v452 (cycle 451): second idea, bar 9 of each statement (53, 129, 285; Vln I/II, Fl 1, Ob 1): G old d'''4 b''4 g''4, new d'''4 e'''8 d''' c'''4; E minor old b''4 g''4 e''4, new b''4 cis'''8 b'' a''4 (upper neighbour + passing note in motive x's rhythm; low doubling at 285 keeps B–G–E). Record refreshed; no other movement quotes it.
 
 ## Cycle 4 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v04 → v05
 All 8 findings accepted (reasons in v05/critique.md): horn chords split and tutti balance 105–120/309–324 with Vln II on the theme; harp RH out of the trio off-beats 169–184/209–224; F-major episode thinned (Cl rests, harp chord to LH); Hn 2 lower in the second idea 45–56; Hn 1·2 thirds/sixths 209–224; violas pizz. 257–276; 87–88 doubling; tuba E1 at 341–343. Themes unchanged. Keep: harp alone with the theme head at 73–80; no plucked off-beats doubled by bowed ones.
@@ -188,6 +189,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
+
+## Cycle 451 (lens 1 melody, Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (sixth pass)) v451 → v452
+Accepted (theme change): second idea bar 9 (sA, sC, dA). Do-not-touch: the second idea's descent 5–4–3–2–1 into the tied 9–8 cadence; C♯ (not C♮) at 129/285.
 
 ## Cycle 450 (lens 10 cyclic, Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (fifth pass)) v450 → v451
 Accepted: no change. Do-not-touch confirmed: the closing groups 361/365/369/373 (horn alone 365–368).
