@@ -2636,3 +2636,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 505 (Engraving and notation (Gould's *Behind Bars*, MOLA); Adler ch. 2 notation of bowings, divisi and harmonics (adler1 PDF 30-55) as engraving rules (third pass)) → v506
+- Accepted: Vc and Bsn 1 at 141-142: slur ends on tied C, B is a fresh down-bow/tongued (as violins and Tbn 1; Adler PDF 38-43)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
