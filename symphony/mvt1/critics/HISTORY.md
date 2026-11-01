@@ -2750,3 +2750,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: recap climax reached in two bars (156-157), protected
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 524 (Orchestration; Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (fourth pass)) → v525
+- Accepted: none (brass and combined harmony fourth pass: Hn 4 Eb4 at 82 tested and rejected; keep)
+- Open / not applied: none new
+- Do-not-touch: 82 brass layout
+- Cross-movement: none
