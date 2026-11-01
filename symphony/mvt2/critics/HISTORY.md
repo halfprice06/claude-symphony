@@ -3189,3 +3189,10 @@ texture; Adler ch. 5, homophonic strings. Report: reports/c497.md.
 - Accepted: nothing (v498 = v497 relabelled).
 - Recorded (no change): c497: no change. String spacing, first-inversion doublings, section crossings and the final chord's partial-series spacing follow Adler ch. 5; thin accompaniment at 48-51 and held basses at 30, 89-92 protected (Grieg, Aase's Death, compared).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 498 (v498 → v499)
+dynamics; A&S Unit 3, rhythm and metre. Report: reports/c498.md.
+- Accepted: nothing (v499 = v498 relabelled).
+- Recorded (no change): c498: no change. Cello 9-8 dynamics at 73-74 follow Ex. 3-6; C.a. swell at 49 kept as in movement I; coda dynamics on strong bars; theme B's harmonic rhythm answers c238 (closed).
+- Do-not-touch: standing list; the 8-page layout.
