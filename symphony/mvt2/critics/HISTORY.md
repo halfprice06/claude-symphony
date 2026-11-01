@@ -3072,3 +3072,10 @@ texture; Adler ch. 17. Report: reports/c477.md.
 ## Cycle 479 (v479 → v480)
 - Accepted: Cl 2 E♭4 tied into 74, D♭4 on b2; Vla 74 b1 E♭3.
 - Do not touch: the 74 b1 voicing around the cello 9-8 (no D♭ above the C4 suspension on the downbeat).
+
+
+## Cycle 480 (v480 → v481)
+cyclic design; A&S Unit 29, augmented sixths. Report: reports/c480.md.
+- Accepted: nothing (v481 = v480 relabelled).
+- Recorded (no change): c480: no change to the score. Actor updated coherence/mvt2.md (version line, changes through v480, cello reprise note). G♭ spelling at 60 and plain last chord kept for movements I and IV; augmented sixths at 21 and 62-65 resolve correctly; no augmented sixth in the coda (c210, c312).
+- Do-not-touch: standing list; the 8-page layout.
