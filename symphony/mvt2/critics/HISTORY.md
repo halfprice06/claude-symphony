@@ -2987,3 +2987,9 @@ orchestration; Adler ch. 5 string scoring, adler1 PDF 125-167. Report: reports/c
 engraving; Adler ch. 2 (adler1 PDF 30-55). Report: reports/c465.md.
 - Accepted: text offsets at 22 (Vln II) and 44 (Ob 1); cello-part "sul G" line break at 51-52.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 466 (v466 → v467)
+playability; Adler ch. 10 horns (adler1 PDF 299-312). Report: reports/c466.md.
+- Accepted: part-only cello cues for Hn 2 (73-74) and Hn 1 (76-77).
+- Do-not-touch: standing list; the 8-page layout.
