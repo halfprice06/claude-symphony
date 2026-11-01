@@ -1909,3 +1909,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 423 (v423 → v424), lens 3, Adler accompaniment and pacing
 - Adler ch. 15/17 (PDF 190, Ex. XV-36): a soft horn chord overlapping the ff stroke at 94→95 tested and declined (the half-bar silence ends the exposition and sets off the movement II quotation). Coda stages, the second-theme head at 235–239, the horn call's accompaniment and the subito pianos checked. No score change.
+
+## Cycle 424 (v424 → v425), lens 4, Adler ch. 11 brass
+- Adler ch. 11 (PDF 15, brass balance above mf): Tbn 1 now plays F♯3 instead of E♭3 in the German sixth at bars 1 and 5, stepping to its G3 at 2 and 6, so the chord's defining F♯ is no longer only in Hn 4. E♭ stays in Hn 2, Ob 1, Cl 2, Vln II, violas and cellos; link pitches unchanged.
+- Recorded only: the single brass F♯4 in the German sixth at 261 (protected). Declined: bars 2 and 6 low third, the plagal close at 231–234.
