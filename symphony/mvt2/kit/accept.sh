@@ -4,5 +4,6 @@ M=/home/user/claude_composes/symphony/mvt2; N=$1; NEW=$((N+1))
 bash $M/kit/genprompt.sh $NEW "" >/dev/null
 bash $M/kit/promote-parts.sh $NEW $N $2 2>&1 | grep -E "^warnings|^Outer|Pages|parts:"
 python3 $M/kit/guard.py $M/v$N $M/v$NEW
+C=/home/user/claude_composes/symphony/coherence; python3 $C/themecheck.py $C/themes-mvt2.ly $M/v$NEW 2>&1 | tail -1; python3 $C/themecheck.py $C/themes-mvt2-b.ly $M/v$NEW --beats 4 2>&1 | tail -1
 python3 $M/kit/log.py $NEW $3 $4 && bash $M/kit/finish.sh $NEW | tail -1
 cd /home/user/claude_composes && git push -q origin claude/project-thread-sgcp3g 2>&1 | tail -1; git status --short | head -3

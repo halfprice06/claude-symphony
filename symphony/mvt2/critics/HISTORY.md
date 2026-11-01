@@ -2811,3 +2811,9 @@ holistic (Brahms PC 2/iii); Rimsky Ex. 275-312. Report: reports/c439.md.
 - Accepted: violas 84-85 restored (lost in v436 inside a comment); \barNumberCheck #93 on the violas. kit/guard.py now checks every promotion.
 - Open: add \barNumberCheck #93 to the other coda staves.
 - Do-not-touch: the coda as designed by c194, c199, c223; standing list; the 8-page layout.
+
+
+## Cycle 440 (v440 → v441)
+cyclic design; Rimsky PDF 13-23, 124-129. Report: reports/c440.md.
+- Accepted: s2.*0 instead of <> before the strings' L at 83; theme record gains codaVla (19 entries); accept.sh runs the theme checks.
+- Do-not-touch: standing list; the 8-page layout.
