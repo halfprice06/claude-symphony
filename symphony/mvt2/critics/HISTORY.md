@@ -2993,3 +2993,10 @@ engraving; Adler ch. 2 (adler1 PDF 30-55). Report: reports/c465.md.
 playability; Adler ch. 10 horns (adler1 PDF 299-312). Report: reports/c466.md.
 - Accepted: part-only cello cues for Hn 2 (73-74) and Hn 1 (76-77).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 467 (v467 → v468)
+texture; Rimsky-Korsakov ch. II melody in combined groups, PDF 74-80. Report: reports/c467.md.
+- Accepted: nothing (v468 = v467 relabelled).
+- Recorded (no change): c467: no change. Counter-line at 57-60 with a wind in each octave (Ex. 90; c087, c187, c327); Bsn 2 over the basses at 57-58 and 72-73 (c157, c060); three-group unison at 75-77 (c217); B.tbn with basses at 64; bass in three octaves at 79-81 (Ex. 91, 96).
+- Do-not-touch: standing list; the 8-page layout.
