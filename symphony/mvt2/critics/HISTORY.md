@@ -3086,3 +3086,8 @@ melody; Rimsky-Korsakov ch. V. Report: reports/c481.md.
 - Accepted: nothing (v482 = v481 relabelled).
 - Recorded (no change): c481: no change. Doubling plan of both themes, register, climaxes, Fl 1 duet support at 41-44 and the ff unisons follow Rimsky ch. V; accompaniment scan finds only spots already ruled on.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 482 (v482 → v483)
+- Accepted: corrected comment at bar 43 (bSecCb); no musical change.
+- Do not touch: 74's V4/3 voicing (c469, c479).
