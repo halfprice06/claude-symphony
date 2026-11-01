@@ -2846,3 +2846,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: 170 oboe layout
 - Cross-movement: none
+
+## Cycle 540 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (fourth pass)) → v541
+- Accepted: none (modulation and form fourth pass: dominant of C held back at every join; coherence updated to v541)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
