@@ -3419,3 +3419,10 @@ harmony; A&S Unit 5, doubling and spacing. Report: reports/c532.md.
 - Accepted: nothing (v533 = v532 relabelled).
 - Recorded (no change): c532: no change. Doubled third at 9 b1 justified (fifths otherwise); leading-tone doublings at 24, 52, 72 and in tutti passages follow (Dvořák 9/ii compared); written augmented second at 50-51 kept (c432); leap at 64 b3 added to c392's list.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 533 (v533 → v534)
+form; A&S Unit 26, key plan. Report: reports/c533.md.
+- Accepted: nothing (v534 = v533 relabelled).
+- Recorded (no change): c533: no change. Exit from IV timed at 2.9:1 (justified by the climax in IV); falling-third key plan at two scales; F♯-minor spelling practical; late D♭ cadence and plagal coda follow Unit 26.
+- Do-not-touch: standing list; the 8-page layout.
