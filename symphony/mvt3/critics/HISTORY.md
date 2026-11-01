@@ -2070,3 +2070,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 464 (v464 → v465), lens 4, Rimsky-Korsakov brass and winds
 - Rimsky-Korsakov PDF 110–111 (woodwind harmony above the trumpets): the oboes swap at 262–264; Ob 1 takes V7's seventh F5 and resolves it to E5, the tonic's third above the trumpets at the 263 fff, and Ob 2 takes the chorale line B4–C5 at the trumpets' pitch (it sat on E4 at fff). Progression, chorale top line, the seventh's resolution and the cut at 264.1 unchanged. Declined the critic's second change (Hn 3 C5 at 259–260): C5 over F to E♭4 over A♭ at 261 makes contrary fifths with the bass, the reason c190 gave against C–E♭ there.
+
+## Cycle 465 (v465 → v466), lens 5, Gould beams
+- Gould PDF 31–41 (beam slopes for closely spaced notes): a score-level `gould-close-slope` callback (after c375's `gould-max-slope`) keeps the shorter-stem end and sets close-spaced groups of three or four to a ½ slope (¼ when the outer interval is a second); 194 groups changed, the harp at 67–82 now has one slope throughout; the harp left hand at 123–130 is excluded (page 7 would overfill). Bar 222 Fl 1's beam is fixed at 9.25–9.75 in the score so it matches Vln I (the part keeps c195's offset). Notes, pages and MIDI unchanged; parts-book.ly still lacks the c285, c375 and c465 beam callbacks.
