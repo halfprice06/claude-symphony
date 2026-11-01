@@ -3573,3 +3573,10 @@ orchestration; Rimsky-Korsakov brass. Report: reports/c554.md.
 
 Accepted: Vln II "Poco più mosso" strMark at 37 restyled to match the other tempo marks (print only).
 Do-not-touch: the 8-page layout and its breaks; other letter-and-tempo placements; c375/c394 flute down-stems; harp 8 bassa plan; standing list. Optional: winds' letter E above its tempo word at 37 (needs room above the bar numbers).
+
+
+## Cycle 556 (v556 → v557)
+idiom; Adler ch. 9-10 brass. Report: reports/c556.md.
+- Accepted: nothing (v557 = v556 relabelled).
+- Recorded (no change): c556: no change. Brass notes unchanged since v426; Hn 1 endurance, Hn 4 top line 61-62, cold entries with cues, Tbn 1 quotation, mute timings and part notation all playable per Adler.
+- Do-not-touch: standing list; the 8-page layout.
