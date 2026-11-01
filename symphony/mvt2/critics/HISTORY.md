@@ -3374,3 +3374,10 @@ orchestration; Rimsky-Korsakov PDF 51-53, 81-99. Report: reports/c524.md.
 ## Cycle 525 (v525 → v526)
 - Accepted: score-only offset for the harp f at 78 b3.
 - Do not touch: harp 8 bassa plan; B♭6 at pitch at 79; shared-rest fixes at 59, 63, 82.
+
+
+## Cycle 526 (v526 → v527)
+playability; Adler ch. 3, strings. Report: reports/c526.md.
+- Accepted: nothing (v527 = v526 relabelled).
+- Recorded (no change): c526: no change. All 28 applicable principles of Adler ch. 3 hold; viola double stop at 62 (protected), Vln I B♭6 at 79-80 and bass 4 soli recorded.
+- Do-not-touch: standing list; the 8-page layout.
