@@ -2031,3 +2031,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 453 (v453 → v454), lens 3, A&S V as key area
 - A&S Unit 14 (PDF 215–220): V6/5 of V at 129 and a pivot chord at 114 tested and declined (the tune's G would rise, new octaves; the bare D7 is an accepted phrase modulation). V4/2 at 133–134 and the French sixth at 168 follow the reading. Proportions checked. No score change.
+
+## Cycle 454 (v454 → v455), lens 4, Rimsky harmony
+- Rimsky-Korsakov PDF 51, 82, 85–86 (balance at ff, no gaps, harmonic notes in the upper parts): the bass trombone plays C3 at 259–260 instead of doubling the tuba's F, so the iiø6/5's seventh C is heard in the brass (it was only in Ob 2) and the tenth above the bass is filled; it rejoins the tuba at 261.
+- Rimsky-Korsakov PDF 90–91 (concords in a pair of like instruments): Fl 2 moves to F5 at 40–42, a third under Fl 1's A♭5, instead of a three-bar tritone D5.
+- Kept: oboes' second and trombones' tritone at 259–260, Tpt 3 and violas doubling F, oboes at 40.
