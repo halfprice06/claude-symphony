@@ -3280,3 +3280,10 @@ melody; Rimsky-Korsakov ch. II. Report: reports/c511.md.
 - Accepted: nothing (v512 = v511 relabelled).
 - Recorded (no change): c511: proposed change declined. The critic made Fl 1 double the C.a.'s head at 41-42 (F5-G♭5-A♭5); 'Fl 1 notes at 41-44' is on the do-not-touch list (c090, c101, line 560) and the descant is the passage's one independent line over theme B, so the actor kept v511. Recorded: theme B's neighbour cell, chromatic brass exceptions, theme A contour, 45-51 all follow Rimsky ch. II.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 512 (v512 → v513)
+harmony; A&S Unit 29, augmented sixths. Report: reports/c512.md.
+- Accepted: nothing (v513 = v512 relabelled).
+- Recorded (no change): c512: no change. French sixth at 20-22 and German sixth at 64-65 follow Unit 29; no augmented sixth added at 43, 50-51, 78, 80 or the coda (c232, c310, c312, c372).
+- Do-not-touch: standing list; the 8-page layout.
