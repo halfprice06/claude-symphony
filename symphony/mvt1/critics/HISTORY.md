@@ -2918,3 +2918,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: C.a. 171-174 register noted
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 552 (Harmony and voice leading; Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (fourth pass)) → v553
+- Accepted: none (leading-tone sevenths and mixture fourth pass). Records: Fl 2 Bb5->C6 at 31.1 over E->F (resolution taken over by other voices, Ex. 22-5); 162.4.5 is G# (gis') lower neighbour, not mixture
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
