@@ -2076,3 +2076,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 466 (v466 → v467), lens 6, Adler strings playability
 - Adler PDF 73–74, 87 (open strings on held expressive notes): violas "sul G" at 8–10 (the c437 answering phrase's held D4 crescendo, 4th position) and at 133–134 (the held D4 fading to p, as c391 did at 41–42 and 169–170). Text only; MIDI identical.
+
+## Cycle 467 (v467 → v468), lens 7, Sebesky strings
+- Sebesky PDF 140, 144–146, 166 (cellos on a counter line, not just doubling the bass): at 125–128, after their F2 solo, the cellos join Bn 1's dolce counter line at pitch, pp (E3–F♯3–G3 | C4–D4–A3 | A3–B3–C4 | A3), back on the bass at 128.3; the basses keep the roots. Answers c367's decline: the hand-over's order and notes, the harp, the instruments present and the 129–131 bass (c432) are unchanged.
