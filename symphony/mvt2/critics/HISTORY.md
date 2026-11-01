@@ -3261,3 +3261,8 @@ texture; Sebesky ch. 3, strings with winds. Report: reports/c507.md.
 ## Cycle 508 (v508 → v509)
 - Accepted: cello bowing at 59-60 (four bows).
 - Do not touch: down-bow f at 59 and down-bow ff at 61 for the cellos.
+
+
+## Cycle 509 (v509 → v510)
+- Accepted: cello slurs at 59-60 aligned with the winds' counter-line.
+- Do not touch: four bows at 59-60 with down-bow f at 59 and down-bow ff at 61.
