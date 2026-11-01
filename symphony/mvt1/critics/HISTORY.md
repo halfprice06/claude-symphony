@@ -2954,3 +2954,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 73-76 winds-only possible only if mvt II drops its winds-only 3-6
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 558 (Expression; Casanelles ch. 4 dynamics layering and expression in performance (hyper-orchestra PDF 145-161) and ch. 6 volume and dynamics (PDF 290-291) (fourth pass)) → v559
+- Accepted: none (dynamics layering fourth pass: entry-dynamic and crescendo-target scans clean; four candidates rejected)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
