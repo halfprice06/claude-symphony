@@ -53,3 +53,5 @@ Also used in series 3: the list above (cycles 229-419).
 | 599 | Sibelius, Symphony No. 5/i |
 | 609 | Tchaikovsky, Piano Concerto No. 1/i |
 | 619 | Rachmaninoff, Piano Concerto No. 2/i |
+
+Series 4 note: IMSLP downloads are often blocked here (disclaimer or bot check). archive.org miniature scores worked for c439 (item concertobminorfo0000anto) and c449 (item symphonyno2cmino0000tcha); search archive.org first. If no score is reachable, say so and keep claims to what published descriptions support.

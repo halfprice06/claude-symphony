@@ -2540,3 +2540,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 160-164 largamente without a closing word; 102-103 cello; 171-174 C.a.; Hn 1 mp in 47-55/147-155
 - Cross-movement: record only (tempo table)
+
+## Cycle 489 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Adler part 2 full-score examples in ch. 11 and 15 (adler2 PDF 18-54, 143-186) (third pass)) → v490
+- Accepted: no change (holistic comparison with Rachmaninoff 1/i from published descriptions, score unreachable; Adler ch. 11 and 15 examples)
+- Open / not applied: none
+- Do-not-touch: S diatonic 47-55/147-155; chorale at 175-179; tam-tam 122; tutti 158-162; final chord 182
+- Cross-movement: none
