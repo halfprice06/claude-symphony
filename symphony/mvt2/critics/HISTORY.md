@@ -3055,3 +3055,10 @@ playability; Rimsky-Korsakov ch. I. Report: reports/c476.md.
 - Accepted: nothing (v477 = v476 relabelled).
 - Recorded (no change): c476: no change. All 40 principles of Rimsky ch. I hold; timpani retune at 87 stays open (c436, needs the scherzo thread); Hn 2 cold ff entry at 61 cued; Bsn 2 breath plan at 57-60 per c456.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 477 (v477 → v478)
+texture; Adler ch. 17. Report: reports/c477.md.
+- Accepted: nothing (v478 = v477 relabelled).
+- Recorded (no change): c477: no change. Accompaniment against solo lines follows Adler ch. 17 (Tchaikovsky Canzonetta compared); 23-30's attacks with the melody recorded (protected plain first statement); C.a. at 41-44, dialogue at 15-22 and coda chain kept.
+- Do-not-touch: standing list; the 8-page layout.
