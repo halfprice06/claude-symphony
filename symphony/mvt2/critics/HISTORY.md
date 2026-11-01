@@ -2784,3 +2784,10 @@ engraving; Gould PDF 7-13, 17-68. Report: reports/c435.md.
 - Accepted: stem thickness 0.9 (score and parts); space after warning signatures; C.a. slur at 36-37; string-line ends at 51-52 and 62; letter L alignment at 83.
 - Open (optional): Vln I "(sul D)" line end at 1-3 (protected bars); letter E offset at 37.
 - Do-not-touch: the 8-page layout and its breaks; harp 8 bassa plan; stem, beam and rest settings from c185-c435.
+
+
+## Cycle 436 (v436 → v437)
+playability; Adler ch. 12 timpani (adler2 PDF 55-91). Report: reports/c436.md.
+- Accepted: timpani "damp" at 86.
+- Open (optional, needs the scherzo thread): earlier retuning of C and D flat drums at 87.
+- Do-not-touch: standing list; the bar-92 muta text; the 8-page layout.
