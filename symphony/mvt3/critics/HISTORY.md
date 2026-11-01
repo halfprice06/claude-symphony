@@ -1960,3 +1960,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 435 (v435 → v436), lens 5, MOLA parts
 - MOLA PDF 5, Ex. 4; Adler part 2 PDF 299: part-only cues before five entries after long rests at 127–132 (Fl 1 at 129, Hn 1 at 127, Hn 3·4 at 129, Ob 1 at 131, timpani at 132); new \addQuote "clOne".
 - MOLA PDF 8, Ex. 7: in the cor anglais and bass clarinet parts, line breaks before 235 (and 255 in the cor anglais) so letters P and Q each stand over their own rest. Score and MIDI unchanged; parts book 0 warnings.
+
+## Cycle 436 (v436 → v437), lens 6, Rimsky ch. I
+- Rimsky-Korsakov PDF 26 (highest notes on the lower strings in fourth position): Vln II's "sul G" at 255–257 now ends on 256's G4, so the ff C5–D5 at 257 are played on the D string. Marking only.
+- Rimsky-Korsakov PDF 36 (clarinet leaps across the break): the soft held F5 at 103–104 moves from Cl 1 (just off an accented C4 at 102.4) to Cl 2, resting since 95; same sounding pitches.
