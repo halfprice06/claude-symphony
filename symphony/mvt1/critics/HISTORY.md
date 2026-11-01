@@ -2480,3 +2480,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 52.4/152.4 Cl 1 entry as apex marker; 171-174 C.a. motto without hairpins; no words on ff tutti statements; 111-116 cresc.; 12 f
 - Cross-movement: none
+
+## Cycle 479 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Adler part 1 full-score examples in ch. 5 and 8 (adler1 PDF 137-165, 235-281) (third pass)) → v480
+- Accepted: no change (holistic comparison with Schumann 3/i; Adler ch. 5 and 8 full-score examples)
+- Open / not applied: none
+- Do-not-touch: 127-130 retransition; A-flat6 at 31; bassoons a2 157, 163-164; 47-55 colour; soft attacca ending
+- Cross-movement: none
