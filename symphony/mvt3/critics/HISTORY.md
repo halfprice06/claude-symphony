@@ -2008,3 +2008,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 447 (v447 → v448), lens 7, Rimsky overlaying
 - Rimsky-Korsakov PDF 108 (soft horn-and-bassoon writing: concords and held notes to the horns, discords to the bassoons): in the off-beat chords under F1 at 13–15 and 21–23, Hn 4 now holds G3 and Bn 1 takes the seventh F3, resolving it to E♭3 on 15.2 and 23.2, so that C-minor chord gains its third (Hn 4's F3 used to rise to G3). 24–26, tune and bass unchanged.
 - Checked: horns inside the 136–138 chain, 95–98, 101–106.
+
+## Cycle 448 (v448 → v449), lens 8, A&S accent and hypermeter
+- A&S Unit 3 (PDF 50–51, Ex. 3-6: a note entering on a weak beat and held over the strong beat is marked): accents on the IV chord entering on 272 beat 2 in Bn 1, Hn 3·4 and violas, held into the Largamente at 273. Notes, dynamics and tempo unchanged.
+- Checked: the four-bar grid 11–264, accents and tempo words on it. Declined: accents in the 7–6 chain at 87–89 and on every downbeat at 265–272.
