@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 438 (lens 8 expression, Casanelles ch. 4 dynamics layering and expression in performance (hyper-orchestra PDF 145-161) and ch. 6 volume and dynamics (PDF 290-291) (fifth pass)) v438 → v439
+Accepted: one solo violin at 349 (coda.ily). Do-not-touch: the coda's T is carried by single players throughout (Hn 3, Ob 1, solo violin, Hn 1).
+
 ## Cycle 437 (lens 7 texture, Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255) (fifth pass)) v437 → v438
 Accepted: violas an octave lower at 197–200 (tB.ily). Do-not-touch: 197–200 layering (call a level above T; T in two octaves).
 
