@@ -3036,3 +3036,10 @@ form; A&S Unit 25, applied chords. Report: reports/c473.md.
 - Accepted: nothing (v474 = v473 relabelled).
 - Recorded (no change): c473: no change. Tonicization curve peaks at 56-64 like Mozart 41/ii and Tchaikovsky 6/iv; chromatic voice exchange at 21 and VII°7 at 64 identified; ♭7 over the coda pedal tested and rejected (Dvořák 9/ii coda; c302).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 474 (v474 → v475)
+orchestration; Casanelles ch. 6. Report: reports/c474.md.
+- Accepted: nothing (v475 = v474 relabelled).
+- Recorded (no change): c474: no change. Soft entries over pedals (Mahler Fig. 6.1), theme A's receding colours, harmonic-series spacing, frequency allotment and graded brass density follow; horns at 61-62 in Vln II's octave recorded (protected). c334's roll point closed: rolls render as repeated strokes.
+- Do-not-touch: standing list; the 8-page layout.
