@@ -2774,3 +2774,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 528 (Expression; Rimsky-Korsakov ch. IV sf-p chords, crescendo and diminuendo (rimsky-principles PDF 129-136) (fourth pass)) → v529
+- Accepted: none (sf-p, cresc/dim fourth pass: entry dynamics and brass re-entries probed; keep)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
