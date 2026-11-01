@@ -2780,3 +2780,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 529 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 1-60 (rimsky-principles PDF 173-240) (fourth pass)) → v530
+- Accepted: none (holistic vs Beethoven 2 from published descriptions; no score reachable; v519-v529 no regressions)
+- Open / not applied: Beethoven 2 comparison lacked a score
+- Do-not-touch: unchanged
+- Cross-movement: none
