@@ -3155,3 +3155,10 @@ harmony; A&S Unit 7. Report: reports/c492.md.
 - Accepted: nothing (v493 = v492 relabelled).
 - Recorded (no change): c492: no change. 44 b2-4 relabelled VII6 of D♭ (voicing follows the book); 59 vii°7/V protected; c352's I6 note at 41/57 corrected; weak-to-strong and hidden-octave scans find only acceptable or protected cases.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 493 (v493 → v494)
+form; A&S Unit 21, pedals. Report: reports/c493.md.
+- Accepted: nothing (v494 = v493 relabelled).
+- Recorded (no change): c493: no change. Pedal placement, entries/exits and dissonances follow Unit 21; basses resting at 53 kept (Dvořák 9/ii 43-46; c164); two new pedals recorded (Vln II 15-19, bass D♭ at 79-80).
+- Do-not-touch: standing list; the 8-page layout.
