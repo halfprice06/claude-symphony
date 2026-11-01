@@ -2714,3 +2714,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: 127-130 stretto without brass
 - Cross-movement: none
+
+## Cycle 518 (Expression; Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (third pass)) → v519
+- Accepted: Violas at 108: swell peaks on the C5 suspension and falls to the B4 resolution (A&S PDF 348)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
