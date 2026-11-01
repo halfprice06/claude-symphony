@@ -2342,3 +2342,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 147-162 system plan; Fl 117-120 spacing (c345)
 - Cross-movement: none
+
+## Cycle 456 (Playability, instrument by instrument; Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (third pass)) → v457
+- Accepted: no change (woodwind playability, third pass)
+- Open / not applied: none
+- Do-not-touch: coda C.a. 171-174 register; C.a. G4 7-9 single breath; 73-76 low flute
+- Cross-movement: none
