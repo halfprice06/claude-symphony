@@ -2720,3 +2720,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 519 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (third pass)) → v520
+- Accepted: Harp p -> mp at 47 under the S tune (Kalinnikov reh. 22; Casanelles PDF 271-279)
+- Open / not applied: build.sh does not check section lengths against sections.txt (c419)
+- Do-not-touch: unchanged
+- Cross-movement: none
