@@ -2378,3 +2378,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 64-65 flute exit; no oboe solo theme (mvt II); C.a. register; motto colour plan; B.cl-Cl 1 handoff 77-78; Cl 1 F5 at 52
 - Cross-movement: none
+
+## Cycle 462 (Harmony and voice leading; Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (third pass)) → v463
+- Accepted: no change (leading-tone sevenths and mixture, third pass)
+- Open / not applied: none
+- Do-not-touch: 108.3-109 incomplete dim7 voicing (completing it makes fifths); single dim7 colour B-D-F-A-flat; 164.2; 148.3-4; 31.1, 114-115
+- Cross-movement: none
