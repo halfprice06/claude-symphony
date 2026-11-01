@@ -2810,3 +2810,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 two-bar climb remains the one weakness (protected)
 - Do-not-touch: Ab major plain at 160
 - Cross-movement: none
+
+## Cycle 534 (Orchestration; Rimsky-Korsakov appendix of single tutti chords (rimsky-principles PDF 505-510) and the tutti examples cited in ch. IV (fourth pass)) → v535
+- Accepted: none (tutti chords fourth pass: layouts at 26/82/122/138/160/170 follow the appendix; timpani roll at 157 rejected)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
