@@ -2016,3 +2016,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 449 (v449 → v450), lens 9, Dvořák 7 holistic
 - Rimsky-Korsakov PDF 130–131 (Ex. 262: a long crescendo adds instruments): the oboes join the cresc. molto at 245–246 on a sixth G5 over B4, p <, resolving into their own ff entry (E5 over C5) at 247, instead of entering ff from silence (new sHeadOboeTwo).
 - Dvořák 7/iv holistic comparison and v439 → v449 check: nothing worse. Declined: percussion in the hammered tuttis.
+
+## Cycle 450 (v450 → v451), lens 10, cyclic review
+- Rimsky-Korsakov PDF 126–127 (a part taken over keeps the group's progression): Ob 2 at 245–246 now moves B4→C5 on 245.3 with Tpt 2 and Hn 1 (`b'2( c''2~ | c''1)`), so no B is held under the horn call's resolution; the oboes' crescendo into the 247 ff is kept.
+- Cyclic review against movement I v490, movement II v474 and scherzo v443: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51. coherence/finale.md updated (header, headings, open request). Declined: range relays at 245–246, 7–10, 222, 205–210.
