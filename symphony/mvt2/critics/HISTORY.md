@@ -3341,3 +3341,10 @@ cyclic design; A&S Unit 26, tonicization of remote keys. Report: reports/c520.md
 - Accepted: nothing (v521 = v520 relabelled).
 - Recorded (no change): c520: no change to the score. Actor updated coherence/mvt2.md to v521. Both quotations sit in the only remote keys and are explained by what follows (Ex. 26-8, 26-14); C major never a tonic after bar 1; B→C kept for the finale; joins and theme records hold.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 521 (v521 → v522)
+melody; Adler ch. 4, harp. Report: reports/c521.md.
+- Accepted: nothing (v522 = v521 relabelled).
+- Recorded (no change): c521: no change. Harp hand-over at 82-88 follows Ex. IV-9; close two-note right hand justified (c127, c137, c361); pedal plan clean; no harp at the close (c050).
+- Do-not-touch: standing list; the 8-page layout.
