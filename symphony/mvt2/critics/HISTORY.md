@@ -3525,3 +3525,10 @@ expression; Adler PDF 37-40, 187-196. Report: reports/c548.md.
 - Accepted: nothing (v549 = v548 relabelled).
 - Recorded (no change): c548: no change. Climax brass economy and sf at 61-64, molto sostenuto and staged release at 79-83, solo dynamics, hand-overs and tempo words follow Adler (Dvořák 9/ii compared).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 549 (v549 → v550)
+holistic; Rimsky-Korsakov tutti chords. Report: reports/c549.md.
+- Accepted: nothing (v550 = v549 relabelled).
+- Recorded (no change): c549: no change. Chords at 78 and 60 b3 and soft frame chords follow Rimsky's tables; Tchaikovsky 1/ii comparison holds; nothing worse since v539 (only bar-25 text).
+- Do-not-touch: standing list; the 8-page layout.
