@@ -3348,3 +3348,10 @@ melody; Adler ch. 4, harp. Report: reports/c521.md.
 - Accepted: nothing (v522 = v521 relabelled).
 - Recorded (no change): c521: no change. Harp hand-over at 82-88 follows Ex. IV-9; close two-note right hand justified (c127, c137, c361); pedal plan clean; no harp at the close (c050).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 522 (v522 → v523)
+harmony; A&S Unit 31, sequences. Report: reports/c522.md.
+- Accepted: nothing (v523 = v522 relabelled).
+- Recorded (no change): c522: no change. Seventh-chord chain at 39-40/55-56, cello 9-8 at 73-74, ♭6 resolutions and goal-directed accidentals follow Unit 31; cellos' rising sixth at 56 recorded (optional basses A1-B♭1 at 56 if 53-56 reopens).
+- Do-not-touch: standing list; the 8-page layout.
