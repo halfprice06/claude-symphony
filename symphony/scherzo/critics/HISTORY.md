@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 473 (lens 3 form, Aldwell & Schachter Unit 32 Chromaticism in Larger Contexts (aldwell-schachter PDF 584-606) (sixth pass)) v473 → v474
+Accepted: ♭II6 at 301–302 (dB.ily). Do-not-touch: the Italian sixth at 300 (c422) and the F/♭II at 331 (finale IV 272 link); the ♭II at 301 is a two-bar reminder, not a new episode.
+
 ## Cycle 472 (lens 2 harmony, Aldwell & Schachter Units 11-13 VI and IV6; supertonic and subdominant sevenths; other uses of IV and VI (aldwell-schachter PDF 163-210) (sixth pass)) v472 → v473
 Accepted: 54 Cl 2/violas (sA.ily), 176 basses/Bsn 2 (tA.ily).
 
