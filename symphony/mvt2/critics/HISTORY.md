@@ -2906,3 +2906,10 @@ form; A&S Units 6-8 V7, the dominant span and phrase structure, PDF 92-133. Repo
 - Accepted: nothing (v454 = v453 relabelled).
 - Recorded (no change): c453: no change. Plan tonic 36, IV 34, V 6, tonic 24 percent on root-position pedals; correction to c313: bar 44 is V7 (violas hold G flat3), resolving deceptively to vi at 45, which keeps the middle section open; chords speed up before arrivals; harmony over barlines only strong-weak-strong; retransition 65-70 passes the 7th; shortened reprise 0.52 of A; V7-I in theme A lands on 3.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 454 (v454 → v455)
+orchestration; Adler ch. 11 brass, adler2 PDF 14-18, 37-54. Report: reports/c454.md.
+- Accepted: nothing (v455 = v454 relabelled).
+- Recorded (no change): c454: no change. Horn weights at 61-62 (two horns = one trombone, c264); A' peak at 79-81 without heavy brass (Franck model); Tbn 1 quotation as held-back colour (Schubert 9, c294); low brass spacing as Ex. XI-1; soft horn chords one per pitch; trumpets tacet (cyclic choice).
+- Do-not-touch: standing list; the 8-page layout.
