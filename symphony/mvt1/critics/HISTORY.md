@@ -2852,3 +2852,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 541 (Melody and memorability; Adler ch. 3 Individual Bowed Strings: melodic writing for violin, viola, cello, bass (adler1 PDF 71-109) (fourth pass)) → v542
+- Accepted: none (string melodic writing fourth pass: open-string scan and sul G limit checked; keep)
+- Open / not applied: 156-157 climb (protected)
+- Do-not-touch: unchanged
+- Cross-movement: none
