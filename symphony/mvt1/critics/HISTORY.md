@@ -2396,3 +2396,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 23-25/135-137; 158-159 counter ff; 167-169 brass P head; 117 timpani f; 82 unison; 69-72 codetta
 - Cross-movement: none
+
+## Cycle 465 (Engraving and notation (Gould's *Behind Bars*, MOLA); MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (third pass)) → v466
+- Accepted: no change (MOLA guidelines, third pass; all 30 parts audited)
+- Open / not applied: none
+- Do-not-touch: uncued tutti entries 26, 69, 82, 158; shared percussion staff; composer name (c200)
+- Cross-movement: none
