@@ -3182,3 +3182,10 @@ playability; Adler, clarinets and bassoons. Report: reports/c496.md.
 - Accepted: nothing (v497 = v496 relabelled).
 - Recorded (no change): c496: no change. Cbn E♭1 at 81 enters ff and doubled; bassoon skip scan clean; Cl 2 long hold at 89-92 protected; B.cl. notation and A-clarinet change time already recorded.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 497 (v497 → v498)
+texture; Adler ch. 5, homophonic strings. Report: reports/c497.md.
+- Accepted: nothing (v498 = v497 relabelled).
+- Recorded (no change): c497: no change. String spacing, first-inversion doublings, section crossings and the final chord's partial-series spacing follow Adler ch. 5; thin accompaniment at 48-51 and held basses at 30, 89-92 protected (Grieg, Aase's Death, compared).
+- Do-not-touch: standing list; the 8-page layout.
