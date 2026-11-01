@@ -3110,3 +3110,8 @@ orchestration; Adler harp and timpani. Report: reports/c484.md.
 ## Cycle 485 (v485 → v486)
 - Accepted: \removeWithTag #'part on Vln II in score.ly; score "via sord." at 92 b3 for upper strings; Cbn BarNumber.staff-padding 4.5; B.tbn score hairpin ending in 64.
 - Do not touch: the score/part split of the B.tbn hairpin at 64 (the part keeps <>\!).
+
+
+## Cycle 486 (v486 → v487)
+- Accepted: Bsn 2 \breathe at end of 10.
+- Do not touch: pp< at 60; trombone 1 held back for its single quotation; trumpets tacet.
