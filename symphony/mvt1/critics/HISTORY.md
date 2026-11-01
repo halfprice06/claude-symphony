@@ -2864,3 +2864,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 climb (protected)
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 543 (Form, pacing and proportion; Rimsky-Korsakov ch. IV Composition of the orchestra: tutti, range limits, transfer of phrases, sf-p, crescendo and diminuendo (rimsky-principles PDF 115-136) (fourth pass)) → v544
+- Accepted: none (RK ch. IV fourth pass, form lens: tutti frequency, re-entries, retransition and coda checked; keep)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
