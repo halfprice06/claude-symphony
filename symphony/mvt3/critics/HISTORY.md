@@ -2160,3 +2160,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 494 (v494 → v495), lens 4, Adler percussion
 - Adler part 2 PDF 184 (crescendo rolls start p): the timpani's A♭ roll at 209–210 is now fp < (was f <) under the woodwinds' fp < (c216), so it no longer fills their dip and has room to grow into the ff at 211, as at 149 (c346) and 167–168 (c474).
+
+## Cycle 495 (v495 → v496), lens 5, MOLA score layout
+- MOLA PDF 5–6 (explain non-standard notation in the score): page 1's header now keys the one-line percussion stave ("⊗ above the line = crash cymbals (pair); ● below the line = bass drum"), which the part has had since c255. Header text only; MIDI and pages 2–16 identical.
