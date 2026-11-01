@@ -2738,3 +2738,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 522 (Harmony and voice leading; Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (fourth pass)) → v523
+- Accepted: Violas 159.1: E4 then F4 on beat 2 with the tune (cadential 6 rises to the 7th; A&S PDF 154)
+- Open / not applied: none new
+- Do-not-touch: 159 viola E-F with tune
+- Cross-movement: none
