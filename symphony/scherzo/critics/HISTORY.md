@@ -189,6 +189,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 447 (lens 7 texture, Rimsky-Korsakov ch. III overlaying, crossing and enclosure (rimsky-principles PDF 106-114) and the examples cited (fifth pass)) v447 → v448
+Accepted: Hn 3 with the cellos at 253–268 (dA.ily, parts-cues.json). Kept: Hn 1/Hn 4 octaves at 105/305, Cl 2 inside the horns at 130, Hn 2 between bassoons at 284, clarinets under trumpets 101–103.
+
 ## Cycle 446 (lens 6 playability, Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (fifth pass)) v446 → v447
 Accepted: no change. Do-not-touch: mixed unisons at 41–43/273–275; flutes' octave layout 109–120; horn pairs 336–338; breathing plan (104, 160, 176, 196, 216, 304; Hn 3 covers 365–369).
 
