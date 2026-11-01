@@ -2840,3 +2840,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: 131-142 string bowing scheme
 - Cross-movement: none
+
+## Cycle 539 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305) (fourth pass)) → v540
+- Accepted: none (holistic vs Dvorak 5/i, Simrock 1888 score on archive.org; v529-v539 no regressions)
+- Open / not applied: none new
+- Do-not-touch: 170 oboe layout
+- Cross-movement: none
