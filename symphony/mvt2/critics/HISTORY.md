@@ -3369,3 +3369,8 @@ orchestration; Rimsky-Korsakov PDF 51-53, 81-99. Report: reports/c524.md.
 - Accepted: nothing (v525 = v524 relabelled).
 - Recorded (no change): c524: no change. Horn major second at 81 b2-3 is the audible V7 seventh (protected lines); loud mid-texture gaps at 28, 47, 62 recorded (protected or covered).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 525 (v525 → v526)
+- Accepted: score-only offset for the harp f at 78 b3.
+- Do not touch: harp 8 bassa plan; B♭6 at pitch at 79; shared-rest fixes at 59, 63, 82.
