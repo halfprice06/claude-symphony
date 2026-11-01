@@ -2882,3 +2882,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: page ends: page 10 ends at 112 from v546 (others unchanged)
 - Cross-movement: none
+
+## Cycle 546 (Playability, instrument by instrument; Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (fourth pass)) → v547
+- Accepted: none (woodwinds fourth pass: breath, register and break-crossing scans; keep)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
