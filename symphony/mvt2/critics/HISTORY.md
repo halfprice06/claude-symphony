@@ -3313,3 +3313,10 @@ playability; Adler ch. 2, strings. Report: reports/c516.md.
 - Accepted: nothing (v517 = v516 relabelled).
 - Recorded (no change): c516: no change. Tremolo double-stops at 61-64, mute timings, bow load 71-92, open-string avoidance, divisi words, pizz./arco timing all follow Adler ch. 2; no harmonics added.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 517 (v517 → v518)
+orchestration; Rimsky-Korsakov ch. III. Report: reports/c517.md.
+- Accepted: nothing (v518 = v517 relabelled).
+- Recorded (no change): c517: no change. Horns inside the bassoon span only at f/ff (62, 79-81; corrects c287's 'never'); 61-62 balance per c287; 3-6, 67-70, 57-58, 79 and 87-90 follow Rimsky ch. III.
+- Do-not-touch: standing list; the 8-page layout.
