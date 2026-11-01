@@ -2522,3 +2522,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: viola stems 111-116 still under Gould's one space: the full fix trips LilyPond's 'too few pages' estimate; the 17-page layout has almost no vertical margin (build once with page-count ##f to check if the warning appears)
 - Do-not-touch: 17-page layout
 - Cross-movement: none
+
+## Cycle 486 (Playability, instrument by instrument; Adler App. A ranges, professional and amateur limits (adler2 PDF 302-312) (third pass)) → v487
+- Accepted: no change (ranges, App. A, third pass)
+- Open / not applied: none
+- Do-not-touch: extreme notes; timpani drum assignment; no low C1 at 167-170; bass trombone register
+- Cross-movement: none
