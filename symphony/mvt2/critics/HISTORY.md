@@ -2981,3 +2981,9 @@ orchestration; Adler ch. 5 string scoring, adler1 PDF 125-167. Report: reports/c
 - Accepted: nothing (v465 = v464 relabelled).
 - Recorded (no change): c464: no change. Correction to c407: at 87 the bass F is doubled in the middle too (F1-F4); kept for the protected F-F flat-E flat line (c020, c104, c150, c194, c080). Two-beat spacing gap at 27-28 in the plain statement (c207, c347); violas never melodic by plan; double-bass drop-out plan; highest register held back; ending thins over a held bass; climax not bottom-heavy.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 465 (v465 → v466)
+engraving; Adler ch. 2 (adler1 PDF 30-55). Report: reports/c465.md.
+- Accepted: text offsets at 22 (Vln II) and 44 (Ob 1); cello-part "sul G" line break at 51-52.
+- Do-not-touch: standing list; the 8-page layout.
