@@ -2082,3 +2082,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 468 (v468 → v469), lens 8, MOLA dynamics
 - MOLA PDF 7–8, Ex. 6–7 (page turns, long changes as words): at 143 Tbn 1·2 and the bass trombone take "cresc." instead of a hairpin, like every other part in the build (c268, restated after the turn by c405), so page 8 no longer opens with an unlabelled wedge fragment. Notes and MIDI unchanged.
+
+## Cycle 469 (v469 → v470), lens 9, holistic comparison
+- Holistic comparison with Mozart 41/iv (Adler part 2 PDF 175–178): the coda's theme combination follows the Jupiter model (themes heard alone first, fixed colours, tonic–dominant pedal); no change. Tested and declined a pp timpani roll on B♭ at 43–46 (blurs the new colour two bars after the 39–40 roll and the c264/c276 overtone chord). v459 → v469 checked: nothing got worse.
