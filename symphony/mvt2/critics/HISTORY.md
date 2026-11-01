@@ -3294,3 +3294,10 @@ form; A&S Unit 14, modulation. Report: reports/c513.md.
 - Accepted: nothing (v514 = v513 relabelled).
 - Recorded (no change): c513: no change. Entry into D♭ at 36-37, late D♭ cadence at 61 (protected; Mozart 41/ii compared), return 62-71 and graded half cadences follow Unit 14; doubled A♭ at 62 b3-4 recorded (held tonic thread).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 514 (v514 → v515)
+orchestration; Casanelles PDF 285-291. Report: reports/c514.md.
+- Accepted: nothing (v515 = v514 relabelled).
+- Recorded (no change): c514: no change. Counter-lines unmasked (densest at 58 b2, protected); horn/brass dynamics at 60-62 and 79-81, solo-over-accompaniment levels and distance-by-highs follow Casanelles and Rimsky PDF 41.
+- Do-not-touch: standing list; the 8-page layout.
