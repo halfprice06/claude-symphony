@@ -2858,3 +2858,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 climb (protected)
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 542 (Harmony and voice leading; Aldwell & Schachter Unit 17 Diatonic Sequences (aldwell-schachter PDF 263-288) (fourth pass)) → v543
+- Accepted: none (Unit 17 fourth pass: augmented-second spelling scan and downbeat scan since v452 clean; raised-fourth approach at 157 tested and rejected)
+- Open / not applied: 156-157 climb (protected)
+- Do-not-touch: unchanged
+- Cross-movement: none
