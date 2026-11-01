@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 427 (lens 7 texture, Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) (fifth pass)) v427 → v428
+Accepted: C.a. rests 189–192 (tB.ily); timpani rests at 245 (retr.ily); four C.a. cues at 189 removed from parts-cues.json. Rejected: B4 suspension for Hn 1 at 199 (c322); Vln I in unison at 209–216 (c426's C♯5). Do-not-touch: timpani motive x at 241 and 249 (finale IV 143–145).
+
 ## Cycle 426 (lens 6 playability, Adler App. A ranges, professional and amateur limits (adler2 PDF 302-312) (fifth pass)) v426 → v427
 Accepted: 'via sord.' at 185 (tB.ily, score.ly). Rejected: lower Hn 1 at 213–216. Do-not-touch: Hn 1 C♯5 held at 213–216 (common tone of the three chords).
 
