@@ -2073,3 +2073,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 465 (v465 → v466), lens 5, Gould beams
 - Gould PDF 31–41 (beam slopes for closely spaced notes): a score-level `gould-close-slope` callback (after c375's `gould-max-slope`) keeps the shorter-stem end and sets close-spaced groups of three or four to a ½ slope (¼ when the outer interval is a second); 194 groups changed, the harp at 67–82 now has one slope throughout; the harp left hand at 123–130 is excluded (page 7 would overfill). Bar 222 Fl 1's beam is fixed at 9.25–9.75 in the score so it matches Vln I (the part keeps c195's offset). Notes, pages and MIDI unchanged; parts-book.ly still lacks the c285, c375 and c465 beam callbacks.
+
+## Cycle 466 (v466 → v467), lens 6, Adler strings playability
+- Adler PDF 73–74, 87 (open strings on held expressive notes): violas "sul G" at 8–10 (the c437 answering phrase's held D4 crescendo, 4th position) and at 133–134 (the held D4 fading to p, as c391 did at 41–42 and 169–170). Text only; MIDI identical.
