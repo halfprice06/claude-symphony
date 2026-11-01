@@ -2972,3 +2972,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 561 (Melody and memorability; Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (fourth pass)) → v562
+- Accepted: none (Sebesky melody fourth pass: leap, repeated-note and entry-pitch scans). Record correction to c471: since c512 Vln II no longer holds G4 under the 177.4 motto; violas give the G
+- Open / not applied: P's scale descent at 21-22 (protected)
+- Do-not-touch: unchanged
+- Cross-movement: none
