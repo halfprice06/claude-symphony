@@ -2666,3 +2666,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: Mendelssohn comparison lacked a score (IMSLP blocked)
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 510 (Cyclic design and emotional arc across four movements; Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (third pass)) → v511
+- Accepted: none (cyclic design: reserves intact, attacca and coda checked; coherence updated to v511)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
