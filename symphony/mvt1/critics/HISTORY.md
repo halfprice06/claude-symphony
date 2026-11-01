@@ -2348,3 +2348,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: coda C.a. 171-174 register; C.a. G4 7-9 single breath; 73-76 low flute
 - Cross-movement: none
+
+## Cycle 457 (Texture and counterpoint; Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255) (third pass)) → v458
+- Accepted: no change (orchestral transcription as texture, third pass)
+- Open / not applied: none
+- Do-not-touch: 23-25/135-137 grouping; 97-102 sustained bass; 39-40, 68.3 doubled runs; 33 bassoon entry; 56-59, 139-142 violin unisons
+- Cross-movement: none
