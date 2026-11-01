@@ -3471,3 +3471,10 @@ cyclic design; A&S Unit 32. Report: reports/c540.md.
 - Accepted: nothing (v541 = v540 relabelled).
 - Recorded (no change): c540: no change to the score. Actor updated coherence/mvt2.md to v541. Common-tone °7 at 33, the motto's reharmonized D♮, the F♭=E thread to the scherzo, joins and quotations all hold (19/19, 11/11).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 541 (v541 → v542)
+melody; A&S Unit 3, rhythm and metre. Report: reports/c541.md.
+- Accepted: nothing (v542 = v541 relabelled).
+- Recorded (no change): c541: no change. Theme B's metre held by bar 37 and the pizz. bass (refines c331); theme A's peak, A′ phrase lengths and hemiola, pace and phrase groups follow Unit 3 (Dvořák 9/ii compared).
+- Do-not-touch: standing list; the 8-page layout.
