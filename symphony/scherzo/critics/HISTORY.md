@@ -191,6 +191,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 481 (lens 1 melody, Adler ch. 3 Individual Bowed Strings: melodic writing for violin, viola, cello, bass (adler1 PDF 71-109) (sixth pass)) v481 → v482
+Accepted: cellos on the second idea's low octave 45–55, Bsn 2 bass (sA.ily). Do-not-touch: the 45–55 statement is now full (Vln I/Fl/Ob, Vln II, Vla/C.a./Vc); add no more doublings there.
+
 ## Cycle 480 (lens 10 cyclic, Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (fifth pass)) v480 → v481
 Accepted: Neapolitan sixth at 199 (tB.ily), B♭5 at 300 (dB.ily). Record: new line trioTcall for 197–200.
 
