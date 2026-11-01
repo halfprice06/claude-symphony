@@ -1996,3 +1996,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 444 (v444 → v445), lens 4, Casanelles spectral
 - Casanelles PDF 272–273, 283–287 (sul tasto removes upper partials; a remembered, distant sound): the strings' held chord under the oboe's movement II recollection at 95–98 is now "sul tasto", with "ord." at each part's return (99 for Vla, Vc, Cb; 103 for Vln II). Text only; MIDI unchanged.
 - Declined: stopped Hn 3·4 at 95–98. Checked: the receding returns of the second theme, theme B and the scherzo motive.
+
+## Cycle 445 (v445 → v446), lens 5, Adler string notation
+- Adler PDF 30, Ex. II-12 (double notes divided, every change written, "unis." for the return): violas at 95 now read "sul tasto, / div." and at 99 "ord., unis." (the "non div." from 91 was still in force under the soft chord). Text only.
+- Tested and declined: measured-tremolo shorthand for the basses at 266–276 (MIDI would lose the pulse).
