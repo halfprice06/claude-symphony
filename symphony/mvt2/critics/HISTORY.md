@@ -3017,3 +3017,10 @@ expression; Adler PDF 51-70. Report: reports/c468.md.
 ## Cycle 470 (v470 → v471)
 - Accepted: part-only "via sord." at the end of Vln I, Vln II, Vla (bar 92).
 - Do not touch: the Neapolitan links at 49, 63-64 and 87; the one-line placement of "via sord." (two-line or below-staff versions squeeze the Vln I part).
+
+
+## Cycle 471 (v471 → v472)
+lens 1; A&S Unit 1. Report: reports/c471.md.
+- Accepted: nothing (v472 = v471 relabelled).
+- Recorded (no change): c471: no change. Scales and spelling scans clean; theme B's 4/7 strong-beat tones recorded (protected); minor-mode forms, chromatic spellings (motto, quotation) and theme A frame follow Unit 1.
+- Do-not-touch: standing list; the 8-page layout.
