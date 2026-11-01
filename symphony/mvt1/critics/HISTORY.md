@@ -2360,3 +2360,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: timpani pulse 179-180 pp; Vln I E-flat5 178 no swell; coda levels
 - Cross-movement: none
+
+## Cycle 459 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 201-260 (rimsky-principles PDF 376-440) (third pass)) → v460
+- Accepted: no change (holistic comparison with Elgar 2/i; Rimsky examples 210-274); v449-v459 changes checked
+- Open / not applied: 117-121 has no long soft eerie episode like Elgar's ghost passage (kept: f start protected, proportions)
+- Do-not-touch: 117 f start; 158 heavy brass entry; 47-55 harp bass; 77-81, 175-177 echoes
+- Cross-movement: none
