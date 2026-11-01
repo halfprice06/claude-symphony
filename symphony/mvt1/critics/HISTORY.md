@@ -2318,3 +2318,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: S chain 46.4-68 with single-string returns; Vln I sul D 177-182; solo Vc 171-174 on A string; 156-157 E string
 - Cross-movement: none
+
+## Cycle 452 (Harmony and voice leading; Aldwell & Schachter Unit 17 Diatonic Sequences (aldwell-schachter PDF 263-288) (third pass)) → v453
+- Accepted: no change (diatonic sequences, third pass; new strong-beat fifths and doubled-leading-tone scans clean)
+- Open / not applied: none
+- Do-not-touch: 9-13 rising-sixth chain; 33-46 transition; 162-166 falling thirds; fugato 85-96; wedge 111-116
+- Cross-movement: none
