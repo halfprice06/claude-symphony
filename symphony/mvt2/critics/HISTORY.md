@@ -3287,3 +3287,10 @@ harmony; A&S Unit 29, augmented sixths. Report: reports/c512.md.
 - Accepted: nothing (v513 = v512 relabelled).
 - Recorded (no change): c512: no change. French sixth at 20-22 and German sixth at 64-65 follow Unit 29; no augmented sixth added at 43, 50-51, 78, 80 or the coda (c232, c310, c312, c372).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 513 (v513 → v514)
+form; A&S Unit 14, modulation. Report: reports/c513.md.
+- Accepted: nothing (v514 = v513 relabelled).
+- Recorded (no change): c513: no change. Entry into D♭ at 36-37, late D♭ cadence at 61 (protected; Mozart 41/ii compared), return 62-71 and graded half cadences follow Unit 14; doubled A♭ at 62 b3-4 recorded (held tonic thread).
+- Do-not-touch: standing list; the 8-page layout.
