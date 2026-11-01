@@ -2824,3 +2824,9 @@ melody; Adler ch. 7 woodwinds, adler1 PDF 184-232. Report: reports/c441.md.
 - Accepted: nothing (v442 = v441 relabelled).
 - Recorded (no change): c441: no change. Theme B's second phrase in the C.a.'s best register (PDF 205-206); 37-40 as Ex. VII-5 (Tchaikovsky PC 1/ii); flute top notes approached by step, single B flat6 at 79; oboe answers at 15-22; theme A never whole in a woodwind (proportions protected); B.cl. solo and clarinet attacks; Bsn 1 doublings.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 442 (v442 → v443)
+harmony; A&S Units 24-25. Report: reports/c442.md.
+- Accepted: Cl 2 holds A flat4 through 72 b2 (7th of V7/V, as at 8 and 24).
+- Do-not-touch: seventh-chord chains at 8/24/72 and 42/58; 59-60 approach to V; pivots at 47-51 and 64-65; the 65-70 E flat7; plagal close 85-92; the 8-page layout.
