@@ -2871,3 +2871,10 @@ texture; Sebesky ch. 3 strings, PDF 133-173. Report: reports/c447.md.
 expression; Adler ch. 10 (adler1 PDF 299-329). Report: reports/c448.md.
 - Accepted: "3·4: mettere sord." in the score at 82.
 - Do-not-touch: standing list; the mute plan; the 8-page layout.
+
+
+## Cycle 449 (v449 → v450)
+holistic comparison with a master work (Brahms Symphony 3/ii); Adler ch. 11 and 15, adler2 PDF 18-54, 143-186. Report: reports/c449.md.
+- Accepted: nothing (v450 = v449 relabelled).
+- Recorded (no change): c449: no change. Against Brahms 3/ii (wind opening, cyclic second idea, recalling coda) it holds; nothing worse since v439; Hn 3-4 unison to written G flat5 at f with Cl 2 (c086; c169 fallback); no brass on theme A at 79-81 by design (c024, c060).
+- Do-not-touch: standing list; the 8-page layout.
