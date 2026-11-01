@@ -3237,3 +3237,8 @@ orchestration; Sebesky ch. 2, woodwinds. Report: reports/c504.md.
 - Accepted: nothing (v505 = v504 relabelled).
 - Recorded (no change): c504: no change. Woodwind order, complete tutti chords and B.cl. bass follow Sebesky; Bsn 1 F4 inside the horns at 62 recorded (corrects c374); 14-15 seam, Cl octave at 77 and C.a. alone at 87-88 kept.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 505 (v505 → v506)
+- Accepted: stem fixes at 46 (Ob 1), 59 (Fl 1, Ob 1), 72 (Cl 2 eighth), 82 (Fl 1).
+- Do not touch: c015's 57-60 down-stems; \once \stemDown at 82 must come before \after 2 \pp (else bar-check warnings).
