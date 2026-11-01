@@ -3464,3 +3464,10 @@ holistic; Rimsky-Korsakov Ex. 1-68. Report: reports/c539.md.
 - Accepted: nothing (v540 = v539 relabelled).
 - Recorded (no change): c539: no change. Compared with Rachmaninoff 3/ii: the horn-harp, solo violin, violins order and theme A's growing doublings hold; octave and register points at 18, 23-30, 45-46, 75-76 follow or are protected; nothing worse since v529.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 540 (v540 → v541)
+cyclic design; A&S Unit 32. Report: reports/c540.md.
+- Accepted: nothing (v541 = v540 relabelled).
+- Recorded (no change): c540: no change to the score. Actor updated coherence/mvt2.md to v541. Common-tone °7 at 33, the motto's reharmonized D♮, the F♭=E thread to the scherzo, joins and quotations all hold (19/19, 11/11).
+- Do-not-touch: standing list; the 8-page layout.
