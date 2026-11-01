@@ -2079,3 +2079,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 467 (v467 → v468), lens 7, Sebesky strings
 - Sebesky PDF 140, 144–146, 166 (cellos on a counter line, not just doubling the bass): at 125–128, after their F2 solo, the cellos join Bn 1's dolce counter line at pitch, pp (E3–F♯3–G3 | C4–D4–A3 | A3–B3–C4 | A3), back on the bass at 128.3; the basses keep the roots. Answers c367's decline: the hand-over's order and notes, the harp, the instruments present and the 129–131 bass (c432) are unchanged.
+
+## Cycle 468 (v468 → v469), lens 8, MOLA dynamics
+- MOLA PDF 7–8, Ex. 6–7 (page turns, long changes as words): at 143 Tbn 1·2 and the bass trombone take "cresc." instead of a hairpin, like every other part in the build (c268, restated after the turn by c405), so page 8 no longer opens with an unlabelled wedge fragment. Notes and MIDI unchanged.
