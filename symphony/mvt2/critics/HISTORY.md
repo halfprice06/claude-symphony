@@ -3091,3 +3091,10 @@ melody; Rimsky-Korsakov ch. V. Report: reports/c481.md.
 ## Cycle 482 (v482 → v483)
 - Accepted: corrected comment at bar 43 (bSecCb); no musical change.
 - Do not touch: 74's V4/3 voicing (c469, c479).
+
+
+## Cycle 483 (v483 → v484)
+form; Rimsky-Korsakov ch. IV. Report: reports/c483.md.
+- Accepted: nothing (v484 = v483 relabelled).
+- Recorded (no change): c483: no change. Register, low spacing, gaps, phrase transfers, chord transfers, amplification/elimination and echo follow Rimsky ch. IV; new wide-bottom spacings at 38 and 73 recorded; optional overlap at 22 not recommended (mute time).
+- Do-not-touch: standing list; the 8-page layout.
