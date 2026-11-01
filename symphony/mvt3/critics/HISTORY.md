@@ -2044,3 +2044,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 456 (v456 → v457), lens 6, Adler bowing
 - Adler PDF 38, 42–43 (Ex. II-20) and PDF 54 (up-bow before pizz.): down-bows on the accented F at 113 in Vln I and II (matching c418's lower strings), up-bows at 114 in Vln II and violas before the pizz. at 115. Bow signs only.
 - Considered and declined: viola div. at 101, "al tallone" at 91–94, a trill at 82, staggered bowing at 219–221.
+
+## Cycle 457 (v457 → v458), lens 7, Sebesky basics
+- Sebesky ch. 1 (PDF 12–13, Ex. 1): Bn 1 resting at 87–88 to clear the violins' scale tested and declined (weakens the 7–6 suspensions at 87.3 and 88.1). 187–194, 159–166, 153–158 and 67–74 checked. No score change.
