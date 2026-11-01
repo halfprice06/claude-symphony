@@ -2546,3 +2546,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: S diatonic 47-55/147-155; chorale at 175-179; tam-tam 122; tutti 158-162; final chord 182
 - Cross-movement: none
+
+## Cycle 490 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397) (third pass)) → v491
+- Accepted: no change (cyclic design, mixture, third pass); mvt1.md v482-v491 line
+- Open / not applied: none
+- Do-not-touch: no iv at 180.3 (c160); A-flat goal of climaxes; E only a glimpse at 78.3; soft Picardy thirds 8 and 182
+- Cross-movement: record only

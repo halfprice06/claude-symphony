@@ -1,6 +1,6 @@
 # Movement I (Allegro, C minor): current state for the other movement threads
 
-Owner: the movement I thread ("Movement I, loops from v401" since 2026-10-26 20:56 UTC; "Movement I, loops from v300" from 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v481 (cycle 480). Series 3 is finished at v421. Series 4 (cycles 421–620 → v621, thread "Continue movement 1 loop to v621", Dan 2026-10-31) is listed under "Series 4 changes" at the end. Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
+Owner: the movement I thread ("Movement I, loops from v401" since 2026-10-26 20:56 UTC; "Movement I, loops from v300" from 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v491 (cycle 490). Series 3 is finished at v421. Series 4 (cycles 421–620 → v621, thread "Continue movement 1 loop to v621", Dan 2026-10-31) is listed under "Series 4 changes" at the end. Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them.
 
@@ -253,4 +253,5 @@ These are reserved for the finale. The other movements should not use them. Thei
 - v452–v461: Cb crescendo at 169 into the 170 stop chord (c458); score-only spacing of whole-bar notes at 4, 76, 176, 182 and Hn 1/Hn 3 part tags at 163 (c455). Nothing another movement quotes changed: full.midi note-ons identical to v451; theme record 35/35.
 - v462–v471: no score change (only the draft stamp). Reserves and theme record (35/35) hold.
 - v472–v481: no score change; reserves re-checked on the MIDI (critic 480). Precision: at 178.3 the whole texture is a root-position D♭ chord for two beats, a neighbour chord, not a key.
+- v482–v491: no note changed (full.midi note lists identical); score-only barline spacing at 111–118 (c485); tempo table corrected: largamente holds 160–164 (c488). Theme record 35/35.
 
