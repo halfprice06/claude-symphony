@@ -2865,3 +2865,9 @@ texture; Sebesky ch. 3 strings, PDF 133-173. Report: reports/c447.md.
 - Accepted: nothing (v448 = v447 relabelled).
 - Recorded (no change): c447: no change. Two-line strings at 53-56 with harp and counter-line supplying the third (c049, c164); lowest cello with the bass; no string seconds above C5; never more than two divisi lines (Vln I rests 37-52, c041); cello split at 21-22; octave reinforcement at 45-46, 57-62, 79-81; a rising voice in every build bar; horns with strings sparingly.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 448 (v448 → v449)
+expression; Adler ch. 10 (adler1 PDF 299-329). Report: reports/c448.md.
+- Accepted: "3·4: mettere sord." in the score at 82.
+- Do-not-touch: standing list; the mute plan; the 8-page layout.
