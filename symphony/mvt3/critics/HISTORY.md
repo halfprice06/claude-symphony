@@ -2091,3 +2091,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 471 (v471 → v472), lens 1, Rimsky-Korsakov brass
 - Rimsky-Korsakov PDF 64–80 (brass): no change. Tested and declined the bass trombone joining Tbn 1·2 on F1's head at 247–254 (thickens the band above the C2 pedal that c072 cleared, weighs against the S head in Hn 1·2 and spends the bass trombone's fresh ff entry at 255). Tpt 1 f under the ff woodwinds at 247 confirmed (Rimsky's note to Ex. 75).
+
+## Cycle 472 (v472 → v473), lens 2, A&S supertonic seventh
+- A&S PDF 173, 177, 179 (II6/5; the seventh held as the 4th of the cadential 6/4): at 249 Hn 4 plays C4 instead of doubling the bass F3, holds it into the 6/4 and falls to B3 on 250.3, so 248–250 run ii7 → ii6/5 → 6/4 → V7 and the F3–E4 seventh leap is gone. Corrects c382's reading of 248–249. Themes, the combination's lines and the c374 spacing unchanged.
