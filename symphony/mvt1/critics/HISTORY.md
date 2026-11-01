@@ -2492,3 +2492,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: four harmonisations of the motto ending; reserves; no F1/F2 seeds; 182 last chord
 - Cross-movement: record only
+
+## Cycle 481 (Melody and memorability; Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371) (third pass)) → v482
+- Accepted: no change (suspensions, anticipations, pedal as melody, third pass; new early-resolution scan clean)
+- Open / not applied: none
+- Do-not-touch: main suspensions 13-14, 44, 66-67, 164-165, 178-179; 53.3; 161.4 anticipation
+- Cross-movement: none
