@@ -2133,3 +2133,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 485 (v485 → v486), lens 5, Gould spacing
 - Gould PDF 55, 65–67 (centred bar-length notes; crossing voices on a shared staff): at 68 Bn 1's crossing B♭2 semibreve is printed as tied up-stem halves set to the right of Bn 2's D3 (part keeps `bes,1`), and at 69 Bn 2's dotted half is shifted clear; c215's `\cen` is removed at 97 and 138 (no longer bar-length in every part) and added at 5. Score-only; MIDI identical.
+
+## Cycle 486 (v486 → v487), lens 6, Adler woodwind playability
+- Adler PDF 175, 188, 192, 230 (wind endurance; second player relieves the first; contrabassoon rests): Fl 2 takes Fl 1's B♭5 at 37–38 so Fl 1 breathes (back on B♭5 at 38.3; sound unchanged, Fl 2 still rests 35–36); the contrabassoon rests 205–208, where it only doubled the tuba and basses' A♭1, and re-enters f < at 209; staggered bassoon breaths after 241 (Bn 1) and 242 (Bn 2).
