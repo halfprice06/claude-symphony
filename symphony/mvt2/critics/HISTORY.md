@@ -2967,3 +2967,10 @@ harmony; A&S Units 30-31 other chromatic chords and chromatic voice leading, PDF
 - Accepted: nothing (v463 = v462 relabelled).
 - Recorded (no change): c462: no change. Every F flat reaches E flat in its register; applied leading tones rise (viola 19 b3, c352); remote mixture at 46-48 and 62-63 prepared (Ex. 30-3, 30-9; gives c083's keep-F flat a book reason); no °7 on sharp 4 at 43; label correction: 33 is a chromatic passing °7 in parallel sixths (PDF 552), not a common-tone °7 (c162; c220's comment and the do-not-touch list use the old label); 21, 59, 50-51, 64-65 match book models.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 463 (v463 → v464)
+form; A&S Unit 15 III and VII, PDF 230-247. Report: reports/c463.md.
+- Accepted: nothing (v464 = v463 relabelled).
+- Recorded (no change): c463: no change. Return from the IV stopover through a root-position V at 65-70 is correct (Ex. 15-2; not an inverted V); correction to c173/c323: a fourth rising third into a downbeat at 41-42 (record only); 78 b3 iii6 supports Cl 2's 8-7-6; proportions as c323/c433; V7 at 65-70 serves the horn tail, not to be shortened; 1-2 heard as I-flat VI from movement I.
+- Do-not-touch: standing list; the 8-page layout.
