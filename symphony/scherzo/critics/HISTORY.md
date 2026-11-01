@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 433 (lens 3 form, Aldwell & Schachter Units 6-8 I, V, V7 and their inversions: phrase structure (aldwell-schachter PDF 92-133) (fifth pass)) v433 → v434
+Accepted: Cb G♯1 at 170 (tA.ily). Do-not-touch: T's three statements gain bass motion in turn (root under the drone 153, I6 at 170, moving bass from 209).
+
 ## Cycle 432 (lens 2 harmony, Aldwell & Schachter Units 30-31 Other chromatic chords; Chromatic voice-leading techniques (aldwell-schachter PDF 530-583) (fifth pass)) v432 → v433
 Accepted: applied V7 at 48 (sA.ily). Do-not-touch: both phrases of the G-major second idea end with a rising chromatic bass (G♯–A at 48–49, C♯–D at 52–53).
 
