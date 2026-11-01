@@ -2966,3 +2966,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: no soft distant development episode (protected; c459)
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 560 (Cyclic design and emotional arc across four movements; Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (fourth pass)) → v561
+- Accepted: none (cyclic design fourth pass: coherence updated to v561; trumpets at 118 rejected)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none

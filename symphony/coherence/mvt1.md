@@ -1,6 +1,6 @@
 # Movement I (Allegro, C minor): current state for the other movement threads
 
-Owner: the movement I thread ("Movement I, loops from v401" since 2026-10-26 20:56 UTC; "Movement I, loops from v300" from 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v551 (cycle 550). Series 3 is finished at v421. Series 4 (cycles 421–620 → v621, thread "Continue movement 1 loop to v621", Dan 2026-10-31) is listed under "Series 4 changes" at the end. Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
+Owner: the movement I thread ("Movement I, loops from v401" since 2026-10-26 20:56 UTC; "Movement I, loops from v300" from 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v561 (cycle 560). Series 3 is finished at v421. Series 4 (cycles 421–620 → v621, thread "Continue movement 1 loop to v621", Dan 2026-10-31) is listed under "Series 4 changes" at the end. Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them.
 
@@ -261,4 +261,5 @@ These are reserved for the finale. The other movements should not use them. Thei
 - Cross-movement (scherzo v471, 2026-11-01): the scherzo's Vln I G♯5 at bars 1–2 turning to G5 pp at bar 7 restates movement I 78–79 G♯5 → G5 at pitch. Treat the 78–79 Vln I G♯5–G5 as quoted.
 - v532–v541: no note changed (bow marks at 98 and 131, c538; score-only rest positions at 28 and 160, c535); theme record 35/35; reserves rechecked on the MIDI (c540).
 - v542–v551: no note changed; score layout only, page 10 ends at 112 (c545); theme record 35/35; reserves rechecked (c550). The rising sixth opens motto, P, S and the horn call; II theme A and the scherzo trio fill it, the finale chorale turns it major (G–E): keep it.
+- v552–v561: no note changed; Tbn 1 part-only breath at 119.4 (c556). Theme record 35/35 (c560). Every loud timpani stroke comes with the trumpets; the timpani play alone only in soft rolls and the coda pulse after the trumpets' unresolved B at 170 (the finale rejoins them at 222→223).
 
