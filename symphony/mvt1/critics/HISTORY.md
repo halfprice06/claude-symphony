@@ -2588,3 +2588,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 497 (Texture and counterpoint; Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281) (third pass)) → v498
+- Accepted: none (texture third pass: fugato dynamics, bar 176, 147-155 fills checked; keep)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
