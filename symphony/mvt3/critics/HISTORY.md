@@ -2145,3 +2145,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 489 (v489 → v490), lens 9, holistic comparison
 - A&S PDF 585–586 (Ex. 32-3, a common tone held across a chromatic key change): Hn 4 now ties A♭3 into G♯3 at 242→243 (iiø7 → E major) instead of breathing and re-striking it; its breath moves to after 240, with Hn 3 breathing and crescendoing there too. No pitches changed. Holistic comparison with Sibelius 2/iv and v479 → v489 check: no further change.
+
+## Cycle 490 (v490 → v491), lens 10, cyclic review
+- Adler part 2 PDF 264–274 (keep the accompaniment away from a soft soloist's register): Cl 2 and Tpt 3 end with the 216 diminuendo and rest 217–218, as Fl 2, Ob 2, Tpt 1·2 already do, so nothing holds F4 on or a half step under the cor anglais and Hn 1·2 echo of theme B; they return on the 219 chord. Cyclic review against movement I v549, movement II v543 and scherzo v481: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51.
