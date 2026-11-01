@@ -189,6 +189,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 444 (lens 4 orchestration, Casanelles ch. 6 spectral orchestration and acoustic mixing in Mahler's First Symphony (hyper-orchestra PDF 257-290) (fifth pass)) v444 → v445
+Accepted: Vln II and violas rest 233–236 (tC.ily, parts-cues.json).
+
 ## Cycle 443 (lens 3 form, Aldwell & Schachter Unit 15 III and VII (aldwell-schachter PDF 230-247) (fifth pass)) v443 → v444
 Accepted: Vln II at 330 (coda.ily). Do-not-touch: 330 is a clean ♮VII (D–F♯–A) in all strings.
 
