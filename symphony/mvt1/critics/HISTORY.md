@@ -2642,3 +2642,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 506 (Playability, instrument by instrument; Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (third pass)) → v507
+- Accepted: none (Sebesky winds third pass: ranges, breaths, slide positions, colour alternatives checked; keep)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
