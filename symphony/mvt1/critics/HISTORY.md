@@ -2894,3 +2894,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 548 (Expression; Adler ch. 11 climactic uses of brass (adler2 PDF 37-40) and ch. 15 special effects (adler2 PDF 187-196) (fourth pass)) → v549
+- Accepted: none (climactic brass and special effects fourth pass: entry-dynamic dump clean; keep)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
