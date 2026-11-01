@@ -2851,3 +2851,10 @@ engraving; MOLA PDF 1-16. Report: reports/c445.md.
 - Accepted: B.tbn niente circle at 64.
 - Open (optional): Ob 1 niente at 47; clarinet muta text at 92.
 - Do-not-touch: the 8-page layout; tempo mark and letter placement; multi-rest ranges; cues and one-page parts; harp pedal plan.
+
+
+## Cycle 446 (v446 → v447)
+playability; Adler App. A ranges and terms, adler2 PDF 302-312. Report: reports/c446.md.
+- Accepted: nothing (v447 = v446 relabelled).
+- Recorded (no change): c446: no change. Checked against Adler's amateur column too: Fl 1 above it only at ff climaxes (61-63, 79), approached by step; Vln I top notes at 57-63 and 79 normal; Cl 1 C6 and Vln II C6 at the edge at climaxes; low-edge notes settled earlier; brass inside amateur ranges; all terms in Adler's table.
+- Do-not-touch: standing list; the 8-page layout.
