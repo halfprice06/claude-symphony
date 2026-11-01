@@ -2870,3 +2870,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 544 (Orchestration; Adler ch. 15 Scoring for Orchestra: unison-octave tutti, foreground and background (adler2 PDF 146-158) (fourth pass)) → v545
+- Accepted: none (unison-octave tutti fourth pass: Tpt 1 A-flat5 at 122 rejected; 156-157 additions all blocked by protections)
+- Open / not applied: 156-157 phrase length (protected)
+- Do-not-touch: 122 Tpt 1 A-flat4
+- Cross-movement: none
