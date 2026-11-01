@@ -2462,3 +2462,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: tempo marks top and Vln I (c165); brass staff layout; rehearsal-letter spacing; staff names; Hn 3-4 69-72 clef
 - Cross-movement: none
+
+## Cycle 476 (Playability, instrument by instrument; Adler ch. 12 Percussion: timpani tuning and technique (adler2 PDF 55-91) (third pass)) → v477
+- Accepted: no change (timpani and percussion playability, third pass)
+- Open / not applied: none
+- Do-not-touch: timpani pedal strokes 26, 28.3, 30, 138, 161; B2 stroke at 97; coda tam-tam l.v.; ppp rolls 1-4, 181-182
+- Cross-movement: none
