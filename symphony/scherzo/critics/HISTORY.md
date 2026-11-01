@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 454 (lens 4 orchestration, Rimsky-Korsakov ch. I Comparison of resonance and combination of tone qualities, and ch. III Harmony: number of parts, distribution, strings, woodwind (rimsky-principles PDF 51-53, 81-99) (sixth pass)) v454 → v455
+Accepted: flutes a2 at 105–108 (sC.ily). Do-not-touch: both theme-A tuttis (105, 305) have the flutes on top; no flute note above A6 there.
+
 ## Cycle 453 (lens 3 form, Aldwell & Schachter Unit 14 V as a Key Area (aldwell-schachter PDF 211-229) (sixth pass)) v453 → v454
 Accepted: timpani B at 184 (tA.ily, parts-cues.json). Rejected: repeat of 13–56. Record: the half cadence at 159–160 is an applied V7/V since c421.
 
