@@ -2624,3 +2624,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: 157 viola arpeggio root position
 - Cross-movement: none
+
+## Cycle 503 (Form, pacing and proportion; Aldwell & Schachter Unit 15 III and VII (aldwell-schachter PDF 230-247) (third pass)) → v504
+- Accepted: none (III and VII third pass: III stopover, diminished triads, rising thirds, cross-relations all keep)
+- Open / not applied: proportions (recap 0.61) noted again, protected
+- Do-not-touch: unchanged
+- Cross-movement: none
