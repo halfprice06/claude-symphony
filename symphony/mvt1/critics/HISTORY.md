@@ -2672,3 +2672,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 511 (Melody and memorability; Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (third pass)) → v512
+- Accepted: none (melodic figuration third pass: 157.4 F5 approach rejected for unisons with Cl 1; keep)
+- Open / not applied: none new
+- Do-not-touch: 157.4 repeated G5 into 158
+- Cross-movement: none
