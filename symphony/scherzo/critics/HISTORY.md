@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 470 (lens 10 cyclic, Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397) (fifth pass)) v470 → v471
+Accepted: Vln I G5 at 7–8 (intro.ily). Do-not-touch: no C♮ in 341–358 (♭6 must not precede ♮6, A&S PDF 388); Cl 2's G4 and no E4 at 7–8 (c040, c270).
+
 ## Cycle 469 (lens 9 holistic, Adler part 2 full-score examples in ch. 11 and 15 (adler2 PDF 18-54, 143-186) (fifth pass)) v469 → v470
 Accepted: Hn 3 A3 at 163–164 (tA.ily).
 
