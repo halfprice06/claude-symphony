@@ -3438,3 +3438,8 @@ orchestration; Adler ch. 15, tutti and colour. Report: reports/c534.md.
 ## Cycle 535 (v535 → v536)
 - Accepted: score-only spacer for Fl 2 at 81 b2-3.
 - Do not touch: Fl 1's down-stems at 81 (c375, c394).
+
+
+## Cycle 536 (v536 → v537)
+- Accepted: Bsn 2 \breathe at end of 57.
+- Do not touch: staggered breaths Bsn 2 (57) / B.cl. (58).
