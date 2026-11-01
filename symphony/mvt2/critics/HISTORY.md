@@ -2837,3 +2837,10 @@ form; Adler ch. 15 end and ch. 17 accompaniment, adler2 PDF 187-196, 256-290. Re
 - Accepted: nothing (v444 = v443 relabelled).
 - Recorded (no change): c443: no change. Section joins overlap (PDF 190, 192); deliberate seam at 56-57 (c049, c413); climax and cut-back 61-67 as Mozart Ex. XVII-9/10; return and coda 24 percent, as Dvořák 9/ii; colour rotation of themes; introductions to solo entries (c233, c363).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 444 (v444 → v445)
+orchestration; Adler ch. 8 woodwind-string combinations, adler1 PDF 233-281. Report: reports/c444.md.
+- Accepted: nothing (v445 = v444 relabelled).
+- Recorded (no change): c444: no change. Oboe over bassoon and cellos at 44-46 (Ex. VIII-4, 38); 57-60 flute and oboe double violins at pitch, clarinet thirds inside (c144, c254); pedals before pickups at 70 and 74; colour-per-note chords at 33 and 87-88; woodwind pair voicings at 61-62 and 79-81 (Ex. VIII-21-24); theme B in single winds at 37-44 (c304 not reopened).
+- Do-not-touch: standing list; the 8-page layout.
