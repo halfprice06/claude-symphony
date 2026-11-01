@@ -3230,3 +3230,10 @@ form; Adler ch. 17. Report: reports/c503.md.
 - Accepted: nothing (v504 = v503 relabelled).
 - Recorded (no change): c503: no change. Frame proportions, horn placement around solos, thinning after peaks, timpani links and quiet build-ups follow Adler ch. 17 (Canzonetta compared); C.a. heard three times in 32-52 recorded as an observation (all protected).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 504 (v504 → v505)
+orchestration; Sebesky ch. 2, woodwinds. Report: reports/c504.md.
+- Accepted: nothing (v505 = v504 relabelled).
+- Recorded (no change): c504: no change. Woodwind order, complete tutti chords and B.cl. bass follow Sebesky; Bsn 1 F4 inside the horns at 62 recorded (corrects c374); 14-15 seam, Cl octave at 77 and C.a. alone at 87-88 kept.
+- Do-not-touch: standing list; the 8-page layout.
