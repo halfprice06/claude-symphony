@@ -2830,3 +2830,10 @@ melody; Adler ch. 7 woodwinds, adler1 PDF 184-232. Report: reports/c441.md.
 harmony; A&S Units 24-25. Report: reports/c442.md.
 - Accepted: Cl 2 holds A flat4 through 72 b2 (7th of V7/V, as at 8 and 24).
 - Do-not-touch: seventh-chord chains at 8/24/72 and 42/58; 59-60 approach to V; pivots at 47-51 and 64-65; the 65-70 E flat7; plagal close 85-92; the 8-page layout.
+
+
+## Cycle 443 (v443 → v444)
+form; Adler ch. 15 end and ch. 17 accompaniment, adler2 PDF 187-196, 256-290. Report: reports/c443.md.
+- Accepted: nothing (v444 = v443 relabelled).
+- Recorded (no change): c443: no change. Section joins overlap (PDF 190, 192); deliberate seam at 56-57 (c049, c413); climax and cut-back 61-67 as Mozart Ex. XVII-9/10; return and coda 24 percent, as Dvořák 9/ii; colour rotation of themes; introductions to solo entries (c233, c363).
+- Do-not-touch: standing list; the 8-page layout.
