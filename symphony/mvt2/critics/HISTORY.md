@@ -3560,3 +3560,10 @@ form; A&S Units 16 and 19 six-four chords. Report: reports/c553.md.
 - Accepted: nothing (v554 = v553 relabelled).
 - Recorded (no change): c553: no change. Return 65-71 matches Ex. 19-14 (Bsn 2 D♭3-C3 at 71 is the 7th's resolution; protect); eight 6/4s classified; Dvořák 9/ii plagal comparison noted, c283 not re-raised.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 554 (v554 → v555)
+orchestration; Rimsky-Korsakov brass. Report: reports/c554.md.
+- Accepted: nothing (v555 = v554 relabelled).
+- Recorded (no change): c554: no change. Climax brass at 60-62, trombone over tremolo 63-64, horn/bassoon 67-70 and muted horns with C.a. and violas 87-90 follow Rimsky PDF 100-114; horn seconds at 80-81 acceptable.
+- Do-not-touch: standing list; the 8-page layout.
