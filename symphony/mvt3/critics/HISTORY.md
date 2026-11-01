@@ -2055,3 +2055,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 459 (v459 → v460), lens 9, holistic comparison
 - Bar 251 beats 1-2: the E-major chord had no G (E in 15 of 16 notes, E in the bass). Hn 4 now plays G3 to C4 instead of E4 to D4, which supplies the third near the bottom (Adler Ex. V-27, VIII-25). The two score-only force-hshift overrides at 251 were removed because the horns no longer share a note. Rejected alternatives: Hn 4 D4 to C4 (octaves with Ob 2) and a held G3 (contrary fifths into 252).
 - Holistic comparison with Tchaikovsky 4/iv and v449 against v459: no change needed.
+
+## Cycle 460 (v460 → v461), lens 10, cyclic review
+- Sebesky PDF 19–20 (Ex. 3/3A, harmonic variety): at 270 beats 2–4 Bn 1 holds A3 and the violas D4 with Tpt 3's F4, ii7 over the C pedal, so 269–272 run I – ii7 – V – IV6/4 and no longer repeat 266's harmony; F1's notes, the horn and trombone rests and 266 unchanged. Cyclic review against movement I v506, movement II v493 and scherzo v453: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51.
