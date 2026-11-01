@@ -3587,3 +3587,9 @@ voice leading; A&S Unit 31 chromatic voice exchange. Report: reports/c557.md.
 - Accepted: nothing (v558 = v557 relabelled).
 - Recorded (no change): c557: no change. Wedge at 51-52 (settles c237 finding 3), contrary semitones into goal chords, motto tail never over a chromatic rising bass, exchange at 21 intact; Bsn 2 respelling at 47 correct.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 558 (v558 → v559)
+
+Accepted: niente circles at 37, 47 (Ob 1) and 53 (C.a., end of the quotation; print only). Closes c445's optional Ob 1 niente at 47.
+Do-not-touch: hidden peak 57-59; Cl 1 / Hn 1 levels at 53-56; fade order 63-66, 81-83, 89-92; standing list; 8-page layout.
