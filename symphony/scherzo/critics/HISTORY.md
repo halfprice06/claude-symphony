@@ -53,6 +53,7 @@ The themes are free to evolve under the critics. symphony/coherence/themes-scher
 
 - v412 (cycle 411): second idea. Each phrase's first minim becomes a dotted crotchet and a passing quaver, tie over the bar line kept: G major 45/49 old d'''2 b''4~ | e'''2 cis'''4~, new d'''4. c'''8 b''4~ | e'''4. d'''8 cis'''4~; E minor 121/125 and 281 old b''2 g''4~ | c'''2 a''4~, new b''4. a''8 g''4~ | c'''4. b''8 a''4~; reprise E-major antecedent 277 old b''2 gis''4~, new b''4. a''8 gis''4~ (all doubling octaves alike). Record refreshed. No other movement quotes the second idea, so no message was needed.
 - v413 (cycle 412): second idea, E-minor consequent bar 8 (128, 284, all octaves): old dis'''4 b''4. cis'''8, new dis'''4 cis'''4. b''8 (D♯–C♯–B over VII°7 of V, bass F♯–A♯–B). Record refreshed; no message needed.
+- v422 (cycle 421): trio tune T, bars 7–8 (159–160 Cl 1, 175–176 Vc, 215–216 Cl 1/Vln I/II): old e''4. dis''8 cis''4 | ais'4 b'2, new e''4. dis''8 ais'4~ | ais'4 b'2 (7–8 suspension of the leading tone). Coda Ob 1 345–348 keeps the old form (record line trioTcoda). Head unchanged; movement I quotes only the head and the finale does not quote T, so no message was needed.
 
 ## Cycle 4 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v04 → v05
 All 8 findings accepted (reasons in v05/critique.md): horn chords split and tutti balance 105–120/309–324 with Vln II on the theme; harp RH out of the trio off-beats 169–184/209–224; F-major episode thinned (Cl rests, harp chord to LH); Hn 2 lower in the second idea 45–56; Hn 1·2 thirds/sixths 209–224; violas pizz. 257–276; 87–88 doubling; tuba E1 at 341–343. Themes unchanged. Keep: harp alone with the theme head at 73–80; no plucked off-beats doubled by bowed ones.
@@ -186,6 +187,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
+
+## Cycle 421 (lens 1 melody, Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371) (fifth pass)) v421 → v422
+Accepted (theme change): T bars 7–8 suspension (tA.ily, tC.ily). Kept: coda fragment 345–348 in the old form; second idea's ties consonant (c411); theme A peak at 24. Do-not-touch: T's two tied suspensions (bars 3–4 4–3, bars 7–8 7–8).
 
 ## Cycle 420 (lens 10 cyclic, Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (fifth pass)) v420 → v421
 Accepted: Vc F♯3 held at 352 (coda.ily). Rejected: bass E under 349, harp D♯ at 347 (octaves), ii under T at 157, cutting 149–152 (renumbers quoted bars). Do-not-touch: c202's progression 351–353 with the held F♯ at 352.
