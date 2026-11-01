@@ -1984,3 +1984,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 441 (v441 → v442), lens 1, A&S rhythm and meter
 - A&S Unit 3 (PDF 50, 52–54, Ex. 3-10, 3-11: a group ends on its tonal goal): F2's climax slur now runs from 59 to 63.1 (exposition, Tpt 1) and 179 to 183.1 (recapitulation, cor anglais and Tpt 1), so the deceptive V7→VI and V→i6 resolutions belong to the phrase; the breath moves to 63.3/183.3 and the last phrase starts with an upbeat. Fl 1's doubling ends on the downbeat. F2's notes unchanged; phrasing only.
 - Declined: a 9–8 at 17–18/157–158, a dotted peak at 62.
+
+## Cycle 442 (v442 → v443), lens 2, A&S added dissonance
+- A&S Unit 27 (PDF 469–470, Ex. 27-10): the harp's second group at 72 no longer sounds the root B♭4 a seventh above the violas' 9th C4 in the B♭9 dominant (`f'8 aes'8 d''8 f''8`), as c352 did at 81.
+- Tested and declined: a dominant ninth at 128 (cluster under Vln II's F♯4). Checked: the violas' 9th at 46.3.
