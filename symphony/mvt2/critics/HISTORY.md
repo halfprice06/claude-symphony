@@ -3355,3 +3355,10 @@ harmony; A&S Unit 31, sequences. Report: reports/c522.md.
 - Accepted: nothing (v523 = v522 relabelled).
 - Recorded (no change): c522: no change. Seventh-chord chain at 39-40/55-56, cello 9-8 at 73-74, ♭6 resolutions and goal-directed accidentals follow Unit 31; cellos' rising sixth at 56 recorded (optional basses A1-B♭1 at 56 if 53-56 reopens).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 523 (v523 → v524)
+form; A&S Unit 32, chromatic key areas. Report: reports/c523.md.
+- Accepted: nothing (v524 = v523 relabelled).
+- Recorded (no change): c523: no change. A♮ enters in stages (40, 46, 47-50, 62-64) and never returns in 65-92 (new do-not-touch: no A♮ in 65-92); proportions 36/34/19/11%; section joins per c403.
+- Do-not-touch: standing list; the 8-page layout.
