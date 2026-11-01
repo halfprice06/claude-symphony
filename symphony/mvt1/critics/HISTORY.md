@@ -2684,3 +2684,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: 177 Vln II Ab4-F4
 - Cross-movement: none
+
+## Cycle 513 (Form, pacing and proportion; Aldwell & Schachter Unit 14 V as a Key Area (aldwell-schachter PDF 211-229) (third pass)) → v514
+- Accepted: none (V as key area third pass: pivots, 166 cadence, tension curve checked; keep)
+- Open / not applied: loud span 113-144 (~70 s) noted; levers protected
+- Do-not-touch: unchanged
+- Cross-movement: none
