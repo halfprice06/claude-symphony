@@ -189,6 +189,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 449 (lens 9 holistic, Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (fifth pass)) v449 → v450
+Accepted: Hn 3 from 261 only (dA.ily, parts-cues.json); reduces c447. Do-not-touch: the reprise countermelody 253–268 grows phrase by phrase (cellos alone, then + Hn 3). Open: second idea's memorability (scoring readings give no reason to change its notes).
+
 ## Cycle 448 (lens 8 expression, Aldwell & Schachter Unit 3 Rhythm and Meter: accent, hypermeter (aldwell-schachter PDF 47-57) (fifth pass)) v448 → v449
 Accepted: cadence hairpins at 54–55, 130–131, 286–287 (sA, sC, dA). Do-not-touch: every melodic suspension swells into the dissonance and falls to the resolution.
 
