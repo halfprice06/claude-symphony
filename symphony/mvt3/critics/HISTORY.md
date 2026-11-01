@@ -2127,3 +2127,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 483 (v483 → v484), lens 3, Rimsky-Korsakov tutti
 - Rimsky-Korsakov PDF 120, 127, 130, 136 (no tutti at p; a new group enters pp and crescendos; brass join a crescendo last): the tuba rests 217–220, where it only doubled the contrabassoon and basses under the sub. p, and re-enters pp < on G1 at 221 with the allargando, mf < at 222, fff at 223. Bass pitches, the sub. p at 219, the stop chord and 222→223 unchanged; resting the tuba until 223 was tested and declined.
+
+## Cycle 484 (v484 → v485), lens 4, Adler scoring examples
+- Adler part 2 PDF 147–148, 154 (background distinct from the tune): at 255 Tbn 1·2 enter mf instead of f on G3/E3, the very notes F2's last phrase starts on and returns to in violas, cellos and Hn 3·4 ff; their crescendo from 257 to ff at 259 is unchanged. Notes unchanged.
