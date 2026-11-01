@@ -2804,3 +2804,10 @@ texture; Rimsky-Korsakov ch. III woodwind and brass combined, PDF 106-114. Repor
 expression; Sebesky PDF 11-20, 204-218. Report: reports/c438.md.
 - Accepted: violins' mp on the 74 b3 pickup; Vln II "espr., sul D" at 22 and 70.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 439 (v439 → v440)
+holistic (Brahms PC 2/iii); Rimsky Ex. 275-312. Report: reports/c439.md.
+- Accepted: violas 84-85 restored (lost in v436 inside a comment); \barNumberCheck #93 on the violas. kit/guard.py now checks every promotion.
+- Open: add \barNumberCheck #93 to the other coda staves.
+- Do-not-touch: the coda as designed by c194, c199, c223; standing list; the 8-page layout.
