@@ -2366,3 +2366,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 117-121 has no long soft eerie episode like Elgar's ghost passage (kept: f start protected, proportions)
 - Do-not-touch: 117 f start; 158 heavy brass entry; 47-55 harp bass; 77-81, 175-177 echoes
 - Cross-movement: none
+
+## Cycle 460 (Cyclic design and emotional arc across four movements; Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (third pass)) → v461
+- Accepted: no change (cyclic design, Adler ch. 1 and 15 third pass); mvt1.md v452-v461 change line
+- Open / not applied: none
+- Do-not-touch: silence after 170; timpani-trumpet pairing; sforzandi at 41; bar 12 German sixth
+- Cross-movement: record only
