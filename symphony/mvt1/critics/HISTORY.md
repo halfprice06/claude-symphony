@@ -2450,3 +2450,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: retransition 111-130; proportions; 127-130 V with 6; 61 no 7-6; 155-158 bass; 6-8, 172-179
 - Cross-movement: none
+
+## Cycle 474 (Orchestration; Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (third pass)) → v475
+- Accepted: no change (woodwinds in the orchestra and with strings, third pass)
+- Open / not applied: none
+- Do-not-touch: 47-55 no woodwind under S; Ob 1 145-146; Cl 1 entry 52.4
+- Cross-movement: none
