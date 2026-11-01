@@ -2100,3 +2100,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 474 (v474 → v475), lens 4, Rimsky-Korsakov tutti
 - Rimsky-Korsakov PDF 505–507, Ex. 209 (held tutti chords with timpani take a roll): at 167–168 the timpani's single A♭ stroke under the link chords becomes a roll fading f > p (`aes,1:32\f\>~ | aes,2:32~ aes,4:32\p r4`), as at the matching link 39–40 and the other augmented sixths over A♭ (5, 219, 261). It ends before the horns fade, so c108's diminuendo order holds; 166 and the soft sticks at 171 unchanged.
+
+## Cycle 475 (v475 → v476), lens 5, Gould rests
+- Gould PDF 50–51 (rests on shared staves sit inside the staff below the middle line): score.ly sets `Rest.voiced-position` to 2 for whole and half rests (shorter rests keep c295's default) and `MultiMeasureRest.voiced-position = #2`, so the second player's rests no longer hang at or below the bottom line (e.g. Fl 2 and Ob 2 at 217–218); LilyPond still moves a rest out when a note collides. Pages 2–4, 6, 11–12, 15–16 change; no system or page moved; MIDI identical.
