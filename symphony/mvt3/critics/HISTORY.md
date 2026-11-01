@@ -2067,3 +2067,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 463 (v463 → v464), lens 3, A&S tonicization
 - A&S Unit 26 (tonicization and key plan): no change. Tested an applied V6/5 of A♭ on 34.4 and declined it: it would turn the 26 and 34→35 V→VI chain that prepares the A♭ statement at 187 into a plain tonicization and lose the rest ending F1's bass statement. Key plan, arrivals in new keys and the long coda (accepted c219) checked.
+
+## Cycle 464 (v464 → v465), lens 4, Rimsky-Korsakov brass and winds
+- Rimsky-Korsakov PDF 110–111 (woodwind harmony above the trumpets): the oboes swap at 262–264; Ob 1 takes V7's seventh F5 and resolves it to E5, the tonic's third above the trumpets at the 263 fff, and Ob 2 takes the chorale line B4–C5 at the trumpets' pitch (it sat on E4 at fff). Progression, chorale top line, the seventh's resolution and the cut at 264.1 unchanged. Declined the critic's second change (Hn 3 C5 at 259–260): C5 over F to E♭4 over A♭ at 261 makes contrary fifths with the bass, the reason c190 gave against C–E♭ there.
