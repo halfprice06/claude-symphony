@@ -2012,3 +2012,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 448 (v448 → v449), lens 8, A&S accent and hypermeter
 - A&S Unit 3 (PDF 50–51, Ex. 3-6: a note entering on a weak beat and held over the strong beat is marked): accents on the IV chord entering on 272 beat 2 in Bn 1, Hn 3·4 and violas, held into the Largamente at 273. Notes, dynamics and tempo unchanged.
 - Checked: the four-bar grid 11–264, accents and tempo words on it. Declined: accents in the 7–6 chain at 87–89 and on every downbeat at 265–272.
+
+## Cycle 449 (v449 → v450), lens 9, Dvořák 7 holistic
+- Rimsky-Korsakov PDF 130–131 (Ex. 262: a long crescendo adds instruments): the oboes join the cresc. molto at 245–246 on a sixth G5 over B4, p <, resolving into their own ff entry (E5 over C5) at 247, instead of entering ff from silence (new sHeadOboeTwo).
+- Dvořák 7/iv holistic comparison and v439 → v449 check: nothing worse. Declined: percussion in the hammered tuttis.
