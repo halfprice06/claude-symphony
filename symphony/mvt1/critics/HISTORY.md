@@ -2468,3 +2468,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: timpani pedal strokes 26, 28.3, 30, 138, 161; B2 stroke at 97; coda tam-tam l.v.; ppp rolls 1-4, 181-182
 - Cross-movement: none
+
+## Cycle 477 (Texture and counterpoint; Sebesky ch. 1 Basics: balance, economy, focus, variety (sebesky PDF 11-20) (third pass)) → v478
+- Accepted: no change (Sebesky balance, economy, focus, variety as texture, third pass)
+- Open / not applied: none
+- Do-not-touch: 143-146 unisons; 163-166 dissolution; 15-22 accompaniment; 171-174 solo cello and C.a.
+- Cross-movement: none
