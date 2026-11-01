@@ -3273,3 +3273,10 @@ cyclic design; Sebesky 240-242, Adler 19-23. Report: reports/c510.md.
 - Accepted: nothing (v511 = v510 relabelled).
 - Recorded (no change): c510: no change to the score. Actor updated coherence/mvt2.md to v511. Theme records, quotations and joins hold; arc low points are cyclic events; cyclic lines not covered; reductions clear.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 511 (v511 → v512)
+melody; Rimsky-Korsakov ch. II. Report: reports/c511.md.
+- Accepted: nothing (v512 = v511 relabelled).
+- Recorded (no change): c511: proposed change declined. The critic made Fl 1 double the C.a.'s head at 41-42 (F5-G♭5-A♭5); 'Fl 1 notes at 41-44' is on the do-not-touch list (c090, c101, line 560) and the descant is the passage's one independent line over theme B, so the actor kept v511. Recorded: theme B's neighbour cell, chromatic brass exceptions, theme A contour, 45-51 all follow Rimsky ch. II.
+- Do-not-touch: standing list; the 8-page layout.
