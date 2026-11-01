@@ -2762,3 +2762,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: lencheck.py should be wired into build.sh (a mid-line % comment silently dropped bars)
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 526 (Playability, instrument by instrument; Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (fourth pass)) → v527
+- Accepted: none (individual strings fourth pass: string changes since v436 playable; parts and turns fine)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
