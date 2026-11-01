@@ -3141,3 +3141,10 @@ cyclic design; A&S Unit 30, mixture. Report: reports/c490.md.
 - Accepted: nothing (v491 = v490 relabelled).
 - Recorded (no change): c490: no change to the score. Actor brought coherence/mvt2.md up to v491. Both joins are III♯ relations (Ex. 30-1); C-A♭-E-C augmented-triad key plan; quotations prepared per Ex. 30-3 and 30-9; last chord stays plain (c210, c480).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 491 (v491 → v492)
+melody; Sebesky ch. 5. Report: reports/c491.md.
+- Accepted: nothing (v492 = v491 relabelled).
+- Recorded (no change): c491: no change. Theme ranges, breaths, motion under held notes, doubling order and inner-line leaps follow Sebesky ch. 5; 54/56 ties and 74 b3 register drop protected.
+- Do-not-touch: standing list; the 8-page layout.
