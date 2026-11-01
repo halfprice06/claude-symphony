@@ -2148,3 +2148,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 490 (v490 → v491), lens 10, cyclic review
 - Adler part 2 PDF 264–274 (keep the accompaniment away from a soft soloist's register): Cl 2 and Tpt 3 end with the 216 diminuendo and rest 217–218, as Fl 2, Ob 2, Tpt 1·2 already do, so nothing holds F4 on or a half step under the cor anglais and Hn 1·2 echo of theme B; they return on the 219 chord. Cyclic review against movement I v549, movement II v543 and scherzo v481: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51.
+
+## Cycle 491 (v491 → v492), lens 1, Adler woodwinds
+- Adler ch. 7 (woodwinds): no change. Tested and declined the bass clarinet doubling the cellos' F1-head entry at 140–143 (its staff would appear on page 7, which then overfills; the cello tone would predominate anyway, PDF 226). Register and dynamic scans of all woodwind parts pass.
