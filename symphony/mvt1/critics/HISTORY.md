@@ -2312,3 +2312,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 167-170 violin tremolo into the 170 stop chord (c389, c374); no seed of the finale's F1/F2
 - Cross-movement: record only: 122 is now a full-string fff tremolo (still distinct from IV 223)
+
+## Cycle 451 (Melody and memorability; Adler ch. 3 Individual Bowed Strings: melodic writing for violin, viola, cello, bass (adler1 PDF 71-109) (third pass)) → v452
+- Accepted: no change (string melodic writing, third pass)
+- Open / not applied: none
+- Do-not-touch: S chain 46.4-68 with single-string returns; Vln I sul D 177-182; solo Vc 171-174 on A string; 156-157 E string
+- Cross-movement: none
