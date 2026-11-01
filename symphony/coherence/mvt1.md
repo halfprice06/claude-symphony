@@ -1,6 +1,6 @@
 # Movement I (Allegro, C minor): current state for the other movement threads
 
-Owner: the movement I thread ("Movement I, loops from v401" since 2026-10-26 20:56 UTC; "Movement I, loops from v300" from 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v491 (cycle 490). Series 3 is finished at v421. Series 4 (cycles 421–620 → v621, thread "Continue movement 1 loop to v621", Dan 2026-10-31) is listed under "Series 4 changes" at the end. Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
+Owner: the movement I thread ("Movement I, loops from v401" since 2026-10-26 20:56 UTC; "Movement I, loops from v300" from 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v501 (cycle 500). Series 3 is finished at v421. Series 4 (cycles 421–620 → v621, thread "Continue movement 1 loop to v621", Dan 2026-10-31) is listed under "Series 4 changes" at the end. Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them.
 
@@ -254,4 +254,5 @@ These are reserved for the finale. The other movements should not use them. Thei
 - v462–v471: no score change (only the draft stamp). Reserves and theme record (35/35) hold.
 - v472–v481: no score change; reserves re-checked on the MIDI (critic 480). Precision: at 178.3 the whole texture is a root-position D♭ chord for two beats, a neighbour chord, not a key.
 - v482–v491: no note changed (full.midi note lists identical); score-only barline spacing at 111–118 (c485); tempo table corrected: largamente holds 160–164 (c488). Theme record 35/35.
+- v492–v501: Cl 1 crescendo at 129–130 into the ff at 131 and Cl 1 slur at 164–165 moved to the tie's first note (c498; no pitch changed, vl.txt identical); Bsn 1 breath mark at end of 22 (c496); parts only: Vla cues in Vln II at 89–90 and Vln I at 153–154 (c495). ♭II plan rechecked (c500). Theme record 35/35.
 

@@ -2606,3 +2606,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 500 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (third pass)) → v501
+- Accepted: none (cyclic design: bII plan across movements holds; coherence updated to v501)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
