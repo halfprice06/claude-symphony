@@ -2085,3 +2085,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 469 (v469 → v470), lens 9, holistic comparison
 - Holistic comparison with Mozart 41/iv (Adler part 2 PDF 175–178): the coda's theme combination follows the Jupiter model (themes heard alone first, fixed colours, tonic–dominant pedal); no change. Tested and declined a pp timpani roll on B♭ at 43–46 (blurs the new colour two bars after the 39–40 roll and the c264/c276 overtone chord). v459 → v469 checked: nothing got worse.
+
+## Cycle 470 (v470 → v471), lens 10, cyclic review
+- A&S Unit 23 (PDF 387–388, Ex. 23-2; PDF 395 Points 2a, 3, 5–6): 242 is iiø7 (D–F–A♭–C) before III♯; Hn 4 A3–A♭3–G♯3–G3 (♮6–♭6–5), harp G♯ (pedal text at 241). Tune, bass and the approach by II unchanged. Cyclic review against movement I v519, movement II v508 and scherzo v461: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51.
