@@ -2822,3 +2822,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 536 (Playability, instrument by instrument; Adler ch. 4 Plucked Strings: harp and pedalling (adler1 PDF 110-124) (fourth pass)) → v537
+- Accepted: none (harp fourth pass: pedal timing at 53 and 162-163 fine; part OK). Record correction to c446: harp RH at 47-55 sounds Ab3-Eb6 (inside transpose c c')
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
