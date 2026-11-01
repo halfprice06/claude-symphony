@@ -203,6 +203,7 @@ The timpani rest in 31–36 and in the B section until 52. Only A♭2, C3, D♭3
 
 ## What the scherzo relies on (from coherence/scherzo.md; last checked against scherzo v345 at cycle 360, and by the scherzo thread at its c340)
 
+- Scherzo thread, 2026-11-01: scherzo v431 (its cycle 430) still has Hn 1 take this A♭4 as G♯4 at its bar 1, and Vln I now adds G♯5 ppp at its bars 1–2; the join from II v449 was checked and holds.
 - **The last A♭, taken as G♯4 by the scherzo's Horn 1.** v181: Vln II holds A♭4 at 89–92, pp to ppp, under a fermata, with Vln I C5 above. Confirmed.
 - **Timpani E, G, B, E.** v181: the part-only muta at 92 retunes A♭→E, C→G, D♭→B, E♭→E, which gives E2 G2 B2 E3. Confirmed. Since v346 the text prints in the full score as well as the timpani part.
 - **Horns 3·4 muted at the end.** v181: Horns 3·4 play con sord. at 87–90, rest at 91–92, and have "via sord." at 91. So they stop playing muted, and are told to remove mutes before the movement ends. The scherzo's "senza sord." at its bar 73 is still correct and does no harm. scherzo.md's "Open requests" line already gives "via sord." at 91, which matches v181.
