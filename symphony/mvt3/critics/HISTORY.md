@@ -2036,3 +2036,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Rimsky-Korsakov PDF 51, 82, 85–86 (balance at ff, no gaps, harmonic notes in the upper parts): the bass trombone plays C3 at 259–260 instead of doubling the tuba's F, so the iiø6/5's seventh C is heard in the brass (it was only in Ob 2) and the tenth above the bass is filled; it rejoins the tuba at 261.
 - Rimsky-Korsakov PDF 90–91 (concords in a pair of like instruments): Fl 2 moves to F5 at 40–42, a third under Fl 1's A♭5, instead of a three-bar tritone D5.
 - Kept: oboes' second and trombones' tritone at 259–260, Tpt 3 and violas doubling F, oboes at 40.
+
+## Cycle 455 (v455 → v456), lens 5, Gould staves and clefs
+- Gould PDF 21–23: score-only bass clef for Hn 3·4 at 255–258 (F2's last statement, down to C3 on four ledger lines), back to treble at 259, as at 25–26 and 79–82. Parts and MIDI unchanged.
+- Checked, no change: single horn D3s at 13, 21, 29, 153, 161; clarinets' D3 at 178; basses' tenor clef at 27–34.
