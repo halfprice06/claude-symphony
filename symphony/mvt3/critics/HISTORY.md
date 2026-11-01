@@ -1968,3 +1968,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 437 (v437 → v438), lens 7, Adler ch. 16 transcription
 - Adler ch. 16 (PDF 211–213, Ex. XVI-10 Dvořák; PDF 203, 230–231): the violas enter at 8 answering the cellos' F1-head figure a fourth higher and two octaves up (`g'2 d'4. es'8`), the E♭4 falling to their held D4 at 9 (6–5 over V); before, they entered at 9. Bars 1–6 and the other staggered entries at 9–10 unchanged.
 - Declined: a late oboe answer at 19–26, moving the counter at 159–166, a rhythmic B♭ pedal at 83–86, a cello rhythm at 171–186.
+
+## Cycle 438 (v438 → v439), lens 8, Casanelles dynamics
+- Casanelles PDF 147–148 (two like instruments in unison sound like two players; use one or three or more): Vln I's exposed pp unison at 119 and 122 is now marked "4 soli" (was "2 soli", meant as two desks since c209). Text only; MIDI unchanged.
+- Checked, no change: Ob 1 and Cl 1 unison at 107–110, repeated-note figures at 247–277.
