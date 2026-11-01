@@ -3223,3 +3223,10 @@ melody; A&S Unit 20, figuration. Report: reports/c501.md.
 - Accepted: Vla 74 b1 triplet E♭3-G3-E♭4.
 - Recorded: 6/4 chords in the movement are now 5, 21 b2, 38 b4½, 43 b2-3, 68 b3, 74 b1, 74 b3 (replaces c362's "seven 6/4s").
 - Do not touch: the 74 downbeat (cello 9-8, Cl 2 E♭4-D♭4).
+
+
+## Cycle 503 (v503 → v504)
+form; Adler ch. 17. Report: reports/c503.md.
+- Accepted: nothing (v504 = v503 relabelled).
+- Recorded (no change): c503: no change. Frame proportions, horn placement around solos, thinning after peaks, timpani links and quiet build-ups follow Adler ch. 17 (Canzonetta compared); C.a. heard three times in 32-52 recorded as an observation (all protected).
+- Do-not-touch: standing list; the 8-page layout.
