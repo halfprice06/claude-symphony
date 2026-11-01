@@ -2528,3 +2528,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: extreme notes; timpani drum assignment; no low C1 at 167-170; bass trombone register
 - Cross-movement: none
+
+## Cycle 487 (Texture and counterpoint; Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173) (third pass)) → v488
+- Accepted: no change (Sebesky string voicing and strings with winds, third pass); closes c173's optional item (Vln II G3 at 107-108: keep) and c161's note (150: keep)
+- Open / not applied: none
+- Do-not-touch: 107-108 Vln II divisi; 150; no six-note string chords; 110, 144 gaps; 167-170 layout
+- Cross-movement: none
