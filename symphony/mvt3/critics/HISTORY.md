@@ -1940,3 +1940,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Casanelles PDF 222: score title stamp now "draft v431" (was "v400, 27 October 2026"), bumped each version.
 - Casanelles ch. 5 (PDF 219–220, 239, 245–248): cor anglais in the close at 273–279 tested and declined. No musical change.
 - coherence/finale.md: header, records and open request brought to c430; scoring-rules note on movement I's 122 added.
+
+## Cycle 431 (v431 → v432), lens 1, Adler brass melody
+- Adler ch. 11 (PDF 28–29, Ex. XI-12 Schubert Rosamunde; PDF 30–32, Ex. XI-14): Tbn 1 now holds its F3 from 40 and plays F1's last fragment F–D–E♭–F with the cellos at 41–42, fading to p; Tbn 2 and the bass trombone still stop after 40. The score's first soft melodic trombone phrase; F1's notes unchanged.
+- Checked, no change: high horn unisons, trombones on F1's head at 37–38.
