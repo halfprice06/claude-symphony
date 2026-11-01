@@ -2885,3 +2885,10 @@ cyclic design; Sebesky ch. 1 and ch. 9, PDF 11-20, 240-242. Report: reports/c450
 - Accepted: nothing (v451 = v450 relabelled).
 - Recorded (no change): c450: no change to the score. Motto tail harmonized three ways, ending on C each time (Sebesky Ex. 3, 3A); theme A keeps one harmony (c434); focus, economy, held-back brass and arc follow. coherence/mvt2.md updated to v449; BRIEF.md now gives the correct coherence file locations (checkout vs the live finale.md in the shared folder).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 451 (v451 → v452)
+melody; Adler ch. 11 brass melody, adler2 PDF 19-36. Report: reports/c451.md.
+- Accepted: nothing (v452 = v451 relabelled).
+- Recorded (no change): c451: no change. Theme A's B flat appoggiatura gains weight each statement; theme B register plan A flat6, A6, B flat6 deliberate; Hn 3-4 unison at 61-62 a harmony line (protected); horn-with-cello counter-melodies (Strauss model); colour-contrast answers (Berlioz); releases at 62-65 and 81-83.
+- Do-not-touch: standing list; the 8-page layout.
