@@ -189,6 +189,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 450 (lens 10 cyclic, Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (fifth pass)) v450 → v451
+Accepted: no change. Do-not-touch confirmed: the closing groups 361/365/369/373 (horn alone 365–368).
+
 ## Cycle 449 (lens 9 holistic, Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (fifth pass)) v449 → v450
 Accepted: Hn 3 from 261 only (dA.ily, parts-cues.json); reduces c447. Do-not-touch: the reprise countermelody 253–268 grows phrase by phrase (cellos alone, then + Hn 3). Open: second idea's memorability (scoring readings give no reason to change its notes).
 
