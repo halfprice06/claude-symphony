@@ -2960,3 +2960,10 @@ melody; A&S Unit 2 intervals, PDF 33-46. Report: reports/c461.md.
 - Accepted: nothing (v462 = v461 relabelled).
 - Recorded (no change): c461: no change. Theme A interval content (one expressive 6th saved for 77); theme vs counter-melody at 71-78 follows Ex. 2-1b; outer voices perfect at cadences; leaps to and from dissonances all recorded or protected; fourths over the bass; minor keys defined by raised 7; theme B reaches 1 only at 61 (no earlier D flat cadence on melodic grounds); Dvořák 7/ii comparison recorded, theme A's opening kept (exported).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 462 (v462 → v463)
+harmony; A&S Units 30-31 other chromatic chords and chromatic voice leading, PDF 530-583. Report: reports/c462.md.
+- Accepted: nothing (v463 = v462 relabelled).
+- Recorded (no change): c462: no change. Every F flat reaches E flat in its register; applied leading tones rise (viola 19 b3, c352); remote mixture at 46-48 and 62-63 prepared (Ex. 30-3, 30-9; gives c083's keep-F flat a book reason); no °7 on sharp 4 at 43; label correction: 33 is a chromatic passing °7 in parallel sixths (PDF 552), not a common-tone °7 (c162; c220's comment and the do-not-touch list use the old label); 21, 59, 50-51, 64-65 match book models.
+- Do-not-touch: standing list; the 8-page layout.
