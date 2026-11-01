@@ -3196,3 +3196,10 @@ dynamics; A&S Unit 3, rhythm and metre. Report: reports/c498.md.
 - Accepted: nothing (v499 = v498 relabelled).
 - Recorded (no change): c498: no change. Cello 9-8 dynamics at 73-74 follow Ex. 3-6; C.a. swell at 49 kept as in movement I; coda dynamics on strong bars; theme B's harmonic rhythm answers c238 (closed).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 499 (v499 → v500)
+holistic; Adler ch. 5. Report: reports/c499.md.
+- Accepted: nothing (v500 = v499 relabelled).
+- Recorded (no change): c499: no change. Compared with Tchaikovsky's Serenade Op. 48: changing doublings, the big chord at 79, diminuendo by thinning, the muted close all hold; no cello statement of theme A (Hn 1 already has that register; 71-82 protected).
+- Do-not-touch: standing list; the 8-page layout.
