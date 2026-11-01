@@ -2324,3 +2324,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 9-13 rising-sixth chain; 33-46 transition; 162-166 falling thirds; fugato 85-96; wedge 111-116
 - Cross-movement: none
+
+## Cycle 453 (Form, pacing and proportion; Rimsky-Korsakov ch. IV Composition of the orchestra: tutti, range limits, transfer of phrases, sf-p, crescendo and diminuendo (rimsky-principles PDF 115-136) (third pass)) → v454
+- Accepted: no change (orchestral composition and crescendo plans as form, third pass)
+- Open / not applied: none
+- Do-not-touch: 97-102 ff step; fugato 85-97 crescendo; 9-12 widening; 64 peak; proportions
+- Cross-movement: none
