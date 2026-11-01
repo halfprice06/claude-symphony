@@ -3169,3 +3169,9 @@ orchestration; Sebesky ch. 2. Report: reports/c494.md.
 - Accepted: nothing (v495 = v494 relabelled).
 - Recorded (no change): c494: no change. Low-brass octave roots at 61-62 normal in this style (Rimsky PDF 101); missing F at 79-80 not filled (would lose the 7th and weaken c150's echo); c364's register range corrected to D3-C4.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 495 (v495 → v496)
+- Accepted: part-only placement fixes (Vla 84 text below, Timp 77 left-aligned) and timpani note wording.
+- Open: viola part letter G at 53 vs "sotto voce" at 48.
+- Do not touch: c355's combined letter-and-tempo marking; one-page parts.
