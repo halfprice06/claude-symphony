@@ -2384,3 +2384,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 108.3-109 incomplete dim7 voicing (completing it makes fifths); single dim7 colour B-D-F-A-flat; 164.2; 148.3-4; 31.1, 114-115
 - Cross-movement: none
+
+## Cycle 463 (Form, pacing and proportion; Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (third pass)) → v464
+- Accepted: no change (5/3 and 6/4 prolongation as form, third pass)
+- Open / not applied: none
+- Do-not-touch: 62 short cadential 6/4 vs 158-166 expanded; 174-175; 101-102; 102-103 seam; G pedal 125-130
+- Cross-movement: none

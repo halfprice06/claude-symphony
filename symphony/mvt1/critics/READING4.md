@@ -136,7 +136,7 @@ Cycle N reviews vN and produces v(N+1). Series 4 repeats the series 3 plan: cycl
 | 550 | 10 | Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (fourth pass) |
 | 551 | 1 | Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (fourth pass) |
 | 552 | 2 | Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (fourth pass) |
-| 553 | 3 | Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (fourth pass) |
+| 553 | 3 | Aldwell & Schachter Unit 31 Chromatic Voice-Leading Techniques, judged as large-scale motion and pacing: parallel and contrary chromatic motion, equal divisions of the octave (aldwell-schachter PDF 551-583) (replaces a fourth pass of Units 16 and 19, which found no change in three passes; c463) |
 | 554 | 4 | Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (fourth pass) |
 | 555 | 5 | MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (fourth pass) |
 | 556 | 6 | Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13) (fourth pass) |
