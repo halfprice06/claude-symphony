@@ -3362,3 +3362,10 @@ form; A&S Unit 32, chromatic key areas. Report: reports/c523.md.
 - Accepted: nothing (v524 = v523 relabelled).
 - Recorded (no change): c523: no change. A♮ enters in stages (40, 46, 47-50, 62-64) and never returns in 65-92 (new do-not-touch: no A♮ in 65-92); proportions 36/34/19/11%; section joins per c403.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 524 (v524 → v525)
+orchestration; Rimsky-Korsakov PDF 51-53, 81-99. Report: reports/c524.md.
+- Accepted: nothing (v525 = v524 relabelled).
+- Recorded (no change): c524: no change. Horn major second at 81 b2-3 is the audible V7 seventh (protected lines); loud mid-texture gaps at 28, 47, 62 recorded (protected or covered).
+- Do-not-touch: standing list; the 8-page layout.
