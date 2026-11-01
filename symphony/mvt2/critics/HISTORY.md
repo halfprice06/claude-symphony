@@ -3412,3 +3412,10 @@ melody; A&S Unit 21, suspensions. Report: reports/c531.md.
 - Accepted: nothing (v532 = v531 relabelled).
 - Recorded (no change): c531: no change. Theme A's tied suspension cell is clean at 8, 24, 72; tritone at 55-56 resolved in Bsn 1; climax 79-82 delayed resolution follows; changes since c311 follow Unit 21.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 532 (v532 → v533)
+harmony; A&S Unit 5, doubling and spacing. Report: reports/c532.md.
+- Accepted: nothing (v533 = v532 relabelled).
+- Recorded (no change): c532: no change. Doubled third at 9 b1 justified (fifths otherwise); leading-tone doublings at 24, 52, 72 and in tutti passages follow (Dvořák 9/ii compared); written augmented second at 50-51 kept (c432); leap at 64 b3 added to c392's list.
+- Do-not-touch: standing list; the 8-page layout.
