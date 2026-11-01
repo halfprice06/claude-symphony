@@ -2157,3 +2157,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 493 (v493 → v494), lens 3, A&S 6/4 chords and form
 - A&S PDF 256–258, 309–310, 324 (passing 6/4, stepwise bass): at 195–196 the bass no longer holds C♭ for the whole bar and leaps to G; it runs C♭–B♭–A♭–G–A♭ (Cb, Bn 1), with Hn 1's A♭–G–A♭ neighbour and Bn 2 on E♭2, matching c403's 75–76 a third lower; removes the Bn 1/violin octaves at 195.4→196.1. Tune, cellos, violas, Hn 2, dynamics and 197–198 unchanged; answers c403's skip (works in minor; no instrument added).
+
+## Cycle 494 (v494 → v495), lens 4, Adler percussion
+- Adler part 2 PDF 184 (crescendo rolls start p): the timpani's A♭ roll at 209–210 is now fp < (was f <) under the woodwinds' fp < (c216), so it no longer fills their dip and has room to grow into the ff at 211, as at 149 (c346) and 167–168 (c474).
