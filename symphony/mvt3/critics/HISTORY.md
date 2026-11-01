@@ -1980,3 +1980,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 440 (v440 → v441), lens 10, cyclic review
 - Adler (adler2 PDF 188, 190–191, Ex. XV-36, XV-37): Tpt 1 now ends with the 216 diminuendo and rests at 217–218 (as Tpt 2 since v415), so the cor anglais and horns' echo of theme B has no trumpet a fourth above it; the held D♭ continues in Fl 1, Ob 1, Cl 1 and the violins; Tpt 1 re-enters on the 219 sub. p C5. Theme B, the D♭–C–B–C top line and 222→223 unchanged.
 - Cyclic review against movement I v476, movement II v461 and scherzo v435: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51. coherence/finale.md brought up to date (seven sentences).
+
+## Cycle 441 (v441 → v442), lens 1, A&S rhythm and meter
+- A&S Unit 3 (PDF 50, 52–54, Ex. 3-10, 3-11: a group ends on its tonal goal): F2's climax slur now runs from 59 to 63.1 (exposition, Tpt 1) and 179 to 183.1 (recapitulation, cor anglais and Tpt 1), so the deceptive V7→VI and V→i6 resolutions belong to the phrase; the breath moves to 63.3/183.3 and the last phrase starts with an upbeat. Fl 1's doubling ends on the downbeat. F2's notes unchanged; phrasing only.
+- Declined: a 9–8 at 17–18/157–158, a dotted peak at 62.
