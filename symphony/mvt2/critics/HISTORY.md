@@ -2939,3 +2939,10 @@ texture; Adler ch. 8 woodwind textures, adler1 PDF 251-281. Report: reports/c457
 expression; A&S Unit 21 (PDF 346-371). Report: reports/c458.md.
 - Accepted: hidden MIDI levels for Vln II pedal 15-20, cellos 25-26 and 73-74, solo violin 17-18.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 459 (v459 → v460)
+holistic comparison with a master work (Mozart 41/ii); Adler ch. 16, adler2 PDF 202-244. Report: reports/c459.md.
+- Accepted: nothing (v460 = v459 relabelled).
+- Recorded (no change): c459: no change. Against Mozart 41/ii (muting, varied return, contrast inside the theme, ending returns to the opening sound) it holds; nothing worse since v449; viola A flat4 inside Vln II's held A flat4 at 71 b2 (c137, c427; one-note fix in the report); motion inside the coda's held chord; 62-65 release in the strings (Tbn quotation protected).
+- Do-not-touch: standing list; the 8-page layout.
