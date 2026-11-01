@@ -2051,3 +2051,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 458 (v458 → v459), lens 8, Sebesky focus
 - Sebesky Ex. 269 (PDF 205, 207), Ex. 281 (PDF 215–216): the violas' and cellos' counter-melody at 74 swells to 74.3 and back to mp at 75 while the tune holds F5 (`bes4(\< aes4 f4\> g4~ | g2\! ...`); Hn 1 left as it was.
 - Declined: a swell at 46–48 (protected violas), changes to F1's steady f, a swell at 119–122, matching 194 to 74.
+
+## Cycle 459 (v459 → v460), lens 9, holistic comparison
+- Bar 251 beats 1-2: the E-major chord had no G (E in 15 of 16 notes, E in the bass). Hn 4 now plays G3 to C4 instead of E4 to D4, which supplies the third near the bottom (Adler Ex. V-27, VIII-25). The two score-only force-hshift overrides at 251 were removed because the horns no longer share a note. Rejected alternatives: Hn 4 D4 to C4 (octaves with Ob 2) and a held G3 (contrary fifths into 252).
+- Holistic comparison with Tchaikovsky 4/iv and v449 against v459: no change needed.
