@@ -3062,3 +3062,8 @@ texture; Adler ch. 17. Report: reports/c477.md.
 - Accepted: nothing (v478 = v477 relabelled).
 - Recorded (no change): c477: no change. Accompaniment against solo lines follows Adler ch. 17 (Tchaikovsky Canzonetta compared); 23-30's attacks with the melody recorded (protected plain first statement); C.a. at 41-44, dialogue at 15-22 and coda chain kept.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 478 (v478 → v479)
+- Accepted: Bsn 1 pp< p at 54-55; Cl 2 pp at 90 in score and part.
+- Do not touch: Bsn 1 stays one level below the melody (p, not mp).
