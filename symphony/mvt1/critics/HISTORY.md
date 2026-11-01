@@ -2330,3 +2330,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 97-102 ff step; fugato 85-97 crescendo; 9-12 widening; 64 peak; proportions
 - Cross-movement: none
+
+## Cycle 454 (Orchestration; Adler ch. 15 Scoring for Orchestra: unison-octave tutti, foreground and background (adler2 PDF 146-158) (third pass)) → v455
+- Accepted: no change (unison-octave tutti and foreground/background, third pass)
+- Open / not applied: none
+- Do-not-touch: 82 as a statement before the fugato; 97-100 Fl 1 alone; 117-121 brass motto; 47/147 entries together; 160 octave weights
+- Cross-movement: none
