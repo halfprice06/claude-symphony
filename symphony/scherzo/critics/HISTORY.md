@@ -189,6 +189,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 446 (lens 6 playability, Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (fifth pass)) v446 → v447
+Accepted: no change. Do-not-touch: mixed unisons at 41–43/273–275; flutes' octave layout 109–120; horn pairs 336–338; breathing plan (104, 160, 176, 196, 216, 304; Hn 3 covers 365–369).
+
 ## Cycle 445 (lens 5 engraving, Adler ch. 2 notation of bowings, divisi and harmonics (adler1 PDF 30-55) as engraving rules (fifth pass)) v445 → v446
 Accepted: \upb at 45 and 121 (global.ily, sA.ily, sC.ily). Rule: use \upb / \dnb (not bare \upbow / \downbow) at the start of a slurred string phrase.
 
