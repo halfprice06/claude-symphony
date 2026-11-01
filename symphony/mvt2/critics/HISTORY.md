@@ -3334,3 +3334,10 @@ holistic; Rimsky-Korsakov Ex. 69-130. Report: reports/c519.md.
 - Accepted: nothing (v520 = v519 relabelled).
 - Recorded (no change): c519: proposed change declined. The critic added 'poco animando' at 75 (MIDI 53-55) before the 78 allargando, after Grieg's Piano Concerto ii; c269's do-not-touch includes 'no new tempo words', which the report does not answer, so the actor kept v519. Left open as an option for a later tempo pass. Recorded: Grieg comparison holds; nothing worse since v509; wide low spacing only at p/pp; Bsn tritone at 69-70 protected (optional B.cl. D♭3).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 520 (v520 → v521)
+cyclic design; A&S Unit 26, tonicization of remote keys. Report: reports/c520.md.
+- Accepted: nothing (v521 = v520 relabelled).
+- Recorded (no change): c520: no change to the score. Actor updated coherence/mvt2.md to v521. Both quotations sit in the only remote keys and are explained by what follows (Ex. 26-8, 26-14); C major never a tonic after bar 1; B→C kept for the finale; joins and theme records hold.
+- Do-not-touch: standing list; the 8-page layout.
