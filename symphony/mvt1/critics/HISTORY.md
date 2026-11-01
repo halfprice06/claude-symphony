@@ -2420,3 +2420,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: P-head accent system; S swells onto each appoggiatura; 23-26 and 135-138 group-start accents
 - Cross-movement: none
+
+## Cycle 469 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (third pass)) → v470
+- Accepted: no change (holistic comparison with Bruckner 4/i; Rimsky examples 275-312 and ch. V-VI)
+- Open / not applied: none
+- Do-not-touch: trombones mf at 12 (c124 grading); proportions
+- Cross-movement: none
