@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 468 (lens 8 expression, MOLA guidelines on dynamics, articulation and bowing marks in parts (mola PDF 1-16) (fifth pass)) v468 → v469
+Accepted: swells 110–111/310–311 (sC.ily, dC.ily), Cl accents 281 (dA.ily), timpani pp 367 (coda.ily).
+
 ## Cycle 467 (lens 7 texture, Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173) (fifth pass)) v467 → v468
 Accepted: Vln II la metà 349–356 (coda.ily). Do-not-touch: c445's rejection of la metà at 169–184 stands (Vln II is the only harmony there).
 
