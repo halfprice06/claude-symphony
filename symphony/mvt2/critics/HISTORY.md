@@ -2974,3 +2974,10 @@ form; A&S Unit 15 III and VII, PDF 230-247. Report: reports/c463.md.
 - Accepted: nothing (v464 = v463 relabelled).
 - Recorded (no change): c463: no change. Return from the IV stopover through a root-position V at 65-70 is correct (Ex. 15-2; not an inverted V); correction to c173/c323: a fourth rising third into a downbeat at 41-42 (record only); 78 b3 iii6 supports Cl 2's 8-7-6; proportions as c323/c433; V7 at 65-70 serves the horn tail, not to be shortened; 1-2 heard as I-flat VI from movement I.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 464 (v464 → v465)
+orchestration; Adler ch. 5 string scoring, adler1 PDF 125-167. Report: reports/c464.md.
+- Accepted: nothing (v465 = v464 relabelled).
+- Recorded (no change): c464: no change. Correction to c407: at 87 the bass F is doubled in the middle too (F1-F4); kept for the protected F-F flat-E flat line (c020, c104, c150, c194, c080). Two-beat spacing gap at 27-28 in the plain statement (c207, c347); violas never melodic by plan; double-bass drop-out plan; highest register held back; ending thins over a held bass; climax not bottom-heavy.
+- Do-not-touch: standing list; the 8-page layout.
