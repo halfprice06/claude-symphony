@@ -2924,3 +2924,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 553 (Form, pacing and proportion; Aldwell & Schachter Unit 31 Chromatic Voice-Leading Techniques, judged as large-scale motion and pacing: parallel and contrary chromatic motion, equal divisions of the octave (aldwell-schachter PDF 551-583) (replaces a fourth pass of Units 16 and 19, which found no change in three passes; c463)) → v554
+- Accepted: none (chromatic voice leading as large-scale motion: development plan, lament wedge kept). 156-157: b6 bass at 157 (iv6, as at 61) and the bVII7-V7 m7-M10 exchange (A&S PDF 566) tested: Cl 1/bass octaves Bb->Ab into 157, b6 bass spent before 160; keep
+- Open / not applied: none new
+- Do-not-touch: 156-157 bass
+- Cross-movement: none
