@@ -2582,3 +2582,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: Movement II could adopt the same cueing rule for string entries after long rests
+
+## Cycle 496 (Playability, instrument by instrument; Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50) (third pass)) → v497
+- Accepted: Bsn 1 breath mark at end of 22 (with Hn 3·4), RK PDF 37/44
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
