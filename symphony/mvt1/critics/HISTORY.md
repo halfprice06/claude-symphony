@@ -2816,3 +2816,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 535 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: ledger lines, octave signs, rests (gould-behind-bars PDF 41-52) (fourth pass)) → v536
+- Accepted: Score-only rest positions: Ob 1 quaver rest at 160 level with its C6; Hn 4 minim rest at 28 on the third ledger line (Gould PDF 50-51)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
