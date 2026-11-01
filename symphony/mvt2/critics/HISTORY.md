@@ -3000,3 +3000,9 @@ texture; Rimsky-Korsakov ch. II melody in combined groups, PDF 74-80. Report: re
 - Accepted: nothing (v468 = v467 relabelled).
 - Recorded (no change): c467: no change. Counter-line at 57-60 with a wind in each octave (Ex. 90; c087, c187, c327); Bsn 2 over the basses at 57-58 and 72-73 (c157, c060); three-group unison at 75-77 (c217); B.tbn with basses at 64; bass in three octaves at 79-81 (Ex. 91, 96).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 468 (v468 → v469)
+expression; Adler PDF 51-70. Report: reports/c468.md.
+- Accepted: violins and violas con sord. in the coda (84-92), cellos and basses open; solo violin rejoins at 25.
+- Do-not-touch: mute plan 15-37 and the coda mutes; standing list; the 8-page layout.
