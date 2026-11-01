@@ -3457,3 +3457,10 @@ expression; Adler ch. 7, woodwinds. Report: reports/c538.md.
 - Accepted: nothing (v539 = v538 relabelled).
 - Recorded (no change): c538: no change. Soft dynamics by register, solo character words and hairpins, low bassoon cases and doubling levels follow Adler ch. 7; Cl 1·2 part-only f at 60 still open (c528).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 539 (v539 → v540)
+holistic; Rimsky-Korsakov Ex. 1-68. Report: reports/c539.md.
+- Accepted: nothing (v540 = v539 relabelled).
+- Recorded (no change): c539: no change. Compared with Rachmaninoff 3/ii: the horn-harp, solo violin, violins order and theme A's growing doublings hold; octave and register points at 18, 23-30, 45-46, 75-76 follow or are protected; nothing worse since v529.
+- Do-not-touch: standing list; the 8-page layout.
