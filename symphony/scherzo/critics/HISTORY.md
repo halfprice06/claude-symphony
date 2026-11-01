@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 462 (lens 2 harmony, Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (sixth pass)) v462 → v463
+Accepted: ii°6 at 26 (sA.ily), viola 6/4 resolution at 355 (coda.ily). Do-not-touch: bass G at 118/266/318 (tenor countermelody steps G–A there).
+
 ## Cycle 461 (lens 1 melody, Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (sixth pass)) v461 → v462
 Accepted: Vln I octave above the cellos' T at 177–184, violas rest (tA.ily, parts-cues.json). Do-not-touch: the A6 is still first heard at 218 (c344); three string sections stay on T at 177–184 at most (c436). Don't flip 177–184 back and forth between violas and Vln I.
 
