@@ -3398,3 +3398,10 @@ holistic; Rimsky-Korsakov tutti chords. Report: reports/c529.md.
 - Accepted: nothing (v530 = v529 relabelled).
 - Recorded (no change): c529: no change. Tutti at 61-62, partial tutti at 79-81, soft chords and the sf at 63 follow Rimsky's chord tables; Elgar 2/ii comparison holds; nothing worse since v519.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 530 (v530 → v531)
+cyclic design; Adler ch. 17. Report: reports/c530.md.
+- Accepted: nothing (v531 = v530 relabelled).
+- Recorded (no change): c530: no change to the score. Actor updated coherence/mvt2.md to v531. Coda motto, both quotations' entries, the scherzo hand-over (checked against scherzo v400/v431) and range/mute plan follow Adler ch. 17.
+- Do-not-touch: standing list; the 8-page layout.
