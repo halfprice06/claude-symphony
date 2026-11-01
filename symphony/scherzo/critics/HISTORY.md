@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 440 (lens 10 cyclic, Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (fifth pass)) v440 → v441
+Accepted: Vln II rests 361–364 (coda.ily). Do-not-touch, reason replaced: 365–368 the upper G♯5 rests between Fl 1 (to 364) and Vln I (from 369) because the close reverses the opening (pair → horn alone at 1–6, horn alone → pair at 365–376) and each four-bar group 361/365/369/373 changes colour on its downbeat around one timpani motive x (c440, replacing c140/c340's 'horn alone mirrors bars 1–2', false since c430). Kept: violas' G♯4 with Hn 1 at 237–239.
+
 ## Cycle 439 (lens 9 holistic, Rimsky-Korsakov examples No. 201-260 (rimsky-principles PDF 376-440) (fifth pass)) v439 → v440
 Accepted: Fl 1 with the solo violin at 349–356 (coda.ily); reverses the v45 'no Fl 1' at 349 for the top octave only. Do-not-touch: coda T top octave = solo violin + Fl 1 (one player per instrument).
 
