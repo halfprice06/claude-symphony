@@ -3567,3 +3567,9 @@ orchestration; Rimsky-Korsakov brass. Report: reports/c554.md.
 - Accepted: nothing (v555 = v554 relabelled).
 - Recorded (no change): c554: no change. Climax brass at 60-62, trombone over tremolo 63-64, horn/bassoon 67-70 and muted horns with C.a. and violas 87-90 follow Rimsky PDF 100-114; horn seconds at 80-81 acceptable.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 555 (v555 → v556)
+
+Accepted: Vln II "Poco più mosso" strMark at 37 restyled to match the other tempo marks (print only).
+Do-not-touch: the 8-page layout and its breaks; other letter-and-tempo placements; c375/c394 flute down-stems; harp 8 bassa plan; standing list. Optional: winds' letter E above its tempo word at 37 (needs room above the bar numbers).
