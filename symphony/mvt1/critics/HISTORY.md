@@ -2630,3 +2630,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: proportions (recap 0.61) noted again, protected
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 504 (Orchestration; Casanelles ch. 6 spectral orchestration and acoustic mixing in Mahler's First Symphony (hyper-orchestra PDF 257-290) (third pass)) → v505
+- Accepted: none (spectral orchestration third pass: soft entries, register/dynamic, wind-brass bands checked; offstage echo rejected)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
