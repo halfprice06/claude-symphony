@@ -2834,3 +2834,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 538 (Expression; Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (fourth pass)) → v539
+- Accepted: Bow marks: Cb down-bow at 131 (restores 131-142 scheme after c516); Vln II up-bow at 98 entry so it bows with Vc and Vln I (Adler PDF 37-40)
+- Open / not applied: none new
+- Do-not-touch: 131-142 string bowing scheme
+- Cross-movement: none
