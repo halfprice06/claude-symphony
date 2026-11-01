@@ -2804,3 +2804,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: scherzo v471 bars 1-7 restate I 78-79 Vln I G#5-G5 (recorded in coherence/mvt1.md)
+
+## Cycle 533 (Form, pacing and proportion; Aldwell & Schachter Unit 32 Chromaticism in Larger Contexts (aldwell-schachter PDF 584-606) (fourth pass)) → v534
+- Accepted: none (chromaticism in larger contexts, form lens: 77-83 key rate matches Appassionata, correcting c443's 'compressed'; stop chord B-D-F-Ab resolves four ways: 26 i, 138 iv, 161 V7, 170 over C pedal)
+- Open / not applied: 156-157 two-bar climb remains the one weakness (protected)
+- Do-not-touch: Ab major plain at 160
+- Cross-movement: none
