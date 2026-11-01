@@ -1976,3 +1976,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 439 (v439 → v440), lens 9, Beethoven 5 holistic
 - Rimsky-Korsakov ch. IV (PDF 127 "Amplification", Ex. 248): at 9.1 horns 1–4, contrabassoon and basses now enter p < instead of mf, so the crescendo's second group grows from below rather than stepping up; entry order, violins' mf and the f at 10.3 unchanged.
 - Beethoven 5/iv holistic comparison and v429 → v439 check: nothing worse. Declined: flute on the 4 soli at 119/122 (page 7 overfull), pizz. chords at 89–90.
+
+## Cycle 440 (v440 → v441), lens 10, cyclic review
+- Adler (adler2 PDF 188, 190–191, Ex. XV-36, XV-37): Tpt 1 now ends with the 216 diminuendo and rests at 217–218 (as Tpt 2 since v415), so the cor anglais and horns' echo of theme B has no trumpet a fourth above it; the held D♭ continues in Fl 1, Ob 1, Cl 1 and the violins; Tpt 1 re-enters on the 219 sub. p C5. Theme B, the D♭–C–B–C top line and 222→223 unchanged.
+- Cyclic review against movement I v476, movement II v461 and scherzo v435: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51. coherence/finale.md brought up to date (seven sentences).
