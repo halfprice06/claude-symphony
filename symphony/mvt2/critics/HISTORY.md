@@ -3485,3 +3485,10 @@ harmony; A&S Units 11-13. Report: reports/c542.md.
 - Accepted: nothing (v543 = v542 relabelled).
 - Recorded (no change): c542: no change. 68 b3 is a tonic 6/4 over the E♭ pedal (corrects c402's label); V6/5 at 53 b3 resolves; deceptive cadences double the third of VI; harp fifths at 54 b2-3 recorded (settled figure; untested swap noted).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 543 (v543 → v544)
+form; Rimsky-Korsakov ch. IV. Report: reports/c543.md.
+- Accepted: nothing (v544 = v543 relabelled).
+- Recorded (no change): c543: no change. Sections scored for their role, every return re-scored, builds and releases in Rimsky's order, brass re-entries recorded with reasons; A′/coda proportions kept.
+- Do-not-touch: standing list; the 8-page layout.
