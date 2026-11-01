@@ -2594,3 +2594,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 498 (Expression; Adler ch. 7 woodwind articulation and dynamics by register (adler1 PDF 184-232) (third pass)) → v499
+- Accepted: Cl 1 crescendo at 129-130 into the ff at 131; Cl 1 slur at 164-165 starts on the tie's first note
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
