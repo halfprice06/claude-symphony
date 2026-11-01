@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 463 (lens 3 form, Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (sixth pass)) v463 → v464
+No change. Do-not-touch: 60–61 and 64–65 (c373), now also because the leading tone belongs before the goal entry at 69.
+
 ## Cycle 462 (lens 2 harmony, Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (sixth pass)) v462 → v463
 Accepted: ii°6 at 26 (sA.ily), viola 6/4 resolution at 355 (coda.ily). Do-not-touch: bass G at 118/266/318 (tenor countermelody steps G–A there).
 
