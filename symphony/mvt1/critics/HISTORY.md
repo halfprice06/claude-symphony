@@ -2390,3 +2390,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 62 short cadential 6/4 vs 158-166 expanded; 174-175; 101-102; 102-103 seam; G pedal 125-130
 - Cross-movement: none
+
+## Cycle 464 (Orchestration; Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (third pass)) → v465
+- Accepted: no change (homophonic and polyphonic texture, third pass)
+- Open / not applied: none
+- Do-not-touch: 23-25/135-137; 158-159 counter ff; 167-169 brass P head; 117 timpani f; 82 unison; 69-72 codetta
+- Cross-movement: none
