@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 435 (lens 5 engraving, MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score (fifth pass)) v435 → v436
+Accepted: parts only (parts-cues.json, parts-gen.py, parts-lib.ily). Rule from c435: any cycle that moves or silences a line reruns the cue check and the parts' page-turn check.
+
 ## Cycle 434 (lens 4 orchestration, Adler ch. 5 Scoring for Strings (adler1 PDF 125-167) (fifth pass)) v434 → v435
 Accepted: Vln II at 170 (tA.ily). Do-not-touch: in I6 chords the bass's third is not doubled in the top voice.
 
