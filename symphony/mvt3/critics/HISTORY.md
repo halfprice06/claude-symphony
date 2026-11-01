@@ -2109,3 +2109,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 477 (v477 → v478), lens 7, Adler woodwind combinations
 - Adler PDF 255–257, 271–272 (vary the third statement; imitation between winds; enclosed voicing): at 105–106 Ob 1 enters a beat later and follows Fl 1 and Cl 1 in canon at the octave between their F6/F4, ending on F5 at 106.4, so the scale figure's third statement is no longer the same block as 101–102. Answers c377: 15 bars from 89–90 and a different shape (two leaders, one follower). Only Ob 1 changed.
+
+## Cycle 478 (v478 → v479), lens 8, Adler woodwind articulation
+- Adler PDF 187, 199 (Ex. VII-34; keep the slur to the phrase's end): Ob 1's motto tail E♭5–D5–D♭5–C5 at 95–97 is now one slur to the C5, which was re-tongued on 97.1 before Cl 1 takes it over at 97.3; this matches movement II's source tail (Cl 1, II 85–90). Notes, dynamics and MIDI unchanged.
