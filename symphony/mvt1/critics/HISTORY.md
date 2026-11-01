@@ -2732,3 +2732,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: section-length check (tools/lencheck.py) still not wired into build.sh
 - Do-not-touch: everything quoted by other movements
 - Cross-movement: none in notes
+
+## Cycle 521 (Melody and memorability; Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (fourth pass)) → v522
+- Accepted: none (string melody and doublings fourth pass: checks re-run on v521, all hold)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
