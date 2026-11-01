@@ -3478,3 +3478,10 @@ melody; A&S Unit 3, rhythm and metre. Report: reports/c541.md.
 - Accepted: nothing (v542 = v541 relabelled).
 - Recorded (no change): c541: no change. Theme B's metre held by bar 37 and the pizz. bass (refines c331); theme A's peak, A′ phrase lengths and hemiola, pace and phrase groups follow Unit 3 (Dvořák 9/ii compared).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 542 (v542 → v543)
+harmony; A&S Units 11-13. Report: reports/c542.md.
+- Accepted: nothing (v543 = v542 relabelled).
+- Recorded (no change): c542: no change. 68 b3 is a tonic 6/4 over the E♭ pedal (corrects c402's label); V6/5 at 53 b3 resolves; deceptive cadences double the third of VI; harp fifths at 54 b2-3 recorded (settled figure; untested swap noted).
+- Do-not-touch: standing list; the 8-page layout.
