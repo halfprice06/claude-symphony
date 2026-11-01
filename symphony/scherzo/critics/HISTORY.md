@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 477 (lens 7 texture, Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281) (fifth pass)) v477 → v478
+Accepted: Cl 1 answers at 194/196 (tB.ily). Do-not-touch: c302's sequence and the 196 breath.
+
 ## Cycle 476 (lens 6 playability, Adler ch. 4 Plucked Strings: harp and pedalling (adler1 PDF 110-124) (sixth pass)) v476 → v477
 Accepted: harp harmonics at 149/151 (link.ily). Do-not-touch: the harp's only harmonics are 149, 151 and 375, the same chord.
 
