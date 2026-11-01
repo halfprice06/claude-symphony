@@ -3532,3 +3532,10 @@ holistic; Rimsky-Korsakov tutti chords. Report: reports/c549.md.
 - Accepted: nothing (v550 = v549 relabelled).
 - Recorded (no change): c549: no change. Chords at 78 and 60 b3 and soft frame chords follow Rimsky's tables; Tchaikovsky 1/ii comparison holds; nothing worse since v539 (only bar-25 text).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 550 (v550 → v551)
+cyclic; Casanelles ch. 5. Report: reports/c550.md.
+- Accepted: nothing (v551 = v550 relabelled).
+- Recorded (no change): c550: no change to the score. Coherence file corrected (Vln I rejoin at 22 b3/25; v546 entry). Links to movement I v421, scherzo and finale hold; pedal passages and staged crescendos recorded.
+- Do-not-touch: standing list; the 8-page layout.
