@@ -2678,3 +2678,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: 157.4 repeated G5 into 158
 - Cross-movement: none
+
+## Cycle 512 (Harmony and voice leading; Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (third pass)) → v513
+- Accepted: Vln II at 177: Ab4-F4 (was F4 whole bar), removing parallel octaves with Tbn 2 G-F (A&S PDF 83)
+- Open / not applied: none new
+- Do-not-touch: 177 Vln II Ab4-F4
+- Cross-movement: none
