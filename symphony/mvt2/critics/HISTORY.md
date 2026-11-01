@@ -3426,3 +3426,10 @@ form; A&S Unit 26, key plan. Report: reports/c533.md.
 - Accepted: nothing (v534 = v533 relabelled).
 - Recorded (no change): c533: no change. Exit from IV timed at 2.9:1 (justified by the climax in IV); falling-third key plan at two scales; F♯-minor spelling practical; late D♭ cadence and plagal coda follow Unit 26.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 534 (v534 → v535)
+orchestration; Adler ch. 15, tutti and colour. Report: reports/c534.md.
+- Accepted: nothing (v535 = v534 relabelled).
+- Recorded (no change): c534: no change. A′ peak octave weighting, the 61-62 tutti, colour changes at 37-52, deliberate doublings and early accompaniment entries follow Adler ch. 15 (Dvořák 9/ii compared).
+- Do-not-touch: standing list; the 8-page layout.
