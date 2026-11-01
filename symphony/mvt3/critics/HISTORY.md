@@ -1913,3 +1913,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 424 (v424 → v425), lens 4, Adler ch. 11 brass
 - Adler ch. 11 (PDF 15, brass balance above mf): Tbn 1 now plays F♯3 instead of E♭3 in the German sixth at bars 1 and 5, stepping to its G3 at 2 and 6, so the chord's defining F♯ is no longer only in Hn 4. E♭ stays in Hn 2, Ob 1, Cl 2, Vln II, violas and cellos; link pitches unchanged.
 - Recorded only: the single brass F♯4 in the German sixth at 261 (protected). Declined: bars 2 and 6 low third, the plagal close at 231–234.
+
+## Cycle 425 (v425 → v426), lens 5, Gould clefs
+- Gould PDF 21–22: the cellos' run at 209–210 stays in bass clef (G♭4 on three ledger lines) instead of switching to tenor mid-slur and back before the rest.
+- Gould PDF 13, 23: score-only bass clef for Hn 1·2 at 79–82 (after Hn 1's breath at 78|79, back to treble at the 82|83 double bar), as at 25–26 and 165–166, so Hn 2's B♭2 no longer sits on five ledger lines. Parts unchanged; MIDI unchanged.
