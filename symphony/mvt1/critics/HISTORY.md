@@ -2702,3 +2702,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 516 (Playability, instrument by instrument; Adler ch. 2 Bowed String Instruments: divisi, bowing, harmonics (adler1 PDF 24-70) (third pass)) → v517
+- Accepted: Double basses up-bow at 110 so the ff G1 at 117 lands down-bow (Adler PDF 38)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
