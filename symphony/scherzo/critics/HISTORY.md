@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 422 (lens 2 harmony, Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529) (fifth pass)) v422 → v423
+Accepted: Italian sixth at 300 in the strings (dB.ily), after rejections by c062, c242, c332 (c422 answered each). Do-not-touch: three different augmented-sixth approaches (French pp pizz. 244, Italian ff arco 300, French 331); the Neapolitan route 85–89; plagal close 357–360. Do not remove the Italian sixth at 300 without a stronger reason than c332's.
+
 ## Cycle 421 (lens 1 melody, Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371) (fifth pass)) v421 → v422
 Accepted (theme change): T bars 7–8 suspension (tA.ily, tC.ily). Kept: coda fragment 345–348 in the old form; second idea's ties consonant (c411); theme A peak at 24. Do-not-touch: T's two tied suspensions (bars 3–4 4–3, bars 7–8 7–8).
 
