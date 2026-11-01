@@ -1922,3 +1922,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Adler App. A (PDF 306; adler2 PDF 8): the bass trombone's short ff dominant notes at 91–93 rise to B♭2 (were B♭1, the bottom of its range); B♭1 stays in tuba, contrabassoon and basses.
 - Adler PDF 302: score header now names the basses' C extension at 75–76, 166 and 174–183.
 - Checked, no change: Tpt 1 C6s at 243–250, timpani drum sizes, woodwind extremes.
+
+## Cycle 427 (v427 → v428), lens 7, Adler ch. 17 accompaniment
+- Parts book: the bass clarinet's sfp < at 149 is now drawn in its part (part-only minimum hairpin length, as at bar 10); the parts book builds with 0 warnings again. Score MIDI unchanged.
+- Adler ch. 17 (PDF 279, Bizet octave lift at the climax): Fl 1 an octave above the cor anglais and muted trumpet at 181–183 tested and declined (takes the climax from the soloists). No score change.
