@@ -1972,3 +1972,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 438 (v438 → v439), lens 8, Casanelles dynamics
 - Casanelles PDF 147–148 (two like instruments in unison sound like two players; use one or three or more): Vln I's exposed pp unison at 119 and 122 is now marked "4 soli" (was "2 soli", meant as two desks since c209). Text only; MIDI unchanged.
 - Checked, no change: Ob 1 and Cl 1 unison at 107–110, repeated-note figures at 247–277.
+
+## Cycle 439 (v439 → v440), lens 9, Beethoven 5 holistic
+- Rimsky-Korsakov ch. IV (PDF 127 "Amplification", Ex. 248): at 9.1 horns 1–4, contrabassoon and basses now enter p < instead of mf, so the crescendo's second group grows from below rather than stepping up; entry order, violins' mf and the f at 10.3 unchanged.
+- Beethoven 5/iv holistic comparison and v429 → v439 check: nothing worse. Declined: flute on the 4 soli at 119/122 (page 7 overfull), pizz. chords at 89–90.
