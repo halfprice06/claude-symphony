@@ -3217,3 +3217,9 @@ melody; A&S Unit 20, figuration. Report: reports/c501.md.
 - Accepted: nothing (v502 = v501 relabelled).
 - Recorded (no change): c501: no change. Theme A, theme B and the b-phrase figuration follow Unit 20 (Tchaikovsky Canzonetta compared); parallels and spelling scans clean apart from the motto's shared D♮ at 68; B♭6 at 79 is an accented neighbour (c001 wording).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 502 (v502 → v503)
+- Accepted: Vla 74 b1 triplet E♭3-G3-E♭4.
+- Recorded: 6/4 chords in the movement are now 5, 21 b2, 38 b4½, 43 b2-3, 68 b3, 74 b1, 74 b3 (replaces c362's "seven 6/4s").
+- Do not touch: the 74 downbeat (cello 9-8, Cl 2 E♭4-D♭4).
