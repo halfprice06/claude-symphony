@@ -2504,3 +2504,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 105.3-106 It6 spelling; 111-117 lament bass; 160-163; 178.3; 61; 12-13; Neapolitan settings 7, 20-22, 140-143, 172-174, 178, 180
 - Cross-movement: none
+
+## Cycle 483 (Form, pacing and proportion; Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground (third pass)) → v484
+- Accepted: no change (special effects and accompaniment as form, third pass; proportions unchanged since v373)
+- Open / not applied: none
+- Do-not-touch: sudden drops 41-42, 62, 102-103, 122-123, 162-163; arrivals 147, 156, 158, 171; 170-175; recap first group 131-146 length
+- Cross-movement: none
