@@ -2020,3 +2020,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 450 (v450 → v451), lens 10, cyclic review
 - Rimsky-Korsakov PDF 126–127 (a part taken over keeps the group's progression): Ob 2 at 245–246 now moves B4→C5 on 245.3 with Tpt 2 and Hn 1 (`b'2( c''2~ | c''1)`), so no B is held under the horn call's resolution; the oboes' crescendo into the 247 ff is kept.
 - Cyclic review against movement I v490, movement II v474 and scherzo v443: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51. coherence/finale.md updated (header, headings, open request). Declined: range relays at 245–246, 7–10, 222, 205–210.
+
+## Cycle 451 (v451 → v452), lens 1, A&S melodic figuration
+- A&S Unit 20 (PDF 332 Ex. 20-7a, PDF 336 Ex. 20-16): bar 69, a passing B♭1 on beat 4 fills the bass's C2–A♭1 third inside IV6 → IV (Cb, Bn 2, harp LH), a tenth under the tune's passing D6. Tune, counter-melody and dynamics unchanged.
+- Declined: a passing bass at 77.4 (outer-voice fifths), a double neighbour in a main tune.
