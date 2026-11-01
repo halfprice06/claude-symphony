@@ -2534,3 +2534,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 107-108 Vln II divisi; 150; no six-note string chords; 110, 144 gaps; 167-170 layout
 - Cross-movement: none
+
+## Cycle 488 (Expression; MOLA guidelines on dynamics, articulation and bowing marks in parts (mola PDF 1-16) (third pass)) → v489
+- Accepted: no change (MOLA marks in parts as expression, third pass); mvt1.md tempo table: largamente 160-164
+- Open / not applied: none
+- Do-not-touch: 160-164 largamente without a closing word; 102-103 cello; 171-174 C.a.; Hn 1 mp in 47-55/147-155
+- Cross-movement: record only (tempo table)
