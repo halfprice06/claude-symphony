@@ -2028,3 +2028,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 452 (v452 → v453), lens 2, A&S four-part writing
 - A&S Unit 5 (PDF 76, 83) and Unit 21 (PDF 351, the 9–8 always has its 3rd): violas at 228–229 now `e2.( f4 | g1)`, so the canon's 9–8 at 229 has an E and the octaves A→G with Cl 2 at 228→229 are gone. Canon, chorale, bass, timpani and dynamics unchanged.
 - Tested and declined: Cl 2's ninth leap at 228→229, Tbn 2's line at 151. Checked: hidden fifths and octaves in the outer voices.
+
+## Cycle 453 (v453 → v454), lens 3, A&S V as key area
+- A&S Unit 14 (PDF 215–220): V6/5 of V at 129 and a pivot chord at 114 tested and declined (the tune's G would rise, new octaves; the bare D7 is an accepted phrase modulation). V4/2 at 133–134 and the French sixth at 168 follow the reading. Proportions checked. No score change.
