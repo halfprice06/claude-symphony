@@ -2336,3 +2336,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 82 as a statement before the fugato; 97-100 Fl 1 alone; 117-121 brass motto; 47/147 entries together; 160 octave weights
 - Cross-movement: none
+
+## Cycle 455 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68) (third pass)) → v456
+- Accepted: lone whole-bar notes at 4, 76, 176, 182 placed nearer centre (Score barline spacing, score only); Hn 1 and Hn 3 parts end the 162 diminuendo before the rest at 163 (part tag; closes c449 open item)
+- Open / not applied: none
+- Do-not-touch: 147-162 system plan; Fl 117-120 spacing (c345)
+- Cross-movement: none
