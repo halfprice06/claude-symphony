@@ -2948,3 +2948,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: staggered breaths 115-123 kept
 - Cross-movement: none
+
+## Cycle 557 (Texture and counterpoint; Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255) (fourth pass)) → v558
+- Accepted: none (transcription fourth pass: string-presence and rhythm-doubling scans; 73-76 winds-only rejected to keep mvt II bars 3-6 fresh)
+- Open / not applied: 73-76 winds-only possible only if mvt II drops its winds-only 3-6
+- Do-not-touch: unchanged
+- Cross-movement: none
