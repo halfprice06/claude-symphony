@@ -2798,3 +2798,9 @@ texture; Rimsky-Korsakov ch. III woodwind and brass combined, PDF 106-114. Repor
 - Accepted: nothing (v438 = v437 relabelled).
 - Recorded (no change): c437: no change. Correction to c287: a horn does sit between the bassoons at 62 b1-2 and 79-81 (Bn 1 doubles the counter-melody, Bn 2 the bass; protected, inaudible at ff). Moving horns over held woodwind at 60 (counter-melody, Ex. 143); 85-89 inner line handover; open horns at 3-6 (muted colour kept for 87-90); bassoons take dissonances under solo horn; climax doublings; strings with brass only as PDF 113 allows.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 438 (v438 → v439)
+expression; Sebesky PDF 11-20, 204-218. Report: reports/c438.md.
+- Accepted: violins' mp on the 74 b3 pickup; Vln II "espr., sul D" at 22 and 70.
+- Do-not-touch: standing list; the 8-page layout.
