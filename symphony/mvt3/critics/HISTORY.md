@@ -1948,3 +1948,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 432 (v432 → v433), lens 2, A&S chromatic voice leading
 - A&S Unit 31 (PDF 563–564, Ex. 31-17; PDF 532, 537): bar 129 beat 4 is now minor iv6 (E♭–G–C) before V7 at 130, so the bass moves E–E♭–D (♮6–♭6–5): Vc `e4 es4`, Cb `e,4 es,4`, Hn 4 C4 on beat 4, harp LH's last note G4 (no E♮, no pedal change). Tune, the 123–130 hand-over and dynamics unchanged; a German sixth there was tested and rejected (C♯ against Bn 1's C4).
 - Declined: voice swap at 146→147, ♭VII at 237, common-tone °7 at 39–42, swaps at 131–134.
+
+## Cycle 433 (v433 → v434), lens 3, A&S phrase and V7
+- A&S Units 6–8 (PDF 98, 100, 102 Ex. 6-19, 117): the long V7's seventh F now resolves down by step into the recapitulation at 151: Tbn 1 `es'2 c'2`, Tbn 2 `c'2 es2` (F–D to E♭–C in thirds, then exchanging), Bn 1 `es2 g,2`, Vc `<g, es>2 g,2` (all three had leapt away from F). F1, the G pedal, dynamics and the 4–3 and 6–5 at 151–153 unchanged.
+- Checked, no change: bass octave leap to the 7th, root-position long dominant at 139–146, i6 at 11 and 166.
