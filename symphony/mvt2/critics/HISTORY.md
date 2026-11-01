@@ -3162,3 +3162,10 @@ form; A&S Unit 21, pedals. Report: reports/c493.md.
 - Accepted: nothing (v494 = v493 relabelled).
 - Recorded (no change): c493: no change. Pedal placement, entries/exits and dissonances follow Unit 21; basses resting at 53 kept (Dvořák 9/ii 43-46; c164); two new pedals recorded (Vln II 15-19, bass D♭ at 79-80).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 494 (v494 → v495)
+orchestration; Sebesky ch. 2. Report: reports/c494.md.
+- Accepted: nothing (v495 = v494 relabelled).
+- Recorded (no change): c494: no change. Low-brass octave roots at 61-62 normal in this style (Rimsky PDF 101); missing F at 79-80 not filled (would lose the 7th and weaken c150's echo); c364's register range corrected to D3-C4.
+- Do-not-touch: standing list; the 8-page layout.
