@@ -191,6 +191,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 487 (lens 7 texture, Rimsky-Korsakov ch. II Melody in combined groups (rimsky-principles PDF 74-80) (fifth pass)) v487 → v488
+Accepted: violas on the tail at 106/110/118/306/310/318 (sC.ily, dC.ily), parts-gen.py PAPX 08.
+
 ## Cycle 486 (lens 6 playability, Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (sixth pass)) v486 → v487
 Accepted: bass clarinet for contrabassoon at 211–224 (tC.ily, parts-cues.json). Reverses c384's contrabassoon octave at 210–212.
 

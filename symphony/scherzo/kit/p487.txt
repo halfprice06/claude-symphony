@@ -29,3 +29,5 @@ Decide every optional point yourself; never leave a choice for the composer or f
 
 Your final message to me: a short summary listing each finding, whether it is applied in the scratch copy, which files changed, and the build result.
 
+
+REQUIRED ITEM (from the composer, before your own finding): v487's parts build reports 2 warnings: the one-page bass clarinet part (parts-08) is over-full by 1.2 staff-spaces and LilyPond compresses page 1 (see v487/parts.log), after c486 gave it 211–224 and a Vln I cue at 209. Fix it in your scratch copy so `bash build-parts.sh .` reports warnings/errors: 0 (for example a per-part paper setting in PAPX in parts-gen.py, such as a slightly smaller staff or tighter system spacing for "08", or a shorter cue; keep the part to one page if possible and keep the cue if it fits). Report the parts-build line in your Build section.
