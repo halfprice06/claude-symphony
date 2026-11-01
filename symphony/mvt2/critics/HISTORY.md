@@ -3443,3 +3443,10 @@ orchestration; Adler ch. 15, tutti and colour. Report: reports/c534.md.
 ## Cycle 536 (v536 → v537)
 - Accepted: Bsn 2 \breathe at end of 57.
 - Do not touch: staggered breaths Bsn 2 (57) / B.cl. (58).
+
+
+## Cycle 537 (v537 → v538)
+texture; Sebesky ch. 1. Report: reports/c537.md.
+- Accepted: nothing (v538 = v537 relabelled).
+- Recorded (no change): c537: no change. Doublings, chromatic inner lines, one primary line at a time and colour variety follow Sebesky ch. 1; 45-46 lower octave outweighing Ob 1 recorded (protected; test Ob 1 p if reopened).
+- Do-not-touch: standing list; the 8-page layout.
