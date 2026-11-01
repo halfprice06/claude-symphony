@@ -3511,3 +3511,10 @@ playability; Adler ch. 4, harp. Report: reports/c546.md.
 - Accepted: nothing (v547 = v546 relabelled).
 - Recorded (no change): c546: no change. Harp pedal plan, one-hand triplets at 53-56, harmonics at 82-83, chord sizes and timpani tuning follow Adler ch. 4; c436 retune open in the scherzo thread.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 547 (v547 → v548)
+texture; Adler ch. 15, polyphonic texture. Report: reports/c547.md.
+- Accepted: nothing (v548 = v547 relabelled).
+- Recorded (no change): c547: proposed change declined. The critic doubled the violins' theme with Cl 1 at 75-76; 'A′ texture plan 71-82' is on the do-not-touch list (c067 and later), and the strings-alone second phrase before the winds join at 77 is part of that plan, so the actor kept v547. Recorded: viola C4 at 78 b3, principal/subsidiary dynamics, legato layers by rhythm, theme A head against theme B at 53-56, no imitation.
+- Do-not-touch: standing list; the 8-page layout.
