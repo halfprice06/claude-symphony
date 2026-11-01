@@ -2510,3 +2510,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: sudden drops 41-42, 62, 102-103, 122-123, 162-163; arrivals 147, 156, 158, 171; 170-175; recap first group 131-146 length
 - Cross-movement: none
+
+## Cycle 484 (Orchestration; Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54) (third pass)) → v485
+- Accepted: no change (brass homophonic unit and climactic uses, third pass; brass-weight scan)
+- Open / not applied: none
+- Do-not-touch: climax colour ladder 82/122/160; 122 low trumpets; 161.4 Tpt 3 fifth; single horns in background chords; 117-121 motto
+- Cross-movement: none
