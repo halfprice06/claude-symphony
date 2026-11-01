@@ -2726,3 +2726,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: build.sh does not check section lengths against sections.txt (c419)
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 520 (Cyclic design and emotional arc across four movements; Release check: every do-not-touch item in HISTORY.md, every change since the last release check (v421 for cycle 520; v521 for cycle 620), every book rule cited in them, and the coherence files of all four movements) → v521
+- Accepted: Release check: score header stamped v521, 1 November 2026; all changes since v421 checked against do-not-touch list, quotations and reserves; coherence updated
+- Open / not applied: section-length check (tools/lencheck.py) still not wired into build.sh
+- Do-not-touch: everything quoted by other movements
+- Cross-movement: none in notes
