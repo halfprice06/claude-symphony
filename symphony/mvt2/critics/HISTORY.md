@@ -2946,3 +2946,10 @@ holistic comparison with a master work (Mozart 41/ii); Adler ch. 16, adler2 PDF 
 - Accepted: nothing (v460 = v459 relabelled).
 - Recorded (no change): c459: no change. Against Mozart 41/ii (muting, varied return, contrast inside the theme, ending returns to the opening sound) it holds; nothing worse since v449; viola A flat4 inside Vln II's held A flat4 at 71 b2 (c137, c427; one-note fix in the report); motion inside the coda's held chord; 62-65 release in the strings (Tbn quotation protected).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 460 (v460 → v461)
+cyclic design; A&S Unit 23 mixture, PDF 386-397. Report: reports/c460.md.
+- Accepted: nothing (v461 = v460 relabelled).
+- Recorded (no change): c460: no change. Key plan is mixture at long range (II as flat VI of C; F flat-E flat at 88 and A flat into the scherzo and finale); coda follows Brahms 3/ii (Ex. 23-5); no A flat minor phrase (key plan protected); flat 3 only passing. coherence/mvt2.md updated to v461 with the mixture note.
+- Do-not-touch: standing list; the 8-page layout.
