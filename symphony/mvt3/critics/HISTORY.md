@@ -2139,3 +2139,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 487 (v487 → v488), lens 7, Rimsky-Korsakov doublings
 - Rimsky-Korsakov PDF 74–80 (unison doublings): no change. The critic proposed Bn 2 on F2's last phrase at 255–256 (strings and horns alone do not blend, PDF 79); declined, because the woodwinds' rest at 255–256 and fresh entry at 257 (since v130, kept by c486) was not answered. Other doubling checks (205–206, 211–218, 247–254, 107–109) pass.
+
+## Cycle 488 (v488 → v489), lens 8, Adler brass expression
+- Adler PDF 304–305 (Ex. X-8, X-12: horns on a passionate unison marked espress.): Hn 3·4 now carry "espress." with their ff at 255, like the strings on F2's last phrase (marked on both horns so it prints once over a2, as c138 found at 217). Text only; MIDI identical. Phrase slurs on the brass chorale considered and declined (repeated common tones would read as ties; 223–234 protected).
