@@ -2564,3 +2564,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 111-117 lament wedge; 77-82 major-third cycle; 73 C-flat spelling; C-major recap colour reserve (diatonic 147-155, mixture 156-166); 162 Tbn 2/Vc contrary fifths
 - Cross-movement: none
+
+## Cycle 493 (Form, pacing and proportion; Aldwell & Schachter Units 6-8 I, V, V7 and their inversions: phrase structure (aldwell-schachter PDF 92-133) (third pass)) → v494
+- Accepted: none (form lens third pass: every barline 15-182 scanned, cadence order and broadening checked; all keep)
+- Open / not applied: proportions vs Beethoven 9/i (recap 0.61, coda 13.7%) noted, protected
+- Do-not-touch: unchanged
+- Cross-movement: none
