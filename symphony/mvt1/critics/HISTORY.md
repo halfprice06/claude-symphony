@@ -2426,3 +2426,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: trombones mf at 12 (c124 grading); proportions
 - Cross-movement: none
+
+## Cycle 470 (Cyclic design and emotional arc across four movements; Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (third pass)) → v471
+- Accepted: no change (cyclic design, Rimsky prefaces and transfer of phrases, third pass); mvt1.md v462-v471 line
+- Open / not applied: none
+- Do-not-touch: motto colour return 175-179; transfers at 4-5, 9.4, 174-175, 180-181, 182; 167-170 (finale quotes); no harp at 147-155
+- Cross-movement: record only
