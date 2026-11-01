@@ -2558,3 +2558,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 117-121 dark motto, 131 low P, 167 bright P; S in Hn 1 with strings; 158-161 octave layout; horn call; 175-181 chorale and canon
 - Cross-movement: none
+
+## Cycle 492 (Harmony and voice leading; Aldwell & Schachter Units 30-31 Other chromatic chords; Chromatic voice-leading techniques (aldwell-schachter PDF 530-583) (third pass)) → v493
+- Accepted: no change (other chromatic chords, chromatic voice leading, third pass); record: 73 common-tone dim7 spelled with C-flat (A&S PDF 544-545)
+- Open / not applied: none
+- Do-not-touch: 111-117 lament wedge; 77-82 major-third cycle; 73 C-flat spelling; C-major recap colour reserve (diatonic 147-155, mixture 156-166); 162 Tbn 2/Vc contrary fifths
+- Cross-movement: none
