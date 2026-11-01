@@ -2936,3 +2936,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 555 (Engraving and notation (Gould's *Behind Bars*, MOLA); MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (fourth pass)) → v556
+- Accepted: none (MOLA fourth pass: recent edits reach the parts; tempo words, margins, attacca pages checked)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
