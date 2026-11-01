@@ -3127,3 +3127,10 @@ texture; Adler ch. 11, contrapuntal brass. Report: reports/c487.md.
 ## Cycle 488 (v488 → v489)
 - Accepted: MIDI-only pizzicato/tremolo patch switches (Cb 37-44, 63; Vla 41-44, 61-64) and Bsn 1 MIDI dynamics at 75-78.
 - Do not touch: the printed dynamics at 53-61, 75-82, 85-92; MIDI fades at 3, 47, 63, 66, 91.
+
+
+## Cycle 489 (v489 → v490)
+holistic; Adler ch. 17. Report: reports/c489.md.
+- Accepted: nothing (v490 = v489 relabelled).
+- Recorded (no change): c489: no change. Compared with Schumann 4/ii (Romanze): colour changes, quotations as sections and attacca ending hold; 23-30 accompaniment attacks recorded (protected); nothing worse since v479.
+- Do-not-touch: standing list; the 8-page layout.
