@@ -1930,3 +1930,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 428 (v428 → v429), lens 8, Adler climactic brass
 - Adler Ex. XI-19, XI-21 (PDF 37–40), Rimsky-Korsakov PDF 130: in the last cadence the brass hold ff at 259–260 and crescendo from 261 with the timpani's roll into fff at 263; woodwinds and strings still crescendo from 259; the horns' breath after 260 now precedes their crescendo. Pitches, voicing and the 263 fff unchanged; MIDI notes identical.
 - Declined: chorale accents after 255, timpani on the sforzandi at 101 and 105.
+
+## Cycle 429 (v429 → v430), lens 9, Dvořák 9 holistic
+- Rimsky-Korsakov PDF 107–108 (Ex. 148, 151: stopped horns over low clarinets): Cl 2 at 167–170 now plays A♭3–F♯3–G3–F3 in its low register with Bn 1 (`aes1 | fis1\> | g1 | f1\pp`), no longer in unison with the stopped Hn 2; Cl 1 still carries A♭4 to the cor anglais at 171. Dynamics unchanged.
+- Dvořák 9/iv holistic comparison and v419 → v429 check: nothing worse.
