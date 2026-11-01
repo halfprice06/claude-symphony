@@ -2576,3 +2576,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 495 (Engraving and notation (Gould's *Behind Bars*, MOLA); MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score (third pass)) → v496
+- Accepted: Parts cues: Vla cue in Vln II at 89-90 before the f entry at 91; Vla cue in Vln I at 153-154 before the mf pickup at 155 (MOLA PDF 5)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: Movement II could adopt the same cueing rule for string entries after long rests
