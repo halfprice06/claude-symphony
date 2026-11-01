@@ -2777,3 +2777,10 @@ orchestration; Adler ch. 15 homophonic and combined scoring, adler2 PDF 159-186.
 - Accepted: nothing (v435 = v434 relabelled).
 - Recorded (no change): c434: no change. Thin downbeat at 57 filled by viola and melody (c124, protected Hn 1 line); Cl 2 seventh at 81-82 resolved in cellos, Hn 1, Bsn 1 (protected tutti); 60-61 cellos (c294); 61-62 doubled chord tones as Tchaikovsky (PDF 166-167); soft endings avoid the dangerous chord (PDF 162); timpani rolls start soft; theme returns keep harmony with new colour; main voice one level above.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 435 (v435 → v436)
+engraving; Gould PDF 7-13, 17-68. Report: reports/c435.md.
+- Accepted: stem thickness 0.9 (score and parts); space after warning signatures; C.a. slur at 36-37; string-line ends at 51-52 and 62; letter L alignment at 83.
+- Open (optional): Vln I "(sul D)" line end at 1-3 (protected bars); letter E offset at 37.
+- Do-not-touch: the 8-page layout and its breaks; harp 8 bassa plan; stem, beam and rest settings from c185-c435.
