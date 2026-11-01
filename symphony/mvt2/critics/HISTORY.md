@@ -2844,3 +2844,10 @@ orchestration; Adler ch. 8 woodwind-string combinations, adler1 PDF 233-281. Rep
 - Accepted: nothing (v445 = v444 relabelled).
 - Recorded (no change): c444: no change. Oboe over bassoon and cellos at 44-46 (Ex. VIII-4, 38); 57-60 flute and oboe double violins at pitch, clarinet thirds inside (c144, c254); pedals before pickups at 70 and 74; colour-per-note chords at 33 and 87-88; woodwind pair voicings at 61-62 and 79-81 (Ex. VIII-21-24); theme B in single winds at 37-44 (c304 not reopened).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 445 (v445 → v446)
+engraving; MOLA PDF 1-16. Report: reports/c445.md.
+- Accepted: B.tbn niente circle at 64.
+- Open (optional): Ob 1 niente at 47; clarinet muta text at 92.
+- Do-not-touch: the 8-page layout; tempo mark and letter placement; multi-rest ranges; cues and one-page parts; harp pedal plan.
