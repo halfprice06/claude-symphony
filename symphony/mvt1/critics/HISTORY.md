@@ -2786,3 +2786,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: Beethoven 2 comparison lacked a score
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 530 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (fourth pass)) → v531
+- Accepted: none (cyclic design fourth pass: nothing quoted changed since v521; coherence updated to v531)
+- Open / not applied: none new
+- Do-not-touch: 158-162 Tpt 3 motto tail in whole bars
+- Cross-movement: seed line added to coherence/mvt1.md
