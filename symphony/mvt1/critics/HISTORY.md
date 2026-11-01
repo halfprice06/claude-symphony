@@ -2486,3 +2486,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 127-130 retransition; A-flat6 at 31; bassoons a2 157, 163-164; 47-55 colour; soft attacca ending
 - Cross-movement: none
+
+## Cycle 480 (Cyclic design and emotional arc across four movements; Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (third pass)) → v481
+- Accepted: no change (cyclic design, Sebesky ch. 1 and 9 third pass); mvt1.md v472-v481 line and 178.3 precision
+- Open / not applied: none
+- Do-not-touch: four harmonisations of the motto ending; reserves; no F1/F2 seeds; 182 last chord
+- Cross-movement: record only
