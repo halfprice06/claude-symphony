@@ -189,6 +189,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 443 (lens 3 form, Aldwell & Schachter Unit 15 III and VII (aldwell-schachter PDF 230-247) (fifth pass)) v443 → v444
+Accepted: Vln II at 330 (coda.ily). Do-not-touch: 330 is a clean ♮VII (D–F♯–A) in all strings.
+
 ## Cycle 442 (lens 2 harmony, Aldwell & Schachter Unit 27 Seventh chords with added dissonance (aldwell-schachter PDF 463-481) (fifth pass)) v442 → v443
 Accepted: senza sord. at 1 (Vln I) and 13 (Vln II, Vla) (intro.ily, sA.ily). Rejected: V♭9 at 103–104/301–304, 9ths at 48–53 (stop chord), V♭9 by mixture at 202–208. Do-not-touch: upper strings enter senza sord. after movement II's muted coda.
 
