@@ -3433,3 +3433,8 @@ orchestration; Adler ch. 15, tutti and colour. Report: reports/c534.md.
 - Accepted: nothing (v535 = v534 relabelled).
 - Recorded (no change): c534: no change. A′ peak octave weighting, the 61-62 tutti, colour changes at 37-52, deliberate doublings and early accompaniment entries follow Adler ch. 15 (Dvořák 9/ii compared).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 535 (v535 → v536)
+- Accepted: score-only spacer for Fl 2 at 81 b2-3.
+- Do not touch: Fl 1's down-stems at 81 (c375, c394).
