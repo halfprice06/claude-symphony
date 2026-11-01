@@ -2648,3 +2648,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 507 (Texture and counterpoint; Rimsky-Korsakov ch. II Melody in combined groups (rimsky-principles PDF 74-80) (third pass)) → v508
+- Accepted: none (melody in combined groups third pass: doubling scan clean; keep)
+- Open / not applied: 23-25/135-137 Fl 1+Ob 1 doubling Vln I noted (c287 protects)
+- Do-not-touch: unchanged
+- Cross-movement: none
