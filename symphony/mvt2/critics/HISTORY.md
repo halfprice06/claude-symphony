@@ -2920,3 +2920,9 @@ engraving (parts); MOLA PDF 1-16. Report: reports/c455.md.
 - Accepted: genparts.py widens rests under tempo words (wind/brass/timp) and drops midiExpression; part-only cues at 77-78 for the 79 entries.
 - Open: letter A above "Adagio" at 7 in the parts.
 - Do-not-touch: the 8-page score; the c355 letter-and-tempo stencil; multi-rest ranges; cues and one-page parts; harp page break before 71; harp pedal plan.
+
+
+## Cycle 456 (v456 → v457)
+playability; Sebesky ch. 2 (PDF 21-110). Report: reports/c456.md.
+- Accepted: B.cl. breath at the end of 58 (extends c176's breath plan).
+- Do-not-touch: breath plan 57-60 as extended; standing list; the 8-page layout.
