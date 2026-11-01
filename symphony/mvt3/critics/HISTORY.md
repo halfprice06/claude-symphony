@@ -2169,3 +2169,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 497 (v497 → v498), lens 7, Adler brass in combination
 - Adler part 2 PDF 41–44 (brass in modern scoring): no change. Tested and declined short brass strokes on 2 and 4 at 207–208 (no gaps in the head to fill; drifts back to 199–204's hammered texture) and Hn 3 on the chromatic counter-melody at 239–242 (undoes c247 and drops the F chord's held fifth).
+
+## Cycle 498 (v498 → v499), lens 8, A&S suspensions
+- A&S PDF 348 (a dissonant suspension leans; its resolution is softer): the violas' held C♭4 at 49 (♭9 of V7 of E♭ over the B♭ pedal) now has a diminuendo into its B♭3 on beat 3. Notes, the pp level and the poco rit. unchanged.
