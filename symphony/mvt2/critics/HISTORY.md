@@ -3148,3 +3148,10 @@ melody; Sebesky ch. 5. Report: reports/c491.md.
 - Accepted: nothing (v492 = v491 relabelled).
 - Recorded (no change): c491: no change. Theme ranges, breaths, motion under held notes, doubling order and inner-line leaps follow Sebesky ch. 5; 54/56 ties and 74 b3 register drop protected.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 492 (v492 → v493)
+harmony; A&S Unit 7. Report: reports/c492.md.
+- Accepted: nothing (v493 = v492 relabelled).
+- Recorded (no change): c492: no change. 44 b2-4 relabelled VII6 of D♭ (voicing follows the book); 59 vii°7/V protected; c352's I6 note at 41/57 corrected; weak-to-strong and hidden-octave scans find only acceptable or protected cases.
+- Do-not-touch: standing list; the 8-page layout.
