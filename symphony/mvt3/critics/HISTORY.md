@@ -2040,3 +2040,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 455 (v455 → v456), lens 5, Gould staves and clefs
 - Gould PDF 21–23: score-only bass clef for Hn 3·4 at 255–258 (F2's last statement, down to C3 on four ledger lines), back to treble at 259, as at 25–26 and 79–82. Parts and MIDI unchanged.
 - Checked, no change: single horn D3s at 13, 21, 29, 153, 161; clarinets' D3 at 178; basses' tenor clef at 27–34.
+
+## Cycle 456 (v456 → v457), lens 6, Adler bowing
+- Adler PDF 38, 42–43 (Ex. II-20) and PDF 54 (up-bow before pizz.): down-bows on the accented F at 113 in Vln I and II (matching c418's lower strings), up-bows at 114 in Vln II and violas before the pizz. at 115. Bow signs only.
+- Considered and declined: viola div. at 101, "al tallone" at 91–94, a trill at 82, staggered bowing at 219–221.
