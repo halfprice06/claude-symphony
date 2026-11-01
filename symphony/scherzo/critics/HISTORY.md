@@ -191,6 +191,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 485 (lens 5 engraving, Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68) (sixth pass)) v485 → v486
+Accepted: spacing overrides at 49 (sA.ily) and 199 (tB.ily). Print only.
+
 ## Cycle 484 (lens 4 orchestration, Adler ch. 15 Scoring for Orchestra: unison-octave tutti, foreground and background (adler2 PDF 146-158) (sixth pass)) v484 → v485
 Accepted: cellos on theme A at 333–335 (coda.ily). Do-not-touch: cellos back on the bass at 336–339; the bass E at 333–335 keeps basses, contrabassoon, bassoons, tuba.
 
