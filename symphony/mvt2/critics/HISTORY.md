@@ -3266,3 +3266,10 @@ texture; Sebesky ch. 3, strings with winds. Report: reports/c507.md.
 ## Cycle 509 (v509 → v510)
 - Accepted: cello slurs at 59-60 aligned with the winds' counter-line.
 - Do not touch: four bows at 59-60 with down-bow f at 59 and down-bow ff at 61.
+
+
+## Cycle 510 (v510 → v511)
+cyclic design; Sebesky 240-242, Adler 19-23. Report: reports/c510.md.
+- Accepted: nothing (v511 = v510 relabelled).
+- Recorded (no change): c510: no change to the score. Actor updated coherence/mvt2.md to v511. Theme records, quotations and joins hold; arc low points are cyclic events; cyclic lines not covered; reductions clear.
+- Do-not-touch: standing list; the 8-page layout.
