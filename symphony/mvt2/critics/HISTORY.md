@@ -3553,3 +3553,10 @@ harmony; A&S Unit 17 sequences. Report: reports/c552.md.
 - Accepted: nothing (v553 = v552 relabelled).
 - Recorded (no change): c552: no change. Pitch changes since v412 follow Unit 17; bar 11 fifths acceptable (I6 between, weak beat, pp, protected); builds differ from Tchaikovsky 6/iv by design.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 553 (v553 → v554)
+form; A&S Units 16 and 19 six-four chords. Report: reports/c553.md.
+- Accepted: nothing (v554 = v553 relabelled).
+- Recorded (no change): c553: no change. Return 65-71 matches Ex. 19-14 (Bsn 2 D♭3-C3 at 71 is the 7th's resolution; protect); eight 6/4s classified; Dvořák 9/ii plagal comparison noted, c283 not re-raised.
+- Do-not-touch: standing list; the 8-page layout.
