@@ -3006,3 +3006,9 @@ texture; Rimsky-Korsakov ch. II melody in combined groups, PDF 74-80. Report: re
 expression; Adler PDF 51-70. Report: reports/c468.md.
 - Accepted: violins and violas con sord. in the coda (84-92), cellos and basses open; solo violin rejoins at 25.
 - Do-not-touch: mute plan 15-37 and the coda mutes; standing list; the 8-page layout.
+
+
+## Cycle 469 (v469 → v470)
+- Accepted: cello 9-8 suspension at 73-74 (C4 tied over the bar, B flat8 A flat8 G4); reprise only, 25-26 unchanged.
+- Recorded (no change): violins' plain reprise at 71-76 (theme record) not reopened.
+- Do not touch: the reprise/first-statement difference in the cello line at 26 vs 74 is deliberate.
