@@ -1926,3 +1926,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 427 (v427 → v428), lens 7, Adler ch. 17 accompaniment
 - Parts book: the bass clarinet's sfp < at 149 is now drawn in its part (part-only minimum hairpin length, as at bar 10); the parts book builds with 0 warnings again. Score MIDI unchanged.
 - Adler ch. 17 (PDF 279, Bizet octave lift at the climax): Fl 1 an octave above the cor anglais and muted trumpet at 181–183 tested and declined (takes the climax from the soloists). No score change.
+
+## Cycle 428 (v428 → v429), lens 8, Adler climactic brass
+- Adler Ex. XI-19, XI-21 (PDF 37–40), Rimsky-Korsakov PDF 130: in the last cadence the brass hold ff at 259–260 and crescendo from 261 with the timpani's roll into fff at 263; woodwinds and strings still crescendo from 259; the horns' breath after 260 now precedes their crescendo. Pitches, voicing and the 263 fff unchanged; MIDI notes identical.
+- Declined: chorale accents after 255, timpani on the sforzandi at 101 and 105.
