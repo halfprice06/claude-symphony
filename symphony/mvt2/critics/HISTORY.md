@@ -3134,3 +3134,10 @@ holistic; Adler ch. 17. Report: reports/c489.md.
 - Accepted: nothing (v490 = v489 relabelled).
 - Recorded (no change): c489: no change. Compared with Schumann 4/ii (Romanze): colour changes, quotations as sections and attacca ending hold; 23-30 accompaniment attacks recorded (protected); nothing worse since v479.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 490 (v490 → v491)
+cyclic design; A&S Unit 30, mixture. Report: reports/c490.md.
+- Accepted: nothing (v491 = v490 relabelled).
+- Recorded (no change): c490: no change to the score. Actor brought coherence/mvt2.md up to v491. Both joins are III♯ relations (Ex. 30-1); C-A♭-E-C augmented-triad key plan; quotations prepared per Ex. 30-3 and 30-9; last chord stays plain (c210, c480).
+- Do-not-touch: standing list; the 8-page layout.
