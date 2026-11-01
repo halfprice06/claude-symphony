@@ -2124,3 +2124,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 482 (v482 → v483), lens 2, A&S 5-6 sequences
 - A&S PDF 267–277 (5–6 motion against parallel fifths): at 239–240 the tune's E over A moved to C over F, outer-voice fifths on two downbeats (par8 flags all four tune parts). The bass (Vc, Cb, Bn 2, harp LH) now holds A over the bar line and moves to F on 240 beat 2, so Bn 1's E3→F3 becomes a 5–6 over A (IV6 at 240.1) and the outer voices run 5–10–10. Tune, counter-line and the A–F–D bass unchanged; answers c032/c212/c302, whose reason (the tune is movement I's) covered only the tune.
+
+## Cycle 483 (v483 → v484), lens 3, Rimsky-Korsakov tutti
+- Rimsky-Korsakov PDF 120, 127, 130, 136 (no tutti at p; a new group enters pp and crescendos; brass join a crescendo last): the tuba rests 217–220, where it only doubled the contrabassoon and basses under the sub. p, and re-enters pp < on G1 at 221 with the allargando, mf < at 222, fff at 223. Bass pitches, the sub. p at 219, the stop chord and 222→223 unchanged; resting the tuba until 223 was tested and declined.
