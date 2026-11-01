@@ -2154,3 +2154,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 492 (v492 → v493), lens 2, A&S mixture
 - A&S PDF 374, 387–388, 395 (Ex. 23-2d, ♭6 colours ii7 and falls to 5): bar 38's chord before the E♭-minor cadential 6/4 is now iiø7 (F–A♭–C♭–E♭) instead of ii7 with C♮, so the bar no longer mixes the major sixth with the minor third that follows; every C♭ falls to B♭ (Vln I·II, violas, Bn 1, Ob 1·2, Cl 2, Tbn 1·2; Cl 2 C♭4 then B♭3–D4 eighths on beat 4). Bass, F1's head, dynamics and 39–42 unchanged.
+
+## Cycle 493 (v493 → v494), lens 3, A&S 6/4 chords and form
+- A&S PDF 256–258, 309–310, 324 (passing 6/4, stepwise bass): at 195–196 the bass no longer holds C♭ for the whole bar and leaps to G; it runs C♭–B♭–A♭–G–A♭ (Cb, Bn 1), with Hn 1's A♭–G–A♭ neighbour and Bn 2 on E♭2, matching c403's 75–76 a third lower; removes the Bn 1/violin octaves at 195.4→196.1. Tune, cellos, violas, Hn 2, dynamics and 197–198 unchanged; answers c403's skip (works in minor; no instrument added).
