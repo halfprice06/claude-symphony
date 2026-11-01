@@ -2888,3 +2888,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 547 (Texture and counterpoint; Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) (fourth pass)) → v548
+- Accepted: none (orchestra as accompanist fourth pass: solo-register proximity scan; fugato support kept)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
