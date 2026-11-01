@@ -2570,3 +2570,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: proportions vs Beethoven 9/i (recap 0.61, coda 13.7%) noted, protected
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 494 (Orchestration; Adler ch. 5 Scoring for Strings (adler1 PDF 125-167) (third pass)) → v495
+- Accepted: none (strings scoring third pass: unison, spacing and register scans; six candidates tested and kept)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
