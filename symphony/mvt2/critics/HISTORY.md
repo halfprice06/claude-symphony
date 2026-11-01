@@ -2899,3 +2899,10 @@ harmony; A&S Units 28-29 Neapolitan and augmented sixths, PDF 482-529. Report: r
 - Accepted: nothing (v453 = v452 relabelled).
 - Recorded (no change): c452: no change. Neapolitan at 49 follows the book; French sixth at 21 from IV; 61-65 route (protected); 64-65 sixth contracts in the top voice, acceptable (Schubert model); no augmented sixth at 78 (c232); chromatic spellings correct; no Neapolitan in the coda (c310, c312).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 453 (v453 → v454)
+form; A&S Units 6-8 V7, the dominant span and phrase structure, PDF 92-133. Report: reports/c453.md.
+- Accepted: nothing (v454 = v453 relabelled).
+- Recorded (no change): c453: no change. Plan tonic 36, IV 34, V 6, tonic 24 percent on root-position pedals; correction to c313: bar 44 is V7 (violas hold G flat3), resolving deceptively to vi at 45, which keeps the middle section open; chords speed up before arrivals; harmony over barlines only strong-weak-strong; retransition 65-70 passes the 7th; shortened reprise 0.52 of A; V7-I in theme A lands on 3.
+- Do-not-touch: standing list; the 8-page layout.
