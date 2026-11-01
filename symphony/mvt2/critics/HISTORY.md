@@ -3029,3 +3029,10 @@ lens 1; A&S Unit 1. Report: reports/c471.md.
 ## Cycle 472 (v472 → v473)
 - Accepted: Vln II lower half 39 b4 E♭4 (was C4 held through beats 3-4).
 - Do not touch: c402's D♭4-C4 at 39 b2-3.
+
+
+## Cycle 473 (v473 → v474)
+form; A&S Unit 25, applied chords. Report: reports/c473.md.
+- Accepted: nothing (v474 = v473 relabelled).
+- Recorded (no change): c473: no change. Tonicization curve peaks at 56-64 like Mozart 41/ii and Tchaikovsky 6/iv; chromatic voice exchange at 21 and VII°7 at 64 identified; ♭7 over the coda pedal tested and rejected (Dvořák 9/ii coda; c302).
+- Do-not-touch: standing list; the 8-page layout.
