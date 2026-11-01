@@ -1964,3 +1964,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 436 (v436 → v437), lens 6, Rimsky ch. I
 - Rimsky-Korsakov PDF 26 (highest notes on the lower strings in fourth position): Vln II's "sul G" at 255–257 now ends on 256's G4, so the ff C5–D5 at 257 are played on the D string. Marking only.
 - Rimsky-Korsakov PDF 36 (clarinet leaps across the break): the soft held F5 at 103–104 moves from Cl 1 (just off an accented C4 at 102.4) to Cl 2, resting since 95; same sounding pitches.
+
+## Cycle 437 (v437 → v438), lens 7, Adler ch. 16 transcription
+- Adler ch. 16 (PDF 211–213, Ex. XVI-10 Dvořák; PDF 203, 230–231): the violas enter at 8 answering the cellos' F1-head figure a fourth higher and two octaves up (`g'2 d'4. es'8`), the E♭4 falling to their held D4 at 9 (6–5 over V); before, they entered at 9. Bars 1–6 and the other staggered entries at 9–10 unchanged.
+- Declined: a late oboe answer at 19–26, moving the counter at 159–166, a rhythmic B♭ pedal at 83–86, a cello rhythm at 171–186.
