@@ -3079,3 +3079,10 @@ cyclic design; A&S Unit 29, augmented sixths. Report: reports/c480.md.
 - Accepted: nothing (v481 = v480 relabelled).
 - Recorded (no change): c480: no change to the score. Actor updated coherence/mvt2.md (version line, changes through v480, cello reprise note). G♭ spelling at 60 and plain last chord kept for movements I and IV; augmented sixths at 21 and 62-65 resolve correctly; no augmented sixth in the coda (c210, c312).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 481 (v481 → v482)
+melody; Rimsky-Korsakov ch. V. Report: reports/c481.md.
+- Accepted: nothing (v482 = v481 relabelled).
+- Recorded (no change): c481: no change. Doubling plan of both themes, register, climaxes, Fl 1 duet support at 41-44 and the ff unisons follow Rimsky ch. V; accompaniment scan finds only spots already ruled on.
+- Do-not-touch: standing list; the 8-page layout.
