@@ -2876,3 +2876,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 phrase length (protected)
 - Do-not-touch: 122 Tpt 1 A-flat4
 - Cross-movement: none
+
+## Cycle 545 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68) (fourth pass)) → v546
+- Accepted: Score layout: system break moved from before 111 to before 113 (systems 103-112/113-120/121-130), c485 barline overrides removed; Tbn 1-2 barline space at 123 (Gould PDF 54-57). Page 10 now ends at 112
+- Open / not applied: none new
+- Do-not-touch: page ends: page 10 ends at 112 from v546 (others unchanged)
+- Cross-movement: none
