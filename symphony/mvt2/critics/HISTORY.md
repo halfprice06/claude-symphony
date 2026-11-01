@@ -3122,3 +3122,8 @@ texture; Adler ch. 11, contrapuntal brass. Report: reports/c487.md.
 - Accepted: nothing (v488 = v487 relabelled).
 - Recorded (no change): c487: no change. Brass counterpoint, Tbn 2 at 60, horn weights and registers follow Adler ch. 11 (agrees with c337); Dvořák 9/ii's horn diminution at 42-45 noted but the seam 30-31 is protected.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 488 (v488 → v489)
+- Accepted: MIDI-only pizzicato/tremolo patch switches (Cb 37-44, 63; Vla 41-44, 61-64) and Bsn 1 MIDI dynamics at 75-78.
+- Do not touch: the printed dynamics at 53-61, 75-82, 85-92; MIDI fades at 3, 47, 63, 66, 91.
