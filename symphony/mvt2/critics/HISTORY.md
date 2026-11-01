@@ -3492,3 +3492,10 @@ form; Rimsky-Korsakov ch. IV. Report: reports/c543.md.
 - Accepted: nothing (v544 = v543 relabelled).
 - Recorded (no change): c543: no change. Sections scored for their role, every return re-scored, builds and releases in Rimsky's order, brass re-entries recorded with reasons; A′/coda proportions kept.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 544 (v544 → v545)
+orchestration; Rimsky-Korsakov ch. I. Report: reports/c544.md.
+- Accepted: nothing (v545 = v544 relabelled).
+- Recorded (no change): c544: no change. C.a. above the B.cl. solo at 32-34 separated by dynamics (c276); harp f at 78 (c244, c344); muted horns with C.a., plucked bass group, horn/trombone balance and horns at 79-81 follow Rimsky ch. I.
+- Do-not-touch: standing list; the 8-page layout.
