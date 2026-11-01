@@ -3256,3 +3256,8 @@ texture; Sebesky ch. 3, strings with winds. Report: reports/c507.md.
 - Accepted: nothing (v508 = v507 relabelled).
 - Recorded (no change): c507: no change. Trombone register clear at 63-64 (Ex. 216); complete brass and string chords at 61-62, 79-81; builds per Ex. 215; muted horns doubling violas at 87-90 is a plain doubling (corrects c447), protected.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 508 (v508 → v509)
+- Accepted: cello bowing at 59-60 (four bows).
+- Do not touch: down-bow f at 59 and down-bow ff at 61 for the cellos.
