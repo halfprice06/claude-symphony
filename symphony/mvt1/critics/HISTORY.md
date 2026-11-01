@@ -2798,3 +2798,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 532 (Harmony and voice leading; Aldwell & Schachter Units 11-13 VI and IV6; supertonic and subdominant sevenths; other uses of IV and VI (aldwell-schachter PDF 163-210) (fourth pass)) → v533
+- Accepted: none (VI, IV6, supertonic/subdominant sevenths fourth pass; keep). Record correction to c332: 10: iv7 seventh left by leap, D supplied by the bass at 11 (free treatment, A&S PDF 177); the down-step resolution is at 172
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: scherzo v471 bars 1-7 restate I 78-79 Vln I G#5-G5 (recorded in coherence/mvt1.md)
