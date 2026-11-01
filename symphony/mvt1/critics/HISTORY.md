@@ -2708,3 +2708,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 517 (Texture and counterpoint; Adler ch. 11 Scoring for brass: contrapuntal use (adler2 PDF 41-54) (third pass)) → v518
+- Accepted: none (brass counterpoint third pass: Hn 1 in the 129 stretto tested and rejected; keep)
+- Open / not applied: none new
+- Do-not-touch: 127-130 stretto without brass
+- Cross-movement: none
