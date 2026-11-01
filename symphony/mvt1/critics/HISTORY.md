@@ -2792,3 +2792,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: 158-162 Tpt 3 motto tail in whole bars
 - Cross-movement: seed line added to coherence/mvt1.md
+
+## Cycle 531 (Melody and memorability; Rimsky-Korsakov ch. II Melody: woodwind, brass, combined groups (rimsky-principles PDF 64-80) and the examples it cites (fourth pass)) → v532
+- Accepted: none (wind/brass melody fourth pass: doubling scan identical to v441; keep)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
