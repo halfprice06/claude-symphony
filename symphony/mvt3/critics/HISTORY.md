@@ -2088,3 +2088,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 470 (v470 → v471), lens 10, cyclic review
 - A&S Unit 23 (PDF 387–388, Ex. 23-2; PDF 395 Points 2a, 3, 5–6): 242 is iiø7 (D–F–A♭–C) before III♯; Hn 4 A3–A♭3–G♯3–G3 (♮6–♭6–5), harp G♯ (pedal text at 241). Tune, bass and the approach by II unchanged. Cyclic review against movement I v519, movement II v508 and scherzo v461: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51.
+
+## Cycle 471 (v471 → v472), lens 1, Rimsky-Korsakov brass
+- Rimsky-Korsakov PDF 64–80 (brass): no change. Tested and declined the bass trombone joining Tbn 1·2 on F1's head at 247–254 (thickens the band above the C2 pedal that c072 cleared, weighs against the S head in Hn 1·2 and spends the bass trombone's fresh ff entry at 255). Tpt 1 f under the ff woodwinds at 247 confirmed (Rimsky's note to Ex. 75).
