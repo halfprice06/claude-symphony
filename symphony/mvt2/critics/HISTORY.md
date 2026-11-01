@@ -3115,3 +3115,10 @@ orchestration; Adler harp and timpani. Report: reports/c484.md.
 ## Cycle 486 (v486 → v487)
 - Accepted: Bsn 2 \breathe at end of 10.
 - Do not touch: pp< at 60; trombone 1 held back for its single quotation; trumpets tacet.
+
+
+## Cycle 487 (v487 → v488)
+texture; Adler ch. 11, contrapuntal brass. Report: reports/c487.md.
+- Accepted: nothing (v488 = v487 relabelled).
+- Recorded (no change): c487: no change. Brass counterpoint, Tbn 2 at 60, horn weights and registers follow Adler ch. 11 (agrees with c337); Dvořák 9/ii's horn diminution at 42-45 noted but the seam 30-31 is protected.
+- Do-not-touch: standing list; the 8-page layout.
