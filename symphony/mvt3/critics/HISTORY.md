@@ -1952,3 +1952,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 433 (v433 → v434), lens 3, A&S phrase and V7
 - A&S Units 6–8 (PDF 98, 100, 102 Ex. 6-19, 117): the long V7's seventh F now resolves down by step into the recapitulation at 151: Tbn 1 `es'2 c'2`, Tbn 2 `c'2 es2` (F–D to E♭–C in thirds, then exchanging), Bn 1 `es2 g,2`, Vc `<g, es>2 g,2` (all three had leapt away from F). F1, the G pedal, dynamics and the 4–3 and 6–5 at 151–153 unchanged.
 - Checked, no change: bass octave leap to the 7th, root-position long dominant at 139–146, i6 at 11 and 166.
+
+## Cycle 434 (v434 → v435), lens 4, Adler ch. 5 strings
+- Adler ch. 5 (PDF 141, Ex. V-19; PDF 152): the cellos double Vln I an octave lower in the fall at 169–170 (`g,4 d'8( c' b aes g f | d2.)\p r4`), as at 41–42 (c344), instead of holding G2–B2 above the basses; G and B stay in basses and Bn 2.
+- Checked, no change: the major F2 register at 187–198, the plagal close at 231–234, viola-over-violin crossing.
