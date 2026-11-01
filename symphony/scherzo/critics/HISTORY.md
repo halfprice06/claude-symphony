@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 459 (lens 9 holistic, Adler part 1 full-score examples in ch. 5 and 8 (adler1 PDF 137-165, 235-281) (fifth pass)) v459 → v460
+Accepted: Vc/Cb arco under the answers at 31–44 (sA.ily). Do-not-touch: the opening statement 13–28 stays bare (c259, c359). Open: tenor clef for the cellos' F♯4 at 35–36 (engraving lens).
+
 ## Cycle 458 (lens 8 expression, Sebesky ch. 1 focus and variety, ch. 6 melodic considerations (sebesky PDF 11-20, 204-218) (fifth pass)) v458 → v459
 Accepted: 277–280 accompaniment pp (dA.ily). Do-not-touch: 121–124 stays sub. p (two violin octaves carry the tune, c308).
 
