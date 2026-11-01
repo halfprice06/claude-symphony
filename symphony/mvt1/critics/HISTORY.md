@@ -2618,3 +2618,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: 85 subject alone (c227); final motto 177-182 with the Db on beat 3; theme peaks on strong bars
 - Cross-movement: none
+
+## Cycle 502 (Harmony and voice leading; Aldwell & Schachter Unit 27 Seventh chords with added dissonance (aldwell-schachter PDF 463-481) (third pass)) → v503
+- Accepted: Violas 157 arpeggio F3-Ab3-C4-F4 (was Ab3-C4-F4-Ab4): no Ab4 struck under Vln II's accented Bb4 (A&S PDF 469-470)
+- Open / not applied: none new
+- Do-not-touch: 157 viola arpeggio root position
+- Cross-movement: none
