@@ -3327,3 +3327,10 @@ expression; Rimsky-Korsakov ch. IV. Report: reports/c518.md.
 - Accepted: nothing (v519 = v518 relabelled).
 - Recorded (no change): c518: no change. Soft entries at 22, 57, 77, sf-p at 63, release order at 63-66, 81-83, 87-92 and the 57-60 build follow Rimsky ch. IV; c468/c478 changes consistent.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 519 (v519 → v520)
+holistic; Rimsky-Korsakov Ex. 69-130. Report: reports/c519.md.
+- Accepted: nothing (v520 = v519 relabelled).
+- Recorded (no change): c519: proposed change declined. The critic added 'poco animando' at 75 (MIDI 53-55) before the 78 allargando, after Grieg's Piano Concerto ii; c269's do-not-touch includes 'no new tempo words', which the report does not answer, so the actor kept v519. Left open as an option for a later tempo pass. Recorded: Grieg comparison holds; nothing worse since v509; wide low spacing only at p/pp; Bsn tritone at 69-70 protected (optional B.cl. D♭3).
+- Do-not-touch: standing list; the 8-page layout.
