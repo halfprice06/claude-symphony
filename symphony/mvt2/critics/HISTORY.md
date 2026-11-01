@@ -3067,3 +3067,8 @@ texture; Adler ch. 17. Report: reports/c477.md.
 ## Cycle 478 (v478 → v479)
 - Accepted: Bsn 1 pp< p at 54-55; Cl 2 pp at 90 in score and part.
 - Do not touch: Bsn 1 stays one level below the melody (p, not mp).
+
+
+## Cycle 479 (v479 → v480)
+- Accepted: Cl 2 E♭4 tied into 74, D♭4 on b2; Vla 74 b1 E♭3.
+- Do not touch: the 74 b1 voicing around the cello 9-8 (no D♭ above the C4 suspension on the downbeat).
