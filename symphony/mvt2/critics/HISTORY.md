@@ -3203,3 +3203,10 @@ holistic; Adler ch. 5. Report: reports/c499.md.
 - Accepted: nothing (v500 = v499 relabelled).
 - Recorded (no change): c499: no change. Compared with Tchaikovsky's Serenade Op. 48: changing doublings, the big chord at 79, diminuendo by thinning, the muted close all hold; no cello statement of theme A (Hn 1 already has that register; 71-82 protected).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 500 (v500 → v501)
+cyclic design; Casanelles ch. 1. Report: reports/c500.md.
+- Accepted: nothing (v501 = v500 relabelled).
+- Recorded (no change): c500: no change to the score. Actor updated coherence/mvt2.md to v501. Theme records 19/19, 11/11; each quotation once; both joins and all finale links present at pitch; motto tail never in the same colour twice running.
+- Do-not-touch: standing list; the 8-page layout.
