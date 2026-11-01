@@ -2756,3 +2756,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: 82 brass layout
 - Cross-movement: none
+
+## Cycle 525 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: beams (gould-behind-bars PDF 31-41) (fourth pass)) → v526
+- Accepted: Viola stem direction held down through beamed passages at 27-30, 88-89, 139, 167-169 (Gould PDF 39)
+- Open / not applied: lencheck.py should be wired into build.sh (a mid-line % comment silently dropped bars)
+- Do-not-touch: unchanged
+- Cross-movement: none
