@@ -54,6 +54,7 @@ The themes are free to evolve under the critics. symphony/coherence/themes-scher
 - v412 (cycle 411): second idea. Each phrase's first minim becomes a dotted crotchet and a passing quaver, tie over the bar line kept: G major 45/49 old d'''2 b''4~ | e'''2 cis'''4~, new d'''4. c'''8 b''4~ | e'''4. d'''8 cis'''4~; E minor 121/125 and 281 old b''2 g''4~ | c'''2 a''4~, new b''4. a''8 g''4~ | c'''4. b''8 a''4~; reprise E-major antecedent 277 old b''2 gis''4~, new b''4. a''8 gis''4~ (all doubling octaves alike). Record refreshed. No other movement quotes the second idea, so no message was needed.
 - v413 (cycle 412): second idea, E-minor consequent bar 8 (128, 284, all octaves): old dis'''4 b''4. cis'''8, new dis'''4 cis'''4. b''8 (D♯–C♯–B over VII°7 of V, bass F♯–A♯–B). Record refreshed; no message needed.
 - v422 (cycle 421): trio tune T, bars 7–8 (159–160 Cl 1, 175–176 Vc, 215–216 Cl 1/Vln I/II): old e''4. dis''8 cis''4 | ais'4 b'2, new e''4. dis''8 ais'4~ | ais'4 b'2 (7–8 suspension of the leading tone). Coda Ob 1 345–348 keeps the old form (record line trioTcoda). Head unchanged; movement I quotes only the head and the finale does not quote T, so no message was needed.
+- v442 (cycle 441): second idea's cadence (bars 10–11 of each statement: 54–55, 130–131, 286–287, all octaves): G old a''2 fis''4 | a''4 g''2, new b''2 a''4~ | a''4 g''2; E minor old fis''2 dis''4 | fis''4 e''2, new g''2 fis''4~ | fis''4 e''2 (3–2–1 in hemiola minims, 9–8 tie). Record refreshed; no other movement quotes it.
 
 ## Cycle 4 (lens 4 orchestration, Rimsky-Korsakov ch. I and III) v04 → v05
 All 8 findings accepted (reasons in v05/critique.md): horn chords split and tutti balance 105–120/309–324 with Vln II on the theme; harp RH out of the trio off-beats 169–184/209–224; F-major episode thinned (Cl rests, harp chord to LH); Hn 2 lower in the second idea 45–56; Hn 1·2 thirds/sixths 209–224; violas pizz. 257–276; 87–88 doubling; tuba E1 at 341–343. Themes unchanged. Keep: harp alone with the theme head at 73–80; no plucked off-beats doubled by bowed ones.
@@ -187,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
+
+## Cycle 441 (lens 1 melody, Aldwell & Schachter Unit 3 Rhythm and Meter (aldwell-schachter PDF 47-57) (fifth pass)) v441 → v442
+Accepted (theme change): second-idea cadence (sA, sC, dA). Rejected: 5–2–1 close. Do-not-touch: the second idea's cadences are hemiolas with the tied 9–8; the phrase lengths (quoted bar numbers).
 
 ## Cycle 440 (lens 10 cyclic, Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (fifth pass)) v440 → v441
 Accepted: Vln II rests 361–364 (coda.ily). Do-not-touch, reason replaced: 365–368 the upper G♯5 rests between Fl 1 (to 364) and Vln I (from 369) because the close reverses the opening (pair → horn alone at 1–6, horn alone → pair at 365–376) and each four-bar group 361/365/369/373 changes colour on its downbeat around one timpani motive x (c440, replacing c140/c340's 'horn alone mirrors bars 1–2', false since c430). Kept: violas' G♯4 with Hn 1 at 237–239.
