@@ -2892,3 +2892,10 @@ melody; Adler ch. 11 brass melody, adler2 PDF 19-36. Report: reports/c451.md.
 - Accepted: nothing (v452 = v451 relabelled).
 - Recorded (no change): c451: no change. Theme A's B flat appoggiatura gains weight each statement; theme B register plan A flat6, A6, B flat6 deliberate; Hn 3-4 unison at 61-62 a harmony line (protected); horn-with-cello counter-melodies (Strauss model); colour-contrast answers (Berlioz); releases at 62-65 and 81-83.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 452 (v452 → v453)
+harmony; A&S Units 28-29 Neapolitan and augmented sixths, PDF 482-529. Report: reports/c452.md.
+- Accepted: nothing (v453 = v452 relabelled).
+- Recorded (no change): c452: no change. Neapolitan at 49 follows the book; French sixth at 21 from IV; 61-65 route (protected); 64-65 sixth contracts in the top voice, acceptable (Schubert model); no augmented sixth at 78 (c232); chromatic spellings correct; no Neapolitan in the coda (c310, c312).
+- Do-not-touch: standing list; the 8-page layout.
