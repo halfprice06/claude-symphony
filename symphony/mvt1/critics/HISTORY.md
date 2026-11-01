@@ -2696,3 +2696,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: 158 violas C4/E4
 - Cross-movement: none
+
+## Cycle 515 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: stave, clefs, noteheads, stems, tails (gould-behind-bars PDF 17-30) (third pass)) → v516
+- Accepted: Violas in treble clef at 107-110 (alto from 111); phrase needed up to four ledger lines (Gould PDF 21-23)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
