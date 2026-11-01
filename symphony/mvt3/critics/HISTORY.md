@@ -1988,3 +1988,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 442 (v442 → v443), lens 2, A&S added dissonance
 - A&S Unit 27 (PDF 469–470, Ex. 27-10): the harp's second group at 72 no longer sounds the root B♭4 a seventh above the violas' 9th C4 in the B♭9 dominant (`f'8 aes'8 d''8 f''8`), as c352 did at 81.
 - Tested and declined: a dominant ninth at 128 (cluster under Vln II's F♯4). Checked: the violas' 9th at 46.3.
+
+## Cycle 443 (v443 → v444), lens 3, A&S III and VII
+- A&S Unit 15 (PDF 236 Ex. 15-9; PDF 243–245): bar 16 beat 3 now sounds the full ii∅7 (D–F–A♭–C) as at 156.3: Cl 1 `aes'2( f'2)`, Cl 2 `f'2( c'2)` (the chord stood a quarter note as a bare diminished triad).
+- Declined: ♮VII → IV6 → V at 16–18, III under the passing 7 at 69. Key plan and proportions checked.
