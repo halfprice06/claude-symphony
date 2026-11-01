@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 429 (lens 9 holistic, Rimsky-Korsakov examples No. 126-200 (rimsky-principles PDF 305-375) (fifth pass)) v429 → v430
+Accepted: Cb arco pp 169–183 (tA.ily, tB.ily). Kept: bassoon above Hn 3 at 75–76/82–83 (c019's horn thirds; Rimsky Ex. 158). Do-not-touch: the two trio statements differ in bass (harp/pizz. 153–168, arco basses 169–183).
+
 ## Cycle 428 (lens 8 expression, Adler ch. 11 climactic uses of brass (adler2 PDF 37-40) and ch. 15 special effects (adler2 PDF 187-196) (fifth pass)) v428 → v429
 Accepted: trumpets tacet 289–324 (dB.ily, dC.ily). Do-not-touch: the reprise tutti 305–320 without trumpets; trumpets and low brass return together at 333.
 
