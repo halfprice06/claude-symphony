@@ -3301,3 +3301,8 @@ orchestration; Casanelles PDF 285-291. Report: reports/c514.md.
 - Accepted: nothing (v515 = v514 relabelled).
 - Recorded (no change): c514: no change. Counter-lines unmasked (densest at 58 b2, protected); horn/brass dynamics at 60-62 and 79-81, solo-over-accompaniment levels and distance-by-highs follow Casanelles and Rimsky PDF 41.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 515 (v515 → v516)
+- Accepted: Vla 74 \stemDown.
+- Do not touch: down-stems throughout the viola figure 71-78.
