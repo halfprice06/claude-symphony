@@ -2926,3 +2926,10 @@ engraving (parts); MOLA PDF 1-16. Report: reports/c455.md.
 playability; Sebesky ch. 2 (PDF 21-110). Report: reports/c456.md.
 - Accepted: B.cl. breath at the end of 58 (extends c176's breath plan).
 - Do-not-touch: breath plan 57-60 as extended; standing list; the 8-page layout.
+
+
+## Cycle 457 (v457 → v458)
+texture; Adler ch. 8 woodwind textures, adler1 PDF 251-281. Report: reports/c457.md.
+- Accepted: nothing (v458 = v457 relabelled).
+- Recorded (no change): c457: no change. Correction to c177/c317: no wind imitation at 57-60 is by choice (c124 rule, c277), not as Dvořák 9/ii, which does imitate at its 90-92. Viola sextuplets crossing the horn line at 59-60 follow the Sacre example (locked; one-group change in the report if reopened); pulsation at 48-51 and 71-74; theme A's three colours; spacing; Vln I C5 alone as third of the last chord (protected link).
+- Do-not-touch: standing list; the 8-page layout.
