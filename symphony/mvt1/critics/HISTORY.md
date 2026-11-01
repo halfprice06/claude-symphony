@@ -2978,3 +2978,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: P's scale descent at 21-22 (protected)
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 562 (Harmony and voice leading; Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (fourth pass)) → v563
+- Accepted: none (seventh chords and applied V/VII fourth pass; changes since v472 follow the reading)
+- Open / not applied: 137.4-138 iio7 seventh C4 not resolved in register (138 stop-chord layout is quoted; kept)
+- Do-not-touch: 138 stop-chord layout
+- Cross-movement: none
