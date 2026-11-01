@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 423 (lens 3 form, Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground (fifth pass)) v423 → v424
+Accepted: Vln II rests 229–232 (tC.ily). Do-not-touch: nothing held above the codetta's wind solos at 225–236.
+
 ## Cycle 422 (lens 2 harmony, Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529) (fifth pass)) v422 → v423
 Accepted: Italian sixth at 300 in the strings (dB.ily), after rejections by c062, c242, c332 (c422 answered each). Do-not-touch: three different augmented-sixth approaches (French pp pizz. 244, Italian ff arco 300, French 331); the Neapolitan route 85–89; plagal close 357–360. Do not remove the Italian sixth at 300 without a stronger reason than c332's.
 
