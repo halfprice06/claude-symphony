@@ -2094,3 +2094,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 472 (v472 → v473), lens 2, A&S supertonic seventh
 - A&S PDF 173, 177, 179 (II6/5; the seventh held as the 4th of the cadential 6/4): at 249 Hn 4 plays C4 instead of doubling the bass F3, holds it into the 6/4 and falls to B3 on 250.3, so 248–250 run ii7 → ii6/5 → 6/4 → V7 and the F3–E4 seventh leap is gone. Corrects c382's reading of 248–249. Themes, the combination's lines and the c374 spacing unchanged.
+
+## Cycle 473 (v473 → v474), lens 3, A&S chromatic plans
+- A&S Unit 32 (chromatic voice leading and large-scale plans): no change. Tested and declined a voice exchange putting F in the bass at 242 (parallel fifths 242.3→243.1, and a third F-bass ii in nine bars) and Vln I resolving F♯5 to G5 at 115 (Vln II already takes G5; the slur would cross the page turn into the bassoon solo). Proportions timed from the MIDI: coda 31% (accepted c219); its slow (211–246) and fast parts are now about equal in length.
