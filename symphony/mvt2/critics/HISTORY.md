@@ -3249,3 +3249,10 @@ playability; Rimsky-Korsakov ch. I. Report: reports/c506.md.
 - Accepted: nothing (v507 = v506 relabelled).
 - Recorded (no change): c506: no change. B.cl. solo at 31-36, Vln I above C6 at 71-73, covered strings at 64-66, high horn notes and soli markings all follow Rimsky ch. I or are protected.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 507 (v507 → v508)
+texture; Sebesky ch. 3, strings with winds. Report: reports/c507.md.
+- Accepted: nothing (v508 = v507 relabelled).
+- Recorded (no change): c507: no change. Trombone register clear at 63-64 (Ex. 216); complete brass and string chords at 61-62, 79-81; builds per Ex. 215; muted horns doubling violas at 87-90 is a plain doubling (corrects c447), protected.
+- Do-not-touch: standing list; the 8-page layout.
