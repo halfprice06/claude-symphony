@@ -2444,3 +2444,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 156 flat-VII triad; 40 doubled leading tone; 177.4 doubled 7th; 161-162 trumpet B-C; 64.3
 - Cross-movement: none
+
+## Cycle 473 (Form, pacing and proportion; Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (third pass)) → v474
+- Accepted: no change (6/3-chord techniques as form, third pass; Jupiter/i retransition comparison)
+- Open / not applied: none
+- Do-not-touch: retransition 111-130; proportions; 127-130 V with 6; 61 no 7-6; 155-158 bass; 6-8, 172-179
+- Cross-movement: none
