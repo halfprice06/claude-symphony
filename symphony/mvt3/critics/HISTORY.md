@@ -2166,3 +2166,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 496 (v496 → v497), lens 6, Adler brass
 - Adler adler1 PDF 292, adler2 PDF 8 (brass need rests): Tbn 1·2 and the bass trombone held whole notes 211–228 (about 33 s) and sat on F3/D♭3 just under the cor anglais and Hn 1·2 echo at 217–218; they now end with the 216 diminuendo, rest 217–218 and re-enter p at 219, as the tuba and Tpt 3 do. The chord stays complete (F in strings, Bn 2, Cbsn; D♭ in violins, violas, woodwinds); dynamics, 222→223 and the chorale unchanged.
+
+## Cycle 497 (v497 → v498), lens 7, Adler brass in combination
+- Adler part 2 PDF 41–44 (brass in modern scoring): no change. Tested and declined short brass strokes on 2 and 4 at 207–208 (no gaps in the head to fill; drifts back to 199–204's hammered texture) and Hn 3 on the chromatic counter-melody at 239–242 (undoes c247 and drops the F chord's held fifth).
