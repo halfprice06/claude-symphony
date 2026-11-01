@@ -2097,3 +2097,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 473 (v473 → v474), lens 3, A&S chromatic plans
 - A&S Unit 32 (chromatic voice leading and large-scale plans): no change. Tested and declined a voice exchange putting F in the bass at 242 (parallel fifths 242.3→243.1, and a third F-bass ii in nine bars) and Vln I resolving F♯5 to G5 at 115 (Vln II already takes G5; the slur would cross the page turn into the bassoon solo). Proportions timed from the MIDI: coda 31% (accepted c219); its slow (211–246) and fast parts are now about equal in length.
+
+## Cycle 474 (v474 → v475), lens 4, Rimsky-Korsakov tutti
+- Rimsky-Korsakov PDF 505–507, Ex. 209 (held tutti chords with timpani take a roll): at 167–168 the timpani's single A♭ stroke under the link chords becomes a roll fading f > p (`aes,1:32\f\>~ | aes,2:32~ aes,4:32\p r4`), as at the matching link 39–40 and the other augmented sixths over A♭ (5, 219, 261). It ends before the horns fade, so c108's diminuendo order holds; 166 and the soft sticks at 171 unchanged.
