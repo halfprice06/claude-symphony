@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 439 (lens 9 holistic, Rimsky-Korsakov examples No. 201-260 (rimsky-principles PDF 376-440) (fifth pass)) v439 → v440
+Accepted: Fl 1 with the solo violin at 349–356 (coda.ily); reverses the v45 'no Fl 1' at 349 for the top octave only. Do-not-touch: coda T top octave = solo violin + Fl 1 (one player per instrument).
+
 ## Cycle 438 (lens 8 expression, Casanelles ch. 4 dynamics layering and expression in performance (hyper-orchestra PDF 145-161) and ch. 6 volume and dynamics (PDF 290-291) (fifth pass)) v438 → v439
 Accepted: one solo violin at 349 (coda.ily). Do-not-touch: the coda's T is carried by single players throughout (Hn 3, Ob 1, solo violin, Hn 1).
 
