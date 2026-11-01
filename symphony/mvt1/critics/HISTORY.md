@@ -2768,3 +2768,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 527 (Texture and counterpoint; Adler ch. 5 foreground, middleground, background; strings as accompaniment (adler1 PDF 132-167) (fourth pass)) → v528
+- Accepted: none (strings as accompaniment fourth pass: spacing, doubled thirds, shared pitches scanned; keep)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
