@@ -25,7 +25,8 @@ def get(v):
 cues=json.load(open(W+"/parts-cues.json"))
 for p,cl in sorted(cues.items()):
     own=get(partvar[p]) if p!="25" else (get("harpR")|get("harpL"))
-    for q,lab,d,b,n in cl:
+    for c in cl:
+        q,lab,d,b,n=c[:5]
         src=get(qv[q]); rng=range(b,b+n)
         sounding=[x for x in rng if x in src]
         ownin=[x for x in rng if x in own]

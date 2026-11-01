@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 436 (lens 6 playability, Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50) (fifth pass)) v436 → v437
+Accepted: Bsn 2 on the bass 169–180 (tA.ily, parts-cues.json). Note: the second trio statement 169–184 now carries cellos + Hn 3 (to 176) + violas (from 177) on T, Vln II con sord. quavers, arco basses + Bsn 2, Fl 1 answers; it is full, so later critics should thin rather than add there. Kept: Cbsn 210–220, harp LH 75–80, solo violins 349–356.
+
 ## Cycle 435 (lens 5 engraving, MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score (fifth pass)) v435 → v436
 Accepted: parts only (parts-cues.json, parts-gen.py, parts-lib.ily). Rule from c435: any cycle that moves or silences a line reruns the cue check and the parts' page-turn check.
 
