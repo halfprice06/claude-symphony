@@ -2402,3 +2402,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: uncued tutti entries 26, 69, 82, 158; shared percussion staff; composer name (c200)
 - Cross-movement: none
+
+## Cycle 466 (Playability, instrument by instrument; Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13) (third pass)) → v467
+- Accepted: no change (brass ranges and endurance, third pass); record: Hn 4 plays 111-142 with no full bar's rest (breaths every 2-4 bars) - do not lengthen
+- Open / not applied: none
+- Do-not-touch: Hn 4 111-142 stint length; Hn 1 111-123; Tbn 80 pickup; 175-179 chorale
+- Cross-movement: none
