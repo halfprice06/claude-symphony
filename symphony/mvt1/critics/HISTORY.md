@@ -2498,3 +2498,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: main suspensions 13-14, 44, 66-67, 164-165, 178-179; 53.3; 161.4 anticipation
 - Cross-movement: none
+
+## Cycle 482 (Harmony and voice leading; Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529) (third pass)) → v483
+- Accepted: no change (Neapolitan and augmented sixths, third pass)
+- Open / not applied: none
+- Do-not-touch: 105.3-106 It6 spelling; 111-117 lament bass; 160-163; 178.3; 61; 12-13; Neapolitan settings 7, 20-22, 140-143, 172-174, 178, 180
+- Cross-movement: none
