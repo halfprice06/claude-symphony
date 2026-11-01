@@ -2858,3 +2858,10 @@ playability; Adler App. A ranges and terms, adler2 PDF 302-312. Report: reports/
 - Accepted: nothing (v447 = v446 relabelled).
 - Recorded (no change): c446: no change. Checked against Adler's amateur column too: Fl 1 above it only at ff climaxes (61-63, 79), approached by step; Vln I top notes at 57-63 and 79 normal; Cl 1 C6 and Vln II C6 at the edge at climaxes; low-edge notes settled earlier; brass inside amateur ranges; all terms in Adler's table.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 447 (v447 → v448)
+texture; Sebesky ch. 3 strings, PDF 133-173. Report: reports/c447.md.
+- Accepted: nothing (v448 = v447 relabelled).
+- Recorded (no change): c447: no change. Two-line strings at 53-56 with harp and counter-line supplying the third (c049, c164); lowest cello with the bass; no string seconds above C5; never more than two divisi lines (Vln I rests 37-52, c041); cello split at 21-22; octave reinforcement at 45-46, 57-62, 79-81; a rising voice in every build bar; horns with strings sparingly.
+- Do-not-touch: standing list; the 8-page layout.
