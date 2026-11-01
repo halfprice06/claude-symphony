@@ -190,6 +190,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 471 (lens 1 melody, Rimsky-Korsakov ch. II Melody: woodwind, brass, combined groups (rimsky-principles PDF 64-80) and the examples it cites (sixth pass)) v471 → v472
+Accepted: C.a. lower octave of the second idea at 45–55 (sA.ily). Do-not-touch: 121–124 stays undoubled (soft, intimate).
+
 ## Cycle 470 (lens 10 cyclic, Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397) (fifth pass)) v470 → v471
 Accepted: Vln I G5 at 7–8 (intro.ily). Do-not-touch: no C♮ in 341–358 (♭6 must not precede ♮6, A&S PDF 388); Cl 2's G4 and no E4 at 7–8 (c040, c270).
 
