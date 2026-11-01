@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 430 (lens 10 cyclic, Casanelles ch. 5 Hyperorchestral aesthetic frameworks: themes and their transformation (hyper-orchestra PDF 199-254) (fifth pass)) v430 → v431
+Accepted: Vln I G♯5 ppp at 1–2 (intro.ily). Rejected: Vln II G♯4 unison (hidden in the horn); violin held into 3 (clashes with D♯ at 5–6). Do-not-touch: the G♯ pair Hn 1 G♯4 + Vln I G♯5 frames the movement (1–2 and 369–376).
+
 ## Cycle 429 (lens 9 holistic, Rimsky-Korsakov examples No. 126-200 (rimsky-principles PDF 305-375) (fifth pass)) v429 → v430
 Accepted: Cb arco pp 169–183 (tA.ily, tB.ily). Kept: bassoon above Hn 3 at 75–76/82–83 (c019's horn thirds; Rimsky Ex. 158). Do-not-touch: the two trio statements differ in bass (harp/pizz. 153–168, arco basses 169–183).
 
