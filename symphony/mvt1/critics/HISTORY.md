@@ -2612,3 +2612,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 501 (Melody and memorability; Aldwell & Schachter Unit 3 Rhythm and Meter (aldwell-schachter PDF 47-57) (third pass)) → v502
+- Accepted: none (rhythm and meter, melody lens, third pass; Ex. 3-5c and beat-1 scans clean apart from the solo fugato subject at 85, kept)
+- Open / not applied: none new
+- Do-not-touch: 85 subject alone (c227); final motto 177-182 with the Db on beat 3; theme peaks on strong bars
+- Cross-movement: none
