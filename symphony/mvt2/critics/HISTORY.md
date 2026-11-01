@@ -3391,3 +3391,10 @@ playability; Adler ch. 3, strings. Report: reports/c526.md.
 ## Cycle 528 (v528 → v529)
 - Accepted: viola part text spacing at 83-84.
 - Open (optional): part-only f for Cl 1·2 at 60.
+
+
+## Cycle 529 (v529 → v530)
+holistic; Rimsky-Korsakov tutti chords. Report: reports/c529.md.
+- Accepted: nothing (v530 = v529 relabelled).
+- Recorded (no change): c529: no change. Tutti at 61-62, partial tutti at 79-81, soft chords and the sf at 63 follow Rimsky's chord tables; Elgar 2/ii comparison holds; nothing worse since v519.
+- Do-not-touch: standing list; the 8-page layout.
