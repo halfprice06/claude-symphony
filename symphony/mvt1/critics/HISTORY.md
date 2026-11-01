@@ -2438,3 +2438,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: S head and growth 63-64 to 158-161; P sentence 15-22; flute motto 73-76 with Vln II inner voice; Cl 1/Hn 2 counter 56-68
 - Cross-movement: none
+
+## Cycle 472 (Harmony and voice leading; Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (third pass)) → v473
+- Accepted: no change (remaining seventh chords, applied V and VII, third pass)
+- Open / not applied: none
+- Do-not-touch: 156 flat-VII triad; 40 doubled leading tone; 177.4 doubled 7th; 161-162 trumpet B-C; 64.3
+- Cross-movement: none
