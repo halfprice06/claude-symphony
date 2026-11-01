@@ -2142,3 +2142,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 488 (v488 → v489), lens 8, Adler brass expression
 - Adler PDF 304–305 (Ex. X-8, X-12: horns on a passionate unison marked espress.): Hn 3·4 now carry "espress." with their ff at 255, like the strings on F2's last phrase (marked on both horns so it prints once over a2, as c138 found at 217). Text only; MIDI identical. Phrase slurs on the brass chorale considered and declined (repeated common tones would read as ties; 223–234 protected).
+
+## Cycle 489 (v489 → v490), lens 9, holistic comparison
+- A&S PDF 585–586 (Ex. 32-3, a common tone held across a chromatic key change): Hn 4 now ties A♭3 into G♯3 at 242→243 (iiø7 → E major) instead of breathing and re-striking it; its breath moves to after 240, with Hn 3 breathing and crescendoing there too. No pitches changed. Holistic comparison with Sibelius 2/iv and v479 → v489 check: no further change.
