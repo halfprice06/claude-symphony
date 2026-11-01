@@ -3105,3 +3105,8 @@ orchestration; Adler harp and timpani. Report: reports/c484.md.
 - Accepted: nothing (v485 = v484 relabelled).
 - Recorded (no change): c484: no change. Harp harmonics at 82-83, pedalling, deliberately thin two-note hands, timpani layout and roll endings, and harp silence at climaxes follow Adler; c436 retune still open (scherzo thread).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 485 (v485 → v486)
+- Accepted: \removeWithTag #'part on Vln II in score.ly; score "via sord." at 92 b3 for upper strings; Cbn BarNumber.staff-padding 4.5; B.tbn score hairpin ending in 64.
+- Do not touch: the score/part split of the B.tbn hairpin at 64 (the part keeps <>\!).
