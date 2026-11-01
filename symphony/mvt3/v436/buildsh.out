@@ -1,0 +1,64 @@
+lilypond rc=0, warnings/errors: 0
+audio: 431.520000s
+Duration: 422s, 279 bars (metre from MIDI time signatures)
+
+Tracks: name | notes | range | violations
+  Flutes 1Â·2:one                108  C5-C7  
+  Flutes 1Â·2:two                 58  B4-Bb6  
+  Flutes 1Â·2:shared             239  Bb4-A6  
+  Flutes 1Â·2:solo               140  Ab4-Bb6  
+  Oboes 1Â·2:one                  74  G4-E6  
+  Oboes 1Â·2:two                  38  F4-A5  
+  Oboes 1Â·2:shared              201  D4-Eb6  
+  Oboes 1Â·2:solo                157  D4-Bb5  
+  Oboe 2:                         11  D4-C5  
+  Cor anglais:                    54  Ab3-G5  
+  Clarinets 1Â·2:one             255  F3-E6  
+  Clarinets 1Â·2:two             130  Eb3-A5  
+  Clarinets 1Â·2:shared          340  Eb3-E6  
+  Clarinets 1Â·2:solo            183  D3-D6  
+  Bass clarinet:                  53  D2-Ab3  
+  Bassoons 1Â·2:one              284  G2-Bb4  
+  Bassoons 1Â·2:two              182  Bb1-Bb3  
+  Bassoons 1Â·2:shared           162  C2-Ab4  
+  Bassoons 1Â·2:solo             105  G2-A4  
+  Contrabassoon:                 179  C1-G2  
+  Horns 1Â·2:one                  54  F3-D5  
+  Horns 1Â·2:two                  56  Bb2-A4  
+  Horns 1Â·2:shared              314  B2-D5  
+  Horns 1Â·2:solo                 58  F3-Bb4  
+  Horns 3Â·4:one                  36  Ab3-C5  
+  Horns 3Â·4:two                  36  E3-F4  
+  Horns 3Â·4:shared              357  C3-Bb4  
+  Horns 3Â·4:solo                  2  Ab3-C4  
+  Trumpets 1Â·2:one               18  Ab4-Bb5  
+  Trumpets 1Â·2:two               19  F4-F#5  
+  Trumpets 1Â·2:shared           201  C4-C6  5 notes out of range (trumpet F#3-Bb5), first at bar 243: C6
+  Trumpets 1Â·2:solo              73  B3-Bb5  
+  Trumpet 3:                     123  Bb3-C5  
+  Trombones 1Â·2:one              40  Bb2-F4  
+  Trombones 1Â·2:two              23  Bb2-Bb3  
+  Trombones 1Â·2:shared          214  G2-F4  
+  Bass trombone:                 117  Bb1-F3  
+  Tuba:                          127  Eb1-G2  
+  Timpani:                      1020  F2-Eb3  
+  drums                            3  C#3-C#3  
+  Harp RH:                       193  G3-G6  
+  Harp LH:                       109  D1-Bb4  
+  Violins I:                     757  D4-C7  
+  Violins II:                    895  G3-A6  
+  Violas:                        970  C3-Eb5  
+  Violoncellos:                  602  C2-Bb4  
+  Double basses:                 673  D1-G3  9 notes out of range (double bass E1-C4), first at bar 75: Eb1
+  :2                               2  C2-C2  
+
+Top-line (Flutes 1Â·2:one) intervals: 107 | steps 65% | leaps>=4th 17% | repeats 6%
+  interval histogram (semitones): {0: 7, 1: 30, 2: 33, 3: 9, 4: 9, 5: 5, 6: 1, 7: 3, 8: 4, 9: 3, 10: 2, 17: 1}
+
+Outer-voice parallels (top vs bass, similar motion): 0  (+3 doubling runs ignored)
+
+Profile per 4 bars: attacks | voices sounding (avg) | top | bottom
+  bars   1-  4:  106 | 12.2 | C6   | G1
+  bars   5-  8:   92 | 12.6 | C6   | G1
+  bars   9- 12:  151 | 12.6 | F6   | F1
+ 

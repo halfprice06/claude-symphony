@@ -1956,3 +1956,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 434 (v434 → v435), lens 4, Adler ch. 5 strings
 - Adler ch. 5 (PDF 141, Ex. V-19; PDF 152): the cellos double Vln I an octave lower in the fall at 169–170 (`g,4 d'8( c' b aes g f | d2.)\p r4`), as at 41–42 (c344), instead of holding G2–B2 above the basses; G and B stay in basses and Bn 2.
 - Checked, no change: the major F2 register at 187–198, the plagal close at 231–234, viola-over-violin crossing.
+
+## Cycle 435 (v435 → v436), lens 5, MOLA parts
+- MOLA PDF 5, Ex. 4; Adler part 2 PDF 299: part-only cues before five entries after long rests at 127–132 (Fl 1 at 129, Hn 1 at 127, Hn 3·4 at 129, Ob 1 at 131, timpani at 132); new \addQuote "clOne".
+- MOLA PDF 8, Ex. 7: in the cor anglais and bass clarinet parts, line breaks before 235 (and 255 in the cor anglais) so letters P and Q each stand over their own rest. Score and MIDI unchanged; parts book 0 warnings.
