@@ -188,6 +188,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 428 (lens 8 expression, Adler ch. 11 climactic uses of brass (adler2 PDF 37-40) and ch. 15 special effects (adler2 PDF 187-196) (fifth pass)) v428 → v429
+Accepted: trumpets tacet 289–324 (dB.ily, dC.ily). Do-not-touch: the reprise tutti 305–320 without trumpets; trumpets and low brass return together at 333.
+
 ## Cycle 427 (lens 7 texture, Adler ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) (fifth pass)) v427 → v428
 Accepted: C.a. rests 189–192 (tB.ily); timpani rests at 245 (retr.ily); four C.a. cues at 189 removed from parts-cues.json. Rejected: B4 suspension for Hn 1 at 199 (c322); Vln I in unison at 209–216 (c426's C♯5). Do-not-touch: timpani motive x at 241 and 249 (finale IV 143–145).
 
