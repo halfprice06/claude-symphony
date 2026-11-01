@@ -2942,3 +2942,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 556 (Playability, instrument by instrument; Adler ch. 9-10 Brass: horn, trumpet, trombone, tuba, endurance and ranges (adler1 PDF 282-329, adler2 PDF 1-13) (fourth pass)) → v557
+- Accepted: Tbn 1 part-only breath at 119.4 (with Hn 1-2; Tbn 2 sustains), ending an 11.3 s loud span; score unchanged (Adler adler1 PDF 292)
+- Open / not applied: none new
+- Do-not-touch: staggered breaths 115-123 kept
+- Cross-movement: none
