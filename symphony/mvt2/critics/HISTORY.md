@@ -3844,3 +3844,10 @@ orchestration; Adler ch. 11 brass scoring. Report: reports/c594.md.
 - Accepted: nothing (v595 = v594 relabelled).
 - Recorded (no change): c594: no change. Horn weights at 61-62 (c264), trombone-free A′ peak, held-back trombone quotation, low-brass spacing and soft horn chords follow Adler ch. 11. Rejected (do not retest): soft trombone chord at 82-83 would cover the timpani at 84-86.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 595 (v595 → v596)
+
+Accepted: Hn 3 slur above the chord at 3-6.
+Declined: Bsn 2 \partCombineSoloII at 72-74 (would cut the slur from 71, the protected seventh resolution, c553).
+Do-not-touch: link 1-6; Bsn 2 slur 71-72; Cl 1 rest with fermata at 92; standing list; 8-page layout.
