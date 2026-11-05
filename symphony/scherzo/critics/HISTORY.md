@@ -193,6 +193,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 515 (lens 5 engraving, Gould introduction and contents (gould-behind-bars PDF 7-13), then a second pass over PDF 17-68 for any rule not yet checked (sixth pass)) v515 → v516
+Accepted: Cl 2 rest position at 192 (tB.ily). Print only.
+
 ## Cycle 514 (lens 4 orchestration, Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54) (sixth pass)) v514 → v515
 Accepted: countermelody in Bsn 1/Hn 3·4 at 333–335 (coda.ily).
 
