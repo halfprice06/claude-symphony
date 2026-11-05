@@ -3182,3 +3182,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: slurs 46.4-48.4/146.4-148.4; div./unis. and technique pairing
 - Cross-movement: none (stop chord 26 pitches and layout unchanged)
+
+## Cycle 596 (Playability, instrument by instrument; Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (fourth pass)) → v597
+- Accepted: none (no change)
+- Open / not applied: low flute colour still unused (protected spots)
+- Do-not-touch: C.a. to Cl 1 colour change at 175-177; no mutes (c76)
+- Cross-movement: none
