@@ -192,6 +192,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 494 (lens 4 orchestration, Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (sixth pass)) v494 → v495
+Accepted: Fl 1 sempre pp at 349–356 (coda.ily). Do-not-touch: 349–356 is now settled (c438, c439, c457, c466, c467, c490, c494); leave its scoring alone.
+
 ## Cycle 493 (lens 3 form, Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (sixth pass)) v493 → v494
 Accepted: violas at 355 (coda.ily), harp at 166 (tA.ily). Do-not-touch: the violas at 354–355 now resolve the 4th by rising (supersedes c462/c092).
 
