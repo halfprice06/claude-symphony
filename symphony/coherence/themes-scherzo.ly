@@ -24,7 +24,7 @@ secondIdeaEmaj = { b''4. a''8 gis''4~ | gis''4 e'''2 | dis'''2 cis'''4~ | cis'''
 
 % trioT: v12 ClOne bars 153-167 (since v12 the third phrase peaks on A5 in bar 11; since v62 the cadence E is tied over into bar 14 and resolves to D sharp on beat 2); since scherzo v322 (c321) bar 3 is D♯5–F♯4–B4, a falling sixth (was D♯5–C♯5–B4); since v332 (c331) bars 3–4 are D♯5–F♯4–A4 tied | A4–G♯4, the V7's seventh held as a 4–3 suspension; since v422 (c421) bars 7–8 are E5–D♯5–A♯4 tied | A♯4–B4, a 7–8 suspension of the leading tone at the half cadence (was E5–D♯5–C♯5 | A♯4–B4)
 trioT = { gis'2 a'4 | b'2 e''4 | dis''4. fis'8 a'4~ | a'4 gis'2 | a'2 b'4 | cis''4 fis''2 | e''4. dis''8 ais'4~ | ais'4 b'2 | cis''2 dis''4 | e''4 gis''4 a''4~ | a''4. gis''8 fis''4 | cis''4 b'4 a'4 | gis'4 b'4 e''4~ | e''4 dis''4 fis''4 | e''2. }
-% trioTcoda: the coda's Ob 1 fragment at 345-348 (in A) keeps T's earlier half cadence (bar 7 beat 3 C sharp, bar 8 A sharp unprepared); c421 left it, since Bsn 1's E3 at 347 would sound the resolution under a suspended D sharp
+% trioTcoda (unused since v492, c491: the coda fragment now has the tied leading tone and is checked against trioT): the coda's Ob 1 fragment at 345-348 (in A) keeps T's earlier half cadence (bar 7 beat 3 C sharp, bar 8 A sharp unprepared); c421 left it, since Bsn 1's E3 at 347 would sound the resolution under a suspended D sharp
 % c480 (v481): the trio's forte call 197-200 has a Neapolitan sixth (D major over F sharp) at 199, so T's bar 3 is D natural there only.
 trioTcall = { gis'2 a'4 | b'2 e''4 | d''4. fis'8 a'4~ | a'4 gis'2 | a'2 b'4 | cis''4 fis''2 | e''4. dis''8 ais'4~ | ais'4 b'2 | cis''2 dis''4 | e''4 gis''4 a''4~ | a''4. gis''8 fis''4 | cis''4 b'4 a'4 | gis'4 b'4 e''4~ | e''4 dis''4 fis''4 | e''2. }
 trioTcoda = { gis'2 a'4 | b'2 e''4 | dis''4. fis'8 a'4~ | a'4 gis'2 | a'2 b'4 | cis''4 fis''2 | e''4. dis''8 cis''4 | ais'4 b'2 | cis''2 dis''4 | e''4 gis''4 a''4~ | a''4. gis''8 fis''4 | cis''4 b'4 a'4 | gis'4 b'4 e''4~ | e''4 dis''4 fis''4 | e''2. }
@@ -79,7 +79,7 @@ motiveXrepeated = { b,4 b,8 b,8 b,4 }
 %@ trioT FluteOne 217 16 17
 % coda: T shared out, bars 1-4 Hn 1, bars 5-8 Cl 1, bars 9-16 Vln I
 %@ trioT HnThree 341 8
-%@ trioTcoda OboeOne 345 9 9
+%@ trioT OboeOne 345 8 9
 %@ trioT VlnOne 349 13 17
 % (since v44 the coda statement's cadence differs: 354-356 gis'''2 fis'''8 e''' | dis'''2 fis'''4 | e'''2 r4, expanded cadential 6/4; checked through bar 353 only)
 %@ mottoTail HnOne 357

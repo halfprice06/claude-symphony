@@ -191,6 +191,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 491 (lens 1 melody, Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (sixth pass)) v491 → v492
+Accepted: tied leading tone in the coda fragment 347–348 (coda.ily). Record: trioT OboeOne 345 8 9.
+
 ## Cycle 490 (lens 10 cyclic, Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (fifth pass)) v490 → v491
 Accepted: Vln II la metà through 360 (coda.ily). Record: the closing E4 stays (Hn 4 since c488) on c390's held-chord reason.
 
