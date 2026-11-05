@@ -3851,3 +3851,9 @@ orchestration; Adler ch. 11 brass scoring. Report: reports/c594.md.
 Accepted: Hn 3 slur above the chord at 3-6.
 Declined: Bsn 2 \partCombineSoloII at 72-74 (would cut the slur from 71, the protected seventh resolution, c553).
 Do-not-touch: link 1-6; Bsn 2 slur 71-72; Cl 1 rest with fermata at 92; standing list; 8-page layout.
+
+
+## Cycle 596 (v596 → v597)
+
+Accepted: part-only Vc. cue for Hn 3·4 at 27-28.
+Do-not-touch: horn layout 61-62; muted horns 87-90; existing cue set; standing list; 8-page layout.
