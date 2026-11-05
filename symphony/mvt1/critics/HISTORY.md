@@ -2996,3 +2996,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: woodwind plan as a whole
 - Cross-movement: none
+
+## Cycle 565 (Engraving and notation (Gould's *Behind Bars*, MOLA); Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (fourth pass)) → v566
+- Accepted: Score now shows the part-only breaths: C.a. '(breathe ad lib.)' at 8; Tbn 1 '1.' breath at 119.4 on the Tbn 1-2 staff (Adler adler2 PDF 291)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
