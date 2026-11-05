@@ -191,6 +191,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 489 (lens 9 holistic, Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (fifth pass)) v489 → v490
+Rejected: Bsn 1 under the call 185–192 (c479, c222, c279; cellos' register at 189–192). Do-not-touch: 185–192 stays call + answer over the harp only; do not propose a background here again.
+
 ## Cycle 488 (lens 8 expression, Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (fifth pass)) v488 → v489
 Accepted: Hn 4 E4 with fade at 361–364 (coda.ily, parts-cues.json). Do-not-touch: Hn 3 covers Hn 1's breath at 365–369.
 
