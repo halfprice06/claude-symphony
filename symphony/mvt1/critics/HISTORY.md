@@ -3116,3 +3116,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: A6 ceiling already used at 31/72 before 160 (protected); Vln I D5 at 97-102
 - Do-not-touch: string plans of the three Ab climaxes; Cb/Vc alternation; 171-174 and 179-182 string endings
 - Cross-movement: none
+
+## Cycle 585 (Engraving and notation (Gould's *Behind Bars*, MOLA); MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score (fourth pass)) → v586
+- Accepted: parts only: hairpin room at Perc 159, Tpt 1-2 162, Vc 41-42 (part-tag minimum-length); B.cl cue (Vln I) at 165-166; score.ly strips part tags from Tpt 1 and Vc
+- Open / not applied: none
+- Do-not-touch: uncued entries on letters (23, 41, 97, 111, 156, Perc 159)
+- Cross-movement: none
