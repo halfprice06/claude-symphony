@@ -2300,3 +2300,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 536 (v536 → v537), lens 6, cor anglais with Ob 1 at 151–158
 - Sebesky ch. 2 (oboe unisons are harsh, oboe with cor anglais in unison is endorsed; the oboe's low F4–B♭3 is coarse, PDF 70–72, 80): at the ff recapitulation 151–158 the cor anglais takes Ob 2's unison copy of F1 (down to E♭4, D4 and F4 at 152–153 and 157), so 147–166 is one cor anglais passage (c446 gave it 159–166); Ob 2 rests from 151. Pitches, slurs, accents and dynamics unchanged; layout unchanged.
 - Tested and declined: the same swap at 19–26 (page 2 over-full against c251's layout). Checked, no change: trombone slides at 248/251 (protected, playable with the F attachment), horn attacks and stopped notes, ranges and endurance.
+
+## Cycle 537 (v537 → v538), lens 7, no change
+- Adler part 2 ch. 16 (transcription and layering): no change. Tested and declined the timpani hammered rhythm of 199 in place of the A♭ roll at 209–210 (doubles the basses' pitch and pulse; the roll is the only sustained layer under the winds' fp < chord into 211). Declined on paper: a dovetailed string scale at 209–210, a second clarinet line at 89–90 (c502), a passed counter-theme at 205–208, a held note under the bassoon solo at 115–118. F1's doublings at 11–26 and 151–166 follow the reading.
