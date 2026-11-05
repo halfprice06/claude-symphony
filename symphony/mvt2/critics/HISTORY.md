@@ -3669,3 +3669,10 @@ holistic; Rimsky-Korsakov examples 206-274. Report: reports/c569.md.
 - Accepted: nothing (v570 = v569 relabelled).
 - Recorded (no change): c569: no change. Professional in the Dvořák tradition (compared with Violin Concerto op. 53/ii by shape only); nothing worse since v559; optional Bsn 2 E♭3 at 83-84 not applied (would blur harmonics).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 570 (v570 → v571)
+cyclic; Rimsky-Korsakov prefaces and ch. IV. Report: reports/c570.md.
+- Accepted: nothing (v571 = v570 relabelled).
+- Recorded (no change): c570: no change. Link at 2-3 is Rimsky's method 2 for passing a chord; staged diminuendos at 82 and 90-92; motto-tail registers and the 79-81/87-89 echo follow PDF 127-129; joins hold.
+- Do-not-touch: standing list; the 8-page layout.
