@@ -195,6 +195,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 541 (lens 1 melody, Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (seventh pass)) v541 → v542
+c541: second idea bar 48 quaver F♯6 (theme change).
+
 ## Cycle 540 (lens 10 cyclic, Adler ch. 1 The Orchestra, Yesterday and Today, and ch. 15 additional thoughts (adler1 PDF 19-23, adler2 PDF 187-196) (sixth pass)) v540 → v541
 c540: Hn 1 alone on the motto-tail preview at 205–208.
 
