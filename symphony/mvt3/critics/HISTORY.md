@@ -2367,3 +2367,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 553 (v553 → v554), lens 3, no change
 - A&S Unit 26 (diatonic modulation), seventh pass: no change. Tested and declined an applied V6/5 of A♭ at 186 (adds a 17th page, loses the deceptive VI reinterpreted as the new tonic and the V→VI chain at 26, 34→35, 186→187, fills the breath before 187; A♭ is confirmed at 191–193). Proportions, the K.457 key plan, key confirmations, melodic tonicizations and arrivals follow the reading.
+
+## Cycle 554 (v554 → v555), lens 4, ii6/5 at 93 spread across families
+- Rimsky-Korsakov ch. III (sevenths and seconds go to instruments of different colour, PDF 102–103): c552's ii6/5 on 93.2–3 had its E♭–F second held ff inside one family twice (Tpt 2 F4 over Tpt 3 E♭4; Hn 4 F3 under Hn 2's E♭3). Tpt 3 now plays C4 (`r4 c'2-> d'4->`) and Hn 4 A♭3 (`r4 aes2-> f4->`), so the second lies between trumpet and horn; harmony, bass, Tbn 1's held A♭, top line, rhythm and dynamics unchanged, and two octaves with the flutes and violins at 93 are gone.
+- No change: Tbn 1 C4 over Tbn 2 D3 at 152/156 (a prepared 4–3 at mf); other same-family seconds are protected or kept (c454 at 259).
