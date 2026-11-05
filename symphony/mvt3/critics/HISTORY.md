@@ -2251,3 +2251,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 523 (v523 → v524), lens 3, V4/2 at 58 and 178
 - A&S Units 6–8 (V7 and its inversions; Ex. 8-8 V4/2 with the 7th resolving in the bass; Ex. 7-7 hidden octaves): at the joins of F2's minor statements, 58→59 and 178→179, the 7th moves into the bass on beat 4 (V4/2 → i6), as at the major statements 74 and 194. Bar 58: pizz. cellos and basses add A♭ on beat 4, falling to G♭ at 59; violas F3–B♭3. Bar 178: basses add F1 on beat 4 after motive x; violas end D3–G3. Removes the violas' unresolved A♭ at 58 and the hidden octaves at 178.
 - Checked, no change: the held 7th on 58.1/178.1 (c413's protected 7–6), proportions and the coda's stage order.
+
+## Cycle 524 (v524 → v525), lens 4, violins' scale an octave higher at 263–264
+- Adler ch. 5 (Haydn saves the octave transposition for the end, PDF 129; crescendo by added octaves, PDF 137): after the last cadence, Vln I·II play the bar 3–4 scale figure an octave higher at 263.2–264 (G6–B5, up to G6, ending on G5), above the held fff wind and brass chord instead of inside it, so the opening scale returns at 263–264 an octave higher in the violins. Vln I's C6 on 263.1, the violas' G4–B3, the Vln I+II pairing and the cut at 264.1 kept; top note G6, C7 still only at 223.
+- Declined: violas with Vln II on F2 at 75–76; bass drop-outs at 97–98 and 171–178. Checked, no change: the B doublings at 129, the combination passages 247–254 and 265–272.
