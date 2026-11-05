@@ -3230,3 +3230,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 130.3-4 no leading tone before recapitulation (Hn 3 B3 rejected)
 - Do-not-touch: G pedal 117-130 with no F#; D minor at 103 phrase modulation; Ab arrival at 0.50 of exposition
 - Cross-movement: none
+
+## Cycle 604 (Orchestration; Rimsky-Korsakov ch. I Comparison of resonance and combination of tone qualities, and ch. III Harmony: number of parts, distribution, strings, woodwind (rimsky-principles PDF 51-53, 81-99) (fourth pass)) → v605
+- Accepted: violas <b f'> through 161 (was <d' f'> on beats 1-2): leading tone in the strings, bass D no longer quadrupled; removes Cl 2/Vla octaves into 161
+- Open / not applied: 156-157 climb; 125-126 recall inside texture (both protected)
+- Do-not-touch: three Ab climaxes 82/122/160 layout
+- Cross-movement: none
