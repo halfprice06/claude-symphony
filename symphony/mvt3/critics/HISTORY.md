@@ -2379,3 +2379,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 556 (v556 → v557), lens 6, violas sul G at 43–46
 - Adler ch. 3 (open strings stand out in soft held passages; mark one-string passages; the viola's dark G string, PDF 73–76, 87): the violas' held pp D4 at 43–46 is marked "sul G", as every other unprotected soft held D4 in the score already is (8–10, 41–42, 81, 133–134, 169–170). Text only; MIDI byte-identical.
 - No change: double stops and divisi, wide skips (Vln II at 38 kept in unison, c551), basses (low C1 at 263/278 not reopened, c246), the harmonic at 43–50.
+
+## Cycle 557 (v557 → v558), lens 7, no change
+- Sebesky ch. 1 (economy, focus, contrary motion in the background): no change. Tested and declined the cellos leaving the A♭ pedal for a rising line at 207–208 (doubles and inverts the ii7's seventh, covers Bn 1's lowest octave of the head, c158). Declined on paper: the countersubject under F1 at 151–158, contrary motion in Vln II at 167–168. Economy checks at 41–42 (c431), 9–10 and 205–206 hold.
