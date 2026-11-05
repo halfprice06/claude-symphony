@@ -3278,3 +3278,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 climb (protected)
 - Do-not-touch: 125-126 half-hidden recall; second-theme string settings; high violin notes doubled an octave below
 - Cross-movement: none
+
+## Cycle 612 (Harmony and voice leading; Aldwell & Schachter Units 9-10 Leading to V; the Cadential 6/4 (aldwell-schachter PDF 134-162) (fourth pass)) → v613
+- Accepted: none (no change)
+- Open / not applied: none
+- Do-not-touch: unprepared V7 sevenths (39 checked); 21-22 cadence; 101-102 evaded cadence
+- Cross-movement: none
