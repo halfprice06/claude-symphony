@@ -3683,3 +3683,10 @@ melody; Sebesky PDF 204-230. Report: reports/c571.md.
 - Accepted: nothing (v572 = v571 relabelled).
 - Recorded (no change): c571: no change. Theme lines unchanged since v431; theme B's stepwise first phrase protected (c291, c141); cadence descent at 77-78/81-82 ends differently; counter-lines move where the lead holds.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 572 (v572 → v573)
+harmony; A&S Units 22-23 diminished sevenths and mixture. Report: reports/c572.md.
+- Accepted: nothing (v573 = v572 relabelled).
+- Recorded (no change): c572: no change. No tritone-to-fifth hidden fifths beyond c432's protected viola at 40; diminished sevenths at 40, 56, 59-60, 64 resolve per Units 22-23; mixture plan complete; pitch changes since v432 follow.
+- Do-not-touch: standing list; the 8-page layout.
