@@ -238,6 +238,7 @@ These are reserved for the finale. The other movements should not use them. Thei
 - Bars 7–9: the cor anglais holds G4 to 9.3 and Vln I takes the same G4 at 9.4 (Rimsky-Korsakov PDF 125–126, transfer on a common note); movement II's 89 hands Cl 1's C5 to Vln I's C5 the same way.
 - Bars 23–26 and 135–138: four slurred groups of three crotchets over three bars of 4/4, a 3/4 grouping inside 4/4 (A&S Ex. 3-7 type), not a hemiola, though older lines here call it one. It is not meant to match the scherzo's true hemiola.
 - Bars 27, 30, 131: timpani `c4 r8 c8 c4 r8 c8` ff, the hammered form of the coda pulse at 179–180; keep the timpani rhythm of 27–32 and 131 (the finale quotes 27–32 at pitch).
+- Bars 13–14 (scherzo v531, 2026-11-05): the scherzo's opening horn call (Hn 1, its bars 4–6) now has this call's rhythm: E4 tied over the barline, falling to D♯4 on beat 3, unresolved, as I 13–14 E♭3–C4 tied, B3 on beat 2.
 - Bar 13: the horn call's rising sixth E♭3–C4 is answered twice by the scherzo's trio tune: its head fills the sixth (G♯4–A4–B4–E5), and since scherzo v322 its bar 3 falls a sixth (D♯5–F♯4).
 - Bars 73–80: Vln II E♭4–G♭4–F♭4–E♭4 (73–77), then E♭4–E♮4–E♭4 (77–80), all at one pitch: the movement's ♭6–5 motive in A♭ minor, then respelled inside the A♭–E–C cycle; Vln II's and Fl 1's F♭ (F♭5 at 75) anticipate movement II's F♭→E♭ thread. Keep Vln II 73–80 and Fl 1 F♭5 at 75 (cycle 333).
 - Bar 110: a soft C-major triad over C2 (C7 at 105 and 112) works as V of F minor, as in Mozart K. 457 (A&S PDF 449), not as a tonic (cycle 340).
