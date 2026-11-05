@@ -193,6 +193,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 511 (lens 1 melody, Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371) (sixth pass)) v511 → v512
+Accepted: Vln II at 182 (tA.ily), Hn 1 at 111/311 (sC.ily, dC.ily).
+
 ## Cycle 510 (lens 10 cyclic, Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (sixth pass)) v510 → v511
 Rejected: Vln I at 237–241 (c258, c508). Do-not-touch: the Hn 1 + Vln I G♯ pair sounds only at the opening (1–7) and the close (364–376).
 
