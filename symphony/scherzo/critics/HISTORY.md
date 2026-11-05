@@ -193,6 +193,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 508 (lens 8 expression, Rimsky-Korsakov ch. IV sf-p chords, crescendo and diminuendo (rimsky-principles PDF 129-136) (sixth pass)) v508 → v509
+Accepted: bassoon/contrabassoon pedal p< at 69–71 and 297–299 (sB.ily, dB.ily).
+
 ## Cycle 507 (lens 7 texture, Adler ch. 5 foreground, middleground, background; strings as accompaniment (adler1 PDF 132-167) (sixth pass)) v507 → v508
 Accepted: Vln II at 255–256 (dA.ily).
 
