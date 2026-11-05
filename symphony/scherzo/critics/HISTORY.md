@@ -193,6 +193,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 514 (lens 4 orchestration, Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54) (sixth pass)) v514 → v515
+Accepted: countermelody in Bsn 1/Hn 3·4 at 333–335 (coda.ily).
+
 ## Cycle 513 (lens 3 form, Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground (sixth pass)) v513 → v514
 Rejected: Hn 3·4 rest at 169–184 (c431, c481, c495, c504). Do-not-touch: Hn 3's unison with the cellos at 169–176 is settled.
 
