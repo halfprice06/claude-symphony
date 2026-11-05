@@ -3128,3 +3128,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Hn 1 endurance at 125-126; wind spans all have breaths; timpani retunings
 - Cross-movement: none
+
+## Cycle 587 (Texture and counterpoint; Sebesky ch. 3 Voicing the strings; combining strings with winds (sebesky PDF 133-173) (fourth pass)) → v588
+- Accepted: none (no change)
+- Open / not applied: 109-110 Fl 1 mp over violas p (settled)
+- Do-not-touch: 77 bare fifth with B.cl third; 147-155 Vln I rest (finale reserve)
+- Cross-movement: none
