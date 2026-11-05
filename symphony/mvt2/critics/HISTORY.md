@@ -3627,3 +3627,10 @@ form; A&S Unit 18 6/3 chords. Report: reports/c563.md.
 - Accepted: nothing (v564 = v563 relabelled).
 - Recorded (no change): c563: no change. 6/3 chords sit where the music moves and are absent at arrivals; pedal joins match Dvořák 9/ii 72-77; changes since c433 follow doubling rules; 28 b2 plain ii6 is the protected first statement.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 564 (v564 → v565)
+orchestration; Rimsky-Korsakov tutti appendix. Report: reports/c564.md.
+- Accepted: nothing (v565 = v564 relabelled).
+- Recorded (no change): c564: no change. Tutti 61-62 follows the tables (closes the old 'low third at 61' item, c004-c024); 63-64, 79-82 and string-free 3-14, 31-36 match Rimsky's examples; spacing scan clean.
+- Do-not-touch: standing list; the 8-page layout.
