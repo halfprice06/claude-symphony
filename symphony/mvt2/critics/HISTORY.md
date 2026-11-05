@@ -3795,3 +3795,10 @@ texture; Sebesky strings PDF 133-173. Report: reports/c587.md.
 - Accepted: nothing (v588 = v587 relabelled).
 - Recorded (no change): c587: no change. Soloist dialogue over sustained sections at 15-22; cello-bass doublings only at 49-50 and the organ bass 83-92; every thin line solo or doubled; divisi and peaks confirm c447, c507.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 588 (v588 → v589)
+
+Accepted: cello slur through the 9-8 suspension at 73-74.
+Open (optional): Bsn 1 dynamics at 54-55.
+Do-not-touch: c469 suspension pitches; c118 bowings; c338 violin slurs at 24, 72; standing list; 8-page layout.
