@@ -2181,3 +2181,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 501 (v501 → v502), lens 1, Sebesky lines
 - Sebesky PDF 209, 211 (Ex. 276, 279: contrary motion between lead and bass): at 85 the bass no longer rises with F1's head in parallel sixths; cellos and basses play B♭–B♭–A♭–F (F1's own bar-13 bass shape), and the violas' last eighth is A♭4, taking the seventh and resolving it to G4 at 86. Tune, the I6 at 86 (c143) and dynamics unchanged; answers c187's unexplained do-not-touch on 83–86.
+
+## Cycle 502 (v502 → v503), lens 2, A&S applied dominants
+- A&S PDF 419–423 (Ex. 25-11a: over 6–5 in the bass, the chord is almost always V4/3 of V): at 89 the last 7–6 of the closing bridge resolves to A♮3 (violas, Bn 1), so the bridge ends V6 – 7–6 into V4/3 of V – V7 – I; Bn 1 passes B♭–A♭ into G3 at 90; Hn 1 F4 and Hn 4 F3 on 89.2 so no horn doubles the leading tone. Bass, violin and wind figures, dynamics and the 90 cadence unchanged; every earlier change in 87–89 (c053, c061, c062, c143, c377) kept.
