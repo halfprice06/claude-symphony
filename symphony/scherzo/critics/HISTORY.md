@@ -191,6 +191,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 488 (lens 8 expression, Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (fifth pass)) v488 → v489
+Accepted: Hn 4 E4 with fade at 361–364 (coda.ily, parts-cues.json). Do-not-touch: Hn 3 covers Hn 1's breath at 365–369.
+
 ## Cycle 487 (lens 7 texture, Rimsky-Korsakov ch. II Melody in combined groups (rimsky-principles PDF 74-80) (fifth pass)) v487 → v488
 Accepted: violas on the tail at 106/110/118/306/310/318 (sC.ily, dC.ily), parts-gen.py PAPX 08.
 
