@@ -3641,3 +3641,10 @@ orchestration; Rimsky-Korsakov tutti appendix. Report: reports/c564.md.
 Accepted: Ob 1 hairpin at 47 shortened in the score (niente circle clear of "solo, espr.").
 Open (optional): timpani instruction type style (upright vs italic).
 Do-not-touch: c558 niente circles; tempo and letter placement; parts layout; standing list; 8-page layout.
+
+
+## Cycle 566 (v566 → v567)
+
+Accepted: timpani "damp" at 4 (text only).
+Closed: c436's timpani retune during 87-91 (muta stays at 92).
+Do-not-touch: link 1-6; damps at 53, 62, 86; muta at 92; standing list; 8-page layout.
