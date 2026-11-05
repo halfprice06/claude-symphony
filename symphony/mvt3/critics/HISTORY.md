@@ -2327,3 +2327,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 543 (v543 → v544), lens 3, no change
 - A&S Unit 14 (V7 and its inversions in the larger form; approaches to V): no change. Tested and declined the V4/2's bass F stepping to E♭ at 134 (sounds a C-minor tonic 16 bars before the recapitulation, fills the break before J; 131–134 protected). Declined on paper: E7 before the S head at 238→239 (changes the movement I quotation's harmony and pre-empts the G♯ link at 242–243). Proportions, coda stages, key-area confirmations and approaches to V follow the reading.
+
+## Cycle 544 (v544 → v545), lens 4, bass clarinet pad at 171–186
+- Rimsky-Korsakov (wind chords: never three different timbres; three of one family with the low member, PDF 92–94): Bn 1's held pad under the recapitulated F2 at 171–186 moves to the bass clarinet, same pitches, pp "dal niente", so the pad is one family (Cl 2 + bass clarinet, Cl 1 from 181) set apart from the cor anglais and muted trumpet melody, and differs in colour from the exposition's pad. Bn 1 rests 16 bars before its counter-melody at 187 (part-only cue at 185–186). Notes, dynamics and harmony unchanged (c092, c312, c380, c413, c533 kept).
+- Kept: open fourths and fifths in the held middle parts at 173–179 (the violas supply the third), the oboes at 231–234 (protected) and 259–260 (c454), the full divisi at 278. The exposition pad at 51–66 is protected and already follows PDF 92.
