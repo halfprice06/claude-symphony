@@ -2289,3 +2289,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 533 (v533 → v534), lens 3, complete V6/5 at 176
 - A&S Unit 15 (III, VI and VII; avoid root-position vii° with the seventh doubled, use V6/5, PDF 243, 245): bar 176, Cl 2 holds G3 through the bar instead of falling to F3 on beat 3 with the violas, so 176.3 is a complete V6/5 over Bn 1's B2 and the seventh F stays only in the violas, resolving to E♭ at 177 (as c263 did at 172 and 180). Cl 2's 177–178 line unchanged.
 - Declined: ♮VII–V6/5–i at 175–177 (breaks the stepwise bass), III at 20.1 (weak-to-strong, undoes c257/c322), a passing IV6 at 96 (octaves with Ob 1's movement II tail). Form and proportions follow the unit.
+
+## Cycle 534 (v534 → v535), lens 4, no change
+- Casanelles ch. 6 (masking, density and register): no change. Tested and declined Hn 3 F4 for A4 at 252 (five parallel fifths on 252.1, c139's reason holds) and Hn 1 on B♭3 at 83–86 (loses the pedal's octave ring; the tune already outweighs one horn at mf). Checked, follows: Ob 1 with the violins at 187–190, woodwinds against brass, brass density at 205–208, 243–254 and 265–272, low thirds (Bn 2 at 84 declined, c504's line).
