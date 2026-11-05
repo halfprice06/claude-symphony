@@ -3218,3 +3218,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: harp fill at 50.3-4 rejected
 - Do-not-touch: motion under S long notes; P-head portato C
 - Cross-movement: none
+
+## Cycle 602 (Harmony and voice leading; Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (fourth pass)) → v603
+- Accepted: none (no change)
+- Open / not applied: none
+- Do-not-touch: 121.3-4 6/4 with Eb in triplets (do not re-flag); contrary fifths/octaves scan clean
+- Cross-movement: none
