@@ -3098,3 +3098,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 41-42 lengthened C rejected (parallel fifths)
 - Do-not-touch: coda call in Cl 1 at 175-177; collapse 122-126 exit order and levels
 - Cross-movement: horn call gains a soft minor statement in Hn 1 at 125-126; 13-14 unchanged and still the only undoubled horn melody; finale's major call and trumpet B->C still unused
+
+## Cycle 582 (Harmony and voice leading; Aldwell & Schachter Units 30-31 Other chromatic chords; Chromatic voice-leading techniques (aldwell-schachter PDF 530-583) (fourth pass)) → v583
+- Accepted: none (no change)
+- Open / not applied: raised fifth on V7 at 145-147; common-tone dim7 at 123-124/145
+- Do-not-touch: c581 horn call 125-126 checked (4-3 over V); preparation of remote chords
+- Cross-movement: none
