@@ -196,6 +196,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 542 (lens 2 harmony, Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (seventh pass)) v542 → v543
+c542: Hn 1 and Cl 1 9–8 at 48–49 (removes c541's fifths).
+
 ## Cycle 541 (lens 1 melody, Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (seventh pass)) v541 → v542
 c541: second idea bar 48 quaver F♯6 (theme change).
 
