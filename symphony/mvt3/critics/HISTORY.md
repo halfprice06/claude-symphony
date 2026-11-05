@@ -2274,3 +2274,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 529 (v529 → v530), lens 9, holistic comparison (Dvořák 8)
 - Holistic comparison with Dvořák 8/iv, plus a v519 → v529 check (Rimsky-Korsakov Ex. 130–209; prose PDF 100–123): at the soft end of the staged diminuendo, Cl 2 holds B♭3 with Hn 2 from 38.4 to 41 (was D4, inside the horn pair and in unison with Bn 1; Rimsky PDF 106, 108). The C♭→B♭ resolution at 38 (c492) is kept and the held B♭3 makes no octaves with Ob 1 or Tbn 2.
 - Declined on paper: Hn 4 resting at 139–140 (c527's reason holds), trumpets out of the plagal close at 231–234 (protected). Not reopened: trills, a muted brass pad, a soft cymbal (c321, c329, c429). Cycles 519–527 rechecked in the pages and MIDI: nothing got worse.
+
+## Cycle 530 (v530 → v531), lens 10, cyclic review
+- Cyclic review (Sonic Design reading; team-shared themes and current records): no score change. Against movement I v607, movement II v600 and scherzo v520: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51; cyclic rules hold. finale.md stamps brought up to date (scherzo v510–v520 changes listed, none touching a quoted bar), and movement II's last tail at 95–97 added as item 16 under movement II.
+- Tested and declined: copying the scherzo's flute-to-violin G♯5 hand-over at 242–243 (Fl 2 stopping at the barline leaves the G♯ link too weak under the horn call's ff; c510's reason holds).
