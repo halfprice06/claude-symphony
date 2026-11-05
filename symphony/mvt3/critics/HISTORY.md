@@ -2382,3 +2382,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 557 (v557 → v558), lens 7, no change
 - Sebesky ch. 1 (economy, focus, contrary motion in the background): no change. Tested and declined the cellos leaving the A♭ pedal for a rising line at 207–208 (doubles and inverts the ii7's seventh, covers Bn 1's lowest octave of the head, c158). Declined on paper: the countersubject under F1 at 151–158, contrary motion in Vln II at 167–168. Economy checks at 41–42 (c431), 9–10 and 205–206 hold.
+
+## Cycle 558 (v558 → v559), lens 8, low strings in quarters at 82
+- Sebesky Ex. 273 (halves to quarters for extra push into the next phrase, PDF 208): at 82 under "animando" the cellos and basses play C♭–C♭–B♭–B♭ in tenuto quarters with a crescendo (were two half notes), so the low strings mark the quickening beat into the walking quarters at 83, as at 245–246 (c358). Pitches, harmony and dynamics unchanged; c167's balance reason still holds.
+- Declined: the chromatic counter at 239–242 to mf (set f on purpose over the harp), marcato accents (unused in the symphony), swells or "no vib." on the protected pads at 51–66 and 171–186. Kept: the held build-up at 133–138, the chorale top line at 224–227.
