@@ -3864,3 +3864,10 @@ texture; Adler ch. 8 orchestral treatments. Report: reports/c597.md.
 - Accepted: nothing (v598 = v597 relabelled).
 - Recorded (no change): c597: no change. Counter-melodies in 37-60 instead of imitation (c124, c457); B.cl./Bsn 2 unison bass at 57-58 kept for staggered breaths (c456, c536); held V7 at 65-66 well spaced; exposed C5 at 89-92 protected.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 598 (v598 → v599)
+
+Accepted: timpani "ord." at 78 b3.
+Open (optional): Cb pizz. at 40.
+Do-not-touch: mute plan; string colour words; standing list; 8-page layout.
