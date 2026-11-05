@@ -192,6 +192,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 493 (lens 3 form, Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (sixth pass)) v493 → v494
+Accepted: violas at 355 (coda.ily), harp at 166 (tA.ily). Do-not-touch: the violas at 354–355 now resolve the 4th by rising (supersedes c462/c092).
+
 ## Cycle 492 (lens 2 harmony, Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (sixth pass)) v492 → v493
 Accepted: Hn 1 C♮5 at 220 (tC.ily). Do-not-touch: the ♭6 never precedes ♮6 (A&S PDF 388).
 
