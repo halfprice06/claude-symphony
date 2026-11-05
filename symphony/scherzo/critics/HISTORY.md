@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 554 (lens 4 orchestration, Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (seventh pass)) v554 → v555
+c554: low brass resolve and hold under the summit at 336–338.
+
 ## Cycle 553 (lens 3 form, Aldwell & Schachter Unit 26 Diatonic Modulation, incl. modulation and form (aldwell-schachter PDF 442-461) (seventh pass)) v553 → v554
 c553: Ob 1 answers in B minor at 92–94.
 
