@@ -193,6 +193,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 519 (lens 9 holistic, Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305) (sixth pass)) v519 → v520
+c519: Cl 2 fills the f stretto chord at 70 and 298.
+
 ## Cycle 518 (lens 8 expression, Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (sixth pass)) v518 → v519
 c518: Vln II and violas slur 357–360 (bowing).
 
