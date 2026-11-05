@@ -3788,3 +3788,10 @@ playability; Sebesky ch. 2 winds and brass. Report: reports/c586.md.
 - Accepted: nothing (v587 = v586 relabelled).
 - Recorded (no change): c586: no change. All long wind spans have breaths; doubled low roots at 60-62 normal for a Romantic ff tutti (protected); Bsn 1 with horns 79-81 protected (c087); Cbn B♭0 at 80 playable; ranges and clefs within Sebesky.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 587 (v587 → v588)
+texture; Sebesky strings PDF 133-173. Report: reports/c587.md.
+- Accepted: nothing (v588 = v587 relabelled).
+- Recorded (no change): c587: no change. Soloist dialogue over sustained sections at 15-22; cello-bass doublings only at 49-50 and the organ bass 83-92; every thin line solo or doubled; divisi and peaks confirm c447, c507.
+- Do-not-touch: standing list; the 8-page layout.
