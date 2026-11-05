@@ -3152,3 +3152,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: mixture plan: borrowed Ab falls to G; no Ab in 179-182
 - Cross-movement: none
+
+## Cycle 591 (Melody and memorability; Aldwell & Schachter Unit 3 Rhythm and Meter (aldwell-schachter PDF 47-57) (fourth pass)) → v592
+- Accepted: none (no change)
+- Open / not applied: none
+- Do-not-touch: horn call metric forms (5 statements); motto Db on beat 3 except 120; S-head rhythm
+- Cross-movement: none
