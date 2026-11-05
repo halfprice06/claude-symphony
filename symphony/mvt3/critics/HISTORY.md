@@ -2404,3 +2404,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 563 (v563 → v564), lens 3, no change
 - A&S Unit 32 (chromatic joins, common tones in exposed voices, the ♭VI–♭II–V path): no change. Tested and declined putting the F5–F♯5–G5 inflection and the seventh both in Vln II at 113–115 (same sound, loses Vln I's held F♯5 bridge into the bassoon solo). Declined on paper: A♭ minor through 195–198 (undoes c270, c293, c370), A♯ at 122.4 (augmented octave with Bn 1, protected). Proportions, the A♭ area, the G minor/major turn and every chromatic join's exposed link follow the reading.
+
+## Cycle 564 (v564 → v565), lens 4, timpani roll at 35
+- Rimsky-Korsakov tutti chords (appendix PDF 505–507; ch. IV, Ex. 204–221: every held loud chord with timpani has a roll on the bass): bar 35, under the trombones', contrabassoon's and basses' held A♭ ff > f, the timpani roll A♭ ff > f through the bar (`aes,2.:32->~\ff\> aes,4:32\f`, was one f stroke). The retuning to B♭ at 37 and the roll at 39–40 unchanged.
+- Checked, no change: 166 (protected), a tutti without woodwind, short low strokes at 35–38. Not reopened: wind trills, a restruck final chord, brass a degree softer at 223/263/278.
