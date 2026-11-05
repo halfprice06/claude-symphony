@@ -3620,3 +3620,10 @@ melody; Rimsky-Korsakov strings doublings. Report: reports/c561.md.
 
 Accepted: Bsn 2 at 11 C3-E♭3-D♭3 (no I6-IV unison with the bass clarinet).
 Do-not-touch: horn solo 7-14; rising bass at 11-12; c252 D♭3 at 11 b3; neighbour 6/4 at 68; release 80-83; standing list; 8-page layout.
+
+
+## Cycle 563 (v563 → v564)
+form; A&S Unit 18 6/3 chords. Report: reports/c563.md.
+- Accepted: nothing (v564 = v563 relabelled).
+- Recorded (no change): c563: no change. 6/3 chords sit where the music moves and are absent at arrivals; pedal joins match Dvořák 9/ii 72-77; changes since c433 follow doubling rules; 28 b2 plain ii6 is the protected first statement.
+- Do-not-touch: standing list; the 8-page layout.
