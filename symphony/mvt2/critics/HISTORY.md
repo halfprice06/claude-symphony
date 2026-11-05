@@ -3767,3 +3767,10 @@ form; A&S Units 6-8 phrase and cadence. Report: reports/c583.md.
 - Accepted: nothing (v584 = v583 relabelled).
 - Recorded (no change): c583: no change. I-IV-V-I plan and proportions match Dvořák 9/ii; cadence goals on downbeats. Record corrections: bar 47 is V7-i (not a C♯7 half cadence, c163); C at 71 comes from Bsn 2 and violas (c453). 52-53 LT exception stays (c071, c302).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 584 (v584 → v585)
+orchestration; Adler ch. 8 combining winds and strings. Report: reports/c584.md.
+- Accepted: nothing (v585 = v584 relabelled).
+- Recorded (no change): c584: no change. Oboe/violin echo at 15-22 varies its third unit; pedal lifted at 36, held at 22 and 52; no flute under a reed; wind-string joins gradual; tutti spacing at 61 and 79 matches Adler's Dvořák Carnival example.
+- Do-not-touch: standing list; the 8-page layout.
