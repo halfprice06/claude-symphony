@@ -2214,3 +2214,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 512 (v512 → v513), lens 2, A&S augmented sixths
 - A&S PDF 522–523 (Ex. 29-37: an augmented sixth in place of the dominant at a cadence): at 22's last beat the bass falls D–D♭–C (cellos, basses, Bn 2, Cbsn; violas and Hn 3 adjusted), so the consequent's V4/3 becomes a French sixth on D♭ resolving to C minor at 23 instead of repeating the antecedent's V4/3–i at 14→15. Melody and the recapitulation's 162–163 unchanged; no root-position V–I in C added.
+
+## Cycle 513 (v513 → v514), lens 3, Adler form
+- Adler part 2 ch. 15, 17 (form, soloist entries, heterophony): no change. Tested and declined Haydn's device at 269–270 (flutes doubling the head-rhythm figure two octaves up: already audible ff in Hn 3·4, violas, Bn 1, and a C6/B♭5 second on 270.1). Proportions, break-offs and soloist entries checked.
