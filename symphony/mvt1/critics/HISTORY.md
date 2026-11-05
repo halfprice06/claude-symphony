@@ -3056,3 +3056,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new (form points 156-157, 113-143, development soft episode remain protected)
 - Do-not-touch: three Ab climaxes 82/122/160 with trumpets saved; low trumpets at 122
 - Cross-movement: none
+
+## Cycle 575 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould introduction and contents (gould-behind-bars PDF 7-13), then a second pass over PDF 17-68 for any rule not yet checked (fourth pass)) → v576
+- Accepted: Cb 'change bow at will' at 117 and 179 now small italic like the other ten
+- Open / not applied: none
+- Do-not-touch: cello clefs 46.4-55; Cb part page turn in 171-174 rest
+- Cross-movement: none
