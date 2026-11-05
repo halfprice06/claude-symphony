@@ -3320,3 +3320,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 91-93 cello suspension chain unmarked (Jupiter model); 125-126 and 158-159 suspensions
 - Cross-movement: none
+
+## Cycle 619 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (fourth pass)) → v620
+- Accepted: none (no change)
+- Open / not applied: soft horn under 47-55; undoubled horn at 147; loud ending (all protected/reserved)
+- Do-not-touch: 131-134 dynamic grading; layered build to 122; 147 second theme over pad
+- Cross-movement: none
