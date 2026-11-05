@@ -3104,3 +3104,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: raised fifth on V7 at 145-147; common-tone dim7 at 123-124/145
 - Do-not-touch: c581 horn call 125-126 checked (4-3 over V); preparation of remote chords
 - Cross-movement: none
+
+## Cycle 583 (Form, pacing and proportion; Aldwell & Schachter Units 6-8 I, V, V7 and their inversions: phrase structure (aldwell-schachter PDF 92-133) (fourth pass)) → v584
+- Accepted: Cb drop to G1 on 165.3 (bass octave below cellos at the second group's closing cadence, as at 71)
+- Open / not applied: 156-157 climb (protected)
+- Do-not-touch: 13-14 V7 with no rit.; c581 horn call at 125-126
+- Cross-movement: none
