@@ -191,7 +191,7 @@ partGlobal = \partGlobalOf \global
   
   \score {
     \new Staff = "part" \with { \audit "09-bassoon-1" midiInstrument = "bassoon"  }
-      << \clef bass \partGlobal \partCues #`(("cueVc" "Vc." ,UP 181 4)) \partClean \bsnOne { \skip 2.*152 \pageTurn } >>
+      << \clef bass \partGlobal \partCues #`(("cueVc" "Vc." ,UP 189 4)) \partClean \bsnOne { \skip 2.*152 \pageTurn } >>
     \layout {   }
   }
 }

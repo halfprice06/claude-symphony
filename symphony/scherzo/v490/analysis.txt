@@ -36,7 +36,7 @@ Tracks: name | notes | range | violations
   Oboes 1Â·2:one                  31  Ab4-C#6  
   Flutes 1Â·2:two                 16  F#5-Eb6  
   Oboes 1Â·2:two                  23  B4-A5  
-  Bassoons 1Â·2:solo              93  E2-D4  
+  Bassoons 1Â·2:solo              88  E2-D4  
   Horns 3Â·4:one                  36  F#3-E4  
   Horns 3Â·4:two                  28  A2-B3  
   Horns 3Â·4:solo                 78  A2-B4  
@@ -94,8 +94,8 @@ Profile per 4 bars: attacks | voices sounding (avg) | top | bottom
   bars 173-176:   47 |  4.6 | F#6  | F#1
   bars 177-180:   48 |  4.5 | A5   | E1
   bars 181-184:   41 |  4.8 | B5   | F#1
-  bars 185-188:   47 |  4.5 | F#5  | F#1
-  bars 189-192:   44 |  4.4 | F#5  | B1
+  bars 185-188:   44 |  3.6 | F#5  | F#1
+  bars 189-192:   42 |  3.5 | F#5  | B1
   bars 193-196:   60 |  9.0 | C#6  | F#1
   bars 197-200:   88 | 13.1 | F#6  | F#1
   bars 201-204:   37 |  8.6 | C5   | A1
