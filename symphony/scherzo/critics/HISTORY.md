@@ -195,6 +195,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 536 (lens 6 playability, Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (sixth pass)) v536 → v537
+c536: Hn 2 rest before its entry at 121.
+
 ## Cycle 535 (lens 5 engraving, Adler ch. 2 notation of bowings, divisi and harmonics (adler1 PDF 30-55) as engraving rules (sixth pass)) v535 → v536
 c535: Vln I down-bow at 333; bow-sign placement at 177.
 
