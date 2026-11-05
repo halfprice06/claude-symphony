@@ -3753,3 +3753,10 @@ melody; Adler ch. 7 woodwinds. Report: reports/c581.md.
 - Accepted: nothing (v582 = v581 relabelled).
 - Recorded (no change): c581: no change. Theme lines unchanged since v441. Record correction: Adler Ex. VII-5 spans an octave, so cite it for its thin accompaniment, not its range; c141's protection of theme B's first phrase stands on its other reasons.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 582 (v582 → v583)
+harmony; A&S Units 24-25 sevenths and modulation. Report: reports/c582.md.
+- Accepted: nothing (v583 = v582 relabelled).
+- Recorded (no change): c582: no change. Every 7th resolves or is transferred (60-61, 74, 37-40); doubled LT at 24 b3 protected; F over G♭ at 41/57 is an upward-resolving dissonance (supports c112); cross relations at 77-78 and 58 acceptable; modulation plan follows Unit 25.
+- Do-not-touch: standing list; the 8-page layout.
