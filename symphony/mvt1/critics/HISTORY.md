@@ -2984,3 +2984,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 137.4-138 iio7 seventh C4 not resolved in register (138 stop-chord layout is quoted; kept)
 - Do-not-touch: 138 stop-chord layout
 - Cross-movement: none
+
+## Cycle 563 (Form, pacing and proportion; Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (fourth pass)) → v564
+- Accepted: none (6/3-chord techniques fourth pass, form lens: 6/3 runs only in the wedge; 116 F-sharp spelling recorded)
+- Open / not applied: 156-157 climb (protected)
+- Do-not-touch: unchanged
+- Cross-movement: none
