@@ -192,6 +192,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 492 (lens 2 harmony, Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (sixth pass)) v492 → v493
+Accepted: Hn 1 C♮5 at 220 (tC.ily). Do-not-touch: the ♭6 never precedes ♮6 (A&S PDF 388).
+
 ## Cycle 491 (lens 1 melody, Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (sixth pass)) v491 → v492
 Accepted: tied leading tone in the coda fragment 347–348 (coda.ily). Record: trioT OboeOne 345 8 9.
 
