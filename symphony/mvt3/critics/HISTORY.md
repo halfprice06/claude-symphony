@@ -2281,3 +2281,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 531 (v531 → v532), lens 1, no change
 - A&S Unit 3 (rhythm and metre): no change. Tested and declined a violin G–B upbeat at 18.4 and 158.4 into F1's consequent (weakens the f wind entry after the silence, turns the downbeat head into an upbeat group, adds parallel octaves). Declined on paper: an anticipation at 17.4→18 (c441), a lengthened C at 70. Checked, follows the reading: F2's climaxes at 62 and 78, F1's rhythm against the metre, the chorale's broader last statement (56 → 44 main notes a minute).
+
+## Cycle 532 (v532 → v533), lens 2, oboes resolve the dominant ninth at 10
+- A&S Unit 27 (the dominant ninth; its typical 6–5 resolution over V, Ex. 27-5, 27-6b): on the f stroke at 10.3 the oboes resolve the V7♭9 top: Ob 1 A♭5→G5 (was a leap to F5, leaving both the ninth and the seventh unresolved), Ob 2 D5→F5, so the stroke keeps the seventh and is still a full V7. Same 6–5 as F1's head at 11–12. The staged entries at 9–10 (v280), with the V7♭9 top on 10.1, are unchanged.
+- Declined: II7 over the pedal at 7–8, an applied ♭9 at 36.4, V♭9 of IV at 235.4 (protected, clashes), an A♭ neighbour at 133–134 (pre-empts 135, c259).
