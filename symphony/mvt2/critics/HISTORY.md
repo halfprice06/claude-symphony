@@ -3746,3 +3746,10 @@ cyclic; Sebesky ch. 1 and 9. Report: reports/c580.md.
 - Accepted: nothing (v581 = v580 relabelled).
 - Recorded (no change): c580: no change. Motto tail has four harmonies each landing on C; theme A's fixed harmony protected; coda inner voices economical; instruments held back across the symphony; coherence file brought to v581.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 581 (v581 → v582)
+melody; Adler ch. 7 woodwinds. Report: reports/c581.md.
+- Accepted: nothing (v582 = v581 relabelled).
+- Recorded (no change): c581: no change. Theme lines unchanged since v441. Record correction: Adler Ex. VII-5 spans an octave, so cite it for its thin accompaniment, not its range; c141's protection of theme B's first phrase stands on its other reasons.
+- Do-not-touch: standing list; the 8-page layout.
