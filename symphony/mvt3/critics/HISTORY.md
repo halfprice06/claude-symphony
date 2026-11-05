@@ -2229,3 +2229,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 517 (v517 → v518), lens 7, Adler combination
 - Adler part 2 PDF 178–179, 184 (each combined line needs a string, a woodwind and a brass colour): at 212–214 the cellos leave the bass and play Bn 1's counter line under theme B at pitch, f, with its slurs (with Hn 3·4), back to F3 at 215; the bass stays in the basses, Bn 2, Cbsn, bass trombone and tuba. Theme B, the dynamics, Vln II and violas unchanged.
+
+## Cycle 518 (v518 → v519), lens 8, Adler bowing
+- Adler PDF 38–39 (crescendo on the up-bow, strong notes down-bow; no phrase slurs in string parts; fewer notes to a bow at f): at 211–214 Vln I changes bow on its tied G♭6 at the Largamente barline, so it bows theme B with Vln II and the violas (212 up-bow crescendo, 213's ff peak down-bow, D♭6 a fresh down-bow); the cellos' copy of Bn 1's breath slur at 212–213 becomes one bar per bow. Bn 1 and Hn 3·4 keep their slur; pitches, dynamics and MIDI unchanged.
