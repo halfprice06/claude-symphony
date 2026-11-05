@@ -191,6 +191,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 490 (lens 10 cyclic, Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (fifth pass)) v490 → v491
+Accepted: Vln II la metà through 360 (coda.ily). Record: the closing E4 stays (Hn 4 since c488) on c390's held-chord reason.
+
 ## Cycle 489 (lens 9 holistic, Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (fifth pass)) v489 → v490
 Rejected: Bsn 1 under the call 185–192 (c479, c222, c279; cellos' register at 189–192). Do-not-touch: 185–192 stays call + answer over the harp only; do not propose a background here again.
 
