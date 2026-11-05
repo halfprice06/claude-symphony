@@ -3837,3 +3837,10 @@ form; A&S Unit 15 III and VII. Report: reports/c593.md.
 - Accepted: nothing (v594 = v593 relabelled).
 - Recorded (no change): c593: no change. I-IV-V-I key plan with F♯-minor point at 49% and V7 at 70%; C♭-C at 50-51 in one voice; iii6 at 78 b3 backed by Mozart 41/ii; no new rising thirds; single-chord frame passages not to be judged by PDF 231.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 594 (v594 → v595)
+orchestration; Adler ch. 11 brass scoring. Report: reports/c594.md.
+- Accepted: nothing (v595 = v594 relabelled).
+- Recorded (no change): c594: no change. Horn weights at 61-62 (c264), trombone-free A′ peak, held-back trombone quotation, low-brass spacing and soft horn chords follow Adler ch. 11. Rejected (do not retest): soft trombone chord at 82-83 would cover the timpani at 84-86.
+- Do-not-touch: standing list; the 8-page layout.
