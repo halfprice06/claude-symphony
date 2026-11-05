@@ -2232,3 +2232,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 518 (v518 → v519), lens 8, Adler bowing
 - Adler PDF 38–39 (crescendo on the up-bow, strong notes down-bow; no phrase slurs in string parts; fewer notes to a bow at f): at 211–214 Vln I changes bow on its tied G♭6 at the Largamente barline, so it bows theme B with Vln II and the violas (212 up-bow crescendo, 213's ff peak down-bow, D♭6 a fresh down-bow); the cellos' copy of Bn 1's breath slur at 212–213 becomes one bar per bow. Bn 1 and Hn 3·4 keep their slur; pitches, dynamics and MIDI unchanged.
+
+## Cycle 519 (v519 → v520), lens 9, holistic comparison
+- Rimsky-Korsakov PDF 83 (never double the bass of an inverted dominant in an upper part): in the soft horn pad at 101–102 and 105–106 Hn 2 no longer doubles the leading tone; it holds the chord's seventh a sixth below Hn 1 (B♭3–C4–B♭3; E♭4–F4–E♭4). Hn 1's neighbour line and c247's neighbour chord kept. Holistic comparison with Schumann 4/iv and v509 → v519 check: no further change.
