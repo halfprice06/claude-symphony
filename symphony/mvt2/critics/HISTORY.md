@@ -3704,3 +3704,10 @@ orchestration; Adler ch. 15 texture. Report: reports/c574.md.
 - Accepted: nothing (v575 = v574 relabelled).
 - Recorded (no change): c574: no change. Controlled sf>p at 63-64, four-layer texture at 57-60, unison into harmony at 65-70, constant harp colour for theme A, theme B colours at phrase starts, safe final chord.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 575 (v575 → v576)
+
+Accepted: part-only Vln I cues for Ob 1, C.a. (77-78) and Fl 1, Cl 1 (75-76); letter A at its barline in the parts; \noBreak in Fl 1's cues.
+Open (optional): viola part letter G at 53; Fl 2 / Ob 2 part niente at 81.
+Do-not-touch: 8-page score layout; c355 letter-and-tempo marking; multi-rest ranges; existing cue set and one-page parts; harp page break before 71; harp pedal plan; standing list.
