@@ -3830,3 +3830,10 @@ harmony; A&S Units 28-29 Neapolitan and augmented sixths. Report: reports/c592.m
 - Accepted: nothing (v593 = v592 relabelled).
 - Recorded (no change): c592: no change. Neapolitan at 49, return 61-65 (♭VI-♭II-V7-I with German sixth spelt as V7), French sixth at 21, ♭VI at 78 without a sixth (c232) and plagal coda all follow Units 28-29.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 593 (v593 → v594)
+form; A&S Unit 15 III and VII. Report: reports/c593.md.
+- Accepted: nothing (v594 = v593 relabelled).
+- Recorded (no change): c593: no change. I-IV-V-I key plan with F♯-minor point at 49% and V7 at 70%; C♭-C at 50-51 in one voice; iii6 at 78 b3 backed by Mozart 41/ii; no new rising thirds; single-chord frame passages not to be judged by PDF 231.
+- Do-not-touch: standing list; the 8-page layout.
