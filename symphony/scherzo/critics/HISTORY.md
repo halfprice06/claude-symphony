@@ -193,6 +193,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 506 (lens 6 playability, Adler ch. 12 The Percussion Ensemble: timpani tuning and technique, cymbals, bass drum (adler2 PDF 55-91), and ch. 14 Scoring for Percussion (adler2 PDF 106-145) (sixth pass)) v506 → v507
+Accepted: timpani G at 55 (sA.ily), damped B at 184 (tA.ily) and E at 329 (coda.ily). Do-not-touch: damping before the fugato at 56 (c416).
+
 ## Cycle 505 (lens 5 engraving, Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (sixth pass)) v505 → v506
 Accepted: Hn 1·2 f in the tuttis (sB.ily, dB.ily), player labels (tA, tB, tC, dA, coda). Do-not-touch: horn punctuation f / countermelody ff in the tuttis; do not flip back.
 
