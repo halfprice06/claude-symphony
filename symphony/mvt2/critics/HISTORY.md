@@ -3662,3 +3662,10 @@ expression; Sebesky ch. 1 and 6. Report: reports/c568.md.
 - Accepted: nothing (v569 = v568 relabelled).
 - Recorded (no change): c568: no change. Entries one level above accompaniment with words, held leads shaped, tempo words at phrase ends with \mt steps; Fl 1 shadowing at 42-43 protected (c090/c494/c511).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 569 (v569 → v570)
+holistic; Rimsky-Korsakov examples 206-274. Report: reports/c569.md.
+- Accepted: nothing (v570 = v569 relabelled).
+- Recorded (no change): c569: no change. Professional in the Dvořák tradition (compared with Violin Concerto op. 53/ii by shape only); nothing worse since v559; optional Bsn 2 E♭3 at 83-84 not applied (would blur harmonics).
+- Do-not-touch: standing list; the 8-page layout.
