@@ -3697,3 +3697,10 @@ form; Adler ch. 15 end and 17. Report: reports/c573.md.
 - Accepted: nothing (v574 = v573 relabelled).
 - Recorded (no change): c573: no change. Closed: c519's 'poco animando' at 75 (forward tempo belongs to the build at 53). Soft span 29-58 and coda length compared with Dvořák 9/ii; joins, seams, rhythmic independence and frame soloists follow Adler.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 574 (v574 → v575)
+orchestration; Adler ch. 15 texture. Report: reports/c574.md.
+- Accepted: nothing (v575 = v574 relabelled).
+- Recorded (no change): c574: no change. Controlled sf>p at 63-64, four-layer texture at 57-60, unison into harmony at 65-70, constant harp colour for theme A, theme B colours at phrase starts, safe final chord.
+- Do-not-touch: standing list; the 8-page layout.
