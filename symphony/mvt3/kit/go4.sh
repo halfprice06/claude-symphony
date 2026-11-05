@@ -28,7 +28,7 @@ hdr='## Changes in cycles 400– (v401–), running list\n\n'
 i=s.index(hdr)+len(hdr)
 j=re.compile(r'^## ',re.M).search(s,i).start()
 s=s[:j].rstrip('\n')+'\n'+block+'\n'+s[j:]
-s=re.sub(r'Updated \d{4}-\d\d-\d\d for v\d+ \([^)]*\)', f'Updated {datetime.date.today()} for v{nx} (cycle {n}, {h})', s, count=1)
+s=re.sub(r'Updated \d{4}-\d\d-\d\d for v\d+ \(.*?\)+(?=; running list)', f'Updated {datetime.date.today()} for v{nx} (cycle {n}, {h})', s, count=1)
 open(p,'w').write(s)
 PY
   sed -i "0,/Latest: \*\*v[0-9]*\*\*\. Next cycle: \*\*[0-9]*\*\*/s//Latest: **v$NX**. Next cycle: **$NX**/" $M/CHECKPOINT.md
