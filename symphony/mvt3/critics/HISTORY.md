@@ -2292,3 +2292,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 534 (v534 → v535), lens 4, no change
 - Casanelles ch. 6 (masking, density and register): no change. Tested and declined Hn 3 F4 for A4 at 252 (five parallel fifths on 252.1, c139's reason holds) and Hn 1 on B♭3 at 83–86 (loses the pedal's octave ring; the tune already outweighs one horn at mf). Checked, follows: Ob 1 with the violins at 187–190, woodwinds against brass, brass density at 205–208, 243–254 and 265–272, low thirds (Bn 2 at 84 declined, c504's line).
+
+## Cycle 535 (v535 → v536), lens 5, violas non div. at 204
+- Adler ch. 2 (string notation: chords as double-stops, "non div." is safer, PDF 30, Ex. II-12): the violas' two ff D4/F4 down-bow strokes at 204 are marked "non div.", as at the other ff string strokes (1, 5, 91, 277), before "div." at 205. Text only; MIDI byte-identical.
+- Tested and declined: measured-tremolo shorthand for the basses' eighths at 199–208 and 247–275 (no space saved, misreadable beside the violins' tremolo, and the MIDI would lose the drive). The reprinted "div." at 211 left as is.
