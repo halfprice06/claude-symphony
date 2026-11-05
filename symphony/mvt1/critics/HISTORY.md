@@ -3248,3 +3248,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: Cb retake at 160->161 is intended (bass group breaks before the tritone); viola double stops 158-161 playable
 - Cross-movement: none
+
+## Cycle 607 (Texture and counterpoint; Rimsky-Korsakov ch. II Melody in combined groups (rimsky-principles PDF 74-80) (fourth pass)) → v608
+- Accepted: Cl 2 stays on the climax counter a2 with Cl 1 through 160-161; Bsn 1 takes the woodwind fifth (Eb4 at 160, was Ab3)
+- Open / not applied: fugato third entry 91-93 string-over-wind octave pairs (kept)
+- Do-not-touch: stretto at 130 Vln II with Bsn 1; plain fugato bass 91-96
+- Cross-movement: record only: climax hierarchy item 3 updated in coherence/mvt1.md; nothing quoted at pitch changes
