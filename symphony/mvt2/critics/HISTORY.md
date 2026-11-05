@@ -3725,3 +3725,10 @@ texture; Rimsky-Korsakov ch. III wind and brass. Report: reports/c577.md.
 - Accepted: nothing (v578 = v577 relabelled).
 - Recorded (no change): c577: no change. Horns inside bassoons at 62 and 79-80 supported by Rimsky's own Ex. 158 (adds to c437); horn counter-melody, horn/bassoon concord-discord, muted-horn doublings and strings-with-brass exceptions all follow PDF 106-114.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 578 (v578 → v579)
+expression; Adler ch. 10 brass. Report: reports/c578.md.
+- Accepted: nothing (v579 = v578 relabelled).
+- Recorded (no change): c578: no change. Horn solos' words and swells, Hn 1 tongued G♭4 at 59, brass levels at 60-62, Tbn 1 marcato at 63-64, horns at 79-82 and the mute plan follow Adler ch. 10; score and parts agree.
+- Do-not-touch: standing list; the 8-page layout.
