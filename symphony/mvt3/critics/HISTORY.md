@@ -2397,3 +2397,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 561 (v561 → v562), lens 1, Cl 2 on F2's peak at 257–258
 - Rimsky-Korsakov ch. II (a soprano melody doubled in one octave: winds above, strings below, PDF 78, Ex. 90; clarinet over bassoon, PDF 76): at 257–258, F2's last climax bar, Cl 2 leaves the chorale's E5 and doubles Vln II on F2's upper octave (`c''2.(\f\< d''4 | g''4. f''8 e''4 d''4)`), returning to the chorale's D5 at 259. The E5 stays in Tpt 1·2, Ob 1, the flutes and Vln I. F2's notes, the chorale top line, the harmony, the woodwind rest at 255–256 and the cor anglais's silence unchanged.
 - Declined: thinning the winds on Vln II's octave at 83–86 (protected), a wind above the horns at 205–206, filling Vln II's upper octave at 255–256 (protected rest, c430).
+
+## Cycle 562 (v562 → v563), lens 2, 5–6 into IV6 at 78
+- A&S Units 11–13 (5–6 from VI to IV6, PDF 168, Ex. 11-12a; IV7 with an accented passing 3, PDF 183–185; no dominant sound between vi and IV, PDF 172): at F2's E♭-major climax, bar 78 beats 3–4 move vi7 → IV6 by a 5–6 instead of sounding a B♭ triad over the C bass: Hn 2 G3–A♭3 (was B♭3), violas hold E♭4, harp RH E♭–A♭–C–E♭ (was F–B♭–D–F). 78–80 now run vi7 – IV6 – IV – V6/5 of V – V, as at 257–259, and the harp/Vln I octaves into 79.1 are gone. F2's notes, the harp's low line (c205) and the pad's rhythm and breath (c166) unchanged.
+- Kept: the cellos' chromatic E♮→E♭ at 71, the codetta's leaping A♭6 at 91–93 (c248, c252, c552). Phrygian cadences at 57–58 and 177–178 follow the book.
