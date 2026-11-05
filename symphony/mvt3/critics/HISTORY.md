@@ -2303,3 +2303,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 537 (v537 → v538), lens 7, no change
 - Adler part 2 ch. 16 (transcription and layering): no change. Tested and declined the timpani hammered rhythm of 199 in place of the A♭ roll at 209–210 (doubles the basses' pitch and pulse; the roll is the only sustained layer under the winds' fp < chord into 211). Declined on paper: a dovetailed string scale at 209–210, a second clarinet line at 89–90 (c502), a passed counter-theme at 205–208, a held note under the bassoon solo at 115–118. F1's doublings at 11–26 and 151–166 follow the reading.
+
+## Cycle 538 (v538 → v539), lens 8, Hn 4 crossfade into Cl 2 at 47
+- Casanelles (crossfade and overlap, PDF 149, 153, 155): Hn 4's held A♭3 pp over the B♭ pedal now fades (`aes2\> r2\!`) as Cl 2 enters on the same A♭3 at 47.1, so the colour change is a crossfade rather than a step. Dynamic only; no notes changed.
+- Declined: accents on the basses' repeated eighths at 265–275 (c438), a morendo on the B♭ pedal at 49–50. The final fff chord at 278 already holds its level.
