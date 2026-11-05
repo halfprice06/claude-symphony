@@ -193,6 +193,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 510 (lens 10 cyclic, Aldwell & Schachter Unit 32 chromatic tonal areas and large-scale motion (aldwell-schachter PDF 584-606) (sixth pass)) v510 → v511
+Rejected: Vln I at 237–241 (c258, c508). Do-not-touch: the Hn 1 + Vln I G♯ pair sounds only at the opening (1–7) and the close (364–376).
+
 ## Cycle 509 (lens 9 holistic, Rimsky-Korsakov examples No. 1-60 (rimsky-principles PDF 173-240) (sixth pass)) v509 → v510
 No change.
 
