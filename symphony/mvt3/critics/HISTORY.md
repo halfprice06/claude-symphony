@@ -2199,3 +2199,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 507 (v507 → v508), lens 7, Adler accompaniment
 - Adler ch. 5 (accompaniment and counter-melody): no change. Tested and declined lower strings alone under Ob 1 at 95–98 (Vln II resting, divided cellos: too close above the bass, two players per note); cellos imitating F2's head at 75–76 and violas/cellos in thirds or sixths at 71–74 worked out on paper and declined.
+
+## Cycle 508 (v508 → v509), lens 8, Rimsky-Korsakov dynamics
+- Rimsky-Korsakov PDF 129, Ex. 253 (sf-p: the strings attack, the dip must be audible): at 149 the strings now play sfp < into ff at 150 with the 21 wind, brass and timpani parts (c226, c346, c408), instead of holding ff through the bar in the same registers as the wind chord. Notes, ties, bowings and Tpt 1·2's ff strokes unchanged; answers c408 (the strings still give the attack).
