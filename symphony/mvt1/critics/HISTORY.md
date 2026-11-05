@@ -3038,3 +3038,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 54 plain appoggiatura (protected accompaniment)
 - Do-not-touch: 50 indirect suspension; 62-63 7/6 over V7; 164-165 delayed 4-3
 - Cross-movement: none
+
+## Cycle 572 (Harmony and voice leading; Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529) (fourth pass)) → v573
+- Accepted: none (no change)
+- Open / not applied: 141.3 iio7 vs vii o7/V; 174.3 no natural 2 after coda N6; no aug6 in second half
+- Do-not-touch: German sixth only at 12 (finale's first chord)
+- Cross-movement: none
