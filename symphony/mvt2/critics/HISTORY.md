@@ -3739,3 +3739,10 @@ holistic; Rimsky-Korsakov examples 261-274+. Report: reports/c579.md.
 - Accepted: nothing (v580 = v579 relabelled).
 - Recorded (no change): c579: no change. Shape matches Tchaikovsky 5/ii (memory and web only; no bar claims); nothing worse since v569 (part-only changes); theme B re-scoring, brass re-entries and the 65-70 pedal follow or are protected.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 580 (v580 → v581)
+cyclic; Sebesky ch. 1 and 9. Report: reports/c580.md.
+- Accepted: nothing (v581 = v580 relabelled).
+- Recorded (no change): c580: no change. Motto tail has four harmonies each landing on C; theme A's fixed harmony protected; coda inner voices economical; instruments held back across the symphony; coherence file brought to v581.
+- Do-not-touch: standing list; the 8-page layout.
