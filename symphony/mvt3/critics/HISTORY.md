@@ -2205,3 +2205,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 509 (v509 → v510), lens 9, holistic comparison
 - Holistic comparison with Brahms 2/iv; Rimsky-Korsakov PDF 54–68 (melody doublings): no change. Tested and declined Vln II an octave below Vln I at 265–268 (lands on the trumpets' F1 head at C5 and blurs the two themes). v499 → v509 checked: nothing got worse.
+
+## Cycle 510 (v510 → v511), lens 10, cyclic review
+- A&S PDF 586–587 (Ex. 32-3: the common tone linking two keys held in an exposed voice): Fl 2 keeps F5 on 242 beats 1–2, then takes A♭5, holds it as G♯5 into 243 and falls to G5 on 243.3 with Vln I's upper desk, so the A♭ = G♯ link into the E-major chord sounds high, at bar 1's pitch, not only in Hn 4. Cyclic review against movement I v578, movement II v576 and scherzo v498: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51.
