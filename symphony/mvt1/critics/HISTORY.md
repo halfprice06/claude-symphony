@@ -3206,3 +3206,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: long soft development episode (Sibelius 5) not reopened
 - Do-not-touch: ppp attacca ending; string breaks at 34-36 and 103-106
 - Cross-movement: record only: tempo table gains 113-116 stringendo and 117 a tempo; no quoted material or bar counts change
+
+## Cycle 600 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (fourth pass)) → v601
+- Accepted: none (no change); coherence/mvt1.md updated to v601 (tempo table, D-flat pivot)
+- Open / not applied: 174.3 natural 2 closed (keep as written)
+- Do-not-touch: Db arch across movement I; 180.3 Db->C pivot into II
+- Cross-movement: none

@@ -1,6 +1,6 @@
 # Movement I (Allegro, C minor): current state for the other movement threads
 
-Owner: the movement I thread ("Movement I, loops from v401" since 2026-10-26 20:56 UTC; "Movement I, loops from v300" from 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v591 (cycle 590). Series 3 is finished at v421. Series 4 (cycles 421–620 → v621, thread "Continue movement 1 loop to v621", Dan 2026-10-31) is listed under "Series 4 changes" at the end. Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
+Owner: the movement I thread ("Movement I, loops from v401" since 2026-10-26 20:56 UTC; "Movement I, loops from v300" from 2026-10-19 21:30 UTC; before that "Movement I, 200 more loops"). Series 3 works from v221; this file is updated as changes are promoted. Last update: v601 (cycle 600). Series 3 is finished at v421. Series 4 (cycles 421–620 → v621, thread "Continue movement 1 loop to v621", Dan 2026-10-31) is listed under "Series 4 changes" at the end. Series 3 runs to v421 (Dan, 2026-10-25). Changes since v221 that touch other movements are listed under "Series 3 changes" at the end; facts above are corrected in place. The theme record is in [themes-mvt1.ly](themes-mvt1.ly), with its index in [themes-mvt1.md](themes-mvt1.md).
 
 Pitch names: C4 = middle C. The double basses and contrabassoon are given at sounding pitch, as the section files write them.
 
@@ -96,6 +96,8 @@ The C drum stays on C for the whole movement. All retunings use the A♭ drum. M
 | 62–63 | poco animando |
 | 66–68.2 | rit. |
 | 68 (beat 3) | Tempo dell'Allegro, crotchet = 126 (since v369; mark D stays at 69) |
+| 113–116 | poco a poco stringendo (MIDI 129–138; since v600, critic 599) |
+| 117 | a tempo, crotchet = 126 (mark G) |
 | 121–122 | allargando |
 | 123–126 | sostenuto |
 | 127 | a tempo |
@@ -265,4 +267,5 @@ These are reserved for the finale. The other movements should not use them. Thei
 - v562–v571: score shows C.a. "(breathe ad lib.)" at 8 and a Tbn "1." breath at 119.4 (c565). Coda 179–181: Vln II G4, Vla E♭4 and Vc C3 now tied, as the basses already were (no re-strikes at 180 and 181); Vln I and Vc slur the motto's D♭ into its resolving C, as at bar 3 (c568). Pitches, dynamics, the timpani pulse at 179–180, the last chord and the five parts tied into movement II are unchanged; the finale's pulse now sounds over a held C in cellos as well as basses. Theme record 35/35 (c570).
 - v572–v581: no note changed; Cb "change bow at will" at 117 and 179 now small italic like the others (c575, notation). full.midi identical to v570; theme record 35/35; reserves rechecked on the MIDI and by interval search: no finale F1 head, F2 head or major motto with D♭ anywhere in movement I (c580). Seed (c580): 145–146 Ob 1 p dolce G4–E5–D5 over V7 of C, the rising major sixth of the C-major S head at 147 and of the finale chorale's top line (IV 224), soft and in one reed; the finale's forte brass form stays reserved.
 - v582–v591: Hn 1 recalls the horn call softly at 125–126 (E♭3–C4–B3, mp espr. > p, doubled from the C4; c581, see Horns); double basses drop to G1 on 165.3 under one slur from the tied G2 (c583, c586). Parts only: hairpin room at Perc 159, Tpt 1·2 162, Vc 41–42 and a B.cl cue at 165–166 (c585). Mixture rechecked (c590): every borrowed A♭ falls to G, E♮/E♭ changes stay in one voice, no A♭ in 179–182, so movement II's A♭ arrives fresh. Theme record 35/35.
+- v592–v601: no pitch changed (vl.txt identical). Bow marks: Vln I, Vln II, Vc up-bow on the G at 160.4.5 so 161 is down-bow; Vla and Vc down-bow on the stop chord at 26, as the other strings (c595; layout unchanged). Tempo: "poco a poco stringendo" 113–116 under the wedge and the brass crescendo, "a tempo" at G (117), so all three big arrivals (63, 117, 157) are now pushed (c599); MIDI 435.8 s. D♭ plan rechecked (c600): the attacca join works as a ♭II pivot, Vln I D♭5→C5 over the C pedal at 180.3 answered by movement II's IV6 of A♭ at II 87 with Cl 1 D♭5→C5 at the same pitch; keep 180.3. Theme record 35/35.
 
