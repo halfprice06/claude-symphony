@@ -2223,3 +2223,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 515 (v515 → v516), lens 5, Gould octave signs
 - Gould PDF 44, 46–48 (an octave sign only where it saves ledger lines): the harp left hand's 8 bassa line now ends after 240 (where it still saves ledger lines for A1 and F1), and the D2–D3 octaves at 241–242 are written at pitch on the stave instead of a ledger line above it. Notes and MIDI identical.
+
+## Cycle 516 (v516 → v517), lens 6, Adler ranges
+- Adler part 2 PDF 8, 306 (the tuba needs the most breath; F1 at the chart's bottom): a tuba breath after 254, where the second-theme head ends and the bass trombone enters on the same E2, so the tuba no longer plays 251–258 ff (about 11 s) without a break. Notes and MIDI unchanged. Range, terms, timpani and harp checks pass.
