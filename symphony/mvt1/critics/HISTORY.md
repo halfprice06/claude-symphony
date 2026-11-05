@@ -3260,3 +3260,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: brass entry dynamics (47 checked); trombones f at 131; open horns at 73-76 and 103-106
 - Cross-movement: none
+
+## Cycle 609 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (fourth pass)) → v610
+- Accepted: none (no change); record: 26->27 has two d5->P5 pairs on paper (Hn 1/Hn 3, Fl 2/Bsn 2), broken by the beat-4 rest (corrects c409/c509); coherence 78-79 cross-movement line corrected (Cl 1 G#5 at 78)
+- Open / not applied: second lyrical tune in second group; 156-157 climb (both protected)
+- Do-not-touch: second group 47-63 plan; introduction horn call into silence at 14
+- Cross-movement: none
