@@ -3062,3 +3062,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: cello clefs 46.4-55; Cb part page turn in 171-174 rest
 - Cross-movement: none
+
+## Cycle 576 (Playability, instrument by instrument; Adler App. A ranges, professional and amateur limits (adler2 PDF 302-312) (fourth pass)) → v577
+- Accepted: none (no change)
+- Open / not applied: flutes never use low register
+- Do-not-touch: extreme notes matched to dynamics; timpani retunings
+- Cross-movement: none
