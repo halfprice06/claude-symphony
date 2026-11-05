@@ -3655,3 +3655,10 @@ texture; Adler ch. 16. Report: reports/c567.md.
 - Accepted: nothing (v568 = v567 relabelled).
 - Recorded (no change): c567: no change. Late answering entrances (41, 53, 57, 75), counter-line 57-60, lean climax 61-62, held harmonic counterpoint and changing theme-B backgrounds follow Adler ch. 16; 36-37 overlap deliberate (c071).
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 568 (v568 → v569)
+expression; Sebesky ch. 1 and 6. Report: reports/c568.md.
+- Accepted: nothing (v569 = v568 relabelled).
+- Recorded (no change): c568: no change. Entries one level above accompaniment with words, held leads shaped, tempo words at phrase ends with \mt steps; Fl 1 shadowing at 42-43 protected (c090/c494/c511).
+- Do-not-touch: standing list; the 8-page layout.
