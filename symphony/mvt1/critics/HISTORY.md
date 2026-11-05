@@ -3272,3 +3272,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: no horn call in recapitulation; 125-126 recall heard as inner voice (protected)
 - Do-not-touch: single timpani pulse 179-180; violin octave doubling saved for 158-161
 - Cross-movement: none
+
+## Cycle 611 (Melody and memorability; Rimsky-Korsakov ch. II Melody: strings, unison and octave doublings (rimsky-principles PDF 54-63) and the examples it cites (fourth pass)) → v612
+- Accepted: none (no change); closes the open item '125-126 recall heard as inner voice' (keep)
+- Open / not applied: 156-157 climb (protected)
+- Do-not-touch: 125-126 half-hidden recall; second-theme string settings; high violin notes doubled an octave below
+- Cross-movement: none
