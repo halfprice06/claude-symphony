@@ -3718,3 +3718,10 @@ playability; Adler App. A ranges. Report: reports/c576.md.
 - Accepted: nothing (v577 = v576 relabelled).
 - Recorded (no change): c576: no change. All long wind spans have breaths within 20 s; notes beyond the amateur column only at protected ff peaks; timpani order at 5-6 and low notes covered; names and terms in Adler's tables.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 577 (v577 → v578)
+texture; Rimsky-Korsakov ch. III wind and brass. Report: reports/c577.md.
+- Accepted: nothing (v578 = v577 relabelled).
+- Recorded (no change): c577: no change. Horns inside bassoons at 62 and 79-80 supported by Rimsky's own Ex. 158 (adds to c437); horn counter-melody, horn/bassoon concord-discord, muted-horn doublings and strings-with-brass exceptions all follow PDF 106-114.
+- Do-not-touch: standing list; the 8-page layout.
