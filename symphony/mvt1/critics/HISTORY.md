@@ -3080,3 +3080,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 47-55/147-155 flat pp pads; no rit. at 13-14
 - Do-not-touch: B.cl and violas alternating p espr. at 107-110; crescendo approaches to every forte
 - Cross-movement: none
+
+## Cycle 579 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Adler part 1 full-score examples in ch. 5 and 8 (adler1 PDF 137-165, 235-281) (fourth pass)) → v580
+- Accepted: none (no change)
+- Open / not applied: 156-157 climb short next to Bruckner 9/i (protected)
+- Do-not-touch: motto colour change at each return
+- Cross-movement: none
