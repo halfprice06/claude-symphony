@@ -3242,3 +3242,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: treble at 158-161 and 171-182; cello and viola clef plans
 - Cross-movement: none
+
+## Cycle 606 (Playability, instrument by instrument; Adler ch. 2 Bowed String Instruments: divisi, bowing, harmonics (adler1 PDF 24-70) (fourth pass)) → v607
+- Accepted: none (no change)
+- Open / not applied: none
+- Do-not-touch: Cb retake at 160->161 is intended (bass group breaks before the tritone); viola double stops 158-161 playable
+- Cross-movement: none
