@@ -2296,3 +2296,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 535 (v535 → v536), lens 5, violas non div. at 204
 - Adler ch. 2 (string notation: chords as double-stops, "non div." is safer, PDF 30, Ex. II-12): the violas' two ff D4/F4 down-bow strokes at 204 are marked "non div.", as at the other ff string strokes (1, 5, 91, 277), before "div." at 205. Text only; MIDI byte-identical.
 - Tested and declined: measured-tremolo shorthand for the basses' eighths at 199–208 and 247–275 (no space saved, misreadable beside the violins' tremolo, and the MIDI would lose the drive). The reprinted "div." at 211 left as is.
+
+## Cycle 536 (v536 → v537), lens 6, cor anglais with Ob 1 at 151–158
+- Sebesky ch. 2 (oboe unisons are harsh, oboe with cor anglais in unison is endorsed; the oboe's low F4–B♭3 is coarse, PDF 70–72, 80): at the ff recapitulation 151–158 the cor anglais takes Ob 2's unison copy of F1 (down to E♭4, D4 and F4 at 152–153 and 157), so 147–166 is one cor anglais passage (c446 gave it 159–166); Ob 2 rests from 151. Pitches, slurs, accents and dynamics unchanged; layout unchanged.
+- Tested and declined: the same swap at 19–26 (page 2 over-full against c251's layout). Checked, no change: trombone slides at 248/251 (protected, playable with the F attachment), horn attacks and stopped notes, ranges and endurance.
