@@ -3871,3 +3871,10 @@ texture; Adler ch. 8 orchestral treatments. Report: reports/c597.md.
 Accepted: timpani "ord." at 78 b3.
 Open (optional): Cb pizz. at 40.
 Do-not-touch: mute plan; string colour words; standing list; 8-page layout.
+
+
+## Cycle 599 (v599 → v600), release check
+
+Accepted: timpani part text "medium sticks, ord." at 77 (part only).
+Closed at release: all six open optional items (Cb 40, viola letter G 53, Fl 2/Ob 2 part niente 81, timpani type style, "(sul D)" line end 1-3, letter E at 37).
+Do-not-touch: the full standing list; everything accepted in cycles 400-598; 8-page score and 30-page parts book.
