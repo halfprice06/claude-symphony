@@ -3122,3 +3122,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: uncued entries on letters (23, 41, 97, 111, 156, Perc 159)
 - Cross-movement: none
+
+## Cycle 586 (Playability, instrument by instrument; Rimsky-Korsakov ch. I General review of orchestral groups (rimsky-principles PDF 24-50) (fourth pass)) → v587
+- Accepted: Cb slur tied G2 into G1 at 164-165 (one up-bow; 166 down-bow as marked)
+- Open / not applied: none
+- Do-not-touch: Hn 1 endurance at 125-126; wind spans all have breaths; timpani retunings
+- Cross-movement: none
