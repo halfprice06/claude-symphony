@@ -3050,3 +3050,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 climb (protected); 113-143 loud span (thins at 123-130, 135-137)
 - Do-not-touch: soft groups under loud cut-offs 122/134/143/162; single timpani pulse 179-180
 - Cross-movement: none
+
+## Cycle 574 (Orchestration; Adler ch. 11 Scoring for Brass: homophonic unit and climactic uses (adler2 PDF 14-18, 37-54) (fourth pass)) → v575
+- Accepted: none (no change)
+- Open / not applied: none new (form points 156-157, 113-143, development soft episode remain protected)
+- Do-not-touch: three Ab climaxes 82/122/160 with trumpets saved; low trumpets at 122
+- Cross-movement: none
