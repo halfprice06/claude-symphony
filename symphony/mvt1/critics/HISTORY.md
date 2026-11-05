@@ -3026,3 +3026,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 climb length (Glazunov 8-16 bar build); soft dolce brass episode in development
 - Do-not-touch: 47-63 second-theme texture
 - Cross-movement: none
+
+## Cycle 570 (Cyclic design and emotional arc across four movements; Rimsky-Korsakov author's prefaces and ch. IV transfer of phrases (rimsky-principles PDF 13-23, 125-128) (fourth pass)) → v571
+- Accepted: none (no change); coherence/mvt1.md updated to v571
+- Open / not applied: horn call has fewest statements (blocked by protections)
+- Do-not-touch: common-note hand-offs 9.4, 174-175, 180-181, 182; coda thinning by groups 179-182
+- Cross-movement: none
