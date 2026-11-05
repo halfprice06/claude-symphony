@@ -3607,3 +3607,10 @@ cyclic; Adler ch. 1 and 15. Report: reports/c560.md.
 - Accepted: nothing (v561 = v560 relabelled).
 - Recorded (no change): c560: no change. Link from movement I, both quotations, motto-tail colours, climax release and coda hand-over follow Adler's additional thoughts; joins hold.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 561 (v561 → v562)
+melody; Rimsky-Korsakov strings doublings. Report: reports/c561.md.
+- Accepted: nothing (v562 = v561 relabelled).
+- Recorded (no change): c561: no change. Themes gain doublings stepwise, violin unisons at 23-30 and 53-56, high violin notes doubled except protected spots, no octaves in divided low strings, climax 79-81 in three octaves.
+- Do-not-touch: standing list; the 8-page layout.
