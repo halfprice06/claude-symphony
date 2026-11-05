@@ -3802,3 +3802,10 @@ texture; Sebesky strings PDF 133-173. Report: reports/c587.md.
 Accepted: cello slur through the 9-8 suspension at 73-74.
 Open (optional): Bsn 1 dynamics at 54-55.
 Do-not-touch: c469 suspension pitches; c118 bowings; c338 violin slurs at 24, 72; standing list; 8-page layout.
+
+
+## Cycle 589 (v589 → v590)
+holistic; Adler ch. 11 and 15 examples. Report: reports/c589.md.
+- Accepted: nothing (v590 = v589 relabelled).
+- Recorded (no change): c589: no change. Professional against Brahms PC 1/ii (memory and web only); nothing worse since v579; held-back low brass, theme A rescorings, foreground/background and soft endings follow Adler's examples.
+- Do-not-touch: standing list; the 8-page layout.
