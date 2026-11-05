@@ -3308,3 +3308,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: viola C string unused (73-76 rejected)
 - Do-not-touch: string changes since v526 playable; parts page turns
 - Cross-movement: none
+
+## Cycle 617 (Texture and counterpoint; Adler ch. 11 Scoring for brass: contrapuntal use (adler2 PDF 41-54) (fourth pass)) → v618
+- Accepted: none (no change); closes c157 open item (Tpt 3 unison with Hn 3 at 113-116 kept)
+- Open / not applied: none
+- Do-not-touch: brass head 167-169 held trumpets; 77-81 brass answers
+- Cross-movement: none
