@@ -3857,3 +3857,10 @@ Do-not-touch: link 1-6; Bsn 2 slur 71-72; Cl 1 rest with fermata at 92; standing
 
 Accepted: part-only Vc. cue for Hn 3·4 at 27-28.
 Do-not-touch: horn layout 61-62; muted horns 87-90; existing cue set; standing list; 8-page layout.
+
+
+## Cycle 597 (v597 → v598)
+texture; Adler ch. 8 orchestral treatments. Report: reports/c597.md.
+- Accepted: nothing (v598 = v597 relabelled).
+- Recorded (no change): c597: no change. Counter-melodies in 37-60 instead of imitation (c124, c457); B.cl./Bsn 2 unison bass at 57-58 kept for staggered breaths (c456, c536); held V7 at 65-66 well spaced; exposed C5 at 89-92 protected.
+- Do-not-touch: standing list; the 8-page layout.
