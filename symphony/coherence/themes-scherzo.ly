@@ -89,7 +89,7 @@ motiveXrepeated = { b,4 b,8 b,8 b,4 }
 motiveXclose = { b,4 b,8 b,8 e,4 }
 % lastGsharp: the last sound, continued as A flat at the same pitch by the finale's bar 1 (Hn 1 A flat 4, Vln I A flat 5)
 lastGsharpHn = { gis'2. }
-lastGsharpVln = { r2 gis''4 }  % c500 (v501): Vln I takes the G sharp 5 on beat 3 of 364 and holds it to 376
+lastGsharpVln = { gis''2. }  % c550 (v551): Vln I takes the G sharp 5 on beat 1 of 364 under Fl 1 and holds it to 376 (c500, v501: from beat 3)
 %@ motiveXclose Timp 363 abs
 %@ motiveXclose Timp 367 abs
 %@ motiveXclose Timp 371 abs
