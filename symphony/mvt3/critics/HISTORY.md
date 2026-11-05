@@ -2339,3 +2339,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 546 (v546 → v547), lens 6, cello bowing before pizz. at 171
 - Adler ch. 2 (bowing; end on an up-bow at the frog before pizz., PDF 54; slurs on diminuendos, PDF 38): the cellos' A♭ at 168 slurs into the G at 169.1 on the diminuendo down-bow, and the run and held D3 are an up-bow ending at the frog before "pizz." at 171, restoring c218's intent after c434 gave the cellos the descent. Notes, dynamics and MIDI unchanged; the basses already ended at the frog.
 - Weighed, not applied: cellos sul G at 170, a string trill at 147–150 (protected), senza vibrato at 95–98, a natural harmonic at 43–50 (none gives B♭5), punta d'arco at 19–26. Long slurs within Adler's limits.
+
+## Cycle 547 (v547 → v548), lens 7, horns hold through 129
+- Rimsky-Korsakov ch. III (overlaying and enclosure; in quick chord changes the brass hold the common notes and the woodwind move, PDF 108): bar 129, Hn 3 `d'4 d'4 c'4 c'4` and Hn 4 holds G3 in quarters (Hn 3 leapt D4→G4 onto Hn 1's G4 and Hn 4 went G3–G3–E3–C4), so through the bar's I6–IV6–iv6 the motion is in the bass (E–E♭–D), Bn 1 and Fl 1; the horns step into 130. c033's quarter-note pulse kept; IV6 and iv6 complete.
+- Checked, no change: horns between the bassoons at 80.3–4 (c147), the horn neighbour chord at 101–106 (c247, c519). Follows: four soft horns under clarinets at 9–10, horns with violas or cellos at 67–74 and 130–131.
