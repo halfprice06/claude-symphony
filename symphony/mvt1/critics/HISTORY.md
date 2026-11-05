@@ -3290,3 +3290,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 climb (protected; supported as two-bar upbeat)
 - Do-not-touch: climax order by metric strength 82/122/160; asymmetric phrases only at joints; hemiolas 23-26, 135-138
 - Cross-movement: none
+
+## Cycle 614 (Orchestration; Rimsky-Korsakov ch. III Harmony: brass and combined groups; overlaying, crossing, enclosure (rimsky-principles PDF 100-114) (fourth pass)) → v615
+- Accepted: Tbn 1 E4 at 158 (was C4, unison with Tpt 3): held brass now G1-G2-G3-C4-E4-G4 with the sixth; Tbn 1 E4-D4 into 159
+- Open / not applied: one woodwind above trumpets at 162 (protected)
+- Do-not-touch: Tpt 3 C4-B3 motto tail at 158; c607 woodwinds at 160-161
+- Cross-movement: record only: coherence 'Not used' paragraph now lists Tbn 1 E4 at 158; still a 6/4 over G, finale reserve untouched
