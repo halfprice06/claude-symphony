@@ -3314,3 +3314,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: brass head 167-169 held trumpets; 77-81 brass answers
 - Cross-movement: none
+
+## Cycle 618 (Expression; Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (fourth pass)) → v619
+- Accepted: none (no change)
+- Open / not applied: none
+- Do-not-touch: 91-93 cello suspension chain unmarked (Jupiter model); 125-126 and 158-159 suspensions
+- Cross-movement: none
