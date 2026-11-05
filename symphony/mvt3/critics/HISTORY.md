@@ -2243,3 +2243,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 521 (v521 → v522), lens 1, cellos on F1's head at 205–206
 - Adler ch. 11 (brass melodic presentation; Ex. XI-13, horns with lower strings on a tune): the cellos join F1's head at 205–206 (A♭3, f, with the four horns, Tbn 1·2 and Bn 2) and return to the A♭2 pedal at 207; the pedal stays in the bass trombone, tuba and basses.
 - Declined: Tbn 1 doubling the last chorale top line an octave lower at 255–263 (thins chord tones in the protected final approach). Checked, no change: loud high horn unisons (none above A♭4 concert) and a Lohengrin-style hand-over (231–234 protected; 211–218 already does one).
+
+## Cycle 522 (v522 → v523), lens 2, chromatic voice exchange at 189
+- A&S Units 30–31 (chromatic voice exchange, Ex. 31-17/31-19; French sixth as V7♭5 4/3): bar 189, inside IV of the recapitulated F2, the bass (Cb, Bn 2) falls F–F♭–E♭–D♭ against the counter-melody (Vc, Bn 1) rising D♭3–D3–E♭3–F3 (m6–A6–P8–M10, French sixth on beat 2, passing 6/4 at the octave); Cl 2 to A♭3 after beat 1, Cl 1 D♭4→D4. F♭ resolves to E♭. The basses use the C extension at 189 (E♭1, D♭1); header note updated. Tune, dynamics, bowing and scoring unchanged.
+- Checked, no change: m6–M10 exchange at 146→147 (c432's reason holds), common-tone °7 at 24–25 and 39–42 (c342), augmented triads at 72 and 93.4 (c252); 92, 273, 129, 135–138 and the C–A♭–E key plan follow the reading.
