@@ -2408,3 +2408,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 564 (v564 → v565), lens 4, timpani roll at 35
 - Rimsky-Korsakov tutti chords (appendix PDF 505–507; ch. IV, Ex. 204–221: every held loud chord with timpani has a roll on the bass): bar 35, under the trombones', contrabassoon's and basses' held A♭ ff > f, the timpani roll A♭ ff > f through the bar (`aes,2.:32->~\ff\> aes,4:32\f`, was one f stroke). The retuning to B♭ at 37 and the roll at 39–40 unchanged.
 - Checked, no change: 166 (protected), a tutti without woodwind, short low strokes at 35–38. Not reopened: wind trills, a restruck final chord, brass a degree softer at 223/263/278.
+
+## Cycle 565 (v565 → v566), lens 5, no change
+- Gould ch. 1 (ledger lines, octave signs, rests): no change. Tested and declined writing the harp's 239–240 chords at pitch in the part with the 8 bassa score-only (the part grows to 3 pages with a page turn before 255–279). Checked, no change: ledger lines (at most five, in Fl 1 and Vln I), the horns' four lines inside F1's phrase, rests on shared staves, the harp's 8 bassa at 67–82.
