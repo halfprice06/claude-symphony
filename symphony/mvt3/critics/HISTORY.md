@@ -2226,3 +2226,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 516 (v516 → v517), lens 6, Adler ranges
 - Adler part 2 PDF 8, 306 (the tuba needs the most breath; F1 at the chart's bottom): a tuba breath after 254, where the second-theme head ends and the bass trombone enters on the same E2, so the tuba no longer plays 251–258 ff (about 11 s) without a break. Notes and MIDI unchanged. Range, terms, timpani and harp checks pass.
+
+## Cycle 517 (v517 → v518), lens 7, Adler combination
+- Adler part 2 PDF 178–179, 184 (each combined line needs a string, a woodwind and a brass colour): at 212–214 the cellos leave the bass and play Bn 1's counter line under theme B at pitch, f, with its slurs (with Hn 3·4), back to F3 at 215; the bass stays in the basses, Bn 2, Cbsn, bass trombone and tuba. Theme B, the dynamics, Vln II and violas unchanged.
