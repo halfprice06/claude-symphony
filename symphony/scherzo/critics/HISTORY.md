@@ -196,6 +196,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 549 (lens 9 holistic, Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (sixth pass)) v549 → v550
+c549: Fl 1 joins the reprise at 261.
+
 ## Cycle 548 (lens 8 expression, Aldwell & Schachter Unit 3 Rhythm and Meter: accent, hypermeter (aldwell-schachter PDF 47-57) (sixth pass)) v548 → v549
 c548: second idea crescendo into the cadence at 49–53.
 
