@@ -3266,3 +3266,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: second lyrical tune in second group; 156-157 climb (both protected)
 - Do-not-touch: second group 47-63 plan; introduction horn call into silence at 14
 - Cross-movement: none
+
+## Cycle 610 (Cyclic design and emotional arc across four movements; Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (fourth pass)) → v611
+- Accepted: none (no change); coherence/mvt1.md updated to v611
+- Open / not applied: no horn call in recapitulation; 125-126 recall heard as inner voice (protected)
+- Do-not-touch: single timpani pulse 179-180; violin octave doubling saved for 158-161
+- Cross-movement: none
