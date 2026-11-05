@@ -3146,3 +3146,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 13-15 no accelerando into Allegro (protected)
 - Do-not-touch: 125-126 horn recall doubled from C4; 26-27 stop chord layout; 167-170 divided violins
 - Cross-movement: none
+
+## Cycle 590 (Cyclic design and emotional arc across four movements; Aldwell & Schachter Unit 23 Mixture as a long-range device (aldwell-schachter PDF 386-397) (fourth pass)) → v591
+- Accepted: none (no change); coherence/mvt1.md updated to v591
+- Open / not applied: none
+- Do-not-touch: mixture plan: borrowed Ab falls to G; no Ab in 179-182
+- Cross-movement: none
