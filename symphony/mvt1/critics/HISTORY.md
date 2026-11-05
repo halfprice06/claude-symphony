@@ -3176,3 +3176,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 125-126 horn recall partly masked as inner voice (mf rejected); 156-157 climb
 - Do-not-touch: harmonic-series layouts at 82/160/182; 122 noise chord; graded marks
 - Cross-movement: none
+
+## Cycle 595 (Engraving and notation (Gould's *Behind Bars*, MOLA); Adler ch. 2 notation of bowings, divisi and harmonics (adler1 PDF 30-55) as engraving rules (fourth pass)) → v596
+- Accepted: bow marks: Vln I/Vln II/Vc up-bow on G at 160.4.5 so 161 is down-bow; Vla and Vc down-bow on the ff stop chord at 26
+- Open / not applied: none
+- Do-not-touch: slurs 46.4-48.4/146.4-148.4; div./unis. and technique pairing
+- Cross-movement: none (stop chord 26 pitches and layout unchanged)
