@@ -2247,3 +2247,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 522 (v522 → v523), lens 2, chromatic voice exchange at 189
 - A&S Units 30–31 (chromatic voice exchange, Ex. 31-17/31-19; French sixth as V7♭5 4/3): bar 189, inside IV of the recapitulated F2, the bass (Cb, Bn 2) falls F–F♭–E♭–D♭ against the counter-melody (Vc, Bn 1) rising D♭3–D3–E♭3–F3 (m6–A6–P8–M10, French sixth on beat 2, passing 6/4 at the octave); Cl 2 to A♭3 after beat 1, Cl 1 D♭4→D4. F♭ resolves to E♭. The basses use the C extension at 189 (E♭1, D♭1); header note updated. Tune, dynamics, bowing and scoring unchanged.
 - Checked, no change: m6–M10 exchange at 146→147 (c432's reason holds), common-tone °7 at 24–25 and 39–42 (c342), augmented triads at 72 and 93.4 (c252); 92, 273, 129, 135–138 and the C–A♭–E key plan follow the reading.
+
+## Cycle 523 (v523 → v524), lens 3, V4/2 at 58 and 178
+- A&S Units 6–8 (V7 and its inversions; Ex. 8-8 V4/2 with the 7th resolving in the bass; Ex. 7-7 hidden octaves): at the joins of F2's minor statements, 58→59 and 178→179, the 7th moves into the bass on beat 4 (V4/2 → i6), as at the major statements 74 and 194. Bar 58: pizz. cellos and basses add A♭ on beat 4, falling to G♭ at 59; violas F3–B♭3. Bar 178: basses add F1 on beat 4 after motive x; violas end D3–G3. Removes the violas' unresolved A♭ at 58 and the hidden octaves at 178.
+- Checked, no change: the held 7th on 58.1/178.1 (c413's protected 7–6), proportions and the coda's stage order.
