@@ -193,6 +193,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 525 (lens 5 engraving, MOLA second pass, applied to the instrumental parts (parts.ily) rather than the score (sixth pass)) v525 → v526
+c525: parts only (bass clarinet cue, two dead cues removed).
+
 ## Cycle 524 (lens 4 orchestration, Adler ch. 5 Scoring for Strings (adler1 PDF 125-167) (sixth pass)) v524 → v525
 c524: harp off-beats rest at 161–164.
 
