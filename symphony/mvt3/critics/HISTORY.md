@@ -2285,3 +2285,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 532 (v532 → v533), lens 2, oboes resolve the dominant ninth at 10
 - A&S Unit 27 (the dominant ninth; its typical 6–5 resolution over V, Ex. 27-5, 27-6b): on the f stroke at 10.3 the oboes resolve the V7♭9 top: Ob 1 A♭5→G5 (was a leap to F5, leaving both the ninth and the seventh unresolved), Ob 2 D5→F5, so the stroke keeps the seventh and is still a full V7. Same 6–5 as F1's head at 11–12. The staged entries at 9–10 (v280), with the V7♭9 top on 10.1, are unchanged.
 - Declined: II7 over the pedal at 7–8, an applied ♭9 at 36.4, V♭9 of IV at 235.4 (protected, clashes), an A♭ neighbour at 133–134 (pre-empts 135, c259).
+
+## Cycle 533 (v533 → v534), lens 3, complete V6/5 at 176
+- A&S Unit 15 (III, VI and VII; avoid root-position vii° with the seventh doubled, use V6/5, PDF 243, 245): bar 176, Cl 2 holds G3 through the bar instead of falling to F3 on beat 3 with the violas, so 176.3 is a complete V6/5 over Bn 1's B2 and the seventh F stays only in the violas, resolving to E♭ at 177 (as c263 did at 172 and 180). Cl 2's 177–178 line unchanged.
+- Declined: ♮VII–V6/5–i at 175–177 (breaks the stepwise bass), III at 20.1 (weak-to-strong, undoes c257/c322), a passing IV6 at 96 (octaves with Ob 1's movement II tail). Form and proportions follow the unit.
