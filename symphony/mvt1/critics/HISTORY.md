@@ -3134,3 +3134,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 109-110 Fl 1 mp over violas p (settled)
 - Do-not-touch: 77 bare fifth with B.cl third; 147-155 Vln I rest (finale reserve)
 - Cross-movement: none
+
+## Cycle 588 (Expression; MOLA guidelines on dynamics, articulation and bowing marks in parts (mola PDF 1-16) (fourth pass)) → v589
+- Accepted: none (no change)
+- Open / not applied: character word at 155.4 rejected (Grandioso belongs to finale)
+- Do-not-touch: Hn 1 125-126 and Cb 164-166 marks in parts; viola swell at 108
+- Cross-movement: none
