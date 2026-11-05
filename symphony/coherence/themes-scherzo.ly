@@ -89,12 +89,12 @@ motiveXrepeated = { b,4 b,8 b,8 b,4 }
 motiveXclose = { b,4 b,8 b,8 e,4 }
 % lastGsharp: the last sound, continued as A flat at the same pitch by the finale's bar 1 (Hn 1 A flat 4, Vln I A flat 5)
 lastGsharpHn = { gis'2. }
-lastGsharpVln = { gis''2. }
+lastGsharpVln = { r2 gis''4 }  % c500 (v501): Vln I takes the G sharp 5 on beat 3 of 364 and holds it to 376
 %@ motiveXclose Timp 363 abs
 %@ motiveXclose Timp 367 abs
 %@ motiveXclose Timp 371 abs
 %@ lastGsharpHn HnOne 368 abs
-%@ lastGsharpVln VlnOne 369 abs
+%@ lastGsharpVln VlnOne 364 abs
 % the horn call at pitch (the finale's Hn 3 resolves its D sharp 4 at IV 219-220)
 %@ hornCall HnOne 1 abs
 % theme A bar 2 (bars 14, 106, 254, 306), G5-F sharp 5-F5-E5 (notes 5-8), at pitch: movement I bar 79 and finale 273-275 quote it there

@@ -192,6 +192,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 500 (lens 10 cyclic, Release check: every do-not-touch item in HISTORY.md, every change in the last 100 cycles, and every book rule cited in them (fifth pass)) v500 → v501
+Accepted: Vln I G♯5 from 364.3 (coda.ily). Ending scoring changed (pitch and last sound unchanged). Supersedes c440's 'violins silent 361–368' for Vln I; Vln II stays silent 361–368.
+
 ## Cycle 499 (lens 9 holistic, Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (fifth pass)) v499 → v500
 Accepted: Vln I G♯5 held 1–6, slurred to G5 at 7 (intro.ily). Opening scoring changed: finale and movement I told for information.
 
