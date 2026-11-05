@@ -3600,3 +3600,10 @@ holistic; Rimsky-Korsakov examples 126-209. Report: reports/c559.md.
 - Accepted: nothing (v560 = v559 relabelled).
 - Recorded (no change): c559: no change. Theme A grows by added players as in Elgar's Nimrod (shape only); brass 60-64, horn/bassoons 67-70, coda fade and re-scorings follow Rimsky; v549-v559 changes print-only.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 560 (v560 → v561)
+cyclic; Adler ch. 1 and 15. Report: reports/c560.md.
+- Accepted: nothing (v561 = v560 relabelled).
+- Recorded (no change): c560: no change. Link from movement I, both quotations, motto-tail colours, climax release and coda hand-over follow Adler's additional thoughts; joins hold.
+- Do-not-touch: standing list; the 8-page layout.
