@@ -3200,3 +3200,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: C.a. deep band never used softly (left free for other movements)
 - Do-not-touch: woodwind dynamics and articulation by register
 - Cross-movement: none
+
+## Cycle 599 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Adler part 2 transcription examples in ch. 16 (adler2 PDF 202-244) (fourth pass)) → v600
+- Accepted: tempo: 'poco a poco stringendo' 113-116 (MIDI 129-138), 'a tempo' 126 at G (117); no notes changed
+- Open / not applied: long soft development episode (Sibelius 5) not reopened
+- Do-not-touch: ppp attacca ending; string breaks at 34-36 and 103-106
+- Cross-movement: record only: tempo table gains 113-116 stringendo and 117 a tempo; no quoted material or bar counts change
