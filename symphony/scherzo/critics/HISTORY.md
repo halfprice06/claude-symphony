@@ -193,6 +193,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 520 (lens 10 cyclic, Aldwell & Schachter Unit 26 modulation and form (aldwell-schachter PDF 442-461) (sixth pass)) v520 → v521
+c520: Bsn 1 prepared seventh at 199–201 (bar 200 = finale's opening chord).
+
 ## Cycle 519 (lens 9 holistic, Rimsky-Korsakov examples No. 61-125 (rimsky-principles PDF 241-305) (sixth pass)) v519 → v520
 c519: Cl 2 fills the f stretto chord at 70 and 298.
 
