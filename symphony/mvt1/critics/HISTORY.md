@@ -3014,3 +3014,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 37/67/164.1 horn seventh; 145-146 clarinet grading
 - Do-not-touch: 125-126/145/157 soft horn chords; 56-67 Cl1+Hn2 counterline
 - Cross-movement: none
+
+## Cycle 568 (Expression; Aldwell & Schachter Unit 3 Rhythm and Meter: accent, hypermeter (aldwell-schachter PDF 47-57) (fourth pass)) → v569
+- Accepted: Coda 179-181: Vln II G4, Vla Eb4, Vc C3 tied (no barline re-strikes); Vln I and Vc slur Db into resolving C at 179/181 as at bar 3
+- Open / not applied: none
+- Do-not-touch: P-head accents in soft passages; tempo-change placement
+- Cross-movement: coda 178-182: notes/dynamics/timing unchanged; Vln II/Vla/Vc MIDI re-attacks at 180/181 removed; held C now also in cellos under the timpani pulse
