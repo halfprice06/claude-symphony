@@ -3188,3 +3188,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: low flute colour still unused (protected spots)
 - Do-not-touch: C.a. to Cl 1 colour change at 175-177; no mutes (c76)
 - Cross-movement: none
+
+## Cycle 597 (Texture and counterpoint; Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281) (fourth pass)) → v598
+- Accepted: none (no change)
+- Open / not applied: 77-81 tremolo vs quaver figure; 91-96 fugato bass; static 150/155/176
+- Do-not-touch: violas above Vln II at 19-22 and 107-110; 111-116 wedge
+- Cross-movement: none
