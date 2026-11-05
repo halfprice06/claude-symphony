@@ -3676,3 +3676,10 @@ cyclic; Rimsky-Korsakov prefaces and ch. IV. Report: reports/c570.md.
 - Accepted: nothing (v571 = v570 relabelled).
 - Recorded (no change): c570: no change. Link at 2-3 is Rimsky's method 2 for passing a chord; staged diminuendos at 82 and 90-92; motto-tail registers and the 79-81/87-89 echo follow PDF 127-129; joins hold.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 571 (v571 → v572)
+melody; Sebesky PDF 204-230. Report: reports/c571.md.
+- Accepted: nothing (v572 = v571 relabelled).
+- Recorded (no change): c571: no change. Theme lines unchanged since v431; theme B's stepwise first phrase protected (c291, c141); cadence descent at 77-78/81-82 ends differently; counter-lines move where the lead holds.
+- Do-not-touch: standing list; the 8-page layout.
