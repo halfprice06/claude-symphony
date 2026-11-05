@@ -2172,3 +2172,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 498 (v498 → v499), lens 8, A&S suspensions
 - A&S PDF 348 (a dissonant suspension leans; its resolution is softer): the violas' held C♭4 at 49 (♭9 of V7 of E♭ over the B♭ pedal) now has a diminuendo into its B♭3 on beat 3. Notes, the pp level and the poco rit. unchanged.
+
+## Cycle 499 (v499 → v500), lens 9, holistic comparison
+- Holistic comparison with Elgar 1/iv; Casanelles PDF 271–273 (distance is a different sound from soft playing in place): under Ob 1's recollection of movement II at 95–98 the held string chord is played by the back desks only ("last 2 desks" Vln II, Vla, Vc; "last desk" Cb), "tutti" at 99 (Vla, Vc, Cb) and 104 (Vln II); c444's sul tasto kept. Text only; MIDI identical. v489 → v499 checked: nothing got worse.
