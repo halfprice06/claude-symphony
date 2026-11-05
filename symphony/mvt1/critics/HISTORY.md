@@ -3074,3 +3074,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: transition 33-46 bass one held note per bar (protected)
 - Do-not-touch: fugato focus levels 94-96; 11 accompaniment figures
 - Cross-movement: none
+
+## Cycle 578 (Expression; Sebesky ch. 1 focus and variety, ch. 6 melodic considerations (sebesky PDF 11-20, 204-218) (fourth pass)) → v579
+- Accepted: none (no change)
+- Open / not applied: 47-55/147-155 flat pp pads; no rit. at 13-14
+- Do-not-touch: B.cl and violas alternating p espr. at 107-110; crescendo approaches to every forte
+- Cross-movement: none
