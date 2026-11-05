@@ -2187,3 +2187,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 503 (v503 → v504), lens 3, A&S 6/3 chords
 - A&S Unit 18 (6/3 chords and form): no change. Tested and declined a chromatic 6/3 (B bass) at 198.3–4 into the C-minor tutti at 199 (leading tone in three octaves before the tonic; loses c294's A♭-minor turn; the root-position A♭ is the stronger close). Proportions and coda stages checked.
+
+## Cycle 504 (v504 → v505), lens 4, Adler woodwind spacing
+- Adler PDF 257–258 (Ex. VIII-25 to 27: widest gap just above the bass): Bn 2 holds D3 through 85 (it held B♭2 a whole tone above the basses' A♭2 after c501's new bass), and plays B♭2 instead of G2 at 192 (left from the old G bass that c262 replaced with E♭2), stepping to A♭2 at 193 as before.
