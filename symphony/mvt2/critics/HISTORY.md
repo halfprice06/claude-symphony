@@ -3593,3 +3593,10 @@ voice leading; A&S Unit 31 chromatic voice exchange. Report: reports/c557.md.
 
 Accepted: niente circles at 37, 47 (Ob 1) and 53 (C.a., end of the quotation; print only). Closes c445's optional Ob 1 niente at 47.
 Do-not-touch: hidden peak 57-59; Cl 1 / Hn 1 levels at 53-56; fade order 63-66, 81-83, 89-92; standing list; 8-page layout.
+
+
+## Cycle 559 (v559 → v560)
+holistic; Rimsky-Korsakov examples 126-209. Report: reports/c559.md.
+- Accepted: nothing (v560 = v559 relabelled).
+- Recorded (no change): c559: no change. Theme A grows by added players as in Elgar's Nimrod (shape only); brass 60-64, horn/bassoons 67-70, coda fade and re-scorings follow Rimsky; v549-v559 changes print-only.
+- Do-not-touch: standing list; the 8-page layout.
