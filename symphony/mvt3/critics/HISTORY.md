@@ -2202,3 +2202,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 508 (v508 → v509), lens 8, Rimsky-Korsakov dynamics
 - Rimsky-Korsakov PDF 129, Ex. 253 (sf-p: the strings attack, the dip must be audible): at 149 the strings now play sfp < into ff at 150 with the 21 wind, brass and timpani parts (c226, c346, c408), instead of holding ff through the bar in the same registers as the wind chord. Notes, ties, bowings and Tpt 1·2's ff strokes unchanged; answers c408 (the strings still give the attack).
+
+## Cycle 509 (v509 → v510), lens 9, holistic comparison
+- Holistic comparison with Brahms 2/iv; Rimsky-Korsakov PDF 54–68 (melody doublings): no change. Tested and declined Vln II an octave below Vln I at 265–268 (lands on the trumpets' F1 head at C5 and blurs the two themes). v499 → v509 checked: nothing got worse.
