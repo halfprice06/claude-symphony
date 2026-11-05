@@ -2211,3 +2211,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 511 (v511 → v512), lens 1, A&S suspensions in melody
 - A&S PDF 352 (Ex. 21-12: do not sound a suspension's resolution elsewhere before it resolves): at 81 the harp's first eighth is G4 instead of F4, which had sounded the tune's resolution under its held G (c398 removed the same F from Hn 2); c352's no-B♭ rule holds and no pedal change is needed.
+
+## Cycle 512 (v512 → v513), lens 2, A&S augmented sixths
+- A&S PDF 522–523 (Ex. 29-37: an augmented sixth in place of the dominant at a cadence): at 22's last beat the bass falls D–D♭–C (cellos, basses, Bn 2, Cbsn; violas and Hn 3 adjusted), so the consequent's V4/3 becomes a French sixth on D♭ resolving to C minor at 23 instead of repeating the antecedent's V4/3–i at 14→15. Melody and the recapitulation's 162–163 unchanged; no root-position V–I in C added.
