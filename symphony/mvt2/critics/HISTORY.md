@@ -3690,3 +3690,10 @@ harmony; A&S Units 22-23 diminished sevenths and mixture. Report: reports/c572.m
 - Accepted: nothing (v573 = v572 relabelled).
 - Recorded (no change): c572: no change. No tritone-to-fifth hidden fifths beyond c432's protected viola at 40; diminished sevenths at 40, 56, 59-60, 64 resolve per Units 22-23; mixture plan complete; pitch changes since v432 follow.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 573 (v573 → v574)
+form; Adler ch. 15 end and 17. Report: reports/c573.md.
+- Accepted: nothing (v574 = v573 relabelled).
+- Recorded (no change): c573: no change. Closed: c519's 'poco animando' at 75 (forward tempo belongs to the build at 53). Soft span 29-58 and coda length compared with Dvořák 9/ii; joins, seams, rhythmic independence and frame soloists follow Adler.
+- Do-not-touch: standing list; the 8-page layout.
