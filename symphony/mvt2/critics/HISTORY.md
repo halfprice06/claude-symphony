@@ -3760,3 +3760,10 @@ harmony; A&S Units 24-25 sevenths and modulation. Report: reports/c582.md.
 - Accepted: nothing (v583 = v582 relabelled).
 - Recorded (no change): c582: no change. Every 7th resolves or is transferred (60-61, 74, 37-40); doubled LT at 24 b3 protected; F over G♭ at 41/57 is an upward-resolving dissonance (supports c112); cross relations at 77-78 and 58 acceptable; modulation plan follows Unit 25.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 583 (v583 → v584)
+form; A&S Units 6-8 phrase and cadence. Report: reports/c583.md.
+- Accepted: nothing (v584 = v583 relabelled).
+- Recorded (no change): c583: no change. I-IV-V-I plan and proportions match Dvořák 9/ii; cadence goals on downbeats. Record corrections: bar 47 is V7-i (not a C♯7 half cadence, c163); C at 71 comes from Bsn 2 and violas (c453). 52-53 LT exception stays (c071, c302).
+- Do-not-touch: standing list; the 8-page layout.
