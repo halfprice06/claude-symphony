@@ -3068,3 +3068,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: flutes never use low register
 - Do-not-touch: extreme notes matched to dynamics; timpani retunings
 - Cross-movement: none
+
+## Cycle 577 (Texture and counterpoint; Sebesky ch. 1 Basics: balance, economy, focus, variety (sebesky PDF 11-20) (fourth pass)) → v578
+- Accepted: none (no change)
+- Open / not applied: transition 33-46 bass one held note per bar (protected)
+- Do-not-touch: fugato focus levels 94-96; 11 accompaniment figures
+- Cross-movement: none
