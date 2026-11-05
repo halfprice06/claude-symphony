@@ -2217,3 +2217,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 513 (v513 → v514), lens 3, Adler form
 - Adler part 2 ch. 15, 17 (form, soloist entries, heterophony): no change. Tested and declined Haydn's device at 269–270 (flutes doubling the head-rhythm figure two octaves up: already audible ff in Hn 3·4, violas, Bn 1, and a C6/B♭5 second on 270.1). Proportions, break-offs and soloist entries checked.
+
+## Cycle 514 (v514 → v515), lens 4, Adler brass balance
+- Adler part 2 PDF 14–18, 37–54 (brass balance by units): no change. The critic proposed Hn 3 F4 instead of D4 in the stop chord at 222 to strengthen its F; declined, because the Hn 1/Hn 3 voicing at 222 is an accepted part of the protected 216–223 approach and the stop chord is the movement's most guarded bar. Other balance checks (92, 247, 247–254, 265–268, 213) need no change.
