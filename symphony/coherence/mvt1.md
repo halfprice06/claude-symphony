@@ -136,7 +136,7 @@ The A♭6 peaks:
 - There is no trumpet solo and no soft trumpet melody.
 
 **Horns.**
-- Hn 1 alone plays the horn call E♭3–C4–B3 at 13–14. This is the only undoubled horn melody, and its B is unresolved.
+- Hn 1 alone plays the horn call E♭3–C4–B3 at 13–14. This is the only undoubled horn melody, and its B is unresolved. Since v582 (c581) Hn 1 also recalls it softly at 125–126 (E♭3 on 125.2, C4 125.3–126.1, B3 126.2–3, mp espr. > p, B unresolved) over the same G roll and 6/4 → V; from the C4 it is doubled by Hn 3, Cl 2 and violas, so 13–14 stays the only undoubled horn melody.
 - All four horns play E♭3–C4–B♭3 at 41–42.
 - Hn 1 plays the S head with the cellos at 46–52, with Bsn 1 and the cellos at 103–106, and with the violas at 146–150.
 - Hn 1·2 play the P head at 69–72 and 167–169, ending on B3 at 170. They join the second form of the motto at 117–121 and the climax line at 158–161.
@@ -170,7 +170,7 @@ These are reserved for the finale. The other movements should not use them. Thei
 - **A fast ff full-brass combination of the two heads in C major.** v221 combines them only at f in A♭ (69–72) and at f/p in minor keys (103–110).
   - Met in the finale (v71, 247–254): Tbn 1·2 on the first-theme head under the trumpets' second-theme head.
 - **The hammered tutti layout turned to major.** In v221 it is heard only in C minor with the P head: 27–32, 131–134 and 167–170.
-- **The horn call in major (E–C–B→C) in the trumpets.** v221 has it only in minor, in Hn 1 (13–14) and Cl 1 (175–177).
+- **The horn call in major (E–C–B→C) in the trumpets.** v221 has it only in minor, in Hn 1 (13–14) and Cl 1 (175–177). Since v582 also Hn 1 at 125–126 (minor, soft).
 - **The timpani pulse `c4 r8 g,8 c4 r4`.** It is at 179–180 in v221 and is unused in movement II.
 - **Closing the E♭/E♮ thread in the violas.** v221 ends on the violas' E♮ at 182 without closing it, and movement II turns it back to E♭.
 - **A tuba melody, a high four-horn unison (movement I has horn pairs in unison at 158–161, Hn 3·4 to C5 and Hn 1·2 on A♭4 at 160; its only four-horn unison is the low call at 41–42), a full low-brass unison in the bass, and the first cymbal crash of the finale.** None of them is in v221. Since v251 it has no clashed cymbals at all (bar 160 is a suspended-cymbal stroke), so the finale's crash at 223 is the first in the symphony.

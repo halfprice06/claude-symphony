@@ -3092,3 +3092,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: no horn call in recapitulation (144-146 options rejected)
 - Do-not-touch: harp chord at 182 with five parts tied into II; harmonic variety of cyclic material
 - Cross-movement: none
+
+## Cycle 581 (Melody and memorability; Adler ch. 11 Scoring for Brass: melodic presentation (adler2 PDF 19-36) (fourth pass)) → v582
+- Accepted: Hn 1 recalls the horn call at 125-126 (Eb3-C4-B3, mp espr. > p) over the G roll and 6/4-V, as at 13-14
+- Open / not applied: 41-42 lengthened C rejected (parallel fifths)
+- Do-not-touch: coda call in Cl 1 at 175-177; collapse 122-126 exit order and levels
+- Cross-movement: horn call gains a soft minor statement in Hn 1 at 125-126; 13-14 unchanged and still the only undoubled horn melody; finale's major call and trumpet B->C still unused
