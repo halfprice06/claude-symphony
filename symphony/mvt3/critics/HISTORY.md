@@ -2360,3 +2360,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 551 (v551 → v552), lens 1, violas with Vln II at 39–40
 - Rimsky-Korsakov ch. II (violas join the violins' low octave; Vln I over Vln II + violas, PDF 60, Ex. 28): at 39–40 the violas double Vln II's lower octave of F1's head (ff >, down to A♭3–G3), instead of holding D4 with Bn 1, so the violins' answer to the cellos' B♭-minor head has a full lower octave. F1's notes unchanged; 41–42 unchanged.
 - Declined: Vln II an octave below Vln I at 207–208 (loses its rising scale), F2 in unison before the octaves at 67–74, Vln I over Vln II + violas at 187–198 (protected since c191). Cellos sul G at 41–42 kept (c391).
+
+## Cycle 552 (v552 → v553), lens 2, ii6/5 into the codetta's cadence at 93
+- A&S Units 9–10 (II and IV lead into V; back-relating dominants then II6–V7–I, Ex. 9-2c, 9-8, 10-10 Mozart K. 332): bar 93, the chord on beats 2–3 is ii6/5 (A♭–C–E♭–F) instead of a third tonic, so the codetta's back-relating I–V strokes end with ii6/5–V7–I. The bass steps A♭–B♭; Tbn 1 and Vln II hold A♭ into V7 as its prepared seventh; the top line stays E♭6–D6–E♭6. c248's displaced rhythm, c252's single chromatic chord at 92, c324's pedals and c416's timpani kept.
+- Checked, no change: the 6/4s at 152.4→153.1 and 243.3→244.2, the doubled fourths at 220 and 250 (protected). Declined a cadential 6/4 at 93.4.
