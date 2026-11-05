@@ -193,6 +193,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 518 (lens 8 expression, Adler ch. 2 bowing and its expressive effect (adler1 PDF 36-55) (sixth pass)) v518 → v519
+c518: Vln II and violas slur 357–360 (bowing).
+
 ## Cycle 517 (lens 7 texture, Adler ch. 15 polyphonic texture (adler2 PDF 172-186) (sixth pass)) v517 → v518
 c517: Cor anglais doubles the motto tail an octave lower at 329–332.
 
