@@ -3809,3 +3809,10 @@ holistic; Adler ch. 11 and 15 examples. Report: reports/c589.md.
 - Accepted: nothing (v590 = v589 relabelled).
 - Recorded (no change): c589: no change. Professional against Brahms PC 1/ii (memory and web only); nothing worse since v579; held-back low brass, theme A rescorings, foreground/background and soft endings follow Adler's examples.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 590 (v590 → v591)
+cyclic; A&S Unit 23 mixture. Report: reports/c590.md.
+- Accepted: nothing (v591 = v590 relabelled).
+- Recorded (no change): c590: no change. Every F♭ reaches E♭ before F♮; minor-colour frame at 1-2 and 88-89 (Dvořák Largo coda also drops its opening chord); key plan uses ♭VI and III♯ of C; A♭-minor phrase not re-raised (c460); coherence file brought to v591.
+- Do-not-touch: standing list; the 8-page layout.
