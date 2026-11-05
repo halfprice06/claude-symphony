@@ -3816,3 +3816,10 @@ cyclic; A&S Unit 23 mixture. Report: reports/c590.md.
 - Accepted: nothing (v591 = v590 relabelled).
 - Recorded (no change): c590: no change. Every F♭ reaches E♭ before F♮; minor-colour frame at 1-2 and 88-89 (Dvořák Largo coda also drops its opening chord); key plan uses ♭VI and III♯ of C; A♭-minor phrase not re-raised (c460); coherence file brought to v591.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 591 (v591 → v592)
+melody; Adler ch. 11 melodic doubling. Report: reports/c591.md.
+- Accepted: nothing (v592 = v591 relabelled).
+- Recorded (no change): c591: no change. Theme A's stressed notes rise B♭4-B♭5-B♭6 to the single peak; colour kept back at 31-36 and 83-89; staggered horn-with-cello at 75-82 matches Strauss; release 81-83 protected.
+- Do-not-touch: standing list; the 8-page layout.
