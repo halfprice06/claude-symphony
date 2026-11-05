@@ -3634,3 +3634,10 @@ orchestration; Rimsky-Korsakov tutti appendix. Report: reports/c564.md.
 - Accepted: nothing (v565 = v564 relabelled).
 - Recorded (no change): c564: no change. Tutti 61-62 follows the tables (closes the old 'low third at 61' item, c004-c024); 63-64, 79-82 and string-free 3-14, 31-36 match Rimsky's examples; spacing scan clean.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 565 (v565 → v566)
+
+Accepted: Ob 1 hairpin at 47 shortened in the score (niente circle clear of "solo, espr.").
+Open (optional): timpani instruction type style (upright vs italic).
+Do-not-touch: c558 niente circles; tempo and letter placement; parts layout; standing list; 8-page layout.
