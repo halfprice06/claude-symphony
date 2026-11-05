@@ -3032,3 +3032,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: horn call has fewest statements (blocked by protections)
 - Do-not-touch: common-note hand-offs 9.4, 174-175, 180-181, 182; coda thinning by groups 179-182
 - Cross-movement: none
+
+## Cycle 571 (Melody and memorability; Aldwell & Schachter Unit 21 Rhythmic Figuration: suspensions, anticipations, pedal (aldwell-schachter PDF 346-371) (fourth pass)) → v572
+- Accepted: none (no change)
+- Open / not applied: 54 plain appoggiatura (protected accompaniment)
+- Do-not-touch: 50 indirect suspension; 62-63 7/6 over V7; 164-165 delayed 4-3
+- Cross-movement: none
