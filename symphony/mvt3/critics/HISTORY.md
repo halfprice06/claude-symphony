@@ -2270,3 +2270,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 528 (v528 → v529), lens 8, no change
 - Adler part 2 (dynamics and colour in combination, PDF 37–40, 187–196): no change. Tested and declined a timpani A♭ roll crescendo at 198→199 (adds a 17th page, duplicates the device at 209–210, and spends the timpani's held-back colour before their ff entry at 199); declined soft strings overlapping the ff cut at 113→114 (c228, c328). Checked, follows the reading: the stop chord at 138, 149–151, 234→235, the mixed f/ff at 166, the horn call at 243–246.
+
+## Cycle 529 (v529 → v530), lens 9, holistic comparison (Dvořák 8)
+- Holistic comparison with Dvořák 8/iv, plus a v519 → v529 check (Rimsky-Korsakov Ex. 130–209; prose PDF 100–123): at the soft end of the staged diminuendo, Cl 2 holds B♭3 with Hn 2 from 38.4 to 41 (was D4, inside the horn pair and in unison with Bn 1; Rimsky PDF 106, 108). The C♭→B♭ resolution at 38 (c492) is kept and the held B♭3 makes no octaves with Ob 1 or Tbn 2.
+- Declined on paper: Hn 4 resting at 139–140 (c527's reason holds), trumpets out of the plagal close at 231–234 (protected). Not reopened: trills, a muted brass pad, a soft cymbal (c321, c329, c429). Cycles 519–527 rechecked in the pages and MIDI: nothing got worse.
