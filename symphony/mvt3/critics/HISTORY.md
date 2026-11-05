@@ -2364,3 +2364,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 552 (v552 → v553), lens 2, ii6/5 into the codetta's cadence at 93
 - A&S Units 9–10 (II and IV lead into V; back-relating dominants then II6–V7–I, Ex. 9-2c, 9-8, 10-10 Mozart K. 332): bar 93, the chord on beats 2–3 is ii6/5 (A♭–C–E♭–F) instead of a third tonic, so the codetta's back-relating I–V strokes end with ii6/5–V7–I. The bass steps A♭–B♭; Tbn 1 and Vln II hold A♭ into V7 as its prepared seventh; the top line stays E♭6–D6–E♭6. c248's displaced rhythm, c252's single chromatic chord at 92, c324's pedals and c416's timpani kept.
 - Checked, no change: the 6/4s at 152.4→153.1 and 243.3→244.2, the doubled fourths at 220 and 250 (protected). Declined a cadential 6/4 at 93.4.
+
+## Cycle 553 (v553 → v554), lens 3, no change
+- A&S Unit 26 (diatonic modulation), seventh pass: no change. Tested and declined an applied V6/5 of A♭ at 186 (adds a 17th page, loses the deceptive VI reinterpreted as the new tonic and the V→VI chain at 26, 34→35, 186→187, fills the breath before 187; A♭ is confirmed at 191–193). Proportions, the K.457 key plan, key confirmations, melodic tonicizations and arrivals follow the reading.
