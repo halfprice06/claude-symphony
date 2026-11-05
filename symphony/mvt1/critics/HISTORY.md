@@ -3326,3 +3326,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: soft horn under 47-55; undoubled horn at 147; loud ending (all protected/reserved)
 - Do-not-touch: 131-134 dynamic grading; layered build to 122; 147 second theme over pad
 - Cross-movement: none
+
+## Cycle 620 (Cyclic design and emotional arc across four movements; Release check: every do-not-touch item in HISTORY.md, every change since the last release check (v421 for cycle 520; v521 for cycle 620), every book rule cited in them, and the coherence files of all four movements) → v621
+- Accepted: release check: header stamped 'v621, 5 November 2026'; no note changed; coherence/mvt1.md updated to v621
+- Open / not applied: build.sh still does not run lencheck.py (open since c419)
+- Do-not-touch: all quoted bars, join into II, Do-not-reuse list (verified against v521)
+- Cross-movement: none in notes; finale thread told of c568, c581, c614
