@@ -3236,3 +3236,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 climb; 125-126 recall inside texture (both protected)
 - Do-not-touch: three Ab climaxes 82/122/160 layout
 - Cross-movement: none
+
+## Cycle 605 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: stave, clefs, noteheads, stems, tails (gould-behind-bars PDF 17-30) (fourth pass)) → v606
+- Accepted: score only: Hn 3-4 staff in bass clef throughout 19-157 (clef changes at 27, 103, 110, 135 removed; three rest positions moved)
+- Open / not applied: none
+- Do-not-touch: treble at 158-161 and 171-182; cello and viola clef plans
+- Cross-movement: none
