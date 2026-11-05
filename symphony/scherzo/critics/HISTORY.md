@@ -195,6 +195,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 537 (lens 7 texture, Adler ch. 16 The Orchestral Transcription (adler2 PDF 197-255) (sixth pass)) v537 → v538
+c537: cor anglais takes Vln II's arpeggio at 95–100.
+
 ## Cycle 536 (lens 6 playability, Sebesky ch. 2 Wind instruments (sebesky PDF 21-110) (sixth pass)) v536 → v537
 c536: Hn 2 rest before its entry at 121.
 
