@@ -2343,3 +2343,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 547 (v547 → v548), lens 7, horns hold through 129
 - Rimsky-Korsakov ch. III (overlaying and enclosure; in quick chord changes the brass hold the common notes and the woodwind move, PDF 108): bar 129, Hn 3 `d'4 d'4 c'4 c'4` and Hn 4 holds G3 in quarters (Hn 3 leapt D4→G4 onto Hn 1's G4 and Hn 4 went G3–G3–E3–C4), so through the bar's I6–IV6–iv6 the motion is in the bass (E–E♭–D), Bn 1 and Fl 1; the horns step into 130. c033's quarter-note pulse kept; IV6 and iv6 complete.
 - Checked, no change: horns between the bassoons at 80.3–4 (c147), the horn neighbour chord at 101–106 (c247, c519). Follows: four soft horns under clarinets at 9–10, horns with violas or cellos at 67–74 and 130–131.
+
+## Cycle 548 (v548 → v549), lens 8, diminuendo on F2's held note at 74 and 194
+- A&S Unit 3 (a phrase ends on its goal; an anticipation is unaccented; a note's start is stronger than its continuation, PDF 51, 54, 56): F2's held half-cadence note now fades: Vln I·II `f''1\>` at 74 with mf restated at 75, and in the recapitulation Vln I·II and violas `d''1\>`/`d'1\>` at 194 with mf/mp at 195, so the counter-melody's move into the next bar is heard and the second half starts afresh. No pitch, slur or overall level change (c458's declined swell not reopened).
+- No change: tenuto on the winds' syncopated pad at 36.4/38.3 (c348), a swell in the bassoon solo at 119–122 (c458), tempo words (graded, on third bars).
