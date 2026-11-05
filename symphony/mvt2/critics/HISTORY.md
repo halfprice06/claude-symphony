@@ -3614,3 +3614,9 @@ melody; Rimsky-Korsakov strings doublings. Report: reports/c561.md.
 - Accepted: nothing (v562 = v561 relabelled).
 - Recorded (no change): c561: no change. Themes gain doublings stepwise, violin unisons at 23-30 and 53-56, high violin notes doubled except protected spots, no octaves in divided low strings, climax 79-81 in three octaves.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 562 (v562 → v563)
+
+Accepted: Bsn 2 at 11 C3-E♭3-D♭3 (no I6-IV unison with the bass clarinet).
+Do-not-touch: horn solo 7-14; rising bass at 11-12; c252 D♭3 at 11 b3; neighbour 6/4 at 68; release 80-83; standing list; 8-page layout.
