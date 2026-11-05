@@ -3254,3 +3254,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: fugato third entry 91-93 string-over-wind octave pairs (kept)
 - Do-not-touch: stretto at 130 Vln II with Bsn 1; plain fugato bass 91-96
 - Cross-movement: record only: climax hierarchy item 3 updated in coherence/mvt1.md; nothing quoted at pitch changes
+
+## Cycle 608 (Expression; Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (fourth pass)) → v609
+- Accepted: none (no change)
+- Open / not applied: none
+- Do-not-touch: brass entry dynamics (47 checked); trombones f at 131; open horns at 73-76 and 103-106
+- Cross-movement: none
