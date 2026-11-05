@@ -3158,3 +3158,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: horn call metric forms (5 statements); motto Db on beat 3 except 120; S-head rhythm
 - Cross-movement: none
+
+## Cycle 592 (Harmony and voice leading; Aldwell & Schachter Unit 27 Seventh chords with added dissonance (aldwell-schachter PDF 463-481) (fourth pass)) → v593
+- Accepted: none (no change)
+- Open / not applied: none
+- Do-not-touch: 66.3-67.2 Vln I Ab5 into deceptive cadence; three b9s saved for 83/117/122
+- Cross-movement: none
