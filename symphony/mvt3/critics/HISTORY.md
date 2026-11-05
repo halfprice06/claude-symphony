@@ -2335,3 +2335,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 545 (v545 → v546), lens 5, clefs at 35
 - Gould (clefs: before the barline; change between phrases, after rests, PDF 21–22): at 35, the bar that starts with grace notes in Fl 1 and Vln I·II, the basses' return to bass clef now prints before the 34|35 barline (spacer grace notes), and the bassoons' tenor clef moves from 33 to 35, after the rest at 34.4, so 33–34 (the end of the F1 statement with the cellos) stay in bass clef and the clef comes before the eighths up to B♭4 that were c365's reason. MIDI byte-identical; only page 2 at 33–35 changes.
 - Checked, no change: the horns' score-only bass clefs, the basses' tenor clef at 27–34 (c335, c365, c455), the harmonics at 43–50, cymbal crosses, stems.
+
+## Cycle 546 (v546 → v547), lens 6, cello bowing before pizz. at 171
+- Adler ch. 2 (bowing; end on an up-bow at the frog before pizz., PDF 54; slurs on diminuendos, PDF 38): the cellos' A♭ at 168 slurs into the G at 169.1 on the diminuendo down-bow, and the run and held D3 are an up-bow ending at the frog before "pizz." at 171, restoring c218's intent after c434 gave the cellos the descent. Notes, dynamics and MIDI unchanged; the basses already ended at the frog.
+- Weighed, not applied: cellos sul G at 170, a string trill at 147–150 (protected), senza vibrato at 95–98, a natural harmonic at 43–50 (none gives B♭5), punta d'arco at 19–26. Long slurs within Adler's limits.
