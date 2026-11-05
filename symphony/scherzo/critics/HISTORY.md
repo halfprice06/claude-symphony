@@ -193,6 +193,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 503 (lens 3 form, Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (sixth pass)) v503 → v504
+Accepted: bass E at 198, Hn 2 (tB.ily). Do-not-touch: 197–200 is now settled (c480, c482, c485, c503).
+
 ## Cycle 502 (lens 2 harmony, Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (sixth pass)) v502 → v503
 Accepted: 300.3 Vln II and Vc (dB.ily). Do-not-touch: no G in the 300.3 chord (cyclic no-C-major rule).
 
