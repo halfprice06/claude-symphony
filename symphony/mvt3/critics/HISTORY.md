@@ -2263,3 +2263,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 526 (v526 → v527), lens 6, woodwind breath at 146
 - Rimsky-Korsakov ch. I (wind breathing, PDF 37, 44; wide clarinet leaps, PDF 36): Fl 1, Ob 1, Cl 1 and Bn 1 breathe after the staccato B at the end of 146, with the brass, contrabassoon and bass clarinet, ending a 14-second unbroken stretch from 141 and giving Cl 1 time before its leap to the ff G5 at 147. Marking only; MIDI unchanged.
 - Tested and declined: cellos an octave lower at 35–36 (B♭4 above Rimsky's limit, but lower they lose the A-string tone, sit inside the held brass and leap into 37). Checked, no change: horn dynamics at 219–222 (p–mf, protected), ranges, divisi, harp, timpani and percussion.
+
+## Cycle 527 (v527 → v528), lens 7, Hn 3 rests under the solo horn at 139–140
+- Adler ch. 17 (solo horn; the orchestral horns rest while the soloist plays, PDF 264; accompaniment kept out of the soloist's register, PDF 274): Hn 3 rests 139–140 under Hn 1's solo F1 head, where its held D4 sounded the head's D4 and sat inside its descent (the clash c174 fixed at 143–144), and re-enters p < open on D4 at 141. Hn 4 still opens its stopped A♭3 to G3 (c088, c172) and restates p < at 141. Bar 138, 143–150 and 222→223 untouched.
+- Checked, no change: bassoon solo against the solo violins at 119–122. Declined: Haydn's oboe doubling at 191–194, a timpani link at 74 (would pre-empt motive x at 178), a held horn tonic at 115, heterophonic oboe at 187–190.
