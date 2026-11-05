@@ -2278,3 +2278,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 530 (v530 → v531), lens 10, cyclic review
 - Cyclic review (Sonic Design reading; team-shared themes and current records): no score change. Against movement I v607, movement II v600 and scherzo v520: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51; cyclic rules hold. finale.md stamps brought up to date (scherzo v510–v520 changes listed, none touching a quoted bar), and movement II's last tail at 95–97 added as item 16 under movement II.
 - Tested and declined: copying the scherzo's flute-to-violin G♯5 hand-over at 242–243 (Fl 2 stopping at the barline leaves the G♯ link too weak under the horn call's ff; c510's reason holds).
+
+## Cycle 531 (v531 → v532), lens 1, no change
+- A&S Unit 3 (rhythm and metre): no change. Tested and declined a violin G–B upbeat at 18.4 and 158.4 into F1's consequent (weakens the f wind entry after the silence, turns the downbeat head into an upbeat group, adds parallel octaves). Declined on paper: an anticipation at 17.4→18 (c441), a lengthened C at 70. Checked, follows the reading: F2's climaxes at 62 and 78, F1's rhythm against the metre, the chorale's broader last statement (56 → 44 main notes a minute).
