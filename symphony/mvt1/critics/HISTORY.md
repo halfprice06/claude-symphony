@@ -3110,3 +3110,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 climb (protected)
 - Do-not-touch: 13-14 V7 with no rit.; c581 horn call at 125-126
 - Cross-movement: none
+
+## Cycle 584 (Orchestration; Adler ch. 5 Scoring for Strings (adler1 PDF 125-167) (fourth pass)) → v585
+- Accepted: none (no change)
+- Open / not applied: A6 ceiling already used at 31/72 before 160 (protected); Vln I D5 at 97-102
+- Do-not-touch: string plans of the three Ab climaxes; Cb/Vc alternation; 171-174 and 179-182 string endings
+- Cross-movement: none
