@@ -193,6 +193,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 513 (lens 3 form, Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground (sixth pass)) v513 → v514
+Rejected: Hn 3·4 rest at 169–184 (c431, c481, c495, c504). Do-not-touch: Hn 3's unison with the cellos at 169–176 is settled.
+
 ## Cycle 512 (lens 2 harmony, Aldwell & Schachter Units 28-29 Neapolitan; Augmented Sixth Chords (aldwell-schachter PDF 482-529) (sixth pass)) v512 → v513
 No change. Record: 300.3 = V7 of ♭II (do not restore an A♯ there).
 
