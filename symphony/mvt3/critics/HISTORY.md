@@ -2324,3 +2324,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 542 (v542 → v543), lens 2, complete V6/5 at 29
 - A&S Unit 5 (doubling and spacing; no doubled leading tone, complete seventh-chord inversions, PDF 76, Ex. 5-4): bar 29, Hn 2 plays B3–D4–B3 (`b2 d'4 b4~`, was `b1~`), so the V6/5 on 29.3 under F1's bass statement is complete (B–D–F–G) with B no longer doubled; Hn 2 returns to B3 on 29.4, swapping with the theme's B3–D4, and keeps c222's held B at 30.1–2 and its resolution to C at 30.3. Tested and rejected: back to B3 on 30.1 (octaves with the countersubject), D4 held into 30 (undoes c222).
 - Checked, no change: spacing gaps, the V4/2 at 133.4 (c183, c453), diminished-to-perfect fifths, hidden outer-voice fifths, other leading-tone doublings (octave lines), F1's augmented 2nd.
+
+## Cycle 543 (v543 → v544), lens 3, no change
+- A&S Unit 14 (V7 and its inversions in the larger form; approaches to V): no change. Tested and declined the V4/2's bass F stepping to E♭ at 134 (sounds a C-minor tonic 16 bars before the recapitulation, fills the break before J; 131–134 protected). Declined on paper: E7 before the S head at 238→239 (changes the movement I quotation's harmony and pre-empts the G♯ link at 242–243). Proportions, coda stages, key-area confirmations and approaches to V follow the reading.
