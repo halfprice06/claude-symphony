@@ -3296,3 +3296,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: one woodwind above trumpets at 162 (protected)
 - Do-not-touch: Tpt 3 C4-B3 motto tail at 158; c607 woodwinds at 160-161
 - Cross-movement: record only: coherence 'Not used' paragraph now lists Tbn 1 E4 at 158; still a 6/4 over G, finale reserve untouched
+
+## Cycle 615 (Engraving and notation (Gould's *Behind Bars*, MOLA); Gould ch. 1: beams (gould-behind-bars PDF 31-41) (fourth pass)) → v616
+- Accepted: engraving: beam on a stave line counts as inside (gould-min-stem threshold 2.05); four beams at Hp 56.3/62.3 and Vla 115 get >= 2.92-space stems
+- Open / not applied: none
+- Do-not-touch: ledger-line beam slopes (c415 reading)
+- Cross-movement: none
