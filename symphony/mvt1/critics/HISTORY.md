@@ -3008,3 +3008,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 567 (Texture and counterpoint; Rimsky-Korsakov ch. III overlaying, crossing and enclosure (rimsky-principles PDF 106-114) and the examples cited (fourth pass)) → v568
+- Accepted: none (no change)
+- Open / not applied: 37/67/164.1 horn seventh; 145-146 clarinet grading
+- Do-not-touch: 125-126/145/157 soft horn chords; 56-67 Cl1+Hn2 counterline
+- Cross-movement: none
