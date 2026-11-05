@@ -2320,3 +2320,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 541 (v541 → v542), lens 1, no change
 - A&S Unit 20 (melodic figuration): no change. Tested and declined a five-note turn on the violins' held G6 at 254 (competes with the S head's B→C cadence in the same beats; F♮ is a chord tone, F♯ clashes with V7's F). Declined on paper: a double incomplete neighbour at 268.4 (protected 265–272). Follows: F2's plain minor and decorated major statements, F1's implied two-line melody, leap dissonances (all chord tones), chromatic passing and neighbour tones.
+
+## Cycle 542 (v542 → v543), lens 2, complete V6/5 at 29
+- A&S Unit 5 (doubling and spacing; no doubled leading tone, complete seventh-chord inversions, PDF 76, Ex. 5-4): bar 29, Hn 2 plays B3–D4–B3 (`b2 d'4 b4~`, was `b1~`), so the V6/5 on 29.3 under F1's bass statement is complete (B–D–F–G) with B no longer doubled; Hn 2 returns to B3 on 29.4, swapping with the theme's B3–D4, and keeps c222's held B at 30.1–2 and its resolution to C at 30.3. Tested and rejected: back to B3 on 30.1 (octaves with the countersubject), D4 held into 30 (undoes c222).
+- Checked, no change: spacing gaps, the V4/2 at 133.4 (c183, c453), diminished-to-perfect fifths, hidden outer-voice fifths, other leading-tone doublings (octave lines), F1's augmented 2nd.
