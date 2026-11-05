@@ -2235,3 +2235,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 519 (v519 → v520), lens 9, holistic comparison
 - Rimsky-Korsakov PDF 83 (never double the bass of an inverted dominant in an upper part): in the soft horn pad at 101–102 and 105–106 Hn 2 no longer doubles the leading tone; it holds the chord's seventh a sixth below Hn 1 (B♭3–C4–B♭3; E♭4–F4–E♭4). Hn 1's neighbour line and c247's neighbour chord kept. Holistic comparison with Schumann 4/iv and v509 → v519 check: no further change.
+
+## Cycle 520 (v520 → v521), lens 10, cyclic review
+- A&S Unit 26 (diatonic modulation): no change. Tested and declined a pivot chord (i6 of C) at 114 (sounds the home tonic mid-development and anticipates 121–122's Phrygian approach to D); declined tonicizing the falling-thirds bass at 123–127 (each applied chord contradicts F2).
+- Cyclic review against movement I v592, movement II v594 and scherzo v509: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51. finale.md updated for the scherzo's held opening G♯5 (c499) and closing Vln I G♯5 from 364.3 (c500), and movement I's soft horn-call recall at I 125–126 (c581).
