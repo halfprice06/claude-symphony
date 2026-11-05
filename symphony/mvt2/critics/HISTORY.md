@@ -3711,3 +3711,10 @@ orchestration; Adler ch. 15 texture. Report: reports/c574.md.
 Accepted: part-only Vln I cues for Ob 1, C.a. (77-78) and Fl 1, Cl 1 (75-76); letter A at its barline in the parts; \noBreak in Fl 1's cues.
 Open (optional): viola part letter G at 53; Fl 2 / Ob 2 part niente at 81.
 Do-not-touch: 8-page score layout; c355 letter-and-tempo marking; multi-rest ranges; existing cue set and one-page parts; harp page break before 71; harp pedal plan; standing list.
+
+
+## Cycle 576 (v576 → v577)
+playability; Adler App. A ranges. Report: reports/c576.md.
+- Accepted: nothing (v577 = v576 relabelled).
+- Recorded (no change): c576: no change. All long wind spans have breaths within 20 s; notes beyond the amateur column only at protected ff peaks; timpani order at 5-6 and low notes covered; names and terms in Adler's tables.
+- Do-not-touch: standing list; the 8-page layout.
