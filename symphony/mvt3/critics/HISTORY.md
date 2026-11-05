@@ -2193,3 +2193,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 505 (v505 → v506), lens 5, Adler score layout
 - Adler part 2 PDF 291–292 (space between choirs must be discernible): c325's nested horn, trumpet and trombone StaffGroups made the gap below the lowest playing brass staff collapse to a within-family gap (37–50, 67–86, 171–178). The brass StaffGroup now draws the same brackets with `systemStartDelimiterHierarchy`, so the choir gap holds below whichever brass staff is lowest (65, 81–82, 55 px); every other gap and all 16 pages unchanged; MIDI identical.
+
+## Cycle 506 (v506 → v507), lens 6, Adler timpani
+- Adler part 2 PDF 58, 79 (timpani strengthen the tonic; Ex. XII-46): at 99, where the development starts f in F minor, the timpani play F2 (the 30" drum has been on F since 95, c416) instead of the old bass note C3, so the F-minor area has a timpani F at its first bar and at its cadence (113). 103, 111 and the retuning marks at 95 and 114 unchanged.
