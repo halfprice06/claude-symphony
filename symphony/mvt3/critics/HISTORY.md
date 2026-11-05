@@ -2190,3 +2190,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 504 (v504 → v505), lens 4, Adler woodwind spacing
 - Adler PDF 257–258 (Ex. VIII-25 to 27: widest gap just above the bass): Bn 2 holds D3 through 85 (it held B♭2 a whole tone above the basses' A♭2 after c501's new bass), and plays B♭2 instead of G2 at 192 (left from the old G bass that c262 replaced with E♭2), stepping to A♭2 at 193 as before.
+
+## Cycle 505 (v505 → v506), lens 5, Adler score layout
+- Adler part 2 PDF 291–292 (space between choirs must be discernible): c325's nested horn, trumpet and trombone StaffGroups made the gap below the lowest playing brass staff collapse to a within-family gap (37–50, 67–86, 171–178). The brass StaffGroup now draws the same brackets with `systemStartDelimiterHierarchy`, so the choir gap holds below whichever brass staff is lowest (65, 81–82, 55 px); every other gap and all 16 pages unchanged; MIDI identical.
