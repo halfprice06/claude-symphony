@@ -2175,3 +2175,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 499 (v499 → v500), lens 9, holistic comparison
 - Holistic comparison with Elgar 1/iv; Casanelles PDF 271–273 (distance is a different sound from soft playing in place): under Ob 1's recollection of movement II at 95–98 the held string chord is played by the back desks only ("last 2 desks" Vln II, Vla, Vc; "last desk" Cb), "tutti" at 99 (Vla, Vc, Cb) and 104 (Vln II); c444's sul tasto kept. Text only; MIDI identical. v489 → v499 checked: nothing got worse.
+
+## Cycle 500 (v500 → v501), lens 10, cyclic review
+- Adler part 2 PDF 264, 274 (accompaniment away from a soloist's register): Bn 1 rests 217–218 instead of re-attacking A♭3 with the first note of the cor anglais and Hn 1·2 echo of theme B; harmony, the D♭–C–B–C top line and the dynamics unchanged. Cyclic review against movement I v564, movement II v560 and scherzo v488: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51.
