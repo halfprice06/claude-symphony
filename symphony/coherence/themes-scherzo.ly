@@ -5,8 +5,8 @@
 % Variables: absolute pitch, 3/4, bar 1 = the theme's first bar. %@ lines: theme, part, bar, [notes [first note]].
 \version "2.24.0"
 
-% hornCall: v31 HnOne bars 1-7 (rising sixth since v11; since v31 it stops on the leading tone D sharp, unresolved as in movement I)
-hornCall = { gis'2.~ | gis'2. | gis2. | e'2. | dis'2.~ | dis'2 r4 }
+% hornCall: v31 HnOne bars 1-7 (rising sixth since v11; since v31 it stops on the leading tone D sharp, unresolved as in movement I; since v531 (c530) E4 is tied into bar 5 and falls to D sharp on beat 3, movement I's tie and suspension)
+hornCall = { gis'2.~ | gis'2. | gis2. | e'2.~ | e'2 dis'4~ | dis'2 r4 }
 
 % motiveX: v04 Timp bars 9-12
 motiveX = { b,4 b,8 b,8 g,4 | e,4 r2 | b,4 b,8 b,8 e4 | e,4 r2 }
