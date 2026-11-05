@@ -3732,3 +3732,10 @@ expression; Adler ch. 10 brass. Report: reports/c578.md.
 - Accepted: nothing (v579 = v578 relabelled).
 - Recorded (no change): c578: no change. Horn solos' words and swells, Hn 1 tongued G♭4 at 59, brass levels at 60-62, Tbn 1 marcato at 63-64, horns at 79-82 and the mute plan follow Adler ch. 10; score and parts agree.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 579 (v579 → v580)
+holistic; Rimsky-Korsakov examples 261-274+. Report: reports/c579.md.
+- Accepted: nothing (v580 = v579 relabelled).
+- Recorded (no change): c579: no change. Shape matches Tchaikovsky 5/ii (memory and web only; no bar claims); nothing worse since v569 (part-only changes); theme B re-scoring, brass re-entries and the 65-70 pedal follow or are protected.
+- Do-not-touch: standing list; the 8-page layout.
