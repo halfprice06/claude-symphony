@@ -3284,3 +3284,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: unprepared V7 sevenths (39 checked); 21-22 cadence; 101-102 evaded cadence
 - Cross-movement: none
+
+## Cycle 613 (Form, pacing and proportion; Aldwell & Schachter Unit 3 Rhythm and Meter: hypermeter, phrase rhythm and pacing of arrivals (aldwell-schachter PDF 47-57) (replaces a fifth pass of Unit 26; c433)) → v614
+- Accepted: none (no change)
+- Open / not applied: 156-157 climb (protected; supported as two-bar upbeat)
+- Do-not-touch: climax order by metric strength 82/122/160; asymmetric phrases only at joints; hemiolas 23-26, 135-138
+- Cross-movement: none
