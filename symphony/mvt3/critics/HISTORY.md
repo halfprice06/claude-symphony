@@ -2401,3 +2401,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 562 (v562 → v563), lens 2, 5–6 into IV6 at 78
 - A&S Units 11–13 (5–6 from VI to IV6, PDF 168, Ex. 11-12a; IV7 with an accented passing 3, PDF 183–185; no dominant sound between vi and IV, PDF 172): at F2's E♭-major climax, bar 78 beats 3–4 move vi7 → IV6 by a 5–6 instead of sounding a B♭ triad over the C bass: Hn 2 G3–A♭3 (was B♭3), violas hold E♭4, harp RH E♭–A♭–C–E♭ (was F–B♭–D–F). 78–80 now run vi7 – IV6 – IV – V6/5 of V – V, as at 257–259, and the harp/Vln I octaves into 79.1 are gone. F2's notes, the harp's low line (c205) and the pad's rhythm and breath (c166) unchanged.
 - Kept: the cellos' chromatic E♮→E♭ at 71, the codetta's leaping A♭6 at 91–93 (c248, c252, c552). Phrygian cadences at 57–58 and 177–178 follow the book.
+
+## Cycle 563 (v563 → v564), lens 3, no change
+- A&S Unit 32 (chromatic joins, common tones in exposed voices, the ♭VI–♭II–V path): no change. Tested and declined putting the F5–F♯5–G5 inflection and the seventh both in Vln II at 113–115 (same sound, loses Vln I's held F♯5 bridge into the bassoon solo). Declined on paper: A♭ minor through 195–198 (undoes c270, c293, c370), A♯ at 122.4 (augmented octave with Bn 1, protected). Proportions, the A♭ area, the G minor/major turn and every chromatic join's exposed link follow the reading.
