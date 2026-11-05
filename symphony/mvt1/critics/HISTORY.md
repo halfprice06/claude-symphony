@@ -3164,3 +3164,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: 66.3-67.2 Vln I Ab5 into deceptive cadence; three b9s saved for 83/117/122
 - Cross-movement: none
+
+## Cycle 593 (Form, pacing and proportion; Aldwell & Schachter Unit 15 III and VII (aldwell-schachter PDF 230-247) (fourth pass)) → v594
+- Accepted: none (no change)
+- Open / not applied: 156-157 climb (crescendo from 155 rejected)
+- Do-not-touch: large-scale bass I-III-(VI)-IV-V-I with 111-116 passing IV; no III in recapitulation
+- Cross-movement: none
