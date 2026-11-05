@@ -2990,3 +2990,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 climb (protected)
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 564 (Orchestration; Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (fourth pass)) → v565
+- Accepted: none (woodwinds with strings fourth pass: like-instrument doubling, low oboe and spacing scans clean)
+- Open / not applied: none new
+- Do-not-touch: woodwind plan as a whole
+- Cross-movement: none
