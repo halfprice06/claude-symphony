@@ -3140,3 +3140,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: character word at 155.4 rejected (Grandioso belongs to finale)
 - Do-not-touch: Hn 1 125-126 and Cb 164-166 marks in parts; viola swell at 108
 - Cross-movement: none
+
+## Cycle 589 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Adler part 2 full-score examples in ch. 11 and 15 (adler2 PDF 18-54, 143-186) (fourth pass)) → v590
+- Accepted: none (no change)
+- Open / not applied: 13-15 no accelerando into Allegro (protected)
+- Do-not-touch: 125-126 horn recall doubled from C4; 26-27 stop chord layout; 167-170 divided violins
+- Cross-movement: none
