@@ -3823,3 +3823,10 @@ melody; Adler ch. 11 melodic doubling. Report: reports/c591.md.
 - Accepted: nothing (v592 = v591 relabelled).
 - Recorded (no change): c591: no change. Theme A's stressed notes rise B♭4-B♭5-B♭6 to the single peak; colour kept back at 31-36 and 83-89; staggered horn-with-cello at 75-82 matches Strauss; release 81-83 protected.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 592 (v592 → v593)
+harmony; A&S Units 28-29 Neapolitan and augmented sixths. Report: reports/c592.md.
+- Accepted: nothing (v593 = v592 relabelled).
+- Recorded (no change): c592: no change. Neapolitan at 49, return 61-65 (♭VI-♭II-V7-I with German sixth spelt as V7), French sixth at 21, ♭VI at 78 without a sixth (c232) and plagal coda all follow Units 28-29.
+- Do-not-touch: standing list; the 8-page layout.
