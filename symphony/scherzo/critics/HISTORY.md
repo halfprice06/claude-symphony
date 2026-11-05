@@ -196,6 +196,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 543 (lens 3 form, Aldwell & Schachter Unit 14 V as a Key Area (aldwell-schachter PDF 211-229) (seventh pass)) v543 → v544
+c543: undoubled raised 4th at 175 and 215.
+
 ## Cycle 542 (lens 2 harmony, Aldwell & Schachter Unit 5 Procedures of Four-Part Writing (aldwell-schachter PDF 74-91) (seventh pass)) v542 → v543
 c542: Hn 1 and Cl 1 9–8 at 48–49 (removes c541's fifths).
 
