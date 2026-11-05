@@ -2196,3 +2196,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 506 (v506 → v507), lens 6, Adler timpani
 - Adler part 2 PDF 58, 79 (timpani strengthen the tonic; Ex. XII-46): at 99, where the development starts f in F minor, the timpani play F2 (the 30" drum has been on F since 95, c416) instead of the old bass note C3, so the F-minor area has a timpani F at its first bar and at its cadence (113). 103, 111 and the retuning marks at 95 and 114 unchanged.
+
+## Cycle 507 (v507 → v508), lens 7, Adler accompaniment
+- Adler ch. 5 (accompaniment and counter-melody): no change. Tested and declined lower strings alone under Ob 1 at 95–98 (Vln II resting, divided cellos: too close above the bass, two players per note); cellos imitating F2's head at 75–76 and violas/cellos in thirds or sixths at 71–74 worked out on paper and declined.
