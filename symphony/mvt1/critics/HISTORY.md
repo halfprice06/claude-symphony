@@ -3194,3 +3194,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 77-81 tremolo vs quaver figure; 91-96 fugato bass; static 150/155/176
 - Do-not-touch: violas above Vln II at 19-22 and 107-110; 111-116 wedge
 - Cross-movement: none
+
+## Cycle 598 (Expression; Adler ch. 7 woodwind articulation and dynamics by register (adler1 PDF 184-232) (fourth pass)) → v599
+- Accepted: none (no change)
+- Open / not applied: C.a. deep band never used softly (left free for other movements)
+- Do-not-touch: woodwind dynamics and articulation by register
+- Cross-movement: none
