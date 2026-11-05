@@ -3170,3 +3170,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 climb (crescendo from 155 rejected)
 - Do-not-touch: large-scale bass I-III-(VI)-IV-V-I with 111-116 passing IV; no III in recapitulation
 - Cross-movement: none
+
+## Cycle 594 (Orchestration; Casanelles ch. 6 spectral orchestration and acoustic mixing in Mahler's First Symphony (hyper-orchestra PDF 257-290) (fourth pass)) → v595
+- Accepted: none (no change)
+- Open / not applied: 125-126 horn recall partly masked as inner voice (mf rejected); 156-157 climb
+- Do-not-touch: harmonic-series layouts at 82/160/182; 122 noise chord; graded marks
+- Cross-movement: none
