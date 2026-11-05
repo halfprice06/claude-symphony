@@ -3044,3 +3044,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 141.3 iio7 vs vii o7/V; 174.3 no natural 2 after coda N6; no aug6 in second half
 - Do-not-touch: German sixth only at 12 (finale's first chord)
 - Cross-movement: none
+
+## Cycle 573 (Form, pacing and proportion; Adler ch. 15 Additional thoughts and special effects (adler2 PDF 187-196) with ch. 17 The Orchestra as Accompanist (adler2 PDF 256-290) for pacing of background and foreground (fourth pass)) → v574
+- Accepted: none (no change)
+- Open / not applied: 156-157 climb (protected); 113-143 loud span (thins at 123-130, 135-137)
+- Do-not-touch: soft groups under loud cut-offs 122/134/143/162; single timpani pulse 179-180
+- Cross-movement: none
