@@ -3212,3 +3212,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 174.3 natural 2 closed (keep as written)
 - Do-not-touch: Db arch across movement I; 180.3 Db->C pivot into II
 - Cross-movement: none
+
+## Cycle 601 (Melody and memorability; Aldwell & Schachter Unit 20 Melodic Figuration (aldwell-schachter PDF 327-345) (fourth pass)) → v602
+- Accepted: none (no change)
+- Open / not applied: harp fill at 50.3-4 rejected
+- Do-not-touch: motion under S long notes; P-head portato C
+- Cross-movement: none
