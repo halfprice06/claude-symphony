@@ -2389,3 +2389,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 559 (v559 → v560), lens 9, holistic comparison with Mahler 1, no change
 - Holistic comparison with Mahler 1/iv, plus a v549 → v559 check (Adler part 1 ch. 5 and 8): no change. Tested and declined Hn 1·2 an octave higher at 25–26 (unison with Vln II and the oboes, over-full page 2). Declined: pausing the harp at 74 (protected), moving the doubled third at 251 (the themes' own notes, protected), a horn on the third at 97–98 (doubles F minor's leading tone). The finale shares Mahler's outburst after a soft end, flat-key second theme, first-movement recalls, false goal and winning brass chorale; cycles 549–558 rechecked: nothing got worse.
+
+## Cycle 560 (v560 → v561), lens 10, cyclic review, no change
+- Cyclic review (Sebesky ch. 1 and 9): no score change. Against movement I v621, movement II v600 and scherzo v542: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51; cyclic rules hold. The scherzo's Hn 1 now previews the motto tail alone at its 205–209 (c540), at the pitch and player of the close the finale's Hn 1 continues at 1–2. finale.md stamps and scherzo v533–v542 list updated.
+- Tested and declined: Hn 4 an octave higher at 241–244 for the scherzo's G♯4/G♯5 pair (covers the chromatic counter, sits above the horn call's E4, crosses Hn 3). Declined on paper: movement I's bar 18 in major at 250 (B5 against the head's C6).
