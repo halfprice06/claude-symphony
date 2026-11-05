@@ -3020,3 +3020,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: P-head accents in soft passages; tempo-change placement
 - Cross-movement: coda 178-182: notes/dynamics/timing unchanged; Vln II/Vla/Vc MIDI re-attacks at 180/181 removed; held C now also in cellos under the timpani pulse
+
+## Cycle 569 (Holistic comparison with one specific master first movement, the one named in your task (see MASTERS.md). Would a conductor believe a master wrote this? Also compare with the version 10 cycles earlier and flag anything that got worse.; Rimsky-Korsakov examples No. 261-312 (rimsky-principles PDF 441-504) (fourth pass)) → v570
+- Accepted: none (no change)
+- Open / not applied: 156-157 climb length (Glazunov 8-16 bar build); soft dolce brass episode in development
+- Do-not-touch: 47-63 second-theme texture
+- Cross-movement: none
