@@ -3781,3 +3781,10 @@ orchestration; Adler ch. 8 combining winds and strings. Report: reports/c584.md.
 Accepted: padding under the tempo words at 64 and 89; score-only "mettere sord." for the violins at 82 b3.
 Open (optional): Cb pizz. quarters at 40.
 Do-not-touch: mute plan 82-92; string indications and "ord." returns; standing list; 8-page layout.
+
+
+## Cycle 586 (v586 → v587)
+playability; Sebesky ch. 2 winds and brass. Report: reports/c586.md.
+- Accepted: nothing (v587 = v586 relabelled).
+- Recorded (no change): c586: no change. All long wind spans have breaths; doubled low roots at 60-62 normal for a Romantic ff tutti (protected); Bsn 1 with horns 79-81 protected (c087); Cbn B♭0 at 80 playable; ranges and clefs within Sebesky.
+- Do-not-touch: standing list; the 8-page layout.
