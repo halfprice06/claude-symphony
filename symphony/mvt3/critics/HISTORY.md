@@ -2259,3 +2259,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 525 (v525 → v526), lens 5, MOLA parts: rest widths at lettered tempo changes
 - MOLA second pass (parts only; score MIDI, pages and analysis unchanged): a new `\ltRest` (called from `\lt`) widens a multi-bar rest that starts at a lettered tempo change to its text plus 10 staff spaces, and `\partNoBreak` before D keeps 51 off a line start, so letter E no longer sits on "Poco meno mosso" (51–67) and A no longer on "Allegro con fuoco" (1–11); Ob 1's stray "1." at 187 is score-only; the running header skips page 1; a part-only minimum hairpin for the bass trombone at 149; harp system padding 0.5 keeps it at 2 pages with the turn after 122. Parts book 0 warnings, 65 pages, page turns unchanged.
 - Tested, not applied: widening the harp's rest at 205 (over-full page).
+
+## Cycle 526 (v526 → v527), lens 6, woodwind breath at 146
+- Rimsky-Korsakov ch. I (wind breathing, PDF 37, 44; wide clarinet leaps, PDF 36): Fl 1, Ob 1, Cl 1 and Bn 1 breathe after the staccato B at the end of 146, with the brass, contrabassoon and bass clarinet, ending a 14-second unbroken stretch from 141 and giving Cl 1 time before its leap to the ff G5 at 147. Marking only; MIDI unchanged.
+- Tested and declined: cellos an octave lower at 35–36 (B♭4 above Rimsky's limit, but lower they lose the A-string tone, sit inside the held brass and leap into 37). Checked, no change: horn dynamics at 219–222 (p–mf, protected), ranges, divisi, harp, timpani and percussion.
