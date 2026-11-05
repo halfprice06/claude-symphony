@@ -3086,3 +3086,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: 156-157 climb short next to Bruckner 9/i (protected)
 - Do-not-touch: motto colour change at each return
 - Cross-movement: none
+
+## Cycle 580 (Cyclic design and emotional arc across four movements; Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (fourth pass)) → v581
+- Accepted: none (no change); coherence/mvt1.md updated to v581 (scherzo v501 cross-movement line corrected; Ob 1 145-146 seed)
+- Open / not applied: no horn call in recapitulation (144-146 options rejected)
+- Do-not-touch: harp chord at 182 with five parts tied into II; harmonic variety of cyclic material
+- Cross-movement: none
