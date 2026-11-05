@@ -3302,3 +3302,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none
 - Do-not-touch: ledger-line beam slopes (c415 reading)
 - Cross-movement: none
+
+## Cycle 616 (Playability, instrument by instrument; Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (fourth pass)) → v617
+- Accepted: none (no change)
+- Open / not applied: viola C string unused (73-76 rejected)
+- Do-not-touch: string changes since v526 playable; parts page turns
+- Cross-movement: none
