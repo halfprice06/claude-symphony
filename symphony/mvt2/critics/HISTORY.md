@@ -3774,3 +3774,10 @@ orchestration; Adler ch. 8 combining winds and strings. Report: reports/c584.md.
 - Accepted: nothing (v585 = v584 relabelled).
 - Recorded (no change): c584: no change. Oboe/violin echo at 15-22 varies its third unit; pedal lifted at 36, held at 22 and 52; no flute under a reed; wind-string joins gradual; tutti spacing at 61 and 79 matches Adler's Dvořák Carnival example.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 585 (v585 → v586)
+
+Accepted: padding under the tempo words at 64 and 89; score-only "mettere sord." for the violins at 82 b3.
+Open (optional): Cb pizz. quarters at 40.
+Do-not-touch: mute plan 82-92; string indications and "ord." returns; standing list; 8-page layout.
