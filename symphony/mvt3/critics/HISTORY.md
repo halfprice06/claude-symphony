@@ -2393,3 +2393,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 560 (v560 → v561), lens 10, cyclic review, no change
 - Cyclic review (Sebesky ch. 1 and 9): no score change. Against movement I v621, movement II v600 and scherzo v542: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51; cyclic rules hold. The scherzo's Hn 1 now previews the motto tail alone at its 205–209 (c540), at the pitch and player of the close the finale's Hn 1 continues at 1–2. finale.md stamps and scherzo v533–v542 list updated.
 - Tested and declined: Hn 4 an octave higher at 241–244 for the scherzo's G♯4/G♯5 pair (covers the chromatic counter, sits above the horn call's E4, crosses Hn 3). Declined on paper: movement I's bar 18 in major at 250 (B5 against the head's C6).
+
+## Cycle 561 (v561 → v562), lens 1, Cl 2 on F2's peak at 257–258
+- Rimsky-Korsakov ch. II (a soprano melody doubled in one octave: winds above, strings below, PDF 78, Ex. 90; clarinet over bassoon, PDF 76): at 257–258, F2's last climax bar, Cl 2 leaves the chorale's E5 and doubles Vln II on F2's upper octave (`c''2.(\f\< d''4 | g''4. f''8 e''4 d''4)`), returning to the chorale's D5 at 259. The E5 stays in Tpt 1·2, Ob 1, the flutes and Vln I. F2's notes, the chorale top line, the harmony, the woodwind rest at 255–256 and the cor anglais's silence unchanged.
+- Declined: thinning the winds on Vln II's octave at 83–86 (protected), a wind above the horns at 205–206, filling Vln II's upper octave at 255–256 (protected rest, c430).
