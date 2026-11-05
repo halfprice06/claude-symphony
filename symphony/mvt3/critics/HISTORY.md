@@ -2184,3 +2184,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 502 (v502 → v503), lens 2, A&S applied dominants
 - A&S PDF 419–423 (Ex. 25-11a: over 6–5 in the bass, the chord is almost always V4/3 of V): at 89 the last 7–6 of the closing bridge resolves to A♮3 (violas, Bn 1), so the bridge ends V6 – 7–6 into V4/3 of V – V7 – I; Bn 1 passes B♭–A♭ into G3 at 90; Hn 1 F4 and Hn 4 F3 on 89.2 so no horn doubles the leading tone. Bass, violin and wind figures, dynamics and the 90 cadence unchanged; every earlier change in 87–89 (c053, c061, c062, c143, c377) kept.
+
+## Cycle 503 (v503 → v504), lens 3, A&S 6/3 chords
+- A&S Unit 18 (6/3 chords and form): no change. Tested and declined a chromatic 6/3 (B bass) at 198.3–4 into the C-minor tutti at 199 (leading tone in three octaves before the tonic; loses c294's A♭-minor turn; the root-position A♭ is the stronger close). Proportions and coda stages checked.
