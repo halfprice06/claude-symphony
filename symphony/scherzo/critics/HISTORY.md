@@ -192,6 +192,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 495 (lens 5 engraving, MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (sixth pass)) v495 → v496
+Accepted: duplicate Hn label at 357 removed (coda.ily). Print only.
+
 ## Cycle 494 (lens 4 orchestration, Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (sixth pass)) v494 → v495
 Accepted: Fl 1 sempre pp at 349–356 (coda.ily). Do-not-touch: 349–356 is now settled (c438, c439, c457, c466, c467, c490, c494); leave its scoring alone.
 
