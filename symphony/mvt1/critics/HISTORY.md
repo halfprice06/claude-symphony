@@ -3002,3 +3002,9 @@ Kit: kit/, BRIEF3.md, LENSES3.md, READING3.md, MASTERS.md. Movement I may change
 - Open / not applied: none new
 - Do-not-touch: unchanged
 - Cross-movement: none
+
+## Cycle 566 (Playability, instrument by instrument; Adler ch. 12 Percussion: timpani tuning and technique (adler2 PDF 55-91) (fourth pass)) → v567
+- Accepted: none (timpani fourth pass: writing unchanged since v476; harmony, muta and beater checks)
+- Open / not applied: none new
+- Do-not-touch: unchanged
+- Cross-movement: none
