@@ -2537,3 +2537,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 597 (v597 → v598), lens 7, brass alone on F1 head at 103
 - Adler part 2 ch. 11 (Bartók Ex. XI-24, Hindemith Ex. XI-23: each brass pair states the subject alone, f ben marc.; PDF 44, two horns balance one trombone): at 103–104 the violas and cellos rest and return on their sf chord at 105, so Hn 3·4, Tbn 1 and the bass trombone (now playing the head with the basses, ben marc., instead of a single B♭1 stroke) answer as a third group; 99–106 now runs strings → winds → brass → strings with winds. F1's notes and all quotations unchanged.
 - Kept: trombones doubling the violins at 247–254 (c197, c317); brass stretto at 265–272 and horn-pair entries checked.
+
+## Cycle 598 (v598 → v599), lens 8, Cl 1 suspension at 121
+- A&S Unit 21 (suspensions take an accent, resolutions are softer; Ex. 21-9, 21-39): Cl 1's pp D6 at 121, a 7th over the Italian sixth's E♭, swells into beat 3 and falls back on its resolution to C♯6; a hidden pp keeps the resolution at its old level. Notes, slur, printed pp, the Italian sixth and the bassoon solo unchanged. A new MIDI suspension scan found 22 places; this was the only unmarked one outside protected bars.
+- Kept: Hn 1's 4–3 at 82.3 (drives into 83); no 7–6 at the protected Phrygian cadences 57–58 and 177–178; no bass suspension at 125–127 or 133–134.
