@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 597 (lens 7 texture, Adler ch. 11 Scoring for brass: contrapuntal use (adler2 PDF 41-54) (sixth pass)) v597 → v598
+c597 Adler ch. 11: no change. Rejected (critic): Tbn 1 on the Hn 3·4 countermelody 105–120 (covers the lower octave; c076 balance); Tbn 1 on the coda countermelody 334–335; horn re-attacks in the coda hemiola 331–339.
+
 ## Cycle 596 (lens 6 playability, Adler ch. 12 The Percussion Ensemble: timpani tuning and technique, cymbals, bass drum (adler2 PDF 55-91), and ch. 14 Scoring for Percussion (adler2 PDF 106-145) (seventh pass)) v596 → v597
 c596 Adler ch. 12/14: timpani damping at 3–5 (intro.ily), 131–132 (sC.ily), 241 (retr.ily), 287–288 (dA.ily); no note or dynamic changed. Rejected by critic: thinning the reprise tutti timpani, a drum ostinato at 341–356, extra soft strokes at 153–168.
 
