@@ -9,6 +9,7 @@ Manuals, reviews, forum threads and YouTube transcripts about EastWest's Hollywo
 | `EW-Hollywood-Orchestra-Opus-Edition-User-Manual.pdf` | Library manual: instruments, articulations, moods, Hollywood Orchestrator (119 pp) | Dec 2025 |
 | `EW-Opus-Software-Manual.pdf` | Opus engine: browser, Play page, mixer, MIDI tools, keyswitch editor, automation (138 pp) | Oct 2025 |
 | `EW-Libraries-Getting-Started-HD.pdf` | Installation Center, authorization, first load (16 pp) | May 2024 |
+| `EW-Hollywood-Orchestra-Opus-Edition-User-Manual-2021.pdf` | Earlier combined edition (engine and library, 228 pp), added 2026-11-06 from Dan. Much more per-instrument detail than the 2025 manuals: velocity, expression (CC11) and vibrato (CC1) behaviour, mic positions, releases, and the Hollywood Solo Violin and Solo Cello libraries (sections 3.5-3.6). Where it disagrees with the 2025 manuals, trust the 2025 ones and the patch files. | May 2021 |
 
 All three come from `media.soundsonline.com`. Older versions (2021 and 2023) are on retailer sites but were left out. In those versions the engine and library documentation were combined in one manual. `text/` has `pdftotext -layout` output for searching.
 
