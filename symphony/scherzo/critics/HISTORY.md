@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 584 (lens 4 orchestration, Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (seventh pass)) v584 → v585
+No change.
+
 ## Cycle 583 (lens 3 form, Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (seventh pass)) v583 → v584
 c583: Vln II completes the 6/4 at 247–248.
 
