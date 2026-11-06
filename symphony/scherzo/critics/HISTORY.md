@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 590 (lens 10 cyclic, Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (sixth pass)) v590 → v591
+c590 cyclic (Adler ch. 17): Ob 2 doubles Cl 1's tail at 329–332 (the finale's IV 273–275 oboe scoring); Ob 1 and the flutes still enter fresh at 333. Not built: Vln II thirds under Hn 1's motto tail 357–360 (c490, c050/c470).
+
 ## Cycle 589 (lens 9 holistic, Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (sixth pass)) v589 → v590
 c589: timpani answers f at 91 and 94.
 
