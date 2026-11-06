@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 599 (lens 9 holistic, Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (sixth pass)) v599 → v600
+c599 Casanelles ch. 6: Vln I harmonic E6 ppp at 141–149 (link.ily). Kept: nothing above the horn at 205–208 (c540); the opening/closing G♯5 stays a stopped note.
+
 ## Cycle 598 (lens 8 expression, Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (sixth pass)) v598 → v599
 c598 A&S Unit 21: slurs at 49 (sA.ily, Cl 1 and Hn 1) join the suspension to its resolution. Kept: re-bowed resolutions at 126/282 (hemiola downbeat in a crescendo). Rejected (critic): T's C♯ held into the tonic in the codetta 225–236; a 7-6 chain at 329–332.
 
