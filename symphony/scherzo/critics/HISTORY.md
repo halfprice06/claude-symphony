@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 577 (lens 7 texture, Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281) (sixth pass)) v577 → v578
+No change (Ob+Cl at 33–35 rejected: Fl/Ob unison at 29–36 settled, c311, c561).
+
 ## Cycle 576 (lens 6 playability, Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (seventh pass)) v576 → v577
 No change (held pedal at 89–100 rejected again: c244, c559). Do-not-touch: no sustained pedal of any instrument under 89–100 (pizz. strings and timpani only; c244, c559, c576). Do not propose it again.
 
