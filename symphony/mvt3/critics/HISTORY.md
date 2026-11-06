@@ -2486,3 +2486,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 584 (v584 → v585), lens 4, Cl 1 G5 in the final chord
 - Adler ch. 15 (brilliant tutti fills every upper octave; Freischütz interlocking): Cl 1 plays G5 instead of E5 at 278–279, so the woodwinds spell the full final chord from G6 down to C5 with oboes and clarinets interlocked; E5 had been tripled and G5 left to a third of the divided Vln II under fff brass. Ob 2's E5 from cycle 274 kept.
 - Recorded only: movement I's head at 265–268 has no brass (rests protected; brass joins at 269 and 271).
+
+## Cycle 585 (v585 → v586), lens 5, bar numbers at one height
+- MOLA (bar numbers placed consistently): the bar-number row sits 6.8 staff spaces below the double basses throughout (was 5.5 on pages 1–11 and 6.8 from 209), so 149–150 no longer drop below the row; page 2's fixed staff distances trimmed about 1% and page 7 gets fixed distances at 115 and before 128 to avoid compression. No notes changed; breaks unchanged.
+- Kept: harp pedal diagrams, no letter at 123, revision stamp left to the release check.
