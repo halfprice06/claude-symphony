@@ -1,0 +1,16 @@
+Processing `vt.ly'
+Parsing...
+Interpreting music...[8][16][24][32][40][48][56][64][72]
+Preprocessing graphical objects...
+warning: too few pages: 1 (should have at least 2)
+warning: tried to space systems on a bad number of pages
+Fitting music on 1 page...
+warning: too few pages: 1 (should have at least 2)
+warning: tried to space systems on a bad number of pages
+warning: too few pages: 1 (should have at least 2)
+warning: too few pages: 1 (should have at least 2)
+Drawing systems...
+warning: compressing over-full page by 22.9 staff-spaces
+warning: page 1 has been compressed
+Converting to `Q2.pdf'...
+Success: compilation successfully completed

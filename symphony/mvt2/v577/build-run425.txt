@@ -1,0 +1,69 @@
+lilypond rc=0, warnings/errors: 0
+audio: 349.680000s
+Duration: 345s, 93 bars (metre from MIDI time signatures)
+
+Tracks: name | notes | range | violations
+  Flutes 1Â·2:one                 19  Ab5-Bb6  
+  Flutes 1Â·2:two                  7  Ab5-F6  
+  Flutes 1Â·2:solo                43  Bb4-Ab6  
+  Oboes 1Â·2:one                  14  Ab4-Bb5  
+  Oboes 1Â·2:two                   4  C#5-F5  
+  Oboes 1Â·2:shared                2  Ab4-E5  
+  Oboes 1Â·2:solo                 28  G4-Ab5  
+  Cor anglais:                    42  Ab3-F5  
+  Clarinets 1Â·2:one              22  Ab4-Bb5  
+  Clarinets 1Â·2:two              15  Eb4-C#5  
+  Clarinets 1Â·2:shared            2  B4-Ab5  
+  Clarinets 1Â·2:solo             25  Eb3-Eb5  
+  Bass clarinet:                  46  Bb1-F#3  
+  Bassoons 1Â·2:one               55  Eb3-F4  
+  Bassoons 1Â·2:two               44  E2-F3  
+  Bassoons 1Â·2:solo              12  Ab2-F#3  
+  Contrabassoon:                  10  Bb0-Ab1  
+  Horns 1Â·2:                      1  F4-F4  
+  Horns 1Â·2:two                   1  C#4-C#4  
+  Horns 1Â·2:shared               12  Ab3-Ab4  
+  Horns 1Â·2:solo                 54  Eb3-Bb4  
+  Horns 3Â·4:one                   5  C4-F4  
+  Horns 3Â·4:two                   5  Eb3-C4  
+  Horns 3Â·4:shared               14  Eb3-B4  
+  Horns 3Â·4:solo                  2  C4-C4  
+  Trombones 1Â·2:solo             16  Eb3-C4  
+  Bass trombone:                   8  D2-C#3  
+  Tuba:                            4  E1-C#2  
+  Timpani:                       624  Ab2-Eb3  
+  Harp RH:                        78  Bb2-Eb5  
+  Harp LH:                        83  Eb1-F#3  
+  Violins I:                     111  Eb4-Bb6  
+  Violins II:                    148  Bb3-C6  
+  Violas:                        296  C#3-C5  
+  Violoncellos:                  125  C2-F4  
+  Double basses:                  92  E1-Eb3  
+  Violoncellos:2                   3  Bb2-Eb3  
+
+Top-line (Flutes 1Â·2:one) intervals: 18 | steps 66% | leaps>=4th 16% | repeats 0%
+  interval histogram (semitones): {1: 4, 2: 8, 3: 1, 4: 2, 5: 1, 8: 1, 9: 1}
+
+Outer-voice parallels (top vs bass, similar motion): 0  (+0 doubling runs ignored)
+
+Profile per 4 bars: attacks | voices sounding (avg) | top | bottom
+  bars   1-  4:   95 |  6.6 | C5   | Ab1
+  bars   5-  8:   33 |  5.2 | Eb4  | Eb1
+  bars   9- 12:   53 |  6.9 | Bb4  | Eb1
+  bars  13- 16:   37 |  5.5 | F5   | Eb1
+  bars  17- 20:   39 |  3.8 | Bb5  | Bb2
+  bars  21- 24:   54 |  5.5 | G5   | C#2
+  bars  25- 28:   52 |  5.8 | Bb5  | Ab2
+  bars  29- 32:   32 |  5.6 | G5   | Ab1
+  bars  33- 36:   15 |  3.8 | C5   | Ab1
+  bars  37- 40:  102 |  7.4 | F#5  | F#1
+  bars  41- 44:  110 |  6.2 | Bb5  | F#1
+  bars  45- 48:   53 |  6.2 | F#5  | F#1
+  bars  49- 52:  112 |  4.5 | A5   | Ab1
+  bars  53- 56:  114 |  6.5 | F#5  | C2
+  bars  57- 60:  238 | 13.2 | Ab6  | F#1
+  bars  61- 64:  195 | 15.8 | A6   | C#1
+  bars  65- 68:  106 |  3.8 | Eb4  | Eb2
+  bars  69- 72:  137 |  7.2 | Eb6  | Eb1
+  bars  73- 76:  102 | 10.4 | C6   | F1
+  bars  77done
