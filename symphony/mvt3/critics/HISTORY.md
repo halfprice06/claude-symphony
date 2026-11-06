@@ -2502,3 +2502,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 588 (v588 → v589), lens 8, swell on F2's held G at 255
 - Adler ch. 10 (Don Juan Ex. X-12, Brahms 1/iv Ex. X-8: held horn notes shaped in a loud tutti): the accented dotted-minim G that opens F2's last phrase at 255 swells and returns (< then > on beat 3) in Hn 3·4, Vln II, violas and cellos, as the horn call does at 243–246; a hidden ff on the E keeps the following notes at their old level. Notes, slurs, accent, ff and "espress." unchanged.
 - Declined: "dolce" on the protected Hn 3·4 pad at 235; a stopped sf at 105 (138 stays the only one).
+
+## Cycle 589 (v589 → v590), lens 9, hidden fifths at 72 and 192
+- A&S Ex. 22-3c (d5 to P5 in similar motion between upper voices): the violas hold D4 to beat 4 at 72 (`d'2.( c'4)`) and Bn 1 holds its note to beat 4 at 192, so neither falls to the perfect fifth with the violins' or Hn 1's A♭→G / D♭→C; the 9th still resolves with the 7th in thirds into the next bar.
+- Holistic comparison with Borodin 2/iv: no change; v579→v589 nothing worse. Left alone: 202→203 (quotation of movement I 27–32, protected since c156; follow movement I if its Hn 2 at I 31 changes).
