@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 560 (lens 10 cyclic, Sebesky ch. 9 General Advice and ch. 1 (sebesky PDF 240-242, 11-20) (sixth pass)) v560 → v561
+c560: cor anglais alone on the 6–♭6–5 line at 358–359.
+
 ## Cycle 559 (lens 9 holistic, Adler part 1 full-score examples in ch. 5 and 8 (adler1 PDF 137-165, 235-281) (sixth pass)) v559 → v560
 No change (Hn 3 pedal at 92–100 rejected: no brass before 101, c244, c537).
 
