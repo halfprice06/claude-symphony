@@ -2474,3 +2474,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 581 (v581 → v582), lens 1, Ob 1 rests under the theme-B echo
 - Adler ch. 7 (the oboe as a doubler must not overshadow the featured line, PDF 201; the cor anglais's low register carries, PDF 205): Ob 1 rests at 217–218 instead of holding D♭5 f a fourth above the cor anglais and Hn 1·2 echo of theme B (the note c440 took from Tpt 1 for the same reason), and returns on C5 at the 219 sub. p. The D♭ stays in Fl 1, Cl 1, violins and violas; the D♭–C–B–C top line, theme B, the dynamics and 222→223 unchanged.
 - Considered, not applied: a two-flute hand-over on Fl 1's D♭6 at 216–218 (one breath suffices; Fl 2's rest kept).
+
+## Cycle 582 (v582 → v583), lens 2, bass trombone B2 at 222
+- A&S Units 22–23 (VII7 resolution; hidden fifths Ex. 22-3c, 22-4b): the bass trombone plays B2 at 222 (was D3), so its tritone with Tbn 1's A♭3 resolves inward to C3–G3 at 223 and the trombones' leading tone reaches C; the stop chord's pitches, trumpets B→C, timpani G→C and the D bass in the tuba, basses, bassoons and cellos unchanged.
+- Declined: VII°6/5 at 14/154, VII°7 over the pedal at 238/268; kept the cellos at 222→223.
