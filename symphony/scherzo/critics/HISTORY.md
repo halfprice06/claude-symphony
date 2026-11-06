@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 591 (lens 1 melody, Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (seventh pass)) v591 → v592
+c591 lens Sebesky ch. 6–7: no change. Do-not-touch: legato harp head 73–80 (reason: first step of motive x's sharpening, harp → Cl 1 portato 81 → violas staccato 89); the near-silent beat 44.3; Fl 1's growing answers 172/176/183; the second idea's sentence and hemiola.
+
 ## Cycle 590 (lens 10 cyclic, Adler ch. 17 The Orchestra as Accompanist: transformations of material (adler2 PDF 256-290) (sixth pass)) v590 → v591
 c590 cyclic (Adler ch. 17): Ob 2 doubles Cl 1's tail at 329–332 (the finale's IV 273–275 oboe scoring); Ob 1 and the flutes still enter fresh at 333. Not built: Vln II thirds under Hn 1's motto tail 357–360 (c490, c050/c470).
 
