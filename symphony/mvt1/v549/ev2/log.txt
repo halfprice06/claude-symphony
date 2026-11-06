@@ -1,0 +1,67 @@
+Processing `ev.ly'
+Parsing...
+Interpreting music...
+Unsupported SCM value for format: (#<procedure italic-markup (a b c)> (#<procedure small-markup (a b c)> sul G))
+Unsupported SCM value for format: (#<procedure italic-markup (a b c)> (#<procedure small-markup (a b c)> sul A))
+Unsupported SCM value for format: ()
+Unsupported SCM value for format: ()[8]
+Unsupported SCM value for format: (#<procedure italic-markup (a b c)> (#<procedure small-markup (a b c)> sul D))
+Unsupported SCM value for format: ()[16][24][32][40][48]
+Unsupported SCM value for format: (#<procedure italic-markup (a b c)> (#<procedure small-markup (a b c)> sul D))
+Unsupported SCM value for format: (#<procedure italic-markup (a b c)> (#<procedure small-markup (a b c)> sul D))[56]
+Unsupported SCM value for format: ()
+Unsupported SCM value for format: ()
+Unsupported SCM value for format: (#<procedure italic-markup (a b c)> (#<procedure small-markup (a b c)> sul A))
+Unsupported SCM value for format: (#<procedure italic-markup (a b c)> (#<procedure small-markup (a b c)> sul A))
+Unsupported SCM value for format: ()
+Unsupported SCM value for format: ()[64][72][80][88][96]
+Unsupported SCM value for format: (#<procedure italic-markup (a b c)> (#<procedure small-markup (a b c)> sul G))
+Unsupported SCM value for format: ()[104]
+sections/dev.ily:379:48: warning: unterminated crescendo
+  << { e'1\pp^"div." | e'2( dis'2) | f'1( | f'2
+                                               \< e'2) } \\ { b1\pp | g4( a2.) | bes2( des'2 | c'1\<) } >> |
+sections/dev.ily:379:99: warning: unterminated crescendo
+  << { e'1\pp^"div." | e'2( dis'2) | f'1( | f'2\< e'2) } \\ { b1\pp | g4( a2.) | bes2( des'2 | c'1
+                                                                                                  \<) } >> |
+[112][120][128][136][144][152][160][168]
+Unsupported SCM value for format: (#<procedure italic-markup (a b c)> (#<procedure small-markup (a b c)> sul G))
+Unsupported SCM value for format: (#<procedure italic-markup (a b c)> (#<procedure small-markup (a b c)> sul A))[176]
+Unsupported SCM value for format: (#<procedure italic-markup (a b c)> (#<procedure small-markup (a b c)> sul D))
+Unsupported SCM value for format: ()
+Unsupported SCM value for format: ()
+Unsupported SCM value for format: ()
+Preprocessing graphical objects...
+warning: too few pages: 17 (should have at least 20)
+warning: tried to space systems on a bad number of pages
+Fitting music on 17 pages...
+warning: too few pages: 17 (should have at least 20)
+warning: tried to space systems on a bad number of pages
+Drawing systems...
+warning: compressing over-full page by 13.7 staff-spaces
+warning: page 1 has been compressed
+warning: compressing over-full page by 33.9 staff-spaces
+warning: page 3 has been compressed
+warning: compressing over-full page by 18.3 staff-spaces
+warning: page 4 has been compressed
+warning: compressing over-full page by 17.0 staff-spaces
+warning: page 5 has been compressed
+warning: compressing over-full page by 32.2 staff-spaces
+warning: page 8 has been compressed
+warning: compressing over-full page by 32.8 staff-spaces
+warning: page 9 has been compressed
+warning: compressing over-full page by 3.0 staff-spaces
+warning: page 11 has been compressed
+warning: compressing over-full page by 27.1 staff-spaces
+warning: page 13 has been compressed
+warning: compressing over-full page by 29.4 staff-spaces
+warning: page 14 has been compressed
+warning: compressing over-full page by 31.5 staff-spaces
+warning: page 15 has been compressed
+warning: compressing over-full page by 24.6 staff-spaces
+warning: page 16 has been compressed
+warning: compressing over-full page by 1031.1 staff-spaces
+warning: page 17 has been compressed
+/usr/share/lilypond/2.24.3/ly/init.ly:65:2: error: Guile signaled an error for the expression beginning here
+#
+ (let ((book-handler (if (defined? 'default-toplevel-book-handler)
+In procedure module-lookup: Unbound variable: output-stencils

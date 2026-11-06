@@ -1,0 +1,70 @@
+lilypond rc=0, warnings/errors: 0
+audio: 436.200000s
+Duration: 430s, ~183 bars (4/4 assumed)
+
+Tracks: name | notes | range | violations
+  Flutes 1Â·2:one                 73  C#5-Ab6  
+  Flutes 1Â·2:two                 27  C5-F6  
+  Flutes 1Â·2:shared              75  B4-Ab6  
+  Flutes 1Â·2:solo                78  Bb4-G6  
+  Oboes 1Â·2:one                 106  F4-C6  
+  Oboes 1Â·2:two                  63  B3-Ab5  
+  Oboes 1Â·2:shared               22  G4-Ab5  
+  Oboes 1Â·2:solo                 93  F#4-D6  
+  Cor anglais:                    88  B3-F5  
+  Clarinets 1Â·2:one             125  G3-C6  
+  Clarinets 1Â·2:two             101  G3-G5  
+  Clarinets 1Â·2:shared           96  G3-C6  
+  Clarinets 1Â·2:solo             87  B3-B5  
+  Bass clarinet:                  83  Bb1-G3  
+  Bassoons 1Â·2:one              126  G2-F4  
+  Bassoons 1Â·2:two               84  Bb1-F3  
+  Bassoons 1Â·2:shared            55  C2-F4  
+  Bassoons 1Â·2:solo              70  G2-E4  
+  Contrabassoon:                  98  C1-F2  
+  Horns 1Â·2:one                  25  Eb4-E5  
+  Horns 1Â·2:two                  17  C4-G4  
+  Horns 1Â·2:shared              144  Eb3-Ab4  
+  Horns 1Â·2:solo                 97  Eb3-C5  
+  Horns 3Â·4:one                  54  G3-G4  
+  Horns 3Â·4:two                  54  F2-B3  
+  Horns 3Â·4:shared              128  D3-C5  
+  Horns 3Â·4:solo                  6  G3-C4  
+  Trumpets 1Â·2:one               32  F4-Ab5  
+  Trumpets 1Â·2:two               12  F4-Ab4  
+  Trumpets 1Â·2:shared           102  D4-Ab5  
+  Trumpets 1Â·2:solo               6  G4-Eb5  
+  Trumpet 3:                      54  B3-Ab4  
+  Trombones 1Â·2:one              17  G3-Eb4  
+  Trombones 1Â·2:two              17  F3-C4  
+  Trombones 1Â·2:shared          100  G2-F4  
+  Trombones 1Â·2:solo             24  E3-E4  
+  Bass trombone:                  67  C2-F#3  
+  Tuba:                           51  F1-F2  
+  Timpani:                        85  G2-Eb3  
+  drums                            2  Eb3-Eb3  
+  Harp RH:                       122  Ab3-C#7  
+  Harp LH:                        62  Eb1-G3  
+  Violins I:                     382  Eb4-Ab6  
+  Violins II:                    395  Ab3-C6  
+  Violas:                        674  C3-Ab5  
+  Violoncellos:                  461  C2-F5  
+  Double basses:                 337  F1-A2  
+  Violins II:2                     6  G3-C#4  
+
+Top-line (Flutes 1Â·2:one) intervals: 72 | steps 68% | leaps>=4th 12% | repeats 4%
+  interval histogram (semitones): {0: 3, 1: 22, 2: 24, 3: 7, 4: 7, 5: 1, 8: 1, 9: 3, 10: 2, 11: 1, 18: 1}
+
+Outer-voice parallels (top vs bass, similar motion): 1  (+2 doubling runs ignored)
+  bar 96: octaves F5->Bb2 over F2->Bb1
+
+Profile per 4 bars: attacks | voices sounding (avg) | top | bottom
+  bars   1-  4:   19 |  3.2 | Eb3  | G1
+  bars   5-  8:   19 |  4.0 | Bb4  | C2
+  bars   9- 12:   67 | 12.1 | Ab5  | C2
+  bars  13- 16:   44 |  5.8 | Eb5  | G1
+  bars  17- 20:   63 |  5.4 | C#6  | F1
+  bars  21- 24:  115 | 10.2 | C
+real	0m46.032s
+user	0m43.908s
+sys	0m2.514s

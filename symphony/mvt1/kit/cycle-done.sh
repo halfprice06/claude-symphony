@@ -7,8 +7,8 @@ bash $M/kit/promote.sh $NEW $N $SRC 2>&1 | grep -E "warnings|Pages|^[<>]|FAILED"
 rm -f $M/v$N/score.mp3
 bash $M/kit/log.sh $N "$3" "$4" "$5" "$6"
 bash $M/kit/genprompt.sh $NEW
-cd /home/user/claude_composes && git add -A symphony/mvt1 && git commit -qm "Movement I series 3: cycle $N (v$NEW)
+cd /home/user/claude_composes && git add -A symphony/mvt1 && git commit -qm "Movement I series 4: cycle $N (v$NEW)
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_018HrEPSmMSqb3YkeMbTtpwH" && git push -q origin claude/project-thread-ytvxdy 2>&1 | tail -1
+Claude-Session: https://claude.ai/code/session_014b4HEJvujRxUegGNWFqSYU" && git push -q -u origin claude/project-thread-6v70nw 2>&1 | tail -1
 uptime

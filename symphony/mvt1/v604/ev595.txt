@@ -1,0 +1,4098 @@
+vc 1 0 R 3/4
+cb 1 0 R 3/4
+vc 1 3/4 N 4 43 1/4
+vc 1 3/4 S -1
+vc 1 3/4 D pp
+cb 1 3/4 N 4 31 1/4
+cb 1 3/4 S -1
+cb 1 3/4 D pp
+vc 2 0 N 2 51 3/4
+vc 2 0 TIE
+cb 2 0 N 2 39 3/4
+cb 2 0 TIE
+vc 2 3/4 N 2 51 1/8
+cb 2 3/4 N 2 39 1/8
+vc 2 7/8 N 1 50 1/8
+vc 2 7/8 S 1
+cb 2 7/8 N 1 38 1/8
+cb 2 7/8 S 1
+vc 3 0 N 0 48 1/2
+vc 3 0 S -1
+vc 3 0 TX change bow at will
+cb 3 0 N 0 36 1/2
+cb 3 0 S -1
+cb 3 0 TX change bow at will
+vc 3 1/2 N 1 49 1/4
+cb 3 1/2 N 1 37 1/4
+vc 3 3/4 N 0 48 1/4
+vc 3 3/4 S 1
+vc 3 3/4 TIE
+cb 3 3/4 N 0 36 1/4
+cb 3 3/4 S 1
+cb 3 3/4 TIE
+vc 4 0 N 0 48 1
+cb 4 0 N 0 36 1
+cb 5 0 N 0 36 1
+cb 5 0 D pp
+cb 5 0 AR upbow
+vlnTwo 6 0 N 2 63 1
+vlnTwo 6 0 D pp
+vla 6 0 N 6 58 1
+vla 6 0 D pp
+vc 6 0 N 4 55 1
+vc 6 0 D pp
+cb 6 0 N 4 43 1
+vlnTwo 7 0 N 3 65 1
+vla 7 0 N 1 61 1
+vc 7 0 N 5 56 1
+cb 7 0 N 3 41 1
+vlnTwo 8 0 N 2 64 1
+vlnTwo 8 0 D p
+vla 8 0 N 0 60 1
+vla 8 0 D p
+vc 8 0 N 4 55 1
+vc 8 0 D p
+cb 8 0 N 0 36 1
+cb 8 0 D p
+vlnOne 9 0 R 3/4
+vlnTwo 9 0 N 2 63 1
+vlnTwo 9 0 D pp
+vla 9 0 N 0 60 1
+vla 9 0 D pp
+vc 9 0 N 4 55 1
+vc 9 0 D pp
+cb 9 0 N 0 36 1
+cb 9 0 D pp
+vlnOne 9 3/4 N 4 67 1/4
+vlnOne 9 3/4 S -1
+vlnOne 9 3/4 D mp
+vlnOne 10 0 N 2 75 3/4
+vlnOne 10 0 S 1
+vlnTwo 10 0 N 3 65 3/4
+vla 10 0 N 0 60 1
+vc 10 0 N 5 56 1
+cb 10 0 N 3 41 1
+vlnOne 10 3/4 N 5 68 1/4
+vlnOne 10 3/4 S -1
+vlnTwo 10 3/4 N 0 60 1/4
+vlnTwo 10 3/4 S -1
+vlnOne 11 0 N 3 77 1/2
+vlnOne 11 0 S 1
+vlnTwo 11 0 N 5 68 1/2
+vlnTwo 11 0 S 1
+vla 11 0 N 0 60 1/2
+vc 11 0 N 5 56 1
+cb 11 0 N 1 38 1
+vlnOne 11 1/2 N 6 71 1/4
+vlnOne 11 1/2 S -1
+vlnTwo 11 1/2 N 3 65 1/2
+vlnTwo 11 1/2 AR upbow
+vla 11 1/2 N 6 59 1/2
+vla 11 1/2 AR upbow
+vlnOne 11 3/4 N 5 80 1/4
+vlnOne 11 3/4 S 1
+vlnOne 11 3/4 TIE
+vlnOne 12 0 N 5 80 3/4
+vlnOne 12 0 D f
+vlnOne 12 0 AR downbow
+vlnTwo 12 0 N 3 66 3/4
+vlnTwo 12 0 TIE
+vlnTwo 12 0 D f
+vlnTwo 12 0 AR downbow
+vla 12 0 N 0 60 3/4
+vla 12 0 N 2 63 3/4
+vla 12 0 D f
+vla 12 0 AR downbow
+vc 12 0 N 0 60 3/4
+vc 12 0 D f
+cb 12 0 N 5 44 3/4
+cb 12 0 TIE
+cb 12 0 D f
+cb 12 0 AR downbow
+vlnOne 12 3/4 N 4 79 1/4
+vlnOne 12 3/4 TIE
+vlnTwo 12 3/4 N 3 66 1/4
+vlnTwo 12 3/4 AR upbow
+vla 12 3/4 N 0 60 1/4
+vla 12 3/4 N 2 63 1/4
+vc 12 3/4 N 0 60 1/4
+cb 12 3/4 N 5 44 1/4
+cb 12 3/4 AR upbow
+vlnOne 13 0 N 4 79 1
+vlnOne 13 0 AR downbow
+vlnTwo 13 0 N 4 67 1
+vlnTwo 13 0 D p
+vla 13 0 N 0 60 1/2
+vla 13 0 N 2 63 1/2
+vla 13 0 D p
+vla 13 0 S -1
+vc 13 0 N 4 55 1
+vc 13 0 D p
+cb 13 0 N 4 43 1
+cb 13 0 D p
+cb 13 0 TIE
+cb 13 0 TX change bow at will
+vlnOne 13 1/4 D p
+vla 13 1/2 N 1 62 1/2
+vla 13 1/2 S 1
+vlnTwo 14 0 N 3 65 3/4
+vlnTwo 14 0 D pp
+vla 14 0 N 1 62 3/4
+vla 14 0 D pp
+vc 14 0 N 4 55 3/4
+vc 14 0 D pp
+cb 14 0 N 4 43 3/4
+cb 14 0 D pp
+vlnTwo 14 3/4 R 1/4
+vla 14 3/4 R 1/4
+vc 14 3/4 R 1/4
+cb 14 3/4 R 1/4
+vlnOne 15 0 R 1/8
+vlnTwo 15 0 R 1/4
+vla 15 0 R 1/4
+vc 15 0 N 0 48 1/2
+vc 15 0 D mf
+cb 15 0 N 0 36 1/4
+cb 15 0 D mf
+vlnOne 15 1/8 N 4 67 1/8
+vlnOne 15 1/8 AR downbow
+vlnOne 15 1/8 D f
+vlnOne 15 1/8 S -1
+vlnOne 15 1/4 N 2 75 3/8
+vlnOne 15 1/4 AR accent
+vlnOne 15 1/4 S 1
+vlnTwo 15 1/4 R 1/8
+vla 15 1/4 R 1/8
+cb 15 1/4 R 1/8
+vlnTwo 15 3/8 N 4 67 1/8
+vlnTwo 15 3/8 TIE
+vlnTwo 15 3/8 D mf
+vla 15 3/8 N 2 63 1/8
+vla 15 3/8 TIE
+vla 15 3/8 D mf
+cb 15 3/8 N 0 36 1/8
+vlnTwo 15 1/2 N 4 67 1/2
+vla 15 1/2 N 2 63 1/2
+vc 15 1/2 N 1 50 1/2
+cb 15 1/2 N 0 36 1/4
+vlnOne 15 5/8 N 1 74 1/8
+vlnOne 15 5/8 S -1
+vlnOne 15 3/4 N 1 73 1/8
+cb 15 3/4 R 1/8
+vlnOne 15 7/8 N 0 72 1/8
+cb 15 7/8 N 0 36 1/8
+vlnOne 16 0 N 0 72 1/4
+vlnOne 16 0 AR tenuto
+vlnOne 16 0 S 1
+vlnTwo 16 0 R 1/8
+vla 16 0 R 1/8
+vc 16 0 N 2 51 1/2
+cb 16 0 N 0 36 1/4
+vlnTwo 16 1/8 N 4 67 1/8
+vlnTwo 16 1/8 TIE
+vla 16 1/8 N 2 63 1/8
+vla 16 1/8 TIE
+vlnOne 16 1/4 N 6 71 1/8
+vlnOne 16 1/4 AR upbow
+vlnOne 16 1/4 S -1
+vlnTwo 16 1/4 N 4 67 1/4
+vla 16 1/4 N 2 63 1/4
+cb 16 1/4 R 1/8
+vlnOne 16 3/8 N 0 72 1/8
+vlnOne 16 3/8 S 1
+cb 16 3/8 N 0 36 1/8
+vlnOne 16 1/2 N 5 68 3/8
+vlnOne 16 1/2 AR accent
+vlnTwo 16 1/2 R 1/8
+vla 16 1/2 R 1/8
+vc 16 1/2 N 1 50 1/2
+cb 16 1/2 N 4 31 1/4
+vlnTwo 16 5/8 N 3 65 1/8
+vlnTwo 16 5/8 TIE
+vla 16 5/8 N 1 62 1/8
+vla 16 5/8 TIE
+vlnTwo 16 3/4 N 3 65 1/4
+vla 16 3/4 N 1 62 1/4
+cb 16 3/4 R 1/8
+vlnOne 16 7/8 N 4 67 1/8
+cb 16 7/8 N 4 31 1/8
+vlnOne 17 0 R 1/8
+vlnTwo 17 0 R 1/4
+vla 17 0 R 1/4
+vc 17 0 N 3 53 1/2
+cb 17 0 N 5 32 1/4
+vlnOne 17 1/8 N 4 67 1/8
+vlnOne 17 1/8 AR downbow
+vlnOne 17 1/8 S -1
+vlnOne 17 1/4 N 3 77 3/8
+vlnOne 17 1/4 AR accent
+vlnOne 17 1/4 S 1
+vlnTwo 17 1/4 R 1/8
+vla 17 1/4 R 1/8
+cb 17 1/4 R 1/8
+vlnTwo 17 3/8 N 5 68 1/8
+vlnTwo 17 3/8 TIE
+vla 17 3/8 N 1 62 1/8
+vla 17 3/8 N 3 65 1/8
+vla 17 3/8 TIE
+cb 17 3/8 N 5 32 1/8
+vlnTwo 17 1/2 N 5 68 1/2
+vla 17 1/2 N 1 62 1/2
+vla 17 1/2 N 3 65 1/2
+vc 17 1/2 N 5 56 1/2
+cb 17 1/2 N 5 32 1/4
+vlnOne 17 5/8 N 2 75 1/8
+vlnOne 17 5/8 S -1
+vlnOne 17 3/4 N 1 74 1/8
+cb 17 3/4 R 1/8
+vlnOne 17 7/8 N 0 72 1/8
+cb 17 7/8 N 5 32 1/8
+vlnOne 18 0 N 6 71 1/4
+vlnOne 18 0 S 1
+vlnTwo 18 0 R 1/8
+vla 18 0 R 1/8
+vc 18 0 N 4 55 1/2
+cb 18 0 N 4 31 1/4
+vlnTwo 18 1/8 N 3 65 1/8
+vlnTwo 18 1/8 TIE
+vla 18 1/8 N 1 62 1/8
+vla 18 1/8 TIE
+vlnOne 18 1/4 N 1 74 1/8
+vlnOne 18 1/4 S -1
+vlnTwo 18 1/4 N 3 65 1/4
+vla 18 1/4 N 1 62 1/4
+cb 18 1/4 R 1/8
+vlnOne 18 3/8 N 0 72 1/8
+vlnOne 18 3/8 S 1
+cb 18 3/8 N 4 31 1/8
+vlnOne 18 1/2 N 4 67 1/2
+vlnTwo 18 1/2 R 1/8
+vla 18 1/2 R 1/8
+vc 18 1/2 N 4 43 1/2
+cb 18 1/2 N 4 31 1/4
+vlnTwo 18 5/8 N 1 62 1/8
+vlnTwo 18 5/8 TIE
+vla 18 5/8 N 6 59 1/8
+vla 18 5/8 TIE
+vlnTwo 18 3/4 N 1 62 1/4
+vla 18 3/4 N 6 59 1/4
+cb 18 3/4 R 1/8
+cb 18 7/8 N 4 31 1/8
+vlnOne 19 0 R 1/8
+vlnTwo 19 0 R 1/4
+vla 19 0 N 5 68 3/4
+vla 19 0 TIE
+vla 19 0 D mf
+vla 19 0 S -1
+vla 19 0 AR upbow
+vla 19 0 TX espr.
+vc 19 0 N 3 53 1/2
+cb 19 0 N 3 29 1/4
+vlnOne 19 1/8 N 5 68 1/8
+vlnOne 19 1/8 AR downbow
+vlnOne 19 1/8 S -1
+vlnOne 19 1/4 N 5 80 3/8
+vlnOne 19 1/4 AR accent
+vlnOne 19 1/4 S 1
+vlnTwo 19 1/4 R 1/8
+cb 19 1/4 R 1/8
+vlnTwo 19 3/8 N 0 60 1/8
+vlnTwo 19 3/8 TIE
+vlnTwo 19 3/8 D mp
+cb 19 3/8 N 3 29 1/8
+vlnTwo 19 1/2 N 0 60 1/2
+vc 19 1/2 N 5 44 1/2
+cb 19 1/2 N 3 29 1/4
+vlnOne 19 5/8 N 4 79 1/8
+vlnOne 19 5/8 S -1
+vlnOne 19 3/4 N 3 77 1/8
+vla 19 3/4 N 5 68 1/8
+cb 19 3/4 R 1/8
+vlnOne 19 7/8 N 2 75 1/8
+vla 19 7/8 N 4 67 1/8
+cb 19 7/8 N 3 29 1/8
+vlnOne 20 0 N 1 73 1/8
+vlnTwo 20 0 R 1/8
+vla 20 0 N 3 65 1/2
+vla 20 0 D f
+vc 20 0 N 1 49 1
+cb 20 0 N 1 37 1/4
+vlnOne 20 1/8 N 2 75 1/8
+vlnTwo 20 1/8 N 1 61 1/8
+vlnTwo 20 1/8 TIE
+vlnOne 20 1/4 N 3 77 1/8
+vlnTwo 20 1/4 N 1 61 1/4
+cb 20 1/4 R 1/8
+vlnOne 20 3/8 N 5 80 1/8
+vlnOne 20 3/8 S 1
+cb 20 3/8 N 1 37 1/8
+vlnOne 20 1/2 N 1 85 1/2
+vlnOne 20 1/2 TIE
+vlnOne 20 1/2 D sf
+vlnTwo 20 1/2 N 1 73 1/2
+vlnTwo 20 1/2 TIE
+vlnTwo 20 1/2 D sf
+vla 20 1/2 N 5 68 1/2
+vla 20 1/2 S 1
+cb 20 1/2 N 1 37 1/4
+cb 20 3/4 R 1/8
+cb 20 7/8 N 1 37 1/8
+vlnOne 21 0 N 1 85 1/8
+vlnOne 21 0 S -1
+vlnTwo 21 0 N 1 73 1/8
+vlnTwo 21 0 S -1
+vla 21 0 N 5 68 1/4
+vla 21 0 S -1
+vc 21 0 N 3 53 1/2
+cb 21 0 N 3 29 1/4
+vlnOne 21 1/8 N 0 84 1/8
+vlnTwo 21 1/8 N 0 72 1/8
+vlnOne 21 1/4 N 6 82 1/8
+vlnTwo 21 1/4 N 6 70 1/8
+vla 21 1/4 N 4 67 1/4
+cb 21 1/4 R 1/8
+vlnOne 21 3/8 N 5 80 1/8
+vlnOne 21 3/8 S 1
+vlnTwo 21 3/8 N 5 68 1/8
+vlnTwo 21 3/8 S 1
+cb 21 3/8 N 3 29 1/8
+vlnOne 21 1/2 N 4 79 3/8
+vlnOne 21 1/2 AR accent
+vlnTwo 21 1/2 R 1/8
+vla 21 1/2 N 3 65 1/2
+vla 21 1/2 TIE
+vc 21 1/2 N 4 55 1/2
+cb 21 1/2 N 4 31 1/4
+vlnTwo 21 5/8 N 1 62 1/8
+vlnTwo 21 5/8 TIE
+vlnTwo 21 5/8 D mp
+vlnTwo 21 3/4 N 1 62 1/4
+cb 21 3/4 R 1/8
+vlnOne 21 7/8 N 3 77 1/8
+cb 21 7/8 N 4 31 1/8
+vlnOne 22 0 N 2 75 1/8
+vlnOne 22 0 S -1
+vlnTwo 22 0 R 1/8
+vla 22 0 N 3 65 1/2
+vla 22 0 D mf
+vc 22 0 N 4 55 1/2
+cb 22 0 N 4 31 1/4
+vlnOne 22 1/8 N 1 74 1/8
+vlnTwo 22 1/8 N 1 62 1/8
+vlnTwo 22 1/8 TIE
+vlnOne 22 1/4 N 0 72 1/8
+vlnTwo 22 1/4 N 1 62 1/4
+cb 22 1/4 R 1/8
+vlnOne 22 3/8 N 6 71 1/8
+vlnOne 22 3/8 S 1
+cb 22 3/8 N 4 31 1/8
+vlnOne 22 1/2 N 0 72 1/4
+vlnOne 22 1/2 D mf
+vlnTwo 22 1/2 R 1/8
+vla 22 1/2 N 2 63 1/2
+vla 22 1/2 S 1
+vc 22 1/2 N 0 48 1/2
+cb 22 1/2 N 0 36 1/4
+vlnTwo 22 5/8 N 4 67 1/8
+vlnTwo 22 5/8 TIE
+vlnOne 22 3/4 R 1/4
+vlnTwo 22 3/4 N 4 67 1/4
+cb 22 3/4 R 1/8
+cb 22 7/8 N 0 36 1/8
+vlnOne 23 0 N 2 75 1/4
+vlnOne 23 0 S -1
+vlnTwo 23 0 N 4 67 1/4
+vlnTwo 23 0 D mf
+vlnTwo 23 0 AR accent
+vla 23 0 N 2 63 1/4
+vla 23 0 AR accent
+vc 23 0 N 0 48 3/4
+vc 23 0 AR accent
+cb 23 0 N 0 36 1/4
+cb 23 0 AR accent
+vlnOne 23 1/4 N 1 74 1/4
+vlnTwo 23 1/4 N 4 67 1/4
+vla 23 1/4 N 2 63 1/4
+cb 23 1/4 N 0 36 1/4
+vlnOne 23 1/2 N 0 72 1/4
+vlnOne 23 1/2 S 1
+vlnTwo 23 1/2 N 4 67 1/4
+vla 23 1/2 N 2 63 1/4
+cb 23 1/2 N 0 36 1/4
+vlnOne 23 3/4 N 3 77 1/4
+vlnOne 23 3/4 S -1
+vlnTwo 23 3/4 N 3 65 1/4
+vlnTwo 23 3/4 AR accent
+vla 23 3/4 N 1 62 1/4
+vla 23 3/4 AR accent
+vc 23 3/4 N 6 47 1/4
+vc 23 3/4 AR accent
+vc 23 3/4 TIE
+cb 23 3/4 N 6 35 1/4
+cb 23 3/4 AR accent
+vlnOne 24 0 N 2 75 1/4
+vlnTwo 24 0 N 3 65 1/4
+vla 24 0 N 1 62 1/4
+vc 24 0 N 6 47 1/2
+cb 24 0 N 6 35 1/4
+vlnOne 24 1/4 N 1 74 1/4
+vlnOne 24 1/4 S 1
+vlnTwo 24 1/4 N 3 65 1/4
+vla 24 1/4 N 1 62 1/4
+cb 24 1/4 N 6 35 1/4
+vlnOne 24 1/2 N 4 79 1/4
+vlnOne 24 1/2 S -1
+vlnTwo 24 1/2 N 2 63 1/4
+vlnTwo 24 1/2 AR accent
+vla 24 1/2 N 2 63 1/4
+vla 24 1/2 AR accent
+vc 24 1/2 N 0 48 1/2
+vc 24 1/2 AR accent
+vc 24 1/2 TIE
+cb 24 1/2 N 0 36 1/4
+cb 24 1/2 AR accent
+vlnOne 24 3/4 N 3 77 1/4
+vlnTwo 24 3/4 N 2 63 1/4
+vla 24 3/4 N 2 63 1/4
+cb 24 3/4 N 0 36 1/4
+vlnOne 25 0 N 2 75 1/4
+vlnOne 25 0 S 1
+vlnTwo 25 0 N 2 63 1/4
+vla 25 0 N 2 63 1/4
+vc 25 0 N 0 48 1/4
+cb 25 0 N 0 36 1/4
+vlnOne 25 1/4 N 5 80 1/4
+vlnOne 25 1/4 S -1
+vlnTwo 25 1/4 N 3 65 1/4
+vlnTwo 25 1/4 AR accent
+vla 25 1/4 N 0 60 1/4
+vla 25 1/4 AR accent
+vc 25 1/4 N 3 53 3/4
+vc 25 1/4 AR accent
+cb 25 1/4 N 3 29 1/4
+cb 25 1/4 AR accent
+vlnOne 25 1/2 N 4 79 1/4
+vlnTwo 25 1/2 N 3 65 1/4
+vla 25 1/2 N 0 60 1/4
+cb 25 1/2 N 3 29 1/4
+vlnOne 25 3/4 N 3 77 1/4
+vlnOne 25 3/4 S 1
+vlnTwo 25 3/4 N 3 65 1/4
+vla 25 3/4 N 0 60 1/4
+cb 25 3/4 N 1 38 1/4
+vlnOne 26 0 N 6 83 3/4
+vlnOne 26 0 AR accent
+vlnOne 26 0 D ff
+vlnTwo 26 0 N 1 74 3/4
+vlnTwo 26 0 N 5 80 3/4
+vlnTwo 26 0 AR accent
+vlnTwo 26 0 D ff
+vla 26 0 N 3 65 3/4
+vla 26 0 N 6 71 3/4
+vla 26 0 AR accent
+vla 26 0 D ff
+vc 26 0 N 6 47 3/4
+vc 26 0 N 5 56 3/4
+vc 26 0 AR accent
+vc 26 0 D ff
+cb 26 0 N 6 35 3/4
+cb 26 0 AR accent
+cb 26 0 D ff
+vlnOne 26 3/4 R 1/4
+vlnTwo 26 3/4 R 1/4
+vla 26 3/4 R 1/4
+vc 26 3/4 R 1/4
+cb 26 3/4 R 1/4
+vlnOne 27 0 R 1/8
+vlnTwo 27 0 R 1/8
+vla 27 0 R 1/8
+vc 27 0 N 0 60 1/2
+vc 27 0 D ff
+cb 27 0 N 0 36 1/8
+cb 27 0 D ff
+vlnOne 27 1/8 N 4 79 1/8
+vlnOne 27 1/8 AR downbow
+vlnOne 27 1/8 D ff
+vlnOne 27 1/8 S -1
+vlnTwo 27 1/8 N 4 67 1/8
+vlnTwo 27 1/8 AR downbow
+vlnTwo 27 1/8 D ff
+vlnTwo 27 1/8 S -1
+vla 27 1/8 N 4 55 1/8
+vla 27 1/8 AR downbow
+vla 27 1/8 D ff
+vla 27 1/8 S -1
+cb 27 1/8 N 0 36 1/8
+vlnOne 27 1/4 N 2 87 3/8
+vlnOne 27 1/4 AR accent
+vlnOne 27 1/4 S 1
+vlnTwo 27 1/4 N 2 75 3/8
+vlnTwo 27 1/4 AR accent
+vlnTwo 27 1/4 S 1
+vla 27 1/4 N 2 63 3/8
+vla 27 1/4 AR accent
+vla 27 1/4 S 1
+cb 27 1/4 N 0 36 1/8
+cb 27 3/8 N 0 36 1/8
+vc 27 1/2 N 2 63 1/2
+cb 27 1/2 N 0 36 1/8
+vlnOne 27 5/8 N 1 86 1/8
+vlnOne 27 5/8 S -1
+vlnTwo 27 5/8 N 1 74 1/8
+vlnTwo 27 5/8 S -1
+vla 27 5/8 N 1 62 1/8
+vla 27 5/8 S -1
+cb 27 5/8 N 0 36 1/8
+vlnOne 27 3/4 N 1 85 1/8
+vlnTwo 27 3/4 N 1 73 1/8
+vla 27 3/4 N 1 61 1/8
+cb 27 3/4 N 0 36 1/8
+vlnOne 27 7/8 N 0 84 1/8
+vlnTwo 27 7/8 N 0 72 1/8
+vla 27 7/8 N 0 60 1/8
+cb 27 7/8 N 0 36 1/8
+vlnOne 28 0 N 0 84 1/4
+vlnOne 28 0 AR tenuto
+vlnOne 28 0 S 1
+vlnTwo 28 0 N 0 72 1/4
+vlnTwo 28 0 AR tenuto
+vlnTwo 28 0 S 1
+vla 28 0 N 0 60 1/4
+vla 28 0 AR tenuto
+vla 28 0 S 1
+vc 28 0 N 1 62 1/2
+cb 28 0 N 1 38 1/8
+cb 28 1/8 N 1 38 1/8
+vlnOne 28 1/4 N 6 83 1/8
+vlnOne 28 1/4 AR upbow
+vlnOne 28 1/4 S -1
+vlnTwo 28 1/4 N 6 71 1/8
+vlnTwo 28 1/4 AR upbow
+vlnTwo 28 1/4 S -1
+vla 28 1/4 N 6 59 1/8
+vla 28 1/4 AR upbow
+vla 28 1/4 S -1
+cb 28 1/4 N 1 38 1/8
+vlnOne 28 3/8 N 0 84 1/8
+vlnOne 28 3/8 S 1
+vlnTwo 28 3/8 N 0 72 1/8
+vlnTwo 28 3/8 S 1
+vla 28 3/8 N 0 60 1/8
+vla 28 3/8 S 1
+cb 28 3/8 N 1 38 1/8
+vlnOne 28 1/2 N 5 80 3/8
+vlnOne 28 1/2 AR accent
+vlnTwo 28 1/2 N 5 68 3/8
+vlnTwo 28 1/2 AR accent
+vla 28 1/2 N 5 56 3/8
+vla 28 1/2 AR accent
+vc 28 1/2 N 3 65 1/2
+cb 28 1/2 N 1 38 1/8
+cb 28 5/8 N 1 38 1/8
+cb 28 3/4 N 1 38 1/8
+vlnOne 28 7/8 N 4 79 1/8
+vlnTwo 28 7/8 N 4 67 1/8
+vla 28 7/8 N 4 55 1/8
+cb 28 7/8 N 1 38 1/8
+vlnOne 29 0 R 1/8
+vlnTwo 29 0 R 1/8
+vla 29 0 R 1/8
+vc 29 0 N 2 63 1/2
+cb 29 0 N 2 39 1/8
+vlnOne 29 1/8 N 4 79 1/8
+vlnOne 29 1/8 AR downbow
+vlnOne 29 1/8 S -1
+vlnTwo 29 1/8 N 4 67 1/8
+vlnTwo 29 1/8 AR downbow
+vlnTwo 29 1/8 S -1
+vla 29 1/8 N 4 55 1/8
+vla 29 1/8 AR downbow
+vla 29 1/8 S -1
+cb 29 1/8 N 2 39 1/8
+vlnOne 29 1/4 N 3 89 3/8
+vlnOne 29 1/4 AR accent
+vlnOne 29 1/4 S 1
+vlnTwo 29 1/4 N 3 77 3/8
+vlnTwo 29 1/4 AR accent
+vlnTwo 29 1/4 S 1
+vla 29 1/4 N 3 65 3/8
+vla 29 1/4 AR accent
+vla 29 1/4 S 1
+cb 29 1/4 N 2 39 1/8
+cb 29 3/8 N 2 39 1/8
+vc 29 1/2 N 0 60 1/2
+cb 29 1/2 N 2 39 1/8
+vlnOne 29 5/8 N 2 87 1/8
+vlnOne 29 5/8 S -1
+vlnTwo 29 5/8 N 2 75 1/8
+vlnTwo 29 5/8 S -1
+vla 29 5/8 N 2 63 1/8
+vla 29 5/8 S -1
+cb 29 5/8 N 2 39 1/8
+vlnOne 29 3/4 N 1 86 1/8
+vlnTwo 29 3/4 N 1 74 1/8
+vla 29 3/4 N 1 62 1/8
+cb 29 3/4 N 2 39 1/8
+vlnOne 29 7/8 N 0 84 1/8
+vlnOne 29 7/8 S 1
+vlnTwo 29 7/8 N 0 72 1/8
+vlnTwo 29 7/8 S 1
+vla 29 7/8 N 0 60 1/8
+vla 29 7/8 S 1
+cb 29 7/8 N 2 39 1/8
+vlnOne 30 0 N 6 82 1/8
+vlnOne 30 0 AR staccato
+vlnTwo 30 0 N 6 70 1/8
+vlnTwo 30 0 AR staccato
+vla 30 0 N 6 58 1/8
+vla 30 0 AR staccato
+vc 30 0 N 2 64 1/2
+cb 30 0 N 2 40 1/8
+vlnOne 30 1/8 N 0 84 1/8
+vlnOne 30 1/8 AR staccato
+vlnTwo 30 1/8 N 0 72 1/8
+vlnTwo 30 1/8 AR staccato
+vla 30 1/8 N 0 60 1/8
+vla 30 1/8 AR staccato
+cb 30 1/8 N 2 40 1/8
+vlnOne 30 1/4 N 1 85 1/8
+vlnOne 30 1/4 AR staccato
+vlnTwo 30 1/4 N 1 73 1/8
+vlnTwo 30 1/4 AR staccato
+vla 30 1/4 N 1 61 1/8
+vla 30 1/4 AR staccato
+cb 30 1/4 N 2 40 1/8
+vlnOne 30 3/8 N 6 82 1/8
+vlnOne 30 3/8 AR staccato
+vlnTwo 30 3/8 N 6 70 1/8
+vlnTwo 30 3/8 AR staccato
+vla 30 3/8 N 6 58 1/8
+vla 30 3/8 AR staccato
+cb 30 3/8 N 2 40 1/8
+vlnOne 30 1/2 N 4 91 3/8
+vlnOne 30 1/2 AR accent
+vlnTwo 30 1/2 N 4 79 3/8
+vlnTwo 30 1/2 AR accent
+vla 30 1/2 N 4 67 3/8
+vla 30 1/2 AR accent
+vc 30 1/2 N 6 58 1/2
+cb 30 1/2 N 2 40 1/8
+cb 30 5/8 N 2 40 1/8
+cb 30 3/4 N 2 40 1/8
+vlnOne 30 7/8 N 3 89 1/8
+vlnTwo 30 7/8 N 3 77 1/8
+vla 30 7/8 N 3 65 1/8
+cb 30 7/8 N 2 40 1/8
+vlnOne 31 0 N 5 92 3/8
+vlnOne 31 0 AR accent
+vlnTwo 31 0 N 5 80 3/8
+vlnTwo 31 0 AR accent
+vla 31 0 N 5 68 3/8
+vla 31 0 AR accent
+vc 31 0 N 5 56 1/2
+cb 31 0 N 3 41 1/8
+cb 31 1/8 N 3 41 1/8
+cb 31 1/4 N 3 41 1/8
+vlnOne 31 3/8 N 4 91 1/8
+vlnTwo 31 3/8 N 4 79 1/8
+vla 31 3/8 N 4 67 1/8
+cb 31 3/8 N 3 41 1/8
+vlnOne 31 1/2 N 3 89 1/4
+vlnTwo 31 1/2 N 3 77 1/4
+vla 31 1/2 N 3 65 1/4
+vc 31 1/2 N 3 53 1/2
+cb 31 1/2 N 1 38 1/8
+cb 31 5/8 N 1 38 1/8
+vlnOne 31 3/4 N 1 86 1/4
+vlnTwo 31 3/4 N 1 74 1/4
+vla 31 3/4 N 1 62 1/4
+cb 31 3/4 N 1 38 1/8
+cb 31 7/8 N 1 38 1/8
+vlnOne 32 0 N 0 84 1/4
+vlnOne 32 0 AR accent
+vlnOne 32 0 AR downbow
+vlnTwo 32 0 N 0 72 1/4
+vlnTwo 32 0 AR accent
+vlnTwo 32 0 AR downbow
+vla 32 0 N 1 62 1/4
+vla 32 0 N 3 65 1/4
+vla 32 0 AR accent
+vla 32 0 AR downbow
+vc 32 0 N 4 55 1/4
+vc 32 0 AR accent
+vc 32 0 AR downbow
+cb 32 0 N 4 31 1/4
+cb 32 0 AR accent
+cb 32 0 AR downbow
+vlnOne 32 1/4 N 6 83 1/4
+vlnOne 32 1/4 AR accent
+vlnOne 32 1/4 AR downbow
+vlnTwo 32 1/4 N 6 71 1/4
+vlnTwo 32 1/4 AR accent
+vlnTwo 32 1/4 AR downbow
+vla 32 1/4 N 1 62 1/4
+vla 32 1/4 N 3 65 1/4
+vla 32 1/4 AR accent
+vla 32 1/4 AR downbow
+vc 32 1/4 N 4 43 1/4
+vc 32 1/4 AR accent
+vc 32 1/4 AR downbow
+cb 32 1/4 N 4 31 1/4
+cb 32 1/4 AR accent
+cb 32 1/4 AR downbow
+vlnOne 32 1/2 R 1/4
+vlnTwo 32 1/2 R 1/4
+vla 32 1/2 R 1/2
+vc 32 1/2 R 1/2
+cb 32 1/2 R 1/2
+vlnOne 32 3/4 N 3 77 1/16
+vlnOne 32 3/4 S -1
+vlnTwo 32 3/4 N 3 65 1/16
+vlnTwo 32 3/4 S -1
+vlnOne 32 13/16 N 4 79 1/16
+vlnTwo 32 13/16 N 4 67 1/16
+vlnOne 32 7/8 N 5 80 1/16
+vlnTwo 32 7/8 N 5 68 1/16
+vlnOne 32 15/16 N 6 83 1/16
+vlnOne 32 15/16 S 1
+vlnTwo 32 15/16 N 6 71 1/16
+vlnTwo 32 15/16 S 1
+vlnOne 33 0 N 0 84 1/8
+vlnOne 33 0 AR accent
+vlnOne 33 0 AR downbow
+vlnOne 33 0 D ff
+vlnTwo 33 0 N 2 63 1/8
+vlnTwo 33 0 N 0 72 1/8
+vlnTwo 33 0 AR accent
+vlnTwo 33 0 AR downbow
+vlnTwo 33 0 D ff
+vla 33 0 N 0 48 1/8
+vla 33 0 N 4 55 1/8
+vla 33 0 N 2 63 1/8
+vla 33 0 AR accent
+vla 33 0 AR downbow
+vla 33 0 D ff
+vc 33 0 N 0 36 1/8
+vc 33 0 N 4 43 1/8
+vc 33 0 N 2 51 1/8
+vc 33 0 AR accent
+vc 33 0 AR downbow
+vc 33 0 D ff
+cb 33 0 N 0 36 1
+cb 33 0 D fp
+vlnOne 33 1/8 R 1/8
+vlnTwo 33 1/8 R 1/8
+vla 33 1/8 R 1/8
+vc 33 1/8 R 1/8
+vlnOne 33 1/4 R 1/4
+vlnTwo 33 1/4 R 1/4
+vla 33 1/4 R 1/4
+vc 33 1/4 R 1/4
+vlnOne 33 1/2 R 1/2
+vlnTwo 33 1/2 R 1/2
+vla 33 1/2 R 1/2
+vc 33 1/2 R 1/2
+vla 34 0 R 1/8
+cb 34 0 N 5 32 1
+vla 34 1/8 N 0 60 1/8
+vla 34 1/8 AR downbow
+vla 34 1/8 D mp
+vla 34 1/8 S -1
+vla 34 1/4 N 5 68 3/8
+vla 34 1/4 AR accent
+vla 34 1/4 S 1
+vla 34 5/8 N 4 67 1/8
+vla 34 5/8 S -1
+vla 34 3/4 N 4 66 1/8
+vla 34 7/8 N 3 65 1/8
+vlnOne 35 0 R 1/8
+vla 35 0 N 3 65 1/4
+vla 35 0 AR tenuto
+vla 35 0 S 1
+vc 35 0 N 6 46 1
+vc 35 0 D p
+cb 35 0 N 6 34 1
+vlnOne 35 1/8 N 3 65 1/8
+vlnOne 35 1/8 AR downbow
+vlnOne 35 1/8 D mf
+vlnOne 35 1/8 S -1
+vlnOne 35 1/4 N 1 73 3/8
+vlnOne 35 1/4 AR accent
+vlnOne 35 1/4 S 1
+vla 35 1/4 N 2 64 1/8
+vla 35 1/4 S -1
+vla 35 3/8 N 3 65 1/8
+vla 35 3/8 S 1
+vla 35 1/2 N 1 61 1/4
+vlnOne 35 5/8 N 0 72 1/8
+vlnOne 35 5/8 S -1
+vlnOne 35 3/4 N 0 71 1/8
+vla 35 3/4 N 1 62 1/4
+vlnOne 35 7/8 N 6 70 1/8
+vlnOne 36 0 N 6 70 1/4
+vlnOne 36 0 AR tenuto
+vlnOne 36 0 S 1
+vla 36 0 N 2 63 1
+vc 36 0 N 2 51 1
+cb 36 0 N 2 39 1
+vlnOne 36 1/4 N 5 69 1/8
+vlnOne 36 1/4 AR upbow
+vlnOne 36 1/4 S -1
+vlnOne 36 3/8 N 6 70 1/8
+vlnOne 36 3/8 S 1
+vlnOne 36 1/2 N 4 67 3/8
+vlnOne 36 1/2 AR accent
+vlnOne 36 7/8 N 3 65 1/8
+vlnOne 37 0 R 1/8
+vlnTwo 37 0 R 1/4
+vla 37 0 N 4 66 1/2
+vla 37 0 TR 32
+vla 37 0 D p
+vc 37 0 N 4 54 1
+cb 37 0 N 2 39 1
+vlnOne 37 1/8 N 6 70 1/8
+vlnOne 37 1/8 AR downbow
+vlnOne 37 1/8 S -1
+vlnOne 37 1/4 N 4 78 3/8
+vlnOne 37 1/4 AR accent
+vlnOne 37 1/4 S 1
+vlnTwo 37 1/4 N 6 70 3/4
+vlnTwo 37 1/4 TR 32
+vlnTwo 37 1/4 D p
+vla 37 1/2 R 1/8
+vlnOne 37 5/8 N 3 77 1/8
+vlnOne 37 5/8 S -1
+vla 37 5/8 N 6 58 1/8
+vla 37 5/8 S -1
+vlnOne 37 3/4 N 3 76 1/8
+vla 37 3/4 N 4 66 1/4
+vla 37 3/4 AR accent
+vla 37 3/4 TIE
+vlnOne 37 7/8 N 2 75 1/8
+vlnOne 37 7/8 S 1
+vlnOne 38 0 R 1/8
+vlnTwo 38 0 N 5 68 1
+vlnTwo 38 0 TR 32
+vla 38 0 N 4 66 1/8
+vla 38 0 S 1
+vc 38 0 N 5 56 1
+cb 38 0 N 3 41 1
+vlnOne 38 1/8 N 4 79 1/8
+vlnOne 38 1/8 S -1
+vla 38 1/8 N 3 65 1/8
+vla 38 1/8 S -1
+vlnOne 38 1/4 N 5 80 3/8
+vlnOne 38 1/4 AR accent
+vlnOne 38 1/4 S 1
+vla 38 1/4 N 3 64 1/8
+vla 38 3/8 N 2 63 1/8
+vla 38 3/8 S 1
+vla 38 1/2 R 1/8
+vlnOne 38 5/8 N 4 79 1/8
+vlnOne 38 5/8 S -1
+vla 38 5/8 N 0 60 1/8
+vla 38 5/8 S -1
+vlnOne 38 3/4 N 4 78 1/8
+vla 38 3/4 N 5 68 1/4
+vla 38 3/4 AR accent
+vla 38 3/4 TIE
+vlnOne 38 7/8 N 3 77 1/8
+vlnOne 38 7/8 S 1
+vlnOne 39 0 N 1 74 1/8
+vlnOne 39 0 S -1
+vlnTwo 39 0 N 5 68 1
+vlnTwo 39 0 TR 32
+vla 39 0 N 5 68 1/8
+vla 39 0 S 1
+vc 39 0 N 5 56 1
+cb 39 0 N 6 34 1
+vlnOne 39 1/8 N 2 75 1/8
+vla 39 1/8 N 4 67 1/16
+vla 39 1/8 S -1
+vla 39 3/16 N 4 66 1/16
+vlnOne 39 1/4 N 3 77 1/8
+vla 39 1/4 N 3 65 1/4
+vla 39 1/4 S 1
+vlnOne 39 3/8 N 6 82 1/8
+vlnOne 39 3/8 S 1
+vlnOne 39 1/2 N 1 86 1/2
+vlnOne 39 1/2 AR accent
+vla 39 1/2 N 3 65 1/2
+vla 39 1/2 TR 32
+vlnOne 40 0 N 3 77 1/8
+vlnOne 40 0 S -1
+vlnTwo 40 0 N 5 68 1
+vlnTwo 40 0 TR 32
+vlnTwo 40 0 D f
+vla 40 0 N 1 62 1
+vla 40 0 N 3 65 1
+vla 40 0 TR 32
+vla 40 0 D f
+vc 40 0 N 5 56 1
+vc 40 0 D f
+cb 40 0 N 6 34 1
+cb 40 0 D f
+vlnOne 40 1/8 N 4 79 1/8
+vlnOne 40 1/4 N 5 80 1/8
+vlnOne 40 3/8 N 0 84 1/8
+vlnOne 40 3/8 S 1
+vlnOne 40 1/2 N 6 82 1/16
+vlnOne 40 1/2 S -1
+vlnOne 40 9/16 N 0 84 1/16
+vlnOne 40 5/8 N 1 86 1/16
+vlnOne 40 11/16 N 2 87 1/16
+vlnOne 40 3/4 N 3 89 1/16
+vlnOne 40 13/16 N 2 87 1/16
+vlnOne 40 7/8 N 3 89 1/16
+vlnOne 40 15/16 N 3 90 1/16
+vlnOne 40 15/16 S 1
+vlnOne 41 0 N 4 91 1
+vlnOne 41 0 D sf
+vlnOne 41 0 AR downbow
+vlnOne 41 0 TIE
+vlnTwo 41 0 N 4 79 1
+vlnTwo 41 0 D sf
+vlnTwo 41 0 AR downbow
+vlnTwo 41 0 TIE
+vla 41 0 N 2 63 1
+vla 41 0 N 4 67 1
+vla 41 0 TR 32
+vla 41 0 D sf
+vc 41 0 N 4 55 1
+vc 41 0 D sf
+cb 41 0 N 2 39 1
+cb 41 0 D sf
+cb 41 0 TIE
+cb 41 0 TX change bow at will
+vlnOne 42 0 N 4 91 1/2
+vlnOne 42 0 D mf
+vlnTwo 42 0 N 4 79 1/2
+vlnTwo 42 0 D mf
+vla 42 0 N 2 63 1
+vla 42 0 N 4 67 1
+vla 42 0 TR 32
+vla 42 0 D mf
+vc 42 0 N 4 55 1
+vc 42 0 D mf
+cb 42 0 N 2 39 1
+cb 42 0 D mf
+cb 42 0 TIE
+vlnOne 42 1/2 N 3 89 1/2
+vlnTwo 42 1/2 N 3 77 1/2
+vlnOne 43 0 N 2 87 1/4
+vlnOne 43 0 D p
+vlnTwo 43 0 N 1 61 1
+vlnTwo 43 0 D pp
+vla 43 0 N 6 58 1
+vla 43 0 D pp
+vc 43 0 N 4 55 1
+vc 43 0 D pp
+cb 43 0 N 2 39 1
+cb 43 0 D pp
+vlnOne 43 1/4 R 1/4
+vlnOne 43 1/2 R 1/2
+vlnTwo 44 0 N 2 63 1
+vla 44 0 R 1/2
+vc 44 0 N 4 55 1
+cb 44 0 N 1 37 1
+vla 44 1/2 N 6 58 1/2
+vlnTwo 45 0 N 2 63 1
+vla 45 0 N 0 60 1/2
+vc 45 0 N 4 55 1/2
+vc 45 0 S -1
+cb 45 0 N 0 36 1
+vla 45 1/2 N 2 63 1/2
+vc 45 1/2 N 5 56 1/2
+vc 45 1/2 S 1
+vlnTwo 46 0 N 1 61 3/4
+vla 46 0 N 6 58 1/2
+vc 46 0 N 5 56 1/2
+cb 46 0 N 1 37 1/2
+vla 46 1/2 N 1 61 1/2
+vc 46 1/2 N 4 55 1/4
+cb 46 1/2 N 2 39 1/2
+cb 46 1/2 AR upbow
+vlnTwo 46 3/4 N 4 67 1/4
+vc 46 3/4 N 2 51 1/4
+vc 46 3/4 S -1
+vc 46 3/4 D mf
+vlnTwo 47 0 N 5 68 1
+vlnTwo 47 0 D pp
+vlnTwo 47 0 TX met?
+vla 47 0 N 0 60 1
+vla 47 0 N 2 63 1
+vla 47 0 D pp
+vla 47 0 TX div.
+vc 47 0 N 0 60 3/4
+vc 47 0 TIE
+vc 47 0 TX dolce
+cb 47 0 N 5 44 1/4
+cb 47 0 D pp
+cb 47 0 TX pizz.
+cb 47 1/4 R 1/4
+cb 47 1/2 R 1/2
+vc 47 3/4 N 0 60 1/8
+vc 47 7/8 N 6 58 1/8
+vlnTwo 48 0 N 5 68 1
+vla 48 0 N 1 61 1
+vla 48 0 N 3 65 1
+vc 48 0 N 5 56 1/4
+cb 48 0 N 1 37 1/4
+vc 48 1/4 N 3 65 1/2
+vc 48 1/4 AR tenuto
+cb 48 1/4 R 1/4
+cb 48 1/2 R 1/2
+vc 48 3/4 N 2 63 1/4
+vc 48 3/4 S 1
+vlnTwo 49 0 N 5 68 1
+vla 49 0 N 6 58 1
+vla 49 0 N 1 61 1
+vc 49 0 N 1 61 3/8
+vc 49 0 S -1
+cb 49 0 N 6 34 1/4
+cb 49 1/4 R 1/4
+vc 49 3/8 N 0 60 1/8
+vc 49 1/2 N 6 58 1/4
+cb 49 1/2 R 1/2
+vc 49 3/4 N 1 61 1/8
+vc 49 7/8 N 3 65 1/8
+vlnTwo 50 0 N 6 70 1
+vla 50 0 N 6 58 1
+vla 50 0 N 1 61 1
+vc 50 0 N 5 68 1/2
+cb 50 0 N 2 39 1/4
+cb 50 1/4 R 1/4
+vc 50 1/2 N 4 67 1/2
+vc 50 1/2 S 1
+cb 50 1/2 N 2 39 1/4
+cb 50 3/4 R 1/4
+vlnTwo 51 0 N 4 66 1
+vla 51 0 N 5 56 1
+vla 51 0 N 2 63 1
+vc 51 0 N 2 63 1/4
+vc 51 0 S -1
+cb 51 0 N 0 36 1/4
+vc 51 1/4 N 0 72 1/2
+vc 51 1/4 AR tenuto
+cb 51 1/4 R 1/4
+cb 51 1/2 R 1/2
+vc 51 3/4 N 6 70 1/4
+vc 51 3/4 S 1
+vlnTwo 52 0 N 3 65 1
+vla 52 0 N 5 56 1
+vla 52 0 N 3 65 1
+vc 52 0 N 5 68 3/8
+vc 52 0 S -1
+cb 52 0 N 1 37 1/4
+cb 52 1/4 R 1/4
+vc 52 3/8 N 4 67 1/8
+vc 52 1/2 N 3 65 1/4
+cb 52 1/2 R 1/2
+vc 52 3/4 N 3 77 1/4
+vc 52 3/4 TIE
+vlnTwo 53 0 N 3 65 1
+vla 53 0 N 6 58 1
+vla 53 0 N 3 65 1
+vc 53 0 N 3 77 1/4
+cb 53 0 N 1 37 1/4
+vc 53 1/4 N 2 75 1/8
+cb 53 1/4 R 1/4
+vc 53 3/8 N 1 73 1/8
+vc 53 1/2 N 0 72 3/8
+cb 53 1/2 R 1/2
+vc 53 7/8 N 6 70 1/8
+vc 53 7/8 S 1
+vlnTwo 54 0 N 2 63 1/2
+vlnTwo 54 0 TIE
+vlnTwo 54 0 AR downbow
+vla 54 0 N 6 58 1/4
+vla 54 0 N 2 63 1/4
+vc 54 0 N 5 68 1/4
+vc 54 0 S -1
+cb 54 0 N 2 39 1/4
+vla 54 1/4 N 4 55 3/4
+vla 54 1/4 N 6 58 3/4
+vc 54 1/4 N 4 67 1/4
+cb 54 1/4 R 1/4
+vlnTwo 54 1/2 N 2 63 1/2
+vlnTwo 54 1/2 AR upbow
+vc 54 1/2 N 6 70 1/4
+cb 54 1/2 N 2 39 1/4
+vc 54 3/4 N 1 61 1/4
+vc 54 3/4 S 1
+cb 54 3/4 R 1/4
+vlnOne 55 0 R 3/4
+vlnTwo 55 0 N 2 63 1/2
+vlnTwo 55 0 N 5 68 1/2
+vlnTwo 55 0 TX tutti, div.
+vla 55 0 N 5 56 3/4
+vla 55 0 N 0 60 3/4
+vc 55 0 N 0 60 3/4
+vc 55 0 D p
+cb 55 0 N 5 32 1/4
+cb 55 1/4 R 1/4
+vlnTwo 55 1/2 R 1/4
+cb 55 1/2 R 1/2
+vlnOne 55 3/4 N 2 63 1/4
+vlnOne 55 3/4 S -1
+vlnOne 55 3/4 D p
+vlnTwo 55 3/4 N 2 63 1/4
+vlnTwo 55 3/4 S -1
+vlnTwo 55 3/4 D p
+vlnTwo 55 3/4 TX unis.
+vla 55 3/4 R 1/4
+vc 55 3/4 R 1/4
+vlnOne 56 0 N 0 72 3/4
+vlnOne 56 0 TIE
+vlnOne 56 0 TX molto cantabile
+vlnTwo 56 0 N 0 72 3/4
+vlnTwo 56 0 TIE
+vlnTwo 56 0 TX molto cantabile
+vc 56 0 N 5 44 1/8
+vc 56 0 D pp
+vc 56 0 S -1
+cb 56 0 N 5 32 1
+cb 56 0 D pp
+cb 56 0 TX arco
+vc 56 1/8 N 2 51 1/8
+vc 56 1/4 N 5 56 1/8
+vc 56 3/8 N 0 60 1/8
+vc 56 1/2 N 2 64 1/2
+vc 56 1/2 S 1
+vlnOne 56 3/4 N 0 72 1/16
+vlnTwo 56 3/4 N 0 72 1/16
+vlnOne 56 13/16 N 1 73 1/16
+vlnTwo 56 13/16 N 1 73 1/16
+vlnOne 56 7/8 N 0 72 1/16
+vlnTwo 56 7/8 N 0 72 1/16
+vlnOne 56 15/16 N 6 70 1/16
+vlnTwo 56 15/16 N 6 70 1/16
+vlnOne 57 0 N 5 68 1/4
+vlnTwo 57 0 N 5 68 1/4
+vc 57 0 N 5 44 1/8
+vc 57 0 S -1
+cb 57 0 N 5 32 1
+vc 57 1/8 N 1 49 1/8
+vlnOne 57 1/4 N 3 77 1/2
+vlnOne 57 1/4 AR tenuto
+vlnTwo 57 1/4 N 3 77 1/2
+vlnTwo 57 1/4 AR tenuto
+vc 57 1/4 N 3 53 1/8
+vc 57 3/8 N 5 56 1/8
+vc 57 1/2 N 1 61 1/2
+vc 57 1/2 S 1
+vlnOne 57 3/4 N 2 75 1/4
+vlnOne 57 3/4 S 1
+vlnTwo 57 3/4 N 2 75 1/4
+vlnTwo 57 3/4 S 1
+vlnOne 58 0 N 1 73 3/8
+vlnOne 58 0 S -1
+vlnTwo 58 0 N 1 73 3/8
+vlnTwo 58 0 S -1
+vc 58 0 N 6 46 1/8
+vc 58 0 S -1
+vc 58 0 D p
+cb 58 0 N 6 34 1/2
+vc 58 1/8 N 3 53 1/8
+vc 58 1/4 N 1 61 3/8
+vc 58 1/4 S 1
+vlnOne 58 3/8 N 0 72 1/8
+vlnTwo 58 3/8 N 0 72 1/8
+vlnOne 58 1/2 N 6 70 1/4
+vlnTwo 58 1/2 N 6 70 1/4
+cb 58 1/2 N 1 37 1/2
+vc 58 5/8 N 0 60 1/8
+vc 58 5/8 S -1
+vlnOne 58 3/4 N 1 73 1/8
+vlnTwo 58 3/4 N 1 73 1/8
+vc 58 3/4 N 0 59 1/8
+vlnOne 58 7/8 N 3 77 1/8
+vlnTwo 58 7/8 N 3 77 1/8
+vc 58 7/8 N 6 58 1/8
+vc 58 7/8 D pp
+vc 58 7/8 S 1
+vlnOne 59 0 N 5 80 1/2
+vlnOne 59 0 AR tenuto
+vlnTwo 59 0 N 5 80 1/2
+vlnTwo 59 0 AR tenuto
+vc 59 0 N 2 39 1/8
+vc 59 0 S -1
+cb 59 0 N 2 39 1
+vc 59 1/8 N 6 46 1/8
+vc 59 1/4 N 1 49 1/8
+vc 59 3/8 N 4 55 1/8
+vlnOne 59 1/2 N 4 79 1/2
+vlnOne 59 1/2 S 1
+vlnTwo 59 1/2 N 4 79 1/2
+vlnTwo 59 1/2 S 1
+vc 59 1/2 N 6 58 1/2
+vc 59 1/2 S 1
+vlnOne 60 0 N 6 82 3/4
+vlnOne 60 0 TIE
+vlnOne 60 0 S -1
+vlnOne 60 0 D mf
+vlnTwo 60 0 N 6 70 3/4
+vlnTwo 60 0 TIE
+vlnTwo 60 0 S -1
+vlnTwo 60 0 D mf
+vla 60 0 R 1/8
+vc 60 0 N 4 42 1/8
+vc 60 0 S -1
+vc 60 0 D p
+cb 60 0 N 4 42 1
+cb 60 0 D p
+vla 60 1/8 N 1 61 1/8
+vla 60 1/8 S -1
+vla 60 1/8 D p
+vla 60 1/8 TX unis.
+vc 60 1/8 N 1 49 1/8
+vla 60 1/4 N 4 66 1/8
+vc 60 1/4 N 4 54 1/8
+vla 60 3/8 N 6 70 1/8
+vc 60 3/8 N 6 58 1/8
+vc 60 3/8 S 1
+vla 60 1/2 N 1 73 1/4
+vla 60 1/2 S 1
+vc 60 1/2 N 4 42 1/8
+vc 60 1/2 S -1
+vc 60 5/8 N 6 46 1/8
+vlnOne 60 3/4 N 6 82 1/8
+vlnTwo 60 3/4 N 6 70 1/8
+vla 60 3/4 R 1/4
+vc 60 3/4 N 4 54 1/8
+vlnOne 60 7/8 N 6 81 1/8
+vlnTwo 60 7/8 N 6 69 1/8
+vc 60 7/8 N 2 51 1/8
+vc 60 7/8 S 1
+vlnOne 61 0 N 5 80 1/2
+vlnTwo 61 0 N 5 68 1/2
+vla 61 0 R 1/8
+vc 61 0 N 3 40 1/8
+vc 61 0 S -1
+cb 61 0 N 3 40 1
+vla 61 1/8 N 1 61 1/8
+vla 61 1/8 S -1
+vc 61 1/8 N 1 49 1/8
+vla 61 1/4 N 3 64 1/8
+vc 61 1/4 N 3 52 1/8
+vla 61 3/8 N 5 68 1/8
+vc 61 3/8 N 5 56 1/8
+vc 61 3/8 S 1
+vlnOne 61 1/2 N 4 78 1/4
+vlnTwo 61 1/2 N 4 66 1/4
+vla 61 1/2 N 1 73 1/4
+vla 61 1/2 S 1
+vc 61 1/2 N 3 40 1/8
+vc 61 1/2 S -1
+vc 61 1/2 AR upbow
+vc 61 5/8 N 5 44 1/8
+vlnOne 61 3/4 N 3 76 1/8
+vlnTwo 61 3/4 N 3 64 1/8
+vla 61 3/4 R 1/4
+vc 61 3/4 N 1 49 1/8
+vlnOne 61 7/8 N 1 73 1/8
+vlnOne 61 7/8 S 1
+vlnTwo 61 7/8 N 1 61 1/8
+vlnTwo 61 7/8 S 1
+vc 61 7/8 N 3 52 1/8
+vc 61 7/8 S 1
+vlnOne 62 0 N 2 75 1/4
+vlnOne 62 0 D (#<procedure line-markup (a b c)> ((#<procedure line-markup (a b c)> ((#<procedure normal-text-markup (a b c)> (#<procedure italic-markup (a b c)> sub.)) (#<procedure dynamic-markup (a b c)> p)))))
+vlnOne 62 0 S -1
+vlnTwo 62 0 N 2 63 1/4
+vlnTwo 62 0 D (#<procedure line-markup (a b c)> ((#<procedure line-markup (a b c)> ((#<procedure normal-text-markup (a b c)> (#<procedure italic-markup (a b c)> sub.)) (#<procedure dynamic-markup (a b c)> p)))))
+vlnTwo 62 0 S -1
+vla 62 0 R 1/4
+vc 62 0 N 2 39 1/4
+vc 62 0 D (#<procedure line-markup (a b c)> ((#<procedure line-markup (a b c)> ((#<procedure normal-text-markup (a b c)> (#<procedure italic-markup (a b c)> sub.)) (#<procedure dynamic-markup (a b c)> p)))))
+vc 62 0 TX pizz.
+cb 62 0 N 2 39 1
+cb 62 0 D (#<procedure line-markup (a b c)> ((#<procedure line-markup (a b c)> ((#<procedure normal-text-markup (a b c)> (#<procedure italic-markup (a b c)> sub.)) (#<procedure dynamic-markup (a b c)> p)))))
+vlnOne 62 1/4 N 0 84 3/4
+vlnOne 62 1/4 AR tenuto
+vlnOne 62 1/4 TIE
+vlnTwo 62 1/4 N 0 72 3/4
+vlnTwo 62 1/4 AR tenuto
+vlnTwo 62 1/4 TIE
+vla 62 1/4 N 0 60 1/2
+vla 62 1/4 N 2 63 1/2
+vla 62 1/4 D (#<procedure line-markup (a b c)> ((#<procedure line-markup (a b c)> ((#<procedure normal-text-markup (a b c)> (#<procedure italic-markup (a b c)> sub.)) (#<procedure dynamic-markup (a b c)> p)))))
+vla 62 1/4 TX div.
+vc 62 1/4 R 1/4
+vc 62 1/2 N 2 51 1/4
+vla 62 3/4 N 0 60 1/4
+vla 62 3/4 N 2 63 1/4
+vc 62 3/4 R 1/4
+vlnOne 63 0 N 0 84 1/4
+vlnOne 63 0 S 1
+vlnTwo 63 0 N 0 72 1/4
+vlnTwo 63 0 S 1
+vla 63 0 R 1/4
+vc 63 0 N 2 39 1/4
+cb 63 0 N 2 39 1/2
+vlnOne 63 1/4 N 1 85 1/4
+vlnOne 63 1/4 S -1
+vlnTwo 63 1/4 N 1 73 1/4
+vlnTwo 63 1/4 S -1
+vla 63 1/4 N 1 61 1/2
+vla 63 1/4 N 4 67 1/2
+vc 63 1/4 R 1/4
+vlnOne 63 1/2 N 6 82 1/2
+vlnOne 63 1/2 S 1
+vlnTwo 63 1/2 N 6 70 1/2
+vlnTwo 63 1/2 S 1
+vc 63 1/2 R 1/2
+cb 63 1/2 N 2 40 1/2
+vla 63 3/4 N 1 61 1/4
+vla 63 3/4 N 4 67 1/4
+vlnOne 64 0 N 5 80 3/4
+vlnOne 64 0 TIE
+vlnOne 64 0 S -1
+vlnOne 64 0 D f
+vlnTwo 64 0 N 5 68 3/4
+vlnTwo 64 0 TIE
+vlnTwo 64 0 S -1
+vlnTwo 64 0 D f
+vla 64 0 R 1/4
+vc 64 0 N 3 41 1/8
+vc 64 0 S -1
+vc 64 0 D mf
+vc 64 0 TX arco
+cb 64 0 N 3 41 1/2
+cb 64 0 D mf
+vc 64 1/8 N 0 48 1/8
+vla 64 1/4 N 0 60 1/2
+vla 64 1/4 N 3 65 1/2
+vla 64 1/4 D mf
+vc 64 1/4 N 3 53 1/8
+vc 64 3/8 N 5 56 1/8
+vc 64 3/8 S 1
+vc 64 1/2 N 1 38 1/8
+vc 64 1/2 S -1
+cb 64 1/2 N 1 38 1/2
+vc 64 5/8 N 5 44 1/8
+vlnOne 64 3/4 N 5 80 1/8
+vlnTwo 64 3/4 N 5 68 1/8
+vla 64 3/4 N 0 60 1/4
+vla 64 3/4 N 3 65 1/4
+vc 64 3/4 N 0 48 1/8
+vlnOne 64 7/8 N 4 79 1/8
+vlnOne 64 7/8 S 1
+vlnTwo 64 7/8 N 4 67 1/8
+vlnTwo 64 7/8 S 1
+vc 64 7/8 N 3 53 1/8
+vc 64 7/8 S 1
+vlnOne 65 0 N 3 77 3/8
+vlnOne 65 0 S -1
+vlnTwo 65 0 N 3 65 3/8
+vlnTwo 65 0 S -1
+vla 65 0 R 1/4
+vc 65 0 N 1 37 1/8
+vc 65 0 S -1
+cb 65 0 N 1 37 1
+vc 65 1/8 N 5 44 1/8
+vla 65 1/4 N 1 61 1/2
+vla 65 1/4 N 3 65 1/2
+vc 65 1/4 N 1 49 1/8
+vlnOne 65 3/8 N 2 75 1/8
+vlnTwo 65 3/8 N 2 63 1/8
+vc 65 3/8 N 3 53 1/8
+vlnOne 65 1/2 N 1 73 1/4
+vlnTwo 65 1/2 N 1 61 1/4
+vc 65 1/2 N 5 56 1/2
+vc 65 1/2 S 1
+vlnOne 65 3/4 N 3 77 1/8
+vlnTwo 65 3/4 N 3 65 1/8
+vla 65 3/4 N 1 61 1/4
+vla 65 3/4 N 3 65 1/4
+vlnOne 65 7/8 N 5 80 1/8
+vlnOne 65 7/8 S 1
+vlnTwo 65 7/8 N 5 68 1/8
+vlnTwo 65 7/8 S 1
+vlnOne 66 0 N 6 82 1/2
+vlnOne 66 0 S -1
+vlnTwo 66 0 N 6 70 1/2
+vlnTwo 66 0 S -1
+vla 66 0 R 1/4
+vc 66 0 N 6 46 1/8
+vc 66 0 S -1
+cb 66 0 N 6 34 1/2
+vc 66 1/8 N 3 53 1/8
+vla 66 1/4 N 1 61 1/2
+vla 66 1/4 N 3 65 1/2
+vc 66 1/4 N 6 58 1/8
+vc 66 3/8 N 1 61 1/8
+vc 66 3/8 S 1
+vlnOne 66 1/2 N 5 80 1/2
+vlnOne 66 1/2 TIE
+vlnTwo 66 1/2 N 5 68 1/2
+vlnTwo 66 1/2 TIE
+vc 66 1/2 N 2 51 1/2
+cb 66 1/2 N 2 39 1/2
+cb 66 1/2 TIE
+vla 66 3/4 N 1 61 1/4
+vla 66 3/4 N 3 65 1/4
+vlnOne 67 0 N 5 80 1/8
+vlnTwo 67 0 N 5 68 1/8
+vla 67 0 R 1/4
+vc 67 0 N 2 39 1/8
+vc 67 0 S -1
+cb 67 0 N 2 39 1
+vlnOne 67 1/8 N 4 79 1/8
+vlnTwo 67 1/8 N 4 67 1/8
+vc 67 1/8 N 6 46 1/8
+vlnOne 67 1/4 N 3 77 1/8
+vlnTwo 67 1/4 N 3 65 1/8
+vla 67 1/4 N 1 61 1/2
+vla 67 1/4 N 4 67 1/2
+vc 67 1/4 N 1 49 1/8
+vlnOne 67 3/8 N 2 75 1/8
+vlnTwo 67 3/8 N 2 63 1/8
+vc 67 3/8 N 4 55 1/8
+vlnOne 67 1/2 N 1 73 1/4
+vlnTwo 67 1/2 N 1 61 1/4
+vc 67 1/2 N 1 61 1/2
+vc 67 1/2 S 1
+vlnOne 67 3/4 N 6 70 1/4
+vlnOne 67 3/4 S 1
+vlnTwo 67 3/4 N 6 58 1/4
+vlnTwo 67 3/4 S 1
+vla 67 3/4 N 1 61 1/4
+vla 67 3/4 N 4 67 1/4
+vlnOne 68 0 N 5 68 1/2
+vlnOne 68 0 D p
+vlnTwo 68 0 N 5 56 1
+vlnTwo 68 0 D p
+vla 68 0 N 0 60 1
+vla 68 0 N 5 68 1
+vla 68 0 D p
+vc 68 0 N 3 41 1/8
+vc 68 0 S -1
+vc 68 0 D p
+cb 68 0 N 3 41 1
+cb 68 0 D p
+vc 68 1/8 N 0 48 1/8
+vc 68 1/4 N 3 53 1/8
+vc 68 3/8 N 5 56 1/8
+vlnOne 68 1/2 N 5 68 1/16
+vlnOne 68 1/2 S -1
+vlnOne 68 1/2 AR upbow
+vc 68 1/2 N 0 60 1/2
+vc 68 1/2 S 1
+vlnOne 68 9/16 N 0 72 1/16
+vlnOne 68 5/8 N 1 73 1/16
+vlnOne 68 11/16 N 2 75 1/16
+vlnOne 68 3/4 N 3 77 1/16
+vlnOne 68 13/16 N 4 79 1/16
+vlnOne 68 7/8 N 5 80 1/16
+vlnOne 68 15/16 N 6 82 1/16
+vlnOne 68 15/16 S 1
+vlnOne 69 0 N 0 84 3/4
+vlnOne 69 0 TIE
+vlnOne 69 0 S -1
+vlnOne 69 0 AR downbow
+vlnOne 69 0 D f
+vlnTwo 69 0 R 1/8
+vla 69 0 N 0 60 1/8
+vla 69 0 D f
+vla 69 0 S -1
+vla 69 0 TX unis.
+vc 69 0 N 5 56 1/2
+vc 69 0 D f
+vc 69 0 AR downbow
+cb 69 0 N 5 32 1/2
+cb 69 0 D f
+vlnTwo 69 1/8 N 2 63 1/8
+vlnTwo 69 1/8 AR downbow
+vlnTwo 69 1/8 D f
+vlnTwo 69 1/8 S -1
+vla 69 1/8 N 5 56 1/8
+vlnTwo 69 1/4 N 0 72 3/8
+vlnTwo 69 1/4 AR accent
+vlnTwo 69 1/4 S 1
+vla 69 1/4 N 0 60 1/8
+vla 69 3/8 N 2 63 1/8
+vla 69 3/8 S 1
+vla 69 1/2 N 2 63 1/8
+vla 69 1/2 S -1
+vc 69 1/2 N 0 48 1/2
+cb 69 1/2 N 0 36 1/2
+vlnTwo 69 5/8 N 6 70 1/8
+vlnTwo 69 5/8 S -1
+vla 69 5/8 N 0 60 1/8
+vlnOne 69 3/4 N 0 84 1/8
+vlnTwo 69 3/4 N 5 68 1/8
+vla 69 3/4 N 5 56 1/8
+vlnOne 69 7/8 N 6 82 1/8
+vlnTwo 69 7/8 N 4 67 1/8
+vla 69 7/8 N 0 60 1/8
+vla 69 7/8 S 1
+vlnOne 70 0 N 5 80 1/4
+vlnOne 70 0 S 1
+vlnTwo 70 0 N 5 68 1/8
+vla 70 0 N 3 65 1/8
+vla 70 0 S -1
+vc 70 0 N 6 46 1/2
+cb 70 0 N 6 34 1/2
+vlnTwo 70 1/8 N 6 70 1/8
+vla 70 1/8 N 1 61 1/8
+vlnOne 70 1/4 N 3 89 1/2
+vlnOne 70 1/4 AR tenuto
+vlnOne 70 1/4 S -1
+vlnTwo 70 1/4 N 0 72 1/8
+vla 70 1/4 N 6 58 1/8
+vlnTwo 70 3/8 N 1 73 1/8
+vlnTwo 70 3/8 S 1
+vla 70 3/8 N 1 61 1/8
+vla 70 3/8 S 1
+vlnTwo 70 1/2 N 3 77 3/8
+vlnTwo 70 1/2 AR accent
+vla 70 1/2 N 3 65 1/8
+vla 70 1/2 S -1
+vc 70 1/2 N 1 50 1/2
+cb 70 1/2 N 1 38 1/2
+vla 70 5/8 N 5 68 1/8
+vlnOne 70 3/4 N 2 87 1/4
+vlnOne 70 3/4 S 1
+vla 70 3/4 N 0 71 1/8
+vlnTwo 70 7/8 N 2 75 1/8
+vla 70 7/8 N 5 68 1/8
+vla 70 7/8 S 1
+vlnOne 71 0 N 1 85 3/8
+vlnOne 71 0 S -1
+vlnTwo 71 0 N 1 73 1/8
+vlnTwo 71 0 AR upbow
+vlnTwo 71 0 S -1
+vla 71 0 N 4 55 1/8
+vla 71 0 S -1
+vc 71 0 N 2 51 1
+cb 71 0 N 2 39 1
+vlnTwo 71 1/8 N 0 72 1/8
+vla 71 1/8 N 6 58 1/8
+vlnTwo 71 1/4 N 6 70 1/8
+vla 71 1/4 N 1 61 1/8
+vlnOne 71 3/8 N 0 84 1/8
+vlnTwo 71 3/8 N 5 68 1/8
+vlnTwo 71 3/8 S 1
+vla 71 3/8 N 2 63 1/8
+vla 71 3/8 S 1
+vlnOne 71 1/2 N 6 82 1/4
+vlnTwo 71 1/2 N 4 67 3/8
+vlnTwo 71 1/2 AR accent
+vla 71 1/2 N 4 67 1/8
+vla 71 1/2 S -1
+vla 71 5/8 N 2 63 1/8
+vlnOne 71 3/4 N 1 85 1/8
+vla 71 3/4 N 6 58 1/8
+vlnOne 71 7/8 N 3 89 1/8
+vlnOne 71 7/8 S 1
+vlnTwo 71 7/8 N 6 70 1/8
+vla 71 7/8 N 1 61 1/8
+vla 71 7/8 S 1
+vlnOne 72 0 N 5 92 1/4
+vlnOne 72 0 AR accent
+vlnOne 72 0 AR downbow
+vlnTwo 72 0 N 5 68 1/4
+vlnTwo 72 0 AR accent
+vlnTwo 72 0 AR downbow
+vla 72 0 N 0 60 1/4
+vla 72 0 N 2 63 1/4
+vla 72 0 AR accent
+vla 72 0 AR downbow
+vc 72 0 N 5 56 1/4
+vc 72 0 AR accent
+vc 72 0 AR downbow
+cb 72 0 N 5 32 1/4
+cb 72 0 AR accent
+cb 72 0 AR downbow
+vlnOne 72 1/4 N 2 87 1/4
+vlnOne 72 1/4 AR accent
+vlnOne 72 1/4 AR downbow
+vlnTwo 72 1/4 N 0 72 1/4
+vlnTwo 72 1/4 AR accent
+vlnTwo 72 1/4 AR downbow
+vla 72 1/4 N 0 60 1/4
+vla 72 1/4 N 2 63 1/4
+vla 72 1/4 AR accent
+vla 72 1/4 AR downbow
+vc 72 1/4 N 2 51 1/4
+vc 72 1/4 AR accent
+vc 72 1/4 AR downbow
+cb 72 1/4 N 2 39 1/4
+cb 72 1/4 AR accent
+cb 72 1/4 AR downbow
+vlnOne 72 1/2 N 0 84 1/2
+vlnOne 72 1/2 AR accent
+vlnOne 72 1/2 AR downbow
+vlnTwo 72 1/2 N 5 68 1/4
+vlnTwo 72 1/2 AR accent
+vlnTwo 72 1/2 AR downbow
+vla 72 1/2 N 0 60 1/4
+vla 72 1/2 N 2 63 1/4
+vla 72 1/2 AR accent
+vla 72 1/2 AR downbow
+vc 72 1/2 N 5 56 1/2
+vc 72 1/2 D pp
+vc 72 1/2 TIE
+cb 72 1/2 N 5 32 1/2
+cb 72 1/2 D pp
+cb 72 1/2 TIE
+vlnTwo 72 3/4 R 1/4
+vla 72 3/4 R 1/4
+vlnTwo 73 0 N 1 62 1/2
+vlnTwo 73 0 N 3 65 1/2
+vlnTwo 73 0 S -1
+vlnTwo 73 0 D pp
+vlnTwo 73 0 TX div.
+vla 73 0 N 0 59 1/2
+vla 73 0 S -1
+vla 73 0 D pp
+vc 73 0 N 5 56 1
+vc 73 0 TIE
+vc 73 0 TX change bow at will
+cb 73 0 N 5 32 1
+cb 73 0 TIE
+cb 73 0 TX change bow at will
+vlnTwo 73 1/2 N 2 63 1/2
+vlnTwo 73 1/2 S 1
+vlnTwo 73 1/2 TX unis.
+vla 73 1/2 N 0 60 1/2
+vla 73 1/2 S 1
+vlnTwo 74 0 N 2 63 1
+vla 74 0 N 0 60 1
+vc 74 0 N 5 56 1
+vc 74 0 TIE
+cb 74 0 N 5 32 1
+cb 74 0 TIE
+vlnTwo 75 0 N 4 66 1
+vla 75 0 N 0 60 1
+vc 75 0 N 5 56 1
+vc 75 0 TIE
+cb 75 0 N 5 32 1
+cb 75 0 TIE
+vlnTwo 76 0 N 3 64 1
+vla 76 0 N 1 61 1
+vc 76 0 N 5 56 1
+cb 76 0 N 5 32 1
+vlnTwo 77 0 N 2 63 1
+vlnTwo 77 0 TR 32
+vlnTwo 77 0 D p
+vla 77 0 N 2 51 1
+vla 77 0 TR 32
+vla 77 0 D p
+cb 77 0 N 5 32 1
+cb 77 0 D p
+vlnTwo 78 0 N 2 63 1/2
+vlnTwo 78 0 TR 32
+vla 78 0 N 0 59 1/2
+vla 78 0 TR 32
+vc 78 0 R 1/2
+cb 78 0 N 5 32 1/2
+vlnTwo 78 1/2 N 2 64 1/2
+vlnTwo 78 1/2 TR 32
+vla 78 1/2 N 6 59 1/2
+vla 78 1/2 TR 32
+vc 78 1/2 R 1/8
+cb 78 1/2 N 2 40 1/2
+vc 78 5/8 N 6 47 1/8
+vc 78 5/8 D mf
+vc 78 5/8 S -1
+vc 78 3/4 N 4 55 1/4
+vc 78 3/4 AR accent
+vc 78 3/4 TIE
+vlnOne 79 0 R 1/8
+vlnTwo 79 0 N 2 64 1
+vlnTwo 79 0 TR 32
+vla 79 0 N 6 59 1
+vla 79 0 TR 32
+vc 79 0 N 4 55 1/8
+vc 79 0 S 1
+cb 79 0 N 2 40 1
+vlnOne 79 1/8 N 6 71 1/8
+vlnOne 79 1/8 D mf
+vlnOne 79 1/8 S -1
+vc 79 1/8 N 3 54 1/8
+vc 79 1/8 S -1
+vlnOne 79 1/4 N 4 79 3/8
+vlnOne 79 1/4 AR accent
+vlnOne 79 1/4 S 1
+vc 79 1/4 N 3 53 1/8
+vc 79 3/8 N 2 52 1/8
+vc 79 1/2 N 2 52 1/2
+vc 79 1/2 AR tenuto
+vc 79 1/2 S 1
+vlnOne 79 5/8 N 3 78 1/8
+vlnOne 79 5/8 S -1
+vlnOne 79 3/4 N 3 77 1/8
+vlnOne 79 7/8 N 2 76 1/8
+vlnOne 79 7/8 S 1
+vlnOne 80 0 R 1/2
+vlnTwo 80 0 N 2 63 1
+vlnTwo 80 0 TR 32
+vla 80 0 N 0 60 1
+vla 80 0 TR 32
+vc 80 0 R 1/8
+cb 80 0 N 0 36 1
+vc 80 1/8 N 4 43 1/8
+vc 80 1/8 D f
+vc 80 1/4 N 2 51 1/4
+vc 80 1/4 AR accent
+vlnOne 80 1/2 R 1/8
+vc 80 1/2 R 1/2
+vlnOne 80 5/8 N 4 67 1/8
+vlnOne 80 5/8 D f
+vlnOne 80 3/4 N 2 75 1/4
+vlnOne 80 3/4 AR accent
+vlnOne 81 0 R 1/2
+vlnTwo 81 0 N 2 63 1
+vlnTwo 81 0 TR 32
+vla 81 0 N 0 60 1
+vla 81 0 TR 32
+vc 81 0 R 1/8
+cb 81 0 N 0 36 1
+vc 81 1/8 N 4 55 1/8
+vc 81 1/4 N 2 63 1/4
+vc 81 1/4 AR accent
+vlnOne 81 1/2 R 1/8
+vc 81 1/2 R 1/2
+vlnOne 81 5/8 N 4 79 1/8
+vlnOne 81 3/4 N 2 87 1/4
+vlnOne 81 3/4 AR accent
+vlnOne 82 0 R 1/8
+vlnTwo 82 0 R 1/8
+vla 82 0 R 1/8
+vc 82 0 N 5 44 1/2
+vc 82 0 D ff
+cb 82 0 N 5 32 1/8
+cb 82 0 D ff
+vlnOne 82 1/8 N 4 79 1/8
+vlnOne 82 1/8 D ff
+vlnTwo 82 1/8 N 4 67 1/8
+vlnTwo 82 1/8 D ff
+vla 82 1/8 N 4 55 1/8
+vla 82 1/8 D ff
+cb 82 1/8 N 5 32 1/8
+vlnOne 82 1/4 N 2 87 3/8
+vlnOne 82 1/4 AR accent
+vlnTwo 82 1/4 N 2 75 3/8
+vlnTwo 82 1/4 AR accent
+vla 82 1/4 N 2 63 3/8
+vla 82 1/4 AR accent
+cb 82 1/4 N 5 32 1/8
+cb 82 3/8 N 5 32 1/8
+vc 82 1/2 N 5 44 1/2
+cb 82 1/2 N 5 32 1/8
+vlnOne 82 5/8 N 1 86 1/8
+vlnTwo 82 5/8 N 1 74 1/8
+vla 82 5/8 N 1 62 1/8
+cb 82 5/8 N 5 32 1/8
+vlnOne 82 3/4 N 1 85 1/8
+vlnTwo 82 3/4 N 1 73 1/8
+vla 82 3/4 N 1 61 1/8
+cb 82 3/4 N 5 32 1/8
+vlnOne 82 7/8 N 0 84 1/8
+vlnTwo 82 7/8 N 0 72 1/8
+vla 82 7/8 N 0 60 1/8
+cb 82 7/8 N 5 32 1/8
+vlnOne 83 0 N 6 71 1/4
+vlnOne 83 0 N 5 80 1/4
+vlnOne 83 0 AR accent
+vlnOne 83 0 AR downbow
+vlnTwo 83 0 N 1 74 1/4
+vlnTwo 83 0 N 3 77 1/4
+vlnTwo 83 0 AR accent
+vlnTwo 83 0 AR downbow
+vla 83 0 N 6 59 1/4
+vla 83 0 N 3 65 1/4
+vla 83 0 AR accent
+vla 83 0 AR downbow
+vc 83 0 N 4 43 1/4
+vc 83 0 AR accent
+vc 83 0 AR downbow
+cb 83 0 N 4 31 1/2
+cb 83 0 AR accent
+cb 83 0 AR downbow
+vlnOne 83 1/4 R 1/4
+vlnTwo 83 1/4 R 1/4
+vla 83 1/4 R 1/4
+vc 83 1/4 R 1/4
+vlnOne 83 1/2 N 6 71 1/4
+vlnOne 83 1/2 N 5 80 1/4
+vlnOne 83 1/2 AR accent
+vlnOne 83 1/2 AR downbow
+vlnTwo 83 1/2 N 1 74 1/4
+vlnTwo 83 1/2 N 3 77 1/4
+vlnTwo 83 1/2 AR accent
+vlnTwo 83 1/2 AR downbow
+vla 83 1/2 N 6 59 1/4
+vla 83 1/2 N 3 65 1/4
+vla 83 1/2 AR accent
+vla 83 1/2 AR downbow
+vc 83 1/2 N 4 43 1/4
+vc 83 1/2 AR accent
+vc 83 1/2 AR downbow
+cb 83 1/2 N 4 31 1/2
+cb 83 1/2 AR accent
+cb 83 1/2 AR downbow
+vlnOne 83 3/4 R 1/4
+vlnTwo 83 3/4 R 1/4
+vla 83 3/4 R 1/4
+vc 83 3/4 R 1/4
+vc 84 0 N 4 43 1
+vc 84 0 D (#<procedure line-markup (a b c)> ((#<procedure line-markup (a b c)> ((#<procedure normal-text-markup (a b c)> (#<procedure italic-markup (a b c)> sub.)) (#<procedure dynamic-markup (a b c)> p)))))
+cb 84 0 N 4 31 3/4
+cb 84 0 D (#<procedure line-markup (a b c)> ((#<procedure line-markup (a b c)> ((#<procedure normal-text-markup (a b c)> (#<procedure italic-markup (a b c)> sub.)) (#<procedure dynamic-markup (a b c)> p)))))
+cb 84 3/4 R 1/4
+vc 85 0 R 1/8
+vc 85 1/8 N 1 50 1/8
+vc 85 1/8 D mf
+vc 85 1/4 N 6 58 3/8
+vc 85 1/4 AR accent
+vc 85 5/8 N 5 57 1/8
+vc 85 5/8 AR staccato
+vc 85 3/4 N 5 56 1/8
+vc 85 3/4 AR staccato
+vc 85 7/8 N 4 55 1/8
+vc 85 7/8 AR staccato
+vc 86 0 N 4 55 1/4
+vc 86 1/4 N 3 54 1/8
+vc 86 1/4 S -1
+vc 86 3/8 N 4 55 1/8
+vc 86 3/8 S 1
+vc 86 1/2 N 2 51 3/8
+vc 86 1/2 AR accent
+vc 86 7/8 N 1 50 1/8
+vc 86 7/8 AR staccato
+vc 87 0 N 4 55 1/4
+vc 87 0 AR staccato
+vc 87 1/4 N 5 57 1/4
+vc 87 1/4 AR staccato
+vc 87 1/2 N 6 58 1/4
+vc 87 1/2 AR staccato
+vc 87 3/4 N 6 59 1/4
+vc 87 3/4 AR staccato
+vla 88 0 R 1/8
+vc 88 0 N 0 60 3/8
+vc 88 0 D mp
+vla 88 1/8 N 4 55 1/8
+vla 88 1/8 D mf
+vla 88 1/4 N 2 63 3/8
+vla 88 1/4 AR accent
+vc 88 3/8 N 1 62 1/8
+vc 88 1/2 N 2 63 1/8
+vc 88 1/2 S -1
+vla 88 5/8 N 1 62 1/8
+vla 88 5/8 AR staccato
+vc 88 5/8 N 3 65 1/8
+vc 88 5/8 S 1
+vla 88 3/4 N 1 61 1/8
+vla 88 3/4 AR staccato
+vc 88 3/4 N 4 67 1/4
+vla 88 7/8 N 0 60 1/8
+vla 88 7/8 AR staccato
+vla 89 0 N 0 60 1/4
+vc 89 0 N 2 63 1/2
+vc 89 0 S -1
+vla 89 1/4 N 6 59 1/8
+vla 89 1/4 S -1
+vla 89 3/8 N 0 60 1/8
+vla 89 3/8 S 1
+vla 89 1/2 N 5 56 3/8
+vla 89 1/2 AR accent
+vc 89 1/2 N 3 65 1/8
+vc 89 5/8 N 2 63 1/8
+vc 89 3/4 N 1 62 1/8
+vla 89 7/8 N 4 55 1/8
+vla 89 7/8 AR staccato
+vc 89 7/8 N 2 63 1/8
+vc 89 7/8 S 1
+vla 90 0 N 0 60 1/4
+vla 90 0 AR staccato
+vc 90 0 N 5 56 1/2
+cb 90 0 N 5 44 1/2
+cb 90 0 D mf
+vla 90 1/4 N 1 62 1/4
+vla 90 1/4 AR staccato
+vla 90 1/2 N 2 63 1/4
+vla 90 1/2 AR staccato
+vc 90 1/2 N 4 55 1/2
+cb 90 1/2 N 4 43 1/2
+vla 90 3/4 N 2 64 1/4
+vla 90 3/4 AR staccato
+vlnTwo 91 0 R 1/8
+vla 91 0 N 3 65 3/8
+vla 91 0 D f
+vc 91 0 R 1/4
+cb 91 0 N 3 41 1
+cb 91 0 D f
+vlnTwo 91 1/8 N 0 72 1/8
+vlnTwo 91 1/8 D f
+vlnTwo 91 1/4 N 5 80 3/8
+vlnTwo 91 1/4 AR accent
+vc 91 1/4 N 0 60 1/2
+vc 91 1/4 D f
+vla 91 3/8 N 4 67 1/8
+vla 91 1/2 N 5 68 1/8
+vla 91 1/2 S -1
+vlnTwo 91 5/8 N 4 79 1/8
+vlnTwo 91 5/8 AR staccato
+vla 91 5/8 N 6 70 1/8
+vla 91 5/8 S 1
+vlnTwo 91 3/4 N 4 78 1/8
+vlnTwo 91 3/4 AR staccato
+vla 91 3/4 N 0 72 1/4
+vc 91 3/4 N 2 63 1/4
+vc 91 3/4 TIE
+vc 91 3/4 S -1
+vlnTwo 91 7/8 N 3 77 1/8
+vlnTwo 91 7/8 AR staccato
+vlnTwo 92 0 N 3 77 1/4
+vla 92 0 N 5 68 1/2
+vla 92 0 S -1
+vc 92 0 N 2 63 1/4
+cb 92 0 N 6 34 1/2
+vlnTwo 92 1/4 N 2 76 1/8
+vlnTwo 92 1/4 S -1
+vc 92 1/4 N 1 61 1/4
+vc 92 1/4 S 1
+vlnTwo 92 3/8 N 3 77 1/8
+vlnTwo 92 3/8 S 1
+vlnTwo 92 1/2 N 1 73 3/8
+vlnTwo 92 1/2 AR accent
+vla 92 1/2 N 6 70 1/8
+vc 92 1/2 N 0 60 1/2
+vc 92 1/2 TIE
+vc 92 1/2 S -1
+cb 92 1/2 N 0 36 1/2
+vla 92 5/8 N 5 68 1/8
+vla 92 3/4 N 4 67 1/8
+vlnTwo 92 7/8 N 0 72 1/8
+vlnTwo 92 7/8 AR staccato
+vla 92 7/8 N 5 68 1/8
+vla 92 7/8 S 1
+vlnTwo 93 0 N 3 77 1/4
+vlnTwo 93 0 AR staccato
+vla 93 0 N 3 65 1
+vc 93 0 N 0 60 1/4
+cb 93 0 N 1 37 1/2
+vlnTwo 93 1/4 N 4 79 1/4
+vlnTwo 93 1/4 AR staccato
+vc 93 1/4 N 6 58 1/4
+vc 93 1/4 S 1
+vlnTwo 93 1/2 N 5 80 1/4
+vlnTwo 93 1/2 AR staccato
+vc 93 1/2 N 3 53 1/2
+cb 93 1/2 N 0 36 1/2
+vlnTwo 93 3/4 N 5 81 1/4
+vlnTwo 93 3/4 AR staccato
+vlnOne 94 0 R 1/8
+vlnTwo 94 0 N 6 70 3/8
+vla 94 0 N 3 65 3/4
+vla 94 0 S -1
+vc 94 0 N 6 58 1/2
+vc 94 0 D f
+cb 94 0 N 6 34 1
+vlnOne 94 1/8 N 3 77 1/8
+vlnOne 94 1/8 D f
+vlnOne 94 1/4 N 1 85 3/8
+vlnOne 94 1/4 AR accent
+vlnTwo 94 3/8 N 0 72 1/8
+vlnTwo 94 1/2 N 1 73 1/8
+vlnTwo 94 1/2 S -1
+vc 94 1/2 N 6 58 1/2
+vc 94 1/2 TIE
+vlnOne 94 5/8 N 0 84 1/8
+vlnOne 94 5/8 AR staccato
+vlnTwo 94 5/8 N 2 75 1/8
+vlnTwo 94 5/8 S 1
+vlnOne 94 3/4 N 0 83 1/8
+vlnOne 94 3/4 AR staccato
+vlnTwo 94 3/4 N 3 77 1/4
+vla 94 3/4 N 5 68 1/4
+vla 94 3/4 TIE
+vlnOne 94 7/8 N 6 82 1/8
+vlnOne 94 7/8 AR staccato
+vlnOne 95 0 N 6 82 1/4
+vlnTwo 95 0 N 1 73 1/2
+vlnTwo 95 0 S -1
+vla 95 0 N 5 68 1/4
+vc 95 0 N 6 58 1/2
+cb 95 0 N 2 39 1/2
+vlnOne 95 1/4 N 5 81 1/8
+vlnOne 95 1/4 S -1
+vla 95 1/4 N 4 66 1/4
+vlnOne 95 3/8 N 6 82 1/8
+vlnOne 95 3/8 S 1
+vlnOne 95 1/2 N 4 78 3/8
+vlnOne 95 1/2 AR accent
+vlnTwo 95 1/2 N 2 75 1/8
+vla 95 1/2 N 3 65 1/2
+vla 95 1/2 S 1
+vc 95 1/2 N 1 49 1/2
+cb 95 1/2 N 3 41 1/2
+vlnTwo 95 5/8 N 1 73 1/8
+vlnTwo 95 3/4 N 0 72 1/8
+vlnOne 95 7/8 N 3 77 1/8
+vlnOne 95 7/8 AR staccato
+vlnTwo 95 7/8 N 1 73 1/8
+vlnTwo 95 7/8 S 1
+vlnOne 96 0 R 1/8
+vlnTwo 96 0 R 1/8
+vla 96 0 R 1/8
+vc 96 0 R 3/8
+cb 96 0 N 6 34 1/4
+vlnOne 96 1/8 N 3 77 1/8
+vlnTwo 96 1/8 N 1 73 1/8
+vla 96 1/8 N 1 61 1/8
+vlnOne 96 1/4 N 1 85 3/8
+vlnOne 96 1/4 AR accent
+vlnTwo 96 1/4 N 6 82 3/8
+vlnTwo 96 1/4 AR accent
+vlnTwo 96 1/4 D ff
+vla 96 1/4 N 6 70 3/8
+vla 96 1/4 AR accent
+vla 96 1/4 D ff
+cb 96 1/4 R 1/4
+vc 96 3/8 N 3 53 1/8
+vc 96 1/2 N 1 61 3/8
+vc 96 1/2 AR accent
+cb 96 1/2 N 6 34 1/4
+vlnOne 96 5/8 N 0 84 1/8
+vlnOne 96 5/8 AR staccato
+vlnTwo 96 5/8 N 5 81 1/8
+vlnTwo 96 5/8 AR staccato
+vla 96 5/8 N 5 69 1/8
+vla 96 5/8 AR staccato
+vlnOne 96 3/4 N 0 83 1/8
+vlnOne 96 3/4 AR staccato
+vlnTwo 96 3/4 N 5 80 1/4
+vla 96 3/4 N 5 68 1/4
+cb 96 3/4 R 1/4
+vlnOne 96 7/8 N 6 82 1/8
+vlnOne 96 7/8 AR staccato
+vc 96 7/8 N 0 60 1/8
+vlnOne 97 0 R 3/4
+vlnTwo 97 0 R 1
+vla 97 0 N 6 71 1/8
+vla 97 0 D f
+vc 97 0 N 6 47 3/4
+vc 97 0 D ff
+cb 97 0 N 6 35 1
+cb 97 0 D ff
+vla 97 1/8 N 3 66 1/8
+vla 97 1/4 N 1 62 1/8
+vla 97 3/8 N 3 66 1/8
+vla 97 1/2 N 6 71 1/8
+vla 97 5/8 N 3 66 1/8
+vlnOne 97 3/4 N 3 66 1/4
+vlnOne 97 3/4 S -1
+vlnOne 97 3/4 D ff
+vla 97 3/4 N 1 62 1/8
+vc 97 3/4 N 3 54 1/4
+vc 97 3/4 S -1
+vla 97 7/8 N 3 66 1/8
+vlnOne 98 0 N 1 74 3/4
+vlnOne 98 0 TIE
+vlnTwo 98 0 N 1 62 3/4
+vlnTwo 98 0 TIE
+vlnTwo 98 0 S -1
+vlnTwo 98 0 D ff
+vlnTwo 98 0 AR upbow
+vla 98 0 N 3 66 1/8
+vc 98 0 N 1 62 3/4
+vc 98 0 TIE
+cb 98 0 N 6 35 1
+vla 98 1/8 N 1 62 1/8
+vla 98 1/4 N 6 59 1/8
+vla 98 3/8 N 1 62 1/8
+vla 98 1/2 N 3 66 1/8
+vla 98 5/8 N 1 62 1/8
+vlnOne 98 3/4 N 1 74 1/8
+vlnTwo 98 3/4 N 1 62 1/8
+vla 98 3/4 N 6 59 1/8
+vc 98 3/4 N 1 62 1/8
+vlnOne 98 7/8 N 0 73 1/8
+vlnOne 98 7/8 S 1
+vlnTwo 98 7/8 N 0 61 1/8
+vlnTwo 98 7/8 S 1
+vla 98 7/8 N 1 62 1/8
+vc 98 7/8 N 0 61 1/8
+vc 98 7/8 S 1
+vlnOne 99 0 N 6 71 1/4
+vlnOne 99 0 S -1
+vlnTwo 99 0 N 6 59 1/4
+vlnTwo 99 0 S -1
+vla 99 0 N 6 71 1/8
+vc 99 0 N 6 59 1/4
+vc 99 0 S -1
+cb 99 0 N 2 40 1
+vla 99 1/8 N 4 67 1/8
+vlnOne 99 1/4 N 4 79 1/2
+vlnOne 99 1/4 AR tenuto
+vlnTwo 99 1/4 N 4 67 1/2
+vlnTwo 99 1/4 AR tenuto
+vla 99 1/4 N 2 64 1/8
+vc 99 1/4 N 4 67 1/2
+vc 99 1/4 AR tenuto
+vla 99 3/8 N 4 67 1/8
+vla 99 1/2 N 6 71 1/8
+vla 99 5/8 N 4 67 1/8
+vlnOne 99 3/4 N 3 78 1/4
+vlnOne 99 3/4 S 1
+vlnTwo 99 3/4 N 3 66 1/4
+vlnTwo 99 3/4 S 1
+vla 99 3/4 N 2 64 1/8
+vc 99 3/4 N 3 66 1/4
+vc 99 3/4 S 1
+vla 99 7/8 N 4 67 1/8
+vlnOne 100 0 N 2 76 3/8
+vlnOne 100 0 S -1
+vlnTwo 100 0 N 2 64 3/8
+vlnTwo 100 0 S -1
+vla 100 0 N 4 67 1/8
+vc 100 0 N 2 64 3/8
+vc 100 0 S -1
+cb 100 0 N 0 37 1
+vla 100 1/8 N 2 64 1/8
+vla 100 1/4 N 0 61 1/8
+vlnOne 100 3/8 N 1 74 1/8
+vlnTwo 100 3/8 N 1 62 1/8
+vla 100 3/8 N 2 64 1/8
+vc 100 3/8 N 1 62 1/8
+vlnOne 100 1/2 N 0 73 1/4
+vlnTwo 100 1/2 N 0 61 1/4
+vla 100 1/2 N 4 67 1/8
+vc 100 1/2 N 0 61 1/4
+vla 100 5/8 N 2 64 1/8
+vlnOne 100 3/4 N 2 76 1/8
+vlnTwo 100 3/4 N 2 64 1/8
+vla 100 3/4 N 0 61 1/8
+vc 100 3/4 N 2 64 1/8
+vlnOne 100 7/8 N 4 79 1/8
+vlnOne 100 7/8 S 1
+vlnTwo 100 7/8 N 4 67 1/8
+vlnTwo 100 7/8 S 1
+vla 100 7/8 N 2 64 1/8
+vc 100 7/8 N 4 67 1/8
+vc 100 7/8 S 1
+vlnOne 101 0 N 6 83 1/2
+vlnOne 101 0 AR tenuto
+vlnOne 101 0 S -1
+vlnTwo 101 0 N 6 71 1/2
+vlnTwo 101 0 AR tenuto
+vlnTwo 101 0 S -1
+vla 101 0 N 6 71 1/8
+vc 101 0 N 6 71 1/2
+vc 101 0 AR tenuto
+vc 101 0 S -1
+cb 101 0 N 3 30 1
+vla 101 1/8 N 2 64 1/8
+vla 101 1/4 N 0 61 1/8
+vla 101 3/8 N 2 64 1/8
+vlnOne 101 1/2 N 5 82 1/2
+vlnOne 101 1/2 S 1
+vlnTwo 101 1/2 N 5 70 1/2
+vlnTwo 101 1/2 S 1
+vla 101 1/2 N 5 70 1/8
+vc 101 1/2 N 5 70 1/2
+vc 101 1/2 S 1
+vla 101 5/8 N 2 64 1/8
+vla 101 3/4 N 0 61 1/8
+vla 101 7/8 N 2 64 1/8
+vlnOne 102 0 N 3 78 1/4
+vlnOne 102 0 S -1
+vlnTwo 102 0 N 3 66 1/4
+vlnTwo 102 0 S -1
+vla 102 0 N 6 71 1/8
+vc 102 0 N 3 66 1/4
+vc 102 0 S -1
+cb 102 0 N 3 30 3/4
+vla 102 1/8 N 3 66 1/8
+vlnOne 102 1/4 N 1 86 1/2
+vlnOne 102 1/4 AR tenuto
+vlnTwo 102 1/4 N 1 74 1/2
+vlnTwo 102 1/4 AR tenuto
+vla 102 1/4 N 1 62 1/8
+vc 102 1/4 N 1 74 1/2
+vc 102 1/4 AR tenuto
+vla 102 3/8 N 3 66 1/8
+vla 102 1/2 N 5 70 1/8
+vla 102 5/8 N 2 64 1/8
+vlnOne 102 3/4 N 0 85 1/8
+vlnTwo 102 3/4 N 0 73 1/8
+vla 102 3/4 N 0 61 1/8
+vc 102 3/4 N 0 73 1/8
+cb 102 3/4 R 1/4
+vlnOne 102 7/8 N 4 80 1/8
+vlnOne 102 7/8 S 1
+vlnTwo 102 7/8 N 4 68 1/8
+vlnTwo 102 7/8 S 1
+vla 102 7/8 N 2 64 1/8
+vc 102 7/8 N 4 68 1/8
+vc 102 7/8 S 1
+vc 103 0 N 3 53 3/4
+vc 103 0 TIE
+vc 103 0 S -1
+vc 103 0 D mf
+cb 103 0 N 1 38 1/4
+cb 103 0 D f
+cb 103 0 TX pizz.
+cb 103 1/4 R 1/4
+cb 103 1/2 R 1/2
+vc 103 3/4 N 3 53 1/8
+vc 103 7/8 N 2 52 1/8
+vc 104 0 N 1 50 1/4
+cb 104 0 N 1 38 1/4
+vc 104 1/4 N 6 58 1/2
+vc 104 1/4 AR tenuto
+cb 104 1/4 N 4 43 1/4
+cb 104 1/2 R 1/4
+vc 104 3/4 N 5 57 1/4
+vc 104 3/4 S 1
+cb 104 3/4 N 5 45 1/4
+vc 105 0 N 4 55 3/8
+vc 105 0 S -1
+cb 105 0 N 6 34 1/4
+cb 105 1/4 R 1/4
+vc 105 3/8 N 3 53 1/8
+vc 105 1/2 N 2 52 1/4
+cb 105 1/2 N 0 36 1/4
+vc 105 3/4 N 4 55 1/8
+cb 105 3/4 R 1/4
+vc 105 7/8 N 6 59 1/8
+vc 106 0 N 2 64 1/2
+cb 106 0 N 6 35 1/4
+cb 106 1/4 R 1/4
+vc 106 1/2 N 1 63 1/2
+vc 106 1/2 S 1
+cb 106 1/2 R 1/2
+vlnTwo 107 0 N 2 64 1
+vlnTwo 107 0 D pp
+vlnTwo 107 0 TX div.
+vlnTwo 107 0 N 6 59 1
+vlnTwo 107 0 D pp
+vla 107 0 N 4 67 3/4
+vla 107 0 TIE
+vla 107 0 S -1
+vla 107 0 D p
+vla 107 0 TX espr.
+cb 107 0 N 2 40 1/4
+cb 107 0 D p
+cb 107 1/4 R 1/4
+cb 107 1/2 R 1/2
+vla 107 3/4 N 4 67 1/8
+vla 107 7/8 N 3 66 1/8
+vlnTwo 108 0 N 2 64 1/2
+vlnTwo 108 0 S -1
+vlnTwo 108 0 N 4 55 1/4
+vlnTwo 108 0 S -1
+vla 108 0 N 2 64 1/4
+cb 108 0 N 2 40 1/4
+vlnTwo 108 1/4 N 5 57 3/4
+vlnTwo 108 1/4 S 1
+vla 108 1/4 N 0 72 1/2
+vla 108 1/4 AR tenuto
+cb 108 1/4 R 1/4
+vlnTwo 108 1/2 N 1 63 1/2
+vlnTwo 108 1/2 S 1
+cb 108 1/2 N 6 35 1/4
+vla 108 3/4 N 6 71 1/4
+vla 108 3/4 S 1
+cb 108 3/4 R 1/4
+vlnTwo 109 0 N 3 65 1
+vlnTwo 109 0 S -1
+vlnTwo 109 0 N 6 58 1/2
+vlnTwo 109 0 S -1
+vla 109 0 N 1 73 3/8
+vla 109 0 S -1
+cb 109 0 N 6 34 1/4
+cb 109 1/4 R 1/4
+vla 109 3/8 N 0 72 1/8
+vlnTwo 109 1/2 N 1 61 1/2
+vla 109 1/2 N 6 70 1/4
+cb 109 1/2 R 1/2
+vla 109 3/4 N 1 73 1/8
+vla 109 7/8 N 3 77 1/8
+vlnTwo 110 0 N 3 65 1/2
+vlnTwo 110 0 N 0 60 1
+vlnTwo 110 0 S 1
+vla 110 0 N 5 80 1/2
+vla 110 0 AR tenuto
+vc 110 0 N 0 48 1/2
+vc 110 0 D p
+cb 110 0 N 0 36 1
+cb 110 0 D p
+cb 110 0 AR upbow
+cb 110 0 TX arco
+vlnTwo 110 1/2 N 2 64 1/2
+vlnTwo 110 1/2 S 1
+vla 110 1/2 N 4 79 1/4
+vc 110 1/2 N 4 55 1/2
+vla 110 3/4 N 0 72 1/4
+vla 110 3/4 S 1
+vlnOne 111 0 N 5 80 3/4
+vlnOne 111 0 TIE
+vlnOne 111 0 S -1
+vlnOne 111 0 D mp
+vlnTwo 111 0 N 0 60 1
+vlnTwo 111 0 N 3 65 1
+vlnTwo 111 0 TR 32
+vlnTwo 111 0 D mp
+vla 111 0 N 0 60 1/8
+vla 111 0 D mp
+vc 111 0 N 3 53 1
+vc 111 0 D mp
+cb 111 0 N 3 41 1
+cb 111 0 D mp
+vla 111 1/8 N 0 60 1/8
+vla 111 1/4 N 6 59 1/8
+vla 111 1/4 S -1
+vla 111 3/8 N 0 60 1/8
+vla 111 3/8 S 1
+vla 111 1/2 N 0 60 1/8
+vla 111 5/8 N 0 60 1/8
+vlnOne 111 3/4 N 5 80 1/8
+vla 111 3/4 N 6 59 1/8
+vla 111 3/4 S -1
+vlnOne 111 7/8 N 4 79 1/8
+vlnOne 111 7/8 S 1
+vla 111 7/8 N 0 60 1/8
+vla 111 7/8 S 1
+vlnOne 112 0 N 6 82 3/4
+vlnOne 112 0 TIE
+vlnOne 112 0 S -1
+vlnTwo 112 0 N 4 67 1
+vlnTwo 112 0 N 6 70 1
+vlnTwo 112 0 TR 32
+vla 112 0 N 0 60 1/8
+vc 112 0 N 4 55 1
+cb 112 0 N 2 40 1
+vla 112 1/8 N 0 60 1/8
+vla 112 1/4 N 6 58 1/8
+vla 112 1/4 S -1
+vla 112 3/8 N 0 60 1/8
+vla 112 3/8 S 1
+vla 112 1/2 N 0 60 1/8
+vla 112 5/8 N 0 60 1/8
+vlnOne 112 3/4 N 6 82 1/8
+vla 112 3/4 N 6 58 1/8
+vla 112 3/4 S -1
+vlnOne 112 7/8 N 5 81 1/8
+vlnOne 112 7/8 S 1
+vla 112 7/8 N 0 60 1/8
+vla 112 7/8 S 1
+vlnOne 113 0 N 0 84 3/4
+vlnOne 113 0 TIE
+vlnOne 113 0 S -1
+vlnTwo 113 0 N 4 67 1
+vlnTwo 113 0 N 0 72 1
+vlnTwo 113 0 TR 32
+vla 113 0 N 0 60 1/8
+vc 113 0 N 4 55 1
+vc 113 0 TIE
+cb 113 0 N 2 39 1
+vla 113 1/8 N 0 60 1/8
+vla 113 1/4 N 6 59 1/8
+vla 113 1/4 S -1
+vla 113 3/8 N 0 60 1/8
+vla 113 3/8 S 1
+vla 113 1/2 N 0 60 1/8
+vla 113 5/8 N 0 60 1/8
+vlnOne 113 3/4 N 0 84 1/8
+vla 113 3/4 N 6 59 1/8
+vla 113 3/4 S -1
+vlnOne 113 7/8 N 6 83 1/8
+vlnOne 113 7/8 S 1
+vla 113 7/8 N 0 60 1/8
+vla 113 7/8 S 1
+vlnOne 114 0 N 0 84 3/8
+vlnOne 114 0 S -1
+vlnTwo 114 0 N 4 67 1/4
+vlnTwo 114 0 N 0 72 1/4
+vlnTwo 114 0 TR 32
+vla 114 0 N 0 60 1/8
+vc 114 0 N 4 55 1/4
+cb 114 0 N 1 38 1
+vla 114 1/8 N 0 60 1/8
+vlnTwo 114 1/4 N 3 65 1/4
+vlnTwo 114 1/4 N 0 72 1/4
+vlnTwo 114 1/4 TR 32
+vla 114 1/4 N 6 59 1/8
+vla 114 1/4 S -1
+vc 114 1/4 N 3 53 3/4
+vlnOne 114 3/8 N 6 83 1/8
+vla 114 3/8 N 0 60 1/8
+vla 114 3/8 S 1
+vlnOne 114 1/2 N 3 77 1/4
+vlnTwo 114 1/2 N 3 65 1/2
+vlnTwo 114 1/2 N 6 71 1/2
+vlnTwo 114 1/2 TR 32
+vla 114 1/2 N 5 56 1/8
+vla 114 5/8 N 5 56 1/8
+vlnOne 114 3/4 N 5 80 1/8
+vla 114 3/4 N 4 55 1/8
+vla 114 3/4 S -1
+vlnOne 114 7/8 N 0 84 1/8
+vlnOne 114 7/8 S 1
+vla 114 7/8 N 5 56 1/8
+vla 114 7/8 S 1
+vlnOne 115 0 N 1 85 1/4
+vlnTwo 115 0 N 3 65 1/2
+vlnTwo 115 0 N 6 70 1/2
+vlnTwo 115 0 TR 32
+vla 115 0 N 5 56 1/8
+vc 115 0 N 3 53 1
+cb 115 0 N 1 37 1
+vla 115 1/8 N 5 56 1/8
+vlnOne 115 1/4 N 0 84 1/4
+vla 115 1/4 N 6 58 1/8
+vla 115 1/4 S -1
+vla 115 3/8 N 5 56 1/8
+vla 115 3/8 S 1
+vlnOne 115 1/2 N 1 85 1/4
+vlnTwo 115 1/2 N 3 65 1/2
+vlnTwo 115 1/2 N 5 68 1/2
+vlnTwo 115 1/2 TR 32
+vla 115 1/2 N 5 56 1/8
+vla 115 5/8 N 5 56 1/8
+vlnOne 115 3/4 N 2 87 1/4
+vla 115 3/4 N 6 58 1/8
+vla 115 3/4 S -1
+vla 115 7/8 N 5 56 1/8
+vla 115 7/8 S 1
+vlnOne 116 0 N 1 86 1
+vlnTwo 116 0 N 3 66 1
+vlnTwo 116 0 N 5 68 1
+vlnTwo 116 0 TR 32
+vla 116 0 N 0 60 1/8
+vc 116 0 N 3 54 1
+cb 116 0 N 0 36 1
+vla 116 1/8 N 0 60 1/8
+vla 116 1/4 N 6 59 1/8
+vla 116 1/4 S -1
+vla 116 3/8 N 0 60 1/8
+vla 116 3/8 S 1
+vla 116 1/2 N 0 60 1/8
+vla 116 5/8 N 0 60 1/8
+vla 116 3/4 N 6 59 1/8
+vla 116 3/4 S -1
+vla 116 7/8 N 0 60 1/8
+vla 116 7/8 S 1
+vlnOne 117 0 R 1/8
+vlnTwo 117 0 R 1/8
+vlnTwo 117 0 TX unis.
+vla 117 0 N 6 59 1/12
+vla 117 0 D f
+vc 117 0 N 4 43 1
+vc 117 0 TR 16
+vc 117 0 D f
+cb 117 0 N 4 31 1
+cb 117 0 D ff
+cb 117 0 TIE
+cb 117 0 TX change bow at will
+vla 117 1/12 N 1 62 1/12
+vlnOne 117 1/8 N 6 71 1/8
+vlnOne 117 1/8 D ff
+vlnTwo 117 1/8 N 6 59 1/8
+vlnTwo 117 1/8 D ff
+vla 117 1/6 N 3 65 1/12
+vlnOne 117 1/4 N 5 80 3/8
+vlnOne 117 1/4 AR accent
+vlnTwo 117 1/4 N 5 68 3/8
+vlnTwo 117 1/4 AR accent
+vla 117 1/4 N 6 59 1/12
+vla 117 1/3 N 1 62 1/12
+vla 117 5/12 N 3 65 1/12
+vla 117 1/2 N 6 59 1/12
+vla 117 7/12 N 1 62 1/12
+vlnOne 117 5/8 N 4 79 1/8
+vlnTwo 117 5/8 N 4 67 1/8
+vla 117 2/3 N 3 65 1/12
+vlnOne 117 3/4 N 3 77 1/8
+vlnTwo 117 3/4 N 3 65 1/8
+vla 117 3/4 N 6 59 1/12
+vla 117 5/6 N 1 62 1/12
+vlnOne 117 7/8 N 1 74 1/8
+vlnTwo 117 7/8 N 1 62 1/8
+vla 117 11/12 N 3 65 1/12
+vlnOne 118 0 R 1/8
+vlnTwo 118 0 R 1/8
+vla 118 0 N 0 60 1/12
+vc 118 0 N 4 43 1
+vc 118 0 TR 16
+cb 118 0 N 4 31 1
+cb 118 0 TIE
+vla 118 1/12 N 2 63 1/12
+vlnOne 118 1/8 N 2 75 1/8
+vlnTwo 118 1/8 N 2 63 1/8
+vla 118 1/6 N 4 67 1/12
+vlnOne 118 1/4 N 0 84 3/8
+vlnOne 118 1/4 AR accent
+vlnTwo 118 1/4 N 0 72 3/8
+vlnTwo 118 1/4 AR accent
+vla 118 1/4 N 0 60 1/12
+vla 118 1/3 N 2 63 1/12
+vla 118 5/12 N 4 67 1/12
+vla 118 1/2 N 0 60 1/12
+vla 118 7/12 N 2 63 1/12
+vlnOne 118 5/8 N 6 83 1/8
+vlnTwo 118 5/8 N 6 71 1/8
+vla 118 2/3 N 4 67 1/12
+vlnOne 118 3/4 N 0 84 1/8
+vlnTwo 118 3/4 N 0 72 1/8
+vla 118 3/4 N 0 60 1/12
+vla 118 5/6 N 2 63 1/12
+vlnOne 118 7/8 N 4 79 1/8
+vlnTwo 118 7/8 N 4 67 1/8
+vla 118 11/12 N 4 67 1/12
+vlnOne 119 0 R 1/8
+vlnTwo 119 0 R 1/8
+vla 119 0 N 6 59 1/12
+vc 119 0 N 4 43 1
+vc 119 0 TR 16
+cb 119 0 N 4 31 1
+cb 119 0 TIE
+vla 119 1/12 N 2 63 1/12
+vlnOne 119 1/8 N 1 74 1/8
+vlnTwo 119 1/8 N 1 62 1/8
+vla 119 1/6 N 3 65 1/12
+vlnOne 119 1/4 N 6 83 1/4
+vlnOne 119 1/4 AR accent
+vlnTwo 119 1/4 N 6 71 1/4
+vlnTwo 119 1/4 AR accent
+vla 119 1/4 N 6 59 1/12
+vla 119 1/3 N 2 63 1/12
+vla 119 5/12 N 3 65 1/12
+vlnOne 119 1/2 R 1/8
+vlnTwo 119 1/2 R 1/8
+vla 119 1/2 N 6 59 1/12
+vla 119 7/12 N 2 63 1/12
+vlnOne 119 5/8 N 3 77 1/8
+vlnTwo 119 5/8 N 3 65 1/8
+vla 119 2/3 N 3 65 1/12
+vlnOne 119 3/4 N 1 86 1/4
+vlnOne 119 3/4 AR accent
+vlnTwo 119 3/4 N 1 74 1/4
+vlnTwo 119 3/4 AR accent
+vla 119 3/4 N 6 59 1/12
+vla 119 5/6 N 1 62 1/12
+vla 119 11/12 N 3 65 1/12
+vlnOne 120 0 R 1/8
+vlnTwo 120 0 R 1/8
+vla 120 0 N 6 58 1/12
+vc 120 0 N 4 43 1
+vc 120 0 TR 16
+cb 120 0 N 4 31 1
+cb 120 0 TIE
+vla 120 1/12 N 1 61 1/12
+vlnOne 120 1/8 N 3 77 1/8
+vlnTwo 120 1/8 N 3 65 1/8
+vla 120 1/6 N 3 65 1/12
+vlnOne 120 1/4 N 1 85 1/4
+vlnOne 120 1/4 AR accent
+vlnTwo 120 1/4 N 1 73 1/4
+vlnTwo 120 1/4 AR accent
+vla 120 1/4 N 6 58 1/12
+vla 120 1/3 N 1 61 1/12
+vla 120 5/12 N 3 65 1/12
+vlnOne 120 1/2 R 1/8
+vlnTwo 120 1/2 R 1/8
+vla 120 1/2 N 6 58 1/12
+vla 120 7/12 N 1 61 1/12
+vlnOne 120 5/8 N 6 82 1/8
+vlnTwo 120 5/8 N 6 70 1/8
+vla 120 2/3 N 3 65 1/12
+vlnOne 120 3/4 N 3 89 1/4
+vlnOne 120 3/4 AR accent
+vlnTwo 120 3/4 N 3 77 1/4
+vlnTwo 120 3/4 AR accent
+vla 120 3/4 N 6 58 1/12
+vla 120 5/6 N 0 60 1/12
+vla 120 11/12 N 3 65 1/12
+vlnOne 121 0 N 2 87 3/8
+vlnTwo 121 0 N 2 75 3/8
+vla 121 0 N 0 60 1/12
+vc 121 0 N 4 43 1
+vc 121 0 TR 16
+cb 121 0 N 4 31 1
+cb 121 0 TIE
+vla 121 1/12 N 2 63 1/12
+vla 121 1/6 N 4 67 1/12
+vla 121 1/4 N 0 60 1/12
+vla 121 1/3 N 2 63 1/12
+vlnOne 121 3/8 N 3 89 1/8
+vlnTwo 121 3/8 N 3 77 1/8
+vla 121 5/12 N 4 67 1/12
+vlnOne 121 1/2 N 4 91 1/2
+vlnTwo 121 1/2 N 4 79 1/2
+vla 121 1/2 N 0 60 1/12
+vla 121 7/12 N 2 63 1/12
+vla 121 2/3 N 4 67 1/12
+vla 121 3/4 N 0 60 1/12
+vla 121 5/6 N 2 63 1/12
+vla 121 11/12 N 4 67 1/12
+vlnOne 122 0 N 5 92 1
+vlnOne 122 0 TR 32
+vlnOne 122 0 D fff
+vlnTwo 122 0 N 1 74 1
+vlnTwo 122 0 N 5 80 1
+vlnTwo 122 0 TR 32
+vlnTwo 122 0 D fff
+vlnTwo 122 0 TX non div.
+vla 122 0 N 6 59 1
+vla 122 0 N 1 62 1
+vla 122 0 TR 32
+vla 122 0 D fff
+vc 122 0 N 5 56 1
+vc 122 0 TR 32
+vc 122 0 D fff
+cb 122 0 N 4 31 1
+cb 122 0 D fff
+cb 122 0 TIE
+vlnOne 123 0 N 4 91 1
+vlnOne 123 0 TR 32
+vlnTwo 123 0 N 1 74 1
+vlnTwo 123 0 N 4 79 1
+vlnTwo 123 0 TR 32
+vla 123 0 N 6 59 1
+vla 123 0 N 1 62 1
+vla 123 0 TR 32
+vc 123 0 N 4 55 1
+vc 123 0 TR 32
+cb 123 0 N 4 31 1
+cb 123 0 TIE
+vlnOne 124 0 N 4 79 3/4
+vlnOne 124 0 TIE
+vlnOne 124 0 S -1
+vlnTwo 124 0 N 1 62 1
+vlnTwo 124 0 N 3 65 1
+vlnTwo 124 0 TX div.
+vla 124 0 N 6 59 1
+vc 124 0 N 4 55 1
+vc 124 0 N 6 59 1
+vc 124 0 TX div.
+cb 124 0 N 4 31 1
+cb 124 0 TIE
+vlnOne 124 3/4 N 4 79 1/8
+vlnOne 124 7/8 N 3 77 1/8
+vlnOne 124 7/8 S 1
+vlnOne 125 0 N 2 75 3/8
+vlnOne 125 0 S -1
+vlnTwo 125 0 N 2 63 1
+vlnTwo 125 0 TX unis.
+vla 125 0 N 0 60 1
+vc 125 0 N 4 55 1
+vc 125 0 N 0 60 1
+cb 125 0 N 4 31 1
+cb 125 0 TIE
+vlnOne 125 3/8 N 1 74 1/8
+vlnOne 125 1/2 N 0 72 1/2
+vlnOne 125 1/2 S 1
+vlnOne 126 0 N 1 74 1
+vlnOne 126 0 D p
+vlnTwo 126 0 N 1 62 1
+vlnTwo 126 0 D p
+vla 126 0 N 0 60 1/4
+vla 126 0 D p
+vla 126 0 S -1
+vc 126 0 N 4 55 1/4
+vc 126 0 N 0 60 1/4
+vc 126 0 D p
+vc 126 0 S -1
+cb 126 0 N 4 31 1
+cb 126 0 D pp
+cb 126 0 TIE
+vla 126 1/4 N 6 59 3/4
+vla 126 1/4 S 1
+vla 126 1/4 TIE
+vc 126 1/4 N 4 55 3/4
+vc 126 1/4 N 6 59 3/4
+vc 126 1/4 S 1
+vla 127 0 N 6 59 3/4
+vc 127 0 N 4 43 1/4
+vc 127 0 D pp
+vc 127 0 TX unis.
+cb 127 0 N 4 31 1
+cb 127 0 TIE
+vc 127 1/4 N 4 43 1/4
+vc 127 1/2 N 4 43 1/4
+vla 127 3/4 R 1/4
+vc 127 3/4 N 4 43 1/4
+vc 128 0 N 4 43 1/8
+cb 128 0 N 4 31 1
+cb 128 0 TIE
+vc 128 1/8 N 4 43 1/8
+vc 128 1/4 N 4 43 1/8
+vc 128 3/8 N 4 43 1/8
+vc 128 1/2 N 4 43 1/8
+vc 128 5/8 N 4 43 1/8
+vc 128 3/4 N 4 43 1/8
+vc 128 7/8 N 4 43 1/8
+vla 129 0 R 1/2
+vc 129 0 N 4 43 1/12
+vc 129 0 D mf
+cb 129 0 N 4 31 1
+cb 129 0 D mf
+cb 129 0 TIE
+vc 129 1/12 N 4 43 1/12
+vc 129 1/6 N 4 43 1/12
+vc 129 1/4 N 4 43 1/12
+vc 129 1/3 N 4 43 1/12
+vc 129 5/12 N 4 43 1/12
+vla 129 1/2 N 4 55 1/4
+vla 129 1/2 S -1
+vla 129 1/2 D mf
+vc 129 1/2 N 4 43 1/12
+vc 129 7/12 N 4 43 1/12
+vc 129 2/3 N 4 43 1/12
+vla 129 3/4 N 2 63 1/4
+vla 129 3/4 TIE
+vc 129 3/4 N 4 43 1/12
+vc 129 5/6 N 4 43 1/12
+vc 129 11/12 N 4 43 1/12
+vlnTwo 130 0 N 4 67 1/4
+vlnTwo 130 0 S -1
+vlnTwo 130 0 D f
+vla 130 0 N 2 63 1/4
+vc 130 0 N 4 43 1/16
+vc 130 0 D f
+cb 130 0 N 4 31 1
+cb 130 0 D f
+vc 130 1/16 N 4 43 1/16
+vc 130 1/8 N 4 43 1/16
+vc 130 3/16 N 4 43 1/16
+vlnTwo 130 1/4 N 2 75 1/2
+vla 130 1/4 N 1 62 1/4
+vc 130 1/4 N 4 43 1/16
+vc 130 5/16 N 4 43 1/16
+vc 130 3/8 N 4 43 1/16
+vc 130 7/16 N 4 43 1/16
+vla 130 1/2 N 1 61 1/4
+vc 130 1/2 N 4 43 1/16
+vc 130 9/16 N 4 43 1/16
+vc 130 5/8 N 4 43 1/16
+vc 130 11/16 N 4 43 1/16
+vlnTwo 130 3/4 N 1 74 1/4
+vlnTwo 130 3/4 S 1
+vla 130 3/4 N 0 60 1/4
+vla 130 3/4 S 1
+vc 130 3/4 N 4 43 1/16
+vc 130 13/16 N 4 43 1/16
+vc 130 7/8 N 4 43 1/16
+vc 130 15/16 N 4 43 1/16
+vlnOne 131 0 R 1/4
+vlnTwo 131 0 R 1/4
+vla 131 0 R 1/8
+vc 131 0 R 1/8
+cb 131 0 N 0 36 1/8
+cb 131 0 D ff
+cb 131 0 AR downbow
+vla 131 1/8 N 2 63 1/8
+vla 131 1/8 N 4 67 1/8
+vla 131 1/8 D f
+vc 131 1/8 N 4 55 1/8
+vc 131 1/8 AR downbow
+vc 131 1/8 D ff
+vc 131 1/8 S -1
+cb 131 1/8 N 0 36 1/8
+vlnOne 131 1/4 N 2 87 1/2
+vlnOne 131 1/4 AR accent
+vlnOne 131 1/4 D ff
+vlnOne 131 1/4 AR downbow
+vlnTwo 131 1/4 N 2 75 1/2
+vlnTwo 131 1/4 AR accent
+vlnTwo 131 1/4 D ff
+vlnTwo 131 1/4 AR downbow
+vla 131 1/4 R 1/8
+vc 131 1/4 N 2 63 3/8
+vc 131 1/4 AR accent
+vc 131 1/4 S 1
+cb 131 1/4 N 0 36 1/8
+vla 131 3/8 N 2 63 1/8
+vla 131 3/8 N 4 67 1/8
+cb 131 3/8 N 0 36 1/8
+vla 131 1/2 R 1/8
+cb 131 1/2 N 0 36 1/8
+vla 131 5/8 N 2 63 1/8
+vla 131 5/8 N 4 67 1/8
+vc 131 5/8 N 1 62 1/8
+vc 131 5/8 S -1
+cb 131 5/8 N 0 36 1/8
+vlnOne 131 3/4 N 1 85 1/4
+vlnOne 131 3/4 TIE
+vlnTwo 131 3/4 N 1 73 1/4
+vlnTwo 131 3/4 TIE
+vla 131 3/4 R 1/8
+vc 131 3/4 N 1 61 1/8
+cb 131 3/4 N 0 36 1/8
+vla 131 7/8 N 2 63 1/8
+vla 131 7/8 N 4 67 1/8
+vc 131 7/8 N 0 60 1/8
+cb 131 7/8 N 0 36 1/8
+vlnOne 132 0 N 1 85 1/4
+vlnTwo 132 0 N 1 73 1/4
+vla 132 0 R 1/8
+vc 132 0 N 0 60 1/4
+vc 132 0 AR tenuto
+vc 132 0 S 1
+cb 132 0 N 0 36 1/8
+vla 132 1/8 N 2 63 1/8
+vla 132 1/8 N 4 67 1/8
+cb 132 1/8 N 0 36 1/8
+vlnOne 132 1/4 N 0 84 1/2
+vlnOne 132 1/4 AR accent
+vlnTwo 132 1/4 N 0 72 1/2
+vlnTwo 132 1/4 AR accent
+vla 132 1/4 R 1/8
+vc 132 1/4 N 6 59 1/8
+vc 132 1/4 AR upbow
+vc 132 1/4 S -1
+cb 132 1/4 N 0 36 1/8
+vla 132 3/8 N 2 63 1/8
+vla 132 3/8 N 4 67 1/8
+vc 132 3/8 N 0 60 1/8
+vc 132 3/8 S 1
+cb 132 3/8 N 0 36 1/8
+vla 132 1/2 R 1/8
+vc 132 1/2 N 5 56 3/8
+vc 132 1/2 AR accent
+cb 132 1/2 N 4 31 1/8
+vla 132 5/8 N 1 62 1/8
+vla 132 5/8 N 3 65 1/8
+cb 132 5/8 N 4 31 1/8
+vlnOne 132 3/4 N 6 83 1/4
+vlnTwo 132 3/4 N 6 71 1/4
+vla 132 3/4 R 1/8
+cb 132 3/4 N 4 31 1/8
+vla 132 7/8 N 1 62 1/8
+vla 132 7/8 N 3 65 1/8
+vc 132 7/8 N 4 55 1/8
+cb 132 7/8 N 4 31 1/8
+vlnOne 133 0 R 1/4
+vlnTwo 133 0 R 1/4
+vla 133 0 R 1/8
+vc 133 0 R 1/8
+cb 133 0 N 5 32 1/8
+vla 133 1/8 N 1 62 1/8
+vla 133 1/8 N 3 65 1/8
+vc 133 1/8 N 4 55 1/8
+vc 133 1/8 AR downbow
+vc 133 1/8 S -1
+cb 133 1/8 N 5 32 1/8
+vlnOne 133 1/4 N 5 80 1/2
+vlnOne 133 1/4 AR accent
+vlnTwo 133 1/4 N 5 68 1/2
+vlnTwo 133 1/4 AR accent
+vla 133 1/4 R 1/8
+vc 133 1/4 N 3 65 3/8
+vc 133 1/4 AR accent
+vc 133 1/4 S 1
+cb 133 1/4 N 5 32 1/8
+vla 133 3/8 N 1 62 1/8
+vla 133 3/8 N 3 65 1/8
+cb 133 3/8 N 5 32 1/8
+vla 133 1/2 R 1/8
+cb 133 1/2 N 5 32 1/8
+vla 133 5/8 N 1 62 1/8
+vla 133 5/8 N 3 65 1/8
+vc 133 5/8 N 2 63 1/8
+vc 133 5/8 S -1
+cb 133 5/8 N 5 32 1/8
+vlnOne 133 3/4 N 3 77 1/4
+vlnOne 133 3/4 TIE
+vlnTwo 133 3/4 N 3 65 1/4
+vlnTwo 133 3/4 TIE
+vla 133 3/4 R 1/8
+vc 133 3/4 N 1 62 1/8
+cb 133 3/4 N 5 32 1/8
+vla 133 7/8 N 1 62 1/8
+vla 133 7/8 N 3 65 1/8
+vc 133 7/8 N 0 60 1/8
+cb 133 7/8 N 5 32 1/8
+vlnOne 134 0 N 3 77 1/4
+vlnTwo 134 0 N 3 65 1/4
+vla 134 0 R 1/8
+vc 134 0 N 6 59 1/4
+vc 134 0 S 1
+cb 134 0 N 4 31 1/8
+vla 134 1/8 N 1 62 1/8
+vla 134 1/8 N 3 65 1/8
+cb 134 1/8 N 4 31 1/8
+vlnOne 134 1/4 N 1 74 1/2
+vlnOne 134 1/4 AR accent
+vlnTwo 134 1/4 N 1 62 1/2
+vlnTwo 134 1/4 AR accent
+vla 134 1/4 R 1/8
+vc 134 1/4 N 1 62 1/8
+vc 134 1/4 S -1
+cb 134 1/4 N 4 31 1/8
+vla 134 3/8 N 1 62 1/8
+vla 134 3/8 N 3 65 1/8
+vc 134 3/8 N 0 60 1/8
+vc 134 3/8 S 1
+cb 134 3/8 N 4 31 1/8
+vla 134 1/2 R 1/8
+vc 134 1/2 N 4 55 1/2
+cb 134 1/2 N 4 31 1/8
+vla 134 5/8 N 1 62 1/8
+vla 134 5/8 N 3 65 1/8
+cb 134 5/8 N 4 31 1/8
+vlnOne 134 3/4 R 1/4
+vlnTwo 134 3/4 R 1/4
+vla 134 3/4 R 1/8
+cb 134 3/4 N 4 31 1/8
+vla 134 7/8 N 1 62 1/8
+vla 134 7/8 N 3 65 1/8
+cb 134 7/8 N 4 31 1/8
+vlnOne 135 0 N 2 75 1/4
+vlnOne 135 0 S -1
+vlnOne 135 0 D mf
+vlnTwo 135 0 N 4 67 1/4
+vlnTwo 135 0 AR accent
+vlnTwo 135 0 D mf
+vla 135 0 N 2 63 1/4
+vla 135 0 AR accent
+vla 135 0 D mf
+vc 135 0 N 0 48 3/4
+vc 135 0 D mf
+vc 135 0 AR accent
+cb 135 0 N 0 36 1/4
+cb 135 0 D mf
+cb 135 0 AR accent
+vlnOne 135 1/4 N 1 74 1/4
+vlnTwo 135 1/4 N 4 67 1/4
+vla 135 1/4 N 2 63 1/4
+cb 135 1/4 N 0 36 1/4
+vlnOne 135 1/2 N 0 72 1/4
+vlnOne 135 1/2 S 1
+vlnTwo 135 1/2 N 4 67 1/4
+vla 135 1/2 N 2 63 1/4
+cb 135 1/2 N 0 36 1/4
+vlnOne 135 3/4 N 3 77 1/4
+vlnOne 135 3/4 S -1
+vlnTwo 135 3/4 N 3 65 1/4
+vlnTwo 135 3/4 AR accent
+vla 135 3/4 N 1 62 1/4
+vla 135 3/4 AR accent
+vc 135 3/4 N 6 47 1/4
+vc 135 3/4 AR accent
+vc 135 3/4 TIE
+cb 135 3/4 N 6 35 1/4
+cb 135 3/4 AR accent
+vlnOne 136 0 N 2 75 1/4
+vlnTwo 136 0 N 3 65 1/4
+vla 136 0 N 1 62 1/4
+vc 136 0 N 6 47 1/2
+cb 136 0 N 6 35 1/4
+vlnOne 136 1/4 N 1 74 1/4
+vlnOne 136 1/4 S 1
+vlnTwo 136 1/4 N 3 65 1/4
+vla 136 1/4 N 1 62 1/4
+cb 136 1/4 N 6 35 1/4
+vlnOne 136 1/2 N 4 79 1/4
+vlnOne 136 1/2 S -1
+vlnTwo 136 1/2 N 2 63 1/4
+vlnTwo 136 1/2 AR accent
+vla 136 1/2 N 2 63 1/4
+vla 136 1/2 AR accent
+vc 136 1/2 N 0 48 1/2
+vc 136 1/2 AR accent
+vc 136 1/2 TIE
+cb 136 1/2 N 0 36 1/4
+cb 136 1/2 AR accent
+vlnOne 136 3/4 N 3 77 1/4
+vlnTwo 136 3/4 N 2 63 1/4
+vla 136 3/4 N 2 63 1/4
+cb 136 3/4 N 0 36 1/4
+vlnOne 137 0 N 2 75 1/4
+vlnOne 137 0 S 1
+vlnTwo 137 0 N 2 63 1/4
+vla 137 0 N 2 63 1/4
+vc 137 0 N 0 48 1/4
+cb 137 0 N 0 36 1/4
+vlnOne 137 1/4 N 5 80 1/4
+vlnOne 137 1/4 S -1
+vlnTwo 137 1/4 N 3 65 1/4
+vlnTwo 137 1/4 AR accent
+vla 137 1/4 N 0 60 1/4
+vla 137 1/4 AR accent
+vc 137 1/4 N 3 53 3/4
+vc 137 1/4 AR accent
+cb 137 1/4 N 3 29 1/4
+cb 137 1/4 AR accent
+vlnOne 137 1/2 N 4 79 1/4
+vlnTwo 137 1/2 N 3 65 1/4
+vla 137 1/2 N 0 60 1/4
+cb 137 1/2 N 3 29 1/4
+vlnOne 137 3/4 N 3 77 1/4
+vlnOne 137 3/4 S 1
+vlnTwo 137 3/4 N 3 65 1/4
+vla 137 3/4 N 0 60 1/4
+cb 137 3/4 N 1 38 1/4
+vlnOne 138 0 N 6 83 3/4
+vlnOne 138 0 AR accent
+vlnOne 138 0 D f
+vlnTwo 138 0 N 1 74 3/4
+vlnTwo 138 0 N 5 80 3/4
+vlnTwo 138 0 AR accent
+vlnTwo 138 0 D f
+vla 138 0 N 3 65 3/4
+vla 138 0 N 6 71 3/4
+vla 138 0 AR accent
+vla 138 0 D f
+vc 138 0 N 1 50 3/4
+vc 138 0 N 5 56 3/4
+vc 138 0 AR accent
+vc 138 0 D f
+cb 138 0 N 1 38 3/4
+cb 138 0 AR accent
+cb 138 0 D f
+vlnOne 138 3/4 R 1/4
+vlnTwo 138 3/4 R 1/4
+vla 138 3/4 R 1/4
+vc 138 3/4 R 1/4
+cb 138 3/4 R 1/4
+vlnOne 139 0 R 1/8
+vlnTwo 139 0 R 1/8
+vla 139 0 N 0 60 1/8
+vla 139 0 D f
+vc 139 0 N 0 60 3/4
+vc 139 0 D f
+vc 139 0 AR upbow
+vc 139 0 S -1
+cb 139 0 N 3 41 1/4
+cb 139 0 D f
+vlnOne 139 1/8 N 4 67 1/8
+vlnOne 139 1/8 AR downbow
+vlnOne 139 1/8 D f
+vlnOne 139 1/8 S -1
+vlnTwo 139 1/8 N 4 67 1/8
+vlnTwo 139 1/8 AR downbow
+vlnTwo 139 1/8 D f
+vlnTwo 139 1/8 S -1
+vla 139 1/8 N 0 60 1/8
+vlnOne 139 1/4 N 3 77 3/8
+vlnOne 139 1/4 AR accent
+vlnOne 139 1/4 S 1
+vlnTwo 139 1/4 N 3 77 3/8
+vlnTwo 139 1/4 AR accent
+vlnTwo 139 1/4 S 1
+vla 139 1/4 N 6 59 1/8
+cb 139 1/4 R 1/8
+vla 139 3/8 N 0 60 1/8
+cb 139 3/8 N 3 41 1/8
+vla 139 1/2 N 3 65 1/8
+cb 139 1/2 N 5 44 1/4
+vlnOne 139 5/8 N 2 75 1/8
+vlnOne 139 5/8 S -1
+vlnTwo 139 5/8 N 2 75 1/8
+vlnTwo 139 5/8 S -1
+vla 139 5/8 N 3 65 1/8
+vlnOne 139 3/4 N 1 74 1/8
+vlnTwo 139 3/4 N 1 74 1/8
+vla 139 3/4 N 2 64 1/8
+vc 139 3/4 N 6 58 1/4
+vc 139 3/4 S 1
+cb 139 3/4 R 1/8
+vlnOne 139 7/8 N 0 72 1/8
+vlnTwo 139 7/8 N 0 72 1/8
+vla 139 7/8 N 3 65 1/8
+cb 139 7/8 N 5 44 1/8
+vlnOne 140 0 N 1 73 1/8
+vlnOne 140 0 D ff
+vlnTwo 140 0 N 1 73 1/8
+vlnTwo 140 0 D ff
+vla 140 0 N 3 65 1/8
+vla 140 0 D ff
+vc 140 0 N 5 56 1/2
+vc 140 0 D ff
+vc 140 0 S -1
+cb 140 0 N 1 37 1/8
+cb 140 0 D ff
+vlnOne 140 1/8 N 2 75 1/8
+vlnTwo 140 1/8 N 2 75 1/8
+vla 140 1/8 N 3 65 1/8
+cb 140 1/8 N 1 37 1/8
+vlnOne 140 1/4 N 3 77 1/8
+vlnTwo 140 1/4 N 3 77 1/8
+vla 140 1/4 N 2 63 1/8
+cb 140 1/4 N 1 37 1/8
+vlnOne 140 3/8 N 4 79 1/8
+vlnOne 140 3/8 S 1
+vlnTwo 140 3/8 N 4 79 1/8
+vlnTwo 140 3/8 S 1
+vla 140 3/8 N 3 65 1/8
+cb 140 3/8 N 1 37 1/8
+vlnOne 140 1/2 N 5 80 1/2
+vlnOne 140 1/2 AR accent
+vlnOne 140 1/2 TIE
+vlnTwo 140 1/2 N 5 80 1/2
+vlnTwo 140 1/2 AR accent
+vlnTwo 140 1/2 TIE
+vla 140 1/2 N 5 68 1/8
+vc 140 1/2 N 3 53 1/2
+vc 140 1/2 TIE
+cb 140 1/2 N 1 37 1/8
+vla 140 5/8 N 5 68 1/8
+cb 140 5/8 N 1 37 1/8
+vla 140 3/4 N 4 67 1/8
+cb 140 3/4 N 1 37 1/8
+vla 140 7/8 N 5 68 1/8
+cb 140 7/8 N 1 37 1/8
+vlnOne 141 0 N 5 80 3/8
+vlnTwo 141 0 N 5 80 3/8
+vla 141 0 N 5 68 1/8
+vc 141 0 N 3 53 1/4
+vc 141 0 S 1
+cb 141 0 N 3 41 1/8
+vla 141 1/8 N 5 68 1/8
+cb 141 1/8 N 3 41 1/8
+vla 141 1/4 N 4 67 1/8
+vc 141 1/4 N 4 55 1/4
+vc 141 1/4 S -1
+cb 141 1/4 N 3 41 1/8
+vlnOne 141 3/8 N 4 79 1/8
+vlnTwo 141 3/8 N 4 79 1/8
+vla 141 3/8 N 5 68 1/8
+cb 141 3/8 N 3 41 1/8
+vlnOne 141 1/2 N 3 77 1/4
+vlnTwo 141 1/2 N 3 77 1/4
+vla 141 1/2 N 3 65 1/8
+vc 141 1/2 N 5 56 1/4
+cb 141 1/2 N 1 38 1/8
+vla 141 5/8 N 3 65 1/8
+cb 141 5/8 N 1 38 1/8
+vlnOne 141 3/4 N 1 74 1/4
+vlnTwo 141 3/4 N 1 74 1/4
+vla 141 3/4 N 2 64 1/8
+vc 141 3/4 N 0 60 1/4
+vc 141 3/4 TIE
+cb 141 3/4 N 1 38 1/8
+vla 141 7/8 N 3 65 1/8
+cb 141 7/8 N 1 38 1/8
+vlnOne 142 0 N 0 72 1/2
+vlnOne 142 0 AR accent
+vlnOne 142 0 AR downbow
+vlnTwo 142 0 N 0 72 1/2
+vlnTwo 142 0 AR accent
+vlnTwo 142 0 AR downbow
+vla 142 0 N 4 67 1/8
+vc 142 0 N 0 60 1/2
+vc 142 0 AR accent
+vc 142 0 S 1
+cb 142 0 N 4 31 1/8
+vla 142 1/8 N 4 67 1/8
+cb 142 1/8 N 4 31 1/8
+vla 142 1/4 N 3 66 1/8
+cb 142 1/4 N 4 31 1/8
+vla 142 3/8 N 4 67 1/8
+cb 142 3/8 N 4 31 1/8
+vlnOne 142 1/2 N 6 71 1/2
+vlnOne 142 1/2 AR accent
+vlnOne 142 1/2 AR downbow
+vlnTwo 142 1/2 N 6 71 1/2
+vlnTwo 142 1/2 AR accent
+vlnTwo 142 1/2 AR downbow
+vla 142 1/2 N 1 62 1/8
+vc 142 1/2 N 6 59 1/2
+vc 142 1/2 AR accent
+vc 142 1/2 AR downbow
+cb 142 1/2 N 4 31 1/8
+vla 142 5/8 N 1 62 1/8
+cb 142 5/8 N 4 31 1/8
+vla 142 3/4 N 0 61 1/8
+cb 142 3/4 N 4 31 1/8
+vla 142 7/8 N 1 62 1/8
+cb 142 7/8 N 4 31 1/8
+vlnOne 143 0 R 1/8
+vlnTwo 143 0 R 1/4
+vla 143 0 R 1/4
+vc 143 0 N 0 48 1
+vc 143 0 D f
+cb 143 0 N 0 36 1/4
+cb 143 0 D f
+vlnOne 143 1/8 N 4 67 1/8
+vlnOne 143 1/8 AR downbow
+vlnOne 143 1/8 D f
+vlnOne 143 1/8 S -1
+vlnOne 143 1/4 N 2 75 3/8
+vlnOne 143 1/4 AR accent
+vlnOne 143 1/4 S 1
+vlnTwo 143 1/4 R 1/8
+vla 143 1/4 R 1/8
+cb 143 1/4 R 1/8
+vlnTwo 143 3/8 N 4 67 1/8
+vlnTwo 143 3/8 D f
+vla 143 3/8 N 2 63 1/8
+vla 143 3/8 D f
+cb 143 3/8 N 0 36 1/8
+vlnTwo 143 1/2 R 1/8
+vla 143 1/2 R 1/8
+cb 143 1/2 N 0 36 1/4
+vlnOne 143 5/8 N 1 74 1/8
+vlnOne 143 5/8 S -1
+vlnTwo 143 5/8 N 4 67 1/8
+vla 143 5/8 N 2 63 1/8
+vlnOne 143 3/4 N 1 73 1/8
+vlnTwo 143 3/4 R 1/8
+vla 143 3/4 R 1/8
+cb 143 3/4 R 1/8
+vlnOne 143 7/8 N 0 72 1/8
+vlnTwo 143 7/8 N 4 67 1/8
+vla 143 7/8 N 2 63 1/8
+cb 143 7/8 N 0 36 1/8
+vlnOne 144 0 N 0 72 1/4
+vlnOne 144 0 AR tenuto
+vlnOne 144 0 S 1
+vlnTwo 144 0 N 4 67 1/2
+vlnTwo 144 0 D mp
+vla 144 0 R 1/4
+vc 144 0 N 2 51 3/4
+vc 144 0 D mp
+cb 144 0 N 4 31 1
+cb 144 0 D mp
+vlnOne 144 1/4 N 6 71 1/8
+vlnOne 144 1/4 AR upbow
+vlnOne 144 1/4 S -1
+vla 144 1/4 R 1/8
+vlnOne 144 3/8 N 0 72 1/8
+vlnOne 144 3/8 S 1
+vla 144 3/8 N 4 55 1/8
+vla 144 3/8 TIE
+vla 144 3/8 D mp
+vlnOne 144 1/2 N 5 68 3/8
+vlnTwo 144 1/2 N 3 65 1/2
+vla 144 1/2 N 4 55 1/2
+vc 144 3/4 N 1 50 1/4
+vc 144 3/4 TIE
+vlnOne 144 7/8 N 4 67 1/8
+vlnOne 145 0 N 4 67 1
+vlnOne 145 0 D pp
+vlnOne 145 0 TIE
+vlnTwo 145 0 N 3 65 1
+vlnTwo 145 0 D pp
+vla 145 0 N 4 55 1
+vla 145 0 D pp
+vc 145 0 N 1 50 1
+vc 145 0 D pp
+cb 145 0 N 4 31 1
+cb 145 0 D pp
+cb 145 0 TIE
+vlnOne 146 0 N 4 67 1/2
+vlnTwo 146 0 N 3 65 1/2
+vla 146 0 N 4 55 1/2
+vc 146 0 R 3/4
+cb 146 0 N 4 31 1/2
+vlnOne 146 1/2 R 1/2
+vlnTwo 146 1/2 R 1/2
+vla 146 1/2 R 1/4
+cb 146 1/2 R 1/2
+vla 146 3/4 N 4 55 1/4
+vla 146 3/4 S -1
+vla 146 3/4 D mf
+vla 146 3/4 TX dolce
+vc 146 3/4 N 4 43 1/4
+vc 146 3/4 S -1
+vc 146 3/4 D mf
+vc 146 3/4 TX dolce
+vlnTwo 147 0 N 2 76 1
+vlnTwo 147 0 N 4 79 1
+vlnTwo 147 0 TR 32
+vlnTwo 147 0 D pp
+vlnTwo 147 0 TX div. sul tasto
+vla 147 0 N 2 64 3/4
+vla 147 0 TIE
+vc 147 0 N 2 52 3/4
+vc 147 0 TIE
+cb 147 0 N 0 36 1/4
+cb 147 0 D pp
+cb 147 0 TX pizz.
+cb 147 1/4 R 1/4
+cb 147 1/2 R 1/2
+vla 147 3/4 N 2 64 1/8
+vc 147 3/4 N 2 52 1/8
+vla 147 7/8 N 1 62 1/8
+vc 147 7/8 N 1 50 1/8
+vlnTwo 148 0 N 0 72 1/2
+vlnTwo 148 0 N 5 81 1/2
+vlnTwo 148 0 TR 32
+vla 148 0 N 0 60 1/4
+vc 148 0 N 0 48 1/4
+cb 148 0 N 3 41 1/4
+vla 148 1/4 N 5 69 1/2
+vla 148 1/4 AR tenuto
+vc 148 1/4 N 5 57 1/2
+vc 148 1/4 AR tenuto
+cb 148 1/4 R 1/4
+vlnTwo 148 1/2 N 0 73 1/2
+vlnTwo 148 1/2 N 5 81 1/2
+vlnTwo 148 1/2 TR 32
+cb 148 1/2 R 1/2
+vla 148 3/4 N 4 67 1/4
+vla 148 3/4 S 1
+vc 148 3/4 N 4 55 1/4
+vc 148 3/4 S 1
+vlnTwo 149 0 N 1 74 1
+vlnTwo 149 0 N 5 81 1
+vlnTwo 149 0 TR 32
+vla 149 0 N 3 65 3/8
+vla 149 0 S -1
+vc 149 0 N 3 53 3/8
+vc 149 0 S -1
+cb 149 0 N 1 38 1/4
+cb 149 1/4 R 1/4
+vla 149 3/8 N 2 64 1/8
+vc 149 3/8 N 2 52 1/8
+vla 149 1/2 N 1 62 1/4
+vc 149 1/2 N 1 50 1/4
+cb 149 1/2 R 1/2
+vla 149 3/4 N 3 65 1/8
+vc 149 3/4 N 3 53 1/8
+vla 149 7/8 N 5 69 1/8
+vc 149 7/8 N 5 57 1/8
+vlnTwo 150 0 N 3 77 1
+vlnTwo 150 0 N 5 81 1
+vlnTwo 150 0 TR 32
+vla 150 0 N 0 72 1/2
+vc 150 0 N 0 60 1/2
+cb 150 0 N 4 31 1/4
+cb 150 1/4 R 1/4
+vla 150 1/2 N 6 71 1/2
+vla 150 1/2 S 1
+vc 150 1/2 N 6 59 1/2
+vc 150 1/2 S 1
+cb 150 1/2 N 4 31 1/4
+cb 150 3/4 R 1/4
+vlnTwo 151 0 N 0 72 1
+vlnTwo 151 0 N 6 82 1
+vlnTwo 151 0 TR 32
+vla 151 0 N 4 67 1/4
+vla 151 0 S -1
+vc 151 0 N 4 55 1/4
+vc 151 0 S -1
+cb 151 0 N 2 40 1/4
+vla 151 1/4 N 2 76 1/2
+vla 151 1/4 AR tenuto
+vc 151 1/4 N 2 64 1/2
+vc 151 1/4 AR tenuto
+cb 151 1/4 R 1/4
+cb 151 1/2 R 1/2
+vla 151 3/4 N 1 74 1/4
+vla 151 3/4 S 1
+vc 151 3/4 N 1 62 1/4
+vc 151 3/4 S 1
+vlnTwo 152 0 N 3 77 1/2
+vlnTwo 152 0 N 5 81 1/2
+vlnTwo 152 0 TR 32
+vla 152 0 N 0 72 3/8
+vla 152 0 S -1
+vc 152 0 N 0 60 3/8
+vc 152 0 S -1
+cb 152 0 N 3 41 1/4
+cb 152 1/4 R 1/4
+vla 152 3/8 N 6 71 1/8
+vc 152 3/8 N 6 59 1/8
+vlnTwo 152 1/2 N 5 81 1/2
+vlnTwo 152 1/2 N 0 84 1/2
+vlnTwo 152 1/2 TR 32
+vla 152 1/2 N 5 69 1/8
+vc 152 1/2 N 5 57 1/8
+cb 152 1/2 R 1/2
+vla 152 5/8 N 6 71 1/32
+vc 152 5/8 N 6 59 1/32
+vla 152 21/32 N 0 72 1/32
+vc 152 21/32 N 0 60 1/32
+vla 152 11/16 N 1 74 1/32
+vc 152 11/16 N 1 62 1/32
+vla 152 23/32 N 2 76 1/32
+vc 152 23/32 N 2 64 1/32
+vla 152 3/4 N 3 77 1/4
+vla 152 3/4 TIE
+vc 152 3/4 N 3 65 1/4
+vc 152 3/4 TIE
+vlnTwo 153 0 N 1 74 1
+vlnTwo 153 0 N 5 81 1
+vlnTwo 153 0 TR 32
+vla 153 0 N 3 77 1/4
+vc 153 0 N 3 65 1/4
+cb 153 0 N 3 41 1/4
+vla 153 1/4 N 2 76 1/8
+vc 153 1/4 N 2 64 1/8
+cb 153 1/4 R 1/4
+vla 153 3/8 N 1 74 1/8
+vc 153 3/8 N 1 62 1/8
+vla 153 1/2 N 0 72 1/4
+vc 153 1/2 N 0 60 1/4
+cb 153 1/2 R 1/2
+vla 153 3/4 N 5 69 1/4
+vla 153 3/4 S 1
+vc 153 3/4 N 5 57 1/4
+vc 153 3/4 S 1
+vlnTwo 154 0 N 2 76 1/4
+vlnTwo 154 0 N 4 79 1/4
+vlnTwo 154 0 TR 32
+vla 154 0 N 0 72 1/4
+vla 154 0 S -1
+vc 154 0 N 0 60 1/4
+vc 154 0 S -1
+cb 154 0 N 4 43 1/4
+vlnTwo 154 1/4 N 1 74 1/4
+vlnTwo 154 1/4 N 4 79 1/4
+vlnTwo 154 1/4 TR 32
+vla 154 1/4 N 6 71 1/4
+vc 154 1/4 N 6 59 1/4
+cb 154 1/4 R 1/4
+vlnTwo 154 1/2 N 6 71 1/2
+vlnTwo 154 1/2 N 4 79 1/2
+vlnTwo 154 1/2 TR 32
+vla 154 1/2 N 1 74 1/4
+vc 154 1/2 N 1 62 1/4
+cb 154 1/2 N 4 43 1/4
+vla 154 3/4 N 3 65 1/4
+vla 154 3/4 S 1
+vc 154 3/4 N 3 53 1/4
+vc 154 3/4 S 1
+cb 154 3/4 R 1/4
+vlnOne 155 0 R 1/2
+vlnTwo 155 0 N 0 72 1/2
+vlnTwo 155 0 N 2 76 1/2
+vlnTwo 155 0 TR 32
+vla 155 0 N 2 64 1/2
+vla 155 0 D p
+vc 155 0 N 2 52 1/2
+vc 155 0 D p
+cb 155 0 N 0 36 1/4
+cb 155 1/4 R 1/4
+vlnOne 155 1/2 R 1/4
+vlnTwo 155 1/2 R 1/4
+vla 155 1/2 N 1 62 1/2
+vc 155 1/2 N 1 50 1/2
+cb 155 1/2 R 1/2
+vlnOne 155 3/4 N 3 77 1/4
+vlnOne 155 3/4 D mf
+vlnOne 155 3/4 S -1
+vlnTwo 155 3/4 N 3 65 1/4
+vlnTwo 155 3/4 D mf
+vlnTwo 155 3/4 S -1
+vlnTwo 155 3/4 TX unis. ord.
+vlnOne 156 0 N 1 86 3/4
+vlnOne 156 0 TIE
+vlnTwo 156 0 N 1 74 3/4
+vlnTwo 156 0 TIE
+vla 156 0 R 1/8
+vc 156 0 N 6 46 1/8
+vc 156 0 S -1
+vc 156 0 D mp
+cb 156 0 N 6 34 1
+cb 156 0 D mp
+cb 156 0 TX arco
+vla 156 1/8 N 6 58 1/8
+vla 156 1/8 S -1
+vla 156 1/8 D mp
+vc 156 1/8 N 1 50 1/8
+vla 156 1/4 N 1 62 1/8
+vc 156 1/4 N 6 58 3/8
+vc 156 1/4 S 1
+vla 156 3/8 N 3 65 1/8
+vla 156 1/2 N 6 70 1/4
+vla 156 1/2 S 1
+vc 156 5/8 N 5 57 1/8
+vc 156 5/8 S -1
+vlnOne 156 3/4 N 1 86 1/8
+vlnTwo 156 3/4 N 1 74 1/8
+vla 156 3/4 R 1/4
+vc 156 3/4 N 5 56 1/8
+vlnOne 156 7/8 N 1 85 1/8
+vlnOne 156 7/8 S 1
+vlnTwo 156 7/8 N 1 73 1/8
+vlnTwo 156 7/8 S 1
+vc 156 7/8 N 4 55 1/8
+vc 156 7/8 S 1
+vlnOne 157 0 N 0 84 1/2
+vlnOne 157 0 S -1
+vlnTwo 157 0 N 0 72 1/2
+vlnTwo 157 0 S -1
+vla 157 0 R 1/8
+vc 157 0 N 3 41 1/8
+vc 157 0 S -1
+cb 157 0 N 3 29 1
+vla 157 1/8 N 3 53 1/8
+vla 157 1/8 S -1
+vc 157 1/8 N 0 48 1/8
+vla 157 1/4 N 5 56 1/8
+vc 157 1/4 N 3 53 1/8
+vla 157 3/8 N 0 60 1/8
+vc 157 3/8 N 5 56 1/8
+vlnOne 157 1/2 N 6 82 1/4
+vlnTwo 157 1/2 N 6 70 1/4
+vla 157 1/2 N 3 65 1/4
+vla 157 1/2 S 1
+vc 157 1/2 N 0 60 1/2
+vc 157 1/2 S 1
+vlnOne 157 3/4 N 5 80 1/8
+vlnTwo 157 3/4 N 5 68 1/8
+vla 157 3/4 R 1/4
+vlnOne 157 7/8 N 4 79 1/8
+vlnOne 157 7/8 S 1
+vlnTwo 157 7/8 N 4 67 1/8
+vlnTwo 157 7/8 S 1
+vlnOne 158 0 N 4 79 1/4
+vlnOne 158 0 D ff
+vlnOne 158 0 AR downbow
+vlnTwo 158 0 N 4 67 1/4
+vlnTwo 158 0 D ff
+vlnTwo 158 0 AR downbow
+vla 158 0 N 0 60 1/8
+vla 158 0 N 2 64 1/8
+vla 158 0 D ff
+vc 158 0 N 4 55 1/4
+vc 158 0 D ff
+vc 158 0 AR downbow
+cb 158 0 N 4 31 1
+cb 158 0 D ff
+vla 158 1/8 N 0 60 1/8
+vla 158 1/8 N 2 64 1/8
+vlnOne 158 1/4 N 2 88 3/4
+vlnOne 158 1/4 AR tenuto
+vlnOne 158 1/4 TIE
+vlnTwo 158 1/4 N 2 76 3/4
+vlnTwo 158 1/4 AR tenuto
+vlnTwo 158 1/4 TIE
+vla 158 1/4 N 0 60 1/8
+vla 158 1/4 N 2 64 1/8
+vc 158 1/4 N 2 64 3/4
+vc 158 1/4 AR tenuto
+vc 158 1/4 TIE
+vla 158 3/8 N 0 60 1/8
+vla 158 3/8 N 2 64 1/8
+vla 158 1/2 N 0 60 1/8
+vla 158 1/2 N 2 64 1/8
+vla 158 5/8 N 0 60 1/8
+vla 158 5/8 N 2 64 1/8
+vla 158 3/4 N 0 60 1/8
+vla 158 3/4 N 2 64 1/8
+vla 158 7/8 N 0 60 1/8
+vla 158 7/8 N 2 64 1/8
+vlnOne 159 0 N 2 88 1/4
+vlnTwo 159 0 N 2 76 1/4
+vla 159 0 N 6 59 1/8
+vla 159 0 N 2 64 1/8
+vc 159 0 N 2 64 1/4
+cb 159 0 N 4 31 1
+vla 159 1/8 N 6 59 1/8
+vla 159 1/8 N 2 64 1/8
+vlnOne 159 1/4 N 3 89 1/4
+vlnTwo 159 1/4 N 3 77 1/4
+vla 159 1/4 N 6 59 1/8
+vla 159 1/4 N 3 65 1/8
+vc 159 1/4 N 3 65 1/4
+vla 159 3/8 N 6 59 1/8
+vla 159 3/8 N 3 65 1/8
+vlnOne 159 1/2 N 4 91 1/2
+vlnTwo 159 1/2 N 4 79 1/2
+vla 159 1/2 N 6 59 1/8
+vla 159 1/2 N 3 65 1/8
+vc 159 1/2 N 4 67 1/2
+vla 159 5/8 N 6 59 1/8
+vla 159 5/8 N 3 65 1/8
+vla 159 3/4 N 6 59 1/8
+vla 159 3/4 N 3 65 1/8
+vla 159 7/8 N 6 59 1/8
+vla 159 7/8 N 3 65 1/8
+vlnOne 160 0 N 0 84 1/4
+vlnOne 160 0 D fff
+vlnOne 160 0 AR downbow
+vlnTwo 160 0 N 0 72 1/4
+vlnTwo 160 0 D fff
+vlnTwo 160 0 AR downbow
+vla 160 0 N 0 60 1/8
+vla 160 0 N 2 63 1/8
+vla 160 0 D fff
+vc 160 0 N 0 60 1/4
+vc 160 0 D fff
+vc 160 0 AR downbow
+cb 160 0 N 5 32 1
+cb 160 0 D fff
+vla 160 1/8 N 0 60 1/8
+vla 160 1/8 N 2 63 1/8
+vlnOne 160 1/4 N 5 92 1/2
+vlnOne 160 1/4 AR tenuto
+vlnOne 160 1/4 TIE
+vlnTwo 160 1/4 N 5 80 1/2
+vlnTwo 160 1/4 AR tenuto
+vlnTwo 160 1/4 TIE
+vla 160 1/4 N 0 60 1/8
+vla 160 1/4 N 2 63 1/8
+vc 160 1/4 N 5 68 1/2
+vc 160 1/4 AR tenuto
+vc 160 1/4 TIE
+vla 160 3/8 N 0 60 1/8
+vla 160 3/8 N 2 63 1/8
+vla 160 1/2 N 0 60 1/8
+vla 160 1/2 N 2 63 1/8
+vla 160 5/8 N 0 60 1/8
+vla 160 5/8 N 2 63 1/8
+vlnOne 160 3/4 N 5 92 1/8
+vlnTwo 160 3/4 N 5 80 1/8
+vla 160 3/4 N 0 60 1/8
+vla 160 3/4 N 2 63 1/8
+vc 160 3/4 N 5 68 1/8
+vlnOne 160 7/8 N 4 91 1/8
+vlnTwo 160 7/8 N 4 79 1/8
+vla 160 7/8 N 0 60 1/8
+vla 160 7/8 N 2 63 1/8
+vc 160 7/8 N 4 67 1/8
+vlnOne 161 0 N 3 89 1/2
+vlnOne 161 0 AR downbow
+vlnTwo 161 0 N 3 77 1/2
+vlnTwo 161 0 AR downbow
+vla 161 0 N 1 62 1/8
+vla 161 0 N 3 65 1/8
+vc 161 0 N 3 65 1/2
+vc 161 0 AR downbow
+cb 161 0 N 1 38 1/2
+cb 161 0 AR downbow
+vla 161 1/8 N 1 62 1/8
+vla 161 1/8 N 3 65 1/8
+vla 161 1/4 N 1 62 1/8
+vla 161 1/4 N 3 65 1/8
+vla 161 3/8 N 1 62 1/8
+vla 161 3/8 N 3 65 1/8
+vlnOne 161 1/2 N 1 86 1/4
+vlnOne 161 1/2 S -1
+vlnTwo 161 1/2 N 1 74 1/4
+vlnTwo 161 1/2 S -1
+vla 161 1/2 N 6 59 1/8
+vla 161 1/2 N 3 65 1/8
+vc 161 1/2 N 1 62 1/4
+vc 161 1/2 S -1
+cb 161 1/2 N 4 31 1/2
+vla 161 5/8 N 6 59 1/8
+vla 161 5/8 N 3 65 1/8
+vlnOne 161 3/4 N 6 83 1/8
+vlnTwo 161 3/4 N 6 71 1/8
+vla 161 3/4 N 6 59 1/8
+vla 161 3/4 N 3 65 1/8
+vc 161 3/4 N 6 59 1/8
+vlnOne 161 7/8 N 0 84 1/8
+vlnOne 161 7/8 S 1
+vlnTwo 161 7/8 N 0 72 1/8
+vlnTwo 161 7/8 S 1
+vla 161 7/8 N 6 59 1/8
+vla 161 7/8 N 3 65 1/8
+vc 161 7/8 N 0 60 1/8
+vc 161 7/8 S 1
+vlnOne 162 0 N 5 81 3/4
+vlnOne 162 0 TIE
+vlnOne 162 0 S -1
+vlnOne 162 0 D ff
+vlnTwo 162 0 N 5 69 3/4
+vlnTwo 162 0 TIE
+vlnTwo 162 0 S -1
+vlnTwo 162 0 D ff
+vla 162 0 R 1/4
+vc 162 0 N 5 45 1/8
+vc 162 0 S -1
+vc 162 0 D ff
+cb 162 0 N 5 33 1
+cb 162 0 D ff
+vc 162 1/8 N 2 52 1/8
+vla 162 1/4 N 2 64 1/4
+vla 162 1/4 TIE
+vla 162 1/4 D ff
+vc 162 1/4 N 5 57 1/8
+vc 162 3/8 N 0 60 1/8
+vla 162 1/2 N 2 64 1/8
+vc 162 1/2 N 2 64 1/2
+vc 162 1/2 S 1
+vla 162 5/8 N 1 62 1/8
+vla 162 5/8 S -1
+vlnOne 162 3/4 N 5 81 1/8
+vlnTwo 162 3/4 N 5 69 1/8
+vla 162 3/4 N 0 60 1/8
+vlnOne 162 7/8 N 4 80 1/8
+vlnOne 162 7/8 S 1
+vlnTwo 162 7/8 N 4 68 1/8
+vlnTwo 162 7/8 S 1
+vla 162 7/8 N 6 59 1/8
+vla 162 7/8 S 1
+vlnOne 163 0 N 5 81 3/8
+vlnOne 163 0 S -1
+vlnTwo 163 0 N 5 69 3/8
+vlnTwo 163 0 S -1
+vla 163 0 R 1/4
+vc 163 0 N 3 41 1/8
+vc 163 0 S -1
+cb 163 0 N 3 29 1
+vc 163 1/8 N 0 48 1/8
+vla 163 1/4 N 0 60 1/4
+vla 163 1/4 TIE
+vc 163 1/4 N 3 53 1/8
+vlnOne 163 3/8 N 4 79 1/8
+vlnTwo 163 3/8 N 4 67 1/8
+vc 163 3/8 N 5 57 1/8
+vlnOne 163 1/2 N 3 77 1/4
+vlnTwo 163 1/2 N 3 65 1/4
+vla 163 1/2 N 0 60 1/8
+vc 163 1/2 N 0 60 1/2
+vc 163 1/2 S 1
+vla 163 5/8 N 5 57 1/8
+vla 163 5/8 S -1
+vlnOne 163 3/4 N 5 81 1/8
+vlnTwo 163 3/4 N 5 69 1/8
+vla 163 3/4 N 0 60 1/8
+vlnOne 163 7/8 N 0 84 1/8
+vlnOne 163 7/8 S 1
+vlnTwo 163 7/8 N 0 72 1/8
+vlnTwo 163 7/8 S 1
+vla 163 7/8 N 3 65 1/8
+vla 163 7/8 S 1
+vlnOne 164 0 N 1 86 1/2
+vlnOne 164 0 D mp
+vlnOne 164 0 S -1
+vlnTwo 164 0 N 1 74 1/2
+vlnTwo 164 0 D mp
+vlnTwo 164 0 S -1
+vla 164 0 R 1/4
+vc 164 0 N 1 38 1/8
+vc 164 0 S -1
+vc 164 0 D mp
+cb 164 0 N 1 38 1/2
+cb 164 0 D mp
+vc 164 1/8 N 5 44 1/8
+vla 164 1/4 N 3 65 1/4
+vla 164 1/4 TIE
+vla 164 1/4 D mp
+vc 164 1/4 N 1 50 1/8
+vc 164 3/8 N 3 53 1/8
+vc 164 3/8 S 1
+vlnOne 164 1/2 N 0 84 1/2
+vlnOne 164 1/2 TIE
+vlnTwo 164 1/2 N 0 72 1/2
+vlnTwo 164 1/2 TIE
+vla 164 1/2 N 3 65 1/8
+vc 164 1/2 N 4 43 1/2
+cb 164 1/2 N 4 43 1/2
+cb 164 1/2 TIE
+cb 164 1/2 S -1
+vla 164 5/8 N 2 64 1/8
+vla 164 5/8 S -1
+vla 164 3/4 N 1 62 1/8
+vla 164 7/8 N 4 55 1/8
+vla 164 7/8 S 1
+vlnOne 165 0 N 0 84 1/8
+vlnTwo 165 0 N 0 72 1/8
+vla 165 0 R 1/4
+vc 165 0 N 4 43 1/8
+vc 165 0 S -1
+cb 165 0 N 4 43 1/2
+vlnOne 165 1/8 N 6 83 1/8
+vlnTwo 165 1/8 N 6 71 1/8
+vc 165 1/8 N 1 50 1/8
+vlnOne 165 1/4 N 5 81 1/8
+vlnTwo 165 1/4 N 5 69 1/8
+vla 165 1/4 N 4 55 1/4
+vla 165 1/4 TIE
+vc 165 1/4 N 3 53 1/8
+vlnOne 165 3/8 N 4 79 1/8
+vlnTwo 165 3/8 N 4 67 1/8
+vc 165 3/8 N 6 59 1/8
+vlnOne 165 1/2 N 3 77 1/4
+vlnTwo 165 1/2 N 3 65 1/4
+vla 165 1/2 N 4 55 1/8
+vc 165 1/2 N 3 53 1/2
+vc 165 1/2 S 1
+cb 165 1/2 N 4 31 1/2
+cb 165 1/2 S 1
+vla 165 5/8 N 6 59 1/8
+vla 165 5/8 S -1
+vlnOne 165 3/4 N 1 74 1/4
+vlnOne 165 3/4 S 1
+vlnTwo 165 3/4 N 1 62 1/4
+vlnTwo 165 3/4 S 1
+vla 165 3/4 N 1 62 1/8
+vla 165 7/8 N 6 59 1/8
+vla 165 7/8 S 1
+vlnOne 166 0 N 0 72 1/2
+vlnOne 166 0 D p
+vlnOne 166 0 TIE
+vlnTwo 166 0 N 0 60 1/2
+vlnTwo 166 0 D p
+vlnTwo 166 0 TIE
+vla 166 0 N 2 64 1/2
+vla 166 0 N 4 67 1/2
+vla 166 0 D mp
+vla 166 0 TX div.
+vc 166 0 N 0 36 1/8
+vc 166 0 S -1
+vc 166 0 D p
+cb 166 0 N 0 36 1/2
+cb 166 0 D p
+cb 166 0 TIE
+cb 166 0 AR downbow
+vc 166 1/8 N 4 43 1/8
+vc 166 1/4 N 0 48 1/8
+vc 166 3/8 N 2 52 1/8
+vlnOne 166 1/2 N 0 72 1/2
+vlnTwo 166 1/2 N 0 60 1/2
+vla 166 1/2 N 2 63 1/2
+vla 166 1/2 N 4 67 1/2
+vc 166 1/2 N 2 51 1/2
+vc 166 1/2 S 1
+cb 166 1/2 N 0 36 1/2
+cb 166 1/2 AR upbow
+vlnOne 167 0 N 4 79 1
+vlnOne 167 0 N 2 87 1
+vlnOne 167 0 TR 32
+vlnOne 167 0 D f
+vlnOne 167 0 TX div.
+vlnTwo 167 0 N 0 72 1
+vlnTwo 167 0 N 4 79 1
+vlnTwo 167 0 TR 32
+vlnTwo 167 0 D f
+vlnTwo 167 0 TX div.
+vla 167 0 R 1/8
+vc 167 0 N 0 60 1/2
+vc 167 0 D f
+cb 167 0 N 0 36 1/8
+cb 167 0 D f
+vla 167 1/8 N 4 55 1/8
+vla 167 1/8 AR downbow
+vla 167 1/8 D ff
+vla 167 1/8 TX unis.
+vla 167 1/8 S -1
+cb 167 1/8 N 0 36 1/8
+vla 167 1/4 N 2 63 3/8
+vla 167 1/4 AR accent
+vla 167 1/4 S 1
+cb 167 1/4 N 0 36 1/8
+cb 167 3/8 N 0 36 1/8
+vc 167 1/2 N 2 63 1/2
+cb 167 1/2 N 0 36 1/8
+vla 167 5/8 N 1 62 1/8
+vla 167 5/8 S -1
+cb 167 5/8 N 0 36 1/8
+vla 167 3/4 N 1 61 1/8
+cb 167 3/4 N 0 36 1/8
+vla 167 7/8 N 0 60 1/8
+cb 167 7/8 N 0 36 1/8
+vlnOne 168 0 N 4 79 1/2
+vlnOne 168 0 N 2 87 1/2
+vlnOne 168 0 TR 32
+vlnTwo 168 0 N 0 72 1/2
+vlnTwo 168 0 N 4 79 1/2
+vlnTwo 168 0 TR 32
+vla 168 0 N 0 60 1/4
+vla 168 0 AR tenuto
+vla 168 0 S 1
+vc 168 0 N 2 63 1/2
+cb 168 0 N 0 36 1/8
+cb 168 1/8 N 0 36 1/8
+vla 168 1/4 N 6 59 1/8
+vla 168 1/4 AR upbow
+vla 168 1/4 S -1
+cb 168 1/4 N 0 36 1/8
+vla 168 3/8 N 0 60 1/8
+vla 168 3/8 S 1
+cb 168 3/8 N 0 36 1/8
+vlnOne 168 1/2 N 5 80 1/2
+vlnOne 168 1/2 N 2 87 1/2
+vlnOne 168 1/2 TR 32
+vlnTwo 168 1/2 N 0 72 1/2
+vlnTwo 168 1/2 N 5 80 1/2
+vlnTwo 168 1/2 TR 32
+vla 168 1/2 N 5 56 3/8
+vla 168 1/2 AR accent
+vc 168 1/2 N 3 65 1/2
+cb 168 1/2 N 0 36 1/8
+cb 168 5/8 N 0 36 1/8
+cb 168 3/4 N 0 36 1/8
+vla 168 7/8 N 4 55 1/8
+cb 168 7/8 N 0 36 1/8
+vlnOne 169 0 N 5 80 1
+vlnOne 169 0 N 3 89 1
+vlnOne 169 0 TR 32
+vlnTwo 169 0 N 0 72 1
+vlnTwo 169 0 N 5 80 1
+vlnTwo 169 0 TR 32
+vla 169 0 R 1/8
+vc 169 0 N 2 63 1/2
+cb 169 0 N 0 36 1/8
+vla 169 1/8 N 4 55 1/8
+vla 169 1/8 AR downbow
+vla 169 1/8 S -1
+cb 169 1/8 N 0 36 1/8
+vla 169 1/4 N 3 65 3/8
+vla 169 1/4 AR accent
+vla 169 1/4 S 1
+cb 169 1/4 N 0 36 1/8
+cb 169 3/8 N 0 36 1/8
+vc 169 1/2 N 0 60 1/2
+cb 169 1/2 N 0 36 1/8
+vla 169 5/8 N 2 63 1/8
+vla 169 5/8 S -1
+cb 169 5/8 N 0 36 1/8
+vla 169 3/4 N 1 62 1/8
+cb 169 3/4 N 0 36 1/8
+vla 169 7/8 N 0 60 1/8
+vla 169 7/8 S 1
+cb 169 7/8 N 0 36 1/8
+vlnOne 170 0 N 5 80 3/4
+vlnOne 170 0 N 3 89 3/4
+vlnOne 170 0 TR 32
+vlnOne 170 0 AR accent
+vlnOne 170 0 D ff
+vlnTwo 170 0 N 1 74 3/4
+vlnTwo 170 0 N 5 80 3/4
+vlnTwo 170 0 TR 32
+vlnTwo 170 0 AR accent
+vlnTwo 170 0 D ff
+vla 170 0 N 1 62 3/4
+vla 170 0 N 3 65 3/4
+vla 170 0 AR accent
+vc 170 0 N 1 62 3/4
+vc 170 0 AR accent
+vc 170 0 D ff
+cb 170 0 N 0 36 3/4
+cb 170 0 AR accent
+cb 170 0 D ff
+vlnOne 170 3/4 R 1/4
+vlnOne 170 3/4 AR fermata
+vlnTwo 170 3/4 R 1/4
+vlnTwo 170 3/4 AR fermata
+vla 170 3/4 R 1/4
+vla 170 3/4 AR fermata
+vc 170 3/4 R 1/4
+vc 170 3/4 AR fermata
+cb 170 3/4 R 1/4
+cb 170 3/4 AR fermata
+vla 171 0 N 0 60 1/2
+vla 171 0 D pp
+vla 171 0 S -1
+vc 171 0 N 2 63 3/4
+vc 171 0 TIE
+vc 171 0 S -1
+vc 171 0 AR upbow
+vc 171 0 D mp
+vc 171 0 TX Solo espr.
+vla 171 1/2 N 6 59 1/2
+vc 171 3/4 N 2 63 1/8
+vc 171 7/8 N 1 62 1/8
+vc 171 7/8 S 1
+vla 172 0 N 0 60 1
+vla 172 0 S 1
+vc 172 0 N 0 60 1/4
+vc 172 0 S -1
+vc 172 1/4 N 5 68 1/2
+vc 172 1/4 AR tenuto
+vc 172 3/4 N 4 67 1/4
+vc 172 3/4 S 1
+vla 173 0 N 0 60 1/2
+vc 173 0 N 3 65 3/8
+vc 173 0 S -1
+vc 173 3/8 N 2 63 1/8
+vla 173 1/2 N 5 56 1/2
+vc 173 1/2 N 1 61 1/4
+vc 173 3/4 N 3 65 1/8
+vc 173 7/8 N 5 68 1/8
+vc 173 7/8 S 1
+vla 174 0 N 2 63 1/2
+vc 174 0 N 0 72 1/2
+vc 174 0 S -1
+vla 174 1/2 N 1 62 1/2
+vc 174 1/2 N 6 71 1/2
+vc 174 1/2 S 1
+vlnTwo 175 0 N 4 67 1
+vlnTwo 175 0 D pp
+vlnTwo 175 0 TX unis.
+vlnTwo 175 0 TIE
+vla 175 0 N 0 60 1
+vc 175 0 N 4 43 1
+vc 175 0 D pp
+vc 175 0 S -1
+vc 175 0 TX Tutti
+cb 175 0 N 4 31 1
+cb 175 0 D pp
+vlnTwo 176 0 N 4 67 1
+vla 176 0 N 0 60 1
+vc 176 0 N 2 51 1
+vc 176 0 S 1
+cb 176 0 N 2 39 1
+vlnOne 177 0 R 3/4
+vlnTwo 177 0 N 5 68 1/2
+vla 177 0 N 5 56 3/4
+vc 177 0 N 1 50 1
+cb 177 0 N 1 38 1
+vlnTwo 177 1/2 N 3 65 1/2
+vlnOne 177 3/4 N 4 67 1/4
+vlnOne 177 3/4 S -1
+vlnOne 177 3/4 D (#<procedure line-markup (a b c)> ((#<procedure line-markup (a b c)> ((#<procedure dynamic-markup (a b c)> pp) (#<procedure hspace-markup (a b c)> 0.5) (#<procedure normal-text-markup (a b c)> (#<procedure italic-markup (a b c)> espr.))))))
+vlnOne 177 3/4 TX unis.
+vla 177 3/4 N 4 55 1/4
+vlnOne 178 0 N 2 75 1
+vlnOne 178 0 S 1
+vlnOne 178 0 TIE
+vlnTwo 178 0 N 2 63 1/2
+vla 178 0 N 0 60 1/2
+vc 178 0 N 0 48 1/2
+vc 178 0 S -1
+cb 178 0 N 0 36 1/2
+vlnTwo 178 1/2 N 3 65 1/2
+vla 178 1/2 N 5 56 1/2
+vc 178 1/2 N 1 49 1/2
+cb 178 1/2 N 1 37 1/2
+vlnOne 179 0 N 2 75 3/4
+vlnTwo 179 0 N 4 67 1
+vlnTwo 179 0 TIE
+vlnTwo 179 0 TX change bow at will
+vla 179 0 N 2 63 1
+vla 179 0 TIE
+vla 179 0 TX change bow at will
+vc 179 0 N 0 48 1
+vc 179 0 S 1
+vc 179 0 TIE
+vc 179 0 TX change bow at will
+cb 179 0 N 0 36 1
+cb 179 0 TIE
+cb 179 0 TX change bow at will
+vlnOne 179 3/4 N 1 74 1/4
+vlnOne 179 3/4 S -1
+vlnOne 180 0 N 0 72 1/2
+vlnOne 180 0 S 1
+vlnTwo 180 0 N 4 67 1
+vlnTwo 180 0 TIE
+vla 180 0 N 2 63 1
+vla 180 0 TIE
+vc 180 0 N 0 48 1
+vc 180 0 TIE
+cb 180 0 N 0 36 1
+cb 180 0 TIE
+vlnOne 180 1/2 N 1 73 1/2
+vlnOne 180 1/2 S -1
+vlnOne 181 0 N 0 72 1
+vlnOne 181 0 S 1
+vlnOne 181 0 TIE
+vlnOne 181 0 TX change bow at will
+vlnTwo 181 0 N 4 67 1
+vlnTwo 181 0 TIE
+vla 181 0 N 2 63 1
+vla 181 0 TX morendo
+vc 181 0 N 0 48 1
+vc 181 0 TIE
+cb 181 0 N 0 36 1
+cb 181 0 TIE
+vlnOne 182 0 N 0 72 1
+vlnOne 182 0 D ppp
+vlnOne 182 0 AR fermata
+vlnTwo 182 0 N 4 67 1
+vlnTwo 182 0 D ppp
+vlnTwo 182 0 AR fermata
+vla 182 0 N 2 64 1
+vla 182 0 D ppp
+vla 182 0 AR fermata
+vc 182 0 N 0 48 1
+vc 182 0 D ppp
+vc 182 0 AR fermata
+cb 182 0 N 0 36 1
+cb 182 0 D ppp
+cb 182 0 AR fermata
