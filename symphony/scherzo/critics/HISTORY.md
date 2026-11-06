@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 589 (lens 9 holistic, Aldwell & Schachter: the literature example that opens each unit, Units 20-32 (sixth pass)) v589 → v590
+c589: timpani answers f at 91 and 94.
+
 ## Cycle 588 (lens 8 expression, Adler ch. 10 brass dynamics, mutes, stopped horn (adler1 PDF 299-329) (sixth pass)) v588 → v589
 c588: horn tapers at 365–369 (print).
 
