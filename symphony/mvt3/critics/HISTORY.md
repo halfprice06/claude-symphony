@@ -2482,3 +2482,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 583 (v583 → v584), lens 3, accented 6/4 at 25 and 165
 - A&S Units 16 and 19 (accented 6/4 over a sustained bass, 8–7–6–5 over 6–5–4–3): at 25 and 165 the inner voices start on C–E♭ instead of a V chord, so the 6/4 resolves to 5/3 under the tune's 6–5–4–3 and no longer clashes with its appoggiaturas in the same register (violas and Cl 1 at 25; Cl 1, Vln II and Tbn 1 C4 at 165); viola C4 on beat 1 of 25 avoids octaves with cellos and Bn 2; page break at 25 kept.
 - Proportions checked (exposition 35.0%, development 17.7%, recapitulation 16.3%, coda 31.2%): no change. Declined cadential 6/4 changes at 93 and 130.
+
+## Cycle 584 (v584 → v585), lens 4, Cl 1 G5 in the final chord
+- Adler ch. 15 (brilliant tutti fills every upper octave; Freischütz interlocking): Cl 1 plays G5 instead of E5 at 278–279, so the woodwinds spell the full final chord from G6 down to C5 with oboes and clarinets interlocked; E5 had been tripled and G5 left to a third of the divided Vln II under fff brass. Ob 2's E5 from cycle 274 kept.
+- Recorded only: movement I's head at 265–268 has no brass (rests protected; brass joins at 269 and 271).
