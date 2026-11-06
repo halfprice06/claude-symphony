@@ -8,8 +8,6 @@ FOCUS
 
 Your main source is Dan's reference books (Dan, 2026-10-09: "I want greater coverage and use of the books. the focus should be on the books content"). Text is in /home/user/claude_composes/reference-books/ and the PDFs are in /home/user/claude_composes/pdfs/; INVENTORY.md is the index, and per-page text is in text/<book>/p0123.txt (4-digit PDF page). Book file names are listed in INVENTORY.md (e.g. aldwell-schachter = "harmony and voice leading.pdf", rimsky-principles = "principles of form.pdf", adler1/adler2 = the two Adler parts, gould-behind-bars = "behind bars.pdf", sebesky = "the contemporary arrange - sedesky.pdf").
 
-Sample library (Dan, 2026-11-06): the DAW mockups of this symphony are played by EastWest Hollywood Orchestra Opus Edition. Its May 2021 manual, as text, is /home/user/claude_composes/guides/eastwest-hollywood-orchestra/text/EW-Hollywood-Orchestra-Opus-Edition-User-Manual-2021.txt (the PDF is in ../pdfs/; the guides README lists the newer 2025 manuals). When a finding concerns an articulation, playing technique, mute, divisi, or a solo against a section, check what the library offers and say in the finding whether the marking has a matching patch, citing the manual page. Write for a real orchestra first: a marking with no patch is not wrong, but name it so the mockup can plan for it.
-
 Your assigned reading: READING.
 1. Read every text page in that range in full, not just keyword hits.
 2. Render every page of music examples in the range as an image (`pdftoppm -f N -l N -r 110 -png "/home/user/claude_composes/pdfs/<book>.pdf" /tmp/critic-NNN/pg`) and look at it. The OCR of notation and chord labels is unreliable.

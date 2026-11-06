@@ -24,7 +24,6 @@ symphony/mvt1/
 symphony/loop-kit/     critic_prompt.txt (prompt template), genprompt.sh, promote.sh, syllabus.py
 symphony/cyclic-notes.md   material shared between movements (owned by the movement I thread)
 reference-books/       Dan's books; INVENTORY.md, text/<book>/p0123.txt
-guides/eastwest-hollywood-orchestra/   the mockups' sample library manuals (see "The sample library")
 reference-corpus/      master scores (LilyPond/MusicXML/PDF); README.md is the index
 ```
 
@@ -57,10 +56,6 @@ Dan: "I want greater coverage and use of the books. the focus should be on the b
 2. render every music-example page as an image (`pdftoppm -f N -l N -r 110 -png "<book>.pdf" /tmp/critic-NNN/pg`) and look at it, because the OCR of notation and chord labels is unreliable;
 3. open its report with a "Reading notes" table: principle, book and PDF page, bars of the score, verdict (follows / violates / not applicable);
 4. base its findings on that reading. The corpus and the web are secondary.
-
-## The sample library (from 2026-11-06, by Dan's instruction)
-
-The DAW mockups are played by EastWest Hollywood Orchestra Opus Edition. Its manuals are in `guides/eastwest-hollywood-orchestra/`; the May 2021 edition (`text/EW-Hollywood-Orchestra-Opus-Edition-User-Manual-2021.txt`) has the most detail per instrument. The composer and the critics use it whenever a choice concerns an articulation, playing technique, mute, divisi, or a solo against a section: they check whether the library has a matching patch and say so, citing the manual page. The score is still written for a real orchestra; a marking with no patch is named so the mockup can plan for it, not removed.
 
 ## One cycle, step by step
 
