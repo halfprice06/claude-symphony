@@ -2419,3 +2419,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 567 (v567 → v568), lens 7, no change
 - Sebesky ch. 3 (string layouts; keep an octave doubling in one colour, PDF 152–153, Ex. 203): no change. The critic proposed swapping the violas' and cellos' parts at 41 so the violas carry F1's last head to its end (the colour seam c551 left). Declined: it removes the cellos' sul G line at 41–42, a deliberate colour since c391 (kept again by c551), and the proposal does not answer that reason.
 - Not applied: the flute a level below the violins at 19–23, the cellos off the basses' F at 133–134 (c183). Checked, no change: high-register seconds in the strings, the string layout at 43–50.
+
+## Cycle 568 (v568 → v569), lens 8, MOLA dynamics at 229 and 94
+- MOLA (vertical proofreading; marks in every staff, PDF 8, 10–11): the canon's last diminuendo at 229 (Fl, Ob, Cl 1·2, Vln I·II) now ends on f at 229.3, the level of every other part in that bar and of the brass at 231, instead of a bare hairpin end; and Hn 2 takes the accent on the codetta's last chord at 94.1 (`es'2->`), as the other 22 parts do. Swells at 227–228, pitches and rhythms unchanged.
+- Tested and reverted: a staccato on the basses' D♭ at 104.4 (the full quarter is deliberate under the violins' run). Kept: Bn 2's accent at 274.1, the ff placements at 199/265/269, the harp pedal diagrams (c006, c566).
