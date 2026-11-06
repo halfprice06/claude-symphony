@@ -2462,3 +2462,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 578 (v578 → v579), lens 8, dal niente at 47
 - Adler ch. 7 (the clarinet's niente attack, PDF 211, Ex. VII-57; held-note hand-overs, PDF 188): Cl 2's A♭3 at 47, where it takes over Hn 4's fading note (c538's crossfade), is marked "dal niente", as the clarinet pads at 51 and 171 are. Text only; MIDI byte-identical.
 - Checked across the woodwinds: no low-register pp in oboe or bassoon, no covered low flute, the bassoon solo accompanied softer than it plays. Not applied: Fl 1's B♭6 at 78 (doubles Vln I), a niente entry at 181 (protected), graded hairpins at 115–122 (declined twice), 143–144 (protected).
+
+## Cycle 579 (v579 → v580), lens 9, holistic comparison with Saint-Saëns 3
+- Holistic comparison with Saint-Saëns 3/iv, plus a v569 → v579 check (Adler part 2 ch. 16: a crescendo built by entries, Bizet and Ravel, PDF 213, 216, 224): the stringendo run into R at 245–246 now enters from the bottom up, violas on 245.3, Vln II on 245.4, Vln I and Fl 1 on 246.1, each keeping its notes from its entry and the arrival on G at 246.3; Vln I and Fl 1 no longer rise G5–A5–B5 against the horn call's resolving C6 (Tpt 1) on 245.3. The horn call itself unchanged.
+- Declined: a relay sweep in sixteenths (c537), Bn 1 resting at 110–113 (c062, c094), Cl 1 lower at 121–122 (c323), harp arpeggios under 255–262 (protected), drop-outs at 233–234 (protected), open-string cellos at 2 and 6 (fifths). Cycles 569–578 rechecked: nothing got worse.
