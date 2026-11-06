@@ -1814,3 +1814,735 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 - Casanelles PDF 272–276 (bow position and tone colour): strings start the falling chain at 135 "sul tasto" at pp and return to "ord." on the sf stop chord at 138 (text only; merged with the existing div./non div.).
 - Release check: subtitle now "Full score in C — v400, 27 October 2026"; title "IV. Finale: Allegro con fuoco" and part headers agree; parts build with 0 warnings.
 - Beethoven 9/iv holistic comparison and v389 → v399 check: nothing worse.
+
+## Cycle 400 (v400 → v401), lens 10, cyclic review
+- Cyclic review: every quotation of movements I (v421), II (v400) and the scherzo (v400) matches at pitch; records 35/35, 18/18, 11/11, 52/52, finale 51/51. No score change.
+- coherence/finale.md: five stale sentences corrected (movement II record location, scherzo request date, scherzo.md path, bass trombone at 255 since v394, Hn 4 at 43–47 since v330).
+
+## Cycle 401 (v401 → v402), lens 1, Adler woodwinds
+- Adler ch. 7 (PDF 184–232): woodwind solos, registers and breathing checked (Bn 1 116–122 peak mp per PDF 210; breath spans per PDF 188, 198, 214); low-clarinet theme and low-flute colour considered and declined. No score change.
+
+## Cycle 402 (v402 → v403), lens 2, A&S mixture
+- A&S Unit 23 (PDF 387–388, Ex. 23-2b and 23-2h; PDF 395): bar 82, the chord before the closing group's V is now minor iv6 over C♭ (Vc, Cb, Bn 2, harp; violas C♭4–B♭3 an octave above the cellos), so the violas' C♭ at 81 is no longer contradicted by a C♮ bass before B♭; Hn 1 E♭4–D4 gives V its third; score-only harp pedal mark "C♭" at 81. F2's tune and bar 83 unchanged.
+- Considered and declined: ♭9 in V7 of G at 131, ♮7 appoggiatura at 135, °6/5 passing chord at 19 and 159 (protected or against the melody).
+
+## Cycle 403 (v403 → v404), lens 3, A&S 6/4 prolongation
+- A&S Units 16 and 19 (PDF 255–257, 309–310, Ex. 19-4 and 19-9): bars 75–76 the bass steps G–F–E♭ through a passing V6/4 into the E♭-major statement's I (was a leap G1→E♭2 on 75.3 a beat early, leaving a minor 9th under the violins' turn); Cb and harp LH `g,,2 f,,4 es,,4 | d,,2 es,,2`, Bn 2 `g2 f4 es4 | d2 es2`, Hn 2 `g2 bes2~ | bes2 g2` (avoids octaves with the new bass).
+- Considered and declined: cadential 6/4 at 89–90, expanded dominants at 39–42 and 147–150. Proportions checked (exp 34.9%, dev 12.2%, retrans 5.5%, recap 16.3%, coda 31.2%).
+
+## Cycle 404 (v404 → v405), lens 4, Adler ch. 15 texture
+- Adler part 2 ch. 15 (PDF 159–166): Fl 2 at 263–264 now resolves the chorale's B5 to C6 with Fl 1 (a2) instead of leaping down to E5, its weak register and already in Vln II; C7 still only at 223.
+- Considered and declined: V7 seventh at 262, brass on the motto at 265–268, timpani at 231–233, chorale doubling at 257–263.
+
+## Cycle 405 (v405 → v406), lens 5, MOLA
+- MOLA PDF 7–8, Ex. 7: a text crescendo broken by a line or page break now restates "(cresc.)" on the new line (callback c405-broken-cresc in global.ily, on in score.ly and parts-book.ly; in the score only bar 144, after the 143|144 page turn). Parts book builds with 0 warnings.
+- MOLA Ex. 7: harp "étouffez" kept inside its bar at 134, 243 and 279 (placement only).
+- Ob 1's solo number at 187 now bold like the others.
+
+## Cycle 406 (v406 → v407), lens 6, Adler brass endurance
+- Adler (adler2 PDF 8, adler1 PDF 292, brass need frequent rests): the tuba now rests at 217–218 (was 211–228 with breath marks only, about 33 s); F still held by contrabassoon F1 and bass trombone, basses and Bn 2 F2 under the horns' echo.
+- Considered and declined: Hn 1 C5–D♭5 at 105–106, stopped-horn echo at 217–218, low-brass balance at 207–208.
+
+## Cycle 407 (v407 → v408), lens 7, Adler ch. 5 strings
+- Adler ch. 5 (PDF 137 Ex. V-14, PDF 141 Ex. V-19): cellos join the violins' third rising run at 209–210, an octave below Vln II (A♭2 up to G♭4, f <), adding an octave to the crescendo into 211; the A♭ pedal stays in basses, Bn 2, Cbsn, bass trombone, tuba and timpani.
+- Considered and declined: agitated inner strings at 115–122 (protected), a Vln II counter-line at 19–26 (keeps the recap's growth).
+
+## Cycle 408 (v408 → v409), lens 8, Rimsky sf-p
+- Rimsky-Korsakov PDF 129–130 (sf-p and crescendo by groups): bar 149, all woodwinds now join the brass and timpani's sfp < into ff at 150 (they had re-attacked ff over the dip); strings and Tpt 1·2 keep the attack. Notes unchanged.
+- Considered and declined: Hn 1 pp at 187, Tpt 3 ff at 247, clarinet morendo at 39–42.
+
+## Cycle 409 (v409 → v410), lens 9, Brahms 1 holistic
+- Rimsky-Korsakov Ex. 18 (PDF 58, 195): a solo cello doubling Vln II on F2 at 67–76 tested in a scratch build and declined (inaudible inside the section, costs the counter-melody's first desk).
+- Brahms 1/iv holistic comparison and v400 → v409 check (v399 is not in the checkout; v400 differs only by text): nothing worse. No score change.
+
+## Cycle 410 (v410 → v411), lens 10, cyclic review
+- Cyclic review against movement I v421, movement II v400 and scherzo v400: all quotations at pitch, records 51/51, 35/35, 18/18, 11/11, 52/52; cyclic rules hold.
+- A&S Unit 32 (PDF 586–593): Hn 1 common-tone E♭4 from 186 into 187 tested and declined (17 pages, covers the protected 171–186 cadence). No score change.
+- coherence/finale.md: six stale passages corrected (bar 82 iv6, Fl 2 at 263, Vln II and cello runs at 207–210, E♭ silence now 217–218, running list moved under its heading, open request now as of v410); note added on the scherzo's last horn phrase continuing into bars 1–2.
+
+## Cycle 411 (v411 → v412), lens 1, Sebesky melody
+- Sebesky ch. 6–7 (PDF 204–230, Ex. 273): carrying F2's fourth phrase in violas and cellos into the cadence at 259–262 tested and declined (octaves or fifths into 263, masked by the brass, loses the viola pulse). No score change.
+
+## Cycle 412 (v412 → v413), lens 2, A&S applied chords
+- A&S Units 24–25 (PDF 419, 429 Ex. 25-21b, 439): bar 77 beats 1–2, the I6 under F2's climb to the B♭6 at 78 becomes V6/5 of IV (violas D♭4 falling to C4; Hn 2 B♭3–A♭3 so the leading tone G is not doubled; harp RH drops its G4 for the half bar). Tune, bass and dynamics unchanged.
+- Applied chords at 17.3, 20.4, 36.4, 70.3, 73.4, 80.1, 157.3, 168, 202 checked: no fault. V4/3 of ii at 126.3, VII°7 of V at 38.3, a third ♯4 approach at 23.4/160.4 and C7 at 78 declined.
+
+## Cycle 413 (v413 → v414), lens 3, A&S 6/3 techniques
+- A&S Unit 18 (PDF 297–298, Ex. 18-12, the 7–6 into iv6 of a Phrygian cadence): Cl 2 at 57–58 `bes2~ bes4 aes4~ | aes4( bes4 f4 aes4)` and at 177–178 `es4 g4~ g4 f4~ | f4( g4 d4 f4)`, holding over the bass and resolving on beat 4 into V7's seventh; violas at 177.3 start on G instead of F. Clears the octave flag at 178.1. Solo and pizzicato unchanged.
+- Declined: stepwise bass at 57/177, voice exchange at 87–89, rising 6/3 chains, moving bass under 223–238. Proportions unchanged.
+
+## Cycle 414 (v414 → v415), lens 4, Adler ch. 8 woodwind-string
+- Adler ch. 8 (PDF 245 Strauss, PDF 270 Copland, PDF 249–250): Fl 2, Ob 2 and Tpt 2 now end with the 216 diminuendo and rest at 217–218, so the cor anglais and Hn 1·2 echo of theme B's head is heard; they re-enter on their old notes at the 219 sub. p. Top line and the 205–223 dynamic path unchanged.
+- Checked, no change: Ob 1 unison with the violins at 187–190, the overlapped wind pairs at 219–222.
+
+## Cycle 415 (v415 → v416), lens 5, Adler ch. 18 score preparation
+- Adler PDF 291, 301; Gould PDF 41, 55: "change bow at will" no longer crosses barlines: three-line text at 149 (Vc, Cb) and 224 (Cb), a new four-line text with "unis." at 224 (Vc) and 226 (Vln II) (global.ily); the basses' text moves from 139 to 140 within the same held B♭. MIDI unchanged.
+- Checked, no change: five ledger lines at 78, 213–214, 223 (Gould PDF 47); timpani retuning placement (Adler PDF 292, 294).
+
+## Cycle 416 (v416 → v417), lens 6, Adler percussion
+- Adler part 2 ch. 12 (PDF 79, timpani on tonic and dominant at cadences): the A♭ drum stays on B♭ from 37 to 94 so the timpani strike E♭/B♭ with the trumpets, tuba and basses in the codetta (91–94: `es4-> r8 es8 bes,4-> r4` twice, then `r4 es2-> bes,4->`); "muta B♭ in A♭" moves from 43 to 95.
+- Same source: bar 113, the timpani play F2 with the bass on the development's F-minor cadence instead of C (G drum to F at 95, back to G at 114). Range now F2–E♭3. Parts book builds with 0 warnings.
+
+## Cycle 417 (v417 → v418), lens 7, Adler ch. 15 polyphony
+- Adler part 2 ch. 15 polyphonic texture (PDF 172–186): violas in thirds and sixths under Vln II at 255–258 (Mozart, PDF 176) tested and declined (new fifth at 258.1 with Cl 1, masked by held brass, undoes c327's viola–cello unison). 247–254 three-octave doubling kept (register gap holds the second theme). No score change.
+
+## Cycle 418 (v418 → v419), lens 8, Adler bowing
+- Adler PDF 38–39 (about six notes per bow at forte): the cellos' run at 209–210 now slurs 4 + 8 like Vln II (was 12 on one bow); Vln I down-bow at 209, so all three lines reach the accented G♭ at 210.3 on a down-bow.
+- Adler PDF 38, 42–43: down-bows for the lower strings on the accented arrivals at 113 (Vla, Cb) and 132 (Vla, Vc, Cb), matching the violins. Bow signs only; MIDI unchanged.
+
+## Cycle 419 (v419 → v420), lens 9, Tchaikovsky 5 holistic
+- Rimsky-Korsakov examples No. 69–130 (PDF 241–305; Ex. 87, 91, 98; PDF 78–79, 129–130): the contrabassoon no longer doubles the basses under the soft lament bass at 107–109; it rests from 94 and enters ff on its C1 at 110, the loud goal.
+- Tchaikovsky 5/iv holistic comparison and v409 → v419 check: nothing worse.
+
+## Cycle 420 (v420 → v421), lens 10, cyclic review
+- Cyclic review against movement I (mvt1.md v441), movement II (mvt2.md v420) and the scherzo (scherzo.md v412): all quotations at pitch; the scherzo record's 9 changed entries are the second idea (c411), which the finale does not quote.
+- A&S Unit 26 (PDF 446, 451, 457): tonicizing IV at 270–272 (B♭ in F1's third bar) tested and declined (clashes with movement I's head in major; loses F1's leading tone). No score change.
+- coherence/finale.md: header, the scherzo motto-tail bar numbers (357–360), the scherzo and movement II headings and the open request brought up to date; movement I's two seeds of the finale (I 79→80, the development's B–D–F–A♭ stations) recorded.
+
+## Cycle 421 (v421 → v422), lens 1, A&S figuration
+- A&S Unit 21 (PDF 352–353, 363–364, Ex. 21-35): the E♭-major counter-melody at 74 (Vc, Vla, Hn 1) now goes B♭–A♭–F–G, the G a weak-beat anticipation tied into 75, instead of G3 on beat 3 against the bass's passing seventh A♭ and the harp's A♭4; matches the recapitulation at 194.
+- Tested and declined: a melodic resolution of the C6 at 242. Checked, kept: F2's cadences at 73–74 and 80–81, the 4–3 at 210–211.
+
+## Cycle 422 (v422 → v423), lens 2, A&S Neapolitan and augmented sixths
+- A&S Units 28–29 (PDF 482–529): the critic proposed ♭II6 (B♭–D♭–G♭, top line G♭6–F6–E6) at 112 in place of ii°6/5. Rejected by the composer: 107–113 (lament and F-minor climax cadence) is on the do-not-touch list (c276, c551, c623), the change gives up the prepared F–E suspension at the climax, and ♭II is kept for its cross-movement thread (movement I's N6 at 20–22 and 140–143, the finale's D♭ episode at 205–223 and 184). No score change.
+- Spelling check (A&S PDF 496–499): all 27 chromatic spellings correct.
+
+## Cycle 423 (v423 → v424), lens 3, Adler accompaniment and pacing
+- Adler ch. 15/17 (PDF 190, Ex. XV-36): a soft horn chord overlapping the ff stroke at 94→95 tested and declined (the half-bar silence ends the exposition and sets off the movement II quotation). Coda stages, the second-theme head at 235–239, the horn call's accompaniment and the subito pianos checked. No score change.
+
+## Cycle 424 (v424 → v425), lens 4, Adler ch. 11 brass
+- Adler ch. 11 (PDF 15, brass balance above mf): Tbn 1 now plays F♯3 instead of E♭3 in the German sixth at bars 1 and 5, stepping to its G3 at 2 and 6, so the chord's defining F♯ is no longer only in Hn 4. E♭ stays in Hn 2, Ob 1, Cl 2, Vln II, violas and cellos; link pitches unchanged.
+- Recorded only: the single brass F♯4 in the German sixth at 261 (protected). Declined: bars 2 and 6 low third, the plagal close at 231–234.
+
+## Cycle 425 (v425 → v426), lens 5, Gould clefs
+- Gould PDF 21–22: the cellos' run at 209–210 stays in bass clef (G♭4 on three ledger lines) instead of switching to tenor mid-slur and back before the rest.
+- Gould PDF 13, 23: score-only bass clef for Hn 1·2 at 79–82 (after Hn 1's breath at 78|79, back to treble at the 82|83 double bar), as at 25–26 and 165–166, so Hn 2's B♭2 no longer sits on five ledger lines. Parts unchanged; MIDI unchanged.
+
+## Cycle 426 (v426 → v427), lens 6, Adler ranges
+- Adler App. A (PDF 306; adler2 PDF 8): the bass trombone's short ff dominant notes at 91–93 rise to B♭2 (were B♭1, the bottom of its range); B♭1 stays in tuba, contrabassoon and basses.
+- Adler PDF 302: score header now names the basses' C extension at 75–76, 166 and 174–183.
+- Checked, no change: Tpt 1 C6s at 243–250, timpani drum sizes, woodwind extremes.
+
+## Cycle 427 (v427 → v428), lens 7, Adler ch. 17 accompaniment
+- Parts book: the bass clarinet's sfp < at 149 is now drawn in its part (part-only minimum hairpin length, as at bar 10); the parts book builds with 0 warnings again. Score MIDI unchanged.
+- Adler ch. 17 (PDF 279, Bizet octave lift at the climax): Fl 1 an octave above the cor anglais and muted trumpet at 181–183 tested and declined (takes the climax from the soloists). No score change.
+
+## Cycle 428 (v428 → v429), lens 8, Adler climactic brass
+- Adler Ex. XI-19, XI-21 (PDF 37–40), Rimsky-Korsakov PDF 130: in the last cadence the brass hold ff at 259–260 and crescendo from 261 with the timpani's roll into fff at 263; woodwinds and strings still crescendo from 259; the horns' breath after 260 now precedes their crescendo. Pitches, voicing and the 263 fff unchanged; MIDI notes identical.
+- Declined: chorale accents after 255, timpani on the sforzandi at 101 and 105.
+
+## Cycle 429 (v429 → v430), lens 9, Dvořák 9 holistic
+- Rimsky-Korsakov PDF 107–108 (Ex. 148, 151: stopped horns over low clarinets): Cl 2 at 167–170 now plays A♭3–F♯3–G3–F3 in its low register with Bn 1 (`aes1 | fis1\> | g1 | f1\pp`), no longer in unison with the stopped Hn 2; Cl 1 still carries A♭4 to the cor anglais at 171. Dynamics unchanged.
+- Dvořák 9/iv holistic comparison and v419 → v429 check: nothing worse.
+
+## Cycle 430 (v430 → v431), lens 10, cyclic review
+- Cyclic review against movement I v461, movement II v445 and scherzo v421 (their newest versions): all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51. Movement I's new cello tremolo at its 122 checked against 223: the arrival stays distinct.
+- Casanelles PDF 222: score title stamp now "draft v431" (was "v400, 27 October 2026"), bumped each version.
+- Casanelles ch. 5 (PDF 219–220, 239, 245–248): cor anglais in the close at 273–279 tested and declined. No musical change.
+- coherence/finale.md: header, records and open request brought to c430; scoring-rules note on movement I's 122 added.
+
+## Cycle 431 (v431 → v432), lens 1, Adler brass melody
+- Adler ch. 11 (PDF 28–29, Ex. XI-12 Schubert Rosamunde; PDF 30–32, Ex. XI-14): Tbn 1 now holds its F3 from 40 and plays F1's last fragment F–D–E♭–F with the cellos at 41–42, fading to p; Tbn 2 and the bass trombone still stop after 40. The score's first soft melodic trombone phrase; F1's notes unchanged.
+- Checked, no change: high horn unisons, trombones on F1's head at 37–38.
+
+## Cycle 432 (v432 → v433), lens 2, A&S chromatic voice leading
+- A&S Unit 31 (PDF 563–564, Ex. 31-17; PDF 532, 537): bar 129 beat 4 is now minor iv6 (E♭–G–C) before V7 at 130, so the bass moves E–E♭–D (♮6–♭6–5): Vc `e4 es4`, Cb `e,4 es,4`, Hn 4 C4 on beat 4, harp LH's last note G4 (no E♮, no pedal change). Tune, the 123–130 hand-over and dynamics unchanged; a German sixth there was tested and rejected (C♯ against Bn 1's C4).
+- Declined: voice swap at 146→147, ♭VII at 237, common-tone °7 at 39–42, swaps at 131–134.
+
+## Cycle 433 (v433 → v434), lens 3, A&S phrase and V7
+- A&S Units 6–8 (PDF 98, 100, 102 Ex. 6-19, 117): the long V7's seventh F now resolves down by step into the recapitulation at 151: Tbn 1 `es'2 c'2`, Tbn 2 `c'2 es2` (F–D to E♭–C in thirds, then exchanging), Bn 1 `es2 g,2`, Vc `<g, es>2 g,2` (all three had leapt away from F). F1, the G pedal, dynamics and the 4–3 and 6–5 at 151–153 unchanged.
+- Checked, no change: bass octave leap to the 7th, root-position long dominant at 139–146, i6 at 11 and 166.
+
+## Cycle 434 (v434 → v435), lens 4, Adler ch. 5 strings
+- Adler ch. 5 (PDF 141, Ex. V-19; PDF 152): the cellos double Vln I an octave lower in the fall at 169–170 (`g,4 d'8( c' b aes g f | d2.)\p r4`), as at 41–42 (c344), instead of holding G2–B2 above the basses; G and B stay in basses and Bn 2.
+- Checked, no change: the major F2 register at 187–198, the plagal close at 231–234, viola-over-violin crossing.
+
+## Cycle 435 (v435 → v436), lens 5, MOLA parts
+- MOLA PDF 5, Ex. 4; Adler part 2 PDF 299: part-only cues before five entries after long rests at 127–132 (Fl 1 at 129, Hn 1 at 127, Hn 3·4 at 129, Ob 1 at 131, timpani at 132); new \addQuote "clOne".
+- MOLA PDF 8, Ex. 7: in the cor anglais and bass clarinet parts, line breaks before 235 (and 255 in the cor anglais) so letters P and Q each stand over their own rest. Score and MIDI unchanged; parts book 0 warnings.
+
+## Cycle 436 (v436 → v437), lens 6, Rimsky ch. I
+- Rimsky-Korsakov PDF 26 (highest notes on the lower strings in fourth position): Vln II's "sul G" at 255–257 now ends on 256's G4, so the ff C5–D5 at 257 are played on the D string. Marking only.
+- Rimsky-Korsakov PDF 36 (clarinet leaps across the break): the soft held F5 at 103–104 moves from Cl 1 (just off an accented C4 at 102.4) to Cl 2, resting since 95; same sounding pitches.
+
+## Cycle 437 (v437 → v438), lens 7, Adler ch. 16 transcription
+- Adler ch. 16 (PDF 211–213, Ex. XVI-10 Dvořák; PDF 203, 230–231): the violas enter at 8 answering the cellos' F1-head figure a fourth higher and two octaves up (`g'2 d'4. es'8`), the E♭4 falling to their held D4 at 9 (6–5 over V); before, they entered at 9. Bars 1–6 and the other staggered entries at 9–10 unchanged.
+- Declined: a late oboe answer at 19–26, moving the counter at 159–166, a rhythmic B♭ pedal at 83–86, a cello rhythm at 171–186.
+
+## Cycle 438 (v438 → v439), lens 8, Casanelles dynamics
+- Casanelles PDF 147–148 (two like instruments in unison sound like two players; use one or three or more): Vln I's exposed pp unison at 119 and 122 is now marked "4 soli" (was "2 soli", meant as two desks since c209). Text only; MIDI unchanged.
+- Checked, no change: Ob 1 and Cl 1 unison at 107–110, repeated-note figures at 247–277.
+
+## Cycle 439 (v439 → v440), lens 9, Beethoven 5 holistic
+- Rimsky-Korsakov ch. IV (PDF 127 "Amplification", Ex. 248): at 9.1 horns 1–4, contrabassoon and basses now enter p < instead of mf, so the crescendo's second group grows from below rather than stepping up; entry order, violins' mf and the f at 10.3 unchanged.
+- Beethoven 5/iv holistic comparison and v429 → v439 check: nothing worse. Declined: flute on the 4 soli at 119/122 (page 7 overfull), pizz. chords at 89–90.
+
+## Cycle 440 (v440 → v441), lens 10, cyclic review
+- Adler (adler2 PDF 188, 190–191, Ex. XV-36, XV-37): Tpt 1 now ends with the 216 diminuendo and rests at 217–218 (as Tpt 2 since v415), so the cor anglais and horns' echo of theme B has no trumpet a fourth above it; the held D♭ continues in Fl 1, Ob 1, Cl 1 and the violins; Tpt 1 re-enters on the 219 sub. p C5. Theme B, the D♭–C–B–C top line and 222→223 unchanged.
+- Cyclic review against movement I v476, movement II v461 and scherzo v435: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51. coherence/finale.md brought up to date (seven sentences).
+
+## Cycle 441 (v441 → v442), lens 1, A&S rhythm and meter
+- A&S Unit 3 (PDF 50, 52–54, Ex. 3-10, 3-11: a group ends on its tonal goal): F2's climax slur now runs from 59 to 63.1 (exposition, Tpt 1) and 179 to 183.1 (recapitulation, cor anglais and Tpt 1), so the deceptive V7→VI and V→i6 resolutions belong to the phrase; the breath moves to 63.3/183.3 and the last phrase starts with an upbeat. Fl 1's doubling ends on the downbeat. F2's notes unchanged; phrasing only.
+- Declined: a 9–8 at 17–18/157–158, a dotted peak at 62.
+
+## Cycle 442 (v442 → v443), lens 2, A&S added dissonance
+- A&S Unit 27 (PDF 469–470, Ex. 27-10): the harp's second group at 72 no longer sounds the root B♭4 a seventh above the violas' 9th C4 in the B♭9 dominant (`f'8 aes'8 d''8 f''8`), as c352 did at 81.
+- Tested and declined: a dominant ninth at 128 (cluster under Vln II's F♯4). Checked: the violas' 9th at 46.3.
+
+## Cycle 443 (v443 → v444), lens 3, A&S III and VII
+- A&S Unit 15 (PDF 236 Ex. 15-9; PDF 243–245): bar 16 beat 3 now sounds the full ii∅7 (D–F–A♭–C) as at 156.3: Cl 1 `aes'2( f'2)`, Cl 2 `f'2( c'2)` (the chord stood a quarter note as a bare diminished triad).
+- Declined: ♮VII → IV6 → V at 16–18, III under the passing 7 at 69. Key plan and proportions checked.
+
+## Cycle 444 (v444 → v445), lens 4, Casanelles spectral
+- Casanelles PDF 272–273, 283–287 (sul tasto removes upper partials; a remembered, distant sound): the strings' held chord under the oboe's movement II recollection at 95–98 is now "sul tasto", with "ord." at each part's return (99 for Vla, Vc, Cb; 103 for Vln II). Text only; MIDI unchanged.
+- Declined: stopped Hn 3·4 at 95–98. Checked: the receding returns of the second theme, theme B and the scherzo motive.
+
+## Cycle 445 (v445 → v446), lens 5, Adler string notation
+- Adler PDF 30, Ex. II-12 (double notes divided, every change written, "unis." for the return): violas at 95 now read "sul tasto, / div." and at 99 "ord., unis." (the "non div." from 91 was still in force under the soft chord). Text only.
+- Tested and declined: measured-tremolo shorthand for the basses at 266–276 (MIDI would lose the pulse).
+
+## Cycle 446 (v446 → v447), lens 6, Sebesky winds
+- Sebesky ch. 2 (PDF 63, 70–72, 106: the oboe's lowest fifth is coarse; the cor anglais is not, and blends with the clarinet below): Ob 2's held inner line at 159–166 (ending E♭4, D4, E♭4) moves to the cor anglais, resting 151–170 before; same pitches, slurs and dynamics; the separate Ob 2 staff added in c135 is removed. Parts book 0 warnings.
+- Tested and declined: Fl 1 instead of Cl 1 on the pp D6 at 121–122. Checked: 143–150.
+
+## Cycle 447 (v447 → v448), lens 7, Rimsky overlaying
+- Rimsky-Korsakov PDF 108 (soft horn-and-bassoon writing: concords and held notes to the horns, discords to the bassoons): in the off-beat chords under F1 at 13–15 and 21–23, Hn 4 now holds G3 and Bn 1 takes the seventh F3, resolving it to E♭3 on 15.2 and 23.2, so that C-minor chord gains its third (Hn 4's F3 used to rise to G3). 24–26, tune and bass unchanged.
+- Checked: horns inside the 136–138 chain, 95–98, 101–106.
+
+## Cycle 448 (v448 → v449), lens 8, A&S accent and hypermeter
+- A&S Unit 3 (PDF 50–51, Ex. 3-6: a note entering on a weak beat and held over the strong beat is marked): accents on the IV chord entering on 272 beat 2 in Bn 1, Hn 3·4 and violas, held into the Largamente at 273. Notes, dynamics and tempo unchanged.
+- Checked: the four-bar grid 11–264, accents and tempo words on it. Declined: accents in the 7–6 chain at 87–89 and on every downbeat at 265–272.
+
+## Cycle 449 (v449 → v450), lens 9, Dvořák 7 holistic
+- Rimsky-Korsakov PDF 130–131 (Ex. 262: a long crescendo adds instruments): the oboes join the cresc. molto at 245–246 on a sixth G5 over B4, p <, resolving into their own ff entry (E5 over C5) at 247, instead of entering ff from silence (new sHeadOboeTwo).
+- Dvořák 7/iv holistic comparison and v439 → v449 check: nothing worse. Declined: percussion in the hammered tuttis.
+
+## Cycle 450 (v450 → v451), lens 10, cyclic review
+- Rimsky-Korsakov PDF 126–127 (a part taken over keeps the group's progression): Ob 2 at 245–246 now moves B4→C5 on 245.3 with Tpt 2 and Hn 1 (`b'2( c''2~ | c''1)`), so no B is held under the horn call's resolution; the oboes' crescendo into the 247 ff is kept.
+- Cyclic review against movement I v490, movement II v474 and scherzo v443: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51. coherence/finale.md updated (header, headings, open request). Declined: range relays at 245–246, 7–10, 222, 205–210.
+
+## Cycle 451 (v451 → v452), lens 1, A&S melodic figuration
+- A&S Unit 20 (PDF 332 Ex. 20-7a, PDF 336 Ex. 20-16): bar 69, a passing B♭1 on beat 4 fills the bass's C2–A♭1 third inside IV6 → IV (Cb, Bn 2, harp LH), a tenth under the tune's passing D6. Tune, counter-melody and dynamics unchanged.
+- Declined: a passing bass at 77.4 (outer-voice fifths), a double neighbour in a main tune.
+
+## Cycle 452 (v452 → v453), lens 2, A&S four-part writing
+- A&S Unit 5 (PDF 76, 83) and Unit 21 (PDF 351, the 9–8 always has its 3rd): violas at 228–229 now `e2.( f4 | g1)`, so the canon's 9–8 at 229 has an E and the octaves A→G with Cl 2 at 228→229 are gone. Canon, chorale, bass, timpani and dynamics unchanged.
+- Tested and declined: Cl 2's ninth leap at 228→229, Tbn 2's line at 151. Checked: hidden fifths and octaves in the outer voices.
+
+## Cycle 453 (v453 → v454), lens 3, A&S V as key area
+- A&S Unit 14 (PDF 215–220): V6/5 of V at 129 and a pivot chord at 114 tested and declined (the tune's G would rise, new octaves; the bare D7 is an accepted phrase modulation). V4/2 at 133–134 and the French sixth at 168 follow the reading. Proportions checked. No score change.
+
+## Cycle 454 (v454 → v455), lens 4, Rimsky harmony
+- Rimsky-Korsakov PDF 51, 82, 85–86 (balance at ff, no gaps, harmonic notes in the upper parts): the bass trombone plays C3 at 259–260 instead of doubling the tuba's F, so the iiø6/5's seventh C is heard in the brass (it was only in Ob 2) and the tenth above the bass is filled; it rejoins the tuba at 261.
+- Rimsky-Korsakov PDF 90–91 (concords in a pair of like instruments): Fl 2 moves to F5 at 40–42, a third under Fl 1's A♭5, instead of a three-bar tritone D5.
+- Kept: oboes' second and trombones' tritone at 259–260, Tpt 3 and violas doubling F, oboes at 40.
+
+## Cycle 455 (v455 → v456), lens 5, Gould staves and clefs
+- Gould PDF 21–23: score-only bass clef for Hn 3·4 at 255–258 (F2's last statement, down to C3 on four ledger lines), back to treble at 259, as at 25–26 and 79–82. Parts and MIDI unchanged.
+- Checked, no change: single horn D3s at 13, 21, 29, 153, 161; clarinets' D3 at 178; basses' tenor clef at 27–34.
+
+## Cycle 456 (v456 → v457), lens 6, Adler bowing
+- Adler PDF 38, 42–43 (Ex. II-20) and PDF 54 (up-bow before pizz.): down-bows on the accented F at 113 in Vln I and II (matching c418's lower strings), up-bows at 114 in Vln II and violas before the pizz. at 115. Bow signs only.
+- Considered and declined: viola div. at 101, "al tallone" at 91–94, a trill at 82, staggered bowing at 219–221.
+
+## Cycle 457 (v457 → v458), lens 7, Sebesky basics
+- Sebesky ch. 1 (PDF 12–13, Ex. 1): Bn 1 resting at 87–88 to clear the violins' scale tested and declined (weakens the 7–6 suspensions at 87.3 and 88.1). 187–194, 159–166, 153–158 and 67–74 checked. No score change.
+
+## Cycle 458 (v458 → v459), lens 8, Sebesky focus
+- Sebesky Ex. 269 (PDF 205, 207), Ex. 281 (PDF 215–216): the violas' and cellos' counter-melody at 74 swells to 74.3 and back to mp at 75 while the tune holds F5 (`bes4(\< aes4 f4\> g4~ | g2\! ...`); Hn 1 left as it was.
+- Declined: a swell at 46–48 (protected violas), changes to F1's steady f, a swell at 119–122, matching 194 to 74.
+
+## Cycle 459 (v459 → v460), lens 9, holistic comparison
+- Bar 251 beats 1-2: the E-major chord had no G (E in 15 of 16 notes, E in the bass). Hn 4 now plays G3 to C4 instead of E4 to D4, which supplies the third near the bottom (Adler Ex. V-27, VIII-25). The two score-only force-hshift overrides at 251 were removed because the horns no longer share a note. Rejected alternatives: Hn 4 D4 to C4 (octaves with Ob 2) and a held G3 (contrary fifths into 252).
+- Holistic comparison with Tchaikovsky 4/iv and v449 against v459: no change needed.
+
+## Cycle 460 (v460 → v461), lens 10, cyclic review
+- Sebesky PDF 19–20 (Ex. 3/3A, harmonic variety): at 270 beats 2–4 Bn 1 holds A3 and the violas D4 with Tpt 3's F4, ii7 over the C pedal, so 269–272 run I – ii7 – V – IV6/4 and no longer repeat 266's harmony; F1's notes, the horn and trombone rests and 266 unchanged. Cyclic review against movement I v506, movement II v493 and scherzo v453: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51.
+
+## Cycle 461 (v461 → v462), lens 1, Rimsky-Korsakov strings
+- Rimsky-Korsakov PDF 58–59, 62 (a very high violin line wants an octave below): at 212–214 Vln II divides; the upper half plays theme B at Tpt 1's pitch, an octave under Vln I and the flutes, the lower half keeps the existing line (c051/c054); unis. at 215. Theme B's notes, the 205–223 dynamic path and the D♭–C–B–C top line unchanged.
+
+## Cycle 462 (v462 → v463), lens 2, A&S cadential 6/4
+- A&S PDF 152–160 (cadential 6/4): bar 82 now runs iv6 (beats 1–2), V6/4 (beat 3, the tune's G as 3̂), V (beat 4) into the E♭ cadence at 83; the low strings, Bn 2 and Hn 2 move to B♭ on beat 3 and Bn 1 falls A♭3–G3–F3, so the tune's G5 no longer clashes with A♭ over C♭. Hn 1's E♭–D becomes the held 4th falling to the 3rd. Tune, harp, dynamics, breaths and the 75–82 pad's instruments unchanged.
+
+## Cycle 463 (v463 → v464), lens 3, A&S tonicization
+- A&S Unit 26 (tonicization and key plan): no change. Tested an applied V6/5 of A♭ on 34.4 and declined it: it would turn the 26 and 34→35 V→VI chain that prepares the A♭ statement at 187 into a plain tonicization and lose the rest ending F1's bass statement. Key plan, arrivals in new keys and the long coda (accepted c219) checked.
+
+## Cycle 464 (v464 → v465), lens 4, Rimsky-Korsakov brass and winds
+- Rimsky-Korsakov PDF 110–111 (woodwind harmony above the trumpets): the oboes swap at 262–264; Ob 1 takes V7's seventh F5 and resolves it to E5, the tonic's third above the trumpets at the 263 fff, and Ob 2 takes the chorale line B4–C5 at the trumpets' pitch (it sat on E4 at fff). Progression, chorale top line, the seventh's resolution and the cut at 264.1 unchanged. Declined the critic's second change (Hn 3 C5 at 259–260): C5 over F to E♭4 over A♭ at 261 makes contrary fifths with the bass, the reason c190 gave against C–E♭ there.
+
+## Cycle 465 (v465 → v466), lens 5, Gould beams
+- Gould PDF 31–41 (beam slopes for closely spaced notes): a score-level `gould-close-slope` callback (after c375's `gould-max-slope`) keeps the shorter-stem end and sets close-spaced groups of three or four to a ½ slope (¼ when the outer interval is a second); 194 groups changed, the harp at 67–82 now has one slope throughout; the harp left hand at 123–130 is excluded (page 7 would overfill). Bar 222 Fl 1's beam is fixed at 9.25–9.75 in the score so it matches Vln I (the part keeps c195's offset). Notes, pages and MIDI unchanged; parts-book.ly still lacks the c285, c375 and c465 beam callbacks.
+
+## Cycle 466 (v466 → v467), lens 6, Adler strings playability
+- Adler PDF 73–74, 87 (open strings on held expressive notes): violas "sul G" at 8–10 (the c437 answering phrase's held D4 crescendo, 4th position) and at 133–134 (the held D4 fading to p, as c391 did at 41–42 and 169–170). Text only; MIDI identical.
+
+## Cycle 467 (v467 → v468), lens 7, Sebesky strings
+- Sebesky PDF 140, 144–146, 166 (cellos on a counter line, not just doubling the bass): at 125–128, after their F2 solo, the cellos join Bn 1's dolce counter line at pitch, pp (E3–F♯3–G3 | C4–D4–A3 | A3–B3–C4 | A3), back on the bass at 128.3; the basses keep the roots. Answers c367's decline: the hand-over's order and notes, the harp, the instruments present and the 129–131 bass (c432) are unchanged.
+
+## Cycle 468 (v468 → v469), lens 8, MOLA dynamics
+- MOLA PDF 7–8, Ex. 6–7 (page turns, long changes as words): at 143 Tbn 1·2 and the bass trombone take "cresc." instead of a hairpin, like every other part in the build (c268, restated after the turn by c405), so page 8 no longer opens with an unlabelled wedge fragment. Notes and MIDI unchanged.
+
+## Cycle 469 (v469 → v470), lens 9, holistic comparison
+- Holistic comparison with Mozart 41/iv (Adler part 2 PDF 175–178): the coda's theme combination follows the Jupiter model (themes heard alone first, fixed colours, tonic–dominant pedal); no change. Tested and declined a pp timpani roll on B♭ at 43–46 (blurs the new colour two bars after the 39–40 roll and the c264/c276 overtone chord). v459 → v469 checked: nothing got worse.
+
+## Cycle 470 (v470 → v471), lens 10, cyclic review
+- A&S Unit 23 (PDF 387–388, Ex. 23-2; PDF 395 Points 2a, 3, 5–6): 242 is iiø7 (D–F–A♭–C) before III♯; Hn 4 A3–A♭3–G♯3–G3 (♮6–♭6–5), harp G♯ (pedal text at 241). Tune, bass and the approach by II unchanged. Cyclic review against movement I v519, movement II v508 and scherzo v461: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51.
+
+## Cycle 471 (v471 → v472), lens 1, Rimsky-Korsakov brass
+- Rimsky-Korsakov PDF 64–80 (brass): no change. Tested and declined the bass trombone joining Tbn 1·2 on F1's head at 247–254 (thickens the band above the C2 pedal that c072 cleared, weighs against the S head in Hn 1·2 and spends the bass trombone's fresh ff entry at 255). Tpt 1 f under the ff woodwinds at 247 confirmed (Rimsky's note to Ex. 75).
+
+## Cycle 472 (v472 → v473), lens 2, A&S supertonic seventh
+- A&S PDF 173, 177, 179 (II6/5; the seventh held as the 4th of the cadential 6/4): at 249 Hn 4 plays C4 instead of doubling the bass F3, holds it into the 6/4 and falls to B3 on 250.3, so 248–250 run ii7 → ii6/5 → 6/4 → V7 and the F3–E4 seventh leap is gone. Corrects c382's reading of 248–249. Themes, the combination's lines and the c374 spacing unchanged.
+
+## Cycle 473 (v473 → v474), lens 3, A&S chromatic plans
+- A&S Unit 32 (chromatic voice leading and large-scale plans): no change. Tested and declined a voice exchange putting F in the bass at 242 (parallel fifths 242.3→243.1, and a third F-bass ii in nine bars) and Vln I resolving F♯5 to G5 at 115 (Vln II already takes G5; the slur would cross the page turn into the bassoon solo). Proportions timed from the MIDI: coda 31% (accepted c219); its slow (211–246) and fast parts are now about equal in length.
+
+## Cycle 474 (v474 → v475), lens 4, Rimsky-Korsakov tutti
+- Rimsky-Korsakov PDF 505–507, Ex. 209 (held tutti chords with timpani take a roll): at 167–168 the timpani's single A♭ stroke under the link chords becomes a roll fading f > p (`aes,1:32\f\>~ | aes,2:32~ aes,4:32\p r4`), as at the matching link 39–40 and the other augmented sixths over A♭ (5, 219, 261). It ends before the horns fade, so c108's diminuendo order holds; 166 and the soft sticks at 171 unchanged.
+
+## Cycle 475 (v475 → v476), lens 5, Gould rests
+- Gould PDF 50–51 (rests on shared staves sit inside the staff below the middle line): score.ly sets `Rest.voiced-position` to 2 for whole and half rests (shorter rests keep c295's default) and `MultiMeasureRest.voiced-position = #2`, so the second player's rests no longer hang at or below the bottom line (e.g. Fl 2 and Ob 2 at 217–218); LilyPond still moves a rest out when a note collides. Pages 2–4, 6, 11–12, 15–16 change; no system or page moved; MIDI identical.
+
+## Cycle 476 (v476 → v477), lens 6, Adler harp
+- Adler PDF 111–112 (the harp's two lowest strings have no pedal and are tuned by hand): since v404 the harp plays D1 at 76, so a text "low D string (D1): tune D♮" now stands at the harp's first entry, 43, with the starting pedal setting, in score and part. Notes and MIDI unchanged. Tested and declined a wider harp chord at 132 (page 7 overfills).
+
+## Cycle 477 (v477 → v478), lens 7, Adler woodwind combinations
+- Adler PDF 255–257, 271–272 (vary the third statement; imitation between winds; enclosed voicing): at 105–106 Ob 1 enters a beat later and follows Fl 1 and Cl 1 in canon at the octave between their F6/F4, ending on F5 at 106.4, so the scale figure's third statement is no longer the same block as 101–102. Answers c377: 15 bars from 89–90 and a different shape (two leaders, one follower). Only Ob 1 changed.
+
+## Cycle 478 (v478 → v479), lens 8, Adler woodwind articulation
+- Adler PDF 187, 199 (Ex. VII-34; keep the slur to the phrase's end): Ob 1's motto tail E♭5–D5–D♭5–C5 at 95–97 is now one slur to the C5, which was re-tongued on 97.1 before Cl 1 takes it over at 97.3; this matches movement II's source tail (Cl 1, II 85–90). Notes, dynamics and MIDI unchanged.
+
+## Cycle 479 (v479 → v480), lens 9, holistic comparison
+- Holistic comparison with the Eroica finale (Adler part 2 ch. 16): no change; the movement follows its plan (off-tonic ff opening, brass apotheosis at 223, fast coda, the opening scale returning at 263–264). Tested and declined timpani strokes accelerating into 247 in place of the G roll at 246 (repeats 143–146's figure and cuts the roll's crescendo). v469 → v479 checked: nothing got worse.
+
+## Cycle 480 (v480 → v481), lens 10, cyclic review
+- A&S Unit 28 (Neapolitan): no change. Tested and declined a Neapolitan 6/4 in place of the French sixth at 168 (a second ♭II five bars after 163, a D♭5–D5 cross-relation on top, and it loses the A♭/F♯ sixth that ties the passage to 1 and 219). Cyclic review against movement I v534, movement II v525 and scherzo v471: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51; the scherzo's new Vln I G♯5 → G5 at 1–7 recorded (movement I's 78–79 has those pitches in Cl 1, then Ob 1 and Vln I).
+
+## Cycle 481 (v481 → v482), lens 1, Adler strings
+- Adler ch. 3 (strings): no change. Tested and declined a single solo violin at 119 and 122 (covered by Vln I an octave lower; reverses c209/c438) and a solo cello at 123–124 (masked by the harp; thinner than the violas that follow).
+
+## Cycle 482 (v482 → v483), lens 2, A&S 5-6 sequences
+- A&S PDF 267–277 (5–6 motion against parallel fifths): at 239–240 the tune's E over A moved to C over F, outer-voice fifths on two downbeats (par8 flags all four tune parts). The bass (Vc, Cb, Bn 2, harp LH) now holds A over the bar line and moves to F on 240 beat 2, so Bn 1's E3→F3 becomes a 5–6 over A (IV6 at 240.1) and the outer voices run 5–10–10. Tune, counter-line and the A–F–D bass unchanged; answers c032/c212/c302, whose reason (the tune is movement I's) covered only the tune.
+
+## Cycle 483 (v483 → v484), lens 3, Rimsky-Korsakov tutti
+- Rimsky-Korsakov PDF 120, 127, 130, 136 (no tutti at p; a new group enters pp and crescendos; brass join a crescendo last): the tuba rests 217–220, where it only doubled the contrabassoon and basses under the sub. p, and re-enters pp < on G1 at 221 with the allargando, mf < at 222, fff at 223. Bass pitches, the sub. p at 219, the stop chord and 222→223 unchanged; resting the tuba until 223 was tested and declined.
+
+## Cycle 484 (v484 → v485), lens 4, Adler scoring examples
+- Adler part 2 PDF 147–148, 154 (background distinct from the tune): at 255 Tbn 1·2 enter mf instead of f on G3/E3, the very notes F2's last phrase starts on and returns to in violas, cellos and Hn 3·4 ff; their crescendo from 257 to ff at 259 is unchanged. Notes unchanged.
+
+## Cycle 485 (v485 → v486), lens 5, Gould spacing
+- Gould PDF 55, 65–67 (centred bar-length notes; crossing voices on a shared staff): at 68 Bn 1's crossing B♭2 semibreve is printed as tied up-stem halves set to the right of Bn 2's D3 (part keeps `bes,1`), and at 69 Bn 2's dotted half is shifted clear; c215's `\cen` is removed at 97 and 138 (no longer bar-length in every part) and added at 5. Score-only; MIDI identical.
+
+## Cycle 486 (v486 → v487), lens 6, Adler woodwind playability
+- Adler PDF 175, 188, 192, 230 (wind endurance; second player relieves the first; contrabassoon rests): Fl 2 takes Fl 1's B♭5 at 37–38 so Fl 1 breathes (back on B♭5 at 38.3; sound unchanged, Fl 2 still rests 35–36); the contrabassoon rests 205–208, where it only doubled the tuba and basses' A♭1, and re-enters f < at 209; staggered bassoon breaths after 241 (Bn 1) and 242 (Bn 2).
+
+## Cycle 487 (v487 → v488), lens 7, Rimsky-Korsakov doublings
+- Rimsky-Korsakov PDF 74–80 (unison doublings): no change. The critic proposed Bn 2 on F2's last phrase at 255–256 (strings and horns alone do not blend, PDF 79); declined, because the woodwinds' rest at 255–256 and fresh entry at 257 (since v130, kept by c486) was not answered. Other doubling checks (205–206, 211–218, 247–254, 107–109) pass.
+
+## Cycle 488 (v488 → v489), lens 8, Adler brass expression
+- Adler PDF 304–305 (Ex. X-8, X-12: horns on a passionate unison marked espress.): Hn 3·4 now carry "espress." with their ff at 255, like the strings on F2's last phrase (marked on both horns so it prints once over a2, as c138 found at 217). Text only; MIDI identical. Phrase slurs on the brass chorale considered and declined (repeated common tones would read as ties; 223–234 protected).
+
+## Cycle 489 (v489 → v490), lens 9, holistic comparison
+- A&S PDF 585–586 (Ex. 32-3, a common tone held across a chromatic key change): Hn 4 now ties A♭3 into G♯3 at 242→243 (iiø7 → E major) instead of breathing and re-striking it; its breath moves to after 240, with Hn 3 breathing and crescendoing there too. No pitches changed. Holistic comparison with Sibelius 2/iv and v479 → v489 check: no further change.
+
+## Cycle 490 (v490 → v491), lens 10, cyclic review
+- Adler part 2 PDF 264–274 (keep the accompaniment away from a soft soloist's register): Cl 2 and Tpt 3 end with the 216 diminuendo and rest 217–218, as Fl 2, Ob 2, Tpt 1·2 already do, so nothing holds F4 on or a half step under the cor anglais and Hn 1·2 echo of theme B; they return on the 219 chord. Cyclic review against movement I v549, movement II v543 and scherzo v481: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51.
+
+## Cycle 491 (v491 → v492), lens 1, Adler woodwinds
+- Adler ch. 7 (woodwinds): no change. Tested and declined the bass clarinet doubling the cellos' F1-head entry at 140–143 (its staff would appear on page 7, which then overfills; the cello tone would predominate anyway, PDF 226). Register and dynamic scans of all woodwind parts pass.
+
+## Cycle 492 (v492 → v493), lens 2, A&S mixture
+- A&S PDF 374, 387–388, 395 (Ex. 23-2d, ♭6 colours ii7 and falls to 5): bar 38's chord before the E♭-minor cadential 6/4 is now iiø7 (F–A♭–C♭–E♭) instead of ii7 with C♮, so the bar no longer mixes the major sixth with the minor third that follows; every C♭ falls to B♭ (Vln I·II, violas, Bn 1, Ob 1·2, Cl 2, Tbn 1·2; Cl 2 C♭4 then B♭3–D4 eighths on beat 4). Bass, F1's head, dynamics and 39–42 unchanged.
+
+## Cycle 493 (v493 → v494), lens 3, A&S 6/4 chords and form
+- A&S PDF 256–258, 309–310, 324 (passing 6/4, stepwise bass): at 195–196 the bass no longer holds C♭ for the whole bar and leaps to G; it runs C♭–B♭–A♭–G–A♭ (Cb, Bn 1), with Hn 1's A♭–G–A♭ neighbour and Bn 2 on E♭2, matching c403's 75–76 a third lower; removes the Bn 1/violin octaves at 195.4→196.1. Tune, cellos, violas, Hn 2, dynamics and 197–198 unchanged; answers c403's skip (works in minor; no instrument added).
+
+## Cycle 494 (v494 → v495), lens 4, Adler percussion
+- Adler part 2 PDF 184 (crescendo rolls start p): the timpani's A♭ roll at 209–210 is now fp < (was f <) under the woodwinds' fp < (c216), so it no longer fills their dip and has room to grow into the ff at 211, as at 149 (c346) and 167–168 (c474).
+
+## Cycle 495 (v495 → v496), lens 5, MOLA score layout
+- MOLA PDF 5–6 (explain non-standard notation in the score): page 1's header now keys the one-line percussion stave ("⊗ above the line = crash cymbals (pair); ● below the line = bass drum"), which the part has had since c255. Header text only; MIDI and pages 2–16 identical.
+
+## Cycle 496 (v496 → v497), lens 6, Adler brass
+- Adler adler1 PDF 292, adler2 PDF 8 (brass need rests): Tbn 1·2 and the bass trombone held whole notes 211–228 (about 33 s) and sat on F3/D♭3 just under the cor anglais and Hn 1·2 echo at 217–218; they now end with the 216 diminuendo, rest 217–218 and re-enter p at 219, as the tuba and Tpt 3 do. The chord stays complete (F in strings, Bn 2, Cbsn; D♭ in violins, violas, woodwinds); dynamics, 222→223 and the chorale unchanged.
+
+## Cycle 497 (v497 → v498), lens 7, Adler brass in combination
+- Adler part 2 PDF 41–44 (brass in modern scoring): no change. Tested and declined short brass strokes on 2 and 4 at 207–208 (no gaps in the head to fill; drifts back to 199–204's hammered texture) and Hn 3 on the chromatic counter-melody at 239–242 (undoes c247 and drops the F chord's held fifth).
+
+## Cycle 498 (v498 → v499), lens 8, A&S suspensions
+- A&S PDF 348 (a dissonant suspension leans; its resolution is softer): the violas' held C♭4 at 49 (♭9 of V7 of E♭ over the B♭ pedal) now has a diminuendo into its B♭3 on beat 3. Notes, the pp level and the poco rit. unchanged.
+
+## Cycle 499 (v499 → v500), lens 9, holistic comparison
+- Holistic comparison with Elgar 1/iv; Casanelles PDF 271–273 (distance is a different sound from soft playing in place): under Ob 1's recollection of movement II at 95–98 the held string chord is played by the back desks only ("last 2 desks" Vln II, Vla, Vc; "last desk" Cb), "tutti" at 99 (Vla, Vc, Cb) and 104 (Vln II); c444's sul tasto kept. Text only; MIDI identical. v489 → v499 checked: nothing got worse.
+
+## Cycle 500 (v500 → v501), lens 10, cyclic review
+- Adler part 2 PDF 264, 274 (accompaniment away from a soloist's register): Bn 1 rests 217–218 instead of re-attacking A♭3 with the first note of the cor anglais and Hn 1·2 echo of theme B; harmony, the D♭–C–B–C top line and the dynamics unchanged. Cyclic review against movement I v564, movement II v560 and scherzo v488: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51.
+
+## Cycle 501 (v501 → v502), lens 1, Sebesky lines
+- Sebesky PDF 209, 211 (Ex. 276, 279: contrary motion between lead and bass): at 85 the bass no longer rises with F1's head in parallel sixths; cellos and basses play B♭–B♭–A♭–F (F1's own bar-13 bass shape), and the violas' last eighth is A♭4, taking the seventh and resolving it to G4 at 86. Tune, the I6 at 86 (c143) and dynamics unchanged; answers c187's unexplained do-not-touch on 83–86.
+
+## Cycle 502 (v502 → v503), lens 2, A&S applied dominants
+- A&S PDF 419–423 (Ex. 25-11a: over 6–5 in the bass, the chord is almost always V4/3 of V): at 89 the last 7–6 of the closing bridge resolves to A♮3 (violas, Bn 1), so the bridge ends V6 – 7–6 into V4/3 of V – V7 – I; Bn 1 passes B♭–A♭ into G3 at 90; Hn 1 F4 and Hn 4 F3 on 89.2 so no horn doubles the leading tone. Bass, violin and wind figures, dynamics and the 90 cadence unchanged; every earlier change in 87–89 (c053, c061, c062, c143, c377) kept.
+
+## Cycle 503 (v503 → v504), lens 3, A&S 6/3 chords
+- A&S Unit 18 (6/3 chords and form): no change. Tested and declined a chromatic 6/3 (B bass) at 198.3–4 into the C-minor tutti at 199 (leading tone in three octaves before the tonic; loses c294's A♭-minor turn; the root-position A♭ is the stronger close). Proportions and coda stages checked.
+
+## Cycle 504 (v504 → v505), lens 4, Adler woodwind spacing
+- Adler PDF 257–258 (Ex. VIII-25 to 27: widest gap just above the bass): Bn 2 holds D3 through 85 (it held B♭2 a whole tone above the basses' A♭2 after c501's new bass), and plays B♭2 instead of G2 at 192 (left from the old G bass that c262 replaced with E♭2), stepping to A♭2 at 193 as before.
+
+## Cycle 505 (v505 → v506), lens 5, Adler score layout
+- Adler part 2 PDF 291–292 (space between choirs must be discernible): c325's nested horn, trumpet and trombone StaffGroups made the gap below the lowest playing brass staff collapse to a within-family gap (37–50, 67–86, 171–178). The brass StaffGroup now draws the same brackets with `systemStartDelimiterHierarchy`, so the choir gap holds below whichever brass staff is lowest (65, 81–82, 55 px); every other gap and all 16 pages unchanged; MIDI identical.
+
+## Cycle 506 (v506 → v507), lens 6, Adler timpani
+- Adler part 2 PDF 58, 79 (timpani strengthen the tonic; Ex. XII-46): at 99, where the development starts f in F minor, the timpani play F2 (the 30" drum has been on F since 95, c416) instead of the old bass note C3, so the F-minor area has a timpani F at its first bar and at its cadence (113). 103, 111 and the retuning marks at 95 and 114 unchanged.
+
+## Cycle 507 (v507 → v508), lens 7, Adler accompaniment
+- Adler ch. 5 (accompaniment and counter-melody): no change. Tested and declined lower strings alone under Ob 1 at 95–98 (Vln II resting, divided cellos: too close above the bass, two players per note); cellos imitating F2's head at 75–76 and violas/cellos in thirds or sixths at 71–74 worked out on paper and declined.
+
+## Cycle 508 (v508 → v509), lens 8, Rimsky-Korsakov dynamics
+- Rimsky-Korsakov PDF 129, Ex. 253 (sf-p: the strings attack, the dip must be audible): at 149 the strings now play sfp < into ff at 150 with the 21 wind, brass and timpani parts (c226, c346, c408), instead of holding ff through the bar in the same registers as the wind chord. Notes, ties, bowings and Tpt 1·2's ff strokes unchanged; answers c408 (the strings still give the attack).
+
+## Cycle 509 (v509 → v510), lens 9, holistic comparison
+- Holistic comparison with Brahms 2/iv; Rimsky-Korsakov PDF 54–68 (melody doublings): no change. Tested and declined Vln II an octave below Vln I at 265–268 (lands on the trumpets' F1 head at C5 and blurs the two themes). v499 → v509 checked: nothing got worse.
+
+## Cycle 510 (v510 → v511), lens 10, cyclic review
+- A&S PDF 586–587 (Ex. 32-3: the common tone linking two keys held in an exposed voice): Fl 2 keeps F5 on 242 beats 1–2, then takes A♭5, holds it as G♯5 into 243 and falls to G5 on 243.3 with Vln I's upper desk, so the A♭ = G♯ link into the E-major chord sounds high, at bar 1's pitch, not only in Hn 4. Cyclic review against movement I v578, movement II v576 and scherzo v498: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51.
+
+## Cycle 511 (v511 → v512), lens 1, A&S suspensions in melody
+- A&S PDF 352 (Ex. 21-12: do not sound a suspension's resolution elsewhere before it resolves): at 81 the harp's first eighth is G4 instead of F4, which had sounded the tune's resolution under its held G (c398 removed the same F from Hn 2); c352's no-B♭ rule holds and no pedal change is needed.
+
+## Cycle 512 (v512 → v513), lens 2, A&S augmented sixths
+- A&S PDF 522–523 (Ex. 29-37: an augmented sixth in place of the dominant at a cadence): at 22's last beat the bass falls D–D♭–C (cellos, basses, Bn 2, Cbsn; violas and Hn 3 adjusted), so the consequent's V4/3 becomes a French sixth on D♭ resolving to C minor at 23 instead of repeating the antecedent's V4/3–i at 14→15. Melody and the recapitulation's 162–163 unchanged; no root-position V–I in C added.
+
+## Cycle 513 (v513 → v514), lens 3, Adler form
+- Adler part 2 ch. 15, 17 (form, soloist entries, heterophony): no change. Tested and declined Haydn's device at 269–270 (flutes doubling the head-rhythm figure two octaves up: already audible ff in Hn 3·4, violas, Bn 1, and a C6/B♭5 second on 270.1). Proportions, break-offs and soloist entries checked.
+
+## Cycle 514 (v514 → v515), lens 4, Adler brass balance
+- Adler part 2 PDF 14–18, 37–54 (brass balance by units): no change. The critic proposed Hn 3 F4 instead of D4 in the stop chord at 222 to strengthen its F; declined, because the Hn 1/Hn 3 voicing at 222 is an accepted part of the protected 216–223 approach and the stop chord is the movement's most guarded bar. Other balance checks (92, 247, 247–254, 265–268, 213) need no change.
+
+## Cycle 515 (v515 → v516), lens 5, Gould octave signs
+- Gould PDF 44, 46–48 (an octave sign only where it saves ledger lines): the harp left hand's 8 bassa line now ends after 240 (where it still saves ledger lines for A1 and F1), and the D2–D3 octaves at 241–242 are written at pitch on the stave instead of a ledger line above it. Notes and MIDI identical.
+
+## Cycle 516 (v516 → v517), lens 6, Adler ranges
+- Adler part 2 PDF 8, 306 (the tuba needs the most breath; F1 at the chart's bottom): a tuba breath after 254, where the second-theme head ends and the bass trombone enters on the same E2, so the tuba no longer plays 251–258 ff (about 11 s) without a break. Notes and MIDI unchanged. Range, terms, timpani and harp checks pass.
+
+## Cycle 517 (v517 → v518), lens 7, Adler combination
+- Adler part 2 PDF 178–179, 184 (each combined line needs a string, a woodwind and a brass colour): at 212–214 the cellos leave the bass and play Bn 1's counter line under theme B at pitch, f, with its slurs (with Hn 3·4), back to F3 at 215; the bass stays in the basses, Bn 2, Cbsn, bass trombone and tuba. Theme B, the dynamics, Vln II and violas unchanged.
+
+## Cycle 518 (v518 → v519), lens 8, Adler bowing
+- Adler PDF 38–39 (crescendo on the up-bow, strong notes down-bow; no phrase slurs in string parts; fewer notes to a bow at f): at 211–214 Vln I changes bow on its tied G♭6 at the Largamente barline, so it bows theme B with Vln II and the violas (212 up-bow crescendo, 213's ff peak down-bow, D♭6 a fresh down-bow); the cellos' copy of Bn 1's breath slur at 212–213 becomes one bar per bow. Bn 1 and Hn 3·4 keep their slur; pitches, dynamics and MIDI unchanged.
+
+## Cycle 519 (v519 → v520), lens 9, holistic comparison
+- Rimsky-Korsakov PDF 83 (never double the bass of an inverted dominant in an upper part): in the soft horn pad at 101–102 and 105–106 Hn 2 no longer doubles the leading tone; it holds the chord's seventh a sixth below Hn 1 (B♭3–C4–B♭3; E♭4–F4–E♭4). Hn 1's neighbour line and c247's neighbour chord kept. Holistic comparison with Schumann 4/iv and v509 → v519 check: no further change.
+
+## Cycle 520 (v520 → v521), lens 10, cyclic review
+- A&S Unit 26 (diatonic modulation): no change. Tested and declined a pivot chord (i6 of C) at 114 (sounds the home tonic mid-development and anticipates 121–122's Phrygian approach to D); declined tonicizing the falling-thirds bass at 123–127 (each applied chord contradicts F2).
+- Cyclic review against movement I v592, movement II v594 and scherzo v509: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51. finale.md updated for the scherzo's held opening G♯5 (c499) and closing Vln I G♯5 from 364.3 (c500), and movement I's soft horn-call recall at I 125–126 (c581).
+
+## Cycle 521 (v521 → v522), lens 1, cellos on F1's head at 205–206
+- Adler ch. 11 (brass melodic presentation; Ex. XI-13, horns with lower strings on a tune): the cellos join F1's head at 205–206 (A♭3, f, with the four horns, Tbn 1·2 and Bn 2) and return to the A♭2 pedal at 207; the pedal stays in the bass trombone, tuba and basses.
+- Declined: Tbn 1 doubling the last chorale top line an octave lower at 255–263 (thins chord tones in the protected final approach). Checked, no change: loud high horn unisons (none above A♭4 concert) and a Lohengrin-style hand-over (231–234 protected; 211–218 already does one).
+
+## Cycle 522 (v522 → v523), lens 2, chromatic voice exchange at 189
+- A&S Units 30–31 (chromatic voice exchange, Ex. 31-17/31-19; French sixth as V7♭5 4/3): bar 189, inside IV of the recapitulated F2, the bass (Cb, Bn 2) falls F–F♭–E♭–D♭ against the counter-melody (Vc, Bn 1) rising D♭3–D3–E♭3–F3 (m6–A6–P8–M10, French sixth on beat 2, passing 6/4 at the octave); Cl 2 to A♭3 after beat 1, Cl 1 D♭4→D4. F♭ resolves to E♭. The basses use the C extension at 189 (E♭1, D♭1); header note updated. Tune, dynamics, bowing and scoring unchanged.
+- Checked, no change: m6–M10 exchange at 146→147 (c432's reason holds), common-tone °7 at 24–25 and 39–42 (c342), augmented triads at 72 and 93.4 (c252); 92, 273, 129, 135–138 and the C–A♭–E key plan follow the reading.
+
+## Cycle 523 (v523 → v524), lens 3, V4/2 at 58 and 178
+- A&S Units 6–8 (V7 and its inversions; Ex. 8-8 V4/2 with the 7th resolving in the bass; Ex. 7-7 hidden octaves): at the joins of F2's minor statements, 58→59 and 178→179, the 7th moves into the bass on beat 4 (V4/2 → i6), as at the major statements 74 and 194. Bar 58: pizz. cellos and basses add A♭ on beat 4, falling to G♭ at 59; violas F3–B♭3. Bar 178: basses add F1 on beat 4 after motive x; violas end D3–G3. Removes the violas' unresolved A♭ at 58 and the hidden octaves at 178.
+- Checked, no change: the held 7th on 58.1/178.1 (c413's protected 7–6), proportions and the coda's stage order.
+
+## Cycle 524 (v524 → v525), lens 4, violins' scale an octave higher at 263–264
+- Adler ch. 5 (Haydn saves the octave transposition for the end, PDF 129; crescendo by added octaves, PDF 137): after the last cadence, Vln I·II play the bar 3–4 scale figure an octave higher at 263.2–264 (G6–B5, up to G6, ending on G5), above the held fff wind and brass chord instead of inside it, so the opening scale returns at 263–264 an octave higher in the violins. Vln I's C6 on 263.1, the violas' G4–B3, the Vln I+II pairing and the cut at 264.1 kept; top note G6, C7 still only at 223.
+- Declined: violas with Vln II on F2 at 75–76; bass drop-outs at 97–98 and 171–178. Checked, no change: the B doublings at 129, the combination passages 247–254 and 265–272.
+
+## Cycle 525 (v525 → v526), lens 5, MOLA parts: rest widths at lettered tempo changes
+- MOLA second pass (parts only; score MIDI, pages and analysis unchanged): a new `\ltRest` (called from `\lt`) widens a multi-bar rest that starts at a lettered tempo change to its text plus 10 staff spaces, and `\partNoBreak` before D keeps 51 off a line start, so letter E no longer sits on "Poco meno mosso" (51–67) and A no longer on "Allegro con fuoco" (1–11); Ob 1's stray "1." at 187 is score-only; the running header skips page 1; a part-only minimum hairpin for the bass trombone at 149; harp system padding 0.5 keeps it at 2 pages with the turn after 122. Parts book 0 warnings, 65 pages, page turns unchanged.
+- Tested, not applied: widening the harp's rest at 205 (over-full page).
+
+## Cycle 526 (v526 → v527), lens 6, woodwind breath at 146
+- Rimsky-Korsakov ch. I (wind breathing, PDF 37, 44; wide clarinet leaps, PDF 36): Fl 1, Ob 1, Cl 1 and Bn 1 breathe after the staccato B at the end of 146, with the brass, contrabassoon and bass clarinet, ending a 14-second unbroken stretch from 141 and giving Cl 1 time before its leap to the ff G5 at 147. Marking only; MIDI unchanged.
+- Tested and declined: cellos an octave lower at 35–36 (B♭4 above Rimsky's limit, but lower they lose the A-string tone, sit inside the held brass and leap into 37). Checked, no change: horn dynamics at 219–222 (p–mf, protected), ranges, divisi, harp, timpani and percussion.
+
+## Cycle 527 (v527 → v528), lens 7, Hn 3 rests under the solo horn at 139–140
+- Adler ch. 17 (solo horn; the orchestral horns rest while the soloist plays, PDF 264; accompaniment kept out of the soloist's register, PDF 274): Hn 3 rests 139–140 under Hn 1's solo F1 head, where its held D4 sounded the head's D4 and sat inside its descent (the clash c174 fixed at 143–144), and re-enters p < open on D4 at 141. Hn 4 still opens its stopped A♭3 to G3 (c088, c172) and restates p < at 141. Bar 138, 143–150 and 222→223 untouched.
+- Checked, no change: bassoon solo against the solo violins at 119–122. Declined: Haydn's oboe doubling at 191–194, a timpani link at 74 (would pre-empt motive x at 178), a held horn tonic at 115, heterophonic oboe at 187–190.
+
+## Cycle 528 (v528 → v529), lens 8, no change
+- Adler part 2 (dynamics and colour in combination, PDF 37–40, 187–196): no change. Tested and declined a timpani A♭ roll crescendo at 198→199 (adds a 17th page, duplicates the device at 209–210, and spends the timpani's held-back colour before their ff entry at 199); declined soft strings overlapping the ff cut at 113→114 (c228, c328). Checked, follows the reading: the stop chord at 138, 149–151, 234→235, the mixed f/ff at 166, the horn call at 243–246.
+
+## Cycle 529 (v529 → v530), lens 9, holistic comparison (Dvořák 8)
+- Holistic comparison with Dvořák 8/iv, plus a v519 → v529 check (Rimsky-Korsakov Ex. 130–209; prose PDF 100–123): at the soft end of the staged diminuendo, Cl 2 holds B♭3 with Hn 2 from 38.4 to 41 (was D4, inside the horn pair and in unison with Bn 1; Rimsky PDF 106, 108). The C♭→B♭ resolution at 38 (c492) is kept and the held B♭3 makes no octaves with Ob 1 or Tbn 2.
+- Declined on paper: Hn 4 resting at 139–140 (c527's reason holds), trumpets out of the plagal close at 231–234 (protected). Not reopened: trills, a muted brass pad, a soft cymbal (c321, c329, c429). Cycles 519–527 rechecked in the pages and MIDI: nothing got worse.
+
+## Cycle 530 (v530 → v531), lens 10, cyclic review
+- Cyclic review (Sonic Design reading; team-shared themes and current records): no score change. Against movement I v607, movement II v600 and scherzo v520: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51; cyclic rules hold. finale.md stamps brought up to date (scherzo v510–v520 changes listed, none touching a quoted bar), and movement II's last tail at 95–97 added as item 16 under movement II.
+- Tested and declined: copying the scherzo's flute-to-violin G♯5 hand-over at 242–243 (Fl 2 stopping at the barline leaves the G♯ link too weak under the horn call's ff; c510's reason holds).
+
+## Cycle 531 (v531 → v532), lens 1, no change
+- A&S Unit 3 (rhythm and metre): no change. Tested and declined a violin G–B upbeat at 18.4 and 158.4 into F1's consequent (weakens the f wind entry after the silence, turns the downbeat head into an upbeat group, adds parallel octaves). Declined on paper: an anticipation at 17.4→18 (c441), a lengthened C at 70. Checked, follows the reading: F2's climaxes at 62 and 78, F1's rhythm against the metre, the chorale's broader last statement (56 → 44 main notes a minute).
+
+## Cycle 532 (v532 → v533), lens 2, oboes resolve the dominant ninth at 10
+- A&S Unit 27 (the dominant ninth; its typical 6–5 resolution over V, Ex. 27-5, 27-6b): on the f stroke at 10.3 the oboes resolve the V7♭9 top: Ob 1 A♭5→G5 (was a leap to F5, leaving both the ninth and the seventh unresolved), Ob 2 D5→F5, so the stroke keeps the seventh and is still a full V7. Same 6–5 as F1's head at 11–12. The staged entries at 9–10 (v280), with the V7♭9 top on 10.1, are unchanged.
+- Declined: II7 over the pedal at 7–8, an applied ♭9 at 36.4, V♭9 of IV at 235.4 (protected, clashes), an A♭ neighbour at 133–134 (pre-empts 135, c259).
+
+## Cycle 533 (v533 → v534), lens 3, complete V6/5 at 176
+- A&S Unit 15 (III, VI and VII; avoid root-position vii° with the seventh doubled, use V6/5, PDF 243, 245): bar 176, Cl 2 holds G3 through the bar instead of falling to F3 on beat 3 with the violas, so 176.3 is a complete V6/5 over Bn 1's B2 and the seventh F stays only in the violas, resolving to E♭ at 177 (as c263 did at 172 and 180). Cl 2's 177–178 line unchanged.
+- Declined: ♮VII–V6/5–i at 175–177 (breaks the stepwise bass), III at 20.1 (weak-to-strong, undoes c257/c322), a passing IV6 at 96 (octaves with Ob 1's movement II tail). Form and proportions follow the unit.
+
+## Cycle 534 (v534 → v535), lens 4, no change
+- Casanelles ch. 6 (masking, density and register): no change. Tested and declined Hn 3 F4 for A4 at 252 (five parallel fifths on 252.1, c139's reason holds) and Hn 1 on B♭3 at 83–86 (loses the pedal's octave ring; the tune already outweighs one horn at mf). Checked, follows: Ob 1 with the violins at 187–190, woodwinds against brass, brass density at 205–208, 243–254 and 265–272, low thirds (Bn 2 at 84 declined, c504's line).
+
+## Cycle 535 (v535 → v536), lens 5, violas non div. at 204
+- Adler ch. 2 (string notation: chords as double-stops, "non div." is safer, PDF 30, Ex. II-12): the violas' two ff D4/F4 down-bow strokes at 204 are marked "non div.", as at the other ff string strokes (1, 5, 91, 277), before "div." at 205. Text only; MIDI byte-identical.
+- Tested and declined: measured-tremolo shorthand for the basses' eighths at 199–208 and 247–275 (no space saved, misreadable beside the violins' tremolo, and the MIDI would lose the drive). The reprinted "div." at 211 left as is.
+
+## Cycle 536 (v536 → v537), lens 6, cor anglais with Ob 1 at 151–158
+- Sebesky ch. 2 (oboe unisons are harsh, oboe with cor anglais in unison is endorsed; the oboe's low F4–B♭3 is coarse, PDF 70–72, 80): at the ff recapitulation 151–158 the cor anglais takes Ob 2's unison copy of F1 (down to E♭4, D4 and F4 at 152–153 and 157), so 147–166 is one cor anglais passage (c446 gave it 159–166); Ob 2 rests from 151. Pitches, slurs, accents and dynamics unchanged; layout unchanged.
+- Tested and declined: the same swap at 19–26 (page 2 over-full against c251's layout). Checked, no change: trombone slides at 248/251 (protected, playable with the F attachment), horn attacks and stopped notes, ranges and endurance.
+
+## Cycle 537 (v537 → v538), lens 7, no change
+- Adler part 2 ch. 16 (transcription and layering): no change. Tested and declined the timpani hammered rhythm of 199 in place of the A♭ roll at 209–210 (doubles the basses' pitch and pulse; the roll is the only sustained layer under the winds' fp < chord into 211). Declined on paper: a dovetailed string scale at 209–210, a second clarinet line at 89–90 (c502), a passed counter-theme at 205–208, a held note under the bassoon solo at 115–118. F1's doublings at 11–26 and 151–166 follow the reading.
+
+## Cycle 538 (v538 → v539), lens 8, Hn 4 crossfade into Cl 2 at 47
+- Casanelles (crossfade and overlap, PDF 149, 153, 155): Hn 4's held A♭3 pp over the B♭ pedal now fades (`aes2\> r2\!`) as Cl 2 enters on the same A♭3 at 47.1, so the colour change is a crossfade rather than a step. Dynamic only; no notes changed.
+- Declined: accents on the basses' repeated eighths at 265–275 (c438), a morendo on the B♭ pedal at 49–50. The final fff chord at 278 already holds its level.
+
+## Cycle 539 (v539 → v540), lens 9, holistic comparison (Rachmaninoff 2)
+- Holistic comparison with Rachmaninoff 2/iv, plus a v529 → v539 check (Rimsky-Korsakov PDF 132–133: passing notes against chord notes in the same timbre and register sound harsh): the off-beat horn chord no longer strikes a semitone against F1's passing notes in Hn 1·2 and the violas: Hn 3 F4 for D♭4 at 16.2 and 156.2, Hn 4 D4 for G3 at 20.2. The ♭II6 colour stays in the tune's D♭ over F; tune, bass and dynamics unchanged.
+- Cor anglais at 157–158: the arpeggio an octave lower, with Hn 1·2 and the violas (c536 had it at written E♭6–D6 ff, its thin top), so its G4 at 158 leads into its inner line at 159; Ob 2 still rests.
+- Kept: the semitone at 164.2 (every alternative anticipates the tune, leaps or doubles the seventh), the horns at 207–208 (protected). F2 still has no full tonic-major return (c339). Cycles 529–538 rechecked: nothing got worse.
+
+## Cycle 540 (v540 → v541), lens 10, cyclic review; Bn 1 F♯3 at 1 and 5
+- Adler (unison and octave doubling, PDF 19–23; part 2 PDF 190–191, Ex. XV-37): Bn 1 plays F♯3→G3 at 1–2 and 5–6 (was C3→B2), so the finale's opening chord has the same players and pitches as scherzo bar 200 (V7 of C♯ minor since scherzo v521), and the ff V chord at 2 and 6 loses one of its seven leading-tone B's. Pitch content, dynamics, the A♭ link in Hn 1 and Vln I, and the E♭4 answers unchanged.
+- Cyclic review against movement I v621 (series 4 complete), movement II v600 and scherzo v521: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51; cyclic rules hold. finale.md: stamps updated, movement I v608–v621 listed (Tbn 1 E4 at I 158, still a 6/4 over G), the scherzo-200 anticipation of IV 1 recorded under Opening, and the 159–166 held line credited to the cor anglais.
+- Declined: theme B in three octaves at 211–216; kept Fl 1 with the trumpet solo at 61–63 (c041).
+
+## Cycle 541 (v541 → v542), lens 1, no change
+- A&S Unit 20 (melodic figuration): no change. Tested and declined a five-note turn on the violins' held G6 at 254 (competes with the S head's B→C cadence in the same beats; F♮ is a chord tone, F♯ clashes with V7's F). Declined on paper: a double incomplete neighbour at 268.4 (protected 265–272). Follows: F2's plain minor and decorated major statements, F1's implied two-line melody, leap dissonances (all chord tones), chromatic passing and neighbour tones.
+
+## Cycle 542 (v542 → v543), lens 2, complete V6/5 at 29
+- A&S Unit 5 (doubling and spacing; no doubled leading tone, complete seventh-chord inversions, PDF 76, Ex. 5-4): bar 29, Hn 2 plays B3–D4–B3 (`b2 d'4 b4~`, was `b1~`), so the V6/5 on 29.3 under F1's bass statement is complete (B–D–F–G) with B no longer doubled; Hn 2 returns to B3 on 29.4, swapping with the theme's B3–D4, and keeps c222's held B at 30.1–2 and its resolution to C at 30.3. Tested and rejected: back to B3 on 30.1 (octaves with the countersubject), D4 held into 30 (undoes c222).
+- Checked, no change: spacing gaps, the V4/2 at 133.4 (c183, c453), diminished-to-perfect fifths, hidden outer-voice fifths, other leading-tone doublings (octave lines), F1's augmented 2nd.
+
+## Cycle 543 (v543 → v544), lens 3, no change
+- A&S Unit 14 (V7 and its inversions in the larger form; approaches to V): no change. Tested and declined the V4/2's bass F stepping to E♭ at 134 (sounds a C-minor tonic 16 bars before the recapitulation, fills the break before J; 131–134 protected). Declined on paper: E7 before the S head at 238→239 (changes the movement I quotation's harmony and pre-empts the G♯ link at 242–243). Proportions, coda stages, key-area confirmations and approaches to V follow the reading.
+
+## Cycle 544 (v544 → v545), lens 4, bass clarinet pad at 171–186
+- Rimsky-Korsakov (wind chords: never three different timbres; three of one family with the low member, PDF 92–94): Bn 1's held pad under the recapitulated F2 at 171–186 moves to the bass clarinet, same pitches, pp "dal niente", so the pad is one family (Cl 2 + bass clarinet, Cl 1 from 181) set apart from the cor anglais and muted trumpet melody, and differs in colour from the exposition's pad. Bn 1 rests 16 bars before its counter-melody at 187 (part-only cue at 185–186). Notes, dynamics and harmony unchanged (c092, c312, c380, c413, c533 kept).
+- Kept: open fourths and fifths in the held middle parts at 173–179 (the violas supply the third), the oboes at 231–234 (protected) and 259–260 (c454), the full divisi at 278. The exposition pad at 51–66 is protected and already follows PDF 92.
+
+## Cycle 545 (v545 → v546), lens 5, clefs at 35
+- Gould (clefs: before the barline; change between phrases, after rests, PDF 21–22): at 35, the bar that starts with grace notes in Fl 1 and Vln I·II, the basses' return to bass clef now prints before the 34|35 barline (spacer grace notes), and the bassoons' tenor clef moves from 33 to 35, after the rest at 34.4, so 33–34 (the end of the F1 statement with the cellos) stay in bass clef and the clef comes before the eighths up to B♭4 that were c365's reason. MIDI byte-identical; only page 2 at 33–35 changes.
+- Checked, no change: the horns' score-only bass clefs, the basses' tenor clef at 27–34 (c335, c365, c455), the harmonics at 43–50, cymbal crosses, stems.
+
+## Cycle 546 (v546 → v547), lens 6, cello bowing before pizz. at 171
+- Adler ch. 2 (bowing; end on an up-bow at the frog before pizz., PDF 54; slurs on diminuendos, PDF 38): the cellos' A♭ at 168 slurs into the G at 169.1 on the diminuendo down-bow, and the run and held D3 are an up-bow ending at the frog before "pizz." at 171, restoring c218's intent after c434 gave the cellos the descent. Notes, dynamics and MIDI unchanged; the basses already ended at the frog.
+- Weighed, not applied: cellos sul G at 170, a string trill at 147–150 (protected), senza vibrato at 95–98, a natural harmonic at 43–50 (none gives B♭5), punta d'arco at 19–26. Long slurs within Adler's limits.
+
+## Cycle 547 (v547 → v548), lens 7, horns hold through 129
+- Rimsky-Korsakov ch. III (overlaying and enclosure; in quick chord changes the brass hold the common notes and the woodwind move, PDF 108): bar 129, Hn 3 `d'4 d'4 c'4 c'4` and Hn 4 holds G3 in quarters (Hn 3 leapt D4→G4 onto Hn 1's G4 and Hn 4 went G3–G3–E3–C4), so through the bar's I6–IV6–iv6 the motion is in the bass (E–E♭–D), Bn 1 and Fl 1; the horns step into 130. c033's quarter-note pulse kept; IV6 and iv6 complete.
+- Checked, no change: horns between the bassoons at 80.3–4 (c147), the horn neighbour chord at 101–106 (c247, c519). Follows: four soft horns under clarinets at 9–10, horns with violas or cellos at 67–74 and 130–131.
+
+## Cycle 548 (v548 → v549), lens 8, diminuendo on F2's held note at 74 and 194
+- A&S Unit 3 (a phrase ends on its goal; an anticipation is unaccented; a note's start is stronger than its continuation, PDF 51, 54, 56): F2's held half-cadence note now fades: Vln I·II `f''1\>` at 74 with mf restated at 75, and in the recapitulation Vln I·II and violas `d''1\>`/`d'1\>` at 194 with mf/mp at 195, so the counter-melody's move into the next bar is heard and the second half starts afresh. No pitch, slur or overall level change (c458's declined swell not reopened).
+- No change: tenuto on the winds' syncopated pad at 36.4/38.3 (c348), a swell in the bassoon solo at 119–122 (c458), tempo words (graded, on third bars).
+
+## Cycle 549 (v549 → v550), lens 9, holistic comparison (Bruckner 4)
+- Holistic comparison with Bruckner 4/iv, plus a v539 → v549 check (Rimsky-Korsakov: double a solo only in isolated phrases, PDF 140–141; examples at PDF 449, 457): the muted trumpet now also rests from 183.4 to 186, after ending with Fl 1 on C5 at 183, so the recapitulated F2 runs duet – cor anglais alone – duet at the climax – cor anglais alone, and the muted trumpet's weak low D4–B3–C4 goes; "togli sord." moves to 184. F2's notes unchanged.
+- No change: the coda's short soft stretches against Bruckner (219–223 protected, models are Brahms and Tchaikovsky); the coda's tempo plan; the c544 side effect at 170→171 (Cl 2 with the bass clarinet for one pp beat) kept; the basses under Ob 1 at 95–98 not reopened (c507, c524). Cycles 539–548 rechecked: nothing got worse.
+
+## Cycle 550 (v550 → v551), lens 10, cyclic review; sul A at 243
+- Rimsky-Korsakov prefaces and ch. IV (a work's colours belong to it; transfer of a held note between instruments, PDF 20, 125–126): Vln I's upper desk marks "div., sul A" on the scherzo's G♯5 at 243–245.2, as the scherzo marks that note since its v527. Text only; MIDI byte-identical.
+- Cyclic review against movement I v621, movement II v600 and scherzo v532: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51; cyclic rules hold. The scherzo's horn call now ties E4 into bar 5 with D♯4 on beat 3 (c530); the D♯4 still resolves only at the finale's 219–220. finale.md updated: stamps, scherzo v522–v532, sul A, the shared tie in item 7.
+- Declined: low brass pp growing into 247 (blurs the horn call's C, c450); splitting the major horn call between horns and trumpets (the owed item is the call in the trumpets).
+
+## Cycle 551 (v551 → v552), lens 1, violas with Vln II at 39–40
+- Rimsky-Korsakov ch. II (violas join the violins' low octave; Vln I over Vln II + violas, PDF 60, Ex. 28): at 39–40 the violas double Vln II's lower octave of F1's head (ff >, down to A♭3–G3), instead of holding D4 with Bn 1, so the violins' answer to the cellos' B♭-minor head has a full lower octave. F1's notes unchanged; 41–42 unchanged.
+- Declined: Vln II an octave below Vln I at 207–208 (loses its rising scale), F2 in unison before the octaves at 67–74, Vln I over Vln II + violas at 187–198 (protected since c191). Cellos sul G at 41–42 kept (c391).
+
+## Cycle 552 (v552 → v553), lens 2, ii6/5 into the codetta's cadence at 93
+- A&S Units 9–10 (II and IV lead into V; back-relating dominants then II6–V7–I, Ex. 9-2c, 9-8, 10-10 Mozart K. 332): bar 93, the chord on beats 2–3 is ii6/5 (A♭–C–E♭–F) instead of a third tonic, so the codetta's back-relating I–V strokes end with ii6/5–V7–I. The bass steps A♭–B♭; Tbn 1 and Vln II hold A♭ into V7 as its prepared seventh; the top line stays E♭6–D6–E♭6. c248's displaced rhythm, c252's single chromatic chord at 92, c324's pedals and c416's timpani kept.
+- Checked, no change: the 6/4s at 152.4→153.1 and 243.3→244.2, the doubled fourths at 220 and 250 (protected). Declined a cadential 6/4 at 93.4.
+
+## Cycle 553 (v553 → v554), lens 3, no change
+- A&S Unit 26 (diatonic modulation), seventh pass: no change. Tested and declined an applied V6/5 of A♭ at 186 (adds a 17th page, loses the deceptive VI reinterpreted as the new tonic and the V→VI chain at 26, 34→35, 186→187, fills the breath before 187; A♭ is confirmed at 191–193). Proportions, the K.457 key plan, key confirmations, melodic tonicizations and arrivals follow the reading.
+
+## Cycle 554 (v554 → v555), lens 4, ii6/5 at 93 spread across families
+- Rimsky-Korsakov ch. III (sevenths and seconds go to instruments of different colour, PDF 102–103): c552's ii6/5 on 93.2–3 had its E♭–F second held ff inside one family twice (Tpt 2 F4 over Tpt 3 E♭4; Hn 4 F3 under Hn 2's E♭3). Tpt 3 now plays C4 (`r4 c'2-> d'4->`) and Hn 4 A♭3 (`r4 aes2-> f4->`), so the second lies between trumpet and horn; harmony, bass, Tbn 1's held A♭, top line, rhythm and dynamics unchanged, and two octaves with the flutes and violins at 93 are gone.
+- No change: Tbn 1 C4 over Tbn 2 D3 at 152/156 (a prepared 4–3 at mf); other same-family seconds are protected or kept (c454 at 259).
+
+## Cycle 555 (v555 → v556), lens 5, two-pitch beam rule
+- Gould beams (two pitches only: horizontal when the one different note is at the end, PDF 37): a `gould-two-pitch-flat` helper inside c285's `gould-concave-damping` flattens the basses' `c,8 c,8 c,8 g,,8` at 277.1–2, the only group in the score it changes; groups with equal numbers of each pitch (171–186) keep their slope. Engraving only; MIDI byte-identical.
+- Tested and rejected: the rule by staff position (it also flattened the chromatic D–D♭–C groups at 199 and 247). Checked across the score: stem directions, equidistant groups, kneed beams, clef changes in beams.
+
+## Cycle 556 (v556 → v557), lens 6, violas sul G at 43–46
+- Adler ch. 3 (open strings stand out in soft held passages; mark one-string passages; the viola's dark G string, PDF 73–76, 87): the violas' held pp D4 at 43–46 is marked "sul G", as every other unprotected soft held D4 in the score already is (8–10, 41–42, 81, 133–134, 169–170). Text only; MIDI byte-identical.
+- No change: double stops and divisi, wide skips (Vln II at 38 kept in unison, c551), basses (low C1 at 263/278 not reopened, c246), the harmonic at 43–50.
+
+## Cycle 557 (v557 → v558), lens 7, no change
+- Sebesky ch. 1 (economy, focus, contrary motion in the background): no change. Tested and declined the cellos leaving the A♭ pedal for a rising line at 207–208 (doubles and inverts the ii7's seventh, covers Bn 1's lowest octave of the head, c158). Declined on paper: the countersubject under F1 at 151–158, contrary motion in Vln II at 167–168. Economy checks at 41–42 (c431), 9–10 and 205–206 hold.
+
+## Cycle 558 (v558 → v559), lens 8, low strings in quarters at 82
+- Sebesky Ex. 273 (halves to quarters for extra push into the next phrase, PDF 208): at 82 under "animando" the cellos and basses play C♭–C♭–B♭–B♭ in tenuto quarters with a crescendo (were two half notes), so the low strings mark the quickening beat into the walking quarters at 83, as at 245–246 (c358). Pitches, harmony and dynamics unchanged; c167's balance reason still holds.
+- Declined: the chromatic counter at 239–242 to mf (set f on purpose over the harp), marcato accents (unused in the symphony), swells or "no vib." on the protected pads at 51–66 and 171–186. Kept: the held build-up at 133–138, the chorale top line at 224–227.
+
+## Cycle 559 (v559 → v560), lens 9, holistic comparison with Mahler 1, no change
+- Holistic comparison with Mahler 1/iv, plus a v549 → v559 check (Adler part 1 ch. 5 and 8): no change. Tested and declined Hn 1·2 an octave higher at 25–26 (unison with Vln II and the oboes, over-full page 2). Declined: pausing the harp at 74 (protected), moving the doubled third at 251 (the themes' own notes, protected), a horn on the third at 97–98 (doubles F minor's leading tone). The finale shares Mahler's outburst after a soft end, flat-key second theme, first-movement recalls, false goal and winning brass chorale; cycles 549–558 rechecked: nothing got worse.
+
+## Cycle 560 (v560 → v561), lens 10, cyclic review, no change
+- Cyclic review (Sebesky ch. 1 and 9): no score change. Against movement I v621, movement II v600 and scherzo v542: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51; cyclic rules hold. The scherzo's Hn 1 now previews the motto tail alone at its 205–209 (c540), at the pitch and player of the close the finale's Hn 1 continues at 1–2. finale.md stamps and scherzo v533–v542 list updated.
+- Tested and declined: Hn 4 an octave higher at 241–244 for the scherzo's G♯4/G♯5 pair (covers the chromatic counter, sits above the horn call's E4, crosses Hn 3). Declined on paper: movement I's bar 18 in major at 250 (B5 against the head's C6).
+
+## Cycle 561 (v561 → v562), lens 1, Cl 2 on F2's peak at 257–258
+- Rimsky-Korsakov ch. II (a soprano melody doubled in one octave: winds above, strings below, PDF 78, Ex. 90; clarinet over bassoon, PDF 76): at 257–258, F2's last climax bar, Cl 2 leaves the chorale's E5 and doubles Vln II on F2's upper octave (`c''2.(\f\< d''4 | g''4. f''8 e''4 d''4)`), returning to the chorale's D5 at 259. The E5 stays in Tpt 1·2, Ob 1, the flutes and Vln I. F2's notes, the chorale top line, the harmony, the woodwind rest at 255–256 and the cor anglais's silence unchanged.
+- Declined: thinning the winds on Vln II's octave at 83–86 (protected), a wind above the horns at 205–206, filling Vln II's upper octave at 255–256 (protected rest, c430).
+
+## Cycle 562 (v562 → v563), lens 2, 5–6 into IV6 at 78
+- A&S Units 11–13 (5–6 from VI to IV6, PDF 168, Ex. 11-12a; IV7 with an accented passing 3, PDF 183–185; no dominant sound between vi and IV, PDF 172): at F2's E♭-major climax, bar 78 beats 3–4 move vi7 → IV6 by a 5–6 instead of sounding a B♭ triad over the C bass: Hn 2 G3–A♭3 (was B♭3), violas hold E♭4, harp RH E♭–A♭–C–E♭ (was F–B♭–D–F). 78–80 now run vi7 – IV6 – IV – V6/5 of V – V, as at 257–259, and the harp/Vln I octaves into 79.1 are gone. F2's notes, the harp's low line (c205) and the pad's rhythm and breath (c166) unchanged.
+- Kept: the cellos' chromatic E♮→E♭ at 71, the codetta's leaping A♭6 at 91–93 (c248, c252, c552). Phrygian cadences at 57–58 and 177–178 follow the book.
+
+## Cycle 563 (v563 → v564), lens 3, no change
+- A&S Unit 32 (chromatic joins, common tones in exposed voices, the ♭VI–♭II–V path): no change. Tested and declined putting the F5–F♯5–G5 inflection and the seventh both in Vln II at 113–115 (same sound, loses Vln I's held F♯5 bridge into the bassoon solo). Declined on paper: A♭ minor through 195–198 (undoes c270, c293, c370), A♯ at 122.4 (augmented octave with Bn 1, protected). Proportions, the A♭ area, the G minor/major turn and every chromatic join's exposed link follow the reading.
+
+## Cycle 564 (v564 → v565), lens 4, timpani roll at 35
+- Rimsky-Korsakov tutti chords (appendix PDF 505–507; ch. IV, Ex. 204–221: every held loud chord with timpani has a roll on the bass): bar 35, under the trombones', contrabassoon's and basses' held A♭ ff > f, the timpani roll A♭ ff > f through the bar (`aes,2.:32->~\ff\> aes,4:32\f`, was one f stroke). The retuning to B♭ at 37 and the roll at 39–40 unchanged.
+- Checked, no change: 166 (protected), a tutti without woodwind, short low strokes at 35–38. Not reopened: wind trills, a restruck final chord, brass a degree softer at 223/263/278.
+
+## Cycle 565 (v565 → v566), lens 5, no change
+- Gould ch. 1 (ledger lines, octave signs, rests): no change. Tested and declined writing the harp's 239–240 chords at pitch in the part with the 8 bassa score-only (the part grows to 3 pages with a page turn before 255–279). Checked, no change: ledger lines (at most five, in Fl 1 and Vln I), the horns' four lines inside F1's phrase, rests on shared staves, the harp's 8 bassa at 67–82.
+
+## Cycle 566 (v566 → v567), lens 6, advance harp pedal marks
+- Adler ch. 4 (harp pedals: one foot changes one pedal at a time, PDF 112–113): advance pedal marks in the two long harp rests before entries that need several changes: "Ped.: C♮ B♮ / E♮ F♯ A♮" at 115 (letter H) for the entry at 123, and "Ped.: B♯ / F♭ G♮" at 247 (letter R) for the glissando at 277, in the score's existing form. Notation only; MIDI byte-identical.
+- Tested and declined: a ringing E-major harp chord at 243 (inaudible under the horn call, undoes the étouffez and c116/c238). Pedalling, range, the D1 tuning, harmonics, the glissando tuning and damping all follow the reading.
+
+## Cycle 567 (v567 → v568), lens 7, no change
+- Sebesky ch. 3 (string layouts; keep an octave doubling in one colour, PDF 152–153, Ex. 203): no change. The critic proposed swapping the violas' and cellos' parts at 41 so the violas carry F1's last head to its end (the colour seam c551 left). Declined: it removes the cellos' sul G line at 41–42, a deliberate colour since c391 (kept again by c551), and the proposal does not answer that reason.
+- Not applied: the flute a level below the violins at 19–23, the cellos off the basses' F at 133–134 (c183). Checked, no change: high-register seconds in the strings, the string layout at 43–50.
+
+## Cycle 568 (v568 → v569), lens 8, MOLA dynamics at 229 and 94
+- MOLA (vertical proofreading; marks in every staff, PDF 8, 10–11): the canon's last diminuendo at 229 (Fl, Ob, Cl 1·2, Vln I·II) now ends on f at 229.3, the level of every other part in that bar and of the brass at 231, instead of a bare hairpin end; and Hn 2 takes the accent on the codetta's last chord at 94.1 (`es'2->`), as the other 22 parts do. Swells at 227–228, pitches and rhythms unchanged.
+- Tested and reverted: a staccato on the basses' D♭ at 104.4 (the full quarter is deliberate under the violins' run). Kept: Bn 2's accent at 274.1, the ff placements at 199/265/269, the harp pedal diagrams (c006, c566).
+
+## Cycle 569 (v569 → v570), lens 9, holistic comparison with Franck
+- Holistic comparison with Franck's symphony, plus a v559 → v569 check (Adler part 2, accompaniment kept out of the melody's register, PDF 154–159): the harp's A♭ on 78.3 moves up an octave (`es'8 c''8 es''8 aes''8`), so it no longer sits a semitone above the melody's G4 in the clarinet, Hn 1 and cellos; c562's IV6 harmony and Hn 2's A♭3 kept.
+- Not applied: breaking up the tutti from 197 (protected), non-divisi tremolo stops at 273–274, a tonic pedal in Hn 3·4 at 265–268, G4 in the 263 tonic chord. Cycles 559–568 rechecked: only c562's harp voicing had regressed.
+
+## Cycle 570 (v570 → v571), lens 10, cyclic review, no change
+- A&S Unit 23 (mixture) and cyclic review: no score change. Against movement I v621, movement II v600 and scherzo v551: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51; cyclic rules hold. The scherzo's last Vln I G♯5 now enters on beat 1 of 364 under Fl 1 (c550), the same overlap the finale already has with Fl 2 and Vln I at 242.3–243. finale.md stamps, scherzo v543–v551 list and the closing-G♯5 wording updated.
+- Tested and declined: E♭ minor 7 under movement II's tail at 96 (covers the violas' E♭→E at 97; 95–98 protected). ♭6 behaviour and the one outer-voice cross relation at 80 (c270) follow the book.
+
+## Cycle 571 (v571 → v572), lens 1, string choices in the S head
+- Adler ch. 3 (open strings stand out in expressive lines, PDF 73–74; the viola's darker D string, PDF 87): in the S head, Vln II stays sul A through 239–242 (its "ord." at 239 removed), so its held f E5 is no longer on the open E string; Vln I keeps "ord." at 239 and the brighter second phrase (c018's reasons hold for Vln I). The violas play the chromatic counter's first phrase sul D at 235–237, so its descents no longer end on open A4; the f second phrase stays on the A string (c250). Text only; MIDI byte-identical.
+- Considered, no change: Vln II's open A4 at 130 (cadential, not cantabile). F1, F2, the chorale and the S head follow the reading (Brahms 1/iv, Don Juan, Brahms 3/iii).
+
+## Cycle 572 (v572 → v573), lens 2, clarinet fifths under F1 at 12, 15, 155
+- A&S Unit 17 (sequences tend to produce fifths and octaves, PDF 267): two fixes in the clarinet accompaniment under F1. Cl 1's last eighth of 15 and 155 is E♭4 (`es'8( g' bes' es')`), removing the open fifths with the theme's lower octave into the Neapolitan chord at 16.1 and 156.1 (c032's "figuration within one chord" does not apply where the chord changes). Cl 2 at 12 plays B♭3–C4 (was D4–C4), removing the fifths with the theme's passing G3→F3; the same pair at 160 is inside protected 159–166 and stays.
+- Declined: a falling-thirds sequence at 19–20 (loses the V6/4, v6 and c342's diminished sevenths), a third statement at 99–106 or 205–208 (c383, protected), an ascending-fifths sequence (would pre-empt 243), 6–5 syncopes at 107–110 (protected).
+
+## Cycle 573 (v573 → v574), lens 3, timpani rest at 235–242
+- Rimsky-Korsakov ch. IV (a silent group gains interest when it returns; percussion used seldom, PDF 136; scoring marks contrast with what precedes, PDF 116): the timpani rest at 235–242 (was a pp C roll near the rim at 235–238, which carried the plagal close's colour into the S-head stage under the harp's first entry since 134). The basses, cellos and harp still hold the C pedal; the timpani's G roll p < at 243 is now their first sound after 8.5 bars and leads into 247.
+- Declined: pizz. low strings under the wind answers at 101–102 and 105–106 (unplayable after the sf, protected). Checked, no change: the coda's stages and proportions (c219, c473), brass entries after rests (c483), rescoring of returns.
+
+## Cycle 574 (v574 → v575), lens 4, trumpets enter on 271.3
+- Adler part 2 ch. 15 (entry points; balance of octave doublings, Mozart 40 and Barber, PDF 150–151, 156): Tpt 1·2 re-enter at 271 on beat 3 with a B4–D5 lead-in to their A5 at 272 (`r2 b'4(\ff d''4)`), instead of ff on D4 from the downbeat in the register of the brass F1 head (Hn 3·4, Tbn 1·2 a2), so the head is no longer covered in the bar the trombones join it. The 265–272 horn and trombone rests, the IV6/4 at 272 and all quotations and chorale lines unchanged.
+- Not applied: the tuba's G2→G1 at 164 (a bass-line drop into 166), oboes on the F1 head at 267 (their rest before 269).
+
+## Cycle 575 (v575 → v576), lens 5, spacing on page 12
+- Gould spacing (proportional units; semibreve bars fairly narrow; equal values get equal space, PDF 53–55): c045's hairpin minimum length over 219–222 goes from 13 to 8, so the semibreve bars 220–221 shrink from 49.1/59.1 pt to 35.5/43.3 pt and 211–218, with the espress. echo of theme B at 217–218, get the space back. The hairpins stay about 10 mm and 6 mm long (c045's reason holds). Only page 12 changes; MIDI byte-identical.
+- Checked, not applied: Hn 3·4's part-combined C4/D♯4 chord at 219 (PDF 61; protected thread). Dots, stems and unisons follow PDF 60–68.
+
+## Cycle 576 (v576 → v577), lens 6, contrabassoon rests at 217–218
+- Adler ch. 6–7 (low contrabassoon notes need periodic rests, PDF 230): the contrabassoon rests at 217–218, as the tuba (c406) and trombones (c492) do there, and returns p on A♭1 at 219, so it no longer plays 209–230 (about 40 s) without a rest before the fff C1 at 223. The theme-B echo keeps its bass in the double basses, Bn 2 and cellos; 222 and 222→223 unchanged.
+- Tested and rejected: Fl 1 an octave lower at 77–78 to avoid the leap to B♭6 (loses the top octave at F2's peak). Checked: Ob 1 at 227–229, the cor anglais G5 at 182 (protected), Bn 1 B♭4 at 36 (c526).
+
+## Cycle 577 (v577 → v578), lens 7, no change
+- Adler ch. 8 (doubling and unison combinations): no change. Tested and rejected resting Ob 1 after 83.1 to avoid its unison with the clarinets and Vln II on F1's major head (unison allowed in a near-tutti forte, Ex. VIII-39; c164's balance reason holds; reads as a broken entry). Not applied: a held C6 in Fl 2 at 230–233 (covers the A♭→G on top; protected). Follows the reading: 107–109, 265–268 (c509), 85; solo-string doubling already at 95–98 and 119–122.
+
+## Cycle 578 (v578 → v579), lens 8, dal niente at 47
+- Adler ch. 7 (the clarinet's niente attack, PDF 211, Ex. VII-57; held-note hand-overs, PDF 188): Cl 2's A♭3 at 47, where it takes over Hn 4's fading note (c538's crossfade), is marked "dal niente", as the clarinet pads at 51 and 171 are. Text only; MIDI byte-identical.
+- Checked across the woodwinds: no low-register pp in oboe or bassoon, no covered low flute, the bassoon solo accompanied softer than it plays. Not applied: Fl 1's B♭6 at 78 (doubles Vln I), a niente entry at 181 (protected), graded hairpins at 115–122 (declined twice), 143–144 (protected).
+
+## Cycle 579 (v579 → v580), lens 9, holistic comparison with Saint-Saëns 3
+- Holistic comparison with Saint-Saëns 3/iv, plus a v569 → v579 check (Adler part 2 ch. 16: a crescendo built by entries, Bizet and Ravel, PDF 213, 216, 224): the stringendo run into R at 245–246 now enters from the bottom up, violas on 245.3, Vln II on 245.4, Vln I and Fl 1 on 246.1, each keeping its notes from its entry and the arrival on G at 246.3; Vln I and Fl 1 no longer rise G5–A5–B5 against the horn call's resolving C6 (Tpt 1) on 245.3. The horn call itself unchanged.
+- Declined: a relay sweep in sixteenths (c537), Bn 1 resting at 110–113 (c062, c094), Cl 1 lower at 121–122 (c323), harp arpeggios under 255–262 (protected), drop-outs at 233–234 (protected), open-string cellos at 2 and 6 (fifths). Cycles 569–578 rechecked: nothing got worse.
+
+## Cycle 580 (v580 → v581), lens 10, cyclic review, no change
+- A&S Unit 28 (the Neapolitan) and cyclic review: no score change. Against movement I v621, movement II v600 and scherzo v570: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51; cyclic rules hold, and the Neapolitan thread across the four movements resolves through the D♭ episode to I at 223. finale.md: stamps, scherzo v552–v570 list, the scherzo's last chord and harp E4 (now alone on beat 2 of 375), and the 6–♭6–5 line at 273–275 recorded as the cor anglais's line at II 87–89 and scherzo 358–359.
+- Tested and declined: a rising bass into the Neapolitan at 15 (new octaves with the clarinets; would undo c572). Declined the scherzo thread's suggestion to give 273–275's 6–♭6–5 line to the cor anglais alone (inaudible in the ff tutti; c430 keeps it silent after 220).
+
+## Cycle 581 (v581 → v582), lens 1, Ob 1 rests under the theme-B echo
+- Adler ch. 7 (the oboe as a doubler must not overshadow the featured line, PDF 201; the cor anglais's low register carries, PDF 205): Ob 1 rests at 217–218 instead of holding D♭5 f a fourth above the cor anglais and Hn 1·2 echo of theme B (the note c440 took from Tpt 1 for the same reason), and returns on C5 at the 219 sub. p. The D♭ stays in Fl 1, Cl 1, violins and violas; the D♭–C–B–C top line, theme B, the dynamics and 222→223 unchanged.
+- Considered, not applied: a two-flute hand-over on Fl 1's D♭6 at 216–218 (one breath suffices; Fl 2's rest kept).
+
+## Cycle 582 (v582 → v583), lens 2, bass trombone B2 at 222
+- A&S Units 22–23 (VII7 resolution; hidden fifths Ex. 22-3c, 22-4b): the bass trombone plays B2 at 222 (was D3), so its tritone with Tbn 1's A♭3 resolves inward to C3–G3 at 223 and the trombones' leading tone reaches C; the stop chord's pitches, trumpets B→C, timpani G→C and the D bass in the tuba, basses, bassoons and cellos unchanged.
+- Declined: VII°6/5 at 14/154, VII°7 over the pedal at 238/268; kept the cellos at 222→223.
+
+## Cycle 583 (v583 → v584), lens 3, accented 6/4 at 25 and 165
+- A&S Units 16 and 19 (accented 6/4 over a sustained bass, 8–7–6–5 over 6–5–4–3): at 25 and 165 the inner voices start on C–E♭ instead of a V chord, so the 6/4 resolves to 5/3 under the tune's 6–5–4–3 and no longer clashes with its appoggiaturas in the same register (violas and Cl 1 at 25; Cl 1, Vln II and Tbn 1 C4 at 165); viola C4 on beat 1 of 25 avoids octaves with cellos and Bn 2; page break at 25 kept.
+- Proportions checked (exposition 35.0%, development 17.7%, recapitulation 16.3%, coda 31.2%): no change. Declined cadential 6/4 changes at 93 and 130.
+
+## Cycle 584 (v584 → v585), lens 4, Cl 1 G5 in the final chord
+- Adler ch. 15 (brilliant tutti fills every upper octave; Freischütz interlocking): Cl 1 plays G5 instead of E5 at 278–279, so the woodwinds spell the full final chord from G6 down to C5 with oboes and clarinets interlocked; E5 had been tripled and G5 left to a third of the divided Vln II under fff brass. Ob 2's E5 from cycle 274 kept.
+- Recorded only: movement I's head at 265–268 has no brass (rests protected; brass joins at 269 and 271).
+
+## Cycle 585 (v585 → v586), lens 5, bar numbers at one height
+- MOLA (bar numbers placed consistently): the bar-number row sits 6.8 staff spaces below the double basses throughout (was 5.5 on pages 1–11 and 6.8 from 209), so 149–150 no longer drop below the row; page 2's fixed staff distances trimmed about 1% and page 7 gets fixed distances at 115 and before 128 to avoid compression. No notes changed; breaks unchanged.
+- Kept: harp pedal diagrams, no letter at 123, revision stamp left to the release check.
+
+## Cycle 586 (v586 → v587), lens 6, brass fp at 209 and Hn 2 at 90
+- Adler ch. 9–10 (forte-piano brass attack): at 209 the held brass (Hn 1–4, Tbn 1·2, bass trombone, tuba), Bn 1·2 and the violas' chord take fp < with the woodwinds and timpani, so the A♭7 swell into 211 dips instead of being filled; A♭ pedal and runs keep f; the 205–210 scoring (c178) and the dynamic path from 211 (c238) unchanged.
+- Hn 2 plays B♭3 with Hn 4 at 90.4 (was F4), removing the score's only horn leap over an octave into the ff E♭3 at 91.
+
+## Cycle 587 (v587 → v588), lens 7, Cl 1 doubles F1 head at 35
+- Rimsky-Korsakov ch. II (woodwind in octaves, strings double the lower octave): at 35–36 Cl 1 plays F1's A♭-major head with the violins at A♭5 under Fl 1's A♭6, glide included, f, returning to F4 (mf) at 37 with its F→E♭ step into 38 (c132); its old notes stay covered by Ob 2 and Hn 1; Cl 2 gets matching spacers and dynamics. Matches the layout at 19–26 and 151–158.
+- Declined: more winds at 37–38, horns on the violas' figure at 110–113, woodwind on F1 at 11–18, a clarinet on the horn call at 243–246; 41–42 and 255–256 not reopened.
+
+## Cycle 588 (v588 → v589), lens 8, swell on F2's held G at 255
+- Adler ch. 10 (Don Juan Ex. X-12, Brahms 1/iv Ex. X-8: held horn notes shaped in a loud tutti): the accented dotted-minim G that opens F2's last phrase at 255 swells and returns (< then > on beat 3) in Hn 3·4, Vln II, violas and cellos, as the horn call does at 243–246; a hidden ff on the E keeps the following notes at their old level. Notes, slurs, accent, ff and "espress." unchanged.
+- Declined: "dolce" on the protected Hn 3·4 pad at 235; a stopped sf at 105 (138 stays the only one).
+
+## Cycle 589 (v589 → v590), lens 9, hidden fifths at 72 and 192
+- A&S Ex. 22-3c (d5 to P5 in similar motion between upper voices): the violas hold D4 to beat 4 at 72 (`d'2.( c'4)`) and Bn 1 holds its note to beat 4 at 192, so neither falls to the perfect fifth with the violins' or Hn 1's A♭→G / D♭→C; the 9th still resolves with the 7th in thirds into the next bar.
+- Holistic comparison with Borodin 2/iv: no change; v579→v589 nothing worse. Left alone: 202→203 (quotation of movement I 27–32, protected since c156; follow movement I if its Hn 2 at I 31 changes).
+
+## Cycle 590 (v590 → v591), lens 10, cyclic review and Hn 3 rest at 242
+- Cyclic review against movement I v621, movement II v600 and scherzo v581: every quotation and both joins match (records 35/35, 19/19, 11/11, 52/52, finale 51/51); scherzo v571–v581 touch no quoted bar; cyclic rules hold. finale.md stamps and the scherzo change list updated.
+- Adler part 2 ch. 17 (accompaniment out of the featured line's register): Hn 3 rests at 242 under the end of the chromatic counter (Cl 1, violas C4–D4), re-entering f on B3 at 243; Hn 4's A♭3→G♯3 tie kept. Declined: Hn 4 resting at 244–246, theme B's doubling at 211–218 (protected), a timpani link at 58.
+
+## Cycle 591 (v591 → v592), lens 1, cellos double F1 head at 130
+- Sebesky ch. 6–7 (Ex. 273, cellos an octave below bring out a moving line; PDF 219, accompaniment out of the featured line's register): at 130–131 the cellos divide, the upper half doubling F1's G-major head an octave below the violas and Hn 2 (D3–A2–B2–C3–B2–A2–G2–F♯2 into G2 at 132), the lower half keeping the bass D with the basses; unis. at 132. Notes of F1 and all quotations unchanged.
+- Kept: Vln II's octave doubling at 128.4–130, the violins' sixths at 169.
+
+## Cycle 592 (v592 → v593), lens 2, flat-VII7 at 36
+- A&S Unit 24 §12 (Ex. 24-18: in minor, ♮VII7 leads to V6/5 instead of III): bar 36 beat 3 is now A♭7 (♮VII7 of B♭ minor), sidestepping into c322's F7/A and B♭ minor at 37, so 36 runs E♭7–A♭7–F7/A–B♭m: Hn 1 G–G♭–F against the rising bass A♭–A–B♭, and the violas', cellos' and Bn 1's figure takes G♭4 instead of F4. Tune, bass and dynamics unchanged.
+- Declined on paper: a deceptive cadence on an applied chord (no free place), a French sixth at 33, chains of dominants at 101–103 and 70–73.
+
+## Cycle 593 (v593 → v594), lens 3, no change
+- A&S Unit 18 (dominant prolongation and its resolution): no change. Tested resolving the open dominant at 102 to F minor; it closed off the development and made 103 sound like iv of F, so reverted. Coda bass candidates at 238, 251, 252, 254 and 129 declined on paper (fifths, octaves or protected bars); 149 stays protected (c226, c313).
+- Proportions and coda stages unchanged; par8's "fifths" at 36.1 are a beat-sampling artefact.
+
+## Cycle 594 (v594 → v595), lens 4, no change
+- Adler ch. 8 (woodwind doublings and choirs): no change. Tested Fl 1 an octave above the violins at 191–194; the line falls with a diminuendo and the flute would pre-empt its entry at 197–198, so reverted. Declined a bassoon on F2 at 67–74 (crosses the counter-melody; the wind rest is a deliberate choir alternation) and unison pairs on F1 at 19–26 and 151–158 (tutti exemption, range).
+
+## Cycle 595 (v595 → v596), lens 5, horn a2 at 247 and solo labels
+- Adler part 2 engraving (Ex. XVIII-4, unison printed once as "a2"; PDF 312, solo labels): Hn 1·2 at 247–250 print as one line marked a2 with one slur (score-only \partCombineUnisono; parts keep their own notes); "1." labels added for Ob 1 and Cl 1 at 101 and for Fl 1 at 197; Hn 1 reaches p on 81.1 with Hn 2, so the shared staff prints one p.
+- Kept: the flutes' two-voice unison at 257–262 (different breaths, c126), five ledger lines and the trumpet staff layout.
+
+## Cycle 596 (v596 → v597), lens 6, bass drum ff at 278
+- Adler part 2 ch. 12 and 14 (Piston: loud timpani doubled by bass drum drowns the tutti, PDF 55, 84, 141): the bass drum strikes ff instead of fff under the fff timpani roll on the final chord at 278, as c146 did at 223; crash, timpani and every other part stay fff. Pitches, chain, quotation and the fff arrival of the protected close unchanged.
+- Checked: timpani tunings, retunings (37, 95, 114, 206, 215), sticks and roll endings. Declined: a two-drum stroke at 279, tying the 263 crash into 264.
+
+## Cycle 597 (v597 → v598), lens 7, brass alone on F1 head at 103
+- Adler part 2 ch. 11 (Bartók Ex. XI-24, Hindemith Ex. XI-23: each brass pair states the subject alone, f ben marc.; PDF 44, two horns balance one trombone): at 103–104 the violas and cellos rest and return on their sf chord at 105, so Hn 3·4, Tbn 1 and the bass trombone (now playing the head with the basses, ben marc., instead of a single B♭1 stroke) answer as a third group; 99–106 now runs strings → winds → brass → strings with winds. F1's notes and all quotations unchanged.
+- Kept: trombones doubling the violins at 247–254 (c197, c317); brass stretto at 265–272 and horn-pair entries checked.
+
+## Cycle 598 (v598 → v599), lens 8, Cl 1 suspension at 121
+- A&S Unit 21 (suspensions take an accent, resolutions are softer; Ex. 21-9, 21-39): Cl 1's pp D6 at 121, a 7th over the Italian sixth's E♭, swells into beat 3 and falls back on its resolution to C♯6; a hidden pp keeps the resolution at its old level. Notes, slur, printed pp, the Italian sixth and the bassoon solo unchanged. A new MIDI suspension scan found 22 places; this was the only unmarked one outside protected bars.
+- Kept: Hn 1's 4–3 at 82.3 (drives into 83); no 7–6 at the protected Phrygian cadences 57–58 and 177–178; no bass suspension at 125–127 or 133–134.
+
+## Cycle 599 (v599 → v600), lens 9, release check v600
+- Release check: subtitle now "Full score in C — v600, 6 November 2026"; titles agree and no draft marks remain. Parts build had 5 "crescendo too small" warnings from c588's swell at 255 and c598's at 121; a part-only minimum hairpin length restores them (score unchanged); parts now build with 0 warnings.
+- Casanelles PDF 271–272 (Mahler 1/i, the held chord gives way to the far call): at 218 Fl 1, Cl 1 and Vln I·II go f to mf with the low strings, so the theme-B echo in cor anglais and Hn 1·2 is in front; 219's sub. p still drops a step. No pitches change.
+- Holistic comparison with Beethoven 9/iv: no change; v589→v599 checked, nothing worse.
