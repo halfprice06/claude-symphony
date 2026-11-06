@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 578 (lens 8 expression, Adler ch. 7 woodwind articulation and dynamics by register (adler1 PDF 184-232) (sixth pass)) v578 → v579
+c578: Fl 1 swell at 277–280.
+
 ## Cycle 577 (lens 7 texture, Adler ch. 8 Variety of orchestral treatments (adler1 PDF 251-281) (sixth pass)) v577 → v578
 No change (Ob+Cl at 33–35 rejected: Fl/Ob unison at 29–36 settled, c311, c561).  Do-not-touch: Fl 1 + Ob 1 unison on both wind calls 29–36 (c311, c561, c577).
 
