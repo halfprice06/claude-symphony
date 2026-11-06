@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 594 (lens 4 orchestration, Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (seventh pass)) v594 → v595
+c594 Adler ch. 8: no change. Rejected (composer): Bsn 1 doubling the cellos in full at 289–296; it reverses c254/c337 (strings-only fugato with single pp wind downbeats). Do not propose a full wind doubling of the reprise fugato again. Critic also reverted Cl 1 on the violas' answer at 293–296 (keeps motive-x quavers new for 297).
+
 ## Cycle 593 (lens 3 form, Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (seventh pass)) v593 → v594
 c593 A&S Unit 18: no change. Do-not-touch: c070's ♭6–5 at 201–203 over held A; the A–C–B bass + Fr6 at 243–245 (the movement's only augmented sixth, do not anticipate it at 202); root-position bass 80–84; codetta 225–240 length.
 
