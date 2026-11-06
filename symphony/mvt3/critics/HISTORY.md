@@ -2431,3 +2431,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 570 (v570 → v571), lens 10, cyclic review, no change
 - A&S Unit 23 (mixture) and cyclic review: no score change. Against movement I v621, movement II v600 and scherzo v551: all quotations and joins at pitch; records 35/35, 19/19, 11/11, 52/52, finale 51/51; cyclic rules hold. The scherzo's last Vln I G♯5 now enters on beat 1 of 364 under Fl 1 (c550), the same overlap the finale already has with Fl 2 and Vln I at 242.3–243. finale.md stamps, scherzo v543–v551 list and the closing-G♯5 wording updated.
 - Tested and declined: E♭ minor 7 under movement II's tail at 96 (covers the violas' E♭→E at 97; 95–98 protected). ♭6 behaviour and the one outer-voice cross relation at 80 (c270) follow the book.
+
+## Cycle 571 (v571 → v572), lens 1, string choices in the S head
+- Adler ch. 3 (open strings stand out in expressive lines, PDF 73–74; the viola's darker D string, PDF 87): in the S head, Vln II stays sul A through 239–242 (its "ord." at 239 removed), so its held f E5 is no longer on the open E string; Vln I keeps "ord." at 239 and the brighter second phrase (c018's reasons hold for Vln I). The violas play the chromatic counter's first phrase sul D at 235–237, so its descents no longer end on open A4; the f second phrase stays on the A string (c250). Text only; MIDI byte-identical.
+- Considered, no change: Vln II's open A4 at 130 (cadential, not cantabile). F1, F2, the chorale and the S head follow the reading (Brahms 1/iv, Don Juan, Brahms 3/iii).
