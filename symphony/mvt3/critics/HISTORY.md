@@ -2478,3 +2478,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 582 (v582 → v583), lens 2, bass trombone B2 at 222
 - A&S Units 22–23 (VII7 resolution; hidden fifths Ex. 22-3c, 22-4b): the bass trombone plays B2 at 222 (was D3), so its tritone with Tbn 1's A♭3 resolves inward to C3–G3 at 223 and the trombones' leading tone reaches C; the stop chord's pitches, trumpets B→C, timpani G→C and the D bass in the tuba, basses, bassoons and cellos unchanged.
 - Declined: VII°6/5 at 14/154, VII°7 over the pedal at 238/268; kept the cellos at 222→223.
+
+## Cycle 583 (v583 → v584), lens 3, accented 6/4 at 25 and 165
+- A&S Units 16 and 19 (accented 6/4 over a sustained bass, 8–7–6–5 over 6–5–4–3): at 25 and 165 the inner voices start on C–E♭ instead of a V chord, so the 6/4 resolves to 5/3 under the tune's 6–5–4–3 and no longer clashes with its appoggiaturas in the same register (violas and Cl 1 at 25; Cl 1, Vln II and Tbn 1 C4 at 165); viola C4 on beat 1 of 25 avoids octaves with cellos and Bn 2; page break at 25 kept.
+- Proportions checked (exposition 35.0%, development 17.7%, recapitulation 16.3%, coda 31.2%): no change. Declined cadential 6/4 changes at 93 and 130.
