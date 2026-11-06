@@ -2525,3 +2525,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 594 (v594 → v595), lens 4, no change
 - Adler ch. 8 (woodwind doublings and choirs): no change. Tested Fl 1 an octave above the violins at 191–194; the line falls with a diminuendo and the flute would pre-empt its entry at 197–198, so reverted. Declined a bassoon on F2 at 67–74 (crosses the counter-melody; the wind rest is a deliberate choir alternation) and unison pairs on F1 at 19–26 and 151–158 (tutti exemption, range).
+
+## Cycle 595 (v595 → v596), lens 5, horn a2 at 247 and solo labels
+- Adler part 2 engraving (Ex. XVIII-4, unison printed once as "a2"; PDF 312, solo labels): Hn 1·2 at 247–250 print as one line marked a2 with one slur (score-only \partCombineUnisono; parts keep their own notes); "1." labels added for Ob 1 and Cl 1 at 101 and for Fl 1 at 197; Hn 1 reaches p on 81.1 with Hn 2, so the shared staff prints one p.
+- Kept: the flutes' two-voice unison at 257–262 (different breaths, c126), five ledger lines and the trumpet staff layout.
