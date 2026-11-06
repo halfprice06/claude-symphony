@@ -2451,3 +2451,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 575 (v575 → v576), lens 5, spacing on page 12
 - Gould spacing (proportional units; semibreve bars fairly narrow; equal values get equal space, PDF 53–55): c045's hairpin minimum length over 219–222 goes from 13 to 8, so the semibreve bars 220–221 shrink from 49.1/59.1 pt to 35.5/43.3 pt and 211–218, with the espress. echo of theme B at 217–218, get the space back. The hairpins stay about 10 mm and 6 mm long (c045's reason holds). Only page 12 changes; MIDI byte-identical.
 - Checked, not applied: Hn 3·4's part-combined C4/D♯4 chord at 219 (PDF 61; protected thread). Dots, stems and unisons follow PDF 60–68.
+
+## Cycle 576 (v576 → v577), lens 6, contrabassoon rests at 217–218
+- Adler ch. 6–7 (low contrabassoon notes need periodic rests, PDF 230): the contrabassoon rests at 217–218, as the tuba (c406) and trombones (c492) do there, and returns p on A♭1 at 219, so it no longer plays 209–230 (about 40 s) without a rest before the fff C1 at 223. The theme-B echo keeps its bass in the double basses, Bn 2 and cellos; 222 and 222→223 unchanged.
+- Tested and rejected: Fl 1 an octave lower at 77–78 to avoid the leap to B♭6 (loses the top octave at F2's peak). Checked: Ob 1 at 227–229, the cor anglais G5 at 182 (protected), Bn 1 B♭4 at 36 (c526).
