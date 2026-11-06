@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 583 (lens 3 form, Aldwell & Schachter Units 16 and 19 5/3- and 6/4-chord techniques: prolongation (aldwell-schachter PDF 249-262, 304-325) (seventh pass)) v583 → v584
+c583: Vln II completes the 6/4 at 247–248.
+
 ## Cycle 582 (lens 2 harmony, Aldwell & Schachter Units 22-23 Leading-tone seventh chords; Mixture (aldwell-schachter PDF 373-397) (seventh pass)) v582 → v583
 c582: vii°7 over the tonic pedal at 133–136.
 
