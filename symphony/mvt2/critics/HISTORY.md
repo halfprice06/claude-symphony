@@ -2537,3 +2537,1344 @@ holistic comparison with a master work (Bruch 3/ii, G major). Report: reports/c3
 - Accepted: nothing (v400 = v399 relabelled).
 - Recorded (no change): c399 (Rimsky-Korsakov examples 69-130; Bruch 3/ii from the IMSLP score): no change. Third relations, soft wind frame, string accompaniment under the middle-section wind tune and a busier return all match; nothing worse since v389; inverted-dominant doublings, brass at 60-62 and the coda follow. Stop check: clean build, 8 pages, 30-page parts book, theme record 18/18 and 11/11.
 - Do-not-touch: standing list; the 8-page layout.
+
+
+# Fourth series (cycles 400-599, to v600), from 2026-10-31
+
+## Cycle 400 (v400 → v401)
+Release check of cycles 201-399. Report: reports/c400.md.
+- Accepted: Bsn 1 MIDI-only mp (76) and mf (77 b3) via the new 'midi tag (score.ly bsnOneX, genparts.py), closing the c338 open item; print unchanged. A&S citation corrections: c220's "PDF 553-554" is PDF 543-544, c322's "PDF 553/554/556" are PDF 543/544/546; 33's C flat spelling also follows Brahms Op. 87 (PDF 544-545).
+- Closed: the five optional items c400 lists as carried without action.
+- Open: coherence/mvt2.md facts to refresh at the end of the series (timpani roll at 78 b3; "medium sticks" at 77 prints in the score).
+- Do-not-touch: standing list; the 8-page layout; Bsn 1 has no f at 78 in the MIDI (a hidden f caused a warning; Bsn 2's f sets the level).
+
+
+## Cycle 401 (v401 → v402)
+melody; Rimsky-Korsakov ch. II Melody, PDF 64-80, second pass. Report: reports/c401.md.
+- Accepted: nothing (v402 = v401 relabelled).
+- Recorded (no change): c401: no change. Horn chromatic theme A at p is Rimsky's exception (PDF 72, Ex. 76); Fl over C.a. in sixths at 41-44 follows PDF 70 and Ex. 57; theme B head at 61-62 has string and wind in each octave (PDF 76, Ex. 87); theme A memorable, theme B adequate as middle tune (Dvořák 9/ii).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 402 (v402 → v403)
+harmony; A&S Units 11-13 (PDF 163-210). Report: reports/c402.md.
+- Accepted: Vln II 39 b3-4 C4 under G flat4: ii7's D flat resolves down (A&S PDF 177), c142 kept (B flat once).
+- Recorded (no change): 41/57 7-8 appoggiatura; ii7 at 12-13, 28-29, 76-77 without held 4̂; IV6 at 37-38, 53-54; 87-88 bass leap; pp viola-triplet octaves at 37-43 and 76.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 403 (v403 → v404)
+form and pacing; A&S Unit 32 chromaticism in larger contexts, PDF 584-606, second pass. Report: reports/c403.md.
+- Accepted: nothing (v404 = v403 relabelled).
+- Recorded (no change): c403: no change. The return from the climax (61-65, F flat then A minor then E-E flat to V7) matches Beethoven 9/iii bars 83-99 (PDF 591, 593); the F sharp minor area at 47-53 enlarges theme B's G flat-F suspension (PDF 600-602); soft inflections at joins, the abrupt rising one only at the climax (PDF 585); D flat key area is the motto tail's passing note (PDF 587); remote keys about 9 percent, climax at 67 percent.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 404 (v404 → v405)
+orchestration; Rimsky-Korsakov appendix of tutti chords PDF 505-510 and ch. IV examples 204-217. Report: reports/c404.md.
+- Accepted: nothing (v405 = v404 relabelled).
+- Recorded (no change): c404: no change. Tutti at 61-62 follows chords 1-4 (PDF 505): each group complete, root alone in the lowest octave, brass close one level under; 79-81 follows Ex. 209 (string chord rejected at c114); 63 empty twelfth kept for the Tbn 1 quotation (c074); soft wind chords at 3-6 and 31-36 match chords 13, 14, 16.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 405 (v405 → v406)
+engraving; Gould PDF 41-52. Report: reports/c405.md.
+- Accepted: Cl 2 rest at 82 b3 at staff-position -4 (score only).
+- Do-not-touch: harp 8 bassa plan; B flat6 at pitch at 79; shared-rest fixes at 59, 63, 82; the 8-page layout.
+
+
+## Cycle 406 (v406 → v407)
+playability; Adler ch. 4 harp (adler1 PDF 110-124). Report: reports/c406.md.
+- Accepted: harp 54 b3 reordered (no repeated string, as c396 at 55); "R.H. étouffez" at 83.
+- Do-not-touch: standing list; the harp pedal plan; the 8-page layout.
+
+
+## Cycle 407 (v407 → v408)
+texture; Adler ch. 5 string writing, adler1 PDF 132-167. Report: reports/c407.md.
+- Accepted: nothing (v408 = v407 relabelled).
+- Recorded (no change): c407: no change. 15-22 oboe/solo violin dialogue has a real middleground (closes c007's open item); 45-46 figured to sustained background; 48-51 Mendelssohn V-32 model (protected); 37-44 Brahms pizzicato bass; theme A rises in register through the movement; 63-70 Carmen tremolo then Fauré basses; 83-92 diminuendo by scoring; spacing follows PDF 151-152.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 408 (v408 → v409)
+expression; Rimsky-Korsakov PDF 129-136. Report: reports/c408.md.
+- Accepted: timpani 78 b3 pp< (Rimsky PDF 136, as c358 at 60).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 409 (v409 → v410)
+holistic comparison with a master work (Beethoven Violin Concerto Op. 61/ii); Rimsky-Korsakov examples 1-60. Report: reports/c409.md.
+- Accepted: nothing (v410 = v409 relabelled).
+- Recorded (no change): c409: no change. Against Beethoven Op. 61/ii (soft single-colour opening, tune handed to solo winds, leads straight on) it holds; nothing worse since v400; bass pedal at 65-70 matches Ex. 40, climax at 61-62 Ex. 32, 71-78 Ex. 25/31, coda strings Ex. 5/26, wind octaves at 79-81 doubled by violins (PDF 67-68).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 410 (v410 → v411)
+cyclic design; A&S Unit 32, PDF 584-606, second pass. Report: reports/c410.md.
+- Accepted: nothing (v411 = v410 relabelled).
+- Recorded (no change): c410: no change. Joins at pitch with I v421, III v400, IV v400 hold (theme records 18/18, 11/11, scherzo 52/52, finale 51/51); remote areas and coda tie to the motto; last chord stays a plain triad for the finale's German sixth. coherence/mvt2.md stale lines (header, medium sticks prints in score, timpani roll 78 b3 pp<) to fix at the end-of-series update.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 411 (v411 → v412)
+melody; Adler ch. 3 (adler1 PDF 71-109). Report: reports/c411.md.
+- Accepted: cellos "sul G" at 51-52 (no open D3 in the held line).
+- Do-not-touch: theme A's line and three rising statements; theme B's neighbour-note design and sul A statement at 52-56; the string colour plan; standing list; the 8-page layout.
+
+
+## Cycle 412 (v412 → v413)
+harmony; A&S Unit 17 sequences, PDF 263-288. Report: reports/c412.md.
+- Accepted: nothing (v413 = v412 relabelled).
+- Recorded (no change): c412: no change. Cello/bass fifths on downbeats at 26-29 and 75-78 broken by beat-3 notes (PDF 267); falling-thirds sequences at 37-40 and 53-56 (Ex. 17-2d, 17-16, 17-18/19); 17-21 repeat a third lower into the cadence; 58 fifths chain with suspensions (Mozart 41/ii); 60-61 leading tone in octaves (c282, protected); minor-key sequence rules not applicable.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 413 (v413 → v414)
+form; Rimsky-Korsakov ch. IV, PDF 115-136. Report: reports/c413.md.
+- Accepted: nothing (v414 = v413 relabelled).
+- Recorded (no change): c413: no change. Builds at 53-61 and 75-79 add strings, woodwind, brass and release in reverse (PDF 130); each theme return newly scored (PDF 116-118); two different peaks, brass held back (PDF 119-121, 136); phrase transfers on shared notes; 83's empty middle kept (c063/c124); proportions in seconds: 345 s, climax 65 percent, second peak 82 percent, A' 43 s, coda 40 s.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 414 (v414 → v415)
+orchestration; Adler ch. 15, adler2 PDF 146-158, second pass. Report: reports/c414.md.
+- Accepted: nothing (v415 = v414 relabelled).
+- Recorded (no change): c414: no change. Climax octaves weighted as Mozart 40/iv (PDF 151), brass one level under (PDF 147); colour changes at 37-52 on phrase boundaries (PDF 146); new colours after rests or anacruses (PDF 156-157); Romantic unisons at 53-60 (PDF 158-159); string-free 7-14 and 31-36 (protected).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 415 (v415 → v416)
+engraving; Gould PDF 53-68 spacing, chords, unisons, double stems, dots. Report: reports/c415.md.
+- Accepted: nothing (v416 = v415 relabelled).
+- Recorded (no change): c415: no change. Bar 92 notes at the bar start in a wide bar are allowed (Gould PDF 55; c035); an X-offset test widened 92 at the cost of 87-91 and was reverted; coda systems 4+6 bars, the 87 break protected; double barlines at key changes and section starts; measured spacing even.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 416 (v416 → v417)
+playability; Adler ch. 6-7 woodwinds (adler1 PDF 168-232). Report: reports/c416.md.
+- Accepted: Bsn 2 breath at the end of 70.
+- Open (optional): Ob 1 / C.a. niente at 82 vs pp endings elsewhere.
+- Do-not-touch: woodwind register and breath plan; clarinet hand-over at 85-92; C.a. quotation at 47-53; standing list; the 8-page layout.
+
+
+## Cycle 417 (v417 → v418)
+texture; Adler ch. 15 polyphonic texture, adler2 PDF 172-186, second pass. Report: reports/c417.md.
+- Accepted: nothing (v418 = v417 relabelled).
+- Recorded (no change): c417: no change. Fl 1 G6 alone for one beat at 77 b1 kept for c341's Vln I voice leading; 71-78 four layers as the Scheherazade example (PDF 179); 57-61 build as Holst/Bloch (PDF 181, 184); 37-44 layers kept apart; 45-47 two-element link. Reading plan rows 418-598 rebuilt (kit/syllabus4b.py) so no page range returns within about 15 cycles.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 418 (v418 → v419)
+expression; Adler adler2 PDF 37-40, 187-196. Report: reports/c418.md.
+- Accepted: strings "molto sostenuto" at 79.
+- Closed: c416's Ob 1 / C.a. niente at 82 stays.
+- Do-not-touch: brass economy (no trumpets, trombones only 60-64, Tbn 1 alone 63-64); sf>p tremolo and Cb pizz. sf at 63; held-note handovers at 1-6, 65-70, 87-92; staged release at 81-83; the 8-page layout.
+
+
+## Cycle 419 (v419 → v420)
+holistic comparison with a master work (Brahms Violin Concerto Op. 77/ii); Rimsky-Korsakov examples 130-209. Report: reports/c419.md.
+- Accepted: nothing (v420 = v419 relabelled).
+- Recorded (no change): c419: no change. Wind-only opening with one solo voice as Brahms Op. 77/ii; two ff peaks supported by PDF 120 and Ex. 209; horn/trombone/woodwind balance at 60-61 matches PDF 102-103, 112; each theme return newly scored; coda blend as Ex. 143, 169; nothing worse since v409.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 420 (v420 → v421)
+cyclic design; Casanelles ch. 5, hyper-orchestra PDF 199-254. Report: reports/c420.md.
+- Accepted: nothing (v421 = v420 relabelled).
+- Recorded (no change): c420: no change to the score. Link from I v421 holds in sound and pitch; quotations and motto tail hold (18/18, 11/11); both builds staged crescendos; reserved sounds hold. coherence/mvt2.md refreshed (fourth-series change list, medium sticks prints in the score, timpani roll at 78 b3).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 421 (v421 → v422)
+melody; Rimsky-Korsakov ch. II strings, PDF 54-63. Report: reports/c421.md.
+- Accepted: nothing (v422 = v421 relabelled).
+- Recorded (no change): c421: no change. Both themes stated soft and undoubled, then violin unison, then octaves with winds (PDF 61); unisons at 23-30 and 53-56 as Ex. 12; high lines doubled or short solos (PDF 62); cello melodies on the D string with bassoons (c261); no octaves inside divided low strings; solo-violin coda restatement does not fit the protected coda.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 422 (v422 → v423)
+harmony; A&S Units 9-10 (PDF 134-162). Report: reports/c422.md.
+- Accepted: violas 43 b3 start on A flat3, so the cadential 6/4's bass is doubled and the 5th of V waits (supersedes c262's note on 43).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 423 (v423 → v424)
+form; A&S Units 16 and 19, PDF 249-262 and 304-325. Report: reports/c423.md.
+- Accepted: nothing (v424 = v423 relabelled).
+- Recorded (no change): c423: no change. Bar 43 b1-3 two 6/4s kept, but for a corrected reason: c283's ii4/3 reading is wrong (the viola D flat stops on the beat); the bass alone moves under held voices inside the subdominant (A&S 19 sec. 5, Ex. 19-12; sec. 16, Ex. 19-28). This reason replaces c283's. Seven 6/4 chords as c362; three equal six-bar one-chord frames (about 21 s each); 53-61 one passing motion to 61; 77-81 flat VI neighbour with interpolation. Total 345 s, climax 65 percent, second peak 84 percent.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 424 (v424 → v425)
+orchestration; Rimsky-Korsakov ch. III brass harmony and wind-brass combinations, PDF 100-114. Report: reports/c424.md.
+- Accepted: nothing (v425 = v424 relabelled).
+- Recorded (no change): c424: no change. Climax brass at 61-62 close, low brass in octaves, single horns one degree louder, woodwind above (c224, c086); Hn 4 entry at 60 (c364); Tbn 1 over tremolo at 63-64; muted horns with C.a. at 87-90; horn/bassoon crossing at 67-70; 79-81 moving horns under held woodwind (c129 exception); Hn 3-4 seventh at 29-30 also in cellos, alternative rejected.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 425 (v425 → v426)
+engraving; Adler ch. 18, App. A (adler2 PDF 291-312). Report: reports/c425.md.
+- Accepted: rehearsal letter D at 31; letters from 37 move up one (E 37 ... L 83). Earlier HISTORY entries that name letters D-K mean the old letters: refer by bar number.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 426 (v426 → v427)
+playability; Adler ch. 10-11 brass, adler1 PDF 282-329, adler2 PDF 1-13. Report: reports/c426.md.
+- Accepted: nothing (v427 = v426 relabelled).
+- Recorded (no change): c426: no change. Hn 1 endurance 53-67 with 16.7 s rest before the solo; Hn 3-4 unison to written G flat5 (c086); cold entries cued; trombone slide motion and B.tbn F attachment; tuba and B.tbn at 60-62; mute plan 82-92; all brass in range.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 427 (v427 → v428)
+texture; Adler ch. 16 transcription and texture, adler2 PDF 197-255. Report: reports/c427.md.
+- Accepted: nothing (v428 = v427 relabelled).
+- Recorded (no change): c427: no change. Viola figure on Cl 2's held notes at 71-78 is background (PDF 209, 230; c137); 15-22 hand-over as Ravel Petit Poucet (PDF 217); pizz. and harp inside held notes at 41, 44, 82 as damper-pedal effect; 27-29 hairpin crescendo in the protected plain statement; motion inside the chord at 87-88; no inner part attacks a solo's pitch.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 428 (v428 → v429)
+expression; Casanelles PDF 145-161, 290-291. Report: reports/c428.md.
+- Accepted: cellos, basses, bass trombone diminuendo at 64 into pp at 65; cellos tie the B flat2 anticipation into 65.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 429 (v429 → v430)
+holistic (Rachmaninoff PC 2/ii); Rimsky Ex. 206-274. Report: reports/c429.md.
+- Accepted: cellos 28 A flat3-F3-D flat4 (c279's open item closed).
+- Do-not-touch: cellos at 76 keep the held A flat3 (violas' eighths); standing list; the 8-page layout.
+
+
+## Cycle 430 (v430 → v431)
+cyclic design; Adler ch. 1 (adler1 PDF 19-23) and ch. 15 end (adler2 PDF 187-196). Report: reports/c430.md.
+- Accepted: nothing (v431 = v430 relabelled).
+- Recorded (no change): c430: no change to the score. Theme records 18/18, 11/11; joins with I v421, III, IV hold; changes since c420 touch no join; Cl 1 to Vln I C5 hand-over at 89 kept (protected); coherence/mvt2.md updated for the new rehearsal letters and changes to v430.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 431 (v431 → v432)
+melody; Sebesky ch. 6-7, PDF 204-230. Report: reports/c431.md.
+- Accepted: nothing (v432 = v431 relabelled).
+- Recorded (no change): c431: no change. C.a. a sixth above the B.cl. in the same rhythm at 33 kept (harmony fixes every beat; the delay alternative gives parallel sevenths); clarinet coda line at 85-90 is the motto tail in augmentation (protected); motion on held beats at phrase ends; theme A on the Dvořák Largo model; long-note leads, solo entries and quotations follow.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 432 (v432 → v433)
+harmony; A&S Units 22-23 diminished sevenths and mixture, PDF 373-397. Report: reports/c432.md.
+- Accepted: nothing (v433 = v432 relabelled).
+- Recorded (no change): c432: no change. Viola triplets at 40 d5-P5 across a broken chord at pp (c153 protected; optional fix in report); all diminished sevenths resolve (33, 40, 56, 59, 64, 81); cross relations only the recorded one at 21; B1-A flat1 at 50-51 keeps its spelling; every F flat reaches E flat; half-diminished sevenths and mixture plan complete.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 433 (v433 → v434)
+form; A&S Unit 18 6/3 chords and the I6-IV connection, PDF 289-303. Report: reports/c433.md.
+- Accepted: nothing (v434 = v433 relabelled).
+- Recorded (no change): c433: no change. 78 b3 is a passing 6/3 (PDF 297, Ex. 18-19b/c), replacing c293's III6=V and c323's iii6 labels; 6/3 passage at 53-56 has no hidden fifths; pedal joins as Dvořák 9/ii; I6-IV phrase openings; 59 applied chord lengthened to V on 60; coda 6/3s; proportions unchanged (345.3 s, 64.6 and 84.1 percent).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 434 (v434 → v435)
+orchestration; Adler ch. 15 homophonic and combined scoring, adler2 PDF 159-186. Report: reports/c434.md.
+- Accepted: nothing (v435 = v434 relabelled).
+- Recorded (no change): c434: no change. Thin downbeat at 57 filled by viola and melody (c124, protected Hn 1 line); Cl 2 seventh at 81-82 resolved in cellos, Hn 1, Bsn 1 (protected tutti); 60-61 cellos (c294); 61-62 doubled chord tones as Tchaikovsky (PDF 166-167); soft endings avoid the dangerous chord (PDF 162); timpani rolls start soft; theme returns keep harmony with new colour; main voice one level above.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 435 (v435 → v436)
+engraving; Gould PDF 7-13, 17-68. Report: reports/c435.md.
+- Accepted: stem thickness 0.9 (score and parts); space after warning signatures; C.a. slur at 36-37; string-line ends at 51-52 and 62; letter L alignment at 83.
+- Open (optional): Vln I "(sul D)" line end at 1-3 (protected bars); letter E offset at 37.
+- Do-not-touch: the 8-page layout and its breaks; harp 8 bassa plan; stem, beam and rest settings from c185-c435.
+
+
+## Cycle 436 (v436 → v437)
+playability; Adler ch. 12 timpani (adler2 PDF 55-91). Report: reports/c436.md.
+- Accepted: timpani "damp" at 86.
+- Open (optional, needs the scherzo thread): earlier retuning of C and D flat drums at 87.
+- Do-not-touch: standing list; the bar-92 muta text; the 8-page layout.
+
+
+## Cycle 437 (v437 → v438)
+texture; Rimsky-Korsakov ch. III woodwind and brass combined, PDF 106-114. Report: reports/c437.md.
+- Accepted: nothing (v438 = v437 relabelled).
+- Recorded (no change): c437: no change. Correction to c287: a horn does sit between the bassoons at 62 b1-2 and 79-81 (Bn 1 doubles the counter-melody, Bn 2 the bass; protected, inaudible at ff). Moving horns over held woodwind at 60 (counter-melody, Ex. 143); 85-89 inner line handover; open horns at 3-6 (muted colour kept for 87-90); bassoons take dissonances under solo horn; climax doublings; strings with brass only as PDF 113 allows.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 438 (v438 → v439)
+expression; Sebesky PDF 11-20, 204-218. Report: reports/c438.md.
+- Accepted: violins' mp on the 74 b3 pickup; Vln II "espr., sul D" at 22 and 70.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 439 (v439 → v440)
+holistic (Brahms PC 2/iii); Rimsky Ex. 275-312. Report: reports/c439.md.
+- Accepted: violas 84-85 restored (lost in v436 inside a comment); \barNumberCheck #93 on the violas. kit/guard.py now checks every promotion.
+- Open: add \barNumberCheck #93 to the other coda staves.
+- Do-not-touch: the coda as designed by c194, c199, c223; standing list; the 8-page layout.
+
+
+## Cycle 440 (v440 → v441)
+cyclic design; Rimsky PDF 13-23, 124-129. Report: reports/c440.md.
+- Accepted: s2.*0 instead of <> before the strings' L at 83; theme record gains codaVla (19 entries); accept.sh runs the theme checks.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 441 (v441 → v442)
+melody; Adler ch. 7 woodwinds, adler1 PDF 184-232. Report: reports/c441.md.
+- Accepted: nothing (v442 = v441 relabelled).
+- Recorded (no change): c441: no change. Theme B's second phrase in the C.a.'s best register (PDF 205-206); 37-40 as Ex. VII-5 (Tchaikovsky PC 1/ii); flute top notes approached by step, single B flat6 at 79; oboe answers at 15-22; theme A never whole in a woodwind (proportions protected); B.cl. solo and clarinet attacks; Bsn 1 doublings.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 442 (v442 → v443)
+harmony; A&S Units 24-25. Report: reports/c442.md.
+- Accepted: Cl 2 holds A flat4 through 72 b2 (7th of V7/V, as at 8 and 24).
+- Do-not-touch: seventh-chord chains at 8/24/72 and 42/58; 59-60 approach to V; pivots at 47-51 and 64-65; the 65-70 E flat7; plagal close 85-92; the 8-page layout.
+
+
+## Cycle 443 (v443 → v444)
+form; Adler ch. 15 end and ch. 17 accompaniment, adler2 PDF 187-196, 256-290. Report: reports/c443.md.
+- Accepted: nothing (v444 = v443 relabelled).
+- Recorded (no change): c443: no change. Section joins overlap (PDF 190, 192); deliberate seam at 56-57 (c049, c413); climax and cut-back 61-67 as Mozart Ex. XVII-9/10; return and coda 24 percent, as Dvořák 9/ii; colour rotation of themes; introductions to solo entries (c233, c363).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 444 (v444 → v445)
+orchestration; Adler ch. 8 woodwind-string combinations, adler1 PDF 233-281. Report: reports/c444.md.
+- Accepted: nothing (v445 = v444 relabelled).
+- Recorded (no change): c444: no change. Oboe over bassoon and cellos at 44-46 (Ex. VIII-4, 38); 57-60 flute and oboe double violins at pitch, clarinet thirds inside (c144, c254); pedals before pickups at 70 and 74; colour-per-note chords at 33 and 87-88; woodwind pair voicings at 61-62 and 79-81 (Ex. VIII-21-24); theme B in single winds at 37-44 (c304 not reopened).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 445 (v445 → v446)
+engraving; MOLA PDF 1-16. Report: reports/c445.md.
+- Accepted: B.tbn niente circle at 64.
+- Open (optional): Ob 1 niente at 47; clarinet muta text at 92.
+- Do-not-touch: the 8-page layout; tempo mark and letter placement; multi-rest ranges; cues and one-page parts; harp pedal plan.
+
+
+## Cycle 446 (v446 → v447)
+playability; Adler App. A ranges and terms, adler2 PDF 302-312. Report: reports/c446.md.
+- Accepted: nothing (v447 = v446 relabelled).
+- Recorded (no change): c446: no change. Checked against Adler's amateur column too: Fl 1 above it only at ff climaxes (61-63, 79), approached by step; Vln I top notes at 57-63 and 79 normal; Cl 1 C6 and Vln II C6 at the edge at climaxes; low-edge notes settled earlier; brass inside amateur ranges; all terms in Adler's table.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 447 (v447 → v448)
+texture; Sebesky ch. 3 strings, PDF 133-173. Report: reports/c447.md.
+- Accepted: nothing (v448 = v447 relabelled).
+- Recorded (no change): c447: no change. Two-line strings at 53-56 with harp and counter-line supplying the third (c049, c164); lowest cello with the bass; no string seconds above C5; never more than two divisi lines (Vln I rests 37-52, c041); cello split at 21-22; octave reinforcement at 45-46, 57-62, 79-81; a rising voice in every build bar; horns with strings sparingly.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 448 (v448 → v449)
+expression; Adler ch. 10 (adler1 PDF 299-329). Report: reports/c448.md.
+- Accepted: "3·4: mettere sord." in the score at 82.
+- Do-not-touch: standing list; the mute plan; the 8-page layout.
+
+
+## Cycle 449 (v449 → v450)
+holistic comparison with a master work (Brahms Symphony 3/ii); Adler ch. 11 and 15, adler2 PDF 18-54, 143-186. Report: reports/c449.md.
+- Accepted: nothing (v450 = v449 relabelled).
+- Recorded (no change): c449: no change. Against Brahms 3/ii (wind opening, cyclic second idea, recalling coda) it holds; nothing worse since v439; Hn 3-4 unison to written G flat5 at f with Cl 2 (c086; c169 fallback); no brass on theme A at 79-81 by design (c024, c060).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 450 (v450 → v451)
+cyclic design; Sebesky ch. 1 and ch. 9, PDF 11-20, 240-242. Report: reports/c450.md.
+- Accepted: nothing (v451 = v450 relabelled).
+- Recorded (no change): c450: no change to the score. Motto tail harmonized three ways, ending on C each time (Sebesky Ex. 3, 3A); theme A keeps one harmony (c434); focus, economy, held-back brass and arc follow. coherence/mvt2.md updated to v449; BRIEF.md now gives the correct coherence file locations (checkout vs the live finale.md in the shared folder).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 451 (v451 → v452)
+melody; Adler ch. 11 brass melody, adler2 PDF 19-36. Report: reports/c451.md.
+- Accepted: nothing (v452 = v451 relabelled).
+- Recorded (no change): c451: no change. Theme A's B flat appoggiatura gains weight each statement; theme B register plan A flat6, A6, B flat6 deliberate; Hn 3-4 unison at 61-62 a harmony line (protected); horn-with-cello counter-melodies (Strauss model); colour-contrast answers (Berlioz); releases at 62-65 and 81-83.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 452 (v452 → v453)
+harmony; A&S Units 28-29 Neapolitan and augmented sixths, PDF 482-529. Report: reports/c452.md.
+- Accepted: nothing (v453 = v452 relabelled).
+- Recorded (no change): c452: no change. Neapolitan at 49 follows the book; French sixth at 21 from IV; 61-65 route (protected); 64-65 sixth contracts in the top voice, acceptable (Schubert model); no augmented sixth at 78 (c232); chromatic spellings correct; no Neapolitan in the coda (c310, c312).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 453 (v453 → v454)
+form; A&S Units 6-8 V7, the dominant span and phrase structure, PDF 92-133. Report: reports/c453.md.
+- Accepted: nothing (v454 = v453 relabelled).
+- Recorded (no change): c453: no change. Plan tonic 36, IV 34, V 6, tonic 24 percent on root-position pedals; correction to c313: bar 44 is V7 (violas hold G flat3), resolving deceptively to vi at 45, which keeps the middle section open; chords speed up before arrivals; harmony over barlines only strong-weak-strong; retransition 65-70 passes the 7th; shortened reprise 0.52 of A; V7-I in theme A lands on 3.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 454 (v454 → v455)
+orchestration; Adler ch. 11 brass, adler2 PDF 14-18, 37-54. Report: reports/c454.md.
+- Accepted: nothing (v455 = v454 relabelled).
+- Recorded (no change): c454: no change. Horn weights at 61-62 (two horns = one trombone, c264); A' peak at 79-81 without heavy brass (Franck model); Tbn 1 quotation as held-back colour (Schubert 9, c294); low brass spacing as Ex. XI-1; soft horn chords one per pitch; trumpets tacet (cyclic choice).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 455 (v455 → v456)
+engraving (parts); MOLA PDF 1-16. Report: reports/c455.md.
+- Accepted: genparts.py widens rests under tempo words (wind/brass/timp) and drops midiExpression; part-only cues at 77-78 for the 79 entries.
+- Open: letter A above "Adagio" at 7 in the parts.
+- Do-not-touch: the 8-page score; the c355 letter-and-tempo stencil; multi-rest ranges; cues and one-page parts; harp page break before 71; harp pedal plan.
+
+
+## Cycle 456 (v456 → v457)
+playability; Sebesky ch. 2 (PDF 21-110). Report: reports/c456.md.
+- Accepted: B.cl. breath at the end of 58 (extends c176's breath plan).
+- Do-not-touch: breath plan 57-60 as extended; standing list; the 8-page layout.
+
+
+## Cycle 457 (v457 → v458)
+texture; Adler ch. 8 woodwind textures, adler1 PDF 251-281. Report: reports/c457.md.
+- Accepted: nothing (v458 = v457 relabelled).
+- Recorded (no change): c457: no change. Correction to c177/c317: no wind imitation at 57-60 is by choice (c124 rule, c277), not as Dvořák 9/ii, which does imitate at its 90-92. Viola sextuplets crossing the horn line at 59-60 follow the Sacre example (locked; one-group change in the report if reopened); pulsation at 48-51 and 71-74; theme A's three colours; spacing; Vln I C5 alone as third of the last chord (protected link).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 458 (v458 → v459)
+expression; A&S Unit 21 (PDF 346-371). Report: reports/c458.md.
+- Accepted: hidden MIDI levels for Vln II pedal 15-20, cellos 25-26 and 73-74, solo violin 17-18.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 459 (v459 → v460)
+holistic comparison with a master work (Mozart 41/ii); Adler ch. 16, adler2 PDF 202-244. Report: reports/c459.md.
+- Accepted: nothing (v460 = v459 relabelled).
+- Recorded (no change): c459: no change. Against Mozart 41/ii (muting, varied return, contrast inside the theme, ending returns to the opening sound) it holds; nothing worse since v449; viola A flat4 inside Vln II's held A flat4 at 71 b2 (c137, c427; one-note fix in the report); motion inside the coda's held chord; 62-65 release in the strings (Tbn quotation protected).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 460 (v460 → v461)
+cyclic design; A&S Unit 23 mixture, PDF 386-397. Report: reports/c460.md.
+- Accepted: nothing (v461 = v460 relabelled).
+- Recorded (no change): c460: no change. Key plan is mixture at long range (II as flat VI of C; F flat-E flat at 88 and A flat into the scherzo and finale); coda follows Brahms 3/ii (Ex. 23-5); no A flat minor phrase (key plan protected); flat 3 only passing. coherence/mvt2.md updated to v461 with the mixture note.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 461 (v461 → v462)
+melody; A&S Unit 2 intervals, PDF 33-46. Report: reports/c461.md.
+- Accepted: nothing (v462 = v461 relabelled).
+- Recorded (no change): c461: no change. Theme A interval content (one expressive 6th saved for 77); theme vs counter-melody at 71-78 follows Ex. 2-1b; outer voices perfect at cadences; leaps to and from dissonances all recorded or protected; fourths over the bass; minor keys defined by raised 7; theme B reaches 1 only at 61 (no earlier D flat cadence on melodic grounds); Dvořák 7/ii comparison recorded, theme A's opening kept (exported).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 462 (v462 → v463)
+harmony; A&S Units 30-31 other chromatic chords and chromatic voice leading, PDF 530-583. Report: reports/c462.md.
+- Accepted: nothing (v463 = v462 relabelled).
+- Recorded (no change): c462: no change. Every F flat reaches E flat in its register; applied leading tones rise (viola 19 b3, c352); remote mixture at 46-48 and 62-63 prepared (Ex. 30-3, 30-9; gives c083's keep-F flat a book reason); no °7 on sharp 4 at 43; label correction: 33 is a chromatic passing °7 in parallel sixths (PDF 552), not a common-tone °7 (c162; c220's comment and the do-not-touch list use the old label); 21, 59, 50-51, 64-65 match book models.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 463 (v463 → v464)
+form; A&S Unit 15 III and VII, PDF 230-247. Report: reports/c463.md.
+- Accepted: nothing (v464 = v463 relabelled).
+- Recorded (no change): c463: no change. Return from the IV stopover through a root-position V at 65-70 is correct (Ex. 15-2; not an inverted V); correction to c173/c323: a fourth rising third into a downbeat at 41-42 (record only); 78 b3 iii6 supports Cl 2's 8-7-6; proportions as c323/c433; V7 at 65-70 serves the horn tail, not to be shortened; 1-2 heard as I-flat VI from movement I.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 464 (v464 → v465)
+orchestration; Adler ch. 5 string scoring, adler1 PDF 125-167. Report: reports/c464.md.
+- Accepted: nothing (v465 = v464 relabelled).
+- Recorded (no change): c464: no change. Correction to c407: at 87 the bass F is doubled in the middle too (F1-F4); kept for the protected F-F flat-E flat line (c020, c104, c150, c194, c080). Two-beat spacing gap at 27-28 in the plain statement (c207, c347); violas never melodic by plan; double-bass drop-out plan; highest register held back; ending thins over a held bass; climax not bottom-heavy.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 465 (v465 → v466)
+engraving; Adler ch. 2 (adler1 PDF 30-55). Report: reports/c465.md.
+- Accepted: text offsets at 22 (Vln II) and 44 (Ob 1); cello-part "sul G" line break at 51-52.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 466 (v466 → v467)
+playability; Adler ch. 10 horns (adler1 PDF 299-312). Report: reports/c466.md.
+- Accepted: part-only cello cues for Hn 2 (73-74) and Hn 1 (76-77).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 467 (v467 → v468)
+texture; Rimsky-Korsakov ch. II melody in combined groups, PDF 74-80. Report: reports/c467.md.
+- Accepted: nothing (v468 = v467 relabelled).
+- Recorded (no change): c467: no change. Counter-line at 57-60 with a wind in each octave (Ex. 90; c087, c187, c327); Bsn 2 over the basses at 57-58 and 72-73 (c157, c060); three-group unison at 75-77 (c217); B.tbn with basses at 64; bass in three octaves at 79-81 (Ex. 91, 96).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 468 (v468 → v469)
+expression; Adler PDF 51-70. Report: reports/c468.md.
+- Accepted: violins and violas con sord. in the coda (84-92), cellos and basses open; solo violin rejoins at 25.
+- Do-not-touch: mute plan 15-37 and the coda mutes; standing list; the 8-page layout.
+
+
+## Cycle 469 (v469 → v470)
+- Accepted: cello 9-8 suspension at 73-74 (C4 tied over the bar, B flat8 A flat8 G4); reprise only, 25-26 unchanged.
+- Recorded (no change): violins' plain reprise at 71-76 (theme record) not reopened.
+- Do not touch: the reprise/first-statement difference in the cello line at 26 vs 74 is deliberate.
+
+
+## Cycle 470 (v470 → v471)
+- Accepted: part-only "via sord." at the end of Vln I, Vln II, Vla (bar 92).
+- Do not touch: the Neapolitan links at 49, 63-64 and 87; the one-line placement of "via sord." (two-line or below-staff versions squeeze the Vln I part).
+
+
+## Cycle 471 (v471 → v472)
+lens 1; A&S Unit 1. Report: reports/c471.md.
+- Accepted: nothing (v472 = v471 relabelled).
+- Recorded (no change): c471: no change. Scales and spelling scans clean; theme B's 4/7 strong-beat tones recorded (protected); minor-mode forms, chromatic spellings (motto, quotation) and theme A frame follow Unit 1.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 472 (v472 → v473)
+- Accepted: Vln II lower half 39 b4 E♭4 (was C4 held through beats 3-4).
+- Do not touch: c402's D♭4-C4 at 39 b2-3.
+
+
+## Cycle 473 (v473 → v474)
+form; A&S Unit 25, applied chords. Report: reports/c473.md.
+- Accepted: nothing (v474 = v473 relabelled).
+- Recorded (no change): c473: no change. Tonicization curve peaks at 56-64 like Mozart 41/ii and Tchaikovsky 6/iv; chromatic voice exchange at 21 and VII°7 at 64 identified; ♭7 over the coda pedal tested and rejected (Dvořák 9/ii coda; c302).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 474 (v474 → v475)
+orchestration; Casanelles ch. 6. Report: reports/c474.md.
+- Accepted: nothing (v475 = v474 relabelled).
+- Recorded (no change): c474: no change. Soft entries over pedals (Mahler Fig. 6.1), theme A's receding colours, harmonic-series spacing, frequency allotment and graded brass density follow; horns at 61-62 in Vln II's octave recorded (protected). c334's roll point closed: rolls render as repeated strokes.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 475 (v475 → v476)
+- Accepted: explicit tie directions in chords at Vln II 38-39, Vla 80 and 88.
+- Do not touch: these directions (LilyPond's default puts a lone chord tie opposite the stem, into the other note).
+
+
+## Cycle 476 (v476 → v477)
+playability; Rimsky-Korsakov ch. I. Report: reports/c476.md.
+- Accepted: nothing (v477 = v476 relabelled).
+- Recorded (no change): c476: no change. All 40 principles of Rimsky ch. I hold; timpani retune at 87 stays open (c436, needs the scherzo thread); Hn 2 cold ff entry at 61 cued; Bsn 2 breath plan at 57-60 per c456.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 477 (v477 → v478)
+texture; Adler ch. 17. Report: reports/c477.md.
+- Accepted: nothing (v478 = v477 relabelled).
+- Recorded (no change): c477: no change. Accompaniment against solo lines follows Adler ch. 17 (Tchaikovsky Canzonetta compared); 23-30's attacks with the melody recorded (protected plain first statement); C.a. at 41-44, dialogue at 15-22 and coda chain kept.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 478 (v478 → v479)
+- Accepted: Bsn 1 pp< p at 54-55; Cl 2 pp at 90 in score and part.
+- Do not touch: Bsn 1 stays one level below the melody (p, not mp).
+
+
+## Cycle 479 (v479 → v480)
+- Accepted: Cl 2 E♭4 tied into 74, D♭4 on b2; Vla 74 b1 E♭3.
+- Do not touch: the 74 b1 voicing around the cello 9-8 (no D♭ above the C4 suspension on the downbeat).
+
+
+## Cycle 480 (v480 → v481)
+cyclic design; A&S Unit 29, augmented sixths. Report: reports/c480.md.
+- Accepted: nothing (v481 = v480 relabelled).
+- Recorded (no change): c480: no change to the score. Actor updated coherence/mvt2.md (version line, changes through v480, cello reprise note). G♭ spelling at 60 and plain last chord kept for movements I and IV; augmented sixths at 21 and 62-65 resolve correctly; no augmented sixth in the coda (c210, c312).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 481 (v481 → v482)
+melody; Rimsky-Korsakov ch. V. Report: reports/c481.md.
+- Accepted: nothing (v482 = v481 relabelled).
+- Recorded (no change): c481: no change. Doubling plan of both themes, register, climaxes, Fl 1 duet support at 41-44 and the ff unisons follow Rimsky ch. V; accompaniment scan finds only spots already ruled on.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 482 (v482 → v483)
+- Accepted: corrected comment at bar 43 (bSecCb); no musical change.
+- Do not touch: 74's V4/3 voicing (c469, c479).
+
+
+## Cycle 483 (v483 → v484)
+form; Rimsky-Korsakov ch. IV. Report: reports/c483.md.
+- Accepted: nothing (v484 = v483 relabelled).
+- Recorded (no change): c483: no change. Register, low spacing, gaps, phrase transfers, chord transfers, amplification/elimination and echo follow Rimsky ch. IV; new wide-bottom spacings at 38 and 73 recorded; optional overlap at 22 not recommended (mute time).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 484 (v484 → v485)
+orchestration; Adler harp and timpani. Report: reports/c484.md.
+- Accepted: nothing (v485 = v484 relabelled).
+- Recorded (no change): c484: no change. Harp harmonics at 82-83, pedalling, deliberately thin two-note hands, timpani layout and roll endings, and harp silence at climaxes follow Adler; c436 retune still open (scherzo thread).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 485 (v485 → v486)
+- Accepted: \removeWithTag #'part on Vln II in score.ly; score "via sord." at 92 b3 for upper strings; Cbn BarNumber.staff-padding 4.5; B.tbn score hairpin ending in 64.
+- Do not touch: the score/part split of the B.tbn hairpin at 64 (the part keeps <>\!).
+
+
+## Cycle 486 (v486 → v487)
+- Accepted: Bsn 2 \breathe at end of 10.
+- Do not touch: pp< at 60; trombone 1 held back for its single quotation; trumpets tacet.
+
+
+## Cycle 487 (v487 → v488)
+texture; Adler ch. 11, contrapuntal brass. Report: reports/c487.md.
+- Accepted: nothing (v488 = v487 relabelled).
+- Recorded (no change): c487: no change. Brass counterpoint, Tbn 2 at 60, horn weights and registers follow Adler ch. 11 (agrees with c337); Dvořák 9/ii's horn diminution at 42-45 noted but the seam 30-31 is protected.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 488 (v488 → v489)
+- Accepted: MIDI-only pizzicato/tremolo patch switches (Cb 37-44, 63; Vla 41-44, 61-64) and Bsn 1 MIDI dynamics at 75-78.
+- Do not touch: the printed dynamics at 53-61, 75-82, 85-92; MIDI fades at 3, 47, 63, 66, 91.
+
+
+## Cycle 489 (v489 → v490)
+holistic; Adler ch. 17. Report: reports/c489.md.
+- Accepted: nothing (v490 = v489 relabelled).
+- Recorded (no change): c489: no change. Compared with Schumann 4/ii (Romanze): colour changes, quotations as sections and attacca ending hold; 23-30 accompaniment attacks recorded (protected); nothing worse since v479.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 490 (v490 → v491)
+cyclic design; A&S Unit 30, mixture. Report: reports/c490.md.
+- Accepted: nothing (v491 = v490 relabelled).
+- Recorded (no change): c490: no change to the score. Actor brought coherence/mvt2.md up to v491. Both joins are III♯ relations (Ex. 30-1); C-A♭-E-C augmented-triad key plan; quotations prepared per Ex. 30-3 and 30-9; last chord stays plain (c210, c480).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 491 (v491 → v492)
+melody; Sebesky ch. 5. Report: reports/c491.md.
+- Accepted: nothing (v492 = v491 relabelled).
+- Recorded (no change): c491: no change. Theme ranges, breaths, motion under held notes, doubling order and inner-line leaps follow Sebesky ch. 5; 54/56 ties and 74 b3 register drop protected.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 492 (v492 → v493)
+harmony; A&S Unit 7. Report: reports/c492.md.
+- Accepted: nothing (v493 = v492 relabelled).
+- Recorded (no change): c492: no change. 44 b2-4 relabelled VII6 of D♭ (voicing follows the book); 59 vii°7/V protected; c352's I6 note at 41/57 corrected; weak-to-strong and hidden-octave scans find only acceptable or protected cases.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 493 (v493 → v494)
+form; A&S Unit 21, pedals. Report: reports/c493.md.
+- Accepted: nothing (v494 = v493 relabelled).
+- Recorded (no change): c493: no change. Pedal placement, entries/exits and dissonances follow Unit 21; basses resting at 53 kept (Dvořák 9/ii 43-46; c164); two new pedals recorded (Vln II 15-19, bass D♭ at 79-80).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 494 (v494 → v495)
+orchestration; Sebesky ch. 2. Report: reports/c494.md.
+- Accepted: nothing (v495 = v494 relabelled).
+- Recorded (no change): c494: no change. Low-brass octave roots at 61-62 normal in this style (Rimsky PDF 101); missing F at 79-80 not filled (would lose the 7th and weaken c150's echo); c364's register range corrected to D3-C4.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 495 (v495 → v496)
+- Accepted: part-only placement fixes (Vla 84 text below, Timp 77 left-aligned) and timpani note wording.
+- Open: viola part letter G at 53 vs "sotto voce" at 48.
+- Do not touch: c355's combined letter-and-tempo marking; one-page parts.
+
+
+## Cycle 496 (v496 → v497)
+playability; Adler, clarinets and bassoons. Report: reports/c496.md.
+- Accepted: nothing (v497 = v496 relabelled).
+- Recorded (no change): c496: no change. Cbn E♭1 at 81 enters ff and doubled; bassoon skip scan clean; Cl 2 long hold at 89-92 protected; B.cl. notation and A-clarinet change time already recorded.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 497 (v497 → v498)
+texture; Adler ch. 5, homophonic strings. Report: reports/c497.md.
+- Accepted: nothing (v498 = v497 relabelled).
+- Recorded (no change): c497: no change. String spacing, first-inversion doublings, section crossings and the final chord's partial-series spacing follow Adler ch. 5; thin accompaniment at 48-51 and held basses at 30, 89-92 protected (Grieg, Aase's Death, compared).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 498 (v498 → v499)
+dynamics; A&S Unit 3, rhythm and metre. Report: reports/c498.md.
+- Accepted: nothing (v499 = v498 relabelled).
+- Recorded (no change): c498: no change. Cello 9-8 dynamics at 73-74 follow Ex. 3-6; C.a. swell at 49 kept as in movement I; coda dynamics on strong bars; theme B's harmonic rhythm answers c238 (closed).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 499 (v499 → v500)
+holistic; Adler ch. 5. Report: reports/c499.md.
+- Accepted: nothing (v500 = v499 relabelled).
+- Recorded (no change): c499: no change. Compared with Tchaikovsky's Serenade Op. 48: changing doublings, the big chord at 79, diminuendo by thinning, the muted close all hold; no cello statement of theme A (Hn 1 already has that register; 71-82 protected).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 500 (v500 → v501)
+cyclic design; Casanelles ch. 1. Report: reports/c500.md.
+- Accepted: nothing (v501 = v500 relabelled).
+- Recorded (no change): c500: no change to the score. Actor updated coherence/mvt2.md to v501. Theme records 19/19, 11/11; each quotation once; both joins and all finale links present at pitch; motto tail never in the same colour twice running.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 501 (v501 → v502)
+melody; A&S Unit 20, figuration. Report: reports/c501.md.
+- Accepted: nothing (v502 = v501 relabelled).
+- Recorded (no change): c501: no change. Theme A, theme B and the b-phrase figuration follow Unit 20 (Tchaikovsky Canzonetta compared); parallels and spelling scans clean apart from the motto's shared D♮ at 68; B♭6 at 79 is an accented neighbour (c001 wording).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 502 (v502 → v503)
+- Accepted: Vla 74 b1 triplet E♭3-G3-E♭4.
+- Recorded: 6/4 chords in the movement are now 5, 21 b2, 38 b4½, 43 b2-3, 68 b3, 74 b1, 74 b3 (replaces c362's "seven 6/4s").
+- Do not touch: the 74 downbeat (cello 9-8, Cl 2 E♭4-D♭4).
+
+
+## Cycle 503 (v503 → v504)
+form; Adler ch. 17. Report: reports/c503.md.
+- Accepted: nothing (v504 = v503 relabelled).
+- Recorded (no change): c503: no change. Frame proportions, horn placement around solos, thinning after peaks, timpani links and quiet build-ups follow Adler ch. 17 (Canzonetta compared); C.a. heard three times in 32-52 recorded as an observation (all protected).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 504 (v504 → v505)
+orchestration; Sebesky ch. 2, woodwinds. Report: reports/c504.md.
+- Accepted: nothing (v505 = v504 relabelled).
+- Recorded (no change): c504: no change. Woodwind order, complete tutti chords and B.cl. bass follow Sebesky; Bsn 1 F4 inside the horns at 62 recorded (corrects c374); 14-15 seam, Cl octave at 77 and C.a. alone at 87-88 kept.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 505 (v505 → v506)
+- Accepted: stem fixes at 46 (Ob 1), 59 (Fl 1, Ob 1), 72 (Cl 2 eighth), 82 (Fl 1).
+- Do not touch: c015's 57-60 down-stems; \once \stemDown at 82 must come before \after 2 \pp (else bar-check warnings).
+
+
+## Cycle 506 (v506 → v507)
+playability; Rimsky-Korsakov ch. I. Report: reports/c506.md.
+- Accepted: nothing (v507 = v506 relabelled).
+- Recorded (no change): c506: no change. B.cl. solo at 31-36, Vln I above C6 at 71-73, covered strings at 64-66, high horn notes and soli markings all follow Rimsky ch. I or are protected.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 507 (v507 → v508)
+texture; Sebesky ch. 3, strings with winds. Report: reports/c507.md.
+- Accepted: nothing (v508 = v507 relabelled).
+- Recorded (no change): c507: no change. Trombone register clear at 63-64 (Ex. 216); complete brass and string chords at 61-62, 79-81; builds per Ex. 215; muted horns doubling violas at 87-90 is a plain doubling (corrects c447), protected.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 508 (v508 → v509)
+- Accepted: cello bowing at 59-60 (four bows).
+- Do not touch: down-bow f at 59 and down-bow ff at 61 for the cellos.
+
+
+## Cycle 509 (v509 → v510)
+- Accepted: cello slurs at 59-60 aligned with the winds' counter-line.
+- Do not touch: four bows at 59-60 with down-bow f at 59 and down-bow ff at 61.
+
+
+## Cycle 510 (v510 → v511)
+cyclic design; Sebesky 240-242, Adler 19-23. Report: reports/c510.md.
+- Accepted: nothing (v511 = v510 relabelled).
+- Recorded (no change): c510: no change to the score. Actor updated coherence/mvt2.md to v511. Theme records, quotations and joins hold; arc low points are cyclic events; cyclic lines not covered; reductions clear.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 511 (v511 → v512)
+melody; Rimsky-Korsakov ch. II. Report: reports/c511.md.
+- Accepted: nothing (v512 = v511 relabelled).
+- Recorded (no change): c511: proposed change declined. The critic made Fl 1 double the C.a.'s head at 41-42 (F5-G♭5-A♭5); 'Fl 1 notes at 41-44' is on the do-not-touch list (c090, c101, line 560) and the descant is the passage's one independent line over theme B, so the actor kept v511. Recorded: theme B's neighbour cell, chromatic brass exceptions, theme A contour, 45-51 all follow Rimsky ch. II.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 512 (v512 → v513)
+harmony; A&S Unit 29, augmented sixths. Report: reports/c512.md.
+- Accepted: nothing (v513 = v512 relabelled).
+- Recorded (no change): c512: no change. French sixth at 20-22 and German sixth at 64-65 follow Unit 29; no augmented sixth added at 43, 50-51, 78, 80 or the coda (c232, c310, c312, c372).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 513 (v513 → v514)
+form; A&S Unit 14, modulation. Report: reports/c513.md.
+- Accepted: nothing (v514 = v513 relabelled).
+- Recorded (no change): c513: no change. Entry into D♭ at 36-37, late D♭ cadence at 61 (protected; Mozart 41/ii compared), return 62-71 and graded half cadences follow Unit 14; doubled A♭ at 62 b3-4 recorded (held tonic thread).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 514 (v514 → v515)
+orchestration; Casanelles PDF 285-291. Report: reports/c514.md.
+- Accepted: nothing (v515 = v514 relabelled).
+- Recorded (no change): c514: no change. Counter-lines unmasked (densest at 58 b2, protected); horn/brass dynamics at 60-62 and 79-81, solo-over-accompaniment levels and distance-by-highs follow Casanelles and Rimsky PDF 41.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 515 (v515 → v516)
+- Accepted: Vla 74 \stemDown.
+- Do not touch: down-stems throughout the viola figure 71-78.
+
+
+## Cycle 516 (v516 → v517)
+playability; Adler ch. 2, strings. Report: reports/c516.md.
+- Accepted: nothing (v517 = v516 relabelled).
+- Recorded (no change): c516: no change. Tremolo double-stops at 61-64, mute timings, bow load 71-92, open-string avoidance, divisi words, pizz./arco timing all follow Adler ch. 2; no harmonics added.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 517 (v517 → v518)
+orchestration; Rimsky-Korsakov ch. III. Report: reports/c517.md.
+- Accepted: nothing (v518 = v517 relabelled).
+- Recorded (no change): c517: no change. Horns inside the bassoon span only at f/ff (62, 79-81; corrects c287's 'never'); 61-62 balance per c287; 3-6, 67-70, 57-58, 79 and 87-90 follow Rimsky ch. III.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 518 (v518 → v519)
+expression; Rimsky-Korsakov ch. IV. Report: reports/c518.md.
+- Accepted: nothing (v519 = v518 relabelled).
+- Recorded (no change): c518: no change. Soft entries at 22, 57, 77, sf-p at 63, release order at 63-66, 81-83, 87-92 and the 57-60 build follow Rimsky ch. IV; c468/c478 changes consistent.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 519 (v519 → v520)
+holistic; Rimsky-Korsakov Ex. 69-130. Report: reports/c519.md.
+- Accepted: nothing (v520 = v519 relabelled).
+- Recorded (no change): c519: proposed change declined. The critic added 'poco animando' at 75 (MIDI 53-55) before the 78 allargando, after Grieg's Piano Concerto ii; c269's do-not-touch includes 'no new tempo words', which the report does not answer, so the actor kept v519. Left open as an option for a later tempo pass. Recorded: Grieg comparison holds; nothing worse since v509; wide low spacing only at p/pp; Bsn tritone at 69-70 protected (optional B.cl. D♭3).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 520 (v520 → v521)
+cyclic design; A&S Unit 26, tonicization of remote keys. Report: reports/c520.md.
+- Accepted: nothing (v521 = v520 relabelled).
+- Recorded (no change): c520: no change to the score. Actor updated coherence/mvt2.md to v521. Both quotations sit in the only remote keys and are explained by what follows (Ex. 26-8, 26-14); C major never a tonic after bar 1; B→C kept for the finale; joins and theme records hold.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 521 (v521 → v522)
+melody; Adler ch. 4, harp. Report: reports/c521.md.
+- Accepted: nothing (v522 = v521 relabelled).
+- Recorded (no change): c521: no change. Harp hand-over at 82-88 follows Ex. IV-9; close two-note right hand justified (c127, c137, c361); pedal plan clean; no harp at the close (c050).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 522 (v522 → v523)
+harmony; A&S Unit 31, sequences. Report: reports/c522.md.
+- Accepted: nothing (v523 = v522 relabelled).
+- Recorded (no change): c522: no change. Seventh-chord chain at 39-40/55-56, cello 9-8 at 73-74, ♭6 resolutions and goal-directed accidentals follow Unit 31; cellos' rising sixth at 56 recorded (optional basses A1-B♭1 at 56 if 53-56 reopens).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 523 (v523 → v524)
+form; A&S Unit 32, chromatic key areas. Report: reports/c523.md.
+- Accepted: nothing (v524 = v523 relabelled).
+- Recorded (no change): c523: no change. A♮ enters in stages (40, 46, 47-50, 62-64) and never returns in 65-92 (new do-not-touch: no A♮ in 65-92); proportions 36/34/19/11%; section joins per c403.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 524 (v524 → v525)
+orchestration; Rimsky-Korsakov PDF 51-53, 81-99. Report: reports/c524.md.
+- Accepted: nothing (v525 = v524 relabelled).
+- Recorded (no change): c524: no change. Horn major second at 81 b2-3 is the audible V7 seventh (protected lines); loud mid-texture gaps at 28, 47, 62 recorded (protected or covered).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 525 (v525 → v526)
+- Accepted: score-only offset for the harp f at 78 b3.
+- Do not touch: harp 8 bassa plan; B♭6 at pitch at 79; shared-rest fixes at 59, 63, 82.
+
+
+## Cycle 526 (v526 → v527)
+playability; Adler ch. 3, strings. Report: reports/c526.md.
+- Accepted: nothing (v527 = v526 relabelled).
+- Recorded (no change): c526: no change. All 28 applicable principles of Adler ch. 3 hold; viola double stop at 62 (protected), Vln I B♭6 at 79-80 and bass 4 soli recorded.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 527 (v527 → v528)
+- Accepted: Cb A1-B♭1 at 56; \bnBelow 53 56 removed from the Vc staff.
+- Do not touch: basses tacet 53-55; 53-56 layering.
+
+
+## Cycle 528 (v528 → v529)
+- Accepted: viola part text spacing at 83-84.
+- Open (optional): part-only f for Cl 1·2 at 60.
+
+
+## Cycle 529 (v529 → v530)
+holistic; Rimsky-Korsakov tutti chords. Report: reports/c529.md.
+- Accepted: nothing (v530 = v529 relabelled).
+- Recorded (no change): c529: no change. Tutti at 61-62, partial tutti at 79-81, soft chords and the sf at 63 follow Rimsky's chord tables; Elgar 2/ii comparison holds; nothing worse since v519.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 530 (v530 → v531)
+cyclic design; Adler ch. 17. Report: reports/c530.md.
+- Accepted: nothing (v531 = v530 relabelled).
+- Recorded (no change): c530: no change to the score. Actor updated coherence/mvt2.md to v531. Coda motto, both quotations' entries, the scherzo hand-over (checked against scherzo v400/v431) and range/mute plan follow Adler ch. 17.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 531 (v531 → v532)
+melody; A&S Unit 21, suspensions. Report: reports/c531.md.
+- Accepted: nothing (v532 = v531 relabelled).
+- Recorded (no change): c531: no change. Theme A's tied suspension cell is clean at 8, 24, 72; tritone at 55-56 resolved in Bsn 1; climax 79-82 delayed resolution follows; changes since c311 follow Unit 21.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 532 (v532 → v533)
+harmony; A&S Unit 5, doubling and spacing. Report: reports/c532.md.
+- Accepted: nothing (v533 = v532 relabelled).
+- Recorded (no change): c532: no change. Doubled third at 9 b1 justified (fifths otherwise); leading-tone doublings at 24, 52, 72 and in tutti passages follow (Dvořák 9/ii compared); written augmented second at 50-51 kept (c432); leap at 64 b3 added to c392's list.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 533 (v533 → v534)
+form; A&S Unit 26, key plan. Report: reports/c533.md.
+- Accepted: nothing (v534 = v533 relabelled).
+- Recorded (no change): c533: no change. Exit from IV timed at 2.9:1 (justified by the climax in IV); falling-third key plan at two scales; F♯-minor spelling practical; late D♭ cadence and plagal coda follow Unit 26.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 534 (v534 → v535)
+orchestration; Adler ch. 15, tutti and colour. Report: reports/c534.md.
+- Accepted: nothing (v535 = v534 relabelled).
+- Recorded (no change): c534: no change. A′ peak octave weighting, the 61-62 tutti, colour changes at 37-52, deliberate doublings and early accompaniment entries follow Adler ch. 15 (Dvořák 9/ii compared).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 535 (v535 → v536)
+- Accepted: score-only spacer for Fl 2 at 81 b2-3.
+- Do not touch: Fl 1's down-stems at 81 (c375, c394).
+
+
+## Cycle 536 (v536 → v537)
+- Accepted: Bsn 2 \breathe at end of 57.
+- Do not touch: staggered breaths Bsn 2 (57) / B.cl. (58).
+
+
+## Cycle 537 (v537 → v538)
+texture; Sebesky ch. 1. Report: reports/c537.md.
+- Accepted: nothing (v538 = v537 relabelled).
+- Recorded (no change): c537: no change. Doublings, chromatic inner lines, one primary line at a time and colour variety follow Sebesky ch. 1; 45-46 lower octave outweighing Ob 1 recorded (protected; test Ob 1 p if reopened).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 538 (v538 → v539)
+expression; Adler ch. 7, woodwinds. Report: reports/c538.md.
+- Accepted: nothing (v539 = v538 relabelled).
+- Recorded (no change): c538: no change. Soft dynamics by register, solo character words and hairpins, low bassoon cases and doubling levels follow Adler ch. 7; Cl 1·2 part-only f at 60 still open (c528).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 539 (v539 → v540)
+holistic; Rimsky-Korsakov Ex. 1-68. Report: reports/c539.md.
+- Accepted: nothing (v540 = v539 relabelled).
+- Recorded (no change): c539: no change. Compared with Rachmaninoff 3/ii: the horn-harp, solo violin, violins order and theme A's growing doublings hold; octave and register points at 18, 23-30, 45-46, 75-76 follow or are protected; nothing worse since v529.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 540 (v540 → v541)
+cyclic design; A&S Unit 32. Report: reports/c540.md.
+- Accepted: nothing (v541 = v540 relabelled).
+- Recorded (no change): c540: no change to the score. Actor updated coherence/mvt2.md to v541. Common-tone °7 at 33, the motto's reharmonized D♮, the F♭=E thread to the scherzo, joins and quotations all hold (19/19, 11/11).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 541 (v541 → v542)
+melody; A&S Unit 3, rhythm and metre. Report: reports/c541.md.
+- Accepted: nothing (v542 = v541 relabelled).
+- Recorded (no change): c541: no change. Theme B's metre held by bar 37 and the pizz. bass (refines c331); theme A's peak, A′ phrase lengths and hemiola, pace and phrase groups follow Unit 3 (Dvořák 9/ii compared).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 542 (v542 → v543)
+harmony; A&S Units 11-13. Report: reports/c542.md.
+- Accepted: nothing (v543 = v542 relabelled).
+- Recorded (no change): c542: no change. 68 b3 is a tonic 6/4 over the E♭ pedal (corrects c402's label); V6/5 at 53 b3 resolves; deceptive cadences double the third of VI; harp fifths at 54 b2-3 recorded (settled figure; untested swap noted).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 543 (v543 → v544)
+form; Rimsky-Korsakov ch. IV. Report: reports/c543.md.
+- Accepted: nothing (v544 = v543 relabelled).
+- Recorded (no change): c543: no change. Sections scored for their role, every return re-scored, builds and releases in Rimsky's order, brass re-entries recorded with reasons; A′/coda proportions kept.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 544 (v544 → v545)
+orchestration; Rimsky-Korsakov ch. I. Report: reports/c544.md.
+- Accepted: nothing (v545 = v544 relabelled).
+- Recorded (no change): c544: no change. C.a. above the B.cl. solo at 32-34 separated by dynamics (c276); harp f at 78 (c244, c344); muted horns with C.a., plucked bass group, horn/trombone balance and horns at 79-81 follow Rimsky ch. I.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 545 (v545 → v546)
+- Accepted: Vln I "tutti, con sord." at 25 in the score.
+- Closed: Cl 1·2 dynamic at 60 (no restatement needed).
+
+
+## Cycle 546 (v546 → v547)
+playability; Adler ch. 4, harp. Report: reports/c546.md.
+- Accepted: nothing (v547 = v546 relabelled).
+- Recorded (no change): c546: no change. Harp pedal plan, one-hand triplets at 53-56, harmonics at 82-83, chord sizes and timpani tuning follow Adler ch. 4; c436 retune open in the scherzo thread.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 547 (v547 → v548)
+texture; Adler ch. 15, polyphonic texture. Report: reports/c547.md.
+- Accepted: nothing (v548 = v547 relabelled).
+- Recorded (no change): c547: proposed change declined. The critic doubled the violins' theme with Cl 1 at 75-76; 'A′ texture plan 71-82' is on the do-not-touch list (c067 and later), and the strings-alone second phrase before the winds join at 77 is part of that plan, so the actor kept v547. Recorded: viola C4 at 78 b3, principal/subsidiary dynamics, legato layers by rhythm, theme A head against theme B at 53-56, no imitation.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 548 (v548 → v549)
+expression; Adler PDF 37-40, 187-196. Report: reports/c548.md.
+- Accepted: nothing (v549 = v548 relabelled).
+- Recorded (no change): c548: no change. Climax brass economy and sf at 61-64, molto sostenuto and staged release at 79-83, solo dynamics, hand-overs and tempo words follow Adler (Dvořák 9/ii compared).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 549 (v549 → v550)
+holistic; Rimsky-Korsakov tutti chords. Report: reports/c549.md.
+- Accepted: nothing (v550 = v549 relabelled).
+- Recorded (no change): c549: no change. Chords at 78 and 60 b3 and soft frame chords follow Rimsky's tables; Tchaikovsky 1/ii comparison holds; nothing worse since v539 (only bar-25 text).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 550 (v550 → v551)
+cyclic; Casanelles ch. 5. Report: reports/c550.md.
+- Accepted: nothing (v551 = v550 relabelled).
+- Recorded (no change): c550: no change to the score. Coherence file corrected (Vln I rejoin at 22 b3/25; v546 entry). Links to movement I v421, scherzo and finale hold; pedal passages and staged crescendos recorded.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 551 (v551 → v552)
+melody; Adler ch. 3 strings. Report: reports/c551.md.
+- Accepted: nothing (v552 = v551 relabelled).
+- Recorded (no change): c551: no change. Theme A's rising string statements, B♭6 peak by step, theme B on the A string, solo violin 17-22, cello and bass writing all follow Adler ch. 3.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 552 (v552 → v553)
+harmony; A&S Unit 17 sequences. Report: reports/c552.md.
+- Accepted: nothing (v553 = v552 relabelled).
+- Recorded (no change): c552: no change. Pitch changes since v412 follow Unit 17; bar 11 fifths acceptable (I6 between, weak beat, pp, protected); builds differ from Tchaikovsky 6/iv by design.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 553 (v553 → v554)
+form; A&S Units 16 and 19 six-four chords. Report: reports/c553.md.
+- Accepted: nothing (v554 = v553 relabelled).
+- Recorded (no change): c553: no change. Return 65-71 matches Ex. 19-14 (Bsn 2 D♭3-C3 at 71 is the 7th's resolution; protect); eight 6/4s classified; Dvořák 9/ii plagal comparison noted, c283 not re-raised.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 554 (v554 → v555)
+orchestration; Rimsky-Korsakov brass. Report: reports/c554.md.
+- Accepted: nothing (v555 = v554 relabelled).
+- Recorded (no change): c554: no change. Climax brass at 60-62, trombone over tremolo 63-64, horn/bassoon 67-70 and muted horns with C.a. and violas 87-90 follow Rimsky PDF 100-114; horn seconds at 80-81 acceptable.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 555 (v555 → v556)
+
+Accepted: Vln II "Poco più mosso" strMark at 37 restyled to match the other tempo marks (print only).
+Do-not-touch: the 8-page layout and its breaks; other letter-and-tempo placements; c375/c394 flute down-stems; harp 8 bassa plan; standing list. Optional: winds' letter E above its tempo word at 37 (needs room above the bar numbers).
+
+
+## Cycle 556 (v556 → v557)
+idiom; Adler ch. 9-10 brass. Report: reports/c556.md.
+- Accepted: nothing (v557 = v556 relabelled).
+- Recorded (no change): c556: no change. Brass notes unchanged since v426; Hn 1 endurance, Hn 4 top line 61-62, cold entries with cues, Tbn 1 quotation, mute timings and part notation all playable per Adler.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 557 (v557 → v558)
+voice leading; A&S Unit 31 chromatic voice exchange. Report: reports/c557.md.
+- Accepted: nothing (v558 = v557 relabelled).
+- Recorded (no change): c557: no change. Wedge at 51-52 (settles c237 finding 3), contrary semitones into goal chords, motto tail never over a chromatic rising bass, exchange at 21 intact; Bsn 2 respelling at 47 correct.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 558 (v558 → v559)
+
+Accepted: niente circles at 37, 47 (Ob 1) and 53 (C.a., end of the quotation; print only). Closes c445's optional Ob 1 niente at 47.
+Do-not-touch: hidden peak 57-59; Cl 1 / Hn 1 levels at 53-56; fade order 63-66, 81-83, 89-92; standing list; 8-page layout.
+
+
+## Cycle 559 (v559 → v560)
+holistic; Rimsky-Korsakov examples 126-209. Report: reports/c559.md.
+- Accepted: nothing (v560 = v559 relabelled).
+- Recorded (no change): c559: no change. Theme A grows by added players as in Elgar's Nimrod (shape only); brass 60-64, horn/bassoons 67-70, coda fade and re-scorings follow Rimsky; v549-v559 changes print-only.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 560 (v560 → v561)
+cyclic; Adler ch. 1 and 15. Report: reports/c560.md.
+- Accepted: nothing (v561 = v560 relabelled).
+- Recorded (no change): c560: no change. Link from movement I, both quotations, motto-tail colours, climax release and coda hand-over follow Adler's additional thoughts; joins hold.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 561 (v561 → v562)
+melody; Rimsky-Korsakov strings doublings. Report: reports/c561.md.
+- Accepted: nothing (v562 = v561 relabelled).
+- Recorded (no change): c561: no change. Themes gain doublings stepwise, violin unisons at 23-30 and 53-56, high violin notes doubled except protected spots, no octaves in divided low strings, climax 79-81 in three octaves.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 562 (v562 → v563)
+
+Accepted: Bsn 2 at 11 C3-E♭3-D♭3 (no I6-IV unison with the bass clarinet).
+Do-not-touch: horn solo 7-14; rising bass at 11-12; c252 D♭3 at 11 b3; neighbour 6/4 at 68; release 80-83; standing list; 8-page layout.
+
+
+## Cycle 563 (v563 → v564)
+form; A&S Unit 18 6/3 chords. Report: reports/c563.md.
+- Accepted: nothing (v564 = v563 relabelled).
+- Recorded (no change): c563: no change. 6/3 chords sit where the music moves and are absent at arrivals; pedal joins match Dvořák 9/ii 72-77; changes since c433 follow doubling rules; 28 b2 plain ii6 is the protected first statement.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 564 (v564 → v565)
+orchestration; Rimsky-Korsakov tutti appendix. Report: reports/c564.md.
+- Accepted: nothing (v565 = v564 relabelled).
+- Recorded (no change): c564: no change. Tutti 61-62 follows the tables (closes the old 'low third at 61' item, c004-c024); 63-64, 79-82 and string-free 3-14, 31-36 match Rimsky's examples; spacing scan clean.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 565 (v565 → v566)
+
+Accepted: Ob 1 hairpin at 47 shortened in the score (niente circle clear of "solo, espr.").
+Open (optional): timpani instruction type style (upright vs italic).
+Do-not-touch: c558 niente circles; tempo and letter placement; parts layout; standing list; 8-page layout.
+
+
+## Cycle 566 (v566 → v567)
+
+Accepted: timpani "damp" at 4 (text only).
+Closed: c436's timpani retune during 87-91 (muta stays at 92).
+Do-not-touch: link 1-6; damps at 53, 62, 86; muta at 92; standing list; 8-page layout.
+
+
+## Cycle 567 (v567 → v568)
+texture; Adler ch. 16. Report: reports/c567.md.
+- Accepted: nothing (v568 = v567 relabelled).
+- Recorded (no change): c567: no change. Late answering entrances (41, 53, 57, 75), counter-line 57-60, lean climax 61-62, held harmonic counterpoint and changing theme-B backgrounds follow Adler ch. 16; 36-37 overlap deliberate (c071).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 568 (v568 → v569)
+expression; Sebesky ch. 1 and 6. Report: reports/c568.md.
+- Accepted: nothing (v569 = v568 relabelled).
+- Recorded (no change): c568: no change. Entries one level above accompaniment with words, held leads shaped, tempo words at phrase ends with \mt steps; Fl 1 shadowing at 42-43 protected (c090/c494/c511).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 569 (v569 → v570)
+holistic; Rimsky-Korsakov examples 206-274. Report: reports/c569.md.
+- Accepted: nothing (v570 = v569 relabelled).
+- Recorded (no change): c569: no change. Professional in the Dvořák tradition (compared with Violin Concerto op. 53/ii by shape only); nothing worse since v559; optional Bsn 2 E♭3 at 83-84 not applied (would blur harmonics).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 570 (v570 → v571)
+cyclic; Rimsky-Korsakov prefaces and ch. IV. Report: reports/c570.md.
+- Accepted: nothing (v571 = v570 relabelled).
+- Recorded (no change): c570: no change. Link at 2-3 is Rimsky's method 2 for passing a chord; staged diminuendos at 82 and 90-92; motto-tail registers and the 79-81/87-89 echo follow PDF 127-129; joins hold.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 571 (v571 → v572)
+melody; Sebesky PDF 204-230. Report: reports/c571.md.
+- Accepted: nothing (v572 = v571 relabelled).
+- Recorded (no change): c571: no change. Theme lines unchanged since v431; theme B's stepwise first phrase protected (c291, c141); cadence descent at 77-78/81-82 ends differently; counter-lines move where the lead holds.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 572 (v572 → v573)
+harmony; A&S Units 22-23 diminished sevenths and mixture. Report: reports/c572.md.
+- Accepted: nothing (v573 = v572 relabelled).
+- Recorded (no change): c572: no change. No tritone-to-fifth hidden fifths beyond c432's protected viola at 40; diminished sevenths at 40, 56, 59-60, 64 resolve per Units 22-23; mixture plan complete; pitch changes since v432 follow.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 573 (v573 → v574)
+form; Adler ch. 15 end and 17. Report: reports/c573.md.
+- Accepted: nothing (v574 = v573 relabelled).
+- Recorded (no change): c573: no change. Closed: c519's 'poco animando' at 75 (forward tempo belongs to the build at 53). Soft span 29-58 and coda length compared with Dvořák 9/ii; joins, seams, rhythmic independence and frame soloists follow Adler.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 574 (v574 → v575)
+orchestration; Adler ch. 15 texture. Report: reports/c574.md.
+- Accepted: nothing (v575 = v574 relabelled).
+- Recorded (no change): c574: no change. Controlled sf>p at 63-64, four-layer texture at 57-60, unison into harmony at 65-70, constant harp colour for theme A, theme B colours at phrase starts, safe final chord.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 575 (v575 → v576)
+
+Accepted: part-only Vln I cues for Ob 1, C.a. (77-78) and Fl 1, Cl 1 (75-76); letter A at its barline in the parts; \noBreak in Fl 1's cues.
+Open (optional): viola part letter G at 53; Fl 2 / Ob 2 part niente at 81.
+Do-not-touch: 8-page score layout; c355 letter-and-tempo marking; multi-rest ranges; existing cue set and one-page parts; harp page break before 71; harp pedal plan; standing list.
+
+
+## Cycle 576 (v576 → v577)
+playability; Adler App. A ranges. Report: reports/c576.md.
+- Accepted: nothing (v577 = v576 relabelled).
+- Recorded (no change): c576: no change. All long wind spans have breaths within 20 s; notes beyond the amateur column only at protected ff peaks; timpani order at 5-6 and low notes covered; names and terms in Adler's tables.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 577 (v577 → v578)
+texture; Rimsky-Korsakov ch. III wind and brass. Report: reports/c577.md.
+- Accepted: nothing (v578 = v577 relabelled).
+- Recorded (no change): c577: no change. Horns inside bassoons at 62 and 79-80 supported by Rimsky's own Ex. 158 (adds to c437); horn counter-melody, horn/bassoon concord-discord, muted-horn doublings and strings-with-brass exceptions all follow PDF 106-114.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 578 (v578 → v579)
+expression; Adler ch. 10 brass. Report: reports/c578.md.
+- Accepted: nothing (v579 = v578 relabelled).
+- Recorded (no change): c578: no change. Horn solos' words and swells, Hn 1 tongued G♭4 at 59, brass levels at 60-62, Tbn 1 marcato at 63-64, horns at 79-82 and the mute plan follow Adler ch. 10; score and parts agree.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 579 (v579 → v580)
+holistic; Rimsky-Korsakov examples 261-274+. Report: reports/c579.md.
+- Accepted: nothing (v580 = v579 relabelled).
+- Recorded (no change): c579: no change. Shape matches Tchaikovsky 5/ii (memory and web only; no bar claims); nothing worse since v569 (part-only changes); theme B re-scoring, brass re-entries and the 65-70 pedal follow or are protected.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 580 (v580 → v581)
+cyclic; Sebesky ch. 1 and 9. Report: reports/c580.md.
+- Accepted: nothing (v581 = v580 relabelled).
+- Recorded (no change): c580: no change. Motto tail has four harmonies each landing on C; theme A's fixed harmony protected; coda inner voices economical; instruments held back across the symphony; coherence file brought to v581.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 581 (v581 → v582)
+melody; Adler ch. 7 woodwinds. Report: reports/c581.md.
+- Accepted: nothing (v582 = v581 relabelled).
+- Recorded (no change): c581: no change. Theme lines unchanged since v441. Record correction: Adler Ex. VII-5 spans an octave, so cite it for its thin accompaniment, not its range; c141's protection of theme B's first phrase stands on its other reasons.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 582 (v582 → v583)
+harmony; A&S Units 24-25 sevenths and modulation. Report: reports/c582.md.
+- Accepted: nothing (v583 = v582 relabelled).
+- Recorded (no change): c582: no change. Every 7th resolves or is transferred (60-61, 74, 37-40); doubled LT at 24 b3 protected; F over G♭ at 41/57 is an upward-resolving dissonance (supports c112); cross relations at 77-78 and 58 acceptable; modulation plan follows Unit 25.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 583 (v583 → v584)
+form; A&S Units 6-8 phrase and cadence. Report: reports/c583.md.
+- Accepted: nothing (v584 = v583 relabelled).
+- Recorded (no change): c583: no change. I-IV-V-I plan and proportions match Dvořák 9/ii; cadence goals on downbeats. Record corrections: bar 47 is V7-i (not a C♯7 half cadence, c163); C at 71 comes from Bsn 2 and violas (c453). 52-53 LT exception stays (c071, c302).
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 584 (v584 → v585)
+orchestration; Adler ch. 8 combining winds and strings. Report: reports/c584.md.
+- Accepted: nothing (v585 = v584 relabelled).
+- Recorded (no change): c584: no change. Oboe/violin echo at 15-22 varies its third unit; pedal lifted at 36, held at 22 and 52; no flute under a reed; wind-string joins gradual; tutti spacing at 61 and 79 matches Adler's Dvořák Carnival example.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 585 (v585 → v586)
+
+Accepted: padding under the tempo words at 64 and 89; score-only "mettere sord." for the violins at 82 b3.
+Open (optional): Cb pizz. quarters at 40.
+Do-not-touch: mute plan 82-92; string indications and "ord." returns; standing list; 8-page layout.
+
+
+## Cycle 586 (v586 → v587)
+playability; Sebesky ch. 2 winds and brass. Report: reports/c586.md.
+- Accepted: nothing (v587 = v586 relabelled).
+- Recorded (no change): c586: no change. All long wind spans have breaths; doubled low roots at 60-62 normal for a Romantic ff tutti (protected); Bsn 1 with horns 79-81 protected (c087); Cbn B♭0 at 80 playable; ranges and clefs within Sebesky.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 587 (v587 → v588)
+texture; Sebesky strings PDF 133-173. Report: reports/c587.md.
+- Accepted: nothing (v588 = v587 relabelled).
+- Recorded (no change): c587: no change. Soloist dialogue over sustained sections at 15-22; cello-bass doublings only at 49-50 and the organ bass 83-92; every thin line solo or doubled; divisi and peaks confirm c447, c507.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 588 (v588 → v589)
+
+Accepted: cello slur through the 9-8 suspension at 73-74.
+Open (optional): Bsn 1 dynamics at 54-55.
+Do-not-touch: c469 suspension pitches; c118 bowings; c338 violin slurs at 24, 72; standing list; 8-page layout.
+
+
+## Cycle 589 (v589 → v590)
+holistic; Adler ch. 11 and 15 examples. Report: reports/c589.md.
+- Accepted: nothing (v590 = v589 relabelled).
+- Recorded (no change): c589: no change. Professional against Brahms PC 1/ii (memory and web only); nothing worse since v579; held-back low brass, theme A rescorings, foreground/background and soft endings follow Adler's examples.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 590 (v590 → v591)
+cyclic; A&S Unit 23 mixture. Report: reports/c590.md.
+- Accepted: nothing (v591 = v590 relabelled).
+- Recorded (no change): c590: no change. Every F♭ reaches E♭ before F♮; minor-colour frame at 1-2 and 88-89 (Dvořák Largo coda also drops its opening chord); key plan uses ♭VI and III♯ of C; A♭-minor phrase not re-raised (c460); coherence file brought to v591.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 591 (v591 → v592)
+melody; Adler ch. 11 melodic doubling. Report: reports/c591.md.
+- Accepted: nothing (v592 = v591 relabelled).
+- Recorded (no change): c591: no change. Theme A's stressed notes rise B♭4-B♭5-B♭6 to the single peak; colour kept back at 31-36 and 83-89; staggered horn-with-cello at 75-82 matches Strauss; release 81-83 protected.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 592 (v592 → v593)
+harmony; A&S Units 28-29 Neapolitan and augmented sixths. Report: reports/c592.md.
+- Accepted: nothing (v593 = v592 relabelled).
+- Recorded (no change): c592: no change. Neapolitan at 49, return 61-65 (♭VI-♭II-V7-I with German sixth spelt as V7), French sixth at 21, ♭VI at 78 without a sixth (c232) and plagal coda all follow Units 28-29.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 593 (v593 → v594)
+form; A&S Unit 15 III and VII. Report: reports/c593.md.
+- Accepted: nothing (v594 = v593 relabelled).
+- Recorded (no change): c593: no change. I-IV-V-I key plan with F♯-minor point at 49% and V7 at 70%; C♭-C at 50-51 in one voice; iii6 at 78 b3 backed by Mozart 41/ii; no new rising thirds; single-chord frame passages not to be judged by PDF 231.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 594 (v594 → v595)
+orchestration; Adler ch. 11 brass scoring. Report: reports/c594.md.
+- Accepted: nothing (v595 = v594 relabelled).
+- Recorded (no change): c594: no change. Horn weights at 61-62 (c264), trombone-free A′ peak, held-back trombone quotation, low-brass spacing and soft horn chords follow Adler ch. 11. Rejected (do not retest): soft trombone chord at 82-83 would cover the timpani at 84-86.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 595 (v595 → v596)
+
+Accepted: Hn 3 slur above the chord at 3-6.
+Declined: Bsn 2 \partCombineSoloII at 72-74 (would cut the slur from 71, the protected seventh resolution, c553).
+Do-not-touch: link 1-6; Bsn 2 slur 71-72; Cl 1 rest with fermata at 92; standing list; 8-page layout.
+
+
+## Cycle 596 (v596 → v597)
+
+Accepted: part-only Vc. cue for Hn 3·4 at 27-28.
+Do-not-touch: horn layout 61-62; muted horns 87-90; existing cue set; standing list; 8-page layout.
+
+
+## Cycle 597 (v597 → v598)
+texture; Adler ch. 8 orchestral treatments. Report: reports/c597.md.
+- Accepted: nothing (v598 = v597 relabelled).
+- Recorded (no change): c597: no change. Counter-melodies in 37-60 instead of imitation (c124, c457); B.cl./Bsn 2 unison bass at 57-58 kept for staggered breaths (c456, c536); held V7 at 65-66 well spaced; exposed C5 at 89-92 protected.
+- Do-not-touch: standing list; the 8-page layout.
+
+
+## Cycle 598 (v598 → v599)
+
+Accepted: timpani "ord." at 78 b3.
+Open (optional): Cb pizz. at 40.
+Do-not-touch: mute plan; string colour words; standing list; 8-page layout.
+
+
+## Cycle 599 (v599 → v600), release check
+
+Accepted: timpani part text "medium sticks, ord." at 77 (part only).
+Closed at release: all six open optional items (Cb 40, viola letter G 53, Fl 2/Ob 2 part niente 81, timpani type style, "(sul D)" line end 1-3, letter E at 37).
+Do-not-touch: the full standing list; everything accepted in cycles 400-598; 8-page score and 30-page parts book.

@@ -13,3 +13,10 @@ Thread "Movement II, 200 more loops". Cycle N reviews vNN and produces v(N+1); c
 - Kit paths point at the checkout; critics read the books' text from reference-books/ and the PDFs from pdfs/ in the checkout.
 - kit/finish.sh NEW commits vNEW (no MP3s; only the newest version keeps score.pdf and parts-book.pdf in the tree) and refreshes the shared-folder copy.
 - READING.md rows 201–400 come from kit/syllabus3.py (new readings first, then the earlier lists).
+
+## Fourth series (cycles 400–599, from 2026-10-31)
+Thread "Continue movement 2 loop to v600". Starts from v400 (the only version left on main after PR #26; older versions are in git history at fdb1ffc). Cycle N reviews vN and produces v(N+1); cycle 599 produces v600.
+- Same kit and paths as the third series. Versions are pushed to branch claude/project-thread-sgcp3g every 10 cycles.
+- READING.md rows 401–599 come from kit/syllabus4.py: per lens, every reading used in cycles 1–399, least recently used first, so no reading repeats within the series. Cycles 400 and 599 are release checks.
+- Result (2026-11-05): v600, release check passed (critics/reports/c599.md). Change list in symphony/coherence/mvt2.md.
+- Container setup: `apt-get update && apt-get install -y lilypond fluidsynth fluid-soundfont-gm poppler-utils`; `pip install mido soundfile scipy numpy`.

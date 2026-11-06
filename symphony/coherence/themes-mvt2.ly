@@ -29,6 +29,8 @@ mixtureLineLow = { f2. | fes2. | es2. }
 lastAflat = { aes'2. | aes'2. | aes'2. }
 lastC = { c''2. }
 lastEflat = { es'2. }
+% codaVla (c440): violas 84 b3-92, top note of each divided chord (lyparse reads a chord's highest pitch): C4/E flat4, C4/F4, then the upper half's A flat3 at 87 (the parser drops a tied note inside a chord, so the record stops there), over the F3-F flat3-E flat3 line the finale quotes (IV 197-198); catches a shifted viola entry, as in v436-v439
+codaVla = { r2 es'4~ | es'2. | f'2. | aes2. }
 
 % ---- where each item must appear ----
 %@ linkVlnOne VlnOne 1 1
@@ -51,3 +53,4 @@ lastEflat = { es'2. }
 %@ lastAflat VlnTwo 87 abs
 %@ lastC VlnOne 89 abs
 %@ lastEflat ClTwo 89 abs
+%@ codaVla Vla 84
