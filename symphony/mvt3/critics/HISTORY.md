@@ -2458,3 +2458,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 
 ## Cycle 577 (v577 → v578), lens 7, no change
 - Adler ch. 8 (doubling and unison combinations): no change. Tested and rejected resting Ob 1 after 83.1 to avoid its unison with the clarinets and Vln II on F1's major head (unison allowed in a near-tutti forte, Ex. VIII-39; c164's balance reason holds; reads as a broken entry). Not applied: a held C6 in Fl 2 at 230–233 (covers the A♭→G on top; protected). Follows the reading: 107–109, 265–268 (c509), 85; solo-string doubling already at 95–98 and 119–122.
+
+## Cycle 578 (v578 → v579), lens 8, dal niente at 47
+- Adler ch. 7 (the clarinet's niente attack, PDF 211, Ex. VII-57; held-note hand-overs, PDF 188): Cl 2's A♭3 at 47, where it takes over Hn 4's fading note (c538's crossfade), is marked "dal niente", as the clarinet pads at 51 and 171 are. Text only; MIDI byte-identical.
+- Checked across the woodwinds: no low-register pp in oboe or bassoon, no covered low flute, the bassoon solo accompanied softer than it plays. Not applied: Fl 1's B♭6 at 78 (doubles Vln I), a niente entry at 181 (protected), graded hairpins at 115–122 (declined twice), 143–144 (protected).
