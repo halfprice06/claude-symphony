@@ -2490,3 +2490,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 585 (v585 → v586), lens 5, bar numbers at one height
 - MOLA (bar numbers placed consistently): the bar-number row sits 6.8 staff spaces below the double basses throughout (was 5.5 on pages 1–11 and 6.8 from 209), so 149–150 no longer drop below the row; page 2's fixed staff distances trimmed about 1% and page 7 gets fixed distances at 115 and before 128 to avoid compression. No notes changed; breaks unchanged.
 - Kept: harp pedal diagrams, no letter at 123, revision stamp left to the release check.
+
+## Cycle 586 (v586 → v587), lens 6, brass fp at 209 and Hn 2 at 90
+- Adler ch. 9–10 (forte-piano brass attack): at 209 the held brass (Hn 1–4, Tbn 1·2, bass trombone, tuba), Bn 1·2 and the violas' chord take fp < with the woodwinds and timpani, so the A♭7 swell into 211 dips instead of being filled; A♭ pedal and runs keep f; the 205–210 scoring (c178) and the dynamic path from 211 (c238) unchanged.
+- Hn 2 plays B♭3 with Hn 4 at 90.4 (was F4), removing the score's only horn leap over an octave into the ff E♭3 at 91.
