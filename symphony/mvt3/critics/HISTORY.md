@@ -2533,3 +2533,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 596 (v596 → v597), lens 6, bass drum ff at 278
 - Adler part 2 ch. 12 and 14 (Piston: loud timpani doubled by bass drum drowns the tutti, PDF 55, 84, 141): the bass drum strikes ff instead of fff under the fff timpani roll on the final chord at 278, as c146 did at 223; crash, timpani and every other part stay fff. Pitches, chain, quotation and the fff arrival of the protected close unchanged.
 - Checked: timpani tunings, retunings (37, 95, 114, 206, 215), sticks and roll endings. Declined: a two-drum stroke at 279, tying the 263 crash into 264.
+
+## Cycle 597 (v597 → v598), lens 7, brass alone on F1 head at 103
+- Adler part 2 ch. 11 (Bartók Ex. XI-24, Hindemith Ex. XI-23: each brass pair states the subject alone, f ben marc.; PDF 44, two horns balance one trombone): at 103–104 the violas and cellos rest and return on their sf chord at 105, so Hn 3·4, Tbn 1 and the bass trombone (now playing the head with the basses, ben marc., instead of a single B♭1 stroke) answer as a third group; 99–106 now runs strings → winds → brass → strings with winds. F1's notes and all quotations unchanged.
+- Kept: trombones doubling the violins at 247–254 (c197, c317); brass stretto at 265–272 and horn-pair entries checked.
