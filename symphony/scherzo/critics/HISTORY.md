@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 592 (lens 2 harmony, Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (seventh pass)) v592 → v593
+c592 A&S Units 24–25: E♯ in the bass on beat 3 of 180 (tA.ily, Cb + Bsn 2). Kept: plain ii6/5 at 164, 220, 352 (A in the tune); 191.3 without E♯ (E5 on top); no deceptive cadence at 223–224.
+
 ## Cycle 591 (lens 1 melody, Sebesky ch. 6 Melodic Considerations and ch. 7 The Importance of the Lyric (sebesky PDF 204-230) (seventh pass)) v591 → v592
 c591 lens Sebesky ch. 6–7: no change. Do-not-touch: legato harp head 73–80 (reason: first step of motive x's sharpening, harp → Cl 1 portato 81 → violas staccato 89); the near-silent beat 44.3; Fl 1's growing answers 172/176/183; the second idea's sentence and hemiola.
 
