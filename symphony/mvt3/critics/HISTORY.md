@@ -2522,3 +2522,6 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 593 (v593 → v594), lens 3, no change
 - A&S Unit 18 (dominant prolongation and its resolution): no change. Tested resolving the open dominant at 102 to F minor; it closed off the development and made 103 sound like iv of F, so reverted. Coda bass candidates at 238, 251, 252, 254 and 129 declined on paper (fifths, octaves or protected bars); 149 stays protected (c226, c313).
 - Proportions and coda stages unchanged; par8's "fifths" at 36.1 are a beat-sampling artefact.
+
+## Cycle 594 (v594 → v595), lens 4, no change
+- Adler ch. 8 (woodwind doublings and choirs): no change. Tested Fl 1 an octave above the violins at 191–194; the line falls with a diminuendo and the flute would pre-empt its entry at 197–198, so reverted. Declined a bassoon on F2 at 67–74 (crosses the counter-melody; the wind rest is a deliberate choir alternation) and unison pairs on F1 at 19–26 and 151–158 (tutti exemption, range).
