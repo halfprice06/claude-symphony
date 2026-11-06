@@ -1,0 +1,54 @@
+ok    hornCall HnOne 1 (4 notes from note 1)
+ok    motiveX Timp 9 (10 notes from note 1)
+ok    motiveXrepeated Timp 241 (4 notes from note 1)
+ok    motiveXrepeated Timp 249 (4 notes from note 1)
+ok    themeA VlnOne 13 (52 notes from note 1)
+ok    themeA VlnOne 105 (52 notes from note 1)
+ok    themeA OboeOne 105 (52 notes from note 1)
+ok    themeA ClTwo 105 (52 notes from note 1)
+ok    themeA VlnOne 253 (52 notes from note 1)
+ok    themeA VlnOne 305 (52 notes from note 1)
+ok    themeA OboeOne 305 (52 notes from note 1)
+ok    themeA ClTwo 305 (52 notes from note 1)
+ok    themeA Vc 57 (14 notes from note 1)
+ok    themeA Vla 61 (14 notes from note 1)
+ok    themeA VlnTwo 65 (14 notes from note 1)
+ok    themeA VlnOne 95 (8 notes from note 1)
+ok    themeA Vc 289 (14 notes from note 1)
+ok    themeA Vla 293 (11 notes from note 1)
+ok    themeA Vla 89 (8 notes from note 1)
+ok    themeA Vla 241 (8 notes from note 1)
+ok    themeA VlnTwo 245 (8 notes from note 1)
+ok    secondIdeaG VlnOne 45 (22 notes from note 1)
+ok    secondIdeaG FluteOne 45 (22 notes from note 1)
+ok    secondIdeaG OboeOne 45 (22 notes from note 1)
+ok    secondIdeaE VlnOne 121 (22 notes from note 1)
+ok    secondIdeaE FluteOne 125 (15 notes from note 8)
+ok    secondIdeaE OboeOne 125 (15 notes from note 8)
+ok    secondIdeaE VlnOne 277 (22 notes from note 1)
+ok    secondIdeaE FluteOne 285 (8 notes from note 15)
+ok    secondIdeaE OboeOne 281 (15 notes from note 8)
+CHANGED trioT ClOne 153 (34 notes from note 1): theme changed or missing
+      record:  G#4/2 A4/1 B4/2 E5/1 D#5/3/2 C#5/1/2 B4/1 A4/1 G#4/2 A4/2 B4/1 C#5/2 F#5/1 E5/3/2 D#5/1/2 C#5/1 A#4/1 B4/2 C#5/2 D#5/1 E5/1 G#5/2 A5/3/2 G#5/1/2 F#5/1 C#5/1 B4/1 A4/1 G#4/1 B4/1 E5/2 D#5/1 F#5/1 E5/3
+      version: G#4/2 A4/1 B4/2 E5/1 D#5/3/2 C#5/1/2 B4/1 A4/1 G#4/2 A4/2 B4/1 C#5/2 F#5/1 E5/3/2 D#5/1/2 C#5/1 A#4/1 B4/2 C#5/2 D#5/1 E5/1 G#5/1 A5/5/2 G#5/1/2 F#5/1 C#5/1 B4/1 A4/1 G#4/1 B4/1 E5/2 D#5/1 F#5/1 E5/5
+CHANGED trioT VlnOne 169 (34 notes from note 1): theme changed or missing
+      record:  G#4/2 A4/1 B4/2 E5/1 D#5/3/2 C#5/1/2 B4/1 A4/1 G#4/2 A4/2 B4/1 C#5/2 F#5/1 E5/3/2 D#5/1/2 C#5/1 A#4/1 B4/2 C#5/2 D#5/1 E5/1 G#5/2 A5/3/2 G#5/1/2 F#5/1 C#5/1 B4/1 A4/1 G#4/1 B4/1 E5/2 D#5/1 F#5/1 E5/3
+      version: G#5/2 A5/1 B5/2 E6/1 D#6/3/2 C#6/1/2 B5/1 A5/1 G#5/2 A5/2 B5/1 C#6/2 F#6/1 E6/3/2 D#6/1/2 C#6/1 A#5/1 B5/2 C#6/2 D#6/1 E6/1 G#6/1 A6/5/2 G#6/1/2 F#6/1 C#6/1 B5/1 A5/1 G#5/1 B5/1 E6/2 D#6/1 F#6/1 E6/5
+ok    trioT ClOne 197 (9 notes from note 1)
+ok    trioT Vla 197 (9 notes from note 1)
+CHANGED trioT ClOne 209 (34 notes from note 1): theme changed or missing
+      record:  G#4/2 A4/1 B4/2 E5/1 D#5/3/2 C#5/1/2 B4/1 A4/1 G#4/2 A4/2 B4/1 C#5/2 F#5/1 E5/3/2 D#5/1/2 C#5/1 A#4/1 B4/2 C#5/2 D#5/1 E5/1 G#5/2 A5/3/2 G#5/1/2 F#5/1 C#5/1 B4/1 A4/1 G#4/1 B4/1 E5/2 D#5/1 F#5/1 E5/3
+      version: G#4/2 A4/1 B4/2 E5/1 D#5/3/2 C#5/1/2 B4/1 A4/1 G#4/2 A4/2 B4/1 C#5/2 F#5/1 E5/3/2 D#5/1/2 C#5/1 A#4/1 B4/2 C#5/2 D#5/1 E5/1 G#5/1 A5/5/2 G#5/1/2 F#5/1 C#5/1 B4/1 A4/1 G#4/1 B4/1 E5/2 D#5/1 F#5/1 E5/5
+CHANGED trioT VlnOne 209 (34 notes from note 1): theme changed or missing
+      record:  G#4/2 A4/1 B4/2 E5/1 D#5/3/2 C#5/1/2 B4/1 A4/1 G#4/2 A4/2 B4/1 C#5/2 F#5/1 E5/3/2 D#5/1/2 C#5/1 A#4/1 B4/2 C#5/2 D#5/1 E5/1 G#5/2 A5/3/2 G#5/1/2 F#5/1 C#5/1 B4/1 A4/1 G#4/1 B4/1 E5/2 D#5/1 F#5/1 E5/3
+      version: G#5/2 A5/1 B5/2 E6/1 D#6/3/2 C#6/1/2 B5/1 A5/1 G#5/2 A5/2 B5/1 C#6/2 F#6/1 E6/3/2 D#6/1/2 C#6/1 A#5/1 B5/2 C#6/2 D#6/1 E6/1 G#6/1 A6/5/2 G#6/1/2 F#6/1 C#6/1 B5/1 A5/1 G#5/1 B5/1 E6/2 D#6/1 F#6/1 E6/5
+CHANGED trioT FluteOne 217 (16 notes from note 19): theme changed or missing
+      record:  C#5/2 D#5/1 E5/1 G#5/2 A5/3/2 G#5/1/2 F#5/1 C#5/1 B4/1 A4/1 G#4/1 B4/1 E5/2 D#5/1 F#5/1 E5/3
+      version: C#6/2 D#6/1 E6/1 G#6/1 A6/5/2 G#6/1/2 F#6/1 C#6/1 B5/1 A5/1 G#5/1 B5/1 E6/2 D#6/1 F#6/1 E6/5
+ok    trioT HnOne 341 (9 notes from note 1)
+ok    trioT OboeOne 345 (9 notes from note 10)
+CHANGED trioT VlnOne 349 (13 notes from note 19): theme changed or missing
+      record:  C#5/2 D#5/1 E5/1 G#5/2 A5/3/2 G#5/1/2 F#5/1 C#5/1 B4/1 A4/1 G#4/1 B4/1 E5/2
+      version: C#6/2 D#6/1 E6/1 G#6/1 A6/5/2 G#6/1/2 F#6/1 C#6/1 B5/1 A5/1 G#5/1 B5/1 E6/1
+ok    mottoTail HnOne 357 (4 notes from note 1)
+theme record: 35/41 unchanged, 6 CHANGED

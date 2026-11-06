@@ -1,0 +1,145 @@
+Duration: 278s, 377 bars (metre from MIDI time signatures)
+
+Tracks: name | notes | range | violations
+  Flutes 1Â·2:                   218  B4-A6  
+  Oboes 1Â·2:                    232  F#4-C#6  
+  Cor anglais:                   169  B3-Eb5  
+  Clarinets 1Â·2:                 60  B3-E5  
+  Bass clarinet:                  26  D2-B2  
+  Bassoons 1Â·2:                  97  E2-C#4  
+  Contrabassoon:                 111  E1-E3  
+  Horns 1Â·2:solo                 55  E3-B4  
+  Horns 3Â·4:                     94  E3-F#4  
+  Trumpets 1Â·2:                 108  Eb4-B4  
+  Trombones 1Â·2:                 50  B2-B3  
+  Bass trombone:                  25  E2-B2  
+  Tuba:                           25  E1-B1  
+  Timpani:                       402  E2-E3  
+  Harp RH:                       296  B2-C6  
+  Harp LH:                        93  F#1-Ab4  
+  Violins I:                     530  B3-B6  
+  Violins II:                    527  G3-C#6  
+  Violas:                        555  D3-F5  
+  Violoncellos:                  427  D2-A4  
+  Double basses:                 303  E1-B2  
+  Bassoons 1Â·2:one              119  Eb3-F#4  
+  Bassoons 1Â·2:shared            72  E2-C#4  
+  Flutes 1Â·2:shared             148  B4-A6  
+  Clarinets 1Â·2:one             120  Eb4-C#6  
+  Clarinets 1Â·2:two              96  Eb3-B4  
+  Oboes 1Â·2:shared               32  D5-C6  
+  Horns 1Â·2:shared              168  A3-C#5  
+  Bassoons 1Â·2:solo              98  E2-D4  
+  Horns 1Â·2:one                  48  E4-C#5  
+  Horns 1Â·2:two                  39  E3-A4  
+  Clarinets 1Â·2:solo            210  B3-A5  
+  Flutes 1Â·2:one                 34  F#5-B6  
+  Oboes 1Â·2:one                  31  Ab4-C#6  
+  Flutes 1Â·2:two                 16  F#5-Eb6  
+  Oboes 1Â·2:two                  23  B4-A5  
+  Horns 3Â·4:one                  34  F#3-E4  
+  Horns 3Â·4:two                  27  A2-B3  
+  Horns 3Â·4:solo                 77  A2-B4  
+
+Top-line (Flutes 1Â·2:) intervals: 217 | steps 71% | leaps>=4th 17% | repeats 6%
+  interval histogram (semitones): {0: 15, 1: 68, 2: 73, 3: 14, 4: 8, 5: 30, 8: 5, 9: 1, 10: 1, 12: 1, 17: 1}
+
+Outer-voice parallels (top vs bass, similar motion): 1  (+0 doubling runs ignored)
+  bar 69: octaves E4->A5 over E1->A1
+
+Profile per 4 bars: attacks | voices sounding (avg) | top | bottom
+  bars   1-  4:    8 |  2.1 | Ab5  | E1
+  bars   5-  8:    8 |  3.5 | E5   | E1
+  bars   9- 12:   10 |  0.8 | E3   | E2
+  bars  13- 16:   35 |  1.9 | G5   | E1
+  bars  17- 20:   36 |  2.1 | A5   | E1
+  bars  21- 24:   38 |  1.9 | C6   | Ab1
+  bars  25- 28:   36 |  2.1 | G5   | E1
+  bars  29- 32:   40 |  4.6 | G5   | E1
+  bars  33- 36:   43 |  4.8 | A5   | D2
+  bars  37- 40:   60 |  6.8 | D6   | G1
+  bars  41- 44:   94 | 10.2 | C6   | D2
+  bars  45- 48:   88 | 13.0 | G6   | G1
+  bars  49- 52:   82 | 13.0 | A6   | A1
+  bars  53- 56:   77 | 11.6 | E6   | G1
+  bars  57- 60:   14 |  0.9 | Bb3  | D2
+  bars  61- 64:   25 |  1.9 | F5   | A2
+  bars  65- 68:   35 |  3.9 | C6   | E1
+  bars  69- 72:  102 | 11.5 | E6   | A1
+  bars  73- 76:   45 |  8.0 | C6   | F2
+  bars  77- 80:   41 |  6.9 | Bb5  | D2
+  bars  81- 84:   52 |  7.2 | F5   | G1
+  bars  85- 88:   37 |  6.5 | C5   | A1
+  bars  89- 92:   27 |  3.1 | E5   | B1
+  bars  93- 96:   35 |  2.6 | A5   | B1
+  bars  97-100:   57 |  3.4 | A5   | B1
+  bars 101-104:  166 | 25.5 | Eb6  | B1
+  bars 105-108:  170 | 14.2 | B5   | E1
+  bars 109-112:  171 | 14.8 | A6   | E1
+  bars 113-116:  181 | 14.6 | C6   | Ab1
+  bars 117-120:  168 | 14.4 | G6   | E1
+  bars 121-124:   51 |  9.0 | E6   | E2
+  bars 125-128:   90 | 14.0 | F#6  | A1
+  bars 129-132:  102 | 12.9 | C#6  | E1
+  bars 133-136:   26 |  4.8 | B4   | E1
+  bars 137-140:   13 |  1.5 | E3   | E1
+  bars 141-144:    8 |  3.0 | G4   | E2
+  bars 145-148:   15 |  4.0 | A4   | E2
+  bars 149-152:   14 |  3.6 | E5   | E1
+  bars 153-156:   43 |  5.6 | E5   | B1
+  bars 157-160:   42 |  5.5 | F#5  | F#1
+  bars 161-164:   44 |  5.5 | A5   | F#1
+  bars 165-168:   41 |  5.4 | F#5  | B1
+  bars 169-172:   47 |  4.6 | B5   | Ab1
+  bars 173-176:   45 |  4.6 | F#6  | F#1
+  bars 177-180:   48 |  4.5 | Ab5  | F#1
+  bars 181-184:   40 |  4.6 | B5   | F#1
+  bars 185-188:   44 |  3.6 | F#5  | F#1
+  bars 189-192:   42 |  3.5 | F#5  | B1
+  bars 193-196:   52 |  9.0 | C#6  | F#1
+  bars 197-200:   87 | 13.1 | F#6  | F#1
+  bars 201-204:   37 |  8.6 | C5   | A1
+  bars 205-208:   77 |  8.4 | B5   | B1
+  bars 209-212:   84 | 11.2 | E6   | Ab1
+  bars 213-216:   75 | 11.0 | F#6  | F#1
+  bars 217-220:   92 | 13.0 | A6   | F#1
+  bars 221-224:   70 | 12.6 | F#6  | B1
+  bars 225-228:   49 |  6.5 | C#6  | A1
+  bars 229-232:   33 |  5.5 | C#5  | Ab1
+  bars 233-236:   29 |  4.5 | C5   | A1
+  bars 237-240:   50 |  6.9 | B4   | E2
+  bars 241-244:   26 |  3.9 | G4   | A1
+  bars 245-248:   20 |  3.9 | G5   | B1
+  bars 249-252:   38 |  5.0 | B5   | B1
+  bars 253-256:   65 |  5.1 | A6   | E1
+  bars 257-260:   56 |  4.6 | A6   | E1
+  bars 261-264:   69 |  5.9 | A6   | Ab1
+  bars 265-268:   62 |  5.4 | A6   | E1
+  bars 269-272:   28 |  3.6 | E5   | E1
+  bars 273-276:   94 | 10.4 | C6   | D2
+  bars 277-280:   54 |  9.0 | E6   | E2
+  bars 281-284:   83 | 12.0 | F#6  | A1
+  bars 285-288:  107 | 12.9 | C#6  | E1
+  bars 289-292:   18 |  1.4 | Bb3  | D2
+  bars 293-296:   33 |  2.9 | F5   | B2
+  bars 297-300:  104 | 11.4 | E6   | A1
+  bars 301-304:  132 | 20.0 | Eb6  | B1
+  bars 305-308:  161 | 13.2 | A6   | E1
+  bars 309-312:  146 | 12.8 | A6   | E1
+  bars 313-316:  158 | 12.8 | A6   | F#1
+  bars 317-320:  143 | 12.2 | A6   | E1
+  bars 321-324:   30 |  4.2 | B4   | E1
+  bars 325-328:   37 |  2.5 | B5   | B2
+  bars 329-332:  116 | 12.6 | F6   | B1
+  bars 333-336:  184 | 24.2 | B6   | E1
+  bars 337-340:   91 | 16.4 | A6   | E1
+  bars 341-344:   44 |  4.5 | A4   | A1
+  bars 345-348:   60 |  6.5 | B5   | B1
+  bars 349-352:   57 |  7.2 | A6   | F#1
+  bars 353-356:   48 |  7.5 | Ab6  | B1
+  bars 357-360:   26 |  6.5 | B4   | E2
+  bars 361-364:   17 |  9.8 | Ab5  | E2
+  bars 365-368:    6 |  2.0 | Ab4  | E2
+  bars 369-372:    5 |  2.5 | Ab5  | E2
+  bars 373-376:    6 |  2.8 | B4   | E1
+  bars 377-380: rest
