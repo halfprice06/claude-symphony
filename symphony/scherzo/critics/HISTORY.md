@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 596 (lens 6 playability, Adler ch. 12 The Percussion Ensemble: timpani tuning and technique, cymbals, bass drum (adler2 PDF 55-91), and ch. 14 Scoring for Percussion (adler2 PDF 106-145) (seventh pass)) v596 → v597
+c596 Adler ch. 12/14: timpani damping at 3–5 (intro.ily), 131–132 (sC.ily), 241 (retr.ily), 287–288 (dA.ily); no note or dynamic changed. Rejected by critic: thinning the reprise tutti timpani, a drum ostinato at 341–356, extra soft strokes at 153–168.
+
 ## Cycle 595 (lens 5 engraving, Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (seventh pass)) v595 → v596
 c595 Adler ch. 18: no change. Rejected (composer): Cl 1 a2 with Cl 2 on theme A's lower octave in the tuttis 106–120/306–320; the tutti layouts are do-not-touch. Do not propose it again. Open (parts only): the rit. at 370 floats to mark W's height in the clarinet parts.
 
