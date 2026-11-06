@@ -2494,3 +2494,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 586 (v586 → v587), lens 6, brass fp at 209 and Hn 2 at 90
 - Adler ch. 9–10 (forte-piano brass attack): at 209 the held brass (Hn 1–4, Tbn 1·2, bass trombone, tuba), Bn 1·2 and the violas' chord take fp < with the woodwinds and timpani, so the A♭7 swell into 211 dips instead of being filled; A♭ pedal and runs keep f; the 205–210 scoring (c178) and the dynamic path from 211 (c238) unchanged.
 - Hn 2 plays B♭3 with Hn 4 at 90.4 (was F4), removing the score's only horn leap over an octave into the ff E♭3 at 91.
+
+## Cycle 587 (v587 → v588), lens 7, Cl 1 doubles F1 head at 35
+- Rimsky-Korsakov ch. II (woodwind in octaves, strings double the lower octave): at 35–36 Cl 1 plays F1's A♭-major head with the violins at A♭5 under Fl 1's A♭6, glide included, f, returning to F4 (mf) at 37 with its F→E♭ step into 38 (c132); its old notes stay covered by Ob 2 and Hn 1; Cl 2 gets matching spacers and dynamics. Matches the layout at 19–26 and 151–158.
+- Declined: more winds at 37–38, horns on the violas' figure at 110–113, woodwind on F1 at 11–18, a clarinet on the horn call at 243–246; 41–42 and 255–256 not reopened.
