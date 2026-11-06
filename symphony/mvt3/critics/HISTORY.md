@@ -2541,3 +2541,8 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 598 (v598 → v599), lens 8, Cl 1 suspension at 121
 - A&S Unit 21 (suspensions take an accent, resolutions are softer; Ex. 21-9, 21-39): Cl 1's pp D6 at 121, a 7th over the Italian sixth's E♭, swells into beat 3 and falls back on its resolution to C♯6; a hidden pp keeps the resolution at its old level. Notes, slur, printed pp, the Italian sixth and the bassoon solo unchanged. A new MIDI suspension scan found 22 places; this was the only unmarked one outside protected bars.
 - Kept: Hn 1's 4–3 at 82.3 (drives into 83); no 7–6 at the protected Phrygian cadences 57–58 and 177–178; no bass suspension at 125–127 or 133–134.
+
+## Cycle 599 (v599 → v600), lens 9, release check v600
+- Release check: subtitle now "Full score in C — v600, 6 November 2026"; titles agree and no draft marks remain. Parts build had 5 "crescendo too small" warnings from c588's swell at 255 and c598's at 121; a part-only minimum hairpin length restores them (score unchanged); parts now build with 0 warnings.
+- Casanelles PDF 271–272 (Mahler 1/i, the held chord gives way to the far call): at 218 Fl 1, Cl 1 and Vln I·II go f to mf with the low strings, so the theme-B echo in cor anglais and Hn 1·2 is in front; 219's sub. p still drops a step. No pitches change.
+- Holistic comparison with Beethoven 9/iv: no change; v589→v599 checked, nothing worse.
