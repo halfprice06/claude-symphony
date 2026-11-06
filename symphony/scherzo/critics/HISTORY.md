@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 593 (lens 3 form, Aldwell & Schachter Unit 18 6/3-chord techniques (aldwell-schachter PDF 289-303) (seventh pass)) v593 → v594
+c593 A&S Unit 18: no change. Do-not-touch: c070's ♭6–5 at 201–203 over held A; the A–C–B bass + Fr6 at 243–245 (the movement's only augmented sixth, do not anticipate it at 202); root-position bass 80–84; codetta 225–240 length.
+
 ## Cycle 592 (lens 2 harmony, Aldwell & Schachter Units 24-25 Remaining uses of seventh chords; Applied V and VII (aldwell-schachter PDF 398-441) (seventh pass)) v592 → v593
 c592 A&S Units 24–25: E♯ in the bass on beat 3 of 180 (tA.ily, Cb + Bsn 2). Kept: plain ii6/5 at 164, 220, 352 (A in the tune); 191.3 without E♯ (E5 on top); no deceptive cadence at 223–224.
 
