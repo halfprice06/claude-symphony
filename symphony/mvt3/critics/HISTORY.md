@@ -2518,3 +2518,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 592 (v592 → v593), lens 2, flat-VII7 at 36
 - A&S Unit 24 §12 (Ex. 24-18: in minor, ♮VII7 leads to V6/5 instead of III): bar 36 beat 3 is now A♭7 (♮VII7 of B♭ minor), sidestepping into c322's F7/A and B♭ minor at 37, so 36 runs E♭7–A♭7–F7/A–B♭m: Hn 1 G–G♭–F against the rising bass A♭–A–B♭, and the violas', cellos' and Bn 1's figure takes G♭4 instead of F4. Tune, bass and dynamics unchanged.
 - Declined on paper: a deceptive cadence on an applied chord (no free place), a French sixth at 33, chains of dominants at 101–103 and 70–73.
+
+## Cycle 593 (v593 → v594), lens 3, no change
+- A&S Unit 18 (dominant prolongation and its resolution): no change. Tested resolving the open dominant at 102 to F minor; it closed off the development and made 103 sound like iv of F, so reverted. Coda bass candidates at 238, 251, 252, 254 and 129 declined on paper (fifths, octaves or protected bars); 149 stays protected (c226, c313).
+- Proportions and coda stages unchanged; par8's "fifths" at 36.1 are a beat-sampling artefact.
