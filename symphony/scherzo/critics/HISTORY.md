@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 576 (lens 6 playability, Adler ch. 6-7 Woodwind choir and individual woodwinds: breathing, registers, technique (adler1 PDF 168-232) (seventh pass)) v576 → v577
+No change (held pedal at 89–100 rejected again: c244, c559).
+
 ## Cycle 575 (lens 5 engraving, Gould ch. 1-2: rhythmic spacing, spacing of symbols, chords, unisons, double-stemmed writing (gould-behind-bars PDF 53-68) (seventh pass)) v575 → v576
 c575: engraving only (coda layout, beat spacing).
 
