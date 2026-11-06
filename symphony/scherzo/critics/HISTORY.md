@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 598 (lens 8 expression, Aldwell & Schachter Unit 21 suspensions and pedal points as expressive devices (aldwell-schachter PDF 346-371) (sixth pass)) v598 → v599
+c598 A&S Unit 21: slurs at 49 (sA.ily, Cl 1 and Hn 1) join the suspension to its resolution. Kept: re-bowed resolutions at 126/282 (hemiola downbeat in a crescendo). Rejected (critic): T's C♯ held into the tonic in the codetta 225–236; a 7-6 chain at 329–332.
+
 ## Cycle 597 (lens 7 texture, Adler ch. 11 Scoring for brass: contrapuntal use (adler2 PDF 41-54) (sixth pass)) v597 → v598
 c597 Adler ch. 11: no change. Rejected (critic): Tbn 1 on the Hn 3·4 countermelody 105–120 (covers the lower octave; c076 balance); Tbn 1 on the coda countermelody 334–335; horn re-attacks in the coda hemiola 331–339.
 
