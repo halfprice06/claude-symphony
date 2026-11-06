@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 595 (lens 5 engraving, Adler ch. 18 Preparation of Score and Parts, and App. A (adler2 PDF 291-312) (seventh pass)) v595 → v596
+c595 Adler ch. 18: no change. Rejected (composer): Cl 1 a2 with Cl 2 on theme A's lower octave in the tuttis 106–120/306–320; the tutti layouts are do-not-touch. Do not propose it again. Open (parts only): the rit. at 370 floats to mark W's height in the clarinet parts.
+
 ## Cycle 594 (lens 4 orchestration, Adler ch. 8 Woodwinds in the symphony orchestra and woodwind-string combinations (adler1 PDF 233-281) (seventh pass)) v594 → v595
 c594 Adler ch. 8: no change. Rejected (composer): Bsn 1 doubling the cellos in full at 289–296; it reverses c254/c337 (strings-only fugato with single pp wind downbeats). Do not propose a full wind doubling of the reprise fugato again. Critic also reverted Cl 1 on the violas' answer at 293–296 (keeps motive-x quavers new for 297).
 
