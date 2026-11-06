@@ -4,7 +4,7 @@
 \header {
   title = "Symphony No. 1 in C minor"
   subtitle = "III. Scherzo: Allegro vivace"  % c100: the four titles name the movement and its tempo, as I ("Lento — Allegro appassionato"), II ("Adagio") and IV ("Finale: Allegro con fuoco") do
-  subsubtitle = \markup \center-column { "Full score in C — draft v600" \small "Contrabassoon and double basses sound an octave lower than written" \small "After movement II (Adagio): a pause" \small "Trumpet 3 and percussion tacet" \small "Duration: about 4½ minutes" }  % c045: approximate duration of the movement (MOLA PDF 6). c225: percussion (2 players in movement I) is tacet here too and is now named (MOLA PDF 5-6)
+  subsubtitle = \markup \center-column { "Full score in C — v600, 2026-11-06" \small "Contrabassoon and double basses sound an octave lower than written" \small "After movement II (Adagio): a pause" \small "Trumpet 3 and percussion tacet" \small "Duration: about 4½ minutes" }  % c045: approximate duration of the movement (MOLA PDF 6). c225: percussion (2 players in movement I) is tacet here too and is now named (MOLA PDF 5-6)
   % c200: release copy: "draft" dropped, version and date kept, as movement I (v221, 12 October 2026) and movement II (v201, 13 October 2026) (MOLA PDF 6: "print date, or revision date"); promote.sh's "draft vNN" sed no longer matches, so this line is final
   tagline = ##f
 }
