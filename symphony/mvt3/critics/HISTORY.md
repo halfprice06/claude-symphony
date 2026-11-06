@@ -2423,3 +2423,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 568 (v568 → v569), lens 8, MOLA dynamics at 229 and 94
 - MOLA (vertical proofreading; marks in every staff, PDF 8, 10–11): the canon's last diminuendo at 229 (Fl, Ob, Cl 1·2, Vln I·II) now ends on f at 229.3, the level of every other part in that bar and of the brass at 231, instead of a bare hairpin end; and Hn 2 takes the accent on the codetta's last chord at 94.1 (`es'2->`), as the other 22 parts do. Swells at 227–228, pitches and rhythms unchanged.
 - Tested and reverted: a staccato on the basses' D♭ at 104.4 (the full quarter is deliberate under the violins' run). Kept: Bn 2's accent at 274.1, the ff placements at 199/265/269, the harp pedal diagrams (c006, c566).
+
+## Cycle 569 (v569 → v570), lens 9, holistic comparison with Franck
+- Holistic comparison with Franck's symphony, plus a v559 → v569 check (Adler part 2, accompaniment kept out of the melody's register, PDF 154–159): the harp's A♭ on 78.3 moves up an octave (`es'8 c''8 es''8 aes''8`), so it no longer sits a semitone above the melody's G4 in the clarinet, Hn 1 and cellos; c562's IV6 harmony and Hn 2's A♭3 kept.
+- Not applied: breaking up the tutti from 197 (protected), non-divisi tremolo stops at 273–274, a tonic pedal in Hn 3·4 at 265–268, G4 in the 263 tonic chord. Cycles 559–568 rechecked: only c562's harp voicing had regressed.
