@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 556 (lens 6 playability, Adler ch. 3 Individual Bowed Strings: ranges and technique (adler1 PDF 71-109) (seventh pass)) v556 → v557
+c556: Vln II 'sul A' at 122–128 and 280–284.
+
 ## Cycle 555 (lens 5 engraving, Gould ch. 1: beams (gould-behind-bars PDF 31-41) (seventh pass)) v555 → v556
 c555: engraving only (Vln II stems at 175 and 182).
 
