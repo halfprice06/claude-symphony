@@ -2443,3 +2443,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 573 (v573 → v574), lens 3, timpani rest at 235–242
 - Rimsky-Korsakov ch. IV (a silent group gains interest when it returns; percussion used seldom, PDF 136; scoring marks contrast with what precedes, PDF 116): the timpani rest at 235–242 (was a pp C roll near the rim at 235–238, which carried the plagal close's colour into the S-head stage under the harp's first entry since 134). The basses, cellos and harp still hold the C pedal; the timpani's G roll p < at 243 is now their first sound after 8.5 bars and leads into 247.
 - Declined: pizz. low strings under the wind answers at 101–102 and 105–106 (unplayable after the sf, protected). Checked, no change: the coda's stages and proportions (c219, c473), brass entries after rests (c483), rescoring of returns.
+
+## Cycle 574 (v574 → v575), lens 4, trumpets enter on 271.3
+- Adler part 2 ch. 15 (entry points; balance of octave doublings, Mozart 40 and Barber, PDF 150–151, 156): Tpt 1·2 re-enter at 271 on beat 3 with a B4–D5 lead-in to their A5 at 272 (`r2 b'4(\ff d''4)`), instead of ff on D4 from the downbeat in the register of the brass F1 head (Hn 3·4, Tbn 1·2 a2), so the head is no longer covered in the bar the trombones join it. The 265–272 horn and trombone rests, the IV6/4 at 272 and all quotations and chorale lines unchanged.
+- Not applied: the tuba's G2→G1 at 164 (a bass-line drop into 166), oboes on the F1 head at 267 (their rest before 269).
