@@ -2415,3 +2415,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 566 (v566 → v567), lens 6, advance harp pedal marks
 - Adler ch. 4 (harp pedals: one foot changes one pedal at a time, PDF 112–113): advance pedal marks in the two long harp rests before entries that need several changes: "Ped.: C♮ B♮ / E♮ F♯ A♮" at 115 (letter H) for the entry at 123, and "Ped.: B♯ / F♭ G♮" at 247 (letter R) for the glissando at 277, in the score's existing form. Notation only; MIDI byte-identical.
 - Tested and declined: a ringing E-major harp chord at 243 (inaudible under the horn call, undoes the étouffez and c116/c238). Pedalling, range, the D1 tuning, harmonics, the glissando tuning and damping all follow the reading.
+
+## Cycle 567 (v567 → v568), lens 7, no change
+- Sebesky ch. 3 (string layouts; keep an octave doubling in one colour, PDF 152–153, Ex. 203): no change. The critic proposed swapping the violas' and cellos' parts at 41 so the violas carry F1's last head to its end (the colour seam c551 left). Declined: it removes the cellos' sul G line at 41–42, a deliberate colour since c391 (kept again by c551), and the proposal does not answer that reason.
+- Not applied: the flute a level below the violins at 19–23, the cellos off the basses' F at 133–134 (c183). Checked, no change: high-register seconds in the strings, the string layout at 43–50.
