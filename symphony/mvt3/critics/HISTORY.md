@@ -2447,3 +2447,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 574 (v574 → v575), lens 4, trumpets enter on 271.3
 - Adler part 2 ch. 15 (entry points; balance of octave doublings, Mozart 40 and Barber, PDF 150–151, 156): Tpt 1·2 re-enter at 271 on beat 3 with a B4–D5 lead-in to their A5 at 272 (`r2 b'4(\ff d''4)`), instead of ff on D4 from the downbeat in the register of the brass F1 head (Hn 3·4, Tbn 1·2 a2), so the head is no longer covered in the bar the trombones join it. The 265–272 horn and trombone rests, the IV6/4 at 272 and all quotations and chorale lines unchanged.
 - Not applied: the tuba's G2→G1 at 164 (a bass-line drop into 166), oboes on the F1 head at 267 (their rest before 269).
+
+## Cycle 575 (v575 → v576), lens 5, spacing on page 12
+- Gould spacing (proportional units; semibreve bars fairly narrow; equal values get equal space, PDF 53–55): c045's hairpin minimum length over 219–222 goes from 13 to 8, so the semibreve bars 220–221 shrink from 49.1/59.1 pt to 35.5/43.3 pt and 211–218, with the espress. echo of theme B at 217–218, get the space back. The hairpins stay about 10 mm and 6 mm long (c045's reason holds). Only page 12 changes; MIDI byte-identical.
+- Checked, not applied: Hn 3·4's part-combined C4/D♯4 chord at 219 (PDF 61; protected thread). Dots, stems and unisons follow PDF 60–68.
