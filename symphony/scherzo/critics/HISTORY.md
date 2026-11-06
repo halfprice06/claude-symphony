@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 585 (lens 5 engraving, MOLA Guidelines for Music Preparation, whole document (mola PDF 1-16) (seventh pass)) v585 → v586
+c585: woodwinds sfp with the strings at 301.
+
 ## Cycle 584 (lens 4 orchestration, Adler ch. 15 Scoring for Orchestra: homophonic and polyphonic texture (adler2 PDF 159-186) (seventh pass)) v584 → v585
 No change.
 
