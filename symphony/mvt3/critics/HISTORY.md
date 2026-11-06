@@ -2514,3 +2514,7 @@ The shared-folder mount expires about 24 h after a thread's machine starts and d
 ## Cycle 591 (v591 → v592), lens 1, cellos double F1 head at 130
 - Sebesky ch. 6–7 (Ex. 273, cellos an octave below bring out a moving line; PDF 219, accompaniment out of the featured line's register): at 130–131 the cellos divide, the upper half doubling F1's G-major head an octave below the violas and Hn 2 (D3–A2–B2–C3–B2–A2–G2–F♯2 into G2 at 132), the lower half keeping the bass D with the basses; unis. at 132. Notes of F1 and all quotations unchanged.
 - Kept: Vln II's octave doubling at 128.4–130, the violins' sixths at 169.
+
+## Cycle 592 (v592 → v593), lens 2, flat-VII7 at 36
+- A&S Unit 24 §12 (Ex. 24-18: in minor, ♮VII7 leads to V6/5 instead of III): bar 36 beat 3 is now A♭7 (♮VII7 of B♭ minor), sidestepping into c322's F7/A and B♭ minor at 37, so 36 runs E♭7–A♭7–F7/A–B♭m: Hn 1 G–G♭–F against the rising bass A♭–A–B♭, and the violas', cellos' and Bn 1's figure takes G♭4 instead of F4. Tune, bass and dynamics unchanged.
+- Declined on paper: a deceptive cadence on an applied chord (no free place), a French sixth at 33, chains of dominants at 101–103 and 70–73.
