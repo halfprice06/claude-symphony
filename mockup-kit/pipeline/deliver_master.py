@@ -28,6 +28,18 @@ FAST_CAP_ABOVE = 4.0   # mvt1 c10 (critic C #1); None = off
 # the ff arrival at 117). None = off
 MOM_CAP_ABOVE, MOM_CAP_SMOOTH_S = 6.0, 0.5
 TAIL_DB, TAIL_S, FADE_S = -65.0, 1.0, 0.5
+# mvt1 c36 (critic C #6): the quiet-passage lift's own smoothing (both passes), separate from the top ride's SMOOTH_S.
+# None = SMOOTH_S. Environment overrides for A/B deliveries of one master: DELIVER_RATIO, DELIVER_KNEE_BELOW,
+# DELIVER_LIFT_SMOOTH_S
+# mvt1 c36 (critic C #6, simulated on the c35 master with the c36 level changes): RATIO 2.5 -> 3.0, KNEE_BELOW 6 -> 5,
+# LIFT_SMOOTH_S 5.0: the 3 s lift passed phrase-length swells into the gain, so soft passages kept a median 77% of
+# their 5 s moves (19 under 50%); now 82% (3 under 50%), p50-p10 6.1 -> 7.0 dB, max-p75 8.5 -> 7.3 dB, LRA 14.7 -> 14.8,
+# span 19.0, limiter 1.1 -> 0.9 dB, 0 inversions, bar 160 over bar 122 unchanged (0.8 LU)
+RATIO, KNEE_BELOW = 3.0, 5.0
+LIFT_SMOOTH_S = 5.0
+RATIO = float(os.environ.get("DELIVER_RATIO", RATIO))
+KNEE_BELOW = float(os.environ.get("DELIVER_KNEE_BELOW", KNEE_BELOW))
+LIFT_SMOOTH_S = float(os.environ["DELIVER_LIFT_SMOOTH_S"]) if os.environ.get("DELIVER_LIFT_SMOOTH_S") else LIFT_SMOOTH_S
 LIMIT = "aresample=192000,alimiter=limit=0.841:attack=5:release=80:level=0:asc=1,aresample=48000"
 
 
@@ -65,7 +77,9 @@ S = np.concatenate([S[15:], np.full(15, S[-1])])  # centre the 3 s window
 loud = np.percentile(S[S > -59], 95)
 knee = loud - KNEE_BELOW
 Ss = smooth(S, SMOOTH_S)
-lift = smooth(np.clip((knee - Ss) * (1 - 1 / RATIO), 0, CAP_DB), SMOOTH_S)
+LS_ = LIFT_SMOOTH_S or SMOOTH_S
+Sl = smooth(S, LS_)
+lift = smooth(np.clip((knee - Sl) * (1 - 1 / RATIO), 0, CAP_DB), LS_)
 top = smooth(np.clip((Ss - (loud + TOP_ABOVE)) * (1 - 1 / TOP_RATIO), 0, None), SMOOTH_S)
 if FAST_CAP_ABOVE is not None:
     # mvt1 c10 (critic C #1): the slow lift is capped by a lift computed from each frame's own loudness (S smoothed over
@@ -88,7 +102,20 @@ with tempfile.TemporaryDirectory() as td:
     lift = TARGET_I - integrated(rode)["I"]
     before_lim = os.path.join(td, "pre.wav")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", rode, "-af", f"volume={lift:.2f}dB", "-c:a", "pcm_f32le", before_lim], check=True)
-    peak_pre = float(np.abs(sf.read(before_lim)[0]).max())
+    pre_x = sf.read(before_lim, dtype="float32", always_2d=True)[0]
+    peak_pre = float(np.abs(pre_x).max())
+    # mvt1 c36 (critic C #5): the five highest pre-limiter peaks (sample peak per 50 ms window, at least 0.5 s apart),
+    # in seconds of the file: the limiter's figure is often one phase crest, and a notch has to find it
+    w_ = int(0.05 * sr)
+    pk_ = np.abs(pre_x[: len(pre_x) // w_ * w_]).max(axis=1).reshape(-1, w_).max(axis=1)
+    top5 = []
+    for i_ in np.argsort(pk_)[::-1]:
+        if all(abs(i_ - j_) * 0.05 >= 0.5 for j_ in top5):
+            top5.append(int(i_))
+        if len(top5) == 5:
+            break
+    print("pre-limiter peaks (s, dBFS): " + ", ".join(f"{(i_ + 0.5) * 0.05:.2f} {20 * np.log10(pk_[i_] + 1e-12):+.2f}"
+                                                      for i_ in top5))
     lim = os.path.join(td, "lim.wav")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", before_lim, "-af", LIMIT, "-c:a", "pcm_f32le", lim], check=True)
     # mvt1 c07 (critic C #6): the render runs 8 s past the last release for measurement; the delivered file ends TAIL_S

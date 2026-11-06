@@ -12,6 +12,13 @@ Read `LEARNINGS.md` before starting, beginning with "What a listener noticed tha
 - `loop/`: the actor-critic method: `BRIEF-mvt2-example.md` and `BRIEF-mvt1-example.md` (the briefs every agent read, with Dan's listening notes), `DYNAMICS-RESEARCH.md` (delivery targets), and movement I's `critic_prompt.md`, `actor_prompt.md` and `workflow.js` (three critics in parallel per cycle, then one actor who edits, rebuilds, restarts REAPER and renders; run one cycle per workflow call with args {start, end, prev}). Replace the work-folder paths in them for a new score.
 - `sync_from_work.sh <work folder> [name]`: copies a work folder's tools (and with a name, its config) into the kit.
 
+## Movement I series 2 and sharing REAPER (2026-11-06)
+
+- `loop/mvt1-series2/`: the current loop documents of Movement I series 2 (score v621, cycles c31 on): BRIEF.md (with Dan's listening notes S1-S3: separate repeated notes, attack centres on the beat, subitos that keep the hall), LEARNINGS.md, HISTORY.md, MANUAL-GAPS.md (library features not yet used, ranked), MANUAL-READING.md (a manual chapter per critic per cycle), and the critic and actor prompts. They are a snapshot of the git-excluded work folder `symphony/mvt1/reaper-v621/loop/`; the work folder is newer while the loop runs.
+- `pipeline/` is synced from that work folder (`sync_from_work.sh symphony/mvt1/reaper-v621 mvt1-v621`); `pipeline/example-config-mvt1-v621/` holds its score config, and `pipeline/reaper_ctl.py` drives REAPER for one work folder (set OWNER).
+- Library reference: `guides/eastwest-hollywood-orchestra/DIGEST.md` (per-instrument digest of the HO manuals with page numbers) and the May 2021 manual in `text/`.
+- Two threads share one REAPER on this Mac (only one 46 GB project fits). `bridge/reaper_lock.py` (installed in `~/.rpr-bridge/`) holds `~/.rpr-bridge/REAPER.lock` for one owner and work folder; `bridge/rpr.py` refuses jobs without the lock or from outside the holder's folder. Lock before starting REAPER (`reaper_ctl.py lock`), quit REAPER, then unlock. Never break the other thread's lock.
+
 ## Starting a new mockup
 
 These are the lessons that cost the most cycles to learn. Do them from the first build.

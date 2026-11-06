@@ -29,8 +29,12 @@ def cmprs_gb():
 MEASURE_ONLY = "--measure-only" in sys.argv
 cg, mem = cmprs_gb() if not MEASURE_ONLY else (None, None)
 print(f"REAPER memory {mem}, compressed {cg} GB", flush=True)
-if cg is not None and cg > MAX_CMPRS_GB and "--force" not in sys.argv:
-    sys.exit(f"REAPER has {cg:.1f} GB compressed (limit {MAX_CMPRS_GB}); restart REAPER before rendering, or pass --force")
+# mvt1 c36: --force-memory overrides only this gate (the audio-device check below still applies). A fresh open that
+# streams about 45 GB of samples can leave REAPER's idle sample memory compressed by macOS (c36: 20 of 45 GB after a
+# settled open; kit LEARNINGS 11: fresh sessions rendered on time with 31-37 GB compressed); the attack probe judges it
+if cg is not None and cg > MAX_CMPRS_GB and "--force" not in sys.argv and "--force-memory" not in sys.argv:
+    sys.exit(f"REAPER has {cg:.1f} GB compressed (limit {MAX_CMPRS_GB}); restart REAPER before rendering, or pass "
+             "--force-memory (memory gate only) or --force")
 # Opus streams samples in after a patch loads; wait until REAPER's memory stops growing before rendering
 def rss():
     pid = subprocess.run(["pgrep", "-x", "REAPER"], capture_output=True, text=True).stdout.split()[0]
@@ -49,6 +53,36 @@ while time.time() - t0 < WAIT_CAP_S and quiet < 3:
 if quiet < 3 and "--force" not in sys.argv:
     sys.exit(f"REAPER memory still growing after {WAIT_CAP_S} s (samples still loading); rerun later, or pass --force")
 import json, glob
+# mvt1 c34 (critic C #1): the audio device REAPER has open is part of the render conditions. c33 rendered after REAPER
+# had opened a Bluetooth headset's microphone (HFP, 24 kHz only) as the default input; the 48 kHz request failed, the
+# device dropped out ("Could not find default device", system log) and every Opus instance's output then differed from
+# the c32 render of the same data by a component 256 samples (5.3 ms) later: comb-like changes below about 300 Hz (low
+# instruments -2..-4 dB at 20-100 Hz, horns +3 dB at 100-250 Hz), with the saved project identical on those tracks.
+# Record the device with every render and refuse to render unless it matches the series' renders (48000 Hz, 512-sample
+# blocks, no input device); --force overrides.
+AUDIO_EXPECT = {"SRATE": "48000", "BSIZE": "512"}
+audio = {}
+if not MEASURE_ONLY:
+    aj = f"{C}/audio_device.lua"
+    open(aj, "w").write('local r = {}\nfor _, k in ipairs({"IDENT_IN", "IDENT_OUT", "SRATE", "BSIZE", "MODE"}) do '
+                        'local ok, v = reaper.GetAudioDeviceInfo(k, "") r[k] = ok and v or "" end\n'
+                        'r.running = reaper.Audio_IsRunning()\nreturn r\n')
+    ar = subprocess.run(RPR + ["run", aj, "--timeout", "60"], capture_output=True, text=True)
+    try:
+        audio = json.loads(ar.stdout)
+    except ValueError:
+        audio = {"error": (ar.stdout + ar.stderr).strip()[-300:]}
+    print("audio device:", audio, flush=True)
+    bad = [f"{k} {audio.get(k)!r} (expected {v})" for k, v in AUDIO_EXPECT.items() if str(audio.get(k)) != v]
+    if str(audio.get("IDENT_IN", "")).replace("CoreAudio", "").strip():
+        bad.append(f"input device {audio.get('IDENT_IN')!r} open (expected none; a Bluetooth headset's microphone "
+                   "forces it into 24 kHz HFP mode)")
+    if not audio.get("running"):
+        bad.append("audio device not running")
+    if bad and "--force" not in sys.argv:
+        sys.exit("audio device differs from the series' renders: " + "; ".join(bad) +
+                 ". Disconnect the headset or set REAPER's input device to none, restart REAPER (reaper_ctl.py restart), "
+                 "then render; or pass --force")
 PARTS = json.load(open(f"{ROOT}/build/parts.json"))
 PRE = PARTS.get("preroll_qn", 0.0)   # c06 (A #1): silent pre-roll before score qn 0, cut off after the render
 job = f"{C}/render.lua"
@@ -116,7 +150,8 @@ print(fix.stdout.strip(), fix.stderr.strip()[-300:])
 subprocess.run([PY, f"{ROOT}/tools/measure.py", f"{C}/render", f"{ROOT}/build/parts.json", f"{C}/metrics"], check=True)
 if not MEASURE_ONLY:
     cg2, mem2 = cmprs_gb()
-    open(f"{C}/metrics/memory.txt", "w").write(f"before render: REAPER {mem}, compressed {cg} GB\nafter render: REAPER {mem2}, compressed {cg2} GB\n")
+    open(f"{C}/metrics/memory.txt", "w").write(f"before render: REAPER {mem}, compressed {cg} GB\nafter render: REAPER {mem2}, compressed {cg2} GB\n"
+                                              f"audio device at render: {json.dumps(audio)}\n")
 # c05 (A #1): attack-timing gate. 10 isolated attacks and 4 tremolo arrivals; c03 passed all 14, c04 failed 11. If it
 # fails, the render's string timing is not trustworthy (sample streaming fell behind): render again before judging.
 pr = subprocess.run([PY, f"{ROOT}/tools/probe_attacks.py", f"{C}/render", f"{ROOT}/build/parts.json"], capture_output=True, text=True)

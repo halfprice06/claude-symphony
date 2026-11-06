@@ -1,0 +1,2743 @@
+{
+ "_doc": "Mix settings applied by tools/build_reaper.py (keys documented in mockup-kit/pipeline/example-config/mix.json and mockup-kit/LEARNINGS.md sections 12-14). mvt1 c00: copied from the movement II mix at its c26 state; mvt II-only tracks, its qn-keyed loud_eq points and the Horns 3-4 mute EQ removed; new groups trumpet (1TP KS Master, Close 0.5 / Main 1.0, send 0.45, width 0.3) and perc (cymbals and tam-tam, Close 0.3 / Main 1.0). Trumpet and percussion gains are first guesses, to be set from the c00 render. c01: trumpet loud trims f/ff 7/8 (Tpt3 8/11; B #2, C #1: 8-13 dB under the trombones and 5 dB under the horns at f/ff), Trombone 1 f 3->1 ff 4->3, Trombone 2 f 6->4 ff 8->6, Horn 2 f/ff 2/4->1/1 (B #2), Oboes f/ff 1/0->2/4 (B #6: no growth f->ff), Tam-tam gain -4->+1 (B #4, C #4: the fff stroke 13-14 dB under the orchestra), Suspended cymbal -6->-8 (its peak now meets the crash), Double basses body bell 160 +4.5 bw 1.4 -> 180 +4 bw 1.0 and bell2 80 -6 bw 1.0 -> 100 -5 bw 0.8, loud_eq 160 Hz +4 on celli and basses over the loud tutti spans of c00 (C #3: 100 Hz band 3.3-4.9 dB over both references in the loudest frames, 125-250 Hz 2.5-10 dB under), soft trims +2/+2/+1 dB at ppp/pp/p on every track including the per-track overrides (delivered LRA 17.3 LU and p10 span 21.7 dB against 14-16 / 16-19; a uniform shift keeps the family balance B measured at pp and p). c01 after the render (stem fix, tools/stem_fix.py): soft trims a further +2/+2/+0.5 (global ppp 7, pp 7, p 5, overrides by the same amounts): the render delivered LRA 17.0 LU and a 21.3 dB p10 span; simulated and applied 16.0 LU / 20.4 dB. c02 (B #5): Flute 1/2 soft_trim_db with an mf anchor (+2.5 at CC 72; build_reaper vol_points reads optional mp/mf anchors): the taper from p +5 to f -4 made the flute flat from pp to mf and 6 dB under the oboe at mf. c03: critic B #5 wind ff trims (Cl1/Cl2/BCl ff 0, Bn1 2.5, Bn2 3, Cbn 1); critic A #4 Violins II sul tasto tremolo EQ (loud_eq over qn 584-619: high shelf 2.5 kHz -7, bell 1.2 kHz -2). c05: Violins II soft_trim_db p 5 -> 2 (B #1: its Tremolo row plays 6-10 dB hot at p; pp unchanged); Oboes ff trim 4 -> 6 (B #6: 3 dB under the flutes and clarinets at ff); Crash cymbals gain -6 -> -1 with the 22in K Crash patch (C #1); loud_eq: Double basses + bell2 98 Hz -4 dB bw 0.5 (C #3: 89-112 Hz 2.8 dB over mvt II, 4.7 over Dvorak in the loudest frames), Violoncellos bell 160 +4 -> 150 +6 bw 1.0 (112-180 Hz hole), Violins I bell 3 kHz +2 bw 1.5 over the same loud spans (C #5 test: the loud tutti 2-3 dB darker at 2-4 kHz than both references). c06: Tam-tam tail_hold false (critic C #5: the printed damp at qn 504.2 falls after the note-off, where the tail hold froze the envelope; the whole tam-tam sound is ring, so its roles and the damp act on it directly); Violins II dyn_trim_db ff -1.5 -> +1.0 (critic B #5: Violins II 4-8 dB under Violins I where it doubles the tune at ff, 3.7-4.6 dB of it the patches' own gap). c08 (critic B #5): loud_eq bell 140 Hz (1 oct) on the celli's loud spans: Tuba, Bass trombone, Contrabassoon +4, Bassoon 2, Timpani +3 (the loud tutti's 125-160 Hz band 7.5-7.9 dB under the reference). mvt1 c09: trumpet send 0.65, flute/oboe send 0.5 (critic C #2); basses bell2 -5 -> -2 and loud bell2 -4 -> -2, celli bell2 125 Hz +3 (C #3); tam-tam/crash seat +0.20, sus. cymbal +0.30 (C #6). c09 stem fix: per-track soft_trim_db/dyn_trim_db (with an fff anchor) on the brass, clarinets and contrabassoon set from the c09 render so each printed dynamic keeps its c08 level on the new CC1 layers (median per-note change net of the envelope plan, tools-free scratch levelmatch); flute/oboe gains -0.3/-0.5 for the reverb added by the send change. c13: Horns a2 (2FH KS Master, stem 33) copied from Horn 1 with gain -4 + 4.6 = 0.6 dB and seat -0.42 (critics A #3, C #2); fff anchors Trumpet 2 7.4 -> 10.4, Trumpet 3 9.6 -> 11.6, Horn 3 -2.7 -> -0.2, Horn 4 -0.7 -> 2.8 and Horn 4 ff 3.8 -> 5.3 (B #1); Double basses loud_eq 160 Hz +4 -> +6, 98 Hz -2 -> -4, dyn_trim f 0 -> 1, ff 1 -> 2 (B #4); Violoncellos and Double basses side_shelf removed (C #5: master 20-60/60-120 Hz correlation 0.82/0.78 -> 0.71/0.69). c14: soft_trim_db overrides Violins I / Violoncellos {ppp 6, pp 6, p 5}, Violins II {6, 5, 2}, Violas {5, 6, 5} (critic B #1: string pp sat +1.9 dB over wind pp, louder than p solos); Double basses loud_eq wet held at 1 over 94-127 (B #3: the [104, 0], [108, 0] points removed) and a second wet EQ, 66 Hz +4 dB bw 0.6 over the coda tutti 662-680 (B #5: master 60-100 Hz re K -27 against -18..-21 in the other tutti). c16: Horn 4 dyn_trim_db f/ff/fff 2.5/5.3/2.8 -> 1.0/1.5/0.5 (critic B #1: Horn 4 the loudest horn in 57% of ff beats); Double basses dyn_trim_db f/ff 1/2 -> 2.5/4, soft_trim_db pp 10 -> 8.5 with an mf anchor 3.7 (B #4: loudest stem in soft held chords, fading behind the celli at f/ff); Violins I f -1.5 -> 0 (mf anchor 1.0), Violins II f -2.5 -> -1.0 (mf -0.8), Violoncellos f -2 -> -1 (mf 0.7) (B #5: mf -> f +1.1 dB pitch-matched against f -> ff +6.2; the mf anchors keep mf); Violins I/II loud_eq high shelf 2.5 kHz -2.5 dB over the celli's loud spans (C #3: loud tutti 2-5 kHz share 1.3 dB over the reference). c17: Oboes/Bassoons/Bass clarinet/Cor anglais dyn_trim_db f +1.5..+2.0 with mf anchors at the old mf values (critic B #4: wind mf -> f +0.7 dB pitch-matched; the f anchor dipped under mf and ff); Horns a2 static high shelf 1.25 kHz -3 dB and a loud_eq high shelf 1.6 kHz -8 dB over its CC1 >= 108 windows (critic C #1: the 2FH samples 5-15 dB brighter than 1FH at one pitch and CC1); Trumpet 1 loud_eq high shelf 5 kHz -14 dB over 633.9-640 (critic C #2: G5/A-flat5 8-16 kHz 15-25 dB over its other notes, 75% of the master's top octave); perc group width 0.4 -> 0.7 with seats crash 0.2 -> 0.12, sus. cymbal 0.3 -> 0.22, tam-tam 0.2 -> 0.12 (critic C #3: master >4 kHz correlation 0.59 against 0.38-0.53 in the references). c21: Violas/Violoncellos/Double basses sus_release_cap_ms 250 on the Sus MAX mf/f/ff groups (A #1 test); trombones 4 kHz high shelf -4, trumpets +2.5, Trumpet 1 climax shelf -14 -> -6 (C #1); tam-tam 86 Hz bell2 -9 (C #2); Horns 1-4 width 0.15, Horn 3/4 seats -0.38/-0.40 (C #3). c22: Violas sus_release_cap_ms rt_ms 400 (A #4 test: the RT release-trail groups ship 1660 ms). c33 (critic B #5): soft trims Horn 3 p 15.4 -> 12, Bassoon 2 pp 12 -> 9, Bassoon 1 pp 10 -> 8, Cor anglais pp 7 -> 6, Clarinet 1 p 3.3 -> 5 (pp was as loud as p on these winds; Horn 3's p equal to its mp).",
+ "reverb": {
+  "from_patch": "/Volumes/MAC DRIVE/EW Hollywood Orchestral Woodwinds Diamond/Hollywood Orch Woodwinds Opus Instruments/3 Bassoons/01 Long/3BS Sus MAX.oib",
+  "fx_volume": 0.19,
+  "wet": 2.0,
+  "send_pre_fader": true,
+  "high_cut_hz": 5500,
+  "impulse": "//ir/HOP True Stereo/S. Cal Hall Perc TS FR 3.3s",
+  "true_stereo": true
+ },
+ "groups": {
+  "wind": {
+   "mics": {
+    "Close": 0.5,
+    "Main": 0.8
+   },
+   "send": 0.35,
+   "width": 0.5
+  },
+  "horn": {
+   "mics": {
+    "Close": 0.5,
+    "Main": 1.0
+   },
+   "send": 0.5,
+   "width": 0.3
+  },
+  "lowbrass": {
+   "mics": null,
+   "send": 0.45,
+   "width": 0.5
+  },
+  "timp": {
+   "mics": {
+    "Close": 0.2,
+    "Main": 0.5
+   },
+   "send": 0.45,
+   "width": 0.6
+  },
+  "harp": {
+   "mics": {
+    "Close": 0.6,
+    "Main": 1.0
+   },
+   "send": 0.3,
+   "width": 0.3
+  },
+  "string": {
+   "mics": null,
+   "send": 0.25,
+   "width": 0.5
+  },
+  "trumpet": {
+   "mics": {
+    "Close": 0.5,
+    "Main": 1.0
+   },
+   "send": 0.65,
+   "width": 0.3
+  },
+  "perc": {
+   "mics": {
+    "Close": 0.3,
+    "Main": 1.0
+   },
+   "send": 0.45,
+   "width": 0.7
+  }
+ },
+ "tracks": {
+  "Flute 1": {
+   "group": "wind",
+   "gain_db": -1.3,
+   "seat": -0.26,
+   "dyn_trim_db": {
+    "f": -4,
+    "ff": -1
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 7,
+    "pp": 7,
+    "p": 5,
+    "mf": 2.5
+   },
+   "send": 0.5,
+   "width": 0.05,
+   "_c35": "critic C #1: width 0.05 (solo winds jumped left/right note to note at the group width 0.5); seat set to keep the image (Fl2 left of Fl1, Bn2 right of Bn1, Oboe 2 right of Oboe 1)"
+  },
+  "Flute 2": {
+   "group": "wind",
+   "gain_db": -1.5,
+   "seat": -0.3,
+   "dyn_trim_db": {
+    "f": -4,
+    "ff": -1
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 7,
+    "pp": 7,
+    "p": 5,
+    "mf": 2.5
+   },
+   "send": 0.5,
+   "width": 0.05,
+   "_c35": "critic C #1: width 0.05 (solo winds jumped left/right note to note at the group width 0.5); seat set to keep the image (Fl2 left of Fl1, Bn2 right of Bn1, Oboe 2 right of Oboe 1)"
+  },
+  "Oboe 1": {
+   "group": "wind",
+   "gain_db": -5.3,
+   "seat": 0.28,
+   "dyn_trim_db": {
+    "f": 3.5,
+    "ff": 6
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "send": 0.5,
+   "soft_trim_db": {
+    "ppp": 7,
+    "pp": 7,
+    "p": 5,
+    "mf": 3.1
+   },
+   "width": 0.05
+  },
+  "Oboe 2": {
+   "group": "wind",
+   "gain_db": -5.3,
+   "seat": 0.36,
+   "dyn_trim_db": {
+    "f": 3.5,
+    "ff": 6
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "send": 0.5,
+   "soft_trim_db": {
+    "ppp": 7,
+    "pp": 7,
+    "p": 5,
+    "mf": 3.1
+   },
+   "width": 0.05,
+   "_c35": "critic C #1: width 0.05 (solo winds jumped left/right note to note at the group width 0.5); seat set to keep the image (Fl2 left of Fl1, Bn2 right of Bn1, Oboe 2 right of Oboe 1)"
+  },
+  "Cor anglais": {
+   "group": "wind",
+   "gain_db": -1,
+   "seat": 0.24,
+   "dyn_trim_db": {
+    "f": 2.5,
+    "ff": 3
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "width": 0.05,
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 7,
+    "pp": 6,
+    "p": 5,
+    "mf": 2.5
+   }
+  },
+  "Clarinet 1": {
+   "group": "wind",
+   "gain_db": -1,
+   "seat": -0.22,
+   "dyn_trim_db": {
+    "f": -4.2,
+    "ff": 0.0,
+    "fff": -0.8
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 6.7,
+    "pp": 7.7,
+    "p": 5.0,
+    "mp": 2.2,
+    "mf": 0.1
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05
+  },
+  "Clarinet 2": {
+   "group": "wind",
+   "gain_db": -1,
+   "seat": -0.2,
+   "dyn_trim_db": {
+    "f": -3.8,
+    "ff": 0.0,
+    "fff": -1.9
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 7.2,
+    "pp": 7.0,
+    "p": 7.1,
+    "mp": 4.3,
+    "mf": 1.0
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ]
+  },
+  "Bass clarinet": {
+   "group": "wind",
+   "gain_db": 1,
+   "seat": -0.05,
+   "dyn_trim_db": {
+    "f": 0.5,
+    "ff": 0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 30
+    },
+    {
+     "band": "highshelf",
+     "hz": 2500,
+     "db": -4
+    }
+   ],
+   "width": 0.3,
+   "soft_trim_db": {
+    "ppp": 4,
+    "pp": 5,
+    "p": 5.0,
+    "mf": 1.0
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ]
+  },
+  "Bassoon 1": {
+   "group": "wind",
+   "gain_db": -2,
+   "seat": 0.15,
+   "dyn_trim_db": {
+    "f": 3.5,
+    "ff": 2.5
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 30
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 8,
+    "pp": 8,
+    "p": 7.0,
+    "mf": 3.6
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "_c35": "critic C #1: width 0.05 (solo winds jumped left/right note to note at the group width 0.5); seat set to keep the image (Fl2 left of Fl1, Bn2 right of Bn1, Oboe 2 right of Oboe 1)"
+  },
+  "Bassoon 2": {
+   "group": "wind",
+   "gain_db": -2,
+   "seat": 0.22,
+   "dyn_trim_db": {
+    "f": 4.0,
+    "ff": 3
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 30
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 9,
+    "pp": 9,
+    "p": 8.0,
+    "mf": 4.3
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "loud_eq": {
+    "points": [
+     [
+      92,
+      0
+     ],
+     [
+      94,
+      1
+     ],
+     [
+      103,
+      1
+     ],
+     [
+      104,
+      0
+     ],
+     [
+      108,
+      0
+     ],
+     [
+      110,
+      1
+     ],
+     [
+      127,
+      1
+     ],
+     [
+      128,
+      0
+     ],
+     [
+      316,
+      0
+     ],
+     [
+      318,
+      1
+     ],
+     [
+      331,
+      1
+     ],
+     [
+      332,
+      0
+     ],
+     [
+      456,
+      0
+     ],
+     [
+      458,
+      1
+     ],
+     [
+      495,
+      1
+     ],
+     [
+      496,
+      0
+     ],
+     [
+      516,
+      0
+     ],
+     [
+      518,
+      1
+     ],
+     [
+      535,
+      1
+     ],
+     [
+      536,
+      0
+     ],
+     [
+      548,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      567,
+      1
+     ],
+     [
+      568,
+      0
+     ],
+     [
+      624,
+      0
+     ],
+     [
+      626,
+      1
+     ],
+     [
+      645,
+      1
+     ],
+     [
+      646,
+      0
+     ],
+     [
+      660,
+      0
+     ],
+     [
+      662,
+      1
+     ],
+     [
+      679,
+      1
+     ],
+     [
+      680,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 140,
+      "db": 3,
+      "bw_oct": 1.0
+     }
+    ]
+   },
+   "width": 0.05,
+   "_c35": "critic C #1: width 0.05 (solo winds jumped left/right note to note at the group width 0.5); seat set to keep the image (Fl2 left of Fl1, Bn2 right of Bn1, Oboe 2 right of Oboe 1)"
+  },
+  "Contrabassoon": {
+   "group": "wind",
+   "gain_db": 2,
+   "seat": 0.25,
+   "dyn_trim_db": {
+    "f": 0.7,
+    "ff": 1.9,
+    "fff": 2.7
+   },
+   "eq": [
+    {
+     "band": "lowshelf",
+     "hz": 70,
+     "db": -4
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -2
+    },
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "loud_eq": {
+    "points": [
+     [
+      92,
+      0
+     ],
+     [
+      94,
+      1
+     ],
+     [
+      103,
+      1
+     ],
+     [
+      104,
+      0
+     ],
+     [
+      108,
+      0
+     ],
+     [
+      110,
+      1
+     ],
+     [
+      127,
+      1
+     ],
+     [
+      128,
+      0
+     ],
+     [
+      316,
+      0
+     ],
+     [
+      318,
+      1
+     ],
+     [
+      331,
+      1
+     ],
+     [
+      332,
+      0
+     ],
+     [
+      456,
+      0
+     ],
+     [
+      458,
+      1
+     ],
+     [
+      495,
+      1
+     ],
+     [
+      496,
+      0
+     ],
+     [
+      516,
+      0
+     ],
+     [
+      518,
+      1
+     ],
+     [
+      535,
+      1
+     ],
+     [
+      536,
+      0
+     ],
+     [
+      548,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      567,
+      1
+     ],
+     [
+      568,
+      0
+     ],
+     [
+      624,
+      0
+     ],
+     [
+      626,
+      1
+     ],
+     [
+      645,
+      1
+     ],
+     [
+      646,
+      0
+     ],
+     [
+      660,
+      0
+     ],
+     [
+      662,
+      1
+     ],
+     [
+      679,
+      1
+     ],
+     [
+      680,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 140,
+      "db": 4,
+      "bw_oct": 1.0
+     }
+    ]
+   },
+   "soft_trim_db": {
+    "ppp": 7.0,
+    "pp": 7.0,
+    "p": 5.0,
+    "mp": 3.7,
+    "mf": 3.2
+   }
+  },
+  "Horn 1": {
+   "group": "horn",
+   "gain_db": -4,
+   "seat": -0.48,
+   "dyn_trim_db": {
+    "f": -0.8,
+    "ff": -1.0,
+    "fff": -3.7
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 14.0,
+    "pp": 13.0,
+    "p": 10.6,
+    "mp": 7.2,
+    "mf": 2.0
+   },
+   "width": 0.05
+  },
+  "Horn 2": {
+   "group": "horn",
+   "gain_db": -4,
+   "seat": -0.42,
+   "dyn_trim_db": {
+    "f": -1.0,
+    "ff": -2.1,
+    "fff": -3.7
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 14.0,
+    "pp": 13.0,
+    "p": 9.7,
+    "mp": 7.7,
+    "mf": 2.4
+   },
+   "width": 0.05
+  },
+  "Horn 3": {
+   "group": "horn",
+   "gain_db": -4,
+   "seat": -0.38,
+   "dyn_trim_db": {
+    "f": 0.9,
+    "ff": -0.4,
+    "fff": -0.2
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 14.0,
+    "pp": 13.0,
+    "p": 12.0,
+    "mp": 8.4,
+    "mf": 1.7
+   },
+   "width": 0.05
+  },
+  "Horn 4": {
+   "group": "horn",
+   "gain_db": -4,
+   "seat": -0.34,
+   "dyn_trim_db": {
+    "f": 2.5,
+    "ff": 2.0,
+    "fff": 2.0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 14.0,
+    "pp": 13.5,
+    "p": 12.0,
+    "mp": 6.7,
+    "mf": 3.3
+   },
+   "width": 0.05
+  },
+  "Trombone 1": {
+   "group": "lowbrass",
+   "gain_db": 0,
+   "seat": 0.3,
+   "dyn_trim_db": {
+    "f": -0.9,
+    "ff": 0.8,
+    "fff": -0.6
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": -4
+    }
+   ],
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 14.6,
+    "pp": 14.6,
+    "p": 10.6,
+    "mp": 7.4,
+    "mf": 4.1
+   }
+  },
+  "Trombone 2": {
+   "group": "lowbrass",
+   "gain_db": 0,
+   "seat": 0.35,
+   "dyn_trim_db": {
+    "f": 1.9,
+    "ff": 3.3,
+    "fff": 1.9
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": -4
+    }
+   ],
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 14.2,
+    "pp": 14.2,
+    "p": 10.3,
+    "mp": 8.3,
+    "mf": 5.9
+   }
+  },
+  "Bass trombone": {
+   "group": "lowbrass",
+   "gain_db": 0,
+   "seat": 0.4,
+   "dyn_trim_db": {
+    "f": 1.4,
+    "ff": 3.3,
+    "fff": 2.2
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": -4
+    }
+   ],
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -2
+    },
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "loud_eq": {
+    "points": [
+     [
+      92,
+      0
+     ],
+     [
+      94,
+      1
+     ],
+     [
+      103,
+      1
+     ],
+     [
+      104,
+      0
+     ],
+     [
+      108,
+      0
+     ],
+     [
+      110,
+      1
+     ],
+     [
+      127,
+      1
+     ],
+     [
+      128,
+      0
+     ],
+     [
+      316,
+      0
+     ],
+     [
+      318,
+      1
+     ],
+     [
+      331,
+      1
+     ],
+     [
+      332,
+      0
+     ],
+     [
+      456,
+      0
+     ],
+     [
+      458,
+      1
+     ],
+     [
+      495,
+      1
+     ],
+     [
+      496,
+      0
+     ],
+     [
+      516,
+      0
+     ],
+     [
+      518,
+      1
+     ],
+     [
+      535,
+      1
+     ],
+     [
+      536,
+      0
+     ],
+     [
+      548,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      567,
+      1
+     ],
+     [
+      568,
+      0
+     ],
+     [
+      624,
+      0
+     ],
+     [
+      626,
+      1
+     ],
+     [
+      645,
+      1
+     ],
+     [
+      646,
+      0
+     ],
+     [
+      660,
+      0
+     ],
+     [
+      662,
+      1
+     ],
+     [
+      679,
+      1
+     ],
+     [
+      680,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 140,
+      "db": 4,
+      "bw_oct": 1.0
+     }
+    ]
+   },
+   "soft_trim_db": {
+    "ppp": 13.1,
+    "pp": 13.1,
+    "p": 9.8,
+    "mp": 8.8,
+    "mf": 7.2
+   }
+  },
+  "Tuba": {
+   "group": "lowbrass",
+   "gain_db": 2,
+   "seat": 0.45,
+   "dyn_trim_db": {
+    "f": -1.4,
+    "ff": -2.8,
+    "fff": -1.6
+   },
+   "eq": [
+    {
+     "band": "lowshelf",
+     "hz": 70,
+     "db": -4
+    },
+    {
+     "band": "highpass",
+     "hz": 25
+    },
+    {
+     "band": "bell2",
+     "hz": 84,
+     "db": -5,
+     "bw_oct": 0.3,
+     "_c26": "critic B #5: E2/F2 fundamental carried most of the master 30-100 Hz on those notes"
+    }
+   ],
+   "mics": {
+    "Close": 0.45,
+    "Main": 1.0
+   },
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -2
+    },
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "loud_eq": {
+    "points": [
+     [
+      92,
+      0
+     ],
+     [
+      94,
+      1
+     ],
+     [
+      103,
+      1
+     ],
+     [
+      104,
+      0
+     ],
+     [
+      108,
+      0
+     ],
+     [
+      110,
+      1
+     ],
+     [
+      127,
+      1
+     ],
+     [
+      128,
+      0
+     ],
+     [
+      316,
+      0
+     ],
+     [
+      318,
+      1
+     ],
+     [
+      331,
+      1
+     ],
+     [
+      332,
+      0
+     ],
+     [
+      456,
+      0
+     ],
+     [
+      458,
+      1
+     ],
+     [
+      495,
+      1
+     ],
+     [
+      496,
+      0
+     ],
+     [
+      516,
+      0
+     ],
+     [
+      518,
+      1
+     ],
+     [
+      535,
+      1
+     ],
+     [
+      536,
+      0
+     ],
+     [
+      548,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      567,
+      1
+     ],
+     [
+      568,
+      0
+     ],
+     [
+      624,
+      0
+     ],
+     [
+      626,
+      1
+     ],
+     [
+      645,
+      1
+     ],
+     [
+      646,
+      0
+     ],
+     [
+      660,
+      0
+     ],
+     [
+      662,
+      1
+     ],
+     [
+      679,
+      1
+     ],
+     [
+      680,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 140,
+      "db": 4,
+      "bw_oct": 1.0
+     }
+    ]
+   },
+   "soft_trim_db": {
+    "ppp": 14.2,
+    "pp": 14.2,
+    "p": 10.3,
+    "mp": 7.4,
+    "mf": 4.1
+   }
+  },
+  "Timpani": {
+   "group": "timp",
+   "gain_db": -7,
+   "seat": -0.05,
+   "dyn_trim_db": {
+    "f": 0,
+    "ff": 0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 45
+    }
+   ],
+   "side_shelf": {
+    "hz": 200,
+    "db": -2
+   },
+   "loud_eq": {
+    "points": [
+     [
+      92,
+      0
+     ],
+     [
+      94,
+      1
+     ],
+     [
+      103,
+      1
+     ],
+     [
+      104,
+      0
+     ],
+     [
+      108,
+      0
+     ],
+     [
+      110,
+      1
+     ],
+     [
+      127,
+      1
+     ],
+     [
+      128,
+      0
+     ],
+     [
+      316,
+      0
+     ],
+     [
+      318,
+      1
+     ],
+     [
+      331,
+      1
+     ],
+     [
+      332,
+      0
+     ],
+     [
+      456,
+      0
+     ],
+     [
+      458,
+      1
+     ],
+     [
+      495,
+      1
+     ],
+     [
+      496,
+      0
+     ],
+     [
+      516,
+      0
+     ],
+     [
+      518,
+      1
+     ],
+     [
+      535,
+      1
+     ],
+     [
+      536,
+      0
+     ],
+     [
+      548,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      567,
+      1
+     ],
+     [
+      568,
+      0
+     ],
+     [
+      624,
+      0
+     ],
+     [
+      626,
+      1
+     ],
+     [
+      645,
+      1
+     ],
+     [
+      646,
+      0
+     ],
+     [
+      660,
+      0
+     ],
+     [
+      662,
+      1
+     ],
+     [
+      679,
+      1
+     ],
+     [
+      680,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 140,
+      "db": 3,
+      "bw_oct": 1.0
+     }
+    ]
+   }
+  },
+  "Harp": {
+   "group": "harp",
+   "gain_db": -4,
+   "seat": -0.72,
+   "dyn_trim_db": {
+    "f": 1,
+    "ff": 2
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 30
+    }
+   ],
+   "width": 0.3,
+   "side_shelf": {
+    "hz": 300,
+    "db": -8
+   },
+   "env_release_ms": 200,
+   "env_sustain": 1.0,
+   "_c35": "critic A #2: env_sustain 1.0 (the patch AHDSRs decay to 0.001 in 5990 ms; the notes now decay as recorded until the note-off + env_release_ms)"
+  },
+  "Violins I": {
+   "group": "string",
+   "gain_db": 5,
+   "seat": -0.55,
+   "dyn_trim_db": {
+    "f": 0.0,
+    "ff": 1.5
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 5000,
+     "db": -4
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 6,
+    "pp": 6,
+    "p": 5,
+    "mf": 1.0
+   },
+   "loud_eq": [
+    {
+     "points": [
+      [
+       92,
+       0
+      ],
+      [
+       94,
+       1
+      ],
+      [
+       103,
+       1
+      ],
+      [
+       104,
+       0
+      ],
+      [
+       108,
+       0
+      ],
+      [
+       110,
+       1
+      ],
+      [
+       127,
+       1
+      ],
+      [
+       128,
+       0
+      ],
+      [
+       316,
+       0
+      ],
+      [
+       318,
+       1
+      ],
+      [
+       331,
+       1
+      ],
+      [
+       332,
+       0
+      ],
+      [
+       456,
+       0
+      ],
+      [
+       458,
+       1
+      ],
+      [
+       495,
+       1
+      ],
+      [
+       496,
+       0
+      ],
+      [
+       516,
+       0
+      ],
+      [
+       518,
+       1
+      ],
+      [
+       535,
+       1
+      ],
+      [
+       536,
+       0
+      ],
+      [
+       548,
+       0
+      ],
+      [
+       550,
+       1
+      ],
+      [
+       567,
+       1
+      ],
+      [
+       568,
+       0
+      ],
+      [
+       624,
+       0
+      ],
+      [
+       626,
+       1
+      ],
+      [
+       645,
+       1
+      ],
+      [
+       646,
+       0
+      ],
+      [
+       660,
+       0
+      ],
+      [
+       662,
+       1
+      ],
+      [
+       679,
+       1
+      ],
+      [
+       680,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "highshelf",
+       "hz": 2500,
+       "db": -2.5
+      }
+     ]
+    }
+   ]
+  },
+  "Violins II": {
+   "group": "string",
+   "gain_db": 6,
+   "seat": -0.25,
+   "dyn_trim_db": {
+    "f": -1.0,
+    "ff": 1.0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "loud_eq": [
+    {
+     "points": [
+      [
+       583.9,
+       0
+      ],
+      [
+       584,
+       1
+      ],
+      [
+       618.8,
+       1
+      ],
+      [
+       619,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "highshelf",
+       "hz": 2500,
+       "db": -7
+      },
+      {
+       "band": "bell",
+       "hz": 1200,
+       "db": -2,
+       "bw_oct": 1.5
+      }
+     ]
+    },
+    {
+     "points": [
+      [
+       92,
+       0
+      ],
+      [
+       94,
+       1
+      ],
+      [
+       103,
+       1
+      ],
+      [
+       104,
+       0
+      ],
+      [
+       108,
+       0
+      ],
+      [
+       110,
+       1
+      ],
+      [
+       127,
+       1
+      ],
+      [
+       128,
+       0
+      ],
+      [
+       316,
+       0
+      ],
+      [
+       318,
+       1
+      ],
+      [
+       331,
+       1
+      ],
+      [
+       332,
+       0
+      ],
+      [
+       456,
+       0
+      ],
+      [
+       458,
+       1
+      ],
+      [
+       495,
+       1
+      ],
+      [
+       496,
+       0
+      ],
+      [
+       516,
+       0
+      ],
+      [
+       518,
+       1
+      ],
+      [
+       535,
+       1
+      ],
+      [
+       536,
+       0
+      ],
+      [
+       548,
+       0
+      ],
+      [
+       550,
+       1
+      ],
+      [
+       567,
+       1
+      ],
+      [
+       568,
+       0
+      ],
+      [
+       624,
+       0
+      ],
+      [
+       626,
+       1
+      ],
+      [
+       645,
+       1
+      ],
+      [
+       646,
+       0
+      ],
+      [
+       660,
+       0
+      ],
+      [
+       662,
+       1
+      ],
+      [
+       679,
+       1
+      ],
+      [
+       680,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "highshelf",
+       "hz": 2500,
+       "db": -2.5
+      }
+     ]
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 6,
+    "pp": 5,
+    "p": 2,
+    "mf": -0.8
+   }
+  },
+  "Violas": {
+   "group": "string",
+   "gain_db": 2,
+   "seat": 0.15,
+   "dyn_trim_db": {
+    "f": -2,
+    "ff": -3
+   },
+   "soft_trim_db": {
+    "ppp": 5,
+    "pp": 6,
+    "p": 5
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "sus_release_cap_ms": {
+    "ms": 250,
+    "dyn": [
+     "mf",
+     "f",
+     "ff"
+    ],
+    "rows": [
+     "Sus MAX"
+    ],
+    "_c21": "critic A #1 (test): Sus MAX mf/f/ff sustain groups ship 394-700 ms releases; rests and cut-offs did not stop",
+    "_c23": "c22 rt_ms 400 test failed (rest drop 5.8 -> 5.7 dB): reverted"
+   }
+  },
+  "Violoncellos": {
+   "group": "string",
+   "gain_db": 0,
+   "seat": 0.35,
+   "dyn_trim_db": {
+    "f": -1.0,
+    "ff": -2.5
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 30
+    },
+    {
+     "band": "bell",
+     "hz": 170,
+     "db": 3,
+     "bw_oct": 1.5
+    },
+    {
+     "band": "bell2",
+     "hz": 125,
+     "db": 3,
+     "bw_oct": 1.0
+    }
+   ],
+   "width": 0.28,
+   "loud_eq": {
+    "points": [
+     [
+      92,
+      0
+     ],
+     [
+      94,
+      1
+     ],
+     [
+      103,
+      1
+     ],
+     [
+      104,
+      0
+     ],
+     [
+      108,
+      0
+     ],
+     [
+      110,
+      1
+     ],
+     [
+      127,
+      1
+     ],
+     [
+      128,
+      0
+     ],
+     [
+      316,
+      0
+     ],
+     [
+      318,
+      1
+     ],
+     [
+      331,
+      1
+     ],
+     [
+      332,
+      0
+     ],
+     [
+      456,
+      0
+     ],
+     [
+      458,
+      1
+     ],
+     [
+      495,
+      1
+     ],
+     [
+      496,
+      0
+     ],
+     [
+      516,
+      0
+     ],
+     [
+      518,
+      1
+     ],
+     [
+      535,
+      1
+     ],
+     [
+      536,
+      0
+     ],
+     [
+      548,
+      0
+     ],
+     [
+      550,
+      1
+     ],
+     [
+      567,
+      1
+     ],
+     [
+      568,
+      0
+     ],
+     [
+      624,
+      0
+     ],
+     [
+      626,
+      1
+     ],
+     [
+      645,
+      1
+     ],
+     [
+      646,
+      0
+     ],
+     [
+      660,
+      0
+     ],
+     [
+      662,
+      1
+     ],
+     [
+      679,
+      1
+     ],
+     [
+      680,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 150,
+      "db": 6,
+      "bw_oct": 1.0
+     }
+    ]
+   },
+   "soft_trim_db": {
+    "ppp": 6,
+    "pp": 6,
+    "p": 5,
+    "mf": 0.7
+   },
+   "sus_release_cap_ms": {
+    "ms": 250,
+    "dyn": [
+     "mf",
+     "f",
+     "ff"
+    ],
+    "rows": [
+     "Sus MAX"
+    ],
+    "_c21": "critic A #1 (test): Sus MAX mf/f/ff sustain groups ship 394-700 ms releases; rests and cut-offs did not stop"
+   },
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 170,
+     "db": -2,
+     "bw_oct": 1.0
+    }
+   ],
+   "_c29": "critic C #1: the c28 200 Hz loud bell2 reverted (198 Hz band 2-4 dB over three references); C #2/#3: side bell 170 Hz -2 (120-250 Hz correlation) and side high shelf 1.5 kHz +4 (celli top width)",
+   "side_shelf_switched": {
+    "points": [
+     [
+      0,
+      1
+     ],
+     [
+      679.4,
+      1
+     ],
+     [
+      679.8,
+      0
+     ],
+     [
+      695.6,
+      0
+     ],
+     [
+      696.0,
+      1
+     ]
+    ],
+    "bands": [
+     {
+      "band": "highshelf",
+      "hz": 1500,
+      "db": 4
+     }
+    ]
+   },
+   "_c35": "critic C #2: the c29 side high shelf (1.5 kHz +4, section width) switched off for v621's coda 'Solo espr.' (679.8-695.6; ramps in the bar-170 fermata rest and into the Tutti pp at 696): the line images as one player (simulated by C on c34: celli stem correlation 1-4 / 4-12 kHz 0.66/0.60 -> 0.81/0.87, master R-L above 4 kHz +8.3 -> +5.7 dB, level -0.1 dB). The solo-track alternative (A #1) was removed on memory"
+  },
+  "Double basses": {
+   "group": "string",
+   "gain_db": -8,
+   "seat": 0.5,
+   "width": 0.28,
+   "dyn_trim_db": {
+    "f": 2.5,
+    "ff": 4.0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 25
+    },
+    {
+     "band": "bell",
+     "hz": 180,
+     "db": 4,
+     "bw_oct": 1.0
+    },
+    {
+     "band": "bell2",
+     "hz": 87.3,
+     "db": -10,
+     "bw_oct": 0.15,
+     "_c24": "critic B #2: F2 60-100 Hz still +5 dB over its neighbours with -6 at 0.25 oct"
+    }
+   ],
+   "mics": {
+    "Close": 0.6,
+    "Main": 1.0
+   },
+   "soft_trim_db": {
+    "ppp": 8,
+    "pp": 8.5,
+    "p": 8.0,
+    "mf": 3.7
+   },
+   "loud_eq": [
+    {
+     "points": [
+      [
+       92,
+       0
+      ],
+      [
+       94,
+       1
+      ],
+      [
+       103,
+       1
+      ],
+      [
+       110,
+       1
+      ],
+      [
+       127,
+       1
+      ],
+      [
+       128,
+       0
+      ],
+      [
+       316,
+       0
+      ],
+      [
+       318,
+       1
+      ],
+      [
+       331,
+       1
+      ],
+      [
+       332,
+       0
+      ],
+      [
+       456,
+       0
+      ],
+      [
+       458,
+       1
+      ],
+      [
+       495,
+       1
+      ],
+      [
+       496,
+       0
+      ],
+      [
+       516,
+       0
+      ],
+      [
+       518,
+       1
+      ],
+      [
+       535,
+       1
+      ],
+      [
+       536,
+       0
+      ],
+      [
+       548,
+       0
+      ],
+      [
+       550,
+       1
+      ],
+      [
+       567,
+       1
+      ],
+      [
+       568,
+       0
+      ],
+      [
+       624,
+       0
+      ],
+      [
+       626,
+       1
+      ],
+      [
+       645,
+       1
+      ],
+      [
+       646,
+       0
+      ],
+      [
+       660,
+       0
+      ],
+      [
+       662,
+       1
+      ],
+      [
+       679,
+       1
+      ],
+      [
+       680,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "bell",
+       "hz": 160,
+       "db": 6,
+       "bw_oct": 1.0
+      },
+      {
+       "band": "bell2",
+       "hz": 98,
+       "db": -4,
+       "bw_oct": 0.5
+      }
+     ]
+    },
+    {
+     "points": [
+      [
+       662,
+       0
+      ],
+      [
+       664,
+       1
+      ],
+      [
+       679,
+       1
+      ],
+      [
+       680,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "bell",
+       "hz": 66,
+       "db": 4,
+       "bw_oct": 0.6
+      }
+     ]
+    },
+    {
+     "points": [
+      [
+       92,
+       0
+      ],
+      [
+       94,
+       1
+      ],
+      [
+       103,
+       1
+      ],
+      [
+       110,
+       1
+      ],
+      [
+       127,
+       1
+      ],
+      [
+       128,
+       0
+      ],
+      [
+       316,
+       0
+      ],
+      [
+       318,
+       1
+      ],
+      [
+       331,
+       1
+      ],
+      [
+       332,
+       0
+      ],
+      [
+       456,
+       0
+      ],
+      [
+       458,
+       1
+      ],
+      [
+       495,
+       1
+      ],
+      [
+       496,
+       0
+      ],
+      [
+       516,
+       0
+      ],
+      [
+       518,
+       1
+      ],
+      [
+       535,
+       1
+      ],
+      [
+       536,
+       0
+      ],
+      [
+       548,
+       0
+      ],
+      [
+       550,
+       1
+      ],
+      [
+       567,
+       1
+      ],
+      [
+       568,
+       0
+      ],
+      [
+       624,
+       0
+      ],
+      [
+       626,
+       1
+      ],
+      [
+       645,
+       1
+      ],
+      [
+       646,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "lowshelf",
+       "hz": 80,
+       "db": -5
+      }
+     ],
+     "_c20": "critic C #1: loud tutti 30-60 Hz over the soft passages (c19 loud -26.2 / soft -27.7 dB re 250 Hz-2 kHz; references fall from soft to loud); not over the coda 66 Hz spec span"
+    }
+   ],
+   "sus_release_cap_ms": {
+    "ms": 250,
+    "dyn": [
+     "mf",
+     "f",
+     "ff"
+    ],
+    "rows": [
+     "Sus MAX"
+    ],
+    "_c21": "critic A #1 (test): Sus MAX mf/f/ff sustain groups ship 394-700 ms releases; rests and cut-offs did not stop"
+   },
+   "mute_eq": {
+    "from_qn": -2.5,
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 61.7,
+      "db": -6,
+      "bw_oct": 0.25
+     },
+     {
+      "band": "bell2",
+      "hz": 73.4,
+      "db": -5,
+      "bw_oct": 0.25
+     }
+    ],
+    "_c27": "critic B #1: static (wet 1 from inside the pre-roll) B1 / D2 fundamental cuts"
+   },
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 170,
+     "db": -2,
+     "bw_oct": 1.0
+    }
+   ],
+   "_c29": "critic C #2: side bell 170 Hz -2 dB (master 120-250 Hz correlation 0.44 against 0.54-0.58 in the references)"
+  },
+  "Trumpet 1": {
+   "group": "trumpet",
+   "gain_db": -3,
+   "seat": 0.07,
+   "dyn_trim_db": {
+    "f": 6.1,
+    "ff": 7.3,
+    "fff": 6.6
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": 2.5
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 9.6,
+    "pp": 9.6,
+    "p": 6.3,
+    "mp": 5.5,
+    "mf": 4.6
+   },
+   "loud_eq": [
+    {
+     "points": [
+      [
+       633.8,
+       0
+      ],
+      [
+       633.9,
+       1
+      ],
+      [
+       639.95,
+       1
+      ],
+      [
+       640.05,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "highshelf",
+       "hz": 5000,
+       "db": -6
+      }
+     ]
+    }
+   ],
+   "width": 0.05
+  },
+  "Trumpet 2": {
+   "group": "trumpet",
+   "gain_db": -3,
+   "seat": 0.12,
+   "dyn_trim_db": {
+    "f": 4.7,
+    "ff": 8.5,
+    "fff": 8.4
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": 2.5
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 9.6,
+    "pp": 9.6,
+    "p": 6.3,
+    "mp": 5.6,
+    "mf": 4.7
+   }
+  },
+  "Trumpet 3": {
+   "group": "trumpet",
+   "gain_db": -3,
+   "seat": 0.19,
+   "dyn_trim_db": {
+    "f": 7.7,
+    "ff": 11.1,
+    "fff": 9.6
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": 2.5
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 9.6,
+    "pp": 9.6,
+    "p": 6.4,
+    "mp": 6.1,
+    "mf": 5.7
+   }
+  },
+  "Tam-tam": {
+   "group": "perc",
+   "gain_db": 1,
+   "seat": 0.12,
+   "dyn_trim_db": {
+    "f": 0,
+    "ff": 0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 30
+    },
+    {
+     "band": "bell2",
+     "hz": 86,
+     "db": -9,
+     "bw_oct": 0.3
+    }
+   ],
+   "tail_hold": false
+  },
+  "Suspended cymbal": {
+   "group": "perc",
+   "gain_db": -8,
+   "seat": 0.22,
+   "dyn_trim_db": {
+    "f": 0,
+    "ff": 0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 60
+    }
+   ]
+  },
+  "Crash cymbals": {
+   "group": "perc",
+   "gain_db": -1,
+   "seat": 0.12,
+   "dyn_trim_db": {
+    "f": 0,
+    "ff": 0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 60
+    }
+   ],
+   "tail_hold": false
+  },
+  "Horns a2": {
+   "group": "horn",
+   "gain_db": 0.6,
+   "seat": -0.42,
+   "dyn_trim_db": {
+    "f": -0.8,
+    "ff": -1.0,
+    "fff": -3.7
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 1250,
+     "db": -3
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 16.2,
+    "pp": 15.8,
+    "p": 10.6,
+    "mp": 7.2,
+    "mf": 2.0
+   },
+   "loud_eq": [
+    {
+     "points": [
+      [
+       162.9,
+       0
+      ],
+      [
+       163.0,
+       1
+      ],
+      [
+       165.5,
+       1
+      ],
+      [
+       165.7,
+       0
+      ],
+      [
+       463.9,
+       0
+      ],
+      [
+       464.0,
+       1
+      ],
+      [
+       480.5,
+       1
+      ],
+      [
+       480.7,
+       0
+      ],
+      [
+       627.9,
+       0
+      ],
+      [
+       628.0,
+       1
+      ],
+      [
+       643.75,
+       1
+      ],
+      [
+       644.0,
+       0
+      ],
+      [
+       664.4,
+       0
+      ],
+      [
+       664.5,
+       1
+      ],
+      [
+       676.5,
+       1
+      ],
+      [
+       676.7,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "highshelf",
+       "hz": 1600,
+       "db": -8
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "soft_trim_db": {
+  "ppp": 7,
+  "pp": 7,
+  "p": 5,
+  "_except": [
+   "Timpani",
+   "Tam-tam",
+   "Suspended cymbal",
+   "Crash cymbals"
+  ]
+ }
+}

@@ -16,7 +16,7 @@ Usage: python build_reaper.py <parts.json> <jobs-dir> [--mix-only] [track names.
 Patches are loaded by writing Opus's own plugin state (the .oib instrument JSON inside a
 Performance zone) with TrackFX_SetNamedConfigParm(..., "vst_chunk", ...).
 """
-import json, os, subprocess, sys
+import bisect, json, os, subprocess, sys
 sys.path.insert(0, os.path.expanduser("~/.rpr-bridge/libs/ew_ho"))
 import opus_state
 
@@ -256,6 +256,23 @@ def state_for(tr):
                     pr_["release"] = rel_
         if isinstance(inst.get("envelope"), dict) and "releaseTime" in inst["envelope"]:
             inst["envelope"]["releaseTime"] = rel_
+    if m_.get("env_sustain") is not None or m_.get("env_decay_ms") is not None:
+        # mvt1 c35 (critic A #2): Harp Sus RR (and Harp Pluck Long) ship every AHDSR, and the instrument EnvelopeProxy, with
+        # decay 5990 ms to sustain 0.001, so each note fell to -60 dB in 6 s whatever its sample (the recorded plucks run
+        # 6.6-10.6 s): the final ppp chord died 2 s into its fermata. env_sustain (0..1) sets the sustain level, so a note
+        # decays as recorded until its note-off and env_release_ms; env_decay_ms sets the decay time
+        for g_ in inst.get("groups", []):
+            for pr_ in (g_.get("processors") or {}).get("processors", []):
+                if pr_.get("class") == "AHDSR":
+                    if m_.get("env_sustain") is not None:
+                        pr_["sustain"] = float(m_["env_sustain"])
+                    if m_.get("env_decay_ms") is not None:
+                        pr_["decay"] = float(m_["env_decay_ms"])
+        if isinstance(inst.get("envelope"), dict):
+            if m_.get("env_sustain") is not None and "sustain" in inst["envelope"]:
+                inst["envelope"]["sustain"] = float(m_["env_sustain"])
+            if m_.get("env_decay_ms") is not None and "decayTime" in inst["envelope"]:
+                inst["envelope"]["decayTime"] = float(m_["env_decay_ms"])
     if m_.get("sus_release_cap_ms") is not None:
         cap_release(inst, m_["sus_release_cap_ms"], tr["name"])
     _, perf, _ = opus_state.split(opus_state.TEMPLATE)
@@ -301,10 +318,21 @@ def step_at(pts, q, default=0.0):
     return v
 
 
-SOFT_DECRESC_HOLD_MAX_CC = 72   # mvt1 c15 (critic B #2); None = off
+# mvt1 c33 (critic B #3): 72 -> 127 (every decrescendo). From f/ff/fff the brass and bassoon soft trims climbed 7-17 dB
+# inside the hairpin (Tuba bar 162 ff > mp fell 0.7 dB on its stem, envelope +6.6; bars 124-125 fff > pp held -12.5 re M
+# while the master fell 16 dB); only decrescendos starting above mf change, each by a cut
+SOFT_DECRESC_HOLD_MAX_CC = 127   # mvt1 c15 (critic B #2): 72; None = off
 # the trim keeps this share of its rise inside the hairpin: with none kept (the c15 render) the 20 soft decrescendos
 # with a rising trim fell a median 6.5 dB (others 4.4; before 1.7), Horn 1 at bar 106 11.9 dB from mf to mp
 SOFT_DECRESC_KEEP = 0.5
+# mvt1 c36 (critic C #1, Dan's listening note on bar 62): this envelope comes after the Opus hall, so a subito fall of
+# 11-16 dB at the mark cut the forte's hall tail at once (master -14.5 dB in 0.2 s, flat after: "sounds like a glitch";
+# a natural cut-off here falls about 7 dB by 0.1-0.2 s and 11 dB by 0.2-0.3 s). At each parts.json `subito_falls` entry
+# [mark, fall qn] (score_to_parts SUBITO_FRESH: the fall qn is the moved onset of the track's note on the mark): the
+# level before the fall is held to the fall qn; a track that sounded in the `sounded_s` before it then falls
+# `at_once_db` at once and the rest linearly in dB over `ramp_s` (never under the level after the mark); a smaller fall
+# (or a silent track) moves to the fall qn. None = off
+SUBITO_TAIL = {"at_once_db": 4.0, "ramp_s": 0.35, "sounded_s": 0.5, "min_db": 0.5}
 
 
 def vol_points(tr):
@@ -397,6 +425,40 @@ def vol_points(tr):
                 if e_ - 1e-6 <= q < nh_ and vals[k] != ve_:
                     vals[k] = ve_
                     held += 1
+    # mvt1 c36: SUBITO_TAIL (see the default)
+    if SUBITO_TAIL and tr.get("subito_falls"):
+        segs_ = [(n["qn"], n["qn"] + n["dur"]) for n in tr.get("notes", [])]
+        for s_, f_ in tr["subito_falls"]:
+            def cur(q, G=list(grid), V=list(vals)):
+                k = bisect.bisect_left(G, q)
+                if k <= 0:
+                    return V[0]
+                if k >= len(G):
+                    return V[-1]
+                return V[k - 1] + (V[k] - V[k - 1]) * (q - G[k - 1]) / max(1e-9, G[k] - G[k - 1])
+            fs_ = min(f_, s_ - 0.1)   # the hairpin and level-shape falls start up to 0.1 qn before the mark
+            pre = cur(fs_ - 0.002)
+            post = lambda q: cur(max(q, s_))
+            drop = pre - post(f_)
+            if drop < SUBITO_TAIL["min_db"]:
+                continue
+            T = s2q(q2s(f_) + SUBITO_TAIL["ramp_s"]) - f_
+            A = SUBITO_TAIL["at_once_db"]
+            q_snd = s2q(max(0.0, q2s(f_) - SUBITO_TAIL["sounded_s"]))
+            split = drop > A and any(a_ < f_ - 1e-6 and b_ > q_snd for a_, b_ in segs_)
+            pT = post(f_ + T)
+
+            def new_v(q):
+                if q < f_:
+                    return pre
+                if split and q <= f_ + T:
+                    return max(post(q), (pre - A) + (pT - (pre - A)) * (q - f_) / T)
+                return post(q)
+            q_end = max(s_, f_ + T if split else f_)
+            add = [fs_ - 0.002, fs_, f_ - 0.002, f_, s_, q_end] + ([f_ + T * k_ / 6 for k_ in range(1, 7)] if split else [])
+            old_map = dict(zip(grid, vals))
+            grid = sorted(set(grid) | {round(x_, 5) for x_ in add if fs_ - 0.01 <= x_ <= q_end + 1e-9})
+            vals = [round(new_v(q), 2) if fs_ - 0.005 <= q <= q_end + 1e-9 else old_map[q] for q in grid]
     out = []
     for k, (q, v) in enumerate(zip(grid, vals)):
         if k == 0 or k == len(vals) - 1 or v != vals[k - 1] or v != vals[k + 1]:
@@ -524,6 +586,36 @@ local function set_side_shelf(tr, spec, eq)
   reaper.TrackFX_SetPinMappings(tr, fx, 0, 1, 2, 0)
   reaper.TrackFX_SetPinMappings(tr, fx, 1, 0, 0, 0)
   reaper.TrackFX_SetPinMappings(tr, fx, 1, 1, 2, 0)
+  -- mvt1 c35 (critic C #2): spec.switched = {points = {{qn, w}, ...}, bands = {...}}: a second side-only ReaEQ inside the
+  -- same encoder/decoder pair, same pins, its Wet automated (linear) like set_mute_eq: a side band that a passage switches off
+  if spec.switched then
+    local fx2 = reaper.TrackFX_AddByName(tr, "ReaEQ", false, -1)
+    local o2 = {fx = fx2, kind = "side switched"}
+    config_eq(tr, fx2, spec.switched.bands, o2)
+    reaper.TrackFX_SetPinMappings(tr, fx2, 0, 0, 0, 0)
+    reaper.TrackFX_SetPinMappings(tr, fx2, 0, 1, 2, 0)
+    reaper.TrackFX_SetPinMappings(tr, fx2, 1, 0, 0, 0)
+    reaper.TrackFX_SetPinMappings(tr, fx2, 1, 1, 2, 0)
+    local wet = -1
+    for p = 0, reaper.TrackFX_GetNumParams(tr, fx2) - 1 do
+      local _, pn = reaper.TrackFX_GetParamName(tr, fx2, p, "")
+      if pn == "Wet" then wet = p end
+    end
+    if wet >= 0 then
+      local env = reaper.GetFXEnvelope(tr, fx2, wet, true)
+      reaper.DeleteEnvelopePointRange(env, -1, 1e9)
+      for _, p in ipairs(spec.switched.points) do
+        reaper.InsertEnvelopePoint(env, reaper.TimeMap2_QNToTime(0, p.qn), p.w, 0, 0, false, true)
+      end
+      reaper.Envelope_SortPoints(env)
+      local pins2 = {}
+      for io = 0, 1 do for pp = 0, 1 do pins2[#pins2 + 1] = tostring(reaper.TrackFX_GetPinMappings(tr, fx2, io, pp)) end end
+      o2[#o2 + 1] = "switched side wet param " .. wet .. " points " .. reaper.CountEnvelopePoints(env) .. " pins " .. table.concat(pins2, ",")
+    else
+      o2[#o2 + 1] = "no Wet parameter"
+    end
+    eq[#eq + 1] = o2
+  end
   local dec = reaper.TrackFX_AddByName(tr, "JS: utility/KanakaMS5", false, -1)
   out.dec = dec
   local pins = {}
@@ -569,11 +661,17 @@ def mute_lua(m):
 
 def side_lua(m):
     """c20 (C #2): mix.json side_shelf {hz, db} as a Lua table (nil when absent).
-    c21 (C #4): or a list of eq bands ([{band, hz, db}, ...]; lowshelf = ReaEQ band 0, highshelf = band 3)."""
+    c21 (C #4): or a list of eq bands ([{band, hz, db}, ...]; lowshelf = ReaEQ band 0, highshelf = band 3).
+    mvt1 c35 (C #2): plus mix.json side_shelf_switched {points, bands}: a second side EQ with an automated Wet."""
     ss = m.get("side_shelf")
+    sw = m.get("side_shelf_switched")   # mvt1 c35 (critic C #2): {points: [[score qn, wet], ...], bands: [...]}
+    swl = ""
+    if sw:
+        pts = ",".join(f'{{qn={q + PRE}, w={w}}}' for q, w in sw["points"])
+        swl = f', switched={{points={{{pts}}}, bands={eq_lua(m, sw["bands"])}}}'
     if isinstance(ss, list):
-        return f'{{bands={eq_lua(m, ss)}}}' if ss else "nil"
-    return f'{{hz={ss["hz"]}, db={ss["db"]}}}' if ss else "nil"
+        return f'{{bands={eq_lua(m, ss)}{swl}}}' if ss else "nil"
+    return f'{{hz={ss["hz"]}, db={ss["db"]}{swl}}}' if ss else "nil"
 
 
 def b64_path(i, tr):
