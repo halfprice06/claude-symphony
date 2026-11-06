@@ -197,6 +197,9 @@ v178–v187 promoted (cycles 177–186); added to checkpoint PR #21. Next: cycle
 ## Loop finished after cycle 200 (2026-10-17)
 v188–v201 promoted (cycles 187–200); added to checkpoint PR #21. v201 is the release copy. The 200-cycle loop is complete.
 
+## Cycle 581 (lens 1 melody, Adler ch. 7 Individual Woodwinds: melodic writing, registers (adler1 PDF 184-232) (seventh pass)) v581 → v582
+No change.
+
 ## Cycle 580 (lens 10 cyclic, Aldwell & Schachter Unit 28 the Neapolitan as a long-range device (aldwell-schachter PDF 482-502) (sixth pass)) v580 → v581
 c580: Cl 2 F3–D♯3 at 86–87 (Neapolitan resolves).
 
