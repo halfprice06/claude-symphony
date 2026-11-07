@@ -7,6 +7,7 @@
   "send_pre_fader": true,
   "high_cut_hz": 5500,
     "low_cut_hz": 160,
+    "ir_setup": {"envelopeMode": 2, "endPos": 0.5, "decayLength": 0.5, "_doc": "2026-11-07, Movement I c44: shortens the hall tail (late slope 2.61 -> 1.54 s on a test track; master drop 0.3 s after a tutti cut-off 13-14 -> 18-21 dB; recordings give 1.1-1.6 s)"},
   "impulse": "//ir/HOP True Stereo/S. Cal Hall Perc TS FR 3.3s",
   "true_stereo": true
  },

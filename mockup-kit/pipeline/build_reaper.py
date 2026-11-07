@@ -166,6 +166,19 @@ def apply_mix(inst, m):
         # lowCutFreq; the factory value is 30 Hz), so the bass reaches the hall less and the low end stays dry
         rv["filterActive"] = True
         rv["lowFilterFreq"] = rv["lowCutFreq"] = float(MIX["reverb"]["low_cut_hz"])
+    # mvt1 c44 (Dan: too wet, mushy): the IR envelope ("IR Envelope Preprocessing", Opus manual pp. 133-134) is the
+    # ConvolutionReverb's "irSetup" dict (class ConvolutionSetup: envelopeMode, simpleDecay, startPos, endPos,
+    # attackLength, decayLength, attackCurve, decayCurve; every installed patch ships envelopeMode 0, simpleDecay 1.0,
+    # endPos 1.0). simpleDecay changes nothing in any mode; endPos with decayLength shortens the tail in mode 1 or 2.
+    # reverb.ir_setup {key: value} sets it on the shared hall; a track's own "reverb_ir_setup" (mix.json track or group)
+    # overrides it (for A/B tests of the decay). Unknown keys stop the build
+    irs_ = dict(MIX["reverb"].get("ir_setup") or {}, **(m.get("reverb_ir_setup") or {}))
+    for k_, v_ in irs_.items():
+        if k_.startswith("_"):
+            continue
+        if k_ not in rv.get("irSetup", {}):
+            sys.exit(f"reverb ir_setup: the ConvolutionSetup has no key {k_!r} ({sorted(rv.get('irSetup', {}))})")
+        rv["irSetup"][k_] = type(rv["irSetup"][k_])(v_)
     fx["inserts"] = [i for i in fx["inserts"] if i["class"] != "ConvolutionReverb"] + [rv]
 
 
