@@ -121,7 +121,7 @@ The pipeline loads the `.oib` files directly and sets mics and reverb itself, so
 
 - Every instrument has a master channel, sub-mixer channels (one per mic, with a load button) and FX bus channels (p.196).
 - An FX-bus send can be pre- or post-fader; the manual suggests post-fader for reverb so the reverb follows the fader (p.198). The pipeline uses pre-fader sends scaled by the mic volume (KIT §12).
-- Insert effects: EQ (Bass Comp, Channel EQ, 6-band Equalizer, Tone Enhancer), dynamics (De-Esser, Level Amp, Limiter, Limiting Amp, SSL Bus Compressor, SSL Channel Strip, SSL Transient Shaper, Tape Saturation), distortion, modulation, harmonics, delay, reverb (Algoverb, convolution Reverb) (p.199-221). The Transient Shaper adds attack; it does not soften one (p.208).
+- Insert effects: EQ (Bass Comp, Channel EQ, 6-band Equalizer, Tone Enhancer), dynamics (De-Esser, Level Amp, Limiter, Limiting Amp, SSL Bus Compressor, SSL Channel Strip, SSL Transient Shaper, Tape Saturation), distortion, modulation, harmonics, delay, reverb (Algoverb, convolution Reverb) (p.199-221). The Transient Shaper adds attack, and its Invert switch softens attacks instead (subtracts the added attack, leaving more body) (p.208).
 
 ### 4.5 Mixing approaches the manual describes (p.222-223)
 
