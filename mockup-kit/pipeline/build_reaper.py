@@ -128,10 +128,16 @@ def apply_mix(inst, m):
     # c05 (C #3): the seat and width are set inside Opus on every mic channel (panLeft/panRight), so the shared hall
     # (fx:0) returns centred at full width instead of being panned and narrowed with the dry sound by the REAPER pan
     # after the plugin. The REAPER track pan is centre, width 1.
+    # mvt1 c45 (critic C #1 step 2, Opus manual p.139: each mic sub-mix has its own panning): "width_by_mic" {mic label:
+    # width} widens the listed mics (never narrows: the larger of the track width and the mic's); the Close mic keeps the
+    # track width and anchors the seat, the recorded Main pair spreads (after the c44 drier hall the master's L/R
+    # correlation rose 0.57 -> 0.69, outside all five references)
+    wbm_ = {k_: float(v_) for k_, v_ in (m.get("width_by_mic") or {}).items() if not k_.startswith("_")}
     for c in subs.values():
+        wd_ = max(m["width"], wbm_.get(c["label"], 0.0))
         c["pan"] = 0.0
-        c["panLeft"] = max(-1.0, m["seat"] - m["width"])
-        c["panRight"] = min(1.0, m["seat"] + m["width"])
+        c["panLeft"] = max(-1.0, m["seat"] - wd_)
+        c["panRight"] = min(1.0, m["seat"] + wd_)
         for ins in c["inserts"]:
             if ins["class"] == "SendProcessor" and ins.get("output") == "fx:0":
                 ins["level"] = m["send"]
@@ -253,6 +259,27 @@ def cap_release(inst, spec, name):
         print(f"{name}: release cap {ms:.0f} ms (RT {spec.get('rt_ms')}) on {sorted((k, sorted(v)) for k, v in hit.items())}", file=sys.stderr)
 
 
+def rt_gain(inst, spec, name):
+    """mvt1 c45 (critic C #2, HO manual p.222: the room is heard in the release-trail samples): mix.json "rt_gain_db"
+    {"db": D, "rows": [...] (default: every row)}: multiply the SourceProcessor volume of every release-trail group
+    (`releaseTrail` true) whose regions all sit on the listed rows by 10^(D/20). The KS Masters ship trail gains from
+    0.58 (Solo Trumpet) to 3.98 (+12 dB, 1st / 2nd Violins and Violas mf); capping a trail's AHDSR release does nothing,
+    because a trail is a one-shot sample (c22 rt_ms)."""
+    db_ = float(spec["db"])
+    rows = [r["name"] for r in inst["layerMatrix"]["rows"]]
+    want = {i for i, r in enumerate(rows) if spec.get("rows") is None or r in spec["rows"]}
+    n_ = 0
+    for g in inst.get("groups", []):
+        regs = (g.get("regionMap") or {}).get("regions", [])
+        if not g.get("releaseTrail") or not regs or any(r_.get("row") not in want for r_ in regs):
+            continue
+        for pr_ in (g.get("processors") or {}).get("processors", []):
+            if pr_.get("class") == "SourceProcessor" and "volume" in pr_:
+                pr_["volume"] = float(pr_["volume"]) * 10 ** (db_ / 20.0)
+                n_ += 1
+    print(f"{name}: release-trail gain {db_:+.1f} dB on {n_} groups", file=sys.stderr)
+
+
 def state_for(tr):
     inst = opus_state.load_oib(tr["patch"])
     if "articulations" in inst:
@@ -293,6 +320,8 @@ def state_for(tr):
                 inst["envelope"]["decayTime"] = float(m_["env_decay_ms"])
     if m_.get("sus_release_cap_ms") is not None:
         cap_release(inst, m_["sus_release_cap_ms"], tr["name"])
+    if m_.get("rt_gain_db"):
+        rt_gain(inst, m_["rt_gain_db"], tr["name"])
     _, perf, _ = opus_state.split(opus_state.TEMPLATE)
     perf["name"] = tr["name"]
     perf["zones"] = [{"class": "InstrumentZone", "keyMin": 0, "keyMax": 127, "velMin": 1, "velMax": 127,
