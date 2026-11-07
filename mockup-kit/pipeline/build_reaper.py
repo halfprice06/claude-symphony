@@ -161,6 +161,11 @@ def apply_mix(inst, m):
         # key pairs (highFilterFreq / highCutFreq); both are set
         rv["filterActive"] = True
         rv["highFilterFreq"] = rv["highCutFreq"] = float(MIX["reverb"]["high_cut_hz"])
+    if MIX["reverb"].get("low_cut_hz"):
+        # 2026-11-07 (Dan: too wet, mushy): low cut on the hall input only (same Bandpass, keys lowFilterFreq /
+        # lowCutFreq; the factory value is 30 Hz), so the bass reaches the hall less and the low end stays dry
+        rv["filterActive"] = True
+        rv["lowFilterFreq"] = rv["lowCutFreq"] = float(MIX["reverb"]["low_cut_hz"])
     fx["inserts"] = [i for i in fx["inserts"] if i["class"] != "ConvolutionReverb"] + [rv]
 
 

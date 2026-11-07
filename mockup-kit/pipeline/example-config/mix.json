@@ -6,6 +6,7 @@
   "wet": 2.0,
   "send_pre_fader": true,
   "high_cut_hz": 5500,
+    "low_cut_hz": 160,
   "impulse": "//ir/HOP True Stereo/S. Cal Hall Perc TS FR 3.3s",
   "true_stereo": true
  },
