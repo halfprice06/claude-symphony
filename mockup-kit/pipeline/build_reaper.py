@@ -226,7 +226,8 @@ _CAP_PRINTED = set()
 
 
 def cap_release(inst, spec, name):
-    """mvt1 c21 (critic A #1): mix.json "sus_release_cap_ms" {"ms", "dyn": [...], "rows": [...]}: cap the AHDSR release
+    """mvt1 c21 (critic A #1): mix.json "sus_release_cap_ms" {"ms", "dyn": [...], "rows": [...]} (mvt1 c46: or a list of
+    such specs, each applied in turn): cap the AHDSR release
     of the sustain sample groups of the listed rows (default "Sus MAX") whose name ends in one of the listed dynamics
     (default mf/f/ff). A group belongs to a row when every region of its region map sits on that layerMatrix row.
     Release-trail groups ("... RT"), legato transitions ("TLeg") and the soft layers keep their release. The Hollywood
@@ -254,8 +255,8 @@ def cap_release(inst, spec, name):
             if pr_.get("class") == "AHDSR" and pr_.get("release", 0) > ms_:
                 hit.setdefault(nm, set()).add(round(pr_["release"]))
                 pr_["release"] = ms_
-    if name not in _CAP_PRINTED:
-        _CAP_PRINTED.add(name)
+    if (name, ms, tuple(sorted(dyns))) not in _CAP_PRINTED:   # mvt1 c46: one line per spec of a list
+        _CAP_PRINTED.add((name, ms, tuple(sorted(dyns))))
         print(f"{name}: release cap {ms:.0f} ms (RT {spec.get('rt_ms')}) on {sorted((k, sorted(v)) for k, v in hit.items())}", file=sys.stderr)
 
 
@@ -319,7 +320,10 @@ def state_for(tr):
             if m_.get("env_decay_ms") is not None and "decayTime" in inst["envelope"]:
                 inst["envelope"]["decayTime"] = float(m_["env_decay_ms"])
     if m_.get("sus_release_cap_ms") is not None:
-        cap_release(inst, m_["sus_release_cap_ms"], tr["name"])
+        # mvt1 c46 (critic C #1): a list of specs, applied in order (e.g. 150 ms at mf-ff and 350 ms at pp / p)
+        caps_ = m_["sus_release_cap_ms"]
+        for spec_ in (caps_ if isinstance(caps_, list) else [caps_]):
+            cap_release(inst, spec_, tr["name"])
     if m_.get("rt_gain_db"):
         rt_gain(inst, m_["rt_gain_db"], tr["name"])
     _, perf, _ = opus_state.split(opus_state.TEMPLATE)
