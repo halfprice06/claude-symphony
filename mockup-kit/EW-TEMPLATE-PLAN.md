@@ -158,20 +158,25 @@ room. Defaults under Dan's standing rule; critics tune the values.
   breath rule.
 - **Not for HO.** Howl's repeated notes nearly touch only because VSL switches samples itself; keep 60-100 ms gaps.
 
-## 10. Research batch 6: Lorne Balfe's Crown and Genius MIDI sketches (FINDINGS.md part 6)
+## 10. Research batches 6-7: six Lorne Balfe MIDI sketches (Crown, Genius, KFP3, Bad Boys for Life, 6 Underground, Penguins; FINDINGS.md part 6)
 Defaults under Dan's standing rule; critics tune the values. The sketches are quantized to one tempo, so section 8's
 timing values still apply.
-- **Phrase shape by type (refines section 8).** Builds to a climax: enter near zero (CC under 15, about +25 in the first
-  250 ms) and peak at the end of the phrase (0.95 of its length, a range of about 100 units). Accented brass, fanfares and
-  rhythmic figures: enter at the top and fall 15-25 by the end of a long note (-27 over a phrase's last second). Lyrical
-  lines keep section 8's centred arch. Classify each phrase from the score (hairpins to a climax, accents and marcato,
-  slurred cantabile) and say in CHANGES.md how the classes were assigned.
-- **Ostinato velocity.** In repeated short-note figures each beat or half-beat group falls 15-17 velocity steps from
-  first to last note (for example 104, 101, 95, 87), with ±5-7 seeded random variation and strong beats 20-25 steps
-  higher. Two layers of one figure may alternate accents (1 and 3 against 2 and 4).
-- **Doublings share one curve.** Instruments doubling a line get the same dynamics curve, point for point (then each
-  track's level trim on top).
-- **Timbre against level (test where a patch has separate controls).** Brass timbre 25-35 under its level, strings
-  timbre about 15 over, ridden together at that fixed offset. In HO this maps to CC1 (dynamic layers) against CC11
-  (volume) where the patch keeps them separate; check against section 5's CC1-only combo macro.
-- **Spiccato length** about 60 % of the slot.
+- **Phrase shape by character (refines section 8; confirmed across six cues).**
+  - Lyrical lines: the centred arch, peak at about 0.44 of the phrase, start 35 and end 32 units under the peak; only 6 %
+    of long notes flat.
+  - Builds to a climax: enter near zero (CC under 15, about +25 in the first 250 ms) and peak at the end (0.95 of the
+    phrase, a range of about 100 units).
+  - Driving music at 105-150 bpm, accented brass, fanfares and rhythmic figures: start high and fall (15-25 by the end
+    of a long note, -27 over a phrase's last second), or peak early (0.05-0.30 of the phrase).
+  Classify each phrase from the score (hairpins to a climax, accents and marcato, tempo, slurred cantabile) and say in
+  CHANGES.md how the classes were assigned.
+- **Short-note velocity by position in the beat**, 15-25 steps between the strongest and weakest note, ±5-7 seeded random
+  variation. In running 16ths, either beat strongest, the "and" about 10 below and the two 16ths between 20-25 below
+  (for example 95, 72, 83, 72), or a fall of 15-17 across each group (104, 101, 95, 87). Strong beats 20-25 above weak
+  ones in ostinatos. Two layers of one figure may alternate accents (1 and 3 against 2 and 4).
+- **Doublings share one curve.** Instruments doubling a line get the same dynamics curve, point for point, with each
+  track's level trim on top.
+- **Level lane follows the timbre lane.** Where a patch has separate level (CC11) and timbre (CC1) lanes, ride them in
+  the same shape (r 0.92-0.98). The offset between them is a per-track balance setting, not a fixed rule. (Batch 6's
+  "brass timbre 25-35 under, strings 15 over" held only in The Crown and is withdrawn.)
+- **Spiccato length** about half the slot (50-62 %).

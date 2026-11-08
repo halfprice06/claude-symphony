@@ -226,38 +226,66 @@ Libraries: VSL Synchron winds, brass, percussion, harp and pianos in both, run i
 4. **Narrower brass**: narrow the brass stereo width and pan horns left, trumpets right, as an A/B.
 
 # Part 6: Lorne Balfe's MIDI sketches (2026-11-08, night)
-14th Street Music (Lorne Balfe's company) shares the MIDI and Cubase files of several cues on Hightail. Dan uploaded two of the MIDI files: "The Crown" main titles (22 tracks, 88 s, 60 bpm) and "Genius" season 2 main titles (33 tracks, 37 s, 150 bpm). Both are in `balfe/`, with the statistics in `balfe-report.txt`. Both use Spitfire libraries (Symphonic Strings, Brass and Woodwinds, Albion I, Chamber Strings, Hans Zimmer Percussion) plus synths and drums. In Spitfire's players CC1 moves between the recorded dynamic layers (timbre) and CC11 is a volume trim.
+14th Street Music (Lorne Balfe's company) shares the MIDI and Cubase files of several cues on Hightail. Dan uploaded six of the MIDI files. They are in `balfe/`, with the statistics in `balfe-report.txt`.
+
+| cue | tracks | length | tempo (bpm) | character (my reading of tempo, scoring and notes) |
+|---|---|---|---|---|
+| The Crown, main titles | 22 | 88 s | 60 | slow orchestral build |
+| Kung Fu Panda 3, "Father and Son" | 50 | 183 s | 65 | lyrical: strings, solo cello, choir, harp |
+| Bad Boys for Life, main theme (with Mark Mancina) | 53 | 161 s | 100 | action: orchestra, choir, guitars, drums |
+| 6 Underground, "I Am the Danger" | 27 | 197 s | 105 | action: string ostinatos, brass, percussion |
+| Penguins of Madagascar, main theme | 59 | 249 s | 125 | comedy action: brass, saxes, drums |
+| Genius season 2, main titles | 33 | 37 s | 150 | driving: strings, brass, percussion |
+
+Libraries are mostly Spitfire (Symphonic Strings, Brass and Woodwinds, Albion I, Chamber and Solo Strings, Hans Zimmer Percussion), plus Orchestral Tools Metropolis Ark 1 choir (Bad Boys), Eric Whitacre Choir (Kung Fu Panda 3), synths, guitars and drum kits. In Spitfire's players CC1 moves between the recorded dynamic layers (timbre) and CC11 is a volume trim.
 
 ## 20. Timing: everything on the grid
-- Every note sits on the grid (16ths, or 32nds in The Crown's ostinato), each cue has one tempo throughout, and tutti entries are exactly together (100 % and 95 % of entries with three or more tracks). These are the composer's sketch mockups, programmed rather than played in, so all the motion is in the controller lanes and velocity. They show how far CC and velocity work alone can go; they don't argue against Part 4's timing values.
-- Sustained notes have one fixed velocity per track (The Crown: 113 on the string and wind longs, 41-73 on brass and clarinets). The dynamics on longs come only from the lanes.
-- Note lengths: string spiccato 72-100 ms long. The Crown's 32nd-note spiccato at 60 bpm (125 ms slots) is 77 ms long with 48 ms gaps, about 60 % of the slot, close to EastWest's values in section 7. Legato violin lines overlap 31 ms; brass and wind longs butt exactly (gap 0 to 5 ms).
+- In all six, every note sits on the grid, each cue has one tempo throughout, and tutti entries are together (88-100 % of entries with three or more tracks exactly together; Bad Boys within 1-2 ms). These are the composer's sketch mockups, programmed rather than played in, so all the motion is in the controller lanes and velocity. They add nothing on timing, and Part 4's timing values stand.
+- Sustained notes mostly keep one velocity per track: 1-2 distinct velocities on every long track in The Crown, 14 of 19 in Kung Fu Panda 3 and 7 of 9 in 6 Underground (Penguins and Bad Boys vary more). The dynamics on longs come from the lanes.
+- **Short notes fill about half their slot.** String spiccato is 50-62 % of the slot in five of the six: The Crown 77 ms of 125, 6 Underground 76 of 143, Kung Fu Panda 3 115 of 231, Penguins 72-88 of 160. Bad Boys' shorts fill 84-100 %. Legato lines overlap 31 ms (The Crown's violins) and 45-49 ms (6 Underground's strings).
 
-## 21. CC1 and CC11 ridden together, with a fixed offset per instrument
-- **Every sustained track has both lanes drawn**, 10-16 points per second each on most tracks (The Crown's tuba 4.5, Genius horns 25). The two lanes correlate at r 0.88-0.98 on The Crown's sustained tracks and move at the same time (no consistent lead or lag).
-- **CC11 sits a near-constant distance from CC1, and the distance depends on the instrument.** The Crown: strings, oboe and bassoons CC11 = CC1 − 16 (middle half −22 to −10); clarinets −3 to +8; horns +28; bass trombones +37; tuba +29. Genius: basses +30, horns −21. So the brass play a lower dynamic layer (darker timbre) at a higher level, and the strings a brighter layer at a lower level. EastWest's CC1 macro (section 6) moves its two controllers together with no per-instrument offset.
-- **Doublings share one performance.** In The Crown, violins 1, celli, solo cello, oboe and bassoons playing the same line have identical CC1 and CC11 lanes, point for point: one curve drawn and copied, so the doubled instruments swell and taper together. Genius does the same for bass trombones and tuba.
+## 21. CC1 and CC11 ridden together
+- **Sustained tracks have both lanes drawn**, 10-16 points per second each on most tracks (The Crown's tuba 4.5, Genius horns 25). On orchestral sustained tracks the two lanes move together with no consistent lead or lag: median correlation 0.97 (The Crown), 0.98 (6 Underground) and 0.92 (Kung Fu Panda 3), with r 0.85 or more on 100 %, 100 % and 58 % of tracks; 0.83-0.84 in Genius and Penguins, 0.58 in Bad Boys.
+- **The distance between the lanes is set per track, with no family rule.** The Crown: strings CC11 = CC1 − 16, brass +28 to +37. Kung Fu Panda 3: strings mostly +7 to +16, horns −15, flutes −16. 6 Underground: low strings +20 to +24, horns 0. Penguins and Bad Boys: mostly within ±10. Correction: the first version of this section (and item 4 of batch 6) said brass play a darker layer at a higher level and strings the opposite. That holds in The Crown only; across the six files the offset works as a per-track balance setting.
+- **Doublings often share one performance.** The Crown copies one CC1 and CC11 lane, point for point, to violins 1, celli, solo cello, oboe and bassoons playing the same line. Genius does the same for bass trombones and tuba, 6 Underground for celli and basses (CC11), Penguins for a trombone long and staccato pair, Bad Boys for the women's and men's choir (CC1). Kung Fu Panda 3 has none.
 - Genius also draws CC7 on the six-horn long patch (170 points, 0-127 over 10.5 s), a third lane for fades.
 
-## 22. Phrase shape follows the music: builds rise, accented figures decay
-- **The Crown (a slow build at 60 bpm): phrases start from nothing and peak at the end.** CC1 at a phrase entry is 0 on strings, oboe and bassoons, 7 on clarinets, 12-15 on horns and bass trombones. Strings reach 25 after 250 ms, 31 at 500 ms and 40 at 1 s. The median peak sits at 0.95 of the phrase and the phrase range is 103 units, nearly the whole lane. 46 % of long notes rise by their middle, 55 % fall 4 or more units at the end, and only 1-2 % are flat.
-- **Genius (driving, 150 bpm): the opposite.** Phrases start at the top (CC1 at onset median 95) and fall: peak at 0.05 of the phrase, 20 under the peak by the middle, 41 under at the end, −27 over the last second. Horns enter at 93 and are at 69 one second later. Long notes fall a median 17 by their end (69 % fall, 16 % flat).
-- **A swell before the onset (Genius only).** CC1 rises a median 6 (upper quartile 38) in the 300 ms before an entry. Elsewhere in the study the median change before an entry is 0 to 3 (section 11), and EastWest's never moves (section 8).
-- Part 4's centred arch (section 11) is the average over mostly lyrical music. These two show the two ends of it: in a build toward a climax the peak goes at the end of the phrase and the entry starts near zero; in accented, rhythmic material the note starts at the top and decays, as in Star Wars (section 11) and Mulan's winds and brass (section 17).
+## 22. Phrase shape follows the music
+CC1 on phrases of 1.5 s or more, per-cue medians:
 
-## 23. Short-note velocity: a falling pattern inside each beat group
-- **The Crown's 32nd-note spiccato ostinato falls across each group of four:** violins 104, 101, 95, 87, then 105, 102, 96, 88; celli 112, 110, 104, 96. The first note of each group is 15-17 steps above the last, with about ±7 of variation at each position (standard deviation 6-8 within a slot).
-- **The two ensemble spiccato layers alternate the accent.** The 16th-note layer falls 88, 82, 75, 69 across each beat and accents beats 1 and 3 (101-102 against 74-75 on beats 2 and 4). Its doubling layer accents beats 2 and 4 (104-107 against 76-79).
-- Genius: Albion spiccato eighths accent the bar's downbeat (111 against 87-89 on beats 2-4); the nylon guitar plays its off-beat 16ths louder (123 against 96).
-- On The Crown's ensemble spiccato, CC1 and CC11 carry the phrase dynamics (3-4 points per second) and velocity follows them (r 0.59-0.72 between velocity and CC1 at the onset). EastWest parks CC1 high on shorts and uses velocity alone (section 7), and Part 4's shorts set velocity independently of CC1 (r 0.05, section 12). Balfe's ostinato does both: phrase dynamics in the lanes and a fixed accent pattern in velocity.
+| cue | tempo | peak position in phrase | start, units under peak | end, units under peak | long notes held flat |
+|---|---|---|---|---|---|
+| The Crown | 60 | 0.95 | 96 | 0 | 1 % |
+| Kung Fu Panda 3 | 65 | 0.44 | 35 | 32 | 6 % |
+| Bad Boys for Life | 100 | 0.57 | 20 | 5 | 18 % |
+| 6 Underground | 105 | 0.30 | 34 | 54 | 39 % |
+| Penguins | 125 | 0.07 | 4 | 10 | 19 % |
+| Genius | 150 | 0.05 | 3 | 41 | 16 % |
+
+- **The lyrical cue has Part 4's centred arch.** Kung Fu Panda 3's "Father and Son": peak at 0.44 of the phrase, start 35 and end 32 under the peak, range 60. 49 % of long notes rise 4 or more units by their middle, 57 % fall 4 or more at the end, and 6 % are flat. This matches section 11.
+- **The build peaks at the end.** The Crown's phrases start from nothing: CC1 at a phrase entry is 0 on strings, oboe and bassoons, 7 on clarinets, 12-15 on horns and bass trombones. Strings reach 25 after 250 ms, 31 at 500 ms and 40 at 1 s.
+- **The driving cues peak early.** Genius and Penguins start at or near the top (CC1 at onset median 95 and 112) and fall: Genius horns enter at 93 and are at 69 one second later, and Genius long notes fall a median 17 by their end. 6 Underground peaks at 0.30 and fades 54 units by the phrase end. Bad Boys rises and then holds near the top.
+- A swell before the onset appears only in Genius (CC1 rises a median 6, upper quartile 38, in the 300 ms before an entry). Elsewhere in the study the median change before an entry is 0 to 3 (section 11), and EastWest's never moves (section 8).
+- Summary: lyrical lines arch with the peak near the middle; builds enter near zero and peak at the end; driving or accented material starts high and falls, as in Star Wars (section 11) and Mulan's winds and brass (section 17).
+
+## 23. Short-note velocity follows the position in the beat
+Four of the six shape short-note velocity by metric position, with 15-25 steps between the strongest and weakest note of a beat:
+- **The Crown**, 32nd-note spiccato: velocity falls across each group of four (violins 104, 101, 95, 87, then 105, 102, 96, 88; celli 112 → 96), with about ±7 of variation at each position (standard deviation 6-8 within a slot). Its two ensemble spiccato layers alternate accents: the 16th-note layer accents beats 1 and 3 (101-102 against 74-75) and falls 88, 82, 75, 69 across each beat; its doubling layer accents beats 2 and 4 (104-107 against 76-79).
+- **6 Underground**, 16th-note spiccato: 95, 72, 83, 72 (the beat strongest, the "and" next, the 16ths in between weakest), identical every beat with no variation; the doubling violin layer plays 127, 101, 113, 101.
+- **Kung Fu Panda 3**, ensemble spiccato: 117, 93, 96, 109, so the last 16th leans into the next beat (standard deviation 8 within a slot).
+- **Bad Boys**, ensemble shorts: 123, 111, 123, 116.
+- Penguins and Genius play most shorts at a constant high velocity (115-127) with few accents; Genius accents bar downbeats (111 against 87-89).
+- On The Crown's ensemble spiccato, CC1 and CC11 carry the phrase dynamics and velocity follows them (r 0.59-0.72 between velocity and CC1 at the onset). EastWest parks CC1 high on shorts and uses velocity alone (section 7), and Part 4's shorts set velocity independently of CC1 (r 0.05, section 12).
 
 ## 24. Additions to the suggestions
-1. **Phrase shape by character.** Builds toward a climax: enter near zero (CC under 15 at the entry, about +25 in the first 250 ms) and peak at the end of the phrase. Accented brass, fanfares and rhythmic figures: enter at the top and fall 15-25 by the end of a long note. Lyrical phrases keep the centred arch of section 11.
-2. **Ostinato velocity pattern.** In repeated short-note figures, make each beat or half-beat group fall 15-17 velocity steps from its first note to its last, add ±5-7 of random variation, and accent the strong beats by 20-25 steps. This applies to the running figures in the scherzo and finale.
-3. **Doublings share one curve.** Instruments doubling the same line get the same dynamics curve shape, with a per-family offset, so they breathe together.
-4. **Timbre against level per family** (A/B, where the patch has separate timbre and level controls): brass timbre 25-35 units under its level, strings timbre about 15 over its level.
+1. **Phrase shape by character.** Lyrical lines keep the centred arch of section 11. Builds toward a climax enter near zero (CC under 15 at the entry, about +25 in the first 250 ms) and peak at the end of the phrase. Driving or accented figures enter at the top and fall 15-25 by the end of a long note, or peak in the first third of the phrase and fade before a rest.
+2. **Short-note velocity by position in the beat.** In running 16ths, play the beat strongest, the "and" about 10 below, and the 16ths in between 20-25 below (6 Underground), or fall 15-17 steps across each group (The Crown). Add ±5-7 of random variation, and let two layers of one figure alternate accents. This applies to the running figures in the scherzo and finale.
+3. **Doublings share one curve.** Instruments doubling the same line get the same dynamics curve shape, so they swell and taper together.
+4. **Spiccato about half its slot**, which agrees with EastWest's lengths in section 7.
+
+Item 4 of the first version of this list (brass timbre under its level, strings over) is withdrawn; see section 21.
 
 ## Leads not taken
-- Lorne Balfe's other 14th Street Music files: the MIDI files for Bad Boys for Life, Penguins of Madagascar, Kung Fu Panda 3 and 6 Underground, and the Cubase projects for The Crown, Genius and those four. I clicked their downloads in Dan's Chrome, but nothing arrived in his Downloads folder. Dan can download them from the Hightail pages himself and upload them here. Nine more shares from the same company (The Crown "Duck Shoot", Assassin's Creed III, His Dark Materials (four cues), Fallout, Beyond: Two Souls, Call of Duty: Modern Warfare 2) are not downloaded.
+- Lorne Balfe's Cubase projects for the six cues (on the same Hightail pages as the MIDI files; they would show his mixer and reverb settings), and nine more 14th Street Music shares: The Crown "Duck Shoot", Assassin's Creed III, His Dark Materials (four cues), Fallout, Beyond: Two Souls and Call of Duty: Modern Warfare 2. Downloads I clicked in Dan's Chrome never arrived, so these need Dan to download and upload them.
 - Ludwig Göransson's "Can You Hear the Music" (Oppenheimer) MIDI: the Dropbox link needs a key that the post doesn't give.
 - VSL Masterpieces: the page is gone, and VSL staff say on their forum that those files are no longer available.

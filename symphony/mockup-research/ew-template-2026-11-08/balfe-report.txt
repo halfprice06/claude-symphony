@@ -1,10 +1,21 @@
-Lorne Balfe MIDI sketches (14th Street Music Hightail shares), read 2026-11-08. Findings: FINDINGS.md Part 6.
-Files: balfe/crown-main-titles.mid (The Crown main titles, 22 tracks, 88 s), balfe/genius-s2-main-titles.mid (Genius season 2 main titles, 33 tracks, 37 s).
+Lorne Balfe MIDI sketches (14th Street Music Hightail shares), uploaded by Dan and read 2026-11-08. Findings: FINDINGS.md Part 6.
 
 == Tutti entry spread (scripts/async.py) and beat-level tempo (scripts/rubato.py)
 crown-main-titles.mid: 390 entries of 3+ tracks; spread first-to-last track ms median 0, IQR 0..0; exactly together (<1 ms) 100%
    family offset vs entry median ms: str-long +0 (n=129), str-short +0 (n=1344), winds +0 (n=127)
 crown-main-titles.mid: 76 beats, tempo changes on 0% of beats; |dev| median 0.0%, 90th pct 0.0%; beats >15% slower 0, >25% slower 0; 4-bar medians 60..60 bpm
+kung-fu-panda-3-father-and-son.mid: 439 entries of 3+ tracks; spread first-to-last track ms median 0, IQR 0..0; exactly together (<1 ms) 100%
+   family offset vs entry median ms: brass +0 (n=86), keys/harp +0 (n=571), other +0 (n=37), perc +0 (n=826), str-long +0 (n=235), str-short +0 (n=586)
+kung-fu-panda-3-father-and-son.mid: 186 beats, tempo changes on 0% of beats; |dev| median 0.0%, 90th pct 0.0%; beats >15% slower 0, >25% slower 0; 4-bar medians 65..65 bpm
+bad-boys-for-life-main-theme.mid: 901 entries of 3+ tracks; spread first-to-last track ms median 1, IQR 1..2; exactly together (<1 ms) 24%
+   family offset vs entry median ms: brass +0 (n=164), other -0 (n=1275), perc +0 (n=3849), str-long -0 (n=550), str-short +0 (n=349), winds -0 (n=1283)
+bad-boys-for-life-main-theme.mid: 259 beats, tempo changes on 0% of beats; |dev| median 0.0%, 90th pct 0.0%; beats >15% slower 0, >25% slower 0; 4-bar medians 100..100 bpm
+6-underground-i-am-the-danger.mid: 185 entries of 3+ tracks; spread first-to-last track ms median 0, IQR 0..0; exactly together (<1 ms) 93%
+   family offset vs entry median ms: keys/harp +0 (n=71), perc +0 (n=135), str-long +0 (n=440), str-short +0 (n=444)
+6-underground-i-am-the-danger.mid: 320 beats, tempo changes on 0% of beats; |dev| median 0.0%, 90th pct 0.0%; beats >15% slower 0, >25% slower 0; 4-bar medians 105..105 bpm
+penguins-of-madagascar-main-theme.mid: 1293 entries of 3+ tracks; spread first-to-last track ms median 0, IQR 0..0; exactly together (<1 ms) 88%
+   family offset vs entry median ms: brass -0 (n=918), keys/harp +0 (n=1817), other +0 (n=2210), perc +1 (n=2676), str-long +0 (n=1121), str-short -1 (n=2777)
+penguins-of-madagascar-main-theme.mid: 504 beats, tempo changes on 0% of beats; |dev| median 0.0%, 90th pct 0.0%; beats >15% slower 0, >25% slower 0; 4-bar medians 125..125 bpm
 genius-s2-main-titles.mid: 81 entries of 3+ tracks; spread first-to-last track ms median 0, IQR 0..0; exactly together (<1 ms) 95%
    family offset vs entry median ms: brass +0 (n=65), keys/harp -1 (n=67), perc -0 (n=288), str-long +0 (n=28), str-short +0 (n=253)
 genius-s2-main-titles.mid: 68 beats, tempo changes on 0% of beats; |dev| median 0.0%, 90th pct 0.0%; beats >15% slower 0, >25% slower 0; 4-bar medians 150..150 bpm
@@ -45,6 +56,245 @@ CC11: phrases>=1.5s n=16, moving(>=6) 100%
    ramp first 500ms 21 [14..33] n=16; end taper last 1000ms -0 [-30..5] n=16
    long notes >=1.2s (n=199) change vs onset at 25/50/75/100%: 2 [-1..21] n=199, 2 [-5..33] n=199, -5 [-17..45] n=199, -7 [-24..45] n=199
       share rising to mid >=4: 43%, falling at end <=-4 vs mid: 56%, flat (all |d|<3): 2%
+
+######## kung-fu-panda-3-father-and-son.mid: PPQ 480, 2 tempi 65..120 bpm, 2 tempo events
+- Spitfire Symphonic Strings a - Violins 1 - Long | n=60 vel 114 [114..114] d=1 | grid 100% mode +0ms (100%) | dur 923 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~22.2s | CC1:348ev 56-122 15.1/s CC11:247ev 82-127 10.7/s CC21:142ev 98-122 5.4/s
+- Spitfire Symphonic Strings a - Violins 1 - Long | n=118 vel 122 [89..122] d=3 | grid 100% mode +0ms (100%) | dur 462 | ov 2 (n=2) gap -0.0 rep None (n=0) | phr 5 ~5.3s | CC1:921ev 0-120 10.9/s CC11:723ev 0-109 8.6/s CC21:154ev 102-127 1.8/s CC7:2ev 96-116 0.0/s | r(vel,cc1)=0.87
+- Spitfire Symphonic Strings b - Violins 2 - Long | n=21 vel 101 [101..101] d=1 | grid 100% mode +0ms (100%) | dur 2769 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~44.3s | CC11:474ev 27-127 10.5/s CC1:437ev 24-127 9.8/s CC21:120ev 42-89 3.4/s
+- Spitfire Symphonic Strings c - Violas - Short Pizzicato | n=35 vel 37 [37..37] d=1 | grid 100% mode +0ms (100%) | dur 462 | ov None (n=0) gap None rep None (n=0) | phr 28 ~0.5s | CC11:5ev 90-94 0.1/s
+- Spitfire Symphonic Strings c - Violas - Long | n=30 vel 114 [114..114] d=1 | grid 100% mode +0ms (100%) | dur 923 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~22.2s | CC1:448ev 0-126 16.9/s CC11:312ev 0-126 12.0/s CC3:2ev 1-1 0.6/s
+- Spitfire Symphonic Strings e - Basses - Short Pizzicato | n=14 vel 64 [64..64] d=1 | grid 100% mode +0ms (100%) | dur 923 | ov None (n=0) gap -0.0 rep None (n=0) | phr 12 ~0.9s | CC11:48ev 49-109 1.5/s
+- Spitfire Symphonic Strings e - Basses - Long | n=33 vel 112 [112..112] d=1 | grid 100% mode +0ms (100%) | dur 923 | ov None (n=0) gap -0.0 rep None (n=0) | phr 3 ~15.7s | CC11:516ev 45-124 11.3/s CC1:502ev 37-112 11.0/s
+- Spitfire Symphonic Strings f - Ensembles - Long | n=140 vel 112 [112..112] d=1 | grid 100% mode +0ms (100%) | dur 923 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~44.3s | CC1:659ev 0-120 13.5/s CC11:444ev 0-107 9.1/s CC3:2ev 1-1 0.4/s
+- Spitfire Symphonic Strings f - Ensembles - Short Spiccato | n=511 vel 88 [84..95] d=38 | grid 100% mode +0ms (100%) | dur 115 | ov None (n=0) gap 115 rep 115 (n=2) | phr 2 ~33.1s | CC11:620ev 0-124 6.9/s CC7:2ev 104-127 0.0/s
+- Spitfire Symphonic Strings f - Ensembles - Short Spiccato | n=96 vel 108 [96..115] d=17 | grid 100% mode +0ms (100%) | dur 115 | ov None (n=0) gap 115 rep None (n=0) | phr 1 ~22.0s | CC11:350ev 3-124 15.6/s
+- Spitfire Chamber Strings d - Celli - Short Pizzicato (Stereo) | n=24 vel 77 [77..77] d=1 | grid 100% mode +0ms (100%) | dur 231 | ov None (n=0) gap None rep None (n=0) | phr 24 ~0.2s | CC11:4ev 93-94 0.2/s CC3:4ev 0-0 0.2/s CC83:4ev 127-127 0.2/s CC82:4ev 127-127 0.2/s
+- Spitfire Solo Strings e - Cello - Long Progressive Vib | n=52 vel 85 [85..85] d=6 | grid 100% mode +0ms (100%) | dur 462 | ov None (n=0) gap -0.0 rep 55 (n=2) | phr 8 ~7.8s | CC1:1796ev 0-122 11.2/s CC11:1478ev 0-119 9.2/s CC7:2ev 108-117 0.0/s CC83:2ev 127-127 0.0/s | r(vel,cc1)=0.28
+- Spitfire Solo Strings e - Cello - Long | n=31 vel 114 [114..114] d=1 | grid 100% mode +0ms (100%) | dur 923 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~26.8s | CC1:587ev 0-126 21.8/s CC11:455ev 0-127 17.0/s
+- Spitfire Symphonic Brass b - Horns a2 - Long | n=41 vel 104 [104..104] d=1 | grid 100% mode +0ms (100%) | dur 923 | ov None (n=0) gap 115 rep 106 (n=1) | phr 1 ~22.2s | CC1:388ev 1-120 13.8/s CC11:311ev 0-111 11.1/s
+- Spitfire Symphonic Brass g - Bass Trombones a2 - Long | n=120 vel 104 [104..104] d=2 | grid 100% mode +0ms (100%) | dur 923 | ov None (n=0) gap 115 rep 106 (n=1) | phr 1 ~44.3s | CC1:459ev 0-96 8.9/s CC11:344ev 0-108 6.7/s | r(vel,cc1)=-0.03
+- Spitfire Symphonic Brass m - Tuba Solo - Long | n=33 vel 104 [104..104] d=1 | grid 100% mode +0ms (100%) | dur 923 | ov None (n=0) gap 115 rep None (n=0) | phr 1 ~44.3s | CC1:465ev 0-125 9.1/s CC11:423ev 0-103 8.3/s
+- Spitfire Symphonic Wodwinds c - Flutes a2 - Long | n=14 vel 58 [58..58] d=1 | grid 100% mode +0ms (100%) | dur 2769 | ov None (n=0) gap None rep None (n=0) | phr 4 ~5.1s | CC11:799ev 0-78 21.0/s CC1:643ev 0-98 16.7/s CC21:151ev 24-94 4.1/s
+- Spitfire Symphonic Wodwinds c - Flutes a2 - Short Staccato | n=72 vel 127 [127..127] d=9 | grid 100% mode +0ms (100%) | dur 462 | ov None (n=0) gap None rep None (n=0) | phr 36 ~0.5s | CC11:46ev 51-61 0.5/s CC7:2ev 102-127 0.0/s
+- Spitfire Symphonic Wodwinds c - Flutes a2 - Short Staccato | n=48 vel 100 [95..113] d=10 | grid 100% mode +0ms (100%) | dur 115 | ov None (n=0) gap 115 rep None (n=0) | phr 24 ~0.3s | CC11:346ev 25-123 15.5/s
+- Spitfire Symphonic Wodwinds g - Oboes a2 - Short Staccato | n=56 vel 108 [96..118] d=16 | grid 100% mode +0ms (100%) | dur 115 | ov None (n=0) gap 115 rep None (n=0) | phr 32 ~0.3s | CC11:370ev 3-124 15.3/s
+- Spitfire Symphonic Wodwinds g - Oboes a2 - Short Staccato | n=28 vel 85 [80..87] d=7 | grid 100% mode +0ms (100%) | dur 231 | ov None (n=0) gap None rep None (n=0) | phr 28 ~0.2s | CC11:233ev 0-47 5.9/s
+- Spitfire Symphonic Wodwinds j - Clarinets a2 - Short Staccato | n=48 vel 111 [104..117] d=17 | grid 100% mode +0ms (100%) | dur 115 | ov None (n=0) gap None rep None (n=0) | phr 48 ~0.1s | 
+- Spitfire Symphonic Wodwinds j - Clarinets a2 - Short Staccato | n=42 vel 87 [86..90] d=6 | grid 100% mode +0ms (100%) | dur 231 | ov None (n=0) gap None rep None (n=0) | phr 28 ~0.2s | CC11:189ev 0-47 4.8/s
+- Spitfire Eric Whitacare Choir Soprano: Long Aah | n=25 vel 101 [58..101] d=2 | grid 100% mode +0ms (100%) | dur 2769 | ov None (n=0) gap 115 rep None (n=0) | phr 5 ~5.3s | CC11:721ev 0-127 5.2/s CC1:481ev 0-127 3.4/s CC16:41ev 84-127 0.9/s CC7:2ev 87-92 0.0/s | r(vel,cc1)=0.39
+- Spitfire Eric Whitacare Choir Alto: Long Aah | n=10 vel 101 [58..101] d=2 | grid 100% mode +0ms (100%) | dur 5365 | ov None (n=0) gap 115 rep 115 (n=4) | phr 5 ~5.3s | CC11:578ev 0-127 4.2/s CC1:529ev 2-127 3.8/s CC16:41ev 84-127 0.9/s CC7:2ev 92-106 0.0/s | r(vel,cc1)=0.64
+- Spitfire Hans Zimmer Piano - Full and Bright | n=96 vel 72 [70..79] d=17 | grid 100% mode +0ms (100%) | dur 231 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~22.2s | CC11:351ev 3-124 10.7/s
+- Spitfire Olafur Arnalds Composer Toolkit Felt Grand Piano - Mixed | n=52 vel 91 [78..101] d=32 | grid 100% mode +0ms (100%) | dur 462 | ov 3 (n=2) gap -0.0 rep None (n=0) | phr 4 ~5.3s | CC11:26ev 37-95 48.8/s
+- Spitfire Olafur Arnalds Composer Toolkit Felt Grand Piano - Mixed | n=53 vel 94 [64..94] d=3 | grid 100% mode +0ms (100%) | dur 462 | ov None (n=0) gap -0.0 rep 58 (n=2) | phr 5 ~5.3s | CC7:2ev 90-98 0.0/s CC11:2ev 77-113 0.0/s
+- Spitfire Hans Zimmer Piano - Full and Bright | n=251 vel 16 [14..18] d=17 | grid 100% mode +0ms (100%) | dur 231 | ov None (n=0) gap -0.0 rep None (n=0) | phr 2 ~29.0s | CC11:109ev 6-127 1.8/s CC64:32ev 0-127 0.6/s
+- Spitfire Olafur Arnalds Composer Toolkit Felt Grand Piano - Mixed | n=97 vel 79 [72..84] d=31 | grid 100% mode +0ms (100%) | dur 231 | ov None (n=0) gap None rep None (n=0) | phr 67 ~0.2s | 
+- Spitfire Harp Normale | n=228 vel 49 [44..51] d=19 | grid 100% mode +0ms (100%) | dur 231 | ov None (n=0) gap -0.0 rep None (n=0) | phr 2 ~26.3s | CC11:109ev 0-107 1.9/s CC64:32ev 0-127 0.6/s
+- Spitfire Joby Burgess Percussion Tuned - Celeste | n=227 vel 50 [46..51] d=10 | grid 100% mode +0ms (100%) | dur 231 | ov None (n=0) gap -0.0 rep None (n=0) | phr 2 ~26.2s | CC11:36ev 31-42 3.0/s
+- Spitfire Joby Burgess Percussion Tuned - Celeste | n=52 vel 94 [90..106] d=23 | grid 100% mode +0ms (100%) | dur 462 | ov None (n=0) gap -0.0 rep 58 (n=2) | phr 5 ~5.3s | CC7:2ev 91-107 0.0/s CC11:2ev 70-108 0.0/s
+- Spitfire Joby Burgess Percussion Tuned - Glockenspiel | n=26 vel 69 [66..70] d=7 | grid 100% mode +0ms (100%) | dur 462 | ov None (n=0) gap -0.0 rep 58 (n=1) | phr 1 ~24.9s | 
+- Spitfire Joby Burgess Percussion Tuned - Crotales | n=75 vel 95 [48..115] d=11 | grid 100% mode +0ms (100%) | dur 115 | ov None (n=0) gap -0.0 rep 58 (n=1) | phr 68 ~0.1s | CC11:174ev 10-86 3.4/s CC7:2ev 80-112 0.1/s
+- Spitfire Joby Burgess Percussion Tuned - Timpani Normal | n=40 vel 114 [94..125] d=18 | grid 100% mode +0ms (100%) | dur 923 | ov 231 (n=3) gap 115 rep None (n=0) | phr 12 ~1.5s | CC11:87ev 0-127 1.6/s
+- Spitfire Andy Findons Kitbag 2 Chinese Membrane Flute in F Long | n=33 vel 114 [111..117] d=16 | grid 100% mode +0ms (100%) | dur 808 | ov 2 (n=1) gap -0.0 rep 87 (n=2) | phr 1 ~27.7s | CC11:316ev 4-103 10.5/s CC1:156ev 34-127 5.1/s CC21:110ev 104-124 3.6/s | r(vel,cc1)=-0.15
+- Spitifire Andy Findons Kitbag 2 Bansuri in G Long | n=33 vel 27 [27..28] d=2 | grid 100% mode +0ms (100%) | dur 804 | ov None (n=0) gap -0.0 rep 58 (n=2) | phr 1 ~27.2s | CC11:475ev 26-124 15.8/s CC1:161ev 0-127 5.2/s CC21:99ev 104-127 3.4/s | r(vel,cc1)=-0.35
+- Spitfire Andy Findons Kitbag 2 Panpipe Low Long | n=59 vel 86 [84..92] d=17 | grid 100% mode +0ms (100%) | dur 462 | ov None (n=0) gap -0.0 rep 58 (n=3) | phr 5 ~5.3s | CC11:1343ev 0-125 21.5/s CC1:444ev 0-127 6.9/s CC21:140ev 78-110 2.2/s | r(vel,cc1)=-0.13
+- Spitfire Andy Findon Kitbag Chinese Bamboo Flute Long | n=59 vel 85 [80..90] d=19 | grid 100% mode +0ms (100%) | dur 462 | ov None (n=0) gap -0.0 rep 58 (n=3) | phr 5 ~5.3s | CC11:1393ev 0-125 22.2/s CC1:586ev 0-127 9.2/s CC21:135ev 94-116 2.2/s | r(vel,cc1)=0.33
+- Spitfire Cimbalom - Legacy | n=79 vel 65 [65..65] d=2 | grid 100% mode +0ms (100%) | dur 462 | ov None (n=0) gap None rep None (n=0) | phr 37 ~0.5s | CC11:10ev 94-98 0.1/s CC7:2ev 82-98 0.0/s
+- Spitfire Marimba Swarm Hit - Hard Stick | n=44 vel 60 [60..60] d=2 | grid 100% mode +0ms (100%) | dur 462 | ov None (n=0) gap None rep None (n=0) | phr 37 ~0.5s | CC7:2ev 110-127 0.0/s CC11:2ev 88-125 0.0/s
+- Spitfire Mandolin Swarm Small ensemble - Short Pluck | n=48 vel 58 [46..70] d=37 | grid 100% mode +0ms (100%) | dur 231 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~11.1s | 
+== file summary
+CC1: phrases>=1.5s n=50, moving(>=6) 100%
+   arc (value minus phrase max): 0% -35 [-56..-17] n=50; 10% -19 [-31..-9] n=50; 25% -14 [-26..-7] n=50; 50% -10 [-20..0] n=50; 75% -18 [-32..-11] n=50; 90% -28 [-52..-13] n=50; 100% -32 [-69..-19] n=50
+   arc range 60 [34..93] n=50; peak position 0.44 [0.35..0.68] n=50
+   onset value 61 [37..82] n=50; pre-roll change in 300ms before onset 2 [0..11] n=50
+   ramp first 500ms 9 [0..16] n=50; end taper last 1000ms -10 [-20..-2] n=50
+   long notes >=1.2s (n=270) change vs onset at 25/50/75/100%: 3 [0..7] n=270, 3 [-4..8] n=270, 2 [-7..9] n=270, -3 [-11..5] n=270
+      share rising to mid >=4: 49%, falling at end <=-4 vs mid: 57%, flat (all |d|<3): 6%
+CC11: phrases>=1.5s n=74, moving(>=6) 80%
+   arc (value minus phrase max): 0% -14 [-31..0] n=74; 10% -5 [-20..0] n=74; 25% -6 [-11..0] n=74; 50% -6 [-16..0] n=74; 75% -11 [-23..-4] n=74; 90% -17 [-39..-4] n=74; 100% -22 [-55..0] n=74
+   arc range 36 [8..58] n=74; peak position 0.17 [0.00..0.42] n=74
+   onset value 69 [48..91] n=304; pre-roll change in 300ms before onset 0 [0..2] n=304
+   ramp first 500ms 3 [0..11] n=74; end taper last 1000ms -2 [-17..0] n=74
+   long notes >=1.2s (n=282) change vs onset at 25/50/75/100%: 3 [-1..6] n=282, 2 [-4..6] n=282, 1 [-7..5] n=282, -2 [-8..2] n=282
+      share rising to mid >=4: 38%, falling at end <=-4 vs mid: 56%, flat (all |d|<3): 11%
+
+######## bad-boys-for-life-main-theme.mid: PPQ 480, 2 tempi 100..120 bpm, 6 tempo events
+- Orchestral Tools Metropolis Ark 1 - 02. Choir Women Sustains | n=77 vel 112 [112..121] d=2 | grid 100% mode +0ms (100%) | dur 1800 | ov None (n=0) gap -0.0 rep None (n=0) | phr 2 ~28.8s | CC1:431ev 78-119 5.6/s CC11:75ev 106-127 1.0/s | r(vel,cc1)=0.41
+- Orchestral Tools Metropolis Ark 1 - 02. Choir Men Sustains | n=37 vel 121 [112..121] d=2 | grid 100% mode +0ms (100%) | dur 1200 | ov None (n=0) gap -0.0 rep None (n=0) | phr 3 ~9.6s | CC1:431ev 78-119 5.6/s CC11:75ev 113-127 1.0/s | r(vel,cc1)=0.05
+- SF Albion I - String Ensemble - Long | n=134 vel 121 [112..121] d=3 | grid 100% mode +0ms (100%) | dur 1200 | ov None (n=0) gap -0.0 rep None (n=0) | phr 3 ~21.6s | CC1:557ev 46-119 6.6/s CC11:152ev 67-121 1.8/s CC7:2ev 90-90 0.4/s | r(vel,cc1)=-0.30
+- SF Albion I - String Ensemble - Long | n=163 vel 127 [127..127] d=4 | grid 99% mode +0ms (99%) | dur 150 | ov 219 (n=2) gap -0.0 rep 0.0 (n=1) | phr 15 ~0.1s | CC1:597ev 0-126 3.9/s CC11:399ev 0-127 2.6/s CC7:2ev 90-90 0.0/s | r(vel,cc1)=-0.11
+- SF Symphonic Strings - a - Violins 1 - Short Spiccato | n=91 vel 127 [127..127] d=1 | grid 100% mode +0ms (100%) | dur 129 | ov 51 (n=1) gap 21 rep 42 (n=1) | phr 15 ~0.1s | CC11:57ev 65-94 5.1/s
+- SF Symphonic Strings - f - Ensembles - Short Spiccato | n=332 vel 127 [115..127] d=3 | grid 100% mode +0ms (100%) | dur 126 | ov 38 (n=9) gap 72 rep 72 (n=77) | phr 57 ~0.2s | CC11:223ev 48-95 2.4/s CC7:4ev 90-90 0.0/s CC1:2ev 0-0 0.0/s
+- SPF Albion String Ensemlbe Stacc | n=120 vel 101 [101..101] d=4 | grid 100% mode +0ms (100%) | dur 138 | ov 12 (n=8) gap 30 rep None (n=0) | phr 8 ~1.3s | 
+- SF Symphonics Brass - e - Tenor Trombones a2 | n=12 vel 127 [127..127] d=1 | grid 100% mode +0ms (100%) | dur 486 | ov None (n=0) gap 114 rep None (n=0) | phr 1 ~9.5s | CC11:134ev 76-120 13.3/s CC1:94ev 58-127 9.4/s
+- SF Symphonic Brass - k - Trumpets a2 | n=46 vel 112 [112..121] d=2 | grid 100% mode +0ms (100%) | dur 1172 | ov None (n=0) gap 28 rep 14 (n=4) | phr 2 ~19.2s | CC1:784ev 54-127 11.3/s CC11:420ev 63-127 6.0/s CC7:2ev 90-90 0.1/s | r(vel,cc1)=-0.19
+- SF BML Phanlanx Trumpets a6 - Long | n=18 vel 100 [97..101] d=5 | grid 100% mode +0ms (100%) | dur 525 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~9.0s | CC1:80ev 72-127 8.4/s CC11:74ev 66-91 7.8/s | r(vel,cc1)=0.21
+- SF BML - Horns a2 - Long | n=56 vel 112 [112..121] d=2 | grid 100% mode +0ms (100%) | dur 1178 | ov None (n=0) gap 22 rep 22 (n=9) | phr 2 ~28.8s | CC1:852ev 0-127 10.9/s CC11:493ev 0-127 6.3/s CC7:4ev 90-90 0.1/s | r(vel,cc1)=-0.75
+- SF BML - Horns a2 - Long | n=71 vel 112 [100..112] d=13 | grid 100% mode +0ms (100%) | dur 1121 | ov 144 (n=2) gap 70 rep 70 (n=3) | phr 3 ~9.5s | CC1:395ev 0-127 4.2/s CC11:310ev 0-127 3.3/s CC7:6ev 90-113 0.1/s | r(vel,cc1)=-0.13
+- SF Symphonic Brass - g - Bass Trombones a2 | n=44 vel 121 [113..127] d=3 | grid 100% mode +0ms (100%) | dur 1200 | ov None (n=0) gap 131 rep None (n=0) | phr 10 ~1.2s | CC1:609ev 0-102 6.6/s CC11:388ev 0-99 4.2/s CC7:8ev 90-90 0.1/s | r(vel,cc1)=-0.07
+- SF Symphonic Brass - m - Tuba Solo | n=12 vel 121 [121..127] d=2 | grid 100% mode +0ms (100%) | dur 2269 | ov None (n=0) gap 131 rep 29 (n=1) | phr 2 ~11.3s | CC1:376ev 0-102 4.0/s CC11:186ev 0-88 2.0/s CC7:8ev 90-90 0.1/s | r(vel,cc1)=-0.75
+- SF Symphonic Brass - b - Horns a2 - Bells up Staccato | n=28 vel 127 [127..127] d=1 | grid 100% mode +0ms (100%) | dur 150 | ov None (n=0) gap None rep None (n=0) | phr 7 ~0.1s | CC11:90ev 101-110 1.0/s CC1:9ev 0-113 0.1/s CC7:2ev 90-90 0.0/s
+- Kontakt 5 SF Symphonic Brass k - Trumpets a2 - Short Staccato44 | n=9 vel 127 [127..127] d=1 | grid 100% mode +0ms (100%) | dur 150 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~0.8s | 
+- SF Symphonic - g - Bass Trombones a2 - Short Staccato | n=70 vel 127 [127..127] d=1 | grid 100% mode +0ms (100%) | dur 150 | ov None (n=0) gap -0.0 rep None (n=0) | phr 11 ~0.1s | CC11:74ev 37-93 0.8/s CC1:11ev 0-113 0.1/s CC7:4ev 90-95 0.0/s
+- NI Libraries - Vintage Organ Libraries - Basic Jazz 4 | n=102 vel 61 [55..62] d=18 | grid 100% mode +0ms (100%) | dur 69 | ov None (n=0) gap 88 rep 100 (n=10) | phr 21 ~0.2s | CC7:52ev 58-99 4.3/s
+- NI Libraries - Vintage Organ Libraries - Basic Jazz 4 | n=106 vel 61 [55..62] d=18 | grid 100% mode +0ms (100%) | dur 70 | ov 56 (n=2) gap 88 rep 100 (n=9) | phr 17 ~0.4s | CC7:17ev 112-121 4.6/s
+- SF Marimba Swarm - Hit Hard Stick | n=164 vel 95 [93..98] d=11 | grid 99% mode +0ms (99%) | dur 120 | ov 118 (n=1) gap 30 rep 231 (n=2) | phr 39 ~0.1s | CC11:73ev 67-78 0.8/s CC1:50ev 40-69 0.5/s CC7:2ev 106-119 0.0/s | r(vel,cc1)=0.08
+- DNA - Pluck - Uplifting Synth Pluck | n=121 vel 95 [88..104] d=40 | grid 100% mode +0ms (100%) | dur 126 | ov 38 (n=21) gap 24 rep 150 (n=24) | phr 66 ~0.1s | 
+- SF Joey Santiago Plucks | n=100 vel 96 [84..101] d=38 | grid 99% mode +0ms (99%) | dur 91 | ov 89 (n=1) gap 55 rep 48 (n=16) | phr 30 ~0.5s | CC11:446ev 0-81 4.8/s CC1:11ev 0-56 0.1/s
+- SF Joey Santiagp - Clean Santiago | n=214 vel 63 [53..63] d=5 | grid 100% mode +0ms (100%) | dur 120 | ov None (n=0) gap 42 rep 42 (n=12) | phr 22 ~1.3s | CC11:339ev 3-74 4.5/s CC1:260ev 0-62 3.5/s | r(vel,cc1)=-0.74
+- SF Joey Santiagp - Clean Santiago | n=674 vel 59 [51..66] d=29 | grid 100% mode +0ms (100%) | dur 101 | ov None (n=0) gap 76 rep 158 (n=162) | phr 220 ~0.1s | CC11:11ev 59-79 0.1/s CC1:10ev 0-3 0.1/s
+- SF Joey Santiago - Underwater Chugs | n=199 vel 110 [110..110] d=1 | grid 100% mode +0ms (100%) | dur 66 | ov None (n=0) gap 90 rep 96 (n=175) | phr 76 ~0.2s | 
+- SF Joey Santiago - Underwater Chugs | n=225 vel 107 [106..107] d=2 | grid 100% mode +0ms (100%) | dur 59 | ov None (n=0) gap 88 rep 88 (n=180) | phr 45 ~0.7s | 
+- SF eDNA - Bass - Fender Key Bass MW | n=367 vel 78 [78..78] d=2 | grid 100% mode +0ms (100%) | dur 138 | ov 21 (n=47) gap 30 rep 30 (n=104) | phr 53 ~1.2s | CC7:13ev 97-127 0.3/s
+- Joey Santiago - Muted Plucks | n=374 vel 98 [98..100] d=4 | grid 100% mode +0ms (100%) | dur 138 | ov 12 (n=48) gap 30 rep 30 (n=104) | phr 50 ~1.2s | 
+- Spitfire Percussion - Cowbells | n=25 vel 29 [29..29] d=1 | grid 96% mode +0ms (96%) | dur 81 | ov None (n=0) gap 79 rep 102 (n=5) | phr 16 ~0.2s | 
+- SF Bernard Hermann Coposer Toolkit - w - Percussion - Cymbals | n=8 vel 119 [118..120] d=2 | grid 100% mode +0ms (100%) | dur 525 | ov None (n=0) gap None rep None (n=0) | phr 4 ~0.5s | CC11:2ev 112-112 0.0/s CC7:2ev 107-107 0.0/s CC1:2ev 111-111 0.0/s
+- SF Joby Burgess Percussion - Triangles | n=226 vel 127 [127..127] d=1 | grid 97% mode +0ms (97%) | dur 279 | ov None (n=0) gap -0.0 rep 269 (n=52) | phr 216 ~0.3s | 
+- SF Hans Zimmer Percussion - Fox - Mid Tom | n=108 vel 121 [121..122] d=3 | grid 100% mode +0ms (100%) | dur 76 | ov None (n=0) gap None rep None (n=0) | phr 108 ~0.1s | CC7:827ev 45-74 6.4/s
+- SF HZ Percussion London - Low Hits | n=12 vel 127 [127..127] d=1 | grid 100% mode +0ms (100%) | dur 2400 | ov None (n=0) gap None rep None (n=0) | phr 4 ~2.4s | 
+- SF HZ {Percussion - Taiko Hits - Low Taiko | n=8 vel 127 [127..127] d=1 | grid 100% mode +0ms (100%) | dur 2400 | ov None (n=0) gap None rep None (n=0) | phr 4 ~2.4s | 
+- StylusRMX 120 Bosso Club | n=864 vel 127 [127..127] d=1 | grid 28% mode -1ms (61%) | dur 150 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~129.6s | 
+- Tombak | n=15 vel 118 [118..118] d=1 | grid 100% mode +0ms (100%) | dur 9594 | ov None (n=0) gap 6 rep 6 (n=13) | phr 2 ~60.0s | 
+- Kontakt Facotry Library - World Percussion Djembes | n=270 vel 118 [118..118] d=4 | grid 100% mode +0ms (100%) | dur 506 | ov None (n=0) gap 75 rep 75 (n=80) | phr 109 ~0.6s | 
+- Kontakt Facotry Library - World Percussion Congas | n=243 vel 108 [107..116] d=7 | grid 11% mode +6ms (22%) | dur 54 | ov None (n=0) gap 94 rep None (n=0) | phr 135 ~0.2s | 
+- Kontakt Facotry Library - World Percussion Riq | n=270 vel 98 [95..102] d=4 | grid 100% mode +0ms (100%) | dur 164 | ov None (n=0) gap 136 rep 156 (n=108) | phr 216 ~0.2s | 
+- SF The Grange - a - Roger kit - (Performance HH) | n=319 vel 99 [99..99] d=4 | grid 100% mode +0ms (100%) | dur 169 | ov 21 (n=14) gap 96 rep 219 (n=81) | phr 209 ~0.3s | 
+- SF eDNA Earth - Kick 3 | n=204 vel 83 [83..84] d=3 | grid 100% mode +0ms (100%) | dur 99 | ov None (n=0) gap None rep 241 (n=81) | phr 204 ~0.1s | 
+- SF Percussion - Snare 2 | n=71 vel 107 [103..109] d=7 | grid 87% mode +0ms (87%) | dur 106 | ov None (n=0) gap 128 rep 128 (n=11) | phr 57 ~0.1s | 
+- SF Percussion - Congas | n=64 vel 122 [109..127] d=25 | grid 33% mode +0ms (33%) | dur 103 | ov 136 (n=21) gap 26 rep 161 (n=6) | phr 18 ~0.1s | 
+- SF Percussion - Rototoms | n=39 vel 125 [122..127] d=11 | grid 41% mode +0ms (41%) | dur 71 | ov 64 (n=8) gap 26 rep 161 (n=6) | phr 15 ~0.1s | 
+- SF Percussion 0 Toms (Ensemble) | n=20 vel 91 [86..109] d=11 | grid 25% mode +0ms (25%) | dur 172 | ov 159 (n=15) gap None rep None (n=0) | phr 5 ~0.4s | 
+- SF The Grange - a - Roger kit - (Strict HH) | n=1512 vel 90 [83..101] d=17 | grid 100% mode +0ms (100%) | dur 81 | ov 18 (n=108) gap 68 rep 72 (n=324) | phr 1 ~129.5s | 
+- SF The Grange - a - Roger kit - (Performance HH) | n=1377 vel 94 [88..118] d=19 | grid 100% mode +0ms (100%) | dur 59 | ov 111 (n=162) gap 88 rep 96 (n=351) | phr 1 ~129.6s | 
+- SF The Grange a - Roger kit - (Performance HH) | n=597 vel 108 [108..108] d=1 | grid 100% mode +0ms (100%) | dur 300 | ov 150 (n=308) gap -0.0 rep 0.0 (n=45) | phr 6 ~9.0s | CC1:30ev 127-127 0.2/s CC7:30ev 119-122 0.2/s CC11:30ev 127-127 0.2/s
+== file summary
+CC1: phrases>=1.5s n=32, moving(>=6) 81%
+   arc (value minus phrase max): 0% -20 [-48..-1] n=32; 10% -18 [-42..-3] n=32; 25% -16 [-30..-4] n=32; 50% -7 [-13..-1] n=32; 75% -4 [-15..0] n=32; 90% -4 [-15..0] n=32; 100% -5 [-28..0] n=32
+   arc range 37 [20..73] n=32; peak position 0.57 [0.07..0.82] n=32
+   onset value 40 [0..46] n=105; pre-roll change in 300ms before onset 0 [0..0] n=105
+   ramp first 500ms 4 [0..14] n=32; end taper last 1000ms 0 [-22..4] n=32
+   long notes >=1.2s (n=371) change vs onset at 25/50/75/100%: 2 [0..6] n=371, 2 [0..7] n=371, 2 [-2..7] n=371, 1 [-2..5] n=371
+      share rising to mid >=4: 40%, falling at end <=-4 vs mid: 26%, flat (all |d|<3): 18%
+CC11: phrases>=1.5s n=44, moving(>=6) 75%
+   arc (value minus phrase max): 0% -8 [-22..-2] n=44; 10% -4 [-10..0] n=44; 25% -6 [-15..-1] n=44; 50% -8 [-21..-1] n=44; 75% -4 [-13..0] n=44; 90% -6 [-8..0] n=44; 100% -6 [-19..0] n=44
+   arc range 24 [7..57] n=44; peak position 0.23 [0.03..0.82] n=44
+   onset value 77 [60..89] n=218; pre-roll change in 300ms before onset 0 [0..1] n=218
+   ramp first 500ms 2 [0..8] n=44; end taper last 1000ms -1 [-9..0] n=44
+   long notes >=1.2s (n=385) change vs onset at 25/50/75/100%: 0 [0..3] n=385, 0 [0..6] n=385, 0 [0..6] n=385, 0 [-2..4] n=385
+      share rising to mid >=4: 28%, falling at end <=-4 vs mid: 24%, flat (all |d|<3): 44%
+
+######## 6-underground-i-am-the-danger.mid: PPQ 480, 2 tempi 105..120 bpm, 2 tempo events
+- SF SYM STR VLN 1 Pleg | n=9 vel 121 [121..121] d=1 | grid 100% mode +0ms (100%) | dur 571 | ov None (n=0) gap -0.0 rep None (n=0) | phr 3 ~4.0s | CC1:260ev 0-119 15.4/s CC21:5ev 58-68 21.6/s
+- SF SYM STR VLN 1 Long | n=96 vel 110 [110..123] d=2 | grid 100% mode +0ms (100%) | dur 1192 | ov 49 (n=44) gap None rep None (n=0) | phr 4 ~17.2s | CC11:742ev 26-123 10.2/s CC1:7ev 0-127 28.8/s CC21:6ev 55-74 16.3/s CC7:3ev 107-127 0.1/s
+- SF SYM STR CELLOa Pleg | n=21 vel 121 [121..121] d=1 | grid 100% mode +0ms (100%) | dur 571 | ov None (n=0) gap -0.0 rep None (n=0) | phr 7 ~4.0s | CC1:531ev 0-127 15.5/s CC11:531ev 0-127 15.5/s CC21:9ev 65-74 21.6/s CC7:6ev 117-127 20.7/s
+- SF SYM STR CELLOb Pleg | n=49 vel 92 [92..92] d=1 | grid 100% mode +0ms (100%) | dur 1188 | ov 45 (n=46) gap None rep None (n=0) | phr 3 ~17.2s | CC1:960ev 56-99 13.1/s CC11:466ev 90-117 6.4/s CC21:6ev 63-73 26.0/s
+- SF SYM STR CB Pleg | n=49 vel 89 [89..89] d=1 | grid 100% mode +0ms (100%) | dur 1188 | ov 45 (n=46) gap None rep None (n=0) | phr 3 ~17.2s | CC1:960ev 54-104 13.1/s CC11:466ev 90-117 6.4/s CC21:4ev 63-73 21.7/s
+- SF SYM STR ENS CS Long | n=72 vel 67 [67..67] d=1 | grid 100% mode +0ms (100%) | dur 4571 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~94.9s | CC11:358ev 0-127 3.8/s CC1:358ev 0-95 3.8/s CC21:6ev 64-72 21.6/s
+- SF SYM STR ENS Long | n=70 vel 104 [101..104] d=20 | grid 100% mode +0ms (100%) | dur 4571 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~73.1s | CC1:79ev 26-87 3.4/s CC11:63ev 50-127 3.8/s | r(vel,cc1)=0.57
+- SF SYM STR VLN 1 SPICC | n=512 vel 78 [72..95] d=3 | grid 100% mode +0ms (100%) | dur 76 | ov None (n=0) gap 67 rep None (n=0) | phr 1 ~36.5s | CC1:2ev 123-127 21.5/s CC11:2ev 125-127 21.5/s CC7:2ev 124-127 21.8/s
+- SF SYM STR ENS SPICC | n=656 vel 108 [100..122] d=55 | grid 100% mode +0ms (100%) | dur 133 | ov None (n=0) gap None rep None (n=0) | phr 328 ~0.1s | CC11:200ev 0-114 3.4/s CC1:200ev 0-113 3.4/s | r(vel,cc1)=0.81
+- SF MURAL V1 - Sh SPICC | n=512 vel 107 [101..127] d=3 | grid 100% mode +0ms (100%) | dur 76 | ov None (n=0) gap 67 rep None (n=0) | phr 1 ~36.5s | CC11:83ev 0-102 4.5/s CC5:3ev 33-35 1.4/s
+- SF SYM BRS TBNa6 Long | n=35 vel 105 [105..105] d=1 | grid 100% mode +0ms (100%) | dur 3329 | ov None (n=0) gap 80 rep 244 (n=1) | phr 3 ~9.1s | CC1:570ev 0-93 14.7/s CC11:474ev 20-118 12.3/s
+- SF SYM BRS FHNa6 Leg | n=24 vel 122 [119..124] d=9 | grid 100% mode +0ms (100%) | dur 1155 | ov 36 (n=8) gap 48 rep None (n=0) | phr 4 ~8.5s | CC11:231ev 62-127 6.2/s CC1:231ev 62-127 6.2/s | r(vel,cc1)=-0.18
+- SF HZ Piano | n=184 vel 57 [54..71] d=35 | grid 100% mode +0ms (100%) | dur 4513 | ov None (n=0) gap 58 rep 70 (n=3) | phr 8 ~6.7s | CC11:5ev 93-93 0.0/s CC1:5ev 0-0 0.0/s
+- Frozen Piano | n=103 vel 68 [66..77] d=22 | grid 100% mode +0ms (100%) | dur 4513 | ov None (n=0) gap 58 rep 58 (n=4) | phr 2 ~93.7s | CC7:16ev 96-103 0.1/s CC11:5ev 93-93 0.0/s CC1:5ev 0-0 0.0/s
+- SF UC ORGAN - Choir Manuel | n=384 vel 75 [70..81] d=17 | grid 100% mode +0ms (100%) | dur 274 | ov 31 (n=132) gap 20 rep None (n=0) | phr 1 ~109.7s | CC11:54ev 18-127 19.2/s
+- eDNA Classic Old School Bass 1\ | n=11 vel 123 [118..123] d=5 | grid 100% mode +0ms (100%) | dur 3429 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~36.6s | CC11:15ev 64-114 22.1/s CC1:7ev 0-8 20.6/s
+- eDNA Nice Simple Synth Basses MW | n=20 vel 80 [80..80] d=1 | grid 100% mode +0ms (100%) | dur 4507 | ov 27 (n=6) gap 10 rep None (n=0) | phr 1 ~73.1s | CC1:262ev 76-127 3.6/s CC11:45ev 2-85 11.4/s
+- SF JB PERC BD | n=25 vel 98 [76..114] d=20 | grid 52% mode +0ms (52%) | dur 150 | ov None (n=0) gap None rep 231 (n=3) | phr 25 ~0.1s | CC11:14ev 73-99 20.7/s CC1:4ev 0-4 27.3/s
+- SF JB PERC - TOMS ENS | n=48 vel 90 [63..111] d=22 | grid 50% mode +0ms (50%) | dur 152 | ov None (n=0) gap None rep 227 (n=1) | phr 25 ~0.2s | CC11:49ev 47-93 13.0/s
+- SF HZ PERC PRO - BD Gallery | n=25 vel 91 [63..111] d=22 | grid 52% mode +0ms (52%) | dur 155 | ov None (n=0) gap None rep 243 (n=20) | phr 25 ~0.2s | CC11:49ev 47-93 13.0/s
+- SF HZ PERC PRO Gong Drum | n=13 vel 59 [59..59] d=1 | grid 100% mode +0ms (100%) | dur 2286 | ov None (n=0) gap None rep None (n=0) | phr 13 ~2.3s | CC7:91ev 111-127 0.8/s CC1:26ev 124-127 0.2/s CC11:26ev 126-127 0.2/s
+- SF HZ PERC PRO Low Boom | n=13 vel 59 [59..59] d=1 | grid 100% mode +0ms (100%) | dur 2286 | ov None (n=0) gap None rep None (n=0) | phr 13 ~2.3s | CC7:91ev 111-127 0.8/s CC1:26ev 124-127 0.2/s CC11:26ev 126-127 0.2/s
+- SF HZ1 Timp Hits | n=19 vel 52 [36..77] d=16 | grid 32% mode +0ms (32%) | dur 167 | ov None (n=0) gap None rep 237 (n=14) | phr 19 ~0.2s | CC11:19ev 82-110 15.1/s
+- SF HZ1 Timp Hits - Hard Sticks | n=9 vel 74 [74..74] d=1 | grid 100% mode +0ms (100%) | dur 4424 | ov None (n=0) gap 80 rep None (n=0) | phr 3 ~9.1s | CC1:457ev 0-95 13.5/s CC11:2ev 91-107 41.0/s
+== file summary
+CC1: phrases>=1.5s n=29, moving(>=6) 100%
+   arc (value minus phrase max): 0% -34 [-56..-16] n=29; 10% -9 [-26..-4] n=29; 25% -6 [-22..-3] n=29; 50% -4 [-18..-1] n=29; 75% -11 [-27..-8] n=29; 90% -32 [-66..-9] n=29; 100% -54 [-95..-16] n=29
+   arc range 75 [37..95] n=29; peak position 0.30 [0.17..0.55] n=29
+   onset value 89 [47..113] n=357; pre-roll change in 300ms before onset 0 [0..1] n=357
+   ramp first 500ms 13 [7..20] n=29; end taper last 1000ms -19 [-45..-2] n=29
+   long notes >=1.2s (n=230) change vs onset at 25/50/75/100%: 0 [0..4] n=230, 0 [-4..4] n=230, 0 [-6..3] n=230, 0 [-9..1] n=230
+      share rising to mid >=4: 26%, falling at end <=-4 vs mid: 30%, flat (all |d|<3): 39%
+CC11: phrases>=1.5s n=33, moving(>=6) 88%
+   arc (value minus phrase max): 0% -25 [-54..-7] n=33; 10% -6 [-16..0] n=33; 25% -5 [-21..0] n=33; 50% 0 [-6..0] n=33; 75% -4 [-26..0] n=33; 90% -9 [-40..0] n=33; 100% -14 [-75..-7] n=33
+   arc range 48 [23..79] n=33; peak position 0.28 [0.03..0.45] n=33
+   onset value 93 [55..114] n=407; pre-roll change in 300ms before onset 0 [0..1] n=407
+   ramp first 500ms 12 [6..24] n=33; end taper last 1000ms -6 [-28..0] n=33
+   long notes >=1.2s (n=256) change vs onset at 25/50/75/100%: 0 [0..1] n=256, 0 [-1..0] n=256, 0 [-7..0] n=256, 0 [-11..0] n=256
+      share rising to mid >=4: 14%, falling at end <=-4 vs mid: 26%, flat (all |d|<3): 49%
+
+######## penguins-of-madagascar-main-theme.mid: PPQ 480, 2 tempi 120..125 bpm, 6 tempo events
+- SF SYM STR VLN 1 Long | n=92 vel 127 [111..127] d=21 | grid 65% mode +0ms (65%) | dur 206 | ov 24 (n=5) gap -0.0 rep None (n=0) | phr 15 ~1.4s | CC1:930ev 0-127 7.1/s CC11:785ev 0-127 6.0/s | r(vel,cc1)=0.31
+- SF SYM STR VLN 2 Long | n=171 vel 122 [121..127] d=11 | grid 85% mode +0ms (85%) | dur 160 | ov 9 (n=4) gap 78 rep 53 (n=3) | phr 44 ~1.0s | CC11:1088ev 0-127 8.0/s CC1:1014ev 0-127 7.4/s CC7:13ev 90-127 0.1/s | r(vel,cc1)=0.55
+- SF SYM STR VLA Pleg | n=42 vel 122 [122..127] d=2 | grid 90% mode +0ms (90%) | dur 160 | ov None (n=0) gap 80 rep None (n=0) | phr 20 ~1.0s | CC11:372ev 45-127 12.3/s CC1:319ev 31-127 13.5/s CC7:6ev 90-90 0.3/s | r(vel,cc1)=0.83
+- SF SYM STR ENS Long | n=48 vel 126 [123..126] d=11 | grid 67% mode +0ms (67%) | dur 121 | ov None (n=0) gap -0.0 rep 262 (n=6) | phr 21 ~0.1s | CC1:500ev 0-124 6.0/s CC11:418ev 9-110 5.0/s CC7:4ev 90-90 0.2/s | r(vel,cc1)=0.54
+- SF SYM STR VLN 1 SPICC | n=695 vel 119 [107..127] d=21 | grid 61% mode +0ms (61%) | dur 80 | ov 31 (n=52) gap 80 rep 125 (n=80) | phr 116 ~0.1s | CC11:310ev 38-126 1.6/s CC7:12ev 90-127 0.1/s
+- SF SYM STR CELLO SPICC | n=210 vel 120 [117..122] d=11 | grid 77% mode +0ms (77%) | dur 72 | ov None (n=0) gap 88 rep 88 (n=31) | phr 129 ~0.1s | CC7:5ev 127-127 0.2/s CC11:5ev 124-124 0.2/s
+- SF SYM STR ENS SPICC | n=716 vel 122 [117..127] d=35 | grid 83% mode +0ms (83%) | dur 72 | ov 80 (n=1) gap 88 rep 145 (n=4) | phr 177 ~0.1s | CC11:490ev 0-127 2.9/s CC7:2ev 125-127 0.0/s
+- SF SYM STR ENS SPICC (D) | n=371 vel 118 [115..125] d=24 | grid 81% mode +0ms (81%) | dur 88 | ov 1 (n=5) gap 72 rep 119 (n=3) | phr 64 ~0.1s | CC11:228ev 0-127 1.7/s CC1:7ev 0-122 58.3/s CC7:3ev 90-123 0.1/s
+- SF SYM STR ENS SPICC (D) | n=906 vel 123 [122..127] d=13 | grid 78% mode +0ms (78%) | dur 88 | ov 40 (n=13) gap 119 rep 152 (n=3) | phr 151 ~0.1s | CC11:121ev 93-127 0.5/s CC7:3ev 119-124 0.0/s
+- NI Factory Alto Sax | n=225 vel 86 [85..107] d=6 | grid 85% mode +0ms (85%) | dur 160 | ov None (n=0) gap 79 rep 97 (n=11) | phr 79 ~1.0s | CC1:11ev 0-124 0.1/s
+- NI Factory Alto Sax (D) | n=74 vel 87 [66..93] d=3 | grid 85% mode +0ms (85%) | dur 236 | ov None (n=0) gap 80 rep 58 (n=4) | phr 36 ~1.1s | CC11:894ev 0-127 10.9/s
+- NI Factory Bari Sax | n=345 vel 74 [70..82] d=21 | grid 70% mode +0ms (70%) | dur 136 | ov 87 (n=4) gap 45 rep 88 (n=39) | phr 72 ~0.5s | CC11:824ev 0-108 3.7/s CC1:4ev 0-2 29.4/s
+- NI Factory Bari Sax (D) | n=362 vel 108 [99..113] d=20 | grid 69% mode +0ms (69%) | dur 136 | ov 87 (n=4) gap 45 rep 88 (n=43) | phr 82 ~0.5s | CC11:906ev 0-127 7.4/s
+- SF SYM BRS Tromb Solo acct | n=210 vel 100 [100..100] d=2 | grid 90% mode +0ms (90%) | dur 160 | ov None (n=0) gap 80 rep 53 (n=6) | phr 50 ~1.0s | CC11:1138ev 47-127 8.7/s
+- SF SYM BRS Tromb Solo | n=12 vel 127 [127..127] d=1 | grid 83% mode +0ms (83%) | dur 260 | ov None (n=0) gap -0.0 rep None (n=0) | phr 6 ~2.5s | CC11:362ev 15-100 22.9/s CC1:4ev 0-2 29.4/s
+- SF SYM BRS TPTa2 Long | n=225 vel 121 [121..122] d=4 | grid 89% mode +0ms (89%) | dur 453 | ov None (n=0) gap 78 rep 187 (n=8) | phr 71 ~1.0s | CC11:1988ev 0-127 8.4/s CC1:1910ev 0-127 8.3/s CC7:19ev 90-121 0.1/s | r(vel,cc1)=-0.05
+- SF SYM BRS TPT Core Tech | n=326 vel 122 [121..127] d=16 | grid 82% mode +0ms (82%) | dur 160 | ov 200 (n=3) gap 78 rep 97 (n=8) | phr 108 ~1.0s | CC11:3208ev 0-127 13.6/s CC1:2540ev 0-127 13.3/s CC7:13ev 90-127 0.1/s | r(vel,cc1)=-0.10
+- SF SYM BRS TPT Core Tech (D) | n=159 vel 121 [121..121] d=2 | grid 84% mode +0ms (84%) | dur 160 | ov None (n=0) gap 78 rep 240 (n=5) | phr 74 ~1.0s | CC11:1080ev 49-127 20.1/s CC1:984ev 40-127 18.3/s CC7:8ev 90-118 0.1/s | r(vel,cc1)=-0.37
+- SF SYM BRS TPTa2 Long (D) | n=154 vel 122 [121..127] d=11 | grid 86% mode +0ms (86%) | dur 360 | ov 200 (n=3) gap 79 rep 53 (n=4) | phr 34 ~1.0s | CC11:942ev 0-127 4.6/s CC1:707ev 0-127 3.5/s CC7:9ev 90-115 0.1/s | r(vel,cc1)=-0.38
+- SF SYM BRS CIMB SH | n=12 vel 106 [105..107] d=6 | grid 92% mode +0ms (92%) | dur 118 | ov None (n=0) gap 126 rep 129 (n=6) | phr 7 ~0.4s | CC11:30ev 52-113 43.1/s
+- SF SYM BRS FHNa6 Leg | n=12 vel 127 [127..127] d=1 | grid 100% mode +0ms (100%) | dur 680 | ov None (n=0) gap 103 rep None (n=0) | phr 6 ~1.4s | CC1:141ev 17-127 11.2/s CC11:91ev 4-127 7.3/s CC7:3ev 90-90 0.4/s
+- SF SYM BRS FHNa6 Core Tech | n=421 vel 121 [100..127] d=18 | grid 84% mode +0ms (84%) | dur 160 | ov 200 (n=3) gap 53 rep 53 (n=7) | phr 106 ~1.0s | CC1:2490ev 0-127 10.5/s CC11:2486ev 0-127 10.5/s | r(vel,cc1)=-0.32
+- SF SYM BRS FHNa6 Long | n=104 vel 119 [119..122] d=3 | grid 100% mode +0ms (100%) | dur 774 | ov None (n=0) gap 91 rep 186 (n=1) | phr 22 ~1.2s | CC11:613ev 4-127 6.4/s CC1:612ev 12-127 6.4/s CC7:7ev 90-90 0.1/s | r(vel,cc1)=0.64
+- SF SYM TBN Long | n=40 vel 122 [121..127] d=3 | grid 100% mode +0ms (100%) | dur 969 | ov None (n=0) gap 93 rep 53 (n=2) | phr 13 ~1.0s | CC11:627ev 0-125 19.9/s CC1:623ev 0-125 19.7/s CC7:5ev 90-90 0.2/s | r(vel,cc1)=0.11
+- SF SYM TBN Long (D) | n=59 vel 120 [113..127] d=11 | grid 53% mode +0ms (53%) | dur 80 | ov 200 (n=3) gap 40 rep 160 (n=3) | phr 7 ~0.6s | CC11:251ev 0-127 5.3/s CC1:145ev 86-125 18.9/s | r(vel,cc1)=0.52
+- SF SYM BRS BTBNa2 Long | n=87 vel 117 [114..126] d=11 | grid 82% mode +0ms (82%) | dur 120 | ov None (n=0) gap 120 rep 262 (n=6) | phr 21 ~0.1s | CC1:583ev 0-124 3.9/s CC11:526ev 0-110 3.5/s CC7:8ev 90-90 0.1/s | r(vel,cc1)=0.81
+- SF SYM BRS BTBNa2 Long (D) | n=241 vel 114 [111..118] d=8 | grid 54% mode +0ms (54%) | dur 80 | ov None (n=0) gap -0.0 rep None (n=0) | phr 48 ~0.5s | CC11:493ev 0-116 4.3/s CC1:380ev 0-124 3.3/s CC7:6ev 90-90 0.2/s | r(vel,cc1)=-0.03
+- SF SYM BRS TUBA Long | n=33 vel 123 [114..126] d=7 | grid 76% mode +0ms (76%) | dur 299 | ov None (n=0) gap 133 rep 257 (n=10) | phr 25 ~0.2s | CC11:286ev 0-77 1.9/s CC1:197ev 0-111 10.8/s CC7:9ev 90-90 0.1/s | r(vel,cc1)=0.81
+- SF SYM BRS FHNa6 SH STACC | n=184 vel 127 [127..127] d=17 | grid 91% mode +0ms (91%) | dur 160 | ov None (n=0) gap 57 rep 146 (n=6) | phr 55 ~0.2s | CC11:405ev 0-126 2.4/s CC7:5ev 90-90 0.0/s
+- SF SYM BRS BTBNa2 SH STACC (D) | n=863 vel 122 [116..127] d=25 | grid 84% mode +0ms (84%) | dur 121 | ov 41 (n=3) gap 88 rep 145 (n=2) | phr 110 ~0.2s | CC11:525ev 0-126 3.1/s CC7:9ev 90-90 0.1/s
+- SF SYM BRS BTBNa2 SH STACC (D) | n=198 vel 109 [109..109] d=8 | grid 82% mode +0ms (82%) | dur 129 | ov 9 (n=17) gap 111 rep 160 (n=3) | phr 23 ~0.1s | CC11:387ev 21-126 2.9/s CC7:8ev 90-90 0.1/s
+- SF SYM BRS TBNa2 SH STACC (D) | n=50 vel 127 [122..127] d=3 | grid 76% mode +0ms (76%) | dur 120 | ov None (n=0) gap 92 rep None (n=0) | phr 17 ~0.2s | CC11:627ev 0-125 19.9/s CC1:623ev 0-125 19.7/s CC7:5ev 90-90 0.2/s | r(vel,cc1)=-0.13
+- SF SYM BRS TPTa2 SH STACC | n=87 vel 127 [127..127] d=14 | grid 82% mode +0ms (82%) | dur 88 | ov None (n=0) gap 32 rep 152 (n=3) | phr 37 ~0.1s | CC1:156ev 0-127 1.1/s CC11:106ev 96-127 0.8/s CC7:2ev 90-90 0.0/s | r(vel,cc1)=0.91
+- SF SYM BRS TPT solo stacc | n=145 vel 127 [121..127] d=16 | grid 81% mode +0ms (81%) | dur 135 | ov 200 (n=3) gap 53 rep 53 (n=3) | phr 33 ~0.4s | CC11:405ev 56-127 7.6/s
+- SF SYM BRS TUBA SH | n=194 vel 120 [116..122] d=12 | grid 98% mode +0ms (98%) | dur 195 | ov None (n=0) gap 45 rep 30 (n=4) | phr 102 ~0.2s | CC11:593ev 0-95 3.7/s CC7:10ev 90-90 0.1/s
+- SF SYM BRS TPTa2 SH STACC (D) | n=150 vel 127 [127..127] d=5 | grid 47% mode +40ms (48%) | dur 80 | ov None (n=0) gap 4 rep None (n=0) | phr 38 ~0.3s | CC11:488ev 0-127 2.8/s CC1:258ev 0-127 4.3/s CC7:3ev 90-90 0.0/s | r(vel,cc1)=0.45
+- SF SYM BRS TPTa2 SH STACC (D) | n=193 vel 127 [127..127] d=7 | grid 62% mode +0ms (62%) | dur 80 | ov None (n=0) gap -0.0 rep 53 (n=3) | phr 42 ~0.5s | CC11:632ev 0-127 3.8/s CC1:3ev 0-42 76.9/s
+- SF FLUTESa2 SH STACC | n=350 vel 120 [92..127] d=32 | grid 63% mode +0ms (63%) | dur 80 | ov 31 (n=52) gap 88 rep 157 (n=2) | phr 91 ~0.1s | CC11:260ev 8-126 5.9/s CC7:5ev 90-90 0.2/s
+- SF SYM WW Oboe SH STACC | n=144 vel 127 [127..127] d=16 | grid 86% mode +0ms (86%) | dur 91 | ov None (n=0) gap 88 rep 147 (n=4) | phr 95 ~0.1s | CC11:260ev 0-126 5.9/s
+- SF SYM WW CL SH STACC | n=116 vel 127 [127..127] d=2 | grid 90% mode +0ms (90%) | dur 93 | ov None (n=0) gap 88 rep 147 (n=4) | phr 84 ~0.1s | CC11:204ev 0-70 5.6/s
+- SF JB Perc Marimb | n=28 vel 84 [66..127] d=13 | grid 68% mode +0ms (68%) | dur 80 | ov None (n=0) gap -0.0 rep None (n=0) | phr 12 ~0.1s | CC11:60ev 69-127 8.9/s
+- SF JB Perc Celeste | n=44 vel 127 [127..127] d=1 | grid 82% mode +0ms (82%) | dur 259 | ov None (n=0) gap 40 rep None (n=0) | phr 13 ~1.0s | CC11:79ev 21-110 9.4/s
+- SF JB Perc Glock | n=36 vel 127 [125..127] d=7 | grid 89% mode +0ms (89%) | dur 505 | ov 25 (n=5) gap 60 rep 160 (n=5) | phr 19 ~1.2s | CC11:135ev 0-126 1.2/s
+- SF JB Perc Tub Bells | n=29 vel 125 [124..127] d=9 | grid 100% mode +0ms (100%) | dur 704 | ov 25 (n=5) gap 109 rep 248 (n=1) | phr 15 ~1.4s | CC11:200ev 31-125 0.9/s CC1:9ev 0-119 0.5/s
+- SF HZ Piano | n=411 vel 121 [117..123] d=19 | grid 81% mode +0ms (81%) | dur 95 | ov None (n=0) gap 45 rep 257 (n=8) | phr 73 ~0.1s | CC11:20ev 84-108 40.3/s CC7:2ev 90-90 2.3/s
+- SF HZ Piano (D) | n=1407 vel 116 [115..127] d=24 | grid 75% mode +0ms (75%) | dur 121 | ov 9 (n=26) gap 119 rep None (n=0) | phr 104 ~0.5s | CC7:5ev 90-90 0.0/s
+- SF Amb Guitars Trussart Soft | n=903 vel 117 [115..127] d=25 | grid 76% mode +0ms (76%) | dur 121 | ov 9 (n=30) gap 104 rep 119 (n=134) | phr 118 ~0.5s | CC11:504ev 27-75 2.4/s
+- Scarbee Pre-Bass | n=903 vel 117 [115..127] d=25 | grid 76% mode +0ms (76%) | dur 147 | ov 26 (n=52) gap 80 rep 93 (n=136) | phr 97 ~0.5s | CC11:25ev 53-57 0.1/s CC7:17ev 90-90 0.1/s CC83:17ev 127-127 0.1/s CC82:17ev 127-127 0.1/s
+- SF JB Perc Bongos | n=389 vel 114 [107..121] d=24 | grid 45% mode +40ms (50%) | dur 52 | ov None (n=0) gap 28 rep 188 (n=62) | phr 186 ~0.1s | CC11:11ev 81-127 0.1/s
+- SF Grange Chad HH | n=1281 vel 112 [107..116] d=35 | grid 83% mode +0ms (83%) | dur 73 | ov 43 (n=205) gap 87 rep 95 (n=185) | phr 192 ~0.3s | 
+- SF Grange ROGER TOMS | n=1850 vel 88 [76..114] d=53 | grid 50% mode +0ms (50%) | dur 100 | ov 31 (n=850) gap 75 rep 75 (n=74) | phr 5 ~57.7s | 
+- SF JB Perc Tamb | n=185 vel 123 [123..124] d=7 | grid 99% mode +0ms (99%) | dur 298 | ov None (n=0) gap 130 rep 179 (n=174) | phr 164 ~0.3s | CC11:227ev 0-127 1.6/s
+- StylusRMX Triangle-78-1 | n=715 vel 123 [119..125] d=11 | grid 67% mode +0ms (67%) | dur 105 | ov 16 (n=356) gap 53 rep None (n=0) | phr 8 ~11.5s | CC11:63ev 75-127 0.3/s CC7:55ev 96-127 0.3/s
+- SF HZ1 Timp Hits | n=130 vel 98 [83..106] d=23 | grid 70% mode +0ms (70%) | dur 306 | ov 77 (n=17) gap 37 rep 181 (n=3) | phr 22 ~5.8s | CC11:376ev 64-127 1.6/s
+- SF JB PERC - Cymbal Med | n=21 vel 117 [115..117] d=7 | grid 95% mode +0ms (95%) | dur 1920 | ov None (n=0) gap -0.0 rep None (n=0) | phr 20 ~1.9s | CC1:2081ev 0-127 10.4/s CC11:1957ev 0-127 9.7/s | r(vel,cc1)=0.42
+- SF PERC PRO CYM | n=21 vel 118 [117..118] d=6 | grid 100% mode +0ms (100%) | dur 982 | ov None (n=0) gap None rep None (n=0) | phr 21 ~1.0s | CC1:2087ev 0-127 9.4/s CC11:1960ev 0-127 8.8/s | r(vel,cc1)=0.76
+== file summary
+CC1: phrases>=1.5s n=159, moving(>=6) 79%
+   arc (value minus phrase max): 0% -4 [-12..0] n=159; 10% -2 [-7..0] n=159; 25% -1 [-10..0] n=159; 50% -3 [-13..0] n=159; 75% -10 [-17..0] n=159; 90% -11 [-24..-2] n=159; 100% -10 [-31..0] n=159
+   arc range 31 [15..46] n=159; peak position 0.07 [0.00..0.40] n=159
+   onset value 112 [104..122] n=768; pre-roll change in 300ms before onset 0 [0..16] n=768
+   ramp first 500ms 1 [0..7] n=159; end taper last 1000ms -6 [-26..0] n=159
+   long notes >=1.2s (n=295) change vs onset at 25/50/75/100%: 1 [0..5] n=295, 0 [-4..5] n=295, 0 [-14..3] n=295, -9 [-24..0] n=295
+      share rising to mid >=4: 28%, falling at end <=-4 vs mid: 58%, flat (all |d|<3): 19%
+CC11: phrases>=1.5s n=342, moving(>=6) 57%
+   arc (value minus phrase max): 0% 0 [-5..0] n=342; 10% 0 [-3..0] n=342; 25% 0 [-6..0] n=342; 50% 0 [-8..0] n=342; 75% -1 [-14..0] n=342; 90% -5 [-17..0] n=342; 100% 0 [-22..0] n=342
+   arc range 15 [0..37] n=342; peak position 0.00 [0.00..0.20] n=342
+   onset value 105 [80..124] n=2608; pre-roll change in 300ms before onset 0 [0..2] n=2608
+   ramp first 500ms 0 [0..2] n=342; end taper last 1000ms 0 [-16..0] n=342
+   long notes >=1.2s (n=457) change vs onset at 25/50/75/100%: 0 [0..2] n=457, 0 [-5..2] n=457, 0 [-12..0] n=457, -7 [-21..0] n=457
+      share rising to mid >=4: 19%, falling at end <=-4 vs mid: 47%, flat (all |d|<3): 27%
 
 ######## genius-s2-main-titles.mid: PPQ 480, 2 tempi 120..150 bpm, 5 tempo events
 - SF Albion I - Strings Long | n=24 vel 126 [126..126] d=1 | grid 100% mode +0ms (100%) | dur 1350 | ov None (n=0) gap None rep None (n=0) | phr 8 ~1.4s | CC11:700ev 57-127 22.9/s CC1:218ev 54-82 7.1/s CC7:2ev 126-126 0.1/s
@@ -89,7 +339,7 @@ CC11: phrases>=1.5s n=32, moving(>=6) 97%
    long notes >=1.2s (n=98) change vs onset at 25/50/75/100%: 0 [-4..2] n=98, -1 [-9..1] n=98, -7 [-16..0] n=98, -12 [-32..0] n=98
       share rising to mid >=4: 14%, falling at end <=-4 vs mid: 61%, flat (all |d|<3): 18%
 
-== Shared CC lanes, CC1/CC11 offsets, phrase entries, CC7 (scripts/balfe_extra.py)
+== Shared CC lanes, CC11 minus CC1, phrase entries, CC7 lanes (scripts/balfe_extra.py)
 # balfe/crown-main-titles.mid
 == tracks sharing an identical CC lane
 CC1: SF SYM STR VLN 1 Long | SF SYM STR CELLOa Pleg | SF SOLO CELLO Long | SF SYM WW Oboe Long (D) | SF SYM WW BSNa2 Long (D)
@@ -130,6 +380,256 @@ SF SYM WW Clar3 Long (D)                 n=1 0:7 250ms:18 500ms:25 1s:44
 SF SYM WW Clar4 Long (D)                 n=1 0:7 250ms:18 500ms:25 1s:44
 SF SYM WW BSNa2 Long (D)                 n=1 0:0 250ms:25 500ms:31 1s:40
 == CC7 lanes with >20 events
+# balfe/kung-fu-panda-3-father-and-son.mid
+== tracks sharing an identical CC lane
+== short notes (<250 ms): velocity by position in beat
+Spitfire Symphonic Strings f - Ensembles n=511 vel med 88 IQR 84-95 | by 16th 0:91(n136) 1:84(n135) 2:90(n120) 3:90(n120) | downbeat by beat 1:92 2:91 3:91 4:92 | step to next med 8
+Spitfire Symphonic Strings f - Ensembles n=96 vel med 108.0 IQR 96-115 | by 16th 0:117(n24) 1:93(n24) 2:96(n24) 3:109(n24) | downbeat by beat 1:118 2:116 3:118 4:116 | step to next med 13
+Spitfire Symphonic Wodwinds c - Flutes a n=48 vel med 100.0 IQR 95-113 | by 16th 2:96(n24) 3:109(n24) | downbeat by beat  | step to next med 15
+Spitfire Symphonic Wodwinds g - Oboes a2 n=48 vel med 108.5 IQR 98-118 | by 16th 0:117(n24) 1:93(n24) | downbeat by beat 1:118 2:116 3:118 4:116 | step to next med 17
+Spitfire Symphonic Wodwinds j - Clarinet n=48 vel med 111.0 IQR 104-117 | by 16th 0:112(n24) 2:110(n24) | downbeat by beat 1:113 2:113 3:111 4:110 | step to next med 4
+Spitfire Symphonic Wodwinds j - Clarinet n=42 vel med 87.0 IQR 86-90 | by 16th 0:86(n42) | downbeat by beat 1:88 2:84 3:86 4:85 | step to next med 3
+Spitfire Hans Zimmer Piano - Full and Br n=96 vel med 72.0 IQR 70-79 | by 16th 0:74(n24) 1:74(n24) 2:74(n24) 3:74(n24) | downbeat by beat 1:72 2:76 3:74 4:73 | step to next med 0
+Spitfire Hans Zimmer Piano - Full and Br n=251 vel med 16 IQR 14-18 | by 16th 0:16(n62) 1:14(n63) 2:15(n63) 3:16(n63) | downbeat by beat 1:16 2:16 3:14 4:16 | step to next med 2.0
+Spitfire Olafur Arnalds Composer Toolkit n=97 vel med 79 IQR 72-84 | by 16th 0:82(n64) 2:74(n33) | downbeat by beat 1:82 2:83 3:81 4:82 | step to next med 2.0
+Spitfire Harp Normale                    n=228 vel med 49.0 IQR 44-51 | by 16th 0:47(n57) 1:47(n57) 2:47(n57) 3:48(n57) | downbeat by beat 1:47 2:48 3:48 4:47 | step to next med 0
+Spitfire Joby Burgess Percussion Tuned - n=227 vel med 50 IQR 46-51 | by 16th 0:50(n56) 1:50(n57) 2:50(n57) 3:50(n57) | downbeat by beat 1:50 2:50 3:50 4:50 | step to next med 0.0
+Spitfire Joby Burgess Percussion Tuned - n=67 vel med 98 IQR 48-115 | by 16th 0:97(n34) 2:83(n33) | downbeat by beat 1:94 2:107 3:94 4:94 | step to next med 18
+Spitfire Mandolin Swarm Small ensemble - n=48 vel med 58.0 IQR 46-70 | by 16th 0:59(n12) 1:58(n12) 2:57(n12) 3:56(n12) | downbeat by beat 1:65 2:61 3:57 4:53 | step to next med 1
+== CC1 and CC11 on the same track: CC11 minus CC1 and lead/lag
+Spitfire Symphonic Strings a - Violins 1 CC11-CC1 med +15 IQR +11..+21 r=0.74 best lag 0.12 beats (+ = CC11 moves earlier)
+Spitfire Symphonic Strings a - Violins 1 CC11-CC1 med +15 IQR -9..+18 r=0.96 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Symphonic Strings b - Violins 2 CC11-CC1 med -5 IQR -8..-2 r=0.94 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Symphonic Strings c - Violas -  CC11-CC1 med +7 IQR +4..+10 r=0.90 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Symphonic Strings e - Basses -  CC11-CC1 med +16 IQR +13..+18 r=0.97 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Symphonic Strings f - Ensembles CC11-CC1 med -22 IQR -28..-17 r=0.56 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Solo Strings e - Cello - Long P CC11-CC1 med -2 IQR -2..-2 r=0.96 best lag 0.12 beats (+ = CC11 moves earlier)
+Spitfire Solo Strings e - Cello - Long   CC11-CC1 med +0 IQR -4..+2 r=0.95 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Symphonic Brass b - Horns a2 -  CC11-CC1 med -15 IQR -22..-11 r=0.93 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Symphonic Brass g - Bass Trombo CC11-CC1 med +3 IQR -3..+24 r=0.70 best lag 0.12 beats (+ = CC11 moves earlier)
+Spitfire Symphonic Brass m - Tuba Solo - CC11-CC1 med -12 IQR -18..+15 r=0.57 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Symphonic Wodwinds c - Flutes a CC11-CC1 med -16 IQR -23..-9 r=0.74 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Eric Whitacare Choir Soprano: L CC11-CC1 med +0 IQR +0..+5 r=0.97 best lag 0.12 beats (+ = CC11 moves earlier)
+Spitfire Eric Whitacare Choir Alto: Long CC11-CC1 med +0 IQR -1..+8 r=0.97 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Joby Burgess Percussion Tuned - CC11-CC1 med -21 IQR -36..-5 r=0.82 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Joby Burgess Percussion Cymbal  CC11-CC1 med -34 IQR -52..-16 r=0.87 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Andy Findons Kitbag 2 Chinese M CC11-CC1 med -8 IQR -26..+6 r=0.32 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitifire Andy Findons Kitbag 2 Bansuri  CC11-CC1 med -3 IQR -8..+11 r=0.85 best lag 0.00 beats (+ = CC11 moves earlier)
+Spitfire Andy Findons Kitbag 2 Panpipe L CC11-CC1 med +2 IQR -17..+16 r=0.77 best lag 0.50 beats (+ = CC11 moves earlier)
+Spitfire Andy Findon Kitbag Chinese Bamb CC11-CC1 med +0 IQR -9..+10 r=0.91 best lag -0.50 beats (+ = CC11 moves earlier)
+== phrase entries (after >=1 s rest) on tracks with CC1 lanes: CC1 at onset, +250 ms, +500 ms, +1 s (medians)
+Spitfire Symphonic Strings a - Violins 1 n=1 0:78 250ms:92 500ms:92 1s:94
+Spitfire Symphonic Strings a - Violins 1 n=2 0:72 250ms:82 500ms:88 1s:88
+Spitfire Symphonic Strings b - Violins 2 n=1 0:26 250ms:32 500ms:33 1s:37
+Spitfire Symphonic Strings c - Violas -  n=1 0:62 250ms:82 500ms:89 1s:95
+Spitfire Symphonic Strings e - Basses -  n=1 0:37 250ms:45 500ms:51 1s:51
+Spitfire Symphonic Strings f - Ensembles n=1 0:77 250ms:87 500ms:87 1s:87
+Spitfire Solo Strings e - Cello - Long P n=2 0:73 250ms:72 500ms:73 1s:83
+Spitfire Solo Strings e - Cello - Long   n=1 0:96 250ms:108 500ms:111 1s:110
+Spitfire Symphonic Brass b - Horns a2 -  n=1 0:54 250ms:97 500ms:104 1s:104
+Spitfire Symphonic Brass g - Bass Trombo n=1 0:29 250ms:38 500ms:40 1s:47
+Spitfire Symphonic Brass m - Tuba Solo - n=1 0:23 250ms:31 500ms:36 1s:40
+Spitfire Symphonic Wodwinds c - Flutes a n=2 0:42 250ms:50 500ms:52 1s:52
+Spitfire Eric Whitacare Choir Soprano: L n=3 0:28 250ms:28 500ms:27 1s:36
+Spitfire Eric Whitacare Choir Alto: Long n=3 0:28 250ms:31 500ms:31 1s:37
+Spitfire Joby Burgess Percussion Tuned - n=3 0:11 250ms:51 500ms:83 1s:102
+Spitfire Joby Burgess Percussion Cymbal  n=4 0:0 250ms:0 500ms:3 1s:21
+Spitfire Andy Findons Kitbag 2 Chinese M n=1 0:66 250ms:66 500ms:60 1s:54
+Spitifire Andy Findons Kitbag 2 Bansuri  n=1 0:124 250ms:121 500ms:121 1s:118
+Spitfire Andy Findons Kitbag 2 Panpipe L n=2 0:80 250ms:82 500ms:86 1s:96
+Spitfire Andy Findon Kitbag Chinese Bamb n=2 0:114 250ms:116 500ms:114 1s:115
+== CC7 lanes with >20 events
+# balfe/bad-boys-for-life-main-theme.mid
+== tracks sharing an identical CC lane
+CC1: Orchestral Tools Metropolis Ark 1 - 02. Choir Women Sustains | Orchestral Tools Metropolis Ark 1 - 02. Choir Men Sustains
+== short notes (<250 ms): velocity by position in beat
+SF Albion I - String Ensemble - Long     n=104 vel med 127.0 IQR 127-127 | by 16th 0:127(n31) 1:127(n1) 2:127(n52) 3:127(n20) | downbeat by beat 2:127 3:127 | step to next med 0.0
+SF Symphonic Strings - a - Violins 1 - S n=86 vel med 127.0 IQR 127-127 | by 16th 0:127(n28) 1:127(n11) 2:127(n30) 3:127(n17) | downbeat by beat 1:127 2:127 3:127 4:127 | step to next med 0.0
+SF Symphonic Strings - f - Ensembles - S n=325 vel med 127 IQR 115-127 | by 16th 0:123(n94) 1:111(n53) 2:123(n101) 3:116(n77) | downbeat by beat 1:118 2:123 3:124 4:122 | step to next med 14.0
+SPF Albion String Ensemlbe Stacc         n=104 vel med 101.0 IQR 101-101 | by 16th 0:101(n32) 1:101(n32) 2:101(n16) 3:100(n24) | downbeat by beat 1:101 2:100 | step to next med 0
+SF Symphonic - g - Bass Trombones a2 - S n=70 vel med 127.0 IQR 127-127 | by 16th 0:127(n27) 1:127(n3) 2:127(n27) 3:127(n13) | downbeat by beat 1:127 2:127 3:127 4:127 | step to next med 0.0
+NI Libraries - Vintage Organ Libraries - n=82 vel med 61.0 IQR 54-62 | by 16th 0:63(n26) 1:52(n8) 2:68(n28) 3:67(n20) | downbeat by beat 2:60 3:54 4:71 | step to next med 2.5
+NI Libraries - Vintage Organ Libraries - n=82 vel med 61.0 IQR 54-62 | by 16th 0:63(n26) 1:52(n8) 2:68(n28) 3:67(n20) | downbeat by beat 2:60 3:54 4:71 | step to next med 2.5
+SF Marimba Swarm - Hit Hard Stick        n=156 vel med 96.0 IQR 93-98 | by 16th 0:95(n40) 1:96(n24) 2:95(n48) 3:96(n44) | downbeat by beat 1:96 2:95 3:95 | step to next med 3
+DNA - Pluck - Uplifting Synth Pluck      n=121 vel med 95 IQR 88-104 | by 16th 0:95(n36) 1:96(n25) 2:95(n33) 3:96(n27) | downbeat by beat 1:93 2:98 3:99 4:91 | step to next med 11.0
+SF Joey Santiago Plucks                  n=72 vel med 99.0 IQR 84-101 | by 16th 0:92(n24) 1:89(n10) 2:94(n22) 3:98(n16) | downbeat by beat 1:67 2:94 3:95 | step to next med 4
+SF Joey Santiagp - Clean Santiago        n=154 vel med 63.0 IQR 53-64 | by 16th 0:60(n59) 1:53(n2) 2:59(n62) 3:60(n31) | downbeat by beat 2:60 3:59 4:63 | step to next med 0
+ SF Joey Santiagp - Clean Santiago       n=650 vel med 59.0 IQR 51-66 | by 16th 0:58(n216) 1:51(n146) 2:56(n142) 3:56(n146) | downbeat by beat 1:59 2:59 3:57 4:57 | step to next med 10.0
+SF Joey Santiago - Underwater Chugs      n=199 vel med 110 IQR 110-110 | by 16th 0:110(n74) 1:110(n46) 2:110(n46) 3:110(n33) | downbeat by beat 1:110 2:110 3:110 4:110 | step to next med 0.0
+SF Joey Santiago - Underwater Chugs      n=225 vel med 107 IQR 106-107 | by 16th 0:107(n90) 1:107(n45) 2:107(n45) 3:106(n45) | downbeat by beat 3:107 4:107 | step to next med 0.0
+SF eDNA - Bass - Fender Key Bass MW      n=311 vel med 78 IQR 78-78 | by 16th 0:78(n96) 1:78(n96) 2:78(n48) 3:77(n71) | downbeat by beat 1:78 2:77 | step to next med 0.0
+Joey Santiago - Muted Plucks             n=324 vel med 98.0 IQR 98-100 | by 16th 0:99(n100) 1:99(n100) 2:99(n50) 3:97(n74) | downbeat by beat 1:99 2:98 | step to next med 2
+SF Hans Zimmer Percussion - Fox - Mid To n=108 vel med 121.0 IQR 121-122 | by 16th 0:121(n108) | downbeat by beat 2:121 4:121 | step to next med 1
+StylusRMX 120 Bosso Club                 n=864 vel med 127.0 IQR 127-127 | by 16th 0:127(n216) 1:127(n216) 2:127(n216) 3:127(n216) | downbeat by beat 1:127 3:127 | step to next med 0
+Kontakt Facotry Library - World Percussi n=243 vel med 108 IQR 107-116 | by 16th 0:117(n81) 1:108(n54) 2:110(n54) 3:108(n54) | downbeat by beat 4:116 | step to next med 8.0
+Kontakt Facotry Library - World Percussi n=162 vel med 95.0 IQR 95-102 | by 16th 0:102(n54) 2:95(n108) | downbeat by beat 3:102 | step to next med 7
+SF The Grange - a - Roger kit - (Perform n=286 vel med 99.0 IQR 99-99 | by 16th 0:99(n163) 2:99(n95) 3:99(n28) | downbeat by beat 1:100 2:100 3:99 4:99 | step to next med 0
+SF eDNA Earth - Kick 3                   n=164 vel med 83.0 IQR 83-83 | by 16th 0:83(n41) 2:83(n95) 3:83(n28) | downbeat by beat 1:84 3:83 | step to next med 0
+SF Percussion - Snare 2                  n=70 vel med 107.0 IQR 103-109 | by 16th 0:106(n59) 1:97(n6) 2:103(n1) 3:98(n4) | downbeat by beat 3:96 4:107 | step to next med 2.0
+SF Percussion - Congas                   n=46 vel med 124.0 IQR 116-127 | by 16th 0:120(n21) 1:125(n7) 2:112(n4) 3:118(n14) | downbeat by beat 3:122 4:127 | step to next med 4
+SF The Grange - a - Roger kit - (Strict  n=1512 vel med 90.0 IQR 83-101 | by 16th 0:96(n432) 1:83(n324) 2:91(n432) 3:96(n324) | downbeat by beat 1:95 2:98 3:90 4:100 | step to next med 10
+SF The Grange - a - Roger kit - (Perform n=1296 vel med 92.0 IQR 88-114 | by 16th 0:99(n351) 1:92(n270) 2:95(n270) 3:97(n405) | downbeat by beat 1:83 2:96 3:105 4:107 | step to next med 11
+SF The Grange a - Roger kit - (Performan n=69 vel med 108 IQR 108-108 | by 16th 0:108(n22) 3:108(n47) | downbeat by beat 1:108 | step to next med 0.0
+== CC1 and CC11 on the same track: CC11 minus CC1 and lead/lag
+Orchestral Tools Metropolis Ark 1 - 02.  CC11-CC1 med +6 IQR +4..+9 r=0.28 best lag -0.12 beats (+ = CC11 moves earlier)
+Orchestral Tools Metropolis Ark 1 - 02.  CC11-CC1 med +12 IQR +11..+17 r=0.22 best lag -0.12 beats (+ = CC11 moves earlier)
+SF Albion I - String Ensemble - Long     CC11-CC1 med -4 IQR -6..+1 r=0.67 best lag -0.25 beats (+ = CC11 moves earlier)
+SF Albion I - String Ensemble - Long     CC11-CC1 med +0 IQR -9..+67 r=0.64 best lag -0.12 beats (+ = CC11 moves earlier)
+SF Symphonics Brass - e - Tenor Trombone CC11-CC1 med -14 IQR -18..-13 r=0.40 best lag 0.00 beats (+ = CC11 moves earlier)
+SF Symphonic Brass - k - Trumpets a2     CC11-CC1 med -5 IQR -20..+9 r=0.35 best lag -0.12 beats (+ = CC11 moves earlier)
+SF BML Phanlanx Trumpets a6 - Long       CC11-CC1 med -2 IQR -6..+3 r=0.64 best lag 0.12 beats (+ = CC11 moves earlier)
+SF BML - Horns a2 - Long                 CC11-CC1 med -0 IQR -23..+10 r=0.72 best lag -0.12 beats (+ = CC11 moves earlier)
+SF BML - Horns a2 - Long                 CC11-CC1 med +4 IQR +4..+6 r=0.96 best lag 0.00 beats (+ = CC11 moves earlier)
+SF Symphonic Brass - g - Bass Trombones  CC11-CC1 med -22 IQR -41..+4 r=0.09 best lag 0.00 beats (+ = CC11 moves earlier)
+SF Symphonic Brass - m - Tuba Solo       CC11-CC1 med -19 IQR -19..-19 r=0.58 best lag 0.12 beats (+ = CC11 moves earlier)
+SF Marimba Swarm - Hit Hard Stick        CC11-CC1 med +38 IQR +38..+38 r=-0.86 best lag -2.00 beats (+ = CC11 moves earlier)
+SF Joey Santiagp - Clean Santiago        CC11-CC1 med +40 IQR +30..+62 r=0.37 best lag -0.38 beats (+ = CC11 moves earlier)
+== phrase entries (after >=1 s rest) on tracks with CC1 lanes: CC1 at onset, +250 ms, +500 ms, +1 s (medians)
+Orchestral Tools Metropolis Ark 1 - 02.  n=2 0:100 250ms:106 500ms:106 1s:104
+Orchestral Tools Metropolis Ark 1 - 02.  n=3 0:109 250ms:111 500ms:111 1s:111
+SF Albion I - String Ensemble - Long     n=3 0:46 250ms:76 500ms:84 1s:106
+SF Albion I - String Ensemble - Long     n=6 0:0 250ms:0 500ms:0 1s:0
+SF Symphonics Brass - e - Tenor Trombone n=1 0:127 250ms:127 500ms:127 1s:105
+SF Symphonic Brass - k - Trumpets a2     n=2 0:123 250ms:124 500ms:118 1s:99
+SF BML Phanlanx Trumpets a6 - Long       n=1 0:72 250ms:75 500ms:76 1s:78
+SF BML - Horns a2 - Long                 n=2 0:46 250ms:58 500ms:63 1s:74
+SF BML - Horns a2 - Long                 n=3 0:47 250ms:49 500ms:53 1s:60
+SF Symphonic Brass - g - Bass Trombones  n=10 0:44 250ms:48 500ms:48 1s:50
+SF Symphonic Brass - m - Tuba Solo       n=2 0:38 250ms:41 500ms:48 1s:54
+SF Marimba Swarm - Hit Hard Stick        n=3 0:45 250ms:45 500ms:45 1s:44
+SF Joey Santiagp - Clean Santiago        n=5 0:0 250ms:0 500ms:0 1s:0
+== CC7 lanes with >20 events
+NI Libraries - Vintage Organ Libraries - n=52 range 58-99 over 12.2s
+SF Hans Zimmer Percussion - Fox - Mid To n=827 range 45-74 over 129.6s
+SF The Grange a - Roger kit - (Performan n=30 range 119-122 over 124.8s
+# balfe/6-underground-i-am-the-danger.mid
+== tracks sharing an identical CC lane
+CC11: SF SYM STR CELLOb Pleg | SF SYM STR CB Pleg
+CC11: SF JB PERC - TOMS ENS | SF HZ PERC PRO - BD Gallery
+CC1: SF HZ PERC PRO Gong Drum | SF HZ PERC PRO Low Boom
+CC11: SF HZ PERC PRO Gong Drum | SF HZ PERC PRO Low Boom
+== short notes (<250 ms): velocity by position in beat
+SF SYM STR VLN 1 SPICC                   n=512 vel med 77.5 IQR 72-95 | by 16th 0:95(n128) 1:72(n128) 2:83(n128) 3:72(n128) | downbeat by beat 1:95 2:95 3:95 4:95 | step to next med 11
+SF SYM STR ENS SPICC                     n=656 vel med 108.0 IQR 100-122 | by 16th 0:114(n328) 2:100(n328) | downbeat by beat 1:114 2:114 3:114 4:114 | step to next med 15
+SF MURAL V1 - Sh SPICC                   n=512 vel med 107.0 IQR 101-127 | by 16th 0:127(n128) 1:101(n128) 2:113(n128) 3:101(n128) | downbeat by beat 1:127 2:127 3:127 4:127 | step to next med 12
+SF UC ORGAN - Choir Manuel               n=96 vel med 79.5 IQR 75-84 | by 16th 0:80(n60) 2:74(n36) | downbeat by beat 2:75 3:82 4:81 | step to next med 7
+== CC1 and CC11 on the same track: CC11 minus CC1 and lead/lag
+SF SYM STR CELLOa Pleg                   CC11-CC1 med +0 IQR +0..+0 r=1.00 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM STR CELLOb Pleg                   CC11-CC1 med +24 IQR +21..+26 r=0.89 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM STR CB Pleg                       CC11-CC1 med +20 IQR +18..+22 r=0.89 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM STR ENS CS Long                   CC11-CC1 med +21 IQR +12..+21 r=1.00 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM STR ENS Long                      CC11-CC1 med +54 IQR +45..+55 r=0.86 best lag -0.12 beats (+ = CC11 moves earlier)
+SF SYM STR ENS SPICC                     CC11-CC1 med +1 IQR +0..+2 r=0.99 best lag 1.12 beats (+ = CC11 moves earlier)
+SF MURAL ENS - Harm long                 CC11-CC1 med -1 IQR -4..+3 r=0.98 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS TBNa6 Long                    CC11-CC1 med +25 IQR +13..+32 r=0.91 best lag 0.25 beats (+ = CC11 moves earlier)
+SF SYM BRS FHNa6 Leg                     CC11-CC1 med +0 IQR +0..+0 r=1.00 best lag 0.00 beats (+ = CC11 moves earlier)
+SF JB PERC - Cymbal Med                  CC11-CC1 med +2 IQR -17..+3 r=0.80 best lag 0.12 beats (+ = CC11 moves earlier)
+== phrase entries (after >=1 s rest) on tracks with CC1 lanes: CC1 at onset, +250 ms, +500 ms, +1 s (medians)
+SF SYM STR VLN 1 Pleg                    n=1 0:82 250ms:93 500ms:103 1s:117
+SF SYM STR CELLOa Pleg                   n=1 0:93 250ms:115 500ms:124 1s:127
+SF SYM STR CELLOb Pleg                   n=3 0:83 250ms:92 500ms:96 1s:89
+SF SYM STR CB Pleg                       n=3 0:86 250ms:96 500ms:101 1s:92
+SF SYM STR ENS CS Long                   n=1 0:7 250ms:8 500ms:9 1s:11
+SF SYM STR ENS Long                      n=1 0:50 250ms:53 500ms:54 1s:56
+SF SYM STR ENS SPICC                     n=1 0:0 250ms:0 500ms:0 1s:0
+SF MURAL ENS - Harm long                 n=1 0:0 250ms:0 500ms:0 1s:5
+SF SYM BRS TBNa6 Long                    n=1 0:7 250ms:19 500ms:25 1s:36
+SF SYM BRS FHNa6 Leg                     n=2 0:91 250ms:102 500ms:102 1s:100
+eDNA Nice Simple Synth Basses MW         n=1 0:127 250ms:127 500ms:127 1s:127
+SF HZ1 Timp Hits - Hard Sticks           n=1 0:0 250ms:0 500ms:0 1s:15
+SF JB PERC - Cymbal Med                  n=3 0:0 250ms:0 500ms:10 1s:30
+== CC7 lanes with >20 events
+SF HZ PERC PRO Gong Drum                 n=91 range 111-127 over 112.0s
+SF HZ PERC PRO Low Boom                  n=91 range 111-127 over 112.0s
+# balfe/penguins-of-madagascar-main-theme.mid
+== tracks sharing an identical CC lane
+CC1: SF SYM TBN Long | SF SYM BRS TBNa2 SH STACC (D)
+CC11: SF SYM TBN Long | SF SYM BRS TBNa2 SH STACC (D)
+== short notes (<250 ms): velocity by position in beat
+SF SYM STR VLN 1 Long                    n=53 vel med 119 IQR 107-127 | by 16th 0:111(n10) 1:114(n18) 2:122(n11) 3:115(n14) | downbeat by beat 1:127 3:97 4:104 | step to next med 2
+SF SYM STR VLN 2 Long                    n=90 vel med 122.0 IQR 121-127 | by 16th 0:125(n16) 1:122(n26) 2:123(n22) 3:122(n26) | downbeat by beat 1:127 3:119 | step to next med 0.0
+SF SYM STR VLN 1 SPICC                   n=695 vel med 119 IQR 107-127 | by 16th 0:115(n202) 1:105(n133) 2:106(n187) 3:112(n173) | downbeat by beat 1:121 2:116 3:116 4:119 | step to next med 0
+SF SYM STR CELLO SPICC                   n=210 vel med 120.0 IQR 117-122 | by 16th 0:120(n89) 1:120(n33) 2:117(n72) 3:121(n16) | downbeat by beat 1:120 2:120 3:119 4:120 | step to next med 1
+SF SYM STR ENS SPICC                     n=704 vel med 122.0 IQR 117-127 | by 16th 0:121(n404) 1:122(n77) 2:112(n178) 3:123(n45) | downbeat by beat 1:121 2:121 3:121 4:122 | step to next med 3.0
+SF SYM STR ENS SPICC (D)                 n=357 vel med 116 IQR 115-125 | by 16th 0:120(n116) 1:117(n56) 2:115(n121) 3:122(n64) | downbeat by beat 1:118 2:122 3:120 4:124 | step to next med 3
+SF SYM STR ENS SPICC (D)                 n=906 vel med 123.0 IQR 122-127 | by 16th 0:123(n325) 1:124(n99) 2:123(n381) 3:123(n101) | downbeat by beat 1:123 2:123 3:123 4:123 | step to next med 1.0
+NI Factory Alto Sax                      n=125 vel med 86 IQR 85-107 | by 16th 0:98(n22) 1:92(n35) 2:91(n33) 3:92(n35) | downbeat by beat 1:97 2:86 3:112 | step to next med 0
+NI Factory Bari Sax                      n=294 vel med 76.0 IQR 72-82 | by 16th 0:78(n77) 1:74(n74) 2:75(n104) 3:75(n39) | downbeat by beat 1:78 2:81 3:81 4:75 | step to next med 2.0
+NI Factory Bari Sax (D)                  n=304 vel med 108.5 IQR 101-113 | by 16th 0:110(n80) 1:104(n77) 2:105(n105) 3:105(n42) | downbeat by beat 1:112 2:112 3:112 4:107 | step to next med 2
+SF SYM BRS Tromb Solo acct               n=110 vel med 100.0 IQR 100-100 | by 16th 0:111(n20) 1:104(n30) 2:104(n30) 3:104(n30) | downbeat by beat 1:111 | step to next med 0.0
+SF SYM BRS TPTa2 Long                    n=92 vel med 121.0 IQR 121-127 | by 16th 0:125(n16) 1:123(n26) 2:122(n24) 3:123(n26) | downbeat by beat 1:125 2:121 3:127 | step to next med 0.0
+SF SYM BRS TPT Core Tech                 n=186 vel med 121.0 IQR 121-127 | by 16th 0:108(n48) 1:121(n46) 2:119(n45) 3:119(n47) | downbeat by beat 1:116 2:120 3:77 | step to next med 0
+SF SYM BRS TPT Core Tech (D)             n=85 vel med 121 IQR 121-121 | by 16th 0:123(n17) 1:122(n23) 2:122(n23) 3:122(n22) | downbeat by beat 1:123 2:121 3:127 | step to next med 0.0
+SF SYM BRS TPTa2 Long (D)                n=74 vel med 122.0 IQR 121-127 | by 16th 0:120(n16) 1:120(n19) 2:121(n20) 3:121(n19) | downbeat by beat 1:120 3:127 | step to next med 0
+SF SYM BRS FHNa6 Core Tech               n=237 vel med 121 IQR 100-127 | by 16th 0:104(n55) 1:112(n60) 2:111(n61) 3:111(n61) | downbeat by beat 1:108 2:124 3:77 | step to next med 0
+SF SYM TBN Long (D)                      n=40 vel med 116.0 IQR 113-127 | by 16th 0:117(n8) 1:114(n11) 2:123(n6) 3:116(n15) | downbeat by beat 1:127 3:127 4:107 | step to next med 4.0
+SF SYM BRS BTBNa2 Long                   n=56 vel med 122.0 IQR 117-126 | by 16th 0:120(n26) 1:126(n2) 2:117(n14) 3:123(n14) | downbeat by beat 1:122 2:116 3:120 4:116 | step to next med 3
+SF SYM BRS BTBNa2 Long (D)               n=188 vel med 114.0 IQR 111-121 | by 16th 0:127(n4) 1:115(n78) 2:117(n74) 3:113(n32) | downbeat by beat 3:127 4:127 | step to next med 8
+SF SYM BRS FHNa6 SH STACC                n=181 vel med 127 IQR 127-127 | by 16th 0:123(n141) 1:127(n8) 2:108(n24) 3:127(n8) | downbeat by beat 1:122 2:122 3:124 4:125 | step to next med 0
+SF SYM BRS BTBNa2 SH STACC (D)           n=823 vel med 122 IQR 116-127 | by 16th 0:121(n363) 1:122(n90) 2:119(n314) 3:123(n56) | downbeat by beat 1:121 2:121 3:120 4:122 | step to next med 1
+SF SYM BRS BTBNa2 SH STACC (D)           n=194 vel med 109.0 IQR 109-109 | by 16th 0:112(n65) 1:113(n29) 2:110(n59) 3:114(n41) | downbeat by beat 1:113 2:111 3:112 4:118 | step to next med 0.0
+SF SYM BRS TBNa2 SH STACC (D)            n=50 vel med 127.0 IQR 122-127 | by 16th 0:127(n10) 1:124(n14) 2:123(n12) 3:124(n14) | downbeat by beat 1:127 3:127 | step to next med 1.0
+SF SYM BRS TPTa2 SH STACC                n=87 vel med 127 IQR 127-127 | by 16th 0:102(n33) 1:117(n13) 2:119(n26) 3:113(n15) | downbeat by beat 1:101 2:126 3:91 | step to next med 0
+SF SYM BRS TPT solo stacc                n=89 vel med 122 IQR 120-127 | by 16th 0:96(n27) 1:117(n20) 2:114(n20) 3:115(n22) | downbeat by beat 1:107 2:118 3:72 | step to next med 1.5
+SF SYM BRS TUBA SH                       n=194 vel med 120.0 IQR 116-122 | by 16th 0:120(n136) 1:120(n2) 2:118(n42) 3:120(n14) | downbeat by beat 1:120 2:120 3:120 4:122 | step to next med 1
+SF SYM BRS TPTa2 SH STACC (D)            n=150 vel med 127.0 IQR 127-127 | by 16th 0:126(n40) 1:126(n33) 2:123(n30) 3:124(n47) | downbeat by beat 1:126 2:126 3:126 4:126 | step to next med 0
+SF SYM BRS TPTa2 SH STACC (D)            n=154 vel med 127.0 IQR 127-127 | by 16th 0:127(n34) 1:125(n42) 2:124(n31) 3:126(n47) | downbeat by beat 1:127 2:127 3:127 | step to next med 0.0
+SF FLUTESa2 SH STACC                     n=348 vel med 120.0 IQR 92-127 | by 16th 0:109(n112) 1:94(n63) 2:95(n92) 3:106(n81) | downbeat by beat 1:118 2:119 3:81 4:123 | step to next med 0
+SF SYM WW Oboe SH STACC                  n=142 vel med 127.0 IQR 127-127 | by 16th 0:114(n54) 1:122(n23) 2:123(n36) 3:121(n29) | downbeat by beat 1:115 2:121 3:82 4:126 | step to next med 0
+SF SYM WW CL SH STACC                    n=116 vel med 127.0 IQR 127-127 | by 16th 0:126(n40) 1:126(n20) 2:127(n32) 3:126(n24) | downbeat by beat 1:127 2:122 3:122 4:126 | step to next med 0
+SF HZ Piano                              n=400 vel med 121.0 IQR 117-122 | by 16th 0:121(n174) 1:121(n50) 2:117(n146) 3:122(n30) | downbeat by beat 1:123 2:121 3:119 4:122 | step to next med 5
+SF HZ Piano (D)                          n=1296 vel med 116.0 IQR 115-127 | by 16th 0:117(n388) 1:123(n192) 2:119(n520) 3:123(n196) | downbeat by beat 1:117 2:117 3:117 4:121 | step to next med 1
+SF Amb Guitars Trussart Soft             n=846 vel med 117.0 IQR 115-127 | by 16th 0:118(n279) 1:122(n122) 2:118(n332) 3:123(n113) | downbeat by beat 1:118 2:118 3:118 4:120 | step to next med 0
+Scarbee Pre-Bass                         n=847 vel med 117 IQR 115-127 | by 16th 0:118(n280) 1:122(n122) 2:118(n332) 3:123(n113) | downbeat by beat 1:118 2:118 3:118 4:121 | step to next med 0.0
+SF JB Perc Bongos                        n=389 vel med 114 IQR 107-121 | by 16th 0:121(n123) 1:113(n54) 2:110(n52) 3:105(n160) | downbeat by beat 1:117 2:124 3:117 4:123 | step to next med 10.0
+SF Grange Chad HH                        n=1152 vel med 111.0 IQR 107-114 | by 16th 0:110(n466) 1:116(n75) 2:111(n473) 3:107(n138) | downbeat by beat 1:110 2:109 3:109 4:111 | step to next med 6
+SF Grange ROGER TOMS                     n=1850 vel med 88.0 IQR 76-114 | by 16th 0:89(n469) 1:85(n464) 2:93(n453) 3:89(n464) | downbeat by beat 1:119 2:66 3:66 4:103 | step to next med 30.0
+StylusRMX Triangle-78-1                  n=593 vel med 123 IQR 119-125 | by 16th 0:126(n117) 2:118(n238) 3:124(n238) | downbeat by beat 2:127 3:123 4:127 | step to next med 6.0
+SF HZ1 Timp Hits                         n=58 vel med 83.0 IQR 83-96 | by 16th 0:79(n10) 1:88(n6) 2:82(n35) 3:99(n7) | downbeat by beat 1:107 | step to next med 3
+== CC1 and CC11 on the same track: CC11 minus CC1 and lead/lag
+SF SYM STR VLN 1 Long                    CC11-CC1 med -9 IQR -9..-4 r=0.92 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM STR VLN 2 Long                    CC11-CC1 med +3 IQR -9..+3 r=0.65 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM STR VLA Pleg                      CC11-CC1 med +5 IQR +1..+18 r=0.75 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM STR ENS Long                      CC11-CC1 med +4 IQR -11..+4 r=0.91 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS TPTa2 Long                    CC11-CC1 med -6 IQR -14..+2 r=0.49 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS TPT Core Tech                 CC11-CC1 med -2 IQR -8..+0 r=0.89 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS TPT Core Tech (D)             CC11-CC1 med -5 IQR -7..+0 r=0.96 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS TPTa2 Long (D)                CC11-CC1 med -5 IQR -8..+8 r=0.56 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS FHNa6 Leg                     CC11-CC1 med +0 IQR +0..+5 r=0.97 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS FHNa6 Core Tech               CC11-CC1 med +0 IQR -10..+0 r=0.92 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS FHNa6 Long                    CC11-CC1 med +4 IQR +1..+4 r=0.95 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM TBN Long                          CC11-CC1 med -8 IQR -11..-3 r=0.84 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM TBN Long (D)                      CC11-CC1 med +22 IQR -10..+22 r=0.05 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS BTBNa2 Long                   CC11-CC1 med -9 IQR -9..-9 r=0.80 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS BTBNa2 Long (D)               CC11-CC1 med -6 IQR -6..-6 r=0.96 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS TUBA Long                     CC11-CC1 med -49 IQR -49..-49 r=0.73 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS TBNa2 SH STACC (D)            CC11-CC1 med -8 IQR -11..-3 r=0.84 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS TPTa2 SH STACC                CC11-CC1 med -31 IQR -31..-31 r=-0.48 best lag 2.00 beats (+ = CC11 moves earlier)
+SF SYM BRS TPTa2 SH STACC (D)            CC11-CC1 med +19 IQR -8..+19 r=0.54 best lag 0.00 beats (+ = CC11 moves earlier)
+SF JB PERC - Cymbal Med                  CC11-CC1 med +12 IQR +5..+12 r=0.96 best lag 0.00 beats (+ = CC11 moves earlier)
+SF PERC PRO CYM                          CC11-CC1 med +12 IQR +5..+12 r=0.97 best lag 0.00 beats (+ = CC11 moves earlier)
+== phrase entries (after >=1 s rest) on tracks with CC1 lanes: CC1 at onset, +250 ms, +500 ms, +1 s (medians)
+SF SYM STR VLN 1 Long                    n=3 0:96 250ms:116 500ms:110 1s:116
+SF SYM STR VLN 2 Long                    n=3 0:105 250ms:116 500ms:117 1s:117
+SF SYM STR VLA Pleg                      n=1 0:110 250ms:127 500ms:127 1s:124
+SF SYM STR ENS Long                      n=2 0:111 250ms:112 500ms:114 1s:117
+SF SYM BRS TPTa2 Long                    n=7 0:119 250ms:127 500ms:126 1s:119
+SF SYM BRS TPT Core Tech                 n=7 0:127 250ms:127 500ms:127 1s:119
+SF SYM BRS TPT Core Tech (D)             n=6 0:96 250ms:96 500ms:96 1s:96
+SF SYM BRS TPTa2 Long (D)                n=6 0:104 250ms:116 500ms:117 1s:114
+SF SYM BRS FHNa6 Leg                     n=2 0:126 250ms:127 500ms:127 1s:127
+SF SYM BRS FHNa6 Core Tech               n=10 0:100 250ms:102 500ms:102 1s:103
+SF SYM BRS FHNa6 Long                    n=3 0:126 250ms:127 500ms:127 1s:127
+SF SYM TBN Long                          n=2 0:105 250ms:116 500ms:117 1s:117
+SF SYM BRS BTBNa2 Long                   n=2 0:100 250ms:102 500ms:104 1s:104
+SF SYM BRS BTBNa2 Long (D)               n=2 0:100 250ms:108 500ms:107 1s:107
+SF SYM BRS TUBA Long                     n=5 0:111 250ms:111 500ms:111 1s:111
+SF SYM BRS TBNa2 SH STACC (D)            n=10 0:112 250ms:115 500ms:116 1s:118
+SF SYM BRS TPTa2 SH STACC                n=2 0:69 250ms:72 500ms:75 1s:80
+SF JB PERC - Cymbal Med                  n=20 0:19 250ms:48 500ms:61 1s:88
+SF PERC PRO CYM                          n=21 0:123 250ms:118 500ms:112 1s:104
+== CC7 lanes with >20 events
+StylusRMX Triangle-78-1                  n=55 range 96-127 over 199.7s
 # balfe/genius-s2-main-titles.mid
 == tracks sharing an identical CC lane
 CC1: SF Symphonic Brass - g - Bass Trombones a2 - Long | SF Symphonic Brass - m - Tuba Solo - Long
@@ -169,12 +669,101 @@ SF Hans Zimmer Percussion - Timpan       n=5 0:105 250ms:106 500ms:106 1s:104
 SF Symphonic Brass - c - Horns a6 - Long n=170 range 0-127 over 10.5s
 
 == Short-note velocity by slot within the beat (scripts/accent.py)
-# crown_main_titles
+# balfe/crown-main-titles.mid
 SF SYM STR VLN 1 SPICC                       n=384 grid 60t (8/beat) | mean vel by slot 0:104 1:101 2:95 3:87 4:105 5:102 6:96 7:88 | beat 1-4 104 104 104 105 | sd within slot 7.7
 SF SYM STR CELLO SPICC                       n=384 grid 60t (8/beat) | mean vel by slot 0:112 1:110 2:104 3:96 4:113 5:110 6:104 7:96 | beat 1-4 112 112 113 113 | sd within slot 6.2
 SF SYM STR ENS SPICC                         n=784 grid 120t (4/beat) | mean vel by slot 0:88 1:82 2:75 3:69 | beat 1-4 101 74 102 75 | sd within slot 17.8
 SF SYM STR ENS SPICC (D)                     n=1568 grid 60t (8/beat) | mean vel by slot 0:91 1:91 2:86 3:85 4:79 5:78 6:73 7:72 | beat 1-4 76 104 79 107 | sd within slot 19.7
-# genius_s2_main_titles
+# balfe/kung-fu-panda-3-father-and-son.mid
+Spitfire Symphonic Strings f - Ensembles - S n=511 grid 120t (4/beat) | mean vel by slot 0:91 1:84 2:90 3:90 | beat 1-4 92 91 91 92 | sd within slot 12.9
+Spitfire Symphonic Strings f - Ensembles - S n=96 grid 120t (4/beat) | mean vel by slot 0:117 1:93 2:96 3:109 | beat 1-4 118 116 118 116 | sd within slot 7.8
+Spitfire Symphonic Wodwinds c - Flutes a2 -  n=48 grid 120t (4/beat) | mean vel by slot 2:96 3:109 | beat 1-4  | sd within slot 7.8
+Spitfire Symphonic Wodwinds g - Oboes a2 - S n=48 grid 120t (4/beat) | mean vel by slot 0:117 1:93 | beat 1-4 118 116 118 116 | sd within slot 11.4
+Spitfire Symphonic Wodwinds j - Clarinets a2 n=48 grid 240t (2/beat) | mean vel by slot 0:112 1:110 | beat 1-4 113 113 111 110 | sd within slot 6.2
+Spitfire Symphonic Wodwinds j - Clarinets a2 n=42 grid 480t (1/beat) | mean vel by slot 0:86 | beat 1-4 88 84 86 85 | sd within slot 6.1
+Spitfire Hans Zimmer Piano - Full and Bright n=96 grid 120t (4/beat) | mean vel by slot 0:74 1:74 2:74 3:74 | beat 1-4 72 76 74 73 | sd within slot 5.3
+Spitfire Hans Zimmer Piano - Full and Bright n=251 grid 120t (4/beat) | mean vel by slot 0:16 1:14 2:15 3:16 | beat 1-4 16 16 14 16 | sd within slot 4.2
+Spitfire Olafur Arnalds Composer Toolkit Fel n=97 grid 240t (2/beat) | mean vel by slot 0:82 1:74 | beat 1-4 82 83 81 82 | sd within slot 7.3
+Spitfire Harp Normale                        n=228 grid 120t (4/beat) | mean vel by slot 0:47 1:47 2:47 3:48 | beat 1-4 47 48 48 47 | sd within slot 5.2
+Spitfire Joby Burgess Percussion Tuned - Cel n=227 grid 120t (4/beat) | mean vel by slot 0:50 1:50 2:50 3:50 | beat 1-4 50 50 50 50 | sd within slot 2.9
+Spitfire Joby Burgess Percussion Tuned - Cro n=68 grid 240t (2/beat) | mean vel by slot 0:97 1:82 | beat 1-4 94 107 94 94 | sd within slot 26.8
+Spitfire Mandolin Swarm Small ensemble - Sho n=48 grid 120t (4/beat) | mean vel by slot 0:59 1:58 2:57 3:56 | beat 1-4 65 61 57 53 | sd within slot 13.4
+# balfe/bad-boys-for-life-main-theme.mid
+SF Albion I - String Ensemble - Long         n=104 grid 240t (2/beat) | mean vel by slot 0:127 1:127 | beat 1-4 127 127 | sd within slot 0.0
+SF Symphonic Strings - a - Violins 1 - Short n=86 grid 120t (4/beat) | mean vel by slot 0:127 1:127 2:127 3:127 | beat 1-4 127 127 127 127 | sd within slot 0.0
+SF Symphonic Strings - f - Ensembles - Short n=325 grid 120t (4/beat) | mean vel by slot 0:123 1:111 2:123 3:116 | beat 1-4 118 123 124 122 | sd within slot 9.2
+SPF Albion String Ensemlbe Stacc             n=104 grid 120t (4/beat) | mean vel by slot 0:101 1:101 2:101 3:100 | beat 1-4 101 100 | sd within slot 0.2
+SF Symphonic - g - Bass Trombones a2 - Short n=70 grid 120t (4/beat) | mean vel by slot 0:127 2:127 3:127 | beat 1-4 127 127 127 127 | sd within slot 0.0
+NI Libraries - Vintage Organ Libraries - Bas n=102 grid 120t (4/beat) | mean vel by slot 0:67 1:52 2:68 3:67 | beat 1-4 72 60 54 71 | sd within slot 18.9
+NI Libraries - Vintage Organ Libraries - Bas n=95 grid 120t (4/beat) | mean vel by slot 0:63 1:52 2:68 3:67 | beat 1-4 64 60 54 71 | sd within slot 17.1
+SF Marimba Swarm - Hit Hard Stick            n=156 grid 240t (2/beat) | mean vel by slot 0:95 1:95 | beat 1-4 96 95 95 | sd within slot 3.1
+DNA - Pluck - Uplifting Synth Pluck          n=121 grid 360t (1/beat) | mean vel by slot 0:96 | beat 1-4 93 98 99 91 | sd within slot 10.8
+SF Joey Santiago Plucks                      n=84 grid 240t (2/beat) | mean vel by slot 0:93 1:91 | beat 1-4 67 91 95 | sd within slot 14.2
+SF Joey Santiagp - Clean Santiago            n=186 grid 240t (2/beat) | mean vel by slot 0:59 1:59 | beat 1-4 64 59 59 63 | sd within slot 5.1
+ SF Joey Santiagp - Clean Santiago           n=662 grid 240t (2/beat) | mean vel by slot 0:56 1:59 | beat 1-4 59 62 57 57 | sd within slot 15.3
+SF Joey Santiago - Underwater Chugs          n=199 grid 120t (4/beat) | mean vel by slot 0:110 1:110 2:110 3:110 | beat 1-4 110 110 110 110 | sd within slot 0.0
+SF Joey Santiago - Underwater Chugs          n=225 grid 120t (4/beat) | mean vel by slot 0:107 1:107 2:107 3:106 | beat 1-4 107 107 | sd within slot 0.4
+SF eDNA - Bass - Fender Key Bass MW          n=313 grid 120t (4/beat) | mean vel by slot 0:78 1:78 2:78 3:77 | beat 1-4 78 77 | sd within slot 0.2
+Joey Santiago - Muted Plucks                 n=324 grid 120t (4/beat) | mean vel by slot 0:99 1:99 2:99 3:97 | beat 1-4 99 98 | sd within slot 1.1
+SF Joby Burgess Percussion - Triangles       n=183 grid 480t (1/beat) | mean vel by slot 0:127 | beat 1-4 127 127 | sd within slot 0.0
+SF Hans Zimmer Percussion - Fox - Mid Tom    n=108 grid 960t (1/beat) | mean vel by slot 0:121 | beat 1-4 121 121 | sd within slot 0.8
+StylusRMX 120 Bosso Club                     n=864 grid 120t (4/beat) | mean vel by slot 0:127 1:127 2:127 3:127 | beat 1-4 127 127 | sd within slot 0.0
+Kontakt Facotry Library - World Percussion D n=54 grid 1920t (1/beat) | mean vel by slot 0:50 | beat 1-4  | sd within slot 0.0
+Kontakt Facotry Library - World Percussion C n=243 grid 114t (4/beat) | mean vel by slot 0:117 1:108 2:110 3:108 | beat 1-4 116 | sd within slot 6.3
+Kontakt Facotry Library - World Percussion R n=216 grid 480t (1/beat) | mean vel by slot 0:99 | beat 1-4 103 102 | sd within slot 3.8
+SF The Grange - a - Roger kit - (Performance n=305 grid 240t (2/beat) | mean vel by slot 0:99 1:99 | beat 1-4 101 100 99 99 | sd within slot 1.1
+SF eDNA Earth - Kick 3                       n=190 grid 360t (1/beat) | mean vel by slot 0:83 | beat 1-4 84 83 | sd within slot 0.6
+SF Percussion - Snare 2                      n=71 grid 1920t (1/beat) | mean vel by slot 0:105 | beat 1-4 96 107 | sd within slot 5.3
+SF Percussion - Congas                       n=48 grid 60t (8/beat) | mean vel by slot 0:120 5:117 7:118 | beat 1-4 122 125 | sd within slot 9.5
+SF The Grange - a - Roger kit - (Strict HH)  n=1512 grid 120t (4/beat) | mean vel by slot 0:96 1:83 2:91 3:96 | beat 1-4 95 98 90 100 | sd within slot 12.0
+SF The Grange - a - Roger kit - (Performance n=1296 grid 120t (4/beat) | mean vel by slot 0:99 1:92 2:95 3:97 | beat 1-4 83 96 105 107 | sd within slot 15.5
+SF The Grange a - Roger kit - (Performance H n=69 grid 120t (4/beat) | mean vel by slot 0:108 3:108 | beat 1-4 108 | sd within slot 0.0
+# balfe/6-underground-i-am-the-danger.mid
+SF SYM STR VLN 1 SPICC                       n=512 grid 120t (4/beat) | mean vel by slot 0:95 1:72 2:83 3:72 | beat 1-4 95 95 95 95 | sd within slot 0.0
+SF SYM STR ENS SPICC                         n=656 grid 240t (2/beat) | mean vel by slot 0:114 1:100 | beat 1-4 114 114 114 114 | sd within slot 12.2
+SF MURAL V1 - Sh SPICC                       n=512 grid 120t (4/beat) | mean vel by slot 0:127 1:101 2:113 3:101 | beat 1-4 127 127 127 127 | sd within slot 0.0
+SF UC ORGAN - Choir Manuel                   n=240 grid 240t (2/beat) | mean vel by slot 0:79 1:73 | beat 1-4 88 77 82 74 | sd within slot 6.7
+# balfe/penguins-of-madagascar-main-theme.mid
+SF SYM STR VLN 1 Long                        n=49 grid 80t (6/beat) | mean vel by slot 0:111 2:113 3:122 4:107 5:124 | beat 1-4 127 97 104 | sd within slot 10.0
+SF SYM STR VLN 2 Long                        n=88 grid 360t (1/beat) | mean vel by slot 0:123 | beat 1-4 127 119 | sd within slot 4.2
+SF SYM STR VLN 1 SPICC                       n=695 grid 160t (3/beat) | mean vel by slot 0:114 1:96 2:113 | beat 1-4 121 116 116 119 | sd within slot 24.5
+SF SYM STR CELLO SPICC                       n=210 grid 240t (2/beat) | mean vel by slot 0:120 1:118 | beat 1-4 120 120 119 120 | sd within slot 3.8
+SF SYM STR ENS SPICC                         n=704 grid 240t (2/beat) | mean vel by slot 0:121 1:116 | beat 1-4 121 121 121 122 | sd within slot 16.5
+SF SYM STR ENS SPICC (D)                     n=357 grid 240t (2/beat) | mean vel by slot 0:119 1:117 | beat 1-4 118 122 120 124 | sd within slot 6.6
+SF SYM STR ENS SPICC (D)                     n=906 grid 240t (2/beat) | mean vel by slot 0:123 1:123 | beat 1-4 123 123 123 123 | sd within slot 4.7
+NI Factory Alto Sax                          n=125 grid 360t (1/beat) | mean vel by slot 0:92 | beat 1-4 97 86 112 | sd within slot 15.8
+NI Factory Bari Sax                          n=287 grid 240t (2/beat) | mean vel by slot 0:76 1:75 | beat 1-4 78 81 81 75 | sd within slot 7.8
+NI Factory Bari Sax (D)                      n=297 grid 240t (2/beat) | mean vel by slot 0:108 1:106 | beat 1-4 112 112 112 107 | sd within slot 7.7
+SF SYM BRS Tromb Solo acct                   n=110 grid 360t (1/beat) | mean vel by slot 0:105 | beat 1-4 111 | sd within slot 10.4
+SF SYM BRS TPTa2 Long                        n=92 grid 360t (1/beat) | mean vel by slot 0:123 | beat 1-4 125 121 127 | sd within slot 2.6
+SF SYM BRS TPT Core Tech                     n=183 grid 80t (6/beat) | mean vel by slot 0:108 2:120 3:119 4:122 5:117 | beat 1-4 116 120 77 | sd within slot 19.3
+SF SYM BRS TPT Core Tech (D)                 n=84 grid 80t (6/beat) | mean vel by slot 0:123 2:122 3:122 4:121 5:122 | beat 1-4 123 121 127 | sd within slot 2.3
+SF SYM BRS TPTa2 Long (D)                    n=72 grid 240t (2/beat) | mean vel by slot 0:121 1:120 | beat 1-4 119 127 | sd within slot 8.7
+SF SYM BRS FHNa6 Core Tech                   n=233 grid 80t (6/beat) | mean vel by slot 0:103 2:112 3:111 4:108 5:115 | beat 1-4 107 124 77 | sd within slot 19.4
+SF SYM BRS BTBNa2 Long                       n=54 grid 240t (2/beat) | mean vel by slot 0:121 1:118 | beat 1-4 122 116 120 116 | sd within slot 4.6
+SF SYM BRS BTBNa2 Long (D)                   n=174 grid 80t (6/beat) | mean vel by slot 2:115 3:117 5:112 | beat 1-4 127 127 | sd within slot 4.0
+SF SYM BRS FHNa6 SH STACC                    n=181 grid 480t (1/beat) | mean vel by slot 0:121 | beat 1-4 122 122 124 125 | sd within slot 17.0
+SF SYM BRS BTBNa2 SH STACC (D)               n=821 grid 240t (2/beat) | mean vel by slot 0:121 1:120 | beat 1-4 121 121 120 122 | sd within slot 9.7
+SF SYM BRS BTBNa2 SH STACC (D)               n=193 grid 240t (2/beat) | mean vel by slot 0:112 1:112 | beat 1-4 113 111 112 118 | sd within slot 6.4
+SF SYM BRS TBNa2 SH STACC (D)                n=50 grid 360t (1/beat) | mean vel by slot 0:124 | beat 1-4 127 127 | sd within slot 2.8
+SF SYM BRS TPTa2 SH STACC                    n=87 grid 240t (2/beat) | mean vel by slot 0:106 1:118 | beat 1-4 101 126 91 | sd within slot 33.9
+SF SYM BRS TPT solo stacc                    n=87 grid 80t (6/beat) | mean vel by slot 0:93 2:117 3:114 4:123 5:109 | beat 1-4 105 118 72 | sd within slot 28.0
+SF SYM BRS TUBA SH                           n=193 grid 480t (1/beat) | mean vel by slot 0:120 | beat 1-4 120 120 120 122 | sd within slot 4.5
+SF SYM BRS TPTa2 SH STACC (D)                n=150 grid 80t (6/beat) | mean vel by slot 0:126 2:126 3:123 4:117 5:126 | beat 1-4 126 126 126 126 | sd within slot 3.8
+SF SYM BRS TPTa2 SH STACC (D)                n=154 grid 80t (6/beat) | mean vel by slot 0:127 2:125 3:124 4:124 5:127 | beat 1-4 127 127 127 | sd within slot 2.8
+SF FLUTESa2 SH STACC                         n=348 grid 360t (1/beat) | mean vel by slot 0:102 | beat 1-4 118 119 81 123 | sd within slot 36.6
+SF SYM WW Oboe SH STACC                      n=142 grid 360t (1/beat) | mean vel by slot 0:119 | beat 1-4 115 121 82 126 | sd within slot 21.6
+SF SYM WW CL SH STACC                        n=116 grid 360t (1/beat) | mean vel by slot 0:126 | beat 1-4 127 122 122 126 | sd within slot 2.7
+SF HZ Piano                                  n=398 grid 240t (2/beat) | mean vel by slot 0:121 1:118 | beat 1-4 123 121 119 122 | sd within slot 4.2
+SF HZ Piano (D)                              n=1280 grid 240t (2/beat) | mean vel by slot 0:119 1:120 | beat 1-4 117 117 117 121 | sd within slot 8.5
+SF Amb Guitars Trussart Soft                 n=838 grid 240t (2/beat) | mean vel by slot 0:119 1:119 | beat 1-4 118 118 118 120 | sd within slot 7.8
+Scarbee Pre-Bass                             n=838 grid 240t (2/beat) | mean vel by slot 0:119 1:119 | beat 1-4 118 118 118 120 | sd within slot 7.8
+SF JB Perc Bongos                            n=389 grid 80t (6/beat) | mean vel by slot 0:121 2:113 3:110 4:113 5:104 | beat 1-4 117 124 117 123 | sd within slot 7.9
+SF Grange Chad HH                            n=1142 grid 240t (2/beat) | mean vel by slot 0:109 1:112 | beat 1-4 110 109 109 111 | sd within slot 7.0
+SF Grange ROGER TOMS                         n=1850 grid 160t (3/beat) | mean vel by slot 0:89 1:85 2:91 | beat 1-4 119 66 66 103 | sd within slot 25.9
+StylusRMX Triangle-78-1                      n=533 grid 160t (3/beat) | mean vel by slot 0:125 2:121 | beat 1-4 123 127 | sd within slot 2.7
+SF HZ1 Timp Hits                             n=58 grid 7680t (1/beat) | mean vel by slot 0:84 | beat 1-4 107 | sd within slot 17.0
+# balfe/genius-s2-main-titles.mid
 SF Albion I - Strings - Short Spiccato       n=64 grid 480t (1/beat) | mean vel by slot 0:127 | beat 1-4 127 127 127 127 | sd within slot 0.0
 SF Albion I - Strings - Short Spiccato       n=176 grid 240t (2/beat) | mean vel by slot 0:104 1:85 | beat 1-4 111 89 88 87 | sd within slot 17.6
 SF Chamber Strings -a - Violins 1 - Short Sp n=128 grid 240t (2/beat) | mean vel by slot 0:88 1:85 | beat 1-4 86 89 88 87 | sd within slot 13.7
