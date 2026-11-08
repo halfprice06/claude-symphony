@@ -119,7 +119,7 @@ What this adds for our mockup: (a) shape every phrase, not some: a swell of abou
 
 # Part 4: nineteen more expert mockups (2026-11-08, evening)
 
-Dan asked for as many human expert examples as possible. VI-Control's "Consolidated list of MIDI mockups and project files for study" (read in Dan's Chrome) and Ashton Gleckman's Film Score Hub led to these free files. All were downloaded and analysed in the cloud; nothing was put on the Mac. The MIDI files and projects are not kept in the repo (they are mockups of copyrighted scores). The statistics are in `expert-report.txt` and Bernard Duc's mix in `duc-mix.txt`; the scripts are `scripts/smf2.py`, `rubato.py`, `async.py`, `xsum.py`, `rppmix.py`, `rppau.py` and `proq2.py`.
+Dan asked for as many human expert examples as possible. VI-Control's "Consolidated list of MIDI mockups and project files for study" (read in Dan's Chrome) and Ashton Gleckman's Film Score Hub led to these free files. All were downloaded and analysed in the cloud; nothing was put on the Mac. Copies of the MIDI files and projects are in `mockup-kit/reference/` (see its `INDEX.md`), kept for study only (they are mockups of copyrighted scores). The statistics are in `expert-report.txt` and Bernard Duc's mix in `duc-mix.txt`; the scripts are `scripts/smf2.py`, `rubato.py`, `async.py`, `xsum.py`, `rppmix.py`, `rppau.py` and `proq2.py`.
 
 - **Bernard Duc, Mahler 5 Adagietto** (Cinematic Studio Strings, Embertone solo violin, VSL harp): the full REAPER project and the MIDI.
 - **Bernard Duc, LOTR "The White Tree"** (VSL woodwinds, Spitfire Symphonic Brass, Cinematic Studio Strings with Spitfire Studio Strings, Spitfire percussion): the full REAPER project and the MIDI.
@@ -226,7 +226,7 @@ Libraries: VSL Synchron winds, brass, percussion, harp and pianos in both, run i
 4. **Narrower brass**: narrow the brass stereo width and pan horns left, trumpets right, as an A/B.
 
 # Part 6: Lorne Balfe's MIDI sketches (2026-11-08, night)
-14th Street Music (Lorne Balfe's company) shares the MIDI and Cubase files of several cues on Hightail. Dan uploaded six of the MIDI files. They are in `balfe/`, with the statistics in `balfe-report.txt`.
+14th Street Music (Lorne Balfe's company) shares the MIDI and Cubase files of several cues on Hightail. Dan uploaded six of the MIDI files. They are in `mockup-kit/reference/lorne-balfe/`, with the statistics in `balfe-report.txt`.
 
 | cue | tracks | length | tempo (bpm) | character (my reading of tempo, scoring and notes) |
 |---|---|---|---|---|
