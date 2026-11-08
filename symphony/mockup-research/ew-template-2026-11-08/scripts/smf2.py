@@ -18,7 +18,7 @@ def pearson(a, b):
     return None if not sa or not sb else sum((x-ma)*(y-mb) for x, y in zip(a, b)) / sa / sb
 
 out_json = sys.argv[1]; ALL = {}
-LANES = (1, 11, 2)
+import os; LANES = tuple(int(x) for x in os.environ.get("LANES", "1,11,2").split(","))
 FRACS = (0, .1, .25, .5, .75, .9, 1.0)
 for path in sys.argv[2:]:
     mf = mido.MidiFile(path); PPQ = mf.ticks_per_beat

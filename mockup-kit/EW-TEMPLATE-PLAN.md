@@ -3,7 +3,7 @@
 Dan: "we need to take every bit of this and use it to improve our own scoring." The source is EastWest's official HO REAPER
 template (Templates 2, "Midi Included" demo), and 20 expert MIDI mockups (sections 6-8). The findings are in
 `mockup-kit/EW-TEMPLATE-FINDINGS.md`. Dan, 2026-11-08: "yes to anything you can do ... get them integrated into other
-projects, don't wait for me." **Every item in sections 1-8 is a default for all four movements from each movement's
+projects, don't wait for me." **Every item in sections 1-9 is a default for all four movements from each movement's
 next cycle.** Critics tune the values by measurement; an item is dropped only with numbers showing it made the render
 worse, recorded in LEARNINGS. Where two sources disagree, the rule given here is the default.
 
@@ -136,3 +136,24 @@ with sections 5-7, the c51 critics settle it by measurement; the defaults below 
 - **Tempo for slow movements (Movement II mainly).** Duc's tempo map follows a recording beat by beat: median beat
   deviation 8 %, phrase-end breaths 15-30 % slower, beat 4 about 7 % slower on average. Movement I's Lento and
   ritardandi can use the breath rule.
+
+## 9. Research batch 5: two full Cubase projects on a wet stage library (FINDINGS.md part 5)
+Goldsmith's Mulan overture and Hisaishi's Howl's Moving Castle, both on VSL Synchron, which like HO is recorded with its
+room. Defaults under Dan's standing rule; critics tune the values.
+- **Reverb sends by register (default; targets "still mushy").** Howl's sends nothing to the hall from bassoons,
+  contrabassoon, trombones or tuba, -16 dB from basses and trumpets, and -10 dB from the other winds and strings; Mulan
+  sends nothing from its Synchron instruments. On top of the section 2 family sends: bassoons, contrabassoon, trombones,
+  tuba and basses send 10 dB less than their family (or nothing, if the critics measure no loss of blend); trumpets 6 dB
+  less; percussion unchanged. Duc's low-string short cut (section 8) stacks with this.
+- **Darker hall tail (default, tuned by measurement).** Both use a Lexicon Random Hall with the tail low-passed at
+  1.8 kHz, 25 ms pre-delay, 2.5-3.6 s. Add a low-pass at 2.3 kHz after Spaces II on each return (try 1.8 kHz if still
+  bright). The finale's first template render measured too bright (6-20 kHz share -25 dB against -29 to -32), so start
+  here before cutting the family shelves.
+- **Hairpin shapes (default, inside the section 8 phrase arch).** Crescendos rise early and then settle: the control
+  point sits at 34 % of the time with 88 % of the rise. Diminuendos hold, then fall on the last held note. Winds and
+  brass may fade nearly to nothing before a rest.
+- **Brass as narrow sources (default).** Horns left at 15-47 % width, trumpets right at about 43 %, trombones centre to
+  right. Applies to the Close mic seat and the REAPER track pan; Main stays full width (section 1).
+- **Tempo.** Both change tempo on about 20 % of beats, with 20-26 breaths more than 15 % slower: supports the section 8
+  breath rule.
+- **Not for HO.** Howl's repeated notes nearly touch only because VSL switches samples itself; keep 60-100 ms gaps.

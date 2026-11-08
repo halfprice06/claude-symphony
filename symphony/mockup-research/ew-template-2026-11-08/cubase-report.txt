@@ -1,0 +1,177 @@
+Cubase projects: Goldsmith 'Mulan' overture (mulan.cpr) and Hisaishi 'Howl's Moving Castle' symphonic variation (howl.cpr)
+Read with scripts/cpr2mid.py (CURVE=travel) then smf2.py with LANES=1,8,11 (Mulan) and 2,8,11 (Howl's); rubato.py; async.py.
+
+
+######## mulan_cpr_travel.mid: PPQ 480, 55 tempi 39..187 bpm, 140 tempo events
+- Piccolo | n=74 vel 86 [86..104] d=11 | grid 100% mode +0ms (100%) | dur 311 | ov 115 (n=7) gap 32 rep 34 (n=1) | phr 9 ~2.2s | CC8:727ev 0-127 1.8/s CC11:635ev 33-127 1.5/s CC7:3ev 101-127 0.0/s
+- Flute 1 | n=284 vel 104 [101..104] d=20 | grid 93% mode +0ms (93%) | dur 457 | ov 176 (n=133) gap 31 rep 31 (n=15) | phr 45 ~2.3s | CC8:1075ev 0-127 2.6/s CC11:1046ev 21-127 2.5/s CC7:14ev 101-127 0.0/s
+- Flute 2 | n=121 vel 101 [101..104] d=5 | grid 0% mode +6ms (25%) | dur 657 | ov 178 (n=48) gap 31 rep 97 (n=8) | phr 33 ~2.2s | CC8:1075ev 0-127 2.6/s CC11:1050ev 27-127 2.5/s CC7:4ev 101-111 0.0/s
+- Oboe 1 | n=266 vel 86 [86..101] d=9 | grid 1% mode +7ms (30%) | dur 470 | ov 176 (n=106) gap 31 rep 31 (n=14) | phr 52 ~0.3s | CC8:1565ev 0-127 3.7/s CC11:1543ev 0-127 3.7/s CC7:148ev 51-119 0.4/s
+- Oboe 2 | n=183 vel 86 [86..101] d=9 | grid 32% mode +0ms (32%) | dur 335 | ov 197 (n=67) gap 31 rep 31 (n=11) | phr 37 ~2.2s | CC11:914ev 18-127 2.2/s CC8:912ev 0-127 2.2/s CC7:11ev 51-86 0.0/s
+- syzd Oboe 1 (D) | n=218 vel 40 [40..86] d=21 | grid 33% mode +0ms (33%) | dur 119 | ov 197 (n=70) gap 81 rep 0.0 (n=1) | phr 10 ~7.2s | CC8:1629ev 0-127 3.9/s CC11:1567ev 0-127 3.7/s CC7:252ev 51-127 0.7/s
+- Clarinet 1 | n=242 vel 101 [86..112] d=18 | grid 94% mode +0ms (94%) | dur 492 | ov 141 (n=120) gap 31 rep 31 (n=16) | phr 44 ~1.0s | CC11:1188ev 18-127 2.8/s CC8:1170ev 0-127 2.8/s CC7:17ev 51-101 0.0/s
+- Clarinet 2 | n=123 vel 101 [86..104] d=6 | grid 93% mode +0ms (93%) | dur 290 | ov 49 (n=40) gap 31 rep 31 (n=12) | phr 28 ~0.3s | CC11:695ev 25-127 2.5/s CC8:694ev 0-127 2.5/s CC7:12ev 51-127 0.0/s
+- Syzd Clarinet 1 (D) | n=104 vel 102 [40..127] d=19 | grid 64% mode +0ms (64%) | dur 475 | ov 141 (n=48) gap 51 rep None (n=0) | phr 10 ~5.0s | CC8:1285ev 0-127 3.1/s CC11:1221ev 18-127 2.9/s CC7:111ev 51-127 0.3/s
+- Bass Clarinet | n=63 vel 86 [86..101] d=7 | grid 100% mode +0ms (100%) | dur 724 | ov None (n=0) gap 67 rep 82 (n=20) | phr 24 ~3.0s | CC8:946ev 0-127 2.3/s CC11:192ev 71-127 0.5/s
+- Bassoon 1 | n=175 vel 86 [86..101] d=7 | grid 100% mode +0ms (100%) | dur 296 | ov 308 (n=3) gap 32 rep 133 (n=19) | phr 77 ~0.6s | CC8:1219ev 0-127 2.9/s CC11:449ev 20-127 1.1/s CC7:3ev 85-90 0.0/s
+- Bassoon 2 | n=109 vel 86 [86..86] d=2 | grid 100% mode +0ms (100%) | dur 296 | ov 69 (n=1) gap 32 rep 57 (n=4) | phr 35 ~0.8s | CC8:310ev 0-127 1.1/s CC11:289ev 0-127 1.0/s CC7:3ev 108-113 0.0/s
+- Contrabassoon | n=60 vel 101 [101..101] d=6 | grid 100% mode +0ms (100%) | dur 723 | ov None (n=0) gap 81 rep 155 (n=14) | phr 43 ~0.3s | CC8:1201ev 0-127 2.9/s CC11:449ev 20-127 1.1/s
+- Horn 1 | n=162 vel 101 [86..111] d=17 | grid 86% mode +0ms (86%) | dur 654 | ov 144 (n=84) gap 34 rep 113 (n=12) | phr 42 ~2.8s | CC8:2544ev 0-127 6.1/s CC11:2240ev 22-127 5.4/s CC7:89ev 71-127 0.2/s
+- Horn 2 | n=127 vel 100 [86..111] d=15 | grid 82% mode +0ms (82%) | dur 574 | ov 125 (n=63) gap 36 rep 153 (n=4) | phr 34 ~2.8s | CC8:2639ev 0-127 6.3/s CC11:2229ev 22-127 5.3/s CC7:73ev 71-122 0.2/s
+- Horn 1 Lyrical | n=70 vel 80 [80..80] d=4 | grid 99% mode +0ms (99%) | dur 645 | ov 158 (n=42) gap 7 rep 7 (n=1) | phr 22 ~2.5s | CC8:2649ev 0-127 6.3/s CC11:2287ev 0-127 5.5/s CC7:26ev 60-120 0.1/s
+- Horn 1 Lyrical Brighter | n=22 vel 80 [33..80] d=8 | grid 100% mode +0ms (100%) | dur 1160 | ov 285 (n=18) gap 110 rep None (n=0) | phr 3 ~5.5s | CC8:2642ev 0-127 6.3/s CC11:2306ev 0-127 5.5/s CC7:55ev 60-120 0.1/s
+- Horn 2 lyrical | n=107 vel 80 [80..111] d=7 | grid 79% mode +0ms (79%) | dur 582 | ov 137 (n=69) gap 21 rep 4 (n=4) | phr 24 ~2.7s | CC8:2637ev 0-127 6.3/s CC11:2317ev 22-127 5.5/s CC7:43ev 81-127 0.1/s
+- Horn 3 | n=68 vel 86 [86..101] d=12 | grid 100% mode +0ms (100%) | dur 844 | ov 121 (n=19) gap 73 rep 58 (n=6) | phr 29 ~2.4s | CC8:2560ev 0-127 6.1/s CC11:2156ev 22-127 5.2/s CC7:2ev 81-81 0.0/s
+- Horn 4 | n=34 vel 86 [86..111] d=4 | grid 100% mode +0ms (100%) | dur 812 | ov 137 (n=13) gap 60 rep 39 (n=2) | phr 13 ~2.6s | CC8:2476ev 0-127 5.9/s CC11:2154ev 22-127 5.2/s CC7:5ev 71-101 0.0/s
+- horns x6 | n=59 vel 111 [101..118] d=8 | grid 63% mode +0ms (63%) | dur 608 | ov 214 (n=40) gap 34 rep None (n=0) | phr 8 ~2.8s | CC8:2371ev 0-127 5.7/s CC11:2043ev 22-127 5.0/s CC7:7ev 81-116 0.0/s
+- Trumpet 1 | n=55 vel 104 [86..111] d=7 | grid 93% mode +0ms (93%) | dur 719 | ov 186 (n=24) gap 23 rep 61 (n=3) | phr 23 ~0.3s | CC8:426ev 0-127 1.0/s CC11:276ev 44-127 0.7/s CC7:59ev 71-105 0.1/s
+- Trumpet 2 | n=24 vel 111 [111..112] d=6 | grid 100% mode +0ms (100%) | dur 277 | ov None (n=0) gap 81 rep 39 (n=3) | phr 19 ~0.3s | CC8:156ev 0-127 0.4/s CC11:83ev 44-127 0.2/s CC7:3ev 71-91 0.0/s
+- Trumpet 3 | n=26 vel 111 [111..112] d=6 | grid 100% mode +0ms (100%) | dur 277 | ov 209 (n=2) gap 81 rep 39 (n=3) | phr 19 ~0.3s | CC8:140ev 0-127 0.3/s CC11:83ev 44-127 0.2/s CC7:3ev 71-91 0.0/s
+- trumpet mute 1 | n=47 vel 112 [112..112] d=1 | grid 36% mode +0ms (36%) | dur 149 | ov None (n=0) gap 17 rep None (n=0) | phr 35 ~0.1s | CC11:5ev 82-127 0.1/s CC8:4ev 127-127 0.1/s CC7:3ev 91-106 0.1/s
+- trumpet mute 2 | n=47 vel 112 [112..112] d=1 | grid 34% mode +0ms (34%) | dur 149 | ov None (n=0) gap 15 rep 27 (n=1) | phr 35 ~0.1s | CC11:6ev 81-127 0.2/s CC7:3ev 91-96 0.1/s
+- trumpet mute 3 | n=47 vel 112 [112..112] d=1 | grid 38% mode +0ms (38%) | dur 149 | ov None (n=0) gap 16 rep 16 (n=1) | phr 35 ~0.1s | CC11:5ev 81-127 0.1/s CC7:3ev 91-96 0.1/s
+- Trombone 1 | n=74 vel 101 [86..108] d=8 | grid 100% mode +0ms (100%) | dur 762 | ov 379 (n=1) gap 83 rep 155 (n=11) | phr 46 ~0.3s | CC8:1162ev 0-127 3.2/s CC11:1090ev 47-127 3.0/s CC7:42ev 71-101 0.3/s
+- Trombone 2 | n=73 vel 101 [86..108] d=7 | grid 100% mode +0ms (100%) | dur 762 | ov None (n=0) gap 83 rep 155 (n=11) | phr 45 ~0.3s | CC8:1127ev 0-127 3.1/s CC11:1053ev 47-127 2.9/s CC7:2ev 71-81 0.2/s
+- Trombone mute 1 | n=63 vel 112 [112..112] d=1 | grid 100% mode +0ms (100%) | dur 149 | ov None (n=0) gap 15 rep 15 (n=16) | phr 35 ~0.3s | CC7:4ev 90-127 0.1/s CC8:2ev 100-127 0.2/s
+- Trombone mute 2 | n=33 vel 112 [112..112] d=2 | grid 100% mode +0ms (100%) | dur 146 | ov None (n=0) gap 15 rep 15 (n=16) | phr 17 ~0.3s | CC8:2ev 100-127 0.2/s CC7:2ev 90-127 0.2/s
+- Bass Trombone | n=73 vel 101 [86..108] d=7 | grid 100% mode +0ms (100%) | dur 762 | ov None (n=0) gap 83 rep 152 (n=14) | phr 45 ~0.3s | CC8:1125ev 0-127 3.1/s CC11:1053ev 46-127 2.9/s CC7:2ev 71-81 0.2/s
+- Tuba | n=95 vel 108 [71..111] d=9 | grid 100% mode +0ms (100%) | dur 346 | ov 183 (n=6) gap 34 rep 152 (n=14) | phr 46 ~0.3s | CC8:896ev 0-127 2.5/s CC11:798ev 0-127 2.3/s CC7:98ev 71-101 0.3/s
+- Timpani | n=127 vel 86 [77..103] d=20 | grid 80% mode +0ms (80%) | dur 544 | ov 242 (n=10) gap 60 rep 27 (n=7) | phr 62 ~0.6s | CC1:464ev 44-127 1.3/s CC7:196ev 0-127 0.5/s CC28:13ev 0-127 0.0/s | r(vel,cc1)=0.26
+- Bass Drum | n=58 vel 70 [70..70] d=4 | grid 98% mode +0ms (98%) | dur 345 | ov None (n=0) gap 33 rep 33 (n=34) | phr 23 ~1.3s | CC7:3ev 71-127 0.0/s
+- Swordstick | n=118 vel 70 [69..71] d=9 | grid 100% mode +0ms (100%) | dur 277 | ov None (n=0) gap 28 rep 28 (n=109) | phr 9 ~2.3s | CC7:3ev 51-61 0.0/s
+- Triangle | n=15 vel 96 [96..101] d=2 | grid 100% mode +0ms (100%) | dur 562 | ov None (n=0) gap 80 rep 80 (n=13) | phr 8 ~1.1s | CC7:2ev 93-106 0.1/s
+- orchestral bells | n=47 vel 40 [40..88] d=4 | grid 100% mode +0ms (100%) | dur 545 | ov 269 (n=14) gap 15 rep 5 (n=2) | phr 5 ~4.6s | CC7:4ev 71-81 0.0/s CC11:2ev 127-127 0.0/s
+- Woodblock | n=43 vel 89 [87..90] d=8 | grid 100% mode +0ms (100%) | dur 149 | ov None (n=0) gap 15 rep 15 (n=42) | phr 1 ~9.5s | CC7:4ev 61-81 0.1/s
+- temple block | n=15 vel 88 [88..88] d=1 | grid 100% mode +0ms (100%) | dur 290 | ov None (n=0) gap 23 rep 15 (n=3) | phr 3 ~1.3s | CC7:2ev 66-81 0.2/s
+- Xylophone | n=31 vel 102 [102..102] d=1 | grid 100% mode +0ms (100%) | dur 290 | ov None (n=0) gap 31 rep None (n=0) | phr 5 ~1.6s | 
+- Medium Taiko | n=125 vel 75 [60..88] d=24 | grid 74% mode +0ms (74%) | dur 503 | ov None (n=0) gap 19 rep 60 (n=75) | phr 70 ~0.7s | CC7:5ev 56-101 0.0/s
+- small chinese drum | n=390 vel 91 [85..103] d=28 | grid 54% mode +0ms (54%) | dur 185 | ov None (n=0) gap 19 rep 19 (n=374) | phr 16 ~2.5s | CC7:3ev 76-127 0.0/s
+- Drum Set | n=50 vel 85 [85..85] d=1 | grid 100% mode +0ms (100%) | dur 713 | ov None (n=0) gap 77 rep None (n=0) | phr 1 ~20.0s | 
+- Harp | n=817 vel 92 [86..108] d=48 | grid 73% mode +0ms (73%) | dur 293 | ov 155 (n=147) gap 3 rep 13 (n=2) | phr 70 ~0.3s | CC7:31ev 81-127 0.1/s CC11:2ev 127-127 0.1/s
+- Celesta | n=348 vel 86 [86..86] d=15 | grid 93% mode +0ms (93%) | dur 163 | ov 237 (n=19) gap 1 rep 216 (n=1) | phr 26 ~0.7s | CC7:43ev 89-112 0.3/s
+- Piano | n=388 vel 60 [60..60] d=5 | grid 52% mode +0ms (52%) | dur 353 | ov 272 (n=40) gap 36 rep 26 (n=3) | phr 38 ~0.3s | 
+- solo violin | n=580 vel 71 [40..101] d=16 | grid 47% mode +0ms (47%) | dur 211 | ov 141 (n=250) gap 15 rep 25 (n=2) | phr 32 ~1.0s | CC1:4171ev 0-127 10.0/s CC11:1184ev 0-127 2.9/s CC7:548ev 0-71 1.4/s CC28:12ev 0-127 0.0/s | r(vel,cc1)=0.38
+- Violins 1 | n=260 vel 101 [86..101] d=11 | grid 82% mode +0ms (82%) | dur 621 | ov 152 (n=159) gap 15 rep 104 (n=3) | phr 28 ~0.8s | CC1:4016ev 0-127 9.6/s CC11:1173ev 47-127 2.9/s CC7:133ev 71-127 0.3/s CC28:11ev 0-127 0.0/s | r(vel,cc1)=0.70
+- Violins 1 Elite double | n=275 vel 101 [86..101] d=13 | grid 4% mode +4ms (4%) | dur 677 | ov 139 (n=171) gap 23 rep 47 (n=3) | phr 35 ~1.1s | CC1:4126ev 0-127 9.9/s CC11:1203ev 47-127 3.0/s CC7:160ev 50-127 0.4/s CC28:11ev 0-127 0.0/s | r(vel,cc1)=0.61
+- Violins 1 pro wetter | n=15 vel 86 [86..86] d=1 | grid 100% mode +0ms (100%) | dur 1217 | ov None (n=0) gap -0.0 rep None (n=0) | phr 6 ~2.6s | CC1:3983ev 0-127 9.5/s CC11:1173ev 47-127 2.9/s CC7:78ev 30-127 0.2/s CC28:11ev 0-127 0.0/s
+- Violins 1a elite | n=19 vel 101 [90..101] d=2 | grid 95% mode +0ms (95%) | dur 622 | ov 107 (n=13) gap 1 rep None (n=0) | phr 3 ~3.0s | CC1:383ev 0-127 3.2/s CC7:6ev 91-127 0.0/s CC8:4ev 101-127 0.0/s CC11:4ev 127-127 0.1/s | r(vel,cc1)=-0.65
+- Violins 1 harmonics | n=35 vel 86 [86..86] d=2 | grid 94% mode +0ms (94%) | dur 290 | ov 208 (n=3) gap 31 rep None (n=0) | phr 6 ~1.6s | CC8:72ev 88-127 6.6/s CC7:2ev 91-92 0.2/s
+- Violins 2 | n=261 vel 101 [101..101] d=4 | grid 78% mode +0ms (78%) | dur 681 | ov 206 (n=155) gap 31 rep 94 (n=4) | phr 43 ~0.9s | CC1:4308ev 0-127 10.3/s CC11:1072ev 8-127 2.6/s CC7:80ev 71-127 0.2/s CC28:14ev 0-127 0.1/s | r(vel,cc1)=0.17
+- Violins 2 harmonics | n=35 vel 70 [70..70] d=2 | grid 94% mode +0ms (94%) | dur 290 | ov 208 (n=3) gap 31 rep None (n=0) | phr 6 ~1.6s | CC8:72ev 88-127 6.6/s
+- Violas | n=237 vel 101 [101..101] d=2 | grid 82% mode +0ms (82%) | dur 830 | ov 221 (n=151) gap 32 rep 41 (n=15) | phr 42 ~0.9s | CC1:4253ev 0-127 10.2/s CC11:1146ev 8-127 2.8/s CC7:241ev 91-127 0.6/s CC28:14ev 0-127 0.1/s | r(vel,cc1)=0.77
+- Violas a elite | n=83 vel 45 [35..101] d=3 | grid 100% mode +0ms (100%) | dur 293 | ov 232 (n=13) gap 32 rep 0.0 (n=7) | phr 27 ~0.3s | CC1:1448ev 17-127 4.1/s CC11:83ev 94-127 0.3/s CC8:82ev 45-127 0.3/s CC28:4ev 0-127 0.0/s | r(vel,cc1)=-0.90
+- Viola b elite | n=75 vel 45 [35..101] d=3 | grid 69% mode +0ms (69%) | dur 293 | ov 307 (n=5) gap 31 rep 0.0 (n=11) | phr 26 ~0.3s | CC1:1447ev 24-127 4.1/s CC7:6ev 71-81 0.0/s CC28:4ev 0-127 0.0/s | r(vel,cc1)=-0.90
+- solo cello | n=167 vel 40 [40..70] d=8 | grid 100% mode +0ms (100%) | dur 111 | ov 216 (n=22) gap 108 rep None (n=0) | phr 21 ~0.8s | CC8:143ev 6-127 2.0/s CC11:57ev 72-127 0.8/s
+- Cellos | n=231 vel 101 [86..101] d=7 | grid 100% mode +0ms (100%) | dur 392 | ov 198 (n=46) gap 32 rep 0.0 (n=23) | phr 66 ~0.4s | CC1:2043ev 0-127 4.9/s CC11:67ev 70-127 0.2/s CC28:9ev 0-127 0.0/s CC7:6ev 71-101 0.0/s | r(vel,cc1)=-0.20
+- Cellos a elite | n=55 vel 101 [35..101] d=2 | grid 98% mode +0ms (98%) | dur 1074 | ov 317 (n=10) gap -0.0 rep 0.0 (n=10) | phr 27 ~0.3s | CC1:1714ev 0-127 4.9/s CC11:258ev 39-127 1.0/s CC7:71ev 61-72 0.2/s CC28:2ev 0-127 0.0/s | r(vel,cc1)=-0.89
+- Cellos b elite | n=56 vel 101 [35..101] d=2 | grid 98% mode +0ms (98%) | dur 1126 | ov 294 (n=14) gap 92 rep 98 (n=9) | phr 27 ~0.3s | CC1:1687ev 0-127 4.8/s CC11:258ev 39-127 1.0/s CC7:68ev 61-71 0.2/s CC28:2ev 0-127 0.0/s | r(vel,cc1)=-0.85
+- Basses | n=211 vel 101 [86..101] d=3 | grid 100% mode +0ms (100%) | dur 666 | ov 187 (n=39) gap 81 rep 138 (n=30) | phr 122 ~0.6s | CC1:3668ev 0-127 8.9/s CC11:337ev 63-127 1.2/s CC28:11ev 0-127 0.0/s | r(vel,cc1)=0.47
+== file summary
+CC1: phrases>=1.5s n=142, moving(>=6) 79%
+   arc (value minus phrase max): 0% -21 [-47..0] n=142; 10% -10 [-33..0] n=142; 25% -14 [-29..0] n=142; 50% -11 [-34..0] n=142; 75% -14 [-34..-1] n=142; 90% -18 [-51..0] n=142; 100% -32 [-89..0] n=142
+   arc range 62 [36..96] n=142; peak position 0.05 [0.00..0.50] n=142
+   onset value 101 [37..127] n=546; pre-roll change in 300ms before onset 0 [0..0] n=546
+   ramp first 500ms 0 [0..23] n=142; end taper last 1000ms -10 [-29..0] n=142
+   long notes >=1.2s (n=568) change vs onset at 25/50/75/100%: 0 [-3..28] n=568, 0 [-14..35] n=568, -6 [-29..26] n=568, -4 [-40..15] n=568
+      share rising to mid >=4: 44%, falling at end <=-4 vs mid: 64%, flat (all |d|<3): 6%
+CC8: phrases>=1.5s n=443, moving(>=6) 79%
+   arc (value minus phrase max): 0% 0 [-10..0] n=443; 10% 0 [0..0] n=443; 25% 0 [-1..0] n=443; 50% -1 [-11..0] n=443; 75% -15 [-31..0] n=443; 90% -30 [-62..0] n=443; 100% -97 [-120..0] n=443
+   arc range 104 [43..127] n=443; peak position 0.00 [0.00..0.03] n=443
+   onset value 127 [111..127] n=925; pre-roll change in 300ms before onset 0 [0..0] n=925
+   ramp first 500ms 0 [0..0] n=443; end taper last 1000ms -77 [-102..0] n=443
+   long notes >=1.2s (n=601) change vs onset at 25/50/75/100%: -1 [-3..0] n=601, -4 [-16..0] n=601, -15 [-44..0] n=601, -27 [-111..0] n=601
+      share rising to mid >=4: 19%, falling at end <=-4 vs mid: 62%, flat (all |d|<3): 25%
+CC11: phrases>=1.5s n=563, moving(>=6) 59%
+   arc (value minus phrase max): 0% 0 [0..0] n=563; 10% 0 [0..0] n=563; 25% 0 [0..0] n=563; 50% 0 [-1..0] n=563; 75% 0 [-14..0] n=563; 90% -3 [-33..0] n=563; 100% -19 [-64..0] n=563
+   arc range 46 [0..66] n=563; peak position 0.00 [0.00..0.00] n=563
+   onset value 127 [127..127] n=1341; pre-roll change in 300ms before onset 0 [0..0] n=1341
+   ramp first 500ms 0 [0..0] n=563; end taper last 1000ms -14 [-56..0] n=563
+   long notes >=1.2s (n=1102) change vs onset at 25/50/75/100%: 0 [-1..0] n=1102, 0 [-3..0] n=1102, 0 [-12..0] n=1102, 0 [-29..0] n=1102
+      share rising to mid >=4: 8%, falling at end <=-4 vs mid: 32%, flat (all |d|<3): 61%
+
+mulan_cpr_travel.mid: 645 beats, tempo changes on 20% of beats; |dev| median 0.0%, 90th pct 8.1%; beats >15% slower 20, >25% slower 4; 4-bar medians 63..187 bpm
+mulan_cpr_travel.mid: 722 entries of 3+ tracks; spread first-to-last track ms median 8, IQR 0..24; exactly together (<1 ms) 29%
+   family offset vs entry median ms: brass -0 (n=1253), keys/harp -3 (n=411), other +0 (n=48), perc -0 (n=841), str-long -1 (n=2160), winds +2 (n=1787)
+
+
+######## howl_from_cpr.mid: PPQ 480, 67 tempi 27..195 bpm, 154 tempo events
+- Piccolo | n=427 vel 101 [88..106] d=49 | grid 2% mode -5ms (4%) | dur 193 | ov 66 (n=233) gap 10 rep 5 (n=31) | phr 42 ~1.5s | CC11:671ev 0-127 1.8/s CC8:545ev 0-127 1.4/s CC7:55ev 102-127 0.1/s
+- Flute 1 | n=604 vel 101 [88..106] d=64 | grid 4% mode +0ms (4%) | dur 174 | ov 59 (n=332) gap 11 rep 10 (n=52) | phr 60 ~1.5s | CC11:805ev 0-127 2.1/s CC8:679ev 0-127 1.8/s CC7:37ev 92-127 0.1/s
+- flute 2 | n=587 vel 89 [86..102] d=65 | grid 2% mode -4ms (2%) | dur 173 | ov 59 (n=336) gap 14 rep 11 (n=53) | phr 55 ~1.5s | CC11:771ev 0-127 2.0/s CC8:638ev 0-127 1.7/s CC7:12ev 92-127 0.0/s
+- flute 3 | n=18 vel 101 [88..101] d=5 | grid 0% mode -3ms (11%) | dur 155 | ov 123 (n=6) gap 109 rep 154 (n=4) | phr 9 ~0.1s | CC11:698ev 0-127 1.8/s CC8:638ev 0-127 1.7/s CC7:2ev 102-102 20.9/s
+- Oboe 1 | n=486 vel 85 [70..101] d=76 | grid 4% mode +0ms (4%) | dur 175 | ov 55 (n=271) gap 8 rep 5 (n=37) | phr 67 ~1.2s | CC11:1037ev 0-127 2.5/s CC8:948ev 0-127 2.5/s CC7:19ev 72-127 0.1/s CC34:3ev 0-64 0.0/s
+- Oboe 2 | n=426 vel 87 [71..101] d=73 | grid 7% mode +0ms (7%) | dur 171 | ov 54 (n=239) gap 15 rep 9 (n=36) | phr 61 ~1.2s | CC11:1188ev 0-127 3.1/s CC8:1058ev 0-127 2.8/s CC7:11ev 72-127 0.0/s CC34:3ev 0-64 0.0/s
+- English horn | n=270 vel 100 [85..101] d=51 | grid 4% mode +0ms (4%) | dur 359 | ov 59 (n=103) gap 8 rep 4 (n=57) | phr 57 ~0.7s | CC11:1210ev 0-127 3.1/s CC8:1133ev 0-127 2.9/s CC7:12ev 72-102 0.0/s CC34:3ev 0-64 0.0/s
+- smart clarinet | n=19 vel 101 [85..102] d=10 | grid 5% mode +11ms (58%) | dur 829 | ov 207 (n=14) gap 17 rep None (n=0) | phr 3 ~3.9s | CC8:193ev 0-127 8.7/s CC11:123ev 0-127 5.4/s CC7:53ev 110-127 2.8/s
+- Clarinet 1 | n=526 vel 92 [76..108] d=69 | grid 3% mode +0ms (3%) | dur 193 | ov 45 (n=286) gap 7 rep 1 (n=41) | phr 68 ~1.0s | CC8:1251ev 0-127 3.1/s CC11:1219ev 0-127 3.0/s CC7:155ev 82-127 0.5/s
+- Clarinet 2 | n=430 vel 86 [71..101] d=74 | grid 7% mode +0ms (7%) | dur 243 | ov 50 (n=193) gap 6 rep 3 (n=68) | phr 94 ~0.5s | CC11:956ev 0-127 2.4/s CC8:956ev 0-127 2.4/s CC7:148ev 82-127 0.5/s
+- Clarinet 3 | n=238 vel 101 [86..101] d=50 | grid 3% mode -1ms (6%) | dur 253 | ov 62 (n=101) gap 4 rep 2 (n=50) | phr 38 ~0.9s | CC11:1151ev 0-127 2.9/s CC8:912ev 30-127 2.3/s CC7:210ev 102-127 0.7/s
+- Bass Clarinet | n=108 vel 77 [58..101] d=30 | grid 2% mode -3ms (6%) | dur 247 | ov 25 (n=23) gap 6 rep 9 (n=52) | phr 30 ~0.7s | CC8:167ev 66-127 0.6/s CC11:160ev 80-127 0.6/s
+- Bassoon 1 | n=408 vel 101 [86..105] d=67 | grid 5% mode +0ms (5%) | dur 253 | ov 27 (n=124) gap 6 rep 6 (n=132) | phr 79 ~0.8s | CC11:1134ev 0-127 2.9/s CC8:1099ev 0-127 2.8/s CC7:132ev 93-127 0.3/s
+- Bassoon 2 | n=300 vel 101 [77..101] d=49 | grid 7% mode +0ms (7%) | dur 298 | ov 13 (n=54) gap 4 rep 7 (n=138) | phr 86 ~0.5s | CC8:550ev 0-127 2.0/s CC11:549ev 0-127 2.0/s CC7:44ev 102-127 0.1/s
+- Contrabassoon | n=245 vel 86 [70..101] d=45 | grid 20% mode +0ms (20%) | dur 491 | ov 26 (n=37) gap 6 rep 7 (n=104) | phr 79 ~0.5s | CC11:507ev 0-127 1.8/s CC8:506ev 0-127 1.8/s CC7:42ev 90-127 0.1/s
+- Horns x6 | n=85 vel 108 [101..108] d=4 | grid 5% mode +4ms (9%) | dur 340 | ov 91 (n=28) gap 31 rep 64 (n=5) | phr 3 ~8.0s | CC11:224ev 0-127 2.6/s CC8:223ev 0-127 2.5/s CC7:4ev 102-127 0.0/s
+- Horn 1 | n=336 vel 101 [87..101] d=45 | grid 7% mode +0ms (7%) | dur 201 | ov 54 (n=111) gap 15 rep 5 (n=78) | phr 37 ~2.2s | CC11:1442ev 0-127 3.7/s CC8:1338ev 0-127 3.4/s CC7:320ev 82-127 0.8/s
+- horn 2 | n=303 vel 100 [85..101] d=45 | grid 6% mode +0ms (6%) | dur 178 | ov 22 (n=94) gap 17 rep 9 (n=72) | phr 42 ~0.7s | CC11:1318ev 0-127 3.4/s CC8:1214ev 0-127 3.1/s CC7:147ev 92-127 0.4/s
+- Horn 3 | n=215 vel 92 [81..101] d=42 | grid 2% mode -1ms (4%) | dur 253 | ov 17 (n=31) gap 6 rep 1 (n=101) | phr 47 ~1.0s | CC11:849ev 0-127 2.3/s CC8:752ev 0-127 2.0/s CC7:143ev 92-112 0.4/s
+- Horn 4 | n=211 vel 90 [81..101] d=41 | grid 6% mode +0ms (6%) | dur 253 | ov 5 (n=24) gap 6 rep 6 (n=113) | phr 45 ~1.0s | CC11:747ev 0-127 2.0/s CC8:659ev 0-127 1.8/s CC7:143ev 82-112 0.4/s
+- Trumpet 1 | n=256 vel 104 [101..106] d=42 | grid 7% mode +0ms (7%) | dur 203 | ov 46 (n=93) gap 13 rep 14 (n=37) | phr 63 ~0.6s | CC8:771ev 0-127 1.9/s CC11:747ev 0-127 1.9/s CC7:53ev 102-127 0.1/s
+- Trumpet 2 | n=212 vel 101 [83..101] d=38 | grid 8% mode +0ms (8%) | dur 247 | ov 71 (n=59) gap 7 rep 6 (n=63) | phr 51 ~0.6s | CC11:620ev 0-127 1.6/s CC8:588ev 0-127 1.5/s CC7:36ev 102-127 0.1/s
+- trumpet 3 | n=186 vel 93 [79..101] d=38 | grid 9% mode +0ms (9%) | dur 314 | ov 28 (n=41) gap 8 rep 5 (n=62) | phr 50 ~0.6s | CC8:586ev 0-127 1.5/s CC11:572ev 0-127 1.4/s CC7:180ev 102-127 0.5/s
+- trumpet 1 mute | n=18 vel 101 [100..107] d=13 | grid 0% mode -20ms (11%) | dur 262 | ov 11 (n=13) gap 6 rep None (n=0) | phr 2 ~2.3s | CC7:96ev 102-127 5.4/s
+- Trombone 1 | n=272 vel 81 [66..101] d=61 | grid 5% mode +0ms (5%) | dur 255 | ov 14 (n=40) gap 7 rep 8 (n=121) | phr 82 ~0.5s | CC11:272ev 0-127 0.7/s CC8:236ev 0-127 0.6/s CC7:128ev 102-115 0.3/s
+- Trombone 2 | n=224 vel 83 [61..101] d=51 | grid 7% mode +0ms (7%) | dur 257 | ov 6 (n=21) gap 5 rep 6 (n=116) | phr 70 ~0.5s | CC11:349ev 0-127 0.9/s CC8:311ev 0-127 0.8/s CC7:128ev 82-115 0.3/s
+- trombone 3 | n=238 vel 85 [63..101] d=47 | grid 8% mode +0ms (8%) | dur 258 | ov 17 (n=21) gap 6 rep 6 (n=118) | phr 78 ~0.5s | CC11:351ev 0-127 0.9/s CC8:315ev 0-127 0.9/s CC7:127ev 82-115 0.3/s
+- Bass Trombone | n=231 vel 83 [61..101] d=50 | grid 4% mode +1ms (5%) | dur 259 | ov 9 (n=25) gap 6 rep 5 (n=106) | phr 79 ~0.5s | CC11:304ev 0-127 0.8/s CC8:262ev 0-127 0.7/s CC7:6ev 92-102 0.0/s
+- trombones x4 | n=18 vel 81 [81..81] d=1 | grid 11% mode +8ms (17%) | dur 253 | ov None (n=0) gap 9 rep 131 (n=12) | phr 12 ~0.4s | 
+- Tuba | n=165 vel 100 [71..101] d=32 | grid 2% mode -8ms (4%) | dur 504 | ov 17 (n=26) gap 6 rep 2 (n=37) | phr 77 ~0.5s | CC11:560ev 0-127 1.5/s CC8:543ev 0-127 1.5/s CC7:6ev 82-102 0.0/s
+- Timpani | n=131 vel 88 [73..101] d=33 | grid 75% mode +0ms (75%) | dur 258 | ov 169 (n=10) gap -0.0 rep 0.0 (n=39) | phr 55 ~0.5s | CC2:799ev 19-115 2.0/s CC7:15ev 76-102 0.0/s CC1:14ev 0-127 0.0/s CC11:5ev 102-127 0.0/s
+- bass drum | n=27 vel 80 [62..101] d=11 | grid 89% mode +0ms (89%) | dur 1542 | ov None (n=0) gap -0.0 rep 0.0 (n=15) | phr 10 ~4.0s | CC2:475ev 0-104 1.3/s CC1:7ev 0-127 0.0/s CC11:3ev 102-127 0.0/s CC7:2ev 92-92 0.0/s
+- Marimba | n=92 vel 72 [72..100] d=8 | grid 100% mode +0ms (100%) | dur 252 | ov None (n=0) gap -0.0 rep None (n=0) | phr 10 ~1.0s | 
+- Glockenspiel | n=138 vel 80 [72..100] d=32 | grid 72% mode +0ms (72%) | dur 307 | ov 62 (n=2) gap -0.0 rep None (n=0) | phr 35 ~1.6s | CC11:19ev 96-127 0.1/s CC7:14ev 84-112 0.0/s
+- Sus Cymbal | n=16 vel 114 [101..114] d=6 | grid 94% mode +0ms (94%) | dur 2535 | ov None (n=0) gap -0.0 rep 0.0 (n=2) | phr 12 ~3.1s | CC2:631ev 0-127 2.2/s CC11:252ev 51-127 0.9/s CC1:4ev 0-127 0.0/s
+- Xylophone | n=36 vel 90 [82..101] d=9 | grid 89% mode +0ms (89%) | dur 127 | ov 16 (n=2) gap -0.0 rep None (n=0) | phr 6 ~0.5s | CC7:2ev 90-102 0.2/s
+- snare drum | n=287 vel 87 [72..96] d=56 | grid 51% mode +0ms (51%) | dur 169 | ov 13 (n=1) gap -0.0 rep 0.0 (n=244) | phr 21 ~3.4s | CC2:261ev 41-121 1.1/s CC1:8ev 0-127 0.0/s CC7:5ev 102-127 0.0/s
+- guiro | n=40 vel 42 [42..42] d=1 | grid 78% mode +0ms (78%) | dur 493 | ov 22 (n=1) gap -0.0 rep None (n=0) | phr 7 ~2.8s | 
+- cabasa | n=70 vel 88 [20..88] d=3 | grid 100% mode +0ms (100%) | dur 255 | ov None (n=0) gap -0.0 rep 0.0 (n=20) | phr 8 ~2.4s | 
+- triangle | n=11 vel 85 [61..85] d=2 | grid 100% mode +0ms (100%) | dur 1230 | ov None (n=0) gap None rep None (n=0) | phr 11 ~1.2s | CC7:3ev 66-86 0.0/s CC11:3ev 118-127 0.0/s
+- tambourine (bell ring) | n=33 vel 74 [71..101] d=17 | grid 39% mode +0ms (39%) | dur 170 | ov None (n=0) gap -0.0 rep 0.0 (n=31) | phr 5 ~0.9s | CC11:69ev 69-127 4.8/s CC7:68ev 71-127 4.7/s
+- Harp | n=658 vel 81 [72..101] d=64 | grid 47% mode +0ms (47%) | dur 171 | ov 101 (n=7) gap -0.0 rep 0.0 (n=4) | phr 27 ~2.0s | CC7:6ev 101-127 0.1/s
+- Celesta | n=121 vel 72 [72..72] d=6 | grid 90% mode +0ms (90%) | dur 826 | ov None (n=0) gap -0.0 rep None (n=0) | phr 13 ~1.7s | 
+- Piano | n=930 vel 78 [70..90] d=56 | grid 69% mode +0ms (69%) | dur 164 | ov 172 (n=24) gap 59 rep 83 (n=66) | phr 72 ~0.2s | CC7:14ev 70-127 0.0/s
+- solo violin 1 | n=71 vel 99 [44..101] d=4 | grid 7% mode +43ms (15%) | dur 171 | ov 59 (n=46) gap 44 rep 3 (n=1) | phr 2 ~13.0s | CC2:397ev 0-127 3.0/s CC7:197ev 72-82 1.5/s CC8:102ev 0-114 4.8/s CC11:20ev 83-127 0.2/s
+- Violins 1a Duality | n=841 vel 101 [101..101] d=38 | grid 4% mode +0ms (4%) | dur 173 | ov 18 (n=398) gap 12 rep 24 (n=88) | phr 62 ~1.1s | CC2:3196ev 0-127 7.8/s CC8:365ev 0-127 0.9/s CC7:319ev 55-101 0.9/s CC11:213ev 83-127 0.5/s
+- Violins 1b Duality | n=105 vel 101 [99..101] d=5 | grid 7% mode +0ms (7%) | dur 253 | ov 18 (n=32) gap 7 rep 13 (n=24) | phr 22 ~1.0s | CC2:1893ev 0-127 4.6/s CC8:149ev 0-127 0.4/s CC7:110ev 55-101 0.3/s CC11:84ev 30-127 0.2/s
+- Violins 2a Duality | n=910 vel 101 [101..101] d=34 | grid 8% mode +1ms (8%) | dur 171 | ov 11 (n=443) gap 6 rep 15 (n=74) | phr 61 ~1.5s | CC2:3342ev 0-127 8.1/s CC11:924ev 46-127 2.2/s CC8:725ev 0-127 1.8/s CC7:80ev 42-82 0.2/s
+- Violins 2b Duality | n=71 vel 101 [101..101] d=4 | grid 17% mode +0ms (17%) | dur 162 | ov 5 (n=32) gap 6 rep 7 (n=13) | phr 10 ~1.5s | CC2:2214ev 0-127 5.9/s CC11:465ev 30-127 1.1/s CC8:375ev 0-127 0.9/s CC7:76ev 55-90 0.2/s
+- Violas a Duality | n=674 vel 101 [101..101] d=25 | grid 4% mode +1ms (5%) | dur 171 | ov 10 (n=330) gap 15 rep 19 (n=78) | phr 101 ~0.6s | CC2:2976ev 0-127 7.1/s CC11:212ev 69-127 0.5/s CC8:210ev 0-127 0.5/s CC7:110ev 55-127 0.3/s
+- Violas b Duality | n=203 vel 101 [101..101] d=2 | grid 13% mode +0ms (13%) | dur 255 | ov 4 (n=39) gap 2 rep 6 (n=30) | phr 69 ~0.6s | CC2:2361ev 0-127 5.6/s CC11:184ev 69-127 0.4/s CC8:184ev 0-127 0.4/s CC7:100ev 55-105 0.3/s
+- Cellos a Duality | n=403 vel 101 [101..101] d=5 | grid 7% mode -2ms (7%) | dur 361 | ov 11 (n=131) gap 6 rep 12 (n=116) | phr 108 ~0.5s | CC2:2772ev 0-127 6.5/s CC8:171ev 0-127 0.4/s CC11:153ev 89-127 0.4/s CC7:23ev 52-82 0.1/s
+- Cellos b Duality | n=137 vel 101 [101..101] d=2 | grid 15% mode +0ms (15%) | dur 494 | ov 12 (n=17) gap 6 rep 14 (n=52) | phr 61 ~0.5s | CC2:2409ev 0-127 5.7/s CC8:97ev 0-127 0.2/s CC11:82ev 90-127 0.2/s CC7:23ev 52-82 0.1/s
+- Basses a Duality | n=297 vel 101 [101..101] d=6 | grid 3% mode +1ms (7%) | dur 492 | ov 8 (n=56) gap 15 rep 30 (n=105) | phr 99 ~0.5s | CC2:2573ev 0-127 6.0/s CC8:225ev 0-127 0.5/s CC11:77ev 69-127 0.2/s CC7:10ev 56-72 0.0/s
+== file summary
+CC2: phrases>=1.5s n=213, moving(>=6) 55%
+   arc (value minus phrase max): 0% 0 [-18..0] n=213; 10% 0 [-17..0] n=213; 25% 0 [-21..0] n=213; 50% 0 [-20..0] n=213; 75% 0 [-18..0] n=213; 90% 0 [-19..0] n=213; 100% 0 [-46..0] n=213
+   arc range 23 [0..75] n=213; peak position 0.00 [0.00..0.35] n=213
+   onset value 81 [70..98] n=693; pre-roll change in 300ms before onset 0 [0..0] n=693
+   ramp first 500ms 0 [0..0] n=213; end taper last 1000ms 0 [-20..0] n=213
+   long notes >=1.2s (n=217) change vs onset at 25/50/75/100%: 0 [0..0] n=217, 0 [0..0] n=217, 0 [0..0] n=217, 0 [-7..0] n=217
+      share rising to mid >=4: 20%, falling at end <=-4 vs mid: 28%, flat (all |d|<3): 51%
+CC8: phrases>=1.5s n=681, moving(>=6) 25%
+   arc (value minus phrase max): 0% 0 [0..0] n=681; 10% 0 [0..0] n=681; 25% 0 [0..0] n=681; 50% 0 [0..0] n=681; 75% 0 [0..0] n=681; 90% 0 [0..0] n=681; 100% 0 [0..0] n=681
+   arc range 0 [0..0] n=681; peak position 0.00 [0.00..0.00] n=681
+   onset value 127 [127..127] n=2147; pre-roll change in 300ms before onset 0 [0..0] n=2147
+   ramp first 500ms 0 [0..0] n=681; end taper last 1000ms 0 [0..0] n=681
+   long notes >=1.2s (n=538) change vs onset at 25/50/75/100%: 0 [-4..0] n=538, 0 [-11..0] n=538, 0 [-19..0] n=538, 0 [-53..0] n=538
+      share rising to mid >=4: 14%, falling at end <=-4 vs mid: 32%, flat (all |d|<3): 53%
+CC11: phrases>=1.5s n=695, moving(>=6) 29%
+   arc (value minus phrase max): 0% 0 [0..0] n=695; 10% 0 [0..0] n=695; 25% 0 [0..0] n=695; 50% 0 [0..0] n=695; 75% 0 [0..0] n=695; 90% 0 [0..0] n=695; 100% 0 [0..0] n=695
+   arc range 0 [0..32] n=695; peak position 0.00 [0.00..0.00] n=695
+   onset value 127 [127..127] n=2164; pre-roll change in 300ms before onset 0 [0..0] n=2164
+   ramp first 500ms 0 [0..0] n=695; end taper last 1000ms 0 [0..0] n=695
+   long notes >=1.2s (n=551) change vs onset at 25/50/75/100%: 0 [-1..0] n=551, 0 [-6..0] n=551, 0 [-15..0] n=551, 0 [-38..0] n=551
+      share rising to mid >=4: 18%, falling at end <=-4 vs mid: 32%, flat (all |d|<3): 50%
+
+howl_from_cpr.mid: 734 beats, tempo changes on 19% of beats; |dev| median 0.0%, 90th pct 5.0%; beats >15% slower 26, >25% slower 6; 4-bar medians 72..191 bpm
+howl_from_cpr.mid: 1306 entries of 3+ tracks; spread first-to-last track ms median 32, IQR 21..44; exactly together (<1 ms) 1%
+   family offset vs entry median ms: brass -0 (n=3191), keys/harp -3 (n=524), other +1 (n=92), perc +0 (n=707), str-long -0 (n=3492), winds -0 (n=4795)
