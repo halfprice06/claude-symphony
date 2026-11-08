@@ -102,3 +102,17 @@ Sources: the HO demo above, plus the **ComposerCloud+ edition's demo** (a differ
 
 ## 10. Opus release times
 - EastWest mostly leaves the patch release envelopes alone: string KS Masters 931 ms, legato and brass 700 ms. A few are shortened: Basses legato 56 ms, oboe 177 ms, tuba 372 ms, 1FH 562 ms. Our 150 ms caps at mf-ff are much shorter than any of these. The template keeps release tails and controls blur with the reverb EQ and shorter sends instead.
+
+# Part 3: a hand-played pro mockup for comparison (Ashton Gleckman's "Polar Express" MIDI)
+
+Source: the MIDI file of Ashton Gleckman's Polar Express suite mockup, which he shared publicly as a free download (linked from a Young Composers forum thread; a Google Drive file, 36 tracks, 62 s at 120 bpm). Libraries: Spitfire Symphonic Woodwinds, Brass and Strings, Chamber Strings, Jaeger violins, NI Symphony Series, 8Dio choirs, NI The Gentleman piano. This is a different library family (CC1 = dynamics, CC11 = expression), so the absolute values don't transfer, but the shapes and timing practice do. The MIDI itself is not kept in the repo (it is a mockup of a copyrighted score); the statistics are in `polar-report.txt`, made by `scripts/smf.py`.
+
+- **CC lanes are far denser than EastWest's: CC1 at 13-44 points/s** (EastWest 7-13), with a second CC11 lane on winds and choirs (15-22/s). So dynamics (CC1) and expression (CC11) are drawn separately.
+- **Every phrase swells in.** Unlike EastWest, where about half of phrase starts were flat, here the median moves: CC1 +5 by 200 ms, **+14 by 400 ms, +24 by 800 ms** (IQR +17..+35 at 800 ms). CC11 adds +10 / +16 on top. Nothing moves before the onset.
+- **Every phrase tapers.** The median CC1 is **19 units higher 1 s before the final note-off** and 8 units higher 0.5 s before (CC11: 11 and 4).
+- **Notes inside a legato line shade down slightly after they start:** the median CC1 is −1 at 200 ms and −2 at 400-800 ms after a legato onset (IQR −16..+10). Each note leans a little into a gentle diminuendo, and the next phrase-level swell lifts it back.
+- **Timing: winds and choirs are quantized and then shifted early by a fixed amount per track** (92-100 % of onsets share one offset): oboe −27 ms, clarinets −38 / −46, bass clarinet −17, bassoons −40 / −85, flute −75, choirs −25 / −27, piano −43. Strings and brass were played in instead (no common offset; −20 to −120 ms early on average). **Percussion, bells and sub bass sit exactly on the grid.** This is the usual negative-track-delay practice: each patch is moved early by its attack latency, and percussion is not moved.
+- **Legato overlaps are long for these libraries:** 46-230 ms (Spitfire winds 70-230 ms, strings 46-130 ms), against 24-80 ms in EastWest's demo. The right overlap depends on the patch's legato script.
+- **Legato velocities** run 67-115 (median about 90-100), the same range as EastWest's.
+
+What this adds for our mockup: (a) shape every phrase, not some: a swell of about +15 by 0.4 s and +25 by 0.8 s after the first onset, and a taper of about 20 over the last second; (b) a small per-note lean-off inside legato lines; (c) a fixed per-patch early shift for wind legato and chorale lines, with percussion left on the grid. Our kit already does (c) through measured lead tables.

@@ -88,3 +88,21 @@ Keep a pass-2 copy of the old layout for one cycle so the critics can compare.
   RTKiller on) and a KS Master track for shorts, sustains and tremolo. Keyswitches sit 40-800 ms before the note.
 - **Release times (information only).** EW keeps the patch releases (700-931 ms), except Basses legato 56, oboe 177, tuba 372
   and 1FH 562 ms. Our release caps were fitted by measurement and stay.
+
+## 7. Research batch 3: a hand-played professional mockup (FINDINGS.md part 3, polar-report.txt)
+Ashton Gleckman's Polar Express suite MIDI (Spitfire, NI and 8Dio; CC1 dynamics plus CC11 expression). The shapes and the
+timing carry over to us; the absolute values do not.
+- **Phrase rule for c51 (adopt by default).** Every phrase swells in after its first onset: median CC1 +14 by 0.4 s and +24
+  by 0.8 s (IQR +17..+35 at 0.8 s), with nothing before the onset. Every phrase tapers: CC1 19 units higher 1 s before
+  the last note-off, 8 higher at 0.5 s. EW's template shows the same (section 6). c51 rule: about +15 by 0.4 s and +25 by
+  0.8 s from the phrase start, a taper of about 20 over the last second, scaled to the printed dynamic and overridden by
+  printed hairpins.
+- **Inside slurs** each note leans off slightly after its onset (median -2 by 0.4-0.8 s); the phrase swell carries the line.
+  Add a small per-note lean-off inside slurs.
+- **Timing.** Winds are quantized and shifted early by a fixed amount per track: oboe -27, clarinets -38/-46, bass clarinet
+  -17, bassoons -40/-85, flute -75 ms. Strings and brass are played in, -20 to -120 ms early on average. Percussion and
+  bells sit exactly on the grid. Our lead tables already do this per note against measured attacks; keep percussion
+  unshifted and compare our per-track median leads with these.
+- **CC density** 13-44 points/s, denser than EW's 7-13.
+- **Legato overlaps** 46-230 ms in those libraries: the right overlap depends on the patch. For HO use EW's 45-80 ms
+  (section 5) and measure.
