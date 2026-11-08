@@ -137,6 +137,65 @@ for p in sorted(glob.glob(os.path.join(RENDER, "[0-9][0-9]_*.wav"))):
         entry["median_db_by_dynamic"] = {k: round(float(np.median(v)), 1) for k, v in by.items()}
     stems[name] = entry
 res["stems"] = stems
+
+
+# mvt1 c40 (critic B #1): silent-note check. Clarinet 1's D5 at qn 654 (a 2.4 s note at the top of its phrase) never
+# sounded in eight renders (a legato-row re-tongue 30 ms after the previous note-off) and no measure listed it. For every
+# note of SILENT_MIN_QN or longer: the median A-weighted level (50 ms frames) from score onset + 0.35 qn to min(end - 0.1,
+# onset + 2 qn), against the median of the same measure over the track's other such notes at the same printed dynamic
+# (dyn_curve in the middle of that window, so a note inside a hairpin is compared at its own level); listed when it is more than SILENT_UNDER_DB under. A delayed unison copy (UNI_DELAY) or a chord note under another of
+# the same stem, or a note under the final fade, can read as a false alarm; read the list, do not act on it blindly.
+SILENT_MIN_QN, SILENT_UNDER_DB = 0.9, 18.0
+
+
+def a_weight_db(f):
+    f2 = np.maximum(f, 1.0) ** 2
+    ra = (12194.0 ** 2 * f2 ** 2) / ((f2 + 20.6 ** 2) * np.sqrt((f2 + 107.7 ** 2) * (f2 + 737.9 ** 2)) * (f2 + 12194.0 ** 2))
+    return 20 * np.log10(ra) + 2.0
+
+
+def frames_a(x, sr, hop=0.05):
+    mono = (x.mean(1) if x.ndim > 1 else x).astype(np.float64)
+    n, h = 4096, int(hop * sr)
+    w = np.hanning(n)
+    aw = 10 ** (a_weight_db(np.fft.rfftfreq(n, 1 / sr)) / 10)
+    out = []
+    for k in range(0, max(1, len(mono) - n), h):
+        seg = mono[k:k + n]
+        if len(seg) < n:
+            seg = np.pad(seg, (0, n - len(seg)))
+        out.append(10 * np.log10((np.abs(np.fft.rfft(seg * w)) ** 2 * aw).sum() + 1e-20))
+    return np.array(out), (n / 2) / sr, hop   # frame k centred at k * hop + n / 2 / sr
+
+
+silent = []
+for p in sorted(glob.glob(os.path.join(RENDER, "[0-9][0-9]_*.wav"))):
+    name = os.path.basename(p)[3:-4]
+    t = tracks.get(name)
+    if name == "Master" or not t or t.get("family") == "perc":
+        continue
+    x, _ = sf.read(p)
+    fa, off, hop = frames_a(x, sr)
+    curve = t.get("dyn_curve") or t["cc11"] or []
+    rows = []
+    for nt in t["notes"]:
+        sq = nt.get("sq", nt["qn"])
+        end = nt["qn"] + nt["dur"]
+        if end - sq < SILENT_MIN_QN:
+            continue
+        a_, b_ = qn_to_sec(sq + 0.35), qn_to_sec(min(end - 0.1, sq + 2.0))
+        ia, ib = int(max(0, (a_ - off) / hop)), int(max(0, (b_ - off) / hop))
+        if ib <= ia or ib > len(fa):
+            continue
+        qm = (sq + 0.35 + min(end - 0.1, sq + 2.0)) / 2   # the printed level in the middle of the window (hairpins)
+        v = [vv for qq, vv in curve if qq <= qm + 1e-6]
+        rows.append((sq, nt["pitch"], dyn_name(v[-1]) if v else "?", float(np.median(fa[ia:ib]))))
+    for sq, pitch, dn, lv in rows:
+        ref = [r[3] for r in rows if r[2] == dn and r[0] != sq]
+        if len(ref) >= 3 and lv < np.median(ref) - SILENT_UNDER_DB:
+            silent.append({"track": name, "sq": round(sq, 3), "pitch": pitch, "dyn": dn, "db_a": round(lv, 1),
+                           "track_median_db_a": round(float(np.median(ref)), 1)})
+res["silent_notes"] = silent
 json.dump(res, open(os.path.join(OUT, "metrics.json"), "w"), indent=1)
 
 # ---- pictures ----
@@ -168,6 +227,10 @@ L.append("| track | peak | " + " | ".join(n for _, n in DYN_NAMES) + " |\n|---|-
 for name, e in stems.items():
     md = e.get("median_db_by_dynamic", {})
     L.append(f"| {name} | {e['peak']} | " + " | ".join(str(md.get(n, "")) for _, n in DYN_NAMES) + " |")
+L.append(f"\n## Silent notes (c40): notes of {SILENT_MIN_QN} qn or longer more than {SILENT_UNDER_DB:g} dB (A) under the "
+         "track's median at the same printed dynamic\n")
+L.append("\n".join(f"- {r['track']} qn {r['sq']} pitch {r['pitch']} ({r['dyn']}): {r['db_a']} dB A, track median "
+                    f"{r['track_median_db_a']}" for r in silent) if silent else "none")
 L.append("\n## Loudest three stems per bar (dB), bars where anything plays\n")
 for bi in range(len(bars)):
     lv = sorted(((e["bar_db"][bi], n) for n, e in stems.items() if e.get("active", [True] * len(bars))[bi]), reverse=True)[:3]

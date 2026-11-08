@@ -1,7 +1,12 @@
 """Delivery master for headphone listening: slow look-ahead gain ride on the quiet passages, constant gain to
 -19 LUFS, true-peak limiter at -1.5 dBTP, mp3. The climax is left alone.
 
-Usage: python deliver_master.py <master.wav> <out.mp3>
+Usage: python deliver_master.py <master.wav> <out.mp3> [<parts.json> [--fit-flat A B]]
+  mvt1 c40 (critic C #3): with parts.json, its "ride_trims" (score_to_parts.py RIDE_TRIMS: rows of (score qn, dB)) are
+  added to the ride's gain, converted to file seconds on its tempo map (the render is cut at score qn 0).
+  --fit-flat A B prints, without writing the mp3, a RIDE_TRIMS row for score qn A..B that holds the ride at that
+  span's own steady lift ((knee - its mean short-term loudness) x (1 - 1/RATIO)) instead of the slow interpolation
+  between its neighbours (trims every 2 qn, ramped in and out over 0.05 qn); the listed trims are left out of the fit.
 Method and targets: loop/DYNAMICS-RESEARCH.md (LRA 14-16 LU, BBC classical guideline 15 LU; no inversions of
 crescendos/diminuendos; limiter at most about 3 dB). Prints the measurements of the result.
 """
@@ -10,6 +15,9 @@ import numpy as np
 import soundfile as sf
 
 SRC, OUT = sys.argv[1], sys.argv[2]
+PARTS = sys.argv[3] if len(sys.argv) > 3 and not sys.argv[3].startswith("--") else None
+FIT = [float(v) for v in sys.argv[sys.argv.index("--fit-flat") + 1:sys.argv.index("--fit-flat") + 3]] \
+    if "--fit-flat" in sys.argv else None
 # c10: TARGET_I -19.0 -> -19.5 (critics B #3 / C #2 fallback, inside the research range -18..-20): the limiter did 4.5 dB
 # mvt1 c02 (critic C #5): RATIO 2.0 -> 2.5 (simulated on c01: span 20.5 -> 19.7 dB, LRA 15.6 -> 14.9 LU, no inversions;
 # 3.0 gave 6 inversions)
@@ -95,6 +103,38 @@ if MOM_CAP_ABOVE is not None:
     mcap = np.clip(knee + MOM_CAP_ABOVE - Mmax, 0, CAP_DB)
     lift = np.minimum(lift, smooth(np.minimum(lift, mcap), MOM_CAP_SMOOTH_S))
 gdb = lift - top
+# mvt1 c40 (critic C #3): score-timed ride trims from parts.json (see the usage)
+TRIMS, q2s = [], None
+if PARTS:
+    import json as _json
+    _pj = _json.load(open(PARTS))
+    _tempo = sorted(_pj["tempo"])
+
+    def q2s(q):
+        t, lq, lb = 0.0, 0.0, _tempo[0][1]
+        for tq, bpm in _tempo[1:]:
+            if tq >= q:
+                break
+            t += (tq - lq) * 60 / lb; lq, lb = tq, bpm
+        return t + (q - lq) * 60 / lb
+    TRIMS = _pj.get("ride_trims", [])
+if FIT:
+    a_, b_ = FIT
+    ia_, ib_ = int(round(q2s(a_) * 10)), int(round(q2s(b_) * 10))
+    target = float(np.clip((knee - S[ia_:ib_].mean()) * (1 - 1 / RATIO), 0, CAP_DB)) - float(top[ia_:ib_].mean())
+    qs_ = [a_] + [q for q in np.arange(np.ceil(a_ / 2) * 2, b_, 2.0) if q > a_ + 0.5] + [b_ - 0.1]
+    row = [(round(a_ - 0.05, 3), 0.0)] + [(round(float(q), 3), round(target - float(np.interp(q2s(q) * 10, np.arange(len(gdb)), gdb)), 2))
+                                          for q in qs_] + [(round(b_, 3), 0.0)]
+    print(f"span {a_}-{b_}: mean S {S[ia_:ib_].mean():.1f}, knee {knee:.1f}, steady lift {target:.2f} dB; ride now "
+          f"{gdb[ia_]:.2f} -> {gdb[ib_]:.2f} dB")
+    print("RIDE_TRIMS row:", row)
+    sys.exit(0)
+for row in TRIMS:
+    ts_ = np.array([q2s(q) for q, _ in row]); ds_ = np.array([d for _, d in row])
+    tt_ = np.arange(len(gdb)) / 10
+    inside = (tt_ >= ts_[0]) & (tt_ <= ts_[-1])
+    gdb = gdb + np.where(inside, np.interp(tt_, ts_, ds_), 0.0)
+    print(f"ride trims {row[0][0]}-{row[-1][0]} qn: {ds_.min():+.2f}..{ds_.max():+.2f} dB")
 gain = 10 ** (np.interp(np.arange(len(x)) / sr, np.arange(len(gdb)) / 10, gdb) / 20)
 y = x * (gain[:, None] if x.ndim > 1 else gain)
 with tempfile.TemporaryDirectory() as td:
