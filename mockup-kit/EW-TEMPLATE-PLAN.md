@@ -1,8 +1,11 @@
 # Adopting EastWest's own template mix (Dan, 2026-11-08)
 
 Dan: "we need to take every bit of this and use it to improve our own scoring." The source is EastWest's official HO REAPER
-template (Templates 2, "Midi Included" demo). The findings are in `mockup-kit/EW-TEMPLATE-FINDINGS.md`. The default is to
-adopt each item; critics still measure each one and can reject it with numbers. The research thread will send more.
+template (Templates 2, "Midi Included" demo), and 20 expert MIDI mockups (sections 6-8). The findings are in
+`mockup-kit/EW-TEMPLATE-FINDINGS.md`. Dan, 2026-11-08: "yes to anything you can do ... get them integrated into other
+projects, don't wait for me." **Every item in sections 1-8 is a default for all four movements from each movement's
+next cycle.** Critics tune the values by measurement; an item is dropped only with numbers showing it made the render
+worse, recorded in LEARNINGS. Where two sources disagree, the rule given here is the default.
 
 Order: c50 does the mix (items 1-4), c51 does the performance data (item 5) and judges the whole. Both cycles keep the
 usual critic lenses, plus a check on these items.
@@ -120,16 +123,16 @@ with sections 5-7, the c51 critics settle it by measurement; the defaults below 
   (about +15 by 0.4 s, +25 by 0.8 s), the peak sits in the middle third, and the last second tapers. Long notes keep
   moving: in 15 of 20 files only 0-13 % of long notes are flat.
 - **Legato velocity follows the dynamic** (r about 0.35), around section 5's 90-or-more median.
-- **Reverb variant for "still a bit mushy" (c50 pass-2 A/B against the EW returns).** Duc uses one hall of about 2.1-2.45 s
-  decay, a low cut around 184 Hz, a high cut around 3 kHz (LOTR), and the return at -5.5/-6.6 dB. Sends are 0 dB for
-  violins, violas and brass, -1.6 dB for cello and bass longs, and -7 dB for low string shorts. The low-string short
-  send cut is worth taking on its own.
-- **String EQ variant (A/B against section 3).** Duc on CSS: violins -1 to -2.5 dB at 490-710 Hz and +2-3 dB at 9-11 kHz;
-  basses -2.4 to -3.6 dB at 205-250 Hz.
-- **Tutti entry spread (A/B only).** Expert files spread tutti entries 36-55 ms from first to last track (0-12 % exactly
-  together); ours align the perceived attacks exactly. Test a small seeded spread per section and judge clarity.
-- **Room-noise bed (test).** Duc loops a quiet room-noise recording, low cut at 84 Hz, sent to the hall. Only with a
-  recording we are free to use; check that the delivered noise floor stays inaudible at the soft passages.
+- **Reverb sends (default, on top of section 2's EW returns).** From Duc: sends 0 dB for violins, violas and brass,
+  -1.6 dB for cello and bass long notes, -7 dB for low-string short notes. His single 2.1-2.45 s hall (low cut ~184 Hz,
+  high cut ~3 kHz, return -5.5/-6.6 dB) is the fallback if the critics measure the EW returns as mushy.
+- **Basses EQ (default, added to section 3).** From Duc: basses -2.4 to -3.6 dB at 205-250 Hz. His violin EQ (-1 to
+  -2.5 dB at 490-710 Hz, +2-3 dB at 9-11 kHz) points the same way as EW's string EQ; use EW's bands.
+- **Tutti entry spread (default).** Expert files spread tutti entries 36-55 ms from first to last track (0-12 % exactly
+  together). Add a small fixed per-section offset at tutti entries (seeded, so it repeats between renders), and let the
+  critics tune it for clarity.
+- **Room-noise bed (default when a free recording is available).** Duc loops a quiet room-noise recording, low cut at
+  84 Hz, sent to the hall. Use only a recording we are free to use, and keep the noise floor inaudible in soft passages.
 - **Tempo for slow movements (Movement II mainly).** Duc's tempo map follows a recording beat by beat: median beat
   deviation 8 %, phrase-end breaths 15-30 % slower, beat 4 about 7 % slower on average. Movement I's Lento and
   ritardandi can use the breath rule.
