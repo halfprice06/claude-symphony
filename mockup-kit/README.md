@@ -47,3 +47,5 @@ Then, as in movement II:
 `LEARNINGS.md` section 19 lists what movement II left open; section 20 adds movement I's lessons.
 
 **State flips after a MIDI-only build (Movement I c42-c47).** A legato instance (Trumpet 1, Horn 3, Horn 1) can come back from a `--midi-only` build in a different state: +4.5 to +6.4 dB and 30-65 ms early on slurred phrases, with unchanged data. A full rebuild of that track restores it. `pipeline/state_check.py` compares every note whose data did not change with the previous render's stems and lists the steps; `render_cycle.py` runs it after each render. Brass "Marc Sus LITE" at velocity 45-75 failed (attack heard 100-365 ms late, no brighter, smaller accent step); strings "Sus Marc LITE" on cello strokes removed a 64-124 ms swell-in.
+
+**Timpani ring through a general pause (scherzo c04).** The timpani, not the hall, held the late decay at the G.P. (master late T60 about 3.3 s). A generic `TIMP_DAMP_AT` option in the scherzo pipeline (a pre-hall CC7 fall after the last stroke before the rest) took the ring at +0.3 s from -43.8 to -71 dB. See symphony/scherzo/reaper-v600 for the code.
