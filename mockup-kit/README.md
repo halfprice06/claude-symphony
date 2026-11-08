@@ -73,3 +73,9 @@ Measured:
 - Brass needs about +4 to +6 dB make-up after the family EQ.
 - The mix comes out bright: the 6-20 kHz share is -25 dB against -29 to -32 in the references, so the +4-5 dB family shelves may need halving.
 - Tutti stops take 0.62-0.73 s to fall 20 dB (0.41-0.50 with the Opus hall), because the full IRs are long; lowering the return levels barely shortens them. The Duc hall (2.3 s) is the fallback.
+
+**Template checks before the first build (Movement I c50 critic B, 2026-11-08; simulated on c49's dry stems, report symphony/mvt1/reaper-v621/cycles/c50/reports/B.md).**
+- Timpani: the template's +8.6 dB bell at 84 Hz plus its Surround mic at 0 dB conflicts with Dan's rule that timpani rolls must not drown parts. The EQ alone took the timpani's share of 30-150 Hz from 13 % to 31 % over a 14-bar roll. Keep the previous timpani mics (no Surround) and use the finale's reduced timpani EQ.
+- Brass: the brass family EQ removes 6-9 dB (K-weighted) against 1.3-1.9 dB on strings; make-up +5 to +6.5 dB, with soft and loud trims re-fitted per instrument.
+- Winds about 1.5-2 dB hot (Close-led), tam-tam and cymbals about 3 dB hot (no family EQ), harp HPF 183 Hz cuts a third of its fundamentals (use 80 Hz).
+- Wetness (scherzo c06): the template return levels made the render wetter than the previous cycle, against Dan's "too wet" note (BRIEF S4). Measure against the previous cycle before accepting them.
