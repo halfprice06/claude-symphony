@@ -50,10 +50,10 @@ Then, as in movement II:
 
 **Timpani ring through a general pause (scherzo c04).** The timpani, not the hall, held the late decay at the G.P. (master late T60 about 3.3 s). A generic `TIMP_DAMP_AT` option in the scherzo pipeline (a pre-hall CC7 fall after the last stroke before the rest) took the ring at +0.3 s from -43.8 to -71 dB. See symphony/scherzo/reaper-v600 for the code.
 
-**EastWest's own HO REAPER template (Templates 2, "Midi Included", decoded 2026-11-08; untested here).** How it differs from our mix.json, as candidates to test against the critics:
+**EastWest's own HO REAPER template (Templates 2, "Midi Included", decoded 2026-11-08): adopted as the default for all four movements (Dan, 2026-11-08: "take every bit of this").** Full findings: `EW-TEMPLATE-FINDINGS.md`; the adoption plan and exact values: `EW-TEMPLATE-PLAN.md` (Movement I does the mix in c50 and the performance data in c51 and will post the tool changes here). Critics still measure each item. Summary:
 1. Strings and brass: Close mic 4-10 dB under Main, Close panned to the seat, Main at full width and never re-panned. (Our groups narrow Main to width 0.35, which the c49 critic measured as a narrower image than every reference.)
 2. Winds: Close-dominant (Close 0 dB, Main -3 to -21 dB). Ours are Main-dominant (Close 0.5 / Main 0.8).
 3. Opus reverb off; one Spaces II return per family (S. Cal Hall Strings / Brass, 3.3 s, 19.6 ms pre-delay), fed from section buses at -5.6 to -8.8 dB. Each return: HPF 90-100 Hz, -5 to -7 dB dip at 2.5 kHz, LPF 5.6-8.5 kHz before the IR.
 4. Section-bus EQ: cuts at 450 Hz and 0.8-1 kHz of 2-8 dB, +4 dB shelf above 5-7 kHz.
 5. CC1 only (no CC11), 7-13 points/s. Legato velocity median about 95, legato overlap 45-80 ms, repeated-note gaps 20-60 ms.
-Movement II c44 is testing a closer mic mix (point 1); Movement I c49 may test point 1 in pass 2.
+Movement II c44 is testing a closer mic mix (point 1); Movement I c49 may test point 1 in pass 2. The Spaces II returns need the IR state chunks from the research thread.
