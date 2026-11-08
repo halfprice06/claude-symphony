@@ -3,7 +3,7 @@
 Dan: "we need to take every bit of this and use it to improve our own scoring." The source is EastWest's official HO REAPER
 template (Templates 2, "Midi Included" demo), and 20 expert MIDI mockups (sections 6-8). The findings are in
 `mockup-kit/EW-TEMPLATE-FINDINGS.md`. Dan, 2026-11-08: "yes to anything you can do ... get them integrated into other
-projects, don't wait for me." **Every item in sections 1-9 is a default for all four movements from each movement's
+projects, don't wait for me." **Every item in sections 1-10 is a default for all four movements from each movement's
 next cycle.** Critics tune the values by measurement; an item is dropped only with numbers showing it made the render
 worse, recorded in LEARNINGS. Where two sources disagree, the rule given here is the default.
 
@@ -157,3 +157,21 @@ room. Defaults under Dan's standing rule; critics tune the values.
 - **Tempo.** Both change tempo on about 20 % of beats, with 20-26 breaths more than 15 % slower: supports the section 8
   breath rule.
 - **Not for HO.** Howl's repeated notes nearly touch only because VSL switches samples itself; keep 60-100 ms gaps.
+
+## 10. Research batch 6: Lorne Balfe's Crown and Genius MIDI sketches (FINDINGS.md part 6)
+Defaults under Dan's standing rule; critics tune the values. The sketches are quantized to one tempo, so section 8's
+timing values still apply.
+- **Phrase shape by type (refines section 8).** Builds to a climax: enter near zero (CC under 15, about +25 in the first
+  250 ms) and peak at the end of the phrase (0.95 of its length, a range of about 100 units). Accented brass, fanfares and
+  rhythmic figures: enter at the top and fall 15-25 by the end of a long note (-27 over a phrase's last second). Lyrical
+  lines keep section 8's centred arch. Classify each phrase from the score (hairpins to a climax, accents and marcato,
+  slurred cantabile) and say in CHANGES.md how the classes were assigned.
+- **Ostinato velocity.** In repeated short-note figures each beat or half-beat group falls 15-17 velocity steps from
+  first to last note (for example 104, 101, 95, 87), with ±5-7 seeded random variation and strong beats 20-25 steps
+  higher. Two layers of one figure may alternate accents (1 and 3 against 2 and 4).
+- **Doublings share one curve.** Instruments doubling a line get the same dynamics curve, point for point (then each
+  track's level trim on top).
+- **Timbre against level (test where a patch has separate controls).** Brass timbre 25-35 under its level, strings
+  timbre about 15 over, ridden together at that fixed offset. In HO this maps to CC1 (dynamic layers) against CC11
+  (volume) where the patch keeps them separate; check against section 5's CC1-only combo macro.
+- **Spiccato length** about 60 % of the slot.
