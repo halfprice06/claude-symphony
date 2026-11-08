@@ -79,3 +79,10 @@ Measured:
 - Brass: the brass family EQ removes 6-9 dB (K-weighted) against 1.3-1.9 dB on strings; make-up +5 to +6.5 dB, with soft and loud trims re-fitted per instrument.
 - Winds about 1.5-2 dB hot (Close-led), tam-tam and cymbals about 3 dB hot (no family EQ), harp HPF 183 Hz cuts a third of its fundamentals (use 80 Hz).
 - Wetness (scherzo c06): the template return levels made the render wetter than the previous cycle, against Dan's "too wet" note (BRIEF S4). Measure against the previous cycle before accepting them.
+
+**Template wetness and width, three movements agree (finale c07, Movement II c44, scherzo c06; 2026-11-08).** The template returns as shipped make every family wetter than the old Opus hall (finale tutti stops 0.41-0.50 s to fall 20 dB became 0.62-0.73 s; Movement II strings 0.52 to 0.72 s, final chord 0.45 to 0.83 s). Lowering return levels barely helps and Duc's 2.3 s hall did no better (0.50-0.62 s). What worked in both the finale and Movement II:
+- the Spaces II IR envelope on each return: `irSetup` envelopeMode 2, endPos 0.5, decayLength 0.5;
+- no hall sends from the low instruments (low brass, bassoons, contrabassoon, basses);
+- lower return faders (Movement II: strings -18, winds -4, brass -2, perc -3 dB; finale: returns 12.5 dB under the dry sum).
+Results: finale median 0.41 s and RT60 1.22 s (from about 2.3 s); Movement II strings 0.55, winds 0.35, brass 0.34, final chord 0.44 s, level with its pre-template cycle. Limit in every BRIEF: no wetter than the pre-template cycle.
+Still open: the 6-20 kHz share runs -30 to -25 dB against -29 to -32 in the references (halve the strings and brass family shelves; the finale did), and the full-width Main pairs make the bass image too wide (correlation below 250 Hz down to 0.06-0.33, side/mid up to -2.2 dB, against 0.54-0.62 and about -5 dB; Movement II c44 and Movement I c49 both measured it). Next to try: a side-only low cut or a narrower Main below 250 Hz.
