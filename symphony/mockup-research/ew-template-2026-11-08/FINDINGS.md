@@ -116,3 +116,79 @@ Source: the MIDI file of Ashton Gleckman's Polar Express suite mockup, which he 
 - **Legato velocities** run 67-115 (median about 90-100), the same range as EastWest's.
 
 What this adds for our mockup: (a) shape every phrase, not some: a swell of about +15 by 0.4 s and +25 by 0.8 s after the first onset, and a taper of about 20 over the last second; (b) a small per-note lean-off inside legato lines; (c) a fixed per-patch early shift for wind legato and chorale lines, with percussion left on the grid. Our kit already does (c) through measured lead tables.
+
+# Part 4: nineteen more expert mockups (2026-11-08, evening)
+
+Dan asked for as many human expert examples as possible. VI-Control's "Consolidated list of MIDI mockups and project files for study" (read in Dan's Chrome) and Ashton Gleckman's Film Score Hub led to these free files. All were downloaded and analysed in the cloud; nothing was put on the Mac. The MIDI files and projects are not kept in the repo (they are mockups of copyrighted scores). The statistics are in `expert-report.txt` and Bernard Duc's mix in `duc-mix.txt`; the scripts are `scripts/smf2.py`, `rubato.py`, `async.py`, `xsum.py`, `rppmix.py`, `rppau.py` and `proq2.py`.
+
+- **Bernard Duc, Mahler 5 Adagietto** (Cinematic Studio Strings, Embertone solo violin, VSL harp): the full REAPER project and the MIDI.
+- **Bernard Duc, LOTR "The White Tree"** (VSL woodwinds, Spitfire Symphonic Brass, Cinematic Studio Strings with Spitfire Studio Strings, Spitfire percussion): the full REAPER project and the MIDI.
+- **Star Wars Main Title (2024)** (Cinematic Studio Strings and Solo Strings, CS Brass, CS Woodwinds, Hans Zimmer and Spitfire Studio percussion): 64 tracks, played in, with a tempo map.
+- **Ashton Gleckman, 11 suites** (Atonement, Band of Brothers, The Danish Girl, The Da Vinci Code, Harry Potter 7/8, The Hunger Games, The Imitation Game, The Lion King, The Martian, Pirates of the Caribbean, The Shape of Water), mostly Spitfire (Albion, Mural, Chamber Strings, BOI) with CSS, 8Dio and others.
+- **A four-cue set**: Finding Nemo Main Title, Concerning Hobbits, No Time to Die "Final Ascent" and "Matera" (Spitfire Originals, Intimate Strings, LABS, Symphonic Strings).
+- **Hans Zimmer "Time"** (VSL brass, hybrid) and **James Newton Howard "The Village"** (track names lost in export; all played in).
+
+The libraries differ from ours (CC1 means dynamics in all of them), so absolute CC values don't carry over. The shapes, timing and mix choices do.
+
+## 11. Phrase dynamics: every phrase is an arch, and long notes move
+Measured on CC1 for every phrase of 1.5 s or more (a phrase ends at a gap over 150 ms), as CC1 minus that phrase's peak:
+- **Phrases start well below their peak and end well below it.** The per-file median start is 8-60 units under the peak (17 of 20 files: 17-60), and the end is 2-62 under (15 of 20: 13-62). The files with ends near the peak (LOTR, Hobbits, Pirates, Martian, HP) are full of phrases that build into the next one.
+- **The peak sits near the middle**: median peak position 0.33-0.62 of the phrase in 18 of 20 files. The exceptions are Hobbits (0.30) and Star Wars (0.25); in Star Wars the fanfare notes are accented and then decay.
+- **Phrase range** (peak minus lowest point): median 16-73 units per file, 30-60 in 12 of 20 files.
+- **Long notes (1.2 s or more) are almost never held flat.** Flat (within 2 units of the onset value all the way) is 0-13 % of long notes in 15 of 20 files; only Hobbits (50 %), LOTR (43 %), Mahler (25 %), Star Wars (21 %) and Matera (18 %) have more. Typically a third to a half rise 4 or more units by their middle, and about half fall 4 or more from the middle to the end. In Star Wars, long brass and string notes decay: median −11 at half-way and −23 at the end.
+- **Nothing moves before the onset** (median change in the 300 ms before a phrase starts: 0 in 17 of 20 files, −1 to +3 in the other three).
+
+Compared with our plan item 7 (+15 by 0.4 s, +25 by 0.8 s, a taper of about 20 over the last second): the experts' arch is roughly symmetric. The start sits about as far under the peak as the end does, and the peak comes around the middle of the phrase, not in the first second. In lyrical music the depth is 30-60 units of a 0-127 lane.
+
+## 12. Timing, overlaps, repeated notes and velocity
+By instrument family (family guessed from track names; median per track, IQR in brackets):
+
+| | string longs | brass | winds | string shorts | perc |
+|---|---|---|---|---|---|
+| tracks | 220 | 79 | 59 | 96 | 80 |
+| onsets exactly on the 16th grid | 0 % [0..3] | 0 % [0..3] | 0 % [0..3] | 16 % [0..100] | 9 % [0..98] |
+| legato overlap | 52 ms [34..105] | 47 ms [35..67] | 26 ms [20..64] | | |
+| gap between repeated notes | 90 ms [66..136] | 98 ms [72..114] | 63 ms [43..75] | 116 ms [101..143] | 116 ms |
+| velocity spread (IQR width) | 18 | 16 | 17 | 15 | 22 |
+| r(velocity, CC1 at onset) | 0.35 | 0.33 | 0.31 | 0.05 | |
+| CC1 points per second | 8.3 | 10.2 | 7.2 | | |
+
+- **Sustained lines are played in, not quantized.** Shorts, percussion and harp are sometimes quantized and sometimes played.
+- **Repeated notes get a real gap: 60-100 ms, 2-3 times our plan's 20-45 ms on legato lines.** The one exception is Star Wars, where 28 tracks let repeated notes touch (gap 0) on patches that re-attack every note. Dan's mockup notes asked for audible separation on repeated notes; this is the expert value for it.
+- **Legato velocity follows the dynamic** (r about 0.3-0.35): louder passages are played harder, and the middle half of a track's legato velocities spans about 16-18 steps. On shorts, velocity is set independently of CC1 (r 0.05).
+- **Quantized tracks get a fixed per-track shift.** Star Wars: every pitched track +13 ms against the grid, timpani, snare and taiko 38-43 ms earlier than that, glockenspiel and cymbal 16 ms later, harp exactly on the grid. Several Ashton suites shift tracks by −10 to −60 ms (Pirates by +11 to +15 ms).
+- **Tutti entries are spread.** When three or more tracks start together, the first and last are a median 36-55 ms apart in the orchestral pieces (Star Wars 37, Mahler 36, LOTR 50, Band of Brothers 55, Lion King 48, The Village 55) and 1-35 ms in the rest, which quantize more tracks. Only 0-12 % of orchestral entries have every track exactly together. Brass and string longs sit 0-16 ms ahead of the entry's median (0-6 ms in the orchestral pieces); percussion and harp mostly sit on it or up to 16 ms behind. These are MIDI times, so part of the spread compensates slower attacks and the audible spread is smaller. Our kit aligns each note's measured attack to the beat (Dan asked for attacks on the beat), which makes entries tighter than any of these.
+
+## 13. Tempo
+- **Duc's Adagietto follows a real recording beat by beat.** The project holds a commercial recording on a track whose master send is off, and the MIDI tempo map has 412 tempo events over 103 bars, a change on 98 % of beats. Each beat deviates from the local (4-bar) median by a median 8 % and by 23 % at the 90th percentile. The fourth beat of the bar averages 7 % slower than the others. 20 of 403 beats (5 %) are more than 25 % slower than the local median: the breaths at phrase ends. The 4-bar median runs from 30 to 76 bpm; the climax (bars 50-66, median 73) moves at 1.8 times the opening (bars 1-12, median 40), following Mahler's own tempo changes and the conductor's push.
+- **The film-style mockups keep the tempo steady inside a section.** Rits are stepped ramps (Star Wars: about −3 % per beat over 6 beats, plus 5 held beats more than 25 % slower at section joins), and the live feel comes from played-in note timing.
+- **For us:** our phrase arcs push 1.5 %, slow 4-8 % over the last two beats (2-5 % on sub-phrases, 5-12 % at section cadences), and give the apex beat 4 %. A real performance of a late-Romantic adagio moves more: every beat varies by about 8 %, and the breath at a phrase end is often 15-30 % slower (49 beats over 15 %, 20 over 25 %). Movement II (Adagio) is the place to test larger values.
+
+## 14. Mix: Bernard Duc's REAPER projects
+Both projects use the same template. The instruments run in Vienna Ensemble Pro; each instrument comes back on its own audio track; the returns feed group buses (Woodwinds −5.4 dB, Brass −5.4, Strings Hi −5.4, Strings Lo −3.7 in LOTR and −5.4 in Mahler, Percussion −2.1), each with Airwindows Console5, plus one shared Hall bus. The LOTR master has Pro-Q 2, Airwindows Logical4 (bus compressor), ToTape5 (tape) and a "Concert Hall Short" VSR S24 instance (decay about 1.2 s). The Mahler master FX are bypassed.
+- **One shared algorithmic hall, shorter and darker than ours.** Relab VSR S24. LOTR: "Large Warm Hall", with values that read as decay 2.45 s, low cut 184 Hz and high cut 3.0 kHz, returned at −6.6 dB. Mahler: "Cincinnati Music Hall", decay 2.1 s, low cut 184 Hz, high cut 14.6 kHz, returned at −5.5 dB. The preset names are certain; the parameter names are inferred from their values. Our plan item 2 uses EastWest's 3.3-3.4 s IRs with a 5.6 kHz low-pass (strings 8.5 kHz).
+- **Less reverb on low and short material.** Post-fader sends per instrument: violins, violas and brass 0 dB; celli and basses longs −1.6 dB; low string shorts −7 dB; the solo violin +3.6 dB (Mahler). Dan's last reverb note was "still a bit mushy"; the low-string sends are a direct fix to try.
+- **Dry VSL woodwinds get their own room and are darkened to sit behind the strings.** The woodwind folder has TDR Proximity ("Depth Enhancer" preset), then Pro-Q 2 (−10.7 dB at 158 Hz, −10.5 dB at 3.7 kHz, low cut 76 Hz, high shelf −16.7 dB at 19 kHz), then an insert VSR S24 "Cincinnati Music Hall", and then the shared Hall send. Single flutes, oboes and clarinets add cuts of −9 to −16 dB at 117-192 Hz, −4 to −9 dB at 0.8-2 kHz and a −3.5 to −7.6 dB high shelf at 14-15 kHz. HO woodwinds are recorded in a hall, so the insert room doesn't apply to us; the presence and top cuts that push winds back might.
+- **String EQ on CSS** (a library recorded in a hall, like HO), then an Ozone 5 exciter on violins and violas:
+  - Violins: low cut 65 Hz (30 dB/oct), a wide −0.7 to −2.5 dB dip at 490-710 Hz, +1.9 to +3 dB at 8.8-10.8 kHz, a +0.5 to +2.5 dB high shelf at 12-15 kHz.
+  - Violas: low cut 70 Hz, −1.3 to −2.5 dB at 590-607 Hz, a +2.5 to +4 dB high shelf at 7.4 kHz.
+  - Celli: low cut 39-50 Hz, −1.5 to −3.4 dB at 129-558 Hz, +1.8 to +2.6 dB at 2.7-3 kHz, +1 to +3.5 dB at 9.3-12.9 kHz.
+  - Basses: −2.4 to −3.6 dB at 205-250 Hz, +1.6 to +3.6 dB at 9.4-10 kHz.
+  - Brass group: −6.9 dB at 500 Hz, +2.7 dB at 3.6 kHz; trumpets +2 to +3 dB at 10 kHz; tuba −4.3 dB at 143 Hz.
+  This is the same direction as EastWest's section EQ (cut 450 Hz to 1 kHz), with smaller cuts and the lift placed at 9-11 kHz instead of a shelf from 4.7 kHz.
+- **A room-noise bed (Mahler).** A 62.6 s recording of room noise is looped under the whole piece on its own track (fader +5.6 dB, item gain +3.4 dB, low cut 84 Hz) and sent to the hall at −1.6 dB. It gives the mockup the constant noise floor of a real hall recording, so rests and soft entries never fall to digital silence.
+
+## 15. What to try in our mockup (for the Movement I thread to test)
+1. **Repeated-note gaps of 60-100 ms** (winds about 60, strings about 90, brass about 100, short rows about 115) in place of 20-45 ms, measured for audible separation (Dan's note on repeated notes).
+2. **A symmetric phrase arch**: the peak around 40-55 % of the phrase, start and end both well under it (in lyrical lines 15-30 units or more, scaled to the printed dynamic, with printed hairpins taking precedence). Give long notes motion of their own (a rise to the middle or a fall at the end) instead of flat holds.
+3. **Reverb**: a test with a shorter, darker hall (decay 2.1-2.5 s, high cut 3-6 kHz, low cut about 180 Hz), sends about 1.5 dB lower for celli and basses and about 7 dB lower for low string shorts. This targets "still a bit mushy".
+4. **Legato velocity tied to the dynamic** (louder passages higher), keeping the legato-speed rules.
+5. **Larger rubato in Movement II**: phrase-final beats 15-30 % slower and a stronger push into climaxes, within the printed tempos.
+6. **A small ensemble spread** (a fixed ±10-20 ms per track around the beat) as an A/B test only, since Dan asked for attacks on the beat.
+7. **A quiet room-noise bed** under the whole movement, just audible in rests.
+8. **String EQ variant**: the lift at 9-11 kHz instead of the 4.7 kHz shelf, then compare.
+
+## Leads not taken
+- Lorne Balfe's "The Crown" main titles (MIDI and Cubase project) and four more Hightail shares from 14th Street Music: the links work, but the download would land on Dan's Mac, which needs his OK.
+- Ludwig Göransson's "Can You Hear the Music" (Oppenheimer) MIDI: the Dropbox link needs a key that the post doesn't give.
+- Jerry Goldsmith's Mulan overture and Joe Hisaishi's Howl's Moving Castle are Cubase .cpr projects (binary; no parser here). VSL Masterpieces (vsl.co.at/masterpieces) are tied to VSL's own libraries.

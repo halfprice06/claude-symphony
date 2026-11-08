@@ -59,7 +59,8 @@ Keep a pass-2 copy of the old layout for one cycle so the critics can compare.
 
 ## 5. Performance data (c51)
 - Legato overlap 45-80 ms on string legato lines, 33-58 ms on winds and brass.
-- Repeated-note gap 20-45 ms on legato lines, 40-60 ms on short-note rows.
+- Repeated-note gap: see section 8 (60-100 ms is now the default; EW's own template used 20-45 ms on legato lines and
+  40-60 ms on short-note rows).
 - Legato velocity 90 or more where a clear change of note is wanted (check what velocity does on each legato patch in the
   2021 manual first).
 - CC1 drawn at 7-13 points per second on sustained and legato lines, using the full range.
@@ -106,3 +107,29 @@ timing carry over to us; the absolute values do not.
 - **CC density** 13-44 points/s, denser than EW's 7-13.
 - **Legato overlaps** 46-230 ms in those libraries: the right overlap depends on the patch. For HO use EW's 45-80 ms
   (section 5) and measure.
+
+## 8. Research batch 4: 20 expert MIDI mockups (FINDINGS.md part 4, expert-report.txt, duc-mix.txt)
+Dan, 2026-11-08: "we need as much human expert examples as possible." Sources include Bernard Duc's Mahler Adagietto and
+LOTR (full REAPER projects), the Star Wars main title, The Village and 11 Ashton Gleckman suites. Where this disagrees
+with sections 5-7, the c51 critics settle it by measurement; the defaults below are what c50/c51 start from.
+- **Repeated-note gaps: 60-100 ms (replaces section 5's 20-45 ms as the default).** Medians are winds 63, strings 90,
+  brass 98 and short rows 116 ms. This also answers Dan's note that repeated notes are hard to hear (S1). Measure the
+  repeat dips; keep EW's shorter gap only where a patch needs it.
+- **Phrase arch (refines section 7).** The peak falls at 33-62 % of the phrase in 18 of 20 files. Start and end sit well
+  below it, with a range of 30-60 units on long phrases. Combine with section 7: the rise begins after the first onset
+  (about +15 by 0.4 s, +25 by 0.8 s), the peak sits in the middle third, and the last second tapers. Long notes keep
+  moving: in 15 of 20 files only 0-13 % of long notes are flat.
+- **Legato velocity follows the dynamic** (r about 0.35), around section 5's 90-or-more median.
+- **Reverb variant for "still a bit mushy" (c50 pass-2 A/B against the EW returns).** Duc uses one hall of about 2.1-2.45 s
+  decay, a low cut around 184 Hz, a high cut around 3 kHz (LOTR), and the return at -5.5/-6.6 dB. Sends are 0 dB for
+  violins, violas and brass, -1.6 dB for cello and bass longs, and -7 dB for low string shorts. The low-string short
+  send cut is worth taking on its own.
+- **String EQ variant (A/B against section 3).** Duc on CSS: violins -1 to -2.5 dB at 490-710 Hz and +2-3 dB at 9-11 kHz;
+  basses -2.4 to -3.6 dB at 205-250 Hz.
+- **Tutti entry spread (A/B only).** Expert files spread tutti entries 36-55 ms from first to last track (0-12 % exactly
+  together); ours align the perceived attacks exactly. Test a small seeded spread per section and judge clarity.
+- **Room-noise bed (test).** Duc loops a quiet room-noise recording, low cut at 84 Hz, sent to the hall. Only with a
+  recording we are free to use; check that the delivered noise floor stays inaudible at the soft passages.
+- **Tempo for slow movements (Movement II mainly).** Duc's tempo map follows a recording beat by beat: median beat
+  deviation 8 %, phrase-end breaths 15-30 % slower, beat 4 about 7 % slower on average. Movement I's Lento and
+  ritardandi can use the breath rule.

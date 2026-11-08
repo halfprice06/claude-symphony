@@ -1,0 +1,326 @@
+Bernard Duc's two REAPER projects (Mahler 5 Adagietto, LOTR 'The White Tree'), mix side decoded 2026-11-08.
+Instruments run in Vienna Ensemble Pro, so the sampler states are not in the .RPP; the audio returns, buses and FX are.
+EQ = FabFilter Pro-Q 2 (AU state: 12-byte header, then big-endian (index, float) pairs, 7 per band: used(1)/unused(2), log2 Hz, gain dB, Q norm (Q=0.025*1600^n, assumed), shape, slope, stereo).
+Reverb = Relab VSR S24 (preset names are certain; 'decay', 'low cut', 'high cut' are inferred from the values).
+
+== FX per track (BYPASS 1 = bypassed)
+-- Mahler
+MASTER                       AU: Ozone 5 (iZotope)                    BYPASS 1 0 0
+MASTER                       AU: FF Pro-Q 2 (FabFilter)               BYPASS 1 0 0
+Background noise             AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+HARP                         AU: VSR S24 (Relab Development)          BYPASS 0 0 0
+ret - Harp VSL               AU: Proximity (TDR Labs)                 BYPASS 0 0 0
+ret - Harp VSL               AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Solo Violin EBT       AU: Proximity (TDR Labs)                 BYPASS 0 0 0
+ret -  Solo Violin EBT       AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Violin 1 CSS longs    AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Violin 1 CSS longs    AU: Ozone 5 Exciter (iZotope)            BYPASS 0 0 0
+ret -  Violin 2 CSS longs    AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Violin 2 CSS longs    AU: Ozone 5 Exciter (iZotope)            BYPASS 0 0 0
+ret -  Violin 2 CSS longs    AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Violin 2 CSS 2        AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Violin 2 CSS 2        AU: Ozone 5 Exciter (iZotope)            BYPASS 0 0 0
+ret -  Viola CSS longs       AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Viola CSS longs       AU: Ozone 5 Exciter (iZotope)            BYPASS 0 0 0
+ret -  Viola CSS 2           AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Viola CSS 2           AU: Ozone 5 Exciter (iZotope)            BYPASS 0 0 0
+ret -  Cello CSS longs       AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Cello CSS 2           AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Bass CSS longs        AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Bass CSS shorts       AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+[x] MIX GROUPS               AU: Console5Buss (Airwindows)            BYPASS 0 0 0
+Woodwinds                    AU: Console5Channel (Airwindows)         BYPASS 0 0 0
+Percussion                   VST: ReaComp (Cockos)                    BYPASS 0 0 0
+Percussion                   AU: Console5Channel (Airwindows)         BYPASS 0 0 0
+Strings Hi                   AU: Console5Channel (Airwindows)         BYPASS 0 0 0
+Strigns Lo                   AU: Console5Channel (Airwindows)         BYPASS 0 0 0
+Hall                         AU: VSR S24 (Relab Development)          BYPASS 0 0 0
+Hall                         AU: Console5Channel (Airwindows)         BYPASS 0 0 0
+-- LOTR
+MASTER                       AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+MASTER                       AU: Logical4 (Airwindows)                BYPASS 0 0 0
+MASTER                       VST: ToTape5 (airwindows)                BYPASS 0 0 0
+MASTER                       AU: VSR S24 (Relab Development)          BYPASS 0 0 0
+AUDIO                        AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+Woodwinds VSL                AU: Proximity (TDR Labs)                 BYPASS 0 0 0
+Woodwinds VSL                AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+Woodwinds VSL                AU: VSR S24 (Relab Development)          BYPASS 0 0 0
+ret -  Flute 1 VSL           AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Flute 2 VSL           AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Oboe 1 VSL            AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Oboe 2 VSL            AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Clarinet 1 VSL        AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret - Harp VSL               AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Trumpet Solo SSB      AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Trumpet a2 SSB        AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Trumpet a6 SSB        AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Hi Brass ALB1         AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Mid Brass ALB1        AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Trombone Solo SSB     AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Trombone a2 SSB       AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Trombone a6 SSB       AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Bass Trombone SSB     AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Bass Trombone a2 SSB  AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Contra Trombone SSB   AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Tuba SSB              AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Contra Tuba SSB       AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Cimbasso Solo SSB     AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Cimbasso a2 SSB       AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret - Skins SF               AU: VSR S24 (Relab Development)          BYPASS 0 0 0
+ret - Forest Drum            AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret - Forest Drum            AU: Proximity (TDR Labs)                 BYPASS 0 0 0
+ret - Forest Drum            VST: ReaComp (Cockos)                    BYPASS 0 0 0
+ret - Forest Drum            AU: VSR S24 (Relab Development)          BYPASS 0 0 0
+ret -  Violin 1 CSS longs    AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Violin 1 CSS longs    AU: Ozone 5 Exciter (iZotope)            BYPASS 0 0 0
+ret -  Violin 1 CSS shorts   AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Violin 1 CSS shorts   AU: Ozone 5 Exciter (iZotope)            BYPASS 0 0 0
+ret -  Violin 2 CSS longs    AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Violin 2 CSS longs    AU: Ozone 5 Exciter (iZotope)            BYPASS 0 0 0
+ret -  Violin 2 CSS shorts   AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Violin 2 CSS shorts   AU: Ozone 5 Exciter (iZotope)            BYPASS 0 0 0
+ret -  Viola CSS longs       AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Viola CSS longs       AU: Ozone 5 Exciter (iZotope)            BYPASS 0 0 0
+ret -  Viola CSS shorts      AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Viola CSS shorts      AU: Ozone 5 Exciter (iZotope)            BYPASS 0 0 0
+ret -  Cello CSS longs       AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Cello CSS shorts      AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Bass CSS longs        AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+ret -  Bass CSS shorts       AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+[x] MIX GROUPS               AU: Console5Buss (Airwindows)            BYPASS 0 0 0
+Woodwinds                    AU: Console5Channel (Airwindows)         BYPASS 0 0 0
+Brass                        AU: FF Pro-Q 2 (FabFilter)               BYPASS 0 0 0
+Brass                        AU: Console5Channel (Airwindows)         BYPASS 0 0 0
+Percussion                   VST: ReaComp (Cockos)                    BYPASS 0 0 0
+Percussion                   AU: Console5Channel (Airwindows)         BYPASS 0 0 0
+Strings Hi                   AU: Console5Channel (Airwindows)         BYPASS 0 0 0
+Strigns Lo                   AU: Console5Channel (Airwindows)         BYPASS 0 0 0
+Hall                         AU: VSR S24 (Relab Development)          BYPASS 0 0 0
+Hall                         AU: Console5Channel (Airwindows)         BYPASS 0 0 0
+
+== Routing, Mahler (from the audio returns down)
+[0] AUDIO: +9.4 dB pan +0.00 main=0 items=1  fx: 
+[1] Background noise: +5.6 dB pan +0.00 main=1 items=9  fx: 
+[18] [w] AUDIO RETURNS: +0.0 dB pan +0.00 main=0 items=0  fx: 
+[19] HARP: +0.0 dB pan +0.00 main=0 items=0  fx: 
+[20] ret - Harp VSL: +0.0 dB pan +0.00 main=1 items=0  fx: 
+     <- [16] [v] Harps Keys Misc +0.0 dB pan +0.00 mode 0 chan 12
+[21] ret -  Solo Violin EBT: -1.2 dB pan +0.00 main=0 items=0  fx: 
+     <- [2] [q] STRINGS HI +0.0 dB pan +0.00 mode 0 chan 0
+[22] ret -  Violin 1 CSS longs: +1.2 dB pan +0.00 main=0 items=0  fx: 
+     <- [2] [q] STRINGS HI +0.0 dB pan +0.00 mode 0 chan 2
+[23] VLN 1 VCA: +0.0 dB pan +0.00 main=1 items=0  fx: 
+[24] ret -  Violin 2 CSS longs: +0.0 dB pan +0.00 main=0 items=0  fx: 
+     <- [2] [q] STRINGS HI +0.0 dB pan +0.00 mode 0 chan 6
+[25] ret -  Violin 2 CSS 2: +0.0 dB pan +0.00 main=0 items=0  fx: 
+     <- [2] [q] STRINGS HI +0.0 dB pan +0.00 mode 0 chan 30
+[26] ret -  Viola CSS longs: +0.0 dB pan +0.00 main=0 items=0  fx: 
+     <- [2] [q] STRINGS HI +0.0 dB pan +0.00 mode 0 chan 10
+[27] ret -  Viola CSS 2: +0.0 dB pan +0.00 main=0 items=0  fx: 
+     <- [2] [q] STRINGS HI +0.0 dB pan +0.00 mode 0 chan 32
+[28] ret -  Solo Cello EBT: +0.0 dB pan +0.00 main=0 items=0  fx: 
+     <- [9] [r] STRINGS LO +0.0 dB pan +0.00 mode 0 chan 0
+[29] ret -  Cello CSS longs: +0.0 dB pan +0.00 main=0 items=0  fx: 
+     <- [9] [r] STRINGS LO +0.0 dB pan +0.00 mode 0 chan 2
+[30] ret -  Cello CSS 2: +0.0 dB pan +0.00 main=0 items=0  fx: 
+     <- [9] [r] STRINGS LO +0.0 dB pan +0.00 mode 0 chan 26
+[31] ret -  Bass CSS longs: +0.0 dB pan +0.00 main=0 items=0  fx: 
+     <- [9] [r] STRINGS LO +0.0 dB pan +0.00 mode 0 chan 6
+[32] ret -  Bass CSS shorts: +0.0 dB pan +0.00 main=0 items=0  fx: 
+     <- [9] [r] STRINGS LO +0.0 dB pan +0.00 mode 0 chan 8
+[33] [x] MIX GROUPS: +0.0 dB pan +0.00 main=1 items=0  fx: 
+[34] Woodwinds: -5.4 dB pan +0.00 main=1 items=0  fx: 
+     <- [19] HARP +0.0 dB pan +0.00 mode 0 chan 0
+[35] Percussion: -2.1 dB pan +0.00 main=1 items=0  fx: 
+[36] Strings Hi: -5.4 dB pan +0.00 main=1 items=0  fx: 
+     <- [21] ret -  Solo Violin EBT +0.0 dB pan +0.00 mode 0 chan 0
+     <- [22] ret -  Violin 1 CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [24] ret -  Violin 2 CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [25] ret -  Violin 2 CSS 2 +0.0 dB pan +0.00 mode 0 chan 0
+     <- [26] ret -  Viola CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [27] ret -  Viola CSS 2 +0.0 dB pan +0.00 mode 0 chan 0
+[37] Strigns Lo: -5.4 dB pan +0.00 main=1 items=0  fx: 
+     <- [28] ret -  Solo Cello EBT +0.0 dB pan +0.00 mode 0 chan 0
+     <- [29] ret -  Cello CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [30] ret -  Cello CSS 2 +0.0 dB pan +0.00 mode 0 chan 0
+     <- [31] ret -  Bass CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [32] ret -  Bass CSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+[38] Hall : -5.5 dB pan +0.00 main=1 items=0  fx: 
+     <- [1] Background noise -1.6 dB pan +0.00 mode 0 chan 0
+     <- [19] HARP +0.0 dB pan +0.00 mode 0 chan 0
+     <- [21] ret -  Solo Violin EBT +3.6 dB pan +0.00 mode 0 chan 0
+     <- [22] ret -  Violin 1 CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [24] ret -  Violin 2 CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [25] ret -  Violin 2 CSS 2 +0.0 dB pan +0.00 mode 0 chan 0
+     <- [26] ret -  Viola CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [27] ret -  Viola CSS 2 +0.0 dB pan +0.00 mode 0 chan 0
+     <- [29] ret -  Cello CSS longs -1.6 dB pan +0.00 mode 0 chan 0
+     <- [30] ret -  Cello CSS 2 -1.6 dB pan +0.00 mode 0 chan 0
+     <- [31] ret -  Bass CSS longs -1.6 dB pan +0.00 mode 0 chan 0
+     <- [32] ret -  Bass CSS shorts -7.0 dB pan +0.00 mode 0 chan 0
+
+== Routing, LOTR (groups and hall)
+[0] AUDIO: +0.0 dB pan +0.00 main=0 items=1  fx: 
+[143] Woodwinds VSL: +0.0 dB pan +0.00 main=0 items=0  fx: 
+[158] ret - Harp VSL: -8.0 dB pan +0.00 main=1 items=0  fx: 
+     <- [40] [g] MALLETS +0.0 dB pan +0.00 mode 0 chan 12
+[186] ret - Forest Drum: -6.6 dB pan +0.00 main=0 items=0  fx: 
+     <- [111] [m] Ethnic Winds +0.0 dB pan +0.00 mode 0 chan 0
+[215] [x] MIX GROUPS: +0.0 dB pan +0.00 main=1 items=0  fx: 
+[216] Woodwinds: -5.4 dB pan +0.00 main=1 items=0  fx: 
+     <- [143] Woodwinds VSL +0.0 dB pan +0.00 mode 0 chan 0
+     <- [159] ret -  Hi Woodwinds ALB1 +0.0 dB pan +0.00 mode 0 chan 0
+     <- [160] ret -  Lo Woodwinds ALB1 +0.0 dB pan +0.00 mode 0 chan 0
+[217] Brass: -5.4 dB pan +0.00 main=1 items=0  fx: 
+     <- [161] ret -  Horn Solo SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [162] ret -  Horn a2 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [163] ret -  Horn a6 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [164] ret -  Trumpet Solo SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [165] ret -  Trumpet a2 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [166] ret -  Trumpet a6 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [167] ret -  Hi Brass ALB1 +0.0 dB pan +0.00 mode 0 chan 0
+     <- [168] ret -  Mid Brass ALB1 +0.0 dB pan +0.00 mode 0 chan 0
+     <- [169] ret -  Trombone Solo SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [170] ret -  Trombone a2 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [171] ret -  Trombone a6 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [172] ret -  Bass Trombone SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [173] ret -  Bass Trombone a2 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [174] ret -  Contra Trombone SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [175] ret -  Tuba SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [176] ret -  Contra Tuba SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [177] ret -  Cimbasso Solo SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [178] ret -  Cimbasso a2 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [179] ret -  Lo Brass ALB1 +0.0 dB pan +0.00 mode 0 chan 0
+[218] Percussion: -2.1 dB pan +0.00 main=1 items=0  fx: 
+     <- [180] ret - Mallets SF +0.0 dB pan +0.00 mode 0 chan 0
+     <- [181] ret - Woods and toys SF +0.0 dB pan +0.00 mode 0 chan 0
+     <- [182] ret - Skins SF +0.0 dB pan +0.00 mode 0 chan 0
+     <- [183] ret - Metals SF +0.0 dB pan +0.00 mode 0 chan 0
+     <- [184] ret - Percussions ALB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [185] ret - Thunder Extreme PERC +0.0 dB pan +0.00 mode 0 chan 0
+     <- [186] ret - Forest Drum +0.0 dB pan +0.00 mode 0 chan 0
+[219] Strings Hi: -5.4 dB pan +0.00 main=1 items=0  fx: 
+     <- [187] ret -  Solo Violin EBT +0.0 dB pan +0.00 mode 0 chan 0
+     <- [188] ret -  Violin 1 CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [189] ret -  Violin 1 CSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [190] ret -  Violin 2 CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [191] ret -  Violin 2 CSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [192] ret -  Viola CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [193] ret -  Viola CSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [194] ret -  Violin 1 SSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [195] ret -  Violin 1 SSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [196] ret -  Violin 2 SSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [197] ret -  Violin 2 SSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [198] ret -  Viola SSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [199] ret -  Viola SSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [200] ret -  Hi Strings ALB1 longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [201] ret -  Hi Strings ALB1 shorts +0.0 dB pan +0.00 mode 0 chan 0
+[220] Strigns Lo: -3.7 dB pan +0.00 main=1 items=0  fx: 
+     <- [174] ret -  Contra Trombone SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [202] ret -  Solo Cello EBT +0.0 dB pan +0.00 mode 0 chan 0
+     <- [203] ret -  Cello CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [204] ret -  Cello CSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [205] ret -  Bass CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [206] ret -  Bass CSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [207] ret -  Cello SSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [208] ret -  Cello SSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [209] ret -  Bass SSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [210] ret -  Bass SSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [211] ret -  Lo Strings ALB1 longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [212] ret -  Lo Strings ALB1 shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [213] ret - Strings Ens CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [214] ret - Strings Ens CSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+[221] Hall : -6.6 dB pan +0.00 main=1 items=0  fx: 
+     <- [143] Woodwinds VSL +0.0 dB pan +0.00 mode 0 chan 0
+     <- [161] ret -  Horn Solo SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [162] ret -  Horn a2 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [163] ret -  Horn a6 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [164] ret -  Trumpet Solo SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [165] ret -  Trumpet a2 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [166] ret -  Trumpet a6 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [167] ret -  Hi Brass ALB1 +0.0 dB pan +0.00 mode 0 chan 0
+     <- [168] ret -  Mid Brass ALB1 +0.0 dB pan +0.00 mode 0 chan 0
+     <- [169] ret -  Trombone Solo SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [170] ret -  Trombone a2 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [171] ret -  Trombone a6 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [172] ret -  Bass Trombone SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [173] ret -  Bass Trombone a2 SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [175] ret -  Tuba SSB +0.0 dB pan +0.00 mode 0 chan 0
+     <- [182] ret - Skins SF +0.0 dB pan +0.00 mode 0 chan 0
+     <- [183] ret - Metals SF +0.0 dB pan +0.00 mode 0 chan 0
+     <- [186] ret - Forest Drum -8.2 dB pan +0.00 mode 0 chan 0
+     <- [188] ret -  Violin 1 CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [189] ret -  Violin 1 CSS shorts +1.3 dB pan +0.00 mode 0 chan 0
+     <- [190] ret -  Violin 2 CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [191] ret -  Violin 2 CSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [192] ret -  Viola CSS longs +0.0 dB pan +0.00 mode 0 chan 0
+     <- [193] ret -  Viola CSS shorts +0.0 dB pan +0.00 mode 0 chan 0
+     <- [203] ret -  Cello CSS longs -1.6 dB pan +0.00 mode 0 chan 0
+     <- [204] ret -  Cello CSS shorts -7.0 dB pan +0.00 mode 0 chan 0
+     <- [205] ret -  Bass CSS longs -1.6 dB pan +0.00 mode 0 chan 0
+     <- [206] ret -  Bass CSS shorts -7.0 dB pan +0.00 mode 0 chan 0
+
+== Active EQ bands, Mahler (master EQ is bypassed)
+002_Background_noise: LowCut 84 Hz 24 dB/oct
+005_ret_Harp_VSL: LowCut 43 Hz 24 dB/oct; LowShelf 590 Hz -2.3 dB; Bell 6993 Hz +3.0 dB Q~0.96; Bell 230 Hz +0.1 dB Q~1.00
+007_ret_Solo_Violin_EBT: LowCut 85 Hz 12 dB/oct; Bell 219 Hz -8.5 dB Q~0.44; HighShelf 4413 Hz -11.1 dB; Bell 846 Hz +2.8 dB Q~1.00
+008_ret_Violin_1_CSS_longs: HighShelf 12259 Hz +0.9 dB; Bell 489 Hz -0.7 dB Q~0.42; LowCut 65 Hz 30 dB/oct; Bell 8800 Hz +2.9 dB Q~1.26; HighShelf 22363 Hz -0.0 dB
+010_ret_Violin_2_CSS_longs: HighShelf 14671 Hz -0.0 dB; Bell 700 Hz -1.3 dB Q~0.62; LowCut 65 Hz 30 dB/oct; Bell 10606 Hz +1.9 dB Q~1.26
+012_ret_Violin_2_CSS_longs: Bell 2953 Hz +0.0 dB Q~0.68; Bell 134 Hz +0.0 dB Q~0.39; Bell 1285 Hz +2.1 dB Q~1.48; Bell 4582 Hz -1.7 dB Q~1.03
+013_ret_Violin_2_CSS_2: HighShelf 14111 Hz +0.5 dB; Bell 705 Hz -1.3 dB Q~0.62; LowCut 65 Hz 30 dB/oct; Bell 10816 Hz +2.2 dB Q~1.26
+015_ret_Viola_CSS_longs: HighShelf 7412 Hz +2.7 dB; Bell 590 Hz -1.4 dB Q~0.62; LowCut 70 Hz 30 dB/oct
+017_ret_Viola_CSS_2: HighShelf 7525 Hz +2.5 dB; Bell 597 Hz -1.3 dB Q~0.62; LowCut 70 Hz 30 dB/oct
+019_ret_Cello_CSS_longs: LowCut 50 Hz 12 dB/oct; Bell 262 Hz -2.3 dB Q~1.97; Bell 10460 Hz +1.1 dB Q~0.92; Bell 10532 Hz +1.7 dB Q~2.12; Bell 3042 Hz +1.8 dB Q~1.06; Bell 129 Hz -3.4 dB Q~0.51
+020_ret_Cello_CSS_2: LowCut 39 Hz 12 dB/oct; Bell 597 Hz +0.1 dB Q~0.69; Bell 12447 Hz +0.1 dB Q~0.92; Bell 9326 Hz +2.3 dB Q~2.12; Bell 2701 Hz +2.6 dB Q~1.06
+021_ret_Bass_CSS_longs: Bell 9813 Hz +1.9 dB Q~2.13; Bell 2132 Hz +0.3 dB Q~0.83; Bell 243 Hz -2.4 dB Q~1.02; LowShelf 15 Hz -1.5 dB; Bell 79 Hz +0.3 dB Q~1.00
+022_ret_Bass_CSS_shorts: Bell 9363 Hz +1.6 dB Q~2.13; Bell 2194 Hz +0.2 dB Q~0.83; Bell 205 Hz -2.5 dB Q~1.02; LowShelf 15 Hz -1.5 dB; Bell 79 Hz +0.3 dB Q~1.00
+
+== Active EQ bands, LOTR (000_ = master)
+000_: Bell 959 Hz +0.1 dB Q~1.00; Bell 247 Hz +4.8 dB Q~0.13; Bell 14679 Hz +9.9 dB Q~2.39; Bell 354 Hz -2.6 dB Q~2.73; Bell 6359 Hz +1.8 dB Q~1.49; Bell 1716 Hz -3.5 dB Q~5.95; LowCut 10 Hz 24 dB/oct
+003_AUDIO: 
+005_Woodwinds_VSL: Bell 3709 Hz -10.5 dB Q~0.57; HighShelf 19264 Hz -16.7 dB; LowCut 76 Hz 18 dB/oct; Bell 158 Hz -10.7 dB Q~0.58
+007_ret_Flute_1_VSL: Bell 825 Hz -6.9 dB Q~0.83; HighShelf 14363 Hz -7.6 dB; LowCut 76 Hz 18 dB/oct; Bell 144 Hz -15.9 dB Q~0.58
+008_ret_Flute_2_VSL: Bell 1192 Hz -5.0 dB Q~0.89; HighShelf 15058 Hz -3.5 dB; LowCut 76 Hz 18 dB/oct; Bell 135 Hz -12.9 dB Q~0.58
+009_ret_Oboe_1_VSL: Bell 1986 Hz -6.1 dB Q~1.02; HighShelf 15058 Hz -3.5 dB; LowCut 76 Hz 18 dB/oct; Bell 192 Hz -9.4 dB Q~0.40
+010_ret_Oboe_2_VSL: Bell 1453 Hz -8.9 dB Q~1.50; HighShelf 15058 Hz -3.5 dB; LowCut 76 Hz 18 dB/oct; Bell 117 Hz -12.0 dB Q~0.58; Bell 4405 Hz -3.7 dB Q~2.31
+011_ret_Clarinet_1_VSL: Bell 872 Hz -4.3 dB Q~1.23; Bell 5837 Hz -8.3 dB Q~2.35; LowCut 76 Hz 18 dB/oct
+012_ret_Harp_VSL: LowShelf 107 Hz -14.6 dB; HighShelf 9142 Hz -9.7 dB
+013_ret_Trumpet_Solo_SSB: Bell 4223 Hz -1.9 dB Q~0.99; Bell 10508 Hz +1.0 dB Q~1.30; Bell 1008 Hz +2.1 dB Q~1.00
+014_ret_Trumpet_a2_SSB: LowCut 61 Hz 12 dB/oct; Bell 557 Hz -2.1 dB Q~1.01; Bell 10128 Hz +3.2 dB Q~1.00; Bell 1001 Hz -1.4 dB Q~1.00
+015_ret_Trumpet_a6_SSB: 
+016_ret_Hi_Brass_ALB1: 
+017_ret_Mid_Brass_ALB1: 
+018_ret_Trombone_Solo_SSB: 
+019_ret_Trombone_a2_SSB: LowCut 20 Hz 24 dB/oct; Bell 2370 Hz -2.9 dB Q~0.77; Bell 10026 Hz +2.9 dB Q~3.58; Bell 503 Hz -1.1 dB Q~1.00; Bell 126 Hz -0.2 dB Q~1.00; HighShelf 11858 Hz +2.5 dB
+020_ret_Trombone_a6_SSB: 
+021_ret_Bass_Trombone_SSB: Bell 885 Hz -2.4 dB Q~1.05; LowCut 56 Hz 12 dB/oct; Bell 7102 Hz +0.4 dB Q~0.89; Bell 534 Hz -4.7 dB Q~3.23
+022_ret_Bass_Trombone_a2_SSB: LowCut 26 Hz 30 dB/oct; Bell 4108 Hz -6.0 dB Q~2.13; HighShelf 4035 Hz -0.5 dB; HighShelf 3370 Hz -1.3 dB
+023_ret_Contra_Trombone_SSB: 
+024_ret_Tuba_SSB: LowCut 32 Hz 36 dB/oct; Bell 143 Hz -4.3 dB Q~0.83; Bell 9660 Hz +2.1 dB Q~1.75; Bell 105 Hz +0.3 dB Q~1.00; Bell 743 Hz +0.2 dB Q~0.69
+025_ret_Contra_Tuba_SSB: 
+026_ret_Cimbasso_Solo_SSB: 
+027_ret_Cimbasso_a2_SSB: 
+029_ret_Forest_Drum: LowCut 43 Hz 12 dB/oct; Bell 268 Hz -19.4 dB Q~2.54; HighShelf 2878 Hz -29.7 dB; Bell 531 Hz -7.7 dB Q~5.24
+032_ret_Violin_1_CSS_longs: HighShelf 14491 Hz +2.3 dB; Bell 497 Hz -2.1 dB Q~0.42; LowCut 65 Hz 30 dB/oct; Bell 9783 Hz +3.0 dB Q~1.82
+034_ret_Violin_1_CSS_shorts: HighShelf 14491 Hz +2.3 dB; Bell 497 Hz -2.1 dB Q~0.42; LowCut 65 Hz 30 dB/oct; Bell 9707 Hz +2.8 dB Q~1.82
+036_ret_Violin_2_CSS_longs: HighShelf 14914 Hz +2.5 dB; Bell 709 Hz -2.5 dB Q~0.62; LowCut 65 Hz 30 dB/oct; Bell 10655 Hz +2.8 dB Q~1.26
+038_ret_Violin_2_CSS_shorts: HighShelf 14914 Hz +2.5 dB; Bell 709 Hz -2.5 dB Q~0.62; LowCut 65 Hz 30 dB/oct; Bell 10282 Hz +2.8 dB Q~1.26
+040_ret_Viola_CSS_longs: HighShelf 7464 Hz +4.0 dB; Bell 607 Hz -2.5 dB Q~0.62; LowCut 70 Hz 30 dB/oct
+042_ret_Viola_CSS_shorts: HighShelf 7464 Hz +4.0 dB; Bell 607 Hz -2.5 dB Q~0.62; LowCut 70 Hz 30 dB/oct
+044_ret_Cello_CSS_longs: LowCut 39 Hz 12 dB/oct; Bell 558 Hz -1.5 dB Q~0.69; Bell 12933 Hz +3.5 dB Q~0.92; Bell 9491 Hz +2.2 dB Q~2.12
+045_ret_Cello_CSS_shorts: LowCut 39 Hz 12 dB/oct; Bell 558 Hz -1.5 dB Q~0.69; Bell 12933 Hz +3.5 dB Q~0.92
+046_ret_Bass_CSS_longs: Bell 10017 Hz +3.6 dB Q~2.13; Bell 2183 Hz +0.8 dB Q~0.83; Bell 249 Hz -3.6 dB Q~1.02; LowShelf 15 Hz -1.5 dB; Bell 79 Hz +0.3 dB Q~1.00
+047_ret_Bass_CSS_shorts: Bell 9794 Hz +3.1 dB Q~2.13; Bell 2183 Hz +0.8 dB Q~0.83; Bell 209 Hz -3.6 dB Q~1.02; LowShelf 15 Hz -1.5 dB; Bell 79 Hz +0.3 dB Q~1.00
+050_Brass: Bell 3634 Hz +2.7 dB Q~0.60; Bell 499 Hz -6.9 dB Q~1.16; Bell 31 Hz -5.5 dB Q~0.47
+
+== VSR S24 instances: preset, then params 7..36 (7 = wet level dB?, 12 = mix?, 17 = decay s?, 20 = pre-delay ms?, 23 = low cut Hz?, 25 = high cut Hz?)
+mahler 003_HARP MB Cincinnati Music Hall (TS).vsrs24 [-6.5, 0.0, 10.0, 9.33, 6.0, 100.0, 0.0, 0.0, 0.0, 20.0, 2.1, 1.17, 0.0, 12.1, 0.0, 0.0, 200.0, -2.0, 14600.0, 0.0, 0.49, 0.64, 0.79, 0.76, 146.59, 355.02, 1367.01, 3.0, 0.0, 112.12]
+mahler 028_Hall_ MB Cincinnati Music Hall (TS).vsrs24 [-6.5, 0.0, 10.0, 9.33, 6.0, 100.0, 0.0, 0.0, 0.0, 20.0, 2.1, 0.0, 0.0, 12.1, 0.0, 0.0, 184.0, -2.0, 14600.0, 0.0, 0.84, 0.78, 0.87, 0.55, 146.59, 355.02, 1367.01, 3.0, 0.0, 112.12]
+lotr 002_ Concert Hall Short (Shy).vsrs24 [-24.25, 0.0, 4.0, 20.33, 0.0, 99.0, 0.0, -0.33, 0.0, 20.0, 1.18, 0.0, 0.0, 12.0, 0.0, 0.0, 150.0, 0.0, 6324.56, 0.0, 0.78, 0.85, 0.94, 0.98, 307.64, 1977.43, 6300.72, 0.0, -50.0, 100.0]
+lotr 006_Woodwinds_VSL MB Cincinnati Music Hall (TS).vsrs24 [-6.5, 0.0, 10.0, 9.33, 6.0, 100.0, 0.0, 0.0, 0.0, 20.0, 2.1, 1.17, 0.0, 12.1, 0.0, 0.0, 184.0, -2.0, 14600.0, 0.0, 0.73, 0.78, 0.87, 0.55, 146.59, 355.02, 1367.01, 3.0, 0.0, 112.12]
+lotr 028_ret_Skins_SF Bright Chamber (TS).vsrs24 [-7.76, 0.0, 8.0, 4.66, 7.0, 100.0, 0.0, 0.0, -17.0, 20.0, 1.5, 5.17, 0.0, 11.8, 0.0, 0.0, 200.0, -6.76, 6622.38, 7.67, 0.08, 0.52, 0.81, 0.46, 160.66, 500.82, 4465.31, 6.0, 19.0, 60.21]
+lotr 031_ret_Forest_Drum MB Cincinnati Music Hall (TS).vsrs24 [0.0, 0.0, 10.0, 9.33, 6.0, 100.0, 0.0, 0.0, 0.0, 20.0, 3.27, 13.83, 0.0, 12.85, 0.0, 0.0, 148.42, -2.0, 14600.0, 0.0, 0.73, 0.78, 0.87, 0.55, 146.59, 355.02, 1367.01, 3.0, 0.0, 112.12]
+lotr 055_Hall_ Large Warm Hall (TS).vsrs24 [-9.0, 0.0, 10.0, 0.0, 6.0, 100.0, 0.0, 0.0, 7.67, 20.0, 2.45, 0.5, 0.0, 12.0, 0.0, 0.0, 183.97, -2.0, 2985.59, -4.0, 0.84, 0.78, 0.87, 0.55, 146.59, 355.6, 1371.93, 1.0, 0.33, 112.29]
+
+== Room-noise bed (Mahler): track 'Background noise', fader +5.6 dB, 9 copies of a 62.6 s file '01-180816_1550-glued.wav' (item gain +3.4 dB) end to end from 5.6 s, Pro-Q 2 low cut 84 Hz 24 dB/oct, send to Hall -1.6 dB.
+== Reference: track 'AUDIO' holds '01-AUDIO-180810_1209.wav' (509.7 s) at +9.4 dB with its master send off; the MIDI tempo map (412 events) follows it beat by beat.
