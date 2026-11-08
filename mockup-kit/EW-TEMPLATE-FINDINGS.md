@@ -24,9 +24,9 @@ Every mic sub-mix has panLeft/panRight at −1/+1 (full width). Seating comes fr
 
 ## 2. Reverb
 
-- **Opus's own reverb is off on almost every instrument** (on only in the extra layers of the combined "Full STR" pizz, spiccato and sustain patches, the Basses KS Master and the tam-tam). All the hall comes from **EW Spaces II on REAPER send tracks, one per section**, each 100 % wet, **pre-delay 19.6 ms**, true stereo:
+- **Opus's own reverb is off on almost every instrument** (on only in the extra layers of the combined "Full STR" pizz, spiccato and sustain patches, the Basses KS Master and the tam-tam). All the hall comes from **EW Spaces II on REAPER send tracks, one per section**, each 100 % wet, true stereo, the full IR (no envelope truncation), and rear-position impulses ("L/R Rear N"). Pre-delay: strings 19.6 ms, winds 18.5 ms, brass and perc 10 ms:
   - STRING VERB: "S. Cal. Hall Strings TS RR 3.3s"; send from the STRINGS bus at **−5.6 dB**
-  - BRASS VERB: "S. Cal. Hall Brass TS RR 3.3s"; send −8.8 dB
+  - BRASS VERB: "S. Cal. Hall Brass TS RR 3.3s" (its impulse files are the hall's Horns position); send −8.8 dB
   - WW VERB: "San Francisco Hall TS RR 3.4s"; send −8.4 dB
   - PERC VERB: "Northwest Hall TS RR 2.6s"; sends −8.8 (keys/harp) and −6.4 dB (perc)
   - CHOIR VERB (Hamburg Cathedral 4.0 s) and LONG VERB (Abandoned Abbey 6.0 s) are present but receive nothing in the demo.
@@ -59,7 +59,7 @@ The pattern is the same on every section: **cut 450 Hz and 800 Hz to 1 kHz by 2 
 
 1. Strings and brass: load Close at about −6 dB (0.5) under Main 1.0, pan only the Close mic to the seat, and leave Main at full width.
 2. Woodwinds: flip to Close 1.0 / Main about 0.35 (−9 dB), with Oboe Main lower still.
-3. Turn Opus's reverb off and use Spaces II as REAPER sends per family (same IR family, about 3.3 s, pre-delay about 20 ms), sent from section buses. Put an EQ before each Spaces: HPF 90 to 100 Hz, −5 to −7 dB at 2.5 kHz, LPF 5.6 to 8.5 kHz.
+3. Turn Opus's reverb off and use Spaces II as REAPER sends per family (same IR family, about 3.3 s, pre-delay 10 to 20 ms), sent from section buses. Put an EQ before each Spaces: HPF 90 to 100 Hz, −5 to −7 dB at 2.5 kHz, LPF 5.6 to 8.5 kHz.
 4. Section-bus EQ: −2 to −5 dB around 450 Hz, −3 to −8 dB around 800 Hz to 1 kHz, +4 dB shelf at 5 to 7 kHz.
 5. Keep the repeated-note gap at 20 to 60 ms and the legato overlap at 45 to 80 ms; use legato velocity of 90 or more where a clear change of note is wanted.
 6. Use EastWest's demo, rendered on Dan's Mac with Dan's own instruments, as a reference track for spectrum and dry/wet comparisons. This needs Dan's go-ahead: 264 MB download, plus any Opus instruments it calls that are not installed.

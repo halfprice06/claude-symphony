@@ -1,0 +1,363 @@
+
+### Full STR Pizzicato: 52 notes
+  velocity: min 38 med 58.0 max 79 distinct 21
+  onset vs 16th grid: 100% exactly on grid; offset ms med +0.0, mean +0.0, range +0..+0
+  gaps before next note: 35 med 126 ms, min 26
+  repeated-pitch pairs: 2 gap med 138 ms min 138 max 138
+  durations ms med 124 min 74 max 545
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### Full STR Spiccato RRx4: 26 notes
+  velocity: min 65 med 67.0 max 69 distinct 5
+  onset vs 16th grid: 100% exactly on grid; offset ms med +0.0, mean +0.0, range +0..+0
+  gaps before next note: 7 med 608 ms, min 139
+  durations ms med 71 min 24 max 91
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### Full STR Sus LITE: 8 notes
+  velocity: min 44 med 81.0 max 98 distinct 7
+  onset vs 16th grid: 88% exactly on grid; offset ms med +0.0, mean +4.8, range +0..+38
+  overlaps into next note: 2 med 12 ms
+  gaps before next note: 4 med -0 ms, min -0
+  durations ms med 608 min 462 max 3692
+  CC1: 121 events, range 21..91, med 57, density 9.1/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### 1st Violins Leg Slur + Port LITE: 58 notes
+  velocity: min 57 med 92.0 max 124 distinct 28
+  onset vs 16th grid: 84% exactly on grid; offset ms med +0.0, mean +1.3, range -42..+58
+  overlaps into next note: 44 med 59 ms
+  gaps before next note: 13 med 38 ms, min 1
+  repeated-pitch pairs: 5 gap med 38 ms min 1 max 45
+  durations ms med 356 min 121 max 3887
+  CC1: 871 events, range 0..99, med 72, density 10.8/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### 2nd Violins Leg Slur + Port LITE: 55 notes
+  velocity: min 69 med 92 max 124 distinct 26
+  onset vs 16th grid: 89% exactly on grid; offset ms med +0.0, mean +0.7, range -38..+58
+  overlaps into next note: 41 med 61 ms
+  gaps before next note: 13 med 19 ms, min 1
+  repeated-pitch pairs: 5 gap med 19 ms min 1 max 38
+  durations ms med 345 min 121 max 3887
+  CC1: 686 events, range 0..96, med 69.0, density 9.5/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### Violas Leg Slur + Port LITE: 76 notes
+  velocity: min 62 med 94.0 max 115 distinct 29
+  onset vs 16th grid: 88% exactly on grid; offset ms med +0.0, mean -0.1, range -49..+58
+  overlaps into next note: 62 med 45 ms
+  gaps before next note: 13 med -0 ms, min -0
+  repeated-pitch pairs: 7 gap med 0 ms min 0 max 0
+  durations ms med 293 min 231 max 3780
+  CC1: 682 events, range 0..103, med 74.0, density 10.0/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### Celli Leg Slur + Port LITE: 63 notes
+  velocity: min 62 med 98 max 115 distinct 29
+  onset vs 16th grid: 92% exactly on grid; offset ms med +0.0, mean -0.3, range -38..+23
+  overlaps into next note: 57 med 58 ms
+  gaps before next note: 5 med 3481 ms, min 24
+  durations ms med 329 min 207 max 5538
+  CC1: 849 events, range 0..100, med 72, density 12.7/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### Celli Leg Slur + Port LITE: 36 notes
+  velocity: min 53 med 92.0 max 119 distinct 27
+  onset vs 16th grid: 97% exactly on grid; offset ms med +0.0, mean +1.6, range +0..+58
+  overlaps into next note: 31 med 80 ms
+  gaps before next note: 4 med 13217 ms, min -0
+  durations ms med 612 min 302 max 3813
+  CC1: 597 events, range 0..91, med 59, density 7.0/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### 1st Violins KS Master: 165 notes
+  velocity: min 17 med 35 max 127 distinct 23
+  onset vs 16th grid: 98% exactly on grid; offset ms med +0.0, mean +0.9, range +0..+38
+  overlaps into next note: 1 med 423 ms
+  gaps before next note: 163 med 53 ms, min 5
+  repeated-pitch pairs: 80 gap med 51 ms min 5 max 162
+  durations ms med 76 min 23 max 7269
+  CC1: 136 events, range 17..127, med 42.5, density 2.1/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### 2nd Violins KS Master: 150 notes
+  velocity: min 14 med 31.0 max 127 distinct 39
+  onset vs 16th grid: 96% exactly on grid; offset ms med +0.0, mean +0.0, range -42..+56
+  overlaps into next note: 10 med 50 ms
+  gaps before next note: 139 med 42 ms, min 5
+  repeated-pitch pairs: 64 gap med 43 ms min 5 max 92
+  durations ms med 74 min 23 max 3752
+  CC1: 261 events, range 0..127, med 58, density 3.5/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### Violas KS Master: 171 notes
+  velocity: min 28 med 53 max 127 distinct 30
+  onset vs 16th grid: 95% exactly on grid; offset ms med +0.0, mean +1.1, range -53..+56
+  overlaps into next note: 16 med 54 ms
+  gaps before next note: 89 med 44 ms, min -0
+  repeated-pitch pairs: 26 gap med 38 ms min -67 max 399
+  durations ms med 82 min 48 max 7269
+  CC1: 444 events, range 0..127, med 50.0, density 5.9/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### Celli KS Master: 74 notes
+  velocity: min 36 med 47.0 max 120 distinct 21
+  onset vs 16th grid: 93% exactly on grid; offset ms med +0.0, mean -0.6, range -54..+38
+  overlaps into next note: 4 med 35 ms
+  gaps before next note: 62 med 60 ms, min -0
+  repeated-pitch pairs: 49 gap med 57 ms min -46 max 420
+  durations ms med 64 min 41 max 3786
+  CC1: 560 events, range 0..127, med 46.0, density 7.4/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### Basses KS Master: 27 notes
+  velocity: min 53 med 91 max 127 distinct 25
+  onset vs 16th grid: 22% exactly on grid; offset ms med +0.0, mean +1.7, range -57..+58
+  overlaps into next note: 15 med 41 ms
+  gaps before next note: 11 med 462 ms, min -0
+  durations ms med 1895 min 70 max 5596
+  CC1: 1163 events, range 0..95, med 62, density 13.5/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### BRASS: 30 notes
+  velocity: min 59 med 84.0 max 103 distinct 17
+  onset vs 16th grid: 23% exactly on grid; offset ms med +0.0, mean -5.1, range -55..+58
+  overlaps into next note: 17 med 36 ms
+  gaps before next note: 9 med 39 ms, min 2
+  repeated-pitch pairs: 2 gap med 39 ms min 38 max 39
+  durations ms med 354 min 115 max 3651
+  CC1: 458 events, range 0..127, med 79.0, density 9.7/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### 3TP KS Master: 13 notes
+  velocity: min 83 med 83 max 93 distinct 3
+  onset vs 16th grid: 92% exactly on grid; offset ms med +0.0, mean +1.5, range +0..+19
+  gaps before next note: 4 med 143 ms, min 28
+  durations ms med 71 min 68 max 91
+  CC1: 1 events, range 127..127, med 127, density 0.0/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### 1FH KS Master: 13 notes
+  velocity: min 69 med 82 max 104 distinct 10
+  onset vs 16th grid: 46% exactly on grid; offset ms med +0.0, mean +0.2, range -28..+58
+  overlaps into next note: 9 med 35 ms
+  gaps before next note: 3 med 103 ms, min -0
+  repeated-pitch pairs: 1 gap med 70087 ms min 70087 max 70087
+  durations ms med 750 min 58 max 3769
+  CC1: 192 events, range 0..73, med 60.5, density 2.2/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### 2FH KS Master: 84 notes
+  velocity: min 51 med 94.0 max 127 distinct 40
+  onset vs 16th grid: 45% exactly on grid; offset ms med +0.0, mean -3.6, range -57..+58
+  overlaps into next note: 28 med 1278 ms
+  gaps before next note: 30 med 115 ms, min 13
+  repeated-pitch pairs: 3 gap med 140 ms min 57 max 16430
+  durations ms med 233 min 24 max 3807
+  CC1: 653 events, range 0..127, med 72, density 9.3/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### 6FH KS Master: 31 notes
+  velocity: min 59 med 84 max 104 distinct 20
+  onset vs 16th grid: 19% exactly on grid; offset ms med +0.0, mean +1.8, range -53..+57
+  overlaps into next note: 25 med 48 ms
+  gaps before next note: 5 med 3178 ms, min 38
+  repeated-pitch pairs: 1 gap med 38 ms min 38 max 38
+  durations ms med 382 min 125 max 3719
+  CC1: 452 events, range 0..90, med 67.0, density 10.5/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### 2TB KS Master: 81 notes
+  velocity: min 36 med 83 max 127 distinct 36
+  onset vs 16th grid: 59% exactly on grid; offset ms med +0.0, mean -2.6, range -57..+57
+  overlaps into next note: 19 med 1792 ms
+  gaps before next note: 31 med 115 ms, min -0
+  repeated-pitch pairs: 3 gap med 84 ms min 62 max 107
+  durations ms med 918 min 24 max 3863
+  CC1: 1098 events, range 0..127, med 57.0, density 12.7/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### 1TU KS Master: 40 notes
+  velocity: min 60 med 83.0 max 127 distinct 13
+  onset vs 16th grid: 72% exactly on grid; offset ms med +0.0, mean -1.6, range -57..+57
+  overlaps into next note: 1 med 338 ms
+  gaps before next note: 22 med 143 ms, min -0
+  repeated-pitch pairs: 1 gap med 62 ms min 62 max 62
+  durations ms med 82 min 24 max 3863
+  CC1: 780 events, range 0..110, med 64.0, density 10.3/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### WOODWINDS: 32 notes
+  velocity: min 65 med 95.0 max 124 distinct 12
+  onset vs 16th grid: 31% exactly on grid; offset ms med +0.0, mean -0.6, range -49..+47
+  overlaps into next note: 26 med 38 ms
+  gaps before next note: 5 med 459 ms, min -0
+  durations ms med 112 min 45 max 1130
+  CC1: 287 events, range 0..126, med 67, density 4.7/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### Winds - Staccatissimo Unisono: 95 notes
+  velocity: min 66 med 71 max 83 distinct 11
+  onset vs 16th grid: 100% exactly on grid; offset ms med +0.0, mean +0.0, range +0..+0
+  gaps before next note: 40 med 121 ms, min 74
+  repeated-pitch pairs: 6 gap med 115 ms min 78 max 121
+  durations ms med 113 min 24 max 545
+  CC1: 13 events, range 0..127, med 60, density 0.6/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### PF KS Master: 32 notes
+  velocity: min 65 med 95.0 max 127 distinct 11
+  onset vs 16th grid: 31% exactly on grid; offset ms med +0.0, mean -0.6, range -49..+47
+  overlaps into next note: 26 med 38 ms
+  gaps before next note: 5 med 459 ms, min -0
+  durations ms med 112 min 45 max 1130
+  CC1: 287 events, range 0..126, med 67, density 4.7/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### FL KS Master: 88 notes
+  velocity: min 65 med 95.0 max 127 distinct 39
+  onset vs 16th grid: 39% exactly on grid; offset ms med +0.0, mean -2.4, range -56..+58
+  overlaps into next note: 58 med 38 ms
+  gaps before next note: 28 med 25 ms, min -0
+  repeated-pitch pairs: 8 gap med 25 ms min 25 max 25
+  durations ms med 99 min 38 max 1851
+  CC1: 558 events, range 0..120, med 64.0, density 9.1/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### FL2 KS Master: 44 notes
+  velocity: min 54 med 89.0 max 127 distinct 24
+  onset vs 16th grid: 41% exactly on grid; offset ms med +0.0, mean -13.4, range -56..+58
+  overlaps into next note: 20 med 38 ms
+  gaps before next note: 22 med 25 ms, min 1
+  repeated-pitch pairs: 9 gap med 25 ms min -53 max 25
+  durations ms med 119 min 53 max 1846
+  CC1: 244 events, range 0..108, med 65.0, density 4.7/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### CL KS Master: 84 notes
+  velocity: min 61 med 90.5 max 120 distinct 35
+  onset vs 16th grid: 50% exactly on grid; offset ms med +0.0, mean -2.9, range -53..+58
+  overlaps into next note: 62 med 38 ms
+  gaps before next note: 20 med 58 ms, min -0
+  repeated-pitch pairs: 7 gap med 0 ms min 0 max 0
+  durations ms med 245 min 38 max 3780
+  CC1: 793 events, range 0..123, med 67, density 11.2/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### OB KS Master: 91 notes
+  velocity: min 38 med 90 max 127 distinct 45
+  onset vs 16th grid: 29% exactly on grid; offset ms med +0.0, mean -5.3, range -52..+58
+  overlaps into next note: 56 med 33 ms
+  gaps before next note: 33 med 25 ms, min -0
+  repeated-pitch pairs: 11 gap med 25 ms min 0 max 70
+  durations ms med 102 min 38 max 3310
+  CC1: 576 events, range 0..120, med 63.0, density 7.9/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### EH KS Master: 28 notes
+  velocity: min 57 med 87.5 max 103 distinct 18
+  onset vs 16th grid: 46% exactly on grid; offset ms med +0.0, mean -8.8, range -38..+51
+  overlaps into next note: 18 med 49 ms
+  gaps before next note: 9 med 30 ms, min 26
+  repeated-pitch pairs: 6 gap med 28 ms min 26 max 38
+  durations ms med 287 min 118 max 1916
+  CC1: 250 events, range 0..94, med 75.0, density 3.2/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### BS KS Master: 78 notes
+  velocity: min 62 med 92.0 max 124 distinct 30
+  onset vs 16th grid: 38% exactly on grid; offset ms med -19.2, mean -11.2, range -53..+58
+  overlaps into next note: 52 med 58 ms
+  gaps before next note: 25 med 96 ms, min -0
+  repeated-pitch pairs: 6 gap med 28 ms min 26 max 38
+  durations ms med 288 min 86 max 3968
+  CC1: 873 events, range 0..127, med 74, density 11.2/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### PIANO + HARP + TUNED PERC: 12 notes
+  velocity: min 39 med 72.0 max 78 distinct 8
+  onset vs 16th grid: 100% exactly on grid; offset ms med +0.0, mean +0.0, range +0..+0
+  overlaps into next note: 1 med 26 ms
+  gaps before next note: 10 med 140 ms, min 20
+  durations ms med 384 min 87 max 1872
+  CC123: 2 events, range 0..0, med 0.0, density 0.0/s
+  CC64: 2 events, range 0..127, med 63.5, density 0.5/s
+
+### Harp KS Master: 275 notes
+  velocity: min 16 med 68 max 124 distinct 75
+  onset vs 16th grid: 31% exactly on grid; offset ms med +0.0, mean +3.0, range -57..+58
+  overlaps into next note: 210 med 37 ms
+  gaps before next note: 64 med 102 ms, min 4
+  repeated-pitch pairs: 10 gap med 123 ms min 46 max 6105
+  durations ms med 98 min 18 max 3619
+  CC1: 1 events, range 115..115, med 115, density 0.0/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+  CC64: 2 events, range 0..127, med 63.5, density 0.5/s
+  CC7: 86 events, range 41..127, med 83.5, density 72.5/s
+
+### Crotales Soft: 7 notes
+  velocity: min 49 med 50 max 99 distinct 3
+  onset vs 16th grid: 100% exactly on grid; offset ms med +0.0, mean +0.0, range +0..+0
+  overlaps into next note: 5 med 1832 ms
+  gaps before next note: 1 med 77816 ms, min 77816
+  durations ms med 2208 min 645 max 2888
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### Celesta: 41 notes
+  velocity: min 46 med 71 max 99 distinct 15
+  onset vs 16th grid: 83% exactly on grid; offset ms med +0.0, mean -1.5, range -38..+36
+  overlaps into next note: 26 med 359 ms
+  gaps before next note: 12 med 227 ms, min -0
+  durations ms med 449 min 96 max 2888
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+  CC64: 2 events, range 0..127, med 63.5, density 0.5/s
+
+### Orchestral Perc Basics Kit 2: 59 notes
+  velocity: min 56 med 60 max 127 distinct 20
+  onset vs 16th grid: 88% exactly on grid; offset ms med +0.0, mean -3.6, range -51..+24
+  overlaps into next note: 10 med 655 ms
+  gaps before next note: 39 med 32 ms, min -0
+  repeated-pitch pairs: 4 gap med 395 ms min 162 max 4068
+  durations ms med 157 min 67 max 5250
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### 22in Dream Sus  Cymbal Cres: 1 notes
+  velocity: min 74 med 74 max 74 distinct 1
+  onset vs 16th grid: 0% exactly on grid; offset ms med -15.4, mean -15.4, range -15..-15
+  durations ms med 5142 min 5142 max 5142
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### Timpani Flt KS: 68 notes
+  velocity: min 37 med 87.0 max 127 distinct 31
+  onset vs 16th grid: 47% exactly on grid; offset ms med +0.0, mean +3.8, range -55..+58
+  overlaps into next note: 14 med 55 ms
+  gaps before next note: 53 med 116 ms, min -0
+  repeated-pitch pairs: 25 gap med 38 ms min 0 max 8866
+  durations ms med 115 min 36 max 3603
+  CC1: 407 events, range 0..127, med 83, density 4.8/s
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+  CC7: 17 events, range 63..127, med 92, density 3.4/s
+
+### 40in Ludwig Bass Drum: 9 notes
+  velocity: min 54 med 96 max 127 distinct 9
+  onset vs 16th grid: 100% exactly on grid; offset ms med +0.0, mean +0.0, range +0..+0
+  gaps before next note: 8 med 132 ms, min 80
+  repeated-pitch pairs: 8 gap med 132 ms min 80 max 730
+  durations ms med 378 min 82 max 1364
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### Spectrasound Mark Tree 2: 2 notes
+  velocity: min 89 med 102.0 max 115 distinct 2
+  onset vs 16th grid: 0% exactly on grid; offset ms med -37.5, mean -37.5, range -49..-26
+  gaps before next note: 1 med 58647 ms, min 58647
+  durations ms med 7890 min 7722 max 8058
+  CC123: 1 events, range 0..0, med 0, density 0.0/s
+
+### 38in Large Tam Tam: 2 notes
+  velocity: min 59 med 69.0 max 79 distinct 2
+  onset vs 16th grid: 50% exactly on grid; offset ms med +17.8, mean +17.8, range +0..+36
+  gaps before next note: 1 med 73157 ms, min 73157
+  repeated-pitch pairs: 1 gap med 73157 ms min 73157 max 73157
+  durations ms med 7533 min 7028 max 8038
+  CC123: 1 events, range 0..0, med 0, density 0.0/s

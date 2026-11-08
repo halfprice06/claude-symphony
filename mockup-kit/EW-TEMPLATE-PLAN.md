@@ -21,7 +21,8 @@ usual critic lenses, plus a check on these items.
 
 ## 2. Reverb: Opus reverb off, Spaces II returns per family (c50; new tool work)
 - Opus fx:0 volume 0 on every track (template leaves it on only in a few combined patches; we turn it off everywhere).
-- REAPER return tracks, 100 % wet, pre-delay 19.6 ms, true stereo:
+- REAPER return tracks, 100 % wet, true stereo, the full IR (endPos 1.0) with the rear-position impulses; pre-delay by
+  family: strings 19.6 ms, winds 18.5 ms, brass 10 ms, perc 10 ms. The brass return loads the hall's Horns impulses.
   - Strings: "S. Cal. Hall Strings TS RR 3.3s", send -5.6 dB
   - Brass (horns, trumpets, trombones, tuba): "S. Cal. Hall Brass TS RR 3.3s", send -8.8 dB
   - Woodwinds: "San Francisco Hall TS RR 3.4s", send -8.4 dB
@@ -33,8 +34,10 @@ usual critic lenses, plus a check on these items.
   same signal (the bus EQ of item 3 sits on each track, so each send carries it too).
 - Rendering: return tracks are rendered as extra stems ("R Strings", "R Brass", ...). The master is the sum of the dry
   stems and the return stems. Critics measure dry stems for balance and the master for blend; say so in CHANGES.md.
-- Needed: the Spaces II state for each return (IR name, pre-delay, wet). The research thread decoded it from the .RPP;
-  ask for the chunks. Without them, probe Spaces II's parameters through the bridge and set the IR by its state chunk.
+- The exact Spaces II and ReaEQ states are in `symphony/mockup-research/ew-template-2026-11-08/` (`ho-mix-chunks/*_VERB.txt`,
+  `ho-mix-fx.json` with the decoded JSON). Load each return's FX from its chunk with
+  `TrackFX_SetNamedConfigParm(fx, "vst_chunk", ...)` rather than setting parameters one by one. The section-bus EQ chunks
+  are there too (STRINGS.txt, BRASS.txt, WOODWINDS.txt, MASTER.txt).
 - Then re-fit the delivery chain (deliver_master.py) to the new levels, keeping the delivered targets (LRA 14-16 LU,
   span 16-19 dB, true peak -1.5 dBTP or lower).
 
@@ -60,7 +63,10 @@ Keep a pass-2 copy of the old layout for one cycle so the critics can compare.
 - Legato velocity 90 or more where a clear change of note is wanted (check what velocity does on each legato patch in the
   2021 manual first).
 - CC1 drawn at 7-13 points per second on sustained and legato lines, using the full range.
-- CC1 only, no CC11: our level work (LEVEL_SHAPES, fills, trims) is written in CC11, so this is a staged change. c51 runs a
+- CC1 only, no CC11. Every KS Master in the template uses the Opus macro "Mod + Expression Combo" on CC1, which drives
+  controller_1 (vibrato) and controller_11 (dynamic layers) together, linearly; one CC1 lane does dynamics and vibrato.
+  Check what our patches map CC1 and CC11 to before the test (`opus-mics.txt`, `ccshape-report.txt` show the CC1 shapes
+  around phrase starts, legato changes and phrase ends). Our level work (LEVEL_SHAPES, fills, trims) is written in CC11, so this is a staged change. c51 runs a
   pass-2 test on the strings with CC11 held fixed and the dynamics and shapes moved into CC1, and the critics compare it
   with the CC11 version. Adopt it if it is no worse; otherwise record why in LEARNINGS.
 - Winds and brass played slightly early (-2 to -13 ms mean) is already covered by our lead tables.

@@ -1,0 +1,57 @@
+Opus mic mix per instrument in EastWest's own HO REAPER template (dB relative to unity; only loaded mics listed)
+Full STR Pizzicato             | 2nd Violins Pizz RRx4          | Close +0.0 dB (pan -0.06) / Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Full STR Pizzicato             | Violas Pizz RRx4               | Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Full STR Pizzicato             | Celli Pizz RRx4                | Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Full STR Pizzicato             | Basses Pizz RRx4               | Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Full STR Spiccato RRx4         | 2nd Violins Spiccato           | Close -5.4 dB (pan -0.06) / Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Full STR Spiccato RRx4         | Violas Spiccato                | Close -4.8 dB (pan +0.00) / Main +0.0 dB (pan +0.00) | Opus master +4.9 dB
+Full STR Spiccato RRx4         | Celli Spiccato                 | Close -4.7 dB (pan +0.33) / Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Full STR Spiccato RRx4         | Basses Spiccato                | Close -4.9 dB (pan +0.62) / Main +0.0 dB (pan +0.00) | Opus master +3.3 dB
+Full STR Sus LITE              | 2nd Violins Sus LITE           | Close -4.9 dB (pan -0.06) / Main +0.0 dB (pan +0.00) | Opus master +10.4 dB
+Full STR Sus LITE              | Violas Sus LITE                | Close -4.3 dB (pan +0.00) / Main +0.0 dB (pan +0.00) | Opus master +3.1 dB
+Full STR Sus LITE              | Celli Sus LITE                 | Close -7.8 dB (pan +0.33) / Main +0.0 dB (pan +0.00) | Opus master +2.9 dB
+Full STR Sus LITE              | Basses Sus LITE                | Close -6.5 dB (pan +0.62) / Main +0.0 dB (pan +0.00) | Opus master -0.6 dB
+1st Violins Leg Slur + Port LI | 1st Violins Leg Slur + Port LI | Close -7.4 dB (pan -0.31) / Main +0.0 dB (pan +0.00) | Opus master -0.3 dB
+2nd Violins Leg Slur + Port LI | 2nd Violins Leg Slur + Port LI | Close -9.3 dB (pan -0.07) / Main +0.0 dB (pan +0.00) | Opus master -0.3 dB
+Violas Leg Slur + Port LITE    | Violas Leg Slur + Port LITE    | Close -4.5 dB (pan +0.00) / Main +0.0 dB (pan +0.00) | Opus master -0.3 dB
+Celli Leg Slur + Port LITE     | Celli Leg Slur + Port LITE     | Close -6.6 dB (pan +0.33) / Main +0.0 dB (pan +0.00) | Opus master -0.3 dB
+Basses Leg Slur LITE           | Basses Leg Slur LITE           | Close -3.3 dB (pan +0.62) / Main +0.0 dB (pan +0.00) | Opus master -0.3 dB
+1st Violins KS Master          | 1st Violins KS Master          | Close -9.0 dB (pan -0.31) / Main +0.0 dB (pan +0.00) | Opus master +4.9 dB
+2nd Violins KS Master          | 2nd Violins KS Master          | Close -7.7 dB (pan -0.07) / Main +0.0 dB (pan +0.00) | Opus master +5.1 dB
+Violas KS Master               | Violas KS Master               | Close -7.0 dB (pan +0.00) / Main +0.0 dB (pan +0.00) | Opus master +3.5 dB
+Celli KS Master                | Celli KS Master                | Main +0.0 dB (pan +0.00) | Opus master +4.7 dB
+Basses KS Master               | Basses KS Master               | Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+3TP KS Master                  | 3TP KS Master                  | Close -6.8 dB (pan +0.31) / Main +0.0 dB (pan +0.00) | Opus master -0.3 dB
+1TP KS Master                  | 1TP KS Master                  | Close -10.1 dB (pan +0.31) / Main +0.0 dB (pan +0.00) | Opus master -0.3 dB
+1FH KS Master                  | 1FH KS Master                  | Close -6.3 dB (pan -0.25) / Main +0.0 dB (pan +0.00) | Opus master +8.0 dB
+2FH KS Master                  | 2FH KS Master                  | Close -7.7 dB (pan -0.25) / Main +0.0 dB (pan +0.00) | Opus master -0.3 dB
+6FH KS Master                  | 6FH KS Master                  | Close -8.1 dB (pan -0.25) / Main +0.0 dB (pan +0.00) | Opus master -0.3 dB
+2TB KS Master                  | 2TB KS Master                  | Close -9.3 dB (pan +0.25) / Main +0.0 dB (pan +0.00) | Opus master -0.3 dB
+1TU KS Master                  | 1TU KS Master                  | Close -10.2 dB (pan +0.35) / Main +0.0 dB (pan +0.00) | Opus master -0.3 dB
+Winds - Staccatissimo Unisono  | FL2 StacSs DblTng RRx9         | Close -4.0 dB (pan +0.25) / Main +0.0 dB (pan +0.00) | Opus master +8.1 dB
+Winds - Staccatissimo Unisono  | OB StacSs DblTng RRx9          | Close -15.0 dB (pan -0.06) / Main -3.9 dB (pan +0.00) | Opus master +1.2 dB
+Winds - Staccatissimo Unisono  | 3CL StacSs DblTng RRx4         | Close -5.2 dB (pan -0.31) / Main +0.0 dB (pan +0.00) | Opus master +0.8 dB
+Winds - Staccatissimo Unisono  | BS StacSs DblTng RRx9          | Close -5.8 dB (pan +0.41) / Main +0.0 dB (pan +0.00) | Opus master +12.0 dB
+PF KS Master                   | PF KS Master                   | Close -6.3 dB (pan -0.19) / Main +0.0 dB (pan +0.00) | Opus master -0.3 dB
+FL KS Master                   | FL KS Master                   | Close +0.0 dB (pan +0.25) / Main -4.7 dB (pan +0.00) | Opus master -0.3 dB
+FL2 KS Master                  | FL2 KS Master                  | Close +0.0 dB (pan +0.25) / Main -3.4 dB (pan +0.00) | Opus master -0.3 dB
+AF KS Master                   | AF KS Master                   | Close +0.0 dB (pan -0.12) / Main -15.7 dB (pan +0.00) | Opus master -0.3 dB
+CL KS Master                   | CL KS Master                   | Close +0.0 dB (pan -0.31) / Main -3.4 dB (pan +0.00) | Opus master -0.3 dB
+OB KS Master                   | OB KS Master                   | Close +0.0 dB (pan -0.06) / Main -20.6 dB (pan +0.00) | Opus master -0.3 dB
+EH KS Master                   | EH KS Master                   | Close +0.0 dB (pan +0.24) / Main -11.6 dB (pan +0.00) | Opus master -0.3 dB
+BS KS Master                   | BS KS Master                   | Close +0.0 dB (pan +0.41) / Main -8.6 dB (pan +0.00) | Opus master -0.3 dB
+BC KS Master                   | BC KS Master                   | Close +0.0 dB (pan +0.12) / Main -9.8 dB (pan +0.00) | Opus master -0.3 dB
+Harp KS Master                 | Harp KS Master                 | Close +0.0 dB (pan +0.00) / Mid +0.0 dB (pan +0.00) / Main -9.0 dB (pan +0.00) | Opus master +0.0 dB
+Crotales Soft                  | Crotales Soft                  | Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Glockenspiel                   | Glockenspiel                   | Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Celesta                        | Celesta                        | Close -5.0 dB (pan +0.00) / Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Vibraphone                     | Vibraphone                     | Close +0.0 dB (pan +0.00) / Main -4.8 dB (pan +0.00) | Opus master +0.0 dB
+Xylophone Sus                  | Xylophone Sus                  | Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Orchestral Chimes              | Orchestral Chimes              | Close -7.0 dB (pan +0.00) / Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Orchestral Perc Basics Kit 2   | Orchestral Perc Basics Kit 2   | Close -12.4 dB (pan +0.00) / Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+22in Dream Sus  Cymbal Cres    | 22in Dream Sus Cymbal Cres     | Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Timpani Flt KS                 | Timpani Flt KS                 | Close -8.4 dB (pan +0.00) / Main -6.9 dB (pan +0.00) / Surround +0.0 dB (pan +0.00) | Opus master +3.3 dB
+40in Ludwig Bass Drum          | 40in Ludwig Bass Drum          | Close +0.0 dB (pan +0.00) / Main +0.0 dB (pan +0.00) / Surround -19.4 dB (pan +0.00) | Opus master -6.0 dB
+Spectrasound Mark Tree 2       | Spectrasound Mark Tree 2       | Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
+Concert Toms                   | Concert Toms                   | Close -5.1 dB (pan +0.00) / Main -12.2 dB (pan +0.00) / Surround -6.1 dB (pan +0.00) | Opus master +0.0 dB
+38in Large Tam Tam             | 38in Large Tam Tam             | Main +0.0 dB (pan +0.00) | Opus master +0.0 dB
