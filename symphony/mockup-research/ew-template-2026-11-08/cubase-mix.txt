@@ -1,0 +1,243 @@
+Mix settings read from the two Cubase projects
+Cinematic Rooms presets: the one inside Vienna Ensemble Pro and the one in the Cubase mixer are listed separately.
+
+=== mulan.cpr
+Cinematic Rooms preset (Cubase mixer): ['***FACTORY***\\Amethyst Hall.crp_preset', '***FACTORY***\\Halls\\Subtle Hall.crp_preset']
+Cinematic Rooms preset (inside Vienna Ensemble Pro): ['***FACTORY***\\Amethyst Hall.crp_preset']
+Lexicon (Cubase mixer):
+  PRESET_VERSION = 0
+  ALGORITHM_NAME = LexRandomHall
+  PARAMETER_COUNT = 53
+  Mix = 35%
+  Predelay_Mode = Absolute
+  Predelay = 25.00 ms
+  Diffusion = 75%
+  Shape = 16
+  Spread = 57%
+  Size = 40.0 meters
+  Reverb_Time = 2.5447 sec
+  BassRT = 1.25x
+  Bass_XOV = 550Hz
+  RT_HiCut = 2250Hz
+  RTHC_Damping = Heavy
+  Tap_Slope = -2
+  Spin = 2.5Hz
+  Wander = 22.0ms
+  Infinite = Off
+  Tail_Width = Stereo
+  Rfl_Time_Mast = 100%
+  Early_Level = -2.5 dB
+  Erl_Out_Type = One Pole Lopass
+  Erl_Out_Freq = 2750Hz
+  Erl_Out_BWidth = 1.1 Oct
+  Erl_Out_Shelf = -96.0 dB
+  Rvb_Level = -2.5 dB
+  Rvb_Out_Type = Two Pole Lopass
+  Rvb_Out_Freq = 1800Hz
+  Rvb_Out_BWidth = 1.1 Oct
+  Rvb_Out_Shelf = -36.0 dB
+  FACTORY_PRESET_FOLDER = 3
+  FACTORY_PRESET_INDEX = 1
+
+=== howl.cpr
+Cinematic Rooms preset (Cubase mixer): ['***FACTORY***\\Amethyst Hall.crp_preset']
+Cinematic Rooms preset (inside Vienna Ensemble Pro): ['***FACTORY***\\Amethyst Hall.crp_preset']
+Lexicon (Cubase mixer):
+  PRESET_VERSION = 0
+  ALGORITHM_NAME = LexRandomHall
+  PARAMETER_COUNT = 53
+  Mix = 8%
+  Predelay_Mode = Absolute
+  Predelay = 25.00 ms
+  Diffusion = 75%
+  Shape = 16
+  Spread = 57%
+  Size = 40.0 meters
+  Reverb_Time = 3.5706 sec
+  BassRT = 1.75x
+  Bass_XOV = 550Hz
+  RT_HiCut = 2250Hz
+  RTHC_Damping = Heavy
+  Tap_Slope = -2
+  Spin = 2.5Hz
+  Wander = 22.0ms
+  Infinite = Off
+  Tail_Width = Stereo
+  Rfl_Time_Mast = 100%
+  Early_Level = -2.5 dB
+  Erl_Out_Type = One Pole Lopass
+  Erl_Out_Freq = 2750Hz
+  Erl_Out_BWidth = 1.1 Oct
+  Erl_Out_Shelf = -96.0 dB
+  Rvb_Level = -2.5 dB
+  Rvb_Out_Type = Two Pole Lopass
+  Rvb_Out_Freq = 1800Hz
+  Rvb_Out_BWidth = 1.1 Oct
+  Rvb_Out_Shelf = -36.0 dB
+  FACTORY_PRESET_FOLDER = 3
+  FACTORY_PRESET_INDEX = 1
+
+=== Vienna Ensemble Pro mixer inside mulan.cpr (sends: dB -> channel index; 2 = Cinematic Rooms)
+== channel table (fader dB, pan centre 0..1 with width, sends dB->output, plugins)
+-1: Master                         fader   +0.0 |               | sends - |  | mir 
+  0: Master Bus                     fader   -4.0 | c0.50 w1.00   | sends - |  | mir 
+  1: Roomtone                       fader   +0.0 | c0.50 w1.00   | sends - | Vienna MIR Pro | mir -1
+  2: Cinematic Rooms                fader   +0.0 | c0.50 w1.00   | sends - | Cinematic Rooms Professional | mir 
+  3: Woodwinds                      fader   +0.0 |               | sends - |  | mir 
+    4: piccolo                        fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    5: flute 1                        fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    6: flute 2                        fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    7: oboe 1                         fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    8: oboe 2                         fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    9: syzd Oboe french               fader   +4.0 | c0.50 w1.00   | sends -10.0->2 | Vienna Equalizer Pro | mir 
+    10: clarinet 1                     fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    11: clarinet 2                     fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    12: syzd clarinet 1                fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    13: bass clarinet                  fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    14: Bassoon 1                      fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    15: Bassoon 2                      fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    16: contrabassoon                  fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+  17: Brass                          fader   +0.0 |               | sends - |  | mir 
+    18: horns                          fader   +0.0 |               | sends - |  | mir 
+      19: horns x6                       fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+      20: horn 1                         fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+      21: horn 1 lyrical                 fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+      22: horn 1 lyrical brighter        fader   +6.0 | c0.50 w1.00   | sends - | Vienna Equalizer Pro | mir 
+      23: horn2 lyrical                  fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+      24: horn 2                         fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+      25: horn 3                         fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+      26: horn 4                         fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    27: trumpets                       fader   +1.0 |               | sends - |  | mir 
+      28: trumpets x4                    fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+      29: trumpet 1                      fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+      30: trumpet 1 mute                 fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+      31: trumpet 2                      fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+      32: trumpet 2 mute                 fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+      33: trumpet 3                      fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+      34: trumpet 3 mute                 fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+      35: trumpet 3 szd                  fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    36: trombones                      fader   +0.0 |               | sends - |  | mir 
+      37: trombone 1                     fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+      38: trombone 1 mute                fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+      39: trombone 2                     fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+      40: trombone 2 mute                fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+      41: bass trombone                  fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    42: tuba 1                         fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+  43: Percussion                     fader   +0.0 |               | sends - |  | mir 
+    44: timpani                        fader   +6.0 | c0.50 w1.00   | sends -12.0->2 | Vienna Compressor Pro | mir 
+    45: bass drum                      fader   +6.0 | c0.50 w1.00   | sends - | Vienna Equalizer Pro | mir 
+    46: piatti                         fader   +1.0 | c0.50 w1.00   | sends - | Vienna Equalizer Pro, Vienna Compressor Pro (byp) | mir 
+    47: kick                           fader   +3.0 |               | sends - | Vienna MIR Pro | mir -1
+    48: hi hat                         fader   +6.0 |               | sends - | Vienna MIR Pro | mir -1
+    49: tambourine                     fader   +6.0 | c0.50 w1.00   | sends - | Vienna Equalizer Pro, Vienna Compressor Pro | mir 
+    50: triangle                       fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    51: glockenspiel                   fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    52: woodblock                      fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    53: temple block                   fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    54: xylophone                      fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    55: taiko                          fader   +3.0 | c0.50 w1.00   | sends -12.0->2 |  | mir 
+    56: celesta                        fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    57: harp                           fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    58: field drum                     fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    59: vibes                          fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+  60: Strings                        fader   +0.0 |               | sends - |  | mir 
+    61: Piano                          fader   -2.0 | c0.50 w1.00   | sends - |  | mir 
+    62: solo violin                    fader   -6.0 | c0.50 w1.00   | sends -12.0->2 | Vienna Equalizer Pro, Vienna Compressor Pro | mir 
+    63: violins 1                      fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    64: violins 1 wetter               fader   +6.0 | c0.50 w1.00   | sends -4.0->2 | Vienna Equalizer Pro | mir 
+    65: violins 1a double              fader   +6.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    66: violins 1a                     fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    67: violins 1b                     fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    68: Violins 1 harmonics            fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    69: violins 2                      fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    70: violins 2a                     fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    71: violins 2b                     fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    72: Violins 2 harmonics            fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    73: violas                         fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    74: violas a                       fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    75: violas b                       fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    76: solo cello                     fader   +6.0 |               | sends - | Vienna MIR Pro | mir -1
+    77: cellos                         fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    78: cellos a                       fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    79: cellos b                       fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    80: basses                         fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    81: basses  a                      fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    82: basses  b                      fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+
+=== Vienna Ensemble Pro mixer inside howl.cpr (2 = Reverb channel with Cinematic Rooms)
+== channel table (fader dB, pan centre 0..1 with width, sends dB->output, plugins)
+-1: Master                         fader   +0.0 |               | sends - |  | mir 
+  0: Master Bus                     fader   -6.0 | c0.50 w1.00   | sends - |  | mir 
+  1: Strings                        fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+  2: Reverb                         fader   +0.0 | c0.50 w1.00   | sends - | Cinematic Rooms Professional | mir 
+  3: Woodwinds                      fader   +0.0 |               | sends - |  | mir 
+    4: Piccolo                        fader   +0.0 | c0.37 w0.74   | sends -10.0->2 |  | mir 
+    5: Flute smart orch               fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    6: Flute 1                        fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    7: Flute 2                        fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    8: Flute 3                        fader   +0.0 | c0.26 w0.53   | sends -10.0->2 |  | mir 
+    9: Oboe 1                         fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    10: Oboe 2                         fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    11: English Horn                   fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    12: clarinet  smart clarinet       fader   +3.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    13: Clarinet 1                     fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    14: Clarinet 1 louder              fader   +3.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    15: Clarinet 2                     fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    16: Clarinet 3                     fader   +0.0 | c0.32 w0.64   | sends -10.0->2 |  | mir 
+    17: Bass Clarinet                  fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    18: Bassoon 1                      fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    19: Bassoon 2                      fader   +3.0 | c0.50 w1.00   | sends - |  | mir 
+    20: Contrabassoon                  fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+  21: Brass                          fader   +0.0 |               | sends - |  | mir 
+    22: Horn 1                         fader   +0.0 | c0.17 w0.34   | sends -12.0->2 |  | mir 
+    23: Horn 2                         fader   +0.0 | c0.24 w0.47   | sends -12.0->2 |  | mir 
+    24: Horn 3                         fader   +0.0 | c0.09 w0.17   | sends -12.0->2 |  | mir 
+    25: Horn 4                         fader   +0.0 | c0.08 w0.15   | sends -12.0->2 |  | mir 
+    26: horn 1 stopped                 fader   +0.0 | c0.32 w0.63   | sends -12.0->2 |  | mir 
+    27: horn 2 stopped                 fader   +0.0 | c0.60 w0.80   | sends -12.0->2 |  | mir 
+    28: Horn x6                        fader   +0.0 | c0.50 w1.00   | sends -16.0->2 |  | mir 
+    29: trumpet 1                      fader   +6.0 | c0.78 w0.45   | sends -16.0->2 |  | mir 
+    30: trumpet 2                      fader   +6.0 | c0.79 w0.41   | sends -16.0->2 |  | mir 
+    31: trumpet 3                      fader   +6.0 | c0.79 w0.42   | sends -16.0->2 |  | mir 
+    32: trumpet 1 mute                 fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    33: trumpet 2 mute                 fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    34: trumpet 3 mute                 fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    35: trombones x4                   fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+    36: Tenor Trombone 1               fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    37: Tenor Trombone 2               fader   +6.0 | c0.63 w0.69   | sends - |  | mir 
+    38: Tenor Trombone 3               fader   +6.0 | c0.72 w0.50   | sends - |  | mir 
+    39: Bass Trombone                  fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    40: tuba                           fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+  41: Percussion                     fader   +0.0 |               | sends - |  | mir 
+    42: Timpani                        fader   +6.0 | c0.08 w0.15   | sends -6.0->2 |  | mir 
+    43: Percussion                     fader   +6.0 |               | sends - |  | mir 
+      44: Percussion                     fader   +6.0 |               | sends - |  | mir 
+        45: guiro                          fader   +6.0 | c0.67 w0.67   | sends - |  | mir 
+        46: tambourine                     fader   +6.0 | c0.29 w0.57   | sends - |  | mir 
+        47: cabasa                         fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+        48: sleigh bell                    fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+        49: triangle                       fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+        50: bell tree                      fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+        51: Celesta                        fader   +0.0 | c0.50 w-1.00  | sends -9.0->2 |  | mir 
+    52: glockenspiel                   fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    53: Marimba                        fader   +6.0 | c0.86 w0.28   | sends - |  | mir 
+    54: sus cymbal                     fader   +6.0 | c0.61 w0.78   | sends - |  | mir 
+    55: xylophone                      fader   +3.0 | c0.36 w0.72   | sends -9.0->2 |  | mir 
+    56: tam tam                        fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    57: snare drum                     fader   +6.0 | c0.15 w0.31   | sends -8.0->2 | Vienna Equalizer Pro | mir 
+    58: bass drum                      fader   +0.0 | c0.87 w0.26   | sends -3.1->2 |  | mir 
+  59: Harps                          fader   +0.0 |               | sends - |  | mir 
+    60: Vienna Synchron Harp 1         fader   +6.0 | c0.50 w1.00   | sends - |  | mir 
+    61: Piano                          fader   +0.0 | c0.50 w1.00   | sends - |  | mir 
+  62: Strings                        fader   +0.0 |               | sends - |  | mir 
+    63: solo violin 1                  fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    64: Duality Violins 1a             fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    65: Duality Violins 1b             fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    66: Duality Violins 2a             fader   +0.0 | c0.80 w-0.40  | sends -10.0->2 |  | mir 
+    67: Duality Violins 2b             fader   +0.0 | c0.82 w-0.36  | sends -10.0->2 |  | mir 
+    68: Duality Violas a               fader   +0.0 | c0.50 w1.00   | sends -10.0->2 |  | mir 
+    69: Duality Violas b               fader   +0.0 | c0.75 w0.50   | sends -10.0->2 |  | mir 
+    70: Duality Cellos a               fader   +0.0 | c0.50 w-1.00  | sends -10.0->2 |  | mir 
+    71: Duality Cellos b               fader   +0.0 | c0.50 w-1.00  | sends -10.0->2 |  | mir 
+    72: Duality Basses a               fader   +0.0 | c0.50 w-1.00  | sends -16.0->2 |  | mir 
+    73: Duality Basses b               fader   +0.0 | c0.50 w-1.00  | sends -16.0->2 |  | mir 

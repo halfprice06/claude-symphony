@@ -188,7 +188,44 @@ Both projects use the same template. The instruments run in Vienna Ensemble Pro;
 7. **A quiet room-noise bed** under the whole movement, just audible in rests.
 8. **String EQ variant**: the lift at 9-11 kHz instead of the 4.7 kHz shelf, then compare.
 
+# Part 5: two Cubase projects with VSL instruments (2026-11-08, night)
+
+The two Cubase projects listed under "Leads not taken" are now read: Jerry Goldsmith's Mulan overture (68 MIDI tracks, 8,532 notes) and Joe Hisaishi's Howl's Moving Castle symphonic variation "Merry-Go-Round" (63 tracks, 14,421 notes). There was no parser for Cubase files, so I wrote one (`scripts/cprlib.py`, `cpr2mid.py`). It reads the tempo track, every MIDI part's notes and controller points, and Cubase's controller curves, and writes a MIDI file that the Part 4 scripts analyse. Checks: the tempo track's stored times in seconds match its tempos to within 10 ms on 289 of 290 segments, and the rule used for placing parts in time lines up the parts with each other best on 30 of the 35 tracks where the possible rules differ (the other five tie or hardly overlap with any other part). Both projects also contain their whole Vienna Ensemble Pro project, which holds the instrument mixer: faders, pans and reverb sends (`scripts/vepdump.py`). Statistics are in `cubase-report.txt`, mix settings in `cubase-mix.txt`.
+
+Libraries: VSL Synchron winds, brass, percussion, harp and pianos in both, run in Vienna Ensemble Pro. Strings are Synchron Strings Pro with Synchron Elite Strings in Mulan, and Duality strings (not VSL) in Howl's. Mulan also has a few dry VSL "Synchronized" instruments. Synchron instruments are recorded on a scoring stage, so they are wet like HO.
+
+## 16. Timing and tempo
+| | Mulan | Howl's |
+|---|---|---|
+| onsets exactly on the 16th grid | 80-100 % on most tracks (quantized) | 2-9 % on wind, brass and string tracks (played in) |
+| tutti entries: first-to-last spread | median 8 ms; 29 % exactly together | median 32 ms [21..44]; 1 % exactly together |
+| tempo events | 139 | 153 |
+| beats with a tempo change | 20 % | 19 % |
+| beat deviation from the local median, 90th percentile | 8 % | 5 % |
+| beats more than 15 % / 25 % slower than the local median | 20 / 4 | 26 / 6 |
+
+- **Both use a detailed tempo track for the breaths and rits**, as Duc does. Mulan keeps every note on the grid and gets all its movement from the tempo track; Howl's plays the notes in as well, with the same entry spread as Part 4's orchestral files (36-55 ms).
+- **Repeated notes in Howl's nearly touch** (gaps 5-15 ms). Synchron Player switches to repetition samples by itself, which HO does not, so Part 4's 60-100 ms stays the value for us.
+
+## 17. Dynamics lanes and curve shapes
+- **Which lane carries the dynamics differs.** Mulan: CC8 on winds and brass (CC11 mostly parked at 127), CC1 on strings. Howl's: CC2 on strings; on winds and brass CC8 and CC11 stay at 127 in three quarters of the phrases, and the dynamics come from velocity (30-76 distinct velocities per wind track, middle half 16-32 steps wide).
+- **Mulan's winds and brass end phrases with deep fades.** Phrases start at the top of the lane and drop a median 43-77 units (of 127) in their last second, depending on how the curves are read (below). Long notes fall a median 27-39 by their end, and 62 % fall 4 or more units from the middle to the end. Strings start a median 21 units under the phrase peak and taper about 6-10 in the last second.
+- **These two files do not show Part 4's centred arch**: the peak sits at or near the phrase start. Part 4's arch rests on 20 files and stays the main rule; Mulan adds that a wind or brass phrase before a rest can fade almost to nothing.
+- **Curve shapes.** Cubase draws a bent line between two controller points (a quadratic Bezier with one control point). In Mulan, 3,609 of 7,433 controller segments are bent. Rising segments put the control point at 34 % of the time and 88 % of the rise: the value gets most of the way up early, then settles. Falling segments put it at 72 % of the time and 0 % of the drop: the value holds, then falls in the last quarter. Howl's: rising segments are close to straight (49 %, 54 %), falling ones hold and drop late (68 %, 27 %). This assumes Cubase measures the control point from the segment's start value, which fits the music (the fall lands on the held last note). Measured the other way, falls would start early instead.
+
+## 18. Mix
+- **Instruments recorded in a hall get little or no extra reverb.** Howl's sends each channel to one shared hall (Cinematic Rooms "Amethyst Hall") at: woodwinds −10 dB, strings −10, basses −16, horns −12, trumpets and the six-horn patch −16, timpani −6, snare −8, bass drum −3; bassoons, contrabassoon, trombones and tuba have no send. Mulan sends only its dry VSL instruments (oboe and clarinet −10), an extra "violins 1 wetter" layer (−4), a doubled violin layer (−10), timpani, taiko and the solo violin (−12); its Synchron instruments have no send at all. Like Duc's low-string sends, this keeps reverb off the low instruments, and it supports giving HO's low brass and bassoons little or no send.
+- **A dark hall on the whole mix.** Both put a Lexicon Random Hall in the Cubase mixer: pre-delay 25 ms, reverb time 2.54 s (Mulan) and 3.57 s (Howl's), bass multiplier 1.25x and 1.75x, high frequencies in the tail decaying fast above 2.25 kHz ("heavy" damping), the reverb output low-passed at 1.8 kHz and the early reflections at 2.75 kHz, wet at 35 % (Mulan) and 8 % (Howl's). Both changed only the time, the bass multiplier and the mix of the factory preset, so the filters are the preset's, but both kept them. Ozone Match EQ and Maximizer follow. Mulan has a second Cinematic Rooms ("Subtle Hall") in Cubase.
+- Mulan's Vienna Ensemble Pro project has a channel named "Roomtone" (MIR Pro on it, but no instrument and no audio file in the project), so it may have been a room-noise bed like Duc's; I can't confirm it.
+- **Brass as narrow sources (Howl's).** Horns sit left (pan centre 0.08-0.24 on a 0-1 scale, stereo width 15-47 %), trumpets right (0.78, width about 43 %), trombones centre to right (0.50-0.72), timpani far left and narrow, marimba far right, second violins right of centre. Brass and percussion faders are +6 dB against 0 dB for winds and strings; the master bus is −6 dB.
+
+## 19. Additions to the Part 4 suggestions
+1. **Reverb sends by register**: no hall send (or −16 dB or lower) on low brass, bassoons, contrabassoon and basses, about −10 dB on the rest; percussion keeps its send. This extends item 3.
+2. **A darker hall return**: as an A/B, low-pass the hall return at 1.8-2.3 kHz, darker than the 3-6 kHz of item 3.
+3. **Curve shapes**: crescendos get most of the way up early and then settle; diminuendos hold and fall on the last held note. Winds and brass may fade almost to nothing before a rest.
+4. **Narrower brass**: narrow the brass stereo width and pan horns left, trumpets right, as an A/B.
+
 ## Leads not taken
-- Lorne Balfe's "The Crown" main titles (MIDI and Cubase project) and four more Hightail shares from 14th Street Music: the links work, but the download would land on Dan's Mac, which needs his OK.
+- Lorne Balfe's "The Crown" main titles and five more MIDI files from 14th Street Music's Hightail shares (Genius season 2, Bad Boys for Life, Penguins of Madagascar, Kung Fu Panda 3, 6 Underground): downloaded to Dan's Mac with his OK, but the cloud cannot read his Downloads folder. They can be analysed once they are uploaded to the project.
 - Ludwig Göransson's "Can You Hear the Music" (Oppenheimer) MIDI: the Dropbox link needs a key that the post doesn't give.
-- Jerry Goldsmith's Mulan overture and Joe Hisaishi's Howl's Moving Castle are Cubase .cpr projects (binary; no parser here). VSL Masterpieces (vsl.co.at/masterpieces) are tied to VSL's own libraries.
+- VSL Masterpieces: the page is gone, and VSL staff say on their forum that those files are no longer available.
