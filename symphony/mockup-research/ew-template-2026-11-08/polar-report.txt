@@ -1,0 +1,233 @@
+PPQ 480, tempi [120.0], length 62 s
+
+### SSW - 1ST FLUTE: 34 notes, 0 keyswitch-range (<24) notes []
+  velocity med 100 (IQR 90..106, n=34), distinct 25
+  onsets exactly on 16th grid 0%; off-grid offsets ms med 50 (IQR 50..50, n=34)
+  overlap into next ms med 204 (IQR 160..252, n=27) | repeated-pitch gap ms - | durations ms med 1064 (IQR 704..1182, n=34)
+  CC1: 424 ev, range 18..76, med 55.0, 12.9/s
+  CC11: 520 ev, range 49..88, med 72.0, 16.0/s
+
+### SSW- 1ST OBOE: 40 notes, 0 keyswitch-range (<24) notes []
+  velocity med 92 (IQR 86..98, n=40), distinct 26
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -27 (IQR -27..-27, n=40)
+  overlap into next ms med 70 (IQR 28..90, n=34) | repeated-pitch gap ms - | durations ms med 831 (IQR 535..1076, n=40)
+  CC1: 551 ev, range 44..99, med 72, 16.8/s
+  CC11: 612 ev, range 17..83, med 55.0, 18.7/s
+
+### SSW - 1ST CLARINET: 37 notes, 0 keyswitch-range (<24) notes []
+  velocity med 85 (IQR 77..96, n=37), distinct 24
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -38 (IQR -38..-38, n=37)
+  overlap into next ms med 70 (IQR 46..123, n=32) | repeated-pitch gap ms - | durations ms med 1029 (IQR 604..1079, n=37)
+  CC1: 465 ev, range 44..86, med 66, 14.2/s
+  CC11: 706 ev, range 50..99, med 76.0, 21.7/s
+
+### SSW - 2ND CLARINET: 39 notes, 0 keyswitch-range (<24) notes []
+  velocity med 84 (IQR 77..93, n=39), distinct 20
+  onsets exactly on 16th grid 3%; off-grid offsets ms med -46 (IQR -46..-46, n=38)
+  overlap into next ms med 72 (IQR 58..111, n=33) | repeated-pitch gap ms - | durations ms med 861 (IQR 560..1072, n=39)
+  CC1: 458 ev, range 42..98, med 73.0, 14.0/s
+  CC11: 562 ev, range 27..99, med 66.0, 17.1/s
+
+### SSW - BASS CLARINETS: 18 notes, 0 keyswitch-range (<24) notes []
+  velocity med 78 (IQR 76..84, n=18), distinct 12
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -17 (IQR -17..-17, n=18)
+  overlap into next ms med 146 (IQR 79..180, n=16) | repeated-pitch gap ms - | durations ms med 2084 (IQR 2057..2172, n=18)
+  CC1: 545 ev, range 23..85, med 57, 16.7/s
+  CC11: 152 ev, range 68..98, med 83.0, 4.6/s
+
+### SSW - 1ST BASSOON: 20 notes, 0 keyswitch-range (<24) notes []
+  velocity med 87 (IQR 81..93, n=20), distinct 17
+  onsets exactly on 16th grid 0%; off-grid offsets ms med 40 (IQR 40..40, n=20)
+  overlap into next ms med 228 (IQR 178..269, n=17) | repeated-pitch gap ms med 194 (IQR 194..194, n=1) | durations ms med 1346 (IQR 1242..2228, n=20)
+  CC1: 443 ev, range 29..92, med 72, 13.6/s
+  CC11: 515 ev, range 20..97, med 71, 15.7/s
+
+### SSW - 2ND BASSOON: 9 notes, 0 keyswitch-range (<24) notes []
+  velocity med 96 (IQR 85..104, n=9), distinct 9
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -40 (IQR -40..-40, n=9)
+  overlap into next ms med 141 (IQR 125..182, n=7) | repeated-pitch gap ms - | durations ms med 736 (IQR 639..1130, n=9)
+  CC1: 160 ev, range 32..69, med 48.5, 7.7/s
+  CC11: 195 ev, range 36..78, med 57, 9.4/s
+
+### NI SYMPHONIE SERIES - HORNS LEGATO: 12 notes, 0 keyswitch-range (<24) notes []
+  velocity med 96 (IQR 80..106, n=12), distinct 11
+  onsets exactly on 16th grid 0%; off-grid offsets ms med 3 (IQR 3..3, n=12)
+  overlap into next ms med 139 (IQR 134..179, n=8) | repeated-pitch gap ms - | durations ms med 1116 (IQR 700..1174, n=12)
+  CC1: 721 ev, range 0..120, med 34, 28.6/s
+  CC11: 1420 ev, range 5..113, med 79.0, 54.6/s
+
+### SSB - HORNS A6: 44 notes, 15 keyswitch-range (<24) notes [0]
+  velocity med 112 (IQR 96..116, n=44), distinct 23
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -35 (IQR -48..49, n=44)
+  overlap into next ms med 10 (IQR 9..11, n=2) | repeated-pitch gap ms - | durations ms med 463 (IQR 211..499, n=44)
+  CC1: 1225 ev, range 0..106, med 53, 36.7/s
+  CC11: 595 ev, range 4..107, med 74, 18.2/s
+
+### SSB - HORNS A2: 21 notes, 3 keyswitch-range (<24) notes [0]
+  velocity med 96 (IQR 78..105, n=21), distinct 17
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -33 (IQR -55..-25, n=21)
+  overlap into next ms med 41 (IQR 25..62, n=8) | repeated-pitch gap ms - | durations ms med 990 (IQR 909..1738, n=21)
+  CC1: 1256 ev, range 0..127, med 76.0, 39.2/s
+  CC11: 8 ev, range 98..104, med 100.5, 0.2/s
+
+### SSB - SOLO HORN: 34 notes, 0 keyswitch-range (<24) notes []
+  velocity med 88 (IQR 77..106, n=34), distinct 22
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -24 (IQR -33..32, n=34)
+  overlap into next ms med 52 (IQR 27..81, n=22) | repeated-pitch gap ms med 164 (IQR 158..166, n=3) | durations ms med 610 (IQR 546..1067, n=34)
+  CC1: 1416 ev, range 0..127, med 80.0, 43.6/s
+  CC11: 341 ev, range 72..110, med 93, 10.3/s
+
+### SSB - TROMBONES A3: 36 notes, 0 keyswitch-range (<24) notes []
+  velocity med 78 (IQR 75..88, n=36), distinct 26
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -24 (IQR -40..-8, n=36)
+  overlap into next ms med 840 (IQR 119..2068, n=28) | repeated-pitch gap ms - | durations ms med 2057 (IQR 1552..2091, n=36)
+  CC1: 1136 ev, range 0..70, med 44.0, 33.0/s
+  CC11: 657 ev, range 14..73, med 45, 19.9/s
+
+### SSB - TUBA SOLO: 18 notes, 0 keyswitch-range (<24) notes []
+  velocity med 100 (IQR 82..106, n=18), distinct 17
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -21 (IQR -21..-21, n=18)
+  overlap into next ms med 83 (IQR 62..83, n=14) | repeated-pitch gap ms - | durations ms med 2052 (IQR 1646..2083, n=18)
+  CC1: 406 ev, range 25..81, med 63.0, 12.1/s
+  CC11: 508 ev, range 31..72, med 54.0, 15.1/s
+
+### SP - CELESTE: 256 notes, 0 keyswitch-range (<24) notes []
+  velocity med 58 (IQR 56..61, n=256), distinct 27
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -12 (IQR -14..-11, n=256)
+  overlap into next ms med 21 (IQR 8..40, n=116) | repeated-pitch gap ms - | durations ms med 122 (IQR 96..146, n=256)
+  CC64: 37 ev, range 0..127, med 0, 1.2/s
+
+### SP - DESK BELLS: 24 notes, 0 keyswitch-range (<24) notes []
+  velocity med 56 (IQR 56..61, n=24), distinct 4
+  onsets exactly on 16th grid 50%; off-grid offsets ms med -7 (IQR -14..14, n=12)
+  overlap into next ms - | repeated-pitch gap ms - | durations ms med 44 (IQR 44..125, n=24)
+
+### SP - TUBULAR BELLS: 2 notes, 0 keyswitch-range (<24) notes []
+  velocity med 82 (IQR 77..88, n=2), distinct 2
+  onsets exactly on 16th grid 100%; off-grid offsets ms -
+  overlap into next ms - | repeated-pitch gap ms - | durations ms med 69 (IQR 68..70, n=2)
+
+### NI SYMPHONIE SERIES PERCUSSION - CYMBAL I: 3 notes, 0 keyswitch-range (<24) notes []
+  velocity med 72 (IQR 1..74, n=3), distinct 3
+  onsets exactly on 16th grid 100%; off-grid offsets ms -
+  overlap into next ms - | repeated-pitch gap ms - | durations ms med 2000 (IQR 2000..5500, n=3)
+
+### SP - PIATTI: 2 notes, 0 keyswitch-range (<24) notes []
+  velocity med 127 (IQR 127..127, n=2), distinct 1
+  onsets exactly on 16th grid 100%; off-grid offsets ms -
+  overlap into next ms - | repeated-pitch gap ms - | durations ms med 2257 (IQR 2257..2257, n=2)
+
+### SP - TIMPANI HITS: 2 notes, 0 keyswitch-range (<24) notes []
+  velocity med 78 (IQR 78..78, n=2), distinct 1
+  onsets exactly on 16th grid 100%; off-grid offsets ms -
+  overlap into next ms - | repeated-pitch gap ms - | durations ms med 76 (IQR 72..80, n=2)
+  CC64: 4 ev, range 0..127, med 127.0, 0.1/s
+
+### SP - TIMPANI ROLLS: 2 notes, 0 keyswitch-range (<24) notes []
+  velocity med 69 (IQR 68..70, n=2), distinct 2
+  onsets exactly on 16th grid 0%; off-grid offsets ms med 5 (IQR -3..12, n=2)
+  overlap into next ms - | repeated-pitch gap ms - | durations ms med 998 (IQR 996..1000, n=2)
+  CC1: 195 ev, range 0..109, med 53, 5.6/s
+  CC11: 6 ev, range 121..125, med 123.5, 0.2/s
+
+### SP - BASS DRUM: 8 notes, 0 keyswitch-range (<24) notes []
+  velocity med 74 (IQR 73..78, n=8), distinct 4
+  onsets exactly on 16th grid 100%; off-grid offsets ms -
+  overlap into next ms - | repeated-pitch gap ms - | durations ms med 91 (IQR 89..100, n=8)
+
+### HZP - LOW BOOM: 8 notes, 0 keyswitch-range (<24) notes []
+  velocity med 64 (IQR 55..72, n=8), distinct 6
+  onsets exactly on 16th grid 100%; off-grid offsets ms -
+  overlap into next ms - | repeated-pitch gap ms - | durations ms med 1514 (IQR 1494..1560, n=8)
+
+### NI - THE GENTLEMAN: 35 notes, 0 keyswitch-range (<24) notes []
+  velocity med 70 (IQR 68..75, n=35), distinct 18
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -43 (IQR -43..-43, n=35)
+  overlap into next ms med 177 (IQR 74..4048, n=20) | repeated-pitch gap ms - | durations ms med 2074 (IQR 1423..2074, n=35)
+  CC1: 1456 ev, range 0..127, med 60.0, 42.3/s
+  CC11: 736 ev, range 0..126, med 66.0, 20.2/s
+
+### JEAGER - VIOLINS I LEGATO: 34 notes, 0 keyswitch-range (<24) notes []
+  velocity med 114 (IQR 104..121, n=34), distinct 20
+  onsets exactly on 16th grid 0%; off-grid offsets ms med 37 (IQR 14..53, n=34)
+  overlap into next ms med 46 (IQR 35..54, n=29) | repeated-pitch gap ms - | durations ms med 1000 (IQR 546..1055, n=34)
+  CC1: 1124 ev, range 6..127, med 88.0, 32.5/s
+
+### SSS - PERFORMANCE LEGATO: 34 notes, 0 keyswitch-range (<24) notes []
+  velocity med 114 (IQR 104..121, n=34), distinct 20
+  onsets exactly on 16th grid 0%; off-grid offsets ms med 37 (IQR 14..53, n=34)
+  overlap into next ms med 46 (IQR 35..54, n=29) | repeated-pitch gap ms - | durations ms med 1000 (IQR 546..1055, n=34)
+  CC1: 1124 ev, range 6..127, med 88.0, 32.5/s
+
+### JEAGER - VIOLINS I LEGATO: 6 notes, 0 keyswitch-range (<24) notes []
+  velocity med 92 (IQR 88..103, n=6), distinct 6
+  onsets exactly on 16th grid 0%; off-grid offsets ms med 42 (IQR 14..42, n=6)
+  overlap into next ms med 130 (IQR 104..147, n=5) | repeated-pitch gap ms - | durations ms med 577 (IQR 397..1048, n=6)
+  CC1: 200 ev, range 0..116, med 72.0, 9.9/s
+
+### SCS CONS SORD (D): 40 notes, 0 keyswitch-range (<24) notes []
+  velocity med 104 (IQR 99..111, n=40), distinct 26
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -34 (IQR -34..-34, n=40)
+  overlap into next ms med 90 (IQR 59..130, n=35) | repeated-pitch gap ms - | durations ms med 827 (IQR 570..1100, n=40)
+  CC1: 720 ev, range 0..54, med 35.0, 22.1/s
+  CC11: 65 ev, range 83..120, med 105, 2.0/s
+
+### SCS CONS SORD: 60 notes, 0 keyswitch-range (<24) notes []
+  velocity med 76 (IQR 72..80, n=60), distinct 25
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -23 (IQR -23..-23, n=60)
+  overlap into next ms med 71 (IQR 41..95, n=51) | repeated-pitch gap ms - | durations ms med 569 (IQR 527..595, n=60)
+  CC1: 1428 ev, range 0..85, med 47.0, 43.0/s
+  CC11: 14 ev, range 114..127, med 119.0, 0.4/s
+
+### SSS - CELLO: 29 notes, 0 keyswitch-range (<24) notes []
+  velocity med 92 (IQR 83..96, n=29), distinct 20
+  onsets exactly on 16th grid 0%; off-grid offsets ms med 26 (IQR -7..26, n=29)
+  overlap into next ms med 114 (IQR 80..133, n=24) | repeated-pitch gap ms - | durations ms med 1032 (IQR 615..1186, n=29)
+  CC1: 1325 ev, range 9..127, med 81, 38.5/s
+  CC11: 12 ev, range 57..63, med 60.0, 0.4/s
+
+### SSS - CONTRABASS: 18 notes, 0 keyswitch-range (<24) notes []
+  velocity med 115 (IQR 112..119, n=18), distinct 15
+  onsets exactly on 16th grid 6%; off-grid offsets ms med 51 (IQR 51..51, n=17)
+  overlap into next ms med 110 (IQR 32..158, n=16) | repeated-pitch gap ms - | durations ms med 2104 (IQR 2010..2166, n=18)
+  CC1: 1049 ev, range 0..100, med 58, 30.9/s
+
+### 8DIO - LIBERIS LEGATO: 28 notes, 0 keyswitch-range (<24) notes []
+  velocity med 92 (IQR 85..103, n=28), distinct 22
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -27 (IQR -27..-27, n=28)
+  overlap into next ms med 130 (IQR 105..155, n=24) | repeated-pitch gap ms - | durations ms med 1034 (IQR 652..1118, n=28)
+  CC1: 514 ev, range 45..98, med 69.0, 15.1/s
+  CC11: 613 ev, range 0..81, med 34, 18.0/s
+
+### 8DIO - LACRIMOSA FEMALE LEGATO: 28 notes, 0 keyswitch-range (<24) notes []
+  velocity med 67 (IQR 62..74, n=28), distinct 20
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -25 (IQR -25..-25, n=28)
+  overlap into next ms med 79 (IQR 71..91, n=24) | repeated-pitch gap ms - | durations ms med 1007 (IQR 588..1072, n=28)
+  CC1: 454 ev, range 19..98, med 48.5, 13.2/s
+  CC11: 502 ev, range 5..82, med 46.0, 14.9/s
+
+### 8DIO - LACRIMOSA MALE LEGATO: 20 notes, 0 keyswitch-range (<24) notes []
+  velocity med 78 (IQR 77..89, n=20), distinct 13
+  onsets exactly on 16th grid 0%; off-grid offsets ms med -25 (IQR -25..-25, n=20)
+  overlap into next ms med 71 (IQR 21..91, n=15) | repeated-pitch gap ms - | durations ms med 597 (IQR 571..1005, n=20)
+  CC1: 572 ev, range 0..81, med 51.0, 16.6/s
+  CC11: 592 ev, range 6..85, med 57.0, 17.6/s
+
+### SONOKINETIC - MODAL RUNS: 2 notes, 0 keyswitch-range (<24) notes []
+  velocity med 52 (IQR 52..52, n=2), distinct 1
+  onsets exactly on 16th grid 50%; off-grid offsets ms med 16 (IQR 16..16, n=1)
+  overlap into next ms med 26 (IQR 26..26, n=1) | repeated-pitch gap ms - | durations ms med 42 (IQR 42..42, n=2)
+
+### A3 - Sub Bass: 18 notes, 0 keyswitch-range (<24) notes []
+  velocity med 93 (IQR 86..101, n=18), distinct 15
+  onsets exactly on 16th grid 100%; off-grid offsets ms -
+  overlap into next ms - | repeated-pitch gap ms - | durations ms med 2000 (IQR 2000..2000, n=18)
+  CC11: 207 ev, range 29..46, med 37, 6.3/s
+
+== CC shape summary across tracks (change vs value at onset / note-off; offsets approximate)
+CC1 end: -1000ms med 19 (IQR 6..27, n=84); -500ms med 8 (IQR 1..14, n=84); -250ms med 2 (IQR 0..6, n=84)
+CC1 legato: -200ms med 0 (IQR -5..4, n=613); -100ms med 0 (IQR -1..3, n=613); +0ms med 0 (IQR 0..0, n=613); +100ms med -1 (IQR -4..0, n=613); +200ms med -1 (IQR -6..2, n=613); +400ms med -2 (IQR -10..7, n=613); +800ms med -2 (IQR -16..10, n=613)
+CC1 start: -200ms med 0 (IQR -7..1, n=83); -100ms med 0 (IQR -4..0, n=83); +0ms med 0 (IQR 0..0, n=83); +100ms med 2 (IQR 0..6, n=83); +200ms med 5 (IQR 0..13, n=83); +400ms med 14 (IQR 4..23, n=83); +800ms med 24 (IQR 17..35, n=83)
+CC11 end: -1000ms med 11 (IQR 0..18, n=65); -500ms med 4 (IQR -2..9, n=65); -250ms med 1 (IQR -1..4, n=65)
+CC11 legato: -200ms med 0 (IQR -2..2, n=446); -100ms med 0 (IQR -1..2, n=446); +0ms med 0 (IQR 0..0, n=446); +100ms med 0 (IQR -2..1, n=446); +200ms med 0 (IQR -4..2, n=446); +400ms med 0 (IQR -6..4, n=446); +800ms med 0 (IQR -11..7, n=446)
+CC11 start: -200ms med -0 (IQR -4..1, n=64); -100ms med 0 (IQR -2..0, n=64); +0ms med 0 (IQR 0..0, n=64); +100ms med 2 (IQR 0..4, n=64); +200ms med 5 (IQR 0..8, n=64); +400ms med 10 (IQR 0..18, n=64); +800ms med 16 (IQR 0..25, n=64)
