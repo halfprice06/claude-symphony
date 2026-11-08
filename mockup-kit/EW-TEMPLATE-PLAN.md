@@ -70,3 +70,21 @@ Keep a pass-2 copy of the old layout for one cycle so the critics can compare.
   pass-2 test on the strings with CC11 held fixed and the dynamics and shapes moved into CC1, and the critics compare it
   with the CC11 version. Adopt it if it is no worse; otherwise record why in LEARNINGS.
 - Winds and brass played slightly early (-2 to -13 ms mean) is already covered by our lead tables.
+
+## 6. Research batch 2 (FINDINGS.md part 2, confirmed by the ComposerCloud+ edition's different demo)
+- **Macro caveat (c51).** EW's sustained CC1 medians are 57-79. That falls in the 55-76 zone where our LEARNINGS measured the
+  Non Vib and Vib woodwind layers both sounding, which doubles the amplitude modulation. If the "Mod + Expression Combo"
+  macro is tested, measure mp-mf sustained notes for that doubling, and consider a non-linear macro spline that crosses
+  55-76 quickly.
+- **Short notes (c51).** On string short rows EW parks CC1 (and so CC11) at 118-127 and sets the dynamic by velocity alone
+  (medians 24-52). Brass and wind shorts use velocity 62-95. This is the same fix as our harp's CC11 at 110. Test holding
+  CC11 at 110-127 over short-note passages with dynamics mapped to velocity. Shorts are 60-90 ms long and exactly on the grid.
+- **CC1 is shaped per phrase, not per note (c51).** It stays flat across legato note changes: no bumps and no pre-onset
+  dips. About half of phrase starts swell after the onset (upper quartile +12-15 by 200 ms, +23 by 800 ms). A quarter to a
+  half of phrase ends taper 13-37 units over the last 0.25-1 s. Long notes are late-peak swells, hairpins peaking at
+  40-60 %, or fades to 0. Compare with our per-note shapes and fills, and remove per-note bumps where the phrase shape does
+  the work.
+- **Strings use two tracks per section (c51, test).** A legato track ("Leg Slur + Port LITE", with LegatoSpeed and
+  RTKiller on) and a KS Master track for shorts, sustains and tremolo. Keyswitches sit 40-800 ms before the note.
+- **Release times (information only).** EW keeps the patch releases (700-931 ms), except Basses legato 56, oboe 177, tuba 372
+  and 1FH 562 ms. Our release caps were fitted by measurement and stay.
