@@ -8,3 +8,8 @@ Read from EastWest's free HO REAPER template ("EW Hollywood Orchestra Template (
 - `midi-report.txt`: per-track MIDI statistics. On KS Master tracks these include the keyswitch notes; `artic-report.txt` separates the notes by articulation and leaves the keyswitches out.
 - `ccshape-report.txt`: CC1 movement around phrase starts, legato note changes, phrase ends, and inside long notes.
 - `scripts/`: the parsers (run them with `python3 -I`). `extract_fx.py <rpp> <outdir>` regenerates the JSON and the chunks. `fxstate.py <rpp> <fx substring>` prints the strings in an FX state.
+
+Part 4 of `FINDINGS.md` (other experts' mockups, 2026-11-08 evening):
+- `expert-report.txt`: statistics for 20 expert MIDI mockups (phrase-shape table, per-family timing, overlap, repeated-note, velocity and CC numbers, beat-level tempo, tutti entry spread, then per-track detail). The MIDI files are not committed.
+- `duc-mix.txt`: Bernard Duc's two REAPER projects, mix side: FX per track, routing and send levels, decoded Pro-Q 2 bands, VSR S24 reverb presets and values, the room-noise bed.
+- `scripts/smf2.py out.json file.mid ...` (per-track and phrase-shape statistics), `xsum.py` (family summary from the JSON files in `reports/`), `rubato.py`, `async.py`, `rppmix.py <rpp> <first track>`, `rppau.py <rpp> <outdir>` (AU plugin states), `proq2.py <blob> ...` (FabFilter Pro-Q 2 bands).
