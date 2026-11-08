@@ -340,7 +340,7 @@ CC11: phrases>=1.5s n=32, moving(>=6) 97%
       share rising to mid >=4: 14%, falling at end <=-4 vs mid: 61%, flat (all |d|<3): 18%
 
 == Shared CC lanes, CC11 minus CC1, phrase entries, CC7 lanes (scripts/balfe_extra.py)
-# balfe/crown-main-titles.mid
+# mockup-kit/reference/lorne-balfe/crown-main-titles.mid
 == tracks sharing an identical CC lane
 CC1: SF SYM STR VLN 1 Long | SF SYM STR CELLOa Pleg | SF SOLO CELLO Long | SF SYM WW Oboe Long (D) | SF SYM WW BSNa2 Long (D)
 CC11: SF SYM STR VLN 1 Long | SF SYM STR CELLOa Pleg | SF SOLO CELLO Long | SF SYM WW Oboe Long (D) | SF SYM WW BSNa2 Long (D)
@@ -380,7 +380,7 @@ SF SYM WW Clar3 Long (D)                 n=1 0:7 250ms:18 500ms:25 1s:44
 SF SYM WW Clar4 Long (D)                 n=1 0:7 250ms:18 500ms:25 1s:44
 SF SYM WW BSNa2 Long (D)                 n=1 0:0 250ms:25 500ms:31 1s:40
 == CC7 lanes with >20 events
-# balfe/kung-fu-panda-3-father-and-son.mid
+# mockup-kit/reference/lorne-balfe/kung-fu-panda-3-father-and-son.mid
 == tracks sharing an identical CC lane
 == short notes (<250 ms): velocity by position in beat
 Spitfire Symphonic Strings f - Ensembles n=511 vel med 88 IQR 84-95 | by 16th 0:91(n136) 1:84(n135) 2:90(n120) 3:90(n120) | downbeat by beat 1:92 2:91 3:91 4:92 | step to next med 8
@@ -439,7 +439,7 @@ Spitifire Andy Findons Kitbag 2 Bansuri  n=1 0:124 250ms:121 500ms:121 1s:118
 Spitfire Andy Findons Kitbag 2 Panpipe L n=2 0:80 250ms:82 500ms:86 1s:96
 Spitfire Andy Findon Kitbag Chinese Bamb n=2 0:114 250ms:116 500ms:114 1s:115
 == CC7 lanes with >20 events
-# balfe/bad-boys-for-life-main-theme.mid
+# mockup-kit/reference/lorne-balfe/bad-boys-for-life-main-theme.mid
 == tracks sharing an identical CC lane
 CC1: Orchestral Tools Metropolis Ark 1 - 02. Choir Women Sustains | Orchestral Tools Metropolis Ark 1 - 02. Choir Men Sustains
 == short notes (<250 ms): velocity by position in beat
@@ -502,7 +502,7 @@ SF Joey Santiagp - Clean Santiago        n=5 0:0 250ms:0 500ms:0 1s:0
 NI Libraries - Vintage Organ Libraries - n=52 range 58-99 over 12.2s
 SF Hans Zimmer Percussion - Fox - Mid To n=827 range 45-74 over 129.6s
 SF The Grange a - Roger kit - (Performan n=30 range 119-122 over 124.8s
-# balfe/6-underground-i-am-the-danger.mid
+# mockup-kit/reference/lorne-balfe/6-underground-i-am-the-danger.mid
 == tracks sharing an identical CC lane
 CC11: SF SYM STR CELLOb Pleg | SF SYM STR CB Pleg
 CC11: SF JB PERC - TOMS ENS | SF HZ PERC PRO - BD Gallery
@@ -541,7 +541,7 @@ SF JB PERC - Cymbal Med                  n=3 0:0 250ms:0 500ms:10 1s:30
 == CC7 lanes with >20 events
 SF HZ PERC PRO Gong Drum                 n=91 range 111-127 over 112.0s
 SF HZ PERC PRO Low Boom                  n=91 range 111-127 over 112.0s
-# balfe/penguins-of-madagascar-main-theme.mid
+# mockup-kit/reference/lorne-balfe/penguins-of-madagascar-main-theme.mid
 == tracks sharing an identical CC lane
 CC1: SF SYM TBN Long | SF SYM BRS TBNa2 SH STACC (D)
 CC11: SF SYM TBN Long | SF SYM BRS TBNa2 SH STACC (D)
@@ -630,7 +630,7 @@ SF JB PERC - Cymbal Med                  n=20 0:19 250ms:48 500ms:61 1s:88
 SF PERC PRO CYM                          n=21 0:123 250ms:118 500ms:112 1s:104
 == CC7 lanes with >20 events
 StylusRMX Triangle-78-1                  n=55 range 96-127 over 199.7s
-# balfe/genius-s2-main-titles.mid
+# mockup-kit/reference/lorne-balfe/genius-s2-main-titles.mid
 == tracks sharing an identical CC lane
 CC1: SF Symphonic Brass - g - Bass Trombones a2 - Long | SF Symphonic Brass - m - Tuba Solo - Long
 == short notes (<250 ms): velocity by position in beat
@@ -669,12 +669,12 @@ SF Hans Zimmer Percussion - Timpan       n=5 0:105 250ms:106 500ms:106 1s:104
 SF Symphonic Brass - c - Horns a6 - Long n=170 range 0-127 over 10.5s
 
 == Short-note velocity by slot within the beat (scripts/accent.py)
-# balfe/crown-main-titles.mid
+# mockup-kit/reference/lorne-balfe/crown-main-titles.mid
 SF SYM STR VLN 1 SPICC                       n=384 grid 60t (8/beat) | mean vel by slot 0:104 1:101 2:95 3:87 4:105 5:102 6:96 7:88 | beat 1-4 104 104 104 105 | sd within slot 7.7
 SF SYM STR CELLO SPICC                       n=384 grid 60t (8/beat) | mean vel by slot 0:112 1:110 2:104 3:96 4:113 5:110 6:104 7:96 | beat 1-4 112 112 113 113 | sd within slot 6.2
 SF SYM STR ENS SPICC                         n=784 grid 120t (4/beat) | mean vel by slot 0:88 1:82 2:75 3:69 | beat 1-4 101 74 102 75 | sd within slot 17.8
 SF SYM STR ENS SPICC (D)                     n=1568 grid 60t (8/beat) | mean vel by slot 0:91 1:91 2:86 3:85 4:79 5:78 6:73 7:72 | beat 1-4 76 104 79 107 | sd within slot 19.7
-# balfe/kung-fu-panda-3-father-and-son.mid
+# mockup-kit/reference/lorne-balfe/kung-fu-panda-3-father-and-son.mid
 Spitfire Symphonic Strings f - Ensembles - S n=511 grid 120t (4/beat) | mean vel by slot 0:91 1:84 2:90 3:90 | beat 1-4 92 91 91 92 | sd within slot 12.9
 Spitfire Symphonic Strings f - Ensembles - S n=96 grid 120t (4/beat) | mean vel by slot 0:117 1:93 2:96 3:109 | beat 1-4 118 116 118 116 | sd within slot 7.8
 Spitfire Symphonic Wodwinds c - Flutes a2 -  n=48 grid 120t (4/beat) | mean vel by slot 2:96 3:109 | beat 1-4  | sd within slot 7.8
@@ -688,7 +688,7 @@ Spitfire Harp Normale                        n=228 grid 120t (4/beat) | mean vel
 Spitfire Joby Burgess Percussion Tuned - Cel n=227 grid 120t (4/beat) | mean vel by slot 0:50 1:50 2:50 3:50 | beat 1-4 50 50 50 50 | sd within slot 2.9
 Spitfire Joby Burgess Percussion Tuned - Cro n=68 grid 240t (2/beat) | mean vel by slot 0:97 1:82 | beat 1-4 94 107 94 94 | sd within slot 26.8
 Spitfire Mandolin Swarm Small ensemble - Sho n=48 grid 120t (4/beat) | mean vel by slot 0:59 1:58 2:57 3:56 | beat 1-4 65 61 57 53 | sd within slot 13.4
-# balfe/bad-boys-for-life-main-theme.mid
+# mockup-kit/reference/lorne-balfe/bad-boys-for-life-main-theme.mid
 SF Albion I - String Ensemble - Long         n=104 grid 240t (2/beat) | mean vel by slot 0:127 1:127 | beat 1-4 127 127 | sd within slot 0.0
 SF Symphonic Strings - a - Violins 1 - Short n=86 grid 120t (4/beat) | mean vel by slot 0:127 1:127 2:127 3:127 | beat 1-4 127 127 127 127 | sd within slot 0.0
 SF Symphonic Strings - f - Ensembles - Short n=325 grid 120t (4/beat) | mean vel by slot 0:123 1:111 2:123 3:116 | beat 1-4 118 123 124 122 | sd within slot 9.2
@@ -718,12 +718,12 @@ SF Percussion - Congas                       n=48 grid 60t (8/beat) | mean vel b
 SF The Grange - a - Roger kit - (Strict HH)  n=1512 grid 120t (4/beat) | mean vel by slot 0:96 1:83 2:91 3:96 | beat 1-4 95 98 90 100 | sd within slot 12.0
 SF The Grange - a - Roger kit - (Performance n=1296 grid 120t (4/beat) | mean vel by slot 0:99 1:92 2:95 3:97 | beat 1-4 83 96 105 107 | sd within slot 15.5
 SF The Grange a - Roger kit - (Performance H n=69 grid 120t (4/beat) | mean vel by slot 0:108 3:108 | beat 1-4 108 | sd within slot 0.0
-# balfe/6-underground-i-am-the-danger.mid
+# mockup-kit/reference/lorne-balfe/6-underground-i-am-the-danger.mid
 SF SYM STR VLN 1 SPICC                       n=512 grid 120t (4/beat) | mean vel by slot 0:95 1:72 2:83 3:72 | beat 1-4 95 95 95 95 | sd within slot 0.0
 SF SYM STR ENS SPICC                         n=656 grid 240t (2/beat) | mean vel by slot 0:114 1:100 | beat 1-4 114 114 114 114 | sd within slot 12.2
 SF MURAL V1 - Sh SPICC                       n=512 grid 120t (4/beat) | mean vel by slot 0:127 1:101 2:113 3:101 | beat 1-4 127 127 127 127 | sd within slot 0.0
 SF UC ORGAN - Choir Manuel                   n=240 grid 240t (2/beat) | mean vel by slot 0:79 1:73 | beat 1-4 88 77 82 74 | sd within slot 6.7
-# balfe/penguins-of-madagascar-main-theme.mid
+# mockup-kit/reference/lorne-balfe/penguins-of-madagascar-main-theme.mid
 SF SYM STR VLN 1 Long                        n=49 grid 80t (6/beat) | mean vel by slot 0:111 2:113 3:122 4:107 5:124 | beat 1-4 127 97 104 | sd within slot 10.0
 SF SYM STR VLN 2 Long                        n=88 grid 360t (1/beat) | mean vel by slot 0:123 | beat 1-4 127 119 | sd within slot 4.2
 SF SYM STR VLN 1 SPICC                       n=695 grid 160t (3/beat) | mean vel by slot 0:114 1:96 2:113 | beat 1-4 121 116 116 119 | sd within slot 24.5
@@ -763,7 +763,7 @@ SF Grange Chad HH                            n=1142 grid 240t (2/beat) | mean ve
 SF Grange ROGER TOMS                         n=1850 grid 160t (3/beat) | mean vel by slot 0:89 1:85 2:91 | beat 1-4 119 66 66 103 | sd within slot 25.9
 StylusRMX Triangle-78-1                      n=533 grid 160t (3/beat) | mean vel by slot 0:125 2:121 | beat 1-4 123 127 | sd within slot 2.7
 SF HZ1 Timp Hits                             n=58 grid 7680t (1/beat) | mean vel by slot 0:84 | beat 1-4 107 | sd within slot 17.0
-# balfe/genius-s2-main-titles.mid
+# mockup-kit/reference/lorne-balfe/genius-s2-main-titles.mid
 SF Albion I - Strings - Short Spiccato       n=64 grid 480t (1/beat) | mean vel by slot 0:127 | beat 1-4 127 127 127 127 | sd within slot 0.0
 SF Albion I - Strings - Short Spiccato       n=176 grid 240t (2/beat) | mean vel by slot 0:104 1:85 | beat 1-4 111 89 88 87 | sd within slot 17.6
 SF Chamber Strings -a - Violins 1 - Short Sp n=128 grid 240t (2/beat) | mean vel by slot 0:88 1:85 | beat 1-4 86 89 88 87 | sd within slot 13.7
