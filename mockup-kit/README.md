@@ -59,3 +59,17 @@ Then, as in movement II:
 Movement II c44 is testing a closer mic mix (point 1); Movement I c49 may test point 1 in pass 2. The Spaces II returns need the IR state chunks from the research thread.
 
 **Render only after the samples have finished loading (finale c05).** render_cycle's 30 GB memory check passed while Opus was still loading samples, and the strings rendered 30-60 ms late. Wait until REAPER's memory has settled (Movement I settles at about 44 GB for the main pass) before rendering; a fixed threshold is not enough.
+
+**First render with the EW template mix (finale c06, 2026-11-08).** Tools in symphony/mvt3/reaper-v600/tools/build_reaper.py, verified in REAPER by read-back:
+- pan_by_mic and track_pan;
+- Opus hall off (sends 0, fx:0 0, ConvolutionReverb removed);
+- four returns with the template FX chains pasted verbatim (pre-delays, Horns IR and full IR read back correctly);
+- post-fader sends;
+- family EQ as a second ReaEQ named "FAMILY EQ" that set_eq skips;
+- deliver_master applying the template master EQ.
+Movement I has equivalent tools, offline-tested, behind new mix.json keys (symphony/mvt1/reaper-v621/tools/template_mix.py, return_stems.py; tools_next/TEMPLATE-TOOLS.md).
+
+Measured:
+- Brass needs about +4 to +6 dB make-up after the family EQ.
+- The mix comes out bright: the 6-20 kHz share is -25 dB against -29 to -32 in the references, so the +4-5 dB family shelves may need halving.
+- Tutti stops take 0.62-0.73 s to fall 20 dB (0.41-0.50 with the Opus hall), because the full IRs are long; lowering the return levels barely shortens them. The Duc hall (2.3 s) is the fallback.
