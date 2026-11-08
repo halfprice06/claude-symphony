@@ -1,0 +1,185 @@
+Lorne Balfe MIDI sketches (14th Street Music Hightail shares), read 2026-11-08. Findings: FINDINGS.md Part 6.
+Files: balfe/crown-main-titles.mid (The Crown main titles, 22 tracks, 88 s), balfe/genius-s2-main-titles.mid (Genius season 2 main titles, 33 tracks, 37 s).
+
+== Tutti entry spread (scripts/async.py) and beat-level tempo (scripts/rubato.py)
+crown-main-titles.mid: 390 entries of 3+ tracks; spread first-to-last track ms median 0, IQR 0..0; exactly together (<1 ms) 100%
+   family offset vs entry median ms: str-long +0 (n=129), str-short +0 (n=1344), winds +0 (n=127)
+crown-main-titles.mid: 76 beats, tempo changes on 0% of beats; |dev| median 0.0%, 90th pct 0.0%; beats >15% slower 0, >25% slower 0; 4-bar medians 60..60 bpm
+genius-s2-main-titles.mid: 81 entries of 3+ tracks; spread first-to-last track ms median 0, IQR 0..0; exactly together (<1 ms) 95%
+   family offset vs entry median ms: brass +0 (n=65), keys/harp -1 (n=67), perc -0 (n=288), str-long +0 (n=28), str-short +0 (n=253)
+genius-s2-main-titles.mid: 68 beats, tempo changes on 0% of beats; |dev| median 0.0%, 90th pct 0.0%; beats >15% slower 0, >25% slower 0; 4-bar medians 150..150 bpm
+
+== Per-track and phrase-shape statistics (LANES=1,11,2 scripts/smf2.py)
+
+######## crown-main-titles.mid: PPQ 480, 2 tempi 60..120 bpm, 2 tempo events
+- SF SYM STR VLN 1 Long | n=54 vel 113 [113..113] d=1 | grid 100% mode +0ms (100%) | dur 1031 | ov 31 (n=24) gap 95 rep None (n=0) | phr 1 ~40.0s | CC1:633ev 0-127 14.7/s CC11:615ev 0-99 14.2/s
+- SF SYM STR CELLOa Pleg | n=27 vel 113 [113..113] d=1 | grid 100% mode +0ms (100%) | dur 1031 | ov 31 (n=24) gap 95 rep 95 (n=2) | phr 1 ~40.0s | CC1:633ev 0-127 14.7/s CC11:615ev 0-99 14.2/s
+- SF SOLO CELLO Long | n=27 vel 113 [113..113] d=1 | grid 100% mode +0ms (100%) | dur 1031 | ov 31 (n=24) gap 95 rep 95 (n=2) | phr 1 ~40.0s | CC1:633ev 0-127 14.7/s CC11:615ev 0-99 14.2/s CC7:2ev 127-127 4.5/s CC83:2ev 127-127 4.5/s
+- SF SYM STR VLN 1 SPICC | n=384 vel 97 [90..105] d=43 | grid 50% mode +0ms (50%) | dur 77 | ov None (n=0) gap 48 rep 48 (n=327) | phr 1 ~48.0s | CC11:9ev 34-43 1.5/s
+- SF SYM STR CELLO SPICC | n=384 vel 105 [99..112] d=37 | grid 50% mode +0ms (50%) | dur 77 | ov None (n=0) gap 48 rep 48 (n=327) | phr 1 ~48.0s | CC11:17ev 77-91 2.0/s
+- SF SYM STR ENS SPICC | n=784 vel 78 [64..92] d=74 | grid 100% mode +0ms (100%) | dur 98 | ov None (n=0) gap None rep None (n=0) | phr 192 ~0.1s | CC11:148ev 57-112 3.4/s CC1:148ev 44-112 3.4/s | r(vel,cc1)=0.59
+- SF SYM STR ENS SPICC (D) | n=1568 vel 82 [66..98] d=91 | grid 50% mode +0ms (50%) | dur 98 | ov None (n=0) gap 27 rep None (n=0) | phr 1 ~48.0s | CC11:148ev 80-112 3.4/s CC1:148ev 54-112 3.4/s | r(vel,cc1)=0.72
+- SF SYM BRS FHNa6 Leg (D) | n=33 vel 57 [57..57] d=1 | grid 100% mode +0ms (100%) | dur 2000 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~48.0s | CC11:712ev 0-112 14.9/s CC1:561ev 0-91 11.7/s
+- SF SYM BRS BTBNa2 Long | n=33 vel 41 [41..41] d=1 | grid 100% mode +0ms (100%) | dur 4000 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~48.0s | CC1:497ev 0-89 10.5/s CC11:481ev 13-117 10.1/s
+- SF SYM BRS TUBA Long (D) | n=10 vel 46 [46..46] d=1 | grid 100% mode +0ms (100%) | dur 4000 | ov None (n=0) gap -0.0 rep None (n=0) | phr 1 ~48.0s | CC1:232ev 31-127 4.5/s CC11:222ev 53-127 4.4/s
+- SF SYM WW Oboe Long (D) | n=27 vel 113 [113..113] d=1 | grid 100% mode +0ms (100%) | dur 1031 | ov 31 (n=24) gap 95 rep 95 (n=2) | phr 1 ~40.0s | CC1:633ev 0-127 14.7/s CC11:615ev 0-99 14.2/s
+- SF SYM WW Clar1 Long (D) | n=15 vel 73 [73..73] d=1 | grid 100% mode +0ms (100%) | dur 4000 | ov None (n=0) gap -0.0 rep 145 (n=2) | phr 4 ~7.9s | CC1:1006ev 0-104 12.7/s CC11:899ev 0-96 11.3/s
+- SF SYM WW Clar2 Long (D) | n=23 vel 73 [73..73] d=1 | grid 100% mode +0ms (100%) | dur 3942 | ov None (n=0) gap -0.0 rep 82 (n=2) | phr 1 ~80.0s | CC1:1240ev 0-104 15.5/s CC11:1218ev 10-106 15.2/s
+- SF SYM WW Clar3 Long (D) | n=16 vel 73 [73..73] d=1 | grid 100% mode +0ms (100%) | dur 4000 | ov None (n=0) gap -0.0 rep 81 (n=1) | phr 1 ~63.9s | CC1:835ev 0-104 13.0/s CC11:702ev 0-96 11.0/s
+- SF SYM WW Clar4 Long (D) | n=18 vel 73 [73..73] d=1 | grid 100% mode +0ms (100%) | dur 3979 | ov None (n=0) gap 42 rep 92 (n=1) | phr 1 ~80.0s | CC11:1306ev 0-96 16.3/s CC1:1149ev 0-104 14.4/s
+- SF SYM WW BSNa2 Long (D) | n=27 vel 113 [113..113] d=1 | grid 100% mode +0ms (100%) | dur 1031 | ov 31 (n=24) gap 95 rep 95 (n=2) | phr 1 ~40.0s | CC1:633ev 0-127 14.7/s CC11:615ev 0-99 14.2/s
+- eDNA Classic Old School Bass 1\ | n=8 vel 62 [62..62] d=1 | grid 100% mode +0ms (100%) | dur 3969 | ov None (n=0) gap 31 rep 31 (n=2) | phr 1 ~32.0s | 
+- eDNA Nice Simple Synth Basses MW | n=24 vel 85 [85..85] d=1 | grid 100% mode +0ms (100%) | dur 1700 | ov None (n=0) gap 126 rep 159 (n=8) | phr 21 ~1.7s | 
+== file summary
+CC1: phrases>=1.5s n=16, moving(>=6) 100%
+   arc (value minus phrase max): 0% -96 [-127..-74] n=16; 10% -49 [-49..-39] n=16; 25% -42 [-75..-15] n=16; 50% -34 [-72..-3] n=16; 75% -38 [-61..-10] n=16; 90% -23 [-48..-19] n=16; 100% 0 [-85..0] n=16
+   arc range 103 [87..127] n=16; peak position 0.95 [0.53..1.00] n=16
+   onset value 76 [62..95] n=208; pre-roll change in 300ms before onset 0 [0..0] n=208
+   ramp first 500ms 18 [11..31] n=16; end taper last 1000ms 2 [-33..4] n=16
+   long notes >=1.2s (n=199) change vs onset at 25/50/75/100%: 3 [0..11] n=199, 2 [-4..24] n=199, -7 [-20..35] n=199, -9 [-36..30] n=199
+      share rising to mid >=4: 46%, falling at end <=-4 vs mid: 55%, flat (all |d|<3): 1%
+CC11: phrases>=1.5s n=16, moving(>=6) 100%
+   arc (value minus phrase max): 0% -82 [-99..-72] n=16; 10% -36 [-50..-35] n=16; 25% -34 [-49..-17] n=16; 50% -26 [-56..-5] n=16; 75% -20 [-43..-8] n=16; 90% -16 [-40..-8] n=16; 100% 0 [-87..0] n=16
+   arc range 94 [87..99] n=16; peak position 0.94 [0.50..1.00] n=16
+   onset value 83 [73..97] n=208; pre-roll change in 300ms before onset 0 [0..0] n=208
+   ramp first 500ms 21 [14..33] n=16; end taper last 1000ms -0 [-30..5] n=16
+   long notes >=1.2s (n=199) change vs onset at 25/50/75/100%: 2 [-1..21] n=199, 2 [-5..33] n=199, -5 [-17..45] n=199, -7 [-24..45] n=199
+      share rising to mid >=4: 43%, falling at end <=-4 vs mid: 56%, flat (all |d|<3): 2%
+
+######## genius-s2-main-titles.mid: PPQ 480, 2 tempi 120..150 bpm, 5 tempo events
+- SF Albion I - Strings Long | n=24 vel 126 [126..126] d=1 | grid 100% mode +0ms (100%) | dur 1350 | ov None (n=0) gap None rep None (n=0) | phr 8 ~1.4s | CC11:700ev 57-127 22.9/s CC1:218ev 54-82 7.1/s CC7:2ev 126-126 0.1/s
+- SF Symphonic Strings - e - Basses - Short Staccato Dig (Alt) | n=20 vel 109 [107..121] d=12 | grid 100% mode +0ms (100%) | dur 107 | ov None (n=0) gap None rep 264 (n=3) | phr 18 ~0.1s | CC11:50ev 87-96 5.0/s
+- SF Albion I - Strings - Short Spiccato | n=76 vel 127 [127..127] d=2 | grid 100% mode +0ms (100%) | dur 72 | ov None (n=0) gap None rep None (n=0) | phr 24 ~0.1s | CC11:184ev 90-119 11.4/s CC7:15ev 90-90 0.9/s
+- SF Albion I - Strings - Short Spiccato | n=176 vel 87 [85..126] d=31 | grid 100% mode +0ms (100%) | dur 100 | ov None (n=0) gap 103 rep 107 (n=1) | phr 11 ~0.2s | CC11:251ev 48-124 9.8/s CC1:3ev 0-3 0.1/s CC7:3ev 90-127 0.1/s
+- SF Chamber Strings -a - Violins 1 - Short Spiccato (Alt) | n=128 vel 86 [82..88] d=29 | grid 100% mode +0ms (100%) | dur 93 | ov None (n=0) gap 107 rep 107 (n=1) | phr 3 ~3.3s | CC11:222ev 76-124 17.8/s
+- SF Chamber Stringsd - Celli - Short Spiccato (Alt) | n=52 vel 127 [114..127] d=11 | grid 100% mode +0ms (100%) | dur 63 | ov None (n=0) gap None rep None (n=0) | phr 26 ~0.1s | CC11:208ev 29-96 16.5/s CC7:13ev 106-106 1.1/s
+- SF Symphonic Brass - c - Horns a6 - Long | n=42 vel 126 [110..126] d=2 | grid 100% mode +0ms (100%) | dur 1376 | ov None (n=0) gap 5 rep None (n=0) | phr 9 ~1.7s | CC1:756ev 0-127 25.2/s CC11:390ev 0-90 13.3/s CC7:170ev 0-127 13.7/s | r(vel,cc1)=0.62
+- SF Symphonic Brass - g - Bass Trombones a2 - Long | n=18 vel 98 [98..98] d=1 | grid 100% mode +0ms (100%) | dur 1135 | ov None (n=0) gap 65 rep None (n=0) | phr 1 ~8.7s | CC11:141ev 72-116 15.3/s CC1:112ev 81-122 11.7/s
+- SF Symphonic Brass - g - Bass Trombones a2 - Long | n=36 vel 118 [109..121] d=10 | grid 100% mode +0ms (100%) | dur 598 | ov None (n=0) gap 26 rep 23 (n=8) | phr 8 ~1.6s | CC1:335ev 0-105 10.8/s CC11:309ev 0-100 9.9/s CC7:5ev 90-90 0.2/s | r(vel,cc1)=0.17
+- SF Symphonic Brass - m - Tuba Solo - Long | n=18 vel 109 [109..109] d=4 | grid 100% mode +0ms (100%) | dur 599 | ov None (n=0) gap 26 rep 26 (n=10) | phr 8 ~1.6s | CC1:335ev 0-105 10.8/s CC11:309ev 0-60 9.9/s CC7:5ev 90-90 0.2/s | r(vel,cc1)=0.28
+- SF Symphonic Brass c - Horns a6 - Short Staccato | n=24 vel 126 [126..126] d=1 | grid 100% mode +0ms (100%) | dur 839 | ov None (n=0) gap None rep None (n=0) | phr 8 ~0.8s | CC11:61ev 57-91 2.4/s CC7:3ev 90-90 0.1/s CC1:2ev 2-2 0.1/s
+- SF Symphonic Brass - c - Horns a6 - Short Staccato | n=24 vel 127 [127..127] d=1 | grid 100% mode +0ms (100%) | dur 112 | ov None (n=0) gap None rep None (n=0) | phr 8 ~0.1s | CC1:375ev 0-101 12.1/s CC11:372ev 0-95 12.0/s CC7:4ev 90-90 0.1/s
+- SF Symphonic Brass - g - Bass Trombones a2 - Short Staccato | n=16 vel 127 [127..127] d=1 | grid 100% mode +0ms (100%) | dur 176 | ov None (n=0) gap 34 rep 26 (n=2) | phr 4 ~0.4s | CC11:70ev 0-80 17.9/s CC7:2ev 90-90 3.0/s
+- SF Symphonic Brass - m - Tuba Solo - Short Staccato | n=17 vel 127 [127..127] d=1 | grid 100% mode +0ms (100%) | dur 200 | ov None (n=0) gap 39 rep 39 (n=8) | phr 9 ~0.4s | CC11:196ev 26-86 6.5/s CC7:4ev 90-90 0.1/s CC1:2ev 1-1 0.1/s
+- Nylon Guitar | n=122 vel 123 [86..123] d=25 | grid 92% mode +0ms (92%) | dur 93 | ov 14 (n=35) gap 13 rep 109 (n=2) | phr 6 ~1.1s | CC11:287ev 97-127 22.9/s CC1:2ev 0-2 10.0/s
+- SF Felt Piano - Ribbon Reverb | n=27 vel 126 [126..127] d=3 | grid 100% mode +0ms (100%) | dur 200 | ov None (n=0) gap -0.0 rep 200 (n=1) | phr 4 ~0.7s | CC11:234ev 0-85 7.0/s CC7:8ev 90-90 0.3/s CC1:3ev 43-96 0.1/s
+- SF Hans Zimmer Percussion - Timpani | n=32 vel 127 [127..127] d=2 | grid 88% mode +0ms (88%) | dur 732 | ov 38 (n=1) gap 27 rep None (n=0) | phr 7 ~1.1s | CC1:229ev 0-126 9.4/s CC11:198ev 0-127 8.1/s CC7:14ev 47-47 0.6/s | r(vel,cc1)=-0.20
+- SF Hans Zimmer Percussion - Timpan | n=16 vel 127 [127..127] d=2 | grid 100% mode +0ms (100%) | dur 499 | ov None (n=0) gap 48 rep None (n=0) | phr 8 ~1.1s | CC11:115ev 12-126 4.5/s CC1:115ev 12-126 4.5/s CC7:15ev 32-32 0.6/s | r(vel,cc1)=0.14
+- SF Percussion - Toms (Ensemble) | n=16 vel 127 [127..127] d=2 | grid 100% mode +0ms (100%) | dur 159 | ov 1 (n=2) gap 4 rep None (n=0) | phr 8 ~0.4s | CC11:31ev 4-88 1.3/s CC7:3ev 90-90 0.1/s CC83:3ev 127-127 0.1/s CC82:3ev 127-127 0.1/s
+- SF Percussion - Snare All | n=16 vel 127 [126..127] d=5 | grid 100% mode +0ms (100%) | dur 180 | ov None (n=0) gap 59 rep None (n=0) | phr 8 ~0.6s | CC7:2ev 63-63 0.1/s CC11:2ev 81-81 0.1/s CC1:2ev 0-1 0.1/s
+- SF Hans Zimmer Percussion - Low Booms | n=16 vel 126 [124..127] d=5 | grid 100% mode +0ms (100%) | dur 1172 | ov None (n=0) gap 57 rep None (n=0) | phr 11 ~1.2s | CC1:4ev 3-4 0.1/s CC7:3ev 100-100 0.1/s CC11:3ev 100-100 0.1/s
+- Abbey Road Modern Drummer - AR Modern White Kit Full | n=126 vel 96 [88..109] d=28 | grid 100% mode +0ms (100%) | dur 92 | ov None (n=0) gap 109 rep None (n=0) | phr 3 ~1.4s | CC7:15ev 75-117 6.2/s CC11:14ev 62-73 5.8/s CC1:2ev 0-0 0.8/s
+- Abbey Road Modern Drummer - Ivory Kit - Full | n=63 vel 96 [88..109] d=28 | grid 100% mode +0ms (100%) | dur 92 | ov None (n=0) gap 109 rep 111 (n=32) | phr 3 ~1.4s | CC7:15ev 75-117 6.2/s CC11:14ev 62-73 5.8/s CC1:2ev 0-0 0.8/s
+- Joby burgess Percussion Redux Castanets | n=36 vel 114 [102..116] d=21 | grid 100% mode +0ms (100%) | dur 91 | ov None (n=0) gap 79 rep 63 (n=1) | phr 24 ~0.2s | CC11:26ev 86-118 5.7/s
+- Joby burgess Percussion Redux Castanets (D) | n=63 vel 96 [88..109] d=28 | grid 100% mode +0ms (100%) | dur 92 | ov None (n=0) gap 109 rep 112 (n=10) | phr 3 ~1.4s | CC7:15ev 84-127 6.0/s CC11:14ev 127-127 5.8/s CC1:2ev 0-0 0.8/s
+- Omnisphere - Crackle Bass | n=21 vel 113 [111..120] d=11 | grid 100% mode +0ms (100%) | dur 1200 | ov None (n=0) gap -0.0 rep 28 (n=3) | phr 8 ~1.2s | CC11:431ev 0-94 17.8/s CC7:15ev 58-58 0.8/s
+== file summary
+CC1: phrases>=1.5s n=21, moving(>=6) 95%
+   arc (value minus phrase max): 0% -3 [-9..-1] n=21; 10% -1 [-6..0] n=21; 25% -6 [-19..-1] n=21; 50% -20 [-25..-2] n=21; 75% -18 [-62..-5] n=21; 90% -32 [-78..-15] n=21; 100% -41 [-90..-12] n=21
+   arc range 42 [27..90] n=21; peak position 0.05 [0.03..0.30] n=21
+   onset value 95 [81..105] n=57; pre-roll change in 300ms before onset 6 [0..38] n=57
+   ramp first 500ms 1 [0..7] n=21; end taper last 1000ms -27 [-62..-12] n=21
+   long notes >=1.2s (n=74) change vs onset at 25/50/75/100%: 0 [-4..1] n=74, 0 [-13..1] n=74, -4 [-23..1] n=74, -17 [-42..1] n=74
+      share rising to mid >=4: 16%, falling at end <=-4 vs mid: 69%, flat (all |d|<3): 16%
+CC11: phrases>=1.5s n=32, moving(>=6) 97%
+   arc (value minus phrase max): 0% -8 [-20..-1] n=32; 10% -0 [-8..0] n=32; 25% -5 [-13..-1] n=32; 50% -12 [-15..-7] n=32; 75% -16 [-24..-6] n=32; 90% -21 [-30..-9] n=32; 100% -23 [-34..0] n=32
+   arc range 32 [25..45] n=32; peak position 0.06 [0.03..0.70] n=32
+   onset value 90 [79..106] n=192; pre-roll change in 300ms before onset 0 [0..8] n=192
+   ramp first 500ms 1 [0..9] n=32; end taper last 1000ms -14 [-29..4] n=32
+   long notes >=1.2s (n=98) change vs onset at 25/50/75/100%: 0 [-4..2] n=98, -1 [-9..1] n=98, -7 [-16..0] n=98, -12 [-32..0] n=98
+      share rising to mid >=4: 14%, falling at end <=-4 vs mid: 61%, flat (all |d|<3): 18%
+
+== Shared CC lanes, CC1/CC11 offsets, phrase entries, CC7 (scripts/balfe_extra.py)
+# balfe/crown-main-titles.mid
+== tracks sharing an identical CC lane
+CC1: SF SYM STR VLN 1 Long | SF SYM STR CELLOa Pleg | SF SOLO CELLO Long | SF SYM WW Oboe Long (D) | SF SYM WW BSNa2 Long (D)
+CC11: SF SYM STR VLN 1 Long | SF SYM STR CELLOa Pleg | SF SOLO CELLO Long | SF SYM WW Oboe Long (D) | SF SYM WW BSNa2 Long (D)
+== short notes (<250 ms): velocity by position in beat
+SF SYM STR VLN 1 SPICC                   n=384 vel med 97.0 IQR 90-105 | by 16th 0:98(n144) 1:95(n48) 2:98(n144) 3:96(n48) | downbeat by beat 1:104 2:104 3:104 4:105 | step to next med 7
+SF SYM STR CELLO SPICC                   n=384 vel med 105.0 IQR 99-112 | by 16th 0:106(n144) 1:104(n48) 2:106(n144) 3:104(n48) | downbeat by beat 1:112 2:112 3:113 4:113 | step to next med 7
+SF SYM STR ENS SPICC                     n=784 vel med 78.0 IQR 64-92 | by 16th 0:88(n196) 1:82(n196) 2:75(n196) 3:69(n196) | downbeat by beat 1:101 2:74 3:102 4:75 | step to next med 6
+SF SYM STR ENS SPICC (D)                 n=1568 vel med 82.0 IQR 66-98 | by 16th 0:85(n588) 1:86(n196) 2:80(n588) 3:73(n196) | downbeat by beat 1:76 2:104 3:79 4:107 | step to next med 1
+== CC1 and CC11 on the same track: CC11 minus CC1 and lead/lag
+SF SYM STR VLN 1 Long                    CC11-CC1 med -16 IQR -22..-10 r=0.98 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM STR CELLOa Pleg                   CC11-CC1 med -16 IQR -22..-10 r=0.98 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SOLO CELLO Long                       CC11-CC1 med -16 IQR -22..-10 r=0.98 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM STR ENS SPICC                     CC11-CC1 med +7 IQR +3..+10 r=1.00 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM STR ENS SPICC (D)                 CC11-CC1 med +14 IQR +9..+20 r=0.97 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS FHNa6 Leg (D)                 CC11-CC1 med +28 IQR +22..+36 r=0.91 best lag 0.12 beats (+ = CC11 moves earlier)
+SF SYM BRS BTBNa2 Long                   CC11-CC1 med +37 IQR +34..+39 r=0.93 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM BRS TUBA Long (D)                 CC11-CC1 med +29 IQR +28..+30 r=0.98 best lag -0.12 beats (+ = CC11 moves earlier)
+SF SYM WW Oboe Long (D)                  CC11-CC1 med -16 IQR -22..-10 r=0.98 best lag 0.00 beats (+ = CC11 moves earlier)
+SF SYM WW Clar1 Long (D)                 CC11-CC1 med -3 IQR -10..+1 r=0.91 best lag 0.12 beats (+ = CC11 moves earlier)
+SF SYM WW Clar2 Long (D)                 CC11-CC1 med +8 IQR +0..+14 r=0.88 best lag 0.25 beats (+ = CC11 moves earlier)
+SF SYM WW Clar3 Long (D)                 CC11-CC1 med -2 IQR -8..+2 r=0.91 best lag 0.25 beats (+ = CC11 moves earlier)
+SF SYM WW Clar4 Long (D)                 CC11-CC1 med -3 IQR -9..+1 r=0.93 best lag 0.12 beats (+ = CC11 moves earlier)
+SF SYM WW BSNa2 Long (D)                 CC11-CC1 med -16 IQR -22..-10 r=0.98 best lag 0.00 beats (+ = CC11 moves earlier)
+== phrase entries (after >=1 s rest) on tracks with CC1 lanes: CC1 at onset, +250 ms, +500 ms, +1 s (medians)
+SF SYM STR VLN 1 Long                    n=1 0:0 250ms:25 500ms:31 1s:40
+SF SYM STR CELLOa Pleg                   n=1 0:0 250ms:25 500ms:31 1s:40
+SF SOLO CELLO Long                       n=1 0:0 250ms:25 500ms:31 1s:40
+SF SYM STR ENS SPICC                     n=1 0:44 250ms:44 500ms:44 1s:44
+SF SYM STR ENS SPICC (D)                 n=1 0:54 250ms:54 500ms:54 1s:54
+SF SYM BRS FHNa6 Leg (D)                 n=1 0:12 250ms:14 500ms:19 1s:25
+SF SYM BRS BTBNa2 Long                   n=1 0:15 250ms:16 500ms:19 1s:22
+SF SYM BRS TUBA Long (D)                 n=1 0:32 250ms:33 500ms:35 1s:42
+SF SYM WW Oboe Long (D)                  n=1 0:0 250ms:25 500ms:31 1s:40
+SF SYM WW Clar1 Long (D)                 n=1 0:7 250ms:18 500ms:25 1s:44
+SF SYM WW Clar2 Long (D)                 n=1 0:7 250ms:18 500ms:25 1s:44
+SF SYM WW Clar3 Long (D)                 n=1 0:7 250ms:18 500ms:25 1s:44
+SF SYM WW Clar4 Long (D)                 n=1 0:7 250ms:18 500ms:25 1s:44
+SF SYM WW BSNa2 Long (D)                 n=1 0:0 250ms:25 500ms:31 1s:40
+== CC7 lanes with >20 events
+# balfe/genius-s2-main-titles.mid
+== tracks sharing an identical CC lane
+CC1: SF Symphonic Brass - g - Bass Trombones a2 - Long | SF Symphonic Brass - m - Tuba Solo - Long
+== short notes (<250 ms): velocity by position in beat
+SF Albion I - Strings - Short Spiccato   n=76 vel med 127.0 IQR 127-127 | by 16th 0:126(n64) 2:127(n12) | downbeat by beat 1:127 2:127 3:125 4:124 | step to next med 0
+SF Albion I - Strings - Short Spiccato   n=176 vel med 87.0 IQR 85-126 | by 16th 0:98(n92) 1:126(n24) 2:85(n60) | downbeat by beat 1:111 2:89 3:88 4:87 | step to next med 4
+SF Chamber Strings -a - Violins 1 - Shor n=128 vel med 86.0 IQR 82-88 | by 16th 0:88(n68) 2:85(n60) | downbeat by beat 1:86 2:89 3:88 4:87 | step to next med 8
+SF Chamber Stringsd - Celli - Short Spic n=52 vel med 127.0 IQR 114-127 | by 16th 0:118(n40) 2:114(n12) | downbeat by beat 1:127 2:119 3:108 4:120 | step to next med 0
+Nylon Guitar                             n=121 vel med 123 IQR 86-123 | by 16th 0:96(n50) 1:123(n17) 2:96(n37) 3:123(n17) | downbeat by beat 1:99 2:110 3:101 4:97 | step to next med 0.0
+Abbey Road Modern Drummer - AR Modern Wh n=126 vel med 96.0 IQR 88-109 | by 16th 0:100(n64) 2:93(n62) | downbeat by beat 1:101 2:102 3:100 4:95 | step to next med 16.5
+Abbey Road Modern Drummer - Ivory Kit -  n=63 vel med 96 IQR 88-109 | by 16th 0:100(n32) 2:93(n31) | downbeat by beat 1:101 2:102 3:100 4:95 | step to next med 16.5
+Joby burgess Percussion Redux Castanets  n=63 vel med 96 IQR 88-109 | by 16th 0:100(n32) 2:93(n31) | downbeat by beat 1:101 2:102 3:100 4:95 | step to next med 16.5
+== CC1 and CC11 on the same track: CC11 minus CC1 and lead/lag
+SF Symphonic Strings - e - Basses - Long CC11-CC1 med +30 IQR +26..+36 r=0.97 best lag 0.12 beats (+ = CC11 moves earlier)
+SF Albion I - Strings Long               CC11-CC1 med +45 IQR +33..+45 r=0.41 best lag -0.38 beats (+ = CC11 moves earlier)
+SF Symphonic Brass - c - Horns a6 - Long CC11-CC1 med -21 IQR -25..-12 r=0.60 best lag -0.25 beats (+ = CC11 moves earlier)
+SF Symphonic Brass - g - Bass Trombones  CC11-CC1 med +1 IQR -3..+9 r=0.75 best lag -0.62 beats (+ = CC11 moves earlier)
+SF Symphonic Brass - g - Bass Trombones  CC11-CC1 med +45 IQR +40..+49 r=0.59 best lag 0.00 beats (+ = CC11 moves earlier)
+SF Symphonic Brass - g - Bass Trombones  CC11-CC1 med -7 IQR -18..+0 r=0.99 best lag 0.00 beats (+ = CC11 moves earlier)
+SF Symphonic Brass - m - Tuba Solo - Lon CC11-CC1 med -42 IQR -58..+0 r=0.92 best lag 0.00 beats (+ = CC11 moves earlier)
+SF Symphonic Brass - c - Horns a6 - Shor CC11-CC1 med -2 IQR -3..-2 r=0.99 best lag 0.00 beats (+ = CC11 moves earlier)
+SF Hans Zimmer Percussion - Timpani      CC11-CC1 med +8 IQR +5..+12 r=0.99 best lag 0.00 beats (+ = CC11 moves earlier)
+SF Hans Zimmer Percussion - Timpani      CC11-CC1 med -3 IQR -3..-3 r=0.97 best lag 0.00 beats (+ = CC11 moves earlier)
+SF Hans Zimmer Percussion - Timpan       CC11-CC1 med +0 IQR +0..+0 r=1.00 best lag 0.00 beats (+ = CC11 moves earlier)
+== phrase entries (after >=1 s rest) on tracks with CC1 lanes: CC1 at onset, +250 ms, +500 ms, +1 s (medians)
+SF Symphonic Strings - e - Basses - Long n=1 0:70 250ms:84 500ms:85 1s:89
+SF Albion I - Strings Long               n=2 0:69 250ms:69 500ms:70 1s:59
+SF Symphonic Brass - c - Horns a6 - Long n=2 0:93 250ms:94 500ms:90 1s:69
+SF Symphonic Brass - g - Bass Trombones  n=1 0:97 250ms:97 500ms:98 1s:96
+SF Symphonic Brass - g - Bass Trombones  n=1 0:34 250ms:37 500ms:38 1s:40
+SF Symphonic Brass - g - Bass Trombones  n=2 0:96 250ms:96 500ms:95 1s:86
+SF Symphonic Brass - m - Tuba Solo - Lon n=2 0:96 250ms:96 500ms:95 1s:86
+SF Symphonic Brass - c - Horns a6 - Shor n=8 0:86 250ms:88 500ms:84 1s:64
+SF Hans Zimmer Percussion - Timpani      n=3 0:115 250ms:115 500ms:114 1s:97
+SF Hans Zimmer Percussion - Timpan       n=5 0:105 250ms:106 500ms:106 1s:104
+== CC7 lanes with >20 events
+SF Symphonic Brass - c - Horns a6 - Long n=170 range 0-127 over 10.5s
+
+== Short-note velocity by slot within the beat (scripts/accent.py)
+# crown_main_titles
+SF SYM STR VLN 1 SPICC                       n=384 grid 60t (8/beat) | mean vel by slot 0:104 1:101 2:95 3:87 4:105 5:102 6:96 7:88 | beat 1-4 104 104 104 105 | sd within slot 7.7
+SF SYM STR CELLO SPICC                       n=384 grid 60t (8/beat) | mean vel by slot 0:112 1:110 2:104 3:96 4:113 5:110 6:104 7:96 | beat 1-4 112 112 113 113 | sd within slot 6.2
+SF SYM STR ENS SPICC                         n=784 grid 120t (4/beat) | mean vel by slot 0:88 1:82 2:75 3:69 | beat 1-4 101 74 102 75 | sd within slot 17.8
+SF SYM STR ENS SPICC (D)                     n=1568 grid 60t (8/beat) | mean vel by slot 0:91 1:91 2:86 3:85 4:79 5:78 6:73 7:72 | beat 1-4 76 104 79 107 | sd within slot 19.7
+# genius_s2_main_titles
+SF Albion I - Strings - Short Spiccato       n=64 grid 480t (1/beat) | mean vel by slot 0:127 | beat 1-4 127 127 127 127 | sd within slot 0.0
+SF Albion I - Strings - Short Spiccato       n=176 grid 240t (2/beat) | mean vel by slot 0:104 1:85 | beat 1-4 111 89 88 87 | sd within slot 17.6
+SF Chamber Strings -a - Violins 1 - Short Sp n=128 grid 240t (2/beat) | mean vel by slot 0:88 1:85 | beat 1-4 86 89 88 87 | sd within slot 13.7
+SF Chamber Stringsd - Celli - Short Spiccato n=52 grid 480t (1/beat) | mean vel by slot 0:117 | beat 1-4 127 119 108 120 | sd within slot 19.2
+Nylon Guitar                                 n=121 grid 120t (4/beat) | mean vel by slot 0:96 1:123 2:96 3:123 | beat 1-4 99 110 101 97 | sd within slot 13.1
+Abbey Road Modern Drummer - AR Modern White  n=126 grid 240t (2/beat) | mean vel by slot 0:100 1:93 | beat 1-4 101 102 100 95 | sd within slot 13.0
+Abbey Road Modern Drummer - Ivory Kit - Full n=63 grid 240t (2/beat) | mean vel by slot 0:100 1:93 | beat 1-4 101 102 100 95 | sd within slot 13.0
+Joby burgess Percussion Redux Castanets (D)  n=63 grid 240t (2/beat) | mean vel by slot 0:100 1:93 | beat 1-4 101 102 100 95 | sd within slot 13.0
