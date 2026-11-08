@@ -72,3 +72,33 @@ The pattern is the same on every section: **cut 450 Hz and 800 Hz to 1 kHz by 2 
 - Sonuscore's free demo MIDI files (sonuscore.com/demos-and-midifiles/).
 - VI-Control's "Consolidated list of MIDI mockups and project files for study" thread (blocks automated fetches; readable through Dan's Chrome).
 - Young Composers forum: a free beginner masterclass with project files, and a Polar Express mockup with MIDI download.
+
+# Part 2: deeper read of the performance data (2026-11-08, later)
+
+Sources: the HO demo above, plus the **ComposerCloud+ edition's demo** (a different 94 s cue by the same author, using the same mix framework; HO instruments are set up the same way down to the dB). Reports: `artic-report.txt` (per-articulation stats, keyswitch notes excluded), `ccshape-report.txt`, and `artic-report-cc.txt` for the CC+ demo. Both demos agree on every point below.
+
+## 6. The CC1 macro, and a caveat from our own measurements
+- Every KS Master (strings, brass, winds, choir) has an Opus macro, "Mod + Expression Combo", on MIDI CC1. It drives controller_1 and controller_11 together on a linear 0-1 curve, so the one CC1 lane moves the dynamic-layer crossfade (CC11) and the non-vib/vib crossfade (CC1) together. The dedicated "Leg Slur + Port LITE" legato patches have no macro and play dynamics on CC1 directly.
+- Caveat: our LEARNINGS (section 3) measured that holding the woodwind KS Masters' CC1 between about 55 and 76 leaves both the Non Vib and the Vib layers sounding, which doubled the amplitude modulation. EastWest's sustained lines sit at CC1 medians of 57 to 79, which is right in that zone. If the macro is tested, measure mp-mf sustained woodwind and string notes for that doubling, and consider a non-linear macro curve that steps across 55-76 quickly. The macro has a spline (`splineSegments`) that allows this.
+
+## 7. Short notes: CC1 parked high, dynamics by velocity only
+- On string short rows (Staccatissimo, Spiccato) CC1 sits at **118-127** (so CC11 is also at the top through the macro), and the dynamic comes from **velocity alone: medians 24-52**. Brass and wind shorts: velocity 62-95, CC1 75-127.
+- So soft shorts play the soft recorded samples with no extra CC11 attenuation. Our LEARNINGS found the same double-attenuation problem on the harp (velocity plus CC11 both lowering soft notes) and fixed it by holding CC11 at 110. Worth testing on string and wind shorts: hold CC11 at 110-127 during short-note passages and map the printed dynamic to velocity.
+- Short notes are written shorter than their slot: string shorts 60-90 ms and brass 70 ms at 130 bpm (a 16th is 115 ms); wind staccatissimo about 90 ms. The sample's own release supplies the tail.
+- Short notes are **exactly on the grid** (100 % of onsets in both demos). None of the short-note timing is humanized.
+
+## 8. CC1 shape: phrase-level, not note-level
+- **Across legato note changes CC1 is flat:** within ±200 ms of a legato onset the change is 0 at the median, with an IQR of −3..+1. There are no per-note bumps and no dip before an onset.
+- **Phrase starts (after a gap of more than 150 ms):** about half start flat. The rest swell after the onset: the upper quartile is +8 at 100 ms, +12 to +15 at 200 ms, +18 at 400 ms and +23 to +24 at 800 ms. CC1 never moves before the onset.
+- **Phrase ends:** a quarter to a half taper into the release. The upper quartile is 13 to 37 CC units higher 0.25 to 1 s before the note-off. Many final long notes end at CC1 0 (a fade to nothing).
+- **Long notes (over 1.2 s)** take one of three shapes: a swell to a late peak (peak at 70 to 100 % of the note), a hairpin with the peak at 40 to 60 %, or a decay to 0.
+
+## 9. Track layout and legato
+- Strings: each section has a **dedicated legato track** ("Leg Slur + Port LITE" patch, with the LegatoSpeed and RTKiller scripts on) for melodic lines, plus a KS Master track for shorts, sustains and tremolo. Brass and winds play everything on their KS Masters, with the Leg Slur MAX row for melodies.
+- Legato velocity: strings 57-124 (median 92-98); winds and brass 80-111 (median about 90-105). `USE_VELO_SPEED` is on, mapping velocity 30-127 to legato speed.
+- Legato overlap: strings 41-80 ms; winds and brass 24-57 ms (CC+ demo 31-48 ms).
+- Legato timing: string legato lines are mostly on the grid (84-97 %). Wind and brass legato lines were played in: 37-73 % of onsets sit ahead of the grid, by about 10-30 ms. Our kit's legato leads (0.10-0.20 s) are much larger because they were fitted to measured transition lag, so this is not a reason to cut them. It only shows that EastWest does not compensate for legato lag at all.
+- Keyswitches sit 40-800 ms before the note they switch (typically 100-600 ms), almost never on the same tick.
+
+## 10. Opus release times
+- EastWest mostly leaves the patch release envelopes alone: string KS Masters 931 ms, legato and brass 700 ms. A few are shortened: Basses legato 56 ms, oboe 177 ms, tuba 372 ms, 1FH 562 ms. Our 150 ms caps at mf-ff are much shorter than any of these. The template keeps release tails and controls blur with the reverb EQ and shorter sends instead.
