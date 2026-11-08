@@ -57,3 +57,5 @@ Then, as in movement II:
 4. Section-bus EQ: cuts at 450 Hz and 0.8-1 kHz of 2-8 dB, +4 dB shelf above 5-7 kHz.
 5. CC1 only (no CC11), 7-13 points/s. Legato velocity median about 95, legato overlap 45-80 ms, repeated-note gaps 20-60 ms.
 Movement II c44 is testing a closer mic mix (point 1); Movement I c49 may test point 1 in pass 2. The Spaces II returns need the IR state chunks from the research thread.
+
+**Render only after the samples have finished loading (finale c05).** render_cycle's 30 GB memory check passed while Opus was still loading samples, and the strings rendered 30-60 ms late. Wait until REAPER's memory has settled (Movement I settles at about 44 GB for the main pass) before rendering; a fixed threshold is not enough.
