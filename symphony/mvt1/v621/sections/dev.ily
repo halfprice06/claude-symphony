@@ -383,7 +383,8 @@ devVlnTwo = {
   % on any of the three lower strings should be the one in the fourth position, the octave or the ninth of the open string; D5 on the G string is a twelfth up.
   bes4(\! ges'2--\< f'4\!) | es'4.( des'8 c'4 es'8\< ges'8)\stopTextSpan | bes'2--(\> a'2\!) | f'4( des''2--\< c''8\! g'8) } |
   R1*4 |
-  << { e'1\pp^"div." | e'2( dis'2) | f'1( | f'2\< e'2) } \\ { b1\pp | g4( a2.) | bes2( des'2 | c'1\<) } >> |
+  % error pass 2026-11-09: one crescendo for the divisi at 110, ended at the barline (was a \< in each voice with no end: "unterminated crescendo")
+  << { e'1\pp^"div." | e'2( dis'2) | f'1( | f'2\< e'2) <>\! } \\ { b1\pp | g4( a2.) | bes2( des'2 | c'1) } >> |
   <c' f'>1:32\mp\cresc | <g' bes'>1:32 | <g' c''>1:32 | <g' c''>4:32 <f' c''>4:32 <f' b'>2:32 |
   <f' bes'>2:32 <f' aes'>2:32 | <fis' aes'>1:32 | r8^"unis." b8\ff aes'4.-> g'8 f'8 d'8 | r8 es'8 c''4.-> b'8 c''8 g'8 |
   r8 d'8 b'4-> r8 f'8 d''4-> | r8 f'8 des''4-> r8 bes'8 f''4-> | es''4.\< f''8 g''2 | <d'' aes''>1:32\fff^"non div." | % c406: double stops kept (c236); 'non div.' because div. ran 107-116 and returns at 124 (Adler adler1 PDF 30: write non div. when each player is to play the double stop)
