@@ -94,3 +94,12 @@ Still open: the 6-20 kHz share runs -30 to -25 dB against -29 to -32 in the refe
 - Brightness: strings family shelf off, brass shelf +1 dB, Violins I 5 kHz shelf -6 dB, Violins II 5 kHz shelf -4 dB gave a 6-20 kHz share of -27.8 dB (references -28.8 to -32.3). Movement II's c45 critics simulated the same set at -28.1.
 - Balance: brass make-up worked out at about +5 to +6.5 dB as predicted. Winds needed +0.5 to +2.5 dB more than critic B's estimate (measured per track against the previous render of the same notes, `kres50.py`). Loudness and climax order were unchanged within 0.2 dB.
 - `stem_fix.py --return-gain` adjusts a return stem; `template_mix.py` writes Spaces II's `envelopeMode` as an integer.
+
+**Movement I c51, articulation rules and brass tone (2026-11-09; symphony/mvt1/reaper-v621/cycles/c51/CHANGES.md).**
+- Brass tone: bells at 475 Hz -2.7 dB and 821 Hz -3.9 dB plus a 3.2 kHz -3 dB bell moved the climax centroids down 64-114 Hz (bars 121-126: 1240 to 1126 Hz). Movement II's render with the same bells went from 929 to 887 Hz.
+- Phrase shapes in score_to_parts.py (rise over the first 0.8 s, taper into the phrase end) work on brass (rise +2.7 dB, taper +4.5 dB on the dry stems). Winds needed the offsets ×1.4 and still rise only +1.1 dB.
+- Re-fit soft brass levels on the whole movement, not on a range test. The range test's "+3.7 dB at pp" came from two Lento trombone windows; over the full render brass at pp-mf moved -2.0 to +3.4 dB per part and dynamic, and each was corrected separately.
+- String repeated-note gaps (0.08 s, frac 0.35, minimum 0.06 s) separate repeated notes on the stems (dips 2.3-4.7 dB became 5.1-9.0 dB) but not in the master for violins and violas (1.0-2.8 dB), because the other parts and the hall returns fill a gap that short. They did fix the basses' weak downbeats (11 of 12 pass, c50 0 of 12), which swapping to a pedal layer could not.
+- Celli tremolo strokes at 55 % doubled the stem's peak-to-trough (5.2 to 10.0 dB) but left the master's 100-800 Hz band unchanged. Give the tremolo part +3.7 dB to hold the bar level.
+- A new held diminuendo can raise an inner held note under a tune: Horn 3's Bb3 under the Horns a2 tune came out 4-6.6 dB louder and needed -4 dB over those bars. Check the inner parts after any change to held-note dynamics.
+- Unchanged: loudness -19.8 LUFS, LRA 14.6, climax order, tutti stops 0.46-0.50 s, width and the 6-20 kHz share within the references.
