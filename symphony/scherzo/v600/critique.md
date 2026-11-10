@@ -1,3 +1,6 @@
+# v600, edit after the series (2026-11-09, Dan's listening note on the REAPER mockup)
+Bar 56 (one bar before D): Hn 1's solo link B4→B♭4 on beats 2-3 (added in c410) is removed at Dan's request; heard aloud, a single horn left alone after the tutti's cut did not make sense. Hn 1 plays the staccato quarter B4 on beat 1 with the tutti and rests (as before c410); beats 2-3 are silent; the cellos start the G-minor fugato alone at 57. sBHnOne's first bar loses the hairpin end. Only sections/sA.ily and sections/sB.ily changed; score.pdf, the parts and the MIDI files still need a rebuild.
+
 # v600 (cycle 599, lens 9 holistic, Casanelles ch. 6 analysis of Mahler's First Symphony (hyper-orchestra PDF 271-280) (sixth pass))
 Critic report: critics/reports/c599.md. Link into the trio, 141–149: Vln I holds a natural-harmonic E6 at ppp until beat 1 of 149, where the harp's harmonics enter, so the link has a quiet high string pedal over the horn's call (as Dvořák 9/iii's link holds soft strings). E rather than G♯ keeps the horn + Vln I G♯ pair for the opening and close.
 

@@ -81,12 +81,12 @@ sBBsnOne = { R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R2. | R
 sBBsnTwo = { R2.*12 | a,2.\p\< | a,2. | a,2.\f\< | a,2.->\ff\> | \partCombineSoloI R2.\! | R2.*15 | \partCombineAutomatic R2.*12 | b,2.--(\p\< | b,2.-- | b,2.-- | b,2.--\ff) \breathe | }
 % c246: Bsn 1-2 breathe at the end of 104 (101-116, 10.9 s of f-ff for Bsn 1 without a breath), with Hn 3-4, who play the same build and the same tenor line from 105/305 and already breathe there (Adler PDF 176: a slur is one breath; adler1 PDF 230, adler2 PDF 302 footnote: low winds need periodic breaths; c066, c086)
 sBCbsn = { R2.*12 | a,,2.\p\< | a,,2. | a,,2.\f\< | a,,2.->\ff\> | R2.\! | R2.*27 | b,,2.--(\p\< | b,,2.-- | b,,2.-- | b,,2.--\ff) | }
-% c410: 56 Hn 1 keeps the G-major cadence's third B4 and inflects it to B flat4, dying away in the tutti's cut before the cellos' G-minor fugato enters alone at 57 (was b'4-. r4 r4):
-%   the mode change III -> III flat in one voice, as Hn 1's C sharp5 -> C5 at 72-73 (A&S PDF 584-585 direct inflection; PDF 596 Ex. 32-15 III -> III flat; PDF 601-602 K. 542: G major -> G minor gives the line B-B flat)
+% 2026-11-09 (Dan, after hearing the mockup): c410's Hn 1 link at 56 (B4 slurred to B flat4 alone on beats 2-3, diminuendo) removed. Hn 1 plays b'4-. r4 r4 with the tutti again,
+%   beats 2-3 of 56 are silent and the cellos' G-minor fugato enters alone at 57, as before c410.
 % c534 (lens 4, Casanelles ch. 6, PDF 272 Fig. 6.1, 277-278, 286-287, 290): 73-74 Hn 1-2 release at the end of 73 (were held to 74 beat 2). Their pp A4/C5 lay an octave under the harp's first melodic notes
 %   (A5 at 73, C6 at 74, the phrase peak mp): a held note under a pluck one octave below is the pluck's own second partial, and the sustained sound outlasts the decaying one.
 %   Mahler (Fig. 6.1) stops the held chord where the quiet layer enters. The common tone A (c010), Hn 1's C sharp -> C (c042) and the pp decay from 72 (c028) are kept; F major stays complete in Hn 3-4/Bn 1/B.cl/harp LH.
-sBHnOne = { R2.\! | R2.*13 | a'4-.\f\< e'8-. e'-. a'4-. | cis''2.(\ff\> | c''2.)\pp | R2. | R2.*26 | fis'2.--(\p\< | fis'2.-- | fis'2.-- | fis'2.--\f) | }
+sBHnOne = { R2.*14 | a'4-.\f\< e'8-. e'-. a'4-. | cis''2.(\ff\> | c''2.)\pp | R2. | R2.*26 | fis'2.--(\p\< | fis'2.-- | fis'2.-- | fis'2.--\f) | }
 % c010: Hn 2 holds A across 72-73, the common tone of A major -> F major (A&S Unit 32 sec. 2, Widmung A flat/G sharp)
 sBHnTwo = { R2.*14 | a'4-.\f\< e'8-. e'-. a'4-. | a'2.~\ff\> | a'2.\pp | R2. | R2.*26 | dis'2.--(\p\< | dis'2.-- | dis'2.-- | dis'2.--\f) | }
 % c088: 73-88 Hn 3-4 under the harp's espress. melody: phrase slurs per four bars, tenuto on repeated notes, 'dolce' with 'senza sord.' (Adler I PDF 309, Ex. X-16; PDF 311-312: horns as a velvet accompaniment choir). They were re-tongued every bar, unmarked.
