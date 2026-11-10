@@ -316,7 +316,7 @@ audio { width: 100%; display: block; }
 
     <div class="tabs" role="tablist" aria-label="Recordings">
       <button class="tab" type="button" role="tab" id="tab-mockups" data-tab="mockups" aria-controls="panel-mockups" aria-selected="true">REAPER mockups</button>
-      <button class="tab" type="button" role="tab" id="tab-basic" data-tab="basic" aria-controls="panel-basic" aria-selected="false" tabindex="-1">Basic renders</button>
+      <button class="tab" type="button" role="tab" id="tab-basic" data-tab="basic" aria-controls="panel-basic" aria-selected="false" tabindex="-1">Basic MIDI</button>
     </div>
 
     <section class="panel" role="tabpanel" id="panel-mockups" data-tab="mockups" aria-labelledby="tab-mockups">
@@ -374,56 +374,55 @@ audio { width: 100%; display: block; }
     </section>
 
     <section class="panel" role="tabpanel" id="panel-basic" data-tab="basic" aria-labelledby="tab-basic" hidden>
-      <p class="panel-note">A plain render of each movement's current score, made straight from the score's MIDI with the r07 renderer. These change only when the score changes.</p>
+      <p class="panel-note">Each movement's current score played as plain General MIDI: the score's own MIDI file through a basic built-in sound set, with no mixing, balancing or reverb. These change only when the score changes.</p>
       <ol class="list">
-        <li class="trk" data-set="basic" data-mvt="1" data-src="basic/mvt1-v621-r07.mp3" data-kind="Basic render of v621">
+        <li class="trk" data-set="basic" data-mvt="1" data-src="basic/mvt1-v621-gm.mp3" data-kind="General MIDI render of v621">
           <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
           <div class="trk-main">
             <h2><span class="num">I.</span>Lento — Allegro appassionato</h2>
             <dl class="meta">
               <div><dt>Score</dt><dd>v621</dd></div>
-              <div><dt>Length</dt><dd>7:14</dd></div>
-              <div><dt>Rendered</dt><dd>6 Nov</dd></div>
+              <div><dt>Length</dt><dd>7:13</dd></div>
+              <div><dt>Rendered</dt><dd>9 Nov</dd></div>
             </dl>
           </div>
-          <span class="cycle">r07</span>
+          <span class="cycle">GM</span>
         </li>
-        <li class="trk" data-set="basic" data-mvt="2" data-src="basic/mvt2-v600-r07.mp3" data-kind="Basic render of v600">
+        <li class="trk" data-set="basic" data-mvt="2" data-src="basic/mvt2-v600-gm.mp3" data-kind="General MIDI render of v600">
           <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
           <div class="trk-main">
             <h2><span class="num">II.</span>Adagio</h2>
             <dl class="meta">
               <div><dt>Score</dt><dd>v600</dd></div>
-              <div><dt>Length</dt><dd>5:47</dd></div>
-              <div><dt>Rendered</dt><dd>6 Nov</dd></div>
+              <div><dt>Length</dt><dd>5:48</dd></div>
+              <div><dt>Rendered</dt><dd>9 Nov</dd></div>
             </dl>
-            <p class="row-note">Made before the 9 Nov change at bars 36–37, so the pickup to theme B is still on the cor anglais here. A new render is on the way.</p>
           </div>
-          <span class="cycle">r07</span>
+          <span class="cycle">GM</span>
         </li>
-        <li class="trk" data-set="basic" data-mvt="3" data-src="basic/scherzo-v600-r07.mp3" data-kind="Basic render of v600">
+        <li class="trk" data-set="basic" data-mvt="3" data-src="basic/scherzo-v600-gm.mp3" data-kind="General MIDI render of v600">
           <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
           <div class="trk-main">
             <h2><span class="num">III.</span>Scherzo: Allegro vivace</h2>
             <dl class="meta">
               <div><dt>Score</dt><dd>v600</dd></div>
-              <div><dt>Length</dt><dd>4:39</dd></div>
-              <div><dt>Rendered</dt><dd>6 Nov</dd></div>
+              <div><dt>Length</dt><dd>4:41</dd></div>
+              <div><dt>Rendered</dt><dd>9 Nov</dd></div>
             </dl>
           </div>
-          <span class="cycle">r07</span>
+          <span class="cycle">GM</span>
         </li>
-        <li class="trk" data-set="basic" data-mvt="4" data-src="basic/finale-v600-r07.mp3" data-kind="Basic render of v600">
+        <li class="trk" data-set="basic" data-mvt="4" data-src="basic/finale-v600-gm.mp3" data-kind="General MIDI render of v600">
           <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
           <div class="trk-main">
             <h2><span class="num">IV.</span>Finale: Allegro con fuoco</h2>
             <dl class="meta">
               <div><dt>Score</dt><dd>v600</dd></div>
-              <div><dt>Length</dt><dd>7:09</dd></div>
-              <div><dt>Rendered</dt><dd>6 Nov</dd></div>
+              <div><dt>Length</dt><dd>7:05</dd></div>
+              <div><dt>Rendered</dt><dd>9 Nov</dd></div>
             </dl>
           </div>
-          <span class="cycle">r07</span>
+          <span class="cycle">GM</span>
         </li>
       </ol>
     </section>
