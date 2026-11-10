@@ -141,3 +141,15 @@ Still open: the 6-20 kHz share runs -30 to -25 dB against -29 to -32 in the refe
 - **Onset measures.** Cross-correlation reads swelling notes early or late; check a band envelope before acting. Take score-to-seconds from parts.json, not from a map rebuilt from printed tempos (a critic's own map produced a false 0.3-0.45 s lateness).
 - **Release-trail gain** (`rt_gain_db`) acts only from 0.3 s after the note end.
 - **`stem_fix.py --apply`** runs once only; the return stems are not re-simulated, so wet/dry ratios on corrected stems are off by the correction.
+
+## Steady rhythm in fast string themes (Movement I c54, Movement II c51-c52, 2026-11-10)
+
+Dan heard the Movement I first theme (bars 15-23, eighths at 126) as choppy and not in steady time. Measured cause and cure:
+- **Measure with S** (the earlier of pcX and a robust band crossover; `symphony/mvt2/reaper-v600/tools/s_onsets.py`, wrapper `symphony/mvt1/reaper-v621/cycles/c54/coordinator_scripts/theme_S.py`). A dominant-pitch measure reads late when the previous note's ring is louder than the new note's start.
+- **Cause 1: row changes inside a line.** A legato target whose patch row differs from the row of the note it overlaps takes one of two start times, a fixed shift apart (Violins I 105 ms, celli 59, violas 45-50, basses 112), about 1 time in 9, and differently on each render. The Movement I theme changed row on 53 of 108 joins.
+- **Cause 2: Leg Slur MAX at fast tempo.** The transition takes 186-240 ms, so the second of two slurred eighths sounds for about 20 ms.
+- **Cause 3: unprinted tempo steps** (phrase arcs, pushes, beat stretches) of 2-8 % on single beats.
+- **Cure:** one row for the whole line. Movement I's rule `STEADY_LINE` (tools/score_to_parts.py) puts the theme on Sus Marc LITE with one lead per class (slurred 90 ms, after a bow change 50, entry 100, same-pitch repeat 85), per-note level steps and round-robin resets before entries. Violins I bars 15-23: robust SD 46 → 6 ms, notes over 40 ms from the median 15 → 1, row changes 53 → 2, two renders identical. Range-test variants (S SD): Sus Marc LITE 22, Sus MAX 44, Slur Runs 40, legato with one lead 57.
+- Remove unprinted tempo changes in Allegro themes. Movement II removed all of them and its critic found no phrase that read as mechanical.
+- After a tempo-map change: refit re-bow and join fills, keep stop lists by qn, compare renders on their own maps.
+- Winds and brass: one row lead per track plus a pitch-pair table beats per-onset rows (Movement II: joins outside 25 ms 97 → 26 of 263). The STEADY_LINE rule gave no gain on wind legato rows.
