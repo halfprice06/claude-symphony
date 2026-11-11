@@ -176,6 +176,25 @@ h2 {
 .meta dd { margin: 0; color: var(--ink); }
 .row-note { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
 
+/* Comparison clips: a second, smaller list under the mockups */
+.ab { display: grid; gap: 10px; margin-top: 12px; }
+.ab-head {
+  font-family: var(--body);
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+h3 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 16.5px;
+  line-height: 1.3;
+  margin: 0;
+  text-wrap: balance;
+}
+
 /* Player: fixed to the bottom on a phone, part of the left column on a wide screen */
 .dock {
   position: fixed;
@@ -322,17 +341,17 @@ audio { width: 100%; display: block; }
     <section class="panel" role="tabpanel" id="panel-mockups" data-tab="mockups" aria-labelledby="tab-mockups">
       <p class="panel-note">The newest REAPER render of each movement, played by the Hollywood Orchestra samples. Each one is replaced when its next loop finishes.</p>
       <ol class="list">
-        <li class="trk" data-set="mockups" data-mvt="1" data-src="mvt1-c55.mp3" data-kind="REAPER mockup c55">
+        <li class="trk" data-set="mockups" data-mvt="1" data-src="mvt1-c56.mp3" data-kind="REAPER mockup c56">
           <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
           <div class="trk-main">
             <h2><span class="num">I.</span>Lento — Allegro appassionato</h2>
             <dl class="meta">
               <div><dt>Score</dt><dd>v621</dd></div>
               <div><dt>Length</dt><dd>7:13</dd></div>
-              <div><dt>Rendered</dt><dd>10 Nov, 10:00 pm CST</dd></div>
+              <div><dt>Rendered</dt><dd>11 Nov, 9:49 am CST</dd></div>
             </dl>
           </div>
-          <span class="cycle">c55</span>
+          <span class="cycle">c56</span>
         </li>
         <li class="trk" data-set="mockups" data-mvt="2" data-src="mvt2-c54.mp3" data-kind="REAPER mockup c54">
           <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
@@ -371,6 +390,57 @@ audio { width: 100%; display: block; }
           <span class="cycle">c15</span>
         </li>
       </ol>
+
+      <section class="ab" aria-labelledby="ab-head">
+        <h2 class="ab-head" id="ab-head">Volume shaping A/B (Movement I)</h2>
+        <p class="panel-note">Four short clips for comparing the volume changes on single notes. Each clip plays the same bars twice with a short pause between: first from mockup c55, then from c56, where the per-note volume shaping is cut back.</p>
+        <ol class="list">
+          <li class="trk" data-set="ab" data-mvt="1" data-src="ab/mvt1-c56-bars15-23-mix.mp3" data-title="Bars 15–23, full mix" data-kind="A/B clip: c55, then c56 from 0:20">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 15–23, full mix</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:38</dd></div>
+                <div><dt>c56 from</dt><dd>0:20</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+          <li class="trk" data-set="ab" data-mvt="1" data-src="ab/mvt1-c56-bars15-23-violins1.mp3" data-title="Bars 15–23, Violins I alone" data-kind="A/B clip: c55, then c56 from 0:20">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 15–23, Violins I alone</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:38</dd></div>
+                <div><dt>c56 from</dt><dd>0:20</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+          <li class="trk" data-set="ab" data-mvt="1" data-src="ab/mvt1-c56-bars23-26-mix.mp3" data-title="Bars 23–26, full mix" data-kind="A/B clip: c55, then c56 from 0:09">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 23–26, full mix</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:18</dd></div>
+                <div><dt>c56 from</dt><dd>0:09</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+          <li class="trk" data-set="ab" data-mvt="1" data-src="ab/mvt1-c56-bars23-26-oboe1.mp3" data-title="Bars 23–26, Oboe 1 alone" data-kind="A/B clip: c55, then c56 from 0:09">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 23–26, Oboe 1 alone</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:18</dd></div>
+                <div><dt>c56 from</dt><dd>0:09</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+        </ol>
+      </section>
     </section>
 
     <section class="panel" role="tabpanel" id="panel-basic" data-tab="basic" aria-labelledby="tab-basic" hidden>
@@ -432,11 +502,11 @@ audio { width: 100%; display: block; }
       <div class="now">
         <div class="now-text">
           <p class="now-title"><span class="num" id="now-num">I.</span><span id="now-name">Lento — Allegro appassionato</span></p>
-          <p class="now-kind" id="now-kind">REAPER mockup c55</p>
+          <p class="now-kind" id="now-kind">REAPER mockup c56</p>
         </div>
         <button class="to-score" id="to-score" type="button">Score</button>
       </div>
-      <audio id="player" controls preload="metadata" src="mvt1-c55.mp3"></audio>
+      <audio id="player" controls preload="metadata" src="mvt1-c56.mp3"></audio>
     </section>
   </div>
 
@@ -495,8 +565,8 @@ audio { width: 100%; display: block; }
       var cur = r === state.row, on = cur && !player.paused;
       r.classList.toggle("current", cur);
       r.classList.toggle("playing", on);
-      r.querySelector(".play").setAttribute("aria-label",
-        (on ? "Pause" : "Play") + " movement " + SCORES[r.dataset.mvt].num + ", " + r.dataset.kind);
+      var what = "movement " + SCORES[r.dataset.mvt].num + (r.dataset.title ? ", " + r.dataset.title : "");
+      r.querySelector(".play").setAttribute("aria-label", (on ? "Pause " : "Play ") + what + ", " + r.dataset.kind);
     });
   }
 
@@ -511,7 +581,7 @@ audio { width: 100%; display: block; }
       if (player.getAttribute("src") !== row.dataset.src) player.src = row.dataset.src;
       var s = SCORES[row.dataset.mvt];
       $("now-num").textContent = s.num + ".";
-      $("now-name").textContent = s.title;
+      $("now-name").textContent = row.dataset.title || s.title;
       $("now-kind").textContent = row.dataset.kind;
       showScore(Number(row.dataset.mvt));
     }
@@ -629,6 +699,7 @@ audio { width: 100%; display: block; }
         tab: state.tab,
         set: state.row ? state.row.dataset.set : "mockups",
         mvt: state.row ? Number(state.row.dataset.mvt) : 1,
+        src: state.row ? state.row.dataset.src : "",
         t: player.currentTime || 0,
         playing: !player.paused,
         scoreMvt: state.scoreMvt,
@@ -642,7 +713,8 @@ audio { width: 100%; display: block; }
     try { var z = parseInt(localStorage.getItem("score-zoom"), 10); if (z >= 0 && z < ZOOMS.length) zoom = z; } catch (e) {}
     var h = location.hash.slice(1);
     showTab(d.tab || (h === "basic" ? "basic" : "mockups"));
-    var row = (d.set && findRow(d.set, d.mvt)) || rows[0];
+    var same = d.src ? rows.filter(function (r) { return r.dataset.src === d.src; })[0] : null;
+    var row = same || (d.set && findRow(d.set, d.mvt)) || rows[0];
     load(row, false);
     if (d.scoreMvt) showScore(d.scoreMvt);
     setZoom(zoom, false);

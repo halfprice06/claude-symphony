@@ -6,6 +6,7 @@ Source of https://claude.ai/artifact/7V3Gt4wRG5NKRXEFgYchCd ("Symphony No. 1 Moc
 
 - Tab "REAPER mockups": the newest mockup mp3 of each movement. Published as `mvt1-cNN.mp3`, `mvt2-cNN.mp3`, `scherzo-cNN.mp3`, `mvt3-cNN.mp3` (mvt3 is the finale).
 - Tab "Basic MIDI": plain General MIDI playback of each movement's current `score.midi` (Dan, 2026-11-09: no r07 renderer here, "super basic plain general midi samples"). Published as `basic/<movement>-<version>-gm.mp3`.
+- Section "Volume shaping A/B (Movement I)" under the mockups list (added 2026-11-11 with mockup c56): four comparison clips from `symphony/mvt1/reaper-v621/cycles/c56/ab/`, published as `ab/mvt1-c56-<bars>-<mix|instrument>.mp3`. Each clip is c55 then c56. Its rows are `<li class="trk" data-set="ab" data-mvt="1" data-title="...">`; `data-title` is what the player shows instead of the movement title, and `data-mvt` picks the score shown. Rows of this set do not auto-advance. Remove or replace the section when a later comparison supersedes it.
 - Score viewer: the engraved score of each movement as page images, `scores/<movement>-<version>/01.webp ...`. One audio element plays everything, so the audio continues while the score is scrolled or the tab is switched.
 
 ## Updating
