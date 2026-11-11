@@ -153,3 +153,38 @@ Dan heard the Movement I first theme (bars 15-23, eighths at 126) as choppy and 
 - Remove unprinted tempo changes in Allegro themes. Movement II removed all of them and its critic found no phrase that read as mechanical.
 - After a tempo-map change: refit re-bow and join fills, keep stop lists by qn, compare renders on their own maps.
 - Winds and brass: one row lead per track plus a pitch-pair table beats per-onset rows (Movement II: joins outside 25 ms 97 → 26 of 263). The STEADY_LINE rule gave no gain on wind legato rows.
+
+## Movement I c55 results and the volume-envelope check (2026-11-11)
+
+**Long notes on a marcato sustain row.** Moving a fast theme to one row (Sus Marc LITE) fixed timing in c54 but long notes started strong and sagged: front minus tail 9.1 dB median on the 13 notes of 1.4 quarter notes or more. Cure in c55, timing kept (S robust SD 6 → 9 ms):
+
+- no accent shapes on notes of that row (the sample has its own attack);
+- per-note body and tail lifts fitted on the stem (`build/steady_body55.json`), in place on the note-on or rising after +0.45 s, because a 3 dB rise inside the first 0.45 s shifts measure S by about +70 ms;
+- long notes end at the next note-on; level steps refitted on a body window.
+
+Result: front minus tail 0.6 dB median, long notes under 60 % of their length 13 → 1, theme over celli lower quartile +3.0 → +4.95 dB. Tested and rejected: Sus MAX for the long notes (7.9 dB sag, 8 of 39 over 40 ms), lower velocity (10.6 dB sag), longer overlaps at slurs (0.3 dB).
+
+**Limits found.** One-row treatment is not suitable where long notes carry hairpins (the lift fit flattens the diminuendo). Lyrical cello lines: Leg Slur 71 ms spread, Sus MAX with overlap 46, Marc row 27 with a 6.4 dB sag; none is good enough yet.
+
+**Winds.** Per-onset lead rows fitted from S, without a row-lead table, cut the spread: Clarinet 1 14 → 9 ms, Trombone 1 30 → 16, Oboe 1 37 → 16, cor anglais 18 → 8.
+
+**Tempo.** Printed tempo on every beat of the Allegro outside marked changes; breath gaps unchanged in milliseconds.
+
+**Queue.** Two `wait_lock.py` waiters started in the same second list each other as ahead and never take a free lock. Start waiters a few seconds apart, and keep a waiter process running for the whole wait.
+
+### Check the per-note volume envelope
+
+The track volume envelope (`vol_db` in parts.json, written by `tools/score_to_parts.py`, turned into points by `vol_points` in `tools/build_reaper.py`) carries every per-note correction the loops have added: accent shapes, join notches, re-bow and loop fills, pitch trims, level steps. In Movement I this reached 2,200-4,200 points per string track, 4-11 per note, with a within-note swing of 2-3 dB median, 6-9 dB at the 90th percentile and 21-24 dB at most. Dan saw it in REAPER and called it unnatural.
+
+Test whether it helps: per note, take the stem RMS over the first 0.35 s, and the same value minus the envelope's mean over that window (valid because the envelope is a gain after the instrument). Compare the median note-to-note step.
+
+| Line (Movement I c55) | with envelope | without |
+|---|---|---|
+| Violins I theme, bars 15-23 | 1.4 dB | 1.3 dB |
+| Violins I bars 27-32 | 2.4 | 3.8 |
+| Violins I development | 2.9 | 3.9 |
+| Celli second theme | 2.7 | 2.5 |
+| Oboe 1 bars 23-26 | 3.4 | 2.4 |
+| Clarinet 1 bars 131-134 | 3.1 | 1.9 |
+
+So the envelope helps in some lines, does nothing in others and harms a few. Rule from now on: a per-note envelope layer stays only where it lowers this measured step or cures a named fault; new rows need a before/after measurement; musical shape belongs on CC11, CC1 and velocity.
