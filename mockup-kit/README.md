@@ -252,3 +252,14 @@ The rule:
    Every cycle reports, per track, that the count of envelope points from per-note layers is 0.
 5. Moving the same per-note bumps from the volume envelope into CC11 is not a fix; CC11 is also a level.
 6. A worse median of note-to-note steps is not by itself a reason to add a layer.
+
+## Movement I c57 results: first cycle with no per-note track volume (2026-11-11)
+
+- Envelope items from per-note rules: 0 on every pitched track. Points 32712 -> 6962. Strings 0.9-1.35 points/s, winds and brass 0.2-0.8.
+- Removing the layers alone moved single tracks 5-11 dB in single bars and put the theme 14 dB over the celli (simulated). The c57 build held this with 375 bar-length level rows fitted to the old layers' bar means. That is a stopgap: rows fitted to the old layers are the old layers at bar resolution. Check your own slow rows for the same thing. c58 moves those levels into the dynamic mapping, region and row volumes, and role rows.
+- Theme timing without body lifts: Sus MAX on every theme note with class leads (slurred 80, new bow 62, after a rest 29, repeat 50 ms) read 27 ms spread; per-note leads on 103 notes (timing only) read 9 ms with no sag. Sus Marc LITE without lifts is steady (7 ms) but sags 7.5 dB over long notes.
+- Same-pitch repeats: real note-off gaps of 90 / 65 / 100 ms (strings / winds / brass, at most 40 % of the slot) hold separation at the level the dips gave (82 of 406 under 3 dB; 158 with no dips and no gap). Fast bass eighths stay weak.
+- Pitch trims as Opus region volumes work (basses' F2 4.0-5.8 dB lower), but a trim table fitted with the other layers in place does not hold every pitch once they are gone. Refit on the new render.
+- A "drive" phrase shape on held notes made horns fall 7-12 dB over pedals. Limit the shape to phrases whose mean note length is under 2 qn.
+- Cost, left audible: re-bow holes 1 -> 16 (7-16 dB, from our own split of the long note), accents without emphasis, pitches 4 dB out 18 -> 23, theme over celli lower quartile 3.56 -> 1.7 dB. Gains: join holes 44 -> 25, long-note sags 84 -> 62.
+- Range renders left 4 tracks stale; run the state guard and rebuild in full before the main render.
