@@ -186,6 +186,14 @@ h2 {
   text-transform: uppercase;
   color: var(--accent);
 }
+.ab-notes {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 13.5px;
+}
 h3 {
   font-family: var(--display);
   font-weight: 500;
@@ -439,6 +447,120 @@ audio { width: 100%; display: block; }
               </dl>
             </div>
             <span class="cycle">A/B</span>
+          </li>
+        </ol>
+      </section>
+
+      <section class="ab" aria-labelledby="ab3-head">
+        <h2 class="ab-head" id="ab3-head">Volume shaping, three states (Movement I)</h2>
+        <p class="panel-note">Four passages, each as the full mix and as the leading string part alone. Each clip plays the same bars three times with one second of silence between:</p>
+        <ol class="ab-notes">
+          <li>Mockup c56 as rendered.</li>
+          <li>Per-note shapes off: no swells, dips, fills or notches on single notes. Per-note levels are kept.</li>
+          <li>All per-note volume off: also no level steps for single notes. Track gain, dynamic trims and hairpins stay.</li>
+        </ol>
+        <p class="panel-note">Three things to know when listening:</p>
+        <ul class="ab-notes">
+          <li>The clips were made offline from the c56 dry stems, so they are drier than the full c56 mp3: no hall and no master chain.</li>
+          <li>The third state is about 5 dB louder on the theme at bars 15–23, because the per-note levels that were removed were mostly cuts.</li>
+          <li>The notes are identical in all three states. The third state is not the c57 result, which will also change notes and patches.</li>
+        </ul>
+        <ol class="list">
+          <li class="trk" data-set="ab3" data-mvt="1" data-src="ab3/bars15-23-mix.mp3" data-title="Bars 15–23 (theme at A), full mix" data-kind="Three states: c56, shapes off from 0:20, all off from 0:39">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 15–23 (theme at A), full mix</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:58</dd></div>
+                <div><dt>Shapes off</dt><dd>0:20</dd></div>
+                <div><dt>All off</dt><dd>0:39</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B/C</span>
+          </li>
+          <li class="trk" data-set="ab3" data-mvt="1" data-src="ab3/bars15-23-violins1.mp3" data-title="Bars 15–23 (theme at A), Violins I alone" data-kind="Three states: c56, shapes off from 0:20, all off from 0:39">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 15–23 (theme at A), Violins I alone</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:58</dd></div>
+                <div><dt>Shapes off</dt><dd>0:20</dd></div>
+                <div><dt>All off</dt><dd>0:39</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B/C</span>
+          </li>
+          <li class="trk" data-set="ab3" data-mvt="1" data-src="ab3/bars23-26-mix.mp3" data-title="Bars 23–26, full mix" data-kind="Three states: c56, shapes off from 0:10, all off from 0:19">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 23–26, full mix</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:28</dd></div>
+                <div><dt>Shapes off</dt><dd>0:10</dd></div>
+                <div><dt>All off</dt><dd>0:19</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B/C</span>
+          </li>
+          <li class="trk" data-set="ab3" data-mvt="1" data-src="ab3/bars23-26-violins1.mp3" data-title="Bars 23–26, Violins I alone" data-kind="Three states: c56, shapes off from 0:10, all off from 0:19">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 23–26, Violins I alone</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:28</dd></div>
+                <div><dt>Shapes off</dt><dd>0:10</dd></div>
+                <div><dt>All off</dt><dd>0:19</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B/C</span>
+          </li>
+          <li class="trk" data-set="ab3" data-mvt="1" data-src="ab3/bars111-116-mix.mp3" data-title="Bars 111–116 (repeated notes), full mix" data-kind="Three states: c56, shapes off from 0:13, all off from 0:26">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 111–116 (repeated notes), full mix</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:38</dd></div>
+                <div><dt>Shapes off</dt><dd>0:13</dd></div>
+                <div><dt>All off</dt><dd>0:26</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B/C</span>
+          </li>
+          <li class="trk" data-set="ab3" data-mvt="1" data-src="ab3/bars111-116-violas.mp3" data-title="Bars 111–116 (repeated notes), Violas alone" data-kind="Three states: c56, shapes off from 0:13, all off from 0:26">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 111–116 (repeated notes), Violas alone</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:38</dd></div>
+                <div><dt>Shapes off</dt><dd>0:13</dd></div>
+                <div><dt>All off</dt><dd>0:26</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B/C</span>
+          </li>
+          <li class="trk" data-set="ab3" data-mvt="1" data-src="ab3/bars11-14-mix.mp3" data-title="Bars 11–14 (bow changes), full mix" data-kind="Three states: c56, shapes off from 0:21, all off from 0:42">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 11–14 (bow changes), full mix</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>1:03</dd></div>
+                <div><dt>Shapes off</dt><dd>0:21</dd></div>
+                <div><dt>All off</dt><dd>0:42</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B/C</span>
+          </li>
+          <li class="trk" data-set="ab3" data-mvt="1" data-src="ab3/bars11-14-violins1.mp3" data-title="Bars 11–14 (bow changes), Violins I alone" data-kind="Three states: c56, shapes off from 0:21, all off from 0:42">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 11–14 (bow changes), Violins I alone</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>1:03</dd></div>
+                <div><dt>Shapes off</dt><dd>0:21</dd></div>
+                <div><dt>All off</dt><dd>0:42</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B/C</span>
           </li>
         </ol>
       </section>
