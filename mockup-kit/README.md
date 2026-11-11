@@ -220,3 +220,35 @@ Limits found:
 Double basses: deleting `mute_eq` and raising the 87.3 Hz bell from -10 to -4 dB lifted the master's 70-112 Hz share
 -15.0 -> -13.7 dB with no peak problem. A further 120 Hz +3 dB bell on celli and basses raised single bars by 3 dB and
 was not adopted.
+
+## Rule: the track volume envelope is for slow balance only (2026-11-11, all movements)
+
+Dan looked at the tracks in REAPER, found a volume move on nearly every note, and heard c56 (fewer of them) as
+better. None of the references does this: EastWest's own templates carry no volume automation, and the two
+professional projects have 0.01-0.36 envelope points per second against our 5-14. Our loops added the per-note layers
+one measured unevenness at a time, because a post-instrument gain change is cheap and leaves the sample alone.
+
+The rule:
+
+1. The track volume envelope carries gain, dynamic trims, roles, hairpin gain, divisi cuts and fades, drawn as ramps.
+   No layer keyed to single notes.
+2. A fault on single notes is fixed on the instrument side, as the references do it
+   (`EW-TEMPLATE-FINDINGS.md` sections 5-8 and 12):
+
+   | fault | reference practice |
+   |---|---|
+   | repeated notes run together | a note-off gap of 60-100 ms (winds about 60, strings 90, brass 100, shorts 115) |
+   | unclear or bumpy legato joins | overlap 45-80 ms on strings, 33-58 ms on winds and brass; legato velocity 90 or more; the controller lane flat across the join |
+   | long note sags | a row that sustains; the phrase controller shapes the note |
+   | dip where a long note is re-struck | do not re-strike; hold the note, or overlap at the split |
+   | one pitch or row louder than its line | velocity, or one controller value at the note-on |
+   | accents | velocity or the accent row |
+   | soft short notes too weak | controller parked high, dynamic by velocity alone |
+
+3. The controller lane is shaped per phrase: flat across legato note changes, nothing before an onset, a swell after
+   the first onset and a taper at the end where the phrase asks for it.
+4. A per-note volume move may stay only where no instrument-side fix works and the fault is audible (a hole of 6 dB
+   or more for 80 ms or more, repeats under 3 dB of separation, a sag of 6 dB or more, a pulse on a held note, a pitch
+   4 dB or more out of its line). Each one is listed for Dan with what was tried.
+5. Moving the same per-note bumps from the volume envelope into CC11 is not a fix; CC11 is also a level.
+6. A worse median of note-to-note steps is not by itself a reason to add a layer.
