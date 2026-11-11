@@ -188,3 +188,35 @@ Test whether it helps: per note, take the stem RMS over the first 0.35 s, and th
 | Clarinet 1 bars 131-134 | 3.1 | 1.9 |
 
 So the envelope helps in some lines, does nothing in others and harms a few. Rule from now on: a per-note envelope layer stays only where it lowers this measured step or cures a named fault; new rows need a before/after measurement; musical shape belongs on CC11, CC1 and velocity.
+
+## Movement I c56 results: reducing the per-note volume envelope (2026-11-11)
+
+Correction to the c55 table above: on the theme at rehearsal A the body and tail lifts are needed (long notes front
+minus tail 3.8 dB with them, 9.3 dB without). The "1.4 with / 1.3 without" figure came from a window of 0.35 s from
+the moved note-on and does not measure them.
+
+What c56 did and what it measured (Movement I, 5282 notes):
+
+- One level per onset on every track (`NOTE_LEVEL` pass): removes trims that return to 0 dB between the notes of a run
+  (314 notes had them).
+- Level changes and lift ends sit on the next note's score onset with a 40 ms crossfade, not on the moved note-on:
+  join holes over 9 dB on Violins I 66 -> 49, theme timing kept (S robust SD 10 ms).
+- Swells capped at 3 dB and refitted as residuals; fitted accents more than 5 dB over their neighbours 51 -> 20 of 273.
+- Point thinning at 0.1 dB tolerance removes 38 % of the points (largest change 0.11 dB).
+- Points written 52200 -> 32612; strings 9-14 points per second -> 5-10.
+- Notes with 3 dB or more of movement inside fell only 2334 -> 2129; on the strings almost nothing. What still counts:
+  fitted per-note level steps, kept accents and fills, repeated-note dips, body lifts, re-bow fills.
+
+Limits found:
+
+- Repeated-note dips are needed: separation falls from 5.5-7.3 dB to 2.1-4.8 dB without them.
+- A plain +4 dB cap on final-chord re-bow fills leaves 6-10 dB holes; refit the residual instead.
+- A common level for fast notes of one line can make the line less even (theme eighths 1.8 -> 2.2 dB step); test first.
+- Moving a level step changes S readings by 10-20 ms with no note-on changed; do not fit timing from S after an
+  envelope change without a control.
+- Removing a release jump lowers melody-over-accompaniment readings that included it (theme over celli 4.95 -> 3.56);
+  recheck such margins after any envelope cut.
+
+Double basses: deleting `mute_eq` and raising the 87.3 Hz bell from -10 to -4 dB lifted the master's 70-112 Hz share
+-15.0 -> -13.7 dB with no peak problem. A further 120 Hz +3 dB bell on celli and basses raised single bars by 3 dB and
+was not adopted.
