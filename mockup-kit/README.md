@@ -247,8 +247,8 @@ The rule:
 
 3. The controller lane is shaped per phrase: flat across legato note changes, nothing before an onset, a swell after
    the first onset and a taper at the end where the phrase asks for it.
-4. A per-note volume move may stay only where no instrument-side fix works and the fault is audible (a hole of 6 dB
-   or more for 80 ms or more, repeats under 3 dB of separation, a sag of 6 dB or more, a pulse on a held note, a pitch
-   4 dB or more out of its line). Each one is listed for Dan with what was tried.
+4. No exceptions (Dan, 2026-11-11: "i want to nuke all the volume adjustments per note"). If a fault cannot be fixed
+   on the instrument side, it stays audible and is reported with what was tried. No per-note volume move goes back.
+   Every cycle reports, per track, that the count of envelope points from per-note layers is 0.
 5. Moving the same per-note bumps from the volume envelope into CC11 is not a fix; CC11 is also a level.
 6. A worse median of note-to-note steps is not by itself a reason to add a layer.
