@@ -349,18 +349,18 @@ audio { width: 100%; display: block; }
     <section class="panel" role="tabpanel" id="panel-mockups" data-tab="mockups" aria-labelledby="tab-mockups">
       <p class="panel-note">The newest REAPER render of each movement, played by the Hollywood Orchestra samples. Each one is replaced when its next loop finishes.</p>
       <ol class="list">
-        <li class="trk" data-set="mockups" data-mvt="1" data-src="mvt1-c57.mp3" data-kind="REAPER mockup c57">
+        <li class="trk" data-set="mockups" data-mvt="1" data-src="mvt1-c58.mp3" data-kind="REAPER mockup c58">
           <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
           <div class="trk-main">
             <h2><span class="num">I.</span>Lento — Allegro appassionato</h2>
             <dl class="meta">
               <div><dt>Score</dt><dd>v621</dd></div>
               <div><dt>Length</dt><dd>7:13</dd></div>
-              <div><dt>Rendered</dt><dd>11 Nov, 3:57 pm CST</dd></div>
+              <div><dt>Rendered</dt><dd>15 Nov, 5:15 pm CST</dd></div>
             </dl>
-            <p class="row-note">First render with no per-note track volume adjustments.</p>
+            <p class="row-note">No per-note track volume adjustments, and the 368 bar-length level rows that c57 used as a stopgap are gone. The theme stands more clearly over the cellos (1.7 to 5.9 dB above them), pitches that stick out of the line are down from 23 to 7, the Violins II repeated quarter notes under the theme are on time, and accents are modest (strings about 2 dB, winds and brass about 1 dB). Still audible: 17 dips at bow changes on long notes.</p>
           </div>
-          <span class="cycle">c57</span>
+          <span class="cycle">c58</span>
         </li>
         <li class="trk" data-set="mockups" data-mvt="2" data-src="mvt2-c55.mp3" data-kind="REAPER mockup c55">
           <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
@@ -402,6 +402,57 @@ audio { width: 100%; display: block; }
           <span class="cycle">c17</span>
         </li>
       </ol>
+
+      <section class="ab" aria-labelledby="ab58-head">
+        <h2 class="ab-head" id="ab58-head">Volume shaping A/B, c57 then c58 (Movement I)</h2>
+        <p class="panel-note">Four clips: the theme at A (bars 15–23) and bars 23–26, each as the full mix and as Violins I alone. Each clip plays the bars twice with a short pause between: first from mockup c57, then from c58, which also drops the bar-length level rows that c57 still used. Both halves are at the same gain.</p>
+        <ol class="list">
+          <li class="trk" data-set="ab58" data-mvt="1" data-src="ab/mvt1-c58-bars15-23-mix.mp3" data-title="Bars 15–23, full mix" data-kind="A/B clip: c57, then c58 from 0:20">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 15–23, full mix</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:38</dd></div>
+                <div><dt>c58 from</dt><dd>0:20</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+          <li class="trk" data-set="ab58" data-mvt="1" data-src="ab/mvt1-c58-bars15-23-violins1.mp3" data-title="Bars 15–23, Violins I alone" data-kind="A/B clip: c57, then c58 from 0:20">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 15–23, Violins I alone</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:38</dd></div>
+                <div><dt>c58 from</dt><dd>0:20</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+          <li class="trk" data-set="ab58" data-mvt="1" data-src="ab/mvt1-c58-bars23-26-mix.mp3" data-title="Bars 23–26, full mix" data-kind="A/B clip: c57, then c58 from 0:09">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 23–26, full mix</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:18</dd></div>
+                <div><dt>c58 from</dt><dd>0:09</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+          <li class="trk" data-set="ab58" data-mvt="1" data-src="ab/mvt1-c58-bars23-26-violins1.mp3" data-title="Bars 23–26, Violins I alone" data-kind="A/B clip: c57, then c58 from 0:09">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 23–26, Violins I alone</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:18</dd></div>
+                <div><dt>c58 from</dt><dd>0:09</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+        </ol>
+      </section>
 
       <section class="ab" aria-labelledby="ab57-head">
         <h2 class="ab-head" id="ab57-head">Volume shaping A/B, c56 then c57 (Movement I)</h2>
@@ -495,7 +546,7 @@ audio { width: 100%; display: block; }
         <ul class="ab-notes">
           <li>The clips were made offline from the c56 dry stems, so they are drier than the full c56 mp3: no hall and no master chain.</li>
           <li>The third state is about 5 dB louder on the theme at bars 15–23, because the per-note levels that were removed were mostly cuts.</li>
-          <li>The notes are identical in all three states. The third state is not mockup c57 above, which also changes notes and patches.</li>
+          <li>The notes are identical in all three states. The third state is not what mockups c57 and c58 sound like: those also change notes and patches.</li>
         </ul>
         <ol class="list">
           <li class="trk" data-set="ab3" data-mvt="1" data-src="ab3/bars15-23-mix.mp3" data-title="Bars 15–23 (theme at A), full mix" data-kind="Three states: c56, shapes off from 0:20, all off from 0:39">
@@ -657,11 +708,11 @@ audio { width: 100%; display: block; }
       <div class="now">
         <div class="now-text">
           <p class="now-title"><span class="num" id="now-num">I.</span><span id="now-name">Lento — Allegro appassionato</span></p>
-          <p class="now-kind" id="now-kind">REAPER mockup c57</p>
+          <p class="now-kind" id="now-kind">REAPER mockup c58</p>
         </div>
         <button class="to-score" id="to-score" type="button">Score</button>
       </div>
-      <audio id="player" controls preload="metadata" src="mvt1-c57.mp3"></audio>
+      <audio id="player" controls preload="metadata" src="mvt1-c58.mp3"></audio>
     </section>
   </div>
 
