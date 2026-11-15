@@ -263,3 +263,14 @@ The rule:
 - A "drive" phrase shape on held notes made horns fall 7-12 dB over pedals. Limit the shape to phrases whose mean note length is under 2 qn.
 - Cost, left audible: re-bow holes 1 -> 16 (7-16 dB, from our own split of the long note), accents without emphasis, pitches 4 dB out 18 -> 23, theme over celli lower quartile 3.56 -> 1.7 dB. Gains: join holes 44 -> 25, long-note sags 84 -> 62.
 - Range renders left 4 tracks stale; run the state guard and rebuild in full before the main render.
+
+## Movement I c58 results: fitted level rows removed (2026-11-15)
+
+- 368 bar-length rows fitted to the old layers deleted and nothing refitted. Per-note envelope items 0. Points 6962 -> 4515; strings 0.49-0.73 points/s, winds and brass 0.18-0.55. Hairpin gain is what keeps strings above 0.4.
+- Replacements that worked: role spans of a phrase or more with edges in rests or 2 s ramps; region gains refitted on the new render (pitches 4 dB out 23 -> 7); entry steps keyed to the moved note-on; spans for repeated quarters that had no lead (+220 ms late -> +9 ms); no re-bow and a lower CC11 on the last fermata chord (rise inside the chord +2.5 -> +0.5 dB).
+- A CC + envelope pair breaks when the envelope half goes: SHORT_CC11_PARK left 184 string shorts up to 11 dB hot. Check every such pair when a layer is removed.
+- Accents as a flat CC11 value for the note's length from a lower resting value: strings +2.6 / +1.7 dB at f / ff, winds +1.2 / +0.9, brass +0.9 / +0.5. One size does not fit all tracks (Violins I +3.3, celli -0.8); size per track. Dan found +2.1 to +4.1 dB overdone on the finale: aim +1.5 to +2, no track over +3.
+- Velocity does nothing on sustain rows (0.0 dB per 10 units on winds, brass, Sus MAX, Sus Marc LITE).
+- Failed: re-bow overlap on a second MIDI channel (channel 2 is silent in Opus); CC16 reset before every beat on fast bass eighths; a soft-layer region gain on Horn 4.
+- Cost: passages whose shape had no instrument-side replacement yet moved 4-9 dB (a cor anglais solo, a horn solo, a solo cello). Write the phrase in CC11 in the same cycle that deletes the envelope shape.
+- Scripts must not import from the temp folder: it was emptied during a four-day stop and a guard script stopped working.
