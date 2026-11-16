@@ -274,3 +274,15 @@ The rule:
 - Failed: re-bow overlap on a second MIDI channel (channel 2 is silent in Opus); CC16 reset before every beat on fast bass eighths; a soft-layer region gain on Horn 4.
 - Cost: passages whose shape had no instrument-side replacement yet moved 4-9 dB (a cor anglais solo, a horn solo, a solo cello). Write the phrase in CC11 in the same cycle that deletes the envelope shape.
 - Scripts must not import from the temp folder: it was emptied during a four-day stop and a guard script stopped working.
+
+## Movement I c59 results (2026-11-16)
+
+- Accents sized per track and dynamic from each track's own CC11-to-dB curve: isolated accents median +1.7 dB (was +1.4), notes under +1 dB 61 -> 20. Measure isolated accents matched on track, pitch, row and resting CC11; report quartiles and the maximum, not only the median. Singles at +5 to +9.6 dB remain and look like sample level by pitch.
+- Staff-count scaling of accents is not needed: when every track rises E dB the sum rises E dB.
+- No accent value on an sf note that is already an ff arrival (they stacked to +5.2 dB).
+- A solo whose level follows the sample row (15 dB between held notes at one CC11): region volumes over the row first, then one CC11 lane for the phrase. Range-render two or three lanes and pick by "printed crest is the loudest note".
+- On Horn 4 the sample layer follows CC1, not CC11. A soft trim sized for one pitch's weak layer left the next pitch 12 dB hot; remapping both lanes brought it to 1.7 dB.
+- A CC11 offset sized from a family slope overshoots (+8 units gave +6.5 dB on a horn). Use the track's curve and range-test.
+- REBOW_NONE over a span also removes printed bow changes; unlist the automatic points instead.
+- Held same-pitch repeats on strings take a 30 ms gap, not the 90 ms of detached repeats.
+- Envelope thinning tolerance 0.75 dB: points 4515 -> 3951, strings 0.41-0.61 points/s.
