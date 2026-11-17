@@ -342,3 +342,18 @@ Rules:
 - In the brass and clarinet KS Masters (1FH, 1TP, 1TB, 1TU, CL), CC11 scales sample volume linearly: dB = 20 log10(CC / ref), not 40 log10 (measured: Horn 3 CC11 46 -> 73 = +4.0 dB). An offset sized with 40 log10 on these delivers half its planned dB. Strings and other woodwinds are not checked; measure each track's own curve before sizing (as Movement I's c59 rule says).
 - At -14 the top ride starting 10 dB under the 95th percentile with 3 s smoothing flattened f against ff to about 1.4 dB on the finale's mp3. Its simulated fix: top ride from 6 dB under p95, quiet-lift ratio 2.1. Check the f-to-ff step on the delivered file per movement; Movement I's c61 was not checked for it.
 - Accented ff tutti on Sus MAX peak about 212 ms late (finale).
+
+## Decision: climax margin before loudness range (2026-11-17, all movements)
+
+At -14 LUFS no delivery setting both keeps LRA near 12 and lets the printed summit stand clear (scherzo c22, finale c24: everything loud sat within about 1 LU of the summit). Climax order and the f-to-ff step are the music; LRA is a measure. So the targets are now, in this priority:
+
+1. Integrated -14 LUFS within 0.5, true peak -1.0 dBTP (unchanged).
+2. On the delivered file, by loudest 0.4 s per bar: the printed summit leads every rival ff or fff passage by 0.5 LU or more, and the printed order of the other climaxes holds.
+3. On the delivered file, a printed f -> ff step reads 2 LU or more where the score marks one.
+4. Quiet passages: 10th percentile of short-term loudness -23 LUFS or higher (Dan's request; unchanged).
+5. Limiter: no sustained climax or final chord over 6 dB.
+6. LRA: 10.5 LU or more (was about 12). An LRA between 10.5 and 12 is accepted when it buys items 2-3.
+
+Allowed tools to get there: top ride from 6 dB under the 95th percentile (was 10), quiet-lift ratio about 2.1, a peak compressor before the limiter (scherzo's best: -9 dB threshold, 3:1), and delivery ride rows that lower rival ff passages or the bars before an fff (not the arrival itself). Scherzo's simulated result with all of these: summit lead 0.72 LU, f-ff 2.2 LU, LRA 10.6.
+
+Movement I c61 (delivered before this decision) reads 160 > 122 by 0.2 LU, 122 > 26 by 0.3, 26 > 170 by 0.5: item 2 is met for order but not for the 0.5 LU summit lead over bar 122. Movement I is paused for Dan's room-bed decision; this is listed for a later pass, not re-rendered now.
