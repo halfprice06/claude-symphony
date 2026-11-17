@@ -325,3 +325,12 @@ Rules:
 - Removing the timpani's per-stroke +6 dB shape (a per-note shape) left loud strokes 0.4-4.8 dB softer with velocity already 117-127; timpani points 1.28 -> 0.40 per second.
 - Five more fitted rows turned up in config tables after "fitted rows 0" had been reported by rule name. Search the tables, not only the rule dump.
 - render_cycle's memory gate: restart REAPER immediately before the main render, and make shell chains stop (and keep the lock) on any failure: a chain that went on after a refused render released the lock with no render made.
+
+## Movement I c61 results: inner lines (2026-11-17)
+
+- 71 inner lines read from the score, each measured as K-weighted level under the tune and best 1/3-octave band against everything else; 35 brought forward by phrase-length roles (+2 to +5 dB, edges in rests), tune on top in every changed span (+2 to +13.5 dB). Causes found: stale negative rows from early cycles, and a row-wide region cut meant to even one row's bumps that took a section's own counter-lines down 2.5-4.5 dB.
+- A role row that ends before a chord with no rest before it fades across the chord's attack: run it to the next rest.
+- A delivery ride row starting before a crescendo's printed p inverted it on the mp3; start it at the printed p.
+- CC11 lane rises written on the score onset while note-ons move earlier left 55 notes starting 8-38 units under their level; moved to the moved note-on (37 left).
+- After a REAPER restart the audio device can be stopped and render_cycle refuses: run an audio-init step before the render.
+- Report for loops c52-c61: https://claude.ai/artifact/7eCgYEwuBJXZQF5emdM2So
