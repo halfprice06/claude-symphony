@@ -15,6 +15,8 @@ Source of https://claude.ai/artifact/7V3Gt4wRG5NKRXEFgYchCd ("Symphony No. 1 Moc
 
 ## Updating
 
+Alternate delivery of the same render (first case 2026-11-16, Movement I c59 at -16.4 LUFS as `mvt1-c59-louder.mp3`): the alternate goes in the movement's `data-set="mockups"` row, and the original stays reachable in a row right under it with `data-set="alt"` (not part of auto-advance). When the movement's next render arrives, remove the `alt` row and its mp3 unless asked otherwise.
+
 New mockup render: edit that movement's `<li class="trk" data-set="mockups">` row (`data-src`, `data-kind`, the cycle tag, Length from `ffprobe -show_entries format=duration`, Rendered from the file's mtime in CST). If it is Movement I, also edit the `<audio id="player" src>` and the player's first label, which start on that row. Publish with `files` = `{"<new>.mp3": {"from": "<absolute path>"}, "<old>.mp3": null}`.
 
 New General MIDI render (when a score changes): `gm/render-gm.sh <score.midi> <out.mp3>` in a temporary folder, then edit the `data-set="basic"` row. It uses Apple's built-in GM set (DLSMusicDevice, gs_instruments.dls) through an offline Swift render; this Mac has no fluidsynth or soundfont. Nothing is added: no reverb, panning or balancing, one fixed gain to put the peak at -1 dBFS. Use a new published name when the audio changes (for example `basic/mvt2-v601-gm.mp3`) and remove the old one with `null`, so browsers do not play a cached copy.
