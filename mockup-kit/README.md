@@ -314,3 +314,14 @@ Rules:
 - Change leads by half the measured error: leads sized from one measurement overshoot (Movement II).
 - Render-to-render changes of 1-2 dB on unchanged data can be a different round-robin take (stem correlation 0.02 against 0.998 for a true repeat). Do not fit levels to such a render.
 - Hidden inner lines are a balance job (roles of a phrase or more, CC11 phrase lanes, region volumes), not a delivery job.
+
+## Movement I c60 results (2026-11-17)
+
+- First render delivered at -14 LUFS (two loudness-loop passes): -14.0, LRA 11.2, TP -1.2 dBTP; limiter over 6 dB at one Violins I peak only.
+- The delivery lift can raise a loud chord after a quiet bar above a climax on momentary loudness while bar levels stay in order (bar 170 = bar 160 at -12.2 LUFS momentary). Check momentary maxima per bar on the delivered file.
+- Climax order fixed in the mix by per-dynamic trims: ff -2.5 dB on strings, -1.5 on winds and brass, fff unchanged; positive rows at an fff kept as slow role rows (the trumpets at bar 122 +2.3 to +4.3 dB) because their CC11 was already at the top.
+- Sustained wind and brass chord changes: old note ends 0.03-0.04 s after the new note-on on long notes (polyphonic sustain rows), 0.025 s gap at the same pitch: the wind-and-brass dip at tutti changes 6.5-7.5 -> 1.8-3.6 dB.
+- Re-listing automatic bow changes so pieces run up to 5.3 s (the loop starts near 5.9 s): re-bow holes 14 -> 8.
+- Removing the timpani's per-stroke +6 dB shape (a per-note shape) left loud strokes 0.4-4.8 dB softer with velocity already 117-127; timpani points 1.28 -> 0.40 per second.
+- Five more fitted rows turned up in config tables after "fitted rows 0" had been reported by rule name. Search the tables, not only the rule dump.
+- render_cycle's memory gate: restart REAPER immediately before the main render, and make shell chains stop (and keep the lock) on any failure: a chain that went on after a refused render released the lock with no render made.
