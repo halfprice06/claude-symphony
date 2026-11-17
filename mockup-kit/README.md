@@ -312,6 +312,8 @@ Rules:
 - Finale c21 at -14: climax peaks are tutti sums; cutting one family 3-4 dB moved the limiter only 0.1-0.7 dB, and the delivery top ride undid about two thirds of mix trims. What worked there: delivery ride rows on the climaxes and ff stabs (-2 to -4.5 dB), quiet-lift ratio 2.0 -> 1.8, and a loudness loop that sets the pre-limiter target so the mp3 lands at -14 (-13.9 LUFS, LRA 11.5, limiter 6.0 / 3.5 / 3.1 dB on the fff moments). A climax margin of 1 dB or more was not reachable at -14 with 6 dB of limiting or less: if the printed order cannot hold, report the margin and the limiter figure rather than limiting harder.
 - The top-ride ratio depends on the movement: 3:1 gave Movement I LRA 12.2 but Movement II 10.6, with a pre-climax bar lifted level with the climax; 2:1 gave Movement II 12.0. Choose 2:1 to 3:1 per movement so LRA lands near 12, and check the bar before each climax.
 - Change leads by half the measured error: leads sized from one measurement overshoot (Movement II).
+- Final-chord decay: the quiet-passage lift raises a dying chord's tail (finale c23: a 16.1 dB drop on the master became 7.8 dB on the mp3; a -8 dB ride row over the tail restored 15.6). Measure the last chord's decay on the delivered file.
+- Keep about 0.30 s of pre-roll before score qn 0 in the delivered file: cutting at qn 0 clipped the opening chord's led attacks (finale: Horn 1 +131 -> +26 ms).
 - Render-to-render changes of 1-2 dB on unchanged data can be a different round-robin take (stem correlation 0.02 against 0.998 for a true repeat). Do not fit levels to such a render.
 - Hidden inner lines are a balance job (roles of a phrase or more, CC11 phrase lanes, region volumes), not a delivery job.
 
