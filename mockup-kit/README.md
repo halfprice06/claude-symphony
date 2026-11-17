@@ -336,3 +336,9 @@ Rules:
 - CC11 lane rises written on the score onset while note-ons move earlier left 55 notes starting 8-38 units under their level; moved to the moved note-on (37 left).
 - After a REAPER restart the audio device can be stopped and render_cycle refuses: run an audio-init step before the render.
 - Report for loops c52-c61: https://claude.ai/artifact/7eCgYEwuBJXZQF5emdM2So
+
+## CC11 law and delivery top ride (finale c24, 2026-11-17)
+
+- In the brass and clarinet KS Masters (1FH, 1TP, 1TB, 1TU, CL), CC11 scales sample volume linearly: dB = 20 log10(CC / ref), not 40 log10 (measured: Horn 3 CC11 46 -> 73 = +4.0 dB). An offset sized with 40 log10 on these delivers half its planned dB. Strings and other woodwinds are not checked; measure each track's own curve before sizing (as Movement I's c59 rule says).
+- At -14 the top ride starting 10 dB under the 95th percentile with 3 s smoothing flattened f against ff to about 1.4 dB on the finale's mp3. Its simulated fix: top ride from 6 dB under p95, quiet-lift ratio 2.1. Check the f-to-ff step on the delivered file per movement; Movement I's c61 was not checked for it.
+- Accented ff tutti on Sus MAX peak about 212 ms late (finale).
