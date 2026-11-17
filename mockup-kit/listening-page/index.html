@@ -349,31 +349,18 @@ audio { width: 100%; display: block; }
     <section class="panel" role="tabpanel" id="panel-mockups" data-tab="mockups" aria-labelledby="tab-mockups">
       <p class="panel-note">The newest REAPER render of each movement, played by the Hollywood Orchestra samples. Each one is replaced when its next loop finishes.</p>
       <ol class="list">
-        <li class="trk" data-set="mockups" data-mvt="1" data-src="mvt1-c59-14b.mp3" data-kind="REAPER mockup c59, -14 LUFS delivery">
+        <li class="trk" data-set="mockups" data-mvt="1" data-src="mvt1-c60.mp3" data-kind="REAPER mockup c60">
           <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
           <div class="trk-main">
             <h2><span class="num">I.</span>Lento — Allegro appassionato</h2>
             <dl class="meta">
               <div><dt>Score</dt><dd>v621</dd></div>
               <div><dt>Length</dt><dd>7:14</dd></div>
-              <div><dt>Delivered</dt><dd>17 Nov, 6:37 am CST</dd></div>
+              <div><dt>Rendered</dt><dd>17 Nov, 8:19 am CST</dd></div>
             </dl>
-            <p class="row-note">c59 at the new delivery level: the same render, delivered at -14.1 LUFS instead of -19.8, with the quiet passages lifted. The original delivery is in the row below for comparison.</p>
-            <p class="row-note">About the c59 render: still no per-note track volume adjustments. In the solo cello phrase at bars 171–174 the loudest note is now the one at the top of the printed crescendo, and the phrase's level range is 8.4 dB (was 15.6). Isolated accents stand a median 1.7 dB above the notes around them. The theme is at least 4.3 dB over the cellos for three quarters of its notes. Holes at joins between notes are down from 30 to 25, and at bow changes from 17 to 14.</p>
+            <p class="row-note">The first full Movement I render at the new level (-14.0 LUFS). Per-note volume shaping is fully removed. Holes at bow changes are down from 14 to 8, and the dips at chord changes in the winds and brass are smaller.</p>
           </div>
-          <span class="cycle">c59</span>
-        </li>
-        <li class="trk" data-set="alt" data-mvt="1" data-src="mvt1-c59.mp3" data-kind="REAPER mockup c59, original delivery">
-          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
-          <div class="trk-main">
-            <h3>Movement I c59, original delivery</h3>
-            <dl class="meta">
-              <div><dt>Loudness</dt><dd>-19.8 LUFS</dd></div>
-              <div><dt>Length</dt><dd>7:13</dd></div>
-              <div><dt>Rendered</dt><dd>15 Nov, 10:01 pm CST</dd></div>
-            </dl>
-          </div>
-          <span class="cycle">c59</span>
+          <span class="cycle">c60</span>
         </li>
         <li class="trk" data-set="mockups" data-mvt="2" data-src="mvt2-c57.mp3" data-kind="REAPER mockup c57">
           <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
@@ -427,6 +414,79 @@ audio { width: 100%; display: block; }
           <span class="cycle">c21</span>
         </li>
       </ol>
+
+      <section class="ab" aria-labelledby="ab60-head">
+        <h2 class="ab-head" id="ab60-head">A/B clips, c59 then c60 (Movement I)</h2>
+        <p class="panel-note">Six clips: the theme at A (bars 15–23), the cellos' fugato subject (bars 85–87) and bars 121–124 with Trumpet 1, each as the full mix and as the leading part alone. Each clip plays the bars twice with a short pause between: first from mockup c59, then from c60. Both halves are at the same gain.</p>
+        <ol class="list">
+          <li class="trk" data-set="ab60" data-mvt="1" data-src="ab/mvt1-c60-bars15-23-mix.mp3" data-title="Bars 15–23, full mix" data-kind="A/B clip: c59, then c60 from 0:20">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 15–23, full mix</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:38</dd></div>
+                <div><dt>c60 from</dt><dd>0:20</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+          <li class="trk" data-set="ab60" data-mvt="1" data-src="ab/mvt1-c60-bars15-23-violins1.mp3" data-title="Bars 15–23, Violins I alone" data-kind="A/B clip: c59, then c60 from 0:20">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 15–23, Violins I alone</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:38</dd></div>
+                <div><dt>c60 from</dt><dd>0:20</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+          <li class="trk" data-set="ab60" data-mvt="1" data-src="ab/mvt1-c60-bars85-87-mix.mp3" data-title="Bars 85–87 (fugato subject), full mix" data-kind="A/B clip: c59, then c60 from 0:08">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 85–87 (fugato subject), full mix</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:16</dd></div>
+                <div><dt>c60 from</dt><dd>0:08</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+          <li class="trk" data-set="ab60" data-mvt="1" data-src="ab/mvt1-c60-bars85-87-celli.mp3" data-title="Bars 85–87, cellos alone" data-kind="A/B clip: c59, then c60 from 0:08">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 85–87, cellos alone</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:16</dd></div>
+                <div><dt>c60 from</dt><dd>0:08</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+          <li class="trk" data-set="ab60" data-mvt="1" data-src="ab/mvt1-c60-bars121-124-mix.mp3" data-title="Bars 121–124, full mix" data-kind="A/B clip: c59, then c60 from 0:11">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 121–124, full mix</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:22</dd></div>
+                <div><dt>c60 from</dt><dd>0:11</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+          <li class="trk" data-set="ab60" data-mvt="1" data-src="ab/mvt1-c60-bars121-124-trumpet1.mp3" data-title="Bars 121–124, Trumpet 1 alone" data-kind="A/B clip: c59, then c60 from 0:11">
+            <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+            <div class="trk-main">
+              <h3>Bars 121–124, Trumpet 1 alone</h3>
+              <dl class="meta">
+                <div><dt>Length</dt><dd>0:22</dd></div>
+                <div><dt>c60 from</dt><dd>0:11</dd></div>
+              </dl>
+            </div>
+            <span class="cycle">A/B</span>
+          </li>
+        </ol>
+      </section>
 
       <section class="ab" aria-labelledby="ab59-head">
         <h2 class="ab-head" id="ab59-head">A/B clips, c58 then c59 (Movement I)</h2>
@@ -784,11 +844,11 @@ audio { width: 100%; display: block; }
       <div class="now">
         <div class="now-text">
           <p class="now-title"><span class="num" id="now-num">I.</span><span id="now-name">Lento — Allegro appassionato</span></p>
-          <p class="now-kind" id="now-kind">REAPER mockup c59, -14 LUFS delivery</p>
+          <p class="now-kind" id="now-kind">REAPER mockup c60</p>
         </div>
         <button class="to-score" id="to-score" type="button">Score</button>
       </div>
-      <audio id="player" controls preload="metadata" src="mvt1-c59-14b.mp3"></audio>
+      <audio id="player" controls preload="metadata" src="mvt1-c60.mp3"></audio>
     </section>
   </div>
 
