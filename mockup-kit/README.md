@@ -356,4 +356,6 @@ At -14 LUFS no delivery setting both keeps LRA near 12 and lets the printed summ
 
 Allowed tools to get there: top ride from 6 dB under the 95th percentile (was 10), quiet-lift ratio about 2.1, a peak compressor before the limiter (scherzo's best: -9 dB threshold, 3:1), and delivery ride rows that lower rival ff passages or the bars before an fff (not the arrival itself). Scherzo's simulated result with all of these: summit lead 0.72 LU, f-ff 2.2 LU, LRA 10.6.
 
+Finale c24 met all six with top ride 6 dB under p95, quiet lift 2.1 and ride rows: summit +0.6 LU, f-ff +3.7 LU, LRA 11.8, limiter 5.8 dB. Woodwind and string CC11 also switches sample layers, so fit their levels per passage rather than by one law.
+
 Movement I c61 (delivered before this decision) reads 160 > 122 by 0.2 LU, 122 > 26 by 0.3, 26 > 170 by 0.5: item 2 is met for order but not for the 0.5 LU summit lead over bar 122. Movement I is paused for Dan's room-bed decision; this is listed for a later pass, not re-rendered now.
