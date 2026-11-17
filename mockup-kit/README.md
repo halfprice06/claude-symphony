@@ -300,11 +300,12 @@ The old target (-19 to -20 LUFS, LRA 14-16 LU, from the BBC classical guideline)
 | Loudness range | 14-16 LU | about 12 LU |
 | Quiet passages: 10th percentile of short-term loudness | about -30 LUFS | -23 LUFS or higher |
 | Climax order | | the printed order holds on the delivered file (momentary maximum per bar), not only on the master |
+| Limiter work | | list every passage with more than 6 dB of gain reduction (pre-limiter minus delivered peak, 50 ms windows); more than 6 dB on a sustained climax or final chord is a fault to fix with the top ride or the mix, not by lowering the target |
 
 How Movement I does it (symphony/mvt1/reaper-v621/tools/deliver_master.py): constant gain to -14 LUFS; the existing slow lift of quiet passages with its knee 7 dB under the 95th percentile of short-term loudness (was 5); the slow top ride starting 10 dB under that percentile at 3:1 (was 3 dB at 2.5:1); limiter ceiling 0.87 (-1.2 dBFS; the finale's c19 missed -1.0 dBTP by 0.1 dB at 0.891 after mp3 encoding). At -14 on the Movement I c59 master: I -19.8 -> -14.5 LUFS, LRA 12.2 LU, TP -1.2 dBTP, p10 short-term -30.1 -> -22.8, coda -26.0 -> -17.6; the limiter takes 4-6 dB on the five highest peaks (bar 160 region, 117 s, 89 s, 203 s): listen for dulled timpani and cymbal strokes there. A stronger top ride (12 dB under at 3.5:1) gave LRA 11.3 with no less limiting. At -16 it was: I -19.8 -> -16.4 LUFS, LRA 14.8 -> 12.5 LU, p10 short-term -30.1 -> -24.8, coda -26.0 -> -19.6, limiter 4.4 dB on the single loudest sample peak. Raising only the gain to -16 left LRA at 14.7 and the limiter at 4.5 dB; a higher lift ratio alone raised LRA.
 
 Rules:
 - This is the delivery stage only; the mix and the REAPER master stay as they are. No per-note volume, as before.
 - The louder top ride compresses the climaxes against each other. Movement I's c59 put an ff tutti over both fff climaxes at any setting; that is fixed in the mix (dynamic trims per printed dynamic), not in the delivery.
-- Check the delivered file's limiter work by passage: the finale's 4.3-4.8 dB was all on the final chord. A top ride ratio of 3.0 took the finale's LRA to 11.3; read the result against 12-13 LU per movement.
+- The finale at -14 (-14.6 LUFS): the limiter took 7.6 dB on the final chord, 5-5.8 dB at two other bars and 8-9.6 dB on single peaks, and its fff fell under several ff bars. Check the delivered file's limiter work by passage: the finale's 4.3-4.8 dB was all on the final chord. A top ride ratio of 3.0 took the finale's LRA to 11.3; read the result against 12-13 LU per movement.
 - Hidden inner lines are a balance job (roles of a phrase or more, CC11 phrase lanes, region volumes), not a delivery job.
