@@ -366,3 +366,11 @@ Movement I c61 (delivered before this decision) reads 160 > 122 by 0.2 LU, 122 >
 - Finale c26 found 30 such steps (mostly a held-decrescendo rule releasing -3 dB at the hairpin end inside the next note). Movement I c61 had 354 (137 inside held notes, 15 of them 6 dB or more outside percussion), from slow-balance rules: hairpin-gain releases, role and section-row edges, player-count marks, timpani dynamics.
 - Sources to fix: release hairpin gain at 2.8 dB/s or less or at the next printed dynamic or rest; role and row edges in rests or as ramps of 2 s or more; then a generic post-pass guard after vol_points (scherzo: tools/build_reaper.py note_move_guard; finale: tools/instr_post.py).
 - Tool: symphony/mvt1/reaper-v621/cycles/c61/actor_scripts/env61.py edges() measures it on any build folder (loads build_reaper.py cut before ENV_LUA, no REAPER contact).
+
+## Room-noise bed in the delivery (Dan approved 2026-11-18, all movements)
+
+Dan, after the audition: "The bed is fine." Every delivered mockup gets a quiet synthetic hall-air bed so rests and fades end in room hiss, not digital silence.
+- Level: -60 LUFS integrated (about 46 dB under the music at -14). Added after the limiter, before the mp3 encode, so the quiet-passage lift does not raise it and make it pump.
+- Noise: pink, an extra first-order fall above 2.5 kHz, a fourth-order low cut at 84 Hz (as in the Duc reference's bed), partly correlated stereo (L = 0.8 a + 0.6 c, R = 0.8 b + 0.6 c), fixed seed.
+- It is synthetic: no free room recording is in the repo. A real recording would sound more natural if one is found.
+- Movement I's tools/deliver_master.py gets it in c62 (env DELIVER_ROOM_BED_LUFS, default -60, "off" to disable); the other movements can port that function.
