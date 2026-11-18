@@ -359,3 +359,10 @@ Allowed tools to get there: top ride from 6 dB under the 95th percentile (was 10
 Finale c24 met all six with top ride 6 dB under p95, quiet lift 2.1 and ride rows: summit +0.6 LU, f-ff +3.7 LU, LRA 11.8, limiter 5.8 dB. Woodwind and string CC11 also switches sample layers, so fit their levels per passage rather than by one law.
 
 Movement I c61 (delivered before this decision) reads 160 > 122 by 0.2 LU, 122 > 26 by 0.3, 26 > 170 by 0.5: item 2 is met for order but not for the 0.5 LU summit lead over bar 122. Movement I is paused for Dan's room-bed decision; this is listed for a later pass, not re-rendered now.
+
+## Required check after every build: fader slope inside notes (2026-11-18, all movements)
+
+"0 envelope items from per-note rules" is not enough. Check the written envelope by slope: list every move of 1.5 dB or more steeper than 3 dB/s that lies inside a sounding note of that track, split into "inside a held note" and "at a new note while the previous one still sounds". Target: none inside held notes; at new notes only printed sudden dynamics (sf, fp, subito), placed 0.03 s before the moved note-on.
+- Finale c26 found 30 such steps (mostly a held-decrescendo rule releasing -3 dB at the hairpin end inside the next note). Movement I c61 had 354 (137 inside held notes, 15 of them 6 dB or more outside percussion), from slow-balance rules: hairpin-gain releases, role and section-row edges, player-count marks, timpani dynamics.
+- Sources to fix: release hairpin gain at 2.8 dB/s or less or at the next printed dynamic or rest; role and row edges in rests or as ramps of 2 s or more; then a generic post-pass guard after vol_points (scherzo: tools/build_reaper.py note_move_guard; finale: tools/instr_post.py).
+- Tool: symphony/mvt1/reaper-v621/cycles/c61/actor_scripts/env61.py edges() measures it on any build folder (loads build_reaper.py cut before ENV_LUA, no REAPER contact).
