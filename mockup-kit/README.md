@@ -368,6 +368,7 @@ Movement I c61 (delivered before this decision) reads 160 > 122 by 0.2 LU, 122 >
 - A move a printed hairpin calls for is a ramp over the hairpin's printed length however steep; do not rate-limit printed hairpins to 3 dB/s (that flattens them). Report them separately.
 - Also fail any fader change of 1.5 dB or more in a note's first 0.35 s (finale c27: role edges crossing led note-ons hit 67 notes); role ramps go in the rest before the moved note-on.
 - Measure the written lane with no skipped windows: the scherzo's guard skipped printed hairpin spans, windows around printed marks and legato overlaps, and so listed 9 of 67 offending notes.
+- After any guard or re-keying pass, diff net level (envelope + CC7) against the previous render's parts per 1-qn span where the track sounds; no change over 1.5 dB that the work order did not ask for. Movement I c62's slope guard cleared all 137 in-note moves but changed over 600 spans by more than 1.5 dB (trombone -14.7, tuba +8.9, second violins -12.9 going into the fff at bar 122), so c61 was kept. Finale c28 found the same kind of fault in its CC7 carry.
 - Tool: symphony/mvt1/reaper-v621/cycles/c61/actor_scripts/env61.py edges() measures it on any build folder (loads build_reaper.py cut before ENV_LUA, no REAPER contact).
 
 ## Room-noise bed in the delivery (Dan approved 2026-11-18, all movements)
