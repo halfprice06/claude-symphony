@@ -1,6 +1,8 @@
 """Build a score mockup (parts.json from score_to_parts.py) in a running REAPER through the file bridge (~/.rpr-bridge).
 
-Usage: python build_reaper.py <parts.json> <jobs-dir> [--mix-only] [track names...]
+Usage: python build_reaper.py <parts.json> <jobs-dir> [--mix-only] [--midi-only [--tempo]] [--pass2] [track names...]
+  mvt1 c39: --pass2 builds the "pass": 2 tracks (and, with no track names, the tempo map) into the open second project;
+  without it those tracks are left out.
   c02: each track also gets a volume envelope (mix.json gain_db + parts.json vol_db + mix.json
   dyn_trim_db/soft_trim_db; D_VOL stays at 0 dB, since REAPER ignores it under an envelope), and the patch
   state loads every articulation the track uses (KS Masters load only their first rows by default).
@@ -16,7 +18,7 @@ Usage: python build_reaper.py <parts.json> <jobs-dir> [--mix-only] [track names.
 Patches are loaded by writing Opus's own plugin state (the .oib instrument JSON inside a
 Performance zone) with TrackFX_SetNamedConfigParm(..., "vst_chunk", ...).
 """
-import json, os, subprocess, sys
+import bisect, json, os, subprocess, sys
 sys.path.insert(0, os.path.expanduser("~/.rpr-bridge/libs/ew_ho"))
 import opus_state
 
@@ -24,7 +26,11 @@ PARTS, JOBS = sys.argv[1], sys.argv[2]
 MIX_ONLY = "--mix-only" in sys.argv[3:]
 MIDI_ONLY = "--midi-only" in sys.argv[3:]   # c07: see midi_job
 TEMPO = "--tempo" in sys.argv[3:]   # c08: with --midi-only, rewrite the tempo map first
-ONLY = set(a for a in sys.argv[3:] if a not in ("--mix-only", "--midi-only", "--tempo"))
+# mvt1 c39: --pass2 builds only the parts.json tracks marked "pass": 2 (score_to_parts.py PASS2_TRACKS) into the open
+# project, which must be the second REAPER project (reaper_ctl.py --pass2); without it those tracks are skipped, so the
+# main project never holds them. Everything else (tempo map, pre-roll, mix.json, shared hall) is the same code
+PASS2 = "--pass2" in sys.argv[3:]
+ONLY = set(a for a in sys.argv[3:] if a not in ("--mix-only", "--midi-only", "--tempo", "--pass2"))
 os.makedirs(JOBS, exist_ok=True)
 RPR = ["python3", os.path.expanduser("~/.rpr-bridge/rpr.py")]
 d = json.load(open(PARTS))
@@ -128,10 +134,16 @@ def apply_mix(inst, m):
     # c05 (C #3): the seat and width are set inside Opus on every mic channel (panLeft/panRight), so the shared hall
     # (fx:0) returns centred at full width instead of being panned and narrowed with the dry sound by the REAPER pan
     # after the plugin. The REAPER track pan is centre, width 1.
+    # mvt1 c45 (critic C #1 step 2, Opus manual p.139: each mic sub-mix has its own panning): "width_by_mic" {mic label:
+    # width} widens the listed mics (never narrows: the larger of the track width and the mic's); the Close mic keeps the
+    # track width and anchors the seat, the recorded Main pair spreads (after the c44 drier hall the master's L/R
+    # correlation rose 0.57 -> 0.69, outside all five references)
+    wbm_ = {k_: float(v_) for k_, v_ in (m.get("width_by_mic") or {}).items() if not k_.startswith("_")}
     for c in subs.values():
+        wd_ = max(m["width"], wbm_.get(c["label"], 0.0))
         c["pan"] = 0.0
-        c["panLeft"] = max(-1.0, m["seat"] - m["width"])
-        c["panRight"] = min(1.0, m["seat"] + m["width"])
+        c["panLeft"] = max(-1.0, m["seat"] - wd_)
+        c["panRight"] = min(1.0, m["seat"] + wd_)
         for ins in c["inserts"]:
             if ins["class"] == "SendProcessor" and ins.get("output") == "fx:0":
                 ins["level"] = m["send"]
@@ -161,6 +173,23 @@ def apply_mix(inst, m):
         # key pairs (highFilterFreq / highCutFreq); both are set
         rv["filterActive"] = True
         rv["highFilterFreq"] = rv["highCutFreq"] = float(MIX["reverb"]["high_cut_hz"])
+    if MIX["reverb"].get("low_cut_hz"):
+        # 2026-11-07 (Dan: too wet, mushy): low cut on the hall input only (same Bandpass, keys lowFilterFreq /
+        # lowCutFreq; the factory value is 30 Hz), so the bass reaches the hall less and the low end stays dry
+        rv["filterActive"] = True
+        rv["lowFilterFreq"] = rv["lowCutFreq"] = float(MIX["reverb"]["low_cut_hz"])
+    # mvt1 c44 (ONE_TIME #3, BRIEF S4): the IR envelope ("IR Envelope Preprocessing", Opus manual pp. 133-134) is the
+    # ConvolutionReverb's "irSetup" dict (class ConvolutionSetup: envelopeMode, simpleDecay, startPos, endPos,
+    # attackLength, decayLength, attackCurve, decayCurve; factory envelopeMode 0, simpleDecay 1.0, endPos 1.0).
+    # reverb.ir_setup {key: value} sets it on the shared hall; a track's own "reverb_ir_setup" (mix.json track or group)
+    # overrides it (used for A/B tests of the decay). Unknown keys stop the build
+    irs_ = dict(MIX["reverb"].get("ir_setup") or {}, **(m.get("reverb_ir_setup") or {}))
+    for k_, v_ in irs_.items():
+        if k_.startswith("_"):
+            continue
+        if k_ not in rv.get("irSetup", {}):
+            sys.exit(f"reverb ir_setup: the ConvolutionSetup has no key {k_!r} ({sorted(rv.get('irSetup', {}))})")
+        rv["irSetup"][k_] = type(rv["irSetup"][k_])(v_)
     fx["inserts"] = [i for i in fx["inserts"] if i["class"] != "ConvolutionReverb"] + [rv]
 
 
@@ -202,7 +231,8 @@ _CAP_PRINTED = set()
 
 
 def cap_release(inst, spec, name):
-    """mvt1 c21 (critic A #1): mix.json "sus_release_cap_ms" {"ms", "dyn": [...], "rows": [...]}: cap the AHDSR release
+    """mvt1 c21 (critic A #1): mix.json "sus_release_cap_ms" {"ms", "dyn": [...], "rows": [...]} (mvt1 c46: or a list of
+    such specs, each applied in turn): cap the AHDSR release
     of the sustain sample groups of the listed rows (default "Sus MAX") whose name ends in one of the listed dynamics
     (default mf/f/ff). A group belongs to a row when every region of its region map sits on that layerMatrix row.
     Release-trail groups ("... RT"), legato transitions ("TLeg") and the soft layers keep their release. The Hollywood
@@ -230,9 +260,30 @@ def cap_release(inst, spec, name):
             if pr_.get("class") == "AHDSR" and pr_.get("release", 0) > ms_:
                 hit.setdefault(nm, set()).add(round(pr_["release"]))
                 pr_["release"] = ms_
-    if name not in _CAP_PRINTED:
-        _CAP_PRINTED.add(name)
+    if (name, ms, tuple(sorted(dyns))) not in _CAP_PRINTED:   # mvt1 c46: one line per spec of a list
+        _CAP_PRINTED.add((name, ms, tuple(sorted(dyns))))
         print(f"{name}: release cap {ms:.0f} ms (RT {spec.get('rt_ms')}) on {sorted((k, sorted(v)) for k, v in hit.items())}", file=sys.stderr)
+
+
+def rt_gain(inst, spec, name):
+    """mvt1 c45 (critic C #2, HO manual p.222: the room is heard in the release-trail samples): mix.json "rt_gain_db"
+    {"db": D, "rows": [...] (default: every row)}: multiply the SourceProcessor volume of every release-trail group
+    (`releaseTrail` true) whose regions all sit on the listed rows by 10^(D/20). The KS Masters ship trail gains from
+    0.58 (Solo Trumpet) to 3.98 (+12 dB, 1st / 2nd Violins and Violas mf); capping a trail's AHDSR release does nothing,
+    because a trail is a one-shot sample (c22 rt_ms)."""
+    db_ = float(spec["db"])
+    rows = [r["name"] for r in inst["layerMatrix"]["rows"]]
+    want = {i for i, r in enumerate(rows) if spec.get("rows") is None or r in spec["rows"]}
+    n_ = 0
+    for g in inst.get("groups", []):
+        regs = (g.get("regionMap") or {}).get("regions", [])
+        if not g.get("releaseTrail") or not regs or any(r_.get("row") not in want for r_ in regs):
+            continue
+        for pr_ in (g.get("processors") or {}).get("processors", []):
+            if pr_.get("class") == "SourceProcessor" and "volume" in pr_:
+                pr_["volume"] = float(pr_["volume"]) * 10 ** (db_ / 20.0)
+                n_ += 1
+    print(f"{name}: release-trail gain {db_:+.1f} dB on {n_} groups", file=sys.stderr)
 
 
 def state_for(tr):
@@ -256,8 +307,43 @@ def state_for(tr):
                     pr_["release"] = rel_
         if isinstance(inst.get("envelope"), dict) and "releaseTime" in inst["envelope"]:
             inst["envelope"]["releaseTime"] = rel_
+    if m_.get("env_sustain") is not None or m_.get("env_decay_ms") is not None:
+        # mvt1 c35 (critic A #2): Harp Sus RR (and Harp Pluck Long) ship every AHDSR, and the instrument EnvelopeProxy, with
+        # decay 5990 ms to sustain 0.001, so each note fell to -60 dB in 6 s whatever its sample (the recorded plucks run
+        # 6.6-10.6 s): the final ppp chord died 2 s into its fermata. env_sustain (0..1) sets the sustain level, so a note
+        # decays as recorded until its note-off and env_release_ms; env_decay_ms sets the decay time
+        for g_ in inst.get("groups", []):
+            for pr_ in (g_.get("processors") or {}).get("processors", []):
+                if pr_.get("class") == "AHDSR":
+                    if m_.get("env_sustain") is not None:
+                        pr_["sustain"] = float(m_["env_sustain"])
+                    if m_.get("env_decay_ms") is not None:
+                        pr_["decay"] = float(m_["env_decay_ms"])
+        if isinstance(inst.get("envelope"), dict):
+            if m_.get("env_sustain") is not None and "sustain" in inst["envelope"]:
+                inst["envelope"]["sustain"] = float(m_["env_sustain"])
+            if m_.get("env_decay_ms") is not None and "decayTime" in inst["envelope"]:
+                inst["envelope"]["decayTime"] = float(m_["env_decay_ms"])
     if m_.get("sus_release_cap_ms") is not None:
-        cap_release(inst, m_["sus_release_cap_ms"], tr["name"])
+        # mvt1 c46 (critic C #1): a list of specs, applied in order (e.g. 150 ms at mf-ff and 350 ms at pp / p)
+        caps_ = m_["sus_release_cap_ms"]
+        for spec_ in (caps_ if isinstance(caps_, list) else [caps_]):
+            cap_release(inst, spec_, tr["name"])
+    if m_.get("rt_gain_db"):
+        rt_gain(inst, m_["rt_gain_db"], tr["name"])
+    if m_.get("legato_speed"):
+        # mvt1 c41 (critic C #1): mix.json "legato_speed" {PARAM: value}: parameters of the KS Master's "LegatoSpeed"
+        # EventFilterScript (Hollywood Strings: velocity VELO_MIN..VELO_MAX -> transition sample start START_MIN..START_MAX
+        # samples; RELEASE ms; BUMPRED; read from the .oib). Unknown parameter names stop the build
+        ls_ = [f_ for f_ in inst.get("filters", []) if f_.get("name") == "LegatoSpeed"]
+        if not ls_:
+            sys.exit(f"{tr['name']}: legato_speed set but the patch has no LegatoSpeed script")
+        for k_, v_ in m_["legato_speed"].items():
+            if k_.startswith("_"):
+                continue
+            if k_ not in ls_[0]:
+                sys.exit(f"{tr['name']}: LegatoSpeed has no parameter {k_!r}")
+            ls_[0][k_] = type(ls_[0][k_])(v_)
     _, perf, _ = opus_state.split(opus_state.TEMPLATE)
     perf["name"] = tr["name"]
     perf["zones"] = [{"class": "InstrumentZone", "keyMin": 0, "keyMax": 127, "velMin": 1, "velMax": 127,
@@ -301,10 +387,23 @@ def step_at(pts, q, default=0.0):
     return v
 
 
-SOFT_DECRESC_HOLD_MAX_CC = 72   # mvt1 c15 (critic B #2); None = off
+# mvt1 c33 (critic B #3): 72 -> 127 (every decrescendo). From f/ff/fff the brass and bassoon soft trims climbed 7-17 dB
+# inside the hairpin (Tuba bar 162 ff > mp fell 0.7 dB on its stem, envelope +6.6; bars 124-125 fff > pp held -12.5 re M
+# while the master fell 16 dB); only decrescendos starting above mf change, each by a cut
+SOFT_DECRESC_HOLD_MAX_CC = 127   # mvt1 c15 (critic B #2): 72; None = off
 # the trim keeps this share of its rise inside the hairpin: with none kept (the c15 render) the 20 soft decrescendos
 # with a rising trim fell a median 6.5 dB (others 4.4; before 1.7), Horn 1 at bar 106 11.9 dB from mf to mp
 SOFT_DECRESC_KEEP = 0.5
+# mvt1 c36 (critic C #1, Dan's listening note on bar 62): this envelope comes after the Opus hall, so a subito fall of
+# 11-16 dB at the mark cut the forte's hall tail at once (master -14.5 dB in 0.2 s, flat after: "sounds like a glitch";
+# a natural cut-off here falls about 7 dB by 0.1-0.2 s and 11 dB by 0.2-0.3 s). At each parts.json `subito_falls` entry
+# [mark, fall qn] (score_to_parts SUBITO_FRESH: the fall qn is the moved onset of the track's note on the mark): the
+# level before the fall is held to the fall qn; a track that sounded in the `sounded_s` before it then falls
+# `at_once_db` at once and the rest linearly in dB over `ramp_s` (never under the level after the mark); a smaller fall
+# (or a silent track) moves to the fall qn. None = off
+SUBITO_TAIL = {"at_once_db": 4.0, "ramp_s": 0.35, "sounded_s": 0.5, "min_db": 0.5}
+SUBITO_SILENT_QN = 0.05   # mvt1 c42: a track with no note on the mark or across it holds its level instead (see the loop)
+LEADIN_HOLD = "alias"     # mvt1 c42: see vol_points
 
 
 def vol_points(tr):
@@ -364,6 +463,15 @@ def vol_points(tr):
         return t_
     val_at = lambda q: round(g + step_at(vol, q) + (trim_at(q) if dyn else 0.0), 2)
     vals = [val_at(q) for q in grid]
+    # mvt1 c42: lead-in hold. Before a track's first note the envelope holds the value at that note's moved onset, so
+    # the written envelope does not ramp across the onset from an unrelated earlier level. An alias track (parts.json
+    # "alias_of") has its source's whole vol_db / dyn curve but only its windows' notes, and a soft-decrescendo trim hold
+    # that ended at the source's next note ran on to the alias's first note (f62 aliases: 2.3 / 3.5 dB lower over the
+    # first 0.09 qn). LEADIN_HOLD: "alias" (alias tracks only), "all", or None
+    if tr.get("notes") and (LEADIN_HOLD == "all" or (LEADIN_HOLD == "alias" and tr.get("alias_of"))):
+        q0_ = min(n["qn"] for n in tr["notes"])
+        v0_ = val_at(q0_)
+        vals = [v0_ if q < q0_ - 1e-6 else v for q, v in zip(grid, vals)]
     # c17 (C #2): tail hold. The hall is inside Opus, before this envelope, so a level change while the track rests acts on
     # its last note's decaying tail (cuts of 6-8 dB, swells of 5-8 dB measured). In every rest of TAIL_HOLD_MIN_S or more
     # (from the end of the sounding notes e to the next moved onset n) the envelope holds its value just before e until
@@ -397,6 +505,69 @@ def vol_points(tr):
                 if e_ - 1e-6 <= q < nh_ and vals[k] != ve_:
                     vals[k] = ve_
                     held += 1
+    # mvt1 c36: SUBITO_TAIL (see the default)
+    if SUBITO_TAIL and tr.get("subito_falls"):
+        segs_ = [(n["qn"], n["qn"] + n["dur"]) for n in tr.get("notes", [])]
+        for s_, f_ in tr["subito_falls"]:
+            def cur(q, G=list(grid), V=list(vals)):
+                k = bisect.bisect_left(G, q)
+                if k <= 0:
+                    return V[0]
+                if k >= len(G):
+                    return V[-1]
+                return V[k - 1] + (V[k] - V[k - 1]) * (q - G[k - 1]) / max(1e-9, G[k] - G[k - 1])
+            fs_ = min(f_, s_ - 0.1)   # the hairpin and level-shape falls start up to 0.1 qn before the mark
+            pre = cur(fs_ - 0.002)
+            post = lambda q: cur(max(q, s_))
+            # mvt1 c42 (critic C #1): a track that is silent at the mark (no note starts within SUBITO_SILENT_QN of
+            # it and none sounds across it; e.g. an alias that plays only the forte, its last note ending at the mark)
+            # does not fall: the level before is held from fs_ until TAIL_HOLD_LEAD_S before its next moved onset (or
+            # to the end), so its last note rings under the subito as a release would
+            silent_ = (not any(abs(n.get("sq", n["qn"]) - s_) < SUBITO_SILENT_QN for n in tr.get("notes", []))
+                       and not any(n["qn"] < s_ - SUBITO_SILENT_QN and n["qn"] + n["dur"] > s_ + SUBITO_SILENT_QN
+                                   for n in tr.get("notes", [])))
+            if silent_:
+                nxt_ = [n["qn"] for n in tr.get("notes", []) if n["qn"] > s_ - 1e-6]
+                h_end = s2q(q2s(min(nxt_)) - TAIL_HOLD_LEAD_S) if nxt_ else grid[-1] + 1.0
+                if h_end > fs_:
+                    vals = [pre if fs_ - 1e-6 <= q < h_end else v for q, v in zip(grid, vals)]
+                    old_map = dict(zip(grid, vals))
+                    grid = sorted(set(grid) | {round(fs_, 5), round(fs_ - 0.002, 5)})
+                    vals = [old_map[q] if q in old_map else (pre if q >= fs_ - 1e-6 else cur(q)) for q in grid]
+                continue
+            drop = pre - post(f_)
+            if drop < SUBITO_TAIL["min_db"]:
+                continue
+            T = s2q(q2s(f_) + SUBITO_TAIL["ramp_s"]) - f_
+            A = SUBITO_TAIL["at_once_db"]
+            q_snd = s2q(max(0.0, q2s(f_) - SUBITO_TAIL["sounded_s"]))
+            split = drop > A and any(a_ < f_ - 1e-6 and b_ > q_snd for a_, b_ in segs_)
+            pT = post(f_ + T)
+
+            def new_v(q):
+                if q < f_:
+                    return pre
+                if split and q <= f_ + T:
+                    return max(post(q), (pre - A) + (pT - (pre - A)) * (q - f_) / T)
+                return post(q)
+            q_end = max(s_, f_ + T if split else f_)
+            add = [fs_ - 0.002, fs_, f_ - 0.002, f_, s_, q_end] + ([f_ + T * k_ / 6 for k_ in range(1, 7)] if split else [])
+            old_map = dict(zip(grid, vals))
+            grid = sorted(set(grid) | {round(x_, 5) for x_ in add if fs_ - 0.01 <= x_ <= q_end + 1e-9})
+            vals = [round(new_v(q), 2) if fs_ - 0.005 <= q <= q_end + 1e-9 else old_map[q] for q in grid]
+    # mvt1 c42: parts.json "vol_post" (score_to_parts POST_SHAPES_S): shapes added after the tail hold and SUBITO_TAIL
+    def lin_(xs, ys, q):   # piecewise linear, xs ascending
+        k = bisect.bisect_left(xs, q)
+        if k <= 0:
+            return ys[0]
+        if k >= len(xs):
+            return ys[-1]
+        return ys[k - 1] + (ys[k] - ys[k - 1]) * (q - xs[k - 1]) / max(1e-12, xs[k] - xs[k - 1])
+    for sh_ in tr.get("vol_post", []):
+        xs_, ds_ = [p_[0] for p_ in sh_], [p_[1] for p_ in sh_]
+        G0, V0 = list(grid), list(vals)   # the written envelope is linear between its points: new points keep that line
+        grid = sorted(set(grid) | {round(x_, 5) for x_ in xs_ if 0 <= x_ < grid[-1]})
+        vals = [round(lin_(G0, V0, q) + (lin_(xs_, ds_, q) if xs_[0] <= q <= xs_[-1] else 0.0), 2) for q in grid]
     out = []
     for k, (q, v) in enumerate(zip(grid, vals)):
         if k == 0 or k == len(vals) - 1 or v != vals[k - 1] or v != vals[k + 1]:
@@ -524,6 +695,36 @@ local function set_side_shelf(tr, spec, eq)
   reaper.TrackFX_SetPinMappings(tr, fx, 0, 1, 2, 0)
   reaper.TrackFX_SetPinMappings(tr, fx, 1, 0, 0, 0)
   reaper.TrackFX_SetPinMappings(tr, fx, 1, 1, 2, 0)
+  -- mvt1 c35 (critic C #2): spec.switched = {points = {{qn, w}, ...}, bands = {...}}: a second side-only ReaEQ inside the
+  -- same encoder/decoder pair, same pins, its Wet automated (linear) like set_mute_eq: a side band that a passage switches off
+  if spec.switched then
+    local fx2 = reaper.TrackFX_AddByName(tr, "ReaEQ", false, -1)
+    local o2 = {fx = fx2, kind = "side switched"}
+    config_eq(tr, fx2, spec.switched.bands, o2)
+    reaper.TrackFX_SetPinMappings(tr, fx2, 0, 0, 0, 0)
+    reaper.TrackFX_SetPinMappings(tr, fx2, 0, 1, 2, 0)
+    reaper.TrackFX_SetPinMappings(tr, fx2, 1, 0, 0, 0)
+    reaper.TrackFX_SetPinMappings(tr, fx2, 1, 1, 2, 0)
+    local wet = -1
+    for p = 0, reaper.TrackFX_GetNumParams(tr, fx2) - 1 do
+      local _, pn = reaper.TrackFX_GetParamName(tr, fx2, p, "")
+      if pn == "Wet" then wet = p end
+    end
+    if wet >= 0 then
+      local env = reaper.GetFXEnvelope(tr, fx2, wet, true)
+      reaper.DeleteEnvelopePointRange(env, -1, 1e9)
+      for _, p in ipairs(spec.switched.points) do
+        reaper.InsertEnvelopePoint(env, reaper.TimeMap2_QNToTime(0, p.qn), p.w, 0, 0, false, true)
+      end
+      reaper.Envelope_SortPoints(env)
+      local pins2 = {}
+      for io = 0, 1 do for pp = 0, 1 do pins2[#pins2 + 1] = tostring(reaper.TrackFX_GetPinMappings(tr, fx2, io, pp)) end end
+      o2[#o2 + 1] = "switched side wet param " .. wet .. " points " .. reaper.CountEnvelopePoints(env) .. " pins " .. table.concat(pins2, ",")
+    else
+      o2[#o2 + 1] = "no Wet parameter"
+    end
+    eq[#eq + 1] = o2
+  end
   local dec = reaper.TrackFX_AddByName(tr, "JS: utility/KanakaMS5", false, -1)
   out.dec = dec
   local pins = {}
@@ -569,11 +770,17 @@ def mute_lua(m):
 
 def side_lua(m):
     """c20 (C #2): mix.json side_shelf {hz, db} as a Lua table (nil when absent).
-    c21 (C #4): or a list of eq bands ([{band, hz, db}, ...]; lowshelf = ReaEQ band 0, highshelf = band 3)."""
+    c21 (C #4): or a list of eq bands ([{band, hz, db}, ...]; lowshelf = ReaEQ band 0, highshelf = band 3).
+    mvt1 c35 (C #2): plus mix.json side_shelf_switched {points, bands}: a second side EQ with an automated Wet."""
     ss = m.get("side_shelf")
+    sw = m.get("side_shelf_switched")   # mvt1 c35 (critic C #2): {points: [[score qn, wet], ...], bands: [...]}
+    swl = ""
+    if sw:
+        pts = ",".join(f'{{qn={q + PRE}, w={w}}}' for q, w in sw["points"])
+        swl = f', switched={{points={{{pts}}}, bands={eq_lua(m, sw["bands"])}}}'
     if isinstance(ss, list):
-        return f'{{bands={eq_lua(m, ss)}}}' if ss else "nil"
-    return f'{{hz={ss["hz"]}, db={ss["db"]}}}' if ss else "nil"
+        return f'{{bands={eq_lua(m, ss)}{swl}}}' if ss else "nil"
+    return f'{{hz={ss["hz"]}, db={ss["db"]}{swl}}}' if ss else "nil"
 
 
 def b64_path(i, tr):
@@ -581,6 +788,21 @@ def b64_path(i, tr):
 
 
 RR_RESET_QN = 0.1   # c24 (A #3): pre-roll position (REAPER qn) of the CC36 reset and the string CC69 off
+
+
+def _opus_rr_cc(default=16):
+    """mvt1 c43 (MANUAL-GAPS #6): Opus resets its round robins on the "Reset Controller" CC entered in Preferences / MIDI /
+    Round Robin (HO manual 2025 p.92, Opus manual p.29-30); the 2021 manual's CC36 is, in every installed KS Master's
+    controller map, "Repetition: Reset RR", a control of the Repetition script. Read from Opus's Preferences.json
+    (RoundRobinResetCC, 16 on this Mac; no patch maps CC16); None when the preference is off (-1)."""
+    try:
+        v = json.load(open("/Library/Application Support/East West/Opus/Preferences.json")).get("RoundRobinResetCC", default)
+        return int(v) if v is not None and int(v) >= 0 else None
+    except (OSError, ValueError, TypeError):
+        return default
+
+
+RR_RESET_CC = _opus_rr_cc()   # sent (value 127) at RR_RESET_QN next to CC36 on every track that gets the CC36 reset
 RR_RESET_SKIP_FAMILIES = {"harp", "harm"}   # harp tracks were already bit-identical render to render
 REP_OFF_FAMILIES = {"string"}
 
@@ -603,6 +825,8 @@ def item_lua(tr):
         # c24 (A #3): reset Opus's round-robin state (CC36, any value) at the start of every render, and on the strings
         # turn the Repetition script off (CC69 0-63 = OFF, HO manual CC table), so renders are reproducible
         ccs.append({"qn": RR_RESET_QN, "cc": 36, "v": 127})
+        if RR_RESET_CC is not None and RR_RESET_CC != 36:   # mvt1 c43: the reset Opus itself listens to
+            ccs.append({"qn": RR_RESET_QN, "cc": RR_RESET_CC, "v": 127})
         if tr["family"] in REP_OFF_FAMILIES:
             ccs.append({"qn": RR_RESET_QN, "cc": 69, "v": 0})
     ccs = lua_list(ccs, ["qn", "cc", "v"])
@@ -676,10 +900,15 @@ return { track = name, midi_only = true, notes = nn, ccs = nc, env_points = envn
     return run(p, timeout=600)
 
 
+def in_pass(tr):
+    """mvt1 c39: the track belongs to the pass being built (--pass2: only "pass": 2 tracks; else only the others)"""
+    return (tr.get("pass", 1) == 2) == PASS2
+
+
 def mix_job():
     rows = []
     for tr in d["tracks"]:
-        if ONLY and tr["name"] not in ONLY:
+        if (ONLY and tr["name"] not in ONLY) or not in_pass(tr):
             continue
         m = mix_for(tr["name"])
         rows.append(f'{{n={json.dumps(tr["name"])}, pan=0, w=1, vol={10 ** (m["gain_db"] / 20):.6f}, env={lua_list(vol_points(tr), ["qn", "db"])}, eq={eq_lua(m)}, meq={mute_lua(m)}, ss={side_lua(m)}}}')
@@ -713,6 +942,10 @@ if (not ONLY and not MIDI_ONLY) or TEMPO:
     print(json.dumps(tempo_job()))
 for i, tr in enumerate(d["tracks"]):
     if ONLY and tr["name"] not in ONLY:
+        continue
+    if not in_pass(tr):
+        if ONLY:
+            print(f"{tr['name']}: skipped (pass {tr.get('pass', 1)}; {'without' if PASS2 else 'with'} --pass2)", flush=True)
         continue
     if MIDI_ONLY:
         bf = b64_path(i, tr)

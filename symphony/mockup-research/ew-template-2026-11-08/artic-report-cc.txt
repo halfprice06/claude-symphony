@@ -1,0 +1,103 @@
+
+### 1st Violins KS Master  (keyswitch notes 7, KS lead before next note: med 177 (IQR 89..231, n=7) ms)
+  Stac On Bow RRx9         notes  10 | vel med 34 (IQR 31..37, n=10) | dur ms med 80 (IQR 69..86, n=10) | CC1 at onset med 54 (IQR 42..67, n=10) | rep-gap ms - | overlap ms med 30 (IQR 24..38, n=9) | off-grid early 60% late 40%
+  Trill HT WT MOD          notes   1 | vel med 27 (IQR 27..27, n=1) | dur ms med 1846 (IQR 1846..1846, n=1) | CC1 at onset med 100 (IQR 100..100, n=1) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+  Staccatissimo RRx9       notes  66 | vel med 39 (IQR 31..48, n=66) | dur ms med 86 (IQR 78..103, n=66) | CC1 at onset med 127 (IQR 127..127, n=66) | rep-gap ms med 38 (IQR 31..51, n=8) | overlap ms - | off-grid early 48% late 0%
+  Marc Shrt RRx4           notes   5 | vel med 113 (IQR 113..113, n=5) | dur ms med 404 (IQR 404..437, n=5) | CC1 at onset med 22 (IQR 22..22, n=5) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+  Sus MAX                  notes   4 | vel med 120 (IQR 115..124, n=4) | dur ms med 1581 (IQR 1315..1846, n=4) | CC1 at onset med 97 (IQR 85..109, n=4) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+
+### 2nd Violins KS Master  (keyswitch notes 1, KS lead before next note: med 345 (IQR 345..345, n=1) ms)
+  Spiccato RRx9            notes  16 | vel med 24 (IQR 22..26, n=16) | dur ms med 77 (IQR 67..86, n=16) | CC1 at onset med 127 (IQR 127..127, n=16) | rep-gap ms med 38 (IQR 31..51, n=8) | overlap ms - | off-grid early 0% late 0%
+
+### Violas KS Master  (keyswitch notes 4, KS lead before next note: med 433 (IQR 231..915, n=4) ms)
+  Staccatissimo RRx16      notes  83 | vel med 50 (IQR 50..69, n=83) | dur ms med 127 (IQR 105..152, n=83) | CC1 at onset med 127 (IQR 127..127, n=83) | rep-gap ms med 132 (IQR 126..148, n=24) | overlap ms med 32 (IQR 15..43, n=44) | off-grid early 0% late 0%
+  Marc Shrt RRx4           notes   3 | vel med 98 (IQR 98..98, n=3) | dur ms med 404 (IQR 352..437, n=3) | CC1 at onset med 22 (IQR 22..22, n=3) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+  Sus MAX                  notes   3 | vel med 115 (IQR 98..115, n=3) | dur ms med 1846 (IQR 1315..1846, n=3) | CC1 at onset med 68 (IQR 68..87, n=3) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+
+### Celli KS Master  (keyswitch notes 5, KS lead before next note: med 2421 (IQR 2186..2872, n=5) ms)
+  Tremolo                  notes   3 | vel med 106 (IQR 91..111, n=3) | dur ms med 3882 (IQR 3871..3896, n=3) | CC1 at onset med 29 (IQR 24..29, n=3) | rep-gap ms - | overlap ms med 3882 (IQR 3876..3888, n=2) | off-grid early 100% late 0%
+  Staccatissimo RRx16      notes  24 | vel med 32 (IQR 32..60, n=24) | dur ms med 126 (IQR 123..161, n=24) | CC1 at onset med 127 (IQR 127..127, n=24) | rep-gap ms - | overlap ms med 12 (IQR 8..45, n=21) | off-grid early 0% late 0%
+
+### Lo Str Oct KS Master  (keyswitch notes 3, KS lead before next note: med 346 (IQR 173..672, n=3) ms)
+  Leg Slur Rep             notes  20 | vel med 98 (IQR 72..106, n=20) | dur ms med 1804 (IQR 1702..2038, n=20) | CC1 at onset med 43 (IQR 30..70, n=20) | rep-gap ms - | overlap ms med 49 (IQR 42..139, n=6) | off-grid early 20% late 40%
+  Spiccato RRx4            notes   1 | vel med 118 (IQR 118..118, n=1) | dur ms med 161 (IQR 161..161, n=1) | CC1 at onset med 101 (IQR 101..101, n=1) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+  Sus Full                 notes   2 | vel med 91 (IQR 79..103, n=2) | dur ms med 1569 (IQR 1321..1817, n=2) | CC1 at onset med 89 (IQR 75..103, n=2) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+
+### 3TP KS Master  (keyswitch notes 8, KS lead before next note: med 140 (IQR 108..462, n=8) ms)
+  StacSs DblTng RRx9       notes   6 | vel med 114 (IQR 114..116, n=6) | dur ms med 70 (IQR 60..71, n=6) | CC1 at onset med 112 (IQR 111..114, n=6) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+  Sus MAX                  notes  10 | vel med 126 (IQR 114..127, n=10) | dur ms med 1018 (IQR 424..1846, n=10) | CC1 at onset med 98 (IQR 84..113, n=10) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+  Leg Slur MAX             notes   5 | vel med 98 (IQR 93..99, n=5) | dur ms med 457 (IQR 413..812, n=5) | CC1 at onset med 82 (IQR 82..89, n=5) | rep-gap ms med 48 (IQR 48..48, n=1) | overlap ms - | off-grid early 80% late 20%
+
+### 1TP KS Master  (keyswitch notes 1, KS lead before next note: med 817 (IQR 817..817, n=1) ms)
+  Vib Leg Slur MAX         notes  11 | vel med 103 (IQR 100..110, n=11) | dur ms med 885 (IQR 542..953, n=11) | CC1 at onset med 102 (IQR 92..107, n=11) | rep-gap ms med 50 (IQR 50..50, n=1) | overlap ms med 31 (IQR 21..36, n=8) | off-grid early 64% late 36%
+
+### 1FH KS Master  (keyswitch notes 1, KS lead before next note: med 829 (IQR 829..829, n=1) ms)
+  Leg Slur MAX             notes   6 | vel med 92 (IQR 87..96, n=6) | dur ms med 851 (IQR 424..1771, n=6) | CC1 at onset med 67 (IQR 62..70, n=6) | rep-gap ms med 55 (IQR 55..55, n=1) | overlap ms - | off-grid early 33% late 33%
+
+### 2FH KS Master  (keyswitch notes 11, KS lead before next note: med 165 (IQR 108..327, n=11) ms)
+  StacSs DblTng RRx9       notes  70 | vel med 98 (IQR 96..101, n=70) | dur ms med 52 (IQR 46..69, n=70) | CC1 at onset med 101 (IQR 101..101, n=70) | rep-gap ms med 9 (IQR 9..44, n=5) | overlap ms - | off-grid early 0% late 0%
+  Sus MAX                  notes  29 | vel med 103 (IQR 100..109, n=29) | dur ms med 1385 (IQR 882..1776, n=29) | CC1 at onset med 82 (IQR 68..88, n=29) | rep-gap ms med 66 (IQR 66..66, n=1) | overlap ms med 1758 (IQR 1744..1790, n=5) | off-grid early 24% late 3%
+  Leg Slur MAX             notes  13 | vel med 111 (IQR 104..115, n=13) | dur ms med 782 (IQR 411..871, n=13) | CC1 at onset med 88 (IQR 80..89, n=13) | rep-gap ms med 79 (IQR 70..88, n=2) | overlap ms med 37 (IQR 23..51, n=2) | off-grid early 54% late 23%
+
+### 6FH KS Master  (keyswitch notes 6, KS lead before next note: med 261 (IQR 154..483, n=6) ms)
+  Leg Slur MAX             notes  21 | vel med 98 (IQR 92..103, n=21) | dur ms med 806 (IQR 449..930, n=21) | CC1 at onset med 70 (IQR 66..78, n=21) | rep-gap ms med 52 (IQR 51..70, n=3) | overlap ms med 36 (IQR 5..42, n=3) | off-grid early 33% late 38%
+  Sus MAX                  notes   9 | vel med 83 (IQR 72..90, n=9) | dur ms med 1688 (IQR 913..1905, n=9) | CC1 at onset med 56 (IQR 53..64, n=9) | rep-gap ms med 18 (IQR 18..18, n=1) | overlap ms med 1295 (IQR 854..1893, n=4) | off-grid early 33% late 22%
+  Stac DblTng RRx9         notes   1 | vel med 114 (IQR 114..114, n=1) | dur ms med 154 (IQR 154..154, n=1) | CC1 at onset med 102 (IQR 102..102, n=1) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+
+### 2TB KS Master  (keyswitch notes 10, KS lead before next note: med 250 (IQR 115..462, n=10) ms)
+  Sus MAX                  notes  25 | vel med 92 (IQR 80..108, n=25) | dur ms med 1756 (IQR 1657..1846, n=25) | CC1 at onset med 50 (IQR 38..81, n=25) | rep-gap ms - | overlap ms med 1786 (IQR 1750..1996, n=5) | off-grid early 24% late 4%
+  Stac DblTng RRx8         notes  42 | vel med 80 (IQR 78..81, n=42) | dur ms med 79 (IQR 69..85, n=42) | CC1 at onset med 110 (IQR 110..110, n=42) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+  StacSs DblTng RRx8       notes  48 | vel med 102 (IQR 89..114, n=48) | dur ms med 62 (IQR 52..101, n=48) | CC1 at onset med 127 (IQR 127..127, n=48) | rep-gap ms med 62 (IQR 54..64, n=6) | overlap ms - | off-grid early 0% late 0%
+  Marc Shrt DblTng RRx8    notes   6 | vel med 106 (IQR 105..106, n=6) | dur ms med 343 (IQR 342..367, n=6) | CC1 at onset med 98 (IQR 94..99, n=6) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+
+### 6 LowBrass KS Master  (keyswitch notes 8, KS lead before next note: med 197 (IQR 115..462, n=8) ms)
+  Sus Full                 notes  23 | vel med 98 (IQR 77..109, n=23) | dur ms med 1741 (IQR 1687..1846, n=23) | CC1 at onset med 57 (IQR 43..68, n=23) | rep-gap ms - | overlap ms med 1703 (IQR 8..1832, n=7) | off-grid early 30% late 22%
+  Staccato Short RRx4      notes  19 | vel med 81 (IQR 79..82, n=19) | dur ms med 81 (IQR 74..94, n=19) | CC1 at onset med 110 (IQR 110..110, n=19) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+  Marcato RR               notes   3 | vel med 106 (IQR 105..106, n=3) | dur ms med 343 (IQR 342..367, n=3) | CC1 at onset med 98 (IQR 94..99, n=3) | rep-gap ms med 119 (IQR 119..119, n=1) | overlap ms - | off-grid early 0% late 0%
+
+### PF KS Master  (keyswitch notes 12, KS lead before next note: med 41 (IQR 36..660, n=12) ms)
+  Leg Slur                 notes  54 | vel med 81 (IQR 53..97, n=54) | dur ms med 149 (IQR 114..274, n=54) | CC1 at onset med 80 (IQR 72..98, n=54) | rep-gap ms med 12 (IQR 0..25, n=2) | overlap ms med 37 (IQR 25..43, n=42) | off-grid early 20% late 22%
+  StacSs DblTng RRx9       notes   4 | vel med 112 (IQR 110..119, n=4) | dur ms med 90 (IQR 80..152, n=4) | CC1 at onset med 74 (IQR 68..99, n=4) | rep-gap ms - | overlap ms - | off-grid early 50% late 0%
+  Stac DblTng RRx9         notes   1 | vel med 127 (IQR 127..127, n=1) | dur ms med 173 (IQR 173..173, n=1) | CC1 at onset med 113 (IQR 113..113, n=1) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+
+### FL KS Master  (keyswitch notes 11, KS lead before next note: med 38 (IQR 26..86, n=11) ms)
+  Leg Slur MAX             notes  37 | vel med 89 (IQR 43..100, n=37) | dur ms med 142 (IQR 93..462, n=37) | CC1 at onset med 82 (IQR 66..98, n=37) | rep-gap ms med 87 (IQR 0..173, n=2) | overlap ms med 36 (IQR 25..41, n=28) | off-grid early 27% late 27%
+  StacSs DblTng RRx9       notes   4 | vel med 112 (IQR 110..119, n=4) | dur ms med 90 (IQR 80..152, n=4) | CC1 at onset med 76 (IQR 72..99, n=4) | rep-gap ms - | overlap ms - | off-grid early 50% late 0%
+  Trill WT                 notes   1 | vel med 27 (IQR 27..27, n=1) | dur ms med 923 (IQR 923..923, n=1) | CC1 at onset med 72 (IQR 72..72, n=1) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+
+### AF KS Master  (keyswitch notes 3, KS lead before next note: med 3295 (IQR 660..4875, n=3) ms)
+  Leg Slur MAX             notes  24 | vel med 86 (IQR 74..112, n=24) | dur ms med 162 (IQR 138..494, n=24) | CC1 at onset med 84 (IQR 73..96, n=24) | rep-gap ms med 0 (IQR 0..0, n=1) | overlap ms med 38 (IQR 32..41, n=17) | off-grid early 4% late 12%
+
+### CL KS Master  (keyswitch notes 13, KS lead before next note: med 38 (IQR 33..80, n=13) ms)
+  Leg Slur                 notes  46 | vel med 79 (IQR 53..91, n=46) | dur ms med 138 (IQR 96..231, n=46) | CC1 at onset med 80 (IQR 78..93, n=46) | rep-gap ms med 173 (IQR 173..173, n=1) | overlap ms med 34 (IQR 24..39, n=38) | off-grid early 22% late 24%
+  StacSs DblTng RRx9       notes   4 | vel med 112 (IQR 110..119, n=4) | dur ms med 90 (IQR 80..152, n=4) | CC1 at onset med 74 (IQR 70..99, n=4) | rep-gap ms - | overlap ms - | off-grid early 50% late 0%
+  Sus Non Vib              notes  12 | vel med 114 (IQR 99..121, n=12) | dur ms med 231 (IQR 231..257, n=12) | CC1 at onset med 72 (IQR 70..77, n=12) | rep-gap ms med 0 (IQR 0..0, n=5) | overlap ms med 29 (IQR 26..38, n=4) | off-grid early 0% late 0%
+  Trill WT                 notes   1 | vel med 27 (IQR 27..27, n=1) | dur ms med 923 (IQR 923..923, n=1) | CC1 at onset med 79 (IQR 79..79, n=1) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+  Stac DblTng RRx9         notes   1 | vel med 118 (IQR 118..118, n=1) | dur ms med 173 (IQR 173..173, n=1) | CC1 at onset med 106 (IQR 106..106, n=1) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+
+### OB KS Master  (keyswitch notes 4, KS lead before next note: med 1977 (IQR 660..4875, n=4) ms)
+  Leg Slur MAX             notes  22 | vel med 82 (IQR 73..102, n=22) | dur ms med 162 (IQR 138..494, n=22) | CC1 at onset med 82 (IQR 71..93, n=22) | rep-gap ms med 0 (IQR 0..0, n=1) | overlap ms med 38 (IQR 31..41, n=15) | off-grid early 0% late 14%
+  Stac DblTng RRx9         notes   1 | vel med 95 (IQR 95..95, n=1) | dur ms med 173 (IQR 173..173, n=1) | CC1 at onset med 106 (IQR 106..106, n=1) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+
+### EH KS Master  (keyswitch notes 6, KS lead before next note: med 51 (IQR 18..86, n=6) ms)
+  Leg Slur MAX             notes  39 | vel med 105 (IQR 93..114, n=39) | dur ms med 260 (IQR 231..385, n=39) | CC1 at onset med 78 (IQR 68..104, n=39) | rep-gap ms med 0 (IQR 0..0, n=7) | overlap ms med 38 (IQR 32..48, n=21) | off-grid early 8% late 0%
+  StacSs DblTng RRx9       notes   1 | vel med 119 (IQR 119..119, n=1) | dur ms med 80 (IQR 80..80, n=1) | CC1 at onset med 92 (IQR 92..92, n=1) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+  Stac DblTng RRx9         notes   3 | vel med 112 (IQR 112..112, n=3) | dur ms med 61 (IQR 37..64, n=3) | CC1 at onset med 126 (IQR 125..126, n=3) | rep-gap ms - | overlap ms med 2 (IQR 2..2, n=1) | off-grid early 67% late 33%
+
+### BS KS Master  (keyswitch notes 5, KS lead before next note: med 122 (IQR 115..269, n=5) ms)
+  Leg Slur MAX             notes  33 | vel med 104 (IQR 99..116, n=33) | dur ms med 514 (IQR 423..870, n=33) | CC1 at onset med 89 (IQR 81..98, n=33) | rep-gap ms med 33 (IQR 28..44, n=4) | overlap ms med 48 (IQR 37..85, n=17) | off-grid early 33% late 3%
+  Stac DblTng RRx9         notes   2 | vel med 102 (IQR 101..102, n=2) | dur ms med 62 (IQR 61..64, n=2) | CC1 at onset med 106 (IQR 103..108, n=2) | rep-gap ms - | overlap ms - | off-grid early 50% late 50%
+
+### Harp KS Master  (keyswitch notes 1, KS lead before next note: med 1106 (IQR 1106..1106, n=1) ms)
+  Gliss Technique          notes 311 | vel med 77 (IQR 69..86, n=311) | dur ms med 88 (IQR 70..131, n=311) | CC1 at onset - | rep-gap ms med 137 (IQR 121..142, n=24) | overlap ms med 35 (IQR 26..45, n=218) | off-grid early 34% late 37%
+
+### Timpani Flt KS  (keyswitch notes 17, KS lead before next note: med 111 (IQR 77..664, n=17) ms)
+  Timpani Flt Crs          notes   2 | vel med 104 (IQR 80..127, n=2) | dur ms med 2032 (IQR 1830..2234, n=2) | CC1 at onset med 102 (IQR 102..102, n=1) | rep-gap ms - | overlap ms - | off-grid early 0% late 0%
+  Timpani Flt Lng          notes  44 | vel med 91 (IQR 79..104, n=44) | dur ms med 103 (IQR 82..495, n=44) | CC1 at onset med 102 (IQR 100..118, n=36) | rep-gap ms med 13 (IQR 6..28, n=22) | overlap ms - | off-grid early 14% late 25%
+  Timpani Flt Rls          notes   4 | vel med 114 (IQR 112..120, n=4) | dur ms med 3115 (IQR 2654..3648, n=4) | CC1 at onset med 64 (IQR 52..80, n=4) | rep-gap ms - | overlap ms - | off-grid early 25% late 0%
+
+### Full Choir KS Master  (keyswitch notes 1, KS lead before next note: med 572 (IQR 572..572, n=1) ms)
+  Full Choir Oo            notes  11 | vel med 92 (IQR 84..110, n=11) | dur ms med 1839 (IQR 1816..3570, n=11) | CC1 at onset med 31 (IQR 24..42, n=11) | rep-gap ms - | overlap ms med 1887 (IQR 1762..3775, n=8) | off-grid early 9% late 64%
+
+### 3 Dulc KS Master  (keyswitch notes 0, KS lead before next note: - ms)
+                        24 notes  32 | vel med 70 (IQR 67..80, n=32) | dur ms med 159 (IQR 123..321, n=32) | CC1 at onset - | rep-gap ms med 111 (IQR 108..118, n=8) | overlap ms med 173 (IQR 31..1212, n=12) | off-grid early 0% late 0%

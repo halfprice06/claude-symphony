@@ -44,24 +44,41 @@
      ((breathing-event eng e) (mock-line ctx "breathe"))
      ((arpeggio-event eng e) (mock-line ctx "arpeggio" 1))))))   % c04 (A #1): rolled chords
 
+% c32 (critics A #2, B #2, C #5): the mockup owns the MIDI velocity table. A score may set Score.dynamicAbsoluteVolumeFunction
+% itself (v621's global.ily sets expr-volume, LilyPond's default volumes, for its own MIDI); that \set overrode the \midi table
+% below, and every velocity-dependent row (pizz., Stac, harp, timpani strokes) played 3-10 dB louder than the 30 cycles of
+% series 1 had tuned. mockVol replaces the value of any such \set in the score music with mock-volume, which reads the
+% dynamic word inside a markup ("pp espr.", "sub. p") with the mockup's table; a mark with no known word keeps p.
+#(define mock-dyn-table '(("ppp" . 0.25) ("pp" . 0.33) ("p" . 0.42) ("mp" . 0.5) ("mf" . 0.58) ("f" . 0.66)
+                          ("ff" . 0.72) ("fff" . 1.0) ("sf" . 0.66) ("sfz" . 0.66) ("fp" . 0.42)))
+#(define (mock-volume d)
+   (let* ((s (cond ((string? d) d) ((markup? d) (markup->string d)) (else "")))
+          (w (find (lambda (x) (assoc x mock-dyn-table)) (string-split s #\space))))
+     (if w (assoc-get w mock-dyn-table) 0.42)))
+mockVol = #(define-music-function (m) (ly:music?)
+  (music-map (lambda (x)
+               (if (and (eq? (ly:music-property x 'name) 'PropertySet)
+                        (eq? (ly:music-property x 'symbol) 'dynamicAbsoluteVolumeFunction))
+                   (begin (ly:music-set-property! x 'value mock-volume) x)
+                   x))
+             m))
+
 pl = #(define-music-function (name m) (string? ly:music?)
   #{ \new Staff = #name \with { instrumentName = #name midiInstrument = "string ensemble 1" } << \global \removeWithTag #'part #m >> #})
 
 \score {
-  <<
+  \mockVol <<
     \pl "Fl1" \fluteOne  \pl "Fl2" \fluteTwo  \pl "Ob1" \oboeOne  \pl "Ob2" \oboeTwo  \pl "CA" \corAnglais
     \pl "Cl1" \clOne  \pl "Cl2" \clTwo  \pl "BCl" \bassCl  \pl "Bn1" \bsnOne  \pl "Bn2" \bsnTwo  \pl "Cbn" \cbsn
     \pl "Hn1" \hnOne  \pl "Hn2" \hnTwo  \pl "Hn3" \hnThree  \pl "Hn4" \hnFour
     \pl "Tpt1" \tptOne  \pl "Tpt2" \tptTwo  \pl "Tpt3" \tptThree
     \pl "Tbn1" \tbnOne  \pl "Tbn2" \tbnTwo  \pl "BTbn" \bassTbn  \pl "Tuba" \tuba  \pl "Timp" \timp
-    \new DrumStaff \with { instrumentName = "Perc" } << \global \perc >>
+    \new DrumStaff \with { instrumentName = "Perc" } << \global \removeWithTag #'part \perc >>
     \new PianoStaff \with { instrumentName = "Harp" } << \pl "HarpR" \harpR \pl "HarpL" \harpL >>
     \pl "VlnI" \vlnOne  \pl "VlnII" \vlnTwo  \pl "Vla" \vla  \pl "Vc" \vc  \pl "Cb" \cb
   >>
   \layout { \context { \Voice \consists #mock-engraver } \context { \DrumVoice \consists #mock-engraver } }
   \midi { \context { \Score midiChannelMapping = #'staff
-    dynamicAbsoluteVolumeFunction = #(lambda (d) (if (string? d)
-      (assoc-get d '(("ppp" . 0.25) ("pp" . 0.33) ("p" . 0.42) ("mp" . 0.5) ("mf" . 0.58) ("f" . 0.66) ("ff" . 0.72) ("fff" . 1.0) ("sf" . 0.66) ("fp" . 0.42)) #f)
-      0.42)) }
+    dynamicAbsoluteVolumeFunction = #mock-volume }
     \context { \PianoStaff \consists "Dynamic_performer" } }
 }

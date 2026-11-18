@@ -56,5 +56,19 @@ for name in PRB.get('opening', []):
     pk = 20 * np.log10(np.sqrt(np.mean(x[:n * hop].reshape(n, hop) ** 2, 1)).max() + 1e-9)
     ok = pk > -70; bad += not ok
     print(f'{name:14s} qn    0.0  opening max {pk:6.1f} dB  (limit -70)  {"ok" if ok else "SILENT"}')
+# mvt1 c42 (critic A #1): legato-join timing of whole string sections on the corrected estimator (tools/pcx.py: perceived
+# attack on harmonic bands with the previous pitch's harmonics excluded; synthetic error 2-3 ms). probe.json "legato":
+# [[track, limit ms], ...]: the robust SD of pcX over every monophonic legato join of the track must stay under the limit
+# (c41: Violins I / II 49, Violas 65, celli 54 ms); the median and the share more than 60 ms off it are printed
+if PRB.get('legato'):
+    import pcx
+    parts_ = json.load(open(P))
+    for name, lim in PRB['legato']:
+        if pcx.stem_path(R, parts_, name) is None:
+            continue
+        rows_ = pcx.scan(R, parts_, name)
+        s_, med_, rsd_, off_ = pcx.summary(name, rows_)
+        ok = rsd_ * 1000 <= lim; bad += not ok
+        print(f'{s_}  (limit {lim:.0f} ms)  {"ok" if ok else "SPREAD"}')
 print('late or hole:', bad)
 sys.exit(1 if bad else 0)

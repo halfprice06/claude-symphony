@@ -1,0 +1,65 @@
+{
+ "_doc": "probe_attacks.py checks for movement I (score qn). ref: isolated attacks after a rest of 2 qn or more (fast samples 0.06 s; soft string entries 0.20 s); opening: tracks sounding in the first 1.5 s. c03: Timpani limit 0.12 s (strokes start TIMP_DELAY_S = 0.06 s after the score onset); starts are measured from 0.3 s before the onset.",
+ "ref": [
+  [
+   "Timpani",
+   100,
+   0.12
+  ],
+  [
+   "Timpani",
+   128,
+   0.12
+  ],
+  [
+   "Trombone 1",
+   100,
+   0.06
+  ],
+  [
+   "Trumpet 1",
+   100,
+   0.06
+  ],
+  [
+   "Tuba",
+   100,
+   0.06
+  ],
+  [
+   "Harp",
+   184,
+   0.06
+  ],
+  [
+   "Double basses",
+   188,
+   0.06
+  ],
+  [
+   "Violas",
+   128,
+   0.1
+  ],
+  [
+   "Violins I",
+   56.5,
+   0.1
+  ],
+  [
+   "Violins II",
+   20,
+   0.2
+  ],
+  [
+   "Violoncellos",
+   20,
+   0.2
+  ]
+ ],
+ "holes": [],
+ "sustain": [],
+ "opening": [
+  "Timpani"
+ ]
+}

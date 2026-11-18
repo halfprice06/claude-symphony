@@ -36,6 +36,12 @@ the previous note's body: a new or raised fill is capped at prev_body - DECRESC_
 excess ("guarded") only with --guard-existing (on the c11 render that would have removed or cut 25 hand and auto fills,
 several of them fitted in c10/c11, so it is not a default). The fills at 188/588 had cancelled the decrescendo (the quarter 4 dB over the eighth before it).
 
+mvt1 c35 (critic A #5): an existing entry whose hole minimum comes after its fill has started to fall (t_min > hold_s +
+0.05 s) and dips LATE_MIN_DIP (4) dB or more is held to t_min + 0.05 s (at most LATE_HOLD_MAX_S, 0.45 s), dB unchanged,
+on every measured track ("held"). Simulate before keeping: on c34 the held fills cut the stem dip 7.2 -> 4.4 (celli 189),
+4.3 -> 3.3 (Horn 1 422), 5.0 -> 2.8 (Flute 2 277), and read worse on two celli joins whose body window the longer fill
+then reaches (144, 402).
+
 Written entries are listed in the track's "_auto" key ({onset: "new"/"raised"}), so they can be regenerated.
 Without --write it prints the plan only.
 """
@@ -57,6 +63,7 @@ MIN_DIP_TRACK = {"Flute 1": 4.0, "Oboe 1": 4.0, "Cor anglais": 4.0}
 OVER_WIN, OVER_MAX = 0.200, 2.0   # c17 (A #2b)
 DECRESC_UNDER_DB = 1.5   # mvt1 c12 (C #1)
 RETIME_LEAD_MIN_S, RETIME_AFTER_MOVED_S, RETIME_HOLD_S = 0.10, 0.08, 0.35   # mvt1 c16 (critic A #4)
+LATE_MIN_DIP, LATE_HOLD_MAX_S = 4.0, 0.45   # mvt1 c35 (critic A #5): fills released before their hole ("held")
 
 cyc, pj = sys.argv[1], sys.argv[2]
 WRITE = "--write" in sys.argv[3:]
@@ -186,6 +193,17 @@ for t in D["tracks"]:
                     plan.append((nm, sq, over, t_min, old, dict(old, db=ndb), "lowered"))
                 else:
                     plan.append((nm, sq, over, t_min, old, ndb, "lowered"))
+                continue
+        # mvt1 c35 (critic A #5): an existing fill whose hole minimum comes after the fill has started to fall (t_min
+        # more than 0.05 s past hold_s; the fill is full to hold_s and 0 by hold_s + 0.25 s) is held to the minimum +
+        # 0.05 s (at most LATE_HOLD_MAX_S), dB unchanged, on every measured track ("held"). Before, such fills were never
+        # touched: the retime branch only moves fills whose hole comes before them, and raising is limited to RAISE_TRACKS
+        if key is not None and isinstance(EF[nm][key], dict) and dip >= LATE_MIN_DIP \
+                and t_min > EF[nm][key].get("hold_s", 0.10) + 0.05:
+            old = EF[nm][key]
+            nh_ = round(min(LATE_HOLD_MAX_S, t_min + 0.05), 2)
+            if nh_ > old.get("hold_s", 0.10) + 0.01:
+                plan.append((nm, sq, dip, t_min, old, dict(old, hold_s=nh_), "held"))
                 continue
         if dip < mind:
             continue
