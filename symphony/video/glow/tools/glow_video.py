@@ -939,14 +939,16 @@ def view(t, U, V, cx=None, cy=None, dmul=1.0, elx=0.0, spread=1.0):
     halo1 = cv2.GaussianBlur(core, (0, 0), 4.5)
     halo2 = cv2.GaussianBlur(cv2.resize(core, (W // 4, H // 4), interpolation=cv2.INTER_AREA), (0, 0), 9)
     halo2 = cv2.resize(halo2, (W, H))
-    whiten = core.max(2, keepdims=True) * 0.3
+    max3 = lambda a_: np.maximum(np.maximum(a_[..., 0], a_[..., 1]), a_[..., 2])     # much faster than a_.max(2)
+    whiten = max3(core)[..., None] * 0.3
     G = core * 1.1 + whiten + halo1 * 3.0
     G = 250 * (1 - np.exp(-G / 250))
     Hw = halo2 * (3.4 + 2.6 * loud(t))
     Hw = 95 * (1 - np.exp(-Hw / 95))
-    out = img + G + Hw + img * (halo1 * 1.0 + Hw).mean(2, keepdims=True) / 160
+    hs_ = halo1 + Hw
+    out = img + G + Hw + img * ((hs_[..., 0] + hs_[..., 1] + hs_[..., 2])[..., None] * (1 / 480))
     if ovl.any():   # darken the paper round the text so it reads over the notation, then add the text
-        m = cv2.GaussianBlur(np.clip(ovl.max(2) / 90, 0, 1), (0, 0), 7)
+        m = cv2.GaussianBlur(np.clip(max3(ovl) / 90, 0, 1), (0, 0), 7)
         out *= 1 - 0.62 * np.clip(m * 2.2, 0, 1)[..., None]
         out += ovl + cv2.GaussianBlur(ovl, (0, 0), 2.4) * 0.9
     return out, Hm
