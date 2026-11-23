@@ -9,7 +9,7 @@ python3 glow_video.py --strip BUILD --tempo data/<mvt>-tempo.json --audio mockup
          staves with the most onsets).
 --jobs N renders N parts of the video in parallel processes and joins them; the frames are the same as one process makes.
 """
-import argparse, json, math, re, subprocess, sys, os, tempfile
+import argparse, bisect, json, math, re, subprocess, sys, os, tempfile
 import numpy as np, cv2
 from PIL import Image
 Image.MAX_IMAGE_PIXELS = None
@@ -21,7 +21,7 @@ ap.add_argument("--audio")
 ap.add_argument("--stems")
 ap.add_argument("--out", required=True)
 ap.add_argument("--bars", type=int, nargs=2)
-ap.add_argument("--fps", type=int, default=30)
+ap.add_argument("--fps", type=int, default=60)
 ap.add_argument("--still", type=float, nargs="*")
 ap.add_argument("--env", help="audio file for the loudness envelope (default: --audio)")
 ap.add_argument("--jobs", type=int, default=1)
@@ -35,6 +35,7 @@ ap.add_argument("--split-report", action="store_true", help="print the stretches
 ap.add_argument("--split-bars", type=int, nargs="*", help="split only in these bar ranges (pairs A B), groups found from the stems")
 ap.add_argument("--split-staves", nargs=2, help="with --split-bars: the staves the upper and lower views centre on")
 ap.add_argument("--annotations", help="JSON with \"splits\" (each with its own mode stack|pullback and panel zooms) and \"captions\" for the whole movement (annotations/<mvt>.json)")
+ap.add_argument("--annotations-check", action="store_true", help="check the --annotations file against the score and the rules in annotations/BRIEF.md, print every item with its times, and stop")
 ap.add_argument("--captions", help="analysis captions (JSON, see overlays.load_captions)")
 ap.add_argument("--caption-style", default="score", choices=["bar", "score", "card"],
                 help="a subtitle band, notes written on the score next to the notes they describe, or a card with music examples")
@@ -376,9 +377,13 @@ def pos_to_s(p):
     return q2s(bar_qn[int(b) - 1] + (float(qq) - 1 if qq else 0))
 ANN = json.load(open(A.annotations)) if A.annotations else None
 if ANN is not None:
+    _bad = sorted({x[k_] for x in ANN.get("splits", []) for k_ in ("upper", "lower")} | {c["anchor"]["staff"] for c in ANN.get("captions", []) if c.get("anchor")} | {c["chord_staff"] for c in ANN.get("captions", []) if c.get("chord_staff")} - set(names))
+    _bad = [b_ for b_ in _bad if b_ not in names]
+    if _bad: sys.exit(f"{A.annotations}: unknown staff names {_bad}; valid: {names}")
     SPLITS = [dict(t0=pos_to_s(x["from"]), t1=pos_to_s(x["to"]), va=stave_mid[x["upper"]], vb=stave_mid[x["lower"]],
                    mode=x.get("mode", "stack"), za=float(x.get("upper_zoom", 1.0)), zb=float(x.get("lower_zoom", 1.0)),
-                   why=x.get("bars", "")) for x in ANN.get("splits", [])]
+                   why=x.get("bars", ""), what=x.get("what", "")) for x in ANN.get("splits", [])]
+    for sp_ in SPLITS: sp_.update(za0=sp_["za"], zb0=sp_["zb"])
 else:
     _sp = split_at_bars(A.split_bars) if A.split_bars else (split_track() if (A.split != "none" or A.split_report) else [])
     SPLITS = [dict(t0=a_, t1=b_, va=c_, vb=d_, mode=A.split, za=1.0, zb=1.0, why=w_) for a_, b_, c_, d_, w_ in _sp]
@@ -442,12 +447,118 @@ def camera(tu, tv, t, cx=None, cy=None, dmul=1.0, elx=0.0):
     dst, _ = proj3(np.c_[src, np.zeros(4)])
     return cv2.getPerspectiveTransform(src, dst.astype(np.float32)), proj3
 
+# ---------- what a split-screen panel or a pull-back shows ----------
+# The camera looks along the line at an angle, so the part of the paper where the music is being played (just left of
+# the focus) is seen much further above the focus than below it. An annotation names one staff and a zoom per panel and
+# assumes about 300 px x zoom of height either side of that staff; each panel is therefore fitted here to the staves
+# that play within that height during the moment, and to the staff of any note on the score shown meanwhile.
+_reach = {}
+def reach(z, half, elx=0.0, xr=-60.0):
+    """(up, down): how far above and below its focus a view pulled back by z shows the paper at the playing position
+    (from 210 px behind the focus to xr px past it; rows above the focus are cut off on the right, so text that runs to
+    the right there needs a larger xr). half: one panel of the stacked split, else the whole frame"""
+    k_ = (round(z, 3), half, elx, round(xr / 20.0))
+    if k_ not in _reach:
+        hh_ = H * 0.5 if half else H
+        _, proj = camera(0.0, 0.0, 0.0, W * 0.5, hh_ * 0.55, z, elx)
+        def seen(dy, xs):
+            P, zz = proj(np.array([[x_, dy, 0.0] for x_ in xs]))
+            return bool(np.all(zz > 0) and np.all((P[:, 0] > 50) & (P[:, 0] < W - 50) & (P[:, 1] > 34) & (P[:, 1] < hh_ - 34)))
+        up = dn = 0
+        while up < 3000 and seen(-(up + 10), (-210.0, max(xr, -60.0))): up += 10
+        while dn < 3000 and seen(dn + 10, (-210.0, -60.0)): dn += 10
+        _reach[k_] = (up, dn)
+    return _reach[k_]
+def fit_view(reqs, prefer, half, elx=0.0, zmax=2.0):
+    """(focus, zoom, fits): the least pull-back that shows every requirement (top, bottom, xr) at the playing position,
+    with the focus as near to prefer as that allows"""
+    for z in np.arange(1.0, zmax + 0.001, 0.05):
+        lo_f = max(b_ - reach(float(z), half, elx)[1] for _, b_, _ in reqs)            # the focus may not be higher than this
+        hi_f = min(t_ + reach(float(z), half, elx, x_)[0] for t_, _, x_ in reqs)       # nor lower than this
+        if lo_f <= hi_f: return float(np.clip(prefer, lo_f, hi_f)), float(z), True
+    return (lo_f + hi_f) / 2, float(z), False
+def sees(f_, z, half, elx, reqs):
+    return all(f_ - reach(z, half, elx, x_)[0] <= t_ and b_ <= f_ + reach(z, half, elx)[1] for t_, b_, x_ in reqs)
+def plays(st, t0, t1):
+    """the staff has at least two notes, or sounds for a quarter of the time, between t0 and t1"""
+    ns = [(max(n_[0], t0), min(n_[1], t1)) for n_ in N if n_[5] == st and n_[0] < t1 - 1e-6 and n_[1] > t0 + 1e-6]
+    return len(ns) >= 2 or sum(b_ - a_ for a_, b_ in ns) >= 0.25 * (t1 - t0)
+PAD_UP, PAD_DN = 6.0 * sp, 4.5 * sp            # room for the staff, its ledger lines and its name above it
+_STR = ["Violins I", "Violins II", "Violas", "Violoncellos", "Double basses"]
+_WW = ["Flutes 1·2", "Oboes 1·2", "Cor anglais", "Clarinets 1·2", "Bass clarinet", "Bassoons 1·2", "Contrabassoon"]
+_MENTION = [(r"\bflutes?\b", ["Flutes 1·2"]), (r"\boboes?\b", ["Oboes 1·2"]), (r"\bcor anglais\b", ["Cor anglais"]),
+            (r"\bbass clarinet\b", ["Bass clarinet"]), (r"(?<!bass )\bclarinets?\b", ["Clarinets 1·2"]),
+            (r"\bcontrabassoon\b", ["Contrabassoon"]), (r"\bbassoons?\b", ["Bassoons 1·2"]),
+            (r"\bhorns? (?:1|2)\b", ["Horns 1·2"]), (r"\bhorns? (?:3|4)\b", ["Horns 3·4"]),
+            (r"\bhorns\b(?! ?[1-4])|\bfour horns\b", ["Horns 1·2", "Horns 3·4"]),
+            (r"\btrumpets? (?:1|2)\b", ["Trumpets 1·2"]), (r"\btrumpet 3\b", ["Trumpet 3"]), (r"\btrumpets\b(?! ?[1-3])", ["Trumpets 1·2", "Trumpet 3"]),
+            (r"\bbass trombone\b", ["Bass trombone"]), (r"(?<!bass )\btrombones?\b", ["Trombones 1·2"]), (r"\btuba\b", ["Tuba"]),
+            (r"\btimpani\b", ["Timpani"]), (r"\bharp\b", ["Harp RH", "Harp LH"]),
+            (r"\bfirst violins?\b|\bviolins i\b|\bsolo violin\b", ["Violins I"]), (r"\bsecond violins?\b|\bviolins ii\b|\bviolins i·ii\b", ["Violins II"]),
+            (r"\bviolins\b(?! i)|\bviolin sections\b", ["Violins I", "Violins II"]), (r"\bviolas?\b", ["Violas"]),
+            (r"\bcellos?\b|\bvioloncellos?\b", ["Violoncellos"]), (r"\bbasses\b", ["Double basses"]),
+            (r"\bstrings?\b", _STR), (r"\bwoodwinds?\b|\bwinds\b", _WW)]
+def mentioned(text):
+    """the staves an annotation's text names (instrument words; "strings" and "woodwind" as groups)"""
+    t_ = text.lower()
+    return {n_ for pat, sts in _MENTION if re.search(pat, t_) for n_ in sts}
+def cap_span(c):
+    """the paper a note on the score takes (top, bottom): its label above the bracket, the staff, chord names below"""
+    v = stave_mid[c["anchor"]["staff"]]
+    return v - 11.0 * sp, v + (8.5 if c.get("chords") else 4.5) * sp
+def cap_reqs(c):
+    """what must be in shot for a note on the score: its staff with the bracket (and chord names below), and the row
+    of its label above, wide enough for the label (the label is moved along its row to stay in shot)"""
+    v = stave_mid[c["anchor"]["staff"]]; al_ = ov.text_alpha(c.get("short", c["kind"]), "italic", 64)
+    cw = 3.2 * sp * al_.shape[1] / al_.shape[0]
+    return [(v - 4.5 * sp, v + (9.0 if c.get("chords") else 5.5) * sp, -60.0), (v - 11.0 * sp, v - 5.0 * sp, cw - 300.0)]
+SPLIT_NOTES, SPLIT_INFO = [], []               # what the fit could not do (problems; remarks), for --annotations-check
+def fit_splits(caps):
+    staff_req = lambda n_: (stave_mid[n_] - PAD_UP, stave_mid[n_] + PAD_DN, -60.0)
+    for sp_ in SPLITS:
+        if sp_["mode"] not in ("stack", "pullback"): continue
+        t0, t1 = sp_["t0"], sp_["t1"]
+        during = [c for c in caps if c.get("anchor") and c["t0"] < t1 - 0.5 and c["t1"] > t0 + 0.5]
+        if sp_["mode"] == "pullback":
+            reqs = [(sp_["va"] - PAD_UP, sp_["vb"] + PAD_DN, -60.0)] + [r_ for c in during for r_ in cap_reqs(c)]
+            sp_["fp"], sp_["zp"], ok = fit_view(reqs, (sp_["va"] + sp_["vb"]) / 2, False, 10.0, 2.6)
+            if not ok: SPLIT_NOTES.append((sp_, "the pull-back cannot show all of it"))
+            continue
+        said = mentioned(sp_.get("what", ""))
+        panels = {k_: dict(v=v_, must=[], want=sorted((n_ for n_ in names if abs(stave_mid[n_] - v_) <= 300 * z_ + 1 and plays(n_, t0, t1)), key=lambda n_: abs(stave_mid[n_] - v_)))
+                  for k_, v_, z_ in (("a", sp_["va"], sp_["za0"]), ("b", sp_["vb"], sp_["zb0"]))}
+        for c in during:                       # a note shown during the split goes into the panel nearer to its staff
+            v = stave_mid[c["anchor"]["staff"]]
+            panels[min(panels, key=lambda k_: abs(panels[k_]["v"] - v))]["must"].append(c)
+        for k_, p_ in panels.items():
+            which = "upper" if k_ == "a" else "lower"; reqs = []; left = []
+            for c in p_["must"]:               # first the notes on the score
+                if fit_view(reqs + cap_reqs(c), p_["v"], True, 0.0, 2.2)[2]: reqs += cap_reqs(c)     # a note may pull the panel back a little further
+                else: SPLIT_NOTES.append((sp_, f"the note at {c['from']} on {c['anchor']['staff']} does not fit in the {which} panel"))
+            for n_ in [n_ for n_ in p_["want"] if n_ in said]:      # then the playing staves the annotation's text names
+                if fit_view(reqs + [staff_req(n_)], p_["v"], True)[2]: reqs.append(staff_req(n_))
+                else: left.append(n_)
+            if not reqs:                       # nothing named plays here: the named staff, or the nearest staff that plays
+                reqs = [staff_req(p_["want"][0])] if p_["want"] else [(p_["v"] - PAD_UP, p_["v"] + PAD_DN, -60.0)]
+            z_ = fit_view(reqs, p_["v"], True, 0.0, 2.2)[1]
+            for n_ in [n_ for n_ in p_["want"] if n_ not in said]:  # other playing staves only where they need no further pull-back
+                f2_, z2_, ok2_ = fit_view(reqs + [staff_req(n_)], p_["v"], True, 0.0, 2.2)
+                if ok2_ and z2_ <= z_ + 1e-6: reqs.append(staff_req(n_))
+            sp_["f" + k_], sp_["z" + k_], _ = fit_view(reqs, p_["v"], True, 0.0, 2.2)
+            lo, hi = min(r_[0] for r_ in reqs), max(r_[1] for r_ in reqs)
+            sp_["s" + k_] = sp_["z" + k_] * (1.4 if hi - lo > PAD_UP + PAD_DN + 1 else 1.0)   # several staves: light and keep sharp more of the height
+            sp_["r" + k_] = (lo, hi)
+            if left: SPLIT_INFO.append((sp_, f"{which} panel leaves out {', '.join(left)}"))
 state = {"u": None, "v": None, "vv": 0.0}
-V_W = float(os.environ.get("V_W", 2.5))        # rad/s: up and down the camera moves as a critically damped spring, starting and stopping smoothly;
-                 # a move between winds and strings takes about 2 s. (A plain 2.5 s lag never arrived before the next
-                 # change and left the camera between the groups.)
-V_MAX = float(os.environ.get("V_MAX", 1300.0))   # px/s (about nine staves a second): the speed limit keeps the longest moves from looking like a jump
-LOOK = float(os.environ.get("LOOK", 1.0))   # s: the camera starts toward a group this long before the group is due
+# Up and down the camera moves as a critically damped spring (V_W rad/s), starting and stopping smoothly, with a speed
+# limit (V_MAX px/s on the paper), and it starts toward a group LOOK seconds before the group is due. (A plain 2.5 s lag
+# never arrived before the next change and left the camera between the groups.) Dan chose these gentler values with
+# 60 fps on 2026-11-23 so that text stays readable during a move: the fastest move is about 24 px a frame on screen.
+# The first full videos used 2.5 / 1300 / 1.0 at 30 fps (68 px a frame); the gentler moves leave the aim more than
+# 300 px off a playing staff about 1 % more of the time (scherzo 2 %).
+V_W = float(os.environ.get("V_W", 2.0))
+V_MAX = float(os.environ.get("V_MAX", 900.0))
+LOOK = float(os.environ.get("LOOK", 1.3))
 state2 = {"v": None, "vv": 0.0}          # the second view of a split screen
 def spring(st_, tv, dt):
     st_["vv"] += (V_W * V_W * (tv - st_["v"]) - 2 * V_W * st_["vv"]) * dt
@@ -461,13 +572,13 @@ def step(t, dt):
     if ca is not None: tv = ca                    # a note on the score holds the camera on its staff
     sa, sp_ = split_amount(t + 0.6)
     mode = sp_["mode"] if sp_ else "none"
-    if sa > 0: va, vb = sp_["va"], sp_["vb"]
+    if sa > 0: va, vb = sp_.get("fa", sp_["va"]), sp_.get("fb", sp_["vb"])     # each panel's fitted focus
     if state["u"] is None: state["u"], state["v"], state["vv"] = tu, tv, 0.0
     state["u"] += (tu - state["u"]) * (1 - math.exp(-dt / 0.9))
     if sa > 0 and mode in ("stack", "slant"):
         tv = va                                   # the upper view takes the upper group
     elif sa > 0 and mode == "pullback":
-        tv = (va + vb) / 2                        # look between the groups while pulled back
+        tv = sp_.get("fp", (va + vb) / 2)         # look between the groups while pulled back
     spring(state, tv, dt)
     if sa > 0:
         if state2["v"] is None: state2["v"], state2["vv"] = state["v"], state["vv"]   # the second view splits off the first
@@ -478,31 +589,104 @@ def step(t, dt):
 
 import overlays as ov
 ICON_HOVER = 3.4 * sp                       # an icon floats this high over its note, so the lit note stays visible
-# names on the paper: one per phrase (notes less than 1.2 s apart), written where the phrase starts and pulled along
-# once the camera has moved on; fades in with the first note and out a second after the last
-PHRASES = {}
+# Names on the paper (Dan, 2026-11-23: the names appeared and moved about without a visible rule). Every name is now
+# printed at a fixed place on the paper and never moves on it. Two rules place them:
+#   1. Entry: where a part comes in after NAME_REST seconds or more of rest, its name ends just before its first note.
+#   2. Column: at set bar lines about NAME_STEP px apart (the same bar lines for every staff), each part that is playing
+#      through that bar line has its name again, ending at the bar line, so the names line up down the page as they do
+#      at the start of a system in a printed score.
+# A staff never has two names closer than NAME_NEAR px. A name is dim while its part rests and bright while it plays.
+NAME_REST, NAME_STEP, NAME_NEAR, NAME_DIM = 2.5, 800.0, 500.0, 0.42
+RUNS = {}                                   # per staff: stretches of playing with no rest of NAME_REST or more
 for t0, t1, x, y, c, st in N:
-    ph = PHRASES.setdefault(st, [])
-    if ph and t0 - ph[-1][1] < 1.2: ph[-1][1] = max(ph[-1][1], t1)
-    else: ph.append([t0, t1, x, c])
+    r_ = RUNS.setdefault(st, [])
+    if r_ and t0 - r_[-1][1] < NAME_REST: r_[-1][1] = max(r_[-1][1], t1)
+    else: r_.append([t0, t1, x])
+NAME_COLS = []                              # (time, x) of the bar lines that carry a column of names
+_last = min(n[2] for n in N)
+for q_, x_ in sorted(BLX.items()):
+    if x_ - _last >= NAME_STEP: NAME_COLS.append((q2s(q_), x_)); _last = x_
+def name_size(st):
+    al_ = ov.text_alpha(ov.NAME.get(st, st), "italic", 64)
+    return al_, 3.0 * sp * al_.shape[1] / al_.shape[0]      # text 3 staff spaces high on the paper
+NAME_LABELS = {}                            # per staff: [x of the text's right end, width, [(t0, t1) hidden by a note on the score]]
+for st, runs in RUNS.items():
+    ww = name_size(st)[1]; xs = []
+    for t0, t1, x in runs:                  # rule 1; an entry on a column's bar line is lined up with the column
+        xr = next((xc - 0.6 * sp for tc, xc in NAME_COLS if abs(tc - t0) < 1e-3), x - 1.6 * sp)
+        if not xs or xr - xs[-1] >= NAME_NEAR: xs.append(xr)
+    for tc, xc in NAME_COLS:                # rule 2
+        xr = xc - 0.6 * sp
+        if any(t0 < tc - 1e-3 and t1 > tc + 0.05 for t0, t1, _ in runs) and not any(-(ww + 4 * sp) < xr - x_ < NAME_NEAR for x_ in xs):
+            xs.append(xr)
+    NAME_LABELS[st] = [[xr, ww, []] for xr in sorted(xs)]
+RUN_T0 = {st: [r_[0] for r_ in runs] for st, runs in RUNS.items()}
+def part_active(st, t):
+    """0..1: the part is playing (rises over the half second before an entry, falls after its last note)"""
+    i = bisect.bisect_right(RUN_T0[st], t + 0.5) - 1
+    if i < 0: return 0.0
+    t0, t1, _ = RUNS[st][i]
+    return float(np.clip(min((t - t0 + 0.5) / 0.5, (t1 + 1.4 - t) / 1.0), 0, 1))
 def draw_names(layer, t, Hm, U):
-    # a staff with a note on the score shows the note instead of its name (the two would sit in the same place)
-    held = {} if A.caption_style != "score" else {c["anchor"]["staff"]: max(ov.fade(t, c["t0"] - 0.5, c["t1"] + 0.5, 0.5), 0) for c in CAPS if c.get("anchor") and c["t0"] - 1.5 <= t <= c["t1"] + 1.5}
-    for st, ph in PHRASES.items():
-        for t0, t1, x, c in ph:
-            if not (t0 - 0.4 <= t <= t1 + 1.4): continue
-            a = float(np.clip(min((t - t0 + 0.4) / 0.4, (t1 + 1.4 - t) / 0.6), 0, 1)) * (1 - held.get(st, 0))
+    wf = Hm[2] @ np.array([U, 0.0, 1.0])
+    for st, labs in NAME_LABELS.items():
+        i0 = bisect.bisect_left(labs, [U - 2500.0]); i1 = bisect.bisect_right(labs, [U + 3500.0])
+        if i0 >= i1: continue
+        al_, _ = name_size(st); c = COL.get(st, np.float32([255, 255, 255]))
+        a0 = NAME_DIM + (1 - NAME_DIM) * part_active(st, t)
+        y1 = staves[st][0] - top - 0.6 * sp; y0 = y1 - 3.0 * sp
+        for xr, ww, hid in labs[i0:i1]:
+            a = a0 * (1 - max((ov.fade(t, h0 - 0.5, h1 + 0.5, 0.5) for h0, h1 in hid), default=0.0))
             if a <= 0.01: continue
-            hh = 3.0 * sp                                   # text height on the paper
-            al_ = ov.text_alpha(ov.NAME.get(st, st), "italic", 64)
-            ww = hh * al_.shape[1] / al_.shape[0]
-            y1 = staves[st][0] - top - 0.6 * sp; y0 = y1 - hh
-            x0 = max(x - 1.6 * sp - ww, visible_left_x(Hm, y1, U))   # before the phrase's first note, or kept at the left edge
-            q = cv2.perspectiveTransform(np.float32([[[x0, y0], [x0 + ww, y0], [x0 + ww, y1], [x0, y1]]]), Hm)[0]
+            src = np.float64([[xr - ww, y0], [xr, y0], [xr, y1], [xr - ww, y1]])
+            if np.any((np.c_[src, np.ones(4)] @ Hm[2]) * wf <= 0): continue      # part of it is behind the camera
+            q = cv2.perspectiveTransform(np.float32(src)[None], Hm)[0]
             ov.warp_sprite(layer, al_, q, np.minimum(255, np.array(c) * 0.55 + 115) * a)
 CAPS = []
 if A.captions: CAPS = ov.load_captions(A.captions, pos_to_s)
 elif ANN is not None and ANN.get("captions"): CAPS = ov.load_captions(ANN["captions"], pos_to_s)
+# The camera needs time to travel. It leaves for a split 1.7 s before the split starts and is free again 0.5 s after it
+# ends, and it takes about 1.5 s to reach a staff it cannot see yet. Where a note on the score sits next to a split
+# that does not show its staff, or two notes on distant staves follow each other directly, the times are trimmed here
+# (the note if it stays 4.5 s long, else the split if it stays 4 s long) so that every note is in shot while it is shown.
+TIME_NOTES, TIME_INFO = [], []
+def in_split_view(c, sp_):
+    if sp_["mode"] == "pullback": return sees(sp_["fp"], sp_["zp"], False, 10.0, cap_reqs(c))
+    return any(sees(sp_["f" + k_], sp_["z" + k_], True, 0.0, cap_reqs(c)) for k_ in "ab")
+def settle_times(caps):
+    mm = lambda t: f"{int(t // 60)}:{t % 60:04.1f}"
+    CMIN, SMIN = 4.0, 3.5                                             # shortest note and split after a trim
+    seq = [c for c in caps if c.get("anchor")]
+    for i_, c in enumerate(seq):
+        prev_end = seq[i_ - 1]["t1"] if i_ else -1e9
+        next_start = seq[i_ + 1]["t0"] if i_ + 1 < len(seq) else 1e9
+        for sp_ in SPLITS:
+            if sp_["mode"] not in ("stack", "pullback"): continue
+            if (c["t0"] < sp_["t1"] - 0.5 and c["t1"] > sp_["t0"] + 0.5) or in_split_view(c, sp_): continue
+            cd, sd = c["t1"] - c["t0"], sp_["t1"] - sp_["t0"]
+            if sp_["t0"] - 1.7 < c["t1"] <= sp_["t0"] + 0.5:          # the note ends as the camera leaves for the split
+                need = c["t1"] - (sp_["t0"] - 1.7)
+                keeps = all(tc <= c["t1"] - need - 0.3 for tc, _ in c.get("chords", []))     # no chord name lost
+                if cd - need >= CMIN and keeps: c["t1"] -= need; TIME_INFO.append((c, f"ends {need:.1f} s earlier, before the split at {mm(sp_['t0'])}"))
+                elif sd - need >= SMIN: sp_["t0"] += need; TIME_INFO.append((sp_, f"starts {need:.1f} s later, after the note ending {mm(c['t1'])}"))
+                elif cd - need >= CMIN: c["t1"] -= need; TIME_INFO.append((c, f"ends {need:.1f} s earlier, before the split at {mm(sp_['t0'])}"))
+                elif c["t0"] - need >= prev_end + 0.2: c["t0"] -= need; c["t1"] -= need; TIME_INFO.append((c, f"shown {need:.1f} s earlier, before the split at {mm(sp_['t0'])}"))
+                else: TIME_NOTES.append((c, f"ends {sp_['t0'] - c['t1']:.1f} s before the split at {mm(sp_['t0'])}, which does not show its staff"))
+            if sp_["t1"] - 0.5 <= c["t0"] < sp_["t1"] + 2.0:          # the note starts before the camera is back from the split
+                need = sp_["t1"] + 2.0 - c["t0"]
+                if cd - need >= CMIN: c["t0"] += need; TIME_INFO.append((c, f"starts {need:.1f} s later, after the split ending {mm(sp_['t1'])}"))
+                elif sd - need >= SMIN: sp_["t1"] -= need; TIME_INFO.append((sp_, f"ends {need:.1f} s earlier, before the note at {mm(c['t0'])}"))
+                elif c["t1"] + need <= next_start - 0.2: c["t0"] += need; c["t1"] += need; TIME_INFO.append((c, f"shown {need:.1f} s later, after the split ending {mm(sp_['t1'])}"))
+                else: TIME_NOTES.append((c, f"starts {c['t0'] - sp_['t1']:.1f} s after the split ending {mm(sp_['t1'])}, which does not show its staff"))
+    for a, b in zip(seq, seq[1:]):                                    # two notes in a row on staves too far apart for one view
+        need = 1.5 - (b["t0"] - a["t1"])
+        if need <= 0 or any(c["t0"] < sp_["t1"] + 0.5 and c["t1"] > sp_["t0"] - 1.7 for c in (a, b) for sp_ in SPLITS): continue
+        if sees(stave_mid[a["anchor"]["staff"]] - 4 * sp, 1.0, False, 0.0, cap_reqs(b)): continue
+        keeps = all(tc <= a["t1"] - need - 0.3 for tc, _ in a.get("chords", []))
+        if a["t1"] - a["t0"] - need >= CMIN and keeps: a["t1"] -= need; TIME_INFO.append((a, f"ends {need:.1f} s earlier, so the camera can reach the next note"))
+        elif b["t1"] - b["t0"] - need >= CMIN: b["t0"] += need; TIME_INFO.append((b, f"starts {need:.1f} s later, so the camera can reach it"))
+        elif a["t1"] - a["t0"] - need >= CMIN: a["t1"] -= need; TIME_INFO.append((a, f"ends {need:.1f} s earlier, so the camera can reach the next note"))
+        else: TIME_NOTES.append((b, f"follows the note on {a['anchor']['staff']} too closely for the camera to reach it"))
 def caption_target(t):
     """while a note on the score is shown (and 2 s before, so the camera has arrived), aim at its staff, a little above
     the staff's middle so the label over it is in shot too"""
@@ -511,29 +695,99 @@ def caption_target(t):
         an = c.get("anchor")
         if an and c["t0"] - 2.0 <= t <= c["t1"]: return stave_mid[an["staff"]] - 4 * sp
     return None
-def visible_left_x(Hm, y, U, margin=110):
-    """the leftmost x on the strip, along height y, that this camera shows at least margin px inside the frame
-    (found on a 20 px grid, then refined by bisection so that text pinned there moves smoothly, without steps)"""
+VIEW_Y = [0.0, float(H)]        # the rows of the frame that the view being drawn fills (one panel of a split fills half)
+def visible_span_x(Hm, ys, U, margin=110):
+    """(left, right): the stretch of the strip, along the heights ys, that this view shows at least margin px inside
+    its part of the frame (found on a 20 px grid, then refined by bisection so that text held at an end moves smoothly)"""
+    wf = Hm[2] @ np.array([U, ys[0], 1.0])
     def good_at(xs):
-        P = Hm @ np.stack([xs, np.full_like(xs, y), np.ones_like(xs)])
-        w = P[2]; ok = w * (Hm[2] @ np.array([U, y, 1.0])) > 0     # the same side of the camera as the focus
-        sx = np.where(ok, P[0] / np.where(ok, w, 1), -1e9); sy = np.where(ok, P[1] / np.where(ok, w, 1), -1e9)
-        return ok & (sx >= margin) & (sx < W) & (sy > 40) & (sy < H - 40)
-    xs = np.arange(U - 5000, U + 1, 20, dtype=np.float64)
+        ok_all = np.ones(len(xs), bool)
+        for y in ys:
+            P = Hm @ np.stack([xs, np.full_like(xs, y), np.ones_like(xs)])
+            w = P[2]; ok = w * wf > 0                              # the same side of the camera as the focus
+            sx = np.where(ok, P[0] / np.where(ok, w, 1), -1e9); sy = np.where(ok, P[1] / np.where(ok, w, 1), -1e9)
+            ok_all &= ok & (sx >= margin) & (sx < W - margin * 0.5) & (sy > VIEW_Y[0] + 30) & (sy < VIEW_Y[1] - 30)
+        return ok_all
+    xs = np.arange(U - 5000, U + 5001, 20, dtype=np.float64)
     good = np.nonzero(good_at(xs))[0]
-    if not len(good): return U - 950
-    hi = float(xs[good[0]]); lo = hi - 20.0
-    for _ in range(12):
-        mid = (lo + hi) / 2
-        if good_at(np.array([mid]))[0]: hi = mid
-        else: lo = mid
-    return hi
+    if not len(good): return U - 950, U - 950
+    def refine(inside, outside):
+        for _ in range(12):
+            mid = (inside + outside) / 2
+            if good_at(np.array([mid]))[0]: inside = mid
+            else: outside = mid
+        return inside
+    return refine(float(xs[good[0]]), float(xs[good[0]]) - 20.0), refine(float(xs[good[-1]]), float(xs[good[-1]]) + 20.0)
 def x_at_s(ts):
     """x on the strip at score time ts (first notes, or the bar line when it is a bar's start)"""
     q = s2q(ts)
     for bq, bx in BLX.items():
         if abs(bq - q) < 1e-3: return bx
     return play_x(q) - 1.2 * sp
+if ANN is not None:
+    fit_splits(CAPS); settle_times(CAPS); SPLIT_NOTES.clear(); SPLIT_INFO.clear(); fit_splits(CAPS)
+# A note's label is written at one fixed place on the paper: at the start of its bracket, or further right when the
+# passage is long, so that it is still in shot when the note is about to go. (It follows the left edge of the frame
+# only if no fixed place is in shot for the whole time.)
+for c in CAPS:
+    an = c.get("anchor")
+    if not an: continue
+    al_ = ov.text_alpha(c.get("short", c["kind"]), "italic", 64); cw = 3.2 * sp * al_.shape[1] / al_.shape[0]
+    bx0 = x_at_s(an["t0"]) - sp
+    need = play_x(s2q(max(c["t1"] - 0.8, c["t0"]))) - 330       # in shot shortly before the note goes
+    room = play_x(s2q(c["t0"])) + 880 - cw                      # in shot when the note appears
+    in_split = any(c["t0"] < sp_["t1"] + SPLIT_IN and c["t1"] > sp_["t0"] - SPLIT_IN for sp_ in SPLITS)
+    c["lx"] = bx0 if in_split else min(max(bx0, need), max(bx0, room))   # a split's panel is too narrow for a place further right
+    if A.labels == "names" and A.caption_style == "score":      # a name gives way while a note is drawn over its place
+        bx1 = max(x_at_s(an["t1"]) - sp, c["lx"] + cw)
+        for lab in NAME_LABELS.get(an["staff"], []):
+            if lab[0] > bx0 - 3 * sp and lab[0] - lab[1] < bx1 + 3 * sp: lab[2].append((c["t0"], c["t1"]))
+if A.annotations_check:
+    mmss = lambda t: f"{int(t // 60)}:{t % 60:04.1f}"
+    def onsets(st, t0, t1): return sum(1 for n_ in N if n_[5] == st and t0 - 1e-6 <= n_[0] < t1 - 1e-6)
+    def sounding(st, t0, t1): return sum(1 for n_ in N if n_[5] == st and n_[0] < t1 - 1e-6 and n_[1] > t0 + 1e-6)
+    end_s = q2s(bar_qn[-1]); bad = 0
+    def flag(msg):
+        global bad
+        bad += 1; print(f"      !! {msg}")
+    print(f"splits: {len(ANN.get('splits', []))}")
+    for i_, (x, sp_) in enumerate(zip(ANN.get("splits", []), SPLITS)):
+        d_ = sp_["t1"] - sp_["t0"]; dist = sp_["vb"] - sp_["va"]
+        near_ = lambda v: ABBR_R.get(min(names, key=lambda n_: abs(stave_mid[n_] - v)), "?")
+        shows = (f"pulled back x{sp_['zp']:.2f}" if sp_["mode"] == "pullback" else
+                 " | ".join(f"{near_(sp_['r' + k_][0] + PAD_UP)}-{near_(sp_['r' + k_][1] - PAD_DN)} x{sp_['z' + k_]:.2f}" for k_ in "ab"))
+        print(f"  {mmss(sp_['t0'])}-{mmss(sp_['t1'])} ({d_:4.1f} s) bars {x.get('bars', '?'):9s} {sp_['mode']:8s} {ABBR_R.get(x['upper'])} x{sp_['za0']} / {ABBR_R.get(x['lower'])} x{sp_['zb0']}; shows {shows}")
+        for s2_, msg in SPLIT_NOTES:
+            if s2_ is sp_: flag(msg)
+        for s2_, msg in SPLIT_INFO + TIME_INFO:
+            if s2_ is sp_: print(f"      ({msg})")
+        if not (0 <= sp_["t0"] < sp_["t1"] <= end_s + 1e-6): flag("outside the movement")
+        if d_ < 3.0: flag("shorter than 3 s")
+        if dist <= 0: flag("upper is not above lower")
+        if sp_["mode"] not in ("stack", "pullback"): flag(f"mode {sp_['mode']}")
+        if not (1.0 <= sp_["za0"] <= 1.8 and 1.0 <= sp_["zb0"] <= 1.8): flag("zoom outside 1.0-1.8")
+        if i_ and sp_["t0"] - SPLITS[i_ - 1]["t1"] < 4.0: flag(f"only {sp_['t0'] - SPLITS[i_ - 1]['t1']:.1f} s after the previous split")
+    print(f"notes: {len(CAPS)}")
+    for i_, c in enumerate(CAPS):
+        d_ = c["t1"] - c["t0"]; an = c.get("anchor")
+        print(f"  {mmss(c['t0'])}-{mmss(c['t1'])} ({d_:4.1f} s) bars {c.get('bars', '?'):9s} {c['kind']:13s} [{an['staff'] if an else '-'}] {c.get('short', '')}")
+        if not (0 <= c["t0"] < c["t1"] <= end_s + 1e-6): flag("outside the movement")
+        if not (4.0 - 1e-3 <= d_ <= 12.0 + 1e-3): flag("not 4-12 s long")
+        if an and (an["t0"] > c["t1"] or an["t1"] < c["t0"]): flag("the bracket is not shown during the note's time")
+        if i_ and c["t0"] < CAPS[i_ - 1]["t1"] - 1e-6: flag("overlaps the previous note")
+        if len(c.get("short", "")) > 48: flag(f"short text has {len(c['short'])} characters")
+        if c["kind"] not in ("Theme", "Motive", "Harmony", "Counterpoint", "Form", "Orchestration", "Quotation"): flag(f"kind {c['kind']}")
+        if not an: flag("no anchor"); continue
+        if not sounding(an["staff"], an["t0"], an["t1"]): flag(f"{an['staff']} has no notes inside the bracket")
+        if an["t1"] <= an["t0"]: flag("anchor ends before it starts")
+        for tc, lab in c.get("chords", []):
+            if not (c["t0"] - 4.0 <= tc <= c["t1"]): flag(f"chord {lab} at {mmss(tc)} is outside the note's time")
+        for c2_, msg in TIME_INFO:
+            if c2_ is c: print(f"      ({msg})")
+        for c2_, msg in TIME_NOTES:
+            if c2_ is c: flag(msg)
+    print(f"{bad} problems")
+    sys.exit(1 if bad else 0)
 def draw_score_notes(layer, t, Hm, U):
     """caption style 'score': a bracket drawn round the passage, its label written on the paper above it, and chord
     names written above the staff as the music reaches them"""
@@ -557,8 +811,9 @@ def draw_score_notes(layer, t, Hm, U):
             lab = c.get("short", c["kind"])
             al_ = ov.text_alpha(lab, "italic", 64)
             hh = 3.2 * sp; ww = hh * al_.shape[1] / al_.shape[0]
-            yb = y0 - (6.2 if c.get("chords") else 0.9) * sp        # leave a row for the chord names
-            x0 = max(x0, visible_left_x(Hm, yb, U))              # the label stays in shot when the bracket's start has passed
+            yb = y0 - 0.9 * sp
+            xl_, xr_ = visible_span_x(Hm, [yb, yb - hh - 2.2 * sp], U)
+            x0 = max(min(c["lx"], xr_ - ww), xl_)                # fixed on the paper; moved only as far as keeps it in the shot
             q = cv2.perspectiveTransform(np.float32([[[x0, yb - hh], [x0 + ww, yb - hh], [x0 + ww, yb], [x0, yb]]]), Hm)[0]
             ov.warp_sprite(layer, al_, q, np.float32(ov.GOLD) * a)
             kd = ov.text_alpha(c["kind"].upper(), "sansbold", 40)
@@ -571,7 +826,7 @@ def draw_score_notes(layer, t, Hm, U):
             ac = a * float(np.clip((t - tc + 0.15) / 0.3, 0, 1))
             st = c.get("chord_staff", an["staff"] if an else names[0])
             x0 = play_x(s2q(tc)) - 0.4 * sp
-            y1 = staves[st][0] - top - 3.0 * sp; hh = 2.6 * sp
+            hh = 2.6 * sp; y1 = staves[st][1] - top + 3.0 * sp + hh   # below the staff, as harmonic analysis is written; the label is above
             al_ = ov.text_alpha(lab, "serif", 64); ww = hh * al_.shape[1] / al_.shape[0]
             q = cv2.perspectiveTransform(np.float32([[[x0, y1 - hh], [x0 + ww, y1 - hh], [x0 + ww, y1], [x0, y1]]]), Hm)[0]
             ov.warp_sprite(layer, al_, q, np.float32([235, 238, 255]) * ac)
@@ -708,7 +963,8 @@ def frame_at(t, dt):
         out, Hm = view(t, U, state["v"])
     elif mode == "pullback":
         far = abs(vb - va)
-        out, Hm = view(t, U, state["v"], dmul=1 + sa * (float(np.clip((far + 700) / 1000, 1, 2.6)) - 1), elx=sa * 10, spread=1 + sa * 1.6)
+        zp = sp_.get("zp", float(np.clip((far + 700) / 1000, 1, 2.6)))
+        out, Hm = view(t, U, state["v"], dmul=1 + sa * (zp - 1), elx=sa * 10, spread=1 + sa * 1.6)
     elif mode == "inset":
         out, Hm = view(t, U, state["v"])
         sub, _ = view(t, U, state2["v"], dmul=0.92)
@@ -729,8 +985,11 @@ def frame_at(t, dt):
             ca, cb_ = (W * 0.5, yd * 0.55), (W * 0.5, yd + (H - yd) * 0.55)
         else:
             ca, cb_ = (W * 0.46, yd * 0.55), (W * 0.54, yd + (H - yd) * 0.55)
-        top_, Hm = view(t, U, state["v"], *ca, dmul=1 + sa * (za - 1), spread=1 + sa * (za - 1))
-        bot_, Hm2 = view(t, U, state2["v"], *cb_, dmul=1 + sa * (zb - 1), spread=1 + sa * (zb - 1))
+        VIEW_Y[:] = [0.0, yd]
+        top_, Hm = view(t, U, state["v"], *ca, dmul=1 + sa * (za - 1), spread=1 + sa * (sp_.get("sa", za) - 1))
+        VIEW_Y[:] = [yd, float(H)]
+        bot_, Hm2 = view(t, U, state2["v"], *cb_, dmul=1 + sa * (zb - 1), spread=1 + sa * (sp_.get("sb", zb) - 1))
+        VIEW_Y[:] = [0.0, float(H)]
         if mode == "stack":
             ang = 0.0
         else:   # the seam runs with the staff lines as they lie on the screen

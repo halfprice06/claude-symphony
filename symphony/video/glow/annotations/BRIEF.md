@@ -11,9 +11,9 @@ You are preparing annotations for the glow score video of one movement of Dan's 
 
 ## How the two features look
 
-**Split screen (`stack`).** For the given bars the frame divides with a level seam into an upper view and a lower view. Each view centres on one staff (`upper`, `lower`) and follows the music along the line. Each half shows about ±300 px of the score's height around its staff at zoom 1.0; `upper_zoom` / `lower_zoom` up to 1.8 pull that panel back to show more staves (about ±300 × zoom px).
+**Split screen (`stack`).** For the given bars the frame divides with a level seam into an upper view and a lower view. Each view is named by one staff (`upper`, `lower`) and follows the music along the line. `upper_zoom` / `lower_zoom` (1.0 to 1.8) say how much of the score around that staff the panel may take in: the playing staves within about 300 × zoom px of it. The renderer then fits each panel itself (focus and pull-back) to the staves that your `what` sentence names and that play in those bars, so name in `what` every instrument each panel should show, in ordinary words ("Flute 1", "the cellos", "Horns 3 and 4", "the strings").
 **Pull back (`pullback`).** No split: the one camera rises and pulls back far enough to show both staves (and everything between) at once, then returns. Good when the two groups are moderately far apart (roughly 700–1300 px), when three or more layers matter at once, or when a split would cut a passage that is really one texture.
-**Notes on the score (captions).** A bracket draws itself round a passage on one staff (`anchor`), a short label (`short`) is written on the paper above it with a small kind word (`kind`), and optional chord names (`chords`) appear above a staff as the music reaches them. While a note is shown, the camera aims at its anchor staff, so the anchor must be where the music worth looking at is. During a split, a note's anchor must be within one of the two panels (near `upper` or `lower`).
+**Notes on the score (captions).** A bracket draws itself round a passage on one staff (`anchor`), a short label (`short`) is written on the paper above it with a small kind word (`kind`), and optional chord names (`chords`) appear below the staff as the music reaches them. While a note is shown, the camera aims at its anchor staff, so the anchor must be where the music worth looking at is. During a split, a note's anchor must be within one of the two panels (near `upper` or `lower`). The camera needs about 2 s between a split and a note on a staff the split does not show; the renderer trims the times where they touch, so leave such gaps yourself where the exact times matter.
 
 ## Your inputs
 
@@ -68,6 +68,6 @@ Write one JSON file (the path is in your prompt), UTF-8, in this shape:
 }
 ```
 
-`chord_staff` (optional) puts the chord names over another staff than the anchor. Keep `splits` and `captions` each sorted by time. Validate before you finish: the file loads with `python3 -c "import json; json.load(open(PATH))"`, every staff name is one of the report's names, every position is inside the movement, durations and gaps follow the rules above (use the bar report's times).
+`chord_staff` (optional) puts the chord names under another staff than the anchor. Keep `splits` and `captions` each sorted by time. Validate before you finish (`./make-glow-video.sh MOVEMENT AUDIO.mp3 --annotations-check` runs these checks with exact times when the audio is at hand): the file loads with `python3 -c "import json; json.load(open(PATH))"`, every staff name is one of the report's names, every position is inside the movement, durations and gaps follow the rules above (use the bar report's times).
 
 Do not change any other file. Return a short plain summary: how many splits and notes, the bars of each, and anything you were unsure of and left out.
