@@ -27,6 +27,18 @@ ap.add_argument("--env", help="audio file for the loudness envelope (default: --
 ap.add_argument("--jobs", type=int, default=1)
 ap.add_argument("--part", type=int, nargs=2, help=argparse.SUPPRESS)      # first and last frame (internal, --jobs)
 ap.add_argument("--focus-report", action="store_true", help="print the staff the camera follows, bar by bar, and stop")
+ap.add_argument("--split", default="none", choices=["none", "stack", "slant", "inset", "pullback"],
+                help="when two far-apart groups both lead: split the screen in two bands, along the slant of the score, "
+                     "show the second group in an inset window, or pull the camera back to show both")
+ap.add_argument("--split-report", action="store_true", help="print the stretches that would get a split screen, and stop")
+ap.add_argument("--split-bars", type=int, nargs="*", help="split only in these bar ranges (pairs A B), groups found from the stems")
+ap.add_argument("--split-staves", nargs=2, help="with --split-bars: the staves the upper and lower views centre on")
+ap.add_argument("--captions", help="analysis captions (JSON, see overlays.load_captions)")
+ap.add_argument("--caption-style", default="bar", choices=["bar", "score", "card"],
+                help="a subtitle band, notes written on the score next to the notes they describe, or a card with music examples")
+ap.add_argument("--labels", default="none", choices=["none", "letters", "icons", "names"],
+                help="say which instrument plays: abbreviations riding on the jumping lights, the lights drawn as "
+                     "instrument icons, or the instrument's name glowing on the paper beside its line")
 A = ap.parse_args()
 W, H = 1920, 1080
 CHILD = A.part is not None
@@ -88,6 +100,10 @@ for m in re.finditer(r'<g class="(\w+)"((?: data-[\w-]+="[^"]*")*)>', svg):
     else:
         notes.append((float(attr["m"]), float(attr.get("d", 0)), pts[0][0] * k, pts[0][1] * k))
 names = sorted(staves, key=lambda n: staves[n][0])
+BLX = {}
+for m in re.finditer(r'<g class="bl" data-m="([-\d.]+)">', svg):
+    pts = tr.findall(svg[m.end():m.end() + 600])
+    if pts: BLX[float(m.group(1))] = min(BLX.get(float(m.group(1)), 1e12), float(pts[0][0]) * k)
 five = [n for n in names if staves[n][1] - staves[n][0] > 1]
 sp = (staves[five[0]][1] - staves[five[0]][0]) / 4          # staff space in px
 def staff_of(y):
@@ -119,18 +135,19 @@ TRACKS = []
 for st, dct in _G.items():
     ts = sorted(dct); groups = [sorted(dct[t], key=lambda p: p[1]) for t in ts]
     nb = min(max(len(g) for g in groups), 3)
-    TRACKS.append((np.array(ts), groups, np.array(COL.get(st, (255, 255, 255)), np.float32), nb))
+    TRACKS.append((np.array(ts), groups, np.array(COL.get(st, (255, 255, 255)), np.float32), nb, st))
 DROP = 0.55
 def balls_at(t):
-    """(x, y, z, alpha, colour) of every ball at time t"""
+    """(x, y, z, alpha, colour, staff, voice) of every ball at time t"""
     out = []
-    for ts, groups, col, nb in TRACKS:
+    for ts, groups, col, nb, st in TRACKS:
+        n0 = len(out)
         i = int(np.searchsorted(ts, t, side="right")) - 1
         for j in range(nb):
             if i < 0:
                 if ts[0] - t < DROP:
                     q = groups[0][min(j, len(groups[0]) - 1)]; s_ = (ts[0] - t) / DROP
-                    out.append((q[0], q[1], 260 * s_ * s_, 1 - s_, col))
+                    out.append((q[0], q[1], 260 * s_ * s_, 1 - s_, col, st, j))
                 continue
             g = groups[i]; p_ = g[min(j, len(g) - 1)]; end = max(n[2] for n in g)
             if i + 1 < len(ts):
@@ -157,6 +174,7 @@ def balls_at(t):
                         out.append((q[0], q[1], 260 * s_ * s_, 1 - s_, col))
             else:
                 if t <= end + 0.3: out.append((p_[0], p_[1], 0.0, float(np.clip((end + 0.3 - t) / 0.3, 0, 1)) if t > end else 1.0, col))
+            if len(out) > n0 and len(out[-1]) == 5: out[-1] = out[-1] + (st, j)
     return out
 NT0 = np.array([n[0] for n in N]); NT1 = np.array([n[1] for n in N])
 NX = np.array([n[2] for n in N]); NY = np.array([n[3] for n in N])
@@ -267,10 +285,98 @@ def focus_track():
             held = (i - since) / FOCUS_SR
             if (d[best] > 1.5 * d[cur] and held >= DWELL) or (d[cur] < 0.25 * d[best] and held >= 1.0): cur = best; since = i
         out[i] = vs[cur]
+    FT.update(D=D, vs=vs, Wt=Wt, n=n)
     return out
+FT = {}
 FOCUS = focus_track()
 def feat_v(t):
     return float(FOCUS[int(np.clip(t * FOCUS_SR, 0, len(FOCUS) - 1))])
+def bar_at(t): return int(np.searchsorted(bar_qn, s2q(t), side="right"))
+
+# ---------- split screen: two groups of staves far apart that both lead ----------
+SEP = 900.0        # px of score height: farther apart than one view shows well
+def split_track():
+    """[(t0, t1, v_upper, v_lower, why)]: stretches where two groups of staves at least SEP apart both matter, either
+    because the loudness density has a second peak there at least 0.6 of the first, or because a staff near the top and
+    one near the bottom play the same rhythm (a doubling across the score)"""
+    D, vs, Wt, n = FT["D"], FT["vs"], FT["Wt"], FT["n"]
+    up = np.full(n, np.nan); lo = np.full(n, np.nan); why = np.zeros(n, int)
+    # local maxima of the density over the height
+    for i in range(n):
+        d = D[:, i]
+        if d.max() <= 1e-9: continue
+        pk = [k for k in range(len(d)) if d[k] > 0.05 * d.max() and d[k] >= d[max(k - 8, 0):k + 9].max()]
+        if len(pk) < 2: continue
+        p1 = max(pk, key=lambda k: d[k])
+        far = [k for k in pk if abs(vs[k] - vs[p1]) >= SEP]
+        if not far: continue
+        p2 = max(far, key=lambda k: d[k])
+        if d[p2] >= 0.6 * d[p1]:
+            up[i], lo[i] = sorted((vs[p1], vs[p2])); why[i] = 1
+    # rhythmic doubling between far staves (each staff's onsets in [t - 1, t + 2])
+    ons = {s_: np.unique(np.round([nn[0] for nn in N if nn[5] == s_], 3)) for s_ in names}
+    act = Wt > 0
+    for i in range(0, n, 5):
+        t = i / FOCUS_SR
+        win = {s_: o[(o >= t - 1) & (o < t + 2)] for s_, o in ons.items()}
+        best = None
+        for a_ in names:
+            if len(win[a_]) < 4: continue
+            for b_ in names:
+                if stave_mid[b_] - stave_mid[a_] < SEP or len(win[b_]) < 4: continue
+                oa, ob = win[a_], win[b_]
+                j = np.searchsorted(ob, oa).clip(1, len(ob) - 1)
+                hit = (np.minimum(np.abs(ob[j] - oa), np.abs(ob[j - 1] - oa)) < 0.04).sum()
+                sim = hit / max(len(oa), len(ob))
+                if sim >= 0.8 and (best is None or sim > best[0]): best = (sim, a_, b_)
+        if best and np.isnan(up[i]):
+            for k in range(i, min(i + 5, n)):
+                up[k], lo[k] = stave_mid[best[1]], stave_mid[best[2]]; why[k] = 2
+    c = ~np.isnan(up)
+    # close gaps up to 1.5 s, keep stretches of 4 s or more
+    runs, i = [], 0
+    while i < n:
+        if not c[i]: i += 1; continue
+        j = i
+        while j < n and (c[j] or (j + 15 < n and c[j:j + 15].any())): j += 1
+        if (j - i) / FOCUS_SR >= 4.0:
+            seg = slice(i, j); ok = c[seg]
+            runs.append([i / FOCUS_SR, j / FOCUS_SR, float(np.median(up[seg][ok])), float(np.median(lo[seg][ok])),
+                         "loud" if (why[seg] == 1).sum() >= (why[seg] == 2).sum() else "doubling"])
+        i = j
+    return runs
+def split_at_bars(pairs):
+    """split stretches for the given bars: the two groups are the density's two strongest peaks at least SEP apart"""
+    D, vs = FT["D"], FT["vs"]; out = []
+    for a_, b_ in zip(pairs[::2], pairs[1::2]):
+        t0, t1 = q2s(bar_qn[a_ - 1]), q2s(bar_qn[b_])
+        ups, los = [], []
+        for i in range(int(t0 * FOCUS_SR), int(t1 * FOCUS_SR)):
+            d = D[:, i]
+            if d.max() <= 1e-9: continue
+            p1 = int(d.argmax()); far = np.abs(vs - vs[p1]) >= SEP
+            if not far.any(): continue
+            p2 = int(np.argmax(np.where(far, d, -1)))
+            u_, l_ = sorted((vs[p1], vs[p2])); ups.append(u_); los.append(l_)
+        if A.split_staves: out.append([t0, t1, stave_mid[A.split_staves[0]], stave_mid[A.split_staves[1]], "staves"])
+        elif ups: out.append([t0, t1, float(np.median(ups)), float(np.median(los)), "bars"])
+    return out
+if A.split_bars: SPLITS = split_at_bars(A.split_bars)
+else: SPLITS = split_track() if (A.split != "none" or A.split_report) else []
+SPLIT_IN = 1.1     # s: the screen opens into two views (and closes again) over this time
+def split_amount(t):
+    """(0..1 eased, upper target, lower target) of the split screen at time t"""
+    for t0, t1, va, vb, _ in SPLITS:
+        if t0 - SPLIT_IN <= t <= t1 + SPLIT_IN:
+            x = float(np.clip(min((t - (t0 - SPLIT_IN)) / SPLIT_IN, (t1 + SPLIT_IN - t) / SPLIT_IN), 0, 1))
+            return x * x * (3 - 2 * x), va, vb
+    return 0.0, None, None
+if A.split_report:
+    near = lambda v: min(names, key=lambda s_: abs(stave_mid[s_] - v))
+    for t0, t1, a_, b_, w_ in SPLITS:
+        print(f"{t0:6.1f}-{t1:6.1f}s  bars {bar_at(t0):3d}-{bar_at(t1):3d}  {near(a_):14s} + {near(b_):14s}  ({w_})")
+    sys.exit()
+
 if A.focus_report:
     bq = bar_qn
     for b in range(1, len(bq)):
@@ -282,11 +388,13 @@ if A.focus_report:
 FOC = 2600.0
 CAM = dict(az=45.0, el=38.0, roll=12.0, d=1450.0)
 if os.environ.get("CAM"): CAM.update(json.loads(os.environ["CAM"]))
-def camera(tu, tv, t):
-    """3D camera over the sheet (z up out of the paper), behind-left of the focus, looking up the page and along the line"""
+def camera(tu, tv, t, cx=None, cy=None, dmul=1.0, elx=0.0):
+    """3D camera over the sheet (z up out of the paper), behind-left of the focus, looking up the page and along the line;
+    the focus lands at screen (cx, cy) (default: centre, a little low)"""
+    cx = W * 0.5 if cx is None else cx; cy = H * 0.55 if cy is None else cy
     az = math.radians(CAM["az"] + 2.0 * math.sin(t / 23.0))
-    el = math.radians(CAM["el"] + 1.5 * math.sin(t / 19.0))
-    d = CAM["d"] + 50 * math.sin(t / 31.0)
+    el = math.radians(CAM["el"] + elx + 1.5 * math.sin(t / 19.0))
+    d = (CAM["d"] + 50 * math.sin(t / 31.0)) * dmul
     T = np.array([tu, tv, 0.0])
     back = np.array([-math.sin(az), math.cos(az), 0.0])
     C = T + d * (math.cos(el) * back + math.sin(el) * np.array([0, 0, 1.0]))
@@ -297,7 +405,7 @@ def camera(tu, tv, t):
     def proj3(P):
         P = np.atleast_2d(P); D = P - C
         z = D @ f; x = FOC * (D @ r) / z; y = -FOC * (D @ u) / z
-        return np.stack([W * 0.5 + cr * x - sr * y, H * 0.55 + sr * x + cr * y], 1), z
+        return np.stack([cx + cr * x - sr * y, cy + sr * x + cr * y], 1), z
     src = np.float32([[tu - 400, tv - 400], [tu + 400, tv - 400], [tu + 400, tv + 400], [tu - 400, tv + 400]])
     dst, _ = proj3(np.c_[src, np.zeros(4)])
     return cv2.getPerspectiveTransform(src, dst.astype(np.float32)), proj3
@@ -307,38 +415,135 @@ V_W = 2.5        # rad/s: up and down the camera moves as a critically damped sp
                  # a move between winds and strings takes about 2 s. (A plain 2.5 s lag never arrived before the next
                  # change and left the camera between the groups.)
 V_MAX = 1300.0   # px/s (about nine staves a second): the speed limit keeps the longest moves from looking like a jump
+state2 = {"v": None, "vv": 0.0}          # the second view of a split screen
+def spring(st_, tv, dt):
+    st_["vv"] += (V_W * V_W * (tv - st_["v"]) - 2 * V_W * st_["vv"]) * dt
+    st_["vv"] = float(np.clip(st_["vv"], -V_MAX, V_MAX))
+    st_["v"] += st_["vv"] * dt
 def step(t, dt):
     """move the camera's focus for the frame at time t (along the line: 0.9 s lag; up and down: the spring above)"""
     tu = play_x(s2q(max(t + 0.6, 0))) + 120
     tv = feat_v(t + 1.0)
+    sa, va, vb = split_amount(t + 0.6)
     if state["u"] is None: state["u"], state["v"], state["vv"] = tu, tv, 0.0
     state["u"] += (tu - state["u"]) * (1 - math.exp(-dt / 0.9))
-    state["vv"] += (V_W * V_W * (tv - state["v"]) - 2 * V_W * state["vv"]) * dt
-    state["vv"] = float(np.clip(state["vv"], -V_MAX, V_MAX))
-    state["v"] += state["vv"] * dt
+    if sa > 0 and A.split in ("stack", "slant"):
+        tv = va                                   # the upper view takes the upper group
+    elif sa > 0 and A.split == "pullback":
+        tv = (va + vb) / 2                        # look between the groups while pulled back
+    spring(state, tv, dt)
+    if sa > 0:
+        if state2["v"] is None: state2["v"], state2["vv"] = state["v"], state["vv"]   # the second view splits off the first
+        other = vb if A.split in ("stack", "slant") else (vb if abs(vb - state["v"]) > abs(va - state["v"]) else va)
+        spring(state2, other, dt)
+    else:
+        state2["v"] = None
+
+import overlays as ov
+ICON_HOVER = 3.4 * sp                       # an icon floats this high over its note, so the lit note stays visible
+# names on the paper: one per phrase (notes less than 1.2 s apart), written where the phrase starts and pulled along
+# once the camera has moved on; fades in with the first note and out a second after the last
+PHRASES = {}
+for t0, t1, x, y, c, st in N:
+    ph = PHRASES.setdefault(st, [])
+    if ph and t0 - ph[-1][1] < 1.2: ph[-1][1] = max(ph[-1][1], t1)
+    else: ph.append([t0, t1, x, c])
+def draw_names(layer, t, Hm, U):
+    for st, ph in PHRASES.items():
+        for t0, t1, x, c in ph:
+            if not (t0 - 0.4 <= t <= t1 + 1.4): continue
+            a = float(np.clip(min((t - t0 + 0.4) / 0.4, (t1 + 1.4 - t) / 0.6), 0, 1))
+            hh = 3.0 * sp                                   # text height on the paper
+            al_ = ov.text_alpha(ov.NAME.get(st, st), "italic", 64)
+            ww = hh * al_.shape[1] / al_.shape[0]
+            x0 = max(x - 1.6 * sp - ww, U - 950)            # just before the phrase's first note, or pulled along
+            y1 = staves[st][0] - top - 0.6 * sp; y0 = y1 - hh
+            q = cv2.perspectiveTransform(np.float32([[[x0, y0], [x0 + ww, y0], [x0 + ww, y1], [x0, y1]]]), Hm)[0]
+            ov.warp_sprite(layer, al_, q, np.minimum(255, np.array(c) * 0.55 + 115) * a)
+CAPS = []
+if A.captions:
+    def pos_to_s(p):
+        b, _, qq = str(p).partition(".")
+        return q2s(bar_qn[int(b) - 1] + (float(qq) - 1 if qq else 0))
+    CAPS = ov.load_captions(A.captions, pos_to_s)
+def x_at_s(ts):
+    """x on the strip at score time ts (first notes, or the bar line when it is a bar's start)"""
+    q = s2q(ts)
+    for bq, bx in BLX.items():
+        if abs(bq - q) < 1e-3: return bx
+    return play_x(q) - 1.2 * sp
+def draw_score_notes(layer, t, Hm):
+    """caption style 'score': a bracket drawn round the passage, its label written on the paper above it, and chord
+    names written above the staff as the music reaches them"""
+    for c in CAPS:
+        a = ov.fade(t, c["t0"], c["t1"])
+        if a <= 0: continue
+        an = c.get("anchor")
+        if an:
+            st = an["staff"]; x0, x1 = x_at_s(an["t0"]) - sp, x_at_s(an["t1"]) - sp
+            y0, y1 = staves[st][0] - top - 2.2 * sp, staves[st][1] - top + 2.2 * sp
+            pts = np.float32([[x0, y0], [x1, y0], [x1, y1], [x0, y1], [x0, y0]])
+            # the outline draws itself over 0.8 s
+            dr = float(np.clip((t - c["t0"]) / 0.8, 0, 1))
+            seg = np.linalg.norm(np.diff(pts, axis=0), axis=1); L = seg.sum() * dr
+            path = [pts[0]]
+            for i_, sl in enumerate(seg):
+                if L <= 0: break
+                f_ = min(1.0, L / sl); path.append(pts[i_] + (pts[i_ + 1] - pts[i_]) * f_); L -= sl
+            P = cv2.perspectiveTransform(np.float32(path)[None], Hm)[0]
+            cv2.polylines(layer, [np.round(P * 4).astype(np.int32)], False, (np.float32(ov.GOLD) * 0.9 * a).tolist(), 2, cv2.LINE_AA, 2)
+            lab = c.get("short", c["kind"])
+            al_ = ov.text_alpha(lab, "italic", 64)
+            hh = 3.2 * sp; ww = hh * al_.shape[1] / al_.shape[0]
+            yb = y0 - (6.2 if c.get("chords") else 0.9) * sp        # leave a row for the chord names
+            q = cv2.perspectiveTransform(np.float32([[[x0, yb - hh], [x0 + ww, yb - hh], [x0 + ww, yb], [x0, yb]]]), Hm)[0]
+            ov.warp_sprite(layer, al_, q, np.float32(ov.GOLD) * a)
+            kd = ov.text_alpha(c["kind"].upper(), "sansbold", 40)
+            hk = 1.7 * sp; wk = hk * kd.shape[1] / kd.shape[0]
+            yk = yb - hh - 0.5 * sp
+            q = cv2.perspectiveTransform(np.float32([[[x0, yk - hk], [x0 + wk, yk - hk], [x0 + wk, yk], [x0, yk]]]), Hm)[0]
+            ov.warp_sprite(layer, kd, q, np.float32(ov.GOLD) * 0.75 * a)
+        for tc, lab in c.get("chords", []):
+            if t < tc - 0.15: continue
+            ac = a * float(np.clip((t - tc + 0.15) / 0.3, 0, 1))
+            st = c.get("chord_staff", an["staff"] if an else names[0])
+            x0 = play_x(s2q(tc)) - 0.4 * sp
+            y1 = staves[st][0] - top - 3.0 * sp; hh = 2.6 * sp
+            al_ = ov.text_alpha(lab, "serif", 64); ww = hh * al_.shape[1] / al_.shape[0]
+            q = cv2.perspectiveTransform(np.float32([[[x0, y1 - hh], [x0 + ww, y1 - hh], [x0 + ww, y1], [x0, y1]]]), Hm)[0]
+            ov.warp_sprite(layer, al_, q, np.float32([235, 238, 255]) * ac)
+def draw_caption_panel(img, t):
+    for c in CAPS:
+        a = ov.fade(t, c["t0"], c["t1"])
+        if a <= 0: continue
+        if A.caption_style == "bar":
+            o, y0 = ov.bar_overlay(c, W, H); ov.composite(img, o, 0, y0, a)
+        else:
+            o, (x0, y0) = ov.card_overlay(c, W, H); ov.composite(img, o, x0, y0, a)
 
 _gr = np.random.default_rng(7)
 GRAIN = [(_gr.normal(0, 1.0, (H, W, 1))).astype(np.float32) for _ in range(8)]
-def frame_at(t, dt):
-    step(t, dt)
-    Hm, proj3 = camera(state["u"], state["v"], t)
+def view(t, U, V, cx=None, cy=None, dmul=1.0, elx=0.0, spread=1.0):
+    """the sheet, the lit notes and the lights as one camera at focus (U, V) sees them (float RGB, before vignette)"""
+    Hm, proj3 = camera(U, V, t, cx, cy, dmul, elx)
     # crop the flat sheet to what the camera can see
     Hi = np.linalg.inv(Hm)
     cs = cv2.perspectiveTransform(np.float32([[[0, 0], [W, 0], [W, H], [0, H], [W / 2, 0]]]), Hi)[0]
-    u0 = int(max(0, min(state["u"] - 5000, cs[:, 0].min()))); u1 = int(min(FW, max(cs[:, 0].max(), 0)))
-    u0 = max(u0, int(state["u"] - 7000)); u1 = min(u1, int(state["u"] + 7000))
+    reach = 7000 * dmul
+    u0 = int(max(0, min(U - 5000 * dmul, cs[:, 0].min()))); u1 = int(min(FW, max(cs[:, 0].max(), 0)))
+    u0 = max(u0, int(U - reach)); u1 = min(u1, int(U + reach))
     if u1 <= u0 + 10: u0, u1 = 0, min(FW, 14000)
     Tm = np.array([[1, 0, u0], [0, 1, 0], [0, 0, 1]], np.float64)
     img = cv2.warpPerspective(flat[:, u0:u1], Hm @ Tm, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT, borderValue=(10, 10, 12)).astype(np.float32)
     # lighting: dim the sheet away from the playing area
-    fx, fy = cv2.perspectiveTransform(np.float32([[[state["u"], state["v"]]]]), Hm)[0, 0]
+    fx, fy = cv2.perspectiveTransform(np.float32([[[U, V]]]), Hm)[0, 0]
     yy, xx = np.mgrid[0:H:8, 0:W:8]
-    fall = np.exp(-(((xx - fx) / 1500) ** 2 + ((yy - fy) / 900) ** 2)).astype(np.float32)
+    fall = np.exp(-(((xx - fx) / 1500) ** 2 + ((yy - fy) / (900 * spread)) ** 2)).astype(np.float32)
     fall = cv2.resize(0.45 + 0.45 * fall, (W, H))
     img *= fall[..., None]
     # depth of field: soften far from the focus
     blur = cv2.GaussianBlur(img, (0, 0), 3.0)
-    dm = cv2.resize(np.clip((np.abs(yy - fy) / 520) ** 1.5 + (np.abs(xx - fx) / 1500) ** 2, 0, 1).astype(np.float32), (W, H))
+    dm = cv2.resize(np.clip((np.abs(yy - fy) / (520 * spread)) ** 1.5 + (np.abs(xx - fx) / 1500) ** 2, 0, 1).astype(np.float32), (W, H))
     img = img * (1 - dm[..., None]) + blur * dm[..., None]
     # notes lit now
     lo = np.searchsorted(NT0, t - 40); hi = np.searchsorted(NT0, t + 0.001)
@@ -371,28 +576,44 @@ def frame_at(t, dt):
                 cv2.ellipse(glow, (int(x * 4), int(y * 4)), (max(1, int(ax * 4 * rk)), max(1, int(ay * 4 * rk))), ang, 0, 360, (NC[idx[j]] * 0.55 * (1 - s_) ** 2).tolist(), 3, cv2.LINE_AA, 2)
     # the bouncing lights
     bl_ = balls_at(t)
+    ovl = np.zeros((H, W, 3), np.float32)          # crisp light drawn after the halos: letters, names, notes on the score
     if bl_:
-        B = np.array([[b[0], b[1] - top, b[2]] for b in bl_], np.float64)
+        B = np.array([[b[0], b[1] - top, b[2] + (ICON_HOVER if (A.labels == "icons" and b[6] == 0) else 0)] for b in bl_], np.float64)
         sc, dep = proj3(B)
         gp, _ = proj3(np.c_[B[:, :2], np.zeros(len(B))])
         # motion trail: where each airborne ball was over the last few frames
         for kt in range(1, 7):
             tb = [b for b in balls_at(t - kt * 0.018) if b[2] > 3]
             if not tb: continue
-            TB = np.array([[b[0], b[1] - top, b[2]] for b in tb], np.float64)
+            TB = np.array([[b[0], b[1] - top, b[2] + (ICON_HOVER if (A.labels == "icons" and b[6] == 0) else 0)] for b in tb], np.float64)
             tsc, tdep = proj3(TB)
-            for (x_, y_, z_, al, col), (sx, sy), dz in zip(tb, tsc, tdep):
+            for (x_, y_, z_, al, col, *_), (sx, sy), dz in zip(tb, tsc, tdep):
                 if dz <= 300: continue
                 rr = FOC * 0.42 * sp / dz * (1 - kt * 0.1)
                 cv2.circle(glow, (int(sx * 4), int(sy * 4)), max(2, int(rr * 4)), (np.array(col, np.float32) * al * 0.5 * (1 - kt / 7)).tolist(), -1, cv2.LINE_AA, 2)
-        for (x_, y_, z_, al, col), (sx, sy), dz, (gx, gy) in zip(bl_, sc, dep, gp):
+        for (x_, y_, z_, al, col, st_, j_), (sx, sy), dz, (gx, gy) in zip(bl_, sc, dep, gp):
             if al <= 0.01 or dz <= 300: continue    # a ball at or behind the camera (a long note's head) would cover the frame
             rr = FOC * 0.42 * sp / dz
             c = np.array(col, np.float32)
-            if z_ > 4:   # a pool of light on the paper under the ball, fainter the higher it flies
-                pa = al * 0.5 * max(0.0, 1 - z_ / 260)
+            icon = A.labels == "icons" and j_ == 0
+            zz = z_ + (ICON_HOVER if icon else 0)
+            if zz > 4:   # a pool of light on the paper under the ball, fainter the higher it flies
+                pa = al * 0.5 * max(0.0, 1 - zz / 260)
                 cv2.ellipse(glow, (int(gx * 4), int(gy * 4)), (int(rr * 4 * 2.2), int(rr * 4 * 1.1)), CAM["roll"], 0, 360, (c * pa).tolist(), -1, cv2.LINE_AA, 2)
-            cv2.circle(glow, (int(sx * 4), int(sy * 4)), max(2, int(rr * 4)), (np.minimum(255, c * 0.55 + 140) * al * 1.25).tolist(), -1, cv2.LINE_AA, 2)
+            if icon:     # the light drawn as its instrument, hovering over the note: a soft glow behind, the icon crisp
+                cv2.circle(glow, (int(sx * 4), int(sy * 4)), max(2, int(rr * 4 * 1.6)), (c * al * 0.55).tolist(), -1, cv2.LINE_AA, 2)
+                ov.add_sprite(ovl, ov.icon_alpha(ov.ICON.get(st_, "violin"), float(np.clip(rr * 9.0, 64, 112))), sx, sy,
+                              np.minimum(255, c * 0.5 + 135) * al)
+            else:
+                cv2.circle(glow, (int(sx * 4), int(sy * 4)), max(2, int(rr * 4)), (np.minimum(255, c * 0.55 + 140) * al * 1.25).tolist(), -1, cv2.LINE_AA, 2)
+            if A.labels == "letters" and j_ == 0:   # the part's abbreviation riding just above its light
+                fp = float(np.clip(rr * 4.2, 28, 46))
+                w_ = al * float(np.clip(1.35 - math.hypot(sx - W / 2, sy - H * 0.55) / (0.6 * W), 0, 1))
+                if w_ > 0.02:
+                    ov.add_sprite(ovl, ov.text_alpha(ov.ABBR.get(st_, st_), "sansbold", fp), sx, sy - rr - fp * 0.8,
+                                  np.minimum(255, c * 0.6 + 110) * w_)
+    if A.labels == "names": draw_names(ovl, t, Hm, U)
+    if CAPS and A.caption_style == "score": draw_score_notes(ovl, t, Hm)
     core = glow
     # tight halo keeps each note separate; the wide one only tints the paper.
     # A soft limit stops overlapping halos from adding up to a white blob.
@@ -405,9 +626,66 @@ def frame_at(t, dt):
     Hw = halo2 * (3.4 + 2.6 * loud(t))
     Hw = 95 * (1 - np.exp(-Hw / 95))
     out = img + G + Hw + img * (halo1 * 1.0 + Hw).mean(2, keepdims=True) / 160
+    if ovl.any():   # darken the paper round the text so it reads over the notation, then add the text
+        m = cv2.GaussianBlur(np.clip(ovl.max(2) / 90, 0, 1), (0, 0), 7)
+        out *= 1 - 0.62 * np.clip(m * 2.2, 0, 1)[..., None]
+        out += ovl + cv2.GaussianBlur(ovl, (0, 0), 2.4) * 0.9
+    return out, Hm
+
+_yy, _xx = np.mgrid[0:H, 0:W].astype(np.float32)
+VIGNETTE = np.clip(1.15 - 0.55 * (((_xx - W / 2) / (W / 2)) ** 2 + ((_yy - H / 2) / (H / 2)) ** 2), 0, 1)[..., None]
+def frame_at(t, dt):
+    step(t, dt)
+    sa, va, vb = split_amount(t + 0.6)
+    U = state["u"]
+    if sa <= 0.001 or A.split == "none":
+        out, Hm = view(t, U, state["v"])
+    elif A.split == "pullback":
+        far = abs(vb - va)
+        out, Hm = view(t, U, state["v"], dmul=1 + sa * (float(np.clip((far + 700) / 1000, 1, 2.6)) - 1), elx=sa * 10, spread=1 + sa * 1.6)
+    elif A.split == "inset":
+        out, Hm = view(t, U, state["v"])
+        sub, _ = view(t, U, state2["v"], dmul=0.92)
+        sw, sh = int(W * 0.40), int(H * 0.40)
+        small = cv2.resize(sub * VIGNETTE ** 0.5, (sw, sh), interpolation=cv2.INTER_AREA)
+        below = state2["v"] > state["v"]
+        x0 = W - sw - 44; y0 = (H - sh - 44) if below else 44
+        sc_ = 0.85 + 0.15 * sa                        # the window grows in from its corner
+        small = cv2.resize(small, (max(8, int(sw * sc_)), max(8, int(sh * sc_))), interpolation=cv2.INTER_AREA)
+        sh2, sw2 = small.shape[:2]; x0 += sw - sw2; y0 += (sh - sh2) if below else 0
+        shadow = np.zeros((H, W), np.float32); shadow[y0:y0 + sh2, x0:x0 + sw2] = 1
+        shadow = cv2.GaussianBlur(shadow, (0, 0), 18)[..., None]
+        out = out * (1 - 0.55 * sa * shadow)
+        inset = (small, x0, y0, sa)                   # pasted after the vignette, so the corner window stays bright
+    else:   # stack / slant: the lower view opens from the foot of the frame
+        yd = H * (1 - 0.5 * sa)
+        if A.split == "stack":
+            ca, cb_ = (W * 0.5, yd * 0.55), (W * 0.5, yd + (H - yd) * 0.55)
+        else:
+            ca, cb_ = (W * 0.46, yd * 0.55), (W * 0.54, yd + (H - yd) * 0.55)
+        top_, Hm = view(t, U, state["v"], *ca)
+        bot_, Hm2 = view(t, U, state2["v"], *cb_)
+        if A.split == "stack":
+            ang = 0.0
+        else:   # the seam runs with the staff lines as they lie on the screen
+            p0, p1 = cv2.perspectiveTransform(np.float32([[[U - 300, state["v"]], [U + 300, state["v"]]]]), Hm)[0]
+            ang = math.atan2(p1[1] - p0[1], p1[0] - p0[0])
+        sd = (_yy - yd) - (_xx - W / 2) * math.tan(ang)          # signed distance below the seam (vertical)
+        m = np.clip(sd / 3.0 + 0.5, 0, 1)[..., None]
+        out = top_ * (1 - m) + bot_ * m
+        seam = np.exp(-(sd / 1.6) ** 2)[..., None] * np.float32([150, 160, 185]) * sa
+        out += seam + cv2.GaussianBlur(seam, (0, 0), 6) * 1.2
     # vignette
-    out *= cv2.resize(np.clip(1.15 - 0.55 * (((xx - W / 2) / (W / 2)) ** 2 + ((yy - H / 2) / (H / 2)) ** 2), 0, 1).astype(np.float32), (W, H))[..., None]
+    out *= VIGNETTE
+    if A.split == "inset" and sa > 0.001:
+        small, x0, y0, sa = inset; sh2, sw2 = small.shape[:2]
+        win = out[y0:y0 + sh2, x0:x0 + sw2]
+        out[y0:y0 + sh2, x0:x0 + sw2] = win * (1 - sa) + small * sa
+        frame = np.zeros((H, W, 3), np.float32)
+        cv2.rectangle(frame, (x0, y0), (x0 + sw2 - 1, y0 + sh2 - 1), (205, 212, 228), 2, cv2.LINE_AA)
+        out += (frame + cv2.GaussianBlur(frame, (0, 0), 3) * 0.8) * 0.55 * sa
     out += GRAIN[int(t * 30) % len(GRAIN)]   # fine film grain so the dark sheet doesn't band
+    if CAPS and A.caption_style in ("bar", "card"): draw_caption_panel(out, t)
     return np.clip(out, 0, 255).astype(np.uint8)
 
 if A.bars:
@@ -456,6 +734,10 @@ for j in range(A.jobs):
     if _ea: args += ["--env", _ea]
     if A.stems: args += ["--stems", A.stems]
     if A.bars: args += ["--bars", str(A.bars[0]), str(A.bars[1])]
+    args += ["--split", A.split, "--labels", A.labels, "--caption-style", A.caption_style]
+    if A.split_bars: args += ["--split-bars"] + [str(b) for b in A.split_bars]
+    if A.split_staves: args += ["--split-staves"] + A.split_staves
+    if A.captions: args += ["--captions", A.captions]
     procs.append(subprocess.Popen(args, env=dict(os.environ, OMP_NUM_THREADS="1", OPENBLAS_NUM_THREADS="1")))
 codes = [p.wait() for p in procs]
 if any(codes): sys.exit(f"a part failed: {codes}")

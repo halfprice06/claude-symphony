@@ -50,3 +50,12 @@ The mp3s are not in the repo (they are in the project's shared folder and in the
 | 3 | The lights faded on landing, then lit up again before the jump | Lights stay fully lit until they jump. Also added the loudness-driven glow, strike rings, motion trails and grain |
 
 "ok that looks good" after pass 4 (excerpt bars 53–64). The four whole-movement videos (2026-11-23) keep that look; what changed is listed above (the camera's vertical aim from the stems and how it moves, the guard against lights behind the camera, CRF 18 instead of 17 to keep a movement under 400 MB).
+
+## Concept options (2026-11-23, off by default)
+
+Dan asked for concepts before choosing: a split screen when two groups matter at once, a way to show which instrument is playing, and running analysis captions. The options below are in `glow_video.py` and `tools/overlays.py`; nothing changes unless one is passed. The test clips used Movement I 67–75 (split), Movement I 76–84 (labels) and Movement II 60–66 (captions).
+
+- `--split stack|slant|inset|pullback` with `--split-bars A B [A B …]` and optionally `--split-staves UPPER LOWER`: a second camera (its own spring) for the bars given. `stack` divides the frame with a level seam, `slant` along the staff lines, `inset` puts the second view in a corner window (pasted after the vignette), `pullback` raises and widens the one camera instead. Without `--split-bars` the moments come from the stems (`split_track`), but that splits during most loud tutti passages; use a hand-made list. `--split-report` prints the moments.
+- `--labels letters|icons|names`: abbreviations riding above each part's first light (`ABBR`), instrument outline icons drawn as the light (`icons/*.svg`, `ICON`), or the name written on the paper in perspective at the start of each phrase (`NAME`). Text and icons go in a crisp layer; the paper is darkened around them so they read over the notation.
+- `--captions FILE --caption-style bar|score|card`: captions from a JSON list (`concepts/captions-mvt2-60-65.json`): positions as "bar.quarter", `kind`, `text`, `short`, an `anchor` staff for the bracket, `chords` to write over the staff, and `examples` (PNG notation made with LilyPond, `concepts/ex-*.ly`). `bar` is a subtitle band, `score` a bracket and label drawn on the paper with chord names, `card` a card at the top left with the examples. Captions must come from the notes and the movements' analysis notes, checked bar by bar.
+- C059 has no ♭ or ♯; `overlays.py` switches to FreeSerif/FreeSans for those characters.
