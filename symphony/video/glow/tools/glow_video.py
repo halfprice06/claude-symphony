@@ -1,44 +1,55 @@
 """Glowing-score video: the engraved score as one long line on a dark sheet, seen at an angle by a moving camera;
 each note lights up in its part's colour while it sounds (after the look of Gilmar Araújo's animated scores).
 
-python3 glow_video.py --strip strip/b --tempo parts.json --audio mockup.mp3 --out out.mp4 [--bars 53 64] [--still T ...]
+python3 glow_video.py --strip BUILD --tempo data/<mvt>-tempo.json --audio mockup.mp3 [--stems data/<mvt>-stems.npz]
+                      --out out.mp4 [--bars 53 64] [--still T ...] [--jobs 4]
+
+--tempo: {"tempo": [[qn, bpm], ...], "head_s": s}; the tempo map REAPER played; head_s is the audio before score qn 0.
+--stems: 20 Hz loudness of each mockup stem; the camera looks at the staves that are loudest (without it, at the
+         staves with the most onsets).
+--jobs N renders N parts of the video in parallel processes and joins them; the frames are the same as one process makes.
 """
-import argparse, json, math, re, subprocess, sys, os
+import argparse, json, math, re, subprocess, sys, os, tempfile
 import numpy as np, cv2
 from PIL import Image
 Image.MAX_IMAGE_PIXELS = None
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from features import FEATURES
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--strip", required=True)
 ap.add_argument("--tempo", required=True)
 ap.add_argument("--audio")
+ap.add_argument("--stems")
 ap.add_argument("--out", required=True)
 ap.add_argument("--bars", type=int, nargs=2)
 ap.add_argument("--fps", type=int, default=30)
 ap.add_argument("--still", type=float, nargs="*")
 ap.add_argument("--env", help="audio file for the loudness envelope (default: --audio)")
+ap.add_argument("--jobs", type=int, default=1)
+ap.add_argument("--part", type=int, nargs=2, help=argparse.SUPPRESS)      # first and last frame (internal, --jobs)
+ap.add_argument("--focus-report", action="store_true", help="print the staff the camera follows, bar by bar, and stop")
 A = ap.parse_args()
 W, H = 1920, 1080
+CHILD = A.part is not None
+def log(*a):
+    if not CHILD: print(*a, file=sys.stderr, flush=True)
 
 # ---------- time ----------
-bars = []
-for line in open(f"{A.strip}/sections.txt"):
-    p = line.split()
-    if len(p) >= 3: bars += [int(p[2])] * int(p[1])
-bar_qn = np.concatenate([[0], np.cumsum(bars)]).astype(float)
-END_QN = bar_qn[-1]
-steps = [tuple(x) for x in json.load(open(A.tempo))["tempo"]]
+TJ = json.load(open(A.tempo))
+HEAD = float(TJ.get("head_s", 0.0))          # audio seconds before score qn 0
+steps = [tuple(x) for x in TJ["tempo"]]
 def q2s(q):
     t, lq, lb = 0.0, 0.0, steps[0][1]
     for tq, b in steps[1:]:
         if tq >= q: break
         t += (tq - lq) * 60 / lb; lq, lb = tq, b
     return t + (q - lq) * 60 / lb
-gq = np.linspace(0, END_QN + 4, 30000); gt = np.array([q2s(q) for q in gq])
+
+svg = open(f"{A.strip}/strip.svg").read()
+bl = sorted({float(x) for x in re.findall(r'<g class="bl" data-m="([-\d.]+)"', svg)} - {0.0})
+bar_qn = np.array([0.0] + [b for b in bl if b > 0])      # bar k starts at bar_qn[k-1]; the last entry is the end
+END_QN = float(bar_qn[-1])
+gq = np.linspace(0, END_QN + 4, 40000); gt = np.array([q2s(q) for q in gq])
 def s2q(t): return float(np.interp(t, gt, gq))
-def bar_at(q): return int(np.searchsorted(bar_qn, q + 1e-6, side="right"))
 
 # loudness envelope of the recording: the lights swell with the orchestra
 ENV_SR = 200
@@ -53,20 +64,20 @@ if _ea:
 else:
     ENV = None
 def loud(t):
+    t = t + HEAD                   # score seconds -> file seconds
     if ENV is None or t < 0: return 0.5
     return float(ENV[min(int(t * ENV_SR), len(ENV) - 1)])
 
 # ---------- layout from the SVG ----------
-svg = open(f"{A.strip}/strip.svg").read()
 vb = [float(x) for x in re.search(r'viewBox="([^"]+)"', svg).group(1).split()]
-ink_img = Image.open(f"{A.strip}/strip2.png").convert("L")
-k = ink_img.size[0] / vb[2]
+PNG_W = Image.open(f"{A.strip}/strip2.png").size[0]
+k = PNG_W / vb[2]
 tr = re.compile(r'translate\(([-\d.]+), ([-\d.]+)\)')
 staves, notes = {}, []
 for m in re.finditer(r'<g class="(\w+)"((?: data-[\w-]+="[^"]*")*)>', svg):
     cls, attr = m.group(1), dict(re.findall(r'data-([\w-]+)="([^"]*)"', m.group(2)))
     if cls not in ("st", "nh"): continue
-    end = svg.find("</g>\n</g>", m.end()) if cls == "nh" else svg.find('<g class=', m.end())
+    end = svg.find("</g>\n</g>", m.end())        # the group's own end (a one-line staff must not run into the next grobs)
     body = svg[m.end():end if end > 0 else m.end() + 4000]
     pts = [(float(x), float(y)) for x, y in tr.findall(body)]
     if not pts: continue
@@ -76,16 +87,17 @@ for m in re.finditer(r'<g class="(\w+)"((?: data-[\w-]+="[^"]*")*)>', svg):
     else:
         notes.append((float(attr["m"]), float(attr.get("d", 0)), pts[0][0] * k, pts[0][1] * k))
 names = sorted(staves, key=lambda n: staves[n][0])
-sp = (staves[names[0]][1] - staves[names[0]][0]) / 4          # staff space in px
+five = [n for n in names if staves[n][1] - staves[n][0] > 1]
+sp = (staves[five[0]][1] - staves[five[0]][0]) / 4          # staff space in px
 def staff_of(y):
-    best = min(names, key=lambda n: max(staves[n][0] - y, y - staves[n][1], 0))
-    return best
+    return min(names, key=lambda n: max(staves[n][0] - y, y - staves[n][1], 0))
 COL = {  # per part, LED-like colours (RGB)
     "Flutes 1·2": (120, 200, 255), "Oboes 1·2": (190, 255, 120), "Cor anglais": (230, 255, 140),
     "Clarinets 1·2": (255, 130, 220), "Bass clarinet": (220, 110, 255), "Bassoons 1·2": (255, 170, 80),
     "Contrabassoon": (255, 140, 60), "Horns 1·2": (255, 210, 120), "Horns 3·4": (255, 190, 100),
+    "Trumpets 1·2": (255, 240, 90), "Trumpet 3": (255, 225, 70),
     "Trombones 1·2": (255, 80, 70), "Bass trombone": (255, 70, 90), "Tuba": (240, 90, 60),
-    "Timpani": (255, 255, 255), "Harp RH": (110, 255, 230), "Harp LH": (90, 230, 255),
+    "Timpani": (255, 255, 255), "Percussion": (215, 225, 255), "Harp RH": (110, 255, 230), "Harp LH": (90, 230, 255),
     "Violins I": (255, 240, 215), "Violins II": (255, 205, 160), "Violas": (200, 170, 255),
     "Violoncellos": (255, 160, 190), "Double basses": (255, 130, 130)}
 def sat(c, k=1.5):
@@ -155,28 +167,107 @@ oq = np.array(sorted(on)); ox = np.array([on[q] for q in oq])
 ox = np.maximum.accumulate(ox)
 def play_x(q): return float(np.interp(q, oq, ox))
 
-# ---------- flat sheet ----------
+# ---------- flat sheet (built once, shared by the parts through a memory-mapped file) ----------
 top = int(min(v[0] for v in staves.values()) - 14 * sp); bot = int(max(v[1] for v in staves.values()) + 10 * sp)
-ink = np.asarray(ink_img, np.float32)[max(top, 0):bot] / 255.0   # 1 = paper, 0 = ink
-NY = NY - max(top, 0)
-FH, FW = ink.shape
+top = max(top, 0)
+NY = NY - top
+FLAT = f"{A.strip}/flat-{top}-{bot}.npy"
 PAPER = np.array([98, 101, 112], np.float32); INK = np.array([18, 19, 24], np.float32)
-# paper texture: a slow brightness variation so the sheet reads as a surface
-rng = np.random.default_rng(3)
-tex = cv2.resize(rng.normal(0, 1, (FH // 64 + 2, FW // 64 + 2)).astype(np.float32), (FW, FH), interpolation=cv2.INTER_CUBIC)
-paper = PAPER[None, None, :] * (1 + 0.035 * tex[..., None])
-flat = (paper * ink[..., None] + INK * (1 - ink[..., None])).clip(0, 255).astype(np.uint8)
-del paper, tex
+if not os.path.exists(FLAT):
+    log("building the sheet", FLAT)
+    ink_all = Image.open(f"{A.strip}/strip2.png").convert("L")
+    ink = np.asarray(ink_all)[top:bot]
+    FH, FW = ink.shape
+    # paper texture: a slow brightness variation so the sheet reads as a surface
+    rng = np.random.default_rng(3)
+    tex = cv2.resize(rng.normal(0, 1, (FH // 64 + 2, FW // 64 + 2)).astype(np.float32), (FW, FH), interpolation=cv2.INTER_CUBIC)
+    flat = np.lib.format.open_memmap(FLAT + ".tmp.npy", mode="w+", dtype=np.uint8, shape=(FH, FW, 3))
+    for c0 in range(0, FW, 4096):
+        i_ = ink[:, c0:c0 + 4096, None].astype(np.float32) / 255.0      # 1 = paper, 0 = ink
+        paper = PAPER[None, None, :] * (1 + 0.035 * tex[:, c0:c0 + 4096, None])
+        flat[:, c0:c0 + 4096] = (paper * i_ + INK * (1 - i_)).clip(0, 255).astype(np.uint8)
+    flat.flush(); del flat, tex, ink, ink_all
+    os.replace(FLAT + ".tmp.npy", FLAT)
+flat = np.load(FLAT, mmap_mode="r")
+FH, FW = flat.shape[:2]
 
-stave_mid = {n: (staves[n][0] + staves[n][1]) / 2 - max(top, 0) for n in names}
+stave_mid = {n: (staves[n][0] + staves[n][1]) / 2 - top for n in names}
 V_ALL = (stave_mid[names[0]] + stave_mid[names[-1]]) / 2
 
-def feat_v(bar):
-    for a, b, lines, _ in FEATURES:
-        if a <= bar <= b:
-            vs = [stave_mid[s] for s, r in lines if s in stave_mid and r == "p"]
-            if vs: return float(np.mean(vs))
-    return V_ALL
+# ---------- where the camera looks up and down the score ----------
+# The loudest staves (from the mockup's stems) a moment ahead: a loudness-weighted density over the height of the
+# score, and its highest peak. A new peak takes over only when it is clearly stronger (x1.5) than the one being
+# followed, so the camera does not swing between two groups of similar weight.
+def stem_staves(nm):
+    """the strip staves a mockup stem plays on"""
+    pre = [("Bass clarinet", ["Bass clarinet"]), ("Contrabassoon", ["Contrabassoon"]), ("Bass trombone", ["Bass trombone"]),
+           ("Flute", ["Flutes 1·2"]), ("Oboe", ["Oboes 1·2"]), ("Cor anglais", ["Cor anglais"]), ("Clarinet", ["Clarinets 1·2"]),
+           ("Bassoon", ["Bassoons 1·2"]), ("Horn 3", ["Horns 3·4"]), ("Horn 4", ["Horns 3·4"]), ("Horn", ["Horns 1·2"]),
+           ("Trumpet 3", ["Trumpet 3"] if "Trumpet 3" in staves else ["Trumpets 1·2"]), ("Trumpet", ["Trumpets 1·2"]),
+           ("Trombone", ["Trombones 1·2"]), ("Tuba", ["Tuba"]), ("Timpani", ["Timpani"]),
+           ("Tam-tam", ["Percussion"]), ("Suspended cymbal", ["Percussion"]), ("Crash cymbals", ["Percussion"]), ("Bass drum", ["Percussion"]),
+           ("Harp", ["Harp RH", "Harp LH"]), ("Violins II", ["Violins II"]), ("Violin", ["Violins I"]), ("Viola", ["Violas"]),
+           ("Violoncello", ["Violoncellos"]), ("Cello", ["Violoncellos"]), ("Double bass", ["Double basses"])]
+    for p, sts in pre:
+        if nm.startswith(p): return [s for s in sts if s in stave_mid]
+    return []
+FOCUS_SR = 10
+# amplitude weights: a solo wind line stands out at a lower level than a string section; rolls and cymbals rarely
+# carry the line
+FAMILY_GAIN = {**{s: 1.6 for s in ("Flutes 1·2", "Oboes 1·2", "Cor anglais", "Clarinets 1·2", "Bass clarinet", "Bassoons 1·2", "Contrabassoon")},
+               **{s: 0.8 for s in ("Violins I", "Violins II", "Violas", "Violoncellos", "Double basses")},
+               "Timpani": 0.6, "Percussion": 0.6}
+DWELL = 3.0      # seconds the camera stays with a group of staves before it may switch to another
+def focus_track():
+    n = int((q2s(END_QN) + 12) * FOCUS_SR)
+    tt = np.arange(n) / FOCUS_SR
+    sids = {s: i for i, s in enumerate(names)}
+    Wt = np.zeros((len(names), n))                    # weight per staff over time
+    if A.stems:
+        z = np.load(A.stems)
+        fr = float(z["frame"]); dbm = z["db"].astype(np.float32)
+        en = 10 ** (dbm / 10)                          # energy per 50 ms frame
+        # mean energy over [t - 0.25, t + 1.75] s: the camera looks a little ahead
+        w0, w1 = int(round(0.25 / fr)), int(round(1.75 / fr))
+        cs = np.concatenate([np.zeros((len(en), 1)), np.cumsum(en, 1)], 1)
+        idx = np.clip(np.round(tt / fr).astype(int), 0, en.shape[1] - 1)
+        lo = np.clip(idx - w0, 0, en.shape[1]); hi = np.clip(idx + w1, 1, en.shape[1])
+        mean = (cs[:, hi] - cs[:, lo]) / np.maximum(hi - lo, 1)
+        for i, nm in enumerate(z["names"]):
+            sts = stem_staves(str(nm))
+            for s in sts: Wt[sids[s]] += mean[i] * FAMILY_GAIN.get(s, 1.0) ** 2 / len(sts)
+        Wt = np.sqrt(Wt)                                # amplitude
+    else:
+        for t0, t1, x, y, c, st in N:
+            a_, b_ = int((t0 - 1.75) * FOCUS_SR), int((t0 + 0.25) * FOCUS_SR)
+            Wt[sids[st], max(a_, 0):max(b_, 0)] += 1
+        Wt = np.minimum(Wt, 4)
+    vs = np.arange(0, FH, 10.0)
+    K = np.exp(-0.5 * ((vs[:, None] - np.array([stave_mid[s] for s in names])[None, :]) / 250.0) ** 2)
+    D = K @ Wt                                          # density over the height, per time step
+    out = np.empty(n); cur = None; since = 0
+    for i in range(n):
+        d = D[:, i]
+        if d.max() <= 1e-9:
+            out[i] = vs[cur] if cur is not None else V_ALL; continue
+        best = int(d.argmax())
+        if cur is None: cur = best
+        else:
+            # follow the peak being watched as it drifts; switch only to a clearly stronger one, and not too often
+            lo_, hi_ = max(cur - 30, 0), min(cur + 31, len(vs))
+            cur = lo_ + int(d[lo_:hi_].argmax())
+            if d[best] > 1.5 * d[cur] and (i - since) >= DWELL * FOCUS_SR: cur = best; since = i
+        out[i] = vs[cur]
+    return out
+FOCUS = focus_track()
+def feat_v(t):
+    return float(FOCUS[int(np.clip(t * FOCUS_SR, 0, len(FOCUS) - 1))])
+if A.focus_report:
+    bq = bar_qn
+    for b in range(1, len(bq)):
+        t = q2s(bq[b - 1]); v = feat_v(t + 1.0)
+        print(f"bar {b:3d} {t:6.1f}s  {min(names, key=lambda s_: abs(stave_mid[s_] - v))}")
+    sys.exit()
 
 # ---------- camera ----------
 FOC = 2600.0
@@ -203,22 +294,25 @@ def camera(tu, tv, t):
     return cv2.getPerspectiveTransform(src, dst.astype(np.float32)), proj3
 
 state = {"u": None, "v": None}
-_gr = np.random.default_rng(7)
-GRAIN = [(_gr.normal(0, 1.0, (H, W, 1))).astype(np.float32) for _ in range(8)]
-def frame_at(t, dt):
-    q = s2q(max(t, 0))
+def step(t, dt):
+    """move the camera's focus for the frame at time t (smoothed: 0.9 s along the line, 2.5 s up and down)"""
     tu = play_x(s2q(max(t + 0.6, 0))) + 120
-    tv = feat_v(bar_at(s2q(t + 1.0)))
+    tv = feat_v(t + 1.0)
     if state["u"] is None: state["u"], state["v"] = tu, tv
     state["u"] += (tu - state["u"]) * (1 - math.exp(-dt / 0.9))
     state["v"] += (tv - state["v"]) * (1 - math.exp(-dt / 2.5))
+
+_gr = np.random.default_rng(7)
+GRAIN = [(_gr.normal(0, 1.0, (H, W, 1))).astype(np.float32) for _ in range(8)]
+def frame_at(t, dt):
+    step(t, dt)
     Hm, proj3 = camera(state["u"], state["v"], t)
     # crop the flat sheet to what the camera can see
     Hi = np.linalg.inv(Hm)
     cs = cv2.perspectiveTransform(np.float32([[[0, 0], [W, 0], [W, H], [0, H], [W / 2, 0]]]), Hi)[0]
     u0 = int(max(0, min(state["u"] - 5000, cs[:, 0].min()))); u1 = int(min(FW, max(cs[:, 0].max(), 0)))
     u0 = max(u0, int(state["u"] - 7000)); u1 = min(u1, int(state["u"] + 7000))
-    if u1 <= u0 + 10: u0, u1 = 0, FW
+    if u1 <= u0 + 10: u0, u1 = 0, min(FW, 14000)
     Tm = np.array([[1, 0, u0], [0, 1, 0], [0, 0, 1]], np.float64)
     img = cv2.warpPerspective(flat[:, u0:u1], Hm @ Tm, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT, borderValue=(10, 10, 12)).astype(np.float32)
     # lighting: dim the sheet away from the playing area
@@ -246,9 +340,10 @@ def frame_at(t, dt):
         pts = cv2.perspectiveTransform(np.stack([NX[idx], NY[idx]], 1)[None].astype(np.float32), Hm)[0]
         pr = cv2.perspectiveTransform(np.stack([NX[idx] + sp * 0.62, NY[idx]], 1)[None].astype(np.float32), Hm)[0]
         pv = cv2.perspectiveTransform(np.stack([NX[idx], NY[idx] + sp * 0.48], 1)[None].astype(np.float32), Hm)[0]
+        _, ndep = proj3(np.c_[NX[idx], NY[idx], np.zeros(len(idx))])   # depth in front of the camera
         for j in range(len(idx)):
             I = float(inten[j])
-            if I < 0.02: continue
+            if I < 0.02 or ndep[j] < 300: continue    # notes behind the camera would project mirrored, as huge blobs
             x, y = pts[j]
             if not (-80 < x < W + 80 and -80 < y < H + 80): continue
             ax = float(np.hypot(*(pr[j] - pts[j]))); ay = float(np.hypot(*(pv[j] - pts[j])))
@@ -260,23 +355,23 @@ def frame_at(t, dt):
                 s_ = age[j] / 0.3; rk = 1.3 + 1.6 * s_
                 cv2.ellipse(glow, (int(x * 4), int(y * 4)), (max(1, int(ax * 4 * rk)), max(1, int(ay * 4 * rk))), ang, 0, 360, (NC[idx[j]] * 0.55 * (1 - s_) ** 2).tolist(), 3, cv2.LINE_AA, 2)
     # the bouncing lights
-    bl = balls_at(t)
-    if bl:
-        B = np.array([[b[0], b[1] - max(top, 0), b[2]] for b in bl], np.float64)
+    bl_ = balls_at(t)
+    if bl_:
+        B = np.array([[b[0], b[1] - top, b[2]] for b in bl_], np.float64)
         sc, dep = proj3(B)
         gp, _ = proj3(np.c_[B[:, :2], np.zeros(len(B))])
         # motion trail: where each airborne ball was over the last few frames
         for kt in range(1, 7):
             tb = [b for b in balls_at(t - kt * 0.018) if b[2] > 3]
             if not tb: continue
-            TB = np.array([[b[0], b[1] - max(top, 0), b[2]] for b in tb], np.float64)
+            TB = np.array([[b[0], b[1] - top, b[2]] for b in tb], np.float64)
             tsc, tdep = proj3(TB)
             for (x_, y_, z_, al, col), (sx, sy), dz in zip(tb, tsc, tdep):
-                if dz <= 10: continue
+                if dz <= 300: continue
                 rr = FOC * 0.42 * sp / dz * (1 - kt * 0.1)
                 cv2.circle(glow, (int(sx * 4), int(sy * 4)), max(2, int(rr * 4)), (np.array(col, np.float32) * al * 0.5 * (1 - kt / 7)).tolist(), -1, cv2.LINE_AA, 2)
-        for (x_, y_, z_, al, col), (sx, sy), dz, (gx, gy) in zip(bl, sc, dep, gp):
-            if al <= 0.01 or dz <= 10: continue
+        for (x_, y_, z_, al, col), (sx, sy), dz, (gx, gy) in zip(bl_, sc, dep, gp):
+            if al <= 0.01 or dz <= 300: continue    # a ball at or behind the camera (a long note's head) would cover the frame
             rr = FOC * 0.42 * sp / dz
             c = np.array(col, np.float32)
             if z_ > 4:   # a pool of light on the paper under the ball, fainter the higher it flies
@@ -308,25 +403,58 @@ else:
 if A.still:
     for t in A.still:
         state["u"] = None
-        for kk in range(45, 0, -1): frame_at(t - kk / A.fps, 1 / A.fps)
+        for kk in range(45, 0, -1): step(t - kk / A.fps, 1 / A.fps)
         cv2.imwrite(f"{A.out}-{t:07.2f}.png", cv2.cvtColor(frame_at(t, 1 / A.fps), cv2.COLOR_RGB2BGR))
     sys.exit()
 
 dur = T1 - T0
-cmd = ["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(A.fps), "-i", "-"]
-if A.audio:
-    if T0 >= 0: cmd += ["-ss", f"{T0:.3f}", "-i", A.audio, "-map", "0:v", "-map", "1:a"]
-    else: cmd += ["-i", A.audio, "-filter_complex", f"[1:a]adelay={int(-T0*1000)}:all=1[a]", "-map", "0:v", "-map", "[a]"]
-    cmd += ["-c:a", "aac", "-b:a", "320k", "-af", f"afade=t=in:d=0.8,afade=t=out:st={dur-1.5:.2f}:d=1.5"] if T0 >= 0 else ["-c:a", "aac", "-b:a", "320k"]
-cmd += ["-c:v", "libx264", "-preset", "medium", "-crf", "17", "-pix_fmt", "yuv420p", "-movflags", "+faststart", "-t", f"{dur:.3f}", A.out]
-pr = subprocess.Popen(cmd, stdin=subprocess.PIPE)
 n = int(dur * A.fps)
-for i in range(n):
-    t = T0 + i / A.fps
-    f = frame_at(t, 1 / A.fps)
-    fade = min(1, (t - T0) / 0.8, (T1 - t) / 1.2)
-    if fade < 1: f = (f * max(fade, 0)).astype(np.uint8)
-    pr.stdin.write(f.tobytes())
-    if i % 300 == 0: print(f"{i}/{n}", file=sys.stderr, flush=True)
-pr.stdin.close(); pr.wait()
+VENC = ["-c:v", "libx264", "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p"]
+
+def render(i0, i1, out):
+    """frames i0..i1-1 to a video-only file (the camera is first stepped through the earlier frames)"""
+    for i in range(i0):
+        step(T0 + i / A.fps, 1 / A.fps)
+    cmd = ["ffmpeg", "-y", "-v", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(A.fps), "-i", "-"] + VENC + [out]
+    pr = subprocess.Popen(cmd, stdin=subprocess.PIPE)
+    for i in range(i0, i1):
+        t = T0 + i / A.fps
+        f = frame_at(t, 1 / A.fps)
+        fade = min(1, (t - T0) / 0.8, (T1 - t) / 1.2)
+        if fade < 1: f = (f * max(fade, 0)).astype(np.uint8)
+        pr.stdin.write(f.tobytes())
+        if (i - i0) % 300 == 0: print(f"part {i0}-{i1}: {i - i0}/{i1 - i0}", file=sys.stderr, flush=True)
+    pr.stdin.close(); pr.wait()
+
+if CHILD:
+    render(A.part[0], A.part[1], A.out)
+    sys.exit()
+
+tmp = tempfile.mkdtemp(prefix="glow-", dir=os.path.dirname(os.path.abspath(A.out)))
+parts = []
+cuts = np.linspace(0, n, A.jobs + 1).astype(int)
+procs = []
+for j in range(A.jobs):
+    pf = f"{tmp}/part{j:02d}.mp4"; parts.append(pf)
+    args = [sys.executable, os.path.abspath(__file__), "--strip", A.strip, "--tempo", A.tempo, "--out", pf, "--fps", str(A.fps),
+            "--part", str(cuts[j]), str(cuts[j + 1])]
+    if _ea: args += ["--env", _ea]
+    if A.stems: args += ["--stems", A.stems]
+    if A.bars: args += ["--bars", str(A.bars[0]), str(A.bars[1])]
+    procs.append(subprocess.Popen(args, env=dict(os.environ, OMP_NUM_THREADS="1", OPENBLAS_NUM_THREADS="1")))
+codes = [p.wait() for p in procs]
+if any(codes): sys.exit(f"a part failed: {codes}")
+open(f"{tmp}/list.txt", "w").write("".join(f"file '{p}'\n" for p in parts))
+cmd = ["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", f"{tmp}/list.txt"]
+if A.audio:
+    a0 = T0 + HEAD                      # file time of the first frame
+    if a0 >= 0: cmd += ["-ss", f"{a0:.3f}", "-i", A.audio]
+    else: cmd += ["-i", A.audio]
+    filt = f"adelay={int(round(-a0 * 1000))}:all=1," if a0 < 0 else ""
+    filt += f"afade=t=in:d=0.8,afade=t=out:st={dur - 1.5:.2f}:d=1.5" if A.bars else "anull"
+    cmd += ["-map", "0:v", "-map", "1:a", "-af", filt, "-c:a", "aac", "-b:a", "320k"]
+cmd += ["-c:v", "copy", "-movflags", "+faststart", "-t", f"{dur:.3f}", A.out]
+subprocess.run(cmd, check=True)
+for p in parts: os.remove(p)
+os.remove(f"{tmp}/list.txt"); os.rmdir(tmp)
 print("done", A.out, f"{dur:.1f}s")
