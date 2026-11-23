@@ -26,7 +26,8 @@ ap.add_argument("--still", type=float, nargs="*")
 ap.add_argument("--env", help="audio file for the loudness envelope (default: --audio)")
 ap.add_argument("--jobs", type=int, default=1)
 ap.add_argument("--part", type=int, nargs=2, help=argparse.SUPPRESS)      # first and last frame (internal, --jobs)
-ap.add_argument("--focus-report", action="store_true", help="print the staff the camera follows, bar by bar, and stop")
+ap.add_argument("--plan", help=argparse.SUPPRESS)                         # the camera path the parent process planned (internal, --jobs)
+ap.add_argument("--focus-report", action="store_true", help="print the loudest group of staves bar by bar (what the camera would follow with no notes or splits), and stop")
 ap.add_argument("--focus-report-full", action="store_true", help="with --focus-report: also the staff layout and the note onsets per staff in each bar")
 ap.add_argument("--split", default="none", choices=["none", "stack", "slant", "inset", "pullback"],
                 help="when two far-apart groups both lead: split the screen in two bands, along the slant of the score, "
@@ -36,6 +37,7 @@ ap.add_argument("--split-bars", type=int, nargs="*", help="split only in these b
 ap.add_argument("--split-staves", nargs=2, help="with --split-bars: the staves the upper and lower views centre on")
 ap.add_argument("--annotations", help="JSON with \"splits\" (each with its own mode stack|pullback and panel zooms) and \"captions\" for the whole movement (annotations/<mvt>.json)")
 ap.add_argument("--annotations-check", action="store_true", help="check the --annotations file against the score and the rules in annotations/BRIEF.md, print every item with its times, and stop")
+ap.add_argument("--camera-report", action="store_true", help="print every move the camera makes up or down the page, with its time and reason, and stop")
 ap.add_argument("--captions", help="analysis captions (JSON, see overlays.load_captions)")
 ap.add_argument("--caption-style", default="score", choices=["bar", "score", "card"],
                 help="a subtitle band, notes written on the score next to the notes they describe, or a card with music examples")
@@ -223,12 +225,12 @@ FH, FW = flat.shape[:2]
 stave_mid = {n: (staves[n][0] + staves[n][1]) / 2 - top for n in names}
 V_ALL = (stave_mid[names[0]] + stave_mid[names[-1]]) / 2
 
-# ---------- where the camera looks up and down the score ----------
-# The loudest staves (from the mockup's stems) a moment ahead: a loudness-weighted density over the height of the
-# score, and its highest peak. Only staves with notes in the window count, so a reverb tail does not hold the camera
-# on bars of rest. A new peak takes over only when it is clearly stronger (x1.5) than the one being followed and the
-# camera has stayed DWELL seconds, or at once (after 1 s) when the group being followed has nearly stopped. Without
-# the dwell, winds and strings answering each other every bar or two kept the camera between them, on empty staves.
+# ---------- which staves lead ----------
+# From the mockup's stems: each staff's loudness a moment ahead (only staves with notes in the window count, so a
+# reverb tail does not count on bars of rest), as a density over the height of the score. The camera's path is planned
+# from the per-staff loudness further below (plan_camera). The track of the highest peak made here (it stays DWELL
+# seconds with a group before a stronger one takes over) is what --focus-report prints and what the automatic split
+# detection uses; until 2026-11-23 the camera chased it frame by frame.
 def stem_staves(nm):
     """the strip staves a mockup stem plays on"""
     pre = [("Bass clarinet", ["Bass clarinet"]), ("Contrabassoon", ["Contrabassoon"]), ("Bass trombone", ["Bass trombone"]),
@@ -477,8 +479,8 @@ def fit_view(reqs, prefer, half, elx=0.0, zmax=2.0):
         hi_f = min(t_ + reach(float(z), half, elx, x_)[0] for t_, _, x_ in reqs)       # nor lower than this
         if lo_f <= hi_f: return float(np.clip(prefer, lo_f, hi_f)), float(z), True
     return (lo_f + hi_f) / 2, float(z), False
-def sees(f_, z, half, elx, reqs):
-    return all(f_ - reach(z, half, elx, x_)[0] <= t_ and b_ <= f_ + reach(z, half, elx)[1] for t_, b_, x_ in reqs)
+def sees(f_, z, half, elx, reqs, tol=0.0):
+    return all(f_ - reach(z, half, elx, x_)[0] <= t_ + tol and b_ <= f_ + reach(z, half, elx)[1] + tol for t_, b_, x_ in reqs)
 def plays(st, t0, t1):
     """the staff has at least two notes, or sounds for a quarter of the time, between t0 and t1"""
     ns = [(max(n_[0], t0), min(n_[1], t1)) for n_ in N if n_[5] == st and n_[0] < t1 - 1e-6 and n_[1] > t0 + 1e-6]
@@ -521,6 +523,7 @@ def fit_splits(caps):
         t0, t1 = sp_["t0"], sp_["t1"]
         during = [c for c in caps if c.get("anchor") and c["t0"] < t1 - 0.5 and c["t1"] > t0 + 0.5]
         if sp_["mode"] == "pullback":
+            sp_["capk"] = {id(c): "p" for c in during}
             reqs = [(sp_["va"] - PAD_UP, sp_["vb"] + PAD_DN, -60.0)] + [r_ for c in during for r_ in cap_reqs(c)]
             sp_["fp"], sp_["zp"], ok = fit_view(reqs, (sp_["va"] + sp_["vb"]) / 2, False, 10.0, 2.6)
             if not ok: SPLIT_NOTES.append((sp_, "the pull-back cannot show all of it"))
@@ -528,9 +531,11 @@ def fit_splits(caps):
         said = mentioned(sp_.get("what", ""))
         panels = {k_: dict(v=v_, must=[], want=sorted((n_ for n_ in names if abs(stave_mid[n_] - v_) <= 300 * z_ + 1 and plays(n_, t0, t1)), key=lambda n_: abs(stave_mid[n_] - v_)))
                   for k_, v_, z_ in (("a", sp_["va"], sp_["za0"]), ("b", sp_["vb"], sp_["zb0"]))}
+        sp_["capk"] = {}
         for c in during:                       # a note shown during the split goes into the panel nearer to its staff
             v = stave_mid[c["anchor"]["staff"]]
-            panels[min(panels, key=lambda k_: abs(panels[k_]["v"] - v))]["must"].append(c)
+            k_ = min(panels, key=lambda k_: abs(panels[k_]["v"] - v))
+            panels[k_]["must"].append(c); sp_["capk"][id(c)] = k_
         for k_, p_ in panels.items():
             which = "upper" if k_ == "a" else "lower"; reqs = []; left = []
             for c in p_["must"]:               # first the notes on the score
@@ -550,43 +555,13 @@ def fit_splits(caps):
             sp_["s" + k_] = sp_["z" + k_] * (1.4 if hi - lo > PAD_UP + PAD_DN + 1 else 1.0)   # several staves: light and keep sharp more of the height
             sp_["r" + k_] = (lo, hi)
             if left: SPLIT_INFO.append((sp_, f"{which} panel leaves out {', '.join(left)}"))
-state = {"u": None, "v": None, "vv": 0.0}
-# Up and down the camera moves as a critically damped spring (V_W rad/s), starting and stopping smoothly, with a speed
-# limit (V_MAX px/s on the paper), and it starts toward a group LOOK seconds before the group is due. (A plain 2.5 s lag
-# never arrived before the next change and left the camera between the groups.) Dan chose these gentler values with
-# 60 fps on 2026-11-23 so that text stays readable during a move: the fastest move is about 24 px a frame on screen.
-# The first full videos used 2.5 / 1300 / 1.0 at 30 fps (68 px a frame); the gentler moves leave the aim more than
-# 300 px off a playing staff about 1 % more of the time (scherzo 2 %).
-V_W = float(os.environ.get("V_W", 2.0))
-V_MAX = float(os.environ.get("V_MAX", 900.0))
-LOOK = float(os.environ.get("LOOK", 1.3))
-state2 = {"v": None, "vv": 0.0}          # the second view of a split screen
-def spring(st_, tv, dt):
-    st_["vv"] += (V_W * V_W * (tv - st_["v"]) - 2 * V_W * st_["vv"]) * dt
-    st_["vv"] = float(np.clip(st_["vv"], -V_MAX, V_MAX))
-    st_["v"] += st_["vv"] * dt
+state = {"u": None}
 def step(t, dt):
-    """move the camera's focus for the frame at time t (along the line: 0.9 s lag; up and down: the spring above)"""
+    """move the camera's focus along the line for the frame at time t (0.9 s lag behind the playing position); up and
+    down the camera follows the path planned below (cam_v)"""
     tu = play_x(s2q(max(t + 0.6, 0))) + 120
-    tv = feat_v(t + LOOK)
-    ca = caption_target(t)
-    if ca is not None: tv = ca                    # a note on the score holds the camera on its staff
-    sa, sp_ = split_amount(t + 0.6)
-    mode = sp_["mode"] if sp_ else "none"
-    if sa > 0: va, vb = sp_.get("fa", sp_["va"]), sp_.get("fb", sp_["vb"])     # each panel's fitted focus
-    if state["u"] is None: state["u"], state["v"], state["vv"] = tu, tv, 0.0
+    if state["u"] is None: state["u"] = tu
     state["u"] += (tu - state["u"]) * (1 - math.exp(-dt / 0.9))
-    if sa > 0 and mode in ("stack", "slant"):
-        tv = va                                   # the upper view takes the upper group
-    elif sa > 0 and mode == "pullback":
-        tv = sp_.get("fp", (va + vb) / 2)         # look between the groups while pulled back
-    spring(state, tv, dt)
-    if sa > 0:
-        if state2["v"] is None: state2["v"], state2["vv"] = state["v"], state["vv"]   # the second view splits off the first
-        other = vb if mode in ("stack", "slant") else (vb if abs(vb - state["v"]) > abs(va - state["v"]) else va)
-        spring(state2, other, dt)
-    else:
-        state2["v"] = None
 
 import overlays as ov
 ICON_HOVER = 3.4 * sp                       # an icon floats this high over its note, so the lit note stays visible
@@ -651,10 +626,11 @@ def draw_names(layer, t, Hm, U):
 CAPS = []
 if A.captions: CAPS = ov.load_captions(A.captions, pos_to_s)
 elif ANN is not None and ANN.get("captions"): CAPS = ov.load_captions(ANN["captions"], pos_to_s)
-# The camera needs time to travel. It leaves for a split 1.7 s before the split starts and is free again 0.5 s after it
-# ends, and it takes about 1.5 s to reach a staff it cannot see yet. Where a note on the score sits next to a split
+# The camera needs time to travel. A split starts to open 1.7 s before its time and has closed 0.5 s after it ends, and
+# the camera needs at least 1.5 s to reach a staff it cannot see yet. Where a note on the score sits next to a split
 # that does not show its staff, or two notes on distant staves follow each other directly, the times are trimmed here
-# (the note if it stays 4.5 s long, else the split if it stays 4 s long) so that every note is in shot while it is shown.
+# (the note if it stays 4 s long, else the split if it stays 3.5 s long) so that every note is in shot while it is shown.
+# The camera's planned path (plan_camera, below) then asks for more time where a move is long (cam_fix_times).
 TIME_NOTES, TIME_INFO = [], []
 def in_split_view(c, sp_):
     if sp_["mode"] == "pullback": return sees(sp_["fp"], sp_["zp"], False, 10.0, cap_reqs(c))
@@ -693,14 +669,6 @@ def settle_times(caps):
         elif b["t1"] - b["t0"] - need >= CMIN: b["t0"] += need; TIME_INFO.append((b, f"starts {need:.1f} s later, so the camera can reach it"))
         elif a["t1"] - a["t0"] - need >= CMIN: a["t1"] -= need; TIME_INFO.append((a, f"ends {need:.1f} s earlier, so the camera can reach the next note"))
         else: TIME_NOTES.append((b, f"follows the note on {a['anchor']['staff']} too closely for the camera to reach it"))
-def caption_target(t):
-    """while a note on the score is shown (and 2 s before, so the camera has arrived), aim at its staff, a little above
-    the staff's middle so the label over it is in shot too"""
-    if A.caption_style != "score": return None
-    for c in CAPS:
-        an = c.get("anchor")
-        if an and c["t0"] - 2.0 <= t <= c["t1"]: return stave_mid[an["staff"]] - 4 * sp
-    return None
 VIEW_Y = [0.0, float(H)]        # the rows of the frame that the view being drawn fills (one panel of a split fills half)
 def visible_span_x(Hm, ys, U, margin=110):
     """(left, right): the stretch of the strip, along the heights ys, that this view shows at least margin px inside
@@ -827,6 +795,260 @@ def label_place(c, Hm, U):
         xl_, xr_ = visible_span_x(Hm, [yb, yb - hh - 2.2 * sp * ls], U)
         c["_lp"] = (key, (al_, max(min(c["lx"], xr_ - ww), xl_), ww, yb, hh))
     return c["_lp"][1]
+# ---------- the camera's path up and down the score, planned ahead ----------
+# Dan, 2026-11-23, on the second videos: "there's a lot of moments where the camera is really jerking around, like it
+# seems like it wants to scroll to highlight to something but before its really obvious what's trying to be focused, it
+# jumps up to the top of the page or somewhere else ... it looks like the camera man got confused for a second."
+# Until then the camera chased one target frame by frame with a spring, and the target came from three sources that
+# took over from each other (the loudest staves; a note on the score from 2 s before it; the upper group of a split from
+# 1.7 s before it), so a move was often redirected before it arrived. Every stacked split also sent the main view to
+# the upper group, at the top of the page, while the lower view scrolled down from wherever the camera had been.
+# Now the whole path is worked out before the first frame, as stays and moves:
+#   - A stay shows as much as it can of what is playing (the loudness of the staves in shot, relative to the best
+#     place at that moment). A move has a price worth 3 to 5 seconds of that, so the camera moves only where the new
+#     place is clearly better for a while, and it does not go somewhere to come straight back.
+#   - While a note on the score is shown the camera must be where the note, its box and its label are in shot. If
+#     they already are, it does not move.
+#   - At a stacked split the view the camera has becomes the panel whose staves are nearer; the other panel opens
+#     over the other half of the frame (from the top or from the foot), already at its place. When the split closes,
+#     the panel nearer to what comes next becomes the whole frame again. So a split costs no travel across the page.
+#   - A move starts and stops gently and never passes MOVE_V px/s on the paper, and it arrives before the note it is
+#     for appears, or before the part it brings into shot comes in (Dan, same day: "the camera pans too slow and its
+#     already time to move on ... by the tiem the camera catches up the thing we want to show has passed"; he had
+#     chosen 900 px/s with 60 fps for readable text, and allowed faster moves here, so the limit is 1200).
+#   - A stay that no note or split asks for and that would last under STILL_MIN s is left out.
+PLAN_SR = 5                       # steps per second of the plan
+MOVE_V, MOVE_RAMP, MOVE_MIN, STILL_MIN = float(os.environ.get("MOVE_V", 1200.0)), 0.9, 1.8, 3.0
+MOVE_COST = lambda d: 1.0 + 1.3 * np.maximum(MOVE_MIN, d / MOVE_V + MOVE_RAMP)
+def move_time(d): return max(MOVE_MIN, abs(d) / MOVE_V + MOVE_RAMP)
+def ease(x, r):
+    """how far along a move is (0..1) at the fraction x of its time: the speed rises over the fraction r, stays level,
+    and falls over r (both S-shaped), so the fastest speed is distance / (time * (1 - r))"""
+    x = min(max(x, 0.0), 1.0)
+    g = lambda u: u ** 3 - u ** 4 / 2
+    if x < r: p = r * g(x / r)
+    elif x <= 1 - r: p = r / 2 + (x - r)
+    else: p = (1 - r) - r * g((1 - x) / r)
+    return p / (1 - r)
+def cap_range(c):
+    """(highest, lowest) focus from which the whole frame shows a note on the score with its box and label"""
+    rq = cap_reqs(c); dn = reach(1.0, False)[1]
+    lo = max(b_ - dn for _, b_, _ in rq); hi = min(t_ + reach(1.0, False, 0.0, x_)[0] for t_, _, x_ in rq)
+    return (lo, hi) if lo <= hi else ((lo + hi) / 2,) * 2
+def split_foci(sp_):
+    if sp_["mode"] == "pullback": return {"p": float(sp_.get("fp", (sp_["va"] + sp_["vb"]) / 2))}
+    return {k_: float(sp_.get("f" + k_, sp_["v" + k_])) for k_ in "ab"}
+PLAN = {}
+def plan_camera():
+    t_a, t_b = -2.0, q2s(END_QN) + 7.0
+    n = int((t_b - t_a) * PLAN_SR) + 1
+    tt = t_a + np.arange(n) / PLAN_SR
+    vs = np.array(sorted(set(np.arange(0.0, FH, 10.0).tolist()) | {f_ for sp_ in SPLITS for f_ in split_foci(sp_).values()}))
+    J = len(vs); jof = lambda v: int(np.abs(vs - v).argmin())
+    # what a stay at each height shows of the staves that play
+    mids = np.array([stave_mid[s_] for s_ in names]); up, dn = reach(1.0, False)
+    d_ = mids[None, :] - vs[:, None]
+    shot = np.clip((d_ + up - PAD_UP + 40) / 80, 0, 1) * np.clip((dn - PAD_DN + 40 - d_) / 80, 0, 1)   # the staff is in shot
+    shot *= 0.55 + 0.45 * np.exp(-0.5 * ((d_ + 100) / 280.0) ** 2)                                     # and near the focus, where the picture is sharp and lit
+    Wt = FT["Wt"]; cov = shot @ Wt[:, np.clip((tt * FOCUS_SR).astype(int), 0, Wt.shape[1] - 1)]
+    mx = cov.max(0); R = np.round(np.where(mx > 1e-9, cov / np.maximum(mx, 1e-9), 0.0).T, 6)           # n x J, 0..1
+    C = -R / PLAN_SR
+    ok = np.ones((n, J), bool); in_split = np.zeros(n, bool); has_cap = np.zeros(n, bool); swap = {}
+    for sp_ in SPLITS:
+        i0 = int(np.searchsorted(tt, sp_["t0"] - 0.6)); i1 = int(np.searchsorted(tt, sp_["t1"] - 0.6, side="right")) - 1
+        if i1 <= i0: continue
+        foci = split_foci(sp_)
+        if sp_["mode"] == "inset": foci = {"a": foci["a"]}             # the corner window shows the lower group
+        js = {k_: jof(f_) for k_, f_ in foci.items()}
+        m = np.zeros(J, bool); m[list(js.values())] = True
+        ok[i0:i1 + 1] = m; in_split[i0:i1 + 1] = True
+        sp_["_i"] = (i0, i1); sp_["_j"] = js; sp_["tm"] = float(tt[(i0 + i1 + 1) // 2]) - 0.5 / PLAN_SR
+        if len(js) == 2:
+            for i in range(i0 + 1, i1 + 1): swap[i] = (js["a"], js["b"])
+    caps = [c for c in CAPS if c.get("anchor") and A.caption_style == "score"]
+    def with_split(c, sp_, w_):
+        """a note shown in one panel of a split that starts as the split opens or during it (w_ "in": that panel
+        brings it into the frame, the camera need not show it before) or ends with the split ("out")"""
+        if id(c) not in sp_.get("capk", {}) or "_i" not in sp_ or not (c["t0"] < sp_["t1"] and c["t1"] > sp_["t0"]): return False
+        return c["t0"] >= sp_["t0"] - 2.2 if w_ == "in" else c["t1"] <= sp_["t1"] + 1.5
+    for c in caps:
+        c["vr"] = lo, hi = cap_range(c)
+        pref = float(np.clip(stave_mid[c["anchor"]["staff"]] - 4 * sp, lo, hi))
+        i0 = int(np.searchsorted(tt, c["t0"] - 0.4)); i1 = int(np.searchsorted(tt, c["t1"] + 0.2, side="right")) - 1
+        m = (vs >= lo - 1e-6) & (vs <= hi + 1e-6)
+        if not m.any(): m[jof((lo + hi) / 2)] = True
+        for i in range(max(i0, 0), min(i1, n - 1) + 1):
+            if in_split[i] or any((with_split(c, sp_, "in") and tt[i] < sp_["t0"]) or (with_split(c, sp_, "out") and tt[i] > sp_["t1"] - 0.6) for sp_ in SPLITS): continue
+            if not (ok[i] & m).any(): continue                         # two notes at once that no one place shows: the earlier one keeps the camera
+            ok[i] &= m; has_cap[i] = True
+            C[i] += 0.5 * ((vs - pref) / 350.0) ** 2 / PLAN_SR         # rather with the note's staff near the focus
+    for sp_ in SPLITS:                                                 # a note shown as the split opens or closes stays in the view it is in
+        if "_i" not in sp_ or len(sp_["_j"]) < 2: continue
+        i0, i1 = sp_["_i"]
+        for c in caps:
+            k_ = sp_.get("capk", {}).get(id(c))
+            if k_ is None: continue
+            if k_ not in sp_["_j"]: continue
+            one = np.zeros(J, bool); one[sp_["_j"][k_]] = True
+            if c["t0"] - 0.4 < tt[i0] < c["t1"] and not with_split(c, sp_, "in"): ok[i0] = one
+            if c["t0"] < tt[i1] < c["t1"] + 0.2 and not with_split(c, sp_, "out"): ok[i1] = one
+    dist = np.abs(vs[:, None] - vs[None, :])
+    TR = np.where(dist > 0, MOVE_COST(dist), 0.0)
+    # the camera is on its way during the last seconds before it arrives, so a move also gives up what the place it
+    # leaves would have shown in that time (else a few seconds somewhere look worth a longer trip than they are)
+    nT = np.where(dist > 0, np.round(np.maximum(MOVE_MIN, dist / MOVE_V + MOVE_RAMP) * PLAN_SR), 0).astype(int)
+    cumR = np.vstack([np.zeros((1, J)), np.cumsum(R, 0)]) / PLAN_SR      # cumR[k] = what each place showed in steps before k
+    INF = 1e9
+    cost = np.where(ok[0], C[0], INF); back = np.zeros((n, J), np.int32); ar = np.arange(J); col = ar[:, None]
+    for i in range(1, n):
+        cand = cost[:, None] + TR + (cumR[i][:, None] - cumR[np.maximum(i - nT, 0), col])
+        if i in swap:                                                  # inside a split it makes no difference which panel is "the camera"
+            ja, jb = swap[i]; cand[ja, jb] = cost[ja]; cand[jb, ja] = cost[jb]
+        back[i] = cand.argmin(0); cost = cand[back[i], ar] + np.where(ok[i], C[i], INF)
+    seq = np.empty(n, int); seq[-1] = int(cost.argmin())
+    for i in range(n - 1, 0, -1): seq[i - 1] = back[i, seq[i]]
+    jumps = {}                                                         # step -> the split whose panels change roles there, unseen
+    for sp_ in SPLITS:
+        if "_i" not in sp_: continue
+        i0, i1 = sp_["_i"]; inv = {j_: k_ for k_, j_ in sp_["_j"].items()}
+        sp_["kin"], sp_["kout"] = inv[int(seq[i0])], inv[int(seq[i1])]
+        im = (i0 + i1 + 1) // 2
+        seq[i0:im] = sp_["_j"][sp_["kin"]]; seq[im:i1 + 1] = sp_["_j"][sp_["kout"]]
+        if sp_["kin"] != sp_["kout"]: jumps[im] = sp_
+    def build(seq):
+        """stays [first step, last step, height] and the changes between them, timed"""
+        runs = []
+        for i in range(n):
+            if runs and runs[-1][2] == seq[i]: runs[-1][1] = i
+            else: runs.append([i, i, int(seq[i])])
+        keys = []; prev_end = -1e9
+        for (a0, a1, ja), (b0, b1, jb) in zip(runs, runs[1:]):
+            va, vb = float(vs[ja]), float(vs[jb]); s_ = float(tt[b0]) - 0.5 / PLAN_SR
+            if b0 in jumps:
+                keys.append(dict(t0=jumps[b0]["tm"], t1=jumps[b0]["tm"], a=va, b=vb, jump=True, i=b0)); prev_end = jumps[b0]["tm"]; continue
+            E, L, slack, why, ec, lc = prev_end, 1e9, 0.0, "the loudest staves", None, None
+            # the stay it comes from ends inside a split, or the stay it goes to runs into one: the move lies between them
+            to_split = next((sp_ for sp_ in SPLITS if "_i" in sp_ and b0 <= sp_["_i"][0] <= b1), None)
+            from_split = next((sp_ for sp_ in reversed(SPLITS) if "_i" in sp_ and a0 <= sp_["_i"][1] <= a1), None)
+            if from_split: E = max(E, from_split["t1"] - 0.6)
+            if to_split:
+                L, slack = to_split["t0"] - 0.6, 0.9
+                if to_split["_i"][0] - b0 <= 4 * PLAN_SR: why = "the split"
+            for c in caps:
+                lo, hi = c["vr"]; ina, inb = lo - 1e-6 <= va <= hi + 1e-6, lo - 1e-6 <= vb <= hi + 1e-6
+                # the note in shot before the move keeps the camera until it has gone, unless the split shows it too
+                if ina and not inb and c["t0"] < s_ and c["t1"] - 0.15 > E and not (to_split and id(c) in to_split.get("capk", {})):
+                    E, ec = c["t1"] - 0.15, c
+                # the note in shot after the move wants the camera there as it appears
+                if inb and not ina and c["t1"] > s_ and c["t0"] - 1.0 < tt[min(b1 + 1, n - 1)] and c["t0"] + 0.15 < L \
+                        and not (from_split and id(c) in from_split.get("capk", {}) and c["t0"] < from_split["t1"] - 0.6) \
+                        and not any(with_split(c, sp_, "in") for sp_ in SPLITS):
+                    L, slack, lc, why = c["t0"] + 0.15, 0.0, c, f"the note \"{c.get('short', c['kind'])}\""
+            T = full = move_time(vb - va)
+            # a move for the loudest staves arrives just before a part that it brings into shot comes in after a rest
+            # (Dan: "by the time the camera catches up the thing we want to show has passed")
+            aim, entry = s_ + T / 2, None
+            if lc is None and not (to_split and why == "the split"):
+                new_ = [k_ for k_ in range(len(names)) if shot[jb, k_] > 0.5 and shot[ja, k_] < 0.5]
+                on_ = [o_ for k_ in new_ for o_ in RUN_T0.get(names[k_], [])[bisect.bisect_left(RUN_T0.get(names[k_], []), s_ - 2.5):][:1] if o_ < s_ + 3.0]
+                if on_: entry = min(on_); aim = entry - 0.3
+            if L - E >= T: t0_ = float(np.clip(aim - T, min(max(E, prev_end + STILL_MIN), L - T), L - T))
+            else: t0_ = E; T = float(np.clip(L + slack - E, 0.7 * T, T))
+            keys.append(dict(t0=t0_, t1=t0_ + T, a=va, b=vb, jump=False, i=b0, why=why, late=max(t0_ + T - L - slack, 0.0), fast=T < 0.97 * full,
+                             short=max(E + full - L - slack, 0.0), ec=ec, lc=lc, after=max(t0_ + T - entry, 0.0) if entry is not None else 0.0))
+            prev_end = t0_ + T
+        return runs, keys
+    forced = in_split | has_cap
+    while True:                                                        # leave out short stays that nothing asks for
+        runs, keys = build(seq)
+        short = None
+        for r_, (k0, k1) in enumerate(zip(keys, keys[1:]), start=1):
+            a0, a1, j_ = runs[r_]
+            if k0["jump"] or k1["jump"] or forced[a0:a1 + 1].any(): continue
+            still = k1["t0"] - k0["t1"]
+            if still < STILL_MIN and (short is None or still < short[0]): short = (still, r_)
+        if short is None: break
+        a0, a1, j_ = runs[short[1]]; jp, jn = runs[short[1] - 1][2], runs[short[1] + 1][2]
+        # the camera goes straight on to the next place; when it left for a stay in the middle of this one, it waits
+        cp = -R[a0:a1 + 1, jp].sum(); cn = -R[a0:a1 + 1, jn].sum()
+        if cp <= cn: seq[a0:a1 + 1] = jp
+        else: seq[a0:a1 + 1] = jn
+    PLAN.update(tt=tt, vs=vs, R=R, seq=seq, runs=runs, keys=keys, forced=forced, t0s=[k_["t0"] for k_ in keys], caps=caps)
+def cam_fix_times():
+    """one change to a note's time that the plan asks for (True if one was made): where the camera cannot get from one
+    note to the next in the time between them at its usual speed, the first note ends earlier or the second starts
+    later (neither shorter than 4 s); where a note outlasts the split that shows it by a few seconds, or starts a few
+    seconds before it, so that the camera would have to go to it for that short time, the note ends or starts with the split"""
+    CMIN = 4.0; mm = lambda t: f"{int(t // 60)}:{t % 60:04.1f}"
+    for k_ in PLAN["keys"]:
+        if k_["jump"] or k_["short"] <= 0.05: continue
+        need = k_["short"] + 0.05; a, b = k_["ec"], k_["lc"]
+        if a is not None:
+            cut = min(need, a["t1"] - a["t0"] - CMIN, a["t1"] - 0.3 - max([tc for tc, _ in a.get("chords", [])], default=-1e9))
+            if cut > 0.05:
+                a["t1"] -= cut; TIME_INFO.append((a, f"ends {cut:.1f} s earlier: the camera needs {move_time(k_['b'] - k_['a']):.1f} s to go on from it")); return True
+        if b is not None:
+            cut = min(need, b["t1"] - b["t0"] - CMIN)
+            if cut > 0.05:
+                b["t0"] += cut; TIME_INFO.append((b, f"starts {cut:.1f} s later: the camera needs {move_time(k_['b'] - k_['a']):.1f} s to reach it")); return True
+    keys, runs, tt = PLAN["keys"], PLAN["runs"], PLAN["tt"]
+    for r_, (k0, k1) in enumerate(zip(keys, keys[1:]), start=1):
+        if k0["jump"] and k1["jump"]: continue
+        if k1["t0"] - k0["t1"] >= STILL_MIN + 1.0: continue
+        a0, a1, _ = runs[r_]
+        for c in PLAN["caps"]:
+            if not (c["t0"] - 0.4 < tt[a1] and c["t1"] + 0.2 > tt[a0]): continue
+            for sp_ in SPLITS:
+                if id(c) not in sp_.get("capk", {}) or "_i" not in sp_: continue
+                if sp_["t1"] + 1.5 < c["t1"] and sp_["t1"] + 0.3 - c["t0"] >= CMIN and sp_["_i"][1] < a1 and sp_["_i"][1] >= a0 - 1:
+                    TIME_INFO.append((c, f"ends {c['t1'] - sp_['t1'] - 0.3:.1f} s earlier, with the split that shows it")); c["t1"] = sp_["t1"] + 0.3; return True
+                if c["t0"] < sp_["t0"] - 2.2 and c["t1"] - (sp_["t0"] - 1.7) >= CMIN and sp_["_i"][0] > a0 and sp_["_i"][0] <= a1 + 1:
+                    TIME_INFO.append((c, f"starts {sp_['t0'] - 1.7 - c['t0']:.1f} s later, with the split that shows it")); c["t0"] = sp_["t0"] - 1.7; return True
+    return False
+if A.plan:      # one part of a --jobs render: the path and the note times the parent process worked out, so all parts agree
+    _p = json.load(open(A.plan))
+    for c, (a_, b_) in zip(CAPS, _p["caps"]): c["t0"], c["t1"] = a_, b_
+    for sp_, x_ in zip(SPLITS, _p["splits"]):
+        if x_: sp_["kin"], sp_["kout"], sp_["tm"] = x_
+    PLAN.update(keys=[dict(t0=k_[0], t1=k_[1], a=k_[2], b=k_[3], jump=k_[4]) for k_ in _p["keys"]], v0=_p["v0"], caps=[])
+    PLAN["t0s"] = [k_["t0"] for k_ in PLAN["keys"]]
+else:
+    plan_camera()
+    for _ in range(30):
+        if not cam_fix_times(): break
+        plan_camera()
+    PLAN["v0"] = float(PLAN["vs"][PLAN["seq"][0]])
+def plan_json():
+    return json.dumps(dict(keys=[[k_["t0"], k_["t1"], k_["a"], k_["b"], bool(k_["jump"])] for k_ in PLAN["keys"]], v0=PLAN["v0"],
+                           caps=[[c["t0"], c["t1"]] for c in CAPS], splits=[[sp_["kin"], sp_["kout"], sp_["tm"]] if "kin" in sp_ else None for sp_ in SPLITS]))
+def cam_v(t):
+    """the height on the paper the camera looks at, at time t"""
+    keys = PLAN["keys"]
+    if not keys: return PLAN["v0"]
+    i = bisect.bisect_right(PLAN["t0s"], t) - 1
+    if i < 0: return keys[0]["a"]
+    k_ = keys[i]
+    if k_["jump"] or t >= k_["t1"]: return k_["b"]
+    T = k_["t1"] - k_["t0"]
+    return k_["a"] + (k_["b"] - k_["a"]) * ease((t - k_["t0"]) / T, min(0.5, MOVE_RAMP / T))
+def cam_split(t):
+    """(how far the split is open 0..1, the split, the panel that the camera's own view is: 'a' upper, 'b' lower, 'p')"""
+    sa, sp_ = split_amount(t + 0.6)
+    if sp_ is None or "kin" not in sp_: return 0.0, None, None
+    return sa, sp_, (sp_["kin"] if t < sp_["tm"] else sp_["kout"])
+def cap_in_shot(c, t):
+    """the note on the score c, with its box and label, is in shot at time t (an estimate while a split opens or closes)"""
+    rq = cap_reqs(c); v = cam_v(t); sa, sp_, k_ = cam_split(t)
+    if sp_ is None or sa < 0.02: return sees(v, 1.0, False, 0.0, rq, 3.0)
+    if sp_["mode"] == "pullback": return (sa < 0.98 and sees(v, 1.0, False, 0.0, rq, 3.0)) or sees(v, sp_.get("zp", 1.0), False, 10.0, rq, 3.0)
+    if sp_["mode"] not in ("stack", "slant"): return sees(v, 1.0, False, 0.0, rq, 3.0)
+    o_ = "b" if k_ == "a" else "a"
+    own = sees(v, 1.0, False, 0.0, rq, 3.0) if sa < 0.5 else sees(v, sp_["z" + k_], True, 0.0, rq, 3.0)
+    return own or (sa > 0.7 and sees(split_foci(sp_)[o_], sp_["z" + o_], True, 0.0, rq, 3.0))
+def cap_out_of_shot(c):
+    """seconds of its time (after it has faded in, before it fades out) that a note on the score is not in shot"""
+    ts_ = np.arange(c["t0"] + 0.45, c["t1"] - 0.45, 0.1)
+    return 0.1 * sum(1 for t in ts_ if not cap_in_shot(c, float(t)))
 if A.annotations_check:
     mmss = lambda t: f"{int(t // 60)}:{t % 60:04.1f}"
     def onsets(st, t0, t1): return sum(1 for n_ in N if n_[5] == st and t0 - 1e-6 <= n_[0] < t1 - 1e-6)
@@ -873,8 +1095,38 @@ if A.annotations_check:
         if c["g"]["tight"] > 0.25: print(f"      (note heads reach {c['g']['tight']:.1f} staff spaces into the box line or the label: no more room to the next staff)")
         for c2_, msg in TIME_NOTES:
             if c2_ is c: flag(msg)
+        o_ = cap_out_of_shot(c)
+        if o_ > 1.5: flag(f"out of shot for {o_:.1f} s of its time")
+        elif o_ > 0.5: print(f"      (out of shot for about {o_:.1f} s while a split opens or closes)")
+        for k_ in PLAN["keys"]:
+            if not k_["jump"] and k_["lc"] is c and k_["late"] > 0.3: flag(f"the camera arrives {k_['late']:.1f} s after it appears")
     print(f"{bad} problems")
     sys.exit(1 if bad else 0)
+if A.camera_report:
+    mm = lambda t: f"{int((t + 2) // 60)}:{(t + 2) % 60:04.1f}"       # time in the video (it starts 2 s before the music)
+    near = lambda v: min(names, key=lambda s_: abs(stave_mid[s_] - v))
+    keys = [k_ for k_ in PLAN["keys"] if not k_["jump"]]
+    print(f"camera: {len(keys)} moves up or down the page in {q2s(END_QN) + 9:.0f} s; times are video times")
+    for k_, nx in zip(keys, keys[1:] + [None]):
+        d = k_["b"] - k_["a"]; T = k_["t1"] - k_["t0"]
+        still = (nx["t0"] - k_["t1"]) if nx else 99.0
+        note = (f"  ARRIVES {k_['late']:.1f} s LATE" if k_["late"] > 0.05 else "") + (f"  ARRIVES {k_['after']:.1f} s AFTER THE PART COMES IN" if k_["after"] > 0.05 else "") + ("  (faster than usual)" if k_["fast"] else "") + \
+               ("  SHORT STAY" if still < 2.5 else "")
+        print(f"  {mm(k_['t0'])}-{mm(k_['t1'])} {abs(d):5.0f} px {'down' if d > 0 else 'up  '} {near(k_['a']):>14s} -> {near(k_['b']):14s} for {k_['why']}; then still {still:4.1f} s{note}")
+    for sp_ in SPLITS:
+        if "kin" in sp_ and sp_["mode"] != "pullback":
+            print(f"  split {mm(sp_['t0'])}-{mm(sp_['t1'])}: the camera's view becomes the {'upper' if sp_['kin'] == 'a' else 'lower'} panel; afterwards the {'upper' if sp_['kout'] == 'a' else 'lower'} panel becomes the whole frame")
+    nout = 0
+    for c in PLAN["caps"]:
+        o_ = cap_out_of_shot(c)
+        if o_ > 0.25: nout += 1; print(f"  note {mm(c['t0'])}-{mm(c['t1'])} [{c['anchor']['staff']}] \"{c.get('short', c['kind'])}\": OUT OF SHOT for {o_:.1f} s")
+    for c, msg in TIME_INFO:
+        if "camera" in msg or "with the split" in msg: print(f"  note \"{c.get('short', c.get('kind', ''))}\" {msg}")
+    big = [k_ for k_ in keys if abs(k_["b"] - k_["a"]) >= 100]
+    stills = [b_["t0"] - a_["t1"] for a_, b_ in zip(keys, keys[1:])]
+    print(f"moves of 100 px or more: {len(big)} ({len(big) / (q2s(END_QN) + 9) * 60:.1f} a minute); stays under 2.5 s: {sum(1 for s_ in stills if s_ < 2.5)}; "
+          f"late arrivals: {sum(1 for k_ in keys if k_['late'] > 0.05 or k_['after'] > 0.05)}; notes out of shot: {nout}; longest move {max((abs(k_['b'] - k_['a']) for k_ in keys), default=0):.0f} px")
+    sys.exit()
 def draw_score_notes(layer, t, Hm, U):
     """caption style 'score': a bracket drawn round the passage, its label written on the paper above it, and chord
     names written above the staff as the music reaches them"""
@@ -1043,22 +1295,21 @@ _yy, _xx = np.mgrid[0:H, 0:W].astype(np.float32)
 VIGNETTE = np.clip(1.15 - 0.55 * (((_xx - W / 2) / (W / 2)) ** 2 + ((_yy - H / 2) / (H / 2)) ** 2), 0, 1)[..., None]
 def frame_at(t, dt):
     step(t, dt)
-    sa, sp_ = split_amount(t + 0.6)
+    U, V = state["u"], cam_v(t)
+    sa, sp_, k_ = cam_split(t)
     mode = sp_["mode"] if sp_ else "none"
-    if sp_: va, vb, za, zb = sp_["va"], sp_["vb"], sp_["za"], sp_["zb"]
-    U = state["u"]
     if sa <= 0.001 or mode == "none":
-        out, Hm = view(t, U, state["v"])
+        out, Hm = view(t, U, V)
     elif mode == "pullback":
-        far = abs(vb - va)
-        zp = sp_.get("zp", float(np.clip((far + 700) / 1000, 1, 2.6)))
-        out, Hm = view(t, U, state["v"], dmul=1 + sa * (zp - 1), elx=sa * 10, spread=1 + sa * 1.6)
+        zp = sp_.get("zp", float(np.clip((abs(sp_["vb"] - sp_["va"]) + 700) / 1000, 1, 2.6)))
+        out, Hm = view(t, U, V, dmul=1 + sa * (zp - 1), elx=sa * 10, spread=1 + sa * 1.6)
     elif mode == "inset":
-        out, Hm = view(t, U, state["v"])
-        sub, _ = view(t, U, state2["v"], dmul=0.92)
+        out, Hm = view(t, U, V)
+        v2 = split_foci(sp_)["b"]
+        sub, _ = view(t, U, v2, dmul=0.92)
         sw, sh = int(W * 0.40), int(H * 0.40)
         small = cv2.resize(sub * VIGNETTE ** 0.5, (sw, sh), interpolation=cv2.INTER_AREA)
-        below = state2["v"] > state["v"]
+        below = v2 > V
         x0 = W - sw - 44; y0 = (H - sh - 44) if below else 44
         sc_ = 0.85 + 0.15 * sa                        # the window grows in from its corner
         small = cv2.resize(small, (max(8, int(sw * sc_)), max(8, int(sh * sc_))), interpolation=cv2.INTER_AREA)
@@ -1067,21 +1318,28 @@ def frame_at(t, dt):
         shadow = cv2.GaussianBlur(shadow, (0, 0), 18)[..., None]
         out = out * (1 - 0.55 * sa * shadow)
         inset = (small, x0, y0, sa)                   # pasted after the vignette, so the corner window stays bright
-    else:   # stack / slant: the lower view opens from the foot of the frame
-        yd = H * (1 - 0.5 * sa)
-        if mode == "stack":
-            ca, cb_ = (W * 0.5, yd * 0.55), (W * 0.5, yd + (H - yd) * 0.55)
+    else:   # stack / slant. The camera's own view shrinks to one panel (k_: 'a' upper, 'b' lower); the other panel is
+            # already at its place and its final size, and the seam uncovers it from its edge of the frame
+        foci = split_foci(sp_); za, zb = sp_["za"], sp_["zb"]
+        spr = {"a": sp_.get("sa", za), "b": sp_.get("sb", zb)}
+        yd = H * (1 - 0.5 * sa) if k_ == "a" else H * 0.5 * sa          # the seam
+        off = W * 0.04 if mode == "slant" else 0.0
+        own = dict(dmul=1 + sa * (sp_["z" + k_] - 1), spread=1 + sa * (spr[k_] - 1))
+        if k_ == "a":
+            VIEW_Y[:] = [0.0, yd]
+            top_, Hm = view(t, U, V, W * 0.5 - off, yd * 0.55, **own)
+            VIEW_Y[:] = [H * 0.5, float(H)]
+            bot_, Hm2 = view(t, U, foci["b"], W * 0.5 + off, H * 0.5 + H * 0.5 * 0.55, dmul=zb, spread=spr["b"])
         else:
-            ca, cb_ = (W * 0.46, yd * 0.55), (W * 0.54, yd + (H - yd) * 0.55)
-        VIEW_Y[:] = [0.0, yd]
-        top_, Hm = view(t, U, state["v"], *ca, dmul=1 + sa * (za - 1), spread=1 + sa * (sp_.get("sa", za) - 1))
-        VIEW_Y[:] = [yd, float(H)]
-        bot_, Hm2 = view(t, U, state2["v"], *cb_, dmul=1 + sa * (zb - 1), spread=1 + sa * (sp_.get("sb", zb) - 1))
+            VIEW_Y[:] = [0.0, H * 0.5]
+            top_, Hm = view(t, U, foci["a"], W * 0.5 - off, H * 0.5 * 0.55, dmul=za, spread=spr["a"])
+            VIEW_Y[:] = [yd, float(H)]
+            bot_, Hm2 = view(t, U, V, W * 0.5 + off, yd + (H - yd) * 0.55, **own)
         VIEW_Y[:] = [0.0, float(H)]
         if mode == "stack":
             ang = 0.0
         else:   # the seam runs with the staff lines as they lie on the screen
-            p0, p1 = cv2.perspectiveTransform(np.float32([[[U - 300, state["v"]], [U + 300, state["v"]]]]), Hm)[0]
+            p0, p1 = cv2.perspectiveTransform(np.float32([[[U - 300, V], [U + 300, V]]]), Hm)[0]
             ang = math.atan2(p1[1] - p0[1], p1[0] - p0[0])
         sd = (_yy - yd) - (_xx - W / 2) * math.tan(ang)          # signed distance below the seam (vertical)
         m = np.clip(sd / 3.0 + 0.5, 0, 1)[..., None]
@@ -1140,6 +1398,7 @@ tmp = tempfile.mkdtemp(prefix="glow-", dir=os.path.dirname(os.path.abspath(A.out
 parts = []
 cuts = np.linspace(0, n, A.jobs + 1).astype(int)
 procs = []
+open(f"{tmp}/plan.json", "w").write(plan_json())
 for j in range(A.jobs):
     pf = f"{tmp}/part{j:02d}.mp4"; parts.append(pf)
     args = [sys.executable, os.path.abspath(__file__), "--strip", A.strip, "--tempo", A.tempo, "--out", pf, "--fps", str(A.fps),
@@ -1152,6 +1411,7 @@ for j in range(A.jobs):
     if A.split_staves: args += ["--split-staves"] + A.split_staves
     if A.annotations: args += ["--annotations", A.annotations]
     if A.captions: args += ["--captions", A.captions]
+    args += ["--plan", f"{tmp}/plan.json"]
     procs.append(subprocess.Popen(args, env=dict(os.environ, OMP_NUM_THREADS="1", OPENBLAS_NUM_THREADS="1")))
 codes = [p.wait() for p in procs]
 if any(codes): sys.exit(f"a part failed: {codes}")
@@ -1167,5 +1427,5 @@ if A.audio:
 cmd += ["-c:v", "copy", "-movflags", "+faststart", "-t", f"{dur:.3f}", A.out]
 subprocess.run(cmd, check=True)
 for p in parts: os.remove(p)
-os.remove(f"{tmp}/list.txt"); os.rmdir(tmp)
+os.remove(f"{tmp}/list.txt"); os.remove(f"{tmp}/plan.json"); os.rmdir(tmp)
 print("done", A.out, f"{dur:.1f}s")
