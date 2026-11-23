@@ -1,0 +1,7 @@
+{"title": {"file": "00-title", "page": "frames/mvt1-page.png", "seconds": 12,
+           "title": "Symphony No. 1", "sub": "in C minor"},
+ "movements": [
+  {"file": "10-mvt1", "page": "frames/mvt1-page.png", "seconds": 5, "over": "SYMPHONY NO. 1 IN C MINOR", "numeral": "I", "name": "", "tempo": "Lento — Allegro appassionato"},
+  {"file": "20-mvt2", "page": "frames/mvt2-page.png", "seconds": 5, "over": "SYMPHONY NO. 1 IN C MINOR", "numeral": "II", "name": "", "tempo": "Adagio"},
+  {"file": "30-scherzo", "page": "frames/scherzo-page.png", "seconds": 5, "over": "SYMPHONY NO. 1 IN C MINOR", "numeral": "III", "name": "Scherzo", "tempo": "Allegro vivace"},
+  {"file": "40-finale", "page": "frames/finale-page.png", "seconds": 5, "over": "SYMPHONY NO. 1 IN C MINOR", "numeral": "IV", "name": "Finale", "tempo": "Allegro con fuoco"}]}

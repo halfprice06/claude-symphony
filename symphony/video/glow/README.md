@@ -41,6 +41,35 @@ The mp3s are not in the repo (they are in the project's shared folder and in the
    - Light film grain stops the dark gradients from banding. Keep it small (σ 1.0): at 2.2 the excerpt grew from 30 MB to 130 MB.
    - `--jobs N` splits the video into N parts rendered by separate processes; each part works out the same camera path and first steps the camera along the line through the earlier frames, so the joined video is the same as one process makes.
 
+## One file with all four movements (Dan, 2026-11-23)
+
+For a single upload: a title screen, then before each movement a short card with its number and heading, joined with
+the four movement videos. The movements are not rendered or encoded again.
+
+```
+# one frame of each movement video, one second in (the opening page before the music), as the cards' backgrounds
+ffmpeg -ss 1 -i mvt1-glow-video.mp4 -frames:v 1 cards/frames/mvt1-page.png      # and mvt2, scherzo, finale
+python3 tools/title_cards.py --spec cards/cards.json --credits credits.json --out-dir cards/out
+python3 tools/join_videos.py --out symphony-glow-video.mp4 \
+  --chapters "Title|I. Lento — Allegro appassionato|-|II. Adagio|-|III. Scherzo: Allegro vivace|-|IV. Finale: Allegro con fuoco|-" \
+  cards/out/00-title.mp4 cards/out/10-mvt1.mp4 mvt1-glow-video.mp4 cards/out/20-mvt2.mp4 mvt2-glow-video.mp4 \
+  cards/out/30-scherzo.mp4 scherzo-glow-video.mp4 cards/out/40-finale.mp4 finale-glow-video.mp4
+```
+
+- `tools/title_cards.py` draws the cards: the opening page of the movement that follows, out of focus and dim and
+  coming slowly nearer, with the words over it in the gold and the fonts of the labels on the score. Title screen 12 s
+  (title, then the credits under it), movement cards 5 s. Every card starts and ends in black, as every movement video
+  does, so the joins need no cross-fade. `cards/cards.json` holds the words; the credits are given with `--credits`
+  (a JSON list of `[role, name, detail]`) and are not kept in the repository. `--stills` writes one PNG per card.
+- The cards are encoded exactly like the parts of a movement video (libx264, preset slow, CRF 18, yuv420p, 60 fps), so
+  `tools/join_videos.py` can copy all pictures as they are. It refuses segments that are encoded differently.
+- The sound is built once for the whole length and encoded once more (AAC, 320 kbit/s): a card has no sound, and a
+  movement's sound stops about 5 s before its last frame, so a plain copy would leave holes in the sound track. Each
+  segment's sound is filled or cut to exactly the length of its pictures (800 samples a frame), so sound and picture
+  stay together from the first segment to the last. Checked on a test join: every frame one sixtieth of a second after
+  the one before, no decoding error, the sound of a clip inside the joined file offset by 0 samples.
+- `--chapters` prints the start time of each chapter for the video's description.
+
 ## Changes Dan asked for (2026-10-13/14, movement II excerpt)
 
 | Pass | Dan's note | Change |
