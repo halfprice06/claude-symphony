@@ -443,10 +443,11 @@ def camera(tu, tv, t, cx=None, cy=None, dmul=1.0, elx=0.0):
     return cv2.getPerspectiveTransform(src, dst.astype(np.float32)), proj3
 
 state = {"u": None, "v": None, "vv": 0.0}
-V_W = 2.5        # rad/s: up and down the camera moves as a critically damped spring, starting and stopping smoothly;
+V_W = float(os.environ.get("V_W", 2.5))        # rad/s: up and down the camera moves as a critically damped spring, starting and stopping smoothly;
                  # a move between winds and strings takes about 2 s. (A plain 2.5 s lag never arrived before the next
                  # change and left the camera between the groups.)
-V_MAX = 1300.0   # px/s (about nine staves a second): the speed limit keeps the longest moves from looking like a jump
+V_MAX = float(os.environ.get("V_MAX", 1300.0))   # px/s (about nine staves a second): the speed limit keeps the longest moves from looking like a jump
+LOOK = float(os.environ.get("LOOK", 1.0))   # s: the camera starts toward a group this long before the group is due
 state2 = {"v": None, "vv": 0.0}          # the second view of a split screen
 def spring(st_, tv, dt):
     st_["vv"] += (V_W * V_W * (tv - st_["v"]) - 2 * V_W * st_["vv"]) * dt
@@ -455,7 +456,7 @@ def spring(st_, tv, dt):
 def step(t, dt):
     """move the camera's focus for the frame at time t (along the line: 0.9 s lag; up and down: the spring above)"""
     tu = play_x(s2q(max(t + 0.6, 0))) + 120
-    tv = feat_v(t + 1.0)
+    tv = feat_v(t + LOOK)
     ca = caption_target(t)
     if ca is not None: tv = ca                    # a note on the score holds the camera on its staff
     sa, sp_ = split_amount(t + 0.6)
@@ -511,13 +512,22 @@ def caption_target(t):
         if an and c["t0"] - 2.0 <= t <= c["t1"]: return stave_mid[an["staff"]] - 4 * sp
     return None
 def visible_left_x(Hm, y, U, margin=110):
-    """the leftmost x on the strip, along height y, that this camera shows at least margin px inside the frame"""
+    """the leftmost x on the strip, along height y, that this camera shows at least margin px inside the frame
+    (found on a 20 px grid, then refined by bisection so that text pinned there moves smoothly, without steps)"""
+    def good_at(xs):
+        P = Hm @ np.stack([xs, np.full_like(xs, y), np.ones_like(xs)])
+        w = P[2]; ok = w * (Hm[2] @ np.array([U, y, 1.0])) > 0     # the same side of the camera as the focus
+        sx = np.where(ok, P[0] / np.where(ok, w, 1), -1e9); sy = np.where(ok, P[1] / np.where(ok, w, 1), -1e9)
+        return ok & (sx >= margin) & (sx < W) & (sy > 40) & (sy < H - 40)
     xs = np.arange(U - 5000, U + 1, 20, dtype=np.float64)
-    P = Hm @ np.stack([xs, np.full_like(xs, y), np.ones_like(xs)])
-    w = P[2]; ok = w * w[-1] > 0              # the same side of the camera as the focus (the homography's sign is arbitrary)
-    sx = np.where(ok, P[0] / np.where(ok, w, 1), -1e9); sy = np.where(ok, P[1] / np.where(ok, w, 1), -1e9)
-    good = np.nonzero(ok & (sx >= margin) & (sx < W) & (sy > 40) & (sy < H - 40))[0]
-    return float(xs[good[0]]) if len(good) else U - 950
+    good = np.nonzero(good_at(xs))[0]
+    if not len(good): return U - 950
+    hi = float(xs[good[0]]); lo = hi - 20.0
+    for _ in range(12):
+        mid = (lo + hi) / 2
+        if good_at(np.array([mid]))[0]: hi = mid
+        else: lo = mid
+    return hi
 def x_at_s(ts):
     """x on the strip at score time ts (first notes, or the bar line when it is a bar's start)"""
     q = s2q(ts)
