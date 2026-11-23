@@ -197,8 +197,10 @@ V_ALL = (stave_mid[names[0]] + stave_mid[names[-1]]) / 2
 
 # ---------- where the camera looks up and down the score ----------
 # The loudest staves (from the mockup's stems) a moment ahead: a loudness-weighted density over the height of the
-# score, and its highest peak. A new peak takes over only when it is clearly stronger (x1.5) than the one being
-# followed, so the camera does not swing between two groups of similar weight.
+# score, and its highest peak. Only staves with notes in the window count, so a reverb tail does not hold the camera
+# on bars of rest. A new peak takes over only when it is clearly stronger (x1.5) than the one being followed and the
+# camera has stayed DWELL seconds, or at once (after 1 s) when the group being followed has nearly stopped. Without
+# the dwell, winds and strings answering each other every bar or two kept the camera between them, on empty staves.
 def stem_staves(nm):
     """the strip staves a mockup stem plays on"""
     pre = [("Bass clarinet", ["Bass clarinet"]), ("Contrabassoon", ["Contrabassoon"]), ("Bass trombone", ["Bass trombone"]),
@@ -218,7 +220,7 @@ FOCUS_SR = 10
 FAMILY_GAIN = {**{s: 1.6 for s in ("Flutes 1·2", "Oboes 1·2", "Cor anglais", "Clarinets 1·2", "Bass clarinet", "Bassoons 1·2", "Contrabassoon")},
                **{s: 0.8 for s in ("Violins I", "Violins II", "Violas", "Violoncellos", "Double basses")},
                "Timpani": 0.6, "Percussion": 0.6}
-DWELL = 3.0      # seconds the camera stays with a group of staves before it may switch to another
+DWELL = 6.0      # seconds the camera stays with a group of staves before it may switch to a stronger one
 def focus_track():
     n = int((q2s(END_QN) + 12) * FOCUS_SR)
     tt = np.arange(n) / FOCUS_SR
@@ -238,6 +240,11 @@ def focus_track():
             sts = stem_staves(str(nm))
             for s in sts: Wt[sids[s]] += mean[i] * FAMILY_GAIN.get(s, 1.0) ** 2 / len(sts)
         Wt = np.sqrt(Wt)                                # amplitude
+        has = np.zeros(Wt.shape, bool)                  # only staves with notes in the window count
+        for t0, t1, x, y, c, st in N:
+            a_, b_ = int(math.floor((t0 - 1.75) * FOCUS_SR)), int(math.ceil((t1 + 0.25) * FOCUS_SR))
+            if b_ > 0: has[sids[st], max(a_, 0):min(b_, n)] = True
+        Wt *= has
     else:
         for t0, t1, x, y, c, st in N:
             a_, b_ = int((t0 - 1.75) * FOCUS_SR), int((t0 + 0.25) * FOCUS_SR)
@@ -252,12 +259,13 @@ def focus_track():
         if d.max() <= 1e-9:
             out[i] = vs[cur] if cur is not None else V_ALL; continue
         best = int(d.argmax())
-        if cur is None: cur = best
+        if cur is None: cur = best; since = i
         else:
             # follow the peak being watched as it drifts; switch only to a clearly stronger one, and not too often
             lo_, hi_ = max(cur - 30, 0), min(cur + 31, len(vs))
             cur = lo_ + int(d[lo_:hi_].argmax())
-            if d[best] > 1.5 * d[cur] and (i - since) >= DWELL * FOCUS_SR: cur = best; since = i
+            held = (i - since) / FOCUS_SR
+            if (d[best] > 1.5 * d[cur] and held >= DWELL) or (d[cur] < 0.25 * d[best] and held >= 1.0): cur = best; since = i
         out[i] = vs[cur]
     return out
 FOCUS = focus_track()
@@ -294,14 +302,20 @@ def camera(tu, tv, t):
     dst, _ = proj3(np.c_[src, np.zeros(4)])
     return cv2.getPerspectiveTransform(src, dst.astype(np.float32)), proj3
 
-state = {"u": None, "v": None}
+state = {"u": None, "v": None, "vv": 0.0}
+V_W = 2.5        # rad/s: up and down the camera moves as a critically damped spring, starting and stopping smoothly;
+                 # a move between winds and strings takes about 2 s. (A plain 2.5 s lag never arrived before the next
+                 # change and left the camera between the groups.)
+V_MAX = 1300.0   # px/s (about nine staves a second): the speed limit keeps the longest moves from looking like a jump
 def step(t, dt):
-    """move the camera's focus for the frame at time t (smoothed: 0.9 s along the line, 2.5 s up and down)"""
+    """move the camera's focus for the frame at time t (along the line: 0.9 s lag; up and down: the spring above)"""
     tu = play_x(s2q(max(t + 0.6, 0))) + 120
     tv = feat_v(t + 1.0)
-    if state["u"] is None: state["u"], state["v"] = tu, tv
+    if state["u"] is None: state["u"], state["v"], state["vv"] = tu, tv, 0.0
     state["u"] += (tu - state["u"]) * (1 - math.exp(-dt / 0.9))
-    state["v"] += (tv - state["v"]) * (1 - math.exp(-dt / 2.5))
+    state["vv"] += (V_W * V_W * (tv - state["v"]) - 2 * V_W * state["vv"]) * dt
+    state["vv"] = float(np.clip(state["vv"], -V_MAX, V_MAX))
+    state["v"] += state["vv"] * dt
 
 _gr = np.random.default_rng(7)
 GRAIN = [(_gr.normal(0, 1.0, (H, W, 1))).astype(np.float32) for _ in range(8)]
@@ -403,8 +417,8 @@ else:
 
 if A.still:
     for t in A.still:
-        state["u"] = None
-        for kk in range(45, 0, -1): step(t - kk / A.fps, 1 / A.fps)
+        state["u"] = None                     # step the camera from the start, as the video does
+        for kk in range(int((t - T0) * A.fps), 0, -1): step(t - kk / A.fps, 1 / A.fps)
         cv2.imwrite(f"{A.out}-{t:07.2f}.png", cv2.cvtColor(frame_at(t, 1 / A.fps), cv2.COLOR_RGB2BGR))
     sys.exit()
 
