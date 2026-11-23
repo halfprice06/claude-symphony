@@ -502,16 +502,17 @@ def mentioned(text):
     """the staves an annotation's text names (instrument words; "strings" and "woodwind" as groups)"""
     t_ = text.lower()
     return {n_ for pat, sts in _MENTION if re.search(pat, t_) for n_ in sts}
-def cap_span(c):
-    """the paper a note on the score takes (top, bottom): its label above the bracket, the staff, chord names below"""
-    v = stave_mid[c["anchor"]["staff"]]
-    return v - 11.0 * sp, v + (8.5 if c.get("chords") else 4.5) * sp
+def label_text(c):
+    """(text image, its width on the paper, its scale): a label is 3.2 staff spaces high, larger (scale 'ls', up to
+    1.6) when the note is shown in a split panel or a pull-back that makes the paper small"""
+    al_ = ov.text_alpha(c.get("short", c["kind"]), "italic", 64); ls = c.get("ls", 1.0)
+    return al_, 3.2 * sp * ls * al_.shape[1] / al_.shape[0], ls
 def cap_reqs(c):
-    """what must be in shot for a note on the score: its staff with the bracket (and chord names below), and the row
+    """what must be in shot for a note on the score: its staff with the box (and chord names below), and the row
     of its label above, wide enough for the label (the label is moved along its row to stay in shot)"""
-    v = stave_mid[c["anchor"]["staff"]]; al_ = ov.text_alpha(c.get("short", c["kind"]), "italic", 64)
-    cw = 3.2 * sp * al_.shape[1] / al_.shape[0]
-    return [(v - 4.5 * sp, v + (9.0 if c.get("chords") else 5.5) * sp, -60.0), (v - 11.0 * sp, v - 5.0 * sp, cw - 300.0)]
+    g = c.get("g") or cap_geom(c); _, cw, ls = label_text(c)
+    foot = max(g["y1"] + 1.3 * sp, g["yc"] + 4.0 * sp if c.get("chords") else 0.0)
+    return [(g["y0"] - 0.3 * sp, foot, -60.0), (g["yb"] - (5.4 * ls + 0.5) * sp, g["yb"] + 0.1 * sp, cw - 300.0)]
 SPLIT_NOTES, SPLIT_INFO = [], []               # what the fit could not do (problems; remarks), for --annotations-check
 def fit_splits(caps):
     staff_req = lambda n_: (stave_mid[n_] - PAD_UP, stave_mid[n_] + PAD_DN, -60.0)
@@ -635,8 +636,13 @@ def draw_names(layer, t, Hm, U):
         al_, _ = name_size(st); c = COL.get(st, np.float32([255, 255, 255]))
         a0 = NAME_DIM + (1 - NAME_DIM) * part_active(st, t)
         y1 = staves[st][0] - top - 0.6 * sp; y0 = y1 - 3.0 * sp
+        near = [(ov.fade(t, c_["t0"], c_["t1"]),) + label_place(c_, Hm, U)[1:3] for c_ in CAPS
+                if A.caption_style == "score" and c_.get("anchor") and c_["anchor"]["staff"] == st and c_["t0"] - 1 < t < c_["t1"] + 1]
         for xr, ww, hid in labs[i0:i1]:
             a = a0 * (1 - max((ov.fade(t, h0 - 0.5, h1 + 0.5, 0.5) for h0, h1 in hid), default=0.0))
+            for ac, lx_, lw_ in near:       # a note's label that was moved along its row onto this name: the name gives way
+                gap = max(xr - ww - (lx_ + lw_), lx_ - xr)
+                a *= 1 - ac * float(np.clip(1 - gap / (3 * sp), 0, 1))
             if a <= 0.01: continue
             src = np.float64([[xr - ww, y0], [xr, y0], [xr, y1], [xr - ww, y1]])
             if np.any((np.c_[src, np.ones(4)] @ Hm[2]) * wf <= 0): continue      # part of it is behind the camera
@@ -724,15 +730,74 @@ def x_at_s(ts):
     for bq, bx in BLX.items():
         if abs(bq - q) < 1e-3: return bx
     return play_x(q) - 1.2 * sp
+# A note on the score is a box round the passage, a label above the box and chord names below it. Heads on ledger lines
+# reach up to 5 staff spaces above or below the staff, so the box, the label and the chord names are moved out to clear
+# the heads in their stretch of the line, as far as the gap to the next staff allows.
+NOTE_XY = {}
+for st in names:
+    pts_ = sorted((n_[2], n_[3] - top) for n_ in N if n_[5] == st)
+    NOTE_XY[st] = (np.array([p_[0] for p_ in pts_]), np.array([p_[1] for p_ in pts_]))
+def note_span(st, xa, xb):
+    """(highest, lowest) note head on staff st between xa and xb on the sheet, or None"""
+    xs, ys = NOTE_XY[st]; i, j = np.searchsorted(xs, [xa, xb])
+    return (float(ys[i:j].min()), float(ys[i:j].max())) if j > i else None
+def cap_geom(c):
+    """sheet heights of a note on the score: the box (y0, y1), the base line of its label (yb), the top of its chord
+    names (yc); 'tight' says by how many staff spaces a head still reaches into the box line or the label"""
+    an = c["anchor"]; st = an["staff"]; k_ = names.index(st)
+    s0, s1 = staves[st][0] - top, staves[st][1] - top
+    above = staves[names[k_ - 1]][1] - top if k_ else 0.0            # the foot of the staff above, or the sheet's edge
+    below = staves[names[k_ + 1]][0] - top if k_ + 1 < len(names) else float(FH)
+    x0, x1 = x_at_s(an["t0"]) - sp, x_at_s(an["t1"]) - sp
+    _, cw, ls = label_text(c)
+    lx = c.get("lx", x0)
+    box = note_span(st, x0 - 0.5 * sp, x1 + 0.5 * sp); lab = note_span(st, lx - sp, lx + cw + sp)
+    hi = min([v_[0] for v_ in (box, lab) if v_] + [s0]); lo = box[1] if box else s1
+    y0 = min(s0 - 2.2 * sp, box[0] - 1.6 * sp) if box else s0 - 2.2 * sp
+    yb = min(y0 - 0.9 * sp, hi - 1.6 * sp)
+    yb = min(max(yb, above + (1.0 + 5.4 * ls) * sp), s0 - 3.1 * sp) # the label and its kind word (5.4 sp) keep 1 sp from the staff above
+    y0 = max(y0, yb + 0.9 * sp)
+    y1 = max(s1 + 2.2 * sp, min(lo + 1.6 * sp, below - 1.5 * sp))
+    yc = max(s1 + 3.0 * sp, min(y1 + 0.8 * sp, below - 3.6 * sp))   # chord names (2.6 sp) keep 1 sp from the staff below
+    if c.get("chords"): y1 = min(y1, yc - 0.8 * sp)
+    tight = max((yb + 1.0 * sp - hi) / sp, (lo + 1.0 * sp - y1) / sp, 0.0)
+    return {"y0": y0, "y1": y1, "yb": yb, "yc": yc, "tight": tight}
+for c in CAPS:
+    if c.get("anchor"): c["g"] = cap_geom(c)                        # first with the label at the start of the box
 if ANN is not None:
-    fit_splits(CAPS); settle_times(CAPS); SPLIT_NOTES.clear(); SPLIT_INFO.clear(); fit_splits(CAPS)
+    fit_splits(CAPS); settle_times(CAPS)
+    # A label seen in a split panel or a pull-back is small on the screen, so it is written larger there (up to 1.6
+    # times), but only where the larger label does not change what the split shows or how far it pulls back.
+    def refit():
+        SPLIT_NOTES.clear(); SPLIT_INFO.clear(); fit_splits(CAPS)
+        return [(sp_.get("za", 0), sp_.get("zb", 0), sp_.get("zp", 0), sp_.get("ra"), sp_.get("rb"), sum(1 for s2_, _ in SPLIT_NOTES if s2_ is sp_)) for sp_ in SPLITS]
+    during_ = lambda c, sp_: min(c["t1"], sp_["t1"]) - max(c["t0"], sp_["t0"]) >= 1.0
+    sig_a = refit()
+    for c in CAPS:
+        if not c.get("anchor"): continue
+        z = 1.0
+        for sp_ in SPLITS:
+            if not during_(c, sp_): continue
+            if sp_["mode"] == "pullback": z = max(z, sp_.get("zp", 1.0))
+            else:
+                zs = [sp_["z" + k_] for k_ in "ab" if sees(sp_["f" + k_], sp_["z" + k_], True, 0.0, cap_reqs(c))]
+                z = max(z, min(zs) if zs else max(sp_["za"], sp_["zb"]))
+        c["ls"] = float(np.clip(z / 1.25, 1.0, 1.6)); c["g"] = cap_geom(c)
+    def same_fit(a_, b_):
+        return all(abs(x_ - y_) <= 0.051 for x_, y_ in zip(a_[:3], b_[:3])) and b_[5] <= a_[5] and all(
+            (x_ is None and y_ is None) or (x_ is not None and y_ is not None and abs(x_[0] - y_[0]) < 2 and abs(x_[1] - y_[1]) < 2) for x_, y_ in zip(a_[3:5], b_[3:5]))
+    for shrink in (0.5, 0.0):                                      # where it does change the split: half the enlargement, then none
+        for (sp_, a_), b_ in zip(zip(SPLITS, sig_a), refit()):
+            if same_fit(a_, b_): continue
+            for c in CAPS:
+                if c.get("anchor") and during_(c, sp_): c["ls"] = 1.0 + (c["ls"] - 1.0) * shrink; c["g"] = cap_geom(c)
 # A note's label is written at one fixed place on the paper: at the start of its bracket, or further right when the
 # passage is long, so that it is still in shot when the note is about to go. (It follows the left edge of the frame
 # only if no fixed place is in shot for the whole time.)
 for c in CAPS:
     an = c.get("anchor")
     if not an: continue
-    al_ = ov.text_alpha(c.get("short", c["kind"]), "italic", 64); cw = 3.2 * sp * al_.shape[1] / al_.shape[0]
+    _, cw, _ = label_text(c)
     bx0 = x_at_s(an["t0"]) - sp
     need = play_x(s2q(max(c["t1"] - 0.8, c["t0"]))) - 330       # in shot shortly before the note goes
     room = play_x(s2q(c["t0"])) + 880 - cw                      # in shot when the note appears
@@ -742,6 +807,26 @@ for c in CAPS:
         bx1 = max(x_at_s(an["t1"]) - sp, c["lx"] + cw)
         for lab in NAME_LABELS.get(an["staff"], []):
             if lab[0] > bx0 - 3 * sp and lab[0] - lab[1] < bx1 + 3 * sp: lab[2].append((c["t0"], c["t1"]))
+    c["g"] = cap_geom(c)                                            # now with the label where it is written
+    k_ = names.index(an["staff"])
+    if A.labels == "names" and A.caption_style == "score" and k_ + 1 < len(names):
+        nb = names[k_ + 1]                                          # a chord name may reach the name row of the staff below
+        if c["g"]["yc"] + 2.6 * sp > staves[nb][0] - top - 4.1 * sp:
+            for tc, lab_ in c.get("chords", []):
+                xc = play_x(s2q(tc)) - 0.4 * sp; alc = ov.text_alpha(lab_, "serif", 64); wc = 2.6 * sp * alc.shape[1] / alc.shape[0]
+                for lab in NAME_LABELS.get(nb, []):
+                    if lab[0] > xc - 2 * sp and lab[0] - lab[1] < xc + wc + 2 * sp: lab[2].append((tc, c["t1"]))
+if ANN is not None:
+    SPLIT_NOTES.clear(); SPLIT_INFO.clear(); fit_splits(CAPS)      # the fit again, with the times and places as they now are
+def label_place(c, Hm, U):
+    """(text, x, width, base line, height) of a note's label in this view: at its fixed place on the paper, moved along
+    its row only as far as keeps it in the shot"""
+    key = (Hm.tobytes(), VIEW_Y[0], VIEW_Y[1])
+    if c.get("_lp", (None,))[0] != key:
+        al_, ww, ls = label_text(c); hh = 3.2 * sp * ls; yb = c["g"]["yb"]
+        xl_, xr_ = visible_span_x(Hm, [yb, yb - hh - 2.2 * sp * ls], U)
+        c["_lp"] = (key, (al_, max(min(c["lx"], xr_ - ww), xl_), ww, yb, hh))
+    return c["_lp"][1]
 if A.annotations_check:
     mmss = lambda t: f"{int(t // 60)}:{t % 60:04.1f}"
     def onsets(st, t0, t1): return sum(1 for n_ in N if n_[5] == st and t0 - 1e-6 <= n_[0] < t1 - 1e-6)
@@ -784,6 +869,8 @@ if A.annotations_check:
             if not (c["t0"] - 4.0 <= tc <= c["t1"]): flag(f"chord {lab} at {mmss(tc)} is outside the note's time")
         for c2_, msg in TIME_INFO:
             if c2_ is c: print(f"      ({msg})")
+        if c.get("ls", 1.0) > 1.01: print(f"      (label written {c['ls']:.2f} times larger: it is shown in a pulled-back view)")
+        if c["g"]["tight"] > 0.25: print(f"      (note heads reach {c['g']['tight']:.1f} staff spaces into the box line or the label: no more room to the next staff)")
         for c2_, msg in TIME_NOTES:
             if c2_ is c: flag(msg)
     print(f"{bad} problems")
@@ -797,7 +884,7 @@ def draw_score_notes(layer, t, Hm, U):
         an = c.get("anchor")
         if an:
             st = an["staff"]; x0, x1 = x_at_s(an["t0"]) - sp, x_at_s(an["t1"]) - sp
-            y0, y1 = staves[st][0] - top - 2.2 * sp, staves[st][1] - top + 2.2 * sp
+            y0, y1 = c["g"]["y0"], c["g"]["y1"]
             pts = np.float32([[x0, y0], [x1, y0], [x1, y1], [x0, y1], [x0, y0]])
             # the outline draws itself over 0.8 s
             dr = float(np.clip((t - c["t0"]) / 0.8, 0, 1))
@@ -808,26 +895,25 @@ def draw_score_notes(layer, t, Hm, U):
                 f_ = min(1.0, L / sl); path.append(pts[i_] + (pts[i_ + 1] - pts[i_]) * f_); L -= sl
             P = cv2.perspectiveTransform(np.float32(path)[None], Hm)[0]
             cv2.polylines(layer, [np.round(P * 4).astype(np.int32)], False, (np.float32(ov.GOLD) * 0.9 * a).tolist(), 2, cv2.LINE_AA, 2)
-            lab = c.get("short", c["kind"])
-            al_ = ov.text_alpha(lab, "italic", 64)
-            hh = 3.2 * sp; ww = hh * al_.shape[1] / al_.shape[0]
-            yb = y0 - 0.9 * sp
-            xl_, xr_ = visible_span_x(Hm, [yb, yb - hh - 2.2 * sp], U)
-            x0 = max(min(c["lx"], xr_ - ww), xl_)                # fixed on the paper; moved only as far as keeps it in the shot
+            al_, x0, ww, yb, hh = label_place(c, Hm, U)
             q = cv2.perspectiveTransform(np.float32([[[x0, yb - hh], [x0 + ww, yb - hh], [x0 + ww, yb], [x0, yb]]]), Hm)[0]
             ov.warp_sprite(layer, al_, q, np.float32(ov.GOLD) * a)
             kd = ov.text_alpha(c["kind"].upper(), "sansbold", 40)
-            hk = 1.7 * sp; wk = hk * kd.shape[1] / kd.shape[0]
-            yk = yb - hh - 0.5 * sp
+            ls = c.get("ls", 1.0); hk = 1.7 * sp * ls; wk = hk * kd.shape[1] / kd.shape[0]
+            yk = yb - hh - 0.5 * sp * ls
             q = cv2.perspectiveTransform(np.float32([[[x0, yk - hk], [x0 + wk, yk - hk], [x0 + wk, yk], [x0, yk]]]), Hm)[0]
             ov.warp_sprite(layer, kd, q, np.float32(ov.GOLD) * 0.75 * a)
-        for tc, lab in c.get("chords", []):
+        hh = 2.6 * sp                                           # chord names: below the staff, as harmonic analysis is written
+        chs = [(tc, lab, play_x(s2q(tc)) - 0.4 * sp, ov.text_alpha(lab, "serif", 64)) for tc, lab in c.get("chords", [])]
+        for i_, (tc, lab, x0, al_) in enumerate(chs):
             if t < tc - 0.15: continue
             ac = a * float(np.clip((t - tc + 0.15) / 0.3, 0, 1))
+            ww = hh * al_.shape[1] / al_.shape[0]
+            if i_ + 1 < len(chs) and chs[i_ + 1][2] < x0 + ww + 0.8 * sp:      # the next name would run into this one: this one goes as it comes
+                ac *= 1 - float(np.clip((t - chs[i_ + 1][0] + 0.15) / 0.3, 0, 1))
+                if ac <= 0: continue
             st = c.get("chord_staff", an["staff"] if an else names[0])
-            x0 = play_x(s2q(tc)) - 0.4 * sp
-            hh = 2.6 * sp; y1 = staves[st][1] - top + 3.0 * sp + hh   # below the staff, as harmonic analysis is written; the label is above
-            al_ = ov.text_alpha(lab, "serif", 64); ww = hh * al_.shape[1] / al_.shape[0]
+            y1 = (c["g"]["yc"] if an and st == an["staff"] else staves[st][1] - top + 3.0 * sp) + hh
             q = cv2.perspectiveTransform(np.float32([[[x0, y1 - hh], [x0 + ww, y1 - hh], [x0 + ww, y1], [x0, y1]]]), Hm)[0]
             ov.warp_sprite(layer, al_, q, np.float32([235, 238, 255]) * ac)
 def draw_caption_panel(img, t):

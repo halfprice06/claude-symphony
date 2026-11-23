@@ -628,11 +628,11 @@
       "short": "B6 at 336: the highest note, the only fff",
       "text": "At 336 the first violins and Flute 1 reach B6, the highest note of the movement, over a B7 chord in the woodwind, brass and strings with a timpani roll on B; it is the only fff printed in the movement. The chord resolves to E minor at 339, and bar 340 is a general pause.",
       "anchor": {
-        "staff": "Violins I",
+        "staff": "Flutes 1·2",
         "from": "335.1",
         "to": "337.1"
       },
-      "check": "coda.ily codaVlnOne and codaFluteOne B6 at 336 (fff; other fff marks in the movement are hidden stencils), B7 at 336 in all sounding parts (Cl A4, Ob F♯5, Tpt D♯4, Tbn D♯3+F♯3, Cb B1), codaTimp B2 roll; E at 339; global.ily G.P. at 340."
+      "check": "coda.ily codaVlnOne and codaFluteOne B6 at 336 (fff; other fff marks in the movement are hidden stencils), B7 at 336 in all sounding parts (Cl A4, Ob F♯5, Tpt D♯4, Tbn D♯3+F♯3, Cb B1), codaTimp B2 roll; E at 339; global.ily G.P. at 340. Anchor moved to Flute 1 (coda.ily codaFluteOne: a'''4 at the end of 335, b'''2. fff at 336, a'''2 fis'''4 at 337), which the split shows larger than the first violins."
     },
     {
       "from": "341.1",
