@@ -30,6 +30,7 @@ ap.add_argument("--focus-report", action="store_true", help="print the staff the
 A = ap.parse_args()
 W, H = 1920, 1080
 CHILD = A.part is not None
+if CHILD: cv2.setNumThreads(1)     # the parts already fill the cores
 def log(*a):
     if not CHILD: print(*a, file=sys.stderr, flush=True)
 
