@@ -7,14 +7,21 @@ from PIL import Image, ImageDraw, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ICON_DIR = os.path.join(HERE, "..", "icons")
-FONT = {"serif": "/usr/share/fonts/opentype/urw-base35/C059-Roman.otf",
-        "italic": "/usr/share/fonts/opentype/urw-base35/C059-Italic.otf",
-        "bold": "/usr/share/fonts/opentype/urw-base35/C059-Bold.otf",
-        "sans": "/usr/share/fonts/truetype/crosextra/Carlito-Regular.ttf",
-        "sansbold": "/usr/share/fonts/truetype/crosextra/Carlito-Bold.ttf"}
-FF = "/usr/share/fonts/truetype/freefont/"
-FALLBACK = {"serif": FF + "FreeSerif.ttf", "italic": FF + "FreeSerifItalic.ttf", "bold": FF + "FreeSerifBold.ttf",
-            "sans": FF + "FreeSans.ttf", "sansbold": FF + "FreeSansBold.ttf"}
+# Fonts: C059 (URW base 35) for the words on the paper, Carlito for the small capitals, FreeSerif/FreeSans for the
+# accidentals those two lack. They are looked for in $GLOW_FONTS, then tools/fonts/, then the Linux system folders
+# (Debian/Ubuntu packages fonts-urw-base35, fonts-crosextra-carlito, fonts-freefont-ttf). On a Mac, copy the ten
+# files into tools/fonts/ or point GLOW_FONTS at a folder that holds them.
+FONT = {"serif": "C059-Roman.otf", "italic": "C059-Italic.otf", "bold": "C059-Bold.otf",
+        "sans": "Carlito-Regular.ttf", "sansbold": "Carlito-Bold.ttf"}
+FALLBACK = {"serif": "FreeSerif.ttf", "italic": "FreeSerifItalic.ttf", "bold": "FreeSerifBold.ttf",
+            "sans": "FreeSans.ttf", "sansbold": "FreeSansBold.ttf"}
+FONT_DIRS = [d for d in (os.environ.get("GLOW_FONTS"), os.path.join(HERE, "fonts"),
+                         "/usr/share/fonts/opentype/urw-base35", "/usr/share/fonts/truetype/crosextra",
+                         "/usr/share/fonts/truetype/freefont") if d]
+def font_path(name):
+    for d in FONT_DIRS:
+        if os.path.isfile(os.path.join(d, name)): return os.path.join(d, name)
+    raise FileNotFoundError(f"font {name} not found in {FONT_DIRS} (see the note in tools/overlays.py)")
 SPECIAL = set("♭♯♮→⁶")                 # not in C059 or Carlito
 
 ABBR = {"Flutes 1·2": "Fl", "Oboes 1·2": "Ob", "Cor anglais": "C.a.", "Clarinets 1·2": "Cl", "Bass clarinet": "B.cl",
@@ -35,7 +42,7 @@ ICON = {"Flutes 1·2": "flute", "Oboes 1·2": "oboe", "Cor anglais": "cor-anglai
 _font_cache = {}
 def font(kind, px, fallback=False):
     k = (kind, int(px), fallback)
-    if k not in _font_cache: _font_cache[k] = ImageFont.truetype((FALLBACK if fallback else FONT)[kind], int(px))
+    if k not in _font_cache: _font_cache[k] = ImageFont.truetype(font_path((FALLBACK if fallback else FONT)[kind]), int(px))
     return _font_cache[k]
 def runs(s):
     """split a string into runs for the main font and for the fallback font (accidentals)"""

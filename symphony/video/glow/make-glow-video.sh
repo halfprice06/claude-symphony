@@ -6,7 +6,8 @@
 #   score     main's version folder (below); tempo map and stem loudness of that mockup in data/
 # Output: symphony/video/glow/<MOVEMENT>-glow-video.mp4 (or OUT=; not committed). JOBS= parallel parts (default: all cores).
 # Extra arguments go to glow_video.py, e.g. --bars 53 64 for an excerpt, --still 212 for test frames.
-# Needs: lilypond 2.24, ffmpeg, python3 with numpy, pillow, opencv-python, cairosvg.
+# Needs: ffmpeg, python3 with numpy, pillow, opencv-python; to engrave the score (when build/<MOVEMENT>/ is missing)
+# also lilypond 2.24, cairosvg and GNU cp. Fonts: see tools/overlays.py (GLOW_FONTS or tools/fonts/ on a Mac).
 set -e
 HERE="$(cd "$(dirname "$0")" && pwd)"
 ROOT="$(cd "$HERE/../../.." && pwd)"
@@ -29,4 +30,4 @@ if [ -z "$PLAIN" ]; then
   [ -f "$HERE/annotations/$M.json" ] && EXTRA+=(--annotations "$HERE/annotations/$M.json")
 fi
 python3 "$HERE/tools/glow_video.py" --strip "$BUILD" --tempo "$HERE/data/$DATA-tempo.json" --stems "$HERE/data/$DATA-stems.npz" \
-  --audio "$AUDIO" --out "$OUT" --jobs "${JOBS:-$(nproc)}" "${EXTRA[@]}" "$@"
+  --audio "$AUDIO" --out "$OUT" --jobs "${JOBS:-$(nproc 2>/dev/null || sysctl -n hw.ncpu)}" "${EXTRA[@]}" "$@"
