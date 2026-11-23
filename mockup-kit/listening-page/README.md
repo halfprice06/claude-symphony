@@ -8,6 +8,7 @@ Dan, 2026-11-17: the page holds only the latest mockup of each of the four movem
 
 - Tab "REAPER mockups": the newest mockup mp3 of each movement. Published as `mvt1-cNN.mp3`, `mvt2-cNN.mp3`, `scherzo-cNN.mp3`, `mvt3-cNN.mp3` (mvt3 is the finale).
 - Tab "Basic MIDI": plain General MIDI playback of each movement's current `score.midi` (Dan, 2026-11-09: no r07 renderer here, "super basic plain general midi samples"). Published as `basic/<movement>-<version>-gm.mp3`.
+- Tab "Score videos" (added 2026-11-23): the four glow score videos from `symphony/video/glow/<movement>-glow-video.mp4` (1080p, 195-303 MB each), set to the final mockups (I c63, II c57, III c30, IV c30). They play in the score column (the score pages hide while a video is open; the audio player pauses while a video plays, and the other way round). They ship as the page's own published files: 720p HLS, 20-second fMP4 pieces, about 760 kbps video + 96 kbps AAC (163 MB for all four), under `videos/<movement>/` with the playlist as `videos/<movement>/<movement>-playlist.txt` (artifacts do not serve `.m3u8`; hls.js 1.5.13 from cdnjs reads the playlist whatever its type). Posters: `videos/<movement>-poster.jpg`. Encode with the script in this README's "Score videos" section below. Budget: a version may hold 256 MB in all and the page sits near 240 MB, so a higher video bitrate does not fit.
 - Score viewer: the engraved score of each movement as page images, `scores/<movement>-<version>/01.webp ...`. One audio element plays everything, so the audio continues while the score is scrolled or the tab is switched.
 
 ## Updating
@@ -21,3 +22,17 @@ Where the MIDI comes from: `score.midi` in `symphony/mvt2/v600`, `symphony/scher
 New score engraving: `make-score-pages.sh <score.pdf> <dir>` in a temporary folder, publish the pages under a new folder name (`scores/mvt2-v600c/...`), set the old pages to `null`, and edit `dir`, `pages`, `version` and `note` in the `SCORES` table in the script at the bottom of `index.html`.
 
 Files not named in a publish stay as they are. One publish takes at most 64 MB.
+
+
+## Score videos
+
+Encode (from the repo root; output folder is listed in `.git/info/exclude`):
+
+```bash
+V="-vf scale=1280:720 -c:v libx264 -preset slow -b:v 760k -maxrate 1150k -bufsize 2300k -profile:v high -pix_fmt yuv420p -g 60 -keyint_min 60 -sc_threshold 0"
+ffmpeg -i in.mp4 $V -pass 1 -an -f null /dev/null
+ffmpeg -i in.mp4 $V -pass 2 -c:a aac -b:a 96k -ac 2 -f hls -hls_time 20 -hls_playlist_type vod -hls_segment_type fmp4 \
+  -hls_fmp4_init_filename M-init.mp4 -hls_segment_filename "out/M/M-%03d.mp4" out/M/M-playlist.txt
+```
+
+Publish each movement's folder as `videos/M/...` (one publish takes at most 64 MB). The artifact's asset store (1 GB, 20 MB per file) was tried first with full-quality pieces: the page got 404 for every `/_blob/` fetch and video load when viewed signed out, so those 82 assets (620 MB) are unused; they can be deleted.
