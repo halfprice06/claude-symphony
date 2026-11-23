@@ -21,5 +21,12 @@ esac
 BUILD="$HERE/build/$M"
 OUT="${OUT:-$HERE/$M-glow-video.mp4}"
 [ -f "$BUILD/strip2.png" ] || "$HERE/tools/build-strip.sh" "$ROOT/$SCORE" "$BUILD"
+# Dan's choices (2026-11-23): instrument names on the paper, and the movement's split moments and notes on the score
+# from annotations/<movement>.json when it exists. PLAIN=1 leaves them out (the look of the first videos).
+EXTRA=()
+if [ -z "$PLAIN" ]; then
+  EXTRA+=(--labels names)
+  [ -f "$HERE/annotations/$M.json" ] && EXTRA+=(--annotations "$HERE/annotations/$M.json")
+fi
 python3 "$HERE/tools/glow_video.py" --strip "$BUILD" --tempo "$HERE/data/$DATA-tempo.json" --stems "$HERE/data/$DATA-stems.npz" \
-  --audio "$AUDIO" --out "$OUT" --jobs "${JOBS:-$(nproc)}" "$@"
+  --audio "$AUDIO" --out "$OUT" --jobs "${JOBS:-$(nproc)}" "${EXTRA[@]}" "$@"

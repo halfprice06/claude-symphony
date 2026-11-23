@@ -1,5 +1,6 @@
 """Turn a movement's score.ly into strip.ly: the whole movement engraved on one long line, every staff kept,
-and SVG output attributes on noteheads (score moment data-m and duration data-d in quarter notes), bar lines
+and SVG output attributes on noteheads (score moment data-m, duration data-d in quarter notes, data-t 1 when a tie
+arrives at the head), bar lines
 (data-m) and staff lines (data-name = the staff's name), so glow_video.py can find every note on the strip.
 
 python3 make_strip_ly.py OUT_DIR      (OUT_DIR holds a copy of the version folder; writes OUT_DIR/strip.ly)
@@ -128,6 +129,8 @@ s = remove(s, [(x, y) for x, _, y in blocks(s, "paper")[1:]])
 DEFS = r"""
 #(define (vid-dur g) (let ((e (event-cause g))) (number->string (if (and e (ly:duration? (ly:event-property e 'duration #f))) (exact->inexact (* 4 (ly:moment-main (ly:duration-length (ly:event-property e 'duration))))) 0))))
 #(define (vid-mom g) (let ((c (if (ly:spanner? g) (ly:item-get-column (ly:spanner-bound g LEFT)) (ly:item-get-column g)))) (number->string (if (ly:grob? c) (exact->inexact (* 4 (ly:moment-main (ly:grob-property c 'when)))) -1))))
+#(define vid-tied (make-hash-table 4096))
+#(define (vid-tie-end g) (let ((r (ly:spanner-bound g RIGHT))) (if (ly:grob? r) (hashq-set! vid-tied r #t))))
 #(define (vid-staff-name context)
   (make-engraver
     (acknowledgers
@@ -138,7 +141,8 @@ DEFS = r"""
 """
 ATTRS = r"""
   \context { \Score
-    \override NoteHead.output-attributes = #(lambda (g) `((class . "nh") (data-m . ,(vid-mom g)) (data-d . ,(vid-dur g))))
+    \override Tie.after-line-breaking = #vid-tie-end
+    \override NoteHead.output-attributes = #(lambda (g) `((class . "nh") (data-m . ,(vid-mom g)) (data-d . ,(vid-dur g)) (data-t . ,(if (hashq-ref vid-tied g #f) "1" "0"))))
     \override BarLine.output-attributes = #(lambda (g) `((class . "bl") (data-m . ,(vid-mom g))))
   }
   \context { \Staff \consists #vid-staff-name }

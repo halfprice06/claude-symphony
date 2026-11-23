@@ -111,7 +111,7 @@ def load_captions(path, pos_to_s):
     """captions JSON: [{"from": "63.1", "to": "64.3", "kind": "Motive", "text": ..., "short": ..., "bars": "63–64",
     "anchor": {"staff": "Trombones 1·2", "from": "63.1", "to": "65.1"}, "chords": [["60.1", "A♭"], ...],
     "examples": [{"png": "...", "label": "..."}]}]; positions are "bar.quarter" (quarter notes counted from 1)"""
-    caps = json.load(open(path))
+    caps = json.load(open(path)) if isinstance(path, str) else [dict(c) for c in path]
     for c in caps:
         c["t0"], c["t1"] = pos_to_s(c["from"]), pos_to_s(c["to"])
         if "chords" in c: c["chords"] = [(pos_to_s(p), lab) for p, lab in c["chords"]]

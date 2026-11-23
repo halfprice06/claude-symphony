@@ -27,14 +27,16 @@ ap.add_argument("--env", help="audio file for the loudness envelope (default: --
 ap.add_argument("--jobs", type=int, default=1)
 ap.add_argument("--part", type=int, nargs=2, help=argparse.SUPPRESS)      # first and last frame (internal, --jobs)
 ap.add_argument("--focus-report", action="store_true", help="print the staff the camera follows, bar by bar, and stop")
+ap.add_argument("--focus-report-full", action="store_true", help="with --focus-report: also the staff layout and the note onsets per staff in each bar")
 ap.add_argument("--split", default="none", choices=["none", "stack", "slant", "inset", "pullback"],
                 help="when two far-apart groups both lead: split the screen in two bands, along the slant of the score, "
                      "show the second group in an inset window, or pull the camera back to show both")
 ap.add_argument("--split-report", action="store_true", help="print the stretches that would get a split screen, and stop")
 ap.add_argument("--split-bars", type=int, nargs="*", help="split only in these bar ranges (pairs A B), groups found from the stems")
 ap.add_argument("--split-staves", nargs=2, help="with --split-bars: the staves the upper and lower views centre on")
+ap.add_argument("--annotations", help="JSON with \"splits\" (each with its own mode stack|pullback and panel zooms) and \"captions\" for the whole movement (annotations/<mvt>.json)")
 ap.add_argument("--captions", help="analysis captions (JSON, see overlays.load_captions)")
-ap.add_argument("--caption-style", default="bar", choices=["bar", "score", "card"],
+ap.add_argument("--caption-style", default="score", choices=["bar", "score", "card"],
                 help="a subtitle band, notes written on the score next to the notes they describe, or a card with music examples")
 ap.add_argument("--labels", default="none", choices=["none", "letters", "icons", "names"],
                 help="say which instrument plays: abbreviations riding on the jumping lights, the lights drawn as "
@@ -98,7 +100,7 @@ for m in re.finditer(r'<g class="(\w+)"((?: data-[\w-]+="[^"]*")*)>', svg):
         ys = sorted(y for _, y in pts[:5])
         staves[attr["name"]] = (ys[0] * k, ys[-1] * k)
     else:
-        notes.append((float(attr["m"]), float(attr.get("d", 0)), pts[0][0] * k, pts[0][1] * k))
+        notes.append((float(attr["m"]), float(attr.get("d", 0)), pts[0][0] * k, pts[0][1] * k, attr.get("t") == "1"))
 names = sorted(staves, key=lambda n: staves[n][0])
 BLX = {}
 for m in re.finditer(r'<g class="bl" data-m="([-\d.]+)">', svg):
@@ -122,25 +124,28 @@ def sat(c, k=1.5):
     return np.clip(g + (c - g) * k, 0, 255)
 COL = {n: sat(c) for n, c in COL.items()}
 N = []
-for q, d, x, y in notes:
+for q, d, x, y, tied in notes:
     st = staff_of(y)
     t0, t1 = q2s(q), q2s(q + max(d, 0.25))
-    N.append((t0, t1, x + 0.65 * sp, y, np.array(COL.get(st, (255, 255, 255)), np.float32), st))
+    N.append((t0, t1, x + 0.65 * sp, y, np.array(COL.get(st, (255, 255, 255)), np.float32), st, tied))
 N.sort(key=lambda n: n[0])
+NTIE = np.array([n[6] for n in N], bool)     # a tie arrives at this head: the same note continued, not a new attack
+N = [n[:6] for n in N]
 # bouncing lights: per part, up to 3 balls hop from each onset's notes to the next onset's notes
 from collections import defaultdict
 _G = defaultdict(dict)
-for t0, t1, x, y, c, st in N: _G[st].setdefault(round(t0, 4), []).append((x, y, t1))
+for (t0, t1, x, y, c, st), tie_ in zip(N, NTIE): _G[st].setdefault(round(t0, 4), []).append((x, y, t1, tie_))
 TRACKS = []
 for st, dct in _G.items():
     ts = sorted(dct); groups = [sorted(dct[t], key=lambda p: p[1]) for t in ts]
+    slide = [all(p[3] for p in g) for g in groups]   # every head tied over: the light slides along the paper, no jump
     nb = min(max(len(g) for g in groups), 3)
-    TRACKS.append((np.array(ts), groups, np.array(COL.get(st, (255, 255, 255)), np.float32), nb, st))
+    TRACKS.append((np.array(ts), groups, np.array(COL.get(st, (255, 255, 255)), np.float32), nb, st, slide))
 DROP = 0.55
 def balls_at(t):
     """(x, y, z, alpha, colour, staff, voice) of every ball at time t"""
     out = []
-    for ts, groups, col, nb, st in TRACKS:
+    for ts, groups, col, nb, st, slide in TRACKS:
         n0 = len(out)
         i = int(np.searchsorted(ts, t, side="right")) - 1
         for j in range(nb):
@@ -155,12 +160,16 @@ def balls_at(t):
                 gap = nt - ts[i]
                 resting = (nt - end) > 0.9          # a real rest: the light goes out, then drops onto the next note
                 if not resting:
-                    hop = min(gap, 0.75); st_ = nt - hop
+                    hop = min(gap, 0.45 if slide[i + 1] else 0.75); st_ = nt - hop
                     if t >= st_:
                         s_ = (t - st_) / hop
-                        dist = math.hypot(q[0] - p_[0], q[1] - p_[1])
-                        hh = float(np.clip(0.35 * dist + 30, 30, 200))
-                        out.append((p_[0] + (q[0] - p_[0]) * s_, p_[1] + (q[1] - p_[1]) * s_, hh * 4 * s_ * (1 - s_), 1.0, col))
+                        if slide[i + 1]:   # a tie: glide along the paper to the continued note
+                            s_ = s_ * s_ * (3 - 2 * s_)
+                            out.append((p_[0] + (q[0] - p_[0]) * s_, p_[1] + (q[1] - p_[1]) * s_, 0.0, 1.0, col))
+                        else:
+                            dist = math.hypot(q[0] - p_[0], q[1] - p_[1])
+                            hh = float(np.clip(0.35 * dist + 30, 30, 200))
+                            out.append((p_[0] + (q[0] - p_[0]) * s_, p_[1] + (q[1] - p_[1]) * s_, hh * 4 * s_ * (1 - s_), 1.0, col))
                     else:
                         out.append((p_[0], p_[1], 0.0, 1.0, col))   # stays fully lit until it jumps
                 else:
@@ -181,7 +190,7 @@ NX = np.array([n[2] for n in N]); NY = np.array([n[3] for n in N])
 NC = np.array([n[4] for n in N])
 # playhead x per qn (leftmost head at each onset)
 on = {}
-for q, d, x, y in notes: on[q] = min(on.get(q, 1e9), x)
+for q, d, x, y, _ in notes: on[q] = min(on.get(q, 1e9), x)
 oq = np.array(sorted(on)); ox = np.array([on[q] for q in oq])
 ox = np.maximum.accumulate(ox)
 def play_x(q): return float(np.interp(q, oq, ox))
@@ -361,27 +370,50 @@ def split_at_bars(pairs):
         if A.split_staves: out.append([t0, t1, stave_mid[A.split_staves[0]], stave_mid[A.split_staves[1]], "staves"])
         elif ups: out.append([t0, t1, float(np.median(ups)), float(np.median(los)), "bars"])
     return out
-if A.split_bars: SPLITS = split_at_bars(A.split_bars)
-else: SPLITS = split_track() if (A.split != "none" or A.split_report) else []
+def pos_to_s(p):
+    """score position "bar.q" (q = 1 + quarter notes after the bar line) to seconds"""
+    b, _, qq = str(p).partition(".")
+    return q2s(bar_qn[int(b) - 1] + (float(qq) - 1 if qq else 0))
+ANN = json.load(open(A.annotations)) if A.annotations else None
+if ANN is not None:
+    SPLITS = [dict(t0=pos_to_s(x["from"]), t1=pos_to_s(x["to"]), va=stave_mid[x["upper"]], vb=stave_mid[x["lower"]],
+                   mode=x.get("mode", "stack"), za=float(x.get("upper_zoom", 1.0)), zb=float(x.get("lower_zoom", 1.0)),
+                   why=x.get("bars", "")) for x in ANN.get("splits", [])]
+else:
+    _sp = split_at_bars(A.split_bars) if A.split_bars else (split_track() if (A.split != "none" or A.split_report) else [])
+    SPLITS = [dict(t0=a_, t1=b_, va=c_, vb=d_, mode=A.split, za=1.0, zb=1.0, why=w_) for a_, b_, c_, d_, w_ in _sp]
 SPLIT_IN = 1.1     # s: the screen opens into two views (and closes again) over this time
 def split_amount(t):
-    """(0..1 eased, upper target, lower target) of the split screen at time t"""
-    for t0, t1, va, vb, _ in SPLITS:
+    """(0..1 eased, the split) of the split screen at time t; the split is a dict with t0, t1, va (upper target),
+    vb (lower target), mode (stack, slant, inset, pullback), za and zb (how far each panel pulls back)"""
+    for sp_ in SPLITS:
+        t0, t1 = sp_["t0"], sp_["t1"]
         if t0 - SPLIT_IN <= t <= t1 + SPLIT_IN:
             x = float(np.clip(min((t - (t0 - SPLIT_IN)) / SPLIT_IN, (t1 + SPLIT_IN - t) / SPLIT_IN), 0, 1))
-            return x * x * (3 - 2 * x), va, vb
-    return 0.0, None, None
+            return x * x * (3 - 2 * x), sp_
+    return 0.0, None
 if A.split_report:
     near = lambda v: min(names, key=lambda s_: abs(stave_mid[s_] - v))
-    for t0, t1, a_, b_, w_ in SPLITS:
-        print(f"{t0:6.1f}-{t1:6.1f}s  bars {bar_at(t0):3d}-{bar_at(t1):3d}  {near(a_):14s} + {near(b_):14s}  ({w_})")
+    for sp_ in SPLITS:
+        print(f"{sp_['t0']:6.1f}-{sp_['t1']:6.1f}s  bars {bar_at(sp_['t0']):3d}-{bar_at(sp_['t1']):3d}  {near(sp_['va']):14s} + {near(sp_['vb']):14s}  {sp_['mode']} ({sp_['why']})")
     sys.exit()
 
+ABBR_R = {"Flutes 1·2": "Fl", "Oboes 1·2": "Ob", "Cor anglais": "Ca", "Clarinets 1·2": "Cl", "Bass clarinet": "Bcl", "Bassoons 1·2": "Bn", "Contrabassoon": "Cbn", "Horns 1·2": "Hn12", "Horns 3·4": "Hn34", "Trumpets 1·2": "Tpt12", "Trumpet 3": "Tpt3", "Trombones 1·2": "Tbn12", "Bass trombone": "Btbn", "Tuba": "Tba", "Timpani": "Timp", "Percussion": "Perc", "Harp RH": "HpR", "Harp LH": "HpL", "Violins I": "Vn1", "Violins II": "Vn2", "Violas": "Va", "Violoncellos": "Vc", "Double basses": "Cb"}
 if A.focus_report:
     bq = bar_qn
+    if A.focus_report_full:   # staff layout, then per bar: start time, the camera's staff, onsets per staff
+        print("# staves, top to bottom: name, centre y in px (one normal view covers about +-450 px around its centre)")
+        for n_ in names: print(f"#   {n_:16s} {stave_mid[n_]:7.0f}")
     for b in range(1, len(bq)):
         t = q2s(bq[b - 1]); v = feat_v(t + 1.0)
-        print(f"bar {b:3d} {t:6.1f}s  {min(names, key=lambda s_: abs(stave_mid[s_] - v))}")
+        line = f"bar {b:3d} {t:6.1f}s  {min(names, key=lambda s_: abs(stave_mid[s_] - v))}"
+        if A.focus_report_full:
+            t1_ = q2s(bq[b]) if b < len(bq) else t + 4
+            cnt = defaultdict(int)
+            for n_ in N:
+                if t - 1e-6 <= n_[0] < t1_ - 1e-6: cnt[n_[5]] += 1
+            line += "  | " + ", ".join(f"{ABBR_R.get(k_, k_)} {cnt[k_]}" for k_ in names if cnt[k_])
+        print(line)
     sys.exit()
 
 # ---------- camera ----------
@@ -424,17 +456,21 @@ def step(t, dt):
     """move the camera's focus for the frame at time t (along the line: 0.9 s lag; up and down: the spring above)"""
     tu = play_x(s2q(max(t + 0.6, 0))) + 120
     tv = feat_v(t + 1.0)
-    sa, va, vb = split_amount(t + 0.6)
+    ca = caption_target(t)
+    if ca is not None: tv = ca                    # a note on the score holds the camera on its staff
+    sa, sp_ = split_amount(t + 0.6)
+    mode = sp_["mode"] if sp_ else "none"
+    if sa > 0: va, vb = sp_["va"], sp_["vb"]
     if state["u"] is None: state["u"], state["v"], state["vv"] = tu, tv, 0.0
     state["u"] += (tu - state["u"]) * (1 - math.exp(-dt / 0.9))
-    if sa > 0 and A.split in ("stack", "slant"):
+    if sa > 0 and mode in ("stack", "slant"):
         tv = va                                   # the upper view takes the upper group
-    elif sa > 0 and A.split == "pullback":
+    elif sa > 0 and mode == "pullback":
         tv = (va + vb) / 2                        # look between the groups while pulled back
     spring(state, tv, dt)
     if sa > 0:
         if state2["v"] is None: state2["v"], state2["vv"] = state["v"], state["vv"]   # the second view splits off the first
-        other = vb if A.split in ("stack", "slant") else (vb if abs(vb - state["v"]) > abs(va - state["v"]) else va)
+        other = vb if mode in ("stack", "slant") else (vb if abs(vb - state["v"]) > abs(va - state["v"]) else va)
         spring(state2, other, dt)
     else:
         state2["v"] = None
@@ -449,30 +485,46 @@ for t0, t1, x, y, c, st in N:
     if ph and t0 - ph[-1][1] < 1.2: ph[-1][1] = max(ph[-1][1], t1)
     else: ph.append([t0, t1, x, c])
 def draw_names(layer, t, Hm, U):
+    # a staff with a note on the score shows the note instead of its name (the two would sit in the same place)
+    held = {} if A.caption_style != "score" else {c["anchor"]["staff"]: max(ov.fade(t, c["t0"] - 0.5, c["t1"] + 0.5, 0.5), 0) for c in CAPS if c.get("anchor") and c["t0"] - 1.5 <= t <= c["t1"] + 1.5}
     for st, ph in PHRASES.items():
         for t0, t1, x, c in ph:
             if not (t0 - 0.4 <= t <= t1 + 1.4): continue
-            a = float(np.clip(min((t - t0 + 0.4) / 0.4, (t1 + 1.4 - t) / 0.6), 0, 1))
+            a = float(np.clip(min((t - t0 + 0.4) / 0.4, (t1 + 1.4 - t) / 0.6), 0, 1)) * (1 - held.get(st, 0))
+            if a <= 0.01: continue
             hh = 3.0 * sp                                   # text height on the paper
             al_ = ov.text_alpha(ov.NAME.get(st, st), "italic", 64)
             ww = hh * al_.shape[1] / al_.shape[0]
-            x0 = max(x - 1.6 * sp - ww, U - 950)            # just before the phrase's first note, or pulled along
             y1 = staves[st][0] - top - 0.6 * sp; y0 = y1 - hh
+            x0 = max(x - 1.6 * sp - ww, visible_left_x(Hm, y1, U))   # before the phrase's first note, or kept at the left edge
             q = cv2.perspectiveTransform(np.float32([[[x0, y0], [x0 + ww, y0], [x0 + ww, y1], [x0, y1]]]), Hm)[0]
             ov.warp_sprite(layer, al_, q, np.minimum(255, np.array(c) * 0.55 + 115) * a)
 CAPS = []
-if A.captions:
-    def pos_to_s(p):
-        b, _, qq = str(p).partition(".")
-        return q2s(bar_qn[int(b) - 1] + (float(qq) - 1 if qq else 0))
-    CAPS = ov.load_captions(A.captions, pos_to_s)
+if A.captions: CAPS = ov.load_captions(A.captions, pos_to_s)
+elif ANN is not None and ANN.get("captions"): CAPS = ov.load_captions(ANN["captions"], pos_to_s)
+def caption_target(t):
+    """while a note on the score is shown (and 2 s before, so the camera has arrived), aim at its staff, a little above
+    the staff's middle so the label over it is in shot too"""
+    if A.caption_style != "score": return None
+    for c in CAPS:
+        an = c.get("anchor")
+        if an and c["t0"] - 2.0 <= t <= c["t1"]: return stave_mid[an["staff"]] - 4 * sp
+    return None
+def visible_left_x(Hm, y, U, margin=110):
+    """the leftmost x on the strip, along height y, that this camera shows at least margin px inside the frame"""
+    xs = np.arange(U - 5000, U + 1, 20, dtype=np.float64)
+    P = Hm @ np.stack([xs, np.full_like(xs, y), np.ones_like(xs)])
+    w = P[2]; ok = w * w[-1] > 0              # the same side of the camera as the focus (the homography's sign is arbitrary)
+    sx = np.where(ok, P[0] / np.where(ok, w, 1), -1e9); sy = np.where(ok, P[1] / np.where(ok, w, 1), -1e9)
+    good = np.nonzero(ok & (sx >= margin) & (sx < W) & (sy > 40) & (sy < H - 40))[0]
+    return float(xs[good[0]]) if len(good) else U - 950
 def x_at_s(ts):
     """x on the strip at score time ts (first notes, or the bar line when it is a bar's start)"""
     q = s2q(ts)
     for bq, bx in BLX.items():
         if abs(bq - q) < 1e-3: return bx
     return play_x(q) - 1.2 * sp
-def draw_score_notes(layer, t, Hm):
+def draw_score_notes(layer, t, Hm, U):
     """caption style 'score': a bracket drawn round the passage, its label written on the paper above it, and chord
     names written above the staff as the music reaches them"""
     for c in CAPS:
@@ -496,6 +548,7 @@ def draw_score_notes(layer, t, Hm):
             al_ = ov.text_alpha(lab, "italic", 64)
             hh = 3.2 * sp; ww = hh * al_.shape[1] / al_.shape[0]
             yb = y0 - (6.2 if c.get("chords") else 0.9) * sp        # leave a row for the chord names
+            x0 = max(x0, visible_left_x(Hm, yb, U))              # the label stays in shot when the bracket's start has passed
             q = cv2.perspectiveTransform(np.float32([[[x0, yb - hh], [x0 + ww, yb - hh], [x0 + ww, yb], [x0, yb]]]), Hm)[0]
             ov.warp_sprite(layer, al_, q, np.float32(ov.GOLD) * a)
             kd = ov.text_alpha(c["kind"].upper(), "sansbold", 40)
@@ -553,8 +606,9 @@ def view(t, U, V, cx=None, cy=None, dmul=1.0, elx=0.0, spread=1.0):
     if len(idx):
         age = t - NT0[idx]
         held = t <= NT1[idx]
-        inten = np.where(held, 0.7 + 0.3 * np.exp(-age / 0.35), 0.7 * (0.55 + 0.45 * np.exp(-(t - NT1[idx]) / 1.5)) * np.exp(-(t - NT1[idx]) / 14.0))
-        inten *= np.clip(age / 0.04, 0, 1)
+        tied = NTIE[idx]
+        inten = np.where(held, 0.7 + np.where(tied, 0.0, 0.3 * np.exp(-age / 0.35)), 0.7 * (0.55 + 0.45 * np.exp(-(t - NT1[idx]) / 1.5)) * np.exp(-(t - NT1[idx]) / 14.0))
+        inten *= np.where(tied, 1.0, np.clip(age / 0.04, 0, 1))
         Lg = 0.72 + 0.5 * loud(t)
         inten = np.where(held, inten * Lg, inten)
         pts = cv2.perspectiveTransform(np.stack([NX[idx], NY[idx]], 1)[None].astype(np.float32), Hm)[0]
@@ -571,7 +625,7 @@ def view(t, U, V, cx=None, cy=None, dmul=1.0, elx=0.0, spread=1.0):
             c = NC[idx[j]] * I
             cv2.ellipse(glow, (int(x * 4), int(y * 4)), (max(1, int(ax * 4)), max(1, int(ay * 4))), ang, 0, 360, c.tolist(), -1, cv2.LINE_AA, 2)
             cv2.ellipse(glow, (int(x * 4), int(y * 4)), (max(1, int(ax * 2.0)), max(1, int(ay * 2.0))), ang, 0, 360, (np.minimum(255, NC[idx[j]] * 0.4 + 160) * I).tolist(), -1, cv2.LINE_AA, 2)
-            if age[j] < 0.3:   # a thin ring spreads out from the note as it is struck
+            if age[j] < 0.3 and not tied[j]:   # a thin ring spreads out from the note as it is struck (not a tied continuation)
                 s_ = age[j] / 0.3; rk = 1.3 + 1.6 * s_
                 cv2.ellipse(glow, (int(x * 4), int(y * 4)), (max(1, int(ax * 4 * rk)), max(1, int(ay * 4 * rk))), ang, 0, 360, (NC[idx[j]] * 0.55 * (1 - s_) ** 2).tolist(), 3, cv2.LINE_AA, 2)
     # the bouncing lights
@@ -613,7 +667,7 @@ def view(t, U, V, cx=None, cy=None, dmul=1.0, elx=0.0, spread=1.0):
                     ov.add_sprite(ovl, ov.text_alpha(ov.ABBR.get(st_, st_), "sansbold", fp), sx, sy - rr - fp * 0.8,
                                   np.minimum(255, c * 0.6 + 110) * w_)
     if A.labels == "names": draw_names(ovl, t, Hm, U)
-    if CAPS and A.caption_style == "score": draw_score_notes(ovl, t, Hm)
+    if CAPS and A.caption_style == "score": draw_score_notes(ovl, t, Hm, U)
     core = glow
     # tight halo keeps each note separate; the wide one only tints the paper.
     # A soft limit stops overlapping halos from adding up to a white blob.
@@ -636,14 +690,16 @@ _yy, _xx = np.mgrid[0:H, 0:W].astype(np.float32)
 VIGNETTE = np.clip(1.15 - 0.55 * (((_xx - W / 2) / (W / 2)) ** 2 + ((_yy - H / 2) / (H / 2)) ** 2), 0, 1)[..., None]
 def frame_at(t, dt):
     step(t, dt)
-    sa, va, vb = split_amount(t + 0.6)
+    sa, sp_ = split_amount(t + 0.6)
+    mode = sp_["mode"] if sp_ else "none"
+    if sp_: va, vb, za, zb = sp_["va"], sp_["vb"], sp_["za"], sp_["zb"]
     U = state["u"]
-    if sa <= 0.001 or A.split == "none":
+    if sa <= 0.001 or mode == "none":
         out, Hm = view(t, U, state["v"])
-    elif A.split == "pullback":
+    elif mode == "pullback":
         far = abs(vb - va)
         out, Hm = view(t, U, state["v"], dmul=1 + sa * (float(np.clip((far + 700) / 1000, 1, 2.6)) - 1), elx=sa * 10, spread=1 + sa * 1.6)
-    elif A.split == "inset":
+    elif mode == "inset":
         out, Hm = view(t, U, state["v"])
         sub, _ = view(t, U, state2["v"], dmul=0.92)
         sw, sh = int(W * 0.40), int(H * 0.40)
@@ -659,13 +715,13 @@ def frame_at(t, dt):
         inset = (small, x0, y0, sa)                   # pasted after the vignette, so the corner window stays bright
     else:   # stack / slant: the lower view opens from the foot of the frame
         yd = H * (1 - 0.5 * sa)
-        if A.split == "stack":
+        if mode == "stack":
             ca, cb_ = (W * 0.5, yd * 0.55), (W * 0.5, yd + (H - yd) * 0.55)
         else:
             ca, cb_ = (W * 0.46, yd * 0.55), (W * 0.54, yd + (H - yd) * 0.55)
-        top_, Hm = view(t, U, state["v"], *ca)
-        bot_, Hm2 = view(t, U, state2["v"], *cb_)
-        if A.split == "stack":
+        top_, Hm = view(t, U, state["v"], *ca, dmul=1 + sa * (za - 1), spread=1 + sa * (za - 1))
+        bot_, Hm2 = view(t, U, state2["v"], *cb_, dmul=1 + sa * (zb - 1), spread=1 + sa * (zb - 1))
+        if mode == "stack":
             ang = 0.0
         else:   # the seam runs with the staff lines as they lie on the screen
             p0, p1 = cv2.perspectiveTransform(np.float32([[[U - 300, state["v"]], [U + 300, state["v"]]]]), Hm)[0]
@@ -677,7 +733,7 @@ def frame_at(t, dt):
         out += seam + cv2.GaussianBlur(seam, (0, 0), 6) * 1.2
     # vignette
     out *= VIGNETTE
-    if A.split == "inset" and sa > 0.001:
+    if mode == "inset" and sa > 0.001:
         small, x0, y0, sa = inset; sh2, sw2 = small.shape[:2]
         win = out[y0:y0 + sh2, x0:x0 + sw2]
         out[y0:y0 + sh2, x0:x0 + sw2] = win * (1 - sa) + small * sa
@@ -737,6 +793,7 @@ for j in range(A.jobs):
     args += ["--split", A.split, "--labels", A.labels, "--caption-style", A.caption_style]
     if A.split_bars: args += ["--split-bars"] + [str(b) for b in A.split_bars]
     if A.split_staves: args += ["--split-staves"] + A.split_staves
+    if A.annotations: args += ["--annotations", A.annotations]
     if A.captions: args += ["--captions", A.captions]
     procs.append(subprocess.Popen(args, env=dict(os.environ, OMP_NUM_THREADS="1", OPENBLAS_NUM_THREADS="1")))
 codes = [p.wait() for p in procs]
