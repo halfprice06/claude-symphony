@@ -1127,9 +1127,26 @@ if A.camera_report:
     print(f"moves of 100 px or more: {len(big)} ({len(big) / (q2s(END_QN) + 9) * 60:.1f} a minute); stays under 2.5 s: {sum(1 for s_ in stills if s_ < 2.5)}; "
           f"late arrivals: {sum(1 for k_ in keys if k_['late'] > 0.05 or k_['after'] > 0.05)}; notes out of shot: {nout}; longest move {max((abs(k_['b'] - k_['a']) for k_ in keys), default=0):.0f} px")
     sys.exit()
+def front_runs(path, r_, eps=0.05):
+    """the stretches of a line drawn on the paper (its corner points) that lie in front of the camera. r_: each point's
+    depth relative to the depth at the top of the page, which changes evenly along a straight line on the paper"""
+    runs, cur = [], []
+    for p, q, a_, b_ in zip(path[:-1], path[1:], r_[:-1], r_[1:]):
+        if a_ < eps and b_ < eps: continue
+        if a_ < eps: cur = [p + (q - p) * (eps - a_) / (b_ - a_)]
+        elif not cur: cur = [p]
+        if b_ < eps: runs.append(cur + [p + (q - p) * (a_ - eps) / (a_ - b_)]); cur = []
+        else: cur.append(q)
+    if len(cur) > 1: runs.append(cur)
+    return runs
 def draw_score_notes(layer, t, Hm, U):
     """caption style 'score': a bracket drawn round the passage, its label written on the paper above it, and chord
     names written above the staff as the music reaches them"""
+    # Depth of points on the paper in this view, relative to the depth at the top of the page (0 on the plane through
+    # the camera, below 0 behind it). Projected, a point behind the camera lands on the far side of the frame: in the
+    # upper panel of a split, the box of a note on a staff of the lower panel was drawn as a line across the panel.
+    wf = Hm[2] @ np.array([U, 0.0, 1.0])
+    front = lambda pts: (np.c_[np.float64(pts), np.ones(len(pts))] @ Hm[2]) / wf
     for c in CAPS:
         a = ov.fade(t, c["t0"], c["t1"])
         if a <= 0: continue
@@ -1145,16 +1162,20 @@ def draw_score_notes(layer, t, Hm, U):
             for i_, sl in enumerate(seg):
                 if L <= 0: break
                 f_ = min(1.0, L / sl); path.append(pts[i_] + (pts[i_ + 1] - pts[i_]) * f_); L -= sl
-            P = cv2.perspectiveTransform(np.float32(path)[None], Hm)[0]
-            cv2.polylines(layer, [np.round(P * 4).astype(np.int32)], False, (np.float32(ov.GOLD) * 0.9 * a).tolist(), 2, cv2.LINE_AA, 2)
+            path = np.float32(path)
+            for run in front_runs(path, front(path)):       # only the part of the outline in front of the camera
+                P = cv2.perspectiveTransform(np.float32(run)[None], Hm)[0]
+                cv2.polylines(layer, [np.round(P * 4).astype(np.int32)], False, (np.float32(ov.GOLD) * 0.9 * a).tolist(), 2, cv2.LINE_AA, 2)
             al_, x0, ww, yb, hh = label_place(c, Hm, U)
-            q = cv2.perspectiveTransform(np.float32([[[x0, yb - hh], [x0 + ww, yb - hh], [x0 + ww, yb], [x0, yb]]]), Hm)[0]
-            ov.warp_sprite(layer, al_, q, np.float32(ov.GOLD) * a)
+            src = np.float32([[x0, yb - hh], [x0 + ww, yb - hh], [x0 + ww, yb], [x0, yb]])
+            if front(src).min() >= 0.05:
+                ov.warp_sprite(layer, al_, cv2.perspectiveTransform(src[None], Hm)[0], np.float32(ov.GOLD) * a)
             kd = ov.text_alpha(c["kind"].upper(), "sansbold", 40)
             ls = c.get("ls", 1.0); hk = 1.7 * sp * ls; wk = hk * kd.shape[1] / kd.shape[0]
             yk = yb - hh - 0.5 * sp * ls
-            q = cv2.perspectiveTransform(np.float32([[[x0, yk - hk], [x0 + wk, yk - hk], [x0 + wk, yk], [x0, yk]]]), Hm)[0]
-            ov.warp_sprite(layer, kd, q, np.float32(ov.GOLD) * 0.75 * a)
+            src = np.float32([[x0, yk - hk], [x0 + wk, yk - hk], [x0 + wk, yk], [x0, yk]])
+            if front(src).min() >= 0.05:
+                ov.warp_sprite(layer, kd, cv2.perspectiveTransform(src[None], Hm)[0], np.float32(ov.GOLD) * 0.75 * a)
         hh = 2.6 * sp                                           # chord names: below the staff, as harmonic analysis is written
         chs = [(tc, lab, play_x(s2q(tc)) - 0.4 * sp, ov.text_alpha(lab, "serif", 64)) for tc, lab in c.get("chords", [])]
         for i_, (tc, lab, x0, al_) in enumerate(chs):
@@ -1166,8 +1187,9 @@ def draw_score_notes(layer, t, Hm, U):
                 if ac <= 0: continue
             st = c.get("chord_staff", an["staff"] if an else names[0])
             y1 = (c["g"]["yc"] if an and st == an["staff"] else staves[st][1] - top + 3.0 * sp) + hh
-            q = cv2.perspectiveTransform(np.float32([[[x0, y1 - hh], [x0 + ww, y1 - hh], [x0 + ww, y1], [x0, y1]]]), Hm)[0]
-            ov.warp_sprite(layer, al_, q, np.float32([235, 238, 255]) * ac)
+            src = np.float32([[x0, y1 - hh], [x0 + ww, y1 - hh], [x0 + ww, y1], [x0, y1]])
+            if front(src).min() >= 0.05:
+                ov.warp_sprite(layer, al_, cv2.perspectiveTransform(src[None], Hm)[0], np.float32([235, 238, 255]) * ac)
 def draw_caption_panel(img, t):
     for c in CAPS:
         a = ov.fade(t, c["t0"], c["t1"])
