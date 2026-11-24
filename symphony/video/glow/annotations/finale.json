@@ -482,8 +482,8 @@
       "to": "139.1",
       "kind": "Harmony",
       "bars": "135–138",
-      "short": "Falling diminished sevenths to the stop chord",
-      "text": "In the retransition the bass falls D–D♭–C–B under four diminished seventh chords, pp growing to sf, and reaches Movement I's stop chord B–D–F–A♭ at 138, with B in the bass as at I 26 and Oboe 1's B5 on top.",
+      "short": "Falling diminished sevenths down to B–D–F–A♭",
+      "text": "In the retransition the bass falls D–D♭–C–B under four diminished seventh chords, pp growing to sf, and reaches Movement I's diminished seventh B–D–F–A♭ at 138, with B in the bass as at I 26 and Oboe 1's B5 on top.",
       "anchor": {
         "staff": "Violoncellos",
         "from": "135.1",
@@ -654,8 +654,8 @@
       "to": "224.1",
       "kind": "Harmony",
       "bars": "219–223",
-      "short": "Movement I's stop chord resolves to C major",
-      "text": "The German sixth of bar 1 returns at 219, a whole bar of A♭–C–D♯–F♯ (violas and Horn 3 on D♯4, rising to E4 at 220), and after C over G and G7 the stop chord B–D–F–A♭ sounds over D with the timpani's G roll at 222. It resolves to C major at 223, with Trumpet 1 moving B4–C5 and the first cymbal clash of the symphony.",
+      "short": "Movement I's B–D–F–A♭ resolves to C major",
+      "text": "The German sixth of bar 1 returns at 219, a whole bar of A♭–C–D♯–F♯ (violas and Horn 3 on D♯4, rising to E4 at 220), and after C over G and G7 Movement I's diminished seventh B–D–F–A♭ sounds over D with the timpani's G roll at 222. It resolves to C major at 223, with Trumpet 1 moving B4–C5 and the first cymbal clash of the symphony.",
       "anchor": {
         "staff": "Trumpets 1·2",
         "from": "221.1",

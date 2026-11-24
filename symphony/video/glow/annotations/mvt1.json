@@ -286,7 +286,7 @@
       "to": "27.3",
       "kind": "Harmony",
       "bars": "23–27",
-      "short": "The stop chord: B–D–F–A♭ over B, ff",
+      "short": "Halt on a diminished seventh, B–D–F–A♭, ff",
       "text": "After four groups of three crotchets that cross the barlines (bars 23–25), the orchestra stops ff on a diminished seventh chord B–D–F–A♭ with B in the bass, where the trumpets play their first notes and the timpani strike G. It resolves to C minor at bar 27 and returns at bars 138 and 170.",
       "anchor": {
         "staff": "Violins I",
@@ -726,8 +726,8 @@
       "to": "143.1",
       "kind": "Harmony",
       "bars": "138–142",
-      "short": "Stop chord over D, now turning to F minor",
-      "text": "The stop chord B–D–F–A♭ returns at bar 138, f, with D in the bass instead of B, and goes to F minor at 139 instead of C minor as at 27. Flute 1 alone reaches A♭6 over D♭ major at 140, the Neapolitan, which leads through G at 142 back to C minor at 143.",
+      "short": "B–D–F–A♭ again, over D, now to F minor",
+      "text": "The diminished seventh B–D–F–A♭ of bar 26 returns at bar 138, f, with D in the bass instead of B, and goes to F minor at 139 instead of C minor as at 27. Flute 1 alone reaches A♭6 over D♭ major at 140, the Neapolitan, which leads through G at 142 back to C minor at 143.",
       "anchor": {
         "staff": "Flutes 1·2",
         "from": "138.1",
@@ -842,8 +842,8 @@
       "to": "171.1",
       "kind": "Form",
       "bars": "167–170",
-      "short": "Coda: first theme ff, then the stop chord",
-      "text": "The coda (letter L) brings the head of the first theme ff in Horns 1·2, Trumpets 1·2 and violas over a C pedal. At bar 170 the stop chord from bar 26 sounds over C under a fermata, and the trumpets end on B4.",
+      "short": "Coda: first theme ff, then B–D–F–A♭ again",
+      "text": "The coda (letter L) brings the head of the first theme ff in Horns 1·2, Trumpets 1·2 and violas over a C pedal. At bar 170 the diminished seventh B–D–F–A♭ from bar 26 sounds over C under a fermata, and the trumpets end on B4.",
       "anchor": {
         "staff": "Horns 1·2",
         "from": "167.1",
