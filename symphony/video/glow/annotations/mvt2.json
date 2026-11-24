@@ -92,7 +92,7 @@
    "to": "9.2",
    "kind": "Theme",
    "bars": "6–9",
-   "short": "Theme A, Horn 1, with Movement I's motto tail",
+   "short": "Theme A, Horn 1, quoting Movement I's motto",
    "text": "Letter A: Horn 1 plays theme A over bassoons, bass clarinet and harp, with no strings: a rising A♭ arpeggio to a held E♭4, then E♭4–D4–D♭4–C4 (bars 8–9), the tail of Movement I's motto. The chords under the tail are F minor 7, B♭7 and E♭7, resolving to A♭ in bar 9.",
    "anchor": {
     "staff": "Horns 1·2",
@@ -124,7 +124,7 @@
    "to": "17.1",
    "kind": "Form",
    "bars": "15–22",
-   "short": "Letter B: oboe and solo violin take turns",
+   "short": "Oboe and solo violin take turns",
    "text": "Letter B: Oboe 1 (bars 15–16 and 19–20) and a solo first violin without mute (17–18 and 21–22) answer each other over muted Violins II, violas and cellos.",
    "anchor": {
     "staff": "Oboes 1·2",
@@ -176,8 +176,8 @@
    "to": "33.2",
    "kind": "Quotation",
    "bars": "31–34",
-   "short": "Bass clarinet: Movement I's tail, same pitch",
-   "text": "Letter D, woodwinds alone over an A♭ pedal: after theme A's rising figure (E♭2–F2–A♭2–C3), the bass clarinet plays E♭3–D3–D♭3–C3 (bars 32–34), the motto's tail at the pitch and in the instrument of Movement I's bars 2–3, where a C comes before the D♭.",
+   "short": "Bass clarinet recalls its motto from Movement I",
+   "text": "Letter D, woodwinds alone over an A♭ pedal: after theme A's rising figure (E♭2–the second theme–A♭2–C3), the bass clarinet plays E♭3–D3–D♭3–C3 (bars 32–34), the motto's tail at the pitch and in the instrument of Movement I's bars 2–3, where a C comes before the D♭.",
    "anchor": {
     "staff": "Bass clarinet",
     "from": "31.2",
@@ -200,7 +200,7 @@
    "chords": [
     [
      "33.2",
-     "dim7"
+     "D dim7/A♭"
     ],
     [
      "34.2",
@@ -214,7 +214,7 @@
    "to": "39.1",
    "kind": "Theme",
    "bars": "36–40",
-   "short": "Letter E: theme B, flute 1, D♭ major, 4/4",
+   "short": "Theme B: Flute 1, D♭ major, 4/4",
    "text": "Letter E, Poco più mosso in 4/4: flute 1 alone plays theme B in D♭ major, opening with the rising fourth C5–F5, over divided Violins II, viola triplets and a pizzicato bass in the double basses and harp.",
    "anchor": {
     "staff": "Flutes 1·2",
@@ -363,7 +363,7 @@
    "chords": [
     [
      "64.3",
-     "dim7"
+     "G♯ dim7/D"
     ],
     [
      "64.4",
@@ -385,7 +385,7 @@
    "to": "70.1",
    "kind": "Quotation",
    "bars": "67–70",
-   "short": "Horn 1 alone: the motto's tail over E♭",
+   "short": "Horn 1 alone: the motto's falling line over E♭",
    "text": "After letter J (Tempo I, back in 3/4), Horn 1 alone plays E♭4–D4–D♭4–C4–B♭3, the motto's tail again, over the double basses' E♭ pedal and a ppp timpani roll; bassoon 1 enters a third below it in bar 68, and bar 69 is E♭7.",
    "anchor": {
     "staff": "Horns 1·2",
@@ -405,7 +405,7 @@
    "to": "73.1",
    "kind": "Form",
    "bars": "70–74",
-   "short": "Letter K: theme A returns, violins in octaves",
+   "short": "Theme A returns, violins in octaves",
    "text": "Letter K: theme A returns in the violins, Violins I two octaves and Violins II one octave above the horn's first statement, with the cellos' counter-melody from bar 23 below.",
    "anchor": {
     "staff": "Violins I",
@@ -437,7 +437,7 @@
   {
    "from": "80.1",
    "to": "82.1",
-   "kind": "Counterpoint",
+   "kind": "Rhythm",
    "bars": "80–81",
    "short": "Hemiola: two bars of 3/4 heard as one of 3/2",
    "text": "In bars 80–81 the counter-melody in the cellos, horns 1·2 and bassoon 1 moves in three half notes, A♭3–B♭3–D♭4, across the barline, so two bars of 3/4 sound like one bar of 3/2 (a hemiola) before the cadence at bar 82.",
@@ -467,7 +467,7 @@
    "to": "87.1",
    "kind": "Quotation",
    "bars": "85–89",
-   "short": "Clarinet 1: the motto's tail one last time",
+   "short": "The motto's falling line a last time: Clarinet 1",
    "text": "Clarinet 1 plays Movement I's motto tail for the last time in this movement: E♭5 (bar 85), D5 (86), D♭5 (87–88), C5 (89). Under it are the A♭ pedal in the cellos and basses and the violas' held C4–E♭4, then C4–F4.",
    "anchor": {
     "staff": "Clarinets 1·2",
@@ -481,7 +481,7 @@
    "to": "90.1",
    "kind": "Harmony",
    "bars": "87–89",
-   "short": "Plagal close: IV6, iv, I, with F–F♭–E♭",
+   "short": "Plagal cadence: IV6, iv, I, with F–F♭–E♭",
    "text": "The close is plagal, with a chord borrowed from A♭ minor: D♭ major over F (IV6, bar 87), D♭ minor (iv, 88), A♭ major (I, 89). The inner line F–F♭–E♭ is in the cor anglais, muted Horn 4 and the lower violas, the line Horn 3 played open in bars 79–81; on top clarinet 1 ends the motto's tail, D♭5–C5.",
    "anchor": {
     "staff": "Violas",

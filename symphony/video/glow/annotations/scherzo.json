@@ -214,7 +214,7 @@
       "to": "13.1",
       "kind": "Motive",
       "bars": "6–12",
-      "short": "Motive x in the timpani: the theme's rhythm",
+      "short": "Timpani: the rhythm that opens theme A",
       "text": "At bar 7 the clarinets (E5, G4) and Bassoon 1 (B3) turn the chord to E minor and the first violins fall from G♯5 to G5. The timpani then play B–B–B–G (bar 9) and B–B–B–E (bar 11) in the rhythm crotchet, two quavers, crotchet, the rhythm that opens theme A at 13.",
       "anchor": {
         "staff": "Timpani",
@@ -228,8 +228,8 @@
       "to": "21.1",
       "kind": "Theme",
       "bars": "13–20",
-      "short": "Theme A: motive x, then Movement I's motto tail",
-      "text": "Letter A: theme A in the first violins, p leggiero, over pizzicato cellos and basses and off-beat chords in the second violins and violas. Bar 13 is motive x (E5–B4–B4–E5), and in bars 14–15 the line falls G5–F♯5–F5–E5, the chromatic tail of Movement I's motto (E♭–D–D♭–C) moved to E, with F♮ the Neapolitan note; Movement I's Oboe 1 and first violins already play these four notes at this pitch in its bar 79.",
+      "short": "Theme A, with the motto's falling line: G–F♯–F–E",
+      "text": "Letter A: theme A in the first violins, p leggiero, over pizzicato cellos and basses and off-beat chords in the second violins and violas. Bar 13 has the timpani's rhythm (E5–B4–B4–E5), and in bars 14–15 the line falls G5–F♯5–F5–E5, the chromatic tail of Movement I's motto (E♭–D–D♭–C) moved to E, with F♮ the Neapolitan note; Movement I's Oboe 1 and first violins already play these four notes at this pitch in its bar 79.",
       "anchor": {
         "staff": "Violins I",
         "from": "13.1",
@@ -242,7 +242,7 @@
       "to": "37.1",
       "kind": "Form",
       "bars": "29–36",
-      "short": "Letter B: winds call, strings answer",
+      "short": "Winds call, strings answer",
       "text": "Flute 1 and Oboe 1 in unison play the first half of theme A (bars 29–30 and 33–34), and the first violins, with the cellos an octave lower, answer with the second half (31–32 and 35–36).",
       "anchor": {
         "staff": "Oboes 1·2",
@@ -256,7 +256,7 @@
       "to": "52.1",
       "kind": "Theme",
       "bars": "45–51",
-      "short": "Second idea in G, with the horn call's 3–1–7",
+      "short": "Second idea in G: the horn call's shape, B–G–F♯",
       "text": "Letter C: the second idea, in G major, in three octaves (first violins and Flute 1 from D6, second violins and Oboe 1 an octave lower, cor anglais, violas and cellos two octaves lower). Its notes B–G–F♯ (45–47) rise a minor sixth and fall a semitone like the horn call, scale degrees 3–1–7, and the half notes from the end of bar 45 to bar 48 cross the barlines two beats at a time, a hemiola.",
       "anchor": {
         "staff": "Oboes 1·2",
@@ -299,7 +299,7 @@
       "kind": "Form",
       "bars": "89–96",
       "short": "Ritmo di tre battute: entries every 3 bars",
-      "text": "Letter F, over a B pedal: the head of theme A enters every three bars, in the violas (89), Oboe 1 in B minor (92) and the first violins (95), and in the third bar of each group the timpani play motive x on B (91, 94, 97). The score marks the passage ritmo di tre battute, the term Beethoven used in the scherzo of his Ninth Symphony.",
+      "text": "Letter F, over a B pedal: the head of theme A enters every three bars, in the violas (89), Oboe 1 in B minor (92) and the first violins (95), and in the third bar of each group the timpani play the rhythm of theme A's first bar on B (91, 94, 97). The score marks the passage ritmo di tre battute, the term Beethoven used in the scherzo of his Ninth Symphony.",
       "anchor": {
         "staff": "Violas",
         "from": "89.1",
@@ -312,7 +312,7 @@
       "to": "113.1",
       "kind": "Counterpoint",
       "bars": "105–112",
-      "short": "Countermelody: the trio tune, before the trio",
+      "short": "Counter-melody: the trio tune, before the trio",
       "text": "Letter G: theme A returns tutti, and under it Bassoon 1, Horns 3 and 4 and the cellos play a countermelody, G3–A3–B3–E4 (105–106). It is the opening of the trio tune (Clarinet 1 at 153: G♯4–A4–B4–E5) in E minor, heard here before the trio has begun.",
       "anchor": {
         "staff": "Horns 3·4",
@@ -420,7 +420,7 @@
       "to": "209.1",
       "kind": "Quotation",
       "bars": "203–208",
-      "short": "Horn 1 previews Movement I's motto tail",
+      "short": "Horn 1: the motto's falling line, from B",
       "text": "Over a timpani roll and a cello and bass pedal on B, Horn 1 rises G♯4–A4–B4 and falls B4–A♯4–A4–G♯4 (205–209). The falling half is the chromatic tail of Movement I's motto (E♭–D–D♭–C) on B, which Horn 1 plays again, one note per bar, at 357–360.",
       "anchor": {
         "staff": "Horns 1·2",
@@ -477,8 +477,8 @@
       "to": "247.1",
       "kind": "Form",
       "bars": "241–246",
-      "short": "Retransition: back to E minor, motive x on B",
-      "text": "Letter P: Horn 1's G♯ falls to G, E minor returns, and the head of theme A enters in the violas (241) and Clarinet 1 (245) while the timpani repeat motive x on B (241, 247, 249–251), the figure the finale's timpani quote on G at its bars 143–145. At 244 the bass C, the violas' E, Horn 1's F♯ and the A♯ of the divided cellos and Bassoon 1 make a French sixth.",
+      "short": "Retransition: E minor, the timpani rhythm on B",
+      "text": "Letter P: Horn 1's G♯ falls to G, E minor returns, and the head of theme A enters in the violas (241) and Clarinet 1 (245) while the timpani repeat the rhythm of theme A's first bar on B (241, 247, 249–251), the figure the finale's timpani quote on G at its bars 143–145. At 244 the bass C, the violas' E, Horn 1's F♯ and the A♯ of the divided cellos and Bassoon 1 make a French sixth.",
       "anchor": {
         "staff": "Violas",
         "from": "241.1",
@@ -501,7 +501,7 @@
       "to": "261.1",
       "kind": "Counterpoint",
       "bars": "253–260",
-      "short": "Reprise: theme A with the cello countermelody",
+      "short": "Reprise: theme A with the cello counter-melody",
       "text": "Letter Q, Tempo I: theme A returns in the first violins over off-beats in the pizzicato second violins, and the cellos, arco espressivo p, play the countermelody first heard at 105, G3–A3–B3–E4, the trio tune's opening in E minor.",
       "anchor": {
         "staff": "Violoncellos",
@@ -575,7 +575,7 @@
       "to": "313.1",
       "kind": "Form",
       "bars": "305–312",
-      "short": "Letter T: theme A tutti again, as at 105",
+      "short": "Theme A tutti again, as at 105",
       "text": "Letter T: theme A returns tutti as at 105. Both flutes play the violins' line an octave higher with added quavers (up to A6 at 310), and the cellos, Horn 3 and Bassoon 1 play the countermelody G3–A3–B3–E4.",
       "anchor": {
         "staff": "Flutes 1·2",
@@ -589,8 +589,8 @@
       "to": "333.1",
       "kind": "Counterpoint",
       "bars": "325–332",
-      "short": "Coda: motive x in stretto, bass E–D–C–B",
-      "text": "Letter U, Più mosso: motive x enters a bar apart in the cellos (325), violas (326), second violins (327) and first violins (328). Then the bass falls E–D–C–B (329–332; double basses and Bassoon 2, with the bass clarinet at 329–330 and the contrabassoon from 330) under E minor, D, F/C, a French sixth and B7, while Clarinet 1, Oboe 2 and the cor anglais play the chromatic line G–F♯–F–E–D♯.",
+      "short": "Coda: theme A's opening in stretto, bass E–D–C–B",
+      "text": "Letter U, Più mosso: the rhythm of theme A's first bar enters a bar apart in the cellos (325), violas (326), second violins (327) and first violins (328). Then the bass falls E–D–C–B (329–332; double basses and Bassoon 2, with the bass clarinet at 329–330 and the contrabassoon from 330) under E minor, D, F/C, a French sixth and B7, while Clarinet 1, Oboe 2 and the cor anglais play the chromatic line G–F♯–F–E–D♯.",
       "anchor": {
         "staff": "Double basses",
         "from": "329.1",
@@ -625,7 +625,7 @@
       "to": "340.1",
       "kind": "Orchestration",
       "bars": "333–339",
-      "short": "B6 at 336: the highest note, the only fff",
+      "short": "Bar 336: the highest note (B) and the only fff",
       "text": "At 336 the first violins and Flute 1 reach B6, the highest note of the movement, over a B7 chord in the woodwind, brass and strings with a timpani roll on B; it is the only fff printed in the movement. The chord resolves to E minor at 339, and bar 340 is a general pause.",
       "anchor": {
         "staff": "Flutes 1·2",
@@ -653,7 +653,7 @@
       "to": "362.1",
       "kind": "Quotation",
       "bars": "356–361",
-      "short": "Movement I's motto tail in Horn 1, on B",
+      "short": "Horn 1: the motto's falling line again, from B",
       "text": "Letter W: Horn 1, solo, plays B4–A♯4–A4–G♯4, one note per bar (357–360), the chromatic tail of Movement I's motto on B, first hinted at 205–209. Under it the chords are E, A♯dim7, A minor and E, and the cor anglais moves C♯4–C4–B3 (358–360).",
       "anchor": {
         "staff": "Horns 1·2",
@@ -685,8 +685,8 @@
       "to": "376.1",
       "kind": "Form",
       "bars": "364–376",
-      "short": "Ends on the opening pair: G♯ in horn, violins",
-      "text": "The movement ends on the two notes it began with, Horn 1's G♯4 and the first violins' G♯5 (from 364), while the timpani play motive x on B, pp to ppp (363, 367, 371), and a last E at 375 under the harp's harmonics E4–G♯4–B4. The finale's first chord has the same two pitches written as A♭: Horn 1 on A♭4 and the first violins on A♭5 (with C5 below it).",
+      "short": "Ends as it began: G♯ in Horn 1 and the violins",
+      "text": "The movement ends on the two notes it began with, Horn 1's G♯4 and the first violins' G♯5 (from 364), while the timpani play the rhythm of theme A's first bar on B, pp to ppp (363, 367, 371), and a last E at 375 under the harp's harmonics E4–G♯4–B4. The finale's first chord has the same two pitches written as A♭: Horn 1 on A♭4 and the first violins on A♭5 (with C5 below it).",
       "anchor": {
         "staff": "Horns 1·2",
         "from": "364.1",

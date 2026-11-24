@@ -208,8 +208,8 @@
       "to": "11.1",
       "kind": "Motive",
       "bars": "7–10",
-      "short": "F1's rhythm on G, before the theme",
-      "text": "Bassoon 1 and the cellos play the rhythm of F1's first two bars on G (7–8), the violas answer at 8, and at 9–10 the timpani play the scherzo's motive x on G (crotchet, two quavers, crotchet).",
+      "short": "First theme's rhythm on G, before the theme",
+      "text": "Bassoon 1 and the cellos play the rhythm of the first theme's first two bars on G (7–8), the violas answer at 8, and at 9–10 the timpani play the scherzo's timpani rhythm on G (crotchet, two quavers, crotchet).",
       "anchor": {
         "staff": "Violoncellos",
         "from": "7.1",
@@ -222,8 +222,8 @@
       "to": "19.1",
       "kind": "Theme",
       "bars": "11–18",
-      "short": "Letter A: F1, the first theme, in C minor",
-      "text": "F1 (C5–G4–A♭4 | B♭4–A♭4–G4–F4–E♭4) is played by Violins I·II, with the violas and Horns 1·2 an octave lower, over broken chords in the clarinets and off-beat chords in Horns 3·4 and Bassoon 1. At 16 the harmony is the Neapolitan sixth, D♭ over F.",
+      "short": "Letter A: the first theme, in C minor",
+      "text": "The first theme (C5–G4–A♭4 | B♭4–A♭4–G4–F4–E♭4) is played by Violins I·II, with the violas and Horns 1·2 an octave lower, over broken chords in the clarinets and off-beat chords in Horns 3·4 and Bassoon 1. At 16 the harmony is the Neapolitan sixth, D♭ over F.",
       "anchor": {
         "staff": "Violins I",
         "from": "11.1",
@@ -243,7 +243,7 @@
       "kind": "Harmony",
       "bars": "19–26",
       "short": "Deceptive cadence: G7 goes to A♭",
-      "text": "The second phrase of F1 reaches a cadential C minor over G at 25 with the suspension C–B in the tune, but the G7 on beat 4 goes to A♭ major at 26 instead of C minor.",
+      "text": "The second phrase of the first theme reaches a cadential C minor over G at 25 with the suspension C–B in the tune, but the G7 on beat 4 goes to A♭ major at 26 instead of C minor.",
       "anchor": {
         "staff": "Violins I",
         "from": "23.1",
@@ -270,8 +270,8 @@
       "to": "35.1",
       "kind": "Counterpoint",
       "bars": "27–34",
-      "short": "Letter B: F1 in the bass, a new line above",
-      "text": "F1 moves to the bass in three octaves (violas, cellos, Bassoons 1·2 and Horns 3·4 at C4, bass clarinet and basses at C3, contrabassoon and tuba at C2), while Violins I·II and Flutes 1·2 play a new line above it.",
+      "short": "Letter B: first theme in the bass, a line above",
+      "text": "The first theme moves to the bass in three octaves (violas, cellos, Bassoons 1·2 and Horns 3·4 at C4, bass clarinet and basses at C3, contrabassoon and tuba at C2), while Violins I·II and Flutes 1·2 play a new line above it.",
       "anchor": {
         "staff": "Violas",
         "from": "27.1",
@@ -284,8 +284,8 @@
       "to": "41.1",
       "kind": "Motive",
       "bars": "35–40",
-      "short": "F1's head passed: violins, horns, violins",
-      "text": "The head of F1 moves between groups two bars at a time: the violins play it on A♭ at 35–36, Horns 3·4 a2, ff, answer in B♭ minor at 37–38 with the cellos and Bassoon 2 an octave lower, and the violins and violas take it back at 39–40 over B♭ in the bass.",
+      "short": "First theme's head: violins, horns, violins",
+      "text": "The head of the first theme moves between groups two bars at a time: the violins play it on A♭ at 35–36, Horns 3·4 a2, ff, answer in B♭ minor at 37–38 with the cellos and Bassoon 2 an octave lower, and the violins and violas take it back at 39–40 over B♭ in the bass.",
       "anchor": {
         "staff": "Violins I",
         "from": "35.1",
@@ -312,8 +312,8 @@
       "to": "58.1",
       "kind": "Theme",
       "bars": "51–57",
-      "short": "Letter D: F2, solo trumpet, in E♭ minor",
-      "text": "Trumpet 1, marked solo, dolce cantabile, plays F2 (B♭4–G♭4–F4–E♭4–G♭4–B♭4 ...), the first notes the trumpets play in the movement. Violins II and violas accompany with off-beat chords, pizzicato, over pizzicato cellos and basses and soft clarinets and bassoon.",
+      "short": "Letter D: second theme, solo trumpet, E♭ minor",
+      "text": "Trumpet 1, marked solo, dolce cantabile, plays the second theme (B♭4–G♭4–F4–E♭4–G♭4–B♭4 ...), the first notes the trumpets play in the movement. Violins II and violas accompany with off-beat chords, pizzicato, over pizzicato cellos and basses and soft clarinets and bassoon.",
       "anchor": {
         "staff": "Trumpets 1·2",
         "from": "51.1",
@@ -326,8 +326,8 @@
       "to": "74.1",
       "kind": "Counterpoint",
       "bars": "67–73",
-      "short": "Letter E: F2 in E♭ major, with a counter-melody",
-      "text": "Violins I·II play F2 in E♭ major in octaves (B♭5 and B♭4) over harp arpeggios, and the violas, cellos and Horn 1 (pp, open) play a slower counter-melody in unison under it, G3–A♭3–B♭3 | A♭3–G3 | A♭3–B♭3–C4 | E♭4–F4.",
+      "short": "Letter E: second theme in E♭, a counter-melody",
+      "text": "Violins I·II play the second theme in E♭ major in octaves (B♭5 and B♭4) over harp arpeggios, and the violas, cellos and Horn 1 (pp, open) play a slower counter-melody in unison under it, G3–A♭3–B♭3 | A♭3–G3 | A♭3–B♭3–C4 | E♭4–F4.",
       "anchor": {
         "staff": "Violas",
         "from": "67.1",
@@ -340,8 +340,8 @@
       "to": "91.1",
       "kind": "Form",
       "bars": "83–90",
-      "short": "Letter F: F1's head in E♭ major",
-      "text": "The closing group begins with F1's head in E♭ major, in Flutes 1·2 and Violins I at E♭6 and Oboe 1, Clarinets 1·2 and Violins II at E♭5, over a B♭ held by Horns 1·2. At 87–90 the violins' scale figure is answered by Flute 1, Oboe 1 and Clarinet 1.",
+      "short": "Letter F: first theme's head in E♭ major",
+      "text": "The closing group begins with the first theme's head in E♭ major, in Flutes 1·2 and Violins I at E♭6 and Oboe 1, Clarinets 1·2 and Violins II at E♭5, over a B♭ held by Horns 1·2. At 87–90 the violins' scale figure is answered by Flute 1, Oboe 1 and Clarinet 1.",
       "anchor": {
         "staff": "Violins I",
         "from": "83.1",
@@ -382,8 +382,8 @@
       "to": "107.1",
       "kind": "Form",
       "bars": "99–106",
-      "short": "Letter G: development, F1's head in F minor",
-      "text": "The development opens with F1's head in F minor in the violas, cellos, basses and Bassoons 1·2 (F4–C4–D♭4 | E♭4–D♭4–C4–B♭3–A♭3), answered by the scale figure in the woodwinds at 101; the head comes again in B♭ minor in the low brass at 103.",
+      "short": "Letter G: development, first theme in F minor",
+      "text": "The development opens with the first theme's head in F minor in the violas, cellos, basses and Bassoons 1·2 (F4–C4–D♭4 | E♭4–D♭4–C4–B♭3–A♭3), answered by the scale figure in the woodwinds at 101; the head comes again in B♭ minor in the low brass at 103.",
       "anchor": {
         "staff": "Violas",
         "from": "99.1",
@@ -396,7 +396,7 @@
       "to": "114.1",
       "kind": "Harmony",
       "bars": "107–113",
-      "short": "German sixth, then a full close in F minor",
+      "short": "German sixth, then a full cadence in F minor",
       "text": "The bass falls by semitones from F to C (107–109; cellos, basses and Bassoon 2, Bassoon 1 an octave higher) through the German sixth D♭–F–A♭–B at 109. The dominant C7 follows ff at 110, and the phrase closes in F minor at 113.",
       "anchor": {
         "staff": "Violoncellos",
@@ -444,8 +444,8 @@
       "to": "123.1",
       "kind": "Theme",
       "bars": "115–122",
-      "short": "Letter H: F2 in G minor, solo bassoon",
-      "text": "Bassoon 1, solo, plays F2 in G minor (D4–B♭3–A3–G3–B♭3–D4 ...) over soft off-beat chords in Violins II and violas and single bass notes in the cellos and basses. Violins I answer with falling eighth-note lines at 119 and 122.",
+      "short": "Letter H: second theme in G minor, solo bassoon",
+      "text": "Bassoon 1, solo, plays the second theme in G minor (D4–B♭3–A3–G3–B♭3–D4 ...) over soft off-beat chords in Violins II and violas and single bass notes in the cellos and basses. Violins I answer with falling eighth-note lines at 119 and 122.",
       "anchor": {
         "staff": "Bassoons 1·2",
         "from": "115.1",
@@ -458,8 +458,8 @@
       "to": "133.1",
       "kind": "Counterpoint",
       "bars": "129–132",
-      "short": "Both themes at once: F1's head under F2",
-      "text": "As F2's phrase ends in Violins I and Flute 1 (A5 at 130, over D7), the violas, Horn 2 and half the cellos play F1's head on D (D–A–B–C–B–A–G–F♯, 130–131). It is the only place in the development where the two themes sound together.",
+      "short": "Both themes at once: first theme's head below",
+      "text": "As the second theme's phrase ends in Violins I and Flute 1 (A5 at 130, over D7), the violas, Horn 2 and half the cellos play the first theme's head on D (D–A–B–C–B–A–G–F♯, 130–131). It is the only place in the development where the two themes sound together.",
       "anchor": {
         "staff": "Violas",
         "from": "130.1",
@@ -504,7 +504,7 @@
         ],
         [
           "138.1",
-          "dim7"
+          "B dim7"
         ]
       ],
       "check": "retr.ily retrVc d1 | <des e>1 | <c ges>1 | <b, aes>1, retrCb d,1 | des,1 | c,1 | b,,1, retrVla/retrVlnOne/Two 135–138, retrOboeOne b''1 at 138; themes-mvt1.ly mvtOneStopChord; finale.md quotation item 3."
@@ -514,8 +514,8 @@
       "to": "147.1",
       "kind": "Counterpoint",
       "bars": "139–146",
-      "short": "Stretto: F1's head on G over a B pedal",
-      "text": "Over a B held in the basses, F1's head on G enters in close succession: Horn 1 (139), cellos (140), Oboe 1 and Clarinet 1 (141), Violins II (142), Horns 1·2 and Violins I (143), with the timpani playing motive x on G from 143.",
+      "short": "Stretto: first theme's head on G over a B pedal",
+      "text": "Over a B held in the basses, the first theme's head on G enters in close succession: Horn 1 (139), cellos (140), Oboe 1 and Clarinet 1 (141), Violins II (142), Horns 1·2 and Violins I (143), with the timpani playing the scherzo's timpani rhythm on G from 143.",
       "anchor": {
         "staff": "Horns 1·2",
         "from": "139.1",
@@ -528,8 +528,8 @@
       "to": "159.1",
       "kind": "Form",
       "bars": "151–158",
-      "short": "Letter K: recapitulation, F1 ff over G",
-      "text": "The recapitulation begins with F1 ff in three octaves (Flutes 1·2 at C6; Oboe 1, cor anglais and Violins I·II at C5; Horns 1·2 and violas at C4) over G in the bass, so the theme starts on C minor over G and reaches root position at 155.",
+      "short": "Letter K: recapitulation, first theme ff over G",
+      "text": "The recapitulation begins with the first theme ff in three octaves (Flutes 1·2 at C6; Oboe 1, cor anglais and Violins I·II at C5; Horns 1·2 and violas at C4) over G in the bass, so the theme starts on C minor over G and reaches root position at 155.",
       "anchor": {
         "staff": "Violins I",
         "from": "151.1",
@@ -584,8 +584,8 @@
       "to": "177.1",
       "kind": "Orchestration",
       "bars": "171–176",
-      "short": "Letter L: F2 in C minor, cor anglais and trumpet",
-      "text": "In the recapitulation F2 is in C minor, played by the cor anglais (dolce cantabile) and muted Trumpet 1 in unison at 171–174, over sul tasto eighths in the violas and pizzicato cellos and basses. From 175 the cor anglais goes on alone.",
+      "short": "Second theme in C minor: cor anglais, trumpet",
+      "text": "In the recapitulation the second theme is in C minor, played by the cor anglais (dolce cantabile) and muted Trumpet 1 in unison at 171–174, over sul tasto eighths in the violas and pizzicato cellos and basses. From 175 the cor anglais goes on alone.",
       "anchor": {
         "staff": "Cor anglais",
         "from": "171.1",
@@ -598,8 +598,8 @@
       "to": "195.1",
       "kind": "Form",
       "bars": "187–194",
-      "short": "Letter M: F2 returns in A♭ major, not C major",
-      "text": "F2 comes back in A♭ major, in Violins I·II and Oboe 1 at E♭5 with Horn 1 and the violas an octave lower, while the cellos and Bassoon 1 play the counter-melody from 67, transposed, with its third bar changed. C major is held back until 223.",
+      "short": "Letter M: second theme in A♭ major, not C major",
+      "text": "The second theme comes back in A♭ major, in Violins I·II and Oboe 1 at E♭5 with Horn 1 and the violas an octave lower, while the cellos and Bassoon 1 play the counter-melody from 67, transposed, with its third bar changed. C major is held back until 223.",
       "anchor": {
         "staff": "Violins II",
         "from": "187.1",
@@ -626,8 +626,8 @@
       "to": "209.1",
       "kind": "Theme",
       "bars": "205–208",
-      "short": "F1's head in the horns over an A♭ pedal",
-      "text": "In the coda all four horns in unison play F1's head on A♭4 (205–206) with Trombones 1·2, Bassoon 2 and the cellos an octave lower, over the A♭ pedal of the bass trombone, tuba, basses and timpani, while the violins run up from A♭4 to F6. At 207–208 the head comes a step higher, starting on B♭, in Flute 1, Oboe 1 and Violins I (B♭5), Clarinets 1·2 (B♭4) and Bassoon 1 (B♭3).",
+      "short": "First theme's head in the horns over an A♭ pedal",
+      "text": "In the coda all four horns in unison play the first theme's head on A♭4 (205–206) with Trombones 1·2, Bassoon 2 and the cellos an octave lower, over the A♭ pedal of the bass trombone, tuba, basses and timpani, while the violins run up from A♭4 to F6. At 207–208 the head comes a step higher, starting on B♭, in Flute 1, Oboe 1 and Violins I (B♭5), Clarinets 1·2 (B♭4) and Bassoon 1 (B♭3).",
       "anchor": {
         "staff": "Horns 1·2",
         "from": "205.1",
@@ -769,7 +769,7 @@
       "kind": "Quotation",
       "bars": "255–263",
       "short": "Letter S: the chorale again, ending B–C",
-      "text": "Trumpets 1·2 play the chorale's top line in doubled values, G–E–D–C–B–C, with B where 224–228 had D♭ (Flute 1 and Violins I an octave higher, Oboe 1 from 257), while Violins II, the violas, cellos and Horns 3·4 play F2's third phrase. The cadence Dø7 over F, German sixth, G7, C (259–263) is the movement's first root-position V–I in C.",
+      "text": "Trumpets 1·2 play the chorale's top line in doubled values, G–E–D–C–B–C, with B where 224–228 had D♭ (Flute 1 and Violins I an octave higher, Oboe 1 from 257), while Violins II, the violas, cellos and Horns 3·4 play the second theme's third phrase. The cadence Dø7 over F, German sixth, G7, C (259–263) is the movement's first root-position V–I in C.",
       "anchor": {
         "staff": "Trumpets 1·2",
         "from": "255.1",
@@ -800,8 +800,8 @@
       "to": "272.1",
       "kind": "Counterpoint",
       "bars": "265–271",
-      "short": "F1 and the motto's notes change places",
-      "text": "At 265–268 F1 in C major is in Trumpets 1·2, Horns 1·2, the violas and cellos while the violins, Flutes 1·2 and Clarinet 1 play the motto's notes G–E–D–C–B–C in the rhythm of Movement I's first-theme head. At 269 the parts change places: F1 is on top in the flutes, oboes, clarinets and violins, and the head-rhythm figure moves to the violas, cellos, Bassoon 1, Horns 3·4 and, at 271, Trombones 1·2.",
+      "short": "First theme and the motto's notes change places",
+      "text": "At 265–268 the first theme in C major is in Trumpets 1·2, Horns 1·2, the violas and cellos while the violins, Flutes 1·2 and Clarinet 1 play the motto's notes G–E–D–C–B–C in the rhythm of Movement I's first-theme head. At 269 the parts change places: the first theme is on top in the flutes, oboes, clarinets and violins, and the head-rhythm figure moves to the violas, cellos, Bassoon 1, Horns 3·4 and, at 271, Trombones 1·2.",
       "anchor": {
         "staff": "Violins II",
         "from": "265.1",
@@ -847,7 +847,7 @@
       "kind": "Quotation",
       "bars": "275–278",
       "short": "The scherzo's main theme, now in C major",
-      "text": "Trumpets 1·2 and Clarinet 1 play the head of the scherzo's main theme turned to C major (C5–G4–G4–C5–E5 | D5–D♭5–C5), with Flute 1 and Violins I an octave higher. The timpani answer with the scherzo's motive x on G–G–G–C (276.3–277.1) before the final C major chord at 278.",
+      "text": "Trumpets 1·2 and Clarinet 1 play the head of the scherzo's main theme turned to C major (C5–G4–G4–C5–E5 | D5–D♭5–C5), with Flute 1 and Violins I an octave higher. The timpani answer with the scherzo's timpani rhythm on G–G–G–C (276.3–277.1) before the final C major chord at 278.",
       "anchor": {
         "staff": "Trumpets 1·2",
         "from": "275.1",

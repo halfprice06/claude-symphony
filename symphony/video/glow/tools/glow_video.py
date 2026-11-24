@@ -1083,7 +1083,7 @@ if A.annotations_check:
         if an and (an["t0"] > c["t1"] or an["t1"] < c["t0"]): flag("the bracket is not shown during the note's time")
         if i_ and c["t0"] < CAPS[i_ - 1]["t1"] - 1e-6: flag("overlaps the previous note")
         if len(c.get("short", "")) > 48: flag(f"short text has {len(c['short'])} characters")
-        if c["kind"] not in ("Theme", "Motive", "Harmony", "Counterpoint", "Form", "Orchestration", "Quotation"): flag(f"kind {c['kind']}")
+        if c["kind"] not in ("Theme", "Motive", "Harmony", "Counterpoint", "Rhythm", "Form", "Orchestration", "Quotation"): flag(f"kind {c['kind']}")
         if not an: flag("no anchor"); continue
         if not sounding(an["staff"], an["t0"], an["t1"]): flag(f"{an['staff']} has no notes inside the bracket")
         if an["t1"] <= an["t0"]: flag("anchor ends before it starts")
