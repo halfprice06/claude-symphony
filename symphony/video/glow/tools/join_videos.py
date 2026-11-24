@@ -13,7 +13,9 @@ a row and encoded once more (AAC, 320 kbit/s). So sound and picture cannot drift
 
 A segment written as MOVEMENT.mp4@K is taken from its frame K on (K must be a key frame, so that the copy can start
 there), and its sound starts K frames earlier, behind the end of the segment before it, which must be a silent card
-of at least K frames (title_cards.py makes such a card with "handover_cut": K; its last frames lead into frame K).
+(title_cards.py makes such a card with "handover_cut": K or "corner": K; its last frames lead into frame K). If the
+card has fewer than K frames it starts inside the movement ("start" in the card's spec): the sound then starts with
+the card, and the movement's sound before that point is left out.
 
 Prints each segment's start time; with --chapters (one name per segment, separated by "|"; "-" for a segment that
 starts no chapter) also a chapter list for the video's description.
@@ -66,19 +68,27 @@ if __name__ == "__main__":
         # 1. the sound of the whole length
         cmd, graph, k = ["ffmpeg", "-y", "-v", "error"], [], 0
         for i, s in enumerate(segs):
-            if s["skip"] and (i == 0 or segs[i - 1]["audio"] or segs[i - 1]["frames"] < s["skip"]):
-                sys.exit(f"{s['path']}@{s['skip']}: the segment before it must be a silent card of at least {s['skip']} frames")
+            if s["skip"] and (i == 0 or segs[i - 1]["audio"]):
+                sys.exit(f"{s['path']}@{s['skip']}: the segment before it must be a silent card")
+        pieces = []
         for i, s in enumerate(segs):
-            # a segment's sound has the length of all its pictures; the silence of a card is shorter by the frames
-            # that the next segment's sound starts early
-            n = (s["total"] - (segs[i + 1]["skip"] if i + 1 < len(segs) else 0)) * spf
             if s["audio"]:
+                # the sound of all its pictures, the frames before K included; where the card before it has fewer
+                # than K frames, the sound starts with the card and its head is left out
+                h = max(s["skip"] - segs[i - 1]["frames"], 0) * spf if s["skip"] else 0
+                n = s["total"] * spf - h
                 cmd += ["-i", s["path"]]
-                graph.append(f"[{k}:a]aresample={A.rate},aformat=sample_fmts=fltp:channel_layouts=stereo,apad=whole_len={n},atrim=end_sample={n},asetpts=N/SR/TB[a{i}]")
-                k += 1
+                graph.append(f"[{k}:a]aresample={A.rate},aformat=sample_fmts=fltp:channel_layouts=stereo,"
+                             + (f"atrim=start_sample={h},asetpts=N/SR/TB," if h else "")
+                             + f"apad=whole_len={n},atrim=end_sample={n},asetpts=N/SR/TB[a{i}]")
+                k += 1; pieces.append(i)
             else:
-                graph.append(f"anullsrc=r={A.rate}:cl=stereo,aformat=sample_fmts=fltp,atrim=end_sample={n},asetpts=N/SR/TB[a{i}]")
-        graph.append("".join(f"[a{i}]" for i in range(len(segs))) + f"concat=n={len(segs)}:v=0:a=1[a]")
+                # the silence of a card is shorter by the frames that the next segment's sound starts early
+                n = max(s["total"] - (segs[i + 1]["skip"] if i + 1 < len(segs) else 0), 0) * spf
+                if n:
+                    graph.append(f"anullsrc=r={A.rate}:cl=stereo,aformat=sample_fmts=fltp,atrim=end_sample={n},asetpts=N/SR/TB[a{i}]")
+                    pieces.append(i)
+        graph.append("".join(f"[a{i}]" for i in pieces) + f"concat=n={len(pieces)}:v=0:a=1[a]")
         cmd += ["-filter_complex", ";".join(graph), "-map", "[a]", "-c:a", "aac", "-b:a", "320k", snd]
         subprocess.run(cmd, check=True)
         # 2. the pictures, copied, with that sound
@@ -101,7 +111,8 @@ if __name__ == "__main__":
     print(f"{A.out}: {len(segs)} segments, {sum(s['frames'] for s in segs)} frames, {total:.3f} s ({clock(total)})")
     for i, s in enumerate(segs):
         print(f"  {t:9.3f} s  {clock(t):>8s}  {s['frames']:6d} frames  {'sound' if s['audio'] else 'silent'}  {os.path.basename(s['path'])}"
-              + (f" from frame {s['skip']}; its sound starts at {t - s['skip'] * den / num:.3f} s" if s["skip"] else ""))
+              + (f" from frame {s['skip']}; its sound starts at {t - min(s['skip'], segs[i - 1]['frames']) * den / num:.3f} s"
+                 + (f", {s['skip'] - segs[i - 1]['frames']} frames into the movement" if segs[i - 1]["frames"] < s["skip"] else "") if s["skip"] else ""))
         t += s["frames"] * den / num
     if chapters:
         print("chapters:"); t = 0.0

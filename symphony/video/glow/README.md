@@ -43,8 +43,43 @@ The mp3s are not in the repo (they are in the project's shared folder and in the
 
 ## One file with all four movements (Dan, 2026-11-23)
 
-For a single upload: a title screen, then before each movement a short card with its number and heading, joined with
-the four movement videos. The movements are not rendered or encoded again.
+For a single upload: the four movement videos joined, with the title and each movement's heading. The movements are
+not rendered again, and only the first seconds of each are encoded again (with the words on them).
+
+Words in the corner (Dan, 2026-11-24: "the music starts as soon as the video starts and we get through the title and
+movement cards faster, maybe move them into the top left corner as the music starts so we can see the score faster").
+There is no title screen and no card. `tools/title_cards.py --spec cards/cards-corner.json` makes for each movement
+one short segment: the movement's own first frames (to frame `corner`, a key frame) with the words on them. The join
+goes on with the movement from that frame (`MOVEMENT.mp4@K`).
+
+```
+python3 tools/title_cards.py --spec cards/cards-corner.json --credits credits.json --out-dir cards/out \
+  --video 10-mvt1=mvt1-glow-video.mp4 --video 20-mvt2=mvt2-glow-video.mp4 \
+  --video 30-scherzo=scherzo-glow-video.mp4 --video 40-finale=finale-glow-video.mp4
+python3 tools/join_videos.py --out symphony-glow-video.mp4 \
+  --chapters "I. Lento — Allegro appassionato|-|II. Adagio|-|III. Scherzo: Allegro vivace|-|IV. Finale: Allegro con fuoco|-" \
+  cards/out/10-mvt1.mp4 mvt1-glow-video.mp4@1000 cards/out/20-mvt2.mp4 mvt2-glow-video.mp4@500 \
+  cards/out/30-scherzo.mp4 scherzo-glow-video.mp4@500 cards/out/40-finale.mp4 finale-glow-video.mp4@500
+```
+
+- Movement I (`"opening": true, "start": 90, "corner": 1000`): the segment starts 1.5 s into the movement's file, so
+  the timpani roll starts 0.5 s after the video. The title stands large in the middle over the page, which is dim and
+  a little out of focus; after 2.5 s it moves in 1.2 s into the top left corner and the page comes into focus. In the
+  corner it reads "Symphony No. 1 in C minor" with the movement's heading and the credits under it; these words go
+  at about 14 s. The strings enter at 4.1 s.
+- Movements II to IV (`"corner": 500`): the heading stands in the top left corner from about 1 s to 7 s of the
+  movement's file, with a soft dark patch behind it. The scherzo's heading stands in the lower left corner instead
+  (`"at": "lower left"`), because its first label on the score lies in the top left corner; the lower left corner
+  shows the dark space beside the page at the start of a movement.
+- The sound of a movement whose segment starts later than its first frame (`"start"`) is cut at the front by the same
+  amount; `join_videos.py` does this for any `@K` segment whose words segment has fewer than K frames.
+- Lengths: the whole video 25:14 (with title screen and cards it was 25:39); 7.3 s of silence between two movements
+  (5.3 s at the end of one, 2 s before the next) instead of 12.3 s.
+- Checked on trial joins made in the cloud (Movement I's first 19 s and last 9 s, Movement II's first 11 s): first
+  sound at 0.5 s, the sound offset by 0 samples against the movement's file, the pictures from frame K on are the
+  movement's own.
+
+The first design, a title screen and a card before each movement (`cards/cards.json`), is still in the tools:
 
 ```
 # one frame of each movement video, one second in (the opening page before the music), as the cards' backgrounds
@@ -71,7 +106,7 @@ python3 tools/join_videos.py --out symphony-glow-video.mp4 \
   the one before, no decoding error, the sound of a clip inside the joined file offset by 0 samples.
 - `--chapters` prints the start time of each chapter for the video's description. The title screen is shorter than
   the 10 s a chapter must have on YouTube, so the first chapter starts at 0:00 and includes it.
-- The opening (Dan, 2026-11-23: "we could start the timpani roll somewhere behind the opening two cards its a bit slow
+- The first design's opening (Dan, 2026-11-23: "we could start the timpani roll somewhere behind the opening two cards its a bit slow
   opening before we get to any sounds"). Movement I's file has 2 s of silence and then the timpani roll alone for three
   beats (3.6 s). With the title 12 s and the card 5 s, the first sound came after 19 s. Now Movement I's card
   (`"handover_cut": 250` in `cards/cards.json`, 4.5 s) lies over the first 250 frames of the movement: its background
