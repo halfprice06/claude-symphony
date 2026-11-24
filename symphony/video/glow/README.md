@@ -49,16 +49,17 @@ the four movement videos. The movements are not rendered or encoded again.
 ```
 # one frame of each movement video, one second in (the opening page before the music), as the cards' backgrounds
 ffmpeg -ss 1 -i mvt1-glow-video.mp4 -frames:v 1 cards/frames/mvt1-page.png      # and mvt2, scherzo, finale
-python3 tools/title_cards.py --spec cards/cards.json --credits credits.json --out-dir cards/out
+python3 tools/title_cards.py --spec cards/cards.json --credits credits.json --out-dir cards/out \
+  --video 10-mvt1=mvt1-glow-video.mp4
 python3 tools/join_videos.py --out symphony-glow-video.mp4 \
-  --chapters "Title|I. Lento — Allegro appassionato|-|II. Adagio|-|III. Scherzo: Allegro vivace|-|IV. Finale: Allegro con fuoco|-" \
-  cards/out/00-title.mp4 cards/out/10-mvt1.mp4 mvt1-glow-video.mp4 cards/out/20-mvt2.mp4 mvt2-glow-video.mp4 \
+  --chapters "I. Lento — Allegro appassionato|-|-|II. Adagio|-|III. Scherzo: Allegro vivace|-|IV. Finale: Allegro con fuoco|-" \
+  cards/out/00-title.mp4 cards/out/10-mvt1.mp4 mvt1-glow-video.mp4@250 cards/out/20-mvt2.mp4 mvt2-glow-video.mp4 \
   cards/out/30-scherzo.mp4 scherzo-glow-video.mp4 cards/out/40-finale.mp4 finale-glow-video.mp4
 ```
 
 - `tools/title_cards.py` draws the cards: the opening page of the movement that follows, out of focus and dim and
-  coming slowly nearer, with the words over it in the gold and the fonts of the labels on the score. Title screen 12 s
-  (title, then the credits under it), movement cards 5 s. Every card starts and ends in black, as every movement video
+  coming slowly nearer, with the words over it in the gold and the fonts of the labels on the score. Title screen 8 s
+  (title, then the credits under it), movement cards 5 s. A card starts and ends in black, as every movement video
   does, so the joins need no cross-fade. `cards/cards.json` holds the words; the credits are given with `--credits`
   (a JSON list of `[role, name, detail]`) and are not kept in the repository. `--stills` writes one PNG per card.
 - The cards are encoded exactly like the parts of a movement video (libx264, preset slow, CRF 18, yuv420p, 60 fps), so
@@ -68,7 +69,18 @@ python3 tools/join_videos.py --out symphony-glow-video.mp4 \
   segment's sound is filled or cut to exactly the length of its pictures (800 samples a frame), so sound and picture
   stay together from the first segment to the last. Checked on a test join: every frame one sixtieth of a second after
   the one before, no decoding error, the sound of a clip inside the joined file offset by 0 samples.
-- `--chapters` prints the start time of each chapter for the video's description.
+- `--chapters` prints the start time of each chapter for the video's description. The title screen is shorter than
+  the 10 s a chapter must have on YouTube, so the first chapter starts at 0:00 and includes it.
+- The opening (Dan, 2026-11-23: "we could start the timpani roll somewhere behind the opening two cards its a bit slow
+  opening before we get to any sounds"). Movement I's file has 2 s of silence and then the timpani roll alone for three
+  beats (3.6 s). With the title 12 s and the card 5 s, the first sound came after 19 s. Now Movement I's card
+  (`"handover_cut": 250` in `cards/cards.json`, 4.5 s) lies over the first 250 frames of the movement: its background
+  is the movement's own picture, out of focus and dim, the roll starts 2.3 s into the card, then the picture comes
+  into focus, the words go, and the card's last ten frames are the movement's own. The join takes the movement from
+  frame 250 (`mvt1-glow-video.mp4@250`, a key frame: x264 sets one every 250 frames, and the copy can only start at
+  one) and starts its sound 250 frames earlier, behind the card. First sound after 10.3 s, the strings after 13.9 s.
+  Checked on a test join made from the first 9 s of the movement: the frames from 250 on are identical to the
+  movement's, the sound is offset by 0 samples, and it starts at 10.333 s.
 
 ## Changes Dan asked for (2026-10-13/14, movement II excerpt)
 
