@@ -81,6 +81,18 @@ python3 tools/join_videos.py --out symphony-glow-video.mp4 \
   one) and starts its sound 250 frames earlier, behind the card. First sound after 10.3 s, the strings after 13.9 s.
   Checked on a test join made from the first 9 s of the movement: the frames from 250 on are identical to the
   movement's, the sound is offset by 0 samples, and it starts at 10.333 s.
+- A 4K copy for the upload (Dan, 2026-11-23, chose it over a true 4K render of 3.5 to 7 hours). It is the joined
+  1080p file enlarged to 3840x2160: no more detail, but YouTube gives an upload of 1440p or more a better codec and
+  bit rate. The pictures are scaled in YUV, so their values are not converted; the colour fields are only labelled
+  bt709 (the 1080p files have no labels). The sound is copied.
+  ```
+  ffmpeg -i symphony-glow-video.mp4 \
+    -vf "scale=3840:2160:flags=lanczos,setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=tv" \
+    -c:v libx264 -preset slow -crf 17 -pix_fmt yuv420p -c:a copy -movflags +faststart symphony-glow-video-4k.mp4
+  ```
+  For the 25:39 file: 36 minutes on the Mac Studio, 4.95 GB (3.5 times the 1080p file). Checked: 92,354 frames, the
+  whole file decodes, the sound packets are identical, and frames scaled back to 1080p differ from the 1080p file by
+  about 0.5 of 255 on average.
 
 ## Changes Dan asked for (2026-10-13/14, movement II excerpt)
 
