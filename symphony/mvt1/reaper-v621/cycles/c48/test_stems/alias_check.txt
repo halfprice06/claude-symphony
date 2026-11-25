@@ -1,0 +1,15 @@
+ALIAS CHECK Vla stroke B (of Violas): DIFFERS; mix keys differing: none
+  notes: 677 alias / 677 source notes in the windows; alias only [(368.0, 65, 367.7131, 3.8605, 124), (372.0, 65, 371.7016, 2.9867, 34)], source only [(368.0, 65, 367.7131, 3.69, 124), (372.0, 65, 371.5311, 3.1572, 80)]
+  ks: row differs at 1 onsets, first [371.7016]
+  ks: keyswitch events in 0.0-730.0: alias 115 / source 115; first differing ((371.6716, 'Sus Marc LITE'), (371.5011, 'Sus MAX'))
+  cc1: 1 of 1365 sounding times differ, e.g. [(371.5211, 89, 90)] (qn, alias, source); largest 1
+  cc11: 1 of 1828 sounding times differ, e.g. [(371.5211, 87, 88)] (qn, alias, source); largest 1
+  vol: 10 of 4786 sounding times differ by over 0.05 dB, e.g. [(371.5611, -1.8, -6.26), (371.7016, -1.23, -5.73), (371.75, -1.0, -5.5)] (qn, alias, source); largest 4.50 dB
+ALIAS CHECK Cb pp450 test (of Double basses): OK; mix keys differing: ['sus_release_cap_ms']
+ALIAS CHECK Vc stroke 156 test (of Violoncellos): DIFFERS; mix keys differing: none
+  notes: 542 alias / 542 source notes in the windows; alias only [(152.0, 56, 151.601, 3.9475, 68), (156.0, 56, 155.6745, 4.0662, 34)], source only [(152.0, 56, 151.601, 4.021, 68), (156.0, 56, 155.748, 3.9928, 34)]
+  ks: row differs at 1 onsets, first [155.6745]
+  ks: keyswitch events in 0.0-679.5: alias 199 / source 199; first differing ((155.6445, 'Sus Marc LITE'), (155.718, 'Sus Marc LITE'))
+  cc1: 1 of 1331 sounding times differ, e.g. [(155.6745, 90, 89)] (qn, alias, source); largest 1
+  cc11: 1 of 1894 sounding times differ, e.g. [(155.6745, 88, 87)] (qn, alias, source); largest 1
+  vol: 6 of 6057 sounding times differ by over 0.05 dB, e.g. [(155.6745, 3.38, 5.12), (155.7045, 5.64, 4.73), (155.738, 5.65, 2.64)] (qn, alias, source); largest 3.01 dB

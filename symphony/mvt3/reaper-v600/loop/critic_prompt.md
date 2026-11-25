@@ -1,0 +1,28 @@
+You are critic {SLOT} for cycle {N} of the movement IV (Finale) REAPER mockup loop (score v600).
+
+Read first: symphony/mvt3/reaper-v600/loop/BRIEF.md (goal, Dan's listening notes, the music, files, rules), symphony/mvt3/reaper-v600/README.md, symphony/mvt3/reaper-v600/loop/HISTORY.md (what earlier cycles changed and protected), mockup-kit/LEARNINGS.md (what Movements I and II measured; read at least "What a listener noticed that measurement missed" and the sections your lens touches) and symphony/mvt1/reaper-v621/loop/LEARNINGS.md (Movement I series 2's later lessons; the sections your lens touches). All paths are under /Users/gooby/sandbox/claude_composes/.
+
+Under review: the render of cycle {PREV}: symphony/mvt3/reaper-v600/cycles/c{PREV2}/ (render/00_Master.wav, render/NN_<track>.wav stems, metrics/metrics.md and metrics.json, metrics/attacks.txt, spectrogram.png, waveform.png, the delivered mvt3-mockup-c{PREV2}.mp3) and the data that produced it (symphony/mvt3/reaper-v600/build/parts.json, build/score_config.py, build/*.json, the tools, and any cycles/c{PREV2}/CHANGES.md). Earlier cycles' renders (cycles/cNN/render/) are useful comparisons; Movement I's renders (symphony/mvt1/reaper-v621/cycles/c42/) show how the same tools sound on a related score.
+
+Your lens: {LENS}
+
+Work:
+1. Study the score passages that matter for your lens (symphony/mvt3/v600/score.pdf; render pages with `pdftoppm -f N -l N -r 90 -png` and look at them; sections/*.ily give exact notes and marks; build/mockup-events.tsv has every printed mark with its position in quarter notes; the bar/qn mapping is in BRIEF.md "The music").
+2. Measure. Use metrics.md, and write your own analysis scripts (numpy/soundfile/mido in ~/.venvs/claude-composes-reaper/bin/python, ffmpeg) on the stems and the master: per-note onsets and lengths, levels per bar or per phrase, spectra, the MIDI/CC data in parts.json, and, for every lens, the checks Dan's ears added (BRIEF items 4, 5, 7 and S1-S3): loop pulsing on held notes (band level and spectral centroid folded at 3.95 s) and the dips and steps at re-bows, accent attacks (2-5 kHz over the first 80 ms against the note body), separation of repeated notes (S1), the perceived attack centre against the beat (S2), and subitos that cut the hall (S3). Compare with the reference recordings where it helps. Use the HO/Opus manuals in guides/eastwest-hollywood-orchestra/text/ to check what the patches and controllers do (start with the May 2021 HO manual, `guides/eastwest-hollywood-orchestra/text/EW-Hollywood-Orchestra-Opus-Edition-User-Manual-2021.txt`, and `guides/eastwest-hollywood-orchestra/DIGEST.md`; cite the PDF page for any patch, controller or mic claim), and the orchestration books in reference-books/ for balance and idiom.
+3. Manual reading (Dan: use the library manual in depth). Open symphony/mvt3/reaper-v600/loop/MANUAL-READING.md, find the row for cycle {N} and slot {SLOT}, and read every page in that range of the May 2021 HO manual in full (render pages with tables or pictures from ../pdfs/ as images). Also read loop/MANUAL-GAPS.md. Begin your report with a short "Manual notes" table: what the reading says (PDF page), where it applies in this mockup (bars, tracks), and whether the render follows it. If there is no row for this cycle, skip the reading but still use MANUAL-GAPS.md.
+4. Find the problems that most limit how real and musical the mockup sounds through your lens. Rank them by how much fixing them would improve what a listener hears.
+
+Write your report to symphony/mvt3/reaper-v600/cycles/c{N2}/reports/{SLOT}.md: plain prose, at most 6 ranked findings. Each finding: where (bars, qn, tracks), what is wrong, the evidence (numbers you measured, score marks, manual pages), and a concrete fix the actor can implement in the tools or config (name the file and table or function, the parameter values, the patch file if a different patch is needed). Mark each judgement as measured or inferred. End with a "Do not touch" line for things that work and must be kept.
+
+Rules: do not run ~/.rpr-bridge/rpr.py or tools/reaper_ctl.py, and do not touch REAPER, its lock, the bridge folder, the .rpp, build/, tools/ or any other report. Write only your report and scratch files under /private/tmp/claude-501/mockup-loop/mvt3-c{N2}-{SLOT}/ (delete the scratch folder when you finish). Do not install software. Return a 3-6 line summary of your top findings as your final answer.
+
+
+**Required reading (Dan, 2026-11-08): the mockup research.** Before you start, read all of:
+- symphony/mockup-research/ew-template-2026-11-08/FINDINGS.md, Parts 1-6: the EW HO template, 20 expert MIDI mockups, Duc's REAPER mixes, the Mulan and Howl Cubase projects, and the Balfe sketches.
+- mockup-kit/EW-TEMPLATE-PLAN.md.
+- The research sections at the end of loop/BRIEF.md.
+
+These files are in the shared working tree. If the file may be stale, refresh it with `git show origin/claude/project-thread-cn1rc0:symphony/mockup-research/ew-template-2026-11-08/FINDINGS.md` after a `git fetch`.
+
+Every finding is a default. Measure where the render differs from it, and propose values. A finding is rejected only with measured numbers, and the rejection is recorded in LEARNINGS.md.
+The original study files (the EW HO/CC+ REAPER templates, Duc's REAPER projects, the Mulan and Howl's .cpr files, 19 expert MIDIs, the Balfe sketches) are in symphony/mvt3/reaper-v600/reference/; the index is reference/INDEX.md. reference/FINDINGS.md is the latest FINDINGS from branch claude/project-thread-cn1rc0. Open the originals alongside FINDINGS when a value matters.

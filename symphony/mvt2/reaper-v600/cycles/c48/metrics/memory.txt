@@ -1,0 +1,3 @@
+before render: REAPER 43G, compressed 1.224 GB
+after render: REAPER 44G, compressed 25.0 GB
+audio device at render: {"BSIZE": "512", "IDENT_IN": "CoreAudio ", "IDENT_OUT": "CoreAudio Mac Studio Speakers", "MODE": "", "SRATE": "48000", "running": 1}

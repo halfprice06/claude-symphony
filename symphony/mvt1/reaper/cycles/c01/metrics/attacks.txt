@@ -1,0 +1,13 @@
+Timpani        qn  100.0  start +0.00 s  (limit 0.06)  ok
+Timpani        qn  128.0  start +0.00 s  (limit 0.06)  ok
+Trombone 1     qn  100.0  start +0.00 s  (limit 0.06)  ok
+Trumpet 1      qn  100.0  start +0.04 s  (limit 0.06)  ok
+Tuba           qn  100.0  start +0.00 s  (limit 0.06)  ok
+Harp           qn  184.0  start +0.00 s  (limit 0.06)  ok
+Double basses  qn  188.0  start +0.00 s  (limit 0.06)  ok
+Violas         qn  128.0  start +0.00 s  (limit 0.10)  ok
+Violins I      qn   56.5  start +1.19 s  (limit 0.10)  LATE
+Violins II     qn   20.0  start +0.34 s  (limit 0.20)  LATE
+Violoncellos   qn   20.0  start +0.63 s  (limit 0.20)  LATE
+Timpani        qn    0.0  opening max  -43.9 dB  (limit -70)  ok
+late or hole: 3

@@ -1,0 +1,132 @@
+== c28 Flute 1
+Flute 1 stac 312.0 A 8.5 B 9.2 slur_peak 14.3 A13 27.5 G 27.5
+Flute 1 stac 318.0 A 26.4 B 18.9 slur_peak 5.2 A13 None G 26.4
+Flute 1 stac 330.0 A 11.0 B 9.4 slur_peak 7.2 A13 None G 11.0
+Flute 1 stac 344.0 A 14.7 B 14.2 slur_peak 9.5 A13 None G 14.7
+Flute 1 stac 348.0 A -0.6 B 6.8 slur_peak 6.7 A13 13.9 G 13.9
+Flute 1 stac 354.0 A 11.2 B 10.1 slur_peak 5.0 A13 None G 11.2
+Flute 1 stac 792.0 A 4.3 B 5.2 slur_peak -1.6 A13 11.7 G 11.7
+Flute 1 stac 801.0 A 11.9 B 3.2 slur_peak -1.5 A13 None G 11.9
+Flute 1 stac 822.0 A 10.1 B 10.9 slur_peak 5.9 A13 None G 10.1
+Flute 1 stac 894.0 A 9.3 B 10.0 slur_peak 6.1 A13 None G 9.3
+Flute 1 stac 912.0 A 3.0 B 1.6 slur_peak 14.8 A13 21.6 G 21.6
+Flute 1 stac 924.0 A 0.5 B 0.4 slur_peak 15.4 A13 34.1 G 34.1
+Flute 1 stac 933.0 A -3.9 B 4.1 slur_peak 12.2 A13 14.7 G 14.7
+Flute 1 stac 948.0 A -0.8 B 6.0 slur_peak 8.4 A13 13.4 G 13.4
+Flute 1 stac 957.0 A 25.0 B 17.7 slur_peak 9.1 A13 None G 25.0
+Flute 1: pairs 15, A median +9.3, under +3 4, under -6..: worst -3.9
+Flute 1: gate (A13 on leaps of 5+ semitones, else A): median +13.9, under +3 0, worst +9.3
+== c28 Flute 2
+Flute 2 stac 312.0 A -3.2 B -1.7 slur_peak 13.5 A13 9.7 G 9.7
+Flute 2 stac 318.0 A 18.2 B 15.8 slur_peak -0.5 A13 None G 18.2
+Flute 2 stac 330.0 A 14.2 B 12.7 slur_peak -3.7 A13 None G 14.2
+Flute 2 stac 344.0 A 26.2 B 12.1 slur_peak 3.4 A13 None G 26.2
+Flute 2 stac 348.0 A 4.1 B 15.5 slur_peak -7.4 A13 29.6 G 29.6
+Flute 2 stac 354.0 A 13.4 B 12.6 slur_peak -0.6 A13 None G 13.4
+Flute 2 stac 822.0 A 12.9 B 6.1 slur_peak 8.2 A13 None G 12.9
+Flute 2 stac 912.0 A -1.9 B -0.3 slur_peak 13.8 A13 11.0 G 11.0
+Flute 2 stac 924.0 A 0.8 B 7.3 slur_peak 1.8 A13 17.4 G 17.4
+Flute 2 stac 933.0 A 0.9 B 7.2 slur_peak 1.7 A13 17.8 G 17.8
+Flute 2 stac 948.0 A 2.2 B 8.7 slur_peak -3.6 A13 26.9 G 26.9
+Flute 2 stac 957.0 A 19.9 B 13.1 slur_peak -0.7 A13 None G 19.9
+Flute 2: pairs 12, A median +8.5, under +3 5, under -6..: worst -3.2
+Flute 2: gate (A13 on leaps of 5+ semitones, else A): median +17.6, under +3 0, worst +9.7
+== c28 Oboe 1
+Oboe 1 stac 312.0 A 10.6 B 5.0 slur_peak 20.5 A13 None G 10.6
+Oboe 1 stac 318.0 A 21.2 B 10.5 slur_peak 18.6 A13 None G 21.2
+Oboe 1 stac 330.0 A 14.5 B 5.5 slur_peak 21.6 A13 None G 14.5
+Oboe 1 stac 344.0 A 20.1 B 11.6 slur_peak 24.7 A13 None G 20.1
+Oboe 1 stac 348.0 A 33.9 B 27.8 slur_peak 12.4 A13 None G 33.9
+Oboe 1 stac 354.0 A 21.3 B 10.7 slur_peak 18.4 A13 None G 21.3
+Oboe 1 stac 822.0 A 11.4 B 12.1 slur_peak 12.8 A13 None G 11.4
+Oboe 1 stac 894.0 A 16.4 B 15.1 slur_peak 11.3 A13 None G 16.4
+Oboe 1 stac 912.0 A 11.0 B 5.3 slur_peak 20.7 A13 None G 11.0
+Oboe 1 stac 918.0 A 25.1 B 16.4 slur_peak 19.1 A13 None G 25.1
+Oboe 1 stac 930.0 A 16.7 B 6.5 slur_peak 22.2 A13 None G 16.7
+Oboe 1 stac 944.0 A 22.1 B 12.6 slur_peak 25.3 A13 None G 22.1
+Oboe 1 stac 948.0 A 27.5 B 21.4 slur_peak 13.0 A13 None G 27.5
+Oboe 1 stac 954.0 A 25.3 B 16.7 slur_peak 18.8 A13 None G 25.3
+Oboe 1: pairs 14, A median +20.6, under +3 0, under -6..: worst +10.6
+Oboe 1: gate (A13 on leaps of 5+ semitones, else A): median +20.6, under +3 0, worst +10.6
+== c28 Clarinet 2
+Clarinet 2 stac 312.0 A 6.3 B 17.1 slur_peak 8.2 A13 None G 6.3
+Clarinet 2 stac 318.0 A 11.9 B 10.9 slur_peak 11.0 A13 None G 11.9
+Clarinet 2 stac 330.0 A 23.5 B 21.6 slur_peak 9.7 A13 None G 23.5
+Clarinet 2 stac 344.0 A 22.2 B 16.7 slur_peak 12.5 A13 None G 22.2
+Clarinet 2 stac 348.0 A 23.4 B 24.2 slur_peak 14.7 A13 None G 23.4
+Clarinet 2 stac 354.0 A 12.0 B 11.0 slur_peak 11.0 A13 None G 12.0
+Clarinet 2 stac 861.0 A 20.5 B 19.6 slur_peak 6.9 A13 21.3 G 21.3
+Clarinet 2 stac 912.0 A 6.8 B 17.5 slur_peak 8.2 A13 None G 6.8
+Clarinet 2 stac 918.0 A 26.6 B 18.6 slur_peak 11.1 A13 None G 26.6
+Clarinet 2 stac 930.0 A 25.3 B 22.7 slur_peak 9.6 A13 None G 25.3
+Clarinet 2 stac 944.0 A 32.5 B 20.9 slur_peak 12.4 A13 None G 32.5
+Clarinet 2 stac 948.0 A 19.9 B 22.2 slur_peak 14.7 A13 None G 19.9
+Clarinet 2 stac 954.0 A 12.9 B 12.3 slur_peak 10.9 A13 None G 12.9
+Clarinet 2: pairs 13, A median +20.5, under +3 0, under -6..: worst +6.3
+Clarinet 2: gate (A13 on leaps of 5+ semitones, else A): median +21.3, under +3 0, worst +6.3
+== c29 Flute 1
+Flute 1 stac 312.0 A 8.5 B 9.2 slur_peak 11.1 A13 27.7 G 27.7
+Flute 1 stac 318.0 A 10.9 B 10.1 slur_peak 5.2 A13 None G 10.9
+Flute 1 stac 330.0 A 11.0 B 9.4 slur_peak 7.2 A13 None G 11.0
+Flute 1 stac 344.0 A 14.7 B 14.2 slur_peak 9.5 A13 None G 14.7
+Flute 1 stac 348.0 A -0.7 B 7.1 slur_peak 6.1 A13 13.9 G 13.9
+Flute 1 stac 354.0 A 11.2 B 10.1 slur_peak 5.0 A13 None G 11.2
+Flute 1 stac 792.0 A 6.5 B 4.4 slur_peak -1.5 A13 20.4 G 20.4
+Flute 1 stac 801.0 A 9.3 B 1.3 slur_peak -1.5 A13 None G 9.3
+Flute 1 stac 822.0 A 10.1 B 10.9 slur_peak 5.9 A13 None G 10.1
+Flute 1 stac 894.0 A 15.1 B 10.3 slur_peak 6.1 A13 None G 15.1
+Flute 1 stac 912.0 A 3.0 B 1.6 slur_peak 14.8 A13 21.6 G 21.6
+Flute 1 stac 924.0 A -3.8 B 3.6 slur_peak 11.6 A13 15.9 G 15.9
+Flute 1 stac 933.0 A -3.9 B 4.1 slur_peak 12.2 A13 14.7 G 14.7
+Flute 1 stac 948.0 A 13.1 B 7.0 slur_peak 7.8 A13 28.4 G 28.4
+Flute 1 stac 957.0 A 17.9 B 11.9 slur_peak 9.1 A13 None G 17.9
+Flute 1: pairs 15, A median +10.1, under +3 3, under -6..: worst -3.9
+Flute 1: gate (A13 on leaps of 5+ semitones, else A): median +14.7, under +3 0, worst +9.3
+== c29 Flute 2
+Flute 2 stac 312.0 A -3.2 B -1.7 slur_peak 13.5 A13 9.7 G 9.7
+Flute 2 stac 318.0 A 13.4 B 12.4 slur_peak -0.5 A13 None G 13.4
+Flute 2 stac 330.0 A 14.2 B 12.7 slur_peak -3.7 A13 None G 14.2
+Flute 2 stac 344.0 A 23.5 B 10.8 slur_peak 3.4 A13 None G 23.5
+Flute 2 stac 348.0 A 4.1 B 15.5 slur_peak -7.4 A13 29.6 G 29.6
+Flute 2 stac 354.0 A 13.4 B 12.6 slur_peak -0.6 A13 None G 13.4
+Flute 2 stac 822.0 A 12.9 B 6.0 slur_peak 8.2 A13 None G 12.9
+Flute 2 stac 912.0 A -6.9 B -4.4 slur_peak 13.8 A13 7.0 G 7.0
+Flute 2 stac 924.0 A 0.8 B 7.3 slur_peak 1.8 A13 17.4 G 17.4
+Flute 2 stac 933.0 A 0.9 B 7.2 slur_peak 1.7 A13 17.8 G 17.8
+Flute 2 stac 948.0 A 11.6 B 6.8 slur_peak -3.7 A13 28.4 G 28.4
+Flute 2 stac 957.0 A 20.0 B 13.1 slur_peak -0.7 A13 None G 20.0
+Flute 2: pairs 12, A median +12.2, under +3 4, under -6..: worst -6.9
+Flute 2: gate (A13 on leaps of 5+ semitones, else A): median +15.8, under +3 0, worst +7.0
+== c29 Oboe 1
+Oboe 1 stac 312.0 A 10.6 B 5.0 slur_peak 20.5 A13 None G 10.6
+Oboe 1 stac 318.0 A 21.2 B 10.5 slur_peak 18.6 A13 None G 21.2
+Oboe 1 stac 330.0 A 14.5 B 5.5 slur_peak 21.6 A13 None G 14.5
+Oboe 1 stac 344.0 A 13.9 B 9.6 slur_peak 24.7 A13 None G 13.9
+Oboe 1 stac 348.0 A 31.0 B 23.3 slur_peak 12.4 A13 None G 31.0
+Oboe 1 stac 354.0 A 21.3 B 10.7 slur_peak 18.4 A13 None G 21.3
+Oboe 1 stac 822.0 A 18.6 B 18.2 slur_peak 12.0 A13 None G 18.6
+Oboe 1 stac 894.0 A 19.3 B 18.3 slur_peak 11.3 A13 None G 19.3
+Oboe 1 stac 912.0 A 11.0 B 5.3 slur_peak 20.7 A13 None G 11.0
+Oboe 1 stac 918.0 A 25.1 B 16.4 slur_peak 19.1 A13 None G 25.1
+Oboe 1 stac 930.0 A 16.7 B 6.5 slur_peak 22.2 A13 None G 16.7
+Oboe 1 stac 944.0 A 22.1 B 12.6 slur_peak 25.3 A13 None G 22.1
+Oboe 1 stac 948.0 A 30.5 B 25.9 slur_peak 13.0 A13 None G 30.5
+Oboe 1 stac 954.0 A 25.3 B 16.7 slur_peak 18.8 A13 None G 25.3
+Oboe 1: pairs 14, A median +20.2, under +3 0, under -6..: worst +10.6
+Oboe 1: gate (A13 on leaps of 5+ semitones, else A): median +20.2, under +3 0, worst +10.6
+== c29 Clarinet 2
+Clarinet 2 stac 312.0 A 6.3 B 17.1 slur_peak 8.2 A13 None G 6.3
+Clarinet 2 stac 318.0 A 11.9 B 10.9 slur_peak 11.0 A13 None G 11.9
+Clarinet 2 stac 330.0 A 23.5 B 21.6 slur_peak 9.7 A13 None G 23.5
+Clarinet 2 stac 344.0 A 22.2 B 16.7 slur_peak 12.5 A13 None G 22.2
+Clarinet 2 stac 348.0 A 23.4 B 24.2 slur_peak 14.7 A13 None G 23.4
+Clarinet 2 stac 354.0 A 12.0 B 11.0 slur_peak 11.0 A13 None G 12.0
+Clarinet 2 stac 861.0 A 22.4 B 19.8 slur_peak 6.9 A13 23.7 G 23.7
+Clarinet 2 stac 912.0 A 22.0 B 18.8 slur_peak 8.2 A13 None G 22.0
+Clarinet 2 stac 918.0 A 12.8 B 12.0 slur_peak 11.1 A13 None G 12.8
+Clarinet 2 stac 930.0 A 25.3 B 22.7 slur_peak 9.6 A13 None G 25.3
+Clarinet 2 stac 944.0 A 32.5 B 20.9 slur_peak 12.4 A13 None G 32.5
+Clarinet 2 stac 948.0 A 30.2 B 25.6 slur_peak 14.7 A13 None G 30.2
+Clarinet 2 stac 954.0 A 26.7 B 18.9 slur_peak 10.9 A13 None G 26.7
+Clarinet 2: pairs 13, A median +22.4, under +3 0, under -6..: worst +6.3
+Clarinet 2: gate (A13 on leaps of 5+ semitones, else A): median +23.4, under +3 0, worst +6.3

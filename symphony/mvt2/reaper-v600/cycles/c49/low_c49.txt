@@ -1,0 +1,15 @@
+Bass clarinet      33.000  30-120 Hz ref  -66.0 dB  dip  12.4 dB at    +5 ms  after  +4.5  master 30-120 Hz dip   9.3  played gap   60 ms
+Bass clarinet     265.000  30-120 Hz ref  -47.5 dB  dip   8.6 dB at   +25 ms  after  +1.0  master 30-120 Hz dip   4.0  played gap   60 ms
+Bassoon 2          21.000  30-120 Hz ref  -71.3 dB  dip   2.2 dB at   -25 ms  after  +6.2  master 30-120 Hz dip  -0.8  played gap   90 ms
+Bassoon 2         144.000  30-120 Hz ref  -73.1 dB  dip   7.3 dB at   -15 ms  after  +4.3  master 30-120 Hz dip  11.4  played gap   90 ms
+Bassoon 2         253.000  30-120 Hz ref  -68.1 dB  dip   8.1 dB at   -25 ms  after  +3.7  master 30-120 Hz dip   7.7  played gap   90 ms
+Bassoon 2         265.000  30-120 Hz ref  -57.7 dB  dip   6.8 dB at   -10 ms  after  -0.0  master 30-120 Hz dip   4.0  played gap   90 ms
+Contrabassoon     265.000  30-120 Hz ref  -57.0 dB  dip   7.4 dB at   -20 ms  after  -0.4  master 30-120 Hz dip   4.0  played gap   90 ms
+Bass trombone     216.000  30-120 Hz ref  -65.0 dB  dip   2.5 dB at   +10 ms  after  +0.1  master 30-120 Hz dip   7.6  played gap   60 ms
+Violoncellos      128.000  30-120 Hz ref  -63.2 dB  dip   5.8 dB at   +45 ms  after  +0.3  master 30-120 Hz dip   3.5  played gap -890 ms
+Violoncellos      148.000  30-120 Hz ref  -78.6 dB  dip   4.3 dB at   -90 ms  after  +1.8  master 30-120 Hz dip  -5.4  played gap -3186 ms
+Double basses     144.000  30-120 Hz ref  -56.9 dB  dip   8.0 dB at   -40 ms  after  +3.1  master 30-120 Hz dip  11.4  played gap -1891 ms
+Double basses     156.000  30-120 Hz ref  -59.9 dB  dip   8.9 dB at   +85 ms  after  +3.6  master 30-120 Hz dip   8.4  played gap -2246 ms
+Double basses     168.000  30-120 Hz ref  -47.6 dB  dip   8.3 dB at  -120 ms  after  +0.6  master 30-120 Hz dip   4.9  played gap -2339 ms
+Double basses     253.000  30-120 Hz ref  -56.0 dB  dip   7.7 dB at  -125 ms  after  -3.6  master 30-120 Hz dip   7.7  played gap -2191 ms
+Double basses     265.000  30-120 Hz ref  -38.8 dB  dip  11.5 dB at  -120 ms  after  +3.1  master 30-120 Hz dip   4.0  played gap -2463 ms

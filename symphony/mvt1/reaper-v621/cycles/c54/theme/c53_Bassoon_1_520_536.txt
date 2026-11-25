@@ -1,0 +1,21 @@
+bar 131 beat 1.5 p55 note-on  -120 ms  sounds  -113 ms  heard  160 ms of  238 ( 67 %) pk -37 dB
+bar 131 beat 2.0 p63 note-on   -60 ms  sounds   +34 ms  heard  715 ms of  734 ( 97 %) pk -33 dB
+bar 131 beat 3.5 p62 note-on     0 ms  sounds   +20 ms  heard  240 ms of  238 (101 %) pk -35 dB  under neighbours -2.1
+bar 131 beat 4.0 p61 note-on   -77 ms  sounds   +27 ms  heard  245 ms of  238 (103 %) pk -37 dB  under neighbours +1.9
+bar 131 beat 4.5 p60 note-on   -60 ms  sounds   +38 ms  heard  650 ms of  238 (273 %) pk -35 dB  under neighbours -1.6
+bar 132 beat 1.0 p60 note-on   -35 ms  same-pitch repeat: dip 9.8 dB at -40 ms, back at +50 ms
+bar 132 beat 2.0 p59 note-on   -35 ms  sounds   -21 ms  heard  325 ms of  238 (136 %) pk -29 dB  under neighbours -6.3
+bar 132 beat 2.5 p60 note-on  -107 ms  sounds   +71 ms  heard  200 ms of  238 ( 84 %) pk -36 dB  under neighbours +6.3
+bar 132 beat 3.0 p56 note-on     0 ms  sounds   +38 ms  heard  650 ms of  714 ( 91 %) pk -38 dB
+bar 132 beat 4.5 p55 note-on   -35 ms  sounds   -21 ms  heard  150 ms of  238 ( 63 %) pk -36 dB
+bar 133 beat 1.5 p55 note-on  -120 ms  sounds  +148 ms  heard  100 ms of  238 ( 42 %) pk -34 dB
+bar 133 beat 2.0 p65 note-on   -60 ms  sounds   +14 ms  heard  740 ms of  714 (104 %) pk -34 dB
+bar 133 beat 3.5 p63 note-on     0 ms  sounds   +45 ms  heard  225 ms of  238 ( 95 %) pk -31 dB  under neighbours -2.3
+bar 133 beat 4.0 p62 note-on  -107 ms  sounds   +37 ms  heard  205 ms of  238 ( 86 %) pk -33 dB  under neighbours -0.8
+bar 133 beat 4.5 p60 note-on  -107 ms  sounds    +9 ms  heard  220 ms of  238 ( 92 %) pk -37 dB  under neighbours +4.0
+bar 134 beat 1.0 p59 note-on   -60 ms  sounds    -4 ms  heard  505 ms of  476 (106 %) pk -26 dB
+bar 134 beat 2.0 p62 note-on   -46 ms  sounds   +30 ms  heard  270 ms of  238 (113 %) pk -33 dB  under neighbours -7.6
+bar 134 beat 2.5 p60 note-on  -107 ms  sounds   +67 ms  heard  175 ms of  238 ( 74 %) pk -41 dB  under neighbours +7.6
+bar 134 beat 3.0 p55 note-on     0 ms  sounds    +8 ms  heard  160 ms of  987 ( 16 %) pk -35 dB
+bar 135 beat 1.0 p48 note-on   -35 ms  sounds    -9 ms  heard 1450 ms of 1429 (101 %) pk -43 dB
+Bassoon 1      520-536: found 19 of 20 (+1 same-pitch repeats, 1 with a dip >= 3 dB), median +27 ms, SD 49, min -113, max +148; over 40 ms from median 6, over 25 ms 8; not sounding 0; under 60 % of printed length 2; eighths > 6 dB under neighbours 2; median share 95 %

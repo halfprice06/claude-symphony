@@ -1,0 +1,55 @@
+bar  15 beat 2.5 p63 entry  Leg Slur MAX   lead  120  pcx    +6  xr   n/a  dom  -134  S    +6
+bar  16 beat 1.5 p63 entry  Leg Slur MAX   lead  120  pcx   +41  xr   n/a  dom   n/a  S   +41
+bar  16 beat 3.5 p62 entry  Leg Slur MAX   lead  120  pcx  +130  xr   n/a  dom   +95  S  +130
+bar  17 beat 2.5 p65 entry  Sus MAX        lead  120  pcx   +58  xr   n/a  dom  -114  S   +58
+bar  18 beat 1.5 p62 entry  Leg Slur MAX   lead  120  pcx   +71  xr   n/a  dom   +73  S   +71
+bar  18 beat 3.5 p59 entry  Leg Slur MAX   lead  163  pcx  +111  xr   n/a  dom   +15  S  +111
+bar  19 beat 1.0 p68 join   Leg BC MAX     lead  250  pcx   +85  xr   -74  dom   -34  S   -74
+bar  19 beat 4.5 p67 entry  Sus MAX        lead    0  pcx    +1  xr   n/a  dom   +79  S    +1
+bar  20 beat 1.0 p65 join   Sus MAX        lead   90  pcx  +167  xr   +16  dom    +6  S   +16
+bar  20 beat 3.0 p68 join   Leg Slur MAX   lead  155  pcx    +6  xr  +123  dom  +124  S    +6
+bar  21 beat 1.0 p68 entry  Sus MAX        lead  100  pcx   -34  xr   n/a  dom   n/a  S   -34
+bar  21 beat 2.0 p67 join   Leg Slur MAX   lead  155  pcx   -39  xr    +3  dom   +65  S   -39
+bar  21 beat 3.0 p65 join   Leg Slur MAX   lead  155  pcx    -6  xr  +159  dom   +39  S    -6
+bar  22 beat 3.0 p63 join   Leg Slur MAX   lead  185  pcx   +27  xr   +57  dom   +69  S   +27
+bar  23 beat 1.0 p63 entry  Sus MAX        lead  120  pcx   -23  xr   n/a  dom   n/a  S   -23
+bar  23 beat 2.0 p63 entry  Sus MAX        lead    0  pcx  +151  xr   n/a  dom   n/a  S  +151
+bar  23 beat 3.0 p63 entry  Sus MAX        lead    0  pcx  +102  xr   n/a  dom   n/a  S  +102
+bar  23 beat 4.0 p62 join   Sus MAX        lead  100  pcx   -30  xr   -24  dom   -47  S   -30
+bar  24 beat 1.0 p62 entry  Sus MAX        lead    0  pcx  +130  xr   n/a  dom   n/a  S  +130
+bar  24 beat 2.0 p62 entry  Sus MAX        lead    0  pcx   +48  xr   n/a  dom   n/a  S   +48
+bar  24 beat 3.0 p63 join   Sus MAX        lead  100  pcx   -12  xr   -16  dom    -5  S   -16
+bar  24 beat 4.0 p63 entry  Sus MAX        lead    0  pcx   +76  xr   n/a  dom   n/a  S   +76
+bar  25 beat 1.0 p63 entry  Sus MAX        lead    0  pcx  +128  xr   n/a  dom   n/a  S  +128
+bar  25 beat 2.0 p60 join   Sus MAX        lead  100  pcx   +34  xr   -54  dom   -74  S   -54
+bar  25 beat 3.0 p60 entry  Sus MAX        lead    0  pcx  +112  xr   n/a  dom   n/a  S  +112
+bar  25 beat 4.0 p60 entry  Sus MAX        lead    0  pcx  +137  xr   n/a  dom   n/a  S  +137
+bar  26 beat 1.0 p71 join   Sus MAX        lead    0  pcx   +95  xr   +90  dom   n/a  S   +90
+bar  27 beat 1.5 p55 entry  Sus Marc LITE  lead  100  pcx   -12  xr   n/a  dom   -80  S   -12
+bar  27 beat 2.0 p63 join   Sus Marc LITE  lead   52  pcx    +2  xr   +42  dom   +47  S    +2
+bar  27 beat 3.5 p62 join   Sus Marc LITE  lead   74  pcx   +41  xr   +24  dom   +22  S   +24
+bar  27 beat 4.0 p61 join   Sus Marc LITE  lead   90  pcx   +54  xr   +10  dom   +19  S   +10
+bar  27 beat 4.5 p60 join   Sus Marc LITE  lead   64  pcx    +1  xr   +34  dom   +56  S    +1
+bar  28 beat 1.0 p60 entry  Sus Marc LITE  lead   85  pcx   +58  xr   n/a  dom   n/a  S   +58
+bar  28 beat 2.0 p59 join   Sus Marc LITE  lead  128  pcx   +31  xr    +2  dom   -13  S    +2
+bar  28 beat 2.5 p60 join   Sus Marc LITE  lead   56  pcx   +16  xr   +28  dom   +59  S   +16
+bar  28 beat 3.0 p56 join   Sus Marc LITE  lead   50  pcx  +108  xr   -24  dom   -19  S   -24
+bar  28 beat 4.5 p55 join   Sus Marc LITE  lead  104  pcx   +29  xr   +32  dom    -4  S   +29
+bar  29 beat 1.5 p55 entry  Sus Marc LITE  lead   88  pcx    +1  xr   n/a  dom  -115  S    +1
+bar  29 beat 2.0 p65 join   Sus Marc LITE  lead   38  pcx    +1  xr    +4  dom    -3  S    +1
+bar  29 beat 3.5 p63 join   Sus Marc LITE  lead   50  pcx    +4  xr   +46  dom   +68  S    +4
+bar  29 beat 4.0 p62 join   Sus Marc LITE  lead   90  pcx   +23  xr    +0  dom    -0  S    +0
+bar  29 beat 4.5 p60 join   Sus Marc LITE  lead   90  pcx   +38  xr   -16  dom   -23  S   -16
+bar  30 beat 1.0 p58 join   Stac RRx9      lead   40  pcx   +38  xr   +30  dom   +34  S   +30
+bar  30 beat 1.5 p60 entry  Stac RRx9      lead   40  pcx    +9  xr   n/a  dom   +25  S    +9
+bar  30 beat 2.0 p61 entry  Stac RRx9      lead   40  pcx   +21  xr   n/a  dom   +12  S   +21
+bar  30 beat 2.5 p58 entry  Stac RRx9      lead   40  pcx   +21  xr   n/a  dom    -1  S   +21
+bar  30 beat 3.0 p67 entry  Sus Marc LITE  lead   72  pcx    -0  xr   n/a  dom    +1  S    -0
+bar  30 beat 4.5 p65 join   Sus Marc LITE  lead   50  pcx    -1  xr   +42  dom    -3  S    -1
+bar  31 beat 1.0 p68 join   Sus Marc LITE  lead   82  pcx   +92  xr    -4  dom    -1  S    -4
+bar  31 beat 2.5 p67 join   Sus Marc LITE  lead   72  pcx   +14  xr   +22  dom   +30  S   +14
+bar  31 beat 3.0 p65 join   Sus Marc LITE  lead   50  pcx   +29  xr    +4  dom   -34  S    +4
+bar  31 beat 4.0 p62 join   Sus Marc LITE  lead   82  pcx   +28  xr   +14  dom   +15  S   +14
+bar  32 beat 1.0 p65 entry  Sus MAX        lead    0  pcx   +24  xr   n/a  dom   +14  S   +24
+bar  32 beat 2.0 p65 entry  Sus MAX        lead    0  pcx   +66  xr   n/a  dom  -177  S   +66
+S: n 54 of 54  median +12  robust SD 27  SD 51  min -74 max +151  >25 from median 25  >40 19  >60 12

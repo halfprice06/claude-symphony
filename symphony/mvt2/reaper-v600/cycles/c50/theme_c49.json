@@ -1,0 +1,1186 @@
+{
+ "Horn 1 solo bars 9-16": {
+  "summary": {
+   "notes": 17,
+   "found": 17,
+   "min": -35,
+   "max": 89,
+   "median": -1.0,
+   "outside25": 9,
+   "outside60": 2,
+   "short": [],
+   "not_found": []
+  },
+  "notes": [
+   {
+    "sq": 24.0,
+    "bar": 9,
+    "pitch": 60,
+    "lead_ms": 100,
+    "printed_ms": 1775,
+    "start_ms": -35,
+    "heard_ms": 1825,
+    "ratio": 1.03
+   },
+   {
+    "sq": 25.5,
+    "bar": 9,
+    "pitch": 58,
+    "lead_ms": 100,
+    "printed_ms": 493,
+    "start_ms": 16,
+    "heard_ms": 555,
+    "ratio": 1.13
+   },
+   {
+    "sq": 26.0,
+    "bar": 9,
+    "pitch": 56,
+    "lead_ms": 180,
+    "printed_ms": 1100,
+    "start_ms": -1,
+    "heard_ms": 1155,
+    "ratio": 1.05
+   },
+   {
+    "sq": 27.0,
+    "bar": 10,
+    "pitch": 55,
+    "lead_ms": 150,
+    "printed_ms": 2321,
+    "start_ms": 5,
+    "heard_ms": 2810,
+    "ratio": 1.21
+   },
+   {
+    "sq": 29.0,
+    "bar": 10,
+    "pitch": 51,
+    "lead_ms": 0,
+    "printed_ms": 561,
+    "start_ms": -14,
+    "heard_ms": 625,
+    "ratio": 1.11
+   },
+   {
+    "sq": 29.5,
+    "bar": 10,
+    "pitch": 53,
+    "lead_ms": 100,
+    "printed_ms": 501,
+    "start_ms": 50,
+    "heard_ms": 520,
+    "ratio": 1.04
+   },
+   {
+    "sq": 30.0,
+    "bar": 11,
+    "pitch": 56,
+    "lead_ms": 160,
+    "printed_ms": 1710,
+    "start_ms": 9,
+    "heard_ms": 1695,
+    "ratio": 0.99
+   },
+   {
+    "sq": 31.5,
+    "bar": 11,
+    "pitch": 60,
+    "lead_ms": 100,
+    "printed_ms": 555,
+    "start_ms": -6,
+    "heard_ms": 580,
+    "ratio": 1.05
+   },
+   {
+    "sq": 32.0,
+    "bar": 11,
+    "pitch": 65,
+    "lead_ms": 100,
+    "printed_ms": 2205,
+    "start_ms": 89,
+    "heard_ms": 2115,
+    "ratio": 0.96
+   },
+   {
+    "sq": 34.0,
+    "bar": 12,
+    "pitch": 70,
+    "lead_ms": 130,
+    "printed_ms": 1203,
+    "start_ms": 78,
+    "heard_ms": 1140,
+    "ratio": 0.95
+   },
+   {
+    "sq": 35.0,
+    "bar": 12,
+    "pitch": 68,
+    "lead_ms": 100,
+    "printed_ms": 1133,
+    "start_ms": 29,
+    "heard_ms": 1095,
+    "ratio": 0.97
+   },
+   {
+    "sq": 36.0,
+    "bar": 13,
+    "pitch": 67,
+    "lead_ms": 100,
+    "printed_ms": 1150,
+    "start_ms": -8,
+    "heard_ms": 1130,
+    "ratio": 0.98
+   },
+   {
+    "sq": 37.0,
+    "bar": 13,
+    "pitch": 63,
+    "lead_ms": 100,
+    "printed_ms": 549,
+    "start_ms": -27,
+    "heard_ms": 545,
+    "ratio": 0.99
+   },
+   {
+    "sq": 37.5,
+    "bar": 13,
+    "pitch": 61,
+    "lead_ms": 100,
+    "printed_ms": 549,
+    "start_ms": -32,
+    "heard_ms": 550,
+    "ratio": 1.0
+   },
+   {
+    "sq": 38.0,
+    "bar": 13,
+    "pitch": 60,
+    "lead_ms": 100,
+    "printed_ms": 549,
+    "start_ms": -32,
+    "heard_ms": 610,
+    "ratio": 1.11
+   },
+   {
+    "sq": 38.5,
+    "bar": 13,
+    "pitch": 58,
+    "lead_ms": 100,
+    "printed_ms": 469,
+    "start_ms": 29,
+    "heard_ms": 505,
+    "ratio": 1.08
+   },
+   {
+    "sq": 39.0,
+    "bar": 14,
+    "pitch": 56,
+    "lead_ms": 180,
+    "printed_ms": 4135,
+    "start_ms": -16,
+    "heard_ms": 4395,
+    "ratio": 1.06
+   }
+  ]
+ },
+ "Cor anglais solo bars 41-52": {
+  "summary": {
+   "notes": 27,
+   "found": 25,
+   "min": -81,
+   "max": 27,
+   "median": -7.0,
+   "outside25": 8,
+   "outside60": 1,
+   "short": [
+    125.0,
+    134.0,
+    135.0,
+    136.0,
+    151.0
+   ],
+   "not_found": [
+    124.0,
+    160.0
+   ]
+  },
+  "notes": [
+   {
+    "sq": 124.0,
+    "bar": 41,
+    "pitch": 56,
+    "lead_ms": 30,
+    "printed_ms": 1020
+   },
+   {
+    "sq": 125.0,
+    "bar": 41,
+    "pitch": 61,
+    "lead_ms": 80,
+    "printed_ms": 971,
+    "start_ms": -40,
+    "heard_ms": 190,
+    "ratio": 0.2
+   },
+   {
+    "sq": 126.0,
+    "bar": 41,
+    "pitch": 65,
+    "lead_ms": 80,
+    "printed_ms": 1497,
+    "start_ms": 4,
+    "heard_ms": 1450,
+    "ratio": 0.97
+   },
+   {
+    "sq": 127.5,
+    "bar": 41,
+    "pitch": 66,
+    "lead_ms": 80,
+    "printed_ms": 485,
+    "start_ms": -38,
+    "heard_ms": 525,
+    "ratio": 1.08
+   },
+   {
+    "sq": 128.0,
+    "bar": 42,
+    "pitch": 68,
+    "lead_ms": 80,
+    "printed_ms": 971,
+    "start_ms": 6,
+    "heard_ms": 955,
+    "ratio": 0.98
+   },
+   {
+    "sq": 129.0,
+    "bar": 42,
+    "pitch": 70,
+    "lead_ms": 80,
+    "printed_ms": 522,
+    "start_ms": -4,
+    "heard_ms": 540,
+    "ratio": 1.03
+   },
+   {
+    "sq": 129.5,
+    "bar": 42,
+    "pitch": 68,
+    "lead_ms": 80,
+    "printed_ms": 522,
+    "start_ms": 19,
+    "heard_ms": 495,
+    "ratio": 0.95
+   },
+   {
+    "sq": 130.0,
+    "bar": 42,
+    "pitch": 66,
+    "lead_ms": 80,
+    "printed_ms": 1365,
+    "start_ms": -3,
+    "heard_ms": 1355,
+    "ratio": 0.99
+   },
+   {
+    "sq": 131.5,
+    "bar": 42,
+    "pitch": 65,
+    "lead_ms": 160,
+    "printed_ms": 481,
+    "start_ms": -81,
+    "heard_ms": 535,
+    "ratio": 1.11
+   },
+   {
+    "sq": 132.0,
+    "bar": 43,
+    "pitch": 63,
+    "lead_ms": 80,
+    "printed_ms": 1542,
+    "start_ms": -22,
+    "heard_ms": 1585,
+    "ratio": 1.03
+   },
+   {
+    "sq": 133.5,
+    "bar": 43,
+    "pitch": 65,
+    "lead_ms": 80,
+    "printed_ms": 500,
+    "start_ms": 27,
+    "heard_ms": 475,
+    "ratio": 0.95
+   },
+   {
+    "sq": 134.0,
+    "bar": 43,
+    "pitch": 61,
+    "lead_ms": 80,
+    "printed_ms": 1000,
+    "start_ms": 7,
+    "heard_ms": 660,
+    "ratio": 0.66
+   },
+   {
+    "sq": 135.0,
+    "bar": 43,
+    "pitch": 58,
+    "lead_ms": 80,
+    "printed_ms": 1000,
+    "start_ms": -8,
+    "heard_ms": 320,
+    "ratio": 0.32
+   },
+   {
+    "sq": 136.0,
+    "bar": 44,
+    "pitch": 60,
+    "lead_ms": 80,
+    "printed_ms": 3507,
+    "start_ms": -13,
+    "heard_ms": 580,
+    "ratio": 0.17
+   },
+   {
+    "sq": 151.0,
+    "bar": 47,
+    "pitch": 61,
+    "lead_ms": 30,
+    "printed_ms": 1091,
+    "start_ms": -47,
+    "heard_ms": 390,
+    "ratio": 0.36
+   },
+   {
+    "sq": 152.0,
+    "bar": 48,
+    "pitch": 69,
+    "lead_ms": 80,
+    "printed_ms": 3914,
+    "start_ms": -28,
+    "heard_ms": 3945,
+    "ratio": 1.01
+   },
+   {
+    "sq": 155.5,
+    "bar": 48,
+    "pitch": 68,
+    "lead_ms": 80,
+    "printed_ms": 534,
+    "start_ms": 8,
+    "heard_ms": 515,
+    "ratio": 0.96
+   },
+   {
+    "sq": 156.0,
+    "bar": 49,
+    "pitch": 66,
+    "lead_ms": 80,
+    "printed_ms": 1083,
+    "start_ms": -6,
+    "heard_ms": 1120,
+    "ratio": 1.03
+   },
+   {
+    "sq": 157.0,
+    "bar": 49,
+    "pitch": 74,
+    "lead_ms": 0,
+    "printed_ms": 2321,
+    "start_ms": 8,
+    "heard_ms": 2340,
+    "ratio": 1.01
+   },
+   {
+    "sq": 159.0,
+    "bar": 49,
+    "pitch": 73,
+    "lead_ms": 0,
+    "printed_ms": 1225,
+    "start_ms": 13,
+    "heard_ms": 3450,
+    "ratio": 2.82
+   },
+   {
+    "sq": 160.0,
+    "bar": 50,
+    "pitch": 73,
+    "lead_ms": 0,
+    "printed_ms": 2260
+   },
+   {
+    "sq": 162.0,
+    "bar": 50,
+    "pitch": 71,
+    "lead_ms": 80,
+    "printed_ms": 1160,
+    "start_ms": -27,
+    "heard_ms": 1175,
+    "ratio": 1.01
+   },
+   {
+    "sq": 163.0,
+    "bar": 50,
+    "pitch": 69,
+    "lead_ms": 80,
+    "printed_ms": 953,
+    "start_ms": -7,
+    "heard_ms": 1270,
+    "ratio": 1.33
+   },
+   {
+    "sq": 164.0,
+    "bar": 51,
+    "pitch": 68,
+    "lead_ms": 0,
+    "printed_ms": 2269,
+    "start_ms": -10,
+    "heard_ms": 2265,
+    "ratio": 1.0
+   },
+   {
+    "sq": 166.0,
+    "bar": 51,
+    "pitch": 66,
+    "lead_ms": 80,
+    "printed_ms": 2517,
+    "start_ms": -9,
+    "heard_ms": 2545,
+    "ratio": 1.01
+   },
+   {
+    "sq": 168.0,
+    "bar": 52,
+    "pitch": 65,
+    "lead_ms": 80,
+    "printed_ms": 3480,
+    "start_ms": 24,
+    "heard_ms": 3420,
+    "ratio": 0.98
+   },
+   {
+    "sq": 171.0,
+    "bar": 52,
+    "pitch": 66,
+    "lead_ms": 80,
+    "printed_ms": 1033,
+    "start_ms": -31,
+    "heard_ms": 1145,
+    "ratio": 1.11
+   }
+  ]
+ },
+ "Flute 1 theme B bars 36-40": {
+  "summary": {
+   "notes": 18,
+   "found": 18,
+   "min": -113,
+   "max": 76,
+   "median": 22.5,
+   "outside25": 12,
+   "outside60": 5,
+   "short": [],
+   "not_found": []
+  },
+  "notes": [
+   {
+    "sq": 108.0,
+    "bar": 37,
+    "pitch": 77,
+    "lead_ms": 60,
+    "printed_ms": 2042,
+    "start_ms": -78,
+    "heard_ms": 2190,
+    "ratio": 1.07
+   },
+   {
+    "sq": 110.0,
+    "bar": 37,
+    "pitch": 78,
+    "lead_ms": 30,
+    "printed_ms": 538,
+    "start_ms": 76,
+    "heard_ms": 460,
+    "ratio": 0.86
+   },
+   {
+    "sq": 110.5,
+    "bar": 37,
+    "pitch": 77,
+    "lead_ms": 30,
+    "printed_ms": 481,
+    "start_ms": 3,
+    "heard_ms": 445,
+    "ratio": 0.93
+   },
+   {
+    "sq": 111.0,
+    "bar": 37,
+    "pitch": 75,
+    "lead_ms": 150,
+    "printed_ms": 1000,
+    "start_ms": -85,
+    "heard_ms": 1115,
+    "ratio": 1.12
+   },
+   {
+    "sq": 112.0,
+    "bar": 38,
+    "pitch": 73,
+    "lead_ms": 30,
+    "printed_ms": 1000,
+    "start_ms": 35,
+    "heard_ms": 995,
+    "ratio": 1.0
+   },
+   {
+    "sq": 113.0,
+    "bar": 38,
+    "pitch": 72,
+    "lead_ms": 30,
+    "printed_ms": 481,
+    "start_ms": 35,
+    "heard_ms": 495,
+    "ratio": 1.03
+   },
+   {
+    "sq": 113.5,
+    "bar": 38,
+    "pitch": 73,
+    "lead_ms": 30,
+    "printed_ms": 481,
+    "start_ms": 55,
+    "heard_ms": 420,
+    "ratio": 0.87
+   },
+   {
+    "sq": 114.0,
+    "bar": 38,
+    "pitch": 75,
+    "lead_ms": 30,
+    "printed_ms": 2112,
+    "start_ms": -1,
+    "heard_ms": 2125,
+    "ratio": 1.01
+   },
+   {
+    "sq": 116.0,
+    "bar": 39,
+    "pitch": 78,
+    "lead_ms": 150,
+    "printed_ms": 1020,
+    "start_ms": -113,
+    "heard_ms": 1145,
+    "ratio": 1.12
+   },
+   {
+    "sq": 117.0,
+    "bar": 39,
+    "pitch": 77,
+    "lead_ms": 30,
+    "printed_ms": 348,
+    "start_ms": 16,
+    "heard_ms": 365,
+    "ratio": 1.05
+   },
+   {
+    "sq": 117.3333,
+    "bar": 39,
+    "pitch": 78,
+    "lead_ms": 30,
+    "printed_ms": 348,
+    "start_ms": 39,
+    "heard_ms": 315,
+    "ratio": 0.91
+   },
+   {
+    "sq": 117.6667,
+    "bar": 39,
+    "pitch": 77,
+    "lead_ms": 30,
+    "printed_ms": 283,
+    "start_ms": 10,
+    "heard_ms": 320,
+    "ratio": 1.13
+   },
+   {
+    "sq": 118.0,
+    "bar": 39,
+    "pitch": 75,
+    "lead_ms": 157,
+    "printed_ms": 971,
+    "start_ms": -12,
+    "heard_ms": 1020,
+    "ratio": 1.05
+   },
+   {
+    "sq": 119.0,
+    "bar": 39,
+    "pitch": 73,
+    "lead_ms": 30,
+    "printed_ms": 971,
+    "start_ms": 42,
+    "heard_ms": 970,
+    "ratio": 1.0
+   },
+   {
+    "sq": 120.0,
+    "bar": 40,
+    "pitch": 72,
+    "lead_ms": 30,
+    "printed_ms": 1000,
+    "start_ms": 46,
+    "heard_ms": 1010,
+    "ratio": 1.01
+   },
+   {
+    "sq": 121.0,
+    "bar": 40,
+    "pitch": 73,
+    "lead_ms": 30,
+    "printed_ms": 481,
+    "start_ms": 61,
+    "heard_ms": 425,
+    "ratio": 0.88
+   },
+   {
+    "sq": 121.5,
+    "bar": 40,
+    "pitch": 72,
+    "lead_ms": 30,
+    "printed_ms": 481,
+    "start_ms": 10,
+    "heard_ms": 495,
+    "ratio": 1.03
+   },
+   {
+    "sq": 122.0,
+    "bar": 40,
+    "pitch": 70,
+    "lead_ms": 30,
+    "printed_ms": 1968,
+    "start_ms": 29,
+    "heard_ms": 4365,
+    "ratio": 2.22
+   }
+  ]
+ },
+ "Violins I bars 54-61": {
+  "summary": {
+   "notes": 28,
+   "found": 27,
+   "min": -79,
+   "max": 106,
+   "median": 25.0,
+   "outside25": 21,
+   "outside60": 9,
+   "short": [
+    178.0,
+    182.0,
+    186.0,
+    192.0
+   ],
+   "not_found": [
+    205.949
+   ]
+  },
+  "notes": [
+   {
+    "sq": 176.0,
+    "bar": 54,
+    "pitch": 73,
+    "lead_ms": 170,
+    "printed_ms": 919,
+    "start_ms": -45,
+    "heard_ms": 960,
+    "ratio": 1.04
+   },
+   {
+    "sq": 177.0,
+    "bar": 54,
+    "pitch": 72,
+    "lead_ms": 170,
+    "printed_ms": 419,
+    "start_ms": -79,
+    "heard_ms": 655,
+    "ratio": 1.56
+   },
+   {
+    "sq": 177.5,
+    "bar": 54,
+    "pitch": 73,
+    "lead_ms": 170,
+    "printed_ms": 418,
+    "start_ms": 82,
+    "heard_ms": 500,
+    "ratio": 1.2
+   },
+   {
+    "sq": 178.0,
+    "bar": 54,
+    "pitch": 75,
+    "lead_ms": 170,
+    "printed_ms": 1907,
+    "start_ms": 89,
+    "heard_ms": 45,
+    "ratio": 0.02
+   },
+   {
+    "sq": 180.0,
+    "bar": 55,
+    "pitch": 78,
+    "lead_ms": 170,
+    "printed_ms": 910,
+    "start_ms": 57,
+    "heard_ms": 900,
+    "ratio": 0.99
+   },
+   {
+    "sq": 181.0,
+    "bar": 55,
+    "pitch": 77,
+    "lead_ms": 170,
+    "printed_ms": 271,
+    "start_ms": -29,
+    "heard_ms": 460,
+    "ratio": 1.7
+   },
+   {
+    "sq": 181.3333,
+    "bar": 55,
+    "pitch": 78,
+    "lead_ms": 148,
+    "printed_ms": 271,
+    "start_ms": 106,
+    "heard_ms": 310,
+    "ratio": 1.14
+   },
+   {
+    "sq": 181.6667,
+    "bar": 55,
+    "pitch": 77,
+    "lead_ms": 148,
+    "printed_ms": 271,
+    "start_ms": 91,
+    "heard_ms": 280,
+    "ratio": 1.03
+   },
+   {
+    "sq": 182.0,
+    "bar": 55,
+    "pitch": 75,
+    "lead_ms": 148,
+    "printed_ms": 906,
+    "start_ms": 47,
+    "heard_ms": 220,
+    "ratio": 0.24
+   },
+   {
+    "sq": 183.0,
+    "bar": 55,
+    "pitch": 73,
+    "lead_ms": 170,
+    "printed_ms": 904,
+    "start_ms": 31,
+    "heard_ms": 895,
+    "ratio": 0.99
+   },
+   {
+    "sq": 184.0,
+    "bar": 56,
+    "pitch": 72,
+    "lead_ms": 170,
+    "printed_ms": 902,
+    "start_ms": 6,
+    "heard_ms": 935,
+    "ratio": 1.04
+   },
+   {
+    "sq": 185.0,
+    "bar": 56,
+    "pitch": 73,
+    "lead_ms": 170,
+    "printed_ms": 410,
+    "start_ms": -37,
+    "heard_ms": 545,
+    "ratio": 1.33
+   },
+   {
+    "sq": 185.5,
+    "bar": 56,
+    "pitch": 72,
+    "lead_ms": 170,
+    "printed_ms": 409,
+    "start_ms": 23,
+    "heard_ms": 505,
+    "ratio": 1.23
+   },
+   {
+    "sq": 186.0,
+    "bar": 56,
+    "pitch": 70,
+    "lead_ms": 170,
+    "printed_ms": 2013,
+    "start_ms": 43,
+    "heard_ms": 975,
+    "ratio": 0.48
+   },
+   {
+    "sq": 188.0,
+    "bar": 57,
+    "pitch": 80,
+    "lead_ms": 170,
+    "printed_ms": 894,
+    "start_ms": -32,
+    "heard_ms": 985,
+    "ratio": 1.1
+   },
+   {
+    "sq": 189.0,
+    "bar": 57,
+    "pitch": 85,
+    "lead_ms": 170,
+    "printed_ms": 891,
+    "start_ms": -17,
+    "heard_ms": 960,
+    "ratio": 1.08
+   },
+   {
+    "sq": 190.0,
+    "bar": 57,
+    "pitch": 89,
+    "lead_ms": 170,
+    "printed_ms": 1374,
+    "start_ms": -25,
+    "heard_ms": 1405,
+    "ratio": 1.02
+   },
+   {
+    "sq": 191.5,
+    "bar": 57,
+    "pitch": 90,
+    "lead_ms": 170,
+    "printed_ms": 363,
+    "start_ms": 25,
+    "heard_ms": 535,
+    "ratio": 1.47
+   },
+   {
+    "sq": 192.0,
+    "bar": 58,
+    "pitch": 92,
+    "lead_ms": 210,
+    "printed_ms": 1364,
+    "start_ms": 81,
+    "heard_ms": 935,
+    "ratio": 0.69
+   },
+   {
+    "sq": 193.5,
+    "bar": 58,
+    "pitch": 90,
+    "lead_ms": 170,
+    "printed_ms": 1828,
+    "start_ms": 20,
+    "heard_ms": 1945,
+    "ratio": 1.06
+   },
+   {
+    "sq": 195.5,
+    "bar": 58,
+    "pitch": 89,
+    "lead_ms": 170,
+    "printed_ms": 445,
+    "start_ms": 90,
+    "heard_ms": 430,
+    "ratio": 0.97
+   },
+   {
+    "sq": 196.0,
+    "bar": 59,
+    "pitch": 87,
+    "lead_ms": 210,
+    "printed_ms": 1333,
+    "start_ms": -29,
+    "heard_ms": 1385,
+    "ratio": 1.04
+   },
+   {
+    "sq": 197.5,
+    "bar": 59,
+    "pitch": 89,
+    "lead_ms": 170,
+    "printed_ms": 387,
+    "start_ms": -35,
+    "heard_ms": 520,
+    "ratio": 1.34
+   },
+   {
+    "sq": 198.0,
+    "bar": 59,
+    "pitch": 85,
+    "lead_ms": 170,
+    "printed_ms": 852,
+    "start_ms": 51,
+    "heard_ms": 950,
+    "ratio": 1.11
+   },
+   {
+    "sq": 199.0,
+    "bar": 59,
+    "pitch": 82,
+    "lead_ms": 170,
+    "printed_ms": 767,
+    "start_ms": 71,
+    "heard_ms": 775,
+    "ratio": 1.01
+   },
+   {
+    "sq": 200.0,
+    "bar": 60,
+    "pitch": 84,
+    "lead_ms": 250,
+    "printed_ms": 3975,
+    "start_ms": -79,
+    "heard_ms": 4240,
+    "ratio": 1.07
+   },
+   {
+    "sq": 204.0,
+    "bar": 61,
+    "pitch": 85,
+    "lead_ms": 240,
+    "printed_ms": 2236,
+    "start_ms": 60,
+    "heard_ms": 4445,
+    "ratio": 1.99
+   },
+   {
+    "sq": 205.949,
+    "bar": 61,
+    "pitch": 85,
+    "lead_ms": 0,
+    "printed_ms": 2103
+   }
+  ]
+ },
+ "Violins I bars 74-75": {
+  "summary": {
+   "notes": 6,
+   "found": 6,
+   "min": -139,
+   "max": 81,
+   "median": -24.0,
+   "outside25": 4,
+   "outside60": 2,
+   "short": [],
+   "not_found": []
+  },
+  "notes": [
+   {
+    "sq": 247.0,
+    "bar": 74,
+    "pitch": 79,
+    "lead_ms": 250,
+    "printed_ms": 2595,
+    "start_ms": -15,
+    "heard_ms": 2635,
+    "ratio": 1.02
+   },
+   {
+    "sq": 249.0,
+    "bar": 74,
+    "pitch": 63,
+    "lead_ms": 180,
+    "printed_ms": 479,
+    "start_ms": -139,
+    "heard_ms": 670,
+    "ratio": 1.4
+   },
+   {
+    "sq": 249.5,
+    "bar": 74,
+    "pitch": 65,
+    "lead_ms": 170,
+    "printed_ms": 479,
+    "start_ms": -19,
+    "heard_ms": 400,
+    "ratio": 0.83
+   },
+   {
+    "sq": 250.0,
+    "bar": 75,
+    "pitch": 68,
+    "lead_ms": 170,
+    "printed_ms": 1677,
+    "start_ms": -29,
+    "heard_ms": 1720,
+    "ratio": 1.03
+   },
+   {
+    "sq": 251.5,
+    "bar": 75,
+    "pitch": 72,
+    "lead_ms": 170,
+    "printed_ms": 488,
+    "start_ms": -56,
+    "heard_ms": 695,
+    "ratio": 1.42
+   },
+   {
+    "sq": 252.0,
+    "bar": 75,
+    "pitch": 77,
+    "lead_ms": 170,
+    "printed_ms": 2126,
+    "start_ms": 81,
+    "heard_ms": 2240,
+    "ratio": 1.05
+   }
+  ]
+ },
+ "Violoncellos bars 22-27": {
+  "summary": {
+   "notes": 13,
+   "found": 11,
+   "min": -79,
+   "max": 89,
+   "median": 16.0,
+   "outside25": 8,
+   "outside60": 3,
+   "short": [],
+   "not_found": [
+    63.0,
+    66.0
+   ]
+  },
+  "notes": [
+   {
+    "sq": 63.0,
+    "bar": 22,
+    "pitch": 51,
+    "lead_ms": 220,
+    "printed_ms": 4128
+   },
+   {
+    "sq": 66.0,
+    "bar": 23,
+    "pitch": 51,
+    "lead_ms": 60,
+    "printed_ms": 2115
+   },
+   {
+    "sq": 68.0,
+    "bar": 23,
+    "pitch": 56,
+    "lead_ms": 220,
+    "printed_ms": 480,
+    "start_ms": 89,
+    "heard_ms": 520,
+    "ratio": 1.08
+   },
+   {
+    "sq": 68.5,
+    "bar": 23,
+    "pitch": 55,
+    "lead_ms": 220,
+    "printed_ms": 481,
+    "start_ms": 12,
+    "heard_ms": 625,
+    "ratio": 1.3
+   },
+   {
+    "sq": 69.0,
+    "bar": 24,
+    "pitch": 53,
+    "lead_ms": 220,
+    "printed_ms": 2115,
+    "start_ms": 39,
+    "heard_ms": 2240,
+    "ratio": 1.06
+   },
+   {
+    "sq": 71.0,
+    "bar": 24,
+    "pitch": 55,
+    "lead_ms": 220,
+    "printed_ms": 1030,
+    "start_ms": 44,
+    "heard_ms": 1165,
+    "ratio": 1.13
+   },
+   {
+    "sq": 72.0,
+    "bar": 25,
+    "pitch": 56,
+    "lead_ms": 220,
+    "printed_ms": 2082,
+    "start_ms": 60,
+    "heard_ms": 2240,
+    "ratio": 1.08
+   },
+   {
+    "sq": 74.0,
+    "bar": 25,
+    "pitch": 60,
+    "lead_ms": 370,
+    "printed_ms": 1080,
+    "start_ms": -51,
+    "heard_ms": 1120,
+    "ratio": 1.04
+   },
+   {
+    "sq": 75.0,
+    "bar": 26,
+    "pitch": 58,
+    "lead_ms": 170,
+    "printed_ms": 1120,
+    "start_ms": -79,
+    "heard_ms": 1245,
+    "ratio": 1.11
+   },
+   {
+    "sq": 76.0,
+    "bar": 26,
+    "pitch": 56,
+    "lead_ms": 220,
+    "printed_ms": 1433,
+    "start_ms": -70,
+    "heard_ms": 1605,
+    "ratio": 1.12
+   },
+   {
+    "sq": 77.0,
+    "bar": 26,
+    "pitch": 55,
+    "lead_ms": 220,
+    "printed_ms": 1007,
+    "start_ms": 16,
+    "heard_ms": 1125,
+    "ratio": 1.12
+   },
+   {
+    "sq": 78.0,
+    "bar": 27,
+    "pitch": 51,
+    "lead_ms": 220,
+    "printed_ms": 2127,
+    "start_ms": 14,
+    "heard_ms": 2270,
+    "ratio": 1.07
+   },
+   {
+    "sq": 80.0,
+    "bar": 27,
+    "pitch": 53,
+    "lead_ms": 220,
+    "printed_ms": 972,
+    "start_ms": 36,
+    "heard_ms": 1005,
+    "ratio": 1.03
+   }
+  ]
+ }
+}

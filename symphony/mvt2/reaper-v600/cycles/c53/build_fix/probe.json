@@ -1,0 +1,5 @@
+{"_doc": "probe_attacks.py checks for movement II (score qn). Series 1 (v77) values, as hard-coded in probe_attacks.py through c26; v600 port (c27): the Violoncellos pizz. refs 108/112/114/116 replaced by the Double basses' (v600's celli rest in bars 37-40; the basses play the same pizz. notes there). Trombone 1 212.5 is no longer accented in v600 (unaccented marcato pickup).",
+ "ref": [["Double basses", 110, 0.06], ["Double basses", 112, 0.06], ["Double basses", 114, 0.06], ["Double basses", 116, 0.06], ["Violas", 124, 0.06], ["Double basses", 108, 0.06], ["Trombone 1", 212.5, 0.06], ["Timpani", 277, 0.06], ["Violins I", 171, 0.15], ["Violins II", 42, 0.2]],
+ "holes": [["Violas", 204], ["Violins I", 212], ["Violins II", 212], ["Violoncellos", 212]],
+ "sustain": [["Horn 1", 34, 6.0]],
+ "opening": ["Horn 3", "Violins I", "Violins II", "Violas", "Violoncellos"]}

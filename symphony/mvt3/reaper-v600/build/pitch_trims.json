@@ -1,0 +1,61 @@
+{
+ "_doc": "Per-pitch level trims {track: {midi pitch: dB}} on legato notes (or every articulation: _all_arts / _all_arts_pitches). c02 (critic C #4): Trombone 2 D4 (62, only at qn 584-592) measured 5.2 dB over Trombone 1 on the same CC/velocity/envelope and drove the retransition chord 147-150 to the third-loudest moment.",
+ "Trombone 2": {
+  "62": -4.5,
+  "_all_arts_pitches": [
+   62
+  ]
+ },
+ "Double basses": {
+  "40": 4.0,
+  "39": 6.0,
+  "29": 3.0,
+  "_all_arts_pitches": [
+   29,
+   31,
+   39,
+   40
+  ],
+  "31": -4.5
+ },
+ "Flute 1": {
+  "91": -5.0,
+  "_all_arts_pitches": [
+   91
+  ]
+ },
+ "Flute 2": {
+  "87": -5.0,
+  "89": -2.0,
+  "91": -3.0,
+  "93": -4.0,
+  "_all_arts_pitches": [
+   87,
+   89,
+   91,
+   93
+  ]
+ },
+ "Oboe 1": {
+  "77": -5.0,
+  "76": -3.5,
+  "80": -3.5,
+  "79": -4.0,
+  "_all_arts_pitches": [
+   76,
+   77,
+   79,
+   80
+  ]
+ },
+ "_c12": "mvt3 c12: Double basses E2 +6, F2 / E flat 2 / F1 +3 (critic B #1: 4-10 dB under C2 / G1 / A flat 1 at the same CC11 on the c11 stem; bars 255-256 at -43 / -50 dB Z); Flute 1 G6 -5, Flute 2 E flat 6 -5, Oboe 1 F5 -5, E5 -3.5, A flat 5 -3.5, G5 -4.0 (critic B #2 / #3: loudest stems of the tutti on those pitches; B's -2.5 on G5 left the held G5 at qn 900-905 3.4 dB over Violins I and Oboe 1 the loudest stem of bar 246, -4.0 gives +1.9 and Horn 1 loudest)",
+ "Violoncellos": {
+  "43": -4.0,
+  "44": -3.0,
+  "_all_arts_pitches": [
+   43,
+   44
+  ]
+ },
+ "_c14": "mvt3 c14: Violoncellos G2 -4, A flat 2 -3 (critic C #5: held notes 8.6 / 6.8 dB over the CC11 regression of 150 held cello notes; the cello was the loudest dry stem on 13 of 14 held G2; F sharp 2 skipped, two notes); Flute 2 F6 -2, G6 -3, A6 -4 (critic B #3: Flute 2 2-4 dB over Flute 1 in the a2 unisons)"
+}

@@ -1,0 +1,40 @@
+  56.50 p67 len 0.50     front  -33.9 body  -36.5 tail  -36.5  f-t   2.6  share 120 %  step  +2.2
+  57.00 p75 len 1.50 acc front  -34.3 body  -35.8 tail  -38.1  f-t   3.8  share  94 %  step  -2.6  B  +1.2
+  58.50 p74 len 0.50     front  -40.7 body  -35.8 tail  -35.2  f-t  -5.5  share  76 %  step  -0.2
+  59.00 p73 len 0.50     front  -35.5 body  -38.6 tail  -38.6  f-t   3.2  share  97 %  step  +2.7
+  59.50 p72 len 0.50     front  -35.9 body  -36.8 tail  -36.8  f-t   0.9  share 100 %  step  +0.5
+  60.00 p72 len 1.00     front  -36.3 body  -38.9 tail  -38.9  f-t   2.6  share 100 %  step  -0.3
+  61.00 p71 len 0.50     front  -39.2 body  -34.4 tail  -33.9  f-t  -5.3  share  76 %  step  -0.0
+  61.50 p72 len 0.50     front  -34.0 body  -37.9 tail  -38.0  f-t   4.1  share 114 %  step  +3.2
+  62.00 p68 len 1.50 acc front  -34.8 body  -36.4 tail  -38.2  f-t   3.4  share  94 %  step  -1.6  B  +1.6
+  63.50 p67 len 0.50     front  -39.9 body  -37.0 tail  -36.9  f-t  -2.9  share  97 %  step   n/a
+  64.50 p67 len 0.50     front  -33.8 body  -39.2 tail  -39.3  f-t   5.5  share 113 %  step  +3.7
+  65.00 p77 len 1.50 acc front  -35.6 body  -38.5 tail  -39.6  f-t   4.0  share  90 %  step  -4.5  B  +4.0
+  66.50 p75 len 0.50     front  -44.1 body  -32.8 tail  -31.2  f-t -12.9  share  45 %  step  +0.7
+  67.00 p74 len 0.50     front  -30.5 body  -39.9 tail  -40.0  f-t   9.5  share 105 %  step  +3.6
+  67.50 p72 len 0.50     front  -36.4 body  -38.9 tail  -39.0  f-t   2.6  share 108 %  step  +0.8
+  68.00 p71 len 1.00     front  -38.3 body  -38.4 tail  -40.2  f-t   1.9  share  88 %  step  +2.2
+  69.00 p74 len 0.50     front  -38.0 body  -31.4 tail  -31.3  f-t  -6.7  share  60 %  step  -3.4
+  69.50 p72 len 0.50     front  -34.7 body  -40.7 tail  -40.6  f-t   5.9  share 123 %  step  +2.1
+  70.00 p67 len 2.00     front  -38.4 body  -39.3 tail  -40.0  f-t   1.6  share  98 %  step   n/a  B  +1.4
+  72.50 p68 len 0.50     front  -38.8 body  -33.5 tail  -33.3  f-t  -5.6  share  91 %  step  +0.1
+  73.00 p80 len 1.50 acc front  -33.1 body  -35.3 tail  -36.7  f-t   3.5  share  93 %  step  +0.4  B  +0.9
+  74.50 p79 len 0.50     front  -36.3 body  -36.8 tail  -36.8  f-t   0.5  share 101 %  step  +1.2
+  75.00 p77 len 0.50     front  -35.6 body  -37.4 tail  -37.6  f-t   2.0  share  98 %  step  +1.4
+  75.50 p75 len 0.50     front  -36.3 body  -35.6 tail  -34.9  f-t  -1.3  share  76 %  step  +2.8
+  76.00 p73 len 0.50     front  -32.1 body  -38.5 tail  -38.6  f-t   6.5  share 103 %  step  +4.2
+  76.50 p75 len 0.50     front  -34.4 body  -34.8 tail  -34.0  f-t  -0.4  share  87 %  step  -1.1
+  77.00 p77 len 0.50     front  -35.1 body  -35.5 tail  -35.6  f-t   0.5  share 103 %  step  +0.4
+  77.50 p80 len 0.50     front  -35.2 body  -32.5 tail  -32.1  f-t  -3.1  share  75 %  step  +1.8
+  78.00 p85 len 2.50 acc front  -30.4 body  -31.3 tail  -33.9  f-t   3.6  share  91 %  step  -0.2  B  +1.0
+  80.50 p84 len 0.50     front  -34.2 body  -36.0 tail  -36.1  f-t   1.9  share  92 %  step  +4.9
+  81.00 p82 len 0.50     front  -31.1 body  -36.5 tail  -37.2  f-t   6.0  share  96 %  step  +2.0
+  81.50 p80 len 0.50     front  -35.2 body  -33.4 tail  -33.2  f-t  -2.0  share 111 %  step  -1.8
+  82.00 p79 len 1.50 acc front  -35.0 body  -39.3 tail  -38.0  f-t   3.0  share  78 %  step  +1.1  B  +5.3
+  83.50 p77 len 0.50     front  -37.0 body  -35.7 tail  -35.6  f-t  -1.4  share  95 %  step  -1.6
+  84.00 p75 len 0.50     front  -37.2 body  -40.2 tail  -40.2  f-t   3.0  share  90 %  step  +3.0
+  84.50 p74 len 0.50     front  -37.2 body  -37.4 tail  -37.5  f-t   0.3  share 102 %  step  +2.2
+  85.00 p72 len 0.50     front  -35.3 body  -40.2 tail  -40.3  f-t   4.9  share 113 %  step  +2.2
+  85.50 p71 len 0.50     front  -38.1 body  -44.2 tail  -44.2  f-t   6.1  share  66 %  step  +4.6
+  86.00 p72 len 1.00     front  -39.6 body  -43.0 tail  -43.8  f-t   4.2  share  21 %  step   n/a
+Violins I     56-88 long n 10: front-tail median  3.5 (max  4.2) | under 60 %:  1 | next step median -0.3, over 6 dB:  0 of  8 | front-body acc  1.9 (n 6) unacc  1.7 (n 4) | B front-body median  1.4 (n 7) | eighths n 29 under 60 %: 2 | neighbour body steps over 6 dB: 3 of 36 | join holes: slurred median 4.4 (over 6 dB 5 of 22), bow change 10.2 (8 of 13)

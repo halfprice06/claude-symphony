@@ -1,0 +1,74 @@
+track | notes of 0.35 s or more, envelope swing 3 dB or more, no hairpin: n | level range inside the note with env / without (median dB) | env lowers the range by 1 dB or more / raises it by 1 dB or more || same, marked or unmarked split
+Flute 1              35    6.1 /   4.2   lowers   5 raises  20 || unmarked n 9: raises 2, lowers 1
+Flute 2              26    7.0 /   6.8   lowers   7 raises  12 || unmarked n 9: raises 3, lowers 1
+Oboe 1               38    6.3 /   6.2   lowers  11 raises  12 || unmarked n 14: raises 3, lowers 4
+Oboe 2               23    5.2 /   5.8   lowers  12 raises   8 || unmarked n 8: raises 1, lowers 7
+Cor anglais           8    6.5 /   5.5   lowers   4 raises   2 || unmarked n 5: raises 1, lowers 3
+Clarinet 1           53    4.3 /   4.3   lowers   7 raises  22 || unmarked n 23: raises 5, lowers 2
+Clarinet 2           13    3.2 /   2.0   lowers   0 raises   8 || unmarked n 7: raises 4, lowers 0
+Bass clarinet        18    3.7 /   1.8   lowers   3 raises   8 || unmarked n 13: raises 6, lowers 1
+Bassoon 1            35    6.2 /   5.8   lowers   9 raises  10 || unmarked n 21: raises 6, lowers 5
+Bassoon 2            14    3.9 /   3.5   lowers   2 raises   5 || unmarked n 10: raises 4, lowers 0
+Contrabassoon        14    2.5 /   0.9   lowers   0 raises   9 || unmarked n 6: raises 3, lowers 0
+Horn 1               27    6.4 /   5.6   lowers   7 raises  10 || unmarked n 26: raises 9, lowers 7
+Horn 2               22    7.1 /   4.7   lowers   1 raises  15 || unmarked n 16: raises 11, lowers 1
+Horn 3               29    4.7 /   4.8   lowers   6 raises   7 || unmarked n 24: raises 4, lowers 5
+Horn 4               24    4.8 /   4.7   lowers   2 raises   8 || unmarked n 24: raises 8, lowers 2
+Trumpet 1            13    4.1 /   5.2   lowers   5 raises   3 || unmarked n 4: raises 1, lowers 1
+Trumpet 2            14    5.3 /   3.9   lowers   1 raises   6 || unmarked n 9: raises 3, lowers 1
+Trumpet 3             8    4.8 /   3.9   lowers   1 raises   4 || unmarked n 4: raises 1, lowers 1
+Trombone 1           25    4.0 /   4.2   lowers   7 raises   6 || unmarked n 13: raises 5, lowers 2
+Trombone 2           14    4.3 /   3.1   lowers   0 raises   6 || unmarked n 9: raises 4, lowers 0
+Bass trombone         8    3.6 /   2.3   lowers   0 raises   4 || unmarked n 7: raises 3, lowers 0
+Tuba                  9    3.1 /   1.7   lowers   0 raises   5 || unmarked n 6: raises 3, lowers 0
+Violins I            61    5.8 /   6.8   lowers  26 raises  12 || unmarked n 22: raises 6, lowers 3
+Violins II           86    6.2 /   7.9   lowers  49 raises  18 || unmarked n 53: raises 12, lowers 31
+Violas               81    6.2 /   7.4   lowers  34 raises   9 || unmarked n 52: raises 4, lowers 25
+Violoncellos         94    6.9 /   8.1   lowers  47 raises  19 || unmarked n 75: raises 13, lowers 43
+Double basses        63    7.1 /   7.2   lowers  14 raises  11 || unmarked n 54: raises 8, lowers 13
+Horns a2             20    5.9 /   4.6   lowers   2 raises  10 || unmarked n 6: raises 4, lowers 0
+Trumpets a2           5    4.5 /   4.2   lowers   1 raises   2 || unmarked n 0: raises 0, lowers 0
+Bassoon 1 stac        2    9.5 /   7.7   lowers   0 raises   1 || unmarked n 0: raises 0, lowers 0
+Cor anglais stac      3    6.9 /   3.1   lowers   0 raises   2 || unmarked n 1: raises 0, lowers 0
+Flute 1 stac          1    6.9 /   9.8   lowers   1 raises   0 || unmarked n 0: raises 0, lowers 0
+Cello solo            5    7.1 /   8.2   lowers   2 raises   1 || unmarked n 4: raises 0, lowers 2
+Violins I f62         1    4.7 /   4.5   lowers   0 raises   0 || unmarked n 1: raises 0, lowers 0
+== wind: n 283, range with 5.4 / without 4.9; env lowers 61 raises 119; unmarked n 126 raises 38 lowers 24; marked n 157 raises 81 lowers 37
+   unmarked notes where the envelope adds most range: [('Flute 2', 168.0, np.float64(6.7), np.float64(1.1)), ('Contrabassoon', 560.0, np.float64(6.2), np.float64(0.7)), ('Oboe 1', 168.0, np.float64(12.1), np.float64(6.7)), ('Bassoon 1', 692.0, np.float64(11.2), np.float64(6.0)), ('Bassoon 2', 692.0, np.float64(8.4), np.float64(3.5)), ('Cor anglais', 684.0, np.float64(9.7), np.float64(5.2)), ('Bassoon 2', 560.0, np.float64(5.8), np.float64(1.7)), ('Oboe 1', 578.0, np.float64(7.7), np.float64(3.8))]
+== brass: n 218, range with 4.9 / without 4.3; env lowers 33 raises 86; unmarked n 148 raises 56 lowers 20; marked n 70 raises 30 lowers 13
+   unmarked notes where the envelope adds most range: [('Horn 4', 725.9, np.float64(14.2), np.float64(4.9)), ('Trombone 1', 552.0, np.float64(12.5), np.float64(5.1)), ('Horn 3', 726.6, np.float64(14.4), np.float64(9.1)), ('Horn 2', 552.0, np.float64(9.2), np.float64(3.9)), ('Horn 2', 228.0, np.float64(14.7), np.float64(9.7)), ('Horn 1', 528.0, np.float64(9.7), np.float64(4.7)), ('Horn 1', 652.0, np.float64(15.6), np.float64(10.9)), ('Horn 2', 484.0, np.float64(7.2), np.float64(2.5))]
+== string: n 391, range with 6.5 / without 7.6; env lowers 172 raises 70; unmarked n 261 raises 43 lowers 117; marked n 130 raises 27 lowers 55
+   unmarked notes where the envelope adds most range: [('Violins II', 726.396, np.float64(15.4), np.float64(7.6)), ('Violins I', 726.511, np.float64(19.6), np.float64(12.3)), ('Double basses', 726.078, np.float64(13.6), np.float64(6.4)), ('Violoncellos', 727.116, np.float64(16.1), np.float64(9.9)), ('Violas', 168.0, np.float64(13.7), np.float64(7.6)), ('Violoncellos', 168.0, np.float64(13.0), np.float64(6.9)), ('Violoncellos', 136.0, np.float64(20.1), np.float64(14.4)), ('Violoncellos', 340.0, np.float64(14.6), np.float64(9.5))]
+
+note-to-note level step between abutting notes outside hairpins (first 0.35 s), median |step| with env / without, by track; then for notes of 0.5 qn or less
+Flute 1            n   75:  2.9 /  3.5  (p90  8.1 /  8.0)   short n 20:  2.8 /  3.4
+Flute 2            n   50:  3.4 /  3.5  (p90  8.0 /  8.5)
+Oboe 1             n   71:  3.6 /  3.4  (p90  7.8 /  7.8)   short n 14:  2.8 /  2.8
+Oboe 2             n   47:  2.8 /  2.8  (p90  7.1 /  7.0)
+Cor anglais        n   32:  2.5 /  1.5  (p90  4.8 /  4.5)
+Clarinet 1         n  138:  2.7 /  2.4  (p90  5.8 /  6.1)   short n 37:  2.7 /  2.0
+Clarinet 2         n   54:  1.6 /  1.7  (p90  4.4 /  4.4)   short n 44:  1.6 /  1.7
+Bass clarinet      n   41:  2.3 /  2.4  (p90  5.3 /  7.2)
+Bassoon 1          n  101:  3.4 /  3.4  (p90  6.6 /  7.6)   short n 19:  2.7 /  3.8
+Bassoon 2          n   39:  2.0 /  2.0  (p90  6.2 /  6.5)
+Contrabassoon      n   26:  1.1 /  1.0  (p90  3.4 /  2.1)
+Horn 2             n   17:  2.2 /  2.2  (p90  4.6 /  5.1)
+Trumpet 1          n   22:  2.8 /  3.1  (p90  4.7 /  4.6)
+Trombone 1         n   35:  1.5 /  2.0  (p90  5.2 /  5.2)   short n 10:  1.6 /  2.6
+Violins I          n  120:  2.6 /  1.7  (p90  5.8 /  5.9)   short n 34:  2.6 /  2.1
+Violins II         n  133:  2.2 /  2.1  (p90  5.8 /  5.7)   short n 23:  2.2 /  2.3
+Violas             n  271:  2.3 /  2.3  (p90  5.8 /  6.3)   short n 136:  2.0 /  2.2
+Violoncellos       n  161:  2.4 /  2.2  (p90  5.8 /  7.3)   short n 35:  2.2 /  1.8
+Double basses      n   74:  1.8 /  3.2  (p90  5.6 /  5.6)   short n 11:  2.1 /  3.3
+Horns a2           n   45:  2.2 /  1.6  (p90  5.3 /  5.3)   short n 13:  1.5 /  1.2
+== wind n 674: median 2.67 / 2.59; p90 6.8 / 7.2; steps over 6 dB 90 / 111
+== brass n 119: median 2.06 / 1.99; p90 5.3 / 5.2; steps over 6 dB 9 / 7
+== string n 759: median 2.27 / 2.17; p90 5.8 / 6.2; steps over 6 dB 69 / 81
+
+tutti stops and ends on the master (10 ms frames): drop at +0.3 s and time to -20 dB re the 0.35-0.1 s before the stop
+  bar 32 end (qn 125.9)      stop at 100.84 s: drop at +0.3 s 23.9 dB, -20 dB at 0.22 s
+  qn 288                     stop at 183.60 s: drop at +0.3 s 15.8 dB, -20 dB at None s
+  qn 331.5                   stop at 204.05 s: drop at +0.3 s 22.3 dB, -20 dB at 0.22 s
+  qn 551                     stop at 310.92 s: drop at +0.3 s 22.7 dB, -20 dB at 0.19 s
+  qn 679                     stop at 379.25 s: drop at +0.3 s 27.2 dB, -20 dB at 0.13 s
+  bar 14 horn end (qn 55)    stop at 66.58 s: drop at +0.3 s 22.8 dB, -20 dB at 0.24 s

@@ -1,0 +1,28 @@
+track               n  med49 medNew  shift >=25 | new: ok A B C D na | base: ok A B C D
+Flute 1            53     +7     +6   +0.0    5 |  46  3  1  3  0  0 |  43  5  2  3  0
+      moved  110.000:   +66 ->   +15 ms
+      moved  117.333:   +48 ->   +15 ms
+      moved  120.000:   +82 ->   +13 ms
+      moved  121.500:   +75 ->   +33 ms
+      moved  132.000:    -6 ->   -41 ms
+Cor anglais        28    +37     -7   +0.0    4 |  17  0 11  0  0  0 |  16  0 12  0  0
+      moved  130.000:   +39 ->   -19 ms
+      moved  156.000:   +48 ->   -19 ms
+      moved  166.000:   +35 ->   -23 ms
+      moved  168.000:   +82 ->   -22 ms
+Clarinet 1         20     +9     +7   +0.0    1 |  18  0  2  0  0  0 |  17  0  3  0  0
+      moved  259.000:  +128 ->    +2 ms
+Clarinet 2          7    +45    +39   +0.0    1 |   7  0  0  0  0  0 |   7  0  0  0  0
+      moved  244.000:   +37 ->   -36 ms
+Bassoon 1          30    +20    +16   +0.0    4 |  26  2  2  0  0  0 |  25  2  3  0  0
+      moved  100.000:   +59 ->   -33 ms
+      moved  200.000:  +172 ->   +17 ms
+      moved  232.000:   +40 ->   +13 ms
+      moved  253.000:  +250 ->   +85 ms
+Bassoon 2          14    +28    +18   +0.0    2 |  10  1  3  0  0  0 |   9  1  4  0  0
+      moved   31.000:  +208 ->  +111 ms
+      moved  243.000:  +111 ->    +7 ms
+Horn 1             41    -16    -16   +0.0    0 |  33  0  4  2  2  0 |  34  0  4  1  2
+ALL new: n 193 within +-60 ms 157 | A 6 B 23 C 5 D 2 na 0
+ALL base (same joins): n 193 within +-60 ms 151 | A 8 B 28 C 4 D 2
+tracks whose median moved more than 20 ms: none

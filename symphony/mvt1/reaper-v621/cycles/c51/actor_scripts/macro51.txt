@@ -1,0 +1,2 @@
+notes 18: AM p95-p5 main median 4.7 dB, test 4.4 dB (test-main max +0.7); 4-7.5 Hz share main 0.34, test 0.34 (ratio 1.00); level test-main median -0.1 dB, spread after offset -2.3..+1.6; centroid test-main median -1 Hz
+dolce tune 183-216 (7 notes): share main 0.39, test 0.34 (ratio 0.87); AM main 4.1, test 4.4

@@ -1,0 +1,15 @@
+  other winds' soft lyric phrases: median lane peak over the printed level +17.0 units (n 7)
+  capped Clarinet 2      576.0: lane peak +0.0, with the volume share +11.2 units (-5.8 from the others' median)
+  capped Bass clarinet   696.0: lane peak +0.0, with the volume share +11.2 units (-5.8 from the others' median)
+  capped Bassoon 1       584.0: lane peak +0.0, with the volume share +11.2 units (-5.8 from the others' median)
+  capped Bassoon 1       692.0: lane peak +0.0, with the volume share +11.2 units (-5.8 from the others' median)
+  capped Bassoon 2        48.0: lane peak +9.0, with the volume share +9.0 units (-8.0 from the others' median)
+  capped Bassoon 2       600.0: lane peak +11.0, with the volume share +22.2 units (+5.2 from the others' median)
+  capped Bassoon 2       680.0: lane peak +10.0, with the volume share +21.2 units (+4.2 from the others' median)
+  stem Clarinet 2      576.0: arch peak minus +0.15 s +14.2 dB, minus 1 s before the end +4.4 dB
+  stem Bass clarinet   696.0: arch peak minus +0.15 s +9.7 dB, minus 1 s before the end +19.9 dB
+  stem Bassoon 1       584.0: arch peak minus +0.15 s +13.7 dB, minus 1 s before the end +4.7 dB
+  stem Bassoon 1       692.0: arch peak minus +0.15 s +8.9 dB, minus 1 s before the end +4.0 dB
+  stem Bassoon 2        48.0: arch peak minus +0.15 s +0.1 dB, minus 1 s before the end +2.8 dB
+  stem Bassoon 2       600.0: arch peak minus +0.15 s +8.2 dB, minus 1 s before the end +10.0 dB
+  stem Bassoon 2       680.0: arch peak minus +0.15 s +10.3 dB, minus 1 s before the end +6.4 dB

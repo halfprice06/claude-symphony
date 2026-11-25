@@ -1,0 +1,8 @@
+Violins I: 100 joins, 100 read, median +3 ms, outside 25: 10, outside 60: 3
+Violins II: 104 joins, 104 read, median -1 ms, outside 25: 41, outside 60: 11
+Violas: 67 joins, 67 read, median -9 ms, outside 25: 32, outside 60: 3
+Violoncellos: 202 joins, 200 read, median +3 ms, outside 25: 28, outside 60: 7
+Violin I solo: 18 joins, 18 read, median -0 ms, outside 25: 3, outside 60: 0
+Horn 3: 69 joins, 69 read, median +8 ms, outside 25: 20, outside 60: 8
+Flute 1: 167 joins, 167 read, median +5 ms, outside 25: 31, outside 60: 6
+Flute 2: 49 joins, 49 read, median +18 ms, outside 25: 29, outside 60: 6

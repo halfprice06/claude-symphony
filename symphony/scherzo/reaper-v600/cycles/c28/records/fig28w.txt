@@ -1,0 +1,124 @@
+== c27 Flute 1
+Flute 1 stac 312.0 A 8.5 B 9.2 slur_peak 11.1
+Flute 1 stac 318.0 A 10.9 B 10.1 slur_peak 5.2
+Flute 1 stac 330.0 A 11.0 B 9.4 slur_peak 7.2
+Flute 1 stac 344.0 A 14.7 B 14.2 slur_peak 9.5
+Flute 1 stac 348.0 A -0.6 B 6.8 slur_peak 6.7
+Flute 1 stac 354.0 A 11.2 B 10.1 slur_peak 5.0
+Flute 1 stac 792.0 A 6.3 B 4.1 slur_peak -1.6
+Flute 1 stac 801.0 A 9.3 B 1.3 slur_peak -1.5
+Flute 1 stac 822.0 A 10.1 B 10.9 slur_peak 5.9
+Flute 1 stac 894.0 A 9.3 B 10.0 slur_peak 6.1
+Flute 1 stac 912.0 A 9.5 B 10.3 slur_peak 14.8
+Flute 1 stac 924.0 A -3.8 B 3.6 slur_peak 11.6
+Flute 1 stac 933.0 A -3.9 B 4.1 slur_peak 12.2
+Flute 1 stac 948.0 A -0.8 B 6.0 slur_peak 8.4
+Flute 1 stac 957.0 A 17.9 B 11.9 slur_peak 9.1
+Flute 1: pairs 15, A median +9.3, under +3 4, under -6..: worst -3.9
+== c27 Flute 2
+Flute 2 stac 312.0 A -3.2 B -1.7 slur_peak 17.5
+Flute 2 stac 318.0 A 13.4 B 12.4 slur_peak -0.5
+Flute 2 stac 330.0 A 14.3 B 12.7 slur_peak -3.8
+Flute 2 stac 344.0 A 22.0 B 12.3 slur_peak 3.4
+Flute 2 stac 348.0 A 4.1 B 15.5 slur_peak -7.4
+Flute 2 stac 354.0 A 13.4 B 12.6 slur_peak -0.6
+Flute 2 stac 822.0 A 13.0 B 6.0 slur_peak 8.2
+Flute 2 stac 912.0 A -1.9 B -0.3 slur_peak 17.8
+Flute 2 stac 924.0 A 0.8 B 7.3 slur_peak 1.8
+Flute 2 stac 933.0 A 0.3 B 4.7 slur_peak 3.5
+Flute 2 stac 948.0 A 11.7 B 6.7 slur_peak -3.9
+Flute 2 stac 957.0 A 14.0 B 9.9 slur_peak -0.7
+Flute 2: pairs 12, A median +12.3, under +3 4, under -6..: worst -3.2
+== c27 Oboe 1
+Oboe 1 stac 312.0 A 10.6 B 5.0 slur_peak 24.5
+Oboe 1 stac 318.0 A 21.2 B 10.5 slur_peak 18.6
+Oboe 1 stac 330.0 A 14.5 B 5.5 slur_peak 21.6
+Oboe 1 stac 344.0 A 13.9 B 9.6 slur_peak 24.7
+Oboe 1 stac 348.0 A 31.0 B 23.3 slur_peak 12.4
+Oboe 1 stac 354.0 A 21.3 B 10.7 slur_peak 18.4
+Oboe 1 stac 822.0 A 14.3 B 15.2 slur_peak 12.3
+Oboe 1 stac 894.0 A 16.4 B 15.1 slur_peak 11.3
+Oboe 1 stac 912.0 A 11.0 B 5.3 slur_peak 24.7
+Oboe 1 stac 918.0 A 22.6 B 11.6 slur_peak 19.1
+Oboe 1 stac 930.0 A 16.7 B 6.5 slur_peak 22.2
+Oboe 1 stac 944.0 A 15.8 B 10.6 slur_peak 25.3
+Oboe 1 stac 948.0 A 30.5 B 25.8 slur_peak 12.8
+Oboe 1 stac 954.0 A 19.1 B 10.6 slur_peak 16.4
+Oboe 1: pairs 14, A median +16.5, under +3 0, under -6..: worst +10.6
+== c27 Clarinet 2
+Clarinet 2 stac 312.0 A 6.3 B 17.1 slur_peak 12.2
+Clarinet 2 stac 318.0 A 11.9 B 10.9 slur_peak 11.0
+Clarinet 2 stac 330.0 A 23.5 B 21.6 slur_peak 9.7
+Clarinet 2 stac 344.0 A 22.2 B 16.7 slur_peak 12.5
+Clarinet 2 stac 348.0 A 23.4 B 24.2 slur_peak 14.7
+Clarinet 2 stac 354.0 A 12.0 B 11.0 slur_peak 11.0
+Clarinet 2 stac 861.0 A 20.5 B 19.6 slur_peak 6.9
+Clarinet 2 stac 912.0 A 22.0 B 18.8 slur_peak 12.2
+Clarinet 2 stac 918.0 A 12.8 B 12.0 slur_peak 11.1
+Clarinet 2 stac 930.0 A 25.3 B 22.7 slur_peak 9.6
+Clarinet 2 stac 944.0 A 32.5 B 20.9 slur_peak 12.4
+Clarinet 2 stac 948.0 A 30.2 B 25.6 slur_peak 14.7
+Clarinet 2 stac 954.0 A 12.9 B 12.3 slur_peak 10.9
+Clarinet 2: pairs 13, A median +22.0, under +3 0, under -6..: worst +6.3
+== c28 Flute 1
+Flute 1 stac 312.0 A 8.5 B 9.2 slur_peak 14.3
+Flute 1 stac 318.0 A 26.4 B 18.9 slur_peak 5.2
+Flute 1 stac 330.0 A 11.0 B 9.4 slur_peak 7.2
+Flute 1 stac 344.0 A 14.7 B 14.2 slur_peak 9.5
+Flute 1 stac 348.0 A -0.6 B 6.8 slur_peak 6.7
+Flute 1 stac 354.0 A 11.2 B 10.1 slur_peak 5.0
+Flute 1 stac 792.0 A 4.3 B 5.2 slur_peak -1.6
+Flute 1 stac 801.0 A 11.9 B 3.2 slur_peak -1.5
+Flute 1 stac 822.0 A 10.1 B 10.9 slur_peak 5.9
+Flute 1 stac 894.0 A 9.3 B 10.0 slur_peak 6.1
+Flute 1 stac 912.0 A 3.0 B 1.6 slur_peak 14.8
+Flute 1 stac 924.0 A 0.5 B 0.4 slur_peak 15.4
+Flute 1 stac 933.0 A -3.9 B 4.1 slur_peak 12.2
+Flute 1 stac 948.0 A -0.8 B 6.0 slur_peak 8.4
+Flute 1 stac 957.0 A 25.0 B 17.7 slur_peak 9.1
+Flute 1: pairs 15, A median +9.3, under +3 4, under -6..: worst -3.9
+== c28 Flute 2
+Flute 2 stac 312.0 A -3.2 B -1.7 slur_peak 13.5
+Flute 2 stac 318.0 A 18.2 B 15.8 slur_peak -0.5
+Flute 2 stac 330.0 A 14.2 B 12.7 slur_peak -3.7
+Flute 2 stac 344.0 A 26.2 B 12.1 slur_peak 3.4
+Flute 2 stac 348.0 A 4.1 B 15.5 slur_peak -7.4
+Flute 2 stac 354.0 A 13.4 B 12.6 slur_peak -0.6
+Flute 2 stac 822.0 A 12.9 B 6.1 slur_peak 8.2
+Flute 2 stac 912.0 A -1.9 B -0.3 slur_peak 13.8
+Flute 2 stac 924.0 A 0.8 B 7.3 slur_peak 1.8
+Flute 2 stac 933.0 A 0.9 B 7.2 slur_peak 1.7
+Flute 2 stac 948.0 A 2.2 B 8.7 slur_peak -3.6
+Flute 2 stac 957.0 A 19.9 B 13.1 slur_peak -0.7
+Flute 2: pairs 12, A median +8.5, under +3 5, under -6..: worst -3.2
+== c28 Oboe 1
+Oboe 1 stac 312.0 A 10.6 B 5.0 slur_peak 20.5
+Oboe 1 stac 318.0 A 21.2 B 10.5 slur_peak 18.6
+Oboe 1 stac 330.0 A 14.5 B 5.5 slur_peak 21.6
+Oboe 1 stac 344.0 A 20.1 B 11.6 slur_peak 24.7
+Oboe 1 stac 348.0 A 33.9 B 27.8 slur_peak 12.4
+Oboe 1 stac 354.0 A 21.3 B 10.7 slur_peak 18.4
+Oboe 1 stac 822.0 A 11.4 B 12.1 slur_peak 12.8
+Oboe 1 stac 894.0 A 16.4 B 15.1 slur_peak 11.3
+Oboe 1 stac 912.0 A 11.0 B 5.3 slur_peak 20.7
+Oboe 1 stac 918.0 A 25.1 B 16.4 slur_peak 19.1
+Oboe 1 stac 930.0 A 16.7 B 6.5 slur_peak 22.2
+Oboe 1 stac 944.0 A 22.1 B 12.6 slur_peak 25.3
+Oboe 1 stac 948.0 A 27.5 B 21.4 slur_peak 13.0
+Oboe 1 stac 954.0 A 25.3 B 16.7 slur_peak 18.8
+Oboe 1: pairs 14, A median +20.6, under +3 0, under -6..: worst +10.6
+== c28 Clarinet 2
+Clarinet 2 stac 312.0 A 6.3 B 17.1 slur_peak 8.2
+Clarinet 2 stac 318.0 A 11.9 B 10.9 slur_peak 11.0
+Clarinet 2 stac 330.0 A 23.5 B 21.6 slur_peak 9.7
+Clarinet 2 stac 344.0 A 22.2 B 16.7 slur_peak 12.5
+Clarinet 2 stac 348.0 A 23.4 B 24.2 slur_peak 14.7
+Clarinet 2 stac 354.0 A 12.0 B 11.0 slur_peak 11.0
+Clarinet 2 stac 861.0 A 20.5 B 19.6 slur_peak 6.9
+Clarinet 2 stac 912.0 A 6.8 B 17.5 slur_peak 8.2
+Clarinet 2 stac 918.0 A 26.6 B 18.6 slur_peak 11.1
+Clarinet 2 stac 930.0 A 25.3 B 22.7 slur_peak 9.6
+Clarinet 2 stac 944.0 A 32.5 B 20.9 slur_peak 12.4
+Clarinet 2 stac 948.0 A 19.9 B 22.2 slur_peak 14.7
+Clarinet 2 stac 954.0 A 12.9 B 12.3 slur_peak 10.9
+Clarinet 2: pairs 13, A median +20.5, under +3 0, under -6..: worst +6.3

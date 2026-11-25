@@ -1,0 +1,3 @@
+{"_doc": "c28 (critic A #4): lead-line tracks for tools/auto_fills.py. The default list plus Bassoon 1 (11 of 32 joins dipped 6 dB or more on c27), the three upper string sections, Violoncellos div and Clarinet 2 (the port dropped the per-note fills of qn 117-270 where v600 changed notes).",
+ "tracks": ["Flute 1", "Oboe 1", "Cor anglais", "Clarinet 1", "Clarinet 2", "Bass clarinet", "Bassoon 1", "Horn 1", "Violin I solo", "Violins I", "Violins II", "Violas", "Violoncellos", "Violoncellos div"],
+ "raise": ["Flute 1", "Oboe 1", "Cor anglais", "Clarinet 1", "Bass clarinet", "Bassoon 1", "Horn 1"]}

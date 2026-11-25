@@ -1,0 +1,33 @@
+track | points | notes | points per note | notes with over 3 dB of swing
+Flute 1 | 1813 | 371 | 4.9 | 23 %
+Flute 2 | 989 | 162 | 6.1 | 30 %
+Oboe 1 | 1976 | 304 | 6.5 | 16 %
+Oboe 2 | 355 | 36 | 9.9 | 25 %
+Cor anglais | 873 | 219 | 4.0 | 16 %
+Clarinet 1 | 2165 | 263 | 8.2 | 52 %
+Clarinet 2 | 1392 | 234 | 5.9 | 20 %
+Bass clarinet | 275 | 39 | 7.1 | 5 %
+Bassoon 1 | 1729 | 225 | 7.7 | 19 %
+Bassoon 2 | 1262 | 167 | 7.6 | 14 %
+Contrabassoon | 856 | 99 | 8.6 | 21 %
+Horn 1 | 1251 | 154 | 8.1 | 28 %
+Horn 2 | 1282 | 158 | 8.1 | 24 %
+Horn 3 | 690 | 141 | 4.9 | 18 %
+Horn 4 | 720 | 88 | 8.2 | 50 %
+Trumpet 1 | 166 | 63 | 2.6 | 5 %
+Trumpet 2 | 145 | 63 | 2.3 | 3 %
+Trombone 1 | 165 | 26 | 6.3 | 27 %
+Trombone 2 | 166 | 26 | 6.4 | 27 %
+Bass trombone | 139 | 23 | 6.0 | 17 %
+Tuba | 150 | 25 | 6.0 | 28 %
+Timpani | 999 | 182 | 5.5 | 52 %
+Harp | 154 | 346 | 0.4 | 3 %
+Violins I | 5477 | 511 | 10.7 | 16 %
+Violins II | 3582 | 506 | 7.1 | 13 %
+Violas | 3878 | 494 | 7.9 | 20 %
+Violoncellos | 3833 | 458 | 8.4 | 19 %
+Double basses | 1970 | 311 | 6.3 | 22 %
+Harp harmonics | 3 | 9 | 0.3 | 0 %
+Violin I solo | 484 | 19 | 25.5 | 5 %
+Violas div | 695 | 37 | 18.8 | 8 %
+all | 39634 | 5759 | 6.9 | 21 %

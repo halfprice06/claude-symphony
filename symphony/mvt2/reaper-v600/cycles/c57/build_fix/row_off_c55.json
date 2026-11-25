@@ -1,0 +1,61 @@
+{
+ "rows": {
+  "Bass trombone": [
+   212.0
+  ],
+  "Violins II": [
+   148.0
+  ],
+  "Violas": [
+   148.0,
+   238.0
+  ],
+  "Double basses": [
+   148.0
+  ]
+ },
+ "notches": {},
+ "_notches_tested": {
+  "Flute 1": [
+   112.0,
+   200.0
+  ],
+  "Violins I": [
+   65.5,
+   177.5,
+   186.0,
+   208.0,
+   249.5,
+   271.0
+  ],
+  "Violins II": [
+   82.0,
+   87.0,
+   177.0,
+   177.5,
+   190.0,
+   245.5,
+   259.0,
+   266.0
+  ],
+  "Violas": [
+   57.0,
+   116.333,
+   249.5
+  ],
+  "Violoncellos": [
+   48.0,
+   68.5,
+   77.0,
+   193.0,
+   240.5
+  ],
+  "Double basses": [
+   259.0
+  ],
+  "Violin I solo": [
+   51.0
+  ]
+ },
+ "_doc": "notches: all kept. With the 26 rows under _notches_tested removed (stem peak under 6 dB over the louder body by acc55), cycles/c53/actor_scripts/joinpeak53.py counted 15 joins of 5 dB or more with a master bump of 2 dB or more against 2."
+}

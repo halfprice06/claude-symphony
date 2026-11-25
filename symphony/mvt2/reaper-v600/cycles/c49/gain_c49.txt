@@ -1,0 +1,10 @@
+Oboe 1 qn 42.0-48.0: level -41.98 dB (ref -42.15, change +0.18); 1-4 kHz corr 0.89 (ref 0.98), R-L +2.7 (ref +2.3), level change +0.21
+  new: per-note R-L mean +2.39, per-pitch spread (max - min of the pitch means) 1.9 dB, SD 0.8; corr median 0.87
+     43.5/p73:+1.1(-40.8) 44.0/p75:+2.6(-40.3) 45.0/p77:+2.3(-40.4) 47.0/p75:+3.5(-44.5)
+  ref: per-note R-L mean +2.24, per-pitch spread (max - min of the pitch means) 0.6 dB, SD 0.3; corr median 0.98
+     43.5/p73:+1.8(-40.4) 44.0/p75:+2.2(-41.4) 45.0/p77:+2.3(-40.5) 47.0/p75:+2.6(-44.1)
+Harp harmonics qn 274.0-277.5: level -50.43 dB (ref -50.39, change -0.04); 1-4 kHz corr 0.62 (ref 0.77), R-L -9.8 (ref -14.7), level change -0.77
+  new: per-note R-L mean -3.08, per-pitch spread (max - min of the pitch means) 3.8 dB, SD 1.6; corr median 0.75
+     274.0/p68:-4.9(-53.7) 275.5/p72:-1.1(-50.5) 276.0/p75:-3.2(-48.2)
+  ref: per-note R-L mean -10.10, per-pitch spread (max - min of the pitch means) 2.2 dB, SD 0.9; corr median 0.78
+     274.0/p68:-9.8(-53.2) 275.5/p72:-9.2(-50.8) 276.0/p75:-11.3(-48.2)

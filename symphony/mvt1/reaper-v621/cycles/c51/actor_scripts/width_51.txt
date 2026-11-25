@@ -1,0 +1,4 @@
+cycles/c51/render: corr <250 0.563 250-5k 0.483 >5k 0.404 side/mid -4.66 dB; t-20 at stops [np.float64(0.67), np.float64(0.26), None, np.float64(0.28)]
+cycles/c50/render: corr <250 0.584 250-5k 0.483 >5k 0.433 side/mid -4.71 dB; t-20 at stops [np.float64(0.3), np.float64(0.29), None, np.float64(0.26)]
+  seat Trumpet 1          R-L +2.39 -> +2.00 dB
+  seat Trumpet 3          R-L +2.07 -> +1.74 dB

@@ -1,0 +1,79 @@
+track-bars more than 1.5 dB apart: 78
+   Bassoon 2 100 1.8
+   Bassoon 2 183 -2.6
+   Bassoon 2 184 -2.9
+   Bassoon 2 200 -2.0
+   Bassoon 2 210 -2.1
+   Clarinet 1 277 -2.0
+   Clarinet 1 278 -2.0
+   Clarinet 1 279 -2.0
+   Clarinet 1 280 -2.0
+   Clarinet 1 281 -2.1
+   Clarinet 2 224 -2.1
+   Clarinet 2 225 -2.1
+   Clarinet 2 226 -2.0
+   Clarinet 2 227 -2.0
+   Clarinet 2 228 -2.0
+   Clarinet 2 277 -3.0
+   Clarinet 2 278 -3.0
+   Clarinet 2 279 -3.0
+   Clarinet 2 280 -3.0
+   Cor anglais 300 -1.5
+   Horn 2 277 -2.0
+   Horn 2 278 -2.0
+   Horn 2 279 -2.0
+   Horn 2 280 -1.8
+   Horn 3 276 -2.0
+   Horn 3 277 -2.0
+   Horn 3 278 -2.0
+   Horn 3 279 -2.0
+   Horn 3 280 -2.0
+   Oboe 1 130 -4.8
+   Oboe 1 131 -4.5
+   Oboe 1 132 -3.1
+   Oboe 1 286 -4.8
+   Oboe 1 287 -4.5
+   Oboe 1 288 -2.8
+   Trombone 1 331 2.3
+   Trumpet 1 331 1.7
+   Trumpet 2 331 1.7
+   Tuba 331 3.2
+   Violas 213 2.0
+   Violas 214 2.0
+   Violas 215 2.0
+   Violas 216 2.0
+   Violas 217 1.9
+   Violas 218 2.0
+   Violas 219 1.8
+   Violas 220 2.1
+   Violas 221 2.1
+   Violas 222 2.0
+   Violas 223 2.1
+   Violas 225 -2.0
+   Violas 226 -2.0
+   Violas 227 -2.0
+   Violas 277 -2.0
+   Violas 278 -2.0
+   Violas 279 -2.0
+   Violas 335 -2.3
+   Violas div 213 2.5
+   Violas div 214 2.5
+   Violas div 215 2.5
+   Violas div 216 2.5
+   Violas div 217 2.5
+   Violas div 218 2.5
+   Violas div 219 2.4
+   Violas div 220 2.5
+   Violas div 221 2.5
+   Violas div 222 2.5
+   Violas div 223 2.6
+   Violas div 224 2.4
+   Violas div 349 -1.8
+   Violin I solo 348 2.1
+   Violins II 225 -2.0
+   Violins II 226 -2.0
+   Violins II 227 -2.0
+   Violins II 228 -2.0
+   Violins II 335 -3.2
+   Violoncellos 210 -1.9
+   Violoncellos 348 2.0

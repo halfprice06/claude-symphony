@@ -1,0 +1,7 @@
+PhysMem: 93G used (6186M wired, 42G compressor), 2337M unused.
+PID    COMMAND          MEM   CMPRS
+43346  REAPER           46G   29G  
+1235   CrashRestartHelp 6477M 6445M
+53469  Steam Helper     4318M 3579M
+95125  java             3770M 3562M
+1196   steam_osx        3625M 3559M

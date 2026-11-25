@@ -1,0 +1,4 @@
+pitch check: cycles/c49/render -> cycles/c50/render; notes of at least 0.9 qn, CC1 / CC11 within 1.5; reported from 2.5 dB
+Violins II: 108 notes, median change +0.0 dB
+   B3 (59): -5.1 dB re the track, n=1, range -5.1..-5.1, at qn 218 <<
+1 pitch(es) differ from their track's median change by 2.5 dB or more

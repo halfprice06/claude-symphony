@@ -1,0 +1,34 @@
+cycles/c50/render: corr <250 0.584 250-5k 0.483 >5k 0.433 side/mid -4.71 dB; t-20 at stops [np.float64(0.3), np.float64(0.29), None, np.float64(0.26)]
+cycles/c49/render: corr <250 0.572 250-5k 0.639 >5k 0.554 side/mid -6.29 dB; t-20 at stops [np.float64(0.28), np.float64(0.25), None, np.float64(0.25)]
+  seat Flute 2            R-L -4.64 -> -4.14 dB
+  seat Oboe 1             R-L +4.72 -> +5.20 dB
+  seat Oboe 2             R-L +5.96 -> +6.74 dB
+  seat Cor anglais        R-L +4.08 -> +5.26 dB
+  seat Clarinet 2         R-L -2.72 -> -3.61 dB
+  seat Bass clarinet      R-L -3.11 -> -4.38 dB
+  seat Bassoon 1          R-L +2.07 -> +2.46 dB
+  seat Contrabassoon      R-L +3.59 -> +6.69 dB
+  seat Horn 1             R-L -6.59 -> -4.25 dB
+  seat Horn 2             R-L -8.04 -> -5.42 dB
+  seat Horn 3             R-L -6.12 -> -4.83 dB
+  seat Trumpet 2          R-L +2.18 -> +1.61 dB
+  seat Trumpet 3          R-L +3.26 -> +2.07 dB
+  seat Trombone 1         R-L +5.36 -> +3.81 dB
+  seat Trombone 2         R-L +6.68 -> +4.88 dB
+  seat Bass trombone      R-L +5.92 -> +4.09 dB
+  seat Tuba               R-L +7.88 -> +7.12 dB
+  seat Tam-tam            R-L +0.76 -> -0.56 dB
+  seat Suspended cymbal   R-L +2.04 -> -0.14 dB
+  seat Crash cymbals      R-L +1.48 -> +0.34 dB
+  seat Harp               R-L -5.03 -> -4.67 dB
+  seat Violins I          R-L -8.06 -> -6.99 dB
+  seat Violins II         R-L -3.52 -> -3.99 dB
+  seat Violas             R-L +1.84 -> +0.75 dB
+  seat Violoncellos       R-L +5.82 -> +4.13 dB
+  seat Double basses      R-L +5.44 -> +4.80 dB
+  seat Horns a2           R-L -5.54 -> -4.15 dB
+  seat Bassoon 1 stac     R-L +1.98 -> +2.33 dB
+  seat Cor anglais stac   R-L +4.28 -> +3.86 dB
+  seat Cello solo         R-L +4.62 -> +5.97 dB
+  seat Violins I f62      R-L -8.17 -> -7.13 dB
+  seat Violins II f62     R-L -3.72 -> -4.09 dB

@@ -1,0 +1,17 @@
+Violins I     56-87.9 S: n 39 of 39  median +6  robust SD 9  SD 14  min -56 max +23  >25 from median 1  >40 1  >60 1
+Violins I     56-87.9 long n 10: front-tail median  2.0 (max  4.5) | under 60 %:  0 | next step median -0.9, over 6 dB:  0 of  8 | front-body acc  1.6 (n 6) unacc  2.5 (n 4) | B front-body median  1.2 (n 7) | eighths n 29 under 60 %: 0 | neighbour body steps over 6 dB: 2 of 36 | join holes: slurred median 4.7 (over 6 dB 5 of 22), bow change 7.6 (9 of 13)
+Violins I     56-127 S: n 79 of 79  median +6  robust SD 12  SD 17  min -66 max +45  >25 from median 9  >40 2  >60 2
+Violins I     56-127 long n 33: front-tail median  2.0 (max  5.7) | under 60 %:  0 | next step median  0.3, over 6 dB:  1 of 29 | front-body acc  2.9 (n 14) unacc  0.2 (n 19) | B front-body median  1.2 (n 13) | eighths n 46 under 60 %: 0 | neighbour body steps over 6 dB: 4 of 73 | join holes: slurred median 4.7 (over 6 dB 11 of 37), bow change 6.6 (20 of 34)
+Violins I     536-576 S: n 38 of 38  median +2  robust SD 12  SD 23  min -59 max +68  >25 from median 9  >40 4  >60 2
+Violins I     536-576 long n 22: front-tail median  1.6 (max  8.3) | under 60 %:  0 | next step median  1.4, over 6 dB:  3 of 20 | front-body acc  3.5 (n 6) unacc  0.5 (n 16) | B front-body median  0.4 (n 7) | eighths n 16 under 60 %: 0 | neighbour body steps over 6 dB: 1 of 35 | join holes: slurred median 5.0 (over 6 dB 6 of 19), bow change 7.5 (10 of 15)
+Violins II    104-127 S: n 27 of 27  median +8  robust SD 15  SD 13  min -18 max +38  >25 from median 2  >40 0  >60 0
+Violins II    104-127 long n 10: front-tail median  2.1 (max  4.2) | under 60 %:  0 | next step median  1.1, over 6 dB:  1 of  9 | front-body acc  2.3 (n 7) unacc -1.0 (n 3) | B front-body median  0.6 (n 5) | eighths n 17 under 60 %: 1 | neighbour body steps over 6 dB: 3 of 25 | join holes: slurred median 5.4 (over 6 dB 1 of 7), bow change 4.4 (6 of 17)
+Violins II    552-576 S: n 20 of 20  median +2  robust SD 16  SD 20  min -69 max +24  >25 from median 2  >40 1  >60 1
+Violins II    552-576 long n  8: front-tail median  1.7 (max 11.6) | under 60 %:  0 | next step median  2.5, over 6 dB:  1 of  6 | front-body acc  2.0 (n 4) unacc  5.5 (n 4) | B front-body median  0.8 (n 6) | eighths n 12 under 60 %: 0 | neighbour body steps over 6 dB: 1 of 16 | join holes: slurred median 4.3 (over 6 dB 0 of 7), bow change 5.5 (2 of 8)
+Violas        104-127 S: n 27 of 27  median +4  robust SD 21  SD 26  min -75 max +60  >25 from median 5  >40 3  >60 2
+Violas        104-127 long n 10: front-tail median  0.8 (max  4.9) | under 60 %:  0 | next step median  0.1, over 6 dB:  0 of  9 | front-body acc  2.4 (n 7) unacc  1.4 (n 3) | B front-body median -0.7 (n 5) | eighths n 17 under 60 %: 0 | neighbour body steps over 6 dB: 1 of 25 | join holes: slurred median 3.0 (over 6 dB 1 of 7), bow change 3.7 (2 of 16)
+Violoncellos  520-536 S: n 19 of 19  median +10  robust SD 19  SD 55  min -79 max +187  >25 from median 8  >40 6  >60 5
+Violoncellos  520-536 long n  6: front-tail median  1.9 (max  7.8) | under 60 %:  0 | next step median  0.6, over 6 dB:  0 of  5 | front-body acc  3.7 (n 3) unacc -1.7 (n 3) | B front-body median  2.7 (n 4) | eighths n 13 under 60 %: 0 | neighbour body steps over 6 dB: 2 of 17 | join holes: slurred median 5.0 (over 6 dB 3 of 9), bow change 6.2 (4 of 7)
+Violins I minus celli 56-88: median +6.36, lower quartile +3.56, under +3: 8, under 0: 2
+bar 138 Violins I minus Violins II at 549, 550: -0.1 +0.3
+bar 26 Violins I minus Violins II at 101: +2.1

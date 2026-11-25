@@ -1,0 +1,32 @@
+
+bar 160-161 climax (354.4-359.3 s): master level 56.4; shares 2-6k -8.93, 6-20k -26.36, 90-180 -11.94, 180-355 -8.84
+   top stems 2-6k: Violins_I 39%, Trumpet_1 12%, Violins_II 11%, Violoncellos 6%, Clarinet_1 6%, Crash_cymbals 4%
+   top stems 6-20k: Violins_I 30%, Trumpet_1 15%, Suspended_cymbal 11%, Crash_cymbals 10%, Trumpet_2 6%, Violoncellos 5%
+
+bar 159 cymbal roll (352.3-354.4 s): master level 52.7; shares 2-6k -9.09, 6-20k -25.72, 90-180 -11.04, 180-355 -9.15
+   top stems 2-6k: Violins_I 42%, Trumpet_1 20%, Violins_II 8%, Clarinet_1 7%, Trombone_2 3%, Violoncellos 3%
+   top stems 6-20k: Violins_I 35%, Suspended_cymbal 20%, Trumpet_1 17%, Trumpet_2 8%, Trombone_1 5%, Violoncellos 4%
+
+bar 122-123 tam-tam (276.6-281.2 s): master level 54.2; shares 2-6k -9.12, 6-20k -27.29, 90-180 -12.01, 180-355 -7.84
+   top stems 2-6k: Tam-tam 25%, Violins_I 16%, Violins_II 10%, Trombone_2 9%, Trumpet_1 7%, Trumpet_3 5%
+   top stems 6-20k: Violins_I 28%, Trumpet_1 23%, Trumpet_3 9%, Trombone_2 8%, Bass_trombone 6%, Trombone_1 5%
+
+bar 117-121 tutti ff (266.9-276.6 s): master level 51.5; shares 2-6k -9.63, 6-20k -28.51, 90-180 -10.63, 180-355 -7.93
+   top stems 2-6k: Violins_I 53%, Violins_II 15%, Trombone_1 9%, Oboe_2 4%, Bass_trombone 4%, Horns_a2 3%
+   top stems 6-20k: Violins_I 38%, Trombone_1 29%, Horns_a2 10%, Bass_trombone 6%, Violins_II 4%, Bass_clarinet 3%
+
+bar 26 ff (88.4-90.3 s): master level 52.5; shares 2-6k -10.87, 6-20k -30.60, 90-180 -10.52, 180-355 -7.07
+   top stems 2-6k: Violins_I 26%, Violins_II 21%, Trombone_2 13%, Violas 6%, Horn_1 5%, Trumpet_2 4%
+   top stems 6-20k: Violins_I 24%, Trombone_2 16%, Horn_1 12%, Trumpet_1 9%, Bass_trombone 9%, Violins_II 6%
+
+bars 139-142 (311.3-319.0 s): master level 50.1; shares 2-6k -9.68, 6-20k -32.90, 90-180 -10.17, 180-355 -8.25
+   top stems 2-6k: Violins_I 57%, Violins_II 17%, Oboe_2 3%, Clarinet_1 3%, Clarinet_2 2%, Oboe_1 2%
+   top stems 6-20k: Violins_I 52%, Violins_II 12%, Flute_1 7%, Bass_clarinet 5%, Violoncellos 4%, Contrabassoon 4%
+dvorak all 20-56:-41.66 56-90:-24.04 90-180:-8.39 180-355:-8.03 355-710:-5.20 710-2k:-5.19 2-6k:-10.57 6-20k:-27.85
+dvorak loud 10 % 20-56:-43.06 56-90:-27.35 90-180:-7.34 180-355:-8.14 355-710:-5.38 710-2k:-5.31 2-6k:-11.32 6-20k:-27.76
+dvorak loudest 2 % 20-56:-40.27 56-90:-27.67 90-180:-6.03 180-355:-7.93 355-710:-5.53 710-2k:-6.06 2-6k:-12.30 6-20k:-28.15
+dvorak soft 30 % 20-56:-28.07 56-90:-17.60 90-180:-11.41 180-355:-7.19 355-710:-4.24 710-2k:-5.31 2-6k:-13.32 6-20k:-34.86
+master all 20-56:-30.16 56-90:-17.52 90-180:-10.94 180-355:-7.03 355-710:-6.26 710-2k:-4.47 2-6k:-9.70 6-20k:-28.77
+master loud 10 % 20-56:-30.10 56-90:-20.37 90-180:-11.27 180-355:-7.60 355-710:-6.49 710-2k:-3.95 2-6k:-9.47 6-20k:-27.76
+master loudest 2 % 20-56:-29.22 56-90:-20.29 90-180:-12.23 180-355:-8.42 355-710:-6.95 710-2k:-3.41 2-6k:-8.99 6-20k:-26.60
+master soft 30 % 20-56:-27.81 56-90:-11.65 90-180:-9.49 180-355:-6.10 355-710:-5.07 710-2k:-6.81 2-6k:-12.83 6-20k:-34.73

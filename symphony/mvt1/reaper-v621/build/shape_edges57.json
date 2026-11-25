@@ -1,0 +1,125 @@
+{
+ "Violins I": {
+  "565.53": [
+   "ramp",
+   -5.0
+  ],
+  "565.75": [
+   "ramp",
+   5.0
+  ],
+  "566.58": [
+   "ramp",
+   8.1
+  ],
+  "160.25": [
+   "back",
+   -2.5
+  ],
+  "160.44": [
+   "ramp",
+   -2.5
+  ]
+ },
+ "Violins II": {
+  "565.53": [
+   "ramp",
+   -5.0
+  ],
+  "565.75": [
+   "drop",
+   5.0
+  ],
+  "389.12": [
+   "drop",
+   4.0
+  ],
+  "390.95": [
+   "ramp",
+   -4.0
+  ],
+  "400.37": [
+   "back",
+   2.5
+  ],
+  "566.58": [
+   "ramp",
+   6.3
+  ],
+  "192.11": [
+   "ramp",
+   3.5
+  ],
+  "192.49": [
+   "ramp",
+   -3.1
+  ],
+  "580.12": [
+   "drop",
+   4.5
+  ]
+ },
+ "Violas": {
+  "169.37": [
+   "ramp",
+   -4.0
+  ],
+  "429.50": [
+   "ramp",
+   -3.5
+  ],
+  "77.00": [
+   "ramp",
+   -6.5
+  ],
+  "580.67": [
+   "ramp",
+   -3.7
+  ]
+ },
+ "Violoncellos": {
+  "310.77": [
+   "back",
+   3.0
+  ],
+  "8.78": [
+   "ramp",
+   7.0
+  ],
+  "204.22": [
+   "drop",
+   2.5
+  ],
+  "696.17": [
+   "back",
+   3.1
+  ],
+  "7.27": [
+   "drop",
+   4.0
+  ],
+  "176.54": [
+   "ramp",
+   -4.0
+  ]
+ },
+ "Double basses": {
+  "677.35": [
+   "ramp",
+   -3.0
+  ],
+  "677.51": [
+   "ramp",
+   3.0
+  ],
+  "672.20": [
+   "drop",
+   -3.0
+  ],
+  "673.20": [
+   "back",
+   -3.0
+  ]
+ },
+ "_doc": "c57 (critic A #3, coordinator 1b): actions on LEVEL_SHAPES edges of 2.5 dB or more within 0.12 s inside a sounding string note (NOTE_LEVEL 'edges'), from the c56 stems (cycles/c57/actor_scripts/edges57.py): an edge whose stem step is at least 1 dB smaller with the item than without stays (not listed); an edge next to a rest (stem step 8 dB or more without the item) stays; an edge that adds a step where the stem has under 1 dB without it drops its lobe when the lobe lasts 1 s or less; an edge within 0.2 s of its note's start moves back to the note's level change; the others move to the next score onset when it is at most an eighth away, else become a ramp to the next onset or the note's end."
+}

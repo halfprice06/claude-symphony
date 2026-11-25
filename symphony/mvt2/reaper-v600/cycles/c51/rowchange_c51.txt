@@ -1,0 +1,187 @@
+Flute 1           212.000 Sus MAX        -> Leg Slur MAX  lead    0 ms  S 36
+Bass clarinet      21.000 Sus Non Vib    -> Leg Slur      lead    0 ms  S -66
+Bassoon 1         198.000 Sus MAX        -> Leg Slur MAX  lead  150 ms  S 58
+Bassoon 1         261.000 Sus MAX        -> Leg Slur MAX  lead  120 ms  S 162
+Bassoon 1         271.000 Sus MAX        -> Leg Slur MAX  lead    0 ms  S 18
+Horn 1            198.000 Sus MAX        -> Leg Slur MAX  lead    0 ms  S 16
+Horn 3            267.000 Sus MAX        -> Leg Slur MAX  lead  120 ms  S 69
+Horn 4            268.000 Sus MAX        -> Leg Slur MAX  lead   50 ms  S 52
+Trombone 1        217.000 Sus MAX        -> Leg Slur MAX  lead   50 ms  S 17
+Violins I          68.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S 126
+Violins I          70.000 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S -39
+Violins I          71.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -7
+Violins I          73.500 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S 47
+Violins I          77.000 Leg Slur MAX   -> Leg BC MAX    lead  260 ms  S 12
+Violins I          77.500 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S -41
+Violins I          80.000 Leg Slur MAX   -> Leg BC MAX    lead  260 ms  S -4
+Violins I          82.000 Leg BC MAX     -> Leg Port MAX  lead  170 ms  S -22
+Violins I          83.000 Leg Port MAX   -> Leg Slur MAX  lead  170 ms  S -32
+Violins I          84.000 Leg Slur MAX   -> Leg BC MAX    lead  220 ms  S 4
+Violins I          85.000 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S -28
+Violins I          87.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S 116
+Violins I         172.000 Leg Slur MAX   -> Leg Port MAX  lead  170 ms  S -10
+Violins I         174.000 Leg Port MAX   -> Leg Slur MAX  lead  170 ms  S -76
+Violins I         176.000 Leg Slur MAX   -> Leg BC MAX    lead  130 ms  S -8
+Violins I         177.000 Leg BC MAX     -> Leg Slur MAX  lead  130 ms  S 8
+Violins I         180.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -15
+Violins I         181.000 Leg BC MAX     -> Leg Slur MAX  lead  130 ms  S -4
+Violins I         184.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -14
+Violins I         185.000 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S -24
+Violins I         188.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -30
+Violins I         189.000 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S 88
+Violins I         190.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -23
+Violins I         191.500 Leg BC MAX     -> Leg Slur MAX  lead  100 ms  S -12
+Violins I         193.500 Leg Slur MAX   -> Leg BC MAX    lead  260 ms  S -96
+Violins I         195.500 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S -14
+Violins I         196.000 Leg Slur MAX   -> Leg BC MAX    lead  210 ms  S 53
+Violins I         197.500 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S -31
+Violins I         200.000 Leg Slur MAX   -> Leg BC MAX    lead  180 ms  S -10
+Violins I         208.000 Sus MAX        -> Leg BC MAX    lead  220 ms  S 14
+Violins I         240.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S 72
+Violins I         242.000 Leg BC MAX     -> Leg Slur MAX  lead  100 ms  S -12
+Violins I         243.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -51
+Violins I         245.500 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S -18
+Violins I         252.000 Leg Slur MAX   -> Leg BC MAX    lead  260 ms  S 80
+Violins I         255.000 Leg BC MAX     -> Leg Slur MAX  lead  130 ms  S -11
+Violins I         256.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -18
+Violins I         257.000 Leg BC MAX     -> Leg Slur MAX  lead  130 ms  S -8
+Violins I         259.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S 15
+Violins I         262.000 Sus MAX        -> Leg BC MAX    lead  150 ms  S 3
+Violins I         266.000 Sus MAX        -> Leg Slur MAX  lead  170 ms  S -52
+Violins I         268.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -22
+Violins I         269.000 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S -22
+Violins I         271.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S 12
+Violins II         47.000 Sus MAX        -> Leg Slur MAX  lead  240 ms  S -37
+Violins II         48.000 Leg Slur MAX   -> Leg BC MAX    lead  270 ms  S -42
+Violins II         53.000 Sus MAX        -> Leg Slur MAX  lead  240 ms  S -7
+Violins II         54.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -42
+Violins II         56.000 Leg BC MAX     -> Leg Slur MAX  lead  160 ms  S -14
+Violins II         65.000 Leg Slur MAX   -> Leg BC MAX    lead  230 ms  S -22
+Violins II         65.500 Leg BC MAX     -> Leg Slur MAX  lead  180 ms  S -16
+Violins II         68.000 Leg Slur MAX   -> Leg BC MAX    lead  260 ms  S -58
+Violins II         70.000 Leg BC MAX     -> Leg Slur MAX  lead  140 ms  S 8
+Violins II         71.000 Leg Slur MAX   -> Leg BC MAX    lead  110 ms  S 12
+Violins II         73.500 Leg BC MAX     -> Leg Slur MAX  lead  240 ms  S 92
+Violins II         77.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -47
+Violins II         77.500 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S -12
+Violins II         80.000 Leg Slur MAX   -> Leg BC MAX    lead  260 ms  S -38
+Violins II         82.000 Leg BC MAX     -> Leg Port MAX  lead  200 ms  S -18
+Violins II         83.000 Leg Port MAX   -> Leg Slur MAX  lead  200 ms  S -22
+Violins II         84.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S 46
+Violins II         85.000 Leg BC MAX     -> Leg Slur MAX  lead  240 ms  S -34
+Violins II        146.000 Sus MAX        -> Leg BC MAX    lead  170 ms  S -1
+Violins II        152.000 Sus MAX        -> Leg Slur MAX  lead  240 ms  S 108
+Violins II        154.000 Leg Slur MAX   -> Leg BC MAX    lead  210 ms  S 4
+Violins II        156.000 Leg BC MAX     -> Leg Slur MAX  lead  240 ms  S -8
+Violins II        168.000 Sus MAX        -> Leg Slur MAX  lead  320 ms  S -8
+Violins II        172.000 Leg Slur MAX   -> Leg Port MAX  lead  250 ms  S 4
+Violins II        174.000 Leg Port MAX   -> Leg Slur MAX  lead  240 ms  S -77
+Violins II        176.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -56
+Violins II        177.000 Leg BC MAX     -> Leg Slur MAX  lead  150 ms  S 4
+Violins II        180.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -2
+Violins II        181.000 Leg BC MAX     -> Leg Slur MAX  lead  140 ms  S 85
+Violins II        184.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -41
+Violins II        185.000 Leg BC MAX     -> Leg Slur MAX  lead  200 ms  S -2
+Violins II        188.000 Leg Slur MAX   -> Leg BC MAX    lead  110 ms  S -6
+Violins II        189.000 Leg BC MAX     -> Leg Slur MAX  lead  240 ms  S -46
+Violins II        190.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -6
+Violins II        191.500 Leg BC MAX     -> Leg Slur MAX  lead  340 ms  S -57
+Violins II        193.500 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S 20
+Violins II        195.500 Leg BC MAX     -> Leg Slur MAX  lead  140 ms  S -17
+Violins II        196.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -32
+Violins II        197.500 Leg BC MAX     -> Leg Slur MAX  lead  140 ms  S 33
+Violins II        200.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -42
+Violins II        218.000 Tremolo        -> Leg Slur MAX  lead  250 ms  S 31
+Violins II        249.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -14
+Violins II        249.500 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S 100
+Violins II        252.000 Leg Slur MAX   -> Leg BC MAX    lead  260 ms  S -34
+Violins II        255.000 Leg BC MAX     -> Leg Slur MAX  lead  160 ms  S -11
+Violins II        256.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S 19
+Violins II        257.000 Leg BC MAX     -> Leg Slur MAX  lead  240 ms  S -28
+Violins II        259.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -36
+Violins II        262.000 Sus MAX        -> Leg BC MAX    lead  150 ms  S -7
+Violins II        266.000 Sus MAX        -> Leg Slur MAX  lead  240 ms  S -69
+Violins II        268.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -66
+Violins II        269.000 Leg BC MAX     -> Leg Slur MAX  lead  200 ms  S -14
+Violins II        271.000 Leg Slur MAX   -> Leg BC MAX    lead   80 ms  S -11
+Violas             70.000 Sus MAX        -> Leg Slur MAX  lead  295 ms  S -39
+Violas             72.000 Sus MAX        -> Leg Slur MAX  lead  225 ms  S 43
+Violas             83.000 Sus MAX        -> Leg Slur MAX  lead  120 ms  S 91
+Violas             84.000 Leg Slur MAX   -> Leg BC MAX    lead  200 ms  S 16
+Violas            190.000 Leg Slur MAX   -> Leg BC MAX    lead  200 ms  S -38
+Violas            190.333 Leg BC MAX     -> Leg Slur MAX  lead  243 ms  S -110
+Violas            192.000 Leg Slur MAX   -> Leg BC MAX    lead  145 ms  S 65
+Violas            192.333 Leg BC MAX     -> Leg Slur MAX  lead  145 ms  S 36
+Violas            193.000 Leg Slur MAX   -> Leg BC MAX    lead  144 ms  S 6
+Violas            193.333 Leg BC MAX     -> Leg Slur MAX  lead  144 ms  S -14
+Violas            194.000 Leg Slur MAX   -> Leg BC MAX    lead  144 ms  S 8
+Violas            194.333 Leg BC MAX     -> Leg Slur MAX  lead  143 ms  S 10
+Violas            195.000 Leg Slur MAX   -> Leg BC MAX    lead  143 ms  S 15
+Violas            195.333 Leg BC MAX     -> Leg Slur MAX  lead  238 ms  S -25
+Violas            218.000 Tremolo        -> Leg Slur MAX  lead  120 ms  S 53
+Violas            249.000 Sus MAX        -> Leg Slur MAX  lead  225 ms  S 39
+Violas            251.500 Leg Slur MAX   -> Leg BC MAX    lead  200 ms  S 34
+Violas            252.000 Leg BC MAX     -> Leg Slur MAX  lead  225 ms  S -94
+Violas            253.500 Sus MAX        -> Leg Slur MAX  lead  225 ms  S 21
+Violas            254.500 Leg Slur MAX   -> Leg BC MAX    lead  200 ms  S -12
+Violas            255.000 Leg BC MAX     -> Leg Slur MAX  lead  225 ms  S -17
+Violas            256.000 Leg Slur MAX   -> Leg BC MAX    lead  200 ms  S -32
+Violas            256.500 Leg BC MAX     -> Leg Slur MAX  lead  225 ms  S 19
+Violas            257.500 Leg Slur MAX   -> Leg BC MAX    lead  250 ms  S 0
+Violas            258.000 Leg BC MAX     -> Leg Slur MAX  lead  225 ms  S -39
+Violas            259.000 Leg Slur MAX   -> Leg BC MAX    lead  200 ms  S 12
+Violas            259.500 Leg BC MAX     -> Leg Slur MAX  lead  225 ms  S 11
+Violas            260.500 Leg Slur MAX   -> Leg BC MAX    lead  200 ms  S -32
+Violas            261.000 Leg BC MAX     -> Leg Slur MAX  lead  225 ms  S -13
+Violas            266.000 Sus MAX        -> Leg Slur MAX  lead  150 ms  S 228
+Violas            269.000 Sus MAX        -> Leg Slur MAX  lead    0 ms  S -96
+Violas            286.000 Sus MAX        -> Leg Slur MAX  lead  265 ms  S -7
+Violoncellos       45.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -46
+Violoncellos       47.000 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S -6
+Violoncellos       50.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -14
+Violoncellos       51.000 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S 0
+Violoncellos       60.000 Leg Slur MAX   -> Leg BC MAX    lead  110 ms  S -1
+Violoncellos       61.000 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S -10
+Violoncellos       68.000 Sus MAX        -> Leg Slur MAX  lead  320 ms  S 68
+Violoncellos       75.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -64
+Violoncellos       76.000 Leg BC MAX     -> Leg Slur MAX  lead  160 ms  S 26
+Violoncellos       81.000 Leg Slur MAX   -> Leg BC MAX    lead  100 ms  S 0
+Violoncellos       82.000 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S 15
+Violoncellos       84.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -22
+Violoncellos       86.000 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S -20
+Violoncellos      129.000 Sus MAX        -> Leg Slur MAX  lead  220 ms  S -46
+Violoncellos      132.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -32
+Violoncellos      134.000 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S -82
+Violoncellos      144.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S 1
+Violoncellos      145.000 Leg BC MAX     -> Leg Slur MAX  lead  160 ms  S -6
+Violoncellos      156.000 Sus MAX        -> Leg Slur MAX  lead  320 ms  S 17
+Violoncellos      168.000 Sus MAX        -> Leg Slur MAX  lead  220 ms  S -5
+Violoncellos      176.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -38
+Violoncellos      192.000 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S -40
+Violoncellos      193.000 Leg Slur MAX   -> Leg BC MAX    lead   90 ms  S 44
+Violoncellos      195.500 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S 38
+Violoncellos      196.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -17
+Violoncellos      199.000 Leg BC MAX     -> Leg Slur MAX  lead  150 ms  S -10
+Violoncellos      200.000 Leg Slur MAX   -> Leg BC MAX    lead   80 ms  S -8
+Violoncellos      201.000 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S -14
+Violoncellos      202.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -20
+Violoncellos      218.000 Tremolo        -> Leg Slur MAX  lead    0 ms  S 59
+Violoncellos      248.500 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -23
+Violoncellos      249.000 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S -38
+Violoncellos      250.000 Leg Slur MAX   -> Leg BC MAX    lead  110 ms  S 26
+Violoncellos      252.000 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S -32
+Violoncellos      253.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -24
+Violoncellos      255.000 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S 0
+Violoncellos      256.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -18
+Violoncellos      258.000 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S -48
+Violoncellos      259.000 Leg Slur MAX   -> Leg BC MAX    lead  100 ms  S -16
+Violoncellos      271.000 Leg BC MAX     -> Leg Slur MAX  lead  220 ms  S -38
+Double basses     146.000 Sus MAX        -> Leg Slur MAX  lead  170 ms  S 40
+Violoncellos div   63.000 Leg Slur MAX   -> Leg BC MAX    lead  170 ms  S -12
+Violoncellos div   63.500 Leg BC MAX     -> Leg Slur MAX  lead  170 ms  S -69
+Violas div         69.000 Leg Slur MAX   -> Leg BC MAX    lead  200 ms  S 78
+Violas div         71.000 Sus MAX        -> Leg BC MAX    lead  200 ms  S 48
+Violas div         87.000 Leg Slur MAX   -> Leg BC MAX    lead  200 ms  S -42
+Violas div        283.000 Sus MAX        -> Leg BC MAX    lead  200 ms  S 90
+Horns 1-2 a2      271.000 Sus MAX        -> Leg Slur MAX  lead    0 ms  S -43
+186 legato-row notes after a note on another row; 7 with no lead: [('Flute 1', 212.0), ('Bass clarinet', 21.0), ('Bassoon 1', 271.0), ('Horn 1', 198.0), ('Violas', 269.0), ('Violoncellos', 218.0), ('Horns 1-2 a2', 271.0)]

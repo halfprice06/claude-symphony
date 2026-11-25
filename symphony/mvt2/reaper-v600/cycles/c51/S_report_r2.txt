@@ -1,0 +1,37 @@
+line | per file: min max median (ms) | outside 25, 60 | slur neighbours
+Horn 3, intro C-Db-C, bars 3-6                  -3    +5   +0 |  0  0 of  3 | pairs  2:  0 >25  0 >60  ||     -3    +5   +0 |  0  0 of  3 | pairs  2:  0 >25  0 >60
+Horn 1, theme A, bars 6-14                     -41   +87   +0 |  5  2 of 24 | pairs 22:  9 >25  3 >60  ||    -41   +87   +0 |  5  2 of 24 | pairs 22:  9 >25  3 >60
+Oboe 1, answer, bars 15-22                     -24   +21   -2 |  0  0 of 11 | pairs  9:  2 >25  0 >60  ||    -24   +21   -2 |  0  0 of 11 | pairs  9:  2 >25  0 >60
+Violin I solo, solo, bars 17-22                -26  +109   +8 |  4  2 of 11 | pairs  9:  6 >25  2 >60  ||    -26  +109   +8 |  4  2 of 11 | pairs  9:  6 >25  2 >60
+Violins I, theme A, bars 22-30                 -54   +42   -1 |  9  0 of 24 | pairs 15:  8 >25  2 >60  ||    -54   +70   -0 |  9  1 of 24 | pairs 15:  8 >25  3 >60
+Violins II, theme A, bars 22-30                -98   +46   -9 |  7  2 of 24 | pairs 15:  8 >25  5 >60  ||    -74   +46   -9 |  6  1 of 24 | pairs 15:  6 >25  3 >60
+Violoncellos, counter-melody, bars 22-30       -64   +73   -4 |  6  2 of 19 | pairs  9:  4 >25  0 >60  ||    -64   +73   -4 |  6  2 of 19 | pairs  9:  4 >25  0 >60
+Bass clarinet, solo, bars 31-36                -28   +68   -5 |  4  1 of 12 | pairs 10:  3 >25  1 >60  ||    -28   +68   -5 |  4  1 of 12 | pairs 10:  3 >25  1 >60
+Flute 1, theme B, bars 36-40                   -14   +44   +1 |  2  0 of 19 | pairs 17:  6 >25  0 >60  ||    -14   +44   +1 |  2  0 of 19 | pairs 17:  6 >25  0 >60
+Cor anglais, theme B, bars 41-44               -18   +20   -1 |  0  0 of 14 | pairs 13:  2 >25  0 >60  ||    -18   +20   -1 |  0  0 of 14 | pairs 13:  2 >25  0 >60
+Flute 1, theme B answer, bars 41-44             -4   +46   +2 |  1  0 of 12 | pairs 11:  2 >25  0 >60  ||     -4   +46   +2 |  1  0 of 12 | pairs 11:  2 >25  0 >60
+Oboe 1, B flat minor head, bars 45-47          -34   +66  +18 |  3  1 of 10 | pairs  7:  5 >25  0 >60  ||    -34   +66  +18 |  3  1 of 10 | pairs  7:  5 >25  0 >60
+Violoncellos, B flat minor head, bars 45-47    -54   +70   +1 |  3  1 of  9 | pairs  5:  2 >25  1 >60  ||    -54   +70   +1 |  3  1 of  9 | pairs  5:  2 >25  1 >60
+Cor anglais, quotation, bars 47-52             -20   +42   +1 |  2  0 of 13 | pairs 10:  3 >25  0 >60  ||    -20   +42   +1 |  2  0 of 13 | pairs 10:  3 >25  0 >60
+Violins I, theme B, bars 53-60                -102  +102  -10 |  8  3 of 30 | pairs 21:  9 >25  5 >60  ||    -96   +30  -11 |  9  2 of 30 | pairs 21:  7 >25  3 >60
+Violins II, theme B, bars 53-60                -77  +149   -2 | 12  5 of 30 | pairs 21: 10 >25  6 >60  ||    -77   +38   -2 | 11  2 of 30 | pairs 21: 11 >25  4 >60
+Horn 1, counter-melody, bars 53-60             -60   +43   -1 |  6  1 of 19 | pairs 15:  7 >25  1 >60  ||    -60   +43   -1 |  6  1 of 19 | pairs 15:  7 >25  1 >60
+Violoncellos, bars 53-60                       -40   +24  -13 |  2  0 of 19 | pairs  3:  2 >25  0 >60  ||    -40   +24  -13 |  2  0 of 19 | pairs  3:  2 >25  0 >60
+Violins I, climax, bars 61-64                  +14  +229  +30 |  3  2 of  6 | pairs  0:  0 >25  0 >60  ||    +14  +229  +30 |  3  2 of  6 | pairs  0:  0 >25  0 >60
+Trombone 1, quotation, bars 63-64              -16   +31   +0 |  1  0 of 10 | pairs  5:  2 >25  0 >60  ||    -54   +35   -5 |  4  0 of 10 | pairs  5:  5 >25  0 >60
+Horn 1, motto tail, bars 65-70                 -22    +6   -4 |  0  0 of  5 | pairs  4:  0 >25  0 >60  ||    -22    +6   -4 |  0  0 of  5 | pairs  4:  0 >25  0 >60
+Violins I, theme A', bars 70-78                -79  +101   -4 |  9  4 of 28 | pairs 18:  7 >25  2 >60  ||    -67  +101   -4 |  8  3 of 28 | pairs 18:  7 >25  4 >60
+Violins II, theme A', bars 70-78               -78   +50  -11 | 10  2 of 28 | pairs 18: 13 >25  4 >60  ||    -78   +40  -11 | 10  1 of 28 | pairs 18: 11 >25  3 >60
+Violoncellos, counter-melody, bars 71-78       -88   +10  -23 |  8  2 of 18 | pairs  8:  6 >25  1 >60  ||    -88   +66  -17 |  8  2 of 18 | pairs  8:  6 >25  1 >60
+Violins I, cadence, bars 79-82                 -22  +204  +12 |  1  1 of  9 | pairs  4:  1 >25  0 >60  ||    -86   +21   +3 |  1  1 of  9 | pairs  4:  1 >25  0 >60
+Clarinet 1, motto tail, bars 85-88              -9   +27  +12 |  1  0 of  4 | pairs  2:  0 >25  0 >60  ||     -9   +27  +12 |  1  0 of  4 | pairs  2:  0 >25  0 >60
+ALL LINES file 1: outside 25: 107, outside 60: 31 of 411; slur neighbours over 25: 117, over 60: 33
+ALL LINES file 2: outside 25: 108, outside 60: 25 of 411; slur neighbours over 25: 115, over 60: 29
+all legato joins file 1: 727 (727 found): within 25: 533, within 60: 678, median -4 ms
+  Violins I - II, qn 65-90: 24 onsets, over 30 ms apart: 7, over 60: 2, max 90 ms at 68 (+90), 85 (+68)
+  Violins I - II, qn 172-204: 30 onsets, over 30 ms apart: 11, over 60: 2, max 161 ms at 191.5 (-161), 197.5 (-135)
+  Violins I - II, qn 237-262: 28 onsets, over 30 ms apart: 10, over 60: 5, max 115 ms at 239.5 (+76), 242 (-67), 243 (-63), 249 (+115), 261.833 (+110)
+all legato joins file 2: 727 (727 found): within 25: 533, within 60: 686, median -4 ms
+  Violins I - II, qn 65-90: 24 onsets, over 30 ms apart: 6, over 60: 2, max 94 ms at 68 (+90), 85 (+94)
+  Violins I - II, qn 172-204: 30 onsets, over 30 ms apart: 9, over 60: 1, max 88 ms at 197.5 (-88)
+  Violins I - II, qn 237-262: 28 onsets, over 30 ms apart: 11, over 60: 3, max 115 ms at 239.5 (+76), 249 (+115), 261.667 (-76)

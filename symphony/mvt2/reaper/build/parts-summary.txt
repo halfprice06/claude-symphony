@@ -1,0 +1,27 @@
+Flute 1         notes=  67 ks=  3 cc11= 295 range=[70, 94] clash=[] {'Leg Slur MAX': 66, 'Sus MAX': 1} leads={'leg': 58} notches=0 uni_drop=0 bloomv=0
+Flute 2         notes=   5 ks=  1 cc11=  76 range=[80, 89] clash=[] {'Sus MAX': 5} leads={} notches=0 uni_drop=0 bloomv=0
+Oboe 1          notes=  46 ks=  5 cc11= 301 range=[67, 82] clash=[] {'Leg Slur MAX': 42, 'Sus MAX': 4} leads={'leg': 35} notches=0 uni_drop=0 bloomv=0
+Oboe 2          notes=   3 ks=  1 cc11=  62 range=[73, 77] clash=[] {'Sus MAX': 4} leads={} notches=0 uni_drop=1 bloomv=0
+Cor anglais     notes=  33 ks=  4 cc11= 137 range=[56, 74] clash=[] {'Leg Slur MAX': 31, 'Sus MAX': 2} leads={'leg': 24} notches=0 uni_drop=0 bloomv=0
+Clarinet 1      notes=  44 ks=  5 cc11= 320 range=[56, 82] clash=[] {'Leg Slur': 32, 'Sus Non Vib': 12} leads={'leg': 25} notches=0 uni_drop=0 bloomv=0
+Clarinet 2      notes=  34 ks=  1 cc11= 337 range=[51, 73] clash=[] {'Sus Non Vib': 35} leads={} notches=0 uni_drop=1 bloomv=0
+Bass clarinet   notes=  48 ks=  3 cc11= 341 range=[34, 63] clash=[] {'Sus Non Vib': 35, 'Leg Slur': 13} leads={'leg': 11} notches=0 uni_drop=0 bloomv=0
+Bassoon 1       notes=  42 ks=  8 cc11= 298 range=[51, 61] clash=[] {'Sus MAX': 24, 'Leg Slur MAX': 18} leads={'entry': 8, 'leg': 12} notches=0 uni_drop=0 bloomv=0
+Bassoon 2       notes=  60 ks=  1 cc11= 475 range=[40, 55] clash=[] {'Sus MAX': 61} leads={'entry': 10} notches=0 uni_drop=1 bloomv=0
+Contrabassoon   notes=   9 ks=  1 cc11= 119 range=[28, 39] clash=[] {'Sus MAX': 9} leads={'entry': 3} notches=0 uni_drop=0 bloomv=0
+Horn 1          notes=  58 ks=  1 cc11= 294 range=[51, 70] clash=[] {'Leg Slur MAX': 58} leads={'entry': 4, 'leg': 50} notches=0 uni_drop=0 bloomv=0
+Horn 2          notes=   9 ks=  2 cc11= 137 range=[51, 68] clash=[] {'Sus MAX': 3, 'Leg Slur MAX': 14} leads={'entry': 3, 'leg': 11} notches=0 uni_drop=8 bloomv=0
+Horn 3          notes=  16 ks=  0 cc11= 165 range=[51, 71] clash=[] {'Sus MAX': 16} leads={'entry': 5} notches=0 uni_drop=0 bloomv=0
+Horn 4          notes=  16 ks=  1 cc11= 177 range=[48, 60] clash=[] {'Sus MAX': 17} leads={'entry': 5} notches=0 uni_drop=1 bloomv=0
+Trombone 1      notes=  10 ks=  4 cc11=  41 range=[52, 60] clash=[] {'Sus Accent MAX': 3, 'Sus MAX': 7} leads={} notches=0 uni_drop=0 bloomv=0
+Trombone 2      notes=   4 ks=  1 cc11=  86 range=[51, 56] clash=[] {'Sus MAX': 4} leads={'entry': 1} notches=0 uni_drop=0 bloomv=0
+Bass trombone   notes=   8 ks=  1 cc11= 125 range=[38, 49] clash=[] {'Sus MAX': 8} leads={'entry': 1} notches=0 uni_drop=0 bloomv=0
+Tuba            notes=   4 ks=  1 cc11=  86 range=[28, 37] clash=[] {'Sus MAX': 4} leads={'entry': 1} notches=0 uni_drop=0 bloomv=0
+Timpani         notes=  16 ks=  5 cc11=   0 range=[44, 51] clash=[] {'Timpani Flt Rls': 11, 'Timpani Flt Lng': 5} leads={} notches=0 uni_drop=0 bloomv=0
+Harp            notes= 169 ks=  0 cc11=   1 range=[27, 66] clash=[] {None: 169} leads={'entry': 79} notches=0 uni_drop=0 bloomv=0
+Violins I       notes= 110 ks= 49 cc11= 503 range=[63, 94] clash=[] {'Leg Slur MAX': 75, 'Leg BC MAX': 32, 'Tremolo': 3} leads={'entry': 7, 'leg': 101} notches=0 uni_drop=0 bloomv=0
+Violins II      notes= 138 ks= 60 cc11= 804 range=[58, 84] clash=[] {'Leg Slur MAX': 71, 'Leg BC MAX': 49, 'Flautando': 14, 'Tremolo': 4} leads={'leg': 113, 'entry': 8} notches=11 uni_drop=0 bloomv=2
+Violas          notes= 278 ks= 76 cc11= 694 range=[51, 70] clash=[] {'Leg Slur MAX': 105, 'Leg BC MAX': 45, 'Sus MAX': 76, 'Pizz RRx4': 42, 'Tremolo': 10} leads={'leg': 137, 'entry': 12} notches=8 uni_drop=0 bloomv=3
+Violoncellos    notes= 126 ks= 55 cc11= 847 range=[42, 65] clash=[] {'Leg Slur MAX': 45, 'Leg BC MAX': 60, 'Sus MAX': 11, 'Pizzicato RRx4': 8, 'Tremolo': 2} leads={'leg': 95, 'entry': 5} notches=5 uni_drop=0 bloomv=4
+Double basses   notes=  94 ks=  3 cc11= 853 range=[28, 44] clash=[] {'Sus MAX': 77, 'Pizz RRx4': 17} leads={'entry': 3} notches=0 uni_drop=0 bloomv=0
+Harp harmonics  notes=   5 ks=  0 cc11=   1 range=[63, 75] clash=[] {None: 5} leads={} notches=0 uni_drop=0 bloomv=0

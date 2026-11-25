@@ -1,0 +1,3643 @@
+{
+ "_doc": "Mix settings applied by tools/build_reaper.py (keys: mockup-kit/pipeline/example-config/mix.json, mockup-kit/LEARNINGS.md sections 12-14). Scherzo c00 (port, 2026-11-07): Movement I series 2's mix at its c43 state (symphony/mvt1/reaper-v621/build/mix.json) with: percussion, Trumpet 3 (tacet), the second-pass and test tracks removed; every qn-keyed loud_eq removed (keyed to movement I's bars); the celli side high shelf held on (mvt1 switched it off for its coda solo); Movement II's later fixes: the side-only low shelves of mvt2 c33 (Double basses 100 Hz -15 dB, Timpani 150 Hz -9, Bass clarinet 250 Hz -6), the woodwind hall send 0.6 (mvt2 c29), Harp env_sustain 1.0 (mvt1 c35 / mvt2 c33); Movement II's Harp harmonics, Violin I solo (1st Violins DIV A) and Violas div (DIV B) entries. Track gains and per-dynamic trims are Movement I's (an Allegro with the same instrumentation); the scherzo's balance is for the loop. c01: critic B #1 Horn 4 soft trims ppp/pp 14/13.5 -> 10/9.5; B #4 bassoon / cor anglais f/ff trims (Bn1 3.5/2.5 -> 0/0, Bn2 4/3 -> 0.5/0.5, CA 2.5/3 -> 0/0.5); C #2 loud_eq at the tuttis 300-360, 900-960, 984-1017 (Movement I's bands, no timpani); C #3 Violas div gain/width; C #4 side low shelves Double basses -15 -> -4, Timpani -9 -> -4; C #6 widths Clarinet 2 / Trumpet 2 0.05, Contrabassoon 0.15. c01 (Dan 2026-11-07, BRIEF S4: too wet, mushy): shared value from the Movement I thread, reverb fx_volume 0.19 -> 0.095 (-6 dB hall return), sends unchanged (full rebuild of every track). Hall low cut 160 Hz (reverb.low_cut_hz, shared value). c02: Horns 1-4 soft_trim_db -> Movement II's c31 values for the soft CC1 map (ppp 4, pp 4, p 4.5, mp 2.8, mf 2.0, own mf kept where higher: Horn 2 2.4, Horn 4 3.3; critic C #1: Movement I's trims, fitted on the low-CC1 layers, compensated the soft map twice: Horn 3 p to ff 3.2 dB); Harp soft_trim_db pp 7 -> 2 (critic B #1: the pp off-beat chords 0.4-6 dB over the p tunes they accompany; its p espress. melody keeps 5).",
+ "_c50": "mvt1 c50 template mix (tools/make_template_mix.py; keys in tools/TEMPLATE-TOOLS.md): Opus reverb off, REAPER returns per family loaded from the EastWest template's chunks with post-fader sends (profile 'ew'; 'duc' for the section 8 A/B), per-mic levels in dB (mic_db) with Close at the seat and Main/Mid/Surround full width (pan_by_mic), REAPER track pans (reaper_pan), family EQ (family_eq) and the master EQ for the delivery (master_eq). The old keys (mics, width_by_mic, send, reverb) stay for a pass-2 copy of the old layout and are inert where the new ones apply.",
+ "reverb": {
+  "from_patch": "/Volumes/MAC DRIVE/EW Hollywood Orchestral Woodwinds Diamond/Hollywood Orch Woodwinds Opus Instruments/3 Bassoons/01 Long/3BS Sus MAX.oib",
+  "fx_volume": 0.095,
+  "wet": 2.0,
+  "send_pre_fader": true,
+  "high_cut_hz": 5500,
+  "impulse": "//ir/HOP True Stereo/S. Cal Hall Perc TS FR 3.3s",
+  "true_stereo": true,
+  "low_cut_hz": 160,
+  "ir_setup": {
+   "envelopeMode": 2,
+   "endPos": 0.7,
+   "decayLength": 0.7
+  },
+  "_ir_setup_c03": "ONE_TIME (Movement I c44): IR envelope endPos 0.5 / decayLength 0.5 in mode 2 (late slope 2.61 -> 1.54 s on Movement I's test track); sends unchanged",
+  "_ir_setup_c05": "c05 (critic C #1): endPos / decayLength 0.5 -> 0.7 (Movement II's c40 value, same reason): the G.P. after the fff summit fell 21.9 / 36.8 / 50.1 dB at +0.3 / +0.6 / +1.0 s after the last note-off (late decay about 1.2 s against the brief's 1.5-2 s); fx_volume 0.095 and the 160 Hz low cut kept (Dan S4)"
+ },
+ "groups": {
+  "wind": {
+   "mics": {
+    "Close": 0.5,
+    "Main": 0.8
+   },
+   "send": 0.6,
+   "width": 0.5,
+   "mic_db": {
+    "Close": 0.0,
+    "Main": -8.6
+   },
+   "pan_by_mic": {
+    "Close": "seat",
+    "Mid": "full",
+    "Main": "full",
+    "Surround": "full"
+   },
+   "family_eq": "woodwinds",
+   "_c50": "template mix: mic_db / pan_by_mic / family_eq (the old mics and width_by_mic are inert under them)",
+   "send_offset_db": {
+    "R Winds": 1.5
+   }
+  },
+  "horn": {
+   "mics": {
+    "Close": 0.5,
+    "Main": 1.0
+   },
+   "send": 0.5,
+   "width": 0.3,
+   "mic_db": {
+    "Close": -6.3,
+    "Main": 0.0
+   },
+   "pan_by_mic": {
+    "Close": "seat",
+    "Mid": "full",
+    "Main": "seat",
+    "Surround": "full"
+   },
+   "family_eq": "brass",
+   "_c50": "template mix: mic_db / pan_by_mic / family_eq (the old mics and width_by_mic are inert under them)",
+   "width_by_mic": {
+    "Main": 0.8
+   }
+  },
+  "lowbrass": {
+   "mics": null,
+   "send": 0.45,
+   "width": 0.5,
+   "mic_db": {
+    "Close": -9.3,
+    "Main": 0.0
+   },
+   "pan_by_mic": {
+    "Close": "seat",
+    "Mid": "full",
+    "Main": "seat",
+    "Surround": "full"
+   },
+   "family_eq": "brass",
+   "_c50": "template mix: mic_db / pan_by_mic / family_eq (the old mics and width_by_mic are inert under them)",
+   "width_by_mic": {
+    "Main": 0.8
+   }
+  },
+  "timp": {
+   "mics": {
+    "Close": 0.2,
+    "Main": 0.5
+   },
+   "send": 0.45,
+   "width": 0.6,
+   "mic_db": {
+    "Close": -8.4,
+    "Main": -6.9,
+    "Surround": 0.0
+   },
+   "pan_by_mic": {
+    "Close": "seat",
+    "Mid": "full",
+    "Main": "seat",
+    "Surround": "full"
+   },
+   "family_eq": "timpani",
+   "_c50": "template mix: mic_db / pan_by_mic / family_eq (the old mics and width_by_mic are inert under them)",
+   "width_by_mic": {
+    "Main": 0.8
+   }
+  },
+  "harp": {
+   "mics": {
+    "Close": 0.6,
+    "Main": 1.0
+   },
+   "send": 0.3,
+   "width": 0.3,
+   "mic_db": {
+    "Close": 0.0,
+    "Mid": 0.0,
+    "Main": -9.0
+   },
+   "pan_by_mic": {
+    "Close": "seat",
+    "Mid": "full",
+    "Main": "seat",
+    "Surround": "full"
+   },
+   "family_eq": "harp",
+   "_c50": "template mix: mic_db / pan_by_mic / family_eq (the old mics and width_by_mic are inert under them)",
+   "width_by_mic": {
+    "Main": 0.8
+   }
+  },
+  "string": {
+   "mics": null,
+   "send": 0.25,
+   "width": 0.5,
+   "mic_db": {
+    "Close": -6.0,
+    "Main": 0.0
+   },
+   "pan_by_mic": {
+    "Close": "seat",
+    "Mid": "full",
+    "Main": "seat",
+    "Surround": "full"
+   },
+   "family_eq": "strings",
+   "_c50": "template mix: mic_db / pan_by_mic / family_eq (the old mics and width_by_mic are inert under them)",
+   "width_by_mic": {
+    "Main": 0.8
+   }
+  },
+  "trumpet": {
+   "mics": {
+    "Close": 0.5,
+    "Main": 1.0
+   },
+   "send": 0.65,
+   "width": 0.3,
+   "mic_db": {
+    "Close": -10.1,
+    "Main": 0.0
+   },
+   "pan_by_mic": {
+    "Close": "seat",
+    "Mid": "full",
+    "Main": "seat",
+    "Surround": "full"
+   },
+   "family_eq": "brass",
+   "_c50": "template mix: mic_db / pan_by_mic / family_eq (the old mics and width_by_mic are inert under them)",
+   "width_by_mic": {
+    "Main": 0.8
+   }
+  }
+ },
+ "tracks": {
+  "Flute 1": {
+   "group": "wind",
+   "gain_db": -0.2,
+   "seat": -0.1,
+   "dyn_trim_db": {
+    "f": -1.5,
+    "ff": 0.2,
+    "fff": -0.28
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 7,
+    "pp": 7,
+    "p": 5,
+    "mf": 2.5
+   },
+   "send": 0.5,
+   "width": 0.05,
+   "mic_db": {
+    "Close": 0.0,
+    "Main": -4.7
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": -1.3,
+   "region_gain_db": [
+    {
+     "rows": [
+      "Stac DblTng RRx9"
+     ],
+     "pitch_db": {
+      "71": 6.0,
+      "74": 5.0,
+      "83": 3.0
+     }
+    },
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Stac DblTng RRx9": {
+       "vel>=75": 4.0
+      }
+     }
+    },
+    {
+     "rows": [
+      "Sus MAX"
+     ],
+     "dyn": [
+      "f"
+     ],
+     "pitch_db": {
+      "88": -2.0,
+      "91": -5.0
+     }
+    },
+    {
+     "rows": [],
+     "row_db": {
+      "Stac DblTng RRx9": 3.0
+     }
+    },
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Sus Accent MAX": {
+       "vel>=75": -1.5
+      }
+     },
+     "_c23": "critics A #3, B #1: accent overlay (range test: -3 with G6 -3.5 took the tutti accents 2.4-4.4 dB down, under their neighbours; halved)"
+    },
+    {
+     "rows": [
+      "Sus Accent MAX"
+     ],
+     "pitch_db": {
+      "91": -2.0
+     },
+     "_c23": "critic B #1: the G6 accents"
+    }
+   ]
+  },
+  "Flute 2": {
+   "group": "wind",
+   "gain_db": 0.2,
+   "seat": -0.16,
+   "dyn_trim_db": {
+    "f": -1.5,
+    "ff": 0.2,
+    "fff": -0.28
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 7,
+    "pp": 7,
+    "p": 5,
+    "mf": 2.5
+   },
+   "send": 0.5,
+   "width": 0.05,
+   "mic_db": {
+    "Close": 0.0,
+    "Main": -3.4
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": -1.5,
+   "region_gain_db": [
+    {
+     "rows": null,
+     "pitch_db": {
+      "87": -1.25,
+      "88": -1.5,
+      "89": -1.75,
+      "90": -1.25,
+      "91": -1.25,
+      "92": -2.0,
+      "93": -2.0
+     }
+    },
+    {
+     "rows": [],
+     "row_db": {
+      "Stac DblTng RRx9": -2.5
+     }
+    },
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Sus MAX": {
+       "f": 3.0
+      }
+     }
+    },
+    {
+     "rows": [
+      "Sus MAX"
+     ],
+     "pitch_db": {
+      "93": -4.0
+     }
+    },
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Sus Accent MAX": {
+       "vel>=75": -1.5
+      }
+     },
+     "_c23": "critics A #3, B #1: accent overlay (range test: -3 with G6 -3.5 took the tutti accents 2.4-4.4 dB down, under their neighbours; halved)"
+    },
+    {
+     "rows": [
+      "Sus Accent MAX"
+     ],
+     "pitch_db": {
+      "91": -2.0
+     },
+     "_c23": "critic B #1: the G6 accents"
+    }
+   ]
+  },
+  "Oboe 1": {
+   "group": "wind",
+   "gain_db": -0.9,
+   "seat": 0.1,
+   "dyn_trim_db": {
+    "f": 3.5,
+    "ff": 7.2,
+    "fff": 6.72
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "send": 0.5,
+   "soft_trim_db": {
+    "ppp": 7,
+    "pp": 7,
+    "p": 5,
+    "mf": 3.1
+   },
+   "width": 0.05,
+   "mic_db": {
+    "Close": 0.0,
+    "Main": -20.6
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": -5.3,
+   "region_gain_db": [
+    {
+     "rows": [
+      "Stac DblTng RRx9"
+     ],
+     "pitch_db": {
+      "81": -3
+     }
+    },
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Stac DblTng RRx9": {
+       "vel>=75": -3.0,
+       "vel<75": 3.0
+      }
+     }
+    }
+   ],
+   "cc7_spans_db": [
+    [
+     386.3,
+     393.0,
+     -4.5,
+     0.5,
+     0.5
+    ],
+    [
+     854.3,
+     861.0,
+     -4.5,
+     0.5,
+     0.5
+    ]
+   ],
+   "_c25_cc7": "B #4b: the role fall at 386.3-386.8 / 854.3-854.8 as CC7, so the printed crescendo rises from it"
+  },
+  "Oboe 2": {
+   "group": "wind",
+   "gain_db": -1.1,
+   "seat": 0.16,
+   "dyn_trim_db": {
+    "f": 3.5,
+    "ff": 7.2,
+    "fff": 6.72
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "send": 0.5,
+   "soft_trim_db": {
+    "ppp": 7,
+    "pp": 7,
+    "p": 5,
+    "mf": 3.1
+   },
+   "width": 0.05,
+   "mic_db": {
+    "Close": 0.0,
+    "Main": -20.6
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": -5.3,
+   "region_gain_db": {
+    "rows": null,
+    "pitch_db": {
+     "77": -4
+    }
+   }
+  },
+  "Cor anglais": {
+   "group": "wind",
+   "gain_db": 3.7,
+   "seat": 0.22,
+   "dyn_trim_db": {
+    "f": 1.5,
+    "ff": 1.7,
+    "fff": 1.22
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "width": 0.05,
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 7,
+    "pp": 6,
+    "p": 5,
+    "mf": 1.5
+   },
+   "mic_db": {
+    "Close": 0.0,
+    "Main": -11.6
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": -1,
+   "region_gain_db": [
+    {
+     "rows": [
+      "Sus Max"
+     ],
+     "pitch_db": {
+      "69": -4.5,
+      "71": 2.5,
+      "75": 3.0
+     }
+    },
+    {
+     "rows": [
+      "Leg Slur MAX"
+     ],
+     "pitch_db": {
+      "69": -3.5,
+      "71": 2.5,
+      "75": 3.0
+     }
+    },
+    {
+     "rows": [
+      "Sus Max"
+     ],
+     "dyn": [
+      "f"
+     ],
+     "pitch_db": {
+      "69": -2.5
+     }
+    },
+    {
+     "rows": [
+      "Stac DblTng RRx9"
+     ],
+     "pitch_db": {
+      "69": -4.5
+     }
+    },
+    {
+     "rows": [],
+     "row_db": {
+      "Stac DblTng RRx9": 3.0
+     }
+    }
+   ]
+  },
+  "Clarinet 1": {
+   "group": "wind",
+   "gain_db": 3.6,
+   "seat": -0.12,
+   "dyn_trim_db": {
+    "f": -1.5,
+    "ff": -1.0,
+    "fff": -0.08
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 6.7,
+    "pp": 7.7,
+    "p": 5.0,
+    "mp": 2.2,
+    "mf": 0.1
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "mic_db": {
+    "Close": 0.0,
+    "Main": -3.4
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": -1,
+   "region_gain_db": [
+    {
+     "rows": [
+      "Leg Slur",
+      "Leg Slur Rep",
+      "Sus Non Vib"
+     ],
+     "pitch_db": {
+      "68": 4.0,
+      "71": 4.5,
+      "69": -2.5,
+      "72": -2.0,
+      "73": 4.5,
+      "75": -2.5,
+      "80": -3.5,
+      "81": -4.0,
+      "85": -5.5,
+      "78": -2.5
+     }
+    }
+   ],
+   "_c19_dyn": "c19 after the render (critic B #3): CC1 f/ff/fff 6-10 units lower moved the stem 0.9 dB at ff (bars 300 / 334 +1.2 / +3.0 dB over Violins I): ff +1.2 -> -1.0 (not rendered)",
+   "cc7_spans_db": [
+    [
+     827.7,
+     839.98,
+     -2.0,
+     0,
+     0
+    ]
+   ],
+   "_c25_cc7": "828-840 pp accompaniment -2 (B #4)"
+  },
+  "Clarinet 2": {
+   "group": "wind",
+   "gain_db": 1.2,
+   "seat": -0.18,
+   "dyn_trim_db": {
+    "f": -1.0,
+    "ff": 1.2,
+    "fff": -1.18
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 7.2,
+    "pp": 7.0,
+    "p": 7.1,
+    "mp": 4.3,
+    "mf": 1.0
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "mic_db": {
+    "Close": 0.0,
+    "Main": -3.4
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": -1,
+   "region_gain_db": [
+    {
+     "rows": [
+      "Leg Slur",
+      "Leg Slur Rep",
+      "Sus Non Vib"
+     ],
+     "pitch_db": {
+      "61": 4.0,
+      "69": -2.5,
+      "67": 1.5
+     }
+    }
+   ],
+   "cc7_spans_db": [
+    [
+     827.7,
+     839.98,
+     -3.0,
+     0,
+     0
+    ],
+    [
+     671.75,
+     683.0,
+     -2.0,
+     0,
+     0.3
+    ]
+   ],
+   "_c25_cc7": "the [828, 840, -3] role as CC7 (B #4b) 672-684 under the oboe -2 (B #5b)"
+  },
+  "Bass clarinet": {
+   "group": "wind",
+   "gain_db": 3.0,
+   "seat": -0.05,
+   "dyn_trim_db": {
+    "f": 0.5,
+    "ff": 1.2,
+    "fff": 0.72
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 30
+    },
+    {
+     "band": "highshelf",
+     "hz": 2500,
+     "db": -4
+    }
+   ],
+   "width": 0.3,
+   "soft_trim_db": {
+    "ppp": 4,
+    "pp": 5,
+    "p": 5.0,
+    "mf": 1.0
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    },
+    {
+     "band": "lowshelf",
+     "hz": 250,
+     "db": -6
+    }
+   ],
+   "mic_db": {
+    "Close": 0.0,
+    "Main": -9.8
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 30
+    },
+    {
+     "band": "highshelf",
+     "hz": 2500,
+     "db": -4
+    }
+   ],
+   "_gain_c05": 1
+  },
+  "Bassoon 1": {
+   "group": "wind",
+   "gain_db": -1.7,
+   "seat": 0.12,
+   "dyn_trim_db": {
+    "f": 2.0,
+    "ff": 4.0,
+    "fff": 0.72
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 30
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 8,
+    "pp": 8,
+    "p": 7.0,
+    "mf": 3.6
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "_scherzo_c04": "gain -2 -> -5 (critic B #1)",
+   "mic_db": {
+    "Close": 0.0,
+    "Main": -8.6
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 30
+    }
+   ],
+   "_gain_c05": -5,
+   "sends": {
+    "R Winds": -11.36
+   },
+   "_c07_sends": "c07 (research batch 5 item 1, the finale's c07): no hall send (-150 dB = off; an empty sends list would leave the old send in REAPER)"
+  },
+  "Bassoon 2": {
+   "group": "wind",
+   "gain_db": -2.2,
+   "seat": 0.18,
+   "dyn_trim_db": {
+    "f": 0.5,
+    "ff": 1.7,
+    "fff": 1.22
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 30
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 9,
+    "pp": 9,
+    "p": 8.0,
+    "mf": 4.3
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "loud_eq": {
+    "points": [
+     [
+      298,
+      0
+     ],
+     [
+      300,
+      1
+     ],
+     [
+      358,
+      1
+     ],
+     [
+      360,
+      0
+     ],
+     [
+      898,
+      0
+     ],
+     [
+      900,
+      1
+     ],
+     [
+      958,
+      1
+     ],
+     [
+      960,
+      0
+     ],
+     [
+      982,
+      0
+     ],
+     [
+      984,
+      1
+     ],
+     [
+      1015,
+      1
+     ],
+     [
+      1017,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 140,
+      "db": 3,
+      "bw_oct": 1.0
+     }
+    ]
+   },
+   "_scherzo_c04": "gain -2 -> -5 (critic B #1)",
+   "mic_db": {
+    "Close": 0.0,
+    "Main": -8.6
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 30
+    }
+   ],
+   "_gain_c05": -5,
+   "sends": {
+    "R Winds": -11.36
+   },
+   "_c07_sends": "c07 (research batch 5 item 1, the finale's c07): no hall send (-150 dB = off; an empty sends list would leave the old send in REAPER)"
+  },
+  "Contrabassoon": {
+   "group": "wind",
+   "gain_db": 4.7,
+   "seat": 0.25,
+   "dyn_trim_db": {
+    "f": -1.3,
+    "ff": 1.1,
+    "fff": 3.42
+   },
+   "eq": [
+    {
+     "band": "lowshelf",
+     "hz": 70,
+     "db": -4
+    },
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": -6
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -2
+    },
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 7.0,
+    "pp": 7.0,
+    "p": 5.0,
+    "mp": 3.7,
+    "mf": 3.2
+   },
+   "width": 0.15,
+   "loud_eq": {
+    "points": [
+     [
+      298,
+      0
+     ],
+     [
+      300,
+      1
+     ],
+     [
+      358,
+      1
+     ],
+     [
+      360,
+      0
+     ],
+     [
+      898,
+      0
+     ],
+     [
+      900,
+      1
+     ],
+     [
+      958,
+      1
+     ],
+     [
+      960,
+      0
+     ],
+     [
+      982,
+      0
+     ],
+     [
+      984,
+      1
+     ],
+     [
+      1015,
+      1
+     ],
+     [
+      1017,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 140,
+      "db": 4,
+      "bw_oct": 1.0
+     }
+    ]
+   },
+   "mic_db": {
+    "Close": 0.0,
+    "Main": -8.6
+   },
+   "_eq_c05": [
+    {
+     "band": "lowshelf",
+     "hz": 70,
+     "db": -4
+    }
+   ],
+   "_gain_c05": 2,
+   "sends": {
+    "R Winds": -150.0
+   },
+   "_c07_sends": "c07 (research batch 5 item 1, the finale's c07): no hall send (-150 dB = off; an empty sends list would leave the old send in REAPER)"
+  },
+  "Horn 1": {
+   "group": "horn",
+   "gain_db": -1.17,
+   "seat": -0.25,
+   "dyn_trim_db": {
+    "f": -0.8,
+    "ff": -1.0,
+    "fff": -3.7
+   },
+   "eq": [],
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4,
+    "pp": 4,
+    "p": 4.5,
+    "mp": 2.8,
+    "mf": 2.0
+   },
+   "width": 0.05,
+   "sus_release_cap_ms": {
+    "ms": 237,
+    "dyn": [
+     "pp",
+     "mf",
+     "f"
+    ],
+    "rows": [
+     "Sus MAX",
+     "LegRep RRx4"
+    ]
+   },
+   "_cap_c03": "ONE_TIME (Movement I c44): 237 ms (the patch's own ff value) at pp/mf/f on Sus MAX and LegRep RRx4 (ship pp 562, mf 394, f 316)",
+   "mic_db": {
+    "Close": -1.4,
+    "Main": -5.2
+   },
+   "reaper_pan": -0.18,
+   "_seat_c05": -0.48,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": -4,
+   "_c06_side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "_c08_gain": "c08: gain 5.6 -4.47 (K-weighted loudness the c08 EQ change takes or adds)",
+   "rt_gain_db": {
+    "db": -6.0,
+    "rows": [
+     "Sus MAX"
+    ]
+   },
+   "region_gain_db": {
+    "rows": null,
+    "pitch_db": {
+     "66": 4,
+     "68": 3.5
+    }
+   }
+  },
+  "Horn 2": {
+   "group": "horn",
+   "gain_db": 0.21,
+   "seat": -0.25,
+   "dyn_trim_db": {
+    "f": 0.0,
+    "ff": -2.1,
+    "fff": -3.7
+   },
+   "eq": [],
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4,
+    "pp": 4,
+    "p": 4.5,
+    "mp": 2.8,
+    "mf": 1.4
+   },
+   "width": 0.05,
+   "sus_release_cap_ms": {
+    "ms": 237,
+    "dyn": [
+     "pp",
+     "mf",
+     "f"
+    ],
+    "rows": [
+     "Sus MAX",
+     "LegRep RRx4"
+    ]
+   },
+   "_cap_c03": "ONE_TIME (Movement I c44): 237 ms (the patch's own ff value) at pp/mf/f on Sus MAX and LegRep RRx4 (ship pp 562, mf 394, f 316)",
+   "mic_db": {
+    "Close": -6.3,
+    "Main": 0.0
+   },
+   "reaper_pan": -0.16,
+   "_seat_c05": -0.42,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": -4,
+   "_c06_side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "_c08_gain": "c08: gain 3.7 -3.49 (K-weighted loudness the c08 EQ change takes or adds)",
+   "rt_gain_db": {
+    "db": -6.0,
+    "rows": [
+     "Sus MAX"
+    ]
+   },
+   "region_gain_db": {
+    "rows": null,
+    "pitch_db": {
+     "66": 4,
+     "68": 3.5,
+     "64": -3
+    }
+   },
+   "cc7_spans_db": [
+    [
+     827.6,
+     839.7,
+     -2.0,
+     0,
+     0
+    ]
+   ],
+   "_c25_cc7": "828-840 pp accompaniment -2 (B #4)"
+  },
+  "Horn 3": {
+   "group": "horn",
+   "gain_db": 0.31,
+   "seat": -0.25,
+   "dyn_trim_db": {
+    "f": 0.9,
+    "ff": -0.4,
+    "fff": -0.2
+   },
+   "eq": [],
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4,
+    "pp": 4,
+    "p": 4.5,
+    "mp": 2.8,
+    "mf": 2.0
+   },
+   "width": 0.05,
+   "sus_release_cap_ms": {
+    "ms": 237,
+    "dyn": [
+     "pp",
+     "mf",
+     "f"
+    ],
+    "rows": [
+     "Sus MAX",
+     "LegRep RRx4"
+    ]
+   },
+   "_cap_c03": "ONE_TIME (Movement I c44): 237 ms (the patch's own ff value) at pp/mf/f on Sus MAX and LegRep RRx4 (ship pp 562, mf 394, f 316)",
+   "mic_db": {
+    "Close": -6.3,
+    "Main": 0.0
+   },
+   "reaper_pan": -0.15,
+   "_seat_c05": -0.38,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": -4,
+   "_c06_side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "_c08_gain": "c08: gain 3.8 -3.49 (K-weighted loudness the c08 EQ change takes or adds)",
+   "rt_gain_db": {
+    "db": -6.0,
+    "rows": [
+     "Sus MAX"
+    ]
+   },
+   "region_gain_db": {
+    "rows": null,
+    "pitch_db": {
+     "64": -1.0,
+     "68": 3.5,
+     "54": 3
+    }
+   },
+   "channel_map": 2,
+   "cc7_spans_db": [
+    [
+     827.6,
+     839.85,
+     -2.0,
+     0,
+     0.3
+    ]
+   ],
+   "_c25_cc7": "828-840 pp accompaniment -2 (B #4)"
+  },
+  "Horn 4": {
+   "group": "horn",
+   "gain_db": 0.81,
+   "seat": -0.25,
+   "dyn_trim_db": {
+    "f": 2.5,
+    "ff": 2.0,
+    "fff": 2.0
+   },
+   "eq": [],
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4,
+    "pp": 4,
+    "p": 4.5,
+    "mp": 2.8,
+    "mf": 3.3
+   },
+   "width": 0.05,
+   "sus_release_cap_ms": {
+    "ms": 237,
+    "dyn": [
+     "pp",
+     "mf",
+     "f"
+    ],
+    "rows": [
+     "Sus MAX",
+     "LegRep RRx4"
+    ]
+   },
+   "_cap_c03": "ONE_TIME (Movement I c44): 237 ms (the patch's own ff value) at pp/mf/f on Sus MAX and LegRep RRx4 (ship pp 562, mf 394, f 316)",
+   "mic_db": {
+    "Close": -6.3,
+    "Main": 0.0
+   },
+   "reaper_pan": -0.13,
+   "_seat_c05": -0.34,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": -4,
+   "_c06_side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "_c08_gain": "c08: gain 4.7 -3.89 (K-weighted loudness the c08 EQ change takes or adds)",
+   "rt_gain_db": {
+    "db": -6.0,
+    "rows": [
+     "Sus MAX"
+    ]
+   },
+   "region_gain_db": {
+    "rows": null,
+    "pitch_db": {
+     "52": -4,
+     "54": 4,
+     "66": 4,
+     "68": 3.5
+    }
+   }
+  },
+  "Trombone 1": {
+   "group": "lowbrass",
+   "gain_db": 8.23,
+   "seat": 0.25,
+   "dyn_trim_db": {
+    "f": -0.9,
+    "ff": 0.8,
+    "fff": -0.6
+   },
+   "eq": [
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": -4
+    }
+   ],
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 14.6,
+    "pp": 14.6,
+    "p": 10.6,
+    "mp": 7.4,
+    "mf": 4.1
+   },
+   "mic_db": {
+    "Close": -9.3,
+    "Main": 0.0
+   },
+   "reaper_pan": 0.255,
+   "_seat_c05": 0.3,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": -4
+    }
+   ],
+   "_gain_c05": 0,
+   "sends": {
+    "R Brass": -11.77
+   },
+   "_c07_sends": "c07 (research batch 5 item 1, the finale's c07): no hall send (-150 dB = off; an empty sends list would leave the old send in REAPER)",
+   "_c06_side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "_c08_gain": "c08: gain 8.2 -2.97 (K-weighted loudness the c08 EQ change takes or adds)",
+   "track_width": 0.6,
+   "cc7_spans_db": [
+    [
+     992.69,
+     993.3,
+     -3.0,
+     0,
+     1.2
+    ]
+   ],
+   "_c25_cc7": "993 pp head -3, back over the crescendo (keeps c24's softer start)"
+  },
+  "Trombone 2": {
+   "group": "lowbrass",
+   "gain_db": 8.81,
+   "seat": 0.25,
+   "dyn_trim_db": {
+    "f": 1.9,
+    "ff": 3.3,
+    "fff": 1.9
+   },
+   "eq": [
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": -4
+    }
+   ],
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 14.2,
+    "pp": 14.2,
+    "p": 10.3,
+    "mp": 8.3,
+    "mf": 5.9
+   },
+   "mic_db": {
+    "Close": -9.3,
+    "Main": 0.0
+   },
+   "reaper_pan": 0.26,
+   "_seat_c05": 0.35,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": -4
+    }
+   ],
+   "_gain_c05": 0,
+   "sends": {
+    "R Brass": -11.77
+   },
+   "_c07_sends": "c07 (research batch 5 item 1, the finale's c07): no hall send (-150 dB = off; an empty sends list would leave the old send in REAPER)",
+   "_c06_side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "_c08_gain": "c08: gain 9.1 -3.29 (K-weighted loudness the c08 EQ change takes or adds)",
+   "track_width": 0.6
+  },
+  "Bass trombone": {
+   "group": "lowbrass",
+   "gain_db": 9.33,
+   "seat": 0.25,
+   "dyn_trim_db": {
+    "f": 1.4,
+    "ff": 3.3,
+    "fff": 2.2
+   },
+   "eq": [
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": -4
+    }
+   ],
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 13.1,
+    "pp": 13.1,
+    "p": 9.8,
+    "mp": 8.8,
+    "mf": 7.2
+   },
+   "loud_eq": {
+    "points": [
+     [
+      298,
+      0
+     ],
+     [
+      300,
+      1
+     ],
+     [
+      358,
+      1
+     ],
+     [
+      360,
+      0
+     ],
+     [
+      898,
+      0
+     ],
+     [
+      900,
+      1
+     ],
+     [
+      958,
+      1
+     ],
+     [
+      960,
+      0
+     ],
+     [
+      982,
+      0
+     ],
+     [
+      984,
+      1
+     ],
+     [
+      1015,
+      1
+     ],
+     [
+      1017,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 140,
+      "db": 4,
+      "bw_oct": 1.0
+     }
+    ]
+   },
+   "mic_db": {
+    "Close": -9.3,
+    "Main": 0.0
+   },
+   "reaper_pan": 0.225,
+   "_seat_c05": 0.4,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": -4
+    }
+   ],
+   "_gain_c05": 0,
+   "sends": {
+    "R Brass": -11.77
+   },
+   "_c07_sends": "c07 (research batch 5 item 1, the finale's c07): no hall send (-150 dB = off; an empty sends list would leave the old send in REAPER)",
+   "_c06_side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -2
+    },
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "_c08_gain": "c08: gain 9.4 -3.07 (K-weighted loudness the c08 EQ change takes or adds)",
+   "track_width": 0.6
+  },
+  "Tuba": {
+   "group": "lowbrass",
+   "gain_db": 6.95,
+   "seat": 0.35,
+   "dyn_trim_db": {
+    "f": -1.4,
+    "ff": -2.8,
+    "fff": -1.6
+   },
+   "eq": [
+    {
+     "band": "lowshelf",
+     "hz": 70,
+     "db": -4
+    }
+   ],
+   "mics": {
+    "Close": 0.45,
+    "Main": 1.0
+   },
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 14.2,
+    "pp": 14.2,
+    "p": 10.3,
+    "mp": 7.4,
+    "mf": 4.1
+   },
+   "loud_eq": {
+    "points": [
+     [
+      298,
+      0
+     ],
+     [
+      300,
+      1
+     ],
+     [
+      358,
+      1
+     ],
+     [
+      360,
+      0
+     ],
+     [
+      898,
+      0
+     ],
+     [
+      900,
+      1
+     ],
+     [
+      958,
+      1
+     ],
+     [
+      960,
+      0
+     ],
+     [
+      982,
+      0
+     ],
+     [
+      984,
+      1
+     ],
+     [
+      1015,
+      1
+     ],
+     [
+      1017,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 140,
+      "db": 4,
+      "bw_oct": 1.0
+     }
+    ]
+   },
+   "mic_db": {
+    "Close": -10.2,
+    "Main": 0.0
+   },
+   "reaper_pan": 0.23,
+   "_seat_c05": 0.45,
+   "_eq_c05": [
+    {
+     "band": "lowshelf",
+     "hz": 70,
+     "db": -4
+    },
+    {
+     "band": "highpass",
+     "hz": 25
+    },
+    {
+     "band": "bell2",
+     "hz": 84,
+     "db": -5,
+     "bw_oct": 0.3,
+     "_c26": "critic B #5: E2/F2 fundamental carried most of the master 30-100 Hz on those notes"
+    }
+   ],
+   "_gain_c05": 2,
+   "sends": {
+    "R Brass": -11.77
+   },
+   "_c07_sends": "c07 (research batch 5 item 1, the finale's c07): no hall send (-150 dB = off; an empty sends list would leave the old send in REAPER)",
+   "_c06_side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -2
+    },
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "_c08_gain": "c08: gain 9.7 -2.75 (K-weighted loudness the c08 EQ change takes or adds)",
+   "cc7_spans_db": [
+    [
+     992.69,
+     993.3,
+     -4.0,
+     0,
+     1.2
+    ]
+   ],
+   "_c25_cc7": "993 pp head -4, back over the crescendo (keeps c24's softer start)"
+  },
+  "Timpani": {
+   "group": "timp",
+   "gain_db": -5.3,
+   "seat": -0.05,
+   "dyn_trim_db": {
+    "f": 0,
+    "ff": 0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 45
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "mic_db": {
+    "Close": -8.4,
+    "Main": -6.9,
+    "Surround": 0.0
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 45
+    }
+   ],
+   "_gain_c05": -7,
+   "_c06_side_shelf": {
+    "hz": 150,
+    "db": -4
+   }
+  },
+  "Harp": {
+   "group": "harp",
+   "gain_db": 1.1,
+   "seat": -0.45,
+   "dyn_trim_db": {
+    "f": 1,
+    "ff": 2
+   },
+   "eq": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -4,
+     "bw_oct": 1.2
+    }
+   ],
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "env_release_ms": 200,
+   "env_sustain": 1.0,
+   "soft_trim_db": {
+    "ppp": 2,
+    "pp": 2,
+    "p": 5
+   },
+   "mic_db": {
+    "Close": 0.0,
+    "Mid": 0.0,
+    "Main": -9.0
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 30
+    }
+   ],
+   "_gain_c05": -4,
+   "_c06_side_shelf": {
+    "hz": 300,
+    "db": -8
+   }
+  },
+  "Violins I": {
+   "group": "string",
+   "gain_db": 8.03,
+   "seat": -0.31,
+   "dyn_trim_db": {
+    "f": 0.0,
+    "ff": 2.3,
+    "fff": 1.98
+   },
+   "eq": [
+    {
+     "band": "highshelf",
+     "hz": 5000,
+     "db": -6
+    },
+    {
+     "band": "bell",
+     "hz": 3000,
+     "db": -2,
+     "bw_oct": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4,
+    "pp": 4,
+    "p": 3,
+    "mf": 1.0
+   },
+   "sus_release_cap_ms": [
+    {
+     "ms": 150,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE"
+     ]
+    },
+    {
+     "ms": 350,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE"
+     ]
+    },
+    {
+     "ms": 120,
+     "dyn": [
+      "pp",
+      "p",
+      "mp",
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus Marc LITE"
+     ],
+     "_c07": "critic A #2: the heads and hemiola strokes are all followed by moving notes"
+    },
+    {
+     "ms": 100,
+     "rows": [
+      "Staccatissimo RRx9",
+      "Stac RRx14",
+      "Stac On Bow RRx9"
+     ],
+     "orphan_only": true,
+     "deactivate": true
+    }
+   ],
+   "_cap_c03": "ONE_TIME (Movement I c44, list form of c46 / mockup-kit README item 11): 150 ms at mf-ff, 350 ms at pp/p on Sus MAX and Sus Marc LITE (the patch ships 323-931 ms); replaces c00's 250 ms mf-ff cap",
+   "mic_db": {
+    "Close": -4.5,
+    "Main": 0.0
+   },
+   "reaper_pan": -0.1,
+   "_seat_c05": -0.55,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 5000,
+     "db": -4
+    }
+   ],
+   "_gain_c05": 5,
+   "_c07_close": "c07 (critic C #1.3): Close -9.0 -> -4.5 dB under Main; gain -0.80 dB (power sum of Close + Main)",
+   "_c06_side_shelf": null,
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "_c08_gain": "c08: gain 6.2 +1.83 (K-weighted loudness the c08 EQ change takes or adds)",
+   "region_gain_db": [
+    {
+     "rows": [],
+     "row_db": {
+      "Sus Marc LITE": -8.0
+     },
+     "_c15": "the theme head's half notes and slurred eighths (27 notes) and the hemiola strokes (12) play on this row; c13 / c14 cut them 7-15 dB with per-note level rows (median -7.9 half notes, -7.5 eighths). The row's level is now set in the Opus state; the hemiola level rows lose the same 8 dB"
+    },
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Stac RRx14": {
+       "vel>=90": -1.5
+      }
+     }
+    },
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Sus Marc LITE": {
+       "vel<66": -4.0
+      }
+     },
+     "_c19": "critic A #3"
+    },
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Spiccato RRx9": {
+       "vel>=90": -4.0
+      }
+     },
+     "_c25": "critic A #1a: the rerouted tutti staccatos at v95 (90-114 layer; no original Spiccato note there)"
+    }
+   ]
+  },
+  "Violins II": {
+   "group": "string",
+   "gain_db": 9.14,
+   "seat": -0.07,
+   "dyn_trim_db": {
+    "f": 1.0,
+    "ff": 1.8,
+    "fff": 1.48
+   },
+   "eq": [
+    {
+     "band": "highshelf",
+     "hz": 5000,
+     "db": -4
+    },
+    {
+     "band": "bell",
+     "hz": 3000,
+     "db": -2,
+     "bw_oct": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4,
+    "pp": 3,
+    "p": 2,
+    "mf": 1.2
+   },
+   "sus_release_cap_ms": [
+    {
+     "ms": 150,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE"
+     ]
+    },
+    {
+     "ms": 350,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE"
+     ]
+    },
+    {
+     "ms": 150.0,
+     "rows": [
+      "Stac RRx9"
+     ],
+     "any_dyn": true,
+     "_c20": "critic A #4: repeated staccato eighths (749 ms)"
+    },
+    {
+     "ms": 150.0,
+     "rows": [
+      "Spiccato RRx9"
+     ],
+     "any_dyn": true,
+     "_c21": "critic A #1 (1718 ms)"
+    }
+   ],
+   "_cap_c03": "ONE_TIME (Movement I c44, list form of c46 / mockup-kit README item 11): 150 ms at mf-ff, 350 ms at pp/p on Sus MAX and Sus Marc LITE (the patch ships 323-931 ms); replaces c00's 250 ms mf-ff cap",
+   "mic_db": {
+    "Close": -4.5,
+    "Main": 0.0
+   },
+   "reaper_pan": -0.21,
+   "_seat_c05": -0.25,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": 6,
+   "_c07_close": "c07 (critic C #1.3): Close -7.7 -> -4.5 dB under Main; gain -0.64 dB (power sum of Close + Main)",
+   "_c06_side_shelf": null,
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "_c08_gain": "c08: gain 7.66 +1.48 (K-weighted loudness the c08 EQ change takes or adds)",
+   "region_gain_db": [
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Leg Slur MAX": {
+       "f": 2.0,
+       "ff": 2.0
+      }
+     }
+    },
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Spiccato RRx9": {
+       "vel>=80": -1.5
+      }
+     }
+    }
+   ],
+   "cresc_trim_hold": {
+    "keep": 0.3,
+    "release_s": 1.0,
+    "groups": [
+     "wind",
+     "string"
+    ],
+    "max_hold_db": 3.5,
+    "skip": [
+     [
+      297.0,
+      312.0
+     ],
+     [
+      897.0,
+      912.0
+     ],
+     [
+      840.0,
+      852.0
+     ],
+     [
+      372.0,
+      384.0
+     ],
+     [
+      108.0,
+      120.0
+     ],
+     [
+      576.0,
+      588.0
+     ],
+     [
+      1002.0,
+      1005.0
+     ],
+     [
+      981.0,
+      984.0
+     ]
+    ]
+   },
+   "cc7_spans_db": [
+    [
+     670.98,
+     683.8,
+     -2.0,
+     0,
+     0.3
+    ]
+   ],
+   "_c25_cc7": "672-684 under the oboe -2 (B #5b)"
+  },
+  "Violas": {
+   "group": "string",
+   "gain_db": 3.57,
+   "seat": 0.0,
+   "dyn_trim_db": {
+    "f": -2,
+    "ff": -1.4,
+    "fff": -2.04
+   },
+   "soft_trim_db": {
+    "ppp": 5,
+    "pp": 6,
+    "p": 5
+   },
+   "eq": [],
+   "sus_release_cap_ms": [
+    {
+     "ms": 150,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE"
+     ]
+    },
+    {
+     "ms": 350,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE"
+     ]
+    },
+    {
+     "ms": 150.0,
+     "rows": [
+      "Stac RRx9",
+      "Staccatissimo RRx16"
+     ],
+     "any_dyn": true,
+     "_c21": "critic A #1 (489 / 1000 ms)"
+    }
+   ],
+   "_cap_c03": "ONE_TIME (Movement I c44, list form of c46 / mockup-kit README item 11): 150 ms at mf-ff, 350 ms at pp/p on Sus MAX and Sus Marc LITE (the patch ships 323-931 ms); replaces c00's 250 ms mf-ff cap",
+   "mic_db": {
+    "Close": -4.5,
+    "Main": 0.0
+   },
+   "reaper_pan": 0.0,
+   "_seat_c05": 0.15,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": 2,
+   "_c07_close": "c07 (critic C #1.3): Close -7.0 -> -4.5 dB under Main; gain -0.53 dB (power sum of Close + Main)",
+   "_c06_side_shelf": null,
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "region_gain_db": [
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Sus MAX": {
+       "pp": 2.0,
+       "p": 2.0
+      }
+     }
+    },
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Stac RRx9": {
+       "vel<61": -1.5
+      }
+     }
+    }
+   ],
+   "cc7_spans_db": [
+    [
+     827.42,
+     839.1,
+     -2.0,
+     0,
+     0
+    ],
+    [
+     636.5,
+     671.45,
+     2.0,
+     0,
+     0
+    ],
+    [
+     671.45,
+     683.27,
+     -2.0,
+     0,
+     0
+    ]
+   ],
+   "_c25_cc7": "828-840 pp accompaniment -2 (B #4) 636-672 div. thirds +2 (B #5a); 672-684 -2 (B #5b)"
+  },
+  "Violoncellos": {
+   "group": "string",
+   "gain_db": 1.0,
+   "seat": 0.33,
+   "dyn_trim_db": {
+    "f": -1.0,
+    "ff": -0.9,
+    "fff": -1.54
+   },
+   "eq": [],
+   "width": 0.28,
+   "soft_trim_db": {
+    "ppp": 6,
+    "pp": 6,
+    "p": 5,
+    "mf": 0.7
+   },
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "side_shelf_switched": {
+    "points": [
+     [
+      0,
+      1
+     ]
+    ],
+    "bands": [
+     {
+      "band": "highshelf",
+      "hz": 1500,
+      "db": 4
+     }
+    ]
+   },
+   "_scherzo_c00": "side_shelf_switched held on (mvt1 switched it off for its coda solo)",
+   "loud_eq": {
+    "points": [
+     [
+      298,
+      0
+     ],
+     [
+      300,
+      1
+     ],
+     [
+      358,
+      1
+     ],
+     [
+      360,
+      0
+     ],
+     [
+      898,
+      0
+     ],
+     [
+      900,
+      1
+     ],
+     [
+      958,
+      1
+     ],
+     [
+      960,
+      0
+     ],
+     [
+      982,
+      0
+     ],
+     [
+      984,
+      1
+     ],
+     [
+      1015,
+      1
+     ],
+     [
+      1017,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 150,
+      "db": 2,
+      "bw_oct": 1.0
+     }
+    ]
+   },
+   "sus_release_cap_ms": [
+    {
+     "ms": 150,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE"
+     ]
+    },
+    {
+     "ms": 350,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE"
+     ]
+    },
+    {
+     "ms": 200.0,
+     "rows": [
+      "Stac RRx9"
+     ],
+     "any_dyn": true,
+     "_c21": "critic A #1 (372 ms)"
+    }
+   ],
+   "_cap_c03": "ONE_TIME (Movement I c44, list form of c46 / mockup-kit README item 11): 150 ms at mf-ff, 350 ms at pp/p on Sus MAX and Sus Marc LITE (the patch ships 323-931 ms); replaces c00's 250 ms mf-ff cap",
+   "_scherzo_c04": "loud_eq 150 Hz +6 -> +2 (critic B #3: with the two permanent bells up to +12 dB around 150 Hz in the tuttis; celli the loudest stem at 101-104 and the summit)",
+   "mic_db": {
+    "Close": -4.5,
+    "Main": 0.0
+   },
+   "reaper_pan": 0.15,
+   "send_offset_db": {
+    "R Strings": -1.6,
+    "R Duc": -1.6
+   },
+   "send_row_db": {
+    "R Strings": {
+     "Pizzicato RRx4": -5.4,
+     "Stac RRx9": -5.4,
+     "Stac On Bow RRx9": -5.4
+    },
+    "R Duc": {
+     "Pizzicato RRx4": -5.4,
+     "Stac RRx9": -5.4,
+     "Stac On Bow RRx9": -5.4
+    }
+   },
+   "_seat_c05": 0.35,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 30
+    },
+    {
+     "band": "bell",
+     "hz": 170,
+     "db": 3,
+     "bw_oct": 1.5
+    },
+    {
+     "band": "bell2",
+     "hz": 125,
+     "db": 3,
+     "bw_oct": 1.0
+    }
+   ],
+   "_gain_c05": 0,
+   "_c07_close": "c07 (critic C #1.3): Close -6.6 -> -4.5 dB under Main; gain -0.46 dB (power sum of Close + Main)",
+   "_c06_side_shelf": [
+    {
+     "band": "bell",
+     "hz": 170,
+     "db": -2,
+     "bw_oct": 1.0
+    }
+   ],
+   "_eq_c13": [
+    {
+     "band": "bell",
+     "hz": 170,
+     "db": 3,
+     "bw_oct": 1.5
+    },
+    {
+     "band": "bell2",
+     "hz": 125,
+     "db": 3,
+     "bw_oct": 1.0
+    }
+   ],
+   "region_gain_db": [
+    {
+     "rows": [
+      "Pizzicato RRx4"
+     ],
+     "pitch_db": {
+      "43": -6.0,
+      "42": -6.0,
+      "39": -6.0,
+      "44": -4.0,
+      "47": -3.0,
+      "45": -5.0,
+      "50": 5.0
+     }
+    },
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Sus MAX": {
+       "pp": 2.0,
+       "p": 2.0
+      }
+     }
+    },
+    {
+     "rows": [],
+     "row_dyn_db": {
+      "Leg Slur MAX": {
+       "f": 4.5,
+       "ff": 4.5
+      }
+     }
+    }
+   ]
+  },
+  "Double basses": {
+   "group": "string",
+   "gain_db": -3.4,
+   "seat": 0.62,
+   "width": 0.28,
+   "dyn_trim_db": {
+    "f": 2.5,
+    "ff": 6.4,
+    "fff": 5.44
+   },
+   "eq": [],
+   "mics": {
+    "Close": 0.6,
+    "Main": 1.0
+   },
+   "soft_trim_db": {
+    "ppp": 8,
+    "pp": 8.5,
+    "p": 8.0,
+    "mf": 3.7
+   },
+   "mute_eq": {
+    "from_qn": -2.5,
+    "bands": [
+     {
+      "band": "bell2",
+      "hz": 73.4,
+      "db": -5,
+      "bw_oct": 0.25
+     }
+    ],
+    "_c27": "critic B #1: static (wet 1 from inside the pre-roll) B1 / D2 fundamental cuts"
+   },
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "loud_eq": {
+    "points": [
+     [
+      298,
+      0
+     ],
+     [
+      300,
+      1
+     ],
+     [
+      358,
+      1
+     ],
+     [
+      360,
+      0
+     ],
+     [
+      898,
+      0
+     ],
+     [
+      900,
+      1
+     ],
+     [
+      958,
+      1
+     ],
+     [
+      960,
+      0
+     ],
+     [
+      982,
+      0
+     ],
+     [
+      984,
+      1
+     ],
+     [
+      1015,
+      1
+     ],
+     [
+      1017,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 160,
+      "db": 3,
+      "bw_oct": 1.0
+     },
+     {
+      "band": "bell2",
+      "hz": 98,
+      "db": -2,
+      "bw_oct": 0.5
+     }
+    ]
+   },
+   "sus_release_cap_ms": [
+    {
+     "ms": 150,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE"
+     ]
+    },
+    {
+     "ms": 350,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE"
+     ]
+    },
+    {
+     "ms": 200.0,
+     "rows": [
+      "Staccato RRx9"
+     ],
+     "any_dyn": true,
+     "_c21": "critic A #1 (1330 ms)"
+    }
+   ],
+   "_cap_c03": "ONE_TIME (Movement I c44, list form of c46 / mockup-kit README item 11): 150 ms at mf-ff, 350 ms at pp/p on Sus MAX and Sus Marc LITE (the patch ships 323-931 ms); replaces c00's 250 ms mf-ff cap",
+   "mic_db": {
+    "Close": -3.3,
+    "Main": 0.0
+   },
+   "reaper_pan": 0.23,
+   "send_offset_db": {
+    "R Strings": -1.6,
+    "R Duc": -1.6
+   },
+   "send_row_db": {
+    "R Strings": {
+     "Pizz RRx4": -5.4
+    },
+    "R Duc": {
+     "Pizz RRx4": -5.4
+    }
+   },
+   "_seat_c05": 0.5,
+   "family_eq": "strings_basses",
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 25
+    },
+    {
+     "band": "bell",
+     "hz": 180,
+     "db": 4,
+     "bw_oct": 1.0
+    },
+    {
+     "band": "bell2",
+     "hz": 87.3,
+     "db": -10,
+     "bw_oct": 0.15,
+     "_c24": "critic B #2: F2 60-100 Hz still +5 dB over its neighbours with -6 at 0.25 oct"
+    }
+   ],
+   "_gain_c05": -8,
+   "sends": {
+    "R Strings": -150.0
+   },
+   "_c07_sends": "c07 (research batch 5 item 1, the finale's c07): no hall send (-150 dB = off; an empty sends list would leave the old send in REAPER)",
+   "_c06_side_shelf": [
+    {
+     "band": "bell",
+     "hz": 170,
+     "db": -2,
+     "bw_oct": 1.0
+    },
+    {
+     "band": "lowshelf",
+     "hz": 100,
+     "db": -4
+    }
+   ],
+   "_eq_c13": [
+    {
+     "band": "bell2",
+     "hz": 87.3,
+     "db": -10,
+     "bw_oct": 0.15,
+     "_c24": "critic B #2: F2 60-100 Hz still +5 dB over its neighbours with -6 at 0.25 oct"
+    }
+   ],
+   "region_gain_db": [
+    {
+     "rows": [
+      "Pizz RRx4"
+     ],
+     "pitch_db": {
+      "32": 1.0,
+      "33": -6.0,
+      "30": -4.0,
+      "37": -3.5,
+      "40": 2.5,
+      "28": 1.5,
+      "45": -4.0,
+      "44": -3.0
+     }
+    },
+    {
+     "rows": [
+      "Sus MAX"
+     ],
+     "pitch_db": {
+      "31": -3.0,
+      "32": -2.5,
+      "33": -1.5,
+      "40": 2.0
+     }
+    }
+   ]
+  },
+  "Trumpet 1": {
+   "group": "trumpet",
+   "gain_db": 5.11,
+   "seat": 0.31,
+   "dyn_trim_db": {
+    "f": 6.1,
+    "ff": 7.3,
+    "fff": 8.1
+   },
+   "eq": [],
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 9.6,
+    "pp": 9.6,
+    "p": 6.3,
+    "mp": 5.5,
+    "mf": 4.6
+   },
+   "width": 0.05,
+   "mic_db": {
+    "Close": -10.1,
+    "Main": 0.0
+   },
+   "reaper_pan": 0.185,
+   "_seat_c05": 0.07,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": 2.5
+    }
+   ],
+   "_gain_c05": -3,
+   "send_offset_db": {
+    "R Brass": 0.0
+   },
+   "_c06_side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "_c08_gain": "c08: gain 3.1 -1.99 (K-weighted loudness the c08 EQ change takes or adds)",
+   "track_width": 0.5,
+   "region_gain_db": {
+    "rows": [
+     "Sus Non Vib MAX"
+    ],
+    "pitch_db": {
+     "69": 3
+    }
+   }
+  },
+  "Trumpet 2": {
+   "group": "trumpet",
+   "gain_db": 5.25,
+   "seat": 0.31,
+   "dyn_trim_db": {
+    "f": 6.7,
+    "ff": 10.0,
+    "fff": 8.4
+   },
+   "eq": [],
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": -6.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 9.6,
+    "pp": 9.6,
+    "p": 6.3,
+    "mp": 5.6,
+    "mf": 4.7
+   },
+   "width": 0.05,
+   "mic_db": {
+    "Close": -10.1,
+    "Main": 0.0
+   },
+   "reaper_pan": 0.19,
+   "_seat_c05": 0.12,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 4000,
+     "db": 2.5
+    }
+   ],
+   "_gain_c05": -3,
+   "send_offset_db": {
+    "R Brass": 0.0
+   },
+   "_c06_side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "_c08_gain": "c08: gain 4.1 -2.85 (K-weighted loudness the c08 EQ change takes or adds)",
+   "track_width": 0.5
+  },
+  "Harp harmonics": {
+   "group": "harp",
+   "gain_db": 7.3,
+   "seat": -0.45,
+   "dyn_trim_db": {
+    "f": 0,
+    "ff": 0
+   },
+   "eq": [],
+   "width": 0.3,
+   "side_shelf": {
+    "hz": 300,
+    "db": -8
+   },
+   "env_sustain": 1.0,
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "_gain_c05": 3,
+   "sends": {
+    "R Perc": -8.77,
+    "R Strings": -150.0
+   }
+  },
+  "Violin I solo": {
+   "group": "string",
+   "gain_db": 5.14,
+   "seat": -0.4,
+   "width": 0.2,
+   "send": 0.8,
+   "dyn_trim_db": {
+    "f": -1.5,
+    "ff": 1.5
+   },
+   "eq": [
+    {
+     "band": "highshelf",
+     "hz": 2500,
+     "db": -5.5
+    }
+   ],
+   "_c05": "critic C #2: the Close-only DIV A solo was 3.3-4.2 dB brighter than the Violins I section: high shelf 5 kHz -4 -> 2.5 kHz -5.5 dB",
+   "mic_db": {
+    "Close": -3.6
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 2500,
+     "db": -5.5
+    }
+   ],
+   "_gain_c05": 0.4,
+   "_c08_gain": "c08: gain 2.2 +0.44 (K-weighted loudness the c08 EQ change takes or adds)",
+   "send_offset_db": {
+    "R Strings": 2.4
+   },
+   "stereo_double": {
+    "spread": 0.4
+   }
+  },
+  "Violas div": {
+   "group": "string",
+   "gain_db": 5.0,
+   "seat": 0.0,
+   "dyn_trim_db": {
+    "f": 0,
+    "ff": 0.1,
+    "fff": -0.54
+   },
+   "soft_trim_db": {
+    "ppp": 1,
+    "pp": 5,
+    "p": 3.5
+   },
+   "eq": [
+    {
+     "band": "highshelf",
+     "hz": 2000,
+     "db": -4
+    }
+   ],
+   "width": 0.45,
+   "send": 0.5,
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 3
+    }
+   ],
+   "_c01": "critic C #3: gain 6 -> 2, width 0.3 -> 0.45 (the div. upper voice sat 3-7 dB over the section, narrower)",
+   "sus_release_cap_ms": [
+    {
+     "ms": 150,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE"
+     ]
+    },
+    {
+     "ms": 350,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE"
+     ]
+    }
+   ],
+   "_cap_c03": "ONE_TIME (Movement I c44, list form of c46 / mockup-kit README item 11): 150 ms at mf-ff, 350 ms at pp/p on Sus MAX and Sus Marc LITE (the patch ships 323-931 ms); replaces c00's 250 ms mf-ff cap",
+   "_c05": "critic C #2: the Close-only DIV B upper voice was 3.3-4.6 dB brighter (2-8 kHz vs 0.5-2 kHz) than the Violas section: high shelf 2 kHz -4 dB",
+   "_seat_c05": 0.15,
+   "mic_db": {
+    "Close": -3.6
+   },
+   "_eq_c05": [
+    {
+     "band": "highpass",
+     "hz": 40
+    },
+    {
+     "band": "highshelf",
+     "hz": 2000,
+     "db": -4
+    }
+   ],
+   "_gain_c05": 2,
+   "send_offset_db": {
+    "R Strings": 4.0
+   },
+   "stereo_double": {
+    "spread": 0.6,
+    "_c21": "critic C #3: mono DIV B voice"
+   },
+   "cc7_spans_db": [
+    [
+     636.5,
+     672.0,
+     2.5,
+     0,
+     0.5
+    ]
+   ],
+   "_c25_cc7": "636-672 div. thirds +2.5 (B #5a)"
+  }
+ },
+ "soft_trim_db": {
+  "ppp": 7,
+  "pp": 7,
+  "p": 5,
+  "_except": [
+   "Timpani",
+   "Harp harmonics"
+  ]
+ },
+ "opus_reverb_off": true,
+ "return_chunks_dir": "/Users/gooby/sandbox/claude_composes/symphony/mockup-research/ew-template-2026-11-08/ho-mix-chunks",
+ "return_load": "vst_chunk",
+ "returns": {
+  "_doc": "mvt1 c50 (TEMPLATE-PLAN section 2): REAPER return tracks, each a ReaEQ then EW Spaces II loaded from the template's verbatim chunks (return_chunks_dir). Stems 91.. in this order (tools/return_stems.py). A return is built only when some track sends to it.",
+  "R Strings": {
+   "fx": [
+    {
+     "reaeq": [
+      {
+       "band": "highpass",
+       "hz": 180.0,
+       "db": 0.0,
+       "bw_oct": 2.639
+      },
+      {
+       "band": "bell",
+       "hz": 1000.0,
+       "db": 0.0,
+       "bw_oct": 1.39
+      },
+      {
+       "band": "bell",
+       "hz": 2670.0,
+       "db": -6.7,
+       "bw_oct": 1.39
+      },
+      {
+       "band": "lowpass",
+       "hz": 8490.0,
+       "db": 0.0,
+       "bw_oct": 2.0
+      }
+     ],
+     "chunk": "STRING_VERB.txt"
+    },
+    {
+     "chunk": "STRING_VERB.txt",
+     "fx": "Spaces",
+     "set": {
+      "irSetup": {
+       "envelopeMode": 2,
+       "endPos": 0.5,
+       "decayLength": 0.5
+      }
+     }
+    }
+   ],
+   "fader_db": -4.97,
+   "_src": "STRING VERB: S. Cal. Hall Strings TS RR 3.3s, pre-delay 19.6 ms; EQ HPF 87 Hz, -6.7 dB at 2.67 kHz, LPF 8.49 kHz",
+   "_c07": "c07: template EQ with the high-pass 87/100 -> 180 Hz; Spaces II IR envelope (mode 2, endPos 0.5, decayLength 0.5); fader -6 dB (template value - 6)",
+   "pan": 0.06
+  },
+  "R Brass": {
+   "fx": [
+    {
+     "reaeq": [
+      {
+       "band": "highpass",
+       "hz": 180.0,
+       "db": 0.0,
+       "bw_oct": 2.639
+      },
+      {
+       "band": "bell",
+       "hz": 2570.0,
+       "db": -4.8,
+       "bw_oct": 1.39
+      },
+      {
+       "band": "bell",
+       "hz": 5000.0,
+       "db": 0.0,
+       "bw_oct": 1.39
+      },
+      {
+       "band": "lowpass",
+       "hz": 5630.0,
+       "db": 0.0,
+       "bw_oct": 2.0
+      }
+     ],
+     "chunk": "BRASS_VERB.txt"
+    },
+    {
+     "chunk": "BRASS_VERB.txt",
+     "fx": "Spaces",
+     "set": {
+      "irSetup": {
+       "envelopeMode": 2,
+       "endPos": 0.5,
+       "decayLength": 0.5
+      }
+     }
+    }
+   ],
+   "fader_db": -4.97,
+   "_src": "BRASS VERB: S. Cal. Hall Brass TS RR 3.3s (Horns L / Brass R rear impulses), 10 ms; EQ HPF 100 Hz, -4.8 dB at 2.57 kHz, LPF 5.63 kHz",
+   "_c07": "c07: template EQ with the high-pass 87/100 -> 180 Hz; Spaces II IR envelope (mode 2, endPos 0.5, decayLength 0.5); fader -6 dB (template value - 6)",
+   "pan": 0.07
+  },
+  "R Winds": {
+   "fx": [
+    {
+     "reaeq": [
+      {
+       "band": "highpass",
+       "hz": 180.0,
+       "db": 0.0,
+       "bw_oct": 2.639
+      },
+      {
+       "band": "bell",
+       "hz": 2570.0,
+       "db": -4.8,
+       "bw_oct": 1.39
+      },
+      {
+       "band": "bell",
+       "hz": 5000.0,
+       "db": 0.0,
+       "bw_oct": 1.39
+      },
+      {
+       "band": "lowpass",
+       "hz": 5630.0,
+       "db": 0.0,
+       "bw_oct": 2.0
+      }
+     ],
+     "chunk": "WW_VERB.txt"
+    },
+    {
+     "chunk": "WW_VERB.txt",
+     "fx": "Spaces",
+     "set": {
+      "irSetup": {
+       "envelopeMode": 2,
+       "endPos": 0.5,
+       "decayLength": 0.5
+      }
+     }
+    }
+   ],
+   "fader_db": -4.97,
+   "_src": "WW VERB: San Francisco Hall TS RR 3.4s, 18.5 ms; EQ as R Brass",
+   "_c07": "c07: template EQ with the high-pass 87/100 -> 180 Hz; Spaces II IR envelope (mode 2, endPos 0.5, decayLength 0.5); fader -6 dB (template value - 6)",
+   "pan": 0.17
+  },
+  "R Perc": {
+   "fx": [
+    {
+     "reaeq": [
+      {
+       "band": "highpass",
+       "hz": 180.0,
+       "db": 0.0,
+       "bw_oct": 2.639
+      },
+      {
+       "band": "bell",
+       "hz": 2570.0,
+       "db": -4.8,
+       "bw_oct": 1.39
+      },
+      {
+       "band": "bell",
+       "hz": 5000.0,
+       "db": 0.0,
+       "bw_oct": 1.39
+      },
+      {
+       "band": "lowpass",
+       "hz": 5630.0,
+       "db": 0.0,
+       "bw_oct": 2.0
+      }
+     ],
+     "chunk": "PERC_VERB.txt"
+    },
+    {
+     "chunk": "PERC_VERB.txt",
+     "fx": "Spaces",
+     "set": {
+      "irSetup": {
+       "envelopeMode": 2,
+       "endPos": 0.5,
+       "decayLength": 0.5
+      }
+     }
+    }
+   ],
+   "fader_db": -5.34,
+   "_src": "PERC VERB: Northwest Hall TS RR 2.6s, 10 ms; EQ as R Brass",
+   "_c07": "c07: template EQ with the high-pass 87/100 -> 180 Hz; Spaces II IR envelope (mode 2, endPos 0.5, decayLength 0.5); fader -6 dB (template value - 6)",
+   "pan": 0.05
+  },
+  "R Glue": {
+   "fx": [
+    {
+     "chunk": "ALGO_GLUE.txt",
+     "fx": "ReaEQ"
+    },
+    {
+     "chunk": "ALGO_GLUE.txt",
+     "fx": "ReaVerbate"
+    }
+   ],
+   "fader_db": 5.82,
+   "enabled": false,
+   "_src": "ALGO GLUE (ReaEQ HPF 100, -0.8 dB at 2.45 kHz, LPF 5.63 kHz; ReaVerbate). Off: the plan tests it in pass 2. Check ReaVerbate's Dry slider in REAPER first."
+  },
+  "R Duc": {
+   "fx": [
+    {
+     "reaeq": [
+      {
+       "band": "highpass",
+       "hz": 184.0,
+       "bw_oct": 2.0
+      },
+      {
+       "band": "lowpass",
+       "hz": 3000.0,
+       "bw_oct": 2.0
+      }
+     ]
+    },
+    {
+     "chunk": "PERC_VERB.txt",
+     "fx": "Spaces",
+     "set": {
+      "presetName": "Hollywood Scoring Stage TS RR 2.3s",
+      "fileName": "Hollywood Scoring Stage TS RR 2.3s.preset",
+      "path": "/Library/Application Support/East West/EW Spaces II/Presets/Stages/LA Scoring Stages/S-S",
+      "folderImage": "/Library/Application Support/East West/EW Spaces II/Presets/Stages/LA Scoring Stages/LA Scoring Stages.png",
+      "impulseA": "//ir/LA Scoring Stages/S-S/Hollywood Scoring Stage L Rear",
+      "impulseB": "//ir/LA Scoring Stages/S-S/Hollywood Scoring Stage R Rear",
+      "delay": 0.012
+     }
+    }
+   ],
+   "fader_db": -5.5,
+   "_src": "TEMPLATE-PLAN section 8 (Duc, 'still a bit mushy'): one hall of 2.1-2.45 s; here Spaces II's 2.3 s true-stereo rear Hollywood Scoring Stage IR (the PERC VERB state with the IR, preset labels and a 12 ms pre-delay replaced), low cut 184 Hz and high cut 3 kHz in a ReaEQ before it, return -5.5 dB. Used by send profile 'duc' only. Duc's instruments reach his master through -5.4 dB group buses while his hall sends are taken before them, and VSR S24's wet level is not Spaces II's: match the wet level by measurement before the A/B (raising this fader by about 5.4 dB copies his routing)."
+  }
+ },
+ "send_profiles": {
+  "_doc": "mvt1 c50: post-fader sends per group and profile (build_reaper.py send_list). 'ew' = the template (ho-mix-fx.json receives; R Glue is disabled in returns, so its sends are skipped); 'duc' = TEMPLATE-PLAN section 8 (with the celli / basses send_offset_db and send_row_db track keys).",
+  "ew": {
+   "string": {
+    "R Strings": -5.56,
+    "R Glue": -9.62
+   },
+   "horn": {
+    "R Brass": -8.77,
+    "R Glue": -5.65
+   },
+   "trumpet": {
+    "R Brass": -8.77,
+    "R Glue": -5.65
+   },
+   "lowbrass": {
+    "R Brass": -8.77,
+    "R Glue": -5.65
+   },
+   "wind": {
+    "R Winds": -8.36,
+    "R Glue": -7.27
+   },
+   "timp": {
+    "R Perc": -6.41,
+    "R Glue": -6.41
+   },
+   "perc": {
+    "R Perc": -6.41,
+    "R Glue": -6.41
+   },
+   "harp": {
+    "R Perc": -8.77,
+    "R Glue": -6.81
+   }
+  },
+  "duc": {
+   "string": {
+    "R Duc": 0.0
+   },
+   "horn": {
+    "R Duc": 0.0
+   },
+   "trumpet": {
+    "R Duc": 0.0
+   },
+   "lowbrass": {
+    "R Duc": 0.0
+   },
+   "wind": {
+    "R Duc": 0.0
+   },
+   "timp": {
+    "R Duc": 0.0
+   },
+   "perc": {
+    "R Duc": 0.0
+   },
+   "harp": {
+    "R Duc": 0.0
+   }
+  }
+ },
+ "send_profile": "ew",
+ "family_eqs": {
+  "_doc": "mvt1 c50 (TEMPLATE-PLAN section 3): the template's section-bus / track ReaEQ bands (ho-mix-fx.json decoded_bands), one ReaEQ after every other FX of each track of the family (build_reaper.py family_eq)",
+  "strings": [
+   {
+    "band": "highpass",
+    "hz": 53.0,
+    "bw_oct": 2.0
+   },
+   {
+    "band": "bell",
+    "hz": 456.0,
+    "db": -2.2,
+    "bw_oct": 0.75
+   },
+   {
+    "band": "bell",
+    "hz": 1005.0,
+    "db": -5.0,
+    "bw_oct": 0.945
+   }
+  ],
+  "brass": [
+   {
+    "band": "highpass",
+    "hz": 41.0,
+    "bw_oct": 2.0
+   },
+   {
+    "band": "bell",
+    "hz": 475.0,
+    "db": -2.7,
+    "bw_oct": 1.92
+   },
+   {
+    "band": "bell",
+    "hz": 821.0,
+    "db": -3.9,
+    "bw_oct": 1.92
+   },
+   {
+    "band": "highshelf",
+    "hz": 7490.0,
+    "db": 1.0,
+    "bw_oct": 1.92
+   },
+   {
+    "band": "bell",
+    "hz": 3200.0,
+    "db": -3.0,
+    "bw_oct": 1.0
+   }
+  ],
+  "woodwinds": [
+   {
+    "band": "bell",
+    "hz": 447.0,
+    "db": -5.1,
+    "bw_oct": 0.89
+   },
+   {
+    "band": "bell",
+    "hz": 1000.0,
+    "db": -3.1,
+    "bw_oct": 0.89
+   },
+   {
+    "band": "bell",
+    "hz": 2200.0,
+    "db": -4.7,
+    "bw_oct": 1.7
+   },
+   {
+    "band": "highshelf",
+    "hz": 7590.0,
+    "db": 5.1,
+    "bw_oct": 2.0
+   }
+  ],
+  "harp": [
+   {
+    "band": "highpass",
+    "hz": 80.0,
+    "bw_oct": 2.0,
+    "_c07": "c07 (Movement I c50 B): 183 Hz cut a third of the harp's fundamentals"
+   },
+   {
+    "band": "bell",
+    "hz": 304.0,
+    "db": -8.3,
+    "bw_oct": 1.39
+   },
+   {
+    "band": "bell",
+    "hz": 1270.0,
+    "db": -8.6,
+    "bw_oct": 0.62
+   },
+   {
+    "band": "highshelf",
+    "hz": 7680.0,
+    "db": 8.0,
+    "bw_oct": 1.39
+   }
+  ],
+  "timpani": [
+   {
+    "band": "highpass",
+    "hz": 44.0,
+    "bw_oct": 1.142
+   },
+   {
+    "band": "bell",
+    "hz": 385.0,
+    "db": -11.5,
+    "bw_oct": 2.54
+   },
+   {
+    "band": "highshelf",
+    "hz": 6960.0,
+    "db": 9.1,
+    "bw_oct": 1.39
+   }
+  ],
+  "strings_basses": [
+   {
+    "band": "highpass",
+    "hz": 53.0,
+    "bw_oct": 2.0
+   },
+   {
+    "band": "bell",
+    "hz": 456.0,
+    "db": -2.2,
+    "bw_oct": 0.75
+   },
+   {
+    "band": "bell",
+    "hz": 1005.0,
+    "db": -5.0,
+    "bw_oct": 0.945
+   },
+   {
+    "band": "bell",
+    "hz": 230.0,
+    "db": -3.0,
+    "bw_oct": 1.0
+   }
+  ]
+ },
+ "master_eq": [
+  {
+   "band": "highpass",
+   "hz": 42.0,
+   "bw_oct": 2.0
+  },
+  {
+   "band": "bell",
+   "hz": 167.0,
+   "db": -1.6,
+   "bw_oct": 1.39
+  },
+  {
+   "band": "bell",
+   "hz": 1180.0,
+   "db": -1.9,
+   "bw_oct": 1.39
+  },
+  {
+   "band": "highshelf",
+   "hz": 8008.0,
+   "db": 0.8,
+   "bw_oct": 1.39
+  }
+ ],
+ "_c08": "c08: mix08.py (cycles/c08/actor_scripts)",
+ "_c09": "c09 (mix09.py): C #1a wind group send +3 dB; C #2 trumpets R Brass offset 0, trombones / tuba R Brass -11.77, bassoons R Winds -11.36 (+3 group offset); C #3 solo / Violas div R Strings +3.6 / +4.0; C #4 Harp harmonics to R Strings -8.77 (R Perc off)",
+ "_c10": "c10 (mix10.py): Harp harmonics to R Perc -8.77 (R Strings off); track_width trumpets 0.5, trombones 0.6 with reaper_pan +0.075..+0.155",
+ "_c12": "c12: B #1 gain_db +2.0 Trumpet 1 / 2, +3.0 Trombone 1 / 2 and Bass trombone (width make-up included, ONE_TIME 11)",
+ "_c13": "c13 (cycles/c13/actor_scripts/apply13.py): trumpets +2 dB (B #5); woodwind seats narrowed and harp seats -0.72 -> -0.45 (C #1a, C #4); wind send offset to R Winds 3.0 -> 1.5 (C #3); return pans R Winds 0.17, R Strings 0.06, R Brass 0.07, R Perc 0.05 (C #4: each return sat 0.6-1.9 dB left of its senders; REAPER's balance law takes 20 log10(1 - pan) off the left channel)",
+ "cresc_trim_hold": {
+  "keep": 0.3,
+  "release_s": 1.0,
+  "groups": [
+   "wind",
+   "string"
+  ],
+  "max_hold_db": 3.5,
+  "skip": [
+   [
+    297.0,
+    312.0
+   ],
+   [
+    897.0,
+    912.0
+   ],
+   [
+    840.0,
+    852.0
+   ],
+   [
+    372.0,
+    384.0
+   ],
+   [
+    108.0,
+    120.0
+   ],
+   [
+    576.0,
+    588.0
+   ],
+   [
+    1002.0,
+    1005.0
+   ]
+  ]
+ },
+ "_c14": "c14 (cycles/c14/actor_scripts/apply14.py). Critic B #2 (Dan: mushy): Movement I's note cuts that sat on this movement's tonic and dominant removed (Double basses 87.3 Hz -10 and 61.7 Hz -6, loud_eq 98 Hz -4 -> -2; Tuba 84 Hz -5), the basses' loud_eq 160 Hz +6 -> +3, the celli's 170 / 125 Hz +3 bells removed with gain 0.54 -> 1.0. B #3: Harp bell 200 Hz -4. B #6: solo send offset 3.6 -> 2.4. Critic C #2: cresc_trim_hold (new generic rule in build_reaper.vol_points) with the f anchors of Flute 1 / 2 -4 -> -1.5, Clarinet 1 -4.2 -> -1.5, Clarinet 2 -3.8 -> -1.0.",
+ "env_simplify_db": 0.1,
+ "env_simplify_max_seg_db": 4.0,
+ "_c15": "c15 (Dan 2026-11-11; critic B #2): env_simplify_db 0.1: build_reaper.py vol_points keeps a volume-envelope point only if the line between its kept neighbours (in REAPER's fader scale, over seconds) misses it by more than 0.1 dB; no kept segment spans more than env_simplify_max_seg_db. cresc_trim_hold release_s 0.5 -> 1.0 (coordinator, Movement II c54: a hold released over a beat writes an unprinted fall of up to 2.5 dB right after a crescendo's arrival; at 2.5 s the woodwinds, celli and basses stood 0.6-1.6 dB higher over whole sections on the simulation, at 1.0 s the fall takes twice as long and the sections move less). Dan's decision (2026-11-11 16:30Z, no per-note volume moves): region_gain_db on 14 tracks = build/pitch_trims.json as per-region volume in the Opus state (build_reaper.py region_gain); Clarinet 1 / 2 _skip_onsets are not compensated.",
+ "note_move_guard": {
+  "max_db": 1.4,
+  "skip_s": 0.04,
+  "snap_s": 0.2,
+  "rest_min_s": 0.04,
+  "rest_ramp_s": 0.3,
+  "rejoin_db_per_s": 2.0,
+  "decay_s": 0.5,
+  "decay_families": [
+   "harp",
+   "harm"
+  ],
+  "decay_rows": [
+   "Pizz"
+  ],
+  "free_rows": [
+   "Rls",
+   "Roll"
+  ],
+  "mark_cc": 3,
+  "passes": 3
+ },
+ "_c16": "cycles/c16/actor_scripts/apply16.py: note_move_guard; dyn_trim ff/fff make-up for CC11_REST_MAP; region gains by row, dynamic layer and pitch (critics A #3, B #5-6)",
+ "_c17": "cycles/c17/actor_scripts/apply17.py",
+ "_c18": "cycles/c18/actor_scripts/apply18.py",
+ "_c19": "c19: TLeg region gains (A #1), Violins I Sus Marc LITE vel<66 -4 (A #3), Horn 3 E4 -1 (B #5), Violins II's own cresc_trim_hold with [981, 984] (B #2)",
+ "_c20": "c20: Oboe 1 Stac vel<75 +3 (B #4); Violas TLeg 0.0; celli RELEASE 0.0; Violins II Stac cap 150.0",
+ "_c21": "c21: woodwind mics None; string staccato caps True; Clarinet 1 pitch 78 -2.5; leg_sus_attack 0.0; Violas div SD 0.6 gain +1.2; Horn 3 none",
+ "_c22": "c22: Violins II / violas Sus Marc LITE False; Violins I RT cap 0.0; cor anglais f +1.5 / mf 1.5; Horn 2 f 0 / mf 1.4",
+ "_c23": "c23: flute accents vel>=75 -1.5, G6 -2.0",
+ "note_slew": {
+  "rate_db_s": 4.0,
+  "max_ramp_qn": 2.0,
+  "rest_s": 0.005,
+  "free_rows": [
+   "Rls",
+   "Roll"
+  ],
+  "skip_tracks": [
+   "Timpani"
+  ]
+ },
+ "_c24": "c24: note_slew (Dan's rule: no envelope step inside a sounding note; critic B #1); Violins I orphan short-row groups (critic A #2)",
+ "dyn_trim_to_cc7": {
+  "tracks": "all",
+  "moved": true,
+  "lead_s": 0.02,
+  "env_max_db": 23.0,
+  "_c25": "critic B #1 / finale technique 135: dynamic trims in CC7 (pre-hall), read on moved time; harp, harmonics and timpani stay in the envelope"
+ },
+ "_c25": "c25 (apply25.py A): dyn_trim_to_cc7; cc7_spans_db (Oboe 1, Clarinet 1/2, Horn 2/3, Violas, Violas div, Violins II); Violins I Spiccato level (A)"
+}

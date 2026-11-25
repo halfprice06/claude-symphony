@@ -1,0 +1,50 @@
+Oboe 1            148.000  stem   5.3  own-band   5.6  master   1.0
+Cor anglais       160.000  stem  10.1  own-band   9.5  master   4.3
+Clarinet 1        289.000  stem   8.5  own-band   8.5  master   7.3
+Clarinet 2        265.000  stem   9.4  own-band   9.6  master   3.4
+Bass clarinet      33.000  stem   6.6  own-band   6.6  master   6.2
+Bass clarinet     265.000  stem   6.1  own-band  16.1  master   3.4
+Bassoon 1         148.000  stem  10.1  own-band  11.3  master   1.0
+Bassoon 1         235.000  stem  10.4  own-band  10.1  master   4.1
+Bassoon 2          21.000  stem   4.1  own-band   3.7  master   1.4
+Bassoon 2         144.000  stem   8.8  own-band   8.4  master   5.8
+Bassoon 2         253.000  stem   8.5  own-band   8.3  master   5.2
+Bassoon 2         265.000  stem   7.4  own-band   8.2  master   3.4
+Contrabassoon     265.000  stem   9.5  own-band   0.0  master   3.4
+Horn 3            265.000  stem   4.5  own-band   4.9  master   3.4
+Horn 3            289.000  stem   5.7  own-band   5.9  master   7.3
+Horn 4            265.000  stem   3.3  own-band   6.3  master   3.4
+Trombone 1        216.000  stem   7.3  own-band   8.7  master   5.1
+Bass trombone     216.000  stem   4.2  own-band   3.6  master   5.1
+Violins II         44.000  stem   6.8  own-band   5.8  master   4.3
+Violins II         45.000  stem   6.0  own-band   6.8  master   3.5
+Violins II         50.000  stem   4.0  own-band   3.3  master   4.6
+Violins II         51.000  stem   6.0  own-band   5.4  master   1.7
+Violins II        112.000  stem   6.9  own-band   6.2  master   0.9
+Violins II        120.000  stem   4.9  own-band   0.4  master   2.4
+Violins II        144.000  stem   5.1  own-band   7.3  master   5.8
+Violins II        289.000  stem   1.6  own-band   0.9  master   7.3
+Violins II        292.000  stem   9.7  own-band   9.6  master   0.8
+Violas             50.000  stem   8.5  own-band   7.1  master   4.6
+Violas             62.000  stem  11.6  own-band  10.1  master   1.6
+Violas             71.000  stem  16.4  own-band  16.6  master   5.5
+Violas             82.000  stem   9.7  own-band   9.7  master   4.0
+Violas            253.000  stem   7.2  own-band   7.5  master   5.2
+Violas            271.000  stem   8.9  own-band   7.3  master   1.8
+Violas            283.000  stem   6.4  own-band   7.2  master   3.6
+Violoncellos      128.000  stem   9.9  own-band  13.8  master   0.7
+Violoncellos      148.000  stem   8.1  own-band   7.6  master   1.0
+Double basses     144.000  stem   2.7  own-band   3.2  master   5.8
+Double basses     156.000  stem   5.6  own-band   5.8  master   4.5
+Double basses     168.000  stem   8.7  own-band   0.0  master   2.7
+Double basses     253.000  stem   3.4  own-band  16.1  master   5.2
+Double basses     265.000  stem   8.0  own-band  30.0  master   3.4
+Violins II div    114.000  stem   2.5  own-band   1.9  master  -0.5
+Violins II div    116.000  stem   4.2  own-band   3.7  master   3.3
+Violins II div    119.000  stem   1.8  own-band   1.7  master   3.7
+Violins II div    120.000  stem   3.2  own-band   2.5  master   2.4
+Violas div         70.000  stem  10.0  own-band  11.3  master   3.7
+Violas div         79.000  stem   6.2  own-band   6.3  master   5.5
+Violas div         82.000  stem  12.1  own-band   9.9  master   4.0
+Violas div        289.000  stem   5.5  own-band   4.3  master   7.3
+n 49  median stem 6.8  own-band 7.1  under 3 dB own-band 7  master 3.7

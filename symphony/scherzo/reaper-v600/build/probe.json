@@ -1,0 +1,129 @@
+{
+ "_doc": "probe_attacks.py checks for the scherzo (score qn; bar b starts at qn 3(b-1)). c00 port: ref = isolated attacks after a rest of 1 qn or more, spread over the movement: timpani strokes (limit 0.12 s, as Movement I: strokes start TIMP_DELAY_S after the onset) at bars 3, 91, 149, 303, 363; pizz. at bars 3 (Vc), 89, 185, 241 (Vc), 341 (Cb), 253 (Vln II, Vla); harp plucks at 81, 185, 341; Violins I staccato theme entries at 13 and 253 (0.10 s); the bar-101 brass entry (Tpt 1, Tbn 1, Tuba). opening: the bar-1 G sharp (Hn 1, Violins I ppp). legato: Movement I's c42 limits (robust SD of the perceived attack over each string section's legato joins, tools/pcx.py). No holes or sustain checks yet (no string tremolo entries in this score). After the c00 render: Violins I 756 replaced by Violins I 90 (bar 31, after a 3 qn rest): at 756 the staccato E5 starts on time (-61 -> -44.7 dB in the first 50 ms frame) but the accented G5 at 759, 0.7 s later, sets the 1.5 s peak, so the threshold fell after the first note (probe artefact, +0.39 s reported).",
+ "ref": [
+  [
+   "Timpani",
+   6,
+   0.12
+  ],
+  [
+   "Timpani",
+   270,
+   0.12
+  ],
+  [
+   "Timpani",
+   444,
+   0.12
+  ],
+  [
+   "Timpani",
+   906,
+   0.12
+  ],
+  [
+   "Timpani",
+   1086,
+   0.12
+  ],
+  [
+   "Violoncellos",
+   6,
+   0.06
+  ],
+  [
+   "Double basses",
+   264,
+   0.06
+  ],
+  [
+   "Double basses",
+   552,
+   0.06
+  ],
+  [
+   "Violoncellos",
+   720,
+   0.06
+  ],
+  [
+   "Double basses",
+   1020,
+   0.06
+  ],
+  [
+   "Violins II",
+   757,
+   0.06
+  ],
+  [
+   "Violas",
+   757,
+   0.06
+  ],
+  [
+   "Harp",
+   241,
+   0.06
+  ],
+  [
+   "Harp",
+   553,
+   0.06
+  ],
+  [
+   "Harp",
+   1021,
+   0.06
+  ],
+  [
+   "Violins I",
+   36,
+   0.1
+  ],
+  [
+   "Trumpet 1",
+   300,
+   0.06
+  ],
+  [
+   "Trombone 1",
+   300,
+   0.06
+  ],
+  [
+   "Tuba",
+   300,
+   0.06
+  ],
+  [
+   "Violins I",
+   90,
+   0.1
+  ]
+ ],
+ "holes": [],
+ "sustain": [],
+ "opening": [
+  "Horn 1",
+  "Violins I"
+ ],
+ "legato": [
+  [
+   "Violins I",
+   75
+  ],
+  [
+   "Violins II",
+   75
+  ],
+  [
+   "Violas",
+   90
+  ],
+  [
+   "Violoncellos",
+   80
+  ]
+ ]
+}

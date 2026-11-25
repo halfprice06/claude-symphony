@@ -1,0 +1,9 @@
+{
+"_doc": "c17 critic A: folded loop-seam profiles from the c16 stems with vol_db removed (10 ms hop, 30 ms smoothing, 3 s running-mean detrend, median per 20 ms phase bin, 0.1 s smoothing). corr_db = -profile clamped -3..+8 dB, then shifted so the mean power is unchanged. Phase 0 = max(0, the note's moved start) in stem seconds; repeat every period_s until the note's end. c18 critic A: Violins I 0/292, Violoncellos 164 and Double basses 220 refit on the c17 stems (true-stereo hall), same method; the other six keep the c16 fit. c18: Vln I 0/292, Vc 164, Cb 220 refit on the c17 stems (critic A #3); Vc 164 capped at +7 dB. c26: the five final-chord entries (Violins I/Violas/Violoncellos/Double basses 292, Violins II 286) removed: the chord is re-bowed (REBOW_AT), so those notes no longer play whole loops. c26 (A #3): Timpani 226 (2.93 s) and 292 (3.12 s) ppp rolls fitted by the c26 actor on the c25 Timpani stem, same method (vol_db removed, 3 s detrend, 20 ms phase bins, 0.1 s smoothing), corr clamped -3..+3 dB; the simulated residual 5-95% range fell 5.4 -> 3.0 and 3.8 -> 2.8 dB. v600 port (series 2, c27, 2026-11-06): every onset key checked against v600 (pitch, length, the note before, printed dynamic, articulation); removed or moved: Violoncellos 164, Timpani 292. c29 (critic B #1): Violins I 0, Violoncellos 274, Double basses 220/271 and Timpani 226 deleted: since c27 the re-bows split those notes (each new bow restarts the sample, so the series 1 profile's phase no longer matched) and c28's TIMP_CC1_MAP moved the roll to another layer; they added 8-11 dB of wobble.",
+"Violins I": {},
+"Violoncellos": {},
+"Double basses": {},
+"Violas": {},
+"Violins II": {},
+"Timpani": {}
+}

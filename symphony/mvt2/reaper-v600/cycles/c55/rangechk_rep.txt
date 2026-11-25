@@ -1,0 +1,38 @@
+range R1 (x0 215.79 s): track  frames  median  p95  max |residual| dB   frames over 0.3 / 1.0 dB
+  Flute 1            360  +0.00   0.00   0.00     0 /   0
+  Flute 2            187  +0.00   0.00   0.00     0 /   0
+  Oboe 1             339  +0.00   0.00   0.00     0 /   0
+  Oboe 2             184  +0.00   0.00   0.00     0 /   0
+  Clarinet 1         306  +0.00   0.00   0.00     0 /   0
+  Clarinet 2         308  +0.00   0.00   0.00     0 /   0
+  Bass clarinet      337  +0.00   0.00   0.00     0 /   0
+  Bassoon 1          340  +0.00   0.00   0.00     0 /   0
+  Bassoon 2          340  +0.00   0.00   0.00     0 /   0
+  Contrabassoon      186  +0.00   0.00   0.00     0 /   0
+  Horn 1             338  +0.00   0.00   0.00     0 /   0
+  Horn 2             187  +0.00   0.00   0.00     0 /   0
+  Horn 3             186  +0.00   0.00   0.00     0 /   0
+  Horn 4              88  +0.00   0.00   0.00     0 /   0
+  Trombone 1         191  +0.00   0.00   0.00     0 /   0
+  Trombone 2         270  +0.00   0.00   0.00     0 /   0
+  Bass trombone      455  +0.00   0.00   0.00     0 /   0
+  Tuba               266  +0.00   0.00   0.00     0 /   0
+  Timpani            244  +0.00   0.00   0.00     0 /   0
+  Violins I          484  +0.00   5.17   8.21   199 / 161
+  Violins II         591  -6.31  15.31  22.10   335 / 335
+  Violas             591  +0.00   0.00   0.00     0 /   0
+  Violoncellos       591  +0.00   5.00  11.11   308 / 253
+  Double basses      372  +3.79  35.97  42.73   357 / 329
+range R3 (x0 320.46 s): track  frames  median  p95  max |residual| dB   frames over 0.3 / 1.0 dB
+  Cor anglais        249  +0.00   0.00   0.00     0 /   0
+  Clarinet 1         267  +0.00   0.00   0.00     0 /   0
+  Clarinet 2         353  +0.00   0.00   0.00     0 /   0
+  Horn 3             267  +0.00   0.00   0.00     0 /   0
+  Horn 4             268  +0.00   0.00   0.00     0 /   0
+  Violins I          367  +0.00   0.00   0.00     0 /   0
+  Violins II         465  +0.00   0.00   0.00     0 /   0
+  Violas             453  +0.00   0.00   0.00     0 /   0
+  Violoncellos       499  +0.00   0.00   0.00     0 /   0
+  Double basses      501  +0.00   0.00   0.00     0 /   0
+  Violas div         462  +0.00   0.00   0.00     0 /   0
+largest p95: R1 Double basses 35.97, R1 Violins II 15.31, R1 Violins I 5.17, R1 Violoncellos 5.00, R3 Violoncellos 0.00, R3 Violins II 0.00

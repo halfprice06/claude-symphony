@@ -1,0 +1,43 @@
+bar  15 beat 1.5 p67 note-on  -10 ms  NOT FOUND as dominant pitch
+bar  15 beat 2.0 p75 note-on  -60 ms  sounds   +49 ms  heard-length 660 ms (score 0 ms) pk -35 dB
+bar  15 beat 3.5 p74 note-on -100 ms  sounds    -0 ms  heard-length 260 ms (score 0 ms) pk -40 dB
+bar  15 beat 4.0 p73 note-on -152 ms  sounds   +26 ms  heard-length 80 ms (score 0 ms) pk -43 dB
+bar  15 beat 4.5 p72 note-on    0 ms  sounds   +48 ms  heard-length 630 ms (score 0 ms) pk -32 dB
+bar  16 beat 1.0 p72 note-on -151 ms  NOT FOUND as dominant pitch
+bar  16 beat 2.0 p71 note-on -100 ms  sounds   -31 ms  heard-length 210 ms (score 0 ms) pk -36 dB
+bar  16 beat 2.5 p72 note-on -170 ms  sounds   -54 ms  heard-length 385 ms (score 0 ms) pk -30 dB
+bar  16 beat 3.0 p68 note-on -179 ms  sounds   +98 ms  heard-length 660 ms (score 0 ms) pk -35 dB
+bar  16 beat 4.5 p67 note-on -220 ms  sounds   +59 ms  heard-length 60 ms (score 0 ms) pk -48 dB
+bar  17 beat 1.5 p67 note-on  -60 ms  NOT FOUND as dominant pitch
+bar  17 beat 2.0 p77 note-on  -60 ms  sounds   +49 ms  heard-length 675 ms (score 0 ms) pk -36 dB
+bar  17 beat 3.5 p75 note-on -100 ms  sounds    -5 ms  heard-length 160 ms (score 0 ms) pk -37 dB
+bar  17 beat 4.0 p74 note-on -170 ms  sounds   -18 ms  heard-length 300 ms (score 0 ms) pk -37 dB
+bar  17 beat 4.5 p72 note-on -220 ms  sounds   +49 ms  heard-length 255 ms (score 0 ms) pk -37 dB
+bar  18 beat 1.0 p71 note-on -210 ms  sounds   +71 ms  heard-length 65 ms (score 0 ms) pk -43 dB
+bar  18 beat 2.0 p74 note-on -100 ms  sounds   -65 ms  heard-length 285 ms (score 0 ms) pk -39 dB
+bar  18 beat 2.5 p72 note-on -178 ms  sounds   -13 ms  heard-length 245 ms (score 0 ms) pk -40 dB
+bar  18 beat 3.0 p67 note-on -179 ms  sounds    -2 ms  heard-length 215 ms (score 0 ms) pk -41 dB
+bar  19 beat 1.5 p68 note-on  -90 ms  sounds   -49 ms  heard-length 330 ms (score 0 ms) pk -37 dB
+bar  19 beat 2.0 p80 note-on -170 ms  sounds   +40 ms  heard-length 660 ms (score 0 ms) pk -37 dB
+bar  19 beat 3.5 p79 note-on  -64 ms  sounds    +2 ms  heard-length 200 ms (score 0 ms) pk -41 dB
+bar  19 beat 4.0 p77 note-on -170 ms  sounds   +17 ms  heard-length 190 ms (score 0 ms) pk -40 dB
+bar  19 beat 4.5 p75 note-on -220 ms  sounds    +8 ms  heard-length 250 ms (score 0 ms) pk -38 dB
+bar  20 beat 1.0 p73 note-on -170 ms  sounds   +28 ms  heard-length 175 ms (score 0 ms) pk -40 dB
+bar  20 beat 1.5 p75 note-on -170 ms  sounds  +108 ms  heard-length 235 ms (score 0 ms) pk -37 dB
+bar  20 beat 2.0 p77 note-on -170 ms  sounds  +114 ms  heard-length 140 ms (score 0 ms) pk -39 dB
+bar  20 beat 2.5 p80 note-on    0 ms  sounds   +24 ms  heard-length 235 ms (score 0 ms) pk -37 dB
+bar  20 beat 3.0 p85 note-on  -60 ms  sounds   +30 ms  heard-length 1160 ms (score 0 ms) pk -34 dB
+bar  21 beat 1.5 p84 note-on -100 ms  sounds    -1 ms  heard-length 285 ms (score 0 ms) pk -43 dB
+bar  21 beat 2.0 p82 note-on -178 ms  sounds   +51 ms  heard-length 220 ms (score 0 ms) pk -38 dB
+bar  21 beat 2.5 p80 note-on -208 ms  sounds   +38 ms  heard-length 190 ms (score 0 ms) pk -34 dB
+bar  21 beat 3.0 p79 note-on -179 ms  sounds    -6 ms  heard-length 800 ms (score 0 ms) pk -32 dB
+bar  21 beat 4.5 p77 note-on -220 ms  sounds   +85 ms  heard-length 120 ms (score 0 ms) pk -44 dB
+bar  22 beat 1.0 p75 note-on -100 ms  sounds   -28 ms  heard-length 290 ms (score 0 ms) pk -42 dB
+bar  22 beat 1.5 p74 note-on -178 ms  sounds   +49 ms  heard-length 235 ms (score 0 ms) pk -39 dB
+bar  22 beat 2.0 p72 note-on -220 ms  sounds   +51 ms  heard-length 265 ms (score 0 ms) pk -37 dB
+bar  22 beat 2.5 p71 note-on -170 ms  sounds   +83 ms  heard-length 215 ms (score 0 ms) pk -39 dB
+bar  22 beat 3.0 p72 note-on -179 ms  sounds   +85 ms  heard-length 825 ms (score 0 ms) pk -37 dB
+bar  23 beat 1.0 p75 note-on -170 ms  sounds   -99 ms  heard-length 550 ms (score 0 ms) pk -42 dB
+bar  23 beat 2.0 p74 note-on -170 ms  sounds   -20 ms  heard-length 480 ms (score 0 ms) pk -40 dB
+bar  23 beat 3.0 p72 note-on -170 ms  sounds    -4 ms  heard-length 100 ms (score 0 ms) pk -42 dB
+found 39 of 42 median 26 sd 48 min -99 max 114; >40 ms from median: 15

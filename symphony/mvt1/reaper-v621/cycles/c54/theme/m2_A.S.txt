@@ -1,0 +1,6 @@
+Violins I     56-87.9 S: n 39 of 39  median +3  robust SD 13  SD 31  min -35 max +164  >25 from median 7  >40 2  >60 1
+Violins I     88-103 S: n 13 of 13  median -14  robust SD 24  SD 21  min -32 max +28  >25 from median 3  >40 2  >60 0
+Violins I     104-126 S: n 27 of 27  median +14  robust SD 21  SD 20  min -32 max +54  >25 from median 7  >40 2  >60 0
+Violins II    78-82 S: n 4 of 4  median -16  robust SD 14  SD 15  min -25 max +12  >25 from median 1  >40 0  >60 0
+Violins II    104-126 S: n 27 of 27  median +6  robust SD 22  SD 19  min -34 max +59  >25 from median 4  >40 1  >60 0
+Violas        104-126 S: n 27 of 27  median +4  robust SD 27  SD 28  min -52 max +54  >25 from median 11  >40 5  >60 0

@@ -1,0 +1,205 @@
+{
+ "1TP Mute Sus": {
+  "file": "/Volumes/MAC DRIVE/EW Hollywood Brass Diamond/Hollywood Brass Opus Instruments/Solo Trumpet/05 Mutes/1TP Mute Sus.oib",
+  "locator": "//com.eastwest.8020/Solo Trumpet/05 Mutes/1TP Mute Sus.oit",
+  "keyMin": 0,
+  "keyMax": 127,
+  "legato": false,
+  "currentKeySwitch": null,
+  "articulations": [],
+  "controls": [
+   {
+    "label": "Modulation wheel",
+    "cc": 1,
+    "name": "controller_1"
+   },
+   {
+    "label": "Legato Time",
+    "cc": 5,
+    "name": "controller_5"
+   },
+   {
+    "label": "MIDI Volume",
+    "cc": 7,
+    "name": "controller_7"
+   },
+   {
+    "label": "MIDI Pan",
+    "cc": 10,
+    "name": "controller_10"
+   },
+   {
+    "label": "Expression",
+    "cc": 11,
+    "name": "controller_11"
+   },
+   {
+    "label": "Con Sordino",
+    "cc": 15,
+    "name": "controller_15"
+   },
+   {
+    "label": "True Legato: Mono",
+    "cc": 22,
+    "name": "controller_22"
+   },
+   {
+    "label": "Repetition: Reset RR",
+    "cc": 36,
+    "name": "controller_36"
+   },
+   {
+    "label": "Repetition: Sustain",
+    "cc": 64,
+    "name": "controller_64"
+   },
+   {
+    "label": "Portamento",
+    "cc": 65,
+    "name": "controller_65"
+   },
+   {
+    "label": "Legato",
+    "cc": 68,
+    "name": "controller_68"
+   },
+   {
+    "label": "Repetition",
+    "cc": 69,
+    "name": "controller_69"
+   }
+  ],
+  "rows": [
+   "1TP Mute Sus",
+   "Release"
+  ]
+ },
+ "36in Ludwig Bass Drum": {
+  "file": "/Volumes/MAC DRIVE/EW Hollywood Orchestral Percussion Diamond/Hollywood Orch Percussion Opus Instruments/Drums/36in Ludwig Bass Drum.oib",
+  "locator": "//com.eastwest.8040/Drums/36in Ludwig Bass Drum.oit",
+  "keyMin": 0,
+  "keyMax": 127,
+  "legato": false,
+  "currentKeySwitch": null,
+  "articulations": [],
+  "controls": [
+   {
+    "label": "Modulation wheel",
+    "cc": 1,
+    "name": "Modulation wheel"
+   },
+   {
+    "label": "Legato Time",
+    "cc": 5,
+    "name": "controller_5"
+   },
+   {
+    "label": "MIDI Volume",
+    "cc": 7,
+    "name": "controller_7"
+   },
+   {
+    "label": "MIDI Pan",
+    "cc": 10,
+    "name": "controller_10"
+   },
+   {
+    "label": "Expression",
+    "cc": 11,
+    "name": "Expression"
+   },
+   {
+    "label": "True Legato: Mono",
+    "cc": 22,
+    "name": "controller_22"
+   },
+   {
+    "label": "Repetition: Reset RR",
+    "cc": 36,
+    "name": "controller_36"
+   },
+   {
+    "label": "Repetition: Sustain",
+    "cc": 64,
+    "name": "controller_64"
+   },
+   {
+    "label": "Portamento",
+    "cc": 65,
+    "name": "controller_65"
+   },
+   {
+    "label": "Legato",
+    "cc": 68,
+    "name": "controller_68"
+   },
+   {
+    "label": "Repetition",
+    "cc": 69,
+    "name": "controller_69"
+   }
+  ],
+  "rows": [
+   "36in Ludwig Bass Drum"
+  ]
+ },
+ "22in Zildjian K Crash": {
+  "file": "/Volumes/MAC DRIVE/EW Hollywood Orchestral Percussion Diamond/Hollywood Orch Percussion Opus Instruments/Cymbals/Cymbal Pairs/22in Zildjian K Crash.oib",
+  "locator": "//com.eastwest.8040/Cymbals/Cymbal Pairs/22in Zildjian K Crash.oit",
+  "keyMin": 0,
+  "keyMax": 127,
+  "legato": false,
+  "currentKeySwitch": null,
+  "articulations": [],
+  "controls": [
+   {
+    "label": "Legato Time",
+    "cc": 5,
+    "name": "controller_5"
+   },
+   {
+    "label": "MIDI Volume",
+    "cc": 7,
+    "name": "controller_7"
+   },
+   {
+    "label": "MIDI Pan",
+    "cc": 10,
+    "name": "controller_10"
+   },
+   {
+    "label": "True Legato: Mono",
+    "cc": 22,
+    "name": "controller_22"
+   },
+   {
+    "label": "Repetition: Reset RR",
+    "cc": 36,
+    "name": "controller_36"
+   },
+   {
+    "label": "Repetition: Sustain",
+    "cc": 64,
+    "name": "controller_64"
+   },
+   {
+    "label": "Portamento",
+    "cc": 65,
+    "name": "controller_65"
+   },
+   {
+    "label": "Legato",
+    "cc": 68,
+    "name": "controller_68"
+   },
+   {
+    "label": "Repetition",
+    "cc": 69,
+    "name": "controller_69"
+   }
+  ],
+  "rows": [
+   "22in Zildjian K Crash"
+  ]
+ }
+}

@@ -1,0 +1,19 @@
+== seat (C #1a, C #4): whole-stem L-R (dB) and K level; Harp 216-240 L-R at 500-1000 Hz
+  Flute 1        L-R  +2.2  K -37.95
+  Flute 2        L-R  +1.5  K -40.38
+  Oboe 1         L-R  -2.1  K -40.48
+  Oboe 2         L-R  -2.9  K -46.74
+  Cor anglais    L-R  -4.0  K -44.62
+  Clarinet 1     L-R  +1.8  K -40.68
+  Clarinet 2     L-R  +2.2  K -40.01
+  Bass clarinet  L-R  +2.8  K -55.50
+  Bassoon 1      L-R  -2.1  K -44.65
+  Bassoon 2      L-R  -2.8  K -45.68
+  Contrabassoon  L-R  -4.0  K -45.28
+  Harp           L-R  +2.5  K -52.13
+  Harp harmonics L-R  +4.1  K -67.04
+  Violins I      L-R  +5.9  K -32.50
+  Violins II     L-R  +3.3  K -35.09
+  Double basses  L-R  -5.1  K -40.99
+  Harp 216-240: L-R full +3.3, 500-1000 Hz +5.7
+  R Perc 216-240: L-R full +8.2, 500-1000 Hz +6.6

@@ -1,0 +1,32 @@
+== A: soft heads, eighths
+median  head  -1.3 hole  -5.9 low -10.3 eighth1  -3.1 f100/nb  +0.3 2-5k/nb  +5.5 peak +0.135 s
+median trough -3.9  eighth1 2-5k +1.0  landing +0.4  (n 4)
+== A: fig bar 23
+bar 23 (qn 67.0): 78->79 17.0, 79->81 4.8, 81->83 7.5, 83->84 12.5
+== C: tenuto downbeats 312-360
+Double basses 312.0-360.0: n 16  peak -33.2 dB at +155 ms  -6 dB at +65 ms  body -36.5  2-5k front-body -5.5
+Tuba 312.0-360.0: n 16  peak -36.0 dB at +188 ms  -6 dB at +65 ms  body -40.0  2-5k front-body -8.4
+Bass trombone 312.0-360.0: n 15  peak -42.4 dB at +185 ms  -6 dB at +35 ms  body -45.1  2-5k front-body -6.6
+Trombone 1 312.0-360.0: n 16  peak -42.1 dB at +190 ms  -6 dB at +90 ms  body -45.6  2-5k front-body -9.8
+Trombone 2 312.0-360.0: n 16  peak -42.4 dB at +180 ms  -6 dB at +75 ms  body -44.4  2-5k front-body -2.5
+== C: accents
+Violins I 299.0-362.0: n 6  first100 over nb median -0.4 (max +2.8, over +3: 0)  peak 0.163 s  -6 dB at +1 ms
+Violins II 299.0-362.0: n 5  first100 over nb median -0.5 (max +5.0, over +3: 1)  peak 0.184 s  -6 dB at -39 ms
+Cor anglais 299.0-362.0: n 6  first100 over nb median -1.3 (max +0.9, over +3: 0)  peak 0.249 s  -6 dB at -5 ms
+== C: downbeats
+Violins I 312.0-360.0: downbeat over beats 2-3 median -1.1 dB (n 16)
+Violins II 312.0-360.0: downbeat over beats 2-3 median +0.5 dB (n 16)
+Cor anglais 312.0-360.0: downbeat over beats 2-3 median +0.2 dB (n 16)
+Double basses 312.0-360.0: downbeat over beats 2-3 median +0.3 dB (n 16)
+Tuba 312.0-360.0: downbeat over beats 2-3 median -0.2 dB (n 16)
+Timpani 312.0-360.0: downbeat over beats 2-3 median +6.5 dB (n 16)
+== C: timpani
+strokes 264.0-362.0: n 53  peak -33.2 dB  1-5k share -16.2  20-150 share -4.5  peak at +20 ms
+  roll   300.00 mean -35.4 dB
+== T: timpani intro
+strokes 0.0-40.0: n 11  peak -40.5 dB  1-5k share -18.2  20-150 share -4.0  peak at +20 ms
+== C: fig 110 / spic
+bar 110 (qn 329.0): 80->79 2.7, 79->78 3.2, 78->75 13.9
+bar 115 (qn 343.0): 78->79 15.7, 79->81 4.5, 81->83 8.8, 83->84 10.1
+rerouted Spiccato notes 6: over neighbours median +1.1 dB, p90 +1.4, over +3: 0, over +5: 0; 70 ms peak median -34.2
+  342 F sharp -36.6 vs accented 345 -34.6 dB

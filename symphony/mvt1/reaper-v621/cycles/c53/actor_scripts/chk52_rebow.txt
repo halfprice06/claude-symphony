@@ -1,0 +1,11 @@
+== rebow: /Users/gooby/.venvs/claude-composes-reaper/bin/python cycles/c53/actor_scripts/rebowdip53.py cycles/c52/render cycles/c52/rendered_build/parts.json cycles/c52/rendered_build/rebow_fills.json Violoncellos:12.163 Violoncellos:21.442 Violoncellos:26.516 Double basses:26.003 Violas:40 Violins II:47 Double basses:47 Double basses:292 Double basses:297.045
+re-bow                      stem dip     at  master     at
+Violoncellos:12.163              3.9  -0.11     1.8  +0.09
+Violoncellos:21.442              4.8  +0.14     3.5  +0.02
+Violoncellos:26.516              7.0  +0.13     3.0  +0.11
+Double basses:26.003             1.4  +0.01     4.6  +0.06
+Violas:40                        3.8  +0.03     2.3  -0.01
+Violins II:47                    3.6  +0.05     2.4  +0.03
+Double basses:47                 6.1  +0.06     2.4  +0.03
+Double basses:292                8.8  +0.18     2.1  +0.06
+Double basses:297.045            2.8  +0.40     5.0  -0.01

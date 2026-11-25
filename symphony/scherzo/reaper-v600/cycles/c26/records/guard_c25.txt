@@ -1,0 +1,22 @@
+envelope: points 2683, per note 0.48, per second 9.7 (timpani left out)
+fixed guard, step (1.5 dB within 0.5 s, > 6 dB/s, inside a sounding note): 9 notes (+ harp 14)
+first 0.35 s (finale c27: 1.5 dB or more, printed hairpins apart): 9 notes (+ harp 6); steps wholly inside printed hairpins (exempt from both counts): 18 notes
+critic B's measure (2 dB within 0.5 s at 20 dB/s or faster): 0 notes (+ harp 0)
+   Bassoon 1 sq 1001.0 on 1000.712 2.4 dB at +0.27 s 
+   Clarinet 2 sq 210.0 on 209.846 3.2 dB at +0.17 s 
+   Clarinet 2 sq 894.0 on 893.846 3.3 dB at +0.17 s 
+   Cor anglais sq 156.0 on 155.85 1.7 dB at +0.06 s 
+   Cor anglais sq 156.0 on 155.85 2.0 dB at +0 s 
+   Flute 1 sq 156.0 on 155.85 1.9 dB at +0.06 s 
+   Flute 1 sq 156.0 on 155.85 2.1 dB at +0 s 
+   Flute 1 sq 384.0 on 383.85 1.9 dB at +0.06 s 
+   Flute 1 sq 384.0 on 383.85 2.1 dB at +0 s 
+   Horn 1 sq 442.0 on 441.78 2.8 dB at +0.06 s 
+   Horn 3 sq 950.0 on 949.736 2.8 dB at +0.31 s 
+   Horn 3 sq 1028.0 on 1027.775 1.5 dB at +0 s 
+   Oboe 1 sq 1002.0 on 1002.0 5.2 dB at +0.21 s 
+   Violin I solo sq 1064.0 on 1063.25 1.7 dB at +0 s 
+   Violins I sq 1012.0 on 1011.616 1.7 dB at +0 s 
+   Violins II sq 1057.0 on 1056.25 1.5 dB at +0 s 
+   Violins II sq 1064.0 on 1063.25 1.5 dB at +0 s 
+   Violoncellos sq 876.0 on 875.472 1.9 dB at +0 s 

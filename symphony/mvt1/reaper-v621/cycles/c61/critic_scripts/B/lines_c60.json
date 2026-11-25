@@ -1,0 +1,3152 @@
+[
+ {
+  "id": "Lento 9-13 Vln II",
+  "q0": 32,
+  "q1": 52,
+  "bars": "9-14",
+  "imp": 2,
+  "lab": "Vln II moving line under the rising sixths",
+  "dyn": "pp-f",
+  "line": [
+   "Violins II"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -6.0,
+  "k_tune": -5.5,
+  "k_master": -12.1,
+  "d_master": -11.4,
+  "best_band": 400,
+  "best_R": -4.1,
+  "best_R_acc": -3.7,
+  "frac_ok": 0.9,
+  "maskers": [
+   [
+    "Violoncellos",
+    -2.8
+   ],
+   [
+    "Bassoon 2",
+    -3.6
+   ],
+   [
+    "Violins I",
+    -5.6
+   ],
+   [
+    "Bassoon 1",
+    -7.1
+   ]
+  ],
+  "LA_line": -43.9,
+  "nfr": 477
+ },
+ {
+  "id": "Lento 9-13 Vla",
+  "q0": 32,
+  "q1": 52,
+  "bars": "9-14",
+  "imp": 2,
+  "lab": "violas moving line under the rising sixths",
+  "dyn": "pp-f",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -6.0,
+  "k_tune": -5.1,
+  "k_master": -11.8,
+  "d_master": -11.3,
+  "best_band": 2000,
+  "best_R": -4.5,
+  "best_R_acc": -3.1,
+  "frac_ok": 0.97,
+  "maskers": [
+   [
+    "Violins I",
+    -1.0
+   ],
+   [
+    "Violins II",
+    -1.0
+   ],
+   [
+    "Violoncellos",
+    -4.2
+   ],
+   [
+    "Trombone 1",
+    -8.6
+   ]
+  ],
+  "LA_line": -43.8,
+  "nfr": 468
+ },
+ {
+  "id": "15-22 celli bass",
+  "q0": 56,
+  "q1": 88,
+  "bars": "15-23",
+  "imp": 1,
+  "lab": "celli half-note bass line (Bn1 from 19)",
+  "dyn": "mf",
+  "line": [
+   "Violoncellos",
+   "Bassoon 1"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -14.0,
+  "k_tune": -10.7,
+  "k_master": -12.5,
+  "d_master": -15.1,
+  "best_band": 200,
+  "best_R": 3.5,
+  "best_R_acc": 3.5,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Double basses",
+    -7.2
+   ],
+   [
+    "R Strings",
+    -10.9
+   ],
+   [
+    "Horn 4",
+    -15.2
+   ],
+   [
+    "R Brass",
+    -32.6
+   ]
+  ],
+  "LA_line": -48.0,
+  "nfr": 301
+ },
+ {
+  "id": "19-22 Vla espr.",
+  "q0": 72,
+  "q1": 88,
+  "bars": "19-23",
+  "imp": 1,
+  "lab": "violas espr. counter-line",
+  "dyn": "mp-f",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -6.2,
+  "k_tune": -4.9,
+  "k_master": -6.6,
+  "d_master": -7.4,
+  "best_band": 315,
+  "best_R": 4.1,
+  "best_R_acc": 4.1,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "R Strings",
+    -10.3
+   ],
+   [
+    "Violins II",
+    -10.4
+   ],
+   [
+    "Bassoon 1",
+    -10.6
+   ],
+   [
+    "Violoncellos",
+    -11.1
+   ]
+  ],
+  "LA_line": -38.9,
+  "nfr": 145
+ },
+ {
+  "id": "23-26 celli",
+  "q0": 88,
+  "q1": 104,
+  "bars": "23-27",
+  "imp": 2,
+  "lab": "celli line under the wind/violin tune",
+  "dyn": "mf",
+  "line": [
+   "Violoncellos"
+  ],
+  "tune": [
+   "Flute 1",
+   "Oboe 1",
+   "Violins I"
+  ],
+  "d_tune": -13.1,
+  "k_tune": -4.9,
+  "k_master": -10.5,
+  "d_master": -17.6,
+  "best_band": 125,
+  "best_R": 3.5,
+  "best_R_acc": 3.5,
+  "frac_ok": 0.93,
+  "maskers": [
+   [
+    "Double basses",
+    -6.8
+   ],
+   [
+    "Tuba",
+    -14.6
+   ],
+   [
+    "Timpani",
+    -17.4
+   ],
+   [
+    "Bassoon 1",
+    -17.6
+   ]
+  ],
+  "LA_line": -41.7,
+  "nfr": 141
+ },
+ {
+  "id": "23-26 Hn3-4",
+  "q0": 88,
+  "q1": 104,
+  "bars": "23-27",
+  "imp": 3,
+  "lab": "accented horn line",
+  "dyn": "mp",
+  "line": [
+   "Horn 3",
+   "Horn 4"
+  ],
+  "tune": [
+   "Flute 1",
+   "Oboe 1",
+   "Violins I"
+  ],
+  "d_tune": -11.0,
+  "k_tune": -9.6,
+  "k_master": -15.3,
+  "d_master": -15.6,
+  "best_band": 630,
+  "best_R": -9.8,
+  "best_R_acc": -8.4,
+  "frac_ok": 0.86,
+  "maskers": [
+   [
+    "Violins II",
+    2.8
+   ],
+   [
+    "Flute 1",
+    1.8
+   ],
+   [
+    "Violins I",
+    1.1
+   ],
+   [
+    "Horn 2",
+    0.3
+   ]
+  ],
+  "LA_line": -39.5,
+  "nfr": 132
+ },
+ {
+  "id": "27-31 celli+Bn1",
+  "q0": 104,
+  "q1": 124,
+  "bars": "27-32",
+  "imp": 1,
+  "lab": "celli + Bn1 half-note counter-bass in the ff tutti",
+  "dyn": "ff",
+  "line": [
+   "Violoncellos",
+   "Bassoon 1"
+  ],
+  "tune": [
+   "Violins I",
+   "Flute 1",
+   "Oboe 1"
+  ],
+  "d_tune": -11.0,
+  "k_tune": -8.1,
+  "k_master": -13.5,
+  "d_master": -15.5,
+  "best_band": 200,
+  "best_R": -6.3,
+  "best_R_acc": -6.3,
+  "frac_ok": 0.81,
+  "maskers": [
+   [
+    "Double basses",
+    3.2
+   ],
+   [
+    "Timpani",
+    0.1
+   ],
+   [
+    "Trombone 2",
+    -4.8
+   ],
+   [
+    "Tuba",
+    -6.9
+   ]
+  ],
+  "LA_line": -39.7,
+  "nfr": 189
+ },
+ {
+  "id": "34-36 Vla imitation",
+  "q0": 132,
+  "q1": 144,
+  "bars": "34-37",
+  "imp": 1,
+  "lab": "violas imitate the bassoon solo",
+  "dyn": "mp",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Bassoon 1"
+  ],
+  "d_tune": -6.2,
+  "k_tune": -5.6,
+  "k_master": -12.8,
+  "d_master": -12.9,
+  "best_band": 400,
+  "best_R": -4.2,
+  "best_R_acc": -2.7,
+  "frac_ok": 0.98,
+  "maskers": [
+   [
+    "Violins I",
+    0.7
+   ],
+   [
+    "Bassoon 1",
+    -0.7
+   ],
+   [
+    "R Strings",
+    -7.3
+   ],
+   [
+    "Clarinet 2",
+    -8.1
+   ]
+  ],
+  "LA_line": -51.4,
+  "nfr": 105
+ },
+ {
+  "id": "37-38 Ob1 entry",
+  "q0": 146,
+  "q1": 152,
+  "bars": "38-39",
+  "imp": 1,
+  "lab": "oboe imitative entry",
+  "dyn": "mf",
+  "line": [
+   "Oboe 1"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -2.6,
+  "k_tune": -3.3,
+  "k_master": -7.4,
+  "d_master": -6.1,
+  "best_band": 1250,
+  "best_R": 0.8,
+  "best_R_acc": 3.9,
+  "frac_ok": 0.97,
+  "maskers": [
+   [
+    "Violins I",
+    -3.7
+   ],
+   [
+    "Violins II",
+    -10.2
+   ],
+   [
+    "Bassoon 1",
+    -11.4
+   ],
+   [
+    "Bassoon 2",
+    -11.6
+   ]
+  ],
+  "LA_line": -41.0,
+  "nfr": 32
+ },
+ {
+  "id": "38-39 Cl1 entry",
+  "q0": 151,
+  "q1": 156,
+  "bars": "39-40",
+  "imp": 1,
+  "lab": "clarinet imitative entry",
+  "dyn": "mf",
+  "line": [
+   "Clarinet 1"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -1.9,
+  "k_tune": -2.4,
+  "k_master": -10.2,
+  "d_master": -8.5,
+  "best_band": 1600,
+  "best_R": -0.2,
+  "best_R_acc": 1.0,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Violins II",
+    -5.0
+   ],
+   [
+    "Violins I",
+    -5.8
+   ],
+   [
+    "Violas",
+    -12.2
+   ],
+   [
+    "Violoncellos",
+    -12.3
+   ]
+  ],
+  "LA_line": -40.5,
+  "nfr": 27
+ },
+ {
+  "id": "37-39 Vla",
+  "q0": 148,
+  "q1": 156,
+  "bars": "38-40",
+  "imp": 2,
+  "lab": "violas second entry",
+  "dyn": "p",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -10.0,
+  "k_tune": -7.8,
+  "k_master": -11.7,
+  "d_master": -12.7,
+  "best_band": 315,
+  "best_R": -0.6,
+  "best_R_acc": -0.6,
+  "frac_ok": 0.79,
+  "maskers": [
+   [
+    "Horn 3",
+    -1.6
+   ],
+   [
+    "Bassoon 2",
+    -3.6
+   ],
+   [
+    "Horn 4",
+    -12.0
+   ],
+   [
+    "R Strings",
+    -12.4
+   ]
+  ],
+  "LA_line": -42.1,
+  "nfr": 86
+ },
+ {
+  "id": "44-46 Vla",
+  "q0": 172,
+  "q1": 184,
+  "bars": "44-47",
+  "imp": 2,
+  "lab": "violas moving half notes under the clarinet link",
+  "dyn": "pp",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Clarinet 1"
+  ],
+  "d_tune": -3.8,
+  "k_tune": -2.9,
+  "k_master": -7.8,
+  "d_master": -7.7,
+  "best_band": 250,
+  "best_R": 3.8,
+  "best_R_acc": 3.8,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Violins II",
+    -5.1
+   ],
+   [
+    "R Strings",
+    -10.0
+   ],
+   [
+    "Double basses",
+    -18.3
+   ],
+   [
+    "Violoncellos",
+    -19.7
+   ]
+  ],
+  "LA_line": -53.7,
+  "nfr": 99
+ },
+ {
+  "id": "47-54 harp",
+  "q0": 184,
+  "q1": 216,
+  "bars": "47-55",
+  "imp": 3,
+  "lab": "harp arpeggios under the S theme",
+  "dyn": "mp",
+  "line": [
+   "Harp"
+  ],
+  "tune": [
+   "Horn 1",
+   "Violoncellos"
+  ],
+  "d_tune": -8.6,
+  "k_tune": -7.8,
+  "k_master": -9.2,
+  "d_master": -9.9,
+  "best_band": 160,
+  "best_R": 8.2,
+  "best_R_acc": 8.3,
+  "frac_ok": 0.97,
+  "maskers": [
+   [
+    "R Perc",
+    -7.8
+   ],
+   [
+    "R Strings",
+    -24.2
+   ],
+   [
+    "Double basses",
+    -24.5
+   ],
+   [
+    "Violoncellos",
+    -27.6
+   ]
+  ],
+  "LA_line": -48.9,
+  "nfr": 363
+ },
+ {
+  "id": "52-55 Cl1",
+  "q0": 204,
+  "q1": 220,
+  "bars": "52-56",
+  "imp": 1,
+  "lab": "clarinet line into 55",
+  "dyn": "mp",
+  "line": [
+   "Clarinet 1"
+  ],
+  "tune": [
+   "Horn 1",
+   "Violoncellos"
+  ],
+  "d_tune": -5.0,
+  "k_tune": -5.5,
+  "k_master": -7.6,
+  "d_master": -7.0,
+  "best_band": 1250,
+  "best_R": 1.0,
+  "best_R_acc": 5.7,
+  "frac_ok": 0.94,
+  "maskers": [
+   [
+    "Violoncellos",
+    -1.0
+   ],
+   [
+    "Violas",
+    -12.9
+   ],
+   [
+    "R Winds",
+    -13.6
+   ],
+   [
+    "R Strings",
+    -18.2
+   ]
+  ],
+  "LA_line": -47.3,
+  "nfr": 96
+ },
+ {
+  "id": "56-63 Cl1+Hn2 counter",
+  "q0": 220,
+  "q1": 252,
+  "bars": "56-64",
+  "imp": 1,
+  "lab": "espr. countermelody (Cl1 + Hn2)",
+  "dyn": "p-mf",
+  "line": [
+   "Clarinet 1",
+   "Horn 2"
+  ],
+  "tune": [
+   "Violins I f62",
+   "Violins II f62",
+   "Violins I",
+   "Violins II"
+  ],
+  "d_tune": -8.5,
+  "k_tune": -6.6,
+  "k_master": -9.0,
+  "d_master": -10.1,
+  "best_band": 315,
+  "best_R": -1.5,
+  "best_R_acc": -1.1,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Bassoon 2",
+    -5.9
+   ],
+   [
+    "Horn 4",
+    -8.3
+   ],
+   [
+    "Violins II f62",
+    -9.6
+   ],
+   [
+    "Violoncellos",
+    -9.9
+   ]
+  ],
+  "LA_line": -43.8,
+  "nfr": 322
+ },
+ {
+  "id": "56-61 celli figures",
+  "q0": 220,
+  "q1": 244,
+  "bars": "56-62",
+  "imp": 2,
+  "lab": "celli arpeggio figures",
+  "dyn": "pp-p",
+  "line": [
+   "Violoncellos"
+  ],
+  "tune": [
+   "Violins I f62",
+   "Violins II f62"
+  ],
+  "d_tune": -13.3,
+  "k_tune": -11.2,
+  "k_master": -13.6,
+  "d_master": -15.0,
+  "best_band": 125,
+  "best_R": 1.5,
+  "best_R_acc": 1.6,
+  "frac_ok": 0.99,
+  "maskers": [
+   [
+    "Double basses",
+    -4.1
+   ],
+   [
+    "Harp",
+    -10.3
+   ],
+   [
+    "R Strings",
+    -13.0
+   ],
+   [
+    "Violins II f62",
+    -26.5
+   ]
+  ],
+  "LA_line": -48.0,
+  "nfr": 248
+ },
+ {
+  "id": "56-61 harp",
+  "q0": 220,
+  "q1": 244,
+  "bars": "56-62",
+  "imp": 3,
+  "lab": "harp figures",
+  "dyn": "p",
+  "line": [
+   "Harp"
+  ],
+  "tune": [
+   "Violins I f62",
+   "Violins II f62"
+  ],
+  "d_tune": -12.7,
+  "k_tune": -12.0,
+  "k_master": -14.4,
+  "d_master": -14.4,
+  "best_band": 8000,
+  "best_R": -2.0,
+  "best_R_acc": 9.3,
+  "frac_ok": 0.81,
+  "maskers": [
+   [
+    "Violins I f62",
+    1.2
+   ],
+   [
+    "Violins II f62",
+    -7.2
+   ],
+   [
+    "Violoncellos",
+    -12.2
+   ],
+   [
+    "Violas",
+    -16.6
+   ]
+  ],
+  "LA_line": -47.3,
+  "nfr": 258
+ },
+ {
+  "id": "60-61 Vla",
+  "q0": 236,
+  "q1": 244,
+  "bars": "60-62",
+  "imp": 2,
+  "lab": "violas figure",
+  "dyn": "p",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Violins I f62",
+   "Violins II f62"
+  ],
+  "d_tune": -15.1,
+  "k_tune": -14.6,
+  "k_master": -17.0,
+  "d_master": -16.6,
+  "best_band": 1250,
+  "best_R": -10.5,
+  "best_R_acc": -7.4,
+  "frac_ok": 0.45,
+  "maskers": [
+   [
+    "Violins II f62",
+    7.7
+   ],
+   [
+    "Horn 2",
+    1.7
+   ],
+   [
+    "Clarinet 1",
+    1.4
+   ],
+   [
+    "Horn 4",
+    -0.2
+   ]
+  ],
+  "LA_line": -46.3,
+  "nfr": 56
+ },
+ {
+  "id": "64-68 Cl1+Hn2 counter",
+  "q0": 252,
+  "q1": 272,
+  "bars": "64-69",
+  "imp": 1,
+  "lab": "counter-line (Cl1 + Hn2)",
+  "dyn": "mf/mp",
+  "line": [
+   "Clarinet 1",
+   "Horn 2"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -6.2,
+  "k_tune": -3.6,
+  "k_master": -8.1,
+  "d_master": -9.4,
+  "best_band": 250,
+  "best_R": 1.2,
+  "best_R_acc": 1.2,
+  "frac_ok": 0.99,
+  "maskers": [
+   [
+    "R Winds",
+    -8.5
+   ],
+   [
+    "Violoncellos",
+    -12.5
+   ],
+   [
+    "Violins II",
+    -13.2
+   ],
+   [
+    "Horn 3",
+    -16.7
+   ]
+  ],
+  "LA_line": -42.3,
+  "nfr": 207
+ },
+ {
+  "id": "64-68 celli",
+  "q0": 252,
+  "q1": 272,
+  "bars": "64-69",
+  "imp": 2,
+  "lab": "celli arpeggios",
+  "dyn": "mf",
+  "line": [
+   "Violoncellos"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -12.8,
+  "k_tune": -9.1,
+  "k_master": -13.3,
+  "d_master": -15.8,
+  "best_band": 200,
+  "best_R": 3.1,
+  "best_R_acc": 3.1,
+  "frac_ok": 0.94,
+  "maskers": [
+   [
+    "Harp",
+    -7.1
+   ],
+   [
+    "Double basses",
+    -10.0
+   ],
+   [
+    "Horn 4",
+    -10.2
+   ],
+   [
+    "R Strings",
+    -12.0
+   ]
+  ],
+  "LA_line": -48.6,
+  "nfr": 210
+ },
+ {
+  "id": "69-72 Vla eighths",
+  "q0": 272,
+  "q1": 288,
+  "bars": "69-73",
+  "imp": 2,
+  "lab": "violas running eighths under the inner-voice P head",
+  "dyn": "f",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Violins II",
+   "Clarinet 1",
+   "Cor anglais",
+   "Horns a2"
+  ],
+  "d_tune": -8.0,
+  "k_tune": -6.8,
+  "k_master": -14.1,
+  "d_master": -15.0,
+  "best_band": 250,
+  "best_R": -5.2,
+  "best_R_acc": -4.7,
+  "frac_ok": 0.82,
+  "maskers": [
+   [
+    "Trombone 2",
+    2.7
+   ],
+   [
+    "Timpani",
+    -2.3
+   ],
+   [
+    "Bassoon 1",
+    -5.3
+   ],
+   [
+    "Horns a2",
+    -5.3
+   ]
+  ],
+  "LA_line": -41.4,
+  "nfr": 121
+ },
+ {
+  "id": "69-72 P head (inner)",
+  "q0": 272,
+  "q1": 288,
+  "bars": "69-73",
+  "imp": 1,
+  "lab": "P head in the middle voices under the descant",
+  "dyn": "f",
+  "line": [
+   "Violins II",
+   "Clarinet 1",
+   "Cor anglais",
+   "Horns a2"
+  ],
+  "tune": [
+   "Violins I",
+   "Flute 1",
+   "Oboe 1",
+   "Trumpet 1"
+  ],
+  "d_tune": -3.5,
+  "k_tune": -3.2,
+  "k_master": -7.5,
+  "d_master": -7.1,
+  "best_band": 400,
+  "best_R": -1.7,
+  "best_R_acc": -1.5,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Horn 3",
+    -6.0
+   ],
+   [
+    "Violas",
+    -6.2
+   ],
+   [
+    "Trumpet 2",
+    -7.2
+   ],
+   [
+    "Tuba",
+    -8.3
+   ]
+  ],
+  "LA_line": -33.5,
+  "nfr": 145
+ },
+ {
+  "id": "77 Bcl solo",
+  "q0": 304,
+  "q1": 309,
+  "bars": "77-78",
+  "imp": 1,
+  "lab": "head dialogue: bass clarinet",
+  "dyn": "mf",
+  "line": [
+   "Bass clarinet"
+  ],
+  "tune": [],
+  "d_tune": NaN,
+  "k_tune": NaN,
+  "k_master": -2.8,
+  "d_master": -4.4,
+  "best_band": 400,
+  "best_R": 8.7,
+  "best_R_acc": 8.7,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "R Winds",
+    -11.5
+   ],
+   [
+    "Violas",
+    -23.6
+   ],
+   [
+    "Double basses",
+    -24.1
+   ],
+   [
+    "Violins II",
+    -30.1
+   ]
+  ],
+  "LA_line": -44.1,
+  "nfr": 50
+ },
+ {
+  "id": "78 Cl1",
+  "q0": 308.5,
+  "q1": 312,
+  "bars": "78-79",
+  "imp": 1,
+  "lab": "head dialogue: clarinet",
+  "dyn": "mp",
+  "line": [
+   "Clarinet 1"
+  ],
+  "tune": [],
+  "d_tune": NaN,
+  "k_tune": NaN,
+  "k_master": -5.7,
+  "d_master": -3.2,
+  "best_band": 1600,
+  "best_R": 5.7,
+  "best_R_acc": 5.7,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Violins II",
+    -10.2
+   ],
+   [
+    "R Winds",
+    -13.3
+   ],
+   [
+    "Violas",
+    -14.0
+   ],
+   [
+    "Bass clarinet",
+    -17.5
+   ]
+  ],
+  "LA_line": -42.2,
+  "nfr": 21
+ },
+ {
+  "id": "78-79 Hn a2",
+  "q0": 311,
+  "q1": 316,
+  "bars": "79-80",
+  "imp": 1,
+  "lab": "head dialogue: horns",
+  "dyn": "mf",
+  "line": [
+   "Horns a2"
+  ],
+  "tune": [],
+  "d_tune": NaN,
+  "k_tune": NaN,
+  "k_master": -5.4,
+  "d_master": -5.1,
+  "best_band": 1000,
+  "best_R": 2.6,
+  "best_R_acc": 2.6,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Violins II",
+    -5.1
+   ],
+   [
+    "Violoncellos",
+    -8.7
+   ],
+   [
+    "Violins I",
+    -11.8
+   ],
+   [
+    "Violas",
+    -13.9
+   ]
+  ],
+  "LA_line": -42.1,
+  "nfr": 44
+ },
+ {
+  "id": "79 Vc",
+  "q0": 314,
+  "q1": 318,
+  "bars": "80-80",
+  "imp": 1,
+  "lab": "head dialogue: celli",
+  "dyn": "mf",
+  "line": [
+   "Violoncellos"
+  ],
+  "tune": [],
+  "d_tune": NaN,
+  "k_tune": NaN,
+  "k_master": -11.2,
+  "d_master": -14.5,
+  "best_band": 100,
+  "best_R": 7.9,
+  "best_R_acc": 7.9,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Double basses",
+    -9.2
+   ],
+   [
+    "Timpani",
+    -17.0
+   ],
+   [
+    "R Strings",
+    -20.7
+   ],
+   [
+    "Bassoon 1",
+    -22.9
+   ]
+  ],
+  "LA_line": -50.6,
+  "nfr": 33
+ },
+ {
+  "id": "88-90 Vc countersubject",
+  "q0": 348,
+  "q1": 360,
+  "bars": "88-91",
+  "imp": 1,
+  "lab": "fugato countersubject",
+  "dyn": "mp",
+  "line": [
+   "Violoncellos"
+  ],
+  "tune": [
+   "Violas",
+   "Bassoon 1"
+  ],
+  "d_tune": -6.5,
+  "k_tune": -4.9,
+  "k_master": -9.4,
+  "d_master": -10.9,
+  "best_band": 200,
+  "best_R": 3.1,
+  "best_R_acc": 3.4,
+  "frac_ok": 0.99,
+  "maskers": [
+   [
+    "Double basses",
+    -8.3
+   ],
+   [
+    "Bassoon 1 stac",
+    -11.7
+   ],
+   [
+    "R Strings",
+    -11.7
+   ],
+   [
+    "Violas",
+    -14.3
+   ]
+  ],
+  "LA_line": -51.0,
+  "nfr": 110
+ },
+ {
+  "id": "91-93 Vla counter",
+  "q0": 360,
+  "q1": 372,
+  "bars": "91-94",
+  "imp": 1,
+  "lab": "fugato: violas countersubject",
+  "dyn": "f",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Violins II",
+   "Cor anglais"
+  ],
+  "d_tune": -4.3,
+  "k_tune": -2.3,
+  "k_master": -7.0,
+  "d_master": -8.0,
+  "best_band": 315,
+  "best_R": 0.1,
+  "best_R_acc": 0.1,
+  "frac_ok": 0.94,
+  "maskers": [
+   [
+    "Bass clarinet",
+    -4.4
+   ],
+   [
+    "Bassoon 1",
+    -9.4
+   ],
+   [
+    "Bassoon 2",
+    -10.8
+   ],
+   [
+    "Cor anglais stac",
+    -11.2
+   ]
+  ],
+  "LA_line": -42.4,
+  "nfr": 108
+ },
+ {
+  "id": "91-93 Vc counter",
+  "q0": 360,
+  "q1": 372,
+  "bars": "91-94",
+  "imp": 1,
+  "lab": "fugato: celli free voice",
+  "dyn": "f",
+  "line": [
+   "Violoncellos"
+  ],
+  "tune": [
+   "Violins II",
+   "Cor anglais"
+  ],
+  "d_tune": -10.5,
+  "k_tune": -9.1,
+  "k_master": -14.1,
+  "d_master": -14.6,
+  "best_band": 160,
+  "best_R": 0.8,
+  "best_R_acc": 0.8,
+  "frac_ok": 0.9,
+  "maskers": [
+   [
+    "Double basses",
+    -3.9
+   ],
+   [
+    "Bassoon 2",
+    -6.3
+   ],
+   [
+    "Bassoon 1",
+    -12.2
+   ],
+   [
+    "R Strings",
+    -14.6
+   ]
+  ],
+  "LA_line": -48.7,
+  "nfr": 102
+ },
+ {
+  "id": "91-93 Bn1",
+  "q0": 360,
+  "q1": 372,
+  "bars": "91-94",
+  "imp": 2,
+  "lab": "fugato: bassoon line",
+  "dyn": "f",
+  "line": [
+   "Bassoon 1"
+  ],
+  "tune": [
+   "Violins II",
+   "Cor anglais"
+  ],
+  "d_tune": -7.6,
+  "k_tune": -6.6,
+  "k_master": -11.5,
+  "d_master": -11.6,
+  "best_band": 200,
+  "best_R": -5.6,
+  "best_R_acc": -5.6,
+  "frac_ok": 0.97,
+  "maskers": [
+   [
+    "Double basses",
+    3.0
+   ],
+   [
+    "Bass clarinet",
+    2.2
+   ],
+   [
+    "Violoncellos",
+    -4.4
+   ],
+   [
+    "Bassoon 2",
+    -5.9
+   ]
+  ],
+  "LA_line": -45.9,
+  "nfr": 104
+ },
+ {
+  "id": "94-96 Vln II+CA counter",
+  "q0": 372,
+  "q1": 384,
+  "bars": "94-97",
+  "imp": 1,
+  "lab": "fugato: countersubject",
+  "dyn": "f",
+  "line": [
+   "Violins II",
+   "Cor anglais"
+  ],
+  "tune": [
+   "Violins I",
+   "Flute 1"
+  ],
+  "d_tune": -3.1,
+  "k_tune": -3.0,
+  "k_master": -7.3,
+  "d_master": -7.0,
+  "best_band": 500,
+  "best_R": -0.4,
+  "best_R_acc": -0.4,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Bassoon 1",
+    -2.6
+   ],
+   [
+    "Violas",
+    -8.4
+   ],
+   [
+    "Trombone 1",
+    -8.4
+   ],
+   [
+    "Violoncellos",
+    -9.6
+   ]
+  ],
+  "LA_line": -36.8,
+  "nfr": 108
+ },
+ {
+  "id": "94-96 Vla",
+  "q0": 372,
+  "q1": 384,
+  "bars": "94-97",
+  "imp": 1,
+  "lab": "fugato: violas free voice",
+  "dyn": "f",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Violins I",
+   "Flute 1"
+  ],
+  "d_tune": -8.5,
+  "k_tune": -7.1,
+  "k_master": -11.1,
+  "d_master": -12.3,
+  "best_band": 400,
+  "best_R": -1.4,
+  "best_R_acc": -1.4,
+  "frac_ok": 0.91,
+  "maskers": [
+   [
+    "Bass clarinet",
+    -1.8
+   ],
+   [
+    "Bassoon 1",
+    -7.7
+   ],
+   [
+    "Double basses",
+    -7.7
+   ],
+   [
+    "Bassoon 2",
+    -9.0
+   ]
+  ],
+  "LA_line": -42.1,
+  "nfr": 103
+ },
+ {
+  "id": "94-96 Vc",
+  "q0": 372,
+  "q1": 384,
+  "bars": "94-97",
+  "imp": 2,
+  "lab": "fugato: celli",
+  "dyn": "f",
+  "line": [
+   "Violoncellos"
+  ],
+  "tune": [
+   "Violins I",
+   "Flute 1"
+  ],
+  "d_tune": -12.5,
+  "k_tune": -10.6,
+  "k_master": -14.5,
+  "d_master": -15.8,
+  "best_band": 160,
+  "best_R": -2.6,
+  "best_R_acc": -2.6,
+  "frac_ok": 0.91,
+  "maskers": [
+   [
+    "Double basses",
+    -1.9
+   ],
+   [
+    "Bassoon 2",
+    -5.6
+   ],
+   [
+    "Trombone 1",
+    -9.9
+   ],
+   [
+    "R Strings",
+    -10.0
+   ]
+  ],
+  "LA_line": -45.6,
+  "nfr": 96
+ },
+ {
+  "id": "97-102 Vla eighths",
+  "q0": 384,
+  "q1": 408,
+  "bars": "97-103",
+  "imp": 2,
+  "lab": "violas running eighths",
+  "dyn": "f",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Violins I",
+   "Flute 1",
+   "Oboe 1",
+   "Violins II",
+   "Cor anglais",
+   "Violoncellos"
+  ],
+  "d_tune": -15.1,
+  "k_tune": -14.2,
+  "k_master": -17.3,
+  "d_master": -17.6,
+  "best_band": 315,
+  "best_R": -10.9,
+  "best_R_acc": -8.1,
+  "frac_ok": 0.38,
+  "maskers": [
+   [
+    "Violins II",
+    6.5
+   ],
+   [
+    "Horn 3",
+    2.5
+   ],
+   [
+    "Cor anglais",
+    0.2
+   ],
+   [
+    "Violoncellos",
+    -0.2
+   ]
+  ],
+  "LA_line": -43.5,
+  "nfr": 191
+ },
+ {
+  "id": "97-102 answer figure",
+  "q0": 388,
+  "q1": 408,
+  "bars": "98-103",
+  "imp": 1,
+  "lab": "Bn1/Tbn1/horns answering figure",
+  "dyn": "f",
+  "line": [
+   "Bassoon 1",
+   "Trombone 1",
+   "Horns a2"
+  ],
+  "tune": [
+   "Violins I",
+   "Flute 1",
+   "Oboe 1",
+   "Violins II",
+   "Cor anglais",
+   "Violoncellos"
+  ],
+  "d_tune": -4.2,
+  "k_tune": -3.8,
+  "k_master": -6.6,
+  "d_master": -6.6,
+  "best_band": 500,
+  "best_R": -1.7,
+  "best_R_acc": -0.2,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Violins II",
+    -4.7
+   ],
+   [
+    "Bassoon 2",
+    -6.9
+   ],
+   [
+    "Horn 4",
+    -9.7
+   ],
+   [
+    "Violins I",
+    -9.9
+   ]
+  ],
+  "LA_line": -31.8,
+  "nfr": 165
+ },
+ {
+  "id": "103-106 S head",
+  "q0": 408,
+  "q1": 424,
+  "bars": "103-107",
+  "imp": 1,
+  "lab": "S head (Hn1 + celli + Bn1) against the P head",
+  "dyn": "mf",
+  "line": [
+   "Horn 1",
+   "Violoncellos",
+   "Bassoon 1"
+  ],
+  "tune": [
+   "Oboe 2",
+   "Clarinet 1",
+   "Clarinet 2"
+  ],
+  "d_tune": 0.2,
+  "k_tune": 2.8,
+  "k_master": -2.9,
+  "d_master": -3.7,
+  "best_band": 500,
+  "best_R": 6.1,
+  "best_R_acc": 6.2,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Bassoon 2",
+    -10.7
+   ],
+   [
+    "Horn 4",
+    -15.6
+   ],
+   [
+    "R Brass",
+    -18.3
+   ],
+   [
+    "Bass clarinet",
+    -18.4
+   ]
+  ],
+  "LA_line": -36.8,
+  "nfr": 152
+ },
+ {
+  "id": "103-106 Hn3-4",
+  "q0": 408,
+  "q1": 424,
+  "bars": "103-107",
+  "imp": 2,
+  "lab": "horns 3-4 moving line",
+  "dyn": "mp",
+  "line": [
+   "Horn 3",
+   "Horn 4"
+  ],
+  "tune": [
+   "Oboe 2",
+   "Clarinet 1"
+  ],
+  "d_tune": -10.8,
+  "k_tune": -8.6,
+  "k_master": -14.2,
+  "d_master": -14.7,
+  "best_band": 125,
+  "best_R": -8.7,
+  "best_R_acc": -8.7,
+  "frac_ok": 0.8,
+  "maskers": [
+   [
+    "Double basses",
+    8.5
+   ],
+   [
+    "Bass clarinet",
+    -2.5
+   ],
+   [
+    "Bassoon 2",
+    -4.0
+   ],
+   [
+    "Violoncellos",
+    -4.6
+   ]
+  ],
+  "LA_line": -47.8,
+  "nfr": 150
+ },
+ {
+  "id": "103-106 Bcl",
+  "q0": 408,
+  "q1": 424,
+  "bars": "103-107",
+  "imp": 2,
+  "lab": "bass clarinet bass line",
+  "dyn": "mf",
+  "line": [
+   "Bass clarinet"
+  ],
+  "tune": [
+   "Oboe 2",
+   "Clarinet 1"
+  ],
+  "d_tune": -15.5,
+  "k_tune": -10.8,
+  "k_master": -16.3,
+  "d_master": -19.1,
+  "best_band": 100,
+  "best_R": -2.9,
+  "best_R_acc": -2.9,
+  "frac_ok": 0.95,
+  "maskers": [
+   [
+    "Double basses",
+    2.7
+   ],
+   [
+    "Bassoon 2",
+    -9.3
+   ],
+   [
+    "R Winds",
+    -11.4
+   ],
+   [
+    "Violoncellos",
+    -19.6
+   ]
+  ],
+  "LA_line": -52.1,
+  "nfr": 137
+ },
+ {
+  "id": "107-110 Bcl espr.",
+  "q0": 424,
+  "q1": 440,
+  "bars": "107-111",
+  "imp": 1,
+  "lab": "bass clarinet espr. answer",
+  "dyn": "p",
+  "line": [
+   "Bass clarinet"
+  ],
+  "tune": [
+   "Violas"
+  ],
+  "d_tune": -9.0,
+  "k_tune": -6.7,
+  "k_master": -10.0,
+  "d_master": -11.9,
+  "best_band": 160,
+  "best_R": 2.6,
+  "best_R_acc": 2.6,
+  "frac_ok": 0.99,
+  "maskers": [
+   [
+    "R Winds",
+    -8.7
+   ],
+   [
+    "Double basses",
+    -12.7
+   ],
+   [
+    "Violoncellos",
+    -22.2
+   ],
+   [
+    "R Strings",
+    -28.4
+   ]
+  ],
+  "LA_line": -50.8,
+  "nfr": 137
+ },
+ {
+  "id": "109-110 Fl1 espr.",
+  "q0": 432,
+  "q1": 440,
+  "bars": "109-111",
+  "imp": 1,
+  "lab": "flute espr. entry",
+  "dyn": "mp",
+  "line": [
+   "Flute 1"
+  ],
+  "tune": [
+   "Violas"
+  ],
+  "d_tune": 0.8,
+  "k_tune": 0.3,
+  "k_master": -4.3,
+  "d_master": -3.3,
+  "best_band": 800,
+  "best_R": 4.4,
+  "best_R_acc": 7.9,
+  "frac_ok": 0.96,
+  "maskers": [
+   [
+    "Violas",
+    -5.6
+   ],
+   [
+    "R Winds",
+    -11.6
+   ],
+   [
+    "Bassoon 1",
+    -15.5
+   ],
+   [
+    "R Strings",
+    -15.7
+   ]
+  ],
+  "LA_line": -41.6,
+  "nfr": 77
+ },
+ {
+  "id": "107-110 Vln II",
+  "q0": 424,
+  "q1": 440,
+  "bars": "107-111",
+  "imp": 2,
+  "lab": "Vln II moving inner voice",
+  "dyn": "pp",
+  "line": [
+   "Violins II"
+  ],
+  "tune": [
+   "Violas"
+  ],
+  "d_tune": -12.0,
+  "k_tune": -11.2,
+  "k_master": -14.3,
+  "d_master": -14.6,
+  "best_band": 250,
+  "best_R": -6.1,
+  "best_R_acc": -6.1,
+  "frac_ok": 0.99,
+  "maskers": [
+   [
+    "Horn 3",
+    1.7
+   ],
+   [
+    "Bassoon 2",
+    1.0
+   ],
+   [
+    "Bass clarinet",
+    -2.1
+   ],
+   [
+    "Violoncellos",
+    -4.3
+   ]
+  ],
+  "LA_line": -53.8,
+  "nfr": 149
+ },
+ {
+  "id": "111-116 Vla eighths",
+  "q0": 440,
+  "q1": 464,
+  "bars": "111-117",
+  "imp": 2,
+  "lab": "violas eighth figure",
+  "dyn": "mp cresc",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -9.2,
+  "k_tune": -7.3,
+  "k_master": -16.9,
+  "d_master": -18.0,
+  "best_band": 250,
+  "best_R": -4.0,
+  "best_R_acc": -4.0,
+  "frac_ok": 0.72,
+  "maskers": [
+   [
+    "Tuba",
+    -0.2
+   ],
+   [
+    "Bassoon 2",
+    -4.1
+   ],
+   [
+    "Horn 3",
+    -6.4
+   ],
+   [
+    "Double basses",
+    -8.0
+   ]
+  ],
+  "LA_line": -44.0,
+  "nfr": 152
+ },
+ {
+  "id": "113-115 Tpt1-2",
+  "q0": 448,
+  "q1": 462,
+  "bars": "113-116",
+  "imp": 2,
+  "lab": "trumpets moving line",
+  "dyn": "pp cresc",
+  "line": [
+   "Trumpet 1",
+   "Trumpet 2"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": 1.3,
+  "k_tune": 0.8,
+  "k_master": -9.1,
+  "d_master": -7.8,
+  "best_band": 1000,
+  "best_R": -3.2,
+  "best_R_acc": -2.3,
+  "frac_ok": 0.78,
+  "maskers": [
+   [
+    "Violins I",
+    -3.8
+   ],
+   [
+    "Flute 1",
+    -8.1
+   ],
+   [
+    "Clarinet 2",
+    -8.6
+   ],
+   [
+    "Horn 1",
+    -8.8
+   ]
+  ],
+  "LA_line": -32.4,
+  "nfr": 140
+ },
+ {
+  "id": "113-116 Cl1/Hn1/Ob2",
+  "q0": 448,
+  "q1": 464,
+  "bars": "113-117",
+  "imp": 2,
+  "lab": "inner B-Bb-Ab line",
+  "dyn": "mp cresc",
+  "line": [
+   "Clarinet 1",
+   "Horn 1",
+   "Oboe 2"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": 0.8,
+  "k_tune": 1.2,
+  "k_master": -8.7,
+  "d_master": -8.2,
+  "best_band": 1600,
+  "best_R": -2.5,
+  "best_R_acc": -2.5,
+  "frac_ok": 0.99,
+  "maskers": [
+   [
+    "Trumpet 1",
+    -3.4
+   ],
+   [
+    "Trumpet 2",
+    -4.3
+   ],
+   [
+    "Trumpet 3",
+    -5.0
+   ],
+   [
+    "Oboe 1",
+    -9.9
+   ]
+  ],
+  "LA_line": -32.8,
+  "nfr": 144
+ },
+ {
+  "id": "117-121 Tbn motto",
+  "q0": 464,
+  "q1": 484,
+  "bars": "117-122",
+  "imp": 1,
+  "lab": "trombone motto, second form",
+  "dyn": "ff",
+  "line": [
+   "Trombone 1",
+   "Bass trombone",
+   "Horns a2",
+   "Bassoon 1"
+  ],
+  "tune": [
+   "Violins I",
+   "Violins II",
+   "Flute 1",
+   "Oboe 2",
+   "Clarinet 1"
+  ],
+  "d_tune": -3.1,
+  "k_tune": -2.8,
+  "k_master": -6.5,
+  "d_master": -6.2,
+  "best_band": 250,
+  "best_R": -1.0,
+  "best_R_acc": -0.8,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Violas",
+    -4.1
+   ],
+   [
+    "Contrabassoon",
+    -6.1
+   ],
+   [
+    "Clarinet 2",
+    -6.6
+   ],
+   [
+    "Tuba",
+    -8.8
+   ]
+  ],
+  "LA_line": -27.6,
+  "nfr": 190
+ },
+ {
+  "id": "117-121 triplets",
+  "q0": 464,
+  "q1": 484,
+  "bars": "117-122",
+  "imp": 2,
+  "lab": "clarinet 2 / violas triplets",
+  "dyn": "f",
+  "line": [
+   "Clarinet 2",
+   "Violas"
+  ],
+  "tune": [
+   "Violins I",
+   "Violins II",
+   "Flute 1"
+  ],
+  "d_tune": -14.7,
+  "k_tune": -13.0,
+  "k_master": -17.2,
+  "d_master": -18.4,
+  "best_band": 250,
+  "best_R": -3.5,
+  "best_R_acc": -3.4,
+  "frac_ok": 0.59,
+  "maskers": [
+   [
+    "Trombone 1",
+    -2.0
+   ],
+   [
+    "Bassoon 1",
+    -3.0
+   ],
+   [
+    "Contrabassoon",
+    -3.9
+   ],
+   [
+    "Horns a2",
+    -5.0
+   ]
+  ],
+  "LA_line": -39.7,
+  "nfr": 180
+ },
+ {
+  "id": "125-126 Hn1 espr.",
+  "q0": 496,
+  "q1": 504,
+  "bars": "125-127",
+  "imp": 1,
+  "lab": "horn mp espr.",
+  "dyn": "mp",
+  "line": [
+   "Horn 1"
+  ],
+  "tune": [
+   "Flute 1",
+   "Oboe 1",
+   "Violins I"
+  ],
+  "d_tune": -2.6,
+  "k_tune": -1.4,
+  "k_master": -7.0,
+  "d_master": -7.1,
+  "best_band": 500,
+  "best_R": 1.1,
+  "best_R_acc": 3.6,
+  "frac_ok": 0.98,
+  "maskers": [
+   [
+    "Violins I",
+    -1.2
+   ],
+   [
+    "Bassoon 2",
+    -5.6
+   ],
+   [
+    "Oboe 1",
+    -9.9
+   ],
+   [
+    "Violas",
+    -11.5
+   ]
+  ],
+  "LA_line": -43.4,
+  "nfr": 48
+ },
+ {
+  "id": "129-130 Vla (doubles Cl1)",
+  "q0": 513,
+  "q1": 520,
+  "bars": "129-131",
+  "imp": 3,
+  "lab": "violas double the clarinet motto",
+  "dyn": "mf",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Clarinet 1"
+  ],
+  "d_tune": -12.1,
+  "k_tune": -13.8,
+  "k_master": -16.2,
+  "d_master": -14.3,
+  "best_band": 3150,
+  "best_R": -8.3,
+  "best_R_acc": -5.3,
+  "frac_ok": 0.86,
+  "maskers": [
+   [
+    "Violins II",
+    5.5
+   ],
+   [
+    "Clarinet 1",
+    5.3
+   ],
+   [
+    "Bassoon 1",
+    -7.7
+   ],
+   [
+    "R Winds",
+    -17.1
+   ]
+  ],
+  "LA_line": -45.5,
+  "nfr": 59
+ },
+ {
+  "id": "130 stretto entries",
+  "q0": 516,
+  "q1": 520,
+  "bars": "130-131",
+  "imp": 1,
+  "lab": "Vln II / Bn1 / Hn2 stretto entries",
+  "dyn": "f/mf",
+  "line": [
+   "Violins II",
+   "Bassoon 1",
+   "Horn 2"
+  ],
+  "tune": [
+   "Clarinet 1"
+  ],
+  "d_tune": -3.1,
+  "k_tune": -5.3,
+  "k_master": -8.3,
+  "d_master": -5.8,
+  "best_band": 500,
+  "best_R": 6.3,
+  "best_R_acc": 6.3,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Timpani",
+    -11.9
+   ],
+   [
+    "Violas",
+    -12.1
+   ],
+   [
+    "R Winds",
+    -19.0
+   ],
+   [
+    "Double basses",
+    -19.1
+   ]
+  ],
+  "LA_line": -36.2,
+  "nfr": 38
+ },
+ {
+  "id": "131-134 theme (tenor)",
+  "q0": 520,
+  "q1": 536,
+  "bars": "131-135",
+  "imp": 1,
+  "lab": "P theme in celli/bassoons/trombones under the descant",
+  "dyn": "ff/f",
+  "line": [
+   "Violoncellos",
+   "Bassoon 1",
+   "Trombone 1",
+   "Clarinet 1"
+  ],
+  "tune": [
+   "Violins I",
+   "Violins II",
+   "Flute 1",
+   "Oboe 1"
+  ],
+  "d_tune": 2.1,
+  "k_tune": 4.2,
+  "k_master": -3.8,
+  "d_master": -4.1,
+  "best_band": 315,
+  "best_R": 0.8,
+  "best_R_acc": 0.9,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Horn 2",
+    -8.4
+   ],
+   [
+    "R Winds",
+    -10.7
+   ],
+   [
+    "Horn 1",
+    -10.9
+   ],
+   [
+    "Horn 3",
+    -12.8
+   ]
+  ],
+  "LA_line": -29.8,
+  "nfr": 145
+ },
+ {
+  "id": "135-137 Vln II",
+  "q0": 536,
+  "q1": 548,
+  "bars": "135-138",
+  "imp": 2,
+  "lab": "Vln II quarter-note line",
+  "dyn": "mf",
+  "line": [
+   "Violins II"
+  ],
+  "tune": [
+   "Violins I",
+   "Flute 1",
+   "Oboe 1"
+  ],
+  "d_tune": -7.9,
+  "k_tune": -7.0,
+  "k_master": -12.5,
+  "d_master": -11.7,
+  "best_band": 1000,
+  "best_R": -7.5,
+  "best_R_acc": -7.2,
+  "frac_ok": 0.82,
+  "maskers": [
+   [
+    "Clarinet 1",
+    4.0
+   ],
+   [
+    "R Winds",
+    -4.3
+   ],
+   [
+    "Bassoon 1",
+    -4.4
+   ],
+   [
+    "Horn 2",
+    -5.6
+   ]
+  ],
+  "LA_line": -42.8,
+  "nfr": 91
+ },
+ {
+  "id": "139-142 Vla eighths",
+  "q0": 552,
+  "q1": 568,
+  "bars": "139-143",
+  "imp": 2,
+  "lab": "violas eighths",
+  "dyn": "f-ff",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Violins I",
+   "Violins II"
+  ],
+  "d_tune": -15.4,
+  "k_tune": -14.3,
+  "k_master": -18.6,
+  "d_master": -19.4,
+  "best_band": 315,
+  "best_R": -10.3,
+  "best_R_acc": -10.3,
+  "frac_ok": 0.35,
+  "maskers": [
+   [
+    "Contrabassoon",
+    3.7
+   ],
+   [
+    "Horn 2",
+    3.6
+   ],
+   [
+    "Tuba",
+    0.8
+   ],
+   [
+    "Bassoon 2",
+    0.5
+   ]
+  ],
+  "LA_line": -42.4,
+  "nfr": 112
+ },
+ {
+  "id": "139-142 celli",
+  "q0": 552,
+  "q1": 568,
+  "bars": "139-143",
+  "imp": 2,
+  "lab": "celli line",
+  "dyn": "f-ff",
+  "line": [
+   "Violoncellos"
+  ],
+  "tune": [
+   "Violins I",
+   "Violins II"
+  ],
+  "d_tune": -14.3,
+  "k_tune": -9.1,
+  "k_master": -13.4,
+  "d_master": -18.3,
+  "best_band": 200,
+  "best_R": 1.0,
+  "best_R_acc": 1.0,
+  "frac_ok": 0.83,
+  "maskers": [
+   [
+    "Contrabassoon",
+    -6.1
+   ],
+   [
+    "Tuba",
+    -8.5
+   ],
+   [
+    "Timpani",
+    -8.8
+   ],
+   [
+    "Double basses",
+    -9.4
+   ]
+  ],
+  "LA_line": -41.3,
+  "nfr": 151
+ },
+ {
+  "id": "139-142 Bn1",
+  "q0": 552,
+  "q1": 568,
+  "bars": "139-143",
+  "imp": 2,
+  "lab": "bassoon line",
+  "dyn": "f-ff",
+  "line": [
+   "Bassoon 1"
+  ],
+  "tune": [
+   "Violins I",
+   "Violins II"
+  ],
+  "d_tune": -14.6,
+  "k_tune": -13.2,
+  "k_master": -17.5,
+  "d_master": -18.5,
+  "best_band": 250,
+  "best_R": -10.2,
+  "best_R_acc": -10.2,
+  "frac_ok": 0.41,
+  "maskers": [
+   [
+    "Violoncellos",
+    4.5
+   ],
+   [
+    "Contrabassoon",
+    2.5
+   ],
+   [
+    "Trombone 1",
+    1.8
+   ],
+   [
+    "Horn 3",
+    -0.4
+   ]
+  ],
+  "LA_line": -41.6,
+  "nfr": 148
+ },
+ {
+  "id": "144 Bn1 answer",
+  "q0": 573.5,
+  "q1": 577,
+  "bars": "144-145",
+  "imp": 1,
+  "lab": "bassoon answer to the violins",
+  "dyn": "mf",
+  "line": [
+   "Bassoon 1"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -8.1,
+  "k_tune": -6.7,
+  "k_master": -10.1,
+  "d_master": -10.7,
+  "best_band": 250,
+  "best_R": 4.8,
+  "best_R_acc": 4.8,
+  "frac_ok": 1.0,
+  "maskers": [
+   [
+    "Horn 3",
+    -5.0
+   ],
+   [
+    "Double basses",
+    -17.4
+   ],
+   [
+    "R Winds",
+    -17.6
+   ],
+   [
+    "Timpani",
+    -18.9
+   ]
+  ],
+  "LA_line": -55.0,
+  "nfr": 44
+ },
+ {
+  "id": "147-152 CA answers",
+  "q0": 584,
+  "q1": 610,
+  "bars": "147-153",
+  "imp": 1,
+  "lab": "cor anglais dolce answers",
+  "dyn": "p",
+  "line": [
+   "Cor anglais"
+  ],
+  "tune": [
+   "Horn 1",
+   "Violas",
+   "Violoncellos"
+  ],
+  "d_tune": -4.6,
+  "k_tune": -6.7,
+  "k_master": -8.2,
+  "d_master": -6.8,
+  "best_band": 1000,
+  "best_R": -0.4,
+  "best_R_acc": 3.4,
+  "frac_ok": 0.96,
+  "maskers": [
+   [
+    "Horn 1",
+    -4.6
+   ],
+   [
+    "Violas",
+    -6.2
+   ],
+   [
+    "Violoncellos",
+    -7.5
+   ],
+   [
+    "R Winds",
+    -10.8
+   ]
+  ],
+  "LA_line": -42.0,
+  "nfr": 156
+ },
+ {
+  "id": "152-153 Cl1",
+  "q0": 604,
+  "q1": 612,
+  "bars": "152-154",
+  "imp": 1,
+  "lab": "clarinet line",
+  "dyn": "mp",
+  "line": [
+   "Clarinet 1"
+  ],
+  "tune": [
+   "Horn 1",
+   "Violas",
+   "Violoncellos"
+  ],
+  "d_tune": -8.2,
+  "k_tune": -9.5,
+  "k_master": -10.4,
+  "d_master": -9.4,
+  "best_band": 1250,
+  "best_R": -0.9,
+  "best_R_acc": 4.5,
+  "frac_ok": 0.96,
+  "maskers": [
+   [
+    "Violas",
+    -1.2
+   ],
+   [
+    "Violoncellos",
+    -3.0
+   ],
+   [
+    "Violins II",
+    -14.3
+   ],
+   [
+    "Bassoon 2",
+    -15.0
+   ]
+  ],
+  "LA_line": -46.4,
+  "nfr": 54
+ },
+ {
+  "id": "147-155 Bn",
+  "q0": 584,
+  "q1": 616,
+  "bars": "147-155",
+  "imp": 3,
+  "lab": "bassoon held lines",
+  "dyn": "pp",
+  "line": [
+   "Bassoon 1",
+   "Bassoon 2"
+  ],
+  "tune": [
+   "Horn 1",
+   "Violas",
+   "Violoncellos"
+  ],
+  "d_tune": -17.4,
+  "k_tune": -16.9,
+  "k_master": -17.8,
+  "d_master": -18.7,
+  "best_band": 500,
+  "best_R": -10.4,
+  "best_R_acc": -6.0,
+  "frac_ok": 0.84,
+  "maskers": [
+   [
+    "Horn 1",
+    5.8
+   ],
+   [
+    "Violas",
+    4.6
+   ],
+   [
+    "Violoncellos",
+    1.9
+   ],
+   [
+    "Cor anglais",
+    1.2
+   ]
+  ],
+  "LA_line": -54.9,
+  "nfr": 343
+ },
+ {
+  "id": "156-157 Cl1 counter",
+  "q0": 620,
+  "q1": 628,
+  "bars": "156-158",
+  "imp": 1,
+  "lab": "clarinet counter",
+  "dyn": "mp",
+  "line": [
+   "Clarinet 1"
+  ],
+  "tune": [
+   "Violins I",
+   "Violins II"
+  ],
+  "d_tune": -3.6,
+  "k_tune": -3.9,
+  "k_master": -8.9,
+  "d_master": -7.2,
+  "best_band": 1600,
+  "best_R": -1.5,
+  "best_R_acc": 2.1,
+  "frac_ok": 0.95,
+  "maskers": [
+   [
+    "Violins I",
+    -3.0
+   ],
+   [
+    "Violins II",
+    -4.4
+   ],
+   [
+    "Horn 3",
+    -8.7
+   ],
+   [
+    "Violas",
+    -9.8
+   ]
+  ],
+  "LA_line": -37.4,
+  "nfr": 76
+ },
+ {
+  "id": "156-157 Vla",
+  "q0": 620,
+  "q1": 628,
+  "bars": "156-158",
+  "imp": 2,
+  "lab": "violas figures",
+  "dyn": "mp",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Violins I",
+   "Violins II"
+  ],
+  "d_tune": -11.7,
+  "k_tune": -9.5,
+  "k_master": -14.0,
+  "d_master": -14.6,
+  "best_band": 400,
+  "best_R": -5.8,
+  "best_R_acc": -5.8,
+  "frac_ok": 0.75,
+  "maskers": [
+   [
+    "Horn 3",
+    3.1
+   ],
+   [
+    "Horn 1",
+    -0.6
+   ],
+   [
+    "Bassoon 1",
+    -4.5
+   ],
+   [
+    "Violoncellos",
+    -5.1
+   ]
+  ],
+  "LA_line": -45.4,
+  "nfr": 53
+ },
+ {
+  "id": "156-157 celli",
+  "q0": 620,
+  "q1": 628,
+  "bars": "156-158",
+  "imp": 2,
+  "lab": "celli figures",
+  "dyn": "mp",
+  "line": [
+   "Violoncellos"
+  ],
+  "tune": [
+   "Violins I",
+   "Violins II"
+  ],
+  "d_tune": -10.5,
+  "k_tune": -6.8,
+  "k_master": -11.9,
+  "d_master": -14.2,
+  "best_band": 200,
+  "best_R": -1.3,
+  "best_R_acc": -1.3,
+  "frac_ok": 0.93,
+  "maskers": [
+   [
+    "Double basses",
+    -2.6
+   ],
+   [
+    "Horn 3",
+    -4.0
+   ],
+   [
+    "Harp",
+    -6.2
+   ],
+   [
+    "R Strings",
+    -11.6
+   ]
+  ],
+  "LA_line": -44.5,
+  "nfr": 80
+ },
+ {
+  "id": "158-161 counter",
+  "q0": 628,
+  "q1": 644,
+  "bars": "158-162",
+  "imp": 1,
+  "lab": "climax countermelody (Ob1 + Cl1.2, Hn3)",
+  "dyn": "ff-fff",
+  "line": [
+   "Oboe 1",
+   "Clarinet 1",
+   "Horn 3"
+  ],
+  "tune": [
+   "Violins I",
+   "Violins II",
+   "Flute 1",
+   "Flute 2",
+   "Oboe 2",
+   "Trumpet 1",
+   "Horns a2",
+   "Violoncellos"
+  ],
+  "d_tune": -6.0,
+  "k_tune": -5.9,
+  "k_master": -8.9,
+  "d_master": -8.5,
+  "best_band": 1000,
+  "best_R": -4.0,
+  "best_R_acc": -1.0,
+  "frac_ok": 0.99,
+  "maskers": [
+   [
+    "Flute 1",
+    -1.5
+   ],
+   [
+    "Violins I",
+    -5.8
+   ],
+   [
+    "Trombone 1",
+    -8.0
+   ],
+   [
+    "Horns a2",
+    -8.4
+   ]
+  ],
+  "LA_line": -26.4,
+  "nfr": 169
+ },
+ {
+  "id": "162-166 Vln II",
+  "q0": 648,
+  "q1": 664,
+  "bars": "163-167",
+  "imp": 1,
+  "lab": "Vln II counter-line",
+  "dyn": "ff-p",
+  "line": [
+   "Violins II"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -4.6,
+  "k_tune": -3.8,
+  "k_master": -8.9,
+  "d_master": -8.8,
+  "best_band": 400,
+  "best_R": -0.6,
+  "best_R_acc": -0.6,
+  "frac_ok": 0.99,
+  "maskers": [
+   [
+    "Violas",
+    -7.7
+   ],
+   [
+    "R Strings",
+    -8.3
+   ],
+   [
+    "Bassoon 1",
+    -8.9
+   ],
+   [
+    "Clarinet 1",
+    -10.3
+   ]
+  ],
+  "LA_line": -43.1,
+  "nfr": 202
+ },
+ {
+  "id": "162-165 Vla",
+  "q0": 644,
+  "q1": 662,
+  "bars": "162-166",
+  "imp": 2,
+  "lab": "violas line",
+  "dyn": "ff-mp",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -12.3,
+  "k_tune": -10.7,
+  "k_master": -16.1,
+  "d_master": -16.8,
+  "best_band": 315,
+  "best_R": -9.4,
+  "best_R_acc": -9.4,
+  "frac_ok": 0.66,
+  "maskers": [
+   [
+    "Horn 1",
+    4.2
+   ],
+   [
+    "Violoncellos",
+    2.4
+   ],
+   [
+    "Clarinet 1",
+    1.9
+   ],
+   [
+    "Tuba",
+    1.8
+   ]
+  ],
+  "LA_line": -47.6,
+  "nfr": 180
+ },
+ {
+  "id": "162-166 celli",
+  "q0": 648,
+  "q1": 664,
+  "bars": "163-167",
+  "imp": 2,
+  "lab": "celli arpeggios",
+  "dyn": "ff-p",
+  "line": [
+   "Violoncellos"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -10.7,
+  "k_tune": -7.0,
+  "k_master": -12.0,
+  "d_master": -14.8,
+  "best_band": 160,
+  "best_R": -0.2,
+  "best_R_acc": -0.2,
+  "frac_ok": 0.96,
+  "maskers": [
+   [
+    "Harp",
+    -1.9
+   ],
+   [
+    "R Strings",
+    -7.7
+   ],
+   [
+    "Horn 4",
+    -8.0
+   ],
+   [
+    "R Perc",
+    -10.4
+   ]
+  ],
+  "LA_line": -49.3,
+  "nfr": 196
+ },
+ {
+  "id": "164-166 Cl1",
+  "q0": 653,
+  "q1": 664,
+  "bars": "164-167",
+  "imp": 1,
+  "lab": "clarinet line",
+  "dyn": "mp",
+  "line": [
+   "Clarinet 1"
+  ],
+  "tune": [
+   "Violins I"
+  ],
+  "d_tune": -2.9,
+  "k_tune": -2.5,
+  "k_master": -9.5,
+  "d_master": -8.8,
+  "best_band": 630,
+  "best_R": -1.5,
+  "best_R_acc": -1.2,
+  "frac_ok": 0.98,
+  "maskers": [
+   [
+    "Horn 4",
+    -4.9
+   ],
+   [
+    "Bassoon 1",
+    -6.6
+   ],
+   [
+    "Violas",
+    -7.2
+   ],
+   [
+    "Horn 1",
+    -7.5
+   ]
+  ],
+  "LA_line": -44.8,
+  "nfr": 140
+ },
+ {
+  "id": "167-170 Bn1+Vc counter",
+  "q0": 664,
+  "q1": 680,
+  "bars": "167-171",
+  "imp": 1,
+  "lab": "bassoon / celli counter-line",
+  "dyn": "f",
+  "line": [
+   "Bassoon 1",
+   "Violoncellos"
+  ],
+  "tune": [
+   "Horns a2",
+   "Trumpets a2",
+   "Violas"
+  ],
+  "d_tune": -7.2,
+  "k_tune": -5.6,
+  "k_master": -12.8,
+  "d_master": -14.0,
+  "best_band": 315,
+  "best_R": -4.2,
+  "best_R_acc": -2.6,
+  "frac_ok": 0.9,
+  "maskers": [
+   [
+    "Violas",
+    -1.3
+   ],
+   [
+    "Clarinet 2",
+    -3.2
+   ],
+   [
+    "Contrabassoon",
+    -4.1
+   ],
+   [
+    "Tuba",
+    -5.6
+   ]
+  ],
+  "LA_line": -37.0,
+  "nfr": 143
+ },
+ {
+  "id": "171-174 CA counter",
+  "q0": 683,
+  "q1": 696,
+  "bars": "172-175",
+  "imp": 1,
+  "lab": "cor anglais espr. counter to the cello solo",
+  "dyn": "p",
+  "line": [
+   "Cor anglais"
+  ],
+  "tune": [
+   "Cello solo"
+  ],
+  "d_tune": -5.7,
+  "k_tune": -7.7,
+  "k_master": -9.0,
+  "d_master": -7.5,
+  "best_band": 1250,
+  "best_R": -0.0,
+  "best_R_acc": 1.3,
+  "frac_ok": 0.97,
+  "maskers": [
+   [
+    "Cello solo",
+    -5.1
+   ],
+   [
+    "R Winds",
+    -6.6
+   ],
+   [
+    "R Strings",
+    -20.5
+   ],
+   [
+    "Violas",
+    -20.7
+   ]
+  ],
+  "LA_line": -43.0,
+  "nfr": 183
+ },
+ {
+  "id": "171-174 Vla",
+  "q0": 680,
+  "q1": 696,
+  "bars": "171-175",
+  "imp": 2,
+  "lab": "violas pp moving line",
+  "dyn": "pp",
+  "line": [
+   "Violas"
+  ],
+  "tune": [
+   "Cello solo"
+  ],
+  "d_tune": -18.7,
+  "k_tune": -18.7,
+  "k_master": -19.7,
+  "d_master": -20.0,
+  "best_band": 200,
+  "best_R": -7.0,
+  "best_R_acc": -4.8,
+  "frac_ok": 0.97,
+  "maskers": [
+   [
+    "Cello solo",
+    3.2
+   ],
+   [
+    "Timpani",
+    2.4
+   ],
+   [
+    "Bassoon 1",
+    -3.9
+   ],
+   [
+    "R Strings",
+    -5.5
+   ]
+  ],
+  "LA_line": -56.1,
+  "nfr": 263
+ },
+ {
+  "id": "175-177 Cl1 horn call",
+  "q0": 699.5,
+  "q1": 708,
+  "bars": "176-178",
+  "imp": 1,
+  "lab": "clarinet horn-call (coda)",
+  "dyn": "pp",
+  "line": [
+   "Clarinet 1"
+  ],
+  "tune": [
+   "Trombone 1"
+  ],
+  "d_tune": 7.2,
+  "k_tune": 6.4,
+  "k_master": -4.9,
+  "d_master": -4.2,
+  "best_band": 1600,
+  "best_R": 5.0,
+  "best_R_acc": 5.1,
+  "frac_ok": 0.88,
+  "maskers": [
+   [
+    "Violins I",
+    -9.2
+   ],
+   [
+    "Violins II",
+    -11.6
+   ],
+   [
+    "Violas",
+    -13.2
+   ],
+   [
+    "R Winds",
+    -16.9
+   ]
+  ],
+  "LA_line": -49.0,
+  "nfr": 139
+ },
+ {
+  "id": "175-178 Vln II",
+  "q0": 696,
+  "q1": 712,
+  "bars": "175-179",
+  "imp": 2,
+  "lab": "Vln II pp line under the chorale",
+  "dyn": "pp",
+  "line": [
+   "Violins II"
+  ],
+  "tune": [
+   "Trombone 1"
+  ],
+  "d_tune": -1.8,
+  "k_tune": -3.6,
+  "k_master": -13.3,
+  "d_master": -12.2,
+  "best_band": 1000,
+  "best_R": -7.9,
+  "best_R_acc": -7.0,
+  "frac_ok": 0.98,
+  "maskers": [
+   [
+    "Clarinet 1",
+    4.6
+   ],
+   [
+    "Trombone 1",
+    0.8
+   ],
+   [
+    "Bass clarinet",
+    -1.7
+   ],
+   [
+    "Trombone 2",
+    -5.0
+   ]
+  ],
+  "LA_line": -57.6,
+  "nfr": 286
+ }
+]

@@ -1,0 +1,1092 @@
+{
+ "Violins I": {
+  "65.5": {
+   "S_w": -32,
+   "old": null,
+   "new": -0.03,
+   "inside": true
+  },
+  "72": {
+   "S_w": -141,
+   "old": 0.07,
+   "new": -0.05,
+   "inside": true
+  },
+  "74": {
+   "S_w": -88,
+   "old": 0.07,
+   "new": -0.02,
+   "inside": true
+  },
+  "75": {
+   "S_w": -102,
+   "old": 0.08,
+   "new": -0.02,
+   "inside": true
+  },
+  "78": {
+   "S_w": -90,
+   "old": 0.06,
+   "new": -0.03,
+   "inside": true
+  },
+  "79.5": {
+   "S_w": -98,
+   "old": 0.04,
+   "new": -0.06,
+   "inside": true
+  },
+  "80": {
+   "S_w": 72,
+   "why": "readings disagree: row left"
+  },
+  "85.5": {
+   "S_w": 30,
+   "old": null,
+   "new": 0.03,
+   "inside": true
+  },
+  "86": {
+   "S_w": 36,
+   "old": null,
+   "new": 0.035,
+   "inside": true
+  },
+  "86.5": {
+   "S_w": 39,
+   "old": null,
+   "new": 0.04,
+   "inside": true
+  },
+  "174": {
+   "S_w": 25,
+   "old": null,
+   "new": 0.025,
+   "inside": true
+  },
+  "175": {
+   "S_w": 29,
+   "old": null,
+   "new": 0.03,
+   "inside": true
+  },
+  "177.5": {
+   "S_w": 30,
+   "old": 0.05,
+   "new": 0.08,
+   "inside": true
+  },
+  "183": {
+   "S_w": 28,
+   "old": null,
+   "new": 0.03,
+   "inside": true
+  },
+  "198": {
+   "S_w": -28,
+   "old": 0.04,
+   "new": 0.01,
+   "inside": true
+  },
+  "204": {
+   "S_w": -36,
+   "old": 0.07,
+   "new": 0.035,
+   "inside": false
+  },
+  "208": {
+   "S_w": 41,
+   "old": null,
+   "new": 0.04,
+   "inside": false
+  },
+  "244": {
+   "S_w": -119,
+   "old": 0.08,
+   "new": -0.04,
+   "inside": true
+  },
+  "246": {
+   "S_w": -84,
+   "old": 0.05,
+   "new": -0.035,
+   "inside": true
+  },
+  "247": {
+   "S_w": -148,
+   "old": 0.08,
+   "new": -0.04,
+   "inside": true
+  },
+  "252": {
+   "S_w": -74,
+   "old": 0.05,
+   "new": -0.025,
+   "inside": true
+  },
+  "254": {
+   "S_w": -48,
+   "old": 0.07,
+   "new": 0.02,
+   "inside": true
+  },
+  "257.5": {
+   "S_w": -69,
+   "old": null,
+   "new": -0.07,
+   "inside": true
+  },
+  "258": {
+   "S_w": -98,
+   "old": 0.05,
+   "new": -0.05,
+   "inside": true
+  },
+  "258.5": {
+   "S_w": -102,
+   "old": 0.09,
+   "new": -0.01,
+   "inside": true
+  },
+  "261": {
+   "S_w": -106,
+   "old": 0.05,
+   "new": -0.055,
+   "inside": true
+  },
+  "262": {
+   "S_w": 89,
+   "old": null,
+   "new": 0.09,
+   "inside": false
+  },
+  "268": {
+   "S_w": 76,
+   "old": null,
+   "new": 0.075,
+   "inside": false
+  },
+  "269": {
+   "S_w": 48,
+   "old": null,
+   "new": 0.05,
+   "inside": false
+  },
+  "271": {
+   "S_w": 82,
+   "old": null,
+   "new": 0.08,
+   "inside": false
+  }
+ },
+ "Violins II": {
+  "48": {
+   "S_w": 96,
+   "old": null,
+   "new": 0.095,
+   "inside": false
+  },
+  "53": {
+   "S_w": 48,
+   "old": null,
+   "new": 0.05,
+   "inside": false
+  },
+  "54": {
+   "S_w": 60,
+   "old": null,
+   "new": 0.06,
+   "inside": false
+  },
+  "61": {
+   "S_w": -100,
+   "old": null,
+   "new": -0.1,
+   "inside": false
+  },
+  "62": {
+   "S_w": -70,
+   "old": null,
+   "new": -0.07,
+   "inside": false
+  },
+  "65": {
+   "S_w": -48,
+   "why": "readings disagree: row left"
+  },
+  "66": {
+   "S_w": -93,
+   "why": "readings disagree: row left"
+  },
+  "67.5": {
+   "S_w": -82,
+   "old": null,
+   "new": -0.08,
+   "inside": true
+  },
+  "72": {
+   "S_w": -127,
+   "why": "readings disagree: row left"
+  },
+  "74": {
+   "S_w": -74,
+   "why": "readings disagree: row left"
+  },
+  "75": {
+   "S_w": -76,
+   "why": "readings disagree: row left"
+  },
+  "78": {
+   "S_w": -82,
+   "why": "readings disagree: row left"
+  },
+  "79.5": {
+   "S_w": -78,
+   "old": null,
+   "new": -0.08,
+   "inside": true
+  },
+  "86.5": {
+   "S_w": 46,
+   "old": 0.05,
+   "new": 0.095,
+   "inside": true
+  },
+  "146": {
+   "S_w": 67,
+   "old": null,
+   "new": 0.065,
+   "inside": false
+  },
+  "152": {
+   "S_w": 108,
+   "old": null,
+   "new": 0.11,
+   "inside": false
+  },
+  "154": {
+   "S_w": -81,
+   "old": null,
+   "new": -0.08,
+   "inside": false
+  },
+  "156": {
+   "S_w": 42,
+   "old": null,
+   "new": 0.04,
+   "inside": false
+  },
+  "159": {
+   "S_w": 36,
+   "old": null,
+   "new": 0.035,
+   "inside": false
+  },
+  "164": {
+   "S_w": 30,
+   "old": 0.06,
+   "new": 0.09,
+   "inside": false
+  },
+  "168": {
+   "S_w": 68,
+   "old": null,
+   "new": 0.07,
+   "inside": false
+  },
+  "170": {
+   "S_w": 28,
+   "old": null,
+   "new": 0.03,
+   "inside": false
+  },
+  "175": {
+   "S_w": 27,
+   "old": null,
+   "new": 0.025,
+   "inside": true
+  },
+  "192": {
+   "S_w": 38,
+   "old": null,
+   "new": 0.04,
+   "inside": true
+  },
+  "196": {
+   "S_w": 39,
+   "old": 0.04,
+   "new": 0.08,
+   "inside": true
+  },
+  "204": {
+   "S_w": -70,
+   "old": 0.1,
+   "new": 0.03,
+   "inside": false
+  },
+  "206": {
+   "S_w": -75,
+   "old": 0.04,
+   "new": -0.035,
+   "inside": false
+  },
+  "219": {
+   "S_w": -86,
+   "old": null,
+   "new": -0.085,
+   "inside": false
+  },
+  "220": {
+   "S_w": -104,
+   "old": null,
+   "new": -0.105,
+   "inside": false
+  },
+  "239.5": {
+   "S_w": -78,
+   "old": null,
+   "new": -0.08,
+   "inside": true
+  },
+  "244": {
+   "S_w": -40,
+   "old": -0.1,
+   "new": -0.14,
+   "inside": true
+  },
+  "250": {
+   "S_w": -80,
+   "old": null,
+   "new": -0.08,
+   "inside": true
+  },
+  "251.5": {
+   "S_w": -76,
+   "old": null,
+   "new": -0.075,
+   "inside": true
+  },
+  "252": {
+   "S_w": -30,
+   "old": 0.1,
+   "new": 0.07,
+   "inside": true
+  },
+  "254": {
+   "S_w": -116,
+   "old": 0.08,
+   "new": -0.035,
+   "inside": true
+  },
+  "257.5": {
+   "S_w": -92,
+   "old": null,
+   "new": -0.09,
+   "inside": true
+  },
+  "258": {
+   "S_w": -114,
+   "old": null,
+   "new": -0.115,
+   "inside": true
+  },
+  "258.5": {
+   "S_w": -58,
+   "old": null,
+   "new": -0.06,
+   "inside": true
+  },
+  "261": {
+   "S_w": -84,
+   "old": null,
+   "new": -0.085,
+   "inside": true
+  },
+  "262": {
+   "S_w": 68,
+   "old": null,
+   "new": 0.07,
+   "inside": false
+  },
+  "266": {
+   "S_w": 32,
+   "old": null,
+   "new": 0.03,
+   "inside": false
+  }
+ },
+ "Violas": {
+  "3": {
+   "S_w": -35,
+   "old": null,
+   "new": -0.035,
+   "inside": false
+  },
+  "58": {
+   "S_w": -115,
+   "old": null,
+   "new": -0.115,
+   "inside": false
+  },
+  "108.333": {
+   "S_w": -74,
+   "old": null,
+   "new": -0.075,
+   "inside": false
+  },
+  "108.667": {
+   "S_w": -51,
+   "old": null,
+   "new": -0.05,
+   "inside": false
+  },
+  "109": {
+   "S_w": 72,
+   "old": null,
+   "new": 0.07,
+   "inside": false
+  },
+  "109.667": {
+   "S_w": -46,
+   "old": null,
+   "new": -0.045,
+   "inside": false
+  },
+  "110.333": {
+   "S_w": -70,
+   "old": null,
+   "new": -0.07,
+   "inside": false
+  },
+  "110.667": {
+   "S_w": -51,
+   "old": null,
+   "new": -0.05,
+   "inside": false
+  },
+  "111": {
+   "S_w": 72,
+   "old": null,
+   "new": 0.07,
+   "inside": false
+  },
+  "111.667": {
+   "S_w": -62,
+   "old": null,
+   "new": -0.06,
+   "inside": false
+  },
+  "112": {
+   "S_w": -43,
+   "old": null,
+   "new": -0.045,
+   "inside": false
+  },
+  "112.333": {
+   "S_w": -67,
+   "old": null,
+   "new": -0.065,
+   "inside": false
+  },
+  "113": {
+   "S_w": -52,
+   "old": null,
+   "new": -0.05,
+   "inside": false
+  },
+  "113.333": {
+   "S_w": -47,
+   "old": null,
+   "new": -0.045,
+   "inside": false
+  },
+  "113.667": {
+   "S_w": -59,
+   "old": null,
+   "new": -0.06,
+   "inside": false
+  },
+  "115": {
+   "S_w": -33,
+   "old": null,
+   "new": -0.035,
+   "inside": false
+  },
+  "115.667": {
+   "S_w": -34,
+   "old": null,
+   "new": -0.035,
+   "inside": false
+  },
+  "116.333": {
+   "S_w": -69,
+   "old": null,
+   "new": -0.07,
+   "inside": false
+  },
+  "117": {
+   "S_w": -51,
+   "old": null,
+   "new": -0.05,
+   "inside": false
+  },
+  "117.333": {
+   "S_w": -47,
+   "old": null,
+   "new": -0.045,
+   "inside": false
+  },
+  "117.667": {
+   "S_w": -59,
+   "old": null,
+   "new": -0.06,
+   "inside": false
+  },
+  "119": {
+   "S_w": -33,
+   "old": null,
+   "new": -0.035,
+   "inside": false
+  },
+  "119.667": {
+   "S_w": -30,
+   "old": null,
+   "new": -0.03,
+   "inside": false
+  },
+  "120.333": {
+   "S_w": -28,
+   "old": null,
+   "new": -0.03,
+   "inside": false
+  },
+  "121": {
+   "S_w": -30,
+   "old": null,
+   "new": -0.03,
+   "inside": false
+  },
+  "121.667": {
+   "S_w": -43,
+   "old": null,
+   "new": -0.045,
+   "inside": false
+  },
+  "122.333": {
+   "S_w": -69,
+   "old": null,
+   "new": -0.07,
+   "inside": false
+  },
+  "122.667": {
+   "S_w": -55,
+   "old": null,
+   "new": -0.055,
+   "inside": false
+  },
+  "188.333": {
+   "S_w": -56,
+   "old": null,
+   "new": -0.055,
+   "inside": true
+  },
+  "189": {
+   "S_w": 69,
+   "old": 0.06,
+   "new": 0.13,
+   "inside": true
+  },
+  "189.333": {
+   "S_w": -59,
+   "old": null,
+   "new": -0.06,
+   "inside": true
+  },
+  "189.667": {
+   "S_w": -61,
+   "old": null,
+   "new": -0.06,
+   "inside": true
+  },
+  "190.333": {
+   "S_w": -82,
+   "old": -0.105,
+   "new": -0.185,
+   "inside": true
+  },
+  "190.667": {
+   "S_w": -50,
+   "old": null,
+   "new": -0.05,
+   "inside": true
+  },
+  "191": {
+   "S_w": -29,
+   "old": null,
+   "new": -0.03,
+   "inside": true
+  },
+  "191.333": {
+   "S_w": -59,
+   "old": null,
+   "new": -0.06,
+   "inside": true
+  },
+  "191.667": {
+   "S_w": -106,
+   "old": null,
+   "new": -0.105,
+   "inside": true
+  },
+  "193.667": {
+   "S_w": -48,
+   "old": 0.09,
+   "new": 0.04,
+   "inside": true
+  },
+  "194": {
+   "S_w": -72,
+   "why": "readings disagree: row left"
+  },
+  "195.667": {
+   "S_w": -48,
+   "old": -0.013,
+   "new": -0.06,
+   "inside": true
+  },
+  "220": {
+   "S_w": -47,
+   "old": null,
+   "new": -0.045,
+   "inside": false
+  },
+  "238.5": {
+   "S_w": -51,
+   "old": null,
+   "new": -0.05,
+   "inside": true
+  },
+  "239": {
+   "S_w": -43,
+   "old": null,
+   "new": -0.045,
+   "inside": true
+  },
+  "240.5": {
+   "S_w": -57,
+   "old": -0.07,
+   "new": -0.125,
+   "inside": true
+  },
+  "241": {
+   "S_w": -37,
+   "old": null,
+   "new": -0.035,
+   "inside": true
+  },
+  "241.5": {
+   "S_w": -66,
+   "old": -0.07,
+   "new": -0.135,
+   "inside": true
+  },
+  "244": {
+   "S_w": -47,
+   "old": null,
+   "new": -0.045,
+   "inside": true
+  },
+  "244.5": {
+   "S_w": -51,
+   "old": -0.06,
+   "new": -0.11,
+   "inside": true
+  },
+  "245": {
+   "S_w": -43,
+   "old": null,
+   "new": -0.045,
+   "inside": true
+  },
+  "246": {
+   "S_w": -83,
+   "old": null,
+   "new": -0.085,
+   "inside": true
+  },
+  "247.5": {
+   "S_w": -59,
+   "old": null,
+   "new": -0.06,
+   "inside": true
+  },
+  "249.5": {
+   "S_w": 34,
+   "old": null,
+   "new": 0.035,
+   "inside": true
+  },
+  "251": {
+   "S_w": -50,
+   "old": null,
+   "new": -0.05,
+   "inside": true
+  },
+  "251.5": {
+   "S_w": 49,
+   "old": 0.12,
+   "new": 0.17,
+   "inside": true
+  },
+  "255.5": {
+   "S_w": 39,
+   "old": null,
+   "new": 0.04,
+   "inside": true
+  },
+  "260.5": {
+   "S_w": 47,
+   "old": 0.09,
+   "new": 0.135,
+   "inside": true
+  },
+  "261.5": {
+   "S_w": -62,
+   "old": null,
+   "new": -0.06,
+   "inside": true
+  },
+  "286": {
+   "S_w": -73,
+   "old": null,
+   "new": -0.075,
+   "inside": false
+  }
+ },
+ "Violoncellos": {
+  "3": {
+   "S_w": -76,
+   "old": null,
+   "new": -0.075,
+   "inside": false
+  },
+  "48": {
+   "S_w": -71,
+   "old": null,
+   "new": -0.07,
+   "inside": false
+  },
+  "50": {
+   "S_w": -78,
+   "old": null,
+   "new": -0.08,
+   "inside": false
+  },
+  "51": {
+   "S_w": -52,
+   "old": null,
+   "new": -0.05,
+   "inside": false
+  },
+  "53": {
+   "S_w": -40,
+   "old": null,
+   "new": -0.04,
+   "inside": false
+  },
+  "54": {
+   "S_w": -56,
+   "old": 0.08,
+   "new": 0.025,
+   "inside": false
+  },
+  "56": {
+   "S_w": -101,
+   "old": null,
+   "new": -0.1,
+   "inside": false
+  },
+  "57": {
+   "S_w": -32,
+   "old": null,
+   "new": -0.03,
+   "inside": false
+  },
+  "59": {
+   "S_w": -82,
+   "old": null,
+   "new": -0.08,
+   "inside": false
+  },
+  "62": {
+   "S_w": -88,
+   "old": null,
+   "new": -0.09,
+   "inside": false
+  },
+  "63": {
+   "S_w": -117,
+   "old": null,
+   "new": -0.115,
+   "inside": true
+  },
+  "68": {
+   "S_w": 38,
+   "old": 0.165,
+   "new": 0.205,
+   "inside": true
+  },
+  "72": {
+   "S_w": -29,
+   "old": null,
+   "new": -0.03,
+   "inside": true
+  },
+  "74": {
+   "S_w": -36,
+   "old": null,
+   "new": -0.035,
+   "inside": true
+  },
+  "142": {
+   "S_w": -28,
+   "old": null,
+   "new": -0.03,
+   "inside": false
+  },
+  "142.5": {
+   "S_w": -54,
+   "old": null,
+   "new": -0.055,
+   "inside": false
+  },
+  "144": {
+   "S_w": -58,
+   "old": null,
+   "new": -0.06,
+   "inside": false
+  },
+  "145": {
+   "S_w": -66,
+   "old": null,
+   "new": -0.065,
+   "inside": false
+  },
+  "145.5": {
+   "S_w": -58,
+   "old": 0.092,
+   "new": 0.035,
+   "inside": false
+  },
+  "146": {
+   "S_w": -52,
+   "old": null,
+   "new": -0.05,
+   "inside": false
+  },
+  "156": {
+   "S_w": 117,
+   "old": null,
+   "new": 0.115,
+   "inside": false
+  },
+  "160": {
+   "S_w": 30,
+   "old": -0.1,
+   "new": -0.07,
+   "inside": false
+  },
+  "164": {
+   "S_w": 26,
+   "old": null,
+   "new": 0.025,
+   "inside": false
+  },
+  "178": {
+   "S_w": -58,
+   "old": null,
+   "new": -0.06,
+   "inside": true
+  },
+  "180": {
+   "S_w": -44,
+   "old": null,
+   "new": -0.045,
+   "inside": true
+  },
+  "184": {
+   "S_w": -46,
+   "old": 0.05,
+   "new": 0.005,
+   "inside": true
+  },
+  "186": {
+   "S_w": 34,
+   "old": null,
+   "new": 0.035,
+   "inside": true
+  },
+  "188": {
+   "S_w": -30,
+   "old": 0.06,
+   "new": 0.03,
+   "inside": true
+  },
+  "204": {
+   "S_w": -56,
+   "old": null,
+   "new": -0.055,
+   "inside": false
+  },
+  "206": {
+   "S_w": -25,
+   "old": null,
+   "new": -0.025,
+   "inside": false
+  },
+  "208": {
+   "S_w": -38,
+   "old": null,
+   "new": -0.04,
+   "inside": false
+  },
+  "210": {
+   "S_w": -38,
+   "old": null,
+   "new": -0.04,
+   "inside": false
+  },
+  "240": {
+   "S_w": -27,
+   "old": 0.02,
+   "new": -0.005,
+   "inside": true
+  },
+  "243": {
+   "S_w": -44,
+   "old": null,
+   "new": -0.045,
+   "inside": true
+  },
+  "246": {
+   "S_w": -88,
+   "old": null,
+   "new": -0.09,
+   "inside": true
+  },
+  "248": {
+   "S_w": -54,
+   "old": null,
+   "new": -0.055,
+   "inside": true
+  },
+  "249": {
+   "S_w": 41,
+   "why": "readings disagree: row left"
+  },
+  "258": {
+   "S_w": -56,
+   "why": "readings disagree: row left"
+  },
+  "261": {
+   "S_w": -106,
+   "old": 0.07,
+   "new": -0.035,
+   "inside": true
+  },
+  "262": {
+   "S_w": -83,
+   "old": null,
+   "new": -0.085,
+   "inside": false
+  },
+  "263": {
+   "S_w": -109,
+   "old": null,
+   "new": -0.11,
+   "inside": false
+  },
+  "264": {
+   "S_w": -130,
+   "old": null,
+   "new": -0.12,
+   "inside": false
+  },
+  "265": {
+   "S_w": -63,
+   "old": null,
+   "new": -0.065,
+   "inside": false
+  },
+  "267": {
+   "S_w": -45,
+   "old": null,
+   "new": -0.045,
+   "inside": false
+  },
+  "269": {
+   "S_w": -61,
+   "old": null,
+   "new": -0.06,
+   "inside": false
+  },
+  "271": {
+   "S_w": -38,
+   "old": null,
+   "new": -0.04,
+   "inside": false
+  }
+ },
+ "Double basses": {
+  "83": {
+   "S_w": -33,
+   "old": -0.1,
+   "new": -0.135,
+   "inside": true
+  }
+ },
+ "Violin I solo": {
+  "53": {
+   "S_w": -26,
+   "old": 0.04,
+   "new": 0.015,
+   "inside": false
+  },
+  "63": {
+   "S_w": 26,
+   "old": 0.04,
+   "new": 0.065,
+   "inside": true
+  }
+ },
+ "Violoncellos div": {
+  "51.5": {
+   "S_w": -82,
+   "old": null,
+   "new": -0.08,
+   "inside": false
+  },
+  "52": {
+   "S_w": -80,
+   "old": null,
+   "new": -0.08,
+   "inside": false
+  },
+  "63.5": {
+   "S_w": -69,
+   "why": "readings disagree: row left"
+  },
+  "65": {
+   "S_w": -29,
+   "why": "readings disagree: row left"
+  }
+ },
+ "Violas div": {
+  "72": {
+   "S_w": 44,
+   "old": null,
+   "new": 0.045,
+   "inside": true
+  }
+ }
+}

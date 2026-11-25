@@ -1,0 +1,48 @@
+=== c26
+median  head  +1.9 hole  -7.2 low -12.9 eighth1  +0.7 f100/nb  +2.1 2-5k/nb  +6.3 peak +0.153 s
+Violins I 299.0-362.0: n 7  first100 over nb median +0.1 (max +8.9, over +3: 2)  peak 0.158 s  -6 dB at +8 ms
+Violins I 899.0-962.0: n 7  first100 over nb median -1.4 (max +4.1, over +3: 1)  peak 0.195 s  -6 dB at -70 ms
+Violins II 299.0-362.0: n 6  first100 over nb median -1.3 (max +4.8, over +3: 1)  peak 0.263 s  -6 dB at -28 ms
+Violins II 899.0-962.0: n 7  first100 over nb median -1.3 (max +2.5, over +3: 0)  peak 0.182 s  -6 dB at -96 ms
+Cor anglais 299.0-362.0: n 6  first100 over nb median +0.9 (max +1.6, over +3: 0)  peak 0.216 s  -6 dB at -55 ms
+Cor anglais 899.0-962.0: n 6  first100 over nb median +0.2 (max +1.4, over +3: 0)  peak 0.221 s  -6 dB at -60 ms
+Clarinet 2 299.0-362.0: n 5  first100 over nb median -1.2 (max +3.9, over +3: 1)  peak 0.291 s  -6 dB at -102 ms
+Clarinet 2 899.0-962.0: n 5  first100 over nb median -1.3 (max +4.2, over +3: 1)  peak 0.297 s  -6 dB at -101 ms
+Violas 299.0-362.0: no accents
+Violas 899.0-962.0: n 2  first100 over nb median -7.6 (max -4.2, over +3: 0)  peak 0.097 s  -6 dB at +37 ms
+Oboe 1 299.0-362.0: n 4  first100 over nb median -0.4 (max +0.1, over +3: 0)  peak 0.379 s  -6 dB at -20 ms
+Oboe 1 899.0-962.0: n 4  first100 over nb median -1.0 (max +0.4, over +3: 0)  peak 0.378 s  -6 dB at -18 ms
+Violins I 312.0-360.0: downbeat - beats 2/3 median +0.4 dB
+Violins II 312.0-360.0: downbeat - beats 2/3 median +0.6 dB
+Cor anglais 312.0-360.0: downbeat - beats 2/3 median +0.2 dB
+Clarinet 2 312.0-360.0: downbeat - beats 2/3 median +0.7 dB
+Violas 312.0-360.0: downbeats -77.5  beats 2-3 -31.9 dB
+Violas 912.0-960.0: downbeats -77.5  beats 2-3 -31.9 dB
+Double basses 312.0-360.0: downbeats -34.4  beats 2-3 -43.5 dB
+Master 312.0-360.0: downbeat - beats 2/3 median +0.3 dB
+Master 912.0-960.0: downbeat - beats 2/3 median +0.7 dB
+Master 36.0-84.0: downbeat - beats 2/3 median +2.4 dB
+=== c27
+median  head  -1.2 hole  -5.8 low -10.7 eighth1  +0.8 f100/nb  -0.9 2-5k/nb  +3.3 peak +0.193 s
+Violins I 299.0-362.0: n 7  first100 over nb median -1.2 (max +10.3, over +3: 1)  peak 0.179 s  -6 dB at +33 ms
+Violins I 899.0-962.0: n 7  first100 over nb median -1.5 (max +2.7, over +3: 0)  peak 0.195 s  -6 dB at -75 ms
+Violins II 299.0-362.0: n 6  first100 over nb median -1.4 (max +4.7, over +3: 1)  peak 0.263 s  -6 dB at -56 ms
+Violins II 899.0-962.0: n 7  first100 over nb median -1.3 (max +2.4, over +3: 0)  peak 0.186 s  -6 dB at -96 ms
+Cor anglais 299.0-362.0: n 6  first100 over nb median -1.4 (max +0.5, over +3: 0)  peak 0.192 s  -6 dB at -12 ms
+Cor anglais 899.0-962.0: n 6  first100 over nb median -1.8 (max -0.4, over +3: 0)  peak 0.193 s  -6 dB at -53 ms
+Clarinet 2 299.0-362.0: n 5  first100 over nb median -0.6 (max +4.6, over +3: 1)  peak 0.158 s  -6 dB at -102 ms
+Clarinet 2 899.0-962.0: n 5  first100 over nb median -1.0 (max +4.8, over +3: 1)  peak 0.276 s  -6 dB at -101 ms
+Violas 299.0-362.0: no accents
+Violas 899.0-962.0: n 2  first100 over nb median -7.4 (max -3.8, over +3: 0)  peak 0.097 s  -6 dB at -56 ms
+Oboe 1 299.0-362.0: n 4  first100 over nb median -1.0 (max +0.1, over +3: 0)  peak 0.379 s  -6 dB at -20 ms
+Oboe 1 899.0-962.0: n 4  first100 over nb median -1.0 (max +0.4, over +3: 0)  peak 0.401 s  -6 dB at -18 ms
+Violins I 312.0-360.0: downbeat - beats 2/3 median -0.7 dB
+Violins II 312.0-360.0: downbeat - beats 2/3 median +0.7 dB
+Cor anglais 312.0-360.0: downbeat - beats 2/3 median -0.2 dB
+Clarinet 2 312.0-360.0: downbeat - beats 2/3 median +0.7 dB
+Violas 312.0-360.0: downbeats -80.9  beats 2-3 -37.1 dB
+Violas 912.0-960.0: downbeats -80.9  beats 2-3 -37.1 dB
+Double basses 312.0-360.0: downbeats -34.5  beats 2-3 -43.5 dB
+Master 312.0-360.0: downbeat - beats 2/3 median -0.0 dB
+Master 912.0-960.0: downbeat - beats 2/3 median +0.9 dB
+Master 36.0-84.0: downbeat - beats 2/3 median +2.3 dB

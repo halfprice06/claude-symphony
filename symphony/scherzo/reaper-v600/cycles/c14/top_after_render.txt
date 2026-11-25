@@ -1,0 +1,2 @@
+PhysMem: 91G used (4850M wired, 3343M compressor), 4367M unused.
+53960  REAPER           43G   0B   

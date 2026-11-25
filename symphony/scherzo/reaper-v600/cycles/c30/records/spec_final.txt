@@ -1,0 +1,7 @@
+summit 336-339 -7.1 | tutti 105-120 -8.1 | tutti 305-320 -8.3 | bar 300 -8.1 | bar 304 -8.5 | bar 72 -8.5 | bar 333 -9.4 | bar 53 -8.6 | trio ff 209-224 -8.9
+summit over the next loudest: +1.0 LU
+I -13.8 LUFS, TP -1.4 dBTP, LRA 11.8 LU
+summit M max -7.1, next loudest bar 335 -7.7: lead +0.56 LU
+f mean -11.1, ff mean -9.0: f -> ff +2.07 LU
+quiet means: intro -18.1, theme A -16.0, counterst. -18.3, fugato -21.3, trio dolce -15.8, stretto -26.9, Meno pp -18.9
+arrivals (bar: rise over bar before): 41 +2.2, 72 +0.4, 105 -0.5, 129 +0.3, 197 +1.1, 209 +0.4, 285 +0.6, 300 +1.1, 304 +1.0, 305 -0.3, 329 +2.9, 336 +0.6

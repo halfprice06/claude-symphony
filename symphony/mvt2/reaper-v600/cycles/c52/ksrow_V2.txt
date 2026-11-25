@@ -1,0 +1,5 @@
+/Users/gooby/.venvs/claude-composes-reaper/lib/python3.14/site-packages/numpy/_core/fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/Users/gooby/.venvs/claude-composes-reaper/lib/python3.14/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+0 row-change joins: level NEW - OLD in the window before the target: median +nan dB, |d| >= 1 dB: 0, >= 3 dB: 0; correlation median nan, under 0.9: 0

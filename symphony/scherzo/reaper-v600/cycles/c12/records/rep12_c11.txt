@@ -1,0 +1,349 @@
+341 same-pitch bowed repeats
+Violins I           6.45 n1 cc11  25 vel  38 gap    +7 ms  pre  -47.9 post  -50.0 dip   2.1  -                      Sus MAX
+Violins I          37.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -48.6 post  -42.5 dip  -1.6  -                      Staccatissimo RRx9
+Violins I          43.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -48.5 post  -42.4 dip  -1.2  -                      Staccatissimo RRx9
+Violins I          49.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -47.2 post  -44.1 dip  -1.5  -                      Spiccato RRx9
+Violins I          55.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -45.0 post  -44.5 dip   3.0  -                      Staccatissimo RRx9
+Violins I          64.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -48.5 post  -43.6 dip  -1.1  -                      Staccatissimo RRx9
+Violins I          73.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -47.3 post  -43.1 dip   0.2  -                      Staccatissimo RRx9
+Violins I          79.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -45.7 post  -44.3 dip   2.2  -                      Staccatissimo RRx9
+Violins I          91.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -52.5 post  -46.4 dip  -0.5  -                      Staccatissimo RRx9
+Violins I         103.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -48.4 post  -43.4 dip   3.4  -                      Staccatissimo RRx9
+Violins I         106.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -52.1 post  -42.3 dip   2.9  -                      Staccatissimo RRx9
+Violins I         109.50 n1 cc11 120 vel  61 gap   +57 ms  pre  -52.1 post  -41.7 dip   0.8  -                      Staccatissimo RRx9
+Violins I         115.50 n1 cc11 120 vel  76 gap   +57 ms  pre  -48.1 post  -37.5 dip  -0.5  -                      Staccatissimo RRx9
+Violins I         121.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -39.3 post  -37.7 dip  -0.1  -                      Staccatissimo RRx9
+Violins I         127.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -44.4 post  -39.4 dip   0.3  -                      Staccatissimo RRx9
+Violins I         156.00 n1 cc11 114 vel  96 gap    +5 ms  pre  -29.5 post  -27.9 dip  -2.3  -                      Sus MAX
+Violins I         165.00 n1 cc11 120 vel  87 gap    +9 ms  pre  -29.0 post  -35.5 dip  -3.2  -                      Staccatissimo RRx9
+Violins I         205.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -44.7 post  -34.8 dip   0.2  -                      Staccatissimo RRx9
+Violins I         283.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -50.5 post  -44.9 dip   0.1  -                      Staccatissimo RRx9
+Violins I         292.50 n1 cc11 120 vel  62 gap   +57 ms  pre  -50.5 post  -43.0 dip  -0.4  -                      Staccatissimo RRx9
+Violins I         313.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -35.2 post  -24.8 dip   1.0  -                      Stac RRx14
+Violins I         319.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -36.9 post  -27.4 dip   1.2  -                      Stac RRx14
+Violins I         325.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -37.4 post  -27.3 dip  -0.4  -                      Staccatissimo RRx9
+Violins I         331.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -35.3 post  -29.6 dip  -0.4  -                      Staccatissimo RRx9
+Violins I         340.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -33.8 post  -27.0 dip   2.6  -                      Stac RRx14
+Violins I         349.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -37.1 post  -22.4 dip   0.2  -                      Stac RRx14
+Violins I         355.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -37.1 post  -30.3 dip   0.1  -                      Staccatissimo RRx9
+Violins I         384.00 n1 cc11  88 vel  80 gap    +5 ms  pre  -31.4 post  -33.1 dip  -3.1  -                      Sus MAX
+Violins I         393.00 n1 cc11 120 vel  35 gap    +9 ms  pre  -33.6 post  -42.6 dip  -1.6  -                      Staccatissimo RRx9
+Violins I         745.00 n1 cc11 120 vel  45 gap  +125 ms  pre  -45.0 post  -47.7 dip   9.5  -                      Staccatissimo RRx9
+Violins I         745.50 n1 cc11 120 vel  45 gap   +62 ms  pre  -56.8 post  -45.4 dip   0.1  -                      Staccatissimo RRx9
+Violins I         746.00 n1 cc11 120 vel  45 gap   +62 ms  pre  -47.7 post  -45.0 dip   2.6  -                      Staccatissimo RRx9
+Violins I         757.50 n1 cc11 120 vel  67 gap   +57 ms  pre  -48.5 post  -39.7 dip  -4.6  -                      Spiccato RRx9
+Violins I         763.50 n1 cc11 120 vel  67 gap   +57 ms  pre  -50.7 post  -38.9 dip  -8.7  -                      Spiccato RRx9
+Violins I         769.50 n1 cc11 120 vel  67 gap   +57 ms  pre  -49.2 post  -44.1 dip   1.8  -                      Staccatissimo RRx9
+Violins I         775.50 n1 cc11 120 vel  67 gap   +57 ms  pre  -49.1 post  -41.8 dip  -2.3  -                      Staccatissimo RRx9
+Violins I         784.50 n1 cc11 120 vel  67 gap   +57 ms  pre  -47.5 post  -38.7 dip  -2.7  -                      Spiccato RRx9
+Violins I         793.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -49.4 post  -42.9 dip  -2.4  -                      Staccatissimo RRx9
+Violins I         799.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -48.8 post  -44.1 dip  -1.1  -                      Staccatissimo RRx9
+Violins I         811.50 n1 cc11 120 vel  64 gap   +57 ms  pre  -51.5 post  -43.8 dip  -1.0  -                      Staccatissimo RRx9
+Violins I         817.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -39.1 post  -36.8 dip   3.3  -                      Staccatissimo RRx9
+Violins I         823.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -45.0 post  -39.5 dip   0.4  -                      Staccatissimo RRx9
+Violins I         852.00 n1 cc11  88 vel  80 gap    +5 ms  pre  -31.4 post  -33.2 dip  -3.2  -                      Sus MAX
+Violins I         861.00 n1 cc11 120 vel  87 gap    +9 ms  pre  -33.7 post  -41.6 dip  -4.6  -                      Staccatissimo RRx9
+Violins I         889.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -46.1 post  -35.8 dip   0.2  -                      Staccatissimo RRx9
+Violins I         913.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -35.1 post  -25.2 dip   1.0  -                      Stac RRx14
+Violins I         919.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -36.8 post  -27.3 dip   1.3  -                      Stac RRx14
+Violins I         925.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -37.9 post  -27.2 dip  -0.6  -                      Staccatissimo RRx9
+Violins I         931.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -35.2 post  -29.5 dip  -0.3  -                      Staccatissimo RRx9
+Violins I         940.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -33.7 post  -26.9 dip   2.6  -                      Stac RRx14
+Violins I         949.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -37.0 post  -22.8 dip   0.3  -                      Stac RRx14
+Violins I         955.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -37.0 post  -30.2 dip   0.1  -                      Staccatissimo RRx9
+Violins I         982.00 n1 cc11 120 vel  56 gap  +104 ms  pre  -44.0 post  -45.8 dip   9.4  -                      Stac RRx14
+Violins I         982.50 n1 cc11 120 vel  61 gap   +52 ms  pre  -50.7 post  -43.3 dip   4.5  -                      Stac RRx14
+Violins I         983.00 n1 cc11 120 vel  67 gap   +52 ms  pre  -48.8 post  -38.5 dip  -1.7  -                      Stac RRx14
+Violins I         985.50 n1 cc11 120 vel  79 gap   +52 ms  pre  -36.1 post  -35.0 dip   2.7  -                      Staccatissimo RRx9
+Violins I         988.50 n1 cc11 120 vel  82 gap   +52 ms  pre  -38.3 post  -34.9 dip   9.6  -                      Staccatissimo RRx9
+Violins I         991.50 n1 cc11 120 vel  86 gap   +52 ms  pre  -38.6 post  -30.3 dip   1.0  -                      Staccatissimo RRx9
+Violins I         994.50 n1 cc11 120 vel  87 gap   +52 ms  pre  -37.3 post  -36.1 dip   1.6  -                      Staccatissimo RRx9
+Violins I         997.50 n1 cc11 120 vel  95 gap   +52 ms  pre  -34.4 post  -28.0 dip   0.7  -                      Staccatissimo RRx9
+Violins I        1103.81 n1 cc11  22 vel  38 gap    +8 ms  pre  -51.2 post  -47.7 dip  -0.6  -                      Sus MAX
+Violins I        1116.30 n1 cc11  22 vel  38 gap   +11 ms  pre  -48.5 post  -52.0 dip   0.5  -                      Sus MAX
+Violins I        1125.16 n1 cc11  22 vel  38 gap   +36 ms  pre  -48.4 post  -53.6 dip   0.2  -                      Sus MAX
+Violins II         38.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -50.3 post  -50.1 dip  10.6  -                      Stac RRx9
+Violins II         41.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -50.7 post  -51.5 dip   6.5  -                      Stac RRx9
+Violins II         50.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -46.5 post  -53.7 dip   2.2  -                      Stac RRx9
+Violins II         53.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -53.2 post  -51.5 dip   4.2  -                      Stac RRx9
+Violins II         56.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -50.3 post  -53.0 dip   6.7  -                      Stac RRx9
+Violins II         62.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -51.2 post  -52.5 dip   6.8  -                      Stac RRx9
+Violins II         65.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -49.6 post  -50.7 dip   8.6  -                      Stac RRx9
+Violins II         68.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -49.3 post  -51.4 dip   8.7  -                      Stac RRx9
+Violins II         71.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -50.2 post  -51.3 dip   7.0  -                      Stac RRx9
+Violins II         74.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -50.8 post  -48.0 dip   9.0  -                      Stac RRx9
+Violins II         80.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -49.3 post  -51.5 dip   8.5  -                      Stac RRx9
+Violins II        104.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -50.2 post  -53.9 dip   6.7  -                      Stac RRx9
+Violins II        110.00 n1 cc11 120 vel  49 gap  +114 ms  pre  -50.1 post  -51.6 dip   3.9  -                      Stac RRx9
+Violins II        113.00 n1 cc11 120 vel  61 gap  +114 ms  pre  -43.2 post  -41.6 dip  10.6  -                      Stac RRx9
+Violins II        119.00 n1 cc11 120 vel  84 gap  +114 ms  pre  -40.2 post  -43.2 dip   9.0  -                      Stac RRx9
+Violins II        121.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -51.1 post  -45.0 dip  -0.7  -                      Stac RRx9
+Violins II        127.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -51.5 post  -40.0 dip  -1.4  -                      Stac RRx9
+Violins II        131.00 n1 cc11 120 vel  87 gap  +114 ms  pre  -43.4 post  -40.0 dip   9.6  -                      Stac RRx9
+Violins II        156.00 n1 cc11 114 vel  96 gap    +5 ms  pre  -33.8 post  -28.6 dip   0.7  -                      Sus MAX
+Violins II        165.00 n1 cc11 120 vel  57 gap    +9 ms  pre  -39.5 post  -38.1 dip  -1.0  -                      Stac RRx9
+Violins II        193.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -50.8 post  -42.3 dip  -1.9  -                      Stac RRx9
+Violins II        199.50 n1 cc11 120 vel  62 gap   +57 ms  pre  -52.8 post  -43.0 dip  -2.1  -                      Stac RRx9
+Violins II        208.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -42.9 post  -39.3 dip   1.1  -                      Stac RRx9
+Violins II        313.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -31.4 post  -28.4 dip   5.4  -                      Stac RRx9
+Violins II        319.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -32.1 post  -27.9 dip   4.6  -                      Stac RRx9
+Violins II        325.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -33.5 post  -26.6 dip  -2.9  -                      Spiccato RRx9
+Violins II        331.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -32.8 post  -29.1 dip  -1.9  -                      Spiccato RRx9
+Violins II        340.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -30.3 post  -27.9 dip   0.2  -                      Spiccato RRx9
+Violins II        349.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -30.3 post  -31.7 dip   0.3  -                      Spiccato RRx9
+Violins II        355.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -32.8 post  -26.4 dip  -0.6  -                      Spiccato RRx9
+Violins II        384.00 n1 cc11  88 vel  80 gap    +5 ms  pre  -32.6 post  -33.7 dip   1.2  -                      Sus MAX
+Violins II        393.00 n1 cc11 120 vel  45 gap    +9 ms  pre  -40.2 post  -44.4 dip  -4.0  -                      Stac RRx9
+Violins II        519.50 n1 cc11  45 vel  41 gap   +12 ms  pre  -50.2 post  -53.2 dip  -3.2  -                      Sus MAX
+Violins II        525.50 n1 cc11  45 vel  41 gap   +12 ms  pre  -49.9 post  -48.7 dip   4.8  -                      Sus MAX
+Violins II        549.50 n1 cc11  37 vel  41 gap   +12 ms  pre  -53.5 post  -51.1 dip  -1.3  -                      Sus MAX
+Violins II        675.00 n1 cc11  43 vel  45 gap    +8 ms  pre  -45.6 post  -47.4 dip  -3.1  rep_rebows             Sus MAX
+Violins II        817.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -50.5 post  -42.1 dip   0.6  -                      Stac RRx9
+Violins II        823.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -51.8 post  -40.6 dip  -1.3  -                      Stac RRx9
+Violins II        827.00 n1 cc11 120 vel  87 gap  +114 ms  pre  -40.5 post  -45.0 dip   8.2  -                      Stac RRx9
+Violins II        852.00 n1 cc11  88 vel  80 gap    +5 ms  pre  -32.5 post  -33.9 dip   1.4  -                      Sus MAX
+Violins II        861.00 n1 cc11 120 vel  87 gap    +9 ms  pre  -40.2 post  -43.7 dip  -3.9  -                      Stac RRx9
+Violins II        892.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -51.8 post  -41.4 dip  -4.5  -                      Stac RRx9
+Violins II        913.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -33.1 post  -31.4 dip   1.1  -                      Stac RRx9
+Violins II        919.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -32.0 post  -27.7 dip   4.8  -                      Stac RRx9
+Violins II        925.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -33.6 post  -26.5 dip  -2.9  -                      Spiccato RRx9
+Violins II        931.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -32.8 post  -29.2 dip  -1.9  -                      Spiccato RRx9
+Violins II        940.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -33.7 post  -25.5 dip   0.2  -                      Spiccato RRx9
+Violins II        949.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -33.8 post  -26.1 dip  -3.8  -                      Spiccato RRx9
+Violins II        955.50 n1 cc11 120 vel  95 gap   +57 ms  pre  -32.1 post  -29.5 dip  -0.6  -                      Spiccato RRx9
+Violins II        979.00 n1 cc11 120 vel  45 gap  +104 ms  pre  -46.1 post  -52.8 dip   5.0  -                      Stac RRx9
+Violins II        979.50 n1 cc11 120 vel  45 gap   +52 ms  pre  -56.5 post  -53.6 dip   1.3  -                      Stac RRx9
+Violins II        980.00 n1 cc11 120 vel  45 gap   +52 ms  pre  -51.5 post  -51.5 dip   3.9  -                      Stac RRx9
+Violins II        985.50 n1 cc11 120 vel  79 gap   +52 ms  pre  -48.1 post  -43.0 dip   2.8  -                      Stac RRx9
+Violins II        988.50 n1 cc11 120 vel  84 gap   +52 ms  pre  -41.8 post  -39.1 dip   8.5  -                      Stac RRx9
+Violins II        991.50 n1 cc11 120 vel  88 gap   +52 ms  pre  -40.1 post  -38.7 dip   3.6  -                      Stac RRx9
+Violins II        994.50 n1 cc11 120 vel  93 gap   +52 ms  pre  -35.1 post  -34.6 dip   4.7  -                      Stac RRx9
+Violins II        997.50 n1 cc11 120 vel  95 gap   +52 ms  pre  -30.2 post  -29.5 dip   6.1  -                      Stac RRx9
+Violas             38.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -47.3 post  -46.3 dip   8.7  -                      Stac RRx9
+Violas             41.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -45.8 post  -45.5 dip  10.4  -                      Stac RRx9
+Violas             44.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -46.3 post  -49.1 dip   7.0  -                      Stac RRx9
+Violas             47.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -43.2 post  -46.0 dip   9.9  -                      Stac RRx9
+Violas             50.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -47.9 post  -46.2 dip   8.4  -                      Stac RRx9
+Violas             53.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -47.8 post  -49.3 dip   7.9  -                      Stac RRx9
+Violas             56.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -46.2 post  -49.1 dip   7.1  -                      Stac RRx9
+Violas             62.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -48.6 post  -53.9 dip   3.4  -                      Stac RRx9
+Violas             65.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -47.9 post  -46.4 dip   8.2  -                      Stac RRx9
+Violas             68.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -47.8 post  -49.5 dip   7.6  -                      Stac RRx9
+Violas             74.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -46.2 post  -51.3 dip   3.8  -                      Stac RRx9
+Violas             80.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -45.9 post  -45.5 dip  10.5  -                      Stac RRx9
+Violas             92.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -46.2 post  -49.0 dip   7.2  -                      Stac RRx9
+Violas             95.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -43.1 post  -46.1 dip   9.4  -                      Stac RRx9
+Violas            104.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -47.3 post  -44.0 dip   4.3  -                      Stac RRx9
+Violas            107.00 n1 cc11 120 vel  45 gap  +114 ms  pre  -43.7 post  -47.4 dip   7.0  -                      Stac RRx9
+Violas            110.00 n1 cc11 120 vel  49 gap  +114 ms  pre  -43.2 post  -44.9 dip   1.0  -                      Stac RRx9
+Violas            113.00 n1 cc11 120 vel  61 gap  +114 ms  pre  -46.3 post  -37.3 dip   2.9  -                      Stac RRx9
+Violas            116.00 n1 cc11 120 vel  72 gap  +114 ms  pre  -40.7 post  -41.6 dip   4.2  -                      Stac RRx9
+Violas            119.00 n1 cc11 120 vel  84 gap  +114 ms  pre  -38.6 post  -36.2 dip  11.9  -                      Stac RRx9
+Violas            121.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -45.3 post  -43.1 dip  -0.6  -                      Stac RRx9
+Violas            127.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -46.6 post  -39.0 dip   3.3  -                      Stac RRx9
+Violas            131.00 n1 cc11 120 vel  87 gap  +114 ms  pre  -46.8 post  -45.6 dip   6.3  -                      Stac RRx9
+Violas            156.00 n1 cc11 114 vel  96 gap   +90 ms  pre  -38.4 post  -37.9 dip   4.6  rep_strokes:stroke     Sus MAX
+Violas            157.00 n1 cc11 121 vel  96 gap   +68 ms  pre  -36.9 post  -39.7 dip   2.5  rep_strokes:stroke     Sus MAX
+Violas            158.00 n1 cc11 121 vel  91 gap    +1 ms  pre  -40.8 post  -40.2 dip   1.0  -                      Sus MAX
+Violas            159.00 n1 cc11 116 vel  91 gap   +14 ms  pre  -38.4 post  -39.2 dip   3.1  -                      Leg Slur MAX
+Violas            165.00 n1 cc11 120 vel  95 gap    +9 ms  pre  -34.9 post  -35.2 dip   3.5  -                      Stac RRx9
+Violas            181.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -54.0 post  -48.6 dip  -0.9  -                      Stac RRx9
+Violas            187.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -53.4 post  -47.8 dip  -0.8  -                      Stac RRx9
+Violas            206.00 n1 cc11 120 vel  87 gap  +114 ms  pre  -43.1 post  -46.0 dip   7.2  -                      Stac RRx9
+Violas            207.00 n1 cc11  91 vel 103 gap   +34 ms  pre  -52.1 post  -43.2 dip  -3.8  -                      Leg Slur MAX
+Violas            265.50 n1 cc11 120 vel  45 gap   +57 ms  pre  -46.3 post  -45.9 dip   4.6  -                      Stac RRx9
+Violas            314.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -30.9 post  -33.1 dip   2.4  -                      Staccatissimo RRx16
+Violas            320.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -33.2 post  -33.4 dip   3.0  -                      Staccatissimo RRx16
+Violas            323.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -30.9 post  -33.2 dip   3.0  -                      Staccatissimo RRx16
+Violas            326.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -31.6 post  -35.1 dip   1.5  -                      Staccatissimo RRx16
+Violas            332.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -32.1 post  -32.0 dip   6.8  -                      Staccatissimo RRx16
+Violas            335.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -31.3 post  -33.1 dip   3.5  -                      Staccatissimo RRx16
+Violas            338.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -32.3 post  -33.2 dip   1.8  -                      Staccatissimo RRx16
+Violas            341.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -30.9 post  -29.6 dip   5.9  -                      Staccatissimo RRx16
+Violas            344.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -32.6 post  -31.2 dip   5.9  -                      Staccatissimo RRx16
+Violas            350.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -34.7 post  -32.4 dip   5.5  -                      Staccatissimo RRx16
+Violas            356.00 n1 cc11 120 vel  95 gap  +114 ms  pre  -32.8 post  -33.9 dip   3.9  -                      Staccatissimo RRx16
+Violas            359.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -31.2 post  -33.1 dip   3.4  -                      Staccatissimo RRx16
+Violas            380.00 n1 cc11  70 vel  62 gap   +80 ms  pre  -46.7 post  -43.5 dip   3.6  rep_strokes:portato    Sus MAX
+Violas            384.00 n1 cc11  88 vel  80 gap   +90 ms  pre  -40.9 post  -36.6 dip   2.8  rep_strokes:stroke     Sus MAX
+Violas            385.00 n1 cc11  92 vel  80 gap   +68 ms  pre  -37.4 post  -43.1 dip   0.1  rep_strokes:stroke     Sus MAX
+Violas            386.00 n1 cc11  91 vel  83 gap    +1 ms  pre  -39.5 post  -37.9 dip   7.4  -                      Sus MAX
+Violas            393.00 n1 cc11 120 vel  87 gap    +9 ms  pre  -41.5 post  -40.8 dip   2.2  -                      Stac RRx9
+Violas            579.00 n1 cc11  52 vel  60 gap    +8 ms  pre  -55.5 post  -68.0 dip  -9.0  -                      Leg Slur MAX
+Violas            585.00 n1 cc11  71 vel  76 gap    +8 ms  pre  -51.9 post  -46.9 dip   4.8  -                      Leg Slur MAX
+Violas            615.00 n1 cc11  53 vel  45 gap   +80 ms  pre  -46.1 post  -37.5 dip   7.1  rep_strokes:portato    Sus MAX
+Violas            621.00 n1 cc11  69 vel  60 gap   +80 ms  pre  -46.6 post  -39.8 dip   2.1  rep_strokes:portato    Sus MAX
+Violas            625.00 n1 cc11  77 vel  73 gap  +193 ms  pre  -37.9 post  -46.3 dip   8.1  -                      Leg Slur MAX
+Violas            629.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -51.3 post  -44.1 dip  -1.8  rep_strokes:portato    Sus MAX
+Violas            634.00 n1 cc11  77 vel  73 gap  +143 ms  pre  -45.1 post  -50.3 dip   4.0  -                      Leg Slur MAX
+Violas            635.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -52.6 post  -44.1 dip  -2.7  rep_strokes:portato    Sus MAX
+Violas            638.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -51.4 post  -46.3 dip   5.4  rep_strokes:portato    Sus MAX
+Violas            641.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -52.5 post  -48.0 dip  -0.4  rep_strokes:portato    Sus MAX
+Violas            643.00 n1 cc11  77 vel  73 gap  +143 ms  pre  -46.6 post  -52.1 dip   3.5  -                      Leg Slur MAX
+Violas            644.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -52.1 post  -47.3 dip   0.2  rep_strokes:portato    Sus MAX
+Violas            647.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -52.2 post  -43.8 dip  -2.6  rep_strokes:portato    Sus MAX
+Violas            649.00 n1 cc11  77 vel  73 gap  +143 ms  pre  -44.1 post  -50.1 dip   6.3  -                      Leg Slur MAX
+Violas            650.00 n1 cc11  82 vel  70 gap   +79 ms  pre  -52.9 post  -46.7 dip   0.5  rep_strokes:portato    Sus MAX
+Violas            652.00 n1 cc11  89 vel  78 gap  +143 ms  pre  -44.5 post  -43.4 dip   8.9  -                      Leg Slur MAX
+Violas            653.00 n1 cc11  90 vel  78 gap   +79 ms  pre  -44.0 post  -42.6 dip   3.2  rep_strokes:portato    Sus MAX
+Violas            656.00 n1 cc11  92 vel  79 gap   +79 ms  pre  -44.8 post  -43.2 dip   0.6  rep_strokes:portato    Sus MAX
+Violas            659.00 n1 cc11  87 vel  75 gap   +79 ms  pre  -47.8 post  -43.9 dip   0.2  rep_strokes:portato    Sus MAX
+Violas            662.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -52.1 post  -44.1 dip  -2.3  rep_strokes:portato    Sus MAX
+Violas            665.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -51.3 post  -47.4 dip   5.3  rep_strokes:portato    Sus MAX
+Violas            668.00 n1 cc11  74 vel  64 gap   +79 ms  pre  -52.3 post  -51.1 dip   2.5  rep_strokes:portato    Sus MAX
+Violas            670.00 n1 cc11  67 vel  54 gap  +143 ms  pre  -47.4 post  -57.1 dip   7.5  -                      Leg Slur MAX
+Violas            671.00 n1 cc11  64 vel  59 gap   +79 ms  pre  -62.8 post  -54.4 dip  -7.1  rep_strokes:portato    Sus MAX
+Violas            675.00 n1 cc11  41 vel  45 gap    +8 ms  pre  -47.1 post  -53.5 dip  -5.2  rep_rebows             Sus MAX
+Violas            687.00 n1 cc11  40 vel  45 gap    +8 ms  pre  -47.2 post  -53.4 dip   1.6  rep_rebows             Sus MAX
+Violas            721.50 n1 cc11 120 vel  45 gap   +76 ms  pre  -48.9 post  -47.0 dip   2.8  -                      Stac RRx9
+Violas            817.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -49.1 post  -38.7 dip   1.1  -                      Stac RRx9
+Violas            823.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -47.0 post  -39.9 dip   3.3  -                      Stac RRx9
+Violas            827.00 n1 cc11 120 vel  87 gap  +114 ms  pre  -49.3 post  -46.8 dip   5.3  -                      Stac RRx9
+Violas            840.00 n1 cc11  34 vel  41 gap    +7 ms  pre  -48.9 post  -59.3 dip  -3.4  -                      Leg Slur MAX
+Violas            848.00 n1 cc11  64 vel  59 gap   +80 ms  pre  -46.2 post  -43.3 dip  10.1  rep_strokes:portato    Sus MAX
+Violas            852.00 n1 cc11  88 vel  80 gap   +90 ms  pre  -41.5 post  -36.6 dip   1.0  rep_strokes:stroke     Sus MAX
+Violas            853.00 n1 cc11  92 vel  80 gap   +68 ms  pre  -37.4 post  -43.1 dip   0.3  rep_strokes:stroke     Sus MAX
+Violas            854.00 n1 cc11  91 vel  83 gap    +1 ms  pre  -39.6 post  -37.9 dip   7.4  -                      Sus MAX
+Violas            861.00 n1 cc11 120 vel  87 gap    +9 ms  pre  -41.5 post  -43.2 dip  -0.1  -                      Stac RRx9
+Violas            877.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -54.1 post  -48.4 dip  -0.9  -                      Stac RRx9
+Violas            883.50 n1 cc11 120 vel  64 gap   +57 ms  pre  -52.9 post  -42.9 dip   1.2  -                      Stac RRx9
+Violas            890.00 n1 cc11 120 vel  87 gap  +114 ms  pre  -44.2 post  -45.3 dip  10.1  -                      Stac RRx9
+Violas            891.00 n1 cc11  86 vel 103 gap   +34 ms  pre  -54.6 post  -43.4 dip  -6.7  -                      Leg Slur MAX
+Violas            914.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -30.9 post  -33.1 dip   2.4  -                      Staccatissimo RRx16
+Violas            920.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -33.2 post  -33.3 dip   3.1  -                      Staccatissimo RRx16
+Violas            923.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -30.9 post  -33.2 dip   2.9  -                      Staccatissimo RRx16
+Violas            926.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -31.6 post  -35.2 dip   1.4  -                      Staccatissimo RRx16
+Violas            932.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -32.1 post  -32.1 dip   6.8  -                      Staccatissimo RRx16
+Violas            935.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -31.3 post  -33.1 dip   3.5  -                      Staccatissimo RRx16
+Violas            938.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -32.3 post  -33.2 dip   1.7  -                      Staccatissimo RRx16
+Violas            941.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -30.9 post  -29.6 dip   5.8  -                      Staccatissimo RRx16
+Violas            944.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -32.6 post  -31.2 dip   5.8  -                      Staccatissimo RRx16
+Violas            950.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -34.7 post  -32.4 dip   5.4  -                      Staccatissimo RRx16
+Violas            956.00 n1 cc11 120 vel  95 gap  +114 ms  pre  -32.8 post  -34.0 dip   4.1  -                      Staccatissimo RRx16
+Violas            959.00 n2 cc11 120 vel  95 gap  +114 ms  pre  -31.4 post  -33.6 dip   3.2  -                      Staccatissimo RRx16
+Violas            976.00 n1 cc11 120 vel  45 gap  +104 ms  pre  -46.8 post  -49.7 dip   6.0  -                      Stac RRx9
+Violas            976.50 n1 cc11 120 vel  45 gap   +52 ms  pre  -52.1 post  -50.3 dip   3.3  -                      Stac RRx9
+Violas            977.00 n1 cc11 120 vel  45 gap   +52 ms  pre  -52.0 post  -48.0 dip  -0.5  -                      Stac RRx9
+Violas            982.00 n1 cc11 120 vel  56 gap  +104 ms  pre  -47.1 post  -45.7 dip  10.9  -                      Staccatissimo RRx16
+Violas            982.50 n1 cc11 120 vel  61 gap   +52 ms  pre  -57.1 post  -45.0 dip  -4.8  -                      Staccatissimo RRx16
+Violas            983.00 n1 cc11 120 vel  67 gap   +52 ms  pre  -44.0 post  -44.9 dip   2.0  -                      Staccatissimo RRx16
+Violas            984.00 n1 cc11 120 vel  77 gap  +104 ms  pre  -45.8 post  -42.1 dip   5.6  -                      Staccatissimo RRx16
+Violas            985.50 n1 cc11 120 vel  79 gap   +52 ms  pre  -46.1 post  -42.3 dip  -0.7  -                      Staccatissimo RRx16
+Violas            988.50 n1 cc11 120 vel  84 gap   +52 ms  pre  -47.0 post  -40.7 dip   1.5  -                      Staccatissimo RRx16
+Violas            991.50 n1 cc11 120 vel  88 gap   +52 ms  pre  -42.8 post  -36.5 dip   1.7  -                      Staccatissimo RRx16
+Violas            994.50 n1 cc11 120 vel  93 gap   +52 ms  pre  -44.5 post  -30.5 dip  -1.4  -                      Staccatissimo RRx16
+Violas            997.50 n1 cc11 120 vel  95 gap   +52 ms  pre  -35.8 post  -32.7 dip   0.2  -                      Staccatissimo RRx16
+Violas           1041.00 n1 cc11  28 vel  38 gap    +8 ms  pre  -52.9 post  -57.6 dip   1.1  rep_rebows             Sus MAX
+Violas           1047.00 n1 cc11  28 vel  38 gap    +8 ms  pre  -50.9 post  -62.6 dip  -2.8  rep_rebows             Sus MAX
+Violas           1050.00 n1 cc11  28 vel  38 gap    +8 ms  pre  -52.2 post  -58.9 dip  -1.8  rep_rebows             Sus MAX
+Violas           1053.00 n1 cc11  28 vel  38 gap    +8 ms  pre  -56.4 post  -55.9 dip  -4.2  rep_rebows             Sus MAX
+Violas           1080.00 n1 cc11  38 vel  45 gap    +9 ms  pre  -44.3 post  -45.0 dip   4.3  rep_rebows             Sus MAX
+Violoncellos       91.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -55.1 post  -43.9 dip   4.3  -                      Stac RRx9
+Violoncellos      103.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -53.8 post  -53.5 dip   4.1  -                      Stac RRx9
+Violoncellos      106.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -60.6 post  -43.5 dip  -6.2  -                      Stac RRx9
+Violoncellos      156.00 n1 cc11 114 vel  96 gap    +5 ms  pre  -35.5 post  -35.2 dip   1.6  -                      Sus MAX
+Violoncellos      169.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -54.3 post  -45.9 dip  -2.7  -                      Stac RRx9
+Violoncellos      175.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -52.5 post  -43.2 dip  -3.3  -                      Stac RRx9
+Violoncellos      192.00 n1 cc11  37 vel  41 gap    +7 ms  pre  -49.8 post  -55.0 dip  -2.2  -                      Leg Slur MAX
+Violoncellos      206.00 n1 cc11 120 vel  87 gap  +114 ms  pre  -38.3 post  -46.4 dip   4.9  -                      Stac RRx9
+Violoncellos      211.50 n1 cc11 120 vel  89 gap   +57 ms  pre  -45.2 post  -38.0 dip   1.5  -                      Stac RRx9
+Violoncellos      302.00 n1 cc11  97 vel  86 gap   +90 ms  pre  -31.9 post  -34.8 dip   4.5  rep_sus_gaps           Sus MAX
+Violoncellos      304.00 n1 cc11 106 vel  91 gap   +90 ms  pre  -29.7 post  -30.1 dip   7.2  rep_sus_gaps           Sus MAX
+Violoncellos      306.00 n1 cc11 109 vel  93 gap   +90 ms  pre  -30.4 post  -28.0 dip  -0.0  rep_sus_gaps           Sus MAX
+Violoncellos      308.00 n1 cc11 111 vel  94 gap   +90 ms  pre  -29.1 post  -26.3 dip   7.7  rep_sus_gaps           Sus MAX
+Violoncellos      310.00 n1 cc11 114 vel  96 gap   +90 ms  pre  -28.6 post  -27.8 dip   4.3  rep_sus_gaps           Sus MAX
+Violoncellos      393.00 n1 cc11 120 vel  87 gap    +9 ms  pre  -36.9 post  -41.1 dip  -2.7  -                      Stac RRx9
+Violoncellos      397.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -49.8 post  -34.6 dip  -6.0  -                      Stac RRx9
+Violoncellos      579.00 n1 cc11  55 vel  55 gap    +8 ms  pre  -41.8 post  -47.7 dip  -3.8  rep_rebows             Sus MAX
+Violoncellos      603.00 n1 cc11  59 vel  52 gap    +8 ms  pre  -41.0 post  -43.6 dip   0.3  rep_rebows             Sus MAX
+Violoncellos      609.00 n1 cc11  45 vel  50 gap    +8 ms  pre  -46.4 post  -51.5 dip  -1.5  rep_rebows             Sus MAX
+Violoncellos      612.00 n1 cc11  42 vel  45 gap    +9 ms  pre  -49.4 post  -51.3 dip   7.9  rep_rebows             Sus MAX
+Violoncellos      615.00 n1 cc11  56 vel  45 gap   +80 ms  pre  -44.3 post  -41.8 dip   2.1  rep_strokes:portato    Sus MAX
+Violoncellos      618.00 n1 cc11  41 vel  45 gap    +8 ms  pre  -38.7 post  -44.6 dip  10.7  rep_rebows             Sus MAX
+Violoncellos      621.00 n1 cc11  70 vel  61 gap   +80 ms  pre  -39.9 post  -42.3 dip   2.3  rep_strokes:portato    Sus MAX
+Violoncellos      624.00 n1 cc11  74 vel  66 gap   +90 ms  pre  -35.6 post  -44.9 dip  -0.5  rep_strokes:stroke     Sus MAX
+Violoncellos      666.00 n1 cc11  74 vel  66 gap   +90 ms  pre  -35.3 post  -43.5 dip   3.6  rep_strokes:stroke     Sus MAX
+Violoncellos      852.00 n1 cc11  88 vel  80 gap    +7 ms  pre  -44.1 post  -45.7 dip   1.0  -                      Sus MAX
+Violoncellos      861.00 n1 cc11 120 vel  57 gap    +9 ms  pre  -37.8 post  -41.5 dip   1.1  -                      Stac RRx9
+Violoncellos      865.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -54.5 post  -46.1 dip  -2.9  -                      Stac RRx9
+Violoncellos      871.50 n1 cc11 120 vel  57 gap   +57 ms  pre  -52.4 post  -43.4 dip  -3.2  -                      Stac RRx9
+Violoncellos      890.00 n1 cc11 120 vel  87 gap  +114 ms  pre  -43.5 post  -45.3 dip   9.3  -                      Stac RRx9
+Violoncellos      895.50 n1 cc11 120 vel  89 gap   +57 ms  pre  -46.1 post  -37.8 dip   1.1  -                      Stac RRx9
+Violoncellos      902.00 n1 cc11  85 vel 105 gap    +5 ms  pre  -25.9 post  -30.6 dip  10.9  -                      Sus MAX
+Violoncellos      904.00 n1 cc11  94 vel  83 gap   +90 ms  pre  -33.7 post  -29.7 dip   7.5  rep_sus_gaps           Sus MAX
+Violoncellos      908.00 n1 cc11 107 vel  92 gap   +90 ms  pre  -28.0 post  -28.3 dip   1.9  rep_sus_gaps           Sus MAX
+Violoncellos      910.00 n1 cc11 114 vel  96 gap   +90 ms  pre  -29.4 post  -28.2 dip  -0.4  rep_sus_gaps           Sus MAX
+Violoncellos      961.50 n1 cc11 120 vel  87 gap   +57 ms  pre  -50.0 post  -34.8 dip  -6.0  -                      Stac RRx9
+Violoncellos      967.50 n1 cc11 120 vel  68 gap   +57 ms  pre  -52.0 post  -40.5 dip  -8.8  -                      Stac RRx9
+Violoncellos      973.50 n1 cc11 120 vel  45 gap   +52 ms  pre  -48.0 post  -44.1 dip   2.1  -                      Stac RRx9
+Violoncellos      979.50 n1 cc11 120 vel  45 gap   +52 ms  pre  -48.0 post  -45.7 dip  -0.5  -                      Stac RRx9
+Violoncellos      981.00 n1 cc11 120 vel  45 gap  +104 ms  pre  -44.6 post  -42.7 dip   7.8  -                      Stac RRx9
+Violoncellos      982.50 n1 cc11 120 vel  61 gap   +52 ms  pre  -49.5 post  -41.1 dip  -3.5  -                      Stac RRx9
+Violoncellos      984.00 n1 cc11 120 vel  77 gap  +104 ms  pre  -39.6 post  -33.0 dip  -0.6  -                      Stac RRx9
+Violoncellos      985.50 n1 cc11 120 vel  79 gap   +52 ms  pre  -39.4 post  -35.3 dip   2.6  -                      Stac RRx9
+Violoncellos      988.50 n1 cc11 120 vel  84 gap   +52 ms  pre  -37.0 post  -31.7 dip   4.4  -                      Stac RRx9
+Violoncellos      990.00 n1 cc11 120 vel  86 gap  +104 ms  pre  -32.7 post  -29.0 dip   9.7  -                      Stac RRx9
+Violoncellos      991.50 n1 cc11 120 vel  88 gap   +52 ms  pre  -37.7 post  -33.5 dip   3.7  -                      Stac RRx9
+Violoncellos      994.50 n1 cc11 120 vel  93 gap   +52 ms  pre  -30.7 post  -27.2 dip   4.0  -                      Stac RRx9
+Violoncellos      997.50 n1 cc11 120 vel  95 gap   +52 ms  pre  -36.1 post  -30.8 dip   1.6  -                      Stac RRx9
+Violoncellos     1008.00 n1 cc11 126 vel  96 gap   +90 ms  pre  -27.0 post  -25.9 dip   8.6  rep_sus_gaps           Sus MAX
+Violoncellos     1010.00 n1 cc11 126 vel  96 gap   +90 ms  pre  -28.6 post  -22.4 dip   0.9  rep_sus_gaps           Sus MAX
+Violoncellos     1012.00 n1 cc11 126 vel  96 gap   +90 ms  pre  -23.8 post  -25.8 dip   8.1  rep_sus_gaps           Sus MAX
+Violoncellos     1074.00 n1 cc11  40 vel  45 gap    +8 ms  pre  -51.2 post  -50.1 dip  -1.8  rep_rebows             Sus MAX
+Violoncellos     1077.00 n1 cc11  41 vel  45 gap    +8 ms  pre  -52.1 post  -48.6 dip  -3.3  rep_rebows             Sus MAX
+Violoncellos     1080.00 n1 cc11  42 vel  45 gap    +9 ms  pre  -49.8 post  -51.5 dip  -1.2  rep_rebows             Sus MAX
+Double basses     165.00 n1 cc11 120 vel  95 gap    +7 ms  pre  -29.2 post  -29.2 dip   2.4  -                      Staccato RRx9
+Double basses     195.00 n1 cc11  35 vel  41 gap    +7 ms  pre  -48.2 post  -56.7 dip  -3.5  -                      Sus MAX
+Double basses     302.00 n1 cc11  97 vel 105 gap   +90 ms  pre  -34.5 post  -36.5 dip   8.5  rep_sus_gaps           Sus MAX
+Double basses     304.00 n1 cc11 106 vel 106 gap   +90 ms  pre  -33.9 post  -30.0 dip  10.6  rep_sus_gaps           Sus MAX
+Double basses     306.00 n1 cc11 109 vel 108 gap   +90 ms  pre  -27.9 post  -33.2 dip   7.0  rep_sus_gaps           Sus MAX
+Double basses     308.00 n1 cc11 111 vel 109 gap   +90 ms  pre  -30.0 post  -28.6 dip   7.4  rep_sus_gaps           Sus MAX
+Double basses     310.00 n1 cc11 114 vel 111 gap   +90 ms  pre  -26.9 post  -34.4 dip   2.5  rep_sus_gaps           Sus MAX
+Double basses     393.00 n1 cc11 120 vel  87 gap    +7 ms  pre  -39.5 post  -40.5 dip  -1.5  -                      Staccato RRx9
+Double basses     579.00 n1 cc11  52 vel  60 gap    +8 ms  pre  -46.2 post  -48.5 dip   2.3  -                      Sus MAX
+Double basses     603.00 n1 cc11  57 vel  53 gap    +8 ms  pre  -37.0 post  -44.7 dip   0.4  -                      Sus MAX
+Double basses     609.00 n1 cc11  39 vel  47 gap    +8 ms  pre  -46.7 post  -59.7 dip  -4.2  -                      Sus MAX
+Double basses     642.00 n1 cc11  82 vel  73 gap    +8 ms  pre  -38.9 post  -62.0 dip -17.2  -                      Leg Slur MAX
+Double basses     663.00 n1 cc11  77 vel  73 gap   +90 ms  pre  -40.6 post  -43.9 dip   7.8  rep_sus_gaps           Sus MAX
+Double basses     861.00 n1 cc11 120 vel  87 gap    +7 ms  pre  -39.4 post  -40.5 dip  -1.5  -                      Staccato RRx9
+Double basses     902.00 n1 cc11  63 vel  80 gap    +5 ms  pre  -28.3 post  -42.3 dip   2.1  -                      Sus MAX
+Double basses     904.00 n1 cc11  94 vel  88 gap   +90 ms  pre  -39.7 post  -30.4 dip   8.0  rep_sus_gaps           Sus MAX
+Double basses     908.00 n1 cc11 107 vel 103 gap   +90 ms  pre  -34.7 post  -28.5 dip   5.4  rep_sus_gaps           Sus MAX
+Double basses     910.00 n1 cc11 114 vel 111 gap   +90 ms  pre  -26.4 post  -34.5 dip   2.0  rep_sus_gaps           Sus MAX
+Double basses     999.00 n1 cc11 111 vel  91 gap   +90 ms  pre  -33.3 post  -34.8 dip   8.4  rep_sus_gaps           Sus MAX
+Double basses    1005.00 n1 cc11 124 vel 127 gap   +90 ms  pre  -29.3 post  -31.3 dip   4.2  rep_sus_gaps           Sus MAX
+Double basses    1008.00 n1 cc11 125 vel 127 gap   +90 ms  pre  -24.1 post  -27.3 dip   6.0  rep_sus_gaps           Sus MAX
+Double basses    1010.00 n1 cc11 125 vel 127 gap   +90 ms  pre  -26.4 post  -30.4 dip   1.7  rep_sus_gaps           Sus MAX
+Double basses    1012.00 n1 cc11 126 vel 127 gap   +90 ms  pre  -29.1 post  -27.3 dip   3.3  rep_sus_gaps           Sus MAX
+Double basses    1074.00 n1 cc11  46 vel  41 gap    +8 ms  pre  -51.3 post  -54.0 dip   1.2  -                      Sus MAX
+Double basses    1077.00 n1 cc11  47 vel  41 gap    +8 ms  pre  -47.9 post  -53.3 dip  -2.7  -                      Sus MAX
+Double basses    1080.00 n1 cc11  48 vel  41 gap    +9 ms  pre  -50.3 post  -53.2 dip   0.2  -                      Sus MAX
+Violas div        626.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -50.9 post  -42.5 dip   0.1  rep_strokes:portato    Sus MAX
+Violas div        628.00 n1 cc11  77 vel  73 gap  +143 ms  pre  -45.8 post  -52.5 dip   9.3  -                      Leg Slur MAX
+Violas div        629.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -53.0 post  -44.1 dip   0.3  rep_strokes:portato    Sus MAX
+Violas div        632.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -50.9 post  -48.2 dip   5.4  rep_strokes:portato    Sus MAX
+Violas div        638.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -49.2 post  -43.2 dip   1.6  rep_strokes:portato    Sus MAX
+Violas div        641.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -42.3 post  -45.0 dip   7.0  rep_strokes:portato    Sus MAX
+Violas div        643.00 n1 cc11  77 vel  73 gap  +143 ms  pre  -47.6 post  -42.7 dip  22.4  -                      Leg Slur MAX
+Violas div        644.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -42.3 post  -42.2 dip   9.6  rep_strokes:portato    Sus MAX
+Violas div        647.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -50.9 post  -48.1 dip   5.4  rep_strokes:portato    Sus MAX
+Violas div        650.00 n1 cc11  82 vel  70 gap   +79 ms  pre  -55.8 post  -42.4 dip  -0.1  rep_strokes:portato    Sus MAX
+Violas div        652.00 n1 cc11  89 vel  78 gap  +143 ms  pre  -44.1 post  -49.2 dip   8.5  -                      Leg Slur MAX
+Violas div        653.00 n1 cc11  90 vel  78 gap   +79 ms  pre  -49.9 post  -37.2 dip   0.3  rep_strokes:portato    Sus MAX
+Violas div        655.00 n1 cc11  93 vel  83 gap  +143 ms  pre  -38.5 post  -47.1 dip   8.7  -                      Leg Slur MAX
+Violas div        656.00 n1 cc11  92 vel  79 gap   +79 ms  pre  -47.7 post  -36.5 dip   0.6  rep_strokes:portato    Sus MAX
+Violas div        658.00 n1 cc11  89 vel  78 gap  +143 ms  pre  -40.4 post  -50.9 dip   7.6  -                      Leg Slur MAX
+Violas div        659.00 n1 cc11  87 vel  75 gap   +79 ms  pre  -51.3 post  -40.5 dip   0.7  rep_strokes:portato    Sus MAX
+Violas div        661.00 n1 cc11  77 vel  73 gap  +143 ms  pre  -44.5 post  -55.7 dip   9.2  -                      Leg Slur MAX
+Violas div        662.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -56.0 post  -47.2 dip   0.6  rep_strokes:portato    Sus MAX
+Violas div        665.00 n1 cc11  77 vel  66 gap   +79 ms  pre  -45.3 post  -45.3 dip   9.8  rep_strokes:portato    Sus MAX
+Violas div        668.00 n1 cc11  74 vel  64 gap   +79 ms  pre  -55.9 post  -52.2 dip   0.9  rep_strokes:portato    Sus MAX
+Violas div        670.00 n1 cc11  67 vel  54 gap  +143 ms  pre  -54.0 post  -59.9 dip   6.2  -                      Leg Slur MAX
+Violas div        671.00 n1 cc11  64 vel  59 gap   +79 ms  pre  -62.2 post  -58.2 dip  -2.8  rep_strokes:portato    Sus MAX
+('-', 'loud') n 239 median dip 2.2 min -17.2 under 3 dB: 135
+('-', 'soft') n 18 median dip -0.2 min -9.0 under 3 dB: 17
+('rep_rebows', 'soft') n 16 median dip -1.6 min -5.2 under 3 dB: 13
+('rep_strokes:portato', 'loud') n 33 median dip 0.6 min -7.1 under 3 dB: 23
+('rep_strokes:portato', 'soft') n 2 median dip 4.6 min 2.1 under 3 dB: 1
+('rep_strokes:stroke', 'loud') n 8 median dip 1.8 min -0.5 under 3 dB: 6
+('rep_sus_gaps', 'loud') n 25 median dip 6.0 min -0.4 under 3 dB: 7

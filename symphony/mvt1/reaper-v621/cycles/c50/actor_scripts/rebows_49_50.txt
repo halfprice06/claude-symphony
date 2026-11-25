@@ -1,0 +1,12 @@
+== c49
+Violins I      n=  6  automatic/frozen dips median  2.8 dB  printed (c44) dips median  nan (n=0)  |step| median 0.5, >=3 dB: 1
+Violins II     n= 20  automatic/frozen dips median  1.7 dB  printed (c44) dips median  4.1 (n=7)  |step| median 1.0, >=3 dB: 1
+Violas         n= 21  automatic/frozen dips median  2.1 dB  printed (c44) dips median  3.4 (n=10)  |step| median 1.1, >=3 dB: 1
+Violoncellos   n= 27  automatic/frozen dips median  1.3 dB  printed (c44) dips median  3.9 (n=7)  |step| median 0.8, >=3 dB: 3
+Double basses  n= 28  automatic/frozen dips median  2.0 dB  printed (c44) dips median  nan (n=0)  |step| median 1.1, >=3 dB: 7
+== c50
+Violins I      n=  6  automatic/frozen dips median  2.7 dB  printed (c44) dips median  nan (n=0)  |step| median 0.3, >=3 dB: 1
+Violins II     n= 20  automatic/frozen dips median  2.0 dB  printed (c44) dips median  3.6 (n=7)  |step| median 0.9, >=3 dB: 1
+Violas         n= 21  automatic/frozen dips median  1.7 dB  printed (c44) dips median  3.2 (n=10)  |step| median 1.4, >=3 dB: 1
+Violoncellos   n= 27  automatic/frozen dips median  1.6 dB  printed (c44) dips median  3.3 (n=7)  |step| median 0.9, >=3 dB: 1
+Double basses  n= 28  automatic/frozen dips median  2.1 dB  printed (c44) dips median  nan (n=0)  |step| median 1.5, >=3 dB: 9

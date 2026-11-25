@@ -1,0 +1,34 @@
+share (%) of summed side energy by stem, bands 56-90 | 90-180 | 180-355 | 355-710 (whole file); stems >= 4 % anywhere
+  31_Violoncellos          0.7  18.8  30.4   9.1
+  32_Double_basses        94.9  27.5   9.4   0.7
+  94_R_Perc                0.9  14.2   7.0   1.4
+  22_Tuba                  0.9  10.5   6.9   4.7
+  11_Contrabassoon         0.3   6.3   7.6   3.9
+  23_Timpani               0.7  15.3   2.0   1.5
+  91_R_Strings             0.3   3.9   5.9   4.5
+  30_Violas                0.0   0.0   6.2   4.8
+  93_R_Winds               0.0   0.4   4.9   4.3
+  29_Violins_II            0.0   0.0   1.9  12.7
+  14_Horn_3                0.0   0.0   1.8   4.2
+  33_Horns_a2              0.0   0.0   1.8   8.3
+  28_Violins_I             0.1   0.0   0.0   8.0
+  master side / summed stems side (dB):  0.04 -0.22 -0.09  0.14
+
+per-note R-L (dB) on the note body: n, median, SD, range;  per-note side/mid median
+  Flute 1        n 153  R-L median  -4.6 SD  1.6 range  -8.1.. +1.5 | per-pitch SD  1.1 | s/m  -8.9
+  Flute 2        n  73  R-L median  -3.5 SD  2.2 range -10.5.. +3.1 | per-pitch SD  1.5 | s/m  -7.1
+  Oboe 1         n 147  R-L median  +5.0 SD  0.5 range  +3.9.. +6.3 | per-pitch SD  0.4 | s/m -10.7
+  Oboe 2         n  84  R-L median  +6.6 SD  0.5 range  +5.6.. +7.6 | per-pitch SD  0.4 | s/m  -8.7
+  Cor anglais    n  67  R-L median  +4.7 SD  1.1 range  +2.5.. +7.5 | per-pitch SD  0.9 | s/m  -9.0
+  Clarinet 1     n 226  R-L median  -3.1 SD  1.8 range  -9.7.. +0.6 | per-pitch SD  2.0 | s/m  -9.0
+  Clarinet 2     n  51  R-L median  -6.8 SD  4.0 range -12.1.. +4.5 | per-pitch SD  3.9 | s/m  -4.6
+  Bass clarinet  n  79  R-L median  -4.4 SD  1.2 range  -6.9.. -1.0 | per-pitch SD  1.6 | s/m  -9.5
+  Bassoon 1      n 162  R-L median  +2.3 SD  1.2 range  -1.9.. +5.2 | per-pitch SD  1.1 | s/m -12.6
+  Bassoon 2      n 112  R-L median  +3.5 SD  1.0 range  +0.9.. +6.4 | per-pitch SD  1.0 | s/m -10.4
+  Contrabassoon  n  98  R-L median  +6.8 SD  2.3 range  +2.8..+11.4 | per-pitch SD  2.0 | s/m  -2.5
+  Horn 1         n 109  R-L median  -4.9 SD  2.4 range -14.2.. +2.8 | per-pitch SD  2.7 | s/m  -6.1
+  Trumpet 1      n  66  R-L median  +3.5 SD  1.9 range  -1.7.. +8.8 | per-pitch SD  1.6 | s/m  -8.3
+  Trumpet 2      n  47  R-L median  +4.0 SD  2.0 range  -1.5.. +7.0 | per-pitch SD  1.8 | s/m  -7.0
+  Trumpets a2    n  15  R-L median  +3.0 SD  0.9 range  +1.4.. +5.4 | per-pitch SD  1.2 | s/m  -9.4
+  Tuba           n  51  R-L median  +7.1 SD  1.1 range  +5.2..+10.0 | per-pitch SD  1.1 | s/m  -4.9
+  Cello solo     n  12  R-L median  +6.0 SD  0.1 range  +5.8.. +6.1 | per-pitch SD  0.1 | s/m  -9.6

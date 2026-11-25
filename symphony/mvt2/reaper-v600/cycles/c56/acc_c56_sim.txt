@@ -1,0 +1,70 @@
+join holes >= 6 dB: 379 -> 377   (>= 9: 125 -> 130);  join peaks >= 3 dB: 200 -> 204 (>= 6: 34 -> 38);  soft starts: 302 -> 305;  dips >= 3 dB in unmarked long notes: 217 -> 218
+holes / peaks / soft starts per section: 1-6 5->5 / 6->7 / 9->9; 7-14 21->21 / 4->8 / 6->6; 15-22 20->20 / 11->10 / 22->22; 23-30 36->37 / 16->14 / 35->37; 31-36 6->5 / 0->0 / 5->5; 37-44 67->65 / 66->65 / 26->26; 45-52 28->27 / 12->12 / 34->34; 53-60 45->45 / 26->26 / 50->50; 61-64 22->24 / 11->11 / 14->15; 65-70 5->4 / 4->4 / 2->3; 71-78 52->52 / 24->25 / 45->44; 79-82 41->42 / 11->11 / 15->15; 83-92 31->30 / 9->11 / 39->39
+lines (median step dB, old -> new; * worse by more than 0.4):
+    Horn 1 theme bars 7-14                   n  22  step  2.19 ->  2.34   from the score onset  3.00 ->  1.73   front-tail  -1.7 ->  -1.8
+    Oboe 1 bars 15-22                        n  11  step  2.92 ->  2.92   from the score onset  3.76 ->  3.48   front-tail  -3.8 ->  -3.8
+    Violin I solo bars 17-22                 n  11  step  1.62 ->  1.65   from the score onset  1.88 ->  1.91   front-tail   4.0 ->   4.0
+    Violins I theme bars 22-30               n  24  step  2.19 ->  2.11   from the score onset  2.97 ->  2.94   front-tail  -1.9 ->  -1.9
+    Violins II theme bars 22-30              n  24  step  1.14 ->  1.21   from the score onset  2.62 ->  2.62   front-tail  -2.4 ->  -2.4
+    Violoncellos counter-melody 23-30        n  18  step  4.28 ->  3.99   from the score onset  2.14 ->  2.11   front-tail  -4.6 ->  -4.6
+    Violas div bars 23-30                    n  11  step  5.51 ->  5.51   from the score onset  4.24 ->  4.36   front-tail   0.7 ->   0.6
+  + Double basses bars 23-30                 n  14  step  4.36 ->  3.80   from the score onset  5.38 ->  5.36   front-tail  -1.3 ->  -1.5
+    Bass clarinet solo 31-36                 n  12  step  1.79 ->  1.59   from the score onset  2.87 ->  1.06   front-tail  -0.1 ->  -0.0
+    Flute 1 theme B 37-44                    n  30  step  3.66 ->  3.50   from the score onset  4.87 ->  4.05   front-tail  -3.6 ->  -3.6
+    Cor anglais 41-44                        n  14  step  1.88 ->  1.88   from the score onset  1.55 ->  1.55   front-tail  -3.5 ->  -3.5
+    Oboe 1 45-47                             n   9  step  0.95 ->  0.95   from the score onset  0.87 ->  0.88   front-tail  -3.9 ->  -3.9
+    Violoncellos 45-47                       n   9  step  3.55 ->  3.55   from the score onset  2.61 ->  2.61   front-tail  -1.0 ->  -1.0
+    Cor anglais quotation 47-50              n   6  step  1.28 ->  1.27   from the score onset  1.66 ->  1.50   front-tail  -4.2 ->  -4.2
+    Violas pizz triplets 37-44               n  87  step  2.16 ->  2.01   from the score onset  2.36 ->  2.33   front-tail   nan ->   nan
+    Double basses pizz 37-44                 n  21  step  1.90 ->  1.90   from the score onset  1.90 ->  1.90   front-tail  30.1 ->  30.1
+    Harp 37-44                               n  17  step  1.30 ->  1.30   from the score onset  1.30 ->  1.30   front-tail   7.7 ->   7.7
+    Violas portato 48-51                     n  15  step  1.42 ->  1.42   front-tail   nan ->   nan
+    Violins I 53-60                          n  30  step  1.19 ->  1.08   from the score onset  1.73 ->  1.57   front-tail  -3.2 ->  -3.2
+    Violins II 53-60                         n  30  step  1.73 ->  1.72   from the score onset  1.66 ->  1.66   front-tail  -2.6 ->  -2.6
+  * Horn 1 53-60                             n  19  step  2.85 ->  3.69   from the score onset  2.54 ->  3.49   front-tail   1.1 ->   0.9
+    Violoncellos 53-60                       n  19  step  2.31 ->  2.22   from the score onset  1.18 ->  1.18   front-tail  -3.5 ->  -3.5
+  * Double basses 53-60                      n  11  step  3.37 ->  5.04   from the score onset  4.60 ->  4.73   front-tail  -6.3 ->  -6.2
+    Bassoon 1 53-60                          n  10  step  1.85 ->  1.85   from the score onset  2.08 ->  2.08   front-tail  -0.8 ->  -0.8
+  * Violins I tutti 61-64                    n   6  step  2.09 ->  3.34   from the score onset  2.45 ->  5.87   front-tail  -0.6 ->   0.1
+    Violins II 61-64                         n   8  step  2.82 ->  2.58   from the score onset  2.83 ->  4.18   front-tail  -3.0 ->  -2.7
+  * Violas 61-64                             n   6  step  1.28 ->  1.90   from the score onset  2.01 ->  2.57   front-tail   2.5 ->   1.5
+  * Violoncellos 61-64                       n   9  step  3.19 ->  4.40   from the score onset  3.63 ->  4.18   front-tail   0.6 ->   0.5
+    Double basses 61-64                      n   7  step  2.84 ->  2.52   from the score onset  2.45 ->  2.80   front-tail  -0.8 ->  -0.5
+    Trombone 1 quotation 63-64               n  10  step  1.55 ->  1.55   from the score onset  1.80 ->  1.80   front-tail   9.4 ->   8.6
+  + Horn 1 65-70                             n   5  step  3.21 ->  2.49   from the score onset  3.43 ->  0.75   front-tail  -1.1 ->  -1.1
+    Violins I A' 71-78                       n  26  step  1.80 ->  1.80   from the score onset  2.12 ->  2.12   front-tail  -2.6 ->  -2.6
+    Violins II 71-78                         n  26  step  1.81 ->  1.81   from the score onset  2.32 ->  2.27   front-tail  -4.6 ->  -4.6
+    Violoncellos counter-melody 71-78        n  18  step  1.85 ->  1.87   from the score onset  2.01 ->  2.10   front-tail  -6.4 ->  -6.1
+    Bassoon 1 71-78                          n   9  step  4.52 ->  4.67   from the score onset  5.84 ->  5.84   front-tail  -5.3 ->  -5.3
+  * Double basses 71-78                      n  15  step  3.78 ->  5.09   from the score onset  3.58 ->  3.35   front-tail  -1.7 ->  -1.7
+    Violins I 79-82                          n   9  step  1.26 ->  1.36   from the score onset  3.41 ->  3.43   front-tail  -0.7 ->  -0.7
+    Violins II 79-82                         n   9  step  1.10 ->  1.00   from the score onset  3.28 ->  3.18   front-tail  -1.3 ->  -1.3
+  + Flute 1 79-82                            n   8  step  4.96 ->  3.34   from the score onset  4.93 ->  2.61   front-tail   4.9 ->   5.2
+    Violoncellos 79-82                       n   7  step  2.80 ->  2.80   from the score onset  1.30 ->  1.27   front-tail   0.6 ->   0.6
+    Horns 1-2 a2 79-82                       n   7  step  1.62 ->  1.62   from the score onset  1.95 ->  1.95   front-tail   3.8 ->   3.6
+    Clarinet 1 coda 85-89                    n   4  step  2.40 ->  2.40   from the score onset  2.36 ->  3.15   front-tail  -4.0 ->  -3.3
+  + Double basses coda                       n  12  step  2.37 ->  1.32   from the score onset  1.95 ->  1.32   front-tail  -2.1 ->  -2.3
+  * Violas div coda                          n  10  step  5.11 ->  5.88   from the score onset  4.93 ->  5.23   front-tail  -4.5 ->  -4.5
+balance cells: 171; moved 0.5 dB or more 30, 1 dB or more 10, 2 dB or more 4
+    Timpani 83-92                 -61.2 ->  -54.8 (+6.4)
+    Violins I 1-6                 -51.8 ->  -54.8 (-3.0)
+    Violins I 83-92               -54.4 ->  -57.4 (-3.0)
+    Violins II 83-92              -57.4 ->  -59.8 (-2.4)
+    Double basses 53-60           -33.1 ->  -34.9 (-1.8)
+    Clarinet 1 83-92              -47.7 ->  -46.0 (+1.7)
+    Double basses 61-64           -25.6 ->  -27.1 (-1.5)
+    Double basses 79-82           -29.6 ->  -30.9 (-1.3)
+    Violoncellos 83-92            -53.4 ->  -54.5 (-1.1)
+    Cor anglais 45-52             -42.6 ->  -43.6 (-1.0)
+    Double basses 1-6             -52.4 ->  -53.4 (-1.0)
+    Contrabassoon 53-60           -67.6 ->  -68.6 (-1.0)
+    Oboe 2 53-60                  -66.1 ->  -67.0 (-0.9)
+    Double basses 71-78           -36.2 ->  -37.1 (-0.8)
+    Double basses 83-92           -50.8 ->  -51.5 (-0.8)
+same-pitch repeats whose dip got 1 dB or more shallower (S1): Flute 1 136: 8.4 -> 6.1; Violins II 212: 2.1 -> 0.9; Violas div 291.7: 8.0 -> 6.7
+join peaks of 4 dB or more that rose by 1.5 dB or more: Clarinet 1 283: 2.3 -> 5.4; Bass clarinet 21: 4.2 -> 7.7; Horn 1 17.5: 2.8 -> 5.8; Horn 1 26: 2.6 -> 4.9; Horn 1 29.5: 1.7 -> 4.7; Horn 1 35: 0.2 -> 4.1; Violins II 212: 3.9 -> 9.2; Violas 126: 4.4 -> 6.4; Violas 127: 0.0 -> 4.5; Violas 132: 2.0 -> 7.0; Violas 135: -0.8 -> 5.1; Violas 136: 1.9 -> 8.8; Violas 137: 0.7 -> 5.7; Violas 137.333: 2.2 -> 4.7; Violas 220: 3.6 -> 5.6; Double basses 246: 0.0 -> 5.0; Double basses 286: 3.8 -> 7.2
+join holes of 6 dB or more that deepened by 2 dB or more: Bass clarinet 92: 10.7 -> 12.7; Horn 1 22: 6.5 -> 8.5; Horn 1 31.5: 3.9 -> 6.1; Horn 1 192: 7.3 -> 10.1; Violins I 216: 4.4 -> 9.1; Violins II 216: 5.6 -> 9.7; Violas 127: 10.5 -> 14.0; Violas 129: 9.9 -> 14.7; Violas 130: 16.6 -> 20.1; Violas 132: 11.4 -> 13.8; Violas 133: 6.9 -> 9.2; Violas 134.333: 11.1 -> 14.4; Violas 136: 9.6 -> 13.4; Violas 137: 15.3 -> 17.8; Violas 216: 6.4 -> 9.1; Violoncellos 216: 9.6 -> 11.6; Violoncellos 292: 5.2 -> 8.0; Double basses 164: 5.1 -> 7.6; Double basses 194: 6.0 -> 8.5; Double basses 200: 11.8 -> 14.6; Double basses 250: 11.1 -> 13.5
+solo margins: Horn 1 7-14 +8.7 -> +8.5; Bass clarinet 31-36 +5.6 -> +5.6; Flute 1 37-44 -2.3 -> -2.9; Oboe 1 45-52 -6.5 -> -6.1; Horn 1 53-60 -7.3 -> -6.4; Horn 1 65-70 +4.2 -> +4.2; Clarinet 1 85-89 -0.3 -> +1.8
+master per section (dB): 1-6 -40.7 -> -40.9 (-0.20); 7-14 -37.1 -> -37.2 (-0.14); 15-22 -38.6 -> -38.6 (-0.00); 23-30 -32.6 -> -32.7 (-0.09); 31-36 -38.0 -> -38.0 (-0.05); 37-44 -36.3 -> -36.4 (-0.13); 45-52 -37.0 -> -37.3 (-0.34); 53-60 -23.0 -> -23.1 (-0.06); 61-64 -16.6 -> -17.1 (-0.49); 65-70 -39.5 -> -39.4 (+0.07); 71-78 -28.0 -> -28.1 (-0.19); 79-82 -21.7 -> -21.9 (-0.19); 83-92 -42.6 -> -42.3 (+0.34)
+master bars moved 0.7 dB or more: 1 -1.1, 8 -1.1, 10 +1.6, 11 -1.4, 14 +2.2, 30 -2.2, 32 +1.0, 33 +0.9, 35 -2.0, 44 -2.5, 48 -2.3, 51 -0.9, 57 +0.9, 61 -0.9, 63 +1.1, 67 +0.8, 68 -1.2, 69 +0.8, 71 -0.9, 82 -2.0, 83 -1.1, 84 +1.4, 86 +0.8, 87 +2.0, 88 +2.6, 91 -1.3, 92 -1.3
+ACCEPTANCE: soft starts rose; line Horn 1 53-60 2.85 -> 3.69; line Double basses 53-60 3.37 -> 5.04; line Violins I tutti 61-64 2.09 -> 3.34; line Violas 61-64 1.28 -> 1.90; line Violoncellos 61-64 3.19 -> 4.40; line Double basses 71-78 3.78 -> 5.09; line Violas div coda 5.11 -> 5.88

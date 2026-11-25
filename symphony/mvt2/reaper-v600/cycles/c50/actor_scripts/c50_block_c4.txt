@@ -1,0 +1,8 @@
+# c50 critic C #4 (conditional; both thresholds still failed on the range renders after the rebuild). Violins II bars 74-75:
+# the c42 shape ended at the top note's onset (254), so the top of the unison crescendo was level with the note before it
+# and 6.6 dB under Violins I: the shape now holds through the top note. Violoncellos bars 72-73: the line peaked at
+# 245.0-245.5, one beat before the printed peak at 246
+assert [(252.25, 0.0), (252.5, 4.0), (253.55, 4.0), (253.78, 0.0)] in LEVEL_SHAPES["Violins II"]
+LEVEL_SHAPES["Violins II"] = [s_ if s_ != [(252.25, 0.0), (252.5, 4.0), (253.55, 4.0), (253.78, 0.0)]
+                              else [(252.25, 0.0), (252.5, 4.0), (254.5, 4.0), (254.79, 0.0)] for s_ in LEVEL_SHAPES["Violins II"]]
+LEVEL_SHAPES["Violoncellos"] = LEVEL_SHAPES["Violoncellos"] + [[(244.6, 0.0), (245.0, -1.5), (245.55, -1.5), (245.75, 4.0), (246.6, 4.0), (247.8, 0.0)]]

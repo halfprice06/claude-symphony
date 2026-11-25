@@ -1,0 +1,2 @@
+cycles/c53/render: gap 81 ms; Clarinet 1 -43.2 -> -52.5 dB (dip 9.3); master -41.4 -> -49.3 dB (dip 7.9); note at 289 -45.1 dB
+cycles/c54/render: gap 46 ms; Clarinet 1 -43.2 -> -46.5 dB (dip 3.3); master -41.0 -> -46.6 dB (dip 5.6); note at 289 -44.9 dB

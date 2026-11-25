@@ -1,0 +1,30 @@
+## Delivered mp3 (tools/deliver_master.py)
+
+master EQ (mix.json master_eq): highpass 42.0 Hz bw 2.0; bell 167.0 Hz -1.6 dB bw 1.39; bell 1180.0 Hz -1.9 dB bw 1.39; highshelf 8008.0 Hz +0.8 dB bw 1.39
+ride trims 299.6-312.4 qn: -1.50..+0.00 dB
+ride trims 894.0-912.4 qn: -0.50..+0.00 dB
+ride trims 212.5-216.3 qn: -1.50..+0.00 dB
+ride trims 576.0-602.0 qn: -2.00..+0.00 dB
+ride trims 624.0-649.0 qn: -1.00..+0.00 dB
+ride trims 659.0-672.0 qn: -2.00..+0.00 dB
+ride trims 167.5-204.0 qn: +0.00..+0.50 dB
+ride trims 863.5-888.0 qn: +0.00..+0.50 dB
+ride trims 211.5-217.0 qn: -1.50..+0.00 dB
+ride trims 895.5-900.0 qn: -2.00..+0.00 dB
+ride trims 911.0-961.0 qn: -1.00..+0.00 dB
+ride trims 625.0-673.0 qn: -2.00..+0.00 dB
+ride trims 990.0-1005.1 qn: -4.50..+0.00 dB
+ride trims 1015.3-1019.8 qn: -6.00..+0.00 dB
+ride trims 154.0-166.0 qn: -1.50..+0.00 dB
+ride trims 83.5-116.0 qn: +0.00..+2.00 dB
+pre-limiter peaks (s, dBFS): 241.93 +1.91, 240.73 +1.75, 241.43 +1.52, 242.53 +1.43, 74.03 +0.15
+limiter per passage (max dB): summit 336-339 3.3; tutti 105-120 1.6; tutti 305-320 1.2; bar 72 1.4; bar 300 1.2; final chord 375-376 0.1; whole file 3.3
+room bed: -60.0 LUFS integrated (pink, first-order fall above 2500 Hz, fourth-order low cut 84 Hz, seeds (6201, 6202, 6203))
+loudness pass 1: I -14.0 LUFS (gain +17.50 dB), shortfall +0.00 LU
+short-term p10 -20.4 LUFS, max -8.0
+delivered: I -14.0 LUFS, LRA 10.6 LU, TP -1.4 dBTP; ride max +10.0 dB, min -6.7 dB; limiter about 3.3 dB on the loudest sample peak; p10-to-max short-term span 12.4 dB; length 279.75 s (tail 1.00 s after the last window above -65 dBFS)
+
+## Loudness motion (tools/motion.py)
+
+00_Master.wav: dS4 p90 13.38 dB, motion 1s/20s 6.78 dB
+scherzo-mockup-c27.mp3: dS4 p90 8.11 dB, motion 1s/20s 4.59 dB

@@ -1,0 +1,47 @@
+Flute 1           212.000 Sus MAX        -> Leg Slur MAX  lead    0 ms  S 36
+Bass clarinet      21.000 Sus Non Vib    -> Leg Slur      lead    0 ms  S -66
+Bassoon 1         198.000 Sus MAX        -> Leg Slur MAX  lead  150 ms  S 58
+Bassoon 1         261.000 Sus MAX        -> Leg Slur MAX  lead  120 ms  S 165
+Bassoon 1         271.000 Sus MAX        -> Leg Slur MAX  lead    0 ms  S 17
+Horn 1            198.000 Sus MAX        -> Leg Slur MAX  lead    0 ms  S 46
+Horn 3            267.000 Sus MAX        -> Leg Slur MAX  lead  120 ms  S 69
+Horn 4            268.000 Sus MAX        -> Leg Slur MAX  lead   50 ms  S -21
+Trombone 1        217.000 Sus MAX        -> Leg Slur MAX  lead   50 ms  S 14
+Violins I          82.000 Leg Slur MAX   -> Leg Port MAX  lead  210 ms  S 0
+Violins I          83.000 Leg Port MAX   -> Leg Slur MAX  lead  240 ms  S 1
+Violins I         172.000 Leg Slur MAX   -> Leg Port MAX  lead  240 ms  S -4
+Violins I         174.000 Leg Port MAX   -> Leg Slur MAX  lead  195 ms  S 3
+Violins I         208.000 Sus MAX        -> Leg Slur MAX  lead  210 ms  S -2
+Violins I         262.000 Sus MAX        -> Leg Slur MAX  lead  190 ms  S 2
+Violins I         266.000 Sus MAX        -> Leg Slur MAX  lead  170 ms  S 19
+Violins II         47.000 Sus MAX        -> Leg Slur MAX  lead  240 ms  S 16
+Violins II         53.000 Sus MAX        -> Leg Slur MAX  lead  290 ms  S 4
+Violins II         82.000 Leg Slur MAX   -> Leg Port MAX  lead  255 ms  S -1
+Violins II         83.000 Leg Port MAX   -> Leg Slur MAX  lead  255 ms  S -2
+Violins II        146.000 Sus MAX        -> Leg Slur MAX  lead  305 ms  S -1
+Violins II        152.000 Sus MAX        -> Leg Slur MAX  lead  350 ms  S -6
+Violins II        168.000 Sus MAX        -> Leg Slur MAX  lead  310 ms  S 2
+Violins II        172.000 Leg Slur MAX   -> Leg Port MAX  lead  315 ms  S -13
+Violins II        174.000 Leg Port MAX   -> Leg Slur MAX  lead  270 ms  S -8
+Violins II        218.000 Tremolo        -> Leg Slur MAX  lead  250 ms  S 31
+Violins II        262.000 Sus MAX        -> Leg Slur MAX  lead  150 ms  S 79
+Violins II        266.000 Sus MAX        -> Leg Slur MAX  lead  270 ms  S 2
+Violas             70.000 Sus MAX        -> Leg Slur MAX  lead  295 ms  S -5
+Violas             72.000 Sus MAX        -> Leg Slur MAX  lead  265 ms  S 11
+Violas             83.000 Sus MAX        -> Leg Slur MAX  lead  120 ms  S 74
+Violas            218.000 Tremolo        -> Leg Slur MAX  lead  120 ms  S 53
+Violas            249.000 Sus MAX        -> Leg Slur MAX  lead  260 ms  S 4
+Violas            253.500 Sus MAX        -> Leg Slur MAX  lead  225 ms  S 21
+Violas            266.000 Sus MAX        -> Leg Slur MAX  lead  150 ms  S 9
+Violas            269.000 Sus MAX        -> Leg Slur MAX  lead    0 ms  S -86
+Violas            286.000 Sus MAX        -> Leg Slur MAX  lead  250 ms  S 8
+Violoncellos       68.000 Sus MAX        -> Leg Slur MAX  lead  350 ms  S -65
+Violoncellos      129.000 Sus MAX        -> Leg Slur MAX  lead  220 ms  S 18
+Violoncellos      156.000 Sus MAX        -> Leg Slur MAX  lead  335 ms  S 6
+Violoncellos      168.000 Sus MAX        -> Leg Slur MAX  lead  220 ms  S -5
+Violoncellos      218.000 Tremolo        -> Leg Slur MAX  lead    0 ms  S 59
+Double basses     146.000 Sus MAX        -> Leg Slur MAX  lead  170 ms  S -10
+Violas div         71.000 Sus MAX        -> Leg Slur MAX  lead  200 ms  S 29
+Violas div        283.000 Sus MAX        -> Leg Slur MAX  lead  200 ms  S -5
+Horns 1-2 a2      271.000 Sus MAX        -> Leg Slur MAX  lead    0 ms  S -43
+46 legato-row notes after a note on another row; 7 with no lead: [('Flute 1', 212.0), ('Bass clarinet', 21.0), ('Bassoon 1', 271.0), ('Horn 1', 198.0), ('Violas', 269.0), ('Violoncellos', 218.0), ('Horns 1-2 a2', 271.0)]

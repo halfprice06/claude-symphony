@@ -1,0 +1,16 @@
+== c26 Flute 1
+Flute 1: pairs 15, A median +8.5, under +3 4, under -6..: worst -3.9
+== c26 Flute 2
+Flute 2: pairs 12, A median +12.5, under +3 4, under -6..: worst -6.9
+== c26 Oboe 1
+Oboe 1: pairs 14, A median +17.6, under +3 0, under -6..: worst +10.6
+== c26 Clarinet 2
+Clarinet 2: pairs 13, A median +18.9, under +3 0, under -6..: worst +6.1
+== c27 Flute 1
+Flute 1: pairs 15, A median +9.3, under +3 4, under -6..: worst -3.9
+== c27 Flute 2
+Flute 2: pairs 12, A median +12.3, under +3 4, under -6..: worst -3.2
+== c27 Oboe 1
+Oboe 1: pairs 14, A median +16.5, under +3 0, under -6..: worst +10.6
+== c27 Clarinet 2
+Clarinet 2: pairs 13, A median +22.0, under +3 0, under -6..: worst +6.3

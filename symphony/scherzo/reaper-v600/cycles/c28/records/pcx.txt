@@ -1,0 +1,4 @@
+Violoncellos   joins 200  pcX median   +29 ms  robust SD   46 ms  >60 ms off  23%  window median   72 ms
+Violins I      joins  97  pcX median    +9 ms  robust SD   24 ms  >60 ms off   7%  window median   68 ms
+Violins II     joins 104  pcX median    +6 ms  robust SD   33 ms  >60 ms off   8%  window median   90 ms
+Violin I solo  joins  18  pcX median    +4 ms  robust SD   29 ms  >60 ms off  11%  window median   61 ms

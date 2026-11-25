@@ -1,0 +1,77 @@
+== reps c44
+  Violins I       60.00 portato  stem dip/rise   3.6 /  15.4   master   3.1 /  14.7   body-prev   11.4   rel   -2.3
+  Violins I      108.00 portato  stem dip/rise   1.5 /   6.1   master   6.7 /   9.7   body-prev    1.5   rel  -11.5
+  Violins I      140.00 portato  stem dip/rise   2.7 /   8.8   master   3.5 /   4.3   body-prev    4.7   rel   -7.4
+  Violins I      572.00 portato  stem dip/rise  -0.4 /  10.0   master  -0.4 /   8.9   body-prev    3.9   rel   -3.6
+  Violins II     108.00 portato  stem dip/rise   5.2 /   7.5   master   5.8 /   8.1   body-prev    1.4   rel   -9.3
+  Violins II     176.00 soft     stem dip/rise   2.3 /   2.7   master   3.5 /   3.5   body-prev   -3.8   rel  -11.3
+  Violins II     188.00 soft     stem dip/rise   0.6 /   2.7   master   2.8 /   5.1   body-prev   -0.4   rel  -14.7
+  Violins II     192.00 soft     stem dip/rise   7.9 /   8.7   master  -0.9 /   6.7   body-prev   -1.8   rel  -22.3
+  Violins II     208.00 soft     stem dip/rise   1.9 /   3.0   master   0.9 /   3.9   body-prev   -2.1   rel  -16.8
+  Violins II     292.00 soft     stem dip/rise   1.5 /   2.9   master   2.3 /   1.6   body-prev    0.3   rel  -11.5
+  Violins II     576.00 soft     stem dip/rise   2.3 /   5.8   master   2.1 /  11.5   body-prev   -5.3   rel  -19.7
+  Violins II     580.00 soft     stem dip/rise   6.6 /  11.0   master   0.1 /   1.2   body-prev   -2.7   rel  -30.1
+  Violas          32.00 soft     stem dip/rise   3.2 /   5.9   master   3.7 /   3.6   body-prev    1.8   rel  -11.1
+  Violas          36.00 soft     stem dip/rise   5.3 /   6.5   master   2.9 /   3.1   body-prev    2.6   rel  -11.8
+  Violas          40.00 soft     stem dip/rise   4.1 /   7.0   master   1.8 /   3.5   body-prev    2.0   rel  -10.7
+  Violas          52.00 soft     stem dip/rise   3.8 /   4.1   master   0.6 /   2.0   body-prev   -1.4   rel  -18.2
+  Violas          80.00 stroke   stem dip/rise   7.5 /   8.8   master   6.0 /   6.7   body-prev    0.4   rel   -4.1
+  Violas         108.00 portato  stem dip/rise   8.7 /  10.1   master   5.1 /   7.1   body-prev    1.0   rel  -14.3
+  Violas         136.00 portato  stem dip/rise  11.9 /  11.7   master   6.8 /   7.0   body-prev   -0.3   rel   -8.9
+  Violas         292.00 soft     stem dip/rise   3.4 /   5.2   master   1.1 /   6.5   body-prev    0.5   rel   -8.3
+  Violas         296.00 soft     stem dip/rise   5.4 /   6.4   master  -3.7 /   4.4   body-prev   -1.5   rel  -12.5
+  Violas         372.00 stroke   stem dip/rise   8.6 /   9.4   master   4.2 /  10.0   body-prev    3.9   rel  -11.0
+  Violas         500.00 stroke   stem dip/rise  -0.5 /  10.4   master  -0.1 /   3.4   body-prev    2.0   rel  -11.5
+  Violas         537.00 susgap   stem dip/rise   6.5 /   9.3   master   0.6 /   3.0   body-prev    1.2   rel  -16.5
+  Violas         538.00 susgap   stem dip/rise   2.7 /   4.9   master   1.4 /   3.2   body-prev    1.2   rel  -15.1
+  Violas         540.00 susgap   stem dip/rise  10.5 /  10.2   master   1.4 /   4.1   body-prev   -0.8   rel  -17.0
+  Violas         541.00 susgap   stem dip/rise   5.0 /   6.3   master  -0.2 /   4.9   body-prev   -1.4   rel  -18.6
+  Violas         543.00 susgap   stem dip/rise   8.3 /   7.5   master   2.8 /   2.5   body-prev   -3.0   rel  -17.1
+  Violas         544.00 susgap   stem dip/rise   2.2 /   5.5   master   0.3 /   8.1   body-prev    2.1   rel  -14.8
+  Violas         546.00 susgap   stem dip/rise   9.4 /   9.7   master   5.0 /   4.0   body-prev   -2.5   rel  -14.6
+  Violas         547.00 susgap   stem dip/rise   6.4 /  11.1   master   0.5 /   3.1   body-prev    1.9   rel  -14.7
+  Violas         576.00 soft     stem dip/rise   3.0 /   4.1   master   2.3 /   5.0   body-prev   -4.0   rel  -13.7
+  Violas         580.00 soft     stem dip/rise   6.2 /  12.6   master   1.7 /   4.0   body-prev    4.0   rel  -23.1
+  Violas         668.00 portato  stem dip/rise   8.9 /  10.4   master   3.8 /   7.4   body-prev    1.1   rel   -7.8
+  Violas         688.00 soft     stem dip/rise   4.7 /   6.3   master   0.6 /   4.7   body-prev   -4.0   rel  -19.1
+  Violas         700.00 soft     stem dip/rise   3.6 /   5.2   master   5.6 /  13.0   body-prev    0.3   rel  -12.7
+  Violoncellos    32.00 soft     stem dip/rise   4.4 /   5.0   master   3.1 /   5.6   body-prev   -0.4   rel  -14.0
+  Violoncellos    40.00 soft     stem dip/rise   5.6 /   9.7   master   4.8 /   6.7   body-prev    3.0   rel   -7.2
+  Violoncellos    47.00 stroke   stem dip/rise   7.8 /   5.4   master   4.5 /   5.4   body-prev    0.7   rel  -14.0
+  Violoncellos    52.00 soft     stem dip/rise   6.9 /   9.1   master  -0.4 /   2.9   body-prev   -1.4   rel  -17.9
+  Violoncellos    84.00 stroke   stem dip/rise   7.9 /  11.3   master   4.4 /   5.6   body-prev   -4.5   rel  -15.2
+  Violoncellos    88.00 stroke   stem dip/rise   9.1 /  11.2   master   8.4 /  11.8   body-prev   -0.6   rel  -15.0
+  Violoncellos   152.00 stroke   stem dip/rise   9.0 /  10.4   master   5.6 /   5.8   body-prev    7.2   rel   -9.5
+  Violoncellos   156.00 stroke   stem dip/rise  11.1 /  12.6   master   7.5 /   9.3   body-prev    3.8   rel   -9.0
+  Violoncellos   164.00 stroke   stem dip/rise   4.4 /   8.9   master   4.7 /   7.1   body-prev  -10.4   rel  -21.3
+  Violoncellos   168.00 soft     stem dip/rise   2.9 /   3.7   master   3.2 /  10.8   body-prev   -2.6   rel  -19.6
+  Violoncellos   172.00 soft     stem dip/rise   3.6 /   4.1   master   3.1 /   3.8   body-prev    0.1   rel  -13.9
+  Violoncellos   176.00 soft     stem dip/rise   4.0 /  10.7   master  -1.7 /   1.7   body-prev   -0.5   rel  -21.5
+  Violoncellos   180.00 soft     stem dip/rise   4.2 /   8.8   master   5.4 /   5.7   body-prev    2.7   rel  -14.0
+  Violoncellos   314.00 portato  stem dip/rise   4.8 /   8.4   master   1.9 /   4.9   body-prev    4.6   rel  -11.8
+  Violoncellos   326.00 stroke   stem dip/rise   3.3 /   6.8   master   0.9 /   3.9   body-prev   -3.0   rel  -11.1
+  Violoncellos   374.00 stroke   stem dip/rise   8.4 /   7.8   master   5.7 /   6.0   body-prev   -2.4   rel  -18.3
+  Violoncellos   448.00 stroke   stem dip/rise   8.3 /   9.8   master   6.0 /   8.1   body-prev    1.6   rel  -20.5
+  Violoncellos   456.00 stroke   stem dip/rise   6.6 /   6.4   master   3.5 /   6.6   body-prev    6.9   rel  -19.9
+  Violoncellos   524.00 portato  stem dip/rise   6.0 /   8.6   master   2.9 /   5.2   body-prev    1.1   rel   -9.6
+  Violoncellos   656.00 stroke   stem dip/rise   7.4 /  10.1   master   2.9 /   3.4   body-prev   -0.5   rel   -8.8
+  Violoncellos   668.00 stroke   stem dip/rise   6.2 /   7.8   master   4.3 /   4.4   body-prev   -1.1   rel  -17.0
+  Double basses  125.00 susgap   stem dip/rise   4.9 /  11.8   master   5.8 /  11.6   body-prev   -9.0   rel  -14.7
+  Double basses  156.00 susgap   stem dip/rise   8.4 /   8.7   master   4.1 /   5.4   body-prev    1.3   rel  -15.0
+  Double basses  388.00 susgap   stem dip/rise   4.1 /   4.0   master   4.0 /  11.2   body-prev   -4.3   rel  -16.4
+  Double basses  404.00 susgap   stem dip/rise   6.6 /   7.4   master   2.7 /   7.2   body-prev   -3.5   rel  -20.9
+  Double basses  537.00 susgap   stem dip/rise  10.4 /  15.6   master   1.7 /   4.3   body-prev    3.6   rel  -10.7
+  Double basses  538.00 susgap   stem dip/rise   6.5 /   6.6   master   0.7 /   4.6   body-prev   -6.4   rel  -17.4
+  Double basses  540.00 susgap   stem dip/rise   4.4 /   3.7   master   3.0 /   3.7   body-prev   -3.9   rel  -16.4
+  Double basses  541.00 susgap   stem dip/rise   8.2 /   8.3   master   0.3 /   3.3   body-prev    3.4   rel  -16.6
+  Double basses  543.00 susgap   stem dip/rise  10.3 /  17.5   master   3.2 /   4.1   body-prev    5.1   rel  -10.7
+  Double basses  544.00 susgap   stem dip/rise   4.8 /   4.0   master   0.9 /   3.8   body-prev   -7.3   rel  -18.0
+  Double basses  546.00 susgap   stem dip/rise   6.0 /   6.1   master   3.0 /   3.2   body-prev   -3.7   rel  -15.9
+  Double basses  548.00 susgap   stem dip/rise   8.1 /   5.6   master   2.9 /   9.3   body-prev    3.4   rel  -25.6
+  Double basses  570.00 susgap   stem dip/rise   5.1 /  13.8   master   0.9 /   3.0   body-prev    4.9   rel   -6.9
+  Double basses  632.00 susgap   stem dip/rise   3.9 /   5.3   master   1.9 /   3.4   body-prev    5.0   rel  -14.2
+  Double basses  676.00 susgap   stem dip/rise   2.0 /   6.3   master   0.2 /   5.9   body-prev   -0.5   rel  -10.8
+  median portato  n=10: stem dip 5.0 rise 9.4  master dip 3.6  body-prev 1.5
+  median stroke   n=15: stem dip 7.8 rise 9.4  master dip 4.5  body-prev 0.4
+  median soft     n=24: stem dip 3.9 rise 5.8  master dip 2.2  body-prev -0.4
+  median susgap   n=23: stem dip 6.4 rise 7.4  master dip 1.7  body-prev -0.5

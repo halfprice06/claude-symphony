@@ -1,0 +1,2443 @@
+{
+ "_doc": "Mix settings applied by tools/build_reaper.py. gain_db -> track volume; seat/width -> REAPER stereo pan mode (I_PANMODE 5, D_PAN, D_WIDTH); mics: Opus mic channels to load and their volumes (null = keep the patch's own); every other mic is unloaded; send: per-mic Reverb Send level; the Opus reverb on fx:0 of every patch is replaced by reverb.from_patch's at reverb.fx_volume. Opus sub-channel pans are set to 0. c02: dyn_trim_db {f, ff}: level trim in dB that is 0 at CC46 (p) and reaches f at CC88 and ff at CC114, read from the printed dynamic curve (dyn_curve), and soft_trim_db {ppp, pp} for every track except timpani; both go into the track volume envelope with parts.json vol_db, so CC11 keeps choosing the dynamic layer. c03: a track may carry its own soft_trim_db, which replaces the global one. c04: a track's eq is a ReaEQ after Opus (band lowshelf: ReaEQ band 1 low shelf; bell: band 2; unused bands at 0 dB and the high-pass band disabled), applied on rebuild and by --mix-only. c05: seat/width are written into Opus (every mic channel's panLeft = seat - width, panRight = seat + width; the reverb return fx:0 centred at full width) and the REAPER pan is centre/width 1 (C #3); the hall is EW's 'New Hollywood Hall 2.0' from 3BS Sus MAX (C #1); eq band 'highpass' enables ReaEQ band 4 as a high pass (C #2). c06: soft_trim_db has a p anchor (CC 46) as well as ppp/pp; global {ppp -2, pp 0, p +2} (B #3, LRA); per-track overrides for Cl1, Cl2, Bn1, Bn2, Cb, Vla (B #1, #2). c07 (B #2): ff trims moved from the reeds to the bass strings at the climaxes: Cb ff -1 -> +1, Cbn f/ff 2.5/1 -> 0.5/-2, Bn2 ff 3 -> 0, BCl ff -1 -> -3, Bn1 ff 1.5 -> -0.5. c08: Violoncellos dyn_trim_db f -3 -> -2, ff -4.5 -> -2.5 (C #6, tutti low-mid weight). c09: reverb.send_pre_fader (every mic channel's Reverb Send pre-fader, level = send x channel volume; C #2) and reverb.high_cut_hz 5500 (the hall's Bandpass high cut; C #4). Widths 0.3 for harp (seat -0.65), horns, BCl, CA, trombones, tuba; Vc/Cb 0.35 (C #3). eq: Vc bell 170 Hz +3 bw 1.5; Cb low shelf -7 -> -5, bell 150 +3 -> 160 +6; Vln I highshelf 5 kHz -4 (band 'highshelf' = ReaEQ band 3; C #1); highpass Harp 30, Tuba 25, BTbn 30 -> 40, Timp 45 (C #6). Harp harmonics gain -2 -> +3 (B #5; +6 measured -40..-42 at the qn 273 attacks, 10 dB over the ppp Vc/Cb). mute_eq {from_qn, bands} on Horns 3-4: a second ReaEQ whose Wet is automated 0 -> 1 at from_qn (con sord. emulation; A #4). c10: soft_trim_db global {ppp -2, pp 0, p +2} -> {ppp +1, pp +3, p +3.5} and the same +3/+3/+1.5 on every per-track override (B #1, C #1; the brief asks ppp/pp +2-4 and p +1-2 more in the mix). New track Violin I solo (A #1): 1st Violins KS Master DIV A (its patch has only the Close mic), seat -0.55, width 0.2, send 0.5 (no Main mic, so more hall), gain 6 -> -1 after the c10 render (the solo measured 12 dB over the Vln II accompaniment). c12 (C #4): Bass clarinet soft_trim_db {ppp 0, pp 1, p 3.5} (pp 2 dB under the global) and a high shelf 2.5 kHz -4 dB: its pp reed tone supplied 67% of the 2-6 kHz under the bar 7-14 horn solo. c13: main (Master) channel of every Opus state centred by apply_mix (the DIV A patches ship it panned: Vln I DIV A -0.74, Celli DIV A +0.33; C #1); Violin I solo seat -0.55 -> -0.4. Cb: low shelf 90 Hz -5 removed, bell 160 +6 -> +3, Close 0.4 -> 0.6, gain -7 -> -8 (C #3, fundamentals). BCl seat -0.25 -> -0.05 (C #4); Harp harmonics seat -0.35 -> -0.65 (C #5). New track Violoncellos div (A #1): Celli KS Master DIV A (Close only), seat 0.35, width 0.2, send 0.5, gain -2. Cb gets a 25 Hz high pass in place of the shelf (lowest note E1 41 Hz) so the sub-bass does not rise with the shelf removed. Violoncellos div gain -2 -> +4 after the c13 render (the answer measured 10-12 dB under the solo violin; target 3-6). c16 (C #1, B #6): a track's \"loud_eq\" {points: [[score qn, wet], ...], bands} adds a ReaEQ whose Wet follows the points linearly (0 elsewhere): Violoncellos and Double basses get a 150 Hz +4 dB bell (1 oct) at the two ff tutti (qn 199-215 and 257-270), and the basses also an 80 Hz -3 dB low shelf there (B #6: the Cb D flat 2 fundamental made a 69 Hz boom with a dip an octave up). The soft passages keep their spectrum. c17: reverb.impulse/true_stereo replace the shared hall's IR (C #1); tail_hold (default true, per track or global) holds the volume envelope through rests (C #2). c20 (critic C #2): side_shelf {hz, db} = a low shelf on the side channel only (JS M/S encoder, ReaEQ on channel 2, JS M/S decoder, after the other FX; build_reaper.py, applied by --midi-only and --mix-only): Cb, Vc, Tuba, BTbn, Cbn, Timp 200 Hz -6 dB (the true-stereo hall decorrelated the bass: master <250 Hz corr 0.43 against Brahms 0.60); Harp and Harp harmonics width 0.12 -> 0.3 (state change) and 300 Hz -8 dB (harp 120-250 Hz corr -0.42, mono-sum loss 4.8 dB). c25 (C #1): eq band 'bell2' = ReaEQ band 2 as a second bell. Double basses: static bell2 80 Hz -6 dB 1 oct (the C2-G2 fundamentals sat level with harmonics 2-4 while E1-B flat 1 sat 12-30 dB under), the 160 Hz bell +3 -> +4.5, the bars 37-44 pizz loud_eq (90 Hz shelf -5) removed, the climax loud_eq low shelf 100 Hz -6 -> -3. c29 (critic C #2, #3, #4, #5; A #6): wind group send 0.35 -> 0.6 and Violin I solo 0.5 -> 0.8 (wind notes' room 5.5-7 dB weaker than the strings'); width 0.05 on Fl1/Fl2/Ob1/Ob2/CA/Cl1/Cl2/Bn1/Bn2 (movement I c25/c35: solo images jumped 5-10 dB note to note); Violins II div highshelf 1.5 kHz -6 (11 dB brighter than its own section, Close-only DIV mic); Violoncellos side highshelf 1.5 kHz +4 (nearly mono above 1 kHz, movement I c29); Harp env_release_ms 200 with HARP_RING_S 2.0 (the 3 s release stood, so the bar 83 etouffez damped nothing; movement I c11).",
+ "reverb": {
+  "from_patch": "/Volumes/MAC DRIVE/EW Hollywood Orchestral Woodwinds Diamond/Hollywood Orch Woodwinds Opus Instruments/3 Bassoons/01 Long/3BS Sus MAX.oib",
+  "fx_volume": 0.095,
+  "wet": 2.0,
+  "send_pre_fader": true,
+  "high_cut_hz": 5500,
+  "low_cut_hz": 160,
+  "ir_setup": {
+   "envelopeMode": 2,
+   "endPos": 0.7,
+   "decayLength": 0.7,
+   "_doc": "c40 (ONE_TIME, coordinator): IR envelope (mvt1 c44 used 0.5; this movement's late decay was already 1.17 s)"
+  },
+  "impulse": "//ir/HOP True Stereo/S. Cal Hall Perc TS FR 3.3s",
+  "true_stereo": true,
+  "opus_off": true,
+  "_c44": "EW template (loop/ONE_TIME.md c44, plan item 2): Opus's hall off on every track (sends 0, fx:0 volume 0, ConvolutionReverb removed); fx_volume, ir_setup and the low/high cuts are unused while opus_off is true"
+ },
+ "groups": {
+  "wind": {
+   "mics": {
+    "Close": 0.5,
+    "Main": 0.8
+   },
+   "send": 0.6,
+   "width": 0.5,
+   "return": [
+    {
+     "to": "R Winds",
+     "db": -8.36
+    }
+   ],
+   "family_eq": [
+    {
+     "type": "bell",
+     "hz": 447.0,
+     "db": -5.1,
+     "bw": 0.89
+    },
+    {
+     "type": "bell",
+     "hz": 1000.0,
+     "db": -3.1,
+     "bw": 0.89
+    },
+    {
+     "type": "bell",
+     "hz": 2200.0,
+     "db": -4.7,
+     "bw": 1.7
+    },
+    {
+     "type": "hshelf",
+     "hz": 7590.0,
+     "db": 5.1,
+     "bw": 2.0
+    }
+   ]
+  },
+  "horn": {
+   "mics": {
+    "Close": 0.48,
+    "Main": 1.0
+   },
+   "send": 0.5,
+   "width": 0.3,
+   "return": [
+    {
+     "to": "R Brass",
+     "db": -8.77
+    }
+   ],
+   "family_eq": [
+    {
+     "type": "hp",
+     "hz": 41.0,
+     "db": 0.0,
+     "bw": 2.0
+    },
+    {
+     "type": "bell",
+     "hz": 475.0,
+     "db": -2.7,
+     "bw": 1.92
+    },
+    {
+     "type": "bell",
+     "hz": 821.0,
+     "db": -3.9,
+     "bw": 1.92
+    },
+    {
+     "type": "bell",
+     "hz": 3200.0,
+     "db": -3.0,
+     "bw": 1.0
+    },
+    {
+     "type": "hshelf",
+     "hz": 7490.0,
+     "db": 2.0,
+     "bw": 1.92
+    }
+   ],
+   "track_width": 0.8
+  },
+  "lowbrass": {
+   "mics": {
+    "Close": 0.34,
+    "Main": 1.0
+   },
+   "send": 0.45,
+   "width": 0.5,
+   "return": [
+    {
+     "to": "R Brass",
+     "db": -8.77
+    }
+   ],
+   "family_eq": [
+    {
+     "type": "hp",
+     "hz": 41.0,
+     "db": 0.0,
+     "bw": 2.0
+    },
+    {
+     "type": "bell",
+     "hz": 475.0,
+     "db": -2.7,
+     "bw": 1.92
+    },
+    {
+     "type": "bell",
+     "hz": 821.0,
+     "db": -3.9,
+     "bw": 1.92
+    },
+    {
+     "type": "bell",
+     "hz": 3200.0,
+     "db": -3.0,
+     "bw": 1.0
+    },
+    {
+     "type": "hshelf",
+     "hz": 7490.0,
+     "db": 2.0,
+     "bw": 1.92
+    }
+   ]
+  },
+  "timp": {
+   "mics": {
+    "Close": 0.2,
+    "Main": 0.5
+   },
+   "send": 0.45,
+   "width": 0.6,
+   "return": [
+    {
+     "to": "R Perc",
+     "db": -6.41
+    }
+   ],
+   "family_eq": [
+    {
+     "type": "hp",
+     "hz": 44.0,
+     "db": 0.0,
+     "bw": 1.142
+    },
+    {
+     "type": "bell",
+     "hz": 385.0,
+     "db": -6.0,
+     "bw": 2.54
+    },
+    {
+     "type": "hshelf",
+     "hz": 6960.0,
+     "db": 4.5,
+     "bw": 1.39
+    }
+   ]
+  },
+  "harp": {
+   "mics": {
+    "Close": 1.0,
+    "Main": 0.355
+   },
+   "send": 0.3,
+   "width": 0.3,
+   "return": [
+    {
+     "to": "R Perc",
+     "db": -8.77
+    }
+   ],
+   "family_eq": [
+    {
+     "type": "hp",
+     "hz": 80.0,
+     "db": 0.0,
+     "bw": 2.0
+    },
+    {
+     "type": "bell",
+     "hz": 304.0,
+     "db": -8.3,
+     "bw": 1.39
+    },
+    {
+     "type": "bell",
+     "hz": 1270.0,
+     "db": -8.6,
+     "bw": 0.62
+    },
+    {
+     "type": "hshelf",
+     "hz": 7680.0,
+     "db": 8.0,
+     "bw": 1.39
+    }
+   ]
+  },
+  "string": {
+   "mics": {
+    "Close": 0.5,
+    "Main": 1.0
+   },
+   "send": 0.25,
+   "width": 0.5,
+   "return": [
+    {
+     "to": "R Strings",
+     "db": -5.56
+    }
+   ],
+   "family_eq": [
+    {
+     "type": "hp",
+     "hz": 53.0,
+     "db": 0.0,
+     "bw": 2.0
+    },
+    {
+     "type": "bell",
+     "hz": 315.0,
+     "db": -2.2,
+     "bw": 0.75
+    },
+    {
+     "type": "bell",
+     "hz": 1005.0,
+     "db": -2.5,
+     "bw": 0.945
+    },
+    {
+     "type": "hshelf",
+     "hz": 4730.0,
+     "db": 0.0,
+     "bw": 0.33
+    }
+   ]
+  }
+ },
+ "tracks": {
+  "Flute 1": {
+   "group": "wind",
+   "gain_db": -1.6,
+   "seat": -0.1,
+   "dyn_trim_db": {
+    "f": -2.5,
+    "ff": 1.0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "mics": {
+    "Close": 0.815,
+    "Main": 0.475
+   }
+  },
+  "Flute 2": {
+   "group": "wind",
+   "gain_db": -0.6,
+   "seat": -0.15,
+   "dyn_trim_db": {
+    "f": -2.5,
+    "ff": 1.0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "mics": {
+    "Close": 0.782,
+    "Main": 0.528
+   }
+  },
+  "Oboe 1": {
+   "group": "wind",
+   "gain_db": -6.3,
+   "seat": 0.1,
+   "dyn_trim_db": {
+    "f": 2.5,
+    "ff": 2.0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "mics": {
+    "Close": 0.939,
+    "Main": 0.24
+   },
+   "track_pan": -0.03
+  },
+  "Oboe 2": {
+   "group": "wind",
+   "gain_db": -5.2,
+   "seat": 0.15,
+   "dyn_trim_db": {
+    "f": 2.5,
+    "ff": 2.0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "mics": {
+    "Close": 0.939,
+    "Main": 0.088
+   }
+  },
+  "Cor anglais": {
+   "group": "wind",
+   "gain_db": -0.6,
+   "seat": 0.2,
+   "dyn_trim_db": {
+    "f": 2.5,
+    "ff": 5.0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "width": 0.05,
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "mics": {
+    "Close": 0.912,
+    "Main": 0.24
+   }
+  },
+  "Clarinet 1": {
+   "group": "wind",
+   "gain_db": -0.9,
+   "seat": -0.15,
+   "dyn_trim_db": {
+    "f": -3.1,
+    "ff": -1.3
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 1.8,
+    "pp": 5.4,
+    "p": 1.4,
+    "mp": 0.7,
+    "mf": -1.1
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "_c41_width": "ONE_TIME #2: Main 0.2 (Movement I: these soloists' image spread across pitches rose with 0.35)",
+   "mics": {
+    "Close": 0.782,
+    "Main": 0.528
+   }
+  },
+  "Clarinet 2": {
+   "group": "wind",
+   "gain_db": -0.6,
+   "seat": -0.2,
+   "dyn_trim_db": {
+    "f": -1.9,
+    "ff": -2.4
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 40
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 1.0,
+    "pp": 2.6,
+    "p": 4.4,
+    "mp": 2.9,
+    "mf": 0.3
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "mics": {
+    "Close": 0.782,
+    "Main": 0.528
+   }
+  },
+  "Bass clarinet": {
+   "group": "wind",
+   "gain_db": 2.4,
+   "seat": -0.05,
+   "dyn_trim_db": {
+    "f": -1.0,
+    "ff": -3.0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 30
+    }
+   ],
+   "width": 0.3,
+   "soft_trim_db": {
+    "ppp": 0,
+    "pp": 1,
+    "p": 3.5
+   },
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 250,
+     "db": 0
+    }
+   ],
+   "loud_eq": [
+    {
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       42,
+       1
+      ],
+      [
+       44,
+       0
+      ],
+      [
+       304,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "highshelf",
+       "hz": 1200,
+       "db": -3
+      }
+     ],
+     "_c40": "critic B #1: the pp bass line owned 73% of the master 2-4 kHz under Horn 1 bars 7-14"
+    }
+   ],
+   "_c41_side": "ONE_TIME #2 step 1: side low shelf 250 Hz -6 -> 0 dB (decorrelation below 250 Hz; critic C simulated corr < 250 Hz 0.800 -> 0.775, R-L +2.9 -> +3.2 dB)",
+   "mics": {
+    "Close": 0.898,
+    "Main": 0.29
+   }
+  },
+  "Bassoon 1": {
+   "group": "wind",
+   "gain_db": -1.5,
+   "seat": 0.15,
+   "dyn_trim_db": {
+    "f": 3.0,
+    "ff": 3.0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 30
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4,
+    "pp": 6,
+    "p": 5.5
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "return": [],
+   "mics": {
+    "Close": 0.884,
+    "Main": 0.329
+   }
+  },
+  "Bassoon 2": {
+   "group": "wind",
+   "gain_db": -1.5,
+   "seat": 0.2,
+   "dyn_trim_db": {
+    "f": 3.5,
+    "ff": 2.0
+   },
+   "eq": [
+    {
+     "band": "highpass",
+     "hz": 30
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 5,
+    "pp": 8,
+    "p": 6.5
+   },
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "width": 0.05,
+   "return": [],
+   "mics": {
+    "Close": 0.884,
+    "Main": 0.329
+   }
+  },
+  "Contrabassoon": {
+   "group": "wind",
+   "gain_db": 1.3,
+   "seat": 0.25,
+   "dyn_trim_db": {
+    "f": 2.0,
+    "ff": -0.8
+   },
+   "eq": [
+    {
+     "band": "lowshelf",
+     "hz": 70,
+     "db": -4
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 200,
+     "db": 0
+    },
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 1.5
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4.7,
+    "pp": 4.7,
+    "p": 5.2
+   },
+   "_c41_side": "ONE_TIME #2 step 1: side low shelf 200 Hz -2 -> 0 dB (decorrelation below 250 Hz; critic C simulated corr < 250 Hz 0.800 -> 0.775, R-L +2.9 -> +3.2 dB)",
+   "return": [],
+   "mics": {
+    "Close": 0.884,
+    "Main": 0.329
+   }
+  },
+  "Horn 1": {
+   "group": "horn",
+   "gain_db": 0.4,
+   "seat": -0.25,
+   "dyn_trim_db": {
+    "f": -0.8,
+    "ff": -0.8
+   },
+   "eq": [],
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4.0,
+    "pp": 4.0,
+    "p": 4.5,
+    "mp": 2.8,
+    "mf": 2.0
+   },
+   "loud_eq": [
+    {
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       180,
+       1
+      ],
+      [
+       182,
+       0
+      ],
+      [
+       220,
+       0
+      ],
+      [
+       221,
+       1
+      ],
+      [
+       258,
+       1
+      ],
+      [
+       261,
+       0
+      ],
+      [
+       270,
+       0
+      ],
+      [
+       271,
+       1
+      ],
+      [
+       304,
+       1
+      ]
+     ],
+     "bands": [
+      {
+       "band": "highshelf",
+       "hz": 800,
+       "db": -8
+      }
+     ],
+     "_c32": "critic C #4: soft-dynamic darkening (the horns' p/pp play the mf layers since c31's CC1 map; c30's soft layers measured 1-5 kHz share -19..-20 dB at p); wet 0 over the f/ff passages",
+     "_c37": "critic C #3 c37 #1: 1.2 kHz -4 -> 800 Hz -8 (soft 1-5 kHz share -15 -> -18..-20 dB simulated, toward c30 real soft layers)",
+     "_c40": "critic B #1: 300 Hz -2 bell (B proposed -3, or -2 if the shorter hall lowers the build-up; set before measuring, so the milder one), soft trims +1 to keep the level",
+     "_c41": "critic B #3: the soft shelf ramps out 180-182 (was 186-194) so the mp espr. counter-melody at 182-194 has its mp colour",
+     "_c44": "B #6: c40's 300 Hz -2 bell removed (the brass family EQ cuts 3-6 dB there); the 800 Hz soft shelf stays"
+    }
+   ],
+   "sus_release_cap_ms": [
+    {
+     "ms": 237,
+     "dyn": [
+      "mf",
+      "f"
+     ],
+     "rows": [
+      "Sus MAX",
+      "LegRep RRx4",
+      "Leg Slur MAX"
+     ]
+    },
+    {
+     "ms": 350,
+     "dyn": [
+      "pp"
+     ],
+     "rows": [
+      "Sus MAX",
+      "LegRep RRx4",
+      "Leg Slur MAX"
+     ]
+    }
+   ],
+   "_c41_caps": "coordinator (critic A #1): horn pp groups (ship 562 ms) 237 -> 350 ms; mf/f keep 237 (the patch's ff value)",
+   "_c41_width": "ONE_TIME #2: Main 0.2 (Movement I: these soloists' image spread across pitches rose with 0.35)",
+   "track_pan": -0.28
+  },
+  "Horn 2": {
+   "group": "horn",
+   "gain_db": -0.6,
+   "seat": -0.25,
+   "dyn_trim_db": {
+    "f": 0.2,
+    "ff": 1.2
+   },
+   "eq": [],
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4.0,
+    "pp": 4.0,
+    "p": 4.5,
+    "mp": 3.1,
+    "mf": 2.6
+   },
+   "loud_eq": [
+    {
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       186,
+       1
+      ],
+      [
+       194,
+       0
+      ],
+      [
+       220,
+       0
+      ],
+      [
+       221,
+       1
+      ],
+      [
+       258,
+       1
+      ],
+      [
+       261,
+       0
+      ],
+      [
+       270,
+       0
+      ],
+      [
+       271,
+       1
+      ],
+      [
+       304,
+       1
+      ]
+     ],
+     "bands": [
+      {
+       "band": "highshelf",
+       "hz": 800,
+       "db": -8
+      }
+     ],
+     "_c32": "critic C #4: soft-dynamic darkening (the horns' p/pp play the mf layers since c31's CC1 map; c30's soft layers measured 1-5 kHz share -19..-20 dB at p); wet 0 over the f/ff passages",
+     "_c37": "critic C #3 c37 #1: 1.2 kHz -4 -> 800 Hz -8 (soft 1-5 kHz share -15 -> -18..-20 dB simulated, toward c30 real soft layers)"
+    }
+   ],
+   "sus_release_cap_ms": [
+    {
+     "ms": 237,
+     "dyn": [
+      "mf",
+      "f"
+     ],
+     "rows": [
+      "Sus MAX",
+      "LegRep RRx4",
+      "Leg Slur MAX"
+     ]
+    },
+    {
+     "ms": 350,
+     "dyn": [
+      "pp"
+     ],
+     "rows": [
+      "Sus MAX",
+      "LegRep RRx4",
+      "Leg Slur MAX"
+     ]
+    }
+   ],
+   "_c41_caps": "coordinator (critic A #1): horn pp groups (ship 562 ms) 237 -> 350 ms; mf/f keep 237 (the patch's ff value)",
+   "track_pan": -0.26
+  },
+  "Horn 3": {
+   "group": "horn",
+   "gain_db": 1.2,
+   "seat": -0.25,
+   "dyn_trim_db": {
+    "f": -1.6,
+    "ff": -0.8
+   },
+   "eq": [],
+   "mute_eq": {
+    "from_qn": 278.0,
+    "bands": [
+     {
+      "band": "lowshelf",
+      "hz": 300,
+      "db": -6
+     },
+     {
+      "band": "bell",
+      "hz": 1800,
+      "db": 3,
+      "bw_oct": 1.0
+     },
+     {
+      "band": "highshelf",
+      "hz": 4500,
+      "db": -8
+     }
+    ]
+   },
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4.0,
+    "pp": 4.0,
+    "p": 4.5,
+    "mp": 2.8,
+    "mf": 2.0
+   },
+   "loud_eq": [
+    {
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       186,
+       1
+      ],
+      [
+       194,
+       0
+      ],
+      [
+       220,
+       0
+      ],
+      [
+       221,
+       1
+      ],
+      [
+       258,
+       1
+      ],
+      [
+       261,
+       0
+      ],
+      [
+       277,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "highshelf",
+       "hz": 800,
+       "db": -8
+      }
+     ],
+     "_c37": "critic C #1: Horn 3 had no soft shelf (its ppp opening was the brightest horn passage)",
+     "_c44": "B #6: c40's 300 Hz -2 bell removed (the brass family EQ cuts 3-6 dB there); the 800 Hz soft shelf stays"
+    }
+   ],
+   "sus_release_cap_ms": [
+    {
+     "ms": 237,
+     "dyn": [
+      "mf",
+      "f"
+     ],
+     "rows": [
+      "Sus MAX",
+      "LegRep RRx4",
+      "Leg Slur MAX"
+     ]
+    },
+    {
+     "ms": 350,
+     "dyn": [
+      "pp"
+     ],
+     "rows": [
+      "Sus MAX",
+      "LegRep RRx4",
+      "Leg Slur MAX"
+     ]
+    }
+   ],
+   "_c41_caps": "coordinator (critic A #1): horn pp groups (ship 562 ms) 237 -> 350 ms; mf/f keep 237 (the patch's ff value)",
+   "track_pan": -0.25
+  },
+  "Horn 4": {
+   "group": "horn",
+   "gain_db": 0.9,
+   "seat": -0.25,
+   "dyn_trim_db": {
+    "f": 0.2,
+    "ff": 1.2
+   },
+   "eq": [],
+   "mute_eq": {
+    "from_qn": 278.0,
+    "bands": [
+     {
+      "band": "lowshelf",
+      "hz": 300,
+      "db": -6
+     },
+     {
+      "band": "bell",
+      "hz": 1800,
+      "db": 3,
+      "bw_oct": 1.0
+     },
+     {
+      "band": "highshelf",
+      "hz": 4500,
+      "db": -8
+     }
+    ]
+   },
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4.0,
+    "pp": 4.0,
+    "p": 4.5,
+    "mp": 3.1,
+    "mf": 2.6
+   },
+   "loud_eq": [
+    {
+     "points": [
+      [
+       0,
+       1
+      ],
+      [
+       186,
+       1
+      ],
+      [
+       194,
+       0
+      ],
+      [
+       220,
+       0
+      ],
+      [
+       221,
+       1
+      ],
+      [
+       258,
+       1
+      ],
+      [
+       261,
+       0
+      ],
+      [
+       277,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "highshelf",
+       "hz": 800,
+       "db": -8
+      }
+     ],
+     "_c32": "critic C #4: soft-dynamic darkening (the horns' p/pp play the mf layers since c31's CC1 map; c30's soft layers measured 1-5 kHz share -19..-20 dB at p); wet 0 over the f/ff passages",
+     "_c37": "critic C #3 c37 #1: 1.2 kHz -4 -> 800 Hz -8 (soft 1-5 kHz share -15 -> -18..-20 dB simulated, toward c30 real soft layers)"
+    }
+   ],
+   "sus_release_cap_ms": [
+    {
+     "ms": 237,
+     "dyn": [
+      "mf",
+      "f"
+     ],
+     "rows": [
+      "Sus MAX",
+      "LegRep RRx4",
+      "Leg Slur MAX"
+     ]
+    },
+    {
+     "ms": 350,
+     "dyn": [
+      "pp"
+     ],
+     "rows": [
+      "Sus MAX",
+      "LegRep RRx4",
+      "Leg Slur MAX"
+     ]
+    }
+   ],
+   "_c41_caps": "coordinator (critic A #1): horn pp groups (ship 562 ms) 237 -> 350 ms; mf/f keep 237 (the patch's ff value)",
+   "track_pan": -0.23
+  },
+  "Trombone 1": {
+   "group": "lowbrass",
+   "gain_db": 4.18,
+   "seat": 0.25,
+   "dyn_trim_db": {
+    "f": 1.4,
+    "ff": 1.2
+   },
+   "eq": [],
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4.5,
+    "pp": 4.5,
+    "p": 7.8,
+    "mp": 3.3,
+    "mf": 3.2
+   },
+   "loud_eq": {
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      212.85,
+      0
+     ],
+     [
+      212.9,
+      1
+     ],
+     [
+      213.4,
+      1
+     ],
+     [
+      213.55,
+      0
+     ],
+     [
+      214.85,
+      0
+     ],
+     [
+      214.9,
+      1
+     ],
+     [
+      215.3,
+      1
+     ],
+     [
+      215.4,
+      0
+     ],
+     [
+      304,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "highshelf",
+      "hz": 2000,
+      "db": -4
+     }
+    ]
+   },
+   "return": [],
+   "track_pan": 0.15
+  },
+  "Trombone 2": {
+   "group": "lowbrass",
+   "gain_db": 5.0,
+   "seat": 0.25,
+   "dyn_trim_db": {
+    "f": 3.6,
+    "ff": 5.2
+   },
+   "eq": [],
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4.5,
+    "pp": 4.5,
+    "p": 7.8,
+    "mp": 4.1,
+    "mf": 5.0
+   },
+   "return": [],
+   "track_pan": 0.15
+  },
+  "Bass trombone": {
+   "group": "lowbrass",
+   "gain_db": 5.5,
+   "seat": 0.25,
+   "dyn_trim_db": {
+    "f": 4.4,
+    "ff": 5.2
+   },
+   "eq": [],
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4.5,
+    "pp": 4.5,
+    "p": 7.8,
+    "mp": 4.1,
+    "mf": 5.0
+   },
+   "_c41_side": "ONE_TIME #2 step 1: side low shelf 200 Hz -2 -> 0 dB (decorrelation below 250 Hz; critic C simulated corr < 250 Hz 0.800 -> 0.775, R-L +2.9 -> +3.2 dB)",
+   "return": [],
+   "track_pan": 0.15
+  },
+  "Tuba": {
+   "group": "lowbrass",
+   "gain_db": 7.95,
+   "seat": 0.35,
+   "dyn_trim_db": {
+    "f": -0.6,
+    "ff": -0.8
+   },
+   "eq": [
+    {
+     "band": "lowshelf",
+     "hz": 70,
+     "db": -4
+    }
+   ],
+   "mics": {
+    "Close": 0.31,
+    "Main": 1.0
+   },
+   "width": 0.3,
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4.5,
+    "pp": 4.5,
+    "p": 7.8,
+    "mp": 2.7,
+    "mf": 2.0
+   },
+   "_c41_side": "ONE_TIME #2 step 1: side low shelf 200 Hz -2 -> 0 dB (decorrelation below 250 Hz; critic C simulated corr < 250 Hz 0.800 -> 0.775, R-L +2.9 -> +3.2 dB)",
+   "return": [],
+   "track_pan": 0.23
+  },
+  "Timpani": {
+   "group": "timp",
+   "gain_db": -6.0,
+   "seat": -0.05,
+   "dyn_trim_db": {
+    "f": 0,
+    "ff": 0
+   },
+   "eq": [],
+   "side_shelf": {
+    "hz": 300,
+    "db": -9
+   },
+   "width": 0.3
+  },
+  "Harp": {
+   "group": "harp",
+   "gain_db": -1.75,
+   "seat": -0.72,
+   "dyn_trim_db": {
+    "f": 1,
+    "ff": 2
+   },
+   "eq": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -4,
+     "bw_oct": 1.2
+    }
+   ],
+   "width": 0.3,
+   "side_shelf": {
+    "hz": 300,
+    "db": -8
+   },
+   "env_release_ms": 200,
+   "env_sustain": 1.0
+  },
+  "Violins I": {
+   "group": "string",
+   "gain_db": 5.72,
+   "seat": -0.31,
+   "dyn_trim_db": {
+    "f": -1.5,
+    "ff": 1.5
+   },
+   "eq": [
+    {
+     "band": "highshelf",
+     "hz": 5000,
+     "db": -6
+    }
+   ],
+   "sus_release_cap_ms": [
+    {
+     "ms": 300,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ]
+    },
+    {
+     "ms": 600,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ],
+     "_doc": "c42 (coordinator): 400 -> 600 ms at pp/p (t20 about 0.85 x the cap; target 0.43-0.58 s)"
+    }
+   ],
+   "_c41_caps": "coordinator (critics A #1, C #1): c40's 150 ms caps on every layer stopped string phrase ends dead (-20 dB in 0.37 s against 0.43-0.58 s recorded; soft ends -10 dB in 0.12 s against 0.20-0.40 s): 300 ms at mf/f/ff, 400 ms at pp/p",
+   "track_pan": -0.22,
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ]
+  },
+  "Violins II": {
+   "group": "string",
+   "gain_db": 6.28,
+   "seat": -0.07,
+   "dyn_trim_db": {
+    "f": -0.5,
+    "ff": 0.5
+   },
+   "eq": [
+    {
+     "band": "highshelf",
+     "hz": 5000,
+     "db": -4
+    }
+   ],
+   "loud_eq": {
+    "points": [
+     [
+      139,
+      0
+     ],
+     [
+      140,
+      1
+     ],
+     [
+      168,
+      1
+     ],
+     [
+      170,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "highshelf",
+      "hz": 3000,
+      "db": -5
+     }
+    ]
+   },
+   "sus_release_cap_ms": [
+    {
+     "ms": 300,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ]
+    },
+    {
+     "ms": 600,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ],
+     "_doc": "c42 (coordinator): 400 -> 600 ms at pp/p (t20 about 0.85 x the cap; target 0.43-0.58 s)"
+    }
+   ],
+   "_c41_caps": "coordinator (critics A #1, C #1): c40's 150 ms caps on every layer stopped string phrase ends dead (-20 dB in 0.37 s against 0.43-0.58 s recorded; soft ends -10 dB in 0.12 s against 0.20-0.40 s): 300 ms at mf/f/ff, 400 ms at pp/p",
+   "track_pan": -0.21,
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ]
+  },
+  "Violas": {
+   "group": "string",
+   "gain_db": 2.45,
+   "seat": 0.0,
+   "dyn_trim_db": {
+    "f": 0,
+    "ff": -1.5
+   },
+   "soft_trim_db": {
+    "ppp": 1,
+    "pp": 5,
+    "p": 3.5
+   },
+   "eq": [],
+   "sus_release_cap_ms": [
+    {
+     "ms": 300,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ]
+    },
+    {
+     "ms": 600,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ],
+     "_doc": "c42 (coordinator): 400 -> 600 ms at pp/p (t20 about 0.85 x the cap; target 0.43-0.58 s)"
+    }
+   ],
+   "_c41_caps": "coordinator (critics A #1, C #1): c40's 150 ms caps on every layer stopped string phrase ends dead (-20 dB in 0.37 s against 0.43-0.58 s recorded; soft ends -10 dB in 0.12 s against 0.20-0.40 s): 300 ms at mf/f/ff, 400 ms at pp/p",
+   "track_pan": 0.0,
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ]
+  },
+  "Violoncellos": {
+   "group": "string",
+   "gain_db": 2.73,
+   "seat": 0.33,
+   "dyn_trim_db": {
+    "f": -2,
+    "ff": -2.5
+   },
+   "eq": [
+    {
+     "band": "bell",
+     "hz": 170,
+     "db": 1.5,
+     "bw_oct": 1.5
+    }
+   ],
+   "width": 0.28,
+   "loud_eq": {
+    "points": [
+     [
+      199,
+      0
+     ],
+     [
+      201,
+      1
+     ],
+     [
+      213,
+      1
+     ],
+     [
+      215,
+      0
+     ],
+     [
+      257,
+      0
+     ],
+     [
+      259,
+      1
+     ],
+     [
+      268,
+      1
+     ],
+     [
+      270,
+      0
+     ]
+    ],
+    "bands": [
+     {
+      "band": "bell",
+      "hz": 150,
+      "db": 4,
+      "bw_oct": 1.0
+     }
+    ]
+   },
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ],
+   "sus_release_cap_ms": [
+    {
+     "ms": 300,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ]
+    },
+    {
+     "ms": 600,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ],
+     "_doc": "c42 (coordinator): 400 -> 600 ms at pp/p (t20 about 0.85 x the cap; target 0.43-0.58 s)"
+    }
+   ],
+   "_c40_gain": "critic C #3: +1.5 dB (the drier hall and 160 Hz low cut took 3-4 dB off the low strings; 100-250 Hz share -9.2 against -8.5 aimed)",
+   "_c41_caps": "coordinator (critics A #1, C #1): c40's 150 ms caps on every layer stopped string phrase ends dead (-20 dB in 0.37 s against 0.43-0.58 s recorded; soft ends -10 dB in 0.12 s against 0.20-0.40 s): 300 ms at mf/f/ff, 400 ms at pp/p",
+   "_c41_side": "ONE_TIME #2 step 1: side low shelf 200 Hz -2 -> 0 dB (decorrelation below 250 Hz; critic C simulated corr < 250 Hz 0.800 -> 0.775, R-L +2.9 -> +3.2 dB)",
+   "return": [
+    {
+     "to": "R Strings",
+     "db": -7.16
+    }
+   ],
+   "track_pan": 0.25
+  },
+  "Double basses": {
+   "group": "string",
+   "gain_db": -5.62,
+   "seat": 0.62,
+   "width": 0.28,
+   "dyn_trim_db": {
+    "f": 2.5,
+    "ff": 4.0
+   },
+   "eq": [
+    {
+     "band": "bell",
+     "hz": 140,
+     "db": 2.0,
+     "bw_oct": 1.0,
+     "_c44": "B #6: 160 Hz bw 1.4 -> 140 Hz bw 1.0, under the Duc 228 Hz -3 cut in the family EQ"
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 6,
+    "pp": 8,
+    "p": 8.5
+   },
+   "loud_eq": [
+    {
+     "points": [
+      [
+       190,
+       0
+      ],
+      [
+       200,
+       1
+      ],
+      [
+       214,
+       1
+      ],
+      [
+       216,
+       0
+      ],
+      [
+       254,
+       0
+      ],
+      [
+       259,
+       1
+      ],
+      [
+       269,
+       1
+      ],
+      [
+       271,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "lowshelf",
+       "hz": 100,
+       "db": 1.0
+      },
+      {
+       "band": "bell",
+       "hz": 150,
+       "db": 4,
+       "bw_oct": 1.0
+      }
+     ],
+     "_c55": "critic C #5 / lead section 7: the climax row's 100 Hz shelf -1.5 -> +1.0 dB (tuttis only: the basses supply 78-98 % of the dry 56-112 Hz there; master share bars 61-62 -12.2 -> -10.6, 79-81 -11.0 -> -9.2 simulated; largest K-weighted bar change +0.16 dB). No static change."
+    },
+    {
+     "points": [
+      [
+       237.5,
+       0
+      ],
+      [
+       238.5,
+       1
+      ],
+      [
+       261.6,
+       1
+      ],
+      [
+       261.9,
+       0
+      ]
+     ],
+     "bands": [
+      {
+       "band": "bell",
+       "hz": 80,
+       "db": 2,
+       "bw_oct": 0.5
+      }
+     ],
+     "_c41": "critic B #5: master 56-125 Hz re 500-2000 Hz at 256-262 -18.3 dB (bars 61-62 -11.3, Dvorak loud -8.9); the E flat 2/E2 fundamental 9 dB under its octave (static bell2 80 Hz -6 plus the 100 Hz shelf); wet only before the D flat 2 at 262 (series 1 c16's boom note), so the climax shelf's reason stays",
+     "_c55": "the 80 Hz +2 bell (half an octave) starts at bar 71 (qn 238) instead of 254: bars 71-78 share -11.5 -> -10.3 (C proposed a +1.5 dB 80 Hz shelf row for 238-254; the existing row extended, so the FX chain keeps its instances)"
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "lowshelf",
+     "hz": 100,
+     "db": -15
+    },
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ],
+   "sus_release_cap_ms": [
+    {
+     "ms": 300,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ]
+    },
+    {
+     "ms": 400,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ],
+     "_doc": "c43 (A #1): basses only 600 -> 400 ms at pp/p (600 let the old pitch ring under soft pitch changes, 286 old-new -0.1 dB at +0.35 s; c41 400 worst -11.8)"
+    }
+   ],
+   "_c40_gain": "critic C #3: +1.5 dB (the drier hall and 160 Hz low cut took 3-4 dB off the low strings; 100-250 Hz share -9.2 against -8.5 aimed)",
+   "_c41_caps": "coordinator (critics A #1, C #1): c40's 150 ms caps on every layer stopped string phrase ends dead (-20 dB in 0.37 s against 0.43-0.58 s recorded; soft ends -10 dB in 0.12 s against 0.20-0.40 s): 300 ms at mf/f/ff, 400 ms at pp/p",
+   "return": [],
+   "track_pan": 0.3,
+   "family_eq": [
+    {
+     "type": "hp",
+     "hz": 35.0,
+     "db": 0.0,
+     "bw": 2.0
+    },
+    {
+     "type": "bell",
+     "hz": 315.0,
+     "db": -2.2,
+     "bw": 0.75
+    },
+    {
+     "type": "bell",
+     "hz": 1005.0,
+     "db": -2.5,
+     "bw": 0.945
+    },
+    {
+     "type": "hshelf",
+     "hz": 4730.0,
+     "db": 0.0,
+     "bw": 0.33
+    },
+    {
+     "type": "bell",
+     "hz": 228.0,
+     "db": -3.0,
+     "bw": 0.8
+    }
+   ]
+  },
+  "Harp harmonics": {
+   "group": "harp",
+   "gain_db": 3.7,
+   "seat": -0.72,
+   "dyn_trim_db": {
+    "f": 0,
+    "ff": 0
+   },
+   "eq": [],
+   "width": 0.3,
+   "side_shelf": {
+    "hz": 300,
+    "db": -8
+   },
+   "env_sustain": 1.0,
+   "track_pan": 0.25
+  },
+  "Violin I solo": {
+   "group": "string",
+   "gain_db": 0.2,
+   "seat": -0.31,
+   "width": 0.2,
+   "send": 0.8,
+   "dyn_trim_db": {
+    "f": -1.5,
+    "ff": 1.5
+   },
+   "eq": [
+    {
+     "band": "highshelf",
+     "hz": 5000,
+     "db": -6
+    }
+   ],
+   "_c32": "gain -1 -> +0.4 after the render: CC1 held at 72 (C #6) took the solo 1.4 dB under c31 (bars 48-65 RMS -44.2 vs -42.8)",
+   "sus_release_cap_ms": [
+    {
+     "ms": 300,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ]
+    },
+    {
+     "ms": 600,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ],
+     "_doc": "c42 (coordinator): 300 -> 600 ms at pp/p"
+    }
+   ],
+   "mics": {
+    "Close": 0.664
+   },
+   "track_pan": -0.1,
+   "return": [
+    {
+     "to": "R Strings",
+     "db": 2.4
+    }
+   ]
+  },
+  "Violoncellos div": {
+   "group": "string",
+   "gain_db": 3.59,
+   "seat": 0.15,
+   "width": 0.2,
+   "send": 0.5,
+   "dyn_trim_db": {
+    "f": -2,
+    "ff": -2.5
+   },
+   "eq": [
+    {
+     "band": "bell",
+     "hz": 170,
+     "db": 3,
+     "bw_oct": 1.5
+    }
+   ],
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 3
+    }
+   ],
+   "sus_release_cap_ms": [
+    {
+     "ms": 300,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ]
+    },
+    {
+     "ms": 600,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ],
+     "_doc": "c42 (coordinator): 300 -> 600 ms at pp/p"
+    }
+   ],
+   "return": [
+    {
+     "to": "R Strings",
+     "db": -1.2
+    }
+   ],
+   "mics": {
+    "Close": 0.647
+   },
+   "track_pan": 0.05
+  },
+  "Violins II div": {
+   "group": "string",
+   "gain_db": 5.67,
+   "seat": -0.07,
+   "dyn_trim_db": {
+    "f": -2.5,
+    "ff": -1.5
+   },
+   "eq": [
+    {
+     "band": "highshelf",
+     "hz": 1500,
+     "db": -6
+    }
+   ],
+   "width": 0.3,
+   "send": 0.5,
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 3
+    }
+   ],
+   "sus_release_cap_ms": [
+    {
+     "ms": 300,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ]
+    },
+    {
+     "ms": 600,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ],
+     "_doc": "c42 (coordinator): 300 -> 600 ms at pp/p"
+    }
+   ],
+   "mics": {
+    "Close": 0.659
+   },
+   "track_pan": -0.21,
+   "return": [
+    {
+     "to": "R Strings",
+     "db": 0.4
+    }
+   ]
+  },
+  "Violas div": {
+   "group": "string",
+   "gain_db": 2.88,
+   "seat": 0.0,
+   "dyn_trim_db": {
+    "f": 0,
+    "ff": -1.5
+   },
+   "soft_trim_db": {
+    "ppp": 1,
+    "pp": 5,
+    "p": 3.5
+   },
+   "eq": [],
+   "width": 0.3,
+   "send": 0.5,
+   "side_shelf": [
+    {
+     "band": "highshelf",
+     "hz": 250,
+     "db": 3
+    }
+   ],
+   "sus_release_cap_ms": [
+    {
+     "ms": 300,
+     "dyn": [
+      "mf",
+      "f",
+      "ff"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ]
+    },
+    {
+     "ms": 600,
+     "dyn": [
+      "pp",
+      "p"
+     ],
+     "rows": [
+      "Sus MAX",
+      "Sus Marc LITE",
+      "Leg Slur MAX",
+      "Leg BC MAX",
+      "Leg Port MAX",
+      "Flautando"
+     ],
+     "_doc": "c42 (coordinator): 300 -> 600 ms at pp/p"
+    }
+   ],
+   "mics": {
+    "Close": 0.664
+   },
+   "track_pan": 0.0,
+   "return": [
+    {
+     "to": "R Strings",
+     "db": 0.4
+    }
+   ]
+  },
+  "Horns 1-2 a2": {
+   "group": "horn",
+   "gain_db": 4.9,
+   "seat": -0.25,
+   "dyn_trim_db": {
+    "f": -0.6,
+    "ff": -0.8
+   },
+   "eq": [],
+   "side_shelf": [
+    {
+     "band": "bell",
+     "hz": 200,
+     "db": -6,
+     "bw_oct": 1.2
+    },
+    {
+     "band": "highshelf",
+     "hz": 350,
+     "db": -2,
+     "bw_oct": 2.0
+    }
+   ],
+   "soft_trim_db": {
+    "ppp": 4.5,
+    "pp": 4.5,
+    "p": 5.0,
+    "mp": 2.8,
+    "mf": 2.0
+   },
+   "loud_eq": [
+    {
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       270,
+       0
+      ],
+      [
+       271,
+       1
+      ],
+      [
+       304,
+       1
+      ]
+     ],
+     "bands": [
+      {
+       "band": "highshelf",
+       "hz": 800,
+       "db": -8
+      }
+     ],
+     "_c37": "critic C #1: bar 82 p"
+    }
+   ],
+   "sus_release_cap_ms": [
+    {
+     "ms": 237,
+     "dyn": [
+      "mf",
+      "f"
+     ],
+     "rows": [
+      "Sus MAX",
+      "LegRep RRx4",
+      "Leg Slur MAX"
+     ]
+    },
+    {
+     "ms": 350,
+     "dyn": [
+      "pp"
+     ],
+     "rows": [
+      "Sus MAX",
+      "LegRep RRx4",
+      "Leg Slur MAX"
+     ]
+    }
+   ],
+   "_c41_caps": "coordinator (critic A #1): horn pp groups (ship 562 ms) 237 -> 350 ms; mf/f keep 237 (the patch's ff value)",
+   "track_pan": -0.26
+  }
+ },
+ "soft_trim_db": {
+  "ppp": 3,
+  "pp": 3,
+  "p": 3.5,
+  "_except": [
+   "Timpani",
+   "Harp harmonics"
+  ]
+ },
+ "returns": [
+  {
+   "name": "R Strings",
+   "chunk": "STRING_VERB.txt",
+   "fader_db": -17.97,
+   "post_eq": [
+    {
+     "type": "lp",
+     "hz": 2300.0,
+     "db": 0.0,
+     "bw": 2.0
+    }
+   ],
+   "set": {
+    "irSetup": {
+     "envelopeMode": 2,
+     "endPos": 0.5,
+     "decayLength": 0.5
+    }
+   },
+   "hp_hz": 160.0
+  },
+  {
+   "name": "R Brass",
+   "chunk": "BRASS_VERB.txt",
+   "fader_db": -4.97,
+   "post_eq": [
+    {
+     "type": "lp",
+     "hz": 2300.0,
+     "db": 0.0,
+     "bw": 2.0
+    }
+   ],
+   "set": {
+    "irSetup": {
+     "envelopeMode": 2,
+     "endPos": 0.5,
+     "decayLength": 0.5
+    }
+   },
+   "hp_hz": 160.0
+  },
+  {
+   "name": "R Winds",
+   "chunk": "WW_VERB.txt",
+   "fader_db": -2.97,
+   "post_eq": [
+    {
+     "type": "lp",
+     "hz": 2300.0,
+     "db": 0.0,
+     "bw": 2.0
+    }
+   ],
+   "set": {
+    "irSetup": {
+     "envelopeMode": 2,
+     "endPos": 0.5,
+     "decayLength": 0.5
+    }
+   },
+   "hp_hz": 160.0
+  },
+  {
+   "name": "R Perc",
+   "chunk": "PERC_VERB.txt",
+   "fader_db": -2.34,
+   "post_eq": [
+    {
+     "type": "lp",
+     "hz": 2300.0,
+     "db": 0.0,
+     "bw": 2.0
+    }
+   ],
+   "set": {
+    "irSetup": {
+     "envelopeMode": 2,
+     "endPos": 0.5,
+     "decayLength": 0.5
+    }
+   },
+   "hp_hz": 160.0
+  }
+ ],
+ "test_returns": [],
+ "_returns": "c44: return tracks after the 32 instruments; FX chains verbatim from symphony/mockup-research/ew-template-2026-11-08/ho-mix-chunks (ReaEQ + EW Spaces II: strings S. Cal. Hall Strings TS RR 3.3s 19.6 ms, brass S. Cal. Hall Brass (Horns impulses) 10 ms, winds San Francisco Hall TS RR 3.4s 18.5 ms, timpani/harp Northwest Hall TS RR 2.6s 10 ms; full IR), template faders, plus a ReaEQ low pass at 2.3 kHz after each Spaces II (plan section 9, the finale's c06 measured 6-20 kHz -25 dB). R Duc: the Duc-hall fallback, a test stem only",
+ "_c44_sends": "c44: post-fader sends at the template's bus levels (strings -5.56, brass -8.77, winds -8.36, timpani -6.41, harp -8.77 dB); register sends (batch 5): trombones, tuba -18.77, bassoons, contrabassoon -18.36, basses -16 (family -10, at most -16); celli -1.6 (Duc); every track also sends 0 dB (register -10, celli -1.6) to the R Duc test return",
+ "pan_by_mic": {
+  "seat_mics": [
+   "Close"
+  ],
+  "_c44": "EW template plan item 1: Close at the seat with the track width, Main / Surround full width; replaces width_by_mic"
+ },
+ "_c44_seats": "c44: strings and brass Close seats = the template's Opus Close pans (div / solo tracks take their section's), REAPER track pans from the plan (item 1); winds, harp and timpani keep the score's seats",
+ "_c44_family_eq": "c44: family EQs = the template's section-bus ReaEQs (strings / brass / woodwinds; harp with HPF 80 Hz instead of 183, critic B #4; timpani: the finale's bands, critic B #1); basses + Duc's -3 dB at 228 Hz (plan section 8). Master EQ (HPF 42, -1.6 dB 167 Hz, -1.9 dB 1.18 kHz, +0.8 dB shelf 8 kHz) in tools/deliver_master.py",
+ "master_eq": [
+  {
+   "type": "hp",
+   "hz": 42.0,
+   "db": 0.0,
+   "bw": 2.0
+  },
+  {
+   "type": "bell",
+   "hz": 167.0,
+   "db": -1.6,
+   "bw": 1.39
+  },
+  {
+   "type": "bell",
+   "hz": 1180.0,
+   "db": -1.9,
+   "bw": 1.39
+  },
+  {
+   "type": "hshelf",
+   "hz": 8008.0,
+   "db": 0.8,
+   "bw": 1.39
+  }
+ ],
+ "_c44_gains": "c44 critic B #2 make-up (A-weighted loss of the family EQ, each track back to its c43 level against the strings) with the finale's c06 measured corrections: winds -2.9, horns -0.5, trombones/tuba +0.8 (Trombone 1 +0.4), harp -2.0; timpani 0 (B #1: at most +1)",
+ "_c44_final": "c44 after the render: returns with the Spaces II IR envelope (envelopeMode 2, endPos 0.5, decayLength 0.5), faders strings -16.97, winds -2.97, brass -0.97, perc -2.34 dB (template +1.03/+0.66 minus 18 / 4 / 2 / 3), trombones, tuba, bassoons, contrabassoon and basses send nothing (finale c07); R Duc and RE * receive no sends (test tracks of the c44 render)",
+ "_c44_stemfix": "c44 stem fix: Bass clarinet +1.5, Oboe 1 -1.5, Flute 1 -1.0, Timpani +1.0 dB; Clarinet 1 coda +2 role removed",
+ "_c45": "c45 actor: cycles/c45/actor_scripts/apply45.py (critics B/C on c44; see cycles/c45/CHANGES.md)",
+ "_c45_stemfix": "after the render: Harp -2.95 (bars 7-14 back to c44 after the Close-led mics measured +2.95 dB), Harp harmonics -1.8 (c44 level in the coda), R Strings -1 dB (final chord t20 0.461 > 0.45)",
+ "_c46": {
+  "brass_bells": "c46 (Movement I c51 C, critic B #2): horn/lowbrass family_eq bells 475 Hz -5.4 -> -2.7, 821 Hz -7.8 -> -3.9, + 3.2 kHz -3 bw 1; gains re-levelled per stem (K-weighted)",
+  "gain_before": {
+   "Horn 1": 3.5,
+   "Horn 2": 1.9,
+   "Horn 3": 4.6,
+   "Horn 4": 4.5,
+   "Horns 1-2 a2": 8.0,
+   "Trombone 1": 6.18,
+   "Trombone 2": 8.2,
+   "Bass trombone": 8.2,
+   "Tuba": 10.3
+  },
+  "B1": "Double basses dyn_trim f 0 -> 2.5, ff 1 -> 4; Bass clarinet f 0 -> -1, ff -1 -> -3",
+  "B6b": "Violas div gain 5.48 -> 2.98"
+ },
+ "_c48": "c48 (critic C #1/#2/#3, B #4): string family bell 456 -> 315 Hz (-2.2, bw 0.75; groups.string and the basses' own copy) with C's make-up gains; basses' family high-pass 53 -> 35 Hz; groups.horn track_width 0.8 (REAPER track width after the plugin, tools/build_reaper.py track_width() from mvt3 c09) with C's horn make-up gains. gain_db old -> new: {\"Violins I\": [5.82, 5.72], \"Violins II\": [6.58, 6.28], \"Violas\": [2.25, 2.45], \"Violoncellos\": [2.43, 2.73], \"Violin I solo\": [0.4, 0.2], \"Violins II div\": [5.97, 5.67], \"Violas div\": [2.98, 2.88], \"Violoncellos div\": [3.49, 3.59], \"Double basses\": [-5.62, -5.62], \"Horn 1\": [0.1, 0.4], \"Horn 2\": [-0.9, -0.6], \"Horn 3\": [0.7, 1.2], \"Horn 4\": [0.6, 0.9], \"Horns 1-2 a2\": [4.5, 4.9]}",
+ "_c49": "c49 (critic C #2 / #4): Oboe 1 Main 0.088 -> 0.24 (the cor anglais value; stem corr 1-4 kHz was 0.98-1.00; range render 0.89), gain_db unchanged (notes without a trim change within 0.2 dB), track_pan -0.03 (per-note R-L +2.68 -> +2.39; window +1.6..+2.4). Harp harmonics width 0.05 -> 0.3 (the Harp's; the same seat gave two images), track_pan 0.25 and gain_db 2.2 -> 3.7 (per-note R-L -10.1 -> -3.1, level within 0.1 dB of c48; pan 0.12 gave -4.7). C #1 (an R Stage return fed from the solo violin) tested on a range render and dropped: see cycles/c49/CHANGES.md",
+ "deliver": {
+  "rise_delay_s": 0.6
+ },
+ "_c52": "c52 (critic C #2; finale technique 35): deliver.rise_delay_s 0.6 (tools/deliver_master.py delays only the rises of the ride gain; simulated on the c51 master: mp3 level over qn 219-220 and 269-271 0.7-0.9 dB lower, LUFS / LRA / span unchanged, limiter 0.99 -> 0.91 dB). No other mix value changed in c52.",
+ "_c53": "c53 (critic C #1, lead notes; Dan's 'mushy' note): the master carried 3.2-3.7 dB more energy at 140-355 Hz than the two Brahms slow movements (share -4.7 dB in bars 23-30 / 53-60 / 71-78; Brahms -9.0, -8.5). Violoncellos bell 170 Hz +3 (c09) -> +1.5 dB: removing it took 2.8 dB off the celli's fundamental band (147-277 Hz) against the other stems in bars 22-27 and 1.7 dB in bars 45-47, over the lead's 1 dB limit, so +1.5 (then -1.4 / -0.9 dB). Harp bell 200 Hz -4 dB, 1.2 oct (its bass octaves supplied 43 % of the band in bars 71-78). Simulated on the c52 stems (cycles/c53/actor_scripts/mix53.py): share -4.70 / -4.76 / -4.68 -> -5.31 / -5.11 / -5.75 dB (removal: -5.89 / -5.39 / -5.89). The copy of the bell on Violoncellos div stays.",
+ "_c54": "c54 (critics B #2, C #1; lead: variant C): the master's 56-112 Hz share was -15.6 dB against -7.9 / -7.3 in the two Brahms slow movements; the Double basses' static bell2 80 Hz -6 dB (series 1 c25, set for a boom on C2-G2 under the old mics and hall), the 140 Hz +4.5 bell and the climax loud_eq's 100 Hz -3 shelf moved the D flat 2 / E flat 2 fundamentals to their octaves (-5 dB at the fundamental, +2.8 at the octave). bell2 removed, 140 Hz bell +4.5 -> +2.0, the climax shelf -3 -> -1.5 dB (half kept as the guard for the D flat 2 at 204 / 262, series 1 c16; the 150 Hz +4 bell of that row stays), the c41 row (80 Hz, qn 254-262) +4 -> +2 (with +4 the passage rose 2.06 dB more than the bars around it, without the row 1.46 dB less). Simulated on the c53 stems (cycles/c54/actor_scripts/mixsim54.py, cycles/c54/mixsim_*.txt). Bassoon 1 dyn_trim_db ff 1.5 -> 3.0 (B #3: its ff was 1 dB under its f).",
+ "env_simplify_db": 0.1,
+ "env_simplify_max_seg_db": 4.0,
+ "_c55": "c55: env_simplify_db 0.1 (tools/build_reaper.py vol_points: a point of the volume envelope stays only if the line between its kept neighbours, taken in REAPER's fader scale over seconds, misses it by more than 0.1 dB; no kept segment spans more than env_simplify_max_seg_db). Double basses loud_eq as noted in its rows."
+}

@@ -1,0 +1,5 @@
+# c50 critic C #2 (conditional; both thresholds still failed on the range renders after the rebuild: Horn 1 32.4-32.8 was
+# 5.4 dB over 33.0-33.8; Cor anglais 127.75-128.75 was 0.7-1.2 dB over 124.25-125.25, need 3). Horn 1 bar 11: the crescendo
+# note peaked 0.5 qn after its start and fell back; Cor anglais bars 41-42: the solo's first crescendo was flat
+LEVEL_SHAPES["Horn 1"] = LEVEL_SHAPES["Horn 1"] + [[(32.1, 0.0), (32.3, -2.5), (32.5, -4.5), (32.75, -3.5), (32.95, 0.0), (33.25, 3.0), (34.1, 3.0), (34.4, 0.0)]]
+LEVEL_SHAPES["Cor anglais"] = LEVEL_SHAPES.get("Cor anglais", []) + [[(124.9, 0.0), (127.9, 3.0), (130.9, 3.0), (131.9, 0.0)]]

@@ -1,0 +1,4 @@
+R Brass return power = a*horns + b*trumpets + c*lowbrass (2 s bins): a -18.5 dB, b -22.9 dB, c -23.3 dB
+fit error (dB) median abs 0.8
+strings return minus dry, median over 2 s bins: -14.1 dB (p10 -15.9, p90 -12.1)
+winds return minus dry, median over 2 s bins: -11.8 dB (p10 -16.8, p90 -8.5)

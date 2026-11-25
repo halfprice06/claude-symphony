@@ -1,0 +1,20 @@
+Violoncellos   qn  108.0  start +0.21 s  (limit 0.06)  LATE
+Violoncellos   qn  112.0  start +0.06 s  (limit 0.06)  ok
+Violoncellos   qn  114.0  start +0.08 s  (limit 0.06)  LATE
+Violoncellos   qn  116.0  start +0.05 s  (limit 0.06)  ok
+Violas         qn  124.0  start +0.24 s  (limit 0.06)  LATE
+Double basses  qn  108.0  start +0.22 s  (limit 0.06)  LATE
+Trombone 1     qn  212.5  start +0.08 s  (limit 0.06)  LATE
+Timpani        qn  277.0  start +0.32 s  (limit 0.06)  LATE
+Violins I      qn  171.0  start +0.17 s  (limit 0.15)  LATE
+Violins II     qn   42.0  start +0.07 s  (limit 0.20)  ok
+Violas         qn  204.0  dip   4.6 dB in the first 0.45 s  (limit 6)  ok
+Violins I      qn  212.0  dip  30.4 dB in the first 0.45 s  (limit 6)  HOLE
+Violins II     qn  212.0  dip  20.7 dB in the first 0.45 s  (limit 6)  HOLE
+Violoncellos   qn  212.0  dip  22.3 dB in the first 0.45 s  (limit 6)  HOLE
+Horn 3         qn    0.0  opening max  -56.2 dB  (limit -70)  ok
+Violins I      qn    0.0  opening max  -52.1 dB  (limit -70)  ok
+Violins II     qn    0.0  opening max  -56.3 dB  (limit -70)  ok
+Violas         qn    0.0  opening max  -55.8 dB  (limit -70)  ok
+Violoncellos   qn    0.0  opening max  -59.0 dB  (limit -70)  ok
+late or hole: 10

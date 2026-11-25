@@ -1,0 +1,10 @@
+ok       Trumpets a2: 0 attacks differ
+ok       Bassoon 1 stac: 0 attacks differ
+ok       Cor anglais stac: 0 attacks differ
+ok       Flute 1 stac: 0 attacks differ
+ok       Cello solo: 0 attacks differ
+ok       Violins I f62: 0 attacks differ
+ok       Violins II f62: 0 attacks differ
+ok       Oboe 1 stac: 0 attacks differ
+ok       Clarinet 1 stac: 0 attacks differ
+state_guard: 9 tracks, 0 stale, 0 missing

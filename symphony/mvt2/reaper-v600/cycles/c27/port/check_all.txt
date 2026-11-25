@@ -1,0 +1,800 @@
+VEL_SET                Trombone 1        218.000  same
+VEL_SET                Trombone 1        212.500  CHANGED: scripts ['accent']->[]
+VEL_SET                Trombone 1        213.000  same
+VEL_SET                Trombone 1        214.500  same
+VEL_SET                Trombone 1        215.000  same
+VEL_SET                Trombone 1        215.500  same
+VEL_SET                Trombone 1        216.000  CHANGED: scripts []->['tenuto']
+VEL_SET                Trombone 1        217.000  same
+VEL_SET                Trombone 1        217.500  same
+VEL_SET                Violoncellos      286.000  CHANGED: pitch [49]->[41]
+VEL_SET                Violas            286.000  CHANGED: pitch [53]->[53, 56]; dur [3.0]->[3.0, 3.0]; next (289.0, (52,))->(289.0, (52, 56))
+VEL_SET                Double basses     286.000  CHANGED: pitch [37]->[29]
+VEL_SET                Oboe 1            148.000  same
+ACCENT_DB_AT           Trombone 1        212.500  CHANGED: scripts ['accent']->[]
+ACCENT_DB_AT           Trombone 1        213.000  same
+ACCENT_DB_AT           Trombone 1        218.000  same
+ACCENT_ART_AT          Trombone 1        212.500  CHANGED: scripts ['accent']->[]
+ACCENT_ART_AT          Trombone 1        213.000  same
+ACCENT_ART_AT          Trombone 1        218.000  same
+ACCENT_SWELL_S_AT      Trombone 1        212.500  CHANGED: scripts ['accent']->[]
+ACCENT_SWELL_S_AT      Trombone 1        213.000  same
+ACCENT_SWELL_S_AT      Trombone 1        218.000  same
+PORT_TARGETS           Violins I          82.000  CHANGED: dyn mf->f
+PORT_TARGETS           Violins I         172.000  same
+PORT_TARGETS           Violins II         82.000  CHANGED: dyn mf->f
+PORT_TARGETS           Violins II        172.000  same
+PORT_TARGETS           Violoncellos       83.000  CHANGED: prev (81.0, (56,))->(82.0, (53,)); dyn mf->f
+BREATH_GAP_AT          Horn 1            195.000  CHANGED: pitch [65]->[63]; dur [1.0]->[0.5]; next (196.0, (66,))->(195.5, (65,))
+BREATH_FALL_CC         Horn 1            195.000  CHANGED: pitch [65]->[63]; dur [1.0]->[0.5]; next (196.0, (66,))->(195.5, (65,))
+MARC_ACC_CUT_AT        Trombone 1        213.000  same
+MERGE_NOTCH_AT         Violoncellos      148.000  CHANGED: dyn mf->mp
+NOTE_TRIM_RAMP_S       Oboe 1             42.000  same
+NOTE_TRIM_RAMP_S       Oboe 1             54.000  same
+NOTE_TRIM_RAMP_S       Oboe 1             45.000  same
+NOTE_TRIM_RAMP_S       Oboe 1            190.000  same
+NOTE_TRIM_RAMP_S       Clarinet 1        256.000  CHANGED: prevfar (255.0, (80,))->(210.0, (80,)); dyn p->mp; hairpins near []->[(256.0, 'cresc')]
+NOTE_TRIM_RAMP_S       Violoncellos      180.000  CHANGED: pitch [51]->[39]; next (182.0, (49,))->(182.0, (36,))
+NOTE_TRIM_RAMP_S       Horns 1-2 a2      261.000  CHANGED: dyn p->mf
+BC_SOFT_SKIP           Violins II         48.000  same
+BC_SOFT_SKIP           Violins II         54.000  CHANGED: hairpins near []->[(54.0, 'cresc')]
+BC_SOFT_SKIP           Violins II         57.000  MISSING (v77 [68])
+BC_SOFT_SKIP           Violins II        146.000  same
+BC_SOFT_SKIP           Violins II        154.000  CHANGED: next (156.0, (78,))->(156.0, (81,))
+BC_SOFT_SKIP           Violins II        159.000  same
+BC_SOFT_SKIP           Violins II        271.000  same
+BC_SOFT_SKIP           Violas            159.000  MISSING (v77 [56])
+BC_SOFT_SKIP           Violoncellos       45.000  same
+BC_SOFT_SKIP           Violoncellos       50.000  same
+BC_SOFT_SKIP           Violoncellos       60.000  CHANGED: dur [2.0]->[1.0]; next (62.0, (46,))->(61.0, (51,))
+BC_SOFT_SKIP           Violoncellos       62.000  CHANGED: pitch [46]->[52, 56]; dur [1.0]->[1.0, 1.0]; prev (60.0, (49,))->(61.0, (51,))
+BC_SOFT_SKIP           Violoncellos      132.000  CHANGED: next (134.0, (51,))->(134.0, (44,))
+BC_SOFT_SKIP           Violoncellos      144.000  CHANGED: next (145.0, (56,))->(145.0, (57,)); dyn p->pp
+BC_SOFT_SKIP           Violoncellos      160.000  CHANGED: pitch [54]->[45]; prev (159.0, (49,))->(158.0, (47,))
+BC_SOFT_SKIP           Violoncellos      220.000  CHANGED: prev (219.0, (52,))->(219.5, (46,))
+NOTCH_SKIP             Violins I         295.000  same
+NOTCH_SKIP             Violins I         298.000  same
+NOTCH_SKIP             Violins I         301.000  same
+NOTCH_SKIP             Violins II        289.000  same
+NOTCH_SKIP             Violins II        292.000  same
+REP_RETONGUE_AT        Horn 4              9.000  same
+REP_RETONGUE_AT        Horn 4             12.000  same
+REP_RETONGUE_AT        Horn 4             15.000  same
+REP_RETONGUE_AT        Bass clarinet       9.000  same
+REP_RETONGUE_AT        Bass clarinet      12.000  same
+REP_RETONGUE_AT        Bass clarinet      15.000  same
+REP_RETONGUE_AT        Horn 3            292.000  same
+REP_RETONGUE_AT        Bassoon 2          23.000  CHANGED: scripts []->['tenuto']
+REP_RETONGUE_AT        Bassoon 2         235.000  CHANGED: dur [2.0]->[3.0]
+ABUT_LEAD.at           Bassoon 1          27.000  CHANGED: prev (24.0, (56,))->(26.0, (53,))
+ABUT_LEAD.at           Bassoon 1          35.000  same
+ABUT_LEAD.at           Bassoon 1          36.000  same
+ABUT_LEAD.at           Bassoon 1          38.000  same
+TIMP_VEL               Timpani           278.500  same
+TIMP_VEL               Timpani           279.000  same
+TIMP_TIE_STROKES       Timpani           203.000  same
+TIMP_TIE_STROKES       Timpani           211.000  MISSING (v77 [44])
+REBOW_AT               Violins I         295.000  same
+REBOW_AT               Violins I         298.000  same
+REBOW_AT               Violins I         301.000  same
+REBOW_AT               Violins I         302.750  same
+REBOW_AT               Violins II        289.000  same
+REBOW_AT               Violins II        290.900  same
+REBOW_AT               Violins II        293.000  same
+REBOW_AT               Violins II        295.800  same
+REBOW_AT               Violins II        297.600  same
+REBOW_AT               Violins II        300.200  same
+REBOW_AT               Violins II        302.200  same
+REBOW_AT               Violins II        303.400  same
+REBOW_AT               Violas            294.100  CHANGED held [(292.0, 51, 3.0)]->[(292.0, 51, 3.0), (292.0, 56, 3.0)]
+REBOW_AT               Violas            296.900  CHANGED held [(295.0, 51, 3.0)]->[(295.0, 51, 3.0), (295.0, 56, 3.0)]
+REBOW_AT               Violas            299.200  CHANGED held [(298.0, 51, 3.0)]->[(298.0, 51, 3.0), (298.0, 56, 3.0)]
+REBOW_AT               Violas            301.500  CHANGED held [(301.0, 51, 3.0)]->[(301.0, 51, 3.0), (301.0, 56, 3.0)]
+REBOW_AT               Violas            303.100  CHANGED held [(301.0, 51, 3.0)]->[(301.0, 51, 3.0), (301.0, 56, 3.0)]
+REBOW_AT               Violoncellos      293.600  same
+REBOW_AT               Violoncellos      296.300  same
+REBOW_AT               Violoncellos      298.600  same
+REBOW_AT               Violoncellos      300.600  same
+REBOW_AT               Violoncellos      302.350  same
+REBOW_AT               Double basses     294.500  same
+REBOW_AT               Double basses     297.200  same
+REBOW_AT               Double basses     299.800  same
+REBOW_AT               Double basses     302.000  same
+REBOW_AT               Double basses     303.300  same
+HP_TARGET_AT           Hn3               268.000  CHANGED: notes under it changed
+HP_TARGET_AT           Hn4               268.000  CHANGED: notes under it changed
+SWELL_NO_SOFT_GAIN     Horn 1             20.000  CHANGED: end 24.0->21.0; notes under it changed
+SWELL_NO_SOFT_GAIN     Violins I          68.000  CHANGED: end 72.0->69.0; notes under it changed
+SWELL_NO_SOFT_GAIN     Violins I         240.000  CHANGED: end 244.0->241.0; notes under it changed
+SWELL_NO_SOFT_GAIN     Violins II         68.000  CHANGED: end 72.0->69.0; notes under it changed
+SWELL_NO_SOFT_GAIN     Violins II        240.000  CHANGED: end 244.0->241.0; notes under it changed
+SWELL_SOFT_GAIN_AT     Violins I         240.000  CHANGED: end 244.0->241.0; notes under it changed
+SWELL_SOFT_GAIN_AT     Violins II        240.000  CHANGED: end 244.0->241.0; notes under it changed
+HP_SOFT_DEC_AT         Oboe 1            148.000  same
+HP_SOFT_DEC_AT         Oboe 1             57.000  same
+HP_SOFT_GAIN_AT        Violin I solo      48.000  CHANGED: end 53.0->51.0; notes under it changed
+HP_SOFT_GAIN_AT        Violin I solo      60.000  same
+HP_SOFT_GAIN_AT        Horn 1             32.000  CHANGED: target [(34.0, 'mp'), (39.0, 'p'), (175.0, 'p'), (180.0, 'mp'), (188.0, 'mp'), (196.0, 'f'), (226.0, 'p'), (229.0, 'mp'), (235.0, 'pp'), (261.0, 'p'), (262.0, 'f'), (271.0, 'p')]->[(34.0, 'mp'), (39.0, 'p'), (175.0, 'pp'), (182.0, 'mp'), (188.0, 'mp'), (196.0, 'f'), (204.0, 'ff'), (226.0, 'p'), (229.0, 'mp'), (235.0, 'pp'), (261.0, 'mf'), (262.0, 'f'), (271.0, 'p')]; notes under it changed
+HP_SOFT_GAIN_AT        Horn 1            176.000  CHANGED: dyn p->pp; target [(180.0, 'mp'), (188.0, 'mp'), (196.0, 'f'), (226.0, 'p'), (229.0, 'mp'), (235.0, 'pp'), (261.0, 'p'), (262.0, 'f'), (271.0, 'p')]->[(182.0, 'mp'), (188.0, 'mp'), (196.0, 'f'), (204.0, 'ff'), (226.0, 'p'), (229.0, 'mp'), (235.0, 'pp'), (261.0, 'mf'), (262.0, 'f'), (271.0, 'p')]; notes under it changed
+HP_SOFT_GAIN_AT        Flute 1           126.000  CHANGED: end None->195.0; dyn p->pp; target []->[(128.0, 'p'), (136.0, 'pp'), (188.0, 'p')]; notes under it changed
+HP_SOFT_ACC_SKIP       Violins I         298.000  same
+HP_SOFT_ACC_SKIP       Violins II        298.000  same
+HP_SOFT_ACC_SKIP       Violas            298.000  CHANGED: notes under it changed
+HP_SOFT_ACC_SKIP       Violoncellos      298.000  same
+HP_SOFT_ACC_SKIP       Double basses     298.000  same
+HP_SOFT_ACC_SKIP       Violins I         283.000  no hairpin in v77 (v600 [])
+HP_SOFT_ACC_SKIP       Violins II        283.000  no hairpin in v77 (v600 [])
+HP_SOFT_ACC_SKIP       Violas            283.000  same
+HP_SOFT_ACC_SKIP       Violoncellos      283.000  same
+HP_SOFT_ACC_SKIP       Double basses     283.000  same
+JOIN_NOTCH             Violins I          67.860  [67.86-68.02 -3.0] 68.0: CHANGED: hairpins near [(68.0, 'cresc')]->[(68.0, 'cresc'), (69.0, 'decresc')]
+JOIN_NOTCH             Violins I          71.900  [71.9-72.08 -4.5] 72.0: same
+JOIN_NOTCH             Violins I          73.370  [73.37-73.55 -5.5] 73.5: same
+JOIN_NOTCH             Violins I          74.900  [74.9-74.98 -3.0] 75.0: same
+JOIN_NOTCH             Violins I          79.860  [79.86-80.03 -3.0] 80.0: same
+JOIN_NOTCH             Violins I         207.800  [207.8-207.97 -4.0] 208.0: CHANGED: prevfar (204.0, (85,))->(206.0, (85,)); next (210.0, (88,))->(210.0, (88, 92))
+JOIN_NOTCH             Violins I         249.370  [249.37-249.44 -3.5] 249.5: CHANGED: pitch [77]->[65]; prev (249.0, (75,))->(249.0, (63,)); next (250.0, (80,))->(250.0, (68,)); dyn p->mp
+JOIN_NOTCH             Violins I          86.380  [86.38-86.51 -5.5] 86.5: CHANGED: dyn mf->f
+JOIN_NOTCH             Violins I         258.850  [258.85-258.93 -5.5] 259.0: same
+JOIN_NOTCH             Violoncellos       68.370  [68.37-68.49 -8.0] 68.5: same
+JOIN_NOTCH             Violoncellos      181.850  [181.85-181.99 -3.5] 182.0: CHANGED: pitch [49]->[36]; prev (180.0, (51,))->(180.0, (39,))
+JOIN_NOTCH             Violoncellos      240.370  [240.37-240.45 -5.0] 240.5: same
+JOIN_NOTCH             Violoncellos      200.520  [200.52-200.9 -5.0] 201.0: same
+JOIN_NOTCH             Violoncellos      202.840  [202.84-202.97 -3.0] 203.0: MISSING (v77 [53])
+JOIN_NOTCH             Violoncellos      285.750  [285.75-286.3 -3.0] 286.0: CHANGED: pitch [49]->[41]
+JOIN_NOTCH             Violoncellos      274.700  [274.7-275.3 -3.0] no v77 note near
+JOIN_NOTCH             Violoncellos      292.600  [292.6-293.0 3.0] no v77 note near
+JOIN_NOTCH             Violins II        177.350  [177.35-177.52 -4.3] 177.5: same
+JOIN_NOTCH             Violins II        242.990  [242.99-243.05 -3.3] 243.0: CHANGED: hairpins near [(242.0, 'decresc')]->[]
+JOIN_NOTCH             Violins II        245.390  [245.39-245.47 -3.9] 245.5: same
+JOIN_NOTCH             Violins II        270.410  [270.41-270.5 -5.0] 270.5: same
+JOIN_NOTCH             Violins II         73.330  [73.33-73.42 -4.0] 73.5: same
+JOIN_NOTCH             Violins II         82.840  [82.84-82.91 -3.5] 83.0: CHANGED: dyn mf->f
+JOIN_NOTCH             Violins II         86.400  [86.4-86.5 -4.0] 86.5: CHANGED: dyn mf->f
+JOIN_NOTCH             Violins II        258.810  [258.81-258.98 -4.0] 259.0: same
+JOIN_NOTCH             Violin I solo      52.990  [52.99-53.15 -4.0] 53.0: same
+JOIN_NOTCH             Violin I solo      50.890  [50.89-50.93 -2.5] 51.0: same
+JOIN_NOTCH             Horn 1             29.880  [29.88-30.01 -2.5] 30.0: same
+JOIN_NOTCH             Violas            161.860  [161.86-161.96 -3.9] 162.0: MISSING (v77 [62])
+JOIN_NOTCH             Violas            286.000  [286.0-286.4 -3.0] 286.0: CHANGED: pitch [53]->[53, 56]; dur [3.0]->[3.0, 3.0]; next (289.0, (52,))->(289.0, (52, 56))
+JOIN_NOTCH             Violas             56.810  [56.81-56.93 -6.0] 57.0: same
+JOIN_NOTCH             Violas            292.620  [292.62-292.98 2.5] no v77 note near
+JOIN_NOTCH             Oboe 1            144.810  [144.81-144.92 -4.0] 145.0: CHANGED: pitch [68]->[69]
+JOIN_NOTCH             Oboe 1             56.970  [56.97-57.04 -2.5] 57.0: same
+JOIN_NOTCH             Cor anglais       155.410  [155.41-155.57 -3.5] 155.5: same
+JOIN_NOTCH             Flute 1           258.860  [258.86-258.93 -2.0] 259.0: same
+JOIN_NOTCH             Flute 1           266.000  [266.0-266.25 -5.0] 266.0: same
+JOIN_NOTCH             Violas div         83.820  [83.82-83.98 -4.5] 84.0: CHANGED: prev (83.0, (61, 65))->(83.0, (65,))
+JOIN_NOTCH             Double basses      64.120  [64.12-64.5 -4.0] no v77 note near
+JOIN_NOTCH             Double basses      76.100  [76.1-76.62 -5.0] no v77 note near
+JOIN_NOTCH             Double basses      85.100  [85.1-85.62 -6.0] no v77 note near
+JOIN_NOTCH             Double basses     285.950  [285.95-286.3 -3.0] 286.0: CHANGED: pitch [37]->[29]
+JOIN_NOTCH             Double basses     292.480  [292.48-292.95 3.0] no v77 note near
+JOIN_NOTCH             Bass clarinet      93.030  [93.03-93.33 -4.5] 93.0: CHANGED: pitch [63]->[51]; prev (92.5, (60,))->(92.5, (48,)); next (96.0, (63,))->(96.0, (51,)); dyn mp->p
+JOIN_NOTCH             Bass clarinet      93.390  [93.39-93.85 4.0] no v77 note near
+JOIN_NOTCH             Bass clarinet      93.890  [93.89-94.15 1.5] no v77 note near
+MARCATO_SPANS          Trombone 1        212.500  same
+LEAD_SPANS             Horn 1             17.000  to 40: same
+LEAD_SPANS             Horn 1            226.000  to 236: CHANGED: notes 6->6 (-1 +1)
+LEAD_SPANS             Oboe 1             42.000  to 60: same
+LEAD_SPANS             Oboe 1            139.000  to 152: CHANGED: notes 10->10 (-1 +1)
+LEAD_SPANS             Violin I solo      48.000  to 65: same
+LEAD_SPANS             Violins I          65.000  to 90: CHANGED: dyn [(65.0, 'mp'), (82.0, 'mf'), (87.0, 'p'), (89.0, 'pp')]->[(65.0, 'mp'), (82.0, 'f'), (87.0, 'p'), (89.0, 'pp')]
+LEAD_SPANS             Violins I         237.000  to 262: CHANGED: notes 27->30 (-10 +13); dyn [(237.0, 'p'), (250.0, 'mp'), (259.0, 'f')]->[(237.0, 'p'), (249.0, 'mp'), (259.0, 'f')]
+LEAD_SPANS             Violins II         65.000  to 90: CHANGED: dyn [(65.0, 'mp'), (82.0, 'mf'), (87.0, 'p'), (89.0, 'pp')]->[(65.0, 'mp'), (82.0, 'f'), (87.0, 'p'), (89.0, 'pp')]
+LEAD_SPANS             Violins II        237.000  to 262: CHANGED: notes 27->30 (-1 +4); dyn [(237.0, 'p'), (250.0, 'mp'), (259.0, 'f')]->[(237.0, 'p'), (249.0, 'mp'), (259.0, 'f')]
+LEAD_SPANS             Bass clarinet      90.000  to 109: CHANGED: notes 15->15 (-15 +15); dyn [(91.0, 'mp'), (96.0, 'mf'), (99.0, 'p'), (105.0, 'pp'), (108.0, 'p')]->[(91.0, 'p'), (96.0, 'mf'), (99.0, 'mp'), (105.0, 'pp'), (108.0, 'p')]
+LEAD_SPANS             Cor anglais       124.000  to 171: same
+LEAD_SPANS             Flute 1           124.000  to 129: CHANGED: notes 3->3 (-3 +3); dyn [(128.0, 'mp')]->[(126.0, 'pp'), (128.0, 'p')]
+LEAD_SPANS             Clarinet 1        280.000  to 292: same
+HP_SOFT_EXTRA_SPANS    Horn 1            174.000  to 184: CHANGED: notes 7->7 (-2 +2); dyn [(175.0, 'p'), (180.0, 'mp')]->[(175.0, 'pp'), (182.0, 'mp')]
+LEG_CAP_FRAC           Violas            108.000  to 124.0: CHANGED: notes 45->45 (-10 +10)
+LEG_CAP_FRAC           Violas            186.000  to 192.0: CHANGED: notes 12->12 (-1 +1); dyn at start pp->p
+SHARED_DYN             Bassoon 1         259.000  NEW NOTE (v77 had none; v600 [59]) | dyn marks Bn1/Bn2 at q: [(259.0, 'f')]/[(259.0, 'f')]
+note_trims             Oboe 1             45.000  same
+note_trims             Oboe 1            190.000  same
+note_trims             Oboe 1            194.000  CHANGED: prev (193.5, (80,))->(193.5, (78,)); hairpins near []->[(195.0, 'decresc')]
+note_trims             Oboe 1             57.000  same
+note_trims             Oboe 1            148.000  same
+note_trims             Oboe 1             42.000  same
+note_trims             Oboe 1             54.000  same
+note_trims             Oboe 1            144.000  CHANGED: next (145.0, (68,))->(145.0, (69,))
+note_trims             Oboe 1            145.500  CHANGED: prev (145.0, (68,))->(145.0, (69,))
+note_trims             Cor anglais       152.000  same
+note_trims             Flute 1           254.000  MISSING (v77 [94])
+note_trims             Flute 1           129.000  CHANGED: pitch [82]->[78]; prev (128.0, (80,))->(128.0, (77,)); next (129.5, (80,))->(129.5, (77,)); dyn mp->p; hairpins near [(128.0, 'decresc')]->[]
+note_trims             Flute 1           129.500  CHANGED: pitch [80]->[77]; prev (129.0, (82,))->(129.0, (78,)); next (130.0, (78,))->(130.0, (75,)); dyn mp->p
+note_trims             Flute 1           271.000  same
+note_trims             Flute 1           258.000  CHANGED: dyn p->mp
+note_trims             Flute 1           110.000  same
+note_trims             Flute 1           110.500  same
+note_trims             Flute 1           113.000  CHANGED: hairpins near []->[(112.0, 'decresc')]
+note_trims             Flute 1           113.500  same
+note_trims             Flute 1           117.000  CHANGED: hairpins near []->[(116.0, 'cresc'), (118.0, 'decresc')]
+note_trims             Flute 1           117.333  CHANGED: hairpins near []->[(118.0, 'decresc')]
+note_trims             Flute 1           117.667  CHANGED: hairpins near []->[(118.0, 'decresc')]
+note_trims             Clarinet 1        256.000  CHANGED: prevfar (255.0, (80,))->(210.0, (80,)); dyn p->mp; hairpins near []->[(256.0, 'cresc')]
+note_trims             Clarinet 1        262.000  same
+note_trims             Clarinet 1        266.000  same
+note_trims             Clarinet 1        204.000  CHANGED: pitch [68]->[77]; dur [2.0]->[4.0]; next (206.0, (73,))->(208.0, (77,))
+note_trims             Bass clarinet      93.000  CHANGED: pitch [63]->[51]; prev (92.5, (60,))->(92.5, (48,)); next (96.0, (63,))->(96.0, (51,)); dyn mp->p
+note_trims             Bass clarinet     108.000  CHANGED: pitch [61]->[49]; prev (107.0, (60,))->(107.0, (48,)); hairpins near []->[(108.0, 'decresc')]
+note_trims             Bassoon 1         184.000  CHANGED: prev (182.0, (53,))->(182.0, (48,))
+note_trims             Bassoon 1         196.000  same
+note_trims             Bassoon 1         208.000  CHANGED: pitch [54]->[65]; prev (204.0, (53,))->(206.0, (61,)); next (210.0, (56,))->(210.0, (64,))
+note_trims             Bassoon 1         262.000  CHANGED: hairpins near []->[(261.0, 'cresc')]
+note_trims             Bassoon 1         269.000  CHANGED: scripts []->['tenuto']
+note_trims             Bassoon 1         231.000  same
+note_trims             Bassoon 2         172.000  MISSING (v77 [49])
+note_trims             Bassoon 2         182.000  MISSING (v77 [49])
+note_trims             Bassoon 2         190.000  CHANGED: dyn mp->p
+note_trims             Bassoon 2         196.000  CHANGED: pitch [54]->[42]; next (198.0, (55,))->(198.0, (43,))
+note_trims             Bassoon 2         252.000  same
+note_trims             Bassoon 2         253.000  CHANGED: scripts []->['tenuto']
+note_trims             Bassoon 2         259.000  same
+note_trims             Violoncellos      139.000  CHANGED: dyn p->pp
+note_trims             Violoncellos      164.000  CHANGED: pitch [51]->[48]; next (168.0, (51,))->(168.0, (50,))
+note_trims             Violoncellos      180.000  CHANGED: pitch [51]->[39]; next (182.0, (49,))->(182.0, (36,))
+note_trims             Violoncellos      238.000  same
+note_trims             Violoncellos        3.000  same
+note_trims             Violoncellos      190.000  same
+note_trims             Violoncellos      253.000  same
+note_trims             Violoncellos      261.000  CHANGED: pitch [56]->[60]; hairpins near []->[(261.0, 'cresc')]
+note_trims             Violoncellos       81.000  CHANGED: dur [2.0]->[1.0]; next (83.0, (61,))->(82.0, (53,))
+note_trims             Violoncellos       72.000  CHANGED: hairpins near []->[(72.0, 'cresc')]
+note_trims             Violoncellos       74.000  CHANGED: hairpins near []->[(74.0, 'decresc')]
+note_trims             Violoncellos      244.000  CHANGED: hairpins near []->[(244.0, 'cresc')]
+note_trims             Violoncellos      246.000  CHANGED: next (247.0, (58,))->(247.0, (60,)); hairpins near []->[(246.0, 'decresc')]
+note_trims             Violoncellos      193.000  CHANGED: next (195.0, (53,))->(195.0, (51,))
+note_trims             Violoncellos      204.000  CHANGED: prev (203.0, (53,))->(202.0, (54,))
+note_trims             Violoncellos      265.000  CHANGED: dyn f->ff
+note_trims             Oboe 2            262.000  CHANGED: prevfar (210.0, (76,))->(210.0, (68,))
+note_trims             Violas            220.000  same
+note_trims             Violas             54.000  same
+note_trims             Violas             48.000  same
+note_trims             Timpani           271.000  MISSING (v77 [44])
+note_trims             Flute 2           262.000  same
+note_trims             Horn 4            286.000  CHANGED: prevfar (268.0, (55,))->(270.0, (51,))
+note_trims             Horn 4            289.000  same
+note_trims             Violins I          80.000  same
+note_trims             Violins I          82.000  CHANGED: dyn mf->f
+note_trims             Violins I          68.000  CHANGED: hairpins near [(68.0, 'cresc')]->[(68.0, 'cresc'), (69.0, 'decresc')]
+note_trims             Violins I          72.000  same
+note_trims             Violins I          83.000  CHANGED: dyn mf->f
+note_trims             Violins I          84.000  CHANGED: dyn mf->f
+note_trims             Violins II         80.000  same
+note_trims             Violins II         68.000  CHANGED: hairpins near [(68.0, 'cresc')]->[(68.0, 'cresc'), (69.0, 'decresc')]
+note_trims             Violins II         70.000  CHANGED: hairpins near [(70.0, 'decresc')]->[(69.0, 'decresc')]
+note_trims             Violins II         82.000  CHANGED: dyn mf->f
+note_trims             Violins II         83.000  CHANGED: dyn mf->f
+note_trims             Violins II         84.000  CHANGED: dyn mf->f
+note_trims             Horn 1             32.000  same
+note_trims             Horn 1            264.000  same
+note_trims             Horn 1            180.000  CHANGED: pitch [66]->[70]; next (182.0, (65,))->(182.0, (66,)); dyn mp->pp
+note_trims             Violin I solo      48.500  same
+note_trims             Violin I solo      53.000  same
+note_trims             Harp               26.000  CHANGED: prev (25.0, (51, 56))->(25.0, (48, 51))
+note_trims             Harp harmonics    276.000  CHANGED: dyn mp->p
+note_trims             Horns 1-2 a2      261.000  CHANGED: dyn p->mf
+entry_leads            Violins I           0.000  same
+entry_leads            Violins I         171.000  same
+entry_leads            Violins I         292.000  same
+entry_leads            Violins I          65.000  same
+entry_leads            Violins II         42.000  CHANGED: scripts ['tenuto']->['tenuto', 'upbow']; hairpins near []->[(42.0, 'cresc')]
+entry_leads            Violins II        108.000  CHANGED: pitch [61, 65]->[61, 68]; next (112.0, (61, 66))->(112.0, (61, 70))
+entry_leads            Violins II        286.000  same
+entry_leads            Violins II          0.000  same
+entry_leads            Violas             54.000  same
+entry_leads            Violas            140.000  CHANGED: prevfar (137.6667, (60,))->(137.6667, (54,)); next (144.0, (53,))->(144.0, (49,))
+entry_leads            Violas              0.000  same
+entry_leads            Violas             42.000  same
+entry_leads            Violas             66.000  same
+entry_leads            Violas            238.000  same
+entry_leads            Violas            277.000  MISSING (v77 [60, 63])
+entry_leads            Violoncellos        0.000  same
+entry_leads            Violoncellos      152.000  same
+entry_leads            Double basses      60.000  CHANGED: dur [2.0]->[1.0]; next (62.0, (34,))->(61.0, (39,))
+entry_leads            Double basses     140.000  same
+entry_leads            Horn 1            226.000  CHANGED: prevfar (203.0, (65,))->(210.0, (68,))
+entry_leads            Horn 1            261.000  CHANGED: dyn p->mf
+entry_leads            Oboe 1            268.000  same
+entry_leads            Clarinet 1        268.000  same
+entry_leads            Clarinet 1        280.000  same
+entry_leads            Clarinet 2        268.000  CHANGED: pitch [67]->[73]; dur [3.0]->[1.0]; next (271.0, (68,))->(269.0, (67,))
+entry_leads            Violin I solo      48.000  same
+entry_leads            Violin I solo      60.000  same
+entry_leads            Horn 3            204.000  CHANGED: prevfar (87.0, (51,))->(87.0, (60,))
+entry_leads            Flute 2           262.000  same
+entry_leads            Bassoon 2         268.000  same
+entry_leads            Horns 1-2 a2      261.000  CHANGED: dyn p->mf
+entry_leads            Violins II div    108.000  CHANGED: pitch [61, 65]->[61, 68]; next (112.0, (61, 66))->(112.0, (61, 70))
+entry_leads            Violas div         66.000  same
+entry_leads            Violas div        277.000  MISSING (v77 [60, 63])
+entry_leads            Bassoon 1         229.000  CHANGED: prevfar (210.0, (56,))->(210.0, (64,))
+entry_leads            Bassoon 1         196.000  same
+early_fills            Flute 1           111.000  CHANGED: hairpins near []->[(112.0, 'decresc')]
+early_fills            Flute 1           118.000  CHANGED: hairpins near []->[(118.0, 'decresc')]
+early_fills            Flute 1           132.000  CHANGED: pitch [75]->[78]; next (133.5, (77,))->(133.5, (80,)); dyn mp->p; hairpins near []->[(131.0, 'decresc')]
+early_fills            Flute 1           134.000  CHANGED: pitch [73]->[77]; prev (133.5, (77,))->(133.5, (80,)); next (135.0, (70,))->(135.0, (75,)); dyn mp->p
+early_fills            Flute 1           189.000  same
+early_fills            Flute 1           198.000  same
+early_fills            Flute 1           250.000  MISSING (v77 [80])
+early_fills            Flute 1           256.000  CHANGED: prev (255.0, (92,))->(212.0, (93,)); dyn p->mp; hairpins near []->[(256.0, 'cresc')]
+early_fills            Flute 1           190.000  same
+early_fills            Flute 1           252.000  MISSING (v77 [89])
+early_fills            Flute 1           270.500  same
+early_fills            Flute 1           112.000  CHANGED: hairpins near []->[(112.0, 'decresc')]
+early_fills            Flute 1           119.000  CHANGED: hairpins near []->[(118.0, 'decresc')]
+early_fills            Flute 1           120.000  CHANGED: dur [2.0]->[1.0]; next (122.0, (70,))->(121.0, (73,))
+early_fills            Flute 1           122.000  CHANGED: prevfar (120.0, (72,))->(121.5, (72,)); next (126.0, (77,))->(126.0, (80,))
+early_fills            Flute 1           128.000  CHANGED: pitch [80]->[77]; prev (127.5, (78,))->(127.5, (82,)); next (129.0, (82,))->(129.0, (78,)); dyn mp->p; hairpins near [(128.0, 'decresc')]->[]
+early_fills            Flute 1           129.500  CHANGED: pitch [80]->[77]; prev (129.0, (82,))->(129.0, (78,)); next (130.0, (78,))->(130.0, (75,)); dyn mp->p
+early_fills            Flute 1           135.000  CHANGED: pitch [70]->[75]; prev (134.0, (73,))->(134.0, (77,)); next (136.0, (72,))->(136.0, (75,)); dyn mp->p
+early_fills            Flute 1           191.500  same
+early_fills            Flute 1           192.000  CHANGED: dur [1.0]->[1.5]; next (193.0, (94,))->(193.5, (90,))
+early_fills            Flute 1           193.000  MISSING (v77 [94])
+early_fills            Flute 1           194.000  CHANGED: prev (193.5, (92,))->(193.5, (90,)); hairpins near []->[(195.0, 'decresc')]
+early_fills            Flute 1           195.500  CHANGED: hairpins near []->[(195.0, 'decresc')]
+early_fills            Flute 1           196.000  CHANGED: hairpins near []->[(195.0, 'decresc')]
+early_fills            Flute 1           257.500  CHANGED: dyn p->mp
+early_fills            Flute 1           258.500  CHANGED: dyn p->mp
+early_fills            Oboe 1             47.000  same
+early_fills            Oboe 1             56.000  same
+early_fills            Oboe 1             59.000  same
+early_fills            Oboe 1            140.000  same
+early_fills            Oboe 1            143.000  same
+early_fills            Oboe 1            189.000  same
+early_fills            Oboe 1            262.000  same
+early_fills            Oboe 1            270.500  same
+early_fills            Oboe 1             55.500  same
+early_fills            Oboe 1             57.000  same
+early_fills            Oboe 1            271.000  same
+early_fills            Oboe 1            270.000  same
+early_fills            Oboe 1            142.000  same
+early_fills            Oboe 1            142.500  same
+early_fills            Oboe 1            145.000  CHANGED: pitch [68]->[69]
+early_fills            Oboe 1             43.500  same
+early_fills            Oboe 1             45.000  same
+early_fills            Oboe 1             55.000  same
+early_fills            Oboe 1            146.000  same
+early_fills            Oboe 1            190.000  same
+early_fills            Oboe 1            196.000  CHANGED: hairpins near []->[(195.0, 'decresc')]
+early_fills            Oboe 1            198.000  same
+early_fills            Oboe 1            200.000  same
+early_fills            Oboe 1            266.000  same
+early_fills            Oboe 1            269.000  same
+early_fills            Oboe 1            193.000  MISSING (v77 [82])
+early_fills            Cor anglais        98.000  same
+early_fills            Cor anglais       134.000  same
+early_fills            Cor anglais       135.000  same
+early_fills            Cor anglais       136.000  same
+early_fills            Cor anglais        99.000  CHANGED: next (124.0, (56,))->(107.0, (72,))
+early_fills            Cor anglais       129.500  same
+early_fills            Cor anglais       133.500  same
+early_fills            Cor anglais       132.000  CHANGED: hairpins near []->[(131.0, 'decresc')]
+early_fills            Cor anglais       168.000  same
+early_fills            Cor anglais        97.000  same
+early_fills            Cor anglais       126.000  same
+early_fills            Cor anglais       128.000  CHANGED: hairpins near [(128.0, 'decresc')]->[]
+early_fills            Cor anglais       129.000  CHANGED: hairpins near [(128.0, 'decresc')]->[]
+early_fills            Cor anglais       131.500  CHANGED: hairpins near []->[(131.0, 'decresc')]
+early_fills            Cor anglais       125.000  same
+early_fills            Cor anglais       152.000  same
+early_fills            Cor anglais       163.000  same
+early_fills            Cor anglais       130.000  CHANGED: hairpins near []->[(131.0, 'decresc')]
+early_fills            Clarinet 1        252.000  MISSING (v77 [77])
+early_fills            Clarinet 1        266.000  same
+early_fills            Clarinet 1        184.000  CHANGED: prev (182.0, (65,))->(182.0, (66,))
+early_fills            Clarinet 1        186.000  CHANGED: next (188.0, (65,))->(190.0, (73,))
+early_fills            Clarinet 1        176.000  same
+early_fills            Clarinet 1        182.000  CHANGED: pitch [65]->[66]; prev (180.0, (66,))->(180.0, (70,))
+early_fills            Clarinet 1        251.500  MISSING (v77 [72])
+early_fills            Clarinet 1        257.500  CHANGED: dyn p->mp
+early_fills            Clarinet 1        269.500  same
+early_fills            Clarinet 1        283.000  same
+early_fills            Clarinet 1        178.000  CHANGED: next (180.0, (66,))->(180.0, (70,))
+early_fills            Bassoon 1         264.000  same
+early_fills            Bassoon 1         267.000  CHANGED: scripts []->['tenuto']
+early_fills            Bassoon 1         231.000  same
+early_fills            Bassoon 1         262.000  CHANGED: hairpins near []->[(261.0, 'cresc')]
+early_fills            Bassoon 1         269.000  CHANGED: scripts []->['tenuto']
+early_fills            Horn 1             39.000  same
+early_fills            Horn 1            176.000  CHANGED: dyn p->pp
+early_fills            Horn 1            184.000  CHANGED: prev (182.0, (65,))->(182.0, (66,))
+early_fills            Horn 1            188.000  same
+early_fills            Horn 1            199.000  same
+early_fills            Horn 1            203.000  MISSING (v77 [65])
+early_fills            Horn 1             22.000  CHANGED: hairpins near [(22.0, 'decresc')]->[(21.0, 'decresc')]
+early_fills            Horn 1             24.000  same
+early_fills            Horn 1             37.500  same
+early_fills            Horn 1            195.000  CHANGED: pitch [65]->[63]; dur [1.0]->[0.5]; next (196.0, (66,))->(195.5, (65,))
+early_fills            Horn 1            200.000  same
+early_fills            Horn 1            201.000  same
+early_fills            Horn 1            231.000  same
+early_fills            Horn 1            263.000  same
+early_fills            Horn 1            267.000  CHANGED: scripts []->['tenuto']
+early_fills            Horn 1            269.000  CHANGED: scripts []->['tenuto']
+early_fills            Horn 1            271.000  same
+early_fills            Horn 1             27.000  same
+early_fills            Horn 1            180.000  CHANGED: pitch [66]->[70]; next (182.0, (65,))->(182.0, (66,)); dyn mp->pp
+early_fills            Horn 1            202.000  CHANGED: dur [1.0]->[2.0]; next (203.0, (65,))->(204.0, (65,))
+early_fills            Horn 1             36.000  same
+early_fills            Horn 1             26.000  same
+early_fills            Horn 2            252.000  CHANGED: dyn mp->p
+early_fills            Horn 2            258.000  CHANGED: dyn mf->mp
+early_fills            Horn 2            210.000  CHANGED: pitch [68]->[64]; prev (208.0, (66,))->(208.0, (61,)); dyn f->ff
+early_fills            Bass clarinet      92.500  CHANGED: pitch [60]->[48]; prev (92.0, (56,))->(92.0, (44,)); next (93.0, (63,))->(93.0, (51,)); dyn mp->p
+early_fills            Bass clarinet      92.000  CHANGED: pitch [56]->[44]; prev (91.5, (53,))->(91.5, (41,)); next (92.5, (60,))->(92.5, (48,)); dyn mp->p
+early_fills            Bass clarinet      98.000  CHANGED: pitch [61]->[49]; prev (97.0, (62,))->(97.0, (50,)); next (99.0, (60,))->(99.0, (48,))
+early_fills            Bass clarinet      99.000  CHANGED: pitch [60]->[48]; prev (98.0, (61,))->(98.0, (49,)); next (101.0, (58,))->(101.0, (46,)); dyn p->mp
+early_fills            Bass clarinet      91.500  CHANGED: pitch [53]->[41]; prev (91.0, (51,))->(91.0, (39,)); next (92.0, (56,))->(92.0, (44,)); dyn mp->p
+early_fills            Violas            244.000  same
+early_fills            Violas            245.500  same
+early_fills            Violas            254.500  CHANGED: next (255.0, (61,))->(255.0, (65,))
+early_fills            Violas            251.500  CHANGED: prev (251.0, (68,))->(251.0, (56,))
+early_fills            Violas             42.000  same
+early_fills            Violins II         59.000  CHANGED: prev (57.0, (68,))->(56.0, (67,)); scripts ['tenuto']->['tenuto', 'upbow']
+early_fills            Violins II         60.000  CHANGED: dur [2.0]->[1.0]; next (62.0, (65,))->(61.0, (60,))
+early_fills            Violins II         65.000  same
+early_fills            Violins II         66.000  same
+early_fills            Violins II        172.000  same
+early_fills            Violins II         65.500  same
+early_fills            Violins II         74.000  same
+early_fills            Violins II         80.000  same
+early_fills            Violins II         84.000  CHANGED: dyn mf->f
+early_fills            Violins II         87.000  CHANGED: next (108.0, (61, 65))->(108.0, (61, 68))
+early_fills            Violins II        240.000  CHANGED: hairpins near [(240.0, 'cresc')]->[(240.0, 'cresc'), (241.0, 'decresc')]
+early_fills            Violins II        108.000  CHANGED: pitch [61, 65]->[61, 68]; next (112.0, (61, 66))->(112.0, (61, 70))
+early_fills            Violoncellos       77.000  CHANGED: prev (75.0, (58,))->(76.0, (56,))
+early_fills            Violoncellos       86.000  CHANGED: dyn mf->f
+early_fills            Violoncellos       68.000  same
+early_fills            Violoncellos       78.000  same
+early_fills            Violoncellos       74.000  CHANGED: hairpins near []->[(74.0, 'decresc')]
+early_fills            Violoncellos       75.000  CHANGED: dur [2.0]->[1.0]; next (77.0, (55,))->(76.0, (56,)); hairpins near []->[(74.0, 'decresc')]
+early_fills            Violoncellos      246.000  CHANGED: next (247.0, (58,))->(247.0, (60,)); hairpins near []->[(246.0, 'decresc')]
+early_fills            Violoncellos      247.000  CHANGED: pitch [58]->[60]; dur [2.0]->[1.0]; next (249.0, (55,))->(248.0, (58,)); hairpins near []->[(246.0, 'decresc')]
+early_fills            Violoncellos      249.000  CHANGED: prev (247.0, (58,))->(248.5, (56,))
+early_fills            Violoncellos       50.000  same
+early_fills            Violoncellos       51.000  same
+early_fills            Violoncellos       56.000  same
+early_fills            Violoncellos       63.000  CHANGED: prev (62.0, (46,))->(62.0, (52, 56))
+early_fills            Violoncellos       71.000  CHANGED: hairpins near []->[(72.0, 'cresc')]
+early_fills            Violoncellos       80.000  same
+early_fills            Violoncellos       81.000  CHANGED: dur [2.0]->[1.0]; next (83.0, (61,))->(82.0, (53,))
+early_fills            Violoncellos       87.000  CHANGED: next (108.0, (49,))->(124.0, (49,))
+early_fills            Violoncellos      130.000  same
+early_fills            Violoncellos      131.000  same
+early_fills            Violoncellos      132.000  CHANGED: next (134.0, (51,))->(134.0, (44,))
+early_fills            Violoncellos      140.000  CHANGED: dyn p->pp
+early_fills            Violoncellos      144.000  CHANGED: next (145.0, (56,))->(145.0, (57,)); dyn p->pp
+early_fills            Violoncellos      156.000  CHANGED: dur [1.0]->[2.0]; next (157.0, (47,))->(158.0, (47,))
+early_fills            Violoncellos      157.000  MISSING (v77 [47])
+early_fills            Violoncellos      159.000  MISSING (v77 [49])
+early_fills            Violoncellos      160.000  CHANGED: pitch [54]->[45]; prev (159.0, (49,))->(158.0, (47,))
+early_fills            Violoncellos      162.000  CHANGED: prev (160.0, (54,))->(160.0, (45,)); next (164.0, (51,))->(164.0, (48,))
+early_fills            Violoncellos      186.000  same
+early_fills            Violoncellos      188.000  same
+early_fills            Violoncellos      193.000  CHANGED: next (195.0, (53,))->(195.0, (51,))
+early_fills            Violoncellos      196.000  CHANGED: prevfar (195.0, (53,))->(195.5, (53,))
+early_fills            Violoncellos      198.000  same
+early_fills            Violoncellos      199.000  same
+early_fills            Violoncellos      219.000  CHANGED: pitch [52]->[47]; dur [1.0]->[0.5]; prev (218.0, (50,))->(218.0, (38,)); next (220.0, (46,))->(219.5, (46,)); hairpins near []->[(218.0, 'decresc')]
+early_fills            Violoncellos      220.000  CHANGED: prev (219.0, (52,))->(219.5, (46,))
+early_fills            Violoncellos      243.000  CHANGED: hairpins near []->[(244.0, 'cresc')]
+early_fills            Violoncellos      250.000  same
+early_fills            Violoncellos      252.000  same
+early_fills            Violoncellos      253.000  same
+early_fills            Violoncellos      255.000  same
+early_fills            Violoncellos      258.000  same
+early_fills            Violoncellos      263.000  CHANGED: dyn f->ff
+early_fills            Violoncellos      264.000  CHANGED: dyn f->ff
+early_fills            Violoncellos      267.000  CHANGED: dyn f->ff; scripts []->['tenuto']
+early_fills            Violoncellos       60.000  CHANGED: dur [2.0]->[1.0]; next (62.0, (46,))->(61.0, (51,))
+early_fills            Violoncellos      271.000  same
+early_fills            Violoncellos      164.000  CHANGED: pitch [51]->[48]; next (168.0, (51,))->(168.0, (50,))
+early_fills            Violoncellos      201.000  same
+early_fills            Violoncellos      202.000  CHANGED: dur [1.0]->[2.0]; next (203.0, (53,))->(204.0, (56,))
+early_fills            Violoncellos      259.000  CHANGED: next (261.0, (56,))->(261.0, (60,))
+early_fills            Violoncellos       54.000  same
+early_fills            Violoncellos      180.000  CHANGED: pitch [51]->[39]; next (182.0, (49,))->(182.0, (36,))
+early_fills            Violoncellos      256.000  same
+early_fills            Violoncellos      192.000  same
+early_fills            Violins I          71.000  CHANGED: hairpins near [(70.0, 'decresc')]->[]
+early_fills            Violins I          80.000  same
+early_fills            Violins I          86.000  CHANGED: dyn mf->f
+early_fills            Violins I          68.000  CHANGED: hairpins near [(68.0, 'cresc')]->[(68.0, 'cresc'), (69.0, 'decresc')]
+early_fills            Violins I          65.500  same
+early_fills            Violins I          74.000  same
+early_fills            Violins I          84.000  CHANGED: dyn mf->f
+early_fills            Violins I          87.000  same
+early_fills            Violins I         240.000  CHANGED: hairpins near [(240.0, 'cresc')]->[(240.0, 'cresc'), (241.0, 'decresc')]
+early_fills            Horn 3            204.000  CHANGED: prevfar (87.0, (51,))->(87.0, (60,))
+early_fills            Violin I solo      51.000  same
+early_fills            Double basses     140.000  same
+early_fills            Violins II div    108.000  CHANGED: pitch [61, 65]->[61, 68]; next (112.0, (61, 66))->(112.0, (61, 70))
+early_fills            Violas div        277.000  MISSING (v77 [60, 63])
+leg_leads              Violins I         204.000  CHANGED: dur [4.0]->[2.0]; next (208.0, (89,))->(206.0, (85,)); scripts ['tenuto']->['downbow', 'tenuto']
+leg_leads              Violins I         208.000  CHANGED: prevfar (204.0, (85,))->(206.0, (85,)); next (210.0, (88,))->(210.0, (88, 92))
+leg_leads              Violins I         210.000  CHANGED: pitch [88]->[88, 92]; dur [2.0]->[2.0, 2.0]
+leg_leads              Violins I         262.000  CHANGED: prev (261.0, (84,))->(261.8333, (92,)); scripts []->['downbow']; hairpins near []->[(261.0, 'cresc')]
+leg_leads              Violins I          75.000  same
+leg_leads              Violins I         192.000  CHANGED: dur [1.0]->[1.5]; next (193.0, (94,))->(193.5, (90,))
+leg_leads              Violins I         196.000  CHANGED: hairpins near []->[(195.0, 'decresc')]
+leg_leads              Violins I         200.000  CHANGED: scripts []->['upbow']
+leg_leads              Violins I         247.000  CHANGED: next (249.0, (75,))->(249.0, (63,))
+leg_leads              Violoncellos      204.000  CHANGED: prev (203.0, (53,))->(202.0, (54,))
+leg_leads              Violoncellos       54.000  same
+leg_leads              Violoncellos      180.000  CHANGED: pitch [51]->[39]; next (182.0, (49,))->(182.0, (36,))
+leg_leads              Violoncellos      255.000  same
+leg_leads              Horn 1            193.000  CHANGED: next (195.0, (65,))->(195.0, (63,))
+leg_leads              Horn 1            195.000  CHANGED: pitch [65]->[63]; dur [1.0]->[0.5]; next (196.0, (66,))->(195.5, (65,))
+leg_leads              Horn 1            200.000  same
+leg_leads              Horn 1            202.000  CHANGED: dur [1.0]->[2.0]; next (203.0, (65,))->(204.0, (65,))
+leg_leads              Horn 1            201.000  same
+leg_leads              Horn 1             18.000  same
+leg_leads              Horn 1             26.000  same
+leg_leads              Horn 1             27.000  same
+leg_leads              Horn 1             30.000  same
+leg_leads              Horn 1             39.000  same
+leg_leads              Horn 1            199.000  same
+leg_leads              Violins II        164.000  CHANGED: next (168.0, (75,))->(168.0, (77,))
+leg_leads              Violins II        252.000  same
+leg_leads              Violins II         60.000  CHANGED: dur [2.0]->[1.0]; next (62.0, (65,))->(61.0, (60,))
+leg_leads              Violins II        245.500  same
+leg_leads              Violins II         68.000  CHANGED: hairpins near [(68.0, 'cresc')]->[(68.0, 'cresc'), (69.0, 'decresc')]
+leg_leads              Violins II         80.000  same
+leg_leads              Violins II        254.000  CHANGED: hairpins near []->[(254.0, 'decresc')]
+leg_leads              Violins II         71.000  CHANGED: hairpins near [(70.0, 'decresc')]->[]
+leg_leads              Violins II        243.000  CHANGED: hairpins near [(242.0, 'decresc')]->[]
+leg_leads              Violins II        206.000  same
+leg_leads              Flute 1           200.000  same
+leg_leads              Cor anglais       131.500  CHANGED: hairpins near []->[(131.0, 'decresc')]
+leg_leads              Bass clarinet      92.500  CHANGED: pitch [60]->[48]; prev (92.0, (56,))->(92.0, (44,)); next (93.0, (63,))->(93.0, (51,)); dyn mp->p
+leg_leads              Bass clarinet     106.000  CHANGED: pitch [58]->[46]; prev (105.0, (56,))->(105.0, (44,)); next (107.0, (60,))->(107.0, (48,))
+leg_leads              Bassoon 1         100.000  same
+leg_leads              Oboe 1            200.000  same
+loop_fills             Horn 1             34.000  same
+loop_fills             Double basses       3.000  same
+loop_fills             Double basses     168.000  CHANGED: next (172.0, (37,))->(184.0, (33,)); hairpins near [(168.0, 'cresc')]->[]
+loop_fills             Double basses     204.000  CHANGED: prevfar (200.0, (32,))->(202.0, (32,))
+loop_fills             Violins II        108.000  CHANGED: pitch [61, 65]->[61, 68]; next (112.0, (61, 66))->(112.0, (61, 70))
+loop_fills             Violins II        116.000  CHANGED: pitch [61, 66]->[61, 70]; prev (114.0, (58, 66))->(114.0, (66, 70)); next (118.0, (61, 65))->(118.0, (60, 66))
+loop_fills             Violoncellos        3.000  same
+loop_fills             Violoncellos       63.000  CHANGED: prev (62.0, (46,))->(62.0, (52, 56))
+loop_fills             Violas div         87.000  same
+loop_profiles          Violins I           0.000  same
+loop_profiles          Violoncellos      274.000  same
+loop_profiles          Violoncellos      164.000  CHANGED: pitch [51]->[48]; next (168.0, (51,))->(168.0, (50,))
+loop_profiles          Double basses     220.000  same
+loop_profiles          Double basses     271.000  same
+loop_profiles          Timpani           226.000  CHANGED: prevfar (211.0, (44,))->(209.5, (49,))
+loop_profiles          Timpani           292.000  MISSING (v77 [44])
+rebow_fills            Violins I         295.000  same
+rebow_fills            Violins I         298.000  same
+rebow_fills            Violins I         301.000  same
+rebow_fills            Violins I         302.750  same
+rebow_fills            Violins II        289.000  same
+rebow_fills            Violins II        290.900  same
+rebow_fills            Violins II        293.000  same
+rebow_fills            Violins II        295.800  same
+rebow_fills            Violins II        297.600  same
+rebow_fills            Violins II        300.200  same
+rebow_fills            Violins II        302.200  same
+rebow_fills            Violins II        303.400  same
+rebow_fills            Violas            294.100  CHANGED held [(292.0, 51, 3.0)]->[(292.0, 51, 3.0), (292.0, 56, 3.0)]
+rebow_fills            Violas            296.900  CHANGED held [(295.0, 51, 3.0)]->[(295.0, 51, 3.0), (295.0, 56, 3.0)]
+rebow_fills            Violas            299.200  CHANGED held [(298.0, 51, 3.0)]->[(298.0, 51, 3.0), (298.0, 56, 3.0)]
+rebow_fills            Violas            301.500  CHANGED held [(301.0, 51, 3.0)]->[(301.0, 51, 3.0), (301.0, 56, 3.0)]
+rebow_fills            Violas            303.100  CHANGED held [(301.0, 51, 3.0)]->[(301.0, 51, 3.0), (301.0, 56, 3.0)]
+rebow_fills            Violoncellos      293.600  same
+rebow_fills            Violoncellos      296.300  same
+rebow_fills            Violoncellos      298.600  same
+rebow_fills            Violoncellos      300.600  same
+rebow_fills            Violoncellos      302.350  same
+rebow_fills            Double basses     294.500  same
+rebow_fills            Double basses     297.200  same
+rebow_fills            Double basses     299.800  same
+rebow_fills            Double basses     302.000  same
+rebow_fills            Double basses     303.300  same
+pitch_trims.skip       Horn 1             32.000  same
+pitch_trims.skip       Clarinet 1        204.000  CHANGED: pitch [68]->[77]; dur [2.0]->[4.0]; next (206.0, (73,))->(208.0, (77,))
+pitch_trims.skip       Bassoon 2         193.000  CHANGED: dyn mp->p
+pitch_trims.skip       Bassoon 2         198.000  CHANGED: pitch [55]->[43]; prev (196.0, (54,))->(196.0, (42,))
+pitch_trims.skip       Bassoon 2         256.000  same
+pitch_trims.skip       Bassoon 2         261.000  CHANGED: hairpins near []->[(261.0, 'cresc')]
+pitch_trims.skip       Bassoon 2         268.000  same
+pitch_trims.skip       Violins I           0.000  same
+pitch_trims.skip       Violins I         292.000  same
+roles                  Violoncellos       66.000  [66, 78, -1]: CHANGED: notes 9->10 (-1 +2)
+roles                  Violoncellos       78.000  [78, 87, -6]: CHANGED: notes 6->7 (-1 +2); dyn [(82.0, 'mf')]->[(82.0, 'f')]
+roles                  Violoncellos      204.000  [204, 212, -3]: same
+roles                  Violoncellos      238.000  [238, 250, 0]: CHANGED: notes 9->11 (-1 +3)
+roles                  Violoncellos      250.000  [250, 262, -3]: CHANGED: notes 8->8 (-1 +1)
+roles                  Violoncellos      262.000  [262, 274, -1]: CHANGED: dyn [(262.0, 'f'), (271.0, 'p'), (273.0, 'pp')]->[(262.0, 'ff'), (271.0, 'p'), (273.0, 'pp')]; dyn at start f->ff
+roles                  Violoncellos      292.000  [292, 304, -4]: same
+roles                  Violoncellos      212.600  [212.6, 213.6, -2]: same
+roles                  Violoncellos      262.000  [262, 268, 2]: CHANGED: dyn [(262.0, 'f')]->[(262.0, 'ff')]; dyn at start f->ff
+roles                  Violoncellos       87.000  [87, 90, -2]: same
+roles                  Violoncellos      262.000  [262, 265, 2, 0.25]: CHANGED: dyn [(262.0, 'f')]->[(262.0, 'ff')]; dyn at start f->ff
+roles                  Violoncellos      237.500  [237.5, 250, -2.5, 0.5]: CHANGED: notes 9->11 (-1 +3)
+roles                  Violoncellos      200.000  [200, 214, 1, 1]: CHANGED: notes 9->8 (-2 +1)
+roles                  Violoncellos      261.500  [261.5, 269, 1, 1]: CHANGED: dyn [(262.0, 'f')]->[(262.0, 'ff')]
+roles                  Violoncellos      211.750  [211.75, 213.0, 1.5, 0.5]: same
+roles                  Violoncellos      188.000  [188, 190, -1.5]: same
+roles                  Violoncellos      190.500  [190.5, 204, -3, 4]: CHANGED: notes 10->10 (-3 +3)
+roles                  Violoncellos       73.500  [73.5, 78, -2]: CHANGED: notes 3->4 (-1 +2)
+roles                  Violoncellos      245.500  [245.5, 250, -2]: CHANGED: notes 3->5 (-1 +3)
+roles                  Violoncellos      148.000  [148.0, 151.0, 3.0, 2.0]: CHANGED: dyn [(148.0, 'mf')]->[(148.0, 'mp')]; dyn at start mf->mp
+roles                  Violoncellos      282.250  [282.25, 291.5, -2.0, 0.5]: CHANGED: notes 3->3 (-1 +1)
+roles                  Harp              108.000  [108, 124, -4]: CHANGED: notes 16->16 (-2 +2)
+roles                  Harp              124.000  [124, 140, -7]: CHANGED: notes 18->18 (-2 +2)
+roles                  Harp              180.000  [180, 188, -1]: CHANGED: notes 24->24 (-15 +15); dyn [(180.0, 'mp')]->[(180.0, 'p')]; dyn at start mp->p
+roles                  Harp              172.000  [172, 180, 2]: CHANGED: notes 24->24 (-11 +11); dyn [(172.0, 'p')]->[(172.0, 'pp')]; dyn at start p->pp
+roles                  Harp              238.000  [238, 262, 4]: CHANGED: notes 37->31 (-13 +7); dyn [(238.0, 'pp'), (250.0, 'p')]->[(238.0, 'pp'), (250.0, 'p'), (256.0, 'mp'), (261.0, 'f')]
+roles                  Violins II        108.000  [108, 124, -5]: CHANGED: notes 14->16 (-6 +8)
+roles                  Violins II        146.000  [146, 152, -4]: CHANGED: dyn [(148.0, 'mp'), (151.0, 'pp')]->[(148.0, 'fp'), (151.0, 'pp')]
+roles                  Violins II        212.000  [212, 216, -6]: same
+roles                  Violins II        216.000  [216, 218, -8]: same
+roles                  Violins II        218.000  [218, 220, -2]: CHANGED: notes 1->2 (-1 +2)
+roles                  Violins II        220.000  [220, 227, -3]: same
+roles                  Violins II        204.000  [204, 212, 2]: same
+roles                  Violins II        212.600  [212.6, 213.6, -2]: same
+roles                  Violins II        170.400  [170.4, 171.7, -2.5, 0.15]: same
+roles                  Violins II        262.000  [262, 268, 2.5]: same
+roles                  Violins II         42.000  [42, 44.5, -2]: same
+roles                  Violins II        262.500  [262.5, 265, -2.5, 0.25]: same
+roles                  Violins II        237.500  [237.5, 250, -2.5, 0.5]: CHANGED: dyn []->[(249.0, 'mp')]
+roles                  Violins II        114.000  [114, 116, 3]: CHANGED: notes 2->2 (-1 +1)
+roles                  Violins II        200.000  [200, 214, -0.5, 1]: same
+roles                  Violins II        261.500  [261.5, 269, -0.5, 1]: CHANGED: notes 4->7 (-0 +3)
+roles                  Violins II        286.000  [286, 292, -2]: same
+roles                  Violins II        211.750  [211.75, 213.0, 1.5, 0.5]: same
+roles                  Violins II        292.500  [292.5, 304, 2.5]: same
+roles                  Double basses      66.000  [66, 90, -1]: CHANGED: notes 13->14 (-10 +11)
+roles                  Double basses     108.000  [108, 137.5, 2]: CHANGED: notes 17->21 (-3 +7)
+roles                  Double basses     188.000  [188, 204, -1, 4]: CHANGED: notes 9->10 (-3 +4); dyn [(196.0, 'f')]->[(188.0, 'mf'), (196.0, 'f')]
+roles                  Double basses     146.000  [146, 151, -3]: CHANGED: dyn [(148.0, 'mp')]->[(148.0, 'fp')]
+roles                  Double basses     274.000  [274, 282.5, 2]: same
+roles                  Double basses     212.600  [212.6, 213.6, -2]: same
+roles                  Double basses     262.000  [262, 268, 2.5]: same
+roles                  Double basses      87.000  [87, 90, -2]: same
+roles                  Double basses     200.000  [200, 214, 3, 1]: CHANGED: notes 5->6 (-2 +3)
+roles                  Double basses     261.500  [261.5, 269, 3, 1]: same
+roles                  Double basses     211.750  [211.75, 213.0, 1.5, 0.5]: CHANGED: notes 1->1 (-1 +1)
+roles                  Double basses     282.250  [282.25, 291.5, -2.0, 0.5]: CHANGED: notes 3->3 (-1 +1)
+roles                  Double basses     292.500  [292.5, 304, -4.0]: same
+roles                  Violas            108.000  [108, 124, -1.5]: CHANGED: notes 45->45 (-10 +10)
+roles                  Violas            146.000  [146, 152, -3]: CHANGED: dyn [(148.0, 'mp'), (151.0, 'pp')]->[(148.0, 'fp')]
+roles                  Violas            196.000  [196, 204, -4, 4]: CHANGED: notes 48->48 (-3 +3)
+roles                  Violas            292.000  [292, 298, 4]: CHANGED: notes 2->4 (-0 +2)
+roles                  Violas            298.000  [298, 304, 7]: CHANGED: notes 2->4 (-0 +2)
+roles                  Violas             42.000  [42, 48, -3]: same
+roles                  Violas            140.000  [140, 146, -4]: CHANGED: notes 2->2 (-1 +1)
+roles                  Violas            289.000  [289, 304, -2]: CHANGED: notes 5->10 (-0 +5)
+roles                  Violas            212.600  [212.6, 213.6, -2]: same
+roles                  Violas            262.000  [262, 268, 2.5]: CHANGED: notes 3->6 (-1 +4)
+roles                  Violas            262.500  [262.5, 265, -2.5, 0.25]: same
+roles                  Violas            286.000  [286, 292, -1]: CHANGED: notes 2->4 (-0 +2)
+roles                  Violas            211.750  [211.75, 213.0, 1.5, 0.5]: CHANGED: notes 2->2 (-1 +1)
+roles                  Violas            204.000  [204, 212, 2.5]: CHANGED: notes 6->6 (-1 +1)
+roles                  Violas             87.000  [87, 90, -3]: same
+roles                  Violas             66.000  [66, 80, 3]: CHANGED: notes 14->16 (-6 +8)
+roles                  Violas             80.000  [80, 87, 0.5]: CHANGED: notes 10->9 (-1 +0)
+roles                  Violas            282.250  [282.25, 291.5, -2.0, 0.5]: CHANGED: notes 4->6 (-0 +2)
+roles                  Violas            292.500  [292.5, 304, -3.5]: CHANGED: notes 3->6 (-0 +3)
+roles                  Flute 1           204.000  [204, 208, -4]: same
+roles                  Flute 1           208.000  [208, 212, 1.5]: same
+roles                  Flute 1           262.600  [262.6, 263.5, 3]: same
+roles                  Flute 1           263.500  [263.5, 265.9, 7]: same
+roles                  Flute 1           108.000  [108, 112, 2]: same
+roles                  Flute 1           200.000  [200, 204, 2]: same
+roles                  Flute 1           191.500  [191.5, 196, -3]: CHANGED: notes 7->6 (-3 +2)
+roles                  Flute 1           112.000  [112, 124, 2]: CHANGED: notes 12->14 (-1 +3); dyn []->[(120.0, 'p')]
+roles                  Bass clarinet     188.000  [188, 204, -5, 4]: CHANGED: notes 9->9 (-2 +2)
+roles                  Bass clarinet     204.000  [204, 208.5, -4]: same
+roles                  Bass clarinet     262.000  [262, 268, 2]: same
+roles                  Bass clarinet      90.000  [90, 108, 2]: CHANGED: notes 14->14 (-14 +14); dyn [(91.0, 'mp'), (96.0, 'mf'), (99.0, 'p'), (105.0, 'pp')]->[(91.0, 'p'), (96.0, 'mf'), (99.0, 'mp'), (105.0, 'pp')]
+roles                  Bass clarinet     200.000  [200, 214, 2, 1]: same
+roles                  Bass clarinet     261.500  [261.5, 269, 2, 1]: same
+roles                  Bass clarinet      93.500  [93.5, 99, -6, 2.5]: CHANGED: notes 3->3 (-3 +3); dyn at start mp->p
+roles                  Bass clarinet     105.000  [105, 110.5, -4]: CHANGED: notes 4->4 (-4 +4)
+roles                  Bass clarinet     200.000  [200, 204, -4]: same
+roles                  Horn 1            176.000  [176, 188, 0.5]: CHANGED: notes 7->7 (-2 +2); dyn [(180.0, 'mp')]->[(182.0, 'mp')]; dyn at start p->pp
+roles                  Horn 1            188.000  [188, 204, -2, 4]: CHANGED: notes 12->12 (-3 +3)
+roles                  Horn 1             16.500  [16.5, 42, 2.5]: same
+roles                  Horn 1            226.000  [226, 238, 2]: CHANGED: notes 6->6 (-1 +1)
+roles                  Horn 1             33.500  [33.5, 38.5, -1.0, 1.0]: same
+roles                  Horn 1            179.250  [179.25, 180.75, -6.5]: CHANGED: notes 1->1 (-1 +1); dyn [(180.0, 'mp')]->[]; dyn at start p->pp
+roles                  Horn 1             20.500  [20.5, 23.5, -2.5, 1.0]: same
+roles                  Timpani           168.000  [168, 171.5, -4]: same
+roles                  Timpani           277.000  [277, 280, 10]: same
+roles                  Timpani           200.000  [200, 214, 2, 1]: CHANGED: notes 6->5 (-3 +2); dyn [(200.0, 'p'), (203.0, 'f'), (204.0, 'ff')]->[(200.0, 'pp'), (203.0, 'f'), (204.0, 'f')]; dyn at start p->pp
+roles                  Timpani           261.500  [261.5, 269, 2, 1]: CHANGED: dyn at start ppp->pp
+roles                  Timpani             3.000  [3, 8.5, 4]: same
+roles                  Timpani           226.000  [226, 237.5, 3]: same
+roles                  Timpani           292.000  [292, 304, 4]: CHANGED: notes 4->0 (-4 +0); dyn [(292.0, 'ppp')]->[]; dyn at start ppp->pp
+roles                  Violins I         188.000  [188, 204, 2]: CHANGED: notes 15->14 (-3 +2)
+roles                  Violins I         250.000  [250, 262, 2]: CHANGED: notes 13->16 (-8 +11); dyn [(250.0, 'mp'), (259.0, 'f')]->[(259.0, 'f')]
+roles                  Violins I         204.000  [204, 208, -1.5]: CHANGED: notes 1->2 (-1 +2)
+roles                  Violins I         212.600  [212.6, 213.6, -2]: same
+roles                  Violins I           0.000  [0, 9.2, -5]: same
+roles                  Violins I         292.000  [292, 304, -4]: same
+roles                  Violins I         170.400  [170.4, 171.75, -4, 0.15]: same
+roles                  Violins I         262.000  [262, 268, 2.5]: same
+roles                  Violins I         237.500  [237.5, 250, -2.5, 0.5]: CHANGED: notes 13->13 (-2 +2); dyn []->[(249.0, 'mp')]
+roles                  Violins I         200.000  [200, 214, -1, 1]: CHANGED: notes 6->8 (-1 +3)
+roles                  Violins I         261.500  [261.5, 269, -1, 1]: CHANGED: notes 4->7 (-0 +3)
+roles                  Violins I         211.750  [211.75, 213.0, 1.5, 0.5]: same
+roles                  Clarinet 1        250.000  [250, 258, -1]: CHANGED: notes 9->3 (-6 +0); dyn [(250.0, 'p')]->[(256.0, 'mp')]; dyn at start p->ff
+roles                  Clarinet 1        280.000  [280, 297, 3, 2]: same
+roles                  Clarinet 1        286.000  [286, 297, 2.5, 2]: same
+roles                  Clarinet 1        287.400  [287.4, 289.0, 2.5]: same
+roles                  Clarinet 1        284.250  [284.25, 285.75, 3]: same
+roles                  Clarinet 1        283.000  [283, 297, 1.5, 2]: same
+roles                  Horn 3            261.500  [261.5, 268, 2, 0.5]: same
+roles                  Horn 3            204.000  [204, 212, 5]: same
+roles                  Horn 3            286.000  [286, 298, 1]: same
+roles                  Horn 3              0.000  [0, 17, -2]: same
+roles                  Horn 3            268.000  [268, 271, -1]: CHANGED: notes 1->2 (-1 +2)
+roles                  Horn 3             86.000  [86, 90, -5.5]: CHANGED: notes 1->2 (-1 +2)
+roles                  Horn 3            282.250  [282.25, 291.5, -2.0, 0.5]: same
+roles                  Horn 4            204.000  [204, 212, 5]: CHANGED: notes 3->3 (-3 +3)
+roles                  Horn 4            262.000  [262, 268, 5, 0.5]: CHANGED: notes 2->3 (-1 +2)
+roles                  Horn 4            286.000  [286, 298, -1]: same
+roles                  Horn 4              0.000  [0, 17, -2]: same
+roles                  Horn 4             86.000  [86, 90, -5.5]: CHANGED: notes 1->1 (-1 +1)
+roles                  Horn 4            282.250  [282.25, 291.5, -2.0, 0.5]: same
+roles                  Trombone 2        204.000  [204, 212, 2]: CHANGED: notes 3->4 (-2 +3); dyn [(204.0, 'mf')]->[(204.0, 'f')]; dyn at start mf->f
+roles                  Bass trombone     204.000  [204, 212, 4]: CHANGED: dyn [(204.0, 'mf')]->[(204.0, 'f')]; dyn at start mf->f
+roles                  Bass trombone     200.000  [200, 214, 3, 1]: CHANGED: dyn [(200.0, 'pp'), (204.0, 'mf'), (212.0, 'f')]->[(200.0, 'pp'), (204.0, 'f'), (212.0, 'sf')]
+roles                  Bass trombone     261.500  [261.5, 269, 3, 1]: same
+roles                  Tuba              204.000  [204, 212, 5]: CHANGED: dyn [(204.0, 'mf')]->[(204.0, 'f')]; dyn at start mf->f
+roles                  Tuba              200.000  [200, 214, 3, 1]: CHANGED: dyn [(200.0, 'pp'), (204.0, 'mf')]->[(200.0, 'pp'), (204.0, 'f')]
+roles                  Tuba              261.500  [261.5, 269, 3, 1]: CHANGED: dyn at start mf->f
+roles                  Flute 2           204.000  [204, 212, 1]: same
+roles                  Bassoon 2         146.000  [146, 151, -3]: CHANGED: dyn [(148.0, 'mp')]->[(148.0, 'p')]
+roles                  Bassoon 2         262.000  [262, 268, 4]: same
+roles                  Bassoon 2         200.000  [200, 214, 3, 1]: same
+roles                  Bassoon 2         261.500  [261.5, 269, 3, 1]: same
+roles                  Bassoon 2         200.000  [200, 204, -3]: same
+roles                  Oboe 1            139.000  [139, 151, 2.5]: CHANGED: notes 10->10 (-1 +1)
+roles                  Oboe 1            204.000  [204, 208, -3]: same
+roles                  Oboe 1            208.000  [208, 212, -1]: same
+roles                  Oboe 1            262.000  [262, 268, 6]: same
+roles                  Oboe 1             42.000  [42, 48, 2]: same
+roles                  Oboe 1             54.000  [54, 60, 2]: same
+roles                  Oboe 1            271.000  [271, 274, -4]: same
+roles                  Oboe 1             55.500  [55.5, 58.5, -3]: same
+roles                  Oboe 1            200.000  [200, 204, 2]: same
+roles                  Oboe 1            140.000  [140.0, 143.0, -2.0, 0.5]: same
+roles                  Oboe 1            148.000  [148.0, 151.0, 3.5, 2.0]: same
+roles                  Clarinet 2        286.000  [286, 295, -2]: CHANGED: notes 3->1 (-2 +0); dyn [(286.0, 'pp')]->[]
+roles                  Clarinet 2        204.000  [204, 208, -2.5]: CHANGED: notes 1->2 (-1 +2)
+roles                  Clarinet 2        262.000  [262, 268, 4]: CHANGED: notes 3->3 (-1 +1)
+roles                  Clarinet 2        200.000  [200, 204, -2]: same
+roles                  Oboe 2            204.000  [204, 210.1, 8]: CHANGED: notes 3->3 (-1 +1)
+roles                  Contrabassoon     204.000  [204, 212, 3]: CHANGED: notes 3->3 (-1 +1)
+roles                  Contrabassoon     262.000  [262, 268, 2]: CHANGED: notes 3->3 (-3 +3)
+roles                  Contrabassoon     200.000  [200, 214, 3, 1]: CHANGED: notes 3->3 (-1 +1)
+roles                  Contrabassoon     261.500  [261.5, 269, 3, 1]: CHANGED: notes 4->4 (-4 +4)
+roles                  Trombone 1        212.400  [212.4, 213.6, 3]: same
+roles                  Horn 2            204.000  [204, 212, 5]: CHANGED: notes 3->3 (-3 +3); dyn [(204.0, 'f')]->[(204.0, 'ff')]; dyn at start f->ff
+roles                  Horn 2            262.000  [262, 268, 2]: same
+roles                  Cor anglais        98.500  [98.5, 102, -3]: same
+roles                  Cor anglais       124.000  [124, 137, 2]: same
+roles                  Cor anglais       151.000  [151, 171, 2]: same
+roles                  Cor anglais        93.000  [93, 98.5, 2]: same
+roles                  Cor anglais       127.500  [127.5, 133.5, -3.5, 2.5]: same
+roles                  Violin I solo      48.000  [48, 65, 2]: same
+roles                  Bassoon 1         262.000  [262, 265.5, 2]: same
+roles                  Bassoon 1         200.000  [200, 204, -4]: CHANGED: notes 1->3 (-1 +3)
+roles                  Horns 1-2 a2      262.000  [262, 268, 4, 0.5]: same
+roles                  Horns 1-2 a2      269.000  [269, 278, -5]: same
+roles                  Violins II div    108.000  [108, 124, -5]: CHANGED: notes 14->16 (-6 +8)
+roles                  Violins II div    114.000  [114, 116, 3]: CHANGED: notes 2->2 (-1 +1)
+roles                  Violas div        286.000  [286, 292, -1]: CHANGED: notes 2->4 (-0 +2)
+roles                  Violas div        276.500  [276.5, 304, -5]: CHANGED: notes 12->18 (-2 +8); dyn [(277.0, 'ppp'), (286.0, 'pp'), (301.0, 'ppp')]->[(279.0, 'ppp'), (286.0, 'pp'), (301.0, 'ppp')]
+roles                  Violas div         87.000  [87, 90, -3]: same
+roles                  Violas div         66.000  [66, 80, 3]: CHANGED: notes 14->16 (-6 +8)
+roles                  Violas div         80.000  [80, 87, 0.5]: CHANGED: notes 10->9 (-1 +0)
+roles                  Violas div        282.250  [282.25, 291.5, -2.0, 0.5]: CHANGED: notes 4->6 (-0 +2)

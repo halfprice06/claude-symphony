@@ -1,0 +1,12 @@
+== c26
+rerouted Spiccato notes 68: over neighbours median -0.7 dB, p90 +3.6, over +3: 8, over +5: 2; 70 ms peak median -42.0
+  342 F sharp -30.8 vs accented 345 -29.4 dB
+  942 F sharp -30.9 vs accented 945 -29.6 dB
+  346 F sharp -29.4 vs accented 349 -38.5 dB
+  946 F sharp -29.6 vs accented 949 -39.2 dB
+== c27
+rerouted Spiccato notes 68: over neighbours median -0.9 dB, p90 +2.5, over +3: 5, over +5: 1; 70 ms peak median -41.8
+  342 F sharp -33.8 vs accented 345 -34.6 dB
+  942 F sharp -33.9 vs accented 945 -34.8 dB
+  346 F sharp -34.6 vs accented 349 -38.5 dB
+  946 F sharp -34.8 vs accented 949 -39.2 dB

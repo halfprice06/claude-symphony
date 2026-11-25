@@ -1,0 +1,628 @@
+{
+ "tracks": [
+  {
+   "track": "Flute 1",
+   "points": 92,
+   "onsets": 63,
+   "per_onset": 1.4603174603174602,
+   "per_s": 0.2658649158465875,
+   "per_sounding_s": 1.1863749824563097,
+   "travel": 90.51,
+   "inside": 66.17,
+   "edge": 10.06,
+   "rest": 14.280000000000001,
+   "n3": 4,
+   "n3_unmarked": 1,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 90.51
+   }
+  },
+  {
+   "track": "Flute 2",
+   "points": 18,
+   "onsets": 7,
+   "per_onset": 2.5714285714285716,
+   "per_s": 0.052017048752593206,
+   "per_sounding_s": 1.0199742343641793,
+   "travel": 9.260000000000002,
+   "inside": 1.3800000000000003,
+   "edge": 0.3999999999999999,
+   "rest": 7.48,
+   "n3": 0,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 9.26
+   }
+  },
+  {
+   "track": "Oboe 1",
+   "points": 63,
+   "onsets": 43,
+   "per_onset": 1.4651162790697674,
+   "per_s": 0.18205967063407621,
+   "per_sounding_s": 0.9840776521396161,
+   "travel": 56.459999999999994,
+   "inside": 40.89,
+   "edge": 3.7799999999999994,
+   "rest": 11.79,
+   "n3": 2,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 56.45999999999998
+   }
+  },
+  {
+   "track": "Oboe 2",
+   "points": 20,
+   "onsets": 5,
+   "per_onset": 4.0,
+   "per_s": 0.05779672083621467,
+   "per_sounding_s": 1.1297793387988113,
+   "travel": 21.4,
+   "inside": 8.25,
+   "edge": 1.5,
+   "rest": 11.649999999999999,
+   "n3": 1,
+   "n3_unmarked": 1,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 21.39999999999999
+   }
+  },
+  {
+   "track": "Cor anglais",
+   "points": 73,
+   "onsets": 39,
+   "per_onset": 1.8717948717948718,
+   "per_s": 0.21095803105218355,
+   "per_sounding_s": 0.9374203574713399,
+   "travel": 74.32000000000001,
+   "inside": 47.41,
+   "edge": 5.0299999999999985,
+   "rest": 21.88,
+   "n3": 2,
+   "n3_unmarked": 1,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 74.31999999999998
+   }
+  },
+  {
+   "track": "Clarinet 1",
+   "points": 86,
+   "onsets": 33,
+   "per_onset": 2.606060606060606,
+   "per_s": 0.2485258995957231,
+   "per_sounding_s": 1.1601026476923189,
+   "travel": 87.69000000000001,
+   "inside": 57.78000000000001,
+   "edge": 8.499999999999998,
+   "rest": 21.409999999999997,
+   "n3": 6,
+   "n3_unmarked": 3,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 87.69
+   }
+  },
+  {
+   "track": "Clarinet 2",
+   "points": 78,
+   "onsets": 30,
+   "per_onset": 2.6,
+   "per_s": 0.22540721126123722,
+   "per_sounding_s": 0.8758515580425446,
+   "travel": 93.22,
+   "inside": 56.519999999999996,
+   "edge": 6.130000000000001,
+   "rest": 30.570000000000007,
+   "n3": 4,
+   "n3_unmarked": 2,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 93.21999999999997
+   }
+  },
+  {
+   "track": "Bass clarinet",
+   "points": 77,
+   "onsets": 48,
+   "per_onset": 1.6041666666666667,
+   "per_s": 0.2225173752194265,
+   "per_sounding_s": 0.7596215225245527,
+   "travel": 80.0,
+   "inside": 57.82000000000001,
+   "edge": 5.960000000000001,
+   "rest": 16.22,
+   "n3": 7,
+   "n3_unmarked": 1,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 80.00000000000003
+   }
+  },
+  {
+   "track": "Bassoon 1",
+   "points": 122,
+   "onsets": 61,
+   "per_onset": 2.0,
+   "per_s": 0.3525599971009095,
+   "per_sounding_s": 1.009618936751101,
+   "travel": 112.22999999999999,
+   "inside": 75.7,
+   "edge": 8.73,
+   "rest": 27.799999999999997,
+   "n3": 5,
+   "n3_unmarked": 3,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 112.22999999999999
+   }
+  },
+  {
+   "track": "Bassoon 2",
+   "points": 100,
+   "onsets": 51,
+   "per_onset": 1.9607843137254901,
+   "per_s": 0.2889836041810734,
+   "per_sounding_s": 0.8263179686069937,
+   "travel": 100.95,
+   "inside": 64.28,
+   "edge": 7.680000000000001,
+   "rest": 28.990000000000002,
+   "n3": 5,
+   "n3_unmarked": 3,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 100.95000000000002
+   }
+  },
+  {
+   "track": "Contrabassoon",
+   "points": 26,
+   "onsets": 10,
+   "per_onset": 2.6,
+   "per_s": 0.07513573708707907,
+   "per_sounding_s": 0.5642963536597245,
+   "travel": 27.14,
+   "inside": 10.48,
+   "edge": 2.9099999999999993,
+   "rest": 13.750000000000004,
+   "n3": 1,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 27.139999999999993
+   }
+  },
+  {
+   "track": "Horn 1",
+   "points": 77,
+   "onsets": 51,
+   "per_onset": 1.5098039215686274,
+   "per_s": 0.2225173752194265,
+   "per_sounding_s": 0.9712217719887327,
+   "travel": 71.53999999999999,
+   "inside": 47.099999999999994,
+   "edge": 12.83,
+   "rest": 11.610000000000001,
+   "n3": 1,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 71.54
+   }
+  },
+  {
+   "track": "Horn 2",
+   "points": 25,
+   "onsets": 9,
+   "per_onset": 2.7777777777777777,
+   "per_s": 0.07224590104526835,
+   "per_sounding_s": 1.2938753118239485,
+   "travel": 20.12,
+   "inside": 8.77,
+   "edge": 3.4,
+   "rest": 7.949999999999999,
+   "n3": 0,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 20.120000000000015
+   }
+  },
+  {
+   "track": "Horn 3",
+   "points": 53,
+   "onsets": 15,
+   "per_onset": 3.533333333333333,
+   "per_s": 0.15316131021596888,
+   "per_sounding_s": 0.9902429503171896,
+   "travel": 43.31999999999999,
+   "inside": 20.159999999999997,
+   "edge": 4.140000000000001,
+   "rest": 19.020000000000003,
+   "n3": 1,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 43.32000000000002
+   }
+  },
+  {
+   "track": "Horn 4",
+   "points": 45,
+   "onsets": 11,
+   "per_onset": 4.090909090909091,
+   "per_s": 0.13004262188148302,
+   "per_sounding_s": 0.8302810560248624,
+   "travel": 41.8,
+   "inside": 26.810000000000002,
+   "edge": 0.4399999999999995,
+   "rest": 14.55,
+   "n3": 1,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 41.800000000000026
+   }
+  },
+  {
+   "track": "Trombone 1",
+   "points": 20,
+   "onsets": 10,
+   "per_onset": 2.0,
+   "per_s": 0.05779672083621467,
+   "per_sounding_s": 2.209597894679439,
+   "travel": 16.14,
+   "inside": 3.790000000000001,
+   "edge": 2.539999999999999,
+   "rest": 9.81,
+   "n3": 1,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 16.140000000000004
+   }
+  },
+  {
+   "track": "Trombone 2",
+   "points": 25,
+   "onsets": 6,
+   "per_onset": 4.166666666666667,
+   "per_s": 0.07224590104526835,
+   "per_sounding_s": 1.9657187599964656,
+   "travel": 17.47,
+   "inside": 12.389999999999997,
+   "edge": 0.0,
+   "rest": 5.08,
+   "n3": 0,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 17.46999999999999
+   }
+  },
+  {
+   "track": "Bass trombone",
+   "points": 33,
+   "onsets": 8,
+   "per_onset": 4.125,
+   "per_s": 0.09536458937975421,
+   "per_sounding_s": 1.5109322816237334,
+   "travel": 35.86000000000001,
+   "inside": 26.890000000000008,
+   "edge": 0.889999999999997,
+   "rest": 8.080000000000002,
+   "n3": 3,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 35.86000000000003
+   }
+  },
+  {
+   "track": "Tuba",
+   "points": 22,
+   "onsets": 4,
+   "per_onset": 5.5,
+   "per_s": 0.06357639291983615,
+   "per_sounding_s": 1.7664234543823392,
+   "travel": 17.71,
+   "inside": 12.150000000000002,
+   "edge": 0.5700000000000003,
+   "rest": 4.989999999999998,
+   "n3": 1,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 17.71
+   }
+  },
+  {
+   "track": "Timpani",
+   "points": 11,
+   "onsets": 16,
+   "per_onset": 0.6875,
+   "per_s": 0.031788196459918074,
+   "per_sounding_s": 0.20063371303367583,
+   "travel": 38.0,
+   "inside": 0.0,
+   "edge": 0.0,
+   "rest": 38.0,
+   "n3": 0,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 38.00000000000001
+   }
+  },
+  {
+   "track": "Harp",
+   "points": 50,
+   "onsets": 138,
+   "per_onset": 0.36231884057971014,
+   "per_s": 0.1444918020905367,
+   "per_sounding_s": 0.4447748602949461,
+   "travel": 43.24,
+   "inside": 14.71,
+   "edge": 3.5,
+   "rest": 25.03,
+   "n3": 1,
+   "n3_unmarked": 1,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 43.24000000000001
+   }
+  },
+  {
+   "track": "Violins I",
+   "points": 128,
+   "onsets": 103,
+   "per_onset": 1.2427184466019416,
+   "per_s": 0.3698990133517739,
+   "per_sounding_s": 0.8449891726058226,
+   "travel": 125.94,
+   "inside": 103.9,
+   "edge": 9.11,
+   "rest": 12.93,
+   "n3": 5,
+   "n3_unmarked": 3,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 125.94000000000001
+   }
+  },
+  {
+   "track": "Violins II",
+   "points": 187,
+   "onsets": 146,
+   "per_onset": 1.2808219178082192,
+   "per_s": 0.5403993398186072,
+   "per_sounding_s": 0.7781910488200368,
+   "travel": 177.87,
+   "inside": 139.66,
+   "edge": 15.34,
+   "rest": 22.87,
+   "n3": 8,
+   "n3_unmarked": 6,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 177.86999999999995
+   }
+  },
+  {
+   "track": "Violas",
+   "points": 215,
+   "onsets": 280,
+   "per_onset": 0.7678571428571429,
+   "per_s": 0.6213147489893077,
+   "per_sounding_s": 0.9341252621586305,
+   "travel": 197.82,
+   "inside": 147.47,
+   "edge": 15.649999999999999,
+   "rest": 34.7,
+   "n3": 12,
+   "n3_unmarked": 2,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 197.82
+   }
+  },
+  {
+   "track": "Violoncellos",
+   "points": 171,
+   "onsets": 122,
+   "per_onset": 1.401639344262295,
+   "per_s": 0.49416196314963545,
+   "per_sounding_s": 0.7104625955967738,
+   "travel": 175.70999999999998,
+   "inside": 135.89999999999998,
+   "edge": 22.11,
+   "rest": 17.7,
+   "n3": 8,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 175.71000000000004
+   }
+  },
+  {
+   "track": "Double basses",
+   "points": 149,
+   "onsets": 103,
+   "per_onset": 1.4466019417475728,
+   "per_s": 0.4305855702297993,
+   "per_sounding_s": 0.6272447586466672,
+   "travel": 142.54999999999998,
+   "inside": 112.12,
+   "edge": 13.44,
+   "rest": 16.99,
+   "n3": 7,
+   "n3_unmarked": 2,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 142.54999999999998
+   }
+  },
+  {
+   "track": "Harp harmonics",
+   "points": 30,
+   "onsets": 3,
+   "per_onset": 10.0,
+   "per_s": 0.08669508125432202,
+   "per_sounding_s": 8.66666666666669,
+   "travel": 27.92,
+   "inside": 1.209999999999999,
+   "edge": 0.0,
+   "rest": 26.71,
+   "n3": 0,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 27.92000000000001
+   }
+  },
+  {
+   "track": "Violin I solo",
+   "points": 26,
+   "onsets": 20,
+   "per_onset": 1.3,
+   "per_s": 0.07513573708707907,
+   "per_sounding_s": 0.613327441263189,
+   "travel": 31.900000000000002,
+   "inside": 15.170000000000002,
+   "edge": 3.1100000000000003,
+   "rest": 13.620000000000001,
+   "n3": 1,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 31.900000000000002
+   }
+  },
+  {
+   "track": "Violoncellos div",
+   "points": 37,
+   "onsets": 17,
+   "per_onset": 2.176470588235294,
+   "per_s": 0.10692393354699714,
+   "per_sounding_s": 0.9024894747895202,
+   "travel": 38.699999999999996,
+   "inside": 16.439999999999998,
+   "edge": 2.6799999999999997,
+   "rest": 19.580000000000002,
+   "n3": 2,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 38.699999999999974
+   }
+  },
+  {
+   "track": "Violins II div",
+   "points": 43,
+   "onsets": 15,
+   "per_onset": 2.8666666666666667,
+   "per_s": 0.12426294979786155,
+   "per_sounding_s": 1.0311979764536758,
+   "travel": 46.08,
+   "inside": 1.79,
+   "edge": 0.5300000000000002,
+   "rest": 43.76,
+   "n3": 0,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 46.079999999999984
+   }
+  },
+  {
+   "track": "Violas div",
+   "points": 88,
+   "onsets": 20,
+   "per_onset": 4.4,
+   "per_s": 0.2543055716793446,
+   "per_sounding_s": 1.5274213892937982,
+   "travel": 76.76000000000002,
+   "inside": 42.44,
+   "edge": 0.0,
+   "rest": 34.32,
+   "n3": 5,
+   "n3_unmarked": 1,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 76.76
+   }
+  },
+  {
+   "track": "Horns 1-2 a2",
+   "points": 54,
+   "onsets": 8,
+   "per_onset": 6.75,
+   "per_s": 0.1560511462577796,
+   "per_sounding_s": 3.6006453559186467,
+   "travel": 47.839999999999996,
+   "inside": 15.819999999999999,
+   "edge": 0.7399999999999993,
+   "rest": 31.28,
+   "n3": 1,
+   "n3_unmarked": 0,
+   "cls": {
+    "level": 0.0,
+    "shape": 0.0,
+    "slow": 47.83999999999996
+   }
+  }
+ ],
+ "total": {
+  "points": 2244,
+  "travel": 2187.4700000000007,
+  "inside": 1391.3699999999997,
+  "edge": 171.70000000000002,
+  "rest": 624.4,
+  "notes": 1495,
+  "n3": 95,
+  "n3_unmarked": 30,
+  "cls": {
+   "slow": 2187.4700000000007,
+   "level": 0.0,
+   "shape": 0.0
+  }
+ },
+ "end_s": 346.04039313365786
+}

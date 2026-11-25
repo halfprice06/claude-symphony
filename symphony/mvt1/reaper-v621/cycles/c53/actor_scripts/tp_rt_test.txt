@@ -1,0 +1,24 @@
+c53 coordinator decision 4 / critic C #2: Trumpet 1 release-trail gain test (main project, 19:36-19:42 CST)
+Range qn 119.5-128.6 (+2 s), keyswitches primed, REAPER at 43 GB (samples loaded). rttest53.py 119.5 "Track" T DIR...
+Columns: body (RMS T-0.35..T-0.05 s), then the level in +0.05..0.15 / +0.15..0.30 / +0.30..0.60 / +0.60..1.00 s under the body.
+Note ends: 100.881 s (sq 125, vel 111; 0.98 s rest follows), 102.153 s (sq 128, qn 127.9 dur 0.6, vel 111; the stop of bar 31).
+
+                                   body     0.05-0.15  0.15-0.30  0.30-0.60  0.60-1.00   t20
+Trumpet 1, no rt_gain  (tp_rt0)  100.88 s  -27.2   -10.3     -38.2      -58.5      (next note)  0.135 s
+Trumpet 1, +6 dB       (tp_rt6)  100.88 s  -27.2   -10.2     -36.8      -52.5      (next note)  0.135 s
+Trumpet 1, no rt_gain  (tp_rt0)  102.15 s  -30.7    -8.9     -31.7      -53.6      -67.7        0.155 s
+Trumpet 1, +6 dB       (tp_rt6)  102.15 s  -30.7    -8.8     -31.3      -47.6      -61.7        0.155 s
+Trombone 1 (both)                102.15 s  -27.4    -2.9     -12.3      -26.7      -47.2        0.300 s
+Master, no rt_gain               102.15 s  -15.8    -4.9     -11.4      -18.6      -20.8        0.42 s
+Master, +6 dB                    102.15 s  -16.2    -4.4     -11.5      -18.4      -20.4        0.42 s
+
+Build line: "Trumpet 1: release-trail gain +6.0 dB on 10 groups" (rows Sus Non Vib MAX, Leg Slur MAX).
+Result: the +6 dB arrives in full only from 0.3 s on (+6.0 dB at 0.30-0.60 and 0.60-1.00 s), where the trail is 48-62 dB
+under the note. The fall at 0.15-0.30 s moved 0.4 dB (102.15 s) and 1.4 dB (100.88 s); the trombone's is 19 dB higher on
+the same measure. The trail volume is not what makes the trumpet stop dry at 180 ms. Not applied (mix.json restored,
+Trumpet 1 rebuilt in full, state guard 0 stale).
+Patch data (decoded .oib, Sus rows): sustain-group AHDSR release 1TP 178 ms (f, ff), 237 ms (p, mf), 316 ms (pp);
+1TB 237 ms on every layer. Release-trail groups: AHDSR attack 148 ms on both patches (so a trail cannot fill the first
+0.15 s), volumes 1TP 0.58-0.95, 1TB 1.22-1.76; `releaseDamping` 1.0 on all 13 trail groups of 1TP, against 0.7-0.8 on
+1TB, 1FH, 2FH, 1TU (2TP: 1.0 on 4 groups, 0.8 on 2). Candidates for c54, untested: releaseDamping 0.8 on 1TP's trail
+groups; the sustain groups' release 178 -> 237 ms.

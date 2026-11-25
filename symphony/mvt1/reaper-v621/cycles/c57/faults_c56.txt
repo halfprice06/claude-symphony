@@ -1,0 +1,42 @@
+track            c56: hole rep(<3 of n) rebow(of n) sag pulse pitch
+Flute 1            3   1/  3  0/ 0   1   0  1
+Flute 2            2   0/  0  0/ 0   4   0  5
+Oboe 1             1   1/  3  0/ 0   1   0  4
+Oboe 2             0   0/  0  0/ 0   1   0  1
+Cor anglais        0   1/  1  0/ 0   2   1  0
+Clarinet 1         2   3/  9  0/ 0   2   1  1
+Clarinet 2         0   3/ 11  0/ 0   1   0  0
+Bass clarinet      0   2/ 11  0/ 0   0   0  0
+Bassoon 1          2   3/ 14  0/ 0   5   0  3
+Bassoon 2          1   8/ 19  0/ 0   3   0  0
+Contrabassoon      0   6/ 40  0/ 0   0   0  0
+Horn 1             0   0/  0  0/ 0   4   1  0
+Horn 2             1   0/  2  0/ 0   2   0  0
+Horn 3             1   0/  2  0/ 0   9   0  1
+Horn 4             1   2/  2  0/ 0   3   0  1
+Trumpet 1          0   0/  5  0/ 0   0   0  0
+Trumpet 2          0   0/  0  0/ 0   0   0  0
+Trumpet 3          0   0/  0  0/ 0   2   0  0
+Trombone 1         0   0/  0  0/ 0   3   0  0
+Trombone 2         0   0/  0  0/ 0   2   0  0
+Bass trombone      0   4/  9  0/ 0   1   0  0
+Tuba               0   0/  0  0/ 0   2   0  0
+Violins I          8   6/  7  0/ 5   4   2  0
+Violins II         5   6/ 29  0/15   4   0  0
+Violas             3  16/ 87  0/20   6   1  1
+Violoncellos       1   3/ 30  1/21  13   1  0
+Double basses      1  18/141  0/26   8   6  0
+Horns a2           0   0/  0  0/ 0   0   0  0
+Trumpets a2        1   0/  0  0/ 0   0   0  0
+Bassoon 1 stac     2   0/  0  0/ 0   0   0  0
+Cor anglais stac   0   0/  0  0/ 0   0   0  0
+Flute 1 stac       5   0/  0  0/ 0   0   0  0
+Cello solo         0   0/  0  0/ 0   1   0  0
+Violins I f62      0   0/  0  0/ 0   0   0  0
+Violins II f62     0   0/  0  0/ 0   0   0  0
+Oboe 1 stac        1   0/  0  0/ 0   0   0  0
+Clarinet 1 stac    3   0/  0  0/ 0   0   0  0
+c56 string: hole 18, rep 49, rep_all 294, rebow 1, rebow_all 87, sag 36, pulse 10, pitch 1
+c56 wind: hole 22, rep 28, rep_all 111, rebow 0, rebow_all 0, sag 20, pulse 2, pitch 15
+c56 brass: hole 4, rep 6, rep_all 20, rebow 0, rebow_all 0, sag 28, pulse 1, pitch 2
+c56 ALL: hole 44, rep 83, rep_all 425, rebow 1, rebow_all 87, sag 84, pulse 13, pitch 18

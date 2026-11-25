@@ -1,0 +1,2 @@
+== ends: /Users/gooby/.venvs/claude-composes-reaper/bin/python cycles/c53/actor_scripts/post53.py ends cycles/c52/render cycles/c52/rendered_build Oboe 2:643.5
+  Oboe 2 sq 643.500: note-on qn 643.417, end qn 643.600 (359.432 s), stem -29.7 dB before the end, -48.8 at +0.05..0.15 s, -41.2 at +0.15..0.30 s

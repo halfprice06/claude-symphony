@@ -1,0 +1,26 @@
+bar 170 stop drop at +0.3 s 19.9 dB; t(-10) 0.08 t(-20) 0.31 t(-30) 0.53 t(-40) 0.87 s; slope -20..-35 dB => RT60 1.84 s
+
+loud frames, stem band levels relative to the stem's own 355-2k level: 180-355, 2-6k, 6-20k (dB); level 355-2k
+  Trumpet_1       -58.4   -7.5  -23.3 |   40.9  frames 328
+  Trumpet_2       -16.6   -8.0  -23.2 |   36.6  frames 336
+  Trumpet_3       -13.5   -8.4  -26.4 |   35.7  frames 334
+  Trumpets_a2     -40.3   -6.3  -20.8 |   39.5  frames 44
+  Trombone_1       -7.4   -8.1  -22.8 |   37.4  frames 498
+  Trombone_2       -8.7   -6.2  -24.8 |   36.7  frames 357
+  Bass_trombone    -9.4   -7.8  -24.1 |   34.6  frames 497
+  Horn_1          -18.1  -10.9  -26.6 |   36.7  frames 234
+  Horn_3           -7.4  -12.8  -29.2 |   36.0  frames 492
+  Horns_a2         -8.5  -13.8  -27.1 |   40.4  frames 270
+  Violins_I       -37.6   -1.6  -20.8 |   40.8  frames 503
+  Violins_II      -14.6   -4.1  -27.9 |   38.2  frames 503
+  Violas            0.1   -7.6  -32.7 |   34.7  frames 492
+  Violoncellos      2.8   -8.9  -26.3 |   36.3  frames 503
+  Oboe_1          -33.9  -11.2  -40.3 |   35.8  frames 491
+  Flute_1         -57.0  -13.5  -30.0 |   38.5  frames 489
+  Clarinet_1      -12.2   -8.5  -33.9 |   37.4  frames 480
+
+delivered mp3, mono: 20-100, 90-180, 180-355, 100-250, 250-500, 355-710, 2-6k
+ as delivered           -13.42 -10.67  -7.24  -8.99  -5.86  -5.53  -9.95
+ 167 Hz bell removed    -13.31  -9.82  -6.75  -8.03  -5.76  -5.69 -10.31
+ 167 off, 260 -1.5>-2.5 -13.12  -9.80  -7.27  -8.22  -6.08  -5.66 -10.07
+ 167 off, 280 -3 bw1.2  -12.92  -9.69  -7.55  -8.15  -6.50  -5.86  -9.81

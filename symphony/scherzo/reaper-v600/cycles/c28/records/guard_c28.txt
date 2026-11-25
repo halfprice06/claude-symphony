@@ -1,0 +1,8 @@
+WARNING Violins I: cc7_spans_db lift cut at CC7 127 on 41 points
+envelope: points 2547, per note 0.46, per second 9.2 (timpani left out)
+fixed guard, step (1.5 dB within 0.5 s, > 6 dB/s, inside a sounding note): 1 notes (+ harp 14)
+first 0.35 s (finale c27: 1.5 dB or more, printed hairpins apart): 2 notes (+ harp 7); steps wholly inside printed hairpins (exempt from both counts): 10 notes
+critic B's measure (2 dB within 0.5 s at 20 dB/s or faster): 0 notes (+ harp 0)
+   Violoncellos sq 524.0 on 523.544 1.6 dB at +0.12 s 
+   Violoncellos sq 526.0 on 524.974 2.5 dB at +0 s 
+   Violoncellos sq 624.0 on 623.62 2.5 dB at +0 s 

@@ -1,0 +1,32 @@
+ok       Flute 1: 0 attacks differ
+ok       Flute 2: 0 attacks differ
+ok       Oboe 1: 0 attacks differ
+ok       Oboe 2: 0 attacks differ
+ok       Cor anglais: 0 attacks differ
+ok       Clarinet 1: 0 attacks differ
+ok       Clarinet 2: 0 attacks differ
+ok       Bass clarinet: 0 attacks differ
+ok       Bassoon 1: 0 attacks differ
+ok       Bassoon 2: 0 attacks differ
+ok       Contrabassoon: 0 attacks differ
+ok       Horn 1: 0 attacks differ
+ok       Horn 2: 0 attacks differ
+ok       Horn 3: 0 attacks differ
+STALE    Horn 4: 16 attacks differ  (1FHs pp: 20.0 (written 1076.0); 1FHs mf: 20.0 (written 677.7000122070312); 1FHs f: 20.0 (written 677.7000122070312))
+ok       Trumpet 1: 0 attacks differ
+ok       Trumpet 2: 0 attacks differ
+ok       Trombone 1: 0 attacks differ
+ok       Trombone 2: 0 attacks differ
+ok       Bass trombone: 0 attacks differ
+ok       Tuba: 0 attacks differ
+ok       Timpani: 0 attacks differ
+ok       Harp: 0 attacks differ
+STALE    Violins I: 58 attacks differ  (V1s pp: 20.0 (written 1076.0645751953125); V1s p: 20.0 (written 1053.9169921875); V1s mf: 20.0 (written 840.8967895507812))
+ok       Violins II: 0 attacks differ
+ok       Violas: 0 attacks differ
+STALE    Violoncellos: 52 attacks differ  (V1s pp: 20.0 (written 1379.7303466796875); V1s p: 20.0 (written 1053.9169921875); V1s mf: 20.0 (written 1076.0645751953125))
+ok       Double basses: 0 attacks differ
+ok       Harp harmonics: 0 attacks differ
+ok       Violin I solo: 0 attacks differ
+ok       Violas div: 0 attacks differ
+state_guard: 31 tracks, 3 stale, 0 missing

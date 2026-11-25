@@ -1,0 +1,23 @@
+727 joins in both files; S moved 20 ms or more: 6 (* = this cycle's notes)
+  * Bassoon 1         201.000: S   +36 ->   +36   pcX   +51 ->   +51   crossover   +36 ->   +36   lead 70 -> 70
+  * Violins I          80.000: S   -72 ->   -72   pcX   -72 ->   -72   crossover   +34 ->   +34   lead 210 -> 210
+  * Violins I         262.000: S   +45 ->   +50   pcX   +45 ->   +50   crossover   +80 ->   +80   lead 190 -> 190
+  * Violins I         268.000: S    -1 ->    -1   pcX    -1 ->    -1   crossover    +3 ->    +3   lead 245 -> 245
+  * Violins II         66.000: S   -15 ->   -15   pcX    +2 ->    +2   crossover   -15 ->   -15   lead 165 -> 165
+  * Violins II         68.000: S   -14 ->   -14   pcX   +54 ->   +54   crossover   -14 ->   -14   lead 240 -> 240
+  * Violins II         72.000: S   -48 ->   -46   pcX   -48 ->   -46   crossover    -9 ->    -9   lead 155 -> 155
+  * Violins II         74.000: S   -13 ->   -13   pcX    -3 ->    -3   crossover   -13 ->   -13   lead 175 -> 175
+  * Violins II         75.000: S    -3 ->    -3   pcX    +0 ->    +0   crossover    -3 ->    -3   lead 165 -> 165
+  * Violins II         78.000: S    -3 ->    -3   pcX   +51 ->   +51   crossover    -3 ->    -3   lead 165 -> 165
+  * Violins II        154.000: S  +242 ->  +242   pcX  +146 ->  +146   crossover  +242 ->  +242   lead 350 -> 350   old band 6 dB at   -52 ->   -52
+  * Violins II        268.000: S    -6 ->    -6   pcX    -6 ->    -6   crossover   +24 ->   +24   lead 240 -> 240
+    Violas            220.000: S   -10 ->   -58   pcX   -10 ->   -58   crossover   +46 ->   +46   lead 180 -> 180
+    Violas            250.000: S    +5 ->   -15   pcX   +11 ->   -15   crossover    +5 ->    +3   lead 275 -> 275
+    Violas            292.000: S   +14 ->   -25   pcX   +14 ->   -25   crossover   +19 ->   +19   lead 195 -> 195
+    Violoncellos       62.000: S   +38 ->   +15   pcX   +40 ->   +15   crossover   +38 ->   +38   lead 130 -> 130
+  * Violoncellos       68.000: S   +43 ->   +43   pcX   +43 ->   +43   crossover   +88 ->   +88   lead 300 -> 300
+  * Violoncellos       68.500: S   +10 ->   +10   pcX   +41 ->   +41   crossover   +10 ->   +10   lead 280 -> 280
+  * Violoncellos       77.000: S   -51 ->   -48   pcX   -51 ->   -48   crossover    -2 ->    -2   lead 290 -> 290
+    Violoncellos       81.000: S    -9 ->   +34   pcX    -9 ->  +124   crossover   +34 ->   +34   lead 180 -> 180
+  * Violoncellos      253.000: S   +72 ->   +72   pcX   +91 ->   +91   crossover   +72 ->   +72   lead 150 -> 150
+    Violoncellos      271.000: S   -25 ->    +2   pcX   -25 ->    +2   crossover   +58 ->   +58   lead 180 -> 180

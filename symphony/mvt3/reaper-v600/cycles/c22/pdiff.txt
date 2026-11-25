@@ -1,0 +1,96 @@
+tempo equal: True
+Flute 1
+  notes -206 +206
+  cc11: 1 removed, 4 added; qn 1040.00..1046.62
+  vol_db differs
+Flute 2
+  notes -127 +127
+  cc11: 43 removed, 49 added; qn 907.68..1065.50
+  vol_db differs
+Oboe 1
+  notes -160 +160
+  cc11: 20 removed, 29 added; qn 787.56..1046.62
+  vol_db differs
+Oboe 2
+  notes -28 +28
+  cc11: 10 removed, 15 added; qn 907.57..1046.62
+  vol_db differs
+Cor anglais
+  notes -42 +42
+Clarinet 1
+  notes -290 +290
+  cc11: 2 removed, 10 added; qn 1040.00..1047.89
+  cc1: 0 removed, 8 added; qn 1040.50..1047.50
+  vol_db differs
+Clarinet 2
+  notes -97 +97
+  cc11: 26 removed, 37 added; qn 923.62..1047.89
+  cc1: 0 removed, 8 added; qn 1040.50..1047.50
+  vol_db differs
+Bass clarinet
+  notes -17 +17
+Bassoon 1
+  notes -134 +134
+  cc11: 12 removed, 15 added; qn 1008.69..1046.62
+Bassoon 2
+  notes -16 +16
+  cc11: 1 removed, 4 added; qn 1040.00..1046.62
+  vol_db differs
+Contrabassoon
+  notes -13 +13
+  cc11: 1 removed, 4 added; qn 1040.00..1046.62
+Horn 1
+  notes -8 +8
+  ks: 1 removed, 5 added; qn 89.63..870.94
+  cc11: 46 removed, 62 added; qn 89.61..1116.53
+  cc1: 0 removed, 8 added; qn 1040.50..1047.50
+  vol_db differs
+Horn 2
+  vol_db differs
+Horn 3
+  cc11: 2 removed, 8 added; qn 1040.00..1047.84
+  cc1: 0 removed, 8 added; qn 1040.50..1047.50
+  vol_db differs
+Horn 4
+  cc11: 2 removed, 60 added; qn 171.53..1047.84
+  cc1: 0 removed, 8 added; qn 1040.50..1047.50
+  vol_db differs
+Trumpet 1
+  notes -15 +15
+  cc11: 89 removed, 103 added; qn 371.25..1095.75
+  cc1: 0 removed, 8 added; qn 1040.50..1047.50
+  vol_db differs
+Trumpet 2
+  notes -15 +15
+  cc11: 40 removed, 47 added; qn 370.30..907.84
+  vol_db differs
+Trumpet 3
+  cc11: 117 removed, 167 added; qn 441.30..1103.76
+  cc1: 10 removed, 43 added; qn 1015.52..1047.50
+  vol_db differs
+Trombone 1
+  cc11: 43 removed, 55 added; qn 919.35..1047.84
+  cc1: 0 removed, 8 added; qn 1040.50..1047.50
+  vol_db differs
+Trombone 2
+  cc11: 0 removed, 12 added; qn 1040.25..1047.75
+  cc1: 0 removed, 8 added; qn 1040.50..1047.50
+  vol_db differs
+Bass trombone
+  cc11: 51 removed, 66 added; qn 895.35..1047.84
+  cc1: 0 removed, 8 added; qn 1040.50..1047.50
+Tuba
+  cc11: 46 removed, 66 added; qn 895.46..1047.78
+  cc1: 0 removed, 8 added; qn 1040.50..1047.50
+  vol_db differs
+Violins I
+  cc11: 1 removed, 5 added; qn 1040.00..1047.00
+Violins II
+  cc11: 2 removed, 3 added; qn 1040.00..1047.83
+Violas
+  cc11: 44 removed, 56 added; qn 287.70..1047.84
+Violoncellos
+  cc11: 19 removed, 32 added; qn 299.73..1047.00
+Double basses
+  notes -48 +48
+  cc11: 1 removed, 11 added; qn 1040.00..1047.94

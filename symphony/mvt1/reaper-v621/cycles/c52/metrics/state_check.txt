@@ -1,0 +1,238 @@
+state_check: /Users/gooby/sandbox/claude_composes/symphony/mvt1/reaper-v621/cycles/c51/render (/Users/gooby/sandbox/claude_composes/symphony/mvt1/reaper-v621/cycles/c52/before) -> /Users/gooby/sandbox/claude_composes/symphony/mvt1/reaper-v621/cycles/c52/render (/Users/gooby/sandbox/claude_composes/symphony/mvt1/reaper-v621/build); flag |level| > 3.0 dB or |pcX| > 30.0 ms on notes whose data did not change
+Flute 1            compared  138  flagged   2  state runs 0  timing runs 0
+     108.000 p 84 Sus MAX                level  -0.06 dB  eq +0.00  pcX    +73 ms
+     637.000 p 92 Sus MAX                level  +0.58 dB  eq +0.00  pcX    -39 ms
+Flute 2            compared   45  flagged   1  state runs 0  timing runs 0
+     629.000 p 88 Sus MAX                level  +2.00 dB  eq +0.00  pcX    -34 ms
+Oboe 1             compared  144  flagged   6  state runs 0  timing runs 0
+     100.000 p 77 Sus MAX                level  -0.19 dB  eq +0.00  pcX   +127 ms
+     106.500 p 74 Sus MAX                level  -0.43 dB  eq +0.00  pcX   -185 ms
+     114.500 p 75 Sus MAX                level  -0.32 dB  eq +0.00  pcX    +58 ms
+     148.500 p 77 Sus MAX                level  -1.35 dB  eq +0.00  pcX    -68 ms
+     149.000 p 76 Leg Slur MAX           level  -2.48 dB  eq +0.00  pcX   -108 ms
+     640.000 p 80 Sus MAX                level  +1.31 dB  eq +0.00  pcX    +76 ms
+Oboe 2             compared   83  flagged   6  state runs 0  timing runs 0
+     410.500 p 76 Sus MAX                level  -2.27 dB  eq +0.00  pcX    -37 ms
+     411.000 p 75 Leg Slur MAX           level  -3.10 dB  eq +0.00  pcX     +0 ms
+     416.500 p 74 Leg Slur MAX           level  +0.05 dB  eq +0.00  pcX    +44 ms
+     418.500 p 81 Sus MAX                level  -2.43 dB  eq +0.00  pcX    +98 ms
+     419.000 p 80 Leg Slur MAX           level  -0.52 dB  eq +0.00  pcX    +80 ms
+     637.000 p 80 Sus MAX                level  +1.10 dB  eq +0.00  pcX    -52 ms
+Cor anglais        compared   52  flagged   0  state runs 0  timing runs 0
+Clarinet 1         compared  190  flagged   6  state runs 0  timing runs 0
+     107.000 p 73 Leg Slur Rep           level  +0.97 dB  eq +0.00  pcX    -92 ms
+     116.000 p 70 Sus Non Vib            level  +3.12 dB  eq +0.00  pcX    -39 ms
+     152.500 p 79 Sus Non Vib            level  -3.26 dB  eq +0.00  pcX    +60 ms
+     258.000 p 68 Sus Non Vib            level  +0.19 dB  eq +0.00  pcX    -41 ms
+     308.500 p 82 Sus Non Vib            level  +0.92 dB  eq +0.00  pcX    -32 ms
+     626.000 p 77 Sus Non Vib            level  +0.30 dB  eq +0.00  pcX    -33 ms
+Clarinet 2         compared   97  flagged   1  state runs 0  timing runs 0
+     456.000 p 65 Sus Non Vib            level  -0.49 dB  eq +0.00  pcX    +46 ms
+Bass clarinet      compared   76  flagged   4  state runs 0  timing runs 0
+     426.500 p 54 Sus Non Vib            level  +0.41 dB  eq +0.00  pcX    +41 ms
+     429.500 p 54 Leg Slur               level  -1.82 dB  eq +0.00  pcX    -49 ms
+     435.000 p 47 Leg Slur               level  -0.37 dB  eq +0.00  pcX    -47 ms
+     440.000 p 53 Sus Non Vib            level  +0.10 dB  eq +0.00  pcX    -65 ms
+Bassoon 1          compared  176  flagged   4  state runs 0  timing runs 0
+     363.000 p 60 Sus MAX                level  +0.60 dB  eq +0.00  pcX    -46 ms
+     524.000 p 60 Sus MAX                level  +0.07 dB  eq +0.00  pcX   -146 ms
+     525.500 p 60 Leg Slur MAX           level  +1.25 dB  eq +0.00  pcX    -78 ms
+     566.000 p 59 Sus MAX                level  +0.12 dB  eq +0.00  pcX    -31 ms
+Bassoon 2          compared  104  flagged   0  state runs 0  timing runs 0
+Contrabassoon      compared   96  flagged   0  state runs 0  timing runs 0
+Horn 1             compared   46  flagged   2  state runs 0  timing runs 0
+     171.000 p 72 Leg Slur MAX           level  -4.35 dB  eq -1.60  pcX    +71 ms
+     528.000 p 65 LegRep RRx4            level  -0.61 dB  eq -2.51  pcX    -40 ms
+Horn 2             compared   70  flagged   1  state runs 0  timing runs 0
+     456.000 p 65 Sus MAX                level  +0.04 dB  eq -4.03  pcX    -31 ms
+Horn 3             compared  110  flagged   2  state runs 0  timing runs 0
+     416.000 p 62 Leg Slur MAX           level  -3.87 dB  eq -4.80  pcX    +95 ms
+     639.500 p 68 Leg Slur MAX           level  -4.32 dB  eq -1.93  pcX     +2 ms
+Horn 4             compared   99  flagged   0  state runs 0  timing runs 0
+Trumpet 1          compared   76  flagged  34  state runs 4  timing runs 0
+     108.000 p 67 Sus Non Vib MAX        level  -3.87 dB  eq -0.08  pcX    -21 ms
+     116.000 p 73 Sus Non Vib MAX        level  -2.62 dB  eq -0.06  pcX    +93 ms
+     119.500 p 73 Sus Non Vib MAX        level  -3.03 dB  eq -0.07  pcX     +1 ms
+     275.500 p 70 Leg Slur MAX           level  -5.54 dB  eq -0.06  pcX    +56 ms
+     276.000 p 68 Leg Slur MAX           level  -6.45 dB  eq -0.03  pcX    +49 ms
+     277.000 p 77 Leg Slur MAX           level  -8.30 dB  eq -0.01  pcX    +61 ms
+     279.000 p 75 Leg Slur MAX           level  -7.13 dB  eq -0.03  pcX    -10 ms
+     280.000 p 73 Leg Slur MAX           level  -9.04 dB  eq -0.04  pcX    +27 ms
+     281.500 p 72 Leg Slur MAX           level  -8.03 dB  eq -0.02  pcX    +58 ms
+     282.000 p 70 Leg Slur MAX           level  -7.24 dB  eq -0.10  pcX    +69 ms
+     283.000 p 73 Leg Slur MAX           level  -8.16 dB  eq -0.10  pcX    +55 ms
+     283.500 p 77 Leg Slur MAX           level -14.94 dB  eq -0.01  pcX    +73 ms
+     284.000 p 80 Sus Non Vib MAX        level  -3.01 dB  eq -0.01  pcX    -15 ms
+     326.500 p 74 Sus Non Vib MAX        level  -3.12 dB  eq -0.05  pcX     -7 ms
+     327.000 p 73 Sus Non Vib MAX        level  -3.01 dB  eq -0.06  pcX    -10 ms
+     328.000 p 74 Sus Non Vib MAX        level  -3.47 dB  eq -0.06  pcX     -3 ms
+     330.000 p 74 Sus Non Vib MAX        level  -3.71 dB  eq -0.06  pcX     +0 ms
+     451.500 p 71 Leg Slur MAX           level  -7.10 dB  eq -0.03  pcX   +118 ms
+     452.000 p 72 Leg Slur MAX           level  -7.50 dB  eq -0.05  pcX   +200 ms
+     453.500 p 71 Leg Slur MAX           level  -6.30 dB  eq -0.05  pcX    +68 ms
+     454.000 p 65 Leg Slur MAX           level  -8.77 dB  eq -0.13  pcX    +24 ms
+     455.000 p 68 Leg Slur MAX           level  -7.08 dB  eq -0.05  pcX     -3 ms
+     455.500 p 72 Leg Slur MAX           level  -9.26 dB  eq -0.03  pcX    +30 ms
+     456.000 p 73 Sus Non Vib MAX        level  -3.94 dB  eq -0.08  pcX    +10 ms
+     460.000 p 74 Sus Non Vib MAX        level  -4.10 dB  eq -0.08  pcX    -22 ms
+     484.000 p 68 Sus Non Vib MAX        level  -3.83 dB  eq -0.05  pcX     -1 ms
+     526.000 p 67 Sus Non Vib MAX        level  -4.14 dB  eq -0.09  pcX    -16 ms
+     564.000 p 67 Sus Non Vib MAX        level  -3.39 dB  eq -0.08  pcX    -18 ms
+     629.000 p 76 Sus Non Vib MAX        level  -3.19 dB  eq -0.09  pcX     -1 ms
+     637.000 p 80 Sus Non Vib MAX        level  -3.08 dB  eq -0.04  pcX     -5 ms
+     640.000 p 77 Sus Non Vib MAX        level  -3.13 dB  eq -0.08  pcX     -4 ms
+     642.000 p 74 Leg Slur MAX           level  -3.38 dB  eq -0.07  pcX    -32 ms
+     643.000 p 71 Leg Slur MAX           level  -6.49 dB  eq -0.02  pcX    +69 ms
+     643.500 p 72 Leg Slur MAX           level  -3.48 dB  eq -0.02  pcX    +20 ms
+  RUN Trumpet 1: qn 275.50-284.00, 10 notes, level median -7.6 dB, pcX median +56 ms
+  RUN Trumpet 1: qn 326.50-330.00, 4 notes, level median -3.3 dB, pcX median -5 ms
+  RUN Trumpet 1: qn 451.50-460.00, 8 notes, level median -7.1 dB, pcX median +27 ms
+  RUN Trumpet 1: qn 637.00-643.50, 5 notes, level median -3.4 dB, pcX median -4 ms
+Trumpet 2          compared   50  flagged  11  state runs 1  timing runs 0
+     104.000 p 67 Sus Non Vib MAX        level  -3.23 dB  eq -0.07  pcX     -1 ms
+     106.000 p 67 Sus Non Vib MAX        level  -3.48 dB  eq -0.08  pcX     -7 ms
+     119.500 p 70 Sus Non Vib MAX        level  -3.05 dB  eq -0.07  pcX     -3 ms
+     280.000 p 67 Sus Non Vib MAX        level  -3.14 dB  eq -0.07  pcX     +1 ms
+     453.000 p 65 Leg Slur MAX           level  -7.24 dB  eq -0.18  pcX    +37 ms
+     460.000 p 66 Sus Non Vib MAX        level  -2.78 dB  eq -0.06  pcX    +47 ms
+     532.000 p 67 Sus Non Vib MAX        level  -3.59 dB  eq -0.08  pcX    -29 ms
+     534.000 p 67 Sus Non Vib MAX        level  -3.68 dB  eq -0.08  pcX     -6 ms
+     535.500 p 67 Sus Non Vib MAX        level  -4.24 dB  eq -0.08  pcX     -8 ms
+     562.000 p 65 Sus Non Vib MAX        level  -2.38 dB  eq -0.11  pcX    -36 ms
+     636.000 p 68 Sus Non Vib MAX        level  -3.88 dB  eq -0.05  pcX     -4 ms
+  RUN Trumpet 2: qn 532.00-535.50, 3 notes, level median -3.7 dB, pcX median -8 ms
+Trumpet 3          compared   48  flagged   3  state runs 1  timing runs 0
+     116.000 p 67 Sus Non Vib MAX        level  -3.28 dB  eq -0.07  pcX    -24 ms
+     118.000 p 67 Sus Non Vib MAX        level  -3.35 dB  eq -0.07  pcX     -4 ms
+     119.500 p 67 Sus Non Vib MAX        level  -3.67 dB  eq -0.08  pcX     -2 ms
+  RUN Trumpet 3: qn 116.00-119.50, 3 notes, level median -3.4 dB, pcX median -4 ms
+Trombone 1         compared  103  flagged   6  state runs 0  timing runs 0
+     124.000 p 60 Sus MAX                level  -1.01 dB  eq -0.13  pcX    -31 ms
+     522.500 p 62 Sus MAX                level  -0.47 dB  eq -0.07  pcX    +49 ms
+     524.000 p 60 Sus MAX                level  -0.89 dB  eq -0.11  pcX    -33 ms
+     532.000 p 59 Leg Slur MAX           level  -0.98 dB  eq -0.16  pcX    -44 ms
+     533.000 p 62 Sus MAX                level  -2.35 dB  eq -0.07  pcX    -39 ms
+     533.500 p 60 Leg Slur MAX           level  -2.86 dB  eq -0.07  pcX   -135 ms
+Trombone 2         compared   49  flagged   2  state runs 0  timing runs 0
+     566.000 p 55 Sus MAX                level  -1.59 dB  eq -0.11  pcX    +46 ms
+     672.000 p 56 Sus MAX                level  -1.67 dB  eq -0.09  pcX   +103 ms
+Bass trombone      compared   62  flagged   1  state runs 0  timing runs 0
+     704.000 p 50 Leg Slur MAX           level  -1.98 dB  eq -0.10  pcX    -40 ms
+Tuba               compared   47  flagged   0  state runs 0  timing runs 0
+Timpani            compared  109  flagged   0  state runs 0  timing runs 0
+Violins I          compared  272  flagged  26  state runs 0  timing runs 1
+      42.000 p 71 Leg BC MAX             level  -0.26 dB  eq -0.09  pcX    +99 ms
+      57.000 p 75 Sus MAX                level  +0.87 dB  eq -0.07  pcX    -47 ms
+      59.000 p 73 Leg Slur MAX           level  -0.98 dB  eq -0.08  pcX   -125 ms
+      60.000 p 72 Sus MAX                level  -0.01 dB  eq -0.15  pcX   +138 ms
+      61.500 p 72 Leg Slur MAX           level  -1.66 dB  eq -0.18  pcX    -69 ms
+      65.000 p 77 Sus MAX                level  -0.86 dB  eq -0.04  pcX    +33 ms
+      67.000 p 74 Leg Slur MAX           level  -0.27 dB  eq -0.04  pcX   -104 ms
+      69.000 p 74 Sus MAX                level  -0.73 dB  eq -0.11  pcX    +47 ms
+      69.500 p 72 Leg Slur MAX           level  -1.61 dB  eq -0.02  pcX   -112 ms
+      74.500 p 79 Sus MAX                level  +0.03 dB  eq -0.05  pcX    +33 ms
+     116.000 p 82 Staccatissimo RRx9     level  +0.27 dB  eq -0.03  pcX    -46 ms
+     124.000 p 84 Sus MAX                level  -1.64 dB  eq -0.02  pcX    +38 ms
+     128.000 p 84 Leg BC MAX             level  +0.09 dB  eq -0.02  pcX   +167 ms
+     156.500 p 79 Leg Slur MAX           level  -0.46 dB  eq -0.02  pcX    -60 ms
+     277.000 p 89 Leg BC MAX             level  +0.09 dB  eq -0.01  pcX    +64 ms
+     448.000 p 84 Leg BC MAX             level  +0.34 dB  eq -0.04  pcX    -88 ms
+     456.000 p 85 Leg BC MAX             level  -0.43 dB  eq -0.02  pcX   -153 ms
+     523.000 p 85 Leg BC MAX             level  -0.01 dB  eq -0.02  pcX   -107 ms
+     536.000 p 75 Leg Slur MAX           level  -0.06 dB  eq -0.04  pcX    -53 ms
+     539.000 p 77 Leg BC MAX             level  +0.14 dB  eq -0.08  pcX   -100 ms
+     540.000 p 75 Leg Slur MAX           level  +1.17 dB  eq -0.03  pcX   +138 ms
+     643.500 p 84 Leg Slur MAX           level  -0.09 dB  eq -0.02  pcX    -31 ms
+     644.000 p 81 Leg BC MAX             level  -0.27 dB  eq -0.03  pcX   -100 ms
+     715.000 p 74 Leg BC MAX             level  +0.57 dB  eq -0.04  pcX    -65 ms
+     716.000 p 72 Leg Slur MAX           level  -0.37 dB  eq -0.08  pcX    +49 ms
+     718.000 p 73 Leg BC MAX             level  +0.19 dB  eq -0.14  pcX   +106 ms
+  timing run Violins I: qn 57.00-69.50, 8 notes, level median -0.8 dB, pcX median -58 ms
+Violins II         compared  294  flagged  16  state runs 0  timing runs 0
+     118.000 p 79 Leg Slur MAX           level  +0.62 dB  eq -0.08  pcX    -36 ms
+     119.500 p 77 Leg BC MAX             level  -0.93 dB  eq -0.02  pcX    -57 ms
+     124.000 p 72 Sus MAX                level  -1.46 dB  eq -0.14  pcX    +41 ms
+     180.000 p 61 Leg Slur MAX           level  +0.35 dB  eq -0.17  pcX    +38 ms
+     324.500 p 67 Leg Slur MAX           level  -0.05 dB  eq -0.13  pcX    -69 ms
+     325.000 p 75 Leg BC MAX             level  -0.34 dB  eq -0.03  pcX    -70 ms
+     362.500 p 79 Stac RRx9              level  +0.94 dB  eq -0.03  pcX    -35 ms
+     383.000 p 80 Leg Slur MAX           level  -0.19 dB  eq -0.03  pcX    -71 ms
+     475.000 p 74 Leg BC MAX             level  -0.29 dB  eq -0.06  pcX    +57 ms
+     477.000 p 73 Leg BC MAX             level  +1.01 dB  eq -0.13  pcX   -111 ms
+     484.000 p 74 Tremolo                level  -0.38 dB  eq -0.06  pcX    +56 ms
+     531.000 p 65 Leg BC MAX             level  +0.37 dB  eq -0.24  pcX    -91 ms
+     562.000 p 77 Leg Slur MAX           level  +0.47 dB  eq -0.03  pcX    -59 ms
+     564.000 p 72 Sus Marc LITE          level  +0.05 dB  eq -0.15  pcX    -56 ms
+     606.000 p 84 Tremolo                level  -0.02 dB  eq -0.04  pcX    -43 ms
+     647.500 p 68 Leg Slur MAX           level  -0.76 dB  eq -0.18  pcX   -150 ms
+Violas             compared  591  flagged  14  state runs 0  timing runs 0
+      76.000 p 65 Leg Slur MAX           level  +0.71 dB  eq -2.34  pcX    -33 ms
+     184.000 p 60 Sus MAX                level  +0.39 dB  eq -2.03  pcX   +183 ms
+     188.000 p 65 Sus MAX                level  -0.42 dB  eq -1.92  pcX   -355 ms
+     204.000 p 56 Sus MAX                level  -0.17 dB  eq -1.97  pcX   +128 ms
+     208.000 p 58 Sus MAX                level  -0.17 dB  eq -1.91  pcX    +43 ms
+     208.000 p 65 Sus MAX                level  -0.17 dB  eq -1.91  pcX    -53 ms
+     247.000 p 60 Sus MAX                level  +0.01 dB  eq -2.17  pcX    +53 ms
+     259.000 p 61 Sus MAX                level  +0.07 dB  eq -2.27  pcX    +72 ms
+     327.500 p 60 Leg BC MAX             level  -0.16 dB  eq -1.45  pcX    -70 ms
+     361.500 p 67 Leg BC MAX             level  -0.09 dB  eq -2.17  pcX    -48 ms
+     366.000 p 70 Sus MAX                level  -0.08 dB  eq -0.94  pcX    +30 ms
+     464.333 p 62 Sus MAX                level  +0.06 dB  eq -1.59  pcX    -32 ms
+     514.000 p 55 Leg Slur MAX           level  -0.15 dB  eq -1.41  pcX    +33 ms
+     640.000 p 59 Sus MAX                level  -0.01 dB  eq -1.97  pcX    -49 ms
+Violoncellos       compared    0  flagged   0  state runs 0  timing runs 0
+Double basses      compared  287  flagged  39  state runs 2  timing runs 0
+     120.000 p 41 Sus MAX                level  +3.18 dB  eq -0.04  pcX    +12 ms
+     136.000 p 34 Sus MAX                level  +2.17 dB  eq +0.46  pcX    -61 ms
+     140.000 p 39 Sus MAX                level  +2.09 dB  eq +0.27  pcX   -123 ms
+     152.000 p 34 Sus MAX                level  +1.62 dB  eq +0.54  pcX   -165 ms
+     172.000 p 37 Sus MAX                level  +3.09 dB  eq +0.25  pcX    -39 ms
+     176.000 p 36 Sus MAX                level  +1.44 dB  eq +0.09  pcX    -43 ms
+     180.000 p 37 Sus MAX                level  +2.33 dB  eq +0.22  pcX    -46 ms
+     182.000 p 39 Sus MAX                level  +2.06 dB  eq +0.45  pcX    +81 ms
+     184.000 p 44 Pizz RRx4              level  -3.45 dB  eq +0.14  pcX    +20 ms
+     188.000 p 37 Pizz RRx4              level  -6.30 dB  eq +0.91  pcX    -11 ms
+     198.000 p 39 Pizz RRx4              level  +4.95 dB  eq +0.20  pcX     -6 ms
+     200.000 p 36 Pizz RRx4              level  -4.06 dB  eq +0.37  pcX    -19 ms
+     204.000 p 37 Pizz RRx4              level  +3.39 dB  eq +0.80  pcX     +9 ms
+     208.000 p 37 Pizz RRx4              level  -3.23 dB  eq +0.58  pcX     -5 ms
+     212.000 p 39 Pizz RRx4              level  +4.99 dB  eq +0.19  pcX     -4 ms
+     216.000 p 32 Pizz RRx4              level  +2.12 dB  eq +0.40  pcX    -39 ms
+     372.000 p 34 Sus MAX                level  -0.04 dB  eq +0.30  pcX    -63 ms
+     526.000 p 31 Sus MAX                level  -0.01 dB  eq -0.23  pcX    -47 ms
+     563.500 p 38 Sus MAX                level  +3.04 dB  eq +0.09  pcX    n/a ms
+     568.000 p 36 Sus MAX                level  -2.98 dB  eq -0.07  pcX    -74 ms
+     569.500 p 36 Sus MAX                level  +3.60 dB  eq +0.28  pcX    n/a ms
+     570.000 p 36 Sus MAX                level  -5.34 dB  eq -0.13  pcX    n/a ms
+     571.500 p 36 Sus MAX                level  +4.49 dB  eq +0.33  pcX   +114 ms
+     572.000 p 31 Sus MAX                level  +3.29 dB  eq +0.18  pcX   -109 ms
+     592.000 p 38 Pizz RRx4              level  +8.61 dB  eq +0.09  pcX    -15 ms
+     608.000 p 41 Pizz RRx4              level  +4.50 dB  eq +0.52  pcX     +8 ms
+     612.000 p 43 Pizz RRx4              level  +2.17 dB  eq +0.89  pcX    -55 ms
+     614.000 p 43 Pizz RRx4              level  +1.70 dB  eq +0.25  pcX    +45 ms
+     616.000 p 36 Pizz RRx4              level  +7.77 dB  eq +0.32  pcX    -20 ms
+     624.000 p 29 Sus MAX                level  -0.05 dB  eq +0.10  pcX    -32 ms
+     675.500 p 36 Sus MAX                level  +3.27 dB  eq +0.30  pcX    n/a ms
+     696.000 p 31 Sus MAX                level  -0.85 dB  eq +0.27  pcX   +209 ms
+     700.000 p 39 Sus MAX                level  +0.91 dB  eq +0.44  pcX    +68 ms
+     704.000 p 38 Sus MAX                level  +4.50 dB  eq +0.04  pcX    +25 ms
+     708.000 p 36 Sus MAX                level  -4.25 dB  eq -0.04  pcX    -76 ms
+     710.000 p 37 Sus MAX                level  -2.77 dB  eq +0.38  pcX   +102 ms
+     712.000 p 36 Sus MAX                level  -2.24 dB  eq +0.02  pcX    +34 ms
+     714.671 p 36 Sus MAX                level  +3.02 dB  eq +0.05  pcX    n/a ms
+     720.004 p 36 Sus MAX                level  +3.28 dB  eq +0.06  pcX    n/a ms
+  RUN Double basses: qn 198.00-212.00, 5 notes, level median +3.4 dB, pcX median -5 ms
+  RUN Double basses: qn 569.50-572.00, 4 notes, level median +3.4 dB, pcX median +2 ms
+Horns a2           compared   81  flagged   4  state runs 0  timing runs 0
+     286.000 p 56 Sus MAX                level  -0.09 dB  eq -1.97  pcX    -43 ms
+     667.000 p 61 Leg Slur MAX           level  -0.75 dB  eq -1.74  pcX    -32 ms
+     669.500 p 60 Leg Slur MAX           level  -0.73 dB  eq -1.59  pcX    -40 ms
+     674.500 p 63 Sus MAX                level  -0.35 dB  eq -2.44  pcX    +47 ms
+Trumpets a2        compared   21  flagged   1  state runs 0  timing runs 0
+     674.500 p 75 Sus MAX                level  -2.36 dB  eq -0.03  pcX    +30 ms
+Bassoon 1 stac     compared   14  flagged   0  state runs 0  timing runs 0
+Cor anglais stac   compared   14  flagged   0  state runs 0  timing runs 0
+Flute 1 stac       compared   15  flagged   0  state runs 0  timing runs 0
+Cello solo         compared    0  flagged   0  state runs 0  timing runs 0
+Violins I f62      compared    6  flagged   0  state runs 0  timing runs 0
+Violins II f62     compared    6  flagged   0  state runs 0  timing runs 0

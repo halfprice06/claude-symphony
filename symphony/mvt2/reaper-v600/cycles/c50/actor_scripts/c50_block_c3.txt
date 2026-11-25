@@ -1,0 +1,8 @@
+# c50 critic C #3 (bar 47): Oboe 1's fp note at 148 spoke late (0.15 s after the beat it was 8.2 dB under its maximum in
+# c49). The note-on goes 0.15 s earlier (re-attack lead; clamped to 0.45 of the previous note's slot), the 4.2 dB step
+# moves with the onset and a 2 dB dip after 148.3 keeps the later swell under the start
+REATTACK_LEAD_AT["Oboe 1"][148.0] = 0.15
+assert [(147.97, 0.0), (148.0, 4.2), (148.59, 0.0)] in LEVEL_SHAPES["Oboe 1"]
+LEVEL_SHAPES["Oboe 1"] = [s_ if s_ != [(147.97, 0.0), (148.0, 4.2), (148.59, 0.0)]
+                          else [(147.873, 0.0), (147.903, 4.2), (148.59, 0.0)] for s_ in LEVEL_SHAPES["Oboe 1"]]
+LEVEL_SHAPES["Oboe 1"] = LEVEL_SHAPES["Oboe 1"] + [[(148.3, 0.0), (148.7, -2.0), (149.3, -2.0), (149.9, 0.0)]]

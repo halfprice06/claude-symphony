@@ -1,0 +1,14 @@
+14 row-change joins: level NEW - OLD in the window before the target: median +0.00 dB, |d| >= 1 dB: 2, >= 3 dB: 1; correlation median 1.000, under 0.9: 6
+reference pair (two passes of the old build): |d| >= 1 dB: 0, >= 3 dB: 0; correlation median 1.000, under 0.9: 1
+   Violas          70.000 d +0.12 dB corr -0.344
+   Violins II      82.000 d +6.44 dB corr -0.095
+   Violins I       83.000 d +2.97 dB corr -0.044
+   Violins II     174.000 d +0.99 dB corr -0.042
+   Violins I      174.000 d -0.50 dB corr -0.001
+   Violins II      83.000 d -0.67 dB corr 0.079
+   Violas div      71.000 d -0.00 dB corr 1.000
+   Violas         249.000 d +0.00 dB corr 1.000
+   Violas          72.000 d +0.00 dB corr 1.000
+   Violins II     172.000 d +0.00 dB corr 1.000
+   Violins I      172.000 d +0.00 dB corr 1.000
+   Violas         253.500 d +0.00 dB corr 1.000

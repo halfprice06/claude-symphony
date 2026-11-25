@@ -1,0 +1,517 @@
+{
+ "Flute 1": {
+  "bars": 80,
+  "bar_median": -9.466047501405228e-09,
+  "bad_bars": [
+   [
+    28,
+    -2.1
+   ]
+  ],
+  "notes": 126,
+  "note_median": 1.239164095778733e-07,
+  "bad_notes": [
+   [
+    74.0,
+    79,
+    2.7
+   ],
+   [
+    423.0,
+    77,
+    -4.3
+   ],
+   [
+    634.0,
+    79,
+    -2.8
+   ]
+  ]
+ },
+ "Flute 2": {
+  "bars": 75,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 100,
+  "note_median": 0.0,
+  "bad_notes": [
+   [
+    1007.0,
+    91,
+    6.1
+   ],
+   [
+    1074.0,
+    79,
+    -3.0
+   ]
+  ]
+ },
+ "Oboe 1": {
+  "bars": 55,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 83,
+  "note_median": 0.0,
+  "bad_notes": [
+   [
+    796.0,
+    72,
+    3.7
+   ]
+  ]
+ },
+ "Oboe 2": {
+  "bars": 65,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 79,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Cor anglais": {
+  "bars": 42,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 72,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Clarinet 1": {
+  "bars": 185,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 194,
+  "note_median": 0.0,
+  "bad_notes": [
+   [
+    1084.0,
+    81,
+    2.4
+   ]
+  ]
+ },
+ "Clarinet 2": {
+  "bars": 137,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 150,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Bass clarinet": {
+  "bars": 50,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 59,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Bassoon 1": {
+  "bars": 198,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 269,
+  "note_median": 0.0,
+  "bad_notes": [
+   [
+    106.0,
+    55,
+    -2.1
+   ],
+   [
+    119.0,
+    62,
+    -3.8
+   ],
+   [
+    1058.0,
+    55,
+    3.6
+   ]
+  ]
+ },
+ "Bassoon 2": {
+  "bars": 146,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 177,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Contrabassoon": {
+  "bars": 97,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 115,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Horn 1": {
+  "bars": 161,
+  "bar_median": 0.0,
+  "bad_bars": [
+   [
+    14,
+    -2.3
+   ],
+   [
+    143,
+    2.6
+   ],
+   [
+    217,
+    -2.4
+   ]
+  ],
+  "notes": 221,
+  "note_median": 0.0,
+  "bad_notes": [
+   [
+    570.0,
+    62,
+    6.1
+   ],
+   [
+    866.0,
+    61,
+    -3.8
+   ]
+  ]
+ },
+ "Horn 2": {
+  "bars": 74,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 90,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Horn 3": {
+  "bars": 85,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 112,
+  "note_median": 0.0,
+  "bad_notes": [
+   [
+    119.0,
+    62,
+    3.9
+   ],
+   [
+    122.0,
+    58,
+    3.7
+   ]
+  ]
+ },
+ "Horn 4": {
+  "bars": 66,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 71,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Trumpet 1": {
+  "bars": 68,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 112,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Trumpet 2": {
+  "bars": 35,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 58,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Trumpet 3": {
+  "bars": 47,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 74,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Trombone 1": {
+  "bars": 83,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 103,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Trombone 2": {
+  "bars": 64,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 82,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Bass trombone": {
+  "bars": 67,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 84,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Tuba": {
+  "bars": 61,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 89,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Timpani": {
+  "bars": 65,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 118,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Crash cymbals": {
+  "bars": 5,
+  "bar_median": -1.0955983729132868e-06,
+  "bad_bars": [],
+  "notes": 2,
+  "note_median": -9.477340404018264e-06,
+  "bad_notes": []
+ },
+ "Bass drum": {
+  "bars": 1,
+  "bar_median": -1.1400263133509725e-07,
+  "bad_bars": [],
+  "notes": 1,
+  "note_median": -2.41713532744825e-07,
+  "bad_notes": []
+ },
+ "Harp": {
+  "bars": 40,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 287,
+  "note_median": 0.0,
+  "bad_notes": []
+ },
+ "Violins I": {
+  "bars": 188,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 254,
+  "note_median": 0.0,
+  "bad_notes": [
+   [
+    42.0,
+    67,
+    3.7
+   ],
+   [
+    164.0,
+    65,
+    -2.3
+   ],
+   [
+    316.0,
+    84,
+    -2.4
+   ]
+  ]
+ },
+ "Violins II": {
+  "bars": 218,
+  "bar_median": 0.0,
+  "bad_bars": [
+   [
+    15,
+    -2.5
+   ],
+   [
+    113,
+    2.4
+   ],
+   [
+    155,
+    -2.1
+   ]
+  ],
+  "notes": 302,
+  "note_median": 0.0,
+  "bad_notes": [
+   [
+    42.0,
+    67,
+    4.9
+   ],
+   [
+    56.0,
+    75,
+    -3.4
+   ],
+   [
+    448.0,
+    77,
+    2.4
+   ],
+   [
+    616.0,
+    75,
+    -2.7
+   ],
+   [
+    670.0,
+    62,
+    3.3
+   ],
+   [
+    1060.0,
+    84,
+    -6.7
+   ]
+  ]
+ },
+ "Violas": {
+  "bars": 237,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 333,
+  "note_median": 0.0,
+  "bad_notes": [
+   [
+    131.0,
+    68,
+    -2.4
+   ],
+   [
+    442.0,
+    56,
+    -3.1
+   ],
+   [
+    961.0,
+    67,
+    2.3
+   ],
+   [
+    1014.0,
+    60,
+    -3.9
+   ]
+  ]
+ },
+ "Violoncellos": {
+  "bars": 207,
+  "bar_median": 0.0,
+  "bad_bars": [
+   [
+    26,
+    3.6
+   ],
+   [
+    253,
+    4.5
+   ]
+  ],
+  "notes": 385,
+  "note_median": 0.0,
+  "bad_notes": [
+   [
+    100.0,
+    44,
+    3.9
+   ],
+   [
+    609.0,
+    55,
+    -2.9
+   ],
+   [
+    753.0,
+    50,
+    -2.3
+   ],
+   [
+    762.0,
+    53,
+    -3.2
+   ],
+   [
+    792.0,
+    60,
+    2.8
+   ],
+   [
+    993.0,
+    53,
+    -3.9
+   ],
+   [
+    1009.0,
+    53,
+    5.1
+   ]
+  ]
+ },
+ "Double basses": {
+  "bars": 120,
+  "bar_median": 0.0,
+  "bad_bars": [],
+  "notes": 230,
+  "note_median": 0.0,
+  "bad_notes": [
+   [
+    114.0,
+    47,
+    4.3
+   ]
+  ]
+ },
+ "master_same_bars": {
+  "bars": [
+   63,
+   64,
+   69,
+   74
+  ],
+  "diff": [
+   -0.0035474022415122874,
+   4.297116973361881e-08,
+   -0.2772633931073045,
+   -0.0915224115667499
+  ]
+ },
+ "master_c10_bars": [
+  [
+   63,
+   19.675415940300898,
+   19.67541629296387,
+   19.671868890722358
+  ],
+  [
+   64,
+   19.300508048484172,
+   19.300508018898515,
+   19.300508061869685
+  ],
+  [
+   69,
+   29.18914724530996,
+   29.252598956570594,
+   28.97533556346329
+  ],
+  [
+   74,
+   29.809636607020067,
+   29.78176916655582,
+   29.69024675498907
+  ]
+ ]
+}

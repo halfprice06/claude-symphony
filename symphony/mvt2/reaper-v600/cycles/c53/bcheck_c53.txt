@@ -1,0 +1,27 @@
+B1 Flute 1 F5 at 108, 30 ms steps (ms after the beat, dB):
+   15:-40.5 45:-39.5 75:-39.5 105:-38.9 135:-38.1 165:-37.7 195:-37.3 225:-36.6 255:-36.1 285:-36.5 315:-35.8 345:-37.2 375:-40.6 405:-39.2 435:-40.3 465:-39.8 495:-37.9 525:-37.3 555:-38.3 585:-38.5 615:-38.0 645:-37.3 675:-37.0 705:-36.0 735:-36.3 765:-37.1
+   head -38.0, lowest 280-560 ms -40.6 (hole 2.6 dB under the head), 600-780 ms -37.0; pickup 107 body K -41.0, 108.0-108.25 K -37.9, 108.25-108.5 K -37.4
+B3 Bass clarinet D flat 3 at 108, 60 ms steps:
+   30:-42.3 90:-42.9 150:-43.2 210:-42.6 270:-44.2 330:-43.8 390:-44.4 450:-44.8 510:-46.0 570:-46.4 630:-46.6 690:-46.8 750:-47.1
+   C3 before (107.2-107.9) -45.0; peak of the first 0.45 s -42.3; body 108.6-109.5 -48.6
+B2 Violoncellos against the violins, bar 73, K per half beat:
+   245.0: celli -40.5, Violins I -40.9, Violins II -39.8; celli - Violins I +0.4
+   245.5: celli -40.9, Violins I -42.6, Violins II -44.3; celli - Violins I +1.7
+   246.0: celli -39.7, Violins I -41.8, Violins II -47.5; celli - Violins I +2.1
+   246.5: celli -40.0, Violins I -43.3, Violins II -44.3; celli - Violins I +3.3
+   247.0: celli -42.2, Violins I -42.2, Violins II -44.6; celli - Violins I +0.0
+   C's conditions: 246.0-246.5 minus loudest half beat of 244-246 +0.8 (need >= -1); minus 244.0-244.5 +3.8 (need >= 3)
+B4 Flute 1 bar 37, K per quarter beat:
+   110:-35.8 110.25:-36.0 110.5:-36.7 110.75:-36.5 111:-38.0 111.25:-34.8 111.5:-34.2 111.75:-33.2
+   111.0-111.5 minus 110.5-111.0: +0.5 (need >= -1.5); 111.5-112.0 minus 110.0-111.0: +2.6 (need <= 2.5)
+Trombone 1 quotation (item 9): per note, 2-5 kHz level of the first 80 ms minus the note's body (0.15-0.45 s) in that band, and broadband body
+    212.50: front - body (2-5 kHz) -15.4 dB; body -26.9
+    213.00: front - body (2-5 kHz) -9.8 dB; body -19.8
+    214.50: front - body (2-5 kHz) -4.9 dB; body -26.5
+    215.00: front - body (2-5 kHz) +1.6 dB; body -25.2
+    215.50: front - body (2-5 kHz) -2.6 dB; body -26.2
+    216.00: front - body (2-5 kHz) -8.9 dB; body -24.4
+    217.00: front - body (2-5 kHz) -13.7 dB; body -21.8
+    217.50: front - body (2-5 kHz) -6.6 dB; body -25.2
+    218.00: front - body (2-5 kHz) -18.6 dB; body -22.2
+    219.50: front - body (2-5 kHz) -4.2 dB; body -49.2

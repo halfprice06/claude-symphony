@@ -1,0 +1,111 @@
+no note Horn 1 263
+no note Horn 1 271
+{'keep': 249, 'remove': 59}
+  Flute 1            189.000  +6.0  B remove -> keep    front-body with  -0.9 without  -3.9  hole without  4.9, the fill closes -1.3
+  Flute 1            198.000  +4.0  B tie    -> keep    front-body with  +0.5 without  -1.1  hole without  3.4, the fill closes -1.1
+  Flute 1            119.000  +3.5  B tie    -> REMOVE  front-body with  +2.5 without  +0.5  hole without  2.7, the fill closes +2.0
+  Flute 1            120.000  +4.4  B remove -> keep    front-body with  +2.1 without  -0.7  hole without  2.1, the fill closes -1.2
+  Flute 1            122.000  +1.4  B tie    -> keep    front-body with  -1.2 without  -2.1  hole without  3.2, the fill closes +1.0
+  Flute 1            191.500  +2.2  B remove -> REMOVE  front-body with  -0.4 without  -0.4  hole without  5.0, the fill closes -1.0
+  Flute 1            192.000  +2.7  B tie    -> REMOVE  front-body with  +4.1 without  +2.0  hole without 11.9, the fill closes -0.6
+  Flute 1            196.000  +4.7  B remove -> REMOVE  front-body with  +6.0 without  +1.8  hole without  0.0, the fill closes +0.0
+  Flute 1            258.500  +2.5  B remove -> REMOVE  front-body with  +1.0 without  +0.2  hole without  2.9, the fill closes -0.7
+  Flute 1            200.000  +1.0  B remove -> REMOVE  front-body with  -2.3 without  -3.0  hole without 10.2, the fill closes +0.0
+  Flute 1            110.000  +1.3  B tie    -> REMOVE  front-body with  +0.6 without  +0.4  hole without -0.1, the fill closes +0.5
+  Flute 1            135.000  +1.2  B tie    -> REMOVE  front-body with  +1.5 without  +1.2  hole without  3.9, the fill closes -0.4
+  Oboe 1             270.500  +7.0  B remove -> keep    front-body with  +0.1 without  -2.1  hole without  7.2, the fill closes +3.3
+  Oboe 1              55.500  +7.0  B remove -> keep    front-body with  -1.4 without  -2.0  hole without  8.7, the fill closes +2.4
+  Oboe 1              43.500  +2.3  B remove -> REMOVE  front-body with  -1.5 without  -2.0  hole without  4.5, the fill closes +1.6
+  Oboe 1              45.000  +0.8  B remove -> REMOVE  front-body with  -2.2 without  -2.9  hole without  6.2, the fill closes +0.8
+  Oboe 1              55.000  +3.1  B tie    -> keep    front-body with  -1.5 without  -2.1  hole without  4.3, the fill closes +1.1
+  Oboe 1             196.000  +4.5  B remove -> REMOVE  front-body with  +2.3 without  -0.9  hole without  0.0, the fill closes +0.0
+  Oboe 1             145.000  +1.8  B tie    -> keep    front-body with  +0.4 without  +0.1  hole without  1.5, the fill closes +1.3
+  Cor anglais         98.000  +6.2  B tie    -> -> 3.5  front-body with  +2.8 without  -1.4  hole without  7.0, the fill closes +5.9
+  Cor anglais        152.000  +0.5  B remove -> REMOVE  front-body with  -3.0 without  -3.5  hole without  6.2, the fill closes +0.5
+  Cor anglais        163.000  +2.4  B remove -> REMOVE  front-body with  +0.0 without  -0.9  hole without  5.0, the fill closes +1.7
+  Cor anglais        130.000  +1.3  B remove -> REMOVE  front-body with  +1.0 without  +0.3  hole without  2.3, the fill closes +0.1
+  Cor anglais        127.500  +1.1  B remove -> REMOVE  front-body with  -0.3 without  -0.3  hole without  3.2, the fill closes -0.5
+  Clarinet 1         266.000  +0.4  B remove -> REMOVE  front-body with  -2.5 without  -2.7  hole without  4.0, the fill closes +0.4
+  Clarinet 1         184.000  +2.2  B remove -> REMOVE  front-body with  +5.6 without  +4.4  hole without  6.0, the fill closes +0.4
+  Clarinet 1         195.000  +4.5  B remove -> REMOVE  front-body with  +3.1 without  +0.4  hole without  3.3, the fill closes +1.9
+  Clarinet 1         270.000  +3.7  B remove -> REMOVE  front-body with  +1.2 without  +0.9  hole without  5.5, the fill closes -4.0
+  Bassoon 1          264.000  +7.0  B tie    -> keep    front-body with  +0.4 without  -2.8  hole without  6.5, the fill closes +1.2
+  Bassoon 1          231.000  +6.6  B remove -> REMOVE  front-body with  +6.5 without  +4.0  hole without  2.5, the fill closes -1.9
+  Bassoon 1          262.000  +5.0  B remove -> keep    front-body with  -1.2 without  -5.2  hole without 10.1, the fill closes +2.8
+  Bassoon 1           24.000  +4.0  B remove -> REMOVE  front-body with  +4.0 without  +0.4  hole without  0.1, the fill closes +3.1
+  Bassoon 1           36.000  +1.7  B remove -> REMOVE  front-body with  +2.9 without  +1.6  hole without  2.3, the fill closes -0.1
+  Bassoon 1           38.000  +2.3  B tie    -> keep    front-body with  +0.3 without  -1.3  hole without  5.5, the fill closes -0.3
+  Bassoon 1           39.000  +3.7  B tie    -> REMOVE  front-body with  +4.5 without  +1.6  hole without  1.1, the fill closes +2.0
+  Bassoon 1          182.000  +4.8  B remove -> REMOVE  front-body with  +2.8 without  -1.6  hole without  3.3, the fill closes +4.6
+  Bassoon 1          200.000  +2.6  B remove -> REMOVE  front-body with  +1.3 without  -0.1  hole without  4.6, the fill closes +0.2
+  Bassoon 1          238.000  +4.4  B remove -> REMOVE  front-body with  +4.8 without  +0.7  hole without -0.0, the fill closes +1.9
+  Bassoon 1          255.000  +5.4  B remove -> keep    front-body with  -2.0 without  -5.4  hole without  5.8, the fill closes +4.4
+  Bassoon 1          263.000  +5.0  B tie    -> -> 3.5  front-body with  +1.9 without  -1.0  hole without  2.8, the fill closes +2.3
+  Bassoon 1          145.000  +2.1  B remove -> REMOVE  front-body with  +1.1 without  +0.9  hole without  3.3, the fill closes -0.7
+  Horn 1             202.000  +4.0  B tie    -> keep    front-body with  -1.2 without  -4.5  hole without  7.1, the fill closes +3.0
+  Horn 1              26.000  +3.5  B tie    -> keep    front-body with  -0.5 without  -2.4  hole without  2.8, the fill closes +0.8
+  Horn 1             182.000  +4.0  B remove -> REMOVE  front-body with  +3.0 without  -0.1  hole without -0.2, the fill closes -0.2
+  Horn 1             193.000  +3.5  B tie    -> keep    front-body with  -3.5 without  -6.6  hole without  7.8, the fill closes +0.7
+  Bass clarinet       21.000  +2.1  B remove -> REMOVE  front-body with  +4.7 without  +3.5  hole without -1.4, the fill closes +1.7
+  Bass clarinet       97.000  +2.2  B tie    -> keep    front-body with  +0.1 without  -1.4  hole without  3.4, the fill closes +2.0
+  Bass clarinet       92.000  +4.0  B remove -> REMOVE  front-body with  +0.1 without  -0.8  hole without  9.1, the fill closes +1.7
+  Violas             245.500  +4.0  B tie    -> keep    front-body with  -0.0 without  +0.1  hole without  6.9, the fill closes +2.0
+  Violas              42.000  +4.0  B tie    -> keep    front-body with  -5.9 without  -9.9  hole without  0.0, the fill closes +0.0
+  Violas               3.000  +4.2  B remove -> REMOVE  front-body with  +4.8 without  +0.6  hole without  1.3, the fill closes +4.2
+  Violas              75.000  +2.0  B remove -> REMOVE  front-body with  +3.7 without  +2.4  hole without  1.8, the fill closes +2.0
+  Violas              84.000  +4.0  B remove -> -> 2.5  front-body with  +5.2 without  +1.2  hole without  8.8, the fill closes +4.0
+  Violins II          66.000  +5.0  B tie    -> keep    front-body with  +0.1 without  -4.0  hole without  4.3, the fill closes +3.6
+  Violins II          65.500  +5.0  B tie    -> keep    front-body with  -0.0 without  -0.0  hole without  2.8, the fill closes +2.1
+  Violins II         240.000  +4.5  B tie    -> keep    front-body with  -2.4 without  -6.8  hole without  9.1, the fill closes +4.4
+  Violins II         108.000  +6.3  B remove -> keep    front-body with  -7.3 without -12.3  hole without  0.0, the fill closes +0.0
+  Violins II          71.000  +1.2  B tie    -> REMOVE  front-body with  +0.9 without  +0.2  hole without  2.6, the fill closes -0.9
+  Violins II          83.000  +6.0  B tie    -> REMOVE  front-body with  +3.3 without  -0.5  hole without  4.3, the fill closes -0.4
+  Violins II         146.000  +2.4  B tie    -> keep    front-body with  -1.1 without  -3.1  hole without  4.2, the fill closes +2.4
+  Violins II         159.000  +4.3  B remove -> REMOVE  front-body with  +0.4 without  -1.4  hole without  3.9, the fill closes -1.0
+  Violins II         190.000  +4.0  B tie    -> keep    front-body with  +1.2 without  -1.8  hole without  7.1, the fill closes +2.7
+  Violins II         259.000  +2.4  B tie    -> keep    front-body with  -3.0 without  -4.5  hole without  3.4, the fill closes +2.4
+  Violins II         261.000  +3.8  B remove -> REMOVE  front-body with  -0.5 without  -0.8  hole without  6.3, the fill closes -1.2
+  Violins II         270.500  +2.5  B remove -> REMOVE  front-body with  +0.9 without  +0.2  hole without  5.5, the fill closes +1.6
+  Violins II          78.000  +3.5  B tie    -> keep    front-body with  -1.5 without  -3.9  hole without  4.0, the fill closes +0.3
+  Violins II         188.000  +2.3  B tie    -> keep    front-body with  +0.0 without  -1.2  hole without  3.9, the fill closes +2.1
+  Violins II         206.000  +5.0  B remove -> keep    front-body with  -0.9 without  -4.2  hole without  7.1, the fill closes +4.5
+  Violoncellos        68.000  +4.0  B tie    -> keep    front-body with  -0.6 without  -0.2  hole without  2.3, the fill closes -0.1
+  Violoncellos        74.000  +1.8  B tie    -> keep    front-body with  -3.1 without  -4.1  hole without 10.1, the fill closes +1.4
+  Violoncellos       246.000  +5.0  B tie    -> keep    front-body with  -0.4 without  -4.9  hole without  9.3, the fill closes +2.4
+  Violoncellos        51.000  +6.0  B remove -> -> 3.5  front-body with  +3.0 without  -1.8  hole without  5.6, the fill closes +2.7
+  Violoncellos        56.000  +4.2  B remove -> REMOVE  front-body with  +2.3 without  -0.8  hole without  4.4, the fill closes +3.8
+  Violoncellos        71.000  +3.8  B tie    -> keep    front-body with  -0.3 without  -2.9  hole without  5.9, the fill closes +2.3
+  Violoncellos        87.000  +3.9  B tie    -> REMOVE  front-body with  +5.0 without  +1.9  hole without  3.4, the fill closes +3.2
+  Violoncellos       130.000  +4.3  B tie    -> -> 1.5  front-body with  +1.7 without  +0.6  hole without  5.8, the fill closes +2.8
+  Violoncellos       186.000  +2.9  B remove -> REMOVE  front-body with  +3.3 without  +1.1  hole without  2.1, the fill closes +2.8
+  Violoncellos       193.000  +3.0  B tie    -> REMOVE  front-body with  +2.4 without  -0.5  hole without  4.8, the fill closes +2.8
+  Violoncellos       253.000  +5.9  B remove -> -> 4.9  front-body with  +2.0 without  -3.7  hole without  8.3, the fill closes +1.5
+  Violoncellos       263.000  +2.2  B tie    -> REMOVE  front-body with  +0.8 without  -0.4  hole without  4.6, the fill closes -0.4
+  Violoncellos        60.000  +2.9  B tie    -> keep    front-body with  -0.6 without  -2.5  hole without  5.1, the fill closes +2.5
+  Violoncellos       259.000  +0.6  B remove -> REMOVE  front-body with  -0.8 without  -1.3  hole without  4.3, the fill closes +0.3
+  Violoncellos        54.000  +3.9  B tie    -> keep    front-body with  +1.1 without  -1.9  hole without  2.6, the fill closes +0.6
+  Violoncellos        77.000  +0.2  B remove -> REMOVE  front-body with  -2.3 without  -2.5  hole without  5.5, the fill closes +0.1
+  Violoncellos       164.000  +5.0  B remove -> REMOVE  front-body with  +2.5 without  -0.8  hole without  3.6, the fill closes +4.2
+  Violoncellos       180.000  +6.0  B remove -> REMOVE  front-body with  +2.9 without  -0.6  hole without  3.6, the fill closes +2.1
+  Violoncellos       256.000  +0.9  B tie    -> REMOVE  front-body with  +0.7 without  +0.3  hole without  2.8, the fill closes +0.6
+  Violoncellos       206.000  +3.3  B remove -> REMOVE  front-body with  +1.4 without  -0.4  hole without  4.1, the fill closes +2.7
+  Violoncellos       240.000  +6.6  B tie    -> REMOVE  front-body with  -0.2 without  -0.2  hole without  9.0, the fill closes +0.7
+  Violins I           71.000  +0.2  B remove -> REMOVE  front-body with  +0.5 without  +0.5  hole without  1.2, the fill closes -0.8
+  Violins I           80.000  +2.0  B remove -> keep    front-body with  +3.6 without  +1.9  hole without  4.1, the fill closes -0.0
+  Violins I           86.000  +0.1  B remove -> REMOVE  front-body with  +0.9 without  +0.9  hole without  0.6, the fill closes -0.0
+  Violins I           68.000  +1.5  B remove -> keep    front-body with  -0.1 without  -1.6  hole without  6.5, the fill closes +1.5
+  Violins I           65.500  +3.5  B tie    -> keep    front-body with  +0.5 without  +0.5  hole without  1.9, the fill closes +1.0
+  Violins I           84.000  +0.1  B remove -> REMOVE  front-body with  -0.8 without  -0.9  hole without  5.4, the fill closes +0.0
+  Violins I           73.500  +5.9  B tie    -> REMOVE  front-body with  +0.3 without  -0.1  hole without  5.5, the fill closes +0.2
+  Violins I           83.000  +2.4  B tie    -> keep    front-body with  +0.3 without  -0.8  hole without  7.6, the fill closes +2.1
+  Violins I          178.000  +2.4  B tie    -> keep    front-body with  -0.1 without  -2.1  hole without  5.5, the fill closes +2.4
+  Violins I          186.000  +0.1  B remove -> REMOVE  front-body with  -3.0 without  -3.1  hole without  6.5, the fill closes +0.1
+  Violins I          247.000  +2.8  B tie    -> keep    front-body with  -1.2 without  -3.8  hole without  4.2, the fill closes +0.1
+  Violins I          270.000  +3.8  B remove -> REMOVE  front-body with  +0.5 without  +0.4  hole without  3.0, the fill closes +1.9
+  Violins I           86.500  +1.2  B remove -> REMOVE  front-body with  +0.8 without  +0.7  hole without  0.6, the fill closes +0.8
+  Violins I          184.000  +1.7  B remove -> REMOVE  front-body with  +0.9 without  +0.3  hole without  3.5, the fill closes -0.6
+  Violins I          292.000  +3.0  B remove -> keep    front-body with  -4.8 without  -7.1  hole without  0.0, the fill closes +0.0
+  Violin I solo       51.000  +2.1  B tie    -> REMOVE  front-body with  +3.1 without  +1.2  hole without  2.7, the fill closes +2.0
+  Clarinet 2         248.000  +2.2  B tie    -> REMOVE  front-body with  +2.2 without  +0.9  hole without  3.7, the fill closes +1.2
+  Violoncellos div    53.000  +3.3  B remove -> keep    front-body with  -0.5 without  -2.9  hole without 10.6, the fill closes +2.8
+written: removed 59

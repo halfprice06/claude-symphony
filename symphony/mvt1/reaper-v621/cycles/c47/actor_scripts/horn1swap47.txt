@@ -1,0 +1,4 @@
+c47 main render: Horn 1 (1FH KS Master, MIDI-only build, data and mix identical to c46) rendered its Leg Slur MAX
+phrases in the flipped state (tools/state_check.py: runs 189-201 +4.5 dB, 411.5-420 +4.9, 587.5-596 +4.6, pcX 32-62 ms
+earlier, up to +9.2 dB on 195.5). The whole stem was replaced by c46's render of the same data (cycles/c46/render/
+12_Horn 1.wav; c45 -> c46 had flagged no Horn 1 note); the c47 original is in render_first/. Master re-summed.

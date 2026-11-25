@@ -1,0 +1,5 @@
+STALE    Flute 2: 18 attacks differ  (Fl2s pp: 20.0 (written 525.0); Fl2s mf: 20.0 (written 525.0); Fl2s f: 20.0 (written 525.0))
+STALE    Horn 2: 16 attacks differ  (1FHs pp: 20.0 (written 1076.0); 1FHs mf: 20.0 (written 677.7000122070312); 1FHs f: 20.0 (written 677.7000122070312))
+STALE    Horn 4: 16 attacks differ  (1FHs pp: 20.0 (written 1076.0); 1FHs mf: 20.0 (written 677.7000122070312); 1FHs f: 20.0 (written 677.7000122070312))
+STALE    Violins I: 58 attacks differ  (V1s pp: 20.0 (written 1076.0645751953125); V1s p: 20.0 (written 1053.9169921875); V1s mf: 20.0 (written 840.8967895507812))
+state_guard: 31 tracks, 4 stale, 0 missing

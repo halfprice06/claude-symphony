@@ -1,0 +1,50 @@
+bar 135 beat 1.0 p63 entry  Sus MAX        lead    0  pcx   n/a  xr   n/a  dom   +90  S   n/a
+bar 135 beat 2.0 p63 entry  Sus MAX        lead   70  pcx   +60  xr   n/a  dom   n/a  S   +60
+bar 135 beat 3.0 p63 entry  Sus MAX        lead   60  pcx   +59  xr   n/a  dom   n/a  S   +59
+bar 135 beat 4.0 p62 join   Sus MAX        lead  100  pcx   +21  xr    -0  dom    -4  S    -0
+bar 136 beat 1.0 p62 entry  Sus MAX        lead  120  pcx   +20  xr   n/a  dom   n/a  S   +20
+bar 136 beat 2.0 p62 entry  Sus MAX        lead  100  pcx   +28  xr   n/a  dom   n/a  S   +28
+bar 136 beat 3.0 p63 join   Sus MAX        lead  100  pcx    -8  xr   -12  dom   -37  S   -12
+bar 136 beat 4.0 p63 entry  Sus MAX        lead  100  pcx   +55  xr   n/a  dom   n/a  S   +55
+bar 137 beat 1.0 p63 entry  Sus MAX        lead   60  pcx   +52  xr   n/a  dom   n/a  S   +52
+bar 137 beat 2.0 p60 join   Sus MAX        lead  100  pcx   +17  xr   -28  dom   -71  S   -28
+bar 137 beat 3.0 p60 entry  Sus MAX        lead  100  pcx   +11  xr   n/a  dom   n/a  S   +11
+bar 137 beat 4.0 p60 entry  Sus MAX        lead  100  pcx   +27  xr   n/a  dom   n/a  S   +27
+bar 138 beat 1.0 p71 join   Sus MAX        lead    0  pcx   +78  xr   +54  dom   n/a  S   +54
+bar 139 beat 1.0 p60 entry  Sus MAX        lead   60  pcx    -4  xr   n/a  dom   -64  S    -4
+bar 139 beat 1.5 p60 entry  Sus MAX        lead    0  pcx   +35  xr   n/a  dom   n/a  S   +35
+bar 139 beat 2.0 p59 join   Sus MAX        lead  100  pcx   -63  xr   -16  dom   -55  S   -63
+bar 139 beat 2.5 p60 join   Sus MAX        lead    0  pcx   +55  xr   +46  dom   +67  S   +46
+bar 139 beat 3.0 p65 join   Sus MAX        lead    0  pcx   +64  xr   +56  dom   +64  S   +56
+bar 139 beat 3.5 p65 entry  Sus MAX        lead    0  pcx   +28  xr   n/a  dom   n/a  S   +28
+bar 139 beat 4.0 p64 join   Sus MAX        lead  100  pcx   -12  xr   -22  dom   -48  S   -22
+bar 139 beat 4.5 p65 join   Sus MAX        lead    0  pcx   +33  xr   +48  dom   +24  S   +33
+bar 140 beat 1.0 p65 entry  Sus MAX        lead    0  pcx   +81  xr   n/a  dom   n/a  S   +81
+bar 140 beat 1.5 p65 entry  Sus MAX        lead    0  pcx   +27  xr   n/a  dom   n/a  S   +27
+bar 140 beat 2.0 p63 join   Sus MAX        lead  100  pcx   -55  xr   -22  dom    -5  S   -55
+bar 140 beat 2.5 p65 join   Sus MAX        lead    0  pcx   +18  xr   +26  dom   +22  S   +18
+bar 140 beat 3.0 p68 join   Sus MAX        lead  100  pcx   -13  xr   -32  dom   -31  S   -32
+bar 140 beat 3.5 p68 entry  Sus MAX        lead    0  pcx   +16  xr   n/a  dom   n/a  S   +16
+bar 140 beat 4.0 p67 join   Sus MAX        lead  100  pcx   -22  xr   -24  dom   +38  S   -24
+bar 140 beat 4.5 p68 join   Sus MAX        lead    0  pcx   +33  xr   +50  dom   +50  S   +33
+bar 141 beat 1.0 p68 entry  Sus MAX        lead    0  pcx   +28  xr   n/a  dom   n/a  S   +28
+bar 141 beat 1.5 p68 entry  Sus MAX        lead    0  pcx   +27  xr   n/a  dom   n/a  S   +27
+bar 141 beat 2.0 p67 join   Sus MAX        lead  100  pcx   -22  xr   -20  dom   +35  S   -22
+bar 141 beat 2.5 p68 join   Sus MAX        lead    0  pcx   +55  xr   +54  dom   +52  S   +54
+bar 141 beat 3.0 p65 join   Sus MAX        lead    0  pcx   +63  xr   +62  dom   +59  S   +62
+bar 141 beat 3.5 p65 entry  Sus MAX        lead    0  pcx   +28  xr   n/a  dom   n/a  S   +28
+bar 141 beat 4.0 p64 join   Sus MAX        lead  100  pcx   -12  xr   -18  dom   -37  S   -18
+bar 141 beat 4.5 p65 join   Sus MAX        lead    0  pcx   +33  xr   +46  dom   +25  S   +33
+bar 142 beat 1.0 p67 join   Sus MAX        lead  100  pcx   -51  xr   -30  dom   -18  S   -51
+bar 142 beat 1.5 p67 entry  Sus MAX        lead    0  pcx   +24  xr   n/a  dom   n/a  S   +24
+bar 142 beat 2.0 p66 join   Sus MAX        lead    0  pcx   +36  xr   +66  dom   +40  S   +36
+bar 142 beat 2.5 p67 join   Sus MAX        lead    0  pcx   +36  xr   +36  dom   +77  S   +36
+bar 142 beat 3.0 p62 join   Sus MAX        lead    0  pcx   +31  xr   +48  dom   +44  S   +31
+bar 142 beat 3.5 p62 entry  Sus MAX        lead    0  pcx   +27  xr   n/a  dom   n/a  S   +27
+bar 142 beat 4.0 p61 join   Sus MAX        lead  100  pcx   -40  xr   -44  dom   -22  S   -44
+bar 142 beat 4.5 p62 join   Sus MAX        lead    0  pcx   +49  xr   +46  dom   +75  S   +46
+bar 143 beat 2.5 p63 entry  Leg Slur MAX   lead  120  pcx   +44  xr   n/a  dom  -107  S   +44
+bar 143 beat 3.5 p63 entry  Leg Slur MAX   lead   60  pcx  +100  xr   n/a  dom   n/a  S  +100
+bar 143 beat 4.5 p63 entry  Leg Slur MAX   lead   60  pcx  +118  xr   n/a  dom   n/a  S  +118
+bar 144 beat 2.5 p55 entry  Leg Slur MAX   lead  120  pcx  +171  xr   n/a  dom   n/a  S  +171
+S: n 48 of 49  median +28  robust SD 37  SD 44  min -63 max +171  >25 from median 24  >40 14  >60 7

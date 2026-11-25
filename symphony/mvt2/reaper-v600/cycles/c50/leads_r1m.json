@@ -1,0 +1,793 @@
+{
+ "Flute 1": {
+  "111": {
+   "d": -0.06,
+   "pcx": -61,
+   "cross": -94,
+   "lead_ms": 150,
+   "prev": 77,
+   "pitch": 75,
+   "ref": "C"
+  },
+  "113": {
+   "d": 0.05,
+   "pcx": 85,
+   "cross": 52,
+   "lead_ms": 30,
+   "prev": 73,
+   "pitch": 72,
+   "ref": "A"
+  },
+  "113.5": {
+   "d": 0.06,
+   "pcx": 81,
+   "cross": 56,
+   "lead_ms": 30,
+   "prev": 72,
+   "pitch": 73,
+   "ref": "A"
+  },
+  "121": {
+   "d": 0.06,
+   "pcx": 103,
+   "cross": 64,
+   "lead_ms": 30,
+   "prev": 72,
+   "pitch": 73,
+   "ref": "A"
+  },
+  "135": {
+   "d": -0.1,
+   "pcx": -163,
+   "cross": -118,
+   "lead_ms": 210,
+   "prev": 77,
+   "pitch": 75,
+   "ref": "C"
+  },
+  "200": {
+   "d": -0.1,
+   "pcx": -112,
+   "cross": -184,
+   "lead_ms": 230,
+   "prev": 82,
+   "pitch": 84,
+   "ref": "C"
+  }
+ },
+ "Oboe 1": {
+  "57": {
+   "d": 0.08,
+   "pcx": 94,
+   "cross": 76,
+   "lead_ms": 60,
+   "prev": 70,
+   "pitch": 68,
+   "ref": "A"
+  },
+  "193.5": {
+   "d": 0.05,
+   "pcx": 140,
+   "cross": 48,
+   "lead_ms": 60,
+   "prev": 80,
+   "pitch": 78,
+   "ref": "A"
+  },
+  "269.5": {
+   "d": 0.05,
+   "pcx": 124,
+   "cross": 48,
+   "lead_ms": 60,
+   "prev": 75,
+   "pitch": 73,
+   "ref": "A"
+  }
+ },
+ "Bass clarinet": {
+  "31": {
+   "d": 0.04,
+   "pcx": 60,
+   "cross": 44,
+   "lead_ms": 90,
+   "prev": 44,
+   "pitch": 48,
+   "ref": "A"
+  }
+ },
+ "Bassoon 1": {
+  "143": {
+   "d": 0.1,
+   "pcx": 175,
+   "cross": 102,
+   "lead_ms": 60,
+   "prev": 61,
+   "pitch": 60,
+   "ref": "A"
+  }
+ },
+ "Bassoon 2": {
+  "261": {
+   "d": 0.05,
+   "pcx": 248,
+   "cross": 54,
+   "lead_ms": 60,
+   "prev": 52,
+   "pitch": 51,
+   "ref": "A"
+  }
+ },
+ "Horn 1": {
+  "193": {
+   "d": -0.1,
+   "pcx": -97,
+   "cross": -182,
+   "lead_ms": 350,
+   "prev": 65,
+   "pitch": 63,
+   "ref": "C"
+  }
+ },
+ "Horn 4": {
+  "268": {
+   "d": 0.1,
+   "pcx": 110,
+   "cross": 136,
+   "lead_ms": 0,
+   "prev": 56,
+   "pitch": 55,
+   "ref": "A"
+  },
+  "292": {
+   "d": 0.1,
+   "pcx": 137,
+   "cross": 114,
+   "lead_ms": 100,
+   "prev": 52,
+   "pitch": 51,
+   "ref": "A"
+  }
+ },
+ "Violins I": {
+  "67.5": {
+   "d": -0.06,
+   "pcx": -70,
+   "cross": -64,
+   "lead_ms": 170,
+   "prev": 68,
+   "pitch": 72,
+   "ref": "C"
+  },
+  "72": {
+   "d": 0.07,
+   "pcx": 72,
+   "cross": 108,
+   "lead_ms": 170,
+   "prev": 73,
+   "pitch": 72,
+   "ref": "A"
+  },
+  "74": {
+   "d": 0.07,
+   "pcx": 66,
+   "cross": 80,
+   "lead_ms": 170,
+   "prev": 70,
+   "pitch": 68,
+   "ref": "A"
+  },
+  "78": {
+   "d": 0.07,
+   "pcx": 105,
+   "cross": 72,
+   "lead_ms": 170,
+   "prev": 65,
+   "pitch": 68,
+   "ref": "A"
+  },
+  "79.5": {
+   "d": 0.04,
+   "pcx": 146,
+   "cross": 42,
+   "lead_ms": 170,
+   "prev": 68,
+   "pitch": 72,
+   "ref": "A"
+  },
+  "174.5": {
+   "d": 0.05,
+   "pcx": 70,
+   "cross": 52,
+   "lead_ms": 170,
+   "prev": 78,
+   "pitch": 77,
+   "ref": "A"
+  },
+  "182": {
+   "d": 0.05,
+   "pcx": 74,
+   "cross": 54,
+   "lead_ms": 148,
+   "prev": 77,
+   "pitch": 75,
+   "ref": "A"
+  },
+  "185.5": {
+   "d": 0.07,
+   "pcx": 95,
+   "cross": 68,
+   "lead_ms": 170,
+   "prev": 73,
+   "pitch": 72,
+   "ref": "A"
+  },
+  "186": {
+   "d": 0.06,
+   "pcx": 110,
+   "cross": 60,
+   "lead_ms": 170,
+   "prev": 72,
+   "pitch": 70,
+   "ref": "A"
+  },
+  "191.5": {
+   "d": -0.06,
+   "pcx": -77,
+   "cross": -60,
+   "lead_ms": 170,
+   "prev": 89,
+   "pitch": 90,
+   "ref": "C"
+  },
+  "192": {
+   "d": 0.07,
+   "pcx": 137,
+   "cross": 74,
+   "lead_ms": 210,
+   "prev": 90,
+   "pitch": 92,
+   "ref": "A"
+  },
+  "199": {
+   "d": 0.08,
+   "pcx": 124,
+   "cross": 76,
+   "lead_ms": 170,
+   "prev": 85,
+   "pitch": 82,
+   "ref": "A"
+  },
+  "242": {
+   "d": -0.07,
+   "pcx": -78,
+   "cross": -66,
+   "lead_ms": 170,
+   "prev": 87,
+   "pitch": 86,
+   "ref": "C"
+  },
+  "244": {
+   "d": 0.08,
+   "pcx": 84,
+   "cross": 90,
+   "lead_ms": 170,
+   "prev": 85,
+   "pitch": 84,
+   "ref": "A"
+  },
+  "252": {
+   "d": 0.06,
+   "pcx": 116,
+   "cross": 62,
+   "lead_ms": 170,
+   "prev": 72,
+   "pitch": 77,
+   "ref": "A"
+  },
+  "254": {
+   "d": 0.07,
+   "pcx": 122,
+   "cross": 70,
+   "lead_ms": 170,
+   "prev": 77,
+   "pitch": 82,
+   "ref": "A"
+  },
+  "258.5": {
+   "d": 0.09,
+   "pcx": 211,
+   "cross": 88,
+   "lead_ms": 170,
+   "prev": 84,
+   "pitch": 82,
+   "ref": "A"
+  }
+ },
+ "Violins II": {
+  "56": {
+   "d": -0.08,
+   "pcx": -92,
+   "cross": -80,
+   "lead_ms": 240,
+   "prev": 68,
+   "pitch": 67,
+   "ref": "C"
+  },
+  "70": {
+   "d": -0.1,
+   "pcx": -123,
+   "cross": -112,
+   "lead_ms": 240,
+   "prev": 75,
+   "pitch": 74,
+   "ref": "C"
+  },
+  "162": {
+   "d": 0.1,
+   "pcx": 168,
+   "cross": 100,
+   "lead_ms": 240,
+   "prev": 81,
+   "pitch": 74,
+   "ref": "A"
+  },
+  "168": {
+   "d": 0.07,
+   "pcx": 101,
+   "cross": 68,
+   "lead_ms": 240,
+   "prev": 75,
+   "pitch": 77,
+   "ref": "A"
+  },
+  "177": {
+   "d": -0.09,
+   "pcx": -124,
+   "cross": -94,
+   "lead_ms": 240,
+   "prev": 73,
+   "pitch": 72,
+   "ref": "C"
+  },
+  "177.5": {
+   "d": 0.08,
+   "pcx": 154,
+   "cross": 78,
+   "lead_ms": 224,
+   "prev": 72,
+   "pitch": 73,
+   "ref": "A"
+  },
+  "181": {
+   "d": -0.08,
+   "pcx": -78,
+   "cross": -108,
+   "lead_ms": 240,
+   "prev": 78,
+   "pitch": 77,
+   "ref": "C"
+  },
+  "181.333": {
+   "d": 0.1,
+   "pcx": 116,
+   "cross": 142,
+   "lead_ms": 148,
+   "prev": 77,
+   "pitch": 78,
+   "ref": "A"
+  },
+  "182": {
+   "d": 0.1,
+   "pcx": 102,
+   "cross": 102,
+   "lead_ms": 148,
+   "prev": 77,
+   "pitch": 75,
+   "ref": "A"
+  },
+  "186": {
+   "d": 0.08,
+   "pcx": 85,
+   "cross": 110,
+   "lead_ms": 220,
+   "prev": 72,
+   "pitch": 70,
+   "ref": "A"
+  },
+  "195.5": {
+   "d": -0.1,
+   "pcx": -124,
+   "cross": -108,
+   "lead_ms": 240,
+   "prev": 78,
+   "pitch": 77,
+   "ref": "C"
+  },
+  "199": {
+   "d": 0.09,
+   "pcx": 102,
+   "cross": 88,
+   "lead_ms": 240,
+   "prev": 73,
+   "pitch": 70,
+   "ref": "A"
+  },
+  "204": {
+   "d": 0.05,
+   "pcx": 83,
+   "cross": 46,
+   "lead_ms": 230,
+   "prev": 72,
+   "pitch": 68,
+   "ref": "A"
+  },
+  "208": {
+   "d": 0.06,
+   "pcx": 123,
+   "cross": 64,
+   "lead_ms": 170,
+   "prev": 73,
+   "pitch": 77,
+   "ref": "A"
+  },
+  "238": {
+   "d": -0.06,
+   "pcx": -61,
+   "cross": -82,
+   "lead_ms": 240,
+   "prev": 65,
+   "pitch": 68,
+   "ref": "C"
+  },
+  "244": {
+   "d": -0.08,
+   "pcx": -133,
+   "cross": -84,
+   "lead_ms": 240,
+   "prev": 73,
+   "pitch": 72,
+   "ref": "C"
+  },
+  "246": {
+   "d": -0.09,
+   "pcx": -86,
+   "cross": -92,
+   "lead_ms": 240,
+   "prev": 70,
+   "pitch": 68,
+   "ref": "C"
+  },
+  "247": {
+   "d": -0.07,
+   "pcx": -69,
+   "cross": -74,
+   "lead_ms": 240,
+   "prev": 68,
+   "pitch": 67,
+   "ref": "C"
+  },
+  "255": {
+   "d": -0.05,
+   "pcx": -92,
+   "cross": -52,
+   "lead_ms": 240,
+   "prev": 82,
+   "pitch": 80,
+   "ref": "C"
+  }
+ },
+ "Violas": {
+  "109.333": {
+   "d": -0.07,
+   "pcx": -67,
+   "cross": -91,
+   "lead_ms": 225,
+   "prev": 61,
+   "pitch": 56,
+   "ref": "C"
+  },
+  "110": {
+   "d": -0.07,
+   "pcx": -70,
+   "cross": -91,
+   "lead_ms": 225,
+   "prev": 61,
+   "pitch": 56,
+   "ref": "C"
+  },
+  "111": {
+   "d": 0.05,
+   "pcx": 84,
+   "cross": 51,
+   "lead_ms": 269,
+   "prev": 65,
+   "pitch": 61,
+   "ref": "A"
+  },
+  "111.333": {
+   "d": -0.07,
+   "pcx": -67,
+   "cross": -85,
+   "lead_ms": 225,
+   "prev": 61,
+   "pitch": 56,
+   "ref": "C"
+  },
+  "114": {
+   "d": -0.08,
+   "pcx": -82,
+   "cross": -323,
+   "lead_ms": 225,
+   "prev": 61,
+   "pitch": 58,
+   "ref": "C"
+  },
+  "118": {
+   "d": -0.05,
+   "pcx": -80,
+   "cross": -47,
+   "lead_ms": 225,
+   "prev": 61,
+   "pitch": 58,
+   "ref": "C"
+  },
+  "189": {
+   "d": 0.07,
+   "pcx": 102,
+   "cross": 69,
+   "lead_ms": 243,
+   "prev": 65,
+   "pitch": 61,
+   "ref": "A"
+  },
+  "193.667": {
+   "d": 0.09,
+   "pcx": 100,
+   "cross": 94,
+   "lead_ms": 144,
+   "prev": 61,
+   "pitch": 66,
+   "ref": "A"
+  },
+  "195.333": {
+   "d": 0.06,
+   "pcx": 64,
+   "cross": 81,
+   "lead_ms": 143,
+   "prev": 56,
+   "pitch": 59,
+   "ref": "A"
+  },
+  "195.667": {
+   "d": 0.07,
+   "pcx": 69,
+   "cross": 156,
+   "lead_ms": 142,
+   "prev": 59,
+   "pitch": 68,
+   "ref": "A"
+  },
+  "247": {
+   "d": -0.08,
+   "pcx": -93,
+   "cross": -77,
+   "lead_ms": 225,
+   "prev": 56,
+   "pitch": 51,
+   "ref": "C"
+  },
+  "250": {
+   "d": 0.05,
+   "pcx": 65,
+   "cross": 53,
+   "lead_ms": 225,
+   "prev": 61,
+   "pitch": 60,
+   "ref": "A"
+  },
+  "257": {
+   "d": 0.07,
+   "pcx": 71,
+   "cross": 73,
+   "lead_ms": 225,
+   "prev": 63,
+   "pitch": 67,
+   "ref": "A"
+  },
+  "292": {
+   "d": 0.05,
+   "pcx": 68,
+   "cross": 51,
+   "lead_ms": 145,
+   "prev": 52,
+   "pitch": 51,
+   "ref": "A"
+  }
+ },
+ "Violoncellos": {
+  "60": {
+   "d": -0.06,
+   "pcx": -64,
+   "cross": -60,
+   "lead_ms": 170,
+   "prev": 48,
+   "pitch": 49,
+   "ref": "C"
+  },
+  "68.5": {
+   "d": 0.07,
+   "pcx": 109,
+   "cross": 70,
+   "lead_ms": 220,
+   "prev": 56,
+   "pitch": 55,
+   "ref": "A"
+  },
+  "76": {
+   "d": -0.06,
+   "pcx": -71,
+   "cross": -64,
+   "lead_ms": 220,
+   "prev": 58,
+   "pitch": 56,
+   "ref": "C"
+  },
+  "77": {
+   "d": 0.07,
+   "pcx": 96,
+   "cross": 70,
+   "lead_ms": 220,
+   "prev": 56,
+   "pitch": 55,
+   "ref": "A"
+  },
+  "81": {
+   "d": -0.06,
+   "pcx": -73,
+   "cross": -60,
+   "lead_ms": 170,
+   "prev": 53,
+   "pitch": 56,
+   "ref": "C"
+  },
+  "145": {
+   "d": -0.05,
+   "pcx": -66,
+   "cross": -50,
+   "lead_ms": 220,
+   "prev": 58,
+   "pitch": 57,
+   "ref": "C"
+  },
+  "145.5": {
+   "d": 0.1,
+   "pcx": 302,
+   "cross": 100,
+   "lead_ms": 212,
+   "prev": 57,
+   "pitch": 58,
+   "ref": "A"
+  },
+  "156": {
+   "d": 0.1,
+   "pcx": 118,
+   "cross": 120,
+   "lead_ms": 220,
+   "prev": 49,
+   "pitch": 54,
+   "ref": "A"
+  },
+  "184": {
+   "d": 0.06,
+   "pcx": 210,
+   "cross": 60,
+   "lead_ms": 170,
+   "prev": 36,
+   "pitch": 45,
+   "ref": "A"
+  },
+  "188": {
+   "d": 0.07,
+   "pcx": 206,
+   "cross": 72,
+   "lead_ms": 170,
+   "prev": 46,
+   "pitch": 53,
+   "ref": "A"
+  },
+  "193": {
+   "d": -0.06,
+   "pcx": -82,
+   "cross": -58,
+   "lead_ms": 170,
+   "prev": 53,
+   "pitch": 51,
+   "ref": "C"
+  },
+  "199": {
+   "d": -0.07,
+   "pcx": -82,
+   "cross": -70,
+   "lead_ms": 220,
+   "prev": 51,
+   "pitch": 52,
+   "ref": "C"
+  },
+  "200": {
+   "d": -0.05,
+   "pcx": -98,
+   "cross": -46,
+   "lead_ms": 170,
+   "prev": 52,
+   "pitch": 51,
+   "ref": "C"
+  },
+  "219.5": {
+   "d": -0.07,
+   "pcx": -74,
+   "cross": -70,
+   "lead_ms": 220,
+   "prev": 47,
+   "pitch": 46,
+   "ref": "C"
+  },
+  "240": {
+   "d": -0.06,
+   "pcx": -77,
+   "cross": -60,
+   "lead_ms": 300,
+   "prev": 51,
+   "pitch": 56,
+   "ref": "C"
+  },
+  "244": {
+   "d": -0.08,
+   "pcx": -101,
+   "cross": -82,
+   "lead_ms": 220,
+   "prev": 55,
+   "pitch": 56,
+   "ref": "C"
+  },
+  "261": {
+   "d": 0.08,
+   "pcx": 105,
+   "cross": 84,
+   "lead_ms": 170,
+   "prev": 59,
+   "pitch": 60,
+   "ref": "A"
+  },
+  "292": {
+   "d": -0.07,
+   "pcx": -71,
+   "cross": -90,
+   "lead_ms": 220,
+   "prev": 49,
+   "pitch": 44,
+   "ref": "C"
+  }
+ },
+ "Double basses": {
+  "83": {
+   "d": -0.1,
+   "pcx": -108,
+   "cross": -152,
+   "lead_ms": 170,
+   "prev": 49,
+   "pitch": 46,
+   "ref": "C"
+  }
+ },
+ "Violas div": {
+  "286": {
+   "d": 0.08,
+   "pcx": 93,
+   "cross": 82,
+   "lead_ms": 200,
+   "prev": 65,
+   "pitch": 56,
+   "ref": "A"
+  }
+ }
+}

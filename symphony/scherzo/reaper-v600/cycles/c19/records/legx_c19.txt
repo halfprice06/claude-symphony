@@ -1,0 +1,7 @@
+Violins I      joins  69 median  +2.8 p80  +4.4 over 6:   3  
+Violins II     joins  92 median  +3.6 p80  +6.7 over 6:  25  
+Violas         joins  73 median  +3.6 p80  +7.4 over 6:  22  
+Violoncellos   joins 176 median  +3.2 p80  +6.4 over 6:  39  
+Violin I solo  joins  16 median  +3.0 p80  +7.9 over 6:   5  
+Violas div     joins   3 median  +9.0 p80  +9.1 over 6:   2  
+all 429 median +3.2 over 6: 96 under 3: 47 %

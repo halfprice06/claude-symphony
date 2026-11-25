@@ -1,0 +1,93 @@
+== Horn 1 200-203 (bar 51) dyn mp notes [(200.0, 63, 0.8), (201.0, 72, 2.3)]
+   q200: stem  -40.1 ->  -38.7 (+1.3)  env  -1.0 ->  +4.6 (+5.6)  margin  -8.3 ->  -6.7 | top others: Violoncellos -32.9 (-0.4), Harp -42.6 (+0.0), Violas -44.2 (+0.0)
+   q201: stem  -34.9 ->  -41.0 (-6.1)  env  +5.5 ->  -0.3 (-5.8)  margin  -1.6 ->  -7.8 | top others: Violoncellos -34.0 (+0.0), Harp -44.9 (+0.0), Violas -45.4 (+0.0)
+   q202: stem  -33.3 ->  -35.0 (-1.8)  env  -1.7 ->  -2.8 (-1.1)  margin  -0.6 ->  -2.4 | top others: Violoncellos -33.3 (+0.0), Harp -44.5 (+0.0), Violas -44.8 (+0.0)
+== Horn 1 172-176 (bar 44) dyn p notes [(171.0, 72, 3.1), (174.0, 70, 2.0)]
+   q172: stem  -44.4 ->  -44.5 (-0.2)  env  -2.6 ->  -2.4 (+0.2)  margin  +0.3 ->  -0.9 | top others: Horn 2 -47.5 (-0.3), Double basses -48.0 (+3.6), Violins II -51.5 (+1.1)
+   q173: stem  -46.4 ->  -47.2 (-0.8)  env  -1.2 ->  -1.6 (-0.4)  margin  -2.5 ->  -6.2 | top others: Double basses -43.0 (+5.2), Violins II -47.7 (+2.3), Horn 2 -49.7 (-0.8)
+   q174: stem  -44.6 ->  -46.1 (-1.6)  env  -8.2 ->  -8.3 (-0.1)  margin  -1.7 ->  -4.7 | top others: Double basses -44.7 (+5.1), Violins II -49.1 (+0.6), Horn 2 -49.4 (-1.5)
+   q175: stem  -55.5 ->  -57.5 (-1.9)  env  -4.6 ->  -4.6 (-0.0)  margin -14.7 -> -16.5 | top others: Violas -42.8 (+0.0), Violins II -50.4 (+0.0), Double basses -51.6 (+2.3)
+== Violins I 143-146 (bar 36) dyn mf notes [(142.0, 67, 1.6), (143.5, 65, 0.6), (144.5, 70, 0.5), (145.0, 78, 1.6)]
+   q143: stem  -39.7 ->  -39.3 (+0.4)  env  -5.8 ->  -5.0 (+0.8)  margin  -2.8 ->  -1.3 | top others: Violoncellos -40.7 (-2.1), Double basses -45.2 (+1.3), Bassoon 1 -48.0 (+0.0)
+   q144: stem  -34.7 ->  -39.4 (-4.7)  env -11.6 -> -13.2 (-1.6)  margin  +1.7 ->  -3.2 | top others: Violoncellos -41.9 (-0.0), Bassoon 2 -42.1 (+0.0), Bassoon 1 -44.5 (-0.0)
+   q145: stem  -29.4 ->  -29.1 (+0.3)  env  -1.1 ->  -0.9 (+0.2)  margin  +4.8 ->  +5.0 | top others: Violoncellos -39.9 (-0.0), Bassoon 1 -40.5 (-0.0), Violas -41.1 (-0.0)
+== Violins I 147-150 (bar 37) dyn mf notes [(146.5, 77, 0.4), (147.0, 76, 0.5), (147.5, 75, 0.7), (148.5, 79, 0.5), (149.0, 80, 1.6)]
+   q147: stem  -33.8 ->  -32.3 (+1.5)  env  -9.4 ->  -8.1 (+1.4)  margin  -3.1 ->  -1.2 | top others: Violas -37.2 (-0.3), Oboe 1 -39.2 (-2.1), Bassoon 2 -39.5 (+0.0)
+   q148: stem  -30.9 ->  -33.5 (-2.6)  env  -6.7 ->  -8.4 (-1.7)  margin  +1.4 ->  -1.7 | top others: Violoncellos -39.2 (-0.0), Double basses -39.9 (+4.6), Horn 3 -40.0 (-0.0)
+   q149: stem  -29.1 ->  -28.8 (+0.4)  env  -1.6 ->  -1.3 (+0.3)  margin  +1.6 ->  +1.3 | top others: Violoncellos -34.4 (-0.0), Double basses -37.0 (+5.6), Bassoon 2 -39.6 (+0.0)
+== Violoncellos 142-145 (bar 36) dyn p notes [(144.0, 54, 4.2)]
+   q142: stem  -42.4 ->  -42.3 (+0.1)  env  -1.2 ->  -1.0 (+0.1)  margin  -8.4 ->  -8.3 | top others: Violins I -35.3 (-0.0), Double basses -44.1 (+0.7), Bassoon 1 -45.6 (-0.5)
+   q143: stem  -38.6 ->  -40.7 (-2.1)  env  +2.3 ->  +1.1 (-1.2)  margin  -1.0 ->  -3.6 | top others: Violins I -39.3 (+0.4), Double basses -45.2 (+1.3), Bassoon 1 -48.0 (+0.0)
+   q144: stem  -41.9 ->  -41.9 (-0.0)  env  +2.3 ->  +2.3 (-0.1)  margin  -8.9 ->  -6.5 | top others: Violins I -39.4 (-4.7), Bassoon 2 -42.1 (+0.0), Bassoon 1 -44.5 (-0.0)
+== Violoncellos 180-184 (bar 46) dyn pp notes [(180.0, 56, 1.5), (182.0, 55, 1.0), (183.0, 51, 1.0)]
+   q180: stem  -55.2 ->  -55.8 (-0.7)  env  -0.6 ->  -1.7 (-1.1)  margin -15.3 -> -16.3 | top others: Clarinet 1 -42.7 (+0.0), Violas -44.7 (+0.0), Double basses -49.1 (+3.7)
+   q181: stem  -48.8 ->  -48.4 (+0.4)  env  -1.2 ->  -1.8 (-0.6)  margin  -9.6 -> -10.2 | top others: Clarinet 1 -42.8 (+0.0), Double basses -44.0 (+5.2), Violas -44.2 (-0.0)
+   q182: stem  -54.2 ->  -52.8 (+1.4)  env  -1.6 ->  -1.0 (+0.6)  margin -11.2 ->  -9.9 | top others: Violins II -47.7 (+0.0), Clarinet 1 -48.1 (-0.0), Violas -49.2 (-0.0)
+   q183: stem  -39.2 ->  -41.4 (-2.3)  env  -1.0 ->  -2.6 (-1.6)  margin  +1.7 ->  -0.6 | top others: Horn 1 -41.9 (-0.0), Violas -51.0 (+0.1), Violins II -54.3 (-0.0)
+== Violoncellos 580-584 (bar 146) dyn pp notes [(583.0, 43, 0.6)]
+   q580: stem  -61.1 ->  -61.1 (-0.0)  env  -1.2 ->  -1.3 (-0.1)  margin -23.1 -> -23.4 | top others: Oboe 1 -40.7 (+0.6), Clarinet 2 -46.0 (-0.0), Clarinet 1 -47.0 (+0.0)
+   q581: stem  -84.8 ->  -84.8 (-0.0)  env  -0.5 ->  -1.0 (-0.5)  margin -46.2 -> -45.5 | top others: Oboe 1 -42.5 (-1.3), Violins I -48.0 (+0.0), Clarinet 2 -49.0 (+0.0)
+   q582: stem  -53.9 ->  -56.3 (-2.4)  env  -1.5 ->  -3.0 (-1.5)  margin -11.5 -> -13.9 | top others: Oboe 1 -44.6 (-0.0), Horn 3 -48.4 (+0.0), Violas -55.9 (-0.0)
+   q583: stem  -34.0 ->  -36.5 (-2.5)  env  -1.7 ->  -2.7 (-1.0)  margin  +3.9 ->  +1.4 | top others: Violas -39.6 (+0.0), Oboe 1 -46.2 (-0.0), Horn 1 -47.3 (-0.0)
+== Violoncellos 328-331 (bar 83) dyn ff notes [(328.0, 43, 1.2), (330.0, 43, 1.0)]
+   q328: stem  -26.7 ->  -26.2 (+0.5)  env  -3.7 ->  -3.2 (+0.5)  margin -10.9 -> -10.0 | top others: Timpani -23.9 (+0.0), Trumpet 1 -26.6 (-1.5), Violins I -27.5 (-1.1)
+   q329: stem  -30.6 ->  -35.8 (-5.2)  env  -1.1 ->  -4.4 (-3.3)  margin  -2.2 ->  -7.5 | top others: Double basses -38.7 (+0.5), Oboe 2 -38.7 (-0.0), Horn 2 -38.8 (+0.6)
+   q330: stem  -28.3 ->  -27.9 (+0.4)  env  -2.6 ->  -2.2 (+0.4)  margin -12.4 -> -11.5 | top others: Violins I -25.1 (-0.8), Timpani -26.2 (+0.0), Trumpet 1 -27.8 (-1.4)
+== Violoncellos 527-530 (bar 132) dyn ff notes [(526.0, 56, 1.5), (527.5, 55, 0.7), (528.5, 55, 0.5), (529.0, 65, 1.6)]
+   q527: stem  -26.2 ->  -28.2 (-2.0)  env  +2.6 ->  +2.9 (+0.3)  margin  -4.4 ->  -6.6 | top others: Double basses -30.5 (+0.7), Clarinet 1 -30.9 (-0.2), Bassoon 1 -31.1 (-0.0)
+   q528: stem  -27.0 ->  -24.4 (+2.7)  env  +2.2 ->  +5.8 (+3.5)  margin  -5.3 ->  -2.3 | top others: Timpani -29.8 (+0.0), Trumpet 1 -31.3 (+0.0), Double basses -31.5 (+0.6)
+   q529: stem  -27.1 ->  -26.9 (+0.2)  env  -2.0 ->  -2.0 (-0.1)  margin  -7.8 ->  -6.9 | top others: Clarinet 1 -26.3 (-1.3), Violins I -29.7 (-1.0), Bassoon 1 -31.2 (-1.3)
+== Violoncellos 408-412 (bar 103) dyn mf notes [(407.0, 73, 0.5), (407.5, 68, 0.5), (408.0, 53, 3.4), (411.5, 52, 0.2)]
+   q408: stem  -36.9 ->  -50.3 (-13.4)  env  +1.0 ->  +1.0 (-0.0)  margin -10.2 -> -23.3 | top others: Violins I -33.0 (+0.0), Horn 1 -34.6 (-3.4), Bassoon 1 -36.1 (+2.0)
+   q409: stem  -31.3 ->  -35.5 (-4.2)  env  +1.0 ->  +1.0 (+0.0)  margin  -4.7 ->  -8.5 | top others: Horn 1 -32.2 (+1.3), Oboe 2 -33.2 (-2.8), Clarinet 1 -34.1 (+0.3)
+   q410: stem  -30.2 ->  -30.4 (-0.2)  env  +1.4 ->  +1.4 (+0.0)  margin  -1.5 ->  -2.9 | top others: Horn 1 -31.8 (+2.1), Oboe 2 -33.9 (+0.4), Clarinet 1 -34.5 (+1.9)
+   q411: stem  -32.8 ->  -33.4 (-0.5)  env  +1.7 ->  +1.4 (-0.3)  margin  -1.6 ->  -3.8 | top others: Horn 1 -32.5 (+2.7), Clarinet 1 -35.9 (+2.0), Bassoon 1 -39.5 (-0.3)
+== Violins II 404-408 (bar 102) dyn ff notes [(404.0, 66, 0.8), (405.0, 74, 2.3), (407.0, 73, 0.5), (407.5, 68, 0.7)]
+   q404: stem  -29.2 ->  -31.4 (-2.2)  env  +3.6 ->  +3.6 (-0.0)  margin  -7.4 ->  -9.7 | top others: Violins I -26.6 (+0.1), Bassoon 1 -31.5 (+0.0), Trombone 1 -32.7 (+0.2)
+   q405: stem  -24.1 ->  -29.5 (-5.4)  env  +4.9 ->  +4.9 (-0.0)  margin  -3.2 ->  -8.6 | top others: Violins I -26.3 (+0.0), Cor anglais -30.0 (+0.0), Bassoon 1 -31.0 (+0.0)
+   q406: stem  -23.9 ->  -25.1 (-1.2)  env  +4.3 ->  +5.0 (+0.8)  margin  -3.8 ->  -5.1 | top others: Violins I -23.9 (+0.0), Cor anglais -28.2 (+0.0), Bassoon 2 -32.2 (+0.0)
+   q407: stem  -29.2 ->  -28.4 (+0.8)  env  -2.3 ->  -1.6 (+0.7)  margin  -6.4 ->  -6.0 | top others: Violins I -27.4 (+0.9), Oboe 1 -31.1 (+1.0), Flute 1 -32.2 (+0.0)
+== Violins II 365-368 (bar 92) dyn f notes [(364.0, 77, 0.8), (365.0, 76, 0.5), (365.5, 77, 0.5), (366.0, 73, 1.7), (367.5, 72, 0.2)]
+   q365: stem  -39.1 ->  -39.9 (-0.9)  env  -1.1 ->  -1.3 (-0.2)  margin  -7.7 ->  -9.1 | top others: Violas -36.8 (+0.3), Bass clarinet -38.0 (+0.5), Cor anglais stac -38.6 (+1.5)
+   q366: stem  -29.7 ->  -32.3 (-2.6)  env  +5.3 ->  +2.9 (-2.4)  margin  +0.8 ->  -1.8 | top others: Cor anglais stac -33.9 (-0.4), Double basses -39.1 (+2.4), Violoncellos -39.4 (+0.0)
+   q367: stem  -31.6 ->  -32.0 (-0.4)  env  -0.5 ->  -0.6 (-0.1)  margin  -0.4 ->  -1.2 | top others: Cor anglais stac -34.7 (+0.1), Double basses -38.1 (+3.3), Violoncellos -39.8 (+0.0)
+== Violas 428-431 (bar 108) dyn p notes [(427.5, 66, 0.6), (428.0, 64, 0.7), (429.0, 72, 2.1)]
+   q428: stem  -36.0 ->  -36.2 (-0.1)  env  +3.5 ->  +4.6 (+1.1)  margin  +5.8 ->  +4.6 | top others: Bass clarinet -42.7 (-0.0), Double basses -45.8 (+4.6), Violins II -53.8 (+0.0)
+   q429: stem  -35.4 ->  -36.2 (-0.8)  env  +6.4 ->  +5.6 (-0.8)  margin  +7.8 ->  +2.8 | top others: Bass clarinet -39.2 (+4.5), Violins II -53.0 (+0.0), Double basses -60.4 (+1.5)
+   q430: stem  -32.4 ->  -33.1 (-0.7)  env  +3.8 ->  +3.3 (-0.6)  margin  +7.0 ->  +5.7 | top others: Bass clarinet -39.5 (+0.4), Double basses -48.5 (+3.5), Violins II -52.4 (+0.0)
+== Horns a2 310-313 (bar 78) dyn f notes [(310.5, 59, 0.6), (311.0, 67, 1.5), (312.5, 66, 0.6)]
+   q310: stem  -48.3 ->  -49.1 (-0.9)  env  -2.0 ->  -2.8 (-0.7)  margin -12.5 -> -13.7 | top others: Violoncellos -41.6 (+0.0), Clarinet 1 -41.9 (+0.1), Violins II -42.6 (-0.0)
+   q311: stem  -34.8 ->  -38.2 (-3.5)  env  -0.9 ->  -4.1 (-3.1)  margin  +2.8 ->  -0.9 | top others: Violoncellos -41.6 (+0.0), Violas -43.7 (+0.0), Double basses -44.6 (+1.4)
+   q312: stem  -37.0 ->  -38.0 (-1.0)  env  -2.2 ->  -2.2 (-0.0)  margin  -4.1 ->  -5.7 | top others: Violins I -36.8 (+1.1), Violoncellos -38.9 (+0.2), Oboe 1 -39.1 (+0.2)
+== Violas 612-616 (bar 154) dyn mf notes [(611.0, 69, 1.0), (612.0, 72, 1.2), (613.0, 71, 0.9), (614.0, 74, 1.0), (615.0, 65, 1.1)]
+   q612: stem  -44.8 ->  -45.7 (-0.9)  env  -5.0 ->  -2.4 (+2.6)  margin  -8.7 ->  -9.0 | top others: Violoncellos -40.7 (-1.5), Horn 1 -42.3 (-0.0), Cor anglais -44.4 (-0.0)
+   q613: stem  -40.9 ->  -43.6 (-2.6)  env  -0.0 ->  -2.1 (-2.1)  margin  -4.0 ->  -6.2 | top others: Violoncellos -42.0 (+0.3), Horn 1 -42.5 (-1.4), Cor anglais -43.4 (-0.0)
+   q614: stem  -42.0 ->  -45.5 (-3.5)  env  +0.0 ->  -3.2 (-3.2)  margin  -4.7 ->  -8.6 | top others: Violoncellos -39.8 (+1.1), Horn 1 -43.8 (-0.8), Cor anglais -45.6 (+0.0)
+   q615: stem  -40.6 ->  -45.7 (-5.1)  env  +0.0 ->  -4.4 (-4.5)  margin  -2.3 ->  -7.1 | top others: Violoncellos -42.3 (+0.1), Cor anglais -44.5 (+0.0), Horn 1 -44.6 (-0.7)
+== Violoncellos 600-604 (bar 151) dyn mf notes [(600.0, 55, 0.7), (601.0, 64, 2.0), (603.0, 62, 1.3)]
+   q600: stem  -35.1 ->  -35.1 (-0.0)  env  +0.3 ->  +0.3 (-0.0)  margin  -0.2 ->  -0.4 | top others: Violas -37.7 (-0.0), Horn 1 -39.8 (-0.0), Double basses -46.2 (+4.5)
+   q601: stem  -32.4 ->  -31.4 (+0.9)  env  +1.3 ->  +2.0 (+0.7)  margin  +0.7 ->  +1.9 | top others: Violas -34.6 (-0.3), Horn 1 -42.8 (-0.3), Bassoon 2 -43.9 (-0.0)
+   q602: stem  -33.7 ->  -31.0 (+2.7)  env  -0.1 ->  +2.6 (+2.7)  margin  -2.7 ->  -0.3 | top others: Violas -33.9 (+0.4), Horn 1 -35.9 (+0.4), Cor anglais -38.8 (+0.1)
+   q603: stem  -36.5 ->  -31.9 (+4.6)  env  +1.8 ->  +5.8 (+4.0)  margin  -5.1 ->  -0.5 | top others: Violas -35.4 (-0.1), Horn 1 -36.0 (-0.1), Cor anglais -38.4 (+0.2)
+== Violins I 84-88 (bar 22) dyn f notes [(83.5, 77, 0.4), (84.0, 75, 0.5), (84.5, 74, 0.5), (85.0, 72, 0.5), (85.5, 71, 0.4), (86.0, 72, 1.1)]
+   q84: stem  -32.5 ->  -31.9 (+0.6)  env  -8.0 ->  -7.6 (+0.4)  margin  -0.7 ->  +0.3 | top others: Violas -35.8 (-1.3), Violoncellos -38.7 (-0.0), Double basses -40.2 (+2.2)
+   q85: stem  -34.6 ->  -34.2 (+0.4)  env  -9.3 ->  -8.5 (+0.8)  margin  -2.1 ->  -1.6 | top others: Violoncellos -36.7 (+0.1), Violas -37.0 (-0.7), Double basses -43.5 (+1.0)
+   q86: stem  -31.9 ->  -35.1 (-3.2)  env  -5.1 ->  -4.9 (+0.1)  margin  +1.3 ->  -2.0 | top others: Violoncellos -36.5 (+0.2), Violas -37.7 (+0.0), Double basses -46.0 (+0.7)
+   q87: stem  -32.1 ->  -45.3 (-13.2)  env  -1.6 ->  -9.7 (-8.1)  margin  +1.4 -> -12.0 | top others: Violoncellos -36.7 (+0.2), Violas -37.8 (+0.0), Double basses -45.8 (+1.3)
+== Oboe 1 88-104 (bar 23) dyn mf notes [(88.0, 75, 1.1), (89.0, 74, 0.8), (90.0, 72, 1.2), (91.0, 77, 1.0), (92.0, 75, 1.1), (93.0, 74, 0.8), (94.0, 79, 1.2), (95.0, 77, 0.9), (96.0, 75, 1.0), (97.0, 80, 1.1), (98.0, 79, 1.0), (99.0, 77, 1.0), (100.0, 77, 3.0)]
+   q88: stem  -49.1 ->  -49.2 (-0.0)  env  +2.2 ->  +2.2 (+0.0)  margin -20.1 -> -19.7 | top others: Violins I -33.0 (-0.5), Flute 1 -39.2 (+0.5), Violas -39.6 (-1.1)
+   q89: stem  -41.8 ->  -42.3 (-0.5)  env  +3.8 ->  +3.1 (-0.7)  margin -12.8 -> -13.9 | top others: Violins I -31.6 (+0.7), Bassoon 1 -37.9 (-0.0), Double basses -38.9 (+1.8)
+   q90: stem  -31.7 ->  -33.5 (-1.8)  env  +9.5 ->  +8.1 (-1.4)  margin  -3.1 ->  -4.9 | top others: Violins I -33.0 (+0.0), Bassoon 1 -35.8 (-0.0), Violoncellos -37.6 (+0.1)
+   q91: stem  -36.2 ->  -36.4 (-0.2)  env  +1.3 ->  +1.2 (-0.1)  margin -10.9 -> -10.9 | top others: Violins I -30.5 (+0.3), Bassoon 1 -31.3 (-0.0), Violoncellos -35.7 (-0.8)
+   q92: stem  -35.7 ->  -35.7 (-0.0)  env  +4.3 ->  +4.2 (-0.0)  margin -10.2 -> -10.3 | top others: Violins I -31.4 (-0.8), Bassoon 1 -32.5 (-0.0), Violoncellos -34.3 (+0.3)
+   q93: stem  -35.9 ->  -35.6 (+0.4)  env  +4.9 ->  +5.3 (+0.4)  margin -11.9 -> -11.8 | top others: Violins I -29.4 (+0.1), Violoncellos -30.2 (+0.3), Bassoon 1 -32.5 (-0.0)
+   q94: stem  -31.2 ->  -31.0 (+0.2)  env  +1.9 ->  +2.0 (+0.1)  margin  -8.3 ->  -7.9 | top others: Violins I -29.0 (+0.2), Violoncellos -31.1 (-1.3), Horn 3 -31.3 (+0.0)
+   q95: stem  -29.8 ->  -32.0 (-2.2)  env  +4.8 ->  +3.0 (-1.8)  margin  -7.6 -> -10.1 | top others: Violins I -28.2 (+0.8), Violoncellos -28.7 (+0.0), Double basses -29.9 (+0.2)
+   q96: stem  -34.1 ->  -34.2 (-0.0)  env  +4.7 ->  +4.7 (-0.0)  margin -11.6 -> -11.5 | top others: Violins I -28.2 (-0.5), Violoncellos -30.1 (-0.1), Clarinet 1 -31.5 (+0.8)
+   q97: stem  -29.5 ->  -29.2 (+0.3)  env  +0.1 ->  +0.3 (+0.2)  margin -10.2 ->  -9.3 | top others: Violins I -26.4 (+0.3), Violoncellos -28.9 (-0.2), Violas -29.8 (-0.0)
+   q98: stem  -28.4 ->  -28.5 (-0.1)  env  +2.2 ->  +2.1 (-0.0)  margin  -8.8 ->  -9.3 | top others: Violins I -24.6 (+0.7), Violoncellos -26.1 (+0.8), Flute 1 -30.1 (-0.0)
+   q99: stem  -26.5 ->  -28.9 (-2.4)  env  +4.8 ->  +3.3 (-1.6)  margin  -8.0 -> -10.4 | top others: Flute 1 -26.3 (+0.0), Violins I -26.5 (-0.7), Violoncellos -28.2 (-0.1)
+   q100: stem  -24.0 ->  -28.8 (-4.8)  env  +0.6 ->  -2.7 (-3.3)  margin -11.2 -> -15.8 | top others: Violins I -21.1 (+0.2), Tuba -23.6 (-0.0), Trumpet 1 -23.8 (-0.0)
+   q101: stem  -32.1 ->  -32.2 (-0.2)  env  -1.3 ->  -4.2 (-2.9)  margin -17.9 -> -18.2 | top others: Violins I -22.2 (+0.2), Violins II -24.3 (+0.0), Tuba -25.6 (+0.0)
+   q102: stem  -32.2 ->  -33.0 (-0.7)  env  +2.0 ->  -4.5 (-6.5)  margin -18.1 -> -19.0 | top others: Violins I -21.9 (+0.2), Violins II -24.6 (+0.0), Tuba -25.3 (+0.0)
+   q103: stem  -38.2 ->  -42.5 (-4.3)  env  +3.6 ->  -4.8 (-8.5)  margin -12.7 -> -17.0 | top others: Double basses -35.1 (+0.3), Violins I -36.4 (+0.0), Clarinet 1 -36.7 (+0.0)

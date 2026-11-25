@@ -1,0 +1,7 @@
+ALIAS CHECK Vla softcap test (of Violas): OK; mix keys differing: ['sus_release_cap_ms']
+ALIAS CHECK Vc softcap test (of Violoncellos): OK; mix keys differing: ['sus_release_cap_ms']
+ALIAS CHECK Vln I softcap test (of Violins I): OK; mix keys differing: ['sus_release_cap_ms']
+ALIAS CHECK Vln II softcap test (of Violins II): OK; mix keys differing: ['sus_release_cap_ms']
+ALIAS CHECK Cb softcap test (of Double basses): OK; mix keys differing: ['sus_release_cap_ms']
+ALIAS CHECK Hn1 rt test (of Horn 1): OK; mix keys differing: ['rt_gain_db']
+ALIAS CHECK Vln II rt test (of Violins II): OK; mix keys differing: ['rt_gain_db']

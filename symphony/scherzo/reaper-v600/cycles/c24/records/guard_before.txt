@@ -1,0 +1,178 @@
+envelope: points 4686, per note 0.84, per second 16.9 (timpani left out)
+fixed guard, step (1.5 dB within 0.5 s, > 6 dB/s, inside a sounding note): 175 notes (+ harp 27)
+critic B's measure (2 dB within 0.5 s at 20 dB/s or faster): 59 notes (+ harp 19)
+   Bass trombone sq 300.0 on 299.736 3.0 dB at +0.06 s 
+   Bass trombone sq 309.0 on 308.78 1.5 dB at +0.65 s role +1.7
+   Bassoon 1 sq 213.0 on 212.736 3.6 dB at +0.06 s hairpin -1.3
+   Bassoon 1 sq 654.0 on 653.867 2.2 dB at +0.69 s uni_role +1.9
+   Bassoon 1 sq 900.0 on 899.736 7.0 dB at +0.29 s hairpin -3.2
+   Bassoon 1 sq 1004.0 on 1003.712 1.8 dB at +0.06 s arrival -2.0; hairpin +1.0
+   Bassoon 2 sq 117.0 on 116.846 2.4 dB at +0.23 s hairpin +0.6
+   Bassoon 2 sq 213.0 on 212.846 2.9 dB at +0.06 s hairpin -1.7
+   Bassoon 2 sq 300.0 on 299.736 2.8 dB at +0.06 s hairpin +0.9
+   Bassoon 2 sq 327.0 on 326.736 1.9 dB at +0.51 s hairpin +2.0
+   Bassoon 2 sq 330.0 on 329.846 1.8 dB at +0.06 s hairpin -2.0
+   Bassoon 2 sq 597.0 on 596.867 5.6 dB at +0.33 s 
+   Bassoon 2 sq 625.0 on 624.772 1.5 dB at +0.06 s hairpin -0.6
+   Bassoon 2 sq 900.0 on 899.736 7.3 dB at +0.29 s hairpin -3.3
+   Bassoon 2 sq 927.0 on 926.736 1.9 dB at +0.51 s hairpin +2.0
+   Bassoon 2 sq 930.0 on 929.846 1.8 dB at +0.06 s hairpin -2.0
+   Bassoon 2 sq 990.0 on 989.832 1.7 dB at +0.48 s hairpin +0.3
+   Clarinet 1 sq 18.0 on 17.846 3.3 dB at +0.72 s hairpin -2.3
+   Clarinet 1 sq 213.0 on 212.846 2.1 dB at +0.35 s hairpin -2.2
+   Clarinet 1 sq 243.0 on 242.78 1.5 dB at +0.06 s hairpin -0.9
+   Clarinet 1 sq 245.5 on 245.28 2.1 dB at +0.06 s hairpin -0.4
+   Clarinet 1 sq 257.5 on 257.28 1.7 dB at +0.06 s hairpin -0.4
+   Clarinet 1 sq 300.0 on 299.846 3.0 dB at +0.06 s hairpin +0.7
+   Clarinet 1 sq 382.0 on 381.78 1.6 dB at +0.42 s role +0.8
+   Clarinet 1 sq 464.0 on 463.81 2.1 dB at +0.31 s hairpin -1.9
+   Clarinet 1 sq 471.0 on 470.81 1.6 dB at +0.06 s hairpin +2.2; level_row -3.4
+   Clarinet 1 sq 472.0 on 471.81 2.1 dB at +0.44 s hairpin -0.6; level_row +1.6
+   Clarinet 1 sq 476.0 on 475.81 2.1 dB at +0.31 s hairpin -1.9
+   Clarinet 1 sq 494.0 on 493.81 2.1 dB at +0.31 s hairpin -1.9
+   Clarinet 1 sq 573.0 on 572.791 2.3 dB at +0.81 s 
+   Clarinet 1 sq 596.0 on 595.81 2.0 dB at +0.06 s hairpin +2.0
+   Clarinet 1 sq 690.0 on 689.81 1.8 dB at +0.77 s 
+   Clarinet 1 sq 857.0 on 856.78 2.8 dB at +0.28 s hairpin -2.3
+   Clarinet 1 sq 900.0 on 899.846 6.1 dB at +0.18 s 
+   Clarinet 1 sq 902.0 on 901.846 2.2 dB at +0.06 s hairpin -0.3
+   Clarinet 1 sq 966.0 on 965.846 2.0 dB at +0.18 s hairpin -1.7
+   Clarinet 1 sq 1034.0 on 1033.81 2.0 dB at +0.31 s hairpin +2.2
+   Clarinet 2 sq 108.0 on 107.846 1.9 dB at +1.68 s hairpin +0.5
+   Clarinet 2 sq 210.0 on 209.846 5.3 dB at +0.26 s hairpin +3.2
+   Clarinet 2 sq 213.0 on 212.846 3.0 dB at +0.35 s hairpin -2.3
+   Clarinet 2 sq 300.0 on 299.758 5.1 dB at +0.08 s hairpin +0.9
+   Clarinet 2 sq 303.0 on 302.846 1.8 dB at +0.63 s role -0.8
+   Clarinet 2 sq 382.0 on 381.78 2.1 dB at +0.42 s role +1.1
+   Clarinet 2 sq 840.0 on 840.0 1.5 dB at +0.06 s role +1.5
+   Clarinet 2 sq 857.0 on 856.78 3.7 dB at +0.28 s hairpin -2.3
+   Clarinet 2 sq 894.0 on 893.846 5.3 dB at +0.26 s hairpin +3.2
+   Clarinet 2 sq 900.0 on 899.758 8.8 dB at +0.28 s hairpin -3.4
+   Clarinet 2 sq 903.0 on 902.846 1.8 dB at +0.63 s role -0.8
+   Contrabassoon sq 213.0 on 212.846 3.3 dB at +0.32 s hairpin -2.2
+   Contrabassoon sq 300.0 on 299.736 2.0 dB at +0.51 s 
+   Contrabassoon sq 382.0 on 382.0 1.8 dB at +0.11 s hairpin +0.5
+   Contrabassoon sq 850.0 on 850.0 1.8 dB at +0.11 s hairpin +0.5
+   Contrabassoon sq 900.0 on 899.736 6.1 dB at +0.2 s 
+   Cor anglais sq 157.0 on 156.78 1.7 dB at +0.06 s hairpin -1.8
+   Cor anglais sq 157.5 on 157.28 1.7 dB at +0.06 s hairpin -1.8
+   Cor anglais sq 900.0 on 899.736 3.5 dB at +0.09 s hairpin +0.4
+   Double basses sq 291.0 on 291.0 1.8 dB at +0.06 s hairpin +1.9
+   Double basses sq 744.0 on 744.0 1.7 dB at +0.06 s hairpin +2.2
+   Double basses sq 900.0 on 899.648 5.3 dB at +0.08 s 
+   Double basses sq 902.0 on 901.648 2.0 dB at +0.06 s hairpin +0.4
+   Flute 1 sq 140.0 on 139.868 2.3 dB at +0.09 s hairpin -0.3
+   Flute 1 sq 148.0 on 147.868 3.5 dB at +0.06 s hairpin +0.7; role +3.0
+   Flute 1 sq 157.0 on 156.868 2.0 dB at +0.06 s hairpin -1.6
+   Flute 1 sq 157.5 on 157.368 1.7 dB at +0.06 s hairpin -1.6
+   Flute 1 sq 302.0 on 302.0 3.3 dB at +0.06 s hairpin +0.5
+   Flute 1 sq 382.0 on 381.868 2.0 dB at +0.06 s hairpin +0.5
+   Flute 1 sq 385.0 on 384.868 1.7 dB at +0.06 s hairpin -1.6
+   Flute 1 sq 900.0 on 899.692 6.4 dB at +0.21 s 
+   Flute 1 sq 902.0 on 902.0 4.0 dB at +0.06 s hairpin +0.4
+   Flute 2 sq 300.0 on 299.758 1.7 dB at +0.51 s 
+   Flute 2 sq 900.0 on 899.758 6.5 dB at +0.2 s 
+   Flute 2 sq 903.0 on 902.846 5.4 dB at +0.18 s hairpin +1.0; role +1.6
+   Horn 1 sq 6.0 on 5.809 1.9 dB at +0.06 s role -2.4
+   Horn 1 sq 120.0 on 119.736 1.5 dB at +0.32 s 
+   Horn 1 sq 213.0 on 212.692 3.9 dB at +0.3 s hairpin -1.2
+   Horn 1 sq 621.0 on 620.772 2.5 dB at +0.72 s 
+   Horn 1 sq 651.0 on 650.658 4.0 dB at +0.62 s role +4.0
+   Horn 1 sq 659.0 on 658.658 3.5 dB at +0.22 s role -3.5
+   Horn 1 sq 816.0 on 815.736 1.5 dB at +0.32 s 
+   Horn 1 sq 900.0 on 899.692 2.4 dB at +0.06 s hairpin -0.7
+   Horn 1 sq 903.0 on 902.604 2.1 dB at +0.63 s role +0.6
+   Horn 1 sq 993.0 on 992.664 4.6 dB at +0.06 s hairpin +0.8
+   Horn 1 sq 1068.0 on 1067.734 3.1 dB at +0.06 s role +5.5
+   Horn 1 sq 1101.0 on 1100.772 6.0 dB at +11.04 s fade -6.5
+   Horn 2 sq 120.0 on 119.736 1.5 dB at +0.32 s 
+   Horn 2 sq 360.0 on 359.692 1.6 dB at +0.06 s 
+   Horn 2 sq 651.0 on 650.81 2.3 dB at +0.06 s hairpin +2.7
+   Horn 2 sq 816.0 on 815.736 1.5 dB at +0.32 s 
+   Horn 2 sq 900.0 on 899.692 2.4 dB at +0.06 s hairpin -0.7
+   Horn 2 sq 903.0 on 902.78 2.4 dB at +0.31 s hairpin +0.4; role +2.3
+   Horn 2 sq 993.0 on 992.664 4.2 dB at +0.06 s hairpin +0.8
+   Horn 2 sq 1005.0 on 1004.76 1.9 dB at +0.06 s arrival +1.7
+   Horn 3 sq 300.0 on 299.692 1.5 dB at +0.07 s 
+   Horn 3 sq 512.0 on 511.775 1.6 dB at +0.06 s hairpin +2.5
+   Horn 3 sq 524.0 on 523.775 1.6 dB at +0.06 s hairpin +2.5
+   Horn 3 sq 900.0 on 899.692 1.5 dB at +0.06 s 
+   Horn 3 sq 953.0 on 952.736 1.5 dB at +0.06 s 
+   Horn 3 sq 990.0 on 989.616 2.3 dB at +0.18 s hairpin +0.4
+   Horn 3 sq 1028.0 on 1027.775 1.6 dB at +0.06 s hairpin +2.5
+   Horn 4 sq 300.0 on 299.692 1.5 dB at +0.07 s 
+   Horn 4 sq 381.0 on 380.78 2.1 dB at +0.06 s role +2.0
+   Horn 4 sq 900.0 on 899.692 1.5 dB at +0.06 s 
+   Oboe 1 sq 146.0 on 145.78 2.8 dB at +0.33 s role -3.0
+   Oboe 1 sq 161.0 on 160.78 4.5 dB at +0.28 s hairpin -2.3
+   Oboe 1 sq 303.0 on 302.846 1.9 dB at +0.06 s hairpin +0.6
+   Oboe 1 sq 383.5 on 383.28 1.8 dB at +0.06 s role +0.7
+   Oboe 1 sq 389.0 on 388.78 5.5 dB at +0.06 s hairpin -2.3
+   Oboe 1 sq 675.0 on 674.81 3.5 dB at +0.44 s hairpin +0.4; role -3.0
+   Oboe 1 sq 857.0 on 856.78 5.5 dB at +0.06 s hairpin -2.3
+   Oboe 1 sq 900.0 on 899.758 7.2 dB at +0.14 s hairpin -3.1
+   Oboe 1 sq 903.0 on 902.846 1.9 dB at +0.09 s hairpin +0.7
+   Oboe 1 sq 1002.0 on 1002.0 1.7 dB at +0.6 s arrival +1.3
+   Oboe 1 sq 1035.0 on 1034.81 2.2 dB at +0.06 s hairpin +2.4
+   Oboe 1 sq 1036.0 on 1035.81 1.6 dB at +0.51 s hairpin -0.4
+   Oboe 2 sq 213.0 on 212.824 2.4 dB at +0.06 s 
+   Oboe 2 sq 900.0 on 899.824 3.7 dB at +0.13 s 
+   Oboe 2 sq 903.0 on 902.846 1.9 dB at +0.09 s hairpin +0.7
+   Oboe 2 sq 993.0 on 992.832 3.8 dB at +0.06 s hairpin +0.8
+   Trombone 1 sq 300.0 on 299.736 6.4 dB at +0.09 s hairpin +0.5
+   Trombone 1 sq 303.0 on 302.78 1.9 dB at +0.06 s 
+   Trombone 1 sq 309.0 on 308.78 1.6 dB at +0.65 s role +1.7
+   Trombone 1 sq 993.0 on 992.712 10.7 dB at +0.06 s hairpin +1.1
+   Trombone 1 sq 1014.0 on 1013.76 3.3 dB at +0.06 s 
+   Trombone 2 sq 300.0 on 299.736 4.7 dB at +0.12 s hairpin +0.5
+   Trombone 2 sq 993.0 on 992.712 9.2 dB at +0.06 s hairpin +1.5
+   Trombone 2 sq 1014.0 on 1013.76 2.6 dB at +0.06 s 
+   Trumpet 2 sq 1014.0 on 1013.76 1.9 dB at +0.06 s 
+   Tuba sq 300.0 on 299.736 6.0 dB at +0.09 s hairpin +0.5
+   Tuba sq 303.0 on 302.78 2.2 dB at +0.06 s hairpin +0.4
+   Tuba sq 309.0 on 308.78 1.5 dB at +0.65 s role +1.7
+   Tuba sq 993.0 on 992.712 10.4 dB at +0.06 s hairpin +1.1
+   Violas sq 197.0 on 196.736 3.2 dB at +0.06 s role -3.5
+   Violas sq 360.0 on 359.472 4.1 dB at +0.06 s role -2.3
+   Violas sq 596.0 on 595.259 1.6 dB at +0.19 s hairpin +1.5
+   Violas sq 598.0 on 597.517 4.6 dB at +0.13 s hairpin -0.9
+   Violas sq 671.0 on 670.7 3.7 dB at +0.06 s 
+   Violas sq 726.0 on 725.338 4.2 dB at +2.12 s hairpin -1.5; held_decresc -2.2
+   Violas sq 735.0 on 734.178 3.0 dB at +0.23 s held_decresc +2.8
+   Violas sq 828.0 on 827.472 8.0 dB at +0.06 s 
+   Violas sq 900.0 on 899.648 6.8 dB at +0.08 s 
+   Violas sq 902.0 on 901.692 3.8 dB at +0.06 s hairpin +0.5
+   Violin I solo sq 1055.0 on 1054.25 1.7 dB at +0.23 s hairpin -0.6
+   Violin I solo sq 1061.5 on 1060.949 1.6 dB at +0.28 s hairpin -1.6
+   Violin I solo sq 1064.0 on 1063.25 1.6 dB at +0.2 s hairpin +1.6
+   Violin I solo sq 1119.618 on 1119.618 6.0 dB at +5.27 s 
+   Violins I sq 140.0 on 139.468 1.9 dB at +0.06 s hairpin -0.4; level_row -0.7
+   Violins I sq 542.0 on 541.392 2.4 dB at +0.06 s hairpin +2.5
+   Violins I sq 659.0 on 658.544 1.9 dB at +0.06 s hairpin -0.6
+   Violins I sq 839.5 on 838.972 3.0 dB at +0.06 s 
+   Violins I sq 900.0 on 899.648 4.5 dB at +0.22 s level_row +1.5
+   Violins I sq 1110.963 on 1110.963 6.0 dB at +8.27 s fade -6.5
+   Violins II sq 360.0 on 359.12 2.7 dB at +0.06 s hairpin +0.7; role +2.7
+   Violins II sq 596.0 on 595.356 1.7 dB at +0.17 s hairpin +1.5
+   Violins II sq 659.0 on 658.487 3.1 dB at +0.06 s hairpin -0.6; role -2.0
+   Violins II sq 981.0 on 980.424 2.7 dB at +0.06 s hairpin +1.1; role -2.2
+   Violoncellos sq 180.0 on 179.472 1.5 dB at +0.06 s role -2.5
+   Violoncellos sq 312.0 on 310.636 4.3 dB at +0.06 s role +4.5
+   Violoncellos sq 360.0 on 359.472 5.9 dB at +0.06 s 
+   Violoncellos sq 362.0 on 361.472 4.0 dB at +0.06 s role -4.0
+   Violoncellos sq 512.0 on 511.297 2.2 dB at +0.18 s hairpin +2.5
+   Violoncellos sq 519.0 on 518.316 1.5 dB at +0.18 s hairpin +1.6
+   Violoncellos sq 524.0 on 523.544 2.2 dB at +0.06 s hairpin +2.5
+   Violoncellos sq 526.0 on 524.974 1.7 dB at +0.06 s hairpin -2.2
+   Violoncellos sq 542.0 on 541.069 1.7 dB at +0.24 s hairpin +2.0
+   Violoncellos sq 573.0 on 572.373 5.4 dB at +0.53 s hairpin -1.4; role -2.8
+   Violoncellos sq 609.0 on 609.0 2.4 dB at +0.76 s 
+   Violoncellos sq 624.0 on 623.62 2.2 dB at +0.06 s role -4.7
+   Violoncellos sq 744.0 on 743.861 1.5 dB at +0.06 s hairpin +1.9
+   Violoncellos sq 828.0 on 827.472 6.0 dB at +0.06 s 
+   Violoncellos sq 876.0 on 875.472 3.8 dB at +0.06 s 
+   Violoncellos sq 900.0 on 899.648 5.9 dB at +0.08 s 
+   Violoncellos sq 902.0 on 901.604 2.4 dB at +0.06 s hairpin +0.4
+   Violoncellos sq 912.0 on 910.614 4.3 dB at +0.06 s role +4.5
+   Violoncellos sq 1044.0 on 1043.544 4.9 dB at +0.06 s 
+   Violoncellos sq 1045.0 on 1044.031 2.6 dB at +0.06 s 

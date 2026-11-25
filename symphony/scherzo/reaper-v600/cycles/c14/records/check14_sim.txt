@@ -1,0 +1,19 @@
+== clarinets (B #4, C #4)
+  bars 269-270: Clarinet 2 -49.0, Bassoon 1 -48.4, Clarinet 1 -47.7
+  bars 133-136 chords Clarinet 2 / Clarinet 1: -42.5 / -41.6, -41.3 / -41.1, -43.7 / -41.4, -50.8 / -48.2
+  bar 29 / 33: Clarinet 2 -49.5 / -49.5, Clarinet 1 -53.1 / -49.5, Flute 1 -47.1 / -48.5, Oboe 1 -50.1 / -50.2
+  Clarinet 1 at 243: -36.2; before -40.9, after -37.6
+  Clarinet 1 at 735: -44.0; before -44.3, after -38.8
+  Clarinet 1 at 904: -31.4; before -36.5, after -32.6
+  Bassoon 1 699 -36.7, 702 -37.6; Oboe 1 1036 -38.3, 1038 -39.7, 1039.5 -41.4
+  Timpani roll 708-718 per qn: -48.0 -49.3 -48.0 -50.1 -55.1 -55.7 -56.6 -57.0 -56.5 -55.4
+== fugato (C #1), master per bar: 13-16: -40.4 -35.1 -40.9 -41.1 | 57-66: -42.0 -45.1 -42.6 -42.3 -42.8 -43.0 -38.7 -39.1 -40.0 -40.3 | 289-294: -43.7 -44.9 -42.9 -42.4 -43.7 -41.0 | 325-328: -46.4 -44.5 -44.0 -36.6
+   Violoncellos 57-60 / Violas 61-64 / celli 61-64: -38.8 -43.1 -39.4 -39.6 / -43.6 -45.6 -39.2 -39.7 / -48.6 -44.3 -45.3 -42.9
+== tutti downbeats (C #5), master first eighth: 312 -15.6, 912 -15.4; last beat before: -16.6 / -18.0; summit bars 336-338: -15.4 -14.7 -14.9; bar 104 / 304: -16.9 / -18.4
+   Flute 1 at 312 / 912 / 314: -27.0 -28.0 -30.2
+== winds minus strings, bars 125-129: -2.1 +0.8 +0.5 -2.5 -3.2; brass minus winds -6.2 -5.9 -9.9 -7.8 -7.1
+== winds minus strings, bars 193-197: -0.1 +1.6 +3.4 +0.5 -2.1; brass minus winds -72.0 -26.8 -10.8 -8.5 -6.9
+== winds minus strings, bars 281-285: -0.3 +1.7 +4.0 +0.6 -2.6; brass minus winds -7.4 -7.6 -12.3 -16.9 -8.3
+   bars 105-108: brass minus winds -1.0 -4.2 +2.2 -3.7; winds minus strings -3.1 -1.7 -4.2 -2.1
+   bars 305-306: brass minus winds -5.7 -8.9; winds minus strings -2.9 -1.7
+   bars 336-338: brass minus winds -1.7 -3.9 -3.4; winds minus strings -3.2 -1.7 -2.5

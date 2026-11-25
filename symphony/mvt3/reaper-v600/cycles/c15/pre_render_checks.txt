@@ -1,0 +1,20 @@
+Processes: 1013 total, 8 running, 1005 sleeping, 10881 threads 
+2026/11/11 05:31:48
+Load Avg: 10.26, 9.10, 9.60 
+CPU usage: 12.41% user, 8.81% sys, 78.77% idle 
+SharedLibs: 1171M resident, 164M data, 121M linkedit.
+MemRegions: 1040267 total, 62G resident, 562M private, 9392M shared.
+PhysMem: 95G used (5019M wired, 6097M compressor), 105M unused.
+VM: 469T vsize, 5703M framework vsize, 705149(0) swapins, 3041566(0) swapouts.
+Networks: packets: 184551985/221G in, 139838091/176G out.
+Disks: 2309633988/164T read, 260043724/11T written.
+
+PID    COMMAND          MEM   CMPRS
+33246  REAPER           44G   0B   
+1235   CrashRestartHelp 6863M 6808M
+95125  java             4364M 3388M
+53469  Steam Helper     4252M 158M 
+1196   steam_osx        3648M 3476M
+/Volumes/MAC DRIVE
+Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s5   926Gi   825Gi    69Gi    93%    7.5M  721M    1%   /System/Volumes/Data

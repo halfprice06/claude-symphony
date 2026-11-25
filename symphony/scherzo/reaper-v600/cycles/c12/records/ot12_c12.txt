@@ -1,0 +1,33 @@
+== item 2: sf of the sfp at qn 900: first 0.1 s against bar 300 (897-900), per stem; and 0.1-0.4 s after
+  Flute 1        v118 front  -31.7  bar 300  -25.7  diff  -6.0   0.11-0.40 s  -34.8 (-3.1)  peak at 0 ms  pc -19.000763131728604
+  Flute 2        v100 front  -35.2  bar 300  -33.3  diff  -1.9   0.11-0.40 s  -37.7 (-2.5)  peak at 0 ms  pc -30.000763131710073
+  Oboe 1         v100 front  -30.2  bar 300  -29.3  diff  -0.9   0.11-0.40 s  -38.5 (-8.3)  peak at 40 ms  pc -42.00076313172474
+  Oboe 2         v100 front  -30.4  bar 300  -37.6  diff  +7.3   0.11-0.40 s  -37.8 (-7.5)  peak at 20 ms  pc -23.00076313171928
+  Cor anglais    v100 front  -35.1  bar 300  -47.4  diff +12.3   0.11-0.40 s  -34.4 (+0.7)  peak at 200 ms  pc -25.00076313171462
+  Clarinet 1     v100 front  -28.2  bar 300  -27.6  diff  -0.6   0.11-0.40 s  -32.7 (-4.5)  peak at 80 ms  pc -4.000763131728036
+  Clarinet 2     v100 front  -28.3  bar 300  -27.8  diff  -0.6   0.11-0.40 s  -33.0 (-4.7)  peak at 0 ms  pc -25.00076313171462
+  Bassoon 1      v100 front  -36.2  bar 300  -35.9  diff  -0.3   0.11-0.40 s  -40.4 (-4.2)  peak at 0 ms  pc -51.00076313171087
+  Bassoon 2      v100 front  -32.4  bar 300  -35.3  diff  +2.9   0.11-0.40 s  -37.0 (-4.7)  peak at 0 ms  pc -28.000763131714734
+  Contrabassoon  v100 front  -28.9  bar 300  -31.0  diff  +2.0   0.11-0.40 s  -36.1 (-7.2)  peak at 0 ms  pc -38.00076313170564
+  Horn 1         v 53 front  -40.2  bar 300  -35.2  diff  -5.0   0.11-0.40 s  -41.7 (-1.6)  peak at 60 ms  pc -25.00076313172883
+  Horn 2         v 53 front  -42.0  bar 300  -36.7  diff  -5.2   0.11-0.40 s  -44.7 (-2.7)  peak at 480 ms  pc -29.00076313173372
+  Horn 3         v 53 front  -45.6  bar 300  -41.5  diff  -4.1   0.11-0.40 s  -41.3 (+4.2)  peak at 340 ms  pc 63.999236868269804
+  Horn 4         v 53 front  -42.2  bar 300  -41.9  diff  -0.3   0.11-0.40 s  -42.2 (-0.1)  peak at 480 ms  pc -14.00076313171894
+  Master 900.0: peak -12.8 at 0 ms; profile [-19.8, -17.2, -14.1, -12.8, -17.5, -18.8, -16.3, -15.4, -15.5, -17.6, -16.8, -16.7, -15.3, -15.9, -17.1, -18.2, -19.7, -20.5, -21.9, -24.3, -23.7, -24.9, -26.2, -26.8, -26.9, -25.8, -25.0, -22.5]
+  Master 902.0: peak -20.9 at 100 ms; profile [-26.3, -27.0, -26.0, -25.2, -23.1, -22.7, -21.3, -22.7, -20.9, -22.4, -23.7, -23.6, -26.0, -24.3, -24.2, -23.9, -24.8, -23.8, -25.9, -24.0, -23.5, -22.5, -22.9, -23.9, -24.1, -23.7, -23.9, -22.4]
+  Master 904.0: peak -17.5 at 480 ms; profile [-23.6, -24.2, -24.2, -23.4, -22.9, -21.0, -19.8, -20.3, -20.0, -18.7, -19.0, -20.7, -20.2, -20.8, -20.5, -20.1, -21.0, -22.0, -21.3, -22.6, -22.1, -22.2, -22.4, -22.8, -22.2, -20.2, -19.4, -17.5]
+== item 29: Double basses arco note bodies (0.1-0.4 s, 30-400 Hz) per pitch, lane and CC11 removed by regression on CC11
+  fit: 0.237 dB per CC11 unit; n = 81
+  pitch 28: n   8  median  -0.9 dB  (min -5.1, max +2.5)
+  pitch 30: n   7  median  -0.4 dB  (min -2.6, max +1.1)
+  pitch 31: n   2  median  +2.6 dB  (min +1.9, max +3.4)
+  pitch 32: n   6  median  +3.7 dB  (min -1.8, max +7.8)
+  pitch 33: n  11  median  +3.0 dB  (min -4.4, max +7.5)
+  pitch 34: n   3  median  +3.4 dB  (min +1.8, max +3.4)
+  pitch 35: n  21  median  -0.2 dB  (min -4.4, max +3.7)
+  pitch 36: n   2  median  +3.5 dB  (min +3.4, max +3.6)
+  pitch 37: n   5  median  -0.3 dB  (min -6.3, max +6.6)
+  pitch 38: n   4  median  -0.9 dB  (min -2.8, max +1.1)
+  pitch 40: n  10  median  -4.4 dB  (min -8.4, max -3.4)
+  pitch 43: n   1  median  +2.3 dB  (min +2.3, max +2.3)
+  pitch 45: n   1  median  -0.3 dB  (min -0.3, max -0.3)

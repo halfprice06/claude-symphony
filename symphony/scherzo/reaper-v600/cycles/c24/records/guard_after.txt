@@ -1,0 +1,113 @@
+envelope: points 4522, per note 0.81, per second 16.3 (timpani left out)
+fixed guard, step (1.5 dB within 0.5 s, > 6 dB/s, inside a sounding note): 25 notes (+ harp 14)
+first 0.35 s (finale c27: 1.5 dB or more, printed hairpins apart): 64 notes (+ harp 6); steps wholly inside printed hairpins (exempt from both counts): 48 notes
+critic B's measure (2 dB within 0.5 s at 20 dB/s or faster): 0 notes (+ harp 0)
+   Bass trombone sq 300.0 on 299.736 2.2 dB at +0 s 
+   Bassoon 1 sq 213.0 on 212.736 2.2 dB at +0 s 
+   Bassoon 1 sq 900.0 on 899.736 1.8 dB at +0 s 
+   Bassoon 2 sq 213.0 on 212.846 2.3 dB at +0 s 
+   Bassoon 2 sq 597.0 on 596.867 2.0 dB at +0.56 s 
+   Bassoon 2 sq 597.0 on 596.867 1.6 dB at +0 s 
+   Bassoon 2 sq 900.0 on 899.736 2.7 dB at +0 s 
+   Clarinet 1 sq 18.0 on 17.846 3.0 dB at +0.69 s 
+   Clarinet 1 sq 213.0 on 212.846 1.8 dB at +0 s 
+   Clarinet 1 sq 243.0 on 242.78 1.8 dB at +0 s 
+   Clarinet 1 sq 300.0 on 299.846 3.1 dB at +0 s 
+   Clarinet 1 sq 857.0 on 856.78 2.8 dB at +0.06 s 
+   Clarinet 1 sq 857.0 on 856.78 1.9 dB at +0 s 
+   Clarinet 1 sq 900.0 on 899.846 2.9 dB at +0 s 
+   Clarinet 2 sq 210.0 on 209.846 5.2 dB at +0.15 s 
+   Clarinet 2 sq 210.0 on 209.846 2.1 dB at +0 s 
+   Clarinet 2 sq 213.0 on 212.846 2.1 dB at +0 s 
+   Clarinet 2 sq 300.0 on 299.758 2.9 dB at +0 s 
+   Clarinet 2 sq 838.0 on 837.78 2.3 dB at +0.14 s 
+   Clarinet 2 sq 857.0 on 856.78 3.6 dB at +0.07 s 
+   Clarinet 2 sq 857.0 on 856.78 2.3 dB at +0 s 
+   Clarinet 2 sq 894.0 on 893.846 5.2 dB at +0.15 s 
+   Clarinet 2 sq 894.0 on 893.846 2.1 dB at +0 s 
+   Clarinet 2 sq 900.0 on 899.758 3.0 dB at +0 s 
+   Contrabassoon sq 213.0 on 212.846 2.6 dB at +0 s 
+   Contrabassoon sq 900.0 on 899.736 2.2 dB at +0 s 
+   Contrabassoon sq 1002.0 on 1001.832 2.8 dB at +0 s 
+   Cor anglais sq 156.0 on 155.85 1.7 dB at +0.06 s 
+   Cor anglais sq 156.0 on 155.85 2.0 dB at +0 s 
+   Flute 1 sq 156.0 on 155.85 2.2 dB at +0.06 s 
+   Flute 1 sq 156.0 on 155.85 2.6 dB at +0 s 
+   Flute 1 sq 157.0 on 156.868 1.6 dB at +0 s 
+   Flute 1 sq 157.5 on 157.368 1.5 dB at +0 s 
+   Flute 1 sq 384.0 on 383.85 1.9 dB at +0.06 s 
+   Flute 1 sq 384.0 on 383.85 2.2 dB at +0 s 
+   Flute 1 sq 900.0 on 899.692 1.5 dB at +0.06 s 
+   Flute 1 sq 900.0 on 899.692 2.0 dB at +0 s 
+   Flute 2 sq 900.0 on 899.758 2.6 dB at +0 s 
+   Flute 2 sq 1002.0 on 1001.832 1.7 dB at +0 s 
+   Harp sq 231.0 on 231.0 4.2 dB at +1.66 s 
+   Harp sq 232.0 on 232.0 5.0 dB at +1.43 s 
+   Harp sq 233.5 on 233.5 5.0 dB at +1.09 s 
+   Harp sq 234.0 on 234.0 5.0 dB at +0.98 s 
+   Harp sq 234.0 on 234.0 5.0 dB at +0.98 s 
+   Harp sq 235.0 on 235.0 5.0 dB at +0.75 s 
+   Harp sq 235.0 on 235.0 5.0 dB at +0.75 s 
+   Harp sq 235.0 on 235.0 5.0 dB at +0.75 s 
+   Harp sq 235.0 on 235.0 1.6 dB at +0 s 
+   Harp sq 235.0 on 235.0 1.6 dB at +0 s 
+   Harp sq 235.0 on 235.0 1.6 dB at +0 s 
+   Harp sq 236.0 on 236.0 5.0 dB at +0.52 s 
+   Harp sq 237.0 on 237.0 5.0 dB at +0.3 s 
+   Harp sq 237.0 on 237.0 5.0 dB at +0.3 s 
+   Harp sq 238.0 on 238.0 5.0 dB at +0.06 s 
+   Harp sq 238.0 on 238.0 5.0 dB at +0.06 s 
+   Harp sq 238.0 on 238.0 5.0 dB at +0.06 s 
+   Harp sq 238.0 on 238.0 3.1 dB at +0 s 
+   Harp sq 238.0 on 238.0 3.1 dB at +0 s 
+   Harp sq 238.0 on 238.0 3.1 dB at +0 s 
+   Horn 1 sq 900.0 on 899.692 1.9 dB at +0 s 
+   Horn 1 sq 993.0 on 992.664 2.7 dB at +0.06 s 
+   Horn 1 sq 993.0 on 992.664 3.3 dB at +0 s 
+   Horn 2 sq 900.0 on 899.692 1.9 dB at +0 s 
+   Horn 2 sq 993.0 on 992.664 2.7 dB at +0.06 s 
+   Horn 2 sq 993.0 on 992.664 3.2 dB at +0 s 
+   Horn 3 sq 950.0 on 949.736 2.8 dB at +0.3 s 
+   Oboe 1 sq 161.0 on 160.78 4.2 dB at +0.06 s 
+   Oboe 1 sq 161.0 on 160.78 2.7 dB at +0 s 
+   Oboe 1 sq 389.0 on 388.78 5.4 dB at +0.06 s 
+   Oboe 1 sq 389.0 on 388.78 3.3 dB at +0 s 
+   Oboe 1 sq 857.0 on 856.78 5.4 dB at +0.06 s 
+   Oboe 1 sq 857.0 on 856.78 3.3 dB at +0 s 
+   Oboe 1 sq 900.0 on 899.758 2.6 dB at +0 s 
+   Oboe 1 sq 1002.0 on 1002.0 4.7 dB at +0.21 s 
+   Oboe 1 sq 1036.0 on 1035.81 2.5 dB at +0 s 
+   Oboe 2 sq 213.0 on 212.824 1.5 dB at +0 s 
+   Trombone 1 sq 300.0 on 299.736 3.1 dB at +0 s 
+   Trombone 1 sq 993.0 on 992.712 4.2 dB at +0 s 
+   Trombone 1 sq 1014.0 on 1013.76 2.3 dB at +0 s 
+   Trombone 2 sq 300.0 on 299.736 2.7 dB at +0 s 
+   Trombone 2 sq 993.0 on 992.712 4.6 dB at +0 s 
+   Tuba sq 300.0 on 299.736 2.9 dB at +0 s 
+   Tuba sq 993.0 on 992.712 4.2 dB at +0 s 
+   Violas sq 360.0 on 359.472 1.7 dB at +0 s 
+   Violas sq 735.0 on 734.178 1.7 dB at +0.06 s 
+   Violas sq 735.0 on 734.178 1.7 dB at +0 s 
+   Violas sq 828.0 on 827.472 2.1 dB at +0 s 
+   Violas sq 899.0 on 899.0 2.2 dB at +0 s 
+   Violas sq 900.0 on 899.648 2.4 dB at +0.06 s 
+   Violas sq 900.0 on 899.648 3.3 dB at +0 s 
+   Violas sq 1005.0 on 1004.712 1.9 dB at +0.29 s 
+   Violin I solo sq 1061.5 on 1060.949 1.6 dB at +0 s 
+   Violin I solo sq 1064.0 on 1063.25 1.7 dB at +0 s 
+   Violins I sq 900.0 on 899.648 2.0 dB at +0.06 s 
+   Violins I sq 900.0 on 899.648 2.4 dB at +0 s 
+   Violins I sq 1012.0 on 1011.616 1.7 dB at +0 s 
+   Violins II sq 981.0 on 980.424 2.0 dB at +0 s 
+   Violins II sq 1057.0 on 1056.25 1.5 dB at +0 s 
+   Violins II sq 1064.0 on 1063.25 1.5 dB at +0 s 
+   Violoncellos sq 360.0 on 359.472 1.6 dB at +0 s 
+   Violoncellos sq 573.0 on 572.373 5.0 dB at +0.49 s 
+   Violoncellos sq 600.0 on 598.936 1.8 dB at +0 s 
+   Violoncellos sq 789.0 on 788.692 1.5 dB at +0 s 
+   Violoncellos sq 828.0 on 827.472 1.6 dB at +0 s 
+   Violoncellos sq 899.0 on 899.0 1.9 dB at +0 s 
+   Violoncellos sq 900.0 on 899.648 2.3 dB at +0.06 s 
+   Violoncellos sq 900.0 on 899.648 3.0 dB at +0 s 
+   Violoncellos sq 1044.0 on 1043.544 1.8 dB at +0.06 s 
+   Violoncellos sq 1044.0 on 1043.544 2.7 dB at +0 s 
