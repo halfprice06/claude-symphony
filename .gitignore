@@ -20,3 +20,6 @@ symphony/video/*/still-*.png
 symphony/render/assets/philharmonia/**/*.wav
 symphony/render/assets/philharmonia/**/*.mp3
 symphony/mvt2/v*/score.mp3
+
+# macOS Finder
+.DS_Store
