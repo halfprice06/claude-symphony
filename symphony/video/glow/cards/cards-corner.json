@@ -1,0 +1,13 @@
+{
+  "title": {"title": "Symphony No. 1", "sub": "in C minor"},
+  "movements": [
+    {"file": "10-mvt1", "numeral": "I", "name": "", "tempo": "Lento — Allegro appassionato",
+     "corner": 1000, "start": 90, "opening": true},
+    {"file": "20-mvt2", "numeral": "II", "name": "", "tempo": "Adagio",
+     "over": "SYMPHONY NO. 1 IN C MINOR", "corner": 500},
+    {"file": "30-scherzo", "numeral": "III", "name": "Scherzo", "tempo": "Allegro vivace",
+     "over": "SYMPHONY NO. 1 IN C MINOR", "corner": 500, "at": "lower left"},
+    {"file": "40-finale", "numeral": "IV", "name": "Finale", "tempo": "Allegro con fuoco",
+     "over": "SYMPHONY NO. 1 IN C MINOR", "corner": 500}
+  ]
+}

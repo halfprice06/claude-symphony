@@ -30,11 +30,11 @@ Tracks: name | notes | range | violations
   Clarinets 1Â·2:two             104  Eb3-B4  
   Flutes 1Â·2:two                 17  F#5-Eb6  
   Oboes 1Â·2:two                  24  B4-A5  
-  Horns 1Â·2:shared              170  A3-C#5  
+  Horns 1Â·2:shared              172  A3-C#5  
   Flutes 1Â·2:shared             147  B4-A6  
   Oboes 1Â·2:shared               31  D5-C6  
-  Horns 1Â·2:one                  45  E4-C#5  
-  Horns 1Â·2:two                  40  E3-A4  
+  Horns 1Â·2:one                  43  E4-C#5  
+  Horns 1Â·2:two                  39  E3-A4  
   Bassoons 1Â·2:solo              86  E2-E4  
   Clarinets 1Â·2:solo            198  B3-A5  
   Horns 3Â·4:one                  37  F#3-E4  
@@ -61,7 +61,7 @@ Profile per 4 bars: attacks | voices sounding (avg) | top | bottom
   bars  41- 44:  101 | 11.2 | C6   | D2
   bars  45- 48:   98 | 14.0 | G6   | G1
   bars  49- 52:   92 | 14.0 | A6   | A1
-  bars  53- 56:   92 | 13.1 | E6   | G1
+  bars  53- 56:   91 | 13.0 | E6   | G1
   bars  57- 60:   14 |  0.9 | Bb3  | D2
   bars  61- 64:   25 |  1.9 | F5   | A2
   bars  65- 68:   35 |  3.9 | C6   | E1

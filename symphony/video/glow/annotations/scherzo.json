@@ -1,0 +1,800 @@
+{
+  "movement": "scherzo",
+  "splits": [
+    {
+      "from": "1.1",
+      "to": "9.1",
+      "mode": "pullback",
+      "upper": "Horns 1·2",
+      "lower": "Violins I",
+      "upper_zoom": 1.0,
+      "lower_zoom": 1.0,
+      "bars": "1–8",
+      "what": "Horn 1 (pp) and the first violins (ppp) open the movement on G♯ two octaves apart (G♯4 and G♯5), Horn 1 plays the call at 3–6 under the violins' held G♯5, and at 7 the violins fall to G5 as the clarinets turn the chord to E minor; a pull-back rather than a split, because the two staves are about 1200 px apart and the timpani's E2 between them belongs to the same quiet chord.",
+      "check": "intro.ily introHnOne (G♯4 bars 1–2, G♯3 at 3, E4 tied 4–5, D♯4 on beat 3 of 5), introVlnOne (G♯5 bars 1–6, G5 at 7), introClOne/introClTwo (E5, G4 at 7), introBsnOne (B3 at 7), introTimp (E2 struck pp at 3 and left to ring until 5, not a roll). Report: Horns 1·2 1098 px, Timpani 1880, Violins I 2297."
+    },
+    {
+      "from": "29.1",
+      "to": "37.1",
+      "mode": "stack",
+      "upper": "Oboes 1·2",
+      "lower": "Violins I",
+      "upper_zoom": 1.0,
+      "lower_zoom": 1.6,
+      "bars": "29–36",
+      "what": "Flute 1 and Oboe 1 in unison call with the first half of theme A (29–30, 33–34) and the first violins, doubled an octave lower by the cellos, answer with the second half (31–32, 35–36); the lower panel is pulled back from the first violins to include the cellos.",
+      "check": "sA.ily sAFluteOne and sAOboeOne 29–31 and 33–35 (E5–B4–B4–E5, G5–F♯5–F5; the second call A5–G♯5–G5); sAVlnOne and sAVc 31–32 and 35–36 an octave apart (E5/E4 at 31, F♯5/F♯4 at 35). Report: Oboes 1·2 294 px, Flutes 1·2 150, Violins I 2297, Violoncellos 2750."
+    },
+    {
+      "from": "45.1",
+      "to": "55.1",
+      "mode": "stack",
+      "upper": "Oboes 1·2",
+      "lower": "Violins II",
+      "upper_zoom": 1.0,
+      "lower_zoom": 1.2,
+      "bars": "45–54",
+      "what": "The second idea sounds in three octaves at once, first violins with Flute 1 from D6, second violins with Oboe 1 from D5, and cor anglais, violas and cellos from D4; the upper panel holds the flute, oboe and cor anglais, the lower panel, pulled back a little from the second violins, all three string octaves.",
+      "check": "sA.ily sAFluteOne, sAVlnOne D6–C6–B5 at 45, G6 at 46, F♯6–E6 at 47; sAOboeOne, sAVlnTwo the same an octave lower; sACorAnglais, sAVla, sAVc two octaves lower. Report: Oboes 1·2 294 px, Cor anglais 398, Violins I 2297, Violins II 2464, Violas 2613, Violoncellos 2750."
+    },
+    {
+      "from": "68.1",
+      "to": "73.1",
+      "mode": "stack",
+      "upper": "Oboes 1·2",
+      "lower": "Violins II",
+      "upper_zoom": 1.3,
+      "lower_zoom": 1.2,
+      "bars": "68–72",
+      "what": "The head of theme A enters every bar over an A pedal, in Flute 1, Oboe 1 and the first violins on A (69), Clarinet 1 and the second violins on E (70), and the cellos, Bassoon 1 and Horns 1·2 on A (71), and all arrive on A major, ff, at 72; the upper panel holds flutes, oboes and clarinets, the lower panel the three string entries.",
+      "check": "sB.ily sBFluteOne, sBOboeOne, sBVlnOne a''4 e''8 e'' a''4 at 69; sBClOne, sBVlnTwo e''4 b'8 b' e''4 at 70; sBVc, sBBsnOne, sBHnOne/sBHnTwo A–E–E–A at 71; sBCb A1 crotchets 69–72; <e'' cis'''> in Vln II at 72. Report: Oboes 1·2 294 px, Clarinets 1·2 534, Violins I 2297, Violins II 2464, Violoncellos 2750."
+    },
+    {
+      "from": "89.1",
+      "to": "98.1",
+      "mode": "stack",
+      "upper": "Oboes 1·2",
+      "lower": "Violins I",
+      "upper_zoom": 1.2,
+      "lower_zoom": 1.8,
+      "bars": "89–97",
+      "what": "In three-bar groups over the B pedal the violas (89), Oboe 1 (92) and the first violins (95) play the head of theme A in turn, and in the third bar of each group the timpani play motive x on B (91, 94, 97); the upper panel shows the oboe entry, the lower panel, pulled back from the first violins, the timpani, first violins and violas together.",
+      "check": "global.ily 'ritmo di tre battute' at 89; sB.ily sBVla E4–B3–B3–E4 at 89, sBOboeOne B4–F♯4–F♯4–B4, D5–C♯5–C5 at 92–93, sBVlnOne E5–B4–B4–E5 at 95, sBTimp B2 crotchet, two quavers, crotchet at 91, 94, 97. Report: Oboes 1·2 294 px, Timpani 1880, Violins I 2297, Violas 2613."
+    },
+    {
+      "from": "105.1",
+      "to": "113.1",
+      "mode": "stack",
+      "upper": "Horns 3·4",
+      "lower": "Violins I",
+      "upper_zoom": 1.4,
+      "lower_zoom": 1.6,
+      "bars": "105–112",
+      "what": "Theme A returns tutti in the violins and upper woodwind while Bassoon 1, Horns 3 and 4 and the cellos play a countermelody in the tenor register, G3–A3–B3–E4, which is the opening of the trio tune in E minor; the upper panel is pulled back from Horns 3·4 to include the bassoons, the lower from the first violins to include the cellos.",
+      "check": "sC.ily sCVlnOne/sCVlnTwo/sCOboeOne theme A from 105; sCBsnOne, sCHnThree, sCHnFour, sCVc g2 a4 | b2 e'4~ | e'2 b4 at 105–107, against tA.ily tAClOne gis'2 a'4 | b'2 e''4 at 153. Report: Bassoons 1·2 828 px, Horns 3·4 1244, Violins I 2297, Violoncellos 2750."
+    },
+    {
+      "from": "125.1",
+      "to": "132.1",
+      "mode": "stack",
+      "upper": "Oboes 1·2",
+      "lower": "Violins I",
+      "upper_zoom": 1.0,
+      "lower_zoom": 1.0,
+      "bars": "125–131",
+      "what": "In the second idea's E-minor return Flute 1 joins the first violins in unison (C6–B5–A5, F♯6, E6–D♯6) and Oboe 1 the second violins an octave lower, and from 129 the oboe moves up to the flute and violins for the cadence on E at 131; the upper panel holds flute and oboe, the lower both violin sections.",
+      "check": "sC.ily sCFluteOne and sCVlnOne C6–B5–A5 at 125, F♯6 at 126, E6–D♯6 at 127, C♯6–B5 at 128, B5–C♯6–B5–A5 at 129, G5–F♯5 at 130, E5 at 131; sCOboeOne with sCVlnTwo C5–B4–A4, F♯5, E5–D♯5, C♯5–B4 at 125–128, then B5–C♯6–B5–A5 with Fl 1 at 129. Report: Flutes 1·2 150 px, Oboes 1·2 294, Violins I 2297, Violins II 2464; automatic camera on the bass clarinet, clarinets and bassoons at 121–129."
+    },
+    {
+      "from": "169.1",
+      "to": "177.1",
+      "mode": "stack",
+      "upper": "Flutes 1·2",
+      "lower": "Violas",
+      "upper_zoom": 1.0,
+      "lower_zoom": 1.3,
+      "bars": "169–176",
+      "what": "The cellos play the trio tune, arco espressivo, under the muted second violins' quavers, and Flute 1 at the top of the score answers the ends of their phrases (172, 176); the lower panel is centred between the second violins and cellos so that both are in it.",
+      "check": "tA.ily tAVc trio tune from 169 (Horn 3 in unison, tAHnThree 169–176), tAVlnTwo con sord. quavers from 168, tAFluteOne G♯5–A5–B5 at 172 and D♯6–E6–F♯6 at 176. Report: Flutes 1·2 150 px, Violins II 2464, Violas 2613, Violoncellos 2750."
+    },
+    {
+      "from": "185.1",
+      "to": "201.1",
+      "mode": "stack",
+      "upper": "Oboes 1·2",
+      "lower": "Violas",
+      "upper_zoom": 1.2,
+      "lower_zoom": 1.3,
+      "bars": "185–200",
+      "what": "Oboe 1's phrase in C♯ minor (185–188) is answered one step lower by the cellos (189–192), the violas' turns (193, 195) are answered by Clarinet 1 (194, 196), and at 197–200 the oboe's phrase in Flute 1, Oboe 1 and the first violins sounds together with the trio tune in Clarinet 1, the second violins and the violas; upper panel on the oboes with flutes and clarinets, lower panel on the violas with the violins and cellos.",
+      "check": "tB.ily tBOboeOne E5–F♯5–E5–D♯5–E5, C♯5–G♯4, A4–B4–C♯5, G♯4 at 185–188; tBVc D♯4–E4–D♯4–C♯4–D♯4, B3–F♯3, G♯3–A3–B3, F♯3 at 189–192; tBVla turns 193, 195 and tBClOne 194, 196; tBFluteOne, tBOboeOne, tBVlnOne E6/E5 at 197; tBClOne, tBVlnTwo, tBVla G♯–A–B–E–D♮ at 197–199. Report: Oboes 1·2 294 px, Clarinets 1·2 534, Violins I 2297, Violas 2613, Violoncellos 2750."
+    },
+    {
+      "from": "209.1",
+      "to": "222.1",
+      "mode": "stack",
+      "upper": "Oboes 1·2",
+      "lower": "Violins I",
+      "upper_zoom": 1.2,
+      "lower_zoom": 1.6,
+      "bars": "209–221",
+      "what": "The trio tune returns forte in the first violins with Clarinet 1 an octave lower, Flute 1 joins the violins at 217 and the line reaches A6 at 218, while the cellos play a countermelody below and then join the tune at 217–220; the upper panel on the oboes includes the flutes and clarinets, the lower panel the violins and cellos.",
+      "check": "tC.ily tCVlnOne G♯5–A5–B5–E6 at 209–210, tCClOne an octave lower, tCFluteOne with Vln I from 217 (A6 at 218), tCVc countermelody 209–216 and with the tune 217–220. Report: Flutes 1·2 150 px, Oboes 1·2 294, Clarinets 1·2 534, Violins I 2297, Violoncellos 2750."
+    },
+    {
+      "from": "261.1",
+      "to": "269.1",
+      "mode": "stack",
+      "upper": "Flutes 1·2",
+      "lower": "Violins I",
+      "upper_zoom": 1.0,
+      "lower_zoom": 1.6,
+      "bars": "261–268",
+      "what": "Flute 1 plays the first violins' line an octave higher with added notes between (meeting it on C6 at 264) while the cellos, doubled by Horn 3, play the countermelody; the lower panel is pulled back from the first violins to include the cellos.",
+      "check": "dA.ily dAFluteOne a'''8 g''' a''' g''' fis'''4 at 261 against dAVlnOne A5–G5–F♯5; both C6 at 264; dAVc and dAHnThree C4–B3–A3 at 261–263. Report: Flutes 1·2 150 px, Violins I 2297, Violoncellos 2750."
+    },
+    {
+      "from": "277.1",
+      "to": "285.1",
+      "mode": "stack",
+      "upper": "Oboes 1·2",
+      "lower": "Violins I",
+      "upper_zoom": 1.0,
+      "lower_zoom": 1.6,
+      "bars": "277–284",
+      "what": "Flute 1, with Oboe 1 an octave lower, plays the second idea in E major (277–280), and from the up-beat at 280 the first violins carry it on in E minor with the second violins, clarinets, Horn 2 and cellos in octaves below; the lower panel includes the second violins, violas and cellos.",
+      "check": "dA.ily dAFluteOne B5–A5–G♯5 at 277, E6 at 278, D♯6–C♯6 at 279; dAOboeOne an octave lower; dAVlnOne D6 up-beat at 280, C6–B5–A5 at 281; dAVlnTwo, dAOboeOne, dAClOne C5, dAClTwo, dAHnTwo, dAVc C4 at 281. Report: Flutes 1·2 150 px, Oboes 1·2 294, Violins I 2297, Violoncellos 2750."
+    },
+    {
+      "from": "297.1",
+      "to": "313.1",
+      "mode": "stack",
+      "upper": "Flutes 1·2",
+      "lower": "Violins I",
+      "upper_zoom": 1.3,
+      "lower_zoom": 1.6,
+      "bars": "297–312",
+      "what": "Over an A pedal the head of theme A enters in Flute 1, Oboe 1 and the first violins (297), Clarinet 1 and the second violins (298), and Bassoon 1, Horns 1·2 and the cellos (299), as at 69–71; at 301–304 Flute 1 and the first violins play the same line (A5–C6–F6, D♯6–B5–A5); from 305 theme A returns tutti with both flutes an octave above the violins with added quavers (up to A6 at 310) and the cellos, Horn 3 and Bassoon 1 on the countermelody. The upper panel, pulled back a little, holds flutes, oboes and clarinets; the lower the violins and cellos.",
+      "check": "dB.ily dBFluteOne/dBOboeOne/dBVlnOne A5–E5–E5–A5 at 297, dBClOne/dBVlnTwo E5–B4–B4–E5 at 298, dBBsnOne, dBHnOne/dBHnTwo, dBVc A–E–E–A at 299; dBBsnTwo A2, dBCbsn and dBCb A1 297–302; dBFluteOne and dBVlnOne A5–C6 | F6 | D♯6–B5 | A5 at 301–304; dC.ily dCFluteOne/dCFluteTwo E6–B5–B5–E6 at 305, G6–A6–G6–F♯6–F6 at 306, A6 at 310; dCVlnOne/dCVlnTwo E5–B4–B4–E5 at 305; dCVc, dCHnThree, dCBsnOne g2 a4 | b2 e'4~ at 305–306 (dCHnFour plays a separate line, G3–E3–G3). Report: Flutes 1·2 150 px, Clarinets 1·2 534, Violins I 2297, Violoncellos 2750; automatic camera on the cor anglais at 297–299."
+    },
+    {
+      "from": "329.1",
+      "to": "340.1",
+      "mode": "stack",
+      "upper": "Oboes 1·2",
+      "lower": "Violas",
+      "upper_zoom": 1.2,
+      "lower_zoom": 1.3,
+      "bars": "329–339",
+      "what": "From 329 Clarinet 1 and Oboe 2, with the cor anglais an octave lower, play the chromatic line G–F♯–F–E–D♯ while the strings keep motive x going over the falling bass E–D–C–B; at 333–335 woodwinds and strings play the head of theme A together in octaves (E6 to E3), and Flute 1 and the first violins climb together to B6 at 336 and fall to E6 at 339. The upper panel holds flutes, oboes, cor anglais and clarinets, the lower panel all five string sections.",
+      "check": "coda.ily codaClOne, codaOboeTwo G5–F♯5–F5–E5–D♯5 and codaCorAnglais an octave lower at 329–332; codaVlnOne, codaVlnTwo, codaVla, codaVc crotchet, two quavers, crotchet 329–332; codaCb E2–D2–C2–B1; codaFluteOne, codaOboeTwo, codaClOne, codaVlnOne, codaVlnTwo, codaVla, codaVc E–B–B–E | G–F♯–F at 333–334; codaFluteOne and codaVlnOne E6–F♯6–G6–A6 | B6 | A6–F♯6 | D♯6 | E6 at 335–339. Report: Oboes 1·2 294 px, Clarinets 1·2 534, Violins I 2297, Violas 2613, Double basses 2885; automatic camera on the violas and cor anglais."
+    },
+    {
+      "from": "349.1",
+      "to": "356.1",
+      "mode": "stack",
+      "upper": "Flutes 1·2",
+      "lower": "Violins I",
+      "upper_zoom": 1.0,
+      "lower_zoom": 1.6,
+      "bars": "349–355",
+      "what": "The solo first violin and Flute 1 play the trio tune in unison from C♯6, half the second violins an octave lower, and the cellos a countermelody; the upper panel follows the flute, the lower the violins and cellos.",
+      "check": "coda.ily codaVlnOne (solo) C♯6–D♯6 at 349 with codaFluteOne, codaVlnTwo (la metà) an octave lower, codaVc countermelody 349–352. Report: Flutes 1·2 150 px, Violins I 2297, Violins II 2464, Violoncellos 2750."
+    },
+    {
+      "from": "363.1",
+      "to": "376.3.9",
+      "mode": "pullback",
+      "upper": "Horns 1·2",
+      "lower": "Violins I",
+      "upper_zoom": 1.0,
+      "lower_zoom": 1.0,
+      "bars": "363–376",
+      "what": "Horn 1's G♯4 and the first violins' G♯5, the pair that opened the movement, are held to the end while the timpani between them play motive x (363, 367, 371) and the harp adds E4–G♯4–B4 at 375; a pull-back rather than a split, because the horns, timpani, harp and violins (about 1200 px from top to bottom) make one quiet chord.",
+      "check": "coda.ily codaHnOne G♯4 from 360 (Horn 3 G♯4 at 365, codaHnThree) and again from 368 to the end, codaVlnOne G♯5 364–376, codaTimp B–B–B–E at 363, 367, 371 and E2 at 375, codaHarpR/codaHarpL harmonics E4–G♯4–B4 at 375. Report: Horns 1·2 1098 px, Timpani 1880, Harp RH 1991, Violins I 2297."
+    }
+  ],
+  "captions": [
+    {
+      "from": "1.1",
+      "to": "6.1",
+      "kind": "Quotation",
+      "bars": "1–5",
+      "short": "Movement I's horn call, now in E major",
+      "text": "Horn 1 holds G♯4 (pp) with the first violins' G♯5 (ppp): Movement II ended on A♭ major with A♭4 in the second violins, and that A♭4 is taken here as G♯4, the third of E major. In bars 3–5 Horn 1 plays G♯3–E4 (tied)–D♯4 and stops on the leading note, the same scale degrees 3–1–7, rising sixth and tie as the horn call in Movement I, bars 13–14 (E♭3–C4–B3).",
+      "anchor": {
+        "staff": "Horns 1·2",
+        "from": "1.1",
+        "to": "7.1"
+      },
+      "check": "intro.ily introHnOne, introVlnOne bars 1–6; global.ily c020 comment (the pivot G♯4 is movement II's last A♭4); coherence/mvt2.md last chord (Vln II A♭4, Vln I C5); mvt1/v621 intro.ily introHnOne r4 es4 c'2~ | c'4 b2 at 13–14."
+    },
+    {
+      "from": "6.1",
+      "to": "13.1",
+      "kind": "Motive",
+      "bars": "6–12",
+      "short": "Timpani: the rhythm that opens theme A",
+      "text": "At bar 7 the clarinets (E5, G4) and Bassoon 1 (B3) turn the chord to E minor and the first violins fall from G♯5 to G5. The timpani then play B–B–B–G (bar 9) and B–B–B–E (bar 11) in the rhythm crotchet, two quavers, crotchet, the rhythm that opens theme A at 13.",
+      "anchor": {
+        "staff": "Timpani",
+        "from": "9.1",
+        "to": "13.1"
+      },
+      "check": "intro.ily introClOne/introClTwo, introBsnOne, introVlnOne at 7; introTimp B2 B2 B2 G2 at 9, E2 at 10, B2 B2 B2 E3 at 11, E2 at 12; sA.ily sAVlnOne E5–B4–B4–E5 at 13."
+    },
+    {
+      "from": "13.1",
+      "to": "21.1",
+      "kind": "Theme",
+      "bars": "13–20",
+      "short": "Theme A, with the motto's falling line: G–F♯–F–E",
+      "text": "Letter A: theme A in the first violins, p leggiero, over pizzicato cellos and basses and off-beat chords in the second violins and violas. Bar 13 has the timpani's rhythm (E5–B4–B4–E5), and in bars 14–15 the line falls G5–F♯5–F5–E5, the chromatic tail of Movement I's motto (E♭–D–D♭–C) moved to E, with F♮ the Neapolitan note; Movement I's Oboe 1 and first violins already play these four notes at this pitch in its bar 79.",
+      "anchor": {
+        "staff": "Violins I",
+        "from": "13.1",
+        "to": "17.1"
+      },
+      "check": "sA.ily sAVlnOne 13–16 (e''4 b'8 b' e''4 | g''2 fis''8 f''8 | e''4 ...), sAVlnTwo/sAVla off-beats, sAVc/sACb pizz.; themes-mvt1.md / themes-mvt1.ly mvtOneMottoTail (E♭–D–D♭–C); themes-scherzo.md theme A.; mvt1/v621 dev.ily devOboeOne and devVlnOne r8 b'8 g''4. fis''8 f''8 e''8 at movement I bar 79 (dev bar 3; sections intro 14, tOne 18, trans 14, tTwo 22, clos 8); themes-scherzo.ly %@ themeA VlnOne 14 abs (movement I bar 79 quotes it)."
+    },
+    {
+      "from": "29.1",
+      "to": "37.1",
+      "kind": "Form",
+      "bars": "29–36",
+      "short": "Winds call, strings answer",
+      "text": "Flute 1 and Oboe 1 in unison play the first half of theme A (bars 29–30 and 33–34), and the first violins, with the cellos an octave lower, answer with the second half (31–32 and 35–36).",
+      "anchor": {
+        "staff": "Oboes 1·2",
+        "from": "29.1",
+        "to": "31.1"
+      },
+      "check": "global.ily mark B 29 (counterstatement, winds and strings in call and response); sA.ily sAFluteOne, sAOboeOne 29–30, 33–34; sAVlnOne, sAVc 31–32, 35–36."
+    },
+    {
+      "from": "45.1",
+      "to": "52.1",
+      "kind": "Theme",
+      "bars": "45–51",
+      "short": "Second idea in G: the horn call's shape, B–G–F♯",
+      "text": "Letter C: the second idea, in G major, in three octaves (first violins and Flute 1 from D6, second violins and Oboe 1 an octave lower, cor anglais, violas and cellos two octaves lower). Its notes B–G–F♯ (45–47) rise a minor sixth and fall a semitone like the horn call, scale degrees 3–1–7, and the half notes from the end of bar 45 to bar 48 cross the barlines two beats at a time, a hemiola.",
+      "anchor": {
+        "staff": "Oboes 1·2",
+        "from": "45.1",
+        "to": "48.1"
+      },
+      "check": "global.ily mark C 45 (second idea, G major, hemiola); sA.ily sAFluteOne/sAVlnOne d'''4. c'''8 b''4~ | b''4 g'''2 | fis'''2 e'''4~ at 45–47, sAOboeOne, sAVlnTwo, sACorAnglais, sAVla, sAVc in octaves; themes-scherzo.md second idea; intro.ily introHnOne G♯3–E4–D♯4."
+    },
+    {
+      "from": "57.1",
+      "to": "73.3",
+      "kind": "Counterpoint",
+      "bars": "57–73",
+      "short": "Fugato on theme A's head, then a stretto",
+      "text": "Letter D: the head of theme A enters in the cellos in G minor (57), the violas in D minor (61) and the second violins in A minor (65); the cellos go on in crotchets against the violas, the violas against the second violins, and at 65–66 the cellos quote the second idea's opening in A minor (E3–D3–C3, A3). From 69 the head comes every bar, in Flute 1, Oboe 1 and first violins (69), Clarinet 1 and second violins (70), and cellos, Bassoon 1 and Horns 1·2 (71), over an A pedal, and arrives on A major, ff, at 72.",
+      "anchor": {
+        "staff": "Violoncellos",
+        "from": "57.1",
+        "to": "61.1"
+      },
+      "check": "global.ily mark D 57 (development, fugato on the theme head); sB.ily sBVc from 57 (G minor), sBVla from 61 (D minor), sBVlnTwo a''4 e''8 e'' a''4 at 65; stretto sBVlnOne/sBFluteOne/sBOboeOne 69, sBClOne/sBVlnTwo 70, sBVc/sBBsnOne/sBHnOne 71; sBCb A1 69–72; A major at 72. sBVc 65–66 e4. d8 c4~ | c4 a2 (themes-scherzo.md: the cellos quote the second idea's head in A minor at 65–66)."
+    },
+    {
+      "from": "73.3",
+      "to": "81.1",
+      "kind": "Orchestration",
+      "bars": "73–80",
+      "short": "F major, E's Neapolitan: a harp melody",
+      "text": "Letter E moves to F major, a semitone above E, and the strings are silent from 73 to 88. The harp plays its only melody of the movement, a falling sequence in two-bar units (A5–F5–A5, C6–B♭5–A5, then a step lower each time, 73–80), over held chords in Horns 3·4, bass clarinet and Bassoon 1.",
+      "anchor": {
+        "staff": "Harp RH",
+        "from": "73.1",
+        "to": "81.1"
+      },
+      "check": "global.ily \\key f \\major and mark E 73 (F major, the Neapolitan of E, winds and harp without strings); sB.ily sBHarpR a''4 f'' a'' | c'''2 bes''8 a'' | g''4 d'' g'' | bes''2 a''8 g'' ... 73–80 (the other harp passages are chords, harmonics or rests); sBHnThree/sBHnFour, sBBassCl, sBBsnOne held notes; sBVlnOne to sBCb rest 73–88."
+    },
+    {
+      "from": "89.1",
+      "to": "97.1",
+      "kind": "Form",
+      "bars": "89–96",
+      "short": "Ritmo di tre battute: entries every 3 bars",
+      "text": "Letter F, over a B pedal: the head of theme A enters every three bars, in the violas (89), Oboe 1 in B minor (92) and the first violins (95), and in the third bar of each group the timpani play the rhythm of theme A's first bar on B (91, 94, 97). The score marks the passage ritmo di tre battute, the term Beethoven used in the scherzo of his Ninth Symphony.",
+      "anchor": {
+        "staff": "Violas",
+        "from": "89.1",
+        "to": "92.1"
+      },
+      "check": "global.ily mark F 89 and tempo text 'ritmo di tre battute' (then 'ritmo di quattro battute' at 101); sB.ily sBVla 89–90, sBOboeOne b'4 fis'8 fis' b'4 | d''2 cis''8 c''8 at 92–93, sBVlnOne 95–96, sBTimp 91, 94, 97.; global.ily c019 comment cites Beethoven 9/ii bars 177–233 'Ritmo di tre battute', so the Beethoven reference comes from the score's own notes."
+    },
+    {
+      "from": "105.1",
+      "to": "113.1",
+      "kind": "Counterpoint",
+      "bars": "105–112",
+      "short": "Counter-melody: the trio tune, before the trio",
+      "text": "Letter G: theme A returns tutti, and under it Bassoon 1, Horns 3 and 4 and the cellos play a countermelody, G3–A3–B3–E4 (105–106). It is the opening of the trio tune (Clarinet 1 at 153: G♯4–A4–B4–E5) in E minor, heard here before the trio has begun.",
+      "anchor": {
+        "staff": "Horns 3·4",
+        "from": "105.1",
+        "to": "109.1"
+      },
+      "check": "sC.ily sCBsnOne, sCHnThree, sCHnFour, sCVc g2 a4 | b2 e'4~ | e'2 b4 | a2 fis4 at 105–108; tA.ily tAClOne gis'2 a'4 | b'2 e''4 at 153–154; themes-scherzo.md trio tune T."
+    },
+    {
+      "from": "121.1",
+      "to": "129.1",
+      "kind": "Theme",
+      "bars": "121–128",
+      "short": "Second idea returns in E minor",
+      "text": "Letter H: the second idea comes back in the home key, E minor, in the first violins with the second violins an octave lower, and Flute 1 and Oboe 1 join them at 125. Its G5–E6–D♯6 (121–123) is the horn call's 3–1–7 in E minor, a rising sixth and a falling semitone, as B–G–F♯ was in G at 45–47.",
+      "anchor": {
+        "staff": "Violins I",
+        "from": "121.1",
+        "to": "125.1"
+      },
+      "check": "global.ily mark H 121 (second idea in E minor); sC.ily sCVlnOne b''4. a''8 g''4~ | g''4 e'''2 | dis'''2 cis'''4~ at 121–123, sCVlnTwo an octave lower, sCFluteOne and sCOboeOne from 125; themes-scherzo.md secondIdeaE (Vln I at 121, joined by Fl 1 and Ob 1 at 125)."
+    },
+    {
+      "from": "141.1",
+      "to": "149.1",
+      "kind": "Form",
+      "bars": "141–148",
+      "short": "Link: the opening reversed, minor to major",
+      "text": "Letter J: Horn 1 holds G4 over the bassoons' B3 and E4, the bass clarinet's E2 (from 142) and the first violins' harmonic E6, ppp, and at 145 it moves up to G♯4, turning E minor into E major. At bars 1–8 the order was the other way round, G♯ first and then G.",
+      "anchor": {
+        "staff": "Horns 1·2",
+        "from": "141.1",
+        "to": "149.1"
+      },
+      "check": "global.ily mark J 141 (link to the trio, E minor -> E major); link.ily linkHnOne G4 141–144, G♯4 at 145, linkBsnOne/linkBsnTwo B3+E4, linkBassCl E2 from 142, linkVlnOne harmonic E6; intro.ily introHnOne G♯4 at 1, introVlnOne G5 at 7."
+    },
+    {
+      "from": "153.1",
+      "to": "159.1",
+      "kind": "Theme",
+      "bars": "153–158",
+      "short": "Trio tune: the horn call with its leap filled",
+      "text": "Letter K, Trio in E major, un poco meno mosso: Clarinet 1 plays the trio tune, G♯4–A4–B4–E5–D♯5 (153–155), over off-beat harp chords and a held E3–B3 in Horns 3 and 4. Its outline G♯–E–D♯ is the horn call of bars 3–5, with the rising sixth filled in by A and B.",
+      "anchor": {
+        "staff": "Clarinets 1·2",
+        "from": "153.1",
+        "to": "156.1"
+      },
+      "check": "global.ily mark K 153, Trio, Un poco meno mosso; tA.ily tAClOne gis'2 a'4 | b'2 e''4 | dis''4. ... 153–155, tAHarpR off-beat chords, tAHnThree/tAHnFour E3+B3; themes-scherzo.md (T fills the horn call's sixth); intro.ily introHnOne 3–5."
+    },
+    {
+      "from": "169.1",
+      "to": "177.1",
+      "kind": "Counterpoint",
+      "bars": "169–176",
+      "short": "Trio tune in the cellos, Flute 1 answers",
+      "text": "Letter L: the cellos take the trio tune, arco espressivo, with Horn 3 in unison (169–176) and the muted second violins playing quavers above, and Flute 1 answers the ends of their phrases with G♯5–A5–B5 (172) and D♯6–E6–F♯6 (176).",
+      "anchor": {
+        "staff": "Violoncellos",
+        "from": "169.1",
+        "to": "173.1"
+      },
+      "check": "global.ily mark L 169 (the trio tune in the cellos); tA.ily tAVc gis2 a4 ... from 169, tAHnThree 169–176, tAVlnTwo con sord., tAFluteOne at 172 and 176."
+    },
+    {
+      "from": "185.1",
+      "to": "193.1",
+      "kind": "Counterpoint",
+      "bars": "185–192",
+      "short": "Oboe in C♯ minor, cellos a step lower",
+      "text": "Letter M, the trio's middle part: Oboe 1 plays a four-bar phrase in C♯ minor, E5–F♯5–E5–D♯5–E5, C♯5–G♯4 (185–188), and the cellos answer with the same phrase one step lower, in B major (189–192).",
+      "anchor": {
+        "staff": "Oboes 1·2",
+        "from": "185.1",
+        "to": "189.1"
+      },
+      "check": "global.ily mark M 185; tB.ily tBOboeOne 185–188, tBVc dis'4 e'8 dis' cis' dis' | b2 fis4 | gis4. a8 b4 | fis2. at 189–192, tBCb C♯2 C♯2 F♯1 G♯1 (i–iv–V of C♯ minor), then B1 B1 E2 F♯2 with tBHarpR B, B, E, F♯ major chords (I–I–IV–V of B)."
+    },
+    {
+      "from": "197.1",
+      "to": "203.1",
+      "kind": "Counterpoint",
+      "bars": "197–202",
+      "short": "The oboe's phrase and the trio tune together",
+      "text": "At 197–200 the oboe's phrase (Flute 1, Oboe 1, first violins) sounds together with the trio tune (Clarinet 1, second violins, violas an octave lower). The trio tune's D♮ at 199 belongs to a D major chord over F♯, the Neapolitan sixth of C♯ minor, which moves to G♯7 at 200.",
+      "anchor": {
+        "staff": "Clarinets 1·2",
+        "from": "197.1",
+        "to": "201.1"
+      },
+      "chords": [
+        [
+          "199.1",
+          "D/F♯"
+        ],
+        [
+          "200.1",
+          "G♯7"
+        ]
+      ],
+      "check": "tB.ily tBFluteOne, tBOboeOne, tBVlnOne 197–200; tBClOne, tBVlnTwo, tBVla G♯–A–B–E, D–F♯–A at 197–199; 199: D, F♯, A in all parts over Vc/Cb F♯; 200: G♯ (Fl, Ob, Vln I, Vc, Cb), B♯ (Cl 2 c'), D♯ (Hn 2), F♯ (Bsn 1)."
+    },
+    {
+      "from": "203.1",
+      "to": "209.1",
+      "kind": "Quotation",
+      "bars": "203–208",
+      "short": "Horn 1: the motto's falling line, from B",
+      "text": "Over a timpani roll and a cello and bass pedal on B, Horn 1 rises G♯4–A4–B4 and falls B4–A♯4–A4–G♯4 (205–209). The falling half is the chromatic tail of Movement I's motto (E♭–D–D♭–C) on B, which Horn 1 plays again, one note per bar, at 357–360.",
+      "anchor": {
+        "staff": "Horns 1·2",
+        "from": "205.1",
+        "to": "209.1"
+      },
+      "check": "tB.ily tBHnOne gis'2 a'4 | b'2.~ | b'2 ais'4 | a'2. at 205–208, tC.ily tCHnOne gis' at 209; tBTimp B2 roll 205–208; tBVc/tBCb B; coda.ily codaHnOne b'2. | ais'2. | a'2. | gis'2. at 357–360; themes-mvt1.ly mvtOneMottoTail."
+    },
+    {
+      "from": "209.1",
+      "to": "217.1",
+      "kind": "Theme",
+      "bars": "209–216",
+      "short": "Trio tune returns, forte, in the first violins",
+      "text": "Letter N: the trio tune returns forte in the first violins from G♯5, with Clarinet 1 and the second violins an octave lower, while the cellos and Bassoon 2 play a countermelody (209–216). At 217 Flute 1 joins the violins and the cellos take over the tune two octaves below them.",
+      "anchor": {
+        "staff": "Violins I",
+        "from": "209.1",
+        "to": "213.1"
+      },
+      "check": "global.ily mark N 209 (trio tune returns); tC.ily tCVlnOne gis''2(\\f a''4 | b''2 e'''4) at 209–210, tCClOne (mf) and tCVlnTwo an octave lower, tCVc and tCBsnTwo B2–G♯3–E3 at 209 and on to 216, tCFluteOne C♯6 and tCVc C♯4 at 217; themes-scherzo.md trioT (Cl 1 and Vln I at 209, Fl 1 joins at 217)."
+    },
+    {
+      "from": "225.1",
+      "to": "237.1",
+      "kind": "Harmony",
+      "bars": "225–236",
+      "short": "Trio codetta: A major, then A minor (IV, iv)",
+      "text": "Letter O: the head of the trio tune passes from Oboe 1 (225) to Clarinet 1 (229) and Bassoon 1 (233), with E held inside by Clarinet 2 and then Horn 4 while the bass moves between E and A. The harmony moves to A major (227, 231) and later to A minor, with Bassoon 1's C♮ at 235, before E major returns at 236: IV, then iv borrowed from E minor.",
+      "anchor": {
+        "staff": "Clarinets 1·2",
+        "from": "229.1",
+        "to": "233.1"
+      },
+      "chords": [
+        [
+          "227.1",
+          "A"
+        ],
+        [
+          "235.1",
+          "A minor"
+        ],
+        [
+          "236.1",
+          "E"
+        ]
+      ],
+      "chord_staff": "Bassoons 1·2",
+      "check": "global.ily mark O 225 (trio codetta over the E pedal); tC.ily tCOboeOne 225, tCClOne 229, tCBsnOne 233 with c'2. at 235; tCCb and harp LH E2 E2 A1 E2 | E2 G♯1 A1 E2 | E2 E2 A1 E2 at 225–236 (no cellos), tCClTwo E4 225–228, tCHnFour E3 229–237; chords checked in all sounding parts at 227, 235, 236."
+    },
+    {
+      "from": "241.1",
+      "to": "247.1",
+      "kind": "Form",
+      "bars": "241–246",
+      "short": "Retransition: E minor, the timpani rhythm on B",
+      "text": "Letter P: Horn 1's G♯ falls to G, E minor returns, and the head of theme A enters in the violas (241) and Clarinet 1 (245) while the timpani repeat the rhythm of theme A's first bar on B (241, 247, 249–251), the figure the finale's timpani quote on G at its bars 143–145. At 244 the bass C, the violas' E, Horn 1's F♯ and the A♯ of the divided cellos and Bassoon 1 make a French sixth.",
+      "anchor": {
+        "staff": "Violas",
+        "from": "241.1",
+        "to": "243.1"
+      },
+      "chords": [
+        [
+          "241.1",
+          "E minor"
+        ],
+        [
+          "244.1",
+          "Fr6"
+        ]
+      ],
+      "check": "global.ily c023 comment (E-minor key signature at 241 where Hn 1's G♯ turns to G♮), mark P 241; retr.ily retrHnOne, retrVla head at 241, retrClOne at 245, retrTimp B crotchet, two quavers, crotchet at 241, 247, 249–251; 244: C (retrCb, retrVc, retrBsnTwo), E (retrVla), F♯ (retrHnOne), A♯ (retrVc div., retrBsnOne); themes-finale-quotes.ly motiveXretr g,4 g,8 g,8 g,4 at finale Timp 143–145."
+    },
+    {
+      "from": "253.1",
+      "to": "261.1",
+      "kind": "Counterpoint",
+      "bars": "253–260",
+      "short": "Reprise: theme A with the cello counter-melody",
+      "text": "Letter Q, Tempo I: theme A returns in the first violins over off-beats in the pizzicato second violins, and the cellos, arco espressivo p, play the countermelody first heard at 105, G3–A3–B3–E4, the trio tune's opening in E minor.",
+      "anchor": {
+        "staff": "Violoncellos",
+        "from": "253.1",
+        "to": "257.1"
+      },
+      "check": "global.ily mark Q 253, Tempo I; dA.ily dAVlnOne E5–B4–B4–E5 | G5–F♯5–F5 at 253–254, dAVlnTwo pizz. G4 off-beats, dAVc g2(\\p 'arco, espress.' a4 | b2 e'4~ at 253–254; sC.ily sCVc 105."
+    },
+    {
+      "from": "261.1",
+      "to": "268.1",
+      "kind": "Orchestration",
+      "bars": "261–267",
+      "short": "Flute 1 decorates the violins an octave up",
+      "text": "From 261 Flute 1 plays the first violins' line an octave higher with extra notes in between (A6–G6–A6–G6–F♯6 against A5–G5–F♯5), and meets it in unison on C6 at 264. Below, Horn 3 doubles the cellos' countermelody (C4–B3–A3).",
+      "anchor": {
+        "staff": "Flutes 1·2",
+        "from": "261.1",
+        "to": "265.1"
+      },
+      "check": "dA.ily dAFluteOne a'''8 g''' a''' g''' fis'''4 at 261, c'''2 at 264; dAVlnOne a''4 g'' fis'' at 261, c'''2 at 264; dAHnThree and dAVc C4 B3 A3 at 261–263."
+    },
+    {
+      "from": "277.1",
+      "to": "284.1",
+      "kind": "Harmony",
+      "bars": "277–283",
+      "short": "Second idea in E: major, then minor at 281",
+      "text": "Letter R: the second idea returns in E major in Flute 1 with Oboe 1 an octave lower (277–280), its G♯5–E6–D♯6 again the horn call's 3–1–7. From the up-beat at 280 the first violins take it over, and at 281 C♮ replaces the C♯ of bar 279 (first violins C6; second violins, Oboe 1, Clarinet 1 C5; Clarinet 2, Horn 2, cellos C4): the second half is in E minor.",
+      "anchor": {
+        "staff": "Flutes 1·2",
+        "from": "277.1",
+        "to": "280.1"
+      },
+      "check": "global.ily mark R 277; dA.ily dAFluteOne b''4. a''8 gis''4~ | gis''4 e'''2 | dis'''2 cis'''4 at 277–279, dAOboeOne an octave lower; dAVlnOne d'''8 up-beat at 280, c'''4. b''8 a''4 at 281; dAVlnTwo, dAOboeOne, dAClOne C5, dAClTwo, dAHnTwo, dAVc C4 at 281."
+    },
+    {
+      "from": "298.1",
+      "to": "305.1",
+      "kind": "Harmony",
+      "bars": "298–304",
+      "short": "Neapolitan sixth: F major over A, then B7",
+      "text": "Near the end of the shortened development A major (300) turns into C7 (C–E–B♭, beat 3 of 300), which leads to F major over A (301–302), the Neapolitan sixth of E minor, and then to B7 (303–304) before theme A returns at 305. F major is the key of the harp episode at 73, which the reprise leaves out.",
+      "anchor": {
+        "staff": "Violins I",
+        "from": "300.1",
+        "to": "303.1"
+      },
+      "chords": [
+        [
+          "300.1",
+          "A"
+        ],
+        [
+          "300.3",
+          "C7"
+        ],
+        [
+          "301.1",
+          "F/A"
+        ],
+        [
+          "303.1",
+          "B7"
+        ]
+      ],
+      "check": "dB.ily dBVlnOne E6 then B♭5 at 300, A5–C6–F6 at 301–302, D♯6–B5 at 303; dBVla E4; dBVc/dBCb A then C on beat 3 of 300, A at 301–302, B at 303–304; dBHnOne/dBHnTwo A4+C♯5, F4+A4, D♯4+F♯4; dBClOne A4 at 303; dB.ily c473 (F major 73–88, 'which the reprise cuts'; 300.3 taken as V7 of F) and c480/c502 (Vln I B♭5, spelt by its goal, so C7 is the score's own reading, not the earlier Italian sixth)."
+    },
+    {
+      "from": "305.1",
+      "to": "313.1",
+      "kind": "Form",
+      "bars": "305–312",
+      "short": "Theme A tutti again, as at 105",
+      "text": "Letter T: theme A returns tutti as at 105. Both flutes play the violins' line an octave higher with added quavers (up to A6 at 310), and the cellos, Horn 3 and Bassoon 1 play the countermelody G3–A3–B3–E4.",
+      "anchor": {
+        "staff": "Flutes 1·2",
+        "from": "305.1",
+        "to": "309.1"
+      },
+      "check": "global.ily mark T 305 (theme A, tutti); dC.ily dCVlnOne/dCVlnTwo E5–B4–B4–E5 at 305, dCFluteOne/dCFluteTwo E6–B5–B5–E6 | G6–A6–G6–F♯6–F6 at 305–306, A6 at 310; dCVc, dCHnThree, dCBsnOne g2 a4 | b2 e'4~ at 305–306."
+    },
+    {
+      "from": "325.1",
+      "to": "333.1",
+      "kind": "Counterpoint",
+      "bars": "325–332",
+      "short": "Coda: theme A's opening in stretto, bass E–D–C–B",
+      "text": "Letter U, Più mosso: the rhythm of theme A's first bar enters a bar apart in the cellos (325), violas (326), second violins (327) and first violins (328). Then the bass falls E–D–C–B (329–332; double basses and Bassoon 2, with the bass clarinet at 329–330 and the contrabassoon from 330) under E minor, D, F/C, a French sixth and B7, while Clarinet 1, Oboe 2 and the cor anglais play the chromatic line G–F♯–F–E–D♯.",
+      "anchor": {
+        "staff": "Double basses",
+        "from": "329.1",
+        "to": "333.1"
+      },
+      "chords": [
+        [
+          "329.1",
+          "E minor"
+        ],
+        [
+          "330.1",
+          "D"
+        ],
+        [
+          "331.1",
+          "F/C"
+        ],
+        [
+          "331.3",
+          "Fr6"
+        ],
+        [
+          "332.1",
+          "B7"
+        ]
+      ],
+      "check": "global.ily mark U 325, Più mosso; coda.ily codaVc 325, codaVla 326, codaVlnTwo 327, codaVlnOne 328; codaCb E2 D2 C2 B1 and codaBsnTwo E3 D3 C3 B2 at 329–332, codaBassCl E2 D2 at 329–330 only, codaCbsn D2 C2 B1 from 330; codaClOne, codaOboeTwo, codaCorAnglais (an octave lower) G–F♯–F–E–D♯ 329–332; Vln II A♯4 on beat 3 of 331; chords checked in all sounding parts."
+    },
+    {
+      "from": "333.1",
+      "to": "340.1",
+      "kind": "Orchestration",
+      "bars": "333–339",
+      "short": "Bar 336: the highest note (B) and the only fff",
+      "text": "At 336 the first violins and Flute 1 reach B6, the highest note of the movement, over a B7 chord in the woodwind, brass and strings with a timpani roll on B; it is the only fff printed in the movement. The chord resolves to E minor at 339, and bar 340 is a general pause.",
+      "anchor": {
+        "staff": "Flutes 1·2",
+        "from": "335.1",
+        "to": "337.1"
+      },
+      "check": "coda.ily codaVlnOne and codaFluteOne B6 at 336 (fff; other fff marks in the movement are hidden stencils), B7 at 336 in all sounding parts (Cl A4, Ob F♯5, Tpt D♯4, Tbn D♯3+F♯3, Cb B1), codaTimp B2 roll; E at 339; global.ily G.P. at 340. Anchor moved to Flute 1 (coda.ily codaFluteOne: a'''4 at the end of 335, b'''2. fff at 336, a'''2 fis'''4 at 337), which the split shows larger than the first violins."
+    },
+    {
+      "from": "341.1",
+      "to": "349.1",
+      "kind": "Theme",
+      "bars": "341–348",
+      "short": "Trio tune recalled in A, Horn 3",
+      "text": "Letter V, Meno mosso (tempo del Trio): Horn 3 plays the trio tune in A major (C♯4–D4–E4–A4, 341–344) and Oboe 1 continues it with Clarinet 1 mostly a sixth below (345–348). At 349 a solo first violin with Flute 1 takes the tune back to E.",
+      "anchor": {
+        "staff": "Horns 3·4",
+        "from": "341.1",
+        "to": "345.1"
+      },
+      "check": "global.ily mark V 341, Meno mosso (tempo del Trio); coda.ily codaHnThree cis'2 d'4 | e'2 a'4 | gis'4. b8 d'4~ | d'4 cis'2 at 341–344; codaOboeOne D5–E5–F♯5–B5 and codaClOne F♯4–A4–D5 at 345–348; codaVlnOne (solo) C♯6 at 349 with codaFluteOne."
+    },
+    {
+      "from": "356.1",
+      "to": "362.1",
+      "kind": "Quotation",
+      "bars": "356–361",
+      "short": "Horn 1: the motto's falling line again, from B",
+      "text": "Letter W: Horn 1, solo, plays B4–A♯4–A4–G♯4, one note per bar (357–360), the chromatic tail of Movement I's motto on B, first hinted at 205–209. Under it the chords are E, A♯dim7, A minor and E, and the cor anglais moves C♯4–C4–B3 (358–360).",
+      "anchor": {
+        "staff": "Horns 1·2",
+        "from": "357.1",
+        "to": "361.1"
+      },
+      "chords": [
+        [
+          "357.1",
+          "E"
+        ],
+        [
+          "358.1",
+          "A♯dim7"
+        ],
+        [
+          "359.1",
+          "A minor"
+        ],
+        [
+          "360.1",
+          "E"
+        ]
+      ],
+      "check": "global.ily mark W 357 (the motto's chromatic tail and the close); coda.ily codaHnOne b'2. | ais'2. | a'2. | gis'2.~ at 357–360, codaCorAnglais cis'2. | c'2. | b2. at 358–360; chords checked in all sounding parts; themes-mvt1.ly mvtOneMottoTail."
+    },
+    {
+      "from": "364.1",
+      "to": "376.1",
+      "kind": "Form",
+      "bars": "364–376",
+      "short": "Ends as it began: G♯ in Horn 1 and the violins",
+      "text": "The movement ends on the two notes it began with, Horn 1's G♯4 and the first violins' G♯5 (from 364), while the timpani play the rhythm of theme A's first bar on B, pp to ppp (363, 367, 371), and a last E at 375 under the harp's harmonics E4–G♯4–B4. The finale's first chord has the same two pitches written as A♭: Horn 1 on A♭4 and the first violins on A♭5 (with C5 below it).",
+      "anchor": {
+        "staff": "Horns 1·2",
+        "from": "364.1",
+        "to": "376.1"
+      },
+      "check": "coda.ily codaHnOne G♯4 (360–366, 368–376), codaVlnOne G♯5 364–376, codaTimp 363, 367, 371, 375, codaHarpR/codaHarpL harmonics at 375; intro.ily introHnOne/introVlnOne bar 1; mvt3/v600 intro.ily introHnOne aes'1, introVlnOne <c'' aes''>1 at finale bar 1; themes-finale-quotes.ly scherzoLastPitchAs."
+    }
+  ],
+  "review": [
+    {
+      "item": "split 1–8 (pullback)",
+      "problem": "Said both instruments are ppp and called the timpani's E2 at 3 a roll. Horn 1 is marked pp (only the violins are ppp), and introTimp has a single held stroke (e,2.~ e,2.~ e,4-.), no tremolo.",
+      "fix": "Dynamics stated per instrument; 'timpani roll' changed to the timpani's held E2."
+    },
+    {
+      "item": "split 29–36 (stack)",
+      "problem": "The check field spelled the second call A5–A♭5–G5; sA.ily has a''2 gis''8 g''8 (G♯).",
+      "fix": "Changed to A5–G♯5–G5."
+    },
+    {
+      "item": "split 305–312 (stack)",
+      "problem": "Said Horns 3 and 4 double the cellos' countermelody; in dC.ily only Horn 3 does (dCHnFour plays G3–E3–G3–B2, a separate line). Also missed the stretto at 297–299, the same imitation as the 68–72 split, which cannot have its own split because it ends less than 4 s before 305.",
+      "fix": "Removed Horn 4 from the countermelody; merged the stretto and the Flute 1/Vln I line at 301–304 into this split, now 297–312 (10.9 s), upper zoom 1.3 to include the clarinets."
+    },
+    {
+      "item": "caption 1–5 Quotation",
+      "problem": "'Horn 1 holds G♯4 with the first violins' G♯5, ppp' reads as if both are ppp; introHnOne is pp.",
+      "fix": "Dynamics stated per instrument."
+    },
+    {
+      "item": "caption 13–20 Theme",
+      "problem": "The analyst left out the Movement I bar 79 link as unconfirmed; it is in the score: mvt1/v621 dev.ily, Oboe 1 and Vln I B4–G5–F♯5–F5–E5 in bar 79, the same pitches as theme A's bars 14–15.",
+      "fix": "Added the link to the text and the source to check."
+    },
+    {
+      "item": "caption 57–73 Counterpoint",
+      "problem": "Said each earlier voice goes on in crotchets against the new entry; at 65–67 the cellos do not (E3 dotted crotchet, D3 quaver, C3 tied, A3 minim: the second idea's head in A minor), only the violas do.",
+      "fix": "Text now says which voice continues in crotchets and names the cellos' quotation of the second idea at 65–66."
+    },
+    {
+      "item": "caption 89–96 Form",
+      "problem": "The analyst flagged the Beethoven reference as outside the score; global.ily's c019 comment at 89 names Beethoven 9/ii 'Ritmo di tre battute'.",
+      "fix": "Kept the sentence and cited the comment in check."
+    },
+    {
+      "item": "caption 185–192 Counterpoint",
+      "problem": "Said the cellos answer 'over a B bass'; the bass is B only at 189–190, then E (191) and F♯ (192): the answer is in B major.",
+      "fix": "Changed to 'in B major' and corrected the bass in check."
+    },
+    {
+      "item": "caption 205–209 Quotation",
+      "problem": "The bars field (205–209) did not match the shown time (from 203.1 to 209.1).",
+      "fix": "Bars field set to 203–208; timing unchanged (it must end at 209.1, where the split with no horn panel begins)."
+    },
+    {
+      "item": "caption 225–236 Harmony",
+      "problem": "Called the bass an E pedal (following global.ily's label); the double basses and harp play A1 at 227, 231 and 235 (the IV and iv chords are in root position) and the cellos are silent. Only an inner E is held (Cl 2, then Hn 4).",
+      "fix": "Text and short label no longer claim an E pedal; check corrected."
+    },
+    {
+      "item": "caption 298–304 Harmony",
+      "problem": "Check cited coherence/scherzo.md c473; that comment is in dB.ily. The analyst's open point about the Italian sixth is settled there: c480 respelt A♯ as B♭ and c473/c502 call 300.3 V7 of F.",
+      "fix": "Check now cites dB.ily c473, c480, c502; chord name C7 kept."
+    },
+    {
+      "item": "caption 325–332 Counterpoint",
+      "problem": "Said the contrabassoon and bass clarinet play the whole bass E–D–C–B; the bass clarinet plays only E–D (329–330) and the contrabassoon enters at 330 on D.",
+      "fix": "Instrument list corrected in text and check."
+    },
+    {
+      "item": "caption 333–339 Orchestration",
+      "problem": "'Resolves to E at 339' leaves the mode open; the 339 chord has G♮ (Ob 1, Cl 2, Tpt 1, Tbn 1, Vln II, Vla): E minor.",
+      "fix": "Changed to E minor."
+    },
+    {
+      "item": "caption 357–361 Quotation",
+      "problem": "The bars field (357–361) did not match the shown time (from 356.1).",
+      "fix": "Bars field set to 356–361."
+    },
+    {
+      "item": "caption 364–376 Form",
+      "problem": "'The finale begins with the same two pitches' suggests only those two notes; the finale's bar 1 is a full ff chord and Vln I plays <c'' aes''>.",
+      "fix": "Reworded to say the finale's first chord contains the two pitches, Vln I with C5 below."
+    },
+    {
+      "item": "split 125–131 (stack, added)",
+      "problem": "Missing: Flute 1 and Oboe 1 double the violins' second idea from 125, the same kind of doubling as the 45–54 split, and the automatic camera shows only the clarinets and bassoons here.",
+      "fix": "Added a stack split Oboes 1·2 / Violins I, 125.1–132.1 (4.8 s)."
+    },
+    {
+      "item": "split 329–339 (stack, added)",
+      "problem": "Missing: the woodwinds' chromatic line against the strings' motive x and falling bass (329–332), then woodwinds and strings in octaves on theme A's head and Flute 1 with the first violins up to B6 (333–339).",
+      "fix": "Added a stack split Oboes 1·2 / Violas (zooms 1.2 / 1.3), 329.1–340.1 (6.9 s); the anchors of the 325 and 333 notes fall inside the lower panel."
+    },
+    {
+      "item": "caption 121–128 Theme (added)",
+      "problem": "Missing: the second idea's return in the home key at letter H, a theme's return; the automatic camera is on the bass clarinet and clarinets at 121–124.",
+      "fix": "Added a Theme note 121.1–129.1 (5.4 s) anchored on Violins I."
+    },
+    {
+      "item": "caption 209–216 Theme (added)",
+      "problem": "Missing: the trio tune's return at letter N (the analyst left it to the split).",
+      "fix": "Added a Theme note 209.1–217.1 (6.3 s) anchored on Violins I, inside the split's lower panel."
+    },
+    {
+      "item": "caption 305–312 Form (added)",
+      "problem": "Missing: the start of letter T, theme A's tutti return in the reprise (the analyst left it to the split).",
+      "fix": "Added a Form note 305.1–313.1 (5.4 s) anchored on Flutes 1·2, inside the split's upper panel."
+    }
+  ]
+}

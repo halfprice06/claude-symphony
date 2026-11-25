@@ -1,0 +1,854 @@
+<title>Symphony No. 1 Mockups</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: a listening desk. One column holds the two sets of recordings and a single player;
+   the other holds the full score of the chosen movement, pages stacked for scrolling.
+   On a phone the score follows the list and the player stays at the bottom of the screen. */
+:root {
+  --paper: #f3f5f7;
+  --sheet: #ffffff;
+  --tint: #e7ebf0;
+  --ink: #1b2433;
+  --muted: #5b6676;
+  --rule: #d5dbe3;
+  --accent: #7a5c12;
+  --accent-ink: #ffffff;
+  --page-filter: none;
+  --display: "Spectral", Georgia, "Times New Roman", serif;
+  --body: "IBM Plex Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12161d; --sheet: #1a2029; --tint: #0d1117; --ink: #e6e9ee; --muted: #9aa4b3; --rule: #2c3442;
+    --accent: #d4b25e; --accent-ink: #1a1407; --page-filter: brightness(0.9);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12161d; --sheet: #1a2029; --tint: #0d1117; --ink: #e6e9ee; --muted: #9aa4b3; --rule: #2c3442;
+  --accent: #d4b25e; --accent-ink: #1a1407; --page-filter: brightness(0.9);
+  color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 15px;
+  line-height: 1.5;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px);
+  z-index: 10;
+  background: var(--paper);
+}
+button { font: inherit; color: inherit; }
+button:focus-visible, audio:focus-visible, .pages:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Page frame */
+.app {
+  --dock-space: 150px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  gap: 32px;
+  padding-block: 32px calc(var(--dock-space) + 32px);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.side, .score { min-width: 0; }
+.side { max-width: 640px; }
+.side-main { display: grid; gap: 20px; align-content: start; }
+
+/* Heading */
+.head { display: grid; gap: 6px; }
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 500;
+}
+h1 {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: clamp(26px, 5vw, 32px);
+  line-height: 1.15;
+  margin: 0;
+  text-wrap: balance;
+}
+.lede { margin: 0; color: var(--muted); max-width: 60ch; }
+
+/* The three sets */
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+  padding: 3px;
+  background: var(--tint);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+}
+.tab {
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 14px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+.tab[aria-selected="true"] {
+  background: var(--sheet);
+  color: var(--ink);
+  box-shadow: 0 0 0 1px var(--rule);
+}
+.panel { display: grid; gap: 12px; }
+.panel-note { margin: 0; color: var(--muted); font-size: 13.5px; }
+.list { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--rule); }
+.trk {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr) auto;
+  gap: 4px 12px;
+  align-items: start;
+  padding: 14px 0;
+  border-top: 1px solid var(--rule);
+}
+.trk-main { min-width: 0; }
+.play {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--rule);
+  background: var(--sheet);
+  color: var(--ink);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.play:hover { border-color: var(--accent); }
+.play svg { width: 16px; height: 16px; display: block; }
+.play .i-pause { display: none; }
+.trk.playing .play .i-play { display: none; }
+.trk.playing .play .i-pause { display: block; }
+.trk.current .play { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+h2 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 1.25;
+  margin: 0;
+  text-wrap: balance;
+}
+.num { font-style: italic; color: var(--accent); margin-right: 4px; }
+.cycle {
+  font-family: var(--mono);
+  font-size: 13px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 1px 8px;
+  margin-top: 2px;
+  white-space: nowrap;
+}
+.meta {
+  margin: 4px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 14px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.meta div { display: flex; gap: 6px; }
+.meta dd { margin: 0; color: var(--ink); }
+.row-note { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+
+/* Comparison clips: a second, smaller list under the mockups */
+.ab { display: grid; gap: 10px; margin-top: 12px; }
+.ab-head {
+  font-family: var(--body);
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.ab-notes {
+  margin: 0;
+  padding-left: 20px;
+  display: grid;
+  gap: 4px;
+  color: var(--muted);
+  font-size: 13.5px;
+}
+h3 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 16.5px;
+  line-height: 1.3;
+  margin: 0;
+  text-wrap: balance;
+}
+
+/* Player: fixed to the bottom on a phone, part of the left column on a wide screen */
+.dock {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 20;
+  display: grid;
+  gap: 8px;
+  background: var(--sheet);
+  border-top: 1px solid var(--rule);
+  padding-block: 10px calc(10px + env(safe-area-inset-bottom, 0px));
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.now { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.now-text { min-width: 0; display: grid; gap: 1px; }
+.now-title { margin: 0; font-family: var(--display); font-weight: 500; font-size: 16px; line-height: 1.25; }
+.now-kind { margin: 0; font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
+.to-score {
+  flex: none;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: transparent;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+audio { width: 100%; display: block; }
+
+/* Score */
+.score { display: grid; gap: 12px; align-content: start; scroll-margin-top: env(safe-area-inset-top, 0px); }
+.score-bar {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  padding-block: 10px;
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+}
+.seg, .zoom {
+  display: flex;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--sheet);
+  overflow: hidden;
+}
+.seg button, .zoom button {
+  border: 0;
+  background: transparent;
+  min-width: 40px;
+  height: 34px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.seg button { font-family: var(--display); font-style: italic; font-weight: 500; font-size: 17px; color: var(--muted); }
+.seg button + button { border-left: 1px solid var(--rule); }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.seg button:focus-visible, .zoom button:focus-visible { outline-offset: -3px; }
+.score-title { margin: 0; flex: 1 1 200px; min-width: 0; display: grid; gap: 1px; font-family: var(--display); font-weight: 500; font-size: 17px; line-height: 1.25; }
+.score-title .info { font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
+.zoom button { font-size: 18px; line-height: 1; }
+.zoom button:disabled { color: var(--rule); cursor: default; }
+.zoom output {
+  min-width: 52px;
+  display: grid;
+  place-items: center;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  font-variant-numeric: tabular-nums;
+  border-inline: 1px solid var(--rule);
+}
+.score-note { margin: 0; font-size: 13px; color: var(--muted); }
+.pages { overflow-x: auto; }
+
+/* Score video: shown in place of the score pages while a video row is chosen */
+.video-view { display: grid; gap: 10px; padding-top: 10px; }
+.video-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.video-title { margin: 0; min-width: 0; display: grid; gap: 1px; font-family: var(--display); font-weight: 500; font-size: 17px; line-height: 1.25; }
+.video-title .info { font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
+.back {
+  flex: none;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: transparent;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.video-view video {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  background: #000000;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+}
+.video-msg { margin: 0; font-size: 13px; color: var(--muted); }
+.pages-in {
+  --zoom: 1;
+  width: calc(min(100%, 1100px) * var(--zoom));
+  margin-inline: auto;
+  display: grid;
+  gap: 20px;
+}
+.pg { margin: 0; display: grid; gap: 6px; }
+.pg img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  background: #ffffff;
+  border: 1px solid var(--rule);
+  filter: var(--page-filter);
+}
+.pg figcaption { font-family: var(--mono); font-size: 12px; color: var(--muted); text-align: right; }
+
+/* Wide screens: recordings and player stay in view on the left, the score scrolls on the right */
+@media (min-width: 1000px) {
+  .app {
+    max-width: 1680px;
+    grid-template-columns: minmax(320px, 380px) minmax(0, 1fr);
+    gap: 36px;
+    padding-block: 0;
+    align-items: start;
+  }
+  .side {
+    position: sticky;
+    top: env(safe-area-inset-top, 0px);
+    height: calc(100vh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-block: 28px 20px;
+    max-width: none;
+  }
+  .side-main { flex: 1 1 auto; min-height: 0; overflow-y: auto; }
+  .dock {
+    position: static;
+    flex: none;
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 14px;
+  }
+  .to-score { display: none; }
+  .score { padding-bottom: 56px; }
+  .score-bar { padding-block: 14px; }
+}
+</style>
+
+<div class="app">
+  <div class="side">
+   <div class="side-main">
+    <header class="head">
+      <span class="eyebrow">Mockups and score</span>
+      <h1>Symphony No. 1 in C minor</h1>
+      <p class="lede">Play a movement and read its score. The audio keeps playing while you scroll the pages.</p>
+    </header>
+
+    <div class="tabs" role="tablist" aria-label="Recordings">
+      <button class="tab" type="button" role="tab" id="tab-mockups" data-tab="mockups" aria-controls="panel-mockups" aria-selected="true">REAPER mockups</button>
+      <button class="tab" type="button" role="tab" id="tab-basic" data-tab="basic" aria-controls="panel-basic" aria-selected="false" tabindex="-1">Basic MIDI</button>
+      <button class="tab" type="button" role="tab" id="tab-videos" data-tab="videos" aria-controls="panel-videos" aria-selected="false" tabindex="-1">Score videos</button>
+    </div>
+
+    <section class="panel" role="tabpanel" id="panel-mockups" data-tab="mockups" aria-labelledby="tab-mockups">
+      <p class="panel-note">The newest REAPER render of each movement, played by the Hollywood Orchestra samples. Each one is replaced when its next loop finishes.</p>
+      <ol class="list">
+        <li class="trk" data-set="mockups" data-mvt="1" data-src="mvt1-c63.mp3" data-kind="REAPER mockup c63">
+          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+          <div class="trk-main">
+            <h2><span class="num">I.</span>Lento — Allegro appassionato</h2>
+            <dl class="meta">
+              <div><dt>Score</dt><dd>v621</dd></div>
+              <div><dt>Length</dt><dd>7:14</dd></div>
+              <div><dt>Rendered</dt><dd>18 Nov, 2:20 pm CST</dd></div>
+            </dl>
+            <p class="row-note">Delivered at -14.1 LUFS, with the room-noise bed. It keeps c61's levels, with the volume moves inside held notes removed.</p>
+          </div>
+          <span class="cycle">c63</span>
+        </li>
+        <li class="trk" data-set="mockups" data-mvt="2" data-src="mvt2-c57.mp3" data-kind="REAPER mockup c57">
+          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+          <div class="trk-main">
+            <h2><span class="num">II.</span>Adagio</h2>
+            <dl class="meta">
+              <div><dt>Score</dt><dd>v600</dd></div>
+              <div><dt>Length</dt><dd>5:48</dd></div>
+              <div><dt>Rendered</dt><dd>17 Nov, 6:13 am CST</dd></div>
+            </dl>
+            <p class="row-note">Delivered at -14.3 LUFS. Dips at bow changes are smaller (Violins I 6.4 to 4.1 dB, Violins II 7.8 to 3.6), fast volume moves inside notes are down from 14 to 3, and the timpani in bar 84 are back at c54's level. Costs and faults still audible: the limiter takes up to 6.6 dB off the climax peaks in bars 60–64; the violins' B flat in bar 79 now comes about 70 ms early; the fp in bar 47 starts early and too strong; the divided violas, cellos and basses have new dips at bow changes in the coda. Still no per-note track volume adjustments.</p>
+          </div>
+          <span class="cycle">c57</span>
+        </li>
+        <li class="trk" data-set="mockups" data-mvt="3" data-src="scherzo-c30.mp3" data-kind="REAPER mockup c30">
+          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+          <div class="trk-main">
+            <h2><span class="num">III.</span>Scherzo: Allegro vivace</h2>
+            <dl class="meta">
+              <div><dt>Score</dt><dd>v600</dd></div>
+              <div><dt>Length</dt><dd>4:40</dd></div>
+              <div><dt>Rendered</dt><dd>18 Nov, 4:25 pm CST</dd></div>
+            </dl>
+            <p class="row-note">Delivered at -13.8 LUFS, with the room-noise bed. The strings no longer slur together at 0:39 (bars 53–55) and in the reprise, the summit arrives with a stroke, the close is quieter, and the soft solos are no longer as loud as the f passages.</p>
+          </div>
+          <span class="cycle">c30</span>
+        </li>
+        <li class="trk" data-set="mockups" data-mvt="4" data-src="mvt3-c30.mp3" data-kind="REAPER mockup c30">
+          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+          <div class="trk-main">
+            <h2><span class="num">IV.</span>Finale: Allegro con fuoco</h2>
+            <dl class="meta">
+              <div><dt>Score</dt><dd>v600</dd></div>
+              <div><dt>Length</dt><dd>7:05</dd></div>
+              <div><dt>Rendered</dt><dd>18 Nov, 5:11 pm CST</dd></div>
+            </dl>
+            <p class="row-note">The last render of the finale's run. Delivered at -14.0 LUFS; the final chord is still the loudest moment, and the arrival at bar 223 now clearly outranks the opening ff chords. The bassoon solo in bars 116–119 no longer sags at its climax, the oboe solo in bars 95–98 is no longer the softest music in the file, and the cor anglais F no longer drops out in its solo.</p>
+          </div>
+          <span class="cycle">c30</span>
+        </li>
+      </ol>
+
+    </section>
+
+    <section class="panel" role="tabpanel" id="panel-basic" data-tab="basic" aria-labelledby="tab-basic" hidden>
+      <p class="panel-note">Each movement's current score played as plain General MIDI: the score's own MIDI file through a basic built-in sound set, with no mixing, balancing or reverb. These change only when the score changes.</p>
+      <ol class="list">
+        <li class="trk" data-set="basic" data-mvt="1" data-src="basic/mvt1-v621-gm.mp3" data-kind="General MIDI render of v621">
+          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+          <div class="trk-main">
+            <h2><span class="num">I.</span>Lento — Allegro appassionato</h2>
+            <dl class="meta">
+              <div><dt>Score</dt><dd>v621</dd></div>
+              <div><dt>Length</dt><dd>7:13</dd></div>
+              <div><dt>Rendered</dt><dd>9 Nov</dd></div>
+            </dl>
+          </div>
+          <span class="cycle">GM</span>
+        </li>
+        <li class="trk" data-set="basic" data-mvt="2" data-src="basic/mvt2-v600-gm.mp3" data-kind="General MIDI render of v600">
+          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+          <div class="trk-main">
+            <h2><span class="num">II.</span>Adagio</h2>
+            <dl class="meta">
+              <div><dt>Score</dt><dd>v600</dd></div>
+              <div><dt>Length</dt><dd>5:48</dd></div>
+              <div><dt>Rendered</dt><dd>9 Nov</dd></div>
+            </dl>
+          </div>
+          <span class="cycle">GM</span>
+        </li>
+        <li class="trk" data-set="basic" data-mvt="3" data-src="basic/scherzo-v600b-gm.mp3" data-kind="General MIDI render of v600">
+          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+          <div class="trk-main">
+            <h2><span class="num">III.</span>Scherzo: Allegro vivace</h2>
+            <dl class="meta">
+              <div><dt>Score</dt><dd>v600</dd></div>
+              <div><dt>Length</dt><dd>4:41</dd></div>
+              <div><dt>Rendered</dt><dd>9 Nov</dd></div>
+            </dl>
+          </div>
+          <span class="cycle">GM</span>
+        </li>
+        <li class="trk" data-set="basic" data-mvt="4" data-src="basic/finale-v600d-gm.mp3" data-kind="General MIDI render of v600">
+          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+          <div class="trk-main">
+            <h2><span class="num">IV.</span>Finale: Allegro con fuoco</h2>
+            <dl class="meta">
+              <div><dt>Score</dt><dd>v600</dd></div>
+              <div><dt>Length</dt><dd>7:05</dd></div>
+              <div><dt>Rendered</dt><dd>10 Nov</dd></div>
+            </dl>
+          </div>
+          <span class="cycle">GM</span>
+        </li>
+      </ol>
+    </section>
+    <section class="panel" role="tabpanel" id="panel-videos" data-tab="videos" aria-labelledby="tab-videos" hidden>
+      <p class="panel-note">Each movement's score with the notes lighting up as they sound, set to the latest REAPER mockup. The video plays where the score pages are, and the audio player pauses while it plays.</p>
+      <ol class="list">
+        <li class="trk vid" data-set="video" data-mvt="1" data-hls="videos/mvt1-r3/mvt1-playlist.txt" data-poster="videos/mvt1-r3-poster.jpg" data-kind="Score video with REAPER mockup c63">
+          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+          <div class="trk-main">
+            <h2><span class="num">I.</span>Lento — Allegro appassionato</h2>
+            <dl class="meta">
+              <div><dt>Audio</dt><dd>mockup c63</dd></div>
+              <div><dt>Length</dt><dd>7:21</dd></div>
+            </dl>
+          </div>
+          <span class="cycle">Video</span>
+        </li>
+        <li class="trk vid" data-set="video" data-mvt="2" data-hls="videos/mvt2-r3/mvt2-playlist.txt" data-poster="videos/mvt2-r3-poster.jpg" data-kind="Score video with REAPER mockup c57">
+          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+          <div class="trk-main">
+            <h2><span class="num">II.</span>Adagio</h2>
+            <dl class="meta">
+              <div><dt>Audio</dt><dd>mockup c57</dd></div>
+              <div><dt>Length</dt><dd>5:55</dd></div>
+            </dl>
+          </div>
+          <span class="cycle">Video</span>
+        </li>
+        <li class="trk vid" data-set="video" data-mvt="3" data-hls="videos/scherzo-r3/scherzo-playlist.txt" data-poster="videos/scherzo-r3-poster.jpg" data-kind="Score video with REAPER mockup c30">
+          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+          <div class="trk-main">
+            <h2><span class="num">III.</span>Scherzo: Allegro vivace</h2>
+            <dl class="meta">
+              <div><dt>Audio</dt><dd>mockup c30</dd></div>
+              <div><dt>Length</dt><dd>4:47</dd></div>
+            </dl>
+          </div>
+          <span class="cycle">Video</span>
+        </li>
+        <li class="trk vid" data-set="video" data-mvt="4" data-hls="videos/finale-r3/finale-playlist.txt" data-poster="videos/finale-r3-poster.jpg" data-kind="Score video with REAPER mockup c30">
+          <button class="play" type="button"><svg class="i-play" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg><svg class="i-pause" viewBox="0 0 16 16" aria-hidden="true"><path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z" fill="currentColor"/></svg></button>
+          <div class="trk-main">
+            <h2><span class="num">IV.</span>Finale: Allegro con fuoco</h2>
+            <dl class="meta">
+              <div><dt>Audio</dt><dd>mockup c30</dd></div>
+              <div><dt>Length</dt><dd>7:13</dd></div>
+            </dl>
+          </div>
+          <span class="cycle">Video</span>
+        </li>
+      </ol>
+    </section>
+   </div>
+
+    <section class="dock" aria-label="Player">
+      <div class="now">
+        <div class="now-text">
+          <p class="now-title"><span class="num" id="now-num">I.</span><span id="now-name">Lento — Allegro appassionato</span></p>
+          <p class="now-kind" id="now-kind">REAPER mockup c63</p>
+        </div>
+        <button class="to-score" id="to-score" type="button">Score</button>
+      </div>
+      <audio id="player" controls preload="metadata" src="mvt1-c63.mp3"></audio>
+    </section>
+  </div>
+
+  <main class="score" id="score" aria-label="Full score">
+    <section class="video-view" id="video-view" aria-label="Score video" hidden>
+      <div class="video-head">
+        <p class="video-title"><span id="video-name">I. Lento — Allegro appassionato</span><span class="info" id="video-info">Score video</span></p>
+        <button class="back" id="video-back" type="button">Back to score pages</button>
+      </div>
+      <video id="vid" controls playsinline preload="none"></video>
+      <p class="video-msg" id="video-msg" hidden></p>
+    </section>
+    <div class="score-bar" id="score-bar">
+      <div class="seg" role="group" aria-label="Movement shown in the score">
+        <button type="button" data-mvt="1" aria-pressed="true" aria-label="Movement I">I</button>
+        <button type="button" data-mvt="2" aria-pressed="false" aria-label="Movement II">II</button>
+        <button type="button" data-mvt="3" aria-pressed="false" aria-label="Movement III">III</button>
+        <button type="button" data-mvt="4" aria-pressed="false" aria-label="Movement IV">IV</button>
+      </div>
+      <p class="score-title"><span id="score-name">I. Lento — Allegro appassionato</span><span class="info" id="score-info">Full score v621 · 18 pages</span></p>
+      <div class="zoom" role="group" aria-label="Page size">
+        <button type="button" id="zoom-out" aria-label="Smaller pages">−</button>
+        <output id="zoom-val">100%</output>
+        <button type="button" id="zoom-in" aria-label="Larger pages">+</button>
+      </div>
+    </div>
+    <p class="score-note" id="score-note" hidden></p>
+    <div class="pages" id="pages" tabindex="0" aria-label="Score pages">
+      <div class="pages-in" id="pages-in"></div>
+    </div>
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.min.js"></script>
+<script>
+(function () {
+  // One entry per movement. To swap in a new engraving: publish its pages under a new folder name and edit dir, pages, version here.
+  var SCORES = {
+    1: { num: "I", title: "Lento — Allegro appassionato", dir: "scores/mvt1-v621b", pages: 18, version: "v621",
+         note: "Rebuilt 9 Nov with the notation fix at bar 110 (the Violin II hairpin)." },
+    2: { num: "II", title: "Adagio", dir: "scores/mvt2-v600b", pages: 8, version: "v600",
+         note: "Rebuilt 9 Nov with the change at bars 36–37: the pickup to theme B is back on flute 1." },
+    3: { num: "III", title: "Scherzo: Allegro vivace", dir: "scores/scherzo-v600b", pages: 13, version: "v600",
+         note: "Rebuilt 9 Nov with the change at bar 56: Horn 1's solo link is removed (beats 2–3 are silent). REAPER mockup c30 and the Basic MIDI track both have the change." },
+    4: { num: "IV", title: "Finale: Allegro con fuoco", dir: "scores/finale-v600d", pages: 16, version: "v600",
+         note: "Rebuilt 10 Nov with three changes. Bar 75 (about 1:53): the violins hold B flat for three beats, then play G and A flat as eighths on beat 4. Bar 90 (about 2:15): Oboe 1 and Clarinet 1 play four eighths and land on the accented F on beat 3 with Flute 1, then rest on beat 4. Bar 150 (about 3:42): the low D on beat 4 before K is now a rest in bass clarinet, contrabassoon, tuba, cellos and basses. REAPER mockup c30 and the Basic MIDI track both have all three." }
+  };
+  var PAGE_W = 2339, PAGE_H = 3308;
+  var ZOOMS = [0.5, 0.75, 1, 1.25, 1.5, 2, 3];
+
+  var $ = function (id) { return document.getElementById(id); };
+  var player = $("player"), scoreEl = $("score"), pagesEl = $("pages"), pagesIn = $("pages-in");
+  var rows = Array.prototype.slice.call(document.querySelectorAll(".trk:not(.vid)"));
+  var vrows = Array.prototype.slice.call(document.querySelectorAll(".trk.vid"));
+  var vid = $("vid"), hls = null;
+  var tabs = Array.prototype.slice.call(document.querySelectorAll(".tab"));
+  var panels = Array.prototype.slice.call(document.querySelectorAll(".panel"));
+  var segs = Array.prototype.slice.call(document.querySelectorAll(".seg button"));
+  var state = { tab: "mockups", row: null, scoreMvt: 0, zoom: 2, vrow: null };
+
+  function findRow(set, mvt) {
+    return rows.filter(function (r) { return r.dataset.set === set && r.dataset.mvt === String(mvt); })[0] || null;
+  }
+
+  function sync() {
+    rows.forEach(function (r) {
+      var cur = r === state.row, on = cur && !player.paused;
+      r.classList.toggle("current", cur);
+      r.classList.toggle("playing", on);
+      var what = "movement " + SCORES[r.dataset.mvt].num + (r.dataset.title ? ", " + r.dataset.title : "");
+      r.querySelector(".play").setAttribute("aria-label", (on ? "Pause " : "Play ") + what + ", " + r.dataset.kind);
+    });
+  }
+
+  function play() {
+    var p = player.play();
+    if (p && p.catch) p.catch(function () {});
+  }
+
+  function load(row, andPlay) {
+    closeVideo();
+    if (state.row !== row) {
+      state.row = row;
+      if (player.getAttribute("src") !== row.dataset.src) player.src = row.dataset.src;
+      var s = SCORES[row.dataset.mvt];
+      $("now-num").textContent = s.num + ".";
+      $("now-name").textContent = row.dataset.title || s.title;
+      $("now-kind").textContent = row.dataset.kind;
+      showScore(Number(row.dataset.mvt));
+    }
+    if (andPlay) play();
+    sync();
+  }
+
+  function showTab(name) {
+    if (name !== "basic" && name !== "videos") name = "mockups";
+    state.tab = name;
+    tabs.forEach(function (t) {
+      var on = t.dataset.tab === name;
+      t.setAttribute("aria-selected", on ? "true" : "false");
+      t.tabIndex = on ? 0 : -1;
+    });
+    panels.forEach(function (p) { p.hidden = p.dataset.tab !== name; });
+  }
+
+  function showScore(mvt) {
+    if (state.scoreMvt === mvt || !SCORES[mvt]) return;
+    var inScore = state.scoreMvt !== 0 && scoreEl.getBoundingClientRect().top < 0;
+    state.scoreMvt = mvt;
+    var s = SCORES[mvt], frag = document.createDocumentFragment();
+    for (var i = 1; i <= s.pages; i++) {
+      var fig = document.createElement("figure");
+      fig.className = "pg";
+      var img = document.createElement("img");
+      img.loading = i <= 2 ? "eager" : "lazy";
+      img.decoding = "async";
+      img.width = PAGE_W;
+      img.height = PAGE_H;
+      img.alt = "Movement " + s.num + ", full score, page " + i + " of " + s.pages;
+      img.src = s.dir + "/" + (i < 10 ? "0" : "") + i + ".webp";
+      var cap = document.createElement("figcaption");
+      cap.textContent = "Page " + i + " of " + s.pages;
+      fig.appendChild(img);
+      fig.appendChild(cap);
+      frag.appendChild(fig);
+    }
+    pagesIn.textContent = "";
+    pagesIn.appendChild(frag);
+    $("score-name").textContent = s.num + ". " + s.title;
+    $("score-info").textContent = "Full score " + s.version + " · " + s.pages + " pages";
+    var note = $("score-note");
+    note.textContent = s.note || "";
+    note.hidden = !s.note;
+    segs.forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.mvt === String(mvt) ? "true" : "false"); });
+    if (inScore) scoreEl.scrollIntoView({ block: "start" });
+  }
+
+  function setZoom(idx, keepPlace) {
+    idx = Math.max(0, Math.min(ZOOMS.length - 1, idx));
+    var anchor = 80, before = pagesIn.getBoundingClientRect();
+    var frac = before.height ? (anchor - before.top) / before.height : 0;
+    state.zoom = idx;
+    pagesIn.style.setProperty("--zoom", ZOOMS[idx]);
+    $("zoom-val").textContent = Math.round(ZOOMS[idx] * 100) + "%";
+    $("zoom-out").disabled = idx === 0;
+    $("zoom-in").disabled = idx === ZOOMS.length - 1;
+    pagesEl.scrollLeft = (pagesEl.scrollWidth - pagesEl.clientWidth) / 2;
+    if (keepPlace && frac > 0 && frac < 1) {
+      var after = pagesIn.getBoundingClientRect();
+      window.scrollBy(0, after.top + frac * after.height - anchor);
+    }
+    try { localStorage.setItem("score-zoom", String(idx)); } catch (e) {}
+  }
+
+  // Recordings
+  rows.forEach(function (r) {
+    r.querySelector(".play").addEventListener("click", function () {
+      if (r === state.row) { if (player.paused) play(); else player.pause(); }
+      else load(r, true);
+    });
+  });
+  ["play", "pause", "emptied"].forEach(function (ev) { player.addEventListener(ev, sync); });
+  player.addEventListener("ended", function () {
+    sync();
+    var next = state.row && findRow(state.row.dataset.set, Number(state.row.dataset.mvt) + 1);
+    if (next) load(next, true);
+  });
+
+
+  // Score videos: streamed in 20-second pieces (HLS); hls.js where the browser needs it, native HLS otherwise
+  function vsync() {
+    vrows.forEach(function (r) {
+      var cur = r === state.vrow, on = cur && !vid.paused;
+      r.classList.toggle("current", cur);
+      r.classList.toggle("playing", on);
+      r.querySelector(".play").setAttribute("aria-label", (on ? "Pause " : "Play ") + "score video, movement " + SCORES[r.dataset.mvt].num);
+    });
+  }
+  function vplay() {
+    var p = vid.play();
+    if (p && p.catch) p.catch(function () {});
+  }
+  function videoMsg(text) {
+    var m = $("video-msg");
+    m.textContent = text || "";
+    m.hidden = !text;
+  }
+  function openVideo(row) {
+    player.pause();
+    if (state.vrow !== row) {
+      state.vrow = row;
+      if (hls) { hls.destroy(); hls = null; }
+      videoMsg("");
+      vid.removeAttribute("src");
+      vid.poster = row.dataset.poster;
+      var src = row.dataset.hls;
+      if (window.Hls && window.Hls.isSupported()) {
+        hls = new window.Hls({ maxBufferLength: 40 });
+        hls.on(window.Hls.Events.ERROR, function (ev, data) {
+          if (data && data.fatal) videoMsg("The video could not be loaded. Reload the page to try again.");
+        });
+        hls.loadSource(src);
+        hls.attachMedia(vid);
+      } else if (vid.canPlayType("application/vnd.apple.mpegurl")) {
+        vid.src = src;
+      } else {
+        videoMsg("This browser cannot play the score videos.");
+      }
+      var s = SCORES[row.dataset.mvt];
+      $("video-name").textContent = s.num + ". " + s.title;
+      $("video-info").textContent = "Score video · audio: " + row.querySelector(".meta dd").textContent;
+    }
+    $("video-view").hidden = false;
+    $("score-bar").hidden = true;
+    $("score-note").hidden = true;
+    pagesEl.hidden = true;
+    vplay();
+    vsync();
+    if (scoreEl.getBoundingClientRect().top > window.innerHeight * 0.6 || scoreEl.getBoundingClientRect().top < 0) {
+      scoreEl.scrollIntoView({ block: "start" });
+    }
+  }
+  function closeVideo() {
+    if ($("video-view").hidden) return;
+    vid.pause();
+    $("video-view").hidden = true;
+    $("score-bar").hidden = false;
+    $("score-note").hidden = !$("score-note").textContent;
+    pagesEl.hidden = false;
+    vsync();
+  }
+  vrows.forEach(function (r) {
+    r.querySelector(".play").addEventListener("click", function () {
+      if (r === state.vrow && !$("video-view").hidden) { if (vid.paused) vplay(); else vid.pause(); }
+      else openVideo(r);
+    });
+  });
+  ["play", "pause", "emptied", "ended"].forEach(function (ev) { vid.addEventListener(ev, vsync); });
+  vid.addEventListener("play", function () { if (!player.paused) player.pause(); });
+  player.addEventListener("play", function () { if (!vid.paused) vid.pause(); });
+  $("video-back").addEventListener("click", closeVideo);
+
+  // Tabs
+  tabs.forEach(function (t, i) {
+    t.addEventListener("click", function () {
+      showTab(t.dataset.tab);
+      if (location.hash.slice(1) !== t.dataset.tab) { try { location.hash = t.dataset.tab; } catch (e) {} }
+    });
+    t.addEventListener("keydown", function (e) {
+      if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+      var o = tabs[(i + 1) % tabs.length];
+      o.focus();
+      o.click();
+    });
+  });
+  window.addEventListener("hashchange", function () {
+    var h = location.hash.slice(1);
+    if (h === "basic" || h === "mockups" || h === "videos") showTab(h);
+  });
+
+  // Score
+  segs.forEach(function (b) {
+    b.addEventListener("click", function () { showScore(Number(b.dataset.mvt)); });
+  });
+  $("zoom-out").addEventListener("click", function () { setZoom(state.zoom - 1, true); });
+  $("zoom-in").addEventListener("click", function () { setZoom(state.zoom + 1, true); });
+  $("to-score").addEventListener("click", function () {
+    scoreEl.scrollIntoView({ block: "start" });
+  });
+
+  // Start, and carry the listener's place across a republish of this page
+  var hot = window.claude && window.claude.hot;
+  if (hot && hot.snapshot) {
+    hot.snapshot(function () {
+      return {
+        tab: state.tab,
+        set: state.row ? state.row.dataset.set : "mockups",
+        mvt: state.row ? Number(state.row.dataset.mvt) : 1,
+        src: state.row ? state.row.dataset.src : "",
+        t: player.currentTime || 0,
+        playing: !player.paused,
+        scoreMvt: state.scoreMvt,
+        y: window.scrollY
+      };
+    });
+  }
+  function start(d) {
+    d = d || {};
+    var zoom = 2;
+    try { var z = parseInt(localStorage.getItem("score-zoom"), 10); if (z >= 0 && z < ZOOMS.length) zoom = z; } catch (e) {}
+    var h = location.hash.slice(1);
+    showTab(d.tab || (h === "basic" || h === "videos" ? h : "mockups"));
+    var same = d.src ? rows.filter(function (r) { return r.dataset.src === d.src; })[0] : null;
+    var row = same || (d.set && findRow(d.set, d.mvt)) || rows[0];
+    load(row, false);
+    if (d.scoreMvt) showScore(d.scoreMvt);
+    setZoom(zoom, false);
+    if (d.t > 0) {
+      var seek = function () { try { player.currentTime = d.t; } catch (e) {} if (d.playing) play(); };
+      if (player.readyState >= 1) seek(); else player.addEventListener("loadedmetadata", seek, { once: true });
+    }
+    if (d.y) window.scrollTo(0, d.y);
+  }
+  if (hot && hot.ready) hot.ready(start); else start((hot && hot.data) || {});
+})();
+</script>

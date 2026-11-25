@@ -1,0 +1,113 @@
+# staves, top to bottom: name, centre y in px (one normal view covers about +-450 px around its centre)
+#   Flutes 1·2           150
+#   Oboes 1·2            266
+#   Cor anglais          363
+#   Clarinets 1·2        505
+#   Bass clarinet        618
+#   Bassoons 1·2         755
+#   Contrabassoon        856
+#   Horns 1·2           1027
+#   Horns 3·4           1155
+#   Trombones 1·2       1280
+#   Bass trombone       1367
+#   Tuba                1465
+#   Timpani             1588
+#   Harp RH             1712
+#   Harp LH             1845
+#   Violins I           2027
+#   Violins II          2179
+#   Violas              2330
+#   Violoncellos        2487
+#   Double basses       2633
+bar   1    0.0s  Violins II  | Hn34 2, Vn1 1, Vn2 1, Va 1, Vc 1
+bar   2    3.5s  Violas  | Hn34 1, Timp 1, Vn1 1, Vn2 1, Va 1, Vc 1, Cb 1
+bar   3    6.9s  Violoncellos  | Cl 1, Bcl 1, Hn34 2, Timp 2, Vn1 1, Vn2 1, Va 1, Vc 1, Cb 1
+bar   4   10.4s  Bass clarinet  | Cl 1, Bcl 1, Hn34 2
+bar   5   13.8s  Bass clarinet  | Cl 1, Bcl 1, Hn34 2
+bar   6   17.3s  Bass clarinet  | Cl 1, Bcl 1, Hn12 2, Hn34 2
+bar   7   20.8s  Contrabassoon  | Bcl 1, Bn 2, Hn12 3, HpR 2, HpL 2
+bar   8   24.2s  Contrabassoon  | Bcl 3, Bn 6, Hn12 3, HpL 6
+bar   9   27.7s  Contrabassoon  | Bcl 2, Bn 4, Hn12 3, HpR 3, HpL 3
+bar  10   31.2s  Contrabassoon  | Bcl 2, Bn 2, Hn12 3, HpR 2, HpL 2
+bar  11   34.8s  Contrabassoon  | Bcl 3, Bn 5, Hn12 3, HpR 2, HpL 4
+bar  12   38.3s  Contrabassoon  | Bcl 2, Bn 3, Hn12 3, HpR 2, HpL 3
+bar  13   41.7s  Contrabassoon  | Bcl 1, Bn 3, Hn12 5, HpR 2, HpL 2
+bar  14   45.2s  Contrabassoon  | Bcl 1, Bn 2, Hn12 1, HpR 2, HpL 2
+bar  15   48.6s  Oboes 1·2  | Ob 3, Vn2 2, Va 1, Vc 1
+bar  16   52.1s  Oboes 1·2  | Ob 2, Vn2 2, Va 3, Vc 2
+bar  17   55.6s  Violins II  | Vn1 4, Vn2 2, Va 2, Vc 2
+bar  18   59.0s  Violins I  | Vn1 2, Vn2 2, Vc 6
+bar  19   62.5s  Violas  | Ob 4, Vn2 2, Va 2, Vc 2
+bar  20   65.9s  Oboes 1·2  | Ob 2, Vn2 1, Va 4, Vc 2
+bar  21   69.4s  Violins II  | Vn1 4, Vn2 3, Va 2, Vc 4, Cb 3
+bar  22   72.9s  Violins II  | Vn1 3, Vn2 3, Vc 5, Cb 1
+bar  23   76.3s  Violas  | Vn1 3, Vn2 3, Va 2, Vc 3, Cb 1
+bar  24   79.8s  Violas  | Vn1 3, Vn2 3, Va 6, Vc 2, Cb 3
+bar  25   83.3s  Violas  | Vn1 3, Vn2 3, Va 3, Vc 2, Cb 2
+bar  26   86.7s  Violins II  | Vn1 3, Vn2 3, Va 1, Vc 3, Cb 1
+bar  27   90.2s  Violas  | Vn1 3, Vn2 3, Va 6, Vc 2, Cb 3
+bar  28   93.6s  Violins II  | Vn1 3, Vn2 3, Va 5, Vc 3, Cb 2
+bar  29   97.1s  Violas  | Hn34 2, Vn1 5, Vn2 5, Va 2, Vc 2, Cb 1
+bar  30  100.6s  Violas  | Cbn 1, Hn34 2, Vn1 1, Vn2 1, Va 2, Vc 1, Cb 1
+bar  31  104.0s  Bass clarinet  | Bcl 4, Bn 1, Cbn 1
+bar  32  107.5s  Bass clarinet  | Ca 1, Bcl 1, Bn 1, Cbn 1
+bar  33  110.9s  Bass clarinet  | Ca 3, Bcl 3, Bn 2, Cbn 2
+bar  34  114.4s  Bass clarinet  | Ca 1, Bcl 2, Bn 3, Cbn 1
+bar  35  118.0s  Bass clarinet  | Bcl 1, Bn 1, Cbn 1
+bar  36  121.7s  Bassoons 1·2  | Fl 1, Bcl 3, Bn 1, Cbn 1
+bar  37  125.7s  Flutes 1·2  | Fl 4, Bcl 1, Bn 1, HpL 4, Vn2 2, Va 12, Cb 2
+bar  38  129.7s  Flutes 1·2  | Fl 4, HpL 4, Vn2 4, Va 12, Cb 2
+bar  39  133.7s  Flutes 1·2  | Fl 6, HpL 4, Vn2 6, Va 12, Cb 2
+bar  40  137.7s  Flutes 1·2  | Fl 4, HpL 4, Vn2 4, Va 9, Cb 2
+bar  41  141.9s  Cor anglais  | Fl 2, Ca 4, HpL 4, Va 12, Vc 1, Cb 4
+bar  42  145.9s  Oboes 1·2  | Fl 6, Ca 6, HpL 8, Va 12, Vc 4, Cb 4
+bar  43  149.9s  Oboes 1·2  | Fl 4, Ca 4, HpL 4, Va 12, Vc 3, Cb 4
+bar  44  153.9s  Oboes 1·2  | Fl 1, Ob 1, Ca 1, HpL 2, Va 6, Vc 2, Cb 1
+bar  45  157.9s  Oboes 1·2  | Ob 4, Bn 5, Vn2 1, Va 1, Vc 4, Cb 1
+bar  46  161.9s  Oboes 1·2  | Ob 4, Bn 6, Vn2 2, Va 2, Vc 4, Cb 2
+bar  47  165.9s  Violoncellos  | Ob 1, Ca 1, Bn 2, Vn2 1, Va 1, Vc 1, Cb 1
+bar  48  170.0s  Violoncellos  | Ca 3, Vn2 2, Va 3, Vc 1, Cb 1
+bar  49  174.4s  Cor anglais  | Ca 3, Vn2 3, Va 4, Vc 2, Cb 3
+bar  50  178.9s  Cor anglais  | Ca 3, Vn2 3, Va 4, Vc 2, Cb 2
+bar  51  183.3s  Cor anglais  | Ca 2, Vn2 1, Va 4, Vc 1, Cb 1
+bar  52  187.8s  Violas  | Ca 2, Timp 1, Vn1 1, Vn2 3, Va 1, Vc 2, Cb 1
+bar  53  192.2s  Violins II  | Ca 1, Cl 2, Hn12 2, Timp 1, HpR 12, Vn1 4, Vn2 4, Vc 2
+bar  54  196.2s  Violins II  | Cl 3, Bn 1, Hn12 3, HpR 12, Vn1 4, Vn2 4, Vc 2
+bar  55  200.2s  Violins II  | Cl 2, Bn 2, Hn12 2, HpR 12, Vn1 6, Vn2 6, Vc 2
+bar  56  204.2s  Violins II  | Cl 2, Bn 2, Hn12 2, HpR 12, Vn1 4, Vn2 4, Vc 2, Cb 2
+bar  57  208.1s  Violas  | Fl 4, Ob 4, Cl 2, Bcl 2, Bn 2, Hn12 2, Vn1 4, Vn2 4, Va 12, Vc 2, Cb 2
+bar  58  212.0s  Violas  | Fl 5, Ob 5, Cl 6, Bcl 4, Bn 4, Hn12 4, Vn1 5, Vn2 5, Va 12, Vc 4, Cb 4
+bar  59  215.8s  Violas  | Fl 4, Ob 4, Cl 2, Bcl 2, Bn 5, Hn12 3, Vn1 4, Vn2 4, Va 24, Vc 3, Cb 2
+bar  60  219.5s  Violas  | Fl 1, Ob 1, Cl 2, Bcl 1, Bn 4, Hn12 3, Hn34 1, Tbn12 2, Btbn 1, Tba 1, Timp 2, Vn1 1, Vn2 1, Va 24, Vc 3, Cb 2
+bar  61  223.5s  Bass clarinet  | Fl 3, Ob 2, Cl 3, Bcl 1, Bn 3, Cbn 1, Hn12 2, Hn34 1, Tbn12 2, Btbn 1, Tba 1, Timp 1, Vn1 2, Vn2 2, Va 2, Vc 2, Cb 1
+bar  62  228.0s  Horns 1·2  | Fl 3, Ob 4, Cl 4, Bcl 2, Bn 4, Cbn 2, Hn12 4, Hn34 2, Tbn12 2, Btbn 2, Tba 2, Timp 2, Vn1 3, Vn2 2, Va 4, Vc 2, Cb 2
+bar  63  232.4s  Trombones 1·2  | Fl 1, Tbn12 5, Btbn 1, Vn1 2, Vn2 2, Va 2, Vc 1, Cb 1
+bar  64  236.9s  Trombones 1·2  | Tbn12 5, Btbn 3, Vn1 1, Vn2 4, Va 3, Vc 4, Cb 3
+bar  65  242.2s  Violoncellos  | Vn2 1, Va 1, Vc 1, Cb 1
+bar  66  245.7s  Violoncellos  | Vn2 1, Va 1, Vc 1, Cb 1
+bar  67  249.1s  Horns 1·2  | Hn12 1, Timp 1, Cb 1
+bar  68  252.6s  Horns 1·2  | Bn 2, Hn12 3, Timp 1, Cb 1
+bar  69  256.1s  Contrabassoon  | Bn 2, Hn12 1, Timp 1, Cb 1
+bar  70  259.5s  Contrabassoon  | Bn 2, Hn12 1, Timp 2, Vn1 2, Vn2 2, Cb 1
+bar  71  263.0s  Violas  | Cl 1, Bn 2, HpL 2, Vn1 3, Vn2 3, Va 6, Vc 3, Cb 1
+bar  72  266.4s  Violas  | Cl 3, Bn 3, HpL 5, Vn1 3, Vn2 3, Va 6, Vc 2, Cb 3
+bar  73  269.9s  Violas  | Cl 2, Bn 2, HpL 3, Vn1 3, Vn2 3, Va 6, Vc 2, Cb 2
+bar  74  273.4s  Violins II  | Cl 2, Bn 1, HpL 2, Vn1 3, Vn2 3, Va 6, Vc 4, Cb 1
+bar  75  276.8s  Violins II  | Cl 2, Bn 5, Hn12 2, HpR 2, HpL 4, Vn1 3, Vn2 3, Va 6, Vc 2, Cb 3
+bar  76  280.3s  Violas  | Cl 2, Bn 4, Hn12 2, HpR 2, HpL 3, Vn1 3, Vn2 3, Va 6, Vc 2, Cb 2
+bar  77  283.7s  Violas  | Fl 5, Cl 6, Bn 3, Hn12 2, HpR 2, HpL 2, Vn1 5, Vn2 5, Va 6, Vc 2, Cb 1
+bar  78  287.2s  Violins II  | Fl 5, Cl 2, Bn 4, Hn12 1, Timp 1, HpR 2, HpL 2, Vn1 5, Vn2 5, Va 6, Vc 2, Cb 2
+bar  79  290.8s  Bass clarinet  | Fl 2, Ob 2, Ca 1, Cl 3, Bcl 1, Bn 4, Cbn 1, Hn12 3, Hn34 2, Timp 1, Vn1 1, Vn2 1, Va 1, Vc 3, Cb 1
+bar  80  294.5s  Cor anglais  | Fl 4, Ob 4, Ca 2, Cl 3, Bcl 2, Bn 4, Cbn 2, Hn12 2, Hn34 4, Timp 1, Vn1 2, Vn2 2, Va 5, Vc 2, Cb 2
+bar  81  298.4s  Bass clarinet  | Fl 6, Ob 6, Ca 2, Cl 7, Bcl 1, Bn 3, Cbn 1, Hn12 2, Hn34 4, Timp 1, Vn1 5, Vn2 5, Va 3, Vc 2, Cb 1
+bar  82  302.4s  Clarinets 1·2  | Fl 1, Ob 1, Ca 1, Cl 2, Bcl 1, Bn 2, Cbn 1, Hn12 1, HpR 4, HpL 2, Vn1 1, Vn2 1, Va 1, Vc 1, Cb 1
+bar  83  306.4s  Harp LH  | Hn12 1, HpR 5, HpL 1, Vc 1, Cb 1
+bar  84  309.9s  Timpani  | Timp 3, Va 2, Vc 1, Cb 1
+bar  85  313.4s  Violoncellos  | Cl 1, Timp 1, Va 2, Vc 1, Cb 1
+bar  86  316.8s  Violoncellos  | Cl 1, Va 2, Vc 1, Cb 1
+bar  87  320.5s  Clarinets 1·2  | Ca 1, Cl 1, Hn34 2, Vn2 1, Va 2, Vc 1, Cb 1
+bar  88  323.9s  Clarinets 1·2  | Ca 1, Cl 1, Hn34 2, Vn2 1, Va 2, Vc 1, Cb 1
+bar  89  327.4s  Clarinets 1·2  | Ca 1, Cl 2, Hn34 2, Vn1 1, Vn2 1, Va 2, Vc 1, Cb 1
+bar  90  331.1s  Clarinets 1·2  | Ca 1, Cl 2, Hn34 2, Vn1 1, Vn2 1, Va 2, Vc 1, Cb 1
+bar  91  335.2s  Violas  | Cl 1, Vn1 1, Vn2 1, Va 2, Vc 1, Cb 1
+bar  92  339.7s  Violas  | Cl 1, Vn1 1, Vn2 1, Va 2, Vc 1, Cb 1
