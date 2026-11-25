@@ -1,0 +1,149 @@
+{
+ "_doc": "Per-pitch level trims {track: {midi pitch: dB}} on legato notes (or every articulation: _all_arts / _all_arts_pitches); _skip_onsets keep none. c02 (critic B #4): per-pitch median residuals against each track's CC11 fit on c01 (single notes of 0.6 qn or more); the same deviations on the same patches in movement II. Clarinet 1 A flat 4 (the throat note) +5 (B: +6; kit LEARNINGS 13: +6 was too much at ff). c03 (critic B #2): the second players of shared patches (Horn 3 C5 +4.9 dB set the master peak at qn 637.8; Flute 2 Eb6/F6/G6 +9.7/+5.3/+9.4; Clarinet 2 Ab4 -5.3) and Cor anglais A4 +6.1, Tuba E2 +5.1. c04 (critic B #4): Trumpet 3 B3 +4 (4-5 dB under Trumpet 2 at ff/fff at the same onsets; the chord's B natural at bars 122-123). c07 (critic B #3): Clarinet 1 G5/A-flat5 trims on every articulation (Sus notes stood 5-9 dB over the line; bars 104-106 the loudest stem), B-flat5 -4; Cor anglais A-flat4 -4 and A4/A-flat4 on every articulation (Sus +9.8/+11 at qn 361/371).",
+ "Violoncellos": {
+  "43": -5,
+  "51": -4,
+  "_all_arts": true,
+  "_skip_onsets": [
+   3.0
+  ]
+ },
+ "Trumpet 1": {
+  "77": -2,
+  "_all_arts": true
+ },
+ "Clarinet 1": {
+  "79": -3,
+  "68": 5,
+  "80": -1.5,
+  "_all_arts_pitches": [
+   68,
+   79,
+   80,
+   82
+  ],
+  "82": -2
+ },
+ "Flute 1": {
+  "91": -5,
+  "74": 4,
+  "_all_arts_pitches": [
+   91
+  ]
+ },
+ "Horn 1": {
+  "72": -5,
+  "_all_arts": true,
+  "65": {
+   "early": 1,
+   "body": -4.5
+  },
+  "_skip_onsets": [
+   97.0,
+   189.0,
+   206.0,
+   592.0
+  ]
+ },
+ "Oboe 1": {
+  "76": -5,
+  "72": 3
+ },
+ "Bassoon 1": {
+  "61": -5,
+  "54": -5,
+  "_all_arts_pitches": [
+   61
+  ],
+  "_skip_onsets": [
+   351.0,
+   391.5
+  ]
+ },
+ "Horn 3": {
+  "72": -5,
+  "_all_arts": true,
+  "65": {
+   "early": 1,
+   "body": -4.5
+  },
+  "62": -2.5,
+  "_skip_onsets": [
+   100.0,
+   328.0,
+   330.0,
+   484.0,
+   488.0,
+   676.0
+  ]
+ },
+ "Flute 2": {
+  "87": -5,
+  "89": -3,
+  "91": -6,
+  "_all_arts_pitches": [
+   91
+  ]
+ },
+ "Clarinet 2": {
+  "68": 4,
+  "_all_arts_pitches": [
+   68
+  ]
+ },
+ "Cor anglais": {
+  "69": -5,
+  "68": -4,
+  "_all_arts_pitches": [
+   68,
+   69
+  ]
+ },
+ "Tuba": {
+  "40": -4
+ },
+ "Trumpet 3": {
+  "59": 4,
+  "_all_arts": true
+ },
+ "Double basses": {
+  "39": 3,
+  "_all_arts": true,
+  "_skip_onsets": [
+   244.0,
+   132.0,
+   216.0,
+   20.0,
+   22.003,
+   184.0,
+   340.0,
+   344.0,
+   413.0,
+   554.0,
+   555.5,
+   612.0,
+   614.0,
+   654.0
+  ],
+  "32": -3.5,
+  "41": 3,
+  "43": -6,
+  "44": -6,
+  "29": 3,
+  "31": -2
+ },
+ "Horn 2": {
+  "65": {
+   "early": 1,
+   "body": -4.5
+  },
+  "_all_arts": true
+ },
+ "Horns a2": {
+  "65": {
+   "early": 1,
+   "body": -3
+  },
+  "_all_arts": true
+ }
+}

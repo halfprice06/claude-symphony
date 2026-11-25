@@ -1,0 +1,12 @@
+Horn 1       joins  47 pcX new-old median   +1.0 ms (>40 ms earlier 1); level residual legato +1.54 (n 63) other -0.07 (n 47) -> legato-other +1.61 dB
+    earliest: 415.0:-175, 595.5:-19, 417.5:-16, 195.5:-12
+Horn 2       joins  25 pcX new-old median   +1.0 ms (>40 ms earlier 0); level residual legato +0.03 (n 30) other +0.00 (n 55) -> legato-other +0.02 dB
+    earliest: 255.0:-20, 224.0:-8, 231.0:-3, 256.0:-3
+Horn 3       joins  11 pcX new-old median   -0.0 ms (>40 ms earlier 0); level residual legato -0.06 (n 17) other -0.03 (n 114) -> legato-other -0.03 dB
+    earliest: 420.0:-9, 416.0:-4, 654.0:-4, 415.0:-3
+Horn 4       joins   6 pcX new-old median   +6.5 ms (>40 ms earlier 0); level residual legato +0.19 (n 15) other -0.03 (n 88) -> legato-other +0.22 dB
+    earliest: 413.0:-8, 416.0:+1, 415.0:+5, 420.0:+8
+Trumpet 1    joins  15 pcX new-old median   -2.0 ms (>40 ms earlier 0); level residual legato -1.54 (n 18) other -1.94 (n 55) -> legato-other +0.40 dB
+    earliest: 643.0:-17, 455.0:-13, 279.0:-11, 281.5:-10
+Trumpet 2    joins   1 pcX new-old median   -8.0 ms (>40 ms earlier 0); level residual legato -2.22 (n 3) other -2.22 (n 46) -> legato-other -0.00 dB
+    earliest: 453.0:-8

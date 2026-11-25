@@ -1,0 +1,13 @@
+sect  all  n= 39 t10 med 0.11  t20 med 0.28  d05 med 3.7  d15 med 12.5  t10>=0.20: 18%  t20 in 0.43-0.58: 13%
+sect  soft n= 38 t10 med 0.11  t20 med 0.26  d05 med 3.7  d15 med 13.5  t10>=0.20: 18%  t20 in 0.43-0.58: 13%
+div   all  n= 11 t10 med 0.12  t20 med 0.31  d05 med 4.0  d15 med 12.8  t10>=0.20: 9%  t20 in 0.43-0.58: 18%
+div   soft n=  8 t10 med 0.12  t20 med 0.29  d05 med 4.2  d15 med 12.7  t10>=0.20: 0%  t20 in 0.43-0.58: 12%
+horn  all  n= 15 t10 med 0.15  t20 med 0.30  d05 med 3.1  d15 med 10.9  t10>=0.20: 20%  t20 in 0.43-0.58: 7%
+horn  soft n= 10 t10 med 0.15  t20 med 0.31  d05 med 2.4  d15 med 10.3  t10>=0.20: 20%  t20 in 0.43-0.58: 10%
+d05 > 10 dB: [('Violins I', 7.35, np.float64(10.4)), ('Violoncellos', 87.0, np.float64(12.1))]
+final chord master t10 0.11 s  t20 0.24 s
+  final chord Violins I: t10 0.11  t20 0.22
+  final chord Violoncellos: t10 0.11  t20 0.31
+  final chord Double basses: t10 0.10  t20 0.14
+image: <250 corr 0.813  20-120 corr 0.924  120-250 corr 0.791  35-63 corr 0.948  250-4k corr 0.644  >4k corr 0.507  all corr 0.657
+side/mid all -6.8 dB; <250 -8.5 dB; R-L <250 +3.40 dB; R-L 35-63 +0.74 dB

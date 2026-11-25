@@ -1,0 +1,8 @@
+other winds' soft lyric phrases: median peak over the printed level +17.0 units (n 7; values [11, 14, 17, 17, 19, 22, 22])
+  Clarinet 2      576.0: c51 +0.0 -> c52 +11.6 units (effective, envelope share at the track's dB per unit); -5.4 from the others' median
+  Bass clarinet   696.0: c51 +0.0 -> c52 +14.8 units (effective, envelope share at the track's dB per unit); -2.2 from the others' median
+  Bassoon 1       584.0: c51 +0.0 -> c52 +11.1 units (effective, envelope share at the track's dB per unit); -5.9 from the others' median
+  Bassoon 1       692.0: c51 +0.0 -> c52 +17.0 units (effective, envelope share at the track's dB per unit); +0.0 from the others' median
+  Bassoon 2        48.0: c51 +9.0 -> c52 +9.0 units (effective, envelope share at the track's dB per unit); -8.0 from the others' median
+  Bassoon 2       600.0: c51 +11.0 -> c52 +21.9 units (effective, envelope share at the track's dB per unit); +4.9 from the others' median
+  Bassoon 2       680.0: c51 +10.0 -> c52 +20.5 units (effective, envelope share at the track's dB per unit); +3.5 from the others' median

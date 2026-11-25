@@ -1,0 +1,9 @@
+started 2026-11-17 05:22:33
+s1 ok 2026-11-17 05:33:07
+s3 rc 0 2026-11-17 05:47:18
+session57 rc 0 2026-11-17 05:47:18
+render done, waiting for fix_done.txt 2026-11-17 05:47:18
+run57 stopped by the actor (render refused by memory gate); tail57.sh started 2026-11-17 05:48:04
+rerender57.sh (restart + render, no override) started 2026-11-17 05:48:29
+s4 start (fix_done: yes) 2026-11-17 06:10:26
+s4 rc 0 2026-11-17 06:12:26

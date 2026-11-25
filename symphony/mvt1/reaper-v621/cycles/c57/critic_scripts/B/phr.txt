@@ -1,0 +1,24 @@
+('brass', 'drive', 'held') n 28 median last-first -0.3 dB p10 -3.8
+('brass', 'drive', 'moving') n 13 median last-first -2.1 dB p10 -4.4
+('brass', 'lyric', 'held') n 6 median last-first 0.7 dB p10 -2.7
+('brass', 'lyric', 'moving') n 4 median last-first 0.0 dB p10 -1.2
+('string', 'drive', 'held') n 4 median last-first -3.2 dB p10 -4.7
+('string', 'drive', 'moving') n 26 median last-first -1.1 dB p10 -5.8
+('string', 'lyric', 'held') n 6 median last-first -3.1 dB p10 -4.3
+('string', 'lyric', 'moving') n 1 median last-first 0.2 dB p10 0.2
+('wind', 'drive', 'held') n 14 median last-first -1.1 dB p10 -4.7
+('wind', 'drive', 'moving') n 21 median last-first -0.7 dB p10 -4.2
+('wind', 'lyric', 'held') n 6 median last-first -0.3 dB p10 -3.5
+('wind', 'lyric', 'moving') n 7 median last-first -0.7 dB p10 -4.3
+
+held-note phrases (mean note >= 2 qn), flat dynamic, falling 4 dB or more:
+  Horn 4           72.0-  88.0 (bars 19-22) drive  p   notes  6 | first  -41.1 mid  -43.3 last  -53.2 (-12.1) cc11 56 -> 26
+  Horn 3           72.0-  88.0 (bars 19-22) drive  p   notes  7 | first  -41.2 mid  -49.7 last  -49.4 (-8.2) cc11 56 -> 39
+  Bassoon 2       600.0- 618.0 (bars 151-155) lyric  pp  notes  5 | first  -44.0 mid  -43.7 last  -49.8 (-5.9) cc11 34 -> 38
+  Bassoon 2       384.0- 399.0 (bars 97-100) drive  ff  notes  4 | first  -29.4 mid  -33.4 last  -34.7 (-5.3) cc11 119 -> 110
+  Violoncellos    286.0- 304.0 (bars 72-76) drive  pp  notes  4 | first  -46.3 mid  -49.3 last  -51.3 (-5.0) cc11 42 -> 28
+  Clarinet 2      137.0- 144.0 (bars 35-36) drive  p   notes  2 | first  -41.8 mid  -44.0 last  -46.7 (-5.0) cc11 60 -> 37
+  Double basses   220.0- 236.0 (bars 56-59) lyric  pp  notes  5 | first  -44.1 mid  -46.0 last  -49.0 (-4.9) cc11 40 -> 36
+  Tuba            520.0- 536.0 (bars 131-134) drive  f   notes  5 | first  -36.3 mid  -39.9 last  -41.1 (-4.8) cc11 94 -> 84
+  Bassoon 1        72.0-  88.0 (bars 19-22) drive  mf  notes  7 | first  -39.7 mid  -42.1 last  -43.8 (-4.1) cc11 86 -> 63
+  Double basses   384.0- 407.0 (bars 97-102) drive  ff  notes  6 | first  -30.1 mid  -32.9 last  -34.2 (-4.0) cc11 117 -> 111

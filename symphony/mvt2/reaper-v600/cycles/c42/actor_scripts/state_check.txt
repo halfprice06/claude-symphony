@@ -1,0 +1,55 @@
+state_check: cycles/c41/render (cycles/c41/rendered_build) -> cycles/c42/render (cycles/c42/rendered_build); flag |level| > 3.0 dB or |pcX| > 30.0 ms on notes whose data did not change
+Flute 1            compared   61  flagged   0  state runs 0  timing runs 0
+Flute 2            compared    7  flagged   0  state runs 0  timing runs 0
+Oboe 1             compared   42  flagged   0  state runs 0  timing runs 0
+Oboe 2             compared    5  flagged   0  state runs 0  timing runs 0
+Cor anglais        compared   41  flagged   0  state runs 0  timing runs 0
+Clarinet 1         compared   33  flagged   0  state runs 0  timing runs 0
+Clarinet 2         compared   30  flagged   2  state runs 0  timing runs 0
+      12.000 p 52 Sus Non Vib            level  -0.09 dB  pcX    +30 ms
+      15.000 p 51 Sus Non Vib            level  +0.11 dB  pcX    +70 ms
+Bass clarinet      compared   48  flagged   1  state runs 0  timing runs 0
+      21.000 p 41 Leg Slur               level  +1.21 dB  pcX   -191 ms
+Bassoon 1          compared   61  flagged   0  state runs 0  timing runs 0
+Bassoon 2          compared   51  flagged   0  state runs 0  timing runs 0
+Contrabassoon      compared   10  flagged   0  state runs 0  timing runs 0
+Horn 1             compared   49  flagged   0  state runs 0  timing runs 0
+Horn 2             compared    9  flagged   1  state runs 0  timing runs 0
+     210.000 p 64 Sus MAX                level  -0.18 dB  pcX    +46 ms
+Horn 3             compared   15  flagged   0  state runs 0  timing runs 0
+Horn 4             compared   11  flagged   1  state runs 0  timing runs 0
+     268.000 p 55 Leg Slur MAX           level  +5.18 dB  pcX    -50 ms
+Trombone 1         compared   10  flagged   1  state runs 0  timing runs 0
+     217.500 p 57 Leg Slur MAX           level  +1.68 dB  pcX    -37 ms
+Trombone 2         compared    6  flagged   0  state runs 0  timing runs 0
+Bass trombone      compared    8  flagged   0  state runs 0  timing runs 0
+Tuba               compared    4  flagged   0  state runs 0  timing runs 0
+Timpani            compared   16  flagged   0  state runs 0  timing runs 0
+Violins I          compared   99  flagged   9  state runs 0  timing runs 0
+      77.000 p 63 Leg BC MAX             level  -0.10 dB  pcX    -83 ms
+      85.000 p 75 Leg Slur MAX           level  -0.96 dB  pcX   -101 ms
+     177.000 p 72 Leg Slur MAX           level  -0.07 dB  pcX   -147 ms
+     190.000 p 89 Leg BC MAX             level  -1.11 dB  pcX    -87 ms
+     210.000 p 88 Sus MAX                level  +1.46 dB  pcX    -41 ms
+     210.000 p 92 Sus MAX                level  +1.46 dB  pcX    -44 ms
+     251.500 p 72 Leg Slur MAX           level  +0.22 dB  pcX   +104 ms
+     252.000 p 77 Leg BC MAX             level  -1.25 dB  pcX   -133 ms
+     268.000 p 91 Leg BC MAX             level  +0.06 dB  pcX    -44 ms
+Violins II         compared  135  flagged   5  state runs 0  timing runs 0
+      50.000 p 68 Sus MAX                level  -0.01 dB  pcX   -127 ms
+      84.000 p 79 Leg BC MAX             level  -0.69 dB  pcX    -37 ms
+      85.000 p 75 Leg Slur MAX           level  +0.21 dB  pcX   -112 ms
+     189.000 p 73 Leg Slur MAX           level  -0.18 dB  pcX   +104 ms
+     255.000 p 80 Leg Slur MAX           level  -0.45 dB  pcX   -103 ms
+Violas             compared  266  flagged   1  state runs 0  timing runs 0
+      84.000 p 63 Leg BC MAX             level  +3.45 dB  pcX    -38 ms
+Violoncellos       compared  113  flagged   3  state runs 0  timing runs 0
+      76.000 p 56 Leg Slur MAX           level  +0.65 dB  pcX    -48 ms
+     148.000 p 61 Sus MAX                level  -0.59 dB  pcX   -123 ms
+     193.000 p 51 Leg BC MAX             level  +0.09 dB  pcX    +49 ms
+Double basses      compared   89  flagged   0  state runs 0  timing runs 0
+Violin I solo      compared   11  flagged   0  state runs 0  timing runs 0
+Violoncellos div   compared   10  flagged   0  state runs 0  timing runs 0
+Violins II div     compared    4  flagged   0  state runs 0  timing runs 0
+Violas div         compared   14  flagged   0  state runs 0  timing runs 0
+Horns 1-2 a2       compared    8  flagged   0  state runs 0  timing runs 0

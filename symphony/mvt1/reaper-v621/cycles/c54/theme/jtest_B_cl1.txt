@@ -1,0 +1,11 @@
+bar 127 beat 1.5 p55 entry  Leg Slur       lead   55  pcx   -40  xr   n/a  dom   -34  S   -40
+bar 127 beat 2.0 p63 join   Leg Slur       lead   50  pcx   +12  xr   +22  dom   +18  S   +12
+bar 127 beat 3.5 p62 entry  Sus Non Vib    lead    0  pcx   -45  xr   n/a  dom   +14  S   -45
+bar 127 beat 4.0 p61 join   Leg Slur Rep   lead  150  pcx   -28  xr   -40  dom   -34  S   -40
+bar 127 beat 4.5 p60 join   Leg Slur Rep   lead   50  pcx   +21  xr   +70  dom   +48  S   +21
+bar 128 beat 1.0 p60 entry  Leg Slur Rep   lead   35  pcx   +38  xr   n/a  dom   n/a  S   +38
+bar 128 beat 2.0 p59 join   Sus Non Vib    lead   35  pcx   -28  xr   -15  dom   +18  S   -28
+bar 128 beat 2.5 p60 join   Leg Slur       lead   70  pcx   +89  xr   +26  dom   +35  S   +26
+bar 128 beat 3.0 p56 entry  Sus Non Vib    lead    0  pcx   +15  xr   n/a  dom   +37  S   +15
+bar 128 beat 4.5 p55 entry  Sus Non Vib    lead   35  pcx    +1  xr   n/a  dom   -32  S    +1
+Clarinet 1    504-512 S: n 10 of 10  median +6  robust SD 38  SD 30  min -45 max +38  >25 from median 5  >40 3  >60 0

@@ -1,0 +1,13 @@
+bars 1-4 opening rolls     master   33.5 | timpani dry re master  -14.8 | R Perc re master  -20.9, re timpani dry   -6.1 | 90-355 Hz: R Perc share of master   1.4 %, of master side   3.3 %
+bars 1-14 Lento            master   37.6 | timpani dry re master  -14.1 | R Perc re master  -20.0, re timpani dry   -5.9 | 90-355 Hz: R Perc share of master   2.5 %, of master side   7.1 %
+qn 154-175 (bars 39-44)    master   43.3 | timpani dry re master  -13.3 | R Perc re master  -18.1, re timpani dry   -4.8 | 90-355 Hz: R Perc share of master   4.5 %, of master side  11.7 %
+qn 242-253 (bars 61-63)    master   39.6 | timpani dry re master  -22.0 | R Perc re master  -21.4, re timpani dry    0.6 | 90-355 Hz: R Perc share of master   1.9 %, of master side   5.6 %
+qn 502-515 (bars 126-129)  master   37.3 | timpani dry re master  -16.6 | R Perc re master  -22.4, re timpani dry   -5.9 | 90-355 Hz: R Perc share of master   0.7 %, of master side   2.7 %
+qn 568-587 (bars 143-147)  master   40.0 | timpani dry re master  -11.7 | R Perc re master  -16.8, re timpani dry   -5.1 | 90-355 Hz: R Perc share of master   5.8 %, of master side  14.5 %
+qn 716-728 final           master   24.6 | timpani dry re master  -14.3 | R Perc re master  -19.9, re timpani dry   -5.7 | 90-355 Hz: R Perc share of master   3.5 %, of master side   8.1 %
+bars 117-122 tutti         master   52.7 | timpani dry re master  -14.7 | R Perc re master  -17.6, re timpani dry   -2.9 | 90-355 Hz: R Perc share of master   4.6 %, of master side  12.9 %
+bars 158-161 climax        master   54.9 | timpani dry re master  -12.8 | R Perc re master  -19.2, re timpani dry   -6.4 | 90-355 Hz: R Perc share of master   3.7 %, of master side  11.8 %
+whole movement             master   44.8 | timpani dry re master  -14.1 | R Perc re master  -19.0, re timpani dry   -4.9 | 90-355 Hz: R Perc share of master   3.2 %, of master side   9.2 %
+
+R Perc -6 dB, whole file: band change dB 20-56:-0.01 56-90:-0.01 90-180:-0.17 180-355:-0.08 355-710:-0.02 710-2k:-0.02 2-6k:-0.00 6-20k:-0.00
+side/mid 90-355 Hz: -5.64 -> -5.90 dB; all bands: -5.36 -> -5.45 dB

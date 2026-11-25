@@ -1,0 +1,15 @@
+bar 23  Violoncellos       3 onsets    -1.4 dB under Violins I
+bar 26  Violoncellos       3 onsets    -2.7 dB under Violins II
+bar 28  Violoncellos       3 onsets    -2.9 dB under Violins II
+bar 37  Violas            12 onsets   -13.8 dB under Flute 1
+bar 38  Violas            12 onsets   -11.7 dB under Flute 1
+bar 39  Violas            12 onsets   -13.1 dB under Flute 1
+bar 40  Violas             9 onsets    -8.8 dB under Flute 1
+bar 41  Violas            12 onsets   -12.5 dB under Cor anglais
+bar 42  Violas            12 onsets   -11.7 dB under Cor anglais
+bar 43  Violas            12 onsets   -10.6 dB under Cor anglais
+bar 44  Violas             6 onsets    -9.2 dB under Cor anglais
+bar 54  Horn 1             3 onsets    -2.3 dB under Violins I
+bar 60  Horn 1             3 onsets    -2.8 dB under Violoncellos
+bar 74  Violoncellos       3 onsets    -0.3 dB under Violins I
+14 line-bars listed

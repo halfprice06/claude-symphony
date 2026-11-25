@@ -1,0 +1,24 @@
+Violins I      pp-mp(cc11<=58)  n= 6 -10dB med 0.23 s  -20dB med 0.36 s
+Violins I      mf(59-80)        n= 1 -10dB med 0.13 s  -20dB med 0.27 s
+Violins I      f-ff(>80)        n=11 -10dB med 0.09 s  -20dB med 0.23 s
+     soft end qn   198.88 cc11 28 L0 -44.8 -> -10 0.13  -20 0.40  Sus MAX
+     soft end qn   455.86 cc11 12 L0 -55.9 -> -10 0.24  -20 0.36  Leg Slur MAX
+     soft end qn   477.00 cc11 36 L0 -47.1 -> -10 0.15  -20 0.32  Sus MAX
+     soft end qn   489.00 cc11 33 L0 -55.9 -> -10 0.37  -20 0.46  Sus MAX
+     soft end qn   551.86 cc11 15 L0 -53.2 -> -10 0.21  -20 0.33  Sus MAX
+     soft end qn   679.86 cc11 41 L0 -45.8 -> -10 0.24  -20 0.35  Leg Slur MAX
+Violins II     pp-mp(cc11<=58)  n= 5 -10dB med 0.26 s  -20dB med 0.40 s
+Violins II     mf(59-80)        n= 1 -10dB med 0.23 s  -20dB med 0.52 s
+Violins II     f-ff(>80)        n= 9 -10dB med 0.12 s  -20dB med 0.24 s
+     soft end qn   198.88 cc11 28 L0 -49.0 -> -10 0.26  -20 0.38  Leg Slur MAX
+     soft end qn   390.86 cc11 46 L0 -50.4 -> -10 0.33  -20 0.49  Flautando
+     soft end qn   454.86 cc11 13 L0 -53.0 -> -10 0.17  -20 0.29  Leg Slur MAX
+     soft end qn   551.86 cc11 15 L0 -54.7 -> -10 0.19  -20 0.40  Sus MAX
+     soft end qn   679.86 cc11 41 L0 -47.1 -> -10 0.33  -20 0.42  Leg Slur MAX
+Violas         pp-mp(cc11<=58)  n= 2 -10dB med 0.09 s  -20dB med 0.27 s
+Violas         mf(59-80)        n= 1 -10dB med 0.08 s  -20dB med 0.28 s
+Violas         f-ff(>80)        n= 7 -10dB med 0.12 s  -20dB med 0.32 s
+     soft end qn   198.88 cc11 7 L0 -62.0 -> -10 0.14  -20 0.23  Leg Slur MAX
+     soft end qn   454.86 cc11 13 L0 -51.9 -> -10 0.05  -20 0.32  Leg Slur MAX
+Violoncellos   f-ff(>80)        n= 7 -10dB med 0.25 s  -20dB med 0.45 s
+Double basses  f-ff(>80)        n= 8 -10dB med 0.12 s  -20dB med 0.39 s

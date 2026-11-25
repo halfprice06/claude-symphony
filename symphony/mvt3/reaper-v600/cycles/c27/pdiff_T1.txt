@@ -1,0 +1,272 @@
+tempo equal: True
+Flute 1
+  notes -7 +7
+    - (168.846, 0.584, 77, None, 53)
+    - (169.332, 0.598, 75, None, 100)
+    - (169.832, 0.598, 74, None, 100)
+    - (170.332, 0.598, 72, None, 100)
+    - (172.416, 0.598, 72, None, 100)
+    - (172.916, 0.598, 74, None, 100)
+    - (173.416, 0.598, 75, None, 100)
+    + (168.846, 0.5168, 77, None, 53)
+    + (169.332, 0.5308, 75, None, 53)
+    + (169.832, 0.668, 74, None, 53)
+    + (170.5, 0.43, 72, None, 53)
+    + (172.416, 0.4468, 72, None, 100)
+    + (172.832, 0.668, 74, None, 67)
+    + (173.5, 0.514, 75, None, 74)
+  ks: 0 removed, 4 added; qn 169.27..173.44
+    + {"qn": 169.272, "pitch": 24, "art": "Sus MAX"}
+    + {"qn": 170.44, "pitch": 26, "art": "Leg Slur MAX"}
+    + {"qn": 172.772, "pitch": 24, "art": "Sus MAX"}
+    + {"qn": 173.44, "pitch": 26, "art": "Leg Slur MAX"}
+  cc7: 0 removed, 106 added; qn 0.00..1108.22
+  vol_db differs
+Flute 2
+  vol_db differs
+Oboe 1
+  cc7: 0 removed, 36 added; qn 0.00..871.93
+  vol_db differs
+Oboe 2
+  vol_db differs
+Cor anglais
+  notes -21 +21
+    - (683.0, 1.0, 63, None, 53)
+    - (684.0, 1.0, 62, None, 53)
+    - (685.0, 1.0, 60, None, 53)
+    - (686.0, 1.0, 63, None, 53)
+    - (687.0, 1.0, 67, None, 53)
+    - (688.0, 2.0, 74, None, 53)
+    - (690.0, 1.0, 72, None, 53)
+    - (691.0, 1.0, 70, None, 53)
+    - (692.0, 2.0, 68, None, 53)
+    - (715.0, 1.0, 63, None, 53)
+    - (716.0, 1.0, 62, None, 53)
+    - (717.0, 1.0, 60, None, 53)
+    + (683.0, 0.958, 63, None, 53)
+    + (683.86, 1.098, 62, None, 100)
+    + (684.86, 1.098, 60, None, 100)
+    + (685.86, 1.098, 63, None, 100)
+    + (686.86, 1.07, 67, None, 100)
+    + (687.832, 2.168, 74, None, 53)
+    + (690.0, 0.958, 72, None, 53)
+    + (690.86, 1.07, 70, None, 100)
+    + (691.832, 2.168, 68, None, 53)
+    + (715.0, 0.958, 63, None, 53)
+    + (715.86, 1.098, 62, None, 100)
+    + (716.86, 1.098, 60, None, 100)
+  ks: 1 removed, 9 added; qn 682.94..727.78
+    + {"qn": 682.94, "pitch": 26, "art": "Leg Slur MAX"}
+    + {"qn": 687.772, "pitch": 24, "art": "Sus MAX"}
+    + {"qn": 689.94, "pitch": 26, "art": "Leg Slur MAX"}
+    + {"qn": 691.772, "pitch": 24, "art": "Sus MAX"}
+    + {"qn": 693.94, "pitch": 26, "art": "Leg Slur MAX"}
+    - {"qn": 695.7516, "pitch": 26, "art": "Leg Slur MAX"}
+    + {"qn": 714.94, "pitch": 26, "art": "Leg Slur MAX"}
+    + {"qn": 719.772, "pitch": 24, "art": "Sus MAX"}
+    + {"qn": 722.94, "pitch": 26, "art": "Leg Slur MAX"}
+    + {"qn": 727.7762, "pitch": 24, "art": "Sus MAX"}
+Clarinet 1
+  cc11: 58 removed, 99 added; qn 303.80..943.90
+  cc7: 0 removed, 98 added; qn 0.00..1031.66
+  vol_db differs
+Clarinet 2
+  cc11: 17 removed, 16 added; qn 631.70..659.88
+  cc7: 0 removed, 41 added; qn 0.00..1031.22
+  vol_db differs
+Bass clarinet
+  vol_db differs
+Bassoon 1
+  notes -4 +4
+    - (317.9147, 1.7733, 58, None, 63)
+    - (319.916, 5.7477, 56, None, 53)
+    - (511.58, 1.902, 59, None, 80)
+    - (513.384, 6.238, 60, None, 60)
+    + (317.9147, 1.7133, 58, None, 63)
+    + (319.856, 5.8077, 56, None, 53)
+    + (511.58, 2.154, 59, None, 80)
+    + (513.832, 5.79, 60, None, 100)
+  cc7: 0 removed, 27 added; qn 0.00..859.91
+  vol_db differs
+Horn 1
+  notes -4 +4
+    - (817.6568, 1.7074, 63, None, 100)
+    - (819.2631, 0.6669, 65, None, 118)
+    - (1011.7653, 2.1027, 59, None, 124)
+    - (1013.7653, 1.6187, 60, None, 124)
+    + (817.4856, 1.763, 63, None, 100)
+    + (819.1476, 0.7824, 65, None, 118)
+    + (1011.7653, 1.9267, 59, None, 124)
+    + (1013.5893, 1.7947, 60, None, 124)
+  ks: 1 removed, 1 added; qn 817.46..817.63
+    + {"qn": 817.4556, "pitch": 26, "art": "Leg Slur MAX"}
+    - {"qn": 817.6268, "pitch": 26, "art": "Leg Slur MAX"}
+  cc11: 47 removed, 76 added; qn 323.70..817.60
+  cc7: 0 removed, 29 added; qn 0.00..860.09
+  vol_db differs
+Horn 2
+  cc11: 31 removed, 46 added; qn 668.45..675.88
+  cc7: 0 removed, 39 added; qn 0.00..664.20
+  vol_db differs
+Horn 3
+  cc11: 0 removed, 35 added; qn 548.38..551.88
+  cc7: 0 removed, 70 added; qn 0.00..564.21
+  vol_db differs
+Horn 4
+  cc11: 4 removed, 37 added; qn 548.38..551.60
+  cc7: 0 removed, 29 added; qn 0.00..895.90
+  vol_db differs
+Trumpet 1
+  notes -8 +8
+    - (847.7077, 2.0883, 80, None, 124)
+    - (849.712, 1.084, 82, None, 124)
+    - (850.712, 1.084, 80, None, 124)
+    - (851.712, 3.0922, 78, None, 124)
+    - (969.732, 3.1206, 84, None, 100)
+    - (972.7756, 5.0676, 83, None, 118)
+    - (987.775, 1.0285, 72, None, 118)
+    - (988.7008, 2.1027, 81, None, 118)
+    + (847.7077, 1.9923, 80, None, 124)
+    + (849.616, 1.036, 82, None, 124)
+    + (850.568, 1.132, 80, None, 124)
+    + (851.616, 3.1882, 78, None, 124)
+    + (969.6427, 3.0779, 84, None, 100)
+    + (972.6436, 5.1996, 83, None, 118)
+    + (987.775, 0.8777, 72, None, 118)
+    + (988.55, 2.2535, 81, None, 118)
+  ks: 1 removed, 1 added; qn 969.61..969.70
+    + {"qn": 969.6127, "pitch": 26, "art": "Leg Slur MAX"}
+    - {"qn": 969.702, "pitch": 26, "art": "Leg Slur MAX"}
+  cc11: 52 removed, 69 added; qn 718.58..990.75
+  cc1: 21 removed, 22 added; qn 987.14..1000.00
+  cc7: 0 removed, 104 added; qn 0.00..1122.08
+  vol_db differs
+Trumpet 2
+  notes -2 +2
+    - (987.775, 1.0285, 69, None, 118)
+    - (988.7008, 2.1027, 77, None, 118)
+    + (987.775, 0.8777, 69, None, 118)
+    + (988.55, 2.2535, 77, None, 118)
+  cc11: 28 removed, 19 added; qn 988.67..990.75
+  cc1: 21 removed, 22 added; qn 987.14..1000.00
+  cc7: 0 removed, 35 added; qn 0.00..1122.08
+  vol_db differs
+Trumpet 3
+  cc7: 0 removed, 35 added; qn 0.00..1122.08
+  vol_db differs
+Trombone 1
+  cc11: 23 removed, 40 added; qn 879.85..883.60
+  cc7: 0 removed, 71 added; qn 0.00..1122.08
+  vol_db differs
+Trombone 2
+  cc11: 23 removed, 40 added; qn 879.85..883.60
+  cc7: 0 removed, 71 added; qn 0.00..1122.08
+  vol_db differs
+Bass trombone
+  vol_db differs
+Harp
+  cc7: 0 removed, 83 added; qn 0.00..1105.99
+  vol_db differs
+Violins I
+  cc11: 8 removed, 26 added; qn 263.18..424.70
+  cc7: 0 removed, 227 added; qn 472.19..1122.08
+  vol_db differs
+Violins II
+  notes -9 +9
+    - (-0.06, 4.06, 63, None, 111)
+    - (-0.06, 4.06, 72, None, 111)
+    - (15.0, 1.0, 55, None, 103)
+    - (16.0, 4.0, 63, None, 111)
+    - (16.0, 4.0, 72, None, 111)
+    - (583.832, 4.168, 71, None, 111)
+    - (583.832, 4.168, 79, None, 111)
+    - (1103.856, 1.144, 64, None, 127)
+    - (1103.856, 1.144, 72, None, 127)
+    + (-0.085, 4.085, 63, None, 92)
+    + (-0.085, 4.085, 72, None, 92)
+    + (15.0, 0.636, 55, None, 103)
+    + (15.762, 4.238, 63, None, 92)
+    + (15.762, 4.238, 72, None, 92)
+    + (583.762, 4.238, 71, None, 92)
+    + (583.762, 4.238, 79, None, 92)
+    + (1103.796, 1.204, 64, None, 108)
+    + (1103.796, 1.204, 72, None, 108)
+  ks: 2 removed, 7 added; qn 3.94..1105.12
+    + {"qn": 3.94, "pitch": 24, "art": "Sus MAX"}
+    + {"qn": 15.702, "pitch": 25, "art": "Sus Marc LITE"}
+    + {"qn": 19.94, "pitch": 24, "art": "Sus MAX"}
+    + {"qn": 583.625, "pitch": 25, "art": "Sus Marc LITE"}
+    - {"qn": 583.625, "pitch": 24, "art": "Sus MAX"}
+    + {"qn": 587.94, "pitch": 24, "art": "Sus MAX"}
+    + {"qn": 1102.875, "pitch": 25, "art": "Sus Marc LITE"}
+    - {"qn": 1102.875, "pitch": 24, "art": "Sus MAX"}
+    + {"qn": 1105.125, "pitch": 24, "art": "Sus MAX"}
+  cc11: 73 removed, 60 added; qn -0.06..1105.31
+  cc7: 0 removed, 192 added; qn 0.00..1122.08
+  vol_db differs
+Violas
+  notes -9 +9
+    - (15.0, 1.0, 55, None, 103)
+    - (16.0, 4.0, 63, None, 111)
+    - (16.0, 4.0, 66, None, 111)
+    - (583.832, 3.916, 62, None, 111)
+    - (583.832, 3.916, 67, None, 111)
+    - (1100.0, 3.812, 55, None, 103)
+    - (1100.0, 3.812, 64, None, 103)
+    - (1103.832, 1.0, 55, None, 127)
+    - (1103.832, 1.0, 64, None, 127)
+    + (15.0, 0.636, 55, None, 103)
+    + (15.664, 4.336, 63, None, 111)
+    + (15.664, 4.336, 66, None, 111)
+    + (583.664, 4.084, 62, None, 111)
+    + (583.664, 4.084, 67, None, 111)
+    + (1100.0, 3.592, 55, None, 103)
+    + (1100.0, 3.592, 64, None, 103)
+    + (1103.712, 1.12, 55, None, 127)
+    + (1103.712, 1.12, 64, None, 127)
+  ks: 2 removed, 2 added; qn 583.60..1103.80
+    + {"qn": 583.604, "pitch": 24, "art": "Sus MAX"}
+    - {"qn": 583.625, "pitch": 24, "art": "Sus MAX"}
+    + {"qn": 1103.652, "pitch": 24, "art": "Sus MAX"}
+    - {"qn": 1103.802, "pitch": 24, "art": "Sus MAX"}
+  cc11: 67 removed, 88 added; qn 15.25..1104.36
+  cc7: 0 removed, 198 added; qn 15.34..1122.08
+  vol_db differs
+Violoncellos
+  notes -7 +7
+    - (15.0, 0.846, 43, None, 103)
+    - (16.0, 4.0, 44, None, 111)
+    - (16.0, 4.0, 51, None, 111)
+    - (583.888, 3.86, 43, None, 111)
+    - (583.888, 4.112, 53, None, 111)
+    - (1100.0, 3.73, 48, None, 98)
+    - (1103.76, 1.24, 48, None, 127)
+    + (15.0, 0.636, 43, None, 103)
+    + (15.664, 4.336, 44, None, 111)
+    + (15.664, 4.336, 51, None, 111)
+    + (583.664, 4.084, 43, None, 111)
+    + (583.664, 4.336, 53, None, 111)
+    + (1100.0, 3.592, 48, None, 98)
+    + (1103.712, 1.288, 48, None, 127)
+  ks: 1 removed, 1 added; qn 1103.65..1103.73
+    + {"qn": 1103.652, "pitch": 24, "art": "Sus MAX"}
+    - {"qn": 1103.73, "pitch": 24, "art": "Sus MAX"}
+  cc11: 45 removed, 85 added; qn 5.07..1104.29
+  cc7: 0 removed, 182 added; qn 0.00..1122.08
+  vol_db differs
+Double basses
+  notes -3 +3
+    - (170.859, 10.787, 34, None, 45)
+    - (181.676, 8.827, 34, None, 45)
+    - (190.533, 8.3438, 34, None, 45)
+    + (170.859, 10.5034, 34, None, 45)
+    + (181.396, 8.8234, 34, None, 45)
+    + (190.253, 8.6238, 34, None, 45)
+  cc11: 70 removed, 69 added; qn 182.74..198.20
+  cc7: 0 removed, 5 added; qn 0.00..951.85
+    + [0.0, 127]
+    + [263.4, 90]
+    + [319.65, 127]
+    + [935.35, 80]
+    + [951.854, 127]
+  vol_db differs

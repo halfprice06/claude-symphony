@@ -1,0 +1,20 @@
+## c51
+== sub 244.0: master first 50 ms -4.8 dB, steepest 0.2 s fall 10.9 dB, 0.5-1.0 s -12.7 dB
+   returns 0.1-0.3 / 0.3-0.6 / 0.6-1.0 s: -3.0 / -6.8 / -7.5 dB
+   part drops (K, +0.3..+1.2 s minus -0.5..-0.1 s): Violins I -18.3, Violins II -13.7, Violoncellos -24.7, Double basses -11.9, Clarinet 1 -7.0, Bassoon 2 -7.2, Horn 2 -7.9, Horn 3 -9.0, Horn 4 -4.7, Violas -0.3
+== sub 332.0: master first 50 ms -9.9 dB, steepest 0.2 s fall 7.7 dB, 0.5-1.0 s -9.7 dB
+   returns 0.1-0.3 / 0.3-0.6 / 0.6-1.0 s: -12.9 / -14.1 / -15.9 dB
+   master 50 ms frames at +0.05 / 0.15 / 0.25 / 0.35 / 0.85 / 1.35 s: -12.1 / -12.7 / -7.4 / -6.1 / -10.8 / -12.2 ; rise +0.15 -> +0.35 s +6.6 dB
+   Vc + Cb sum +0.3..+1.2 s: range 5.7 dB (first -37.2, last -42.9)
+   master K +0.3..+1.2 s under the bar-83 chord (328-331.5): 23.9 dB
+   part drops (K, +0.3..+1.2 s minus -0.5..-0.1 s): Violoncellos -3.3, Double basses -12.2
+## c52
+== sub 244.0: master first 50 ms -5.3 dB, steepest 0.2 s fall 11.1 dB, 0.5-1.0 s -13.9 dB
+   returns 0.1-0.3 / 0.3-0.6 / 0.6-1.0 s: -3.2 / -7.0 / -7.6 dB
+   part drops (K, +0.3..+1.2 s minus -0.5..-0.1 s): Violins I -18.4, Violins II -13.8, Violoncellos -25.3, Double basses -12.6, Clarinet 1 -7.0, Bassoon 2 -12.4, Horn 2 -9.8, Horn 3 -11.4, Horn 4 -9.7, Violas -1.4
+== sub 332.0: master first 50 ms -9.2 dB, steepest 0.2 s fall 5.0 dB, 0.5-1.0 s -3.8 dB
+   returns 0.1-0.3 / 0.3-0.6 / 0.6-1.0 s: -13.0 / -13.4 / -13.2 dB
+   master 50 ms frames at +0.05 / 0.15 / 0.25 / 0.35 / 0.85 / 1.35 s: -11.0 / -8.4 / -4.9 / -3.4 / -5.0 / -9.5 ; rise +0.15 -> +0.35 s +5.0 dB
+   Vc + Cb sum +0.3..+1.2 s: range 5.3 dB (first -36.1, last -39.3)
+   master K +0.3..+1.2 s under the bar-83 chord (328-331.5): 19.7 dB
+   part drops (K, +0.3..+1.2 s minus -0.5..-0.1 s): Violoncellos +4.7, Double basses -9.7

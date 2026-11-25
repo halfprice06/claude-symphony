@@ -1,0 +1,1190 @@
+[
+{
+"track": "Flute 2",
+"sq": 268.0,
+"pitch": 88,
+"art": "Sus MAX",
+"d_db": -7.82,
+"eq_db": 0.0,
+"d_pcx_ms": -5.0
+},
+{
+"track": "Oboe 2",
+"sq": 268.0,
+"pitch": 76,
+"art": "Sus MAX",
+"d_db": -1.29,
+"eq_db": 0.0,
+"d_pcx_ms": 7.0
+},
+{
+"track": "Clarinet 2",
+"sq": 6.0,
+"pitch": 51,
+"art": "Sus Non Vib",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Clarinet 2",
+"sq": 12.0,
+"pitch": 52,
+"art": "Sus Non Vib",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Clarinet 2",
+"sq": 15.0,
+"pitch": 51,
+"art": "Sus Non Vib",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Clarinet 2",
+"sq": 261.0,
+"pitch": 67,
+"art": "Sus Non Vib",
+"d_db": 4.41,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Clarinet 2",
+"sq": 262.0,
+"pitch": 65,
+"art": "Sus Non Vib",
+"d_db": 12.53,
+"eq_db": 0.0,
+"d_pcx_ms": -28.0
+},
+{
+"track": "Clarinet 2",
+"sq": 263.0,
+"pitch": 73,
+"art": "Sus Non Vib",
+"d_db": 3.9,
+"eq_db": 0.0,
+"d_pcx_ms": 99.0
+},
+{
+"track": "Clarinet 2",
+"sq": 269.0,
+"pitch": 67,
+"art": "Sus Non Vib",
+"d_db": -3.3,
+"eq_db": 0.0,
+"d_pcx_ms": 61.0
+},
+{
+"track": "Bass clarinet",
+"sq": 6.0,
+"pitch": 44,
+"art": "Sus Non Vib",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 10.0,
+"pitch": 44,
+"art": "Sus Non Vib",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bass clarinet",
+"sq": 13.5,
+"pitch": 44,
+"art": "Sus Non Vib",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bass clarinet",
+"sq": 102.0,
+"pitch": 44,
+"art": "Leg Slur",
+"d_db": 6.36,
+"eq_db": 0.0,
+"d_pcx_ms": 132.0
+},
+{
+"track": "Bass clarinet",
+"sq": 194.0,
+"pitch": 44,
+"art": "Sus Non Vib",
+"d_db": 7.66,
+"eq_db": 0.0,
+"d_pcx_ms": -34.0
+},
+{
+"track": "Bass clarinet",
+"sq": 210.0,
+"pitch": 40,
+"art": "Sus Non Vib",
+"d_db": -0.81,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bassoon 1",
+"sq": 108.0,
+"pitch": 53,
+"art": "Sus MAX",
+"d_db": 5.11,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bassoon 2",
+"sq": 23.0,
+"pitch": 46,
+"art": "Sus MAX",
+"d_db": 0.15,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bassoon 2",
+"sq": 146.0,
+"pitch": 46,
+"art": "Sus MAX",
+"d_db": 2.57,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bassoon 2",
+"sq": 148.0,
+"pitch": 44,
+"art": "Leg Slur MAX",
+"d_db": 2.69,
+"eq_db": 0.0,
+"d_pcx_ms": -106.0
+},
+{
+"track": "Bassoon 2",
+"sq": 194.0,
+"pitch": 44,
+"art": "Sus MAX",
+"d_db": 7.35,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bassoon 2",
+"sq": 210.0,
+"pitch": 40,
+"art": "Sus MAX",
+"d_db": 1.22,
+"eq_db": 0.0,
+"d_pcx_ms": 10.0
+},
+{
+"track": "Bassoon 2",
+"sq": 268.0,
+"pitch": 51,
+"art": "Sus MAX",
+"d_db": -0.66,
+"eq_db": 0.0,
+"d_pcx_ms": -132.0
+},
+{
+"track": "Contrabassoon",
+"sq": 271.0,
+"pitch": 32,
+"art": "Sus MAX",
+"d_db": -14.69,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Horn 3",
+"sq": 0.0,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 4",
+"sq": 1.0,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 4",
+"sq": 6.0,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Trombone 2",
+"sq": 210.0,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": 1.3,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bass trombone",
+"sq": 210.0,
+"pitch": 40,
+"art": "Sus MAX",
+"d_db": -3.63,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bass trombone",
+"sq": 216.0,
+"pitch": 45,
+"art": "Sus MAX",
+"d_db": -17.37,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bass trombone",
+"sq": 219.0,
+"pitch": 40,
+"art": "Sus MAX",
+"d_db": -12.45,
+"eq_db": 0.0,
+"d_pcx_ms": -94.0
+},
+{
+"track": "Tuba",
+"sq": 208.0,
+"pitch": 30,
+"art": "Sus MAX",
+"d_db": 4.81,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Tuba",
+"sq": 210.0,
+"pitch": 28,
+"art": "Sus MAX",
+"d_db": -4.18,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Timpani",
+"sq": 3.0,
+"pitch": 44,
+"art": "Timpani Flt Rls",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 0.0,
+"pitch": 72,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 2.4,
+"pitch": 72,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 4.6,
+"pitch": 72,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 7.35,
+"pitch": 72,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 216.0,
+"pitch": 88,
+"art": "Tremolo",
+"d_db": -22.81,
+"eq_db": 0.0,
+"d_pcx_ms": -27.0
+},
+{
+"track": "Violins I",
+"sq": 269.0,
+"pitch": 87,
+"art": "Leg Slur MAX",
+"d_db": -4.27,
+"eq_db": 0.0,
+"d_pcx_ms": 107.0
+},
+{
+"track": "Violins II",
+"sq": 0.0,
+"pitch": 67,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 3.0,
+"pitch": 68,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 5.15,
+"pitch": 68,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Violins II",
+"sq": 174.5,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": 3.95,
+"eq_db": 0.0,
+"d_pcx_ms": 311.0
+},
+{
+"track": "Violins II",
+"sq": 220.0,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": -14.17,
+"eq_db": 0.0,
+"d_pcx_ms": -104.0
+},
+{
+"track": "Violas",
+"sq": 0.0,
+"pitch": 64,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 3.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 5.7,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 46.5,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 5.27,
+"eq_db": 0.0,
+"d_pcx_ms": 45.0
+},
+{
+"track": "Violas",
+"sq": 112.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -4.15,
+"eq_db": 0.0,
+"d_pcx_ms": 223.0
+},
+{
+"track": "Violas",
+"sq": 112.3333,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.79,
+"eq_db": 0.0,
+"d_pcx_ms": 130.0
+},
+{
+"track": "Violas",
+"sq": 112.6667,
+"pitch": 66,
+"art": "Leg Slur MAX",
+"d_db": -3.83,
+"eq_db": 0.0,
+"d_pcx_ms": 356.0
+},
+{
+"track": "Violas",
+"sq": 120.6667,
+"pitch": 66,
+"art": "Leg Slur MAX",
+"d_db": 2.21,
+"eq_db": 0.0,
+"d_pcx_ms": -137.0
+},
+{
+"track": "Violas",
+"sq": 124.3333,
+"pitch": 53,
+"art": "Pizz RRx4",
+"d_db": -5.24,
+"eq_db": 0.0,
+"d_pcx_ms": -197.0
+},
+{
+"track": "Violas",
+"sq": 125.3333,
+"pitch": 49,
+"art": "Pizz RRx4",
+"d_db": -4.79,
+"eq_db": 0.0,
+"d_pcx_ms": 72.0
+},
+{
+"track": "Violas",
+"sq": 154.5,
+"pitch": 57,
+"art": "Detache",
+"d_db": -6.45,
+"eq_db": 0.0,
+"d_pcx_ms": -241.0
+},
+{
+"track": "Violas",
+"sq": 165.5,
+"pitch": 63,
+"art": "Detache",
+"d_db": 0.09,
+"eq_db": 0.0,
+"d_pcx_ms": -131.0
+},
+{
+"track": "Violas",
+"sq": 196.1667,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 8.83,
+"eq_db": 0.0,
+"d_pcx_ms": 44.0
+},
+{
+"track": "Violas",
+"sq": 196.3333,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 12.12,
+"eq_db": 0.0,
+"d_pcx_ms": -187.0
+},
+{
+"track": "Violas",
+"sq": 196.5,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 10.76,
+"eq_db": 0.0,
+"d_pcx_ms": 108.0
+},
+{
+"track": "Violas",
+"sq": 196.6667,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": 15.25,
+"eq_db": 0.0,
+"d_pcx_ms": 55.0
+},
+{
+"track": "Violas",
+"sq": 196.8333,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 9.01,
+"eq_db": 0.0,
+"d_pcx_ms": 95.0
+},
+{
+"track": "Violas",
+"sq": 197.0,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 10.55,
+"eq_db": 0.0,
+"d_pcx_ms": -106.0
+},
+{
+"track": "Violas",
+"sq": 197.1667,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 4.03,
+"eq_db": 0.0,
+"d_pcx_ms": 52.0
+},
+{
+"track": "Violas",
+"sq": 197.3333,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": 8.13,
+"eq_db": 0.0,
+"d_pcx_ms": 60.0
+},
+{
+"track": "Violas",
+"sq": 197.5,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 8.15,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Violas",
+"sq": 197.6667,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 9.8,
+"eq_db": 0.0,
+"d_pcx_ms": 35.0
+},
+{
+"track": "Violas",
+"sq": 197.8333,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 5.37,
+"eq_db": 0.0,
+"d_pcx_ms": 49.0
+},
+{
+"track": "Violas",
+"sq": 198.0,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 4.88,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Violas",
+"sq": 198.1667,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 6.28,
+"eq_db": 0.0,
+"d_pcx_ms": -84.0
+},
+{
+"track": "Violas",
+"sq": 198.3333,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 0.67,
+"eq_db": 0.0,
+"d_pcx_ms": 47.0
+},
+{
+"track": "Violas",
+"sq": 198.5,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 1.73,
+"eq_db": 0.0,
+"d_pcx_ms": 88.0
+},
+{
+"track": "Violas",
+"sq": 198.6667,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 9.48,
+"eq_db": 0.0,
+"d_pcx_ms": -39.0
+},
+{
+"track": "Violas",
+"sq": 198.8333,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 5.93,
+"eq_db": 0.0,
+"d_pcx_ms": -48.0
+},
+{
+"track": "Violas",
+"sq": 199.0,
+"pitch": 64,
+"art": "Sus MAX",
+"d_db": 2.86,
+"eq_db": 0.0,
+"d_pcx_ms": 122.0
+},
+{
+"track": "Violas",
+"sq": 199.1667,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 6.26,
+"eq_db": 0.0,
+"d_pcx_ms": 142.0
+},
+{
+"track": "Violas",
+"sq": 199.3333,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 7.59,
+"eq_db": 0.0,
+"d_pcx_ms": -61.0
+},
+{
+"track": "Violas",
+"sq": 199.5,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 6.29,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Violas",
+"sq": 199.6667,
+"pitch": 64,
+"art": "Sus MAX",
+"d_db": 6.08,
+"eq_db": 0.0,
+"d_pcx_ms": 180.0
+},
+{
+"track": "Violas",
+"sq": 199.8333,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 11.4,
+"eq_db": 0.0,
+"d_pcx_ms": 7.0
+},
+{
+"track": "Violas",
+"sq": 200.0,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": 1.38,
+"eq_db": 0.0,
+"d_pcx_ms": 65.0
+},
+{
+"track": "Violas",
+"sq": 200.1667,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 5.78,
+"eq_db": 0.0,
+"d_pcx_ms": 94.0
+},
+{
+"track": "Violas",
+"sq": 200.3333,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 5.85,
+"eq_db": 0.0,
+"d_pcx_ms": -36.0
+},
+{
+"track": "Violas",
+"sq": 200.5,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 6.24,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Violas",
+"sq": 200.6667,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": 9.89,
+"eq_db": 0.0,
+"d_pcx_ms": 116.0
+},
+{
+"track": "Violas",
+"sq": 200.8333,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 8.86,
+"eq_db": 0.0,
+"d_pcx_ms": -53.0
+},
+{
+"track": "Violas",
+"sq": 201.0,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 4.57,
+"eq_db": 0.0,
+"d_pcx_ms": 67.0
+},
+{
+"track": "Violas",
+"sq": 201.1667,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 3.07,
+"eq_db": 0.0,
+"d_pcx_ms": 74.0
+},
+{
+"track": "Violas",
+"sq": 201.3333,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": 7.71,
+"eq_db": 0.0,
+"d_pcx_ms": -50.0
+},
+{
+"track": "Violas",
+"sq": 201.5,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 6.41,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Violas",
+"sq": 201.6667,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 4.78,
+"eq_db": 0.0,
+"d_pcx_ms": 58.0
+},
+{
+"track": "Violas",
+"sq": 201.8333,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 4.2,
+"eq_db": 0.0,
+"d_pcx_ms": -70.0
+},
+{
+"track": "Violas",
+"sq": 202.0,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": 5.44,
+"eq_db": 0.0,
+"d_pcx_ms": 131.0
+},
+{
+"track": "Violas",
+"sq": 202.1667,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 6.78,
+"eq_db": 0.0,
+"d_pcx_ms": 75.0
+},
+{
+"track": "Violas",
+"sq": 202.3333,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 5.08,
+"eq_db": 0.0,
+"d_pcx_ms": 121.0
+},
+{
+"track": "Violas",
+"sq": 202.5,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 1.9,
+"eq_db": 0.0,
+"d_pcx_ms": 119.0
+},
+{
+"track": "Violas",
+"sq": 202.6667,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": 5.15,
+"eq_db": 0.0,
+"d_pcx_ms": 20.0
+},
+{
+"track": "Violas",
+"sq": 202.8333,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 7.68,
+"eq_db": 0.0,
+"d_pcx_ms": 101.0
+},
+{
+"track": "Violas",
+"sq": 203.0,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": 7.21,
+"eq_db": 0.0,
+"d_pcx_ms": -141.0
+},
+{
+"track": "Violas",
+"sq": 203.1667,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 7.24,
+"eq_db": 0.0,
+"d_pcx_ms": -80.0
+},
+{
+"track": "Violas",
+"sq": 203.3333,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 4.89,
+"eq_db": 0.0,
+"d_pcx_ms": -81.0
+},
+{
+"track": "Violas",
+"sq": 203.5,
+"pitch": 66,
+"art": "Sus MAX",
+"d_db": 8.29,
+"eq_db": 0.0,
+"d_pcx_ms": -25.0
+},
+{
+"track": "Violas",
+"sq": 261.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 4.73,
+"eq_db": 0.0,
+"d_pcx_ms": 293.0
+},
+{
+"track": "Violas",
+"sq": 268.0,
+"pitch": 67,
+"art": "Sus MAX",
+"d_db": 4.29,
+"eq_db": 0.0,
+"d_pcx_ms": 122.0
+},
+{
+"track": "Violoncellos",
+"sq": 0.0,
+"pitch": 48,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos",
+"sq": 3.0,
+"pitch": 44,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos",
+"sq": 6.8,
+"pitch": 44,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Violoncellos",
+"sq": 174.0,
+"pitch": 48,
+"art": "Leg Slur MAX",
+"d_db": 6.38,
+"eq_db": 0.0,
+"d_pcx_ms": 95.0
+},
+{
+"track": "Violoncellos",
+"sq": 176.0,
+"pitch": 46,
+"art": "Leg BC MAX",
+"d_db": 2.14,
+"eq_db": 0.0,
+"d_pcx_ms": -71.0
+},
+{
+"track": "Violoncellos",
+"sq": 178.0,
+"pitch": 42,
+"art": "Leg BC MAX",
+"d_db": 4.32,
+"eq_db": 0.0,
+"d_pcx_ms": 7.0
+},
+{
+"track": "Violoncellos",
+"sq": 208.0,
+"pitch": 65,
+"art": "Leg BC MAX",
+"d_db": -5.2,
+"eq_db": 0.0,
+"d_pcx_ms": -176.0
+},
+{
+"track": "Violoncellos",
+"sq": 216.0,
+"pitch": 45,
+"art": "Tremolo",
+"d_db": -21.98,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 3.0,
+"pitch": 32,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 6.25,
+"pitch": 32,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 74.0,
+"pitch": 49,
+"art": "Sus MAX",
+"d_db": 0.72,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 112.0,
+"pitch": 34,
+"art": "Pizz RRx4",
+"d_db": 13.67,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 114.0,
+"pitch": 30,
+"art": "Pizz RRx4",
+"d_db": 16.68,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 116.0,
+"pitch": 39,
+"art": "Pizz RRx4",
+"d_db": 22.8,
+"eq_db": 0.0,
+"d_pcx_ms": -79.0
+},
+{
+"track": "Double basses",
+"sq": 118.0,
+"pitch": 36,
+"art": "Pizz RRx4",
+"d_db": 19.16,
+"eq_db": 0.0,
+"d_pcx_ms": 75.0
+},
+{
+"track": "Double basses",
+"sq": 120.0,
+"pitch": 33,
+"art": "Pizz RRx4",
+"d_db": 14.77,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 122.0,
+"pitch": 34,
+"art": "Pizz RRx4",
+"d_db": 7.73,
+"eq_db": 0.0,
+"d_pcx_ms": -34.0
+},
+{
+"track": "Double basses",
+"sq": 124.0,
+"pitch": 41,
+"art": "Pizz RRx4",
+"d_db": 15.75,
+"eq_db": 0.0,
+"d_pcx_ms": -20.0
+},
+{
+"track": "Double basses",
+"sq": 126.0,
+"pitch": 42,
+"art": "Pizz RRx4",
+"d_db": 17.61,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 127.0,
+"pitch": 30,
+"art": "Pizz RRx4",
+"d_db": 36.4,
+"eq_db": 0.0,
+"d_pcx_ms": -38.0
+},
+{
+"track": "Double basses",
+"sq": 128.0,
+"pitch": 34,
+"art": "Pizz RRx4",
+"d_db": 3.65,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 129.0,
+"pitch": 39,
+"art": "Pizz RRx4",
+"d_db": 0.67,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 130.0,
+"pitch": 32,
+"art": "Pizz RRx4",
+"d_db": 9.2,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 131.0,
+"pitch": 37,
+"art": "Pizz RRx4",
+"d_db": 8.31,
+"eq_db": 0.0,
+"d_pcx_ms": -7.0
+},
+{
+"track": "Double basses",
+"sq": 133.0,
+"pitch": 34,
+"art": "Pizz RRx4",
+"d_db": 4.54,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Double basses",
+"sq": 134.0,
+"pitch": 32,
+"art": "Pizz RRx4",
+"d_db": 14.86,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 192.0,
+"pitch": 34,
+"art": "Sus MAX",
+"d_db": 5.2,
+"eq_db": 0.0,
+"d_pcx_ms": 97.0
+},
+{
+"track": "Double basses",
+"sq": 218.0,
+"pitch": 38,
+"art": "Sus MAX",
+"d_db": 4.34,
+"eq_db": 0.0,
+"d_pcx_ms": -45.0
+},
+{
+"track": "Horns 1-2 a2",
+"sq": 271.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": -16.19,
+"eq_db": 0.0,
+"d_pcx_ms": null
+}
+]

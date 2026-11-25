@@ -1,0 +1,54 @@
+Flute 1        qn   16.0  start +0.00 s  (limit 0.06)  ok
+Flute 1        qn   36.0  start -0.01 s  (limit 0.06)  ok
+Oboe 1         qn   16.0  start -0.01 s  (limit 0.06)  ok
+Oboe 1         qn   36.0  start +0.00 s  (limit 0.06)  ok
+Clarinet 1     qn   16.0  start -0.01 s  (limit 0.06)  ok
+Clarinet 1     qn   34.0  start -0.01 s  (limit 0.06)  ok
+Horn 1         qn   16.0  start -0.06 s  (limit 0.06)  ok
+Horn 1         qn   32.0  start -0.03 s  (limit 0.06)  ok
+Trumpet 1      qn  200.0  start -0.05 s  (limit 0.06)  ok
+Trumpet 1      qn  360.0  start -0.05 s  (limit 0.06)  ok
+Trombone 1     qn   16.0  start -0.03 s  (limit 0.06)  ok
+Trombone 1     qn  136.0  start -0.04 s  (limit 0.06)  ok
+Tuba           qn   16.0  start -0.03 s  (limit 0.06)  ok
+Tuba           qn  104.0  start -0.04 s  (limit 0.06)  ok
+Timpani        qn   16.0  start +0.02 s  (limit 0.12)  ok
+Timpani        qn   24.0  start +0.02 s  (limit 0.12)  ok
+Harp           qn  264.0  start +0.00 s  (limit 0.06)  ok
+Harp           qn  488.0  start +0.01 s  (limit 0.06)  ok
+Violins I      qn    9.0  start -0.03 s  (limit 0.15)  ok
+Violins I      qn   33.0  start -0.06 s  (limit 0.15)  ok
+Violoncellos   qn    9.0  start -0.03 s  (limit 0.15)  ok
+Violoncellos   qn   24.0  start -0.14 s  (limit 0.15)  ok  (early)
+Double basses  qn   16.0  start -0.03 s  (limit 0.15)  ok
+Double basses  qn   32.0  start -0.10 s  (limit 0.15)  ok
+Flute 1        qn    0.0  opening max  -38.4 dB  (limit -70)  ok
+Flute 2        qn    0.0  opening max  -42.0 dB  (limit -70)  ok
+Oboe 1         qn    0.0  opening max  -38.5 dB  (limit -70)  ok
+Oboe 2         qn    0.0  opening max  -36.6 dB  (limit -70)  ok
+Cor anglais    qn    0.0  opening max  -36.4 dB  (limit -70)  ok
+Clarinet 1     qn    0.0  opening max  -41.2 dB  (limit -70)  ok
+Clarinet 2     qn    0.0  opening max  -37.3 dB  (limit -70)  ok
+Bass clarinet  qn    0.0  opening max  -32.0 dB  (limit -70)  ok
+Bassoon 1      qn    0.0  opening max  -33.5 dB  (limit -70)  ok
+Bassoon 2      qn    0.0  opening max  -38.0 dB  (limit -70)  ok
+Contrabassoon  qn    0.0  opening max  -38.2 dB  (limit -70)  ok
+Horn 1         qn    0.0  opening max  -30.9 dB  (limit -70)  ok
+Horn 2         qn    0.0  opening max  -36.9 dB  (limit -70)  ok
+Horn 3         qn    0.0  opening max  -33.7 dB  (limit -70)  ok
+Horn 4         qn    0.0  opening max  -38.3 dB  (limit -70)  ok
+Trombone 1     qn    0.0  opening max  -35.6 dB  (limit -70)  ok
+Trombone 2     qn    0.0  opening max  -35.2 dB  (limit -70)  ok
+Bass trombone  qn    0.0  opening max  -30.6 dB  (limit -70)  ok
+Tuba           qn    0.0  opening max  -33.7 dB  (limit -70)  ok
+Timpani        qn    0.0  opening max  -30.0 dB  (limit -70)  ok
+Violins I      qn    0.0  opening max  -32.8 dB  (limit -70)  ok
+Violins II     qn    0.0  opening max  -28.3 dB  (limit -70)  ok
+Violas         qn    0.0  opening max  -29.3 dB  (limit -70)  ok
+Violoncellos   qn    0.0  opening max  -32.1 dB  (limit -70)  ok
+Double basses  qn    0.0  opening max  -31.0 dB  (limit -70)  ok
+Violins I      joins 161  pcX median   +14 ms  robust SD   40 ms  >60 ms off  17%  window median   78 ms  (limit 75 ms)  ok
+Violins II     joins 149  pcX median    +5 ms  robust SD   44 ms  >60 ms off  26%  window median   80 ms  (limit 75 ms)  ok
+Violas         joins 137  pcX median   -14 ms  robust SD   46 ms  >60 ms off  21%  window median   88 ms  (limit 90 ms)  ok
+Violoncellos   joins 254  pcX median    +6 ms  robust SD   46 ms  >60 ms off  20%  window median   72 ms  (limit 80 ms)  ok
+late or hole: 0

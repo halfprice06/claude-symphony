@@ -1,0 +1,5 @@
+Violins I      joins  86  pcX median   +17 ms  robust SD   70 ms  >60 ms off  38%  window median   72 ms
+Violins II     joins 114  pcX median   +18 ms  robust SD   65 ms  >60 ms off  39%  window median   86 ms
+Violas         joins 134  pcX median    +4 ms  robust SD   62 ms  >60 ms off  35%  window median   86 ms
+Oboe 1         joins  32  pcX median   +31 ms  robust SD   62 ms  >60 ms off  25%  window median   49 ms
+Trombone 1     joins   4  pcX median   -24 ms  robust SD   19 ms  >60 ms off   0%  window median   44 ms

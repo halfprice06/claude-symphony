@@ -1,0 +1,68 @@
+== cycles/c25/render
+-- A #1 second theme
+celli 195.5: burst -32.0, prev body -32.6, 596-body -33.0; burst over max(prev,body) +0.6; body - prev -0.5
+celli 595.5: burst -25.8, prev body -34.3, 596-body -33.4; burst over max(prev,body) +7.6; body - prev +1.0
+master 198.0: min -0.1..+0.4 -38.3, ref -33.8, hole 4.5 dB
+master 598.0: min -0.1..+0.4 -34.4, ref -30.2, hole 4.3 dB
+master 196.0-200.0 per 0.25 qn: -28.8 -28.1 -29.2 -29.6 -30.2 -31.1 -33.9 -35.9 -34.6 -34.8 -35.8 -35.6 -33.8 -36.0 -35.0 -36.5 | largest rise over an earlier min +2.1
+  half note 196.0: Horn 1 - celli +0.7
+  half note 198.0: Horn 1 - celli -2.4
+master 596.0-600.0 per 0.25 qn: -28.8 -26.8 -30.6 -28.1 -30.1 -31.0 -27.4 -29.1 -30.6 -32.9 -32.5 -31.2 -32.0 -32.9 -32.6 -35.4 | largest rise over an earlier min +3.5
+  half note 596.0: Horn 1 - celli -1.2
+  half note 598.0: Horn 1 - celli -0.4
+-- B #1 letter G (K, re master)
+464: horns -6.8, melody -5.2, margin +1.6, tuba -10.3, Hn4 -10.0, a2 -14.9, master -13.4
+468: horns -5.9, melody -4.7, margin +1.1, tuba -9.5, Hn4 -10.3, a2 -10.4, master -14.8
+472: horns -5.4, melody -5.7, margin -0.3, tuba -11.5, Hn4 -10.1, a2 -10.1, master -15.8
+476: horns -5.6, melody -5.5, margin +0.1, tuba -10.6, Hn4 -9.4, a2 -10.3, master -15.0
+480: horns -7.6, melody -4.1, margin +3.5, tuba -9.2, Hn4 -12.1, a2 -13.0, master -13.2
+master K 462-463 -13.7, 464.5-465 -13.3
+-- B #2 violas 436 (K)
+  violas 432: -42.7  flute -38.2
+  violas 433: -40.6  flute -39.9
+  violas 434: -42.5  flute -41.6
+  violas 435: -40.4  flute -42.5
+  violas 436: -32.6  flute -36.5
+  violas 438: -43.0  flute -36.6
+-- B #3 Horn 4 - Horn 3 (K)
+  156: +1.8
+  160: +3.8
+  272: +3.6
+  276: +3.3
+  328: +3.6
+  330: +3.9
+  492: +3.3
+  520: +3.0
+  528: +1.8
+  532: +4.9
+  120: -3.9
+  122: -4.0
+  556: -2.4
+  560: -1.9
+-- B #4 bar 97 (K re master)
+  Violoncellos: -6.5
+  Double basses: -7.3
+  Bass clarinet: -7.5
+  Bassoon 2: -10.4
+  Bass trombone: -10.6
+  Contrabassoon: -15.9
+-- B #5 tuba low band (master 30-100 minus 300-1k; tuba share of master 30-100)
+  116: master -18.0; tuba share -2.2; tuba level -26.0
+  120: master -15.5; tuba share -3.6; tuba level -29.9
+  440: master -12.4; tuba share -12.2; tuba level -51.8
+  444: master -17.2; tuba share -5.3; tuba level -43.3
+  560: master -14.1; tuba share -5.7; tuba level -30.1
+-- C #2 retransition
+  Clarinet 1 510.5-512 minus 505.5-507: +0.7
+  master 510-512 minus 504-506: +1.2
+  master per qn 504-517: -34.9 -34.1 -33.8 -33.9 -32.8 -35.2 -33.6 -33.0 -32.6 -28.8 -29.0 -28.7 -25.3 -24.5
+-- C #3 Lento bars 2-3, master per half qn
+  4.0: -37.6 -36.2 -36.4 -36.0 -34.1 -30.5 -33.4 -35.3
+  8.0: -36.2 -34.9 -35.5 -35.9 -33.6 -33.8 -37.3 -40.7
+-- C #4 coda solo 680, celli per 0.2 s
+   -36.3 -35.6 -37.0 -33.1 -34.3 -32.1 -32.9 -33.7 -31.1 -32.3 -35.0 -36.1 -36.0 -31.9 -34.7
+-- C #1 coda per bar (master)
+   -32.8 -33.4 -33.8 -35.0 -36.9 -36.6 -37.2 -37.6 -39.5 -39.6 -40.4 -45.8
+   mp3: -29.6 -28.5 -28.0 -28.4 -29.6 -28.9 -29.2 -29.5 -31.4 -31.5 -32.2 -37.7
+   mp3 bars 127-131: -31.4 -31.1 -28.1 -22.5 -18.8
+   mp3 bars 4-5: -34.9 -36.1

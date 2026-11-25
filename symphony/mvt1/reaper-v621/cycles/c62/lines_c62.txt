@@ -1,0 +1,71 @@
+Lento 9-13 Vln II        2 A  -5.7 K  -5.1 Km -11.9  best   400 Hz  -3.4 (acc  -3.0) ok 0.91 | Violoncellos -3.4, Bassoon 2 -4.3, Violins I -6.3
+Lento 9-13 Vla           2 A  -5.6 K  -4.7 Km -11.4  best  2000 Hz  -4.1 (acc  -2.9) ok 0.97 | Violins II -1.3, Violins I -1.7, Violoncellos -4.1
+15-22 celli bass         1 A -12.4 K  -9.2 Km -11.2  best   200 Hz  +4.3 (acc  +4.3) ok 1.00 | Double basses -8.4, R Strings -11.0, Horn 4 -16.6
+19-22 Vla espr.          1 A  -5.7 K  -4.3 Km  -6.4  best   315 Hz  +3.8 (acc  +3.8) ok 1.00 | Bassoon 1 -9.8, R Strings -10.2, Violins II -10.4
+23-26 celli              2 A -12.9 K  -4.7 Km -10.4  best   125 Hz  +3.8 (acc  +3.8) ok 0.95 | Double basses -7.0, Tuba -14.9, Timpani -17.6
+23-26 Hn3-4              3 A -10.9 K  -9.5 Km -15.2  best   630 Hz  -9.6 (acc  -8.2) ok 0.86 | Violins II +2.4, Flute 1 +1.6, Violins I +1.1
+27-31 celli+Bn1          1 A  -8.3 K  -4.5 Km -10.2  best   200 Hz  -1.4 (acc  -1.4) ok 0.94 | Double basses -2.2, Timpani -5.3, R Strings -9.7
+34-36 Vla imitation      1 A  -6.7 K  -6.2 Km -13.0  best   400 Hz  -5.6 (acc  -3.3) ok 0.97 | Bassoon 1 +2.3, Violins I +1.0, R Strings -7.2
+37-38 Ob1 entry          1 A  -3.2 K  -3.8 Km  -7.8  best  1600 Hz  +0.9 (acc  +5.4) ok 0.97 | Violins I -2.6, Violins II -12.1, R Winds -15.3
+38-39 Cl1 entry          1 A  -1.9 K  -2.3 Km  -9.9  best  1600 Hz  -0.1 (acc  +1.2) ok 1.00 | Violins II -5.0, Violins I -5.8, Violoncellos -12.3
+37-39 Vla                2 A -12.5 K -10.4 Km -13.0  best   315 Hz  -2.7 (acc  -2.7) ok 0.67 | Horn 3 +0.4, Bassoon 2 -2.0, Horn 4 -10.3
+44-46 Vla                2 A  -4.5 K  -3.6 Km  -8.4  best   250 Hz  +4.8 (acc  +4.8) ok 1.00 | Violins II -6.4, R Strings -10.3, Double basses -17.6
+47-54 harp               3 A  -8.7 K  -7.9 Km  -9.2  best   160 Hz  +8.2 (acc  +8.3) ok 0.97 | R Perc -7.8, R Strings -23.9, Double basses -24.5
+52-55 Cl1                1 A  -5.1 K  -5.6 Km  -7.7  best  1250 Hz  +1.0 (acc  +5.7) ok 0.90 | Violoncellos -0.9, Violas -12.9, R Winds -13.6
+56-63 Cl1+Hn2 counter    1 A -10.1 K  -8.5 Km -10.1  best   315 Hz  -2.4 (acc  -0.9) ok 0.98 | Violins II f62 -2.8, Bassoon 2 -6.4, Horn 4 -8.8
+56-61 celli figures      2 A -13.4 K -11.6 Km -13.4  best   125 Hz  +1.6 (acc  +1.6) ok 0.99 | Double basses -5.0, Harp -11.3, R Strings -12.9
+56-61 harp               3 A -14.1 K -13.5 Km -15.3  best   160 Hz  -3.6 (acc  -3.6) ok 0.81 | Violoncellos -0.6, Double basses -0.8, Horn 4 -7.0
+60-61 Vla                2 A -13.9 K -13.4 Km -15.0  best  1250 Hz  -7.7 (acc  -4.3) ok 0.77 | Violins II f62 +5.1, Horn 2 -1.5, Clarinet 1 -2.1
+64-68 Cl1+Hn2 counter    1 A  -6.3 K  -3.7 Km  -8.3  best   250 Hz  +1.6 (acc  +1.6) ok 0.99 | R Winds -8.4, Violins II -13.3, Violoncellos -13.8
+64-68 celli              2 A -13.3 K  -9.3 Km -13.6  best   200 Hz  +3.1 (acc  +3.1) ok 0.90 | Harp -7.0, Horn 4 -10.1, Double basses -10.5
+69-72 Vla eighths        2 A  -5.5 K  -4.3 Km -12.0  best   250 Hz  -2.2 (acc  -1.7) ok 0.98 | Trombone 2 -0.1, Timpani -5.1, Bassoon 1 -8.1
+69-72 P head (inner)     1 A  -3.6 K  -3.3 Km  -7.8  best   400 Hz  -2.2 (acc  -2.0) ok 1.00 | Violas -4.4, Horn 3 -6.0, Trumpet 2 -7.2
+77 Bcl solo              1 A  +nan K  +nan Km  -2.8  best   400 Hz  +8.2 (acc  +8.2) ok 1.00 | R Winds -11.5, Violas -23.6, Double basses -24.1
+78 Cl1                   1 A  +nan K  +nan Km  -5.8  best  1600 Hz  +5.2 (acc  +5.2) ok 1.00 | Violins II -9.9, R Winds -12.7, Violas -13.7
+78-79 Hn a2              1 A  +nan K  +nan Km  -5.1  best   400 Hz  +4.7 (acc  +4.7) ok 1.00 | Violoncellos -7.2, Double basses -11.7, R Strings -17.6
+79 Vc                    1 A  +nan K  +nan Km -11.6  best   100 Hz  +6.7 (acc  +6.7) ok 1.00 | Double basses -8.2, Timpani -15.5, R Strings -20.6
+88-90 Vc countersubject  1 A  -3.3 K  -1.7 Km  -6.8  best   200 Hz  +4.5 (acc  +4.7) ok 0.99 | Double basses -11.3, R Strings -11.8, Bassoon 1 stac -14.7
+91-93 Vla counter        1 A  -4.4 K  -2.4 Km  -7.2  best   315 Hz  -0.4 (acc  -0.4) ok 0.94 | Bass clarinet -4.4, Violoncellos -8.4, Bassoon 1 -10.4
+91-93 Vc counter         1 A  -6.5 K  -5.3 Km -10.4  best   160 Hz  +2.4 (acc  +2.4) ok 0.98 | Double basses -6.7, Bassoon 2 -9.1, Bassoon 1 -14.5
+91-93 Bn1                2 A  -7.8 K  -6.8 Km -11.9  best   200 Hz  -5.5 (acc  -5.5) ok 0.97 | Double basses +3.0, Bass clarinet +2.2, Violoncellos -0.9
+94-96 Vln II+CA counter  1 A  -3.0 K  -3.0 Km  -7.8  best   500 Hz  -1.8 (acc  -1.8) ok 1.00 | Bassoon 1 -2.6, Violas -3.4, Violoncellos -7.4
+94-96 Vla                1 A  -5.3 K  -4.2 Km  -8.7  best   400 Hz  +0.8 (acc  +0.8) ok 0.99 | Bass clarinet -4.2, Bassoon 1 -10.0, Double basses -10.1
+94-96 Vc                 2 A -10.2 K  -8.4 Km -12.7  best   160 Hz  -1.0 (acc  -1.0) ok 0.98 | Double basses -4.3, Bassoon 2 -7.9, R Strings -10.1
+97-102 Vla eighths       2 A -11.9 K -11.1 Km -14.1  best   315 Hz  -8.0 (acc  -5.3) ok 0.64 | Violins II +3.0, Horn 3 -0.7, Violoncellos -1.0
+97-102 answer figure     1 A  -4.2 K  -3.9 Km  -6.7  best   500 Hz  -1.9 (acc  -0.3) ok 1.00 | Violins II -4.9, Bassoon 2 -6.7, Violins I -9.6
+103-106 S head           1 A  +0.4 K  +3.2 Km  -2.7  best   500 Hz  +6.2 (acc  +6.3) ok 1.00 | Bassoon 2 -10.8, Horn 4 -15.8, R Brass -18.3
+103-106 Hn3-4            2 A -10.8 K  -8.5 Km -14.3  best   125 Hz  -8.7 (acc  -8.7) ok 0.80 | Double basses +8.5, Bass clarinet -2.4, Bassoon 2 -4.0
+103-106 Bcl              2 A -15.4 K -10.8 Km -16.5  best   100 Hz  -2.9 (acc  -2.9) ok 0.96 | Double basses +2.6, Bassoon 2 -9.5, R Winds -11.4
+107-110 Bcl espr.        1 A  -8.8 K  -6.4 Km -10.3  best   160 Hz  +2.6 (acc  +2.6) ok 1.00 | R Winds -8.6, Double basses -12.7, Violoncellos -22.2
+109-110 Fl1 espr.        1 A  +2.6 K  +2.1 Km  -3.2  best   800 Hz  +6.2 (acc  +9.7) ok 0.96 | Violas -7.2, R Winds -11.8, Bassoon 1 -17.3
+107-110 Vln II           2 A -11.9 K -11.1 Km -14.8  best   250 Hz  -6.3 (acc  -6.3) ok 1.00 | Bassoon 2 +2.1, Horn 3 +0.6, Bass clarinet -1.2
+111-116 Vla eighths      2 A  -7.9 K  -6.1 Km -16.8  best   250 Hz  -5.2 (acc  -5.2) ok 0.70 | Tuba +2.5, Bassoon 2 -3.1, Contrabassoon -8.0
+113-115 Tpt1-2           2 A  +1.4 K  +0.9 Km -10.1  best  1600 Hz  -3.0 (acc  -3.0) ok 0.69 | Oboe 2 -1.8, Clarinet 1 -3.9, Trumpet 3 -4.5
+113-116 Cl1/Hn1/Ob2      2 A  +0.6 K  +1.0 Km  -9.9  best  1600 Hz  -2.6 (acc  -2.6) ok 0.99 | Trumpet 1 -3.0, Trumpet 2 -4.1, Trumpet 3 -4.8
+117-121 Tbn motto        1 A  -2.6 K  -2.3 Km  -6.5  best   630 Hz  -1.2 (acc  -0.4) ok 1.00 | Horn 4 -6.3, Bassoon 2 -8.9, Contrabassoon -8.9
+117-121 triplets         2 A -12.1 K -10.3 Km -14.9  best   250 Hz  -1.4 (acc  -1.4) ok 0.75 | Trombone 1 -4.0, Contrabassoon -6.1, Bassoon 1 -6.5
+125-126 Hn1 espr.        1 A  -3.2 K  -2.0 Km  -7.2  best   500 Hz  +1.0 (acc  +3.5) ok 1.00 | Violins I -0.9, Bassoon 2 -5.7, Oboe 1 -8.6
+129-130 Vla (doubles Cl1) 3 A -12.0 K -13.8 Km -16.3  best  3150 Hz  -8.3 (acc  -5.3) ok 0.86 | Violins II +5.5, Clarinet 1 +5.2, Bassoon 1 -7.7
+130 stretto entries      1 A  -3.1 K  -5.4 Km  -8.4  best   500 Hz  +6.1 (acc  +6.1) ok 1.00 | Timpani -11.6, Violas -12.1, Double basses -17.8
+131-134 theme (tenor)    1 A  +1.8 K  +3.9 Km  -3.7  best   250 Hz  +3.5 (acc  +3.5) ok 1.00 | R Winds -10.2, Tuba -14.5, Timpani -14.8
+135-137 Vln II           2 A  -7.2 K  -6.4 Km -12.0  best  1000 Hz  -6.8 (acc  -6.6) ok 0.86 | Clarinet 1 +3.5, R Winds -4.8, Bassoon 1 -5.0
+139-142 Vla eighths      2 A -11.3 K -10.2 Km -14.7  best   315 Hz  -6.0 (acc  -6.0) ok 0.67 | Horn 2 -0.5, Contrabassoon -1.0, Tuba -3.3
+139-142 celli            2 A -12.0 K  -6.4 Km -11.0  best   200 Hz  +2.8 (acc  +2.8) ok 0.93 | Contrabassoon -8.7, Tuba -10.6, R Strings -10.6
+139-142 Bn1              2 A -15.2 K -13.8 Km -18.3  best   250 Hz -10.9 (acc -10.9) ok 0.37 | Violoncellos +6.5, Trombone 1 +1.7, Contrabassoon +1.6
+144 Bn1 answer           1 A  -6.1 K  -4.8 Km  -8.4  best   250 Hz  +5.9 (acc  +5.9) ok 1.00 | Horn 3 -6.3, R Winds -17.7, Double basses -18.7
+147-152 CA answers       1 A  -4.8 K  -6.9 Km  -8.4  best  1000 Hz  -0.6 (acc  +3.3) ok 0.96 | Horn 1 -4.5, Violas -6.1, Violoncellos -7.3
+152-153 Cl1              1 A  -5.7 K  -6.9 Km  -8.1  best  1250 Hz  +1.6 (acc  +6.5) ok 1.00 | Violas -3.4, Violoncellos -5.9, R Winds -15.2
+147-155 Bn               3 A -17.5 K -17.0 Km -18.0  best   500 Hz -10.7 (acc  -6.3) ok 0.82 | Horn 1 +6.0, Violas +5.0, Violoncellos +2.1
+156-157 Cl1 counter      1 A  -1.5 K  -1.8 Km  -7.2  best  1600 Hz  +1.6 (acc  +4.2) ok 0.96 | Violins I -7.0, Violins II -8.2, Violas -10.5
+156-157 Vla              2 A  -8.5 K  -6.3 Km -11.2  best   315 Hz  -3.2 (acc  -3.2) ok 0.91 | Horn 1 +3.0, Bassoon 1 -8.4, Bassoon 2 -9.3
+156-157 celli            2 A -11.3 K  -7.5 Km -13.0  best   200 Hz  -2.4 (acc  -2.4) ok 0.93 | Horn 3 -1.7, Double basses -2.3, Harp -5.6
+158-161 counter          1 A  -4.6 K  -4.6 Km  -7.7  best  1000 Hz  -1.8 (acc  +1.1) ok 0.99 | Flute 1 -3.8, Violins I -7.2, Trombone 1 -10.4
+162-166 Vln II           1 A  -6.8 K  -6.1 Km -10.6  best   400 Hz  -1.1 (acc  -1.1) ok 0.84 | Violas -4.8, R Strings -8.0, Bassoon 1 -9.0
+162-165 Vla              2 A  -9.8 K  -8.2 Km -13.1  best   315 Hz  -6.2 (acc  -6.2) ok 0.81 | Horn 1 +0.9, Violoncellos -0.7, Clarinet 1 -0.9
+162-166 celli            2 A -11.1 K  -7.3 Km -11.5  best   160 Hz  +1.3 (acc  +1.3) ok 0.97 | Harp -4.3, R Strings -8.0, Horn 4 -10.4
+164-166 Cl1              1 A  -2.5 K  -2.1 Km  -9.2  best   630 Hz  -1.7 (acc  -1.4) ok 0.98 | Violas -4.4, Horn 4 -5.0, Bassoon 1 -6.6
+167-170 Bn1+Vc counter   1 A  -4.4 K  -3.0 Km -10.5  best   315 Hz  -2.2 (acc  -0.7) ok 0.98 | Violas -3.5, Clarinet 2 -5.7, Contrabassoon -6.7
+171-174 CA counter       1 A  -4.6 K  -6.5 Km  -8.1  best  1250 Hz  +0.6 (acc  +1.5) ok 0.96 | R Winds -6.8, Cello solo -7.0, Violas -17.3
+171-174 Vla              2 A -13.5 K -13.4 Km -14.7  best   200 Hz  -2.1 (acc  -0.2) ok 1.00 | Cello solo -2.2, Timpani -2.5, R Strings -9.1
+175-177 Cl1 horn call    1 A  +7.1 K  +6.3 Km  -4.8  best  1600 Hz  +5.7 (acc  +5.8) ok 0.88 | Violins I -11.4, Violins II -11.6, Violas -12.9
+175-178 Vln II           2 A  -1.8 K  -3.6 Km -13.2  best  1000 Hz  -7.9 (acc  -7.0) ok 0.98 | Clarinet 1 +4.5, Trombone 1 +0.8, Bass clarinet -1.7

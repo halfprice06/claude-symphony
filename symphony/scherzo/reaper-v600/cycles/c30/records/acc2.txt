@@ -1,0 +1,20 @@
+c29 Flute 1 Flute 1 36-1020: 20 accents (vs detached note before): median -0.5, p90 +4.2, over +3: 5; peak at 0.04 s; first 100 ms - 150-350 ms +1.0
+c30 Flute 1 Flute 1 36-1020: 20 accents (vs detached note before): median -1.0, p90 +4.2, over +3: 5; peak at 0.05 s; first 100 ms - 150-350 ms +1.0
+c29 Flute 2 Flute 2 36-1020: 7 accents (vs detached note before): median -0.9, p90 +2.4, over +3: 1; peak at 0.06 s; first 100 ms - 150-350 ms +3.6
+c30 Flute 2 Flute 2 36-1020: 7 accents (vs detached note before): median -2.7, p90 +1.2, over +3: 1; peak at 0.08 s; first 100 ms - 150-350 ms +3.6
+c29 Oboe 1 Oboe 1 36-1020: 20 accents (vs detached note before): median -2.6, p90 +2.7, over +3: 1; peak at 0.22 s; first 100 ms - 150-350 ms -0.4
+c30 Oboe 1 Oboe 1 36-1020: 20 accents (vs detached note before): median -3.0, p90 +2.7, over +3: 1; peak at 0.22 s; first 100 ms - 150-350 ms -0.4
+c29 Cor anglais Cor anglais 36-1020: 16 accents (vs detached note before): median -3.0, p90 +1.2, over +3: 0; peak at 0.18 s; first 100 ms - 150-350 ms -3.3
+c30 Cor anglais Cor anglais 36-1020: 16 accents (vs detached note before): median -3.0, p90 +1.2, over +3: 0; peak at 0.18 s; first 100 ms - 150-350 ms -3.3
+c29 Clarinet 2 Clarinet 2 36-1020: 9 accents (vs detached note before): median -3.2, p90 +3.4, over +3: 1; peak at 0.19 s; first 100 ms - 150-350 ms -0.9
+c30 Clarinet 2 Clarinet 2 36-1020: 9 accents (vs detached note before): median -4.7, p90 +3.3, over +3: 1; peak at 0.22 s; first 100 ms - 150-350 ms -1.1
+c29 Violins I Violins I 36-1020: 29 accents (vs detached note before): median -3.8, p90 +1.7, over +3: 0; peak at 0.18 s; first 100 ms - 150-350 ms -2.7
+c30 Violins I Violins I 36-1020: 29 accents (vs detached note before): median -3.8, p90 +1.7, over +3: 0; peak at 0.18 s; first 100 ms - 150-350 ms -2.7
+c29 Violins II Violins II 36-1020: 18 accents (vs detached note before): median -2.3, p90 +12.6, over +3: 6; peak at 0.23 s; first 100 ms - 150-350 ms -2.6
+c30 Violins II Violins II 36-1020: 18 accents (vs detached note before): median -2.2, p90 +12.6, over +3: 6; peak at 0.23 s; first 100 ms - 150-350 ms -2.6
+c29 Violas Violas 36-1020: 12 accents (vs detached note before): median +0.2, p90 +3.2, over +3: 3; peak at 0.07 s; first 100 ms - 150-350 ms +0.2
+c30 Violas Violas 36-1020: 12 accents (vs detached note before): median +0.2, p90 +3.2, over +3: 3; peak at 0.07 s; first 100 ms - 150-350 ms +0.2
+c29 Violoncellos Violoncellos 36-1020: 10 accents (vs detached note before): median +0.8, p90 +4.5, over +3: 3; peak at 0.14 s; first 100 ms - 150-350 ms -1.2
+c30 Violoncellos Violoncellos 36-1020: 10 accents (vs detached note before): median +0.9, p90 +4.5, over +3: 3; peak at 0.14 s; first 100 ms - 150-350 ms -1.2
+c29 Double basses Double basses 36-1020: 1 accents (vs detached note before): median -12.2, p90 -12.2, over +3: 0; peak at 0.40 s; first 100 ms - 150-350 ms -5.1
+c30 Double basses Double basses 36-1020: 1 accents (vs detached note before): median -12.2, p90 -12.2, over +3: 0; peak at 0.40 s; first 100 ms - 150-350 ms -5.1

@@ -1,0 +1,263 @@
+track               n  med49 medNew  shift >=25 | new: ok A B C D na | base: ok A B C D
+Flute 1            53     +7     +6   +0.0    9 |  48  1  2  2  0  0 |  42  5  2  3  0
+      moved  110.000:   +65 ->   +15 ms
+      moved  111.000:   -61 ->   -24 ms  (lead -60 ms)
+      moved  113.000:  +102 ->   +74 ms  (lead +50 ms)
+      moved  113.500:   +99 ->   +45 ms  (lead +60 ms)
+      moved  117.333:   +48 ->   +15 ms
+      moved  120.000:   +82 ->   +13 ms
+      moved  121.500:   +75 ->   +34 ms
+      moved  132.000:    -6 ->   -41 ms
+      moved  135.000:  -163 ->   -64 ms  (lead -100 ms)
+Oboe 1             32    +31    +26   +0.0    6 |  28  1  3  0  0  0 |  24  4  4  0  0
+      moved   57.000:   +94 ->   +17 ms  (lead +80 ms)
+      moved  140.000:  +132 ->   +49 ms
+      moved  193.500:  +140 ->   -34 ms  (lead +50 ms)
+      moved  200.000:   +76 ->    -7 ms
+      moved  269.500:  +124 ->   +84 ms  (lead +50 ms)
+      moved  271.000:   -23 ->   +31 ms
+Cor anglais        28    +35    -14   +0.0    6 |  18  0 10  0  0  0 |  16  0 12  0  0
+      moved   97.000:  +127 ->   -28 ms
+      moved  130.000:   +39 ->   -19 ms
+      moved  131.500:    +4 ->   -47 ms
+      moved  156.000:   +48 ->   -19 ms
+      moved  166.000:   +35 ->   -23 ms
+      moved  168.000:   +82 ->   -21 ms
+Clarinet 1         20     +9     +7   +0.0    1 |  18  0  2  0  0  0 |  17  0  3  0  0
+      moved  259.000:  +128 ->    +2 ms
+Clarinet 2          7    +45     +2  -39.9    7 |   7  0  0  0  0  0 |   7  0  0  0  0
+      moved  194.000:   +47 ->    -9 ms  (lead +40 ms)
+      moved  195.000:   +45 ->    +7 ms  (lead +40 ms)
+      moved  196.000:   +36 ->    -4 ms  (lead +40 ms)
+      moved  244.000:   +37 ->   -37 ms
+      moved  246.000:   +39 ->    +2 ms  (lead +40 ms)
+      moved  248.000:   +52 ->   +14 ms  (lead +40 ms)
+      moved  252.000:   +47 ->    +7 ms  (lead +40 ms)
+Bass clarinet      18    +20    +19   +0.0    1 |  14  0  4  0  0  0 |  13  1  4  0  0
+      moved   31.000:   +60 ->   +19 ms  (lead +40 ms)
+Bassoon 1          30    +20    +16   +0.0    6 |  26  1  3  0  0  0 |  25  2  3  0  0
+      moved  100.000:   +59 ->   -34 ms
+      moved  143.000:  +175 ->   +89 ms  (lead +100 ms)
+      moved  200.000:  +172 ->   +17 ms
+      moved  232.000:   +40 ->   +13 ms
+      moved  253.000:  +250 ->   +85 ms
+      moved  262.000:    +6 ->   -49 ms
+Bassoon 2          14    +28    +18   +0.0    2 |  10  0  4  0  0  0 |   9  1  4  0  0
+      moved   31.000:  +208 ->  +112 ms
+      moved  243.000:  +111 ->    +7 ms
+Horn 1             41    -16    -16   +0.0    4 |  34  0  2  3  2  0 |  34  0  4  1  2
+      moved   32.000:  +129 ->   +22 ms
+      moved  192.000:  +133 ->   +15 ms
+      moved  193.000:   -97 ->   -67 ms  (lead -100 ms)
+      moved  201.000:   -35 ->   -84 ms
+Horn 2              5     +2     +2   +0.0    0 |   4  0  1  0  0  0 |   4  0  1  0  0
+Horn 3              4    -19    -19   +0.0    0 |   4  0  0  0  0  0 |   4  0  0  0  0
+Horn 4              4    +62     +9  -49.0    2 |   3  0  0  1  0  0 |   2  2  0  0  0
+      moved  268.000:  +110 ->   -68 ms  (lead +100 ms)
+      moved  292.000:  +137 ->   +39 ms  (lead +100 ms)
+Trombone 1          4    -24    -24   +0.0    1 |   3  0  0  1  0  0 |   4  0  0  0  0
+      moved  217.500:   -38 ->   -73 ms
+Violins I          86    +17    +13   +0.0   17 |  65  6 10  2  3  0 |  56 17  6  4  3
+      moved   67.500:   -70 ->   -10 ms  (lead -60 ms)
+      moved   72.000:   +72 ->   +17 ms  (lead +70 ms)
+      moved   74.000:   +66 ->    +0 ms  (lead +70 ms)
+      moved   79.500:  +146 ->  +108 ms  (lead +40 ms)
+      moved  174.500:   +70 ->   +12 ms  (lead +50 ms)
+      moved  182.000:   +74 ->   +40 ms  (lead +50 ms)
+      moved  185.500:   +95 ->   +27 ms  (lead +70 ms)
+      moved  186.000:  +110 ->   +53 ms  (lead +60 ms)
+      moved  192.000:  +137 ->   +67 ms  (lead +70 ms)
+      moved  195.500:   +85 ->   -18 ms
+      moved  196.000:    +9 ->   +93 ms
+      moved  197.500:   -51 ->   +50 ms
+      moved  242.000:   -78 ->    +2 ms
+      moved  251.500:   +34 ->   -27 ms
+      moved  252.000:  +116 ->  +164 ms  (lead +60 ms)
+      moved  258.500:  +211 ->  +120 ms  (lead +90 ms)
+      moved  262.000:  +101 ->    +2 ms
+Violins II        114    +18    +19   +0.0   17 |  74  9 16  9  6  0 |  72 11 13 11  7
+      moved   56.000:   -92 ->   -13 ms  (lead -80 ms)
+      moved   60.000:  +101 ->   -18 ms
+      moved   70.000:  -123 ->   -23 ms  (lead -100 ms)
+      moved   73.500:   -26 ->  +221 ms
+      moved   82.000:  +173 ->   +50 ms
+      moved   85.000:    +6 ->  +128 ms
+      moved  162.000:  +168 ->   +67 ms  (lead +100 ms)
+      moved  177.000:  -124 ->   -80 ms
+      moved  177.500:  +154 ->   +85 ms  (lead +80 ms)
+      moved  181.333:  +116 ->   +19 ms  (lead +99 ms)
+      moved  186.000:   +85 ->   +20 ms  (lead +81 ms)
+      moved  195.500:  -124 ->   -25 ms  (lead -100 ms)
+      moved  196.000:   +10 ->  +117 ms
+      moved  197.500:   -30 ->  -125 ms
+      moved  198.000:   +47 ->   +76 ms
+      moved  247.000:   -69 ->    -5 ms  (lead -70 ms)
+      moved  249.500:   -28 ->   +83 ms
+Violas            134     +4     +4   +0.0   11 |  93  8 17  5 11  0 |  92  9 16  6 11
+      moved   70.000:   +33 ->   +83 ms
+      moved   72.000:   +75 ->   +46 ms
+      moved  109.000:   +57 ->  +137 ms
+      moved  109.333:   -67 ->   +14 ms  (lead -70 ms)
+      moved  193.667:   +99 ->   +17 ms  (lead +96 ms)
+      moved  195.667:   +69 ->    -0 ms  (lead +70 ms)
+      moved  249.500:   +55 ->  +141 ms
+      moved  250.000:   +65 ->   -22 ms  (lead +50 ms)
+      moved  255.500:   +49 ->   +81 ms
+      moved  256.000:   -30 ->  +113 ms
+      moved  292.000:   +68 ->   +16 ms  (lead +50 ms)
+Violoncellos      105     +2     +2   +0.0    9 |  76  6 13  9  1  0 |  71  8 13 11  2
+      moved   60.000:   -64 ->    -0 ms  (lead -60 ms)
+      moved   76.000:   -71 ->   -18 ms  (lead -60 ms)
+      moved   77.000:   +96 ->   +43 ms  (lead +70 ms)
+      moved  145.500:  +302 ->  +231 ms  (lead +100 ms)
+      moved  202.000:   -19 ->   +33 ms
+      moved  240.000:   -77 ->   -30 ms  (lead -60 ms)
+      moved  246.000:   +14 ->   +81 ms
+      moved  255.000:  +111 ->   -36 ms
+      moved  258.000:  +190 ->   +45 ms
+Double basses       3     +0    +63  +63.0    2 |   1  0  2  0  0  0 |   1  0  1  1  0
+      moved   83.000:  -108 ->   -36 ms  (lead -100 ms)
+      moved  146.000:    +0 ->   +63 ms
+Violin I solo       9     +9     +9   +0.0    0 |   8  0  1  0  0  0 |   8  0  1  0  0
+Violoncellos div    7     +1     +1   +0.0    0 |   6  0  0  0  1  0 |   6  0  0  0  1
+Violas div          6    +80    +80   +0.0    2 |   2  2  2  0  0  0 |   2  2  2  0  0
+      moved   87.000:   -41 ->    +1 ms
+      moved  283.000:  +139 ->  +103 ms
+Horns 1-2 a2        3    -18    -18   +0.0    0 |   3  0  0  0  0  0 |   3  0  0  0  0
+ALL new: n 727 within +-60 ms 545 | A 34 B 92 C 32 D 24 na 0
+ALL base (same joins): n 726 within +-60 ms 512 | A 62 B 89 C 37 D 26
+tracks whose median moved more than 20 ms: ['Clarinet 2', 'Horn 4', 'Double basses']
+
+--- against r1 (the rebuild alone)
+track               n  med49 medNew  shift >=25 | new: ok A B C D na | base: ok A B C D
+Flute 1            53     +7     +6   +0.0    9 |  48  1  2  2  0  0 |  43  5  2  3  0
+      moved  110.000:   +66 ->   +15 ms
+      moved  111.000:   -61 ->   -24 ms  (lead -60 ms)
+      moved  113.000:  +102 ->   +74 ms  (lead +50 ms)
+      moved  113.500:   +99 ->   +45 ms  (lead +60 ms)
+      moved  117.333:   +48 ->   +15 ms
+      moved  120.000:   +82 ->   +13 ms
+      moved  121.500:   +75 ->   +34 ms
+      moved  132.000:    -6 ->   -41 ms
+      moved  135.000:  -163 ->   -64 ms  (lead -100 ms)
+Oboe 1             32    +31    +26   +0.0    6 |  28  1  3  0  0  0 |  24  4  4  0  0
+      moved   57.000:   +94 ->   +17 ms  (lead +80 ms)
+      moved  140.000:  +132 ->   +49 ms
+      moved  193.500:  +140 ->   -34 ms  (lead +50 ms)
+      moved  200.000:   +76 ->    -7 ms
+      moved  269.500:  +124 ->   +84 ms  (lead +50 ms)
+      moved  271.000:   -23 ->   +31 ms
+Cor anglais        28    +37    -14   +0.0    6 |  18  0 10  0  0  0 |  16  0 12  0  0
+      moved   97.000:  +127 ->   -28 ms
+      moved  130.000:   +39 ->   -19 ms
+      moved  131.500:    +4 ->   -47 ms
+      moved  156.000:   +48 ->   -19 ms
+      moved  166.000:   +35 ->   -23 ms
+      moved  168.000:   +82 ->   -21 ms
+Clarinet 1         20     +9     +7   +0.0    1 |  18  0  2  0  0  0 |  17  0  3  0  0
+      moved  259.000:  +128 ->    +2 ms
+Clarinet 2          7    +45     +2  -39.9    7 |   7  0  0  0  0  0 |   7  0  0  0  0
+      moved  194.000:   +47 ->    -9 ms  (lead +40 ms)
+      moved  195.000:   +45 ->    +7 ms  (lead +40 ms)
+      moved  196.000:   +36 ->    -4 ms  (lead +40 ms)
+      moved  244.000:   +37 ->   -37 ms
+      moved  246.000:   +39 ->    +2 ms  (lead +40 ms)
+      moved  248.000:   +52 ->   +14 ms  (lead +40 ms)
+      moved  252.000:   +47 ->    +7 ms  (lead +40 ms)
+Bass clarinet      18    +20    +19   +0.0    1 |  14  0  4  0  0  0 |  13  1  4  0  0
+      moved   31.000:   +60 ->   +19 ms  (lead +40 ms)
+Bassoon 1          30    +20    +16   +0.0    6 |  26  1  3  0  0  0 |  25  2  3  0  0
+      moved  100.000:   +59 ->   -34 ms
+      moved  143.000:  +175 ->   +89 ms  (lead +100 ms)
+      moved  200.000:  +172 ->   +17 ms
+      moved  232.000:   +40 ->   +13 ms
+      moved  253.000:  +250 ->   +85 ms
+      moved  262.000:    +6 ->   -49 ms
+Bassoon 2          14    +28    +18   +0.0    2 |  10  0  4  0  0  0 |   9  1  4  0  0
+      moved   31.000:  +208 ->  +112 ms
+      moved  243.000:  +111 ->    +7 ms
+Horn 1             41    -16    -16   +0.0    4 |  34  0  2  3  2  0 |  34  0  4  1  2
+      moved   32.000:  +129 ->   +22 ms
+      moved  192.000:  +133 ->   +15 ms
+      moved  193.000:   -97 ->   -67 ms  (lead -100 ms)
+      moved  201.000:   -35 ->   -84 ms
+Horn 2              5     +2     +2   +0.0    0 |   4  0  1  0  0  0 |   4  0  1  0  0
+Horn 3              4    -19    -19   +0.0    0 |   4  0  0  0  0  0 |   4  0  0  0  0
+Horn 4              4    +62     +9  -49.0    2 |   3  0  0  1  0  0 |   2  2  0  0  0
+      moved  268.000:  +110 ->   -68 ms  (lead +100 ms)
+      moved  292.000:  +137 ->   +39 ms  (lead +100 ms)
+Trombone 1          4    -24    -24   +0.0    1 |   3  0  0  1  0  0 |   4  0  0  0  0
+      moved  217.500:   -38 ->   -73 ms
+Violins I          86    +15    +13   +0.0   16 |  65  6 10  2  3  0 |  57 16  6  4  3
+      moved   67.500:   -70 ->   -10 ms  (lead -60 ms)
+      moved   72.000:   +72 ->   +17 ms  (lead +70 ms)
+      moved   74.000:   +66 ->    +0 ms  (lead +70 ms)
+      moved   79.500:  +146 ->  +108 ms  (lead +40 ms)
+      moved  174.500:   +70 ->   +12 ms  (lead +50 ms)
+      moved  182.000:   +74 ->   +40 ms  (lead +50 ms)
+      moved  185.500:   +95 ->   +27 ms  (lead +70 ms)
+      moved  186.000:  +110 ->   +53 ms  (lead +60 ms)
+      moved  192.000:  +137 ->   +67 ms  (lead +70 ms)
+      moved  196.000:    +9 ->   +93 ms
+      moved  197.500:   -51 ->   +50 ms
+      moved  242.000:   -78 ->    +2 ms
+      moved  251.500:   +34 ->   -27 ms
+      moved  252.000:  +116 ->  +164 ms  (lead +60 ms)
+      moved  258.500:  +211 ->  +120 ms  (lead +90 ms)
+      moved  269.000:  +100 ->    -4 ms
+Violins II        114    +20    +19   +0.0   19 |  74  9 16  9  6  0 |  69 13 14 12  6
+      moved   56.000:   -92 ->   -13 ms  (lead -80 ms)
+      moved   60.000:  +101 ->   -18 ms
+      moved   70.000:  -123 ->   -23 ms  (lead -100 ms)
+      moved   73.500:   -26 ->  +221 ms
+      moved   82.000:  +173 ->   +50 ms
+      moved   85.000:    +6 ->  +128 ms
+      moved  162.000:  +168 ->   +67 ms  (lead +100 ms)
+      moved  177.000:  -124 ->   -80 ms
+      moved  177.500:  +154 ->   +85 ms  (lead +80 ms)
+      moved  181.333:  +116 ->   +19 ms  (lead +99 ms)
+      moved  186.000:   +85 ->   +20 ms  (lead +81 ms)
+      moved  191.500:  +149 ->   -11 ms
+      moved  195.500:  -124 ->   -25 ms  (lead -100 ms)
+      moved  196.000:   +10 ->  +117 ms
+      moved  197.500:   +41 ->  -125 ms
+      moved  247.000:   -69 ->    -5 ms  (lead -70 ms)
+      moved  249.500:   -28 ->   +83 ms
+      moved  266.000:   -69 ->   +33 ms
+      moved  268.000:   +93 ->   -64 ms
+Violas            134     +4     +4   +0.0   12 |  93  8 17  5 11  0 |  91  9 17  6 11
+      moved   70.000:   +33 ->   +83 ms
+      moved   72.000:   +75 ->   +46 ms
+      moved  109.000:   +57 ->  +137 ms
+      moved  109.333:   -67 ->   +14 ms  (lead -70 ms)
+      moved  193.000:  +118 ->   +43 ms
+      moved  193.667:  +100 ->   +17 ms  (lead +96 ms)
+      moved  195.667:   +69 ->    -0 ms  (lead +70 ms)
+      moved  249.500:   +55 ->  +141 ms
+      moved  250.000:   +65 ->   -22 ms  (lead +50 ms)
+      moved  255.500:   +49 ->   +81 ms
+      moved  256.000:   -30 ->  +113 ms
+      moved  292.000:   +68 ->   +16 ms  (lead +50 ms)
+Violoncellos      105     +2     +2   +0.0   10 |  76  6 13  9  1  0 |  71  8 13 11  2
+      moved   60.000:   -64 ->    -0 ms  (lead -60 ms)
+      moved   76.000:   -71 ->   -18 ms  (lead -60 ms)
+      moved   77.000:   +96 ->   +43 ms  (lead +70 ms)
+      moved  145.500:  +302 ->  +231 ms  (lead +100 ms)
+      moved  192.000:   +56 ->   +23 ms
+      moved  202.000:   -19 ->   +33 ms
+      moved  240.000:   -77 ->   -30 ms  (lead -60 ms)
+      moved  246.000:   +14 ->   +81 ms
+      moved  255.000:  +111 ->   -36 ms
+      moved  258.000:  +190 ->   +45 ms
+Double basses       3     +0    +63  +63.0    2 |   1  0  2  0  0  0 |   1  0  1  1  0
+      moved   83.000:  -108 ->   -36 ms  (lead -100 ms)
+      moved  146.000:    +0 ->   +63 ms
+Violin I solo       9     +9     +9   +0.0    0 |   8  0  1  0  0  0 |   8  0  1  0  0
+Violoncellos div    7     +1     +1   +0.0    0 |   6  0  0  0  1  0 |   6  0  0  0  1
+Violas div          6    +80    +80   +0.0    2 |   2  2  2  0  0  0 |   2  2  2  0  0
+      moved   87.000:   -41 ->    +1 ms
+      moved  283.000:  +139 ->  +103 ms
+Horns 1-2 a2        3    -18    -18   +0.0    0 |   3  0  0  0  0  0 |   3  0  0  0  0
+ALL new: n 727 within +-60 ms 545 | A 34 B 92 C 32 D 24 na 0
+ALL base (same joins): n 727 within +-60 ms 510 | A 63 B 91 C 38 D 25
+tracks whose median moved more than 20 ms: ['Clarinet 2', 'Horn 4', 'Double basses']

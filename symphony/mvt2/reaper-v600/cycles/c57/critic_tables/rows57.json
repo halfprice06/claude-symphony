@@ -1,0 +1,2285 @@
+[
+{
+"tr": "Flute 1",
+"q0": 90,
+"q1": 108,
+"db": 2.6,
+"n": 1,
+"sample": 2.55,
+"shape": 0.0,
+"phrase": 0.0,
+"resid": 0.05,
+"cc11": 54.0,
+"top": {
+"pitch trim:level": 2.55,
+"role:level": 0.0,
+"role:shape": 0.0
+},
+"sound_qn": 1.1
+},
+{
+"tr": "Flute 1",
+"q0": 108,
+"q1": 140,
+"db": 2.2,
+"n": 30,
+"sample": 1.73,
+"shape": 0.33,
+"phrase": 0.11,
+"resid": 0.03,
+"cc11": 53.8,
+"top": {
+"pitch trim:level": 1.29,
+"early fill:shape": 0.62,
+"note trim:level": 0.44,
+"level shape:shape": -0.56,
+"role:level": 0.0
+},
+"sound_qn": 29.2
+},
+{
+"tr": "Flute 1",
+"q0": 204,
+"q1": 220,
+"db": -2.6,
+"n": 2,
+"sample": -1.92,
+"shape": 0.54,
+"phrase": 0.06,
+"resid": -1.28,
+"cc11": 120.6,
+"top": {
+"sost hold:shape": 0.66,
+"accent:shape": 0.16,
+"role:level": 0.06,
+"pitch trim:level": -1.92,
+"role:shape": -0.28
+},
+"sound_qn": 9.0
+},
+{
+"tr": "Flute 1",
+"q0": 238,
+"q1": 262,
+"db": -0.6,
+"n": 10,
+"sample": -0.96,
+"shape": -0.09,
+"phrase": 0.0,
+"resid": 0.46,
+"cc11": 84.0,
+"top": {
+"early fill:shape": 0.24,
+"sost hold:shape": 0.13,
+"role:level": 0.0,
+"pitch trim:level": -0.96,
+"role:shape": -0.41
+},
+"sound_qn": 6.0
+},
+{
+"tr": "Flute 1",
+"q0": 262,
+"q1": 274,
+"db": -6.1,
+"n": 8,
+"sample": -1.25,
+"shape": 0.01,
+"phrase": -0.79,
+"resid": -4.07,
+"cc11": 87.3,
+"top": {
+"note trim:level": 0.67,
+"swell:shape": 0.29,
+"early fill:shape": 0.22,
+"pitch trim:level": -1.92,
+"role:level": -0.79
+},
+"sound_qn": 12.1
+},
+{
+"tr": "Flute 2",
+"q0": 204,
+"q1": 220,
+"db": -1.3,
+"n": 4,
+"sample": 0.0,
+"shape": 1.1,
+"phrase": 0.0,
+"resid": -2.4,
+"cc11": 120.4,
+"top": {
+"sost hold:shape": 0.97,
+"swell:shape": 0.13,
+"role:level": 0.0,
+"role:shape": 0.0
+},
+"sound_qn": 8.1
+},
+{
+"tr": "Flute 2",
+"q0": 262,
+"q1": 274,
+"db": -2.9,
+"n": 3,
+"sample": -2.02,
+"shape": 0.43,
+"phrase": -0.19,
+"resid": -1.12,
+"cc11": 114.9,
+"top": {
+"swell:shape": 0.43,
+"role:level": 0.0,
+"role:shape": 0.0,
+"note trim:level": -2.02,
+"level shape:level": -0.19
+},
+"sound_qn": 6.9
+},
+{
+"tr": "Oboe 1",
+"q0": 140,
+"q1": 172,
+"db": 3.4,
+"n": 9,
+"sample": 1.77,
+"shape": 1.77,
+"phrase": 0.26,
+"resid": -0.4,
+"cc11": 56.8,
+"top": {
+"note trim:level": 1.77,
+"early fill:shape": 0.89,
+"role:shape": 0.7,
+"level shape:shape": -0.04,
+"role:level": 0.0
+},
+"sound_qn": 11.2
+},
+{
+"tr": "Oboe 1",
+"q0": 172,
+"q1": 204,
+"db": 0.9,
+"n": 12,
+"sample": -0.35,
+"shape": 0.9,
+"phrase": 0.46,
+"resid": -0.11,
+"cc11": 78.4,
+"top": {
+"early fill:shape": 0.9,
+"role:level": 0.46,
+"role:shape": 0.0,
+"note trim:level": -0.35
+},
+"sound_qn": 16.0
+},
+{
+"tr": "Oboe 1",
+"q0": 204,
+"q1": 220,
+"db": -2.1,
+"n": 2,
+"sample": 0.0,
+"shape": 0.65,
+"phrase": -1.96,
+"resid": -0.79,
+"cc11": 120.3,
+"top": {
+"sost hold:shape": 0.52,
+"swell:shape": 0.13,
+"role:shape": 0.0,
+"role:level": -1.96
+},
+"sound_qn": 8.1
+},
+{
+"tr": "Oboe 1",
+"q0": 262,
+"q1": 274,
+"db": -3.3,
+"n": 8,
+"sample": -1.33,
+"shape": 1.11,
+"phrase": -0.65,
+"resid": -2.43,
+"cc11": 91.3,
+"top": {
+"early fill:shape": 0.79,
+"swell:shape": 0.32,
+"role:shape": 0.0,
+"note trim:level": -1.33,
+"role:level": -0.65
+},
+"sound_qn": 11.1
+},
+{
+"tr": "Oboe 1",
+"q0": 108,
+"q1": 140,
+"db": 4.7,
+"n": 1,
+"sample": 4.68,
+"shape": 0.67,
+"phrase": -1.15,
+"resid": 0.51,
+"cc11": 75.2,
+"top": {
+"note trim:level": 4.68,
+"early fill:shape": 0.67,
+"role:shape": 0.0,
+"phrase top:level": -1.15
+},
+"sound_qn": 1.1
+},
+{
+"tr": "Cor anglais",
+"q0": 90,
+"q1": 108,
+"db": -2.0,
+"n": 4,
+"sample": 0.0,
+"shape": 0.95,
+"phrase": -3.04,
+"resid": 0.09,
+"cc11": 49.5,
+"top": {
+"early fill:shape": 0.52,
+"swell:shape": 0.43,
+"role:shape": 0.0,
+"role:level": -3.04
+},
+"sound_qn": 9.1
+},
+{
+"tr": "Cor anglais",
+"q0": 108,
+"q1": 140,
+"db": 2.9,
+"n": 14,
+"sample": 1.48,
+"shape": 1.67,
+"phrase": 0.17,
+"resid": -0.42,
+"cc11": 61.0,
+"top": {
+"early fill:shape": 1.44,
+"pitch trim:level": 1.41,
+"phrase top:level": 0.17,
+"role:level": 0.0,
+"role:shape": 0.0
+},
+"sound_qn": 15.2
+},
+{
+"tr": "Cor anglais",
+"q0": 262,
+"q1": 274,
+"db": -1.0,
+"n": 4,
+"sample": -0.44,
+"shape": 0.35,
+"phrase": 0.0,
+"resid": -0.92,
+"cc11": 91.4,
+"top": {
+"swell:shape": 0.32,
+"early fill:shape": 0.04,
+"role:level": 0.0,
+"note trim:level": -0.44
+},
+"sound_qn": 11.0
+},
+{
+"tr": "Cor anglais",
+"q0": 274,
+"q1": 304,
+"db": 2.0,
+"n": 3,
+"sample": 0.78,
+"shape": 0.61,
+"phrase": -2.0,
+"resid": 2.6,
+"cc11": 36.3,
+"top": {
+"pitch trim:level": 0.78,
+"swell:shape": 0.33,
+"early fill:shape": 0.28,
+"role:level": -2.0,
+"role:shape": 0.0
+},
+"sound_qn": 11.1
+},
+{
+"tr": "Cor anglais",
+"q0": 172,
+"q1": 204,
+"db": 2.8,
+"n": 1,
+"sample": 2.69,
+"shape": 0.0,
+"phrase": 0.0,
+"resid": 0.11,
+"cc11": 43.5,
+"top": {
+"pitch trim:level": 2.69,
+"role:level": 0.0,
+"role:shape": 0.0
+},
+"sound_qn": 2.0
+},
+{
+"tr": "Clarinet 1",
+"q0": 204,
+"q1": 220,
+"db": 0.5,
+"n": 2,
+"sample": 0.0,
+"shape": 0.68,
+"phrase": 0.0,
+"resid": -0.18,
+"cc11": 120.4,
+"top": {
+"sost hold:shape": 0.55,
+"swell:shape": 0.13,
+"role:level": 0.0,
+"role:shape": 0.0
+},
+"sound_qn": 8.1
+},
+{
+"tr": "Clarinet 1",
+"q0": 238,
+"q1": 262,
+"db": 3.9,
+"n": 6,
+"sample": 1.15,
+"shape": 0.59,
+"phrase": 0.64,
+"resid": 1.52,
+"cc11": 80.1,
+"top": {
+"pitch trim:level": 1.15,
+"role:level": 0.64,
+"sost hold:shape": 0.29,
+"role:shape": 0.0,
+"swell:shape": 0.0
+},
+"sound_qn": 5.2
+},
+{
+"tr": "Clarinet 1",
+"q0": 262,
+"q1": 274,
+"db": -1.8,
+"n": 8,
+"sample": -0.93,
+"shape": 0.67,
+"phrase": 0.02,
+"resid": -1.56,
+"cc11": 87.3,
+"top": {
+"early fill:shape": 0.36,
+"pitch trim:level": 0.33,
+"swell:shape": 0.3,
+"note trim:level": -1.26,
+"role:shape": 0.0
+},
+"sound_qn": 11.9
+},
+{
+"tr": "Clarinet 2",
+"q0": 0,
+"q1": 18,
+"db": 9.4,
+"n": 3,
+"sample": 8.34,
+"shape": 0.58,
+"phrase": 0.0,
+"resid": 0.48,
+"cc11": 33.6,
+"top": {
+"note trim:level": 8.34,
+"swell:shape": 0.58,
+"role:level": 0.0,
+"pitch trim:level": 0.0
+},
+"sound_qn": 11.1
+},
+{
+"tr": "Clarinet 2",
+"q0": 172,
+"q1": 204,
+"db": 2.4,
+"n": 5,
+"sample": 0.94,
+"shape": 0.19,
+"phrase": 0.0,
+"resid": 1.27,
+"cc11": 84.2,
+"top": {
+"pitch trim:level": 0.94,
+"early fill:shape": 0.1,
+"swell:shape": 0.09,
+"role:level": 0.0,
+"sost hold:shape": 0.0
+},
+"sound_qn": 12.1
+},
+{
+"tr": "Clarinet 2",
+"q0": 204,
+"q1": 220,
+"db": 0.8,
+"n": 4,
+"sample": 0.74,
+"shape": 0.68,
+"phrase": 0.0,
+"resid": -0.63,
+"cc11": 119.6,
+"top": {
+"pitch trim:level": 0.74,
+"sost hold:shape": 0.56,
+"swell:shape": 0.13,
+"role:level": 0.0,
+"early fill:shape": 0.0
+},
+"sound_qn": 8.1
+},
+{
+"tr": "Bass clarinet",
+"q0": 0,
+"q1": 18,
+"db": 0.5,
+"n": 3,
+"sample": 0.0,
+"shape": 0.46,
+"phrase": 0.0,
+"resid": 0.04,
+"cc11": 32.5,
+"top": {
+"swell:shape": 0.46,
+"role:level": 0.0,
+"role:shape": 0.0
+},
+"sound_qn": 11.1
+},
+{
+"tr": "Bass clarinet",
+"q0": 18,
+"q1": 42,
+"db": 0.6,
+"n": 15,
+"sample": -1.15,
+"shape": 0.32,
+"phrase": 0.0,
+"resid": 1.43,
+"cc11": 33.5,
+"top": {
+"swell:shape": 0.31,
+"early fill:shape": 0.19,
+"role:level": 0.0,
+"note trim:level": -1.15,
+"pair release:shape": -0.19
+},
+"sound_qn": 23.8
+},
+{
+"tr": "Bass clarinet",
+"q0": 90,
+"q1": 108,
+"db": 0.4,
+"n": 12,
+"sample": 0.05,
+"shape": 0.49,
+"phrase": -1.01,
+"resid": 0.87,
+"cc11": 62.3,
+"top": {
+"early fill:shape": 0.42,
+"swell:shape": 0.07,
+"note trim:level": 0.05,
+"role:level": -0.92,
+"phrase top:level": -0.1
+},
+"sound_qn": 17.1
+},
+{
+"tr": "Bass clarinet",
+"q0": 108,
+"q1": 140,
+"db": -1.9,
+"n": 1,
+"sample": 0.0,
+"shape": 0.0,
+"phrase": -0.57,
+"resid": -1.33,
+"cc11": 46.6,
+"top": {
+"role:level": 0.0,
+"role:shape": 0.0,
+"swell:shape": 0.0,
+"level shape:level": -0.57
+},
+"sound_qn": 2.0
+},
+{
+"tr": "Bass clarinet",
+"q0": 204,
+"q1": 220,
+"db": -1.6,
+"n": 3,
+"sample": 0.0,
+"shape": 0.89,
+"phrase": -1.2,
+"resid": -1.29,
+"cc11": 120.4,
+"top": {
+"sost hold:shape": 0.76,
+"swell:shape": 0.13,
+"role:shape": 0.0,
+"role:level": -1.2
+},
+"sound_qn": 8.1
+},
+{
+"tr": "Bassoon 1",
+"q0": 18,
+"q1": 42,
+"db": 3.9,
+"n": 14,
+"sample": 3.84,
+"shape": 0.54,
+"phrase": 0.0,
+"resid": -0.48,
+"cc11": 33.9,
+"top": {
+"pitch trim:level": 3.84,
+"swell:shape": 0.35,
+"early fill:shape": 0.19,
+"role:level": 0.0,
+"sost hold:shape": 0.0
+},
+"sound_qn": 22.8
+},
+{
+"tr": "Bassoon 1",
+"q0": 90,
+"q1": 108,
+"db": 3.7,
+"n": 3,
+"sample": 4.02,
+"shape": 0.3,
+"phrase": 0.0,
+"resid": -0.62,
+"cc11": 33.8,
+"top": {
+"pitch trim:level": 4.02,
+"swell:shape": 0.3,
+"role:level": 0.0,
+"sost hold:shape": 0.0
+},
+"sound_qn": 9.9
+},
+{
+"tr": "Bassoon 1",
+"q0": 140,
+"q1": 172,
+"db": -2.1,
+"n": 9,
+"sample": -3.13,
+"shape": 0.96,
+"phrase": 0.0,
+"resid": 0.06,
+"cc11": 36.4,
+"top": {
+"early fill:shape": 0.85,
+"swell:shape": 0.11,
+"role:level": 0.0,
+"pitch trim:level": -3.13
+},
+"sound_qn": 11.0
+},
+{
+"tr": "Bassoon 1",
+"q0": 172,
+"q1": 204,
+"db": 1.4,
+"n": 10,
+"sample": 0.52,
+"shape": 0.61,
+"phrase": 0.0,
+"resid": 0.27,
+"cc11": 63.9,
+"top": {
+"pitch trim:level": 0.6,
+"early fill:shape": 0.38,
+"level fit:level": 0.3,
+"note trim:level": -0.38,
+"role:level": 0.0
+},
+"sound_qn": 20.2
+},
+{
+"tr": "Bassoon 1",
+"q0": 204,
+"q1": 220,
+"db": -0.4,
+"n": 4,
+"sample": -1.14,
+"shape": 1.1,
+"phrase": 0.0,
+"resid": -0.36,
+"cc11": 120.4,
+"top": {
+"sost hold:shape": 0.97,
+"swell:shape": 0.13,
+"role:level": 0.0,
+"pitch trim:level": -1.14
+},
+"sound_qn": 8.1
+},
+{
+"tr": "Bassoon 1",
+"q0": 220,
+"q1": 238,
+"db": 4.2,
+"n": 4,
+"sample": 3.2,
+"shape": 0.66,
+"phrase": 0.0,
+"resid": 0.34,
+"cc11": 33.5,
+"top": {
+"pitch trim:level": 3.13,
+"early fill:shape": 0.36,
+"swell:shape": 0.3,
+"role:level": 0.0,
+"sost hold:shape": 0.0
+},
+"sound_qn": 9.1
+},
+{
+"tr": "Bassoon 1",
+"q0": 238,
+"q1": 262,
+"db": 1.3,
+"n": 9,
+"sample": 1.77,
+"shape": 1.11,
+"phrase": 0.0,
+"resid": -1.59,
+"cc11": 64.5,
+"top": {
+"pitch trim:level": 1.77,
+"early fill:shape": 0.95,
+"sost hold:shape": 0.09,
+"role:level": 0.0,
+"level shape:level": 0.0
+},
+"sound_qn": 14.0
+},
+{
+"tr": "Bassoon 1",
+"q0": 262,
+"q1": 274,
+"db": -1.7,
+"n": 7,
+"sample": -0.47,
+"shape": 0.67,
+"phrase": -0.34,
+"resid": -1.56,
+"cc11": 86.9,
+"top": {
+"early fill:shape": 0.57,
+"swell:shape": 0.1,
+"role:level": 0.02,
+"level shape:level": -0.36,
+"pitch trim:level": -0.36
+},
+"sound_qn": 11.7
+},
+{
+"tr": "Bassoon 2",
+"q0": 18,
+"q1": 42,
+"db": 1.5,
+"n": 12,
+"sample": 0.86,
+"shape": 0.42,
+"phrase": 0.0,
+"resid": 0.22,
+"cc11": 33.6,
+"top": {
+"pitch trim:level": 0.86,
+"swell:shape": 0.42,
+"role:level": 0.0,
+"sost hold:shape": 0.0
+},
+"sound_qn": 22.7
+},
+{
+"tr": "Bassoon 2",
+"q0": 140,
+"q1": 172,
+"db": -1.7,
+"n": 4,
+"sample": 0.0,
+"shape": 0.2,
+"phrase": 0.0,
+"resid": -1.9,
+"cc11": 37.4,
+"top": {
+"swell:shape": 0.2,
+"role:level": 0.0,
+"pitch trim:level": 0.0
+},
+"sound_qn": 11.9
+},
+{
+"tr": "Bassoon 2",
+"q0": 172,
+"q1": 204,
+"db": -1.5,
+"n": 9,
+"sample": -0.24,
+"shape": 0.15,
+"phrase": 0.0,
+"resid": -1.41,
+"cc11": 80.8,
+"top": {
+"swell:shape": 0.15,
+"role:level": 0.0,
+"sost hold:shape": 0.0,
+"pitch trim:level": -0.24
+},
+"sound_qn": 15.7
+},
+{
+"tr": "Bassoon 2",
+"q0": 204,
+"q1": 220,
+"db": -2.5,
+"n": 3,
+"sample": -2.38,
+"shape": 0.89,
+"phrase": 0.0,
+"resid": -1.01,
+"cc11": 120.4,
+"top": {
+"sost hold:shape": 0.76,
+"swell:shape": 0.13,
+"role:level": 0.0,
+"pitch trim:level": -2.38
+},
+"sound_qn": 8.1
+},
+{
+"tr": "Bassoon 2",
+"q0": 220,
+"q1": 238,
+"db": -4.4,
+"n": 2,
+"sample": -4.7,
+"shape": 0.32,
+"phrase": 0.0,
+"resid": -0.02,
+"cc11": 33.9,
+"top": {
+"swell:shape": 0.32,
+"role:level": 0.0,
+"sost hold:shape": 0.0,
+"pitch trim:level": -4.7
+},
+"sound_qn": 5.8
+},
+{
+"tr": "Bassoon 2",
+"q0": 238,
+"q1": 262,
+"db": -1.8,
+"n": 15,
+"sample": -0.7,
+"shape": 0.15,
+"phrase": -0.29,
+"resid": -0.96,
+"cc11": 53.2,
+"top": {
+"swell:shape": 0.18,
+"sost hold:shape": 0.06,
+"role:level": 0.0,
+"note trim:level": -0.39,
+"pitch trim:level": -0.31
+},
+"sound_qn": 22.1
+},
+{
+"tr": "Bassoon 2",
+"q0": 262,
+"q1": 274,
+"db": -4.1,
+"n": 5,
+"sample": -1.89,
+"shape": 0.15,
+"phrase": -0.34,
+"resid": -2.02,
+"cc11": 89.4,
+"top": {
+"swell:shape": 0.15,
+"role:level": 0.02,
+"sost hold:shape": 0.0,
+"pitch trim:level": -1.89,
+"level shape:level": -0.36
+},
+"sound_qn": 12.0
+},
+{
+"tr": "Horn 1",
+"q0": 172,
+"q1": 204,
+"db": 2.4,
+"n": 19,
+"sample": 0.83,
+"shape": 1.05,
+"phrase": 0.0,
+"resid": 0.52,
+"cc11": 72.3,
+"top": {
+"pitch trim:level": 0.78,
+"early fill:shape": 0.7,
+"swell:shape": 0.17,
+"pitch trim:shape": -0.07,
+"role:level": 0.0
+},
+"sound_qn": 29.0
+},
+{
+"tr": "Horn 1",
+"q0": 204,
+"q1": 220,
+"db": -2.4,
+"n": 3,
+"sample": -1.11,
+"shape": 0.89,
+"phrase": 0.0,
+"resid": -2.18,
+"cc11": 120.3,
+"top": {
+"pitch trim:level": 0.96,
+"sost hold:shape": 0.77,
+"swell:shape": 0.12,
+"pitch trim:shape": -2.07,
+"role:level": 0.0
+},
+"sound_qn": 8.1
+},
+{
+"tr": "Horn 1",
+"q0": 220,
+"q1": 238,
+"db": 0.4,
+"n": 5,
+"sample": -0.54,
+"shape": 0.06,
+"phrase": 0.26,
+"resid": 0.62,
+"cc11": 48.2,
+"top": {
+"level shape:level": 0.22,
+"early fill:shape": 0.06,
+"role:level": 0.04,
+"pitch trim:level": -0.54,
+"swell:shape": 0.0
+},
+"sound_qn": 12.2
+},
+{
+"tr": "Horn 1",
+"q0": 0,
+"q1": 18,
+"db": -1.5,
+"n": 2,
+"sample": 1.27,
+"shape": 0.0,
+"phrase": -0.68,
+"resid": -2.09,
+"cc11": 54.0,
+"top": {
+"pitch trim:level": 1.27,
+"role:level": 0.74,
+"swell:shape": 0.0,
+"phrase top:level": -1.42
+},
+"sound_qn": 1.1
+},
+{
+"tr": "Horn 2",
+"q0": 204,
+"q1": 220,
+"db": -1.4,
+"n": 3,
+"sample": 0,
+"shape": 0.47,
+"phrase": -0.99,
+"resid": -0.88,
+"cc11": 119.5,
+"top": {
+"sost hold:shape": 0.35,
+"swell:shape": 0.13,
+"role:level": 0.0,
+"level shape:level": -0.99
+},
+"sound_qn": 8.0
+},
+{
+"tr": "Horn 2",
+"q0": 238,
+"q1": 262,
+"db": 0.8,
+"n": 6,
+"sample": 0,
+"shape": 0.53,
+"phrase": 0.02,
+"resid": 0.25,
+"cc11": 52.4,
+"top": {
+"early fill:shape": 0.53,
+"role:level": 0.02,
+"swell:shape": 0.0,
+"sost hold:shape": 0.0
+},
+"sound_qn": 9.2
+},
+{
+"tr": "Horn 3",
+"q0": 204,
+"q1": 220,
+"db": 3.2,
+"n": 3,
+"sample": 4.5,
+"shape": 0.93,
+"phrase": -0.74,
+"resid": -1.49,
+"cc11": 94.3,
+"top": {
+"uni boost:level": 3.03,
+"pitch trim:level": 1.47,
+"sost hold:shape": 0.74,
+"level shape:level": -0.74,
+"role:level": 0.0
+},
+"sound_qn": 8.1
+},
+{
+"tr": "Horn 3",
+"q0": 66,
+"q1": 90,
+"db": -5.3,
+"n": 2,
+"sample": -0.55,
+"shape": 0.36,
+"phrase": 0.0,
+"resid": -5.11,
+"cc11": 33.8,
+"top": {
+"swell:shape": 0.36,
+"role:level": 0.0,
+"role:shape": 0.0,
+"pitch trim:level": -0.55
+},
+"sound_qn": 4.1
+},
+{
+"tr": "Horn 4",
+"q0": 66,
+"q1": 90,
+"db": -3.4,
+"n": 1,
+"sample": 0.0,
+"shape": -3.49,
+"phrase": 0.0,
+"resid": 0.09,
+"cc11": 33.7,
+"top": {
+"swell:shape": 0.47,
+"role:level": 0.0,
+"role:shape": 0.0,
+"level shape:shape": -3.96
+},
+"sound_qn": 6.1
+},
+{
+"tr": "Horn 4",
+"q0": 274,
+"q1": 304,
+"db": -0.6,
+"n": 3,
+"sample": -0.91,
+"shape": 0.32,
+"phrase": -2.0,
+"resid": 1.99,
+"cc11": 33.4,
+"top": {
+"swell:shape": 0.32,
+"role:shape": 0.0,
+"pitch trim:level": 0.0,
+"role:level": -2.0,
+"note trim:level": -0.91
+},
+"sound_qn": 11.2
+},
+{
+"tr": "Trombone 1",
+"q0": 204,
+"q1": 220,
+"db": 3.7,
+"n": 10,
+"sample": 0.99,
+"shape": 1.07,
+"phrase": 0.03,
+"resid": 1.6,
+"cc11": 94.7,
+"top": {
+"level fit:level": 0.99,
+"role:shape": 0.56,
+"accent:shape": 0.27,
+"role:level": 0.03,
+"level fit:shape": 0.24
+},
+"sound_qn": 7.6
+},
+{
+"tr": "Timpani",
+"q0": 0,
+"q1": 18,
+"db": -2.9,
+"n": 1,
+"sample": 0.0,
+"shape": -3.22,
+"phrase": 4.0,
+"resid": -3.68,
+"cc11": 0.0,
+"top": {
+"role:level": 4.0,
+"timp attack:shape": 0.0,
+"role:shape": 0.0,
+"level shape:shape": -3.22
+},
+"sound_qn": 5.5
+},
+{
+"tr": "Timpani",
+"q0": 140,
+"q1": 172,
+"db": -4.6,
+"n": 1,
+"sample": 0.0,
+"shape": -1.69,
+"phrase": -3.82,
+"resid": 0.91,
+"cc11": 0.0,
+"top": {
+"timp attack:shape": 0.0,
+"role:shape": 0.0,
+"level shape:level": 0.0,
+"role:level": -3.82,
+"level shape:shape": -1.69
+},
+"sound_qn": 4.0
+},
+{
+"tr": "Timpani",
+"q0": 172,
+"q1": 204,
+"db": 1.8,
+"n": 3,
+"sample": 1.1,
+"shape": 0.83,
+"phrase": 0.0,
+"resid": -0.13,
+"cc11": 0.0,
+"top": {
+"level fit:level": 1.1,
+"level shape:shape": 0.51,
+"timp attack:shape": 0.32,
+"role:level": 0.0,
+"role:shape": 0.0
+},
+"sound_qn": 4.5
+},
+{
+"tr": "Timpani",
+"q0": 204,
+"q1": 220,
+"db": 4.4,
+"n": 3,
+"sample": 0.0,
+"shape": 0.79,
+"phrase": 7.23,
+"resid": -3.62,
+"cc11": 0.0,
+"top": {
+"level shape:level": 4.55,
+"role:level": 2.67,
+"timp attack:shape": 0.79,
+"role:shape": 0.0,
+"level shape:shape": 0.0
+},
+"sound_qn": 6.0
+},
+{
+"tr": "Timpani",
+"q0": 238,
+"q1": 262,
+"db": 1.0,
+"n": 1,
+"sample": 0.0,
+"shape": 0.0,
+"phrase": 1.66,
+"resid": -0.66,
+"cc11": 0.0,
+"top": {
+"role:level": 1.23,
+"level shape:level": 0.43,
+"timp attack:shape": 0.0,
+"role:shape": 0.0
+},
+"sound_qn": 1.0
+},
+{
+"tr": "Timpani",
+"q0": 220,
+"q1": 238,
+"db": -2.7,
+"n": 1,
+"sample": 0.0,
+"shape": -2.96,
+"phrase": 2.99,
+"resid": -2.73,
+"cc11": 0.0,
+"top": {
+"role:level": 2.99,
+"timp attack:shape": 0.0,
+"role:shape": 0.0,
+"level shape:shape": -2.96
+},
+"sound_qn": 11.5
+},
+{
+"tr": "Harp",
+"q0": 108,
+"q1": 140,
+"db": 0.9,
+"n": 17,
+"sample": 0.0,
+"shape": 0.72,
+"phrase": 0.0,
+"resid": 0.18,
+"cc11": 110.0,
+"top": {
+"metric:level": 0.72,
+"role:shape": 0.0,
+"role:level": 0.0
+},
+"sound_qn": 31.0
+},
+{
+"tr": "Harp",
+"q0": 262,
+"q1": 274,
+"db": -0.8,
+"n": 4,
+"sample": 0.0,
+"shape": 0.0,
+"phrase": -0.43,
+"resid": -0.37,
+"cc11": 110.0,
+"top": {
+"role:level": 0.05,
+"role:shape": 0.0,
+"metric:level": 0.0,
+"level shape:level": -0.48
+},
+"sound_qn": 4.8
+},
+{
+"tr": "Harp",
+"q0": 238,
+"q1": 262,
+"db": 0.5,
+"n": 15,
+"sample": -0.25,
+"shape": 0.0,
+"phrase": 0.0,
+"resid": 0.75,
+"cc11": 110.0,
+"top": {
+"role:shape": 0.0,
+"role:level": 0.0,
+"metric:level": 0.0,
+"note trim:level": -0.25
+},
+"sound_qn": 24.3
+},
+{
+"tr": "Violins I",
+"q0": 0,
+"q1": 18,
+"db": 2.1,
+"n": 4,
+"sample": 0.0,
+"shape": 3.18,
+"phrase": 0.05,
+"resid": -1.13,
+"cc11": 21.1,
+"top": {
+"rebow fill:shape": 3.18,
+"role:level": 0.05,
+"role:shape": 0.0,
+"swell:shape": 0.0
+},
+"sound_qn": 9.1
+},
+{
+"tr": "Violins I",
+"q0": 42,
+"q1": 66,
+"db": -0.7,
+"n": 2,
+"sample": 0.0,
+"shape": 0.81,
+"phrase": -0.76,
+"resid": -0.75,
+"cc11": 61.0,
+"top": {
+"early fill:shape": 1.19,
+"role:level": 0.0,
+"role:shape": 0.0,
+"phrase top:level": -0.76,
+"join notch:shape": -0.37
+},
+"sound_qn": 1.2
+},
+{
+"tr": "Violins I",
+"q0": 66,
+"q1": 90,
+"db": 2.1,
+"n": 22,
+"sample": 0.61,
+"shape": 0.92,
+"phrase": -0.06,
+"resid": 0.63,
+"cc11": 66.3,
+"top": {
+"note trim:level": 0.64,
+"early fill:shape": 0.56,
+"level fit:shape": 0.45,
+"pitch trim:level": -0.19,
+"pair release:shape": -0.09
+},
+"sound_qn": 24.4
+},
+{
+"tr": "Violins I",
+"q0": 140,
+"q1": 172,
+"db": -5.5,
+"n": 1,
+"sample": -1.16,
+"shape": 1.12,
+"phrase": -3.23,
+"resid": -2.23,
+"cc11": 50.7,
+"top": {
+"early fill:shape": 1.12,
+"role:shape": 0.0,
+"swell:shape": 0.0,
+"role:level": -3.23,
+"pitch trim:level": -1.16
+},
+"sound_qn": 1.3
+},
+{
+"tr": "Violins I",
+"q0": 172,
+"q1": 204,
+"db": 0.6,
+"n": 30,
+"sample": 0.17,
+"shape": 0.37,
+"phrase": 0.0,
+"resid": 0.06,
+"cc11": 75.3,
+"top": {
+"level fit:level": 0.26,
+"early fill:shape": 0.23,
+"level fit:shape": 0.1,
+"pitch trim:level": -0.09,
+"join notch:shape": -0.03
+},
+"sound_qn": 32.8
+},
+{
+"tr": "Violins I",
+"q0": 204,
+"q1": 212,
+"db": 1.1,
+"n": 4,
+"sample": 0.66,
+"shape": 0.47,
+"phrase": 1.03,
+"resid": -1.05,
+"cc11": 121.9,
+"top": {
+"sost hold:shape": 1.2,
+"level shape:level": 1.03,
+"level fit:level": 0.66,
+"rebow fill:shape": -0.94,
+"join notch:shape": -0.01
+},
+"sound_qn": 8.0
+},
+{
+"tr": "Violins I",
+"q0": 220,
+"q1": 238,
+"db": -1.9,
+"n": 2,
+"sample": 0.0,
+"shape": 0.0,
+"phrase": -0.86,
+"resid": -1.04,
+"cc11": 50.9,
+"top": {
+"role:level": 0.0,
+"role:shape": 0.0,
+"swell:shape": 0.0,
+"phrase top:level": -0.86
+},
+"sound_qn": 1.2
+},
+{
+"tr": "Violins I",
+"q0": 238,
+"q1": 262,
+"db": 1.1,
+"n": 26,
+"sample": 0.51,
+"shape": 0.3,
+"phrase": -0.06,
+"resid": 0.34,
+"cc11": 64.8,
+"top": {
+"level fit:level": 0.54,
+"early fill:shape": 0.22,
+"sost hold:shape": 0.05,
+"phrase top:level": -0.06,
+"pitch trim:level": -0.03
+},
+"sound_qn": 24.7
+},
+{
+"tr": "Violins I",
+"q0": 274,
+"q1": 304,
+"db": -0.6,
+"n": 5,
+"sample": 0.0,
+"shape": 0.19,
+"phrase": -6.11,
+"resid": 5.32,
+"cc11": 28.6,
+"top": {
+"rebow fill:shape": 0.23,
+"early fill:shape": 0.07,
+"swell:shape": 0.0,
+"role:level": -6.11,
+"role:shape": -0.11
+},
+"sound_qn": 12.2
+},
+{
+"tr": "Violins II",
+"q0": 42,
+"q1": 66,
+"db": 0.8,
+"n": 16,
+"sample": 0.24,
+"shape": 0.6,
+"phrase": -0.3,
+"resid": 0.26,
+"cc11": 41.5,
+"top": {
+"early fill:shape": 0.42,
+"level fit:level": 0.14,
+"swell:shape": 0.14,
+"role:level": -0.25,
+"phrase top:level": -0.05
+},
+"sound_qn": 22.4
+},
+{
+"tr": "Violins II",
+"q0": 66,
+"q1": 90,
+"db": 2.0,
+"n": 22,
+"sample": 0.73,
+"shape": 0.8,
+"phrase": -0.05,
+"resid": 0.52,
+"cc11": 67.0,
+"top": {
+"note trim:level": 0.94,
+"early fill:shape": 0.84,
+"swell:shape": 0.05,
+"level fit:level": -0.21,
+"pair release:shape": -0.08
+},
+"sound_qn": 24.6
+},
+{
+"tr": "Violins II",
+"q0": 108,
+"q1": 140,
+"db": 2.0,
+"n": 8,
+"sample": 0.0,
+"shape": 2.2,
+"phrase": 0.46,
+"resid": -0.66,
+"cc11": 34.9,
+"top": {
+"rebow fill:shape": 1.68,
+"role:level": 0.46,
+"swell:shape": 0.22,
+"role:shape": 0.0,
+"sost hold:shape": 0.0
+},
+"sound_qn": 16.0
+},
+{
+"tr": "Violins II",
+"q0": 204,
+"q1": 212,
+"db": 3.6,
+"n": 4,
+"sample": 1.17,
+"shape": 2.52,
+"phrase": 0.0,
+"resid": -0.09,
+"cc11": 120.9,
+"top": {
+"sost hold:shape": 1.44,
+"level fit:level": 1.17,
+"level fit:shape": 0.58,
+"role:level": 0.0,
+"swell:shape": 0.0
+},
+"sound_qn": 8.1
+},
+{
+"tr": "Violins II",
+"q0": 220,
+"q1": 238,
+"db": -1.3,
+"n": 4,
+"sample": 0.0,
+"shape": -0.49,
+"phrase": -0.95,
+"resid": 0.14,
+"cc11": 32.6,
+"top": {
+"rebow fill:shape": 1.03,
+"role:shape": 0.0,
+"swell:shape": 0.0,
+"level shape:shape": -1.51,
+"role:level": -0.83
+},
+"sound_qn": 7.2
+},
+{
+"tr": "Violins II",
+"q0": 238,
+"q1": 262,
+"db": 0.8,
+"n": 26,
+"sample": -0.34,
+"shape": 0.46,
+"phrase": 0.32,
+"resid": 0.36,
+"cc11": 64.0,
+"top": {
+"early fill:shape": 0.38,
+"level shape:level": 0.38,
+"sost hold:shape": 0.05,
+"level fit:level": -0.34,
+"phrase top:level": -0.05
+},
+"sound_qn": 24.7
+},
+{
+"tr": "Violins II",
+"q0": 262,
+"q1": 274,
+"db": -0.8,
+"n": 9,
+"sample": -0.11,
+"shape": 0.73,
+"phrase": -0.58,
+"resid": -0.84,
+"cc11": 91.6,
+"top": {
+"level shape:shape": 0.57,
+"swell:shape": 0.31,
+"level fit:shape": 0.29,
+"rebow fill:shape": -0.62,
+"role:level": -0.58
+},
+"sound_qn": 11.2
+},
+{
+"tr": "Violins II",
+"q0": 274,
+"q1": 304,
+"db": -3.5,
+"n": 8,
+"sample": 0.0,
+"shape": -0.82,
+"phrase": -2.0,
+"resid": -0.68,
+"cc11": 30.6,
+"top": {
+"role:shape": 1.41,
+"early fill:shape": 0.05,
+"swell:shape": 0.0,
+"rebow fill:shape": -2.28,
+"role:level": -2.0
+},
+"sound_qn": 18.1
+},
+{
+"tr": "Violas",
+"q0": 0,
+"q1": 18,
+"db": 1.7,
+"n": 2,
+"sample": 0.0,
+"shape": 1.53,
+"phrase": 0.03,
+"resid": 0.13,
+"cc11": 27.8,
+"top": {
+"rebow fill:shape": 0.98,
+"early fill:shape": 0.35,
+"swell:shape": 0.2,
+"role:shape": 0.0,
+"pitch trim:level": 0.0
+},
+"sound_qn": 9.1
+},
+{
+"tr": "Violas",
+"q0": 42,
+"q1": 66,
+"db": -1.3,
+"n": 14,
+"sample": -1.16,
+"shape": 0.74,
+"phrase": 0.0,
+"resid": -0.88,
+"cc11": 34.8,
+"top": {
+"swell:shape": 0.31,
+"early fill:shape": 0.3,
+"rebow fill:shape": 0.14,
+"note trim:level": -1.16,
+"join notch:shape": -0.01
+},
+"sound_qn": 18.6
+},
+{
+"tr": "Violas",
+"q0": 66,
+"q1": 90,
+"db": 1.0,
+"n": 15,
+"sample": 0.36,
+"shape": 1.11,
+"phrase": -0.38,
+"resid": -0.08,
+"cc11": 52.2,
+"top": {
+"level shape:shape": 0.7,
+"level fit:level": 0.36,
+"swell:shape": 0.22,
+"role:level": -0.38,
+"role:shape": 0.0
+},
+"sound_qn": 23.1
+},
+{
+"tr": "Violas",
+"q0": 204,
+"q1": 212,
+"db": 1.4,
+"n": 3,
+"sample": 0.0,
+"shape": 1.21,
+"phrase": 0.0,
+"resid": 0.19,
+"cc11": 117.1,
+"top": {
+"sost hold:shape": 1.13,
+"role:shape": 0.08,
+"role:level": 0.0,
+"swell:shape": 0.0
+},
+"sound_qn": 8.0
+},
+{
+"tr": "Violas",
+"q0": 220,
+"q1": 238,
+"db": 3.7,
+"n": 2,
+"sample": 3.62,
+"shape": 1.28,
+"phrase": 1.85,
+"resid": -3.06,
+"cc11": 30.8,
+"top": {
+"note trim:level": 3.62,
+"role:level": 1.85,
+"rebow fill:shape": 1.08,
+"role:shape": 0.0,
+"swell:shape": 0.0
+},
+"sound_qn": 6.2
+},
+{
+"tr": "Violas",
+"q0": 262,
+"q1": 274,
+"db": -0.7,
+"n": 7,
+"sample": 0.0,
+"shape": 0.2,
+"phrase": -0.99,
+"resid": 0.09,
+"cc11": 92.0,
+"top": {
+"swell:shape": 0.21,
+"early fill:shape": 0.1,
+"role:shape": 0.0,
+"role:level": -0.6,
+"level shape:level": -0.39
+},
+"sound_qn": 10.9
+},
+{
+"tr": "Violas",
+"q0": 274,
+"q1": 304,
+"db": -0.9,
+"n": 10,
+"sample": 0.0,
+"shape": -2.93,
+"phrase": 0.12,
+"resid": 1.9,
+"cc11": 29.4,
+"top": {
+"swell:shape": 0.14,
+"role:level": 0.12,
+"rebow fill:shape": 0.09,
+"role:shape": -2.88,
+"level shape:shape": -0.27
+},
+"sound_qn": 25.2
+},
+{
+"tr": "Violoncellos",
+"q0": 0,
+"q1": 18,
+"db": -3.2,
+"n": 2,
+"sample": -3.11,
+"shape": 1.46,
+"phrase": 0.03,
+"resid": -1.59,
+"cc11": 27.9,
+"top": {
+"rebow fill:shape": 1.05,
+"loop fill:shape": 0.21,
+"swell:shape": 0.2,
+"note trim:level": -3.11,
+"role:shape": 0.0
+},
+"sound_qn": 9.1
+},
+{
+"tr": "Violoncellos",
+"q0": 42,
+"q1": 66,
+"db": 0.8,
+"n": 15,
+"sample": 0.05,
+"shape": 0.79,
+"phrase": 0.0,
+"resid": -0.04,
+"cc11": 34.8,
+"top": {
+"early fill:shape": 0.49,
+"swell:shape": 0.4,
+"level fit:level": 0.05,
+"pair release:shape": -0.08,
+"join notch:shape": -0.01
+},
+"sound_qn": 24.3
+},
+{
+"tr": "Violoncellos",
+"q0": 66,
+"q1": 90,
+"db": 0.7,
+"n": 18,
+"sample": 0.3,
+"shape": 0.56,
+"phrase": -0.24,
+"resid": 0.08,
+"cc11": 61.0,
+"top": {
+"early fill:shape": 0.78,
+"level fit:level": 0.47,
+"swell:shape": 0.05,
+"role:level": -0.24,
+"note trim:level": -0.17
+},
+"sound_qn": 24.4
+},
+{
+"tr": "Violoncellos",
+"q0": 172,
+"q1": 204,
+"db": 1.9,
+"n": 19,
+"sample": 0.67,
+"shape": 0.6,
+"phrase": 0.0,
+"resid": 0.64,
+"cc11": 74.2,
+"top": {
+"level fit:level": 0.64,
+"early fill:shape": 0.36,
+"level fit:shape": 0.21,
+"join notch:shape": -0.07,
+"pair release:shape": -0.06
+},
+"sound_qn": 32.5
+},
+{
+"tr": "Violoncellos",
+"q0": 204,
+"q1": 212,
+"db": 3.3,
+"n": 4,
+"sample": 1.34,
+"shape": 2.71,
+"phrase": 0.0,
+"resid": -0.76,
+"cc11": 120.9,
+"top": {
+"level fit:level": 1.9,
+"sost hold:shape": 1.4,
+"level fit:shape": 1.12,
+"note trim:level": -0.56,
+"role:level": 0.0
+},
+"sound_qn": 8.1
+},
+{
+"tr": "Violoncellos",
+"q0": 238,
+"q1": 262,
+"db": 2.8,
+"n": 18,
+"sample": -0.21,
+"shape": 1.39,
+"phrase": 0.0,
+"resid": 1.61,
+"cc11": 64.5,
+"top": {
+"early fill:shape": 0.93,
+"level fit:level": 0.6,
+"level fit:shape": 0.42,
+"note trim:level": -0.8,
+"join notch:shape": -0.06
+},
+"sound_qn": 24.4
+},
+{
+"tr": "Violoncellos",
+"q0": 262,
+"q1": 274,
+"db": 3.8,
+"n": 7,
+"sample": 0.42,
+"shape": 2.23,
+"phrase": -0.02,
+"resid": 1.17,
+"cc11": 87.5,
+"top": {
+"level fit:shape": 1.88,
+"level fit:level": 0.95,
+"early fill:shape": 0.34,
+"note trim:level": -0.53,
+"level shape:shape": -0.1
+},
+"sound_qn": 12.2
+},
+{
+"tr": "Violoncellos",
+"q0": 274,
+"q1": 304,
+"db": -0.9,
+"n": 8,
+"sample": 0.0,
+"shape": -2.31,
+"phrase": -2.29,
+"resid": 3.7,
+"cc11": 30.9,
+"top": {
+"rebow fill:shape": 0.56,
+"swell:shape": 0.2,
+"early fill:shape": 0.17,
+"role:shape": -3.32,
+"role:level": -2.0
+},
+"sound_qn": 18.1
+},
+{
+"tr": "Violoncellos",
+"q0": 220,
+"q1": 238,
+"db": -0.5,
+"n": 1,
+"sample": 0.0,
+"shape": -1.55,
+"phrase": 3.35,
+"resid": -2.3,
+"cc11": 31.1,
+"top": {
+"role:level": 3.35,
+"role:shape": 0.0,
+"swell:shape": 0.0,
+"rebow fill:shape": -1.55
+},
+"sound_qn": 6.2
+},
+{
+"tr": "Double basses",
+"q0": 0,
+"q1": 18,
+"db": -1.5,
+"n": 1,
+"sample": -4.8,
+"shape": -1.13,
+"phrase": 0.05,
+"resid": 4.38,
+"cc11": 30.2,
+"top": {
+"role:level": 0.05,
+"role:shape": 0.0,
+"swell:shape": 0.0,
+"pitch trim:level": -4.8,
+"rebow fill:shape": -1.13
+},
+"sound_qn": 6.2
+},
+{
+"tr": "Double basses",
+"q0": 42,
+"q1": 66,
+"db": -0.6,
+"n": 4,
+"sample": 2.11,
+"shape": -0.25,
+"phrase": 0.0,
+"resid": -2.46,
+"cc11": 35.9,
+"top": {
+"pitch trim:level": 2.11,
+"role:level": 0.0,
+"role:shape": 0.0,
+"join notch:shape": -0.25
+},
+"sound_qn": 6.3
+},
+{
+"tr": "Double basses",
+"q0": 108,
+"q1": 140,
+"db": 0.8,
+"n": 21,
+"sample": 0.0,
+"shape": 0.81,
+"phrase": 0.0,
+"resid": -0.01,
+"cc11": 45.8,
+"top": {
+"metric:level": 0.71,
+"swell:shape": 0.1,
+"role:level": 0.0,
+"role:shape": 0.0
+},
+"sound_qn": 23.3
+},
+{
+"tr": "Double basses",
+"q0": 140,
+"q1": 172,
+"db": -1.4,
+"n": 13,
+"sample": -1.52,
+"shape": 0.49,
+"phrase": -0.5,
+"resid": 0.13,
+"cc11": 36.2,
+"top": {
+"rebow fill:shape": 0.27,
+"early fill:shape": 0.1,
+"swell:shape": 0.08,
+"pitch trim:level": -1.48,
+"role:level": -0.5
+},
+"sound_qn": 32.0
+},
+{
+"tr": "Double basses",
+"q0": 172,
+"q1": 204,
+"db": -1.4,
+"n": 11,
+"sample": -1.09,
+"shape": 0.16,
+"phrase": 0.0,
+"resid": -0.47,
+"cc11": 81.8,
+"top": {
+"swell:shape": 0.12,
+"early fill:shape": 0.04,
+"role:level": 0.0,
+"pitch trim:level": -1.09
+},
+"sound_qn": 20.2
+},
+{
+"tr": "Double basses",
+"q0": 204,
+"q1": 220,
+"db": -2.0,
+"n": 7,
+"sample": -0.59,
+"shape": 1.03,
+"phrase": -0.52,
+"resid": -1.92,
+"cc11": 96.7,
+"top": {
+"sost hold:shape": 0.73,
+"swell:shape": 0.09,
+"accent:shape": 0.09,
+"pitch trim:level": -0.59,
+"level shape:level": -0.52
+},
+"sound_qn": 13.2
+},
+{
+"tr": "Double basses",
+"q0": 220,
+"q1": 238,
+"db": 8.1,
+"n": 7,
+"sample": 3.94,
+"shape": 4.38,
+"phrase": 0.0,
+"resid": -0.23,
+"cc11": 33.2,
+"top": {
+"rebow fill:shape": 4.79,
+"pitch trim:level": 3.94,
+"role:level": 0.0,
+"level shape:shape": -0.41
+},
+"sound_qn": 17.9
+},
+{
+"tr": "Double basses",
+"q0": 238,
+"q1": 262,
+"db": 2.2,
+"n": 15,
+"sample": -0.56,
+"shape": 0.06,
+"phrase": 0.0,
+"resid": 2.7,
+"cc11": 55.0,
+"top": {
+"sost hold:shape": 0.05,
+"rebow fill:shape": 0.03,
+"role:level": 0.0,
+"pitch trim:level": -0.56,
+"level fit:shape": -0.02
+},
+"sound_qn": 24.1
+},
+{
+"tr": "Double basses",
+"q0": 262,
+"q1": 274,
+"db": -2.6,
+"n": 6,
+"sample": -0.94,
+"shape": 0.29,
+"phrase": -0.35,
+"resid": -1.6,
+"cc11": 89.2,
+"top": {
+"swell:shape": 0.15,
+"level shape:shape": 0.14,
+"role:level": 0.0,
+"pitch trim:level": -0.94,
+"level shape:level": -0.35
+},
+"sound_qn": 12.0
+},
+{
+"tr": "Double basses",
+"q0": 274,
+"q1": 286,
+"db": -1.9,
+"n": 4,
+"sample": -4.96,
+"shape": 0.63,
+"phrase": 0.0,
+"resid": 2.42,
+"cc11": 22.6,
+"top": {
+"rebow fill:shape": 1.12,
+"role:level": 0.0,
+"swell:shape": 0.0,
+"pitch trim:level": -4.96,
+"role:shape": -0.45
+},
+"sound_qn": 12.1
+},
+{
+"tr": "Double basses",
+"q0": 286,
+"q1": 304,
+"db": 1.4,
+"n": 8,
+"sample": -3.59,
+"shape": -2.85,
+"phrase": 0.0,
+"resid": 7.84,
+"cc11": 30.4,
+"top": {
+"rebow fill:shape": 0.57,
+"swell:shape": 0.1,
+"join notch:shape": 0.08,
+"role:shape": -3.6,
+"pitch trim:level": -3.59
+},
+"sound_qn": 18.1
+},
+{
+"tr": "Violoncellos div",
+"q0": 42,
+"q1": 66,
+"db": 0.7,
+"n": 9,
+"sample": 0.19,
+"shape": 0.83,
+"phrase": 0.0,
+"resid": -0.32,
+"cc11": 34.2,
+"top": {
+"early fill:shape": 0.83,
+"level fit:level": 0.19,
+"role:shape": 0.0,
+"role:level": 0.0
+},
+"sound_qn": 7.3
+},
+{
+"tr": "Violoncellos div",
+"q0": 274,
+"q1": 304,
+"db": 1.9,
+"n": 12,
+"sample": 0.0,
+"shape": 2.23,
+"phrase": 0.0,
+"resid": -0.33,
+"cc11": 26.4,
+"top": {
+"rebow fill:shape": 3.34,
+"early fill:shape": 0.12,
+"role:level": 0.0,
+"role:shape": -1.23
+},
+"sound_qn": 24.1
+},
+{
+"tr": "Violins II div",
+"q0": 108,
+"q1": 140,
+"db": 1.6,
+"n": 8,
+"sample": 0.0,
+"shape": 1.84,
+"phrase": 0,
+"resid": -0.24,
+"cc11": 35.0,
+"top": {
+"rebow fill:shape": 1.57,
+"swell:shape": 0.15,
+"early fill:shape": 0.11,
+"level fit:level": 0.0,
+"level fit:shape": 0.01
+},
+"sound_qn": 15.6
+},
+{
+"tr": "Violas div",
+"q0": 262,
+"q1": 274,
+"db": 1.5,
+"n": 1,
+"sample": 0.0,
+"shape": 0.58,
+"phrase": -2.02,
+"resid": 2.94,
+"cc11": 115.4,
+"top": {
+"swell:shape": 0.58,
+"role:shape": 0.0,
+"early fill:shape": 0.0,
+"role:level": -1.5,
+"level shape:level": -0.52
+},
+"sound_qn": 2.1
+},
+{
+"tr": "Violas div",
+"q0": 274,
+"q1": 304,
+"db": -2.5,
+"n": 10,
+"sample": 0.0,
+"shape": -6.64,
+"phrase": 0.98,
+"resid": 3.16,
+"cc11": 29.1,
+"top": {
+"role:level": 0.98,
+"swell:shape": 0.09,
+"early fill:shape": 0.07,
+"role:shape": -5.63,
+"rebow fill:shape": -0.9
+},
+"sound_qn": 25.2
+},
+{
+"tr": "Horns 1-2 a2",
+"q0": 238,
+"q1": 262,
+"db": 0.5,
+"n": 1,
+"sample": 0,
+"shape": 0.0,
+"phrase": 1.3,
+"resid": -0.8,
+"cc11": 82.9,
+"top": {
+"role:level": 1.3,
+"swell:shape": 0.0,
+"level shape:level": 0.0
+},
+"sound_qn": 1.1
+},
+{
+"tr": "Harp harmonics",
+"q0": 274,
+"q1": 304,
+"db": -2.3,
+"n": 3,
+"sample": -1.17,
+"shape": 0,
+"phrase": 0,
+"resid": -1.13,
+"cc11": 110.0,
+"top": {
+"level fit:level": -1.17
+},
+"sound_qn": 3.0
+},
+{
+"tr": "Oboe 2",
+"q0": 204,
+"q1": 220,
+"db": 0.7,
+"n": 2,
+"sample": 0.0,
+"shape": 0.69,
+"phrase": 0.0,
+"resid": 0.01,
+"cc11": 120.4,
+"top": {
+"sost hold:shape": 0.55,
+"swell:shape": 0.13,
+"role:level": 0.0,
+"role:shape": 0.0
+},
+"sound_qn": 8.1
+},
+{
+"tr": "Bass trombone",
+"q0": 204,
+"q1": 220,
+"db": 0.8,
+"n": 7,
+"sample": 0.03,
+"shape": 0.43,
+"phrase": 0.02,
+"resid": 0.33,
+"cc11": 72.9,
+"top": {
+"swell:shape": 0.22,
+"accent:shape": 0.1,
+"sost hold:shape": 0.1,
+"role:level": 0.02,
+"level fit:level": 0.03
+},
+"sound_qn": 15.4
+},
+{
+"tr": "Tuba",
+"q0": 204,
+"q1": 220,
+"db": 0.7,
+"n": 3,
+"sample": 0,
+"shape": 0.62,
+"phrase": 0,
+"resid": 0.08,
+"cc11": 92.9,
+"top": {
+"swell:shape": 0.42,
+"sost hold:shape": 0.2
+},
+"sound_qn": 7.7
+}
+]

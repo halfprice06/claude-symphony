@@ -1,0 +1,47 @@
+== Clarinet 1|Clarinet 2 108:129
+  qn 108-111 (bar 37): best band 1437 Hz, over all others +9.2 dB (frames over 0.88), over the loudest (Violins II) +64.6 dB
+  qn 111-114 (bar 38): best band 1437 Hz, over all others +16.7 dB (frames over 1.00), over the loudest (R Winds) +19.1 dB
+  qn 114-117 (bar 39): best band 1437 Hz, over all others +15.5 dB (frames over 1.00), over the loudest (Violins I) +25.4 dB
+  qn 117-120 (bar 40): best band 1280 Hz, over all others +7.5 dB (frames over 0.93), over the loudest (Violins I) +17.9 dB
+  qn 120-123 (bar 41): best band 1613 Hz, over all others +20.8 dB (frames over 1.00), over the loudest (R Winds) +26.1 dB
+  qn 123-126 (bar 42): best band 1613 Hz, over all others +12.5 dB (frames over 1.00), over the loudest (Violas) +21.1 dB
+  qn 126-129 (bar 43): best band 1280 Hz, over all others +12.0 dB (frames over 0.96), over the loudest (Bassoon 1) +15.5 dB
+== Flute 1|Oboe 1 108:129
+  qn 108-111 (bar 37): best band 1613 Hz, over all others +2.6 dB (frames over 0.62), over the loudest (Violins I) +5.8 dB
+  qn 111-114 (bar 38): best band 1016 Hz, over all others +4.0 dB (frames over 0.63), over the loudest (Violins I) +8.2 dB
+  qn 114-117 (bar 39): best band 1016 Hz, over all others -5.0 dB (frames over 0.33), over the loudest (Violins I) +5.1 dB
+  qn 117-120 (bar 40): best band 1810 Hz, over all others -1.5 dB (frames over 0.60), over the loudest (Violins I) +3.4 dB
+  qn 120-123 (bar 41): best band 1810 Hz, over all others +6.6 dB (frames over 0.93), over the loudest (Violins I) +9.6 dB
+  qn 123-126 (bar 42): best band 2032 Hz, over all others -4.9 dB (frames over 0.17), over the loudest (Violins II) -0.1 dB
+  qn 126-129 (bar 43): best band 1810 Hz, over all others -4.1 dB (frames over 0.53), over the loudest (Violins I) +5.3 dB
+== Violins II 984:996
+  qn 984-987 (bar 329): best band 2560 Hz, over all others -10.1 dB (frames over 0.22), over the loudest (Violins I) -4.4 dB
+  qn 987-990 (bar 330): best band 2874 Hz, over all others -6.7 dB (frames over 0.22), over the loudest (Violins I) -0.5 dB
+  qn 990-993 (bar 331): best band 2281 Hz, over all others -5.0 dB (frames over 0.25), over the loudest (Violas) +0.5 dB
+  qn 993-996 (bar 332): best band 2874 Hz, over all others -9.1 dB (frames over 0.00), over the loudest (Violins I) -0.6 dB
+== Violas 984:996
+  qn 984-987 (bar 329): best band 1810 Hz, over all others -0.5 dB (frames over 0.46), over the loudest (Violins II) +8.7 dB
+  qn 987-990 (bar 330): best band 570 Hz, over all others -9.7 dB (frames over 0.07), over the loudest (Bassoon 2) -5.1 dB
+  qn 990-993 (bar 331): best band 570 Hz, over all others -12.3 dB (frames over 0.00), over the loudest (Horn 4) +16.1 dB
+  qn 993-996 (bar 332): best band 718 Hz, over all others -6.9 dB (frames over 0.08), over the loudest (Clarinet 2) +2.9 dB
+== Bass clarinet 630:666
+  qn 630-633 (bar 211): best band 143 Hz, over all others -6.2 dB (frames over 0.09), over the loudest (Double basses) -6.1 dB
+  qn 633-636 (bar 212): best band 160 Hz, over all others +8.6 dB (frames over 1.00), over the loudest (Double basses) +9.7 dB
+  qn 636-639 (bar 213): best band 359 Hz, over all others -2.0 dB (frames over 0.06), over the loudest (Bassoon 1) -0.3 dB
+  qn 639-642 (bar 214): best band 359 Hz, over all others -2.6 dB (frames over 0.27), over the loudest (Violas div) +11.9 dB
+  qn 642-645 (bar 215): best band 113 Hz, over all others -3.7 dB (frames over 0.37), over the loudest (Double basses) +3.2 dB
+  qn 645-648 (bar 216): best band 113 Hz, over all others -6.8 dB (frames over 0.24), over the loudest (Double basses) -5.3 dB
+  qn 648-651 (bar 217): best band 718 Hz, over all others +2.9 dB (frames over 0.83), over the loudest (Violas) +8.9 dB
+  qn 651-654 (bar 218): best band 320 Hz, over all others -1.2 dB (frames over 0.49), over the loudest (Violas div) +6.3 dB
+  qn 654-657 (bar 219): best band 285 Hz, over all others -3.8 dB (frames over 0.26), over the loudest (Violas) +0.2 dB
+  qn 657-660 (bar 220): best band 320 Hz, over all others -4.7 dB (frames over 0.24), over the loudest (Violas div) -1.5 dB
+  qn 660-663: line silent
+  qn 663-666: line silent
+== Horn 4 648:669
+  qn 648-651 (bar 217): best band 640 Hz, over all others -6.8 dB (frames over 0.19), over the loudest (Violins II) +2.5 dB
+  qn 651-654 (bar 218): best band 180 Hz, over all others -7.8 dB (frames over 0.06), over the loudest (Double basses) -6.6 dB
+  qn 654-657 (bar 219): best band 640 Hz, over all others -0.4 dB (frames over 0.43), over the loudest (Violas div) +4.6 dB
+  qn 657-660 (bar 220): best band 718 Hz, over all others -5.7 dB (frames over 0.21), over the loudest (Violoncellos) +4.6 dB
+  qn 660-663 (bar 221): best band 1140 Hz, over all others -5.6 dB (frames over 0.03), over the loudest (Violoncellos) +0.3 dB
+  qn 663-666 (bar 222): best band 254 Hz, over all others -8.8 dB (frames over 0.00), over the loudest (Violoncellos) -2.5 dB
+  qn 666-669 (bar 223): best band 508 Hz, over all others -9.7 dB (frames over 0.00), over the loudest (Bassoon 2) -8.8 dB

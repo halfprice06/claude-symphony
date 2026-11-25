@@ -1,0 +1,2 @@
+summit 336-339 -7.1 | tutti 105-120 -8.3 | tutti 305-320 -8.0 | bar 300 -8.3 | bar 304 -8.5 | bar 72 -7.8 | bar 333 -8.0 | bar 53 -7.9 | trio ff 209-224 -8.0
+summit over the next loudest: +0.7 LU

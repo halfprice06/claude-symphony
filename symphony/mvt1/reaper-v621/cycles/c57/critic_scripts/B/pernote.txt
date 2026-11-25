@@ -1,0 +1,47 @@
+track: notes, changed >= 2.5 dB (down / up)
+  Flute 1           198   2 (2 / 0)
+  Flute 2            93   2 (1 / 1)
+  Oboe 1            173   5 (3 / 2)
+  Oboe 2             98   0 (0 / 0)
+  Cor anglais        75   0 (0 / 0)
+  Clarinet 1        284   8 (1 / 7)
+  Clarinet 2        107   0 (0 / 0)
+  Bass clarinet      84   1 (0 / 1)
+  Bassoon 1         195   1 (0 / 1)
+  Bassoon 2         117   0 (0 / 0)
+  Contrabassoon      96   0 (0 / 0)
+  Horn 1            113   2 (2 / 0)
+  Horn 2             87   0 (0 / 0)
+  Horn 3            121   0 (0 / 0)
+  Horn 4             97   0 (0 / 0)
+  Trumpet 1          78   0 (0 / 0)
+  Trumpet 2          52   0 (0 / 0)
+  Trumpet 3          50   0 (0 / 0)
+  Trombone 1         99   1 (1 / 0)
+  Trombone 2         47   0 (0 / 0)
+  Bass trombone      61   0 (0 / 0)
+  Tuba               49   0 (0 / 0)
+  Violins I         360   7 (6 / 1)
+  Violins II        330   7 (3 / 4)
+  Violas            644   9 (6 / 3)
+  Violoncellos      395   9 (5 / 4)
+  Horns a2           81   1 (1 / 0)
+  Trumpets a2        21   0 (0 / 0)
+  Bassoon 1 stac     13   0 (0 / 0)
+  Cor anglais stac   13   0 (0 / 0)
+  Flute 1 stac       18   0 (0 / 0)
+  Cello solo         12   0 (0 / 0)
+  Violins I f62      20   1 (0 / 1)
+  Violins II f62     19   0 (0 / 0)
+  Oboe 1 stac         4   0 (0 / 0)
+  Clarinet 1 stac     4   0 (0 / 0)
+
+notes whose margin was >= -4 dB in c55 or c56 and whose level changed by 2.5 dB or more with an envelope change of 1 dB or more in the same direction:
+  Horn 1         sq  588.00 bar 148 dur 1.08 qn: level  -3.4 (envelope  -4.3) margin  -3.9 ->  -7.3
+  Horns a2       sq  311.00 bar  78 dur 1.48 qn: level  -2.7 (envelope  -1.9) margin  +1.7 ->  -1.2
+  Violas         sq  614.00 bar 154 dur 1.04 qn: level  -3.2 (envelope  -2.7) margin  -3.8 ->  -6.7
+  Violas         sq  615.00 bar 154 dur 1.10 qn: level  -4.8 (envelope  -4.0) margin  -3.7 ->  -8.9
+  Violins I      sq  479.00 bar 120 dur 0.70 qn: level  -3.5 (envelope  -3.7) margin  -2.9 ->  -5.7
+  Violoncellos   sq  603.00 bar 151 dur 1.26 qn: level  +4.0 (envelope  +3.4) margin  -5.6 ->  -1.5
+  Violoncellos   sq  609.00 bar 153 dur 0.48 qn: level  +3.3 (envelope  +2.0) margin  -1.6 ->  +1.1
+7

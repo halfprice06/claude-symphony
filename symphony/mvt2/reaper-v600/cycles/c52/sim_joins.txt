@@ -1,0 +1,10 @@
+Cor anglais    131.50: (peak at +232 ms) body before  -41.3 after  -41.1; hole  4.2 dB at  +55 ms; peak over the higher body -0.4 dB  ok
+Cor anglais    132.00: (peak at +300 ms) body before  -42.7 after  -44.1; hole  3.4 dB at  -30 ms; peak over the higher body -1.2 dB  ok
+Flute 1        118.00: (peak at  -56 ms) body before  -40.4 after  -44.5; hole  4.1 dB at  +84 ms; peak over the higher body +1.4 dB  ok
+Flute 1        130.00: (peak at -100 ms) body before  -49.2 after  -49.2; hole  3.7 dB at +139 ms; peak over the higher body +2.0 dB  ok
+Flute 1        131.50: (peak at  -57 ms) body before  -48.8 after  -50.0; hole  2.6 dB at +216 ms; peak over the higher body -1.3 dB  ok
+Oboe 1         145.00: (peak at +261 ms) body before  -43.9 after  -45.1; hole  3.9 dB at  -47 ms; peak over the higher body -0.5 dB  ok
+Oboe 1         145.50: (peak at +252 ms) body before  -46.3 after  -41.8; hole  4.4 dB at +128 ms; peak over the higher body -2.9 dB  ok
+Clarinet 1     283.00: (peak at +294 ms) body before  -50.8 after  -48.9; hole  4.2 dB at  -17 ms; peak over the higher body -1.1 dB  ok
+Horn 1          37.50: (peak at  +41 ms) body before  -39.7 after  -41.9; hole  3.5 dB at +118 ms; peak over the higher body -0.9 dB  ok
+misses: 0 of 9

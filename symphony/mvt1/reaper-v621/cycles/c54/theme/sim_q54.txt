@@ -1,0 +1,13 @@
+Celli minus Violins I, qn 97-99 (target: celli >= 1 dB under)                                        -3.7 -0.9 -5.1
+Celli minus Violins I, qn 156-159                                                                    -2.3 -5.4 -2.3 +3.0
+Melody group (Vln I, Fl 1, Ob 1) minus celli, 156-159 (target >= +4)                                 +4.0 +7.4 +4.4 +0.9
+Celli accent at 526 over its neighbours (target 3-5)                                                 6.5
+Celli minus Violins I, 557.0 / 557.5 (target <= +1)                                                  +0.2 -2.2
+Bass clarinet minus tuba, 464-484 per 2 qn (target -1..-7)                                           -6.8 .. -1.0
+Bass clarinet share of the dry 30-150 Hz, bars 117-123 (target < 20 %)                               14 13 16 14 9 16 12
+Oboe 1 minus Violins I on ff F5-A-flat 5 onsets (target median -5..-7, none over -2)                 median -5.4, max -0.3, over -2: 4 of 22
+Oboe 1 minus Violins I, 496-503 per quarter (c53: 2.9-4.9 under)                                     -4.3 -3.4 -3.5 -3.3 -2.9 -3.0 -5.0 -4.2
+Basses pizzicato 184-216: RMS of the first 0.45 s (target spread <= 6)                               -53.5 -56.6 -55.7 -50.4 -47.3 -53.5 -50.5 -54.1 -47.3 -52.3 -51.5  spread 9.3
+Basses pizzicato 584-616: RMS of the first 0.45 s (target spread <= 6)                               -46.8 -49.1 -42.6 -50.2 -50.5 -55.4 -48.6 -44.6 -50.3 -52.5 -47.9  spread 12.8
+Timpani under the theme group (Vc, Cl 1, Bn 1, Tbn 1), 532-535 (target 6-8)                          6.5 8.2 7.3 6.6
+Theme (Violins I) over celli, 56-88 per quarter (c53: median +5.47, lower quartile +3.67, 0 under 0) median +6.30, lower quartile +4.00, quarters under 0: 2

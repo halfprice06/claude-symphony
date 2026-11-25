@@ -1,0 +1,10 @@
+count per track: {'Violoncellos': 6, 'Clarinet 1': 1, 'Bass clarinet': 1, 'Violins II': 1}
+  Clarinet 1     q275 bar 69:  -40.8 ->  -36.8 (+4.0), envelope -0.2
+  Bass clarinet  q429 bar 108:  -43.7 ->  -39.2 (+4.5), envelope +0.1
+  Violins II     q405 bar 102:  -24.1 ->  -29.5 (-5.4), envelope -0.0
+  Violoncellos   q288 bar 73:  -41.1 ->  -45.6 (-4.6), envelope +0.0
+  Violoncellos   q350 bar 88:  -42.7 ->  -48.0 (-5.3), envelope -0.2
+  Violoncellos   q388 bar 98:  -32.8 ->  -37.5 (-4.7), envelope -0.0
+  Violoncellos   q408 bar 103:  -36.9 ->  -50.3 (-13.4), envelope -0.0
+  Violoncellos   q409 bar 103:  -31.3 ->  -35.5 (-4.2), envelope +0.0
+  Violoncellos   q670 bar 168:  -32.6 ->  -26.9 (+5.7), envelope -0.1

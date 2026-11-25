@@ -1,0 +1,7 @@
+  sf  78.0 Violins I      first 0.1 s minus the 0.25 s before  +4.5 dB, peak at +0.140 s (+1.1 dB over the first 0.1 s), +0.5 s minus first  -1.9 dB, 2-5 kHz front-body  -4.2 dB
+  sf  78.0 Violins II     first 0.1 s minus the 0.25 s before +10.9 dB, peak at +0.060 s (+1.1 dB over the first 0.1 s), +0.5 s minus first -12.6 dB, 2-5 kHz front-body  +0.4 dB
+  sf 160.0 Violins I      first 0.1 s minus the 0.25 s before +12.9 dB, peak at +0.040 s (+1.4 dB over the first 0.1 s), +0.5 s minus first  -7.3 dB, 2-5 kHz front-body  +0.5 dB
+  sf 160.0 Violins II     first 0.1 s minus the 0.25 s before +10.4 dB, peak at +0.020 s (+1.8 dB over the first 0.1 s), +0.5 s minus first  -9.6 dB, 2-5 kHz front-body  -1.4 dB
+  sf 160.0 Violas         first 0.1 s minus the 0.25 s before  +8.2 dB, peak at +0.100 s (+1.4 dB over the first 0.1 s), +0.5 s minus first -12.2 dB, 2-5 kHz front-body  +1.6 dB
+  sf 160.0 Violoncellos   first 0.1 s minus the 0.25 s before  +6.3 dB, peak at +0.060 s (+2.3 dB over the first 0.1 s), +0.5 s minus first -14.9 dB, 2-5 kHz front-body  +0.7 dB
+  sf 160.0 Double basses  first 0.1 s minus the 0.25 s before  +7.1 dB, peak at +0.060 s (+1.2 dB over the first 0.1 s), +0.5 s minus first -13.6 dB, 2-5 kHz front-body  +3.4 dB

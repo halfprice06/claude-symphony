@@ -1,0 +1,76 @@
+fit tot6 = 0.205*dyn -9.9
+pitch  f0Hz   n  sec | d_total c55->c56 (med) | d_f0 | 40-130Hz d | resid vs dyn fit c55 -> c56 (med, max) | f0-h2 c56 | Cb-Vc total (n) c56, 40-130 Hz | Cb-Tuba (n)
+F0   21.8   6   6.8 |  +3.3 |  -0.4 |  +5.7 |  +0.3 ->  +2.0  max  +7.0 | -50.0 |  +0.6 (4) +22.6 |  - 
+Gb0   23.1   2   3.2 |  +1.0 |  +0.1 |  +3.0 |  -3.0 ->  -3.4  max  -3.1 | -65.8 |   -   |  - 
+G0   24.5  25  51.0 |  +1.4 |  +0.2 |  +1.9 |  +0.1 ->  -0.3  max  +5.2 | -52.0 |  -2.4 (8) +20.6 |  +7.4 (2)
+Ab0   26.0  12  22.1 |  +1.2 |  +0.2 |  +1.3 |  +3.8 ->  +3.1  max  +6.5 | -56.9 |  -6.9 (2) +25.1 |  - 
+A0   27.5   1   2.4 |  +0.7 |  +0.2 |  +0.8 |  +1.2 ->  +0.5  max  +0.5 | -60.8 |   -   |  - 
+Bb0   29.1  11  14.7 |  +1.2 |  +0.2 |  +1.5 |  +1.4 ->  -0.0  max  +2.9 | -55.3 | -10.6 (2) +28.7 |  - 
+B0   30.9   4   5.9 |  +2.4 |  +0.4 |  +4.2 |  +3.1 ->  +3.8  max  +4.1 | -74.0 |  -1.4 (1)  -1.3 |  - 
+C1   32.7  37  70.2 |  +2.3 |  +0.3 |  +5.1 |  -2.4 ->  -2.7  max +13.3 | -57.5 |  -0.3 (14)  +6.6 |  +2.4 (1)
+Db1   34.6  13  16.7 |  +3.9 |  +0.3 |  +6.0 |  +0.6 ->  +2.0  max  +9.4 | -55.1 |  -4.6 (2) +22.3 |  - 
+D1   36.7  11  17.0 |  +4.0 |  +0.3 |  +6.8 |  -1.4 ->  +0.1  max  +9.5 | -50.6 |  -3.3 (5) +29.2 |  - 
+Eb1   38.9  19  34.5 |  +1.8 |  +0.3 |  +5.2 |  -2.6 ->  -2.4  max  +8.0 | -40.0 |  -7.0 (7) +26.5 |  - 
+E1   41.2   7  10.4 |  +1.5 |  +0.3 |  +4.7 |  +1.1 ->  -0.6  max  +3.2 | -34.7 |   -   |  - 
+F1   43.7  14  22.0 |  +5.0 |  +0.4 |  +7.2 |  +3.2 ->  +5.5  max  +9.5 | -46.5 |  +0.2 (5) +35.1 |  - 
+Gb1   46.2   1   2.1 |  +1.3 |  +0.9 |  +3.7 |  +1.3 ->  -0.1  max  -0.1 | -39.6 |   -   |  - 
+G1   49.0   9  17.4 |  +1.4 |  +1.1 |  +1.8 |  -1.7 ->  -3.1  max  +3.9 | -50.5 |  -2.8 (3) +24.8 |  - 
+Ab1   51.9   5   6.9 |  +1.1 |  +1.4 |  +1.3 |  -3.0 ->  -3.7  max  +3.6 | -47.1 |  -7.2 (3) +26.5 |  - 
+
+notes more than 4 dB over the dynamic fit in c56 (sq, pitch, dyn, resid c55 -> c56, d_tot, Cb-Vc):
+  sq   72.00 F0 dur 0.6s dyn 72 resid -1.4 -> +0.5 d_tot +4.2 Cb-Vc -2.2 Cb-Tb +nan
+  sq   80.00 F0 dur 0.6s dyn 72 resid -1.4 -> +0.6 d_tot +4.2 Cb-Vc +1.9 Cb-Tb +nan
+  sq  546.00 F0 dur 0.6s dyn 85 resid +1.9 -> +3.9 d_tot +3.9 Cb-Vc +0.8 Cb-Tb +nan
+  sq  624.00 F0 dur 2.2s dyn 86 resid +6.6 -> +7.0 d_tot +2.4 Cb-Vc +nan Cb-Tb +nan
+  sq    3.00 G0 dur 1.1s dyn 34 resid +0.1 -> +0.7 d_tot +3.7 Cb-Vc -6.4 Cb-Tb +nan
+  sq  332.00 G0 dur 1.5s dyn 46 resid +6.3 -> +5.2 d_tot +1.7 Cb-Vc +1.8 Cb-Tb +nan
+  sq  632.00 G0 dur 2.0s dyn 114 resid +4.7 -> +4.9 d_tot +1.5 Cb-Vc +nan Cb-Tb +7.7
+  sq  308.00 Ab0 dur 1.0s dyn 46 resid +7.5 -> +6.1 d_tot +1.3 Cb-Vc +nan Cb-Tb +nan
+  sq  636.00 Ab0 dur 2.4s dyn 124 resid +6.6 -> +6.5 d_tot +1.1 Cb-Vc +nan Cb-Tb +nan
+  sq  100.00 B0 dur 1.5s dyn 114 resid +3.9 -> +4.1 d_tot +1.6 Cb-Vc +nan Cb-Tb +nan
+  sq  388.00 B0 dur 1.8s dyn 114 resid -0.6 -> +2.0 d_tot +3.9 Cb-Vc +nan Cb-Tb +nan
+  sq  541.00 B0 dur 0.6s dyn 79 resid +3.3 -> +4.0 d_tot +2.8 Cb-Vc -1.4 Cb-Tb +nan
+  sq    8.00 C1 dur 2.2s dyn 34 resid +13.6 -> +13.3 d_tot +2.7 Cb-Vc -0.6 Cb-Tb +nan
+  sq   30.57 C1 dur 1.6s dyn 43 resid -3.4 -> -2.7 d_tot +3.5 Cb-Vc +4.6 Cb-Tb +nan
+  sq  128.00 C1 dur 1.9s dyn 114 resid -15.7 -> -13.0 d_tot +4.1 Cb-Vc +nan Cb-Tb +nan
+  sq  200.00 C1 dur 0.5s dyn 34 resid +0.9 -> +4.1 d_tot +6.2 Cb-Vc +nan Cb-Tb +nan
+  sq  366.00 C1 dur 1.0s dyn 88 resid -2.4 -> -0.5 d_tot +3.8 Cb-Vc +4.1 Cb-Tb +nan
+  sq  370.00 C1 dur 1.0s dyn 88 resid -2.4 -> -0.4 d_tot +3.8 Cb-Vc +nan Cb-Tb +nan
+  sq  436.00 C1 dur 1.9s dyn 46 resid +3.9 -> +4.5 d_tot +3.4 Cb-Vc +nan Cb-Tb +nan
+  sq  460.00 C1 dur 1.7s dyn 105 resid +5.0 -> +4.2 d_tot +0.7 Cb-Vc -0.1 Cb-Tb +nan
+  sq  584.00 C1 dur 0.5s dyn 34 resid +5.3 -> +8.0 d_tot +5.6 Cb-Vc -6.2 Cb-Tb +nan
+  sq  616.00 C1 dur 0.5s dyn 34 resid +6.4 -> +9.5 d_tot +6.2 Cb-Vc +1.2 Cb-Tb +nan
+  sq  676.00 C1 dur 1.4s dyn 114 resid +7.2 -> +7.9 d_tot +2.1 Cb-Vc +2.7 Cb-Tb +2.4
+  sq   10.00 Db1 dur 1.4s dyn 56 resid +8.2 -> +9.4 d_tot +3.8 Cb-Vc +nan Cb-Tb +nan
+  sq  172.00 Db1 dur 1.9s dyn 34 resid +3.5 -> +6.0 d_tot +5.5 Cb-Vc +nan Cb-Tb +nan
+  sq  180.00 Db1 dur 1.0s dyn 34 resid +1.0 -> +3.1 d_tot +5.1 Cb-Vc +nan Cb-Tb +nan
+  sq  188.00 Db1 dur 0.5s dyn 34 resid -3.2 -> -1.4 d_tot +4.9 Cb-Vc +nan Cb-Tb +nan
+  sq  204.00 Db1 dur 0.5s dyn 34 resid +1.4 -> +4.5 d_tot +6.1 Cb-Vc -9.7 Cb-Tb +nan
+  sq  208.00 Db1 dur 0.5s dyn 34 resid -0.7 -> +2.3 d_tot +6.0 Cb-Vc +nan Cb-Tb +nan
+  sq  368.00 Db1 dur 1.0s dyn 88 resid -6.2 -> -4.3 d_tot +3.9 Cb-Vc +nan Cb-Tb +nan
+  sq  456.00 Db1 dur 1.8s dyn 95 resid +6.1 -> +5.7 d_tot +1.3 Cb-Vc +nan Cb-Tb +nan
+  sq  710.00 Db1 dur 2.3s dyn 34 resid -4.4 -> -2.4 d_tot +5.0 Cb-Vc +nan Cb-Tb +nan
+  sq    7.50 D1 dur 0.5s dyn 52 resid -1.6 -> +0.1 d_tot +4.3 Cb-Vc -3.0 Cb-Tb +nan
+  sq   40.00 D1 dur 2.4s dyn 70 resid +1.0 -> +3.6 d_tot +4.9 Cb-Vc +nan Cb-Tb +nan
+  sq   42.00 D1 dur 2.2s dyn 79 resid +4.3 -> +6.5 d_tot +4.2 Cb-Vc +5.0 Cb-Tb +nan
+  sq  592.00 D1 dur 0.5s dyn 34 resid +5.6 -> +9.5 d_tot +6.9 Cb-Vc -10.0 Cb-Tb +nan
+  sq  640.00 D1 dur 1.2s dyn 124 resid +5.8 -> +7.2 d_tot +2.5 Cb-Vc -3.3 Cb-Tb +nan
+  sq  652.00 D1 dur 1.3s dyn 58 resid -1.6 -> -0.1 d_tot +4.0 Cb-Vc +nan Cb-Tb +nan
+  sq  704.00 D1 dur 3.6s dyn 34 resid -6.8 -> -4.8 d_tot +5.0 Cb-Vc +nan Cb-Tb +nan
+  sq    4.00 Eb1 dur 4.5s dyn 34 resid +8.2 -> +8.0 d_tot +2.7 Cb-Vc +nan Cb-Tb +nan
+  sq  196.00 Eb1 dur 0.5s dyn 34 resid +3.2 -> +5.6 d_tot +5.4 Cb-Vc -8.8 Cb-Tb +nan
+  sq  198.00 Eb1 dur 0.5s dyn 34 resid +1.8 -> +4.2 d_tot +5.3 Cb-Vc -8.7 Cb-Tb +nan
+  sq  212.00 Eb1 dur 0.5s dyn 34 resid +2.0 -> +4.3 d_tot +5.3 Cb-Vc +nan Cb-Tb +nan
+  sq  214.00 Eb1 dur 0.5s dyn 34 resid -2.6 -> -0.7 d_tot +4.9 Cb-Vc +nan Cb-Tb +nan
+  sq   26.00 F1 dur 2.4s dyn 42 resid +2.8 -> +4.8 d_tot +4.9 Cb-Vc +nan Cb-Tb +nan
+  sq   36.00 F1 dur 2.6s dyn 52 resid +4.6 -> +6.6 d_tot +4.6 Cb-Vc +nan Cb-Tb +nan
+  sq   38.00 F1 dur 2.3s dyn 61 resid +1.3 -> +3.1 d_tot +4.3 Cb-Vc -0.9 Cb-Tb +nan
+  sq  148.00 F1 dur 2.0s dyn 60 resid +3.7 -> +7.0 d_tot +5.8 Cb-Vc +nan Cb-Tb +nan
+  sq  252.00 F1 dur 1.0s dyn 72 resid +1.8 -> +3.6 d_tot +4.0 Cb-Vc +nan Cb-Tb +nan
+  sq  268.00 F1 dur 2.3s dyn 46 resid +4.4 -> +6.8 d_tot +5.1 Cb-Vc +nan Cb-Tb +nan
+  sq  360.00 F1 dur 1.9s dyn 88 resid -2.0 -> +1.2 d_tot +5.1 Cb-Vc +nan Cb-Tb +nan
+  sq  378.00 F1 dur 1.0s dyn 94 resid -0.7 -> +2.4 d_tot +4.8 Cb-Vc +0.2 Cb-Tb +nan
+  sq  440.00 F1 dur 1.9s dyn 58 resid +4.9 -> +8.3 d_tot +5.8 Cb-Vc +3.3 Cb-Tb +nan
+  sq  588.00 F1 dur 0.5s dyn 34 resid +1.2 -> +6.1 d_tot +7.8 Cb-Vc +nan Cb-Tb +nan
+  sq  604.00 F1 dur 0.5s dyn 34 resid +4.8 -> +9.5 d_tot +7.6 Cb-Vc -1.3 Cb-Tb +nan
+  sq  608.00 F1 dur 0.5s dyn 34 resid +3.1 -> +8.1 d_tot +8.0 Cb-Vc +nan Cb-Tb +nan

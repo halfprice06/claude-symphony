@@ -1,0 +1,3 @@
+bars compared 376; over +1.5 dB: 9; under -1.5 dB: 8; median +0.00 dB
+up: [(62, np.float64(2.8)), (66, np.float64(5.8)), (71, np.float64(1.7)), (184, np.float64(1.6)), (288, np.float64(1.7)), (294, np.float64(1.7)), (299, np.float64(1.7)), (300, np.float64(1.8)), (366, np.float64(2.4))]
+down: [(18, np.float64(-6.9)), (110, np.float64(-2.0)), (137, np.float64(-1.5)), (138, np.float64(-1.8)), (258, np.float64(-4.8)), (290, np.float64(-2.7)), (328, np.float64(-1.9)), (365, np.float64(-1.6))]

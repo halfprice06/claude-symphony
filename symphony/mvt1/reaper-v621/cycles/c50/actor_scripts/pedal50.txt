@@ -1,0 +1,4 @@
+main Double basses: downbeat minus neighbouring off-beat front (40-300 Hz, 80 ms): [-5.8, -7.0, -7.2, -6.2, -6.6, -7.2, -6.2, -6.7, -7.5, -4.6, -3.0, -2.0] -> 0 of 12 >= +0.5 dB
+   2-5 kHz front minus body: downbeats median +4.9, off-beats +1.4 (diff +3.5); adjacent off-beat front differences max 2.4 dB, median 0.3
+test Cb pedal M: downbeat minus neighbouring off-beat front (40-300 Hz, 80 ms): [-3.5, -8.7, -8.9, -9.3, -9.1, -8.8, -9.3, -9.2, -9.1, -9.4, -8.6, -7.5] -> 0 of 12 >= +0.5 dB
+   2-5 kHz front minus body: downbeats median +1.4, off-beats +1.8 (diff -0.4); adjacent off-beat front differences max 2.1 dB, median 0.4

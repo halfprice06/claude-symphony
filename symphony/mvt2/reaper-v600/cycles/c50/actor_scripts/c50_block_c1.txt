@@ -1,0 +1,4 @@
+# c50 critic C #1 (bars 58-60): the violins' crescendo to bar 59 was flat (Violins I 197-199 was 1.1 dB under 193-195 in
+# c49, Violins II 2.5 dB under). +3 dB from 196.5 to 201, back to 0 at 204 (the level at 204 and bar 61 stay)
+for _tr in ("Violins I", "Violins II"):
+    LEVEL_SHAPES[_tr] = LEVEL_SHAPES.get(_tr, []) + [[(195.5, 0.0), (196.5, 3.0), (201.0, 3.0), (204.0, 0.0)]]

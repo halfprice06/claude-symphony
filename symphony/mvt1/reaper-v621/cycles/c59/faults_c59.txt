@@ -1,0 +1,108 @@
+track            c59: hole rep(<3 of n) rebow(of n) sag pulse pitch
+    Flute 1 hole: 47:+13.2
+    Flute 1 rep: 676:-0.9
+Flute 1            1   1/  3  0/ 0   0   0  0
+    Flute 2 hole: 560:+14.1
+    Flute 2 sag: 112:+7.2 108:+6.9 548:+6.7 100:+6.6
+    Flute 2 pitch: 84:-5.6(n6)
+Flute 2            1   0/  0  0/ 0   4   0  1
+    Oboe 1 hole: 168:+10.4
+    Oboe 1 sag: 100:+6.3
+    Oboe 1 rep: 47:+1.3 100:+0.3
+Oboe 1             1   2/  3  0/ 0   1   0  0
+    Oboe 2 sag: 48:+8.6
+Oboe 2             0   0/  0  0/ 0   1   0  0
+    Cor anglais sag: 31.3:+11.5 616:+7.9
+    Cor anglais pulse: 31.3:+7.0
+Cor anglais        0   0/  1  0/ 0   2   1  0
+    Clarinet 1 sag: 640:+7.5 558:+6.1
+    Clarinet 1 pulse: 500:+9.1
+    Clarinet 1 rep: 676:+2.6
+Clarinet 1         0   1/  9  0/ 0   2   1  0
+    Clarinet 2 sag: 501:+17.0
+    Clarinet 2 rep: 668:-3.1 670:+2.3 456:+0.7
+Clarinet 2         0   3/ 11  0/ 0   1   0  0
+    Bass clarinet hole: 700:+8.6
+    Bass clarinet sag: 500.9:+12.0
+    Bass clarinet pitch: 46:+4.1(n3)
+    Bass clarinet rep: 676:-1.0
+Bass clarinet      1   1/ 11  0/ 0   1   0  1
+    Bassoon 1 hole: 112:+9.7
+    Bassoon 1 sag: 576:+9.3 500:+7.4
+    Bassoon 1 pitch: 58:+4.3(n3)
+    Bassoon 1 rep: 548:+2.9 278:+2.4
+Bassoon 1          1   2/ 14  0/ 0   2   0  1
+    Bassoon 2 hole: 268:+11.5
+    Bassoon 2 sag: 244:+9.9 660:+9.0
+    Bassoon 2 rep: 676:-3.3 632:+2.9 156:+2.1 412:+1.7 100:+1.4 160:-0.4
+Bassoon 2          1   6/ 19  0/ 0   2   0  0
+    Contrabassoon rep: 676:-6.4 537:+2.5 538:+2.2
+Contrabassoon      0   3/ 40  0/ 0   0   0  0
+    Horn 1 sag: 53:+12.1 606:+11.6
+    Horn 1 pulse: 652:+7.8
+Horn 1             0   0/  0  0/ 0   2   1  0
+    Horn 2 hole: 266:+11.6
+    Horn 2 sag: 168:+14.5
+    Horn 2 rep: 232:+1.6
+Horn 2             1   1/  2  0/ 0   1   0  0
+    Horn 3 hole: 422:+8.6
+    Horn 3 sag: 48:+20.5 726.6:+19.6 725:+10.8 501:+10.7 232:+10.7 408:+9.7 76:+8.4 720:+7.5 228:+6.7 657:+6.1
+Horn 3             1   0/  3  0/ 0  10   0  0
+    Horn 4 sag: 725.9:+17.4 500:+12.5 724.3:+7.5 228:+6.1
+    Horn 4 pulse: 725.9:+6.0
+    Horn 4 pitch: 56:-4.5(n4)
+    Horn 4 rep: 295:+2.4
+Horn 4             0   1/  5  0/ 0   4   1  1
+Trumpet 1          0   0/  0  0/ 0   0   0  0
+Trumpet 2          0   0/  0  0/ 0   0   0  0
+Trumpet 3          0   0/  0  0/ 0   0   0  0
+    Trombone 1 sag: 47:+11.6 704:+7.9
+Trombone 1         0   0/  0  0/ 0   2   0  0
+    Trombone 2 sag: 712:+8.3 47:+8.0
+Trombone 2         0   0/  0  0/ 0   2   0  0
+Bass trombone      0   0/  0  0/ 0   0   0  0
+Tuba               0   0/  0  0/ 0   0   0  0
+    Violins I rebow: 44:+12.3
+    Violins I sag: 644:+8.1
+    Violins I rep: 676:-6.9 670:+2.0 668:+1.6 628:+1.5 270:+1.2
+Violins I          0   5/  7  1/ 2   1   0  0
+    Violins II hole: 91:+9.2 105:+7.0
+    Violins II sag: 644:+9.9 608:+7.2 576:+6.1
+    Violins II rep: 152:-4.4 428:-3.3 156:-3.2 292:+2.7 488:+2.4 676:-1.9
+Violins II         2   6/ 11  0/ 5   3   0  0
+    Violas hole: 168:+17.8 353:+11.9
+    Violas rebow: 36:+13.3 725.52:+9.3 40:+8.9 296:+8.4 52:+8.0
+    Violas sag: 684:+8.8 484:+8.0 726.816:+7.7 501:+7.7 682:+7.5 618:+6.4
+    Violas pulse: 724:+7.8 726.816:+6.6
+    Violas rep: 272:-12.3 192:-1.9 632:+1.4 212:+1.1 204:-1.1 208:+0.8
+Violas             2   6/ 78  5/13   6   2  0
+    Violoncellos hole: 286:+16.5 464:+9.2
+    Violoncellos rebow: 180:+10.2 295:+8.4 717.638:+8.2
+    Violoncellos sag: 286:+18.5 727.116:+10.9 618:+7.9 712:+7.5 484:+6.6 234:+6.1 568:+6.0
+    Violoncellos pulse: 286:+10.4 295:+7.8 715.544:+6.3
+    Violoncellos rep: 508:-3.4 512:+2.9 507:+2.6 511.5:+2.5 509:+2.5 511:-2.3 501:+1.7 505:+1.6 506:+1.0
+Violoncellos       2   9/ 30  3/16   7   3  0
+    Double basses rebow: 297.045:+16.2 720.004:+11.0 489.716:+10.3 714.671:+9.3 47:+9.3
+    Double basses sag: 128:+16.3 286:+11.7 628:+8.7 16:+8.2 13.381:+7.7 232:+7.5 464:+6.6
+    Double basses pulse: 44:+7.6 712:+7.4 718.171:+6.9 13.381:+6.4
+    Double basses pitch: 29:+7.5(n3) 43:-4.7(n3)
+    Double basses rep: 304:-1.7 576:+0.7
+Double basses      0   2/ 13  5/16   7   4  2
+Horns a2           0   0/  0  0/ 0   0   0  0
+Trumpets a2        0   0/  0  0/ 0   0   0  0
+    Bassoon 1 stac hole: 356:+14.7 351:+12.2
+Bassoon 1 stac     2   0/  0  0/ 0   0   0  0
+Cor anglais stac   0   0/  0  0/ 0   0   0  0
+    Flute 1 stac hole: 117:+23.4 116.5:+22.1 375.5:+21.1 383.5:+21.0 117.5:+14.4
+Flute 1 stac       5   0/  0  0/ 0   0   0  0
+Cello solo         0   0/  0  0/ 0   0   0  0
+Violins I f62      0   0/  0  0/ 0   0   0  0
+Violins II f62     0   0/  0  0/ 0   0   0  0
+    Oboe 1 stac hole: 117.5:+11.6
+Oboe 1 stac        1   0/  0  0/ 0   0   0  0
+    Clarinet 1 stac hole: 117:+15.1 116.5:+14.4 117.5:+13.3
+Clarinet 1 stac    3   0/  0  0/ 0   0   0  0
+c59 string: hole 6, rep 28, rep_all 139, rebow 14, rebow_all 52, sag 24, pulse 9, pitch 2
+c59 wind: hole 17, rep 19, rep_all 111, rebow 0, rebow_all 0, sag 16, pulse 2, pitch 3
+c59 brass: hole 2, rep 2, rep_all 10, rebow 0, rebow_all 0, sag 21, pulse 2, pitch 1
+c59 ALL: hole 25, rep 49, rep_all 260, rebow 14, rebow_all 52, sag 61, pulse 13, pitch 6

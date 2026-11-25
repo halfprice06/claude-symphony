@@ -1,0 +1,49 @@
+master bars 1.0 dB or more further from c54 than c56 was: none
+master bars 2 dB or more off c54: c56 ['20 (-2.0)', '31 (-2.3)', '84 (+2.2)', '92 (+2.1)'] new ['20 (-2.3)', '31 (-2.3)']
+largest master bar changes against c56: [(-2.0, 92), (1.3, 64), (-1.1, 25), (1.1, 82), (1.0, 38), (0.9, 2), (0.8, 70), (-0.8, 71), (-0.8, 75), (0.7, 6), (-0.7, 76), (-0.6, 1), (0.6, 3), (-0.6, 34)]
+cells moved 0.7 dB or more against c56: 44
+  Bass clarinet 37-44           +1.4   against c54  +1.5
+  Bass clarinet 53-60           -0.7   against c54  -0.8
+  Bass clarinet 79-82           -1.1   against c54  -1.4
+  Bass trombone 61-64           -0.7   against c54  -0.8
+  Bassoon 1 79-82               +1.0   against c54  +0.5
+  Bassoon 2 65-70               +4.4   against c54  +4.4
+  Bassoon 2 79-82               +1.4   against c54  +1.3
+  Cor anglais 79-82             +1.0   against c54  +1.0
+  Double basses 1-6             +1.5   against c54  +0.9
+  Double basses 15-22           +1.7   against c54  +1.7
+  Double basses 37-44           -0.8   against c54  -0.8
+  Double basses 53-60           +1.1   against c54  +0.4
+  Flute 1 37-44                 +0.9   against c54  +0.4
+  Flute 1 53-60                 -1.7   against c54  -1.8
+  Flute 1 61-64                 +1.5   against c54  +1.1
+  Flute 2 61-64                 -0.7   against c54  -1.1
+  Flute 2 79-82                 +0.8   against c54  +0.9
+  Harp 37-44                    -0.9   against c54  -0.9
+  Horn 1 1-6                    +1.3   against c54  +1.1
+  Horn 2 71-78                  -0.8   against c54  -0.8
+  Oboe 1 37-44                  -4.0   against c54  +0.1
+  Oboe 1 53-60                  -1.1   against c54  -1.2
+  Violas 1-6                    -1.7   against c54  -2.0
+  Violas 23-30                  -1.0   against c54  -1.2
+  Violas 65-70                  -3.3   against c54  -3.6
+  Violas 79-82                  +0.7   against c54  +0.5
+  Violas 83-92                  +0.9   against c54  +0.6
+  Violas div 79-82              -1.5   against c54  -1.5
+  Violins I 1-6                 -2.1   against c54  -2.4
+  Violins I 45-52               +2.0   against c54  +2.7
+  Violins I 61-64               -0.9   against c54  -1.2
+  Violins I 65-70               +1.6   against c54  +1.9
+  Violins I 83-92               +0.8   against c54  -2.5
+  Violins II 37-44              -3.5   against c54  -3.5
+  Violins II 53-60              -0.9   against c54  -1.3
+  Violins II 65-70              -1.4   against c54  -2.0
+  Violins II 71-78              -0.8   against c54  -1.4
+  Violins II 79-82              +0.7   against c54  +0.7
+  Violins II div 37-44          -1.7   against c54  -1.7
+  Violoncellos 1-6              +3.2   against c54  +3.8
+  Violoncellos 15-22            -1.1   against c54  -1.1
+  Violoncellos 23-30            -1.1   against c54  -1.1
+  Violoncellos 83-92            +1.4   against c54  +0.2
+  Violoncellos div 83-92        -1.4   against c54  -0.2
+cells off c54 by 1 dB or more: 33, by 2 dB or more: 9 ['Bassoon 2 65-70', 'Violins I 1-6', 'Violins I 45-52', 'Violins I 83-92', 'Violins II 37-44', 'Violins II 83-92', 'Violas 1-6', 'Violas 65-70', 'Violoncellos 1-6']

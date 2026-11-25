@@ -1,0 +1,136 @@
+track | notes | pts | swing med / p90 / max | n>=3 / n>=6 | SD within / between notes (dB) | path in / between (dB) | share in | >=3 dB notes: hairpin same dir / hairpin other dir / accent-ten-stac-sf-dyn / no mark | notes<=0.5qn: n, >=3 | med swing vol_db / trim | >=3 from trim alone
+Flute 1             199   853   1.3  6.4  13.6   72  30  1.31  3.88     702    389 0.64   12  13  29  18    44   7   1.1  0.0  11
+Flute 2              94   433   2.0  6.5  18.5   41  15  1.49  2.88     399    202 0.66    8   2  19  12    22   2   1.5  0.0   2
+Oboe 1              178  1098   2.6  8.2  20.3   80  40  1.74  3.21     975    424 0.70   20  10  25  25    30   2   2.4  0.0   0
+Oboe 2               99   531   0.6  6.3  12.3   34  13  1.31  3.03     315    139 0.69    8   0  17   9    15   0   0.5  0.0   0
+Cor anglais          75   474   1.8  4.9  12.5   30   5  1.24  2.75     280    116 0.71   11   4   4  11     9   1   1.8  0.0   0
+Clarinet 1          289  1536   2.4  6.8  15.1  125  40  1.43  4.03    1302    595 0.69   23  20  32  50    60   7   2.1  0.0  17
+Clarinet 2          108   703   0.5  5.0  10.3   27   7  1.00  3.35     265    154 0.63    7   4   8   8    57   1   0.2  0.0  10
+Bass clarinet        88   961   2.2  5.8  11.8   36   9  1.09  2.29     355    149 0.70   10   7   5  14     9   1   2.0  0.0   1
+Bassoon 1           199  1284   1.4  6.6  10.5   74  25  1.07  2.94     738    319 0.70   18  12  14  30    34   8   1.2  0.0   0
+Bassoon 2           120  1311   0.7  4.8   8.9   26   6  0.80  2.77     303    165 0.65    7   5   4  10     8   0   0.8  0.0   2
+Contrabassoon        98   509   0.1  4.5   7.5   21   2  0.76  2.62     200    101 0.66    3   3   9   6     0   0   0.0  0.0   3
+Horn 1              114  1060   4.0 10.2  19.7   69  35  1.83  5.02     856    333 0.72   19  23   1  26     5   3   2.8  0.7  19
+Horn 2               87   836   3.5  8.9  15.9   47  22  2.07  5.30     554    205 0.73   10  12   6  19     7   2   2.7  0.0  12
+Horn 3              134   952   2.7  8.0  13.3   59  23  1.24  4.95     652    332 0.66   11  16   5  27     3   2   2.5  0.0  18
+Horn 4              114   923   2.5  9.0  18.5   46  28  1.44  4.22     586    291 0.67    7  13   1  25     0   0   2.4  0.0  20
+Trumpet 1            78   371   1.6  6.0   8.0   27  10  0.95  2.39     283     98 0.74    5   1  10  11    11   7   1.7  0.0   1
+Trumpet 2            52   340   2.5  5.5   8.4   21   3  0.97  3.14     194     90 0.68    3   1   7  10     5   1   2.3  0.0   2
+Trumpet 3            50   349   1.9  6.2   9.4   13   6  0.88  2.82     158     81 0.66    2   0   5   6     7   2   1.1  0.0   1
+Trombone 1          105   663   3.4  9.0  15.5   56  21  1.25  4.09     577    247 0.70    4   3  12  37    19  18   3.0  0.0   9
+Trombone 2           53   518   2.5  6.9  11.4   18   7  1.05  3.00     230     93 0.71    2   2   5   9     0   0   2.5  0.0   6
+Bass trombone        67   433   1.6  5.8  10.6   16   7  1.00  3.19     211     90 0.70    5   2   2   7     0   0   0.6  0.0   9
+Tuba                 51   414   2.4  6.5  14.8   14   7  1.44  2.79     205     91 0.69    2   2   4   6     0   0   1.8  0.0   5
+Timpani             109  1429   5.7  8.8  13.6   91  52  1.54  5.33     820    245 0.77    9  13  15  54    29  27   6.0  0.0   0
+Harp                184   164   2.0  6.0  13.6   80  23  1.47  2.20     860     71 0.92    0  10   9  61     2   0   2.0  0.0   0
+Violins I           367  2250   2.8  9.3  21.4  175  96  1.86  4.36    2161    815 0.73   44  41  42  48   120  36   2.8  0.0   3
+Violins II          374  2815   2.7  9.0  25.6  179  79  1.59  4.58    2207    691 0.76   38  41  35  65    58  17   2.6  0.0   3
+Violas              677  2925   1.5  6.7  24.8  277  87  1.64  3.51    3068    755 0.80   47  73  35 122   308 115   1.5  0.0  19
+Violoncellos        542  4206   2.2  9.2  19.7  242 130  2.03  5.02    3505    955 0.79   60  61  26  95   197  38   2.0  0.0  23
+Double basses       366  4060   4.0  8.0  21.3  247  79  1.52  3.62    2775    783 0.78   36  31  10 170   148 122   4.0  0.0  18
+Horns a2             81   932   4.1  9.0  12.0   62  22  1.39  1.97     540    142 0.79    2   3  14  43    21  19   4.0  0.0   2
+Trumpets a2          21   270   3.4  8.0  10.6   12   6  1.22  2.44     133     29 0.82    0   0   5   7     5   2   3.4  0.0   0
+Bassoon 1 stac       14   274   1.1  5.8   7.4    6   2  1.49  2.52      44     39 0.53    0   0   4   2     8   1   1.3  0.0   0
+Cor anglais stac     14   288   2.7  8.7  13.0    7   2  2.57  3.67      75     52 0.59    0   0   4   3     9   2   2.7  0.0   0
+Flute 1 stac         19   283   0.1  3.6   4.6    3   0  1.12  2.46      32     44 0.42    2   0   1   0    13   0   0.1  0.0   0
+Cello solo           12  1622   9.1 16.3  17.1   12   8  3.31  3.32     222     32 0.87    2   5   1   4     0   0   9.2  0.4   1
+Violins I f62        21   802   1.1  4.5  17.9    5   2  1.35  2.88      81     22 0.79    3   1   0   1     5   0   1.4  0.4   0
+Violins II f62       21  1544   0.9  4.5  19.6    3   1  1.14  2.04      67     17 0.79    2   1   0   0     4   0   1.2  0.2   0
+Oboe 1 stac           4   311   0.0  0.0   0.0    0   0  0.00  3.79       0     16 0.00    0   0   0   0     4   0   0.0  0.0   0
+Clarinet 1 stac       4   384   0.0  0.0   0.0    0   0  0.00  0.00       0      0 0.00    0   0   0   0     4   0   0.0  0.0   0
+string {'notes': 2380, 'ge3': 1140, 'ge6': 482, 'hpok': 232, 'hpbad': 254, 'mark': 149, 'none': 505, 'short': 840, 'short3': 328, 'pin': 14086.276234036697, 'pbt': 4071.14242480825} share in 0.78
+wind {'notes': 1602, 'ge3': 582, 'ge6': 196, 'hpok': 129, 'hpbad': 80, 'mark': 175, 'none': 198, 'short': 326, 'short3': 32, 'pin': 5985.382348045049, 'pbt': 2905.3229708060626} share in 0.67
+brass {'notes': 1007, 'ge3': 460, 'ge6': 197, 'hpok': 72, 'hpbad': 78, 'mark': 77, 'none': 233, 'short': 83, 'short3': 56, 'pin': 5176.69763430729, 'pbt': 2122.433849820758} share in 0.71
+timp {'notes': 109, 'ge3': 91, 'ge6': 52, 'hpok': 9, 'hpbad': 13, 'mark': 15, 'none': 54, 'short': 29, 'short3': 27, 'pin': 819.5583684075364, 'pbt': 244.82795916747932} share in 0.77
+harp {'notes': 184, 'ge3': 80, 'ge6': 23, 'hpok': 0, 'hpbad': 10, 'mark': 9, 'none': 61, 'short': 2, 'short3': 0, 'pin': 859.8655735986562, 'pbt': 71.21080944692211} share in 0.92
+all {'notes': 5282, 'ge3': 2353, 'ge6': 950, 'hpok': 442, 'hpbad': 435, 'mark': 425, 'none': 1051, 'short': 1280, 'short3': 443, 'pin': 26927.78015839522, 'pbt': 9414.938014049469} share in 0.74
+string unmarked >=3 dB: 505 median swing 5.2 peak in first third 388 min in first third 270 median dur qn 0.7612 median secs 0.46
+   string dur (0,0.5] n 840 median swing 1.5 p90 5.9 >=3: 328 unmarked>=3: 214
+   string dur (0.5,1.0] n 535 median swing 1.2 p90 6.3 >=3: 196 unmarked>=3: 71
+   string dur (1.0,2.0] n 460 median swing 3.4 p90 10.3 >=3: 270 unmarked>=3: 90
+   string dur (2.0,99] n 545 median swing 4.3 p90 11.0 >=3: 346 unmarked>=3: 130
+wind unmarked >=3 dB: 198 median swing 4.5 peak in first third 159 min in first third 120 median dur qn 1.0735 median secs 0.63
+   wind dur (0,0.5] n 326 median swing 0.1 p90 2.9 >=3: 32 unmarked>=3: 24
+   wind dur (0.5,1.0] n 408 median swing 0.9 p90 5.2 >=3: 136 unmarked>=3: 62
+   wind dur (1.0,2.0] n 432 median swing 2.8 p90 7.5 >=3: 207 unmarked>=3: 45
+   wind dur (2.0,99] n 436 median swing 2.8 p90 7.3 >=3: 207 unmarked>=3: 67
+brass unmarked >=3 dB: 233 median swing 5.0 peak in first third 193 min in first third 149 median dur qn 1.748 median secs 0.86
+   brass dur (0,0.5] n 83 median swing 5.0 p90 9.0 >=3: 56 unmarked>=3: 53
+   brass dur (0.5,1.0] n 177 median swing 2.5 p90 6.4 >=3: 76 unmarked>=3: 42
+   brass dur (1.0,2.0] n 269 median swing 2.5 p90 6.4 >=3: 89 unmarked>=3: 42
+   brass dur (2.0,99] n 478 median swing 3.0 p90 9.8 >=3: 239 unmarked>=3: 96
+
+
+==== HAIRPINS ON THEIR OWN STEM ====
+
+cresc len>=0: n 252, median change +7.1 dB; not rising (<0.5 dB): 25 (10 %)
+   string: 12 of 88; median +6.3; where the curve moves 10 CC or more (n 72): stem per 10 CC +2.68, trim per 10 CC -0.48, vol_db layers per 10 CC +0.59
+   wind: 7 of 94; median +7.5; where the curve moves 10 CC or more (n 89): stem per 10 CC +3.07, trim per 10 CC -0.17, vol_db layers per 10 CC +1.32
+   brass: 6 of 70; median +8.1; where the curve moves 10 CC or more (n 67): stem per 10 CC +2.51, trim per 10 CC -1.26, vol_db layers per 10 CC +0.53
+   of the 25: dynamic trim moves 2 dB or more against it: 3; vol_db layers 2 dB or more against it (trim not): 9; printed curve moves under 3 CC: 3
+   by track: {'Violoncellos': 5, 'Violas': 3, 'Flute 1': 2, 'Bassoon 2': 2, 'Horn 1': 2, 'Horn 4': 2, 'Violins II': 2, 'Double basses': 2, 'Flute 2': 1, 'Cor anglais': 1, 'Bassoon 1': 1, 'Horn 3': 1, 'Horns a2': 1}
+     Violoncellos      405.0- 407.0 (bar 102) stem  -8.7 dB (inside -0.2), CC 114->72, trim +4.2, layers -4.4, arrival
+     Double basses     236.0- 244.0 (bar 60) stem  -7.5 dB (inside +10.0), CC 46->46, trim +0.3, layers -3.4, arrival
+     Bassoon 2         236.0- 244.0 (bar 60) stem  -5.9 dB (inside +5.3), CC 46->46, trim +0.3, layers -3.4, arrival
+     Violas             72.0-  76.0 (bar 19) stem  -5.4 dB (inside -1.0), CC 72->88, trim -2.3, layers -4.3, arrival
+     Flute 2           480.0- 484.0 (bar 121) stem  -5.2 dB (inside -0.4), CC 114->124, trim +0.0, layers +2.7, arrival
+     Violoncellos      601.0- 603.0 (bar 151) stem  -4.3 dB (inside +0.1), CC 78->84, trim -0.8, layers +0.4, arrival
+     Horn 1            408.0- 411.5 (bar 103) stem  -4.3 dB (inside -4.1), CC 72->86, trim -1.1, layers -0.1, arrival
+     Horn 1            413.0- 415.0 (bar 104) stem  -3.6 dB (inside +2.7), CC 72->86, trim -1.7, layers +0.3, arrival
+     Cor anglais       602.5- 604.0 (bar 151) stem  -3.2 dB (inside -2.2), CC 46->68, trim -1.3, layers -3.5, arrival
+     Flute 1           393.0- 395.0 (bar 99) stem  -2.9 dB (inside +0.1), CC 114->120, trim +0.0, layers +6.5, arrival
+     Horn 4            236.0- 244.0 (bar 60) stem  -2.9 dB (inside +5.8), CC 34->46, trim -1.4, layers -3.4, arrival
+     Violins II        405.0- 407.0 (bar 102) stem  -2.6 dB (inside +0.4), CC 114->120, trim +0.0, layers -6.6, arrival
+     Violoncellos      393.0- 395.0 (bar 99) stem  -2.0 dB (inside +0.2), CC 114->120, trim +0.0, layers -2.6, arrival
+     Violas            601.0- 603.0 (bar 151) stem  -1.5 dB (inside +0.0), CC 78->84, trim -0.7, layers +2.6, arrival
+     Violoncellos      388.0- 391.5 (bar 98) stem  -1.2 dB (inside -2.4), CC 114->120, trim +0.0, layers +1.3, arrival
+     Horns a2          480.0- 484.0 (bar 121) stem  -1.0 dB (inside -1.0), CC 114->124, trim -2.2, layers -0.7, end
+     Horn 4            248.0- 252.0 (bar 63) stem  -0.9 dB (inside +3.5), CC 46->58, trim -5.3, layers +2.2, arrival
+     Bassoon 1         480.0- 484.0 (bar 121) stem  -0.7 dB (inside +3.3), CC 114->124, trim +0.0, layers +0.5, arrival
+     Horn 3            236.0- 244.0 (bar 60) stem  -0.6 dB (inside +8.3), CC 34->46, trim -1.2, layers -3.4, arrival
+     Violoncellos      413.0- 415.0 (bar 104) stem  -0.5 dB (inside +0.3), CC 72->86, trim -1.6, layers -1.1, arrival
+     Violas            589.0- 591.0 (bar 148) stem  -0.4 dB (inside +2.9), CC 72->78, trim -0.7, layers -2.5, arrival
+     Bassoon 2         248.0- 252.0 (bar 63) stem  -0.3 dB (inside +8.7), CC 46->58, trim -1.4, layers -0.8, arrival
+     Flute 1           480.0- 484.0 (bar 121) stem  -0.2 dB (inside +1.3), CC 114->124, trim +0.0, layers -1.0, arrival
+     Violins II        393.0- 395.0 (bar 99) stem  -0.1 dB (inside +1.3), CC 114->120, trim +0.0, layers -0.4, arrival
+     Double basses     480.0- 484.0 (bar 121) stem  +0.3 dB (inside -2.0), CC 114->124, trim +0.0, layers +5.9, arrival
+
+cresc len>=2: n 245, median change +7.2 dB; not rising (<0.5 dB): 24 (10 %)
+   string: 12 of 87; median +6.1; where the curve moves 10 CC or more (n 71): stem per 10 CC +2.68, trim per 10 CC -0.48, vol_db layers per 10 CC +0.62
+   wind: 6 of 90; median +7.8; where the curve moves 10 CC or more (n 85): stem per 10 CC +3.07, trim per 10 CC -0.10, vol_db layers per 10 CC +1.32
+   brass: 6 of 68; median +8.2; where the curve moves 10 CC or more (n 66): stem per 10 CC +2.47, trim per 10 CC -1.26, vol_db layers per 10 CC +0.50
+
+decresc len>=0: n 123, median change -6.2 dB; not falling (<0.5 dB): 8 (7 %)
+   string: 3 of 39; median -5.2; where the curve moves 10 CC or more (n 37): stem per 10 CC +2.48, trim per 10 CC -0.97, vol_db layers per 10 CC +0.59
+   wind: 2 of 46; median -6.8; where the curve moves 10 CC or more (n 46): stem per 10 CC +2.08, trim per 10 CC -0.71, vol_db layers per 10 CC +0.58
+   brass: 3 of 38; median -5.6; where the curve moves 10 CC or more (n 37): stem per 10 CC +1.55, trim per 10 CC -0.65, vol_db layers per 10 CC +0.51
+   of the 8: dynamic trim moves 2 dB or more against it: 4; vol_db layers 2 dB or more against it (trim not): 2; printed curve moves under 3 CC: 0
+   by track: {'Horn 1': 2, 'Violas': 2, 'Oboe 1': 1, 'Clarinet 1': 1, 'Horn 2': 1, 'Double basses': 1}
+     Violas            612.0- 616.0 (bar 154) stem  +5.1 dB (inside +5.5), CC 72->46, trim +4.2, layers +0.0, arrival
+     Horn 2            260.0- 268.0 (bar 66) stem  +4.1 dB (inside +3.1), CC 58->46, trim -0.1, layers +0.9, arrival
+     Oboe 1            166.0- 168.0 (bar 42) stem  +1.7 dB (inside -7.1), CC 72->46, trim +1.7, layers +12.8, arrival
+     Horn 1            604.0- 606.0 (bar 152) stem  +1.6 dB (inside +0.8), CC 68->58, trim +3.4, layers -1.5, arrival
+     Double basses     720.0- 724.0 (bar 181) stem  +1.2 dB (inside +1.2), CC 34->23, trim -0.5, layers +6.2, end
+     Violas            164.0- 168.0 (bar 42) stem  +1.0 dB (inside -9.6), CC 72->34, trim +5.0, layers +8.4, arrival
+     Horn 1            411.5- 412.0 (bar 103) stem  +0.3 dB (inside   - ), CC 86->72, trim +1.4, layers -0.4, arrival
+     Clarinet 1        166.0- 168.0 (bar 42) stem  +0.1 dB (inside -2.7), CC 72->46, trim +4.5, layers +0.1, arrival
+
+decresc len>=2: n 114, median change -6.3 dB; not falling (<0.5 dB): 7 (6 %)
+   string: 3 of 35; median -5.6; where the curve moves 10 CC or more (n 34): stem per 10 CC +2.55, trim per 10 CC -0.95, vol_db layers per 10 CC +0.48
+   wind: 2 of 43; median -7.3; where the curve moves 10 CC or more (n 43): stem per 10 CC +2.10, trim per 10 CC -0.72, vol_db layers per 10 CC +0.56
+   brass: 2 of 36; median -6.1; where the curve moves 10 CC or more (n 35): stem per 10 CC +1.55, trim per 10 CC -0.56, vol_db layers per 10 CC +0.51
+
+
+==== WINDS AGAINST STRINGS IN CRESCENDOS INTO f ====
+  32.0-  44.0 (bars 9-12) winds n 5 strings n 5: winds-strings by quarter of the hairpin and at arrival: -0.2 -8.2 -6.6 -4.0 -3.7 | winds -46.0->-33.6 (+12.4), strings -45.8->-29.9 (+15.9), master +17.3; per-stem median rise winds +9.9 strings +14.4; wind trims -5.0,-9.0,-10.7,-4.4,-4.9
+  88.0- 100.0 (bars 23-26) winds n 6 strings n 3: winds-strings by quarter of the hairpin and at arrival: -0.6 -0.7 -2.6 -1.3 -2.4 | winds -36.0->-24.1 (+11.9), strings -35.3->-21.6 (+13.7), master +15.8; per-stem median rise winds +10.8 strings +16.3; wind trims -2.7,+2.9,+0.4,-0.4,-1.1,-0.3
+ 144.0- 156.0 (bars 37-40) winds n 2 strings n 2: winds-strings by quarter of the hairpin and at arrival: -6.8 -5.8 -4.0 -6.8 -3.8 | winds -41.6->-34.7 (+6.9), strings -34.8->-30.9 (+3.9), master +5.4; per-stem median rise winds +6.5 strings +10.2; wind trims -0.1,-0.3
+ 376.0- 384.0 (bars 95-97) winds n 3 strings n 2: winds-strings by quarter of the hairpin and at arrival: -3.4 -4.6 -4.2 -3.5 +0.6 | winds -35.8->-28.9 (+6.9), strings -32.4->-29.4 (+2.9), master +7.9; per-stem median rise winds +8.6 strings +9.9; wind trims -0.5,-0.9,-0.9
+ 388.0- 391.5 (bars 98-98) winds n 2 strings n 3: winds-strings by quarter of the hairpin and at arrival: +0.7 -1.1 -1.5 -0.7 -2.0 | winds -28.2->-27.5 (+0.7), strings -28.8->-25.5 (+3.4), master +2.6; per-stem median rise winds +1.5 strings +3.3; wind trims +0.0,+0.0
+ 393.0- 395.0 (bars 99-99) winds n 2 strings n 2: winds-strings by quarter of the hairpin and at arrival: +2.7 +2.3 -0.1 +2.2 +1.6 | winds -26.7->-27.1 (-0.4), strings -29.4->-28.7 (+0.7), master +0.4; per-stem median rise winds -0.6 strings -1.0; wind trims +0.0,+0.0
+ 480.0- 484.0 (bars 121-122) winds n 7 strings n 3: winds-strings by quarter of the hairpin and at arrival: +0.1 -0.1 +0.4 -2.0 -1.6 | winds -25.9->-23.4 (+2.5), strings -26.0->-21.8 (+4.1), master +5.6; per-stem median rise winds +3.0 strings +2.0; wind trims +0.0,+0.0,+0.0,+2.6,+0.0,+0.0,+0.0
+ 536.0- 548.0 (bars 135-138) winds n 7 strings n 4: winds-strings by quarter of the hairpin and at arrival: -0.8 -1.2 +0.9 +0.9 +0.5 | winds -36.9->-27.9 (+9.0), strings -36.0->-28.4 (+7.6), master +10.8; per-stem median rise winds +3.9 strings +7.4; wind trims -6.1,+0.4,-4.0,-4.5,-0.1,-0.1,-2.4
+ 552.2- 556.0 (bars 139-140) winds n 10 strings n 2: winds-strings by quarter of the hairpin and at arrival: +0.0 +2.0 -0.2 +1.6 +0.9 | winds -30.3->-23.6 (+6.7), strings -30.4->-24.5 (+5.8), master +4.9; per-stem median rise winds +9.1 strings +6.2; wind trims +2.7,+2.2,+2.1,+1.8,+3.7,+2.8,-0.4,-0.9,-0.9,+1.0
+ 620.0- 628.0 (bars 156-158) winds n 3 strings n 2: winds-strings by quarter of the hairpin and at arrival: -3.9 -4.1 -7.3 -3.9 -5.9 | winds -40.4->-31.0 (+9.3), strings -36.4->-25.1 (+11.3), master +11.7; per-stem median rise winds +6.4 strings +9.7; wind trims -1.6,-2.4,-2.7
+ 632.0- 636.0 (bars 159-160) winds n 8 strings n 5: winds-strings by quarter of the hairpin and at arrival: -2.2 -1.8 -2.3 -1.0 -4.0 | winds -27.0->-21.8 (+5.2), strings -24.8->-17.8 (+7.0), master +7.2; per-stem median rise winds +6.7 strings +7.7; wind trims +0.0,+0.0,+0.0,+0.0,-0.7,+0.0,+0.0,+0.7
+ 672.0- 676.0 (bars 169-170) winds n 9 strings n 2: winds-strings by quarter of the hairpin and at arrival: -7.3 -5.5 -1.5 -0.8 -0.0 | winds -33.1->-23.6 (+9.4), strings -25.8->-23.6 (+2.1), master +5.6; per-stem median rise winds +8.9 strings +10.8; wind trims +2.6,+2.6,+2.2,+3.6,+3.3,-0.4,-0.9,-0.9,+1.0

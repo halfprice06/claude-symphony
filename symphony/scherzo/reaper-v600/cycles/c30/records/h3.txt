@@ -1,0 +1,14 @@
+== c29
+Horn 3 312.0-360.0: level -34.2  corr 0.97  L-R +3.9  corr300-1k +0.97  mono loss -0.3  h3-8/h1-2 +10.3  centroid 612 Hz
+Horn 3 912.0-960.0: level -37.1  corr 0.96  L-R +3.9  corr300-1k +0.96  mono loss -0.3  h3-8/h1-2 +10.5  centroid 612 Hz
+Horn 3 1094.0-1097.0: level -49.8  corr 0.74  L-R +1.9  corr300-1k +0.73  mono loss -0.6  h3-8/h1-2 -9.0  centroid 679 Hz
+Horn 3 1097.5-1100.5: level -51.0  corr 0.87  L-R +0.2  corr300-1k +0.87  mono loss -0.3  h3-8/h1-2 -9.9  centroid 657 Hz
+Horn 1 1083.0-1092.0: level -50.9  corr 0.68  L-R +1.0  corr300-1k +0.66  mono loss -0.8  h3-8/h1-2 -8.3  centroid 753 Hz
+Horn 1 1103.0-1110.0: level -47.6  corr 0.80  L-R +1.1  corr300-1k +0.79  mono loss -0.5  h3-8/h1-2 -10.0  centroid 675 Hz
+== c30
+Horn 3 312.0-360.0: level -36.3  corr 0.96  L-R +4.0  corr300-1k +0.96  mono loss -0.3  h3-8/h1-2 +10.2  centroid 634 Hz
+Horn 3 912.0-960.0: level -39.1  corr 0.95  L-R +4.0  corr300-1k +0.95  mono loss -0.3  h3-8/h1-2 +10.3  centroid 628 Hz
+Horn 3 1094.0-1097.0: level -49.8  corr 0.74  L-R +1.9  corr300-1k +0.73  mono loss -0.6  h3-8/h1-2 -9.0  centroid 679 Hz
+Horn 3 1097.5-1100.5: level -51.0  corr 0.87  L-R +0.2  corr300-1k +0.87  mono loss -0.3  h3-8/h1-2 -9.9  centroid 657 Hz
+Horn 1 1083.0-1092.0: level -50.9  corr 0.69  L-R +1.0  corr300-1k +0.67  mono loss -0.7  h3-8/h1-2 -8.5  centroid 740 Hz
+Horn 1 1103.0-1110.0: level -52.6  corr 0.80  L-R +1.1  corr300-1k +0.79  mono loss -0.5  h3-8/h1-2 -10.0  centroid 675 Hz

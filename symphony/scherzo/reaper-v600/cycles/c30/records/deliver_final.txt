@@ -1,0 +1,29 @@
+master EQ (mix.json master_eq): highpass 42.0 Hz bw 2.0; bell 167.0 Hz -1.6 dB bw 1.39; bell 1180.0 Hz -1.9 dB bw 1.39; highshelf 8008.0 Hz +0.8 dB bw 1.39
+ride trims 299.6-309.0 qn: -1.50..+0.00 dB
+ride trims 894.0-909.0 qn: -0.50..+0.00 dB
+ride trims 212.5-216.3 qn: -1.50..+0.00 dB
+ride trims 576.0-602.0 qn: -2.00..+0.00 dB
+ride trims 624.0-649.0 qn: -1.00..+0.00 dB
+ride trims 659.0-672.0 qn: -2.00..+0.00 dB
+ride trims 167.5-204.0 qn: +0.00..+0.50 dB
+ride trims 863.5-888.0 qn: +0.00..+0.50 dB
+ride trims 211.5-217.0 qn: -1.50..+0.00 dB
+ride trims 895.5-900.0 qn: -2.00..+0.00 dB
+ride trims 914.6-961.0 qn: -1.50..+0.00 dB
+ride trims 625.0-673.0 qn: -2.00..+0.00 dB
+ride trims 990.0-1005.1 qn: -6.50..+0.00 dB
+ride trims 1015.3-1019.8 qn: -6.00..+0.00 dB
+ride trims 154.0-166.0 qn: -1.50..+0.00 dB
+ride trims 83.5-116.0 qn: +0.00..+2.00 dB
+ride trims 5.0-18.0 qn: -2.00..+0.00 dB
+ride trims 1043.0-1080.0 qn: -2.00..+0.00 dB
+ride trims 1088.0-1128.0 qn: -2.50..+0.00 dB
+pre-limiter peaks (s, dBFS): 241.38 +2.56, 241.93 +2.54, 242.53 +2.15, 240.73 +1.72, 37.88 +0.66
+limiter per passage (max dB): summit 336-339 4.0; tutti 105-120 2.0; tutti 305-320 1.5; bar 72 1.5; bar 300 1.6; final chord 375-376 0.1; whole file 4.0
+room bed: -60.0 LUFS integrated (pink, first-order fall above 2500 Hz, fourth-order low cut 84 Hz, seeds (6201, 6202, 6203))
+loudness pass 1: I -14.2 LUFS (gain +17.50 dB), shortfall +0.20 LU
+pre-limiter peaks (s, dBFS): 241.38 +2.74, 241.93 +2.73, 242.53 +2.34, 240.73 +1.90, 37.88 +0.85
+limiter per passage (max dB): summit 336-339 4.2; tutti 105-120 2.2; tutti 305-320 1.8; bar 72 1.6; bar 300 1.8; final chord 375-376 0.1; whole file 4.2
+loudness pass 2: I -13.8 LUFS (gain +17.75 dB), shortfall -0.20 LU
+short-term p10 -21.1 LUFS, max -7.9
+delivered: I -13.8 LUFS, LRA 11.8 LU, TP -1.4 dBTP; ride max +10.0 dB, min -7.0 dB; limiter about 4.2 dB on the loudest sample peak; p10-to-max short-term span 13.2 dB; length 279.75 s (tail 1.00 s after the last window above -65 dBFS)

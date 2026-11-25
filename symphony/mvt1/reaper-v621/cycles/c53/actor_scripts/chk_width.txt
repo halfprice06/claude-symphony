@@ -1,0 +1,5 @@
+== width: /Users/gooby/.venvs/claude-composes-reaper/bin/python cycles/c49/actor_scripts/width49.py cycles/c53/render cycles/c52/render
+cycles/c53/render: corr <250 0.593 250-5k 0.552 >5k 0.473 side/mid -5.40 dB; t-20 at stops [np.float64(0.72), np.float64(0.25), None, np.float64(0.26)]
+cycles/c52/render: corr <250 0.589 250-5k 0.566 >5k 0.495 side/mid -5.53 dB; t-20 at stops [np.float64(0.72), np.float64(0.25), None, np.float64(0.26)]
+  seat Trombone 2         R-L +5.43 -> +5.75 dB
+  seat R Brass            R-L -2.00 -> -0.27 dB

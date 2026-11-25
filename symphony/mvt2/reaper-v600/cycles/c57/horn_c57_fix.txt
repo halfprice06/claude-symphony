@@ -1,0 +1,3 @@
+bodies 188: -33.0  190: -30.9  192: -33.6  193: -27.9  195.5: -34.6  196: -28.2  198: -30.7  199: -25.3  200: -30.0  201: -31.0  202: -26.8
+against the mean of the two neighbours: 190: +2.4  192: -4.2  193: +6.2  195.5: -6.6  196: +4.5  198: -3.9  199: +5.0  200: -1.8  201: -2.6
+pickup 195.5: highest 50 ms -36.8 dB, -8.1 against the body of 193 (-28.6); gap 184 ms, floor -42.5 dB: dip 10.1 dB against the last 0.3 s (breath52), 13.9 dB against the body of 193; master dip 3.2 dB

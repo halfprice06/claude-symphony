@@ -1,0 +1,206 @@
+tempo equal: True  length 346.04 -> 346.04 s
+Flute 1
+   195.500 p89: end vs qn 196: -95 -> -190 ms (len 0.380 -> 0.285 s)
+Oboe 1
+   195.500 p77: end vs qn 196: -95 -> -190 ms (len 0.380 -> 0.285 s)
+Horn 1
+   195.500 p65: end vs qn 196: -237 -> -284 ms (len 0.237 -> 0.190 s)
+Horn 2
+   204.000 p61: end vs qn 208: -33 -> -80 ms (len 4.411 -> 4.364 s)
+Trombone 2
+   202.000 p54: end vs qn 204: -174 -> -277 ms (len 1.896 -> 1.793 s)
+Bass trombone
+   200.000 p44: end vs qn 204: -174 -> -320 ms (len 3.832 -> 3.686 s)
+Violins I
+   247.000 p79: end vs qn 249: -203 -> -283 ms (len 2.105 -> 2.025 s)
+   249.000 p63: lead +180 -> +260 ms
+  ks sequence differs (55 -> 16)
+  caesura_lifts: [[77.0, 76.548, 76.7647, 9], [249.0, 248.6173, 248.834, 9]] -> [[77.0, 76.548, 76.7647, 9], [249.0, 248.548, 248.7647, 9]]
+  reattack_leads: [[249.0, 0.156]] -> [[249.0, 0.2253]]
+  art_counts: {"Leg Slur MAX": 62, "Leg BC MAX": 28, "Leg Port MAX": 2, "Sus MAX": 14, "Tremolo": 3} -> {"Leg Slur MAX": 90, "Leg Port MAX": 2, "Sus MAX": 14, "Tremolo": 3}
+Violins II
+    47.000 p67: end vs qn 48: -224 -> -294 ms (len 0.930 -> 0.860 s)
+    48.000 p68: lead +270 -> +340 ms
+    53.000 p65: end vs qn 54: -124 -> -194 ms (len 1.030 -> 0.960 s)
+    54.000 p68: lead +170 -> +240 ms
+    62.000 p58: end vs qn 65: -184 -> -254 ms (len 3.278 -> 3.208 s)
+    65.000 p63: lead +230 -> +300 ms
+    70.000 p74: end vs qn 71: -64 -> -134 ms (len 1.090 -> 1.020 s)
+    71.000 p73: lead +110 -> +180 ms; end vs qn 72: -124 -> -194 ms (len 1.030 -> 0.960 s)
+    72.000 p72: lead +170 -> +240 ms
+    75.000 p67: end vs qn 77: -124 -> -194 ms (len 2.184 -> 2.114 s)
+    77.000 p63: lead +170 -> +240 ms
+    83.000 p80: end vs qn 84: -124 -> -194 ms (len 1.030 -> 0.960 s)
+    84.000 p79: lead +170 -> +240 ms
+   144.000 p65: end vs qn 146: -130 -> -200 ms (len 1.870 -> 1.800 s)
+   146.000 p66: lead +170 -> +240 ms
+   152.000 p66: end vs qn 154: -166 -> -236 ms (len 2.057 -> 1.987 s)
+   154.000 p78: lead +210 -> +280 ms
+   175.000 p75: end vs qn 176: -130 -> -200 ms (len 0.870 -> 0.800 s)
+   176.000 p73: lead +170 -> +240 ms
+   178.000 p75: end vs qn 180: -130 -> -200 ms (len 1.857 -> 1.787 s)
+   180.000 p78: lead +170 -> +240 ms
+   183.000 p73: end vs qn 184: -131 -> -201 ms (len 0.854 -> 0.784 s)
+   184.000 p72: lead +170 -> +240 ms
+   186.000 p70: end vs qn 188: -71 -> -141 ms (len 1.884 -> 1.814 s)
+   188.000 p68: lead +110 -> +180 ms
+   189.000 p73: end vs qn 190: -131 -> -201 ms (len 0.842 -> 0.772 s)
+   190.000 p77: lead +170 -> +240 ms
+   192.000 p80: end vs qn 193.5: -132 -> -202 ms (len 1.314 -> 1.244 s)
+   193.500 p78: lead +170 -> +240 ms
+   195.500 p77: end vs qn 196: -132 -> -175 ms (len 0.342 -> 0.299 s)
+   196.000 p75: lead +170 -> +213 ms
+   199.000 p70: end vs qn 200: -133 -> -203 ms (len 0.797 -> 0.727 s)
+   200.000 p72: lead +170 -> +240 ms; end vs qn 204: -227 -> -298 ms (len 3.779 -> 3.708 s)
+   204.000 p68: lead +270 -> +340 ms; end vs qn 206: -166 -> -236 ms (len 2.057 -> 1.987 s)
+   206.000 p73: lead +210 -> +280 ms; end vs qn 208: -186 -> -256 ms (len 2.037 -> 1.967 s)
+   208.000 p77: lead +230 -> +300 ms; end vs qn 210: -126 -> -196 ms (len 2.097 -> 2.027 s)
+   210.000 p76: lead +170 -> +240 ms
+   247.000 p67: end vs qn 249: -124 -> -194 ms (len 2.184 -> 2.114 s)
+   249.000 p63: lead +170 -> +240 ms
+   252.000 p77: end vs qn 254: -204 -> -274 ms (len 2.104 -> 2.034 s)
+   254.000 p82: lead +250 -> +320 ms
+   255.000 p80: end vs qn 256: -124 -> -194 ms (len 1.030 -> 0.960 s)
+   256.000 p79: lead +170 -> +240 ms
+   258.500 p70: end vs qn 259: -124 -> -194 ms (len 0.453 -> 0.383 s)
+   259.000 p68: lead +170 -> +240 ms; end vs qn 261: -122 -> -192 ms (len 2.244 -> 2.174 s)
+   261.000 p72: lead +170 -> +240 ms
+   266.000 p80: end vs qn 268: -95 -> -164 ms (len 2.603 -> 2.533 s)
+   268.000 p79: lead +170 -> +240 ms
+   270.500 p70: end vs qn 271: -27 -> -97 ms (len 0.637 -> 0.567 s)
+   271.000 p68: lead +80 -> +150 ms
+  ks sequence differs (71 -> 29)
+  rebows: [[5.15, 9.0, 68, 2.792, null], [51.0, 52.832, 68, 49.9133, null], [112.0, 114.15, 61, 107.7842, null], [120.0, 122.15, 63, 118.55, null], [144.0, 145.87, 65, 13 -> [[5.15, 9.0, 68, 2.792, null], [51.0, 52.832, 68, 49.9133, null], [112.0, 114.15, 61, 107.7842, null], [120.0, 122.15, 63, 118.55, null], [144.0, 145.8, 65, 139
+  caesura_lifts: [[65.0, 64.574, 64.7907, 8], [77.0, 76.626, 76.8427, 9], [249.0, 248.626, 248.8427, 9]] -> [[65.0, 64.5133, 64.73, 8], [77.0, 76.5653, 76.782, 9], [249.0, 248.5653, 248.782, 9]]
+  art_counts: {"Leg Slur MAX": 87, "Sus MAX": 20, "Leg BC MAX": 32, "Leg Port MAX": 2, "Flautando": 8, "Tremolo": 4} -> {"Leg Slur MAX": 119, "Sus MAX": 20, "Leg Port MAX": 2, "Flautando": 8, "Tremolo": 4}
+Violas
+    80.000 p61: end vs qn 81: -66 -> -150 ms (len 1.088 -> 1.004 s)
+    83.000 p65: end vs qn 84: -154 -> -179 ms (len 1.000 -> 0.975 s)
+    84.000 p63: lead +200 -> +225 ms
+   190.000 p58: lead +200 -> +225 ms
+   251.000 p56: end vs qn 251.5: -154 -> -179 ms (len 0.423 -> 0.398 s)
+   251.500 p63: lead +200 -> +225 ms
+   254.000 p65: end vs qn 254.5: -154 -> -179 ms (len 0.423 -> 0.398 s)
+   254.500 p58: lead +200 -> +225 ms
+   255.500 p58: end vs qn 256: -154 -> -179 ms (len 0.423 -> 0.398 s)
+   256.000 p55: lead +200 -> +225 ms
+   257.500 p63: lead +250 -> +260 ms
+   258.500 p55: end vs qn 259: -154 -> -179 ms (len 0.423 -> 0.398 s)
+   259.000 p56: lead +200 -> +225 ms
+   260.500 p64: lead +200 -> +225 ms
+  ks sequence differs (62 -> 39)
+  art_counts: {"Leg Slur MAX": 137, "Sus MAX": 74, "Leg BC MAX": 12, "Pizz RRx4": 42, "Detache": 15, "Tremolo": 10} -> {"Leg Slur MAX": 149, "Sus MAX": 74, "Pizz RRx4": 42, "Detache": 15, "Tremolo": 10}
+Violoncellos
+    42.000 p48: end vs qn 45: -124 -> -174 ms (len 3.338 -> 3.288 s)
+    45.000 p49: lead +170 -> +220 ms
+    48.000 p53: end vs qn 50: -124 -> -174 ms (len 2.184 -> 2.134 s)
+    50.000 p49: lead +170 -> +220 ms
+    59.000 p48: end vs qn 60: -64 -> -114 ms (len 1.090 -> 1.040 s)
+    60.000 p49: lead +110 -> +160 ms
+    74.000 p60: end vs qn 75: -124 -> -174 ms (len 1.030 -> 0.980 s)
+    75.000 p58: lead +170 -> +220 ms
+    80.000 p53: end vs qn 81: -54 -> -104 ms (len 1.100 -> 1.050 s)
+    81.000 p56: lead +100 -> +150 ms
+    83.000 p61: end vs qn 84: -124 -> -174 ms (len 1.030 -> 0.980 s)
+    84.000 p58: lead +170 -> +220 ms
+   131.000 p49: end vs qn 132: -130 -> -180 ms (len 0.870 -> 0.820 s)
+   132.000 p46: lead +170 -> +220 ms
+   143.000 p60: end vs qn 144: -130 -> -180 ms (len 0.870 -> 0.820 s)
+   144.000 p58: lead +170 -> +220 ms
+   174.000 p48: end vs qn 176: -130 -> -180 ms (len 1.870 -> 1.820 s)
+   176.000 p46: lead +170 -> +220 ms; end vs qn 178: -130 -> -180 ms (len 1.866 -> 1.816 s)
+   178.000 p42: lead +170 -> +220 ms; end vs qn 180: -130 -> -180 ms (len 1.857 -> 1.807 s)
+   180.000 p39: lead +170 -> +220 ms; end vs qn 182: -131 -> -180 ms (len 1.849 -> 1.799 s)
+   182.000 p36: lead +170 -> +220 ms; end vs qn 184: -181 -> -231 ms (len 1.791 -> 1.741 s)
+   184.000 p45: lead +220 -> +270 ms; end vs qn 186: -131 -> -181 ms (len 1.832 -> 1.782 s)
+   186.000 p46: lead +170 -> +220 ms; end vs qn 188: -191 -> -241 ms (len 1.764 -> 1.714 s)
+   188.000 p53: lead +230 -> +280 ms; end vs qn 190: -171 -> -221 ms (len 1.776 -> 1.726 s)
+   190.000 p54: lead +210 -> +260 ms
+   192.000 p53: end vs qn 193: -52 -> -102 ms (len 0.914 -> 0.864 s)
+   193.000 p51: lead +90 -> +140 ms
+   195.500 p53: end vs qn 196: -132 -> -175 ms (len 0.342 -> 0.299 s)
+   196.000 p54: lead +170 -> +213 ms; end vs qn 198: -132 -> -182 ms (len 1.752 -> 1.702 s)
+   198.000 p51: lead +170 -> +220 ms
+   199.000 p52: end vs qn 200: -43 -> -93 ms (len 0.887 -> 0.837 s)
+   200.000 p51: lead +80 -> +130 ms
+   201.000 p53: end vs qn 202: -130 -> -180 ms (len 0.853 -> 0.803 s)
+   202.000 p54: lead +170 -> +220 ms; end vs qn 204: -127 -> -177 ms (len 1.942 -> 1.892 s)
+   204.000 p56: lead +170 -> +220 ms; end vs qn 206: -126 -> -176 ms (len 2.097 -> 2.047 s)
+   206.000 p61: lead +170 -> +220 ms; end vs qn 208: -126 -> -176 ms (len 2.097 -> 2.047 s)
+   208.000 p65: lead +170 -> +220 ms; end vs qn 210: -126 -> -176 ms (len 2.097 -> 2.047 s)
+   210.000 p64: lead +170 -> +220 ms
+   248.000 p58: end vs qn 248.5: -124 -> -174 ms (len 0.453 -> 0.403 s)
+   248.500 p56: lead +170 -> +220 ms
+   249.000 p55: end vs qn 250: -64 -> -114 ms (len 1.090 -> 1.040 s)
+   250.000 p51: lead +110 -> +160 ms
+   252.000 p53: end vs qn 253: -124 -> -174 ms (len 1.030 -> 0.980 s)
+   253.000 p56: lead +170 -> +220 ms
+   255.000 p61: end vs qn 256: -124 -> -174 ms (len 1.030 -> 0.980 s)
+   256.000 p58: lead +170 -> +220 ms
+   258.000 p61: end vs qn 259: -54 -> -104 ms (len 1.100 -> 1.050 s)
+   259.000 p59: lead +100 -> +150 ms; end vs qn 261: -192 -> -242 ms (len 2.174 -> 2.124 s)
+   261.000 p60: lead +240 -> +290 ms; end vs qn 262: -121 -> -171 ms (len 1.089 -> 1.039 s)
+   262.000 p61: lead +170 -> +220 ms; end vs qn 263: -121 -> -171 ms (len 1.101 -> 1.051 s)
+   263.000 p60: lead +170 -> +220 ms; end vs qn 264: -120 -> -171 ms (len 1.112 -> 1.062 s)
+   264.000 p58: lead +170 -> +220 ms; end vs qn 265: -120 -> -170 ms (len 1.124 -> 1.074 s)
+   265.000 p56: lead +170 -> +220 ms; end vs qn 267: -119 -> -169 ms (len 2.404 -> 2.354 s)
+   267.000 p58: lead +170 -> +220 ms; end vs qn 269: -118 -> -168 ms (len 2.603 -> 2.553 s)
+   269.000 p61: lead +170 -> +220 ms
+  ks sequence differs (52 -> 17)
+  art_counts: {"Leg Slur MAX": 76, "Leg BC MAX": 37, "Sus MAX": 12, "Tremolo": 2} -> {"Leg Slur MAX": 113, "Sus MAX": 12, "Tremolo": 2}
+Violoncellos div
+  ks sequence differs (4 -> 2)
+  art_counts: {"Leg Slur MAX": 8, "Leg BC MAX": 1, "Sus MAX": 6} -> {"Leg Slur MAX": 9, "Sus MAX": 6}
+Violas div
+  ks sequence differs (14 -> 10)
+  art_counts: {"Leg Slur MAX": 6, "Leg BC MAX": 6, "Sus MAX": 10} -> {"Leg Slur MAX": 12, "Sus MAX": 10}
+{'end': 78, 'lead': 74}
+
+printed breaths: gap in ms from the part's note end to its next note-on (old -> new)
+     6.0 Horn 4             288 ->   288 ms
+    29.0 Bass clarinet      468 ->   468 ms
+    29.0 Horn 1             468 ->   468 ms
+    30.0 Bassoon 2          288 ->   288 ms
+    98.0 Contrabassoon      288 ->   288 ms
+   102.0 Bass clarinet      351 ->   351 ms
+   102.0 Bassoon 1          438 ->   438 ms
+   124.0 Flute 1           2370 ->  2370 ms
+   164.0 Cor anglais        222 ->   222 ms
+   188.0 Clarinet 1        2151 ->  2151 ms
+   188.0 Horn 1             244 ->   244 ms
+   192.0 Bassoon 2          242 ->   242 ms
+   196.0 Bass clarinet      340 ->   340 ms
+   196.0 Flute 1             95 ->   190 ms  CHANGED
+   196.0 Horn 1             137 ->   184 ms  CHANGED
+   196.0 Oboe 1              95 ->   190 ms  CHANGED
+   204.0 Bass clarinet      134 ->   134 ms
+   204.0 Bass trombone       24 ->   170 ms  CHANGED
+   204.0 Bassoon 1          134 ->   134 ms
+   204.0 Bassoon 2          134 ->   134 ms
+   204.0 Clarinet 1         134 ->   134 ms
+   204.0 Clarinet 2         134 ->   134 ms
+   204.0 Flute 1            134 ->   134 ms
+   204.0 Horn 1             174 ->   174 ms
+   204.0 Oboe 1             134 ->   134 ms
+   204.0 Trombone 2          74 ->   177 ms  CHANGED
+   204.0 Tuba               174 ->   174 ms
+   208.0 Bass trombone      333 ->   333 ms
+   208.0 Tuba               333 ->   333 ms
+   210.0 Contrabassoon      293 ->   293 ms
+   212.0 Bass trombone      333 ->   333 ms
+   238.0 Bassoon 2          288 ->   288 ms
+   259.0 Bassoon 1          340 ->   340 ms
+   261.0 Flute 1            361 ->   361 ms
+   265.0 Bassoon 1          374 ->   374 ms
+   265.0 Horns 1-2 a2       374 ->   374 ms
+   268.0 Bass clarinet      226 ->   226 ms
+   268.0 Bassoon 2          116 ->   116 ms  UNDER 120 ms
+   268.0 Cor anglais        226 ->   226 ms
+   268.0 Contrabassoon      226 ->   226 ms
+   268.0 Clarinet 1         377 ->   377 ms
+   268.0 Flute 1            226 ->   226 ms
+   268.0 Flute 2            226 ->   226 ms
+   268.0 Oboe 1             226 ->   226 ms
+   268.0 Oboe 2             226 ->   226 ms
+   286.0 Clarinet 1         448 ->   448 ms
+breath gaps flagged: 6

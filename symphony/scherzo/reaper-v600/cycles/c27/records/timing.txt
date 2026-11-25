@@ -1,0 +1,30 @@
+Flute 1 315
+Flute 2 162
+Oboe 1 268
+Cor anglais 216
+Clarinet 1 129
+Clarinet 2 212
+Bassoon 1 151
+Bassoon 2 104
+Horn 1 105
+Horn 3 88
+Trumpet 1 63
+Trumpet 2 63
+Violins I 424
+Violins II 342
+Violas 344
+Violoncellos 344
+class                               n   median   p5..p95   >25 ms      >60 ms
+strings legato entry               12     +37    -46..  +97    10 (83 %)     3 (25 %)
+strings legato join               246      +4    -45..  +40    61 (25 %)    10 ( 4 %)
+strings short entry               564      -5    -43..  +29   107 (19 %)    15 ( 3 %)
+strings short join                 73      -5    -30..  +25    11 (15 %)     1 ( 1 %)
+strings sus entry                  66     -13    -44..  +61    26 (39 %)     5 ( 8 %)
+strings sus join                  221     -18    -64..  +44   102 (46 %)    18 ( 8 %)
+winds/brass legato entry          231     -15    -54..  +53    82 (35 %)    16 ( 7 %)
+winds/brass legato join           490     +12    -17..  +62   142 (29 %)    27 ( 6 %)
+winds/brass short entry           421      -6    -24..  +20    31 ( 7 %)    17 ( 4 %)
+winds/brass short join             46     -12    -32..  +14    10 (22 %)     0 ( 0 %)
+winds/brass sus entry             214      -9    -47..  +73    98 (46 %)    20 ( 9 %)
+winds/brass sus join               96      +0    -41..  +50    30 (31 %)     7 ( 7 %)
+ALL 2680 readings: over 25 ms 710 (26 %), over 60 ms 139 (5 %); 645 same-pitch repeats not measured, 5 without a reading

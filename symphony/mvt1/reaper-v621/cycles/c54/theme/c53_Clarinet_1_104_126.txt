@@ -1,0 +1,24 @@
+bar  27 beat 1.5 p67 note-on   -55 ms  sounds   -68 ms  heard  325 ms of  238 (136 %) pk -43 dB
+bar  27 beat 2.0 p75 note-on   -50 ms  sounds   +24 ms  heard  695 ms of  714 ( 97 %) pk -41 dB
+bar  27 beat 3.5 p74 note-on     0 ms  sounds   +10 ms  heard  265 ms of  238 (111 %) pk -40 dB  under neighbours -2.7
+bar  27 beat 4.0 p73 note-on  -107 ms  sounds   +41 ms  heard  230 ms of  238 ( 97 %) pk -43 dB  under neighbours +4.7
+bar  27 beat 4.5 p72 note-on   -50 ms  sounds   +38 ms  heard  700 ms of  238 (294 %) pk -36 dB  under neighbours -6.6
+bar  28 beat 1.0 p72 note-on   -35 ms  same-pitch repeat: dip 12.3 dB at -30 ms, back at +130 ms
+bar  28 beat 2.0 p71 note-on   -35 ms  sounds   +29 ms  heard  240 ms of  238 (101 %) pk -42 dB  under neighbours -0.3
+bar  28 beat 2.5 p72 note-on  -107 ms  sounds   +36 ms  heard  260 ms of  238 (109 %) pk -42 dB  under neighbours +0.3
+bar  28 beat 3.0 p68 note-on     0 ms  sounds   +63 ms  heard  630 ms of  714 ( 88 %) pk -39 dB
+bar  28 beat 4.5 p67 note-on   -35 ms  sounds   -16 ms  heard  745 ms of  238 (313 %) pk -44 dB
+bar  29 beat 1.5 p67 note-on   -55 ms  same-pitch repeat: dip 27.0 dB at -108 ms, back at +2 ms
+bar  29 beat 2.0 p77 note-on   -50 ms  sounds   +19 ms  heard  775 ms of  734 (106 %) pk -39 dB
+bar  29 beat 3.5 p75 note-on     0 ms  sounds   +65 ms  heard  220 ms of  238 ( 92 %) pk -43 dB  under neighbours -4.2
+bar  29 beat 4.0 p74 note-on  -107 ms  sounds   +52 ms  heard  205 ms of  238 ( 86 %) pk -47 dB  under neighbours +4.5
+bar  29 beat 4.5 p72 note-on   -50 ms  sounds   +24 ms  heard 1110 ms of  238 (466 %) pk -42 dB  under neighbours -4.9
+bar  30 beat 3.0 p79 note-on   -35 ms  sounds   -52 ms  heard  770 ms of  737 (105 %) pk -38 dB
+bar  30 beat 4.5 p77 note-on   -35 ms  sounds   -13 ms  heard  265 ms of  251 (106 %) pk -37 dB
+bar  31 beat 1.0 p80 note-on   -35 ms  sounds   +96 ms  heard  620 ms of  739 ( 84 %) pk -37 dB
+bar  31 beat 2.5 p79 note-on   -35 ms  sounds   -18 ms  heard  250 ms of  248 (101 %) pk -41 dB
+bar  31 beat 3.0 p77 note-on   -35 ms  sounds   -11 ms  heard  475 ms of  476 (100 %) pk -36 dB
+bar  31 beat 4.0 p74 note-on   -35 ms  sounds    -7 ms  heard  460 ms of  476 ( 97 %) pk -38 dB
+bar  32 beat 1.0 p72 note-on   -35 ms  sounds   -18 ms  heard  465 ms of  476 ( 98 %) pk -39 dB
+bar  32 beat 2.0 p71 note-on   -35 ms  sounds   -24 ms  heard 1315 ms of  476 (276 %) pk -38 dB
+Clarinet 1     104-126: found 21 of 23 (+2 same-pitch repeats, 2 with a dip >= 3 dB), median +19 ms, SD 39, min -68, max +96; over 40 ms from median 6, over 25 ms 13; not sounding 0; under 60 % of printed length 0; eighths > 6 dB under neighbours 0; median share 101 %

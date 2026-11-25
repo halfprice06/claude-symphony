@@ -1,0 +1,34 @@
+bar 135 beat 1.0 p67 entry  Sus MAX        lead  120  pcx    -2  xr   n/a  dom   -30  S    -2
+bar 135 beat 2.0 p67 entry  Sus MAX        lead    0  pcx  +210  xr   n/a  dom    -6  S  +210
+bar 135 beat 3.0 p67 entry  Sus MAX        lead    0  pcx  +129  xr   n/a  dom   n/a  S  +129
+bar 135 beat 4.0 p65 join   Sus MAX        lead  100  pcx   +84  xr    +4  dom   -19  S    +4
+bar 136 beat 1.0 p65 entry  Sus MAX        lead    0  pcx  +118  xr   n/a  dom  -245  S  +118
+bar 136 beat 2.0 p65 entry  Sus MAX        lead    0  pcx   +61  xr   n/a  dom   -21  S   +61
+bar 136 beat 3.0 p63 join   Sus MAX        lead  100  pcx   +96  xr   -18  dom   -22  S   -18
+bar 136 beat 4.0 p63 entry  Sus MAX        lead    0  pcx  +107  xr   n/a  dom   n/a  S  +107
+bar 137 beat 1.0 p63 entry  Sus MAX        lead    0  pcx  +184  xr   n/a  dom   n/a  S  +184
+bar 137 beat 2.0 p65 join   Sus MAX        lead  100  pcx   +53  xr   +14  dom   +14  S   +14
+bar 137 beat 3.0 p65 entry  Sus MAX        lead    0  pcx  +127  xr   n/a  dom  -142  S  +127
+bar 137 beat 4.0 p65 entry  Sus MAX        lead    0  pcx   +79  xr   n/a  dom   n/a  S   +79
+bar 138 beat 1.0 p80 join   Sus MAX        lead    0  pcx  +141  xr   +92  dom  +151  S   +92
+bar 139 beat 1.5 p67 entry  Sus Marc LITE  lead  100  pcx   -18  xr   n/a  dom   -42  S   -18
+bar 139 beat 2.0 p77 join   Sus Marc LITE  lead   90  pcx    -0  xr    -8  dom   -15  S    -8
+bar 139 beat 3.5 p75 join   Sus Marc LITE  lead   50  pcx   +24  xr   +12  dom   +15  S   +12
+bar 139 beat 4.0 p74 join   Sus Marc LITE  lead   90  pcx   +25  xr    +4  dom   +67  S    +4
+bar 139 beat 4.5 p72 join   Sus Marc LITE  lead   90  pcx   +12  xr   -18  dom   -21  S   -18
+bar 140 beat 1.0 p73 join   Sus Marc LITE  lead   54  pcx    +4  xr    +6  dom   +96  S    +4
+bar 140 beat 1.5 p75 join   Sus Marc LITE  lead   90  pcx   -19  xr   +60  dom   +78  S   -19
+bar 140 beat 2.0 p77 join   Sus Marc LITE  lead   90  pcx    +2  xr   +28  dom   +40  S    +2
+bar 140 beat 2.5 p79 join   Sus Marc LITE  lead   69  pcx    +0  xr    +3  dom    -3  S    +0
+bar 140 beat 3.0 p80 entry  Sus Marc LITE  lead   90  pcx  -165  xr   n/a  dom   +34  S  -165
+bar 141 beat 2.5 p79 join   Sus Marc LITE  lead   72  pcx    -8  xr   -16  dom    -8  S   -16
+bar 141 beat 3.0 p77 entry  Sus Marc LITE  lead  106  pcx    -1  xr   n/a  dom   -11  S    -1
+bar 141 beat 4.0 p74 join   Sus Marc LITE  lead   50  pcx   +58  xr   +24  dom   +38  S   +24
+bar 142 beat 1.0 p72 join   Sus Marc LITE  lead   70  pcx   +71  xr    -2  dom   -18  S    -2
+bar 142 beat 3.0 p71 join   Sus Marc LITE  lead   50  pcx   +20  xr   +18  dom    -6  S   +18
+bar 143 beat 2.5 p67 entry  Sus Marc LITE  lead  100  pcx   -19  xr   n/a  dom   -42  S   -19
+bar 143 beat 3.5 p67 entry  Sus Marc LITE  lead  100  pcx   -11  xr   n/a  dom   n/a  S   -11
+bar 143 beat 4.5 p67 entry  Sus Marc LITE  lead  100  pcx   -10  xr   n/a  dom   n/a  S   -10
+bar 144 beat 1.0 p67 entry  Sus Marc LITE  lead   85  pcx    -9  xr   n/a  dom   n/a  S    -9
+bar 144 beat 3.0 p65 join   Sus Marc LITE  lead   50  pcx   +27  xr    -0  dom    -0  S    -0
+S: n 33 of 33  median +2  robust SD 27  SD 70  min -165 max +210  >25 from median 10  >40 10  >60 9

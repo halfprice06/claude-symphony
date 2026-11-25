@@ -1,0 +1,103 @@
+track-bars more than 1.5 dB apart: 102
+   Bassoon 1 72 1.9
+   Bassoon 1 73 2.5
+   Bassoon 2 72 2.2
+   Bassoon 2 100 2.0
+   Bassoon 2 183 -2.6
+   Bassoon 2 184 -2.9
+   Bassoon 2 200 -2.0
+   Bassoon 2 210 -2.1
+   Clarinet 1 72 2.1
+   Clarinet 1 277 -2.0
+   Clarinet 1 278 -2.0
+   Clarinet 1 279 -2.0
+   Clarinet 1 280 -2.0
+   Clarinet 1 281 -2.1
+   Clarinet 2 72 2.1
+   Clarinet 2 224 -2.1
+   Clarinet 2 225 -2.1
+   Clarinet 2 226 -2.0
+   Clarinet 2 227 -2.1
+   Clarinet 2 228 -2.0
+   Contrabassoon 72 2.2
+   Cor anglais 300 -1.7
+   Cor anglais 335 2.0
+   Cor anglais 337 2.3
+   Cor anglais 339 1.9
+   Flute 1 277 3.5
+   Flute 1 278 3.5
+   Flute 1 279 3.4
+   Flute 1 280 3.3
+   Flute 1 348 3.0
+   Flute 1 349 3.0
+   Flute 1 350 3.0
+   Flute 1 351 3.0
+   Flute 1 352 3.0
+   Flute 1 353 3.0
+   Flute 1 354 3.0
+   Flute 1 355 3.0
+   Flute 1 356 3.0
+   Horn 1 336 -2.2
+   Horn 2 277 -2.0
+   Horn 2 278 -2.0
+   Horn 2 279 -2.0
+   Horn 2 280 -1.8
+   Horn 2 336 2.1
+   Horn 3 276 -2.0
+   Horn 3 277 -2.0
+   Horn 3 278 -2.0
+   Horn 3 279 -2.0
+   Horn 3 280 -2.0
+   Horn 4 335 -2.5
+   Horn 4 336 -2.3
+   Oboe 1 130 -2.5
+   Oboe 1 132 -3.1
+   Oboe 1 286 -2.5
+   Oboe 1 288 -2.8
+   Trumpet 1 331 1.8
+   Trumpet 1 336 -2.3
+   Trumpet 2 331 1.8
+   Trumpet 2 336 -2.3
+   Tuba 332 -1.5
+   Violas 213 2.0
+   Violas 214 2.0
+   Violas 215 2.0
+   Violas 216 2.0
+   Violas 217 2.1
+   Violas 218 2.1
+   Violas 219 1.8
+   Violas 220 2.1
+   Violas 221 2.1
+   Violas 222 2.0
+   Violas 223 2.1
+   Violas 225 -2.0
+   Violas 226 -2.0
+   Violas 227 -2.0
+   Violas 277 -2.0
+   Violas 278 -2.0
+   Violas 279 -2.0
+   Violas 337 2.2
+   Violas 339 1.6
+   Violas div 213 2.5
+   Violas div 214 2.5
+   Violas div 215 2.5
+   Violas div 216 2.5
+   Violas div 217 2.6
+   Violas div 218 2.6
+   Violas div 219 2.4
+   Violas div 220 2.5
+   Violas div 221 2.5
+   Violas div 222 2.5
+   Violas div 223 2.6
+   Violas div 224 2.4
+   Violas div 349 -1.8
+   Violin I solo 348 2.2
+   Violin I solo 349 1.5
+   Violins II 225 -2.0
+   Violins II 226 -2.0
+   Violins II 227 -2.0
+   Violins II 228 -2.0
+   Violins II 337 2.1
+   Violins II 339 1.5
+   Violoncellos 210 -1.9
+   Violoncellos 348 2.0

@@ -1,0 +1,29 @@
+== tail: /Users/gooby/.venvs/claude-composes-reaper/bin/python cycles/c53/actor_scripts/tail53.py cycles/c53/render --fam
+== cycles/c53/render (t0 0.000 s)
+  master   bar  14   66.07 s  body  -46.2    -2.7   -5.1  -15.4  -26.8   t20 0.48
+  master   bar  25   89.84 s  body  -14.8    -6.2  -15.6  -10.7   -5.6   t20 0.295
+  master   bar  31  102.15 s  body  -15.8    -4.7  -11.7  -17.8  -20.0   t20 0.45
+  master   bar  71  183.69 s  body  -23.8    -4.8  -10.5  -15.1  -15.6   t20 None
+  master   bar  79  197.92 s  body  -30.9    -0.7   -1.8   -0.4   -0.2   t20 None
+  master   bar  82  204.07 s  body  -15.2    -7.4  -12.6  -22.1  -23.3   t20 0.345
+  master   bar 137  311.27 s  body  -18.9    -6.4  -15.0  -13.9   -3.9   t20 0.325
+  master   bar 141  319.69 s  body  -17.2    -4.6  -10.8  -12.2  -12.0   t20 None
+  master   bar 169  379.45 s  body  -13.6    -5.1  -13.6  -22.7  -33.5   t20 0.33
+  brass    bar  14   66.07 s  body  -47.5    -2.7   -5.0  -14.8  -26.2   t20 0.545
+  brass    bar  25   89.84 s  body  -19.1    -7.0  -15.5  -11.8   -4.9   t20 0.285
+  brass    bar  31  102.15 s  body  -20.0    -3.6  -14.1  -27.3  -41.4   t20 0.28
+  brass    bar  71  183.69 s  body  -24.9    -5.3  -14.5  -24.9  -27.7   t20 0.32
+  brass    bar  79  197.92 s  body  -33.7    -9.1  -16.5  -30.2  -43.0   t20 0.26
+  brass    bar  82  204.07 s  body  -19.2    -8.2  -17.7  -30.9  -43.7   t20 0.255
+  brass    bar 137  311.27 s  body  -23.7    -6.1  -15.4  -13.4   -1.7   t20 0.275
+  brass    bar 141  319.69 s  body  -20.0    -4.1  -14.2  -26.7  -41.7   t20 0.29
+  brass    bar 169  379.45 s  body  -17.5    -6.7  -14.9  -26.5  -42.5   t20 0.3
+  strings  bar  14   66.07 s  body  -53.9    -2.7   -5.8  -18.0  -27.5   t20 0.44
+  strings  bar  25   89.84 s  body  -19.1    -8.0  -15.4  -11.7   -7.8   t20 0.295
+  strings  bar  31  102.15 s  body  -20.2    -5.2  -11.2  -19.5  -25.2   t20 0.405
+  strings  bar  71  183.69 s  body  -34.5    -4.8   -5.0   -6.3   -5.3   t20 None
+  strings  bar  79  197.92 s  body  -37.2     2.1    2.2    3.7    4.4   t20 None
+  strings  bar  82  204.07 s  body  -21.3    -4.9   -7.9  -18.6  -17.9   t20 0.37
+  strings  bar 137  311.27 s  body  -22.0    -7.9  -14.7  -14.6   -7.0   t20 0.33
+  strings  bar 141  319.69 s  body  -26.9    -3.6   -3.9   -3.0   -2.8   t20 None
+  strings  bar 169  379.45 s  body  -19.2    -6.7  -11.1  -20.4  -31.3   t20 0.415

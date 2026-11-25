@@ -1,0 +1,85 @@
+# Critic A, cycle 52: articulation and phrasing (on the c51 render)
+
+Data used: `cycles/c51/rendered_build/` (parts.json, score_config.py, mockup-events.tsv), the stems and master in `cycles/c51/render/`, the actor's `S_r1.json`, `S_r2.json`, `S_c51.json`, `s1_c51.txt`, `rebow_c51.txt`, and the stems of c46-c50 for pairs of renders with identical MIDI data. No REAPER, no audio setting changed, nothing deleted. Scratch folder left in place: `/private/tmp/claude-501/mockup-loop/mvt2-c52-A/` (0.3 MB; scripts `cmp.py`, `flip.py`, `lag.py`, `states.py`, `lat.py`, `lat2.py`, `s1b.py`, `bb.py`, `hole2.py`, `t6.py`, `take.py`, `cc.py`; results `lat.json`, `t6.json`, `s1b_c51.txt`).
+
+Scope: the loop lead gave this slot the string join timing and S1 first. Those and the late lines, the wind join holes and the coda re-bows were measured. Not examined this cycle: tremolo, pizzicato, sul tasto tone, mutes, harp, timpani, the solo-violin patch question, Trombone 1's accents (CHANGES.md reports them within 3 dB of c50).
+
+## Manual notes
+
+`loop/MANUAL-READING.md` has no row for cycle 52. I read the pages that bear on the lead's question.
+
+| Source | What it says | Where it applies | Does the render follow it |
+|---|---|---|---|
+| HO manual May 2021, p.99 | A legato patch plays a transition only when two notes have no gap; "the first note of a phrase has no legato effect". Legato instruments are monophonic so that it is always clear which two notes are joined | every string Leg Slur MAX / Leg BC MAX / Leg Port MAX join | Not at row changes: when the keyswitch changes row between two overlapping notes, the new row usually does not play a transition (finding 1) |
+| p.99 | Bow Change is offered alone or combined with slur and portamento legato; in the combined instruments Opus chooses the component from the MIDI data | the KS Master row "StacSl Leg BC + Slur + Port MAX" (key 50) is the only loaded row with bow change and slur in one instrument | Not used. `DIGEST.md` records `BOWCHANGE_THRESHOLD` 75 in its script, unverified. A later test, not this cycle |
+| p.144 | Monophonic True Legato: velocity sets the transition time, not loudness | string joins at v124 | Followed |
+| p.145 | Round Robin Reset: Opus remembers the next take; a reset at chosen positions forces the order | `RR_RESET_AT` (Violas 152.06), pre-roll CC16 | The join timing problem is not a round-robin effect (finding 1): the same sample plays, later by a fixed time |
+| `FINDINGS.md` section 9 (EW's own HO template and demo MIDI) | Strings: a dedicated legato track per section ("Leg Slur + Port LITE") for melodic lines, the KS Master for the rest; keyswitches sit 40-800 ms before the note (typically 100-600 ms) | `EW-TEMPLATE-PLAN.md` line 91 lists this as a default, "c51, test", not built | Not followed: the mockup changes row inside legato lines 163 times on the four section tracks, with the keyswitch 28-38 ms before the note-on |
+
+## Findings
+
+### 1. String joins across a keyswitch row change are the unrepeatable ones: the target plays either at once or a fixed time later (Violins I 105 ms), at random per render (measured; cause inside Opus inferred)
+
+Where: Violins I, Violins II, Violas, Violoncellos (and the div tracks, Double basses 146), every legato target whose row differs from the row of the note it overlaps: Leg Slur MAX to Leg BC MAX, Leg BC MAX back to Leg Slur MAX, Sus MAX to a legato row, into and out of Leg Port MAX. 163 of the 439 joins on the four section tracks.
+
+Evidence:
+- r2 and the full c51 render were made from identical data. Of the 35 string joins that moved 25 ms or more, 33 are row-change joins: Violins I 11 of 11, Violins II 7 of 7, Violas 9 of 10, Violoncellos 6 of 7. Row-change joins: 33 of 163 moved 25 ms or more, 20 moved 60 ms or more. Same-row joins: 2 of 276 moved 25 ms or more, none 60 ms (`cmp.py`, `lat.py`).
+- Waveforms of renders with identical MIDI data (Violins I c46/c47 and c48/c49, Violas c46/c47, Violoncellos and Double basses c48/c49, the div tracks; `flip.py`): the notes that differ are single notes; the notes before and after are sample-identical (correlation 1.00). Legato targets after a row change with the old note held: 25 of 170 differ. Legato targets on the same row: 8 of 501, and those 8 follow a differing note or are Trombone 1 217.5. So no state is carried forward, and it is not a round-robin position.
+- The two versions of a differing note are the same sample shifted by a constant (`lag.py`, correlation 0.97-1.00 over 0.4-1.0 s after the note-on): Violins I 5061 samples = 105.4 ms at all five joins checked (193.5, 196, 200, 243, 266), Violoncellos and Violoncellos div 2846 samples = 59.3 ms, Violas 50.5 ms, Violas div 44.9 ms, Double basses 111.6 ms. Violins II about 100 ms (from the S differences +90 to +104).
+- In the early version the new pitch rises from the note-on and the old pitch falls about 0.15 s later. In the late version the old pitch holds 0.1 s longer and the new pitch starts 0.1 s later (`states.py`). Same-row joins have the longer latency (Violins I Leg Slur MAX median 206 ms, Leg BC MAX 258 ms; row-change joins median 152 ms). Inferred: the late version is the sampled legato transition; the early version is a plain start of the sustain layer without a transition, which the new row plays when it has not registered the held note of the other row. Manual p.99 fits this (a phrase's first note gets no transition).
+- From the flip rate (33 of 163 between two renders) each row-change join takes its minority (late) version in about 1 render in 9. So in every render about 19 string joins sit 45-112 ms away from where the lead table puts them, and no table can hold them.
+- This accounts for most of the open string items. Of the 13 string-line joins over 60 ms in the full render, 9 read within 44 ms in r2 (Violins I 68, 87, 189, 240, 252; Violins II 73.5, 181, 249.5; Violoncellos 68). Violins I against Violins II on common joins: 12 of 76 over 60 ms apart, and 10 of the 12 have a row-change join in one or both sections; where both sections stay on their row, 1 of 36 is over 60 ms (`lat2.py`). Violins I 193.5 (-96 ms): its pass-2 row was fitted in r1 on a late version (+102); r2 and the full render played the early one.
+- Consequence for the articulation itself: about 8 of 9 row-change joins play no legato transition. The Leg BC MAX targets after a Leg Slur MAX note (Violins I 21, Violins II 23, Violas 12, Violoncellos 18) are mostly crossfaded sustain starts, not bow-change legato.
+
+Fix (one of the two; the first is config only and has the measured support):
+
+a. Keep each legato line on one row. In `build/score_config.py`:
+```
+BC_SOFT = dict(BC_SOFT, tracks=("Violins I", "Violins II", "Violas", "Violoncellos", "Violin I solo",
+                                "Violoncellos div", "Violas div"), max_cc=127)
+BC_SOFT_SKIP = {}
+```
+Keep `BC_NEWP_KEEP` (Violins I 72): with it the join passes on to the `BC_SOFT` test and stays a legato target on Leg Slur MAX.
+The rule at `tools/score_to_parts.py` line 2338 then keeps every slur-to-slur and unslurred join on Leg Slur MAX and marks the bow change with its CC11 notch (3 CC at CC11 40 or less, else 4). If a notch of 4 CC is too weak at mf-ff, raise `VLA_BC_SOFT["notch"]` to 6 after measuring; do not go back to the BC row for it. Delete the `build/leg_leads.json` rows of every target that was a row-change join (list them from the c51 parts.json: target row differs from the row of the overlapped note); they were fitted on the other version. Their starting lead is the row lead; same-row Leg Slur MAX latency medians in c51 are Violins I 206 ms, Violins II 248, Violas 204, Violoncellos 210. Then the c51 procedure: range render, fit per-onset rows on S (0.9 of S, at most 100 ms a pass, where both estimators agree and S is beyond 40 ms), second range render, full render.
+   Row changes that remain: the two Leg Port MAX targets per violin section (82, 172) and the notes after them (83, 174), and legato targets after a Sus MAX re-bow piece (Violins I and II 266, about 15 joins on the four tracks). Violins I 266 differed in all three render pairs I checked. Leave them and list them in CHANGES.md as joins that may move; do not fit rows on them.
+
+b. If the lead wants to keep Leg BC MAX: move the keyswitch of a row-change join to at least 0.15 s before the note-on (EW's demo: typically 100-600 ms; ours 28-38 ms, `KS_LEAD` in `score_to_parts.py` lines 2932-2938). This is untested here, and the finale's test of 45 ms against 23 ms did not stop its long-note level changes (SHARED-TECHNIQUES 39). Test it on one track first (Violas, 28 row-change joins) in the two range renders.
+
+Acceptance (S, `tools/s_onsets.py --report` on two renders of identical data): no string join moves 60 ms or more and at most 5 move 25 ms or more; on parts.json at most 25 legato targets on the four section tracks whose row differs from the overlapped note's row; Violins I against Violins II over 60 ms apart on at most 3 common joins; per string line at most 2 joins outside 60 ms. For any future check of a string join, compare two renders before changing its lead.
+
+### 2. S1: the basses' pp repeats lose their gap to the release tail, the sul tasto repeat at 120 is not separated, and two repeats are missing from the S1 list (measured)
+
+- Double basses 144 (B flat 1, pp; also 156 and 168 by the same rule). c50 dipped 7 dB in the 60 ms gap; c51 does not dip at all (40 ms stem level -55, -55, -56, -55 through the gap; c50 -59, -63, -62). The same takes played in both renders (correlation 0.97-1.00 for 140 and 144, `take.py`) and the gap and CC11 lane are the same in seconds. In both builds CC11 falls 33 to 20 at the note-off (`sus_fall`) and is back at 40 at -110 ms, 10 ms before the new note-on at -100 ms, so the release tail of the old note is raised again inside the gap. Whether the tail follows that rise differs from render to render (inferred from the two renders). Fix: `LEVEL_SHAPES_S["Double basses"]` add `(144.0, [(-0.160, 0.0), (-0.154, -9.0), (-0.103, -9.0), (-0.097, 0.0)])`, the same shape that works at 253 (own-band dip 9.8 dB in c51), and the same at 156.0 and 168.0 after checking their note-off and note-on times (168: -160 and -100 ms, as at 144). It is level-only, so it can go in by stem fix. In `score_to_parts.py`, hold the `sus_fall` value until the new note-on instead of returning 10 ms before it.
+- Violins II 120 (E flat 4) and Violins II div 120 (G flat 4), Flautando, pp: own-band dips 2.6 and 2.0 dB (`s1_c51.txt`). The 120 ms and 80 ms gaps are filled by the Flautando release. The volume envelope already dips there (-5.4 dB at the note-off, -9.0 at the beat) and then rises 11 dB over 0.28 s. Fix: deepen the dip inside the gap by 6 dB: `LEVEL_SHAPES_S["Violins II"]` add `(120.0, [(-0.120, 0.0), (-0.100, -6.0), (-0.015, -6.0), (0.0, 0.0)])`, `"Violins II div"` add `(120.0, [(-0.080, 0.0), (-0.065, -6.0), (-0.010, -6.0), (0.0, 0.0)])`. Stem fix.
+- Horn 2 208 (C sharp 4, ff, tenuto, bar 62; not in the 49-point list): gap 33 ms, the stem goes from -30 to -34 dB with no dip and no new attack (40 ms level; `bb.py`). A printed tenuto repeat that sounds as one held note stepping down 3 dB. Fix: re-tongue it as Trombone 1's 216 is (the `WIND_REP_PORTATO` path) with a gap of 0.08 s. This changes MIDI data, so it needs the render.
+- Violas 81 (D flat 4, bar 27; not in the list): the played gap is 6 ms, no dip on the stem. Fix: add it to `STR_REP_NEW_BOW["soft_gap_s_at"]["Violas"]` with 0.09.
+- Bass clarinet and Contrabassoon 265 (ff): the stems dip 5 dB in 40 ms windows at the repeat (-37 to -42, -41 to -46), the same in c50 and c51. The own-band figures 1.9 and 0.0 dB are low-pitch reading errors (C sharp 1 at 34.6 Hz). No change.
+
+Acceptance: `s1_c51.txt` measure, own-band dip 3 dB or more at Double basses 144, 156, 168, Violins II 120, Violins II div 120, Horn 2 208, Violas 81; no point that passed in c51 falls under 3 dB.
+
+### 3. The wind and horn leads fitted on S put the pitch change on the beat, but the level hole of the join now falls after the beat (measured)
+
+Where: slurred joins of the solo winds whose lead was shortened in c51. 40 ms stem level against the lower of the two note bodies (`hole2.py`), c50 against c51:
+- Cor anglais 131.5 (bar 42): c50 a 9 dB hole at -50 ms, c51 a 10 dB hole at +50 ms, body back at +100 ms. Cor anglais 132: 9 dB from +50 to +225 ms in both.
+- Flute 1 130: c50 hole from -125 to -25 ms, c51 from -25 to +150 ms (9 dB). Flute 1 118: c50 8 dB at -25 ms, c51 11 dB at +75 ms. Flute 1 131.5: 8 dB from +75 to +225 ms in both.
+- Oboe 1 145 and 145.5 (bar 46): 8-9 dB, back to the body at +125 to +175 ms of a 500 ms eighth. Over the B flat minor head the new pitch holds its body level minus 6 dB at a median +99 ms after the beat (5 of 7 joins over +60 ms; c50 +49 ms) although S reads +2 ms (`t6.py`).
+- Horn 1 37.5 (bar 13, theme A): the "+87 ms" in the open list is not a late start. The new pitch is at its level by +50 ms, then the note sags 9 dB at +125 to +150 ms and is back at +300 ms, under a +3.8 dB fill that starts at the beat. Clarinet 1 283: 7 dB at +50 ms.
+- For flutes, cor anglais and violins the median of this body measure is within 21 ms of the beat in c51, so the S fit is not wrong in general. The measure is not usable on bass clarinet, horn and cello lines (harmonics of the old note fall in the new note's band).
+
+The join fills (`build/early_fills.json`) were moved with the note-ons (`fillshift51.py`) but were fitted to holes that lay before the beat. Fix, level-only, by stem fix: refit the fills of these joins on the c51 stems (`tools/auto_fills.py`), or add `LEVEL_SHAPES_S` rows over each hole, for example Cor anglais `(131.5, [(0.0, 0.0), (0.03, 6.0), (0.08, 6.0), (0.13, 0.0)])` and Horn 1 `(37.5, [(0.07, 0.0), (0.11, 5.0), (0.20, 5.0), (0.28, 0.0)])` on top of the present fill. Acceptance: at the nine joins named, no 40 ms level more than 5 dB under the lower body between -100 and +300 ms, and no 50 ms peak more than 2 dB over the higher body.
+
+### 4. The coda pedal's re-bow fills no longer match their re-bows: the pieces changed length with the tempo map (measured)
+
+Where: Violoncellos div, bars 83-86 (qn 274-286), and two points of the basses' bar 65-70 pedal. c50 had a phrase arc over 274-286; c51 plays 52 throughout. The re-bow points kept their qn, so the pieces changed length in seconds: 275.527 2.29 to 2.36 s, 281.716 2.82 to 2.76 s, 284.141 2.64 to 2.30 s (`take.py`). The fills in `build/rebow_fills.json` were fitted over the whole bow at the c49 lengths. Dips: 275.527 2.5 to 6.2 dB, 277.599 2.1 to 3.8, 284.141 still 7.0 with a -3.8 dB step (`rebow_c51.txt`). The same takes play as in c50 (correlation 0.72-0.93 with the changed lengths, 1.00 between c49 and c50), so this is the fill, not the sample. The basses' pedal at 220-238 also lost its arcs; its dips are 1.5-4.5 dB (c50 1.4-5.7), over 3 dB at 225.215 (4.5) and 235.659 (4.4). Fix: rerun `tools/fit_rebows.py` for Violoncellos div 275.527-284.141 and Double basses 225.215 and 235.659 on the c51 stems with the 4.1 s window; level-only, by stem fix. Acceptance: every re-bow dip at these points 3 dB or less and every step within 1.5 dB.
+
+### 5. Readings in the open list that need no lead change (measured)
+
+- Violins I 216 (+229 ms, "Violins I bars 61-64"): the note continues the same pitch in tremolo from 212 (A flat 5 to A flat 5 at a lower dynamic). The stem has no new start to find (-45 dB before, -50 after). pcX on a same-pitch tremolo continuation is not a start time; take it out of the line table.
+- Violin I solo 48 and 60 (+109, +72 ms): pp entries on the slow first-note layer. The pitch band reaches body minus 6 dB at +32 and +38 ms. On time by level; no change.
+- Violins I 249 (+101 ms, the E flat 4 pickup of bar 74 after a rest): body minus 6 dB at +146 ms of a 577 ms eighth; Violins II reach it at -30 ms. Raise the Violins I lead at 249 from 0.18 to 0.26 s (`build/entry_leads.json` or the table that sets it). The other theme pickups (65, 171, 237) reach body minus 6 dB between -50 and +114 ms; no change.
+- Violins I and II 174 (-76, -77 ms, identical in r1, r2 and the full render): the join out of Leg Port MAX plays its early version every time under a full row lead. If fix 1 leaves it a row change, set its lead 0.07 s shorter.
+- Bassoon 1 143 (+88 ms): C4 after D flat 4, the level steps down 5 dB at the join and the new pitch does not rise over the old note's ring. The reading is uncertain; no change.
+
+## Do not touch
+
+The printed-tempo map of c51 and its five kept breaths. The wind and brass row leads and `LEG_PAIR_EXTRA_S` (0 of 284 joins moved 60 ms between r2 and the full render other than Horn 4 and the stale Trombone 1). Same-row string joins and their per-onset rows (0 of 276 moved 60 ms). String legato velocity 124. The gap shape at Double basses 253. `RR_RESET_AT` Violas 152.06. The final chord's re-bows (within 1.5 dB of c50). Trombone 1's ten starts (-16 to +35 ms).

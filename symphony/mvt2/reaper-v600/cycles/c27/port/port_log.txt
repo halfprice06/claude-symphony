@@ -1,0 +1,200 @@
+note_trims               Oboe 1            194.000 kept [hairpins,prev] CHANGED: prev (193.5, (80,))->(193.5, (78,)); hairpins near []->[(195.0, 'decresc')]
+note_trims               Oboe 1            144.000 kept [next] CHANGED: next (145.0, (68,))->(145.0, (69,))
+note_trims               Oboe 1            145.500 kept [prev] CHANGED: prev (145.0, (68,))->(145.0, (69,))
+note_trims               Flute 1           254.000 DROPPED [missing] MISSING (v77 [94])
+note_trims               Flute 1           129.000 DROPPED [dyn,pitch] CHANGED: pitch [82]->[78]; prev (128.0, (80,))->(128.0, (77,)); next (129.5, (80,))->(129.5, (77,)); dyn mp->p; hairpins near [(128.0, 'decresc')]->[]
+note_trims               Flute 1           129.500 DROPPED [dyn,pitch] CHANGED: pitch [80]->[77]; prev (129.0, (82,))->(129.0, (78,)); next (130.0, (78,))->(130.0, (75,)); dyn mp->p
+note_trims               Flute 1           258.000 DROPPED [dyn] CHANGED: dyn p->mp
+note_trims               Flute 1           113.000 kept [hairpins] CHANGED: hairpins near []->[(112.0, 'decresc')]
+note_trims               Flute 1           117.000 kept [hairpins] CHANGED: hairpins near []->[(116.0, 'cresc'), (118.0, 'decresc')]
+note_trims               Flute 1           117.333 kept [hairpins] CHANGED: hairpins near []->[(118.0, 'decresc')]
+note_trims               Flute 1           117.667 kept [hairpins] CHANGED: hairpins near []->[(118.0, 'decresc')]
+note_trims               Clarinet 1        256.000 DROPPED [dyn] CHANGED: prevfar (255.0, (80,))->(210.0, (80,)); dyn p->mp; hairpins near []->[(256.0, 'cresc')]
+note_trims               Clarinet 1        204.000 DROPPED [dur,pitch] CHANGED: pitch [68]->[77]; dur [2.0]->[4.0]; next (206.0, (73,))->(208.0, (77,))
+note_trims               Bass clarinet      93.000 DROPPED [dyn,pitch] CHANGED: pitch [63]->[51]; prev (92.5, (60,))->(92.5, (48,)); next (96.0, (63,))->(96.0, (51,)); dyn mp->p
+note_trims               Bass clarinet     108.000 DROPPED [pitch] CHANGED: pitch [61]->[49]; prev (107.0, (60,))->(107.0, (48,)); hairpins near []->[(108.0, 'decresc')]
+note_trims               Bassoon 1         184.000 kept [prev] CHANGED: prev (182.0, (53,))->(182.0, (48,))
+note_trims               Bassoon 1         208.000 DROPPED [pitch] CHANGED: pitch [54]->[65]; prev (204.0, (53,))->(206.0, (61,)); next (210.0, (56,))->(210.0, (64,))
+note_trims               Bassoon 1         262.000 kept [hairpins] CHANGED: hairpins near []->[(261.0, 'cresc')]
+note_trims               Bassoon 1         269.000 DROPPED [scripts] CHANGED: scripts []->['tenuto']
+note_trims               Bassoon 2         172.000 DROPPED [missing] MISSING (v77 [49])
+note_trims               Bassoon 2         182.000 DROPPED [missing] MISSING (v77 [49])
+note_trims               Bassoon 2         190.000 DROPPED [dyn] CHANGED: dyn mp->p
+note_trims               Bassoon 2         196.000 DROPPED [pitch] CHANGED: pitch [54]->[42]; next (198.0, (55,))->(198.0, (43,))
+note_trims               Bassoon 2         253.000 DROPPED [scripts] CHANGED: scripts []->['tenuto']
+note_trims               Violoncellos      139.000 DROPPED [dyn] CHANGED: dyn p->pp
+note_trims               Violoncellos      164.000 DROPPED [pitch] CHANGED: pitch [51]->[48]; next (168.0, (51,))->(168.0, (50,))
+note_trims               Violoncellos      180.000 DROPPED [pitch] CHANGED: pitch [51]->[39]; next (182.0, (49,))->(182.0, (36,))
+note_trims               Violoncellos      261.000 DROPPED [pitch] CHANGED: pitch [56]->[60]; hairpins near []->[(261.0, 'cresc')]
+note_trims               Violoncellos       81.000 DROPPED [dur] CHANGED: dur [2.0]->[1.0]; next (83.0, (61,))->(82.0, (53,))
+note_trims               Violoncellos       72.000 kept [hairpins] CHANGED: hairpins near []->[(72.0, 'cresc')]
+note_trims               Violoncellos       74.000 kept [hairpins] CHANGED: hairpins near []->[(74.0, 'decresc')]
+note_trims               Violoncellos      244.000 kept [hairpins] CHANGED: hairpins near []->[(244.0, 'cresc')]
+note_trims               Violoncellos      246.000 kept [hairpins,next] CHANGED: next (247.0, (58,))->(247.0, (60,)); hairpins near []->[(246.0, 'decresc')]
+note_trims               Violoncellos      193.000 kept [next] CHANGED: next (195.0, (53,))->(195.0, (51,))
+note_trims               Violoncellos      204.000 kept [prev] CHANGED: prev (203.0, (53,))->(202.0, (54,))
+note_trims               Violoncellos      265.000 DROPPED [dyn] CHANGED: dyn f->ff
+note_trims               Oboe 2            262.000 kept [prevfar] CHANGED: prevfar (210.0, (76,))->(210.0, (68,))
+note_trims               Timpani           271.000 DROPPED [missing] MISSING (v77 [44])
+note_trims               Horn 4            286.000 kept [prevfar] CHANGED: prevfar (268.0, (55,))->(270.0, (51,))
+note_trims               Violins I          82.000 DROPPED [dyn] CHANGED: dyn mf->f
+note_trims               Violins I          68.000 kept [hairpins] CHANGED: hairpins near [(68.0, 'cresc')]->[(68.0, 'cresc'), (69.0, 'decresc')]
+note_trims               Violins I          83.000 DROPPED [dyn] CHANGED: dyn mf->f
+note_trims               Violins I          84.000 DROPPED [dyn] CHANGED: dyn mf->f
+note_trims               Violins II         68.000 kept [hairpins] CHANGED: hairpins near [(68.0, 'cresc')]->[(68.0, 'cresc'), (69.0, 'decresc')]
+note_trims               Violins II         70.000 kept [hairpins] CHANGED: hairpins near [(70.0, 'decresc')]->[(69.0, 'decresc')]
+note_trims               Violins II         82.000 DROPPED [dyn] CHANGED: dyn mf->f
+note_trims               Violins II         83.000 DROPPED [dyn] CHANGED: dyn mf->f
+note_trims               Violins II         84.000 DROPPED [dyn] CHANGED: dyn mf->f
+note_trims               Horn 1            180.000 DROPPED [dyn,pitch] CHANGED: pitch [66]->[70]; next (182.0, (65,))->(182.0, (66,)); dyn mp->pp
+note_trims               Harp               26.000 kept [prev] CHANGED: prev (25.0, (51, 56))->(25.0, (48, 51))
+note_trims               Harp harmonics    276.000 DROPPED [dyn] CHANGED: dyn mp->p
+note_trims               Horns 1-2 a2      261.000 DROPPED [dyn] CHANGED: dyn p->mf
+loop_fills               Double basses     168.000 kept [hairpins,next] CHANGED: next (172.0, (37,))->(184.0, (33,)); hairpins near [(168.0, 'cresc')]->[]
+loop_fills               Double basses     204.000 kept [prevfar] CHANGED: prevfar (200.0, (32,))->(202.0, (32,))
+loop_profiles            Violoncellos      164.000 DROPPED [pitch] CHANGED: pitch [51]->[48]; next (168.0, (51,))->(168.0, (50,))
+loop_profiles            Timpani           226.000 kept [prevfar] CHANGED: prevfar (211.0, (44,))->(209.5, (49,))
+loop_profiles            Timpani           292.000 DROPPED [missing] MISSING (v77 [44])
+early_fills              Flute 1           111.000 kept [hairpins] CHANGED: hairpins near []->[(112.0, 'decresc')]
+early_fills              Flute 1           118.000 kept [hairpins] CHANGED: hairpins near []->[(118.0, 'decresc')]
+early_fills              Flute 1           132.000 DROPPED [pitch] CHANGED: pitch [75]->[78]; next (133.5, (77,))->(133.5, (80,)); dyn mp->p; hairpins near []->[(131.0, 'decresc')]
+early_fills              Flute 1           134.000 DROPPED [pitch,prev] CHANGED: pitch [73]->[77]; prev (133.5, (77,))->(133.5, (80,)); next (135.0, (70,))->(135.0, (75,)); dyn mp->p
+early_fills              Flute 1           250.000 DROPPED [missing] MISSING (v77 [80])
+early_fills              Flute 1           256.000 DROPPED [prev] CHANGED: prev (255.0, (92,))->(212.0, (93,)); dyn p->mp; hairpins near []->[(256.0, 'cresc')]
+early_fills              Flute 1           252.000 DROPPED [missing] MISSING (v77 [89])
+early_fills              Flute 1           112.000 kept [hairpins] CHANGED: hairpins near []->[(112.0, 'decresc')]
+early_fills              Flute 1           119.000 kept [hairpins] CHANGED: hairpins near []->[(118.0, 'decresc')]
+early_fills              Flute 1           120.000 kept [dur,next] CHANGED: dur [2.0]->[1.0]; next (122.0, (70,))->(121.0, (73,))
+early_fills              Flute 1           122.000 kept [next,prevfar] CHANGED: prevfar (120.0, (72,))->(121.5, (72,)); next (126.0, (77,))->(126.0, (80,))
+early_fills              Flute 1           128.000 DROPPED [pitch,prev] CHANGED: pitch [80]->[77]; prev (127.5, (78,))->(127.5, (82,)); next (129.0, (82,))->(129.0, (78,)); dyn mp->p; hairpins near [(128.0, 'decresc')]->[]
+early_fills              Flute 1           129.500 DROPPED [pitch,prev] CHANGED: pitch [80]->[77]; prev (129.0, (82,))->(129.0, (78,)); next (130.0, (78,))->(130.0, (75,)); dyn mp->p
+early_fills              Flute 1           135.000 DROPPED [pitch,prev] CHANGED: pitch [70]->[75]; prev (134.0, (73,))->(134.0, (77,)); next (136.0, (72,))->(136.0, (75,)); dyn mp->p
+early_fills              Flute 1           192.000 kept [dur,next] CHANGED: dur [1.0]->[1.5]; next (193.0, (94,))->(193.5, (90,))
+early_fills              Flute 1           193.000 DROPPED [missing] MISSING (v77 [94])
+early_fills              Flute 1           194.000 DROPPED [prev] CHANGED: prev (193.5, (92,))->(193.5, (90,)); hairpins near []->[(195.0, 'decresc')]
+early_fills              Flute 1           195.500 kept [hairpins] CHANGED: hairpins near []->[(195.0, 'decresc')]
+early_fills              Flute 1           196.000 kept [hairpins] CHANGED: hairpins near []->[(195.0, 'decresc')]
+early_fills              Flute 1           257.500 kept [dyn] CHANGED: dyn p->mp
+early_fills              Flute 1           258.500 kept [dyn] CHANGED: dyn p->mp
+early_fills              Oboe 1            145.000 DROPPED [pitch] CHANGED: pitch [68]->[69]
+early_fills              Oboe 1            196.000 kept [hairpins] CHANGED: hairpins near []->[(195.0, 'decresc')]
+early_fills              Oboe 1            193.000 DROPPED [missing] MISSING (v77 [82])
+early_fills              Cor anglais        99.000 kept [next] CHANGED: next (124.0, (56,))->(107.0, (72,))
+early_fills              Cor anglais       132.000 kept [hairpins] CHANGED: hairpins near []->[(131.0, 'decresc')]
+early_fills              Cor anglais       128.000 kept [hairpins] CHANGED: hairpins near [(128.0, 'decresc')]->[]
+early_fills              Cor anglais       129.000 kept [hairpins] CHANGED: hairpins near [(128.0, 'decresc')]->[]
+early_fills              Cor anglais       131.500 kept [hairpins] CHANGED: hairpins near []->[(131.0, 'decresc')]
+early_fills              Cor anglais       130.000 kept [hairpins] CHANGED: hairpins near []->[(131.0, 'decresc')]
+early_fills              Clarinet 1        252.000 DROPPED [missing] MISSING (v77 [77])
+early_fills              Clarinet 1        184.000 DROPPED [prev] CHANGED: prev (182.0, (65,))->(182.0, (66,))
+early_fills              Clarinet 1        186.000 kept [next] CHANGED: next (188.0, (65,))->(190.0, (73,))
+early_fills              Clarinet 1        182.000 DROPPED [pitch,prev] CHANGED: pitch [65]->[66]; prev (180.0, (66,))->(180.0, (70,))
+early_fills              Clarinet 1        251.500 DROPPED [missing] MISSING (v77 [72])
+early_fills              Clarinet 1        257.500 kept [dyn] CHANGED: dyn p->mp
+early_fills              Clarinet 1        178.000 kept [next] CHANGED: next (180.0, (66,))->(180.0, (70,))
+early_fills              Bassoon 1         267.000 DROPPED [scripts] CHANGED: scripts []->['tenuto']
+early_fills              Bassoon 1         262.000 kept [hairpins] CHANGED: hairpins near []->[(261.0, 'cresc')]
+early_fills              Bassoon 1         269.000 DROPPED [scripts] CHANGED: scripts []->['tenuto']
+early_fills              Horn 1            176.000 kept [dyn] CHANGED: dyn p->pp
+early_fills              Horn 1            184.000 DROPPED [prev] CHANGED: prev (182.0, (65,))->(182.0, (66,))
+early_fills              Horn 1            203.000 DROPPED [missing] MISSING (v77 [65])
+early_fills              Horn 1             22.000 kept [hairpins] CHANGED: hairpins near [(22.0, 'decresc')]->[(21.0, 'decresc')]
+early_fills              Horn 1            195.000 DROPPED [dur,pitch] CHANGED: pitch [65]->[63]; dur [1.0]->[0.5]; next (196.0, (66,))->(195.5, (65,))
+early_fills              Horn 1            267.000 DROPPED [scripts] CHANGED: scripts []->['tenuto']
+early_fills              Horn 1            269.000 DROPPED [scripts] CHANGED: scripts []->['tenuto']
+early_fills              Horn 1            180.000 DROPPED [pitch] CHANGED: pitch [66]->[70]; next (182.0, (65,))->(182.0, (66,)); dyn mp->pp
+early_fills              Horn 1            202.000 kept [dur,next] CHANGED: dur [1.0]->[2.0]; next (203.0, (65,))->(204.0, (65,))
+early_fills              Horn 2            252.000 kept [dyn] CHANGED: dyn mp->p
+early_fills              Horn 2            258.000 kept [dyn] CHANGED: dyn mf->mp
+early_fills              Horn 2            210.000 DROPPED [pitch,prev] CHANGED: pitch [68]->[64]; prev (208.0, (66,))->(208.0, (61,)); dyn f->ff
+early_fills              Bass clarinet      92.500 DROPPED [pitch,prev] CHANGED: pitch [60]->[48]; prev (92.0, (56,))->(92.0, (44,)); next (93.0, (63,))->(93.0, (51,)); dyn mp->p
+early_fills              Bass clarinet      92.000 DROPPED [pitch,prev] CHANGED: pitch [56]->[44]; prev (91.5, (53,))->(91.5, (41,)); next (92.5, (60,))->(92.5, (48,)); dyn mp->p
+early_fills              Bass clarinet      98.000 DROPPED [pitch,prev] CHANGED: pitch [61]->[49]; prev (97.0, (62,))->(97.0, (50,)); next (99.0, (60,))->(99.0, (48,))
+early_fills              Bass clarinet      99.000 DROPPED [pitch,prev] CHANGED: pitch [60]->[48]; prev (98.0, (61,))->(98.0, (49,)); next (101.0, (58,))->(101.0, (46,)); dyn p->mp
+early_fills              Bass clarinet      91.500 DROPPED [pitch,prev] CHANGED: pitch [53]->[41]; prev (91.0, (51,))->(91.0, (39,)); next (92.0, (56,))->(92.0, (44,)); dyn mp->p
+early_fills              Violas            254.500 kept [next] CHANGED: next (255.0, (61,))->(255.0, (65,))
+early_fills              Violas            251.500 DROPPED [prev] CHANGED: prev (251.0, (68,))->(251.0, (56,))
+early_fills              Violins II         59.000 DROPPED [prev] CHANGED: prev (57.0, (68,))->(56.0, (67,)); scripts ['tenuto']->['tenuto', 'upbow']
+early_fills              Violins II         60.000 kept [dur,next] CHANGED: dur [2.0]->[1.0]; next (62.0, (65,))->(61.0, (60,))
+early_fills              Violins II         84.000 kept [dyn] CHANGED: dyn mf->f
+early_fills              Violins II         87.000 kept [next] CHANGED: next (108.0, (61, 65))->(108.0, (61, 68))
+early_fills              Violins II        240.000 kept [hairpins] CHANGED: hairpins near [(240.0, 'cresc')]->[(240.0, 'cresc'), (241.0, 'decresc')]
+early_fills              Violoncellos       77.000 DROPPED [prev] CHANGED: prev (75.0, (58,))->(76.0, (56,))
+early_fills              Violoncellos       86.000 kept [dyn] CHANGED: dyn mf->f
+early_fills              Violoncellos       74.000 kept [hairpins] CHANGED: hairpins near []->[(74.0, 'decresc')]
+early_fills              Violoncellos       75.000 kept [dur,hairpins,next] CHANGED: dur [2.0]->[1.0]; next (77.0, (55,))->(76.0, (56,)); hairpins near []->[(74.0, 'decresc')]
+early_fills              Violoncellos      246.000 kept [hairpins,next] CHANGED: next (247.0, (58,))->(247.0, (60,)); hairpins near []->[(246.0, 'decresc')]
+early_fills              Violoncellos      247.000 DROPPED [dur,pitch] CHANGED: pitch [58]->[60]; dur [2.0]->[1.0]; next (249.0, (55,))->(248.0, (58,)); hairpins near []->[(246.0, 'decresc')]
+early_fills              Violoncellos      249.000 DROPPED [prev] CHANGED: prev (247.0, (58,))->(248.5, (56,))
+early_fills              Violoncellos       71.000 kept [hairpins] CHANGED: hairpins near []->[(72.0, 'cresc')]
+early_fills              Violoncellos       81.000 kept [dur,next] CHANGED: dur [2.0]->[1.0]; next (83.0, (61,))->(82.0, (53,))
+early_fills              Violoncellos       87.000 kept [next] CHANGED: next (108.0, (49,))->(124.0, (49,))
+early_fills              Violoncellos      132.000 kept [next] CHANGED: next (134.0, (51,))->(134.0, (44,))
+early_fills              Violoncellos      140.000 kept [dyn] CHANGED: dyn p->pp
+early_fills              Violoncellos      144.000 kept [dyn,next] CHANGED: next (145.0, (56,))->(145.0, (57,)); dyn p->pp
+early_fills              Violoncellos      156.000 kept [dur,next] CHANGED: dur [1.0]->[2.0]; next (157.0, (47,))->(158.0, (47,))
+early_fills              Violoncellos      157.000 DROPPED [missing] MISSING (v77 [47])
+early_fills              Violoncellos      159.000 DROPPED [missing] MISSING (v77 [49])
+early_fills              Violoncellos      160.000 DROPPED [pitch,prev] CHANGED: pitch [54]->[45]; prev (159.0, (49,))->(158.0, (47,))
+early_fills              Violoncellos      162.000 DROPPED [prev] CHANGED: prev (160.0, (54,))->(160.0, (45,)); next (164.0, (51,))->(164.0, (48,))
+early_fills              Violoncellos      193.000 kept [next] CHANGED: next (195.0, (53,))->(195.0, (51,))
+early_fills              Violoncellos      196.000 kept [prevfar] CHANGED: prevfar (195.0, (53,))->(195.5, (53,))
+early_fills              Violoncellos      219.000 DROPPED [dur,pitch,prev] CHANGED: pitch [52]->[47]; dur [1.0]->[0.5]; prev (218.0, (50,))->(218.0, (38,)); next (220.0, (46,))->(219.5, (46,)); hairpins near []->[(218.0, 'decresc')]
+early_fills              Violoncellos      220.000 DROPPED [prev] CHANGED: prev (219.0, (52,))->(219.5, (46,))
+early_fills              Violoncellos      243.000 kept [hairpins] CHANGED: hairpins near []->[(244.0, 'cresc')]
+early_fills              Violoncellos      263.000 kept [dyn] CHANGED: dyn f->ff
+early_fills              Violoncellos      264.000 kept [dyn] CHANGED: dyn f->ff
+early_fills              Violoncellos      267.000 DROPPED [scripts] CHANGED: dyn f->ff; scripts []->['tenuto']
+early_fills              Violoncellos       60.000 kept [dur,next] CHANGED: dur [2.0]->[1.0]; next (62.0, (46,))->(61.0, (51,))
+early_fills              Violoncellos      164.000 DROPPED [pitch] CHANGED: pitch [51]->[48]; next (168.0, (51,))->(168.0, (50,))
+early_fills              Violoncellos      202.000 kept [dur,next] CHANGED: dur [1.0]->[2.0]; next (203.0, (53,))->(204.0, (56,))
+early_fills              Violoncellos      259.000 kept [next] CHANGED: next (261.0, (56,))->(261.0, (60,))
+early_fills              Violoncellos      180.000 DROPPED [pitch] CHANGED: pitch [51]->[39]; next (182.0, (49,))->(182.0, (36,))
+early_fills              Violins I          71.000 kept [hairpins] CHANGED: hairpins near [(70.0, 'decresc')]->[]
+early_fills              Violins I          86.000 kept [dyn] CHANGED: dyn mf->f
+early_fills              Violins I          68.000 kept [hairpins] CHANGED: hairpins near [(68.0, 'cresc')]->[(68.0, 'cresc'), (69.0, 'decresc')]
+early_fills              Violins I          84.000 kept [dyn] CHANGED: dyn mf->f
+early_fills              Violins I         240.000 kept [hairpins] CHANGED: hairpins near [(240.0, 'cresc')]->[(240.0, 'cresc'), (241.0, 'decresc')]
+early_fills              Horn 3            204.000 kept [prevfar] CHANGED: prevfar (87.0, (51,))->(87.0, (60,))
+early_fills              Violins II div    108.000 DROPPED [pitch] CHANGED: pitch [65]->[68]
+early_fills              Violas div        277.000 MOVED to 279.0 (v600 entry moved: MISSING (v77 [60, 63]))
+leg_leads                Violins I         204.000 kept [dur,next] CHANGED: dur [4.0]->[2.0]; next (208.0, (89,))->(206.0, (85,)); scripts ['tenuto']->['downbow', 'tenuto']
+leg_leads                Violins I         208.000 kept [next,prevfar] CHANGED: prevfar (204.0, (85,))->(206.0, (85,)); next (210.0, (88,))->(210.0, (88, 92))
+leg_leads                Violins I         210.000 DROPPED [pitch] CHANGED: pitch [88]->[88, 92]; dur [2.0]->[2.0, 2.0]
+leg_leads                Violins I         262.000 DROPPED [prev] CHANGED: prev (261.0, (84,))->(261.8333, (92,)); scripts []->['downbow']; hairpins near []->[(261.0, 'cresc')]
+leg_leads                Violins I         192.000 kept [dur,next] CHANGED: dur [1.0]->[1.5]; next (193.0, (94,))->(193.5, (90,))
+leg_leads                Violins I         196.000 kept [hairpins] CHANGED: hairpins near []->[(195.0, 'decresc')]
+leg_leads                Violins I         247.000 kept [next] CHANGED: next (249.0, (75,))->(249.0, (63,))
+leg_leads                Violoncellos      204.000 DROPPED [prev] CHANGED: prev (203.0, (53,))->(202.0, (54,))
+leg_leads                Violoncellos      180.000 DROPPED [pitch] CHANGED: pitch [51]->[39]; next (182.0, (49,))->(182.0, (36,))
+leg_leads                Horn 1            193.000 kept [next] CHANGED: next (195.0, (65,))->(195.0, (63,))
+leg_leads                Horn 1            195.000 DROPPED [pitch] CHANGED: pitch [65]->[63]; dur [1.0]->[0.5]; next (196.0, (66,))->(195.5, (65,))
+leg_leads                Horn 1            202.000 kept [dur,next] CHANGED: dur [1.0]->[2.0]; next (203.0, (65,))->(204.0, (65,))
+leg_leads                Violins II        164.000 kept [next] CHANGED: next (168.0, (75,))->(168.0, (77,))
+leg_leads                Violins II         60.000 kept [dur,next] CHANGED: dur [2.0]->[1.0]; next (62.0, (65,))->(61.0, (60,))
+leg_leads                Violins II         68.000 kept [hairpins] CHANGED: hairpins near [(68.0, 'cresc')]->[(68.0, 'cresc'), (69.0, 'decresc')]
+leg_leads                Violins II        254.000 kept [hairpins] CHANGED: hairpins near []->[(254.0, 'decresc')]
+leg_leads                Violins II         71.000 kept [hairpins] CHANGED: hairpins near [(70.0, 'decresc')]->[]
+leg_leads                Violins II        243.000 kept [hairpins] CHANGED: hairpins near [(242.0, 'decresc')]->[]
+leg_leads                Cor anglais       131.500 kept [hairpins] CHANGED: hairpins near []->[(131.0, 'decresc')]
+leg_leads                Bass clarinet      92.500 DROPPED [pitch,prev] CHANGED: pitch [60]->[48]; prev (92.0, (56,))->(92.0, (44,)); next (93.0, (63,))->(93.0, (51,)); dyn mp->p
+leg_leads                Bass clarinet     106.000 DROPPED [pitch,prev] CHANGED: pitch [58]->[46]; prev (105.0, (56,))->(105.0, (44,)); next (107.0, (60,))->(107.0, (48,))
+entry_leads              Violins II         42.000 kept [hairpins] CHANGED: scripts ['tenuto']->['tenuto', 'upbow']; hairpins near []->[(42.0, 'cresc')]
+entry_leads              Violas            140.000 kept [next,prevfar] CHANGED: prevfar (137.6667, (60,))->(137.6667, (54,)); next (144.0, (53,))->(144.0, (49,))
+entry_leads              Violas            277.000 MOVED to 279.0 (v600 entry moved: MISSING (v77 [60, 63]))
+entry_leads              Double basses      60.000 kept [dur,next] CHANGED: dur [2.0]->[1.0]; next (62.0, (34,))->(61.0, (39,))
+entry_leads              Horn 1            226.000 kept [prevfar] CHANGED: prevfar (203.0, (65,))->(210.0, (68,))
+entry_leads              Horn 1            261.000 kept [dyn] CHANGED: dyn p->mf
+entry_leads              Clarinet 2        268.000 DROPPED [pitch] CHANGED: pitch [67]->[73]; dur [3.0]->[1.0]; next (271.0, (68,))->(269.0, (67,))
+entry_leads              Horn 3            204.000 kept [prevfar] CHANGED: prevfar (87.0, (51,))->(87.0, (60,))
+entry_leads              Horns 1-2 a2      261.000 kept [dyn] CHANGED: dyn p->mf
+entry_leads              Violins II div    108.000 DROPPED [pitch] CHANGED: pitch [65]->[68]
+entry_leads              Violas div        277.000 MOVED to 279.0 (v600 entry moved: MISSING (v77 [60, 63]))
+entry_leads              Bassoon 1         229.000 kept [prevfar] CHANGED: prevfar (210.0, (56,))->(210.0, (64,))
+pitch_trims._skip_onsets Clarinet 1        204.000 DROPPED [pitch] CHANGED: pitch [68]->[77]; dur [2.0]->[4.0]; next (206.0, (73,))->(208.0, (77,))
+pitch_trims._skip_onsets Bassoon 2         198.000 DROPPED [pitch] CHANGED: pitch [55]->[43]; prev (196.0, (54,))->(196.0, (42,))
+rebow_fills              Violas            294.100 kept (held lower note unchanged; the added upper note goes to Violas div) CHANGED held [(292.0, 51, 3.0)]->[(292.0, 51, 3.0), (292.0, 56, 3.0)]
+rebow_fills              Violas            296.900 kept (held lower note unchanged; the added upper note goes to Violas div) CHANGED held [(295.0, 51, 3.0)]->[(295.0, 51, 3.0), (295.0, 56, 3.0)]
+rebow_fills              Violas            299.200 kept (held lower note unchanged; the added upper note goes to Violas div) CHANGED held [(298.0, 51, 3.0)]->[(298.0, 51, 3.0), (298.0, 56, 3.0)]
+rebow_fills              Violas            301.500 kept (held lower note unchanged; the added upper note goes to Violas div) CHANGED held [(301.0, 51, 3.0)]->[(301.0, 51, 3.0), (301.0, 56, 3.0)]
+rebow_fills              Violas            303.100 kept (held lower note unchanged; the added upper note goes to Violas div) CHANGED held [(301.0, 51, 3.0)]->[(301.0, 51, 3.0), (301.0, 56, 3.0)]

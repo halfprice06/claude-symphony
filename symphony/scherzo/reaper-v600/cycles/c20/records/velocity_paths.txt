@@ -1,0 +1,4 @@
+- 1st Violins KS Master: Detache groups have no MidiVelocity (level by CC11 MidiController, like Sus MAX); StacSl row: MidiVelocity on 12 of 578 groups; Staccatissimo RRx9: MidiVelocity on all 9 (coordinator note, finale c22 harp).
+- Celli KS Master LegatoSpeed: GROUP_SUBSTRING 'TLeg' matches 722 groups, SUS_GROUP_SUBSTRING 'V1s' 52 (no case mismatch, finale c23 note); RELEASE 443.
+- Timpani Flt Sht velocity layers 93-98, 99-104, 105-110, 111-115, 116-120: bar 335 strokes set 98 / 104 / 106 / 110.
+- 1st Violins Sus MAX regions are all velocity 1-127 (no layers): VEL_SET 999 = 112 is expected to change little.

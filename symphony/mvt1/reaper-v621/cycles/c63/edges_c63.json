@@ -1,0 +1,932 @@
+{
+"edges": [
+{
+"track": "Flute 1",
+"family": "wind",
+"qa": 271.0,
+"qb": 271.704,
+"bar": 68,
+"db": -4.81,
+"ins": 2.29,
+"ms": 335,
+"tag": "printed sudden/step"
+},
+{
+"track": "Flute 1",
+"family": "wind",
+"qa": 460.518,
+"qb": 464.625,
+"bar": 116,
+"db": 8.86,
+"ins": 7.28,
+"ms": 1809,
+"tag": "printed hairpin"
+},
+{
+"track": "Flute 1",
+"family": "wind",
+"qa": 552.384,
+"qb": 555.75,
+"bar": 139,
+"db": 5.95,
+"ins": 2.68,
+"ms": 1603,
+"tag": "new"
+},
+{
+"track": "Flute 1",
+"family": "wind",
+"qa": 672.546,
+"qb": 675.927,
+"bar": 169,
+"db": 6.41,
+"ins": 5.97,
+"ms": 1610,
+"tag": "printed hairpin"
+},
+{
+"track": "Flute 2",
+"family": "wind",
+"qa": 460.541,
+"qb": 463.764,
+"bar": 116,
+"db": 5.94,
+"ins": 5.94,
+"ms": 1400,
+"tag": "printed hairpin"
+},
+{
+"track": "Flute 2",
+"family": "wind",
+"qa": 552.894,
+"qb": 555.792,
+"bar": 139,
+"db": 5.99,
+"ins": 3.9,
+"ms": 1380,
+"tag": "printed hairpin"
+},
+{
+"track": "Flute 2",
+"family": "wind",
+"qa": 672.546,
+"qb": 675.906,
+"bar": 169,
+"db": 6.41,
+"ins": 6.02,
+"ms": 1600,
+"tag": "printed hairpin"
+},
+{
+"track": "Oboe 1",
+"family": "wind",
+"qa": 159.73,
+"qb": 159.835,
+"bar": 40,
+"db": 1.82,
+"ins": 1.82,
+"ms": 50,
+"tag": "printed hairpin"
+},
+{
+"track": "Oboe 1",
+"family": "wind",
+"qa": 552.894,
+"qb": 554.532,
+"bar": 139,
+"db": 2.97,
+"ins": 2.65,
+"ms": 780,
+"tag": "printed hairpin"
+},
+{
+"track": "Oboe 1",
+"family": "wind",
+"qa": 580.117,
+"qb": 582.001,
+"bar": 146,
+"db": -6.0,
+"ins": 5.21,
+"ms": 960,
+"tag": "printed hairpin"
+},
+{
+"track": "Oboe 1",
+"family": "wind",
+"qa": 635.206,
+"qb": 635.957,
+"bar": 159,
+"db": 2.24,
+"ins": 1.67,
+"ms": 500,
+"tag": "printed hairpin"
+},
+{
+"track": "Oboe 1",
+"family": "wind",
+"qa": 672.567,
+"qb": 675.864,
+"bar": 169,
+"db": 5.92,
+"ins": 5.65,
+"ms": 1570,
+"tag": "printed hairpin"
+},
+{
+"track": "Clarinet 1",
+"family": "wind",
+"qa": 243.788,
+"qb": 243.912,
+"bar": 61,
+"db": -7.29,
+"ins": 7.26,
+"ms": 70,
+"tag": "printed sudden/step"
+},
+{
+"track": "Clarinet 1",
+"family": "wind",
+"qa": 250.348,
+"qb": 251.873,
+"bar": 63,
+"db": 2.99,
+"ins": 2.99,
+"ms": 770,
+"tag": "printed hairpin"
+},
+{
+"track": "Clarinet 1",
+"family": "wind",
+"qa": 552.957,
+"qb": 554.554,
+"bar": 139,
+"db": 3.0,
+"ins": 2.77,
+"ms": 760,
+"tag": "printed hairpin"
+},
+{
+"track": "Clarinet 1",
+"family": "wind",
+"qa": 625.988,
+"qb": 627.469,
+"bar": 157,
+"db": 3.0,
+"ins": 2.97,
+"ms": 750,
+"tag": "printed hairpin"
+},
+{
+"track": "Clarinet 1",
+"family": "wind",
+"qa": 644.58,
+"qb": 647.722,
+"bar": 162,
+"db": -8.97,
+"ins": 4.19,
+"ms": 1920,
+"tag": "printed hairpin"
+},
+{
+"track": "Clarinet 1",
+"family": "wind",
+"qa": 672.609,
+"qb": 675.927,
+"bar": 169,
+"db": 5.82,
+"ins": 5.57,
+"ms": 1580,
+"tag": "printed hairpin"
+},
+{
+"track": "Clarinet 2",
+"family": "wind",
+"qa": 553.021,
+"qb": 556.002,
+"bar": 139,
+"db": 4.87,
+"ins": 4.67,
+"ms": 1420,
+"tag": "printed hairpin"
+},
+{
+"track": "Clarinet 2",
+"family": "wind",
+"qa": 672.567,
+"qb": 675.927,
+"bar": 169,
+"db": 5.91,
+"ins": 5.72,
+"ms": 1600,
+"tag": "printed hairpin"
+},
+{
+"track": "Bassoon 1",
+"family": "wind",
+"qa": 463.814,
+"qb": 464.05,
+"bar": 116,
+"db": 3.11,
+"ins": 1.53,
+"ms": 104,
+"tag": "printed hairpin"
+},
+{
+"track": "Bassoon 1",
+"family": "wind",
+"qa": 535.758,
+"qb": 535.863,
+"bar": 134,
+"db": -2.87,
+"ins": 1.72,
+"ms": 50,
+"tag": "printed sudden/step"
+},
+{
+"track": "Bassoon 2",
+"family": "wind",
+"qa": 243.788,
+"qb": 243.912,
+"bar": 61,
+"db": -2.91,
+"ins": 2.91,
+"ms": 70,
+"tag": "printed sudden/step"
+},
+{
+"track": "Contrabassoon",
+"family": "wind",
+"qa": 634.726,
+"qb": 635.957,
+"bar": 159,
+"db": 2.73,
+"ins": 2.59,
+"ms": 740,
+"tag": "printed hairpin"
+},
+{
+"track": "Horn 2",
+"family": "brass",
+"qa": 659.585,
+"qb": 660.903,
+"bar": 165,
+"db": -2.98,
+"ins": 2.26,
+"ms": 890,
+"tag": "new"
+},
+{
+"track": "Horn 3",
+"family": "brass",
+"qa": 47.928,
+"qb": 47.982,
+"bar": 12,
+"db": 12.9,
+"ins": 12.9,
+"ms": 70,
+"tag": "printed sudden/step"
+},
+{
+"track": "Horn 3",
+"family": "brass",
+"qa": 243.753,
+"qb": 243.877,
+"bar": 61,
+"db": -2.08,
+"ins": 2.08,
+"ms": 70,
+"tag": "printed sudden/step"
+},
+{
+"track": "Horn 3",
+"family": "brass",
+"qa": 492.178,
+"qb": 492.625,
+"bar": 124,
+"db": -2.82,
+"ins": 2.82,
+"ms": 268,
+"tag": "printed hairpin"
+},
+{
+"track": "Horn 4",
+"family": "brass",
+"qa": 243.735,
+"qb": 243.859,
+"bar": 61,
+"db": -5.06,
+"ins": 5.06,
+"ms": 70,
+"tag": "printed sudden/step"
+},
+{
+"track": "Trumpet 2",
+"family": "brass",
+"qa": 643.88,
+"qb": 645.014,
+"bar": 161,
+"db": -3.0,
+"ins": 2.9,
+"ms": 680,
+"tag": "printed sudden/step"
+},
+{
+"track": "Harp",
+"family": "harp",
+"qa": 234.61,
+"qb": 235.506,
+"bar": 59,
+"db": 1.87,
+"ins": 1.87,
+"ms": 480,
+"tag": "new"
+},
+{
+"track": "Harp",
+"family": "harp",
+"qa": 251.813,
+"qb": 251.953,
+"bar": 63,
+"db": -2.48,
+"ins": 2.48,
+"ms": 70,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violins I",
+"family": "string",
+"qa": 127.243,
+"qb": 128.125,
+"bar": 32,
+"db": 5.62,
+"ins": 1.74,
+"ms": 420,
+"tag": "printed hairpin"
+},
+{
+"track": "Violins I",
+"family": "string",
+"qa": 159.688,
+"qb": 159.814,
+"bar": 40,
+"db": -4.59,
+"ins": 3.02,
+"ms": 60,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violins I",
+"family": "string",
+"qa": 651.924,
+"qb": 653.474,
+"bar": 163,
+"db": 2.98,
+"ins": 2.98,
+"ms": 930,
+"tag": "new"
+},
+{
+"track": "Violins I",
+"family": "string",
+"qa": 675.25,
+"qb": 676.515,
+"bar": 169,
+"db": 3.75,
+"ins": 2.46,
+"ms": 602,
+"tag": "printed hairpin"
+},
+{
+"track": "Violins II",
+"family": "string",
+"qa": 159.835,
+"qb": 159.94,
+"bar": 40,
+"db": 2.1,
+"ins": 2.1,
+"ms": 50,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violins II",
+"family": "string",
+"qa": 167.752,
+"qb": 168.403,
+"bar": 42,
+"db": -2.5,
+"ins": 2.5,
+"ms": 310,
+"tag": "printed hairpin"
+},
+{
+"track": "Violins II",
+"family": "string",
+"qa": 303.603,
+"qb": 303.729,
+"bar": 76,
+"db": -5.88,
+"ins": 5.88,
+"ms": 60,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violins II",
+"family": "string",
+"qa": 483.875,
+"qb": 483.931,
+"bar": 121,
+"db": -15.91,
+"ins": 2.39,
+"ms": 30,
+"tag": "new"
+},
+{
+"track": "Violins II",
+"family": "string",
+"qa": 643.53,
+"qb": 643.764,
+"bar": 161,
+"db": -3.56,
+"ins": 3.56,
+"ms": 140,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violas",
+"family": "string",
+"qa": 47.782,
+"qb": 47.828,
+"bar": 12,
+"db": 6.61,
+"ins": 6.1,
+"ms": 60,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violas",
+"family": "string",
+"qa": 80.245,
+"qb": 83.584,
+"bar": 21,
+"db": -5.96,
+"ins": 3.42,
+"ms": 1590,
+"tag": "printed hairpin"
+},
+{
+"track": "Violas",
+"family": "string",
+"qa": 270.255,
+"qb": 271.998,
+"bar": 68,
+"db": 5.01,
+"ins": 5.01,
+"ms": 830,
+"tag": "printed hairpin"
+},
+{
+"track": "Violas",
+"family": "string",
+"qa": 303.729,
+"qb": 303.876,
+"bar": 76,
+"db": -2.94,
+"ins": 2.93,
+"ms": 70,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violas",
+"family": "string",
+"qa": 383.676,
+"qb": 384.558,
+"bar": 96,
+"db": 5.85,
+"ins": 3.84,
+"ms": 420,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violas",
+"family": "string",
+"qa": 463.0,
+"qb": 463.903,
+"bar": 116,
+"db": 3.71,
+"ins": 2.94,
+"ms": 390,
+"tag": "printed hairpin"
+},
+{
+"track": "Violas",
+"family": "string",
+"qa": 483.689,
+"qb": 484.191,
+"bar": 121,
+"db": 6.32,
+"ins": 5.89,
+"ms": 270,
+"tag": "printed hairpin"
+},
+{
+"track": "Violas",
+"family": "string",
+"qa": 572.635,
+"qb": 575.554,
+"bar": 144,
+"db": 4.88,
+"ins": 3.77,
+"ms": 1390,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violas",
+"family": "string",
+"qa": 616.577,
+"qb": 617.585,
+"bar": 155,
+"db": 1.76,
+"ins": 1.76,
+"ms": 540,
+"tag": "new"
+},
+{
+"track": "Violoncellos",
+"family": "string",
+"qa": 47.759,
+"qb": 47.813,
+"bar": 12,
+"db": 7.51,
+"ins": 7.51,
+"ms": 70,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violoncellos",
+"family": "string",
+"qa": 182.319,
+"qb": 182.454,
+"bar": 46,
+"db": -4.74,
+"ins": 4.74,
+"ms": 70,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violoncellos",
+"family": "string",
+"qa": 269.568,
+"qb": 273.111,
+"bar": 68,
+"db": -5.39,
+"ins": 3.41,
+"ms": 1780,
+"tag": "new"
+},
+{
+"track": "Violoncellos",
+"family": "string",
+"qa": 285.564,
+"qb": 285.69,
+"bar": 72,
+"db": 8.5,
+"ins": 8.5,
+"ms": 60,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violoncellos",
+"family": "string",
+"qa": 405.138,
+"qb": 407.007,
+"bar": 102,
+"db": 8.07,
+"ins": 7.77,
+"ms": 890,
+"tag": "printed hairpin"
+},
+{
+"track": "Violoncellos",
+"family": "string",
+"qa": 411.585,
+"qb": 412.125,
+"bar": 103,
+"db": 2.4,
+"ins": 1.85,
+"ms": 257,
+"tag": "printed hairpin"
+},
+{
+"track": "Violoncellos",
+"family": "string",
+"qa": 483.764,
+"qb": 484.006,
+"bar": 121,
+"db": 4.18,
+"ins": 2.8,
+"ms": 130,
+"tag": "printed hairpin"
+},
+{
+"track": "Violoncellos",
+"family": "string",
+"qa": 503.862,
+"qb": 503.957,
+"bar": 126,
+"db": 9.11,
+"ins": 9.11,
+"ms": 60,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violoncellos",
+"family": "string",
+"qa": 535.59,
+"qb": 535.695,
+"bar": 134,
+"db": -1.68,
+"ins": 1.68,
+"ms": 50,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violoncellos",
+"family": "string",
+"qa": 551.643,
+"qb": 552.264,
+"bar": 138,
+"db": 6.03,
+"ins": 2.75,
+"ms": 296,
+"tag": "new"
+},
+{
+"track": "Violoncellos",
+"family": "string",
+"qa": 571.5,
+"qb": 571.627,
+"bar": 143,
+"db": 5.52,
+"ins": 5.52,
+"ms": 60,
+"tag": "printed sudden/step"
+},
+{
+"track": "Violoncellos",
+"family": "string",
+"qa": 634.946,
+"qb": 635.948,
+"bar": 159,
+"db": 2.83,
+"ins": 1.99,
+"ms": 620,
+"tag": "printed hairpin"
+},
+{
+"track": "Double basses",
+"family": "string",
+"qa": 7.1,
+"qb": 7.55,
+"bar": 2,
+"db": -2.46,
+"ins": 2.19,
+"ms": 540,
+"tag": "printed hairpin"
+},
+{
+"track": "Double basses",
+"family": "string",
+"qa": 7.925,
+"qb": 8.925,
+"bar": 2,
+"db": 5.1,
+"ins": 5.1,
+"ms": 1200,
+"tag": "new"
+},
+{
+"track": "Double basses",
+"family": "string",
+"qa": 10.158,
+"qb": 12.0,
+"bar": 3,
+"db": -7.01,
+"ins": 4.46,
+"ms": 2210,
+"tag": "printed hairpin"
+},
+{
+"track": "Double basses",
+"family": "string",
+"qa": 47.844,
+"qb": 47.89,
+"bar": 12,
+"db": 4.95,
+"ins": 4.95,
+"ms": 60,
+"tag": "printed sudden/step"
+},
+{
+"track": "Double basses",
+"family": "string",
+"qa": 285.816,
+"qb": 285.942,
+"bar": 72,
+"db": 3.83,
+"ins": 3.83,
+"ms": 60,
+"tag": "printed sudden/step"
+},
+{
+"track": "Double basses",
+"family": "string",
+"qa": 481.677,
+"qb": 483.445,
+"bar": 121,
+"db": 2.98,
+"ins": 2.98,
+"ms": 920,
+"tag": "printed hairpin"
+},
+{
+"track": "Double basses",
+"family": "string",
+"qa": 571.837,
+"qb": 571.942,
+"bar": 143,
+"db": 2.81,
+"ins": 2.81,
+"ms": 50,
+"tag": "printed sudden/step"
+},
+{
+"track": "Double basses",
+"family": "string",
+"qa": 632.626,
+"qb": 635.894,
+"bar": 159,
+"db": 5.95,
+"ins": 5.94,
+"ms": 1720,
+"tag": "printed hairpin"
+},
+{
+"track": "Violins I f62",
+"family": "string",
+"qa": 238.661,
+"qb": 243.94,
+"bar": 60,
+"db": 10.09,
+"ins": 4.15,
+"ms": 2866,
+"tag": "printed hairpin"
+}
+],
+"first": [
+[
+"Flute 1",
+270.885,
+1.77
+],
+[
+"Flute 1",
+271.187,
+2.29
+],
+[
+"Flute 1",
+271.437,
+2.05
+],
+[
+"Flute 2",
+553.895,
+1.52
+],
+[
+"Oboe 1",
+159.645,
+1.82
+],
+[
+"Clarinet 1",
+646.853,
+1.74
+],
+[
+"Bassoon 1",
+463.954,
+1.67
+],
+[
+"Horn 3",
+491.95,
+2.28
+],
+[
+"Trumpet 2",
+643.917,
+1.54
+],
+[
+"Harp",
+251.5,
+2.48
+],
+[
+"Violins I",
+127.187,
+1.78
+],
+[
+"Violins I",
+127.5,
+1.73
+],
+[
+"Violins I",
+127.874,
+1.57
+],
+[
+"Violins I",
+159.5,
+3.02
+],
+[
+"Violins I",
+159.75,
+2.28
+],
+[
+"Violins I",
+676.0,
+2.46
+],
+[
+"Violins I",
+676.0,
+2.46
+],
+[
+"Violins II",
+167.748,
+2.41
+],
+[
+"Violins II",
+643.125,
+3.34
+],
+[
+"Violas",
+383.559,
+3.84
+],
+[
+"Violas",
+384.125,
+2.83
+],
+[
+"Violas",
+463.5,
+3.01
+],
+[
+"Violas",
+483.926,
+5.89
+],
+[
+"Violas",
+483.926,
+5.89
+],
+[
+"Violoncellos",
+411.71,
+1.84
+],
+[
+"Violoncellos",
+483.75,
+2.78
+],
+[
+"Violoncellos",
+551.769,
+2.73
+],
+[
+"Double basses",
+7.925,
+1.63
+],
+[
+"Double basses",
+571.5,
+2.88
+]
+]
+}

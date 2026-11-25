@@ -1,0 +1,110 @@
+{
+"strings": {
+"n": 3,
+"median_t20": 0.437,
+"median_t10": 0.219,
+"min_d03": 10.1,
+"median_d03": 14.8
+},
+"winds": {
+"n": 4,
+"median_t20": 0.27,
+"median_t10": 0.114,
+"min_d03": 14.7,
+"median_d03": 19.8
+},
+"brass": {
+"n": 6,
+"median_t20": 0.277,
+"median_t10": 0.157,
+"min_d03": 19.3,
+"median_d03": 21.0
+},
+"harp": {
+"n": 3,
+"median_t20": 1.769,
+"median_t10": 0.284,
+"min_d03": 3.1,
+"median_d03": 10.3
+},
+"timpani": {
+"n": 4,
+"median_t20": 2.498,
+"median_t10": 0.355,
+"min_d03": 3.7,
+"median_d03": 9.2
+}
+}
+master tutti stops: [{'t': 346.04, 'L0': -61.0, 'd015': 6.6, 'd03': 13.6, 'd06': 25.4, 't10': 0.275, 't20': 0.465}]
+{
+"family_minus_strings": {
+"whole": {
+"winds": -2.0,
+"brass": -2.2,
+"harp": -25.6,
+"timpani": -22.1
+},
+"b53-60": {
+"winds": -7.0,
+"brass": -5.2,
+"harp": -19.6,
+"timpani": -43.7
+},
+"b61-62": {
+"winds": -0.4,
+"brass": -1.6,
+"harp": -323.9,
+"timpani": -21.7
+},
+"b63-64": {
+"winds": -22.6,
+"brass": 11.1,
+"harp": -308.5,
+"timpani": -76.4
+},
+"b79-81": {
+"winds": 0.2,
+"brass": -5.1,
+"harp": -50.8,
+"timpani": -21.7
+}
+},
+"solo_margins": {
+"Horn 1 b7-14": 8.5,
+"Oboe 1 b15-16": 9.3,
+"Violin I solo b17-22": -2.5,
+"Bass clarinet b31-36": 3.3,
+"Flute 1 b37-40": 7.8,
+"Cor anglais b41-44": 4.7,
+"Cor anglais b47-50": 7.5,
+"Oboe 1 b45-47": 5.9,
+"Trombone 1 b63-64 over strings+btbn": 11.0,
+"Horn 1 b67-70": 8.4,
+"Clarinet 1 b85-89": 4.6,
+"Clarinet 1 over CA b87-88": 7.2,
+"Violins I over celli b89-91": 6.1,
+"Harp harmonics over Vc div+Cb b83-86": -5.1,
+"Timpani over soft strings b84-85": -5.7,
+"horns minus strings b79-81": -5.1,
+"harp minus bassoons b7-14": -9.3
+},
+"timp_share_30_150_pct": {
+"b1-3": 7.9,
+"168-172": 23.2,
+"b60-62": 3.6,
+"b67-70": 4.1,
+"b78-81": 2.3,
+"b84-85": 24.0
+},
+"master_shares": {
+"100-250": -8.01,
+"200-500": -5.08,
+"500-2000": -3.68,
+"2-6k": -10.21,
+"6-20k": -29.64
+},
+"side_mid_db": -5.77,
+"corr_lt250": 0.702,
+"mush_315_500_re_1k_b7_30": 5.5,
+"hi_2_4k_re_1k_b7_30": -10.8
+}

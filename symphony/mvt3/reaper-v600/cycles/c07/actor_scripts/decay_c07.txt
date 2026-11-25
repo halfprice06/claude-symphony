@@ -1,0 +1,17 @@
+master cut-offs (qn): [4.93, 20.78, 101.25, 373.0, 661.0, 1112.47]
+  -10 s: [np.float64(0.25), np.float64(0.26), np.float64(0.35), np.float64(0.4), np.float64(0.43), np.float64(0.29)]
+  -20 s: [np.float64(0.48), np.float64(0.51), np.float64(0.52), np.float64(0.72), np.float64(0.72), np.float64(0.48)]
+  drop@0.3: [np.float32(12.1), np.float32(10.3), np.float32(7.8), np.float32(4.5), np.float32(2.2), np.float32(11.3)]
+  median -20: 0.52
+  soft end Violins I (+R Strings) -10 s: [np.float64(0.25), np.float64(0.75), np.float64(0.22)]
+  soft end Violins II (+R Strings) -10 s: [np.float64(0.31), np.float64(0.26), np.float64(0.3)]
+  soft end Violas (+R Strings) -10 s: [np.float64(0.36), np.float64(0.29), np.float64(1.01)]
+master shares: {'100-250': np.float32(-8.5), '2000-6000': np.float32(-9.5), '6000-20000': np.float32(-25.2)}
+  cut    4.93: -20 0.48 s, -60 None s, late slope None s; tail 60-250 Hz share -4.8 dB
+  cut   20.78: -20 0.51 s, -60 None s, late slope None s; tail 60-250 Hz share -6.8 dB
+  cut  101.25: -20 0.52 s, -60 None s, late slope None s; tail 60-250 Hz share -3.2 dB
+  cut  373.00: -20 0.72 s, -60 None s, late slope None s; tail 60-250 Hz share -6.4 dB
+  cut  661.00: -20 0.72 s, -60 None s, late slope None s; tail 60-250 Hz share -6.4 dB
+  cut 1112.47: -20 0.48 s, -60 1.43 s, late slope 0.95 s; tail 60-250 Hz share -8.3 dB
+  RT60 estimate (final cut-off, 2 x T(-5..-35)): 1.22
+  return minus dry energy: -12.5 dB

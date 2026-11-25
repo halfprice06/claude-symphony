@@ -1,0 +1,44 @@
+== heads (A, B)
+median  head  +1.5 hole  -7.2 low -13.1 eighth1  +0.9 f100/nb  +3.0 2-5k/nb  +7.3 peak +0.097 s
+median  head  +0.3 hole  -8.5 low -13.9 eighth1  -0.9 f100/nb  +1.6 2-5k/nb  +4.6 peak +0.100 s
+== heads detail
+   39.0 head  +2.0 hole  -7.3 low -12.1 eighth1  +1.8 f100/nb  +1.3 2-5k/nb  +5.9 peak +0.155 s
+   51.0 head  +5.3 hole  -3.2 low -13.3 eighth1  +0.4 f100/nb  +4.6 2-5k/nb +11.0 peak +0.032 s
+   69.0 head  +0.5 hole  -7.0 low -15.9 eighth1  +1.0 f100/nb  +4.6 2-5k/nb  +8.2 peak +0.041 s
+   75.0 head  +0.9 hole  -8.3 low -12.9 eighth1  +0.8 f100/nb  +0.7 2-5k/nb  +6.5 peak +0.153 s
+median  head  +1.5 hole  -7.2 low -13.1 eighth1  +0.9 f100/nb  +3.0 2-5k/nb  +7.3 peak +0.097 s
+  759.0 head  -1.4 hole -10.0 low -14.8 eighth1  -1.0 f100/nb  -2.1 2-5k/nb  +2.4 peak +0.157 s
+  771.0 head  +4.2 hole  -4.4 low -13.0 eighth1  -0.8 f100/nb  +6.4 2-5k/nb  +9.4 peak +0.035 s
+  789.0 head  -5.1 hole -12.1 low -19.6 eighth1  -4.6 f100/nb  +2.2 2-5k/nb  +3.7 peak +0.044 s
+  795.0 head  +1.9 hole  -7.0 low -12.3 eighth1  +2.2 f100/nb  +1.0 2-5k/nb  +5.4 peak +0.155 s
+== accents (C)
+Violins I 299.0-362.0: n 6  first100 over nb median +0.6 (max +8.3, over +3: 2)  peak 0.153 s  -6 dB at -31 ms
+Violins II 299.0-362.0: n 5  first100 over nb median -1.1 (max +4.8, over +3: 1)  peak 0.238 s  -6 dB at -39 ms
+Cor anglais 299.0-362.0: n 6  first100 over nb median +1.1 (max +1.6, over +3: 0)  peak 0.211 s  -6 dB at -55 ms
+Clarinet 2 299.0-362.0: n 5  first100 over nb median -1.4 (max +4.6, over +3: 1)  peak 0.354 s  -6 dB at -101 ms
+Violas 299.0-362.0: no accents
+== downbeats (C)
+Violins I 312.0-360.0: downbeat - beats 2/3 median +0.4 dB
+Violins II 312.0-360.0: downbeat - beats 2/3 median +0.7 dB
+Cor anglais 312.0-360.0: downbeat - beats 2/3 median -0.1 dB
+Clarinet 2 312.0-360.0: downbeat - beats 2/3 median +1.1 dB
+Violas 312.0-360.0: downbeats -73.8  beats 2-3 -31.9 dB
+== rr (D)
+   264.0  -48.4    267.0  -46.3    270.0  -50.1    273.0  -48.5    276.0  -46.2    279.0  -50.3    282.0  -48.4    285.0  -45.9    288.0  -50.1    291.0  -47.1    294.0  -42.7
+   264.0  -50.2    267.0  -48.5    270.0  -51.8    273.0  -48.7    276.0  -48.5    279.0  -51.8    282.0  -48.6    285.0  -48.7    288.0  -51.9    291.0  -47.3    294.0  -38.4
+== soft heads (E, F)
+  Violins I   528.0: -12 dB at +111 ms, -6 dB at +236 ms, max -36.8 dB
+  Violins I   576.0: -12 dB at +110 ms, -6 dB at +295 ms, max -45.2 dB
+  Violins I   603.0: -12 dB at +79 ms, -6 dB at +184 ms, max -43.3 dB
+  Violins II   672.0: -12 dB at -304 ms, -6 dB at -289 ms, max -44.5 dB
+  Violins II   708.0: -12 dB at +63 ms, -6 dB at +148 ms, max -48.5 dB
+  Violas   708.0: -12 dB at +28 ms, -6 dB at +258 ms, max -48.4 dB
+  Violoncellos   504.0: -12 dB at +37 ms, -6 dB at +92 ms, max -34.0 dB
+  Violoncellos   564.0: -12 dB at -33 ms, -6 dB at +127 ms, max -37.3 dB
+  Violins II  1068.0: -12 dB at +132 ms, -6 dB at +207 ms, max -43.6 dB
+  Violas  1020.0: -12 dB at -57 ms, -6 dB at +213 ms, max -49.3 dB
+  Violoncellos  1044.0: -12 dB at +53 ms, -6 dB at +228 ms, max -48.9 dB
+  Violoncellos  1071.0: -12 dB at +102 ms, -6 dB at +237 ms, max -50.6 dB
+== fig bar 23 (A)
+bar 23 (qn 67.0): 78->79 17.7, 79->81 4.8, 81->83 7.1, 83->84 9.2
+bar 263 (qn 787.0): 78->79 17.6, 79->81 5.4, 81->83 4.5, 83->84 20.3

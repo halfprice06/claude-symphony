@@ -1,0 +1,12 @@
+cycles/c52/render: corr <250 0.589 250-5k 0.566 >5k 0.495 side/mid -5.53 dB; t-20 at stops [np.float64(0.72), np.float64(0.25), None, np.float64(0.26)]
+cycles/c51/render: corr <250 0.563 250-5k 0.483 >5k 0.404 side/mid -4.66 dB; t-20 at stops [np.float64(0.67), np.float64(0.26), None, np.float64(0.28)]
+  seat Trumpet 1          R-L +2.00 -> +4.00 dB
+  seat Trumpet 2          R-L +1.41 -> +3.70 dB
+  seat Trumpet 3          R-L +1.74 -> +4.27 dB
+  seat Trombone 1         R-L +3.96 -> +4.47 dB
+  seat Trombone 2         R-L +4.75 -> +5.43 dB
+  seat Bass trombone      R-L +4.17 -> +5.38 dB
+  seat Violoncellos       R-L +4.21 -> +4.79 dB
+  seat Horns a2           R-L -4.16 -> -4.51 dB
+  seat Trumpets a2        R-L +1.34 -> +3.64 dB
+  seat R Brass            R-L -2.96 -> -2.00 dB

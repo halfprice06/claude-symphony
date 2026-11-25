@@ -1,0 +1,60 @@
+Violins I: 245 monophonic legato joins
+  molto cantabile 220-244 (17 joins)
+    main         window med   84 p75  120 p90  122 ms | cross med   -8 ms | pc med  +37 rSD  61 ms, >60 ms off  35% | cross~pc within 30 ms  53% | dips>=5 0 bursts>=3 6
+  Allegro (234 joins)
+    main         window med   86 p75  110 p90  124 ms | cross med   -3 ms | pc med  +10 rSD  63 ms, >60 ms off  37% | cross~pc within 30 ms  41% | dips>=5 20 bursts>=3 87
+  all (245 joins)
+    main         window med   86 p75  112 p90  124 ms | cross med   -2 ms | pc med  +10 rSD  61 ms, >60 ms off  36% | cross~pc within 30 ms  41% | dips>=5 20 bursts>=3 89
+Violins II: 142 monophonic legato joins
+  molto cantabile 220-244 (17 joins)
+    main         window med   88 p75  120 p90  136 ms | cross med   +8 ms | pc med  +47 rSD  86 ms, >60 ms off  47% | cross~pc within 30 ms  24% | dips>=5 0 bursts>=3 9
+  Allegro (127 joins)
+    main         window med   96 p75  117 p90  144 ms | cross med   +8 ms | pc med   -9 rSD  86 ms, >60 ms off  49% | cross~pc within 30 ms  30% | dips>=5 10 bursts>=3 40
+  all (142 joins)
+    main         window med  101 p75  120 p90  148 ms | cross med  +10 ms | pc med  -11 rSD  87 ms, >60 ms off  49% | cross~pc within 30 ms  30% | dips>=5 10 bursts>=3 45
+Violas: 124 monophonic legato joins
+  Lento 0-56 (3 joins)
+    main         window med  106 p75  149 p90  175 ms | cross med  +24 ms | pc med -173 rSD  12 ms, >60 ms off  33% | cross~pc within 30 ms   0% | dips>=5 0 bursts>=3 1
+    Vla test A   window med   98 p75  145 p90  173 ms | cross med   +3 ms | pc med -176 rSD  16 ms, >60 ms off  33% | cross~pc within 30 ms   0% | dips>=5 0 bursts>=3 1
+    Vla test B   window med   98 p75  145 p90  173 ms | cross med   +3 ms | pc med -176 rSD  16 ms, >60 ms off  33% | cross~pc within 30 ms   0% | dips>=5 0 bursts>=3 1
+  coda 680-728 (12 joins)
+    main         window med  126 p75  138 p90  179 ms | cross med  +37 ms | pc med  -94 rSD 106 ms, >60 ms off  67% | cross~pc within 30 ms  25% | dips>=5 1 bursts>=3 5
+    Vla test A   window med  125 p75  136 p90  185 ms | cross med  +25 ms | pc med  -99 rSD 126 ms, >60 ms off  75% | cross~pc within 30 ms  25% | dips>=5 1 bursts>=3 5
+    Vla test B   window med  124 p75  137 p90  150 ms | cross med  +18 ms | pc med  -81 rSD 102 ms, >60 ms off  67% | cross~pc within 30 ms  25% | dips>=5 1 bursts>=3 5
+  second themes 184-272, 584-664 (52 joins)
+    main         window med   85 p75  123 p90  166 ms | cross med  +17 ms | pc med   -9 rSD 104 ms, >60 ms off  55% | cross~pc within 30 ms  27% | dips>=5 2 bursts>=3 23
+    Vla test A   window med   98 p75  136 p90  178 ms | cross med   -0 ms | pc med  -14 rSD  95 ms, >60 ms off  55% | cross~pc within 30 ms  22% | dips>=5 3 bursts>=3 22
+    Vla test B   window med   90 p75  135 p90  175 ms | cross med  -20 ms | pc med  -32 rSD 105 ms, >60 ms off  57% | cross~pc within 30 ms  20% | dips>=5 5 bursts>=3 20
+  Allegro (109 joins)
+    main         window med   88 p75  128 p90  170 ms | cross med  +17 ms | pc med   -9 rSD 107 ms, >60 ms off  61% | cross~pc within 30 ms  28% | dips>=5 8 bursts>=3 41
+    Vla test A   window med   92 p75  130 p90  173 ms | cross med   -1 ms | pc med  -14 rSD  98 ms, >60 ms off  60% | cross~pc within 30 ms  23% | dips>=5 12 bursts>=3 41
+    Vla test B   window med   90 p75  134 p90  173 ms | cross med  -25 ms | pc med  -27 rSD 111 ms, >60 ms off  59% | cross~pc within 30 ms  22% | dips>=5 17 bursts>=3 39
+  all (124 joins)
+    main         window med   98 p75  133 p90  172 ms | cross med  +23 ms | pc med  -19 rSD 117 ms, >60 ms off  62% | cross~pc within 30 ms  27% | dips>=5 9 bursts>=3 47
+    Vla test A   window med   98 p75  134 p90  177 ms | cross med   +1 ms | pc med  -24 rSD 105 ms, >60 ms off  57% | cross~pc within 30 ms  23% | dips>=5 13 bursts>=3 47
+    Vla test B   window med   94 p75  134 p90  175 ms | cross med  -19 ms | pc med  -33 rSD 117 ms, >60 ms off  60% | cross~pc within 30 ms  22% | dips>=5 18 bursts>=3 45
+  Vla test A: per join minus main: window median +0 ms, crossover median -20 ms, dip median +0.0 dB; new dips >= 5 dB: [(105.0, np.float64(5.5)), (147.0, np.float64(6.4)), (384.0, np.float64(6.9)), (436.0, np.float64(5.8)), (647.5, np.float64(5.2))]
+  Vla test B: per join minus main: window median +0 ms, crossover median -34 ms, dip median +0.0 dB; new dips >= 5 dB: [(105.0, np.float64(5.3)), (119.5, np.float64(6.2)), (147.0, np.float64(8.0)), (384.0, np.float64(6.4)), (436.0, np.float64(6.3)), (439.0, np.float64(5.1)), (589.0, np.float64(5.3)), (621.5, np.float64(5.5)), (654.5, np.float64(5.6))]
+Violoncellos: 263 monophonic legato joins
+  dolce 184-220 + 584-620 (56 joins)
+    main         window med  102 p75  135 p90  169 ms | cross med  +24 ms | pc med  -33 rSD  96 ms, >60 ms off  56% | cross~pc within 30 ms  24% | dips>=5 7 bursts>=3 25
+    Vc test A    window med  104 p75  133 p90  158 ms | cross med  +19 ms | pc med  -31 rSD 102 ms, >60 ms off  59% | cross~pc within 30 ms  24% | dips>=5 7 bursts>=3 20
+    Vc test B    window med  103 p75  134 p90  158 ms | cross med   -7 ms | pc med  -40 rSD  87 ms, >60 ms off  50% | cross~pc within 30 ms  25% | dips>=5 7 bursts>=3 19
+  Lento 0-56 (10 joins)
+    main         window med  207 p75  221 p90  269 ms | cross med  +28 ms | pc med -159 rSD  76 ms, >60 ms off  50% | cross~pc within 30 ms   0% | dips>=5 0 bursts>=3 4
+    Vc test A    window med  195 p75  221 p90  231 ms | cross med  +12 ms | pc med -131 rSD  67 ms, >60 ms off  25% | cross~pc within 30 ms  12% | dips>=5 0 bursts>=3 4
+    Vc test B    window med  198 p75  217 p90  230 ms | cross med  -47 ms | pc med -108 rSD  99 ms, >60 ms off  56% | cross~pc within 30 ms  22% | dips>=5 0 bursts>=3 3
+  coda 696-728 (5 joins)
+    main         window med  112 p75  142 p90  198 ms | cross med  -16 ms | pc med  -72 rSD 129 ms, >60 ms off  60% | cross~pc within 30 ms  20% | dips>=5 0 bursts>=3 4
+    Vc test A    window med  114 p75  142 p90  197 ms | cross med  -22 ms | pc med  -58 rSD 101 ms, >60 ms off  60% | cross~pc within 30 ms  20% | dips>=5 0 bursts>=3 4
+    Vc test B    window med  112 p75  146 p90  198 ms | cross med  -42 ms | pc med  -86 rSD 113 ms, >60 ms off  60% | cross~pc within 30 ms  20% | dips>=5 0 bursts>=3 4
+  Allegro (248 joins)
+    main         window med  106 p75  144 p90  180 ms | cross med   +8 ms | pc med  -24 rSD  97 ms, >60 ms off  53% | cross~pc within 30 ms  26% | dips>=5 24 bursts>=3 95
+    Vc test A    window med  108 p75  146 p90  188 ms | cross med   +4 ms | pc med  -29 rSD  93 ms, >60 ms off  52% | cross~pc within 30 ms  26% | dips>=5 24 bursts>=3 87
+    Vc test B    window med  106 p75  146 p90  177 ms | cross med  -13 ms | pc med  -43 rSD  82 ms, >60 ms off  44% | cross~pc within 30 ms  29% | dips>=5 33 bursts>=3 80
+  all (263 joins)
+    main         window med  108 p75  146 p90  196 ms | cross med   +8 ms | pc med  -27 rSD  96 ms, >60 ms off  53% | cross~pc within 30 ms  25% | dips>=5 24 bursts>=3 103
+    Vc test A    window med  110 p75  148 p90  202 ms | cross med   -0 ms | pc med  -33 rSD  93 ms, >60 ms off  52% | cross~pc within 30 ms  25% | dips>=5 24 bursts>=3 95
+    Vc test B    window med  108 p75  148 p90  186 ms | cross med  -14 ms | pc med  -46 rSD  81 ms, >60 ms off  44% | cross~pc within 30 ms  28% | dips>=5 33 bursts>=3 87
+  Vc test A: per join minus main: window median +0 ms, crossover median -2 ms, dip median +0.0 dB; new dips >= 5 dB: [(160.0, np.float64(5.7)), (369.0, np.float64(5.8)), (372.0, np.float64(5.9)), (418.0, np.float64(6.1))]
+  Vc test B: per join minus main: window median +0 ms, crossover median -9 ms, dip median +0.1 dB; new dips >= 5 dB: [(108.0, np.float64(5.4)), (239.0, np.float64(7.0)), (240.5, np.float64(6.2)), (256.5, np.float64(5.6)), (260.5, np.float64(5.1)), (365.0, np.float64(7.5)), (369.0, np.float64(5.9)), (372.0, np.float64(5.0)), (400.0, np.float64(5.2)), (402.0, np.float64(5.4)), (405.0, np.float64(5.1)), (672.0, np.float64(5.0))]

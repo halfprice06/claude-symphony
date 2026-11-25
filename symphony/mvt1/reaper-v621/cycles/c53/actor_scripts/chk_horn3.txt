@@ -1,0 +1,3 @@
+== horn3: /Users/gooby/.venvs/claude-composes-reaper/bin/python cycles/c53/actor_scripts/post53.py horn3 cycles/c53/render build cycles/c52/render cycles/c52/rendered_build
+  Horn 3 old: 163 -35.8  164 -32.6  165 -38.6  166 -36.7  167 -40.6  168 -49.1
+  Horn 3 new: 163 -35.8  164 -32.6  165 -38.6  166 -36.7  167 -40.6  168 -49.5

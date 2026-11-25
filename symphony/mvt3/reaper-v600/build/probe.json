@@ -1,0 +1,170 @@
+{
+ "_doc": "probe_attacks.py checks for movement IV (score qn). ref: isolated attacks after a rest of 2 qn or more, chosen automatically for the c00 port (two per listed track; fast samples 0.06 s, timpani 0.12, string entries 0.15). opening: tracks sounding at qn 0. legato: robust SD limits of tools/pcx.py on the string sections (Movement I's c42 limits).",
+ "ref": [
+  [
+   "Flute 1",
+   16.0,
+   0.06
+  ],
+  [
+   "Flute 1",
+   36.0,
+   0.06
+  ],
+  [
+   "Oboe 1",
+   16.0,
+   0.06
+  ],
+  [
+   "Oboe 1",
+   36.0,
+   0.06
+  ],
+  [
+   "Clarinet 1",
+   16.0,
+   0.06
+  ],
+  [
+   "Clarinet 1",
+   34.0,
+   0.06
+  ],
+  [
+   "Horn 1",
+   16.0,
+   0.06
+  ],
+  [
+   "Horn 1",
+   32.0,
+   0.06
+  ],
+  [
+   "Trumpet 1",
+   200.0,
+   0.06
+  ],
+  [
+   "Trumpet 1",
+   360.0,
+   0.06
+  ],
+  [
+   "Trombone 1",
+   16.0,
+   0.06
+  ],
+  [
+   "Trombone 1",
+   136.0,
+   0.06
+  ],
+  [
+   "Tuba",
+   16.0,
+   0.06
+  ],
+  [
+   "Tuba",
+   104.0,
+   0.06
+  ],
+  [
+   "Timpani",
+   16.0,
+   0.12
+  ],
+  [
+   "Timpani",
+   24.0,
+   0.12
+  ],
+  [
+   "Harp",
+   264.0,
+   0.06
+  ],
+  [
+   "Harp",
+   488.0,
+   0.06
+  ],
+  [
+   "Violins I",
+   9.0,
+   0.15
+  ],
+  [
+   "Violins I",
+   33.0,
+   0.15
+  ],
+  [
+   "Violoncellos",
+   9.0,
+   0.15
+  ],
+  [
+   "Violoncellos",
+   24.0,
+   0.15
+  ],
+  [
+   "Double basses",
+   16.0,
+   0.15
+  ],
+  [
+   "Double basses",
+   32.0,
+   0.15
+  ]
+ ],
+ "opening": [
+  "Flute 1",
+  "Flute 2",
+  "Oboe 1",
+  "Oboe 2",
+  "Cor anglais",
+  "Clarinet 1",
+  "Clarinet 2",
+  "Bass clarinet",
+  "Bassoon 1",
+  "Bassoon 2",
+  "Contrabassoon",
+  "Horn 1",
+  "Horn 2",
+  "Horn 3",
+  "Horn 4",
+  "Trombone 1",
+  "Trombone 2",
+  "Bass trombone",
+  "Tuba",
+  "Timpani",
+  "Violins I",
+  "Violins II",
+  "Violas",
+  "Violoncellos",
+  "Double basses"
+ ],
+ "legato": [
+  [
+   "Violins I",
+   75
+  ],
+  [
+   "Violins II",
+   75
+  ],
+  [
+   "Violas",
+   90
+  ],
+  [
+   "Violoncellos",
+   80
+  ]
+ ]
+}

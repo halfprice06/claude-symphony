@@ -1,0 +1,42 @@
+== cycles/c28/render
+strokes 0.0-435.0: n 77  peak -35.1 dB  1-5k share -16.7  20-150 share -4.1  peak at +20 ms
+strokes 435.0-672.0: n 9  peak -53.6 dB  1-5k share -21.2  20-150 share -1.7  peak at +55 ms
+strokes 672.0-864.0: n 28  peak -48.5 dB  1-5k share -18.4  20-150 share -5.1  peak at +18 ms
+strokes 864.0-1020.0: n 47  peak -30.5 dB  1-5k share -15.2  20-150 share -4.0  peak at +20 ms
+strokes 1020.0-1128.0: n 13  peak -53.9 dB  1-5k share -19.4  20-150 share -4.2  peak at +30 ms
+  roll   300.00 mean -36.9 dB
+  roll   384.00 mean -45.0 dB
+  roll   612.00 mean -44.6 dB
+  roll   708.00 mean -52.8 dB
+  roll   852.00 mean -45.0 dB
+  roll   906.00 mean -39.0 dB
+  roll   993.00 mean -44.4 dB
+  roll  1005.00 mean -35.1 dB
+== cycles/c18/render
+strokes 0.0-435.0: n 77  peak -31.0 dB  1-5k share -19.3  20-150 share -4.0  peak at +20 ms
+strokes 435.0-672.0: n 9  peak -52.1 dB  1-5k share -35.4  20-150 share -2.1  peak at +55 ms
+strokes 672.0-864.0: n 28  peak -46.5 dB  1-5k share -27.8  20-150 share -3.6  peak at +20 ms
+strokes 864.0-1020.0: n 47  peak -27.6 dB  1-5k share -17.6  20-150 share -3.6  peak at +20 ms
+strokes 1020.0-1128.0: n 13  peak -50.4 dB  1-5k share -29.0  20-150 share -2.9  peak at +20 ms
+  roll   300.00 mean -33.8 dB
+  roll   384.00 mean -41.9 dB
+  roll   612.00 mean -42.4 dB
+  roll   708.00 mean -50.8 dB
+  roll   852.00 mean -41.9 dB
+  roll   906.00 mean -35.2 dB
+  roll   993.00 mean -40.5 dB
+  roll  1005.00 mean -32.3 dB
+== /private/tmp/claude-501/mockup-loop/scherzo-c29-actor/timp
+strokes 0.0-435.0: n 77  peak -35.1 dB  1-5k share -16.7  20-150 share -4.1  peak at +20 ms
+strokes 435.0-672.0: n 9  peak -54.9 dB  1-5k share -35.3  20-150 share -1.8  peak at +55 ms
+strokes 672.0-864.0: n 28  peak -49.5 dB  1-5k share -27.8  20-150 share -3.6  peak at +20 ms
+strokes 864.0-1020.0: n 47  peak -30.5 dB  1-5k share -15.2  20-150 share -4.0  peak at +20 ms
+strokes 1020.0-1128.0: n 13  peak -52.0 dB  1-5k share -29.3  20-150 share -2.8  peak at +20 ms
+  roll   300.00 mean -36.9 dB
+  roll   384.00 mean -45.0 dB
+  roll   612.00 mean -45.4 dB
+  roll   708.00 mean -53.8 dB
+  roll   852.00 mean -44.9 dB
+  roll   906.00 mean -39.0 dB
+  roll   993.00 mean -44.4 dB
+  roll  1005.00 mean -35.1 dB

@@ -1,0 +1,44 @@
+== cycles/c28/render
+-- A #1 fugato (stems, body = score onset +0.03..+0.25 s; peak = loudest 50 ms in +0..+0.2 s)
+Violoncellos 337:-29.1/-27.6 338.5:-35.7/-34.0 339:-31.8/-28.8 339.5:-32.4/-30.6 340:-35.9/-33.7 341:-34.5/-35.0 341.5:-35.5/-32.1 342:-31.9/-30.2 343.5:-32.9/-30.7 344:-32.1/-30.5 345:-33.7/-30.4 346:-35.7/-31.4 347:-38.2/-36.5 348:-39.7/-38.2
+Violas 349:-38.1/-36.6 350.5:-41.3/-38.3 351:-40.0/-37.8 351.5:-38.7/-35.4 352:-42.4/-41.3 353:-37.3/-36.0 353.5:-38.9/-36.6 354:-35.3/-33.9 355.5:-38.7/-35.3 356:-39.1/-36.0 357:-38.5/-36.9 358:-39.8/-37.2 359:-42.7/-41.3
+Violins II 364:-39.5/-38.1 365:-38.6/-37.5 365.5:-40.7/-40.9 366:-29.8/-27.3 367.5:-34.1/-31.8 368:-37.6/-35.7 369:-39.8/-36.7
+celli 348 body (+0.03..+0.4) -40.1
+master 348.0-348.5 -39.0 347.0-347.4 -38.2 348.5-349.2 -35.5
+celli 349.5-351 -45.4 violas -39.6
+master per bar 85-92 -31.4 -33.5 -35.5 -36.0 -33.9 -31.3 -29.5 -28.0
+-- A #2 Clarinet 1 2-5 kHz front (0-80 ms) minus body (+0.15..+0.5 s); master front minus the 0.3 s before
+  414: stem front-body -1.2  master front-pre +1.3
+  422: stem front-body +2.3  master front-pre +4.3
+  626: stem front-body -11.4  master front-pre -5.4
+  250: stem front-body -5.8  master front-pre -4.6
+  282: stem front-body +1.2  master front-pre -0.7
+-- B #1 master 30-100 minus 300-2k Hz
+  bars 1-4: -3.8  (master K -36.3, Cb K re M -7.6)
+  bar 3: -11.3  (master K -33.8, Cb K re M -6.8)
+  bar 11: -12.2  (master K -25.2, Cb K re M -10.0)
+  bar 26: -22.2  (master K -14.0, Cb K re M -12.8)
+  bar 70: -23.2  (master K -22.2, Cb K re M -17.1)
+  bars 97-98: -15.4  (master K -19.4, Cb K re M -9.9)
+  bar 114: -16.9  (master K -21.4, Cb K re M -14.3)
+  bars 27-31: -23.0  (master K -17.5, Cb K re M -12.9)
+  coda 167-170: -22.6  (master K -16.6, Cb K re M -14.2)
+-- B #3 bar 40 K re M per 0.5 qn (timpani / Violins I)
+  157.0: timp -19.7  vln1 -11.3
+  157.5: timp -13.4  vln1 -12.4
+  158.0: timp -12.5  vln1 -10.9
+  158.5: timp -11.9  vln1 -11.2
+  159.0: timp -12.2  vln1 -12.7
+  159.5: timp -8.8  vln1 -12.4
+  160.0: timp -12.3  vln1 -12.8
+-- B #4 bars 27-31 K re M per 2 qn: melody group (Fl1, Ob1, Cl1, Vln I/II, Vla) / f brass (Tpt1-3, Tbn1-2, BTbn, Tuba) / horns
+  104: mel -3.2 brass -8.0 horns -8.3 tbn1 -14.4 master -17.6
+  106: mel -3.1 brass -7.6 horns -9.5 tbn1 -14.6 master -18.3
+  108: mel -3.0 brass -8.0 horns -8.6 tbn1 -16.1 master -17.4
+  110: mel -2.7 brass -7.3 horns -12.7 tbn1 -14.0 master -17.9
+  112: mel -4.2 brass -6.8 horns -7.1 tbn1 -15.3 master -16.8
+  114: mel -3.9 brass -5.6 horns -8.6 tbn1 -14.9 master -18.6
+  116: mel -4.6 brass -6.4 horns -7.6 tbn1 -14.2 master -16.7
+  118: mel -3.8 brass -6.6 horns -7.9 tbn1 -14.2 master -17.5
+  120: mel -3.9 brass -7.8 horns -7.9 tbn1 -16.7 master -16.9
+  122: mel -4.8 brass -6.9 horns -6.9 tbn1 -15.8 master -17.7

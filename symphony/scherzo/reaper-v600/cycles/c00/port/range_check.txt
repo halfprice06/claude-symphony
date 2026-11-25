@@ -1,0 +1,32 @@
+Flute 1          notes  371 range [71, 95] samples (48, 96) ks keys 24-53 OK
+Flute 2          notes  162 range [71, 93] samples (60, 96) ks keys 24-50 OK
+Oboe 1           notes  304 range [66, 88] samples (58, 91) ks keys 24-48 OK
+Oboe 2           notes   36 range [71, 84] samples (58, 91) ks keys 24-48 OK
+Cor anglais      notes  219 range [55, 77] samples (52, 81) ks keys 24-38 OK
+Clarinet 1       notes  255 range [63, 85] samples (50, 105) ks keys 24-48 OK
+Clarinet 2       notes  222 range [51, 72] samples (50, 105) ks keys 24-48 OK
+Bass clarinet    notes   39 range [38, 52] samples (34, 77) ks keys 24-82 OK
+Bassoon 1        notes  225 range [43, 66] samples (34, 74) ks keys 24-88 OK
+Bassoon 2        notes  167 range [40, 61] samples (34, 74) ks keys 24-88 OK
+Contrabassoon    notes   99 range [28, 45] samples (22, 52) ks keys 60-72 OK
+Horn 1           notes  155 range [56, 73] samples (36, 79) ks keys 24-100 OK
+Horn 2           notes  158 range [52, 69] samples (36, 79) ks keys 24-100 OK
+Horn 3           notes  141 range [54, 71] samples (36, 79) ks keys 24-100 OK
+Horn 4           notes   88 range [45, 64] samples (36, 79) ks keys 24-100 OK
+Trumpet 1        notes   63 range [67, 71] samples (52, 89) ks keys 24-50 OK
+Trumpet 2        notes   63 range [63, 67] samples (52, 89) ks keys 24-50 OK
+Trombone 1       notes   26 range [54, 59] samples (28, 79) ks keys 24-115 OK
+Trombone 2       notes   26 range [47, 54] samples (28, 79) ks keys 24-115 OK
+Bass trombone    notes   23 range [40, 47] samples (28, 79) ks keys 24-115 OK
+Tuba             notes   25 range [28, 35] samples (26, 59) ks keys 60-82 OK
+Timpani          notes  182 range [40, 52] samples (36, 105) ks keys 24-28 OK
+Harp             notes  346 range [30, 84] samples (24, 103) ks keys --- OK
+Violins I        notes  513 range [59, 95] samples (55, 101) ks keys 24-50 OK
+Violins II       notes  503 range [55, 85] samples (55, 108) ks keys 24-47 OK
+Violas           notes  463 range [50, 77] samples (48, 93) ks keys 24-44 OK
+Violoncellos     notes  436 range [38, 69] samples (36, 79) ks keys 24-90 OK
+Double basses    notes  311 range [28, 47] samples (24, 59) ks keys 72-89 OK
+Harp harmonics   notes    9 range [64, 71] samples (48, 96) ks keys --- OK
+Violin I solo    notes   19 range [80, 93] samples (55, 101) ks keys 24-50 OK
+Violas div       notes   22 range [61, 71] samples (48, 93) ks keys 24-44 OK
+tracks to check: 0

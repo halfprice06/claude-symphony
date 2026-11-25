@@ -1,0 +1,3 @@
+== pitch: /Users/gooby/.venvs/claude-composes-reaper/bin/python ../../mvt2/reaper-v600/tools/pitch_check.py cycles/c52/render cycles/c52/rendered_build cycles/c53/render cycles/c53/rendered_build --tracks Trumpet 1,Trumpet 2,Trumpet 3,Trombone 1,Trombone 2,Bass trombone
+pitch check: cycles/c52/render -> cycles/c53/render; notes of at least 0.9 qn, CC1 / CC11 within 1.5; reported from 2.5 dB
+0 pitch(es) differ from their track's median change by 2.5 dB or more

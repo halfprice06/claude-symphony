@@ -1,0 +1,1206 @@
+{
+ "Violins I": {
+  "68": {
+   "old": null,
+   "Sa": 40,
+   "Sb": 40,
+   "new": 0.04,
+   "why": "refit by +40 ms"
+  },
+  "70": {
+   "old": null,
+   "Sa": -39,
+   "Sb": -39,
+   "new": -0.04,
+   "why": "refit by -39 ms"
+  },
+  "71": {
+   "old": null,
+   "Sa": -48,
+   "Sb": -48,
+   "new": -0.05,
+   "why": "refit by -48 ms"
+  },
+  "73.5": {
+   "old": null,
+   "Sa": -52,
+   "Sb": -52,
+   "new": -0.05,
+   "why": "refit by -52 ms"
+  },
+  "77": {
+   "old": 0.09,
+   "Sa": -74,
+   "Sb": -74,
+   "new": 0.015,
+   "why": "refit by -74 ms"
+  },
+  "77.5": {
+   "old": null,
+   "Sa": -41,
+   "Sb": -41,
+   "new": -0.04,
+   "why": "refit by -41 ms"
+  },
+  "80": {
+   "old": 0.1,
+   "Sa": -98,
+   "Sb": -98,
+   "new": null,
+   "why": "refit by -98 ms"
+  },
+  "82": {
+   "old": null,
+   "Sa": 40,
+   "Sb": 40,
+   "new": 0.04,
+   "why": "refit by +40 ms"
+  },
+  "83": {
+   "old": null,
+   "Sa": 69,
+   "Sb": 69,
+   "new": 0.07,
+   "why": "refit by +69 ms"
+  },
+  "84": {
+   "old": 0.05,
+   "Sa": 30,
+   "Sb": 30,
+   "new": 0.08,
+   "why": "refit by +30 ms"
+  },
+  "85": {
+   "old": null,
+   "Sa": 78,
+   "Sb": 78,
+   "new": 0.08,
+   "why": "refit by +78 ms"
+  },
+  "87": {
+   "old": null,
+   "Sa": 44,
+   "Sb": 44,
+   "new": 0.045,
+   "why": "refit by +44 ms"
+  },
+  "172": {
+   "old": null,
+   "Sa": 69,
+   "Sb": 69,
+   "new": 0.07,
+   "why": "refit by +69 ms"
+  },
+  "174": {
+   "old": null,
+   "Sa": 25,
+   "Sb": 25,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "176": {
+   "old": -0.04,
+   "Sa": 80,
+   "Sb": 80,
+   "new": 0.04,
+   "why": "refit by +80 ms"
+  },
+  "177": {
+   "old": -0.04,
+   "Sa": 106,
+   "Sb": 106,
+   "new": 0.065,
+   "why": "refit by +106 ms"
+  },
+  "180": {
+   "old": null,
+   "Sa": 78,
+   "Sb": 78,
+   "new": 0.08,
+   "why": "refit by +78 ms"
+  },
+  "181": {
+   "old": -0.04,
+   "Sa": 92,
+   "Sb": 92,
+   "new": 0.05,
+   "why": "refit by +92 ms"
+  },
+  "184": {
+   "old": null,
+   "Sa": 51,
+   "Sb": 51,
+   "new": 0.05,
+   "why": "refit by +51 ms"
+  },
+  "185": {
+   "old": null,
+   "Sa": 78,
+   "Sb": 78,
+   "new": 0.08,
+   "why": "refit by +78 ms"
+  },
+  "188": {
+   "old": null,
+   "Sa": 43,
+   "Sb": 43,
+   "new": 0.045,
+   "why": "refit by +43 ms"
+  },
+  "189": {
+   "old": null,
+   "Sa": 86,
+   "Sb": 86,
+   "new": 0.085,
+   "why": "refit by +86 ms"
+  },
+  "190": {
+   "old": null,
+   "Sa": 47,
+   "Sb": 47,
+   "new": 0.045,
+   "why": "refit by +47 ms"
+  },
+  "191.5": {
+   "old": -0.07,
+   "Sa": 74,
+   "Sb": 74,
+   "new": 0.005,
+   "why": "refit by +74 ms"
+  },
+  "193.5": {
+   "old": 0.09,
+   "Sa": -34,
+   "Sb": -34,
+   "new": 0.055,
+   "why": "refit by -34 ms"
+  },
+  "195.5": {
+   "old": null,
+   "Sa": 66,
+   "Sb": 66,
+   "new": 0.065,
+   "why": "refit by +66 ms"
+  },
+  "196": {
+   "old": 0.04,
+   "Sa": -17,
+   "Sb": -17,
+   "new": 0.04,
+   "why": "within 25 ms: kept"
+  },
+  "197.5": {
+   "old": null,
+   "Sa": 52,
+   "Sb": 52,
+   "new": 0.05,
+   "why": "refit by +52 ms"
+  },
+  "200": {
+   "old": 0.01,
+   "Sa": 52,
+   "Sb": 52,
+   "new": 0.06,
+   "why": "refit by +52 ms"
+  },
+  "208": {
+   "old": 0.05,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "240": {
+   "old": null,
+   "Sa": -44,
+   "Sb": -44,
+   "new": -0.045,
+   "why": "refit by -44 ms"
+  },
+  "242": {
+   "old": -0.07,
+   "Sa": -12,
+   "Sb": -12,
+   "new": -0.07,
+   "why": "within 25 ms: kept"
+  },
+  "243": {
+   "old": null,
+   "Sa": -54,
+   "Sb": -54,
+   "new": -0.055,
+   "why": "refit by -54 ms"
+  },
+  "245.5": {
+   "old": null,
+   "Sa": -22,
+   "Sb": -22,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "252": {
+   "old": 0.16,
+   "Sa": -112,
+   "Sb": -112,
+   "new": 0.05,
+   "why": "refit by -112 ms"
+  },
+  "255": {
+   "old": -0.04,
+   "Sa": -10,
+   "Sb": -10,
+   "new": -0.04,
+   "why": "within 25 ms: kept"
+  },
+  "256": {
+   "old": null,
+   "Sa": -53,
+   "Sb": -53,
+   "new": -0.055,
+   "why": "refit by -53 ms"
+  },
+  "257": {
+   "old": -0.04,
+   "Sa": -12,
+   "Sb": -12,
+   "new": -0.04,
+   "why": "within 25 ms: kept"
+  },
+  "259": {
+   "old": null,
+   "Sa": -37,
+   "Sb": -37,
+   "new": -0.035,
+   "why": "refit by -37 ms"
+  },
+  "262": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "266": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "268": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "269": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "271": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  }
+ },
+ "Violins II": {
+  "47": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "48": {
+   "old": 0.1,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "53": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "54": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "56": {
+   "old": -0.08,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "65": {
+   "old": 0.06,
+   "Sa": 2,
+   "Sb": 2,
+   "new": 0.06,
+   "why": "within 25 ms: kept"
+  },
+  "65.5": {
+   "old": -0.06,
+   "Sa": 8,
+   "Sb": 8,
+   "new": -0.06,
+   "why": "within 25 ms: kept"
+  },
+  "68": {
+   "old": 0.1,
+   "Sa": -58,
+   "Sb": -58,
+   "new": 0.04,
+   "why": "refit by -58 ms"
+  },
+  "70": {
+   "old": -0.1,
+   "Sa": 18,
+   "Sb": 18,
+   "new": -0.1,
+   "why": "within 25 ms: kept"
+  },
+  "71": {
+   "old": -0.06,
+   "Sa": -50,
+   "Sb": -50,
+   "new": -0.11,
+   "why": "refit by -50 ms"
+  },
+  "73.5": {
+   "old": null,
+   "Sa": -82,
+   "Sb": -82,
+   "new": -0.08,
+   "why": "refit by -82 ms"
+  },
+  "77": {
+   "old": null,
+   "Sa": -84,
+   "Sb": -84,
+   "new": -0.085,
+   "why": "refit by -84 ms"
+  },
+  "77.5": {
+   "old": -0.07,
+   "Sa": -31,
+   "Sb": -31,
+   "new": -0.1,
+   "why": "refit by -31 ms"
+  },
+  "80": {
+   "old": 0.18,
+   "Sa": -2,
+   "Sb": -2,
+   "new": 0.18,
+   "why": "within 25 ms: kept"
+  },
+  "82": {
+   "old": null,
+   "Sa": 56,
+   "Sb": 56,
+   "new": 0.055,
+   "why": "refit by +56 ms"
+  },
+  "83": {
+   "old": -0.04,
+   "Sa": 53,
+   "Sb": 53,
+   "new": 0.015,
+   "why": "refit by +53 ms"
+  },
+  "84": {
+   "old": null,
+   "Sa": 30,
+   "Sb": 30,
+   "new": 0.03,
+   "why": "refit by +30 ms"
+  },
+  "85": {
+   "old": null,
+   "Sa": 74,
+   "Sb": 74,
+   "new": 0.075,
+   "why": "refit by +74 ms"
+  },
+  "146": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "152": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "154": {
+   "old": 0.04,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "156": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "168": {
+   "old": 0.08,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "172": {
+   "old": 0.05,
+   "Sa": 66,
+   "Sb": 66,
+   "new": 0.115,
+   "why": "refit by +66 ms"
+  },
+  "174": {
+   "old": null,
+   "Sa": 31,
+   "Sb": 31,
+   "new": 0.03,
+   "why": "refit by +31 ms"
+  },
+  "176": {
+   "old": null,
+   "Sa": 16,
+   "Sb": 16,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "177": {
+   "old": -0.09,
+   "Sa": 78,
+   "Sb": 78,
+   "new": -0.01,
+   "why": "refit by +78 ms"
+  },
+  "180": {
+   "old": null,
+   "Sa": 46,
+   "Sb": 46,
+   "new": 0.045,
+   "why": "refit by +46 ms"
+  },
+  "181": {
+   "old": -0.1,
+   "Sa": 81,
+   "Sb": 81,
+   "new": -0.02,
+   "why": "refit by +81 ms"
+  },
+  "184": {
+   "old": null,
+   "Sa": -29,
+   "Sb": -29,
+   "new": -0.03,
+   "why": "refit by -29 ms"
+  },
+  "185": {
+   "old": -0.04,
+   "Sa": 78,
+   "Sb": 78,
+   "new": 0.04,
+   "why": "refit by +78 ms"
+  },
+  "188": {
+   "old": -0.06,
+   "Sa": 67,
+   "Sb": 67,
+   "new": 0.005,
+   "why": "refit by +67 ms"
+  },
+  "189": {
+   "old": null,
+   "Sa": 12,
+   "Sb": 12,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "190": {
+   "old": null,
+   "Sa": 56,
+   "Sb": 56,
+   "new": 0.055,
+   "why": "refit by +56 ms"
+  },
+  "191.5": {
+   "old": 0.1,
+   "Sa": 48,
+   "Sb": 48,
+   "new": 0.15,
+   "why": "refit by +48 ms"
+  },
+  "193.5": {
+   "old": null,
+   "Sa": 30,
+   "Sb": 30,
+   "new": 0.03,
+   "why": "refit by +30 ms"
+  },
+  "195.5": {
+   "old": -0.1,
+   "Sa": 83,
+   "Sb": 83,
+   "new": -0.015,
+   "why": "refit by +83 ms"
+  },
+  "196": {
+   "old": null,
+   "Sa": 39,
+   "Sb": 39,
+   "new": 0.04,
+   "why": "refit by +39 ms"
+  },
+  "197.5": {
+   "old": -0.1,
+   "Sa": 112,
+   "Sb": 112,
+   "new": 0.01,
+   "why": "refit by +112 ms"
+  },
+  "200": {
+   "old": null,
+   "Sa": -2,
+   "Sb": -2,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "249": {
+   "old": null,
+   "Sa": -64,
+   "Sb": -64,
+   "new": -0.065,
+   "why": "refit by -64 ms"
+  },
+  "249.5": {
+   "old": -0.07,
+   "Sa": 0,
+   "Sb": 0,
+   "new": -0.07,
+   "why": "within 25 ms: kept"
+  },
+  "252": {
+   "old": 0.13,
+   "Sa": -30,
+   "Sb": -30,
+   "new": 0.1,
+   "why": "refit by -30 ms"
+  },
+  "255": {
+   "old": -0.08,
+   "Sa": -11,
+   "Sb": -11,
+   "new": -0.08,
+   "why": "within 25 ms: kept"
+  },
+  "256": {
+   "old": null,
+   "Sa": -50,
+   "Sb": -50,
+   "new": -0.05,
+   "why": "refit by -50 ms"
+  },
+  "257": {
+   "old": null,
+   "Sa": -32,
+   "Sb": -32,
+   "new": -0.03,
+   "why": "refit by -32 ms"
+  },
+  "259": {
+   "old": null,
+   "Sa": -76,
+   "Sb": -76,
+   "new": -0.075,
+   "why": "refit by -76 ms"
+  },
+  "262": {
+   "old": 0.08,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "266": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "268": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "269": {
+   "old": -0.04,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "271": {
+   "old": -0.09,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  }
+ },
+ "Violas": {
+  "70": {
+   "old": 0.07,
+   "Sa": -5,
+   "Sb": -5,
+   "new": 0.07,
+   "why": "within 25 ms: kept"
+  },
+  "72": {
+   "old": null,
+   "Sa": 35,
+   "Sb": 45,
+   "new": 0.04,
+   "why": "refit by +40 ms"
+  },
+  "84": {
+   "old": null,
+   "Sa": -17,
+   "Sb": -17,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "190": {
+   "old": null,
+   "Sa": -63,
+   "Sb": -63,
+   "new": -0.065,
+   "why": "refit by -63 ms"
+  },
+  "190.333": {
+   "old": null,
+   "Sa": -105,
+   "Sb": -105,
+   "new": -0.105,
+   "why": "refit by -105 ms"
+  },
+  "192": {
+   "old": null,
+   "Sa": 9,
+   "Sb": 9,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "192.333": {
+   "old": null,
+   "Sa": 13,
+   "Sb": 13,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "193": {
+   "old": null,
+   "Sa": 12,
+   "Sb": 12,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "193.333": {
+   "old": null,
+   "Sa": -9,
+   "Sb": -9,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "194": {
+   "old": null,
+   "Sa": 50,
+   "Sb": 50,
+   "new": 0.05,
+   "why": "refit by +50 ms"
+  },
+  "194.333": {
+   "old": null,
+   "Sa": 8,
+   "Sb": 8,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "195": {
+   "old": null,
+   "Sa": -15,
+   "Sb": -15,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "195.333": {
+   "old": 0.06,
+   "Sa": -25,
+   "Sb": -25,
+   "new": 0.06,
+   "why": "within 25 ms: kept"
+  },
+  "249": {
+   "old": null,
+   "Sa": 33,
+   "Sb": 39,
+   "new": 0.035,
+   "why": "refit by +36 ms"
+  },
+  "251.5": {
+   "old": null,
+   "Sa": 146,
+   "Sb": 146,
+   "new": 0.12,
+   "why": "refit by +120 ms"
+  },
+  "252": {
+   "old": null,
+   "Sa": 2,
+   "Sb": 2,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "253.5": {
+   "old": null,
+   "Sa": 21,
+   "Sb": 21,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "254.5": {
+   "old": null,
+   "Sa": 40,
+   "Sb": 40,
+   "new": 0.04,
+   "why": "refit by +40 ms"
+  },
+  "255": {
+   "old": null,
+   "Sa": 31,
+   "Sb": 31,
+   "new": 0.03,
+   "why": "refit by +31 ms"
+  },
+  "256": {
+   "old": null,
+   "Sa": -37,
+   "Sb": -37,
+   "new": -0.035,
+   "why": "refit by -37 ms"
+  },
+  "256.5": {
+   "old": null,
+   "Sa": 65,
+   "Sb": 65,
+   "new": 0.065,
+   "why": "refit by +65 ms"
+  },
+  "257.5": {
+   "old": 0.05,
+   "Sa": -19,
+   "Sb": -19,
+   "new": 0.05,
+   "why": "within 25 ms: kept"
+  },
+  "258": {
+   "old": null,
+   "Sa": 13,
+   "Sb": 13,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "259": {
+   "old": null,
+   "Sa": 7,
+   "Sb": 7,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "259.5": {
+   "old": null,
+   "Sa": 13,
+   "Sb": 13,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "260.5": {
+   "old": null,
+   "Sa": 91,
+   "Sb": 91,
+   "new": 0.09,
+   "why": "refit by +91 ms"
+  },
+  "261": {
+   "old": null,
+   "Sa": 37,
+   "Sb": 37,
+   "new": 0.035,
+   "why": "refit by +37 ms"
+  },
+  "286": {
+   "old": -0.06,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  }
+ },
+ "Violoncellos": {
+  "45": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "47": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "50": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "51": {
+   "old": -0.05,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "60": {
+   "old": -0.06,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "61": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "68": {
+   "old": 0.1,
+   "Sa": 64,
+   "Sb": 64,
+   "new": 0.165,
+   "why": "refit by +64 ms"
+  },
+  "75": {
+   "old": null,
+   "Sa": 6,
+   "Sb": 6,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "76": {
+   "old": -0.06,
+   "Sa": 26,
+   "Sb": 26,
+   "new": -0.035,
+   "why": "refit by +26 ms"
+  },
+  "81": {
+   "old": -0.07,
+   "Sa": 30,
+   "Sb": 30,
+   "new": -0.04,
+   "why": "refit by +30 ms"
+  },
+  "82": {
+   "old": null,
+   "Sa": 15,
+   "Sb": 15,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "84": {
+   "old": null,
+   "Sa": 54,
+   "Sb": 54,
+   "new": 0.055,
+   "why": "refit by +54 ms"
+  },
+  "86": {
+   "old": null,
+   "Sa": -4,
+   "Sb": -4,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "129": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "132": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "134": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "144": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "145": {
+   "old": -0.06,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "156": {
+   "old": 0.1,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "168": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  },
+  "176": {
+   "old": null,
+   "Sa": 40,
+   "Sb": 40,
+   "new": 0.04,
+   "why": "refit by +40 ms"
+  },
+  "192": {
+   "old": null,
+   "Sa": 24,
+   "Sb": 24,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "193": {
+   "old": -0.08,
+   "Sa": 63,
+   "Sb": 63,
+   "new": -0.015,
+   "why": "refit by +63 ms"
+  },
+  "195.5": {
+   "old": null,
+   "Sa": 38,
+   "Sb": 38,
+   "new": 0.04,
+   "why": "refit by +38 ms"
+  },
+  "196": {
+   "old": null,
+   "Sa": 8,
+   "Sb": 8,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "199": {
+   "old": -0.07,
+   "Sa": 56,
+   "Sb": 56,
+   "new": -0.015,
+   "why": "refit by +56 ms"
+  },
+  "200": {
+   "old": -0.09,
+   "Sa": 98,
+   "Sb": 98,
+   "new": 0.01,
+   "why": "refit by +98 ms"
+  },
+  "201": {
+   "old": null,
+   "Sa": 34,
+   "Sb": 34,
+   "new": 0.035,
+   "why": "refit by +34 ms"
+  },
+  "202": {
+   "old": null,
+   "Sa": -16,
+   "Sb": -16,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "248.5": {
+   "old": null,
+   "Sa": -98,
+   "Sb": -98,
+   "new": -0.1,
+   "why": "refit by -98 ms"
+  },
+  "249": {
+   "old": null,
+   "Sa": -36,
+   "Sb": -36,
+   "new": -0.035,
+   "why": "refit by -36 ms"
+  },
+  "250": {
+   "old": -0.06,
+   "Sa": -22,
+   "Sb": -22,
+   "new": -0.06,
+   "why": "within 25 ms: kept"
+  },
+  "252": {
+   "old": null,
+   "Sa": -38,
+   "Sb": -38,
+   "new": -0.04,
+   "why": "refit by -38 ms"
+  },
+  "253": {
+   "old": null,
+   "Sa": -72,
+   "Sb": -72,
+   "new": -0.07,
+   "why": "refit by -72 ms"
+  },
+  "255": {
+   "old": null,
+   "Sa": -8,
+   "Sb": -8,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "256": {
+   "old": null,
+   "Sa": -31,
+   "Sb": -31,
+   "new": -0.03,
+   "why": "refit by -31 ms"
+  },
+  "258": {
+   "old": null,
+   "Sa": -8,
+   "Sb": -8,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "259": {
+   "old": -0.07,
+   "Sa": 36,
+   "Sb": 36,
+   "new": -0.035,
+   "why": "refit by +36 ms"
+  },
+  "271": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  }
+ },
+ "Double basses": {
+  "146": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  }
+ },
+ "Violoncellos div": {
+  "63": {
+   "old": null,
+   "Sa": 25,
+   "Sb": 25,
+   "new": 0.025,
+   "why": "refit by +25 ms"
+  },
+  "63.5": {
+   "old": null,
+   "Sa": 6,
+   "Sb": 6,
+   "new": null,
+   "why": "within 25 ms: kept"
+  }
+ },
+ "Violas div": {
+  "69": {
+   "old": null,
+   "Sa": -34,
+   "Sb": -34,
+   "new": -0.035,
+   "why": "refit by -34 ms"
+  },
+  "71": {
+   "old": null,
+   "Sa": -4,
+   "Sb": -4,
+   "new": null,
+   "why": "within 25 ms: kept"
+  },
+  "87": {
+   "old": null,
+   "Sa": -60,
+   "Sb": -60,
+   "new": -0.06,
+   "why": "refit by -60 ms"
+  },
+  "283": {
+   "old": null,
+   "Sa": null,
+   "Sb": null,
+   "new": null,
+   "why": "outside the rendered passages: no row"
+  }
+ }
+}

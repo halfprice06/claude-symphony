@@ -1,0 +1,28 @@
+{
+ "_doc": "tools/space_rebows.py on parts.json: automatic re-bow point -> moved point (sep 0.6 s); c28 (critic A #2): Double basses 222.625 -> 221.8 by hand (after space_rebows.py; rerunning it resets this): its re-bow 0.55 s before the three printed bar-66 re-bows at 223 deepened the master hole there; pieces 2.1 s and 3.9 s; c31: Violins I 264.073 (was 264.095) and Violins II 263.897 (auto 263.921) keyed to the fitted points after GROUP_LEAD_AT moved the 262 targets; c33: Violoncellos 283.724 -> 284.151 dropped (the coda 4 soli moved to Violoncellos div), Violoncellos div entries from space_rebows.py; c35: Violas 263.900 re-keyed to 263.833 (the REATTACK_LEAD_AT 266 lead shortened the held B flat 4, moving its automatic re-bow point); c39: Double basses 166.049 re-keyed to 166.034 (REP_RETONGUE_AT 168 shortened the held A flat 1, moving its automatic re-bow point)",
+ "Violoncellos": {
+  "165.428": 165.293
+ },
+ "Double basses": {
+  "222.625": 221.8,
+  "275.698": 276.05,
+  "280.990": 282.203
+ },
+ "Violas": {
+  "169.950": 169.5,
+  "263.833": 263.414,
+  "283.492": 283.059
+ },
+ "Violins I": {
+  "264.073": 264.417
+ },
+ "Violas div": {
+  "280.829": 280.439
+ },
+ "Violins II": {
+  "263.897": 263.921
+ },
+ "Violoncellos div": {
+  "283.757": 284.141
+ }
+}

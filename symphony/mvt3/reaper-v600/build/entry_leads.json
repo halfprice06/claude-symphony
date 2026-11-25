@@ -1,0 +1,94 @@
+{
+ "_doc": "Extra entry lead in seconds {track: {score onset: s}} added to the family/articulation entry lead (score_to_parts ENTRY_LEADS).",
+ "_c04": "critic C #4: Violas 1048 (a Leg Slur MAX first note after a 0.04 qn gap) +255 ms late in c03",
+ "Violas": {
+  "1048.0": 0.15,
+  "360.0": 0.05,
+  "364.0": 0.05,
+  "369.0": 0.05
+ },
+ "_c08": "critic C #3.3: the string sfp notes at 592 (the sf peaked 0.18 s late): +0.06 s",
+ "_c09": "critic A #1: the c08 string sfp leads at 592 removed (the sf now starts at the moved note-on)",
+ "Double basses": {
+  "128.0": 0.1,
+  "112.0": -0.05,
+  "360.0": 0.07,
+  "364.0": 0.04,
+  "369.0": 0.04
+ },
+ "Violins I": {
+  "824.0": 0.12,
+  "806.0": -0.05,
+  "40.0": 0.04,
+  "72.0": 0.055,
+  "608.0": -0.05,
+  "656.0": -0.06,
+  "792.5": -0.1,
+  "264.0": 0.1,
+  "744.0": 0.02,
+  "369.0": 0.08
+ },
+ "Horn 1": {
+  "605.0": -0.1,
+  "621.0": -0.1,
+  "637.0": -0.1,
+  "653.0": -0.1,
+  "1061.0": -0.1,
+  "1069.0": -0.1,
+  "355.0": -0.06,
+  "357.0": -0.06,
+  "359.0": -0.06,
+  "360.0": -0.06,
+  "40.0": -0.06,
+  "64.0": -0.06,
+  "614.0": -0.04,
+  "72.0": -0.06,
+  "664.0": -0.06,
+  "0.0": 0.03
+ },
+ "_c14": "mvt3 c14 (critic A #2): slow-swelling entries, S +94..+192 ms: Bassoon 1 472 +0.10 / 118 +0.08, Double basses 128 +0.10, Violins I 824 +0.12 / 806 +0.09 (the total is capped at ENTRY_CAP_S 0.30 s). Critic A #1: Horn 1's Leg Slur MAX notes after a Marc Shrt quarter (605, 621, 637, 653, 1061, 1069) were 98-126 ms early with a 150 ms lead: -0.10 s (one value for the class). Bassoon 1 118 not listed (the 0.14 qn gap before it is under the entry branch's 0.2 qn: a row there removed its 35 ms re-tongue lead). String theme entries that A's table lists (they are entries, so leg_leads.json does not reach them): Violins I 40 +0.04, 72 +0.055, 608 -0.05, 656 -0.06, 792.5 -0.10; Violins II 40 +0.045, 72 +0.05, 80 -0.04, 96 -0.035, 600 +0.04; Violas 656 +0.065; Double basses 112 -0.05. Violins I 806 -0.05: with a listed extra the entry branch gives it the family and row entry lead (it had none after the staccatissimo run); the total is 0.09 s. Bassoon 1 472 not listed either: the row left 7 ms of the printed breath before it (89 ms without the row). After the range pre-check: Violins II 600 and Violas 656 removed (S +43 -> -83, +75 -> +108). Violins I / II 264 and 744, Violoncellos 264 +0.10 (the cantabile entries; total at the 0.30 s cap).",
+ "Violins II": {
+  "40.0": 0.045,
+  "72.0": 0.05,
+  "80.0": -0.04,
+  "96.0": -0.035,
+  "264.0": 0.1,
+  "744.0": 0.1,
+  "360.0": 0.05,
+  "364.0": 0.05,
+  "369.0": 0.08
+ },
+ "Violoncellos": {
+  "264.0": 0.01
+ },
+ "Trombone 1": {
+  "360.0": 0.015,
+  "361.5": -0.005,
+  "364.0": -0.005,
+  "365.5": -0.005,
+  "369.0": -0.005,
+  "984.5": -0.055
+ },
+ "Bass trombone": {
+  "360.0": -0.02,
+  "361.5": -0.02,
+  "364.0": -0.02,
+  "365.5": -0.02,
+  "369.0": -0.02
+ },
+ "Trumpet 2": {
+  "360.0": -0.04,
+  "361.5": -0.04,
+  "364.0": -0.04,
+  "365.5": -0.04
+ },
+ "Trumpet 1": {
+  "200.0": -0.06,
+  "984.0": -0.06
+ },
+ "_c15": "mvt3 c15. Critic C #3 (codetta, the ff chords at 360 / 364 / 369: first-to-last spread 120-166 ms): brass entries that read early: Trombone 1 -0.05 (its 0.09 s entries), Bass trombone -0.02, Horn 1 355-360 -0.06, Trumpet 2 -0.04; strings that read late: Violins II, Violas +0.05, Double basses +0.04, Violins I 369 +0.06. Critic A #4: Violins I 744 total 0.30 -> 0.17 s, Violoncellos 264 0.30 -> 0.21 s. Critic A #2 / C #5: Horn 1 entries 40, 64 -0.06, 614 -0.04, Sus MAX entries 72, 664 -0.06; Trumpet 1 200, 984 -0.06; Trombone 1 984.5 -0.10 (S -88..-124 ms). After range render R1 (S at 360 / 364 / 369 from -30 to +63 ms): Double basses 360 +0.03, Trombone 1 360 +0.02, Violins II 369 +0.03, Violins I 369 +0.02 more.",
+ "Tuba": {
+  "0.0": 0.01
+ },
+ "_c23": "mvt3 c23 (ruling 7, critic C #5): the opening chord's brass came late (pcx Horn 1 +129 ms, Tuba +77 ms; brass take no entry lead before qn 0.5 unless listed): Horn 1 0.0 +0.03 s, Tuba 0.0 +0.01 s on top of the family entry lead (the lead starts in the pre-roll)."
+}

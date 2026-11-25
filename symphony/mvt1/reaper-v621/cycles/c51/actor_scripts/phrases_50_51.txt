@@ -1,0 +1,30 @@
+  phrases c50 brass  build n 78: rise08 +1.0 dB, taper -1.6 dB, peak 0.98
+  phrases c50 brass  drive n 76: rise08 +0.6 dB, taper +0.0 dB, peak 0.03
+  phrases c50 brass  lyric n 35: rise08 +0.9 dB, taper +1.6 dB, peak 0.02
+  phrases c50 string build n 44: rise08 +2.7 dB, taper -1.4 dB, peak 0.99
+  phrases c50 string drive n 49: rise08 +0.8 dB, taper +0.7 dB, peak 0.03
+  phrases c50 string lyric n 29: rise08 +1.6 dB, taper +0.2 dB, peak 0.01
+  phrases c50 wind   build n 73: rise08 +1.9 dB, taper +0.1 dB, peak 0.99
+  phrases c50 wind   drive n 59: rise08 +0.3 dB, taper +0.0 dB, peak 0.01
+  phrases c50 wind   lyric n 55: rise08 +0.2 dB, taper +1.4 dB, peak 0.02
+  phrases c51 brass  build n 78: rise08 +1.1 dB, taper -2.0 dB, peak 0.98
+  phrases c51 brass  drive n 76: rise08 -0.9 dB, taper +0.9 dB, peak 0.02
+  phrases c51 brass  lyric n 35: rise08 +2.7 dB, taper +4.5 dB, peak 0.02
+  phrases c51 string build n 44: rise08 +2.9 dB, taper -1.2 dB, peak 0.99
+  phrases c51 string drive n 49: rise08 +0.9 dB, taper +1.3 dB, peak 0.02
+  phrases c51 string lyric n 29: rise08 +1.6 dB, taper +1.5 dB, peak 0.01
+  phrases c51 wind   build n 73: rise08 +1.9 dB, taper -0.2 dB, peak 0.99
+  phrases c51 wind   drive n 59: rise08 +0.3 dB, taper +0.1 dB, peak 0.01
+  phrases c51 wind   lyric n 55: rise08 +1.1 dB, taper +2.7 dB, peak 0.02
+  named c50 Flute 1 42-50: [42] rise -1.7 taper -2.8 peak 0.01
+  named c51 Flute 1 42-50: [42] rise -0.4 taper +2.8 peak 0.01
+  named c50 Horn 1 49-55: [49] rise -1.6 taper -0.1 peak 0.01
+  named c51 Horn 1 49-55: [49] rise +2.7 taper +0.8 peak 0.01
+  named c50 Oboe 1 44-48: [44] rise +4.7 taper -0.1 peak 0.98
+  named c51 Oboe 1 44-48: [44] rise +3.2 taper -0.1 peak 0.02
+  named c50 Clarinet 1 207-216: [207] rise +1.8 taper -2.5 peak 0.02
+  named c51 Clarinet 1 207-216: [207] rise +4.2 taper +0.4 peak 0.02
+  named c50 Flute 1 252-260: [252] rise +1.2 taper -3.6 peak 0.03
+  named c51 Flute 1 252-260: [252] rise +3.6 taper -3.3 peak 0.03
+  named c50 Cor anglais 608-618: [608] rise +4.5 taper -3.3 peak 0.98
+  named c51 Cor anglais 608-618: [608] rise +12.8 taper +2.5 peak 0.02

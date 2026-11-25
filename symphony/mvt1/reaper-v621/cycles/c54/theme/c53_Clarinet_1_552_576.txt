@@ -1,0 +1,18 @@
+bar 139 beat 1.5 p67 note-on   -55 ms  sounds   -65 ms  heard  275 ms of  245 (112 %) pk -51 dB
+bar 139 beat 2.0 p77 note-on   -90 ms  sounds   -31 ms  heard  795 ms of  704 (113 %) pk -34 dB
+bar 139 beat 3.5 p75 note-on     0 ms  sounds   +65 ms  heard  215 ms of  235 ( 92 %) pk -39 dB  under neighbours -2.8
+bar 139 beat 4.0 p74 note-on  -106 ms  sounds   +51 ms  heard  205 ms of  235 ( 87 %) pk -42 dB  under neighbours +4.7
+bar 139 beat 4.5 p72 note-on   -50 ms  sounds   +26 ms  heard  240 ms of  235 (102 %) pk -36 dB  under neighbours -4.5
+bar 140 beat 1.0 p73 note-on   -50 ms  sounds   +37 ms  heard  200 ms of  235 ( 85 %) pk -38 dB  under neighbours +0.8
+bar 140 beat 1.5 p75 note-on   -80 ms  sounds   +37 ms  heard  215 ms of  235 ( 92 %) pk -39 dB  under neighbours +1.0
+bar 140 beat 2.0 p77 note-on   -50 ms  sounds   +22 ms  heard  230 ms of  235 ( 98 %) pk -38 dB  under neighbours -1.8
+bar 140 beat 2.5 p79 note-on   -50 ms  sounds   +23 ms  heard  275 ms of  235 (117 %) pk -40 dB  under neighbours +2.4
+bar 140 beat 3.0 p80 note-on     0 ms  sounds  +133 ms  heard 1510 ms of  958 (158 %) pk -38 dB
+bar 141 beat 2.5 p79 note-on   -35 ms  sounds   -13 ms  heard  230 ms of  235 ( 98 %) pk -41 dB
+bar 141 beat 3.0 p77 note-on   -35 ms  sounds   -13 ms  heard  470 ms of  469 (100 %) pk -36 dB
+bar 141 beat 4.0 p74 note-on   -35 ms  sounds    -7 ms  heard  455 ms of  469 ( 97 %) pk -39 dB
+bar 142 beat 1.0 p72 note-on   -35 ms  sounds   -16 ms  heard  940 ms of  952 ( 99 %) pk -37 dB
+bar 142 beat 3.0 p71 note-on   -35 ms  sounds   -24 ms  heard  970 ms of  987 ( 98 %) pk -38 dB
+bar 143 beat 1.0 p75 note-on   -35 ms  sounds   -36 ms  heard 1255 ms of  245 (511 %) pk -40 dB
+bar 145 beat 1.0 p65 note-on   -35 ms  NOT FOUND as dominant pitch
+Clarinet 1     552-576: found 16 of 17 (+0 same-pitch repeats, 0 with a dip >= 3 dB), median +8 ms, SD 46, min -65, max +133; over 40 ms from median 5, over 25 ms 9; not sounding 1; under 60 % of printed length 0; eighths > 6 dB under neighbours 0; median share 98 %

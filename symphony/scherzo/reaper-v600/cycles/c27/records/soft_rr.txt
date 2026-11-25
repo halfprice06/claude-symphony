@@ -1,0 +1,22 @@
+=== c26
+  Violins I   528.0: -12 dB at +113 ms, -6 dB at +233 ms, max -36.9 dB
+  Violins I   576.0: -12 dB at +91 ms, -6 dB at +296 ms, max -45.3 dB
+  Violins I   603.0: -12 dB at +81 ms, -6 dB at +186 ms, max -43.3 dB
+  Violins II   708.0: -12 dB at +65 ms, -6 dB at +150 ms, max -48.6 dB
+  Violins II  1068.0: -12 dB at +133 ms, -6 dB at +208 ms, max -43.7 dB
+  Violas   708.0: -12 dB at +30 ms, -6 dB at +260 ms, max -48.3 dB
+  Violas  1020.0: -12 dB at -55 ms, -6 dB at +215 ms, max -49.3 dB
+  Violoncellos   504.0: -12 dB at +38 ms, -6 dB at +93 ms, max -33.8 dB
+  Violoncellos  1071.0: -12 dB at +99 ms, -6 dB at +244 ms, max -50.7 dB
+   264.0  -48.1    267.0  -46.0    270.0  -50.2    273.0  -48.4    276.0  -45.7    279.0  -50.0    282.0  -48.5    285.0  -45.6    288.0  -49.9    291.0  -47.2    294.0  -42.8
+=== c27
+  Violins I   528.0: -12 dB at +33 ms, -6 dB at +128 ms, max -36.7 dB
+  Violins I   576.0: -12 dB at +81 ms, -6 dB at +191 ms, max -44.4 dB
+  Violins I   603.0: -12 dB at +51 ms, -6 dB at +141 ms, max -41.4 dB
+  Violins II   708.0: -12 dB at -75 ms, -6 dB at +130 ms, max -48.5 dB
+  Violins II  1068.0: -12 dB at +23 ms, -6 dB at +128 ms, max -43.2 dB
+  Violas   708.0: -12 dB at -20 ms, -6 dB at +210 ms, max -48.2 dB
+  Violas  1020.0: -12 dB at -60 ms, -6 dB at -20 ms, max -48.5 dB
+  Violoncellos   504.0: -12 dB at -42 ms, -6 dB at +58 ms, max -32.6 dB
+  Violoncellos  1071.0: -12 dB at +9 ms, -6 dB at +149 ms, max -50.4 dB
+   264.0  -48.1    267.0  -46.0    270.0  -49.0    273.0  -45.9    276.0  -49.5    279.0  -49.0    282.0  -46.1    285.0  -49.9    288.0  -48.8    291.0  -45.5    294.0  -47.2

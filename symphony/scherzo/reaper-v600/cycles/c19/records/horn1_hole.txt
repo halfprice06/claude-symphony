@@ -1,0 +1,6 @@
+c18 442 hole under body 11.6 dB, body -40.7
+c18 598 hole under body 9.9 dB, body -45.8
+c18 1077 hole under body 11.3 dB, body -40.1
+c19 442 hole under body 3.4 dB, body -42.4
+c19 598 hole under body 1.6 dB, body -46.9
+c19 1077 hole under body 3.2 dB, body -41.9

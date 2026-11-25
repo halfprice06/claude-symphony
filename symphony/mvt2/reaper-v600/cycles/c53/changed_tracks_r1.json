@@ -1,0 +1,79 @@
+{
+"Flute 1": [
+"cc11",
+"hp_curved"
+],
+"Oboe 1": [
+"cc11",
+"hp_curved"
+],
+"Cor anglais": [
+"cc11",
+"hp_curved"
+],
+"Clarinet 1": [
+"cc11",
+"hp_curved"
+],
+"Bassoon 1": [
+"cc11",
+"hp_curved"
+],
+"Horn 1": [
+"vol_db",
+"vol_bp"
+],
+"Horn 2": [
+"notes",
+"leads",
+"cc11",
+"reattack_leads",
+"vol_db"
+],
+"Horn 3": [
+"cc11",
+"hp_curved"
+],
+"Horn 4": [
+"cc11",
+"hp_curved"
+],
+"Violins I": [
+"notes",
+"leg_leads",
+"rebows",
+"ks",
+"cc1",
+"cc11",
+"hp_curved",
+"vol_db",
+"vol_bp"
+],
+"Violins II": [
+"notes",
+"leg_leads",
+"cc70",
+"vol_db",
+"vol_bp"
+],
+"Violas": [
+"vol_db",
+"vol_bp"
+],
+"Violoncellos": [
+"vol_db",
+"vol_bp"
+],
+"Violin I solo": [
+"vol_db",
+"vol_bp"
+],
+"Violoncellos div": [
+"vol_db",
+"vol_bp"
+],
+"Violas div": [
+"vol_db",
+"vol_bp"
+]
+}

@@ -1,0 +1,154 @@
+{
+ "Violins II": {
+  "177.5": {
+   "d": 0.08,
+   "pcx": 154,
+   "cross": 78,
+   "lead_ms": 224,
+   "prev": 72,
+   "pitch": 73,
+   "ref": "A"
+  },
+  "181.333": {
+   "d": 0.1,
+   "pcx": 116,
+   "cross": 142,
+   "lead_ms": 148,
+   "prev": 77,
+   "pitch": 78,
+   "ref": "A"
+  },
+  "182": {
+   "d": 0.1,
+   "pcx": 102,
+   "cross": 102,
+   "lead_ms": 148,
+   "prev": 77,
+   "pitch": 75,
+   "ref": "A"
+  },
+  "186": {
+   "d": 0.08,
+   "pcx": 85,
+   "cross": 110,
+   "lead_ms": 220,
+   "prev": 72,
+   "pitch": 70,
+   "ref": "A"
+  }
+ },
+ "Violins I": {
+  "182": {
+   "d": 0.05,
+   "pcx": 74,
+   "cross": 54,
+   "lead_ms": 148,
+   "prev": 77,
+   "pitch": 75,
+   "ref": "A"
+  },
+  "185.5": {
+   "d": 0.07,
+   "pcx": 95,
+   "cross": 68,
+   "lead_ms": 170,
+   "prev": 73,
+   "pitch": 72,
+   "ref": "A"
+  },
+  "186": {
+   "d": 0.06,
+   "pcx": 110,
+   "cross": 60,
+   "lead_ms": 170,
+   "prev": 72,
+   "pitch": 70,
+   "ref": "A"
+  },
+  "192": {
+   "d": 0.07,
+   "pcx": 137,
+   "cross": 74,
+   "lead_ms": 210,
+   "prev": 90,
+   "pitch": 92,
+   "ref": "A"
+  },
+  "258.5": {
+   "d": 0.09,
+   "pcx": 211,
+   "cross": 88,
+   "lead_ms": 170,
+   "prev": 84,
+   "pitch": 82,
+   "ref": "A"
+  }
+ },
+ "Violas": {
+  "193.667": {
+   "d": 0.09,
+   "pcx": 100,
+   "cross": 94,
+   "lead_ms": 144,
+   "prev": 61,
+   "pitch": 66,
+   "ref": "A"
+  },
+  "195.333": {
+   "d": 0.06,
+   "pcx": 64,
+   "cross": 81,
+   "lead_ms": 143,
+   "prev": 56,
+   "pitch": 59,
+   "ref": "A"
+  },
+  "195.667": {
+   "d": 0.07,
+   "pcx": 69,
+   "cross": 156,
+   "lead_ms": 142,
+   "prev": 59,
+   "pitch": 68,
+   "ref": "A"
+  },
+  "250": {
+   "d": 0.05,
+   "pcx": 65,
+   "cross": 53,
+   "lead_ms": 225,
+   "prev": 61,
+   "pitch": 60,
+   "ref": "A"
+  },
+  "257": {
+   "d": 0.07,
+   "pcx": 71,
+   "cross": 73,
+   "lead_ms": 225,
+   "prev": 63,
+   "pitch": 67,
+   "ref": "A"
+  }
+ },
+ "Violoncellos": {
+  "145.5": {
+   "d": 0.1,
+   "pcx": 302,
+   "cross": 100,
+   "lead_ms": 212,
+   "prev": 57,
+   "pitch": 58,
+   "ref": "A"
+  },
+  "68.5": {
+   "d": 0.07,
+   "pcx": 109,
+   "cross": 70,
+   "lead_ms": 220,
+   "prev": 56,
+   "pitch": 55,
+   "ref": "A"
+  }
+ }
+}

@@ -1,0 +1,20 @@
+B #1 bars 255-258, re M per 4 qn
+  1016-1020: Violin  -13.0 Violin   -9.1 Violas   -7.2 Violon   -9.1 Horn 3   -5.6 Horn 4  -61.6 Flute   -32.9 Tuba  -11.3  M  -17.9
+  1020-1024: Violin  -10.7 Violin   -9.9 Violas   -6.4 Violon   -9.4 Horn 3   -9.5 Horn 4 -133.3 Flute   -50.5 Tuba   -9.9  M  -20.9
+  1024-1028: Violin  -13.9 Violin   -8.6 Violas  -11.7 Violon  -13.5 Horn 3   -4.8 Horn 4 -182.2 Flute   -17.9 Tuba  -15.2  M  -17.8
+  1028-1032: Violin  -16.4 Violin  -15.5 Violas   -9.8 Violon  -13.9 Horn 3   -7.2 Horn 4 -183.1 Flute   -15.0 Tuba  -17.8  M  -16.9
+  1032-1036: Violin  -15.5 Violin  -20.1 Violas  -13.1 Violon  -13.2 Horn 3  -17.9 Horn 4  -16.9 Flute   -17.9 Tuba  -13.8  M  -13.5
+  1036-1040: Violin  -14.2 Violin  -15.6 Violas  -11.4 Violon  -12.3 Horn 3  -13.3 Horn 4  -16.4 Flute   -16.7 Tuba  -13.7  M  -14.6
+  1040-1044: Violin  -16.3 Violin  -13.7 Violas  -10.3 Violon  -11.1 Horn 3  -12.4 Horn 4  -15.9 Flute   -17.8 Tuba  -11.9  M  -14.6
+  1044-1048: Violin  -15.4 Violin  -16.7 Violas  -16.9 Violon   -8.0 Horn 3   -9.7 Horn 4  -13.9 Flute   -22.5 Tuba  -12.1  M  -11.6
+B #2 pizz under the soft solos, re M (mean)
+  201-264: Trumpe   -2.9 Violin  -15.8 Violas  -16.6 Violon  -14.6 Double  -15.0
+  456-488: Bassoo   -1.2 Violin  -14.5 Violas  -16.5 Violon  -14.9 Double  -13.9
+  680-744: Cor an   -3.5 Violin  -26.1 Violas  -13.7 Violon  -14.2 Double  -15.0
+B #3 codetta 360-376, re M
+  Tuba  -11.3 Bass trombone  -13.4 Trumpet 1  -13.2 Trumpet 2  -13.7 Trumpet 3  -12.5 Horn 1  -17.9
+B #4 crash re M over 2 qn
+  888: crash  -13.5  Tuba  -11.9  Tpt1  -10.7  M   -9.3
+  1048: crash  -13.5  Tuba   -9.3  Tpt1  -11.3  M  -11.4
+  1108: crash  -12.6  Tuba  -12.4  Tpt1  -12.4  M   -9.8
+Climaxes (M abs): 888  -10.0 1016  -17.9 1048  -11.4 1108  -10.5

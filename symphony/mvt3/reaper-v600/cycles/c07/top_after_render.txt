@@ -1,0 +1,3 @@
+PID    COMMAND          MEM   CMPRS
+77491  REAPER           45G   28G  
+1235   CrashRestartHelp 6249M 6198M

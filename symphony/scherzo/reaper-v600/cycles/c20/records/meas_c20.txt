@@ -1,0 +1,62 @@
+== inner Violins II
+  qn 522-528 (bar 175): best band 2281 Hz, over all others +0.6 dB (frames over 0.56), over the loudest (Violoncellos) +1.4 dB
+  qn 528-534 (bar 177): best band 508 Hz, over all others +1.5 dB (frames over 0.58), over the loudest (Bassoon 2) +10.1 dB
+  qn 534-540 (bar 179): best band 640 Hz, over all others -3.8 dB (frames over 0.49), over the loudest (Bassoon 2) +0.5 dB
+  qn 540-546 (bar 181): best band 2560 Hz, over all others -4.3 dB (frames over 0.34), over the loudest (Violins I) -0.5 dB
+  qn 546-552 (bar 183): best band 640 Hz, over all others -7.1 dB (frames over 0.46), over the loudest (Bassoon 2) -4.1 dB
+== inner Violas + Violas div
+  qn 624-630 (bar 209): best band 254 Hz, over all others +5.6 dB (frames over 0.80), over the loudest (Contrabassoon) +16.8 dB
+  qn 630-636 (bar 211): best band 285 Hz, over all others -0.5 dB (frames over 0.42), over the loudest (Double basses) +3.3 dB
+  qn 636-642 (bar 213): best band 285 Hz, over all others -1.5 dB (frames over 0.46), over the loudest (Violoncellos) +3.3 dB
+  qn 642-648 (bar 215): best band 254 Hz, over all others -1.2 dB (frames over 0.53), over the loudest (Violoncellos) +7.2 dB
+  qn 648-654 (bar 217): best band 226 Hz, over all others +4.0 dB (frames over 0.83), over the loudest (Bassoon 1) +18.3 dB
+  qn 654-660 (bar 219): best band 320 Hz, over all others +1.0 dB (frames over 0.56), over the loudest (R Strings) +5.7 dB
+  qn 660-666 (bar 221): best band 226 Hz, over all others -6.1 dB (frames over 0.19), over the loudest (Violoncellos) +0.8 dB
+  qn 666-672 (bar 223): best band 1613 Hz, over all others +0.9 dB (frames over 0.61), over the loudest (Oboe 1) +167.8 dB
+== inner Oboe 1
+  qn 84-90 (bar 29): best band 1437 Hz, over all others +0.5 dB (frames over 0.53), over the loudest (Flute 1) +6.5 dB
+  qn 90-96 (bar 31): best band 1437 Hz, over all others +3.9 dB (frames over 1.00), over the loudest (Flute 1) +4.6 dB
+  qn 96-102 (bar 33): best band 1437 Hz, over all others +0.1 dB (frames over 0.49), over the loudest (Flute 1) +11.7 dB
+  qn 102-108 (bar 35): best band 1613 Hz, over all others +10.8 dB (frames over 1.00), over the loudest (R Winds) +12.1 dB
+  qn 108-114 (bar 37): best band 1810 Hz, over all others -16.2 dB (frames over 0.19), over the loudest (Violins I) -8.8 dB
+  qn 114-120 (bar 39): best band 2281 Hz, over all others -11.6 dB (frames over 0.28), over the loudest (Violins I) -6.6 dB
+Violins I 0-1128: joins 53, excess median +2.9, p80 +3.5, over 6: 0, holes over 5 dB: 6
+Violins II 0-1128: joins 42, excess median +2.4, p80 +3.8, over 6: 1, holes over 5 dB: 11
+Violas 0-1128: joins 46, excess median +1.5, p80 +4.8, over 6: 6, holes over 5 dB: 18
+Violoncellos 0-1128: joins 112, excess median +1.8, p80 +3.9, over 6: 3, holes over 5 dB: 51
+Violin I solo 0-1128: joins 4, excess median +6.1, p80 +8.6, over 6: 2, holes over 5 dB: 1
+Violas div 0-1128: joins 2, excess median +6.6, p80 +8.1, over 6: 1, holes over 5 dB: 1
+track | isolated n, median, p90, over +3 | in runs n, median | within-note 30-180 over 250-400 ms (isolated, median)
+Flute 1         |  18  +0.1  +1.7   1 |  14  -0.8 |  -0.6
+Flute 2         |   7  -1.2  +1.0   1 |   0 |  -1.1
+Oboe 1          |  22  -1.5  +1.5   1 |   2  +0.8 |  -0.9
+Oboe 2          |   0 |   1  -2.8 |   .
+Cor anglais     |  13  -2.4  +1.4   1 |  15  -1.1 |  -1.6
+Clarinet 1      |   5  -0.5  +2.8   1 |   4  +1.7 |  -2.6
+Clarinet 2      |  10  -0.0  +2.3   1 |   6  +0.3 |  -1.4
+Bassoon 1       |   3  -0.2  +7.5   1 |   3  +0.3 |  +1.2
+Bassoon 2       |   1  -0.4  -0.4   0 |   3  +0.8 |  +0.7
+Contrabassoon   |   1  +0.2  +0.2   0 |   3  +0.0 |  +1.4
+Violins I       |  28  -1.9  +0.8   2 |  17  -0.4 |  -0.8
+Violins II      |  18  +0.6  +3.9   5 |  16  +0.5 |  -2.3
+Violas          |  12  -0.4  +2.1   0 |  16  -1.3 |  -1.0
+Violoncellos    |   6  -1.0  +2.7   1 |  15  +1.0 |  -1.0
+Double basses   |   0 |  15  +0.5 |   .
+Violin I solo   |   0 |   0 |   .
+Violas div      |   0 |   0 |   .
+all isolated: 144, median -0.8, p90 +3.0, over +3 dB: 15
+Violoncellos 504-552: 28 bodies, range 12.1, std 2.5, step median 2.3, steps over 4 dB 7
+Clarinet 1 456-504: 28 bodies, range 11.6, std 2.6, step median 2.0, steps over 4 dB 6
+Violins I 999: -34.0 dB, neighbours -29.1 -> -4.9; 0.3 s -32.7
+Timpani 1002: -37.7 dB, neighbours -33.4 -> -4.3; 0.3 s -35.2
+Timpani 1003: -32.3 dB, neighbours -35.4 -> +3.1; 0.3 s -32.7
+Timpani 1003.5: -33.0 dB, neighbours -32.9 -> -0.1; 0.3 s -33.9
+Timpani 1004: -33.5 dB, neighbours -32.2 -> -1.3; 0.3 s -33.1
+Timpani 1008: -31.0 dB, neighbours -32.1 -> +1.1; 0.3 s -33.5
+Violins I pairs: median -3.4, min -7.6, worst-of-pair median -7.6
+Violins I pairs: median -2.5, min -7.4, worst-of-pair median -3.2
+Violins II pairs: median -4.6, min -7.0, worst-of-pair median -6.7
+Violins II 309-361: 7 repeats, dip median 2.8 dB, min 0.6; peaks
+Horn 1 442: bright -15.9 dB (note before -27.4), body -58.2 dB (before -40.5)
+Horn 1 598: bright -16.6 dB (note before -31.8), body -61.5 dB (before -47.9)
+Horn 1 1077: bright -16.0 dB (note before -31.6), body -57.4 dB (before -47.6)

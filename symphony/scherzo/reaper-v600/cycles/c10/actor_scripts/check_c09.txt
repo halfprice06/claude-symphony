@@ -1,0 +1,70 @@
+== A #1 flute staccato quarters: step at note-off (25-5 ms before vs 20-40 ms after), median; Fl1/Fl2 pair dips
+  Flute 1: median step 7.6 dB (n 77)
+  Flute 2: median step 7.3 dB (n 43)
+  Clarinet 2: median step 3.9 dB (n 58)
+== A #2 bar 301 drops (sf peak 900 +-0.15 s vs median 900.9-901.9)
+  Flute 1: 6.9 dB (sf peak -25.9)
+  Flute 2: 3.0 dB (sf peak -32.5)
+  Oboe 1: 8.0 dB (sf peak -29.5)
+  Violins I: 13.7 dB (sf peak -15.4)
+  Master: 9.6 dB (sf peak -11.1)
+== A #3 horn repeat dips (30 ms: min in -0.12..+0.03 s of the moved onset vs lower body)
+  Horn 1 (630, 633, 663): [-1.8, -1.5, -2.7]
+  Horn 2 (627, 642, 651, 657): [1.3, 1.1, 0.2, 6.0]
+== A #4 / B #4 celli trio tune: level 505.4-506.0 vs body 506.5-508; bar 169 master vs 170-172
+  celli spike +14.7 dB; master bar169 -28.8 vs 170-172 -35.8
+  celli 506-552 pcX median -63 ms, IQR -137..+51 (n 29)
+  entry Violoncellos 504.0: pcX 367 ms
+  entry Double basses 504.0: pcX 166 ms
+  entry Double basses 1071.0: pcX 164 ms
+== A #5 Flute 1+2 sum pair dips (min -60..+30 ms vs max first 80 ms of the second eighth)
+   [2.3, 12.5, 6.8, 5.9]
+== A #6 Violins I heads: first / second eighth vs half body; first eighth vs next quarter
+  39: -5.6 / -3.1  (vs quarter -3.4)
+  51: -3.1 / +2.2  (vs quarter -11.1)
+  75: -6.5 / -1.8  (vs quarter -9.8)
+  285: -3.0 / +1.6  (vs quarter -5.7)
+  759: -4.3 / +0.3  (vs quarter -6.3)
+== B #1 coda build K per bar 329-333: Ob2 / Cl1 / Cl2 / CA / Hn3 / Hn4 / Hn1 / V1 / master
+  329: -41.0 / -34.9 / -39.7 / -44.6 / -200.0 / -200.0 / -200.0 / -31.8 / -27.2
+  330: -37.1 / -33.9 / -37.7 / -35.7 / -58.7 / -69.0 / -200.0 / -33.7 / -25.2
+  331: -27.0 / -30.2 / -40.1 / -37.9 / -39.8 / -38.4 / -66.5 / -30.4 / -22.3
+  332: -33.2 / -30.9 / -34.1 / -35.4 / -33.8 / -33.7 / -34.9 / -30.0 / -20.8
+  333: -35.0 / -36.2 / -34.2 / -40.2 / -33.3 / -31.4 / -31.6 / -23.1 / -18.4
+== B #2 hot pitches K: Oboe 2 at 990 vs 987 / 993; Ob2 vs Ob1 903; CA 327 vs V1; Ob1 - Fl1 bar 41
+  Ob2 987 -37.4 990 -26.4 993 -32.9; 903 Ob2 -27.9 Ob1 -36.0; CA 327 -28.6 V1 -24.0; bar41 Ob1 -32.8 Fl1 -41.1
+== B #3 bars 221-223 K: Horn 1 / V1 / V2 / Fl1
+  221: -35.9 / -34.6 / -38.6 / -39.7
+  222: -35.9 / -32.7 / -36.8 / -33.1
+  223: -41.4 / -33.7 / -37.4 / -37.0
+== B #5 reprise pizz. pp 756-810 note level (first 0.1 s): Violins II / Violas, beat 2 / beat 3
+  Violins II: beat2 -51.2 beat3 nan (n 12/0)
+  Violas: beat2 -59.7 beat3 nan (n 14/0)
+== C #1 swells (0.5 qn windows): Hn1 439 / 441; Cl1 470.5 / 472.5; Hn3 1027 / 1029.5; V1 541 / 542.5; master bar 148
+  Horn 1: -40.9 -> -31.6
+  Clarinet 1: -42.0 -> -32.7
+  Horn 3: -45.5 -> -36.6
+  Violins I: -42.5 -> -37.7
+  master bar 147 -36.0 bar 148 -33.2; master 473 -31.2 vs 466-470 -37.8
+== C #2 bar 45 / 121: V1 accented note body vs arrival (136 / 364); master < (first beat vs last beat)
+  132: V1 acc -31.2 arrival -35.1; master -26.2 -> -25.9
+  360: V1 acc -38.5 arrival -38.7; master -33.9 -> -35.7
+== C #3 Horn 1 close 1122 / 1123-1127; master bar 375 / 376
+  Hn1 1122 -53.3; -52.9 -51.4 -49.4 -48.7; master 375 -44.1 376 -46.1
+== C #4 harp 216-240 per bar
+  -40.7 -41.5 -39.6 -37.9 -37.4 -39.5 -40.6 -37.7
+== C #5 timpani 612-624 per qn
+  -51.3 -49.7 -49.8 -49.0 -47.9 -48.0 -43.4 -40.9 -42.8 -44.0 -40.9 -41.2 -38.7 | V1/Vla/Vc 622-623 -53.6/-35.8/-38.1
+== width: trumpets / trombones stem R/L balance dB, L-R correlation
+  Trumpet 1: +3.63 dB, corr 0.55
+  Trumpet 2: +2.95 dB, corr 0.58
+  Trombone 1: +3.34 dB, corr 0.50
+  Trombone 2: +3.17 dB, corr 0.61
+  Bass trombone: +2.11 dB, corr 0.64
+== ONE_TIME 11: inner held notes Hn3 / Hn4 456-504 vs Cl1
+  Hn3 -53.5 Hn4 -50.2 Cl1 -38.9
+== decay: G.P. (1016) and final chord (1128), master; soft ends
+  1016: drop +0.3/+0.6/+1.0 20.5 / 31.4 / 46.6  t20 0.30  RT60 1.34
+  1128: drop +0.3/+0.6/+1.0 20.2 / 31.5 / 40.4  t20 0.31  RT60 1.42
+  soft ends (stem + R Strings, -10 dB): ['Violins I 23.0: 0.13', 'Violins II 444.5: 0.71', 'Violins I 1128.0: 0.14', 'Violin I solo 1066.8: 0.16']
+  returns re dry -11.67 dB

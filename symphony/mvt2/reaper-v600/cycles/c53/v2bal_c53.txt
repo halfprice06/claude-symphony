@@ -1,0 +1,5 @@
+Violins I - II per quarter beat: 196.25: +2.1  196.5: +3.5  196.75: +4.4  197: +2.6  197.25: +1.6  197.5: +1.9  197.75: -0.3  198: +2.2  198.25: +3.0
+Violins I - II on the bodies: 204: +2.0 (II -24.9)  206: +nan (II -26.2)  208: +2.6 (II -28.5)  210: +4.1 (II -26.9)
+Violas 81: gap floor -47.6 dB at -0.092 s, dip 10.6 dB under the 0.3 s before; back within 3 dB of the body (-46.4) at -0.092 s
+Horn 2 208: gap floor -36.3 dB at -0.010 s, dip 9.6 dB under the 0.3 s before; back within 3 dB of the body (-29.7) at +0.060 s
+Violoncellos div vol_db 283.95-284.06: 283.952:-0.6 283.987:-0.6 284.000:-0.6 284.037:-2.0 284.054:-2.0

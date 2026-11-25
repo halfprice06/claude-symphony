@@ -1,0 +1,3 @@
+n1 127.5 160.5 Violins_I:128.4:158
+n2 303.5 385 Violins_I:304:384 Violas:304:384 Violoncellos:304:384
+n3 447.5 481 Violins_I:448:480 Violins_II:448:480

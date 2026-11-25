@@ -1,0 +1,14 @@
+bar  23 beat 1.0 p75 note-on  -170 ms  sounds  -100 ms  heard  550 ms of  476 (115 %) pk -42 dB
+bar  23 beat 2.0 p74 note-on  -170 ms  sounds   -21 ms  heard  480 ms of  469 (102 %) pk -40 dB
+bar  23 beat 3.0 p72 note-on  -170 ms  sounds    -5 ms  heard  105 ms of  469 ( 22 %) pk -42 dB
+bar  23 beat 4.0 p77 note-on  -260 ms  sounds   -10 ms  heard  435 ms of  469 ( 93 %) pk -36 dB
+bar  24 beat 1.0 p75 note-on  -170 ms  sounds   -39 ms  heard  495 ms of  469 (106 %) pk -40 dB
+bar  24 beat 2.0 p74 note-on  -211 ms  sounds   +47 ms  heard  595 ms of  469 (127 %) pk -34 dB
+bar  24 beat 3.0 p79 note-on  -220 ms  sounds  +178 ms  heard  255 ms of  469 ( 54 %) pk -36 dB
+bar  24 beat 4.0 p77 note-on  -170 ms  sounds   +19 ms  heard  500 ms of  469 (107 %) pk -36 dB
+bar  25 beat 1.0 p75 note-on  -170 ms  sounds   +55 ms  heard  430 ms of  469 ( 92 %) pk -32 dB
+bar  25 beat 2.0 p80 note-on  -161 ms  sounds   +21 ms  heard  470 ms of  469 (100 %) pk -32 dB
+bar  25 beat 3.0 p79 note-on  -110 ms  sounds   +26 ms  heard  440 ms of  469 ( 94 %) pk -33 dB
+bar  25 beat 4.0 p77 note-on  -240 ms  sounds   +47 ms  heard  405 ms of  469 ( 86 %) pk -31 dB
+bar  26 beat 1.0 p83 note-on  -220 ms  sounds   -12 ms  heard 2070 ms of 1429 (145 %) pk -29 dB
+Violins I      88-103: found 13 of 13 (+0 same-pitch repeats, 0 with a dip >= 3 dB), median +19 ms, SD 62, min -100, max +178; over 40 ms from median 4, over 25 ms 9; not sounding 0; under 60 % of printed length 2; eighths > 6 dB under neighbours 0; median share 100 %

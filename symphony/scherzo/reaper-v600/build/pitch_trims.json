@@ -1,0 +1,130 @@
+{
+ "_doc": "Per-pitch level trims in dB {track: {midi pitch: dB}} (score_to_parts.py PITCH_TRIMS; '_all_arts': every articulation, '_arts': only these rows; pizz. trims are steps). c01 (critic B #1): horn residuals on the 1FH KS Master at flat CC1/CC11 (Horn 4 E3 +4.2, Horn 3 B3 -3.2, G sharp 4 -4.0/-7.6, F sharp 4 -4.0/-3.7, E4 +2.7/+5.3, Horn 4 F sharp 3 -4.9). c01 (critic A #5): Double basses pizz. residuals by pitch (A1 +6.6, A1+A2 +5.7, G sharp 1 +5.4, E1 -2.0, E2 -2.4). Simultaneous notes' trims add in the envelope, so the div. pizz. octaves (bars 253-268) take their trim from the lower note only: no 44/45 entries (A1+A2 would have summed to -11 dB against a +5.7 residual). c02 (critic B #6): Violoncellos pizz. residuals by pitch over 50 single notes (G2 +8.4, F sharp 2 +8.1, D sharp 2 +7.9, G sharp 2 +5.7, B2 +1.4 with a 4.4 dB spread): G2/F sharp 2/D sharp 2 -6, G sharp 2 -4, B2 -3. c03 (critic A #4): clarinet Leg Slur body residuals per pitch at one CC (Clarinet 1 G sharp 4 -5.8, B4 -3.5, A4 +4.0, C5 +3.2; Clarinet 2 C sharp 4 -6.6), about two thirds trimmed; the rows include Leg Slur Rep (c03 ROW_REMAP). c04: critic C #4 Clarinet 1 B4 3 -> 7.5, C#5 +4.5, D#5 -2.5, G#5 -3.5, A5 -4 (two thirds of the measured body residuals in both trio statements). c06 (critic A #6): Clarinet 1 B4 7.5 -> 4.5 (B4 bumped 5-7 dB over its neighbours).",
+ "Horn 4": {
+  "52": -4,
+  "54": 4,
+  "66": 4,
+  "68": 3.5,
+  "_all_arts": true
+ },
+ "Horn 1": {
+  "66": 4,
+  "68": 3.5,
+  "_all_arts": true
+ },
+ "Horn 2": {
+  "66": 4,
+  "68": 3.5,
+  "64": -3,
+  "_all_arts": true
+ },
+ "Horn 3": {
+  "64": -3,
+  "68": 3.5,
+  "_all_arts": true,
+  "54": 3
+ },
+ "Double basses": {
+  "_arts": [
+   "Pizz RRx4"
+  ],
+  "32": -5.0,
+  "33": -6.0,
+  "28": 0.0,
+  "40": 0.0
+ },
+ "Violoncellos": {
+  "_arts": [
+   "Pizzicato RRx4"
+  ],
+  "43": -6.0,
+  "42": -6.0,
+  "39": -6.0,
+  "44": -4.0,
+  "47": -3.0
+ },
+ "Clarinet 1": {
+  "68": 4.0,
+  "71": 4.5,
+  "69": -2.5,
+  "72": -2.0,
+  "_arts": [
+   "Leg Slur",
+   "Leg Slur Rep",
+   "Sus Non Vib"
+  ],
+  "73": 4.5,
+  "75": -2.5,
+  "80": -3.5,
+  "81": -4.0,
+  "_skip_onsets": [
+   108.0,
+   624.0,
+   627.0,
+   634.0,
+   638.0,
+   639.0,
+   646.0,
+   648.0,
+   657.0,
+   658.0,
+   660.0,
+   661.0
+  ]
+ },
+ "Clarinet 2": {
+  "61": 4.0,
+  "_arts": [
+   "Leg Slur",
+   "Leg Slur Rep",
+   "Sus Non Vib"
+  ],
+  "_skip_onsets": [
+   600.0
+  ]
+ },
+ "Flute 2": {
+  "87": -1.25,
+  "88": -1.5,
+  "89": -1.75,
+  "90": -1.25,
+  "91": -1.25,
+  "92": -2.0,
+  "93": -2.0,
+  "_all_arts": true
+ },
+ "Oboe 2": {
+  "77": -4,
+  "_all_arts": true
+ },
+ "Cor anglais": {
+  "69": -3.5,
+  "_arts": [
+   "Sus MAX",
+   "Leg Slur MAX"
+  ]
+ },
+ "Oboe 1": {
+  "81": -3,
+  "_arts": [
+   "Stac DblTng RRx9"
+  ]
+ },
+ "_c11": "c11: B #1 Clarinet 1 _skip_onsets + 624 627 634 638 639 646 648 657 658 660 661 (accompaniment under the violins' tune)",
+ "_c12": "c12: B #6 Horn 3 pitch 54 +3",
+ "Trumpet 1": {
+  "69": 3,
+  "_arts": [
+   "Sus Non Vib MAX"
+  ]
+ },
+ "Flute 1": {
+  "71": 6.0,
+  "74": 5.0,
+  "83": 3.0,
+  "_arts": [
+   "Stac DblTng RRx9"
+  ]
+ },
+ "_c14": "c14: B #2 basses' pizz. E1 +2 -> 0, E2 +1 -> 0 (the EQ cuts they pushed against are gone; the div. octaves take both); B #5 Flute 1's staccato row B4 +6, D5 +5, B5 +3."
+}

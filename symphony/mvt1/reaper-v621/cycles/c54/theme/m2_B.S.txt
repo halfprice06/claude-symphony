@@ -1,0 +1,4 @@
+Violins I     536-551.9 S: n 13 of 13  median -18  robust SD 18  SD 30  min -32 max +62  >25 from median 3  >40 2  >60 2
+Violins I     552-576 S: n 25 of 25  median +8  robust SD 15  SD 20  min -14 max +55  >25 from median 5  >40 3  >60 0
+Violins II    552-576 S: n 20 of 20  median -3  robust SD 16  SD 20  min -36 max +56  >25 from median 3  >40 1  >60 0
+Violoncellos  520-536 S: n 19 of 19  median +10  robust SD 15  SD 31  min -92 max +65  >25 from median 5  >40 2  >60 1

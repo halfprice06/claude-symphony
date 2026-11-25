@@ -1,0 +1,897 @@
+{
+ "Violins II": {
+  "177.5": {
+   "d": 0.08,
+   "old_row": null,
+   "new_row": 0.08,
+   "pcx": 154,
+   "cross": 78,
+   "row": 0.064,
+   "real": 0.0796,
+   "lead_old": 0.2244,
+   "lead_new": 0.304
+  },
+  "181.333": {
+   "d": 0.1,
+   "old_row": null,
+   "new_row": 0.1,
+   "pcx": 116,
+   "cross": 142,
+   "row": 0.1,
+   "real": 0.0989,
+   "lead_old": 0.1484,
+   "lead_new": 0.2473
+  },
+  "182": {
+   "d": 0.1,
+   "old_row": null,
+   "new_row": 0.1,
+   "pcx": 102,
+   "cross": 102,
+   "row": 0.1,
+   "real": 0.0988,
+   "lead_old": 0.1482,
+   "lead_new": 0.247
+  },
+  "186": {
+   "d": 0.08,
+   "old_row": null,
+   "new_row": 0.08,
+   "pcx": 85,
+   "cross": 110,
+   "row": 0.061,
+   "real": 0.0806,
+   "lead_old": 0.2205,
+   "lead_new": 0.301
+  },
+  "56": {
+   "d": -0.08,
+   "old_row": null,
+   "new_row": -0.08,
+   "pcx": -92,
+   "cross": -80,
+   "row": -0.08,
+   "real": -0.08,
+   "lead_old": 0.24,
+   "lead_new": 0.16
+  },
+  "70": {
+   "d": -0.1,
+   "old_row": null,
+   "new_row": -0.1,
+   "pcx": -123,
+   "cross": -112,
+   "row": -0.1,
+   "real": -0.0999,
+   "lead_old": 0.24,
+   "lead_new": 0.14
+  },
+  "162": {
+   "d": 0.1,
+   "old_row": null,
+   "new_row": 0.1,
+   "pcx": 168,
+   "cross": 100,
+   "row": 0.1,
+   "real": 0.1,
+   "lead_old": 0.24,
+   "lead_new": 0.34
+  },
+  "168": {
+   "d": 0.07,
+   "old_row": null,
+   "new_row": 0.07,
+   "pcx": 101,
+   "cross": 68,
+   "row": 0.07,
+   "real": 0.0701,
+   "lead_old": 0.2399,
+   "lead_new": 0.3101
+  },
+  "181": {
+   "d": -0.09,
+   "old_row": null,
+   "new_row": -0.09,
+   "pcx": -98,
+   "cross": -108,
+   "row": -0.09,
+   "real": -0.09,
+   "lead_old": 0.24,
+   "lead_new": 0.15
+  },
+  "195.5": {
+   "d": -0.1,
+   "old_row": null,
+   "new_row": -0.1,
+   "pcx": -124,
+   "cross": -108,
+   "row": -0.1,
+   "real": -0.1,
+   "lead_old": 0.24,
+   "lead_new": 0.14
+  },
+  "199": {
+   "d": 0.09,
+   "old_row": null,
+   "new_row": 0.09,
+   "pcx": 102,
+   "cross": 88,
+   "row": 0.09,
+   "real": 0.09,
+   "lead_old": 0.24,
+   "lead_new": 0.33
+  },
+  "204": {
+   "d": 0.05,
+   "old_row": 0.06,
+   "new_row": 0.11,
+   "pcx": 83,
+   "cross": 46,
+   "row": 0.11,
+   "real": 0.05,
+   "lead_old": 0.23,
+   "lead_new": 0.28
+  },
+  "208": {
+   "d": 0.06,
+   "old_row": null,
+   "new_row": 0.06,
+   "pcx": 123,
+   "cross": 64,
+   "row": 0.06,
+   "real": 0.06,
+   "lead_old": 0.17,
+   "lead_new": 0.23
+  },
+  "238": {
+   "d": -0.06,
+   "old_row": null,
+   "new_row": -0.06,
+   "pcx": -61,
+   "cross": -82,
+   "row": -0.06,
+   "real": -0.06,
+   "lead_old": 0.24,
+   "lead_new": 0.18
+  },
+  "244": {
+   "d": -0.08,
+   "old_row": null,
+   "new_row": -0.08,
+   "pcx": -133,
+   "cross": -84,
+   "row": -0.08,
+   "real": -0.08,
+   "lead_old": 0.24,
+   "lead_new": 0.16
+  },
+  "246": {
+   "d": -0.09,
+   "old_row": null,
+   "new_row": -0.09,
+   "pcx": -86,
+   "cross": -92,
+   "row": -0.09,
+   "real": -0.09,
+   "lead_old": 0.24,
+   "lead_new": 0.15
+  },
+  "247": {
+   "d": -0.07,
+   "old_row": null,
+   "new_row": -0.07,
+   "pcx": -69,
+   "cross": -74,
+   "row": -0.07,
+   "real": -0.07,
+   "lead_old": 0.24,
+   "lead_new": 0.17
+  },
+  "255": {
+   "d": -0.05,
+   "old_row": null,
+   "new_row": -0.05,
+   "pcx": -92,
+   "cross": -52,
+   "row": -0.05,
+   "real": -0.05,
+   "lead_old": 0.24,
+   "lead_new": 0.19
+  }
+ },
+ "Violins I": {
+  "182": {
+   "d": 0.05,
+   "old_row": null,
+   "new_row": 0.05,
+   "pcx": 74,
+   "cross": 54,
+   "row": 0.028,
+   "real": 0.0498,
+   "lead_old": 0.1482,
+   "lead_new": 0.198
+  },
+  "185.5": {
+   "d": 0.07,
+   "old_row": null,
+   "new_row": 0.07,
+   "pcx": 95,
+   "cross": 68,
+   "row": 0.07,
+   "real": 0.07,
+   "lead_old": 0.17,
+   "lead_new": 0.24
+  },
+  "186": {
+   "d": 0.06,
+   "old_row": null,
+   "new_row": 0.06,
+   "pcx": 110,
+   "cross": 60,
+   "row": 0.06,
+   "real": 0.06,
+   "lead_old": 0.17,
+   "lead_new": 0.23
+  },
+  "192": {
+   "d": 0.07,
+   "old_row": 0.04,
+   "new_row": 0.11,
+   "pcx": 137,
+   "cross": 74,
+   "row": 0.11,
+   "real": 0.07,
+   "lead_old": 0.21,
+   "lead_new": 0.28
+  },
+  "258.5": {
+   "d": 0.09,
+   "old_row": null,
+   "new_row": 0.09,
+   "pcx": 211,
+   "cross": 88,
+   "row": 0.09,
+   "real": 0.0901,
+   "lead_old": 0.17,
+   "lead_new": 0.26
+  },
+  "67.5": {
+   "d": -0.06,
+   "old_row": null,
+   "new_row": -0.06,
+   "pcx": -70,
+   "cross": -64,
+   "row": -0.06,
+   "real": -0.06,
+   "lead_old": 0.1701,
+   "lead_new": 0.11
+  },
+  "72": {
+   "d": 0.07,
+   "old_row": null,
+   "new_row": 0.07,
+   "pcx": 72,
+   "cross": 108,
+   "row": 0.07,
+   "real": 0.07,
+   "lead_old": 0.17,
+   "lead_new": 0.24
+  },
+  "74": {
+   "d": 0.07,
+   "old_row": null,
+   "new_row": 0.07,
+   "pcx": 66,
+   "cross": 80,
+   "row": 0.07,
+   "real": 0.07,
+   "lead_old": 0.17,
+   "lead_new": 0.24
+  },
+  "78": {
+   "d": 0.07,
+   "old_row": null,
+   "new_row": 0.07,
+   "pcx": 105,
+   "cross": 72,
+   "row": 0.07,
+   "real": 0.07,
+   "lead_old": 0.17,
+   "lead_new": 0.24
+  },
+  "79.5": {
+   "d": 0.04,
+   "old_row": null,
+   "new_row": 0.04,
+   "pcx": 146,
+   "cross": 42,
+   "row": 0.04,
+   "real": 0.04,
+   "lead_old": 0.17,
+   "lead_new": 0.21
+  },
+  "174.5": {
+   "d": 0.05,
+   "old_row": null,
+   "new_row": 0.05,
+   "pcx": 70,
+   "cross": 52,
+   "row": 0.05,
+   "real": 0.05,
+   "lead_old": 0.17,
+   "lead_new": 0.22
+  },
+  "191.5": {
+   "d": -0.06,
+   "old_row": null,
+   "new_row": -0.06,
+   "pcx": -78,
+   "cross": -60,
+   "row": -0.06,
+   "real": -0.06,
+   "lead_old": 0.17,
+   "lead_new": 0.11
+  },
+  "199": {
+   "d": 0.08,
+   "old_row": null,
+   "new_row": 0.08,
+   "pcx": 124,
+   "cross": 76,
+   "row": 0.08,
+   "real": 0.08,
+   "lead_old": 0.17,
+   "lead_new": 0.25
+  },
+  "242": {
+   "d": -0.07,
+   "old_row": null,
+   "new_row": -0.07,
+   "pcx": -78,
+   "cross": -66,
+   "row": -0.07,
+   "real": -0.07,
+   "lead_old": 0.1701,
+   "lead_new": 0.1
+  },
+  "244": {
+   "d": 0.08,
+   "old_row": null,
+   "new_row": 0.08,
+   "pcx": 84,
+   "cross": 90,
+   "row": 0.08,
+   "real": 0.0801,
+   "lead_old": 0.17,
+   "lead_new": 0.25
+  },
+  "252": {
+   "d": 0.06,
+   "old_row": null,
+   "new_row": 0.06,
+   "pcx": 116,
+   "cross": 62,
+   "row": 0.06,
+   "real": 0.06,
+   "lead_old": 0.17,
+   "lead_new": 0.23
+  },
+  "254": {
+   "d": 0.07,
+   "old_row": null,
+   "new_row": 0.07,
+   "pcx": 122,
+   "cross": 70,
+   "row": 0.07,
+   "real": 0.07,
+   "lead_old": 0.17,
+   "lead_new": 0.24
+  }
+ },
+ "Violas": {
+  "193.667": {
+   "d": 0.09,
+   "old_row": null,
+   "new_row": 0.09,
+   "pcx": 100,
+   "cross": 94,
+   "row": 0.09,
+   "real": 0.096,
+   "lead_old": 0.1439,
+   "lead_new": 0.2399
+  },
+  "195.333": {
+   "d": 0.06,
+   "old_row": null,
+   "new_row": 0.06,
+   "pcx": 64,
+   "cross": 81,
+   "row": -0.022,
+   "real": 0.0603,
+   "lead_old": 0.1427,
+   "lead_new": 0.203
+  },
+  "195.667": {
+   "d": 0.07,
+   "old_row": null,
+   "new_row": 0.07,
+   "pcx": 69,
+   "cross": 156,
+   "row": -0.013,
+   "real": 0.0697,
+   "lead_old": 0.1424,
+   "lead_new": 0.212
+  },
+  "250": {
+   "d": 0.05,
+   "old_row": null,
+   "new_row": 0.05,
+   "pcx": 65,
+   "cross": 53,
+   "row": 0.05,
+   "real": 0.05,
+   "lead_old": 0.225,
+   "lead_new": 0.275
+  },
+  "257": {
+   "d": 0.07,
+   "old_row": null,
+   "new_row": 0.07,
+   "pcx": 71,
+   "cross": 73,
+   "row": 0.07,
+   "real": 0.07,
+   "lead_old": 0.225,
+   "lead_new": 0.295
+  },
+  "109.333": {
+   "d": -0.07,
+   "old_row": null,
+   "new_row": -0.07,
+   "pcx": -67,
+   "cross": -91,
+   "row": -0.07,
+   "real": -0.07,
+   "lead_old": 0.225,
+   "lead_new": 0.155
+  },
+  "110": {
+   "d": -0.07,
+   "old_row": null,
+   "new_row": -0.07,
+   "pcx": -70,
+   "cross": -91,
+   "row": -0.07,
+   "real": -0.07,
+   "lead_old": 0.225,
+   "lead_new": 0.155
+  },
+  "111.333": {
+   "d": -0.07,
+   "old_row": null,
+   "new_row": -0.07,
+   "pcx": -67,
+   "cross": -85,
+   "row": -0.07,
+   "real": -0.07,
+   "lead_old": 0.225,
+   "lead_new": 0.155
+  },
+  "118": {
+   "d": -0.05,
+   "old_row": null,
+   "new_row": -0.05,
+   "pcx": -80,
+   "cross": -47,
+   "row": -0.05,
+   "real": -0.05,
+   "lead_old": 0.225,
+   "lead_new": 0.175
+  },
+  "247": {
+   "d": -0.08,
+   "old_row": null,
+   "new_row": -0.08,
+   "pcx": -93,
+   "cross": -77,
+   "row": -0.08,
+   "real": -0.08,
+   "lead_old": 0.225,
+   "lead_new": 0.145
+  },
+  "292": {
+   "d": 0.05,
+   "old_row": null,
+   "new_row": 0.05,
+   "pcx": 68,
+   "cross": 51,
+   "row": 0.05,
+   "real": 0.05,
+   "lead_old": 0.145,
+   "lead_new": 0.195
+  }
+ },
+ "Violoncellos": {
+  "68.5": {
+   "d": 0.07,
+   "old_row": null,
+   "new_row": 0.07,
+   "pcx": 109,
+   "cross": 70,
+   "row": 0.07,
+   "real": 0.0701,
+   "lead_old": 0.22,
+   "lead_new": 0.2901
+  },
+  "145.5": {
+   "d": 0.1,
+   "old_row": null,
+   "new_row": 0.1,
+   "pcx": 302,
+   "cross": 100,
+   "row": 0.092,
+   "real": 0.0999,
+   "lead_old": 0.2121,
+   "lead_new": 0.312
+  },
+  "60": {
+   "d": -0.06,
+   "old_row": null,
+   "new_row": -0.06,
+   "pcx": -64,
+   "cross": -60,
+   "row": -0.06,
+   "real": -0.06,
+   "lead_old": 0.17,
+   "lead_new": 0.11
+  },
+  "76": {
+   "d": -0.06,
+   "old_row": null,
+   "new_row": -0.06,
+   "pcx": -71,
+   "cross": -64,
+   "row": -0.06,
+   "real": -0.0599,
+   "lead_old": 0.22,
+   "lead_new": 0.16
+  },
+  "77": {
+   "d": 0.07,
+   "old_row": null,
+   "new_row": 0.07,
+   "pcx": 96,
+   "cross": 70,
+   "row": 0.07,
+   "real": 0.0699,
+   "lead_old": 0.2201,
+   "lead_new": 0.2899
+  },
+  "81": {
+   "d": -0.06,
+   "old_row": null,
+   "new_row": -0.06,
+   "pcx": -73,
+   "cross": -60,
+   "row": -0.06,
+   "real": -0.06,
+   "lead_old": 0.17,
+   "lead_new": 0.11
+  },
+  "145": {
+   "d": -0.05,
+   "old_row": null,
+   "new_row": -0.05,
+   "pcx": -66,
+   "cross": -50,
+   "row": -0.05,
+   "real": -0.05,
+   "lead_old": 0.22,
+   "lead_new": 0.17
+  },
+  "156": {
+   "d": 0.1,
+   "old_row": null,
+   "new_row": 0.1,
+   "pcx": 118,
+   "cross": 120,
+   "row": 0.1,
+   "real": 0.1,
+   "lead_old": 0.22,
+   "lead_new": 0.32
+  },
+  "184": {
+   "d": 0.06,
+   "old_row": null,
+   "new_row": 0.06,
+   "pcx": 210,
+   "cross": 60,
+   "row": 0.06,
+   "real": 0.06,
+   "lead_old": 0.17,
+   "lead_new": 0.23
+  },
+  "188": {
+   "d": 0.07,
+   "old_row": null,
+   "new_row": 0.07,
+   "pcx": 206,
+   "cross": 72,
+   "row": 0.07,
+   "real": 0.07,
+   "lead_old": 0.17,
+   "lead_new": 0.2401
+  },
+  "193": {
+   "d": -0.07,
+   "old_row": null,
+   "new_row": -0.07,
+   "pcx": -83,
+   "cross": -84,
+   "row": -0.07,
+   "real": -0.07,
+   "lead_old": 0.17,
+   "lead_new": 0.1
+  },
+  "219.5": {
+   "d": -0.07,
+   "old_row": null,
+   "new_row": -0.07,
+   "pcx": -74,
+   "cross": -70,
+   "row": -0.07,
+   "real": -0.07,
+   "lead_old": 0.22,
+   "lead_new": 0.15
+  },
+  "240": {
+   "d": -0.06,
+   "old_row": 0.08,
+   "new_row": 0.02,
+   "pcx": -77,
+   "cross": -60,
+   "row": 0.02,
+   "real": -0.06,
+   "lead_old": 0.3,
+   "lead_new": 0.24
+  },
+  "244": {
+   "d": -0.08,
+   "old_row": null,
+   "new_row": -0.08,
+   "pcx": -101,
+   "cross": -82,
+   "row": -0.08,
+   "real": -0.0801,
+   "lead_old": 0.22,
+   "lead_new": 0.14
+  },
+  "261": {
+   "d": 0.08,
+   "old_row": null,
+   "new_row": 0.08,
+   "pcx": 105,
+   "cross": 84,
+   "row": 0.08,
+   "real": 0.0799,
+   "lead_old": 0.17,
+   "lead_new": 0.25
+  },
+  "292": {
+   "d": -0.07,
+   "old_row": null,
+   "new_row": -0.07,
+   "pcx": -71,
+   "cross": -90,
+   "row": -0.07,
+   "real": -0.07,
+   "lead_old": 0.22,
+   "lead_new": 0.15
+  }
+ },
+ "Flute 1": {
+  "111": {
+   "d": -0.06,
+   "old_row": null,
+   "new_row": -0.06,
+   "pcx": -61,
+   "cross": -94,
+   "row": -0.06,
+   "real": -0.06,
+   "lead_old": 0.15,
+   "lead_new": 0.09
+  },
+  "113": {
+   "d": 0.05,
+   "old_row": null,
+   "new_row": 0.05,
+   "pcx": 85,
+   "cross": 52,
+   "row": 0.05,
+   "real": 0.05,
+   "lead_old": 0.03,
+   "lead_new": 0.08
+  },
+  "113.5": {
+   "d": 0.06,
+   "old_row": null,
+   "new_row": 0.06,
+   "pcx": 81,
+   "cross": 56,
+   "row": 0.06,
+   "real": 0.06,
+   "lead_old": 0.03,
+   "lead_new": 0.09
+  },
+  "121": {
+   "d": 0.06,
+   "old_row": null,
+   "new_row": 0.06,
+   "pcx": 104,
+   "cross": 64,
+   "row": 0.06,
+   "real": 0.06,
+   "lead_old": 0.03,
+   "lead_new": 0.09
+  },
+  "135": {
+   "d": -0.1,
+   "old_row": null,
+   "new_row": -0.1,
+   "pcx": -163,
+   "cross": -118,
+   "row": -0.1,
+   "real": -0.1,
+   "lead_old": 0.21,
+   "lead_new": 0.11
+  },
+  "200": {
+   "d": -0.1,
+   "old_row": 0.2,
+   "new_row": 0.1,
+   "pcx": -112,
+   "cross": -184,
+   "row": 0.1,
+   "real": -0.1,
+   "lead_old": 0.23,
+   "lead_new": 0.13
+  }
+ },
+ "Oboe 1": {
+  "57": {
+   "d": 0.08,
+   "old_row": null,
+   "new_row": 0.08,
+   "pcx": 94,
+   "cross": 76,
+   "row": 0.08,
+   "real": 0.08,
+   "lead_old": 0.06,
+   "lead_new": 0.14
+  },
+  "193.5": {
+   "d": 0.05,
+   "old_row": null,
+   "new_row": 0.05,
+   "pcx": 140,
+   "cross": 48,
+   "row": 0.05,
+   "real": 0.05,
+   "lead_old": 0.06,
+   "lead_new": 0.11
+  },
+  "269.5": {
+   "d": 0.05,
+   "old_row": null,
+   "new_row": 0.05,
+   "pcx": 124,
+   "cross": 48,
+   "row": 0.05,
+   "real": 0.0499,
+   "lead_old": 0.0601,
+   "lead_new": 0.11
+  }
+ },
+ "Bass clarinet": {
+  "31": {
+   "d": 0.04,
+   "old_row": null,
+   "new_row": 0.04,
+   "pcx": 60,
+   "cross": 44,
+   "row": 0.04,
+   "real": 0.0401,
+   "lead_old": 0.09,
+   "lead_new": 0.13
+  }
+ },
+ "Bassoon 1": {
+  "143": {
+   "d": 0.1,
+   "old_row": null,
+   "new_row": 0.1,
+   "pcx": 175,
+   "cross": 102,
+   "row": 0.1,
+   "real": 0.1,
+   "lead_old": 0.06,
+   "lead_new": 0.16
+  },
+  "253": {
+   "d": 0.08,
+   "old_row": null,
+   "new_row": 0.08,
+   "pcx": 0.085,
+   "cross": 0.086,
+   "row": 0.08,
+   "real": 0.08,
+   "lead_old": 0.06,
+   "lead_new": 0.14
+  }
+ },
+ "Bassoon 2": {
+  "261": {
+   "d": 0.05,
+   "old_row": null,
+   "new_row": 0.05,
+   "pcx": 248,
+   "cross": 54,
+   "row": 0.05,
+   "real": 0.0501,
+   "lead_old": 0.06,
+   "lead_new": 0.11
+  }
+ },
+ "Horn 1": {
+  "193": {
+   "d": -0.1,
+   "old_row": 0.1,
+   "new_row": 0.0,
+   "pcx": -97,
+   "cross": -182,
+   "row": 0.0,
+   "real": -0.1,
+   "lead_old": 0.35,
+   "lead_new": 0.25
+  }
+ },
+ "Horn 4": {
+  "292": {
+   "d": 0.1,
+   "old_row": null,
+   "new_row": 0.1,
+   "pcx": 137,
+   "cross": 114,
+   "row": 0.1,
+   "real": 0.0999,
+   "lead_old": 0.1,
+   "lead_new": 0.2
+  }
+ },
+ "Double basses": {
+  "83": {
+   "d": -0.1,
+   "old_row": null,
+   "new_row": -0.1,
+   "pcx": -108,
+   "cross": -152,
+   "row": -0.1,
+   "real": -0.1,
+   "lead_old": 0.1701,
+   "lead_new": 0.07
+  }
+ },
+ "Violas div": {
+  "286": {
+   "d": 0.08,
+   "old_row": null,
+   "new_row": 0.08,
+   "pcx": 93,
+   "cross": 82,
+   "row": 0.08,
+   "real": 0.08,
+   "lead_old": 0.2,
+   "lead_new": 0.28
+  }
+ }
+}

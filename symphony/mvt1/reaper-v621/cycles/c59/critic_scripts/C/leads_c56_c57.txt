@@ -1,0 +1,22 @@
+notes matched 5282
+
+LEADS LOST c56->c57: note within 6 dB of the sum of all other dry stems in c56, 0.4 qn+, relative level down 3.5 dB+
+bar  16.38 qn   61.50 Violins I       C5   dur 0.50 own  -36.5-> -42.1 (-5.6) rel  -3.0-> -7.5
+bar  21.88 qn   83.50 Violins I       F5   dur 0.41 own  -38.5-> -42.6 (-4.1) rel  -4.5->-10.1
+bar  22.00 qn   84.00 Violins I       Eb5  dur 0.52 own  -38.3-> -43.9 (-5.6) rel  -5.9->-11.0
+bar  36.50 qn  142.00 Violins I       G4   dur 1.38 own  -42.4-> -51.0 (-8.6) rel  -5.5->-13.1
+bar  37.62 qn  146.50 Violins I       F5   dur 0.52 own  -37.7-> -46.9 (-9.2) rel  -5.5->-13.3
+bar  42.00 qn  164.00 Horn 3          C4   dur 1.04 own  -30.9-> -36.7 (-5.8) rel  -3.3-> -8.3
+bar  45.88 qn  179.50 Clarinet 1      G4   dur 0.52 own  -45.3-> -46.9 (-1.6) rel  -3.9-> -8.8
+bar  77.12 qn  304.50 Bass clarinet   Eb2  dur 0.47 own  -43.5-> -49.9 (-6.4) rel  -4.4-> -8.6
+bar 105.12 qn  416.50 Clarinet 1      D5   dur 0.55 own  -37.2-> -41.4 (-4.2) rel  -3.5-> -7.5
+bar 144.38 qn  573.50 Violins I       C5   dur 0.43 own  -37.6-> -48.0 (-10.3) rel  -2.9->-11.4
+bar 144.50 qn  574.00 Violins I       Ab4  dur 1.54 own  -38.9-> -44.7 (-5.8) rel  -3.1-> -8.2
+bar 144.88 qn  575.50 Violins I       G4   dur 0.41 own  -40.3-> -52.0 (-11.7) rel  -1.7-> -9.4
+bar 179.75 qn  715.00 Violins I       D5   dur 1.08 own  -49.4-> -52.3 (-3.0) rel  -4.5-> -8.9
+
+NEWLY PROMINENT c56->c57: relative level up 4 dB+ and now within 3 dB of all others, 0.4 qn+
+bar  17.00 qn   64.00 Violoncellos    F3   dur 1.96 own  -39.0-> -36.6 (+2.4) rel  -6.9-> -2.8
+bar  21.12 qn   80.50 Violins II      C5   dur 0.50 own  -41.9-> -22.3 (+19.6) rel -13.1-> -1.4
+bar  21.25 qn   81.00 Violins II      Bb4  dur 0.55 own  -43.6-> -23.5 (+20.1) rel -14.9-> -1.6
+bar  21.38 qn   81.50 Violins II      Ab4  dur 0.64 own  -44.2-> -27.3 (+17.0) rel -14.9-> -1.9

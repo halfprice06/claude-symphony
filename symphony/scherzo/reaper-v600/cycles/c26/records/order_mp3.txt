@@ -1,0 +1,26 @@
+== cycles/c25/scherzo-mockup-c25.mp3
+summit 336-339 -7.2 | tutti 105-120 -8.3 | tutti 305-320 -8.5 | bar 300 -8.3 | bar 304 -8.6 | bar 72 -8.6 | bar 333 -9.5 | bar 53 -9.0 | trio ff 209-224 -9.6
+summit over the next loudest: +1.1 LU
+loudest bars: 336 -7.2, 337 -7.5, 338 -7.6, 335 -7.7, 339 -7.8, 110 -8.3, 300 -8.3, 104 -8.4
+bars outside 336-339 within 0.5 LU of the summit: []
+arrivals (bar: M max, rise over bar before): 41: -11.1 +0.5, 72: -8.6 +0.7, 105: -8.8 -0.4, 129: -10.0 +0.0, 197: -11.3 +0.6, 209: -11.1 +1.2, 285: -10.1 +0.4, 300: -8.3 +1.5, 304: -8.6 +0.2, 305: -9.0 -0.4, 329: -12.2 +2.3, 336: -7.2 +0.6
+summit 336-339 -7.2 | tutti 105-120 -8.3 | tutti 305-320 -8.5 | bar 300 -8.3 | bar 304 -8.6 | bar 72 -8.6 | bar 333 -9.5 | bar 53 -9.0 | trio ff 209-224 -9.6
+summit over the next loudest: +1.1 LU
+I -14.0 LUFS, TP -1.3 dBTP, LRA 10.5 LU
+summit M max -7.2, next loudest bar 335 -7.7: lead +0.56 LU
+f mean -11.5, ff mean -9.2: f -> ff +2.31 LU
+quiet means: intro -17.0, theme A -16.7, counterst. -18.4, fugato -21.1, trio dolce -15.9, stretto -27.6, Meno pp -19.3
+arrivals (bar: rise over bar before): 41 +0.5, 72 +0.7, 105 -0.4, 129 +0.0, 197 +0.6, 209 +1.2, 285 +0.4, 300 +1.5, 304 +0.2, 305 -0.4, 329 +2.3, 336 +0.6
+== cycles/c26/scherzo-mockup-c26.mp3
+summit 336-339 -7.1 | tutti 105-120 -8.3 | tutti 305-320 -8.5 | bar 300 -8.4 | bar 304 -8.8 | bar 72 -8.6 | bar 333 -9.6 | bar 53 -8.8 | trio ff 209-224 -9.6
+summit over the next loudest: +1.3 LU
+loudest bars: 336 -7.1, 338 -7.5, 337 -7.7, 335 -7.8, 339 -7.8, 104 -8.3, 110 -8.3, 300 -8.4
+bars outside 336-339 within 0.5 LU of the summit: []
+arrivals (bar: M max, rise over bar before): 41: -10.9 +0.7, 72: -8.6 +0.6, 105: -8.7 -0.4, 129: -10.0 +0.2, 197: -11.3 +0.7, 209: -11.0 +1.1, 285: -9.9 +0.5, 300: -8.4 +1.1, 304: -8.8 +0.6, 305: -8.8 -0.0, 329: -12.0 +2.3, 336: -7.1 +0.7
+summit 336-339 -7.1 | tutti 105-120 -8.3 | tutti 305-320 -8.5 | bar 300 -8.4 | bar 304 -8.8 | bar 72 -8.6 | bar 333 -9.6 | bar 53 -8.8 | trio ff 209-224 -9.6
+summit over the next loudest: +1.3 LU
+I -14.0 LUFS, TP -1.4 dBTP, LRA 10.5 LU
+summit M max -7.1, next loudest bar 335 -7.8: lead +0.68 LU
+f mean -11.5, ff mean -9.3: f -> ff +2.23 LU
+quiet means: intro -17.0, theme A -16.6, counterst. -18.3, fugato -21.3, trio dolce -15.9, stretto -27.3, Meno pp -19.2
+arrivals (bar: rise over bar before): 41 +0.7, 72 +0.6, 105 -0.4, 129 +0.2, 197 +0.7, 209 +1.1, 285 +0.5, 300 +1.1, 304 +0.6, 305 -0.0, 329 +2.3, 336 +0.7

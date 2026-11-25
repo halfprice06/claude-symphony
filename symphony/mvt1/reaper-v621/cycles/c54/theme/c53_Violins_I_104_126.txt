@@ -1,0 +1,28 @@
+bar  27 beat 1.5 p79 note-on   -60 ms  sounds   -78 ms  heard  265 ms of  238 (111 %) pk -40 dB
+bar  27 beat 2.0 p87 note-on  -170 ms  sounds   -46 ms  heard  755 ms of  714 (106 %) pk -34 dB
+bar  27 beat 3.5 p86 note-on   -29 ms  sounds   +40 ms  heard  260 ms of  238 (109 %) pk -40 dB  under neighbours +1.9
+bar  27 beat 4.0 p85 note-on  -178 ms  sounds   +66 ms  heard  180 ms of  238 ( 76 %) pk -38 dB  under neighbours -0.5
+bar  27 beat 4.5 p84 note-on     0 ms  sounds   +13 ms  heard  685 ms of  238 (288 %) pk -38 dB  under neighbours -0.8
+bar  28 beat 1.0 p84 note-on   -71 ms  same-pitch repeat: dip 8.5 dB at -140 ms, back at +80 ms
+bar  28 beat 2.0 p83 note-on  -100 ms  sounds   -11 ms  heard  325 ms of  238 (136 %) pk -41 dB  under neighbours +5.0
+bar  28 beat 2.5 p84 note-on  -170 ms  sounds   +81 ms  heard  130 ms of  238 ( 55 %) pk -36 dB  under neighbours -5.0
+bar  28 beat 3.0 p80 note-on  -179 ms  sounds    +3 ms  heard  770 ms of  714 (108 %) pk -31 dB
+bar  28 beat 4.5 p79 note-on  -220 ms  sounds   +64 ms  heard  645 ms of  238 (271 %) pk -39 dB
+bar  29 beat 1.5 p79 note-on   -80 ms  same-pitch repeat: dip 11.5 dB at -68 ms, back at +267 ms
+bar  29 beat 2.0 p89 note-on   -60 ms  sounds   +59 ms  heard  610 ms of  734 ( 83 %) pk -33 dB
+bar  29 beat 3.5 p87 note-on  -150 ms  sounds   -30 ms  heard  355 ms of  238 (149 %) pk -36 dB  under neighbours -2.2
+bar  29 beat 4.0 p86 note-on  -110 ms  sounds   +92 ms  heard  190 ms of  238 ( 80 %) pk -38 dB  under neighbours -0.0
+bar  29 beat 4.5 p84 note-on  -170 ms  sounds   +89 ms  heard   95 ms of  238 ( 40 %) pk -40 dB  under neighbours +5.5
+bar  30 beat 1.0 p82 note-on   -45 ms  sounds   -49 ms  heard  270 ms of  238 (113 %) pk -32 dB  under neighbours -6.8
+bar  30 beat 1.5 p84 note-on   -45 ms  sounds   -12 ms  heard  250 ms of  238 (105 %) pk -36 dB  under neighbours +2.2
+bar  30 beat 2.0 p85 note-on   -45 ms  sounds    +5 ms  heard  230 ms of  238 ( 97 %) pk -37 dB  under neighbours +4.1
+bar  30 beat 2.5 p82 note-on   -45 ms  sounds    +2 ms  heard  290 ms of  238 (122 %) pk -29 dB  under neighbours -7.9
+bar  30 beat 3.0 p91 note-on  -155 ms  sounds  +123 ms  heard  510 ms of  737 ( 69 %) pk -35 dB
+bar  30 beat 4.5 p89 note-on  -220 ms  sounds   -53 ms  heard  375 ms of  251 (150 %) pk -38 dB
+bar  31 beat 1.0 p92 note-on  -188 ms  sounds  +106 ms  heard  655 ms of  739 ( 89 %) pk -33 dB
+bar  31 beat 2.5 p91 note-on  -220 ms  sounds   +27 ms  heard  260 ms of  248 (105 %) pk -37 dB
+bar  31 beat 3.0 p89 note-on  -186 ms  sounds   +59 ms  heard  440 ms of  476 ( 92 %) pk -37 dB
+bar  31 beat 4.0 p86 note-on  -220 ms  sounds   +28 ms  heard  415 ms of  476 ( 87 %) pk -36 dB
+bar  32 beat 1.0 p84 note-on   -60 ms  sounds   -28 ms  heard  460 ms of  476 ( 97 %) pk -37 dB
+bar  32 beat 2.0 p83 note-on  -100 ms  sounds   -39 ms  heard  930 ms of  476 (195 %) pk -33 dB
+Violins I      104-126: found 25 of 27 (+2 same-pitch repeats, 2 with a dip >= 3 dB), median +13 ms, SD 55, min -78, max +123; over 40 ms from median 16, over 25 ms 18; not sounding 0; under 60 % of printed length 2; eighths > 6 dB under neighbours 0; median share 105 %

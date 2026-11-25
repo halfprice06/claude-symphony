@@ -1,0 +1,33 @@
+bar  15 beat 1.0 p48 entry  Sus MAX        lead  120  pcx    +8  xr   n/a  dom  -130  S    +8
+bar  15 beat 3.0 p50 join   Leg BC MAX     lead  150  pcx    -2  xr   +14  dom   -12  S    -2
+bar  16 beat 1.0 p51 join   Leg BC MAX     lead  150  pcx   +21  xr  +112  dom   +40  S   +21
+bar  16 beat 3.0 p50 join   Leg BC MAX     lead  150  pcx   +40  xr   +54  dom   +58  S   +40
+bar  17 beat 1.0 p53 join   Leg BC MAX     lead  150  pcx   +64  xr   +94  dom  +115  S   +64
+bar  17 beat 3.0 p56 join   Leg BC MAX     lead  190  pcx   +71  xr   -18  dom   -22  S   -18
+bar  18 beat 1.0 p55 join   Leg BC MAX     lead  150  pcx    +8  xr   +18  dom   +31  S    +8
+bar  18 beat 3.0 p43 join   Leg BC MAX     lead  150  pcx   -53  xr  -112  dom   -32  S  -112
+bar  19 beat 1.0 p53 join   Leg BC MAX     lead  260  pcx  +129  xr   -50  dom   +31  S   -50
+bar  19 beat 3.0 p44 join   Leg BC MAX     lead  150  pcx    +0  xr   -20  dom   -26  S   -20
+bar  20 beat 1.0 p49 join   Leg BC MAX     lead  150  pcx   +12  xr   +42  dom   +66  S   +12
+bar  21 beat 1.0 p53 join   Leg BC MAX     lead  150  pcx   +54  xr   +34  dom    +6  S   +34
+bar  21 beat 3.0 p55 join   Leg BC MAX     lead  150  pcx   +66  xr  +126  dom  +129  S   +66
+bar  22 beat 1.0 p55 entry  Sus Marc LITE  lead  160  pcx   +16  xr   n/a  dom   n/a  S   +16
+bar  22 beat 3.0 p48 join   Leg BC MAX     lead  150  pcx   -74  xr   -92  dom   +39  S   -92
+bar  23 beat 1.0 p48 entry  Sus MAX        lead  140  pcx  +159  xr   n/a  dom   n/a  S  +159
+bar  23 beat 4.0 p47 join   Leg BC MAX     lead  150  pcx   -39  xr   -18  dom   -17  S   -39
+bar  24 beat 3.0 p48 join   Leg BC MAX     lead  150  pcx   +40  xr   +70  dom   +75  S   +40
+bar  25 beat 2.0 p53 join   Leg BC MAX     lead  197  pcx    -7  xr   +53  dom    -9  S    -7
+bar  26 beat 1.0 p56 join   Sus MAX        lead   60  pcx    +8  xr   n/a  dom   n/a  S    +8
+bar  27 beat 1.0 p60 entry  Leg Slur MAX   lead   60  pcx    -1  xr   n/a  dom   -57  S    -1
+bar  27 beat 3.0 p63 join   Leg BC MAX     lead  150  pcx    +6  xr   +26  dom   +20  S    +6
+bar  28 beat 1.0 p62 join   Leg BC MAX     lead  150  pcx   -53  xr   -50  dom   +78  S   -53
+bar  28 beat 3.0 p65 join   Leg BC MAX     lead  150  pcx   +39  xr   +48  dom   +46  S   +39
+bar  29 beat 1.0 p63 join   Leg BC MAX     lead  150  pcx    +8  xr    -0  dom    +8  S    -0
+bar  29 beat 3.0 p60 join   Leg BC MAX     lead  150  pcx   +25  xr   +62  dom   +51  S   +25
+bar  30 beat 1.0 p64 join   Leg BC MAX     lead  150  pcx   -12  xr   -22  dom   -16  S   -22
+bar  30 beat 3.0 p58 join   Leg BC MAX     lead  150  pcx   +11  xr   -14  dom   -14  S   -14
+bar  31 beat 1.0 p56 join   Leg BC MAX     lead  150  pcx   -31  xr   -14  dom   -11  S   -31
+bar  31 beat 3.0 p53 join   Leg BC MAX     lead  150  pcx   +27  xr    -2  dom   +11  S    -2
+bar  32 beat 1.0 p55 join   Sus MAX        lead   60  pcx    -3  xr  +106  dom  +104  S    -3
+bar  32 beat 2.0 p43 entry  Sus MAX        lead  100  pcx   -59  xr   n/a  dom   -87  S   -59
+S: n 32 of 32  median -1  robust SD 32  SD 48  min -112 max +159  >25 from median 15  >40 10  >60 5

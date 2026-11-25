@@ -1,0 +1,74 @@
+state_check: cycles/c48/render (cycles/c48/rendered_build) -> cycles/c49/render (build); flag |level| > 3.0 dB or |pcX| > 30.0 ms on notes whose data did not change
+Flute 1            compared   62  flagged   0  state runs 0  timing runs 0
+Flute 2            compared    7  flagged   0  state runs 0  timing runs 0
+Oboe 1             compared   40  flagged   2  state runs 0  timing runs 0
+     269.000 p 75 Leg Slur MAX           level  -0.03 dB  pcX    -76 ms
+     271.000 p 68 Leg Slur MAX           level  -0.30 dB  pcX    -60 ms
+Oboe 2             compared    5  flagged   0  state runs 0  timing runs 0
+Cor anglais        compared   25  flagged   0  state runs 0  timing runs 0
+Clarinet 1         compared   33  flagged   0  state runs 0  timing runs 0
+Clarinet 2         compared   30  flagged   0  state runs 0  timing runs 0
+Bass clarinet      compared   48  flagged   0  state runs 0  timing runs 0
+Bassoon 1          compared   45  flagged   0  state runs 0  timing runs 0
+Bassoon 2          compared   51  flagged   0  state runs 0  timing runs 0
+Contrabassoon      compared   10  flagged   0  state runs 0  timing runs 0
+Horn 1             compared   47  flagged   1  state runs 0  timing runs 0
+     198.000 p 63 Leg Slur MAX           level  +2.16 dB  pcX    -32 ms
+Horn 2             compared    9  flagged   0  state runs 0  timing runs 0
+Horn 3             compared   15  flagged   0  state runs 0  timing runs 0
+Horn 4             compared   11  flagged   0  state runs 0  timing runs 0
+Trombone 1         compared   10  flagged   1  state runs 0  timing runs 0
+     217.500 p 57 Leg Slur MAX           level  -1.91 dB  pcX    +35 ms
+Trombone 2         compared    6  flagged   0  state runs 0  timing runs 0
+Bass trombone      compared    7  flagged   0  state runs 0  timing runs 0
+Tuba               compared    4  flagged   0  state runs 0  timing runs 0
+Timpani            compared   16  flagged   0  state runs 0  timing runs 0
+Violins I          compared  109  flagged   5  state runs 0  timing runs 0
+      77.500 p 65 Leg Slur MAX           level  -0.91 dB  pcX   -110 ms
+     195.500 p 89 Leg Slur MAX           level  +0.26 dB  pcX   +107 ms
+     196.000 p 87 Leg BC MAX             level  +0.20 dB  pcX    -38 ms
+     200.000 p 84 Leg BC MAX             level  -0.28 dB  pcX   -104 ms
+     266.000 p 92 Leg Slur MAX           level  -0.74 dB  pcX    -71 ms
+Violins II         compared  140  flagged   3  state runs 0  timing runs 0
+      77.500 p 65 Leg Slur MAX           level  -0.11 dB  pcX   -104 ms
+      85.000 p 75 Leg Slur MAX           level  -0.47 dB  pcX   -122 ms
+     262.000 p 82 Leg BC MAX             level  +0.22 dB  pcX   +101 ms
+Violas             compared  288  flagged  10  state runs 0  timing runs 1
+      84.000 p 63 Leg BC MAX             level  +3.14 dB  pcX     +0 ms
+     156.500 p 57 Detache                level  +0.28 dB  pcX    +55 ms
+     160.500 p 57 Detache                level  +0.30 dB  pcX    -51 ms
+     165.500 p 63 Detache                level  +0.74 dB  pcX    -32 ms
+     166.500 p 63 Detache                level  -0.29 dB  pcX    +49 ms
+     167.500 p 63 Detache                level  +0.39 dB  pcX    -35 ms
+     168.000 p 60 Leg Slur MAX           level  +0.04 dB  pcX    +66 ms
+     194.000 p 56 Leg BC MAX             level  -0.74 dB  pcX    -34 ms
+     257.500 p 63 Leg BC MAX             level  +0.26 dB  pcX    -66 ms
+     258.000 p 58 Leg Slur MAX           level  +0.37 dB  pcX    +96 ms
+  timing run Violas: qn 165.50-168.00, 4 notes, level median +0.2 dB, pcX median +8 ms
+  take swap Violas: qn 152.50-167.50, pitch 57: 156.50 +55 ms, 160.50 -51 ms (two takes changed order: swap or re-fit the leads, or reset the round robin before the run)
+  take swap Violas: qn 152.50-167.50, pitch 63: 165.50 -32 ms, 166.50 +49 ms, 167.50 -35 ms (two takes changed order: swap or re-fit the leads, or reset the round robin before the run)
+Violoncellos       compared  127  flagged   3  state runs 0  timing runs 0
+     201.000 p 53 Leg Slur MAX           level  +0.12 dB  pcX    -46 ms
+     218.000 p 38 Leg Slur MAX           level  +0.38 dB  pcX    -30 ms
+     219.000 p 47 Leg Slur MAX           level  -1.11 dB  pcX   -113 ms
+Double basses      compared  109  flagged  12  state runs 0  timing runs 1
+       3.000 p 32 Sus MAX                level  -2.46 dB  pcX    -37 ms
+      60.000 p 37 Sus MAX                level  -2.61 dB  pcX    -36 ms
+      62.000 p 40 Sus MAX                level  +1.81 dB  pcX    +65 ms
+      66.000 p 44 Sus MAX                level  -2.87 dB  pcX   +101 ms
+      69.000 p 41 Sus MAX                level  -1.21 dB  pcX    -53 ms
+      70.000 p 46 Sus MAX                level  -2.50 dB  pcX    +78 ms
+      71.000 p 51 Sus MAX                level  -2.28 dB  pcX    -39 ms
+      72.000 p 44 Sus MAX                level  -3.38 dB  pcX    +39 ms
+      75.000 p 51 Sus MAX                level  +1.13 dB  pcX    +69 ms
+      78.000 p 44 Sus MAX                level  +2.82 dB  pcX    -41 ms
+      79.000 p 48 Sus MAX                level  -6.53 dB  pcX    +41 ms
+      80.000 p 49 Sus MAX                level  -4.15 dB  pcX   -102 ms
+  timing run Double basses: qn 60.00-78.00, 8 notes, level median -1.7 dB, pcX median +14 ms
+Violin I solo      compared   11  flagged   0  state runs 0  timing runs 0
+Violoncellos div   compared   10  flagged   2  state runs 0  timing runs 0
+      63.000 p 55 Leg BC MAX             level  -4.03 dB  pcX    -60 ms
+      63.500 p 56 Leg Slur MAX           level  -0.78 dB  pcX    -37 ms
+Violins II div     compared    0  flagged   0  state runs 0  timing runs 0
+Violas div         compared   20  flagged   0  state runs 0  timing runs 0
+Horns 1-2 a2       compared    8  flagged   0  state runs 0  timing runs 0

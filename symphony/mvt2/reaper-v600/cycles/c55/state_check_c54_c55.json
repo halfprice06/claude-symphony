@@ -1,0 +1,4673 @@
+[
+{
+"track": "Flute 1",
+"sq": 122.0,
+"pitch": 70,
+"art": "Leg Slur MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 2.0
+},
+{
+"track": "Flute 1",
+"sq": 126.0,
+"pitch": 80,
+"art": "Leg Slur MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Flute 1",
+"sq": 127.5,
+"pitch": 82,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Flute 1",
+"sq": 128.0,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Flute 1",
+"sq": 188.0,
+"pitch": 80,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 28.0
+},
+{
+"track": "Flute 1",
+"sq": 259.0,
+"pitch": 80,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Flute 1",
+"sq": 269.5,
+"pitch": 85,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Flute 2",
+"sq": 204.0,
+"pitch": 80,
+"art": "Sus MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Flute 2",
+"sq": 268.0,
+"pitch": 88,
+"art": "Sus MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Oboe 1",
+"sq": 188.0,
+"pitch": 68,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Oboe 1",
+"sq": 192.0,
+"pitch": 80,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Oboe 1",
+"sq": 195.5,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -35.0
+},
+{
+"track": "Oboe 1",
+"sq": 210.0,
+"pitch": 76,
+"art": "Sus MAX",
+"d_db": -0.03,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Oboe 2",
+"sq": 262.0,
+"pitch": 77,
+"art": "Sus MAX",
+"d_db": -0.04,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Oboe 2",
+"sq": 267.0,
+"pitch": 76,
+"art": "Sus MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Oboe 2",
+"sq": 268.0,
+"pitch": 76,
+"art": "Sus MAX",
+"d_db": 0.09,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Cor anglais",
+"sq": 93.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": -0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Cor anglais",
+"sq": 124.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Cor anglais",
+"sq": 157.0,
+"pitch": 74,
+"art": "Sus MAX",
+"d_db": 0.05,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Cor anglais",
+"sq": 159.0,
+"pitch": 73,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Cor anglais",
+"sq": 160.0,
+"pitch": 73,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Cor anglais",
+"sq": 162.0,
+"pitch": 71,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Cor anglais",
+"sq": 171.0,
+"pitch": 66,
+"art": "Leg Slur MAX",
+"d_db": -0.03,
+"eq_db": 0.0,
+"d_pcx_ms": -4.0
+},
+{
+"track": "Cor anglais",
+"sq": 262.0,
+"pitch": 70,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Cor anglais",
+"sq": 268.0,
+"pitch": 67,
+"art": "Leg Slur MAX",
+"d_db": -0.09,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Clarinet 1",
+"sq": 175.0,
+"pitch": 56,
+"art": "Leg Slur",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Clarinet 1",
+"sq": 175.5,
+"pitch": 58,
+"art": "Leg Slur",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Clarinet 1",
+"sq": 177.5,
+"pitch": 65,
+"art": "Leg Slur",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Clarinet 1",
+"sq": 190.0,
+"pitch": 73,
+"art": "Leg Slur",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Clarinet 1",
+"sq": 194.0,
+"pitch": 72,
+"art": "Leg Slur",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Clarinet 1",
+"sq": 200.0,
+"pitch": 72,
+"art": "Sus Non Vib",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Clarinet 1",
+"sq": 204.0,
+"pitch": 77,
+"art": "Sus Non Vib",
+"d_db": 0.04,
+"eq_db": 0.0,
+"d_pcx_ms": 2.0
+},
+{
+"track": "Clarinet 1",
+"sq": 280.0,
+"pitch": 75,
+"art": "Leg Slur",
+"d_db": -0.04,
+"eq_db": 0.0,
+"d_pcx_ms": -4.0
+},
+{
+"track": "Clarinet 2",
+"sq": 238.0,
+"pitch": 63,
+"art": "Leg Slur",
+"d_db": -0.05,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Clarinet 2",
+"sq": 250.0,
+"pitch": 63,
+"art": "Leg Slur",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Clarinet 2",
+"sq": 256.0,
+"pitch": 67,
+"art": "Sus Non Vib",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 3.0
+},
+{
+"track": "Clarinet 2",
+"sq": 261.0,
+"pitch": 67,
+"art": "Sus Non Vib",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Clarinet 2",
+"sq": 262.0,
+"pitch": 65,
+"art": "Sus Non Vib",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Clarinet 2",
+"sq": 263.0,
+"pitch": 73,
+"art": "Sus Non Vib",
+"d_db": -0.06,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Clarinet 2",
+"sq": 265.0,
+"pitch": 73,
+"art": "Sus Non Vib",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Clarinet 2",
+"sq": 269.0,
+"pitch": 67,
+"art": "Sus Non Vib",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Clarinet 2",
+"sq": 292.0,
+"pitch": 63,
+"art": "Sus Non Vib",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Bass clarinet",
+"sq": 6.0,
+"pitch": 44,
+"art": "Sus Non Vib",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 22.0,
+"pitch": 34,
+"art": "Leg Slur",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 27.0,
+"pitch": 39,
+"art": "Sus Non Vib",
+"d_db": -0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 29.0,
+"pitch": 43,
+"art": "Leg Slur",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 30.0,
+"pitch": 44,
+"art": "Leg Slur",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 31.0,
+"pitch": 48,
+"art": "Leg Slur",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 32.0,
+"pitch": 49,
+"art": "Leg Slur",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 33.0,
+"pitch": 49,
+"art": "Leg Slur",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bass clarinet",
+"sq": 36.0,
+"pitch": 39,
+"art": "Sus Non Vib",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 98.0,
+"pitch": 49,
+"art": "Leg Slur",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 99.0,
+"pitch": 48,
+"art": "Leg Slur",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -12.0
+},
+{
+"track": "Bass clarinet",
+"sq": 102.0,
+"pitch": 44,
+"art": "Leg Slur",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Bass clarinet",
+"sq": 107.0,
+"pitch": 48,
+"art": "Leg Slur",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 188.0,
+"pitch": 53,
+"art": "Sus Non Vib",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 190.0,
+"pitch": 54,
+"art": "Sus Non Vib",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Bass clarinet",
+"sq": 192.0,
+"pitch": 46,
+"art": "Sus Non Vib",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 193.0,
+"pitch": 51,
+"art": "Sus Non Vib",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 194.0,
+"pitch": 44,
+"art": "Sus Non Vib",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Bass clarinet",
+"sq": 195.0,
+"pitch": 49,
+"art": "Sus Non Vib",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 196.0,
+"pitch": 42,
+"art": "Sus Non Vib",
+"d_db": -0.04,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Bass clarinet",
+"sq": 198.0,
+"pitch": 43,
+"art": "Sus Non Vib",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Bass clarinet",
+"sq": 200.0,
+"pitch": 44,
+"art": "Sus Non Vib",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 204.0,
+"pitch": 49,
+"art": "Sus Non Vib",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 210.0,
+"pitch": 40,
+"art": "Sus Non Vib",
+"d_db": 0.06,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Bass clarinet",
+"sq": 262.0,
+"pitch": 49,
+"art": "Sus Non Vib",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Bass clarinet",
+"sq": 265.0,
+"pitch": 49,
+"art": "Sus Non Vib",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bass clarinet",
+"sq": 267.0,
+"pitch": 46,
+"art": "Sus Non Vib",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass clarinet",
+"sq": 271.0,
+"pitch": 44,
+"art": "Sus Non Vib",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Bassoon 1",
+"sq": 97.0,
+"pitch": 53,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 1",
+"sq": 143.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": -0.07,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 1",
+"sq": 144.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 1",
+"sq": 176.0,
+"pitch": 49,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 1",
+"sq": 196.0,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": -0.1,
+"eq_db": 0.0,
+"d_pcx_ms": -4.0
+},
+{
+"track": "Bassoon 1",
+"sq": 210.0,
+"pitch": 64,
+"art": "Sus MAX",
+"d_db": 0.06,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Bassoon 1",
+"sq": 229.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.09,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Bassoon 1",
+"sq": 232.0,
+"pitch": 55,
+"art": "Leg Slur MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 18.0,
+"pitch": 48,
+"art": "Leg Slur MAX",
+"d_db": 0.05,
+"eq_db": 0.0,
+"d_pcx_ms": 3.0
+},
+{
+"track": "Bassoon 2",
+"sq": 21.0,
+"pitch": 48,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bassoon 2",
+"sq": 22.0,
+"pitch": 46,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 23.0,
+"pitch": 46,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bassoon 2",
+"sq": 24.0,
+"pitch": 48,
+"art": "Leg Slur MAX",
+"d_db": -0.05,
+"eq_db": 0.0,
+"d_pcx_ms": -4.0
+},
+{
+"track": "Bassoon 2",
+"sq": 26.0,
+"pitch": 46,
+"art": "Leg Slur MAX",
+"d_db": -0.04,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Bassoon 2",
+"sq": 30.0,
+"pitch": 48,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 90.0,
+"pitch": 44,
+"art": "Sus MAX",
+"d_db": -0.05,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Bassoon 2",
+"sq": 144.0,
+"pitch": 46,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bassoon 2",
+"sq": 146.0,
+"pitch": 46,
+"art": "Sus MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bassoon 2",
+"sq": 148.0,
+"pitch": 44,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Bassoon 2",
+"sq": 188.0,
+"pitch": 53,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 190.0,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Bassoon 2",
+"sq": 192.0,
+"pitch": 46,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 193.0,
+"pitch": 51,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 194.0,
+"pitch": 44,
+"art": "Sus MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 198.0,
+"pitch": 43,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -26.0
+},
+{
+"track": "Bassoon 2",
+"sq": 200.0,
+"pitch": 44,
+"art": "Sus MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 210.0,
+"pitch": 40,
+"art": "Sus MAX",
+"d_db": 0.04,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 241.0,
+"pitch": 53,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 242.0,
+"pitch": 46,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 246.0,
+"pitch": 53,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 247.0,
+"pitch": 46,
+"art": "Leg Slur MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -4.0
+},
+{
+"track": "Bassoon 2",
+"sq": 250.0,
+"pitch": 44,
+"art": "Leg Slur MAX",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Bassoon 2",
+"sq": 251.0,
+"pitch": 48,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 256.0,
+"pitch": 51,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Bassoon 2",
+"sq": 268.0,
+"pitch": 51,
+"art": "Sus MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bassoon 2",
+"sq": 271.0,
+"pitch": 44,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Contrabassoon",
+"sq": 87.0,
+"pitch": 32,
+"art": "Sus MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Contrabassoon",
+"sq": 98.0,
+"pitch": 32,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Contrabassoon",
+"sq": 204.0,
+"pitch": 25,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Contrabassoon",
+"sq": 208.0,
+"pitch": 30,
+"art": "Sus MAX",
+"d_db": 0.05,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Contrabassoon",
+"sq": 262.0,
+"pitch": 25,
+"art": "Sus MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Contrabassoon",
+"sq": 265.0,
+"pitch": 25,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Contrabassoon",
+"sq": 267.0,
+"pitch": 22,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Contrabassoon",
+"sq": 271.0,
+"pitch": 32,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 1",
+"sq": 18.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": 0.05,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 1",
+"sq": 20.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 1",
+"sq": 175.5,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.04,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 1",
+"sq": 178.0,
+"pitch": 70,
+"art": "Leg Slur MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 2",
+"sq": 208.0,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 2.0
+},
+{
+"track": "Horn 2",
+"sq": 250.0,
+"pitch": 51,
+"art": "Leg Slur MAX",
+"d_db": 0.06,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 2",
+"sq": 253.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 2.0
+},
+{
+"track": "Horn 2",
+"sq": 255.0,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Horn 2",
+"sq": 256.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 3",
+"sq": 0.0,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": -0.09,
+"eq_db": 0.0,
+"d_pcx_ms": -7.0
+},
+{
+"track": "Horn 3",
+"sq": 6.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": -0.03,
+"eq_db": 0.0,
+"d_pcx_ms": -41.0
+},
+{
+"track": "Horn 3",
+"sq": 262.0,
+"pitch": 65,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Horn 3",
+"sq": 265.0,
+"pitch": 65,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 3",
+"sq": 267.0,
+"pitch": 64,
+"art": "Leg Slur MAX",
+"d_db": -0.14,
+"eq_db": 0.0,
+"d_pcx_ms": -32.0
+},
+{
+"track": "Horn 3",
+"sq": 269.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.64,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 3",
+"sq": 286.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": -0.08,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Horn 3",
+"sq": 289.0,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 4",
+"sq": 1.0,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 4",
+"sq": 6.0,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Horn 4",
+"sq": 84.0,
+"pitch": 51,
+"art": "Sus MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 4",
+"sq": 200.0,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 2.0
+},
+{
+"track": "Horn 4",
+"sq": 262.0,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": -0.04,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Horn 4",
+"sq": 265.0,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horn 4",
+"sq": 286.0,
+"pitch": 53,
+"art": "Leg Slur MAX",
+"d_db": 0.04,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Trombone 1",
+"sq": 217.5,
+"pitch": 57,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Trombone 1",
+"sq": 219.5,
+"pitch": 52,
+"art": "Sus MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Trombone 2",
+"sq": 200.0,
+"pitch": 51,
+"art": "Sus MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Trombone 2",
+"sq": 202.0,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Trombone 2",
+"sq": 210.0,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": -0.08,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Bass trombone",
+"sq": 200.0,
+"pitch": 44,
+"art": "Sus MAX",
+"d_db": -0.05,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Bass trombone",
+"sq": 208.0,
+"pitch": 42,
+"art": "Sus MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass trombone",
+"sq": 210.0,
+"pitch": 40,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Bass trombone",
+"sq": 216.0,
+"pitch": 45,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Bass trombone",
+"sq": 218.0,
+"pitch": 38,
+"art": "Sus MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Bass trombone",
+"sq": 219.0,
+"pitch": 40,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Tuba",
+"sq": 200.0,
+"pitch": 32,
+"art": "Sus MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Tuba",
+"sq": 208.0,
+"pitch": 30,
+"art": "Sus MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Tuba",
+"sq": 210.0,
+"pitch": 28,
+"art": "Sus MAX",
+"d_db": -0.03,
+"eq_db": 0.0,
+"d_pcx_ms": -5.0
+},
+{
+"track": "Timpani",
+"sq": 200.0,
+"pitch": 44,
+"art": "Timpani Flt Rls",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Timpani",
+"sq": 208.0,
+"pitch": 49,
+"art": "Timpani Flt Rls",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Timpani",
+"sq": 261.0,
+"pitch": 51,
+"art": "Timpani Flt Rls",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Timpani",
+"sq": 265.0,
+"pitch": 49,
+"art": "Timpani Flt Rls",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Timpani",
+"sq": 268.0,
+"pitch": 51,
+"art": "Timpani Flt Rls",
+"d_db": -0.1,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Timpani",
+"sq": 279.0,
+"pitch": 44,
+"art": "Timpani Flt Lng",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violins I",
+"sq": 78.0,
+"pitch": 68,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 84.0,
+"pitch": 79,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 174.0,
+"pitch": 78,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 174.5,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 175.0,
+"pitch": 75,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 181.0,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 181.3333,
+"pitch": 78,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 181.6667,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 182.0,
+"pitch": 75,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 183.0,
+"pitch": 73,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 191.5,
+"pitch": 90,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 192.0,
+"pitch": 92,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violins I",
+"sq": 193.5,
+"pitch": 90,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 195.5,
+"pitch": 89,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violins I",
+"sq": 199.0,
+"pitch": 82,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 216.0,
+"pitch": 88,
+"art": "Tremolo",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 237.0,
+"pitch": 75,
+"art": "Leg Slur MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 237.5,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violins I",
+"sq": 239.5,
+"pitch": 84,
+"art": "Leg Slur MAX",
+"d_db": -0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 242.0,
+"pitch": 86,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 245.5,
+"pitch": 82,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 257.5,
+"pitch": 85,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 258.0,
+"pitch": 84,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violins I",
+"sq": 258.5,
+"pitch": 82,
+"art": "Leg Slur MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": -34.0
+},
+{
+"track": "Violins I",
+"sq": 261.5,
+"pitch": 89,
+"art": "Sus MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 261.6667,
+"pitch": 91,
+"art": "Sus MAX",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 261.8333,
+"pitch": 92,
+"art": "Sus MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins I",
+"sq": 269.5,
+"pitch": 85,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 0.0,
+"pitch": 67,
+"art": "Leg Slur MAX",
+"d_db": -0.09,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violins II",
+"sq": 3.0,
+"pitch": 68,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 50.0,
+"pitch": 68,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 61.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 62.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.07,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Violins II",
+"sq": 72.0,
+"pitch": 72,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violins II",
+"sq": 73.5,
+"pitch": 70,
+"art": "Leg Slur MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violins II",
+"sq": 75.0,
+"pitch": 67,
+"art": "Leg Slur MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violins II",
+"sq": 77.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -6.0
+},
+{
+"track": "Violins II",
+"sq": 85.5,
+"pitch": 73,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 86.0,
+"pitch": 72,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 86.5,
+"pitch": 70,
+"art": "Leg Slur MAX",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 117.0
+},
+{
+"track": "Violins II",
+"sq": 116.0,
+"pitch": 61,
+"art": "Flautando",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 33.0
+},
+{
+"track": "Violins II",
+"sq": 118.0,
+"pitch": 60,
+"art": "Flautando",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 158.0,
+"pitch": 79,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 160.0,
+"pitch": 78,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 162.0,
+"pitch": 74,
+"art": "Leg Slur MAX",
+"d_db": -0.03,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Violins II",
+"sq": 164.0,
+"pitch": 75,
+"art": "Leg Slur MAX",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -4.0
+},
+{
+"track": "Violins II",
+"sq": 171.0,
+"pitch": 72,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 174.0,
+"pitch": 78,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 174.5,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 175.0,
+"pitch": 75,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 178.0,
+"pitch": 75,
+"art": "Leg Slur MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": -6.0
+},
+{
+"track": "Violins II",
+"sq": 181.0,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -15.0
+},
+{
+"track": "Violins II",
+"sq": 181.3333,
+"pitch": 78,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violins II",
+"sq": 181.6667,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violins II",
+"sq": 182.0,
+"pitch": 75,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 183.0,
+"pitch": 73,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 184.0,
+"pitch": 72,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violins II",
+"sq": 185.0,
+"pitch": 73,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 185.5,
+"pitch": 72,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 186.0,
+"pitch": 70,
+"art": "Leg Slur MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": -7.0
+},
+{
+"track": "Violins II",
+"sq": 189.0,
+"pitch": 73,
+"art": "Leg Slur MAX",
+"d_db": -0.04,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violins II",
+"sq": 192.0,
+"pitch": 80,
+"art": "Leg Slur MAX",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 193.5,
+"pitch": 78,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 195.5,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -6.0
+},
+{
+"track": "Violins II",
+"sq": 199.0,
+"pitch": 70,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 200.0,
+"pitch": 72,
+"art": "Leg Slur MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 212.0,
+"pitch": 76,
+"art": "Tremolo",
+"d_db": 0.49,
+"eq_db": 0.0,
+"d_pcx_ms": 33.0
+},
+{
+"track": "Violins II",
+"sq": 212.0,
+"pitch": 84,
+"art": "Tremolo",
+"d_db": 0.49,
+"eq_db": 0.0,
+"d_pcx_ms": -68.0
+},
+{
+"track": "Violins II",
+"sq": 219.0,
+"pitch": 62,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 237.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": -0.06,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violins II",
+"sq": 237.5,
+"pitch": 65,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 243.0,
+"pitch": 73,
+"art": "Leg Slur MAX",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violins II",
+"sq": 244.0,
+"pitch": 72,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violins II",
+"sq": 246.0,
+"pitch": 68,
+"art": "Leg Slur MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 247.0,
+"pitch": 67,
+"art": "Leg Slur MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -4.0
+},
+{
+"track": "Violins II",
+"sq": 249.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": -0.06,
+"eq_db": 0.0,
+"d_pcx_ms": -16.0
+},
+{
+"track": "Violins II",
+"sq": 249.5,
+"pitch": 65,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 250.0,
+"pitch": 68,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 2.0
+},
+{
+"track": "Violins II",
+"sq": 255.0,
+"pitch": 80,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violins II",
+"sq": 257.5,
+"pitch": 73,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II",
+"sq": 258.0,
+"pitch": 72,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violins II",
+"sq": 261.5,
+"pitch": 77,
+"art": "Sus MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violins II",
+"sq": 261.6667,
+"pitch": 79,
+"art": "Sus MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violins II",
+"sq": 261.8333,
+"pitch": 80,
+"art": "Sus MAX",
+"d_db": -0.03,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violins II",
+"sq": 270.0,
+"pitch": 72,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 0.0,
+"pitch": 64,
+"art": "Leg Slur MAX",
+"d_db": 0.24,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violas",
+"sq": 3.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violas",
+"sq": 45.0,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 46.5,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 47.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 58.0,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 58.5,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 59.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 60.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violas",
+"sq": 69.0,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 70.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.07,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violas",
+"sq": 71.0,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 0.13,
+"eq_db": 0.0,
+"d_pcx_ms": 3.0
+},
+{
+"track": "Violas",
+"sq": 72.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": -4.0
+},
+{
+"track": "Violas",
+"sq": 74.0,
+"pitch": 65,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 79.0,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 83.0,
+"pitch": 65,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 108.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": 0.04,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 108.3333,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 108.6667,
+"pitch": 65,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 109.0,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 109.3333,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 109.6667,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 110.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 110.3333,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 110.6667,
+"pitch": 65,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 111.0,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 111.3333,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 111.6667,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 112.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 112.3333,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 112.6667,
+"pitch": 66,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 113.0,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 113.3333,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 113.6667,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 114.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 114.3333,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 114.6667,
+"pitch": 66,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 115.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 115.3333,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 115.6667,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 116.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 80.0
+},
+{
+"track": "Violas",
+"sq": 116.6667,
+"pitch": 66,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 117.0,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 117.3333,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 117.6667,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 118.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 118.3333,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 118.6667,
+"pitch": 66,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 119.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 119.3333,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 119.6667,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 120.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 120.3333,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 120.6667,
+"pitch": 66,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 121.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 121.3333,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 121.6667,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 122.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 122.3333,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 122.6667,
+"pitch": 65,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 124.3333,
+"pitch": 53,
+"art": "Pizz RRx4",
+"d_db": 0.04,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violas",
+"sq": 125.3333,
+"pitch": 49,
+"art": "Pizz RRx4",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 130.3333,
+"pitch": 63,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 130.6667,
+"pitch": 56,
+"art": "Pizz RRx4",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 131.3333,
+"pitch": 61,
+"art": "Pizz RRx4",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 134.3333,
+"pitch": 51,
+"art": "Pizz RRx4",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 134.6667,
+"pitch": 56,
+"art": "Pizz RRx4",
+"d_db": 0.06,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 146.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.09,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violas",
+"sq": 152.5,
+"pitch": 57,
+"art": "Detache",
+"d_db": -0.07,
+"eq_db": 0.0,
+"d_pcx_ms": -4.0
+},
+{
+"track": "Violas",
+"sq": 153.5,
+"pitch": 57,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 154.5,
+"pitch": 57,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 156.5,
+"pitch": 57,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 157.5,
+"pitch": 57,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 158.5,
+"pitch": 59,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 159.5,
+"pitch": 56,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 160.5,
+"pitch": 57,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 161.5,
+"pitch": 57,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 162.5,
+"pitch": 62,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 163.5,
+"pitch": 59,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 164.5,
+"pitch": 63,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 165.5,
+"pitch": 63,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 166.5,
+"pitch": 63,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 167.5,
+"pitch": 63,
+"art": "Detache",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 188.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 188.3333,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 188.6667,
+"pitch": 65,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 189.0,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 189.3333,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 189.6667,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 190.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violas",
+"sq": 190.3333,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 190.6667,
+"pitch": 70,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 191.0,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violas",
+"sq": 191.3333,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 191.6667,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 192.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 192.3333,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 192.6667,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 193.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 193.3333,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 193.6667,
+"pitch": 66,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 194.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 194.3333,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 194.6667,
+"pitch": 68,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 195.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violas",
+"sq": 195.3333,
+"pitch": 59,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violas",
+"sq": 195.6667,
+"pitch": 68,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 3.0
+},
+{
+"track": "Violas",
+"sq": 196.0,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 196.1667,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 196.3333,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 196.5,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 196.6667,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 196.8333,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 197.0,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 197.1667,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 197.3333,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 197.5,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 197.6667,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 197.8333,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 198.0,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Violas",
+"sq": 198.1667,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 198.3333,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 198.5,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 198.6667,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 198.8333,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 199.0,
+"pitch": 64,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 199.1667,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 199.3333,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 199.5,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 199.6667,
+"pitch": 64,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 199.8333,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 200.0,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 200.1667,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 200.3333,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 200.5,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 200.6667,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 200.8333,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violas",
+"sq": 201.0,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 201.1667,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 201.3333,
+"pitch": 56,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 201.5,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 201.6667,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 201.8333,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 202.0,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 202.1667,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 202.3333,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 202.5,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 202.6667,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 202.8333,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violas",
+"sq": 203.0,
+"pitch": 54,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 203.1667,
+"pitch": 60,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 203.3333,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 203.5,
+"pitch": 66,
+"art": "Sus MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violas",
+"sq": 203.6667,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": -0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violas",
+"sq": 216.0,
+"pitch": 64,
+"art": "Tremolo",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -58.0
+},
+{
+"track": "Violas",
+"sq": 216.0,
+"pitch": 72,
+"art": "Tremolo",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 218.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": 0.04,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 239.0,
+"pitch": 68,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 239.5,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 240.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 240.5,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 241.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 242.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 243.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 2.0
+},
+{
+"track": "Violas",
+"sq": 245.0,
+"pitch": 68,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 246.5,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 247.0,
+"pitch": 51,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 248.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 248.5,
+"pitch": 63,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 250.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 0.06,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 250.5,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 251.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": -0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 252.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": -0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 252.5,
+"pitch": 65,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 253.0,
+"pitch": 65,
+"art": "Sus MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 253.5,
+"pitch": 68,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 254.0,
+"pitch": 65,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 255.0,
+"pitch": 65,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 255.5,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas",
+"sq": 256.5,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violas",
+"sq": 257.0,
+"pitch": 67,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -94.0
+},
+{
+"track": "Violas",
+"sq": 258.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violas",
+"sq": 259.5,
+"pitch": 64,
+"art": "Leg Slur MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 3.0
+},
+{
+"track": "Violas",
+"sq": 261.5,
+"pitch": 55,
+"art": "Leg Slur MAX",
+"d_db": 0.05,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Violas",
+"sq": 267.0,
+"pitch": 64,
+"art": "Sus MAX",
+"d_db": 0.45,
+"eq_db": 0.0,
+"d_pcx_ms": -25.0
+},
+{
+"track": "Violas",
+"sq": 268.0,
+"pitch": 67,
+"art": "Sus MAX",
+"d_db": -0.11,
+"eq_db": 0.0,
+"d_pcx_ms": 4.0
+},
+{
+"track": "Violas",
+"sq": 269.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": -0.29,
+"eq_db": 0.0,
+"d_pcx_ms": -10.0
+},
+{
+"track": "Violas",
+"sq": 289.0,
+"pitch": 52,
+"art": "Leg Slur MAX",
+"d_db": 0.04,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violoncellos",
+"sq": 42.0,
+"pitch": 48,
+"art": "Leg Slur MAX",
+"d_db": 0.04,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos",
+"sq": 45.0,
+"pitch": 49,
+"art": "Leg Slur MAX",
+"d_db": -0.06,
+"eq_db": 0.0,
+"d_pcx_ms": -24.0
+},
+{
+"track": "Violoncellos",
+"sq": 47.0,
+"pitch": 51,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos",
+"sq": 57.0,
+"pitch": 53,
+"art": "Leg Slur MAX",
+"d_db": -0.05,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Violoncellos",
+"sq": 59.0,
+"pitch": 48,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos",
+"sq": 61.0,
+"pitch": 51,
+"art": "Leg Slur MAX",
+"d_db": 0.04,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos",
+"sq": 63.0,
+"pitch": 51,
+"art": "Leg Slur MAX",
+"d_db": -0.04,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violoncellos",
+"sq": 66.0,
+"pitch": 51,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Violoncellos",
+"sq": 136.0,
+"pitch": 51,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Violoncellos",
+"sq": 142.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos",
+"sq": 142.5,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos",
+"sq": 143.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos",
+"sq": 145.5,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -216.0
+},
+{
+"track": "Violoncellos",
+"sq": 160.0,
+"pitch": 45,
+"art": "Leg Slur MAX",
+"d_db": -0.04,
+"eq_db": 0.0,
+"d_pcx_ms": -9.0
+},
+{
+"track": "Violoncellos",
+"sq": 162.0,
+"pitch": 47,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -4.0
+},
+{
+"track": "Violoncellos",
+"sq": 170.0,
+"pitch": 51,
+"art": "Leg Slur MAX",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos",
+"sq": 182.0,
+"pitch": 36,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos",
+"sq": 216.0,
+"pitch": 45,
+"art": "Tremolo",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Violoncellos",
+"sq": 218.0,
+"pitch": 38,
+"art": "Leg Slur MAX",
+"d_db": -0.49,
+"eq_db": 0.0,
+"d_pcx_ms": 24.0
+},
+{
+"track": "Violoncellos",
+"sq": 219.0,
+"pitch": 47,
+"art": "Leg Slur MAX",
+"d_db": -0.13,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos",
+"sq": 219.5,
+"pitch": 46,
+"art": "Leg Slur MAX",
+"d_db": 0.06,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Violoncellos",
+"sq": 252.0,
+"pitch": 53,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 69.0,
+"pitch": 41,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 70.0,
+"pitch": 46,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 71.0,
+"pitch": 51,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 72.0,
+"pitch": 44,
+"art": "Sus MAX",
+"d_db": -0.09,
+"eq_db": 0.0,
+"d_pcx_ms": -4.0
+},
+{
+"track": "Double basses",
+"sq": 74.0,
+"pitch": 49,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 75.0,
+"pitch": 51,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 78.0,
+"pitch": 44,
+"art": "Sus MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Double basses",
+"sq": 79.0,
+"pitch": 48,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Double basses",
+"sq": 80.0,
+"pitch": 49,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 81.0,
+"pitch": 49,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 83.0,
+"pitch": 46,
+"art": "Leg Slur MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 108.0,
+"pitch": 37,
+"art": "Pizz RRx4",
+"d_db": -0.04,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 110.0,
+"pitch": 37,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 112.0,
+"pitch": 34,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 114.0,
+"pitch": 30,
+"art": "Pizz RRx4",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 116.0,
+"pitch": 39,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 118.0,
+"pitch": 36,
+"art": "Pizz RRx4",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 120.0,
+"pitch": 33,
+"art": "Pizz RRx4",
+"d_db": 0.33,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 122.0,
+"pitch": 34,
+"art": "Pizz RRx4",
+"d_db": 0.32,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 124.0,
+"pitch": 41,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 125.0,
+"pitch": 41,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 126.0,
+"pitch": 42,
+"art": "Pizz RRx4",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 127.0,
+"pitch": 30,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 128.0,
+"pitch": 34,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 129.0,
+"pitch": 39,
+"art": "Pizz RRx4",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 130.0,
+"pitch": 32,
+"art": "Pizz RRx4",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 131.0,
+"pitch": 37,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 132.0,
+"pitch": 30,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 133.0,
+"pitch": 34,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 134.0,
+"pitch": 32,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 135.0,
+"pitch": 32,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 136.0,
+"pitch": 32,
+"art": "Pizz RRx4",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": null
+},
+{
+"track": "Double basses",
+"sq": 158.0,
+"pitch": 35,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 162.0,
+"pitch": 35,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Double basses",
+"sq": 186.0,
+"pitch": 34,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Double basses",
+"sq": 188.0,
+"pitch": 41,
+"art": "Sus MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 1.0
+},
+{
+"track": "Double basses",
+"sq": 190.0,
+"pitch": 42,
+"art": "Sus MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Double basses",
+"sq": 192.0,
+"pitch": 34,
+"art": "Sus MAX",
+"d_db": 0.33,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Double basses",
+"sq": 198.0,
+"pitch": 31,
+"art": "Sus MAX",
+"d_db": 1.0,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Double basses",
+"sq": 218.0,
+"pitch": 38,
+"art": "Sus MAX",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Double basses",
+"sq": 219.0,
+"pitch": 40,
+"art": "Sus MAX",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Double basses",
+"sq": 242.0,
+"pitch": 34,
+"art": "Sus MAX",
+"d_db": 0.77,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Double basses",
+"sq": 247.0,
+"pitch": 34,
+"art": "Sus MAX",
+"d_db": 0.69,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violin I solo",
+"sq": 48.0,
+"pitch": 80,
+"art": "Leg Slur MAX",
+"d_db": -0.06,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violin I solo",
+"sq": 50.0,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violin I solo",
+"sq": 60.0,
+"pitch": 77,
+"art": "Leg Slur MAX",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violin I solo",
+"sq": 60.5,
+"pitch": 79,
+"art": "Leg Slur MAX",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violin I solo",
+"sq": 61.0,
+"pitch": 75,
+"art": "Leg Slur MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violin I solo",
+"sq": 62.0,
+"pitch": 74,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violin I solo",
+"sq": 63.0,
+"pitch": 75,
+"art": "Leg Slur MAX",
+"d_db": 0.12,
+"eq_db": 0.0,
+"d_pcx_ms": -36.0
+},
+{
+"track": "Violoncellos div",
+"sq": 51.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos div",
+"sq": 51.5,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos div",
+"sq": 53.0,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violoncellos div",
+"sq": 64.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violins II div",
+"sq": 112.0,
+"pitch": 70,
+"art": "Flautando",
+"d_db": -0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Violas div",
+"sq": 70.0,
+"pitch": 68,
+"art": "Sus MAX",
+"d_db": 0.26,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Violas div",
+"sq": 72.0,
+"pitch": 63,
+"art": "Leg Slur MAX",
+"d_db": -0.08,
+"eq_db": 0.0,
+"d_pcx_ms": -6.0
+},
+{
+"track": "Violas div",
+"sq": 82.0,
+"pitch": 65,
+"art": "Sus MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horns 1-2 a2",
+"sq": 261.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 0.03,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horns 1-2 a2",
+"sq": 262.0,
+"pitch": 61,
+"art": "Leg Slur MAX",
+"d_db": 0.02,
+"eq_db": 0.0,
+"d_pcx_ms": -1.0
+},
+{
+"track": "Horns 1-2 a2",
+"sq": 263.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": 0.04,
+"eq_db": 0.0,
+"d_pcx_ms": -2.0
+},
+{
+"track": "Horns 1-2 a2",
+"sq": 264.0,
+"pitch": 58,
+"art": "Leg Slur MAX",
+"d_db": -0.02,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horns 1-2 a2",
+"sq": 265.0,
+"pitch": 56,
+"art": "Leg Slur MAX",
+"d_db": -0.11,
+"eq_db": 0.0,
+"d_pcx_ms": -3.0
+},
+{
+"track": "Horns 1-2 a2",
+"sq": 267.0,
+"pitch": 58,
+"art": "Sus MAX",
+"d_db": 0.0,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horns 1-2 a2",
+"sq": 269.0,
+"pitch": 61,
+"art": "Sus MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+},
+{
+"track": "Horns 1-2 a2",
+"sq": 271.0,
+"pitch": 60,
+"art": "Leg Slur MAX",
+"d_db": -0.01,
+"eq_db": 0.0,
+"d_pcx_ms": 0.0
+}
+]

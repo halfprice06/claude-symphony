@@ -1,0 +1,69 @@
+line | c14 step | new step | without any envelope | change
+Violins I 36-84 | 1.8 | 2.5 | 1.7 | +0.7  <-- worse
+Violins I 756-804 | 1.3 | 2.0 | 1.8 | +0.6  <-- worse
+Violins I 84-132 | 2.6 | 2.3 | 2.2 | -0.3
+Flute 1 84-132 | 3.0 | 2.5 | 3.1 | -0.6
+Oboe 1 84-132 | 2.1 | 2.2 | 3.0 | +0.1
+Violins I 132-168 | 1.8 | 1.8 | 0.9 | -0.0
+Flute 1 132-168 | 4.3 | 4.3 | 4.7 | +0.0
+Oboe 1 132-168 | 3.4 | 3.1 | 3.4 | -0.3
+Violoncellos 168-216 | 2.5 | 2.3 | 1.9 | -0.1
+Violins I 204-216 | 4.3 | 2.8 | 3.2 | -1.5
+Violas 180-216 | 2.6 | 2.7 | 2.2 | +0.1
+Violins II 192-216 | 2.7 | 2.6 | 3.0 | -0.1
+Violoncellos 864-900 | 2.5 | 2.7 | 2.3 | +0.3
+Violas 876-900 | 2.2 | 2.1 | 2.0 | -0.0
+Violins I 312-360 | 2.1 | 2.1 | 2.1 | +0.1
+Violins II 312-360 | 1.9 | 1.9 | 1.9 | +0.0
+Flute 1 312-360 | 2.6 | 2.6 | 2.8 | -0.0
+Flute 2 312-360 | 2.7 | 2.8 | 3.2 | +0.1
+Oboe 1 312-360 | 1.7 | 1.5 | 1.5 | -0.1
+Trumpet 1 300-360 | 2.0 | 2.0 | 2.0 | +0.0
+Violins I 360-420 | 2.6 | 2.6 | 1.6 | -0.0
+Clarinet 1 360-420 | 2.3 | 2.1 | 2.5 | -0.2
+Clarinet 1 456-504 | 2.4 | 2.5 | 3.7 | +0.1
+Clarinet 1 624-672 | 4.0 | 5.1 | 4.2 | +1.2  <-- worse
+Clarinet 1 672-708 | 2.0 | 4.0 | 6.1 | +2.0  <-- worse
+Violoncellos 504-552 | 2.0 | 2.0 | 2.4 | -0.0
+Horn 3 504-552 | 2.2 | 2.4 | 2.4 | +0.2
+Violins I 528-552 | 1.3 | 1.4 | 1.4 | +0.1
+Oboe 1 552-588 | 2.8 | 2.6 | 2.5 | -0.1
+Clarinet 1 588-624 | 4.5 | 4.5 | 6.9 | -0.0
+Violins I 624-672 | 1.5 | 1.1 | 1.1 | -0.4
+Oboe 1 672-708 | 3.0 | 4.8 | 4.4 | +1.9  <-- worse
+Violins I 828-864 | 3.0 | 2.2 | 1.2 | -0.8
+Oboe 1 828-864 | 2.5 | 3.1 | 3.0 | +0.6  <-- worse
+Violoncellos 828-864 | 1.8 | 2.0 | 2.0 | +0.2
+Violins I 984-1017 | 2.0 | 2.6 | 2.3 | +0.6  <-- worse
+Violin I solo 1044-1068 | 1.3 | 1.4 | 2.2 | +0.2
+Flute 1 1044-1068 | 2.9 | 3.0 | 3.3 | +0.0
+Horn 3 1020-1044 | 0.8 | 1.1 | 1.8 | +0.4
+Violoncellos 6-90 | 2.7 | 2.7 | 3.4 | +0.0
+Double basses 6-90 | 1.2 | 1.2 | 3.8 | +0.0
+Double basses 756-804 | 1.4 | 1.0 | 4.6 | -0.4
+Timpani 0-1128 | 2.1 | 2.1 | 2.4 | +0.1
+Violas 312-360 | 2.7 | 2.7 | 2.5 | -0.0
+Cor anglais 168-312 | 3.2 | 3.0 | 2.7 | -0.3
+Horn 2 360-420 | 2.5 | 2.4 | 1.8 | -0.1
+Horn 4 456-504 | 0.0 | 0.0 | 0.0 | -0.0
+Violins II 504-552 | 2.4 | 2.4 | 2.4 | +0.0
+Violas 912-960 | 2.9 | 2.9 | 2.8 | +0.0
+Flute 1 912-960 | 1.8 | 1.8 | 2.0 | -0.0
+lines worse by more than 0.5 dB: 7
+join holes (dB under the quieter neighbour body): c14 | new | without envelope
+  Clarinet 1 138: 8.4 | 2.4 | 2.4
+  Clarinet 1 399: 10.2 | 4.3 | 4.7
+  Clarinet 1 468: 7.7 | 0.5 | 0.3
+  Clarinet 1 840: 8.6 | 3.2 | 2.2
+  Violoncellos 339: 3.8 | -1.6 | -1.6
+  Violoncellos 939: 4.2 | -1.6 | -1.6
+  Violoncellos 390: 3.5 | 0.4 | 0.4
+  Violoncellos 594: 3.6 | 3.9 | 3.9
+  Violins I 155.5: 9.0 | 1.0 | 1.4
+same-pitch pair dips, median (lowest 10 ms frame between the onsets against the second note's loudest 10 ms frame in its first 60 ms): c14 | new
+  Flute 1 84-132: 9.6 | 8.1  (n 6)
+  Flute 1 312-360: 11.4 | 7.3  (n 7)
+  Violins I 36-84: 6.0 | 5.6  (n 7)
+  Trumpet 1 300-360: 7.2 | 7.2  (n 32)
+  Oboe 1 312-360: 10.2 | 9.6  (n 7)
+  Flute 2 312-360: 8.4 | 6.6  (n 7)

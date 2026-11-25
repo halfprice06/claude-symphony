@@ -1,0 +1,339 @@
+  tempo ramp 176-184: 4.03 s stepped -> 4.03 s ramped
+  tempo ramp 244-260: 8.19 s stepped -> 8.19 s ramped
+  tempo ramp 260-272: 7.10 s stepped -> 7.10 s ramped
+  tempo ramp 480-488: 4.32 s stepped -> 4.31 s ramped
+  tempo ramp 576-584: 4.03 s stepped -> 4.07 s ramped
+  tempo ramp 620-632: 6.12 s stepped -> 6.12 s ramped
+  tempo ramp 656-664: 5.39 s stepped -> 5.39 s ramped
+  tempo ramp 704-712: 7.86 s stepped -> 7.87 s ramped
+  phrase arc 56-72: +0.035 s
+  phrase arc 72-88: +0.027 s
+  phrase arc 104-120: +0.035 s
+  phrase arc 120-128: +0.050 s
+  phrase arc 200-220: +0.030 s
+  phrase arc 220-232: +0.056 s
+  WARNING phrase arc 232-244 ends where a tempo ramp starts: check the tempo does not rise
+  phrase arc 232-244: +-0.023 s
+  phrase arc 520-536: +0.035 s
+  phrase arc 536-552: +0.027 s
+  phrase arc 552-568: +0.050 s
+  WARNING phrase arc 568-576 ends where a tempo ramp starts: check the tempo does not rise
+  phrase arc 568-576: +0.050 s
+  phrase arc 584-600: +0.013 s
+  WARNING phrase arc 600-620 ends where a tempo ramp starts: check the tempo does not rise
+  phrase arc 600-620: +-0.055 s
+  phrase arc 272-284: +-0.035 s
+  phrase arc 324-332: +0.069 s
+  phrase arc 332-348: +0.050 s
+  phrase arc 348-360: +0.050 s
+  phrase arc 384-396: +0.026 s
+  phrase arc 396-408: +0.070 s
+  phrase arc 408-416: +0.050 s
+  phrase arc 416-424: +0.055 s
+  phrase arc 424-432: +0.050 s
+  phrase arc 432-440: +0.084 s
+  phrase arc 440-452: +0.050 s
+  phrase arc 680-688: +0.061 s
+  phrase arc 688-696: +0.146 s
+  phrase arc 0-16: +0.088 s
+  phrase arc 16-36: +0.032 s
+  phrase arc 36-48: +0.103 s
+  phrase arc 48-56: +0.211 s
+  phrase arc 128-144: +0.027 s
+  phrase arc 144-160: +0.050 s
+  phrase arc 712-724: +0.088 s
+  tempo push 89-100: x1.015
+  tempo push 553-564: x1.015
+  tempo push 309-324: x1.015
+  tempo push 365-384: x1.015
+  tempo push 453-464: x1.01
+  tempo push 37-46: x1.015
+  apex 56-72: Violins I pitch 77 at qn 65.00, beat 65.0 x0.96
+  apex 72-88: Violins I pitch 85 at qn 78.00, beat 78.0 x0.96
+  apex 104-120: Violins I pitch 89 at qn 113.00, beat 113.0 x0.96
+  apex 120-128: Violins I pitch 91 at qn 121.50, beat 121.0 x0.96
+  apex 200-220: Horn 1 pitch 72 at qn 201.00, beat 201.0 x0.96
+  apex 220-232: Violins I pitch 77 at qn 225.00, beat 225.0 x0.96
+  apex 232-244: Violins I pitch 82 at qn 236.00, beat 236.0 x0.96
+  apex 520-536: Violins I pitch 87 at qn 521.00, beat 521.0 x0.96
+  apex 536-552: Violins I pitch 83 at qn 548.00, beat 548.0 x0.96
+  apex 552-568: Violins I pitch 80 at qn 558.00, beat 558.0 x0.96
+  apex 568-576: Violins I pitch 75 at qn 569.00, beat 569.0 x0.96
+  apex 584-600: Horn 1 pitch 72 at qn 596.00, beat 596.0 x0.96
+  apex 600-620: Horn 1 pitch 65 at qn 615.00, beat 615.0 x0.96
+  apex 272-284: no lead line
+  apex 324-332: no lead line
+  apex 332-348: no lead line
+  apex 348-360: no lead line
+  apex 384-396: no lead line
+  apex 396-408: no lead line
+  apex 408-416: no lead line
+  apex 416-424: no lead line
+  apex 424-432: Violas pitch 72 at qn 429.00, beat 429.0 x0.96
+  apex 432-440: no lead line
+  apex 440-452: Violins I pitch 84 at qn 448.00, beat 448.0 x0.96
+  apex 680-688: Violoncellos pitch 68 at qn 685.00, beat 685.0 x0.96
+  apex 688-696: Violoncellos pitch 72 at qn 692.00, beat 692.0 x0.96
+  apex 0-16: no lead line
+  apex 16-36: no lead line
+  apex 36-48: no lead line
+  apex 48-56: no lead line
+  apex 128-144: no lead line
+  apex 144-160: no lead line
+  apex 712-724: no lead line
+  beat stretch 679.0: x0.6
+  beat stretch 284.0: x0.95
+  beat stretch 285.0: x0.95
+  tempo shaping: +0.824 s
+  caesura 636.0: 120.938 -> 54.738 bpm over 635.75-636.0 (+0.150 s)
+  unison qn 272.00 pitch 72: keep Oboe 1, drop ['Oboe 2']
+  unison qn 286.00 pitch 72: keep Oboe 1, drop ['Oboe 2']
+  unison qn 556.00 pitch 73: left (a copy holds > 1 qn longer)
+  unison qn 564.00 pitch 72: keep Oboe 1, drop ['Oboe 2']
+  unison qn 566.00 pitch 71: keep Oboe 1, drop ['Oboe 2']
+  unison qn 628.00 pitch 67: keep Oboe 1, drop ['Oboe 2']
+  unison qn 272.50 pitch 63: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 273.00 pitch 72: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 274.50 pitch 70: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 275.00 pitch 68: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 275.50 pitch 67: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 276.00 pitch 68: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 276.50 pitch 70: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 277.00 pitch 72: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 277.50 pitch 73: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 278.00 pitch 77: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 279.50 pitch 75: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 280.00 pitch 73: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 280.50 pitch 72: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 281.00 pitch 70: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 281.50 pitch 68: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 282.00 pitch 67: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 283.50 pitch 70: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 284.00 pitch 68: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 285.00 pitch 72: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 286.00 pitch 68: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 408.50 pitch 69: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 409.00 pitch 77: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 410.50 pitch 76: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 411.00 pitch 75: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 411.50 pitch 74: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 412.00 pitch 74: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 413.00 pitch 73: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 413.50 pitch 74: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 414.00 pitch 79: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 415.50 pitch 77: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 416.50 pitch 74: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 417.00 pitch 82: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 418.50 pitch 81: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 419.00 pitch 80: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 419.50 pitch 79: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 420.00 pitch 83: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 421.00 pitch 82: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 421.50 pitch 83: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 422.00 pitch 79: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 423.50 pitch 78: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 520.50 pitch 55: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 521.00 pitch 63: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 522.50 pitch 62: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 523.00 pitch 61: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 523.50 pitch 60: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 524.00 pitch 60: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 525.00 pitch 59: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 525.50 pitch 60: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 526.00 pitch 56: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 527.50 pitch 55: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 528.50 pitch 55: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 529.00 pitch 65: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 530.50 pitch 63: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 531.00 pitch 62: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 531.50 pitch 60: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 532.00 pitch 59: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 533.00 pitch 62: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 533.50 pitch 60: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 534.00 pitch 55: keep Clarinet 1, drop ['Clarinet 2']
+  unison qn 88.00 pitch 48: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 91.00 pitch 47: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 94.00 pitch 48: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 125.00 pitch 43: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 520.50 pitch 55: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 521.00 pitch 63: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 522.50 pitch 62: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 523.00 pitch 61: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 523.50 pitch 60: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 524.00 pitch 60: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 525.00 pitch 59: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 525.50 pitch 60: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 526.00 pitch 56: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 527.50 pitch 55: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 528.50 pitch 55: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 529.00 pitch 65: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 530.50 pitch 63: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 531.00 pitch 62: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 531.50 pitch 60: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 532.00 pitch 59: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 533.00 pitch 62: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 533.50 pitch 60: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 534.00 pitch 55: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 536.00 pitch 48: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 539.00 pitch 47: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 542.00 pitch 48: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 624.00 pitch 41: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 628.00 pitch 43: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 632.00 pitch 43: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 636.00 pitch 44: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 640.00 pitch 50: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 642.00 pitch 43: keep Bassoon 2, drop ['Bassoon 1']
+  unison qn 648.00 pitch 41: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 654.00 pitch 43: keep Bassoon 1, drop ['Bassoon 2']
+  unison qn 108.00 pitch 65: keep Horn 1, drop ['Horn 2']
+  unison qn 412.00 pitch 62: keep Horn 1, drop ['Horn 3']
+  unison qn 418.00 pitch 64: keep Horn 1, drop ['Horn 3']
+  unison qn 528.00 pitch 65: keep Horn 1, drop ['Horn 2']
+  unison qn 91.00 pitch 62: keep Horn 2, drop ['Horn 3']
+  unison qn 232.00 pitch 61: left (a copy holds > 1 qn longer)
+  unison qn 244.00 pitch 60: keep Horn 3, drop ['Horn 2']
+  unison qn 252.00 pitch 60: keep Horn 3, drop ['Horn 2']
+  unison qn 260.00 pitch 61: keep Horn 3, drop ['Horn 2']
+  unison qn 268.00 pitch 60: keep Horn 2, drop ['Horn 3']
+  unison qn 163.00 pitch 51: keep Horn 3, drop ['Horn 4']
+  unison qn 164.00 pitch 60: keep Horn 3, drop ['Horn 4']
+  unison qn 165.00 pitch 58: keep Horn 3, drop ['Horn 4']
+  unison qn 316.50 pitch 55: keep Horn 3, drop ['Horn 4']
+  unison qn 317.00 pitch 63: keep Horn 3, drop ['Horn 4']
+  unison qn 320.50 pitch 55: keep Horn 3, drop ['Horn 4']
+  unison qn 321.00 pitch 63: keep Horn 3, drop ['Horn 4']
+  unison qn 324.00 pitch 60: keep Horn 3, drop ['Horn 4']
+  unison qn 628.00 pitch 67: keep Horn 3, drop ['Horn 4']
+  unison qn 630.00 pitch 72: keep Horn 3, drop ['Horn 4']
+  unison qn 632.00 pitch 71: keep Horn 3, drop ['Horn 4']
+  unison qn 634.00 pitch 65: keep Horn 3, drop ['Horn 4']
+  unison qn 636.00 pitch 63: keep Horn 3, drop ['Horn 4']
+  unison qn 637.00 pitch 72: keep Horn 3, drop ['Horn 4']
+  unison qn 638.50 pitch 72: keep Horn 3, drop ['Horn 4']
+  unison qn 639.00 pitch 70: keep Horn 3, drop ['Horn 4']
+  unison qn 639.50 pitch 68: keep Horn 3, drop ['Horn 4']
+  unison qn 640.00 pitch 68: keep Horn 3, drop ['Horn 4']
+  unison qn 276.00 pitch 68: left (a copy holds > 1 qn longer)
+  unison qn 520.00 pitch 67: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 521.50 pitch 67: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 522.00 pitch 67: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 523.50 pitch 67: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 524.00 pitch 67: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 628.00 pitch 67: keep Trumpet 2, drop ['Trumpet 1']
+  unison qn 664.50 pitch 67: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 665.00 pitch 75: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 666.50 pitch 74: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 667.00 pitch 73: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 667.50 pitch 72: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 668.00 pitch 72: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 669.00 pitch 71: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 669.50 pitch 72: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 670.00 pitch 68: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 671.50 pitch 67: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 672.50 pitch 67: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 673.00 pitch 77: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 674.50 pitch 75: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 675.00 pitch 74: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 675.50 pitch 72: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 676.00 pitch 71: keep Trumpet 1, drop ['Trumpet 2']
+  unison qn 556.00 pitch 65: keep Trumpet 2, drop ['Trumpet 3']
+  unison qn 316.50 pitch 43: keep Trombone 1, drop ['Trombone 2']
+  unison qn 317.00 pitch 51: keep Trombone 1, drop ['Trombone 2']
+  unison qn 320.50 pitch 55: keep Trombone 1, drop ['Trombone 2']
+  unison qn 321.00 pitch 63: keep Trombone 1, drop ['Trombone 2']
+  unison qn 464.00 pitch 55: keep Trombone 1, drop ['Trombone 2']
+  unison qn 468.00 pitch 63: keep Trombone 1, drop ['Trombone 2']
+  unison qn 475.00 pitch 62: keep Trombone 1, drop ['Trombone 2']
+  unison qn 476.00 pitch 61: keep Trombone 1, drop ['Trombone 2']
+  unison qn 479.00 pitch 60: keep Trombone 1, drop ['Trombone 2']
+  unison qn 492.00 pitch 55: keep Trombone 1, drop ['Trombone 2']
+  unison qn 520.50 pitch 55: keep Trombone 1, drop ['Trombone 2']
+  unison qn 521.00 pitch 63: keep Trombone 1, drop ['Trombone 2']
+  unison qn 522.50 pitch 62: keep Trombone 1, drop ['Trombone 2']
+  unison qn 523.00 pitch 61: keep Trombone 1, drop ['Trombone 2']
+  unison qn 523.50 pitch 60: keep Trombone 1, drop ['Trombone 2']
+  unison qn 524.00 pitch 60: keep Trombone 1, drop ['Trombone 2']
+  unison qn 525.00 pitch 59: keep Trombone 1, drop ['Trombone 2']
+  unison qn 525.50 pitch 60: keep Trombone 1, drop ['Trombone 2']
+  unison qn 526.00 pitch 56: keep Trombone 1, drop ['Trombone 2']
+  unison qn 527.50 pitch 55: keep Trombone 1, drop ['Trombone 2']
+  unison qn 528.50 pitch 55: keep Trombone 1, drop ['Trombone 2']
+  unison qn 529.00 pitch 65: keep Trombone 1, drop ['Trombone 2']
+  unison qn 530.50 pitch 63: keep Trombone 1, drop ['Trombone 2']
+  unison qn 531.00 pitch 62: keep Trombone 1, drop ['Trombone 2']
+  unison qn 531.50 pitch 60: keep Trombone 1, drop ['Trombone 2']
+  unison qn 532.00 pitch 59: keep Trombone 1, drop ['Trombone 2']
+  unison qn 533.00 pitch 62: keep Trombone 1, drop ['Trombone 2']
+  unison qn 533.50 pitch 60: keep Trombone 1, drop ['Trombone 2']
+  unison qn 534.00 pitch 55: keep Trombone 1, drop ['Trombone 2']
+  Flute 1: 15 legato notes ended before a keyswitch
+  Flute 2: 1 legato notes ended before a keyswitch
+  Oboe 1: 14 legato notes ended before a keyswitch
+  Oboe 2: 7 legato notes ended before a keyswitch
+  Cor anglais: 1 breath splits
+  Cor anglais: 1 legato notes ended before a keyswitch
+  Clarinet 1: 39 legato notes ended before a keyswitch
+  Bass clarinet: 2 breath splits
+  Bass clarinet: 6 legato notes ended before a keyswitch
+  Bassoon 1: 12 legato notes ended before a keyswitch
+  Bassoon 2: 1 breath splits
+  Horn 1: 2 legato notes ended before a keyswitch
+  Horn 2: 7 legato notes ended before a keyswitch
+  Horn 3: 3 breath splits
+  Horn 3: 3 legato notes ended before a keyswitch
+  Horn 4: 3 breath splits
+  Trumpet 1: 7 legato notes ended before a keyswitch
+  Trombone 1: 6 legato notes ended before a keyswitch
+  Timpani: 4 notes ended before a same-pitch or tremolo onset
+  Timpani: 21 roll re-strikes
+  Harp: 170 notes ring 2.0 s past their written end; damps at [244.0, 650.0, 654.0, 727.0]
+  Harp: 39 notes ended before a same-pitch or tremolo onset
+  Violins I: 6 re-bows
+  Violins I: 37 legato notes ended before a keyswitch
+  Violins II: 1 notes ended before a same-pitch or tremolo onset
+  Violins II: 13 re-bows
+  Violins II: 1 tremolo splits
+  Violins II: 24 legato notes ended before a keyswitch
+  Violas: 30 notes ended before a same-pitch or tremolo onset
+  Violas: 16 re-bows
+  Violas: 29 legato notes ended before a keyswitch
+  Violoncellos: 5 notes ended before a same-pitch or tremolo onset
+  Violoncellos: 27 re-bows
+  Violoncellos: 21 legato notes ended before a keyswitch
+  WARN Double basses: fp at qn 128.0 -> curve 114
+  Double basses: 1 notes ended before a same-pitch or tremolo onset
+  Double basses: 30 re-bows
+  Horns a2: 9 legato notes ended before a keyswitch
+Flute 1         notes= 217 ks= 38 cc11= 423 range=[70, 92] clash=[] {'Leg Slur MAX': 114, 'Sus MAX': 103} leads={'entry': 93, 'leg': 82} notches=5 uni_drop=0 bloomv=0 pitch_trim=14 div_ent=[] extra=[636.0] bcsoft=0 hpgain=13 hp_chain=[552.5] bc_skip=[] roles_chained=0 acc_db=37
+Flute 2         notes=  78 ks=  5 cc11= 355 range=[67, 92] clash=[] {'Sus MAX': 53, 'Leg Slur MAX': 25} leads={'entry': 45, 'leg': 20} notches=1 uni_drop=0 bloomv=0 pitch_trim=7 div_ent=[] extra=[636.0] bcsoft=0 hpgain=6 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=14
+Oboe 1          notes= 204 ks= 41 cc11= 495 range=[59, 86] clash=[] {'Sus MAX': 95, 'Leg Slur MAX': 109} leads={'entry': 100, 'leg': 74} notches=4 uni_drop=0 bloomv=0 pitch_trim=18 div_ent=[] extra=[636.0] bcsoft=0 hpgain=9 hp_chain=[552.5] bc_skip=[] roles_chained=0 acc_db=35
+Oboe 2          notes=  78 ks= 15 cc11= 422 range=[63, 83] clash=[] {'Sus MAX': 71, 'Leg Slur MAX': 11} leads={'entry': 64, 'leg': 4} notches=2 uni_drop=4 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=5 hp_chain=[460.0] bc_skip=[] roles_chained=0 acc_db=17
+Cor anglais     notes=  59 ks= 13 cc11= 148 range=[59, 75] clash=[] {'Leg Slur MAX': 38, 'Sus MAX': 20} leads={'entry': 19, 'leg': 29} notches=3 uni_drop=0 bloomv=0 pitch_trim=10 div_ent=[] extra=[] bcsoft=0 hpgain=2 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=2
+Clarinet 1      notes= 291 ks= 94 cc11= 910 range=[55, 84] clash=[] {'Sus Non Vib': 178, 'Leg Slur': 113} leads={'entry': 155} notches=7 uni_drop=0 bloomv=0 pitch_trim=47 div_ent=[] extra=[] bcsoft=0 hpgain=16 hp_chain=[552.5, 632.0] bc_skip=[] roles_chained=0 acc_db=52
+Clarinet 2      notes= 120 ks= 37 cc11= 649 range=[55, 83] clash=[] {'Sus Non Vib': 143, 'Leg Slur': 34} leads={'entry': 129} notches=2 uni_drop=57 bloomv=0 pitch_trim=11 div_ent=[] extra=[] bcsoft=0 hpgain=8 hp_chain=[552.5] bc_skip=[] roles_chained=0 acc_db=30
+Bass clarinet   notes=  83 ks= 17 cc11= 513 range=[34, 55] clash=[] {'Leg Slur': 23, 'Sus Non Vib': 58} leads={'entry': 57, 'leg': 12} notches=2 uni_drop=0 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=8 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=7
+Bassoon 1       notes= 207 ks= 35 cc11= 869 range=[36, 65] clash=[] {'Sus MAX': 153, 'Leg Slur MAX': 55} leads={'entry': 142, 'leg': 33} notches=3 uni_drop=1 bloomv=0 pitch_trim=2 div_ent=[] extra=[] bcsoft=0 hpgain=14 hp_chain=[552.0, 632.0] bc_skip=[] roles_chained=0 acc_db=28
+Bassoon 2       notes= 114 ks= 13 cc11=1031 range=[34, 65] clash=[] {'Sus MAX': 136, 'Leg Slur MAX': 9} leads={'entry': 115, 'leg': 3} notches=1 uni_drop=32 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=17 hp_chain=[552.0, 632.0] bc_skip=[] roles_chained=0 acc_db=22
+Contrabassoon   notes=  99 ks=  1 cc11= 623 range=[24, 41] clash=[] {'Sus MAX': 99} leads={'entry': 87} notches=0 uni_drop=0 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=5 hp_chain=[552.0] bc_skip=[] roles_chained=0 acc_db=16
+Horn 1          notes= 114 ks= 11 cc11= 751 range=[51, 76] clash=[] {'Sus MAX': 55, 'Leg Slur MAX': 59} leads={'entry': 56, 'leg': 45} notches=4 uni_drop=0 bloomv=0 pitch_trim=20 div_ent=[] extra=[] bcsoft=0 hpgain=19 hp_chain=[552.0, 632.0] bc_skip=[] roles_chained=0 acc_db=14
+Horn 2          notes=  90 ks= 19 cc11= 710 range=[54, 70] clash=[] {'Sus MAX': 66, 'Leg Slur MAX': 29} leads={'entry': 64, 'leg': 19} notches=0 uni_drop=5 bloomv=0 pitch_trim=30 div_ent=[] extra=[] bcsoft=0 hpgain=14 hp_chain=[552.0, 632.0] bc_skip=[] roles_chained=0 acc_db=14
+Horn 3          notes= 134 ks= 11 cc11=1140 range=[51, 72] clash=[] {'Sus MAX': 118, 'Leg Slur MAX': 16} leads={'entry': 110, 'leg': 10} notches=0 uni_drop=3 bloomv=0 pitch_trim=22 div_ent=[] extra=[] bcsoft=0 hpgain=13 hp_chain=[632.0] bc_skip=[] roles_chained=0 acc_db=20
+Horn 4          notes= 110 ks=  9 cc11=1201 range=[41, 72] clash=[] {'Sus MAX': 111, 'Leg Slur MAX': 14} leads={'entry': 102, 'leg': 9} notches=0 uni_drop=18 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=12 hp_chain=[632.0] bc_skip=[] roles_chained=0 acc_db=16
+Trumpet 1       notes=  99 ks= 17 cc11= 320 range=[65, 80] clash=[] {'Sus Non Vib MAX': 72, 'Leg Slur MAX': 28} leads={'entry': 68, 'leg': 17} notches=1 uni_drop=1 bloomv=0 pitch_trim=5 div_ent=[] extra=[636.0] bcsoft=0 hpgain=3 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=17
+Trumpet 2       notes=  54 ks= 13 cc11= 363 range=[62, 77] clash=[] {'Sus Non Vib MAX': 65, 'Leg Slur MAX': 10} leads={'entry': 58, 'leg': 3} notches=0 uni_drop=21 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=3 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=16
+Trumpet 3       notes=  53 ks=  1 cc11= 350 range=[59, 65] clash=[] {'Sus Non Vib MAX': 54} leads={'entry': 46} notches=0 uni_drop=1 bloomv=0 pitch_trim=6 div_ent=[] extra=[636.0] bcsoft=0 hpgain=4 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=8
+Trombone 1      notes= 102 ks= 17 cc11= 536 range=[43, 65] clash=[] {'Sus MAX': 84, 'Leg Slur MAX': 18} leads={'entry': 74, 'leg': 8} notches=0 uni_drop=0 bloomv=0 pitch_trim=0 div_ent=[] extra=[636.0] bcsoft=0 hpgain=4 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=19
+Trombone 2      notes=  52 ks= 14 cc11= 523 range=[43, 65] clash=[] {'Sus MAX': 65, 'Leg Slur MAX': 16} leads={'entry': 56, 'leg': 7} notches=0 uni_drop=29 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=3 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=18
+Bass trombone   notes=  67 ks=  2 cc11= 549 range=[36, 54] clash=[] {'Sus MAX': 61, 'Leg Slur MAX': 6} leads={'entry': 49, 'leg': 4} notches=0 uni_drop=0 bloomv=0 pitch_trim=0 div_ent=[] extra=[636.0] bcsoft=0 hpgain=3 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=13
+Tuba            notes=  50 ks=  1 cc11= 451 range=[29, 41] clash=[] {'Sus MAX': 50} leads={'entry': 37} notches=0 uni_drop=0 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=4 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=13
+Timpani         notes= 110 ks= 22 cc11=   0 range=[43, 51] clash=[] {'Timpani Flt Rls': 26, 'Timpani Flt Lng': 63} leads={'entry': 89} notches=0 uni_drop=0 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=0 hp_chain=[] bc_skip=[] roles_chained=1 acc_db=0
+Tam-tam         notes=   2 ks=  0 cc11=   1 range=[36, 36] clash=[] {} leads={} notches=0 uni_drop=0 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=0 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=0
+Suspended cymbal notes=   1 ks=  0 cc11=   1 range=[64, 64] clash=[] {} leads={} notches=0 uni_drop=0 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=0 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=0
+Crash cymbals   notes=   1 ks=  0 cc11=   1 range=[60, 60] clash=[] {} leads={} notches=0 uni_drop=0 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=0 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=0
+Harp            notes= 186 ks=  0 cc11=   1 range=[27, 97] clash=[] {None: 186} leads={'entry': 45} notches=0 uni_drop=0 bloomv=0 pitch_trim=0 div_ent=[] extra=[] bcsoft=0 hpgain=0 hp_chain=[] bc_skip=[] roles_chained=0 acc_db=0
+Violins I       notes= 380 ks=202 cc11= 945 range=[63, 92] clash=[] {'Leg Slur MAX': 172, 'Leg BC MAX': 102, 'Sus MAX': 82, 'Stac RRx14': 11, 'Leg Port MAX': 1, 'Tremolo': 12} leads={'entry': 58, 'leg': 238} notches=6 uni_drop=0 bloomv=0 pitch_trim=0 div_ent=[57.0, 65.0, 113.0, 124.0, 284.0, 328.0, 328.0, 479.0, 564.0, 575.5, 636.0] extra=[35.0, 440.0, 707.0] bcsoft=1 hpgain=20 hp_chain=[552.5, 632.0] bc_skip=[] roles_chained=1 acc_db=49
+Violins II      notes= 387 ks=130 cc11=1345 range=[55, 92] clash=[] {'Leg Slur MAX': 126, 'Leg BC MAX': 59, 'Sus MAX': 138, 'Stac RRx9': 13, 'Tremolo': 49, 'Leg Port MAX': 1} leads={'entry': 140, 'leg': 137} notches=36 uni_drop=0 bloomv=0 pitch_trim=0 div_ent=[78.0, 124.0, 168.0, 216.0, 216.0, 328.0, 328.0, 564.0, 628.0, 636.0] extra=[20.0, 372.0, 424.0, 424.0, 696.0] bcsoft=0 hpgain=24 hp_chain=[552.5, 632.0] bc_skip=[168.0, 644.0] roles_chained=2 acc_db=46
+Violas          notes= 685 ks=124 cc11=1417 range=[48, 80] clash=[] {'Leg Slur MAX': 124, 'Leg BC MAX': 37, 'Sus MAX': 499, 'Stac RRx9': 13, 'Tremolo': 12} leads={'entry': 184, 'leg': 115} notches=35 uni_drop=0 bloomv=3 pitch_trim=0 div_ent=[44.0, 44.0, 48.0, 48.0, 88.0, 124.0, 124.0, 184.0, 184.0, 188.0, 188.0, 192.0, 192.0, 196.0, 196.0, 200.0, 200.0, 204.0, 204.0, 208.0, 208.0, 212.0, 212.0, 213.0, 213.0, 222.0, 222.0, 227.0, 227.0, 231.0, 231.0, 235.0, 235.0, 247.0, 247.0, 251.0, 251.0, 255.0, 255.0, 259.0, 259.0, 263.0, 263.0, 267.0, 267.0, 268.0, 268.0, 328.0, 328.0, 354.0, 387.5, 440.0, 452.0, 660.0, 660.0, 662.0, 662.0] extra=[20.0, 424.0, 653.0, 680.0] bcsoft=0 hpgain=25 hp_chain=[552.0, 632.0] bc_skip=[] roles_chained=1 acc_db=35
+Violoncellos    notes= 530 ks=189 cc11=1542 range=[36, 77] clash=[] {'Leg Slur MAX': 208, 'Leg BC MAX': 103, 'Sus MAX': 98, 'Pizzicato RRx4': 4, 'Stac RRx9': 80, 'Stac On Bow RRx9': 36, 'Leg Port MAX': 1} leads={'entry': 47, 'leg': 271} notches=37 uni_drop=0 bloomv=1 pitch_trim=145 div_ent=[100.0, 100.0, 124.0, 284.0, 342.0, 384.0, 492.0, 492.0, 496.0, 496.0, 500.0, 500.0, 501.0, 501.0, 548.0, 548.0, 636.0] extra=[3.0, 20.0, 136.0, 680.0] bcsoft=0 hpgain=41 hp_chain=[552.0, 632.0, 680.0] bc_skip=[224.0, 228.0, 232.0, 236.0, 238.0, 240.0, 242.0, 254.0, 256.0, 268.0, 384.0, 624.0, 644.0, 648.0, 652.0, 660.0, 696.0] roles_chained=3 acc_db=27
+Double basses   notes= 375 ks= 11 cc11=1406 range=[29, 46] clash=[] {'Leg Slur MAX': 6, 'Sus MAX': 331, 'Pizz RRx4': 38} leads={'entry': 103, 'leg': 4} notches=0 uni_drop=0 bloomv=0 pitch_trim=78 div_ent=[16.0] extra=[220.0, 384.0, 696.0] bcsoft=0 hpgain=25 hp_chain=[552.0, 632.0] bc_skip=[] roles_chained=0 acc_db=18
+Horns a2        notes=  81 ks= 24 cc11= 558 range=[51, 68] clash=[] {'Leg Slur MAX': 28, 'Sus MAX': 53} leads={'entry': 59, 'leg': 14} notches=0 uni_drop=0 bloomv=0 pitch_trim=5 div_ent=[] extra=[636.0] bcsoft=0 hpgain=19 hp_chain=[552.0, 632.0] bc_skip=[] roles_chained=0 acc_db=12

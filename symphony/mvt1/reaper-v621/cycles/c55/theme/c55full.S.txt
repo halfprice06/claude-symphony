@@ -1,0 +1,22 @@
+Violins I     56-87.9 S: n 39 of 39  median +6  robust SD 9  SD 15  min -53 max +55  >25 from median 2  >40 2  >60 0
+Violins I     56-127 S: n 79 of 79  median +6  robust SD 10  SD 15  min -53 max +55  >25 from median 7  >40 2  >60 0
+Violins I     536-576 S: n 38 of 38  median +2  robust SD 14  SD 18  min -30 max +67  >25 from median 4  >40 2  >60 1
+Violins II    104-127 S: n 27 of 27  median +5  robust SD 16  SD 13  min -18 max +38  >25 from median 1  >40 0  >60 0
+Violins II    552-576 S: n 20 of 20  median +2  robust SD 15  SD 19  min -69 max +24  >25 from median 1  >40 1  >60 1
+Violas        104-127 S: n 27 of 27  median +7  robust SD 12  SD 27  min -24 max +128  >25 from median 4  >40 2  >60 1
+Violoncellos  520-536 S: n 19 of 19  median +4  robust SD 24  SD 54  min -100 max +186  >25 from median 6  >40 5  >60 3
+Violins I     128.4-158 S: n 29 of 29  median +2  robust SD 15  SD 19  min -18 max +67  >25 from median 3  >40 2  >60 1
+Clarinet 1    520-536 S: n 18 of 19  median +1  robust SD 9  SD 15  min -10 max +57  >25 from median 1  >40 1  >60 0
+Bassoon 1     520-536 S: n 19 of 19  median +7  robust SD 12  SD 18  min -43 max +27  >25 from median 3  >40 2  >60 0
+Trombone 1    520-536 S: n 19 of 19  median +1  robust SD 16  SD 22  min -41 max +71  >25 from median 3  >40 2  >60 1
+Oboe 1        88-104 S: n 13 of 13  median -10  robust SD 27  SD 41  min -120 max +10  >25 from median 3  >40 3  >60 2
+Oboe 1        536-552 S: n 13 of 13  median -10  robust SD 16  SD 27  min -95 max +14  >25 from median 1  >40 1  >60 1
+Cor anglais   272-284 S: n 17 of 17  median +3  robust SD 8  SD 20  min -35 max +72  >25 from median 2  >40 1  >60 1
+Flute 1       88-103 S: n 13 of 13  median +9  robust SD 7  SD 22  min -6 max +84  >25 from median 1  >40 1  >60 1
+Flute 1       104-126 S: n 23 of 23  median +5  robust SD 10  SD 20  min -50 max +46  >25 from median 5  >40 2  >60 0
+Violins I     448-480 S: n 30 of 30  median +32  robust SD 31  SD 40  min -39 max +123  >25 from median 14  >40 11  >60 5
+Violins II    448-480 S: n 24 of 24  median -17  robust SD 46  SD 57  min -166 max +65  >25 from median 13  >40 11  >60 6
+Violoncellos  184-244 S: n 65 of 65  median -6  robust SD 43  SD 45  min -99 max +112  >25 from median 38  >40 21  >60 12
+Violins I     304-384 S: n 31 of 31  median +4  robust SD 36  SD 33  min -49 max +96  >25 from median 14  >40 7  >60 1
+Violas        304-384 S: n 42 of 43  median -5  robust SD 46  SD 50  min -175 max +92  >25 from median 26  >40 15  >60 9
+Violoncellos  304-384 S: n 53 of 53  median +1  robust SD 40  SD 57  min -226 max +116  >25 from median 30  >40 20  >60 11

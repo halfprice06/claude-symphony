@@ -1,0 +1,5 @@
+ALIAS CHECK Cb pedal M (of Double basses): DIFFERS; mix keys differing: none
+  notes: 40 alias / 40 source notes in the windows; alias only [(664.0, 36, 664.0, 0.47, 45), (665.0, 36, 665.0, 0.47, 45), (666.0, 36, 666.0, 0.47, 45), (667.0, 36, 667.0, 0.47, 45)], source only [(664.0, 36, 664.0, 0.47, 83), (665.0, 36, 665.0, 0.47, 83), (666.0, 36, 666.0, 0.47, 83), (667.0, 36, 667.0, 0.47, 83)]
+  ks: row differs at 12 onsets, first [664.0, 665.0, 666.0, 667.0]
+  ks: keyswitch events in 613.5-680.0: alias 27 / source 3; first differing ((663.94, 'Marc Sus LITE'), None)
+  vol: 260 of 560 sounding times differ by over 0.05 dB, e.g. [(663.86, -3.85, -3.61), (663.875, -3.94, -3.76), (663.94, -2.26, 0.81)] (qn, alias, source); largest 5.10 dB

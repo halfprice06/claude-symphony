@@ -1,0 +1,6 @@
+  Oboe 1           crescendo 146-148 in the phrase 138.983-151 (wind shape): offset +1.10 -> +0.53 dB (unscaled)
+  Cor anglais      crescendo 157-159 in the phrase 150.972-163.8 (wind shape): offset +1.44 -> +0.95 dB (unscaled)
+  Bassoon 1        crescendo 146-148 in the phrase 138.983-151 (wind shape): offset +1.10 -> +0.53 dB (unscaled)
+  Bassoon 2        crescendo 146-148 in the phrase 139.971-152 (wind shape): offset +1.37 -> +0.80 dB (unscaled)
+  Violoncellos     crescendo 146-148 in the phrase 138.983-151 (wind shape): offset +1.10 -> +0.53 dB (unscaled)
+crescendos shorter than 4 qn on tracks with lyrical phrases: 52; inside a lyrical phrase: 7; phrase offset lower at the end than at the start: 5

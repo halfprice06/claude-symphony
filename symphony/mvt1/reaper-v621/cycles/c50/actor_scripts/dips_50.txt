@@ -1,0 +1,13 @@
+Double basses  104-124: 34 repeats, gap 14 ms, stem dip median 2.6 dB, under 3 dB 18, under 4 dB 23; master-band dip median 2.7 dB
+Double basses  520-536: 28 repeats, gap 14 ms, stem dip median 5.2 dB, under 3 dB 10, under 4 dB 11; master-band dip median 4.5 dB
+Double basses  554-568: 21 repeats, gap 14 ms, stem dip median 4.7 dB, under 3 dB 4, under 4 dB 10; master-band dip median 2.8 dB
+Double basses  664-676: 23 repeats, gap 14 ms, stem dip median 3.4 dB, under 3 dB 10, under 4 dB 13; master-band dip median 2.6 dB
+Violoncellos   464-484: 79 repeats, gap 10 ms, stem dip median 1.4 dB, under 3 dB 66, under 4 dB 71; master-band dip median 1.4 dB
+Violoncellos   504-520: 39 repeats, gap 10 ms, stem dip median 3.1 dB, under 3 dB 17, under 4 dB 24; master-band dip median 1.4 dB
+Violas         86-100: 9 repeats, gap 19 ms, stem dip median 4.7 dB, under 3 dB 4, under 4 dB 4; master-band dip median 2.5 dB
+Violas         440-468: 21 repeats, gap 18 ms, stem dip median 3.9 dB, under 3 dB 3, under 4 dB 12; master-band dip median 1.5 dB
+Violas         552-568: 10 repeats, gap 19 ms, stem dip median 3.4 dB, under 3 dB 4, under 4 dB 7; master-band dip median 1.6 dB
+Violins II     86-100: 9 repeats, gap 19 ms, stem dip median 4.5 dB, under 3 dB 2, under 4 dB 4; master-band dip median 2.2 dB
+Violins II     536-548: 8 repeats, gap 19 ms, stem dip median 3.6 dB, under 3 dB 3, under 4 dB 6; master-band dip median 1.5 dB
+Contrabassoon  104-120: 12 repeats, gap 60 ms, stem dip median 6.4 dB, under 3 dB 0, under 4 dB 0; master-band dip median 4.1 dB
+Contrabassoon  520-532: 9 repeats, gap 60 ms, stem dip median 4.5 dB, under 3 dB 1, under 4 dB 4; master-band dip median 2.3 dB

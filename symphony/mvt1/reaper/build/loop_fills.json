@@ -1,0 +1,75 @@
+{
+ "Violoncellos": {
+  "24.0": [
+   [
+    1.02,
+    -6.0,
+    0.3
+   ],
+   [
+    2.17,
+    4.0,
+    0.3
+   ]
+  ],
+  "176.0": [
+   [
+    1.0,
+    -6.0,
+    0.3
+   ],
+   [
+    2.27,
+    4.0,
+    0.45
+   ]
+  ],
+  "4.0": [
+   [
+    2.0,
+    5.0,
+    0.3
+   ]
+  ],
+  "704.0": [
+   [
+    0.93,
+    -5.0,
+    0.3
+   ]
+  ],
+  "8.0": [
+   [
+    1.0,
+    3.0,
+    0.35
+   ]
+  ]
+ },
+ "Double basses": {
+  "36.0": [
+   [
+    2.1,
+    6.0,
+    0.45
+   ]
+  ],
+  "48.0": [
+   [
+    1.87,
+    5.0,
+    0.3
+   ]
+  ]
+ },
+ "_doc": " mvt1 c10 (critic A #2): sample seams and blooms inside single soft Lento cello/bass notes, placed on the c09 stems (negative values cut a bloom). c18 (critic C #3): celli 8.0 5 -> 3 dB (its bump at 8.4-8.75 rose before the sample dip; a level shape fills the dip).",
+ "Horn 4": {
+  "289.0": [
+   [
+    4.78,
+    7.0,
+    0.5
+   ]
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+notes with a fault in the combined state: 25  rows restored: {'fill': 12, 'ntrim': 6, 'ptrim': 10, 'notch': 3, 'row': 5}
+  Flute 1           113.500 dropout +0.2->-4.9                       back: fill 113.5, ntrim 113, ntrim 113.5, ptrim 113.0, ptrim 113.5, notch 113.5
+  Oboe 1            142.500 hole 5.3->7.8                            back: fill 142.5
+  Oboe 1            145.000 dropout +0.4->-5.7                       back: fill 145, ntrim 145
+  Oboe 1            270.000 dropout -1.5->-5.0                       back: fill 270
+  Oboe 1            270.500 dropout +4.2->+5.9                       back: nothing to restore
+  Cor anglais       124.000 dropout -0.2->+3.8                       back: nothing to restore
+  Cor anglais       134.000 hole 5.4->7.5                            back: fill 134, ptrim 133.5, ptrim 134.0
+  Bass clarinet      92.000 dropout -0.8->+4.8                       back: ntrim 91.5, ntrim 92
+  Bassoon 1          30.000 dropout +1.0->-5.0                       back: ptrim 30.0
+  Bassoon 1          32.000 dropout +1.2->+4.2                       back: nothing to restore
+  Bassoon 1         199.000 hole 7.5->9.6                            back: fill 199, ntrim 199
+  Horn 1             36.000 dropout -1.7->-4.5                       back: fill 36, ptrim 36.0
+  Horn 1             37.000 dropout +2.3->+5.5                       back: nothing to restore
+  Horn 1             37.500 hole 3.1->8.5; dropout -0.2->-4.9        back: fill 37.5, row 37.5
+  Horn 1            190.000 dropout -0.7->-6.0                       back: ptrim 190.0
+  Horn 1            192.000 hole 5.3->7.7; soft -0.8->-4.8; dropout -0.1->+5.0 back: ptrim 192.0
+  Horn 1            200.000 dropout -2.2->-3.9                       back: fill 200
+  Violins I          71.000 dropout +1.6->+3.7                       back: nothing to restore
+  Violins I          80.000 hole 3.8->6.1                            back: fill 80, ptrim 79.5
+  Violins I          86.000 burst 3.3->6.4                           back: ptrim 86.0, notch 86.0
+  Violas            218.000 dropout +1.0->+3.0                       back: nothing to restore
+  Violoncellos       51.000 hole 3.0->6.4                            back: fill 51
+  Violoncellos      188.000 soft +0.6->-3.3                          back: fill 188, row 188.000, notch 188.0
+  Violoncellos      204.000 hole 5.4->7.9; soft -2.3->-4.3           back: row 202.000, row 204.000
+  Violoncellos      262.000 dropout +2.9->+5.3                       back: row 261.000

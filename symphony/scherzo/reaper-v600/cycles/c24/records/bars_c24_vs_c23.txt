@@ -1,0 +1,3 @@
+median -0.02
+over +1.5: [(58, np.float64(1.9)), (62, np.float64(1.6)), (290, np.float64(1.6)), (336, np.float64(2.3))]
+under -1.5: [(170, np.float64(-1.8)), (172, np.float64(-2.1)), (173, np.float64(-2.2)), (192, np.float64(-1.8)), (210, np.float64(-1.6))]

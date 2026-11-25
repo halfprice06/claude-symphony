@@ -1,0 +1,62 @@
+{
+ "_doc": "Extra entry lead in seconds {track: {score onset: s}} added to the family/articulation entry lead (score_to_parts ENTRY_LEADS; also enables the lead after a caesura breath). c06 (critic A #1): the fff downbeat of bar 160 after the caesura breath started on the score onset with no lead; extras chosen so the total lead is the measured lateness (body - 3 dB) minus 0.02 s: Oboe 1 0.12 s (Leg Slur MAX 0.055 + 0.065), Flute 1/2 0.07 (0.055 + 0.015), Trumpet 3 0.12 (brass 0.05 + 0.07), Trombone 1 0.07, Bass trombone 0.06, Horn 1 and Trumpet 1 0.03 (-0.02). The caesura gap (0.12 qn) caps each lead at about 0.1 qn. c15 (critic C #1): string phrase entries after rests that reached body - 6 dB at +0.16..+0.48 s get extras (kit c23 lead plus fill; fills in early_fills.json from the moved onset). c23 (critic C #5): f string re-attacks on Leg Slur MAX after a short gap (bar 30 qn 118, bar 96 qn 383) arrived +0.20/+0.25 s: Violins I/II 118 +0.10, Violins II 383 +0.10, Violas 118 +0.05.",
+ "Oboe 1": {
+  "636.0": 0.065
+ },
+ "Flute 1": {
+  "636.0": 0.015
+ },
+ "Flute 2": {
+  "636.0": 0.015
+ },
+ "Trumpet 3": {
+  "636.0": 0.07
+ },
+ "Trombone 1": {
+  "636.0": 0.02
+ },
+ "Bass trombone": {
+  "636.0": 0.01
+ },
+ "Horn 1": {
+  "636.0": -0.02
+ },
+ "Trumpet 1": {
+  "636.0": -0.02
+ },
+ "Horns a2": {
+  "636.0": -0.02
+ },
+ "Violoncellos": {
+  "136.0": 0.12,
+  "3.0": 0.12,
+  "20.0": 0.12,
+  "680.0": 0.12
+ },
+ "Violins I": {
+  "440.0": 0.12,
+  "35.0": 0.1,
+  "707.0": 0.1,
+  "118.0": 0.1
+ },
+ "Violas": {
+  "653.0": 0.12,
+  "424.0": 0.12,
+  "20.0": 0.12,
+  "680.0": 0.12,
+  "118.0": 0.05
+ },
+ "Violins II": {
+  "424.0": 0.12,
+  "372.0": 0.06,
+  "20.0": 0.08,
+  "696.0": 0.1,
+  "118.0": 0.1,
+  "383.0": 0.1
+ },
+ "Double basses": {
+  "384.0": 0.1,
+  "220.0": 0.08,
+  "696.0": 0.12
+ }
+}

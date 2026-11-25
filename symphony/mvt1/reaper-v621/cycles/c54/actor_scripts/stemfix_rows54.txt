@@ -1,0 +1,12 @@
+
+# ---------------------------------------------------------------------------------------------------------------------
+# c54 after the render (level only; applied to the c54 stems with tools/stem_fix.py, in REAPER with the next build)
+# A #2: the Double basses' final-chord pieces read -61.6 -58.0 -55.0 -54.3 -59.4 -62.7 -61.9 dB with the fills refitted on
+# the range render (c53: steps up to 10.7 dB). Per-piece steps so that 712-720 lie within 1 dB and nothing rises after 720
+LEVEL_SHAPES["Double basses"] = LEVEL_SHAPES.get("Double basses", []) + [
+    [(711.9, 0.0), (712.0, 3.0), (714.57, 3.0), (714.67, 0.0), (718.07, 0.0), (718.17, -3.0), (719.9, -3.0), (720.0, -4.0),
+     (722.57, -4.0), (722.67, 0.0), (725.98, 0.0), (726.08, -1.0), (728.0, -1.0), (728.3, 0.0)]]
+# B #1: quarter 159 of bar 40 read melody group minus celli +2.0 dB (target +4); B #5: timpani quarter 535 4.5 dB under
+# the theme group (target 6-8)
+LEVEL_SHAPES["Violoncellos"] = LEVEL_SHAPES["Violoncellos"] + [[(158.9, 0.0), (159.0, -2.5), (159.85, -2.5), (160.0, 0.0)]]
+LEVEL_SHAPES["Timpani"] = LEVEL_SHAPES["Timpani"] + [[(534.9, 0.0), (535.0, -1.5), (535.9, -1.5), (536.0, 0.0)]]

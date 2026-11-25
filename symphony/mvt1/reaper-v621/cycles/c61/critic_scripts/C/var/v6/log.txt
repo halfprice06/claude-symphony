@@ -1,0 +1,17 @@
+master EQ (mix.json master_eq): highpass 42.0 Hz bw 2.0; bell 290.0 Hz -2.5 dB bw 1.0; bell 1180.0 Hz -1.9 dB bw 1.39; highshelf 3000.0 Hz -1.3 dB bw 1.39
+ride trims 679.95-695.9 qn: -1.37..+3.67 dB
+ride trims 0.0-24.0 qn: +0.00..+0.50 dB
+ride trims 52.0-56.0 qn: +0.00..+0.50 dB
+ride trims 129.0-136.0 qn: +0.00..+0.50 dB
+ride trims 168.0-176.0 qn: +0.00..+0.50 dB
+ride trims 300.0-304.0 qn: +0.00..+0.50 dB
+ride trims 572.0-584.0 qn: +0.00..+0.50 dB
+ride trims 612.0-620.0 qn: +0.00..+0.50 dB
+ride trims 656.0-662.0 qn: +0.00..+0.50 dB
+ride trims 696.0-728.0 qn: +0.00..+0.50 dB
+ride trims 672.0-679.9 qn: -3.00..+0.00 dB
+pre-limiter peaks (s, dBFS): 202.73 +4.59, 203.78 +3.75, 116.98 +3.50, 359.08 +3.45, 355.23 +3.03
+loudness pass 1: I -14.5 LUFS (lift +11.30 dB), shortfall +0.50 LU
+pre-limiter peaks (s, dBFS): 202.73 +5.14, 203.78 +4.30, 116.98 +4.05, 359.08 +4.00, 355.23 +3.58
+loudness pass 2: I -14.0 LUFS (lift +11.85 dB), shortfall +0.00 LU
+delivered: I -14.0 LUFS, LRA 11.7 LU, TP -1.2 dBTP; ride max +10.5 dB, min -5.3 dB; limiter about 6.4 dB on the loudest sample peak (ceiling 0.870); p10-to-max short-term span 14.3 dB; length 433.85 s (tail 1.00 s after the last window above -65 dBFS)

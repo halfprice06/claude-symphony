@@ -1,0 +1,54 @@
+== cycles/c50/render  (gains {})
+  Brass minus strings 25-32 / 115-122 / 123-126 / 158-161      -0.4 / +0.9 / +1.6 / -0.1
+  Horns minus trumpets+trombones+tuba, 123-126                 -5.0
+  Horns a2 over loudest other, 41-42 (median)                  +0.3
+  Trumpets a2 minus Violins I / minus Horns a2, 167-170        +1.5 / +2.8
+  Trumpet 1 minus Violins I, 82-83                             -1.6
+  Horn 1 solo over loudest other, 13-14                        +11.3
+  Violins I theme over loudest other, 15-22                    +3.5
+  Celli tune over loudest other, 47-55                         +4.5
+  Harp minus celli, 47-55                                      -7.6
+  Winds minus strings 25-32 / 158-161                          -1.5 / -1.9
+  Cor anglais minus Horn 1, 147-152                            -4.5
+  Tam-tam fff minus all others, 484-491                        -7.6
+  Sus. cymbal + crash minus all others, 636-640                -16.8
+  pp chorale (trombones + tuba) minus strings, 175-178         -1.8
+  Clarinet 1 over loudest other, 699-706 (min / median)        +3.1 / +3.7
+  Cello solo over loudest other, 680-696                       +7.5
+  Timpani ppp minus violas, 181-182                            -9.3
+  timpani rolls (roll minus loudest other per qn: median / max; timpani share of the dry 30-150 Hz):
+  roll 11 pp<                                                  -7.6 / -4.9, 25 %
+  roll 13-14                                                   -18.8 / -10.1, 32 %
+  roll 40-43 pp<>                                              -9.4 / -3.9, 50 %
+  roll 62-63                                                   -9.7 / -4.9, 19 %
+  roll 80-81 p<ff                                              -7.1 / -2.7, 31 %
+  roll 117-130 f-ff                                            -8.7 / -0.7, 14 %
+  roll 144-146                                                 -9.4 / -3.9, 16 %
+  roll 158-160 ff                                              -6.8 / -1.6, 25 %
+  roll 166-169 <                                               -6.8 / -0.1, 22 %
+  roll 181-182 ppp                                             -10.5 / -7.0, 15 %
+  same-dynamic scan (family median minus upper strings' median, n windows):
+  same-dynamic pp horns                                        -1.6 (n 61)
+  same-dynamic pp trombones and tuba                           -2.8 (n 61)
+  same-dynamic pp winds                                        +0.6 (n 124)
+  same-dynamic p horns                                         -1.9 (n 131)
+  same-dynamic p winds                                         -1.1 (n 137)
+  same-dynamic p harp                                          -4.2 (n 41)
+  same-dynamic f horns                                         -1.8 (n 324)
+  same-dynamic f trumpets                                      +0.1 (n 208)
+  same-dynamic f trombones and tuba                            +0.8 (n 340)
+  same-dynamic f winds                                         -4.2 (n 465)
+  same-dynamic f harp                                          -4.6 (n 12)
+  same-dynamic ff horns                                        -2.2 (n 128)
+  same-dynamic ff trumpets                                     +0.2 (n 83)
+  same-dynamic ff trombones and tuba                           +0.9 (n 182)
+  same-dynamic ff winds                                        -4.3 (n 889)
+  master 100-250 Hz share, loudest 10 % / all                  -8.4 / -8.1 dB
+  master 6-20 kHz share                                        -27.8 dB
+  master 30-150 Hz share of timpani + R Perc, roll 11          26 %
+  master 30-150 Hz share of timpani + R Perc, roll 13-14       38 %
+  master 30-150 Hz share of timpani + R Perc, roll 62-63       27 %
+  master 30-150 Hz share of timpani + R Perc, roll 117-130     14 %
+  master 30-150 Hz share of timpani + R Perc, roll 144-146     19 %
+  master 30-150 Hz share of timpani + R Perc, roll 158-160     28 %
+  master 30-150 Hz share of timpani + R Perc, roll 166-169     31 %

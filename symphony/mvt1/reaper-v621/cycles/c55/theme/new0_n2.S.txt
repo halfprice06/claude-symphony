@@ -1,0 +1,3 @@
+Violins I     304-384 S: n 31 of 31  median +8  robust SD 15  SD 26  min -43 max +104  >25 from median 8  >40 4  >60 1
+Violas        304-384 S: n 43 of 43  median -7  robust SD 34  SD 31  min -106 max +58  >25 from median 20  >40 7  >60 2
+Violoncellos  304-384 S: n 52 of 53  median -1  robust SD 26  SD 43  min -94 max +131  >25 from median 23  >40 14  >60 8

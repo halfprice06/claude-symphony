@@ -1,0 +1,17 @@
+{
+"_doc": "tools/space_rebows.py on parts.json: automatic re-bow point -> moved point (sep 0.6 s)",
+"Double basses": {
+"172.819": 170.859
+},
+"Violas": {
+"174.095": 176.195
+},
+"Violins I": {
+"189.599": 188.759
+},
+"Violoncellos": {
+"191.635": 192.334,
+"568.948": 569.788,
+"575.726": 574.326
+}
+}

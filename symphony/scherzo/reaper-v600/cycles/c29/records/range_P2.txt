@@ -1,0 +1,36 @@
+== tenuto shape 312-360
+Trombone 1 312.0-360.0: n 16  peak -37.3 dB at +195 ms  -6 dB at +90 ms  body -39.5  2-5k front-body -12.3
+Trombone 2 312.0-360.0: n 16  peak -35.8 dB at +185 ms  -6 dB at +73 ms  body -38.0  2-5k front-body -11.4
+Bass trombone 312.0-360.0: n 15  peak -36.5 dB at +170 ms  -6 dB at +55 ms  body -37.8  2-5k front-body -7.9
+Tuba 312.0-360.0: n 16  peak -36.2 dB at +183 ms  -6 dB at +70 ms  body -39.6  2-5k front-body -17.6
+Horn 1 312.0-360.0: n 16  peak -37.4 dB at +165 ms  -6 dB at +20 ms  body -40.1  2-5k front-body -6.8
+Horn 2 312.0-360.0: n 16  peak -42.1 dB at +118 ms  -6 dB at +7 ms  body -43.8  2-5k front-body -5.4
+Contrabassoon 312.0-360.0: n 16  peak -40.3 dB at +118 ms  -6 dB at -40 ms  body -42.4  2-5k front-body -2.0
+Double basses 312.0-360.0: n 16  peak -30.8 dB at +180 ms  -6 dB at -8 ms  body -34.4  2-5k front-body -0.2
+== levels 312-360
+Trombone 1 312.0-360.0: level -43.1 dB
+Trombone 2 312.0-360.0: level -42.1 dB
+Bass trombone 312.0-360.0: level -42.7 dB
+Tuba 312.0-360.0: level -44.1 dB
+Horn 1 312.0-360.0: level -43.0 dB
+Horn 2 312.0-360.0: level -44.6 dB
+Contrabassoon 312.0-360.0: level -45.0 dB
+Double basses 312.0-360.0: level -34.8 dB
+Violas 312.0-360.0: level -37.3 dB
+Violoncellos 312.0-360.0: level -30.5 dB
+== downbeats
+group(8) 312.0-360.0: downbeat over beats 2-3 median +0.5 dB (n 16); level -32.6
+master 312.0-360.0: downbeat over beats 2-3 median -0.1 dB (n 16)
+== violas off-beat shorts / celli head
+violas off-beat ff shorts 312-360: first 150 ms median -35.4 dB (n 29); basses' downbeat first 150 ms median -34.5
+celli head 312-315 -36.2  body 318-321 -27.9  gap +8.2
+Traceback (most recent call last):
+  File "/Users/gooby/sandbox/claude_composes/symphony/scherzo/reaper-v600/cycles/c29/actor_scripts/h3.py", line 17, in <module>
+    i0, i1 = int((q2s(a) - T0) * sr), int((q2s(b) - T0) * sr); seg = x[i0:i1]
+                 ~~~~~~~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for *: 'float' and 'NoneType'
+Traceback (most recent call last):
+  File "/Users/gooby/sandbox/claude_composes/symphony/scherzo/reaper-v600/cycles/c29/actor_scripts/h3.py", line 17, in <module>
+    i0, i1 = int((q2s(a) - T0) * sr), int((q2s(b) - T0) * sr); seg = x[i0:i1]
+                 ~~~~~~~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for *: 'float' and 'NoneType'

@@ -1,0 +1,24 @@
+== c50
+  dips Double basses  104-124: n 34, gap 14 ms, stem 2.3 dB (<3: 19), master band 2.7 dB
+  dips Double basses  520-536: n 28, gap 14 ms, stem 4.4 dB (<3: 8), master band 4.2 dB
+  dips Double basses  554-568: n 21, gap 14 ms, stem 4.1 dB (<3: 9), master band 2.8 dB
+  dips Double basses  664-676: n 23, gap 14 ms, stem 3.2 dB (<3: 11), master band 2.7 dB
+  dips Violoncellos   464-484: n 79, gap 10 ms, stem 1.6 dB (<3: 62), master band 1.4 dB
+  dips Violoncellos   504-520: n 39, gap 10 ms, stem 3.2 dB (<3: 18), master band 1.3 dB
+  dips Violas         86-100: n 9, gap 19 ms, stem 4.7 dB (<3: 4), master band 2.5 dB
+  dips Violas         440-468: n 21, gap 18 ms, stem 3.9 dB (<3: 3), master band 1.4 dB
+  dips Violas         552-568: n 10, gap 19 ms, stem 3.6 dB (<3: 5), master band 1.6 dB
+  dips Violins II     86-100: n 9, gap 19 ms, stem 4.5 dB (<3: 2), master band 2.2 dB
+  dips Violins II     536-548: n 8, gap 19 ms, stem 3.7 dB (<3: 3), master band 1.7 dB
+== c51
+  dips Double basses  104-124: n 34, gap 80 ms, stem 5.1 dB (<3: 4), master band 3.5 dB
+  dips Double basses  520-536: n 28, gap 80 ms, stem 7.6 dB (<3: 1), master band 8.3 dB
+  dips Double basses  554-568: n 21, gap 80 ms, stem 9.0 dB (<3: 1), master band 3.0 dB
+  dips Double basses  664-676: n 23, gap 80 ms, stem 3.0 dB (<3: 11), master band 2.1 dB
+  dips Violoncellos   464-484: n 79, gap 54 ms, stem 0.6 dB (<3: 69), master band 0.9 dB
+  dips Violoncellos   504-520: n 39, gap 60 ms, stem 5.1 dB (<3: 12), master band 0.8 dB
+  dips Violas         86-100: n 9, gap 80 ms, stem 8.1 dB (<3: 1), master band 2.8 dB
+  dips Violas         440-468: n 21, gap 77 ms, stem 6.5 dB (<3: 1), master band 1.3 dB
+  dips Violas         552-568: n 10, gap 80 ms, stem 8.8 dB (<3: 0), master band 1.0 dB
+  dips Violins II     86-100: n 9, gap 80 ms, stem 7.5 dB (<3: 0), master band 2.3 dB
+  dips Violins II     536-548: n 8, gap 80 ms, stem 7.3 dB (<3: 0), master band 1.6 dB
