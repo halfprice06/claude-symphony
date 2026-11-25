@@ -1,0 +1,208 @@
+[
+ {
+  "track": "Flute 1",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Flute 2",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Oboe 1",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Oboe 2",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Cor anglais",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Clarinet 1",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Clarinet 2",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Bass clarinet",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Bassoon 1",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Bassoon 2",
+  "status": "STALE",
+  "n": 18,
+  "examples": [
+   "Bss mp: 20.0 (written 438.3082580566406)",
+   "Bss f: 20.0 (written 438.3082580566406)",
+   "Bss ff: 20.0 (written 438.3082580566406)"
+  ]
+ },
+ {
+  "track": "Contrabassoon",
+  "status": "STALE",
+  "n": 24,
+  "examples": [
+   "CBs p: 20.0 (written 438.3082580566406)",
+   "CBs mp: 20.0 (written 438.3082580566406)",
+   "CBs f: 20.0 (written 438.3082580566406)"
+  ]
+ },
+ {
+  "track": "Horn 1",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Horn 2",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Horn 3",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Horn 4",
+  "status": "STALE",
+  "n": 16,
+  "examples": [
+   "1FHs pp: 20.0 (written 1076.0)",
+   "1FHs mf: 20.0 (written 677.7000122070312)",
+   "1FHs f: 20.0 (written 677.7000122070312)"
+  ]
+ },
+ {
+  "track": "Trumpet 1",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Trumpet 2",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Trombone 1",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Trombone 2",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Bass trombone",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Tuba",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Timpani",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Harp",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Violins I",
+  "status": "STALE",
+  "n": 58,
+  "examples": [
+   "V1s pp: 20.0 (written 1076.0645751953125)",
+   "V1s p: 20.0 (written 1053.9169921875)",
+   "V1s mf: 20.0 (written 840.8967895507812)"
+  ]
+ },
+ {
+  "track": "Violins II",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Violas",
+  "status": "STALE",
+  "n": 52,
+  "examples": [
+   "V1s pp: 20.0 (written 1076.0645751953125)",
+   "V1s p: 20.0 (written 1053.9169921875)",
+   "V1s mf: 20.0 (written 840.8967895507812)"
+  ]
+ },
+ {
+  "track": "Violoncellos",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Double basses",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Harp harmonics",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Violin I solo",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ },
+ {
+  "track": "Violas div",
+  "status": "ok",
+  "n": 0,
+  "examples": []
+ }
+]

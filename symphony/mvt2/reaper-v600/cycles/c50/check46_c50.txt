@@ -1,0 +1,32 @@
+S3 master at caesuras: dip below the beat before (dB), steepest 10 ms fall (dB)   [old]
+    29.0  dip   9.3  fall  0.6   [  9.3  0.6]
+    42.0  dip   1.6  fall  0.3   [  1.6  0.3]
+    48.0  dip   0.1  fall  0.5   [  0.1  0.5]
+    54.0  dip   1.7  fall  0.6   [  1.7  0.6]
+    60.0  dip   1.5  fall  0.3   [  1.5  0.6]
+    65.0  dip   0.5  fall  0.3   [  0.5  0.3]
+    77.0  dip   2.4  fall  1.2   [  2.0  0.9]
+    90.0  dip   2.0  fall  0.4   [  2.4  0.7]
+    96.0  dip  -0.0  fall  0.3   [ -0.0  0.3]
+   102.0  dip   9.0  fall  0.9   [  9.0  0.9]
+   116.0  dip   4.4  fall  0.7   [  4.4  0.7]
+   124.0  dip   8.4  fall  0.6   [  8.4  0.6]
+   139.0  dip   1.5  fall  0.3   [  1.5  0.3]
+   148.0  dip  -1.5  fall  0.3   [ -1.6  0.3]
+   164.0  dip   3.8  fall  0.7   [  4.2  0.8]
+   171.0  dip   1.8  fall  0.6   [  1.8  0.6]
+   188.0  dip   4.1  fall  0.8   [  3.6  1.2]
+   196.0  dip   2.2  fall  0.7   [  2.2  0.7]
+   204.0  dip   1.0  fall  0.8   [  1.8  0.7]
+   237.0  dip   1.6  fall  0.4   [  1.6  0.4]
+   249.0  dip   4.5  fall  0.9   [  4.2  0.8]
+   259.0  dip   1.4  fall  0.7   [  1.3  1.0]
+   268.0  dip   3.0  fall  0.5   [  3.1  0.6]
+   286.0  dip  -1.3  fall  0.8   [ -0.9  0.9]
+held notes: length s, autocorr at 3.95 s, detrended level SD dB   [old]
+  Contrabassoon 87.0: (13.1, -0.1, 0.46)   (13.1, -0.1, 0.46)
+  Contrabassoon 98.0: (11.1, -0.46, 0.56)   (11.1, -0.46, 0.56)
+  Bassoon 2 90.0: (11.7, 0.09, 0.61)   (11.7, 0.09, 0.61)
+  Horn 1 232.0: (7.7, -0.29, 4.67)   (7.7, -0.29, 4.67)
+  Horn 4 84.0: (7.6, 0.27, 0.57)   (7.6, 0.27, 0.57)
+  Timpani 226.0: (13.9, 0.19, 1.19)   (13.9, 0.19, 1.19)

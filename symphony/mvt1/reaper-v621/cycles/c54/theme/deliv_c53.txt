@@ -1,0 +1,12 @@
+mvt1-mockup-c53.mp3: I -19.8 LUFS, LRA 14.5 LU, TP -1.9 dBTP, length 433.90 s
+  shares (dB of total): 100-250 Hz -8.77, 250-500 Hz -5.85, 2000-6000 Hz -9.95, 6000-20000 Hz -30.22
+  climax S max: 160 -11.4 > 122 -11.9 > 167-170 -13.6 > 26 -14.5   order kept
+   stop bar  14   66.07 s  body  -37.9    -2.5   -5.1  -15.3  -27.3   t20 0.48
+   stop bar  25   89.84 s  body  -13.9    -5.9  -15.1  -10.9   -5.4   t20 0.3
+   stop bar  31  102.15 s  body  -14.3    -4.3  -11.0  -16.7  -18.0   t20 0.68
+   stop bar  71  183.69 s  body  -18.1    -4.0  -10.3  -14.8  -15.1   t20 None
+   stop bar  79  197.92 s  body  -24.0    -0.8   -1.9   -0.4   -0.3   t20 None
+   stop bar  82  204.07 s  body  -13.1    -6.4  -11.4  -19.5  -19.5   t20 0.355
+   stop bar 137  311.27 s  body  -17.3    -5.9  -15.0  -14.3   -4.0   t20 0.33
+   stop bar 141  319.69 s  body  -14.2    -3.9  -10.4  -11.5  -11.1   t20 None
+   stop bar 169  379.45 s  body  -12.4    -4.2  -12.6  -21.4  -31.8   t20 0.38

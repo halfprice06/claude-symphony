@@ -1,0 +1,38 @@
+track             points onsets /onset   /s  /snd s  travel dB  inside  notes>=3dB  unmarked
+Flute 1              690     63   11.0  1.99   8.90       539     67%      30       8
+Flute 2              107      7   15.3  0.31   6.06        37     73%       2       2
+Oboe 1               610     43   14.2  1.76   9.53       454     70%      33      13
+Oboe 2               100      5   20.0  0.29   5.65        34     48%       2       2
+Cor anglais          701     39   18.0  2.03   9.00       379     77%      24      13
+Clarinet 1           542     33   16.4  1.57   7.31       270     70%      19       8
+Clarinet 2           553     30   18.4  1.60   6.21       300     70%      19      11
+Bass clarinet        767     48   16.0  2.22   7.57       285     78%      22      15
+Bassoon 1            900     61   14.8  2.60   7.45       659     68%      42      30
+Bassoon 2            860     51   16.9  2.49   7.11       312     65%      19      14
+Contrabassoon        219     10   21.9  0.63   4.75        48     63%       1       0
+Horn 1               712     51   14.0  2.06   8.98       434     69%      27       9
+Horn 2               146      9   16.2  0.42   7.56        59     71%       4       2
+Horn 3               305     15   20.3  0.88   5.70       106     64%       6       5
+Horn 4               346     11   31.5  1.00   6.38        67     74%       4       2
+Trombone 1           112     10   11.2  0.32  12.37        69     74%       3       2
+Trombone 2           100      6   16.7  0.29   7.86        39     82%       4       2
+Bass trombone        166      8   20.8  0.48   7.60        63     67%       4       0
+Tuba                 113      4   28.2  0.33   9.07        37     76%       3       2
+Timpani              305     16   19.1  0.88   5.56       251     45%      12       0
+Harp                 293    138    2.1  0.85   2.61       174     26%       3       2
+Violins I           1650    107   15.4  4.77  10.90       960     85%      44      15
+Violins II          2430    151   16.1  7.02  10.14      1385     84%      75      32
+Violas              2009    285    7.0  5.81   8.74      1083     72%      47      21
+Violoncellos        2461    127   19.4  7.11  10.23      1552     85%      86      30
+Double basses       2338    112   20.9  6.76   9.86      1397     85%      55      27
+Harp harmonics       127      3   42.3  0.37  36.69        44     16%       1       1
+Violin I solo        132     11   12.0  0.38  10.07        53     65%       3       0
+Violoncellos div     543     15   36.2  1.57  24.38       307     85%      11       8
+Violins II div       495      8   61.9  1.43  31.13       198     61%       7       7
+Violas div           771     22   35.0  2.23  13.44       469     85%      17       5
+Horns 1-2 a2         419      8   52.4  1.21  27.94        60     44%       2       0
+
+all 32 tracks, 346 s: 22022 points, 63.6 per second in total, 14.6 per onset (1507 onsets)
+travel 12125 dB: inside single notes 76 %, within 40 ms of a note's start or end 18 %, in rests 7 %
+notes moving 3 dB or more inside the note: 631 of 1507 (42 %), unmarked 288
+travel by class (lanes before they are summed): slow 4244 dB, level 2720, shape 7887

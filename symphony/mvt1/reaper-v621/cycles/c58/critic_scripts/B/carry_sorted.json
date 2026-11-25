@@ -1,0 +1,6994 @@
+[
+{
+"track": "Flute 1",
+"a": 128,
+"b": 132,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 2.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.2,
+"lev7": -39.2
+},
+{
+"track": "Flute 1",
+"a": 160,
+"b": 164,
+"v": -4.4,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -4.6,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.3
+},
+"tot": -4.3,
+"lev7": -37.5
+},
+{
+"track": "Flute 1",
+"a": 328,
+"b": 332,
+"v": 2.5,
+"dom": "att",
+"c": {
+"att": 1.5,
+"hold": 0.0,
+"ntrim": 0.8,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.3,
+"lev7": -41.9
+},
+{
+"track": "Flute 1",
+"a": 436,
+"b": 440,
+"v": 2.1,
+"dom": "ntrim",
+"c": {
+"att": 0.2,
+"hold": 0.0,
+"ntrim": 1.9,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.1,
+"other": -0.1
+},
+"tot": 2.1,
+"lev7": -38.5
+},
+{
+"track": "Flute 1",
+"a": 568,
+"b": 572,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 2.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 2.2,
+"lev7": -38.8
+},
+{
+"track": "Flute 2",
+"a": 128,
+"b": 132,
+"v": 2.1,
+"dom": "att",
+"c": {
+"att": 2.1,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -0.0
+},
+"tot": 2.1,
+"lev7": -48.9
+},
+{
+"track": "Flute 2",
+"a": 168,
+"b": 172,
+"v": 4.6,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 4.6,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.0,
+"other": -0.0
+},
+"tot": 4.6,
+"lev7": -53.6
+},
+{
+"track": "Flute 2",
+"a": 276,
+"b": 280,
+"v": 3.9,
+"dom": "att",
+"c": {
+"att": 3.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.9,
+"other": -1.8
+},
+"tot": 3.3,
+"lev7": -39.5
+},
+{
+"track": "Flute 2",
+"a": 324,
+"b": 328,
+"v": -3.6,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -3.6,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -3.6,
+"lev7": -39.2
+},
+{
+"track": "Flute 2",
+"a": 456,
+"b": 460,
+"v": -2.7,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -2.1,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -2.1,
+"lev7": -41.9
+},
+{
+"track": "Flute 2",
+"a": 640,
+"b": 644,
+"v": 2.9,
+"dom": "att",
+"c": {
+"att": 2.5,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.1
+},
+"tot": 2.6,
+"lev7": -31.6
+},
+{
+"track": "Oboe 1",
+"a": 88,
+"b": 92,
+"v": 2.1,
+"dom": "shape",
+"c": {
+"att": 0.4,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.2,
+"other": -0.1
+},
+"tot": 1.5,
+"lev7": -42.1
+},
+{
+"track": "Oboe 1",
+"a": 100,
+"b": 104,
+"v": -5.2,
+"dom": "ntrim",
+"c": {
+"att": 0.6,
+"hold": 0.0,
+"ntrim": -5.7,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.1
+},
+"tot": -5.2,
+"lev7": -36.4
+},
+{
+"track": "Oboe 1",
+"a": 128,
+"b": 132,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 2.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 2.1,
+"lev7": -48.7
+},
+{
+"track": "Oboe 1",
+"a": 164,
+"b": 168,
+"v": -3.6,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": -2.5,
+"ntrim": 0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.9,
+"other": -0.2
+},
+"tot": -3.6,
+"lev7": -52.6
+},
+{
+"track": "Oboe 1",
+"a": 168,
+"b": 172,
+"v": 5.4,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": -0.0,
+"ntrim": 5.4,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 5.4,
+"lev7": -56.5
+},
+{
+"track": "Oboe 1",
+"a": 272,
+"b": 276,
+"v": 2.7,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 2.7,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.1,
+"other": -0.2
+},
+"tot": 2.7,
+"lev7": -42.0
+},
+{
+"track": "Oboe 1",
+"a": 284,
+"b": 288,
+"v": 2.8,
+"dom": "att",
+"c": {
+"att": 1.3,
+"hold": 1.2,
+"ntrim": 0.2,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.1
+},
+"tot": 2.5,
+"lev7": -44.3
+},
+{
+"track": "Oboe 1",
+"a": 312,
+"b": 316,
+"v": 6.6,
+"dom": "phrase",
+"c": {
+"att": -0.1,
+"hold": -0.1,
+"ntrim": 0.5,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 5.4,
+"shape": 0.8,
+"other": -0.5
+},
+"tot": 6.0,
+"lev7": -41.3
+},
+{
+"track": "Oboe 1",
+"a": 480,
+"b": 484,
+"v": 3.1,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": 3.1,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.1,
+"other": 0.3
+},
+"tot": 3.2,
+"lev7": -33.0
+},
+{
+"track": "Oboe 1",
+"a": 496,
+"b": 500,
+"v": 6.4,
+"dom": "shape",
+"c": {
+"att": 0.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 6.2,
+"other": -0.2
+},
+"tot": 6.3,
+"lev7": -44.1
+},
+{
+"track": "Oboe 1",
+"a": 500,
+"b": 504,
+"v": 5.0,
+"dom": "shape",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 4.9,
+"other": 0.0
+},
+"tot": 4.9,
+"lev7": -52.4
+},
+{
+"track": "Oboe 1",
+"a": 536,
+"b": 540,
+"v": 3.0,
+"dom": "shape",
+"c": {
+"att": 0.5,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.6,
+"other": -0.0
+},
+"tot": 2.1,
+"lev7": -45.6
+},
+{
+"track": "Oboe 1",
+"a": 564,
+"b": 568,
+"v": 4.0,
+"dom": "hold",
+"c": {
+"att": 0.5,
+"hold": 3.1,
+"ntrim": 0.2,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 3.8,
+"lev7": -35.9
+},
+{
+"track": "Oboe 1",
+"a": 576,
+"b": 580,
+"v": 7.5,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 4.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.4,
+"other": 0.4
+},
+"tot": 5.9,
+"lev7": -41.0
+},
+{
+"track": "Oboe 2",
+"a": 100,
+"b": 104,
+"v": 2.6,
+"dom": "att",
+"c": {
+"att": 2.5,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.5,
+"lev7": -39.8
+},
+{
+"track": "Oboe 2",
+"a": 124,
+"b": 128,
+"v": 2.0,
+"dom": "att",
+"c": {
+"att": 1.9,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 1.9,
+"lev7": -40.2
+},
+{
+"track": "Oboe 2",
+"a": 164,
+"b": 168,
+"v": -3.8,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.8,
+"other": 0.0
+},
+"tot": -3.8,
+"lev7": -54.7
+},
+{
+"track": "Oboe 2",
+"a": 284,
+"b": 288,
+"v": 2.7,
+"dom": "att",
+"c": {
+"att": 2.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.2,
+"lev7": -49.2
+},
+{
+"track": "Oboe 2",
+"a": 484,
+"b": 488,
+"v": 2.5,
+"dom": "shape",
+"c": {
+"att": 0.9,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.2,
+"other": 0.3
+},
+"tot": 2.5,
+"lev7": -35.9
+},
+{
+"track": "Oboe 2",
+"a": 548,
+"b": 552,
+"v": 2.1,
+"dom": "att",
+"c": {
+"att": 2.1,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 2.1,
+"lev7": -45.5
+},
+{
+"track": "Oboe 2",
+"a": 568,
+"b": 572,
+"v": 2.1,
+"dom": "att",
+"c": {
+"att": 2.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 2.1,
+"lev7": -47.1
+},
+{
+"track": "Cor anglais",
+"a": 24,
+"b": 28,
+"v": 6.7,
+"dom": "shape",
+"c": {
+"att": 2.7,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 6.7,
+"other": -3.6
+},
+"tot": 5.8,
+"lev7": -29.4
+},
+{
+"track": "Cor anglais",
+"a": 684,
+"b": 688,
+"v": 3.5,
+"dom": "shape",
+"c": {
+"att": 0.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 3.5,
+"other": -0.2
+},
+"tot": 3.4,
+"lev7": -41.7
+},
+{
+"track": "Clarinet 1",
+"a": 92,
+"b": 96,
+"v": 2.9,
+"dom": "hold",
+"c": {
+"att": 0.6,
+"hold": 2.1,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.1
+},
+"tot": 2.9,
+"lev7": -36.2
+},
+{
+"track": "Clarinet 1",
+"a": 128,
+"b": 132,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 2.2,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -0.0
+},
+"tot": 2.2,
+"lev7": -43.8
+},
+{
+"track": "Clarinet 1",
+"a": 212,
+"b": 216,
+"v": 2.5,
+"dom": "shape",
+"c": {
+"att": 1.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.7,
+"other": -0.4
+},
+"tot": 2.4,
+"lev7": -49.8
+},
+{
+"track": "Clarinet 1",
+"a": 272,
+"b": 280,
+"v": 2.6,
+"dom": "hold",
+"c": {
+"att": 0.1,
+"hold": 3.1,
+"ntrim": 0.1,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.3,
+"shape": -1.4,
+"other": 0.4
+},
+"tot": 2.6,
+"lev7": -38.6
+},
+{
+"track": "Clarinet 1",
+"a": 280,
+"b": 288,
+"v": 4.6,
+"dom": "hold",
+"c": {
+"att": 1.0,
+"hold": 3.2,
+"ntrim": 0.1,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.5,
+"other": 0.6
+},
+"tot": 4.3,
+"lev7": -38.7
+},
+{
+"track": "Clarinet 1",
+"a": 288,
+"b": 292,
+"v": 2.6,
+"dom": "other",
+"c": {
+"att": -0.0,
+"hold": 1.5,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 0.0,
+"other": 2.2
+},
+"tot": 3.7,
+"lev7": -47.3
+},
+{
+"track": "Clarinet 1",
+"a": 324,
+"b": 328,
+"v": 3.9,
+"dom": "hold",
+"c": {
+"att": 0.3,
+"hold": 3.6,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.6
+},
+"tot": 4.6,
+"lev7": -36.1
+},
+{
+"track": "Clarinet 1",
+"a": 328,
+"b": 332,
+"v": 2.6,
+"dom": "att",
+"c": {
+"att": 1.7,
+"hold": 0.1,
+"ntrim": 0.4,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.2
+},
+"tot": 2.1,
+"lev7": -34.5
+},
+{
+"track": "Clarinet 1",
+"a": 408,
+"b": 412,
+"v": 4.5,
+"dom": "hold",
+"c": {
+"att": 1.4,
+"hold": 3.4,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.2,
+"other": 0.0
+},
+"tot": 4.6,
+"lev7": -39.2
+},
+{
+"track": "Clarinet 1",
+"a": 412,
+"b": 416,
+"v": 2.9,
+"dom": "hold",
+"c": {
+"att": -0.4,
+"hold": 3.2,
+"ntrim": 0.3,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 0.2,
+"other": -0.1
+},
+"tot": 3.0,
+"lev7": -39.6
+},
+{
+"track": "Clarinet 1",
+"a": 416,
+"b": 420,
+"v": 6.0,
+"dom": "hold",
+"c": {
+"att": 1.3,
+"hold": 3.2,
+"ntrim": -0.8,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": 1.8,
+"shape": -0.0,
+"other": -0.3
+},
+"tot": 5.2,
+"lev7": -37.0
+},
+{
+"track": "Clarinet 1",
+"a": 420,
+"b": 428,
+"v": 3.1,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.6,
+"ntrim": 0.2,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.2,
+"other": -0.4
+},
+"tot": 3.3,
+"lev7": -39.2
+},
+{
+"track": "Clarinet 1",
+"a": 504,
+"b": 508,
+"v": 3.2,
+"dom": "phrase",
+"c": {
+"att": 1.0,
+"hold": -0.2,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 1.8,
+"shape": 1.1,
+"other": -0.5
+},
+"tot": 3.2,
+"lev7": -39.0
+},
+{
+"track": "Clarinet 1",
+"a": 520,
+"b": 536,
+"v": 3.2,
+"dom": "hold",
+"c": {
+"att": 0.3,
+"hold": 3.2,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 2.4,
+"other": -2.5
+},
+"tot": 3.4,
+"lev7": -33.0
+},
+{
+"track": "Clarinet 1",
+"a": 540,
+"b": 544,
+"v": 2.5,
+"dom": "hold",
+"c": {
+"att": 0.4,
+"hold": 2.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.1
+},
+"tot": 2.5,
+"lev7": -40.5
+},
+{
+"track": "Clarinet 1",
+"a": 568,
+"b": 572,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 2.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.2,
+"lev7": -42.9
+},
+{
+"track": "Clarinet 1",
+"a": 628,
+"b": 636,
+"v": 2.9,
+"dom": "hold",
+"c": {
+"att": -0.2,
+"hold": 3.1,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -1.5,
+"other": 1.6
+},
+"tot": 2.9,
+"lev7": -31.4
+},
+{
+"track": "Clarinet 1",
+"a": 636,
+"b": 640,
+"v": 4.4,
+"dom": "hold",
+"c": {
+"att": 0.3,
+"hold": 3.1,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.9,
+"other": 0.1
+},
+"tot": 4.4,
+"lev7": -30.8
+},
+{
+"track": "Clarinet 1",
+"a": 640,
+"b": 644,
+"v": 3.0,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": 3.1,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -0.0
+},
+"tot": 3.1,
+"lev7": -29.0
+},
+{
+"track": "Clarinet 1",
+"a": 696,
+"b": 700,
+"v": 2.1,
+"dom": "other",
+"c": {
+"att": 0.3,
+"hold": 0.0,
+"ntrim": 0.8,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -1.5,
+"other": 2.5
+},
+"tot": 2.1,
+"lev7": -51.4
+},
+{
+"track": "Clarinet 2",
+"a": 124,
+"b": 132,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 2.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.0,
+"lev7": -36.7
+},
+{
+"track": "Clarinet 2",
+"a": 568,
+"b": 572,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 2.2,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -0.0
+},
+"tot": 2.2,
+"lev7": -36.1
+},
+{
+"track": "Bass clarinet",
+"a": 364,
+"b": 368,
+"v": -2.0,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -2.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -2.0,
+"lev7": -42.0
+},
+{
+"track": "Bass clarinet",
+"a": 372,
+"b": 376,
+"v": -3.8,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -3.7,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -3.7,
+"lev7": -43.0
+},
+{
+"track": "Bass clarinet",
+"a": 380,
+"b": 384,
+"v": -3.1,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -3.1,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -3.1,
+"lev7": -39.6
+},
+{
+"track": "Bass clarinet",
+"a": 432,
+"b": 436,
+"v": 4.7,
+"dom": "phrase",
+"c": {
+"att": 0.4,
+"hold": 0.0,
+"ntrim": 0.3,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 3.6,
+"shape": 0.0,
+"other": -0.3
+},
+"tot": 4.1,
+"lev7": -45.2
+},
+{
+"track": "Bass clarinet",
+"a": 476,
+"b": 480,
+"v": 2.5,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 2.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 4.8,
+"other": -4.0
+},
+"tot": 2.8,
+"lev7": -35.4
+},
+{
+"track": "Bass clarinet",
+"a": 484,
+"b": 492,
+"v": 4.3,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 4.4,
+"other": 0.0
+},
+"tot": 4.4,
+"lev7": -35.7
+},
+{
+"track": "Bass clarinet",
+"a": 496,
+"b": 500,
+"v": -2.0,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": -2.2,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": -2.2,
+"lev7": -46.9
+},
+{
+"track": "Bass clarinet",
+"a": 500,
+"b": 504,
+"v": -3.1,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -3.1,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -3.1,
+"lev7": -52.0
+},
+{
+"track": "Bass clarinet",
+"a": 552,
+"b": 556,
+"v": -2.8,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -2.8,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -2.8,
+"lev7": -38.3
+},
+{
+"track": "Bass clarinet",
+"a": 700,
+"b": 712,
+"v": 2.5,
+"dom": "other",
+"c": {
+"att": 2.4,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.4,
+"other": 2.5
+},
+"tot": 2.5,
+"lev7": -53.8
+},
+{
+"track": "Bassoon 1",
+"a": 88,
+"b": 96,
+"v": 3.5,
+"dom": "hold",
+"c": {
+"att": 0.3,
+"hold": 3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 3.3,
+"lev7": -37.3
+},
+{
+"track": "Bassoon 1",
+"a": 124,
+"b": 128,
+"v": 3.4,
+"dom": "hold",
+"c": {
+"att": 1.5,
+"hold": 2.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.2
+},
+"tot": 3.3,
+"lev7": -37.1
+},
+{
+"track": "Bassoon 1",
+"a": 280,
+"b": 284,
+"v": -2.7,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": -0.0,
+"ntrim": -3.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.2
+},
+"tot": -2.8,
+"lev7": -43.1
+},
+{
+"track": "Bassoon 1",
+"a": 284,
+"b": 288,
+"v": 2.1,
+"dom": "att",
+"c": {
+"att": 1.8,
+"hold": 0.0,
+"ntrim": -0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 1.7,
+"lev7": -43.2
+},
+{
+"track": "Bassoon 1",
+"a": 412,
+"b": 416,
+"v": 2.8,
+"dom": "att",
+"c": {
+"att": 2.3,
+"hold": -0.0,
+"ntrim": 1.3,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -0.2
+},
+"tot": 3.4,
+"lev7": -39.1
+},
+{
+"track": "Bassoon 1",
+"a": 420,
+"b": 424,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 2.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.2,
+"lev7": -40.4
+},
+{
+"track": "Bassoon 1",
+"a": 460,
+"b": 464,
+"v": -4.5,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -4.5,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -4.5,
+"lev7": -36.0
+},
+{
+"track": "Bassoon 1",
+"a": 520,
+"b": 536,
+"v": 3.1,
+"dom": "hold",
+"c": {
+"att": 0.1,
+"hold": 3.3,
+"ntrim": 0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 2.4,
+"other": -2.5
+},
+"tot": 3.4,
+"lev7": -31.9
+},
+{
+"track": "Bassoon 1",
+"a": 536,
+"b": 544,
+"v": 4.1,
+"dom": "hold",
+"c": {
+"att": 0.8,
+"hold": 3.1,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 3.9,
+"lev7": -38.0
+},
+{
+"track": "Bassoon 1",
+"a": 544,
+"b": 548,
+"v": 2.1,
+"dom": "hold",
+"c": {
+"att": 0.6,
+"hold": 1.6,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.2
+},
+"tot": 2.0,
+"lev7": -37.7
+},
+{
+"track": "Bassoon 1",
+"a": 584,
+"b": 588,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 2.2,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 2.2,
+"lev7": -55.6
+},
+{
+"track": "Bassoon 1",
+"a": 588,
+"b": 596,
+"v": 3.0,
+"dom": "att",
+"c": {
+"att": 3.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 3.2,
+"lev7": -50.2
+},
+{
+"track": "Bassoon 1",
+"a": 624,
+"b": 628,
+"v": 3.1,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 3.0,
+"lev7": -38.4
+},
+{
+"track": "Bassoon 1",
+"a": 648,
+"b": 660,
+"v": 2.7,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 2.7,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.7,
+"lev7": -43.0
+},
+{
+"track": "Bassoon 1",
+"a": 692,
+"b": 696,
+"v": 2.3,
+"dom": "att",
+"c": {
+"att": 2.3,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 2.3,
+"lev7": -53.4
+},
+{
+"track": "Bassoon 2",
+"a": 52,
+"b": 56,
+"v": -3.0,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -3.0,
+"lev7": -53.0
+},
+{
+"track": "Bassoon 2",
+"a": 124,
+"b": 128,
+"v": 2.4,
+"dom": "att",
+"c": {
+"att": 1.7,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 1.7,
+"lev7": -39.6
+},
+{
+"track": "Bassoon 2",
+"a": 240,
+"b": 244,
+"v": -4.2,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -4.1,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 3.1,
+"other": -3.1
+},
+"tot": -4.1,
+"lev7": -39.9
+},
+{
+"track": "Bassoon 2",
+"a": 244,
+"b": 248,
+"v": -3.0,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.9,
+"other": 0.0
+},
+"tot": -2.9,
+"lev7": -53.4
+},
+{
+"track": "Bassoon 2",
+"a": 472,
+"b": 476,
+"v": 2.5,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 1.9,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 4.8,
+"other": -4.0
+},
+"tot": 2.7,
+"lev7": -32.2
+},
+{
+"track": "Bassoon 2",
+"a": 496,
+"b": 500,
+"v": -3.2,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": -1.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.0,
+"other": -0.0
+},
+"tot": -3.0,
+"lev7": -45.5
+},
+{
+"track": "Bassoon 2",
+"a": 500,
+"b": 508,
+"v": -4.7,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -1.9,
+"other": 0.0
+},
+"tot": -4.9,
+"lev7": -54.5
+},
+{
+"track": "Bassoon 2",
+"a": 600,
+"b": 608,
+"v": 2.7,
+"dom": "att",
+"c": {
+"att": 2.8,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.8,
+"lev7": -47.3
+},
+{
+"track": "Bassoon 2",
+"a": 680,
+"b": 684,
+"v": 2.4,
+"dom": "att",
+"c": {
+"att": 2.3,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 2.0,
+"other": -2.0
+},
+"tot": 2.3,
+"lev7": -51.8
+},
+{
+"track": "Bassoon 2",
+"a": 684,
+"b": 688,
+"v": 3.5,
+"dom": "att",
+"c": {
+"att": 3.3,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.6,
+"other": -1.6
+},
+"tot": 3.3,
+"lev7": -45.0
+},
+{
+"track": "Bassoon 2",
+"a": 696,
+"b": 700,
+"v": -3.8,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.5,
+"other": 0.0
+},
+"tot": -2.5,
+"lev7": -64.2
+},
+{
+"track": "Contrabassoon",
+"a": 124,
+"b": 128,
+"v": 2.5,
+"dom": "att",
+"c": {
+"att": 2.0,
+"hold": -0.0,
+"ntrim": 0.2,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 2.2,
+"lev7": -37.5
+},
+{
+"track": "Contrabassoon",
+"a": 164,
+"b": 168,
+"v": -3.8,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -3.8,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -3.8,
+"lev7": -53.6
+},
+{
+"track": "Contrabassoon",
+"a": 284,
+"b": 288,
+"v": 2.1,
+"dom": "att",
+"c": {
+"att": 1.7,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 1.7,
+"lev7": -45.4
+},
+{
+"track": "Contrabassoon",
+"a": 480,
+"b": 484,
+"v": 2.1,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 1.8,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 4.3,
+"other": -4.3
+},
+"tot": 1.8,
+"lev7": -35.2
+},
+{
+"track": "Contrabassoon",
+"a": 500,
+"b": 504,
+"v": -3.0,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -3.0,
+"lev7": -58.4
+},
+{
+"track": "Contrabassoon",
+"a": 568,
+"b": 572,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 2.2,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 2.2,
+"lev7": -43.7
+},
+{
+"track": "Horn 1",
+"a": 108,
+"b": 112,
+"v": 3.6,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.6
+},
+"tot": 3.6,
+"lev7": -32.9
+},
+{
+"track": "Horn 1",
+"a": 116,
+"b": 120,
+"v": 3.4,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 3.0,
+"lev7": -34.3
+},
+{
+"track": "Horn 1",
+"a": 124,
+"b": 128,
+"v": 2.8,
+"dom": "att",
+"c": {
+"att": 1.6,
+"hold": 0.0,
+"ntrim": 0.3,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.0,
+"lev7": -38.0
+},
+{
+"track": "Horn 1",
+"a": 172,
+"b": 176,
+"v": 2.4,
+"dom": "shape",
+"c": {
+"att": 0.1,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 2.1,
+"other": 0.1
+},
+"tot": 2.2,
+"lev7": -45.4
+},
+{
+"track": "Horn 1",
+"a": 184,
+"b": 188,
+"v": 4.1,
+"dom": "shape",
+"c": {
+"att": 0.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 4.1,
+"other": -0.1
+},
+"tot": 4.2,
+"lev7": -35.9
+},
+{
+"track": "Horn 1",
+"a": 204,
+"b": 208,
+"v": 3.1,
+"dom": "shape",
+"c": {
+"att": 0.1,
+"hold": 0.0,
+"ntrim": -0.3,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 2.9,
+"other": 0.0
+},
+"tot": 2.9,
+"lev7": -42.7
+},
+{
+"track": "Horn 1",
+"a": 208,
+"b": 212,
+"v": -5.8,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -1.4,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -1.4,
+"lev7": -52.6
+},
+{
+"track": "Horn 1",
+"a": 408,
+"b": 412,
+"v": 2.3,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.9,
+"other": 0.6
+},
+"tot": 2.5,
+"lev7": -32.1
+},
+{
+"track": "Horn 1",
+"a": 412,
+"b": 416,
+"v": 4.3,
+"dom": "ntrim",
+"c": {
+"att": 0.8,
+"hold": 0.0,
+"ntrim": 2.9,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.1,
+"other": -0.6
+},
+"tot": 4.2,
+"lev7": -36.0
+},
+{
+"track": "Horn 1",
+"a": 440,
+"b": 444,
+"v": 9.9,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 10.0,
+"other": 0.0
+},
+"tot": 10.0,
+"lev7": -47.9
+},
+{
+"track": "Horn 1",
+"a": 484,
+"b": 488,
+"v": 2.9,
+"dom": "shape",
+"c": {
+"att": 1.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 5.1,
+"other": -3.6
+},
+"tot": 2.6,
+"lev7": -28.6
+},
+{
+"track": "Horn 1",
+"a": 528,
+"b": 532,
+"v": 3.5,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.5
+},
+"tot": 3.6,
+"lev7": -35.2
+},
+{
+"track": "Horn 1",
+"a": 584,
+"b": 588,
+"v": 4.1,
+"dom": "shape",
+"c": {
+"att": -0.4,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 4.5,
+"other": 0.2
+},
+"tot": 4.2,
+"lev7": -36.4
+},
+{
+"track": "Horn 1",
+"a": 588,
+"b": 596,
+"v": 2.5,
+"dom": "shape",
+"c": {
+"att": 0.1,
+"hold": -0.1,
+"ntrim": -0.8,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": -0.1,
+"shape": 3.9,
+"other": -0.3
+},
+"tot": 2.6,
+"lev7": -37.6
+},
+{
+"track": "Horn 1",
+"a": 644,
+"b": 648,
+"v": -2.7,
+"dom": "shape",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -3.0,
+"other": -0.1
+},
+"tot": -3.0,
+"lev7": -38.3
+},
+{
+"track": "Horn 1",
+"a": 648,
+"b": 652,
+"v": -6.1,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -4.0,
+"other": -1.8
+},
+"tot": -5.8,
+"lev7": -53.6
+},
+{
+"track": "Horn 2",
+"a": 108,
+"b": 112,
+"v": -3.0,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -3.4
+},
+"tot": -3.4,
+"lev7": -48.1
+},
+{
+"track": "Horn 2",
+"a": 220,
+"b": 224,
+"v": 3.5,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": -0.1,
+"ntrim": 3.3,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.3,
+"other": 0.1
+},
+"tot": 3.6,
+"lev7": -47.6
+},
+{
+"track": "Horn 2",
+"a": 232,
+"b": 236,
+"v": 4.4,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 4.6,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.0,
+"other": -0.0
+},
+"tot": 4.6,
+"lev7": -45.0
+},
+{
+"track": "Horn 2",
+"a": 268,
+"b": 276,
+"v": 3.0,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 2.9,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.9,
+"lev7": -42.0
+},
+{
+"track": "Horn 2",
+"a": 484,
+"b": 488,
+"v": 2.3,
+"dom": "shape",
+"c": {
+"att": 0.3,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 5.2,
+"other": -3.2
+},
+"tot": 2.3,
+"lev7": -28.0
+},
+{
+"track": "Horn 2",
+"a": 492,
+"b": 496,
+"v": 2.6,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 3.5,
+"other": -4.2
+},
+"tot": -0.7,
+"lev7": -44.8
+},
+{
+"track": "Horn 2",
+"a": 528,
+"b": 532,
+"v": -2.2,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -3.5
+},
+"tot": -3.5,
+"lev7": -49.8
+},
+{
+"track": "Horn 2",
+"a": 660,
+"b": 668,
+"v": 3.0,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": 3.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 3.0,
+"lev7": -40.7
+},
+{
+"track": "Horn 3",
+"a": 44,
+"b": 48,
+"v": 2.9,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 3.0,
+"lev7": -38.7
+},
+{
+"track": "Horn 3",
+"a": 72,
+"b": 84,
+"v": -2.3,
+"dom": "att",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 0.0,
+"lev7": -52.1
+},
+{
+"track": "Horn 3",
+"a": 156,
+"b": 160,
+"v": 3.1,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 3.0,
+"lev7": -36.0
+},
+{
+"track": "Horn 3",
+"a": 164,
+"b": 168,
+"v": 3.1,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": 3.2,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 3.2,
+"lev7": -39.9
+},
+{
+"track": "Horn 3",
+"a": 244,
+"b": 248,
+"v": -3.8,
+"dom": "shape",
+"c": {
+"att": -0.0,
+"hold": 3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -5.7,
+"other": -0.0
+},
+"tot": -2.7,
+"lev7": -51.0
+},
+{
+"track": "Horn 3",
+"a": 252,
+"b": 256,
+"v": 2.8,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 3.0,
+"lev7": -39.3
+},
+{
+"track": "Horn 3",
+"a": 260,
+"b": 264,
+"v": 2.8,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": 3.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 3.0,
+"lev7": -51.6
+},
+{
+"track": "Horn 3",
+"a": 324,
+"b": 328,
+"v": 3.0,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -0.0
+},
+"tot": 3.0,
+"lev7": -37.9
+},
+{
+"track": "Horn 3",
+"a": 628,
+"b": 632,
+"v": 3.0,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 3.1,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -5.0,
+"other": 5.0
+},
+"tot": 3.0,
+"lev7": -37.2
+},
+{
+"track": "Horn 3",
+"a": 636,
+"b": 640,
+"v": 4.2,
+"dom": "hold",
+"c": {
+"att": 0.3,
+"hold": 3.2,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -2.4,
+"other": 3.1
+},
+"tot": 4.3,
+"lev7": -31.1
+},
+{
+"track": "Horn 3",
+"a": 640,
+"b": 644,
+"v": 2.4,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 2.3,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -1.8,
+"other": 1.8
+},
+"tot": 2.3,
+"lev7": -29.0
+},
+{
+"track": "Horn 3",
+"a": 652,
+"b": 660,
+"v": -2.1,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": -0.0,
+"ntrim": 0.7,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 0.7,
+"lev7": -51.9
+},
+{
+"track": "Horn 3",
+"a": 720,
+"b": 724,
+"v": -2.2,
+"dom": "shape",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -2.2,
+"other": 0.0
+},
+"tot": -2.2,
+"lev7": -60.1
+},
+{
+"track": "Horn 3",
+"a": 724,
+"b": 728,
+"v": -4.2,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": -0.1,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -4.2,
+"other": 0.0
+},
+"tot": -4.2,
+"lev7": -62.4
+},
+{
+"track": "Horn 4",
+"a": 40,
+"b": 44,
+"v": -7.7,
+"dom": "ntrim",
+"c": {
+"att": -0.0,
+"hold": 0.0,
+"ntrim": -6.8,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.6,
+"other": -0.0
+},
+"tot": -7.5,
+"lev7": -50.2
+},
+{
+"track": "Horn 4",
+"a": 72,
+"b": 80,
+"v": -8.6,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -6.6,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -6.6,
+"lev7": -48.5
+},
+{
+"track": "Horn 4",
+"a": 80,
+"b": 84,
+"v": -6.2,
+"dom": "ntrim",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -4.1,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": -4.1,
+"lev7": -49.9
+},
+{
+"track": "Horn 4",
+"a": 152,
+"b": 156,
+"v": -2.9,
+"dom": "ntrim",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -2.8,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": -2.8,
+"lev7": -43.1
+},
+{
+"track": "Horn 4",
+"a": 168,
+"b": 172,
+"v": -2.0,
+"dom": "other",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": -0.0,
+"lev7": -54.2
+},
+{
+"track": "Horn 4",
+"a": 224,
+"b": 228,
+"v": -7.6,
+"dom": "ntrim",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -7.6,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": -7.6,
+"lev7": -50.2
+},
+{
+"track": "Horn 4",
+"a": 240,
+"b": 244,
+"v": -9.4,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -8.5,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 3.1,
+"other": -3.1
+},
+"tot": -8.5,
+"lev7": -47.3
+},
+{
+"track": "Horn 4",
+"a": 244,
+"b": 248,
+"v": -5.1,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -0.1,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -3.0,
+"other": 0.0
+},
+"tot": -3.1,
+"lev7": -58.0
+},
+{
+"track": "Horn 4",
+"a": 296,
+"b": 300,
+"v": 2.9,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.7,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.1,
+"other": -0.7
+},
+"tot": 2.9,
+"lev7": -52.9
+},
+{
+"track": "Horn 4",
+"a": 416,
+"b": 420,
+"v": -4.9,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": -0.3,
+"ntrim": -4.4,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -4.7,
+"lev7": -51.8
+},
+{
+"track": "Horn 4",
+"a": 440,
+"b": 444,
+"v": -7.7,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -6.6,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -6.6,
+"lev7": -48.8
+},
+{
+"track": "Horn 4",
+"a": 620,
+"b": 624,
+"v": -7.1,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -6.6,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -6.6,
+"lev7": -49.6
+},
+{
+"track": "Horn 4",
+"a": 624,
+"b": 628,
+"v": -2.9,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -2.8,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -2.8,
+"lev7": -43.5
+},
+{
+"track": "Horn 4",
+"a": 648,
+"b": 652,
+"v": -3.1,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -2.9,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -2.9,
+"lev7": -45.9
+},
+{
+"track": "Horn 4",
+"a": 652,
+"b": 656,
+"v": -8.4,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -6.4,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -6.4,
+"lev7": -51.4
+},
+{
+"track": "Horn 4",
+"a": 720,
+"b": 724,
+"v": -2.1,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": -0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.0,
+"other": -0.0
+},
+"tot": -2.0,
+"lev7": -62.1
+},
+{
+"track": "Horn 4",
+"a": 724,
+"b": 728,
+"v": -3.9,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": -0.1,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -3.9,
+"other": -0.0
+},
+"tot": -3.9,
+"lev7": -64.0
+},
+{
+"track": "Trumpet 1",
+"a": 328,
+"b": 332,
+"v": 2.9,
+"dom": "att",
+"c": {
+"att": 2.0,
+"hold": -0.0,
+"ntrim": 0.8,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 0.9,
+"other": -0.9
+},
+"tot": 2.8,
+"lev7": -34.8
+},
+{
+"track": "Trumpet 1",
+"a": 484,
+"b": 488,
+"v": 2.0,
+"dom": "shape",
+"c": {
+"att": 0.4,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 2.6,
+"other": -1.0
+},
+"tot": 2.0,
+"lev7": -29.8
+},
+{
+"track": "Trumpet 2",
+"a": 108,
+"b": 112,
+"v": 2.9,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 2.9,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.9,
+"lev7": -39.7
+},
+{
+"track": "Trumpet 2",
+"a": 120,
+"b": 124,
+"v": 3.1,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.1,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 3.1,
+"lev7": -38.2
+},
+{
+"track": "Trumpet 2",
+"a": 128,
+"b": 132,
+"v": 2.3,
+"dom": "att",
+"c": {
+"att": 2.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 2.0,
+"lev7": -34.6
+},
+{
+"track": "Trumpet 2",
+"a": 160,
+"b": 164,
+"v": 2.5,
+"dom": "att",
+"c": {
+"att": 1.8,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 1.8,
+"lev7": -31.5
+},
+{
+"track": "Trumpet 2",
+"a": 448,
+"b": 452,
+"v": 4.0,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 4.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 4.0,
+"lev7": -48.6
+},
+{
+"track": "Trumpet 2",
+"a": 484,
+"b": 488,
+"v": 2.2,
+"dom": "shape",
+"c": {
+"att": 0.4,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 2.7,
+"other": -1.0
+},
+"tot": 2.0,
+"lev7": -32.4
+},
+{
+"track": "Trumpet 2",
+"a": 556,
+"b": 560,
+"v": 3.0,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 3.0,
+"lev7": -39.0
+},
+{
+"track": "Trumpet 2",
+"a": 568,
+"b": 572,
+"v": 2.8,
+"dom": "att",
+"c": {
+"att": 1.9,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 1.9,
+"lev7": -35.6
+},
+{
+"track": "Trumpet 2",
+"a": 628,
+"b": 632,
+"v": 3.0,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.0,
+"other": 2.0
+},
+"tot": 3.0,
+"lev7": -35.5
+},
+{
+"track": "Trumpet 3",
+"a": 484,
+"b": 488,
+"v": 2.1,
+"dom": "shape",
+"c": {
+"att": 0.3,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 2.7,
+"other": -1.1
+},
+"tot": 1.8,
+"lev7": -31.2
+},
+{
+"track": "Trombone 1",
+"a": 284,
+"b": 288,
+"v": 2.3,
+"dom": "att",
+"c": {
+"att": 1.4,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.6,
+"other": 0.0
+},
+"tot": 2.1,
+"lev7": -32.3
+},
+{
+"track": "Trombone 1",
+"a": 316,
+"b": 320,
+"v": 4.5,
+"dom": "hold",
+"c": {
+"att": 1.4,
+"hold": 2.7,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.2
+},
+"tot": 4.2,
+"lev7": -40.4
+},
+{
+"track": "Trombone 1",
+"a": 392,
+"b": 396,
+"v": -2.8,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": -0.2,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.1,
+"shape": 1.4,
+"other": -4.3
+},
+"tot": -3.0,
+"lev7": -35.8
+},
+{
+"track": "Trombone 1",
+"a": 464,
+"b": 484,
+"v": 3.4,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": 3.7,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.1,
+"other": -0.5
+},
+"tot": 3.4,
+"lev7": -32.7
+},
+{
+"track": "Trombone 1",
+"a": 492,
+"b": 496,
+"v": -2.3,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.4,
+"other": 0.0
+},
+"tot": -2.3,
+"lev7": -48.0
+},
+{
+"track": "Trombone 1",
+"a": 520,
+"b": 524,
+"v": 4.0,
+"dom": "hold",
+"c": {
+"att": 0.6,
+"hold": 2.9,
+"ntrim": -0.7,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.5,
+"shape": 0.0,
+"other": 0.2
+},
+"tot": 3.5,
+"lev7": -34.5
+},
+{
+"track": "Trombone 1",
+"a": 524,
+"b": 528,
+"v": 2.8,
+"dom": "hold",
+"c": {
+"att": -0.4,
+"hold": 3.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.2
+},
+"tot": 2.8,
+"lev7": -35.9
+},
+{
+"track": "Trombone 1",
+"a": 528,
+"b": 540,
+"v": 3.3,
+"dom": "hold",
+"c": {
+"att": 0.3,
+"hold": 3.2,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 3.5,
+"lev7": -37.6
+},
+{
+"track": "Trombone 1",
+"a": 632,
+"b": 636,
+"v": -2.5,
+"dom": "shape",
+"c": {
+"att": -0.2,
+"hold": 0.0,
+"ntrim": -1.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.8,
+"other": 1.6
+},
+"tot": -2.4,
+"lev7": -33.9
+},
+{
+"track": "Trombone 1",
+"a": 676,
+"b": 680,
+"v": -4.2,
+"dom": "shape",
+"c": {
+"att": 0.1,
+"hold": -0.0,
+"ntrim": -1.9,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -2.4,
+"other": 0.1
+},
+"tot": -4.2,
+"lev7": -31.5
+},
+{
+"track": "Trombone 2",
+"a": 288,
+"b": 292,
+"v": -4.0,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.9,
+"other": -0.0
+},
+"tot": -2.9,
+"lev7": -43.7
+},
+{
+"track": "Trombone 2",
+"a": 484,
+"b": 488,
+"v": 2.1,
+"dom": "shape",
+"c": {
+"att": 0.4,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.2,
+"other": 0.5
+},
+"tot": 2.0,
+"lev7": -30.3
+},
+{
+"track": "Trombone 2",
+"a": 552,
+"b": 556,
+"v": 2.6,
+"dom": "hold",
+"c": {
+"att": -0.2,
+"hold": 2.7,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.1
+},
+"tot": 2.6,
+"lev7": -36.0
+},
+{
+"track": "Trombone 2",
+"a": 636,
+"b": 640,
+"v": 2.1,
+"dom": "shape",
+"c": {
+"att": 0.7,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.2,
+"other": 0.1
+},
+"tot": 2.0,
+"lev7": -35.0
+},
+{
+"track": "Tuba",
+"a": 124,
+"b": 128,
+"v": 2.6,
+"dom": "att",
+"c": {
+"att": 1.9,
+"hold": 0.0,
+"ntrim": 0.4,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.3,
+"lev7": -39.2
+},
+{
+"track": "Timpani",
+"a": 12,
+"b": 16,
+"v": -2.3,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -2.4
+},
+"tot": -2.4,
+"lev7": -56.1
+},
+{
+"track": "Timpani",
+"a": 16,
+"b": 20,
+"v": -3.6,
+"dom": "other",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -3.6
+},
+"tot": -3.6,
+"lev7": -58.0
+},
+{
+"track": "Timpani",
+"a": 52,
+"b": 56,
+"v": -3.0,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -3.1
+},
+"tot": -3.1,
+"lev7": -63.3
+},
+{
+"track": "Timpani",
+"a": 120,
+"b": 124,
+"v": -3.0,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -2.9
+},
+"tot": -2.9,
+"lev7": -48.0
+},
+{
+"track": "Timpani",
+"a": 244,
+"b": 248,
+"v": -4.2,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -4.2
+},
+"tot": -4.2,
+"lev7": -51.3
+},
+{
+"track": "Timpani",
+"a": 248,
+"b": 252,
+"v": -2.0,
+"dom": "other",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -2.1
+},
+"tot": -2.1,
+"lev7": -52.0
+},
+{
+"track": "Timpani",
+"a": 276,
+"b": 280,
+"v": -3.0,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -1.4
+},
+"tot": -1.4,
+"lev7": -59.2
+},
+{
+"track": "Timpani",
+"a": 324,
+"b": 328,
+"v": -2.1,
+"dom": "other",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -2.1
+},
+"tot": -2.1,
+"lev7": -30.1
+},
+{
+"track": "Timpani",
+"a": 456,
+"b": 460,
+"v": 2.7,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 2.6
+},
+"tot": 2.6,
+"lev7": -38.3
+},
+{
+"track": "Timpani",
+"a": 532,
+"b": 536,
+"v": -4.4,
+"dom": "other",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -4.4
+},
+"tot": -4.4,
+"lev7": -31.7
+},
+{
+"track": "Timpani",
+"a": 536,
+"b": 544,
+"v": -3.0,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -2.9
+},
+"tot": -2.9,
+"lev7": -48.9
+},
+{
+"track": "Timpani",
+"a": 556,
+"b": 560,
+"v": 2.6,
+"dom": "other",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 2.6
+},
+"tot": 2.6,
+"lev7": -33.5
+},
+{
+"track": "Timpani",
+"a": 560,
+"b": 564,
+"v": -3.2,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -3.1
+},
+"tot": -3.1,
+"lev7": -33.2
+},
+{
+"track": "Timpani",
+"a": 664,
+"b": 676,
+"v": 3.1,
+"dom": "other",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 2.9
+},
+"tot": 2.9,
+"lev7": -37.2
+},
+{
+"track": "Harp",
+"a": 620,
+"b": 624,
+"v": -4.3,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -4.3
+},
+"tot": -4.3,
+"lev7": -41.1
+},
+{
+"track": "Harp",
+"a": 724,
+"b": 728,
+"v": -2.3,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -2.4
+},
+"tot": -2.4,
+"lev7": -60.5
+},
+{
+"track": "Violins I",
+"a": 56,
+"b": 64,
+"v": -5.1,
+"dom": "steady",
+"c": {
+"att": -0.1,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -5.0,
+"phrase": 0.4,
+"shape": -0.1,
+"other": -0.2
+},
+"tot": -5.0,
+"lev7": -38.6
+},
+{
+"track": "Violins I",
+"a": 64,
+"b": 68,
+"v": -6.3,
+"dom": "steady",
+"c": {
+"att": 0.0,
+"hold": -0.2,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -6.6,
+"phrase": 0.4,
+"shape": 0.0,
+"other": -0.1
+},
+"tot": -6.4,
+"lev7": -40.5
+},
+{
+"track": "Violins I",
+"a": 68,
+"b": 84,
+"v": -4.6,
+"dom": "other",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.6,
+"phrase": 0.2,
+"shape": -1.7,
+"other": -2.4
+},
+"tot": -4.6,
+"lev7": -33.9
+},
+{
+"track": "Violins I",
+"a": 84,
+"b": 88,
+"v": -7.7,
+"dom": "steady",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -7.9,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -7.9,
+"lev7": -47.7
+},
+{
+"track": "Violins I",
+"a": 88,
+"b": 100,
+"v": -6.7,
+"dom": "steady",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -6.7,
+"phrase": 0.0,
+"shape": 0.4,
+"other": -0.2
+},
+"tot": -6.6,
+"lev7": -36.4
+},
+{
+"track": "Violins I",
+"a": 100,
+"b": 104,
+"v": -3.3,
+"dom": "steady",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -2.0,
+"phrase": 0.0,
+"shape": -1.1,
+"other": -0.2
+},
+"tot": -3.3,
+"lev7": -28.7
+},
+{
+"track": "Violins I",
+"a": 104,
+"b": 112,
+"v": -6.1,
+"dom": "steady",
+"c": {
+"att": -0.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -6.1,
+"phrase": 0.0,
+"shape": -0.1,
+"other": 0.1
+},
+"tot": -6.2,
+"lev7": -35.6
+},
+{
+"track": "Violins I",
+"a": 112,
+"b": 116,
+"v": -2.6,
+"dom": "steady",
+"c": {
+"att": -0.1,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -2.5,
+"phrase": -0.0,
+"shape": -0.1,
+"other": 0.1
+},
+"tot": -2.6,
+"lev7": -33.9
+},
+{
+"track": "Violins I",
+"a": 120,
+"b": 124,
+"v": -3.8,
+"dom": "steady",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -4.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -4.0,
+"lev7": -35.2
+},
+{
+"track": "Violins I",
+"a": 124,
+"b": 128,
+"v": -2.1,
+"dom": "steady",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -2.7,
+"phrase": -0.0,
+"shape": 0.3,
+"other": 0.2
+},
+"tot": -2.3,
+"lev7": -33.5
+},
+{
+"track": "Violins I",
+"a": 128,
+"b": 132,
+"v": 2.5,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.6,
+"other": 0.0
+},
+"tot": 1.6,
+"lev7": -29.9
+},
+{
+"track": "Violins I",
+"a": 140,
+"b": 144,
+"v": -6.3,
+"dom": "steady",
+"c": {
+"att": -0.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -5.5,
+"phrase": 0.0,
+"shape": -0.3,
+"other": 0.2
+},
+"tot": -5.7,
+"lev7": -48.4
+},
+{
+"track": "Violins I",
+"a": 144,
+"b": 148,
+"v": -2.8,
+"dom": "steady",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -2.9,
+"phrase": 1.9,
+"shape": -0.0,
+"other": -1.3
+},
+"tot": -2.3,
+"lev7": -43.0
+},
+{
+"track": "Violins I",
+"a": 148,
+"b": 156,
+"v": -4.5,
+"dom": "steady",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -4.5,
+"phrase": 0.3,
+"shape": 0.0,
+"other": -0.1
+},
+"tot": -4.3,
+"lev7": -37.1
+},
+{
+"track": "Violins I",
+"a": 256,
+"b": 260,
+"v": 3.3,
+"dom": "phrase",
+"c": {
+"att": -0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": -0.6,
+"steady": 0.0,
+"phrase": 4.0,
+"shape": 0.0,
+"other": -0.4
+},
+"tot": 2.9,
+"lev7": -34.6
+},
+{
+"track": "Violins I",
+"a": 288,
+"b": 292,
+"v": -4.5,
+"dom": "rowtrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": -1.5,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -1.5,
+"lev7": -48.9
+},
+{
+"track": "Violins I",
+"a": 312,
+"b": 316,
+"v": 2.9,
+"dom": "phrase",
+"c": {
+"att": -0.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 2.5,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.4,
+"lev7": -41.6
+},
+{
+"track": "Violins I",
+"a": 328,
+"b": 332,
+"v": -6.7,
+"dom": "shape",
+"c": {
+"att": 0.5,
+"hold": 0.0,
+"ntrim": -0.7,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -6.4,
+"other": -0.1
+},
+"tot": -6.7,
+"lev7": -33.9
+},
+{
+"track": "Violins I",
+"a": 372,
+"b": 376,
+"v": -2.2,
+"dom": "att",
+"c": {
+"att": -1.5,
+"hold": 0.0,
+"ntrim": -0.0,
+"rowtrim": -0.4,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.4,
+"other": 0.2
+},
+"tot": -2.1,
+"lev7": -39.2
+},
+{
+"track": "Violins I",
+"a": 436,
+"b": 440,
+"v": 4.2,
+"dom": "att",
+"c": {
+"att": 4.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 4.0,
+"lev7": -57.4
+},
+{
+"track": "Violins I",
+"a": 452,
+"b": 456,
+"v": 2.6,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": -0.1,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 2.9,
+"other": 0.1
+},
+"tot": 2.8,
+"lev7": -36.5
+},
+{
+"track": "Violins I",
+"a": 536,
+"b": 540,
+"v": -5.9,
+"dom": "steady",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -5.7,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -5.7,
+"lev7": -46.8
+},
+{
+"track": "Violins I",
+"a": 540,
+"b": 548,
+"v": -8.7,
+"dom": "steady",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -8.6,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": -8.6,
+"lev7": -45.8
+},
+{
+"track": "Violins I",
+"a": 552,
+"b": 556,
+"v": -7.4,
+"dom": "steady",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -8.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -8.0,
+"lev7": -34.4
+},
+{
+"track": "Violins I",
+"a": 572,
+"b": 576,
+"v": -3.6,
+"dom": "steady",
+"c": {
+"att": -0.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -2.4,
+"phrase": -0.1,
+"shape": -0.3,
+"other": -0.0
+},
+"tot": -3.0,
+"lev7": -41.3
+},
+{
+"track": "Violins I",
+"a": 712,
+"b": 716,
+"v": -3.4,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -3.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -1.8,
+"other": 1.3
+},
+"tot": -3.5,
+"lev7": -47.5
+},
+{
+"track": "Violins I",
+"a": 724,
+"b": 728,
+"v": 3.8,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.6,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -3.9,
+"other": 2.8
+},
+"tot": -0.5,
+"lev7": -50.6
+},
+{
+"track": "Violins I",
+"a": 48,
+"b": 64,
+"v": 4.0,
+"dom": "steady",
+"c": {
+"att": -0.1,
+"hold": -0.1,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -4.2,
+"phrase": 0.3,
+"shape": -0.1,
+"other": -0.3
+},
+"tot": -4.5,
+"lev7": -39.6
+},
+{
+"track": "Violins I",
+"a": 64,
+"b": 80,
+"v": 3.5,
+"dom": "other",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -0.8,
+"phrase": 0.2,
+"shape": -1.6,
+"other": -2.4
+},
+"tot": -4.6,
+"lev7": -35.1
+},
+{
+"track": "Violins I",
+"a": 80,
+"b": 96,
+"v": 5.5,
+"dom": "steady",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -3.8,
+"phrase": 0.0,
+"shape": -0.4,
+"other": -1.7
+},
+"tot": -5.9,
+"lev7": -37.1
+},
+{
+"track": "Violins I",
+"a": 96,
+"b": 112,
+"v": 3.2,
+"dom": "steady",
+"c": {
+"att": -0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -3.9,
+"phrase": 0.0,
+"shape": -0.3,
+"other": -0.5
+},
+"tot": -4.7,
+"lev7": -32.4
+},
+{
+"track": "Violins I",
+"a": 112,
+"b": 128,
+"v": 2.5,
+"dom": "steady",
+"c": {
+"att": -0.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -2.0,
+"phrase": 0.0,
+"shape": -0.2,
+"other": -0.1
+},
+"tot": -2.3,
+"lev7": -32.5
+},
+{
+"track": "Violins I",
+"a": 128,
+"b": 144,
+"v": 3.7,
+"dom": "shape",
+"c": {
+"att": -0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -0.2,
+"phrase": 0.7,
+"shape": 0.8,
+"other": -0.3
+},
+"tot": 1.1,
+"lev7": -35.1
+},
+{
+"track": "Violins I",
+"a": 144,
+"b": 160,
+"v": 5.6,
+"dom": "steady",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -3.5,
+"phrase": 0.6,
+"shape": 0.1,
+"other": -0.2
+},
+"tot": -3.0,
+"lev7": -37.1
+},
+{
+"track": "Violins I",
+"a": 528,
+"b": 544,
+"v": 1.1,
+"dom": "steady",
+"c": {
+"att": 0.4,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -1.8,
+"phrase": -0.0,
+"shape": -0.8,
+"other": 1.0
+},
+"tot": -1.2,
+"lev7": -39.5
+},
+{
+"track": "Violins I",
+"a": 544,
+"b": 560,
+"v": 1.3,
+"dom": "steady",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -2.1,
+"phrase": 0.1,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -2.0,
+"lev7": -32.3
+},
+{
+"track": "Violins I",
+"a": 560,
+"b": 576,
+"v": 1.6,
+"dom": "steady",
+"c": {
+"att": -0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 2.7,
+"phrase": 0.0,
+"shape": -1.2,
+"other": -0.5
+},
+"tot": 1.0,
+"lev7": -30.1
+},
+{
+"track": "Violins II",
+"a": 24,
+"b": 28,
+"v": 2.9,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 2.8,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.8,
+"lev7": -50.3
+},
+{
+"track": "Violins II",
+"a": 76,
+"b": 80,
+"v": 2.4,
+"dom": "shape",
+"c": {
+"att": 0.2,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": 2.5,
+"phrase": -0.0,
+"shape": -4.5,
+"other": 4.4
+},
+"tot": 2.6,
+"lev7": -36.5
+},
+{
+"track": "Violins II",
+"a": 80,
+"b": 84,
+"v": 8.4,
+"dom": "steady",
+"c": {
+"att": 0.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 8.5,
+"phrase": 0.0,
+"shape": -5.8,
+"other": 5.0
+},
+"tot": 7.9,
+"lev7": -27.8
+},
+{
+"track": "Violins II",
+"a": 100,
+"b": 104,
+"v": -2.4,
+"dom": "shape",
+"c": {
+"att": 0.3,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -2.7,
+"other": 0.1
+},
+"tot": -2.3,
+"lev7": -31.8
+},
+{
+"track": "Violins II",
+"a": 104,
+"b": 108,
+"v": -7.7,
+"dom": "steady",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -7.8,
+"phrase": -0.0,
+"shape": 2.3,
+"other": -2.3
+},
+"tot": -7.8,
+"lev7": -35.0
+},
+{
+"track": "Violins II",
+"a": 108,
+"b": 112,
+"v": -6.2,
+"dom": "steady",
+"c": {
+"att": -0.1,
+"hold": 0.0,
+"ntrim": -0.3,
+"rowtrim": 0.0,
+"steady": -6.1,
+"phrase": 0.0,
+"shape": 2.7,
+"other": -2.5
+},
+"tot": -6.2,
+"lev7": -33.0
+},
+{
+"track": "Violins II",
+"a": 112,
+"b": 116,
+"v": -4.4,
+"dom": "steady",
+"c": {
+"att": -0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -3.9,
+"phrase": 0.0,
+"shape": 1.8,
+"other": -2.3
+},
+"tot": -4.5,
+"lev7": -33.8
+},
+{
+"track": "Violins II",
+"a": 120,
+"b": 128,
+"v": -3.6,
+"dom": "steady",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -3.4,
+"phrase": -0.0,
+"shape": -0.1,
+"other": -0.0
+},
+"tot": -3.6,
+"lev7": -34.7
+},
+{
+"track": "Violins II",
+"a": 176,
+"b": 180,
+"v": 2.4,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 2.4,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.4,
+"lev7": -56.0
+},
+{
+"track": "Violins II",
+"a": 188,
+"b": 192,
+"v": 4.0,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.9,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 3.9,
+"lev7": -51.3
+},
+{
+"track": "Violins II",
+"a": 192,
+"b": 196,
+"v": 7.5,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 5.7,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.8,
+"other": 1.0
+},
+"tot": 7.5,
+"lev7": -46.8
+},
+{
+"track": "Violins II",
+"a": 208,
+"b": 212,
+"v": 4.3,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": 4.3,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 4.3,
+"lev7": -54.3
+},
+{
+"track": "Violins II",
+"a": 284,
+"b": 288,
+"v": 2.3,
+"dom": "att",
+"c": {
+"att": 2.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 2.1,
+"lev7": -38.8
+},
+{
+"track": "Violins II",
+"a": 320,
+"b": 324,
+"v": -5.0,
+"dom": "shape",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -4.9,
+"other": 0.0
+},
+"tot": -4.9,
+"lev7": -40.1
+},
+{
+"track": "Violins II",
+"a": 328,
+"b": 332,
+"v": -3.9,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -1.4,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.4,
+"other": 0.0
+},
+"tot": -3.8,
+"lev7": -36.9
+},
+{
+"track": "Violins II",
+"a": 372,
+"b": 376,
+"v": -2.0,
+"dom": "shape",
+"c": {
+"att": 0.4,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": -0.5,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -1.2,
+"other": -0.5
+},
+"tot": -1.8,
+"lev7": -44.4
+},
+{
+"track": "Violins II",
+"a": 408,
+"b": 412,
+"v": -3.8,
+"dom": "rowtrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": -3.4,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -3.4,
+"lev7": -42.4
+},
+{
+"track": "Violins II",
+"a": 420,
+"b": 424,
+"v": 6.0,
+"dom": "att",
+"c": {
+"att": 6.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 5.9,
+"lev7": -62.8
+},
+{
+"track": "Violins II",
+"a": 452,
+"b": 456,
+"v": -2.2,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -1.9,
+"other": 0.0
+},
+"tot": -1.9,
+"lev7": -40.9
+},
+{
+"track": "Violins II",
+"a": 552,
+"b": 556,
+"v": -6.9,
+"dom": "steady",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -7.2,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": -7.2,
+"lev7": -33.3
+},
+{
+"track": "Violins II",
+"a": 556,
+"b": 564,
+"v": -4.5,
+"dom": "steady",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -4.5,
+"phrase": 0.0,
+"shape": -0.0,
+"other": -0.0
+},
+"tot": -4.5,
+"lev7": -32.4
+},
+{
+"track": "Violins II",
+"a": 568,
+"b": 572,
+"v": -2.9,
+"dom": "steady",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -2.9,
+"phrase": 0.0,
+"shape": -0.1,
+"other": -0.0
+},
+"tot": -3.0,
+"lev7": -41.8
+},
+{
+"track": "Violins II",
+"a": 576,
+"b": 584,
+"v": -3.5,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -5.2,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.6,
+"phrase": 0.0,
+"shape": 1.1,
+"other": 0.0
+},
+"tot": -3.4,
+"lev7": -61.1
+},
+{
+"track": "Violins II",
+"a": 584,
+"b": 596,
+"v": -2.0,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": -2.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": -2.0,
+"lev7": -54.5
+},
+{
+"track": "Violins II",
+"a": 600,
+"b": 624,
+"v": -2.1,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -2.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": -2.0,
+"lev7": -52.1
+},
+{
+"track": "Violins II",
+"a": 628,
+"b": 636,
+"v": -2.1,
+"dom": "hold",
+"c": {
+"att": -0.1,
+"hold": -2.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -1.0,
+"other": 0.9
+},
+"tot": -2.2,
+"lev7": -33.6
+},
+{
+"track": "Violins II",
+"a": 644,
+"b": 648,
+"v": -2.1,
+"dom": "other",
+"c": {
+"att": -0.1,
+"hold": -2.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 2.5,
+"other": -2.5
+},
+"tot": -2.1,
+"lev7": -34.3
+},
+{
+"track": "Violins II",
+"a": 656,
+"b": 672,
+"v": -2.0,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -2.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.9,
+"other": -0.9
+},
+"tot": -2.0,
+"lev7": -42.0
+},
+{
+"track": "Violins II",
+"a": 712,
+"b": 720,
+"v": 3.1,
+"dom": "other",
+"c": {
+"att": -0.0,
+"hold": 1.5,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -1.5,
+"other": 3.0
+},
+"tot": 3.0,
+"lev7": -58.4
+},
+{
+"track": "Violins II",
+"a": 720,
+"b": 724,
+"v": 6.0,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 4.6,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.0,
+"other": 3.5
+},
+"tot": 6.1,
+"lev7": -56.1
+},
+{
+"track": "Violins II",
+"a": 724,
+"b": 728,
+"v": 3.7,
+"dom": "shape",
+"c": {
+"att": -0.0,
+"hold": 4.5,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -4.6,
+"other": 3.8
+},
+"tot": 3.7,
+"lev7": -60.2
+},
+{
+"track": "Violas",
+"a": 16,
+"b": 20,
+"v": 4.0,
+"dom": "att",
+"c": {
+"att": 3.2,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 3.2,
+"lev7": -62.3
+},
+{
+"track": "Violas",
+"a": 52,
+"b": 56,
+"v": -5.2,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -5.2,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -5.2,
+"lev7": -59.5
+},
+{
+"track": "Violas",
+"a": 68,
+"b": 72,
+"v": 3.1,
+"dom": "att",
+"c": {
+"att": 2.9,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 2.9,
+"lev7": -43.9
+},
+{
+"track": "Violas",
+"a": 100,
+"b": 108,
+"v": -2.6,
+"dom": "shape",
+"c": {
+"att": 0.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -0.3,
+"phrase": 0.0,
+"shape": -2.3,
+"other": -0.3
+},
+"tot": -2.9,
+"lev7": -33.8
+},
+{
+"track": "Violas",
+"a": 112,
+"b": 116,
+"v": -3.9,
+"dom": "steady",
+"c": {
+"att": -0.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -3.8,
+"phrase": 0.0,
+"shape": -0.1,
+"other": 0.1
+},
+"tot": -3.9,
+"lev7": -37.3
+},
+{
+"track": "Violas",
+"a": 116,
+"b": 120,
+"v": -2.2,
+"dom": "steady",
+"c": {
+"att": -0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": -1.1,
+"phrase": -0.1,
+"shape": -0.5,
+"other": -0.2
+},
+"tot": -2.0,
+"lev7": -38.0
+},
+{
+"track": "Violas",
+"a": 124,
+"b": 128,
+"v": -3.4,
+"dom": "att",
+"c": {
+"att": -0.2,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -0.0
+},
+"tot": -0.2,
+"lev7": -39.7
+},
+{
+"track": "Violas",
+"a": 128,
+"b": 132,
+"v": 2.0,
+"dom": "att",
+"c": {
+"att": 2.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 2.0,
+"lev7": -37.6
+},
+{
+"track": "Violas",
+"a": 132,
+"b": 136,
+"v": 4.2,
+"dom": "phrase",
+"c": {
+"att": 0.6,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 2.8,
+"shape": 1.3,
+"other": -0.7
+},
+"tot": 3.9,
+"lev7": -43.9
+},
+{
+"track": "Violas",
+"a": 144,
+"b": 148,
+"v": 4.0,
+"dom": "phrase",
+"c": {
+"att": 1.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 3.1,
+"shape": 0.0,
+"other": -0.4
+},
+"tot": 3.9,
+"lev7": -43.2
+},
+{
+"track": "Violas",
+"a": 160,
+"b": 164,
+"v": 2.3,
+"dom": "att",
+"c": {
+"att": 2.3,
+"hold": -0.2,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.1
+},
+"tot": 2.1,
+"lev7": -38.8
+},
+{
+"track": "Violas",
+"a": 164,
+"b": 168,
+"v": -3.6,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -3.6,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -3.6,
+"lev7": -54.7
+},
+{
+"track": "Violas",
+"a": 292,
+"b": 296,
+"v": 3.8,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 3.8,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 3.8,
+"lev7": -47.6
+},
+{
+"track": "Violas",
+"a": 296,
+"b": 300,
+"v": 4.9,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 4.8,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 4.8,
+"lev7": -45.9
+},
+{
+"track": "Violas",
+"a": 328,
+"b": 332,
+"v": -4.9,
+"dom": "att",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 0.0,
+"lev7": -38.7
+},
+{
+"track": "Violas",
+"a": 352,
+"b": 356,
+"v": 2.4,
+"dom": "shape",
+"c": {
+"att": -0.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.9,
+"other": 0.3
+},
+"tot": 1.1,
+"lev7": -40.3
+},
+{
+"track": "Violas",
+"a": 356,
+"b": 360,
+"v": -4.5,
+"dom": "att",
+"c": {
+"att": -3.5,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -1.0,
+"other": -0.0
+},
+"tot": -4.6,
+"lev7": -42.4
+},
+{
+"track": "Violas",
+"a": 424,
+"b": 428,
+"v": -2.2,
+"dom": "shape",
+"c": {
+"att": 0.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.4,
+"other": 0.1
+},
+"tot": -2.1,
+"lev7": -41.2
+},
+{
+"track": "Violas",
+"a": 428,
+"b": 432,
+"v": 2.2,
+"dom": "shape",
+"c": {
+"att": 0.6,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.9,
+"other": -0.2
+},
+"tot": 1.4,
+"lev7": -40.7
+},
+{
+"track": "Violas",
+"a": 436,
+"b": 440,
+"v": 2.3,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -0.0,
+"lev7": -40.3
+},
+{
+"track": "Violas",
+"a": 576,
+"b": 580,
+"v": 2.1,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 2.1,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 2.1,
+"lev7": -56.4
+},
+{
+"track": "Violas",
+"a": 588,
+"b": 592,
+"v": 2.9,
+"dom": "att",
+"c": {
+"att": 0.9,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 0.9,
+"lev7": -38.4
+},
+{
+"track": "Violas",
+"a": 668,
+"b": 672,
+"v": -3.6,
+"dom": "rowtrim",
+"c": {
+"att": 0.6,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": -4.2,
+"steady": 0.0,
+"phrase": -0.1,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -3.7,
+"lev7": -35.8
+},
+{
+"track": "Violas",
+"a": 720,
+"b": 724,
+"v": 2.5,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 2.3,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.0,
+"other": 2.0
+},
+"tot": 2.3,
+"lev7": -50.9
+},
+{
+"track": "Violoncellos",
+"a": 8,
+"b": 12,
+"v": 3.4,
+"dom": "shape",
+"c": {
+"att": 0.2,
+"hold": 0.4,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 7.7,
+"other": -5.1
+},
+"tot": 3.2,
+"lev7": -37.2
+},
+{
+"track": "Violoncellos",
+"a": 16,
+"b": 20,
+"v": 2.5,
+"dom": "att",
+"c": {
+"att": 2.6,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.6,
+"lev7": -61.2
+},
+{
+"track": "Violoncellos",
+"a": 20,
+"b": 24,
+"v": 6.6,
+"dom": "hold",
+"c": {
+"att": 0.1,
+"hold": 6.5,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.1
+},
+"tot": 6.5,
+"lev7": -47.1
+},
+{
+"track": "Violoncellos",
+"a": 24,
+"b": 28,
+"v": 4.7,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 5.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 5.0,
+"lev7": -41.8
+},
+{
+"track": "Violoncellos",
+"a": 52,
+"b": 56,
+"v": -3.5,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -4.4,
+"ntrim": 0.0,
+"rowtrim": -0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.1,
+"other": 0.1
+},
+"tot": -4.2,
+"lev7": -57.5
+},
+{
+"track": "Violoncellos",
+"a": 64,
+"b": 68,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 3.3,
+"hold": 0.0,
+"ntrim": -1.2,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.1,
+"lev7": -36.5
+},
+{
+"track": "Violoncellos",
+"a": 84,
+"b": 92,
+"v": 3.0,
+"dom": "ntrim",
+"c": {
+"att": 0.7,
+"hold": 0.0,
+"ntrim": 1.4,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.1
+},
+"tot": 2.0,
+"lev7": -42.6
+},
+{
+"track": "Violoncellos",
+"a": 96,
+"b": 100,
+"v": -2.4,
+"dom": "ntrim",
+"c": {
+"att": 0.7,
+"hold": 0.0,
+"ntrim": -2.9,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.1
+},
+"tot": -2.4,
+"lev7": -32.1
+},
+{
+"track": "Violoncellos",
+"a": 100,
+"b": 104,
+"v": -4.6,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -4.6,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -4.6,
+"lev7": -30.3
+},
+{
+"track": "Violoncellos",
+"a": 120,
+"b": 124,
+"v": -4.0,
+"dom": "shape",
+"c": {
+"att": 1.4,
+"hold": 0.0,
+"ntrim": -2.4,
+"rowtrim": -0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -3.1,
+"other": 0.0
+},
+"tot": -4.0,
+"lev7": -31.4
+},
+{
+"track": "Violoncellos",
+"a": 128,
+"b": 136,
+"v": 3.9,
+"dom": "att",
+"c": {
+"att": 2.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 1.6
+},
+"tot": 3.7,
+"lev7": -36.6
+},
+{
+"track": "Violoncellos",
+"a": 140,
+"b": 144,
+"v": 2.4,
+"dom": "att",
+"c": {
+"att": 2.5,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -0.3
+},
+"tot": 2.2,
+"lev7": -46.5
+},
+{
+"track": "Violoncellos",
+"a": 156,
+"b": 160,
+"v": -2.7,
+"dom": "shape",
+"c": {
+"att": 0.2,
+"hold": -0.0,
+"ntrim": 0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -3.4,
+"other": 0.4
+},
+"tot": -2.8,
+"lev7": -32.7
+},
+{
+"track": "Violoncellos",
+"a": 160,
+"b": 164,
+"v": 2.0,
+"dom": "att",
+"c": {
+"att": 2.3,
+"hold": -0.2,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.1
+},
+"tot": 2.2,
+"lev7": -33.7
+},
+{
+"track": "Violoncellos",
+"a": 172,
+"b": 176,
+"v": -2.2,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -2.2,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -2.2,
+"lev7": -56.1
+},
+{
+"track": "Violoncellos",
+"a": 184,
+"b": 188,
+"v": 3.2,
+"dom": "shape",
+"c": {
+"att": 0.1,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": 0.0,
+"shape": 5.5,
+"other": -2.1
+},
+"tot": 3.5,
+"lev7": -36.3
+},
+{
+"track": "Violoncellos",
+"a": 188,
+"b": 192,
+"v": 2.1,
+"dom": "shape",
+"c": {
+"att": 1.3,
+"hold": -0.3,
+"ntrim": -0.7,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": -0.0,
+"shape": 1.7,
+"other": -0.3
+},
+"tot": 1.8,
+"lev7": -36.5
+},
+{
+"track": "Violoncellos",
+"a": 200,
+"b": 204,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 1.2,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.1,
+"shape": 1.2,
+"other": -0.1
+},
+"tot": 2.2,
+"lev7": -38.8
+},
+{
+"track": "Violoncellos",
+"a": 204,
+"b": 208,
+"v": 3.4,
+"dom": "shape",
+"c": {
+"att": 1.3,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": -0.0,
+"shape": 2.6,
+"other": -0.5
+},
+"tot": 3.4,
+"lev7": -39.4
+},
+{
+"track": "Violoncellos",
+"a": 220,
+"b": 224,
+"v": 2.0,
+"dom": "att",
+"c": {
+"att": 1.9,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 1.9,
+"lev7": -47.2
+},
+{
+"track": "Violoncellos",
+"a": 232,
+"b": 236,
+"v": 2.2,
+"dom": "att",
+"c": {
+"att": 2.2,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.2,
+"lev7": -47.7
+},
+{
+"track": "Violoncellos",
+"a": 268,
+"b": 272,
+"v": 2.9,
+"dom": "att",
+"c": {
+"att": 2.8,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": 2.8,
+"lev7": -41.6
+},
+{
+"track": "Violoncellos",
+"a": 288,
+"b": 300,
+"v": -2.6,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": -2.7,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": -2.7,
+"lev7": -49.9
+},
+{
+"track": "Violoncellos",
+"a": 300,
+"b": 308,
+"v": -4.7,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -4.3,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -4.3,
+"lev7": -52.6
+},
+{
+"track": "Violoncellos",
+"a": 328,
+"b": 332,
+"v": 2.4,
+"dom": "att",
+"c": {
+"att": 2.0,
+"hold": 0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.5,
+"other": 0.7
+},
+"tot": 2.2,
+"lev7": -31.5
+},
+{
+"track": "Violoncellos",
+"a": 340,
+"b": 344,
+"v": 3.4,
+"dom": "shape",
+"c": {
+"att": -0.2,
+"hold": 0.0,
+"ntrim": 1.2,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 3.3,
+"other": -1.1
+},
+"tot": 3.2,
+"lev7": -38.7
+},
+{
+"track": "Violoncellos",
+"a": 344,
+"b": 348,
+"v": -3.3,
+"dom": "other",
+"c": {
+"att": -3.6,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -4.7,
+"other": 5.1
+},
+"tot": -3.2,
+"lev7": -43.7
+},
+{
+"track": "Violoncellos",
+"a": 348,
+"b": 352,
+"v": 6.1,
+"dom": "shape",
+"c": {
+"att": -0.1,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 6.9,
+"other": -0.8
+},
+"tot": 6.0,
+"lev7": -44.3
+},
+{
+"track": "Violoncellos",
+"a": 404,
+"b": 408,
+"v": 3.2,
+"dom": "att",
+"c": {
+"att": 3.3,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 3.3,
+"lev7": -42.4
+},
+{
+"track": "Violoncellos",
+"a": 416,
+"b": 420,
+"v": 3.0,
+"dom": "phrase",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 3.1,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": 3.1,
+"lev7": -42.4
+},
+{
+"track": "Violoncellos",
+"a": 464,
+"b": 480,
+"v": -2.4,
+"dom": "other",
+"c": {
+"att": -2.4,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 4.8,
+"other": -4.8
+},
+"tot": -2.4,
+"lev7": -36.3
+},
+{
+"track": "Violoncellos",
+"a": 512,
+"b": 516,
+"v": -4.1,
+"dom": "att",
+"c": {
+"att": -3.9,
+"hold": -0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 2.0,
+"other": -2.0
+},
+"tot": -3.9,
+"lev7": -43.5
+},
+{
+"track": "Violoncellos",
+"a": 516,
+"b": 520,
+"v": -2.2,
+"dom": "other",
+"c": {
+"att": -1.4,
+"hold": -0.9,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 1.6,
+"other": -1.6
+},
+"tot": -2.3,
+"lev7": -37.2
+},
+{
+"track": "Violoncellos",
+"a": 548,
+"b": 552,
+"v": -4.3,
+"dom": "ntrim",
+"c": {
+"att": 0.1,
+"hold": 0.0,
+"ntrim": -4.5,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.2
+},
+"tot": -4.2,
+"lev7": -34.4
+},
+{
+"track": "Violoncellos",
+"a": 584,
+"b": 592,
+"v": 3.1,
+"dom": "shape",
+"c": {
+"att": 0.2,
+"hold": 0.0,
+"ntrim": -0.4,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": -0.0,
+"shape": 3.2,
+"other": 0.0
+},
+"tot": 3.0,
+"lev7": -35.5
+},
+{
+"track": "Violoncellos",
+"a": 596,
+"b": 604,
+"v": 2.6,
+"dom": "shape",
+"c": {
+"att": 1.8,
+"hold": -0.2,
+"ntrim": -0.4,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": -0.0,
+"shape": 3.0,
+"other": -1.8
+},
+"tot": 2.4,
+"lev7": -36.2
+},
+{
+"track": "Violoncellos",
+"a": 604,
+"b": 612,
+"v": 4.3,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": 0.0,
+"phrase": 0.9,
+"shape": 3.4,
+"other": 0.2
+},
+"tot": 4.5,
+"lev7": -36.0
+},
+{
+"track": "Violoncellos",
+"a": 636,
+"b": 640,
+"v": 2.5,
+"dom": "att",
+"c": {
+"att": 2.4,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.1,
+"other": -0.0
+},
+"tot": 2.5,
+"lev7": -24.7
+},
+{
+"track": "Violoncellos",
+"a": 656,
+"b": 660,
+"v": 2.9,
+"dom": "att",
+"c": {
+"att": 2.9,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -0.1
+},
+"tot": 2.8,
+"lev7": -44.3
+},
+{
+"track": "Violoncellos",
+"a": 672,
+"b": 676,
+"v": 3.5,
+"dom": "att",
+"c": {
+"att": 3.4,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": 0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -0.0
+},
+"tot": 3.4,
+"lev7": -30.9
+},
+{
+"track": "Violoncellos",
+"a": 696,
+"b": 700,
+"v": -4.2,
+"dom": "ntrim",
+"c": {
+"att": 0.1,
+"hold": 0.7,
+"ntrim": -5.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -2.8,
+"other": 2.7
+},
+"tot": -4.3,
+"lev7": -61.4
+},
+{
+"track": "Violoncellos",
+"a": 712,
+"b": 724,
+"v": 4.3,
+"dom": "other",
+"c": {
+"att": 0.2,
+"hold": 1.1,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.9,
+"other": 3.0
+},
+"tot": 3.5,
+"lev7": -55.7
+},
+{
+"track": "Violoncellos",
+"a": 724,
+"b": 728,
+"v": 7.7,
+"dom": "other",
+"c": {
+"att": -0.0,
+"hold": 2.3,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.1,
+"other": 3.6
+},
+"tot": 5.9,
+"lev7": -56.4
+},
+{
+"track": "Double basses",
+"a": 0,
+"b": 4,
+"v": -4.4,
+"dom": "ntrim",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -4.3,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.2,
+"other": 0.0
+},
+"tot": -4.5,
+"lev7": -52.3
+},
+{
+"track": "Double basses",
+"a": 16,
+"b": 28,
+"v": 2.3,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": -0.1,
+"ntrim": 2.5,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.2
+},
+"tot": 2.2,
+"lev7": -50.8
+},
+{
+"track": "Double basses",
+"a": 40,
+"b": 44,
+"v": 3.0,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 2.9,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.9,
+"lev7": -35.2
+},
+{
+"track": "Double basses",
+"a": 52,
+"b": 56,
+"v": -2.7,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -2.8,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -2.8,
+"lev7": -62.6
+},
+{
+"track": "Double basses",
+"a": 128,
+"b": 132,
+"v": -3.2,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -3.3,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": -0.0
+},
+"tot": -3.3,
+"lev7": -45.7
+},
+{
+"track": "Double basses",
+"a": 132,
+"b": 136,
+"v": -5.6,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": -5.6,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -5.6,
+"lev7": -53.1
+},
+{
+"track": "Double basses",
+"a": 164,
+"b": 168,
+"v": -3.4,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": -3.3,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": -0.0
+},
+"tot": -3.3,
+"lev7": -45.0
+},
+{
+"track": "Double basses",
+"a": 188,
+"b": 196,
+"v": 2.7,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 2.6,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.1
+},
+"tot": 2.8,
+"lev7": -55.7
+},
+{
+"track": "Double basses",
+"a": 244,
+"b": 248,
+"v": -2.1,
+"dom": "shape",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -2.8,
+"other": 0.8
+},
+"tot": -2.0,
+"lev7": -49.6
+},
+{
+"track": "Double basses",
+"a": 284,
+"b": 288,
+"v": 2.5,
+"dom": "att",
+"c": {
+"att": 1.6,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.7
+},
+"tot": 2.3,
+"lev7": -42.9
+},
+{
+"track": "Double basses",
+"a": 292,
+"b": 296,
+"v": -3.0,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": -3.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": -3.0,
+"lev7": -52.2
+},
+{
+"track": "Double basses",
+"a": 296,
+"b": 300,
+"v": 2.4,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 2.4,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": 2.5,
+"lev7": -48.8
+},
+{
+"track": "Double basses",
+"a": 464,
+"b": 468,
+"v": -2.6,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -2.6,
+"other": 0.0
+},
+"tot": -2.6,
+"lev7": -31.7
+},
+{
+"track": "Double basses",
+"a": 468,
+"b": 472,
+"v": 4.8,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.1,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 4.8,
+"other": -0.0
+},
+"tot": 4.9,
+"lev7": -33.9
+},
+{
+"track": "Double basses",
+"a": 472,
+"b": 476,
+"v": 2.3,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": -1.3,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 3.8,
+"other": 0.0
+},
+"tot": 2.5,
+"lev7": -34.3
+},
+{
+"track": "Double basses",
+"a": 480,
+"b": 484,
+"v": 2.7,
+"dom": "shape",
+"c": {
+"att": -0.0,
+"hold": -0.1,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 2.8,
+"other": -0.0
+},
+"tot": 2.7,
+"lev7": -31.8
+},
+{
+"track": "Double basses",
+"a": 484,
+"b": 488,
+"v": 4.9,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": -0.4,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 5.3,
+"other": -0.1
+},
+"tot": 4.8,
+"lev7": -30.8
+},
+{
+"track": "Double basses",
+"a": 488,
+"b": 492,
+"v": 2.4,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": -2.4,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 4.6,
+"other": -0.1
+},
+"tot": 2.1,
+"lev7": -28.8
+},
+{
+"track": "Double basses",
+"a": 496,
+"b": 504,
+"v": -6.6,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": -6.6,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.0,
+"other": 0.0
+},
+"tot": -6.6,
+"lev7": -51.2
+},
+{
+"track": "Double basses",
+"a": 504,
+"b": 512,
+"v": -8.5,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -8.4,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -8.4,
+"lev7": -50.5
+},
+{
+"track": "Double basses",
+"a": 512,
+"b": 516,
+"v": -6.5,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -6.5,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 0.0,
+"other": 0.0
+},
+"tot": -6.5,
+"lev7": -43.6
+},
+{
+"track": "Double basses",
+"a": 516,
+"b": 520,
+"v": -3.2,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": -4.8,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.1,
+"shape": 1.1,
+"other": 0.9
+},
+"tot": -2.6,
+"lev7": -38.8
+},
+{
+"track": "Double basses",
+"a": 584,
+"b": 588,
+"v": 4.3,
+"dom": "ntrim",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": 3.8,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 1.5,
+"other": -1.5
+},
+"tot": 3.7,
+"lev7": -45.0
+},
+{
+"track": "Double basses",
+"a": 596,
+"b": 600,
+"v": 4.0,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 4.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.5,
+"other": -1.5
+},
+"tot": 4.0,
+"lev7": -53.6
+},
+{
+"track": "Double basses",
+"a": 600,
+"b": 604,
+"v": 2.0,
+"dom": "ntrim",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 2.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 1.5,
+"other": -1.5
+},
+"tot": 1.9,
+"lev7": -50.5
+},
+{
+"track": "Double basses",
+"a": 660,
+"b": 664,
+"v": 2.5,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 3.6,
+"other": -1.1
+},
+"tot": 2.5,
+"lev7": -38.2
+},
+{
+"track": "Double basses",
+"a": 712,
+"b": 720,
+"v": 4.7,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": 4.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -0.8,
+"other": 1.5
+},
+"tot": 4.7,
+"lev7": -52.8
+},
+{
+"track": "Double basses",
+"a": 720,
+"b": 724,
+"v": 10.2,
+"dom": "hold",
+"c": {
+"att": -0.0,
+"hold": 8.1,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": -2.2,
+"other": 4.4
+},
+"tot": 10.2,
+"lev7": -47.6
+},
+{
+"track": "Double basses",
+"a": 724,
+"b": 728,
+"v": 5.0,
+"dom": "hold",
+"c": {
+"att": 0.0,
+"hold": 6.5,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -3.8,
+"other": 2.2
+},
+"tot": 4.9,
+"lev7": -57.1
+},
+{
+"track": "Horns a2",
+"a": 168,
+"b": 172,
+"v": -8.0,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -0.3,
+"other": 0.0
+},
+"tot": -0.3,
+"lev7": -50.8
+},
+{
+"track": "Horns a2",
+"a": 308,
+"b": 316,
+"v": -2.3,
+"dom": "shape",
+"c": {
+"att": 1.5,
+"hold": 0.0,
+"ntrim": 0.1,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.4,
+"shape": -4.2,
+"other": -0.0
+},
+"tot": -2.2,
+"lev7": -43.8
+},
+{
+"track": "Horns a2",
+"a": 316,
+"b": 320,
+"v": -7.9,
+"dom": "shape",
+"c": {
+"att": 0.0,
+"hold": 0.0,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": -1.2,
+"other": 0.0
+},
+"tot": -1.2,
+"lev7": -58.6
+},
+{
+"track": "Horns a2",
+"a": 392,
+"b": 396,
+"v": -2.5,
+"dom": "other",
+"c": {
+"att": 0.0,
+"hold": -0.3,
+"ntrim": 0.0,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.1,
+"shape": 1.8,
+"other": -4.3
+},
+"tot": -2.8,
+"lev7": -38.0
+},
+{
+"track": "Trumpets a2",
+"a": 664,
+"b": 672,
+"v": 2.2,
+"dom": "ntrim",
+"c": {
+"att": 0.7,
+"hold": -0.3,
+"ntrim": 1.1,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": 0.4,
+"shape": -0.0,
+"other": -0.1
+},
+"tot": 1.8,
+"lev7": -35.3
+},
+{
+"track": "Trumpets a2",
+"a": 676,
+"b": 680,
+"v": 5.5,
+"dom": "shape",
+"c": {
+"att": 0.6,
+"hold": 0.0,
+"ntrim": 2.3,
+"rowtrim": 0.0,
+"steady": 0.0,
+"phrase": 0.0,
+"shape": 2.6,
+"other": -0.2
+},
+"tot": 5.4,
+"lev7": -36.1
+},
+{
+"track": "Bassoon 1 stac",
+"a": 356,
+"b": 360,
+"v": 2.6,
+"dom": "shape",
+"c": {
+"att": -0.0,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 2.6,
+"other": 0.0
+},
+"tot": 2.6,
+"lev7": -47.0
+},
+{
+"track": "Flute 1 stac",
+"a": 372,
+"b": 384,
+"v": 3.4,
+"dom": "shape",
+"c": {
+"att": 0.3,
+"hold": -0.0,
+"ntrim": -0.0,
+"rowtrim": -0.0,
+"steady": -0.0,
+"phrase": -0.0,
+"shape": 3.4,
+"other": -0.2
+},
+"tot": 3.5,
+"lev7": -41.4
+}
+]

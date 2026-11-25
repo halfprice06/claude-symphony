@@ -1,0 +1,15 @@
+ALIAS CHECK Cb pedal A (of Double basses): DIFFERS; mix keys differing: none
+  vol: 260 of 560 sounding times differ by over 0.05 dB, e.g. [(663.86, -3.85, -3.61), (663.875, -3.94, -3.76), (663.94, -2.26, 0.81)] (qn, alias, source); largest 5.10 dB
+ALIAS CHECK Cb pedal B (of Double basses): DIFFERS; mix keys differing: none
+  vol: 260 of 558 sounding times differ by over 0.05 dB, e.g. [(663.86, -3.85, -3.61), (663.875, -3.94, -3.76), (663.94, -2.26, 0.81)] (qn, alias, source); largest 5.10 dB
+ALIAS CHECK Vla send35 test (of Violas): OK; mix keys differing: ['send']
+ALIAS CHECK Vla rt3 test (of Violas): OK; mix keys differing: ['rt_gain_db', 'send']
+ALIAS CHECK Vln I mainw test (of Violins I): OK; mix keys differing: ['mics', 'width_by_mic']
+ALIAS CHECK Vln II mainw test (of Violins II): OK; mix keys differing: ['mics', 'width_by_mic']
+ALIAS CHECK Vla mainw test (of Violas): OK; mix keys differing: ['mics', 'width_by_mic']
+ALIAS CHECK Vc mainw test (of Violoncellos): OK; mix keys differing: ['mics', 'width_by_mic']
+ALIAS CHECK Tbn1 mainw test (of Trombone 1): OK; mix keys differing: ['width_by_mic']
+ALIAS CHECK Hn a2 mainw test (of Horns a2): DIFFERS; mix keys differing: ['width_by_mic']
+  cc11: 12 of 186 sounding times differ, e.g. [(310.3508, 72, 74), (310.8721, 72, 74), (312.3934, 72, 74)] (qn, alias, source); largest 2
+ALIAS CHECK Tpt1 mainw test (of Trumpet 1): OK; mix keys differing: ['width_by_mic']
+ALIAS CHECK Hn3 mainw test (of Horn 3): OK; mix keys differing: ['width_by_mic']

@@ -1,0 +1,28 @@
+master cut-offs (qn): [4.93, 20.78, 101.25, 373.0, 661.0, 1112.47]
+  -10 s: [np.float64(0.34), np.float64(0.39), np.float64(0.34), np.float64(0.6), np.float64(0.53), np.float64(0.34)]
+  -20 s: [np.float64(0.69), np.float64(0.67), np.float64(0.67), np.float64(0.92), None, np.float64(0.74)]
+  drop@0.3: [np.float32(7.6), np.float32(8.3), np.float32(8.2), np.float32(-0.3), np.float32(-1.0), np.float32(7.8)]
+  median -20: 0.71
+  soft end Violins I (+R Strings) -10 s: [np.float64(0.43), np.float64(0.83), np.float64(0.44)]
+  soft end Violins II (+R Strings) -10 s: [np.float64(0.5), np.float64(0.97), np.float64(0.4)]
+  soft end Violas (+R Strings) -10 s: [np.float64(0.5), np.float64(0.95), np.float64(0.84)]
+master shares: {'100-250': np.float32(-5.5), '2000-6000': np.float32(-10.3), '6000-20000': np.float32(-25.5)}
+  -10 s: [np.float64(0.34), np.float64(0.39), np.float64(0.34), np.float64(0.6), np.float64(0.53), np.float64(0.34)]
+  -20 s: [np.float64(0.69), np.float64(0.67), np.float64(0.67), np.float64(0.92), None, np.float64(0.74)]
+  drop@0.3: [np.float32(7.6), np.float32(8.3), np.float32(8.2), np.float32(-0.3), np.float32(-1.0), np.float32(7.8)]
+  median -20: 0.71
+Traceback (most recent call last):
+  File "/Users/gooby/sandbox/claude_composes/symphony/mvt3/reaper-v600/cycles/c07/actor_scripts/decay07.py", line 41, in <module>
+    x, _ = sf.read(glob.glob(f"{rd}/[0-9][0-9]_{nm}.wav")[0], dtype="float32")
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+  median -20: 0.71
+master shares: {'100-250': np.float32(-5.5), '2000-6000': np.float32(-10.3), '6000-20000': np.float32(-25.5)}
+  cut    4.93: -20 0.69 s, -60 None s, late slope None s; tail 60-250 Hz share -2.5 dB
+  cut   20.78: -20 0.67 s, -60 None s, late slope None s; tail 60-250 Hz share -4.0 dB
+  cut  101.25: -20 0.67 s, -60 None s, late slope None s; tail 60-250 Hz share -2.6 dB
+  cut  373.00: -20 0.92 s, -60 None s, late slope None s; tail 60-250 Hz share -1.9 dB
+  cut  661.00: -20 4.13 s, -60 None s, late slope None s; tail 60-250 Hz share -3.5 dB
+  cut 1112.47: -20 0.74 s, -60 2.65 s, late slope 1.91 s; tail 60-250 Hz share -7.0 dB
+  RT60 estimate (final cut-off, 2 x T(-5..-35)): 2.3
+  return minus dry energy: None dB

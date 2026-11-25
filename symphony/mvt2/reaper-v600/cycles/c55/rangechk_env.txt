@@ -1,0 +1,38 @@
+range R1 (x0 215.79 s): track  frames  median  p95  max |residual| dB   frames over 0.3 / 1.0 dB
+  Flute 1            360  -0.00   0.06   0.30     1 /   0   predicted change -7.0..+2.7
+  Flute 2            187  +0.00   0.04   0.11     0 /   0   predicted change -2.0..+1.9
+  Oboe 1             338  -0.00   0.05   0.76     4 /   0   predicted change -5.8..+1.8
+  Oboe 2             184  -0.00   0.03   0.19     0 /   0   predicted change -1.7..+1.5
+  Clarinet 1         306  -0.00   0.01   0.09     0 /   0   predicted change -1.9..+1.3
+  Clarinet 2         304  -0.00   0.02   0.75     2 /   0   predicted change -2.7..+6.2
+  Bass clarinet      337  -0.00   0.02   0.07     0 /   0   predicted change -4.7..+1.9
+  Bassoon 1          340  -0.00   0.09   0.36     2 /   0   predicted change -8.1..+4.5
+  Bassoon 2          340  -0.00   0.02   0.15     0 /   0   predicted change -4.2..+5.3
+  Contrabassoon      186  -0.00   0.02   0.10     0 /   0   predicted change -1.6..+1.4
+  Horn 1             338  -0.00   0.12   1.14     3 /   1   predicted change -8.1..+7.4
+  Horn 2             185  -0.00   0.03   0.35     1 /   0   predicted change -3.1..+4.1
+  Horn 3             183  -0.00   0.05   0.28     0 /   0   predicted change -4.4..+5.0
+  Horn 4              88  -0.00   0.00   0.01     0 /   0   predicted change -0.1..+0.1
+  Trombone 1         190  -0.00   0.10   1.00     5 /   0   predicted change -5.0..+3.3
+  Trombone 2         270  -0.00   0.02   0.42     1 /   0   predicted change -1.4..+3.1
+  Bass trombone      454  -0.00   0.02   0.76     3 /   0   predicted change -6.9..+2.6
+  Tuba               266  -0.00   0.02   0.41     1 /   0   predicted change -1.9..+2.6
+  Timpani            243  -0.00   0.04   0.23     0 /   0   predicted change -4.6..+3.9
+  Violins I          484  -0.01   5.17   8.22   203 / 162   predicted change -7.1..+4.4
+  Violins II         591  -6.37  15.31  22.10   336 / 336   predicted change -5.5..+13.4
+  Violas             588  -0.00   0.03   0.50     1 /   0   predicted change -5.1..+4.0
+  Violoncellos       591  -0.00   5.00  10.94   329 / 269   predicted change -7.0..+4.0
+  Double basses      361  +3.92  32.88  44.24   353 / 322   predicted change -5.7..+5.7
+range R3 (x0 320.46 s): track  frames  median  p95  max |residual| dB   frames over 0.3 / 1.0 dB
+  Cor anglais        237  -0.00   0.02   0.48     1 /   0   predicted change -6.7..+2.0
+  Clarinet 1         266  -0.00   0.02   1.49     3 /   1   predicted change -9.4..+4.0
+  Clarinet 2         351  -0.00   0.01   0.02     0 /   0   predicted change -0.2..+3.0
+  Horn 3             267  +0.00   0.01   0.02     0 /   0   predicted change -1.4..+0.5
+  Horn 4             268  -0.00   0.01   0.11     0 /   0   predicted change -1.1..+2.7
+  Violins I          363  +0.00   0.22   1.02    11 /   1   predicted change -9.6..+8.4
+  Violins II         469  -0.00   0.18   1.78     6 /   2   predicted change -12.6..+5.5
+  Violas             460  -0.00   0.18   0.59     9 /   0   predicted change -10.4..+5.6
+  Violoncellos       499  -0.00   0.08   0.71     2 /   0   predicted change -9.6..+9.9
+  Double basses      490  +0.00   0.15   0.54     6 /   0   predicted change -9.7..+9.1
+  Violas div         469  -0.00   0.14   0.76     5 /   0   predicted change -6.4..+5.2
+largest p95: R1 Double basses 32.88, R1 Violins II 15.31, R1 Violins I 5.17, R1 Violoncellos 5.00, R3 Violins I 0.22, R3 Violins II 0.18

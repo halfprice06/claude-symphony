@@ -1,0 +1,143 @@
+{
+ "_doc": "c06 (critic A #2): per-pitch level trims in dB for notes on a legato articulation, {track: {midi pitch: dB}}: sample unevenness by pitch measured at a flat CC11 (Horn 1 F4 +5.0 / Gb4 -5.3 / Ab4 -4.8 dB residual; Cl1 G5 +9.9 / Ab5 -4.6; CA A4 +9.1; Fl1 Gb5 -2.9 with its +10 CC1). Applied in vol_db from 0.1 qn before the score onset with a 0.25 qn ramp, held to the note end. c07: a track entry may carry \"_all_arts\": true to apply its trims to every articulation (Sus chords too), not only legato notes (B #1, #4, #5): Horns 1-4 F4 -5 / Gb4 +4 / Ab4 +3, Double basses Ab1 -5, Bassoon 2 Db3 -5. c08: a value may be {\"early\": dB, \"body\": dB} (early to onset + 0.35 s, then body by + 0.6 s; Horns F4 +1/-5, A #1). \"_arts\": [names] applies a track's trims only to those articulations (plus legato) (Violas/Vc pizz., A #3). \"_all_arts_pitches\": [pitches] trims those pitches on every articulation (Flute 1 G6-Bb6, B #1). Notes longer than 4 qn are trimmed only to onset + 3 qn (Cb Ab1 coda pedals, B #5). c15 (B #3): Flute 1 Bb4 +4, C5 +3, Db5 +3 (theme B low notes 4-6 dB under the F5 on the same CC). c16 (B #5): Bassoon 2 `_skip_onsets` [268]: the Eb3 +6 (measured at soft levels) plus the end of roles [262,268,4] put +8.6 dB on the held Eb3 at the start of the bar 81 decrescendo, level with the tune. v600 port (c27): pitch keys kept; _skip_onsets removed where the note changed: Clarinet 1 204, Bassoon 2 198.",
+ "Horn 1": {
+  "65": {
+   "early": 1,
+   "body": -5
+  },
+  "66": 4,
+  "68": 3,
+  "_all_arts": true,
+  "60": -2,
+  "_skip_onsets": [
+   32.0,
+   182.0,
+   210.0,
+   23.0,
+   37.5
+  ],
+  "61": -2.5
+ },
+ "Clarinet 1": {
+  "79": -6,
+  "80": 5,
+  "68": 6,
+  "_all_arts_pitches": [
+   68,
+   70
+  ],
+  "70": -3,
+  "_skip_onsets": []
+ },
+ "Cor anglais": {
+  "69": -5,
+  "61": 4
+ },
+ "Flute 1": {
+  "78": 4,
+  "84": -3,
+  "89": -2,
+  "90": -3,
+  "91": -4,
+  "92": -2,
+  "93": -2,
+  "94": -4,
+  "_all_arts_pitches": [
+   84,
+   89,
+   90,
+   91,
+   92,
+   93,
+   94
+  ],
+  "70": 4,
+  "72": 3,
+  "73": 3
+ },
+ "Horn 2": {
+  "65": {
+   "early": 1,
+   "body": -5
+  },
+  "66": 4,
+  "68": 3,
+  "_all_arts": true
+ },
+ "Horn 3": {
+  "65": {
+   "early": 1,
+   "body": -5
+  },
+  "66": 4,
+  "68": 3,
+  "_all_arts": true,
+  "_skip_onsets": [
+   262.0,
+   265.0
+  ],
+  "61": -2.5
+ },
+ "Horn 4": {
+  "65": {
+   "early": 1,
+   "body": -5
+  },
+  "66": 4,
+  "68": 3,
+  "_all_arts": true
+ },
+ "Double basses": {
+  "32": -5,
+  "37": -2,
+  "39": 4,
+  "_arts": [
+   "Sus MAX"
+  ]
+ },
+ "Bassoon 2": {
+  "49": -5,
+  "_all_arts": true,
+  "51": 6,
+  "55": 4,
+  "_skip_onsets": [
+   193,
+   256,
+   261,
+   268
+  ]
+ },
+ "Violas": {
+  "65": -8,
+  "66": -2,
+  "54": 4,
+  "58": 3,
+  "_arts": [
+   "Pizz RRx4"
+  ]
+ },
+ "Violoncellos": {
+  "46": -5,
+  "_arts": [
+   "Pizzicato RRx4"
+  ]
+ },
+ "Clarinet 2": {
+  "68": 6,
+  "_all_arts": true,
+  "70": -3
+ },
+ "Bassoon 1": {
+  "51": 6,
+  "55": 4,
+  "_all_arts": true,
+  "61": -5
+ },
+ "Violins I": {
+  "72": -2,
+  "_skip_onsets": [
+   0,
+   292
+  ]
+ }
+}

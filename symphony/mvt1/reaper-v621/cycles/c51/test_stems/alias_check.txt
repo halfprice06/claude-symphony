@@ -1,0 +1,16 @@
+ALIAS CHECK Cb pedal F1 (of Double basses): DIFFERS; mix keys differing: none
+  notes: 40 alias / 40 source notes in the windows; alias only [(660.0, 36, 659.9102, 4.0076, 105), (664.0, 36, 663.9477, 0.3843, 75), (664.5, 36, 664.5, 0.248, 83), (665.0, 36, 664.916, 0.416, 75)], source only [(660.0, 36, 659.9102, 4.0598, 105), (664.0, 36, 664.0, 0.332, 83), (664.5, 36, 664.5, 0.332, 83), (665.0, 36, 665.0, 0.332, 83)]
+  ks: row differs at 12 onsets, first [663.9477, 664.916, 665.916, 666.916]
+  ks: keyswitch events in 613.5-680.0: alias 27 / source 3; first differing ((663.9177, 'Marc Sus LITE'), None)
+  cc1: 1 of 168 sounding times differ, e.g. [(663.9477, 90, 88)] (qn, alias, source); largest 2
+  cc11: 4 of 246 sounding times differ, e.g. [(663.9477, 88, 86), (671.916, 88, 89), (673.916, 101, 100)] (qn, alias, source); largest 2
+  vol: 234 of 494 sounding times differ by over 0.05 dB, e.g. [(663.86, -3.97, -3.76), (663.875, -4.02, -3.83), (663.9, -3.05, -1.55)] (qn, alias, source); largest 4.60 dB
+ALIAS CHECK Cb pedal F2 (of Double basses): DIFFERS; mix keys differing: none
+  notes: 40 alias / 40 source notes in the windows; alias only [(660.0, 36, 659.9102, 4.0206, 105), (664.0, 36, 663.9608, 0.3712, 92), (664.5, 36, 664.5, 0.269, 83), (665.0, 36, 664.937, 0.395, 92)], source only [(660.0, 36, 659.9102, 4.0598, 105), (664.0, 36, 664.0, 0.332, 83), (664.5, 36, 664.5, 0.332, 83), (665.0, 36, 665.0, 0.332, 83)]
+  ks: row differs at 12 onsets, first [663.9608, 664.937, 665.937, 666.937]
+  ks: keyswitch events in 613.5-680.0: alias 27 / source 3; first differing ((663.9308, 'Marc Sus LITE'), None)
+  cc1: 1 of 171 sounding times differ, e.g. [(663.9608, 90, 88)] (qn, alias, source); largest 2
+  cc11: 4 of 249 sounding times differ, e.g. [(663.9608, 88, 86), (671.937, 88, 89), (673.937, 101, 100)] (qn, alias, source); largest 2
+  vol: 244 of 504 sounding times differ by over 0.05 dB, e.g. [(663.86, -3.97, -3.76), (663.875, -4.02, -3.83), (663.9, -3.05, -1.55)] (qn, alias, source); largest 5.11 dB
+ALIAS CHECK Vc macro (of Violoncellos): DIFFERS; mix keys differing: none
+  cc1: 340 of 358 sounding times differ, e.g. [(135.4884, 52, 58), (136.125, 52, 59), (137.0, 53, 59)] (qn, alias, source); largest 57

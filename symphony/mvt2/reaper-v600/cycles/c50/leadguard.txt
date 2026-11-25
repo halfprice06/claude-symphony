@@ -1,0 +1,61 @@
+Flute 1          113.5 lead   30->  90 (r2 lead 90) nb leads [80, 30] | r1 pcx 99 nb [102, 12] spread 87 | r2 pcx 55 nb [67, 12] spread 43 | better
+Flute 1            121 lead   30->  90 (r2 lead 30) nb leads [30, 30] | r1 pcx 117 nb [82, 75] spread 42 | r2 pcx 104 nb [13, 33] spread 91 | notinr2
+Flute 1            200 lead  230-> 130 (r2 lead 230) nb leads [30] | r1 pcx -112 nb [44] spread 156 | r2 pcx -112 nb [44] spread 156 | notinr2
+Oboe 1              57 lead   60-> 140 (r2 lead 140) nb leads [60, 60] | r1 pcx 94 nb [-14, 48] spread 108 | r2 pcx 71 nb [-14, 48] spread 85 | better
+Clarinet 2         246 lead   30->  70 (r2 lead 70) nb leads [150, 70] | r1 pcx 39 nb [37, 52] spread 13 | r2 pcx 2 nb [-37, 14] spread 39 | WORSE
+Bass clarinet       31 lead   90-> 130 (r2 lead 130) nb leads [200, 210] | r1 pcx 60 nb [0, -44] spread 104 | r2 pcx 19 nb [0, -44] spread 63 | better
+Bassoon 1          143 lead   60-> 160 (r2 lead 160) nb leads [60] | r1 pcx 175 nb [9] spread 166 | r2 pcx 89 nb [9] spread 80 | better
+Bassoon 1          253 lead   60-> 140 (r2 lead 60) nb leads [60, 60] | r1 pcx 250 nb [108, 17] spread 233 | r2 pcx 85 nb [108, 17] spread 68 | notinr2
+Horn 1             193 lead  350-> 250 (r2 lead 250) nb leads [100, 100] | r1 pcx -97 nb [133, -3] spread 230 | r2 pcx -67 nb [15, -4] spread 82 | better
+Horn 4             292 lead  100-> 200 (r2 lead 200) nb leads [100] | r1 pcx 137 nb [15] spread 122 | r2 pcx 39 nb [15] spread 24 | ok25
+Violins I         67.5 lead  170-> 110 (r2 lead 110) nb leads [170, 170] | r1 pcx -70 nb [8, 45] spread 115 | r2 pcx -10 nb [8, 45] spread 55 | better
+Violins I           72 lead  170-> 240 (r2 lead 240) nb leads [170, 170] | r1 pcx 72 nb [-7, 44] spread 79 | r2 pcx 17 nb [-7, 44] spread 27 | better
+Violins I           74 lead  170-> 240 (r2 lead 240) nb leads [170, 250] | r1 pcx 66 nb [44, 1] spread 65 | r2 pcx 2 nb [44, 1] spread 42 | better
+Violins I           78 lead  170-> 240 (r2 lead 170) nb leads [170, 210] | r1 pcx 105 nb [-59, 146] spread 164 | r2 pcx 105 nb [-59, 146] spread 164 | notinr2
+Violins I        185.5 lead  170-> 240 (r2 lead 240) nb leads [170, 230] | r1 pcx 95 nb [-32, 110] spread 127 | r2 pcx 27 nb [-21, 53] spread 48 | better
+Violins I        191.5 lead  170-> 110 (r2 lead 170) nb leads [170, 280] | r1 pcx -77 nb [-23, 137] spread 214 | r2 pcx -78 nb [-23, 67] spread 145 | notinr2
+Violins I          192 lead  210-> 280 (r2 lead 280) nb leads [110, 170] | r1 pcx 137 nb [-77, 16] spread 214 | r2 pcx 67 nb [-78, 16] spread 145 | better
+Violins I          199 lead  170-> 250 (r2 lead 170) nb leads [170, 250] | r1 pcx 124 nb [50, -72] spread 196 | r2 pcx 124 nb [51, -72] spread 196 | notinr2
+Violins I          242 lead  170-> 100 (r2 lead 170) nb leads [170, 170] | r1 pcx -78 nb [-28, -50] spread 50 | r2 pcx -78 nb [-28, -50] spread 50 | notinr2
+Violins I          244 lead  170-> 250 (r2 lead 170) nb leads [170, 170] | r1 pcx 84 nb [-50, -13] spread 134 | r2 pcx 84 nb [-50, -13] spread 134 | notinr2
+Violins I          254 lead  170-> 240 (r2 lead 170) nb leads [230, 170] | r1 pcx 122 nb [116, -50] spread 172 | r2 pcx 122 nb [116, -50] spread 172 | notinr2
+Violins I        258.5 lead  170-> 260 (r2 lead 260) nb leads [170, 170] | r1 pcx 211 nb [54, 20] spread 191 | r2 pcx 120 nb [57, 20] spread 100 | better
+Violins II          70 lead  240-> 140 (r2 lead 140) nb leads [252, 70] | r1 pcx -123 nb [-23, 49] spread 172 | r2 pcx -27 nb [-23, 48] spread 75 | better
+Violins II         162 lead  240-> 340 (r2 lead 340) nb leads [240, 300] | r1 pcx 168 nb [82, 30] spread 138 | r2 pcx 67 nb [82, 30] spread 37 | better
+Violins II         168 lead  240-> 310 (r2 lead 240) nb leads [240] | r1 pcx 101 nb [33] spread 68 | r2 pcx 101 nb [33] spread 68 | notinr2
+Violins II       177.5 lead  224-> 304 (r2 lead 304) nb leads [240, 224] | r1 pcx 154 nb [-124, 49] spread 278 | r2 pcx 85 nb [-80, 49] spread 165 | better
+Violins II         181 lead  240-> 150 (r2 lead 240) nb leads [170, 247] | r1 pcx -78 nb [30, 116] spread 194 | r2 pcx -98 nb [30, 19] spread 128 | notinr2
+Violins II     181.333 lead  148-> 247 (r2 lead 247) nb leads [150, 148] | r1 pcx 116 nb [-78, 76] spread 194 | r2 pcx 19 nb [-98, 86] spread 117 | better
+Violins II         182 lead  148-> 247 (r2 lead 247) nb leads [148, 240] | r1 pcx 102 nb [76, 54] spread 48 | r2 pcx 6 nb [86, 54] spread 80 | WORSE
+Violins II         186 lead  220-> 301 (r2 lead 301) nb leads [221, 170] | r1 pcx 85 nb [-3, -67] spread 152 | r2 pcx 20 nb [9, -67] spread 87 | better
+Violins II         199 lead  240-> 330 (r2 lead 240) nb leads [211, 170] | r1 pcx 102 nb [76, -27] spread 129 | r2 pcx 102 nb [76, -27] spread 129 | notinr2
+Violins II         204 lead  230-> 280 (r2 lead 230) nb leads [170, 250] | r1 pcx 83 nb [-27, -49] spread 132 | r2 pcx 83 nb [-27, -49] spread 132 | notinr2
+Violins II         208 lead  170-> 230 (r2 lead 170) nb leads [250, 170] | r1 pcx 123 nb [-49, 82] spread 172 | r2 pcx 123 nb [-49, 82] spread 172 | notinr2
+Violins II         238 lead  240-> 180 (r2 lead 240) nb leads [240, 240] | r1 pcx -61 nb [-34, 5] spread 66 | r2 pcx -61 nb [-34, 5] spread 66 | notinr2
+Violins II         244 lead  240-> 160 (r2 lead 240) nb leads [140, 270] | r1 pcx -133 nb [56, -43] spread 189 | r2 pcx -133 nb [56, -43] spread 189 | notinr2
+Violins II         246 lead  240-> 150 (r2 lead 240) nb leads [270, 170] | r1 pcx -86 nb [-43, -69] spread 43 | r2 pcx -86 nb [-43, -69] spread 43 | notinr2
+Violins II         255 lead  240-> 190 (r2 lead 240) nb leads [250, 170] | r1 pcx -92 nb [42, 19] spread 134 | r2 pcx -92 nb [42, 19] spread 134 | notinr2
+Violas         109.333 lead  225-> 155 (r2 lead 155) nb leads [260, 225] | r1 pcx -67 nb [57, -50] spread 124 | r2 pcx 14 nb [137, 20] spread 123 | better
+Violas             110 lead  225-> 155 (r2 lead 155) nb leads [225, 225] | r1 pcx -70 nb [-50, -56] spread 20 | r2 pcx 9 nb [20, -56] spread 65 | WORSE
+Violas         111.333 lead  225-> 155 (r2 lead 225) nb leads [269, 225] | r1 pcx -67 nb [84, -62] spread 151 | r2 pcx -67 nb [84, -62] spread 151 | notinr2
+Violas             118 lead  225-> 175 (r2 lead 225) nb leads [261, 225] | r1 pcx -80 nb [-71, -4] spread 76 | r2 pcx -80 nb [-71, -4] spread 76 | notinr2
+Violas         193.667 lead  144-> 240 (r2 lead 240) nb leads [144, 144] | r1 pcx 100 nb [-13, 115] spread 113 | r2 pcx 17 nb [-14, 115] spread 98 | better
+Violas         195.333 lead  143-> 203 (r2 lead 203) nb leads [143, 212] | r1 pcx 64 nb [116, 69] spread 52 | r2 pcx 4 nb [88, -1] spread 84 | WORSE
+Violas             247 lead  225-> 145 (r2 lead 225) nb leads [225, 225] | r1 pcx -93 nb [-95, -58] spread 35 | r2 pcx -93 nb [-95, -58] spread 35 | notinr2
+Violas             257 lead  225-> 295 (r2 lead 295) nb leads [225, 200] | r1 pcx 71 nb [50, 150] spread 79 | r2 pcx -1 nb [50, 149] spread 150 | WORSE
+Violoncellos        60 lead  170-> 110 (r2 lead 110) nb leads [220, 220] | r1 pcx -64 nb [34, -10] spread 98 | r2 pcx 0 nb [34, -9] spread 34 | better
+Violoncellos      68.5 lead  220-> 290 (r2 lead 290) nb leads [220, 220] | r1 pcx 109 nb [167, 9] spread 100 | r2 pcx 70 nb [228, 9] spread 158 | WORSE
+Violoncellos        76 lead  220-> 160 (r2 lead 160) nb leads [170, 290] | r1 pcx -71 nb [67, 96] spread 167 | r2 pcx -34 nb [67, 43] spread 101 | better
+Violoncellos        77 lead  220-> 290 (r2 lead 290) nb leads [160, 220] | r1 pcx 96 nb [-71, 25] spread 167 | r2 pcx 43 nb [-34, 25] spread 77 | better
+Violoncellos        81 lead  170-> 110 (r2 lead 170) nb leads [220, 220] | r1 pcx -73 nb [15, -44] spread 88 | r2 pcx -73 nb [15, -44] spread 88 | notinr2
+Violoncellos       145 lead  220-> 170 (r2 lead 220) nb leads [170, 312] | r1 pcx -66 nb [2, 302] spread 368 | r2 pcx -66 nb [2, 231] spread 297 | notinr2
+Violoncellos     145.5 lead  212-> 312 (r2 lead 312) nb leads [170, 212] | r1 pcx 302 nb [-66, 97] spread 368 | r2 pcx 231 nb [-66, 97] spread 297 | better
+Violoncellos       156 lead  220-> 320 (r2 lead 220) nb leads [220] | r1 pcx 118 nb [-19] spread 137 | r2 pcx 118 nb [-19] spread 137 | notinr2
+Violoncellos       184 lead  170-> 230 (r2 lead 170) nb leads [170, 170] | r1 pcx 210 nb [-17, 22] spread 227 | r2 pcx 210 nb [-17, 22] spread 227 | notinr2
+Violoncellos       188 lead  170-> 240 (r2 lead 170) nb leads [170, 170] | r1 pcx 206 nb [22, 41] spread 184 | r2 pcx 206 nb [22, 41] spread 184 | notinr2
+Violoncellos       193 lead  170-> 100 (r2 lead 170) nb leads [220, 220] | r1 pcx -82 nb [56, 72] spread 154 | r2 pcx -83 nb [23, 72] spread 155 | notinr2
+Violoncellos     219.5 lead  220-> 150 (r2 lead 220) nb leads [220] | r1 pcx -74 nb [-47] spread 27 | r2 pcx -74 nb [-47] spread 27 | notinr2
+Violoncellos       244 lead  220-> 140 (r2 lead 220) nb leads [220, 370] | r1 pcx -101 nb [-42, 14] spread 115 | r2 pcx -101 nb [-42, 14] spread 115 | notinr2
+Violoncellos       261 lead  170-> 250 (r2 lead 170) nb leads [170, 170] | r1 pcx 105 nb [-79, 20] spread 184 | r2 pcx 105 nb [-79, 20] spread 184 | notinr2
+Violoncellos       292 lead  220-> 150 (r2 lead 220) nb leads [220] | r1 pcx -71 nb [-12] spread 59 | r2 pcx -71 nb [-12] spread 59 | notinr2
+Violas div         286 lead  200-> 280 (r2 lead 280) nb leads [200] | r1 pcx 93 nb [139] spread 46 | r2 pcx 13 nb [139] spread 126 | WORSE

@@ -1,0 +1,56 @@
+== staccato separation
+Violins I 0-1128: 54 pairs, separation median 4.0 dB, p10 0.0; 60 ms peak median -42.7
+Violins II 0-1128: 32 pairs, separation median 6.6 dB, p10 3.5; 60 ms peak median -35.3
+Violas 0-1128: 21 pairs, separation median 6.8 dB, p10 2.1; 60 ms peak median -49.1
+Violoncellos 0-1128: 23 pairs, separation median 3.9 dB, p10 1.4; 60 ms peak median -44.7
+/Users/gooby/.venvs/claude-composes-reaper/lib/python3.14/site-packages/numpy/_core/fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/Users/gooby/.venvs/claude-composes-reaper/lib/python3.14/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Double basses 0-1128: 0 pairs, separation median nan dB, p10 nan; 60 ms peak median nan
+Violins I 36-84: 7 pairs, separation median 5.0 dB, p10 3.5; 60 ms peak median -47.5
+Violins I 84-132: 7 pairs, separation median 0.7 dB, p10 -0.3; 60 ms peak median -49.4
+Violins I 312-360: 7 pairs, separation median 5.0 dB, p10 1.0; 60 ms peak median -36.8
+Violins I 756-828: 10 pairs, separation median 4.4 dB, p10 2.5; 60 ms peak median -43.8
+Violins I 912-960: 7 pairs, separation median 4.7 dB, p10 0.8; 60 ms peak median -36.5
+Violins I 972-1017: 7 pairs, separation median 3.1 dB, p10 0.7; 60 ms peak median -37.1
+== Detache pairs (Violins I)
+Violins I pairs: median -4.5, min -13.5, worst-of-pair median -7.6
+Violins I pairs 18: trough inside the slur median 4.1 dB, pair-to-next 5.0, second note's peak +0.005 s from its beat
+== accents
+Flute 1 36-1020: 36 accents; first 100 ms vs neighbours median +1.4, front-body -1.9, peak at 0.07 s
+Flute 2 36-1020: 10 accents; first 100 ms vs neighbours median +0.4, front-body -2.0, peak at 0.06 s
+Oboe 1 36-1020: 28 accents; first 100 ms vs neighbours median -1.8, front-body +2.1, peak at 0.27 s
+Cor anglais 36-1020: 29 accents; first 100 ms vs neighbours median -1.6, front-body -2.9, peak at 0.21 s
+Clarinet 2 36-1020: 18 accents; first 100 ms vs neighbours median -0.4, front-body +1.1, peak at 0.31 s
+Violins I 36-1020: 47 accents; first 100 ms vs neighbours median -0.7, front-body -2.0, peak at 0.14 s
+/Users/gooby/.venvs/claude-composes-reaper/lib/python3.14/site-packages/numpy/_core/fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/Users/gooby/.venvs/claude-composes-reaper/lib/python3.14/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Violins II 36-1020: 42 accents; first 100 ms vs neighbours median -2.7, front-body -0.1, peak at 0.26 s
+/Users/gooby/.venvs/claude-composes-reaper/lib/python3.14/site-packages/numpy/_core/fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/Users/gooby/.venvs/claude-composes-reaper/lib/python3.14/site-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Violas 36-1020: 35 accents; first 100 ms vs neighbours median -0.6, front-body +1.9, peak at 0.14 s
+Violoncellos 36-1020: 28 accents; first 100 ms vs neighbours median +0.1, front-body -0.7, peak at 0.04 s
+== legato swell
+Violins I 0-1128: 53 joins; median crest +3.4, sag -2.9, late -1.4, swell vs louder +2.8 (over 6: 0), holes over 5: 7
+Violins II 0-1128: 42 joins; median crest +3.0, sag -3.4, late +0.6, swell vs louder +2.4 (over 6: 1), holes over 5: 11
+Violas 0-1128: 46 joins; median crest +2.8, sag -4.2, late +1.4, swell vs louder +1.4 (over 6: 6), holes over 5: 19
+Violoncellos 0-1128: 112 joins; median crest +3.4, sag -4.4, late +0.3, swell vs louder +1.8 (over 6: 3), holes over 5: 51
+/Users/gooby/sandbox/claude_composes/symphony/scherzo/reaper-v600/cycles/c23/actor_scripts/rt23.py:132: RuntimeWarning: All-NaN slice encountered
+  md = lambda c: np.nanmedian(a_[:, c])
+Violin I solo 0-1128: 4 joins; median crest +3.2, sag -1.0, late +nan, swell vs louder +6.1 (over 6: 2), holes over 5: 1
+/Users/gooby/sandbox/claude_composes/symphony/scherzo/reaper-v600/cycles/c23/actor_scripts/rt23.py:132: RuntimeWarning: All-NaN slice encountered
+  md = lambda c: np.nanmedian(a_[:, c])
+Violas div 0-1128: 2 joins; median crest +4.0, sag -2.6, late +nan, swell vs louder +5.0 (over 6: 1), holes over 5: 0
+== notes
+Violins I 999: -33.0 dB, neighbours -30.0 -> -3.0; 0.3 s -32.4
+Violoncellos 975: -46.8 dB, neighbours -46.6 -> -0.1; 0.3 s -46.8
+Oboe 1 111: -48.9 dB, neighbours -41.8 -> -7.2; 0.3 s -48.9
+Oboe 1 276: -52.2 dB, neighbours -50.6 -> -1.6; 0.3 s -52.2
+Clarinet 1 640: -38.5 dB, neighbours -40.9 -> +2.4; 0.3 s -38.5
+  540:-39.5 546:-45.5
+Violoncellos 504-552: 28 bodies, range 12.1, std 2.5, step median 2.3, steps over 4 dB 7

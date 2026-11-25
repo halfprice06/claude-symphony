@@ -1,0 +1,120 @@
+state_check: cycles/c50/render (cycles/c50/rendered_build) -> cycles/c52/render (build); flag |level| > 3.0 dB or |pcX| > 30.0 ms on notes whose data did not change
+Flute 1            compared    0  flagged   0  state runs 0  timing runs 0
+Flute 2            compared    1  flagged   1  state runs 0  timing runs 0
+     268.000 p 88 Sus MAX                level  -7.82 dB  eq +0.00  pcX     -5 ms
+Oboe 1             compared    0  flagged   0  state runs 0  timing runs 0
+Oboe 2             compared    1  flagged   0  state runs 0  timing runs 0
+Cor anglais        compared    0  flagged   0  state runs 0  timing runs 0
+Clarinet 1         compared    0  flagged   0  state runs 0  timing runs 0
+Clarinet 2         compared    7  flagged   4  state runs 1  timing runs 0
+     261.000 p 67 Sus Non Vib            level  +4.41 dB  eq +0.00  pcX    n/a ms
+     262.000 p 65 Sus Non Vib            level +12.53 dB  eq +0.00  pcX    -28 ms
+     263.000 p 73 Sus Non Vib            level  +3.90 dB  eq +0.00  pcX    +99 ms
+     269.000 p 67 Sus Non Vib            level  -3.30 dB  eq +0.00  pcX    +61 ms
+  RUN Clarinet 2: qn 261.00-263.00, 3 notes, level median +4.4 dB, pcX median +36 ms
+Bass clarinet      compared    6  flagged   2  state runs 0  timing runs 0
+     102.000 p 44 Leg Slur               level  +6.36 dB  eq +0.00  pcX   +132 ms
+     194.000 p 44 Sus Non Vib            level  +7.66 dB  eq +0.00  pcX    -34 ms
+Bassoon 1          compared    1  flagged   1  state runs 0  timing runs 0
+     108.000 p 53 Sus MAX                level  +5.11 dB  eq +0.00  pcX    n/a ms
+Bassoon 2          compared    6  flagged   3  state runs 0  timing runs 0
+     148.000 p 44 Leg Slur MAX           level  +2.69 dB  eq +0.00  pcX   -106 ms
+     194.000 p 44 Sus MAX                level  +7.35 dB  eq +0.00  pcX    n/a ms
+     268.000 p 51 Sus MAX                level  -0.66 dB  eq +0.00  pcX   -132 ms
+Contrabassoon      compared    1  flagged   1  state runs 0  timing runs 0
+     271.000 p 32 Sus MAX                level -14.69 dB  eq +0.00  pcX    n/a ms
+Horn 1             compared    0  flagged   0  state runs 0  timing runs 0
+Horn 2             compared    0  flagged   0  state runs 0  timing runs 0
+Horn 3             compared    1  flagged   0  state runs 0  timing runs 0
+Horn 4             compared    2  flagged   0  state runs 0  timing runs 0
+Trombone 1         compared    0  flagged   0  state runs 0  timing runs 0
+Trombone 2         compared    1  flagged   0  state runs 0  timing runs 0
+Bass trombone      compared    3  flagged   3  state runs 0  timing runs 0
+     210.000 p 40 Sus MAX                level  -3.63 dB  eq +0.00  pcX    n/a ms
+     216.000 p 45 Sus MAX                level -17.37 dB  eq +0.00  pcX    n/a ms
+     219.000 p 40 Sus MAX                level -12.45 dB  eq +0.00  pcX    -94 ms
+Tuba               compared    2  flagged   2  state runs 0  timing runs 0
+     208.000 p 30 Sus MAX                level  +4.81 dB  eq +0.00  pcX    n/a ms
+     210.000 p 28 Sus MAX                level  -4.18 dB  eq +0.00  pcX    n/a ms
+Timpani            compared    1  flagged   0  state runs 0  timing runs 0
+Violins I          compared    5  flagged   1  state runs 0  timing runs 0
+     216.000 p 88 Tremolo                level -22.81 dB  eq +0.00  pcX    -27 ms
+Violins II         compared    3  flagged   0  state runs 0  timing runs 0
+Violas             compared   49  flagged  49  state runs 1  timing runs 1
+      46.500 p 60 Leg Slur MAX           level  +5.27 dB  eq +0.00  pcX    +45 ms
+     124.333 p 53 Pizz RRx4              level  -5.24 dB  eq +0.00  pcX   -197 ms
+     125.333 p 49 Pizz RRx4              level  -4.79 dB  eq +0.00  pcX    +72 ms
+     154.500 p 57 Detache                level  -6.45 dB  eq +0.00  pcX   -241 ms
+     165.500 p 63 Detache                level  +0.09 dB  eq +0.00  pcX   -131 ms
+     196.500 p 58 Sus MAX                level +10.76 dB  eq +0.00  pcX   +108 ms
+     196.667 p 54 Sus MAX                level +15.25 dB  eq +0.00  pcX    +55 ms
+     196.833 p 58 Sus MAX                level  +9.01 dB  eq +0.00  pcX    +95 ms
+     197.000 p 63 Sus MAX                level +10.55 dB  eq +0.00  pcX   -106 ms
+     197.167 p 58 Sus MAX                level  +4.03 dB  eq +0.00  pcX    +52 ms
+     197.333 p 54 Sus MAX                level  +8.13 dB  eq +0.00  pcX    +60 ms
+     197.500 p 58 Sus MAX                level  +8.15 dB  eq +0.00  pcX    n/a ms
+     197.667 p 63 Sus MAX                level  +9.80 dB  eq +0.00  pcX    +35 ms
+     197.833 p 58 Sus MAX                level  +5.37 dB  eq +0.00  pcX    +49 ms
+     198.000 p 58 Sus MAX                level  +4.88 dB  eq +0.00  pcX    n/a ms
+     198.167 p 61 Sus MAX                level  +6.28 dB  eq +0.00  pcX    -84 ms
+     198.333 p 63 Sus MAX                level  +0.67 dB  eq +0.00  pcX    +47 ms
+     198.500 p 61 Sus MAX                level  +1.73 dB  eq +0.00  pcX    +88 ms
+     198.667 p 58 Sus MAX                level  +9.48 dB  eq +0.00  pcX    -39 ms
+     198.833 p 61 Sus MAX                level  +5.93 dB  eq +0.00  pcX    -48 ms
+     199.000 p 64 Sus MAX                level  +2.86 dB  eq +0.00  pcX   +122 ms
+     199.167 p 61 Sus MAX                level  +7.03 dB  eq +0.00  pcX   +141 ms
+     199.333 p 58 Sus MAX                level  +9.53 dB  eq +0.00  pcX    -58 ms
+     199.500 p 61 Sus MAX                level  +4.98 dB  eq +0.00  pcX     +1 ms
+     199.667 p 64 Sus MAX                level  +5.70 dB  eq +0.00  pcX   +109 ms
+     199.833 p 61 Sus MAX                level +11.41 dB  eq +0.00  pcX     +5 ms
+     200.000 p 56 Sus MAX                level  +1.38 dB  eq +0.00  pcX    +65 ms
+     200.167 p 60 Sus MAX                level  +5.78 dB  eq +0.00  pcX    +94 ms
+     200.333 p 63 Sus MAX                level  +5.85 dB  eq +0.00  pcX    -36 ms
+     200.500 p 60 Sus MAX                level  +6.24 dB  eq +0.00  pcX    n/a ms
+     200.667 p 56 Sus MAX                level  +9.89 dB  eq +0.00  pcX   +116 ms
+     200.833 p 60 Sus MAX                level  +8.86 dB  eq +0.00  pcX    -53 ms
+     201.000 p 63 Sus MAX                level  +4.57 dB  eq +0.00  pcX    +67 ms
+     201.167 p 60 Sus MAX                level  +1.93 dB  eq +0.00  pcX    +69 ms
+     201.333 p 56 Sus MAX                level  +6.30 dB  eq +0.00  pcX    -46 ms
+     201.500 p 60 Sus MAX                level  +7.66 dB  eq +0.00  pcX   -225 ms
+     201.667 p 63 Sus MAX                level  +4.97 dB  eq +0.00  pcX    +38 ms
+     201.833 p 60 Sus MAX                level  +3.64 dB  eq +0.00  pcX    -64 ms
+     202.000 p 54 Sus MAX                level  +5.44 dB  eq +0.00  pcX   +130 ms
+     202.167 p 60 Sus MAX                level  +6.78 dB  eq +0.00  pcX    +75 ms
+     202.333 p 63 Sus MAX                level  +5.08 dB  eq +0.00  pcX   +121 ms
+     202.500 p 60 Sus MAX                level  +1.90 dB  eq +0.00  pcX   +119 ms
+     202.667 p 54 Sus MAX                level  +5.15 dB  eq +0.00  pcX    +20 ms
+     202.833 p 60 Sus MAX                level  +7.68 dB  eq +0.00  pcX   +101 ms
+     203.000 p 54 Sus MAX                level  +7.21 dB  eq +0.00  pcX   -141 ms
+     203.167 p 60 Sus MAX                level  +7.24 dB  eq +0.00  pcX    -80 ms
+     203.333 p 63 Sus MAX                level  +4.89 dB  eq +0.00  pcX    -81 ms
+     203.500 p 66 Sus MAX                level  +8.29 dB  eq +0.00  pcX    -25 ms
+     268.000 p 67 Sus MAX                level  +4.43 dB  eq +0.00  pcX   +124 ms
+  RUN Violas: qn 196.50-203.50, 37 notes, level median +6.8 dB, pcX median +28 ms
+  timing run Violas: qn 198.33-202.50, 6 notes, level median +1.8 dB, pcX median +78 ms
+Violoncellos       compared    1  flagged   1  state runs 0  timing runs 0
+     216.000 p 45 Tremolo                level -21.98 dB  eq +0.00  pcX    n/a ms
+Double basses      compared   20  flagged  16  state runs 1  timing runs 0
+     112.000 p 34 Pizz RRx4              level +13.67 dB  eq +0.00  pcX    n/a ms
+     114.000 p 30 Pizz RRx4              level +16.68 dB  eq +0.00  pcX    n/a ms
+     116.000 p 39 Pizz RRx4              level +22.80 dB  eq +0.00  pcX    -79 ms
+     118.000 p 36 Pizz RRx4              level +19.16 dB  eq +0.00  pcX    +75 ms
+     120.000 p 33 Pizz RRx4              level +14.77 dB  eq +0.00  pcX    n/a ms
+     122.000 p 34 Pizz RRx4              level  +7.73 dB  eq +0.00  pcX    -34 ms
+     124.000 p 41 Pizz RRx4              level +15.75 dB  eq +0.00  pcX    -20 ms
+     126.000 p 42 Pizz RRx4              level +17.61 dB  eq +0.00  pcX    n/a ms
+     127.000 p 30 Pizz RRx4              level +36.40 dB  eq +0.00  pcX    -38 ms
+     128.000 p 34 Pizz RRx4              level  +3.65 dB  eq +0.00  pcX    n/a ms
+     130.000 p 32 Pizz RRx4              level  +9.20 dB  eq +0.00  pcX    n/a ms
+     131.000 p 37 Pizz RRx4              level  +8.31 dB  eq +0.00  pcX     -7 ms
+     133.000 p 34 Pizz RRx4              level  +4.54 dB  eq +0.00  pcX     -3 ms
+     134.000 p 32 Pizz RRx4              level +14.86 dB  eq +0.00  pcX    n/a ms
+     192.000 p 34 Sus MAX                level  +5.20 dB  eq +0.00  pcX    +97 ms
+     218.000 p 38 Sus MAX                level  +4.34 dB  eq +0.00  pcX    -45 ms
+  RUN Double basses: qn 112.00-134.00, 14 notes, level median +14.8 dB, pcX median -20 ms
+Violin I solo      compared    0  flagged   0  state runs 0  timing runs 0
+Violoncellos div   compared    0  flagged   0  state runs 0  timing runs 0
+Violins II div     compared    0  flagged   0  state runs 0  timing runs 0
+Violas div         compared    0  flagged   0  state runs 0  timing runs 0
+Horns 1-2 a2       compared    1  flagged   1  state runs 0  timing runs 0
+     271.000 p 60 Leg Slur MAX           level -16.19 dB  eq +0.00  pcX    n/a ms

@@ -1,0 +1,1104 @@
+{
+ "_doc": "c08 (critic A #1): early fills for legato targets whose samples sag 5-12 dB for their first 0.3 s at a flat CC11. {track: {score onset qn: dB}}: vol_db ramps 0 at onset - 0.02 qn to +dB at onset + 0.05 s, holds to + 0.35 s, back to 0 by + 0.6 s. Value = measured sag - 2, capped at 8. c09 (A #1): Ob1 55.5/57/271, CA 99/129.5/133.5, Fl1 190/252 added and Fl1 256 3 -> 5 (transition-sample holes of 8-10 dB at 1-2 semitone slurred steps, dB = pre-envelope dip - 3). c10 (A #2, A #4): a value may be {\"db\", \"pre_s\"}: 0 at onset - pre_s - 0.03 s, +db at onset - pre_s, held to onset + 0.10 s, 0 by + 0.35 s (holes that start before the score onset); its breakpoints are written exactly (parts.json vol_bp). Cl1 266, Fl1 270.5, Hn1 203 (pre_s), BCl 92.5, Ob1 270/142, CA 132, CA 133.5 4 -> 6; strings Vla 244/245.5/254.5, Vln II 59/60, Vc 77/86, Vln I 67.5. c11 (A #2, C #2): a dict value may carry \"hold_s\" (default 0.10): +db held to onset + hold_s, 0 by onset + hold_s + 0.25 s (holes longer than 0.10 s); pre_s defaults to 0. Bn1 231/262/269, Hn1 203 hold, Vln I 71/80/86, Vln II 65/66, CA 129.5/168, Ob1 142.5, Cl1 184/186, Vla 251.5; Horn 3 204 and Horn 2 210 (slow Ab4 Sus MAX attacks). After the c11 render: Horn 3 204 8 -> {8, hold 0.10} and Horn 2 210 6 -> {5, hold 0.22} (the plain 0.35 s hold put both 4-10 dB over their body at +0.3..+0.45 s, where the samples swell by themselves); applied to the rendered stems as a post-render envelope fix. c15 (A #2): Vc cantabile targets 74/75/246/247/249 (5-8 dB holes for 0.5 s, about 80% of the hole). c16: Ob1 271 7 -> 3 (B #1). c16 (C #2): tools/auto_fills.py 15 <c15 parts.json> measured every lead-line legato join on the c15 stems and wrote 110 entries (88 new, 22 raised); each is listed in its track's \"_auto\" key. Excluded: Ob1 271 (B #1 sets it to 3), Fl1 271 and Ob1 145.5 (B #1/#2 note trims).",
+ "Flute 1": {
+  "111": 8,
+  "118": 6,
+  "132": {
+   "db": 8.0,
+   "pre_s": 0.0,
+   "hold_s": 0.26
+  },
+  "134": 5,
+  "189": 6,
+  "198": 4,
+  "250": 4,
+  "256": {
+   "db": 4.0,
+   "pre_s": 0.04,
+   "hold_s": 0.1
+  },
+  "190": {
+   "db": 3.6,
+   "pre_s": 0.08,
+   "hold_s": 0.1
+  },
+  "252": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "270.5": {
+   "db": 3.5,
+   "pre_s": 0.06
+  },
+  "112": {
+   "db": 3.4,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "_auto": {
+   "112": "c18 raised (dip 4.1 dB at +0.04 s)",
+   "119": "c16 new (dip 6.5 dB at +0.36 s)",
+   "120": "c16 new (dip 7.4 dB at +0.13 s)",
+   "122": "c16 new (dip 5.5 dB at -0.07 s)",
+   "128": "c23 lowered (over 2.2 dB)",
+   "129.5": "c21 lowered by hand (critic A #2); auto_fills must not raise it",
+   "132": "c16 raised (dip 5.2 dB at +0.21 s)",
+   "135": "c16 new (dip 6.6 dB at +0.16 s)",
+   "190": "c17 lowered (over 5.4 dB)",
+   "191.5": "c16 new (dip 5.2 dB at +0.24 s)",
+   "192": "c16 new (dip 5.7 dB at +0.27 s)",
+   "193": "c21 lowered by hand (critic A #2 / B #2); auto_fills must not raise it",
+   "193.5": "c21 removed (over 2.0 dB)",
+   "194": "c21 lowered by hand (critic A #2 / B #2); auto_fills must not raise it",
+   "195.5": "c16 new (dip 5.8 dB at +0.14 s)",
+   "196": "c16 new (dip 7.7 dB at +0.14 s)",
+   "197.5": "c18 removed (over 2.7 dB)",
+   "200": "c20 removed (over 2.5 dB)",
+   "252": "c18 lowered (critic A #5, +4.9 over at 200 ms)",
+   "255": "c17 removed (over 6.1 dB)",
+   "256": "c17 lowered (over 5.0 dB)",
+   "257.5": "c20 lowered by hand (critic B #4: Fl1 p eighths 5-7 dB over the mp Vln I tune); auto_fills must not raise it",
+   "258.5": "c20 lowered by hand (critic B #4); auto_fills must not raise it",
+   "266": "c17 removed (over 9.7 dB)",
+   "270.5": "c17 lowered (over 2.5 dB)"
+  },
+  "119": {
+   "db": 3.5,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "120": {
+   "db": 4.4,
+   "pre_s": 0.0,
+   "hold_s": 0.18
+  },
+  "122": {
+   "db": 2.5,
+   "pre_s": 0.07,
+   "hold_s": 0.1
+  },
+  "128": {
+   "db": 2.3,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "129.5": {
+   "db": 2.5,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "135": {
+   "db": 3.6,
+   "pre_s": 0.0,
+   "hold_s": 0.21
+  },
+  "191.5": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.29
+  },
+  "192": {
+   "db": 2.7,
+   "pre_s": 0.0,
+   "hold_s": 0.32
+  },
+  "193": {
+   "db": 3.0,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "194": {
+   "db": 2.0,
+   "pre_s": 0.0,
+   "hold_s": 0.29
+  },
+  "195.5": {
+   "db": 2.8,
+   "pre_s": 0.0,
+   "hold_s": 0.19
+  },
+  "196": {
+   "db": 4.7,
+   "pre_s": 0.0,
+   "hold_s": 0.19
+  },
+  "257.5": {
+   "db": 2.0,
+   "pre_s": 0.02,
+   "hold_s": 0.1
+  },
+  "258.5": {
+   "db": 2.5,
+   "pre_s": 0.0,
+   "hold_s": 0.23
+  }
+ },
+ "Oboe 1": {
+  "47": 4,
+  "56": {
+   "db": 7.6,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "59": {
+   "db": 5.6,
+   "pre_s": 0.0,
+   "hold_s": 0.16
+  },
+  "140": 4.2,
+  "143": {
+   "db": 3.3,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "189": 4.0,
+  "262": 3,
+  "270.5": {
+   "db": 7.0,
+   "pre_s": 0.0,
+   "hold_s": 0.22
+  },
+  "55.5": 7,
+  "57": {
+   "db": 6.9,
+   "pre_s": 0.0,
+   "hold_s": 0.17
+  },
+  "271": {
+   "db": 3.2,
+   "pre_s": 0.0,
+   "hold_s": 0.22
+  },
+  "270": {
+   "db": 7.0,
+   "pre_s": 0.0,
+   "hold_s": 0.15
+  },
+  "142": 4,
+  "142.5": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.28
+  },
+  "145": {
+   "db": 2.0,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "43.5": {
+   "db": 2.3,
+   "pre_s": 0.0,
+   "hold_s": 0.19
+  },
+  "_auto": {
+   "43.5": "c16 new (dip 5.3 dB at +0.14 s)",
+   "45": "c19 lowered (over 2.5 dB)",
+   "55": "c16 new (dip 6.1 dB at +0.14 s)",
+   "57": "c17 lowered (over 2.1 dB)",
+   "59": "c16 raised (dip 5.6 dB at +0.11 s)",
+   "143": "c25 raised (dip 4.1 dB at +0.02 s)",
+   "146": "c16 new (dip 5.2 dB at +0.06 s)",
+   "190": "c17 lowered (over 2.3 dB)",
+   "196": "c20 raised (dip 4.9 dB at -0.06 s)",
+   "198": "c16 new (dip 7.1 dB at -0.02 s)",
+   "200": "c18 raised (dip 4.4 dB at +0.23 s)",
+   "266": "c16 new (dip 5.9 dB at +0.07 s)",
+   "269": "c16 new (dip 6.0 dB at +0.35 s)",
+   "270": "c16 raised (dip 7.5 dB at +0.10 s)",
+   "270.5": "c16 raised (dip 7.0 dB at +0.17 s)",
+   "145": "c21 lowered by hand (critic A #2: fill sat on a transition peak); auto_fills must not raise it",
+   "193": "c18 new (dip 4.4 dB at +0.09 s)",
+   "140": "c19 lowered (over 2.8 dB)",
+   "189": "c19 lowered (over 3.0 dB)",
+   "271": "c19 raised (dip 4.2 dB at +0.17 s)",
+   "56": "c20 raised (dip 4.6 dB at +0.01 s)"
+  },
+  "45": {
+   "db": 0.8,
+   "pre_s": 0.0,
+   "hold_s": 0.33
+  },
+  "55": {
+   "db": 3.1,
+   "pre_s": 0.0,
+   "hold_s": 0.19
+  },
+  "146": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.11
+  },
+  "190": {
+   "db": 4.7,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "196": {
+   "db": 4.5,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "198": {
+   "db": 4.1,
+   "pre_s": 0.02,
+   "hold_s": 0.1
+  },
+  "200": {
+   "db": 2.9,
+   "pre_s": 0.0,
+   "hold_s": 0.28
+  },
+  "266": {
+   "db": 2.9,
+   "pre_s": 0.0,
+   "hold_s": 0.12
+  },
+  "269": {
+   "db": 3.0,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "193": {
+   "db": 1.4,
+   "pre_s": 0.0,
+   "hold_s": 0.14
+  }
+ },
+ "Cor anglais": {
+  "98": {
+   "db": 6.2,
+   "pre_s": 0.0,
+   "hold_s": 0.11
+  },
+  "134": {
+   "db": 3.0,
+   "pre_s": 0.0,
+   "hold_s": 0.32
+  },
+  "135": {
+   "db": 6.6,
+   "pre_s": 0.0,
+   "hold_s": 0.13
+  },
+  "136": 5,
+  "99": {
+   "db": 5.6,
+   "pre_s": 0.0,
+   "hold_s": 0.19
+  },
+  "129.5": {
+   "db": 7,
+   "pre_s": 0.03
+  },
+  "133.5": {
+   "db": 7.2,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "132": {
+   "db": 4.0,
+   "pre_s": 0.0,
+   "hold_s": 0.3
+  },
+  "168": {
+   "db": 4,
+   "pre_s": 0,
+   "hold_s": 0.22
+  },
+  "97": {
+   "db": 1.1,
+   "pre_s": 0,
+   "hold_s": 0.25
+  },
+  "126": {
+   "db": 6.7,
+   "pre_s": 0.0,
+   "hold_s": 0.15
+  },
+  "128": {
+   "db": 3.9,
+   "pre_s": 0,
+   "hold_s": 0.3
+  },
+  "129": {
+   "db": 5.3,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "131.5": {
+   "db": 8.0,
+   "pre_s": 0.0,
+   "hold_s": 0.12
+  },
+  "_auto": {
+   "98": "c16 raised (dip 6.2 dB at +0.06 s)",
+   "99": "c17 lowered (over 3.0 dB)",
+   "125": "c16 new (dip 6.1 dB at +0.04 s)",
+   "126": "c16 raised (dip 5.7 dB at +0.10 s)",
+   "129": "c16 raised (dip 5.3 dB at +0.04 s)",
+   "131.5": "c16 raised (dip 8.4 dB at +0.07 s)",
+   "132": "c19 shape",
+   "133.5": "c16 raised (dip 5.2 dB at +0.04 s)",
+   "134": "c19 shape",
+   "135": "c16 raised (dip 6.6 dB at +0.08 s)",
+   "152": "c18 lowered (over 2.2 dB)",
+   "163": "c16 new (dip 5.4 dB at +0.40 s)",
+   "97": "c18 lowered (critic A #5)",
+   "128": "c17 lowered (over 2.1 dB)",
+   "130": "c18 new (dip 4.3 dB at +0.08 s)"
+  },
+  "125": {
+   "db": 3.1,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "152": {
+   "db": 0.5,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "163": {
+   "db": 2.4,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "130": {
+   "db": 1.3,
+   "pre_s": 0.0,
+   "hold_s": 0.13
+  }
+ },
+ "Clarinet 1": {
+  "252": 4,
+  "266": {
+   "db": 1.5,
+   "pre_s": 0.1,
+   "hold_s": 0.1
+  },
+  "184": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.16
+  },
+  "186": {
+   "db": 5.0,
+   "pre_s": 0,
+   "hold_s": 0.35
+  },
+  "176": 4,
+  "182": {
+   "db": 3.1,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "_auto": {
+   "182": "c16 new (dip 6.1 dB at +0.38 s)",
+   "186": "c16 raised (dip 5.0 dB at +0.31 s)",
+   "251.5": "c16 new (dip 6.6 dB at +0.04 s)",
+   "257.5": "c16 new (dip 6.0 dB at +0.32 s)",
+   "266": "c21 lowered (over 3.6 dB)",
+   "269.5": "c17 raised (dip 5.5 dB at +0.29 s)",
+   "178": "c22 lowered (over 3.9 dB)",
+   "256": "c18 removed (over 4.9 dB)",
+   "258.5": "c19 removed (over 2.7 dB)",
+   "283": "c19 lowered (over 2.4 dB)"
+  },
+  "251.5": {
+   "db": 3.6,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "257.5": {
+   "db": 3.0,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "269.5": {
+   "db": 5.4,
+   "pre_s": 0.0,
+   "hold_s": 0.34
+  },
+  "283": {
+   "db": 1.0,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "178": {
+   "db": 0.3,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  }
+ },
+ "Bassoon 1": {
+  "264": 4,
+  "267": 3,
+  "231": {
+   "db": 7,
+   "pre_s": 0,
+   "hold_s": 0.4
+  },
+  "262": 5,
+  "269": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.28
+  }
+ },
+ "Horn 1": {
+  "39": 4,
+  "176": 5,
+  "184": {
+   "db": 4.0,
+   "pre_s": 0.02,
+   "hold_s": 0.1
+  },
+  "188": 4,
+  "199": 4,
+  "203": {
+   "db": 5,
+   "pre_s": 0.1,
+   "hold_s": 0.42
+  },
+  "22": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.14
+  },
+  "_auto": {
+   "22": "c16 new (dip 5.1 dB at +0.09 s)",
+   "24": "c16 new (dip 5.4 dB at +0.08 s)",
+   "37.5": "c20 raised (dip 5.2 dB at +0.17 s)",
+   "184": "c16 raised (dip 5.0 dB at -0.02 s)",
+   "195": "c16 new (dip 5.0 dB at +0.13 s)",
+   "200": "c16 new (dip 7.0 dB at +0.40 s)",
+   "201": "c16 new (dip 6.9 dB at +0.10 s)",
+   "231": "c16 new (dip 5.4 dB at +0.08 s)",
+   "263": "c16 new (dip 5.1 dB at +0.05 s)",
+   "267": "c16 new (dip 6.9 dB at +0.24 s)",
+   "269": "c16 new (dip 8.1 dB at +0.16 s)",
+   "271": "c16 new (dip 5.1 dB at +0.05 s)",
+   "27": "c18 new (dip 5.4 dB at +0.14 s)",
+   "180": "c22 lowered by hand: 4.2 -> 2.5 (spike +5.0 with the B #4 lift)",
+   "202": "c22 lowered by hand: 8.0 -> 6.5 (spike +5.4 after the c21 raise)",
+   "36": "c19 new (dip 5.1 dB at +0.31 s)",
+   "26": "c25 new (dip 6.5 dB at +0.17 s)"
+  },
+  "24": {
+   "db": 2.4,
+   "pre_s": 0.0,
+   "hold_s": 0.13
+  },
+  "37.5": {
+   "db": 3.8,
+   "pre_s": 0.0,
+   "hold_s": 0.22
+  },
+  "195": {
+   "db": 2.0,
+   "pre_s": 0.0,
+   "hold_s": 0.18
+  },
+  "200": {
+   "db": 4.0,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "201": {
+   "db": 3.9,
+   "pre_s": 0.0,
+   "hold_s": 0.15
+  },
+  "231": {
+   "db": 2.4,
+   "pre_s": 0.0,
+   "hold_s": 0.13
+  },
+  "263": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "267": {
+   "db": 3.9,
+   "pre_s": 0.0,
+   "hold_s": 0.29
+  },
+  "269": {
+   "db": 5.1,
+   "pre_s": 0.0,
+   "hold_s": 0.21
+  },
+  "271": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "27": {
+   "db": 2.4,
+   "pre_s": 0.0,
+   "hold_s": 0.19
+  },
+  "180": {
+   "db": 2.5,
+   "pre_s": 0.0,
+   "hold_s": 0.16
+  },
+  "202": {
+   "db": 6.5,
+   "pre_s": 0.16,
+   "hold_s": 0.1
+  },
+  "36": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "26": {
+   "db": 3.5,
+   "pre_s": 0.0,
+   "hold_s": 0.22
+  }
+ },
+ "Horn 2": {
+  "252": 4,
+  "258": 6,
+  "210": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.22
+  }
+ },
+ "Bass clarinet": {
+  "92.5": {
+   "db": 5.1,
+   "pre_s": 0.0,
+   "hold_s": 0.17
+  },
+  "92": {
+   "db": 5.9,
+   "pre_s": 0.0,
+   "hold_s": 0.14
+  },
+  "98": {
+   "db": 4,
+   "pre_s": 0,
+   "hold_s": 0.3
+  },
+  "99": 4,
+  "91.5": {
+   "db": 2.8,
+   "pre_s": 0.0,
+   "hold_s": 0.15
+  },
+  "_auto": {
+   "91.5": "c16 new (dip 5.8 dB at +0.10 s)",
+   "92.5": "c21 lowered (over 2.1 dB)",
+   "92": "c19 lowered (over 2.4 dB)"
+  }
+ },
+ "Violas": {
+  "244": {
+   "db": 6,
+   "pre_s": 0.06
+  },
+  "245.5": 4,
+  "254.5": {
+   "db": 5,
+   "pre_s": 0.04
+  },
+  "251.5": {
+   "db": 5,
+   "pre_s": 0.02,
+   "hold_s": 0.14
+  },
+  "42": {
+   "db": 4.0,
+   "pre_s": 0,
+   "hold_s": 0.4
+  },
+  "_auto": {
+   "42": "c23 entry fill (critic A #2, set by hand)"
+  }
+ },
+ "Violins II": {
+  "59": 5,
+  "60": 5,
+  "65": {
+   "db": 5,
+   "pre_s": 0.06
+  },
+  "66": {
+   "db": 5,
+   "pre_s": 0.02,
+   "hold_s": 0.4
+  },
+  "172.0": {
+   "db": 4,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "65.5": {
+   "db": 5.0,
+   "pre_s": 0,
+   "hold_s": 0.24
+  },
+  "_auto": {
+   "65.5": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "74": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "80": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "84": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "87": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "240": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "108": "c23 entry fill (critic A #2, set by hand)"
+  },
+  "74": {
+   "db": 5.0,
+   "pre_s": 0,
+   "hold_s": 0.23
+  },
+  "80": {
+   "db": 5.0,
+   "pre_s": 0,
+   "hold_s": 0.22
+  },
+  "84": {
+   "db": 4.0,
+   "pre_s": 0,
+   "hold_s": 0.23
+  },
+  "87": {
+   "db": 5.0,
+   "pre_s": 0,
+   "hold_s": 0.23
+  },
+  "240": {
+   "db": 4.5,
+   "pre_s": 0,
+   "hold_s": 0.13
+  },
+  "108": {
+   "db": 4.0,
+   "pre_s": 0,
+   "hold_s": 0.4
+  }
+ },
+ "Violoncellos": {
+  "77": 5,
+  "86": 4,
+  "68": 4,
+  "78": {
+   "db": 3,
+   "pre_s": 0,
+   "hold_s": 0.3
+  },
+  "74": {
+   "db": 5,
+   "pre_s": 0.05,
+   "hold_s": 0.35
+  },
+  "75": {
+   "db": 6,
+   "pre_s": 0.05,
+   "hold_s": 0.4
+  },
+  "246": {
+   "db": 4,
+   "pre_s": 0.05,
+   "hold_s": 0.35
+  },
+  "247": {
+   "db": 5,
+   "pre_s": 0.05,
+   "hold_s": 0.4
+  },
+  "249": {
+   "db": 5,
+   "pre_s": 0.05,
+   "hold_s": 0.35
+  },
+  "50": {
+   "db": 4.8,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "_auto": {
+   "50": "c16 new (dip 7.8 dB at +0.04 s)",
+   "51": "c16 new (dip 11.6 dB at +0.17 s)",
+   "56": "c16 new (dip 7.2 dB at -0.14 s)",
+   "63": "c16 new (dip 9.1 dB at +0.15 s)",
+   "71": "c16 new (dip 6.8 dB at +0.21 s)",
+   "80": "c16 new (dip 7.2 dB at -0.21 s)",
+   "81": "c16 new (dip 11.5 dB at +0.24 s)",
+   "87": "c16 new (dip 8.2 dB at +0.10 s)",
+   "130": "c16 new (dip 7.3 dB at +0.16 s)",
+   "131": "c18 lowered (over 2.5 dB)",
+   "132": "c16 new (dip 6.5 dB at +0.00 s)",
+   "140": "c17 lowered (over 2.7 dB)",
+   "144": "c16 new (dip 5.6 dB at -0.17 s)",
+   "156": "c21 lowered by hand (critic A #2); auto_fills must not raise it",
+   "157": "c16 new (dip 6.1 dB at -0.19 s)",
+   "159": "c16 new (dip 8.0 dB at +0.13 s)",
+   "160": "c16 new (dip 12.1 dB at -0.12 s)",
+   "162": "c16 new (dip 5.5 dB at +0.14 s)",
+   "186": "c16 new (dip 5.9 dB at +0.14 s)",
+   "188": "c16 new (dip 11.9 dB at +0.04 s)",
+   "193": "c16 new (dip 6.0 dB at +0.39 s)",
+   "196": "c16 new (dip 5.0 dB at +0.10 s)",
+   "198": "c16 new (dip 5.2 dB at +0.16 s)",
+   "199": "c18 lowered (over 4.2 dB)",
+   "203": "c20 removed (over 4.8 dB)",
+   "210": "c21 removed (over 4.1 dB)",
+   "219": "c23 lowered (over 2.3 dB)",
+   "220": "c16 new (dip 5.5 dB at -0.16 s)",
+   "243": "c16 new (dip 5.3 dB at +0.15 s)",
+   "250": "c16 new (dip 8.5 dB at -0.05 s)",
+   "252": "c16 new (dip 9.4 dB at -0.13 s)",
+   "253": "c16 new (dip 8.9 dB at +0.30 s)",
+   "255": "c16 new (dip 6.5 dB at +0.11 s)",
+   "256": "c21 lowered by hand (critic A #2); auto_fills must not raise it",
+   "258": "c16 new (dip 6.1 dB at +0.24 s)",
+   "263": "c17 lowered (over 2.2 dB)",
+   "264": "c16 new (dip 7.9 dB at -0.13 s)",
+   "267": "c16 new (dip 6.7 dB at +0.08 s)",
+   "60": "c17 new (dip 5.9 dB at -0.10 s)",
+   "271": "c17 new (dip 5.5 dB at +0.08 s)",
+   "164": "c18 new (dip 5.2 dB at -0.06 s)",
+   "182": "c20 removed (over 4.8 dB)",
+   "195": "c22 removed (over 2.2 dB)",
+   "201": "c18 new (dip 5.7 dB at +0.08 s)",
+   "202": "c19 lowered (over 2.1 dB)",
+   "259": "c21 lowered (over 2.0 dB)",
+   "54": "c20 new (dip 6.9 dB at -0.14 s)",
+   "180": "c20 new (dip 5.7 dB at -0.03 s)",
+   "192": "c22 new (dip 5.2 dB at +0.02 s)"
+  },
+  "51": {
+   "db": 6.0,
+   "pre_s": 0.0,
+   "hold_s": 0.22
+  },
+  "56": {
+   "db": 4.2,
+   "pre_s": 0.14,
+   "hold_s": 0.1
+  },
+  "63": {
+   "db": 6.0,
+   "pre_s": 0.0,
+   "hold_s": 0.2
+  },
+  "71": {
+   "db": 3.8,
+   "pre_s": 0.0,
+   "hold_s": 0.26
+  },
+  "80": {
+   "db": 4.2,
+   "pre_s": 0.21,
+   "hold_s": 0.1
+  },
+  "81": {
+   "db": 6.0,
+   "pre_s": 0.0,
+   "hold_s": 0.29
+  },
+  "87": {
+   "db": 5.2,
+   "pre_s": 0.0,
+   "hold_s": 0.15
+  },
+  "130": {
+   "db": 4.3,
+   "pre_s": 0.0,
+   "hold_s": 0.21
+  },
+  "131": {
+   "db": 1.5,
+   "pre_s": 0.0,
+   "hold_s": 0.18
+  },
+  "132": {
+   "db": 3.5,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "140": {
+   "db": 4.3,
+   "pre_s": 0.0,
+   "hold_s": 0.25
+  },
+  "144": {
+   "db": 2.6,
+   "pre_s": 0.17,
+   "hold_s": 0.1
+  },
+  "156": {
+   "db": 1.5,
+   "pre_s": 0.02,
+   "hold_s": 0.1
+  },
+  "157": {
+   "db": 3.1,
+   "pre_s": 0.19,
+   "hold_s": 0.1
+  },
+  "159": {
+   "db": 5.0,
+   "pre_s": 0.0,
+   "hold_s": 0.18
+  },
+  "160": {
+   "db": 6.0,
+   "pre_s": 0.12,
+   "hold_s": 0.1
+  },
+  "162": {
+   "db": 2.5,
+   "pre_s": 0.0,
+   "hold_s": 0.19
+  },
+  "186": {
+   "db": 2.9,
+   "pre_s": 0.0,
+   "hold_s": 0.19
+  },
+  "188": {
+   "db": 6.0,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "193": {
+   "db": 3.0,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "196": {
+   "db": 2.0,
+   "pre_s": 0.0,
+   "hold_s": 0.15
+  },
+  "198": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.21
+  },
+  "199": {
+   "db": 1.9,
+   "pre_s": 0.0,
+   "hold_s": 0.18
+  },
+  "219": {
+   "db": 1.6,
+   "pre_s": 0.0,
+   "hold_s": 0.22
+  },
+  "220": {
+   "db": 2.5,
+   "pre_s": 0.16,
+   "hold_s": 0.1
+  },
+  "243": {
+   "db": 2.3,
+   "pre_s": 0.0,
+   "hold_s": 0.2
+  },
+  "250": {
+   "db": 5.5,
+   "pre_s": 0.05,
+   "hold_s": 0.1
+  },
+  "252": {
+   "db": 6.0,
+   "pre_s": 0.13,
+   "hold_s": 0.1
+  },
+  "253": {
+   "db": 5.9,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "255": {
+   "db": 3.5,
+   "pre_s": 0.0,
+   "hold_s": 0.16
+  },
+  "258": {
+   "db": 3.1,
+   "pre_s": 0.0,
+   "hold_s": 0.29
+  },
+  "263": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.24
+  },
+  "264": {
+   "db": 4.9,
+   "pre_s": 0.13,
+   "hold_s": 0.1
+  },
+  "267": {
+   "db": 3.7,
+   "pre_s": 0.0,
+   "hold_s": 0.13
+  },
+  "60": {
+   "db": 2.9,
+   "pre_s": 0.1,
+   "hold_s": 0.1
+  },
+  "271": {
+   "db": 2.5,
+   "pre_s": 0.0,
+   "hold_s": 0.13
+  },
+  "164": {
+   "db": 2.2,
+   "pre_s": 0.06,
+   "hold_s": 0.1
+  },
+  "201": {
+   "db": 2.7,
+   "pre_s": 0.0,
+   "hold_s": 0.13
+  },
+  "202": {
+   "db": 2.9,
+   "pre_s": 0.08,
+   "hold_s": 0.1
+  },
+  "259": {
+   "db": 0.6,
+   "pre_s": 0.0,
+   "hold_s": 0.29
+  },
+  "54": {
+   "db": 3.9,
+   "pre_s": 0.14,
+   "hold_s": 0.1
+  },
+  "180": {
+   "db": 2.7,
+   "pre_s": 0.03,
+   "hold_s": 0.1
+  },
+  "256": {
+   "db": 1.0,
+   "pre_s": 0.06,
+   "hold_s": 0.1
+  },
+  "192": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  }
+ },
+ "Violins I": {
+  "71": {
+   "db": 2,
+   "pre_s": 0,
+   "hold_s": 0.4
+  },
+  "80": {
+   "db": 2.0,
+   "pre_s": 0,
+   "hold_s": 0.2
+  },
+  "86": {
+   "db": 4,
+   "pre_s": 0,
+   "hold_s": 0.35
+  },
+  "68": {
+   "db": 1.5,
+   "pre_s": 0.05,
+   "hold_s": 0.35
+  },
+  "_auto": {
+   "71": "c18 lowered (critic C #1, theme A swell)",
+   "80": "c21 lowered by hand (critic A #2); auto_fills must not raise it",
+   "68": "c21 lowered by hand (critic A #2); auto_fills must not raise it",
+   "65.5": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "74": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "84": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "87": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "240": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins"
+  },
+  "65.5": {
+   "db": 3.5,
+   "pre_s": 0,
+   "hold_s": 0.26
+  },
+  "74": {
+   "db": 2.5,
+   "pre_s": 0,
+   "hold_s": 0.19
+  },
+  "84": {
+   "db": 3.0,
+   "pre_s": 0,
+   "hold_s": 0.35
+  },
+  "87": {
+   "db": 4.5,
+   "pre_s": 0,
+   "hold_s": 0.24
+  },
+  "240": {
+   "db": 4.0,
+   "pre_s": 0,
+   "hold_s": 0.3
+  }
+ },
+ "Horn 3": {
+  "204": {
+   "db": 2,
+   "pre_s": 0,
+   "hold_s": 0.1
+  },
+  "_auto": {
+   "204": "c22 set by hand (pull fix): 8 -> 2"
+  }
+ },
+ "Violin I solo": {
+  "51": {
+   "db": 1.6,
+   "pre_s": 0.14,
+   "hold_s": 0.1
+  },
+  "_auto": {
+   "51": "c17 lowered (over 2.3 dB)"
+  }
+ },
+ "Double basses": {
+  "140": {
+   "db": 4.0,
+   "pre_s": 0,
+   "hold_s": 0.4
+  },
+  "_auto": {
+   "140": "c23 entry fill (critic A #2, set by hand)"
+  }
+ },
+ "Violins II div": {
+  "108": {
+   "db": 3.0,
+   "pre_s": 0,
+   "hold_s": 0.35
+  },
+  "_auto": {
+   "108": "c23 entry fill (critic A #2, set by hand)"
+  }
+ },
+ "Violas div": {
+  "277": {
+   "db": 4.0,
+   "pre_s": 0,
+   "hold_s": 0.3
+  },
+  "_auto": {
+   "277": "c23 entry fill (critic A #2, set by hand)"
+  }
+ }
+}

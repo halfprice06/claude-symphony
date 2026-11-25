@@ -1,0 +1,1 @@
+{"first_start": "2026-11-11 07:50:10", "ahead": [], "_note": "scherzo c15 actor began to wait (offline work in progress; no background waiter). At this time mvt2 held the lock (since 07:16) and the waiters of mvt1 (1 h 46) and mvt3 (1 h 35) were running: both are ahead."}

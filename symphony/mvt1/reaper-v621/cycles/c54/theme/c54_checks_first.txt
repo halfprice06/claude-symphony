@@ -1,0 +1,30 @@
+Violins I      128.00  oin Sus MAX lead 60 pcx -26 xr n/a dom -32 S -26
+Violas          76.00  oin Sus MAX lead 90 pcx +160 xr +18 dom +3 S +18
+Violas         368.00  oin Sus MAX lead 90 pcx +94 xr -52 dom -51 S -52
+Violas         428.00  oin Sus MAX lead 90 pcx +111 xr +24 dom +28 S +24
+Violas         434.00  oin Sus MAX lead 90 pcx +29 xr -2 dom -41 S -2
+Violas         436.00  oin Sus MAX lead 90 pcx +80 xr +6 dom +13 S +6
+Violoncellos   356.00  oin Sus MAX lead 120 pcx +252 xr +28 dom +28 S +28
+Violins II     290.00  ntry Sus MAX lead 100 pcx -61 xr n/a dom n/a S -61
+Violins II     400.00  oin Sus MAX lead 90 pcx +72 xr -24 dom -16 S -24
+Oboe 1         578.00  ntry Leg Slur MAX lead 104 pcx +27 xr n/a dom n/a S +27
+Cor anglais    275.00  oin Leg Slur MAX lead 70 pcx +157 xr +42 dom +34 S +42
+Bassoon 1      131.00  oin Leg Slur MAX lead 120 pcx +119 xr +4 dom -21 S +4
+Bassoon 1      133.50  oin Leg Slur MAX lead 70 pcx +29 xr +24 dom +129 S +24
+Clarinet 1     507.00  oin Leg Slur Rep lead 110 pcx -30 xr -20 dom -7 S -30
+Clarinet 1     509.50  oin Leg Slur lead 70 pcx +44 xr +22 dom +13 S +22
+Violins I      116.00  oin Staccatissimo lead 45 pcx +7 xr +17 dom +13 S +7
+Violins I      116.50  ntry Staccatissimo lead 45 pcx +45 xr n/a dom +8 S +45
+Violins I      117.00  ntry Staccatissimo lead 45 pcx +16 xr n/a dom +3 S +16
+Violins I      117.50  ntry Staccatissimo lead 45 pcx +11 xr n/a dom -2 S +11
+Flute 1 stac 116.0 no stem
+Bassoon 1     half-amplitude ms re the beat: 72:-10  104:-10  128.5:+0  272:-5  320.5:+5  324.5:+0  330:+5  381.5:-5  388:+0  464:+5  552:-5  644:+10  664:+0
+Bassoon 2     half-amplitude ms re the beat: 104:-10  464:-150  552:-5
+Contrabassoon half-amplitude ms re the beat: 100:+5  104:+0  464:-340  552:-5
+Oboe 2        half-amplitude ms re the beat: 44:-25  520:-15  664:-15  552:+0  408.5:-10
+Flute 2       half-amplitude ms re the beat: 100:+10  104:-10  160:-10  548:+5  552:-5
+Horn 2        half-amplitude ms re the beat: 104:-350  324:-5
+Horn 1        half-amplitude ms re the beat: 520:+35
+Double basses final chord pieces (dB): -61.6 -58.0 -55.0 -54.3 -59.4 -62.7 -61.9  steps: +3.6 +3.0 +0.7 -5.1 -3.3 +0.8
+Cor anglais qn 26: level before -32.4 dB, minimum over -0.2..+0.25 s -33.2 dB, dip 0.9 dB
+Master      qn 26: level before -32.7 dB, minimum over -0.2..+0.25 s -33.8 dB, dip 1.1 dB

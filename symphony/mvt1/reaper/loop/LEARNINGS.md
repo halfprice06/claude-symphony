@@ -1,0 +1,473 @@
+# Movement I mockup: learnings
+
+Lessons from this loop that would help another score, especially where movement I differs from mockup-kit/LEARNINGS.md. One dated bullet each under a topic heading (actors append).
+
+
+## Score extraction
+- 2026-10-15 (c01): LilyPond writes subito marks as the dynamic text "sub. p"; a DYN lookup without that key drops every one (13 marks: a printed sub. p played ff). Map "sub. X" to X, never use a subito mark as a hairpin's target (the preceding crescendo would turn into a decrescendo), and end dB gains at it: bar 61 -> 62 then fell 3.7 dB, the celli at a sub. p 9 dB.
+
+## Percussion (Hollywood Orchestral Percussion)
+- 2026-10-15 (c01): 18in Zildjian Sus Cymbal Cres, f take (vel 90+): key 60 (f1) peaks 0.86 s after note-on, key 64 (f3) 2.40 s after note-on (measured on the stems). The .ews sample lengths (f1 8.3-9.3 s, f3 10.2-10.9 s) with a constant ring of about 8 s after the peak predicted key 64 to within 0.03 s, so the frame counts in the .ews headers are a usable guide to time-to-peak.
+- 2026-10-15 (c01): 32in Med Tam Tam at velocity 40 (pp) has nothing above 2 kHz and sits about 20 dB under a pp orchestra; velocity 60 adds 9 dB and is still about 20 dB under. The fff heavy-beater stroke needed about +5 dB over a -4 dB starting gain to come within 9 dB of the tutti.
+
+## Brass balance
+- 2026-10-15 (c01): the Solo Trumpet KS Master (Close 0.5 / Main 1.0) is about 13 dB quieter than the Solo Trombone KS Master at the same pitch and CC11 (critic C). Loud-only trims of +7 dB at f and +8 at ff (+8/+11 on the third trumpet, which plays lower) brought trumpet 1 to 3 dB under trombone 1 at f, 0.6 dB under at ff and level at fff, and 1-2 dB over the horns; the pp trumpets already matched the horns, so a gain change would have been wrong.
+
+## Accents
+- 2026-10-15 (c01): woodwind Sus Accent MAX notes with the +8 CC11 bump and +10 velocity peaked a median +4..+7.6 dB over their own body in the first 120 ms (p90 up to +12). Plain Sus with a +3.5 dB volume swell (full at +0.07 s, gone by +0.6 s) gave +1.0..+3.4 dB. Keep a slurred accent (not the slur's first note) on the legato row: on a wind this is breath weight, and re-tonguing it breaks the slur.
+
+## Strings
+- 2026-10-15 (c01): a slur's short first note (< 0.25 s) played Sus MAX into a Leg Slur MAX target left the target a median 2.3 dB under its pickup (the two rows' sustains differ at one CC11), so a theme's upbeat sounded accented. Keeping the pickup on Leg Slur MAX (disconnected first note, sustain layer) with its target: median +1.2 dB over the pickup across 25 cases, no new dips at the target.
+- 2026-10-15 (c01): re-bow level shapes fitted on one render transferred exactly to the next: with unchanged MIDI the stems matched the planned fill to within the separate soft-trim change (2.0 dB, constant). Smoothed over 0.12 s, one fit cut celli level steps of 3 dB or more from 15 to 6 of 29 re-bows but left most of the 0.1-0.2 s dip (80 ms window median 7.6 -> 6.3 dB); fit the dip with less smoothing, or iterate on the residual.
+
+## Delivery
+- 2026-10-15 (c01): a movement with a long ppp introduction and coda delivered LRA 17.3 LU from a master of 23.1 LU (movement II: 16.0 from 23.6), because those passages sit at the ride's +10 dB cap. Raising the cap to 12 dB changed the delivered LRA by only 0.1-0.2 LU (simulated); soft trims of +4/+4/+1.5 dB at ppp/pp/p on every track (on top of movement II's values) took it to 16.0 LU with the master at 21.1 LU. The p10 span stayed at 20.4 dB.
+
+## Memory and rendering
+- 2026-10-15 (c01): the 32-instance project settled at 19 GB after the open, grew to 41-42 GB while samples streamed, and macOS compressed 14-25 GB of it before and during the 1x render (page cache full of streamed samples, about 0.1 GB free). The render's attack timing was identical to the previous render to 0.01 s, so a high compressed figure reached by streaming, in a freshly opened session, did not harm timing.
+- 2026-10-15 (c01): stem fixes are exact when computed with build_reaper's own vol_points() for the old and new data (tools/stem_fix.py): an unchanged-data run rebuilt the master bit for bit, and a soft-trim and role change simulated to 16.0 LU delivered measured 16.0 LU after it was applied.
+
+## REAPER and envelopes
+- 2026-10-15 (c02): a track volume-envelope change shows up in the rendered stem 0.09-0.25 s before its planned time (stem c02 minus c01 against the plan change: best-lag correlation 0.97-0.99 against -0.1..0.4 at zero lag, on loop profiles, roles, accent swells and re-bow shapes), while note onsets measure on time. A periodic loop profile fitted on one render and applied the next time added to the pulse (timpani roll folded swing 3.5 -> 4.7 dB, Horn 4 4.6 -> 6.2); dividing it out at the measured lead restored 3.6 / 5.8. Measure this lead before trusting any shape faster than about 0.5 s.
+
+## Strings
+- 2026-10-15 (c02): an accented unslurred string note after Sus MAX eighths, played Sus MAX (fresh stroke, gentle +3 dB swell, no CC11 bump) instead of a disconnected Leg Slur MAX note: body minus the note before went from a median -3.6 dB (worst -9.4) to +2.0 dB (worst -1.2) over 15 notes.
+- 2026-10-15 (c02): held string notes swing +-6 dB at about 3 Hz (vibrato/bow) in a 40 ms level; a re-bow shape fitted with 0.04 s smoothing follows that swing (+12 / -5 / +9 dB within 0.8 s). Keep about 0.12 s smoothing.
+
+## Articulation
+- 2026-10-15 (c02): repeated accented quarter notes (all sections, re-taken down-bows in the strings) ending 0.25 qn early raised the master's break between strokes from 1.7-3.1 to 4.3-5.8 dB; where other sections hold the harmony through the strokes the break stays at 0-1 dB. Do not apply such a cut to accented notes over 2 qn: syncopated sustained accents in the winds are held notes.
+
+## Dynamics
+- 2026-10-15 (c02): holding an fff arrival's crescendo gain to the next printed mark (cap 8 qn) and letting a chained fff crescendo add +1.0 x the string gain and +0.5 x the brass gain made the main fff climax the loudest moment and kept it level through its two marked bars (delivered max short-term -11.3/-12.3 -> -9.5/-9.5 LUFS), with the limiter unchanged at 1.9 dB, after the brass harmony under it was cut 2-3 dB.
+
+## REAPER and envelopes (c03: cause of the c02 "envelope lead")
+- 2026-10-15 (c03): give the silent pre-roll's tempo marker its own meter (3/4 for a 3 qn pre-roll). With the score's 4/4 the pre-roll was an incomplete bar and `SetTempoTimeSigMarker` moved the score's first marker (which carried the 4/4) to the next barline, 4.0 s instead of 3.0 s; later markers were placed by time, so REAPER's qn ran 1/6 qn ahead and every note, CC and envelope point sounded 1/6 qn early (0.079 s at 126 bpm, 0.2 s at 50; first audio after silence measured -0.082 s median over 302 entries, 0.000 s after the fix). It looked like an envelope lead because shapes fitted from a render were placed where the feature was measured and then rendered 1/6 qn early again. Check that `TimeMap2_timeToQN` of every marker equals its planned qn after writing the map and stop the build if not; the mismatch list had been in the build log since c00. This belongs in mockup-kit/LEARNINGS.md sections 11 and 15 (movement II started in 3/4 and was not affected).
+- 2026-10-15 (c03): renders made with a shifted map stay usable: refit shapes on them with file time = q2s(q - shift) (tools/rendermap.py). Re-bow shapes refit that way took the median 80 ms re-bow dip from 2.8-7.3 to 1.0-2.8 dB per section on the next render.
+
+## Strings
+- 2026-10-15 (c03): staggered per-section re-bow phases still bunch: on a final chord five sections re-bowed within 0.34 s. A cross-section pass (tools/space_rebows.py, 0.6 s apart, pieces 1.2-4.5 s, at most 1.5 s from the automatic point) cut pairs under 0.6 s from 16 to 5 of 30 and the master's dip at re-bows to 2.0 dB against 1.7 at control times; a final bar at 30 bpm has no room for two re-bows per section at 0.6 s spacing. Move the fitted shapes with their points (shapes are in seconds after the re-bow and transferred).
+- 2026-10-15 (c03): a fast slur's last Sus MAX eighth that overlaps the next note joins it as a legato transition on the KS Master; with no lead the new bow stroke crossed over +0.25 s late (an eighth at 126). Making it a legato target (lead capped at 0.45 x the eighth = 0.11 s, legato velocity, Leg BC MAX across the slur boundary) brought the median to +0.145 s; the cap limits it.
+
+## Timing
+- 2026-10-15 (c03): felt timpani strokes reach full level within 10 ms while sustained brass and strings reach -6 dB 0.08-0.10 s after note-on; starting every stroke 0.06 s late took the stroke-minus-band median from -0.068 to -0.030 s. Delay the crash and tam-tam too (0.05 s), and move a crescendo cymbal roll's start with the crash it leads into.
+- 2026-10-15 (c03): an extra entry lead of +0.11 s for wind Leg Slur MAX first notes moved flute and oboe pickups from +0.05 to -0.03 s (-6 dB of the 0.2 s peak), 0.04-0.09 s ahead of the violins: about half of that lead is enough.
+
+## Articulation tests
+- 2026-10-15 (c03): Basses KS Master Marc Shrt RRx4 at v96-104 on repeated ff eighths did not separate them better than Sus MAX (re-attack rise 2.4 vs 2.6 dB) and played 6.6 dB louder. Bassoon Stac DblTng RRx9 at Sus velocity + 10 peaked +0.073 s after the onset (Sus MAX at half length +0.060), so it does not speak faster.
+
+## Loop pulse
+- 2026-10-15 (c03): fitted on a correctly timed render, periodic level profiles took the timpani rolls' folded swing from 2.8-4.1 to 1.2-2.6 dB and Horn 4's long note from 5.5 to 1.7 dB (the c02 failure was the 1/6 qn map error, not the method); the timpani autocorrelation at the period stayed 0.6-0.8.
+
+## Strings (c04)
+- 2026-10-16 (c04): the c03 rule that merges a repeated pitch in a legato string line into one note with CC11 notches must not touch written-out unslurred repeats in a fast tempo: a celli accelerando (quarters -> sixteenths at 126) became 3 held notes, the sixteenths 1.1 dB per note. As separate strokes (Sus MAX at the printed-level velocity, the Stac RRx9 row under 0.2 s) the triplets/sixteenths measured 8.2/4.7 dB per note, but the Stac strokes at v80-108 played 5-8 dB louder than the merged note at the same CC11 and needed a -4 dB role. Any per-note level shape on such strokes (a pitch trim's 0.25 qn ramp) must be a step held to the next onset, or it makes a 3 dB sawtooth.
+
+## Timpani (c04)
+- 2026-10-16 (c04): long felt timpani rolls (Timpani Flt Rls) loop every 3.3-3.5 s in colour as well as level (centroid autocorrelation 0.89-0.95 after a level profile). Splitting the roll into abutting same-pitch roll notes of irregular 2.5-3.3 s (the old note ending 0.002 qn before the new one; no same-pitch overlap) took it to 0.26-0.46 with level steps within +-1.5 dB; each new note adds a +2 dB bump from +0.02 to +0.18 s, which a -1.5 dB volume dip (full at +0.03 s, held to +0.14 s, gone by +0.22 s) brings under 1 dB. A piece of 2.8 s or more out of an 8 s roll left 0.46: use more, shorter pieces on short rolls.
+- 2026-10-16 (c04): felt strokes at pp: v56 -> v62 changed the coda strokes' peaks by -1.3..+4.9 dB (median +2; round robins vary that much), still 5-11 dB under the loudest string section; a further +5 dB step role put them 3-6 dB under.
+
+## Brass (c04)
+- 2026-10-16 (c04): a slurred tenuto joined as a Leg Slur MAX target (v100, 10 CC portato notch) on the Solo French Horn KS Master removes the Sus re-tongue spike after a step, but across a 9-semitone leap (E-flat4 -> C5) with a -5 dB pitch trim on the target it left a 10-12 dB hole for 0.45 s; the kit's octave limit for legato joins is too generous for portato joins on this patch.
+
+## Dynamics (c04)
+- 2026-10-16 (c04): movement II's lead-line rules (phrase tops 0.3 dB/semitone clipped -1.5..+2, soft-hairpin ramps +3/-2 dB) moved every measured lead slur the right way but only by 0.5-1.5 dB on these violin, horn and cello lines (top note loudest 3 -> 4 of 18; crescendos rising 1 dB or less 13 -> 10 of 26), because the upper samples at a constant CC11 sit 0.1 dB per semitone lower; the defaults are a start, not a fix.
+- 2026-10-16 (c04): an sf arrival after a printed crescendo (f < sf > mf) needs to read as an arrival: spiking to ff and falling to ff - 8 CC instead of level - 10 CC raised beat 1 by 1.5-1.8 dB and halved the fall inside the beat; the dynamic curve feeds the f/ff dyn trims too, so the change is larger than CC11 alone.
+- 2026-10-16 (c04): +1.5 dB on every mf anchor and f trim, simulated on the stems, moved the delivered p75-to-max distance only 0.5 dB (10.3 -> 9.8) while lowering the limiter 0.3 dB: the top-heavy distribution against real recordings comes from the delivery ride (it lifts only passages under its knee), not from the mix's mf/f levels.
+
+## Tempo (c04)
+- 2026-10-16 (c04): a TEMPO_PUSH span that contains part of a re-bowed note moves its automatic re-bow points (0.01 qn here), which detaches the fitted re-bow shapes keyed by qn; check the parts.json `rebows` rows after any tempo change and drop or shorten the span.
+
+## Strings (c05)
+- 2026-10-16 (c05): a slurred same-pitch repeat at the end of a slur (`d8( des8 c8 | c4)`, no tie) must be one note: as a short Sus MAX eighth followed by a fresh Leg Slur MAX note (which plays the slow first-note layer), the arrival fell 8-13 dB under the eighth within 0.5 s; merged into the Sus eighth with a 6 CC notch it sat -1.4..+5.6 dB over it, and the next slur's join dip fell 18 -> 3 dB. On winds (Leg Slur re-tongue after a 0.06 qn gap) merging with an 8 CC notch halved the 10-12 dB hole to 3.5-5.6 dB; keep the merged note's legato velocity from the eighth's own length, or the length-based velocity drops it from v100 to v60.
+- 2026-10-16 (c05): on the HS KS Masters, unslurred short notes (0.24 s eighths, 0.16 s triplets at f) as Sus MAX strokes played 3.0-5.6 dB louder than the same notes as Leg BC MAX joins at the same CC11; any articulation swap on a run needs a level check against the previous render. A short unslurred note after a Sus note on Leg Slur MAX plays a legato transition crossing a median +0.2 s; as a Sus stroke +0.125 s.
+- 2026-10-16 (c05): starting slurred Sus MAX eighths 0.05 s earlier (old note's end kept, so the crossfade grows) moved their pitch crossover only 0.015-0.02 s (Vln I 0.130 -> 0.115 s, control violas 0.105 -> 0.098): the crossover of overlapping Sus notes is set by the old note's decay, not by the new note-on.
+
+## Brass (c05)
+- 2026-10-16 (c05): splitting a 12.8 s ppp Solo French Horn note into 3.6-5.0 s same-pitch Sus pieces (velocity -8, a -3 dB dip over +0.03..+0.4 s) took its centroid autocorrelation at the 3.95 s loop period from 0.75 to 0.26, but the 100-300 Hz level autocorrelation only 0.92 -> 0.80, because the re-entry dips (up to 8.9 dB on the stem, invisible on the master) are themselves about 4 s apart; measure the loop at the period with split points at irregular spacing, or the measure reads the splits.
+
+## Percussion (c05)
+- 2026-10-16 (c05): Hollywood Orchestral Percussion 22in Zildjian K Crash has the same key layout as the 19in A Crash (Long RRx1-3 on key 60, Short on 62/64, 7 velocity layers); swapped in with +5 dB it rang 8-9 dB longer against a fff tutti (4-12 kHz re master at +1.4 s -17.5 -> -9.7 dB), and its hit made the third-highest master peak (0.31 of 1.21).
+- 2026-10-16 (c05): long felt timpani rolls under a fff tutti and tam-tam (qn 464/484, 20 and 36 qn): re-strikes in seeded 2.5-3.3 s pieces took the centroid autocorrelation from 0.85-0.95 to 0.16-0.55; windows with a 3.3 s run of similar piece lengths stayed near 0.5.
+
+## Pipeline (c05)
+- 2026-10-16 (c05): check that every rule table reaches every track family: the percussion builder wrote a flat volume envelope and ignored roles.json, so a role set in c02 had never been heard; a role that becomes active late changes a balance nobody measured (here a pp tam-tam 3-5 dB over the chorale strings), so re-measure or remove it.
+
+## Controllers (c06)
+- 2026-10-16 (c06): velocity does nothing on the Hollywood KS Master sustain rows (Sus MAX, Sus Non Vib, Sus Non Vib MAX): 485 accented notes on 27 wind, brass and string tracks rendered with 10-15 lower velocity (v83-111 -> v68-101) had body and attack-peak levels identical to the previous render to 0.01 dB (CC36 round-robin reset, so the renders are otherwise repeatable). Set loudness on these rows with CC11 and the volume envelope only; velocity matters for legato transitions, short articulations, harp and timpani.
+
+## Articulation (c06)
+- 2026-10-16 (c06): unslurred same-pitch wind/brass repeats at a 0.03 qn gap sounded tied (median dip 0.1-3.6 dB). A gap of min(0.06 s, 25% of the note) plus a 6 CC CC11 fall over the note's last 0.12 s raised the medians to 3-7 dB on woodwinds, trumpets and trombones, but horns stayed at 1-3 dB and Bassoon 2 at 1.6: the Solo French Horn release and hall tail fill a 0.06 s gap; horns need a deeper fall or a longer gap.
+- 2026-10-16 (c06): a printed down-bow that the score's line joins legato (an fff downbeat after a caesura), played as a fresh Sus MAX stroke at v105 instead of a Leg BC MAX transition at v124, removed a 6-8 dB sag at the beat but played 2-6.5 dB louder than the Leg BC note at the same CC11 (2nd Violins KS Master the hottest); budget a level cut with any Leg -> Sus row swap and check the master peak.
+- 2026-10-16 (c06): slurred wind tenutos joined as Leg Slur MAX portato targets (v100, 10 CC notch) across 8-9 semitones at f/ff dipped 7-9 dB on Flute 1, Oboe 1 and Cor anglais (re-tongued on Sus MAX before: 4-10 dB); the c04 horn finding (9-semitone portato joins leave holes) holds for the woodwinds too. Joins of 2-5 semitones improved.
+- 2026-10-16 (c06): keeping 0.20-0.25 s slurred violin eighths (126 bpm) on Leg Slur MAX with the legato lead capped at 0.75 of the previous note moved the pitch crossover from +0.12 to +0.07 s (p90 +0.17 -> +0.11) but raised the joins dipping 6 dB or more from 9 to 15 of 72; neither row is clean at this length.
+
+## Dynamics and delivery (c06)
+- 2026-10-16 (c06): a tutti arrival that the crescendo has already reached (fff at the downbeat, momentary step -0.4 dB) gets its step from holding the crescendo's top back (0 to -2.5 dB linearly over the last 4 qn) plus a short lift on the arrival (+1.5 dB, full at +0.05 s, held 0.5 qn, gone by 1 qn): delivered step +2.6 dB. +2.5 dB on the lift put the arrival chord with the crash over every other master peak (1.70 against 1.52) and the delivery limiter at 3.9 dB; on a climax that already sets the limiter, keep the lift under the pre-dip.
+- 2026-10-16 (c06): a percussion stroke whose sample rings past its note-off is under build_reaper's tail hold, which freezes the envelope at the note-off: a printed damp after the note end needs tail_hold off for that track (or the damp before the note end). -24 dB over 0.5 s at the damp put the tam-tam 37 dB under the master 1.3 s later.
+
+## Accents (c07)
+- 2026-10-16 (c07): one gentle swell level for every brass accent (2.5 dB) left them -3.7..+14 dB over the same-dynamic notes around them (16 of 36 in 2-4 dB): with the volume envelope's share taken out, the rows, pitches and samples still differed by -6..+9 dB per accent. A swell fitted per accent from one render (level over up to two unaccented neighbours each side within 2.5 qn; swell up to 5 dB, then a step trim) transferred to the next render within a median 0.2 dB (worst 1.5 dB, where a neighbour note had changed) and, after one refit on that render, put 33 of 36 in 2-4 dB (median +3.0); the fit is level only, so it can be refit and applied to the stems (tools/fit_accents.py, stem_fix.py).
+- 2026-10-16 (c07): slurred brass accents (an eighth pickup slurred to an accented dotted quarter, 8-10 semitones up) re-tongued on Sus after a 0.07 qn gap stood +2.6..+9.5 dB over their slur; kept as Leg Slur MAX targets (v124, normal lead) they fell to +0.0..+2.3 dB, because the transition carries over the pickup's level, and needed a 5 dB swell to reach +2.3..+3.2. The 2-5 kHz first-80-ms measure on a legato accent reads the end of the pickup: on Solo French Horn at ff the eighth pickup was 10-16 dB brighter than the accent's body.
+
+## Timing (c07)
+- 2026-10-16 (c07): the kit's abutting-note lead for the Basses KS Master transferred at a scaled value: 0.12 s (movement I's lag was 0.155 s, movement II's 0.20 s) took the median pitch crossover from +0.155 to +0.070 s and basses minus celli from +0.105 to +0.050 s; 0.06 s on Solo French Horn Sus chord changes took +0.10/+0.115 to +0.05/+0.08 s. Skip the lead on notes the automatic re-bow splits: moving their start (and the end of the note before) moved 26 of 30 basses re-bow rows and detached their fitted shapes.
+- 2026-10-16 (c07): a lead on slurred Sus MAX string eighths works only when the old note ends with the new note-on: 0.06 s with the previous note ending 0.03 qn after the moved onset took Violins II's crossover from +0.122 to +0.083 s (violas control +0.085 -> +0.080), where c05's 0.05 s with the old end kept gained 0.015-0.02 s.
+- 2026-10-16 (c07): Hollywood Strings entries after a rest at the mf layer (CC11 51-80) rise about 0.1 s slower than at f: an entry lead of 0.12 s instead of 0.06 s at 100 bpm or faster moved body - 8 dB from +0.065 to +0.030 s (Leg Slur MAX) and from +0.055 to -0.005 s (Sus MAX), body - 4 dB from +0.17 to +0.12-0.13 s. The Basses KS Master's off-beat entries were already on time at 0.06 s.
+- 2026-10-16 (c07): a printed rit. smoothed into a ramp (anchors at the midpoints of the printed steps) after a phrase arc that slows the beat before it starts below its first printed step and rises toward it (119.7 -> 123.8 bpm over the first beat of a poco rit.); hold the start tempo until the printed steps fall below it.
+
+## Articulation (c07)
+- 2026-10-16 (c07): unslurred repeats on Solo French Horn need about a 0.10 s gap and a 12 CC fall over the last 0.15 s to separate: horn medians 2.1-4.1 -> 4.3-5.1 dB, but the p pedal of Horn 4 only 2.05 -> 2.8. Eighth repeats at 126 bpm on Bassoon need a 0.10 s gap (about half length): 3.1 -> 6.1 dB. A breath before a tutti downbeat with a caesura needs 0.22 qn plus a 10 CC fall on the low brass: dips 0.7-2.5 -> 7.5-9.4 dB.
+- 2026-10-16 (c07): Hollywood Strings Sus MAX / Stac rows sit 2-6 dB over Leg Slur / Leg BC at the same CC11 at f and louder (Violins II +4.7, Violas +5.6 median). A step trim on the row in mixed lines lowered the worst accent-under-the-next-note cases by 2-4 dB, but an accent and the stroke after it must get the same trim, or the untrimmed one stands 4-7 dB over.
+
+## Timpani (c07)
+- 2026-10-16 (c07): metric velocity on felt timpani strokes (Timpani Flt Lng, v110 at ff; -9 on off-beats and pickups, -5 on beats 2/4) moved the off-beat minus next-downbeat peak only from -0.4 to -1.0 dB (median of 15): the round robins vary more than the velocity step, as with pizz. and harp (kit section 3); use a level step.
+- 2026-10-16 (c07): a timpani roll written as one roll per bar is one roll: the f-attack bump on the second bar's roll made a printed crescendo play as two hits (timpani the loudest stem on both downbeats); no bump on a roll that continues a roll unless a louder printed dynamic starts there.
+
+## Accents (c08)
+- 2026-10-16 (c08): the per-accent fit (c07, brass) transferred to strings and winds: with the c07 render as reference, string accents in 2-4 dB over their same-dynamic neighbours went 26 -> 112 of 134 and wind accents 32 -> 126 of 140 on the next render (median +3.0/+2.9), with 2-5 kHz first-80-ms minus body still a median -10/-11 dB. Exclude a slur's short first note as a neighbour (it plays the legato row's slow first-note layer), or the fit trims the phrase's arrival note by 6 dB.
+- 2026-10-16 (c08): a fitted negative step trim covers the whole note while the accent measure covers only its first 0.35 s: a -6 dB step on a whole-bar ff string arrival lowered that section 4.7 dB for the bar. Allow negative steps only on notes of about 1.5 qn or less and never on a crescendo's arrival note.
+- 2026-10-16 (c08): theme-head accents on Hollywood Strings Leg Slur MAX after an eighth pickup (6-12 semitones up) need far more than the brass did: a 5 dB swell plus a +4..+5 dB step to reach +2..+3.5 dB over their slur; one (Violins I, a 12-semitone leap) stayed at -0.2 dB at those caps.
+
+## Dynamics (c08)
+- 2026-10-16 (c08): a held-back crescendo top (0 to -2.5 dB over the last 4 qn before a tutti fff downbeat) also cancels the printed crescendo bar's own gain: the master rose +0.8 dB across a ff < bar. Holding back only the last 0.5 qn (a breath before the downbeat) and filling a held string note that decayed 6-9 dB inside the bar (+4 dB) made the last beat 2.2 dB over the bar before and 4.2 dB over the bar's first beat, but cut the downbeat step from 3.9 to 1.4 dB.
+- 2026-10-16 (c08): a note trim on a chord in one track's envelope is applied once per note unless the code dedupes by onset: two -5 dB trims on a cello double stop came out -10 dB. Key per-note level tables per onset, not per note.
+
+## Strings (c08)
+- 2026-10-16 (c08): tremolo chords re-attacked at every change dipped 6-8.5 dB on the stem (Violins II sul tasto pp). Joining them like the sul tasto pads (common tones held, moving voices 0.3 s early, old notes overlapping 0.4 qn) took the changes to 2.2-3.5 dB; a same-pitch tremolo held across bar lines (five f whole notes) split into 2.8-3.7 s pieces away from the bar lines took the two-bar level autocorrelation from 0.93 to -0.44. A split placed 0.33 qn after a chord change made a new 6 dB dip: keep splits a beat or more away from other onsets.
+
+## Delivery (c08)
+- 2026-10-16 (c08): a slow top ride in the delivery master (above the 95th percentile short-term loudness - 3 dB, 1.6:1, 3 s smoothing, after the quiet-passage ride) moved the delivered p75-to-max from 10.6 to 9.4 dB, the p10 span from 20.0 to 18.7 dB and the limiter from 2.0 to 1.2 dB, at LRA 14.8 LU. It also compresses the gap between two climaxes (0.74 -> 0.59 LU here; a 2:1 ratio simulated 0.35): choose the ratio by the climax margin.
+
+## Low end (c08)
+- 2026-10-16 (c08): a 140 Hz +3..+4 dB bell (1 oct) switched on at the loud tutti on tuba, bass trombone, contrabassoon, second bassoon and timpani raised the loudest 10% of frames at 160 Hz by 1.9 dB but not at 125 Hz (-0.7, with cello pitch trims in the same render), and lifted those instruments 0.4-1.7 dB in level, enough to put them among the three loudest stems of a tutti bar.
+
+## Controllers (c09)
+- 2026-10-16 (c09): in the Hollywood Brass KS Masters (1FH, 1TP, 1TB, 1TU) and the Clarinet KS Master the dynamic layers are crossfaded by CC1, not CC11: every layer group's Source volume has a cc 1 MidiController rescaler, and CC11 drives only the Global Group volume (mockup-kit/LEARNINGS sections 3-4 say CC11 for every HO patch; that holds for strings, flute, oboe, cor anglais, bassoon, bass clarinet and contrabassoon). With CC1 at 53-89 every printed dynamic played the mp-f samples. CC1 from the printed dynamic (pp 28, mf 68, f 86, ff 108, fff 120) made the brass brighten with level (trumpet 4-8 kHz +6.7 dB from f to ff, trombone +25 dB from mf to ff, horn 2-4 kHz +12 dB from p to f; before 0-6 dB) and moved levels a lot: soft brass -5..-10 dB, f +1.3..+2.4, fff +2..+6, clarinets pp -3.7 / f +2.7. Read each patch's layer controller from the .oib before the first build.
+- 2026-10-16 (c09): when a controller change moves levels, measure each note's body change against the previous render minus the planned envelope change (tracks with unchanged data then read exactly 0.00 dB), bin by printed dynamic, and restore the level with per-dynamic trim anchors as a stem fix: every bucket with 5+ notes came back within -1.7..+0.7 dB. Legato-row passages can move differently from the Sus-dominated medians (a ff a2 theme came out +3..+5 dB): check the exposed lines separately.
+- 2026-10-16 (c09): on the brass ff/fff layers reached through CC1 the attacks stayed gentle (2-5 kHz first 80 ms minus body -2..-36 dB with plain Sus and the volume swell), but the low brass's low-frequency crest made the master's top two peaks (tuba 0.51, bass trombone 0.44 at matched body level); the delivery limiter rose 1.2 -> 2.0 dB.
+
+## Dynamics (c09)
+- 2026-10-16 (c09): an untargeted > of half a beat (0.27 s) after a long < was undoing the whole swell (20 CC) on a horn/cello theme; capping short decrescendos at 6 CC removed most of the CC11 drop but the quarter after it still sat 5.7-7 dB under the eighth, because the quarter is a legato target whose transition sags: measure the stem against CC11 before blaming a hairpin. Capping short crescendos the same way halved the line's one-beat swells; keep short crescendos at the full step, and send the next < back to the level before the short > (otherwise the line ratchets up 7 CC).
+
+## Strings (c09)
+- 2026-10-16 (c09): theme-head accents after an eighth pickup slurred up 8-12 semitones, played as fresh Sus MAX strokes (0.06 s lead, the Leg Slur pickup ending at the keyswitch) instead of Leg Slur MAX targets, gained 3-6 dB of sample level at the same CC11 and envelope (residual -4..-6.6 -> -3.7..+0.8 dB), with 2-5 kHz attack minus body still -9..-14 dB.
+- 2026-10-16 (c09): HS tremolo entries straight after a held note on another row dip 5-10 dB for 0.1-0.2 s (the tremolo attack); starting them 0.08 s early with the old note ending at the moved start took 4 of 5 such dips under 2 dB (one p entry from 10.2 to 6.7 dB).
+
+## Mix (c09)
+- 2026-10-16 (c09): the Solo Trumpet KS Master at the trombones' reverb send (0.45) was 3-4 dB drier in its early tail (sustain minus +0.15-0.25 s: 12-13 vs 9 dB); send 0.65 brought it to 8.4-9.7 dB. Flutes and oboes (factory Main mic 11-40 dB under Close) at send 0.5 against 0.35 for the clarinets and bassoons came within 0-2 dB of them. Both cost 0.3-0.5 dB of added level.
+- 2026-10-16 (c09): raising a bass bell cut (100 Hz -5 -> -2 dB) also raises the second harmonic of the A-flat1/G1 pedals (98-104 Hz): a -4 dB note trim on such a held note measured no change until it was -7.
+
+## Delivery (c10)
+- 2026-10-16 (c10): the slow quiet-passage ride (3 s Gaussian on S, then 3 s on the gain) lifts short loud passages that sit next to soft ones by 1.4-2.5 dB, which on a delivered file put two 4-bar ff passages within 0.2-0.8 dB of the fff climax on momentary max (master 3.3-4.2 dB apart). Capping the lift by one computed from each frame's own short-term loudness (S smoothed over 1 s, knee + 4 dB, same ratio) restored 1.6/2.5 dB margins, lowered the limiter 2.0 -> 1.0 dB and LRA 14.7 -> 14.2 LU, and cost 0.1-0.2 dB on the 1 s/20 s motion figure; soft bars moved 0.1-0.2 dB.
+
+## Dynamics (c10)
+- 2026-10-16 (c10): per-dynamic level trims that compensate CC1-crossfaded layers (Hollywood Brass, Clarinet KS Master) must be read along the printed dynamic curve, not held from the note's onset: the trims span about 8 dB from mp to f on the solo horn, so an onset-held trim would make an f reached by a crescendo inside a held note about 8 dB louder than a struck f.
+
+## Unisons (c10)
+- 2026-10-16 (c10): when same-patch unisons are merged into one note, rank the kept copy by printed dynamic before slur and length: the longer copy was often a softer chord tone, and two ff theme notes and one mf solo note lost 6-14 dB against their own lines; with the louder copy kept (the longer copy re-entering where the kept one ends, kit c17) they came back to within 2 dB of their neighbours.
+
+## Tools (c10)
+- 2026-10-16 (c10): `fit_rebows.py --write` with `--tracks` and `--skip` rewrites each listed track's whole table from the fitted rows only: every skipped row was dropped from rebow_fills.json. Merge the fitted rows into a copy of the old table instead, and measure each refit before keeping it (3 of 5 single-row refits next to removed CC11 notches were no better).
+- 2026-10-16 (c10): a fitted accent trim test on note length must use the length the note plays, and dotted-quarter accents that end early (detached, re-tongued) play 1.43-1.45 qn, so a 1.5 qn threshold with `>` protected none of them; 24 such notes carried -2..-6 dB steps over their whole length (a 5-9 dB hole after the accent on a ff theme note).
+
+## Strings (c10)
+- 2026-10-16 (c10): soft Leg Slur MAX cello notes (A-flat3 at CC11 31-35) bloom 9-10 dB at +0.85-1.15 s after the moved start and dip 4-9 dB around +2.0 s, at the same times in every render; a raised-cosine cut/lift (loop fill, 0.3 s full width) placed from the previous render's stem landed within 0.05 s and took the bloom to +3 dB and the dips to 3-3.5 dB. A wider lift (0.45 s) on a 0.25 s dip made a new +5 dB bump before it: size the width to the dip, not to the kit's default.
+
+## Harp (c11)
+- 2026-10-16 (c11): Harp Sus RR (Hollywood Harp) has an AHDSR on every sample group with release 3019 ms (decay 5990 ms to sustain 0.001; read with opus_state.load_oib), so a note-off never damps a string and an étouffez in the MIDI does nothing. Release 200 ms in the patch state plus notes extended 2.0 s past their written end (cut at the damp mark) damped the old pitches 15-20 dB within 0.25-0.5 s (before: 6-9 dB) while undamped notes stayed within ±0.5 dB of the old render over 1.5 s. The patch's own hall still rings after the damp (-17 dB at +0.2 s), which a volume-envelope damp had cut too.
+
+## Tempo (c11)
+- 2026-10-16 (c11): a tempo change moves the automatic re-bow points (they are placed in seconds), which detaches every fitted re-bow shape. Listing all current points in REBOW_AT (a note with listed points takes no automatic ones) froze all 90 rows exactly through new phrase arcs in the Lento and the coda; only the piece ends moved, by under 0.02 qn. Re-bow dips stayed at their median, with a few rows 1.5-5 dB deeper on the stems (master within 1 dB).
+- 2026-10-16 (c11): phrase arcs change articulation choices, because note lengths for the Sus/Leg decision are read on the shaped tempo map: a "sub" slowing of two beats (x0.98/0.95 at 126 bpm) made 0.238 s slurred eighths 0.25 s long and turned them from Sus MAX into Leg Slur MAX targets. Diff the keyswitches in parts.json after any tempo change.
+
+## Timing (c11)
+- 2026-10-16 (c11): abutting Sus MAX chord changes on the Hollywood Brass KS Masters (horns, trumpets, trombones) and the oboe/flute KS Masters crossed over +0.055..+0.088 s late (median); a 0.05 s lead with the old note ending at the moved start brought them to +0.013..+0.040 s. On Violins II/Violas accented Sus MAX quarters (hemiola, each followed by a same-pitch quarter) 0.10 s took +0.14..+0.19 to +0.03..+0.08 s. Aligning the brass attacks with the strings raised the master's top sample peak (low-end crest at a fff chord change) from 1.38 to 1.49 and the delivery limiter from 1.0 to 1.7 dB.
+
+## Dynamics (c11)
+- 2026-10-16 (c11): an sf "arrival" rule (spike to the arrival dynamic, then that dynamic - 8 CC) keyed only by onset reaches every staff with an sf there; on a part that had no crescendo (mp) it held the sf body at ff for two beats, +10..+14 dB over the note before. Key such rules by track, or require a crescendo into the mark on that track. A fresh Sus MAX down-bow on a string sf after a crescendo gave +8.8 dB in the first 0.25 s at CC11 114; +4.5 needed -4.5 dB on the attack and -6 dB on the body.
+
+## Timpani (c12)
+- 2026-10-16 (c12): the Timpani Flt KS Rls row (Hollywood Orchestral Percussion) has eight dynamic layers crossfaded by CC1 (V1 full at CC1 0-9 ... V8 at 118-127, fadeTime 120 ms), recorded at their own level; the stroke rows are velocity-layered. With no CC1 lane every roll played V8. Against V8 the layers measured V1 -41, V2 -22, V3 -23, V5 -8, V6 -7, V7 -4 dB, so mapping ppp to V1 left the opening roll silent (-84 dB). V4 for ppp-pp, V5 mf, V6 f, V7 ff, V8 fff with +17..+19 / +9.5 / +7.3 / +3.7 / 0 dB in the volume envelope kept each roll within 1.5 dB of its old level and spread the 1-8 kHz share from 3 to 26 dB (ppp -38, f -22, fff -12).
+
+## Articulation (c12)
+- 2026-10-16 (c12): unslurred wind and brass note changes that abut in the score crossfaded as smoothly as slurred ones (holes -3.0/-3.6 dB against -3.3/-4.2 slurred). A gap of min(0.05 s, 12%) made the woodwinds' tongued holes -5.7 dB (1.6 dB deeper than slurred), but on the Hollywood Brass KS Masters 0.05 s gave only 0.3 dB over the slurs and 0.09 s (at most 18%) 1.1 dB: the brass release and hall fill short gaps, as with the horn repeats (c07).
+
+## Controllers (c12)
+- 2026-10-16 (c12): a short CC1 lift on brass accents (Hollywood Brass KS Masters, CC1 crossfading the dynamic layers) does not brighten the attack: +8 CC1 from the note-on, then +14 from 0.05 s before it, held 0.1 s, moved the 2-5 kHz first-80-ms-minus-body of 146 accents by only +1.0..+2.0 dB (median -14.5 -> -13.5 on the stems, master unchanged). The layer groups' CC1 MidiController fades over 120 ms and the Sus samples' own attack is slow.
+
+## Dynamics (c12)
+- 2026-10-16 (c12): giving untargeted dolce hairpins explicit targets (crest one step over the printed level, back to it) took a mf/mp unison theme (celli, solo horn) from CC 100/94 to 84/70; the stems moved only -1.1..+0.4 dB (predicted 2-6 dB), so the change was mostly timbre (cause not isolated). The swell itself had to come from the volume envelope: +3..+3.5 dB over the long first note gave +2.8..+6.2 dB end over start where CC11 alone gave 0..+3.
+
+## Brass (c13)
+- 2026-10-16 (c13): the Hollywood Brass 2FH KS Master (two horns, CC1 dynamic layers like 1FH) at the solo horn track's gain + 4.6 dB (the movement II c18 offset, which replaced a solo track carrying a +3 dB unison boost) matched the boosted solo horn only at mf (+0.8..+1.3 dB); at f/ff it played +2.4..+3.9 dB over it. Set an a2 track's level per dynamic from its first render, not from a fixed offset.
+- 2026-10-16 (c13): moving a unison pair to its own a2 patch removes it from `find_unisons`' same-patch groups, so other same-patch parts that were merged into it (here Horn 3 and Horn 4 doubling the a2 line) come back as their own notes; check those tracks' new notes and levels after the move.
+- 2026-10-16 (c13): on the Hollywood Brass KS Masters a tonguing gap of 0.06-0.075 s on eighths at 126 bpm (0.30 of the note) holed -3.1 dB, no deeper than 0.04 s (-3.2) or than slurred joins (-3.5); 0.09 s gave -5.0. Brass eighths need a CC11 fall at the change, not only a gap.
+
+## Strings (c13)
+- 2026-10-16 (c13): a measured tremolo (two slashes on a whole note, 0.12 s sixteenths at 126 bpm) played on the Tremolo row folds to 0.5 dB at the sixteenth rate; expanded into repeated Stac RRx9 strokes it folds to 4.0 dB (written-out sixteenths of the same patch 4.1), and the strokes play 5-7 dB over the Tremolo row at the same CC11.
+- 2026-10-16 (c13): the Basses KS Master's Detache row (key 79, not loaded by default) on repeated ff eighths separated them no better than Sus MAX (1-8 kHz fold on the eighth grid 1.1 -> 1.3 dB) and played 1-2 dB quieter; with Marc Shrt (c03) that leaves no tested basses row that articulates repeated eighths.
+
+## Percussion (c13)
+- 2026-10-16 (c13): 18in Zildjian Sus Cymbal Cres key 65 (the longest f take): the .ews length rule (peak = length - about 8.15 s, from key 64) predicted its peak 1.25 s later than key 64 exactly (peak 0.02 s after the crash with lead_s raised by 1.25 s). Its swell is as short as key 64's: 6-16 kHz is -65 dB under the peak 1.5 s before it and -38 dB at 1.0 s. A longer take of this patch gives no longer audible crescendo.
+
+## Accents (c13)
+- 2026-10-16 (c13): an accent fit against same-dynamic neighbours passes theme-head accents that sit under their own pickup (a legato target sags 0.3-0.4 s while the pickup is at full level): 15 of 171 accents were under their eighth pickup. A swell held through the sag (full at +0.04 s, held to +0.35 s, gone by +0.7 s) plus a pickup term in the fit lifted the brass/wind cases by 2-4 dB; where the pickup was 5-6 dB over the accent, only a cut on the pickup itself helped.
+- 2026-10-16 (c13): a pickup measured from its score onset includes the early start of the legato target (the target plays 0.1-0.2 s before its score onset), so it reads several dB lower than the same pickup measured from its moved onset (celli 317: -4.6 against +2.9 dB). Measure accent-over-pickup on moved onsets for legato targets, and state which one a criterion uses.
+
+## Pipeline (c13)
+- 2026-10-16 (c13): per-note trims keyed by score onset start at the score onset, so a legato first note that plays 0.13-0.26 qn early (its target's lead) gets its trim only over its last 0.07 qn: a -6 dB trim on a pickup eighth changed the pickup window by about 1 dB. Use an exact level shape from the moved onset for such notes.
+- 2026-10-16 (c13): a roles.json row with an end-ramp value ramps in over [q0 - 0.5, q0] (the "span" path), not from q0: a row meant to start after a peak 0.09 qn before q0 lifted that peak (tuba 0.501 -> 0.580 at the master's top sample). Start such rows 0.5 qn after the point they must not touch.
+- 2026-10-16 (c13): two roles.json rows that meet ([0,12,12] then [12,16,9,1]) add at the boundary (+2.3 dB at qn 12) as in the kit's section 4; use one row plus a level shape for a step inside a span.
+
+## Memory and rendering (c13)
+- 2026-10-16 (c13): a 33rd Opus instance (2FH KS Master, two rows) took the project from 43 to 45 GB after the 1x render (32 GB of it compressed at the end); the render's attack probe passed with 0 flagged.
+
+## Memory and rendering (c14)
+- 2026-10-16 (c14): read REAPER's memory with `footprint -p <pid> -j out.json` ("footprint" in bytes; top's "mem" is the same figure in GiB, rounded to 1 GiB, and `ps` RSS falls when macOS compresses). On a settled 33-instance session, reloading three string KS Masters with one extra Leg Port MAX row each (the largest legato row of each patch on disk: 2.1-2.5 GB per mic) added only 0.12 GB, and deleting a percussion instance (22in K Crash, Close + Main) freed under 0.01 GB. On-disk row size does not predict Opus's preload, and empty-ish instances cost almost nothing; to save memory, unload mics or whole rows that many notes use, not one-note rows or percussion.
+- 2026-10-16 (c14): rebuilding every track in place (delete and recreate all 33 Opus instances in a running session) took REAPER from 39 to 60 GiB and still growing; only a save, quit and fresh open brought it back to the settled 43 GiB.
+
+## Controllers (c14)
+- 2026-10-16 (c14): CC36 (controllerMap "Repetition: Reset RR") sent inside the music, 0.02 qn before strokes, did not reset the Hollywood Strings Celli KS Master's Stac RRx9 round robin with the Repetition script off (CC69 0): 80 sixteenth strokes in runs of 4-9 still cycled the nine takes in a fixed order (autocorrelation at lag 9 0.73/0.85/0.92 for peak / 1-8 kHz share / centroid, unchanged). The pre-roll CC36 still makes renders reproducible; breaking a long RR cycle needs another means (alternating rows, velocity or length changes).
+- 2026-10-16 (c14): a 10 CC CC11 fall over the last 0.10 s of tongued f/ff eighths on the Hollywood Brass KS Masters deepened the note-change holes only 0.4 dB (-3.1 -> -3.5); at CC11 88-128 10 CC is about 1 dB. Brass articulation at loud dynamics has to come from the volume envelope or a longer gap.
+
+## Phrasing (c14)
+- 2026-10-16 (c14): a two-note slur release of -2.5 dB that starts 0.10 s after the second note's moved onset and is full at 0.20 s took string pairs (mostly quarters and longer eighths) from -0.3 to -3.0 dB second-minus-first, but moved wind and brass eighth pairs at 126 bpm (0.24 s) only -0.2..-1.4 dB: the full cut covers the note's last 0.04 s. Scale the timing to the note length on short notes.
+
+## Pipeline (c14)
+- 2026-10-16 (c14): `build_reaper.py --midi-only` compares each new Opus state with the `.b64` written at the last full build in the jobs directory given on the command line; run from the wrong folder (an empty jobs directory) it fully rebuilt all 33 tracks. The states were byte-identical where nothing changed (mtime-0 gzip), so a cmp of the new and old `.b64` files shows exactly which tracks really changed.
+- 2026-10-16 (c14): level changes simulated on the previous render's stems predicted the delivered LRA within 0.1 LU and the span within 0.3 dB, but the limiter came out 0.5 dB higher (2.3 vs 2.8) because a sample-peak crest at a sustained low chord (celli, tuba, trombones; 1.587 -> 1.725) moved with round robins and longer brass notes. Re-list the master's top peaks after every render; a -2.5 dB notch of 0.16 qn on the four largest contributors took the peak to 1.488 and the limiter to 1.5 dB.
+
+## Articulation (c15)
+- 2026-10-16 (c15): a slur's short first note (at most 0.6 qn) right after another note, on the KS Masters' Leg Slur row, plays the slow sustain layer: 2-10 dB under the note before (median -2.4 dB over 59 wind/brass notes). Played on the Sus row and overlapping the slur's second note by 0.04 qn, with the second note led by min(0.12 s, 0.45 x the first note) at v100 (the KS Master joins it as a legato transition), the median went to -0.1 dB and the share at -4 dB or lower from 34% to 13%; the second note sat 0.6-2.5 dB under the first.
+- 2026-10-16 (c15): unled wind/brass re-attacks after short gaps (tongued changes, repeats, slur boundaries at 100 bpm or faster) reached their 0.25 s peak - 3 dB a median 0.08 s (winds) / 0.11 s (brass) after the score onset, against 0.05 s for the strings. Leads of 0.035 s (winds), 0.05 s (brass) and 0.08-0.09 s (Horn 1/2, Trumpet 2/3, Oboe 2, Cor anglais), with the previous note ending as much earlier so the tongued gap is kept, brought them to 0.056 / 0.052 s; same-pitch repeat holes stayed at their median (-4.7 -> -4.4 dB), with one new 13 dB hole in 204 repeats.
+- 2026-10-16 (c15): on the Hollywood Brass KS Masters a volume-envelope dip at tongued note changes (D at the old note's end, held to the next moved onset, 0.05 s fall) separates where CC11 could not: -4 dB took the holes at played gaps under 0.07 s from -3.5 to -4.9 dB at f and louder, while the master's dip at the same changes stayed at -2.1 dB (the strings carry the rhythm there).
+
+## Strings (c15)
+- 2026-10-16 (c15): CC36 inside the music does not break a stroke row's 9-take round-robin cycle, but alternating two rows does: the Celli KS Master's measured tremolo split between Stac RRx9 and Stac On Bow RRx9 (seeded, 45%, no row more than 3 strokes in a row) took the stroke autocorrelation at lag 9 from 0.73/0.85/0.92 (peak / 1-8 kHz share / centroid) to -0.10/-0.15/-0.10, with every lag 4-18 under 0.3. The two rows' stroke peaks are 0.7 dB apart; the sixteenth fold fell 0.5 dB (3.7-4.9 -> 3.2-4.3 dB per 4 qn).
+- 2026-10-16 (c15): slow soft string phrase entries (Hollywood Strings Leg Slur / Sus MAX, pp-mp) reach body - 6 dB at +0.16..+0.48 s with the family lead alone. A further 0.06-0.12 s of lead (total 0.12-0.24 s) plus a 3-4 dB fill that starts at the moved onset (pre_s = the lead) and lasts about 0.35 s from it brought 17 of 19 to body - 6 dB by +0.15 s; one basses entry overshot its body by 5 dB at +0.4 s. A fill keyed to the score onset would have missed the quiet front, which the lead moves earlier.
+
+## Dynamics (c15)
+- 2026-10-16 (c15): per-dynamic soft trims that are larger at pp than at mf (here up to 14 dB apart on the horns) cancel CC11's fall inside a soft decrescendo (median fall -1.7 dB where the trim rose 2 dB or more, -4.4 elsewhere). Holding the trim at its value at the hairpin's start overshoots (-6.5 dB median, 11.9 dB on one mf > mp horn note); keeping half of the rise gave -5.1 dB. The trims were fitted on notes at a steady dynamic, so they are right for the next note, and only the ramp inside the hairpin needs damping.
+
+## Timing (c15)
+- 2026-10-16 (c15): an `ENTRY_LEAD_S` (soft, loud, mid) tuple's mid value applies only at `ENTRY_MID_MIN_BPM` or faster: below that every entry over CC 50 takes the loud value, so a per-track loud lead meant for ff tutti downbeats (0.12 s) also moves mp/mf entries in a Lento. Gate a loud lead on CC11 > 80 at every tempo.
+- 2026-10-16 (c15): per-track loud entry leads (0.10-0.12 s on horns, trumpets, trombone, bassoon; 0.12/0.10 s on Oboe 2 / Flute 2 Sus MAX) plus +3 dB fills from the moved onset on the -8 dB fronts took the late f/ff tutti entries' body - 3 dB from +0.11..+0.21 s to +0.03..+0.08 s (Oboe 2 front -7.8 -> -3.6 dB). f accents on a GENTLE_ACCENT family keep the score onset (no lead), so they stayed late.
+
+## Pipeline (c15)
+- 2026-10-16 (c15): a stem fix of a change to `build_reaper.vol_points()` itself must compute the old envelope with the code the render was made with (`stem_fix.py --old-src`, the render-time copy in `cycles/cNN/rendered_build/`); with the new code on both sides it applies nothing. The same holds for any analysis that reconstructs a rendered envelope.
+- 2026-10-16 (c15): retiming early fills to a hole's measured minimum moves the minimum: after retiming, seven celli join holes had their deepest point at +0.2..+0.37 s, after the new fill ended, and a hold to that time brought five of them to 2.2-5.8 dB while two others reappeared before the onset. Hold fills over the whole sag (onset to the minimum of the sag measured with the fill in place), and expect Hollywood Strings legato-join holes to shift by 0.1-0.3 s between renders.
+- 2026-10-16 (c15): a measurement that windows a note up to the next note's moved onset loses its notes when a rule gives that next note a lead: a slur-start measure went from 50 notes to 1 after the second notes started 0.1 s early, and a written-length filter on parts.json `dur` dropped the first notes that now overlap. Window on score onsets and written lengths when comparing renders across timing changes.
+
+## Memory and rendering (c15)
+- 2026-10-16 (c15): the 33-instance project opened fresh passed the render script's load wait at 28 GiB and grew to 45 GiB (27 compressed) during the 1x render, as samples kept streaming; the attack probe flagged nothing. The basses' stem came out 1.7-3.2 dB (RMS) louder than in c14 across the whole movement with unchanged patch state and nearly unchanged data, matching c13's levels within 0.3 dB: one render's level for a section can be off by 2 dB, so check a track's per-dynamic medians against the cycle before last before fitting trims to the last render.
+
+## Articulation (c16)
+- 2026-10-16 (c16): an eighth pickup after a rest at mf (the theme's upbeat, 0.24 s at 126 bpm) rises as slowly on the Sus rows as on the Leg rows of the HO KS Masters: Violins I -52.6 dB at the score onset on Sus MAX against -50.8 on Leg Slur MAX (target body -30), Oboe 1 -55 on both, Bass clarinet within 1 dB. Moving 94 such pickups to Sus raised the tutti-motive wind pickups 2.5-4 dB (score-onset windows) but left every exposed solo pickup 8.5-11.7 dB under its target. The slow first sound is the first-note attack after silence, not the Leg row's sustain layer; entry lead plus a fill from the moved onset is the remaining fix to test.
+- 2026-10-16 (c16): measuring a pickup "peak" in a window up to its target's score onset counts the target's own early start (legato and join leads of 0.1-0.2 s), so the two measures disagreed in sign on the same render (winds -3.9 -> -1.7 dB with score windows, -3.3 -> -4.6 on the pickup's own sounding time). End the pickup window at the target's moved onset.
+
+## Measurement (c16)
+- 2026-10-16 (c16): simulate a proposed fill on the previous render's stem before writing it. A hole fill sized from a critic's trace (+7 dB, full 0.12 s before the onset) overshot the note before by 6 dB at -0.12 s; an exact level shape set frame by frame from the measured hole (+6/+8/+6/+3 dB at -0.04/0/+0.04/+0.08 s) took a 10 dB dip to 4 dB with no overshoot on the render.
+- 2026-10-16 (c16): repeated eighths reported as "alternating samples 5 dB apart" measured -0.7 dB on-beat minus off-beat in broadband RMS and +2.4 dB only in 50-140 Hz; check a band-limited reading broadband before applying a broadband metric cut.
+
+## Mix (c16)
+- 2026-10-16 (c16): a level-switched 2.5 kHz -2.5 dB high shelf on both violin sections over the loud tutti spans took the master's 2-5 kHz share in the loudest frames (within 6 dB of the file maximum) from -9.6 to -10.3 dB (Dvorak 9/i about -11.1) and, with +1.5 dB on the basses' f/ff trims, raised 100-300 Hz there by 0.6 dB, with the delivered LRA, span and limiter unchanged.
+
+## Articulation (c17)
+- 2026-10-16 (c17): an eighth pickup after a rest sits on a flat quiet plateau of the HO first-note sample (its second half only +2.9 dB over its first), 4-18 dB under its target with the envelope removed, the same within 1.7 dB on Leg and Sus rows, so neither a row change nor a lead helps. An exact level lift from the pickup's moved onset to the target's moved onset (2-12 dB per pickup, set from one render) took 21 exposed pickups from a median 14.2 to 4.0 dB under their target's 200 ms peak, with none over the target's body; two stayed 8-9 dB under at a 12 dB cap.
+
+## Accents (c17)
+- 2026-10-16 (c17): a per-accent fit that measures the window moved onset + 0.05..0.35 s under-reads long Hollywood Strings accents: they peak at a median +0.30 s after the score onset (p75 +0.43; the sample's own bloom, the same in unaccented notes), and on led legato targets (58% of string accents, lead about 0.11 s) the window ends before the peak, so the fit asked 2-2.5 dB too much. Measuring notes of 1 qn or longer as their loudest 200 ms from the score onset, with swell + step capped at 4.5 dB, took the string long-accent excess over the line before from +4.8 to +3.7 dB and the cases over 6 dB from 33 to 18; the cap left three first-theme accents only 0.7-2.4 dB over the line, so check exposed melody accents after any capped refit.
+
+## Strings (c17)
+- 2026-10-16 (c17): Hollywood Strings syncopes (r8 + an eighth tied to a quarter at mf, Leg Slur MAX or Sus MAX dyads) swell about 8 dB from their start to their last 0.2 s at a flat CC11 and crest on the next downbeat. An exact shape of +6 dB from -0.12 to +0.10 s, +3 at +0.25, 0 at +0.45 and -3 dB to the end brought the front to -0.6..-3 dB of the note's maximum against -3.9 at the end, with the section's mean level within +0.8 dB.
+
+## Brass (c17)
+- 2026-10-16 (c17): the Hollywood Brass 2FH KS Master (a2 horns) is 5-15 dB brighter above 1.6 kHz than the 1FH KS Master at the same pitch and CC1 (2-5 kHz re 500 Hz-2 kHz -8..-10 dB against -16..-22 for single horns in the same loud chords; the layer tables match, so it is the recordings). A static 1.25 kHz -3 dB shelf plus a 1.6 kHz -8 dB shelf switched on at CC1 108 and above matched the single horns (-18..-20 dB) and cost about 1.6 dB of level, which +1.0 dB back restored (+1.7 overshot by 0.7).
+- 2026-10-16 (c17): the Solo Trumpet KS Master's G5 and A-flat5 at CC1 115-120 carry harmonics 10-13 (8-11 kHz) 15-25 dB stronger than its other notes (a pitch zone of the samples), so one trumpet made 74% of the master's top octave at a fff climax. A 5 kHz -14 dB high shelf over those notes took the master's 8-16 kHz from -24.5 to -30.4 dB re 500 Hz-2 kHz, inside a commercial recording's loudest-moment range, at -0.7 dB trumpet level.
+
+## Mix (c17)
+- 2026-10-16 (c17): above 5 kHz the shared hall (5.5 kHz high cut) adds little decorrelated sound, so the narrow brass and percussion mic pairs left the master's top octave more correlated than five recordings (0.59 above 4 kHz against 0.38-0.53). Widening only the three percussion instances in Opus (width 0.4 -> 0.7) with the brass top tamed took it to 0.547 (8-16 kHz 0.77 -> 0.64) with 1-4 kHz unchanged within 0.013; the cymbal stems went from correlation 0.81 to 0.65. Lowering their seats by 0.08 to offset the widening was not needed: the stems moved 1.0-1.6 dB to the left.
+
+## Accents (c18)
+- 2026-10-16 (c18): long Hollywood Strings accents (2 qn at 126 bpm, mostly Leg BC targets) start 1-7 dB under their own body at +0.45..+0.75 s (median -1.3 dB on 19 notes), because the sample swells after the onset; a gentle swell fitted against the neighbours often comes out 0. A body cut that ramps in from +0.25 to +0.45 s and holds to the next onset moved front-body by about 2.7 dB per 3 dB of cut (median -1.3 -> +1.2), with the render matching the stem-level simulation within 0.2 dB. Notes of 1 qn followed by a rest have no body to cut: exclude them, or the body window measures the release.
+
+## Strings (c18)
+- 2026-10-16 (c18): a Hollywood Strings Sus MAX off-beat eighth dyad (Violas, 0.3 s at f) played a release-sample burst 3-5 dB over its own body 0.03-0.09 s after the note-off on every second note (alternating release takes), identical in two renders. A -6 dB notch from the note-off to +0.22 qn (0.10 s) removed it; -5 dB to +0.20 qn left +1.5..+2.2 dB. Check the level after the note-off of short loud notes, not only the note body.
+
+## Mix (c18)
+- 2026-10-16 (c18): a narrow bell on one hot bass pitch costs low end across the whole tutti. On the Basses KS Master's F2 (87 Hz fundamental 13 dB over its harmonics), -6 dB at 0.35 oct lowered the master's loud-frame 20-100 Hz share by 0.9 dB in simulation; at 0.25 oct it kept -4.4 dB at 87 Hz and cost 0.3 dB (rendered -12.80 -> -13.10). Simulating ReaEQ changes as a zero-phase FFT magnitude response on the stem gave the same numbers B's per-note model gave (-2.8 / -4.4 / -2.0 dB at 80/87/95 Hz).
+
+## Pipeline (c18)
+- 2026-10-16 (c18): when a cycle's changes are level and EQ only, `build_reaper.py --mix-only` on all tracks needs no Opus reload. The render matched the stem-fix simulation within 0.2 dB everywhere except one wind note at a re-attack, which came out 2.4 dB louder (bassoon sample variation between renders). The simulated delivery limiter came out 0.3 dB high (2.2 vs 1.9).
+
+## Timing (c19)
+- 2026-10-17 (c19): GENTLE_ACCENT accents on plain Sus rows have the same attack latency as any Sus note, so the c26 rule that kept accent articulations on the score onset (written for the fast Sus Accent samples) left them a sixteenth late at 126 bpm. Giving them the ordinary re-tongue / entry leads moved the audio by the planned amount (envelope alignment against the previous render: brass median -0.050 s over 110 notes, winds -0.030 s over 92), with no change to accent fronts (2-5 kHz first 80 ms over 3 dB: brass 0, winds 2). Refit per-accent swells after such a timing change: brass in 2-4 dB went 23 -> 30 of 37.
+- 2026-10-17 (c19): a Hollywood Strings Sus MAX slur head (an eighth at 126) before a Leg Slur target that is led 0.17 s crossed to its own pitch +0.088 s late (median of 21); leading the head by the full 0.17 s moved it to -0.062 s (0.15 s for 0.17 s of lead). A Sus head after another Sus note needs about 0.10 s, not the legato target's lead.
+- 2026-10-17 (c19): unled Sus MAX string strokes after a short gap (bar-72 hammer strokes) moved -0.09..-0.105 s for a 0.10 s re-tongue lead with the previous stroke ending as much earlier; a family-wide string value also caught 151 basses eighths that were already on time: give string re-tongue leads per track.
+
+## Articulation tests (c19)
+- 2026-10-17 (c19): accented Hollywood Strings notes reached as Leg BC MAX targets do not gain front weight as fresh Sus MAX strokes when the note before is legato: the Leg -> Sus path cuts the legato note at the keyswitch and the Sus attack blooms over 0.3-0.8 s, so front (onset..+0.15 s) minus body (+0.45..+0.75 s) got worse on 7 of 9 notes (celli -4.9 -> -7.9, with a 7 dB hole before one beat) and better only where the Leg BC note itself sagged 6-7 dB (celli -6.0 -> -0.8). The c06/c09 strokes that worked followed a Sus note or a pickup.
+- 2026-10-17 (c19): f triplet eighths at 126 bpm (0.16 s, unslurred violas) on Stac On Bow RRx9 at the written length separated less than on Sus MAX (onset peak minus the trough before the next onset, median 4.5 -> 2.6 dB) and played 3.1 dB louder; the ring of the stroke fills a 0.16 s slot.
+
+## Pipeline (c19)
+- 2026-10-17 (c19): early_fills.json times are keyed to the score onset, while join holes measured on a led legato target are measured from its moved onset (0.17-0.24 s earlier on Hollywood Strings). Fills written with moved-onset times landed late: no effect on three violas holes and a +5.2 dB spike on a horn join. Convert before writing (pre_s = lead + pre, hold_s = hold - lead): holes 7.4-12.1 dB went to 3.0-5.7 dB.
+- 2026-10-17 (c19): in score_to_parts.py's lead stage `polyphonic()` uses the current note ends, which already carry the legato overlaps, so every note of a legato line reads as polyphonic there; test polyphony on the written lengths in any rule that runs after the overlap pass.
+
+## Articulation (c20)
+- 2026-10-17 (c20): the Hollywood Strings 1st Violins KS Master's "Slur Runs" row (key 42; its regions are the LegSl p/mf/ff transitions plus "HsScl"/"WsScl" half-step and whole-step scale samples, read from the .oib) separates slurred sixteenths at 126 bpm (0.119 s per note) where Sus MAX smeared: own-pitch share median 0.52 -> 0.68 and 0.36 -> 0.83 on two runs, first dominance +0.08..+0.13 -> +0.05..+0.06 s, stem level within 1.4 dB, at v127 with a 0.02 qn overlap and no lead. A third-leap from a soft (v53) first note still did not speak. It is the first articulation that passed for fast slurred string figures (Leg Slur MAX, Detache and the StacSl row had failed); the violas and celli KS Masters have no such row.
+- 2026-10-17 (c20): the row has no "Leg" in its name, so a pipeline that tests "Leg" in the row name to decide legato behaviour (overlaps, targets, the keyswitch guard, bow-change joins, entry leads) treats it as a plain sustain; give such rows an explicit legato flag.
+- 2026-10-17 (c20): a run that ends in an accented down-bow note: after a legato row, a fresh Sus MAX stroke needs its keyswitch before its moved onset, which cut the run's last sixteenth to 0.09 qn; as a Leg BC target it kept the note but sat 2.5 dB under the c19 Sus stroke and needed a level lift.
+
+## Timing (c20)
+- 2026-10-17 (c20): moving a fast Sus MAX run (32nds, 0.067 s) and its Leg Slur target together 0.12 s earlier moved the target's pitch takeover only 0.06-0.08 s (violas +0.17 -> +0.11 s, celli +0.29 -> +0.21): the Sus -> Leg join's own slowness is not removed by moving the group.
+- 2026-10-17 (c20): a Hollywood Strings Sus MAX slur head led by 0.10 s (instead of its legato target's 0.17 s) crossed to its own pitch at a median +0.013 s over 21 heads, with the target takeover unchanged (+0.31 s).
+
+## Mix (c20)
+- 2026-10-17 (c20): an 80 Hz -5 dB low shelf on the Basses KS Master, wet only over the loud tutti spans, took the master's loud-frame 30-60 Hz from -26.2 to -29.9 dB and 60-100 Hz from -13.4 to -14.5 dB re 250 Hz-2 kHz (soft frames -27.7 / -11.3), so loud frames again carry less sub-bass than soft ones as in recordings, with 100-250 Hz -0.2 dB and the loud-frame level -0.08 dB.
+- 2026-10-17 (c20): on repeated f eighths on the Basses Sus MAX (two alternating round robins), volume steps on the attacks of -1.0 (on-beat) / +2.5 (off-beat) dB turned the 40-300 Hz front difference from +2.5 to -1.1 dB and raised the passage 1.3 dB; -0.8 / +1.2 with a period-6 irregularity of ±0.6 dB gave +0.4 dB, note n against n-2 0.09 -> 0.74 dB, +0.5 dB level. The steps change the front by about 0.9 dB per dB of on-off difference.
+
+## Strings (c21)
+- 2026-10-17 (c21): the Hollywood Strings KS Masters set long AHDSR releases on the Sus MAX sustain groups (Celli mf/f/ff 524 ms, p 700, pp 931; Basses f/ff 524, mf 700; Violas f 323-394, mf 394-653) against 100-237 ms on the legato rows; the instrument-level envelope releaseTime is 931 ms. Capping only the mf/f/ff Sus MAX groups at 250 ms (found by region row, read with opus_state.load_oib) moved Sus MAX notes partly: basses -10 dB after note-off 0.35 -> 0.26 s, celli tutti cut-offs 0.34/0.47 -> 0.17/0.41 s, master cut-offs 0.20/0.28/0.27 -> 0.13/0.24/0.23 s, string short-rest drop median 4.1 -> 5.8 dB; basses' ff repeated eighths still ran together (dip 0.5 -> 0.9 dB). Some notes did not change at all, so the instrument releaseTime or the layer crossfade probably still holds part of the tail (untested).
+- 2026-10-17 (c21): a shorter release changes re-bow joins: the basses' re-bow dips deepened from a median -1.5 to -3.2 dB (fill shapes fitted on the long tails) and needed a refit (-1.2 after). Refit re-bow fills after any release change. A whole-track refit can also move held levels: on the celli it lowered five held bars by 3.5 dB, so compare bar levels before keeping one.
+- 2026-10-17 (c21): an unslurred top note after a fast Sus MAX run (violas/celli, 32nds into a 2-qn F) played as a fresh Sus MAX stroke at velocity 105 took the pitch over 0.18-0.20 s earlier than as a Sus -> Leg Slur join (now -0.07 / +0.01 s from the score onset). The violas' note body rose 2.2 dB, but the celli's fell 6.6 dB. Check each section's body level after a row change.
+
+## Timing (c21)
+- 2026-10-17 (c21): Hollywood Strings celli slurred arpeggio eighths at 112 bpm: raising the legato-lead cap from 0.45 to 0.75 of the previous note only on rising steps of 5+ semitones (0.12 -> about 0.20 s lead), with the target kept at least 0.10 s after the previous moved onset, moved the step crossover median from +0.083 to +0.070 s and the count over +0.15 s from 7 to 2 of 36. Raising the cap on every step would have led all of them 0.2 s, including steps already on time.
+- 2026-10-17 (c21): on the 1st Violins "Slur Runs" row a major third from the run's v53 head (a step with no scale sample) needs more than its 0.25 qn neighbour allows: a 0.07 s lead (capped at 0.75 of the head) moved its first dominance only +0.217 -> +0.167 s (dominance 0.00 -> 0.12).
+
+## Mix (c21)
+- 2026-10-17 (c21): Hollywood Brass Solo Trumpet (1TP KS Master) is duller above 5 kHz than the Solo Trombone (1TB KS Master) at the same CC1 and mic setting (5-10 kHz minus 0.5-2 kHz: trumpets -23..-26 dB, trombones -19..-20). A static 4 kHz high shelf of +2.5 dB on the trumpets and -4 on the trombones moved the trumpets' share of the master's 5-10 kHz from 5.6% to 21% and the trombones' from 19% to 8% at the climax. Master 5-10 kHz changed by +0.4/-0.7 dB and 10-17 kHz by -1.5 dB in the loud tutti.
+- 2026-10-17 (c21): the Hollywood 32in Med Tam Tam's strongest partial is about 86 Hz (F2, 25 cents flat), and it decays more slowly than the upper bands. A -9 dB bell2 at 86 Hz, 0.3 octave wide, took its 71-89 Hz excess over the rest of the orchestra from +10..+13 to +4..+6 dB. Bar levels changed by -0.03 dB in the fff stroke, but the pp soft-stroke stem fell 4-6 dB plain RMS, because that partial is most of its energy.
+- 2026-10-17 (c21): the per-pitch left-right offsets of Solo French Horn (1FH KS Master) notes (up to 10 dB between neighbouring pitches) did not change when the mic-pair width went from 0.3 to 0.15. The offset is in the samples or the hall return, not the pan spread, so width does not fix it.
+- 2026-10-17 (c21): +3 dB on the f/ff/fff timpani rolls in three loud tuttis (rolls -16..-19 -> -13..-16 dB re master) left the loudest 3 s windows within 0.1 dB, but the master's top sample peak rose from 1.48 to 1.53, so the delivery limiter went from 1.7 to 2.0 dB.
+
+## Strings (c22)
+- 2026-10-17 (c22): repeated ff eighths on the Hollywood Strings Basses KS Master Sus MAX (0.47 qn at 126 bpm) swell to mid-note and run together, and no row fixed it (Marc Shrt, Detache, a 250 ms release cap). A volume dip of -5 dB over the last 0.08 s before each next moved onset (0.02 s ramps, back 0.025 s after it) took the eighth-grid fold from 1.7-2.5 to 5.6-6.8 dB at 1-4 kHz and from 2.7-3.1 to 6.8-7.5 dB at 30-150 Hz. +1.5 dB over the span kept the stem RMS within 0.12 dB, and the master's 30-150 Hz fold rose 1.0-1.3 dB. The render matched the stem simulation within 0.3 dB.
+- 2026-10-17 (c22): a fff note that opens a Leg Slur MAX phrase straight after measured-tremolo Stac strokes plays the slow first-note layer: 19 dB under its attack for 0.8 s (Celli KS Master, A-flat3). As a fresh Sus MAX stroke (the next note joining it as Leg BC) the worst 1/8 qn was 6 dB under the held body, the body came up 6-10 dB, and 2-5 kHz first 80 ms minus body went from +4.9 to -4.6 dB. The c19 rule (no Sus stroke after a legato note) does not apply after short stroke rows.
+- 2026-10-17 (c22): capping the AHDSR release of the Violas KS Master's Sus MAX release-trail groups (mf/f/ff "RT", 1660 ms) at 400 ms changed nothing measurable (violas' rest drop 5.8 -> 5.7 dB, re-bow dips unchanged). The release-trail sample's length is not set by that group's AHDSR release.
+
+## Delivery (c22)
+- 2026-10-17 (c22): a quiet-passage ride that reads short-term loudness (3 s) also lifts short ff stabs between soft bars, and the FAST_CAP on 1 s-smoothed S does not stop it: a one-chord ff stab became the 4th-loudest moment of the mp3. A second cap read from momentary loudness (400 ms, the max over ±0.5 s), so no momentary peak is lifted above knee + 6 dB, moved it to 9th and restored the order of two ff points. LRA, p10 span and limiter were unchanged (14.4 LU, 19.0-19.1 dB, 2.0-2.1 dB).
+
+## Pipeline (c22)
+- 2026-10-17 (c22): a per-accent refit after a level cut on the notes before an accent reads the cut as accent excess, and gives the accent a negative step (celli bar 31: -4 dB on the two half notes before a ff accent turned its 4.5 dB swell into [0, -2]). Refit accents before adding such shapes, or skip the accent.
+- 2026-10-17 (c22): a stem fix that copied every stem (about 4 GB) to `render_first/` filled the internal disk. The REAPER bridge script then stopped at a ReaScript error dialog, and REAPER had to be killed. Check free disk space before writing renders or copies; `stem_fix.py` now keeps only the originals it replaces.
+
+## Articulation (c23)
+- 2026-10-17 (c23): the Hollywood Strings KS Masters' "Sus Marc LITE" row (key 25, unloaded by UNLOAD_UNUSED_ROWS) moves an accented ff down-bow's weight to the start: over 10 strokes on 1st/2nd Violins and Celli, front (-0.03..+0.15 s) minus body (+0.30..+0.75 s) went from a median -1.9 to +2.4 dB and the peak from +0.29 to +0.17 s after the score onset, against Sus MAX at the same velocity, CC11 and envelope. The row plays 2-8 dB louder than Sus MAX (whole note), and two 1st Violins strokes had a 2-5 kHz front 4-7 dB over the body: budget a level step with the swap. Loading one more row on three string tracks did not raise the settled render footprint (45 GB, 0 compressed).
+- 2026-10-17 (c23): a pipeline that gives leads only to rows named exactly "Sus MAX" (string re-tongue leads, the Leg -> Sus entry path) silently drops them when a test swaps in another sustain row: the Marc LITE strokes lost their 0.06-0.10 s leads in the first build. List the sustain rows that take stroke leads, and diff the moved onsets after every row change.
+- 2026-10-17 (c23): Hollywood Strings off-beat ff eighth dyads (Violas Sus MAX, 126 bpm) followed by an eighth rest separate when the note ends at 0.6 of its written length: the drop into the rest went from a median 2.6 to 9.9 dB, with the dyad's first 0.15 s within 0.3 dB. The c21/c22 release caps (AHDSR release of the sustain and release-trail groups) had moved it by 0.1 dB.
+
+## Timing (c23)
+- 2026-10-17 (c23): raising the legato lead cap from 0.45 to 0.75 of the previous note on every target (not only listed ones) on 2nd Violins, Violas and Celli, with each target kept at least 0.10 s after the previous moved onset, took the formerly capped targets' crossover from +0.085..+0.160 to +0.017..+0.075 s (medians by row) and did not deepen the joins (6 dB or more: 23 -> 21 over the three tracks), but put 6-8 targets per track at -0.08..-0.15 s.
+- 2026-10-17 (c23): on 2nd Violins the movement II per-articulation offset (Leg BC 0.03 s later than Leg Slur) had the wrong sign in this Allegro, but reversing it in full (-0.03 -> +0.03 s) overshot: cap-free Leg BC targets went from +0.032 to -0.033 s against Leg Slur at 0.000. On Violas +0.05 s brought Leg BC level with Leg Slur (-0.020 s both). Change such offsets by half the measured gap.
+- 2026-10-17 (c23): printed staccato strokes on the 1st Violins Stac RRx14 row reach -3 dB of their peak 0.11 s after note-on (peak 0.13 s), later than the winds and the other sections' Stac RRx9 (0.04-0.07 s); a 0.05 s lead with the played length kept took them to +0.065 / +0.095 s. Abutting Sus MAX string strokes take an abut lead of 0.10 s (old note ending at the moved start) for a crossover of +0.045..+0.075 s from +0.105..+0.150, but cap that lead at about 0.45 of the previous note's slot, or a sixteenth before it keeps 0.02 s.
+- 2026-10-17 (c23): the Clarinet KS Master's "Leg Slur" row needs a lead like the other winds: 0.05 s took Clarinet 1's legato crossover from +0.082 to +0.042 s (earliest -0.030 s).
+
+## Accents (c23)
+- 2026-10-17 (c23): a gentle accent swell that peaks at +0.15-0.25 s on a Hollywood Strings or woodwind Sus/Leg sample, which is itself still rising for 0.25 s, puts the emphasis at about +0.3 s (accented and plain notes then start alike: front-body difference -1.3..+0.8 dB). A swell full at +0.03 s, held to +0.15 s (legato +0.22 s), gone by +0.40 s (+0.50), refit per accent on a front window (score onset - 0.03 .. + 0.18 s) and followed by a body cut of up to 3 dB from +0.18-0.28 s on notes of 0.45 s or more, gave accented-minus-plain front-body of +2.0..+3.3 dB on short notes and +1.5..+2.5 on long ones, with stem RMS within 0.3 dB. A front-window refit against staccato neighbours wants -6 dB steps on the long accented note after them; exclude those.
+- 2026-10-17 (c23): the "2-5 kHz first 80 ms minus body" harshness measure rises with any front-weighted level swell (winds -6.2 -> -4.9 dB median here with no change of sample or row), so read it together with the broadband front-minus-body: a rise of both by the same amount is level, not brightness.
+
+## Measurement (c23)
+- 2026-10-17 (c23): timing changes on tracks that do not set the master peak can still move it: retiming Clarinet 1 and 2nd Violins (+0.09 each at that sample) put a timpani tie stroke with tuba and celli at 1.603 (c22 1.427 at the same sample) and the delivery limiter from 2.1 to 2.6 dB; -2 dB on the two largest contributors over 0.3 qn at the attack brought the limiter back to 2.0 dB. Re-list the top peaks after any timing change, not only after level changes.
+
+## Accents (c24)
+- 2026-10-17 (c24): a per-accent fit on a front window (score onset - 0.03 .. + 0.18 s) misreads the slurred target of an eighth pickup: that window falls in the legato transition sag, so the fit drove 13 such accents to the swell+step cap, and they then stood 5-9 dB over the plain notes after them. Cuts of min(rise, over-next - 3.5) dB over the onset - 0.03 .. + 0.35 s took them to +1.8..+4.7 dB on the render, as simulated. Check accents against the line after them, not only the neighbours used in the fit, and measure a pickup's target from past the sag (+0.10 s).
+- 2026-10-17 (c24): the Hollywood Strings "Sus Marc LITE" row carries its level in its first 0.25 s. A whole-note level step that matches a Sus MAX note's mean level therefore leaves the body 3-6 dB low (a stab, then a tail 12 dB down). Set the step from the body (+0.30 s on) and trim the front on its own: front - body +10.5 -> +2.8 dB with the body at the old Sus MAX level.
+
+## Strings (c24)
+- 2026-10-17 (c24): a soft (CC11 44-50) first note on Leg Slur MAX held 4 qn (Celli KS Master, G2) can play a 0.3 s burst 7-8 dB over the bar at its note-off, ahead of the next phrase's pickup. A -9 dB notch from the note-off to the next moved onset took the master there from -25 to -32 dB. Check the level after the end of soft held notes, not only inside them.
+- 2026-10-17 (c24): `fit_rebows.py` (0.12 s smoothing) does not see Hollywood Strings re-bow dips measured on 80 ms frames: a refit moved the rows by under 1 dB. Look at each dip's profile. A 0.3 s hole is a fill case (+4 dB took one from -5.7 to -1.8). A ±3 dB swing with a 0.3 s period is the sample's bow/vibrato motion, and a fill would follow it.
+
+## Mix (c24)
+- 2026-10-17 (c24): the Basses KS Master's hot F2 (87 Hz) needed a narrow, deep cut: -10 dB at 0.15 oct (ReaEQ read back bw 0.14) took F2's 60-100 Hz minus 160-300 Hz from +5.8 to +2.4 dB, into the range of its neighbours (E-flat2 +5.2, G2 +3.5), with E-flat2/G2 unchanged within 0.3 dB and the master's soft F2 bar -0.1 dB. The c18 setting (-6 dB at 0.25 oct) had left it 3 dB hot.
+
+## Tempo (c24)
+- 2026-10-17 (c24): adding a phrase arc also adds the apex hold (x0.96 on the beat of the lead line's top note), which an arc meant only to ease into a fermata does not want. In the middle of an ff Allegro theme it is a hitch; `APEX_SKIP` turns it off per arc. Two side effects of arcs to diff for: a slurred eighth near 0.25 s flipped from Sus MAX to a Leg Slur target (the articulation length test reads the shaped map), and notes on a beat slowed under 100 bpm lose rules gated at 100 bpm (re-tongue leads).
+
+## Dynamics (c24)
+- 2026-10-17 (c24): on repeated f eighths on Basses Sus MAX, the STR_REP_DETACH note-end dips do not fix weak off-beat fronts. Dropping the on/off level steps simulated worse (front on-off +3.25 -> +4.71 dB). Keeping larger steps (-1.2/+1.6) with the dips gave +1.92 dB on the render.
+
+## Loop pulse (c25)
+- 2026-10-17 (c25): Hollywood Orchestra woodwind and horn sustains loop too, and a single sample held 7-10 s reads 0.4-0.8 in band or centroid autocorrelation (bass clarinet at 3.95 s; bassoon at about 4.7-4.9 s). Breath splits into pieces of 2.1-3.1 s (shorter than any measured loop, irregular) took them to -0.03..+0.23. Each new piece re-enters at its own sample level (+2.7 dB on a ppp bass clarinet, a +3.5 dB bloom on a pp horn), so check the stem after every split and level it with a seconds shape.
+- 2026-10-17 (c25): an autocorrelation at the loop lag needs a window of at least 1.5 loop periods. On 6-7 s notes the "best lag in 2.5-5 s" reads 0.5-0.95 from noise, and over a long passage with rests (a whole Lento) a slowly falling autocorrelation (0.57 at 2.5 s to 0.31 at 4.8 s) is phrase-level dynamics, not a loop. Check sub-windows and look for a peak at the period.
+
+## Mix (c25)
+- 2026-10-17 (c25): in Opus, narrowing a solo woodwind KS Master's mic-channel pans to width 0.05 (from 0.3-0.5, seat kept to the measured 1.25-4 kHz image) steadied it. Per-pitch R-L SD at 400-1000 Hz went from 4.2-6.0 to 2.4-3.7 dB, a clarinet solo's note-to-note image steps from 8.2 to 1.4 dB, and the master's 250 Hz-4 kHz correlation from 0.531 to 0.549. Per-dynamic note levels changed by under 0.3 dB. On Solo French Horn and Solo Trumpet (0.15 / 0.3 -> 0.05) nothing changed (SD 2.0-4.8 dB before and after). That is the second width test with no effect on the Hollywood Brass per-pitch offsets, so their source is not the pan spread (inferred: the samples' own L/R content reaching the hall).
+
+## Tempo (c25)
+- 2026-10-17 (c25): rules gated on tempo (re-tongue leads at 100 bpm or faster and the like) should read the printed tempo map with its rit. ramps, not the phrase-shaped one. Read on the shaped map, an arc's apex hold (x0.96 on a 100 bpm beat) switched one beat's leads off. With the gate on the pre-arc map, the c24 arcs changed no articulation except the one they were meant to change.
+
+## Accents (c25)
+- 2026-10-17 (c25): a per-accent fit against plain neighbours cannot fit an accent chain (a hemiola of accented tied notes), because no neighbour is plain. A step target of +3 dB (0..+0.30 s after the score onset minus the 0.30 s before), fitted as a plain swell by simulation on the stems in 2-3 iterations, took most chain accents from -1.4..+1.6 to +2.3..+3.0 dB. Two cases stayed low: a swell cap, and an older level cut ramping out inside the before-window. Step trims (+0.5 dB) were no use there, because a note trim's 0.6 s ramp lands in the next accent's before-window and cancels its step.
+- 2026-10-17 (c25): on the Hollywood Brass KS Masters' Sus rows, moving the gentle accent swell earlier (full at +0.03 s, held to +0.15 s, gone by +0.40 s, then a per-accent refit) moved the accents' peak time only from 0.22 to 0.20 s (median of 120). Peaks after 0.2 s went from 57 to 40%, and front minus mid from -1.3 to -0.7 dB. The Sus attack sets the peak time, and level shaping on top of it does not move it.
+
+## Timing (c25)
+- 2026-10-17 (c25): an extra legato lead (+0.10-0.12 s pair extras on Oboe D5 -> C5 / E5 -> D5) moves the transition sag forward with the pitch crossover. Crossovers went from +0.14..+0.26 to -0.055..+0.135 s, but two joins that had no hole at the beat got a 7-8 dB hole there. Look at the stem's level around the beat (60 ms frames) after any lead change, and fill it with an exact shape (+6 dB from -0.05 to +0.10 s took them to 3-4 dB).
+
+## Strings (c25)
+- 2026-10-17 (c25): a printed down-bow on the first beat of a ff melody, merged into the slurred same-pitch eighth before it, plays with no attack (7-9 dB under the second violins' stroke). Listing it as a down-bow stroke (Sus MAX, v105) made the eighth a led legato target and the beat a fresh stroke, and took the melody from 13.5 to 10.6 dB under the master on the beat, level with the second violins. Check every printed bow mark that a merge rule swallows.
+
+## REAPER and envelopes (c26)
+- 2026-10-17 (c26): the volume envelope is written on a 0.125 qn grid plus each shape's own breakpoints, so a step in the base envelope (a soft trim at a chorale entry) is smeared between two grid points. A new shape breakpoint placed between those grid points sharpens the step and changes the entry's front. One at 695.95 put a moved Trombone 1 entry 10.6 dB under the previous build for 0.05 qn. Put level-shape breakpoints near entries on the grid, and list the new-minus-old envelope's extremes per track before rendering (`cycles/c26/actor_scripts/envdiff.py`).
+
+## Strings (c26)
+- 2026-10-17 (c26): place a JOIN_NOTCH from the burst's position on the stem of the render it corrects, for each occurrence. The exposition and recapitulation statements of one join had their bursts 0.1 qn apart (+0.10..+0.25 s and +0.20..+0.30 s). A notch copied from the recapitulation fell on the exposition's pre-burst sag and deepened it to 8.8 dB under the bodies. A burst also shrinks when a level shape that had raised it is removed (4.5 dB here), so re-measure before notching.
+- 2026-10-17 (c26): Hollywood Strings renders of identical data are not repeatable on every note even with the CC36 round-robin reset. Violas: c25 against c24/c26 differed by 4-9 dB over whole notes (qn 50-52.7, 436), while c24 and c26 matched there. A critic's level finding on one string note can come from one render's sample; compare with the render before it before changing a trim.
+
+## Delivery (c26)
+- 2026-10-17 (c26): where the delivery ride sits at its cap (a soft coda), a mix cut passes almost 1:1. -2 dB on every track from the pp chorale on took the delivered drop from the mp solo to the chorale from 0.7 to 2.5 dB, LRA 14.4 -> 15.0 LU and the p10-to-max span 19.1 -> 19.8 dB (the coda sets p10), with the limiter and the climaxes within 0.15 dB.
+
+## Low end (c26)
+- 2026-10-17 (c26): the Tuba patch's E2/F2 fundamentals carry most of the master's 30-100 Hz on those notes (stem 30-100 minus 300-1k -7 / -6 dB against -14..-23 on other pitches). A static ReaEQ bell at 84 Hz, -5 dB, 0.3 oct, lowered the master's 30-100 re 300-1k on those notes by 1.9-2.6 dB and the tuba's own level by under 0.3 dB.
+
+## Low end (c27)
+- 2026-10-17 (c27): the Basses KS Master's B1 (61.7 Hz) and D2 (73.4 Hz) fundamentals are as strong as harmonics 2-4 (-2.2 / +0.6 dB), against -6..-21 dB on the neighbouring pitches. Two static bells (61.7 Hz -6 dB, 73.4 Hz -5 dB, 0.25 oct, as a wet-1 `mute_eq` from inside the pre-roll) lowered the master's 30-100 Hz re 300-2k Hz by 6.2-6.5 dB on those notes, as a plain-amplitude simulation predicted within 0.4 dB. Master K moved by 0.4 dB or less. The bells also take back about 5 dB of a 66 Hz loud-EQ boost elsewhere, so check every existing low-band EQ that the new bells overlap.
+
+## Articulation (c27)
+- 2026-10-17 (c27): a Hollywood Strings Sus MAX stroke at the printed mp after mf staccatos (v58, CC11 at mp) did not fill the hole a disconnected Leg Slur first note had left: the body read -48.1 against -46.0 for the Leg Slur note. The hole was the CC11 level, not the row: an +8 dB volume step fixed it. Before changing a row to fill a level hole, compare the row's level at that CC11.
+- 2026-10-17 (c27): the Stac RRx9 rows sit 4-11 dB over the Leg rows at mf (CC11 72) as well as at f, the range where a CC11-gated row trim (80 and up) did not reach. For short staccato strokes, put level cuts in as exact steps on the attack (0 at -0.03 qn, full by the onset). A note trim's 0.1-0.6 s ramp from the score onset misses the 50 ms peak.
+
+## Accents (c27)
+- 2026-10-17 (c27): the HO Clarinet KS Master's Sus Non Vib re-tongue after a Leg Slur note renders in one of two attack states, with identical data. Bright: 2-5 kHz front 8-10 dB over the body. Dull: 6-15 dB under it. The state flipped between renders c14-c27 regardless of the MIDI and envelope. Do not fit per-note tables to one render. Classify each such note after the render and fix the bright state on the stem: -7.5 dB over the first 0.12 s, back by +0.30 s, took the master's 2-5 kHz jump from +7.6/+8.6 to +3.6/+3.2 dB (-5 dB left +4.6/+4.7).
+
+## Timing (c27)
+- 2026-10-17 (c27): a minimum gap after the previous note's moved onset (`LEG_MIN_GAP_S`) shortens the lead whenever that previous note is not led itself. On 126-bpm slurred eighths with a 0.17 s Leg Slur lead, only 0.068 s of the eighth was left, so a 0.10 s minimum cut 21 Violins I leads to 0.135 s. Read the per-note leads in parts.json against the previous build before rendering any lead-cap change.
+- 2026-10-17 (c27): on Hollywood Strings Leg BC MAX targets, the lead extra moved the crossover almost 1:1. Violins I +0.05 s: median +0.061 -> +0.021 s. Celli +0.04 s: +0.076 -> +0.031 s. Negative per-onset extras on targets 0.08-0.19 s early brought 20 of 23 to within -0.07..+0.06 s.
+
+## Tempo (c27)
+- 2026-10-17 (c27): an arc changed from a slowing arc to "open" (push only) still leaves two hitches unless they are removed as well. The next arc's first beat takes the phrase-return factor (0.97: 122 bpm between 126 and 128), and the apex hold of the open arc gives a 4% slower beat inside a crescendo. Use `PHRASE_RETURN_AFTER_OPEN = False` and `APEX_SKIP`, and read the beat tempos back after every arc change. Changing three arcs also moved one slurred eighth pair onto the short-note Sus path (its length on the faster map fell under the short_sus threshold); diff `art_counts` after any tempo change.
+
+## Harp (c28)
+- 2026-10-17 (c28): Hollywood Harp `Harp Sus RR` alternates two RR groups (Pluck Lng and Thumb Pick, read from the .oib), and each group has its own velocity layers: Pluck p 1-57 / mp 58-85 / mf 86-107, Thumb p 1-42 / mp 43-70 / mf 71-97. Velocity 124-127 switches to a Nail Pick group. The same pitch at the same velocity renders 10-12 dB apart on the two groups, and that difference is the same in every render. Velocity changes that cross a layer moved the 10 ms peak 0.6-1.0 dB per step, not the 0.4 the kit gives. Examples: v74 -> 56 -13.1 dB, v76 -> 88 +11.4, v98 -> 111 +11.7. So fit per-onset velocities on a render, or correct the onsets with exact level steps on the attack.
+
+## Dynamics (c28)
+- 2026-10-17 (c28): `ARRIVAL_HOLD_SPANS` on a three-bar ff plateau held the bass line's CC11 at 118 (it had fallen 118 -> 109) and took the master's 468-480 sag from 1.2-2.5 to 0.8-1.7 dB K. The swell_sost contour also drops the swell's +1.5 dB hump at 40%, so part of the gain is lost early in each note. +0.8 dB on every track over the plateau then brought it within 0.8 dB of the arrival bar. The delivery limiter did not move.
+
+## Low end (c28)
+- 2026-10-17 (c28): the Basses KS Master's G2 / A-flat2 (98 / 104 Hz) fundamentals sit 4.6 / 6.3 dB over harmonics 2-4. Pitch trims of -6 dB on the arco onsets that boom, with every other onset of those pitches listed as a skip, took the master's 85-120 Hz re 300-2 kHz from -5.5..+1.0 to -10.8..-4.0 dB in those bars. A static bell at 100 Hz would also cut the second harmonic of G1/A-flat1 pedals.
+- 2026-10-17 (c28): a second bell of +3 dB at 200 Hz (1 oct) on the celli's level-switched loud EQ raised the master's loud-frame 160-250 Hz re 250-2 kHz by 1.6 dB, with soft frames unchanged and 60-100 Hz +0.24 dB. It also raised the celli 1.2-2.0 dB K against the master in the loud windows, and -0.8 dB roles were needed where they do not lead.
+
+## Mics, panning and width (c29)
+- 2026-10-17 (c29): the true-stereo hall leaves the cello and bass body (120-250 Hz) the least correlated band of the master (0.44, references 0.54-0.58). A side-only bell at 170 Hz, -2 dB, 1 oct (`side_shelf` band "bell") on celli and basses raised it to 0.53 and 60-120 Hz from 0.67 to 0.70. The seats moved 0.5-0.65 dB toward the centre in that band. A bell on the problem band leaves the deep bass less narrowed than the c20 low shelf did.
+- 2026-10-17 (c29): the Hollywood Strings Celli patch at width 0.28 is nearly mono above 4 kHz (stem correlation 0.87, Violins I 0.42), so exposed cello passages collapse to one narrow point. A side-only high shelf at 1.5 kHz +4 dB took the celli stem to 0.61 and the exposed passages' master to 0.61-0.62, with the celli level within 0.2 dB K and the seat 0.6 dB further right at 1-4 kHz. Widen a narrow section's top this way rather than with the Opus width, which would undo the bass-correlation work.
+
+## Dynamics (c29)
+- 2026-10-17 (c29): a pitch trim on a joined legato note ramps in over 0.25 qn from the moved onset (kit section 13). At 50 bpm that is 0.30 s, half of a 0.59 s eighth, so the trim forms a V inside the note and then rises into the next note's Leg Slur transition: a -5 dB trim gave a 7 dB sag and a join 7-8 dB over the following body. Check every trimmed short legato note at slow tempos and correct it with an exact shape.
+- 2026-10-17 (c29): stem simulation of a volume shape matched the render to 0.1 dB on 20 ms frames (c28 frame + shape = c29 frame at a legato join). So shapes on joins and re-bows can be refitted on the stems after the render and applied by stem fix. A critic's shape fitted on 40 ms frames left a 4 dB burst where the shape's plateau overlapped the sample's own rise; fit join shapes on 20 ms frames.
+
+## Low end (c29)
+- 2026-10-17 (c29): a narrow notch on one pitch's partial (Basses 87.3 Hz -10 dB, 0.15 oct, c24) left that pitch's notes (F1, F2) 3.7-4.4 dB under their neighbours. Broadband pitch trims of +3 dB brought them to -0.7..-1.3 dB, with the notch's spectral effect kept. G1 (98 Hz second harmonic on a resonance) needed -2 dB (+3.7 -> +1.7). After any narrow pitch-specific EQ, re-measure that pitch's note level against its neighbours.
+- 2026-10-17 (c29): removing the c28 +3 dB 200 Hz loud bell on the celli lowered the master's loud-frame 160-250 Hz re 250-2 kHz by 1.9 dB. Together with the 170 Hz side bell it lowered the long-term 120-250 Hz band 1.2 dB and the 100-250 Hz share from -8.0 to -8.6 dB (references -6.6..-8.75). A third-octave comparison against several references showed the 198/315 Hz bands 2-4 dB over all of them while 125 Hz was 4-7 dB under, so the c28 boost had gone into the band that was already high.
+
+## REAPER and envelopes (c30)
+- 2026-10-17 (c30): a whole-cycle change set of 12 level-only edits on 31 tracks, simulated with `stem_fix.py` on the previous render's stems before rendering, matched the new render within 0.5 dB on every per-note and per-frame check. The stems matched the simulated stems to 0.0-0.1 dB in the windows compared. The delivery limiter differed (sim 1.3, render 0.9 dB) because the float-sum master's peak moved (1.524 -> 1.463). For a final or late cycle, simulate first and use the render only as confirmation.
+
+## Strings (c30)
+- 2026-10-17 (c30): early fills keyed before a legato target (`pre_s` 0.09-0.17 s) are tied to where the crossover lands. Once the legato leads were corrected (c27), the crossovers came on the beat, and those fills lifted the old note's tail: 4-9 dB bursts before the target, and the target 3-9 dB under them. After any change to legato leads, re-measure every fill with `pre_s` > 0.05 s against the new crossover times. `pre_s` 0 kept each fill's job without the burst.
+
+## Delivery (c30)
+- 2026-10-17 (c30): with the quiet-passage ride at its cap through the soft half, the delivered pp and p bars were only 0.8 dB apart, while the fff peaks stood 9.4 dB over p75 (recordings 4.8-6.4). A stronger top ride (TOP_RATIO 1.6 -> 2.5 above p95 - 3 dB) plus -1.5 dB on the pp coda in the mix cut the limiter 2.1 -> 0.9 dB, p50-p10 5.5 -> 6.4 dB, max-p75 9.4 -> 8.6 dB. The climax order and span (19.6 dB) were kept, with 160 over 122 by 1.05 dB. The soft-level gaps have to be set in the mix; the ride cannot make them.
+- 2026-10-17 (c30): after a long ff fermata, the ride's 3 s smoothing keeps the lift low for about 12 s, so an mp solo that follows grows 3 dB in the mp3 while the master holds it level. +2 dB on every track over the solo's first bars, handed back to the ride over 6 qn, took the growth to 1.9 dB.
+
+## Percussion (c30)
+- 2026-10-17 (c30): the `32in Med Tam Tam` fff stroke decays 2.5 dB/s overall, and its 5-12 kHz band is 33 dB down by 3.5 s. A volume shape +3..+9 dB from 1 qn after the stroke to the printed damp kept the ring at 6-10 dB under a diminuendo orchestra, against 14-17. The attack and the master's diminuendo were unchanged (mp3 per qn within 0.6 dB).

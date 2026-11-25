@@ -1,0 +1,94 @@
+Flute 1 [90, 108, 2.6] deleted: one note (C5): region gain
+Flute 1 [204, 220, -2.6] deleted: two notes: region gain A flat 6
+Flute 1 [238, 262, -0.6] deleted: under 1 dB
+Flute 1 [262, 274, -6.1] -> -3.0
+Flute 2 [204, 220, -1.3] -> dyn_trim ff -2.0, rest +0.7
+Flute 2 [204, 220, 0.7] deleted: under 1 dB
+Flute 2 [262, 274, -2.9] -> dyn_trim ff -2.0, rest -0.9
+Flute 2 [262, 274, -0.9] deleted: under 1 dB
+Oboe 1 [172, 204, 0.9] deleted: under 1 dB
+Oboe 1 [204, 220, -2.1] -> dyn_trim ff -2.0, rest -0.1
+Oboe 1 [204, 220, -0.1] deleted: under 1 dB
+Oboe 1 [262, 274, -3.3] -> dyn_trim ff -2.0, rest -1.3
+Oboe 1 [108, 140, 4.7] deleted: one note (139) with its CC11 head lift: corrected twice
+Cor anglais [90, 108, -2.0] -> roles.json
+Cor anglais [172, 204, 2.8] deleted: one note (F4): region gain
+Clarinet 1 [204, 220, 0.5] deleted: under 1 dB
+Clarinet 2 [204, 220, 0.8] deleted: under 1 dB
+Bass clarinet [0, 18, 0.5] deleted: under 1 dB
+Bass clarinet [18, 42, 0.6] deleted: under 1 dB
+Bass clarinet [90, 108, 0.4] deleted: under 1 dB
+Bass clarinet [108, 140, -1.9] deleted: one note, no replacement
+Bass clarinet [204, 220, -1.6] -> dyn_trim ff -1.6, rest +0.0
+Bass clarinet [204, 220, 0.0] deleted: under 1 dB
+Bassoon 1 [204, 220, -0.4] -> dyn_trim ff -1.0, rest +0.6
+Bassoon 1 [204, 220, 0.6] deleted: under 1 dB
+Bassoon 1 [262, 274, -1.7] -> dyn_trim ff -1.0, rest -0.7
+Bassoon 1 [262, 274, -0.7] deleted: under 1 dB
+Bassoon 2 [204, 220, -2.5] -> dyn_trim ff -3.0, rest +0.5
+Bassoon 2 [204, 220, 0.5] deleted: under 1 dB
+Bassoon 2 [220, 238, -4.4] deleted: two notes: CC11 -8
+Bassoon 2 [262, 274, -4.1] -> dyn_trim ff -3.0, rest -1.1
+Horn 1 [204, 220, -2.4] -> dyn_trim ff -2.4, rest +0.0
+Horn 1 [204, 220, 0.0] deleted: under 1 dB
+Horn 1 [220, 238, 0.4] deleted: under 1 dB
+Horn 1 [0, 18, -1.5] deleted: two notes: CC11 -2
+Horn 2 [204, 220, -1.4] -> roles.json
+Horn 2 [238, 262, 0.8] deleted: under 1 dB
+Horn 4 [274, 304, -0.6] deleted: under 1 dB
+Timpani: [[0, 18, -2.9], [140, 172, -4.6], [172, 204, 1.8], [204, 220, 4.4], [238, 262, 1.0], [220, 238, -2.7]] -> ENV_TO_CC7 note_db (CC7)
+Harp [108, 140, 0.9] deleted: under 1 dB
+Harp [262, 274, -0.8] deleted: under 1 dB
+Harp [238, 262, 0.5] deleted: under 1 dB
+Violins I [0, 18, 2.1] deleted: the doubled span carries it
+Violins I [42, 66, -0.7] deleted: under 1 dB
+Violins I [140, 172, -5.5] deleted: one note: region gain C5 -2 and CC11 -8 on 171
+Violins I [172, 204, 0.6] deleted: under 1 dB
+Violins I [220, 238, -1.9] deleted: two notes: CC11 -4
+Violins I [274, 304, -0.6] deleted: under 1 dB
+Violins II [42, 66, 0.8] deleted: under 1 dB
+Violins II [108, 140, 2.0] deleted: bar mean of removed fills
+Violins II [220, 238, -1.3] -> roles.json
+Violins II [238, 262, 0.8] deleted: under 1 dB
+Violins II [262, 274, -0.8] deleted: under 1 dB
+Violins II [274, 304, -3.5] -> roles.json
+Violas [0, 18, 1.7] deleted: two notes: CC11 +3
+Violas [220, 238, 3.7] deleted: two notes: CC11 +7
+Violas [262, 274, -0.7] deleted: under 1 dB
+Violas [274, 304, -0.9] deleted: under 1 dB
+Violoncellos [0, 18, -3.2] deleted: two notes: CC11 -6
+Violoncellos [42, 66, 0.8] deleted: under 1 dB
+Violoncellos [66, 90, 0.7] deleted: under 1 dB
+Violoncellos [274, 304, -0.9] deleted: under 1 dB
+Violoncellos [220, 238, -0.5] deleted: under 1 dB
+Double basses [0, 18, -1.5] deleted: one note, no replacement
+Double basses [42, 66, -0.6] deleted: under 1 dB
+Double basses [108, 140, 0.8] deleted: under 1 dB
+Double basses [204, 220, -2.0] -> dyn_trim ff -2.0, rest +0.0
+Double basses [204, 220, 0.0] deleted: under 1 dB
+Double basses [220, 238, 8.1] -> 5.1
+Double basses [262, 274, -2.6] -> dyn_trim ff -2.0, rest -0.6
+Double basses [262, 274, -0.6] deleted: under 1 dB
+Violoncellos div [42, 66, 0.7] deleted: under 1 dB
+Violoncellos div [274, 304, 1.9] deleted: the doubled span carries it
+Violins II div [108, 140, 1.6] deleted: bar mean of removed fills
+Violas div [262, 274, 1.5] deleted: one note at ff, no replacement
+Horns 1-2 a2 [238, 262, 0.5] deleted: under 1 dB
+Oboe 2 [204, 220, 0.7] deleted: under 1 dB
+Bass trombone [204, 220, 0.8] deleted: under 1 dB
+Tuba [204, 220, 0.7] deleted: under 1 dB
+Cor anglais [262, 274] refit -> None
+Cor anglais [274, 304] refit -> 1.3
+Bassoon 2 [18, 42] refit -> None
+Bassoon 2 [172, 204] refit -> None
+Bassoon 2 [262, 274] refit -> None
+Double basses [172, 204] refit -> None
+Double basses [238, 262] refit -> None
+Violas [66, 90] refit -> None
+Violins I [204, 212] refit -> None
+Clarinet 2 [172, 204] refit -> 1.3
+Bassoon 1 [18, 42] refit -> 2.9
+Double basses [274, 286] refit -> -2.7
+Double basses [286, 304] refit -> None
+Clarinet 1: row edge 262 -> 261.5 (in its rest)
+rows: 117 -> 38

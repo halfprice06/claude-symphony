@@ -1,0 +1,46 @@
+envelope: points 2710, per note 0.49, per second 9.8 (timpani left out)
+fixed guard, step (1.5 dB within 0.5 s, > 6 dB/s, inside a sounding note): 12 notes (+ harp 14)
+first 0.35 s (finale c27: 1.5 dB or more, printed hairpins apart): 30 notes (+ harp 6); steps wholly inside printed hairpins (exempt from both counts): 17 notes
+critic B's measure (2 dB within 0.5 s at 20 dB/s or faster): 0 notes (+ harp 0)
+   Bass trombone sq 300.0 on 299.736 1.8 dB at +0 s 
+   Bassoon 1 sq 213.0 on 212.736 1.7 dB at +0 s 
+   Bassoon 2 sq 213.0 on 212.846 1.6 dB at +0 s 
+   Bassoon 2 sq 1002.0 on 1001.832 1.5 dB at +0 s 
+   Clarinet 1 sq 213.0 on 212.846 1.6 dB at +0 s 
+   Clarinet 1 sq 900.0 on 899.846 2.3 dB at +0 s 
+   Clarinet 1 sq 966.0 on 965.846 1.8 dB at +0 s 
+   Clarinet 2 sq 210.0 on 209.846 3.3 dB at +0.17 s 
+   Clarinet 2 sq 213.0 on 212.846 1.6 dB at +0 s 
+   Clarinet 2 sq 838.0 on 837.78 2.4 dB at +0.16 s 
+   Clarinet 2 sq 894.0 on 893.846 3.3 dB at +0.17 s 
+   Clarinet 2 sq 900.0 on 899.758 1.6 dB at +0 s 
+   Contrabassoon sq 213.0 on 212.846 1.6 dB at +0 s 
+   Contrabassoon sq 1002.0 on 1001.832 2.0 dB at +0 s 
+   Cor anglais sq 156.0 on 155.85 1.7 dB at +0.06 s 
+   Cor anglais sq 156.0 on 155.85 2.0 dB at +0 s 
+   Flute 1 sq 156.0 on 155.85 1.9 dB at +0.06 s 
+   Flute 1 sq 156.0 on 155.85 2.1 dB at +0 s 
+   Flute 1 sq 384.0 on 383.85 1.9 dB at +0.06 s 
+   Flute 1 sq 384.0 on 383.85 2.1 dB at +0 s 
+   Flute 1 sq 900.0 on 899.692 1.8 dB at +0 s 
+   Flute 2 sq 1002.0 on 1001.832 2.0 dB at +0 s 
+   Horn 1 sq 442.0 on 441.78 2.8 dB at +0.06 s 
+   Horn 1 sq 1068.0 on 1067.734 1.5 dB at +0 s 
+   Horn 3 sq 950.0 on 949.736 2.8 dB at +0.31 s 
+   Horn 3 sq 1028.0 on 1027.775 1.5 dB at +0 s 
+   Oboe 1 sq 389.0 on 388.78 4.1 dB at +0.06 s 
+   Oboe 1 sq 389.0 on 388.78 3.4 dB at +0 s 
+   Oboe 1 sq 857.0 on 856.78 4.2 dB at +0.06 s 
+   Oboe 1 sq 857.0 on 856.78 3.4 dB at +0 s 
+   Oboe 1 sq 900.0 on 899.758 1.5 dB at +0 s 
+   Oboe 1 sq 1002.0 on 1002.0 4.7 dB at +0.21 s 
+   Oboe 1 sq 1036.0 on 1035.81 2.6 dB at +0 s 
+   Trombone 1 sq 300.0 on 299.736 2.0 dB at +0 s 
+   Trombone 2 sq 300.0 on 299.736 3.1 dB at +0 s 
+   Violin I solo sq 1064.0 on 1063.25 1.7 dB at +0 s 
+   Violins I sq 542.0 on 541.392 1.5 dB at +0 s 
+   Violins I sq 1012.0 on 1011.616 1.7 dB at +0 s 
+   Violins II sq 1057.0 on 1056.25 1.5 dB at +0 s 
+   Violins II sq 1064.0 on 1063.25 1.5 dB at +0 s 
+   Violoncellos sq 573.0 on 572.373 6.7 dB at +0.49 s 
+   Violoncellos sq 876.0 on 875.472 1.9 dB at +0 s 

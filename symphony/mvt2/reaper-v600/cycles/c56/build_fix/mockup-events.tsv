@@ -1,0 +1,3522 @@
+Hn3	0.0	0.0	note	60	2.0
+Hn3	0.0	0.0	dynamic	ppp
+Hn3	0.0	0.0	dynamic	ppp
+Timp	0.0	0.0	text	Timp. in G, A♭, C, E♭ (as in movement I) soft sticks
+VlnI	0.0	0.0	note	72	3.0
+VlnI	0.0	0.0	tie
+VlnI	0.0	0.0	dynamic	ppp
+VlnI	0.0	0.0	dynamic	ppp
+VlnI	0.0	0.0	text	change bow at will
+VlnII	0.0	0.0	note	67	3.0
+VlnII	0.0	0.0	dynamic	ppp
+VlnII	0.0	0.0	dynamic	ppp
+Vla	0.0	0.0	note	64	3.0
+Vla	0.0	0.0	dynamic	ppp
+Vla	0.0	0.0	dynamic	ppp
+Vc	0.0	0.0	note	48	3.0
+Vc	0.0	0.0	dynamic	ppp
+Vc	0.0	0.0	dynamic	ppp
+Hn4	1.0	0.0	note	60	2.0
+Hn4	1.0	0.0	tie
+Hn4	1.0	0.0	dynamic	ppp
+Hn4	1.0	0.0	dynamic	ppp
+Hn4	1.0	0.0	text	4.
+Hn4	3.0	0.0	note	60	3.0
+Hn4	3.0	0.0	cresc	-1
+Timp	3.0	0.0	note	44	3.0
+Timp	3.0	0.0	tremolo	32
+Timp	3.0	0.0	dynamic	ppp
+Timp	3.0	0.0	dynamic	ppp
+Timp	3.0	0.0	tie
+VlnI	3.0	0.0	note	72	3.0
+VlnI	3.0	0.0	tie
+VlnII	3.0	0.0	note	68	3.0
+VlnII	3.0	0.0	tie
+VlnII	3.0	0.0	dynamic	pp
+VlnII	3.0	0.0	dynamic	pp
+Vla	3.0	0.0	note	63	3.0
+Vla	3.0	0.0	tie
+Vla	3.0	0.0	dynamic	pp
+Vla	3.0	0.0	dynamic	pp
+Vc	3.0	0.0	note	44	3.0
+Vc	3.0	0.0	tie
+Vc	3.0	0.0	dynamic	pp
+Vc	3.0	0.0	dynamic	pp
+Cb	3.0	0.0	note	32	3.0
+Cb	3.0	0.0	dynamic	pp
+Cb	3.0	0.0	dynamic	pp
+Cb	3.0	0.0	tie
+Cb	3.0	0.0	text	change bow at will
+Cl2	6.0	0.0	note	51	3.0
+Cl2	6.0	0.0	tie
+Cl2	6.0	0.0	dynamic	pp
+Cl2	6.0	0.0	dynamic	pp
+BCl	6.0	0.0	note	44	3.0
+BCl	6.0	0.0	tie
+BCl	6.0	0.0	dynamic	pp
+BCl	6.0	0.0	dynamic	pp
+Hn3	6.0	0.0	note	60	3.0
+Hn3	6.0	0.0	tie
+Hn3	6.0	0.0	slur	-1
+Hn3	6.0	0.0	dynamic	pp
+Hn3	6.0	0.0	dynamic	pp
+Hn4	6.0	0.0	breathe
+Hn4	6.0	0.0	note	56	3.0
+Hn4	6.0	0.0	tie
+Hn4	6.0	0.0	dynamic	pp
+Hn4	6.0	0.0	dynamic	pp
+Timp	6.0	0.0	note	44	2.0
+Timp	6.0	0.0	tremolo	32
+Timp	6.0	0.0	decresc	-1
+Timp	6.0	0.0	tie
+VlnI	6.0	0.0	note	72	3.0
+VlnI	6.0	0.0	decresc	-1
+VlnII	6.0	0.0	note	68	3.0
+VlnII	6.0	0.0	decresc	-1
+Vla	6.0	0.0	note	63	3.0
+Vla	6.0	0.0	decresc	-1
+Vc	6.0	0.0	note	44	3.0
+Vc	6.0	0.0	decresc	-1
+Cb	6.0	0.0	note	32	3.0
+Cb	6.0	0.0	decresc	-1
+Timp	8.0	0.0	note	44	0.5
+Timp	8.0	0.0	cresc	1
+Cl2	9.0	0.0	note	51	3.0
+BCl	9.0	0.0	note	44	3.0
+BCl	9.0	0.0	tie
+Hn3	9.0	0.0	note	60	3.0
+Hn4	9.0	0.0	note	56	3.0
+Hn4	9.0	0.0	tie
+VlnI	9.0	0.0	cresc	1
+VlnII	9.0	0.0	cresc	1
+Vla	9.0	0.0	cresc	1
+Vc	9.0	0.0	cresc	1
+Cb	9.0	0.0	cresc	1
+Cl2	12.0	0.0	note	52	3.0
+BCl	12.0	0.0	note	44	3.0
+BCl	12.0	0.0	tie
+Hn3	12.0	0.0	note	61	3.0
+Hn4	12.0	0.0	note	56	3.0
+Hn4	12.0	0.0	tie
+Cl2	15.0	0.0	note	51	2.0
+BCl	15.0	0.0	note	44	2.0
+Hn3	15.0	0.0	note	60	2.0
+Hn3	15.0	0.0	slur	1
+Hn4	15.0	0.0	note	56	2.0
+Hn1	17.0	0.0	note	51	0.5
+Hn1	17.0	0.0	slur	-1
+Hn1	17.0	0.0	dynamic	p
+Hn1	17.0	0.0	dynamic	p
+Hn1	17.0	0.0	text	dolce espr.
+Hn1	17.5	0.0	note	53	0.5
+BCl	18.0	0.0	note	44	3.0
+BCl	18.0	0.0	dynamic	pp
+BCl	18.0	0.0	dynamic	pp
+Bn1	18.0	0.0	note	51	3.0
+Bn1	18.0	0.0	slur	-1
+Bn1	18.0	0.0	dynamic	pp
+Bn1	18.0	0.0	dynamic	pp
+Bn2	18.0	0.0	note	48	3.0
+Bn2	18.0	0.0	slur	-1
+Bn2	18.0	0.0	dynamic	pp
+Bn2	18.0	0.0	dynamic	pp
+Hn1	18.0	0.0	note	56	1.5
+Hn1	18.0	0.0	text	1.
+HarpL	18.0	0.0	note	32	3.0
+HarpL	18.0	0.0	note	39	3.0
+HarpL	18.0	0.0	dynamic	pp
+HarpL	18.0	0.0	dynamic	pp
+HarpL	18.0	0.0	arpeggio	1
+HarpL	18.0	0.0	text	^-^|^--^
+HarpR	19.0	0.0	note	48	2.0
+HarpR	19.0	0.0	note	51	2.0
+HarpR	19.0	0.0	arpeggio	1
+Hn1	19.5	0.0	note	60	0.5
+Hn1	20.0	0.0	note	63	1.0
+Hn1	20.0	0.0	tie
+Hn1	20.0	0.0	cresc	1
+Hn1	20.0	0.0	cresc	-1
+BCl	21.0	0.0	note	41	1.0
+BCl	21.0	0.0	slur	-1
+Bn1	21.0	0.0	note	56	1.0
+Bn1	21.0	0.0	script	tenuto
+Bn2	21.0	0.0	note	48	1.0
+Bn2	21.0	0.0	script	tenuto
+Hn1	21.0	0.0	note	63	1.0
+Hn1	21.0	0.0	cresc	1
+Hn1	21.0	0.0	decresc	-1
+HarpL	21.0	0.0	note	29	1.0
+HarpL	21.0	0.0	note	41	1.0
+HarpL	21.0	0.0	arpeggio	1
+BCl	22.0	0.0	note	34	1.0
+Bn1	22.0	0.0	note	56	1.0
+Bn1	22.0	0.0	script	tenuto
+Bn2	22.0	0.0	note	46	1.0
+Bn2	22.0	0.0	script	tenuto
+Hn1	22.0	0.0	note	62	1.0
+HarpL	22.0	0.0	note	34	1.0
+HarpL	22.0	0.0	note	46	1.0
+HarpL	22.0	0.0	arpeggio	1
+BCl	23.0	0.0	note	39	1.0
+BCl	23.0	0.0	slur	1
+Bn1	23.0	0.0	note	55	1.0
+Bn2	23.0	0.0	note	46	1.0
+Bn2	23.0	0.0	script	tenuto
+Hn1	23.0	0.0	note	61	1.0
+HarpL	23.0	0.0	note	27	1.0
+HarpL	23.0	0.0	note	39	1.0
+HarpL	23.0	0.0	arpeggio	1
+BCl	24.0	0.0	note	44	2.0
+BCl	24.0	0.0	slur	-1
+Bn1	24.0	0.0	note	56	2.0
+Bn2	24.0	0.0	note	48	2.0
+Hn1	24.0	0.0	note	60	1.5
+Hn1	24.0	0.0	cresc	1
+HarpL	24.0	0.0	note	32	2.0
+HarpL	24.0	0.0	note	44	2.0
+HarpL	24.0	0.0	arpeggio	1
+HarpR	25.0	0.0	note	48	1.0
+HarpR	25.0	0.0	note	51	1.0
+HarpR	25.0	0.0	arpeggio	1
+Hn1	25.5	0.0	note	58	0.5
+BCl	26.0	0.0	note	37	1.0
+BCl	26.0	0.0	slur	1
+Bn1	26.0	0.0	note	53	1.0
+Bn1	26.0	0.0	slur	1
+Bn2	26.0	0.0	note	46	1.0
+Bn2	26.0	0.0	tie
+Hn1	26.0	0.0	note	56	1.0
+HarpR	26.0	0.0	note	53	1.0
+HarpL	26.0	0.0	note	37	1.0
+BCl	27.0	0.0	note	39	2.0
+Bn1	27.0	0.0	note	51	2.0
+Bn2	27.0	0.0	note	46	3.0
+Bn2	27.0	0.0	slur	1
+Hn1	27.0	0.0	note	55	2.0
+Hn1	27.0	0.0	slur	1
+HarpL	27.0	0.0	note	27	3.0
+HarpL	27.0	0.0	note	39	3.0
+HarpL	27.0	0.0	arpeggio	1
+HarpR	28.0	0.0	note	46	2.0
+HarpR	28.0	0.0	note	51	2.0
+HarpR	28.0	0.0	arpeggio	1
+BCl	29.0	0.0	breathe
+BCl	29.0	0.0	note	43	1.0
+BCl	29.0	0.0	slur	-1
+Hn1	29.0	0.0	breathe
+Hn1	29.0	0.0	note	51	0.5
+Hn1	29.0	0.0	slur	-1
+Hn1	29.5	0.0	note	53	0.5
+BCl	30.0	0.0	note	44	1.0
+Bn1	30.0	0.0	note	51	2.0
+Bn1	30.0	0.0	slur	-1
+Bn2	30.0	0.0	breathe
+Bn2	30.0	0.0	note	48	1.0
+Bn2	30.0	0.0	slur	-1
+Hn1	30.0	0.0	note	56	1.5
+HarpL	30.0	0.0	note	32	1.0
+HarpL	30.0	0.0	note	39	1.0
+HarpL	30.0	0.0	arpeggio	1
+BCl	31.0	0.0	note	48	1.0
+Bn2	31.0	0.0	note	51	1.0
+HarpR	31.0	0.0	note	48	1.0
+HarpR	31.0	0.0	note	51	1.0
+HarpR	31.0	0.0	arpeggio	1
+HarpL	31.0	0.0	note	36	1.0
+Hn1	31.5	0.0	note	60	0.5
+BCl	32.0	0.0	note	49	1.0
+BCl	32.0	0.0	slur	1
+Bn1	32.0	0.0	note	56	1.0
+Bn1	32.0	0.0	script	tenuto
+Bn2	32.0	0.0	note	49	1.0
+Hn1	32.0	0.0	note	65	1.0
+Hn1	32.0	0.0	tie
+Hn1	32.0	0.0	cresc	-1
+HarpL	32.0	0.0	note	37	1.0
+BCl	33.0	0.0	note	49	2.0
+BCl	33.0	0.0	slur	-1
+Bn1	33.0	0.0	note	56	2.0
+Bn1	33.0	0.0	script	tenuto
+Bn2	33.0	0.0	note	53	2.0
+Bn2	33.0	0.0	script	tenuto
+Bn2	33.0	0.0	slur	1
+Hn1	33.0	0.0	note	65	1.0
+HarpR	33.0	0.0	note	56	1.0
+HarpR	33.0	0.0	note	61	1.0
+HarpR	33.0	0.0	arpeggio	1
+HarpL	33.0	0.0	note	37	2.0
+HarpL	33.0	0.0	note	44	2.0
+HarpL	33.0	0.0	arpeggio	1
+Hn1	34.0	0.0	note	70	1.0
+Hn1	34.0	0.0	dynamic	mp
+Hn1	34.0	0.0	dynamic	mp
+Hn1	34.0	0.0	decresc	-1
+BCl	35.0	0.0	note	46	1.0
+BCl	35.0	0.0	slur	1
+Bn1	35.0	0.0	note	61	1.0
+Hn1	35.0	0.0	note	68	1.0
+HarpL	35.0	0.0	note	34	1.0
+BCl	36.0	0.0	note	39	3.0
+Bn1	36.0	0.0	note	58	2.0
+Bn2	36.0	0.0	note	51	3.0
+Bn2	36.0	0.0	slur	-1
+Hn1	36.0	0.0	note	67	1.0
+HarpL	36.0	0.0	note	27	3.0
+HarpL	36.0	0.0	note	39	3.0
+HarpL	36.0	0.0	arpeggio	1
+Hn1	37.0	0.0	note	63	0.5
+HarpR	37.0	0.0	note	55	2.0
+HarpR	37.0	0.0	note	58	2.0
+HarpR	37.0	0.0	arpeggio	1
+Hn1	37.5	0.0	note	61	0.5
+Bn1	38.0	0.0	note	55	1.0
+Hn1	38.0	0.0	note	60	0.5
+Hn1	38.5	0.0	note	58	0.5
+BCl	39.0	0.0	note	44	3.0
+Bn1	39.0	0.0	note	56	3.0
+Bn1	39.0	0.0	slur	1
+Bn2	39.0	0.0	note	48	3.0
+Bn2	39.0	0.0	slur	1
+Hn1	39.0	0.0	note	56	3.0
+Hn1	39.0	0.0	slur	1
+Hn1	39.0	0.0	dynamic	p
+Hn1	39.0	0.0	dynamic	p
+HarpL	39.0	0.0	note	32	3.0
+HarpL	39.0	0.0	note	39	3.0
+HarpL	39.0	0.0	arpeggio	1
+HarpR	40.0	0.0	note	68	2.0
+HarpR	40.0	0.0	note	75	2.0
+HarpR	40.0	0.0	arpeggio	1
+Ob1	42.0	0.0	note	72	1.5
+Ob1	42.0	0.0	slur	-1
+Ob1	42.0	0.0	dynamic	p
+Ob1	42.0	0.0	dynamic	p
+Ob1	42.0	0.0	cresc	-1
+Ob1	42.0	0.0	text	dolce
+VlnII	42.0	0.0	note	68	2.0
+VlnII	42.0	0.0	script	tenuto
+VlnII	42.0	0.0	slur	-1
+VlnII	42.0	0.0	dynamic	pp
+VlnII	42.0	0.0	dynamic	pp
+VlnII	42.0	0.0	cresc	-1
+VlnII	42.0	0.0	script	upbow
+VlnII	42.0	0.0	text	con sord.
+Vla	42.0	0.0	note	63	3.0
+Vla	42.0	0.0	dynamic	pp
+Vla	42.0	0.0	dynamic	pp
+Vla	42.0	0.0	text	con sord.
+Vc	42.0	0.0	note	48	3.0
+Vc	42.0	0.0	dynamic	pp
+Vc	42.0	0.0	dynamic	pp
+Vc	42.0	0.0	text	con sord.
+Ob1	43.5	0.0	note	73	0.5
+Ob1	44.0	0.0	note	75	1.0
+VlnII	44.0	0.0	note	68	1.0
+VlnII	44.0	0.0	script	tenuto
+VlnII	44.0	0.0	slur	1
+Ob1	45.0	0.0	note	77	2.0
+Ob1	45.0	0.0	decresc	-1
+VlnII	45.0	0.0	note	68	2.0
+VlnII	45.0	0.0	script	tenuto
+VlnII	45.0	0.0	slur	-1
+VlnII	45.0	0.0	cresc	1
+VlnII	45.0	0.0	decresc	-1
+Vla	45.0	0.0	note	61	1.5
+Vla	45.0	0.0	slur	-1
+Vc	45.0	0.0	note	49	2.0
+Vla	46.5	0.0	note	60	0.5
+Ob1	47.0	0.0	note	75	1.0
+Ob1	47.0	0.0	slur	1
+Ob1	47.0	0.0	cresc	1
+VlnII	47.0	0.0	note	67	1.0
+VlnII	47.0	0.0	script	tenuto
+VlnII	47.0	0.0	cresc	1
+VlnII	47.0	0.0	cresc	1
+VlnII	47.0	0.0	slur	1
+Vla	47.0	0.0	note	58	1.0
+Vla	47.0	0.0	slur	1
+Vc	47.0	0.0	note	51	1.0
+VlnI	48.0	0.0	note	80	0.5
+VlnI	48.0	0.0	slur	-1
+VlnI	48.0	0.0	dynamic	p
+VlnI	48.0	0.0	dynamic	p
+VlnI	48.0	0.0	cresc	-1
+VlnI	48.0	0.0	text	solo, senza sord., dolce
+VlnII	48.0	0.0	note	68	2.0
+VlnII	48.0	0.0	script	tenuto
+VlnII	48.0	0.0	slur	-1
+Vla	48.0	0.0	note	65	2.0
+Vc	48.0	0.0	note	53	2.0
+VlnI	48.5	0.0	note	82	0.5
+VlnI	49.0	0.0	note	79	1.0
+VlnI	50.0	0.0	note	77	1.0
+VlnII	50.0	0.0	note	68	1.0
+VlnII	50.0	0.0	script	tenuto
+VlnII	50.0	0.0	slur	1
+Vla	50.0	0.0	note	65	1.0
+Vc	50.0	0.0	note	49	1.0
+VlnI	51.0	0.0	note	75	2.0
+VlnI	51.0	0.0	cresc	1
+VlnI	51.0	0.0	decresc	-1
+VlnII	51.0	0.0	note	68	2.0
+VlnII	51.0	0.0	script	tenuto
+VlnII	51.0	0.0	slur	-1
+Vc	51.0	0.0	note	60	0.5
+Vc	51.0	0.0	slur	-1
+Vc	51.0	0.0	cresc	1
+Vc	51.0	0.0	text	div.
+Vc	51.0	0.0	note	48	2.0
+Vc	51.0	0.0	cresc	1
+Vc	51.5	0.0	note	63	0.5
+Vc	52.0	0.0	note	60	1.0
+VlnI	53.0	0.0	note	73	1.0
+VlnI	53.0	0.0	slur	1
+VlnI	53.0	0.0	cresc	1
+VlnII	53.0	0.0	note	65	1.0
+VlnII	53.0	0.0	script	tenuto
+VlnII	53.0	0.0	slur	1
+Vc	53.0	0.0	note	61	1.0
+Vc	53.0	0.0	slur	1
+Vc	53.0	0.0	note	46	1.0
+Ob1	54.0	0.0	note	72	1.0
+Ob1	54.0	0.0	slur	-1
+Ob1	54.0	0.0	dynamic	p
+Ob1	54.0	0.0	dynamic	p
+Ob1	54.0	0.0	cresc	-1
+VlnII	54.0	0.0	note	68	2.0
+VlnII	54.0	0.0	script	tenuto
+VlnII	54.0	0.0	slur	-1
+VlnII	54.0	0.0	cresc	-1
+Vla	54.0	0.0	note	65	2.0
+Vla	54.0	0.0	dynamic	pp
+Vla	54.0	0.0	dynamic	pp
+Vc	54.0	0.0	note	53	2.0
+Vc	54.0	0.0	text	unis.
+Ob1	55.0	0.0	note	73	0.5
+Ob1	55.5	0.0	note	72	0.5
+Ob1	56.0	0.0	note	70	1.0
+VlnII	56.0	0.0	note	67	1.0
+VlnII	56.0	0.0	script	tenuto
+VlnII	56.0	0.0	cresc	1
+VlnII	56.0	0.0	decresc	-1
+VlnII	56.0	0.0	slur	1
+Vla	56.0	0.0	note	64	1.0
+Vc	56.0	0.0	note	55	1.0
+Ob1	57.0	0.0	note	68	2.0
+Ob1	57.0	0.0	decresc	-1
+VlnII	57.0	0.0	cresc	1
+Vla	57.0	0.0	note	60	1.0
+Vla	57.0	0.0	slur	-1
+Vc	57.0	0.0	note	53	2.0
+Vla	58.0	0.0	note	61	0.5
+Vla	58.5	0.0	note	60	0.5
+Ob1	59.0	0.0	note	67	1.0
+Ob1	59.0	0.0	slur	1
+Ob1	59.0	0.0	cresc	1
+VlnII	59.0	0.0	note	64	1.0
+VlnII	59.0	0.0	script	tenuto
+VlnII	59.0	0.0	dynamic	pp
+VlnII	59.0	0.0	dynamic	pp
+VlnII	59.0	0.0	script	upbow
+Vla	59.0	0.0	note	58	1.0
+Vla	59.0	0.0	slur	1
+Vc	59.0	0.0	note	48	1.0
+VlnI	60.0	0.0	note	77	0.5
+VlnI	60.0	0.0	slur	-1
+VlnI	60.0	0.0	dynamic	p
+VlnI	60.0	0.0	dynamic	p
+VlnI	60.0	0.0	cresc	-1
+VlnII	60.0	0.0	note	65	1.0
+VlnII	60.0	0.0	script	tenuto
+VlnII	60.0	0.0	slur	-1
+Vla	60.0	0.0	note	56	2.0
+Vc	60.0	0.0	note	49	1.0
+Cb	60.0	0.0	note	37	1.0
+Cb	60.0	0.0	dynamic	pp
+Cb	60.0	0.0	dynamic	pp
+Cb	60.0	0.0	text	senza sord.
+VlnI	60.5	0.0	note	79	0.5
+VlnI	61.0	0.0	note	75	1.0
+VlnII	61.0	0.0	note	60	1.0
+VlnII	61.0	0.0	script	tenuto
+Vc	61.0	0.0	note	51	1.0
+Cb	61.0	0.0	note	39	1.0
+VlnI	62.0	0.0	note	74	1.0
+VlnI	62.0	0.0	cresc	1
+VlnII	62.0	0.0	note	58	1.0
+VlnII	62.0	0.0	script	tenuto
+VlnII	62.0	0.0	tie
+VlnII	62.0	0.0	slur	1
+Vla	62.0	0.0	note	56	1.0
+Vc	62.0	0.0	note	52	1.0
+Vc	62.0	0.0	note	56	1.0
+Vc	62.0	0.0	text	div.
+Cb	62.0	0.0	note	40	1.0
+VlnI	63.0	0.0	note	75	2.0
+VlnI	63.0	0.0	slur	1
+VlnII	63.0	0.0	note	58	2.0
+Vc	63.0	0.0	note	55	0.5
+Vc	63.0	0.0	slur	-1
+Vc	63.0	0.0	cresc	1
+Vc	63.0	0.0	note	51	3.0
+Vc	63.0	0.0	cresc	1
+Cb	63.0	0.0	note	39	3.0
+Vc	63.5	0.0	note	56	0.5
+Vc	64.0	0.0	note	58	1.0
+VlnI	65.0	0.0	note	63	0.5
+VlnI	65.0	0.0	slur	-1
+VlnI	65.0	0.0	dynamic	mp
+VlnI	65.0	0.0	dynamic	mp
+VlnI	65.0	0.0	text	gli altri con sord., espr., sul D
+VlnII	65.0	0.0	note	63	0.5
+VlnII	65.0	0.0	slur	-1
+VlnII	65.0	0.0	dynamic	mp
+VlnII	65.0	0.0	dynamic	mp
+VlnII	65.0	0.0	text	espr., sul D
+Vc	65.0	0.0	note	55	1.0
+Vc	65.0	0.0	slur	1
+VlnI	65.5	0.0	note	65	0.5
+VlnII	65.5	0.0	note	65	0.5
+VlnI	66.0	0.0	note	68	1.5
+VlnII	66.0	0.0	note	68	1.5
+Vla	66.0	0.0	note	60	3.0
+Vla	66.0	0.0	note	63	3.0
+Vla	66.0	0.0	dynamic	p
+Vla	66.0	0.0	dynamic	p
+Vla	66.0	0.0	text	div.
+Vc	66.0	0.0	note	51	2.0
+Vc	66.0	0.0	dynamic	p
+Vc	66.0	0.0	dynamic	p
+Vc	66.0	0.0	text	unis., cantabile, sul D
+Cb	66.0	0.0	note	44	3.0
+Cb	66.0	0.0	dynamic	p
+Cb	66.0	0.0	dynamic	p
+VlnI	67.5	0.0	note	72	0.5
+VlnI	67.5	0.0	slur	1
+VlnII	67.5	0.0	note	72	0.5
+VlnII	67.5	0.0	slur	1
+VlnI	68.0	0.0	note	75	1.0
+VlnI	68.0	0.0	tie
+VlnI	68.0	0.0	slur	-1
+VlnI	68.0	0.0	cresc	1
+VlnI	68.0	0.0	cresc	-1
+VlnII	68.0	0.0	note	75	1.0
+VlnII	68.0	0.0	tie
+VlnII	68.0	0.0	slur	-1
+VlnII	68.0	0.0	cresc	1
+VlnII	68.0	0.0	cresc	-1
+Vc	68.0	0.0	note	56	0.5
+Vc	68.0	0.0	slur	-1
+Vc	68.5	0.0	note	55	0.5
+VlnI	69.0	0.0	note	75	1.0
+VlnI	69.0	0.0	cresc	1
+VlnI	69.0	0.0	decresc	-1
+VlnII	69.0	0.0	note	75	1.0
+VlnII	69.0	0.0	cresc	1
+VlnII	69.0	0.0	decresc	-1
+Vla	69.0	0.0	note	60	1.0
+Vla	69.0	0.0	note	68	1.0
+Vc	69.0	0.0	note	53	2.0
+Vc	69.0	0.0	slur	1
+Cb	69.0	0.0	note	41	1.0
+VlnI	70.0	0.0	note	74	1.0
+VlnI	70.0	0.0	slur	1
+VlnII	70.0	0.0	note	74	1.0
+VlnII	70.0	0.0	slur	1
+Vla	70.0	0.0	note	58	1.0
+Vla	70.0	0.0	note	68	1.0
+Cb	70.0	0.0	note	46	1.0
+VlnI	71.0	0.0	note	73	1.0
+VlnII	71.0	0.0	note	73	1.0
+Vla	71.0	0.0	note	58	1.0
+Vla	71.0	0.0	note	67	1.0
+Vc	71.0	0.0	note	55	1.0
+Vc	71.0	0.0	slur	-1
+Cb	71.0	0.0	note	51	1.0
+VlnI	72.0	0.0	note	72	1.5
+VlnI	72.0	0.0	slur	-1
+VlnI	72.0	0.0	cresc	1
+VlnI	72.0	0.0	text	tutti, con sord.
+VlnII	72.0	0.0	note	72	1.5
+VlnII	72.0	0.0	slur	-1
+VlnII	72.0	0.0	cresc	1
+Vla	72.0	0.0	note	60	2.0
+Vla	72.0	0.0	note	63	2.0
+Vc	72.0	0.0	note	56	2.0
+Vc	72.0	0.0	cresc	-1
+Cb	72.0	0.0	note	44	2.0
+VlnI	73.5	0.0	note	70	0.5
+VlnII	73.5	0.0	note	70	0.5
+VlnI	74.0	0.0	note	68	1.0
+VlnII	74.0	0.0	note	68	1.0
+Vla	74.0	0.0	note	65	1.0
+Vc	74.0	0.0	note	60	1.0
+Vc	74.0	0.0	slur	1
+Vc	74.0	0.0	cresc	1
+Vc	74.0	0.0	decresc	-1
+Cb	74.0	0.0	note	49	1.0
+VlnI	75.0	0.0	note	67	2.0
+VlnI	75.0	0.0	slur	1
+VlnII	75.0	0.0	note	67	2.0
+VlnII	75.0	0.0	slur	1
+Vla	75.0	0.0	note	63	2.0
+Vc	75.0	0.0	note	58	1.0
+Vc	75.0	0.0	slur	-1
+Cb	75.0	0.0	note	51	3.0
+Vc	76.0	0.0	note	56	1.0
+Vc	76.0	0.0	slur	1
+VlnI	77.0	0.0	note	63	0.5
+VlnI	77.0	0.0	slur	-1
+VlnII	77.0	0.0	note	63	0.5
+VlnII	77.0	0.0	slur	-1
+Vc	77.0	0.0	note	55	1.0
+Vc	77.0	0.0	cresc	1
+Vc	77.0	0.0	cresc	1
+VlnI	77.5	0.0	note	65	0.5
+VlnII	77.5	0.0	note	65	0.5
+VlnI	78.0	0.0	note	68	1.5
+VlnI	78.0	0.0	cresc	-1
+VlnI	78.0	0.0	text	ord.
+VlnII	78.0	0.0	note	68	1.5
+VlnII	78.0	0.0	cresc	-1
+VlnII	78.0	0.0	text	ord.
+Vla	78.0	0.0	note	60	1.0
+Vla	78.0	0.0	note	63	1.0
+Vla	78.0	0.0	cresc	-1
+Vc	78.0	0.0	note	51	2.0
+Vc	78.0	0.0	slur	-1
+Vc	78.0	0.0	cresc	-1
+Cb	78.0	0.0	note	44	1.0
+Cb	78.0	0.0	cresc	-1
+Vla	79.0	0.0	note	56	1.0
+Vla	79.0	0.0	note	63	1.0
+Cb	79.0	0.0	note	48	1.0
+VlnI	79.5	0.0	note	72	0.5
+VlnI	79.5	0.0	slur	1
+VlnII	79.5	0.0	note	72	0.5
+VlnII	79.5	0.0	slur	1
+VlnI	80.0	0.0	note	77	1.0
+VlnI	80.0	0.0	tie
+VlnII	80.0	0.0	note	77	1.0
+VlnII	80.0	0.0	tie
+Vla	80.0	0.0	note	56	1.0
+Vla	80.0	0.0	note	61	1.0
+Vc	80.0	0.0	note	53	1.0
+Vc	80.0	0.0	slur	1
+Cb	80.0	0.0	note	49	1.0
+VlnI	81.0	0.0	note	77	1.0
+VlnI	81.0	0.0	script	upbow
+VlnII	81.0	0.0	note	77	1.0
+VlnII	81.0	0.0	script	upbow
+Vla	81.0	0.0	note	61	1.0
+Vla	81.0	0.0	note	65	1.0
+Vc	81.0	0.0	note	56	1.0
+Vc	81.0	0.0	slur	-1
+Cb	81.0	0.0	note	49	2.0
+Cb	81.0	0.0	slur	-1
+VlnI	82.0	0.0	note	82	1.0
+VlnI	82.0	0.0	slur	-1
+VlnI	82.0	0.0	dynamic	f
+VlnI	82.0	0.0	dynamic	f
+VlnI	82.0	0.0	decresc	-1
+VlnII	82.0	0.0	note	82	1.0
+VlnII	82.0	0.0	slur	-1
+VlnII	82.0	0.0	dynamic	f
+VlnII	82.0	0.0	dynamic	f
+VlnII	82.0	0.0	decresc	-1
+Vla	82.0	0.0	note	61	1.0
+Vla	82.0	0.0	note	65	1.0
+Vla	82.0	0.0	dynamic	mf
+Vla	82.0	0.0	dynamic	mf
+Vla	82.0	0.0	decresc	-1
+Vc	82.0	0.0	dynamic	f
+Vc	82.0	0.0	dynamic	f
+Vc	82.0	0.0	decresc	-1
+Vc	82.0	0.0	note	53	1.0
+Cb	82.0	0.0	dynamic	mf
+Cb	82.0	0.0	dynamic	mf
+Cb	82.0	0.0	decresc	-1
+VlnI	83.0	0.0	note	80	1.0
+VlnI	83.0	0.0	slur	1
+VlnII	83.0	0.0	note	80	1.0
+VlnII	83.0	0.0	slur	1
+Vla	83.0	0.0	note	65	1.0
+Vc	83.0	0.0	note	61	1.0
+Vc	83.0	0.0	slur	1
+Cb	83.0	0.0	note	46	1.0
+Cb	83.0	0.0	slur	1
+Hn4	84.0	0.0	note	51	3.0
+Hn4	84.0	0.0	dynamic	pp
+Hn4	84.0	0.0	dynamic	pp
+Hn4	84.0	0.0	tie
+VlnI	84.0	0.0	note	79	1.0
+VlnI	84.0	0.0	slur	-1
+VlnII	84.0	0.0	note	79	1.0
+VlnII	84.0	0.0	slur	-1
+Vla	84.0	0.0	note	63	3.0
+Vla	84.0	0.0	note	67	3.0
+Vc	84.0	0.0	note	58	2.0
+Vc	84.0	0.0	slur	-1
+Cb	84.0	0.0	note	39	3.0
+VlnI	85.0	0.0	note	75	0.5
+VlnII	85.0	0.0	note	75	0.5
+VlnI	85.5	0.0	note	73	0.5
+VlnII	85.5	0.0	note	73	0.5
+Hn3	86.0	0.0	note	61	1.0
+Hn3	86.0	0.0	slur	-1
+Hn3	86.0	0.0	cresc	1
+VlnI	86.0	0.0	note	72	0.5
+VlnII	86.0	0.0	note	72	0.5
+Vc	86.0	0.0	note	61	1.0
+Vc	86.0	0.0	slur	1
+VlnI	86.5	0.0	note	70	0.5
+VlnI	86.5	0.0	slur	1
+VlnII	86.5	0.0	note	70	0.5
+VlnII	86.5	0.0	slur	1
+Cbn	87.0	0.0	note	32	3.0
+Cbn	87.0	0.0	tie
+Cbn	87.0	0.0	dynamic	pp
+Cbn	87.0	0.0	dynamic	pp
+Hn3	87.0	0.0	note	60	3.0
+Hn3	87.0	0.0	slur	1
+Hn4	87.0	0.0	note	51	3.0
+VlnI	87.0	0.0	note	68	3.0
+VlnI	87.0	0.0	dynamic	p
+VlnI	87.0	0.0	dynamic	p
+VlnI	87.0	0.0	decresc	-1
+VlnII	87.0	0.0	note	68	3.0
+VlnII	87.0	0.0	dynamic	p
+VlnII	87.0	0.0	dynamic	p
+VlnII	87.0	0.0	decresc	-1
+Vla	87.0	0.0	note	63	3.0
+Vla	87.0	0.0	note	68	3.0
+Vla	87.0	0.0	dynamic	p
+Vla	87.0	0.0	dynamic	p
+Vla	87.0	0.0	decresc	-1
+Vc	87.0	0.0	note	60	3.0
+Vc	87.0	0.0	dynamic	p
+Vc	87.0	0.0	dynamic	p
+Vc	87.0	0.0	decresc	-1
+Cb	87.0	0.0	note	32	3.0
+Cb	87.0	0.0	dynamic	p
+Cb	87.0	0.0	dynamic	p
+Cb	87.0	0.0	decresc	-1
+VlnI	89.0	0.0	dynamic	pp
+VlnI	89.0	0.0	dynamic	pp
+VlnII	89.0	0.0	dynamic	pp
+VlnII	89.0	0.0	dynamic	pp
+Vla	89.0	0.0	dynamic	pp
+Vla	89.0	0.0	dynamic	pp
+Vc	89.0	0.0	dynamic	pp
+Vc	89.0	0.0	dynamic	pp
+Cb	89.0	0.0	dynamic	pp
+Cb	89.0	0.0	dynamic	pp
+Bn2	90.0	0.0	note	44	3.0
+Bn2	90.0	0.0	tie
+Bn2	90.0	0.0	dynamic	pp
+Bn2	90.0	0.0	dynamic	pp
+Cbn	90.0	0.0	note	32	3.0
+Cbn	90.0	0.0	tie
+BCl	91.0	0.0	note	39	0.5
+BCl	91.0	0.0	slur	-1
+BCl	91.0	0.0	dynamic	p
+BCl	91.0	0.0	dynamic	p
+BCl	91.0	0.0	text	solo, espr.
+BCl	91.5	0.0	note	41	0.5
+BCl	92.0	0.0	note	44	0.5
+BCl	92.5	0.0	note	48	0.5
+CA	93.0	0.0	note	60	3.0
+CA	93.0	0.0	tie
+CA	93.0	0.0	slur	-1
+CA	93.0	0.0	dynamic	p
+CA	93.0	0.0	dynamic	p
+CA	93.0	0.0	text	dolce
+BCl	93.0	0.0	note	51	3.0
+BCl	93.0	0.0	tie
+BCl	93.0	0.0	cresc	1
+BCl	93.0	0.0	cresc	-1
+Bn2	93.0	0.0	note	44	3.0
+Bn2	93.0	0.0	tie
+Cbn	93.0	0.0	note	32	3.0
+Cbn	93.0	0.0	tie
+CA	96.0	0.0	note	60	1.0
+BCl	96.0	0.0	note	51	1.0
+BCl	96.0	0.0	dynamic	mf
+BCl	96.0	0.0	dynamic	mf
+BCl	96.0	0.0	decresc	-1
+Bn2	96.0	0.0	note	44	3.0
+Bn2	96.0	0.0	tie
+Cbn	96.0	0.0	note	32	2.0
+CA	97.0	0.0	note	59	1.0
+BCl	97.0	0.0	note	50	1.0
+Bn1	97.0	0.0	note	53	2.0
+Bn1	97.0	0.0	tie
+Bn1	97.0	0.0	slur	-1
+Bn1	97.0	0.0	dynamic	pp
+Bn1	97.0	0.0	dynamic	pp
+CA	98.0	0.0	note	58	1.0
+BCl	98.0	0.0	note	49	1.0
+Cbn	98.0	0.0	breathe
+Cbn	98.0	0.0	note	32	1.0
+Cbn	98.0	0.0	tie
+CA	99.0	0.0	note	56	3.0
+CA	99.0	0.0	slur	1
+BCl	99.0	0.0	note	48	2.0
+BCl	99.0	0.0	dynamic	mp
+BCl	99.0	0.0	dynamic	mp
+Bn1	99.0	0.0	note	53	1.0
+Bn2	99.0	0.0	note	44	1.0
+Cbn	99.0	0.0	note	32	3.0
+Cbn	99.0	0.0	tie
+Bn1	100.0	0.0	note	51	2.0
+Bn1	100.0	0.0	slur	1
+BCl	101.0	0.0	note	46	1.0
+BCl	101.0	0.0	slur	1
+BCl	102.0	0.0	breathe
+BCl	102.0	0.0	note	44	3.0
+BCl	102.0	0.0	tie
+BCl	102.0	0.0	slur	-1
+BCl	102.0	0.0	decresc	-1
+Bn1	102.0	0.0	breathe
+Bn1	102.0	0.0	note	51	3.0
+Bn1	102.0	0.0	tie
+Bn1	102.0	0.0	cresc	1
+Cbn	102.0	0.0	note	32	3.0
+Cbn	102.0	0.0	tie
+BCl	105.0	0.0	note	44	1.0
+BCl	105.0	0.0	dynamic	pp
+BCl	105.0	0.0	dynamic	pp
+BCl	105.0	0.0	cresc	-1
+Bn1	105.0	0.0	note	51	2.0
+Cbn	105.0	0.0	note	32	2.0
+BCl	106.0	0.0	note	46	1.0
+Fl1	107.0	0.0	note	72	1.0
+Fl1	107.0	0.0	slur	-1
+Fl1	107.0	0.0	dynamic	p
+Fl1	107.0	0.0	dynamic	p
+Fl1	107.0	0.0	text	dolce cantabile
+BCl	107.0	0.0	note	48	1.0
+Fl1	108.0	0.0	note	77	2.0
+Fl1	108.0	0.0	cresc	-1
+BCl	108.0	0.0	note	49	2.0
+BCl	108.0	0.0	slur	1
+BCl	108.0	0.0	dynamic	p
+BCl	108.0	0.0	dynamic	p
+BCl	108.0	0.0	decresc	-1
+Bn1	108.0	0.0	note	53	2.0
+Bn1	108.0	0.0	dynamic	pp
+Bn1	108.0	0.0	dynamic	pp
+Bn1	108.0	0.0	text	1.
+HarpL	108.0	0.0	note	37	1.0
+HarpL	108.0	0.0	note	49	1.0
+HarpL	108.0	0.0	dynamic	p
+HarpL	108.0	0.0	dynamic	p
+HarpL	108.0	0.0	text	^-^|^-^^
+VlnII	108.0	0.0	note	61	4.0
+VlnII	108.0	0.0	note	68	4.0
+VlnII	108.0	0.0	dynamic	pp
+VlnII	108.0	0.0	dynamic	pp
+VlnII	108.0	0.0	text	[E] Poco più mosso ( = 60)
+VlnII	108.0	0.0	text	senza sord., div., sul tasto
+Vla	108.0	0.0	note	56	0.3333333333333333
+Vla	108.0	0.0	slur	-1
+Vla	108.0	0.0	dynamic	pp
+Vla	108.0	0.0	dynamic	pp
+Vla	108.0	0.0	text	senza sord., unis.
+Cb	108.0	0.0	note	37	1.0
+Cb	108.0	0.0	dynamic	p
+Cb	108.0	0.0	dynamic	p
+Cb	108.0	0.0	text	pizz.
+Vla	108.33333333333333	0.0	note	61	0.3333333333333333
+Vla	108.66666666666667	0.0	note	65	0.3333333333333333
+Vla	109.0	0.0	note	61	0.3333333333333333
+Vla	109.33333333333333	0.0	note	56	0.3333333333333333
+Vla	109.66666666666667	0.0	note	61	0.3333333333333333
+Vla	109.66666666666667	0.0	slur	1
+Fl1	110.0	0.0	note	78	0.5
+BCl	110.0	0.0	cresc	1
+HarpL	110.0	0.0	note	37	1.0
+HarpL	110.0	0.0	note	49	1.0
+Vla	110.0	0.0	note	56	0.3333333333333333
+Vla	110.0	0.0	slur	-1
+Cb	110.0	0.0	note	37	1.0
+Vla	110.33333333333333	0.0	note	61	0.3333333333333333
+Fl1	110.5	0.0	note	77	0.5
+Vla	110.66666666666667	0.0	note	65	0.3333333333333333
+Fl1	111.0	0.0	note	75	1.0
+Fl1	111.0	0.0	cresc	1
+Vla	111.0	0.0	note	61	0.3333333333333333
+Vla	111.33333333333333	0.0	note	56	0.3333333333333333
+Vla	111.66666666666667	0.0	note	61	0.3333333333333333
+Vla	111.66666666666667	0.0	slur	1
+Fl1	112.0	0.0	note	73	1.0
+Fl1	112.0	0.0	decresc	-1
+HarpL	112.0	0.0	note	34	1.0
+HarpL	112.0	0.0	note	46	1.0
+VlnII	112.0	0.0	note	61	2.0
+VlnII	112.0	0.0	note	70	2.0
+Vla	112.0	0.0	note	58	0.3333333333333333
+Vla	112.0	0.0	slur	-1
+Cb	112.0	0.0	note	34	1.0
+Vla	112.33333333333333	0.0	note	61	0.3333333333333333
+Vla	112.66666666666667	0.0	note	66	0.3333333333333333
+Fl1	113.0	0.0	note	72	0.5
+Vla	113.0	0.0	note	61	0.3333333333333333
+Vla	113.33333333333333	0.0	note	58	0.3333333333333333
+Fl1	113.5	0.0	note	73	0.5
+Vla	113.66666666666667	0.0	note	61	0.3333333333333333
+Vla	113.66666666666667	0.0	slur	1
+Fl1	114.0	0.0	note	75	2.0
+Fl1	114.0	0.0	slur	1
+Fl1	114.0	0.0	cresc	1
+HarpL	114.0	0.0	note	30	1.0
+HarpL	114.0	0.0	note	42	1.0
+VlnII	114.0	0.0	note	66	2.0
+VlnII	114.0	0.0	note	70	2.0
+Vla	114.0	0.0	note	58	0.3333333333333333
+Vla	114.0	0.0	slur	-1
+Cb	114.0	0.0	note	30	1.0
+Vla	114.33333333333333	0.0	note	63	0.3333333333333333
+Vla	114.66666666666667	0.0	note	66	0.3333333333333333
+Vla	115.0	0.0	note	63	0.3333333333333333
+Vla	115.33333333333333	0.0	note	58	0.3333333333333333
+Vla	115.66666666666667	0.0	note	63	0.3333333333333333
+Vla	115.66666666666667	0.0	slur	1
+Fl1	116.0	0.0	note	78	1.0
+Fl1	116.0	0.0	slur	-1
+Fl1	116.0	0.0	cresc	-1
+HarpL	116.0	0.0	note	39	1.0
+HarpL	116.0	0.0	note	51	1.0
+VlnII	116.0	0.0	note	61	2.0
+VlnII	116.0	0.0	note	70	2.0
+Vla	116.0	0.0	note	58	0.3333333333333333
+Vla	116.0	0.0	slur	-1
+Cb	116.0	0.0	note	39	1.0
+Vla	116.33333333333333	0.0	note	61	0.3333333333333333
+Vla	116.66666666666667	0.0	note	66	0.3333333333333333
+Fl1	117.0	0.0	note	77	0.3333333333333333
+Vla	117.0	0.0	note	61	0.3333333333333333
+Fl1	117.33333333333333	0.0	note	78	0.3333333333333333
+Vla	117.33333333333333	0.0	note	58	0.3333333333333333
+Fl1	117.66666666666667	0.0	note	77	0.3333333333333333
+Vla	117.66666666666667	0.0	note	61	0.3333333333333333
+Vla	117.66666666666667	0.0	slur	1
+Fl1	118.0	0.0	note	75	1.0
+Fl1	118.0	0.0	decresc	-1
+HarpL	118.0	0.0	note	36	1.0
+HarpL	118.0	0.0	note	48	1.0
+VlnII	118.0	0.0	note	60	1.0
+VlnII	118.0	0.0	note	66	1.0
+Vla	118.0	0.0	note	58	0.3333333333333333
+Vla	118.0	0.0	slur	-1
+Cb	118.0	0.0	note	36	1.0
+Vla	118.33333333333333	0.0	note	63	0.3333333333333333
+Vla	118.66666666666667	0.0	note	66	0.3333333333333333
+Fl1	119.0	0.0	note	73	1.0
+HarpL	119.0	0.0	text	A♮
+VlnII	119.0	0.0	note	63	1.0
+VlnII	119.0	0.0	note	66	1.0
+Vla	119.0	0.0	note	63	0.3333333333333333
+Vla	119.33333333333333	0.0	note	58	0.3333333333333333
+Vla	119.66666666666667	0.0	note	63	0.3333333333333333
+Vla	119.66666666666667	0.0	slur	1
+Fl1	120.0	0.0	note	72	1.0
+Fl1	120.0	0.0	dynamic	p
+Fl1	120.0	0.0	dynamic	p
+HarpL	120.0	0.0	note	33	2.0
+HarpL	120.0	0.0	note	45	2.0
+VlnII	120.0	0.0	note	63	2.0
+VlnII	120.0	0.0	note	66	2.0
+Vla	120.0	0.0	note	60	0.3333333333333333
+Vla	120.0	0.0	slur	-1
+Cb	120.0	0.0	note	33	2.0
+Vla	120.33333333333333	0.0	note	63	0.3333333333333333
+Vla	120.66666666666667	0.0	note	66	0.3333333333333333
+Fl1	121.0	0.0	note	73	0.5
+Vla	121.0	0.0	note	63	0.3333333333333333
+Vla	121.33333333333333	0.0	note	60	0.3333333333333333
+Fl1	121.5	0.0	note	72	0.5
+Vla	121.66666666666667	0.0	note	63	0.3333333333333333
+Vla	121.66666666666667	0.0	slur	1
+Fl1	122.0	0.0	note	70	2.0
+Fl1	122.0	0.0	slur	1
+HarpL	122.0	0.0	note	34	2.0
+HarpL	122.0	0.0	note	46	2.0
+VlnII	122.0	0.0	note	61	2.0
+VlnII	122.0	0.0	note	65	2.0
+Vla	122.0	0.0	note	58	0.3333333333333333
+Vla	122.0	0.0	slur	-1
+Vla	122.0	0.0	script	upbow
+Cb	122.0	0.0	note	34	2.0
+Vla	122.33333333333333	0.0	note	61	0.3333333333333333
+Vla	122.66666666666667	0.0	note	65	0.3333333333333333
+Vla	122.66666666666667	0.0	slur	1
+Fl1	124.0	0.0	breathe
+CA	124.0	0.0	note	56	1.0
+CA	124.0	0.0	slur	-1
+CA	124.0	0.0	dynamic	p
+CA	124.0	0.0	dynamic	p
+CA	124.0	0.0	cresc	-1
+CA	124.0	0.0	text	solo, dolce cantabile
+HarpL	124.0	0.0	note	41	1.0
+HarpL	124.0	0.0	note	53	1.0
+Vla	124.0	0.0	note	49	0.3333333333333333
+Vla	124.0	0.0	dynamic	pp
+Vla	124.0	0.0	dynamic	pp
+Vla	124.0	0.0	cresc	-1
+Vla	124.0	0.0	text	pizz.
+Vc	124.0	0.0	note	49	4.0
+Vc	124.0	0.0	dynamic	pp
+Vc	124.0	0.0	dynamic	pp
+Vc	124.0	0.0	cresc	-1
+Vc	124.0	0.0	script	upbow
+Vc	124.0	0.0	text	senza sord., ord.
+Cb	124.0	0.0	note	41	1.0
+Vla	124.33333333333333	0.0	note	53	0.3333333333333333
+Vla	124.66666666666667	0.0	note	56	0.3333333333333333
+CA	125.0	0.0	note	61	1.0
+Vla	125.0	0.0	note	53	0.3333333333333333
+Cb	125.0	0.0	note	41	1.0
+Vla	125.33333333333333	0.0	note	49	0.3333333333333333
+Vla	125.66666666666667	0.0	note	56	0.3333333333333333
+Fl1	126.0	0.0	note	80	1.5
+Fl1	126.0	0.0	slur	-1
+Fl1	126.0	0.0	dynamic	pp
+Fl1	126.0	0.0	dynamic	pp
+Fl1	126.0	0.0	cresc	-1
+Fl1	126.0	0.0	text	1.
+CA	126.0	0.0	note	65	1.5
+HarpL	126.0	0.0	note	42	1.0
+HarpL	126.0	0.0	note	54	1.0
+Vla	126.0	0.0	note	54	0.3333333333333333
+Cb	126.0	0.0	note	42	1.0
+Vla	126.33333333333333	0.0	note	58	0.3333333333333333
+Vla	126.66666666666667	0.0	note	61	0.3333333333333333
+HarpL	127.0	0.0	text	A♭
+Vla	127.0	0.0	note	54	0.3333333333333333
+Cb	127.0	0.0	note	30	1.0
+Vla	127.33333333333333	0.0	note	58	0.3333333333333333
+Fl1	127.5	0.0	note	82	0.5
+CA	127.5	0.0	note	66	0.5
+Vla	127.66666666666667	0.0	note	61	0.3333333333333333
+Fl1	128.0	0.0	note	77	1.0
+Fl1	128.0	0.0	dynamic	p
+Fl1	128.0	0.0	dynamic	p
+CA	128.0	0.0	note	68	1.0
+CA	128.0	0.0	dynamic	mp
+CA	128.0	0.0	dynamic	mp
+HarpL	128.0	0.0	note	34	1.0
+HarpL	128.0	0.0	note	46	1.0
+Vla	128.0	0.0	note	56	0.3333333333333333
+Vla	128.0	0.0	dynamic	p
+Vla	128.0	0.0	dynamic	p
+Vla	128.0	0.0	decresc	-1
+Vc	128.0	0.0	note	49	1.0
+Vc	128.0	0.0	slur	-1
+Vc	128.0	0.0	dynamic	p
+Vc	128.0	0.0	dynamic	p
+Vc	128.0	0.0	decresc	-1
+Cb	128.0	0.0	note	34	1.0
+Vla	128.33333333333334	0.0	note	61	0.3333333333333333
+Vla	128.66666666666666	0.0	note	65	0.3333333333333333
+Fl1	129.0	0.0	note	78	0.5
+CA	129.0	0.0	note	70	0.5
+HarpL	129.0	0.0	note	39	1.0
+HarpL	129.0	0.0	note	51	1.0
+Vla	129.0	0.0	note	58	0.3333333333333333
+Vc	129.0	0.0	note	46	1.0
+Cb	129.0	0.0	note	39	1.0
+Vla	129.33333333333334	0.0	note	61	0.3333333333333333
+Fl1	129.5	0.0	note	77	0.5
+CA	129.5	0.0	note	68	0.5
+Vla	129.66666666666666	0.0	note	66	0.3333333333333333
+Fl1	130.0	0.0	note	75	1.0
+Fl1	130.0	0.0	tie
+CA	130.0	0.0	note	66	1.0
+CA	130.0	0.0	tie
+HarpL	130.0	0.0	note	32	1.0
+HarpL	130.0	0.0	note	44	1.0
+Vla	130.0	0.0	note	56	0.3333333333333333
+Vc	130.0	0.0	note	48	1.0
+Cb	130.0	0.0	note	32	1.0
+Vla	130.33333333333334	0.0	note	63	0.3333333333333333
+Vla	130.66666666666666	0.0	note	56	0.3333333333333333
+Fl1	131.0	0.0	note	75	0.5
+Fl1	131.0	0.0	decresc	-1
+CA	131.0	0.0	note	66	0.5
+CA	131.0	0.0	decresc	-1
+HarpL	131.0	0.0	note	37	1.0
+HarpL	131.0	0.0	note	49	1.0
+Vla	131.0	0.0	note	56	0.3333333333333333
+Vc	131.0	0.0	note	49	1.0
+Vc	131.0	0.0	slur	1
+Cb	131.0	0.0	note	37	1.0
+Vla	131.33333333333334	0.0	note	61	0.3333333333333333
+Fl1	131.5	0.0	note	77	0.5
+CA	131.5	0.0	note	65	0.5
+Vla	131.66666666666666	0.0	note	56	0.3333333333333333
+Fl1	132.0	0.0	note	78	1.5
+CA	132.0	0.0	note	63	1.5
+HarpL	132.0	0.0	note	30	1.0
+HarpL	132.0	0.0	note	42	1.0
+Vla	132.0	0.0	note	54	0.3333333333333333
+Vc	132.0	0.0	note	46	2.0
+Vc	132.0	0.0	slur	-1
+Vc	132.0	0.0	dynamic	pp
+Vc	132.0	0.0	dynamic	pp
+Cb	132.0	0.0	note	30	1.0
+Vla	132.33333333333334	0.0	note	58	0.3333333333333333
+Vla	132.66666666666666	0.0	note	61	0.3333333333333333
+Vla	133.0	0.0	note	58	0.3333333333333333
+Cb	133.0	0.0	note	34	1.0
+Vla	133.33333333333334	0.0	note	54	0.3333333333333333
+Fl1	133.5	0.0	note	80	0.5
+CA	133.5	0.0	note	65	0.5
+Vla	133.66666666666666	0.0	note	58	0.3333333333333333
+Fl1	134.0	0.0	note	77	1.0
+CA	134.0	0.0	note	61	1.0
+HarpL	134.0	0.0	note	32	1.0
+HarpL	134.0	0.0	note	44	1.0
+Vla	134.0	0.0	note	56	0.3333333333333333
+Vc	134.0	0.0	note	44	1.0
+Cb	134.0	0.0	note	32	1.0
+Vla	134.33333333333334	0.0	note	51	0.3333333333333333
+Vla	134.66666666666666	0.0	note	56	0.3333333333333333
+Fl1	135.0	0.0	note	75	1.0
+CA	135.0	0.0	note	58	1.0
+Vla	135.0	0.0	note	51	0.3333333333333333
+Vc	135.0	0.0	note	48	1.0
+Cb	135.0	0.0	note	32	1.0
+Vla	135.33333333333334	0.0	note	54	0.3333333333333333
+Vla	135.66666666666666	0.0	note	56	0.3333333333333333
+Fl1	136.0	0.0	note	75	3.0
+Fl1	136.0	0.0	slur	1
+Fl1	136.0	0.0	dynamic	pp
+Fl1	136.0	0.0	dynamic	pp
+CA	136.0	0.0	note	60	3.0
+CA	136.0	0.0	slur	1
+CA	136.0	0.0	dynamic	p
+CA	136.0	0.0	dynamic	p
+HarpL	136.0	0.0	note	32	1.0
+HarpL	136.0	0.0	note	44	1.0
+Vla	136.0	0.0	note	51	0.3333333333333333
+Vla	136.0	0.0	dynamic	pp
+Vla	136.0	0.0	dynamic	pp
+Vc	136.0	0.0	note	51	2.0
+Vc	136.0	0.0	slur	1
+Cb	136.0	0.0	note	32	1.0
+Vla	136.33333333333334	0.0	note	54	0.3333333333333333
+Vla	136.66666666666666	0.0	note	56	0.3333333333333333
+Vla	137.0	0.0	note	54	0.3333333333333333
+Vla	137.33333333333334	0.0	note	51	0.3333333333333333
+Vla	137.66666666666666	0.0	note	54	0.3333333333333333
+Ob1	139.0	0.0	note	68	1.0
+Ob1	139.0	0.0	slur	-1
+Ob1	139.0	0.0	dynamic	p
+Ob1	139.0	0.0	dynamic	p
+Ob1	139.0	0.0	text	1.
+Ob1	139.0	0.0	text	dolce espr.
+Vc	139.0	0.0	note	56	1.0
+Vc	139.0	0.0	slur	-1
+Vc	139.0	0.0	dynamic	pp
+Vc	139.0	0.0	dynamic	pp
+Vc	139.0	0.0	text	sul D
+Ob1	140.0	0.0	note	73	2.0
+Ob1	140.0	0.0	text	1.
+Bn1	140.0	0.0	note	61	2.0
+Bn1	140.0	0.0	slur	-1
+Bn1	140.0	0.0	dynamic	pp
+Bn1	140.0	0.0	dynamic	pp
+Bn2	140.0	0.0	note	46	4.0
+Bn2	140.0	0.0	slur	-1
+Bn2	140.0	0.0	dynamic	pp
+Bn2	140.0	0.0	dynamic	pp
+VlnII	140.0	0.0	note	65	4.0
+VlnII	140.0	0.0	dynamic	pp
+VlnII	140.0	0.0	dynamic	pp
+VlnII	140.0	0.0	script	upbow
+VlnII	140.0	0.0	text	[F]
+VlnII	140.0	0.0	text	unis., ord.
+Vla	140.0	0.0	note	53	4.0
+Vla	140.0	0.0	dynamic	pp
+Vla	140.0	0.0	dynamic	pp
+Vla	140.0	0.0	text	arco
+Vc	140.0	0.0	note	61	2.0
+Cb	140.0	0.0	note	34	4.0
+Cb	140.0	0.0	dynamic	pp
+Cb	140.0	0.0	dynamic	pp
+Cb	140.0	0.0	text	arco
+Ob1	142.0	0.0	note	75	0.5
+Bn1	142.0	0.0	note	63	0.5
+Vc	142.0	0.0	note	63	0.5
+Ob1	142.5	0.0	note	73	0.5
+Bn1	142.5	0.0	note	61	0.5
+Vc	142.5	0.0	note	61	0.5
+Ob1	143.0	0.0	note	72	1.0
+Ob1	143.0	0.0	slur	1
+Bn1	143.0	0.0	note	60	1.0
+Bn1	143.0	0.0	slur	1
+Vc	143.0	0.0	note	60	1.0
+Vc	143.0	0.0	slur	1
+Ob1	144.0	0.0	note	70	1.0
+Ob1	144.0	0.0	slur	-1
+Bn1	144.0	0.0	note	58	1.0
+Bn1	144.0	0.0	slur	-1
+Bn2	144.0	0.0	note	46	2.0
+Bn2	144.0	0.0	script	tenuto
+VlnII	144.0	0.0	note	65	2.0
+Vla	144.0	0.0	note	49	2.0
+Vla	144.0	0.0	slur	-1
+Vc	144.0	0.0	note	58	1.0
+Vc	144.0	0.0	slur	-1
+Cb	144.0	0.0	note	34	2.0
+Cb	144.0	0.0	slur	-1
+Ob1	145.0	0.0	note	69	0.5
+Bn1	145.0	0.0	note	57	0.5
+Vc	145.0	0.0	note	57	0.5
+Ob1	145.5	0.0	note	70	0.5
+Bn1	145.5	0.0	note	58	0.5
+Vc	145.5	0.0	note	58	0.5
+Vc	145.5	0.0	slur	1
+Ob1	146.0	0.0	note	73	2.0
+Ob1	146.0	0.0	cresc	-1
+Ob1	146.0	0.0	slur	1
+Bn1	146.0	0.0	note	61	2.0
+Bn1	146.0	0.0	cresc	-1
+Bn1	146.0	0.0	slur	1
+Bn2	146.0	0.0	note	46	2.0
+Bn2	146.0	0.0	script	tenuto
+Bn2	146.0	0.0	cresc	-1
+VlnII	146.0	0.0	note	66	2.0
+VlnII	146.0	0.0	cresc	-1
+Vla	146.0	0.0	note	58	2.0
+Vla	146.0	0.0	slur	1
+Vla	146.0	0.0	cresc	-1
+Vc	146.0	0.0	note	61	2.0
+Vc	146.0	0.0	cresc	-1
+Cb	146.0	0.0	note	30	2.0
+Cb	146.0	0.0	slur	1
+Cb	146.0	0.0	cresc	-1
+Ob1	148.0	0.0	note	73	3.0
+Ob1	148.0	0.0	dynamic	mf
+Ob1	148.0	0.0	dynamic	mf
+Ob1	148.0	0.0	decresc	-1
+Bn1	148.0	0.0	note	61	3.0
+Bn1	148.0	0.0	dynamic	p
+Bn1	148.0	0.0	dynamic	p
+Bn1	148.0	0.0	decresc	-1
+Bn2	148.0	0.0	note	44	4.0
+Bn2	148.0	0.0	slur	1
+Bn2	148.0	0.0	dynamic	p
+Bn2	148.0	0.0	dynamic	p
+Bn2	148.0	0.0	decresc	-1
+VlnII	148.0	0.0	note	65	4.0
+VlnII	148.0	0.0	dynamic	fp
+VlnII	148.0	0.0	dynamic	fp
+VlnII	148.0	0.0	decresc	-1
+Vla	148.0	0.0	note	59	4.0
+Vla	148.0	0.0	dynamic	fp
+Vla	148.0	0.0	dynamic	fp
+Vla	148.0	0.0	decresc	-1
+Vc	148.0	0.0	note	61	3.0
+Vc	148.0	0.0	dynamic	mp
+Vc	148.0	0.0	dynamic	mp
+Vc	148.0	0.0	decresc	-1
+Cb	148.0	0.0	note	37	4.0
+Cb	148.0	0.0	dynamic	fp
+Cb	148.0	0.0	dynamic	fp
+Cb	148.0	0.0	decresc	-1
+VlnII	150.0	0.0	text	poco rit.
+Ob1	151.0	0.0	cresc	1
+CA	151.0	0.0	note	61	1.0
+CA	151.0	0.0	slur	-1
+CA	151.0	0.0	dynamic	p
+CA	151.0	0.0	dynamic	p
+CA	151.0	0.0	text	solo, espr.
+Bn1	151.0	0.0	cresc	1
+Bn2	151.0	0.0	dynamic	pp
+Bn2	151.0	0.0	dynamic	pp
+VlnII	151.0	0.0	dynamic	pp
+VlnII	151.0	0.0	dynamic	pp
+Vc	151.0	0.0	cresc	1
+Cb	151.0	0.0	dynamic	pp
+Cb	151.0	0.0	dynamic	pp
+CA	152.0	0.0	note	69	3.0
+CA	152.0	0.0	tie
+VlnII	152.0	0.0	note	66	2.0
+VlnII	152.0	0.0	text	poco sostenuto
+Vc	152.0	0.0	note	49	4.0
+Vc	152.0	0.0	dynamic	pp
+Vc	152.0	0.0	dynamic	pp
+Vc	152.0	0.0	text	ord.
+Cb	152.0	0.0	note	42	4.0
+Vla	152.5	0.0	note	57	0.5
+Vla	152.5	0.0	script	portato
+Vla	152.5	0.0	dynamic	pp
+Vla	152.5	0.0	dynamic	pp
+Vla	152.5	0.0	text	sotto voce
+Vla	153.5	0.0	note	57	0.5
+Vla	153.5	0.0	script	portato
+VlnII	154.0	0.0	note	78	2.0
+Vla	154.5	0.0	note	57	0.5
+Vla	154.5	0.0	script	portato
+CA	155.0	0.0	note	69	0.5
+CA	155.5	0.0	note	68	0.5
+CA	156.0	0.0	note	66	1.0
+VlnII	156.0	0.0	note	81	2.0
+Vc	156.0	0.0	note	54	2.0
+Cb	156.0	0.0	note	42	2.0
+Vla	156.5	0.0	note	57	0.5
+Vla	156.5	0.0	script	portato
+CA	157.0	0.0	note	74	2.0
+CA	157.0	0.0	script	tenuto
+CA	157.0	0.0	cresc	-1
+Vla	157.5	0.0	note	57	0.5
+Vla	157.5	0.0	script	portato
+VlnII	158.0	0.0	note	79	1.0
+VlnII	158.0	0.0	slur	-1
+Vc	158.0	0.0	note	47	2.0
+Cb	158.0	0.0	note	35	1.0
+Vla	158.5	0.0	note	59	0.5
+Vla	158.5	0.0	script	portato
+CA	159.0	0.0	note	73	1.0
+CA	159.0	0.0	cresc	1
+CA	159.0	0.0	slur	1
+VlnII	159.0	0.0	note	77	1.0
+VlnII	159.0	0.0	slur	1
+Cb	159.0	0.0	note	37	1.0
+Vla	159.5	0.0	note	56	0.5
+Vla	159.5	0.0	script	portato
+CA	160.0	0.0	note	73	2.0
+CA	160.0	0.0	slur	-1
+CA	160.0	0.0	dynamic	mp
+CA	160.0	0.0	dynamic	mp
+VlnII	160.0	0.0	note	78	1.0
+VlnII	160.0	0.0	slur	-1
+Vc	160.0	0.0	note	45	2.0
+Cb	160.0	0.0	note	42	2.0
+Vla	160.5	0.0	note	57	0.5
+Vla	160.5	0.0	script	portato
+VlnII	161.0	0.0	note	81	1.0
+VlnII	161.0	0.0	slur	1
+Vla	161.5	0.0	note	57	0.5
+Vla	161.5	0.0	script	portato
+CA	162.0	0.0	note	71	1.0
+VlnII	162.0	0.0	note	74	2.0
+Vc	162.0	0.0	note	47	2.0
+Cb	162.0	0.0	note	35	2.0
+Vla	162.5	0.0	note	62	0.5
+Vla	162.5	0.0	script	portato
+CA	163.0	0.0	note	69	1.0
+CA	163.0	0.0	slur	1
+Vla	163.5	0.0	note	59	0.5
+Vla	163.5	0.0	script	portato
+CA	164.0	0.0	breathe
+CA	164.0	0.0	note	68	2.0
+CA	164.0	0.0	slur	-1
+CA	164.0	0.0	decresc	-1
+VlnII	164.0	0.0	note	75	4.0
+Vc	164.0	0.0	note	48	4.0
+Cb	164.0	0.0	note	32	4.0
+Vla	164.5	0.0	note	63	0.5
+Vla	164.5	0.0	script	portato
+Vla	165.5	0.0	note	63	0.5
+Vla	165.5	0.0	script	portato
+CA	166.0	0.0	note	66	2.0
+Vla	166.5	0.0	note	63	0.5
+Vla	166.5	0.0	script	portato
+Vla	167.5	0.0	note	63	0.5
+Vla	167.5	0.0	script	portato
+CA	168.0	0.0	note	65	3.0
+Timp	168.0	0.0	note	44	4.0
+Timp	168.0	0.0	tremolo	32
+Timp	168.0	0.0	dynamic	pp
+Timp	168.0	0.0	dynamic	pp
+Timp	168.0	0.0	cresc	-1
+VlnII	168.0	0.0	note	77	2.0
+VlnII	168.0	0.0	slur	-1
+VlnII	168.0	0.0	cresc	-1
+Vla	168.0	0.0	note	60	4.0
+Vla	168.0	0.0	cresc	-1
+Vc	168.0	0.0	note	50	2.0
+Vc	168.0	0.0	cresc	-1
+Cb	168.0	0.0	note	32	4.0
+VlnII	170.0	0.0	note	75	1.0
+VlnII	170.0	0.0	slur	1
+Vc	170.0	0.0	note	51	2.0
+CA	171.0	0.0	note	66	1.0
+CA	171.0	0.0	slur	1
+CA	171.0	0.0	dynamic	p
+CA	171.0	0.0	dynamic	p
+VlnI	171.0	0.0	note	72	1.0
+VlnI	171.0	0.0	slur	-1
+VlnI	171.0	0.0	dynamic	p
+VlnI	171.0	0.0	dynamic	p
+VlnI	171.0	0.0	text	senza sord., sul A, cantabile
+VlnII	171.0	0.0	note	72	1.0
+VlnII	171.0	0.0	slur	-1
+VlnII	171.0	0.0	dynamic	p
+VlnII	171.0	0.0	dynamic	p
+VlnII	171.0	0.0	text	sul A, cantabile
+Vla	171.0	0.0	dynamic	p
+Vla	171.0	0.0	dynamic	p
+CA	172.0	0.0	note	65	2.0
+CA	172.0	0.0	decresc	-1
+Timp	172.0	0.0	note	49	1.0
+Timp	172.0	0.0	dynamic	p
+Timp	172.0	0.0	dynamic	p
+HarpR	172.0	0.0	note	56	0.3333333333333333
+HarpR	172.0	0.0	dynamic	pp
+HarpR	172.0	0.0	dynamic	pp
+HarpR	172.0	0.0	text	^-^|^-^^
+VlnI	172.0	0.0	note	77	2.0
+VlnI	172.0	0.0	cresc	-1
+VlnII	172.0	0.0	note	77	2.0
+VlnII	172.0	0.0	cresc	-1
+Vc	172.0	0.0	note	49	2.0
+Vc	172.0	0.0	dynamic	p
+Vc	172.0	0.0	dynamic	p
+Vc	172.0	0.0	cresc	-1
+HarpR	172.33333333333334	0.0	note	61	0.3333333333333333
+HarpR	172.66666666666666	0.0	note	65	0.3333333333333333
+Timp	173.0	0.0	text	damp
+HarpR	173.0	0.0	note	61	0.3333333333333333
+HarpR	173.33333333333334	0.0	note	56	0.3333333333333333
+HarpR	173.66666666666666	0.0	note	61	0.3333333333333333
+CA	174.0	0.0	cresc	1
+HarpR	174.0	0.0	note	56	0.3333333333333333
+VlnI	174.0	0.0	note	78	0.5
+VlnII	174.0	0.0	note	78	0.5
+Vc	174.0	0.0	note	48	2.0
+HarpR	174.33333333333334	0.0	note	63	0.3333333333333333
+VlnI	174.5	0.0	note	77	0.5
+VlnII	174.5	0.0	note	77	0.5
+HarpR	174.66666666666666	0.0	note	68	0.3333333333333333
+Cl1	175.0	0.0	note	56	0.5
+Cl1	175.0	0.0	slur	-1
+Cl1	175.0	0.0	dynamic	pp
+Cl1	175.0	0.0	dynamic	pp
+Hn1	175.0	0.0	note	56	0.5
+Hn1	175.0	0.0	slur	-1
+Hn1	175.0	0.0	dynamic	pp
+Hn1	175.0	0.0	dynamic	pp
+Hn1	175.0	0.0	text	1.
+Hn1	175.0	0.0	text	espr.
+HarpR	175.0	0.0	note	63	0.3333333333333333
+VlnI	175.0	0.0	note	75	1.0
+VlnI	175.0	0.0	slur	1
+VlnII	175.0	0.0	note	75	1.0
+VlnII	175.0	0.0	slur	1
+HarpR	175.33333333333334	0.0	note	68	0.3333333333333333
+Cl1	175.5	0.0	note	58	0.5
+Hn1	175.5	0.0	note	58	0.5
+HarpR	175.66666666666666	0.0	note	63	0.3333333333333333
+Cl1	176.0	0.0	note	61	1.5
+Cl1	176.0	0.0	cresc	-1
+Bn1	176.0	0.0	note	49	4.0
+Bn1	176.0	0.0	tie
+Bn1	176.0	0.0	slur	-1
+Bn1	176.0	0.0	dynamic	pp
+Bn1	176.0	0.0	dynamic	pp
+Bn1	176.0	0.0	cresc	-1
+Hn1	176.0	0.0	note	61	1.5
+Hn1	176.0	0.0	cresc	-1
+HarpR	176.0	0.0	note	54	0.3333333333333333
+VlnI	176.0	0.0	note	73	1.0
+VlnI	176.0	0.0	slur	-1
+VlnII	176.0	0.0	note	73	1.0
+VlnII	176.0	0.0	slur	-1
+Vc	176.0	0.0	note	46	2.0
+HarpR	176.33333333333334	0.0	note	58	0.3333333333333333
+HarpR	176.66666666666666	0.0	note	66	0.3333333333333333
+HarpR	177.0	0.0	note	58	0.3333333333333333
+VlnI	177.0	0.0	note	72	0.5
+VlnII	177.0	0.0	note	72	0.5
+HarpR	177.33333333333334	0.0	note	54	0.3333333333333333
+Cl1	177.5	0.0	note	65	0.5
+Hn1	177.5	0.0	note	65	0.5
+VlnI	177.5	0.0	note	73	0.5
+VlnII	177.5	0.0	note	73	0.5
+HarpR	177.66666666666666	0.0	note	58	0.3333333333333333
+Cl1	178.0	0.0	note	70	2.0
+Cl1	178.0	0.0	tie
+Hn1	178.0	0.0	note	70	2.0
+Hn1	178.0	0.0	tie
+HarpR	178.0	0.0	note	63	0.3333333333333333
+VlnI	178.0	0.0	note	75	2.0
+VlnI	178.0	0.0	slur	1
+VlnI	178.0	0.0	dynamic	mp
+VlnI	178.0	0.0	dynamic	mp
+VlnII	178.0	0.0	note	75	2.0
+VlnII	178.0	0.0	slur	1
+VlnII	178.0	0.0	dynamic	mp
+VlnII	178.0	0.0	dynamic	mp
+Vc	178.0	0.0	note	42	2.0
+Vc	178.0	0.0	dynamic	mp
+Vc	178.0	0.0	dynamic	mp
+HarpR	178.33333333333334	0.0	note	58	0.3333333333333333
+HarpR	178.66666666666666	0.0	note	66	0.3333333333333333
+HarpR	179.0	0.0	note	63	0.3333333333333333
+HarpR	179.33333333333334	0.0	note	58	0.3333333333333333
+HarpR	179.66666666666666	0.0	note	63	0.3333333333333333
+Cl1	180.0	0.0	note	70	2.0
+Bn1	180.0	0.0	note	49	2.0
+Hn1	180.0	0.0	note	70	2.0
+HarpR	180.0	0.0	note	58	0.3333333333333333
+HarpR	180.0	0.0	dynamic	p
+HarpR	180.0	0.0	dynamic	p
+VlnI	180.0	0.0	note	78	1.0
+VlnI	180.0	0.0	slur	-1
+VlnI	180.0	0.0	cresc	-1
+VlnII	180.0	0.0	note	78	1.0
+VlnII	180.0	0.0	slur	-1
+VlnII	180.0	0.0	cresc	-1
+Vc	180.0	0.0	note	39	2.0
+Vc	180.0	0.0	cresc	-1
+HarpR	180.33333333333334	0.0	note	61	0.3333333333333333
+HarpR	180.66666666666666	0.0	note	63	0.3333333333333333
+HarpR	181.0	0.0	note	61	0.3333333333333333
+VlnI	181.0	0.0	note	77	0.3333333333333333
+VlnII	181.0	0.0	note	77	0.3333333333333333
+HarpR	181.33333333333334	0.0	note	58	0.3333333333333333
+VlnI	181.33333333333334	0.0	note	78	0.3333333333333333
+VlnII	181.33333333333334	0.0	note	78	0.3333333333333333
+HarpR	181.66666666666666	0.0	note	61	0.3333333333333333
+VlnI	181.66666666666666	0.0	note	77	0.3333333333333333
+VlnII	181.66666666666666	0.0	note	77	0.3333333333333333
+Cl1	182.0	0.0	note	66	2.0
+Cl1	182.0	0.0	dynamic	p
+Cl1	182.0	0.0	dynamic	p
+Bn1	182.0	0.0	note	48	2.0
+Bn1	182.0	0.0	dynamic	p
+Bn1	182.0	0.0	dynamic	p
+Hn1	182.0	0.0	note	66	2.0
+Hn1	182.0	0.0	dynamic	mp
+Hn1	182.0	0.0	dynamic	mp
+HarpR	182.0	0.0	note	58	0.3333333333333333
+VlnI	182.0	0.0	note	75	1.0
+VlnII	182.0	0.0	note	75	1.0
+Vc	182.0	0.0	note	36	2.0
+HarpR	182.33333333333334	0.0	note	60	0.3333333333333333
+HarpR	182.66666666666666	0.0	note	63	0.3333333333333333
+HarpR	183.0	0.0	note	58	0.3333333333333333
+VlnI	183.0	0.0	note	73	1.0
+VlnI	183.0	0.0	slur	1
+VlnII	183.0	0.0	note	73	1.0
+VlnII	183.0	0.0	slur	1
+HarpR	183.33333333333334	0.0	note	63	0.3333333333333333
+HarpR	183.66666666666666	0.0	note	58	0.3333333333333333
+Cl1	184.0	0.0	note	60	2.0
+Bn1	184.0	0.0	note	54	2.0
+Hn1	184.0	0.0	note	60	2.0
+HarpR	184.0	0.0	note	63	0.3333333333333333
+VlnI	184.0	0.0	note	72	1.0
+VlnI	184.0	0.0	slur	-1
+VlnI	184.0	0.0	dynamic	mf
+VlnI	184.0	0.0	dynamic	mf
+VlnII	184.0	0.0	note	72	1.0
+VlnII	184.0	0.0	slur	-1
+VlnII	184.0	0.0	dynamic	mf
+VlnII	184.0	0.0	dynamic	mf
+Vc	184.0	0.0	note	45	2.0
+Vc	184.0	0.0	dynamic	mf
+Vc	184.0	0.0	dynamic	mf
+Cb	184.0	0.0	note	33	2.0
+Cb	184.0	0.0	dynamic	p
+Cb	184.0	0.0	dynamic	p
+Cb	184.0	0.0	cresc	-1
+Cb	184.0	0.0	slur	-1
+HarpR	184.33333333333334	0.0	note	66	0.3333333333333333
+HarpR	184.66666666666666	0.0	note	63	0.3333333333333333
+HarpR	185.0	0.0	note	66	0.3333333333333333
+VlnI	185.0	0.0	note	73	0.5
+VlnII	185.0	0.0	note	73	0.5
+HarpR	185.33333333333334	0.0	note	63	0.3333333333333333
+VlnI	185.5	0.0	note	72	0.5
+VlnII	185.5	0.0	note	72	0.5
+HarpR	185.66666666666666	0.0	note	66	0.3333333333333333
+Cl1	186.0	0.0	note	61	2.0
+Cl1	186.0	0.0	slur	1
+Bn1	186.0	0.0	note	53	2.0
+Bn1	186.0	0.0	slur	1
+Hn1	186.0	0.0	note	61	2.0
+Hn1	186.0	0.0	slur	1
+HarpR	186.0	0.0	note	58	0.3333333333333333
+VlnI	186.0	0.0	note	70	2.0
+VlnI	186.0	0.0	slur	1
+VlnII	186.0	0.0	note	70	2.0
+VlnII	186.0	0.0	slur	1
+Vc	186.0	0.0	note	46	2.0
+Cb	186.0	0.0	note	34	2.0
+Cb	186.0	0.0	slur	1
+HarpR	186.33333333333334	0.0	note	65	0.3333333333333333
+HarpR	186.66666666666666	0.0	note	58	0.3333333333333333
+HarpR	187.0	0.0	note	65	0.3333333333333333
+HarpR	187.33333333333334	0.0	note	58	0.3333333333333333
+HarpR	187.66666666666666	0.0	note	65	0.3333333333333333
+Fl1	188.0	0.0	note	80	1.0
+Fl1	188.0	0.0	slur	-1
+Fl1	188.0	0.0	dynamic	p
+Fl1	188.0	0.0	dynamic	p
+Fl1	188.0	0.0	cresc	-1
+Fl1	188.0	0.0	text	1.
+Ob1	188.0	0.0	note	68	1.0
+Ob1	188.0	0.0	slur	-1
+Ob1	188.0	0.0	dynamic	p
+Ob1	188.0	0.0	dynamic	p
+Ob1	188.0	0.0	cresc	-1
+Ob1	188.0	0.0	text	1.
+Cl1	188.0	0.0	breathe
+BCl	188.0	0.0	note	53	2.0
+BCl	188.0	0.0	dynamic	p
+BCl	188.0	0.0	dynamic	p
+BCl	188.0	0.0	cresc	-1
+Bn2	188.0	0.0	note	53	2.0
+Bn2	188.0	0.0	dynamic	p
+Bn2	188.0	0.0	dynamic	p
+Bn2	188.0	0.0	cresc	-1
+Hn1	188.0	0.0	breathe
+Hn1	188.0	0.0	note	68	2.0
+Hn1	188.0	0.0	slur	-1
+Hn1	188.0	0.0	dynamic	mp
+Hn1	188.0	0.0	dynamic	mp
+Hn1	188.0	0.0	cresc	-1
+Hn1	188.0	0.0	text	1.
+VlnI	188.0	0.0	note	80	1.0
+VlnI	188.0	0.0	slur	-1
+VlnI	188.0	0.0	cresc	-1
+VlnI	188.0	0.0	text	ord.
+VlnII	188.0	0.0	note	68	1.0
+VlnII	188.0	0.0	slur	-1
+VlnII	188.0	0.0	cresc	-1
+VlnII	188.0	0.0	text	ord.
+Vla	188.0	0.0	note	56	0.3333333333333333
+Vla	188.0	0.0	slur	-1
+Vla	188.0	0.0	dynamic	mp
+Vla	188.0	0.0	dynamic	mp
+Vla	188.0	0.0	cresc	-1
+Vc	188.0	0.0	note	53	2.0
+Vc	188.0	0.0	cresc	-1
+Cb	188.0	0.0	note	41	2.0
+Cb	188.0	0.0	dynamic	mf
+Cb	188.0	0.0	dynamic	mf
+Cb	188.0	0.0	cresc	-1
+Vla	188.33333333333334	0.0	note	61	0.3333333333333333
+Vla	188.66666666666666	0.0	note	65	0.3333333333333333
+Fl1	189.0	0.0	note	85	1.0
+Ob1	189.0	0.0	note	73	1.0
+VlnI	189.0	0.0	note	85	1.0
+VlnI	189.0	0.0	slur	1
+VlnII	189.0	0.0	note	73	1.0
+VlnII	189.0	0.0	slur	1
+Vla	189.0	0.0	note	61	0.3333333333333333
+Vla	189.33333333333334	0.0	note	56	0.3333333333333333
+Vla	189.66666666666666	0.0	note	61	0.3333333333333333
+Vla	189.66666666666666	0.0	slur	1
+Fl1	190.0	0.0	note	89	1.5
+Ob1	190.0	0.0	note	77	1.5
+Cl1	190.0	0.0	note	73	2.0
+Cl1	190.0	0.0	tie
+Cl1	190.0	0.0	slur	-1
+Cl1	190.0	0.0	dynamic	mp
+Cl1	190.0	0.0	dynamic	mp
+Cl1	190.0	0.0	cresc	-1
+Cl2	190.0	0.0	note	70	2.0
+Cl2	190.0	0.0	tie
+Cl2	190.0	0.0	slur	-1
+Cl2	190.0	0.0	dynamic	mp
+Cl2	190.0	0.0	dynamic	mp
+Cl2	190.0	0.0	cresc	-1
+BCl	190.0	0.0	note	54	2.0
+Bn2	190.0	0.0	note	54	2.0
+Hn1	190.0	0.0	note	66	2.0
+VlnI	190.0	0.0	note	89	1.5
+VlnI	190.0	0.0	slur	-1
+VlnII	190.0	0.0	note	77	1.5
+VlnII	190.0	0.0	slur	-1
+Vla	190.0	0.0	note	58	0.3333333333333333
+Vla	190.0	0.0	slur	-1
+Vc	190.0	0.0	note	54	2.0
+Vc	190.0	0.0	slur	-1
+Vc	190.0	0.0	text	espr.
+Cb	190.0	0.0	note	42	2.0
+Vla	190.33333333333334	0.0	note	61	0.3333333333333333
+Vla	190.66666666666666	0.0	note	70	0.3333333333333333
+Vla	191.0	0.0	note	61	0.3333333333333333
+Vla	191.33333333333334	0.0	note	58	0.3333333333333333
+Fl1	191.5	0.0	note	90	0.5
+Ob1	191.5	0.0	note	78	0.5
+VlnI	191.5	0.0	note	90	0.5
+VlnII	191.5	0.0	note	78	0.5
+Vla	191.66666666666666	0.0	note	61	0.3333333333333333
+Vla	191.66666666666666	0.0	slur	1
+Fl1	192.0	0.0	note	92	1.5
+Ob1	192.0	0.0	note	80	1.5
+Cl1	192.0	0.0	note	73	2.0
+Cl2	192.0	0.0	note	70	2.0
+BCl	192.0	0.0	note	46	1.0
+Bn2	192.0	0.0	breathe
+Bn2	192.0	0.0	note	46	1.0
+Hn1	192.0	0.0	note	65	1.0
+VlnI	192.0	0.0	note	92	1.5
+VlnI	192.0	0.0	slur	1
+VlnII	192.0	0.0	note	80	1.5
+VlnII	192.0	0.0	slur	1
+Vla	192.0	0.0	note	56	0.3333333333333333
+Vla	192.0	0.0	slur	-1
+Vc	192.0	0.0	note	53	1.0
+Vc	192.0	0.0	slur	1
+Cb	192.0	0.0	note	34	1.0
+Vla	192.33333333333334	0.0	note	58	0.3333333333333333
+Vla	192.66666666666666	0.0	note	61	0.3333333333333333
+Vla	192.66666666666666	0.0	slur	1
+BCl	193.0	0.0	note	51	1.0
+Bn2	193.0	0.0	note	51	1.0
+Hn1	193.0	0.0	note	63	2.0
+Hn1	193.0	0.0	tie
+Vla	193.0	0.0	note	58	0.3333333333333333
+Vla	193.0	0.0	slur	-1
+Vc	193.0	0.0	note	51	2.0
+Vc	193.0	0.0	tie
+Cb	193.0	0.0	note	39	1.0
+Vla	193.33333333333334	0.0	note	61	0.3333333333333333
+Fl1	193.5	0.0	note	90	0.5
+Fl1	193.5	0.0	tie
+Ob1	193.5	0.0	note	78	0.5
+Ob1	193.5	0.0	tie
+VlnI	193.5	0.0	note	90	0.5
+VlnI	193.5	0.0	slur	-1
+VlnI	193.5	0.0	tie
+VlnII	193.5	0.0	note	78	0.5
+VlnII	193.5	0.0	slur	-1
+VlnII	193.5	0.0	tie
+Vla	193.66666666666666	0.0	note	66	0.3333333333333333
+Vla	193.66666666666666	0.0	slur	1
+Fl1	194.0	0.0	note	90	1.0
+Fl1	194.0	0.0	tie
+Ob1	194.0	0.0	note	78	1.0
+Ob1	194.0	0.0	tie
+Cl1	194.0	0.0	note	72	1.0
+Cl2	194.0	0.0	note	68	1.0
+BCl	194.0	0.0	note	44	1.0
+Bn2	194.0	0.0	note	44	1.0
+VlnI	194.0	0.0	note	90	1.0
+VlnI	194.0	0.0	tie
+VlnII	194.0	0.0	note	78	1.0
+VlnII	194.0	0.0	tie
+Vla	194.0	0.0	note	56	0.3333333333333333
+Vla	194.0	0.0	slur	-1
+Cb	194.0	0.0	note	32	1.0
+Vla	194.33333333333334	0.0	note	60	0.3333333333333333
+Vla	194.66666666666666	0.0	note	68	0.3333333333333333
+Vla	194.66666666666666	0.0	slur	1
+Fl1	195.0	0.0	note	90	0.5
+Fl1	195.0	0.0	cresc	1
+Fl1	195.0	0.0	decresc	-1
+Ob1	195.0	0.0	note	78	0.5
+Ob1	195.0	0.0	cresc	1
+Ob1	195.0	0.0	decresc	-1
+Cl1	195.0	0.0	note	73	1.0
+Cl1	195.0	0.0	tie
+Cl2	195.0	0.0	note	71	1.0
+BCl	195.0	0.0	note	49	1.0
+Bn2	195.0	0.0	note	49	1.0
+Hn1	195.0	0.0	note	63	0.5
+VlnI	195.0	0.0	note	90	0.5
+VlnI	195.0	0.0	cresc	1
+VlnI	195.0	0.0	decresc	-1
+VlnII	195.0	0.0	note	78	0.5
+VlnII	195.0	0.0	cresc	1
+VlnII	195.0	0.0	decresc	-1
+Vla	195.0	0.0	note	56	0.3333333333333333
+Vla	195.0	0.0	slur	-1
+Vc	195.0	0.0	note	51	0.5
+Vc	195.0	0.0	slur	-1
+Vc	195.0	0.0	script	upbow
+Cb	195.0	0.0	note	37	1.0
+Vla	195.33333333333334	0.0	note	59	0.3333333333333333
+Fl1	195.5	0.0	note	89	0.5
+Fl1	195.5	0.0	slur	1
+Fl1	195.5	0.0	cresc	1
+Ob1	195.5	0.0	note	77	0.5
+Ob1	195.5	0.0	slur	1
+Ob1	195.5	0.0	cresc	1
+Hn1	195.5	0.0	note	65	0.5
+Hn1	195.5	0.0	slur	1
+VlnI	195.5	0.0	note	89	0.5
+VlnI	195.5	0.0	slur	1
+VlnI	195.5	0.0	cresc	1
+VlnII	195.5	0.0	note	77	0.5
+VlnII	195.5	0.0	slur	1
+VlnII	195.5	0.0	cresc	1
+Vc	195.5	0.0	note	53	0.5
+Vc	195.5	0.0	slur	1
+Vla	195.66666666666666	0.0	note	68	0.3333333333333333
+Vla	195.66666666666666	0.0	slur	1
+Fl1	196.0	0.0	breathe
+Fl1	196.0	0.0	note	87	1.5
+Fl1	196.0	0.0	slur	-1
+Fl1	196.0	0.0	dynamic	f
+Fl1	196.0	0.0	dynamic	f
+Ob1	196.0	0.0	breathe
+Ob1	196.0	0.0	note	75	1.5
+Ob1	196.0	0.0	slur	-1
+Ob1	196.0	0.0	dynamic	f
+Ob1	196.0	0.0	dynamic	f
+Cl1	196.0	0.0	note	73	2.0
+Cl1	196.0	0.0	slur	1
+Cl1	196.0	0.0	dynamic	f
+Cl1	196.0	0.0	dynamic	f
+Cl2	196.0	0.0	note	70	2.0
+Cl2	196.0	0.0	slur	1
+Cl2	196.0	0.0	dynamic	f
+Cl2	196.0	0.0	dynamic	f
+BCl	196.0	0.0	breathe
+BCl	196.0	0.0	note	42	2.0
+BCl	196.0	0.0	dynamic	f
+BCl	196.0	0.0	dynamic	f
+Bn1	196.0	0.0	note	54	2.0
+Bn1	196.0	0.0	dynamic	f
+Bn1	196.0	0.0	dynamic	f
+Bn2	196.0	0.0	note	42	2.0
+Bn2	196.0	0.0	dynamic	f
+Bn2	196.0	0.0	dynamic	f
+Hn1	196.0	0.0	breathe
+Hn1	196.0	0.0	note	66	2.0
+Hn1	196.0	0.0	dynamic	f
+Hn1	196.0	0.0	dynamic	f
+VlnI	196.0	0.0	note	87	1.5
+VlnI	196.0	0.0	slur	-1
+VlnI	196.0	0.0	dynamic	f
+VlnI	196.0	0.0	dynamic	f
+VlnII	196.0	0.0	note	75	1.5
+VlnII	196.0	0.0	slur	-1
+VlnII	196.0	0.0	dynamic	f
+VlnII	196.0	0.0	dynamic	f
+Vla	196.0	0.0	note	54	0.16666666666666666
+Vla	196.0	0.0	slur	-1
+Vla	196.0	0.0	dynamic	f
+Vla	196.0	0.0	dynamic	f
+Vc	196.0	0.0	note	54	2.0
+Vc	196.0	0.0	dynamic	f
+Vc	196.0	0.0	dynamic	f
+Cb	196.0	0.0	note	30	2.0
+Cb	196.0	0.0	dynamic	f
+Cb	196.0	0.0	dynamic	f
+Vla	196.16666666666666	0.0	note	58	0.16666666666666666
+Vla	196.33333333333334	0.0	note	63	0.16666666666666666
+Vla	196.5	0.0	note	58	0.16666666666666666
+Vla	196.66666666666666	0.0	note	54	0.16666666666666666
+Vla	196.83333333333334	0.0	note	58	0.16666666666666666
+Vla	196.83333333333334	0.0	slur	1
+Vla	197.0	0.0	note	63	0.16666666666666666
+Vla	197.0	0.0	slur	-1
+Vla	197.16666666666666	0.0	note	58	0.16666666666666666
+Vla	197.33333333333334	0.0	note	54	0.16666666666666666
+Fl1	197.5	0.0	note	89	0.5
+Ob1	197.5	0.0	note	77	0.5
+VlnI	197.5	0.0	note	89	0.5
+VlnII	197.5	0.0	note	77	0.5
+Vla	197.5	0.0	note	58	0.16666666666666666
+Vla	197.66666666666666	0.0	note	63	0.16666666666666666
+Vla	197.83333333333334	0.0	note	58	0.16666666666666666
+Vla	197.83333333333334	0.0	slur	1
+Fl1	198.0	0.0	note	85	1.0
+Ob1	198.0	0.0	note	73	1.0
+BCl	198.0	0.0	note	43	2.0
+Bn1	198.0	0.0	note	51	1.0
+Bn1	198.0	0.0	slur	-1
+Bn2	198.0	0.0	note	43	2.0
+Hn1	198.0	0.0	note	63	1.0
+Hn1	198.0	0.0	slur	-1
+VlnI	198.0	0.0	note	85	1.0
+VlnII	198.0	0.0	note	73	1.0
+Vla	198.0	0.0	note	58	0.16666666666666666
+Vla	198.0	0.0	slur	-1
+Vc	198.0	0.0	note	51	1.0
+Vc	198.0	0.0	slur	-1
+Cb	198.0	0.0	note	31	2.0
+Vla	198.16666666666666	0.0	note	61	0.16666666666666666
+Vla	198.33333333333334	0.0	note	63	0.16666666666666666
+Vla	198.5	0.0	note	61	0.16666666666666666
+Vla	198.66666666666666	0.0	note	58	0.16666666666666666
+Vla	198.83333333333334	0.0	note	61	0.16666666666666666
+Vla	198.83333333333334	0.0	slur	1
+Fl1	199.0	0.0	note	82	1.0
+Ob1	199.0	0.0	note	70	1.0
+Bn1	199.0	0.0	note	52	1.0
+Hn1	199.0	0.0	note	64	1.0
+VlnI	199.0	0.0	note	82	1.0
+VlnI	199.0	0.0	slur	1
+VlnII	199.0	0.0	note	70	1.0
+VlnII	199.0	0.0	slur	1
+Vla	199.0	0.0	note	64	0.16666666666666666
+Vla	199.0	0.0	slur	-1
+Vc	199.0	0.0	note	52	1.0
+Vc	199.0	0.0	slur	1
+Vla	199.16666666666666	0.0	note	61	0.16666666666666666
+Vla	199.33333333333334	0.0	note	58	0.16666666666666666
+Vla	199.5	0.0	note	61	0.16666666666666666
+Vla	199.66666666666666	0.0	note	64	0.16666666666666666
+Vla	199.83333333333334	0.0	note	61	0.16666666666666666
+Vla	199.83333333333334	0.0	slur	1
+Fl1	200.0	0.0	note	84	4.0
+Fl1	200.0	0.0	slur	1
+Fl1	200.0	0.0	cresc	-1
+Ob1	200.0	0.0	note	72	4.0
+Ob1	200.0	0.0	slur	1
+Ob1	200.0	0.0	cresc	-1
+Cl1	200.0	0.0	note	72	4.0
+Cl1	200.0	0.0	cresc	-1
+Cl2	200.0	0.0	note	68	4.0
+Cl2	200.0	0.0	cresc	-1
+BCl	200.0	0.0	note	44	4.0
+BCl	200.0	0.0	cresc	-1
+Bn1	200.0	0.0	note	51	1.0
+Bn1	200.0	0.0	cresc	-1
+Bn2	200.0	0.0	note	44	4.0
+Bn2	200.0	0.0	cresc	-1
+Hn1	200.0	0.0	note	63	1.0
+Hn1	200.0	0.0	cresc	-1
+Hn4	200.0	0.0	note	60	4.0
+Hn4	200.0	0.0	dynamic	p
+Hn4	200.0	0.0	dynamic	p
+Hn4	200.0	0.0	cresc	-1
+Tbn2	200.0	0.0	note	51	2.0
+Tbn2	200.0	0.0	dynamic	pp
+Tbn2	200.0	0.0	dynamic	pp
+Tbn2	200.0	0.0	cresc	-1
+BTbn	200.0	0.0	note	44	4.0
+BTbn	200.0	0.0	dynamic	pp
+BTbn	200.0	0.0	dynamic	pp
+BTbn	200.0	0.0	cresc	-1
+Tuba	200.0	0.0	note	32	4.0
+Tuba	200.0	0.0	dynamic	pp
+Tuba	200.0	0.0	dynamic	pp
+Tuba	200.0	0.0	cresc	-1
+Timp	200.0	0.0	note	44	3.0
+Timp	200.0	0.0	tremolo	32
+Timp	200.0	0.0	dynamic	pp
+Timp	200.0	0.0	dynamic	pp
+Timp	200.0	0.0	cresc	-1
+Timp	200.0	0.0	tie
+VlnI	200.0	0.0	note	84	4.0
+VlnI	200.0	0.0	script	upbow
+VlnI	200.0	0.0	cresc	-1
+VlnII	200.0	0.0	note	72	4.0
+VlnII	200.0	0.0	script	upbow
+VlnII	200.0	0.0	cresc	-1
+Vla	200.0	0.0	note	56	0.16666666666666666
+Vla	200.0	0.0	slur	-1
+Vla	200.0	0.0	cresc	-1
+Vc	200.0	0.0	note	51	1.0
+Vc	200.0	0.0	slur	-1
+Vc	200.0	0.0	cresc	-1
+Cb	200.0	0.0	note	32	2.0
+Cb	200.0	0.0	tie
+Cb	200.0	0.0	script	downbow
+Cb	200.0	0.0	cresc	-1
+Vla	200.16666666666666	0.0	note	60	0.16666666666666666
+Vla	200.33333333333334	0.0	note	63	0.16666666666666666
+Vla	200.5	0.0	note	60	0.16666666666666666
+Vla	200.66666666666666	0.0	note	56	0.16666666666666666
+Vla	200.83333333333334	0.0	note	60	0.16666666666666666
+Vla	200.83333333333334	0.0	slur	1
+Bn1	201.0	0.0	note	53	1.0
+Hn1	201.0	0.0	note	65	1.0
+Vla	201.0	0.0	note	63	0.16666666666666666
+Vla	201.0	0.0	slur	-1
+Vc	201.0	0.0	note	53	1.0
+Vc	201.0	0.0	slur	1
+Vla	201.16666666666666	0.0	note	60	0.16666666666666666
+Vla	201.33333333333334	0.0	note	56	0.16666666666666666
+Vla	201.5	0.0	note	60	0.16666666666666666
+Vla	201.66666666666666	0.0	note	63	0.16666666666666666
+Vla	201.83333333333334	0.0	note	60	0.16666666666666666
+Vla	201.83333333333334	0.0	slur	1
+Bn1	202.0	0.0	note	54	2.0
+Bn1	202.0	0.0	slur	1
+Hn1	202.0	0.0	note	66	2.0
+Hn1	202.0	0.0	slur	1
+Tbn2	202.0	0.0	note	54	2.0
+Vla	202.0	0.0	note	54	0.16666666666666666
+Vla	202.0	0.0	slur	-1
+Vc	202.0	0.0	note	54	2.0
+Cb	202.0	0.0	note	32	2.0
+Cb	202.0	0.0	script	upbow
+Vla	202.16666666666666	0.0	note	60	0.16666666666666666
+Vla	202.33333333333334	0.0	note	63	0.16666666666666666
+Vla	202.5	0.0	note	60	0.16666666666666666
+Vla	202.66666666666666	0.0	note	54	0.16666666666666666
+Vla	202.83333333333334	0.0	note	60	0.16666666666666666
+Vla	202.83333333333334	0.0	slur	1
+Timp	203.0	0.0	note	44	0.5
+Timp	203.0	0.0	dynamic	f
+Timp	203.0	0.0	dynamic	f
+Vla	203.0	0.0	note	54	0.16666666666666666
+Vla	203.0	0.0	slur	-1
+Vla	203.16666666666666	0.0	note	60	0.16666666666666666
+Vla	203.33333333333334	0.0	note	63	0.16666666666666666
+Vla	203.5	0.0	note	66	0.16666666666666666
+Vla	203.66666666666666	0.0	note	63	0.16666666666666666
+Vla	203.83333333333334	0.0	note	66	0.16666666666666666
+Vla	203.83333333333334	0.0	slur	1
+Fl1	204.0	0.0	breathe
+Fl1	204.0	0.0	note	92	4.0
+Fl1	204.0	0.0	script	tenuto
+Fl1	204.0	0.0	tie
+Fl1	204.0	0.0	dynamic	ff
+Fl1	204.0	0.0	dynamic	ff
+Fl2	204.0	0.0	note	80	2.0
+Fl2	204.0	0.0	script	tenuto
+Fl2	204.0	0.0	dynamic	ff
+Fl2	204.0	0.0	dynamic	ff
+Ob1	204.0	0.0	breathe
+Ob1	204.0	0.0	note	77	4.0
+Ob1	204.0	0.0	script	tenuto
+Ob1	204.0	0.0	tie
+Ob1	204.0	0.0	dynamic	ff
+Ob1	204.0	0.0	dynamic	ff
+Ob2	204.0	0.0	note	73	4.0
+Ob2	204.0	0.0	script	tenuto
+Ob2	204.0	0.0	tie
+Ob2	204.0	0.0	dynamic	ff
+Ob2	204.0	0.0	dynamic	ff
+Cl1	204.0	0.0	breathe
+Cl1	204.0	0.0	note	77	4.0
+Cl1	204.0	0.0	script	tenuto
+Cl1	204.0	0.0	dynamic	ff
+Cl1	204.0	0.0	dynamic	ff
+Cl1	204.0	0.0	tie
+Cl2	204.0	0.0	breathe
+Cl2	204.0	0.0	note	68	2.0
+Cl2	204.0	0.0	script	tenuto
+Cl2	204.0	0.0	dynamic	ff
+Cl2	204.0	0.0	dynamic	ff
+BCl	204.0	0.0	breathe
+BCl	204.0	0.0	note	49	4.0
+BCl	204.0	0.0	script	tenuto
+BCl	204.0	0.0	dynamic	ff
+BCl	204.0	0.0	dynamic	ff
+Bn1	204.0	0.0	breathe
+Bn1	204.0	0.0	note	53	2.0
+Bn1	204.0	0.0	script	tenuto
+Bn1	204.0	0.0	dynamic	ff
+Bn1	204.0	0.0	dynamic	ff
+Bn2	204.0	0.0	breathe
+Bn2	204.0	0.0	note	49	4.0
+Bn2	204.0	0.0	script	tenuto
+Bn2	204.0	0.0	dynamic	ff
+Bn2	204.0	0.0	dynamic	ff
+Cbn	204.0	0.0	note	25	4.0
+Cbn	204.0	0.0	script	tenuto
+Cbn	204.0	0.0	dynamic	ff
+Cbn	204.0	0.0	dynamic	ff
+Hn1	204.0	0.0	breathe
+Hn1	204.0	0.0	note	65	4.0
+Hn1	204.0	0.0	script	tenuto
+Hn1	204.0	0.0	dynamic	ff
+Hn1	204.0	0.0	dynamic	ff
+Hn2	204.0	0.0	note	61	4.0
+Hn2	204.0	0.0	script	tenuto
+Hn2	204.0	0.0	dynamic	ff
+Hn2	204.0	0.0	dynamic	ff
+Hn3	204.0	0.0	note	68	4.0
+Hn3	204.0	0.0	script	tenuto
+Hn3	204.0	0.0	dynamic	f
+Hn3	204.0	0.0	dynamic	f
+Hn4	204.0	0.0	breathe
+Hn4	204.0	0.0	note	68	4.0
+Hn4	204.0	0.0	script	tenuto
+Hn4	204.0	0.0	dynamic	f
+Hn4	204.0	0.0	dynamic	f
+Tbn2	204.0	0.0	breathe
+Tbn2	204.0	0.0	note	53	2.0
+Tbn2	204.0	0.0	script	tenuto
+Tbn2	204.0	0.0	dynamic	f
+Tbn2	204.0	0.0	dynamic	f
+Tbn2	204.0	0.0	text	2.
+BTbn	204.0	0.0	breathe
+BTbn	204.0	0.0	note	49	4.0
+BTbn	204.0	0.0	script	tenuto
+BTbn	204.0	0.0	dynamic	f
+BTbn	204.0	0.0	dynamic	f
+Tuba	204.0	0.0	breathe
+Tuba	204.0	0.0	note	37	4.0
+Tuba	204.0	0.0	script	tenuto
+Tuba	204.0	0.0	dynamic	f
+Tuba	204.0	0.0	dynamic	f
+Timp	204.0	0.0	note	49	4.0
+Timp	204.0	0.0	tremolo	32
+Timp	204.0	0.0	dynamic	f
+Timp	204.0	0.0	dynamic	f
+VlnI	204.0	0.0	note	85	2.0
+VlnI	204.0	0.0	tie
+VlnI	204.0	0.0	script	tenuto
+VlnI	204.0	0.0	dynamic	ff
+VlnI	204.0	0.0	dynamic	ff
+VlnI	204.0	0.0	script	downbow
+VlnI	204.0	0.0	text	molto sostenuto
+VlnII	204.0	0.0	note	68	2.0
+VlnII	204.0	0.0	script	tenuto
+VlnII	204.0	0.0	dynamic	ff
+VlnII	204.0	0.0	dynamic	ff
+VlnII	204.0	0.0	text	molto sostenuto
+Vla	204.0	0.0	note	61	4.0
+Vla	204.0	0.0	note	65	4.0
+Vla	204.0	0.0	tremolo	32
+Vla	204.0	0.0	dynamic	ff
+Vla	204.0	0.0	dynamic	ff
+Vla	204.0	0.0	text	non div., molto sostenuto, trem.
+Vc	204.0	0.0	note	56	2.0
+Vc	204.0	0.0	script	tenuto
+Vc	204.0	0.0	dynamic	ff
+Vc	204.0	0.0	dynamic	ff
+Vc	204.0	0.0	text	molto sostenuto
+Cb	204.0	0.0	note	37	4.0
+Cb	204.0	0.0	script	tenuto
+Cb	204.0	0.0	dynamic	ff
+Cb	204.0	0.0	dynamic	ff
+Cb	204.0	0.0	text	molto sostenuto, change bow at will
+Fl2	206.0	0.0	note	85	2.0
+Fl2	206.0	0.0	script	tenuto
+Cl2	206.0	0.0	note	73	2.0
+Cl2	206.0	0.0	script	tenuto
+Bn1	206.0	0.0	note	61	2.0
+Bn1	206.0	0.0	script	tenuto
+Tbn2	206.0	0.0	note	56	2.0
+Tbn2	206.0	0.0	script	tenuto
+VlnI	206.0	0.0	note	85	2.0
+VlnI	206.0	0.0	script	upbow
+VlnII	206.0	0.0	note	73	2.0
+VlnII	206.0	0.0	script	tenuto
+Vc	206.0	0.0	note	61	2.0
+Vc	206.0	0.0	script	tenuto
+Fl1	208.0	0.0	note	92	4.0
+Fl1	208.0	0.0	slur	-1
+Fl2	208.0	0.0	note	89	2.0
+Fl2	208.0	0.0	script	tenuto
+Ob1	208.0	0.0	note	77	2.0
+Ob2	208.0	0.0	note	73	2.0
+Cl1	208.0	0.0	note	77	2.0
+Cl2	208.0	0.0	note	70	2.0
+Cl2	208.0	0.0	script	tenuto
+BCl	208.0	0.0	note	42	2.0
+BCl	208.0	0.0	script	tenuto
+Bn1	208.0	0.0	note	65	2.0
+Bn1	208.0	0.0	script	tenuto
+Bn2	208.0	0.0	note	42	2.0
+Bn2	208.0	0.0	script	tenuto
+Cbn	208.0	0.0	note	30	2.0
+Cbn	208.0	0.0	script	tenuto
+Hn1	208.0	0.0	note	66	2.0
+Hn1	208.0	0.0	script	tenuto
+Hn2	208.0	0.0	note	61	2.0
+Hn2	208.0	0.0	script	tenuto
+Hn3	208.0	0.0	note	70	2.0
+Hn3	208.0	0.0	script	tenuto
+Hn4	208.0	0.0	note	70	2.0
+Hn4	208.0	0.0	script	tenuto
+Tbn2	208.0	0.0	note	58	2.0
+Tbn2	208.0	0.0	script	tenuto
+BTbn	208.0	0.0	breathe
+BTbn	208.0	0.0	note	42	2.0
+BTbn	208.0	0.0	script	tenuto
+Tuba	208.0	0.0	breathe
+Tuba	208.0	0.0	note	30	2.0
+Tuba	208.0	0.0	script	tenuto
+Timp	208.0	0.0	note	49	1.5
+Timp	208.0	0.0	tremolo	32
+Timp	208.0	0.0	tie
+VlnI	208.0	0.0	note	89	2.0
+VlnI	208.0	0.0	script	tenuto
+VlnII	208.0	0.0	note	77	2.0
+VlnII	208.0	0.0	script	tenuto
+Vla	208.0	0.0	note	58	2.0
+Vla	208.0	0.0	note	61	2.0
+Vla	208.0	0.0	tremolo	32
+Vc	208.0	0.0	note	65	2.0
+Vc	208.0	0.0	script	tenuto
+Cb	208.0	0.0	note	30	2.0
+Cb	208.0	0.0	script	tenuto
+Cb	208.0	0.0	script	downbow
+Timp	209.5	0.0	note	49	0.5
+Fl2	210.0	0.0	note	88	2.0
+Fl2	210.0	0.0	script	tenuto
+Ob1	210.0	0.0	note	76	2.0
+Ob1	210.0	0.0	script	tenuto
+Ob2	210.0	0.0	note	68	2.0
+Ob2	210.0	0.0	script	tenuto
+Cl1	210.0	0.0	note	80	2.0
+Cl1	210.0	0.0	script	tenuto
+Cl2	210.0	0.0	note	71	2.0
+Cl2	210.0	0.0	script	tenuto
+BCl	210.0	0.0	note	40	2.0
+BCl	210.0	0.0	script	tenuto
+Bn1	210.0	0.0	note	64	2.0
+Bn1	210.0	0.0	script	tenuto
+Bn2	210.0	0.0	note	40	2.0
+Bn2	210.0	0.0	script	tenuto
+Cbn	210.0	0.0	breathe
+Cbn	210.0	0.0	note	28	2.0
+Cbn	210.0	0.0	script	tenuto
+Hn1	210.0	0.0	note	68	2.0
+Hn1	210.0	0.0	script	tenuto
+Hn2	210.0	0.0	note	64	2.0
+Hn2	210.0	0.0	script	tenuto
+Hn3	210.0	0.0	note	71	2.0
+Hn3	210.0	0.0	script	tenuto
+Hn4	210.0	0.0	note	71	2.0
+Hn4	210.0	0.0	script	tenuto
+Tbn2	210.0	0.0	note	56	2.0
+Tbn2	210.0	0.0	script	tenuto
+BTbn	210.0	0.0	note	40	2.0
+BTbn	210.0	0.0	script	tenuto
+Tuba	210.0	0.0	note	28	2.0
+Tuba	210.0	0.0	script	tenuto
+Timp	210.0	0.0	text	damp
+VlnI	210.0	0.0	note	88	2.0
+VlnI	210.0	0.0	note	92	2.0
+VlnI	210.0	0.0	script	tenuto
+VlnI	210.0	0.0	text	div.
+VlnII	210.0	0.0	note	76	2.0
+VlnII	210.0	0.0	script	tenuto
+Vla	210.0	0.0	note	56	2.0
+Vla	210.0	0.0	note	64	2.0
+Vla	210.0	0.0	tremolo	32
+Vc	210.0	0.0	note	64	2.0
+Vc	210.0	0.0	script	tenuto
+Cb	210.0	0.0	note	28	2.0
+Cb	210.0	0.0	script	tenuto
+Cb	210.0	0.0	script	upbow
+Fl1	212.0	0.0	note	93	1.0
+Fl1	212.0	0.0	slur	1
+Fl1	212.0	0.0	dynamic	sf
+Fl1	212.0	0.0	dynamic	sf
+Fl1	212.0	0.0	text	1.
+BTbn	212.0	0.0	breathe
+BTbn	212.0	0.0	note	45	4.0
+BTbn	212.0	0.0	dynamic	sf
+BTbn	212.0	0.0	dynamic	sf
+BTbn	212.0	0.0	decresc	-1
+VlnI	212.0	0.0	note	88	4.0
+VlnI	212.0	0.0	note	93	4.0
+VlnI	212.0	0.0	tremolo	32
+VlnI	212.0	0.0	dynamic	sf
+VlnI	212.0	0.0	dynamic	sf
+VlnI	212.0	0.0	decresc	-1
+VlnI	212.0	0.0	text	trem.
+VlnII	212.0	0.0	note	76	4.0
+VlnII	212.0	0.0	note	84	4.0
+VlnII	212.0	0.0	tremolo	32
+VlnII	212.0	0.0	dynamic	sf
+VlnII	212.0	0.0	dynamic	sf
+VlnII	212.0	0.0	decresc	-1
+VlnII	212.0	0.0	text	non div., trem.
+Vla	212.0	0.0	note	64	4.0
+Vla	212.0	0.0	note	72	4.0
+Vla	212.0	0.0	tremolo	32
+Vla	212.0	0.0	dynamic	sf
+Vla	212.0	0.0	dynamic	sf
+Vla	212.0	0.0	decresc	-1
+Vc	212.0	0.0	note	45	4.0
+Vc	212.0	0.0	tremolo	32
+Vc	212.0	0.0	dynamic	sf
+Vc	212.0	0.0	dynamic	sf
+Vc	212.0	0.0	decresc	-1
+Vc	212.0	0.0	text	trem.
+Cb	212.0	0.0	note	33	1.0
+Cb	212.0	0.0	dynamic	sf
+Cb	212.0	0.0	dynamic	sf
+Cb	212.0	0.0	text	pizz.
+Tbn1	212.5	0.0	note	52	0.5
+Tbn1	212.5	0.0	slur	-1
+Tbn1	212.5	0.0	dynamic	ff
+Tbn1	212.5	0.0	dynamic	ff
+Tbn1	212.5	0.0	text	marcato
+Tbn1	213.0	0.0	note	60	1.5
+Tbn1	213.0	0.0	script	accent
+Tbn1	213.0	0.0	slur	1
+Tbn1	214.5	0.0	note	59	0.5
+Tbn1	214.5	0.0	slur	-1
+Tbn1	215.0	0.0	note	58	0.5
+Tbn1	215.5	0.0	note	57	0.5
+Tbn1	216.0	0.0	note	57	1.0
+Tbn1	216.0	0.0	script	tenuto
+Tbn1	216.0	0.0	slur	1
+BTbn	216.0	0.0	note	45	2.0
+BTbn	216.0	0.0	dynamic	p
+BTbn	216.0	0.0	dynamic	p
+VlnI	216.0	0.0	note	88	2.0
+VlnI	216.0	0.0	tremolo	32
+VlnI	216.0	0.0	dynamic	p
+VlnI	216.0	0.0	dynamic	p
+VlnI	216.0	0.0	text	unis.
+VlnII	216.0	0.0	note	76	2.0
+VlnII	216.0	0.0	note	84	2.0
+VlnII	216.0	0.0	tremolo	32
+VlnII	216.0	0.0	dynamic	p
+VlnII	216.0	0.0	dynamic	p
+Vla	216.0	0.0	note	64	2.0
+Vla	216.0	0.0	note	72	2.0
+Vla	216.0	0.0	tremolo	32
+Vla	216.0	0.0	dynamic	p
+Vla	216.0	0.0	dynamic	p
+Vc	216.0	0.0	note	45	2.0
+Vc	216.0	0.0	tremolo	32
+Vc	216.0	0.0	dynamic	p
+Vc	216.0	0.0	dynamic	p
+Cb	216.0	0.0	note	33	2.0
+Cb	216.0	0.0	dynamic	p
+Cb	216.0	0.0	dynamic	p
+Cb	216.0	0.0	text	arco
+Tbn1	217.0	0.0	note	56	0.5
+Tbn1	217.0	0.0	slur	-1
+Tbn1	217.5	0.0	note	57	0.5
+Tbn1	217.5	0.0	slur	1
+Tbn1	218.0	0.0	note	53	1.5
+Tbn1	218.0	0.0	script	accent
+Tbn1	218.0	0.0	decresc	-1
+BTbn	218.0	0.0	note	38	1.0
+BTbn	218.0	0.0	decresc	-1
+VlnII	218.0	0.0	note	59	1.0
+VlnII	218.0	0.0	slur	-1
+VlnII	218.0	0.0	decresc	-1
+VlnII	218.0	0.0	script	upbow
+VlnII	218.0	0.0	text	sul G
+Vla	218.0	0.0	note	56	2.0
+Vla	218.0	0.0	slur	-1
+Vla	218.0	0.0	decresc	-1
+Vla	218.0	0.0	script	upbow
+Vla	218.0	0.0	text	sul C
+Vc	218.0	0.0	note	38	1.0
+Vc	218.0	0.0	slur	-1
+Vc	218.0	0.0	decresc	-1
+Vc	218.0	0.0	script	upbow
+Cb	218.0	0.0	note	38	1.0
+Cb	218.0	0.0	decresc	-1
+BTbn	219.0	0.0	note	40	1.0
+VlnII	219.0	0.0	note	62	1.0
+Vc	219.0	0.0	note	47	0.5
+Cb	219.0	0.0	note	40	1.0
+Tbn1	219.5	0.0	note	52	0.5
+Tbn1	219.5	0.0	dynamic	p
+Tbn1	219.5	0.0	dynamic	p
+BTbn	219.5	0.0	cresc	1
+Vc	219.5	0.0	note	46	0.5
+Vc	219.5	0.0	tie
+VlnII	220.0	0.0	note	61	3.0
+VlnII	220.0	0.0	slur	1
+VlnII	220.0	0.0	tie
+VlnII	220.0	0.0	dynamic	pp
+VlnII	220.0	0.0	dynamic	pp
+Vla	220.0	0.0	note	55	3.0
+Vla	220.0	0.0	slur	1
+Vla	220.0	0.0	tie
+Vla	220.0	0.0	dynamic	pp
+Vla	220.0	0.0	dynamic	pp
+Vc	220.0	0.0	note	46	3.0
+Vc	220.0	0.0	slur	1
+Vc	220.0	0.0	tie
+Vc	220.0	0.0	dynamic	pp
+Vc	220.0	0.0	dynamic	pp
+Cb	220.0	0.0	note	39	3.0
+Cb	220.0	0.0	dynamic	pp
+Cb	220.0	0.0	dynamic	pp
+Cb	220.0	0.0	tie
+Cb	220.0	0.0	text	4 soli, sul A, change bow at will
+VlnII	223.0	0.0	note	61	3.0
+VlnII	223.0	0.0	decresc	-1
+VlnII	223.0	0.0	script	downbow
+Vla	223.0	0.0	note	55	3.0
+Vla	223.0	0.0	decresc	-1
+Vla	223.0	0.0	script	downbow
+Vc	223.0	0.0	note	46	3.0
+Vc	223.0	0.0	decresc	-1
+Vc	223.0	0.0	script	downbow
+Cb	223.0	0.0	note	39	3.0
+Cb	223.0	0.0	tie
+Hn1	226.0	0.0	note	63	3.0
+Hn1	226.0	0.0	slur	-1
+Hn1	226.0	0.0	dynamic	p
+Hn1	226.0	0.0	dynamic	p
+Hn1	226.0	0.0	cresc	-1
+Hn1	226.0	0.0	text	dolce
+Timp	226.0	0.0	note	51	3.0
+Timp	226.0	0.0	tremolo	32
+Timp	226.0	0.0	dynamic	ppp
+Timp	226.0	0.0	dynamic	ppp
+Timp	226.0	0.0	tie
+Timp	226.0	0.0	text	near the rim
+VlnII	226.0	0.0	cresc	1
+Vla	226.0	0.0	cresc	1
+Vc	226.0	0.0	cresc	1
+Cb	226.0	0.0	note	39	3.0
+Cb	226.0	0.0	tie
+Bn1	229.0	0.0	note	58	2.0
+Bn1	229.0	0.0	slur	-1
+Bn1	229.0	0.0	dynamic	pp
+Bn1	229.0	0.0	dynamic	pp
+Bn1	229.0	0.0	text	1.
+Hn1	229.0	0.0	note	62	1.0
+Hn1	229.0	0.0	dynamic	mp
+Hn1	229.0	0.0	dynamic	mp
+Hn1	229.0	0.0	decresc	-1
+Timp	229.0	0.0	note	51	3.0
+Timp	229.0	0.0	tremolo	32
+Timp	229.0	0.0	tie
+Cb	229.0	0.0	note	39	3.0
+Cb	229.0	0.0	tie
+Hn1	230.0	0.0	note	61	1.0
+Bn1	231.0	0.0	note	56	1.0
+Hn1	231.0	0.0	note	60	1.0
+Bn1	232.0	0.0	note	55	3.0
+Bn1	232.0	0.0	slur	1
+Bn2	232.0	0.0	note	49	3.0
+Bn2	232.0	0.0	dynamic	pp
+Bn2	232.0	0.0	dynamic	pp
+Hn1	232.0	0.0	note	58	3.0
+Hn1	232.0	0.0	tie
+Timp	232.0	0.0	note	51	3.0
+Timp	232.0	0.0	tremolo	32
+Timp	232.0	0.0	tie
+Timp	232.0	0.0	decresc	-1
+Cb	232.0	0.0	note	39	3.0
+Cb	232.0	0.0	tie
+Bn1	235.0	0.0	note	55	3.0
+Bn1	235.0	0.0	cresc	1
+Bn1	235.0	0.0	slur	-1
+Bn2	235.0	0.0	note	49	3.0
+Bn2	235.0	0.0	cresc	1
+Hn1	235.0	0.0	note	58	3.0
+Hn1	235.0	0.0	slur	1
+Hn1	235.0	0.0	dynamic	pp
+Hn1	235.0	0.0	dynamic	pp
+Timp	235.0	0.0	note	51	2.0
+Timp	235.0	0.0	tremolo	32
+Timp	235.0	0.0	tie
+Cb	235.0	0.0	note	39	3.0
+Timp	237.0	0.0	note	51	0.5
+Timp	237.0	0.0	cresc	1
+VlnI	237.0	0.0	note	75	0.5
+VlnI	237.0	0.0	slur	-1
+VlnI	237.0	0.0	dynamic	p
+VlnI	237.0	0.0	dynamic	p
+VlnI	237.0	0.0	text	espr.
+VlnII	237.0	0.0	note	63	0.5
+VlnII	237.0	0.0	slur	-1
+VlnII	237.0	0.0	dynamic	p
+VlnII	237.0	0.0	dynamic	p
+VlnII	237.0	0.0	text	espr., sul D
+VlnI	237.5	0.0	note	77	0.5
+VlnII	237.5	0.0	note	65	0.5
+Cl2	238.0	0.0	note	63	3.0
+Cl2	238.0	0.0	slur	-1
+Cl2	238.0	0.0	dynamic	pp
+Cl2	238.0	0.0	dynamic	pp
+Bn1	238.0	0.0	note	56	2.0
+Bn1	238.0	0.0	slur	1
+Bn1	238.0	0.0	dynamic	pp
+Bn1	238.0	0.0	dynamic	pp
+Bn2	238.0	0.0	breathe
+Bn2	238.0	0.0	note	48	3.0
+Bn2	238.0	0.0	slur	-1
+Bn2	238.0	0.0	dynamic	pp
+Bn2	238.0	0.0	dynamic	pp
+HarpL	238.0	0.0	note	32	3.0
+HarpL	238.0	0.0	note	39	3.0
+HarpL	238.0	0.0	dynamic	pp
+HarpL	238.0	0.0	dynamic	pp
+HarpL	238.0	0.0	arpeggio	1
+HarpL	238.0	0.0	text	^-^|^--^
+VlnI	238.0	0.0	note	80	1.5
+VlnII	238.0	0.0	note	68	1.5
+Vla	238.0	0.0	note	60	0.5
+Vla	238.0	0.0	slur	-1
+Vla	238.0	0.0	dynamic	pp
+Vla	238.0	0.0	dynamic	pp
+Vla	238.0	0.0	text	ord.
+Vc	238.0	0.0	note	51	2.0
+Vc	238.0	0.0	dynamic	p
+Vc	238.0	0.0	dynamic	p
+Vc	238.0	0.0	text	cantabile, sul D
+Cb	238.0	0.0	note	32	3.0
+Cb	238.0	0.0	dynamic	pp
+Cb	238.0	0.0	dynamic	pp
+Cb	238.0	0.0	text	tutti, ord.
+Vla	238.5	0.0	note	63	0.5
+Vla	239.0	0.0	note	68	0.5
+Vla	239.0	0.0	slur	1
+VlnI	239.5	0.0	note	84	0.5
+VlnI	239.5	0.0	slur	1
+VlnII	239.5	0.0	note	72	0.5
+VlnII	239.5	0.0	slur	1
+Vla	239.5	0.0	note	63	0.5
+Vla	239.5	0.0	slur	-1
+VlnI	240.0	0.0	note	87	1.0
+VlnI	240.0	0.0	tie
+VlnI	240.0	0.0	slur	-1
+VlnI	240.0	0.0	cresc	1
+VlnI	240.0	0.0	cresc	-1
+VlnII	240.0	0.0	note	75	1.0
+VlnII	240.0	0.0	tie
+VlnII	240.0	0.0	slur	-1
+VlnII	240.0	0.0	cresc	1
+VlnII	240.0	0.0	cresc	-1
+Vla	240.0	0.0	note	60	0.5
+Vc	240.0	0.0	note	56	0.5
+Vc	240.0	0.0	slur	-1
+Vla	240.5	0.0	note	56	0.5
+Vla	240.5	0.0	slur	1
+Vc	240.5	0.0	note	55	0.5
+Cl2	241.0	0.0	note	68	1.5
+Cl2	241.0	0.0	script	tenuto
+Bn2	241.0	0.0	note	53	1.0
+HarpL	241.0	0.0	note	29	1.0
+HarpL	241.0	0.0	note	41	1.0
+HarpL	241.0	0.0	arpeggio	1
+VlnI	241.0	0.0	note	87	1.0
+VlnI	241.0	0.0	cresc	1
+VlnI	241.0	0.0	decresc	-1
+VlnII	241.0	0.0	note	75	1.0
+VlnII	241.0	0.0	cresc	1
+VlnII	241.0	0.0	decresc	-1
+Vla	241.0	0.0	note	60	0.5
+Vla	241.0	0.0	slur	-1
+Vc	241.0	0.0	note	53	2.0
+Vc	241.0	0.0	slur	1
+Cb	241.0	0.0	note	41	1.0
+Vla	241.5	0.0	note	68	0.5
+Vla	241.5	0.0	slur	1
+Bn2	242.0	0.0	note	46	1.0
+HarpL	242.0	0.0	note	34	1.0
+HarpL	242.0	0.0	note	46	1.0
+HarpL	242.0	0.0	arpeggio	1
+VlnI	242.0	0.0	note	86	1.0
+VlnI	242.0	0.0	slur	1
+VlnII	242.0	0.0	note	74	1.0
+VlnII	242.0	0.0	slur	1
+Vla	242.0	0.0	note	58	0.5
+Vla	242.0	0.0	slur	-1
+Cb	242.0	0.0	note	34	1.0
+Cl2	242.5	0.0	note	70	0.5
+Cl2	242.5	0.0	tie
+Vla	242.5	0.0	note	68	0.5
+Vla	242.5	0.0	slur	1
+Cl2	243.0	0.0	note	70	1.0
+Bn2	243.0	0.0	note	51	1.0
+HarpL	243.0	0.0	note	27	1.0
+VlnI	243.0	0.0	note	85	1.0
+VlnII	243.0	0.0	note	73	1.0
+Vla	243.0	0.0	note	58	0.5
+Vla	243.0	0.0	slur	-1
+Vc	243.0	0.0	note	55	1.0
+Vc	243.0	0.0	slur	-1
+Cb	243.0	0.0	note	39	1.0
+Vla	243.5	0.0	note	67	0.5
+Vla	243.5	0.0	slur	1
+Cl2	244.0	0.0	note	68	2.0
+Bn2	244.0	0.0	note	44	2.0
+HarpL	244.0	0.0	note	32	2.0
+HarpL	244.0	0.0	note	39	2.0
+HarpL	244.0	0.0	arpeggio	1
+VlnI	244.0	0.0	note	84	1.5
+VlnI	244.0	0.0	slur	-1
+VlnI	244.0	0.0	cresc	1
+VlnII	244.0	0.0	note	72	1.5
+VlnII	244.0	0.0	slur	-1
+VlnII	244.0	0.0	cresc	1
+Vla	244.0	0.0	note	60	0.5
+Vla	244.0	0.0	slur	-1
+Vc	244.0	0.0	note	56	2.0
+Vc	244.0	0.0	cresc	-1
+Cb	244.0	0.0	note	32	2.0
+Vla	244.5	0.0	note	63	0.5
+Vla	245.0	0.0	note	68	0.5
+Vla	245.0	0.0	slur	1
+VlnI	245.5	0.0	note	82	0.5
+VlnII	245.5	0.0	note	70	0.5
+Vla	245.5	0.0	note	60	0.5
+Vla	245.5	0.0	slur	-1
+Cl2	246.0	0.0	note	63	1.0
+Cl2	246.0	0.0	tie
+Bn2	246.0	0.0	note	53	1.0
+HarpL	246.0	0.0	note	29	1.0
+VlnI	246.0	0.0	note	80	1.0
+VlnII	246.0	0.0	note	68	1.0
+Vla	246.0	0.0	note	63	0.5
+Vc	246.0	0.0	note	60	1.0
+Vc	246.0	0.0	tie
+Vc	246.0	0.0	cresc	1
+Vc	246.0	0.0	decresc	-1
+Cb	246.0	0.0	note	29	1.0
+Vla	246.5	0.0	note	56	0.5
+Vla	246.5	0.0	slur	1
+Cl2	247.0	0.0	note	63	1.0
+Bn2	247.0	0.0	note	46	2.0
+Bn2	247.0	0.0	slur	1
+HarpL	247.0	0.0	note	34	3.0
+HarpL	247.0	0.0	note	46	3.0
+HarpL	247.0	0.0	arpeggio	1
+VlnI	247.0	0.0	note	79	2.0
+VlnI	247.0	0.0	slur	1
+VlnII	247.0	0.0	note	67	2.0
+VlnII	247.0	0.0	slur	1
+Vla	247.0	0.0	note	51	0.5
+Vla	247.0	0.0	slur	-1
+Vc	247.0	0.0	note	60	1.0
+Cb	247.0	0.0	note	34	3.0
+Vla	247.5	0.0	note	55	0.5
+Cl2	248.0	0.0	note	61	1.0
+Cl2	248.0	0.0	slur	1
+Vla	248.0	0.0	note	63	0.5
+Vla	248.0	0.0	slur	1
+Vc	248.0	0.0	note	58	0.5
+Vc	248.0	0.0	slur	1
+Vla	248.5	0.0	note	63	0.5
+Vla	248.5	0.0	slur	-1
+Vc	248.5	0.0	note	56	0.5
+VlnI	249.0	0.0	note	63	0.5
+VlnI	249.0	0.0	slur	-1
+VlnI	249.0	0.0	dynamic	mp
+VlnI	249.0	0.0	dynamic	mp
+VlnII	249.0	0.0	note	63	0.5
+VlnII	249.0	0.0	slur	-1
+VlnII	249.0	0.0	dynamic	mp
+VlnII	249.0	0.0	dynamic	mp
+Vla	249.0	0.0	note	58	0.5
+Vc	249.0	0.0	note	55	1.0
+Vc	249.0	0.0	cresc	1
+Vc	249.0	0.0	cresc	1
+VlnI	249.5	0.0	note	65	0.5
+VlnII	249.5	0.0	note	65	0.5
+Vla	249.5	0.0	note	61	0.5
+Vla	249.5	0.0	slur	1
+Cl2	250.0	0.0	note	63	2.0
+Cl2	250.0	0.0	slur	-1
+Cl2	250.0	0.0	dynamic	p
+Cl2	250.0	0.0	dynamic	p
+Cl2	250.0	0.0	cresc	-1
+Cl2	250.0	0.0	text	2.
+Bn1	250.0	0.0	note	51	2.0
+Bn1	250.0	0.0	slur	-1
+Bn1	250.0	0.0	dynamic	p
+Bn1	250.0	0.0	dynamic	p
+Bn1	250.0	0.0	cresc	-1
+Bn2	250.0	0.0	note	44	1.0
+Bn2	250.0	0.0	slur	-1
+Bn2	250.0	0.0	dynamic	p
+Bn2	250.0	0.0	dynamic	p
+Bn2	250.0	0.0	cresc	-1
+Hn2	250.0	0.0	note	51	2.0
+Hn2	250.0	0.0	slur	-1
+Hn2	250.0	0.0	dynamic	p
+Hn2	250.0	0.0	dynamic	p
+Hn2	250.0	0.0	cresc	-1
+HarpL	250.0	0.0	note	32	1.0
+HarpL	250.0	0.0	note	39	1.0
+HarpL	250.0	0.0	dynamic	p
+HarpL	250.0	0.0	dynamic	p
+HarpL	250.0	0.0	cresc	-1
+HarpL	250.0	0.0	arpeggio	1
+VlnI	250.0	0.0	note	68	1.5
+VlnI	250.0	0.0	cresc	-1
+VlnII	250.0	0.0	note	68	1.5
+VlnII	250.0	0.0	cresc	-1
+VlnII	250.0	0.0	text	ord.
+Vla	250.0	0.0	note	60	0.5
+Vla	250.0	0.0	slur	-1
+Vla	250.0	0.0	dynamic	p
+Vla	250.0	0.0	dynamic	p
+Vla	250.0	0.0	cresc	-1
+Vc	250.0	0.0	note	51	2.0
+Vc	250.0	0.0	slur	-1
+Vc	250.0	0.0	dynamic	mp
+Vc	250.0	0.0	dynamic	mp
+Vc	250.0	0.0	cresc	-1
+Cb	250.0	0.0	note	32	1.0
+Cb	250.0	0.0	dynamic	p
+Cb	250.0	0.0	dynamic	p
+Cb	250.0	0.0	cresc	-1
+Cb	250.0	0.0	script	downbow
+Vla	250.5	0.0	note	63	0.5
+Bn2	251.0	0.0	note	48	1.0
+HarpR	251.0	0.0	note	56	1.0
+HarpR	251.0	0.0	note	63	1.0
+HarpR	251.0	0.0	arpeggio	1
+HarpL	251.0	0.0	note	36	1.0
+Vla	251.0	0.0	note	56	0.5
+Vla	251.0	0.0	slur	1
+Cb	251.0	0.0	note	36	1.0
+VlnI	251.5	0.0	note	72	0.5
+VlnI	251.5	0.0	slur	1
+VlnII	251.5	0.0	note	72	0.5
+VlnII	251.5	0.0	slur	1
+Vla	251.5	0.0	note	63	0.5
+Vla	251.5	0.0	slur	-1
+Cl2	252.0	0.0	note	61	1.0
+Bn1	252.0	0.0	note	53	1.0
+Bn2	252.0	0.0	note	49	1.0
+Hn2	252.0	0.0	note	53	1.0
+HarpL	252.0	0.0	note	37	1.0
+VlnI	252.0	0.0	note	77	1.0
+VlnI	252.0	0.0	tie
+VlnII	252.0	0.0	note	77	1.0
+VlnII	252.0	0.0	tie
+Vla	252.0	0.0	note	56	0.5
+Vc	252.0	0.0	note	53	1.0
+Vc	252.0	0.0	slur	1
+Cb	252.0	0.0	note	37	1.0
+Vla	252.5	0.0	note	65	0.5
+Vla	252.5	0.0	slur	1
+Cl2	253.0	0.0	note	68	1.0
+Cl2	253.0	0.0	script	tenuto
+Bn1	253.0	0.0	note	56	2.0
+Bn1	253.0	0.0	dynamic	mp
+Bn1	253.0	0.0	dynamic	mp
+Bn1	253.0	0.0	cresc	-1
+Bn2	253.0	0.0	note	49	2.0
+Bn2	253.0	0.0	script	tenuto
+Hn2	253.0	0.0	note	56	2.0
+HarpR	253.0	0.0	note	61	1.0
+HarpR	253.0	0.0	note	65	1.0
+HarpR	253.0	0.0	arpeggio	1
+HarpL	253.0	0.0	note	37	2.0
+HarpL	253.0	0.0	note	44	2.0
+HarpL	253.0	0.0	arpeggio	1
+VlnI	253.0	0.0	note	77	1.0
+VlnI	253.0	0.0	script	upbow
+VlnII	253.0	0.0	note	77	1.0
+VlnII	253.0	0.0	script	upbow
+Vla	253.0	0.0	note	65	0.5
+Vla	253.0	0.0	slur	-1
+Vc	253.0	0.0	note	56	2.0
+Vc	253.0	0.0	slur	-1
+Cb	253.0	0.0	note	37	2.0
+Vla	253.5	0.0	note	68	0.5
+Cl2	254.0	0.0	note	65	2.0
+Cl2	254.0	0.0	slur	1
+VlnI	254.0	0.0	note	82	1.0
+VlnI	254.0	0.0	slur	-1
+VlnI	254.0	0.0	cresc	1
+VlnI	254.0	0.0	decresc	-1
+VlnII	254.0	0.0	note	82	1.0
+VlnII	254.0	0.0	slur	-1
+VlnII	254.0	0.0	cresc	1
+VlnII	254.0	0.0	decresc	-1
+Vla	254.0	0.0	note	65	0.5
+Vla	254.0	0.0	slur	1
+Vla	254.5	0.0	note	58	0.5
+Vla	254.5	0.0	slur	-1
+Bn1	255.0	0.0	note	61	1.0
+Bn2	255.0	0.0	note	46	1.0
+Hn2	255.0	0.0	note	61	1.0
+HarpL	255.0	0.0	note	34	1.0
+VlnI	255.0	0.0	note	80	1.0
+VlnI	255.0	0.0	slur	1
+VlnI	255.0	0.0	cresc	1
+VlnII	255.0	0.0	note	80	1.0
+VlnII	255.0	0.0	slur	1
+VlnII	255.0	0.0	cresc	1
+Vla	255.0	0.0	note	65	0.5
+Vc	255.0	0.0	note	61	1.0
+Vc	255.0	0.0	slur	1
+Cb	255.0	0.0	note	34	1.0
+Vla	255.5	0.0	note	58	0.5
+Vla	255.5	0.0	slur	1
+Fl1	256.0	0.0	note	91	1.0
+Fl1	256.0	0.0	slur	-1
+Fl1	256.0	0.0	dynamic	mp
+Fl1	256.0	0.0	dynamic	mp
+Fl1	256.0	0.0	cresc	-1
+Cl1	256.0	0.0	note	79	1.0
+Cl1	256.0	0.0	slur	-1
+Cl1	256.0	0.0	dynamic	mp
+Cl1	256.0	0.0	dynamic	mp
+Cl1	256.0	0.0	cresc	-1
+Cl2	256.0	0.0	note	67	2.0
+Cl2	256.0	0.0	dynamic	mp
+Cl2	256.0	0.0	dynamic	mp
+Cl2	256.0	0.0	cresc	-1
+Bn1	256.0	0.0	note	58	2.0
+Bn2	256.0	0.0	note	51	2.0
+Bn2	256.0	0.0	slur	1
+Hn2	256.0	0.0	note	58	2.0
+HarpL	256.0	0.0	note	27	3.0
+HarpL	256.0	0.0	note	39	3.0
+HarpL	256.0	0.0	dynamic	mp
+HarpL	256.0	0.0	dynamic	mp
+HarpL	256.0	0.0	arpeggio	1
+VlnI	256.0	0.0	note	79	1.0
+VlnI	256.0	0.0	slur	-1
+VlnI	256.0	0.0	cresc	-1
+VlnII	256.0	0.0	note	79	1.0
+VlnII	256.0	0.0	slur	-1
+VlnII	256.0	0.0	cresc	-1
+Vla	256.0	0.0	note	55	0.5
+Vla	256.0	0.0	slur	-1
+Vc	256.0	0.0	note	58	2.0
+Vc	256.0	0.0	slur	-1
+Cb	256.0	0.0	note	39	3.0
+Vla	256.5	0.0	note	63	0.5
+Fl1	257.0	0.0	note	87	0.5
+Cl1	257.0	0.0	note	75	0.5
+HarpR	257.0	0.0	note	55	2.0
+HarpR	257.0	0.0	note	63	2.0
+HarpR	257.0	0.0	arpeggio	1
+VlnI	257.0	0.0	note	87	0.5
+VlnII	257.0	0.0	note	75	0.5
+Vla	257.0	0.0	note	67	0.5
+Vla	257.0	0.0	slur	1
+Fl1	257.5	0.0	note	85	0.5
+Cl1	257.5	0.0	note	73	0.5
+VlnI	257.5	0.0	note	85	0.5
+VlnII	257.5	0.0	note	73	0.5
+Vla	257.5	0.0	note	63	0.5
+Vla	257.5	0.0	slur	-1
+Fl1	258.0	0.0	note	84	0.5
+Cl1	258.0	0.0	note	72	0.5
+Bn1	258.0	0.0	note	61	1.0
+Bn1	258.0	0.0	dynamic	mf
+Bn1	258.0	0.0	dynamic	mf
+Bn1	258.0	0.0	slur	1
+Hn2	258.0	0.0	note	61	1.0
+Hn2	258.0	0.0	slur	1
+Hn2	258.0	0.0	dynamic	mp
+Hn2	258.0	0.0	dynamic	mp
+VlnI	258.0	0.0	note	84	0.5
+VlnII	258.0	0.0	note	72	0.5
+Vla	258.0	0.0	note	58	0.5
+Vc	258.0	0.0	note	61	1.0
+Vc	258.0	0.0	slur	1
+Fl1	258.5	0.0	note	82	0.5
+Cl1	258.5	0.0	note	70	0.5
+VlnI	258.5	0.0	note	82	0.5
+VlnI	258.5	0.0	slur	1
+VlnII	258.5	0.0	note	70	0.5
+VlnII	258.5	0.0	slur	1
+Vla	258.5	0.0	note	55	0.5
+Vla	258.5	0.0	slur	1
+Fl1	259.0	0.0	note	80	2.0
+Fl1	259.0	0.0	slur	1
+Fl1	259.0	0.0	dynamic	f
+Fl1	259.0	0.0	dynamic	f
+Cl1	259.0	0.0	note	68	2.0
+Cl1	259.0	0.0	slur	1
+Cl1	259.0	0.0	dynamic	f
+Cl1	259.0	0.0	dynamic	f
+Cl2	259.0	0.0	dynamic	f
+Cl2	259.0	0.0	dynamic	f
+Bn1	259.0	0.0	breathe
+Bn1	259.0	0.0	note	59	2.0
+Bn1	259.0	0.0	dynamic	f
+Bn1	259.0	0.0	dynamic	f
+Bn2	259.0	0.0	note	52	2.0
+Bn2	259.0	0.0	slur	-1
+Bn2	259.0	0.0	dynamic	f
+Bn2	259.0	0.0	dynamic	f
+VlnI	259.0	0.0	note	80	2.0
+VlnI	259.0	0.0	dynamic	f
+VlnI	259.0	0.0	dynamic	f
+VlnII	259.0	0.0	note	68	2.0
+VlnII	259.0	0.0	dynamic	f
+VlnII	259.0	0.0	dynamic	f
+Vla	259.0	0.0	note	56	0.5
+Vla	259.0	0.0	slur	-1
+Vla	259.0	0.0	dynamic	f
+Vla	259.0	0.0	dynamic	f
+Vc	259.0	0.0	note	59	2.0
+Vc	259.0	0.0	dynamic	f
+Vc	259.0	0.0	dynamic	f
+Vc	259.0	0.0	text	ord.
+Cb	259.0	0.0	note	40	2.0
+Cb	259.0	0.0	dynamic	f
+Cb	259.0	0.0	dynamic	f
+Vla	259.5	0.0	note	64	0.5
+Vla	260.0	0.0	note	68	0.5
+Vla	260.0	0.0	slur	1
+Vla	260.5	0.0	note	64	0.5
+Vla	260.5	0.0	slur	-1
+Fl1	261.0	0.0	breathe
+Fl1	261.0	0.0	note	84	0.5
+Fl1	261.0	0.0	slur	-1
+Fl1	261.0	0.0	cresc	-1
+Cl2	261.0	0.0	note	67	1.0
+Cl2	261.0	0.0	cresc	1
+Bn1	261.0	0.0	note	60	1.0
+Bn1	261.0	0.0	slur	-1
+Bn1	261.0	0.0	cresc	-1
+Bn2	261.0	0.0	note	51	1.0
+Bn2	261.0	0.0	cresc	-1
+Bn2	261.0	0.0	slur	1
+Hn1	261.0	0.0	note	60	1.0
+Hn1	261.0	0.0	slur	-1
+Hn1	261.0	0.0	dynamic	mf
+Hn1	261.0	0.0	dynamic	mf
+Hn1	261.0	0.0	cresc	-1
+Hn2	261.0	0.0	note	60	1.0
+Hn2	261.0	0.0	slur	-1
+Hn2	261.0	0.0	dynamic	mf
+Hn2	261.0	0.0	dynamic	mf
+Hn2	261.0	0.0	cresc	-1
+Timp	261.0	0.0	note	51	1.0
+Timp	261.0	0.0	tremolo	32
+Timp	261.0	0.0	dynamic	pp
+Timp	261.0	0.0	dynamic	pp
+Timp	261.0	0.0	cresc	-1
+Timp	261.0	0.0	text	ord.
+HarpR	261.0	0.0	note	55	1.0
+HarpR	261.0	0.0	note	63	1.0
+HarpR	261.0	0.0	arpeggio	1
+HarpL	261.0	0.0	note	27	1.0
+HarpL	261.0	0.0	note	39	1.0
+HarpL	261.0	0.0	dynamic	f
+HarpL	261.0	0.0	dynamic	f
+HarpL	261.0	0.0	arpeggio	1
+VlnI	261.0	0.0	note	84	0.5
+VlnI	261.0	0.0	slur	-1
+VlnI	261.0	0.0	script	upbow
+VlnI	261.0	0.0	cresc	-1
+VlnII	261.0	0.0	note	72	0.5
+VlnII	261.0	0.0	slur	-1
+VlnII	261.0	0.0	script	upbow
+VlnII	261.0	0.0	cresc	-1
+Vla	261.0	0.0	note	60	0.5
+Vc	261.0	0.0	note	60	1.0
+Vc	261.0	0.0	cresc	-1
+Cb	261.0	0.0	note	39	1.0
+Cb	261.0	0.0	cresc	-1
+Fl1	261.5	0.0	note	89	0.16666666666666666
+VlnI	261.5	0.0	note	89	0.16666666666666666
+VlnII	261.5	0.0	note	77	0.16666666666666666
+Vla	261.5	0.0	note	55	0.5
+Vla	261.5	0.0	slur	1
+Fl1	261.6666666666667	0.0	note	91	0.16666666666666666
+VlnI	261.6666666666667	0.0	note	91	0.16666666666666666
+VlnII	261.6666666666667	0.0	note	79	0.16666666666666666
+Fl1	261.8333333333333	0.0	note	92	0.16666666666666666
+VlnI	261.8333333333333	0.0	note	92	0.16666666666666666
+VlnI	261.8333333333333	0.0	slur	1
+VlnII	261.8333333333333	0.0	note	80	0.16666666666666666
+VlnII	261.8333333333333	0.0	slur	1
+Fl1	262.0	0.0	note	94	3.0
+Fl1	262.0	0.0	tie
+Fl1	262.0	0.0	dynamic	ff
+Fl1	262.0	0.0	dynamic	ff
+Fl2	262.0	0.0	note	89	3.0
+Fl2	262.0	0.0	tie
+Fl2	262.0	0.0	dynamic	ff
+Fl2	262.0	0.0	dynamic	ff
+Ob1	262.0	0.0	note	82	3.0
+Ob1	262.0	0.0	tie
+Ob1	262.0	0.0	slur	-1
+Ob1	262.0	0.0	dynamic	ff
+Ob1	262.0	0.0	dynamic	ff
+Ob2	262.0	0.0	note	77	3.0
+Ob2	262.0	0.0	tie
+Ob2	262.0	0.0	dynamic	ff
+Ob2	262.0	0.0	dynamic	ff
+CA	262.0	0.0	note	70	3.0
+CA	262.0	0.0	tie
+CA	262.0	0.0	slur	-1
+CA	262.0	0.0	dynamic	ff
+CA	262.0	0.0	dynamic	ff
+Cl1	262.0	0.0	note	82	3.0
+Cl1	262.0	0.0	tie
+Cl1	262.0	0.0	slur	-1
+Cl1	262.0	0.0	dynamic	ff
+Cl1	262.0	0.0	dynamic	ff
+Cl2	262.0	0.0	note	65	1.0
+Cl2	262.0	0.0	dynamic	ff
+Cl2	262.0	0.0	dynamic	ff
+BCl	262.0	0.0	note	49	3.0
+BCl	262.0	0.0	dynamic	ff
+BCl	262.0	0.0	dynamic	ff
+Bn1	262.0	0.0	note	61	1.0
+Bn1	262.0	0.0	dynamic	ff
+Bn1	262.0	0.0	dynamic	ff
+Bn2	262.0	0.0	note	49	3.0
+Bn2	262.0	0.0	dynamic	ff
+Bn2	262.0	0.0	dynamic	ff
+Cbn	262.0	0.0	note	25	3.0
+Cbn	262.0	0.0	dynamic	ff
+Cbn	262.0	0.0	dynamic	ff
+Hn1	262.0	0.0	note	61	1.0
+Hn1	262.0	0.0	dynamic	f
+Hn1	262.0	0.0	dynamic	f
+Hn1	262.0	0.0	text	a2
+Hn2	262.0	0.0	note	61	1.0
+Hn2	262.0	0.0	dynamic	f
+Hn2	262.0	0.0	dynamic	f
+Hn2	262.0	0.0	text	a2
+Hn3	262.0	0.0	note	65	3.0
+Hn3	262.0	0.0	dynamic	f
+Hn3	262.0	0.0	dynamic	f
+Hn4	262.0	0.0	note	56	3.0
+Hn4	262.0	0.0	dynamic	f
+Hn4	262.0	0.0	dynamic	f
+Timp	262.0	0.0	note	49	3.0
+Timp	262.0	0.0	tremolo	32
+Timp	262.0	0.0	dynamic	f
+Timp	262.0	0.0	dynamic	f
+VlnI	262.0	0.0	note	94	3.0
+VlnI	262.0	0.0	tie
+VlnI	262.0	0.0	dynamic	ff
+VlnI	262.0	0.0	dynamic	ff
+VlnI	262.0	0.0	script	downbow
+VlnI	262.0	0.0	text	molto sostenuto
+VlnII	262.0	0.0	note	82	3.0
+VlnII	262.0	0.0	tie
+VlnII	262.0	0.0	dynamic	ff
+VlnII	262.0	0.0	dynamic	ff
+VlnII	262.0	0.0	script	downbow
+VlnII	262.0	0.0	text	molto sostenuto
+Vla	262.0	0.0	note	70	3.0
+Vla	262.0	0.0	tie
+Vla	262.0	0.0	dynamic	ff
+Vla	262.0	0.0	dynamic	ff
+Vla	262.0	0.0	text	molto sostenuto
+Vc	262.0	0.0	note	61	1.0
+Vc	262.0	0.0	dynamic	ff
+Vc	262.0	0.0	dynamic	ff
+Vc	262.0	0.0	text	molto sostenuto
+Cb	262.0	0.0	note	37	3.0
+Cb	262.0	0.0	dynamic	ff
+Cb	262.0	0.0	dynamic	ff
+Cb	262.0	0.0	text	molto sostenuto, change bow at will
+Cl2	263.0	0.0	note	73	2.0
+Bn1	263.0	0.0	note	60	1.0
+Hn1	263.0	0.0	note	60	1.0
+Hn2	263.0	0.0	note	60	1.0
+Vc	263.0	0.0	note	60	1.0
+Bn1	264.0	0.0	note	58	1.0
+Bn1	264.0	0.0	slur	1
+Hn1	264.0	0.0	note	58	1.0
+Hn1	264.0	0.0	slur	1
+Hn2	264.0	0.0	note	58	1.0
+Hn2	264.0	0.0	slur	1
+Vc	264.0	0.0	note	58	1.0
+Fl1	265.0	0.0	note	94	1.0
+Fl2	265.0	0.0	note	89	2.0
+Ob1	265.0	0.0	note	82	1.0
+Ob2	265.0	0.0	note	77	2.0
+CA	265.0	0.0	note	70	1.0
+Cl1	265.0	0.0	note	82	1.0
+Cl2	265.0	0.0	note	73	3.0
+Cl2	265.0	0.0	tie
+BCl	265.0	0.0	note	49	2.0
+Bn1	265.0	0.0	breathe
+Bn1	265.0	0.0	note	56	2.0
+Bn1	265.0	0.0	slur	-1
+Bn2	265.0	0.0	note	49	2.0
+Cbn	265.0	0.0	note	25	2.0
+Hn1	265.0	0.0	breathe
+Hn1	265.0	0.0	note	56	2.0
+Hn1	265.0	0.0	slur	-1
+Hn2	265.0	0.0	breathe
+Hn2	265.0	0.0	note	56	2.0
+Hn2	265.0	0.0	slur	-1
+Hn3	265.0	0.0	note	65	2.0
+Hn3	265.0	0.0	cresc	1
+Hn4	265.0	0.0	note	56	2.0
+Hn4	265.0	0.0	tie
+Hn4	265.0	0.0	cresc	1
+Timp	265.0	0.0	note	49	3.0
+Timp	265.0	0.0	tremolo	32
+VlnI	265.0	0.0	note	94	1.0
+VlnI	265.0	0.0	slur	-1
+VlnI	265.0	0.0	script	upbow
+VlnII	265.0	0.0	note	82	1.0
+VlnII	265.0	0.0	slur	-1
+VlnII	265.0	0.0	script	upbow
+Vla	265.0	0.0	note	70	1.0
+Vla	265.0	0.0	slur	-1
+Vla	265.0	0.0	script	upbow
+Vc	265.0	0.0	note	56	2.0
+Cb	265.0	0.0	note	37	2.0
+Fl1	266.0	0.0	note	92	2.0
+Fl1	266.0	0.0	slur	1
+Ob1	266.0	0.0	note	80	2.0
+Ob1	266.0	0.0	slur	1
+CA	266.0	0.0	note	68	2.0
+CA	266.0	0.0	slur	1
+Cl1	266.0	0.0	note	80	2.0
+Cl1	266.0	0.0	slur	1
+VlnI	266.0	0.0	note	92	2.0
+VlnI	266.0	0.0	slur	1
+VlnII	266.0	0.0	note	80	2.0
+VlnII	266.0	0.0	slur	1
+Vla	266.0	0.0	note	65	1.0
+Vla	266.0	0.0	note	68	1.0
+Vla	266.0	0.0	text	div.
+Fl2	267.0	0.0	note	88	1.0
+Ob2	267.0	0.0	note	76	1.0
+BCl	267.0	0.0	note	46	1.0
+Bn1	267.0	0.0	note	58	1.0
+Bn1	267.0	0.0	script	tenuto
+Bn1	267.0	0.0	tie
+Bn2	267.0	0.0	note	46	1.0
+Cbn	267.0	0.0	note	22	1.0
+Hn1	267.0	0.0	note	58	1.0
+Hn1	267.0	0.0	script	tenuto
+Hn1	267.0	0.0	tie
+Hn2	267.0	0.0	note	58	1.0
+Hn2	267.0	0.0	script	tenuto
+Hn2	267.0	0.0	tie
+Hn3	267.0	0.0	note	64	1.0
+Hn3	267.0	0.0	tie
+Hn3	267.0	0.0	slur	-1
+Hn3	267.0	0.0	cresc	1
+Hn3	267.0	0.0	cresc	-1
+Hn4	267.0	0.0	note	56	1.0
+Hn4	267.0	0.0	slur	-1
+Hn4	267.0	0.0	cresc	-1
+Vla	267.0	0.0	note	64	1.0
+Vla	267.0	0.0	note	68	1.0
+Vla	267.0	0.0	slur	1
+Vc	267.0	0.0	note	58	1.0
+Vc	267.0	0.0	script	tenuto
+Vc	267.0	0.0	tie
+Cb	267.0	0.0	note	34	1.0
+Fl1	268.0	0.0	breathe
+Fl1	268.0	0.0	note	91	1.0
+Fl1	268.0	0.0	slur	-1
+Fl1	268.0	0.0	decresc	-1
+Fl2	268.0	0.0	breathe
+Fl2	268.0	0.0	note	88	1.0
+Ob1	268.0	0.0	breathe
+Ob1	268.0	0.0	note	79	1.0
+Ob1	268.0	0.0	slur	-1
+Ob1	268.0	0.0	decresc	-1
+Ob2	268.0	0.0	breathe
+Ob2	268.0	0.0	note	76	1.0
+CA	268.0	0.0	breathe
+CA	268.0	0.0	note	67	1.0
+CA	268.0	0.0	slur	-1
+CA	268.0	0.0	decresc	-1
+Cl1	268.0	0.0	breathe
+Cl1	268.0	0.0	note	79	1.0
+Cl1	268.0	0.0	slur	-1
+Cl1	268.0	0.0	decresc	-1
+Cl2	268.0	0.0	note	73	1.0
+Cl2	268.0	0.0	decresc	-1
+BCl	268.0	0.0	breathe
+BCl	268.0	0.0	note	39	3.0
+BCl	268.0	0.0	decresc	-1
+Bn1	268.0	0.0	note	58	1.0
+Bn1	268.0	0.0	decresc	-1
+Bn2	268.0	0.0	breathe
+Bn2	268.0	0.0	note	51	3.0
+Bn2	268.0	0.0	decresc	-1
+Cbn	268.0	0.0	breathe
+Cbn	268.0	0.0	note	27	3.0
+Cbn	268.0	0.0	decresc	-1
+Hn1	268.0	0.0	note	58	1.0
+Hn1	268.0	0.0	decresc	-1
+Hn2	268.0	0.0	note	58	1.0
+Hn2	268.0	0.0	decresc	-1
+Hn3	268.0	0.0	note	64	1.0
+Hn3	268.0	0.0	cresc	1
+Hn3	268.0	0.0	decresc	-1
+Hn4	268.0	0.0	note	55	2.0
+Hn4	268.0	0.0	cresc	1
+Hn4	268.0	0.0	decresc	-1
+Timp	268.0	0.0	note	51	3.0
+Timp	268.0	0.0	tremolo	32
+Timp	268.0	0.0	decresc	-1
+VlnI	268.0	0.0	note	91	1.0
+VlnI	268.0	0.0	slur	-1
+VlnI	268.0	0.0	decresc	-1
+VlnII	268.0	0.0	note	79	1.0
+VlnII	268.0	0.0	slur	-1
+VlnII	268.0	0.0	decresc	-1
+Vla	268.0	0.0	note	64	1.0
+Vla	268.0	0.0	note	67	1.0
+Vla	268.0	0.0	slur	-1
+Vla	268.0	0.0	decresc	-1
+Vc	268.0	0.0	note	58	1.0
+Vc	268.0	0.0	decresc	-1
+Cb	268.0	0.0	note	39	3.0
+Cb	268.0	0.0	decresc	-1
+Fl1	269.0	0.0	note	87	0.5
+Ob1	269.0	0.0	note	75	0.5
+CA	269.0	0.0	note	63	2.0
+Cl1	269.0	0.0	note	75	0.5
+Cl2	269.0	0.0	note	67	2.0
+Bn1	269.0	0.0	note	61	2.0
+Bn1	269.0	0.0	script	tenuto
+Hn1	269.0	0.0	note	61	2.0
+Hn1	269.0	0.0	script	tenuto
+Hn2	269.0	0.0	note	61	2.0
+Hn2	269.0	0.0	script	tenuto
+Hn3	269.0	0.0	note	63	2.0
+Hn3	269.0	0.0	slur	1
+VlnI	269.0	0.0	note	87	0.5
+VlnII	269.0	0.0	note	75	0.5
+Vla	269.0	0.0	note	63	2.0
+Vla	269.0	0.0	text	unis.
+Vla	269.0	0.0	slur	1
+Vc	269.0	0.0	note	61	2.0
+Vc	269.0	0.0	script	tenuto
+Fl1	269.5	0.0	note	85	0.5
+Ob1	269.5	0.0	note	73	0.5
+Cl1	269.5	0.0	note	73	0.5
+VlnI	269.5	0.0	note	85	0.5
+VlnII	269.5	0.0	note	73	0.5
+Fl1	270.0	0.0	note	84	0.5
+Ob1	270.0	0.0	note	72	0.5
+Cl1	270.0	0.0	note	72	0.5
+Hn4	270.0	0.0	note	51	1.0
+Hn4	270.0	0.0	slur	1
+VlnI	270.0	0.0	note	84	0.5
+VlnII	270.0	0.0	note	72	0.5
+Fl1	270.5	0.0	note	82	0.5
+Ob1	270.5	0.0	note	70	0.5
+Cl1	270.5	0.0	note	70	0.5
+Cl1	270.5	0.0	slur	1
+VlnI	270.5	0.0	note	82	0.5
+VlnI	270.5	0.0	slur	1
+VlnII	270.5	0.0	note	70	0.5
+VlnII	270.5	0.0	slur	1
+Fl1	271.0	0.0	note	80	3.0
+Fl1	271.0	0.0	slur	1
+Fl1	271.0	0.0	dynamic	p
+Fl1	271.0	0.0	dynamic	p
+Fl1	271.0	0.0	decresc	-1
+Ob1	271.0	0.0	note	68	2.0
+Ob1	271.0	0.0	slur	1
+Ob1	271.0	0.0	dynamic	p
+Ob1	271.0	0.0	dynamic	p
+Ob1	271.0	0.0	decresc	-1
+CA	271.0	0.0	note	63	2.0
+CA	271.0	0.0	slur	1
+CA	271.0	0.0	dynamic	p
+CA	271.0	0.0	dynamic	p
+CA	271.0	0.0	decresc	-1
+Cl1	271.0	0.0	note	72	3.0
+Cl1	271.0	0.0	dynamic	p
+Cl1	271.0	0.0	dynamic	p
+Cl1	271.0	0.0	decresc	-1
+Cl2	271.0	0.0	note	68	2.0
+Cl2	271.0	0.0	dynamic	p
+Cl2	271.0	0.0	dynamic	p
+Cl2	271.0	0.0	decresc	-1
+BCl	271.0	0.0	note	44	3.0
+BCl	271.0	0.0	dynamic	p
+BCl	271.0	0.0	dynamic	p
+BCl	271.0	0.0	decresc	-1
+Bn1	271.0	0.0	note	60	3.0
+Bn1	271.0	0.0	slur	1
+Bn1	271.0	0.0	dynamic	p
+Bn1	271.0	0.0	dynamic	p
+Bn1	271.0	0.0	decresc	-1
+Bn2	271.0	0.0	note	44	3.0
+Bn2	271.0	0.0	dynamic	p
+Bn2	271.0	0.0	dynamic	p
+Bn2	271.0	0.0	decresc	-1
+Cbn	271.0	0.0	note	32	2.0
+Cbn	271.0	0.0	dynamic	p
+Cbn	271.0	0.0	dynamic	p
+Cbn	271.0	0.0	decresc	-1
+Hn1	271.0	0.0	note	60	2.0
+Hn1	271.0	0.0	slur	1
+Hn1	271.0	0.0	dynamic	p
+Hn1	271.0	0.0	dynamic	p
+Hn1	271.0	0.0	decresc	-1
+Hn2	271.0	0.0	note	60	2.0
+Hn2	271.0	0.0	slur	1
+Hn2	271.0	0.0	dynamic	p
+Hn2	271.0	0.0	dynamic	p
+Hn2	271.0	0.0	decresc	-1
+Hn3	271.0	0.0	cresc	1
+Hn4	271.0	0.0	cresc	1
+Timp	271.0	0.0	cresc	1
+HarpL	271.0	0.0	note	32	3.0
+HarpL	271.0	0.0	note	39	3.0
+HarpL	271.0	0.0	dynamic	p
+HarpL	271.0	0.0	dynamic	p
+HarpL	271.0	0.0	arpeggio	1
+VlnI	271.0	0.0	note	80	3.0
+VlnI	271.0	0.0	dynamic	p
+VlnI	271.0	0.0	dynamic	p
+VlnI	271.0	0.0	decresc	-1
+VlnII	271.0	0.0	note	68	2.0
+VlnII	271.0	0.0	dynamic	p
+VlnII	271.0	0.0	dynamic	p
+VlnII	271.0	0.0	decresc	-1
+Vla	271.0	0.0	note	63	2.0
+Vla	271.0	0.0	dynamic	p
+Vla	271.0	0.0	dynamic	p
+Vla	271.0	0.0	decresc	-1
+Vc	271.0	0.0	note	60	3.0
+Vc	271.0	0.0	dynamic	p
+Vc	271.0	0.0	dynamic	p
+Vc	271.0	0.0	decresc	-1
+Cb	271.0	0.0	note	32	3.0
+Cb	271.0	0.0	tie
+Cb	271.0	0.0	dynamic	p
+Cb	271.0	0.0	dynamic	p
+Cb	271.0	0.0	decresc	-1
+HarpR	272.0	0.0	note	56	1.0
+HarpR	272.0	0.0	note	60	1.0
+HarpR	272.0	0.0	arpeggio	1
+Fl1	273.0	0.0	dynamic	pp
+Fl1	273.0	0.0	dynamic	pp
+Ob1	273.0	0.0	cresc	1
+CA	273.0	0.0	cresc	1
+Cl1	273.0	0.0	dynamic	pp
+Cl1	273.0	0.0	dynamic	pp
+Cl2	273.0	0.0	dynamic	pp
+Cl2	273.0	0.0	dynamic	pp
+BCl	273.0	0.0	dynamic	pp
+BCl	273.0	0.0	dynamic	pp
+Bn1	273.0	0.0	dynamic	pp
+Bn1	273.0	0.0	dynamic	pp
+Bn2	273.0	0.0	dynamic	pp
+Bn2	273.0	0.0	dynamic	pp
+Cbn	273.0	0.0	cresc	1
+Hn1	273.0	0.0	cresc	1
+Hn2	273.0	0.0	cresc	1
+HarpR	273.0	0.0	note	63	0.5
+HarpL	273.0	0.0	dynamic	pp
+HarpL	273.0	0.0	dynamic	pp
+VlnI	273.0	0.0	dynamic	pp
+VlnI	273.0	0.0	dynamic	pp
+VlnI	273.0	0.0	text	mettere sord.
+VlnII	273.0	0.0	cresc	1
+VlnII	273.0	0.0	text	mettere sord.
+Vla	273.0	0.0	cresc	1
+Vla	273.0	0.0	text	mettere sord.
+Vc	273.0	0.0	dynamic	pp
+Vc	273.0	0.0	dynamic	pp
+HarpR	273.5	0.0	note	65	0.5
+HarpR	274.0	0.0	note	56	1.5
+HarpR	274.0	0.0	slur	-1
+HarpR	274.0	0.0	dynamic	p
+HarpR	274.0	0.0	dynamic	p
+HarpR	274.0	0.0	script	flageolet
+HarpR	274.0	0.0	text	R.H. étouffez
+HarpR	274.0	0.0	text	dolce, harm., L.H. (sound 8va)
+HarpR	274.0	0.0	note	68	1.5
+HarpL	274.0	0.0	note	32	3.0
+Vla	274.0	0.0	text	[L] a tempo
+Vc	274.0	0.0	note	44	3.0
+Vc	274.0	0.0	tie
+Vc	274.0	0.0	dynamic	ppp
+Vc	274.0	0.0	dynamic	ppp
+Vc	274.0	0.0	text	4 soli, change bow at will
+Cb	274.0	0.0	note	32	3.0
+Cb	274.0	0.0	tie
+Cb	274.0	0.0	dynamic	ppp
+Cb	274.0	0.0	dynamic	ppp
+Cb	274.0	0.0	text	change bow at will
+HarpR	275.5	0.0	note	60	0.5
+HarpR	275.5	0.0	script	flageolet
+HarpR	275.5	0.0	note	72	0.5
+HarpR	276.0	0.0	note	63	1.0
+HarpR	276.0	0.0	script	flageolet
+HarpR	276.0	0.0	slur	1
+HarpR	276.0	0.0	note	75	1.0
+Timp	277.0	0.0	note	51	1.5
+Timp	277.0	0.0	dynamic	pp
+Timp	277.0	0.0	dynamic	pp
+Vc	277.0	0.0	note	44	3.0
+Vc	277.0	0.0	tie
+Cb	277.0	0.0	note	32	3.0
+Cb	277.0	0.0	tie
+Timp	278.5	0.0	note	48	0.5
+Timp	279.0	0.0	note	44	1.0
+Timp	279.0	0.0	tie
+Vla	279.0	0.0	note	60	1.0
+Vla	279.0	0.0	note	63	1.0
+Vla	279.0	0.0	tie
+Vla	279.0	0.0	dynamic	ppp
+Vla	279.0	0.0	dynamic	ppp
+Vla	279.0	0.0	text	con sord., div., change bow at will
+Cl1	280.0	0.0	note	75	3.0
+Cl1	280.0	0.0	slur	-1
+Cl1	280.0	0.0	cresc	1
+Cl1	280.0	0.0	cresc	-1
+Cl1	280.0	0.0	text	dolce
+Timp	280.0	0.0	note	44	3.0
+Vla	280.0	0.0	note	60	3.0
+Vla	280.0	0.0	note	63	3.0
+Vc	280.0	0.0	note	44	3.0
+Vc	280.0	0.0	tie
+Cb	280.0	0.0	note	32	3.0
+Cb	280.0	0.0	tie
+Cl1	282.0	0.0	dynamic	pp
+Cl1	282.0	0.0	dynamic	pp
+Cl1	283.0	0.0	note	74	3.0
+Cl1	283.0	0.0	slur	1
+Vla	283.0	0.0	note	60	3.0
+Vla	283.0	0.0	note	65	3.0
+Vla	283.0	0.0	cresc	-1
+Vc	283.0	0.0	note	44	3.0
+Vc	283.0	0.0	cresc	-1
+Cb	283.0	0.0	note	32	3.0
+Cb	283.0	0.0	cresc	-1
+CA	286.0	0.0	note	65	3.0
+CA	286.0	0.0	slur	-1
+CA	286.0	0.0	dynamic	pp
+CA	286.0	0.0	dynamic	pp
+CA	286.0	0.0	text	dolce
+Cl1	286.0	0.0	breathe
+Cl1	286.0	0.0	note	73	3.0
+Cl1	286.0	0.0	slur	-1
+Cl1	286.0	0.0	dynamic	pp
+Cl1	286.0	0.0	dynamic	pp
+Cl1	286.0	0.0	text	1.
+Hn3	286.0	0.0	note	56	3.0
+Hn3	286.0	0.0	slur	-1
+Hn3	286.0	0.0	dynamic	pp
+Hn3	286.0	0.0	dynamic	pp
+Hn3	286.0	0.0	text	con sord.
+Hn4	286.0	0.0	note	53	3.0
+Hn4	286.0	0.0	slur	-1
+Hn4	286.0	0.0	dynamic	pp
+Hn4	286.0	0.0	dynamic	pp
+VlnII	286.0	0.0	note	68	3.0
+VlnII	286.0	0.0	dynamic	pp
+VlnII	286.0	0.0	dynamic	pp
+VlnII	286.0	0.0	text	con sord.
+Vla	286.0	0.0	note	53	3.0
+Vla	286.0	0.0	note	56	3.0
+Vla	286.0	0.0	dynamic	pp
+Vla	286.0	0.0	dynamic	pp
+Vc	286.0	0.0	note	41	3.0
+Vc	286.0	0.0	dynamic	pp
+Vc	286.0	0.0	dynamic	pp
+Vc	286.0	0.0	text	tutti
+Cb	286.0	0.0	note	29	3.0
+Cb	286.0	0.0	dynamic	pp
+Cb	286.0	0.0	dynamic	pp
+Cb	286.0	0.0	text	4 soli
+CA	289.0	0.0	note	64	3.0
+Cl1	289.0	0.0	note	73	3.0
+Cl1	289.0	0.0	script	tenuto
+Hn3	289.0	0.0	note	56	3.0
+Hn3	289.0	0.0	script	tenuto
+Hn3	289.0	0.0	tie
+Hn4	289.0	0.0	note	52	3.0
+VlnII	289.0	0.0	note	68	3.0
+Vla	289.0	0.0	note	52	3.0
+Vla	289.0	0.0	note	56	3.0
+Vc	289.0	0.0	note	49	3.0
+Cb	289.0	0.0	note	37	3.0
+Cl1	291.0	0.0	cresc	1
+CA	292.0	0.0	note	63	3.0
+CA	292.0	0.0	tie
+Cl1	292.0	0.0	note	72	3.0
+Cl1	292.0	0.0	tie
+Cl2	292.0	0.0	note	63	3.0
+Cl2	292.0	0.0	tie
+Cl2	292.0	0.0	cresc	1
+Cl2	292.0	0.0	cresc	-1
+Hn3	292.0	0.0	note	56	3.0
+Hn3	292.0	0.0	tie
+Hn4	292.0	0.0	note	51	3.0
+Hn4	292.0	0.0	tie
+VlnI	292.0	0.0	note	72	3.0
+VlnI	292.0	0.0	tie
+VlnI	292.0	0.0	dynamic	pp
+VlnI	292.0	0.0	dynamic	pp
+VlnI	292.0	0.0	script	upbow
+VlnI	292.0	0.0	text	con sord., sul D
+VlnII	292.0	0.0	note	68	3.0
+VlnII	292.0	0.0	tie
+VlnII	292.0	0.0	text	change bow at will
+Vla	292.0	0.0	note	51	3.0
+Vla	292.0	0.0	note	56	3.0
+Vla	292.0	0.0	tie
+Vla	292.0	0.0	text	change bow at will
+Vc	292.0	0.0	note	44	3.0
+Vc	292.0	0.0	tie
+Vc	292.0	0.0	text	change bow at will
+Cb	292.0	0.0	note	32	3.0
+Cb	292.0	0.0	tie
+Cb	292.0	0.0	text	change bow at will
+CA	295.0	0.0	note	63	2.0
+CA	295.0	0.0	slur	1
+CA	295.0	0.0	decresc	-1
+Cl1	295.0	0.0	note	72	2.0
+Cl1	295.0	0.0	slur	1
+Cl1	295.0	0.0	decresc	-1
+Cl2	295.0	0.0	note	63	3.0
+Cl2	295.0	0.0	tie
+Cl2	295.0	0.0	dynamic	pp
+Cl2	295.0	0.0	dynamic	pp
+Cl2	295.0	0.0	decresc	-1
+Hn3	295.0	0.0	note	56	2.0
+Hn3	295.0	0.0	slur	1
+Hn3	295.0	0.0	decresc	-1
+Hn4	295.0	0.0	note	51	2.0
+Hn4	295.0	0.0	slur	1
+Hn4	295.0	0.0	decresc	-1
+VlnI	295.0	0.0	note	72	3.0
+VlnI	295.0	0.0	tie
+VlnI	295.0	0.0	script	downbow
+VlnII	295.0	0.0	note	68	3.0
+VlnII	295.0	0.0	tie
+Vla	295.0	0.0	note	51	3.0
+Vla	295.0	0.0	note	56	3.0
+Vla	295.0	0.0	tie
+Vc	295.0	0.0	note	44	3.0
+Vc	295.0	0.0	tie
+Cb	295.0	0.0	note	32	3.0
+Cb	295.0	0.0	tie
+CA	297.0	0.0	cresc	1
+Cl1	297.0	0.0	cresc	1
+Cl2	297.0	0.0	cresc	1
+Hn3	297.0	0.0	cresc	1
+Hn4	297.0	0.0	cresc	1
+Cl2	298.0	0.0	note	63	3.0
+Cl2	298.0	0.0	tie
+Cl2	298.0	0.0	decresc	-1
+Cl2	298.0	0.0	text	morendo
+VlnI	298.0	0.0	note	72	3.0
+VlnI	298.0	0.0	tie
+VlnI	298.0	0.0	script	upbow
+VlnI	298.0	0.0	decresc	-1
+VlnII	298.0	0.0	note	68	3.0
+VlnII	298.0	0.0	tie
+VlnII	298.0	0.0	decresc	-1
+Vla	298.0	0.0	note	51	3.0
+Vla	298.0	0.0	note	56	3.0
+Vla	298.0	0.0	tie
+Vla	298.0	0.0	decresc	-1
+Vc	298.0	0.0	note	44	3.0
+Vc	298.0	0.0	tie
+Vc	298.0	0.0	decresc	-1
+Cb	298.0	0.0	note	32	3.0
+Cb	298.0	0.0	tie
+Cb	298.0	0.0	decresc	-1
+Cl2	301.0	0.0	note	63	3.0
+Cl2	301.0	0.0	dynamic	ppp
+Cl2	301.0	0.0	dynamic	ppp
+Cl2	301.0	0.0	script	fermata
+VlnI	301.0	0.0	note	72	3.0
+VlnI	301.0	0.0	script	downbow
+VlnI	301.0	0.0	dynamic	ppp
+VlnI	301.0	0.0	dynamic	ppp
+VlnI	301.0	0.0	script	fermata
+VlnII	301.0	0.0	note	68	3.0
+VlnII	301.0	0.0	dynamic	ppp
+VlnII	301.0	0.0	dynamic	ppp
+VlnII	301.0	0.0	script	fermata
+Vla	301.0	0.0	note	51	3.0
+Vla	301.0	0.0	note	56	3.0
+Vla	301.0	0.0	dynamic	ppp
+Vla	301.0	0.0	dynamic	ppp
+Vla	301.0	0.0	script	fermata
+Vc	301.0	0.0	note	44	3.0
+Vc	301.0	0.0	dynamic	ppp
+Vc	301.0	0.0	dynamic	ppp
+Vc	301.0	0.0	script	fermata
+Cb	301.0	0.0	note	32	3.0
+Cb	301.0	0.0	dynamic	ppp
+Cb	301.0	0.0	dynamic	ppp
+Cb	301.0	0.0	script	fermata
+VlnI	303.0	0.0	text	via sord.
+VlnII	303.0	0.0	text	via sord.
+Vla	303.0	0.0	text	via sord.

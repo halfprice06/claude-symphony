@@ -1,0 +1,5 @@
+A #1 violas 1033-1048: n 15 pc median +20 ms (c04 +111)
+A #1.2 celli Sus MAX 604-658: n 4 pc median +127 ms (c04 +136..+184)
+A #5 pizz shared onsets 59: Vc +7 Cb +3 Vc-Cb median +1 ms (c04 +39)
+A #5 Violins II pizz n 46 median +10 ms (c04 +25)
+A #4 muted Tpt1 vs CA shared 24: Tpt1-CA median +4 ms (c04 +35)

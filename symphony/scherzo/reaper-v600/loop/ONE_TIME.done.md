@@ -1,0 +1,3 @@
+# One-time task for the cycle 2 actor (rename to ONE_TIME.done.md when done)
+
+c01 settled at 49-50 GB (16-32 GB compressed), over the 45 GB cap in BRIEF item 7 (REAPER is shared with three other threads on a 96 GB Mac). Bring the settled footprint back under 45 GB this cycle without losing what c01 added: check which tracks carry the most loaded rows (the new staccatissimo, Stac DblTng and portamento rows), drop rows that play only a few notes or can share a row already loaded, and confirm that UNLOAD_UNUSED_ROWS still unloads everything unused. Record the per-track change and the settled memory in CHANGES.md.

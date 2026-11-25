@@ -1,0 +1,25 @@
+Violins I       60.00 portato  stroke-prev c43  +3.3  c44 +10.0  change  +6.7
+Violins I      108.00 portato  stroke-prev c43  +5.5  c44  +3.3  change  -2.2
+Violins I      140.00 portato  stroke-prev c43  +6.7  c44  +5.7  change  -1.0
+Violins I      572.00 portato  stroke-prev c43  +8.8  c44  +3.7  change  -5.1
+Violins II     108.00 portato  stroke-prev c43  +2.9  c44  +2.7  change  -0.2
+Violas          80.00 stroke   stroke-prev c43  -1.7  c44  +0.5  change  +2.2
+Violas         108.00 portato  stroke-prev c43  +0.7  c44  +2.4  change  +1.7
+Violas         136.00 portato  stroke-prev c43  +2.6  c44  +4.0  change  +1.4
+Violas         372.00 stroke   stroke-prev c43  +0.8  c44  +1.1  change  +0.3
+Violas         500.00 stroke   stroke-prev c43  -3.8  c44  +1.6  change  +5.4
+Violas         668.00 portato  stroke-prev c43  +1.0  c44  +2.5  change  +1.5
+Violoncellos    47.00 stroke   stroke-prev c43  -3.0  c44  -0.3  change  +2.7
+Violoncellos    84.00 stroke   stroke-prev c43  -3.7  c44  -3.8  change  -0.1
+Violoncellos    88.00 stroke   stroke-prev c43  -4.4  c44  -4.4  change  -0.0
+Violoncellos   152.00 stroke   stroke-prev c43  +3.0  c44  +2.4  change  -0.6
+Violoncellos   156.00 stroke   stroke-prev c43  +4.9  c44  +1.4  change  -3.5
+Violoncellos   164.00 stroke   stroke-prev c43 -11.0  c44 -11.5  change  -0.5
+Violoncellos   314.00 portato  stroke-prev c43  +0.4  c44  -0.7  change  -1.1
+Violoncellos   326.00 stroke   stroke-prev c43  -8.8  c44  -1.7  change  +7.1
+Violoncellos   374.00 stroke   stroke-prev c43  -4.8  c44  -5.6  change  -0.8
+Violoncellos   448.00 stroke   stroke-prev c43  -1.1  c44  -1.1  change  +0.0
+Violoncellos   456.00 stroke   stroke-prev c43  +0.0  c44  +1.4  change  +1.4
+Violoncellos   524.00 portato  stroke-prev c43  +1.1  c44  +1.0  change  -0.1
+Violoncellos   656.00 stroke   stroke-prev c43  +0.3  c44  +1.1  change  +0.8
+Violoncellos   668.00 stroke   stroke-prev c43  -1.4  c44  -1.2  change  +0.2

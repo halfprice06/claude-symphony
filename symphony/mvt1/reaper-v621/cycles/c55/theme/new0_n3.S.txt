@@ -1,0 +1,2 @@
+Violins I     448-480 S: n 30 of 30  median +21  robust SD 27  SD 55  min -230 max +136  >25 from median 10  >40 6  >60 2
+Violins II    448-480 S: n 24 of 24  median -5  robust SD 57  SD 54  min -122 max +84  >25 from median 16  >40 12  >60 6

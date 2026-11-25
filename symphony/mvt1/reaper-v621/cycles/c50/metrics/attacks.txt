@@ -1,0 +1,17 @@
+Timpani        qn  100.0  start +0.02 s  (limit 0.12)  ok
+Timpani        qn  128.0  start +0.01 s  (limit 0.12)  ok
+Trombone 1     qn  100.0  start -0.06 s  (limit 0.06)  ok
+Trumpet 1      qn  100.0  start -0.03 s  (limit 0.06)  ok
+Tuba           qn  100.0  start -0.02 s  (limit 0.06)  ok
+Harp           qn  184.0  start +0.00 s  (limit 0.06)  ok
+Double basses  qn  188.0  start +0.00 s  (limit 0.06)  ok
+Violas         qn  128.0  start -0.05 s  (limit 0.10)  ok
+Violins I      qn   56.5  start +0.00 s  (limit 0.10)  ok
+Violins II     qn   20.0  start -0.12 s  (limit 0.20)  ok  (early)
+Violoncellos   qn   20.0  start -0.14 s  (limit 0.20)  ok  (early)
+Timpani        qn    0.0  opening max  -46.0 dB  (limit -70)  ok
+Violins I      joins 245  pcX median   +17 ms  robust SD   47 ms  >60 ms off  16%  window median   76 ms  (limit 75 ms)  ok
+Violins II     joins 125  pcX median   +18 ms  robust SD   37 ms  >60 ms off  19%  window median   84 ms  (limit 75 ms)  ok
+Violas         joins 129  pcX median   +24 ms  robust SD   47 ms  >60 ms off  22%  window median   82 ms  (limit 90 ms)  ok
+Violoncellos   joins 263  pcX median    +2 ms  robust SD   46 ms  >60 ms off  19%  window median   87 ms  (limit 80 ms)  ok
+late or hole: 0

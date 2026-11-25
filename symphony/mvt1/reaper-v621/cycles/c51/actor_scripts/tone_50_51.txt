@@ -1,0 +1,10 @@
+  tone c50 whole (loudest 10 %): centroid 1057 Hz, bands -13.6 -8.9 -6.5 -7.6 -5.3 -9.1 -19.2 -33.6
+  tone c50 121-126 (loudest 25 %): centroid 1240 Hz, 500-1k -8.2, 2-4k -8.1, 4-8k -18.4
+  tone c50 160-166 (loudest 25 %): centroid 1226 Hz, 500-1k -7.9, 2-4k -8.5, 4-8k -18.0
+  tone c50 167-170 (loudest 25 %): centroid 1040 Hz, 500-1k -9.0, 2-4k -9.4, 4-8k -17.7
+  tone c50 147-159 (loudest 25 %): centroid 1124 Hz, 500-1k -7.3, 2-4k -8.5, 4-8k -19.1
+  tone c51 whole (loudest 10 %): centroid 985 Hz, bands -13.8 -9.2 -6.4 -6.8 -5.4 -10.2 -20.5 -35.1
+  tone c51 121-126 (loudest 25 %): centroid 1126 Hz, 500-1k -7.4, 2-4k -9.6, 4-8k -19.9
+  tone c51 160-166 (loudest 25 %): centroid 1162 Hz, 500-1k -6.8, 2-4k -9.3, 4-8k -18.9
+  tone c51 167-170 (loudest 25 %): centroid 963 Hz, 500-1k -7.7, 2-4k -10.8, 4-8k -18.9
+  tone c51 147-159 (loudest 25 %): centroid 1049 Hz, 500-1k -6.6, 2-4k -9.5, 4-8k -20.4

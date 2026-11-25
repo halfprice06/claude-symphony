@@ -1,0 +1,10 @@
+ok       Trumpets a2: 0 attacks differ
+STALE    Bassoon 1 stac: 18 attacks differ  (Bss mp: 20.0 (written 438.3082580566406); Bss f: 20.0 (written 438.3082580566406); Bss ff: 20.0 (written 438.3082580566406))
+ok       Cor anglais stac: 0 attacks differ
+STALE    Flute 1 stac: 24 attacks differ  (1Fls pp: 20.0 (written 738.15625); 1Fls mf: 20.0 (written 738.15625); 1Fls f: 20.0 (written 738.15625))
+ok       Cello solo: 0 attacks differ
+ok       Violins I f62: 0 attacks differ
+ok       Violins II f62: 0 attacks differ
+ok       Oboe 1 stac: 0 attacks differ
+ok       Clarinet 1 stac: 0 attacks differ
+state_guard: 9 tracks, 2 stale, 0 missing

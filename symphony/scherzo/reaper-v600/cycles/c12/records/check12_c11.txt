@@ -1,0 +1,136 @@
+== Dan's score change, bar 56: Horn 1 / Horn 2 at qn 165 (first 0.2 s, 20 ms peak); master and direct sum per 0.25 qn 165-169
+  Horn 1: 0-0.2 s -39.6  peak -38.0  166-168 -44.2  notes [(165.0, 71, 1.33), (166.0, 70, 2.0986)]
+  Horn 2: 0-0.2 s -46.7  peak -41.8  166-168 -73.6  notes [(165.0, 67, 0.5)]
+  Horn 3: 0-0.2 s -200.0  peak -200.0  166-168 -200.0  notes []
+  Horn 4: 0-0.2 s -200.0  peak -200.0  166-168 -200.0  notes []
+  master:  -24.1  -26.0  -26.9  -28.5  -31.0  -34.9  -36.7  -38.9  -40.4  -42.9  -44.5  -44.4  -33.6  -38.7  -46.9  -49.4
+  direct:  -24.8  -26.8  -27.4  -29.4  -32.3  -36.0  -37.7  -40.6  -41.4  -44.2  -45.8  -45.4  -33.5  -38.7  -48.6  -53.5
+== A #1 timpani strokes: 20 ms peak in the first 150 ms of each stroke of a statement (qn: level)
+  291: 291:-50.5  292:-42.4  292.5:-43.3  293:-42.7   spread 8.1  first-max -8.1
+  294: 294:-46.8  295:-34.7  295.5:-34.5  296:-34.3   spread 12.5  first-max -12.5
+  309: 309:-28.9  310:-26.5  310.5:-26.5  311:-25.3   spread 3.6  first-max -3.6
+  720: 720:-57.4  721:-48.4  721.5:-53.4  722:-48.6   spread 9.0  first-max -9.0
+  738: 738:-57.4  739:-47.1  739.5:-52.0  740:-48.1   spread 10.3  first-max -10.3
+  744: 744:-57.7  745:-47.1  745.5:-45.7  746:-44.4   spread 13.3  first-max -13.3
+  909: 909:-31.1  910:-26.4  910.5:-26.5  911:-25.4   spread 5.7  first-max -5.7
+  1086: 1086:-57.4  1087:-47.8  1087.5:-54.7  1088:-50.5   spread 9.6  first-max -9.6
+  1098: 1098:-57.4  1099:-47.8  1099.5:-54.6  1100:-50.5   spread 9.6  first-max -9.6
+  1110: 1110:-64.2  1111:-53.9  1111.5:-58.7  1112:-58.3   spread 10.3  first-max -10.3
+== A #3 summit: roll per 0.5 qn 1005-1008; strokes 1008 / 1010 / 1012 / 1014; first strokes 309 / 909; E2 312 / 390 / 858
+  roll:  -26.5  -32.3  -32.2  -32.3  -35.1  -39.1
+  strokes: 1008:-29.8  1010:-25.5  1012:-24.3  1014:-22.2  309:-28.9  909:-31.1  312:-26.8  390:-35.1  858:-35.2
+== A #2 / C #5 harp tune 216-240: 600-5000 Hz level of the first 100 ms of each onset, deviation from the median
+  median -45.0  SD 3.3  range 14.2
+  216/81:-6.5  217/77:+0.8  218/81:+4.3  219/84:+0.8  220/57:-4.9  221/82:-2.4  221.5/81:-2.5  222/79:-1.8  223/74:-3.8  224/79:-0.4  225/82:-0.0  226/58:-3.5  227/81:+1.7  227.5/79:-1.3  228/77:+0.4  229/72:-0.3  230/77:+7.8  231/81:+4.4  232/57:+0.9  233/79:+0.8  233.5/77:+3.2  234/76:+3.3  235/79:+3.6  236/82:+0.0  237/81:-3.1  238/57:-4.5
+  same-pitch spread: 57:5.8  77:7.3  79:5.4  81:10.8  82:2.4
+  216 full band first 0.2 s -49.3  217-219 -36.8
+== A #4 legato joins (pcx.scan: previous pitch excluded): perceived onset in ms against the score
+  Violins I      joins 118  median   +15  under -40:   9  under -80:   1  over +50:  23  over +80:  11
+  Violins II     joins 104  median    -2  under -40:  20  under -80:  13  over +50:  13  over +80:   4
+  Violas         joins  67  median    +3  under -40:  17  under -80:   6  over +50:  13  over +80:   6
+  Violoncellos   joins 198  median    +7  under -40:  33  under -80:  11  over +50:  42  over +80:  22
+  Double basses  joins  18  median   -51  under -40:  10  under -80:   5  over +50:   5  over +80:   5
+  Flute 1        joins 167  median    +7  under -40:   7  under -80:   0  over +50:  11  over +80:   5
+  Flute 2        joins  49  median   +46  under -40:   3  under -80:   3  over +50:  23  over +80:  13
+  Oboe 1         joins 102  median    -2  under -40:   0  under -80:   0  over +50:  24  over +80:  13
+  Clarinet 1     joins 131  median   +17  under -40:   0  under -80:   0  over +50:   9  over +80:   7
+  Bassoon 1      joins  77  median   +15  under -40:   3  under -80:   0  over +50:  16  over +80:  13
+  Bassoon 2      joins  22  median   +12  under -40:   0  under -80:   0  over +50:   8  over +80:   6
+  Horn 1         joins  21  median   +27  under -40:   0  under -80:   0  over +50:   5  over +80:   2
+  Horn 3         joins  69  median   +15  under -40:   1  under -80:   0  over +50:  10  over +80:   5
+  Horn 4         joins  16  median    +1  under -40:   1  under -80:   0  over +50:   4  over +80:   3
+  changed, Violins II: n 16  median -105  outside +-50: 16  outside +-80: 13
+     133.5:-96  373.5:-111  590:-84  593:-120  595.5:-126  598:-142  600:-136  744:-76  841.5:-117  842:-97  846:-98  1051.5:-118  1056:-72  1061:-89  1063:-117  1074:-79
+  changed, Violoncellos: n 20  median -77  outside +-50: 20  outside +-80: 7
+     133.5:-77  138:-62  140:-74  145.5:-76  150:-77  152:-73  193.5:-81  317:-72  323:-78  331:-124  344:-91  356:-85  846:-73  917:-72  923:-78  931:-124  944:-92  956:-85  1056:-65  1065:-62
+  changed, Violins I: n 3  median +98  outside +-50: 3  outside +-80: 3
+     591:-103  597:+109  600:+98
+  changed, Violas: n 9  median -91  outside +-50: 9  outside +-80: 5
+     370:-61  378:-180  588:-65  590:-93  598:-120  600:-91  838:-61  846:-188  1044:-60
+  Bassoon 2 (coordinator's list): 519:-27  546:-3  632:+13  654:+145  663:+13
+== B #1 brass: K level per odd bar 105-119 (qn 312 + 6k), trumpets against Violins I
+  Trumpet 1 - Violins I:  -12.2  -12.8  -10.4  -12.0  -11.7   -9.7  -12.5  -11.7   median -11.9
+  Trumpet 2 - Violins I:  -13.4  -13.5  -12.0  -13.1  -13.3  -11.2  -13.2  -11.6   median -13.1
+  Trombone 1 - Violins I:  -14.7  -15.8  -14.8  -15.9  -13.6  -11.9  -16.0  -16.3   median -15.3
+  Trombone 2 - Violins I:  -11.4  -12.8  -11.8  -15.1  -12.7  -11.1  -12.9  -14.1   median -12.8
+  Bass trombone - Violins I:  -14.0  -16.1  -14.9  -15.2  -14.1  -12.5  -16.1  -26.4   median -15.1
+  Tuba - Violins I:  -13.5  -15.6  -14.7  -10.5  -12.0  -10.2  -15.8  -10.8   median -12.8
+  994-995.5 against own 996-999 / chord at 309-310 against Violins I:
+    Trumpet 1: -5.7   309: -33.1 (Violins I -29.2)
+    Trumpet 2: -4.6   309: -36.0 (Violins I -29.2)
+    Horn 1: -8.0   309: -34.5 (Violins I -29.2)
+    Horn 2: -8.1   309: -36.7 (Violins I -29.2)
+    Horn 3: -7.3   309: -34.3 (Violins I -29.2)
+    Horn 4: -5.7   309: -32.8 (Violins I -29.2)
+    Trombone 1: -8.5   309: -34.0 (Violins I -29.2)
+    Trombone 2: -9.0   309: -33.3 (Violins I -29.2)
+    Bass trombone: -161.4   309: -36.4 (Violins I -29.2)
+    Tuba: -6.4   309: -30.3 (Violins I -29.2)
+  2-5 kHz front (0-80 ms) minus body (100-300 ms), notes of 1 qn or longer in 300-360 and 900-1014: median / max
+    Trumpet 1: -3.0 / -0.2 (n 6)
+    Trumpet 2: -7.0 / -6.3 (n 6)
+    Trombone 1: -4.7 / +1.9 (n 25)
+    Trombone 2: -2.3 / +3.6 (n 25)
+    Bass trombone: -0.9 / +3.3 (n 22)
+== B #2 pickup 383.5 / 851.5 against its downbeat (0.5 qn each)
+  Violins I: 383.5: -25.3 vs -27.1 (+1.9)  851.5: -25.3 vs -27.2 (+1.9)
+  Violins II: 383.5: -25.2 vs -33.0 (+7.8)  851.5: -25.2 vs -33.2 (+8.0)
+  master: 383.5: +2.0  851.5: +1.7
+== B #3 Violins I C6 at 69 / 789 (1 qn), bars each side
+  69: -28.2 (before -38.5, after -37.4)  789: -28.1 (before -36.3, after -37.1)
+== B #4 Violins I re-bows: before (-0.3..-0.1 s), 100 ms minimum in +-0.25 s, after (+0.2..+0.4 s)
+  1103.814: -50.0 / -51.3 / -48.5   dip 1.3  after-before +1.5
+  1116.299: -47.9 / -52.5 / -52.8   dip 4.6  after-before -4.8
+  1125.156: -49.1 / -53.7 / -53.0   dip 4.6  after-before -3.8
+  Horn 1 contour, 1 qn means 1111-1128:  -45.8  -43.2  -43.0  -43.7  -44.6  -45.1  -46.5  -47.2  -48.2  -48.7  -52.0  -53.8  -53.0  -52.2  -51.7  -51.1  -53.5
+  Violins I 1113-1128:  -47.8  -47.8  -47.6  -50.6  -51.3  -50.2  -50.0  -49.7  -50.3  -50.2  -49.5  -49.7  -50.1  -48.9  -50.6
+== B #5 Flute 1 under the solo violin (0.5 qn): solo minus flute
+  1051.5: +2.0  1052: -0.7  1054: -1.1  1058: -1.6  1064: -3.2
+  Flute 1 1050-1065.5 -44.5  solo -41.6
+== B #6 Horn 3 against Violoncellos per bar (K), 312-360 and 912-960: median; F#3 notes (20 ms peak)
+  312: median -3.6  min -8.1  max +2.5
+  912: median -6.9  min -14.1  max -0.3
+  F#3: 323:-40.0  356:-38.9  923:-43.0  956:-42.1
+== C #1 join peaks: 20 ms frames, peak against the notes each side
+  Violoncellos 506: stem peak +11.6 over the sides (-27.5); master +10.0
+  Violoncellos 570: stem peak +3.0 over the sides (-35.8); master +2.9
+  Clarinet 1 459: stem peak +7.1 over the sides (-30.4); master +5.2
+  Horn 1 1077 frames:  -31.2  -30.4  -32.9  -33.2  -35.8  -37.0  1071:  -34.1  -34.1  -35.7  -36.8  -39.2  -40.0
+== C #2 Violins II 431-436 per 0.25 qn; largest fall from the running level
+   -49.7  -48.6  -47.1  -47.0  -50.3  -50.5  -48.9  -51.6  -54.0  -55.4  -57.0  -60.1  -59.2  -57.9  -56.8  -53.6  -53.0  -53.3  -50.0  -49.6
+  max - min 13.0   min at 433.75
+== C #3 Oboe 1 552 against the eighths 553-554.5; celli 504 first 300 ms (50 ms frames)
+  Oboe 1 552-553 -49.8  frames  -55.4  -52.5  -51.2  -50.4  -48.7  -47.5  553-554.5 -44.7
+  celli 504:  -52.7  -46.4  -45.0  -45.0  -40.6  -38.0  -36.4  basses 504:  -62.7  -60.6  -58.1  -55.3  -55.1  -54.1  -53.0
+== C: re-tongue holes (10 ms frame minimum in +-0.12 s against the lower of the 0.2 s means each side)
+  Horn 1 141.7: hole 7.0 dB (sides -41.0 / -38.9)
+  Horn 1 998.57: hole 9.7 dB (sides -31.1 / -33.0)
+  Horn 1 659.66: hole 5.8 dB (sides -37.0 / -43.6)
+  Horn 1 164.6: hole 8.0 dB (sides -37.2 / -38.5)
+  Horn 3 605.81: hole 5.6 dB (sides -49.1 / -50.0)
+  Horn 3 521.81: hole 4.0 dB (sides -44.8 / -45.5)
+  Horn 4 371.78: hole 6.3 dB (sides -45.4 / -44.4)
+  Bassoon 2 515.87: hole 8.5 dB (sides -42.2 / -45.7)
+  Bassoon 2 539.87: hole 7.7 dB (sides -47.0 / -45.1)
+== open from c11: pcX (ms)
+  Oboe 1 672: +194
+  Violins II 672: +248
+  Violins II 708: +138
+  Flute 1 904: +146
+  Double basses 1071: +144
+  Double basses 504: +112
+  Violin I solo 1044: +139
+  Violas 1020: +109
+  Horn 1 6: +97
+  Violins II 900: -59
+  Cor anglais 900: +106
+  Flute 1 900: -19
+  Oboe 1 900: -42
+  Violins I 900: +5
+  basses' step at 902: -10.0 dB;  reprise beats 640 / 641 master -28.9 / -28.0 (639: -30.0)
+== hall (master): G.P. 1016 and final chord 1128; soft ends; returns against dry
+  1016: drop +0.3/+0.6/+1.0 20.4 / 31.3 / 46.7  t20 0.30  RT60 1.34
+  1128: drop +0.3/+0.6/+1.0 20.2 / 31.1 / 40.5  t20 0.31  RT60 1.32
+  165: no cutoff found
+  soft ends (stem + R Strings, -10 dB): ['Violins I 23.0: 0.18', 'Violins II 444.5: 0.29', 'Violins I 1128.0: 0.14', 'Violin I solo 1066.8: 0.16']
+  R Strings re dry -14.34 dB;  R Brass re dry -25.79 dB;  R Winds re dry -15.58 dB;  R Perc re dry -27.58 dB;  all returns re dry -11.63 dB

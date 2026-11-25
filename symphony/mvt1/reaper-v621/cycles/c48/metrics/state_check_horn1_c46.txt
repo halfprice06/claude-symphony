@@ -1,0 +1,5 @@
+state_check: cycles/c46/render (cycles/c47/before) -> cycles/c48/render (build); flag |level| > 3.0 dB or |pcX| > 30.0 ms on notes whose data did not change
+Horn 1             compared  108  flagged   3  state runs 0  timing runs 0
+     415.000 p 69 Leg Slur MAX           level  -1.57 dB  pcX   -117 ms
+     454.000 p 71 Sus MAX                level  +0.18 dB  pcX    +45 ms
+     528.000 p 65 LegRep RRx4            level  -0.43 dB  pcX    +49 ms

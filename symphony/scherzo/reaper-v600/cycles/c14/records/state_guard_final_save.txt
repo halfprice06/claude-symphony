@@ -1,0 +1,32 @@
+ok       Flute 1: 0 attacks differ
+ok       Flute 2: 0 attacks differ
+ok       Oboe 1: 0 attacks differ
+ok       Oboe 2: 0 attacks differ
+ok       Cor anglais: 0 attacks differ
+ok       Clarinet 1: 0 attacks differ
+ok       Clarinet 2: 0 attacks differ
+ok       Bass clarinet: 0 attacks differ
+ok       Bassoon 1: 0 attacks differ
+ok       Bassoon 2: 0 attacks differ
+ok       Contrabassoon: 0 attacks differ
+ok       Horn 1: 0 attacks differ
+ok       Horn 2: 0 attacks differ
+ok       Horn 3: 0 attacks differ
+ok       Horn 4: 0 attacks differ
+ok       Trumpet 1: 0 attacks differ
+ok       Trumpet 2: 0 attacks differ
+ok       Trombone 1: 0 attacks differ
+ok       Trombone 2: 0 attacks differ
+ok       Bass trombone: 0 attacks differ
+ok       Tuba: 0 attacks differ
+ok       Timpani: 0 attacks differ
+ok       Harp: 0 attacks differ
+ok       Violins I: 0 attacks differ
+ok       Violins II: 0 attacks differ
+ok       Violas: 0 attacks differ
+ok       Violoncellos: 0 attacks differ
+ok       Double basses: 0 attacks differ
+ok       Harp harmonics: 0 attacks differ
+ok       Violin I solo: 0 attacks differ
+ok       Violas div: 0 attacks differ
+state_guard: 31 tracks, 0 stale, 0 missing

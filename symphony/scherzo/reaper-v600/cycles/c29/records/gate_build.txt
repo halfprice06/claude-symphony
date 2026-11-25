@@ -1,0 +1,20 @@
+Horn 3          215-266 max -3.4 dB
+Horn 3          299-359 max -3.4 dB
+Horn 3          383-394 max -3.4 dB
+Horn 3          443-528 max -3.4 dB
+Horn 3          599-611 max -3.4 dB
+Horn 3          707-719 max -3.4 dB
+Horn 3          779-803 max -3.4 dB
+Horn 3          827-840 max -3.4 dB
+Horn 3          851-862 max -3.4 dB
+Horn 3          896-912 max -3.4 dB
+Horn 3          913-948 max -3.4 dB
+Horn 3          949-959 max -3.4 dB
+Horn 3          989-1005 max -3.4 dB
+Horn 3          1019-1032 max -3.4 dB
+Horn 3          1091-1106 max -3.4 dB
+Violins I       35-58 max +1.5 dB
+Violins I       59-82 max +1.5 dB
+Violas          624-648 max -3.0 dB
+Violoncellos    624-651 max -2.9 dB
+Violas div      624-648 max -3.0 dB

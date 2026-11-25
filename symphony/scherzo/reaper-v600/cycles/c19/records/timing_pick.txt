@@ -1,0 +1,15 @@
+Clarinet 1 median S c18 +14 c19 +7
+Clarinet 2 median S c18 -4 c19 -6
+Clarinet 1 304: 27->-15 (pc -15, xr None) 306: 29->9 (pc 9, xr None) 904: 35->-7 (pc -7, xr None) 906: 43->7 (pc 7, xr None)
+Clarinet 2 308: 30->-6 (pc -6, xr None) 310: 27->-1 (pc -1, xr None) 908: 25->-6 (pc -6, xr None) 910: 25->-1 (pc -1, xr None)
+Cor anglais 306: 75->68 (pc 68, xr None) 308: 25->3 (pc 3, xr None) 902: -17->-14 (pc -14, xr None) 906: 27->58 (pc 58, xr None) 908: 23->3 (pc 3, xr None)
+Flute 1 304: 39->-1 (pc -1, xr None) 908: -7->-12 (pc -12, xr None)
+Violoncellos 933: 30->-46 (pc -46, xr 44) 948: 26->-76 (pc -76, xr -23) 348: -78->-78 (pc -78, xr 73) 333: -44->-44 (pc -44, xr 46)
+Violins I 597: None->None (pc None, xr None) 600: None->None (pc None, xr None) 361.5: 40->40 (pc 40, xr 97)
+Horn 3 510: None->None (pc None, xr None) 512: None->None (pc None, xr None) 519: None->None (pc None, xr None) 524: None->None (pc None, xr None)
+Violins I 597: 92->19 (pc 90, xr 19) 600: 3->-31 (pc 7, xr -31) 601: None->None (pc None, xr None) 603: 160->160 (pc 160, xr None)
+Horn 3 510: 63->33 (pc 33, xr 38) 512: 12->8 (pc 8, xr 113) 519: 73->31 (pc 31, xr 46) 524: 88->89 (pc 89, xr 135) 1028: 155->155 (pc 172, xr 155)
+Violoncellos 588: 79->58 (pc 58, xr 73) 510: -8->-8 (pc 45, xr -8) 512: 51->53 (pc 84, xr 53) 519: 8->8 (pc 86, xr 8)
+Violins II trio/meno mosso median S c18 +13 c19 +9
+Violas trio/meno mosso median S c18 +3 c19 +0
+Violoncellos trio/meno mosso median S c18 +8 c19 +8

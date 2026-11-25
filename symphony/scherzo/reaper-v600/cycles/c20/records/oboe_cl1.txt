@@ -1,0 +1,2 @@
+c19 Oboe 1 under Flute 1 (unison staccatos v<75, bars 29-40, first 100 ms): n 23 median -9.0 dB; Clarinet 1 over Violins I: [('bar72', np.float64(1.5)), ('bar214 beat640', np.float64(6.5)), ('bar300', np.float64(1.2)), ('bar302', np.float64(3.1)), ('bar334', np.float64(3.0))]
+c20 Oboe 1 under Flute 1 (unison staccatos v<75, bars 29-40, first 100 ms): n 23 median -4.3 dB; Clarinet 1 over Violins I: [('bar72', np.float64(0.3)), ('bar214 beat640', np.float64(5.1)), ('bar300', np.float64(-0.9)), ('bar302', np.float64(2.2)), ('bar334', np.float64(1.8))]

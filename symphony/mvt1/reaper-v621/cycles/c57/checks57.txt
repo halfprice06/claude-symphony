@@ -1,0 +1,130 @@
+decision 2: bar 44 (qn 172-176) Horn 1 minus Double basses: c56 -3.4, c57 2.9 dB
+  basses F2 bar 10 (qn 36-38): c56 -40.5 -> c57 -46.3 dB
+  basses F2 bar 38 (qn 148-150): c56 -39.9 -> c57 -43.9 dB
+  basses F2 bar 68 (qn 268-270): c56 -41.4 -> c57 -45.9 dB
+  basses F2 bar 111 (qn 440-442): c56 -38.8 -> c57 -43.4 dB
+  basses D2 bar 11 (qn 42-44): c56 -32.8 -> c57 -33.4 dB
+  basses Db2 bar 44 (qn 172-174): c56 -45.7 -> c57 -46.8 dB
+decision 4: stem L/R correlation and R-L, c56 -> c57
+  Cello solo: corr 1.00 -> 1.00, R-L +6.0 -> +2.7 dB, level -35.3 -> -35.3
+  Clarinet 2: corr 0.48 -> 0.85, R-L -3.6 -> -2.7 dB, level -45.0 -> -45.5
+  Contrabassoon: corr 0.28 -> 0.68, R-L +6.8 -> +3.8 dB, level -43.8 -> -43.9
+  Clarinet 1: corr 0.77 -> 0.76, R-L -3.7 -> -3.7 dB, level -40.0 -> -40.1
+  master bars 171-174: corr 0.89 -> 0.90, R-L +5.6 -> +3.0 dB
+  R Brass: whole-file level c56 -52.6 -> c57 -51.1 dB
+  R Perc: whole-file level c56 -45.1 -> c57 -48.8 dB
+  R Strings: whole-file level c56 -44.6 -> c57 -43.9 dB
+  R Winds: whole-file level c56 -44.5 -> c57 -44.3 dB
+  timpani dry c56 -40.2 -> c57 -40.1; trumpets 1-3 dry -38.0 -> -38.1
+decision 5: master
+  band shares c56 -> c57: loud 56-90 -20.1 -> -18.4, loud 90-180 -11.1 -> -10.9, soft 90-180 -9.7 -> -9.4, all 70-112 -13.6 -> -13.2, all 140-355 -6.3 -> -6.1
+  master bars up most: bar 21 +5.5, bar 182 +5.4, bar 85 +4.3, bar 7 +3.1, bar 181 +2.8, bar 89 +2.5, bar 48 +2.1, bar 146 +1.9 | down most: bar 36 -2.0, bar 135 -1.4, bar 35 -1.4, bar 15 -1.3, bar 143 -1.3, bar 1 -1.2 | bars up more than 1.5 dB: 15, down more than 1.5: 1
+  bar 160 -14.6, bar 122 -15.5, bar 26 -18.2 dB (master RMS; c56 -14.2, -15.1, -18.6)
+decision 6: Horns 3-4 bars 19-22 per bar, c56 -> c57
+  Horn 3: -44.0->-48.7 -50.8->-54.7 -53.5->-53.6 -51.7->-48.2
+  Horn 4: -44.2->-47.6 -45.4->-47.9 -50.2->-49.1 -56.0->-51.9
+  Bassoon 1: -43.2->-46.8 -43.1->-43.7 -45.9->-45.7 -47.6->-46.4
+  held phrases made flat, level of the last 30 % minus the first 30 %, c56 -> c57:
+    Flute 1 529-535: +0.1 -> -0.8; whole phrase -1.3 dB
+    Flute 2 104-126: -1.4 -> -1.6; whole phrase -0.7 dB
+    Flute 2 160-169: -1.8 -> +0.8; whole phrase +3.2 dB
+    Flute 2 520-536: +4.4 -> +5.4; whole phrase +0.1 dB
+    Oboe 1 480-504: -19.3 -> -13.4; whole phrase -0.5 dB
+    Oboe 1 529-535: -3.9 -> -1.8; whole phrase -0.2 dB
+    Oboe 2 104-126: -1.2 -> -1.1; whole phrase -0.7 dB
+    Oboe 2 160-166: -16.9 -> -15.4; whole phrase -0.4 dB
+    Oboe 2 272-288: -0.6 -> +0.1; whole phrase -0.3 dB
+    Oboe 2 520-536: -0.7 -> +0.5; whole phrase -0.2 dB
+    Clarinet 1 137-144: -5.8 -> +0.3; whole phrase -0.2 dB
+    Clarinet 1 160-169: -7.2 -> -4.7; whole phrase +1.3 dB
+    Clarinet 2 104-126: +0.5 -> +0.4; whole phrase -0.9 dB
+    Clarinet 2 137-144: -7.8 -> -3.4; whole phrase -1.5 dB
+    Clarinet 2 160-169: -13.2 -> -8.3; whole phrase +0.4 dB
+    Bass clarinet 272-288: +1.4 -> +2.2; whole phrase +0.8 dB
+    Bass clarinet 384-399: -3.5 -> -2.5; whole phrase -0.2 dB
+    Bass clarinet 400-423: -13.8 -> -10.6; whole phrase -0.3 dB
+    Bassoon 1 72-88: -4.7 -> -0.0; whole phrase -0.9 dB
+    Bassoon 1 272-288: -0.8 -> -0.4; whole phrase +0.0 dB
+    Bassoon 1 464-479: -3.8 -> -1.8; whole phrase -0.7 dB
+    Bassoon 1 479-495: -2.2 -> -1.8; whole phrase -0.2 dB
+    Bassoon 1 552-580: -12.8 -> -11.5; whole phrase -0.2 dB
+    Bassoon 2 104-126: +0.6 -> +0.5; whole phrase -0.7 dB
+    Bassoon 2 144-169: -3.2 -> -1.5; whole phrase -0.1 dB
+    Bassoon 2 272-288: +0.9 -> +0.1; whole phrase -0.5 dB
+    Bassoon 2 384-399: -5.5 -> -4.5; whole phrase -0.3 dB
+    Bassoon 2 400-424: -11.8 -> -10.1; whole phrase -0.5 dB
+    Bassoon 2 476-495: -1.4 -> -0.7; whole phrase -0.3 dB
+    Contrabassoon 160-169: -15.4 -> -13.2; whole phrase -0.0 dB
+    Contrabassoon 272-288: +1.9 -> +2.1; whole phrase -1.3 dB
+    Contrabassoon 384-407: +2.4 -> +3.5; whole phrase +0.1 dB
+    Contrabassoon 460-471: +7.1 -> +6.2; whole phrase -0.6 dB
+    Contrabassoon 472-483: +1.1 -> +2.1; whole phrase +0.2 dB
+    Contrabassoon 484-495: -1.7 -> -0.5; whole phrase -0.5 dB
+    Horn 1 104-126: +2.6 -> +0.5; whole phrase +0.9 dB
+    Horn 1 170-176: -7.7 -> +4.5; whole phrase +1.8 dB
+    Horn 1 484-492: -9.6 -> -10.9; whole phrase +0.4 dB
+    Horn 1 520-536: -1.1 -> +1.4; whole phrase +1.8 dB
+    Horn 2 104-126: +5.4 -> +6.2; whole phrase +1.4 dB
+    Horn 2 168-176: -6.7 -> -0.6; whole phrase -2.3 dB
+    Horn 2 484-492: -6.5 -> -7.5; whole phrase +3.4 dB
+    Horn 3 72-88: -7.5 -> +0.5; whole phrase -2.1 dB
+    Horn 3 104-126: +1.9 -> +1.1; whole phrase -0.7 dB
+    Horn 3 156-169: -7.7 -> -6.8; whole phrase -1.0 dB
+    Horn 3 272-288: +3.8 -> +2.8; whole phrase -0.5 dB
+    Horn 3 384-391: -1.7 -> +0.0; whole phrase -0.1 dB
+    Horn 3 392-407: -1.2 -> +0.3; whole phrase -0.0 dB
+    Horn 3 464-479: -1.3 -> -0.2; whole phrase +0.2 dB
+    Horn 3 480-491: -2.6 -> -2.5; whole phrase -0.5 dB
+    Horn 3 520-536: -3.9 -> -2.3; whole phrase +0.1 dB
+    Horn 3 552-568: +0.7 -> -0.3; whole phrase -0.5 dB
+    Horn 4 72-88: -11.9 -> -4.7; whole phrase -1.8 dB
+    Horn 4 104-110: -1.0 -> -0.3; whole phrase +0.1 dB
+    Horn 4 112-126: +1.5 -> +0.6; whole phrase -0.7 dB
+    Horn 4 156-169: +6.3 -> +10.0; whole phrase +0.0 dB
+    Horn 4 384-407: +0.3 -> +1.9; whole phrase +0.2 dB
+    Horn 4 408-424: -3.5 -> -1.3; whole phrase -0.8 dB
+    Horn 4 476-491: +3.4 -> +3.7; whole phrase -0.6 dB
+    Horn 4 528-536: -0.7 -> -0.3; whole phrase +0.3 dB
+    Horn 4 552-568: -0.8 -> +0.2; whole phrase +0.5 dB
+    Trumpet 1 484-492: -8.5 -> -9.0; whole phrase -0.2 dB
+    Trumpet 2 272-288: +2.8 -> +1.9; whole phrase -1.2 dB
+    Trumpet 2 484-492: -5.4 -> -6.7; whole phrase -0.1 dB
+    Trumpet 2 628-632: -1.3 -> -1.0; whole phrase +0.0 dB
+    Trumpet 2 632-648: -2.5 -> -2.2; whole phrase -0.0 dB
+    Trumpet 3 484-492: -6.7 -> -8.1; whole phrase +0.1 dB
+    Trumpet 3 552-568: -3.5 -> -3.9; whole phrase -0.8 dB
+    Trumpet 3 628-634: -2.3 -> +0.9; whole phrase +1.0 dB
+    Trombone 1 104-126: +2.3 -> +1.3; whole phrase -0.7 dB
+    Trombone 1 484-496: -21.1 -> -18.0; whole phrase -0.8 dB
+    Trombone 1 628-636: -2.0 -> -2.6; whole phrase +0.4 dB
+    Trombone 2 104-126: +2.5 -> +1.8; whole phrase -0.8 dB
+    Trombone 2 464-483.5: -121.3 -> -121.3; whole phrase +0.0 dB
+    Trombone 2 484-492: -4.8 -> -5.9; whole phrase -0.3 dB
+    Trombone 2 628-632: -0.4 -> +0.4; whole phrase +0.3 dB
+    Trombone 2 632-648: -1.8 -> -1.7; whole phrase +0.6 dB
+    Bass trombone 104-126: +2.8 -> +2.1; whole phrase -1.0 dB
+    Bass trombone 384-408: +0.3 -> +1.2; whole phrase +0.2 dB
+    Bass trombone 464-483.5: +0.4 -> +2.2; whole phrase +0.0 dB
+    Bass trombone 484-496: -17.2 -> -12.2; whole phrase -0.5 dB
+    Bass trombone 520-536: -0.5 -> +0.7; whole phrase +0.2 dB
+    Bass trombone 628-636: -1.7 -> +0.1; whole phrase +0.9 dB
+    Tuba 104-126: +2.2 -> +2.4; whole phrase -0.6 dB
+    Tuba 520-536: -5.3 -> -3.4; whole phrase -0.2 dB
+    Tuba 628-632: -1.4 -> -0.9; whole phrase +0.3 dB
+    Tuba 632-640: +3.9 -> +2.9; whole phrase -0.1 dB
+    Violins I 529-535: +1.0 -> -0.1; whole phrase +0.7 dB
+    Violins II 145-184: -11.4 -> -9.8; whole phrase -0.3 dB
+    Violins II 478.5-504: -19.1 -> -19.8; whole phrase -0.7 dB
+    Violins II 529-535: +1.5 -> +1.4; whole phrase +0.1 dB
+    Violins II 572-582: -15.8 -> -16.8; whole phrase +4.0 dB
+    Violas 150.5-172: -16.5 -> -14.0; whole phrase +0.2 dB
+    Violas 174-184: -2.0 -> +1.9; whole phrase -0.9 dB
+    Violas 573.5-582: -6.2 -> -5.2; whole phrase -0.9 dB
+    Violoncellos 136-183: -15.8 -> -8.5; whole phrase +0.5 dB
+    Violoncellos 286-304: -8.5 -> -3.5; whole phrase +1.0 dB
+    Violoncellos 572-580: -10.1 -> -7.9; whole phrase -0.2 dB
+    Double basses 128-184: -5.4 -> -2.4; whole phrase -0.2 dB
+    Double basses 286-304: -1.2 -> +0.6; whole phrase -0.4 dB
+    Double basses 384-407: -5.7 -> -5.3; whole phrase -0.6 dB
+    Double basses 572-582: -13.0 -> -12.6; whole phrase +1.0 dB
+    Horns a2 464-475: +4.6 -> +5.0; whole phrase -0.0 dB

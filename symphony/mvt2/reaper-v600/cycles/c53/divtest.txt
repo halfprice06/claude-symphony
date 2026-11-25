@@ -1,0 +1,16 @@
+DIV B (now)       Violas div  bars 23-30: correlation 1.00, side/mid -126.5 dB, level -46.7 dB
+DIV B (now)       Violas      bars 23-30: correlation 0.26, side/mid -2.3 dB, level -44.6 dB
+KS Master (test)  Violas div  bars 23-30: correlation 0.51, side/mid -4.9 dB, level -42.2 dB
+KS Master (test)  Violas      bars 23-30: correlation 0.26, side/mid -2.3 dB, level -44.6 dB
+per bar, Violas div minus Violas (dB): now / test
+  bar 23: -0.6 / +4.9   div level -46.4 -> -40.9 (+5.5)
+  bar 24: -2.6 / +2.8   div level -47.9 -> -42.5 (+5.3)
+  bar 25: -3.2 / -1.8   div level -47.6 -> -46.2 (+1.4)
+  bar 26: -26.2 / -27.8   div level -72.8 -> -74.5 (-1.7)
+  bar 27: -7.9 / -1.9   div level -48.0 -> -42.0 (+6.0)
+  bar 28: +2.2 / +6.4   div level -40.9 -> -36.8 (+4.1)
+  bar 29: +0.5 / +4.9   div level -48.5 -> -44.2 (+4.3)
+  bar 30: -3.1 / +0.3   div level -53.6 -> -50.1 (+3.4)
+note bodies test minus now: median +4.7 dB, spread (max - min) 11.1 dB; after a trim of -4.7 dB within 1 dB: 6 of 11
+   66:+5.5 69:+3.9 70:+12.3 71:+2.9 72:+1.1 78:+9.0 79:+6.4 81:+4.2 82:+5.3 84:+4.7 87:+4.0
+legato joins S (ms) now / test: 69: +138 / +29, 71: +28 / +35, 72: +1 / +19, 87: +34 / +66

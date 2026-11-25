@@ -1,0 +1,22 @@
+Flute 1        joins  53  pcX median    +6 ms  robust SD   16 ms  >60 ms off  13%  window median   44 ms
+Oboe 1         joins  32  pcX median   +26 ms  robust SD   36 ms  >60 ms off  12%  window median   51 ms
+Cor anglais    joins  28  pcX median   -14 ms  robust SD   34 ms  >60 ms off  36%  window median   49 ms
+Clarinet 1     joins  20  pcX median    +7 ms  robust SD   12 ms  >60 ms off  10%  window median   30 ms
+Clarinet 2     joins   7  pcX median    +2 ms  robust SD    9 ms  >60 ms off   0%  window median   30 ms
+Bass clarinet  joins  18  pcX median   +19 ms  robust SD   44 ms  >60 ms off  22%  window median   36 ms
+Bassoon 1      joins  30  pcX median   +16 ms  robust SD   18 ms  >60 ms off  23%  window median   42 ms
+Bassoon 2      joins  14  pcX median   +18 ms  robust SD   22 ms  >60 ms off  14%  window median   51 ms
+Horn 1         joins  41  pcX median   -16 ms  robust SD   43 ms  >60 ms off  10%  window median   68 ms
+Horn 2         joins   5  pcX median    +2 ms  robust SD   37 ms  >60 ms off  20%  window median   58 ms
+Horn 3         joins   4  pcX median   -19 ms  robust SD   47 ms  >60 ms off  25%  window median   92 ms
+Horn 4         joins   4  pcX median    +9 ms  robust SD   27 ms  >60 ms off  25%  window median   64 ms
+Trombone 1     joins   4  pcX median   -24 ms  robust SD   22 ms  >60 ms off   0%  window median   44 ms
+Violins I      joins  86  pcX median   +13 ms  robust SD   56 ms  >60 ms off  29%  window median   71 ms
+Violins II     joins 114  pcX median   +19 ms  robust SD   62 ms  >60 ms off  37%  window median   86 ms
+Violas         joins 134  pcX median    +4 ms  robust SD   60 ms  >60 ms off  35%  window median   86 ms
+Violoncellos   joins 105  pcX median    +2 ms  robust SD   49 ms  >60 ms off  27%  window median   88 ms
+Double basses  joins   3  pcX median   +63 ms  robust SD   12 ms  >60 ms off  33%  window median  132 ms
+Violin I solo  joins   9  pcX median    +9 ms  robust SD   24 ms  >60 ms off   0%  window median   60 ms
+Violoncellos div joins   7  pcX median    +1 ms  robust SD   36 ms  >60 ms off  14%  window median   68 ms
+Violas div     joins   6  pcX median   +80 ms  robust SD   41 ms  >60 ms off  33%  window median   70 ms
+Horns 1-2 a2   joins   3  pcX median   -18 ms  robust SD    4 ms  >60 ms off   0%  window median   84 ms

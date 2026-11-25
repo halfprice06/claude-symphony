@@ -1,0 +1,74 @@
+{
+ "Violins I": {
+  "40-104": {
+   "Sus MAX": 0.7,
+   "Staccatissimo RRx9": 3.0
+  },
+  "600-680": {
+   "Sus MAX": -0.5,
+   "Staccatissimo RRx9": -2.8
+  },
+  "792-816": {
+   "Staccatissimo RRx9": -1.3,
+   "Sus MAX": -1.3
+  },
+  "984-1056": {
+   "Staccatissimo RRx9": -0.9,
+   "Sus MAX": -0.9
+  }
+ },
+ "Violins II": {
+  "40-104": {
+   "Sus MAX": -2.2,
+   "Stac RRx9": 0.0
+  },
+  "600-680": {
+   "Sus MAX": -2.9,
+   "Stac RRx9": -4.8
+  },
+  "792-816": {
+   "Stac RRx9": -3.3,
+   "Sus MAX": -3.3
+  },
+  "984-1056": {
+   "Stac RRx9": -2.5,
+   "Sus MAX": -2.5
+  }
+ },
+ "Violas": {
+  "40-104": {
+   "Sus MAX": 1.5,
+   "Stac RRx9": -3.6
+  },
+  "600-680": {
+   "Sus MAX": -5.0,
+   "Stac RRx9": -5.6
+  },
+  "792-816": {
+   "Stac RRx9": -2.0,
+   "Sus MAX": -2.0
+  },
+  "984-1056": {
+   "Sus MAX": -2.4
+  }
+ },
+ "Violoncellos": {
+  "104-136": {
+   "Sus MAX": -0.2,
+   "Stac RRx9": -2.1
+  },
+  "792-816": {
+   "Sus MAX": 1.1
+  },
+  "984-1012": {
+   "Stac RRx9": 2.0,
+   "Sus MAX": 2.0
+  }
+ },
+ "Double basses": {
+  "104-136": {
+   "Sus MAX": 1.9,
+   "Staccato RRx9": 1.9
+  }
+ }
+}

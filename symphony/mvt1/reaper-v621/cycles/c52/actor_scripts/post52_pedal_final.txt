@@ -1,0 +1,15 @@
+  pedal 104.0-107.5 p36: downbeat minus off-beat front +2.0 dB (n 4/4), adjacent off-beats max 0.6 dB
+  pedal 108.0-111.5 p38: downbeat minus off-beat front +4.2 dB (n 4/4), adjacent off-beats max 0.2 dB
+  pedal 112.0-115.5 p39: downbeat minus off-beat front +2.0 dB (n 4/4), adjacent off-beats max 1.0 dB
+  pedal 116.0-119.5 p40: downbeat minus off-beat front +1.3 dB (n 4/4), adjacent off-beats max 1.2 dB
+  pedal 120.0-121.5 p41: downbeat minus off-beat front +5.3 dB (n 2/2), adjacent off-beats max 0.4 dB
+  pedal 122.0-123.5 p38: downbeat minus off-beat front +2.5 dB (n 2/2), adjacent off-beats max 0.1 dB
+  pedal 520.0-525.5 p36: downbeat minus off-beat front +2.0 dB (n 6/6), adjacent off-beats max 4.5 dB
+  pedal 526.0-527.5 p31: downbeat minus off-beat front +3.8 dB (n 2/2), adjacent off-beats max 0.5 dB
+  pedal 528.0-531.5 p32: downbeat minus off-beat front +2.0 dB (n 4/4), adjacent off-beats max 1.3 dB
+  pedal 532.0-535.5 p31: downbeat minus off-beat front +2.9 dB (n 4/4), adjacent off-beats max 2.6 dB
+  pedal 556.0-559.5 p37: downbeat minus off-beat front +3.7 dB (n 4/4), adjacent off-beats max 4.9 dB
+  pedal 560.0-561.5 p41: downbeat minus off-beat front +6.0 dB (n 2/2), adjacent off-beats max 0.2 dB
+  pedal 562.0-563.5 p38: downbeat minus off-beat front +2.8 dB (n 2/2), adjacent off-beats max 0.2 dB
+  pedal 564.0-567.5 p31: downbeat minus off-beat front +2.2 dB (n 4/4), adjacent off-beats max 1.3 dB
+  pedal 664.0-675.5 p36: downbeat minus off-beat front +2.0 dB (n 12/12), adjacent off-beats max 3.8 dB

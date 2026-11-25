@@ -1,0 +1,41 @@
+Violas c41: 128 joins, pcX median +23 ms, robust SD 65 ms, >60 ms off 37%, window median 94 ms, dips>=5 10, bursts>=3 51
+Violas c42: 128 joins, pcX median +25 ms, robust SD 59 ms, >60 ms off 30%, window median 90 ms, dips>=5 11, bursts>=3 48
+  joins whose lead changed (9): q: lead change s | |pcX - median| ms before -> after | dip, burst before -> after
+    81.0: -0.07 |  110 ->   41 |  2.5, -0.2 -> -0.5, +1.2
+    182.0: -0.09 |  153 ->   73 |  3.0, +1.9 -> -0.3, -0.7
+    290.0: -0.05 |   75 ->   28 | -0.9, +4.7 -> -1.0, +5.5
+    589.0: -0.04 |   70 ->   29 |  3.1, +3.2 ->  3.2, +2.5
+    601.0: -0.05 |   76 ->   31 |  0.1, -0.1 ->  1.8, +0.6
+    604.0: -0.05 |   85 ->   40 |  1.8, +1.8 ->  3.1, +1.6
+    650.5: -0.12 |  194 ->   73 |  2.0, +0.1 ->  2.7, +1.9
+    673.0: -0.05 |   79 ->   48 |  0.7, +2.5 ->  0.6, +3.2
+    704.0: -0.05 |   79 ->   29 |  1.4, +1.0 -> -0.2, -0.1
+  moved joins further from the median than before (by > 5 ms): []
+  new dips >= 5 dB: [(439.0, np.float64(5.3))]; new bursts >= 3 dB: [(673.0, np.float64(3.2))]
+  listed Violas 81.0: c41 pcX   -87 ms dip  2.5 burst -0.2 | c42 pcX   -16 ms dip -0.5 burst +1.2
+  listed Violas 650.5: c41 pcX  -171 ms dip  2.0 burst +0.1 | c42 pcX   -48 ms dip  2.7 burst +1.9
+Violoncellos c41: 263 joins, pcX median +8 ms, robust SD 54 ms, >60 ms off 28%, window median 98 ms, dips>=5 25, bursts>=3 107
+Violoncellos c42: 263 joins, pcX median +6 ms, robust SD 48 ms, >60 ms off 22%, window median 100 ms, dips>=5 26, bursts>=3 108
+  joins whose lead changed (19): q: lead change s | |pcX - median| ms before -> after | dip, burst before -> after
+    7.5: -0.05 |   83 ->   19 |  2.2, +3.5 ->  1.6, +3.0
+    10.0: +0.07 |  120 ->   52 |  1.6, +2.2 ->  0.5, +1.3
+    36.0: -0.07 |  114 ->   58 | -2.7, +1.4 ->  0.3, +2.5
+    72.0: +0.11 |  186 ->  136 | -2.6, +6.5 -> -0.9, +6.8
+    184.0: +0.07 |  120 ->   50 | -3.7, +5.1 -> -7.7, +4.6
+    187.5: -0.06 |  107 ->   54 |  2.4, +4.5 ->  1.6, +1.8
+    211.5: -0.04 |   71 ->   33 |  2.6, +0.6 ->  2.4, +3.2
+    216.0: +0.04 |   65 ->   25 |  2.7, +2.4 ->  3.2, +3.2
+    266.0: +0.10 |  162 ->  221 |  0.6, +1.4 ->  0.9, +3.8
+    351.0: +0.09 |  146 ->   48 |  6.0, +10.2 ->  4.2, +4.0
+    372.0: +0.05 |   84 ->   57 |  4.3, +1.1 ->  5.1, +1.0
+    584.0: +0.05 |   82 ->   12 | -0.2, +3.0 ->  0.3, +2.3
+    592.0: -0.04 |   72 ->   29 |  2.9, +2.4 ->  0.6, +1.2
+    593.5: -0.05 |   75 ->   25 |  6.9, -2.2 ->  5.3, -1.6
+    601.0: +0.04 |   64 ->   66 | -1.4, +0.1 -> -0.3, +0.9
+    603.0: +0.05 |   90 ->   32 |  0.4, +3.8 ->  2.0, +3.9
+    609.0: -0.05 |   84 ->   29 | 10.8, -0.9 ->  8.8, -3.9
+    625.5: -0.04 |   63 ->    0 | -1.1, +4.9 -> -1.0, +4.6
+    654.0: -0.09 |  152 ->   28 |  2.5, -3.5 ->  2.1, -1.1
+  moved joins further from the median than before (by > 5 ms): [266.0]
+  new dips >= 5 dB: [(372.0, np.float64(5.1)), (400.0, np.float64(5.1)), (600.0, np.float64(5.2))]; new bursts >= 3 dB: [(211.5, np.float64(3.2)), (212.0, np.float64(3.7)), (216.0, np.float64(3.2)), (265.0, np.float64(3.0)), (266.0, np.float64(3.8)), (352.0, np.float64(3.6)), (412.0, np.float64(6.1)), (420.0, np.float64(3.2)), (558.0, np.float64(5.4)), (637.0, np.float64(3.1))]
+  listed Violoncellos 7.5: c41 pcX   -75 ms dip  2.2 burst +3.5 | c42 pcX   -13 ms dip  1.6 burst +3.0

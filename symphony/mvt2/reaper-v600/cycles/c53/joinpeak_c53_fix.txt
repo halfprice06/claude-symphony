@@ -1,0 +1,40 @@
+Violins I          65.500 peak  -36.1 dB,  +5.3 over bodies  -41.4 /  -42.2; at note-on -0.092 s, beat -0.232 s; master bump  +3.4
+Violins I          85.000 peak  -38.0 dB,  +5.6 over bodies  -43.6 /  -43.9; at note-on +0.108 s, beat -0.142 s; master bump  +1.5
+Violins I         172.000 peak  -35.7 dB,  +5.7 over bodies  -41.4 /  -41.7; at note-on -0.115 s, beat -0.355 s; master bump  -1.0
+Violins I         257.000 peak  -32.3 dB,  +5.0 over bodies  -38.9 /  -37.3; at note-on -0.046 s, beat -0.176 s; master bump  +1.9
+Violins I         270.000 peak  -33.2 dB,  +5.0 over bodies  -38.7 /  -38.3; at note-on +0.070 s, beat -0.100 s; master bump  -1.2
+Violins II         56.000 peak  -40.6 dB,  +7.4 over bodies  -49.1 /  -48.0; at note-on +0.180 s, beat -0.060 s; master bump  +1.5
+Violins II        146.000 peak  -46.0 dB,  +5.5 over bodies  -51.5 /  -53.5; at note-on +0.197 s, beat -0.108 s; master bump  +2.1
+Violins II        172.000 peak  -34.9 dB,  +6.3 over bodies  -41.2 /  -41.1; at note-on +0.000 s, beat -0.315 s; master bump  +0.1
+Violins II        177.000 peak  -30.0 dB,  +7.0 over bodies  -37.6 /  -37.0; at note-on -0.064 s, beat -0.294 s; master bump  +4.1
+Violins II        185.000 peak  -28.8 dB,  +7.4 over bodies  -36.2 /  -38.2; at note-on +0.068 s, beat -0.212 s; master bump  -1.5
+Violins II        252.000 peak  -33.1 dB,  +6.7 over bodies  -39.8 /  -40.0; at note-on +0.023 s, beat -0.237 s; master bump  +0.9
+Violas              3.000 peak  -43.4 dB,  +6.9 over bodies  -52.8 /  -50.3; at note-on +0.284 s, beat +0.093 s; master bump  +2.9
+Violas             46.500 peak  -47.4 dB,  +6.5 over bodies  -56.3 /  -53.8; at note-on +0.086 s, beat -0.139 s; master bump  +1.7
+Violas             72.000 peak  -41.5 dB,  +5.0 over bodies  -46.5 /  -47.4; at note-on +0.183 s, beat -0.082 s; master bump  -0.2
+Violas            109.000 peak  -43.5 dB,  +8.1 over bodies  -51.6 /  -53.8; at note-on +0.142 s, beat -0.108 s; master bump  +0.5
+Violas            111.000 peak  -43.5 dB,  +8.9 over bodies  -52.3 /  -53.8; at note-on +0.142 s, beat -0.108 s; master bump  +1.4
+Violas            113.000 peak  -45.4 dB,  +6.3 over bodies  -51.7 /  -52.4; at note-on +0.117 s, beat -0.058 s; master bump  -0.3
+Violas            113.667 peak  -44.4 dB,  +6.1 over bodies  -50.5 /  -51.5; at note-on +0.115 s, beat -0.135 s; master bump  -0.0
+Violas            117.000 peak  -45.3 dB,  +6.3 over bodies  -51.6 /  -52.3; at note-on +0.117 s, beat -0.058 s; master bump  -2.0
+Violas            117.667 peak  -44.3 dB,  +6.1 over bodies  -50.4 /  -51.5; at note-on +0.115 s, beat -0.135 s; master bump  -3.0
+Violas            121.667 peak  -44.1 dB,  +5.8 over bodies  -50.1 /  -49.9; at note-on +0.135 s, beat -0.115 s; master bump  +1.2
+Violas            122.333 peak  -45.2 dB,  +5.1 over bodies  -50.3 /  -52.0; at note-on +0.109 s, beat -0.141 s; master bump  +1.2
+Violas            188.333 peak  -39.4 dB,  +6.6 over bodies  -52.9 /  -46.0; at note-on +0.087 s, beat -0.082 s; master bump  -1.1
+Violas            189.000 peak  -38.7 dB,  +5.6 over bodies  -44.3 /  -47.7; at note-on +0.161 s, beat -0.082 s; master bump  -0.2
+Violas            189.667 peak  -37.2 dB,  +6.8 over bodies  -44.0 /  -44.4; at note-on +0.074 s, beat -0.091 s; master bump  -1.1
+Violas            191.333 peak  -38.5 dB,  +5.4 over bodies  -45.6 /  -43.9; at note-on +0.346 s, beat +0.182 s; master bump  +0.9
+Violas            238.500 peak  -40.2 dB,  +9.6 over bodies  -50.4 /  -49.9; at note-on +0.110 s, beat -0.150 s; master bump  +0.5
+Violas            241.000 peak  -38.7 dB,  +8.6 over bodies  -47.3 /  -49.1; at note-on +0.105 s, beat -0.085 s; master bump  +0.5
+Violas            243.000 peak  -43.1 dB,  +5.9 over bodies  -50.4 /  -49.1; at note-on +0.073 s, beat -0.112 s; master bump  +0.6
+Violas            246.000 peak  -39.7 dB,  +8.5 over bodies  -48.2 /  -49.9; at note-on +0.126 s, beat -0.134 s; master bump  +1.9
+Violas            250.000 peak  -41.0 dB,  +6.8 over bodies  -47.7 /  -48.3; at note-on +0.106 s, beat -0.169 s; master bump  -0.1
+Violas            250.500 peak  -41.5 dB,  +5.1 over bodies  -46.6 /  -47.5; at note-on +0.183 s, beat -0.076 s; master bump  +1.5
+Violas            257.500 peak  -32.2 dB,  +5.3 over bodies  -38.3 /  -37.6; at note-on +0.167 s, beat -0.093 s; master bump  +0.5
+Violas            261.000 peak  -28.5 dB,  +5.0 over bodies  -35.0 /  -33.6; at note-on +0.090 s, beat -0.170 s; master bump  -0.7
+Violas            261.500 peak  -29.2 dB,  +5.2 over bodies  -34.4 /  -35.7; at note-on +0.051 s, beat -0.214 s; master bump  +1.6
+Violas            292.000 peak  -52.9 dB,  +5.6 over bodies  -60.7 /  -58.5; at note-on +0.111 s, beat -0.084 s; master bump  -1.5
+Violoncellos      142.500 peak  -46.2 dB,  +7.4 over bodies  -53.6 /  -54.4; at note-on +0.097 s, beat -0.068 s; master bump  +1.3
+Violoncellos      143.000 peak  -44.1 dB,  +5.6 over bodies  -52.0 /  -49.7; at note-on +0.112 s, beat -0.108 s; master bump  +1.0
+Violoncellos div   53.000 peak  -42.1 dB,  +5.7 over bodies  -47.8 /  -51.6; at note-on +0.101 s, beat -0.069 s; master bump  +0.2
+joins 460: stem peak 6 dB or more over both bodies 20, 8 dB or more 5; 5 dB or more with a master bump of 2 dB or more 4

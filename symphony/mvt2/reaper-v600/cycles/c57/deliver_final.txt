@@ -1,0 +1,5 @@
+master EQ: hp 42 Hz +0 dB, bell 167 Hz -1.6 dB, bell 1180 Hz -1.9 dB, hshelf 8008 Hz +0.8 dB
+limiter load: windows over the ceiling by 1 / 3 dB: 260 / 79 of 7080 (13.0 / 4.0 s); last 20 s max -7.7 dB
+pre-limiter peaks (s, dBFS): 232.62 +5.40, 224.83 +4.83, 230.98 +4.82, 231.53 +4.32, 165.98 +3.63
+delivered: I -14.3 LUFS, LRA 12.0 LU, TP -1.1 dBTP; ride max +10.0 dB, min -6.8 dB; limiter about 6.6 dB on the loudest sample peak; p10-to-max short-term span 13.2 dB; length 347.75 s (tail 1.00 s after the last window above -65 dBFS)
+settings: target -13.6 LUFS, ceiling -1.2 dBTP, ratio 2.2, knee 7.0 dB below p95, cap 10.0 dB, top ride -10.0 dB from p95 at 2.0:1, momentary cap 3.0; short-term p10 -21.0 LUFS; momentary p10 -22.0 LUFS (quietest 10 % mean -25.5), max -7.3

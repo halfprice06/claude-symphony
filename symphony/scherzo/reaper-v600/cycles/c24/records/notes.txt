@@ -1,0 +1,14 @@
+== c23
+Violoncellos 504-552: 28 bodies, range 12.1, std 2.5, step median 2.3, steps over 4 dB 7
+Violin I solo 1044-1068: 18 bodies, range 13.6, std 3.5, step median 2.1, steps over 4 dB 1
+Flute 1 312: -25.5 dB, neighbours -32.9 -> +7.4; 0.3 s -25.5
+Flute 1 912: -26.5 dB, neighbours -30.9 -> +4.5; 0.3 s -26.5
+  576:-57.8 579:-46.9 582:-38.5 585:-38.6
+  576:-47.8 579:-43.2 582:-37.5
+== c24
+Violoncellos 504-552: 28 bodies, range 11.9, std 2.3, step median 1.9, steps over 4 dB 3
+Violin I solo 1044-1068: 18 bodies, range 12.1, std 3.3, step median 1.8, steps over 4 dB 1
+Flute 1 312: -28.1 dB, neighbours -35.0 -> +7.0; 0.3 s -28.1
+Flute 1 912: -28.8 dB, neighbours -33.1 -> +4.3; 0.3 s -28.8
+  576:-55.6 579:-44.7 582:-36.8 585:-34.5
+  576:-47.9 579:-43.2 582:-37.5

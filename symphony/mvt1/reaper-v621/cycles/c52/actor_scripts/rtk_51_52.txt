@@ -1,0 +1,4 @@
+c51 rtk cut-offs: 89.64s t20 0.48 RT 1.0, 207.5s t20 0.46 RT 0.83, 311.12s t20 0.47 RT 1.06, 379.27s t20 0.5 RT 1.05
+   n 4, max 0.5, median 0.475
+c52 rtk cut-offs: 89.64s t20 0.48 RT 0.91, 183.69s t20 0.4 RT 1.55, 311.08s t20 0.5 RT 0.95, 379.27s t20 0.5 RT 1.07
+   n 4, max 0.5, median 0.49

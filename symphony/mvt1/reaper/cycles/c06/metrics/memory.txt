@@ -1,0 +1,2 @@
+before render: REAPER 26G, compressed 0.0 GB
+after render: REAPER 43G, compressed 27.0 GB

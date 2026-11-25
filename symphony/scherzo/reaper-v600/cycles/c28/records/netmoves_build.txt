@@ -1,0 +1,33 @@
+WARNING Violins I: cc7_spans_db lift cut at CC7 127 on 41 points
+net moves of 1 dB or more inside note bodies: 402; inside printed hairpins 371; outside 31
+   Oboe 1 996.0 1.1
+   Clarinet 1 1005.0 1.1
+   Clarinet 2 261.0 1.4
+   Clarinet 2 1005.0 1.1
+   Bassoon 2 897.0 1.0
+   Bassoon 2 1005.0 1.2
+   Contrabassoon 996.0 1.4
+   Horn 1 1101.0 10.0
+   Horn 3 350.0 1.2
+   Horn 3 353.0 1.0
+   Horn 3 933.0 1.2
+   Horn 3 1001.0 1.1
+   Horn 4 915.0 1.2
+   Horn 4 918.0 1.0
+   Horn 4 945.0 1.2
+   Harp 238.0 3.9
+   Harp 238.0 3.9
+   Harp 238.0 3.9
+   Violins I 1110.963 10.5
+   Violins II 360.0 1.0
+   Violins II 999.0 1.3
+   Violas 897.0 1.5
+   Violas 897.0 1.5
+   Violas 999.0 1.2
+   Violoncellos 312.0 1.3
+   Violoncellos 317.0 1.5
+   Violoncellos 897.0 1.5
+   Violoncellos 897.0 1.5
+   Violoncellos 912.0 1.3
+   Violoncellos 917.0 1.5
+   Violin I solo 1119.618 8.0

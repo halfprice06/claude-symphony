@@ -1,0 +1,5 @@
+notes with a fault in the combined state: 4  rows restored: {'fill': 1, 'row': 1}
+  Cor anglais       124.000 dropout -0.2->+3.8                       back: nothing to restore
+  Horn 1            201.000 hole 4.2->7.2                            back: fill 201
+  Violins I          71.000 dropout +1.6->+3.7                       back: nothing to restore
+  Violoncellos      259.000 dropout -3.0->-5.4                       back: row 259.000

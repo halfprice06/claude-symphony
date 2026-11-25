@@ -1,0 +1,3 @@
+{
+ "_doc": "Periodic inverse loop profiles {track: {score onset: {period_s, corr_db (20 ms phase bins)}}}, applied by score_to_parts.py from the moved start + 0.8 s to the end - 0.3 s. mvt1 c02: fitted by tools/fit_loops.py. c04: Timpani 0, 48, 720 removed (re-struck rolls, TIMP_ROLL_RESTRIKE). c05: Timpani 484 removed (re-struck, A #6) and Horn 4 720 removed (staggered breaths, BREATH_SPLIT_AT, C #2)."
+}

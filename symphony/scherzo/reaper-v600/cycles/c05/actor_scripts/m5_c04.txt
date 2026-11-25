@@ -1,0 +1,58 @@
+== A#1 hemiola: master/V1/V2 peak position (ms after score onset) and front(0-0.1s) minus body(0.2-0.4s)
+300 master 300ms -4.3 | Violin 370ms -12.8 | Violin 280ms -3.5 | Violon 300ms -7.5
+302 master 310ms -5.8 | Violin 220ms -6.2 | Violin 270ms -3.1 | Violon 410ms -7.4
+304 master 290ms -1.9 | Violin 370ms -3.4 | Violin 360ms -5.4 | Violon  40ms +2.6
+306 master 200ms -2.8 | Violin 170ms -2.8 | Violin 350ms -1.9 | Violon 230ms -5.9
+308 master 140ms -0.3 | Violin 260ms -5.2 | Violin 310ms -1.8 | Violon  40ms +5.2
+310 master 400ms -2.2 | Violin 410ms -5.8 | Violin 350ms -2.2 | Violon 230ms -3.1
+902 master 290ms -1.7 | Violin 360ms -9.3 | Violin 380ms -3.6 | Violon 350ms -3.5
+904 master 430ms -1.4 | Violin 360ms -9.9 | Violin 370ms -7.3 | Violon 430ms -3.0
+906 master 430ms -1.7 | Violin 380ms -5.9 | Violin 190ms -7.3 | Violon 250ms -3.4
+908 master 250ms -2.4 | Violin 180ms -5.7 | Violin 310ms -3.3 | Violon 230ms -2.5
+910 master 250ms -2.2 | Violin 250ms -5.1 | Violin 350ms -2.3 | Violon 340ms +1.0
+== A#3 Horn 1 repeat dips (min 10 ms env within -0.15..+0.15 s of onset, vs mean of -0.4..-0.2 s)
+630 dip 11.9 ms under -3 dB 130
+633 dip 11.8 ms under -3 dB 110
+639 dip 8.5 ms under -3 dB 80
+651 dip 7.5 ms under -3 dB 110
+663 dip 11.3 ms under -3 dB 150
+== A#6 viola portato dips (window -0.22..+0.1 s; ref -0.45..-0.25 s)
+Violas median 1.8 [6.5, 4.2, 1.8, 0.6, -0.0, -1.6, 1.3, 0.8, 3.1, -0.4, 3.7, 2.7, 3.6]
+Violas div median -1.0 [-3.1, -2.7, 2.3, 4.0, 0.2, -3.2, -3.2, -0.2, -1.0, -2.7, 2.2, -3.7, 5.5]
+== B#1 flutes: 50 ms peaks; G6 vs Violins I and vs own staccatos
+312 Fl1 stac [-28.5, -37.7, -37.8, -36.7] G6 -18.8 Fl2 G6 -24.9 V1 -25.1 G6-V1 6.3 G6-stac med 18.4
+348 Fl1 stac [-35.3, -39.5, -37.9, -36.9] G6 -18.8 Fl2 G6 -24.9 V1 -25.1 G6-V1 6.3 G6-stac med 18.6
+912 Fl1 stac [-30.5, -37.7, -38.2, -36.8] G6 -22.3 Fl2 G6 -26.7 V1 -25.1 G6-V1 2.8 G6-stac med 14.9
+948 Fl1 stac [-35.3, -37.8, -38.4, -36.9] G6 -22.3 Fl2 G6 -26.4 V1 -25.1 G6-V1 2.9 G6-stac med 15.1
+pair-V1 rms 312 324 2.3
+pair-V1 rms 348 358 3.2
+pair-V1 rms 912 924 1.2
+pair-V1 rms 948 958 1.9
+== B#2 coda build 3 qn windows
+Violins I [-34.3, -35.1, -37.0, -37.0]
+Violins II [-36.6, -31.3, -26.8, -25.7]
+Violas [-44.6, -44.2, -42.4, -37.1]
+master [-28.1, -26.8, -24.2, -21.6]
+== B#3 oboe
+828-840 Ob1 [-53.1, -49.9, -45.2, -36.9, -46.1, -48.4, -47.0, -48.5]
+       Fl1 [-39.6, -42.0, -40.0, -35.4, -33.4, -39.4, -42.7, -39.6]
+1032-1041 Ob1 [-48.4, -43.9, -43.5, -44.7, -44.2] Cl1 [-41.3, -43.2, -41.5, -43.6, -44.4]
+672 Ob1 -50.9 -48.4 V2 -52.2 -44.6
+== B#4 bass clarinet 732-756 [-44.8, -45.2, -48.5, -46.1, -43.2, -39.7, -38.6, -42.9]
+  Cl1 [-47.4, -39.8, -45.7, -42.8, -48.8, -44.0, -41.0, -40.1]
+  V1 [-48.2, -44.1, -42.2, -45.1]
+== B#5 sfp 900-905 (1 qn)
+Flute 2 [-34.8, -35.2, -36.5, -35.1, -35.7]
+Oboe 1 [-39.9, -46.5, -44.7, -46.3, -41.9]
+Horn 1 [-37.2, -39.6, -40.9, -36.6, -36.4]
+Horn 2 [-39.3, -40.9, -38.0, -35.7, -37.2]
+Violins I [-34.1, -47.7, -47.6, -41.6, -44.6]
+master [-22.6, -27.6, -27.9, -26.8, -26.0]
+== B#6 celli vs V1 132-156 [-0.8, 3.0, 6.7, 2.3, 3.2, 2.0, 2.3, -1.9]
+== C#2 div tracks: level (rms) and hi-mid tilt
+624 648 Vla div -46.4 -9.3 Vla -45.9 -12.4
+648 672 Vla div -42.8 -8.0 Vla -45.8 -12.5
+1044 1056 solo tilt -1.9 solo rms -40.9 Fl1 -45.2
+1056 1068 solo tilt -0.8 solo rms -45.3 Fl1 -48.5
+V1 tilt 528-552 -5.1
+== A#2 V2 arpeggio: skipped (pcx); A#4 entries: see pcx

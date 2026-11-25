@@ -1,0 +1,64 @@
+{
+ "_doc": "Per-onset entry lead extras {track: {score qn: s}}. c03 (critic C #3): the bar-209 ff entry on Leg Slur MAX's first-note layer (Violins I +81, Violins II +132 ms); with the c03 generic ENTRY_LEAD_LOUD_ART_S (+0.06 s) only Violins II keeps an extra (0.06). c05 (critic A #4): soft arco entries after pizz. on Leg Slur MAX's first-note layer arrived +0.08..+0.11 s: celli 504 +0.10, 756 +0.07, basses 840 +0.07. c06 (critic A #4): celli 504 extra removed (its pc moved later, +0.112 -> +0.155 s; level fix in note_trims instead).",
+ "Violins II": {
+  "624.0": 0.06,
+  "672.0": 0.18,
+  "708.0": 0.18,
+  "738.0": 0.12,
+  "1044.0": 0.1,
+  "360.0": 0.08,
+  "315.0": 0.03,
+  "327.0": 0.05,
+  "915.0": 0.03,
+  "927.0": 0.05,
+  "123.0": 0.025,
+  "897.0": 0.025,
+  "1005": 0.025
+ },
+ "Violoncellos": {
+  "756.0": 0.07,
+  "368.0": 0.15,
+  "836.0": 0.15,
+  "504.0": 0.06,
+  "648.0": 0.06,
+  "840.0": 0.06
+ },
+ "Double basses": {
+  "840.0": 0.07
+ },
+ "Violin I solo": {
+  "1044.0": 0.15
+ },
+ "_c09": "c09: A #4 celli 504 0.06 -> 0.12, basses 504 / 1071 0.06 (with VEL_SET 53 in score_config)",
+ "_c10": "c10: c09 A #4 reverted (celli 504 0.06, basses 504 / 1071 removed); A #2 Flute 1 900 +0.03",
+ "Flute 1": {
+  "900.0": 0.03,
+  "1044.0": 0.2
+ },
+ "Oboe 1": {
+  "672.0": 0.08
+ },
+ "Violas": {
+  "1020.0": 0.18,
+  "1005": 0.025
+ },
+ "Violas div": {
+  "1044.0": 0.2
+ },
+ "_c11": "c11: C #2 soft first notes at section joints: Violins II 672/708 +0.18, 738 +0.12, 1044 +0.10, 360 +0.08; Oboe 1 672 +0.08; Violas 1020 +0.18; Flute 1 1044 +0.20; Violas div 1044 +0.08",
+ "Violins I": {
+  "315.0": 0.04,
+  "327.0": 0.04,
+  "915.0": 0.04,
+  "927.0": 0.04,
+  "624.0": 0.06,
+  "1005": 0.025
+ },
+ "_c12": "c12: C #4 accented half notes of the ff tuttis: Violins I 315 / 327 / 915 / 927 +0.04; Violins II 315 / 915 +0.03, 327 / 927 +0.05; ONE_TIME 2 Cor anglais 900 0.06",
+ "Cor anglais": {
+  "900.0": 0.06
+ },
+ "_c14": "c14: A #3 Violas 828 (pp entry on the sub. p, +187 ms): extra 0.13 s (total 0.25).",
+ "_c15": "c15 C #4: Violas 828 extra 0.13 removed (c14: +187 -> +261 ms with it); Violoncellos 648 / 840 +0.06 (leaps onto a Sus MAX stroke, +118..+165 ms); Violins II 123 / 897 +0.025; C #6 Violins I 624 +0.06",
+ "_c25": "critic A #5: Cor anglais accented notes (29, all Sus MAX) +0.05 s (their weight came +89 ms after the score onset); 900 keeps 0.06"
+}

@@ -1,0 +1,10 @@
+Violoncellos    180.000: stem dip  5.0 step +4.6; master band dip  6.4; stem re master band -12.1
+Violins I        44.000: stem dip  5.7 step +2.0; master band dip  5.6; stem re master band  -2.2
+Violas          700.000: stem dip  2.1 step -1.2; master band dip  3.7; stem re master band  -4.5
+Double basses    38.003: stem dip  3.7 step -6.2; master band dip  1.3; stem re master band  -3.9
+Double basses    47.000: stem dip  8.4 step -2.4; master band dip  2.0; stem re master band -20.5
+Violins I      n=  6  automatic/frozen dips median  3.3 dB  printed (c44) dips median  nan (n=0)  |step| median 0.3, >=3 dB: 1
+Violins II     n= 20  automatic/frozen dips median  2.2 dB  printed (c44) dips median  3.8 (n=7)  |step| median 0.9, >=3 dB: 2
+Violas         n= 21  automatic/frozen dips median  1.1 dB  printed (c44) dips median  3.1 (n=10)  |step| median 1.2, >=3 dB: 1
+Violoncellos   n= 27  automatic/frozen dips median  1.6 dB  printed (c44) dips median  2.3 (n=7)  |step| median 0.8, >=3 dB: 3
+Double basses  n= 28  automatic/frozen dips median  1.9 dB  printed (c44) dips median  nan (n=0)  |step| median 1.5, >=3 dB: 8

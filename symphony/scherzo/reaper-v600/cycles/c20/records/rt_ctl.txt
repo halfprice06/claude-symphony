@@ -1,0 +1,12 @@
+Violins I pairs: median -6.5, min -10.4, worst-of-pair median -10.4
+Violins I pairs: median -10.4, min -23.6, worst-of-pair median -16.6
+Violins II pairs: median +10.9, min +1.5, worst-of-pair median +1.5
+Violins I pairs: median -0.6, min -10.0, worst-of-pair median -4.7
+Violins II pairs: median +0.5, min -49.5, worst-of-pair median +0.2
+Violins II 309-361: 7 repeats, dip median 0.4 dB, min 0.0; peaks
+Violins II after 357 (note-off 10.99 s): 20 dB fall in 0.190 s
+Violas 714-746: joins 2, excess median -0.5, p80 +3.2, over 6: 0, holes over 5 dB: 2
+Violoncellos 501-555: joins 13, excess median +1.6, p80 +3.3, over 6: 1, holes over 5 dB: 7
+Violoncellos 504-552: 28 bodies, range 16.9, std 4.6, step median 3.8, steps over 4 dB 13
+Clarinet 1 456-504: 28 bodies, range 11.6, std 2.6, step median 2.0, steps over 4 dB 6
+Violins I 999: -39.5 dB, neighbours -45.9 -> +6.4; 0.3 s -34.9

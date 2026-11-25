@@ -1,0 +1,22 @@
+CC7 moves of 1 dB or more inside notes: 284; inside printed hairpins 263; outside 21
+   Flute 1 140.0 2.8
+   Flute 1 836.0 1.7
+   Oboe 1 393.0 2.4
+   Oboe 1 861.0 2.4
+   Clarinet 2 996.0 1.9
+   Bassoon 1 624.0 2.1
+   Bassoon 1 996.0 1.2
+   Bassoon 2 626.0 1.1
+   Bassoon 2 996.0 1.8
+   Contrabassoon 624.0 1.0
+   Contrabassoon 993.0 2.0
+   Violas 626.0 1.5
+   Violas 681.0 2.0
+   Violas 839.0 2.0
+   Violas 1020.0 1.0
+   Violas 1065.0 1.0
+   Violoncellos 179.0 1.0
+   Violoncellos 413.0 1.0
+   Violoncellos 626.0 1.6
+   Violoncellos 875.0 1.0
+   Violas div 1044.0 2.5

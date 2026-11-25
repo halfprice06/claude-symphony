@@ -1,0 +1,31 @@
+variant B: static [('bell', 140, 4.5), ('bell2', 80, -2)]; loud rows [[('lowshelf', 100, -3), ('bell', 150, 4)], [('bell', 80, 4)]]
+EQ at A flat 1 / D flat 2 / E flat 2 / A flat 2 / D flat 3 / E flat 3 (static), old -> new dB: -1.9->-0.4 -4.3->-0.9 -4.8->-0.9 -1.2->+1.3 +2.8->+3.9 +2.9->+3.7
+share dB (old -> new)        56-112        70-112        112-224       140-355    | basses stem dB  master dB
+whole        -15.2-> -12.8   -16.5-> -14.5    -8.8->  -8.6    -5.8->  -5.9   | +1.91  +0.16
+bars 23-30   -14.4-> -11.8   -14.4-> -11.8    -7.5->  -7.5    -5.7->  -5.9   | +1.92  +0.18
+bars 61-62   -17.2-> -14.4   -20.9-> -18.5    -9.0->  -8.6    -6.3->  -6.4   | +1.78  +0.15
+bars 65-70   -18.8-> -15.0   -18.8-> -15.0   -12.8-> -12.4    -1.3->  -1.4   | +1.56  +0.11
+bars 71-78   -15.4-> -12.0   -15.9-> -12.4    -8.8->  -8.7    -5.9->  -6.0   | +1.88  +0.21
+qn 254-262   -15.7-> -12.1   -16.1-> -12.4    -9.2->  -9.0    -6.1->  -6.1   | +1.85  +0.21
+bars 79-81   -16.0-> -13.0   -22.4-> -19.7    -8.5->  -8.2    -5.4->  -5.6   | +1.86  +0.18
+bars 83-92    -8.0->  -6.5    -8.1->  -6.6    -9.5->  -9.8    -6.7->  -7.0   | +2.50  +0.38
+per-bar K-weighted master change, largest: bar 84 +0.97, bar 83 +0.89, bar 85 +0.55, bar 2 +0.49, bar 30 +0.45, bar 41 +0.35, bar 66 +0.35, bar 29 +0.34 | smallest -0.00
+master sample peak 0.581 -> 0.594
+bass notes, 56-112 Hz over the mean of both neighbours (new; old), top 12:
+  qn   72.00 pitch 44 new +40.5 dB (old +40.7); band level 44.3 -> 46.9
+  qn   78.00 pitch 44 new +36.1 dB (old +36.3); band level 42.1 -> 44.7
+  qn  129.00 pitch 39 new +16.6 dB (old +15.1); band level 34.6 -> 38.5
+  qn   69.00 pitch 41 new +10.8 dB (old  +9.4); band level 35.7 -> 39.5
+  qn  124.00 pitch 41 new +10.8 dB (old +10.1); band level 38.2 -> 42.0
+  qn  219.00 pitch 40 new +10.2 dB (old +10.1); band level 33.1 -> 37.1
+  qn  146.00 pitch 30 new +10.2 dB (old  +9.6); band level 34.9 -> 38.3
+  qn   84.00 pitch 39 new  +9.5 dB (old  +7.9); band level 36.6 -> 40.6
+  qn  131.00 pitch 37 new  +9.5 dB (old  +9.0); band level 35.0 -> 38.4
+  qn   66.00 pitch 44 new  +9.5 dB (old +10.8); band level 42.5 -> 45.1
+  qn   62.00 pitch 40 new  +8.4 dB (old  +8.3); band level 34.0 -> 38.0
+  qn  216.00 pitch 33 new  +7.7 dB (old  +8.5); band level 42.6 -> 44.8
+notes over 4 dB (new): 25 of 110 ; old: 24
+master 56-112 Hz change: qn 254-262 +3.84 dB; qn 238-254 +2.50; qn 262-268 +3.27; relative +0.96 dB
+master 56-112 Hz level per bar 71-81 (new): 71:-5.0 72:-12.0 73:-6.5 74:-16.7 75:-3.7 76:-1.6 77:+3.5 78:+4.9 79:+9.3 80:+4.9 81:-3.2
+master 56-112 Hz level per bar 71-81 (old): 71:-4.8 72:-12.5 73:-6.7 74:-16.2 75:-3.6 76:-2.1 77:+2.1 78:+3.6 79:+8.5 80:+4.3 81:-2.6
+written /private/tmp/claude-501/mockup-loop/mvt2-c54-actor/mix

@@ -1,0 +1,296 @@
+master per bar c58 - c56 / c58 - c53, bars with |d|>=2:
+bar   1 c58  -49.9  vs c56 -1.9  vs c57 -0.7  vs c53 -2.5
+bar   7 c58  -37.6  vs c56 -4.6  vs c57 -7.8  vs c53 -1.9
+bar  21 c58  -29.3  vs c56 +2.6  vs c57 -3.2  vs c53 +1.7
+bar  26 c58  -17.3  vs c56 +2.3  vs c57 +2.0  vs c53 +2.3
+bar  27 c58  -21.2  vs c56 +3.0  vs c57 +2.8  vs c53 +3.3
+bar  40 c58  -24.7  vs c56 +2.8  vs c57 +1.1  vs c53 +1.8
+bar  47 c58  -36.7  vs c56 -3.7  vs c57 -4.0  vs c53 -3.5
+bar  50 c58  -37.8  vs c56 -2.5  vs c57 -2.7  vs c53 -2.4
+bar  74 c58  -32.2  vs c56 +4.5  vs c57 +4.4  vs c53 +4.5
+bar  78 c58  -37.9  vs c56 -2.3  vs c57 -1.5  vs c53 -2.4
+bar  81 c58  -29.3  vs c56 +3.2  vs c57 +2.2  vs c53 +3.7
+bar  84 c58  -41.2  vs c56 +0.9  vs c57 -0.2  vs c53 +3.3
+bar  85 c58  -35.2  vs c56 +2.7  vs c57 -1.6  vs c53 +2.0
+bar 116 c58  -19.5  vs c56 +2.0  vs c57 +1.8  vs c53 +2.0
+bar 117 c58  -18.4  vs c56 +2.2  vs c57 +2.3  vs c53 +1.8
+bar 162 c58  -21.5  vs c56 +2.6  vs c57 +2.3  vs c53 +2.2
+bar 171 c58  -31.0  vs c56 +4.1  vs c57 +3.7  vs c53 +4.0
+bar 172 c58  -29.4  vs c56 +4.6  vs c57 +4.7  vs c53 +4.9
+bar 174 c58  -39.2  vs c56 -2.5  vs c57 -2.8  vs c53 -2.5
+bar 176 c58  -42.0  vs c56 +2.2  vs c57 +2.1  vs c53 +2.2
+bar 179 c58  -39.9  vs c56 +5.6  vs c57 +4.2  vs c53 +5.9
+bar 180 c58  -42.3  vs c56 +2.7  vs c57 +2.9  vs c53 +2.9
+bar 181 c58  -43.2  vs c56 +3.8  vs c57 +0.7  vs c53 +3.0
+bar 182 c58  -48.3  vs c56 +4.0  vs c57 -1.2  vs c53 +3.8
+
+stem changes c56->c58 of 3 dB+ where the stem is within 14 dB of the master bar level in either render (prominent):
+bar   1 Double basses    c56  -59.0 c57  -58.0 c58  -55.9  d  +3.2  rel master  -5.9
+bar   1 Violoncellos     c56  -51.7 c57  -55.6 c58  -55.6  d  -3.9  rel master  -3.6
+bar   6 Double basses    c56  -49.9 c57  -52.9 c58  -54.7  d  -4.9  rel master -13.0
+bar   7 Cor anglais      c56  -32.6 c57  -29.4 c58  -37.8  d  -5.2  rel master  +0.3
+bar   7 Double basses    c56  -45.8 c57  -49.3 c58  -52.0  d  -6.2  rel master -12.9
+bar   9 Violas           c56  -52.6 c57  -50.4 c58  -47.8  d  +4.8  rel master  -6.8
+bar  10 Bassoon 1        c56  -51.2 c57  -51.0 c58  -47.5  d  +3.8  rel master -11.4
+bar  10 Double basses    c56  -42.1 c57  -47.2 c58  -48.3  d  -6.2  rel master  -5.9
+bar  10 Violas           c56  -48.4 c57  -45.4 c58  -43.7  d  +4.7  rel master  -7.6
+bar  11 Double basses    c56  -35.7 c57  -35.2 c58  -39.7  d  -4.0  rel master  -5.7
+bar  11 Horn 1           c56  -45.9 c57  -41.6 c58  -41.6  d  +4.3  rel master -12.3
+bar  11 Horn 4           c56  -51.6 c57  -50.2 c58  -41.9  d  +9.7  rel master -12.6
+bar  11 Violoncellos     c56  -39.9 c57  -36.6 c58  -36.6  d  +3.3  rel master  -7.4
+bar  12 Double basses    c56  -40.9 c57  -40.7 c58  -36.6  d  +4.4  rel master -10.1
+bar  12 Flute 1          c56  -42.6 c57  -42.6 c58  -38.0  d  +4.7  rel master -11.5
+bar  14 Bassoon 2        c56  -54.2 c57  -54.1 c58  -59.8  d  -5.6  rel master  -9.8
+bar  14 Violas           c56  -63.0 c57  -60.8 c58  -55.8  d  +7.2  rel master -11.4
+bar  15 Double basses    c56  -50.3 c57  -48.3 c58  -44.7  d  +5.6  rel master -10.6
+bar  19 Bassoon 1        c56  -43.8 c57  -47.4 c58  -47.2  d  -3.4  rel master -11.5
+bar  19 Horn 3           c56  -44.5 c57  -49.2 c58  -50.4  d  -5.9  rel master -12.2
+bar  19 Horn 4           c56  -45.0 c57  -48.4 c58  -40.1  d  +4.9  rel master  -8.1
+bar  20 Horn 4           c56  -46.1 c57  -48.6 c58  -40.1  d  +6.0  rel master -12.8
+bar  21 Violas           c56  -40.8 c57  -37.4 c58  -36.8  d  +4.0  rel master  -7.5
+bar  21 Violins II       c56  -41.3 c57  -27.8 c58  -37.5  d  +3.8  rel master  -8.2
+bar  22 Violins I        c56  -41.2 c57  -47.7 c58  -45.8  d  -4.6  rel master  -5.7
+bar  22 Violins II       c56  -51.7 c57  -51.3 c58  -48.4  d  +3.3  rel master -11.7
+bar  22 Violoncellos     c56  -41.7 c57  -42.1 c58  -45.9  d  -4.3  rel master  -6.1
+bar  23 Horn 3           c56  -44.8 c57  -45.5 c58  -48.0  d  -3.2  rel master -12.7
+bar  23 Violins II       c56  -48.7 c57  -48.1 c58  -44.4  d  +4.3  rel master -12.7
+bar  25 Violoncellos     c56  -32.9 c57  -32.1 c58  -29.1  d  +3.9  rel master  -7.0
+bar  26 Horn 2           c56  -35.1 c57  -32.8 c58  -31.0  d  +4.1  rel master -13.6
+bar  26 Violas           c56  -32.4 c57  -31.7 c58  -28.4  d  +4.0  rel master -11.1
+bar  26 Violins I        c56  -30.1 c57  -28.7 c58  -26.4  d  +3.7  rel master  -9.1
+bar  26 Violins II       c56  -32.3 c57  -31.8 c58  -28.2  d  +4.1  rel master -10.8
+bar  26 Violoncellos     c56  -30.7 c57  -30.5 c58  -25.3  d  +5.5  rel master  -7.9
+bar  27 Clarinet 1       c56  -40.9 c57  -41.1 c58  -35.1  d  +5.8  rel master -13.9
+bar  27 Double basses    c56  -34.1 c57  -32.5 c58  -30.5  d  +3.6  rel master  -9.3
+bar  27 Flute 1          c56  -36.5 c57  -36.3 c58  -32.7  d  +3.8  rel master -11.5
+bar  27 Violins I        c56  -33.8 c57  -35.7 c58  -29.5  d  +4.3  rel master  -8.3
+bar  27 Violins II       c56  -36.9 c57  -35.2 c58  -30.7  d  +6.2  rel master  -9.5
+bar  28 Flute 1          c56  -36.5 c57  -35.7 c58  -32.9  d  +3.6  rel master -11.1
+bar  28 Horn 1           c56  -36.4 c57  -32.9 c58  -32.1  d  +4.2  rel master -10.3
+bar  28 Violins II       c56  -35.4 c57  -33.0 c58  -31.3  d  +4.1  rel master  -9.5
+bar  29 Double basses    c56  -38.0 c57  -33.0 c58  -33.1  d  +4.9  rel master -11.1
+bar  29 Horn 2           c56  -36.7 c57  -33.9 c58  -32.5  d  +4.1  rel master -10.6
+bar  29 Violas           c56  -38.4 c57  -37.3 c58  -34.1  d  +4.3  rel master -12.1
+bar  30 Trumpet 1        c56  -39.7 c57  -39.6 c58  -36.1  d  +3.6  rel master -13.7
+bar  30 Tuba             c56  -36.4 c57  -36.7 c58  -40.2  d  -3.8  rel master -13.3
+bar  31 Horn 2           c56  -36.7 c57  -35.0 c58  -33.5  d  +3.2  rel master -12.4
+bar  31 Violoncellos     c56  -32.8 c57  -31.4 c58  -28.1  d  +4.7  rel master  -7.0
+bar  32 Violas           c56  -42.0 c57  -41.1 c58  -37.2  d  +4.8  rel master -13.6
+bar  33 Violas           c56  -40.7 c57  -42.4 c58  -44.0  d  -3.3  rel master -13.5
+bar  35 Double basses    c56  -44.5 c57  -48.1 c58  -47.8  d  -3.3  rel master -11.6
+bar  35 Violoncellos     c56  -40.4 c57  -43.7 c58  -43.8  d  -3.4  rel master  -7.5
+bar  36 Clarinet 1       c56  -51.8 c57  -51.4 c58  -48.5  d  +3.3  rel master -10.1
+bar  36 Clarinet 2       c56  -51.5 c57  -49.8 c58  -46.9  d  +4.6  rel master  -8.4
+bar  36 Violoncellos     c56  -44.6 c57  -46.5 c58  -49.1  d  -4.5  rel master  -6.4
+bar  37 Violins I        c56  -38.7 c57  -43.0 c58  -42.4  d  -3.7  rel master  -3.6
+bar  38 Bassoon 1        c56  -46.3 c57  -46.3 c58  -42.3  d  +4.0  rel master -10.4
+bar  38 Clarinet 1       c56  -47.8 c57  -47.5 c58  -44.6  d  +3.2  rel master -12.7
+bar  38 Double basses    c56  -40.0 c57  -44.0 c58  -44.0  d  -4.1  rel master  -8.2
+bar  38 Horn 3           c56  -43.8 c57  -43.6 c58  -47.1  d  -3.3  rel master -12.1
+bar  39 Violins II       c56  -42.0 c57  -42.0 c58  -37.3  d  +4.6  rel master  -9.3
+bar  40 Violins II       c56  -39.8 c57  -40.1 c58  -34.2  d  +5.5  rel master  -9.5
+bar  40 Violoncellos     c56  -37.0 c57  -32.7 c58  -30.6  d  +6.4  rel master  -5.8
+bar  41 Tuba             c56  -35.9 c57  -37.6 c58  -39.8  d  -3.9  rel master -11.6
+bar  42 Clarinet 1       c56  -50.6 c57  -49.6 c58  -44.1  d  +6.4  rel master -12.6
+bar  42 Flute 2          c56  -47.4 c57  -44.6 c58  -41.8  d  +5.6  rel master -10.3
+bar  42 Violins II       c56  -48.1 c57  -46.1 c58  -44.9  d  +3.3  rel master -13.3
+bar  43 Clarinet 2       c56  -62.5 c57  -54.9 c58  -55.3  d  +7.2  rel master -13.2
+bar  43 Horn 2           c56  -49.5 c57  -53.4 c58  -57.7  d  -8.1  rel master  -6.2
+bar  43 Horn 3           c56  -58.6 c57  -55.0 c58  -53.1  d  +5.5  rel master -11.1
+bar  43 Violins II       c56  -54.2 c57  -52.8 c58  -48.6  d  +5.6  rel master  -6.5
+bar  44 Double basses    c56  -47.6 c57  -48.6 c58  -50.6  d  -3.0  rel master  -3.6
+bar  45 Clarinet 1       c56  -44.8 c57  -45.6 c58  -49.1  d  -4.3  rel master  -1.4
+bar  45 Double basses    c56  -55.8 c57  -50.6 c58  -52.6  d  +3.3  rel master  -8.4
+bar  45 Violoncellos     c56  -57.9 c57  -49.6 c58  -49.6  d  +8.3  rel master  -5.4
+bar  46 Violins II       c56  -53.4 c57  -52.2 c58  -49.4  d  +4.1  rel master  -8.1
+bar  47 Horn 1           c56  -36.4 c57  -35.9 c58  -39.8  d  -3.4  rel master  -3.1
+bar  47 Violoncellos     c56  -36.6 c57  -36.3 c58  -41.0  d  -4.3  rel master  -3.6
+bar  48 Horn 1           c56  -42.3 c57  -38.0 c58  -38.0  d  +4.3  rel master  -3.9
+bar  50 Double basses    c56  -48.0 c57  -44.4 c58  -51.5  d  -3.5  rel master -12.8
+bar  50 Horn 1           c56  -40.7 c57  -40.4 c58  -44.2  d  -3.5  rel master  -5.5
+bar  50 Violoncellos     c56  -38.4 c57  -38.7 c58  -42.0  d  -3.6  rel master  -3.1
+bar  54 Double basses    c56  -49.5 c57  -45.5 c58  -52.5  d  -3.0  rel master  -7.4
+bar  55 Double basses    c56  -57.2 c57  -61.7 c58  -63.7  d  -6.5  rel master -12.7
+bar  56 Double basses    c56  -46.0 c57  -47.9 c58  -50.0  d  -4.0  rel master -11.1
+bar  57 Double basses    c56  -47.4 c57  -49.0 c58  -51.0  d  -3.6  rel master -11.0
+bar  57 Horn 4           c56  -50.4 c57  -50.2 c58  -43.0  d  +7.5  rel master  -7.6
+bar  59 Horn 2           c56  -44.5 c57  -45.0 c58  -47.6  d  -3.0  rel master  -8.6
+bar  61 Bassoon 2        c56  -40.2 c57  -39.9 c58  -36.0  d  +4.2  rel master  -9.0
+bar  61 Horn 4           c56  -47.8 c57  -47.3 c58  -36.8  d +11.0  rel master  -9.7
+bar  62 Bassoon 2        c56  -54.0 c57  -54.1 c58  -51.0  d  +3.0  rel master -12.3
+bar  62 Double basses    c56  -55.1 c57  -49.6 c58  -48.1  d  +6.9  rel master  -9.5
+bar  64 Double basses    c56  -42.1 c57  -45.5 c58  -45.2  d  -3.1  rel master -12.8
+bar  64 Flute 1          c56  -41.6 c57  -41.3 c58  -36.5  d  +5.1  rel master  -8.3
+bar  64 Horn 3           c56  -39.1 c57  -39.3 c58  -45.9  d  -6.8  rel master  -9.8
+bar  65 Clarinet 1       c56  -46.6 c57  -46.5 c58  -43.6  d  +3.0  rel master -12.5
+bar  65 Horn 3           c56  -48.3 c57  -44.8 c58  -43.5  d  +4.9  rel master -12.5
+bar  67 Horn 4           c56  -52.0 c57  -51.9 c58  -48.8  d  +3.1  rel master -11.8
+bar  68 Double basses    c56  -42.2 c57  -46.9 c58  -47.0  d  -4.8  rel master  -7.7
+bar  68 Horn 2           c56  -41.6 c57  -41.5 c58  -44.6  d  -3.0  rel master  -7.1
+bar  69 Clarinet 1       c56  -38.1 c57  -37.7 c58  -34.7  d  +3.3  rel master  -9.5
+bar  71 Bassoon 1        c56  -44.2 c57  -43.1 c58  -40.5  d  +3.6  rel master -12.7
+bar  72 Violins I        c56  -41.1 c57  -39.3 c58  -37.8  d  +3.3  rel master -13.7
+bar  73 Double basses    c56  -48.6 c57  -51.2 c58  -53.1  d  -4.5  rel master  -8.3
+bar  73 Trombone 2       c56  -52.4 c57  -49.4 c58  -47.8  d  +4.5  rel master  -8.3
+bar  73 Tuba             c56  -59.0 c57  -59.0 c58  -53.4  d  +5.6  rel master -13.9
+bar  73 Violins I        c56  -58.2 c57  -54.8 c58  -53.1  d  +5.1  rel master -13.6
+bar  74 Flute 1          c56  -37.1 c57  -37.1 c58  -32.2  d  +4.9  rel master  -0.0
+bar  75 Violoncellos     c56  -55.0 c57  -48.6 c58  -46.0  d  +9.0  rel master  -8.5
+bar  76 Violoncellos     c56  -55.6 c57  -52.2 c58  -47.6  d  +8.0  rel master  -4.2
+bar  77 Clarinet 1       c56  -52.6 c57  -50.9 c58  -49.2  d  +3.4  rel master -11.0
+bar  78 Bass clarinet    c56  -38.5 c57  -40.1 c58  -44.6  d  -6.1  rel master  -2.9
+bar  79 Oboe 1           c56  -43.7 c57  -41.7 c58  -47.8  d  -4.1  rel master  -7.3
+bar  80 Clarinet 1       c56  -51.8 c57  -51.0 c58  -46.0  d  +5.8  rel master -12.0
+bar  80 Horn 3           c56  -47.8 c57  -47.9 c58  -44.2  d  +3.6  rel master -10.2
+bar  80 Violins I        c56  -45.7 c57  -44.4 c58  -42.2  d  +3.5  rel master  -8.3
+bar  81 Double basses    c56  -38.8 c57  -36.6 c58  -35.3  d  +3.5  rel master  -5.9
+bar  81 Trombone 1       c56  -42.5 c57  -41.1 c58  -37.0  d  +5.5  rel master  -7.7
+bar  81 Violins I        c56  -44.8 c57  -43.0 c58  -40.9  d  +3.9  rel master -11.6
+bar  81 Violins II       c56  -41.0 c57  -40.1 c58  -35.3  d  +5.7  rel master  -6.0
+bar  82 Trumpet 1        c56  -33.2 c57  -32.7 c58  -30.1  d  +3.1  rel master  -7.7
+bar  82 Violoncellos     c56  -31.8 c57  -29.8 c58  -35.5  d  -3.7  rel master  -8.0
+bar  83 Violas           c56  -39.4 c57  -39.1 c58  -32.6  d  +6.8  rel master -11.5
+bar  83 Violins I        c56  -35.4 c57  -34.1 c58  -26.8  d  +8.5  rel master  -5.7
+bar  88 Violoncellos     c56  -49.0 c57  -44.3 c58  -52.2  d  -3.2  rel master -11.8
+bar  89 Violoncellos     c56  -49.5 c57  -45.7 c58  -46.4  d  +3.2  rel master  -9.7
+bar  90 Double basses    c56  -46.1 c57  -45.3 c58  -41.7  d  +4.4  rel master  -5.2
+bar  91 Cor anglais stac c56  -42.2 c57  -38.2 c58  -36.9  d  +5.3  rel master  -4.1
+bar  91 Double basses    c56  -39.7 c57  -44.3 c58  -44.3  d  -4.7  rel master  -6.1
+bar  92 Bassoon 1        c56  -45.1 c57  -45.0 c58  -41.6  d  +3.5  rel master  -9.9
+bar  94 Bass clarinet    c56  -43.2 c57  -43.0 c58  -39.2  d  +4.0  rel master  -8.5
+bar  94 Violas           c56  -45.7 c57  -39.0 c58  -39.5  d  +6.2  rel master  -8.8
+bar  94 Violins I        c56  -40.9 c57  -39.5 c58  -36.9  d  +4.0  rel master  -6.1
+bar  96 Bass clarinet    c56  -41.1 c57  -40.8 c58  -37.9  d  +3.1  rel master -11.7
+bar  98 Flute 1          c56  -39.0 c57  -38.4 c58  -33.9  d  +5.1  rel master -11.1
+bar  98 Violins II       c56  -33.4 c57  -31.0 c58  -29.8  d  +3.6  rel master  -7.0
+bar  99 Horns a2         c56  -38.7 c57  -38.0 c58  -35.5  d  +3.2  rel master -12.8
+bar  99 Trombone 1       c56  -36.5 c57  -35.8 c58  -33.4  d  +3.1  rel master -10.6
+bar 100 Double basses    c56  -35.8 c57  -37.7 c58  -38.8  d  -3.0  rel master  -9.6
+bar 102 Trombone 1       c56  -37.8 c57  -34.7 c58  -34.7  d  +3.1  rel master -10.2
+bar 103 Oboe 2           c56  -41.2 c57  -40.5 c58  -45.7  d  -4.5  rel master -10.3
+bar 104 Horn 1           c56  -36.2 c57  -36.0 c58  -40.5  d  -4.3  rel master  -5.7
+bar 104 Oboe 2           c56  -43.0 c57  -42.8 c58  -46.4  d  -3.4  rel master -12.5
+bar 105 Horn 4           c56  -52.1 c57  -51.8 c58  -43.8  d  +8.3  rel master  -9.5
+bar 111 Double basses    c56  -39.0 c57  -43.4 c58  -43.4  d  -4.4  rel master  -6.6
+bar 111 Horn 4           c56  -49.2 c57  -48.8 c58  -40.1  d  +9.2  rel master  -7.4
+bar 115 Horn 2           c56  -38.4 c57  -35.6 c58  -35.2  d  +3.2  rel master -13.5
+bar 115 Trumpet 1        c56  -35.2 c57  -35.3 c58  -32.1  d  +3.2  rel master -10.3
+bar 115 Violoncellos     c56  -36.0 c57  -36.7 c58  -28.4  d  +7.6  rel master  -6.6
+bar 116 Bassoon 1        c56  -36.3 c57  -36.0 c58  -31.8  d  +4.5  rel master -12.3
+bar 116 Flute 1          c56  -38.8 c57  -38.8 c58  -30.4  d  +8.3  rel master -10.9
+bar 116 Trumpet 3        c56  -36.2 c57  -36.2 c58  -31.9  d  +4.4  rel master -12.4
+bar 116 Violoncellos     c56  -34.3 c57  -34.6 c58  -27.5  d  +6.8  rel master  -8.0
+bar 117 Double basses    c56  -34.3 c57  -31.7 c58  -30.0  d  +4.4  rel master -11.6
+bar 117 Flute 1          c56  -34.1 c57  -34.5 c58  -28.5  d  +5.6  rel master -10.2
+bar 117 Horns a2         c56  -35.4 c57  -36.1 c58  -27.9  d  +7.5  rel master  -9.5
+bar 117 Oboe 1           c56  -33.3 c57  -34.0 c58  -39.1  d  -5.8  rel master -12.7
+bar 117 Oboe 2           c56  -33.2 c57  -33.3 c58  -29.7  d  +3.5  rel master -11.3
+bar 117 Tuba             c56  -32.3 c57  -32.1 c58  -28.3  d  +4.1  rel master  -9.9
+bar 118 Bass clarinet    c56  -36.0 c57  -36.7 c58  -32.5  d  +3.5  rel master -13.4
+bar 118 Horns a2         c56  -32.9 c57  -32.6 c58  -28.4  d  +4.4  rel master  -9.3
+bar 118 Tuba             c56  -31.7 c57  -31.9 c58  -27.8  d  +3.9  rel master  -8.7
+bar 119 Flute 1          c56  -35.4 c57  -35.5 c58  -31.7  d  +3.7  rel master -12.3
+bar 120 Tuba             c56  -33.1 c57  -32.6 c58  -29.4  d  +3.7  rel master  -8.7
+bar 121 Flute 2          c56  -32.2 c57  -33.3 c58  -36.7  d  -4.6  rel master -12.5
+bar 122 Trumpet 1        c56  -29.7 c57  -29.8 c58  -34.8  d  -5.1  rel master -13.5
+bar 122 Tuba             c56  -28.4 c57  -30.1 c58  -31.9  d  -3.5  rel master -12.2
+bar 123 Horn 2           c56  -36.2 c57  -33.4 c58  -33.0  d  +3.1  rel master -12.4
+bar 124 Bass trombone    c56  -47.3 c57  -44.7 c58  -41.2  d  +6.1  rel master -13.3
+bar 124 Double basses    c56  -39.5 c57  -35.2 c58  -35.5  d  +4.1  rel master  -7.6
+bar 125 Double basses    c56  -50.9 c57  -49.9 c58  -45.5  d  +5.4  rel master  -9.7
+bar 125 Horn 1           c56  -40.8 c57  -42.3 c58  -44.3  d  -3.5  rel master  -5.2
+bar 125 Tuba             c56  -52.2 c57  -52.1 c58  -48.1  d  +4.1  rel master -12.4
+bar 126 Horn 1           c56  -46.9 c57  -48.5 c58  -50.3  d  -3.4  rel master  -8.2
+bar 126 Tuba             c56  -55.3 c57  -55.3 c58  -47.3  d  +8.0  rel master -10.3
+bar 127 Double basses    c56  -51.0 c57  -50.9 c58  -45.5  d  +5.5  rel master  -7.2
+bar 128 Double basses    c56  -50.5 c57  -50.2 c58  -42.7  d  +7.8  rel master  -9.1
+bar 129 Double basses    c56  -44.2 c57  -43.6 c58  -38.3  d  +5.9  rel master  -8.7
+bar 130 Double basses    c56  -41.5 c57  -38.8 c58  -35.4  d  +6.1  rel master -10.3
+bar 131 Bassoon 1        c56  -34.1 c57  -32.4 c58  -30.3  d  +3.8  rel master  -8.9
+bar 133 Violoncellos     c56  -32.3 c57  -28.3 c58  -28.5  d  +3.9  rel master  -6.3
+bar 134 Flute 2          c56  -41.3 c57  -40.8 c58  -35.5  d  +5.8  rel master -13.1
+bar 134 Timpani          c56  -32.5 c57  -31.7 c58  -27.6  d  +4.9  rel master  -5.3
+bar 135 Flute 2          c56  -50.4 c57  -50.1 c58  -44.5  d  +5.9  rel master -12.1
+bar 135 Horn 3           c56  -44.5 c57  -45.4 c58  -48.0  d  -3.5  rel master -12.0
+bar 135 Timpani          c56  -46.4 c57  -47.1 c58  -43.4  d  +3.0  rel master -11.0
+bar 135 Violas           c56  -50.6 c57  -50.4 c58  -45.8  d  +4.8  rel master -13.4
+bar 135 Violins II       c56  -52.0 c57  -52.1 c58  -44.8  d  +7.2  rel master -12.4
+bar 136 Violins II       c56  -46.0 c57  -46.1 c58  -42.8  d  +3.2  rel master -13.2
+bar 138 Horn 2           c56  -38.4 c57  -35.9 c58  -35.4  d  +3.0  rel master -12.6
+bar 138 Oboe 1           c56  -37.2 c57  -38.2 c58  -43.1  d  -5.9  rel master -13.5
+bar 138 Tuba             c56  -36.9 c57  -37.6 c58  -39.9  d  -3.0  rel master -13.2
+bar 138 Violoncellos     c56  -34.7 c57  -34.4 c58  -29.8  d  +4.9  rel master  -7.1
+bar 139 Oboe 1           c56  -38.1 c57  -35.9 c58  -34.3  d  +3.8  rel master -11.5
+bar 139 Violins I        c56  -34.0 c57  -34.9 c58  -29.3  d  +4.7  rel master  -6.5
+bar 139 Violins II       c56  -37.8 c57  -33.6 c58  -31.2  d  +6.5  rel master  -8.5
+bar 140 Clarinet 1       c56  -36.9 c57  -36.9 c58  -32.1  d  +4.8  rel master -13.4
+bar 140 Flute 1          c56  -34.9 c57  -35.1 c58  -31.8  d  +3.1  rel master -13.0
+bar 140 Flute 2          c56  -34.5 c57  -34.4 c58  -37.7  d  -3.2  rel master -13.9
+bar 140 Violins II       c56  -33.5 c57  -31.4 c58  -30.1  d  +3.4  rel master -11.4
+bar 140 Violoncellos     c56  -31.3 c57  -24.6 c58  -25.8  d  +5.5  rel master  -7.0
+bar 141 Clarinet 2       c56  -37.7 c57  -37.2 c58  -33.5  d  +4.2  rel master -12.2
+bar 141 Timpani          c56  -35.3 c57  -33.2 c58  -32.0  d  +3.3  rel master -10.7
+bar 141 Tuba             c56  -35.4 c57  -35.4 c58  -38.8  d  -3.4  rel master -13.1
+bar 142 Flute 2          c56  -40.7 c57  -40.5 c58  -34.6  d  +6.0  rel master -13.8
+bar 144 Violins I        c56  -37.8 c57  -41.3 c58  -41.5  d  -3.7  rel master  -2.0
+bar 145 Clarinet 1       c56  -51.2 c57  -51.2 c58  -46.2  d  +5.0  rel master  -4.8
+bar 145 Violins I        c56  -45.0 c57  -54.2 c58  -54.2  d  -9.2  rel master  -4.8
+bar 146 Clarinet 1       c56  -54.2 c57  -54.2 c58  -49.2  d  +5.0  rel master -10.0
+bar 146 Oboe 1           c56  -47.9 c57  -43.9 c58  -44.8  d  +3.2  rel master  -5.6
+bar 147 Horn 1           c56  -37.8 c57  -36.4 c58  -40.8  d  -3.0  rel master  -5.9
+bar 150 Violoncellos     c56  -37.6 c57  -36.0 c58  -41.4  d  -3.7  rel master  -4.4
+bar 152 Bassoon 2        c56  -46.9 c57  -47.4 c58  -50.0  d  -3.1  rel master -12.4
+bar 152 Double basses    c56  -48.4 c57  -52.7 c58  -54.9  d  -6.5  rel master -13.9
+bar 153 Double basses    c56  -48.0 c57  -52.5 c58  -54.5  d  -6.5  rel master -13.4
+bar 154 Double basses    c56  -54.4 c57  -58.4 c58  -57.4  d  -3.0  rel master -13.3
+bar 155 Violins II       c56  -57.0 c57  -56.8 c58  -53.5  d  +3.5  rel master -13.3
+bar 156 Harp             c56  -41.8 c57  -41.1 c58  -37.4  d  +4.4  rel master  -6.2
+bar 156 Horn 4           c56  -50.0 c57  -49.6 c58  -41.5  d  +8.4  rel master -10.3
+bar 157 Horn 1           c56  -40.1 c57  -37.2 c58  -36.8  d  +3.4  rel master -10.9
+bar 157 Horn 3           c56  -42.8 c57  -42.6 c58  -38.1  d  +4.7  rel master -12.3
+bar 158 Horn 3           c56  -37.1 c57  -37.2 c58  -33.0  d  +4.1  rel master -12.9
+bar 159 Horn 3           c56  -34.7 c57  -35.0 c58  -28.0  d  +6.6  rel master  -9.7
+bar 160 Tuba             c56  -33.0 c57  -33.7 c58  -27.9  d  +5.1  rel master -12.3
+bar 161 Timpani          c56  -31.5 c57  -30.6 c58  -28.1  d  +3.4  rel master -12.0
+bar 162 Bassoon 1        c56  -37.7 c57  -37.7 c58  -34.7  d  +3.1  rel master -13.2
+bar 162 Horn 1           c56  -39.6 c57  -38.3 c58  -35.2  d  +4.4  rel master -13.7
+bar 162 Tuba             c56  -36.2 c57  -35.9 c58  -31.9  d  +4.3  rel master -10.4
+bar 162 Violins I        c56  -32.3 c57  -32.1 c58  -28.9  d  +3.4  rel master  -7.4
+bar 162 Violins II       c56  -34.7 c57  -34.3 c58  -31.1  d  +3.6  rel master  -9.6
+bar 163 Horn 4           c56  -46.0 c57  -45.9 c58  -42.3  d  +3.7  rel master -12.9
+bar 164 Horn 1           c56  -49.9 c57  -46.8 c58  -45.8  d  +4.0  rel master -11.6
+bar 164 Horn 4           c56  -54.3 c57  -53.9 c58  -46.1  d  +8.2  rel master -11.8
+bar 165 Bassoon 1        c56  -45.9 c57  -45.4 c58  -49.0  d  -3.1  rel master  -8.2
+bar 165 Horn 1           c56  -48.6 c57  -45.3 c58  -45.3  d  +3.4  rel master  -8.3
+bar 166 Double basses    c56  -39.0 c57  -38.2 c58  -42.2  d  -3.1  rel master  -7.6
+bar 168 Violas           c56  -36.4 c57  -35.8 c58  -32.6  d  +3.8  rel master  -9.0
+bar 169 Trombone 1       c56  -37.5 c57  -37.6 c58  -34.2  d  +3.3  rel master -13.1
+bar 169 Trombone 2       c56  -36.2 c57  -36.3 c58  -33.0  d  +3.2  rel master -11.8
+bar 170 Trumpets a2      c56  -33.9 c57  -39.2 c58  -39.5  d  -5.7  rel master -11.6
+bar 170 Violas           c56  -36.4 c57  -34.2 c58  -33.0  d  +3.4  rel master -11.9
+bar 171 Cello solo       c56  -35.5 c57  -35.1 c58  -31.3  d  +4.2  rel master  -0.2
+bar 172 Bassoon 2        c56  -45.1 c57  -45.0 c58  -48.5  d  -3.4  rel master -11.1
+bar 172 Cello solo       c56  -35.2 c57  -35.3 c58  -29.5  d  +5.7  rel master  -0.2
+bar 172 Cor anglais      c56  -41.9 c57  -41.7 c58  -45.1  d  -3.2  rel master  -7.9
+bar 174 Cello solo       c56  -37.7 c57  -37.3 c58  -41.3  d  -3.6  rel master  -1.0
+bar 175 Violins II       c56  -61.3 c57  -60.7 c58  -57.8  d  +3.5  rel master -13.1
+bar 175 Violoncellos     c56  -62.0 c57  -61.4 c58  -55.3  d  +6.6  rel master -10.6
+bar 176 Trombone 1       c56  -56.0 c57  -54.2 c58  -51.8  d  +4.2  rel master  -9.8
+bar 177 Violins I        c56  -56.8 c57  -54.6 c58  -52.1  d  +4.7  rel master  -9.0
+bar 178 Trombone 1       c56  -57.3 c57  -56.1 c58  -54.3  d  +3.0  rel master -10.4
+bar 178 Trombone 2       c56  -57.8 c57  -56.8 c58  -53.9  d  +3.9  rel master -10.1
+bar 179 Violas           c56  -57.6 c57  -56.9 c58  -54.2  d  +3.4  rel master -12.1
+bar 179 Violins I        c56  -49.5 c57  -47.5 c58  -41.7  d  +7.8  rel master  -1.8
+bar 180 Timpani          c56  -58.3 c57  -58.3 c58  -55.0  d  +3.3  rel master -12.7
+bar 180 Trombone 1       c56  -54.0 c57  -54.1 c58  -50.6  d  +3.4  rel master  -8.3
+bar 180 Violas           c56  -55.5 c57  -55.3 c58  -52.1  d  +3.4  rel master  -9.8
+bar 180 Violins II       c56  -59.3 c57  -57.9 c58  -55.5  d  +3.8  rel master -13.1
+bar 180 Violoncellos     c56  -58.6 c57  -55.6 c58  -53.6  d  +5.0  rel master -11.2
+bar 181 Violins I        c56  -53.0 c57  -52.5 c58  -48.1  d  +4.9  rel master  -4.9
+bar 181 Violins II       c56  -58.0 c57  -56.1 c58  -54.8  d  +3.1  rel master -11.0
+bar 181 Violoncellos     c56  -57.9 c57  -56.3 c58  -52.0  d  +5.9  rel master  -8.8
+bar 182 Harp             c56  -65.7 c57  -65.0 c58  -62.3  d  +3.4  rel master -13.5
+bar 182 Horn 4           c56  -65.3 c57  -64.3 c58  -61.9  d  +3.4  rel master -13.0
+bar 182 Timpani          c56  -66.6 c57  -64.1 c58  -60.6  d  +5.9  rel master -12.4
+bar 182 Violas           c56  -60.1 c57  -56.4 c58  -56.5  d  +3.7  rel master  -7.9
+bar 182 Violins I        c56  -60.5 c57  -50.7 c58  -53.4  d  +7.1  rel master  -5.1

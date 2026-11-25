@@ -1,0 +1,368 @@
+Flute 1            128-132   row  +2.2 fit  +2.2 dom att      att:+2.1  lev7 -39.2
+Flute 1            160-164   row  -4.4 fit  -4.3 dom ntrim    ntrim:-4.6  lev7 -37.5
+Flute 1            328-332   row  +2.5 fit  +2.3 dom att      att:+1.5 ntrim:+0.8  lev7 -41.9
+Flute 1            436-440   row  +2.1 fit  +2.1 dom ntrim    ntrim:+1.9  lev7 -38.5
+Flute 1            568-572   row  +2.2 fit  +2.2 dom att      att:+2.2  lev7 -38.8
+Flute 2            128-132   row  +2.1 fit  +2.1 dom att      att:+2.1  lev7 -48.9
+Flute 2            168-172   row  +4.6 fit  +4.6 dom ntrim    ntrim:+4.6  lev7 -53.6
+Flute 2            276-280   row  +3.9 fit  +3.3 dom att      att:+3.2 shape:+1.9 other:-1.8  lev7 -39.5
+Flute 2            324-328   row  -3.6 fit  -3.6 dom ntrim    ntrim:-3.6  lev7 -39.2
+Flute 2            456-460   row  -2.7 fit  -2.1 dom ntrim    ntrim:-2.1  lev7 -41.9
+Flute 2            640-644   row  +2.9 fit  +2.6 dom att      att:+2.5  lev7 -31.6
+Oboe 1              88-92    row  +2.1 fit  +1.5 dom shape    shape:+1.2  lev7 -42.1
+Oboe 1             100-104   row  -5.2 fit  -5.2 dom ntrim    ntrim:-5.7  lev7 -36.4
+Oboe 1             128-132   row  +2.2 fit  +2.1 dom att      att:+2.1  lev7 -48.7
+Oboe 1             164-168   row  -3.6 fit  -3.6 dom hold     hold:-2.5 shape:-0.9  lev7 -52.6
+Oboe 1             168-172   row  +5.4 fit  +5.4 dom ntrim    ntrim:+5.4  lev7 -56.5
+Oboe 1             272-276   row  +2.7 fit  +2.7 dom hold     hold:+2.7  lev7 -42.0
+Oboe 1             284-288   row  +2.8 fit  +2.5 dom att      att:+1.3 hold:+1.2  lev7 -44.3
+Oboe 1             312-316   row  +6.6 fit  +6.0 dom phrase   phrase:+5.4 shape:+0.8  lev7 -41.3
+Oboe 1             480-484   row  +3.1 fit  +3.2 dom hold     hold:+3.1  lev7 -33.0
+Oboe 1             496-500   row  +6.4 fit  +6.3 dom shape    shape:+6.2  lev7 -44.1
+Oboe 1             500-504   row  +5.0 fit  +4.9 dom shape    shape:+4.9  lev7 -52.4
+Oboe 1             536-540   row  +3.0 fit  +2.1 dom shape    shape:+1.6  lev7 -45.6
+Oboe 1             564-568   row  +4.0 fit  +3.8 dom hold     hold:+3.1  lev7 -35.9
+Oboe 1             576-580   row  +7.5 fit  +5.9 dom ntrim    ntrim:+4.0 shape:+1.4  lev7 -41.0
+Oboe 2             100-104   row  +2.6 fit  +2.5 dom att      att:+2.5  lev7 -39.8
+Oboe 2             124-128   row  +2.0 fit  +1.9 dom att      att:+1.9  lev7 -40.2
+Oboe 2             164-168   row  -3.8 fit  -3.8 dom hold     hold:-3.0 shape:-0.8  lev7 -54.7
+Oboe 2             284-288   row  +2.7 fit  +2.2 dom att      att:+2.2  lev7 -49.2
+Oboe 2             484-488   row  +2.5 fit  +2.5 dom shape    att:+0.9 shape:+1.2  lev7 -35.9
+Oboe 2             548-552   row  +2.1 fit  +2.1 dom att      att:+2.1  lev7 -45.5
+Oboe 2             568-572   row  +2.1 fit  +2.1 dom att      att:+2.1  lev7 -47.1
+Cor anglais         24-28    row  +6.7 fit  +5.8 dom shape    att:+2.7 shape:+6.7 other:-3.6  lev7 -29.4
+Cor anglais        684-688   row  +3.5 fit  +3.4 dom shape    shape:+3.5  lev7 -41.7
+Clarinet 1          92-96    row  +2.9 fit  +2.9 dom hold     hold:+2.1  lev7 -36.2
+Clarinet 1         128-132   row  +2.2 fit  +2.2 dom att      att:+2.2  lev7 -43.8
+Clarinet 1         212-216   row  +2.5 fit  +2.4 dom shape    att:+1.1 shape:+1.7  lev7 -49.8
+Clarinet 1         272-280   row  +2.6 fit  +2.6 dom hold     hold:+3.1 shape:-1.4  lev7 -38.6
+Clarinet 1         280-288   row  +4.6 fit  +4.3 dom hold     att:+1.0 hold:+3.2  lev7 -38.7
+Clarinet 1         288-292   row  +2.6 fit  +3.7 dom other    hold:+1.5 other:+2.2  lev7 -47.3
+Clarinet 1         324-328   row  +3.9 fit  +4.6 dom hold     hold:+3.6  lev7 -36.1
+Clarinet 1         328-332   row  +2.6 fit  +2.1 dom att      att:+1.7  lev7 -34.5
+Clarinet 1         408-412   row  +4.5 fit  +4.6 dom hold     att:+1.4 hold:+3.4  lev7 -39.2
+Clarinet 1         412-416   row  +2.9 fit  +3.0 dom hold     hold:+3.2  lev7 -39.6
+Clarinet 1         416-420   row  +6.0 fit  +5.2 dom hold     att:+1.3 hold:+3.2 ntrim:-0.8 phrase:+1.8  lev7 -37.0
+Clarinet 1         420-428   row  +3.1 fit  +3.3 dom hold     hold:+3.6  lev7 -39.2
+Clarinet 1         504-508   row  +3.2 fit  +3.2 dom phrase   att:+1.0 phrase:+1.8 shape:+1.1  lev7 -39.0
+Clarinet 1         520-536   row  +3.2 fit  +3.4 dom hold     hold:+3.2 shape:+2.4 other:-2.5  lev7 -33.0
+Clarinet 1         540-544   row  +2.5 fit  +2.5 dom hold     hold:+2.0  lev7 -40.5
+Clarinet 1         568-572   row  +2.2 fit  +2.2 dom att      att:+2.2  lev7 -42.9
+Clarinet 1         628-636   row  +2.9 fit  +2.9 dom hold     hold:+3.1 shape:-1.5 other:+1.6  lev7 -31.4
+Clarinet 1         636-640   row  +4.4 fit  +4.4 dom hold     hold:+3.1 shape:+0.9  lev7 -30.8
+Clarinet 1         640-644   row  +3.0 fit  +3.1 dom hold     hold:+3.1  lev7 -29.0
+Clarinet 1         696-700   row  +2.1 fit  +2.1 dom other    ntrim:+0.8 shape:-1.5 other:+2.5  lev7 -51.4
+Clarinet 2         124-132   row  +2.2 fit  +2.0 dom att      att:+2.0  lev7 -36.7
+Clarinet 2         568-572   row  +2.2 fit  +2.2 dom att      att:+2.2  lev7 -36.1
+Bass clarinet      364-368   row  -2.0 fit  -2.0 dom ntrim    ntrim:-2.0  lev7 -42.0
+Bass clarinet      372-376   row  -3.8 fit  -3.7 dom ntrim    ntrim:-3.7  lev7 -43.0
+Bass clarinet      380-384   row  -3.1 fit  -3.1 dom ntrim    ntrim:-3.1  lev7 -39.6
+Bass clarinet      432-436   row  +4.7 fit  +4.1 dom phrase   phrase:+3.6  lev7 -45.2
+Bass clarinet      476-480   row  +2.5 fit  +2.8 dom shape    hold:+2.0 shape:+4.8 other:-4.0  lev7 -35.4
+Bass clarinet      484-492   row  +4.3 fit  +4.4 dom shape    shape:+4.4  lev7 -35.7
+Bass clarinet      496-500   row  -2.0 fit  -2.2 dom hold     hold:-2.2  lev7 -46.9
+Bass clarinet      500-504   row  -3.1 fit  -3.1 dom hold     hold:-3.1  lev7 -52.0
+Bass clarinet      552-556   row  -2.8 fit  -2.8 dom ntrim    ntrim:-2.8  lev7 -38.3
+Bass clarinet      700-712   row  +2.5 fit  +2.5 dom other    att:+2.4 shape:-2.4 other:+2.5  lev7 -53.8
+Bassoon 1           88-96    row  +3.5 fit  +3.3 dom hold     hold:+3.0  lev7 -37.3
+Bassoon 1          124-128   row  +3.4 fit  +3.3 dom hold     att:+1.5 hold:+2.0  lev7 -37.1
+Bassoon 1          280-284   row  -2.7 fit  -2.8 dom ntrim    ntrim:-3.0  lev7 -43.1
+Bassoon 1          284-288   row  +2.1 fit  +1.7 dom att      att:+1.8  lev7 -43.2
+Bassoon 1          412-416   row  +2.8 fit  +3.4 dom att      att:+2.3 ntrim:+1.3  lev7 -39.1
+Bassoon 1          420-424   row  +2.2 fit  +2.2 dom att      att:+2.2  lev7 -40.4
+Bassoon 1          460-464   row  -4.5 fit  -4.5 dom ntrim    ntrim:-4.5  lev7 -36.0
+Bassoon 1          520-536   row  +3.1 fit  +3.4 dom hold     hold:+3.3 shape:+2.4 other:-2.5  lev7 -31.9
+Bassoon 1          536-544   row  +4.1 fit  +3.9 dom hold     att:+0.8 hold:+3.1  lev7 -38.0
+Bassoon 1          544-548   row  +2.1 fit  +2.0 dom hold     hold:+1.6  lev7 -37.7
+Bassoon 1          584-588   row  +2.2 fit  +2.2 dom att      att:+2.2  lev7 -55.6
+Bassoon 1          588-596   row  +3.0 fit  +3.2 dom att      att:+3.2  lev7 -50.2
+Bassoon 1          624-628   row  +3.1 fit  +3.0 dom hold     hold:+3.0  lev7 -38.4
+Bassoon 1          648-660   row  +2.7 fit  +2.7 dom hold     hold:+2.7  lev7 -43.0
+Bassoon 1          692-696   row  +2.3 fit  +2.3 dom att      att:+2.3  lev7 -53.4
+Bassoon 2           52-56    row  -3.0 fit  -3.0 dom hold     hold:-3.0  lev7 -53.0
+Bassoon 2          124-128   row  +2.4 fit  +1.7 dom att      att:+1.7  lev7 -39.6
+Bassoon 2          240-244   row  -4.2 fit  -4.1 dom ntrim    ntrim:-4.1 shape:+3.1 other:-3.1  lev7 -39.9
+Bassoon 2          244-248   row  -3.0 fit  -2.9 dom shape    shape:-2.9  lev7 -53.4
+Bassoon 2          472-476   row  +2.5 fit  +2.7 dom shape    hold:+1.9 shape:+4.8 other:-4.0  lev7 -32.2
+Bassoon 2          496-500   row  -3.2 fit  -3.0 dom shape    hold:-1.0 shape:-2.0  lev7 -45.5
+Bassoon 2          500-508   row  -4.7 fit  -4.9 dom hold     hold:-3.0 shape:-1.9  lev7 -54.5
+Bassoon 2          600-608   row  +2.7 fit  +2.8 dom att      att:+2.8  lev7 -47.3
+Bassoon 2          680-684   row  +2.4 fit  +2.3 dom att      att:+2.3 shape:+2.0 other:-2.0  lev7 -51.8
+Bassoon 2          684-688   row  +3.5 fit  +3.3 dom att      att:+3.3 shape:+1.6 other:-1.6  lev7 -45.0
+Bassoon 2          696-700   row  -3.8 fit  -2.5 dom shape    shape:-2.5  lev7 -64.2
+Contrabassoon      124-128   row  +2.5 fit  +2.2 dom att      att:+2.0  lev7 -37.5
+Contrabassoon      164-168   row  -3.8 fit  -3.8 dom hold     hold:-3.8  lev7 -53.6
+Contrabassoon      284-288   row  +2.1 fit  +1.7 dom att      att:+1.7  lev7 -45.4
+Contrabassoon      480-484   row  +2.1 fit  +1.8 dom other    hold:+1.8 shape:+4.3 other:-4.3  lev7 -35.2
+Contrabassoon      500-504   row  -3.0 fit  -3.0 dom hold     hold:-3.0  lev7 -58.4
+Contrabassoon      568-572   row  +2.2 fit  +2.2 dom att      att:+2.2  lev7 -43.7
+Horn 1             108-112   row  +3.6 fit  +3.6 dom hold     hold:+3.0  lev7 -32.9
+Horn 1             116-120   row  +3.4 fit  +3.0 dom hold     hold:+3.0  lev7 -34.3
+Horn 1             124-128   row  +2.8 fit  +2.0 dom att      att:+1.6  lev7 -38.0
+Horn 1             172-176   row  +2.4 fit  +2.2 dom shape    shape:+2.1  lev7 -45.4
+Horn 1             184-188   row  +4.1 fit  +4.2 dom shape    shape:+4.1  lev7 -35.9
+Horn 1             204-208   row  +3.1 fit  +2.9 dom shape    shape:+2.9  lev7 -42.7
+Horn 1             208-212   row  -5.8 fit  -1.4 dom ntrim    ntrim:-1.4  lev7 -52.6
+Horn 1             408-412   row  +2.3 fit  +2.5 dom shape    shape:+1.9  lev7 -32.1
+Horn 1             412-416   row  +4.3 fit  +4.2 dom ntrim    att:+0.8 ntrim:+2.9 shape:+1.1  lev7 -36.0
+Horn 1             440-444   row  +9.9 fit +10.0 dom shape    shape:+10.0  lev7 -47.9
+Horn 1             484-488   row  +2.9 fit  +2.6 dom shape    att:+1.1 shape:+5.1 other:-3.6  lev7 -28.6
+Horn 1             528-532   row  +3.5 fit  +3.6 dom hold     hold:+3.0  lev7 -35.2
+Horn 1             584-588   row  +4.1 fit  +4.2 dom shape    shape:+4.5  lev7 -36.4
+Horn 1             588-596   row  +2.5 fit  +2.6 dom shape    ntrim:-0.8 shape:+3.9  lev7 -37.6
+Horn 1             644-648   row  -2.7 fit  -3.0 dom shape    shape:-3.0  lev7 -38.3
+Horn 1             648-652   row  -6.1 fit  -5.8 dom shape    shape:-4.0 other:-1.8  lev7 -53.6
+Horn 2             108-112   row  -3.0 fit  -3.4 dom other    other:-3.4  lev7 -48.1
+Horn 2             220-224   row  +3.5 fit  +3.6 dom ntrim    ntrim:+3.3  lev7 -47.6
+Horn 2             232-236   row  +4.4 fit  +4.6 dom ntrim    ntrim:+4.6  lev7 -45.0
+Horn 2             268-276   row  +3.0 fit  +2.9 dom hold     hold:+2.9  lev7 -42.0
+Horn 2             484-488   row  +2.3 fit  +2.3 dom shape    shape:+5.2 other:-3.2  lev7 -28.0
+Horn 2             492-496   row  +2.6 fit  -0.7 dom other    shape:+3.5 other:-4.2  lev7 -44.8
+Horn 2             528-532   row  -2.2 fit  -3.5 dom other    other:-3.5  lev7 -49.8
+Horn 2             660-668   row  +3.0 fit  +3.0 dom hold     hold:+3.0  lev7 -40.7
+Horn 3              44-48    row  +2.9 fit  +3.0 dom hold     hold:+3.0  lev7 -38.7
+Horn 3              72-84    row  -2.3 fit  +0.0 dom att        lev7 -52.1
+Horn 3             156-160   row  +3.1 fit  +3.0 dom hold     hold:+3.0  lev7 -36.0
+Horn 3             164-168   row  +3.1 fit  +3.2 dom hold     hold:+3.2  lev7 -39.9
+Horn 3             244-248   row  -3.8 fit  -2.7 dom shape    hold:+3.0 shape:-5.7  lev7 -51.0
+Horn 3             252-256   row  +2.8 fit  +3.0 dom hold     hold:+3.0  lev7 -39.3
+Horn 3             260-264   row  +2.8 fit  +3.0 dom hold     hold:+3.0  lev7 -51.6
+Horn 3             324-328   row  +3.0 fit  +3.0 dom hold     hold:+3.0  lev7 -37.9
+Horn 3             628-632   row  +3.0 fit  +3.0 dom shape    hold:+3.1 shape:-5.0 other:+5.0  lev7 -37.2
+Horn 3             636-640   row  +4.2 fit  +4.3 dom hold     hold:+3.2 shape:-2.4 other:+3.1  lev7 -31.1
+Horn 3             640-644   row  +2.4 fit  +2.3 dom hold     hold:+2.3 shape:-1.8 other:+1.8  lev7 -29.0
+Horn 3             652-660   row  -2.1 fit  +0.7 dom ntrim    ntrim:+0.7  lev7 -51.9
+Horn 3             720-724   row  -2.2 fit  -2.2 dom shape    shape:-2.2  lev7 -60.1
+Horn 3             724-728   row  -4.2 fit  -4.2 dom shape    shape:-4.2  lev7 -62.4
+Horn 4              40-44    row  -7.7 fit  -7.5 dom ntrim    ntrim:-6.8  lev7 -50.2
+Horn 4              72-80    row  -8.6 fit  -6.6 dom ntrim    ntrim:-6.6  lev7 -48.5
+Horn 4              80-84    row  -6.2 fit  -4.1 dom ntrim    ntrim:-4.1  lev7 -49.9
+Horn 4             152-156   row  -2.9 fit  -2.8 dom ntrim    ntrim:-2.8  lev7 -43.1
+Horn 4             168-172   row  -2.0 fit  -0.0 dom other      lev7 -54.2
+Horn 4             224-228   row  -7.6 fit  -7.6 dom ntrim    ntrim:-7.6  lev7 -50.2
+Horn 4             240-244   row  -9.4 fit  -8.5 dom ntrim    ntrim:-8.5 shape:+3.1 other:-3.1  lev7 -47.3
+Horn 4             244-248   row  -5.1 fit  -3.1 dom shape    shape:-3.0  lev7 -58.0
+Horn 4             296-300   row  +2.9 fit  +2.9 dom hold     hold:+3.7 other:-0.7  lev7 -52.9
+Horn 4             416-420   row  -4.9 fit  -4.7 dom ntrim    ntrim:-4.4  lev7 -51.8
+Horn 4             440-444   row  -7.7 fit  -6.6 dom ntrim    ntrim:-6.6  lev7 -48.8
+Horn 4             620-624   row  -7.1 fit  -6.6 dom ntrim    ntrim:-6.6  lev7 -49.6
+Horn 4             624-628   row  -2.9 fit  -2.8 dom ntrim    ntrim:-2.8  lev7 -43.5
+Horn 4             648-652   row  -3.1 fit  -2.9 dom ntrim    ntrim:-2.9  lev7 -45.9
+Horn 4             652-656   row  -8.4 fit  -6.4 dom ntrim    ntrim:-6.4  lev7 -51.4
+Horn 4             720-724   row  -2.1 fit  -2.0 dom shape    shape:-2.0  lev7 -62.1
+Horn 4             724-728   row  -3.9 fit  -3.9 dom shape    shape:-3.9  lev7 -64.0
+Trumpet 1          328-332   row  +2.9 fit  +2.8 dom att      att:+2.0 ntrim:+0.8 shape:+0.9 other:-0.9  lev7 -34.8
+Trumpet 1          484-488   row  +2.0 fit  +2.0 dom shape    shape:+2.6 other:-1.0  lev7 -29.8
+Trumpet 2          108-112   row  +2.9 fit  +2.9 dom hold     hold:+2.9  lev7 -39.7
+Trumpet 2          120-124   row  +3.1 fit  +3.1 dom hold     hold:+3.1  lev7 -38.2
+Trumpet 2          128-132   row  +2.3 fit  +2.0 dom att      att:+2.0  lev7 -34.6
+Trumpet 2          160-164   row  +2.5 fit  +1.8 dom att      att:+1.8  lev7 -31.5
+Trumpet 2          448-452   row  +4.0 fit  +4.0 dom ntrim    ntrim:+4.0  lev7 -48.6
+Trumpet 2          484-488   row  +2.2 fit  +2.0 dom shape    shape:+2.7 other:-1.0  lev7 -32.4
+Trumpet 2          556-560   row  +3.0 fit  +3.0 dom hold     hold:+3.0  lev7 -39.0
+Trumpet 2          568-572   row  +2.8 fit  +1.9 dom att      att:+1.9  lev7 -35.6
+Trumpet 2          628-632   row  +3.0 fit  +3.0 dom hold     hold:+3.0 shape:-2.0 other:+2.0  lev7 -35.5
+Trumpet 3          484-488   row  +2.1 fit  +1.8 dom shape    shape:+2.7 other:-1.1  lev7 -31.2
+Trombone 1         284-288   row  +2.3 fit  +2.1 dom att      att:+1.4  lev7 -32.3
+Trombone 1         316-320   row  +4.5 fit  +4.2 dom hold     att:+1.4 hold:+2.7  lev7 -40.4
+Trombone 1         392-396   row  -2.8 fit  -3.0 dom other    shape:+1.4 other:-4.3  lev7 -35.8
+Trombone 1         464-484   row  +3.4 fit  +3.4 dom hold     hold:+3.7  lev7 -32.7
+Trombone 1         492-496   row  -2.3 fit  -2.3 dom shape    shape:-2.4  lev7 -48.0
+Trombone 1         520-524   row  +4.0 fit  +3.5 dom hold     hold:+2.9 ntrim:-0.7  lev7 -34.5
+Trombone 1         524-528   row  +2.8 fit  +2.8 dom hold     hold:+3.0  lev7 -35.9
+Trombone 1         528-540   row  +3.3 fit  +3.5 dom hold     hold:+3.2  lev7 -37.6
+Trombone 1         632-636   row  -2.5 fit  -2.4 dom shape    ntrim:-1.0 shape:-2.8 other:+1.6  lev7 -33.9
+Trombone 1         676-680   row  -4.2 fit  -4.2 dom shape    ntrim:-1.9 shape:-2.4  lev7 -31.5
+Trombone 2         288-292   row  -4.0 fit  -2.9 dom shape    shape:-2.9  lev7 -43.7
+Trombone 2         484-488   row  +2.1 fit  +2.0 dom shape    shape:+1.2  lev7 -30.3
+Trombone 2         552-556   row  +2.6 fit  +2.6 dom hold     hold:+2.7  lev7 -36.0
+Trombone 2         636-640   row  +2.1 fit  +2.0 dom shape    att:+0.7 shape:+1.2  lev7 -35.0
+Tuba               124-128   row  +2.6 fit  +2.3 dom att      att:+1.9  lev7 -39.2
+Timpani             12-16    row  -2.3 fit  -2.4 dom other    other:-2.4  lev7 -56.1
+Timpani             16-20    row  -3.6 fit  -3.6 dom other    other:-3.6  lev7 -58.0
+Timpani             52-56    row  -3.0 fit  -3.1 dom other    other:-3.1  lev7 -63.3
+Timpani            120-124   row  -3.0 fit  -2.9 dom other    other:-2.9  lev7 -48.0
+Timpani            244-248   row  -4.2 fit  -4.2 dom other    other:-4.2  lev7 -51.3
+Timpani            248-252   row  -2.0 fit  -2.1 dom other    other:-2.1  lev7 -52.0
+Timpani            276-280   row  -3.0 fit  -1.4 dom other    other:-1.4  lev7 -59.2
+Timpani            324-328   row  -2.1 fit  -2.1 dom other    other:-2.1  lev7 -30.1
+Timpani            456-460   row  +2.7 fit  +2.6 dom other    other:+2.6  lev7 -38.3
+Timpani            532-536   row  -4.4 fit  -4.4 dom other    other:-4.4  lev7 -31.7
+Timpani            536-544   row  -3.0 fit  -2.9 dom other    other:-2.9  lev7 -48.9
+Timpani            556-560   row  +2.6 fit  +2.6 dom other    other:+2.6  lev7 -33.5
+Timpani            560-564   row  -3.2 fit  -3.1 dom other    other:-3.1  lev7 -33.2
+Timpani            664-676   row  +3.1 fit  +2.9 dom other    other:+2.9  lev7 -37.2
+Harp               620-624   row  -4.3 fit  -4.3 dom other    other:-4.3  lev7 -41.1
+Harp               724-728   row  -2.3 fit  -2.4 dom other    other:-2.4  lev7 -60.5
+Violins I           56-64    row  -5.1 fit  -5.0 dom steady   steady:-5.0  lev7 -38.6
+Violins I           64-68    row  -6.3 fit  -6.4 dom steady   steady:-6.6  lev7 -40.5
+Violins I           68-84    row  -4.6 fit  -4.6 dom other    shape:-1.7 other:-2.4  lev7 -33.9
+Violins I           84-88    row  -7.7 fit  -7.9 dom steady   steady:-7.9  lev7 -47.7
+Violins I           88-100   row  -6.7 fit  -6.6 dom steady   steady:-6.7  lev7 -36.4
+Violins I          100-104   row  -3.3 fit  -3.3 dom steady   steady:-2.0 shape:-1.1  lev7 -28.7
+Violins I          104-112   row  -6.1 fit  -6.2 dom steady   steady:-6.1  lev7 -35.6
+Violins I          112-116   row  -2.6 fit  -2.6 dom steady   steady:-2.5  lev7 -33.9
+Violins I          120-124   row  -3.8 fit  -4.0 dom steady   steady:-4.0  lev7 -35.2
+Violins I          124-128   row  -2.1 fit  -2.3 dom steady   steady:-2.7  lev7 -33.5
+Violins I          128-132   row  +2.5 fit  +1.6 dom shape    shape:+1.6  lev7 -29.9
+Violins I          140-144   row  -6.3 fit  -5.7 dom steady   steady:-5.5  lev7 -48.4
+Violins I          144-148   row  -2.8 fit  -2.3 dom steady   steady:-2.9 phrase:+1.9 other:-1.3  lev7 -43.0
+Violins I          148-156   row  -4.5 fit  -4.3 dom steady   steady:-4.5  lev7 -37.1
+Violins I          256-260   row  +3.3 fit  +2.9 dom phrase   phrase:+4.0  lev7 -34.6
+Violins I          288-292   row  -4.5 fit  -1.5 dom rowtrim  rowtrim:-1.5  lev7 -48.9
+Violins I          312-316   row  +2.9 fit  +2.4 dom phrase   phrase:+2.5  lev7 -41.6
+Violins I          328-332   row  -6.7 fit  -6.7 dom shape    ntrim:-0.7 shape:-6.4  lev7 -33.9
+Violins I          372-376   row  -2.2 fit  -2.1 dom att      att:-1.5  lev7 -39.2
+Violins I          436-440   row  +4.2 fit  +4.0 dom att      att:+4.0  lev7 -57.4
+Violins I          452-456   row  +2.6 fit  +2.8 dom shape    shape:+2.9  lev7 -36.5
+Violins I          536-540   row  -5.9 fit  -5.7 dom steady   steady:-5.7  lev7 -46.8
+Violins I          540-548   row  -8.7 fit  -8.6 dom steady   steady:-8.6  lev7 -45.8
+Violins I          552-556   row  -7.4 fit  -8.0 dom steady   steady:-8.0  lev7 -34.4
+Violins I          572-576   row  -3.6 fit  -3.0 dom steady   steady:-2.4  lev7 -41.3
+Violins I          712-716   row  -3.4 fit  -3.5 dom hold     hold:-3.0 shape:-1.8 other:+1.3  lev7 -47.5
+Violins I          724-728   row  +3.8 fit  -0.5 dom shape    shape:-3.9 other:+2.8  lev7 -50.6
+Violins I           48-64    row  +4.0 fit  -4.5 dom steady   steady:-4.2  lev7 -39.6
+Violins I           64-80    row  +3.5 fit  -4.6 dom other    steady:-0.8 shape:-1.6 other:-2.4  lev7 -35.1
+Violins I           80-96    row  +5.5 fit  -5.9 dom steady   steady:-3.8 other:-1.7  lev7 -37.1
+Violins I           96-112   row  +3.2 fit  -4.7 dom steady   steady:-3.9  lev7 -32.4
+Violins I          112-128   row  +2.5 fit  -2.3 dom steady   steady:-2.0  lev7 -32.5
+Violins I          128-144   row  +3.7 fit  +1.1 dom shape    phrase:+0.7 shape:+0.8  lev7 -35.1
+Violins I          144-160   row  +5.6 fit  -3.0 dom steady   steady:-3.5  lev7 -37.1
+Violins I          528-544   row  +1.1 fit  -1.2 dom steady   steady:-1.8 shape:-0.8 other:+1.0  lev7 -39.5
+Violins I          544-560   row  +1.3 fit  -2.0 dom steady   steady:-2.1  lev7 -32.3
+Violins I          560-576   row  +1.6 fit  +1.0 dom steady   steady:+2.7 shape:-1.2  lev7 -30.1
+Violins II          24-28    row  +2.9 fit  +2.8 dom hold     hold:+2.8  lev7 -50.3
+Violins II          76-80    row  +2.4 fit  +2.6 dom shape    steady:+2.5 shape:-4.5 other:+4.4  lev7 -36.5
+Violins II          80-84    row  +8.4 fit  +7.9 dom steady   steady:+8.5 shape:-5.8 other:+5.0  lev7 -27.8
+Violins II         100-104   row  -2.4 fit  -2.3 dom shape    shape:-2.7  lev7 -31.8
+Violins II         104-108   row  -7.7 fit  -7.8 dom steady   steady:-7.8 shape:+2.3 other:-2.3  lev7 -35.0
+Violins II         108-112   row  -6.2 fit  -6.2 dom steady   steady:-6.1 shape:+2.7 other:-2.5  lev7 -33.0
+Violins II         112-116   row  -4.4 fit  -4.5 dom steady   steady:-3.9 shape:+1.8 other:-2.3  lev7 -33.8
+Violins II         120-128   row  -3.6 fit  -3.6 dom steady   steady:-3.4  lev7 -34.7
+Violins II         176-180   row  +2.4 fit  +2.4 dom hold     hold:+2.4  lev7 -56.0
+Violins II         188-192   row  +4.0 fit  +3.9 dom hold     hold:+3.9  lev7 -51.3
+Violins II         192-196   row  +7.5 fit  +7.5 dom hold     hold:+5.7 shape:+0.8 other:+1.0  lev7 -46.8
+Violins II         208-212   row  +4.3 fit  +4.3 dom hold     hold:+4.3  lev7 -54.3
+Violins II         284-288   row  +2.3 fit  +2.1 dom att      att:+2.1  lev7 -38.8
+Violins II         320-324   row  -5.0 fit  -4.9 dom shape    shape:-4.9  lev7 -40.1
+Violins II         328-332   row  -3.9 fit  -3.8 dom shape    ntrim:-1.4 shape:-2.4  lev7 -36.9
+Violins II         372-376   row  -2.0 fit  -1.8 dom shape    shape:-1.2  lev7 -44.4
+Violins II         408-412   row  -3.8 fit  -3.4 dom rowtrim  rowtrim:-3.4  lev7 -42.4
+Violins II         420-424   row  +6.0 fit  +5.9 dom att      att:+6.0  lev7 -62.8
+Violins II         452-456   row  -2.2 fit  -1.9 dom shape    shape:-1.9  lev7 -40.9
+Violins II         552-556   row  -6.9 fit  -7.2 dom steady   steady:-7.2  lev7 -33.3
+Violins II         556-564   row  -4.5 fit  -4.5 dom steady   steady:-4.5  lev7 -32.4
+Violins II         568-572   row  -2.9 fit  -3.0 dom steady   steady:-2.9  lev7 -41.8
+Violins II         576-584   row  -3.5 fit  -3.4 dom hold     hold:-5.2 shape:+1.1  lev7 -61.1
+Violins II         584-596   row  -2.0 fit  -2.0 dom hold     hold:-2.0  lev7 -54.5
+Violins II         600-624   row  -2.1 fit  -2.0 dom hold     hold:-2.0  lev7 -52.1
+Violins II         628-636   row  -2.1 fit  -2.2 dom hold     hold:-2.0 shape:-1.0 other:+0.9  lev7 -33.6
+Violins II         644-648   row  -2.1 fit  -2.1 dom other    hold:-2.0 shape:+2.5 other:-2.5  lev7 -34.3
+Violins II         656-672   row  -2.0 fit  -2.0 dom hold     hold:-2.0 shape:+0.9 other:-0.9  lev7 -42.0
+Violins II         712-720   row  +3.1 fit  +3.0 dom other    hold:+1.5 shape:-1.5 other:+3.0  lev7 -58.4
+Violins II         720-724   row  +6.0 fit  +6.1 dom hold     hold:+4.6 shape:-2.0 other:+3.5  lev7 -56.1
+Violins II         724-728   row  +3.7 fit  +3.7 dom shape    hold:+4.5 shape:-4.6 other:+3.8  lev7 -60.2
+Violas              16-20    row  +4.0 fit  +3.2 dom att      att:+3.2  lev7 -62.3
+Violas              52-56    row  -5.2 fit  -5.2 dom hold     hold:-5.2  lev7 -59.5
+Violas              68-72    row  +3.1 fit  +2.9 dom att      att:+2.9  lev7 -43.9
+Violas             100-108   row  -2.6 fit  -2.9 dom shape    shape:-2.3  lev7 -33.8
+Violas             112-116   row  -3.9 fit  -3.9 dom steady   steady:-3.8  lev7 -37.3
+Violas             116-120   row  -2.2 fit  -2.0 dom steady   steady:-1.1  lev7 -38.0
+Violas             124-128   row  -3.4 fit  -0.2 dom att        lev7 -39.7
+Violas             128-132   row  +2.0 fit  +2.0 dom att      att:+2.0  lev7 -37.6
+Violas             132-136   row  +4.2 fit  +3.9 dom phrase   phrase:+2.8 shape:+1.3 other:-0.7  lev7 -43.9
+Violas             144-148   row  +4.0 fit  +3.9 dom phrase   att:+1.2 phrase:+3.1  lev7 -43.2
+Violas             160-164   row  +2.3 fit  +2.1 dom att      att:+2.3  lev7 -38.8
+Violas             164-168   row  -3.6 fit  -3.6 dom hold     hold:-3.6  lev7 -54.7
+Violas             292-296   row  +3.8 fit  +3.8 dom hold     hold:+3.8  lev7 -47.6
+Violas             296-300   row  +4.9 fit  +4.8 dom hold     hold:+4.8  lev7 -45.9
+Violas             328-332   row  -4.9 fit  +0.0 dom att        lev7 -38.7
+Violas             352-356   row  +2.4 fit  +1.1 dom shape    shape:+0.9  lev7 -40.3
+Violas             356-360   row  -4.5 fit  -4.6 dom att      att:-3.5 shape:-1.0  lev7 -42.4
+Violas             424-428   row  -2.2 fit  -2.1 dom shape    shape:-2.4  lev7 -41.2
+Violas             428-432   row  +2.2 fit  +1.4 dom shape    shape:+0.9  lev7 -40.7
+Violas             436-440   row  +2.3 fit  -0.0 dom other      lev7 -40.3
+Violas             576-580   row  +2.1 fit  +2.1 dom hold     hold:+2.1  lev7 -56.4
+Violas             588-592   row  +2.9 fit  +0.9 dom att      att:+0.9  lev7 -38.4
+Violas             668-672   row  -3.6 fit  -3.7 dom rowtrim  rowtrim:-4.2  lev7 -35.8
+Violas             720-724   row  +2.5 fit  +2.3 dom hold     hold:+2.3 shape:-2.0 other:+2.0  lev7 -50.9
+Violoncellos         8-12    row  +3.4 fit  +3.2 dom shape    shape:+7.7 other:-5.1  lev7 -37.2
+Violoncellos        16-20    row  +2.5 fit  +2.6 dom att      att:+2.6  lev7 -61.2
+Violoncellos        20-24    row  +6.6 fit  +6.5 dom hold     hold:+6.5  lev7 -47.1
+Violoncellos        24-28    row  +4.7 fit  +5.0 dom hold     hold:+5.0  lev7 -41.8
+Violoncellos        52-56    row  -3.5 fit  -4.2 dom hold     hold:-4.4  lev7 -57.5
+Violoncellos        64-68    row  +2.2 fit  +2.1 dom att      att:+3.3 ntrim:-1.2  lev7 -36.5
+Violoncellos        84-92    row  +3.0 fit  +2.0 dom ntrim    att:+0.7 ntrim:+1.4  lev7 -42.6
+Violoncellos        96-100   row  -2.4 fit  -2.4 dom ntrim    att:+0.7 ntrim:-2.9  lev7 -32.1
+Violoncellos       100-104   row  -4.6 fit  -4.6 dom ntrim    ntrim:-4.6  lev7 -30.3
+Violoncellos       120-124   row  -4.0 fit  -4.0 dom shape    att:+1.4 ntrim:-2.4 shape:-3.1  lev7 -31.4
+Violoncellos       128-136   row  +3.9 fit  +3.7 dom att      att:+2.0 other:+1.6  lev7 -36.6
+Violoncellos       140-144   row  +2.4 fit  +2.2 dom att      att:+2.5  lev7 -46.5
+Violoncellos       156-160   row  -2.7 fit  -2.8 dom shape    shape:-3.4  lev7 -32.7
+Violoncellos       160-164   row  +2.0 fit  +2.2 dom att      att:+2.3  lev7 -33.7
+Violoncellos       172-176   row  -2.2 fit  -2.2 dom hold     hold:-2.2  lev7 -56.1
+Violoncellos       184-188   row  +3.2 fit  +3.5 dom shape    shape:+5.5 other:-2.1  lev7 -36.3
+Violoncellos       188-192   row  +2.1 fit  +1.8 dom shape    att:+1.3 ntrim:-0.7 shape:+1.7  lev7 -36.5
+Violoncellos       200-204   row  +2.2 fit  +2.2 dom att      att:+1.2 shape:+1.2  lev7 -38.8
+Violoncellos       204-208   row  +3.4 fit  +3.4 dom shape    att:+1.3 shape:+2.6  lev7 -39.4
+Violoncellos       220-224   row  +2.0 fit  +1.9 dom att      att:+1.9  lev7 -47.2
+Violoncellos       232-236   row  +2.2 fit  +2.2 dom att      att:+2.2  lev7 -47.7
+Violoncellos       268-272   row  +2.9 fit  +2.8 dom att      att:+2.8  lev7 -41.6
+Violoncellos       288-300   row  -2.6 fit  -2.7 dom hold     hold:-2.7  lev7 -49.9
+Violoncellos       300-308   row  -4.7 fit  -4.3 dom hold     hold:-4.3  lev7 -52.6
+Violoncellos       328-332   row  +2.4 fit  +2.2 dom att      att:+2.0 other:+0.7  lev7 -31.5
+Violoncellos       340-344   row  +3.4 fit  +3.2 dom shape    ntrim:+1.2 shape:+3.3 other:-1.1  lev7 -38.7
+Violoncellos       344-348   row  -3.3 fit  -3.2 dom other    att:-3.6 shape:-4.7 other:+5.1  lev7 -43.7
+Violoncellos       348-352   row  +6.1 fit  +6.0 dom shape    shape:+6.9 other:-0.8  lev7 -44.3
+Violoncellos       404-408   row  +3.2 fit  +3.3 dom att      att:+3.3  lev7 -42.4
+Violoncellos       416-420   row  +3.0 fit  +3.1 dom phrase   phrase:+3.1  lev7 -42.4
+Violoncellos       464-480   row  -2.4 fit  -2.4 dom other    att:-2.4 shape:+4.8 other:-4.8  lev7 -36.3
+Violoncellos       512-516   row  -4.1 fit  -3.9 dom att      att:-3.9 shape:+2.0 other:-2.0  lev7 -43.5
+Violoncellos       516-520   row  -2.2 fit  -2.3 dom other    att:-1.4 hold:-0.9 shape:+1.6 other:-1.6  lev7 -37.2
+Violoncellos       548-552   row  -4.3 fit  -4.2 dom ntrim    ntrim:-4.5  lev7 -34.4
+Violoncellos       584-592   row  +3.1 fit  +3.0 dom shape    shape:+3.2  lev7 -35.5
+Violoncellos       596-604   row  +2.6 fit  +2.4 dom shape    att:+1.8 shape:+3.0 other:-1.8  lev7 -36.2
+Violoncellos       604-612   row  +4.3 fit  +4.5 dom shape    phrase:+0.9 shape:+3.4  lev7 -36.0
+Violoncellos       636-640   row  +2.5 fit  +2.5 dom att      att:+2.4  lev7 -24.7
+Violoncellos       656-660   row  +2.9 fit  +2.8 dom att      att:+2.9  lev7 -44.3
+Violoncellos       672-676   row  +3.5 fit  +3.4 dom att      att:+3.4  lev7 -30.9
+Violoncellos       696-700   row  -4.2 fit  -4.3 dom ntrim    hold:+0.7 ntrim:-5.0 shape:-2.8 other:+2.7  lev7 -61.4
+Violoncellos       712-724   row  +4.3 fit  +3.5 dom other    hold:+1.1 shape:-0.9 other:+3.0  lev7 -55.7
+Violoncellos       724-728   row  +7.7 fit  +5.9 dom other    hold:+2.3 other:+3.6  lev7 -56.4
+Double basses        0-4     row  -4.4 fit  -4.5 dom ntrim    ntrim:-4.3  lev7 -52.3
+Double basses       16-28    row  +2.3 fit  +2.2 dom ntrim    ntrim:+2.5  lev7 -50.8
+Double basses       40-44    row  +3.0 fit  +2.9 dom hold     hold:+2.9  lev7 -35.2
+Double basses       52-56    row  -2.7 fit  -2.8 dom hold     hold:-2.8  lev7 -62.6
+Double basses      128-132   row  -3.2 fit  -3.3 dom ntrim    ntrim:-3.3  lev7 -45.7
+Double basses      132-136   row  -5.6 fit  -5.6 dom ntrim    ntrim:-5.6  lev7 -53.1
+Double basses      164-168   row  -3.4 fit  -3.3 dom hold     hold:-3.3  lev7 -45.0
+Double basses      188-196   row  +2.7 fit  +2.8 dom ntrim    ntrim:+2.6  lev7 -55.7
+Double basses      244-248   row  -2.1 fit  -2.0 dom shape    shape:-2.8 other:+0.8  lev7 -49.6
+Double basses      284-288   row  +2.5 fit  +2.3 dom att      att:+1.6 other:+0.7  lev7 -42.9
+Double basses      292-296   row  -3.0 fit  -3.0 dom hold     hold:-3.0  lev7 -52.2
+Double basses      296-300   row  +2.4 fit  +2.5 dom hold     hold:+2.4  lev7 -48.8
+Double basses      464-468   row  -2.6 fit  -2.6 dom shape    shape:-2.6  lev7 -31.7
+Double basses      468-472   row  +4.8 fit  +4.9 dom shape    shape:+4.8  lev7 -33.9
+Double basses      472-476   row  +2.3 fit  +2.5 dom shape    hold:-1.3 shape:+3.8  lev7 -34.3
+Double basses      480-484   row  +2.7 fit  +2.7 dom shape    shape:+2.8  lev7 -31.8
+Double basses      484-488   row  +4.9 fit  +4.8 dom shape    shape:+5.3  lev7 -30.8
+Double basses      488-492   row  +2.4 fit  +2.1 dom shape    hold:-2.4 shape:+4.6  lev7 -28.8
+Double basses      496-504   row  -6.6 fit  -6.6 dom hold     hold:-6.6  lev7 -51.2
+Double basses      504-512   row  -8.5 fit  -8.4 dom hold     hold:-8.4  lev7 -50.5
+Double basses      512-516   row  -6.5 fit  -6.5 dom hold     hold:-6.5  lev7 -43.6
+Double basses      516-520   row  -3.2 fit  -2.6 dom hold     hold:-4.8 shape:+1.1 other:+0.9  lev7 -38.8
+Double basses      584-588   row  +4.3 fit  +3.7 dom ntrim    ntrim:+3.8 shape:+1.5 other:-1.5  lev7 -45.0
+Double basses      596-600   row  +4.0 fit  +4.0 dom ntrim    ntrim:+4.0 shape:+1.5 other:-1.5  lev7 -53.6
+Double basses      600-604   row  +2.0 fit  +1.9 dom ntrim    ntrim:+2.0 shape:+1.5 other:-1.5  lev7 -50.5
+Double basses      660-664   row  +2.5 fit  +2.5 dom shape    shape:+3.6 other:-1.1  lev7 -38.2
+Double basses      712-720   row  +4.7 fit  +4.7 dom hold     hold:+4.0 shape:-0.8 other:+1.5  lev7 -52.8
+Double basses      720-724   row +10.2 fit +10.2 dom hold     hold:+8.1 shape:-2.2 other:+4.4  lev7 -47.6
+Double basses      724-728   row  +5.0 fit  +4.9 dom hold     hold:+6.5 shape:-3.8 other:+2.2  lev7 -57.1
+Horns a2           168-172   row  -8.0 fit  -0.3 dom shape      lev7 -50.8
+Horns a2           308-316   row  -2.3 fit  -2.2 dom shape    att:+1.5 shape:-4.2  lev7 -43.8
+Horns a2           316-320   row  -7.9 fit  -1.2 dom shape    shape:-1.2  lev7 -58.6
+Horns a2           392-396   row  -2.5 fit  -2.8 dom other    shape:+1.8 other:-4.3  lev7 -38.0
+Trumpets a2        664-672   row  +2.2 fit  +1.8 dom ntrim    att:+0.7 ntrim:+1.1  lev7 -35.3
+Trumpets a2        676-680   row  +5.5 fit  +5.4 dom shape    ntrim:+2.3 shape:+2.6  lev7 -36.1
+Bassoon 1 stac     356-360   row  +2.6 fit  +2.6 dom shape    shape:+2.6  lev7 -47.0
+Flute 1 stac       372-384   row  +3.4 fit  +3.5 dom shape    shape:+3.4  lev7 -41.4

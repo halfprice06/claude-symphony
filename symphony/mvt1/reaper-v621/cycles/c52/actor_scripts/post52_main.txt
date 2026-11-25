@@ -1,0 +1,97 @@
+### sf
+  sf  78.0 Violins I      first 0.1 s minus the 0.25 s before  +4.4 dB, peak at +0.140 s (+3.7 dB over the first 0.1 s), +0.5 s minus first  -1.8 dB, 2-5 kHz front-body  -4.3 dB
+  sf  78.0 Violins II     first 0.1 s minus the 0.25 s before +10.9 dB, peak at +0.060 s (+1.1 dB over the first 0.1 s), +0.5 s minus first -12.6 dB, 2-5 kHz front-body  +0.4 dB
+  sf 160.0 Violins I      first 0.1 s minus the 0.25 s before +12.9 dB, peak at +0.040 s (+1.4 dB over the first 0.1 s), +0.5 s minus first  -7.3 dB, 2-5 kHz front-body  +0.5 dB
+  sf 160.0 Violins II     first 0.1 s minus the 0.25 s before +10.4 dB, peak at +0.020 s (+1.8 dB over the first 0.1 s), +0.5 s minus first  -9.6 dB, 2-5 kHz front-body  -1.4 dB
+  sf 160.0 Violas         first 0.1 s minus the 0.25 s before  +8.2 dB, peak at +0.100 s (+1.4 dB over the first 0.1 s), +0.5 s minus first -12.2 dB, 2-5 kHz front-body  +1.6 dB
+  sf 160.0 Violoncellos   first 0.1 s minus the 0.25 s before  +0.2 dB, peak at -0.080 s (+5.2 dB over the first 0.1 s), +0.5 s minus first -11.8 dB, 2-5 kHz front-body  -2.3 dB
+  sf 160.0 Double basses  first 0.1 s minus the 0.25 s before  +7.1 dB, peak at +0.060 s (+1.2 dB over the first 0.1 s), +0.5 s minus first -13.6 dB, 2-5 kHz front-body  +3.4 dB
+### dolce
+  dolce Horn 1       184: end-before +13.6 (start->end +8.0); 189: end-before +2.6 (start->end +2.3); 195: end-before +3.8 (start->end +5.6); 201: end-before +7.0 (start->end +4.8); 584: end-before +20.5 (start->end +15.7); 589: end-before +6.3 (start->end +9.6); 595: end-before -3.8 (start->end -2.7); 601: end-before +1.2 (start->end +4.3)
+  dolce Violoncellos 184: end-before +12.6 (start->end +11.2); 189: end-before +1.5 (start->end -1.7); 195: end-before +0.9 (start->end +0.8); 201: end-before -4.4 (start->end +0.6); 584: end-before +7.2 (start->end +6.0); 589: end-before +9.2 (start->end +3.7); 595: end-before +3.9 (start->end -0.3); 601: end-before -0.4 (start->end -2.7); 680: end-before +0.0 (start->end +0.0); 685: end-before +0.0 (start->end +0.0); 691: end-before +0.0 (start->end +0.0)
+  dolce Violas       584: end-before +7.3 (start->end +5.4); 589: end-before +4.6 (start->end +3.8); 595: end-before +0.5 (start->end -0.3); 601: end-before +3.0 (start->end +0.7)
+Traceback (most recent call last):
+  File "/Users/gooby/sandbox/claude_composes/symphony/mvt1/reaper-v621/cycles/c52/actor_scripts/post52.py", line 378, in <module>
+    {"joins": joins, "sf": sfcheck, "sub": subcheck, "dolce": dolce, "lowwinds": lowwinds, "pedal": pedal,
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     "flutes": flutes}[c](*sys.argv[2:])
+     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/gooby/sandbox/claude_composes/symphony/mvt1/reaper-v621/cycles/c52/actor_scripts/post52.py", line 249, in dolce
+    x = rd(stem(rdir, P, tn))
+  File "/Users/gooby/sandbox/claude_composes/symphony/mvt1/reaper-v621/cycles/c52/actor_scripts/post52.py", line 56, in rd
+    return sf.read(path, dtype="float32", always_2d=True)[0].astype(np.float64)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gooby/.venvs/claude-composes-reaper/lib/python3.14/site-packages/soundfile.py", line 313, in read
+    with SoundFile(file, 'r', samplerate, channels,
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   subtype, endian, format, closefd) as f:
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gooby/.venvs/claude-composes-reaper/lib/python3.14/site-packages/soundfile.py", line 708, in __init__
+    self._file = self._open(file, mode_int, closefd)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/gooby/.venvs/claude-composes-reaper/lib/python3.14/site-packages/soundfile.py", line 1290, in _open
+    raise TypeError(f"Invalid file: {self.name!r}")
+TypeError: Invalid file: None
+### lowwinds
+  other winds' soft lyric phrases: median lane peak over the printed level +17.0 units (n 7)
+  capped Clarinet 2      576.0: lane peak +0.0, with the volume share +11.2 units (-5.8 from the others' median)
+  capped Bass clarinet   696.0: lane peak +0.0, with the volume share +11.2 units (-5.8 from the others' median)
+  capped Bassoon 1       584.0: lane peak +0.0, with the volume share +11.2 units (-5.8 from the others' median)
+  capped Bassoon 1       692.0: lane peak +0.0, with the volume share +11.2 units (-5.8 from the others' median)
+  capped Bassoon 2        48.0: lane peak +9.0, with the volume share +9.0 units (-8.0 from the others' median)
+  capped Bassoon 2       600.0: lane peak +11.0, with the volume share +22.2 units (+5.2 from the others' median)
+  capped Bassoon 2       680.0: lane peak +10.0, with the volume share +21.2 units (+4.2 from the others' median)
+  stem Clarinet 2      576.0: arch peak minus +0.15 s +14.2 dB, minus 1 s before the end +4.4 dB
+  stem Bass clarinet   696.0: arch peak minus +0.15 s +9.7 dB, minus 1 s before the end +19.9 dB
+  stem Bassoon 1       584.0: arch peak minus +0.15 s +13.7 dB, minus 1 s before the end +4.7 dB
+  stem Bassoon 1       692.0: arch peak minus +0.15 s +8.9 dB, minus 1 s before the end +4.0 dB
+  stem Bassoon 2        48.0: arch peak minus +0.15 s +0.1 dB, minus 1 s before the end +2.8 dB
+  stem Bassoon 2       600.0: arch peak minus +0.15 s +8.2 dB, minus 1 s before the end +10.0 dB
+  stem Bassoon 2       680.0: arch peak minus +0.15 s +10.3 dB, minus 1 s before the end +6.4 dB
+### pedal
+  pedal 104.0-107.5 p36: downbeat minus off-beat front -4.7 dB (n 4/4), adjacent off-beats max 0.9 dB
+  pedal 108.0-111.5 p38: downbeat minus off-beat front +3.4 dB (n 4/4), adjacent off-beats max 0.2 dB
+  pedal 112.0-115.5 p39: downbeat minus off-beat front +0.4 dB (n 4/4), adjacent off-beats max 1.0 dB
+  pedal 116.0-119.5 p40: downbeat minus off-beat front +0.1 dB (n 4/4), adjacent off-beats max 1.2 dB
+  pedal 120.0-121.5 p41: downbeat minus off-beat front +4.9 dB (n 2/2), adjacent off-beats max 0.4 dB
+  pedal 122.0-123.5 p38: downbeat minus off-beat front +1.2 dB (n 2/2), adjacent off-beats max 0.1 dB
+  pedal 520.0-525.5 p36: downbeat minus off-beat front -3.5 dB (n 6/6), adjacent off-beats max 1.9 dB
+  pedal 526.0-527.5 p31: downbeat minus off-beat front +2.7 dB (n 2/2), adjacent off-beats max 0.5 dB
+  pedal 528.0-531.5 p32: downbeat minus off-beat front -1.7 dB (n 4/4), adjacent off-beats max 0.2 dB
+  pedal 532.0-535.5 p31: downbeat minus off-beat front +2.1 dB (n 4/4), adjacent off-beats max 2.6 dB
+  pedal 556.0-559.5 p37: downbeat minus off-beat front +1.7 dB (n 4/4), adjacent off-beats max 1.9 dB
+  pedal 560.0-561.5 p41: downbeat minus off-beat front +5.6 dB (n 2/2), adjacent off-beats max 0.2 dB
+  pedal 562.0-563.5 p38: downbeat minus off-beat front +1.5 dB (n 2/2), adjacent off-beats max 0.2 dB
+  pedal 564.0-567.5 p31: downbeat minus off-beat front +1.1 dB (n 4/4), adjacent off-beats max 1.3 dB
+  pedal 664.0-675.5 p36: downbeat minus off-beat front +0.3 dB (n 12/12), adjacent off-beats max 2.0 dB
+### flutes
+  flutes  271.0 leg  Fl2-Fl1   +45 ms (Fl1  +23, Fl2  +68)
+  flutes  271.2 leg  Fl2-Fl1   -16 ms (Fl1  +10, Fl2   -6)
+  flutes  271.5 leg  Fl2-Fl1   -17 ms (Fl1   -2, Fl2  -19)
+  flutes  271.8 leg  Fl2-Fl1    -6 ms (Fl1   -1, Fl2   -7)
+  flutes  272.0 leg  Fl2-Fl1  -116 ms (Fl1 +145, Fl2  +29)
+  flutes  275.5 leg  Fl2-Fl1   -66 ms (Fl1  +21, Fl2  -45)
+  flutes  276.0 leg  Fl2-Fl1    -1 ms (Fl1  +12, Fl2  +11)
+  flutes  277.0 leg  Fl2-Fl1   -71 ms (Fl1  +28, Fl2  -43)
+  flutes  279.0 leg  Fl2-Fl1   -14 ms (Fl1   +7, Fl2   -7)
+  flutes  280.0 leg  Fl2-Fl1   +85 ms (Fl1   -1, Fl2  +84)
+  flutes  281.5 leg  Fl2-Fl1   -56 ms (Fl1   +8, Fl2  -48)
+  flutes  282.0 leg  Fl2-Fl1   -25 ms (Fl1   +7, Fl2  -18)
+  flutes  283.0 leg  Fl2-Fl1   -49 ms (Fl1   +7, Fl2  -42)
+  flutes  283.5 leg  Fl2-Fl1   -66 ms (Fl1   +4, Fl2  -62)
+  flutes  284.0 det  Fl2-Fl1   -56 ms (Fl1  +35, Fl2  -21)
+  flutes  285.0 det  Fl2-Fl1   -15 ms (Fl1   +0, Fl2  -15)
+  flutes  286.0 det  Fl2-Fl1   -19 ms (Fl1  +15, Fl2   -4)
+  flutes  628.0 leg  Fl2-Fl1   -14 ms (Fl1   -8, Fl2  -22)
+  flutes  629.0 det  Fl2-Fl1   -67 ms (Fl1  +24, Fl2  -43)
+  flutes  633.0 leg  Fl2-Fl1    +3 ms (Fl1   +6, Fl2   +9)
+  flutes  634.0 leg  Fl2-Fl1   +48 ms (Fl1  +36, Fl2  +84)
+  flutes  636.0 leg  Fl2-Fl1  +118 ms (Fl1   -5, Fl2 +113)
+  flutes  637.0 det  Fl2-Fl1    -1 ms (Fl1   +1, Fl2   +0)
+  flutes  639.5 leg  Fl2-Fl1   +79 ms (Fl1  -16, Fl2  +63)
+  flutes  640.0 leg  Fl2-Fl1   +28 ms (Fl1  -28, Fl2   +0)
+  flutes  642.0 leg  Fl2-Fl1   +75 ms (Fl1  +48, Fl2 +123)
+  flutes  643.0 leg  Fl2-Fl1  -155 ms (Fl1 +129, Fl2  -26)
+  flutes  643.5 leg  Fl2-Fl1   -48 ms (Fl1  +35, Fl2  -13)
+  shared 270-290 / 625-646: median -15 ms, over 40 ms 16 of 28
+  detached 456-473: median -5 ms (n 17)

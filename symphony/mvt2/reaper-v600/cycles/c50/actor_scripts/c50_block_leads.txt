@@ -1,0 +1,10 @@
+
+# ---- c50 (2026-11-09): critic A findings 3 and 5 (legato leads). Per-onset leads are in build/leg_leads.json; see
+# cycles/c50/CHANGES.md. A "listed" LEG_CAP_FRAC entry raises the share of the previous note that a lead may take only
+# for onsets with a per-onset row (the 0.45 default cut these leads short: they read +60 to +300 ms late in c47-c49)
+LEG_CAP_FRAC["Violins II"] = LEG_CAP_FRAC.get("Violins II", []) + [(177.0, 187.0, 0.75, "listed")]
+LEG_CAP_FRAC["Violins I"] = LEG_CAP_FRAC.get("Violins I", []) + [(181.0, 193.0, 0.65, "listed"), (258.0, 259.0, 0.65, "listed")]
+LEG_CAP_FRAC["Violas"] = LEG_CAP_FRAC["Violas"] + [(192.0, 196.0, 0.75, "listed"), (249.5, 257.5, 0.6, "listed")]
+LEG_CAP_FRAC["Violoncellos"] = LEG_CAP_FRAC.get("Violoncellos", []) + [(145.0, 146.0, 0.7, "listed"), (68.0, 69.0, 0.5, "listed")]
+# A #5: Clarinet 2's row lead 0.03 -> 0.07 s (its joins read 40-70 ms late); the row "244" in leg_leads.json 0.12 -> 0.08
+LEG_LEAD_S = {"Clarinet 2": 0.07, **LEG_LEAD_S}

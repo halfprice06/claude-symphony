@@ -1,0 +1,26 @@
+== decay (master; cut found on the dry sum)
+  qn   755.0: drop +0.1/0.3/0.6/1.0   7.9  12.2   8.3   9.3  t20 0.00 s  RT60(2xT-5..-35) None
+  qn  1016.0: drop +0.1/0.3/0.6/1.0   7.4  12.9  19.0  28.8  t20 0.65 s  RT60(2xT-5..-35) 2.46
+  qn  1128.0: drop +0.1/0.3/0.6/1.0   3.6  11.4  21.2  29.3  t20 0.59 s  RT60(2xT-5..-35) 2.02
+  median t20 0.59 s; median drop +0.3 12.2 dB
+  soft ends (Vln I + R Strings, -10 dB from the last peak): [np.float64(0.13), np.float64(0.44), np.float64(0.33)]
+  master band shares 100-300 -5.7, 200-500 -5.1, 2-5k -10.4, 6-20k -27.2 dB
+  returns minus dry energy -4.8 dB
+== balance (RMS dB, both channels)
+  B3 360-384: V1 / Cl1 / Cl2 [('Violins I', [np.float32(-39.7)]), ('Clarinet 1', [np.float32(-40.4)]), ('Clarinet 2', [np.float32(-39.7)])]
+  B3 828-840: Fl1 / Ob1 / Cl2 [('Flute 1', [np.float32(-41.8)]), ('Oboe 1', [np.float32(-38.3)]), ('Clarinet 2', [np.float32(-46.6)])]
+  B4 624-648: V1 / Hn1 / Cl1 / V2 [('Violins I', [np.float32(-37.3)]), ('Horn 1', [np.float32(-37.8)]), ('Clarinet 1', [np.float32(-40.4)]), ('Violins II', [np.float32(-41.6)])]
+  B4 504-528: Vc / Hn3 [('Violoncellos', [np.float32(-40.4)]), ('Horn 3', [np.float32(-44.1)])]
+  B5 90-96,102-108: V1 / Vc [('Violins I', [np.float32(-45.3), np.float32(-45.1)]), ('Violoncellos', [np.float32(-41.5), np.float32(-44.2)])]
+  B6 codetta: Ob1 672-684 / Cl1 684-696 / Bn1 696-708 [('Oboe 1', [np.float32(-40.9)]), ('Clarinet 1', [np.float32(-40.2)]), ('Bassoon 1', [np.float32(-42.2)])]
+  B2 harp vs tune 456-504 / 1020-1032 [('Harp', [np.float32(-45.5), np.float32(-44.3)]), ('Clarinet 1', [np.float32(-39.1)]), ('Horn 3', [np.float32(-41.2)])]
+  solo 1044-1068: solo / Fl1 [('Violin I solo', [np.float32(-42.4)]), ('Flute 1', [np.float32(-46.3)])]
+  summit 1005-1014 / bar 304 [('Violins I', [np.float32(-23.0), np.float32(-24.0)])]
+== S1 pair dips (stem: max of first 80 ms of the 2nd eighth minus min over -60..+30 ms)
+  V1 tutti [np.float32(4.5), np.float32(8.7), np.float32(4.4), np.float32(3.0), np.float32(2.5), np.float32(4.4), np.float32(9.2), np.float32(4.6), np.float32(2.9), np.float32(2.7)]
+  V2 tutti [np.float32(2.0), np.float32(1.9), np.float32(2.9), np.float32(1.9)]
+  V1 soft heads 43 757 763 [np.float32(6.5), np.float32(3.7), np.float32(6.4)]
+  Horn 1 630-663 [np.float32(1.2), np.float32(0.9), np.float32(5.8), np.float32(0.7), np.float32(2.4), np.float32(9.3), np.float32(4.6), np.float32(1.5)]
+== pizz peaks (first 0.2 s) celli / basses 264-291
+  Violoncellos [np.float32(-48.4), np.float32(-41.3), np.float32(-40.4), np.float32(-47.5), np.float32(-48.7), np.float32(-41.0), np.float32(-40.7), np.float32(-47.5), np.float32(-48.8), np.float32(-41.5)]
+  Double basses [np.float32(-42.3), np.float32(-46.6), np.float32(-40.5), np.float32(-43.5), np.float32(-42.6), np.float32(-46.7), np.float32(-40.9), np.float32(-43.6), np.float32(-42.3), np.float32(-45.9)]

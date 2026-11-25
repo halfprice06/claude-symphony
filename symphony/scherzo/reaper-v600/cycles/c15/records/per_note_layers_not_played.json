@@ -1,0 +1,127 @@
+{
+ "shape:early_fill": {
+  "Flute 1": 3,
+  "Oboe 1": 5,
+  "Clarinet 1": 11,
+  "Bassoon 1": 15,
+  "Horn 1": 3,
+  "Violins II": 3,
+  "Violas": 1,
+  "Violoncellos": 22,
+  "Double basses": 1,
+  "Violin I solo": 1,
+  "Violas div": 1
+ },
+ "level:level_shape": {
+  "Flute 1": 2,
+  "Flute 2": 1,
+  "Oboe 1": 2,
+  "Oboe 2": 1,
+  "Clarinet 1": 1,
+  "Horn 1": 5,
+  "Horn 3": 1,
+  "Trumpet 1": 1,
+  "Trumpet 2": 1,
+  "Timpani": 11,
+  "Violins I": 19,
+  "Violins II": 3,
+  "Violoncellos": 7
+ },
+ "shape:accent": {
+  "Flute 1": 22,
+  "Flute 2": 8,
+  "Oboe 1": 22,
+  "Oboe 2": 6,
+  "Cor anglais": 14,
+  "Clarinet 1": 8,
+  "Clarinet 2": 9,
+  "Bassoon 1": 4,
+  "Bassoon 2": 4,
+  "Contrabassoon": 4,
+  "Violins I": 39,
+  "Violins II": 32,
+  "Violas": 26,
+  "Violoncellos": 21,
+  "Double basses": 16
+ },
+ "level:note_trim": {
+  "Flute 1": 2,
+  "Flute 2": 10,
+  "Oboe 1": 2,
+  "Oboe 2": 2,
+  "Clarinet 1": 11,
+  "Clarinet 2": 6,
+  "Bassoon 1": 2,
+  "Harp": 1,
+  "Violins I": 2,
+  "Violas": 27,
+  "Violoncellos": 12,
+  "Double basses": 49,
+  "Violas div": 7
+ },
+ "level:row_trim": {
+  "Flute 1": 16,
+  "Flute 2": 12,
+  "Oboe 1": 25,
+  "Violins I": 13,
+  "Violins II": 12,
+  "Violas": 18,
+  "Violoncellos": 23
+ },
+ "shape:accent_body": {
+  "Cor anglais": 11,
+  "Violins I": 11,
+  "Violins II": 10,
+  "Violas": 10,
+  "Violoncellos": 8,
+  "Double basses": 11
+ },
+ "shape:join_notch": {
+  "Clarinet 1": 1,
+  "Violoncellos": 4
+ },
+ "shape:wind_detach": {
+  "Horn 1": 2,
+  "Horn 2": 4,
+  "Horn 3": 11,
+  "Horn 4": 8,
+  "Trumpet 1": 2,
+  "Trumpet 2": 1,
+  "Trombone 1": 3,
+  "Trombone 2": 2,
+  "Bass trombone": 3,
+  "Tuba": 3
+ },
+ "shape:release": {
+  "Horn 3": 1,
+  "Violins I": 1,
+  "Violins II": 1,
+  "Violas": 6,
+  "Violoncellos": 3,
+  "Double basses": 2
+ },
+ "shape:timp_attack": {
+  "Timpani": 3
+ },
+ "level:metric_db": {
+  "Timpani": 42
+ },
+ "shape:rebow_fill": {
+  "Violins I": 4,
+  "Violins II": 1,
+  "Violas": 1,
+  "Violoncellos": 3
+ },
+ "level:chord": {
+  "Violins II": 1,
+  "Violas": 1,
+  "Violoncellos": 1,
+  "Double basses": 1
+ },
+ "shape:bloomv": {
+  "Violas": 1
+ },
+ "shape:swell": {
+  "Violas div": 1
+ }
+}

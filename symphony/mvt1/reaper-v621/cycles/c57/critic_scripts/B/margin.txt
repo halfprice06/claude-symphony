@@ -1,0 +1,47 @@
+== per bar: tracks with margin >= -6 dB in c55 or c56, margin change >= 1.5 dB
+bar   2 (qn 4) Double basses    margin  -5.4 ->  -3.5  (+1.9)  own +1.9 others -0.0
+bar   3 (qn 8) Double basses    margin  -5.8 ->  -3.8  (+2.0)  own +2.0 others +0.0
+bar   8 (qn 28) Double basses    margin  -6.3 ->  -4.5  (+1.8)  own +1.8 others -0.0
+bar  22 (qn 84) Violins I        margin  +0.0 ->  -1.9  (-1.9)  own -2.0 others -0.1
+bar  44 (qn 172) Double basses    margin  -8.7 ->  -3.7  (+5.0)  own +4.7 others -0.3
+bar  44 (qn 172) Horn 1           margin  -3.3 ->  -5.4  (-2.0)  own -0.8 others +1.2
+bar  46 (qn 180) Violoncellos     margin  -4.0 ->  -6.2  (-2.2)  own -1.8 others +0.4
+bar  84 (qn 332) Double basses    margin  -2.2 ->  -0.6  (+1.6)  own +1.6 others +0.0
+bar 102 (qn 404) Violins II       margin  -4.6 ->  -6.8  (-2.2)  own -2.1 others +0.1
+bar 103 (qn 408) Violoncellos     margin  -4.2 ->  -6.2  (-1.9)  own -1.6 others +0.3
+bar 108 (qn 428) Violas           margin  +5.8 ->  +4.1  (-1.7)  own -0.4 others +1.3
+bar 146 (qn 580) Violoncellos     margin  -1.1 ->  -3.5  (-2.4)  own -2.5 others -0.0
+bar 151 (qn 600) Violoncellos     margin  -1.8 ->  +0.1  (+2.0)  own +2.1 others +0.1
+bar 154 (qn 612) Violas           margin  -4.7 ->  -7.7  (-3.0)  own -3.2 others -0.2
+== per quarter, same rule but >= 2.5 dB and margin >= -3: count per track; list
+Violins I 7 [(66, 0.9, -3.1, -3.9), (69, 6.3, 2.7, -3.2), (72, 0.4, -3.7, -3.7), (86, 1.3, -2.0, -3.2), (87, 1.4, -12.0, -13.2), (144, 1.7, -3.2, -4.7), (148, 1.4, -1.7, -2.6)]
+Violoncellos 7 [(66, -3.8, -1.3, -0.0), (87, -6.3, -1.2, 0.2), (143, -1.0, -3.6, -2.1), (201, 0.1, 4.3, 0.0), (329, -2.2, -7.5, -5.2), (528, -5.3, -2.3, 2.7), (603, -5.1, -0.5, 4.6)]
+Horn 1 4 [(173, -2.5, -6.2, -0.8), (174, -1.7, -4.7, -1.6), (201, -1.6, -7.8, -6.1), (411, -5.0, -2.5, 2.7)]
+Violas 3 [(87, -7.3, -2.9, 0.0), (429, 7.8, 2.8, -0.8), (615, -2.3, -7.1, -5.1)]
+Double basses 3 [(7, -5.0, -2.2, 2.3), (173, -5.0, 0.1, 5.2), (174, -8.7, -2.7, 5.1)]
+Timpani 1 [(2, 14.6, 18.5, -0.0)]
+Violins II 1 [(366, 0.8, -1.8, -2.6)]
+Horns a2 1 [(311, 2.8, -0.9, -3.5)]
+== named melody passages: margin median / lower quartile per quarter c55 -> c56
+Violins I                                          56-88: median  +1.6 ->  +1.6   LQ  +0.8 ->  +0.3
+Violins I                                          88-104: median  -5.5 ->  -5.4   LQ  -7.1 ->  -7.2
+Violins I+Flute 1+Oboe 1                           88-104: median  -1.6 ->  -2.0   LQ  -4.6 ->  -4.0
+Violins I                                          104-128: median  -6.9 ->  -6.7   LQ  -7.7 ->  -7.9
+Violins I                                          128-158: median  -2.9 ->  -2.6   LQ  -6.5 ->  -6.3
+Violoncellos                                       184-216: median  +2.4 ->  +2.4   LQ  +0.4 ->  +0.6
+Violoncellos                                       216-244: median -13.2 -> -13.2   LQ -14.6 -> -14.5
+Cor anglais                                        272-284: median -15.6 -> -15.8   LQ -16.7 -> -16.8
+Violins I                                          304-384: median -159.8 -> -160.0   LQ -166.8 -> -166.7
+Horn 1                                             400-430: median -11.5 -> -12.1   LQ -165.9 -> -165.9
+Trumpet 1                                          456-496: median -85.0 -> -85.1   LQ -183.7 -> -183.6
+Violoncellos                                       520-536: median  -6.6 ->  -6.6   LQ  -7.6 ->  -7.7
+Violoncellos+Clarinet 1+Bassoon 1+Trombone 1       520-536: median  -0.5 ->  -0.9   LQ  -1.4 ->  -1.3
+Violins I                                          536-576: median  -4.2 ->  -4.6   LQ  -6.0 ->  -6.4
+Violas+Violoncellos                                584-620: median  +3.2 ->  +3.2   LQ  +1.5 ->  +1.3
+Violas+Violoncellos+Cor anglais                    584-620: median  +6.0 ->  +5.9   LQ  +3.4 ->  +3.6
+Violins I                                          620-664: median  -4.9 ->  -5.3   LQ  -6.5 ->  -6.4
+Cello solo                                         680-696: median  +5.8 ->  +5.8   LQ  +4.5 ->  +4.6
+Clarinet 1                                         699-712: median  -3.1 ->  -3.1   LQ -40.4 -> -40.8
+Oboe 1                                             88-104: median -11.1 -> -11.2   LQ -12.8 -> -16.1
+Clarinet 1                                         520-536: median  -9.2 ->  -9.5   LQ -10.3 -> -10.2
+Flute 1                                            88-128: median -12.5 -> -13.0   LQ -16.2 -> -16.4

@@ -1,0 +1,13 @@
+wind entries 57: median -6 ms, more than 60 ms early: 0
+  Flute 1        n  4 median    -7  
+  Flute 2        n  2 median   +14  262:+18
+  Oboe 1         n  5 median   -10  262:-8
+  Oboe 2         n  2 median    +9  262:+0
+  Cor anglais    n  6 median    -7  262:-6
+  Clarinet 1     n  6 median    +5  175:-24 262:-20 280:+16
+  Clarinet 2     n  7 median   +16  
+  Bass clarinet  n  5 median    -6  262:-12
+  Bassoon 1      n  9 median    -8  196:+10 229:-10
+  Bassoon 2      n  8 median   -13  
+  Contrabassoon  n  3 median   -16  262:-16
+bar 79 (262): [('Flute 2', 18), ('Oboe 1', -8), ('Oboe 2', 0), ('Cor anglais', -6), ('Clarinet 1', -20), ('Bass clarinet', -12), ('Contrabassoon', -16)]

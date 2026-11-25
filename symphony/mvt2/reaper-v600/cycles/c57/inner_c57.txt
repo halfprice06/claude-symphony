@@ -1,0 +1,45 @@
+bar  7  Harp               4 onsets   -19.3 dB under Horn 1
+bar  8  Bass clarinet      3 onsets   -20.2 dB under Horn 1
+bar  8  Bassoon 1          3 onsets   -15.2 dB under Horn 1
+bar  8  Bassoon 2          3 onsets   -15.6 dB under Horn 1
+bar  8  Harp               6 onsets   -18.1 dB under Horn 1
+bar 10  Harp               4 onsets   -13.6 dB under Horn 1
+bar 11  Bass clarinet      3 onsets   -17.7 dB under Horn 1
+bar 11  Bassoon 2          3 onsets   -14.0 dB under Horn 1
+bar 11  Harp               6 onsets   -17.2 dB under Horn 1
+bar 12  Harp               5 onsets   -16.2 dB under Horn 1
+bar 13  Harp               4 onsets   -12.2 dB under Horn 1
+bar 14  Harp               4 onsets   -13.7 dB under Horn 1
+bar 16  Violas             3 onsets   -15.0 dB under Oboe 1
+bar 21  Double basses      3 onsets   -16.0 dB under Violin I solo
+bar 24  Double basses      3 onsets   -12.9 dB under Violins I
+bar 27  Double basses      3 onsets   -13.3 dB under Violins I
+bar 37  Harp               4 onsets   -21.0 dB under Flute 1
+bar 37  Violas            12 onsets   -13.8 dB under Flute 1
+bar 38  Harp               4 onsets   -18.9 dB under Flute 1
+bar 39  Harp               4 onsets   -14.5 dB under Flute 1
+bar 39  Violins II         3 onsets   -15.2 dB under Flute 1
+bar 39  Violas            12 onsets   -13.1 dB under Flute 1
+bar 39  Violins II div     3 onsets   -15.2 dB under Flute 1
+bar 40  Harp               4 onsets   -13.0 dB under Flute 1
+bar 41  Violas            12 onsets   -12.5 dB under Cor anglais
+bar 41  Double basses      4 onsets   -25.8 dB under Cor anglais
+bar 42  Harp               8 onsets   -14.8 dB under Cor anglais
+bar 42  Violoncellos       4 onsets   -14.7 dB under Cor anglais
+bar 42  Double basses      4 onsets   -26.5 dB under Cor anglais
+bar 43  Harp               4 onsets   -15.6 dB under Cor anglais
+bar 43  Double basses      4 onsets   -24.2 dB under Cor anglais
+bar 49  Violas             4 onsets   -12.1 dB under Cor anglais
+bar 49  Double basses      3 onsets   -16.7 dB under Cor anglais
+bar 51  Violas             4 onsets   -14.0 dB under Cor anglais
+bar 54  Clarinet 1         3 onsets   -12.3 dB under Violins I
+bar 58  Flute 1            3 onsets   -14.5 dB under Horn 1
+bar 58  Double basses      4 onsets   -14.1 dB under Horn 1
+bar 64  Bass trombone      3 onsets   -22.9 dB under Trombone 1
+bar 64  Violins II         4 onsets   -20.4 dB under Trombone 1
+bar 64  Violas             3 onsets   -22.5 dB under Trombone 1
+bar 64  Violoncellos       4 onsets   -17.7 dB under Trombone 1
+bar 64  Double basses      3 onsets   -25.3 dB under Trombone 1
+bar 72  Double basses      3 onsets   -14.4 dB under Violoncellos
+bar 75  Double basses      3 onsets   -12.3 dB under Violoncellos
+44 line-bars listed

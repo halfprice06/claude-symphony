@@ -1,0 +1,56 @@
+Flute 1: stretch_cc7 moved the envelope of 57 stretches into CC7 (0 kept: floor)
+Flute 2: stretch_cc7 moved the envelope of 18 stretches into CC7 (0 kept: floor)
+Oboe 1: stretch_cc7 moved the envelope of 65 stretches into CC7 (0 kept: floor)
+Oboe 2: stretch_cc7 moved the envelope of 20 stretches into CC7 (0 kept: floor)
+Cor anglais: stretch_cc7 moved the envelope of 40 stretches into CC7 (0 kept: floor)
+Clarinet 1: stretch_cc7 moved the envelope of 74 stretches into CC7 (0 kept: floor)
+Clarinet 2: stretch_cc7 moved the envelope of 65 stretches into CC7 (0 kept: floor)
+Bass clarinet: stretch_cc7 moved the envelope of 10 stretches into CC7 (0 kept: floor)
+Bassoon 1: stretch_cc7 moved the envelope of 65 stretches into CC7 (0 kept: floor)
+Bassoon 2: stretch_cc7 moved the envelope of 63 stretches into CC7 (0 kept: floor)
+Contrabassoon: stretch_cc7 moved the envelope of 38 stretches into CC7 (0 kept: floor)
+Horn 1: stretch_cc7 moved the envelope of 49 stretches into CC7 (0 kept: floor)
+Horn 2: stretch_cc7 moved the envelope of 39 stretches into CC7 (0 kept: floor)
+Horn 3: stretch_cc7 moved the envelope of 30 stretches into CC7 (0 kept: floor)
+Horn 4: stretch_cc7 moved the envelope of 31 stretches into CC7 (0 kept: floor)
+Trumpet 1: stretch_cc7 moved the envelope of 17 stretches into CC7 (0 kept: floor)
+Trumpet 2: stretch_cc7 moved the envelope of 17 stretches into CC7 (0 kept: floor)
+Trombone 1: stretch_cc7 moved the envelope of 9 stretches into CC7 (0 kept: floor)
+Trombone 2: stretch_cc7 moved the envelope of 11 stretches into CC7 (0 kept: floor)
+Bass trombone: stretch_cc7 moved the envelope of 8 stretches into CC7 (0 kept: floor)
+Tuba: stretch_cc7 moved the envelope of 9 stretches into CC7 (0 kept: floor)
+Violins I: stretch_cc7 moved the envelope of 101 stretches into CC7 (0 kept: floor)
+Violins II: stretch_cc7 moved the envelope of 66 stretches into CC7 (0 kept: floor)
+Violas: stretch_cc7 moved the envelope of 91 stretches into CC7 (0 kept: floor)
+Violoncellos: stretch_cc7 moved the envelope of 90 stretches into CC7 (0 kept: floor)
+Double basses: stretch_cc7 moved the envelope of 54 stretches into CC7 (0 kept: floor)
+Violin I solo: stretch_cc7 moved the envelope of 2 stretches into CC7 (0 kept: floor)
+Violas div: stretch_cc7 moved the envelope of 13 stretches into CC7 (0 kept: floor)
+envelope: points 2808, per note 0.50, per second 10.1 (timpani left out)
+fixed guard, step (1.5 dB within 0.5 s, > 6 dB/s, inside a sounding note): 1 notes (+ harp 14)
+first 0.35 s (finale c27: 1.5 dB or more, printed hairpins apart): 2 notes (+ harp 7); steps wholly inside printed hairpins (exempt from both counts): 10 notes
+critic B's measure (2 dB within 0.5 s at 20 dB/s or faster): 0 notes (+ harp 0)
+   Harp sq 231.0 on 231.0 4.2 dB at +1.66 s 
+   Harp sq 232.0 on 232.0 4.9 dB at +1.44 s 
+   Harp sq 233.5 on 233.5 4.9 dB at +1.1 s 
+   Harp sq 234.0 on 234.0 4.9 dB at +0.98 s 
+   Harp sq 234.0 on 234.0 4.9 dB at +0.98 s 
+   Harp sq 235.0 on 235.0 4.9 dB at +0.75 s 
+   Harp sq 235.0 on 235.0 4.9 dB at +0.75 s 
+   Harp sq 235.0 on 235.0 4.9 dB at +0.75 s 
+   Harp sq 235.0 on 235.0 1.6 dB at +0 s 
+   Harp sq 235.0 on 235.0 1.6 dB at +0 s 
+   Harp sq 235.0 on 235.0 1.6 dB at +0 s 
+   Harp sq 236.0 on 236.0 4.9 dB at +0.53 s 
+   Harp sq 236.0 on 236.0 2.6 dB at +0 s 
+   Harp sq 237.0 on 237.0 4.9 dB at +0.3 s 
+   Harp sq 237.0 on 237.0 4.9 dB at +0.3 s 
+   Harp sq 238.0 on 238.0 5.0 dB at +0.06 s 
+   Harp sq 238.0 on 238.0 5.0 dB at +0.06 s 
+   Harp sq 238.0 on 238.0 5.0 dB at +0.06 s 
+   Harp sq 238.0 on 238.0 3.1 dB at +0 s 
+   Harp sq 238.0 on 238.0 3.1 dB at +0 s 
+   Harp sq 238.0 on 238.0 3.1 dB at +0 s 
+   Violoncellos sq 524.0 on 523.544 1.6 dB at +0.12 s 
+   Violoncellos sq 526.0 on 524.974 2.5 dB at +0 s 
+   Violoncellos sq 624.0 on 623.62 2.5 dB at +0 s 

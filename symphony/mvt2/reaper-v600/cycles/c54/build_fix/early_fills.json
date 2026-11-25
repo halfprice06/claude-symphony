@@ -1,0 +1,1836 @@
+{
+ "_doc": "c08 (critic A #1): early fills for legato targets whose samples sag 5-12 dB for their first 0.3 s at a flat CC11. {track: {score onset qn: dB}}: vol_db ramps 0 at onset - 0.02 qn to +dB at onset + 0.05 s, holds to + 0.35 s, back to 0 by + 0.6 s. Value = measured sag - 2, capped at 8. c09 (A #1): Ob1 55.5/57/271, CA 99/129.5/133.5, Fl1 190/252 added and Fl1 256 3 -> 5 (transition-sample holes of 8-10 dB at 1-2 semitone slurred steps, dB = pre-envelope dip - 3). c10 (A #2, A #4): a value may be {\"db\", \"pre_s\"}: 0 at onset - pre_s - 0.03 s, +db at onset - pre_s, held to onset + 0.10 s, 0 by + 0.35 s (holes that start before the score onset); its breakpoints are written exactly (parts.json vol_bp). Cl1 266, Fl1 270.5, Hn1 203 (pre_s), BCl 92.5, Ob1 270/142, CA 132, CA 133.5 4 -> 6; strings Vla 244/245.5/254.5, Vln II 59/60, Vc 77/86, Vln I 67.5. c11 (A #2, C #2): a dict value may carry \"hold_s\" (default 0.10): +db held to onset + hold_s, 0 by onset + hold_s + 0.25 s (holes longer than 0.10 s); pre_s defaults to 0. Bn1 231/262/269, Hn1 203 hold, Vln I 71/80/86, Vln II 65/66, CA 129.5/168, Ob1 142.5, Cl1 184/186, Vla 251.5; Horn 3 204 and Horn 2 210 (slow Ab4 Sus MAX attacks). After the c11 render: Horn 3 204 8 -> {8, hold 0.10} and Horn 2 210 6 -> {5, hold 0.22} (the plain 0.35 s hold put both 4-10 dB over their body at +0.3..+0.45 s, where the samples swell by themselves); applied to the rendered stems as a post-render envelope fix. c15 (A #2): Vc cantabile targets 74/75/246/247/249 (5-8 dB holes for 0.5 s, about 80% of the hole). c16: Ob1 271 7 -> 3 (B #1). c16 (C #2): tools/auto_fills.py 15 <c15 parts.json> measured every lead-line legato join on the c15 stems and wrote 110 entries (88 new, 22 raised); each is listed in its track's \"_auto\" key. Excluded: Ob1 271 (B #1 sets it to 3), Fl1 271 and Ob1 145.5 (B #1/#2 note trims). v600 port (series 2, c27, 2026-11-06): every onset key checked against v600 (pitch, length, the note before, printed dynamic, articulation); removed or moved: Flute 1 132, Flute 1 134, Flute 1 250, Flute 1 256, Flute 1 252, Flute 1 128, Flute 1 129.5, Flute 1 135, Flute 1 193, Flute 1 194, Oboe 1 145, Oboe 1 193, Clarinet 1 252, Clarinet 1 184, Clarinet 1 182, Clarinet 1 251.5, Bassoon 1 267, Bassoon 1 269, Horn 1 184, Horn 1 203, Horn 1 195, Horn 1 267, Horn 1 269, Horn 1 180, Horn 2 210, Bass clarinet 92.5, Bass clarinet 92, Bass clarinet 98, Bass clarinet 99, Bass clarinet 91.5, Violas 251.5, Violins II 59, Violoncellos 77, Violoncellos 247, Violoncellos 249, Violoncellos 157, Violoncellos 159, Violoncellos 160, Violoncellos 162, Violoncellos 219, Violoncellos 220, Violoncellos 267, Violoncellos 164, Violoncellos 180, Violins II div 108, Violas div 277 (moved to 279). c51: Flute 1 111 hold_s 0.30 (critic B #4); every dict fill on a note whose lead changed by 20 ms or more against c50 moved with its note-on (pre_s + d, hold_s - d; cycles/c51/actor_scripts/fillshift51.py). c52: 76 dict fills on notes whose lead changed by 20 ms or more against c51 moved with their note-on (cycles/c52/actor_scripts/fillshift52.py). c53: 4 dict fills on notes whose lead changed by 20 ms or more against c52 moved with their note-on (cycles/c53/actor_scripts/fillshift53.py).",
+ "Flute 1": {
+  "111": {
+   "db": 7.9,
+   "pre_s": -0.05,
+   "hold_s": 0.35
+  },
+  "118": {
+   "db": 6.0,
+   "pre_s": -0.117,
+   "hold_s": 0.297
+  },
+  "189": 6,
+  "198": 4,
+  "190": {
+   "db": 3.6,
+   "pre_s": 0.08,
+   "hold_s": 0.1
+  },
+  "270.5": {
+   "db": 3.5,
+   "pre_s": 0.06
+  },
+  "112": {
+   "db": 3.4,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "_auto": {
+   "112": "c18 raised (dip 4.1 dB at +0.04 s)",
+   "119": "c16 new (dip 6.5 dB at +0.36 s)",
+   "120": "c16 new (dip 7.4 dB at +0.13 s)",
+   "122": "c34 lowered (over 2.1 dB)",
+   "190": "c17 lowered (over 5.4 dB)",
+   "191.5": "c16 new (dip 5.2 dB at +0.24 s)",
+   "192": "c16 new (dip 5.7 dB at +0.27 s)",
+   "195.5": "c16 new (dip 5.8 dB at +0.14 s)",
+   "196": "c16 new (dip 7.7 dB at +0.14 s)",
+   "257.5": "c20 lowered by hand (critic B #4: Fl1 p eighths 5-7 dB over the mp Vln I tune); auto_fills must not raise it",
+   "258.5": "c20 lowered by hand (critic B #4); auto_fills must not raise it",
+   "270.5": "c17 lowered (over 2.5 dB)",
+   "118": "c34 raised (dip 5.6 dB at +0.13 s)",
+   "121.5": "c28 new (dip 4.5 dB at +0.08 s)",
+   "130": "c28 new (dip 8.6 dB at +0.14 s)",
+   "200": "c34 lowered (over 2.1 dB)",
+   "110": "c34 new (dip 4.3 dB at +0.19 s)",
+   "111": "c34 lowered after simulation (overshoot 2.1 dB)",
+   "135": "c34 new (dip 4.2 dB at +0.25 s)",
+   "113.5": "c47 set by hand (critic A #1: fill full just after the moved onset); auto_fills must not resize it"
+  },
+  "119": {
+   "db": 3.5,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "120": {
+   "db": 4.4,
+   "pre_s": 0.0,
+   "hold_s": 0.18
+  },
+  "122": {
+   "db": 1.4,
+   "pre_s": 0.07,
+   "hold_s": 0.1
+  },
+  "191.5": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.29
+  },
+  "192": {
+   "db": 2.7,
+   "pre_s": 0.0,
+   "hold_s": 0.32
+  },
+  "195.5": {
+   "db": 2.8,
+   "pre_s": 0.04,
+   "hold_s": 0.15
+  },
+  "196": {
+   "db": 4.7,
+   "pre_s": 0.0,
+   "hold_s": 0.19
+  },
+  "257.5": {
+   "db": 2.0,
+   "pre_s": 0.02,
+   "hold_s": 0.1
+  },
+  "258.5": {
+   "db": 2.5,
+   "pre_s": 0.0,
+   "hold_s": 0.23
+  },
+  "121.5": {
+   "db": 1.5,
+   "pre_s": 0.0,
+   "hold_s": 0.13
+  },
+  "130": {
+   "db": 7.1,
+   "pre_s": -0.17,
+   "hold_s": 0.36
+  },
+  "200": {
+   "db": 1.0,
+   "pre_s": -0.19,
+   "hold_s": 0.3
+  },
+  "110": {
+   "db": 1.3,
+   "pre_s": 0.0,
+   "hold_s": 0.24
+  },
+  "135": {
+   "db": 1.2,
+   "pre_s": -0.07,
+   "hold_s": 0.37
+  },
+  "131.5": {
+   "db": 2.7,
+   "pre_s": -0.025,
+   "hold_s": 0.225
+  },
+  "271": {
+   "db": 3.5,
+   "pre_s": -0.05,
+   "hold_s": 0.35
+  },
+  "113.5": {
+   "db": 4.2,
+   "pre_s": 0.06,
+   "hold_s": 0.17
+  }
+ },
+ "Oboe 1": {
+  "56": {
+   "db": 7.6,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "59": {
+   "db": 5.6,
+   "pre_s": 0.05,
+   "hold_s": 0.11
+  },
+  "140": {
+   "db": 7,
+   "pre_s": 0.08,
+   "hold_s": 0.17
+  },
+  "189": 4.0,
+  "262": 3,
+  "270.5": {
+   "db": 7.0,
+   "pre_s": 0.0,
+   "hold_s": 0.22
+  },
+  "55.5": 7,
+  "57": {
+   "db": 6.9,
+   "pre_s": 0.08,
+   "hold_s": 0.17
+  },
+  "271": {
+   "db": 5.5,
+   "pre_s": 0.045,
+   "hold_s": 0.035
+  },
+  "270": {
+   "db": 7.0,
+   "pre_s": -0.055,
+   "hold_s": 0.205
+  },
+  "43.5": {
+   "db": 2.3,
+   "pre_s": -0.02,
+   "hold_s": 0.21
+  },
+  "_auto": {
+   "43.5": "c16 new (dip 5.3 dB at +0.14 s)",
+   "45": "c19 lowered (over 2.5 dB)",
+   "55": "c16 new (dip 6.1 dB at +0.14 s)",
+   "57": "c17 lowered (over 2.1 dB)",
+   "59": "c16 raised (dip 5.6 dB at +0.11 s)",
+   "143": "c47 set by hand (critic A #1: fill full just after the moved onset); auto_fills must not resize it",
+   "146": "c47 set by hand (critic A #1: fill full just after the moved onset); auto_fills must not resize it",
+   "190": "c17 lowered (over 2.3 dB)",
+   "196": "c20 raised (dip 4.9 dB at -0.06 s)",
+   "198": "c16 new (dip 7.1 dB at -0.02 s)",
+   "200": "c18 raised (dip 4.4 dB at +0.23 s)",
+   "266": "c16 new (dip 5.9 dB at +0.07 s)",
+   "269": "c16 new (dip 6.0 dB at +0.35 s)",
+   "270": "c16 raised (dip 7.5 dB at +0.10 s)",
+   "270.5": "c16 raised (dip 7.0 dB at +0.17 s)",
+   "140": "c19 lowered (over 2.8 dB)",
+   "189": "c19 lowered (over 3.0 dB)",
+   "271": "c34 lowered (over 2.1 dB)",
+   "56": "c20 raised (dip 4.6 dB at +0.01 s)",
+   "145": "c28 new (dip 4.8 dB at +0.13 s)",
+   "47": "c47 set by hand (critic A #1: fill full just after the moved onset); auto_fills must not resize it",
+   "142": "c47 set by hand (critic A #1: fill full just after the moved onset); auto_fills must not resize it",
+   "142.5": "c47 set by hand (critic A #1: fill full just after the moved onset); auto_fills must not resize it"
+  },
+  "45": {
+   "db": 0.8,
+   "pre_s": 0.0,
+   "hold_s": 0.33
+  },
+  "55": {
+   "db": 3.1,
+   "pre_s": -0.02,
+   "hold_s": 0.21
+  },
+  "190": {
+   "db": 4.7,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "196": {
+   "db": 4.5,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "198": {
+   "db": 4.1,
+   "pre_s": 0.02,
+   "hold_s": 0.1
+  },
+  "200": {
+   "db": 6,
+   "pre_s": 0.0,
+   "hold_s": 0.08
+  },
+  "266": {
+   "db": 2.9,
+   "pre_s": -0.025,
+   "hold_s": 0.145
+  },
+  "269": {
+   "db": 3.0,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "145": {
+   "db": 1.8,
+   "pre_s": 0.02,
+   "hold_s": 0.16
+  },
+  "47": {
+   "db": 4.0,
+   "pre_s": 0.06,
+   "hold_s": 0.16
+  },
+  "142": {
+   "db": 4.0,
+   "pre_s": 0.06,
+   "hold_s": 0.08
+  },
+  "142.5": {
+   "db": 3.0,
+   "pre_s": 0.05,
+   "hold_s": 0.1
+  },
+  "143": {
+   "db": 6.0,
+   "pre_s": 0.065,
+   "hold_s": 0.155
+  },
+  "146": {
+   "db": 4.6,
+   "pre_s": 0.09,
+   "hold_s": 0.1
+  },
+  "199": {
+   "db": 6,
+   "pre_s": 0.06,
+   "hold_s": 0.22
+  },
+  "193.5": {
+   "db": 6,
+   "pre_s": 0.0,
+   "hold_s": 0.13
+  }
+ },
+ "Cor anglais": {
+  "98": {
+   "db": 6.2,
+   "pre_s": -0.02,
+   "hold_s": 0.13
+  },
+  "134": {
+   "db": 2.0,
+   "pre_s": -0.02,
+   "hold_s": 0.34
+  },
+  "135": {
+   "db": 6.6,
+   "pre_s": -0.02,
+   "hold_s": 0.15
+  },
+  "136": 5,
+  "99": {
+   "db": 5.6,
+   "pre_s": 0.0,
+   "hold_s": 0.19
+  },
+  "129.5": {
+   "db": 7,
+   "pre_s": 0.03
+  },
+  "133.5": {
+   "db": 7.2,
+   "pre_s": -0.02,
+   "hold_s": 0.12
+  },
+  "132": {
+   "db": 4.4,
+   "pre_s": -0.02,
+   "hold_s": 0.23
+  },
+  "168": {
+   "db": 4,
+   "pre_s": -0.02,
+   "hold_s": 0.24
+  },
+  "97": {
+   "db": 5,
+   "pre_s": 0.0,
+   "hold_s": 0.15
+  },
+  "126": {
+   "db": 6.7,
+   "pre_s": -0.02,
+   "hold_s": 0.17
+  },
+  "128": {
+   "db": 3.9,
+   "pre_s": 0,
+   "hold_s": 0.3
+  },
+  "129": {
+   "db": 5.3,
+   "pre_s": -0.02,
+   "hold_s": 0.12
+  },
+  "131.5": {
+   "db": 8.0,
+   "pre_s": -0.1,
+   "hold_s": 0.22
+  },
+  "_auto": {
+   "98": "c16 raised (dip 6.2 dB at +0.06 s)",
+   "99": "c17 lowered (over 3.0 dB)",
+   "125": "c16 new (dip 6.1 dB at +0.04 s)",
+   "126": "c16 raised (dip 5.7 dB at +0.10 s)",
+   "129": "c16 raised (dip 5.3 dB at +0.04 s)",
+   "131.5": "c16 raised (dip 8.4 dB at +0.07 s)",
+   "132": "c34 raised (dip 6.7 dB at +0.16 s)",
+   "133.5": "c16 raised (dip 5.2 dB at +0.04 s)",
+   "134": "c34 lowered (over 2.0 dB)",
+   "135": "c16 raised (dip 6.6 dB at +0.08 s)",
+   "152": "c18 lowered (over 2.2 dB)",
+   "163": "c16 new (dip 5.4 dB at +0.40 s)",
+   "97": "c18 lowered (critic A #5)",
+   "128": "c17 lowered (over 2.1 dB)",
+   "130": "c18 new (dip 4.3 dB at +0.08 s)",
+   "269": "c28 new (dip 4.6 dB at +0.07 s)",
+   "289": "c28 new (dip 4.6 dB at -0.03 s)",
+   "292": "c28 new (dip 5.2 dB at +0.04 s)",
+   "127.5": "c34 new (dip 4.1 dB at +0.12 s)"
+  },
+  "125": {
+   "db": 3.1,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "152": {
+   "db": 0.5,
+   "pre_s": -0.02,
+   "hold_s": 0.37
+  },
+  "163": {
+   "db": 2.4,
+   "pre_s": -0.02,
+   "hold_s": 0.37
+  },
+  "130": {
+   "db": 1.3,
+   "pre_s": 0.0,
+   "hold_s": 0.13
+  },
+  "269": {
+   "db": 1.6,
+   "pre_s": 0.0,
+   "hold_s": 0.12
+  },
+  "289": {
+   "db": 1.6,
+   "pre_s": 0.03,
+   "hold_s": 0.1
+  },
+  "292": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "286": {
+   "db": 6,
+   "pre_s": 0,
+   "hold_s": 0.2
+  },
+  "127.5": {
+   "db": 1.1,
+   "pre_s": -0.02,
+   "hold_s": 0.19
+  }
+ },
+ "Clarinet 1": {
+  "266": {
+   "db": 0.4,
+   "pre_s": 0.1,
+   "hold_s": 0.1
+  },
+  "186": {
+   "db": 5.0,
+   "pre_s": 0,
+   "hold_s": 0.35
+  },
+  "176": 1.6,
+  "_auto": {
+   "186": "c16 raised (dip 5.0 dB at +0.31 s)",
+   "257.5": "c16 new (dip 6.0 dB at +0.32 s)",
+   "266": "c34 lowered (over 2.1 dB)",
+   "269.5": "c17 raised (dip 5.5 dB at +0.29 s)",
+   "178": "c28 overshoot check on the c27 stem simulation (200 ms over +3.6 dB): db 2.5 -> 0.9",
+   "283": "c19 lowered (over 2.4 dB)",
+   "184": "c34 lowered (over 4.8 dB)",
+   "195": "c28 new (dip 7.5 dB at +0.04 s)",
+   "176": "c34 lowered (over 3.4 dB)",
+   "270": "c34 new (dip 6.7 dB at +0.28 s)"
+  },
+  "257.5": {
+   "db": 3.0,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "269.5": {
+   "db": 5.4,
+   "pre_s": 0.0,
+   "hold_s": 0.34
+  },
+  "283": {
+   "db": 3.0,
+   "pre_s": 0.035,
+   "hold_s": 0.315
+  },
+  "178": {
+   "db": 0.9,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "184": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "195": {
+   "db": 4.5,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "270": {
+   "db": 3.7,
+   "pre_s": 0.0,
+   "hold_s": 0.33
+  }
+ },
+ "Bassoon 1": {
+  "264": {
+   "db": 7.0,
+   "pre_s": 0.03,
+   "hold_s": 0.1
+  },
+  "231": {
+   "db": 6.6,
+   "pre_s": 0,
+   "hold_s": 0.35
+  },
+  "262": 5,
+  "24": {
+   "db": 4.0,
+   "pre_s": 0.0,
+   "hold_s": 0.4
+  },
+  "_auto": {
+   "24": "c34 held (dip 5.9 dB at +0.35 s)",
+   "36": "c34 lowered (over 4.0 dB)",
+   "38": "c28 new (dip 5.3 dB at +0.17 s)",
+   "39": "c34 lowered (over 2.3 dB)",
+   "145.5": "c34 retimed (dip 6.9 dB at -0.02 s)",
+   "146": "c34 held (dip 5.4 dB at +0.28 s)",
+   "182": "c34 lowered (over 2.2 dB)",
+   "198": "c28 new (dip 6.4 dB at +0.14 s)",
+   "199": "c28 new (dip 8.8 dB at +0.09 s)",
+   "200": "c28 new (dip 5.6 dB at +0.10 s)",
+   "231": "c34 lowered (over 2.4 dB)",
+   "238": "c28 new (dip 7.4 dB at +0.35 s)",
+   "252": "c28 new (dip 6.5 dB at +0.19 s)",
+   "253": "c28 new (dip 8.2 dB at +0.01 s)",
+   "255": "c34 held (dip 6.5 dB at +0.31 s)",
+   "256": "c34 lowered after simulation (overshoot 3.6 dB)",
+   "261": "c35 lowered after render (peak 6.8 dB over body once led)",
+   "263": "c34 raised (dip 5.6 dB at +0.31 s)",
+   "264": "c34 retimed (dip 5.3 dB at -0.03 s)",
+   "142.5": "c34 new (dip 7.6 dB at +0.26 s)",
+   "145": "c34 new (dip 5.1 dB at +0.12 s)"
+  },
+  "36": {
+   "db": 1.7,
+   "pre_s": -0.11,
+   "hold_s": 0.33
+  },
+  "38": {
+   "db": 2.3,
+   "pre_s": 0.0,
+   "hold_s": 0.22
+  },
+  "39": {
+   "db": 3.7,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "145.5": {
+   "db": 6.0,
+   "pre_s": 0.02,
+   "hold_s": 0.1
+  },
+  "146": {
+   "db": 5.8,
+   "pre_s": 0.0,
+   "hold_s": 0.33
+  },
+  "182": {
+   "db": 4.8,
+   "pre_s": 0.0,
+   "hold_s": 0.3
+  },
+  "198": {
+   "db": 3.4,
+   "pre_s": 0.0,
+   "hold_s": 0.19
+  },
+  "199": {
+   "db": 5.8,
+   "pre_s": 0.0,
+   "hold_s": 0.14
+  },
+  "200": {
+   "db": 2.6,
+   "pre_s": 0.0,
+   "hold_s": 0.15
+  },
+  "238": {
+   "db": 4.4,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "252": {
+   "db": 3.5,
+   "pre_s": 0.0,
+   "hold_s": 0.24
+  },
+  "253": {
+   "db": 5.2,
+   "pre_s": 0.085,
+   "hold_s": 0.015
+  },
+  "255": {
+   "db": 5.4,
+   "pre_s": 0.11,
+   "hold_s": 0.36
+  },
+  "256": {
+   "db": 4.4,
+   "pre_s": 0.0,
+   "hold_s": 0.46
+  },
+  "261": {
+   "db": 1.7,
+   "pre_s": 0.0,
+   "hold_s": 0.38
+  },
+  "263": {
+   "db": 5.0,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "140": {
+   "db": 5.5,
+   "pre_s": 0,
+   "hold_s": 0.1
+  },
+  "142.5": {
+   "db": 4.6,
+   "pre_s": 0.0,
+   "hold_s": 0.31
+  },
+  "145": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.17
+  },
+  "201": {
+   "db": 3.4,
+   "pre_s": 0,
+   "hold_s": 0.1
+  },
+  "258": {
+   "db": 6.0,
+   "pre_s": 0,
+   "hold_s": 0.1
+  }
+ },
+ "Horn 1": {
+  "39": 4,
+  "176": 5,
+  "188": 4,
+  "199": {
+   "db": 5.7,
+   "pre_s": 0.09,
+   "hold_s": 0.1
+  },
+  "22": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.14
+  },
+  "_auto": {
+   "22": "c16 new (dip 5.1 dB at +0.09 s)",
+   "24": "c34 raised (dip 5.6 dB at +0.05 s)",
+   "37.5": "c20 raised (dip 5.2 dB at +0.17 s)",
+   "200": "c16 new (dip 7.0 dB at +0.40 s)",
+   "201": "c16 new (dip 6.9 dB at +0.10 s)",
+   "231": "c16 new (dip 5.4 dB at +0.08 s)",
+   "263": "c16 new (dip 5.1 dB at +0.05 s)",
+   "271": "c16 new (dip 5.1 dB at +0.05 s)",
+   "27": "c18 new (dip 5.4 dB at +0.14 s)",
+   "202": "c34 lowered (over 3.5 dB)",
+   "36": "c28 retimed (dip 5.0 dB at -0.07 s)",
+   "26": "c25 new (dip 6.5 dB at +0.17 s)",
+   "182": "c34 held (dip 4.3 dB at +0.38 s)",
+   "198": "c34 new (dip 7.2 dB at -0.02 s)",
+   "199": "c34 raised (dip 5.7 dB at -0.09 s)"
+  },
+  "24": {
+   "db": 4.0,
+   "pre_s": -0.045,
+   "hold_s": 0.145
+  },
+  "37.5": {
+   "db": 3.8,
+   "pre_s": -0.035,
+   "hold_s": 0.255
+  },
+  "200": {
+   "db": 4.0,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "201": {
+   "db": 4,
+   "pre_s": 0.065,
+   "hold_s": 0.155
+  },
+  "231": {
+   "db": 2.4,
+   "pre_s": -0.045,
+   "hold_s": 0.175
+  },
+  "263": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "271": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "27": {
+   "db": 2.4,
+   "pre_s": -0.055,
+   "hold_s": 0.245
+  },
+  "202": {
+   "db": 4.0,
+   "pre_s": 0.105,
+   "hold_s": 0.515
+  },
+  "36": {
+   "db": 2.1,
+   "pre_s": 0.085,
+   "hold_s": 0.385
+  },
+  "26": {
+   "db": 3.5,
+   "pre_s": -0.085,
+   "hold_s": 0.305
+  },
+  "182": {
+   "db": 4.0,
+   "pre_s": 0.05,
+   "hold_s": 0.43
+  },
+  "198": {
+   "db": 4.2,
+   "pre_s": 0.02,
+   "hold_s": 0.1
+  },
+  "193": {
+   "db": 3.5,
+   "pre_s": -0.075,
+   "hold_s": 0.375
+  }
+ },
+ "Horn 2": {
+  "252": 4,
+  "258": 6
+ },
+ "Bass clarinet": {
+  "_auto": {
+   "21": "c28 new (dip 5.1 dB at +0.22 s)",
+   "23": "c28 new (dip 5.6 dB at +0.06 s)",
+   "26": "c28 new (dip 6.6 dB at +0.19 s)",
+   "35": "c28 new (dip 7.9 dB at +0.08 s)",
+   "93": "c28 new (dip 5.4 dB at +0.13 s)",
+   "97": "c28 new (dip 5.2 dB at +0.15 s)",
+   "101": "c28 new (dip 5.1 dB at +0.32 s)",
+   "106": "c28 new (dip 5.2 dB at +0.20 s)",
+   "92": "c47 set by hand (critic A #1: fill full just after the moved onset); auto_fills must not resize it",
+   "92.5": "c47 new (auto_fills on c46: dip 6.5 dB at -0.00 s; kept after simulation: stem hole 4.7 -> 2.3 dB)"
+  },
+  "21": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.27
+  },
+  "23": {
+   "db": 2.6,
+   "pre_s": 0.0,
+   "hold_s": 0.11
+  },
+  "26": {
+   "db": 3.6,
+   "pre_s": 0.0,
+   "hold_s": 0.24
+  },
+  "35": {
+   "db": 4.9,
+   "pre_s": 0.0,
+   "hold_s": 0.13
+  },
+  "93": {
+   "db": 2.4,
+   "pre_s": 0.0,
+   "hold_s": 0.18
+  },
+  "97": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.2
+  },
+  "101": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "106": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.25
+  },
+  "91.5": {
+   "db": 4.4,
+   "pre_s": 0,
+   "hold_s": 0.2
+  },
+  "92": {
+   "db": 4.0,
+   "pre_s": 0.065,
+   "hold_s": 0.125
+  },
+  "92.5": {
+   "db": 3.5,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  }
+ },
+ "Violas": {
+  "244": {
+   "db": 6,
+   "pre_s": 0.015,
+   "hold_s": 0.145
+  },
+  "245.5": 4,
+  "254.5": {
+   "db": 5,
+   "pre_s": 0.105,
+   "hold_s": 0.035
+  },
+  "42": {
+   "db": 4.0,
+   "pre_s": 0,
+   "hold_s": 0.4
+  },
+  "_auto": {
+   "42": "c23 entry fill (critic A #2, set by hand)",
+   "3": "c34 retimed (dip 7.2 dB at -0.24 s)",
+   "48": "c28 new (dip 6.7 dB at +0.13 s)",
+   "56": "c34 removed (simulated overshoot 10.9 dB)",
+   "57": "c34 lowered after simulation (overshoot 2.5 dB)",
+   "75": "c28 new (dip 5.0 dB at +0.05 s)",
+   "84": "c28 new (dip 5.4 dB at +0.27 s)",
+   "144": "c34 lowered (over 2.2 dB)",
+   "146": "c34 removed (over 2.9 dB)",
+   "247.5": "c28 new (dip 5.5 dB at +0.06 s)",
+   "266": "c35 lowered after render (peak 6.0 dB over body once led)"
+  },
+  "3": {
+   "db": 4.2,
+   "pre_s": 0.255,
+   "hold_s": 0.385
+  },
+  "48": {
+   "db": 3.7,
+   "pre_s": 0.0,
+   "hold_s": 0.18
+  },
+  "57": {
+   "db": 3.0,
+   "pre_s": 0.28,
+   "hold_s": 0.35
+  },
+  "75": {
+   "db": 2.0,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "84": {
+   "db": 4.0,
+   "pre_s": 0.025,
+   "hold_s": 0.395
+  },
+  "144": {
+   "db": 4.8,
+   "pre_s": 0.0,
+   "hold_s": 0.34
+  },
+  "247.5": {
+   "db": 2.5,
+   "pre_s": -0.06,
+   "hold_s": 0.17
+  },
+  "266": {
+   "db": 2.5,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "78": {
+   "db": 6.5,
+   "pre_s": 0,
+   "hold_s": 0.1
+  },
+  "140": {
+   "db": 3,
+   "pre_s": 0.0,
+   "hold_s": 0.12
+  }
+ },
+ "Violins II": {
+  "60": {
+   "db": 4,
+   "pre_s": 0.06,
+   "hold_s": 0.15
+  },
+  "65": {
+   "db": 5,
+   "pre_s": 0.19,
+   "hold_s": 0.0
+  },
+  "66": {
+   "db": 5,
+   "pre_s": 0.085,
+   "hold_s": 0.425
+  },
+  "172.0": {
+   "db": 4,
+   "pre_s": 0.115,
+   "hold_s": 0.235
+  },
+  "65.5": {
+   "db": 5.0,
+   "pre_s": 0.1,
+   "hold_s": 0.41
+  },
+  "_auto": {
+   "65.5": "c28 retimed (dip 6.2 dB at -0.08 s)",
+   "74": "c28 lowered (over 2.0 dB)",
+   "80": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "84": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "87": "c34 new (dip 7.9 dB at +0.18 s)",
+   "240": "c28 retimed (dip 6.2 dB at -0.03 s)",
+   "108": "c23 entry fill (critic A #2, set by hand)",
+   "60": "c28 lowered (over 3.6 dB)",
+   "68": "c28 new (dip 8.0 dB at +0.08 s)",
+   "70": "c34 retimed (dip 8.8 dB at -0.02 s)",
+   "71": "c34 lowered (over 2.2 dB)",
+   "82": "c37 removed by hand (critic B #4: Vln II 6-8 dB over the unison Vln I at the f arrival)",
+   "83": "c28 new (dip 9.1 dB at +0.16 s)",
+   "146": "c28 new (dip 5.4 dB at +0.22 s)",
+   "152": "c28 new (dip 6.0 dB at +0.27 s)",
+   "154": "c28 new (dip 6.2 dB at +0.07 s)",
+   "159": "c34 held (dip 6.1 dB at +0.33 s)",
+   "161": "c34 held (dip 5.2 dB at +0.38 s)",
+   "162": "c34 lowered after simulation (overshoot 2.1 dB)",
+   "164": "c34 removed (over 3.0 dB)",
+   "189": "c34 retimed (dip 5.3 dB at -0.18 s)",
+   "190": "c34 retimed (dip 7.0 dB at +0.00 s)",
+   "204": "c34 lowered after simulation (overshoot 2.5 dB)",
+   "242": "c34 lowered (over 2.8 dB)",
+   "252": "c28 new (dip 6.7 dB at +0.17 s)",
+   "256": "c34 retimed (dip 5.8 dB at -0.19 s)",
+   "259": "c28 new (dip 5.4 dB at -0.15 s)",
+   "261": "c28 new (dip 6.8 dB at +0.11 s)",
+   "269": "c28 new (dip 5.1 dB at +0.30 s)",
+   "270.5": "c28 new (dip 5.5 dB at +0.03 s)",
+   "66": "c34 retimed (dip 5.4 dB at -0.06 s)",
+   "78": "c34 new (dip 6.5 dB at +0.39 s)",
+   "168": "c34 new (dip 6.0 dB at +0.20 s)",
+   "188": "c34 new (dip 5.3 dB at +0.15 s)",
+   "269.5": "c34 new (dip 5.2 dB at +0.01 s)",
+   "206": "c35 set by hand (critic A #3)",
+   "218": "c35 set by hand (critic C #1)"
+  },
+  "74": {
+   "db": 4.0,
+   "pre_s": -0.065,
+   "hold_s": 0.295
+  },
+  "80": {
+   "db": 5.0,
+   "pre_s": 0.1,
+   "hold_s": 0.22
+  },
+  "84": {
+   "db": 4.0,
+   "pre_s": 0.1,
+   "hold_s": 0.13
+  },
+  "240": {
+   "db": 4.5,
+   "pre_s": 0.16,
+   "hold_s": 0.35
+  },
+  "108": {
+   "db": 6.3,
+   "pre_s": 0,
+   "hold_s": 0.2
+  },
+  "68": {
+   "db": 5.0,
+   "pre_s": 0.0,
+   "hold_s": 0.13
+  },
+  "70": {
+   "db": 6.0,
+   "pre_s": 0.06,
+   "hold_s": 0.35
+  },
+  "71": {
+   "db": 1.2,
+   "pre_s": 0.06,
+   "hold_s": 0.04
+  },
+  "83": {
+   "db": 6.0,
+   "pre_s": 0.015,
+   "hold_s": 0.195
+  },
+  "146": {
+   "db": 2.4,
+   "pre_s": 0.135,
+   "hold_s": 0.135
+  },
+  "152": {
+   "db": 3.0,
+   "pre_s": 0.11,
+   "hold_s": 0.21
+  },
+  "154": {
+   "db": 3.2,
+   "pre_s": 0.18,
+   "hold_s": 0.0
+  },
+  "159": {
+   "db": 4.3,
+   "pre_s": 0.045,
+   "hold_s": 0.345
+  },
+  "161": {
+   "db": 4.0,
+   "pre_s": 0.0,
+   "hold_s": 0.43
+  },
+  "162": {
+   "db": 4.3,
+   "pre_s": 0.44,
+   "hold_s": 0.35
+  },
+  "189": {
+   "db": 2.6,
+   "pre_s": 0.23,
+   "hold_s": 0.35
+  },
+  "190": {
+   "db": 4.0,
+   "pre_s": 0.215,
+   "hold_s": 0.225
+  },
+  "204": {
+   "db": 3.9,
+   "pre_s": 0.19,
+   "hold_s": 0.31
+  },
+  "242": {
+   "db": 3.1,
+   "pre_s": -0.08,
+   "hold_s": 0.18
+  },
+  "252": {
+   "db": 3.7,
+   "pre_s": 0.0,
+   "hold_s": 0.22
+  },
+  "256": {
+   "db": 3.3,
+   "pre_s": 0.26,
+   "hold_s": 0.33
+  },
+  "259": {
+   "db": 2.4,
+   "pre_s": 0.15,
+   "hold_s": 0.1
+  },
+  "261": {
+   "db": 3.8,
+   "pre_s": 0.0,
+   "hold_s": 0.16
+  },
+  "269": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "270.5": {
+   "db": 2.5,
+   "pre_s": 0.05,
+   "hold_s": 0.05
+  },
+  "42": {
+   "db": 4.5,
+   "pre_s": 0,
+   "hold_s": 0.1
+  },
+  "59": {
+   "db": 5.5,
+   "pre_s": 0,
+   "hold_s": 0.1
+  },
+  "140": {
+   "db": 3,
+   "pre_s": 0,
+   "hold_s": 0.2
+  },
+  "286": {
+   "db": 3.5,
+   "pre_s": 0,
+   "hold_s": 0.15
+  },
+  "78": {
+   "db": 3.5,
+   "pre_s": -0.075,
+   "hold_s": 0.425
+  },
+  "87": {
+   "db": 4.9,
+   "pre_s": 0.0,
+   "hold_s": 0.23
+  },
+  "168": {
+   "db": 3.0,
+   "pre_s": 0.08,
+   "hold_s": 0.17
+  },
+  "188": {
+   "db": 2.3,
+   "pre_s": 0.075,
+   "hold_s": 0.125
+  },
+  "269.5": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "206": {
+   "db": 5,
+   "pre_s": 0.06,
+   "hold_s": 0.09
+  },
+  "218": {
+   "db": 4,
+   "pre_s": 0,
+   "hold_s": 0.15
+  },
+  "82": {
+   "db": 4,
+   "pre_s": 0.305,
+   "hold_s": 0.0
+  }
+ },
+ "Violoncellos": {
+  "86": 4,
+  "68": {
+   "db": 4.0,
+   "pre_s": -0.05,
+   "hold_s": 0.1
+  },
+  "78": {
+   "db": 3,
+   "pre_s": 0,
+   "hold_s": 0.3
+  },
+  "74": {
+   "db": 1.8,
+   "pre_s": 0.255,
+   "hold_s": 0.385
+  },
+  "75": {
+   "db": 4.3,
+   "pre_s": 0.1,
+   "hold_s": 0.35
+  },
+  "246": {
+   "db": 5,
+   "pre_s": 0.03,
+   "hold_s": 0.39
+  },
+  "50": {
+   "db": 3.4,
+   "pre_s": 0.09,
+   "hold_s": 0.38
+  },
+  "_auto": {
+   "50": "c34 lowered (over 3.2 dB)",
+   "51": "c16 new (dip 11.6 dB at +0.17 s)",
+   "56": "c16 new (dip 7.2 dB at -0.14 s)",
+   "63": "c34 retimed (dip 6.2 dB at -0.18 s)",
+   "71": "c16 new (dip 6.8 dB at +0.21 s)",
+   "80": "c16 new (dip 7.2 dB at -0.21 s)",
+   "81": "c28 retimed (dip 7.9 dB at -0.06 s)",
+   "87": "c28 lowered (over 2.3 dB)",
+   "130": "c16 new (dip 7.3 dB at +0.16 s)",
+   "131": "c34 lowered (over 2.6 dB)",
+   "132": "c28 retimed (dip 5.2 dB at -0.01 s)",
+   "140": "c47 set by hand (critic A #1, pre_s shortened so the old note's tail is not lifted); auto_fills must not resize it",
+   "144": "c16 new (dip 5.6 dB at -0.17 s)",
+   "156": "c28 held (dip 4.6 dB at +0.29 s)",
+   "186": "c16 new (dip 5.9 dB at +0.14 s)",
+   "188": "c16 new (dip 11.9 dB at +0.04 s)",
+   "193": "c28 retimed (dip 5.2 dB at -0.05 s)",
+   "196": "c16 new (dip 5.0 dB at +0.10 s)",
+   "198": "c16 new (dip 5.2 dB at +0.16 s)",
+   "199": "c18 lowered (over 4.2 dB)",
+   "243": "c16 new (dip 5.3 dB at +0.15 s)",
+   "250": "c16 new (dip 8.5 dB at -0.05 s)",
+   "252": "c34 lowered (over 2.2 dB)",
+   "253": "c16 new (dip 8.9 dB at +0.30 s)",
+   "255": "c34 lowered (over 4.3 dB)",
+   "256": "c34 lowered after simulation (overshoot 3.4 dB)",
+   "258": "c16 new (dip 6.1 dB at +0.24 s)",
+   "263": "c17 lowered (over 2.2 dB)",
+   "264": "c16 new (dip 7.9 dB at -0.13 s)",
+   "60": "c28 retimed (dip 5.6 dB at -0.10 s)",
+   "271": "c17 new (dip 5.5 dB at +0.08 s)",
+   "201": "c18 new (dip 5.7 dB at +0.08 s)",
+   "202": "c34 lowered after simulation (overshoot 3.2 dB)",
+   "259": "c21 lowered (over 2.0 dB)",
+   "54": "c20 new (dip 6.9 dB at -0.14 s)",
+   "192": "c22 new (dip 5.2 dB at +0.02 s)",
+   "74": "c34 lowered (over 5.7 dB)",
+   "76": "c28 new (dip 6.4 dB at -0.05 s)",
+   "77": "c34 lowered (over 2.8 dB)",
+   "83": "c28 new (dip 7.3 dB at +0.36 s)",
+   "129": "c28 new (dip 6.0 dB at +0.26 s)",
+   "135": "c28 new (dip 5.1 dB at +0.25 s)",
+   "146": "c34 retimed (dip 7.5 dB at -0.05 s)",
+   "158": "c28 new (dip 5.7 dB at -0.03 s)",
+   "164": "c34 retimed (dip 6.8 dB at -0.04 s)",
+   "168": "c28 new (dip 5.2 dB at -0.26 s)",
+   "180": "c28 new (dip 9.9 dB at +0.03 s)",
+   "210": "c34 removed (over 4.2 dB)",
+   "246": "c37 lowered by hand (critic B #1: 10 dB spike over the violins in a p bar)",
+   "248": "c34 retimed (dip 6.9 dB at -0.05 s)",
+   "262": "c28 new (dip 6.0 dB at -0.10 s)",
+   "269": "c28 new (dip 6.4 dB at -0.04 s)",
+   "289": "c28 new (dip 7.6 dB at -0.09 s)",
+   "75": "c34 lowered (over 2.7 dB)",
+   "238": "c35 set by hand (critic C #4)",
+   "240": "c47 set by hand (critic A #1, pre_s shortened so the old note's tail is not lifted); auto_fills must not resize it",
+   "248.5": "c47 set by hand (critic A #1: fill full just after the moved onset); auto_fills must not resize it"
+  },
+  "51": {
+   "db": 6.0,
+   "pre_s": -0.05,
+   "hold_s": 0.27
+  },
+  "56": {
+   "db": 4.2,
+   "pre_s": 0.04,
+   "hold_s": 0.2
+  },
+  "63": {
+   "db": 4.4,
+   "pre_s": 0.115,
+   "hold_s": 0.465
+  },
+  "71": {
+   "db": 3.8,
+   "pre_s": 0.0,
+   "hold_s": 0.26
+  },
+  "80": {
+   "db": 4.2,
+   "pre_s": 0.21,
+   "hold_s": 0.1
+  },
+  "81": {
+   "db": 6.0,
+   "pre_s": 0.12,
+   "hold_s": 0.34
+  },
+  "87": {
+   "db": 3.9,
+   "pre_s": 0.0,
+   "hold_s": 0.15
+  },
+  "130": {
+   "db": 4.3,
+   "pre_s": -0.05,
+   "hold_s": 0.26
+  },
+  "131": {
+   "db": 1.2,
+   "pre_s": 0.19,
+   "hold_s": 0.3
+  },
+  "132": {
+   "db": 3.5,
+   "pre_s": 0.14,
+   "hold_s": 0.3
+  },
+  "144": {
+   "db": 2.6,
+   "pre_s": 0.17,
+   "hold_s": 0.1
+  },
+  "156": {
+   "db": 1.5,
+   "pre_s": 0.12,
+   "hold_s": 0.24
+  },
+  "186": {
+   "db": 2.9,
+   "pre_s": 0.085,
+   "hold_s": 0.105
+  },
+  "188": {
+   "db": 6.0,
+   "pre_s": 0.08,
+   "hold_s": 0.02
+  },
+  "193": {
+   "db": 3.0,
+   "pre_s": 0.135,
+   "hold_s": 0.315
+  },
+  "196": {
+   "db": 2.0,
+   "pre_s": 0.043,
+   "hold_s": 0.107
+  },
+  "198": {
+   "db": 2.2,
+   "pre_s": 0.05,
+   "hold_s": 0.16
+  },
+  "199": {
+   "db": 1.9,
+   "pre_s": -0.015,
+   "hold_s": 0.195
+  },
+  "243": {
+   "db": 2.3,
+   "pre_s": -0.045,
+   "hold_s": 0.245
+  },
+  "250": {
+   "db": 5.5,
+   "pre_s": 0.04,
+   "hold_s": 0.11
+  },
+  "252": {
+   "db": 4.8,
+   "pre_s": 0.19,
+   "hold_s": 0.39
+  },
+  "253": {
+   "db": 5.9,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "255": {
+   "db": 5,
+   "pre_s": 0.05,
+   "hold_s": 0.13
+  },
+  "258": {
+   "db": 3.1,
+   "pre_s": 0.0,
+   "hold_s": 0.29
+  },
+  "263": {
+   "db": 2.2,
+   "pre_s": -0.06,
+   "hold_s": 0.3
+  },
+  "264": {
+   "db": 4.9,
+   "pre_s": 0.06,
+   "hold_s": 0.17
+  },
+  "60": {
+   "db": 2.9,
+   "pre_s": 0.2,
+   "hold_s": 0.24
+  },
+  "271": {
+   "db": 2.5,
+   "pre_s": -0.04,
+   "hold_s": 0.17
+  },
+  "201": {
+   "db": 2.7,
+   "pre_s": 0.035,
+   "hold_s": 0.095
+  },
+  "259": {
+   "db": 0.6,
+   "pre_s": 0.015,
+   "hold_s": 0.275
+  },
+  "54": {
+   "db": 3.9,
+   "pre_s": 0.085,
+   "hold_s": 0.155
+  },
+  "192": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "76": {
+   "db": 3.4,
+   "pre_s": 0.025,
+   "hold_s": 0.075
+  },
+  "77": {
+   "db": 0.2,
+   "pre_s": 0.0,
+   "hold_s": 0.2
+  },
+  "83": {
+   "db": 4.3,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  },
+  "129": {
+   "db": 3.0,
+   "pre_s": 0.0,
+   "hold_s": 0.31
+  },
+  "135": {
+   "db": 2.1,
+   "pre_s": 0.0,
+   "hold_s": 0.3
+  },
+  "146": {
+   "db": 4.6,
+   "pre_s": 0.09,
+   "hold_s": 0.4
+  },
+  "158": {
+   "db": 2.7,
+   "pre_s": 0.03,
+   "hold_s": 0.1
+  },
+  "164": {
+   "db": 5.0,
+   "pre_s": 0.165,
+   "hold_s": 0.325
+  },
+  "168": {
+   "db": 2.2,
+   "pre_s": 0.26,
+   "hold_s": 0.1
+  },
+  "180": {
+   "db": 6.0,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "248": {
+   "db": 4.6,
+   "pre_s": 0.085,
+   "hold_s": 0.405
+  },
+  "262": {
+   "db": 3.0,
+   "pre_s": 0.065,
+   "hold_s": 0.135
+  },
+  "269": {
+   "db": 1.0,
+   "pre_s": 0.04,
+   "hold_s": 0.1
+  },
+  "289": {
+   "db": 4.6,
+   "pre_s": 0.09,
+   "hold_s": 0.1
+  },
+  "139": {
+   "db": 7,
+   "pre_s": 0,
+   "hold_s": 0.1
+  },
+  "124": {
+   "db": 6,
+   "pre_s": 0,
+   "hold_s": 0.2
+  },
+  "152": {
+   "db": 3,
+   "pre_s": 0,
+   "hold_s": 0.1
+  },
+  "202": {
+   "db": 3.0,
+   "pre_s": 0.05,
+   "hold_s": 0.08
+  },
+  "256": {
+   "db": 0.9,
+   "pre_s": 0.13,
+   "hold_s": 0.08
+  },
+  "238": {
+   "db": 4,
+   "pre_s": 0,
+   "hold_s": 0.15
+  },
+  "206": {
+   "db": 3.3,
+   "pre_s": 0.045,
+   "hold_s": 0.075
+  },
+  "286": {
+   "db": 4,
+   "pre_s": 0.0,
+   "hold_s": 0.25
+  },
+  "140": {
+   "db": 8.0,
+   "pre_s": 0.1,
+   "hold_s": 0.32
+  },
+  "240": {
+   "db": 6.6,
+   "pre_s": 0.035,
+   "hold_s": 0.215
+  },
+  "248.5": {
+   "db": 4.8,
+   "pre_s": 0.08,
+   "hold_s": 0.19
+  }
+ },
+ "Violins I": {
+  "71": {
+   "db": 0.2,
+   "pre_s": -0.05,
+   "hold_s": 0.45
+  },
+  "80": {
+   "db": 2.0,
+   "pre_s": -0.05,
+   "hold_s": 0.25
+  },
+  "86": {
+   "db": 0.1,
+   "pre_s": 0.035,
+   "hold_s": 0.315
+  },
+  "68": {
+   "db": 1.5,
+   "pre_s": 0.09,
+   "hold_s": 0.31
+  },
+  "_auto": {
+   "71": "c28 lowered (over 2.8 dB)",
+   "80": "c21 lowered by hand (critic A #2); auto_fills must not raise it",
+   "68": "c21 lowered by hand (critic A #2); auto_fills must not raise it",
+   "65.5": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "74": "c23 set by hand (critic A #1, unison sum); auto_fills does not scan violins",
+   "84": "c34 lowered (over 2.6 dB)",
+   "87": "c34 removed (over 2.0 dB)",
+   "240": "c28 lowered (over 2.1 dB)",
+   "66": "c28 new (dip 6.4 dB at +0.22 s)",
+   "70": "c28 new (dip 5.3 dB at +0.32 s)",
+   "73.5": "c28 new (dip 8.9 dB at +0.07 s)",
+   "75": "c34 removed (simulated overshoot 4.9 dB)",
+   "77": "c34 retimed (dip 7.0 dB at -0.13 s)",
+   "83": "c28 new (dip 5.4 dB at +0.11 s)",
+   "85": "c28 new (dip 5.9 dB at +0.31 s)",
+   "86": "c28 lowered (over 4.9 dB)",
+   "178": "c28 new (dip 5.4 dB at +0.17 s)",
+   "186": "c34 lowered (over 3.3 dB)",
+   "188": "c28 new (dip 7.2 dB at +0.07 s)",
+   "189": "c34 retimed (dip 5.4 dB at -0.04 s)",
+   "190": "c28 new (dip 5.7 dB at +0.07 s)",
+   "198": "c28 new (dip 5.8 dB at +0.14 s)",
+   "208": "c28 new (dip 5.7 dB at +0.24 s)",
+   "244": "c28 new (dip 6.8 dB at +0.25 s)",
+   "246": "c28 new (dip 5.8 dB at +0.13 s)",
+   "247": "c28 new (dip 5.8 dB at -0.15 s)",
+   "270": "c34 lowered after simulation (overshoot 2.6 dB)",
+   "86.5": "c34 lowered after simulation (overshoot 5.0 dB)",
+   "184": "c34 lowered after simulation (overshoot 3.9 dB)",
+   "292": "c35 set by hand (critic C #4)"
+  },
+  "65.5": {
+   "db": 3.5,
+   "pre_s": -0.03,
+   "hold_s": 0.29
+  },
+  "74": {
+   "db": 2.5,
+   "pre_s": -0.02,
+   "hold_s": 0.28
+  },
+  "84": {
+   "db": 0.1,
+   "pre_s": 0.08,
+   "hold_s": 0.27
+  },
+  "240": {
+   "db": 2.9,
+   "pre_s": -0.045,
+   "hold_s": 0.345
+  },
+  "66": {
+   "db": 3.4,
+   "pre_s": 0.0,
+   "hold_s": 0.27
+  },
+  "70": {
+   "db": 2.3,
+   "pre_s": -0.04,
+   "hold_s": 0.39
+  },
+  "73.5": {
+   "db": 5.9,
+   "pre_s": -0.05,
+   "hold_s": 0.17
+  },
+  "77": {
+   "db": 6.0,
+   "pre_s": 0.195,
+   "hold_s": 0.335
+  },
+  "83": {
+   "db": 2.4,
+   "pre_s": 0.07,
+   "hold_s": 0.09
+  },
+  "85": {
+   "db": 2.9,
+   "pre_s": 0.08,
+   "hold_s": 0.27
+  },
+  "178": {
+   "db": 2.4,
+   "pre_s": 0.05,
+   "hold_s": 0.17
+  },
+  "186": {
+   "db": 0.1,
+   "pre_s": 0.0,
+   "hold_s": 0.21
+  },
+  "188": {
+   "db": 4.2,
+   "pre_s": 0.045,
+   "hold_s": 0.075
+  },
+  "189": {
+   "db": 2.7,
+   "pre_s": 0.175,
+   "hold_s": 0.265
+  },
+  "190": {
+   "db": 2.7,
+   "pre_s": 0.045,
+   "hold_s": 0.075
+  },
+  "198": {
+   "db": 2.8,
+   "pre_s": 0.01,
+   "hold_s": 0.18
+  },
+  "208": {
+   "db": 2.7,
+   "pre_s": 0.0,
+   "hold_s": 0.29
+  },
+  "244": {
+   "db": 3.8,
+   "pre_s": -0.04,
+   "hold_s": 0.34
+  },
+  "246": {
+   "db": 2.8,
+   "pre_s": -0.035,
+   "hold_s": 0.215
+  },
+  "247": {
+   "db": 2.8,
+   "pre_s": 0.03,
+   "hold_s": 0.22
+  },
+  "270": {
+   "db": 3.8,
+   "pre_s": 0.09,
+   "hold_s": 0.35
+  },
+  "171": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.15
+  },
+  "86.5": {
+   "db": 1.2,
+   "pre_s": 0.26,
+   "hold_s": 0.06
+  },
+  "184": {
+   "db": 1.7,
+   "pre_s": 0.05,
+   "hold_s": 0.3
+  },
+  "292": {
+   "db": 3,
+   "pre_s": 0,
+   "hold_s": 0.15
+  }
+ },
+ "Horn 3": {
+  "204": {
+   "db": 2,
+   "pre_s": 0,
+   "hold_s": 0.1
+  },
+  "_auto": {
+   "204": "c22 set by hand (pull fix): 8 -> 2"
+  }
+ },
+ "Violin I solo": {
+  "51": {
+   "db": 2.1,
+   "pre_s": 0.21,
+   "hold_s": 0.35
+  },
+  "_auto": {
+   "51": "c28 retimed (dip 5.1 dB at -0.16 s)"
+  }
+ },
+ "Double basses": {
+  "140": {
+   "db": 8,
+   "pre_s": 0,
+   "hold_s": 0.2
+  },
+  "_auto": {
+   "140": "c23 entry fill (critic A #2, set by hand)"
+  },
+  "184": {
+   "db": 3,
+   "pre_s": 0.0,
+   "hold_s": 0.12
+  },
+  "216": {
+   "db": 3,
+   "pre_s": 0.0,
+   "hold_s": 0.12
+  }
+ },
+ "Violins II div": {
+  "_auto": {
+   "108": "c35 set by hand (critic C #4)"
+  },
+  "108": {
+   "db": 4,
+   "pre_s": 0,
+   "hold_s": 0.2
+  }
+ },
+ "Violas div": {
+  "279": {
+   "db": 4.0,
+   "pre_s": 0,
+   "hold_s": 0.3
+  },
+  "_auto": {
+   "279": "c23 entry fill (critic A #2, set by hand) (moved from 277 for v600)",
+   "81": "c35 set by hand (critic C #4)",
+   "78": "c35 set by hand (critic C #4)",
+   "84": "c35 set by hand (critic C #4)"
+  },
+  "81": {
+   "db": 5,
+   "pre_s": 0,
+   "hold_s": 0.15
+  },
+  "78": {
+   "db": 3,
+   "pre_s": 0,
+   "hold_s": 0.12
+  },
+  "84": {
+   "db": 3,
+   "pre_s": 0,
+   "hold_s": 0.12
+  }
+ },
+ "Clarinet 2": {
+  "_auto": {
+   "194": "c34 removed (over 2.1 dB)",
+   "195": "c34 lowered (over 2.1 dB)",
+   "244": "c28 new (dip 5.0 dB at +0.14 s)",
+   "246": "c34 held (dip 11.0 dB at +0.39 s)",
+   "248": "c28 new (dip 5.2 dB at +0.11 s)",
+   "252": "c34 new (dip 5.6 dB at +0.39 s)"
+  },
+  "195": {
+   "db": 4.1,
+   "pre_s": 0.0,
+   "hold_s": 0.1
+  },
+  "244": {
+   "db": 2.0,
+   "pre_s": -0.085,
+   "hold_s": 0.275
+  },
+  "246": {
+   "db": 5.0,
+   "pre_s": 0.0,
+   "hold_s": 0.44
+  },
+  "248": {
+   "db": 2.2,
+   "pre_s": 0.0,
+   "hold_s": 0.16
+  },
+  "252": {
+   "db": 2.6,
+   "pre_s": 0.0,
+   "hold_s": 0.35
+  }
+ },
+ "Violoncellos div": {
+  "52": {
+   "db": 2.1,
+   "pre_s": -0.08,
+   "hold_s": 0.18
+  },
+  "_auto": {
+   "52": "c28 new (dip 5.1 dB at +0.00 s)",
+   "53": "c34 lowered after simulation (overshoot 2.1 dB)",
+   "65": "c28 new (dip 5.4 dB at +0.29 s)"
+  },
+  "53": {
+   "db": 3.3,
+   "pre_s": 0.23,
+   "hold_s": 0.35
+  },
+  "65": {
+   "db": 2.4,
+   "pre_s": 0.0,
+   "hold_s": 0.34
+  },
+  "62": {
+   "db": 6.5,
+   "pre_s": 0,
+   "hold_s": 0.15
+  },
+  "274": {
+   "db": 4,
+   "pre_s": 0,
+   "hold_s": 0.6
+  }
+ },
+ "_doc_c53": "c53 (critic B #1): Violoncellos 68 plain 4 -> {db 4, pre_s 0, hold_s 0.05}: the fill held to +0.35 s and lay on the transition burst of 68.5 (its note-on is 0.30 s after the beat of 68)."
+}

@@ -1,0 +1,7 @@
+Flute 1          196: gap   95 ms dip  10.6 dB   | second: gap  190 ms dip  29.1 dB
+Oboe 1           196: gap   95 ms dip   8.9 dB   | second: gap  190 ms dip  24.8 dB
+Horn 1           196: gap  137 ms dip   5.3 dB   | second: gap  184 ms dip   5.9 dB
+Trombone 2       204: gap   74 ms dip   3.2 dB   | second: gap  177 ms dip  13.7 dB
+Bass trombone    204: gap   24 ms dip   1.4 dB   | second: gap  170 ms dip  14.4 dB
+Master           196: gap    0 ms dip   3.8 dB   | second: gap    0 ms dip   4.4 dB
+Master           204: gap    0 ms dip   2.5 dB   | second: gap    0 ms dip   3.4 dB

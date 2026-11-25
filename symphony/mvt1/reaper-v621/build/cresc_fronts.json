@@ -1,0 +1,117 @@
+{
+ "_doc": "mvt1 c36 (critic C #3): crescendo-front cuts {track: {score onset: [cut dB, peak s, sag s]}}, seconds after the note's moved onset (score_to_parts.py CRESC_FRONTS): 0 at the moved onset, -cut at +0.06 s and at +peak, 0 at +sag. Fitted by critic C on the c35 stems (cut = bloom minus sag - 1 dB, at most 8) for held notes that start a printed crescendo and whose attack bloomed over the crescendo's end. Refit after a render (round robins move sample shapes).",
+ "Violoncellos": {
+  "4.0": [
+   8.0,
+   0.08,
+   0.62
+  ],
+  "8.0": [
+   4.8,
+   1.0,
+   1.46
+  ],
+  "685.0": [
+   3.5,
+   0.66,
+   0.94
+  ]
+ },
+ "Double basses": {
+  "4.0": [
+   3.4,
+   0.2,
+   0.58
+  ]
+ },
+ "Clarinet 1": {
+  "40.0": [
+   3.6,
+   0.32,
+   0.74
+  ],
+  "672.0": [
+   8.0,
+   0.48,
+   0.92
+  ]
+ },
+ "Clarinet 2": {
+  "40.0": [
+   4.6,
+   0.32,
+   0.64
+  ]
+ },
+ "Horn 1": {
+  "40.0": [
+   8.0,
+   0.16,
+   1.5
+  ],
+  "584.0": [
+   3.6,
+   0.88,
+   1.12
+  ],
+  "589.0": [
+   7.7,
+   0.26,
+   0.58
+  ]
+ },
+ "Horn 4": {
+  "40.0": [
+   6.6,
+   0.12,
+   0.38
+  ]
+ },
+ "Violins I": {
+  "220.0": [
+   5.1,
+   0.6,
+   0.8
+  ]
+ },
+ "Horn 3": {
+  "248.0": [
+   6.0,
+   0.1,
+   0.54
+  ],
+  "672.0": [
+   8.0,
+   0.42,
+   0.9
+  ]
+ },
+ "Flute 1": {
+  "388.0": [
+   4.7,
+   0.48,
+   0.68
+  ]
+ },
+ "Violas": {
+  "429.0": [
+   7.4,
+   0.1,
+   0.3
+  ]
+ },
+ "Horns a2": {
+  "479.0": [
+   4.0,
+   0.3,
+   0.8
+  ]
+ },
+ "Bassoon 1": {
+  "632.0": [
+   4.0,
+   0.3,
+   0.6
+  ]
+ }
+}

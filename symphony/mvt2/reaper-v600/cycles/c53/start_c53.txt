@@ -1,0 +1,11 @@
+97 moved-row notes of 0.6 s or longer: first half second against c51 median -1.0 dB; under -2.5 dB: 6, over +2.5 dB: 3; start-shape cases: 7
+  Violins I        80.000 first  -2.9 rest  -0.5 steps -0.8 -3.4 -3.1 -3.4 -2.5 -4.3 -1.9  CASE
+  Violins I       262.000 first  -2.5 rest  -0.6 steps -2.5 -5.1 -1.2 +0.1 -2.5 -5.8 -3.3  CASE
+  Violoncellos    132.000 first  -2.8 rest  -2.0 steps -1.3 -4.3 -7.9 -5.5 -1.6 +2.5 +1.4  CASE
+  Violoncellos    180.000 first  -2.8 rest  -0.2 steps -0.0 -4.3 -4.9 -1.6 -2.0 -1.2 +0.4  CASE
+  Violoncellos    250.000 first  -2.8 rest  -1.2 steps +0.0 -0.8 -5.4 -4.8 -2.3 -4.4 -1.3  CASE
+  Violoncellos    265.000 first  -3.2 rest  -0.8 steps -6.3 -4.9 -2.1 -2.1 -3.6 -2.8 -3.9  CASE
+  Violoncellos    267.000 first  -2.8 rest  -0.5 steps -4.5 -1.9 -2.2 -2.8 -3.4 -0.8 -2.6  CASE
+  Violas div       72.000 first  +3.7 rest  -0.5 steps +2.4 +5.0 +7.3 +6.0 +2.1 +0.7 -0.6
+  Violas div      283.000 first  +2.9 rest  -0.3 steps +7.2 +2.0 +6.5 +1.0 -1.9 -2.7 -0.6
+  Violas div      286.000 first  +3.7 rest  +0.6 steps -1.6 -0.3 +1.1 +3.9 +10.1 +14.1 +9.5

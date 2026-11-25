@@ -1,0 +1,5 @@
+  1016: drop +0.3/+0.6/+1.0 20.8 / 32.1 / 45.5  t20 0.24  RT60 1.30
+  1128: drop +0.3/+0.6/+1.0 20.7 / 32.6 / 40.3  t20 0.25  RT60 1.32
+  165: no cutoff found
+  soft ends (dry stem, from the note-off, -10 dB): ['Violins I 23.0 (note-off 22.78): 0.06', 'Violins II 444.5 (note-off 444.79): 0.22', 'Violins I 1128.0 (note-off 1128.00): 0.11', 'Violin I solo 1066.8 (note-off 1066.81): 0.10']
+  R Strings re dry -15.21 dB;  R Brass re dry -25.08 dB;  R Winds re dry -17.31 dB;  R Perc re dry -28.10 dB;  all returns re dry -12.74 dB

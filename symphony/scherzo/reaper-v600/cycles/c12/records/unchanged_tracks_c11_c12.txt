@@ -1,0 +1,32 @@
+track              data      n   level new-old dB: median  p10   p90   max|d|   lag ms: median  p10  p90
+Flute 1            changed   (rr_reset, vol_bp, vol_db)
+Flute 2            changed   (rr_reset, vol_bp, vol_db)
+Oboe 1             changed   (leg_join_holds, rr_reset, vol_bp, vol_db)
+Oboe 2             same      36    +0.00  +0.00  +0.00   0.00         +0    +0    +0 (n 36)
+Cor anglais        changed   (cc1, cc11, extra_leads, leads, notes, rr_reset)
+Clarinet 1         changed   (vol_bp, vol_db)
+Clarinet 2         changed   (rr_reset)
+Bass clarinet      same      39    +0.00  +0.00  +0.00   0.00         +0    +0    +0 (n 39)
+Bassoon 1          changed   (leg_head_gaps, notes)
+Bassoon 2          changed   (end_leg_ks, ks, leg_head_gaps, notes)
+Contrabassoon      same      99    +0.00  +0.00  +0.00   0.45         +0    +0    +0 (n 93)
+Horn 1             changed   (art_counts, cc1, cc11, cutoff_early, dyn_curve, hairpins, ks, leads, leg_head_gaps, notes,)
+Horn 2             changed   (leg_head_gaps, notes)
+Horn 3             changed   (leg_head_gaps, leg_join_holds, notes, pitch_trimmed, vol_db)
+Horn 4             changed   (leg_head_gaps, notes)
+Trumpet 1          same      63    +2.00  +2.00  +2.00   2.00         +0    +0    +0 (n 63)  <-- MOVED
+Trumpet 2          same      63    +2.00  +2.00  +2.00   2.00         +0    +0    +0 (n 63)  <-- MOVED
+Trombone 1         same      26    +3.00  +3.00  +3.00   3.00         +0    +0    +0 (n 26)  <-- MOVED
+Trombone 2         same      26    +3.00  +3.00  +3.00   3.00         +0    +0    +0 (n 26)  <-- MOVED
+Bass trombone      same      23    +3.00  +3.00  +3.00   3.00         +0    +0    +0 (n 23)  <-- MOVED
+Tuba               same      25    +0.00  +0.00  +0.00   0.00         +0    +0    +0 (n 25)
+Timpani            changed   (notes, timp_lh_vel, vol_bp, vol_db)
+Harp               changed   (notes, vol_bp, vol_db)
+Violins I          changed   (acc_fitted, cc11, cc11_park, end_leg_ks, extra_leads, ks, leg_leads, notes, vol_bp, vol_db)
+Violins II         changed   (acc_fitted, cc11, cc11_park, cc70, extra_leads, ks, leg_leads, notes, vol_bp, vol_db)
+Violas             changed   (end_leg_ks, ks, leg_leads, notes, rebows)
+Violoncellos       changed   (ks, leg_leads, notes, vol_bp, vol_db)
+Double basses      changed   (leg_join_holds, vol_db)
+Harp harmonics     same       2    +0.00  +0.00  +0.00   0.00         +0    +0    +0 (n 2)
+Violin I solo      same      19    +0.00  +0.00  +0.00   0.00         +0    +0    +0 (n 19)
+Violas div         changed   (vol_db)

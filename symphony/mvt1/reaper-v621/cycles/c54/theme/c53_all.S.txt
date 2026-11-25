@@ -1,0 +1,23 @@
+Violins I     56-87.9 S: n 39 of 39  median +3  robust SD 40  SD 46  min -81 max +163  >25 from median 22  >40 13  >60 6
+Violins I     88-103 S: n 13 of 13  median -13  robust SD 27  SD 36  min -40 max +84  >25 from median 5  >40 3  >60 2
+Violins I     104-126 S: n 27 of 27  median +5  robust SD 40  SD 44  min -113 max +84  >25 from median 16  >40 9  >60 4
+Violins I     536-551.9 S: n 13 of 13  median -10  robust SD 39  SD 53  min -61 max +127  >25 from median 7  >40 4  >60 3
+Violins I     552-576 S: n 25 of 25  median +3  robust SD 31  SD 37  min -64 max +100  >25 from median 8  >40 5  >60 4
+Violins II    78-82 S: n 4 of 4  median -24  robust SD 21  SD 17  min -43 max +2  >25 from median 1  >40 0  >60 0
+Violins II    104-126 S: n 27 of 27  median -13  robust SD 50  SD 44  min -147 max +93  >25 from median 16  >40 8  >60 2
+Violins II    552-576 S: n 20 of 20  median -2  robust SD 58  SD 77  min -64 max +234  >25 from median 12  >40 10  >60 6
+Violas        104-126 S: n 27 of 27  median +1  robust SD 62  SD 41  min -66 max +64  >25 from median 20  >40 14  >60 2
+Violoncellos  520-536 S: n 19 of 19  median -10  robust SD 41  SD 45  min -109 max +83  >25 from median 11  >40 4  >60 4
+Flute 1       88-103 S: n 13 of 13  median +9  robust SD 6  SD 22  min -4 max +84  >25 from median 1  >40 1  >60 1
+Flute 1       104-126 S: n 23 of 23  median +5  robust SD 10  SD 25  min -68 max +91  >25 from median 3  >40 2  >60 2
+Flute 1       536-551.9 S: n 13 of 13  median +8  robust SD 12  SD 25  min -26 max +81  >25 from median 3  >40 1  >60 1
+Flute 1       552-576 S: n 16 of 16  median +13  robust SD 17  SD 17  min -22 max +44  >25 from median 2  >40 0  >60 0
+Oboe 1        88-103 S: n 13 of 13  median -23  robust SD 33  SD 42  min -109 max +38  >25 from median 6  >40 4  >60 4
+Oboe 1        104-126 S: n 23 of 23  median -21  robust SD 13  SD 21  min -48 max +46  >25 from median 5  >40 2  >60 1
+Oboe 1        536-551.9 S: n 13 of 13  median -13  robust SD 34  SD 43  min -115 max +16  >25 from median 6  >40 4  >60 3
+Oboe 1        552-576 S: n 15 of 15  median -4  robust SD 30  SD 29  min -65 max +65  >25 from median 5  >40 2  >60 2
+Clarinet 1    104-126 S: n 23 of 23  median -5  robust SD 24  SD 21  min -40 max +35  >25 from median 8  >40 1  >60 0
+Clarinet 1    520-536 S: n 19 of 19  median -3  robust SD 33  SD 45  min -48 max +115  >25 from median 9  >40 4  >60 2
+Clarinet 1    552-576 S: n 16 of 16  median -10  robust SD 30  SD 21  min -36 max +27  >25 from median 7  >40 0  >60 0
+Bassoon 1     520-536 S: n 19 of 19  median -16  robust SD 34  SD 50  min -87 max +157  >25 from median 9  >40 4  >60 3
+Trombone 1    520-536 S: n 19 of 19  median +4  robust SD 27  SD 34  min -97 max +46  >25 from median 6  >40 5  >60 2

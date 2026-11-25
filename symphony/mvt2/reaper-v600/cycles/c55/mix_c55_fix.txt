@@ -1,0 +1,6 @@
+whole       140-355 Hz share -5.77 dB   third octaves re total: 79 Hz -19.7 99 Hz -14.8 125 Hz -13.8 158 Hz -17.4 198 Hz -12.1 250 Hz -13.6 315 Hz -8.8 397 Hz -12.2
+bars 23-30  140-355 Hz share -5.67 dB   third octaves re total: 79 Hz -20.6 99 Hz -11.6 125 Hz -18.0 158 Hz -10.3 198 Hz -11.3 250 Hz -16.3 315 Hz -11.6 397 Hz -9.1
+bars 53-60  140-355 Hz share -4.90 dB   third octaves re total: 79 Hz -26.5 99 Hz -9.6 125 Hz -21.0 158 Hz -13.0 198 Hz -12.2 250 Hz -14.8 315 Hz -7.5 397 Hz -12.4
+bars 71-78  140-355 Hz share -6.13 dB   third octaves re total: 79 Hz -12.8 99 Hz -14.6 125 Hz -17.6 158 Hz -13.9 198 Hz -10.5 250 Hz -12.7 315 Hz -12.5 397 Hz -12.0
+celli bars 22-27: fundamentals 147-277 Hz: stem against the other stems +7.60 dB before, +7.60 dB after; stem band level change +0.00 dB, whole stem +0.00 dB
+celli bars 45-47: fundamentals 208-330 Hz: stem against the other stems -3.36 dB before, -3.36 dB after; stem band level change +0.00 dB, whole stem +0.00 dB

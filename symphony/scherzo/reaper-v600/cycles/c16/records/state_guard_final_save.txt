@@ -1,0 +1,3 @@
+STALE    Violin I solo: 58 attacks differ  (V1s pp: 20.0 (written 1076.0645751953125); V1s p: 20.0 (written 1053.9169921875); V1s mf: 20.0 (written 840.89678955
+ok       Violas div: 0 attacks differ
+state_guard: 31 tracks, 6 stale, 0 missing

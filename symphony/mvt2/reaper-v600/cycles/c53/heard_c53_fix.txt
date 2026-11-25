@@ -1,0 +1,7 @@
+bar 55 triplet (heard/printed ms): Violins I 316/330 324/330 363/329 | Violins II 342/330 294/330 347/329
+Violas 111, 111.333: 256/333 330/333 | 189: 255/324 | 116: 288/333
+Violins I 77: 574/577 | 251.5: 588/577
+Trombone 1 212.5-219.5 S: -6 +9 -16 -10 +15 -8 +14 +35 +6 -4
+Violins I run 261.5-262 S: -67 -33 +5 +2
+Violins II run 261.5-262 S: -31 +40 -21 +79
+line notes heard under 0.75 or over 1.3 of the printed length: 0 []

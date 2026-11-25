@@ -1,0 +1,6 @@
+master at qn 71, this render minus c51: +1.8 -2.5 -0.2 +2.2 +1.5 +1.1 +0.1   worst -2.5, mean +0.6
+master at qn 84, this render minus c51: -2.0 -2.1 +0.6 +0.6 -1.6 -2.8 -0.8   worst -2.8, mean -1.2
+master at qn 176, this render minus c51: -1.1 -1.0 +0.2 -1.1 +1.7 -1.0 -0.5   worst -1.1, mean -0.4
+master at qn 253, this render minus c51: -0.5 -0.2 -0.6 -1.0 -1.9 -0.7 -0.3   worst -1.9, mean -0.7
+master at qn 256, this render minus c51: -0.2 -0.9 -0.3 -0.0 -1.1 -1.2 +0.5   worst -1.2, mean -0.5
+master at qn 262, this render minus c51: -0.1 +0.0 +0.2 -0.7 -1.0 -0.7 -0.0   worst -1.0, mean -0.3

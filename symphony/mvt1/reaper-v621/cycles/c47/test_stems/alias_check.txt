@@ -1,0 +1,50 @@
+ALIAS CHECK Vln II ppcap test (of Violins II): OK; mix keys differing: ['sus_release_cap_ms']
+ALIAS CHECK Vla ppcap test (of Violas): DIFFERS; mix keys differing: ['sus_release_cap_ms']
+  notes: 677 alias / 677 source notes in the windows; alias only [(80.0, 68, 79.7869, 0.9276, 49), (372.0, 65, 371.5311, 3.1572, 49), (500.0, 60, 499.8333, 0.9483, 40)], source only [(80.0, 68, 79.7869, 0.9276, 80), (372.0, 65, 371.5311, 3.1572, 80), (500.0, 60, 499.8333, 0.9483, 52)]
+  ks: row differs at 3 onsets, first [79.7869, 371.5311, 499.8333]
+  ks: keyswitch events in 0.0-730.0: alias 115 / source 115; first differing ((79.7569, 'Stac Leg BC + Slur + Port MAX'), (79.7569, 'Sus MAX'))
+  cc11: 8 of 1826 sounding times differ, e.g. [(499.8333, 49, 55), (500.125, 49, 54), (500.25, 49, 53)] (qn, alias, source); largest 6
+  vol: 21 of 4773 sounding times differ by over 0.05 dB, e.g. [(79.7869, 6.5, 4.25), (79.8169, 6.5, 2.0), (80.125, 6.5, 2.0)] (qn, alias, source); largest 4.50 dB
+ALIAS CHECK Vc ppcap test (of Violoncellos): DIFFERS; mix keys differing: ['sus_release_cap_ms']
+  notes: 542 alias / 542 source notes in the windows; alias only [(84.0, 55, 83.664, 2.061, 44), (88.0, 48, 87.7295, 2.9908, 44), (152.0, 56, 151.601, 3.874, 45), (156.0, 56, 155.601, 4.1397, 49)], source only [(84.0, 55, 83.664, 2.061, 66), (88.0, 48, 87.7295, 2.9908, 66), (152.0, 56, 151.601, 3.874, 68), (156.0, 56, 155.601, 4.1397, 80)]
+  ks: row differs at 6 onsets, first [83.664, 87.7295, 151.601, 155.601]
+  ks: keyswitch events in 0.0-679.5: alias 198 / source 198; first differing ((83.634, 'Stac Leg BC + Slur + Port MAX'), (83.634, 'Sus MAX'))
+  vol: 20 of 6043 sounding times differ by over 0.05 dB, e.g. [(155.601, 2.76, 2.26), (155.625, 2.61, 2.11), (155.631, 5.62, 4.12)] (qn, alias, source); largest 1.50 dB
+ALIAS CHECK Cb ppcap test (of Double basses): OK; mix keys differing: ['sus_release_cap_ms']
+ALIAS CHECK Vc stroke B (of Violoncellos): DIFFERS; mix keys differing: none
+  notes: 14 alias / 14 source notes in the windows; alias only [(80.0, 53, 79.7442, 1.9808, 73), (84.0, 55, 83.664, 2.061, 29), (88.0, 48, 87.7295, 3.1639, 29), (144.0, 54, 143.7682, 3.9568, 53)], source only [(80.0, 53, 79.6803, 2.0447, 124), (84.0, 55, 83.664, 2.061, 66), (88.0, 48, 87.7295, 2.9908, 66), (144.0, 54, 143.575, 4.15, 124)]
+  ks: row differs at 8 onsets, first [79.7442, 83.664, 87.7295, 151.601]
+  ks: keyswitch events in 80.0-91.0: alias 4 / source 4; first differing ((81.655, 'Leg BC MAX'), (83.634, 'Sus MAX'))
+  ks: keyswitch events in 144.0-160.0: alias 2 / source 3; first differing ((151.571, 'Sus Marc LITE'), (151.571, 'Sus MAX'))
+  ks: keyswitch events in 440.0-460.0: alias 4 / source 4; first differing ((443.655, 'Leg BC MAX'), (447.655, 'Sus MAX'))
+  cc1: 5 of 81 sounding times differ, e.g. [(79.7442, 72, 71), (143.7682, 55, 54), (143.875, 55, 53)] (qn, alias, source); largest 4
+  cc11: 7 of 91 sounding times differ, e.g. [(79.7442, 72, 71), (79.875, 72, 70), (143.7682, 46, 45)] (qn, alias, source); largest 4
+  vol: 22 of 343 sounding times differ by over 0.05 dB, e.g. [(155.601, 2.76, 2.26), (155.625, 2.61, 2.11), (155.631, 5.62, 4.12)] (qn, alias, source); largest 6.13 dB
+ALIAS CHECK Vln II pp700 test (of Violins II): OK; mix keys differing: ['sus_release_cap_ms']
+ALIAS CHECK Vla pp700 test (of Violas): OK; mix keys differing: ['sus_release_cap_ms']
+ALIAS CHECK Vc pp700 test (of Violoncellos): OK; mix keys differing: ['sus_release_cap_ms']
+ALIAS CHECK Cb pp700 test (of Double basses): OK; mix keys differing: ['sus_release_cap_ms']
+ALIAS CHECK Tbn1 marc test (of Trombone 1): DIFFERS; mix keys differing: none
+  notes: 105 alias / 105 source notes in the windows; alias only [(122.0, 60, 121.8992, 1.9328, 83), (124.0, 60, 124.0, 0.75, 55), (125.0, 59, 125.0, 0.916, 55), (128.0, 60, 127.8603, 0.6397, 70)], source only [(122.0, 60, 121.8992, 1.8278, 83), (124.0, 60, 123.895, 0.82, 103), (125.0, 59, 124.895, 1.021, 103), (128.0, 60, 127.8603, 0.6397, 111)]
+  ks: row differs at 6 onsets, first [124.0, 125.0, 127.8603, 564.0]
+  ks: keyswitch events in 0.0-730.0: alias 18 / source 14; first differing ((123.94, 'Marc Sus LITE'), (496.5, 'Leg Slur MAX'))
+  cc11: 12 of 575 sounding times differ, e.g. [(123.5, 88, 87), (123.58, 88, 84), (123.625, 86, 82)] (qn, alias, source); largest 8
+  vol: 31 of 1277 sounding times differ by over 0.05 dB, e.g. [(124.0, 1.24, 1.62), (124.063, 2.1, 4.9), (124.375, 2.1, 4.9)] (qn, alias, source); largest 2.80 dB
+ALIAS CHECK BTbn marc test (of Bass trombone): DIFFERS; mix keys differing: none
+  notes: 67 alias / 67 source notes in the windows; alias only [(122.0, 50, 121.8992, 1.9118, 83), (124.0, 43, 124.0, 0.75, 55), (125.0, 43, 125.0, 0.916, 55), (128.0, 48, 127.9002, 0.5998, 70)], source only [(122.0, 50, 121.8992, 1.8068, 83), (124.0, 43, 123.895, 0.75, 103), (125.0, 43, 124.895, 1.021, 103), (128.0, 48, 127.9002, 0.5998, 111)]
+  ks: row differs at 4 onsets, first [124.0, 125.0, 127.9002, 568.0]
+  ks: keyswitch events in 0.0-730.0: alias 5 / source 1; first differing ((123.94, 'Marc Sus LITE'), (679.5, 'Leg Slur MAX'))
+  vol: 19 of 1196 sounding times differ by over 0.05 dB, e.g. [(124.0, 3.54, 3.69), (124.063, 4.4, 5.52), (124.375, 4.4, 5.52)] (qn, alias, source); largest 1.50 dB
+ALIAS CHECK Hn1 marc test (of Horn 1): DIFFERS; mix keys differing: ['sus_release_cap_ms']
+  notes: 114 alias / 114 source notes in the windows; alias only [(122.0, 68, 121.8186, 1.9924, 91), (124.0, 67, 124.0, 0.75, 70), (125.0, 67, 125.0, 0.916, 70), (128.0, 67, 127.8204, 0.6796, 70)], source only [(122.0, 68, 121.8186, 1.8034, 91), (124.0, 67, 123.811, 0.75, 111), (125.0, 67, 124.811, 1.105, 111), (128.0, 67, 127.8204, 0.6796, 111)]
+  ks: row differs at 4 onsets, first [124.0, 125.0, 127.8204, 568.0]
+  ks: keyswitch events in 0.0-163.0: alias 3 / source 2; first differing ((123.94, 'Marc Sus LITE'), None)
+  ks: keyswitch events in 480.5-628.0: alias 8 / source 7; first differing ((567.94, 'Marc Sus LITE'), (569.0, 'Leg Slur MAX'))
+  cc11: 6 of 775 sounding times differ, e.g. [(567.375, 88, 85), (567.5, 87, 80), (567.6209, 87, 75)] (qn, alias, source); largest 12
+  vol: 21 of 1695 sounding times differ by over 0.05 dB, e.g. [(124.0, -3.86, -3.32), (124.063, -2.7, 1.3), (124.125, -2.7, 1.3)] (qn, alias, source); largest 4.00 dB
+ALIAS CHECK Hn3 marc test (of Horn 3): DIFFERS; mix keys differing: ['sus_release_cap_ms']
+  notes: 134 alias / 134 source notes in the windows; alias only [(122.0, 60, 121.8992, 1.8908, 83), (124.0, 60, 124.0, 0.75, 55), (125.0, 59, 125.0, 0.916, 55), (562.0, 60, 561.8934, 1.8934, 83)], source only [(122.0, 60, 121.8992, 1.7858, 83), (124.0, 60, 123.895, 0.799, 103), (125.0, 59, 124.874, 1.042, 103), (562.0, 60, 561.8934, 1.7868, 83)]
+  ks: row differs at 4 onsets, first [124.0, 125.0, 564.0, 566.0]
+  ks: keyswitch events in 0.0-730.0: alias 14 / source 10; first differing ((123.94, 'Marc Sus LITE'), (162.865, 'Leg Slur MAX'))
+  cc11: 13 of 1074 sounding times differ, e.g. [(123.475, 88, 84), (123.5, 87, 83), (123.625, 82, 78)] (qn, alias, source); largest 6
+  vol: 24 of 2235 sounding times differ by over 0.05 dB, e.g. [(124.0, -1.96, -1.75), (124.063, -1.1, 0.48), (124.375, -1.1, 0.48)] (qn, alias, source); largest 1.58 dB

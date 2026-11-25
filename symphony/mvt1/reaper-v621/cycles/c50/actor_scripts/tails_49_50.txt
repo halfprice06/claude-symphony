@@ -1,0 +1,20 @@
+== tails c49
+  qn   55.0 cut + 0.03 s  pre  -43.0  drop 0.15/0.3/0.6/1.0   -9.6  -23.2  -32.9  -48.4  RT(-5..-25 / -20..-35) 0.77 / 3.13 s  60-250 share  -4.4 dB  next +1.21 s  | wind  -6.5, brass -10.8, string  -7.4
+  qn  103.0 cut +-0.01 s  pre  -11.8  drop 0.15/0.3/0.6/1.0  -14.1    ---    ---    ---  RT(-5..-25 / -20..-35) 1.10 /  --- s  60-250 share  -7.4 dB  next +0.31 s  | wind -12.6, brass -12.5, string -16.9
+  qn  125.9 cut + 0.00 s  pre  -14.3  drop 0.15/0.3/0.6/1.0  -11.9  -18.6    ---    ---  RT(-5..-25 / -20..-35) 1.21 /  --- s  60-250 share  -8.0 dB  next +0.44 s  | wind -11.9, brass -11.4, perc -12.3, string -12.7
+  qn  244.0 cut +-0.10 s  pre  -20.5  drop 0.15/0.3/0.6/1.0   -7.0   -8.3    ---    ---  RT(-5..-25 / -20..-35) 3.71 /  --- s  60-250 share -17.5 dB  next +0.36 s  | wind  -9.4, brass  -6.1, string  -6.6
+  qn  288.0 cut + 0.00 s  pre  -20.1  drop 0.15/0.3/0.6/1.0  -12.4  -16.3    ---    ---  RT(-5..-25 / -20..-35) 1.88 /  --- s  60-250 share  -5.2 dB  next +0.41 s  | wind -16.5, brass -13.0, string  -5.7
+  qn  551.0 cut + 0.01 s  pre  -16.9  drop 0.15/0.3/0.6/1.0  -14.5  -20.7    ---    ---  RT(-5..-25 / -20..-35) 1.17 /  --- s  60-250 share  -7.9 dB  next +0.33 s  | wind -15.8, brass -12.6, string -17.5
+  qn  679.0 cut +-0.00 s  pre  -11.4  drop 0.15/0.3/0.6/1.0  -11.6  -19.5  -29.9  -43.7  RT(-5..-25 / -20..-35) 1.32 / 1.81 s  60-250 share  -9.7 dB  next +2.26 s  | wind -14.0, brass -10.5, string -10.8
+  qn  728.0 cut +-0.14 s  pre  -57.4  drop 0.15/0.3/0.6/1.0   -1.7   -8.8  -17.0  -34.8  RT(-5..-25 / -20..-35) 2.06 / 1.32 s  60-250 share  -8.4 dB  next +8.14 s  | brass  -2.0, perc  -2.0, string  -1.6
+== tails c50
+  qn   55.0 cut + 0.04 s  pre  -44.7  drop 0.15/0.3/0.6/1.0   -9.5  -19.2  -27.5  -48.8  RT(-5..-25 / -20..-35) 1.51 / 2.29 s  60-250 share  -1.6 dB  next +1.20 s  | wind  -8.8, brass -12.1, string  -7.8
+  qn  103.0 cut +-0.00 s  pre  -15.5  drop 0.15/0.3/0.6/1.0  -13.9    ---    ---    ---  RT(-5..-25 / -20..-35) 1.12 /  --- s  60-250 share  -5.4 dB  next +0.30 s  | wind -17.1, brass -14.9, string -16.3
+  qn  125.9 cut +-0.07 s  pre  -17.9  drop 0.15/0.3/0.6/1.0   -7.3  -15.7    ---    ---  RT(-5..-25 / -20..-35) 1.22 /  --- s  60-250 share  -5.9 dB  next +0.51 s  | wind  -6.3, brass  -8.4, perc -11.9, string  -7.9
+  qn  244.0 cut +-0.10 s  pre  -23.3  drop 0.15/0.3/0.6/1.0   -6.8  -10.2    ---    ---  RT(-5..-25 / -20..-35)  --- /  --- s  60-250 share -14.2 dB  next +0.36 s  | wind  -8.5, brass  -6.4, string  -6.4
+  qn  288.0 cut + 0.00 s  pre  -24.1  drop 0.15/0.3/0.6/1.0  -11.2  -17.2    ---    ---  RT(-5..-25 / -20..-35) 1.53 /  --- s  60-250 share  -3.5 dB  next +0.41 s  | wind -20.0, brass -16.0, string  -6.7
+  qn  551.0 cut + 0.01 s  pre  -20.0  drop 0.15/0.3/0.6/1.0  -14.4  -20.1    ---    ---  RT(-5..-25 / -20..-35) 1.10 /  --- s  60-250 share  -6.3 dB  next +0.33 s  | wind -20.7, brass -15.2, string -18.6
+  qn  679.0 cut + 0.02 s  pre  -14.3  drop 0.15/0.3/0.6/1.0  -13.4  -20.3  -31.4  -43.4  RT(-5..-25 / -20..-35) 1.32 / 1.84 s  60-250 share  -8.4 dB  next +2.24 s  | wind -21.5, brass -15.0, string -12.3
+  qn  728.0 cut +-0.13 s  pre  -60.7  drop 0.15/0.3/0.6/1.0   -2.5   -8.7  -16.1  -32.1  RT(-5..-25 / -20..-35) 2.10 / 1.27 s  60-250 share  -8.1 dB  next +8.13 s  | brass  -3.4, perc  -0.7, string  -2.3
+c49: final chord (note-off qn 728.00) -10/-20/-30 dB after [0.19, 0.54, 0.81] s; subito 244: level at +0.3 s -13.4 dB re the 0.3 s before, largest 0.2 s fall 7.7 dB
+c50: final chord (note-off qn 728.00) -10/-20/-30 dB after [0.21, 0.59, 0.83] s; subito 244: level at +0.3 s -14.0 dB re the 0.3 s before, largest 0.2 s fall 8.8 dB

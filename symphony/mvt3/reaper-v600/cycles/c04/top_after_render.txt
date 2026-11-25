@@ -1,0 +1,5 @@
+PID    COMMAND          MEM   CMPRS
+73751  REAPER           46G   28G  
+1235   CrashRestartHelp 6043M 6010M
+53469  Steam Helper     3435M 2936M
+1196   steam_osx        3374M 3273M

@@ -1,0 +1,544 @@
+{
+ "accents": {
+  "n": 98,
+  "jump_med": -3.0,
+  "jump_p90": 4.6,
+  "tilt_med": -0.4,
+  "tilt_p90": 3.0,
+  "sounding_n": 64,
+  "sounding_p90": -0.8,
+  "front_body_med": -6.9,
+  "front_body_p90": -3.7
+ },
+ "tone": {
+  "31-62": -26.7,
+  "62-125": -13.3,
+  "125-250": -10.2,
+  "250-500": -6.9,
+  "500-1000": -6.0,
+  "1000-2000": -5.2,
+  "2000-4000": -10.6,
+  "4000-8000": -19.4,
+  "centroid": 998.0,
+  "loud_20-100": -14.75
+ },
+ "width": {
+  "31-62": 0.54,
+  "62-125": 0.65,
+  "125-250": 0.49,
+  "250-500": 0.57,
+  "500-1000": 0.53,
+  "1000-2000": 0.62,
+  "2000-4000": 0.48,
+  "4000-8000": 0.53,
+  "band_20-250": 0.539,
+  "band_250-5000": 0.564,
+  "band_5000-16000": 0.555,
+  "side_mid_200_5k": -5.6
+ },
+ "final": {
+  "master": {
+   "stop_s": 422.88,
+   "t10": 0.14,
+   "t20": 0.39,
+   "t30": 0.56,
+   "drop_0.3": 15.2
+  },
+  "dry": {
+   "stop_s": 423.23,
+   "t10": 0.06,
+   "t20": 0.16,
+   "t30": 0.3,
+   "drop_0.3": 30.2
+  },
+  "step_1113": {
+   "Flute 1": -4.9,
+   "Flute 2": 3.1,
+   "Oboe 1": -1.9,
+   "Oboe 2": 1.4,
+   "Cor anglais": 0.0,
+   "Clarinet 1": 0.4,
+   "Clarinet 2": -0.3,
+   "Bass clarinet": 0.3,
+   "Bassoon 1": -4.5,
+   "Bassoon 2": 1.4,
+   "Contrabassoon": 0.2,
+   "Horn 1": -0.3,
+   "Horn 2": 0.1,
+   "Horn 3": 0.0,
+   "Horn 4": 0.0,
+   "Trumpet 1": -0.6,
+   "Trumpet 2": 1.1,
+   "Trumpet 3": -0.2,
+   "Trombone 1": -0.1,
+   "Trombone 2": 0.1,
+   "Bass trombone": 0.0,
+   "Tuba": -0.9,
+   "Violins I": -1.2,
+   "Violins II": 1.7,
+   "Violas": 0.6,
+   "Violoncellos": 1.5,
+   "Double basses": 0.3
+  },
+  "stems_at_0.3": {
+   "Trumpet 1": -25.9,
+   "Violas": -30.3,
+   "Clarinet 1": -29.1,
+   "Horn 1": -24.9,
+   "Double basses": -26.0,
+   "R Strings": -28.6,
+   "R Brass": -26.1,
+   "R Perc": -31.1
+  }
+ },
+ "subito": {
+  "872": {
+   "before_869_871": -34.2,
+   "after_872_874": -38.4,
+   "winds": [
+    -48.0,
+    -48.9
+   ],
+   "strings": [
+    -40.5,
+    -41.5
+   ]
+  },
+  "592": {
+   "591.00": -18.9,
+   "591.25": -18.8,
+   "591.50": -20.0,
+   "591.75": -22.4,
+   "592.00": -21.9,
+   "592.25": -21.7,
+   "592.50": -20.1,
+   "592.75": -22.3,
+   "593.00": -28.9,
+   "593.25": -30.1,
+   "593.50": -30.3,
+   "593.75": -30.3,
+   "594.00": -25.4
+  }
+ },
+ "metric": {
+  "Double basses": {
+   "792-840": {
+    "median": {
+     "down": -41.8,
+     "mid": -40.9,
+     "beat": -42.8,
+     "off": -43.8
+    },
+    "sd": {
+     "down": 3.4,
+     "mid": 3.1,
+     "beat": 3.5,
+     "off": 3.6
+    },
+    "down_minus_off": 2.0,
+    "beat_minus_off": 1.0
+   },
+   "984-1056": {
+    "median": {
+     "down": -38.1,
+     "mid": -38.9,
+     "beat": -38.7,
+     "off": -41.6
+    },
+    "sd": {
+     "down": 4.5,
+     "mid": 5.2,
+     "beat": 5.3,
+     "off": 5.9
+    },
+    "down_minus_off": 3.5,
+    "beat_minus_off": 2.9
+   },
+   "1056-1088": {
+    "median": {
+     "down": -38.9,
+     "mid": -38.9,
+     "beat": -39.5,
+     "off": -42.7
+    },
+    "sd": {
+     "down": 0.4,
+     "mid": 0.4,
+     "beat": 0.9,
+     "off": 0.7
+    },
+    "down_minus_off": 3.8,
+    "beat_minus_off": 3.2
+   },
+   "792-816": {
+    "median": {
+     "down": -38.2,
+     "mid": -39.9,
+     "beat": -39.7,
+     "off": -41.4
+    },
+    "sd": {
+     "down": 3.5,
+     "mid": 2.2,
+     "beat": 2.7,
+     "off": 3.4
+    },
+    "down_minus_off": 3.2,
+    "beat_minus_off": 1.7
+   },
+   "816-840": {
+    "median": {
+     "down": -42.4,
+     "mid": -42.9,
+     "beat": -44.3,
+     "off": -45.9
+    },
+    "sd": {
+     "down": 1.7,
+     "mid": 3.6,
+     "beat": 3.5,
+     "off": 1.9
+    },
+    "down_minus_off": 3.5,
+    "beat_minus_off": 1.6
+   },
+   "1088-1108": {
+    "median": {
+     "down": -35.9,
+     "mid": -36.0,
+     "beat": -36.5,
+     "off": -38.9
+    },
+    "sd": {
+     "down": 2.3,
+     "mid": 2.2,
+     "beat": 2.6,
+     "off": 3.7
+    },
+    "down_minus_off": 3.0,
+    "beat_minus_off": 2.4
+   }
+  },
+  "Violoncellos": {
+   "792-840": {
+    "median": {
+     "down": -39.6,
+     "mid": -45.6,
+     "beat": -44.3,
+     "off": -42.5
+    },
+    "sd": {
+     "down": 3.0,
+     "mid": 2.2,
+     "beat": 5.1,
+     "off": 4.9
+    },
+    "down_minus_off": 2.9,
+    "beat_minus_off": -1.8
+   },
+   "984-1080": {
+    "median": {
+     "down": -43.7,
+     "mid": -41.6,
+     "beat": -40.4,
+     "off": -40.2
+    },
+    "sd": {
+     "down": 3.0,
+     "mid": 2.6,
+     "beat": 1.8,
+     "off": 2.9
+    },
+    "down_minus_off": -3.5,
+    "beat_minus_off": -0.2
+   }
+  }
+ },
+ "balance": {
+  "chorale_892_900": {
+   "Violins I": -45.0,
+   "Trumpet 1": -38.4,
+   "Trombone 1": -37.3,
+   "Horn 1": -43.5,
+   "Horn 2": -41.7,
+   "Horn 3": -38.6,
+   "Horn 4": -44.5
+  },
+  "chorale_900_928": {
+   "Violins I": -38.2,
+   "Trumpet 1": -41.6,
+   "Trombone 1": -38.3,
+   "Horn 1": -42.2,
+   "Horn 2": -42.5,
+   "Horn 3": -45.7,
+   "Horn 4": -42.6
+  },
+  "cello_tune_488_496": {
+   "Violoncellos": -54.6,
+   "Harp": -52.0
+  },
+  "bn_solo_473_476": {
+   "Bassoon 1": -49.3,
+   "Violins I": -57.3
+  },
+  "bn_solo_481_485": {
+   "Bassoon 1": -47.1,
+   "Clarinet 1": -51.9
+  },
+  "pp_tbn_568_576": {
+   "Trombone 1": -39.2,
+   "Trombone 2": -41.6,
+   "Bass trombone": -44.4,
+   "Horn 1": -40.0,
+   "Violins I": -41.6
+  },
+  "hn_pp_264_300": {
+   "Horn 1": -53.6,
+   "Violins I": -42.7
+  },
+  "subito_tbn_872_876": {
+   "Trombone 1": -51.5,
+   "Violoncellos": -51.2
+  },
+  "timp_832_836": {
+   "Timpani": -44.5,
+   "Violins I": -39.9
+  },
+  "timp_872_876": {
+   "Timpani": -57.1,
+   "Violins I": -50.9
+  },
+  "stubs": {
+   "Oboe 2 844": -38.4,
+   "Oboe 2 856": -45.9,
+   "Horn 1 118": -53.9,
+   "Horn 2 122": -52.3,
+   "Oboe 1 844": -31.3
+  },
+  "soft_455": {
+   "Violins I": [
+    -62.1,
+    -67.3,
+    -73.3,
+    -89.6,
+    -102.7
+   ],
+   "Violas": [
+    -72.0,
+    -76.5,
+    -79.8,
+    -60.7,
+    -68.9
+   ],
+   "Violoncellos": [
+    -79.5,
+    -57.0,
+    -57.8,
+    -75.5,
+    -81.9
+   ],
+   "Double basses": [
+    -73.5,
+    -62.8,
+    -57.2,
+    -65.4,
+    -71.7
+   ],
+   "R Strings": [
+    -67.5,
+    -72.0,
+    -65.9,
+    -74.4,
+    -71.1
+   ]
+  },
+  "harp_524": {
+   "Harp": -29.8,
+   "Violoncellos": -31.6,
+   "Horn 3": -36.6,
+   "Violins I": -40.3,
+   "Trumpet 1": -200.0
+  },
+  "counter_264_292": {
+   "Violins I": -42.6,
+   "Violins II": -44.1,
+   "Violas": -46.2,
+   "Violoncellos": -46.9,
+   "Harp": -45.4
+  },
+  "chorale_1032_1044": {
+   "Trumpet 1": -31.7,
+   "Horn 1": -30.0,
+   "Trombone 1": -28.9
+  },
+  "master_524": -22.8
+ },
+ "dips": {
+  "Violoncellos 828.0": 5.3,
+  "Violoncellos 832.0": 4.3,
+  "Violins I 884.0": 0.0,
+  "Violas 820.0": 8.9,
+  "Violas 822.0": 9.6,
+  "Violas 826.0": 10.8,
+  "Violas 828.0": 10.8,
+  "Violas 830.0": 8.7,
+  "Violas 832.0": 3.8,
+  "Violins II 362.0": 8.3,
+  "Violas 426.0": 1.1,
+  "Violas 556.0": 3.4,
+  "Violas 868.0": 6.0,
+  "Violins II 366.0": 11.6
+ },
+ "hump315": {
+  "whole": {
+   "200": -13.3,
+   "250": -14.5,
+   "315": -9.7,
+   "400": -13.5,
+   "500": -10.9,
+   "hump": 4.3
+  },
+  "F": {
+   "200": -14.9,
+   "250": -14.2,
+   "315": -10.8,
+   "400": -16.8,
+   "500": -10.1,
+   "hump": 4.7
+  },
+  "J": {
+   "200": -13.0,
+   "250": -22.5,
+   "315": -10.2,
+   "400": -14.8,
+   "500": -13.6,
+   "hump": 8.5
+  },
+  "P": {
+   "200": -15.2,
+   "250": -16.7,
+   "315": -10.9,
+   "400": -15.0,
+   "500": -10.5,
+   "hump": 4.9
+  },
+  "R": {
+   "200": -13.2,
+   "250": -14.9,
+   "315": -8.6,
+   "400": -13.2,
+   "500": -11.9,
+   "hump": 5.4
+  },
+  "T": {
+   "200": -13.6,
+   "250": -13.7,
+   "315": -9.9,
+   "400": -13.1,
+   "500": -10.2,
+   "hump": 3.5
+  }
+ },
+ "acc_fronts": {
+  "Horn 1": {
+   "acc_n": 40,
+   "acc_med": -14.0,
+   "unacc_n": 194,
+   "unacc_med": -5.9
+  },
+  "Horn 2": {
+   "acc_n": 18,
+   "acc_med": -13.7,
+   "unacc_n": 84,
+   "unacc_med": -9.6
+  },
+  "Horn 3": {
+   "acc_n": 35,
+   "acc_med": -15.2,
+   "unacc_n": 92,
+   "unacc_med": -10.8
+  },
+  "Horn 4": {
+   "acc_n": 20,
+   "acc_med": -13.3,
+   "unacc_n": 64,
+   "unacc_med": -12.7
+  },
+  "Trumpet 1": {
+   "acc_n": 24,
+   "acc_med": -8.8,
+   "unacc_n": 108,
+   "unacc_med": -5.8
+  },
+  "Trumpet 2": {
+   "acc_n": 20,
+   "acc_med": -8.5,
+   "unacc_n": 49,
+   "unacc_med": -8.2
+  },
+  "Trumpet 3": {
+   "acc_n": 37,
+   "acc_med": -10.6,
+   "unacc_n": 39,
+   "unacc_med": -10.0
+  },
+  "Trombone 1": {
+   "acc_n": 32,
+   "acc_med": -4.4,
+   "unacc_n": 83,
+   "unacc_med": -10.2
+  },
+  "Trombone 2": {
+   "acc_n": 22,
+   "acc_med": -6.9,
+   "unacc_n": 67,
+   "unacc_med": -9.2
+  },
+  "Bass trombone": {
+   "acc_n": 19,
+   "acc_med": -4.8,
+   "unacc_n": 77,
+   "unacc_med": -7.3
+  },
+  "Tuba": {
+   "acc_n": 29,
+   "acc_med": -13.1,
+   "unacc_n": 70,
+   "unacc_med": -9.3
+  }
+ },
+ "swing": {
+  "792-816": {
+   "on_ms": 16,
+   "off_ms": 24,
+   "swing_ms": -9
+  },
+  "816-840": {
+   "on_ms": 10,
+   "off_ms": 40,
+   "swing_ms": -30
+  },
+  "984-1056": {
+   "on_ms": 18,
+   "off_ms": 15,
+   "swing_ms": 3
+  },
+  "1056-1088": {
+   "on_ms": 21,
+   "off_ms": 10,
+   "swing_ms": 11
+  },
+  "1088-1108": {
+   "on_ms": -15,
+   "off_ms": 38,
+   "swing_ms": -53
+  }
+ },
+ "image": {
+  "Trumpet 1 680-696": 2.6,
+  "Trumpet 1 712-731": 3.1,
+  "Cor anglais 680-696": 4.5,
+  "Cor anglais 712-731": 4.1
+ },
+ "peak": 0.974
+}

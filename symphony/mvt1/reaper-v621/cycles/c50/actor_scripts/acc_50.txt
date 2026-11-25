@@ -1,0 +1,4 @@
+cycles/c50/render: 106 brass accents >= 0.5 s; front minus body 2-5 kHz median -16.3 dB, worst -0.4 (Trombone 1 521.0); master 2-5 kHz jump median -3.7, p90 +0.5, max +11.4 (Tuba 330.0)
+   f and louder (87): front minus body median -17.3; master jump median -3.6, p90 +2.5
+   climax accents (122 / 160 / 167-170), master jump: max -0.6 ('Trumpets a2', 665.0)
+   brass sum 2-5 kHz minus 0.5-2 kHz: -4.9 dB

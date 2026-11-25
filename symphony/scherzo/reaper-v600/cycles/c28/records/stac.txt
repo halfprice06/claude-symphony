@@ -1,0 +1,60 @@
+== c27
+Violins I 0-1128: 54 pairs, separation median 5.0 dB, p10 3.2; 60 ms peak median -44.4
+   pitch 69: 1 pairs, separation median 3.9, 60 ms peak median -55.9
+   pitch 71: 20 pairs, separation median 5.2, 60 ms peak median -46.6
+   pitch 74: 5 pairs, separation median 5.0, 60 ms peak median -45.7
+   pitch 75: 12 pairs, separation median 6.0, 60 ms peak median -45.6
+   pitch 76: 3 pairs, separation median 4.5, 60 ms peak median -48.8
+   pitch 78: 3 pairs, separation median 6.1, 60 ms peak median -43.6
+   pitch 83: 8 pairs, separation median 3.3, 60 ms peak median -39.8
+   pitch 84: 1 pairs, separation median 4.2, 60 ms peak median -40.1
+   pitch 86: 1 pairs, separation median 3.0, 60 ms peak median -25.6
+Violins I 48-132: 12 pairs, separation median 4.9 dB, p10 4.2; 60 ms peak median -52.7
+   pitch 69: 1 pairs, separation median 3.9, 60 ms peak median -55.9
+   pitch 71: 3 pairs, separation median 6.8, 60 ms peak median -49.1
+   pitch 74: 4 pairs, separation median 5.9, 60 ms peak median -49.5
+   pitch 75: 3 pairs, separation median 4.7, 60 ms peak median -53.1
+   pitch 78: 1 pairs, separation median 5.1, 60 ms peak median -45.4
+Violins I 311-360: 7 pairs, separation median 6.0 dB, p10 5.1; 60 ms peak median -39.3
+   pitch 71: 3 pairs, separation median 5.3, 60 ms peak median -39.3
+   pitch 75: 3 pairs, separation median 6.3, 60 ms peak median -38.9
+   pitch 83: 1 pairs, separation median 8.7, 60 ms peak median -40.1
+Violins I 756-828: 10 pairs, separation median 5.7 dB, p10 4.2; 60 ms peak median -47.9
+   pitch 71: 5 pairs, separation median 6.6, 60 ms peak median -47.2
+   pitch 74: 1 pairs, separation median 5.0, 60 ms peak median -45.7
+   pitch 75: 3 pairs, separation median 4.8, 60 ms peak median -53.6
+   pitch 78: 1 pairs, separation median 7.9, 60 ms peak median -43.6
+Violins I 912-960: 7 pairs, separation median 6.1 dB, p10 4.6; 60 ms peak median -39.2
+   pitch 71: 3 pairs, separation median 4.9, 60 ms peak median -38.9
+   pitch 75: 3 pairs, separation median 6.5, 60 ms peak median -39.2
+   pitch 83: 1 pairs, separation median 9.5, 60 ms peak median -39.6
+== c28
+Violins I 0-1128: 54 pairs, separation median 4.8 dB, p10 2.9; 60 ms peak median -43.7
+   pitch 69: 1 pairs, separation median 3.9, 60 ms peak median -54.6
+   pitch 71: 20 pairs, separation median 5.2, 60 ms peak median -45.7
+   pitch 74: 5 pairs, separation median 4.6, 60 ms peak median -45.7
+   pitch 75: 12 pairs, separation median 4.8, 60 ms peak median -44.7
+   pitch 76: 3 pairs, separation median 4.5, 60 ms peak median -48.8
+   pitch 78: 3 pairs, separation median 6.1, 60 ms peak median -41.2
+   pitch 83: 8 pairs, separation median 3.0, 60 ms peak median -39.8
+   pitch 84: 1 pairs, separation median 4.2, 60 ms peak median -38.1
+   pitch 86: 1 pairs, separation median 3.0, 60 ms peak median -25.5
+Violins I 48-132: 12 pairs, separation median 4.9 dB, p10 4.4; 60 ms peak median -52.7
+   pitch 69: 1 pairs, separation median 3.9, 60 ms peak median -54.6
+   pitch 71: 3 pairs, separation median 6.8, 60 ms peak median -49.1
+   pitch 74: 4 pairs, separation median 5.9, 60 ms peak median -49.5
+   pitch 75: 3 pairs, separation median 4.7, 60 ms peak median -53.0
+   pitch 78: 1 pairs, separation median 5.1, 60 ms peak median -42.4
+Violins I 311-360: 7 pairs, separation median 5.6 dB, p10 4.1; 60 ms peak median -39.4
+   pitch 71: 3 pairs, separation median 4.9, 60 ms peak median -40.6
+   pitch 75: 3 pairs, separation median 6.2, 60 ms peak median -38.9
+   pitch 83: 1 pairs, separation median 8.7, 60 ms peak median -40.1
+Violins I 756-828: 10 pairs, separation median 5.7 dB, p10 4.0; 60 ms peak median -46.2
+   pitch 71: 5 pairs, separation median 6.6, 60 ms peak median -45.3
+   pitch 74: 1 pairs, separation median 4.6, 60 ms peak median -45.7
+   pitch 75: 3 pairs, separation median 4.8, 60 ms peak median -50.7
+   pitch 78: 1 pairs, separation median 7.9, 60 ms peak median -40.6
+Violins I 912-960: 7 pairs, separation median 5.2 dB, p10 3.6; 60 ms peak median -39.6
+   pitch 71: 3 pairs, separation median 4.4, 60 ms peak median -40.9
+   pitch 75: 3 pairs, separation median 6.3, 60 ms peak median -39.2
+   pitch 83: 1 pairs, separation median 9.5, 60 ms peak median -39.6

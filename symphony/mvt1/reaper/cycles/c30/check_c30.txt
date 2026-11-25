@@ -1,0 +1,49 @@
+== A #1 joins: old pre_s window peak over the larger body (stem / master), min dip after the onset
+  Violon   650: Violon prev    nan tgt  -39.0 peak-over  +nan dip  +nan | master prev    nan tgt  -29.8 peak-over  +nan dip  +nan
+  Violon   422: Violon prev  -36.1 tgt  -36.3 peak-over  +3.5 dip  +1.8 | master prev  -27.7 tgt  -30.4 peak-over  -0.1 dip  +0.3
+  Violon   266: Violon prev    nan tgt  -41.8 peak-over  +nan dip  +nan | master prev    nan tgt  -31.6 peak-over  +nan dip  +nan
+  Violon    66: Violon prev  -31.5 tgt  -32.1 peak-over  -0.6 dip  +4.9 | master prev  -27.7 tgt  -28.0 peak-over  +0.5 dip  +2.6
+  Violas   429: Violas prev  -41.8 tgt  -37.8 peak-over  +4.2 dip  +1.8 | master prev  -39.6 tgt  -36.1 peak-over  +3.1 dip  +0.6
+  Violon   712: Violon prev  -49.4 tgt  -46.9 peak-over  +0.9 dip  +6.6 | master prev  -40.2 tgt  -42.0 peak-over  +0.7 dip  +1.8
+  Violon    10: Violon prev  -38.7 tgt  -34.4 peak-over  +2.5 dip  -0.5 | master prev  -34.4 tgt  -32.1 peak-over  +2.7 dip  -0.1
+  Violon     4: Violon prev  -37.0 tgt  -41.6 peak-over  +3.2 dip  +0.3 | master prev  -36.1 tgt  -39.4 peak-over  +4.5 dip  +0.9
+  Violon   694: Violon prev  -33.8 tgt  -39.5 peak-over  -4.6 dip  +3.3 | master prev  -32.2 tgt  -38.2 peak-over  -3.7 dip  +1.6
+  Violon   687: Violon prev  -34.0 tgt  -31.7 peak-over  +1.0 dip  +1.4 | master prev  -30.4 tgt  -31.1 peak-over  +0.9 dip  +1.8
+  687 detail: stem 40 ms -0.28..+0.48:  -35.3  -31.5  -30.7  -31.4  -31.8  -32.7  -35.6  -31.5  -31.7  -32.2  -33.9  -31.4  -31.0  -31.3  -33.7  -34.1  -32.2  -31.8  -28.4
+  687 detail: master                :  -32.7  -29.8  -29.6  -30.2  -30.2  -30.7  -32.6  -30.6  -30.3  -30.2  -31.8  -30.4  -29.8  -30.3  -32.5  -32.9  -31.1  -31.0  -28.0
+  687 master A-flat4 body -30.3, G4 first 0.4 s -30.9 (diff -0.6, pass >= -2)
+== A #2 horns 43-44, 0.2 s frames from qn 167.6
+  Horn 2     -49   -51   -48   -46   -45   -46   -49   -47   -46   -49   -48   -43   -44   -47   -47   -45   -45   -45   -46   -46
+  Horn 1    -200  -200  -200  -200   -85   -49   -42   -43   -41   -41   -38   -43   -45   -47   -47   -45   -43   -48   -52   -53
+  master     -33   -34   -35   -35   -38   -38   -38   -38   -38   -37   -36   -37   -37   -38   -38   -39   -40   -39   -38   -38
+  Horn 2 G4 168.4-171.8 spread 4.0 dB (pass <= 4)
+  Horn 1 - Horn 2 170.2-171.8 max 8.4 (pass <= 6)
+  master 172-176 max rise frame to frame +2.30 (pass <= 1)
+== A #3 celli bar 153
+  master 611.1-612.0 max over 610-611 median +2.3 (pass <= 2.5); 612 entry 0.3 s: master -36.5, celli -41.9
+  celli 40 ms 610.9-612.2:  -42.5  -44.1  -42.1  -42.4  -42.6  -41.6  -40.5  -40.6  -40.2  -38.6  -38.0  -38.1  -40.7  -39.6  -40.4  -40.8  -41.1  -42.0
+== A #4 celli vs violas, 0.5 qn windows 352.2-353.7
+  352.2: celli -43.8 violas -41.0 diff -2.8 (pass <= -1.5); master -35.0
+  352.7: celli -42.1 violas -40.2 diff -1.8 (pass <= -1.5); master -34.1
+  353.2: celli -46.0 violas -37.2 diff -8.8 (pass <= -1.5); master -34.2
+== B #1 Oboe 1 K bodies 176/178/179.5/180/182:  -44.5  -42.0  -42.5  -40.0  -40.7 | re M at 182:   -5.5
+== B #2 CA K bodies 368/369/370/371:  -37.9  -34.4  -36.6  -35.3 | master K 370.0-370.5 / 371.0-371.5:  -29.1  -27.1
+== B #3 Bassoon 1 K bodies (C#4 / neighbours prev, next)
+  280: -38.1  neighbours  -36.0  -37.9
+  382: -32.9  neighbours  -35.6  -33.9
+  396: -33.4  neighbours  -32.6  -34.2
+  400: -33.4  neighbours  -37.0  -30.3
+  407.5: -30.6  neighbours  -30.6  -37.0
+  476: -28.7  neighbours  -29.9  -30.6
+== B #4 Vln I K 0.5 qn 452.5-456.0:  -28.9  -29.1  -30.3  -31.1  -28.9  -29.6  -27.2  -27.7 | master:  -22.6  -19.8  -20.6  -21.1  -21.7  -20.7  -20.5  -18.6
+== B #5 Bass clarinet K bodies 364/372/380/382:  -37.4  -36.6  -34.5  -32.6 | re M 364/372:  -10.0  -11.0
+== C #1 tam-tam minus master per 2 qn from 484 (pass >= -10 over 492-503)
+  484:-9.7 486:-8.3 488:-9.8 490:-12.0 492:-10.1 494:-9.1 496:-8.1 498:-8.1 500:-6.2 502:-8.0
+  tam-tam first 1 qn after 484: -21.68
+== C #1 mp3 M per qn 492-503:  -14.8  -17.3  -18.5  -20.7  -22.1  -23.4  -23.4  -24.0  -26.7  -27.4  -27.5  -26.9
+== climax S max: 160 -10.67 > 122 -11.72 > 167-170 -13.01 > 26 -14.45; 160-122 1.05
+== C #2 coda bars 175-182 mp3:  -30.9  -29.7  -30.3  -30.1  -30.6  -30.4  -31.4  -37.1
+   p bars 43-45, 107-108, 126-127, 145 mp3:  -29.3  -30.3  -29.7  -28.1  -28.7  -27.1  -29.0  -29.4 | intro bars 4-5:  -33.1  -33.6
+== C #3 mp3 bars 171-174:  -25.3  -23.9  -24.3  -23.4; 174-171 +1.9 (pass <= 2)
+   loudest qn in 684-694: 692 (-19.8); 680 -28.4; drop 677 -> 681 14.5 (pass >= 13)
+== S distribution: p50-p10 6.4, max-p75 8.6, p99-p90 4.8

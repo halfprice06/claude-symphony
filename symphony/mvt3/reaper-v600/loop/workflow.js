@@ -1,0 +1,47 @@
+export const meta = {
+  name: 'mvt3-mockup-actor-critic',
+  description: 'Movement IV (Finale) REAPER mockup (v600): actor-critic cycles (3 parallel critics, then one actor who edits, rebuilds and renders under the shared REAPER lock)',
+  phases: [{ title: 'Critique' }, { title: 'Act' }],
+}
+const ROOT = '/Users/gooby/sandbox/claude_composes/symphony/mvt3/reaper-v600'
+const LENS_A = 'Articulation and phrasing, instrument by instrument against the score: legato transitions (are slurred lines connected, do legato patches get overlapping notes, are chords ever sent to a monophonic legato patch), note lengths and releases, keyswitch correctness and timing, staccato and the hammered eighths (coda bars 199-210, the Più allegro 247-270), tenuto and portato, accents (Dan: weight, not bite; the brass heads of 247-262 and the chorale; measure 2-5 kHz attack against the body), repeated notes (S1), tremolo (strings from the arrival at bar 223, the final bars 271-279), pizzicato (bars 51-66), sul tasto and the last-desk divisi (bar 95), div. a 3 and "4 soli" (Violins I bars 119-128), Trumpet 1 con sordino (bars 171-198, the 1TP "Mute Sus" row) and the open solo of bars 51-66, the re-bows of long string notes (the Maestoso chorale bars 223-234, the held chords of 271-279), breath marks, ties, the harp\'s harmonics (bar 43), arpeggios, glissando (277) and étouffez damping, the timpani rolls and strokes (hard sticks; "near the rim" at bar 178), the crash cymbals and bass drum (bars 223, 263, 278-279). Also whether a better Hollywood Orchestra patch exists for a passage (individual articulation patches, divisi patches for div. and soli passages, mutes, repetition rows, 2-player or a2 patches, the bass trombone\'s low notes on 3TB).'
+const LENS_B = 'Balance and levels: every stem against its printed dynamic and its role (the solos above their accompaniment: Trumpet 1 bars 51-66, the violins\' F2 bars 67-82, the bassoon solo at bar 115, the harp solo, the muted trumpet with the cor anglais bars 171-186; the theme in the counterstatement bass bars 27-34; movement II\'s theme B in the trumpets bars 211-218; the chorale bars 223-234 and 255-264 against the string tremolo; the bass solid but not boomy; timpani, bass drum and low brass not covering at the arrival (223) and the ending (271-279); crash cymbals heard but not dominant), consistency of the dynamic mapping between instruments (does p sound like p in every family), section balance by orchestration norms (Rimsky-Korsakov and Adler in reference-books), track gains, soft trims and the CC11/CC1/velocity mapping that produces the levels.'
+const LENS_C = [
+  'Blend and space: one room. Reverb, seating and panning, mic positions (Close/Main/Mid column volumes in the patches), tone matching between sample sets (the muted trumpet against the cor anglais, percussion against the orchestra, soli and divisi passages against full sections), the low-end build-up against several reference recordings (bass drum, timpani, contrabassoon, tuba, basses with the C extension).',
+  'Dynamics over time: the shape of every hairpin and phrase, the loudness arc of the whole movement against the score (the ff introduction, the p-pp transition into the soft second theme, the closing crescendo, the development\'s builds, the sfp of bar 149, the accelerando 205-210 into the Largamente, the C-major arrival at 223, the stringendo into the Più allegro, the final Largamente), loudness range of the master and the delivered mp3 (BRIEF item 6), swells and loop pulsing on long notes (BRIEF item 7), decays, the final chord and its ring under the fermata, and comparison with real recordings.',
+  'Tempo, timing and transitions: the tempo map against the printed tempos and the rit./animando/accelerando/allargando/stringendo steps in global.ily (score_config.py RAMP_SPANS, PHRASE_ARCS, TEMPO_PUSH, CAESURA), the Allegro con fuoco / Poco meno mosso / Tempo I / Largamente / Maestoso / Poco più mosso / Più allegro changes, attack latency of legato and sustain samples at this fast tempo (Dan\'s S2: the perceived attack centre on the beat, measured with tools/pcx.py), keyswitch lead times, note starts against each other between sections (hammered eighths in strings, brass and timpani together), endings of phrases and tutti cut-offs, the breaths before big entries, and the final fermata.',
+  'Holistic comparison: listen through the data as a conductor would. Compare the current render with the c00 port baseline, with the render five cycles back (if it exists), with Movement I\'s latest render on the same tools (symphony/mvt1/reaper-v621/cycles/), and with real recordings. Which passages are now the weakest? What still sounds like a machine? Name the three to six changes that would most improve the next render, across any area.',
+]
+const pad = n => String(n).padStart(2, '0')
+const start = args.start, end = args.end
+let prev = args.prev
+const results = []
+for (let N = start; N <= end; N++) {
+  const lensC = LENS_C[(N - 1) % LENS_C.length]
+  const slots = [['A', LENS_A], ['B', LENS_B], ['C', lensC]]
+  if (N !== args.skipCritics) {
+    const critique = (slot, lens) => `Read ${ROOT}/loop/critic_prompt.md and carry it out exactly, with these values substituted: {SLOT}=${slot}, {N}=${N}, {N2}=${pad(N)}, {PREV}=${prev}, {PREV2}=${pad(prev)}, {LENS}=${lens}`
+    const reports = await parallel(slots.map(([slot, lens]) => () =>
+      agent(critique(slot, lens), { label: `mvt3 c${pad(N)} critic ${slot}`, phase: 'Critique', agentType: 'general-purpose' })))
+    const got = reports.filter(Boolean).length
+    log(`cycle ${N}: ${got}/3 critic reports`)
+    if (got === 0) { log(`cycle ${N}: no reports, stopping`); break }
+  } else {
+    log(`cycle ${N}: critic reports already written; going straight to the actor`)
+  }
+  const actorPrompt = `Read ${ROOT}/loop/actor_prompt.md and carry it out exactly, with these values substituted: {N}=${N}, {N2}=${pad(N)}, {PREV}=${prev}.`
+  const SCHEMA = { type: 'object', properties: {
+    ok: { type: 'boolean', description: 'true if the cycle render finished and metrics were written' },
+    mp3: { type: 'string' }, summary: { type: 'string' },
+    lufs: { type: 'number' }, lra: { type: 'number' }, true_peak: { type: 'number' } }, required: ['ok', 'summary'] }
+  let act = await agent(actorPrompt, { label: `mvt3 c${pad(N)} actor`, phase: 'Act', agentType: 'general-purpose', schema: SCHEMA })
+  if (!act || !act.ok) {
+    log(`cycle ${N}: actor failed (${act ? act.summary.slice(0, 200) : 'no result'}), retrying once`)
+    act = await agent(actorPrompt + ' A previous actor attempt for this cycle failed or stopped partway; inspect cycles/c' + pad(N) + '/, the REAPER lock (~/.rpr-bridge/REAPER.lock: release it only if it is this thread\'s, owner "mvt3") and the state of REAPER, finish or redo the work, and render.', { label: `mvt3 c${pad(N)} actor retry`, phase: 'Act', agentType: 'general-purpose', schema: SCHEMA })
+  }
+  results.push({ cycle: N, actor: act })
+  if (!act || !act.ok) { log(`cycle ${N}: actor failed twice, stopping`); break }
+  log(`cycle ${N} done: ${act.lufs} LUFS, LRA ${act.lra}, TP ${act.true_peak}`)
+  prev = N
+}
+return { last_good: prev, results }

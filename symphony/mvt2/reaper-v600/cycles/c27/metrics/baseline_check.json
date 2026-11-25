@@ -1,0 +1,523 @@
+{
+ "Flute 1": {
+  "peak_db": -8.9,
+  "notes": 61,
+  "silent": [],
+  "rows": {
+   "Leg Slur MAX": [
+    60,
+    -41.1
+   ],
+   "Sus MAX": [
+    1,
+    -33.1
+   ]
+  }
+ },
+ "Flute 2": {
+  "peak_db": -15.3,
+  "notes": 7,
+  "silent": [],
+  "rows": {
+   "Sus MAX": [
+    7,
+    -34.2
+   ]
+  }
+ },
+ "Oboe 1": {
+  "peak_db": -16.8,
+  "notes": 43,
+  "silent": [],
+  "rows": {
+   "Leg Slur MAX": [
+    40,
+    -43.3
+   ],
+   "Sus MAX": [
+    3,
+    -35.9
+   ]
+  }
+ },
+ "Oboe 2": {
+  "peak_db": -21.4,
+  "notes": 5,
+  "silent": [],
+  "rows": {
+   "Sus MAX": [
+    5,
+    -36.9
+   ]
+  }
+ },
+ "Cor anglais": {
+  "peak_db": -15.8,
+  "notes": 41,
+  "silent": [],
+  "rows": {
+   "Leg Slur MAX": [
+    39,
+    -42.8
+   ],
+   "Sus MAX": [
+    2,
+    -45.1
+   ]
+  }
+ },
+ "Clarinet 1": {
+  "peak_db": -16.9,
+  "notes": 33,
+  "silent": [],
+  "rows": {
+   "Leg Slur": [
+    28,
+    -45.0
+   ],
+   "Sus Non Vib": [
+    5,
+    -39.2
+   ]
+  }
+ },
+ "Clarinet 2": {
+  "peak_db": -22.6,
+  "notes": 30,
+  "silent": [],
+  "rows": {
+   "Sus Non Vib": [
+    18,
+    -42.1
+   ],
+   "Leg Slur": [
+    12,
+    -47.2
+   ]
+  }
+ },
+ "Bass clarinet": {
+  "peak_db": -18.1,
+  "notes": 46,
+  "silent": [],
+  "rows": {
+   "Sus Non Vib": [
+    22,
+    -41.1
+   ],
+   "Leg Slur": [
+    24,
+    -47.7
+   ]
+  }
+ },
+ "Bassoon 1": {
+  "peak_db": -16.7,
+  "notes": 61,
+  "silent": [],
+  "rows": {
+   "Leg Slur MAX": [
+    45,
+    -45.7
+   ],
+   "Sus MAX": [
+    16,
+    -42.5
+   ]
+  }
+ },
+ "Bassoon 2": {
+  "peak_db": -12.6,
+  "notes": 51,
+  "silent": [],
+  "rows": {
+   "Leg Slur MAX": [
+    24,
+    -48.9
+   ],
+   "Sus MAX": [
+    27,
+    -41.9
+   ]
+  }
+ },
+ "Contrabassoon": {
+  "peak_db": -18.3,
+  "notes": 10,
+  "silent": [],
+  "rows": {
+   "Sus MAX": [
+    10,
+    -39.9
+   ]
+  }
+ },
+ "Horn 1": {
+  "peak_db": -14.6,
+  "notes": 51,
+  "silent": [],
+  "rows": {
+   "Leg Slur MAX": [
+    47,
+    -42.6
+   ],
+   "Sus MAX": [
+    4,
+    -33.1
+   ]
+  }
+ },
+ "Horn 2": {
+  "peak_db": -15.4,
+  "notes": 9,
+  "silent": [],
+  "rows": {
+   "Sus MAX": [
+    3,
+    -30.0
+   ],
+   "Leg Slur MAX": [
+    6,
+    -44.1
+   ]
+  }
+ },
+ "Horn 3": {
+  "peak_db": -15.5,
+  "notes": 15,
+  "silent": [],
+  "rows": {
+   "Sus MAX": [
+    7,
+    -38.7
+   ],
+   "Leg Slur MAX": [
+    8,
+    -49.0
+   ]
+  }
+ },
+ "Horn 4": {
+  "peak_db": -22.5,
+  "notes": 11,
+  "silent": [],
+  "rows": {
+   "Sus MAX": [
+    6,
+    -44.2
+   ],
+   "Leg Slur MAX": [
+    5,
+    -47.8
+   ]
+  }
+ },
+ "Trombone 1": {
+  "peak_db": -10.3,
+  "notes": 10,
+  "silent": [],
+  "rows": {
+   "Marc Lng RRx4": [
+    7,
+    -26.7
+   ],
+   "Sus MAX": [
+    3,
+    -33.3
+   ]
+  }
+ },
+ "Trombone 2": {
+  "peak_db": -14.5,
+  "notes": 6,
+  "silent": [],
+  "rows": {
+   "Sus MAX": [
+    6,
+    -33.8
+   ]
+  }
+ },
+ "Bass trombone": {
+  "peak_db": -11.6,
+  "notes": 8,
+  "silent": [],
+  "rows": {
+   "Sus MAX": [
+    8,
+    -40.1
+   ]
+  }
+ },
+ "Tuba": {
+  "peak_db": -17.1,
+  "notes": 4,
+  "silent": [],
+  "rows": {
+   "Sus MAX": [
+    4,
+    -34.7
+   ]
+  }
+ },
+ "Timpani": {
+  "peak_db": -12.3,
+  "notes": 16,
+  "silent": [],
+  "rows": {
+   "Timpani Flt Rls": [
+    10,
+    -41.3
+   ],
+   "Timpani Flt Lng": [
+    6,
+    -46.5
+   ]
+  }
+ },
+ "Harp": {
+  "peak_db": -14.7,
+  "notes": 158,
+  "silent": [],
+  "rows": {
+   "null": [
+    158,
+    -49.6
+   ]
+  }
+ },
+ "Violins I": {
+  "peak_db": -6.6,
+  "notes": 109,
+  "silent": [
+   [
+    0.0,
+    -240.0
+   ]
+  ],
+  "rows": {
+   "Leg Slur MAX": [
+    63,
+    -44.9
+   ],
+   "Sus MAX": [
+    14,
+    -41.1
+   ],
+   "Leg BC MAX": [
+    27,
+    -38.0
+   ],
+   "Leg Port MAX": [
+    2,
+    -40.0
+   ],
+   "Tremolo": [
+    3,
+    -36.7
+   ]
+  }
+ },
+ "Violins II": {
+  "peak_db": -8.2,
+  "notes": 151,
+  "silent": [
+   [
+    0.0,
+    -240.0
+   ]
+  ],
+  "rows": {
+   "Leg Slur MAX": [
+    88,
+    -46.4
+   ],
+   "Sus MAX": [
+    18,
+    -48.3
+   ],
+   "Leg BC MAX": [
+    32,
+    -40.5
+   ],
+   "Leg Port MAX": [
+    2,
+    -38.7
+   ],
+   "Flautando": [
+    7,
+    -49.1
+   ],
+   "Tremolo": [
+    4,
+    -40.4
+   ]
+  }
+ },
+ "Violas": {
+  "peak_db": -12.1,
+  "notes": 285,
+  "silent": [
+   [
+    0.0,
+    -240.0
+   ]
+  ],
+  "rows": {
+   "Leg Slur MAX": [
+    153,
+    -50.0
+   ],
+   "Sus MAX": [
+    67,
+    -40.6
+   ],
+   "Leg BC MAX": [
+    13,
+    -43.2
+   ],
+   "Pizz RRx4": [
+    42,
+    -53.8
+   ],
+   "Tremolo": [
+    10,
+    -35.2
+   ]
+  }
+ },
+ "Violoncellos": {
+  "peak_db": -11.1,
+  "notes": 133,
+  "silent": [
+   [
+    0.0,
+    -240.0
+   ]
+  ],
+  "rows": {
+   "Leg Slur MAX": [
+    76,
+    -48.5
+   ],
+   "Sus MAX": [
+    18,
+    -50.8
+   ],
+   "Leg BC MAX": [
+    37,
+    -36.3
+   ],
+   "Tremolo": [
+    2,
+    -37.2
+   ]
+  }
+ },
+ "Double basses": {
+  "peak_db": -11.4,
+  "notes": 113,
+  "silent": [
+   [
+    303.3,
+    -71.2
+   ]
+  ],
+  "rows": {
+   "Sus MAX": [
+    85,
+    -48.0
+   ],
+   "Leg Slur MAX": [
+    6,
+    -47.6
+   ],
+   "Pizz RRx4": [
+    22,
+    -50.2
+   ]
+  }
+ },
+ "Harp harmonics": {
+  "peak_db": -33.1,
+  "notes": 3,
+  "silent": [],
+  "rows": {
+   "null": [
+    3,
+    -58.1
+   ]
+  }
+ },
+ "Violin I solo": {
+  "peak_db": -23.9,
+  "notes": 11,
+  "silent": [],
+  "rows": {
+   "Leg Slur MAX": [
+    11,
+    -42.7
+   ]
+  }
+ },
+ "Violoncellos div": {
+  "peak_db": -33.2,
+  "notes": 9,
+  "silent": [],
+  "rows": {
+   "Leg Slur MAX": [
+    8,
+    -51.8
+   ],
+   "Leg BC MAX": [
+    1,
+    -49.9
+   ]
+  }
+ },
+ "Violins II div": {
+  "peak_db": -36.4,
+  "notes": 8,
+  "silent": [],
+  "rows": {
+   "Flautando": [
+    8,
+    -53.7
+   ]
+  }
+ },
+ "Violas div": {
+  "peak_db": -17.5,
+  "notes": 20,
+  "silent": [],
+  "rows": {
+   "Leg Slur MAX": [
+    6,
+    -45.4
+   ],
+   "Leg BC MAX": [
+    6,
+    -50.6
+   ],
+   "Sus MAX": [
+    8,
+    -53.8
+   ]
+  }
+ },
+ "Horns 1-2 a2": {
+  "peak_db": -14.5,
+  "notes": 8,
+  "silent": [],
+  "rows": {
+   "Leg Slur MAX": [
+    6,
+    -34.6
+   ],
+   "Sus MAX": [
+    2,
+    -40.7
+   ]
+  }
+ }
+}

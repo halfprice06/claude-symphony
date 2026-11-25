@@ -1,0 +1,19 @@
+track | isolated n, median, p90, over +3 | in runs n, median | within-note 30-180 over 250-400 ms (isolated, median)
+Flute 1         |  18  -1.7  +0.6   1 |  14  -1.2 |  -1.5
+Flute 2         |   7  -1.2  +1.8   1 |   0 |  -1.1
+Oboe 1          |  22  -1.1  +2.0   1 |   2  +0.8 |  -1.4
+Oboe 2          |   0 |   1  -2.8 |   .
+Cor anglais     |  13  -4.8  -0.3   0 |  15  -1.4 |  -2.8
+Clarinet 1      |   5  -0.5  +2.9   1 |   4  +1.5 |  -2.6
+Clarinet 2      |  10  -0.0  +3.3   2 |   6  +0.0 |  -1.4
+Bassoon 1       |   3  -0.2  +7.5   1 |   3  +0.3 |  +1.2
+Bassoon 2       |   1  -0.4  -0.4   0 |   3  +0.8 |  +0.7
+Contrabassoon   |   1  +0.2  +0.2   0 |   3  +0.0 |  +1.4
+Violins I       |  28  -1.6  +1.8   2 |  17  -0.4 |  -0.8
+Violins II      |  18  +0.3  +3.4   4 |  16  +0.5 |  -2.3
+Violas          |  12  -0.4  +2.1   0 |  16  -1.3 |  -1.0
+Violoncellos    |   6  -0.8  +2.9   1 |  15  +1.0 |  -0.0
+Double basses   |   0 |  15  +0.5 |   .
+Violin I solo   |   0 |   0 |   .
+Violas div      |   0 |   0 |   .
+all isolated: 144, median -1.1, p90 +2.8, over +3 dB: 14

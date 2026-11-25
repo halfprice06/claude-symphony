@@ -1,0 +1,10 @@
+158-161 counter              K re tune   -5.9 ->   -4.2   best band   -4.0 ->   -1.6
+bar level change (dB, 63 Hz-10 kHz power):
+  bar 26: +0.00 dB, loudest 0.4 s +0.00
+  bar 82: +0.00 dB, loudest 0.4 s +0.00
+  bar 83: +0.00 dB, loudest 0.4 s +0.00
+  bar 122: +0.00 dB, loudest 0.4 s +0.00
+  bar 160: +0.10 dB, loudest 0.4 s +0.12
+  bar 161: +0.18 dB, loudest 0.4 s +0.12
+  bar 170: +0.00 dB, loudest 0.4 s +0.00
+largest master bar changes: 159 +0.4, 158 +0.2, 161 +0.2, 160 +0.1, 182 +0.0, 181 +0.0, 180 +0.0, 179 +0.0, 178 +0.0, 177 +0.0

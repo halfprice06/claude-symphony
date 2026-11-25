@@ -1,0 +1,20 @@
+bar 131 beat 1.5 p55 note-on   -90 ms  NOT FOUND as dominant pitch
+bar 131 beat 2.0 p63 note-on   -40 ms  sounds   +54 ms  heard  700 ms of  734 ( 95 %) pk -38 dB
+bar 131 beat 3.5 p62 note-on   -50 ms  sounds   +25 ms  heard  360 ms of  238 (151 %) pk -32 dB  under neighbours -9.2
+bar 131 beat 4.0 p61 note-on  -107 ms  sounds  +152 ms  heard  100 ms of  238 ( 42 %) pk -41 dB  under neighbours +6.4
+bar 131 beat 4.5 p60 note-on  -100 ms  sounds   +18 ms  heard  710 ms of  238 (298 %) pk -37 dB  under neighbours -3.6
+bar 132 beat 1.0 p60 note-on   -50 ms  same-pitch repeat: dip 5.6 dB at -50 ms, back at +30 ms
+bar 132 beat 2.0 p59 note-on   -50 ms  sounds   +59 ms  heard  215 ms of  238 ( 90 %) pk -36 dB  under neighbours -0.5
+bar 132 beat 2.5 p60 note-on  -107 ms  sounds   +41 ms  heard  320 ms of  238 (134 %) pk -37 dB  under neighbours +0.5
+bar 132 beat 3.0 p56 note-on   -50 ms  sounds  +128 ms  heard  625 ms of  714 ( 88 %) pk -39 dB
+bar 132 beat 4.5 p55 note-on   -50 ms  sounds   +44 ms  heard  655 ms of  238 (275 %) pk -45 dB
+bar 133 beat 1.5 p55 note-on   -90 ms  same-pitch repeat: dip 14.2 dB at -57 ms, back at +28 ms
+bar 133 beat 2.0 p65 note-on  -100 ms  sounds   -11 ms  heard  775 ms of  714 (108 %) pk -36 dB
+bar 133 beat 3.5 p63 note-on   -50 ms  sounds   +55 ms  heard  275 ms of  238 (116 %) pk -35 dB  under neighbours -6.2
+bar 133 beat 4.0 p62 note-on  -107 ms  sounds   +97 ms  heard  135 ms of  238 ( 57 %) pk -41 dB  under neighbours +1.1
+bar 133 beat 4.5 p60 note-on  -100 ms  sounds    -1 ms  heard  210 ms of  238 ( 88 %) pk -45 dB  under neighbours +3.9
+bar 134 beat 1.0 p59 note-on  -100 ms  sounds   -24 ms  heard  535 ms of  476 (112 %) pk -41 dB
+bar 134 beat 2.0 p62 note-on   -50 ms  sounds   +40 ms  heard  330 ms of  238 (139 %) pk -37 dB  under neighbours -7.7
+bar 134 beat 2.5 p60 note-on  -107 ms  sounds  +137 ms  heard  205 ms of  238 ( 86 %) pk -45 dB  under neighbours +7.7
+bar 134 beat 3.0 p55 note-on   -50 ms  sounds  +108 ms  heard 1660 ms of  987 (168 %) pk -44 dB
+Trombone 1     520-536: found 16 of 19 (+2 same-pitch repeats, 2 with a dip >= 3 dB), median +49 ms, SD 51, min -24, max +152; over 40 ms from median 8, over 25 ms 9; not sounding 1; under 60 % of printed length 2; eighths > 6 dB under neighbours 2; median share 110 %

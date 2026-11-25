@@ -1,0 +1,47 @@
+tempo equal: True
+Flute 1
+  vol_db differs
+Clarinet 1
+  notes -1 +1
+    - (286.0, 2.93, 73, None, 41)
+    + (286.0, 2.96, 73, None, 41)
+  ks: 1 removed, 1 added; qn 288.94..288.97
+    - {"qn": 288.94, "pitch": 24, "art": "Sus Non Vib"}
+    + {"qn": 288.97, "pitch": 24, "art": "Sus Non Vib"}
+  cc11: 3 removed, 3 added; qn 288.87..288.97
+    + [288.87, 32]
+    - [288.875, 31]
+    - [288.9375, 27]
+    + [288.9375, 30]
+    - [288.948, 26]
+    + [288.974, 29]
+Bassoon 1
+  vol_db differs
+Horn 1
+  vol_db differs
+Violins I
+  vol_db differs
+Violins II
+  notes -2 +2
+    - (151.6829, 2.2131, 66, None, 124)
+    - (153.856, 1.932, 78, None, 124)
+    + (151.6829, 2.1051, 66, None, 124)
+    + (153.748, 2.04, 78, None, 124)
+  cc11: 43 removed, 45 added; qn 268.12..270.94
+  vol_db differs
+Violas
+  vol_db differs
+Violoncellos
+  notes -2 +2
+    - (65.948, 1.7887, 51, None, 105)
+    - (67.6967, 0.6007, 56, None, 124)
+    + (65.948, 1.832, 51, None, 105)
+    + (67.74, 0.5573, 56, None, 124)
+  ks: 1 removed, 1 added; qn 67.57..67.61
+    - {"qn": 67.5667, "pitch": 26, "art": "Leg Slur MAX"}
+    + {"qn": 67.61, "pitch": 26, "art": "Leg Slur MAX"}
+  vol_db differs
+Double basses
+  vol_db differs
+Violoncellos div
+  vol_db differs

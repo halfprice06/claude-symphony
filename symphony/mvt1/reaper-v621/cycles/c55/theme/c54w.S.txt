@@ -1,0 +1,6 @@
+Clarinet 1    520-536 S: n 18 of 19  median -2  robust SD 14  SD 37  min -48 max +112  >25 from median 6  >40 4  >60 2
+Bassoon 1     520-536 S: n 19 of 19  median +9  robust SD 15  SD 31  min -46 max +103  >25 from median 6  >40 3  >60 1
+Trombone 1    520-536 S: n 19 of 19  median +8  robust SD 30  SD 50  min -178 max +54  >25 from median 7  >40 6  >60 1
+Oboe 1        88-104 S: n 13 of 13  median -11  robust SD 32  SD 47  min -113 max +36  >25 from median 6  >40 6  >60 4
+Oboe 1        536-552 S: n 13 of 13  median -13  robust SD 37  SD 42  min -113 max +18  >25 from median 6  >40 4  >60 3
+Cor anglais   272-284 S: n 17 of 17  median +15  robust SD 18  SD 33  min -61 max +58  >25 from median 6  >40 5  >60 2

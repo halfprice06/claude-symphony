@@ -1,0 +1,80 @@
+== B #1 bars 47-50 (138-150) K: Cl1 / Cl2 / Hn1 / Ob1 / V1; margins under V1 and Ob1
+  -36.5 / -39.0 / -37.1 / -35.6 / -33.2   under V1: Clarinet 1 3.3, Clarinet 2 5.9, Horn 1 3.9   under Ob1: Clarinet 1 0.9, Clarinet 2 3.4, Horn 1 1.5
+== B #1 reprise 624-645 per bar: V1 - Cl1 / V2 - Cl1 (K); beats (1 qn) with Cl1 over V2 or less than 2 dB under V1
+  +8.3/+9.4  +5.6/+4.0  +7.0/+3.6  +10.9/+9.1  +9.6/+6.4  +0.4/-0.6  +5.7/+3.6
+  beats off (2): 640:-3.7/-2.7 641:-1.2/-1.3
+  trio solo Cl1 456-504 K -38.12; 576-598 -37.12
+== B #2 basses' arco G#1: note body K vs previous / next note; basses vs celli 504-528; bar 48 (141-144) Cb / V1 / Vc
+  142: prev -44.0  G#1 -38.2  next -39.8
+  507: prev -53.2  G#1 -47.9  next -50.8
+  531: prev -46.4  G#1 -48.1  next -50.8
+  651: prev -44.8  G#1 -36.6  next -38.5
+  504-528: Cb -49.6 Vc -38.8;  141-144: Cb -38.8 V1 -36.9 Vc -44.6
+== B #3 372-381 K: Hn4 / V1 / Fl1; Hn4 382-384
+  -43.9 / -37.8 / -40.6;  382-384 -35.3
+== B #4 bar 332: each brass track 995-996 against its own 996-999; brass sum / string sum at 995-996; master per qn 993-997
+  Horn 1 -4.7, Horn 2 -5.7, Horn 3 -5.5, Horn 4 -8.0, Trumpet 1 -6.8, Trumpet 2 -4.6, Trombone 1 -6.0, Trombone 2 -3.8, Bass trombone -8.4, Tuba -4.0
+  brass -30.4 strings -25.4;  master -23.5 / -22.2 / -21.6 / -18.5
+== B #5 Oboe 2 F5: Ob2 - Ob1 at 900-902.9 / 903-905.9; Ob2 987 / 990 / 993; violas' pizz. beat 2 against beat 3 (0.2 s peaks)
+  +0.4 / +0.4;  -43.8 / -39.0 / -35.7
+  violas beat 2 - beat 3: median +3.3 (n 14; -0.4..+7.6)
+  Violas first 0.1 s plain: beat 2 -49.8 (n 14), beat 3 -48.8 (n 14)
+  Violins II first 0.1 s plain: beat 2 -51.2 (n 13), beat 3 -49.6 (n 12)
+== C #5 pizz. groups: head bar against the other two bars (plain 0.2 s peak of the bar's note), celli / basses / sum
+  264: Violon +1.9 (-52.5 -54.3 -54.4); Double +1.9 (-48.0 -49.8 -49.9)
+  273: Violon +1.9 (-52.5 -54.3 -54.4); Double +1.9 (-47.9 -49.8 -49.9)
+  282: Violon +1.8 (-52.5 -54.3 -54.4); Double +2.0 (-47.9 -49.8 -49.9)
+== C #2 soft entries: pcX ms; K in 0.1 s steps from the score onset (-0.1..+0.5 s) re the body (+0.5..+0.9 s)
+  Violins II 672: pcX +167 lead 300 ms | -14.0 -11.1 -6.1 -3.3 -2.3 +1.7 | body -40.9
+  Violins II 708: pcX +138 lead 300 ms | -17.4 -11.1 -5.3 -3.3 -2.2 +0.1 | body -43.6
+  Violins II 738: pcX +43 lead 240 ms | -12.8 -7.1 -0.3 -2.4 -3.0 -2.1 | body -49.6
+  Violins II 1044: pcX +57 lead 220 ms | -10.0 -4.8 -2.8 -0.1 +2.1 -0.3 | body -45.3
+  Violins II 360: pcX +98 lead 200 ms | -7.8 -3.0 -1.5 +3.2 +4.2 +1.3 | body -42.5
+  Oboe 1 672: pcX +194 lead 135 ms | -9.5 -8.2 -5.9 +3.3 +2.1 +0.3 | body -39.5
+  Violas 1020: pcX +109 lead 300 ms | -18.1 -8.0 -6.0 -0.5 -0.0 -2.8 | body -45.5
+  Flute 1 1044: pcX +67 lead 255 ms | -23.1 -9.1 -9.8 -8.8 -1.4 -0.7 | body -41.8
+  Violas div 1044: pcX +81 lead 200 ms | -14.1 -7.1 -3.5 -2.8 -0.7 -2.7 | body -53.7
+  Violin I solo 1044: pcX +139 lead 270 ms | -20.2 -4.4 -3.5 +1.6 +2.7 +4.7 | body -36.3
+  Double basses 504: pcX +112 lead 120 ms | -17.1 -10.0 -5.1 -3.1 -1.4 -0.3 | body -52.1
+  Horn 1 1077: pcX +21 lead 60 ms | +7.7 +8.1 +3.7 -0.8 -1.7 +3.2 | body -39.6
+  Violoncellos 504: pcX +339 lead 180 ms | -14.3 -9.9 -6.3 -0.6 +2.5 +9.8 | body -38.5
+  Double basses 1071: pcX +144 lead 120 ms | -16.8 -13.4 -8.5 -6.6 -4.7 -2.4 | body -52.6
+== A #2 Horn 1 bars 3-5: pcX of G#3 (6) and E4 (9); K per 0.5 qn 9-15; 6.0-9.0 body against 9.5
+  pcX 6.0 +83  9.0 +53
+  -39.0 -34.7 -35.6 -37.2 -37.7 -38.5 -39.1 -39.6 -41.0 -42.2 -41.4 -44.3   rise 0.8 dB max after 9.5; G#3 6.5-8.5 -42.4
+== A #3 / C #4 bar 301-302: pcX at 900 / 902 / 904; K 0.1 s after the 902 stroke against the 0.15 s before its note-on; master 901.75 -> 902.15
+  Violins I         -5    -5    +2  902 step -0.7   sf front 900 (peak 0.1 s in -0.1..+0.2) - 900.9-901.9: +9.3
+  Violins II       -72   +50   -45  902 step +0.9   sf front 900 (peak 0.1 s in -0.1..+0.2) - 900.9-901.9: +12.5
+  Violas           -39   -32    -6  902 step -2.5   sf front 900 (peak 0.1 s in -0.1..+0.2) - 900.9-901.9: +12.1
+  Violoncellos     -44   -47   +10  902 step +0.4   sf front 900 (peak 0.1 s in -0.1..+0.2) - 900.9-901.9: +8.2
+  Double basses    -17   +54   -21  902 step -11.2   sf front 900 (peak 0.1 s in -0.1..+0.2) - 900.9-901.9: +5.0
+  Clarinet 1        +3   +52    +3  902 step +5.1   sf front 900 (peak 0.1 s in -0.1..+0.2) - 900.9-901.9: +7.5
+  Flute 1          -19    -4  +146  902 step +1.5   sf front 900 (peak 0.1 s in -0.1..+0.2) - 900.9-901.9: +3.9
+  Oboe 1           -42    -    -   sf front 900 (peak 0.1 s in -0.1..+0.2) - 900.9-901.9: +7.0
+  Horn 1           -25    -    -   sf front 900 (peak 0.1 s in -0.1..+0.2) - 900.9-901.9: +1.6
+  master 901.5-901.9 -25.5 -> 902.0-902.4 -21.2 -> 904.0-904.4 -19.7; 906-910 -16.18
+== Violins I theme heads 53 / 77: first eighth against the next quarter (K); Violins II 357-360 per 0.5 qn
+  53: -1.3
+  77: -0.8
+  -27.1 -31.7 -29.4 -30.5 -42.0 -46.6 -53.3 -51.1 -45.4 -43.0
+== Horn repeats 627-663: dip (10 ms frames: min in -0.15..+0.05 s of the repeat's note-on against the lower neighbouring body)
+  Horn 1 (630, 633, 663): [-4.2, -4.1, -3.8]
+  Horn 2 (627, 642, 651, 657): [2.6, 3.6, 1.3, 6.0]
+== ONE_TIME 16 harp damps: K 0.3-0.6 s after 258 / 575.5 / 717 against the 0.3 s before
+  258: -44.1 -> -200.0
+  575.5: -50.1 -> -200.0
+  717: -63.7 -> -200.0
+== C #6 last bars: master per bar 1104-1128
+  -40.8 -42.3 -42.3 -41.1 -44.5 -45.5 -43.6 -45.7
+== A #1 / C #1 / A #4 / C #3 legato joins (pcX, previous pitch excluded): median, count over +60 / +100 and under -40 ms
+  Violins I: n 118 median +15 IQR -4..+46; >+60: 19  >+100: 5  <-40: 9
+     late: 53.5:+73 857:+73 389:+74 542:+81 378:+84 159:+88 366:+91 600:+98 662:+98 597:+109 584:+119 372:+120 855:+150 644:+165   early: 591:-103 536:-64 656:-59 583.5:-58 373.5:-50 145.5:-46 146:-46 841.5:-45 655.5:-44
+  Violins II: n 104 median -2 IQR -29..+23; >+60: 8  >+100: 3  <-40: 20
+     late: 840:+60 677:+63 374:+73 646:+75 382:+81 372:+136 387:+164 855:+164   early: 598:-142 600:-136 595.5:-126 593:-120 1051.5:-118 841.5:-117 1063:-117 373.5:-111 846:-98 842:-97
+  Violas: n 67 median +3 IQR -42..+31; >+60: 10  >+100: 6  <-40: 17
+     late: 684:+60 726:+60 194:+62 198:+62 843:+101 678:+103 162:+116 612:+117 831:+123 681:+152   early: 846:-188 378:-180 598:-120 590:-93 600:-91 150:-88 588:-65 370:-61 838:-61 1044:-60
+  Violoncellos: n 198 median +7 IQR -21..+41; >+60: 34  >+100: 13  <-40: 33
+     late: 765:+98 542:+114 880:+119 372:+121 154:+154 161:+154 570:+155 1045:+169 794:+197 660:+202 198:+229 855:+269 368:+307 836:+407   early: 331:-124 931:-124 511.5:-119 528:-119 523.5:-108 944:-92 344:-91 356:-85 956:-85 844:-82
+  Flute 2: n 49 median +46 IQR +3..+85; >+60: 16  >+100: 3  <-40: 3
+     late: 954.5:+74 940:+85 347.5:+87 947.5:+88 930.5:+90 921.5:+91 919.5:+92 944.5:+92 922.5:+96 931.5:+98 943.5:+100 920:+114 923:+127 932:+127   early: 955:-136 941:-125 919:-118
+  celli 506-552: median -8 (n 30)

@@ -1,0 +1,21 @@
+master EQ (mix.json master_eq): highpass 42.0 Hz bw 2.0; bell 167.0 Hz -1.6 dB bw 1.39; bell 1180.0 Hz -1.9 dB bw 1.39; highshelf 8008.0 Hz +0.8 dB bw 1.39
+ride trims 299.6-312.4 qn: -1.50..+0.00 dB
+ride trims 894.0-912.4 qn: -0.50..+0.00 dB
+ride trims 212.5-216.3 qn: -1.50..+0.00 dB
+ride trims 576.0-602.0 qn: -2.00..+0.00 dB
+ride trims 624.0-649.0 qn: -1.00..+0.00 dB
+ride trims 659.0-672.0 qn: -2.00..+0.00 dB
+ride trims 167.5-204.0 qn: +0.00..+2.00 dB
+ride trims 863.5-888.0 qn: +0.00..+2.00 dB
+ride trims 211.5-217.0 qn: -1.50..+0.00 dB
+ride trims 895.5-901.0 qn: -2.00..+0.00 dB
+ride trims 911.0-961.0 qn: -1.00..+0.00 dB
+ride trims 625.0-673.0 qn: -2.00..+0.00 dB
+pre-limiter peaks (s, dBFS): 241.93 +4.06, 242.68 +3.97, 240.93 +3.77, 36.83 +2.77, 240.43 +2.34
+limiter per passage (max dB): summit 336-339 5.5; tutti 105-120 3.6; tutti 305-320 2.6; bar 72 2.9; bar 300 1.8; final chord 375-376 0.1; whole file 5.5
+loudness pass 1: I -14.2 LUFS (gain +13.90 dB), shortfall +0.20 LU
+pre-limiter peaks (s, dBFS): 241.93 +4.19, 242.68 +4.10, 240.93 +3.90, 36.83 +2.92, 240.43 +2.47
+limiter per passage (max dB): summit 336-339 5.6; tutti 105-120 3.8; tutti 305-320 2.8; bar 72 3.0; bar 300 1.9; final chord 375-376 0.1; whole file 5.6
+loudness pass 2: I -14.0 LUFS (gain +14.15 dB), shortfall +0.00 LU
+short-term p10 -21.6 LUFS, max -7.5
+delivered: I -14.0 LUFS, LRA 12.2 LU, TP -1.4 dBTP; ride max +10.0 dB, min -5.6 dB; limiter about 5.6 dB on the loudest sample peak; p10-to-max short-term span 14.1 dB; length 279.75 s (tail 1.00 s after the last window above -65 dBFS)

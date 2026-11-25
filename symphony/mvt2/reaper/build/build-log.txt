@@ -1,0 +1,23 @@
+{"ccs": 2, "notes": 5, "okset": true, "state_len": 2982664, "track": "Oboe 2"}
+{"ccs": 50, "notes": 43, "okset": true, "state_len": 2340956, "track": "Cor anglais"}
+{"ccs": 38, "notes": 56, "okset": true, "state_len": 3613924, "track": "Clarinet 1"}
+{"ccs": 118, "notes": 36, "okset": true, "state_len": 3613924, "track": "Clarinet 2"}
+{"ccs": 334, "notes": 53, "okset": true, "state_len": 2319656, "track": "Bass clarinet"}
+{"ccs": 510, "notes": 53, "okset": true, "state_len": 2974200, "track": "Bassoon 1"}
+{"ccs": 562, "notes": 62, "okset": true, "state_len": 2974196, "track": "Bassoon 2"}
+{"ccs": 214, "notes": 10, "okset": true, "state_len": 2566256, "track": "Contrabassoon"}
+{"ccs": 70, "notes": 74, "okset": true, "state_len": 4149612, "track": "Horn 1"}
+{"ccs": 98, "notes": 24, "okset": true, "state_len": 4149616, "track": "Horn 2"}
+{"ccs": 242, "notes": 17, "okset": true, "state_len": 4149616, "track": "Horn 3"}
+{"ccs": 50, "notes": 18, "okset": true, "state_len": 4149620, "track": "Horn 4"}
+{"ccs": 58, "notes": 14, "okset": true, "state_len": 2386972, "track": "Trombone 1"}
+{"ccs": 34, "notes": 5, "okset": true, "state_len": 2386972, "track": "Trombone 2"}
+{"ccs": 122, "notes": 9, "okset": true, "state_len": 2386976, "track": "Bass trombone"}
+{"ccs": 34, "notes": 5, "okset": true, "state_len": 2914924, "track": "Tuba"}
+{"ccs": 498, "notes": 21, "okset": true, "state_len": 141860, "track": "Timpani"}
+{"ccs": 198, "notes": 175, "okset": true, "state_len": 26860, "track": "Harp"}
+{"ccs": 465, "notes": 160, "okset": true, "state_len": 9268212, "track": "Violins I"}
+{"ccs": 421, "notes": 213, "okset": true, "state_len": 9252636, "track": "Violins II"}
+{"ccs": 361, "notes": 366, "okset": true, "state_len": 6278396, "track": "Violas"}
+{"ccs": 353, "notes": 178, "okset": true, "state_len": 6684924, "track": "Violoncellos"}
+{"ccs": 725, "notes": 97, "okset": true, "state_len": 1422396, "track": "Double basses"}

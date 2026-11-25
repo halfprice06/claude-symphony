@@ -1,0 +1,32 @@
+== theme head, Violins I (A #1 / B #1): staccato before | half 0-300 ms | half last 140 ms | eighth 1 | eighth 2 | landing | next staccato
+    41.0  -39.9  -34.2  -41.5  -37.4  -36.7  -38.2  -44.2   pair-half -2.8 landing-pair -1.2 tail-half -7.3
+    53.0  -39.1  -38.1  -45.3  -40.3  -41.2  -40.4  -44.1   pair-half -2.6 landing-pair +0.3 tail-half -7.2
+    71.0  -32.1  -32.6  -38.3  -34.9  -37.0  -34.7  -42.8   pair-half -3.3 landing-pair +1.3 tail-half -5.7
+    77.0  -38.5  -35.2  -42.5  -37.9  -38.0  -39.4  -44.1   pair-half -2.8 landing-pair -1.4 tail-half -7.2
+   287.0  -44.8  -39.2  -47.0  -42.2  -41.7  -42.4  -64.0   pair-half -2.8 landing-pair -0.4 tail-half -7.8
+   761.0  -37.7  -33.8  -40.8  -37.0  -36.4  -37.3  -38.0   pair-half -2.9 landing-pair -0.6 tail-half -7.0
+   773.0  -39.2  -36.5  -43.8  -39.1  -39.0  -40.3  -42.4   pair-half -2.5 landing-pair -1.2 tail-half -7.3
+   791.0  -29.5  -32.0  -36.7  -34.5  -37.0  -36.0  -42.6   pair-half -3.7 landing-pair -0.3 tail-half -4.7
+   797.0  -40.3  -34.9  -42.2  -38.0  -37.2  -38.7  -44.0   pair-half -2.7 landing-pair -1.1 tail-half -7.3
+== clarinets (B #4, C #4)
+  bars 269-270: Clarinet 2 -49.0, Bassoon 1 -48.4, Clarinet 1 -47.7
+  bars 133-136 chords Clarinet 2 / Clarinet 1: -42.5 / -41.6, -41.3 / -41.1, -43.7 / -41.4, -50.8 / -48.2
+  bar 29 / 33: Clarinet 2 -49.5 / -49.5, Clarinet 1 -53.1 / -49.5, Flute 1 -47.1 / -48.5, Oboe 1 -50.1 / -50.2
+  Clarinet 1 at 243: -36.2; before -40.9, after -37.6
+  Clarinet 1 at 735: -44.0; before -44.3, after -38.8
+  Clarinet 1 at 904: -31.4; before -36.5, after -32.6
+  Bassoon 1 699 -36.7, 702 -37.6; Oboe 1 1036 -38.3, 1038 -39.7, 1039.5 -41.4
+  Timpani roll 708-718 per qn: -48.0 -49.3 -48.0 -50.1 -55.1 -55.7 -56.6 -57.0 -56.5 -55.4
+== fugato (C #1), master per bar: 13-16: -40.3 -35.3 -40.9 -41.1 | 57-66: -40.1 -42.7 -41.0 -40.3 -42.6 -43.1 -38.6 -38.3 -39.9 -40.0 | 289-294: -41.8 -43.9 -40.8 -40.4 -43.5 -41.1 | 325-328: -46.4 -44.5 -43.9 -36.5
+   Violoncellos 57-60 / Violas 61-64 / celli 61-64: -40.0 -43.1 -41.0 -40.3 / -43.6 -45.6 -39.2 -39.7 / -50.4 -47.1 -47.1 -46.2
+== tutti downbeats (C #5), master first eighth: 312 -15.8, 912 -16.2; last beat before: -16.7 / -18.3; summit bars 336-338: -15.3 -14.7 -14.9; bar 104 / 304: -16.9 / -18.5
+   Flute 1 at 312 / 912 / 314: -26.9 -31.6 -30.2
+== winds minus strings, bars 125-129: -1.8 +1.1 +1.6 -0.9 -3.6; brass minus winds -6.2 -5.9 -9.9 -7.8 -7.0
+== winds minus strings, bars 193-197: +2.8 +1.7 +1.6 -0.6 -2.5; brass minus winds -72.0 -26.8 -10.8 -8.5 -6.9
+== winds minus strings, bars 281-285: -0.2 +1.4 +3.7 +0.3 -3.1; brass minus winds -8.2 -7.6 -12.3 -16.9 -8.2
+   bars 105-108: brass minus winds -0.9 -4.2 +2.2 -3.7; winds minus strings -2.4 -1.1 -4.0 -1.6
+   bars 305-306: brass minus winds -5.3 -9.1; winds minus strings -2.7 -1.4
+   bars 336-338: brass minus winds -1.6 -3.9 -3.4; winds minus strings -2.7 -1.2 -2.2
+== re-bow 1103.814: frames re the 0.3 s before: -0.5 -0.8 +0.1 -0.1 -1.4 +0.7 -1.9 +1.2 +1.8 +0.6
+== re-bow 1116.299: frames re the 0.3 s before: +0.6 +0.3 -0.6 -0.2 +0.8 -0.4 -0.4 +0.4 -0.2 -0.6
+== re-bow 1125.156: frames re the 0.3 s before: -0.3 +0.3 -0.3 +0.2 +0.0 -0.7 -0.8 +0.5 +0.6 +0.2

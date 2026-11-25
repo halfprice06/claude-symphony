@@ -1,0 +1,11 @@
+points 4771, per note 0.83, per second 17.2 (31 tracks); guard snaps 102 holds 108
+slope guard (1.5 dB within 0.5 s inside a note): 9 notes, of these over 1.95 dB: 9
+   ('Violoncellos', 312.0, 310.64, 4.2)
+   ('Violoncellos', 912.0, 910.61, 4.2)
+   ('Violoncellos', 362.0, 361.47, 4.0)
+   ('Horn 2', 1005.0, 1004.76, 3.2)
+   ('Horn 3', 953.0, 952.74, 3.0)
+   ('Horn 4', 915.0, 914.74, 3.0)
+   ('Harp', 708.0, 708.3, 3.0)
+   ('Horn 3', 936.0, 935.78, 2.3)
+   ('Violas', 197.0, 196.74, 2.2)

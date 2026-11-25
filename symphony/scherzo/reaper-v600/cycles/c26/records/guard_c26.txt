@@ -1,0 +1,4 @@
+envelope: points 2918, per note 0.52, per second 10.5 (timpani left out)
+fixed guard, step (1.5 dB within 0.5 s, > 6 dB/s, inside a sounding note): 0 notes (+ harp 14)
+first 0.35 s (finale c27: 1.5 dB or more, printed hairpins apart): 0 notes (+ harp 6); steps wholly inside printed hairpins (exempt from both counts): 0 notes
+critic B's measure (2 dB within 0.5 s at 20 dB/s or faster): 0 notes (+ harp 0)

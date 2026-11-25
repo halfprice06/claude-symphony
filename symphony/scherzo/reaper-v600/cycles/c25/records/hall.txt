@@ -1,0 +1,2 @@
+c25: cut-off 242.75 s; drop +0.3 s 18.7 dB; 20 dB fall 0.33 s; hall14 RT60 (2 x t[-5..-35]) 1.40 s; fitted -5..-35: 1.43 s; late slope fitted -25..-55 (C): 1.49 s (window 0.43-1.19 s after the cut-off)
+mockup-loop: cut-off 242.88 s; drop +0.3 s 18.9 dB; 20 dB fall 0.35 s; hall14 RT60 (2 x t[-5..-35]) 1.42 s; fitted -5..-35: 1.51 s; late slope fitted -25..-55 (C): nan s (window 0.46-0.00 s after the cut-off)

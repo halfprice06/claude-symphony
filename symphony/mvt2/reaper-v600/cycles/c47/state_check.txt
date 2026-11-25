@@ -1,0 +1,53 @@
+state_check: cycles/c46/render (cycles/c46/rendered_build) -> cycles/c47/render (cycles/c47/rendered_build); flag |level| > 3.0 dB or |pcX| > 30.0 ms on notes whose data did not change
+Flute 1            compared   54  flagged   0  state runs 0  timing runs 0
+Flute 2            compared    3  flagged   0  state runs 0  timing runs 0
+Oboe 1             compared   22  flagged   0  state runs 0  timing runs 0
+Oboe 2             compared    1  flagged   0  state runs 0  timing runs 0
+Cor anglais        compared   19  flagged   0  state runs 0  timing runs 0
+Clarinet 1         compared   20  flagged   0  state runs 0  timing runs 0
+Clarinet 2         compared   17  flagged   0  state runs 0  timing runs 0
+Bass clarinet      compared   33  flagged   0  state runs 0  timing runs 0
+Bassoon 1          compared   44  flagged   1  state runs 0  timing runs 0
+     262.000 p 61 Leg Slur MAX           level  -0.74 dB  pcX    +55 ms
+Bassoon 2          compared   33  flagged   0  state runs 0  timing runs 0
+Contrabassoon      compared    4  flagged   0  state runs 0  timing runs 0
+Horn 1             compared   48  flagged   0  state runs 0  timing runs 0
+Horn 2             compared    9  flagged   0  state runs 0  timing runs 0
+Horn 3             compared   15  flagged   0  state runs 0  timing runs 0
+Horn 4             compared   11  flagged   0  state runs 0  timing runs 0
+Trombone 1         compared   10  flagged   1  state runs 0  timing runs 0
+     217.500 p 57 Leg Slur MAX           level  +1.91 dB  pcX    -35 ms
+Trombone 2         compared    6  flagged   0  state runs 0  timing runs 0
+Bass trombone      compared    8  flagged   0  state runs 0  timing runs 0
+Tuba               compared    4  flagged   0  state runs 0  timing runs 0
+Timpani            compared   16  flagged   0  state runs 0  timing runs 0
+Violins I          compared  109  flagged   4  state runs 0  timing runs 0
+     193.500 p 90 Leg BC MAX             level  -0.59 dB  pcX    -88 ms
+     242.000 p 86 Leg Slur MAX           level  -0.43 dB  pcX    -80 ms
+     243.000 p 85 Leg BC MAX             level  -0.53 dB  pcX   -106 ms
+     266.000 p 92 Leg Slur MAX           level  +0.74 dB  pcX    +71 ms
+Violins II         compared  147  flagged   5  state runs 0  timing runs 0
+      71.000 p 73 Leg BC MAX             level  +0.22 dB  pcX    -69 ms
+      84.000 p 79 Leg BC MAX             level  +0.67 dB  pcX    +48 ms
+     146.000 p 66 Leg BC MAX             level  +0.04 dB  pcX    -86 ms
+     218.000 p 59 Leg Slur MAX           level  +3.24 dB  pcX    -94 ms
+     262.000 p 82 Leg BC MAX             level  -0.21 dB  pcX   -101 ms
+Violas             compared  290  flagged   8  state runs 0  timing runs 1
+      70.000 p 58 Leg Slur MAX           level  +0.13 dB  pcX    -48 ms
+     192.000 p 56 Leg BC MAX             level  +0.43 dB  pcX    +44 ms
+     251.000 p 56 Leg Slur MAX           level  +0.01 dB  pcX    +51 ms
+     251.500 p 63 Leg BC MAX             level  +0.45 dB  pcX    -71 ms
+     253.500 p 68 Leg Slur MAX           level  +0.57 dB  pcX    -61 ms
+     256.000 p 55 Leg BC MAX             level  +0.06 dB  pcX   -109 ms
+     256.500 p 63 Leg Slur MAX           level  +0.35 dB  pcX    -47 ms
+     258.000 p 58 Leg Slur MAX           level  +0.47 dB  pcX    +98 ms
+  timing run Violas: qn 251.00-258.00, 6 notes, level median +0.4 dB, pcX median -54 ms
+Violoncellos       compared  116  flagged   1  state runs 0  timing runs 0
+     258.000 p 61 Leg Slur MAX           level  -0.45 dB  pcX   +146 ms
+Double basses      compared  108  flagged   0  state runs 0  timing runs 0
+Violin I solo      compared   11  flagged   0  state runs 0  timing runs 0
+Violoncellos div   compared   14  flagged   1  state runs 0  timing runs 0
+      63.500 p 56 Leg Slur MAX           level  +0.50 dB  pcX    +59 ms
+Violins II div     compared    8  flagged   0  state runs 0  timing runs 0
+Violas div         compared   19  flagged   0  state runs 0  timing runs 0
+Horns 1-2 a2       compared    8  flagged   0  state runs 0  timing runs 0

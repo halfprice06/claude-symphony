@@ -1,0 +1,76 @@
+Flute 1: stretch_cc7 moved the envelope of 55 stretches into CC7 (0 kept: floor)
+Flute 1: stretch_cc7 moved the envelope of 55 stretches into CC7 (0 kept: floor)
+Flute 2: stretch_cc7 moved the envelope of 11 stretches into CC7 (0 kept: floor)
+Flute 2: stretch_cc7 moved the envelope of 11 stretches into CC7 (0 kept: floor)
+Oboe 1: stretch_cc7 moved the envelope of 59 stretches into CC7 (0 kept: floor)
+Oboe 1: stretch_cc7 moved the envelope of 59 stretches into CC7 (0 kept: floor)
+Oboe 2: stretch_cc7 moved the envelope of 12 stretches into CC7 (0 kept: floor)
+Oboe 2: stretch_cc7 moved the envelope of 12 stretches into CC7 (0 kept: floor)
+Cor anglais: stretch_cc7 moved the envelope of 29 stretches into CC7 (0 kept: floor)
+Cor anglais: stretch_cc7 moved the envelope of 29 stretches into CC7 (0 kept: floor)
+Clarinet 1: stretch_cc7 moved the envelope of 67 stretches into CC7 (0 kept: floor)
+Clarinet 1: stretch_cc7 moved the envelope of 67 stretches into CC7 (0 kept: floor)
+Clarinet 2: stretch_cc7 moved the envelope of 56 stretches into CC7 (0 kept: floor)
+Clarinet 2: stretch_cc7 moved the envelope of 56 stretches into CC7 (0 kept: floor)
+Bass clarinet: stretch_cc7 moved the envelope of 10 stretches into CC7 (0 kept: floor)
+Bass clarinet: stretch_cc7 moved the envelope of 10 stretches into CC7 (0 kept: floor)
+Bassoon 1: stretch_cc7 moved the envelope of 56 stretches into CC7 (0 kept: floor)
+Bassoon 1: stretch_cc7 moved the envelope of 56 stretches into CC7 (0 kept: floor)
+Bassoon 2: stretch_cc7 moved the envelope of 52 stretches into CC7 (0 kept: floor)
+Bassoon 2: stretch_cc7 moved the envelope of 52 stretches into CC7 (0 kept: floor)
+Contrabassoon: stretch_cc7 moved the envelope of 32 stretches into CC7 (0 kept: floor)
+Contrabassoon: stretch_cc7 moved the envelope of 32 stretches into CC7 (0 kept: floor)
+Horn 1: stretch_cc7 moved the envelope of 49 stretches into CC7 (0 kept: floor)
+Horn 1: stretch_cc7 moved the envelope of 49 stretches into CC7 (0 kept: floor)
+Horn 2: stretch_cc7 moved the envelope of 40 stretches into CC7 (0 kept: floor)
+Horn 2: stretch_cc7 moved the envelope of 40 stretches into CC7 (0 kept: floor)
+Horn 3: stretch_cc7 moved the envelope of 30 stretches into CC7 (0 kept: floor)
+Horn 3: stretch_cc7 moved the envelope of 29 stretches into CC7 (0 kept: floor)
+Horn 4: stretch_cc7 moved the envelope of 31 stretches into CC7 (0 kept: floor)
+Horn 4: stretch_cc7 moved the envelope of 31 stretches into CC7 (0 kept: floor)
+Trumpet 1: stretch_cc7 moved the envelope of 16 stretches into CC7 (0 kept: floor)
+Trumpet 1: stretch_cc7 moved the envelope of 6 stretches into CC7 (0 kept: floor)
+Trumpet 2: stretch_cc7 moved the envelope of 16 stretches into CC7 (0 kept: floor)
+Trumpet 2: stretch_cc7 moved the envelope of 6 stretches into CC7 (0 kept: floor)
+Trombone 1: stretch_cc7 moved the envelope of 9 stretches into CC7 (0 kept: floor)
+Trombone 1: stretch_cc7 moved the envelope of 5 stretches into CC7 (0 kept: floor)
+Trombone 2: stretch_cc7 moved the envelope of 10 stretches into CC7 (0 kept: floor)
+Trombone 2: stretch_cc7 moved the envelope of 6 stretches into CC7 (0 kept: floor)
+Bass trombone: stretch_cc7 moved the envelope of 8 stretches into CC7 (0 kept: floor)
+Bass trombone: stretch_cc7 moved the envelope of 4 stretches into CC7 (0 kept: floor)
+Tuba: stretch_cc7 moved the envelope of 9 stretches into CC7 (0 kept: floor)
+Tuba: stretch_cc7 moved the envelope of 5 stretches into CC7 (0 kept: floor)
+WARNING Violins I: cc7_spans_db lift cut at CC7 127 on 41 points
+Violins I: stretch_cc7 moved the envelope of 92 stretches into CC7 (0 kept: floor)
+WARNING Violins I: cc7_spans_db lift cut at CC7 127 on 41 points
+Violins I: stretch_cc7 moved the envelope of 92 stretches into CC7 (0 kept: floor)
+Violins II: stretch_cc7 moved the envelope of 56 stretches into CC7 (0 kept: floor)
+Violins II: stretch_cc7 moved the envelope of 56 stretches into CC7 (0 kept: floor)
+Violas: stretch_cc7 moved the envelope of 84 stretches into CC7 (0 kept: floor)
+Violas: stretch_cc7 moved the envelope of 84 stretches into CC7 (0 kept: floor)
+Violoncellos: stretch_cc7 moved the envelope of 80 stretches into CC7 (0 kept: floor)
+Violoncellos: stretch_cc7 moved the envelope of 80 stretches into CC7 (0 kept: floor)
+Double basses: stretch_cc7 moved the envelope of 44 stretches into CC7 (0 kept: floor)
+Double basses: stretch_cc7 moved the envelope of 44 stretches into CC7 (0 kept: floor)
+Violin I solo: stretch_cc7 moved the envelope of 2 stretches into CC7 (0 kept: floor)
+Violin I solo: stretch_cc7 moved the envelope of 2 stretches into CC7 (0 kept: floor)
+Violas div: stretch_cc7 moved the envelope of 12 stretches into CC7 (0 kept: floor)
+Violas div: stretch_cc7 moved the envelope of 12 stretches into CC7 (0 kept: floor)
+Horn 1          1100-1101 max -6.0 dB
+Horn 1          1102-1104 max -6.0 dB
+Horn 1          1105-1108 max -6.0 dB
+Horn 1          1109-1111 max -6.0 dB
+Horn 1          1112-1114 max -6.0 dB
+Horn 1          1115-1118 max -6.0 dB
+Horn 1          1119-1121 max -6.0 dB
+Horn 1          1122-1124 max -6.0 dB
+Horn 1          1125-1127 max -6.0 dB
+Horn 1          1128-1129 max -6.0 dB
+Trumpet 1       307-315 max -2.0 dB
+Trumpet 2       307-315 max -2.0 dB
+Trombone 1      306-313 max -2.1 dB
+Trombone 2      307-313 max -2.0 dB
+Bass trombone   306-313 max -2.1 dB
+Tuba            307-313 max -2.0 dB
+Violoncellos    311-318 max +4.1 dB
+Violoncellos    911-918 max +4.1 dB

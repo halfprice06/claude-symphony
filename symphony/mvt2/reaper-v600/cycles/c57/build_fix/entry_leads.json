@@ -1,0 +1,81 @@
+{
+ "_doc": "c07 (critic C #2b, #6): extra entry lead in seconds for single entries that measured late against the ensemble (measured lag in c05 minus 0.05 s), {track: {score onset qn: seconds}}, matched within 0.02 qn. Added to the family ENTRY_LEAD_S (or used alone when the family has none); total capped at 0.30 s, converted through the tempo map (caesuras included). An onset of 0 starts inside the pre-roll. c10 (A #1): Violin I solo 48 +0.13 s (moved from Violins I, which no longer plays there) and 60 +0.10 s (the soft solo entries took 0.3-0.6 s to reach body level on the section patch). c11 (C #2, C #4): Horn 3 204 +0.10 (the bar 61 Ab4 reached body - 6 dB at +0.34 s); Violin I solo 48 0.13 -> 0.20. c15 (C #3): Flute 2 262 +0.10 and Bassoon 2 268 +0.08 (climax entries at body - 6 dB +0.17/+0.19 s). c22 (A #1b): Horn 3 204 0.10 -> 0 (the late attack was the CC11 pull bug: the moved note started on CC 34). c23 (A #2, C #1, C #2): Violas 0/42/66/238/277, Double basses 140, Violins II 0 and 108 0.12 -> 0.18, Violins II div 108 0.12 -> 0.18, Violas div 66/277, Bassoon 1 229/196 (soft string chord entries reached body - 6 dB 0.2-0.65 s after their partners; Bn1 229 lost its spike lead in the c22 pull fix). v600 port (series 2, c27, 2026-11-06): every onset key checked against v600 (pitch, length, the note before, printed dynamic, articulation); removed or moved: Violas 277 (moved to 279), Clarinet 2 268, Violins II div 108, Violas div 277 (moved to 279). c29 (critic A #5, S2): Violas Detache portato eighths of bars 48-51: the seven A3s +0.10 s, the E flat 4s 164.5/166.5 +0.15 s (they reached body - 3 dB at +0.20..+0.29 s). c49 (c48 open item, the bar 47 fp): Violins II 148 +0.06 s (its fresh stroke peaked 175 ms after the note-on, +115 ms after the beat; the Violas' peaks 65 ms after theirs). c57 (critic C #3): the bar 47 fp peaked 180-210 ms after the beat (rise time of Sus MAX): Violins II 148 0.06 -> 0.20, Violas 148 +0.13 (the basses' 148 and Violas 168 are not fresh entries: REATTACK_LEAD_AT in score_config c57).",
+ "Violins I": {
+  "0": 0.11,
+  "171": 0.19,
+  "292": 0.21,
+  "65": 0.1
+ },
+ "Violins II": {
+  "42": 0.1,
+  "108": 0.18,
+  "286": 0.15,
+  "0": 0.06,
+  "148": 0.2
+ },
+ "Violas": {
+  "54": 0.09,
+  "140": 0.07,
+  "0": 0.12,
+  "42": 0.15,
+  "66": 0.22,
+  "238": 0.08,
+  "279": 0.1,
+  "152.5": 0.17,
+  "153.5": 0.16,
+  "154.5": 0.17,
+  "156.5": 0.16,
+  "157.5": 0.17,
+  "160.5": 0.16,
+  "161.5": 0.17,
+  "164.5": 0.18,
+  "166.5": 0.18,
+  "188": 0.08,
+  "148": 0.13
+ },
+ "Violoncellos": {
+  "0": 0.12,
+  "152": 0.12
+ },
+ "Double basses": {
+  "60": 0.13,
+  "140": 0.15
+ },
+ "Horn 1": {
+  "226": 0.06,
+  "261": 0.08
+ },
+ "Oboe 1": {},
+ "Clarinet 1": {},
+ "Clarinet 2": {},
+ "Violin I solo": {
+  "48": 0.2,
+  "60": 0.1
+ },
+ "Horn 3": {
+  "204": 0.0
+ },
+ "Flute 2": {},
+ "Bassoon 2": {
+  "268": 0.08
+ },
+ "Horns 1-2 a2": {},
+ "Violins II div": {},
+ "Violas div": {
+  "66": 0.06,
+  "279": 0.12
+ },
+ "Bassoon 1": {},
+ "Bass trombone": {
+  "204": 0.1
+ },
+ "Trombone 2": {
+  "204": 0.05
+ },
+ "Oboe 2": {
+  "204": 0.08
+ },
+ "Trombone 1": {
+  "212.5": 0.0
+ }
+}

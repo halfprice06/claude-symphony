@@ -1,0 +1,255 @@
+# Render metrics
+
+Mix: -16.4 LUFS integrated, LRA 22.2 LU, true peak 3.7 dBFS, sample peak 1.538. 182 bars. Levels are plain RMS dB per bar (not K-weighted).
+
+## Long-term spectrum, 1/3-octave bands relative to 1 kHz (mix vs Dvorak 9/i Columbia reference)
+
+| Hz | 31.5 | 63 | 125 | 250 | 500 | 1000 | 2000 | 4000 | 8000 | 16000 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| mix | -22.3 | 0.1 | 4.5 | 3.9 | 2.9 | 0.0 | -5.8 | -15.8 | -31.7 | -50.3 |
+| ref | -25.0 | -6.2 | 7.0 | 4.4 | 4.2 | 0.0 | -5.2 | -14.1 | -30.2 | -48.8 |
+
+## Band shares of total energy (dB): mix vs references (c09)
+
+| | 20-100Hz | 100-250Hz | 250-500Hz | 500-2000Hz | 2000-6000Hz | 6000-20000Hz |
+|---|---|---|---|---|---|---|
+| mix | -13.42 | -8.55 | -6.57 | -2.85 | -11.3 | -28.93 |
+| dvorak9_i | -21.67 | -6.61 | -6.31 | -3.46 | -10.53 | -28.82 |
+| brahms1_ii | -8.54 | -8.75 | -5.95 | -3.82 | -12.43 | -32.24 |
+| brahms4_ii | -7.88 | -7.55 | -6.34 | -4.41 | -11.78 | -32.26 |
+
+## Mix level per bar (dB)
+
+1:-40.3 2:-34.5 3:-35.9 4:-42.3 5:-44.1 6:-34.6 7:-34.5 8:-37.4 9:-35.9 10:-30.8 11:-24.7 12:-22.0 13:-32.9 14:-43.5 15:-29.9 16:-26.9 17:-27.2 18:-27.9 19:-28.2 20:-26.4 21:-26.3 22:-29.8 23:-26.3 24:-22.4 25:-18.5 26:-14.2 27:-18.6 28:-18.3 29:-18.3 30:-17.6 31:-17.6 32:-18.0 33:-21.4 34:-36.1 35:-31.0 36:-31.7 37:-30.3 38:-27.6 39:-23.8 40:-21.0 41:-21.0 42:-27.3 43:-36.2 44:-36.8 45:-37.9 46:-33.4 47:-29.9 48:-32.4 49:-32.5 50:-34.1 51:-30.5 52:-33.0 53:-35.3 54:-37.6 55:-37.5 56:-31.1 57:-32.3 58:-30.7 59:-31.3 60:-27.0 61:-24.1 62:-35.0 63:-31.3 64:-26.9 65:-28.7 66:-28.1 67:-32.3 68:-31.7 69:-21.9 70:-23.3 71:-23.0 72:-20.9 73:-33.3 74:-35.1 75:-36.5 76:-38.5 77:-34.4 78:-31.7 79:-31.8 80:-27.8 81:-23.2 82:-15.9 83:-17.2 84:-31.3 85:-29.8 86:-30.4 87:-32.0 88:-34.3 89:-32.7 90:-28.8 91:-28.9 92:-28.2 93:-29.3 94:-26.1 95:-24.6 96:-21.0 97:-19.6 98:-20.2 99:-19.6 100:-20.6 101:-18.9 102:-20.4 103:-27.7 104:-28.0 105:-29.0 106:-29.5 107:-35.9 108:-34.1 109:-37.1 110:-32.1 111:-27.9 112:-27.8 113:-24.8 114:-22.3 115:-19.0 116:-15.8 117:-16.3 118:-17.1 119:-17.8 120:-17.1 121:-15.1 122:-11.3 123:-12.5 124:-19.1 125:-26.5 126:-31.5 127:-33.7 128:-32.5 129:-30.5 130:-22.6 131:-18.1 132:-18.2 133:-19.1 134:-18.4 135:-27.1 136:-25.7 137:-23.0 138:-19.5 139:-17.9 140:-15.1 141:-17.3 142:-16.8 143:-22.9 144:-28.8 145:-34.6 146:-32.8 147:-26.3 148:-29.1 149:-29.5 150:-31.4 151:-31.7 152:-32.6 153:-33.3 154:-36.1 155:-35.1 156:-27.9 157:-21.9 158:-13.9 159:-12.2 160:-10.0 161:-10.5 162:-18.2 163:-26.9 164:-29.7 165:-32.4 166:-28.5 167:-18.7 168:-18.9 169:-17.3 170:-16.8 171:-32.8 172:-32.8 173:-33.3 174:-35.4 175:-36.6 176:-36.6 177:-37.0 178:-37.6 179:-39.5 180:-39.6 181:-40.3 182:-45.8
+
+## Stems: median level (dB) of bars where the track plays, by printed dynamic
+
+| track | peak | ppp | pp | p | mp | mf | f | ff | fff |
+|---|---|---|---|---|---|---|---|---|---|
+| Flute 1 | 0.247 |  | -42.8 | -39.5 | -40.8 | -42.4 | -37.9 | -33.8 | -28.9 |
+| Flute 2 | 0.219 |  |  | -52.9 |  | -40.5 | -39.3 | -36.6 | -30.1 |
+| Oboe 1 | 0.214 | -61.7 |  | -45.8 |  | -41.3 | -37.7 | -35.2 | -26.8 |
+| Oboe 2 | 0.175 |  |  | -53.4 | -46.9 | -46.5 | -39.5 | -35.7 | -31.3 |
+| Cor anglais | 0.101 |  | -44.0 | -42.3 |  | -36.6 | -37.5 | -34.4 |  |
+| Clarinet 1 | 0.192 |  | -46.4 | -41.8 | -43.0 | -40.3 | -36.9 | -33.5 | -28.7 |
+| Clarinet 2 | 0.181 |  | -51.8 | -44.2 | -41.5 | -40.0 | -38.3 | -34.3 | -31.4 |
+| Bass clarinet | 0.178 |  | -46.4 | -40.9 | -36.3 | -39.4 | -36.1 | -33.0 | -30.8 |
+| Bassoon 1 | 0.192 |  | -48.5 | -46.8 | -40.9 | -38.5 | -36.3 | -34.0 | -29.3 |
+| Bassoon 2 | 0.197 |  | -45.5 | -44.8 | -40.7 | -38.8 | -36.8 | -34.6 | -30.6 |
+| Contrabassoon | 0.188 |  | -51.8 | -59.6 | -47.8 | -42.1 | -38.8 | -35.4 | -32.4 |
+| Horn 1 | 0.232 | -42.8 |  | -45.1 | -39.7 | -37.1 | -35.7 | -30.6 | -38.0 |
+| Horn 2 | 0.205 | -67.4 |  | -42.9 | -41.3 | -37.4 | -35.7 | -33.1 | -34.4 |
+| Horn 3 | 0.353 | -52.8 | -46.1 | -44.5 | -42.1 | -37.1 | -35.9 | -31.0 | -25.5 |
+| Horn 4 | 0.134 | -53.5 | -46.9 | -47.8 | -45.9 | -39.3 | -37.8 | -33.2 | -29.6 |
+| Trumpet 1 | 0.372 |  | -44.1 |  | -33.5 |  | -32.8 | -29.8 | -25.1 |
+| Trumpet 2 | 0.23 |  | -44.3 |  | -39.1 |  | -35.1 | -33.8 | -25.7 |
+| Trumpet 3 | 0.195 |  | -43.8 |  | -45.0 |  | -34.1 | -33.1 | -26.2 |
+| Trombone 1 | 0.465 | -57.9 | -46.1 |  | -46.6 | -36.2 | -32.6 | -30.0 | -24.2 |
+| Trombone 2 | 0.416 |  | -47.5 |  | -54.9 | -39.4 | -32.3 | -33.4 | -24.2 |
+| Bass trombone | 0.581 |  | -47.7 |  | -51.3 | -54.0 | -32.8 | -30.4 | -23.1 |
+| Tuba | 0.598 |  | -48.4 | -43.6 | -39.5 | -36.6 | -31.4 | -30.1 | -22.8 |
+| Timpani | 0.375 | -50.4 | -51.9 | -54.3 | -45.3 | -41.1 | -34.2 | -31.1 | -28.9 |
+| Tam-tam | 0.414 |  | -51.2 |  |  |  |  |  | -36.5 |
+| Suspended cymbal | 0.157 |  | -38.2 |  |  |  |  |  | -64.4 |
+| Crash cymbals | 0.275 |  |  |  |  |  |  |  | -49.9 |
+| Harp | 0.176 | -60.0 |  | -45.5 | -44.9 | -36.0 | -38.5 |  |  |
+| Violins I | 0.514 | -53.1 | -46.1 | -39.2 | -39.4 | -34.2 | -32.9 | -28.7 | -26.5 |
+| Violins II | 0.463 | -55.8 | -46.4 | -42.2 | -40.1 | -38.5 | -33.8 | -30.3 | -25.0 |
+| Violas | 0.349 | -52.4 | -47.9 | -44.4 | -40.9 | -39.2 | -35.8 | -31.8 | -26.6 |
+| Violoncellos | 0.543 | -56.2 | -44.2 | -40.8 | -37.5 | -35.9 | -32.0 | -28.4 | -22.9 |
+| Double basses | 0.388 | -56.8 | -48.6 | -42.1 | -39.4 | -36.1 | -34.8 | -28.2 | -24.1 |
+| Horns a2 | 0.359 |  |  | -34.2 |  | -46.0 | -34.7 | -28.9 | -23.0 |
+
+## Loudest three stems per bar (dB), bars where anything plays
+
+- bar 1 (mix -40.3): Violoncellos -44.4, Timpani -44.8, Double basses -52.3
+- bar 2 (mix -34.5): Bass clarinet -38.9, Violoncellos -39.0, Double basses -42.2
+- bar 3 (mix -35.9): Violoncellos -39.9, Bass clarinet -41.6, Double basses -41.9
+- bar 4 (mix -42.3): Bass clarinet -46.2, Double basses -47.8, Timpani -49.0
+- bar 5 (mix -44.1): Cor anglais -46.9, Double basses -47.9, Timpani -59.9
+- bar 6 (mix -34.6): Cor anglais -36.6, Violoncellos -43.5, Double basses -44.8
+- bar 7 (mix -34.5): Cor anglais -37.5, Violoncellos -40.6, Violins II -44.3
+- bar 8 (mix -37.4): Double basses -42.3, Violins II -42.7, Cor anglais -44.0
+- bar 9 (mix -35.9): Double basses -43.0, Violins II -43.5, Violins I -43.8
+- bar 10 (mix -30.8): Violoncellos -35.4, Bassoon 1 -38.0, Bassoon 2 -38.7
+- bar 11 (mix -24.7): Double basses -31.6, Bassoon 2 -32.3, Violins I -34.2
+- bar 12 (mix -22.0): Double basses -30.2, Violas -31.9, Violoncellos -32.2
+- bar 13 (mix -32.9): Horn 1 -38.1, Violins I -41.5, Double basses -41.9
+- bar 14 (mix -43.5): Horn 1 -47.2, Bassoon 2 -52.3, Violoncellos -52.6
+- bar 15 (mix -29.9): Violins I -33.5, Violoncellos -36.5, Double basses -37.4
+- bar 16 (mix -26.9): Violins I -29.1, Violoncellos -34.6, Double basses -35.0
+- bar 17 (mix -27.2): Violoncellos -31.1, Violins I -32.1, Violas -37.9
+- bar 18 (mix -27.9): Violins I -33.0, Violoncellos -33.4, Double basses -33.9
+- bar 19 (mix -28.2): Violoncellos -32.6, Violins I -33.7, Violas -37.6
+- bar 20 (mix -26.4): Violins I -29.6, Violas -34.8, Violoncellos -35.4
+- bar 21 (mix -26.3): Violins I -28.8, Violoncellos -34.7, Double basses -36.1
+- bar 22 (mix -29.8): Violins I -35.4, Violas -36.5, Double basses -36.9
+- bar 23 (mix -26.3): Violins I -33.7, Oboe 1 -34.9, Double basses -35.0
+- bar 24 (mix -22.4): Violoncellos -29.7, Double basses -30.5, Violins I -30.6
+- bar 25 (mix -18.5): Violoncellos -24.9, Violins I -26.8, Violins II -27.8
+- bar 26 (mix -14.2): Violins II -23.0, Violins I -24.9, Violas -24.9
+- bar 27 (mix -18.6): Double basses -27.5, Violins I -29.5, Clarinet 2 -31.1
+- bar 28 (mix -18.3): Violins I -27.0, Double basses -27.8, Violins II -29.5
+- bar 29 (mix -18.3): Double basses -28.6, Tuba -28.9, Violins I -29.0
+- bar 30 (mix -17.6): Tuba -27.0, Violins I -28.4, Horn 2 -29.7
+- bar 31 (mix -17.6): Violoncellos -23.9, Horn 1 -29.0, Double basses -29.0
+- bar 32 (mix -18.0): Timpani -27.8, Double basses -27.9, Horn 2 -28.2
+- bar 33 (mix -21.4): Violins I -26.8, Violins II -30.3, Violas -33.2
+- bar 34 (mix -36.1): Bassoon 1 -38.2, Double basses -42.2, Violas -44.7
+- bar 35 (mix -31.0): Violins I -36.8, Bassoon 1 -37.7, Violoncellos -38.7
+- bar 36 (mix -31.7): Violoncellos -38.0, Violins I -38.1, Bassoon 1 -39.3
+- bar 37 (mix -30.3): Bassoon 1 -37.2, Violins I -37.5, Bassoon 2 -38.8
+- bar 38 (mix -27.6): Bassoon 1 -34.7, Violins I -35.5, Violoncellos -35.6
+- bar 39 (mix -23.8): Violins II -31.5, Violins I -31.8, Violoncellos -32.0
+- bar 40 (mix -21.0): Violins II -27.9, Violoncellos -29.0, Timpani -32.3
+- bar 41 (mix -21.0): Violoncellos -30.0, Violins I -32.1, Violins II -32.4
+- bar 42 (mix -27.3): Horn 3 -31.0, Horns a2 -31.7, Flute 2 -40.5
+- bar 43 (mix -36.2): Horn 3 -44.2, Horn 1 -44.4, Violins II -45.4
+- bar 44 (mix -36.8): Horn 1 -42.5, Horn 2 -42.9, Violins II -43.9
+- bar 45 (mix -37.9): Violoncellos -42.3, Oboe 1 -43.1, Violins II -47.2
+- bar 46 (mix -33.4): Oboe 1 -37.8, Violoncellos -39.9, Violins II -40.5
+- bar 47 (mix -29.9): Violoncellos -32.8, Horn 1 -33.9, Violins II -47.1
+- bar 48 (mix -32.4): Violoncellos -35.7, Horn 1 -36.4, Violas -44.8
+- bar 49 (mix -32.5): Violoncellos -35.1, Horn 1 -40.2, Harp -41.4
+- bar 50 (mix -34.1): Violoncellos -38.6, Horn 1 -39.8, Harp -43.0
+- bar 51 (mix -30.5): Horn 1 -33.6, Violoncellos -35.6, Harp -44.2
+- bar 52 (mix -33.0): Horn 1 -36.8, Violoncellos -37.8, Violas -44.4
+- bar 53 (mix -35.3): Violoncellos -39.3, Harp -41.8, Clarinet 1 -43.2
+- bar 54 (mix -37.6): Harp -43.1, Violoncellos -43.2, Violins II -46.7
+- bar 55 (mix -37.5): Harp -44.0, Violins I -44.1, Violoncellos -44.9
+- bar 56 (mix -31.1): Violins I -37.0, Violins II -38.1, Violoncellos -39.2
+- bar 57 (mix -32.3): Horn 2 -38.9, Violins I -39.5, Clarinet 1 -40.9
+- bar 58 (mix -30.7): Violins I -37.2, Horn 2 -39.1, Horn 3 -39.7
+- bar 59 (mix -31.3): Violins I -36.3, Clarinet 1 -39.6, Violins II -40.3
+- bar 60 (mix -27.0): Violins I -30.4, Violins II -34.9, Harp -36.1
+- bar 61 (mix -24.1): Violins I -27.7, Horn 2 -32.9, Violins II -33.5
+- bar 62 (mix -35.0): Violins II -42.7, Violins I -42.7, Horn 2 -44.6
+- bar 63 (mix -31.3): Violins I -35.5, Violins II -38.3, Clarinet 1 -41.7
+- bar 64 (mix -26.9): Violins I -31.0, Violins II -35.7, Harp -36.9
+- bar 65 (mix -28.7): Violins I -34.9, Double basses -35.8, Violoncellos -38.0
+- bar 66 (mix -28.1): Violins I -32.9, Violoncellos -34.0, Harp -35.7
+- bar 67 (mix -32.3): Violins I -38.6, Violins II -40.6, Violoncellos -41.1
+- bar 68 (mix -31.7): Violins I -37.4, Violas -40.5, Violoncellos -40.8
+- bar 69 (mix -21.9): Violins I -28.5, Violoncellos -31.6, Clarinet 1 -33.4
+- bar 70 (mix -23.3): Trumpet 1 -32.8, Violoncellos -33.5, Horns a2 -33.6
+- bar 71 (mix -23.0): Violoncellos -31.3, Violins II -32.4, Horns a2 -34.0
+- bar 72 (mix -20.9): Violoncellos -30.3, Timpani -31.2, Trombone 2 -31.5
+- bar 73 (mix -33.3): Violoncellos -42.2, Horn 4 -43.7, Double basses -44.4
+- bar 74 (mix -35.1): Flute 1 -39.5, Violoncellos -41.2, Double basses -44.2
+- bar 75 (mix -36.5): Flute 1 -41.5, Violoncellos -43.2, Horn 4 -45.1
+- bar 76 (mix -38.5): Violoncellos -43.7, Double basses -44.9, Violins II -45.5
+- bar 77 (mix -34.4): Bass clarinet -38.3, Double basses -41.8, Violins II -42.4
+- bar 78 (mix -31.7): Horns a2 -37.0, Bass clarinet -38.1, Clarinet 1 -40.8
+- bar 79 (mix -31.8): Horns a2 -36.3, Oboe 1 -38.9, Violins I -39.5
+- bar 80 (mix -27.8): Violoncellos -34.1, Double basses -36.6, Trombone 1 -37.2
+- bar 81 (mix -23.2): Violins II -27.3, Double basses -30.5, Timpani -32.1
+- bar 82 (mix -15.9): Violoncellos -23.5, Trumpet 1 -28.0, Trombone 2 -28.1
+- bar 83 (mix -17.2): Trumpet 1 -27.5, Violins I -27.7, Timpani -27.7
+- bar 84 (mix -31.3): Violoncellos -35.7, Double basses -35.8
+- bar 85 (mix -29.8): Violoncellos -31.1, Double basses -35.7
+- bar 86 (mix -30.4): Violoncellos -32.2, Double basses -33.3
+- bar 87 (mix -32.0): Violoncellos -34.6, Double basses -34.7
+- bar 88 (mix -34.3): Bassoon 1 -38.5, Violas -39.2, Violoncellos -39.5
+- bar 89 (mix -32.7): Violas -36.4, Violoncellos -38.0, Bassoon 1 -38.5
+- bar 90 (mix -28.8): Violoncellos -31.5, Double basses -34.4, Bassoon 1 -40.9
+- bar 91 (mix -28.9): Violoncellos -36.1, Violins II -36.6, Double basses -36.7
+- bar 92 (mix -28.2): Violins II -33.8, Bassoon 1 -35.9, Bass clarinet -36.0
+- bar 93 (mix -29.3): Violoncellos -36.8, Cor anglais -36.8, Double basses -37.2
+- bar 94 (mix -26.1): Violins I -33.1, Bassoon 1 -34.3, Bass clarinet -34.5
+- bar 95 (mix -24.6): Violins I -30.6, Violoncellos -32.4, Violins II -32.7
+- bar 96 (mix -21.0): Violins I -27.1, Violins II -27.3, Clarinet 1 -29.3
+- bar 97 (mix -19.6): Violoncellos -25.9, Double basses -26.8, Bass clarinet -27.4
+- bar 98 (mix -20.2): Violins II -26.0, Double basses -29.4, Oboe 1 -30.0
+- bar 99 (mix -19.6): Violins I -28.9, Violoncellos -29.6, Flute 1 -29.9
+- bar 100 (mix -20.6): Violins I -29.8, Violins II -30.1, Double basses -30.1
+- bar 101 (mix -18.9): Violins I -27.3, Violoncellos -27.5, Violins II -29.1
+- bar 102 (mix -20.4): Violoncellos -27.4, Violins I -28.6, Bassoon 1 -32.1
+- bar 103 (mix -27.7): Oboe 2 -34.5, Violoncellos -35.9, Clarinet 1 -36.0
+- bar 104 (mix -28.0): Oboe 2 -35.9, Bass clarinet -36.4, Bassoon 1 -36.5
+- bar 105 (mix -29.0): Clarinet 1 -34.1, Oboe 2 -37.0, Violoncellos -37.5
+- bar 106 (mix -29.5): Clarinet 1 -34.6, Horn 1 -35.6, Bass clarinet -38.9
+- bar 107 (mix -35.9): Violas -38.9, Bass clarinet -41.5, Violins II -44.7
+- bar 108 (mix -34.1): Violas -35.5, Bass clarinet -40.6, Violins II -49.4
+- bar 109 (mix -37.1): Flute 1 -40.8, Bass clarinet -42.4, Violas -44.1
+- bar 110 (mix -32.1): Flute 1 -38.2, Double basses -40.0, Violoncellos -40.9
+- bar 111 (mix -27.9): Bass clarinet -36.3, Violins I -36.5, Violoncellos -36.9
+- bar 112 (mix -27.8): Violins I -35.5, Violas -37.7, Violins II -38.4
+- bar 113 (mix -24.8): Bass clarinet -31.9, Violins I -33.7, Violins II -35.5
+- bar 114 (mix -22.3): Violins II -32.4, Double basses -32.5, Bass clarinet -32.7
+- bar 115 (mix -19.0): Double basses -28.0, Violoncellos -29.5, Violins I -30.1
+- bar 116 (mix -15.8): Violoncellos -24.7, Trumpet 1 -26.4, Violins I -27.0
+- bar 117 (mix -16.3): Double basses -25.5, Violins I -26.7, Bass trombone -26.9
+- bar 118 (mix -17.1): Tuba -26.3, Double basses -26.3, Bass trombone -26.7
+- bar 119 (mix -17.8): Violins I -26.5, Trombone 1 -27.0, Bass trombone -27.7
+- bar 120 (mix -17.1): Double basses -26.9, Trombone 1 -27.0, Bass trombone -27.1
+- bar 121 (mix -15.1): Tuba -23.4, Violins II -24.6, Double basses -25.4
+- bar 122 (mix -11.3): Tam-tam -20.8, Violoncellos -22.9, Bass trombone -23.1
+- bar 123 (mix -12.5): Violoncellos -22.9, Bass trombone -24.0, Trombone 2 -24.1
+- bar 124 (mix -19.1): Violins II -29.9, Oboe 1 -30.3, Violins I -30.7
+- bar 125 (mix -26.5): Violins I -34.5, Bassoon 2 -36.2, Bass clarinet -36.4
+- bar 126 (mix -31.5): Violins II -42.1, Violas -42.3, Horn 3 -42.5
+- bar 127 (mix -33.7): Clarinet 1 -35.1, Double basses -42.3, Violoncellos -43.0
+- bar 128 (mix -32.5): Clarinet 1 -34.1, Double basses -40.0, Violoncellos -43.9
+- bar 129 (mix -30.5): Double basses -34.9, Clarinet 1 -36.2, Violoncellos -38.6
+- bar 130 (mix -22.6): Violoncellos -28.5, Bassoon 1 -28.7, Double basses -29.9
+- bar 131 (mix -18.1): Double basses -23.9, Violoncellos -28.2, Trombone 1 -30.3
+- bar 132 (mix -18.2): Double basses -25.0, Violoncellos -26.6, Bassoon 1 -30.0
+- bar 133 (mix -19.1): Violoncellos -27.6, Double basses -29.4, Violas -29.7
+- bar 134 (mix -18.4): Violoncellos -28.3, Timpani -28.7, Double basses -29.0
+- bar 135 (mix -27.1): Violins I -34.6, Double basses -34.7, Violoncellos -36.7
+- bar 136 (mix -25.7): Violins I -32.4, Oboe 1 -33.7, Bassoon 1 -34.2
+- bar 137 (mix -23.0): Oboe 1 -30.7, Violins I -31.6, Violoncellos -33.4
+- bar 138 (mix -19.5): Violins II -29.7, Violas -29.7, Violoncellos -30.5
+- bar 139 (mix -17.9): Flute 1 -26.8, Violins I -27.5, Violins II -30.7
+- bar 140 (mix -15.1): Violins I -24.9, Violoncellos -25.4, Contrabassoon -26.1
+- bar 141 (mix -17.3): Violins I -25.5, Violoncellos -27.4, Horn 1 -29.0
+- bar 142 (mix -16.8): Violins I -22.4, Violins II -26.2, Timpani -28.4
+- bar 143 (mix -22.9): Violoncellos -32.5, Timpani -33.5, Trombone 1 -33.6
+- bar 144 (mix -28.8): Violoncellos -33.5, Double basses -34.3, Violins I -36.2
+- bar 145 (mix -34.6): Oboe 1 -42.3, Violoncellos -44.0, Double basses -44.1
+- bar 146 (mix -32.8): Oboe 1 -36.7, Violoncellos -38.0, Violins I -44.9
+- bar 147 (mix -26.3): Violoncellos -29.4, Horn 1 -30.9, Violas -35.4
+- bar 148 (mix -29.1): Violoncellos -32.7, Horn 1 -33.7, Violas -38.2
+- bar 149 (mix -29.5): Violoncellos -32.4, Violas -34.8, Horn 1 -38.0
+- bar 150 (mix -31.4): Horn 1 -35.6, Violoncellos -36.5, Violas -39.0
+- bar 151 (mix -31.7): Horn 1 -35.3, Violoncellos -35.9, Violas -42.1
+- bar 152 (mix -32.6): Violoncellos -37.5, Horn 1 -38.8, Cor anglais -39.0
+- bar 153 (mix -33.3): Violoncellos -37.7, Cor anglais -39.7, Violas -41.5
+- bar 154 (mix -36.1): Horn 1 -42.2, Violoncellos -43.1, Cor anglais -43.7
+- bar 155 (mix -35.1): Violoncellos -38.1, Violas -42.0, Violins II -45.6
+- bar 156 (mix -27.9): Violins I -34.2, Violoncellos -35.7, Harp -35.9
+- bar 157 (mix -21.9): Double basses -27.5, Violins I -29.0, Violins II -32.0
+- bar 158 (mix -13.9): Horns a2 -21.9, Violins II -23.7, Violoncellos -24.1
+- bar 159 (mix -12.2): Double basses -20.7, Trombone 1 -22.7, Violas -23.0
+- bar 160 (mix -10.0): Violins II -20.4, Violoncellos -20.8, Double basses -21.1
+- bar 161 (mix -10.5): Double basses -21.1, Violoncellos -21.4, Tuba -21.4
+- bar 162 (mix -18.2): Violins I -25.6, Horn 1 -27.6, Double basses -28.9
+- bar 163 (mix -26.9): Violins I -32.2, Violins II -35.7, Horn 2 -36.2
+- bar 164 (mix -29.7): Violas -36.3, Violoncellos -36.4, Double basses -38.4
+- bar 165 (mix -32.4): Double basses -37.9, Violoncellos -38.9, Bassoon 1 -40.9
+- bar 166 (mix -28.5): Violoncellos -33.1, Violas -35.3, Violins I -39.2
+- bar 167 (mix -18.7): Trumpet 1 -27.6, Horns a2 -28.1, Double basses -28.8
+- bar 168 (mix -18.9): Trumpet 1 -27.6, Horns a2 -28.9, Double basses -29.1
+- bar 169 (mix -17.3): Trumpet 1 -25.6, Tuba -28.1, Violoncellos -28.7
+- bar 170 (mix -16.8): Trombone 1 -25.6, Trombone 2 -28.0, Trumpet 1 -28.6
+- bar 171 (mix -32.8): Violoncellos -33.8, Cor anglais -42.2, Bassoon 2 -46.3
+- bar 172 (mix -32.8): Violoncellos -34.1, Cor anglais -40.8, Bassoon 2 -43.9
+- bar 173 (mix -33.3): Violoncellos -36.2, Cor anglais -37.6, Bassoon 2 -44.5
+- bar 174 (mix -35.4): Violoncellos -38.7, Cor anglais -40.3, Bassoon 2 -46.4
+- bar 175 (mix -36.6): Violoncellos -43.6, Double basses -43.6, Trombone 1 -45.8
+- bar 176 (mix -36.6): Clarinet 1 -43.4, Violoncellos -44.6, Trombone 2 -45.0
+- bar 177 (mix -37.0): Bass clarinet -44.6, Violoncellos -45.4, Clarinet 1 -45.9
+- bar 178 (mix -37.6): Violoncellos -45.4, Trombone 1 -45.5, Violins I -46.1
+- bar 179 (mix -39.5): Violins I -46.8, Trombone 1 -47.1, Bass clarinet -49.1
+- bar 180 (mix -39.6): Violins I -43.3, Violas -48.0, Violoncellos -48.2
+- bar 181 (mix -40.3): Violas -46.7, Violins I -46.8, Violoncellos -49.3
+- bar 182 (mix -45.8): Violas -52.4, Violins I -53.1, Horn 3 -54.8
+
+## Delivered mp3 (tools/deliver_master.py)
+
+delivered: I -19.8 LUFS, LRA 14.4 LU, TP -1.7 dBTP; ride max +10.0 dB, min -1.7 dB; limiter about 2.3 dB on the loudest sample peak; p10-to-max short-term span 19.1 dB; length 434.95 s (tail 1.00 s after the last window above -65 dBFS)
+
+## Loudness motion (tools/motion.py)
+
+00_Master.wav: dS4 p90 11.13 dB, motion 1s/20s 5.72 dB
+mvt1-mockup-c17.mp3: dS4 p90 8.65 dB, motion 1s/20s 4.52 dB

@@ -1,0 +1,72 @@
+{
+ "_doc": "mvt3 c25 ruling 4 (critic A c25 #3): CC11 counter-shapes on the basses' pp pedal re-bows of bars 43-50 (each bow bloomed 5-10 dB at 0.75-1.5 s); written by hand in the format of tools/fit_rebows.py --cc11 (s after the re-bow's moved note-on, CC11 units); score_config C25_RBC scales the basses' depth (-10 here)",
+ "Double basses": {
+  "170.859": [
+   [
+    0.0,
+    0
+   ],
+   [
+    0.45,
+    0
+   ],
+   [
+    0.9,
+    -10
+   ],
+   [
+    1.9,
+    -10
+   ],
+   [
+    2.9,
+    0
+   ]
+  ],
+  "181.676": [
+   [
+    0.0,
+    0
+   ],
+   [
+    0.45,
+    0
+   ],
+   [
+    0.9,
+    -10
+   ],
+   [
+    1.9,
+    -10
+   ],
+   [
+    2.9,
+    0
+   ]
+  ],
+  "190.533": [
+   [
+    0.0,
+    0
+   ],
+   [
+    0.45,
+    0
+   ],
+   [
+    0.9,
+    -13
+   ],
+   [
+    1.9,
+    -13
+   ],
+   [
+    2.9,
+    0
+   ]
+  ]
+ },
+ "_c26": "mvt3 c26 ruling 8 (C c26 #4, A): shape [(0,0),(0.45,0),(0.9,-10),(1.9,-10),(2.9,0)] (the c25 shape reached -14 at 0.35 s, inside the new bow's soft start, and dug a 5-6 dB hole); 190.533 at -13 (x1.4 = -18 units, A)"
+}

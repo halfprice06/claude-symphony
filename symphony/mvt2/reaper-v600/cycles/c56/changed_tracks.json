@@ -1,0 +1,197 @@
+{
+"Flute 1": [
+"cc7",
+"vol_db"
+],
+"Flute 2": [
+"vol_db"
+],
+"Oboe 1": [
+"notes",
+"leg_leads",
+"cc11",
+"vol_db",
+"cc_shapes"
+],
+"Oboe 2": [
+"vol_db",
+"vol_bp"
+],
+"Cor anglais": [
+"notes",
+"leg_leads",
+"vol_db"
+],
+"Clarinet 1": [
+"cc11",
+"cc7",
+"vol_db",
+"vol_bp",
+"cc_shapes"
+],
+"Clarinet 2": [
+"vol_db"
+],
+"Bass clarinet": [
+"vol_db",
+"vol_bp"
+],
+"Bassoon 1": [
+"vol_db"
+],
+"Bassoon 2": [
+"vol_db"
+],
+"Contrabassoon": [
+"vol_db"
+],
+"Horn 1": [
+"vol_db",
+"vol_bp"
+],
+"Horn 2": [
+"vol_db"
+],
+"Horn 3": [
+"vol_db"
+],
+"Horn 4": [
+"vol_db"
+],
+"Trombone 1": [
+"cc1",
+"cc11",
+"vol_db",
+"cc_shapes"
+],
+"Trombone 2": [
+"vol_db"
+],
+"Bass trombone": [
+"cc11",
+"vol_db",
+"vol_bp",
+"vol_tail_holds",
+"cc_shapes"
+],
+"Tuba": [
+"vol_db",
+"vol_bp"
+],
+"Timpani": [
+"notes",
+"vol_db",
+"vol_bp"
+],
+"Harp": [
+"vol_db"
+],
+"Violins I": [
+"first_art",
+"first_ks",
+"notes",
+"ks",
+"cc11",
+"cc7",
+"cc70",
+"vol_db",
+"art_counts",
+"cc_shapes"
+],
+"Violins II": [
+"notes",
+"rebows",
+"ks",
+"cc11",
+"cc7",
+"vol_db",
+"art_counts",
+"phrase_shape",
+"cc_shapes"
+],
+"Violas": [
+"notes",
+"rebows",
+"ks",
+"cc1",
+"cc11",
+"cc7",
+"vol_db",
+"art_counts",
+"phrase_shape",
+"cc_shapes"
+],
+"Violoncellos": [
+"notes",
+"rebows",
+"ks",
+"cc11",
+"cc7",
+"vol_db",
+"art_counts",
+"phrase_shape",
+"cc_shapes"
+],
+"Double basses": [
+"notes",
+"rebows",
+"cc11",
+"vol_db",
+"vol_bp",
+"art_counts",
+"cc_shapes"
+],
+"Harp harmonics": [
+"vol_db"
+],
+"Violin I solo": [
+"notes",
+"rebows",
+"ks",
+"cc1",
+"cc11",
+"cc15",
+"cc7",
+"cc70",
+"vol_db",
+"art_counts",
+"doubles",
+"cc_shapes"
+],
+"Violoncellos div": [
+"notes",
+"rebows",
+"ks",
+"cc1",
+"cc11",
+"cc7",
+"cc70",
+"vol_db",
+"art_counts",
+"doubles",
+"cc_shapes"
+],
+"Violins II div": [
+"notes",
+"rebows",
+"ks",
+"cc1",
+"cc11",
+"cc15",
+"cc7",
+"cc70",
+"vol_db",
+"art_counts",
+"phrase_shape",
+"doubles",
+"cc_shapes"
+],
+"Violas div": [
+"cc11",
+"vol_db",
+"cc_shapes"
+],
+"Horns 1-2 a2": [
+"vol_db"
+]
+}

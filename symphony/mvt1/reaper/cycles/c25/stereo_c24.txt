@@ -1,0 +1,18 @@
+Horn 1        notes  37 pitches 13  SD 400-1k  2.5  1.25-4k  1.4  mean  -4.8 /  -6.9  range 400-1k  -9.7.. -1.1  (test)
+Horn 2        notes  22 pitches  8  SD 400-1k  2.0  1.25-4k  1.5  mean  -4.4 /  -5.1  range 400-1k  -6.4.. +0.1  (test)
+Horn 3        notes  48 pitches 13  SD 400-1k  3.0  1.25-4k  1.1  mean  -4.2 /  -4.9  range 400-1k  -9.3.. +1.4  (test)
+Horn 4        notes  23 pitches  5  SD 400-1k  3.0  1.25-4k  0.8  mean  -2.0 /  -5.8  range 400-1k  -8.5.. +0.5  (test)
+Trumpet 1     notes  17 pitches  9  SD 400-1k  4.8  1.25-4k  2.3  mean  +3.6 /  +1.6  range 400-1k  -4.2..+11.9  (test)
+Cor anglais   notes  12 pitches  8  SD 400-1k  4.2  1.25-4k  2.5  mean  +5.4 /  +2.7  range 400-1k  +1.2..+16.5  (test)
+Oboe 1        notes  12 pitches  7  SD 400-1k  6.0  1.25-4k  1.7  mean  +4.1 /  +2.8  range 400-1k  -6.7..+12.0  (test)
+Clarinet 1    notes  56 pitches 19  SD 400-1k  4.7  1.25-4k  2.0  mean  -2.4 /  -2.3  range 400-1k -12.2.. +5.3  (test)
+Horns a2      notes  20 pitches 11  SD 400-1k  1.9  1.25-4k  0.7  mean  -5.2 /  -4.9  range 400-1k  -7.0.. -1.4
+Trumpet 2     notes   7 pitches  3  SD 400-1k  2.6  1.25-4k  0.9  mean  +5.0 /  +2.9  range 400-1k  +3.5.. +9.7
+Trombone 1    notes  40 pitches  9  SD 400-1k  2.0  1.25-4k  0.8  mean  +5.6 /  +4.7  range 400-1k  +2.3.. +9.3
+Flute 1       notes  10 pitches  8  SD 400-1k  3.0  1.25-4k  2.0  mean  +0.4 /  -3.6  range 400-1k  -6.2.. +3.8
+Clarinet 2    notes  13 pitches  6  SD 400-1k  3.3  1.25-4k  1.2  mean  -4.1 /  -3.1  range 400-1k  -6.3.. +3.1
+Bassoon 1     notes  60 pitches 19  SD 400-1k  2.2  1.25-4k  1.0  mean  +2.7 /  +3.2  range 400-1k  -1.5.. +7.8
+Violoncellos  notes  61 pitches 19  SD 400-1k  0.7  1.25-4k  0.3  mean  +5.0 /  +5.5  range 400-1k  +4.3.. +7.1
+Cor anglais 16-32: 27:+1|+3 31.3:+1|+3  max step 0.2 / 0.0
+Clarinet 1 200-232: 220:-1|-1 228:-3|-3 231.5:+5|-7  max step 8.2 / 3.9
+master correlation all 0.519  <250 0.504  250-4k 0.531  >4k 0.550

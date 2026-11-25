@@ -1,0 +1,74 @@
+{
+ "_doc": "Per-note level trims in dB, {track: {score onset: dB}}. c02 (critic C #5): Clarinet 1 A4 / A flat 4 at qn 544 / 548 came in 8 dB under the B flat 4 at 540 inside a printed crescendo.",
+ "Clarinet 1": {
+  "544.0": 6.0,
+  "548.0": 6.0,
+  "481.0": -7.0,
+  "483.0": -7.0,
+  "484.0": -7.0,
+  "406.0": -4.0
+ },
+ "Harp": {
+  "524.0": -9.0
+ },
+ "_c08": "critic B #4: Clarinet 1 pp 481-485 over the p bassoon solo -4; B #2: harp p arpeggios 488-495.5 under the celli's espress. tune -4",
+ "_c09": "critic B #1: harp ff chord at 524 -5 dB (plus HARP_VEL_MAX 123)",
+ "Horn 4": {
+  "932.0": -9.0,
+  "936.0": -6.0,
+  "940.0": -8.0,
+  "944.0": -9.0
+ },
+ "Horn 3": {
+  "932.0": 2.0,
+  "936.0": 4.0,
+  "940.0": 3.0,
+  "944.0": 2.0,
+  "584.0": -2.0,
+  "588.0": -2.0,
+  "592.0": -2.0,
+  "1044.0": -2.0
+ },
+ "_c10": "critic B #4: harp 488.0-511.5 -6 (p arpeggios 2-5 dB over the violas' F2 entry); B #5: Horn 4 E3/F3 9-11 dB over Horn 3 in the p chords 932-944 (pitch-dependent p layer): Hn4 -6/-6/-8/-9, Hn3 +2/+4/+3/+2",
+ "_c10_stemfix": "Horn 4 932 -6 -> -9: Horn 4 - Horn 3 still +6.2 dB at 932 on the c10 render (936-944 +2.0..+2.9)",
+ "Bassoon 1": {
+  "475.0": 4.0,
+  "464.0": 2.0
+ },
+ "_c11": "mvt3 c11: Bassoon 1 Eb4 475 +4, A4 464 +2 (critic B #5); Horn 3 D4 584/588/592 -2 (critic C #6, 315 Hz hump in J; 592 also has a +4 sf bump at the front)",
+ "Trumpet 1": {
+  "1044.0": -3.0,
+  "1048.0": 2.5,
+  "1084.0": -4.0
+ },
+ "_c12": "mvt3 c12 (critic B #6): Trumpet 1 1044 -3, 1048 +2.5, Horn 3 1044 -2: the fff of bar 263 measured 0.5 dB under bar 262",
+ "_c14": "mvt3 c14 (critic B #5): Harp ff chord 524 -5 -> -9 (5.6 dB over the timpani stroke, the loudest stem of the f tutti); Clarinet 1 pp 481-484 -4 -> -7 (level with Bassoon 1's p solo)",
+ "Double basses": {
+  "276.0": -4.0,
+  "278.0": -3.5,
+  "294.0": -4.0,
+  "296.0": -4.0,
+  "299.0": 4.0,
+  "264.0": 5.0,
+  "268.0": 4.0,
+  "270.0": 5.0,
+  "288.0": 3.0
+ },
+ "_c14_arco": "mvt3 c14 (critic B #1b): Double basses arco notes of 264-300 that sat 3 dB or more off the running median of five notes on two range renders after the CC16 resets",
+ "Flute 1": {
+  "406.0": -5.0,
+  "418.5": -3.0,
+  "422.0": -4.0
+ },
+ "Oboe 1": {
+  "406.0": 3.0,
+  "72.0": 4.0,
+  "600.0": 4.0,
+  "632.0": 4.0
+ },
+ "Oboe 2": {
+  "888.0": -4.0,
+  "1108.0": -4.0
+ },
+ "_c15": "mvt3 c15 (critic B): #3 Double basses arco 264 +5, 268 +4, 270 +5, 288 +3 (5-7 dB under the line's median, fixed takes after the reset at 264); #4 the call at 406 / 422: Flute 1 406 -5, 418.5 -3, 422 -4, Clarinet 1 406 -4, Oboe 1 406 +3 (the roles.json +1.5 on Flute 1 404-408 is removed); #5 Trumpet 1 A5 at 1084 -4 (the loudest trumpet note of the movement), Oboe 2 888 / 1108 -4 (7 dB over Oboe 1); #1c Oboe 1 heads 72, 600, 632 +4 (Sus MAX heads 4.4-5.6 dB under the slurred notes after them)."
+}

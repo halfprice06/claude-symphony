@@ -1,0 +1,1 @@
+delivered: I -19.8 LUFS, LRA 15.1 LU, TP -1.6 dBTP; ride max +10.0 dB, min -3.3 dB; limiter about 1.1 dB on the loudest sample peak; p10-to-max short-term span 18.2 dB; length 347.40 s (tail 1.00 s after the last window above -65 dBFS)

@@ -1,0 +1,76 @@
+== c23
+Violins I 0-1128: 54 pairs, separation median 4.2 dB, p10 0.0; 60 ms peak median -42.7
+   pitch 69: 1 pairs, separation median 4.0, 60 ms peak median -51.6
+   pitch 71: 20 pairs, separation median 5.3, 60 ms peak median -43.5
+   pitch 74: 5 pairs, separation median 0.7, 60 ms peak median -44.7
+   pitch 75: 12 pairs, separation median 2.2, 60 ms peak median -39.2
+   pitch 76: 3 pairs, separation median 5.2, 60 ms peak median -44.3
+   pitch 78: 3 pairs, separation median 0.0, 60 ms peak median -43.7
+   pitch 83: 8 pairs, separation median 4.3, 60 ms peak median -36.6
+   pitch 84: 1 pairs, separation median 4.0, 60 ms peak median -37.0
+   pitch 86: 1 pairs, separation median 4.5, 60 ms peak median -21.4
+Violins I 48-132: 12 pairs, separation median 4.0 dB, p10 -0.2; 60 ms peak median -49.1
+   pitch 69: 1 pairs, separation median 4.0, 60 ms peak median -51.6
+   pitch 71: 3 pairs, separation median 5.8, 60 ms peak median -44.7
+   pitch 74: 4 pairs, separation median 0.7, 60 ms peak median -47.0
+   pitch 75: 3 pairs, separation median 4.3, 60 ms peak median -49.8
+   pitch 78: 1 pairs, separation median -0.4, 60 ms peak median -44.1
+Violins I 311-360: 7 pairs, separation median 5.0 dB, p10 1.0; 60 ms peak median -36.8
+   pitch 71: 3 pairs, separation median 5.3, 60 ms peak median -37.2
+   pitch 75: 3 pairs, separation median 1.6, 60 ms peak median -31.1
+   pitch 83: 1 pairs, separation median 8.6, 60 ms peak median -36.8
+Violins I 756-828: 10 pairs, separation median 4.4 dB, p10 2.5; 60 ms peak median -43.8
+   pitch 71: 5 pairs, separation median 5.3, 60 ms peak median -44.0
+   pitch 74: 1 pairs, separation median 1.1, 60 ms peak median -38.8
+   pitch 75: 3 pairs, separation median 4.3, 60 ms peak median -48.0
+   pitch 78: 1 pairs, separation median 3.8, 60 ms peak median -43.7
+Violins I 912-960: 7 pairs, separation median 4.7 dB, p10 0.8; 60 ms peak median -36.5
+   pitch 71: 3 pairs, separation median 5.2, 60 ms peak median -37.2
+   pitch 75: 3 pairs, separation median 1.3, 60 ms peak median -31.6
+   pitch 83: 1 pairs, separation median 9.0, 60 ms peak median -36.5
+Violins I tail 81: peak -36.6 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-21.9), np.float64(-50.4), np.float64(-74.1)]
+Violins I tail 95: peak -42.6 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-11.9), np.float64(-41.6), np.float64(-65.6)]
+Violins I tail 165: peak -28.2 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-20.8), np.float64(-40.8), np.float64(-70.7)]
+Violins I tail 393: peak -34.9 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-15.3), np.float64(-38.0), np.float64(-72.9)]
+Violins I tail 801: peak -37.9 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-20.8), np.float64(-48.6), np.float64(-60.7)]
+Violins I tail 827: peak -34.7 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-15.5), np.float64(-45.0), np.float64(-69.6)]
+Violins I tail 861: peak -33.2 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-10.5), np.float64(-38.1), np.float64(-60.2)]
+Violins I tail 957: peak -26.8 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-21.2), np.float64(-45.5), np.float64(-70.8)]
+== c24
+Violins I 0-1128: 54 pairs, separation median 5.2 dB, p10 2.6; 60 ms peak median -38.4
+   pitch 69: 1 pairs, separation median 4.0, 60 ms peak median -51.9
+   pitch 71: 20 pairs, separation median 5.2, 60 ms peak median -43.7
+   pitch 74: 5 pairs, separation median 4.7, 60 ms peak median -38.2
+   pitch 75: 12 pairs, separation median 7.6, 60 ms peak median -35.8
+   pitch 76: 3 pairs, separation median 4.5, 60 ms peak median -45.8
+   pitch 78: 3 pairs, separation median 6.0, 60 ms peak median -37.7
+   pitch 83: 8 pairs, separation median 3.2, 60 ms peak median -36.8
+   pitch 84: 1 pairs, separation median 4.2, 60 ms peak median -37.1
+   pitch 86: 1 pairs, separation median 1.4, 60 ms peak median -29.6
+Violins I 48-132: 12 pairs, separation median 7.1 dB, p10 4.1; 60 ms peak median -41.1
+   pitch 69: 1 pairs, separation median 4.0, 60 ms peak median -51.9
+   pitch 71: 3 pairs, separation median 6.8, 60 ms peak median -46.0
+   pitch 74: 4 pairs, separation median 5.8, 60 ms peak median -41.2
+   pitch 75: 3 pairs, separation median 9.1, 60 ms peak median -40.5
+   pitch 78: 1 pairs, separation median 5.2, 60 ms peak median -37.7
+Violins I 311-360: 7 pairs, separation median 6.0 dB, p10 4.8; 60 ms peak median -35.6
+   pitch 71: 3 pairs, separation median 4.9, 60 ms peak median -37.6
+   pitch 75: 3 pairs, separation median 6.3, 60 ms peak median -32.1
+   pitch 83: 1 pairs, separation median 8.7, 60 ms peak median -37.0
+Violins I 756-828: 10 pairs, separation median 6.3 dB, p10 3.5; 60 ms peak median -40.6
+   pitch 71: 5 pairs, separation median 6.5, 60 ms peak median -44.2
+   pitch 74: 1 pairs, separation median 4.7, 60 ms peak median -35.5
+   pitch 75: 3 pairs, separation median 8.6, 60 ms peak median -40.1
+   pitch 78: 1 pairs, separation median 6.2, 60 ms peak median -38.1
+Violins I 912-960: 7 pairs, separation median 6.1 dB, p10 4.3; 60 ms peak median -35.8
+   pitch 71: 3 pairs, separation median 4.4, 60 ms peak median -37.7
+   pitch 75: 3 pairs, separation median 6.4, 60 ms peak median -32.3
+   pitch 83: 1 pairs, separation median 9.5, 60 ms peak median -36.5
+Violins I tail 81: peak -37.0 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-23.1), np.float64(-93.0), np.float64(-93.0)]
+Violins I tail 95: peak -42.8 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-17.3), np.float64(-64.9), np.float64(-87.2)]
+Violins I tail 165: peak -26.8 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-14.6), np.float64(-40.8), np.float64(-70.4)]
+Violins I tail 393: peak -35.0 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-16.1), np.float64(-37.9), np.float64(-79.4)]
+Violins I tail 801: peak -38.7 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-20.8), np.float64(-59.3), np.float64(-91.3)]
+Violins I tail 827: peak -34.6 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-15.0), np.float64(-61.3), np.float64(-95.4)]
+Violins I tail 861: peak -33.5 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-11.5), np.float64(-37.0), np.float64(-63.9)]
+Violins I tail 957: peak -26.1 dB; at +0.2 / 0.5 / 0.8 s [np.float64(-26.0), np.float64(-103.9), np.float64(-103.9)]

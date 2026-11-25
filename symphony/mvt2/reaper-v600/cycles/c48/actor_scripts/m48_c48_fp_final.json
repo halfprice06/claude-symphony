@@ -1,0 +1,53 @@
+{
+ "fp": {
+  "Violins II": {
+   "note_on_ms": -60,
+   "peak": -39.7,
+   "peak_ms": 115,
+   "at+0.1_re_peak": -0.2,
+   "at0_re_peak": -8.2,
+   "rise_0.2s_before": 8.5,
+   "bodyB": -52.400001525878906,
+   "dropB": 12.8,
+   "bodyA": -52.8,
+   "dropA": 13.1,
+   "p_within3_ms": 365,
+   "tilt_jump": 3.0
+  },
+  "Violas": {
+   "note_on_ms": -60,
+   "peak": -34.3,
+   "peak_ms": 5,
+   "at+0.1_re_peak": -1.2,
+   "at0_re_peak": -0.0,
+   "rise_0.2s_before": 17.3,
+   "bodyB": -48.29999923706055,
+   "dropB": 14.1,
+   "bodyA": -48.1,
+   "dropA": 13.8,
+   "p_within3_ms": 400,
+   "tilt_jump": 3.2
+  },
+  "Double basses": {
+   "note_on_ms": -160,
+   "peak": -34.1,
+   "peak_ms": 50,
+   "at+0.1_re_peak": -0.6,
+   "at0_re_peak": -1.1,
+   "rise_0.2s_before": 16.5,
+   "bodyB": -47.900001525878906,
+   "dropB": 13.9,
+   "bodyA": -48.3,
+   "dropA": 14.2,
+   "p_within3_ms": 440,
+   "tilt_jump": 0.6
+  },
+  "master": {
+   "-100ms": -36.1,
+   "0ms": -31.2,
+   "150ms": -31.2,
+   "350ms": -35.0
+  },
+  "master_tilt_jump": 3.3
+ }
+}

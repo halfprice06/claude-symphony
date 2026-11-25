@@ -1,0 +1,4 @@
+{"_doc": "mvt1 c03 (critic C #4, critic A #1, ONE_TIME): renders c00-c02 were made with the pre-roll tempo marker in 4/4 (build_reaper.tempo_job gave it the score's meter), so REAPER snapped the score's first marker from 3.0 s to the next barline at 4.0 s and played every event from score qn 1 on shift_qn early: file time = q * 60 / preroll_bpm for q <= from_qn, else q2s(q - shift_qn). tools/rendermap.py applies it to every tool that reads one of these renders. Fixed in build_reaper.tempo_job from c03; c03 and later renders are on the parts.json map.",
+ "0": {"shift_qn": 0.1666667, "from_qn": 1.0, "preroll_bpm": 60.0},
+ "1": {"shift_qn": 0.1666667, "from_qn": 1.0, "preroll_bpm": 60.0},
+ "2": {"shift_qn": 0.1666667, "from_qn": 1.0, "preroll_bpm": 60.0}}

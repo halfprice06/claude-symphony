@@ -1,0 +1,9 @@
+{
+ "Violins I": {
+  "slur": 0.08,
+  "tongue": 0.062,
+  "first": 0.029,
+  "rep": 0.05
+ },
+ "_doc": "c57: class leads of the Sus MAX theme on Violins I (cycles/c57/actor_scripts/fitleads57.py)"
+}

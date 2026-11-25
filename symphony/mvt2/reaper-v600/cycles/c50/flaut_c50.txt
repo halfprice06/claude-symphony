@@ -1,0 +1,9 @@
+track            sq   old->new  lead  old ends | new passes old | both within 6 dB | pad 150 ms: before, min (at), trough
+Violins II       114.0 p61->p66  0.75  +0.15 s |  +0.50 s LATE | 0.23 s |  -45.9  -48.6 (+0.82 s)   2.7 dB
+Violins II       116.0 p66->p61  0.75  +0.15 s |  +0.20 s ok  | 0.70 s |  -47.5  -50.2 (+0.54 s)   2.7 dB
+Violins II       118.0 p61->p60  0.75  +0.15 s |  +0.40 s LATE | 0.33 s |  -48.0  -51.0 (+0.66 s)   2.9 dB
+Violins II       119.0 p60->p63  0.44  +0.15 s |  +0.50 s LATE | 0.20 s |  -47.0  -51.0 (-0.31 s)   3.9 dB
+Violins II       122.0 p63->p61  0.75  +0.16 s |  +0.30 s LATE | 0.48 s |  -47.1  -47.5 (+1.00 s)   0.5 dB
+Violins II div   112.0 p68->p70  0.75  +0.15 s |  +0.15 s ok  | 0.28 s |  -45.2  -49.8 (+0.38 s)   4.6 dB
+Violins II div   118.0 p70->p66  0.75  +0.15 s |  +0.33 s LATE | 0.45 s |  -48.0  -51.0 (+0.66 s)   2.9 dB
+Violins II div   122.0 p66->p65  0.75  +0.16 s |  +0.48 s LATE | 0.88 s |  -47.1  -47.5 (+1.00 s)   0.5 dB

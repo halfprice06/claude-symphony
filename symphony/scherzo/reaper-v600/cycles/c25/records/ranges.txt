@@ -1,0 +1,20 @@
+c25 range tests (same-start controls P0 from the c24 project; memory settled 44 GB before P0, 51 GB before P1, 56 GB
+before P2; two discards before P1 and P2; 0 silent notes in every pass, silent25.py)
+
+CC7 law (P1 = vA: trims in CC7 on moved time, against P0; bars25.py, per-bar stem level, bars 0-132 / 0-40):
+  Clarinet 1 (HO woodwind KS Master; CC7 44-127 in range): 16 bars, median +0.00 dB, none over 1.0
+  Horn 1 (HO brass KS Master; CC7 95-127):                  6 bars, median +0.01 dB, none over 1.0
+  Violas (HS string KS Master; CC7 51-127):                 26 bars, median +0.01 dB, none over 1.0
+  Control check: P0_R1 / P0_RK against the c24 full render: median 0.00 dB.
+
+Violins I Spiccato (spic25.py: rerouted notes' 70 ms peak over the median of non-rerouted short notes within +-3 qn):
+  range  | P0 (c24)          | P1 (vel -10, v>=90 -4) | P2 (vel -13, v>=90 -4, 1-54 layer -2: adopted)
+  -3-132 | +3.9 (16 over +3) | +2.5 (9)               | +1.3 (4)
+  299-360| +3.3 (6)          | -0.1 (2)               | -0.1 (2)
+  671-800| +4.3 (6)          | +2.9 (4)               | -0.9 (1)
+  F sharp 342 vs accented C 345: -23.9 / -27.1 (P0) -> -27.9 / -27.1 (P1, P2)
+  separation (rt25 sep): 36-132 6.9 -> 5.0 / 5.0; 313-360 5.8 -> 5.8 / 5.8; 740-800 5.3 -> 4.7 / 4.7 (per pitch 4.7 or more
+  except pitch 69, unchanged 3.9)
+  bar 23 (fig25): F sharp->G 19.3 -> 18.0 / 18.0, G->A 4.3, A->B 8.9, B->C 9.0 -> 9.4; bar 263 F sharp->G 16.6 -> 14.8 / 18.2
+
+Celli 415-552 (P1 vs P0, rt25 body): std 2.3 / 2.3, steps over 4 dB 3 -> 2.

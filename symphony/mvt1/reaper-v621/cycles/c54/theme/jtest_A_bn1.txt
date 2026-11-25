@@ -1,0 +1,11 @@
+bar  33 beat 1.5 p55 entry  Leg Slur MAX   lead   20  pcx    -6  xr   n/a  dom   -26  S    -6
+bar  33 beat 2.0 p63 join   Leg Slur MAX   lead   60  pcx   +13  xr   +40  dom   +36  S   +13
+bar  33 beat 3.5 p62 entry  Sus MAX        lead    0  pcx   +10  xr   n/a  dom   +12  S   +10
+bar  33 beat 4.0 p61 join   Leg Slur MAX   lead  120  pcx  +124  xr    +4  dom   -23  S    +4
+bar  33 beat 4.5 p60 join   Leg Slur MAX   lead   60  pcx   -14  xr   n/a  dom   +63  S   -14
+bar  34 beat 1.0 p60 entry  LegRep RRx4    lead   35  pcx    -9  xr   n/a  dom   n/a  S    -9
+bar  34 beat 2.0 p58 join   Sus MAX        lead   35  pcx   -14  xr    +1  dom    -6  S   -14
+bar  34 beat 2.5 p56 join   Leg Slur MAX   lead   70  pcx   +29  xr   +30  dom  +130  S   +29
+bar  34 beat 3.0 p55 join   Leg Slur MAX   lead   90  pcx   +31  xr   -22  dom   -30  S   -22
+bar  34 beat 4.0 p53 join   Leg Slur MAX   lead  100  pcx   -11  xr   +62  dom   +56  S   -11
+Bassoon 1     128-136 S: n 10 of 10  median -7  robust SD 13  SD 15  min -22 max +29  >25 from median 1  >40 0  >60 0

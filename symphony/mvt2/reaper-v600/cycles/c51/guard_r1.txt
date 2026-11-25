@@ -1,0 +1,127 @@
+keep   Violins I     77       row None -> 0.09: S c50  +102 r1   +12
+keep   Violins I     78       row None -> 0.06: S c50   +72 r1   +10
+keep   Violins I     84       row None -> 0.05: S c50   +54 r1    +4
+keep   Violins I     176      row None -> -0.04: S c50   -50 r1    -8
+keep   Violins I     177      row None -> -0.04: S c50   -49 r1    +8
+keep   Violins I     177.5    row None -> 0.05: S c50   +58 r1   +30
+keep   Violins I     178      row None -> 0.05: S c50   +58 r1    +4
+keep   Violins I     181      row None -> -0.04: S c50   -46 r1    -4
+keep   Violins I     181.333  row None -> 0.04: S c50   +50 r1   -12
+keep   Violins I     181.667  row None -> 0.07: S c50   +74 r1   -18
+keep   Violins I     191.5    row None -> -0.07: S c50   -78 r1   -12
+REVERT Violins I     197.5    row None -> 0.05: S c50   +50 r1  -102
+keep   Violins I     198      row None -> 0.04: S c50   +44 r1   -22
+keep   Violins I     199      row None -> 0.07: S c50   +74 r1    +8
+keep   Violins I     200      row 0.08 -> 0.01: S c50   -80 r1   -10
+keep   Violins I     237.5    row None -> -0.07: S c50   -75 r1    -4
+keep   Violins I     239.5    row None -> -0.06: S c50   -68 r1    -2
+keep   Violins I     244      row None -> 0.08: S c50   +84 r1    -1
+keep   Violins I     246      row None -> 0.05: S c50   +58 r1    +6
+keep   Violins I     251.5    row None -> -0.06: S c50   -62 r1    -8
+keep   Violins I     252      row 0.06 -> 0.16: S c50  +112 r1   -44
+keep   Violins I     254      row None -> 0.07: S c50   +80 r1    +2
+keep   Violins I     255      row None -> -0.04: S c50   -50 r1   -11
+keep   Violins I     257      row None -> -0.04: S c50   -46 r1    -8
+keep   Violins I     258      row None -> 0.05: S c50   +57 r1    +8
+keep   Violins I     261      row None -> 0.05: S c50   +51 r1   +18
+keep   Violins I     270.5    row None -> 0.04: S c50   +41 r1    +1
+keep   Violins II    65       row None -> 0.06: S c50   +62 r1   -22
+keep   Violins II    65.5     row None -> -0.06: S c50   -72 r1   -16
+keep   Violins II    71       row -0.1 -> -0.06: S c50   +48 r1   +12
+REVERT Violins II    73.5     row None -> 0.08: S c50   +92 r1   -98
+keep   Violins II    77.5     row None -> -0.07: S c50   -76 r1   -12
+keep   Violins II    83       row None -> -0.04: S c50   -42 r1   -22
+REVERT Violins II    85       row None -> 0.07: S c50   +74 r1   -96
+keep   Violins II    86.5     row None -> 0.05: S c50   +52 r1   +46
+keep   Violins II    154      row None -> 0.04: S c50   +47 r1    +7
+keep   Violins II    168      row None -> 0.08: S c50   +84 r1    -8
+keep   Violins II    172      row None -> 0.05: S c50   +54 r1    +4
+keep   Violins II    177      row None -> -0.09: S c50   -96 r1    +4
+keep   Violins II    178      row None -> 0.04: S c50   +49 r1    -6
+keep   Violins II    181      row None -> -0.1: S c50  -106 r1   -16
+keep   Violins II    181.667  row None -> 0.07: S c50   +74 r1   -15
+keep   Violins II    182      row None -> 0.09: S c50  +102 r1    +3
+keep   Violins II    185      row None -> -0.04: S c50   -46 r1    -2
+REVERT Violins II    193.5    row None -> -0.06: S c50   -72 r1   +80
+REVERT Violins II    196      row None -> 0.05: S c50   +58 r1   -71
+keep   Violins II    197.5    row None -> -0.1: S c50  -125 r1   +33
+keep   Violins II    199      row None -> 0.08: S c50   +88 r1    +6
+keep   Violins II    204      row 0.06 -> 0.1: S c50   +44 r1    +4
+keep   Violins II    206      row 0.08 -> 0.04: S c50   -49 r1    -9
+keep   Violins II    208      row None -> 0.06: S c50   +72 r1   +16
+keep   Violins II    237.5    row None -> -0.04: S c50   -42 r1    -8
+keep   Violins II    238      row None -> -0.07: S c50   -82 r1   -22
+keep   Violins II    242      row None -> -0.08: S c50   -90 r1   -12
+keep   Violins II    244      row None -> -0.1: S c50  -133 r1   -40
+keep   Violins II    245.5    row 0.03 -> -0.02: S c50   -52 r1   -14
+keep   Violins II    246      row None -> -0.08: S c50   -86 r1   -16
+keep   Violins II    255      row None -> -0.08: S c50   -92 r1   -11
+keep   Violins II    262      row None -> 0.08: S c50   +93 r1   +91
+keep   Violins II    269      row None -> -0.04: S c50   -50 r1   -14
+keep   Violins II    270.5    row None -> 0.05: S c50   +52 r1   +18
+keep   Violins II    271      row None -> -0.09: S c50  -103 r1   -11
+keep   Violas        60       row None -> -0.05: S c50   -54 r1    -1
+keep   Violas        70       row None -> 0.07: S c50   +83 r1    -5
+keep   Violas        74       row None -> -0.06: S c50   -65 r1    -3
+REVERT Violas        109      row None -> 0.06: S c50   +62 r1   +72
+keep   Violas        110      row None -> -0.08: S c50   -87 r1    -7
+REVERT Violas        111      row None -> 0.05: S c50   +53 r1   +72
+keep   Violas        111.333  row None -> -0.08: S c50   -85 r1    -5
+keep   Violas        114      row None -> -0.07: S c50   -82 r1   -12
+keep   Violas        118      row None -> -0.07: S c50   -80 r1   -12
+keep   Violas        188.667  row None -> -0.04: S c50   -41 r1    -1
+keep   Violas        189      row None -> 0.06: S c50   +69 r1   +69
+keep   Violas        194.667  row None -> 0.06: S c50   +66 r1   +21
+keep   Violas        195.333  row None -> 0.06: S c50   +66 r1   -25
+keep   Violas        240.5    row None -> -0.07: S c50   -73 r1   -57
+keep   Violas        242      row None -> -0.06: S c50   -63 r1    +5
+keep   Violas        243      row None -> -0.04: S c50   -41 r1    -8
+keep   Violas        244.5    row None -> -0.06: S c50   -64 r1   -51
+keep   Violas        247      row None -> -0.08: S c50   -93 r1   -14
+keep   Violas        248      row None -> -0.05: S c50   -61 r1   -21
+REVERT Violas        249.5    row None -> 0.04: S c50   +46 r1   -52
+keep   Violas        257      row None -> 0.06: S c50   +71 r1   +11
+keep   Violas        257.5    row None -> 0.05: S c50   +54 r1    -0
+keep   Violas        258.5    row None -> -0.04: S c50   -41 r1    -5
+keep   Violas        286      row None -> -0.06: S c50   -69 r1    -7
+keep   Violoncellos  51       row None -> -0.05: S c50   -60 r1    +0
+keep   Violoncellos  68       row None -> 0.1: S c50  +122 r1   +14
+keep   Violoncellos  68.5     row None -> 0.06: S c50   +68 r1    +8
+keep   Violoncellos  81       row None -> -0.07: S c50   -73 r1    -0
+keep   Violoncellos  130      row None -> -0.05: S c50   -51 r1    +2
+keep   Violoncellos  131      row None -> 0.05: S c50   +54 r1    +5
+keep   Violoncellos  145      row None -> -0.06: S c50   -66 r1    -6
+keep   Violoncellos  156      row None -> 0.1: S c50  +118 r1   +17
+keep   Violoncellos  160      row None -> -0.1: S c50  -112 r1   +30
+keep   Violoncellos  184      row None -> 0.05: S c50   +60 r1    +8
+keep   Violoncellos  188      row None -> 0.06: S c50   +70 r1   +16
+keep   Violoncellos  190      row None -> 0.04: S c50   +41 r1    +1
+keep   Violoncellos  193      row None -> -0.08: S c50   -84 r1    -8
+keep   Violoncellos  199      row None -> -0.07: S c50   -82 r1   -10
+keep   Violoncellos  200      row None -> -0.09: S c50   -98 r1    -8
+keep   Violoncellos  219      row None -> -0.06: S c50   -64 r1   -18
+keep   Violoncellos  219.5    row None -> -0.07: S c50   -74 r1    -2
+keep   Violoncellos  241      row None -> -0.05: S c50   -51 r1    -1
+keep   Violoncellos  244      row None -> -0.09: S c50  -101 r1    -8
+keep   Violoncellos  255      row 0.08 -> None: S c50   -84 r1    -0
+keep   Violoncellos  259      row None -> -0.07: S c50   -79 r1   -16
+keep   Violoncellos  261      row None -> 0.07: S c50   +80 r1   +10
+keep   Violoncellos  292      row None -> -0.08: S c50   -88 r1    -8
+kept 101, reverted 8; kept within 25 ms: 91; per track reverted: {'Violins I': 1, 'Violins II': 4, 'Violas': 3, 'Violoncellos': 0}
+reverted by bar: [25, 29, 37, 58, 59, 74]
+
+wind and brass joins more than 40 ms from the beat on the range render (pair occurrences: S ms):
+  Flute 1        113.000 (73, 72) lead 40 S +40; c50 +14; pair: [40, 4, 16]
+  Flute 1        118.000 (77, 75) lead 40 S +44; c50 -57; pair: [24, 44, 46, 6]
+  Flute 1        130.000 (77, 75) lead 40 S +46; c50 -114; pair: [24, 44, 46, 6]
+  Clarinet 1     257.000 (79, 75) lead 70 S +46; c50 +50; pair: [46, -3]
+  Bassoon 1      143.000 (61, 60) lead 70 S +88; c50 -2; pair: [88, 40]
+  Bassoon 1      262.000 (60, 61) lead 10 S +48; c50 -49; pair: [48]
+  Bassoon 1      263.000 (61, 60) lead 70 S +40; c50 +54; pair: [88, 40]
+  Horn 1          22.000 (63, 62) lead 95 S -41; c50 -14; pair: [-41, -4]
+  Horn 1          37.500 (63, 61) lead 65 S +87; c50 -36; pair: [87]
+  Horn 1         195.500 (63, 65) lead 95 S +43; c50 -4; pair: [43, 11]
+winds+brass c50: 263 joins, outside 25: 97, outside 60: 23
+winds+brass r1: 263 joins, outside 25: 26, outside 60: 2
+strings c50: 464 joins, outside 25: 253, outside 60: 98
+strings r1: 464 joins, outside 25: 168, outside 60: 47

@@ -1,0 +1,49 @@
+# Cycle 9: changes (actor)
+
+Render c09 from a freshly restarted REAPER (32 tracks), then four level-only stem fixes (`tools/stem_fix.py`; first-render files in `cycles/c09/render_first/`). REAPER was updated afterwards with `build_reaper.py --mix-only` (all 32 tracks) and saved, so the project matches `build/`. Snapshot of the c08 tools and data: `cycles/c09/before/`. Scratch scripts: `/private/tmp/claude-501/mockup-loop/mvt1-c09-actor/`.
+
+## Main change: brass and clarinet dynamic layers on CC1 (critic C #1)
+
+Checked in the patch files (`opus_state.load_oib`, critic C's `rowtab.py`): in `1TB`, `1FH`, `1TP`, `1TU` KS Master and `CL KS Master` every dynamic layer group ("1Tb p/mp/f/ff", "1FH pp/mf/f/ff", "1V pp/p/mf/f/ff", "Tu pp/mf/f/ff", "Cl p/mp/f") has a `cc 1` MidiController on its Source volume; CC11 is only the Global Group volume. The BC KS Master and the string/FL/OB/BS KS Masters use CC11. Our CC1 was 53-89 on these tracks, so pp to fff all played the mp-f samples.
+
+- `tools/score_to_parts.py` `cc1_fn0`: new generic tables `CC1_DYN_TRACKS` (name prefixes), `CC1_DYN_MAP` (printed CC11 -> CC1: 22->18, 34->28, 46->42, 58->54, 72->68, 88->86, 114->108, 124->120), `CC1_HOLD` (constant CC1 per track). CC1 follows the printed dynamic curve with hairpins (`base`), not accents or fit shapes.
+- `build/score_config.py`: `CC1_DYN_TRACKS = ("Horn", "Trumpet", "Trombone", "Bass trombone", "Tuba", "Clarinet ")`; `CC1_HOLD = {"Contrabassoon": 40}` (its old CC1 sat in the CB KS Master's Non Vib fade-out, 64-80).
+- Measured timbre (note bodies, band re 0.5-1 kHz, by CC11 bin; c08 -> c09): Trumpet 1 4-8 kHz from the f to the ff bin -0.4 -> +6.7 dB; Trombone 1 4-8 kHz mf -> ff bin +6.2 -> +25.4 dB; Horn 1 2-4 kHz p -> f bin +1.1 -> +11.7 dB; Horn 3 +5.3 -> +14.4 dB. All pass C's targets (5 dB).
+- Measured level (per-note body change net of the envelope plan, bass clarinet and strings as controls at exactly 0.00 dB): soft brass fell (Horn 3 p -10.4, Trombone 1 pp -7.6, Tuba pp -9.4 dB), loud brass rose (f +1.3..+2.4, ff +0.2..+4.8, fff +1.8..+5.8); clarinets pp -3.7, f +2.7; contrabassoon -0.9 at ff. The first render's master peak was 1.91.
+- Stem fix 1 (`build/mix.json`): per-track `soft_trim_db` (ppp/pp/p/mp/mf) and `dyn_trim_db` (f/ff and a new `fff` anchor, `tools/build_reaper.py vol_points`) on the 11 brass tracks, both clarinets and the contrabassoon, set so each printed dynamic keeps its c08 level on the new layers (per-track median where a bucket has 5 or more notes, else the family median with 3 or more, else interpolated; contrabassoon soft buckets held at 0, single notes on a layer CC1 40 does not change). After the fix every bucket with 5+ notes is within -1.7..+0.7 dB of c08 (most within 0.3). Master peak 1.91 -> 1.45.
+- Accents (Dan's item 8): 2-5 kHz first 80 ms minus body stays negative on every brass accent except Horn 1 124 (+3.6, the known window artefact); the ff/fff low-brass attacks at 100/124/160/484/636 read -2..-36 dB. Stem fix 2: brass accents refit (`fit_accents.py 9 --family brass --write`): 16 -> 32 of 36 predicted in 2-4 dB, median +2.98.
+- Stem fix 3: the bars 167-170 a2 theme (legato rows, not caught by the per-dynamic medians) came out Trumpet 1 +4.8 and Horn 1 +2.9 dB over c08: roles Trumpet 1 [664, 678, -4, 1], Horn 1 [664, 678, -2.5, 1] (master there +1.2 -> +0.4 dB over c08).
+
+## Other accepted findings
+
+- A #1 short hairpins (`score_to_parts.py`, generic): `HP_SHORT_S = 0.6`, `HP_STEP_SHORT = 6`, `HP_SHORT_KINDS = ("decresc",)`, `HP_SHORT_RET_QN = 2.0`: an untargeted decrescendo of 0.6 s or less falls at most 6 CC; an untargeted crescendo starting within 2 qn after it returns to the level the short > came from (without this, Horn 1 bar 48 climbed 75 -> 88, over the first swell's 81). Short crescendos were left at the full step (a first version capped them too and halved Horn 1's bar-49 swell; no lurch was measured on crescendos). `HP_TARGET_AT["Vc"][683.5]` dropped. `PORTATO_JOIN_NOTCH = {"Horn 1": 4}` (generic per-track table; winds keep 10). Horn 1 bar 48: CC11 81 -> 61 became 81 -> 75. Measured: quarter minus eighth -6.3 -> -5.7 (188), -7.4 -> -6.7 (588), celli 684 -8.1 -> -7.1 dB; tenuto peak minus quarter +15.6 -> +13.9. Pass not reached: the remaining dip is the horn's and celli's legato transition sag at the quarter (CC11 now moves only 6 CC), so it needs a fill, not a hairpin rule.
+- A #2 test, kept: Violins I 57, 65, 113, 479 on `DOWNBOW_STROKE_AT` (fresh Sus MAX strokes, 0.06 s lead, the pickup 0.46 qn instead of 0.31); their `accent_fits.json` rows removed, then refit. Sample residual (level minus the envelope's share) -4.1/-6.6/-6.2/-5.0 -> -1.2/-3.7/-1.8/+0.8 dB; 2-5 kHz first 80 ms minus body -9..-14 dB. String accents refit (stem fix 2): 120 of 135 predicted in 2-4 dB. The fit's new [0, -6] on Violins I 477 (a 1.5 qn theme note, just outside `--keep-long-qn`) was removed by hand.
+- A #4 (`score_to_parts.py`, generic): `TREM_ENTRY_LEAD_S` (0.08 s in movement I): a tremolo note after a held note on another row starts early, the old notes end at the moved start (parts.json `trem_entries`); `TREM_SPLIT["clear_qn"]` 0.3 -> 1.0 (the Violins II piece moved 592.33 -> 593.03). Tremolo-change dips of 4 dB or more 7 -> 3 of 45: Vln I 664 -5.2 -> -1.8, Vln I/II 484 -6.8/-7.2 -> -1.2/+1.7, Vln II 304 -10.2 -> -6.7, celli 464 -4.9 -> -4.4. Not done: the +3 dB fill on split pieces (celli 469.7/477.0 still -3..-4 dB).
+- A #6: `auto_fills.py 8` pass (Flute 2 added to `build/auto_fills.json`): 13 entries written (Fl2 276-282, Bn1, celli, Ob1 579, BCl 708); Clarinet 1, Horn 1 (CC1 tracks), celli 484 and Fl2 633-642 (climax) kept as they were (the `--exclude` arguments did not match and were undone by hand). Not done: Horn 2 453/266 (not a lead-line track), celli Lento re-bow refit.
+- B #1 chorale: Trombone 1 role [696, 712, -2.5], trims Tbn1 700/710 -2, Tbn2 708 -2, Violins I role [707.5, 717, 3.5, 2]. Trombone 1 loudest stem in 10 -> 3 of 20 windows; Violins I 708-716 -11.1 -> -7.9 dB re master.
+- B #2 recapitulation: Violins I/II [552, 568, 2.5, 1], Violas and Horn 2 [552, 566, -2]. Violins I re master -9.4 -> -7.4 dB.
+- B #3: `LEVEL_SHAPES["Timpani"]` +5 dB over 632-635.9. Bar-159 roll -30.6 -> -25.4 dB by its last beat (+4.6 dB growth; c08 +0.8).
+- B #4: Horn 1 roles [183, 207, 2.5], [583, 607, 2.5], trims 189/206 -2. Horn 1 minus celli -1.9 -> -0.4 (bars 47-52), -2.6 -> -1.8 dB (147-152).
+- B #5: trims Horn 4 224 -4 / 240 -5, Bassoon 2 240 -5, Horn 2 role [220, 244, 2]. Horn 2 minus Violins I -3.5 -> -2.3 dB; Bassoon 2 at 240 +0.6 -> -2.6 dB re Clarinet 1.
+- B #6: `pitch_trims.json` Double basses E♭2 (39) +3 (skip 244); note trim 132 -4, then -7 in stem fix 4 (the bell2 change below raised that A♭1's 104 Hz partial). Basses bars 33-37: -40.9/-40.8/-45.0/-45.7/-46.2 -> -40.3/-42.6/-43.2/-41.9/-42.6 dB (the 5 dB step at bar 35 is gone).
+- C #2 depth (`build/mix.json`, full rebuild of 7 tracks): trumpet send 0.45 -> 0.65, Flute 1/2 and Oboe 1/2 send 0.5. Early release drop (sustain minus +0.15-0.25 s): trumpets 12.0-13.1 -> 8.4-9.7 dB (trombones 8.9); flutes/oboes 12.1-14.5 -> 10.0-13.2 (clarinets/bassoons 10.9-11.3). Flute/oboe gains -0.3/-0.5 dB for the added reverb (stem fix 1).
+- C #3 low end: basses `bell2` 100 Hz -5 -> -2, loud `bell2` 98 Hz -4 -> -2, celli `bell2` 125 Hz +3 (1 oct). Master loud 10% re 400-1600 Hz: 99 Hz -14.8 -> -11.8, 125 Hz -17.9 -> -17.4 (target -15: missed), 158 Hz -13.6 -> -13.0, 198 Hz -11.4 -> -10.0 (1.4 dB, just outside the 1 dB limit).
+- C #4: crash `LEVEL_SHAPES` extended (+5 dB at 638.5, +6 at 644). Crash stem at +1.5 s broadband -22.1 -> -16.9 dB re master, +2.5 s -30.6 -> -25.4; the 4-12 kHz figure moved only -11.9 -> -10.3, because the crash itself is most of the master's 4-12 kHz there (the target cannot be met by level).
+- C #5: `BREATH_SPLIT_AT` Bassoon 2 48 [51.4], Bass clarinet 492 [496.8, 500.9]. Bass clarinet autocorrelation at 3.95 s 0.81/0.76 -> 0.48/-0.23 (100-300 Hz / centroid); folded swing 6.9 -> 4.2 dB. Bassoon 2 best-period autocorrelation 0.44 -> 0.15.
+- C #6: seats Tam-tam and Crash +0.20, Suspended cymbal +0.30 (full rebuild of the 3 percussion tracks). Not measured separately.
+
+## Rejected or deferred
+
+- A #3 a2 horn track (33rd instance): deferred again. The CC1 change rebuilt every horn's timbre and level this cycle; a new horn patch on the same render would confound both. Memory allowed it (43 GB after this render).
+- A #5 harp étouffez: deferred. The bar-62 arpeggio's bass starts with the damp, so a volume-envelope damp on the harp track would cut it; needs a second harp instance or an Opus release edit (unverified).
+- A #4 fixed +3 dB fill on tremolo split pieces: not done (celli pieces -3..-4 dB).
+- A #6 Horn 2 453/266 fills and the celli Lento re-bow refit (49.683, 37.377): deferred.
+- A #1 pass not reached (above): the quarter's dip is a legato transition sag; next step is a fill at Horn 1 188/588 and celli 684.
+
+## Before / after (c08 -> c09, after the stem fixes)
+
+- Master (float stem sum): -16.4 -> -16.3 LUFS integrated, LRA 21.1 -> 21.1 LU, sample peak 1.387 -> 1.452 (true peak +3.3 dBFS on the float sum). Top peaks now 636.64 (Violins I 0.58, Tuba 0.51, Violins II 0.47, Bass trombone 0.42) and 485.01 (Bass trombone 0.44, Tam-tam 0.44, Tuba 0.41): low-frequency crest of the ff layer, not 2-5 kHz bursts.
+- Delivered mp3: -19.7 -> -19.8 LUFS, LRA 14.8 -> 14.7 LU, p10-to-max span 18.7 -> 18.2 dB, limiter 1.2 -> 2.0 dB, -1.6 dBTP. Motion (motion.py) 8.68/4.70 -> 8.84/4.70 dB.
+- Climax order kept: bar 160 -10.6 > bar 122 -11.1 > bars 167-170 -11.9 (c08 -10.3 / -10.9 / -12.0); margin 160 over 122 0.6 -> 0.5.
+- Attack probe: 0 flagged.
+- REAPER memory: 18 GB (0 compressed) before the render, 43 GB with 27 GB compressed after it (other processes: about 3 GB VM, 2 GB Steam, 1.5 GB python).

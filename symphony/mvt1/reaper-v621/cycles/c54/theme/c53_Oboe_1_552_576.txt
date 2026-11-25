@@ -1,0 +1,16 @@
+bar 139 beat 1.5 p67 note-on   -55 ms  sounds  +100 ms  heard   85 ms of  245 ( 35 %) pk -48 dB
+bar 139 beat 2.0 p77 note-on   -50 ms  sounds    -6 ms  heard  765 ms of  704 (109 %) pk -34 dB
+bar 139 beat 3.5 p75 note-on   -50 ms  sounds   +60 ms  heard  260 ms of  235 (111 %) pk -41 dB  under neighbours -0.9
+bar 139 beat 4.0 p74 note-on  -106 ms  sounds   +91 ms  heard  135 ms of  235 ( 58 %) pk -42 dB  under neighbours +0.4
+bar 139 beat 4.5 p72 note-on  -106 ms  sounds    -4 ms  heard  170 ms of  235 ( 72 %) pk -42 dB  under neighbours +1.2
+bar 140 beat 1.0 p73 note-on   -50 ms  sounds   +62 ms  heard  175 ms of  235 ( 75 %) pk -40 dB  under neighbours -2.0
+bar 140 beat 1.5 p75 note-on   -70 ms  sounds    +7 ms  heard  220 ms of  235 ( 94 %) pk -41 dB  under neighbours +3.5
+bar 140 beat 2.0 p77 note-on   -90 ms  sounds    -3 ms  heard  250 ms of  235 (107 %) pk -36 dB  under neighbours -5.3
+bar 140 beat 2.5 p79 note-on   -50 ms  NOT FOUND as dominant pitch
+bar 140 beat 3.0 p80 note-on   -50 ms  NOT FOUND as dominant pitch
+bar 141 beat 2.5 p79 note-on   -50 ms  sounds    +7 ms  heard   55 ms of  235 ( 23 %) pk -48 dB
+bar 141 beat 3.0 p77 note-on   -50 ms  sounds   -33 ms  heard  510 ms of  469 (109 %) pk -33 dB
+bar 141 beat 4.0 p74 note-on   -50 ms  sounds   +13 ms  heard  450 ms of  469 ( 96 %) pk -46 dB
+bar 142 beat 1.0 p72 note-on   -50 ms  sounds    -1 ms  heard  915 ms of  952 ( 96 %) pk -39 dB
+bar 142 beat 3.0 p71 note-on   -50 ms  sounds   -34 ms  heard 1815 ms of  987 (184 %) pk -35 dB
+Oboe 1         552-576: found 13 of 15 (+0 same-pitch repeats, 0 with a dip >= 3 dB), median +7 ms, SD 42, min -34, max +100; over 40 ms from median 5, over 25 ms 6; not sounding 2; under 60 % of printed length 3; eighths > 6 dB under neighbours 0; median share 96 %

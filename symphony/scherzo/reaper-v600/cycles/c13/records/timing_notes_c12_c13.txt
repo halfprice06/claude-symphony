@@ -1,0 +1,29 @@
+A2 strings VioI 144: 143->116  VioII 144: 135->105  Vio 144: 142->139  Vio 144: 48->22  VioI 157.5: 92->84  VioI 385.5: 45->80  VioI 853.5: 45->52  Vio 382: 181->72  Vio 387: 120->78  Vio 850: 186->-18  Vio 855: 143->55  Vio 840: None->None  Vio 192: None->None  Vio 853: 102->124  Vio 840: 164->164
+A3 celli Vio 345: -69->-11  Vio 945: -68->-11  Vio 844: -70->-11  Vio 171: 87->114  Vio 180: 72->72  Vio 207: 99->99  Vio 350: 60->0  Vio 855: 104->73  Vio 867: 85->79  Vio 880: 82->12  Vio 891: 141->141
+A3 V2/Va/V1 VioII 134: 77->77  VioII 159: 76->76  VioII 374: 98->98  VioII 387: 88->88  VioII 819: 125->125  VioII 840: 66->66  VioII 855: 88->88  VioII 372: 180->180  VioII 848: -98->-28  Vio 150: -91->-11  Vio 831: 97->12  VioI 146: 66->-46
+A1.4/5 Vio 173: 11->-76  Vio 173.5: 101->-36  Vio 869: -4->-52  Vio 869.5: 102->-30
+A2 winds Flute 1 median +36 range +30..+47 -> median +0 range -34..+15
+A2 winds Oboe 1 median +64 range +32..+96 -> median -43 range -56..+25
+A2 winds Cor anglais median +54 range +30..+78 -> median -17 range -38..+39
+A2 winds Clarinet 2 median +58 range +56..+62 -> median -14 range -25..-13
+A2 winds Flute 2 median +69 range +15..+85 -> median -19 range -46..-8
+A1.5 Violins I median -35.5 -> -6.0
+A1.5 Violins II median -32.5 -> -16.5
+Flute 2 joins 912-960 c12 n 42 median 28.5 over 60: 11
+Flute 2 joins 912-960 c13 n 42 median 36.5 over 60: 14
+Flute 1       >25:  18% ->  16%   >60:   2% ->   3%
+Flute 2       >25:  38% ->  36%   >60:  13% ->  12%
+Oboe 1        >25:  22% ->  19%   >60:   6% ->   2%
+Cor anglais   >25:  30% ->  25%   >60:   9% ->   7%
+Clarinet 1    >25:  32% ->  32%   >60:   6% ->   7%
+Clarinet 2    >25:  24% ->  19%   >60:   4% ->   3%
+Bassoon 1     >25:  40% ->  39%   >60:   5% ->   6%
+Bassoon 2     >25:  47% ->  45%   >60:  14% ->  16%
+Horn 1        >25:  42% ->  42%   >60:   5% ->   5%
+Horn 3        >25:  27% ->  28%   >60:   9% ->   6%
+Trumpet 1     >25:   8% ->   8%   >60:   0% ->   0%
+Trumpet 2     >25:   6% ->   6%   >60:   0% ->   0%
+Violins I     >25:  34% ->  25%   >60:   6% ->   3%
+Violins II    >25:  31% ->  27%   >60:   9% ->  10%
+Violas        >25:  29% ->  29%   >60:   5% ->   4%
+Violoncellos  >25:  44% ->  41%   >60:  11% ->   9%

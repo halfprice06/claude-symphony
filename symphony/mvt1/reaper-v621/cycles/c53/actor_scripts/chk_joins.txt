@@ -1,0 +1,16 @@
+== joins: /Users/gooby/.venvs/claude-composes-reaper/bin/python cycles/c52/actor_scripts/post52.py joins cycles/c52/render cycles/c52/rendered_build cycles/c53/render build
+Horn 1       joins  46 pcX new-old median   +0.0 ms (>40 ms earlier 0); level residual legato +0.00 (n 59) other +0.00 (n 50) -> legato-other +0.00 dB
+    earliest: 595.0:-1, 50.0:+0, 53.0:+0, 171.0:+0
+Horn 2       joins  25 pcX new-old median   +0.0 ms (>40 ms earlier 0); level residual legato +0.00 (n 32) other +0.00 (n 55) -> legato-other +0.00 dB
+    earliest: 245.5:-32, 246.0:-0, 172.0:+0, 223.0:+0
+Horn 3       joins  11 pcX new-old median   +0.0 ms (>40 ms earlier 0); level residual legato +0.00 (n 16) other +0.00 (n 115) -> legato-other +0.00 dB
+    earliest: 501.0:-6, 164.0:+0, 165.0:+0, 415.0:+0
+Horn 4       joins   6 pcX new-old median   +0.0 ms (>40 ms earlier 0); level residual legato +0.00 (n 15) other +0.00 (n 98) -> legato-other +0.00 dB
+    earliest: 413.0:+0, 415.0:+0, 416.0:+0, 418.0:+0
+Trumpet 1    joins  15 pcX new-old median   +0.0 ms (>40 ms earlier 0); level residual legato +0.16 (n 20) other +0.19 (n 57) -> legato-other -0.02 dB
+    earliest: 282.0:-1, 453.5:-1, 277.0:-1, 279.0:+0
+Trumpet 2    joins   1 pcX new-old median   +1.0 ms (>40 ms earlier 0); level residual legato +0.22 (n 3) other +0.22 (n 48) -> legato-other -0.00 dB
+    earliest: 453.0:+1
+Trumpet 3    joins   0 pcX new-old median   +nan ms (>40 ms earlier 0); level residual legato  +nan (n 0) other +0.20 (n 49) -> legato-other  +nan dB
+Trombone 1   joins  13 pcX new-old median   +0.0 ms (>40 ms earlier 1); level residual legato +0.23 (n 17) other +0.23 (n 88) -> legato-other +0.00 dB
+    earliest: 525.5:-139, 531.0:-37, 529.0:-2, 523.5:-1

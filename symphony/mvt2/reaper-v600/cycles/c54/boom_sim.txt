@@ -1,0 +1,18 @@
+110 notes; over 4 dB above both-neighbour mean: old 27, new 31; largest growth of the excess: +3.3 dB
+  qn   72.00 pitch 44: new +41.2 dB (old +41.7); level 6.2 -> 8.7
+  qn   78.00 pitch 44: new +34.1 dB (old +34.8); level 1.0 -> 3.4
+  qn  129.00 pitch 39: new +16.8 dB (old +14.3); level -11.0 -> -5.7
+  qn   69.00 pitch 41: new +12.5 dB (old +9.9); level -4.9 -> -0.1
+  qn  244.00 pitch 32: new +12.0 dB (old +14.4); level -3.8 -> -1.3
+  qn   62.00 pitch 40: new +11.5 dB (old +11.4); level -7.4 -> -2.1
+  qn  131.00 pitch 37: new +10.9 dB (old +9.5); level -9.3 -> -4.6
+  qn  216.00 pitch 33: new +10.7 dB (old +12.8); level 4.0 -> 5.6
+  qn  124.00 pitch 41: new +10.7 dB (old +10.1); level -5.7 -> -0.9
+  qn  146.00 pitch 30: new +9.8 dB (old +9.4); level -6.3 -> -2.2
+largest growth:
+  qn   84.00 pitch 39: new +9.6 dB (old +6.3)
+  qn  268.00 pitch 39: new +4.1 dB (old +1.4)
+  qn   69.00 pitch 41: new +12.5 dB (old +9.9)
+  qn  210.00 pitch 28: new +4.5 dB (old +1.9)
+  qn  193.00 pitch 39: new +1.5 dB (old -1.0)
+  qn  129.00 pitch 39: new +16.8 dB (old +14.3)

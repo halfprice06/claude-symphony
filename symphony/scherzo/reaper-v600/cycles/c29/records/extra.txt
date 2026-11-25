@@ -1,0 +1,59 @@
+== c28
+Double basses 312.0-360.0: n 16  peak -33.0 dB at +155 ms  -6 dB at -15 ms  body -35.8  2-5k front-body -1.8
+Tuba 312.0-360.0: n 16  peak -34.8 dB at +165 ms  -6 dB at +30 ms  body -37.0  2-5k front-body -6.0
+Bass trombone 312.0-360.0: n 15  peak -35.8 dB at +130 ms  -6 dB at +0 ms  body -37.3  2-5k front-body -1.6
+Trombone 1 312.0-360.0: n 16  peak -36.7 dB at +170 ms  -6 dB at +25 ms  body -38.0  2-5k front-body -4.5
+Contrabassoon 312.0-360.0: n 16  peak -40.3 dB at +130 ms  -6 dB at -45 ms  body -42.4  2-5k front-body -2.0
+strokes 0.0-40.0: n 11  peak -41.5 dB  1-5k share -18.2  20-150 share -3.8  peak at +35 ms
+strokes 264.0-300.0: n 24  peak -35.9 dB  1-5k share -17.3  20-150 share -4.0  peak at +20 ms
+strokes 300.0-362.0: n 29  peak -30.3 dB  1-5k share -15.4  20-150 share -4.9  peak at +20 ms
+strokes 600.0-640.0: n 1  peak -37.0 dB  1-5k share -16.7  20-150 share -1.7  peak at +55 ms
+strokes 900.0-962.0: n 29  peak -29.9 dB  1-5k share -15.2  20-150 share -4.0  peak at +20 ms
+strokes 990.0-1020.0: n 13  peak -30.7 dB  1-5k share -14.7  20-150 share -5.0  peak at +30 ms
+strokes 1020.0-1128.0: n 13  peak -53.9 dB  1-5k share -19.4  20-150 share -4.2  peak at +30 ms
+  roll   300.00 mean -36.9 dB
+  roll   384.00 mean -45.0 dB
+  roll   612.00 mean -44.6 dB
+  roll   708.00 mean -52.8 dB
+  roll   852.00 mean -45.0 dB
+  roll   906.00 mean -39.0 dB
+  roll   993.00 mean -44.4 dB
+  roll  1005.00 mean -35.1 dB
+median trough -3.9  eighth1 2-5k -0.1  landing +0.3  (n 9)
+master 36.0-84.0: downbeat over beats 2-3 median +2.9 dB (n 16)
+mp3    36.0-84.0: downbeat over beats 2-3 median +2.6 dB (n 16)
+master 312.0-360.0: downbeat over beats 2-3 median -0.3 dB (n 16)
+mp3    312.0-360.0: downbeat over beats 2-3 median -0.1 dB (n 16)
+master 912.0-960.0: downbeat over beats 2-3 median +1.2 dB (n 16)
+mp3    912.0-960.0: downbeat over beats 2-3 median +0.7 dB (n 16)
+master 984.0-1005.0: downbeat over beats 2-3 median -1.0 dB (n 7)
+mp3    984.0-1005.0: downbeat over beats 2-3 median -0.4 dB (n 7)
+master 1005.0-1017.0: downbeat over beats 2-3 median -0.1 dB (n 4)
+mp3    1005.0-1017.0: downbeat over beats 2-3 median +0.5 dB (n 4)
+== c29
+Double basses 312.0-360.0: n 16  peak -32.9 dB at +148 ms  -6 dB at -15 ms  body -35.9  2-5k front-body -1.8
+Tuba 312.0-360.0: n 16  peak -34.8 dB at +165 ms  -6 dB at +30 ms  body -37.0  2-5k front-body -6.0
+Bass trombone 312.0-360.0: n 15  peak -35.8 dB at +130 ms  -6 dB at +0 ms  body -37.3  2-5k front-body -1.6
+Trombone 1 312.0-360.0: n 16  peak -36.7 dB at +170 ms  -6 dB at +25 ms  body -38.0  2-5k front-body -4.5
+Contrabassoon 312.0-360.0: n 16  peak -40.3 dB at +130 ms  -6 dB at -45 ms  body -42.4  2-5k front-body -2.0
+strokes 0.0-40.0: n 11  peak -41.5 dB  1-5k share -18.2  20-150 share -3.8  peak at +35 ms
+strokes 264.0-300.0: n 24  peak -35.9 dB  1-5k share -17.3  20-150 share -4.0  peak at +20 ms
+strokes 300.0-362.0: n 29  peak -30.3 dB  1-5k share -15.4  20-150 share -4.9  peak at +20 ms
+strokes 900.0-962.0: n 29  peak -29.9 dB  1-5k share -15.2  20-150 share -4.0  peak at +20 ms
+strokes 990.0-1020.0: n 13  peak -30.7 dB  1-5k share -14.7  20-150 share -5.0  peak at +30 ms
+  roll   300.00 mean -36.9 dB
+  roll   384.00 mean -45.0 dB
+  roll   906.00 mean -39.0 dB
+  roll   993.00 mean -44.4 dB
+  roll  1005.00 mean -35.1 dB
+median trough -3.9  eighth1 2-5k -0.1  landing +0.3  (n 9)
+master 36.0-84.0: downbeat over beats 2-3 median +2.8 dB (n 16)
+mp3    36.0-84.0: downbeat over beats 2-3 median +2.4 dB (n 16)
+master 312.0-360.0: downbeat over beats 2-3 median +0.3 dB (n 16)
+mp3    312.0-360.0: downbeat over beats 2-3 median +0.3 dB (n 16)
+master 912.0-960.0: downbeat over beats 2-3 median +1.0 dB (n 16)
+mp3    912.0-960.0: downbeat over beats 2-3 median +0.5 dB (n 16)
+master 984.0-1005.0: downbeat over beats 2-3 median -0.9 dB (n 7)
+mp3    984.0-1005.0: downbeat over beats 2-3 median -0.2 dB (n 7)
+master 1005.0-1017.0: downbeat over beats 2-3 median -0.2 dB (n 4)
+mp3    1005.0-1017.0: downbeat over beats 2-3 median +0.1 dB (n 4)

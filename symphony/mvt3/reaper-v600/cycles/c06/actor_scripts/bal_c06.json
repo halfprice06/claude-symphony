@@ -1,0 +1,36 @@
+{
+ "family_dBA": {
+  "strings": 72.56,
+  "winds": 77.99,
+  "horns": 70.85,
+  "trumpets": 72.14,
+  "tbn+tuba": 71.84,
+  "harp": 57.27,
+  "timpani": 57.27,
+  "perc": 57.83
+ },
+ "family_minus_strings": {
+  "strings": 0.0,
+  "winds": 5.43,
+  "horns": -1.71,
+  "trumpets": -0.42,
+  "tbn+tuba": -0.72,
+  "harp": -15.29,
+  "timpani": -15.29,
+  "perc": -14.73
+ },
+ "checks": {
+  "Tpt1 51-66 minus rest": 0.4,
+  "bass theme 27-34 minus Vln I+II": 4.87,
+  "brass minus strings 223-234": 5.43,
+  "horns minus tpt+tbn+tuba 223-234": -3.61,
+  "brass minus strings 255-264": 5.54,
+  "horns minus tpt+tbn+tuba 255-264": -4.01,
+  "trumpets 211-218 minus tutti": -3.01,
+  "muted Tpt1 minus CA 171-186": -6.62,
+  "harp minus Vln I 123-134": 3.37,
+  "harp minus violins 67-82": -8.06,
+  "timpani share 30-150 Hz 271-279 %": 13.46,
+  "timpani share 30-150 Hz 223-226 %": 4.68
+ }
+}

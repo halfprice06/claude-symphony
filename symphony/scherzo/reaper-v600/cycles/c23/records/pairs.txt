@@ -1,0 +1,18 @@
+== c22
+Violins I pair 67: -13.5 / -13.2 dB vs neighbours (Leg Slur MAX) seq [(66.0, np.float64(-40.6)), (67.0, np.float64(-49.2)), (67.5, np.float64(-48.9)), (68.0, np.float64(-30.9))]
+Violins I pair 113: -3.9 / -8.7 dB vs neighbours (Leg Slur MAX) seq [(113.0, np.float64(-37.9)), (113.5, np.float64(-42.7)), (114.0, np.float64(-33.9))]
+Violins I pair 125: -7.2 / -8.8 dB vs neighbours (Leg Slur MAX) seq [(125.0, np.float64(-33.1)), (125.5, np.float64(-34.6)), (126.0, np.float64(-25.9))]
+Violins I pair 209: -7.1 / -8.4 dB vs neighbours (Leg Slur MAX) seq [(209.0, np.float64(-33.2)), (209.5, np.float64(-34.5)), (210.0, np.float64(-26.2))]
+Violins I pair 787: -7.9 / -5.8 dB vs neighbours (Leg Slur MAX) seq [(786.0, np.float64(-36.0)), (787.0, np.float64(-39.5)), (787.5, np.float64(-37.4)), (788.0, np.float64(-27.2))]
+Violins I pair 821: -3.0 / -11.3 dB vs neighbours (Leg Slur MAX) seq [(821.0, np.float64(-32.0)), (821.5, np.float64(-40.3)), (822.0, np.float64(-28.9))]
+Violins I pair 893: -9.2 / -12.9 dB vs neighbours (Leg Slur MAX) seq [(893.0, np.float64(-36.2)), (893.5, np.float64(-40.0)), (894.0, np.float64(-27.0))]
+Violins I pairs: median -8.6, min -13.5, worst-of-pair median -8.8
+== c23
+Violins I pair 67: -7.6 / -10.7 dB vs neighbours (Leg Slur MAX) seq [(66.0, np.float64(-40.6)), (67.0, np.float64(-43.4)), (67.5, np.float64(-46.4)), (68.0, np.float64(-30.9))]
+Violins I pair 113: -3.9 / -8.7 dB vs neighbours (Leg Slur MAX) seq [(113.0, np.float64(-37.9)), (113.5, np.float64(-42.7)), (114.0, np.float64(-33.9))]
+Violins I pair 125: -7.2 / -8.8 dB vs neighbours (Leg Slur MAX) seq [(125.0, np.float64(-33.1)), (125.5, np.float64(-34.6)), (126.0, np.float64(-25.9))]
+Violins I pair 209: -7.1 / -8.4 dB vs neighbours (Leg Slur MAX) seq [(209.0, np.float64(-33.2)), (209.5, np.float64(-34.5)), (210.0, np.float64(-26.2))]
+Violins I pair 787: -7.9 / -5.8 dB vs neighbours (Leg Slur MAX) seq [(786.0, np.float64(-36.0)), (787.0, np.float64(-39.5)), (787.5, np.float64(-37.4)), (788.0, np.float64(-27.2))]
+Violins I pair 821: -3.0 / -11.3 dB vs neighbours (Leg Slur MAX) seq [(821.0, np.float64(-32.0)), (821.5, np.float64(-40.3)), (822.0, np.float64(-28.9))]
+Violins I pair 893: -9.2 / -12.9 dB vs neighbours (Leg Slur MAX) seq [(893.0, np.float64(-36.2)), (893.5, np.float64(-40.0)), (894.0, np.float64(-27.0))]
+Violins I pairs: median -8.1, min -12.9, worst-of-pair median -8.8

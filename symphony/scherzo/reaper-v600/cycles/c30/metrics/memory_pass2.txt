@@ -1,0 +1,4 @@
+at start (before the settle wait): REAPER 1189M, compressed 0.0 GB
+before render (settled): REAPER 1190M, compressed 0.0 GB
+after render: REAPER 1212M, compressed 0.0 GB
+audio device at render: {"BSIZE": "512", "IDENT_IN": "CoreAudio ", "IDENT_OUT": "CoreAudio Mac Studio Speakers", "MODE": "", "SRATE": "48000", "running": 1}
