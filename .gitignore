@@ -23,3 +23,7 @@ symphony/mvt2/v*/score.mp3
 
 # macOS Finder
 .DS_Store
+
+# Copyrighted reference books are not committed (see reference-books/README.md)
+/pdfs/
+/reference-books/text/
