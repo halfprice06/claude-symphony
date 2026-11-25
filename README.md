@@ -7,7 +7,7 @@ Files from the "Music" Claude project: a four-movement neo-Romantic symphony com
 - The symphony has four movements: I (C minor, `symphony/mvt1/`), II Adagio (A flat, `symphony/mvt2/`), III Scherzo (E, `symphony/scherzo/`), IV Finale (`symphony/mvt3/`; the folder name predates the scherzo).
 - Final scores: `symphony/mvt1/v621`, `symphony/mvt2/v600`, `symphony/scherzo/v600`, `symphony/mvt3/v600` (LilyPond source, MIDI, score and parts PDFs, rebuilt with LilyPond 2.24).
 - How the music was written: `symphony/LOOP-METHOD.md` (the compose/critique loop), each movement's plan, `CHECKPOINT.md`, `critics/` and `tools/`, and `symphony/coherence/` (themes shared across movements).
-- How the mockups were made: `mockup-kit/README.md` and `mockup-kit/LEARNINGS.md`, then `mockup-kit/loop/` (one folder of loop notes per movement series) and `mockup-kit/pipeline/` (score-to-REAPER tools and each movement's config).
+- How the mockups were made: `mockup-kit/README.md` and `mockup-kit/LEARNINGS.md`, then `mockup-kit/loop/` (one folder of loop notes per movement series) and `mockup-kit/pipeline/` (score-to-REAPER tools and each movement's config). The full working record of every mockup cycle is in the REAPER work folders: `symphony/mvt1/reaper` and `symphony/mvt2/reaper` (first series), then `symphony/mvt1/reaper-v621`, `symphony/mvt2/reaper-v600`, `symphony/scherzo/reaper-v600` and `symphony/mvt3/reaper-v600`. Each has `loop/` (brief, history, learnings), `build/` (config), `tools/` and `cycles/cNN/` (that cycle's `CHANGES.md`, three critic reports and measurements).
 - How the videos were made: `symphony/video/glow/README.md`.
 - Final mockup renders: Movement I cycle 63, II cycle 57, scherzo cycle 30, finale cycle 30. The audio and video files are not in git (see "Not in the repository").
 
@@ -31,5 +31,5 @@ Files from the "Music" Claude project: a four-movement neo-Romantic symphony com
 
 ## Not in the repository
 
-- Mockup audio (mp3, stems), the score video MP4s and the REAPER project files. They are on the Mac that ran REAPER, under `symphony/<movement>/reaper-v6xx/cycles/cNN/` and `symphony/video/glow/`; the finished video is on YouTube.
+- Mockup audio (mp3, stems), the score video MP4s and the REAPER project files. The work folders on main hold text only: per-cycle actor and critic scripts, logs, plots, the `before/` snapshots and notes over 1 MB were left out. They are on the Mac that ran REAPER, under `symphony/<movement>/reaper-v6xx/cycles/cNN/` and `symphony/video/glow/`; the finished video is on YouTube.
 - Sample libraries and soundfonts (EastWest Hollywood Orchestra, VPO3, Iowa, Philharmonia) and the FLAC reference recordings. Sources are in `symphony/render/assets/README.md`.
