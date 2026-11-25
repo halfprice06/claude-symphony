@@ -27,3 +27,13 @@ symphony/mvt2/v*/score.mp3
 # Copyrighted reference books are not committed (see reference-books/README.md)
 /pdfs/
 /reference-books/text/
+
+# Third-party study material is not committed (see the README in each folder)
+/guides/eastwest-hollywood-orchestra/pdfs/
+/guides/eastwest-hollywood-orchestra/text/
+/guides/eastwest-hollywood-orchestra/web/
+/guides/eastwest-hollywood-orchestra/youtube/
+/mockup-kit/reference/*/
+/symphony/mockup-research/ew-template-2026-11-08/balfe/
+/symphony/mockup-research/ew-template-2026-11-08/ho-mix-chunks/
+/symphony/mockup-research/ew-template-2026-11-08/ho-mix-fx.json

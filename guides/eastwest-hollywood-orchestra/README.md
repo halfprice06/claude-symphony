@@ -1,5 +1,7 @@
 # EastWest Hollywood Orchestra (Opus Edition): reference material
 
+> **Not in this repository.** The manuals (`pdfs/`, `text/`), the saved web pages (`web/`) and the YouTube transcripts (`youtube/`) belong to their authors and were removed from the repository and its history. This page stays as the list of what was read and where to find it (manuals: `media.soundsonline.com`; the web pages and videos by the titles and links below). `DIGEST.md` is Claude's own summary of them.
+
 Manuals, reviews, forum threads and YouTube transcripts about EastWest's Hollywood Orchestra Opus Edition, the Opus engine and Hollywood Orchestrator. Collected 2026-10-10.
 
 ## Manuals (`pdfs/`, text in `text/`)

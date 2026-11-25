@@ -1,5 +1,7 @@
 # EastWest Templates 2 (Hollywood Orchestra, REAPER): extracted data
 
+> **Partly removed.** `ho-mix-fx.json`, `ho-mix-chunks/` (plugin states copied out of EastWest's template) and `balfe/` (Lorne Balfe's MIDI sketches) were removed from the repository and its history, as were the source files in `mockup-kit/reference/`. The reports and scripts here are the project's own; `scripts/extract_fx.py` regenerates the removed data from EastWest's free template.
+
 Read from EastWest's free HO REAPER template ("EW Hollywood Orchestra Template (Midi Included).RPP", Templates 2, 2026; https://www.soundsonline.com/templates-2). A study copy without the Opus plugin states is in `mockup-kit/reference/eastwest-templates/`; the full project is in EastWest's zip. Findings are in `FINDINGS.md`.
 
 - `ho-mix-fx.json`: every mix track's fader, pan and receives (with the raw AUXRECV line), plus each FX chunk: the REAPER chunk header and base64 lines exactly as in the .RPP, the decoded ReaEQ bands, and the decoded Spaces II state JSON. Opus chunks are left out; their mic settings are in `opus-mics.txt`.

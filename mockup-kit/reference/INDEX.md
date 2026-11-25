@@ -1,8 +1,10 @@
 # Reference mockups for study
 
+> **Not in this repository.** The project files and MIDI files described below (`eastwest-templates/`, `bernard-duc/`, `cubase-vsl/`, `expert-midi/`, `lorne-balfe/`) are other people's work and were removed from the repository and its history. This page stays as the list of what was studied and where each file came from. Claude's measurements of them are in `symphony/mockup-research/ew-template-2026-11-08/` and `rppstrip.py` is the project's own tool.
+
 These are other people's mockup files, collected on 2026-11-08 by the thread "Find sample mockup projects to study", so the mockup threads and their critics can open the originals. What was measured in them is in `symphony/mockup-research/ew-template-2026-11-08/FINDINGS.md` (parts are named below), with the statistics next to it (`expert-report.txt`, `cubase-report.txt`, `balfe-report.txt` and the others listed in that folder's `README.md`).
 
-Most of these files are fan or composer mockups of copyrighted film scores, shared free by their authors for study. They are kept in this private repo for study only. Do not redistribute them.
+Most of these files are fan or composer mockups of copyrighted film scores, shared free by their authors for study. They were used for study only and are not redistributed here.
 
 ## Analysis tools
 The scripts are in `symphony/mockup-research/ew-template-2026-11-08/scripts/` (run with `python3 -I`):
